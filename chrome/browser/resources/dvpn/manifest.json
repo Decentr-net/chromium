@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "dVPN",
+  "description": "Lelantos - Decentr VPN",
+  "author": "Decentr",
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "icons": {
+    "16": "assets/icons/16_active.png",
+    "32": "assets/icons/32_active.png",
+    "64": "assets/icons/64_active.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "assets/icons/16_active.png",
+      "32": "assets/icons/32_active.png",
+      "64": "assets/icons/64_active.png"
+    },
+    "default_popup": "lelantos/index.html#",
+    "default_title": "dVPN"
+  },
+  "permissions": [
+    "proxy",
+    "storage",
+    "tabs",
+    "unlimitedStorage",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": [
+      "scripts/background-script.js"
+    ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuwxV+B0Fd+OZkEwkdAzkAH94mmZz3MfVsmsTm2iUr1VGEvMDYX2zZkrIJXIOquxUNwC1KECeK/roPToRSkqt4SOrRxRLw/uzSn3XLEYb+nzd/15Hd8VwUkisP3KPxr3EnvlRoAvmgRXDOYnSf8kcgc3msqSNy/Y930fYboefknHp5snCWNcMXb+7zLgGufQWZxz9QFJGfZXVK9doNQ0e2zsBrecAhHihrpTFmKaxb+tNm9w9nWjyAU2ZplPx3uifw+5bEYPKLOGOnrn4x5CFD+QHIziYti8YM9GepRuoMH4lkitAp5+j++DK4Dw/qiX+bNtyOcHq/xrfyzt+RW9eVQIDAQAB",
+  "minimum_chrome_version": "58",
+  "version": "1.0.4"
+}

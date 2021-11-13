@@ -1,0 +1,17 @@
+{
+  "vpn_page": {
+    "browse_securely_from": "Browse from",
+    "browsing_securely_from": "Browsing from",
+    "connection": {
+      "secured": "Your connection is safe!",
+      "insecure": "Now you browsing without VPN."
+    },
+    "firefox_hint": "To be able to enable proxy: open Firefox's extension settings and allow \"Run in Private Windows\".",
+    "unknown_browser": "We can't recognize your browser. Be sure you use Decentr browser.",
+    "status": {
+      "off": "Off",
+      "on": "On"
+    },
+    "title": "Decentr VPN"
+  }
+}

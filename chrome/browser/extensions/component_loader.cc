@@ -551,8 +551,10 @@ void ComponentLoader::AddDefaultComponentExtensionsWithBackgroundPages(
 
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
-  Add(IDR_CRYPTOTOKEN_MANIFEST,
-      base::FilePath(FILE_PATH_LITERAL("cryptotoken")));
+  Add(IDR_CRYPTOTOKEN_MANIFEST, base::FilePath(FILE_PATH_LITERAL("cryptotoken")));
+  Add(IDR_DBLOCK_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("dblock")));
+  Add(IDR_CHARON_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("charon")));
+  Add(IDR_DVPN_MANIFEST,        base::FilePath(FILE_PATH_LITERAL("dvpn")));
 }
 
 void ComponentLoader::

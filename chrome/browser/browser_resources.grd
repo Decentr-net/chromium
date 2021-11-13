@@ -137,6 +137,9 @@
       <include name="IDR_USB_DEVICE_MOJOM_WEBUI_JS" file="${root_gen_dir}\mojom-webui\services\device\public\mojom\usb_device.mojom-webui.js" use_base_dir="false" type="BINDATA" />
       <include name="IDR_WEBSTORE_MANIFEST" file="resources\webstore_app\manifest.json" type="BINDATA" />
       <include name="IDR_CRYPTOTOKEN_MANIFEST" file="resources\cryptotoken\manifest.json" type="BINDATA" />
+      <include name="IDR_CHARON_MANIFEST" file="resources\charon\manifest.json" type="BINDATA" />
+      <include name="IDR_DBLOCK_MANIFEST" file="resources\dblock\manifest.json" type="BINDATA" />
+      <include name="IDR_DVPN_MANIFEST" file="resources\dvpn\manifest.json" type="BINDATA" />
       <if expr="chromeos">
         <!-- Shared images for ChromeOS WebUIs -->
         <include name="IDR_CHROME_OS_AN_ERROR_OCCURRED_SVG" file="resources\chromeos\images\an_error_occurred.svg" type="BINDATA" />

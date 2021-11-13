@@ -1,0 +1,57 @@
+{
+  "import_restore_page": {
+    "back": "Back",
+    "form": {
+      "confirm_password": {
+        "errors": {
+          "compare": "Passwords should be equal",
+          "required": "Password is required"
+        },
+        "label": "Repeat password"
+      },
+      "password": {
+        "errors": {
+          "required": "Password is required",
+          "password": "Password is too weak"
+        },
+        "label": "Password",
+        "title": "Create a new password"
+      },
+      "seed": {
+        "errors": {
+          "exists": "Invalid seed phrase. Please check every word and divide them with space",
+          "length": "Seed phrase should contain 24 words",
+          "required": "Seed phrase is required"
+        },
+        "label": "Your seed phrase",
+        "subtitle": "Enter all the words from you seed phrase dividing it with spaces.",
+        "title": "Log in with seed phrase"
+      }
+    },
+    "import": {
+      "submit": "Log in",
+      "title": "Log in with seed phrase"
+    },
+    "restore": {
+      "submit": "Restore",
+      "title": "Restore an account with seed phrase"
+    }
+  },
+  "login_page": {
+    "form": {
+      "password": {
+        "label": "Password",
+        "errors": {
+          "invalid": "Invalid password",
+          "required": "Password is required"
+        }
+      },
+      "submit": "Unlock"
+    },
+    "forgot_password": "Forgot your password?",
+    "restore": "Restore your account",
+    "subtitle": "Your extension is locked",
+    "title": "Unlock your account",
+    "with_seed": "with Seed Phrase"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "back": "< Back",
+  "account_form_page": {
+    "back": "Back",
+    "form": {
+      "confirm_password": {
+        "label": "Repeat password",
+        "errors": {
+          "compare": "Passwords should be equal",
+          "required": "Password is required"
+        }
+      },
+      "email": {
+        "errors": {
+          "email": "Enter valid email",
+          "required": "Email is required"
+        },
+        "label": "Email",
+        "subtitle": "We’ll use this email to sent the confirmation code, so be sure you have an access to it.",
+        "title": "Connect your email"
+      },
+      "password": {
+        "errors": {
+          "required": "Password is required",
+          "password": "Password is too weak"
+        },
+        "label": "New password (min 8 chars)",
+        "subtitle": "We’ll use this email to sent the confirmation code, so be sure you have an access to it.",
+        "title": "Create a new password"
+      },
+      "terms_of_use": {
+        "link": "Terms of Use",
+        "have_read": "I have read and agree to",
+        "errors": {
+          "required": "Please agree to Terms of Use"
+        }
+      }
+    },
+    "submit": "Done"
+  },
+  "complete_registration": {
+    "submit": "Save",
+    "title": "User settings",
+    "toastr": {
+      "errors": {
+        "429": "Too many requests. Try again later"
+      }
+    }
+  },
+  "email_confirmation_page": {
+    "form": {
+      "code": {
+        "errors": {
+          "required": "Code is required"
+        }
+      }
+    },
+    "did_not_get_code": "Didn't get the letter or couldn't find it?",
+    "ensure": "Just want to ensure we deal with real people.",
+    "register_new_account": "Register new account",
+    "resend_code": "Resend confirmation code",
+    "resend_code_will_able": "It will be possible to resend the code in {{ time }} sec.",
+    "sent": "We've send you the confirmation code to the",
+    "submit": "Confirm",
+    "title": "Please confirm your email",
+    "errors": {
+      "account_conflict": "Account already confirmed",
+      "account_not_found": "Account not found or activation code is not valid"
+    }
+  },
+  "email_confirmed_card": {
+    "hint": "You can change it later in user settings if you need it.",
+    "subtitle": {
+      "afterEmail": "email.",
+      "beforeEmail": "Now your user profile is connected with"
+    },
+    "title": "Perfect, your email is confirmed!"
+  },
+  "pdv_consent": {
+    "confirm": "Confirm",
+    "hint": "You’ll be able to change it later in user settings page.",
+    "title": "You’re successfully logged in as"
+  },
+  "seed_phrase_page": {
+    "back": "Back",
+    "copy": "Copy",
+    "download_pdf": "Download .pdf",
+    "next": "Next",
+    "print": "Print",
+    "seed_copied": "The seed phrase was copied successfully",
+    "seed_label": "Your seed phrase",
+    "subtitle": "It is the only way to import or restore your account, so copy, download, print and store it safely!",
+    "title": "Store your seed phrase",
+    "warning": {
+      "label": "Never share your seed phrase with anyone.",
+      "text1": "Anyone with this phrase can take your Decs forever.",
+      "text2": "We won’t be able to recover it or return your account and wallet to you.",
+      "text3": "If you’ll lose the seed phrase you’ll lose your account forever."
+    }
+  },
+  "sign_up_page": {
+    "errors": {
+      "account_conflict": "A wallet has already been created for this email or wallet address",
+      "invalid_email": "Invalid email",
+      "too_many_requests": "Too many requests"
+    },
+    "step": "step",
+    "title": "Create new account"
+  },
+  "success_page": {
+    "done": "Done",
+    "hint": {
+      "label": "Decentr can't recover your seed phrase!"
+    },
+    "subtitle": "Keep your seed phrase safe and remember that's the only key to all you have on Decentr.",
+    "tips": {
+      "tip1": "Save backup in multiple places and never share the phrase with anyone.",
+      "tip2": "Be careful of fishing! Decentr will never spontaneously ask for your seed phrase.",
+      "tip3": "If you ever have questions or see something fishy, email <a href='mailto:support@decentr.net'>support@decentr.net</a>."
+    },
+    "title": "Congratulations, you're all set!"
+  }
+}
