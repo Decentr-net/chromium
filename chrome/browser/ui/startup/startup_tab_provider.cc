@@ -350,12 +350,16 @@ StartupTabs StartupTabProviderImpl::GetPreferencesTabsForState(
   return tabs;
 }
 
+const char kCharonWelcome[] =
+    "chrome-extension://jmcganicnoomocjmplooahfffkaipbnn/charon/index.html#/"
+    "welcome";
+
 // static
 StartupTabs StartupTabProviderImpl::GetNewTabPageTabsForState(
     const SessionStartupPref& pref) {
   StartupTabs tabs;
   if (!pref.ShouldRestoreLastSession())
-    tabs.emplace_back(GURL(chrome::kChromeUINewTabURL));
+    tabs.emplace_back(GURL(kCharonWelcome));
   return tabs;
 }
 
@@ -374,14 +378,14 @@ StartupTabs StartupTabProviderImpl::GetNewFeaturesTabsForState(
     bool whats_new_enabled) {
   StartupTabs tabs;
   if (whats_new_enabled)
-    tabs.emplace_back(whats_new::GetWebUIStartupURL());
+    tabs.emplace_back(GURL(kCharonWelcome));
   return tabs;
 }
 #endif
 
 // static
 GURL StartupTabProviderImpl::GetWelcomePageUrl(bool use_later_run_variant) {
-  GURL url(chrome::kChromeUIWelcomeURL);
+  GURL url(kCharonWelcome);
   return use_later_run_variant
              ? net::AppendQueryParameter(url, "variant", "everywhere")
              : url;
