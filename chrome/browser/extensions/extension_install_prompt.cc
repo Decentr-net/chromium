@@ -560,7 +560,7 @@ void ExtensionInstallPrompt::ShowDialog(
   // to allow the user to revert if they don't like it.
   // Don't show add extension prompt for our extensions
   if (extension->id() == extensions::kDthemeExtensionIds[0]) {
-      std::move(done_callback_).Run(Result::ACCEPTED);
+      std::move(done_callback_).Run(DoneCallbackPayload(Result::ACCEPTED));
       return;
   }  
 
