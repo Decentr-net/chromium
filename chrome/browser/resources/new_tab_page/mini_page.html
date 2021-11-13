@@ -13,18 +13,18 @@
   }
 
   .mini-header {
-    height: 28%;
-    width: 92%;
+    height: 26%;
+    width: 70%;
   }
 
   :host(:not([single-colored-logo])) .mini-header {
-    background-image: url(icons/colored_header.svg);
+    background-image: url(icons/logo.png);
     background-repeat: no-repeat;
     background-size: 100%;
   }
 
   :host([single-colored-logo]) .mini-header {
-    -webkit-mask-image: url(icons/colored_header.svg);
+    -webkit-mask-image: url(icons/logo.png);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100%;
     background-color: var(--google-grey-refresh-300);
@@ -43,7 +43,7 @@
   @media (prefers-color-scheme: dark) {
     :host(:not([single-colored-logo])) .mini-header,
     .mini-header {
-      -webkit-mask-image: url(icons/colored_header.svg);
+      -webkit-mask-image: url(icons/logo.png);
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-size: 100%;
       background: white;

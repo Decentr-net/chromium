@@ -13,22 +13,15 @@
   }
 
   #logo {
-    forced-color-adjust: none;
+    background-image: url(./icons/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     height: 92px;
     width: 272px;
   }
 
-  :host([single-colored]) #logo {
-    -webkit-mask-image: url(./icons/google_logo.svg);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 100%;
-    background-color: var(--ntp-logo-color);
-  }
-
-  :host(:not([single-colored])) #logo {
-    background-image: url(./icons/google_logo.svg);
-  }
-
+ 
   #imageDoodle {
     cursor: pointer;
     outline: none;
