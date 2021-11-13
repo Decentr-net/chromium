@@ -301,10 +301,10 @@ SkColor ThemeProperties::GetDefaultColor(int id,
     if (incognito_color.has_value())
       return incognito_color.value();
   }
-  if (dark_mode) {
-    absl::optional<SkColor> dark_mode_color = GetDarkModeColor(id);
-    if (dark_mode_color.has_value())
-      return dark_mode_color.value();
-  }
+  
+  absl::optional<SkColor> dark_mode_color = GetDarkModeColor(id);
+  if (dark_mode_color.has_value())
+    return dark_mode_color.value();
+  
   return GetLightModeColor(id);
 }
