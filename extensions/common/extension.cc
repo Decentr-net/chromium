@@ -50,6 +50,9 @@ using extensions::mojom::ManifestLocation;
 
 namespace extensions {
 
+const char* kDthemeExtensionIds[]={"ookfecjdaahmnpffijdogkkjchfhpobf"};
+const char* kDthemeExtensionFilename[]={"dtheme.crx"};
+
 namespace keys = manifest_keys;
 namespace values = manifest_values;
 namespace errors = manifest_errors;
