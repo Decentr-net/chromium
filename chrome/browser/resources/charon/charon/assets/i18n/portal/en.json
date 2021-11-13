@@ -1,0 +1,88 @@
+{
+  "activity_page": {
+    "details": "Details",
+    "date": "Date",
+    "no_activity": "You have no activity data",
+    "collected_info": "Collected information"
+  },
+  "assets_page": {
+    "add_token": "Add token",
+    "no_transactions": "You have no transactions for selected token",
+    "send": "Send",
+    "tokens": "Tokens",
+    "transactions": "Transactions"
+  },
+  "pdv_rate": {
+    "estimated_balance": "In progress: {{estimatedBalance}} PDV",
+    "no_pdv_rate": "You have no PDV Rate data",
+    "not_enough_pdv_rate": "Not enough data for the chart"
+  },
+  "portal_navigation": {
+    "activity": "Activity",
+    "assets": "Assets",
+    "pdv_rate": "PDV rate",
+    "staking": "Staking",
+    "vpn": "VPN"
+  },
+  "portal_page": {
+    "copy_wallet_address": "Copy wallet address",
+    "wallet_address_copied": "The wallet address was copied successfully"
+  },
+  "token_transactions_table": {
+    "copy_tx": "Copy transaction hash",
+    "fee": "Fee",
+    "from": "From",
+    "memo": "Memo",
+    "open_link": "View on dExplorer",
+    "received": "Received",
+    "sent": "Sent",
+    "to": "To",
+    "wallet_address_copied": "The transaction hash was copied successfully"
+  },
+  "transfer_page": {
+    "cancel": "Cancel",
+    "form": {
+      "amount": {
+        "errors": {
+          "insufficient": "Insufficient funds",
+          "min": "Minimum value is {{ min }}",
+          "pattern": "Incorrect amount format",
+          "required": "Amount is required"
+        },
+        "fee": "Fee",
+        "label": "Amount"
+      },
+      "to": {
+        "errors": {
+          "exists": "Enter valid wallet address",
+          "myAddress": "You cannot send to your own account",
+          "required": "Wallet address is required"
+        },
+        "label": "To",
+        "placeholder": "Enter wallet address"
+      },
+      "memo": {
+        "label": "Memo"
+      }
+    },
+    "notifications": {
+      "success": "Successfully sent"
+    },
+    "send": "Send",
+    "sending": "Sending..."
+  },
+  "vpn_page": {
+    "browse_securely_from": "Browse securely from",
+    "browsing_securely_from": "Browsing securely from",
+    "connection": {
+      "secured": "Your connection is secured!",
+      "insecure": "Now you browsing insecurely"
+    },
+    "firefox_hint": "To be able to enable proxy: open Firefox's extension settings and allow \"Run in Private Windows\".",
+    "unknown_browser": "We can't recognize your browser. Be sure you use Chrome or Firefox.",
+    "status": {
+      "off": "Off",
+      "on": "On"
+    }
+  }
+}

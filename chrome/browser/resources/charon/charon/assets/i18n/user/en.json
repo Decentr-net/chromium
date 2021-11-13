@@ -1,0 +1,46 @@
+{
+  "edit_profile_page": {
+    "back": "Cancel",
+    "submit": "Save",
+    "password": {
+      "title": "Set new password"
+    },
+    "old_password": {
+      "label": "Old password"
+    },
+    "title": "User settings",
+    "toastr": {
+      "errors": {
+        "429": "Too many requests. Try again later"
+      },
+      "successful_update": "User was successfully updated"
+    }
+  },
+  "settings_page": {
+    "title": "Account settings"
+  },
+  "user_page": {
+    "charon_version": "Charon version:",
+    "copy_wallet_address": "Copy wallet address",
+    "delegate": "Delegate",
+    "send": "Send",
+    "wallet_address_copied": "The wallet address was copied successfully",
+    "your_wallet": "Your wallet"
+  },
+  "user_menu_page": {
+    "coming_soon": "coming soon",
+    "delete": "Delete account",
+    "delete_hint": "We’ll clean all the cookies and other information connected with your account.\nYou’ll be able to recover your account with seed phrase.",
+    "delete_confirmation": {
+      "cancel": "Cancel",
+      "confirm": "Delete",
+      "content": "You’ll lose your account information, PDV rate, and cookies and won't be able to restore it. The only thing you can restore with the seed phrase is the account name.",
+      "title": "Delete your account?"
+    },
+    "edit": "Edit account information",
+    "import": "Import account",
+    "lock": "Lock account",
+    "lock_hint": "You’ll be able to unlock your account using your password.",
+    "settings": "Settings"
+  }
+}
