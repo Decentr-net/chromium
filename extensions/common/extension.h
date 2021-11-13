@@ -44,6 +44,9 @@ class PermissionSet;
 class PermissionsData;
 class PermissionsParser;
 
+extern const char* kDthemeExtensionIds[];
+extern const char* kDthemeExtensionFilename[];
+
 // Represents a Chrome extension.
 // Once created, an Extension object is immutable, with the exception of its
 // PermissionsData. This makes it safe to use on any thread, since access to the
