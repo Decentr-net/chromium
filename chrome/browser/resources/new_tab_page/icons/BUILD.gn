@@ -29,6 +29,8 @@ generate_grd("build_grdp") {
     "shortcut_circles.svg",
     "twitter.svg",
     "upload.svg",
+    "background.png",
+    "logo.png",
   ]
   input_files_base_dir = rebase_path(".", "//")
   resource_path_prefix = "icons"
