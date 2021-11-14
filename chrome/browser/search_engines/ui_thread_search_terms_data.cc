@@ -86,7 +86,7 @@ std::string UIThreadSearchTermsData::GetSuggestClient() const {
 #if defined(OS_ANDROID)
   // Android does not send non-searchbox suggest requests from NTP at this time.
   return ui::GetDeviceFormFactor() == ui::DEVICE_FORM_FACTOR_PHONE ?
-      "chrome" : "chrome-omni";
+      "decentr" : "chrome-omni";
 #else
   return "chrome-omni";
 #endif

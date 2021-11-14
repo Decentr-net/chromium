@@ -376,9 +376,9 @@ IN_PROC_BROWSER_TEST_F(AppListClientImplBrowserTest, OpenSearchResult) {
   // Any app that opens a window to dismiss app list is good enough for this
   // test.
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  const std::string app_title = "chrome";
+  const std::string app_title = "Decentr";
 #else
-  const std::string app_title = "chromium";
+  const std::string app_title = "Decentr";
 #endif  // !BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
   const std::string app_result_id =

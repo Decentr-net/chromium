@@ -37,7 +37,7 @@ const char* const kSchemeNames[] = {
     url::kDataScheme,
     url::kJavaScriptScheme,
     url::kAboutScheme,
-    "chrome",
+    "decentr",
     url::kBlobScheme,
     url::kFileSystemScheme,
     "chrome-native",

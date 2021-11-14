@@ -48,10 +48,10 @@ public class PartnerBrowserCustomizationsUnitTest {
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("about:newtab--not"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr://history"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr://"));
-        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome:"));
-        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome"));
+        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr:"));
+        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr"));
         Assert.assertFalse(
-                PartnerBrowserCustomizations.isValidHomepage("chrome-native://bookmarks"));
+                PartnerBrowserCustomizations.isValidHomepage("decentr-native://bookmarks"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("example.com"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage(
                 "content://com.android.providers.media.documents/document/video:113"));

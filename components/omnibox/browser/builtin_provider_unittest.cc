@@ -31,8 +31,8 @@ using base::ASCIIToUTF16;
 
 namespace {
 
-const char kEmbedderAboutScheme[] = "chrome";
-const char16_t kEmbedderAboutScheme16[] = u"chrome";
+const char kEmbedderAboutScheme[] = "decentr";
+const char16_t kEmbedderAboutScheme16[] = u"decentr";
 const char16_t kDefaultURL1[] = u"decentr://default1/";
 const char16_t kDefaultURL2[] = u"decentr://default2/";
 const char16_t kDefaultURL3[] = u"decentr://foo/";

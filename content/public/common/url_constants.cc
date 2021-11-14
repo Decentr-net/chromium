@@ -12,10 +12,10 @@ namespace content {
 // Before adding new chrome schemes please check with security@chromium.org.
 // There are security implications associated with introducing new schemes.
 const char kChromeDevToolsScheme[] = "devtools";
-const char kChromeErrorScheme[] = "chrome-error";
-const char kChromeUIScheme[] = "chrome";
+const char kChromeErrorScheme[] = "decentr-error";
+const char kChromeUIScheme[] = "decentr";
 const char kChromeUIUntrustedScheme[] = "decentr-untrusted";
-const char kGuestScheme[] = "chrome-guest";
+const char kGuestScheme[] = "decentr-guest";
 const char kViewSourceScheme[] = "view-source";
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 const char kExternalFileScheme[] = "externalfile";
@@ -48,7 +48,7 @@ const char kChromeUIWebRTCInternalsHost[] = "webrtc-internals";
 
 // This error URL is loaded in normal web renderer processes, so it should not
 // have a decentr:// scheme that might let it be confused with a WebUI page.
-const char kUnreachableWebDataURL[] = "chrome-error://chromewebdata/";
+const char kUnreachableWebDataURL[] = "decentr-error://chromewebdata/";
 
 const char kBlockedURL[] = "about:blank#blocked";
 

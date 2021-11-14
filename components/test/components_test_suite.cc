@@ -40,7 +40,7 @@ namespace {
 // Not using kExtensionScheme and kChromeSearchScheme to avoid the dependency
 // to extensions and chrome/common.
 const char* const kNonWildcardDomainNonPortSchemes[] = {
-    "decentr-extension", "decentr-search", "chrome", "decentr-untrusted",
+    "decentr-extension", "decentr-search", "decentr", "decentr-untrusted",
     "devtools"};
 
 class ComponentsTestSuite : public base::TestSuite {
@@ -61,7 +61,7 @@ class ComponentsTestSuite : public base::TestSuite {
     //    individual tests that need these schemes.
     url::AddStandardScheme("decentr-extension", url::SCHEME_WITH_HOST);
     url::AddStandardScheme("decentr-search", url::SCHEME_WITH_HOST);
-    url::AddStandardScheme("chrome-distiller", url::SCHEME_WITH_HOST);
+    url::AddStandardScheme("decentr-distiller", url::SCHEME_WITH_HOST);
 
 #if !defined(OS_IOS)
     gl::GLSurfaceTestSupport::InitializeOneOff();
@@ -74,7 +74,7 @@ class ComponentsTestSuite : public base::TestSuite {
       content::ContentTestSuiteBase::RegisterContentSchemes(&content_client);
     }
 #else
-    url::AddStandardScheme("chrome", url::SCHEME_WITH_HOST);
+    url::AddStandardScheme("decentr", url::SCHEME_WITH_HOST);
     url::AddStandardScheme("decentr-untrusted", url::SCHEME_WITH_HOST);
     url::AddStandardScheme("devtools", url::SCHEME_WITH_HOST);
 
