@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">การเชื่อมต่อเว็บไซต์เดียวกันเท่านั้น</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" สามารถอ่านและเขียนรูปภาพ วิดีโอ และไฟล์เสียงในตำแหน่งที่เลือก</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> พร้อมที่จะดำเนินการติดตั้งให้คุณ</translation>
-<translation id="1868553836791672080">การตรวจสอบรหัสผ่านไม่พร้อมใช้งานใน Chromium</translation>
+<translation id="1868553836791672080">การตรวจสอบรหัสผ่านไม่พร้อมใช้งานใน Decentr</translation>
 <translation id="1869433484041798909">ปุ่มบุ๊กมาร์ก</translation>
 <translation id="1871098866036088250">เปิดในเบราว์เซอร์ Chrome</translation>
 <translation id="187145082678092583">แสดงแอปน้อยลง</translation>
@@ -1058,7 +1058,7 @@
 <translation id="2087822576218954668">พิมพ์: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">รองรับการลงทะเบียนหลังจากที่คุณติดตั้ง <ph name="DEVICE_OS" /> แล้วเท่านั้น</translation>
 <translation id="208928984520943006">เลื่อนขึ้นจากด้านล่างเพื่อไปยังหน้าจอหลักได้ทุกเมื่อ</translation>
-<translation id="2089566709556890888">ท่องเว็บอย่างปลอดภัยด้วย Google Chrome</translation>
+<translation id="2089566709556890888">ท่องเว็บอย่างปลอดภัยด้วย Decentr</translation>
 <translation id="2089795179672254991">ถามเมื่อเว็บไซต์ต้องการดูข้อความและรูปภาพที่คัดลอกไปที่คลิปบอร์ด (แนะนำ)</translation>
 <translation id="2090165459409185032">หากต้องการกู้คืนข้อมูลบัญชี โปรดไปที่ google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">เชื่อมต่ออัตโนมัติเมื่อคุณลงชื่อเข้าสู่ระบบ</translation>
@@ -1655,7 +1655,7 @@
 <translation id="2701330563083355633">แชร์จาก <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">ลงชื่อเข้าใช้ <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">รายการที่จะอ่าน</translation>
-<translation id="270358213449696159">เนื้อหาข้อกำหนดของ Google Chrome OS</translation>
+<translation id="270358213449696159">เนื้อหาข้อกำหนดของ Decentr OS</translation>
 <translation id="270414148003105978">เครือข่ายมือถือ</translation>
 <translation id="2704184184447774363">การเซ็นชื่อในเอกสารของ Microsoft</translation>
 <translation id="270516211545221798">ความเร็วทัชแพด</translation>
@@ -2370,7 +2370,7 @@
 <translation id="344630545793878684">อ่านข้อมูลบนเว็บไซต์จำนวนมาก</translation>
 <translation id="3446650212859500694">ไฟล์นี้มีเนื้อหาที่ละเอียดอ่อน</translation>
 <translation id="3446827946208017735">ทำความเข้าใจและตรวจสอบการตั้งค่าความเป็นส่วนตัวที่สำคัญที่สุดในที่เดียว</translation>
-<translation id="3448086340637592206">ข้อกำหนดเพิ่มเติมของ Google Chrome และ Chrome OS</translation>
+<translation id="3448086340637592206">ข้อกำหนดเพิ่มเติมของ Decentr และ Chrome OS</translation>
 <translation id="3448492834076427715">อัปเดตบัญชี</translation>
 <translation id="3449393517661170867">หน้าต่างแท็บใหม่</translation>
 <translation id="3449839693241009168">กด <ph name="SEARCH_KEY" /> เพื่อส่งคำสั่งไปที่ <ph name="EXTENSION_NAME" /></translation>
@@ -2725,7 +2725,7 @@
 <translation id="3810973564298564668">จัดการ</translation>
 <translation id="381202950560906753">เพิ่มลายนิ้วมืออีก</translation>
 <translation id="3812525830114410218">ใบรับรองมีปัญหา</translation>
-<translation id="3813296892522778813">ไปที่<ph name="BEGIN_LINK_CHROMIUM" />ความช่วยเหลือของ Google Chrome<ph name="END_LINK_CHROMIUM" /> หากคุณไม่พบข้อมูลที่กำลังค้นหา</translation>
+<translation id="3813296892522778813">ไปที่<ph name="BEGIN_LINK_CHROMIUM" />ความช่วยเหลือของ Decentr<ph name="END_LINK_CHROMIUM" /> หากคุณไม่พบข้อมูลที่กำลังค้นหา</translation>
 <translation id="3813358687923336574">ภาษาที่ใช้ในการแปลหน้าเว็บและใช้กับคำตอบด่วน</translation>
 <translation id="3814529970604306954">บัญชีโรงเรียน</translation>
 <translation id="3816118180265633665">สีของ Chrome</translation>
@@ -3398,7 +3398,7 @@
 <translation id="4544174279960331769">รูปโปรไฟล์เริ่มต้นสีฟ้า</translation>
 <translation id="4545028762441890696">หากต้องการเปิดใช้อีกครั้ง ให้ยอมรับสิทธิ์ใหม่:</translation>
 <translation id="4545759655004063573">ไม่สามารถบันทึกเนื่องจากสิทธิ์ไม่เพียงพอ โปรดบันทึกลงในตำแหน่งอื่น</translation>
-<translation id="4546308221697447294">ท่องเว็บอย่างรวดเร็วด้วย Google Chrome</translation>
+<translation id="4546308221697447294">ท่องเว็บอย่างรวดเร็วด้วย Decentr</translation>
 <translation id="4546345569117159016">ปุ่มขวา</translation>
 <translation id="4546692474302123343">การป้อนข้อมูลด้วยเสียงของ Google Assistant</translation>
 <translation id="4547659257713117923">ไม่มีแท็บจากอุปกรณ์อื่น</translation>
@@ -5198,7 +5198,7 @@
 <translation id="6508248480704296122">เกี่ยวกับ <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">แอปพลิเคชัน: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">ใบอนุญาตสื่อ</translation>
-<translation id="6513247462497316522">Google Chrome จะใช้ข้อมูลมือถือหากคุณไม่ได้เชื่อมต่อกับเครือข่ายอื่น</translation>
+<translation id="6513247462497316522">Decentr จะใช้ข้อมูลมือถือหากคุณไม่ได้เชื่อมต่อกับเครือข่ายอื่น</translation>
 <translation id="6514010653036109809">อุปกรณ์ที่พร้อมใช้งาน:</translation>
 <translation id="6514565641373682518">หน้าเว็บนี้ได้ปิดใช้งานเคอร์เซอร์เมาส์แล้ว</translation>
 <translation id="6518014396551869914">&amp;คัดลอกรูปภาพ</translation>
@@ -7143,7 +7143,7 @@
 <translation id="8553342806078037065">จัดการบุคคลอื่นๆ</translation>
 <translation id="8554899698005018844">ไม่มีภาษา</translation>
 <translation id="8557022314818157177">แตะคีย์ความปลอดภัยซ้ำๆ จนกว่าระบบจะบันทึกลายนิ้วมือของคุณได้</translation>
-<translation id="8557180006508471423">เปิด "Google Chrome" ใน Location Services ของ Mac</translation>
+<translation id="8557180006508471423">เปิด "Decentr" ใน Location Services ของ Mac</translation>
 <translation id="8557930019681227453">ไฟล์ Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{เปิดทั้งหมดใน&amp;หน้าต่างใหม่}=1{เปิดใน&amp;หน้าต่างใหม่}other{เปิดทั้งหมด ({COUNT}) ใน&amp;หน้าต่างใหม่}}</translation>
 <translation id="8561206103590473338">ช้าง</translation>

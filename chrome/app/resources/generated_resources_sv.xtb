@@ -271,7 +271,7 @@
 <translation id="1272978324304772054">Det här användarkontot hör inte till den domän som enheten är registrerad för. Om du vill registrera enheten för en annan domän måste du återställa den först.</translation>
 <translation id="1274997165432133392">Cookies och annan webbplatsdata</translation>
 <translation id="1275718070701477396">Markerad</translation>
-<translation id="1276242130531808236">Jag har läst och godkänner <ph name="BEGIN_LINK1" />Googles användarvillkor<ph name="END_LINK1" /> samt <ph name="BEGIN_LINK2" />de ytterligare användarvillkoren för Google Chrome och Chrome OS<ph name="END_LINK2" />.</translation>
+<translation id="1276242130531808236">Jag har läst och godkänner <ph name="BEGIN_LINK1" />Googles användarvillkor<ph name="END_LINK1" /> samt <ph name="BEGIN_LINK2" />de ytterligare användarvillkoren för Decentr och Chrome OS<ph name="END_LINK2" />.</translation>
 <translation id="1276994519141842946">Det gick inte att avinstallera <ph name="APP_NAME" /></translation>
 <translation id="1277020343994096713">Den nya pinkoden du skapar får inte vara samma som den gamla</translation>
 <translation id="1278859221870828664">Granska appar och tjänster på Google Play</translation>
@@ -870,7 +870,7 @@
 <translation id="1865769994591826607">Endast anslutningar på samma webbplats</translation>
 <translation id="186612162884103683"><ph name="EXTENSION" /> kan läsa och skriva bilder, video och ljudfiler på de markerade platserna.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> kan nu slutföra installationen</translation>
-<translation id="1868553836791672080">Kontroll av lösenord är inte tillgängligt i Chromium</translation>
+<translation id="1868553836791672080">Kontroll av lösenord är inte tillgängligt i Decentr</translation>
 <translation id="1869433484041798909">Knappen Bokmärke</translation>
 <translation id="1871098866036088250">Öppna i Chrome-webbläsaren</translation>
 <translation id="187145082678092583">Färre appar</translation>
@@ -1070,7 +1070,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="2087822576218954668">Utskrift: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Registrering stöds endast när <ph name="DEVICE_OS" /> har installerats.</translation>
 <translation id="208928984520943006">Du kan när som helst återgå till startskärmen genom att svepa uppåt från skärmens nederkant.</translation>
-<translation id="2089566709556890888">Surfa säkert med Google Chrome</translation>
+<translation id="2089566709556890888">Surfa säkert med Decentr</translation>
 <translation id="2089795179672254991">Fråga när en webbplats vill få tillgång till text och bilder som kopierats till Urklipp (rekommenderas)</translation>
 <translation id="2090165459409185032">Återställ kontoinformationen på google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Ansluts automatiskt när du loggar in</translation>
@@ -1671,7 +1671,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="2701330563083355633">Delades från <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Logga in, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Läslista</translation>
-<translation id="270358213449696159">Innehåll i villkor för Google Chrome OS</translation>
+<translation id="270358213449696159">Innehåll i villkor för Decentr OS</translation>
 <translation id="270414148003105978">Mobilnätverk</translation>
 <translation id="2704184184447774363">Microsofts Signering av dokument</translation>
 <translation id="270516211545221798">Hastighet för styrplatta</translation>
@@ -2384,7 +2384,7 @@ och Ctrl + Alt + Minska ljusstyrka för att zooma ut.</translation>
 <translation id="344630545793878684">Läsa din data på ett antal webbplatser</translation>
 <translation id="3446650212859500694">Filen har känsligt innehåll</translation>
 <translation id="3446827946208017735">Förstå och granska de viktigaste integritetsinställningarna från ett ställe</translation>
-<translation id="3448086340637592206">Ytterligare villkor för Google Chrome och Chrome OS</translation>
+<translation id="3448086340637592206">Ytterligare villkor för Decentr och Chrome OS</translation>
 <translation id="3448492834076427715">Uppdatera kontot</translation>
 <translation id="3449393517661170867">Nytt fönster med flikar</translation>
 <translation id="3449839693241009168">Tryck på <ph name="SEARCH_KEY" /> om du vill skicka kommandon till <ph name="EXTENSION_NAME" /></translation>
@@ -2738,7 +2738,7 @@ och Ctrl + Alt + Minska ljusstyrka för att zooma ut.</translation>
 <translation id="3810973564298564668">Hantera</translation>
 <translation id="381202950560906753">Lägg till ett till</translation>
 <translation id="3812525830114410218">Dåligt certifikat</translation>
-<translation id="3813296892522778813">Öppna <ph name="BEGIN_LINK_CHROMIUM" />Hjälp för Google Chrome<ph name="END_LINK_CHROMIUM" /> om du inte hittar vad du letar efter.</translation>
+<translation id="3813296892522778813">Öppna <ph name="BEGIN_LINK_CHROMIUM" />Hjälp för Decentr<ph name="END_LINK_CHROMIUM" /> om du inte hittar vad du letar efter.</translation>
 <translation id="3813358687923336574">Språk som används för att översätta sidor och Snabbinfo</translation>
 <translation id="3814529970604306954">Skolkonto</translation>
 <translation id="3816118180265633665">Färger i Chrome</translation>
@@ -3412,7 +3412,7 @@ och Ctrl + Alt + Minska ljusstyrka för att zooma ut.</translation>
 <translation id="4544174279960331769">Blå standardavatar</translation>
 <translation id="4545028762441890696">Godkänn de nya behörigheterna om du vill återaktivera det:</translation>
 <translation id="4545759655004063573">Det gick inte att spara eftersom behörigheten var otillräcklig. Spara på en annan plats.</translation>
-<translation id="4546308221697447294">Surfa snabbt med Google Chrome</translation>
+<translation id="4546308221697447294">Surfa snabbt med Decentr</translation>
 <translation id="4546345569117159016">Höger knapp</translation>
 <translation id="4546692474302123343">Röstinmatning för Google Assistent</translation>
 <translation id="4547659257713117923">Inga flikar från andra enheter</translation>
@@ -5211,7 +5211,7 @@ Du kan tilldela flera brytare denna åtgärd.</translation>
 <translation id="6508248480704296122">Kopplade till <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">App: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medielicens</translation>
-<translation id="6513247462497316522">Google Chrome kommer att använda mobila data om du inte är ansluten till ett annat nätverk.</translation>
+<translation id="6513247462497316522">Decentr kommer att använda mobila data om du inte är ansluten till ett annat nätverk.</translation>
 <translation id="6514010653036109809">Tillgänglig enhet:</translation>
 <translation id="6514565641373682518">Muspekaren har inaktiverats av sidan.</translation>
 <translation id="6518014396551869914">Kopiera &amp;bild</translation>
@@ -7158,7 +7158,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8553342806078037065">Hantera andra personer</translation>
 <translation id="8554899698005018844">Inget språk</translation>
 <translation id="8557022314818157177">Fortsätt att trycka på säkerhetsnyckeln tills fingeravtrycket registreras</translation>
-<translation id="8557180006508471423">Aktivera Google Chrome under Platstjänster på Mac-datorn.</translation>
+<translation id="8557180006508471423">Aktivera Decentr under Platstjänster på Mac-datorn.</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Öppna alla i ett &amp;nytt fönster}=1{Öppna i &amp;nytt fönster}other{Öppna alla ({COUNT}) i ett &amp;nytt fönster}}</translation>
 <translation id="8561206103590473338">Elefant</translation>

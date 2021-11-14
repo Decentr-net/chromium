@@ -867,7 +867,7 @@
 <translation id="1865769994591826607">ການເຊື່ອມຕໍ່ເວັບໄຊດຽວກັນເທົ່ານັ້ນ</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" ສາມາດອ່ານ ແລະຂຽນໄຟລ໌ຮູບ, ວິດີໂອ, ແລະສຽງຢູ່ໃນຢູ່ໃນທີ່ຕັ້ງທີ່ໝາຍຕິກແລ້ວໄດ້.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> ​ພ້ອມ​ທີ່​ຈະ​ສໍາ​ເລັດ​ການ​ຕິດ​ຕັ້ງ​ຂອງ​ທ່ານແລ້ວ</translation>
-<translation id="1868553836791672080">ການກວດລະຫັດຜ່ານບໍ່ສາມາດໃຊ້ໄດ້ໃນ Chromium</translation>
+<translation id="1868553836791672080">ການກວດລະຫັດຜ່ານບໍ່ສາມາດໃຊ້ໄດ້ໃນ Decentr</translation>
 <translation id="1869433484041798909">ປຸ່ມບຸກມາກ</translation>
 <translation id="1871098866036088250">ເປີດໃນໂປຣແກຣມທ່ອງເວັບ Chrome</translation>
 <translation id="187145082678092583">ແອັບໜ້ອຍລົງ</translation>
@@ -1067,7 +1067,7 @@
 <translation id="2087822576218954668">ພິມ​: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">ຮອງຮັບການລົງທະບຽນຫຼັງຈາກທີ່ທ່ານຕິດຕັ້ງ <ph name="DEVICE_OS" /> ເທົ່ານັ້ນ.</translation>
 <translation id="208928984520943006">ປັດຂຶ້ນຈາກລຸ່ມສຸດເພື່ອໄປຫາໜ້າຈໍຫຼັກໄດ້ທຸກເວລາ.</translation>
-<translation id="2089566709556890888">ທ່ອງເວັບຢ່າງປອດໄພດ້ວຍ Google Chrome</translation>
+<translation id="2089566709556890888">ທ່ອງເວັບຢ່າງປອດໄພດ້ວຍ Decentr</translation>
 <translation id="2089795179672254991">ຖາມເມື່ອເວັບໄຊຕ້ອງການເຫັນຂໍ້ຄວາມ ແລະ ຮູບພາບທີ່ສຳເນົາໄວ້ໃນຄລິບບອດ (ແນະນຳ)</translation>
 <translation id="2090165459409185032">ເພື່ອ​ກູ້​ຂໍ້​ມູນ​ບັນ​ຊີ​ຂອງ​ທ່ານ​ຄືນ, ໃຫ້ໄປ​ທີ່: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">ເຊື່ອມຕໍ່ອັດຕະໂນມັດເມື່ອທ່ານເຂົ້າສູ່ລະບົບ</translation>
@@ -1668,7 +1668,7 @@
 <translation id="2701330563083355633">ແບ່ງປັນຈາກ <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">ເຂົ້າສູ່ລະບົບ, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">ລາຍການທີ່ຈະອ່ານ</translation>
-<translation id="270358213449696159">ເນື້ອຫາຂໍ້ກຳນົດຂອງ Google Chrome OS</translation>
+<translation id="270358213449696159">ເນື້ອຫາຂໍ້ກຳນົດຂອງ Decentr OS</translation>
 <translation id="270414148003105978">ເຄືອຂ່າຍມືຖື</translation>
 <translation id="2704184184447774363">ການເຊັນເອກະສານ Microsoft</translation>
 <translation id="270516211545221798">ຄວາມໄວແຜ່ນສຳຜັດ</translation>
@@ -2383,7 +2383,7 @@
 <translation id="344630545793878684">ອ່ານ​ຂໍ້​ມູນ​ຂອງ​ທ່ານ​ຢູ່​ເທິງຫຼາຍ​ເວັບ​ໄຊ​ທ໌</translation>
 <translation id="3446650212859500694">ໄຟລ໌ນີ້ມີເນື້ອຫາລະອຽດອ່ອນ</translation>
 <translation id="3446827946208017735">ເຂົ້າໃຈ ແລະ ກວດສອບການຕັ້ງຄ່າຄວາມເປັນສ່ວນຕົວທີ່ສຳຄັນທີ່ສຸດໃນບ່ອນດຽວ</translation>
-<translation id="3448086340637592206">ຂໍ້ກຳນົດເພີ່ມເຕີມຂອງ Google Chrome ແລະ Chrome OS</translation>
+<translation id="3448086340637592206">ຂໍ້ກຳນົດເພີ່ມເຕີມຂອງ Decentr ແລະ Chrome OS</translation>
 <translation id="3448492834076427715">ອັບເດດບັນຊີ</translation>
 <translation id="3449393517661170867">ໜ້າຈໍແຖບໃໝ່</translation>
 <translation id="3449839693241009168">ກົດ <ph name="SEARCH_KEY" /> ເພື່ອສົ່ງຄໍາສັ່ງຫາ <ph name="EXTENSION_NAME" /></translation>
@@ -2738,7 +2738,7 @@
 <translation id="3810973564298564668">ຈັດການ</translation>
 <translation id="381202950560906753">ເພີ່ມອັນອື່ນ</translation>
 <translation id="3812525830114410218">ໃບ​ຢັ້ງ​ຢືນ​​ບໍ່​ດີ</translation>
-<translation id="3813296892522778813">ໄປຫາ <ph name="BEGIN_LINK_CHROMIUM" />ຄວາມຊ່ວຍເຫຼືອ Google Chrome<ph name="END_LINK_CHROMIUM" /> ຖ້າທ່ານບໍ່ສາມາດຊອກເຫັນສິ່ງທີ່ທ່ານກຳລັງຊອກຫາ</translation>
+<translation id="3813296892522778813">ໄປຫາ <ph name="BEGIN_LINK_CHROMIUM" />ຄວາມຊ່ວຍເຫຼືອ Decentr<ph name="END_LINK_CHROMIUM" /> ຖ້າທ່ານບໍ່ສາມາດຊອກເຫັນສິ່ງທີ່ທ່ານກຳລັງຊອກຫາ</translation>
 <translation id="3813358687923336574">ພາສາທີ່ໃຊ້ສຳລັບການແປພາສາໜ້າ ແລະ ຄຳຕອບດ່ວນ</translation>
 <translation id="3814529970604306954">ບັນຊີໂຮງຮຽນ</translation>
 <translation id="3816118180265633665">ສີຂອງ Chrome</translation>
@@ -3412,7 +3412,7 @@
 <translation id="4544174279960331769">ຮູບແທນຕົວສີຟ້າຕາມຄ່າເລີ່ມຕົ້ນ</translation>
 <translation id="4545028762441890696">ເພື່ອເປີດນຳໃຊ້ມັນ, ກະລຸນາຍອມຮັບການອະນຸຍາດໃໝ່:</translation>
 <translation id="4545759655004063573">ບໍ່ສາມາດບັນທຶກໄດ້ ເນື່ອງຈາກການອະນຸຍາດບໍ່ພຽງພໍ. ກະລຸນາບັນທຶກໄປໃສ່ທີ່ຕັ້ງອື່ນ.</translation>
-<translation id="4546308221697447294">ທ່ອງເວັບໄດ້ໄວດ້ວຍ Google Chrome</translation>
+<translation id="4546308221697447294">ທ່ອງເວັບໄດ້ໄວດ້ວຍ Decentr</translation>
 <translation id="4546345569117159016">ປຸ່ມຂວາ</translation>
 <translation id="4546692474302123343">ການປ້ອນຂໍ້ມູນດ້ວຍສຽງໃນຜູ້ຊ່ວຍ Google</translation>
 <translation id="4547659257713117923">ບໍ່ມີແທັບຈາກອຸປະກອນອື່ນ</translation>
@@ -5211,7 +5211,7 @@
 <translation id="6508248480704296122">ກ່ຽວຂ້ອງກັບ <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">ແອັບ: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">ໃບອະນຸຍາດສື່</translation>
-<translation id="6513247462497316522">Google Chrome ຈະໃຊ້ຂໍ້ມູນມືຖື ຖ້າທ່ານບໍ່ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍອື່ນ.</translation>
+<translation id="6513247462497316522">Decentr ຈະໃຊ້ຂໍ້ມູນມືຖື ຖ້າທ່ານບໍ່ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍອື່ນ.</translation>
 <translation id="6514010653036109809">ອຸປະກອນທີ່ພ້ອມນຳໃຊ້:</translation>
 <translation id="6514565641373682518">ຫນ້າ​ນີ້​ປິດໃຊ້ງານເຄີເຊີເມົາສ໌ຂອງ​ທ່ານແລ້ວ​.</translation>
 <translation id="6518014396551869914">ກັອບປີ້ຮູບ</translation>
@@ -7156,7 +7156,7 @@
 <translation id="8553342806078037065">ຈັດການບູກຄົນອື່ນ</translation>
 <translation id="8554899698005018844">ບໍ່ມີພາສາ</translation>
 <translation id="8557022314818157177">ສືບຕໍ່ແຕະກະແຈຄວາມປອດໄພຈົນກວ່າວ່າໄດ້ບັນທຶກລາຍນິ້ວມືຂອງທ່ານໄວ້ແລ້ວ</translation>
-<translation id="8557180006508471423">ເປີດໃຊ້ "Google Chrome" ໃນບໍລິການສະຖານທີ່ຢູ່ Mac ຂອງທ່ານ</translation>
+<translation id="8557180006508471423">ເປີດໃຊ້ "Decentr" ໃນບໍລິການສະຖານທີ່ຢູ່ Mac ຂອງທ່ານ</translation>
 <translation id="8557930019681227453">ໃບລາຍການ</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{ເປີດທັງໝົດໃນ&amp;ໜ້າຈໍໃໝ່}=1{ເປີດໃນ&amp;ໜ້າຈໍໃໝ່}other{ເປີດທັງໝົດ ({COUNT}) ໃນ&amp;ໜ້າຈໍໃໝ່}}</translation>
 <translation id="8561206103590473338">ຊ້າງ</translation>

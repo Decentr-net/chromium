@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">Solo connessioni stesso sito</translation>
 <translation id="186612162884103683">L'estensione "<ph name="EXTENSION" />" può leggere e scrivere file di immagini, video e audio nelle posizioni selezionate.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> è pronto a completare l'installazione</translation>
-<translation id="1868553836791672080">Il controllo delle password non è disponibile in Chromium</translation>
+<translation id="1868553836791672080">Il controllo delle password non è disponibile in Decentr</translation>
 <translation id="1869433484041798909">Pulsante Preferito</translation>
 <translation id="1871098866036088250">Apri nel browser Chrome</translation>
 <translation id="187145082678092583">Meno app</translation>
@@ -1058,7 +1058,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2087822576218954668">Stampa: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">La registrazione è supportata solo dopo l'installazione di <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Per andare alla schermata Home in qualsiasi momento, scorri dal basso verso l'alto.</translation>
-<translation id="2089566709556890888">Naviga in sicurezza con Google Chrome</translation>
+<translation id="2089566709556890888">Naviga in sicurezza con Decentr</translation>
 <translation id="2089795179672254991">Chiedi conferma quando un sito vuole leggere il testo e le immagini copiati negli appunti (opzione consigliata)</translation>
 <translation id="2090165459409185032">Visita il sito google.com/accounts/recovery per recuperare i dati del tuo account</translation>
 <translation id="2090507354966565596">Si connette automaticamente quando effettui l'accesso</translation>
@@ -1656,7 +1656,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2701330563083355633">Condivisione da <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Accedi, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Elenco di lettura</translation>
-<translation id="270358213449696159">Contenuti dei Termini di Google Chrome OS</translation>
+<translation id="270358213449696159">Contenuti dei Termini di Decentr OS</translation>
 <translation id="270414148003105978">Reti mobili</translation>
 <translation id="2704184184447774363">Firma del documento Microsoft</translation>
 <translation id="270516211545221798">Velocità touchpad</translation>
@@ -2044,7 +2044,7 @@ e Ctrl + Alt + Riduzione luminosità per diminuire lo zoom.</translation>
 <translation id="3083193146044397360">Bloccata temporaneamente per tutelare la tua sicurezza</translation>
 <translation id="3083899879156272923">Sposta lo schermo tenendo il puntatore del mouse al centro</translation>
 <translation id="3084548735795614657">Trascina per installare</translation>
-<translation id="3084771660770137092">Google Chrome ha esaurito la memoria o il processo relativo alla pagina web è stato chiuso per qualche altro motivo. Per continuare, ricarica la pagina o aprine un'altra.</translation>
+<translation id="3084771660770137092">Decentr ha esaurito la memoria o il processo relativo alla pagina web è stato chiuso per qualche altro motivo. Per continuare, ricarica la pagina o aprine un'altra.</translation>
 <translation id="3084958266922136097">Disabilita salvaschermo</translation>
 <translation id="3085412380278336437">Il sito può usare la videocamera</translation>
 <translation id="3088052000289932193">Il sito usa un dispositivo MIDI</translation>
@@ -2371,7 +2371,7 @@ e Ctrl + Alt + Riduzione luminosità per diminuire lo zoom.</translation>
 <translation id="344630545793878684">Lettura dei dati su una serie di siti web</translation>
 <translation id="3446650212859500694">Questo file include contenuti sensibili</translation>
 <translation id="3446827946208017735">Scopri e rivedi le impostazioni di privacy più importanti in un unico posto</translation>
-<translation id="3448086340637592206">Termini aggiuntivi di Google Chrome e Chrome OS</translation>
+<translation id="3448086340637592206">Termini aggiuntivi di Decentr e Chrome OS</translation>
 <translation id="3448492834076427715">Aggiorna account</translation>
 <translation id="3449393517661170867">Nuova finestra a schede</translation>
 <translation id="3449839693241009168">Premi <ph name="SEARCH_KEY" /> per inviare comandi a <ph name="EXTENSION_NAME" /></translation>
@@ -2726,7 +2726,7 @@ e Ctrl + Alt + Riduzione luminosità per diminuire lo zoom.</translation>
 <translation id="3810973564298564668">Gestisci</translation>
 <translation id="381202950560906753">Aggiungine un'altra</translation>
 <translation id="3812525830114410218">Certificato non valido</translation>
-<translation id="3813296892522778813">Visita la <ph name="BEGIN_LINK_CHROMIUM" />guida di Google Chrome<ph name="END_LINK_CHROMIUM" /> se non riesci a trovare quello che cerchi</translation>
+<translation id="3813296892522778813">Visita la <ph name="BEGIN_LINK_CHROMIUM" />guida di Decentr<ph name="END_LINK_CHROMIUM" /> se non riesci a trovare quello che cerchi</translation>
 <translation id="3813358687923336574">Lingua utilizzata per la traduzione di pagine e Risposte rapide</translation>
 <translation id="3814529970604306954">Account della scuola</translation>
 <translation id="3816118180265633665">Colori di Chrome</translation>
@@ -3399,7 +3399,7 @@ e Ctrl + Alt + Riduzione luminosità per diminuire lo zoom.</translation>
 <translation id="4544174279960331769">Avatar blu predefinito</translation>
 <translation id="4545028762441890696">Per riattivarla, accetta le nuove autorizzazioni:</translation>
 <translation id="4545759655004063573">Impossibile salvare a causa dell'insufficienza di autorizzazioni. Salva in un'altra posizione.</translation>
-<translation id="4546308221697447294">Naviga velocemente con Google Chrome</translation>
+<translation id="4546308221697447294">Naviga velocemente con Decentr</translation>
 <translation id="4546345569117159016">Tasto destro</translation>
 <translation id="4546692474302123343">Input vocale dell'Assistente Google</translation>
 <translation id="4547659257713117923">Nessuna scheda di altri dispositivi</translation>
@@ -5199,7 +5199,7 @@ Puoi assegnare più sensori a questa azione.</translation>
 <translation id="6508248480704296122">Correlata a <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Applicazione: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licenza multimediale</translation>
-<translation id="6513247462497316522">Google Chrome utilizzerà i dati mobili se non sei connesso a un'altra rete.</translation>
+<translation id="6513247462497316522">Decentr utilizzerà i dati mobili se non sei connesso a un'altra rete.</translation>
 <translation id="6514010653036109809">Dispositivo disponibile:</translation>
 <translation id="6514565641373682518">Questa pagina ha disattivato il puntatore del mouse.</translation>
 <translation id="6518014396551869914">Cop&amp;ia immagine</translation>
@@ -7146,7 +7146,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8553342806078037065">Gestisci altre persone</translation>
 <translation id="8554899698005018844">Nessuna lingua</translation>
 <translation id="8557022314818157177">Continua a toccare il token di sicurezza finché l'impronta digitale non viene acquisita</translation>
-<translation id="8557180006508471423">Attiva "Google Chrome" in Servizi di localizzazione sul Mac</translation>
+<translation id="8557180006508471423">Attiva "Decentr" in Servizi di localizzazione sul Mac</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Apri tutti in &amp;un'altra finestra}=1{Apri in &amp;un'altra finestra}other{Apri tutti ({COUNT}) in &amp;un'altra finestra}}</translation>
 <translation id="8561206103590473338">Elefante</translation>

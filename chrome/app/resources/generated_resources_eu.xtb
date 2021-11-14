@@ -858,7 +858,7 @@ Txartel adimenduna sartuta edukitzea eskatzen du <ph name="DOMAIN" /> domeinuak.
 <translation id="1865769994591826607">Webgune bereko konexioak soilik</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" luzapenak markatutako kokapenetako irudiak, bideoak eta soinu-fitxategiak irakur eta idatz ditzake.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> prest dago instalazioa osatzeko</translation>
-<translation id="1868553836791672080">Pasahitzak egiaztatzeko eginbidea ez dago erabilgarri Chromium-en</translation>
+<translation id="1868553836791672080">Pasahitzak egiaztatzeko eginbidea ez dago erabilgarri Decentr-en</translation>
 <translation id="1869433484041798909">Laster-marka egiteko botoia</translation>
 <translation id="1871098866036088250">Ireki Chrome arakatzailean</translation>
 <translation id="187145082678092583">Aplikazio gutxiago</translation>
@@ -1058,7 +1058,7 @@ Kontu honen ezarpenak kudeatzeko, instalatu Family Link aplikazioa zure gailuan.
 <translation id="2087822576218954668">Inprimatu: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196"><ph name="DEVICE_OS" /> instalatu behar da erregistratu ahal izateko.</translation>
 <translation id="208928984520943006">Edozein unetan hasierako pantailara joateko, pasatu hatza pantailaren behealdetik gora.</translation>
-<translation id="2089566709556890888">Arakatu sarea segurtasun osoz Google Chrome-rekin</translation>
+<translation id="2089566709556890888">Arakatu sarea segurtasun osoz Decentr-rekin</translation>
 <translation id="2089795179672254991">Eskatu nire baimena webguneren batek arbelean kopiatzen ditudan testuak eta irudiak ikusi nahi dituenean (gomendatua)</translation>
 <translation id="2090165459409185032">Kontuko informazioa berreskuratzeko, joan hona: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Automatikoki konektatzen da saioa hasten duzunean</translation>
@@ -1656,7 +1656,7 @@ Voice Match-ekin, Google-ren Laguntzailea eginbideak <ph name="SUPERVISED_USER_N
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" /> gailutik partekatu da</translation>
 <translation id="2701737434167469065">Hasi saioa, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Zerrenda</translation>
-<translation id="270358213449696159">Google Chrome OS baldintzen edukia</translation>
+<translation id="270358213449696159">Decentr OS baldintzen edukia</translation>
 <translation id="270414148003105978">Sare mugikorrak</translation>
 <translation id="2704184184447774363">Microsoft dokumentu-sinatzea</translation>
 <translation id="270516211545221798">Ukipen-panelaren abiadura</translation>
@@ -2368,7 +2368,7 @@ Txartel adimenduna sartuta edukitzea eskatzen du <ph name="DOMAIN" /> domeinuak.
 <translation id="344630545793878684">Irakurri zenbait webgunetan dituzun datuak</translation>
 <translation id="3446650212859500694">Fitxategiak kontuzko edukia dauka</translation>
 <translation id="3446827946208017735">Ulertu eta berrikusi pribatutasun-ezarpen garrantzitsuenak toki berean</translation>
-<translation id="3448086340637592206">Google Chrome eta Chrome OS zerbitzuen baldintza gehigarriak</translation>
+<translation id="3448086340637592206">Decentr eta Chrome OS zerbitzuen baldintza gehigarriak</translation>
 <translation id="3448492834076427715">Eguneratu kontua</translation>
 <translation id="3449393517661170867">Leiho fitxadun berria</translation>
 <translation id="3449839693241009168"><ph name="EXTENSION_NAME" /> luzapenera aginduak bidaltzeko, sakatu <ph name="SEARCH_KEY" /></translation>
@@ -2722,7 +2722,7 @@ Txartel adimenduna sartuta edukitzea eskatzen du <ph name="DOMAIN" /> domeinuak.
 <translation id="3810973564298564668">Kudeatu</translation>
 <translation id="381202950560906753">Gehitu beste bat</translation>
 <translation id="3812525830114410218">Ziurtagiri txarra</translation>
-<translation id="3813296892522778813">Bila zabiltzana aurkitu ezin baduzu, joan <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome laguntzara<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Bila zabiltzana aurkitu ezin baduzu, joan <ph name="BEGIN_LINK_CHROMIUM" />Decentr laguntzara<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Orriak itzultzeko eta Erantzun bizkorrak eginbiderako erabili den hizkuntza</translation>
 <translation id="3814529970604306954">Ikastetxeko kontua</translation>
 <translation id="3816118180265633665">Chrome-ko koloreak</translation>
@@ -3395,7 +3395,7 @@ Txartel adimenduna sartuta edukitzea eskatzen du <ph name="DOMAIN" /> domeinuak.
 <translation id="4544174279960331769">Abatar urdin lehenetsia</translation>
 <translation id="4545028762441890696">Berriro gaitzeko, eman beharrezko baimen berriak:</translation>
 <translation id="4545759655004063573">Ezin da gorde baimenak ez direlako nahiko. Gorde beste kokapen batean.</translation>
-<translation id="4546308221697447294">Arakatu sarea bizkor Google Chrome-rekin</translation>
+<translation id="4546308221697447294">Arakatu sarea bizkor Decentr-rekin</translation>
 <translation id="4546345569117159016">Eskuineko botoia</translation>
 <translation id="4546692474302123343">Google-ren Laguntzailea eginbidearen ahozko idazketa</translation>
 <translation id="4547659257713117923">Ez dago beste gailuetako fitxarik</translation>
@@ -5194,7 +5194,7 @@ Txartel adimenduna sartuta edukitzea eskatzen du <ph name="DOMAIN" /> domeinuak.
 <translation id="6508248480704296122">Honekin erlazionatua: <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Aplikazioa: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Multimedia-edukia erabiltzeko lizentzia</translation>
-<translation id="6513247462497316522">Beste sare batera konektatuta egon ezean, Google Chrome aplikazioak datu-konexioa erabiliko du.</translation>
+<translation id="6513247462497316522">Beste sare batera konektatuta egon ezean, Decentr aplikazioak datu-konexioa erabiliko du.</translation>
 <translation id="6514010653036109809">Gailu erabilgarria:</translation>
 <translation id="6514565641373682518">Orri honek kurtsorea desgaitu dizu.</translation>
 <translation id="6518014396551869914">Kop&amp;iatu irudia</translation>
@@ -7139,7 +7139,7 @@ Gorde gakoen fitxategia leku seguru batean. Zure luzapenaren bertsio berriak sor
 <translation id="8553342806078037065">Kudeatu beste pertsona batzuk</translation>
 <translation id="8554899698005018844">Ez da zehaztu hizkuntzarik</translation>
 <translation id="8557022314818157177">Jarraitu segurtasun-giltza sakatzen, hatz-marka hauteman arte</translation>
-<translation id="8557180006508471423">Aktibatu "Google Chrome" Mac-eko Kokapen-zerbitzuak ezarpenean</translation>
+<translation id="8557180006508471423">Aktibatu "Decentr" Mac-eko Kokapen-zerbitzuak ezarpenean</translation>
 <translation id="8557930019681227453">Manifestua</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Ireki guztiak &amp;beste leiho batean}=1{Ireki &amp;beste leiho batean}other{Ireki guztiak ({COUNT}) &amp;beste leiho batean}}</translation>
 <translation id="8561206103590473338">Elefantea</translation>

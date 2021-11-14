@@ -873,7 +873,7 @@ Domena <ph name="DOMAIN" /> zahteva, da je pametna kartica vstavljena.}}</transl
 <translation id="1865769994591826607">Samo povezave z istim spletnim mestom</translation>
 <translation id="186612162884103683">Razširitev »<ph name="EXTENSION" />« lahko prebere slike ter videodatoteke in zvočne datoteke na označenih lokacijah.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> je pripravljen, da konča namestitev</translation>
-<translation id="1868553836791672080">Preverjanje gesla ni na voljo v Chromiumu</translation>
+<translation id="1868553836791672080">Preverjanje gesla ni na voljo v Decentru</translation>
 <translation id="1869433484041798909">Gumb za ustvarjanje zaznamkov</translation>
 <translation id="1871098866036088250">Odpri v brskalniku Chrome</translation>
 <translation id="187145082678092583">Manj aplikacij</translation>
@@ -2389,7 +2389,7 @@ Domena <ph name="DOMAIN" /> zahteva, da je pametna kartica vstavljena.</translat
 <translation id="344630545793878684">Branje vaših podatkov na več spletnih mestih</translation>
 <translation id="3446650212859500694">V tej datoteki je občutljiva vsebina</translation>
 <translation id="3446827946208017735">Razlaga in pregled bistvenih nastavitev zasebnosti na enem mestu.</translation>
-<translation id="3448086340637592206">Dodatni pogoji za Google Chrome in Chrome OS</translation>
+<translation id="3448086340637592206">Dodatni pogoji za Decentr in Chrome OS</translation>
 <translation id="3448492834076427715">Posodobi račun</translation>
 <translation id="3449393517661170867">Novo okno z zavihki</translation>
 <translation id="3449839693241009168">Pritisnite <ph name="SEARCH_KEY" />, če želite poslati ukaze v <ph name="EXTENSION_NAME" /></translation>
@@ -2744,7 +2744,7 @@ Domena <ph name="DOMAIN" /> zahteva, da je pametna kartica vstavljena.</translat
 <translation id="3810973564298564668">Upravljaj</translation>
 <translation id="381202950560906753">Dodaj še enega</translation>
 <translation id="3812525830114410218">Poškodovano potrdilo</translation>
-<translation id="3813296892522778813">Odprite <ph name="BEGIN_LINK_CHROMIUM" />pomoč za Google Chrome<ph name="END_LINK_CHROMIUM" />, če ne najdete tega, kar iščete</translation>
+<translation id="3813296892522778813">Odprite <ph name="BEGIN_LINK_CHROMIUM" />pomoč za Decentr<ph name="END_LINK_CHROMIUM" />, če ne najdete tega, kar iščete</translation>
 <translation id="3813358687923336574">Jezik, uporabljen za prevajanje strani, in hitri odgovori</translation>
 <translation id="3814529970604306954">Šolski račun</translation>
 <translation id="3816118180265633665">Barve za Chrome</translation>
@@ -5220,7 +5220,7 @@ Domena <ph name="DOMAIN" /> zahteva, da je pametna kartica vstavljena.</translat
 <translation id="6508248480704296122">Sorodno z <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Program: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licenca za predstavnost</translation>
-<translation id="6513247462497316522">Google Chrome bo uporabil mobilno podatkovno povezavo, če niste povezani z drugim omrežjem.</translation>
+<translation id="6513247462497316522">Decentr bo uporabil mobilno podatkovno povezavo, če niste povezani z drugim omrežjem.</translation>
 <translation id="6514010653036109809">Razpoložljiva naprava:</translation>
 <translation id="6514565641373682518">Ta stran je onemogočila miškin kazalec.</translation>
 <translation id="6518014396551869914">Kop&amp;iraj sliko</translation>
@@ -7167,7 +7167,7 @@ Datoteko s ključem shranite na varnem. Potrebovali jo boste za izdelavo novih r
 <translation id="8553342806078037065">Upravljanje drugih oseb</translation>
 <translation id="8554899698005018844">Brez jezika</translation>
 <translation id="8557022314818157177">Varnostnega ključa se dotikajte, dokler ne bo prstni odtis zabeležen</translation>
-<translation id="8557180006508471423">Vklopite Google Chrome v lokacijskih storitvah v Macu</translation>
+<translation id="8557180006508471423">Vklopite Decentr v lokacijskih storitvah v Macu</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Odpri vse v &amp;novem oknu}=1{Odpri v &amp;novem oknu}one{Odpri vse ({COUNT}) v &amp;novem oknu}two{Odpri vse ({COUNT}) v &amp;novem oknu}few{Odpri vse ({COUNT}) v &amp;novem oknu}other{Odpri vse ({COUNT}) v &amp;novem oknu}}</translation>
 <translation id="8561206103590473338">Slon</translation>

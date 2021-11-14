@@ -866,7 +866,7 @@ Hatua hii haiathiri programu au maudhui kwenye vifaa vingine.</translation>
 <translation id="1865769994591826607">Miunganisho ya tovuti sawa pekee</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" inaweza kusoma na kuandika picha, video, na faili za sauti katika maeneo yaliyowekewa alama.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> iko tayari kukamilisha usakinishaji wako</translation>
-<translation id="1868553836791672080">Kipengele cha kukagua manenosiri hakipatikani katika Chromium</translation>
+<translation id="1868553836791672080">Kipengele cha kukagua manenosiri hakipatikani katika Decentr</translation>
 <translation id="1869433484041798909">Kitufe cha alamisho</translation>
 <translation id="1871098866036088250">Vifungue katika kivinjari cha Chrome</translation>
 <translation id="187145082678092583">Programu chache</translation>
@@ -1066,7 +1066,7 @@ Unaweza kudhibiti mipangilio ya akaunti hii kwa kusakinisha programu ya Family L
 <translation id="2087822576218954668">Chapisha: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Kipengele cha kuandikisha kinaweza tu kutumiwa baada ya kusakinisha <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Ili ufungue Skrini ya kwanza wakati wowote, telezesha kidole juu kutoka chini.</translation>
-<translation id="2089566709556890888">Vinjari kwa usalama kwa kutumia Google Chrome</translation>
+<translation id="2089566709556890888">Vinjari kwa usalama kwa kutumia Decentr</translation>
 <translation id="2089795179672254991">Iulize wakati tovuti ingependa kuona maandishi na picha zilizonakiliwa kwenye ubao wa kunakili (inapendekezwa)</translation>
 <translation id="2090165459409185032">Ili kurejesha maelezo ya akaunti yako, nenda kwenye: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Huunganishwa kiotomatiki ukiingia katika akaunti</translation>
@@ -2382,7 +2382,7 @@ na vitufe vya Ctrl, Alt pamoja na kitufe cha kupunguza Mwangaza ili usogeze mbal
 <translation id="344630545793878684">Soma data yako kwenye tovuti kadhaa</translation>
 <translation id="3446650212859500694">Faili hii ina maudhui nyeti</translation>
 <translation id="3446827946208017735">Elewa na ukague mipangilio muhimu zaidi ya faragha katika sehemu moja</translation>
-<translation id="3448086340637592206">Sheria na Masharti ya Ziada ya Google Chrome na Mfumo wa Uendeshaji wa Chrome</translation>
+<translation id="3448086340637592206">Sheria na Masharti ya Ziada ya Decentr na Mfumo wa Uendeshaji wa Chrome</translation>
 <translation id="3448492834076427715">Sasisha akaunti</translation>
 <translation id="3449393517661170867">Dirisha jipya lenye vichupo</translation>
 <translation id="3449839693241009168">Bonyeza <ph name="SEARCH_KEY" /> ili kutuma amri kwenye <ph name="EXTENSION_NAME" /></translation>
@@ -2737,7 +2737,7 @@ na vitufe vya Ctrl, Alt pamoja na kitufe cha kupunguza Mwangaza ili usogeze mbal
 <translation id="3810973564298564668">Dhibiti</translation>
 <translation id="381202950560906753">Ongeza kingine</translation>
 <translation id="3812525830114410218">Cheti kina tatizo</translation>
-<translation id="3813296892522778813">Nenda kwenye <ph name="BEGIN_LINK_CHROMIUM" />Usaidizi wa Google Chrome<ph name="END_LINK_CHROMIUM" /> ikiwa hupati unachotafuta</translation>
+<translation id="3813296892522778813">Nenda kwenye <ph name="BEGIN_LINK_CHROMIUM" />Usaidizi wa Decentr<ph name="END_LINK_CHROMIUM" /> ikiwa hupati unachotafuta</translation>
 <translation id="3813358687923336574">Lugha inayotumiwa kutafsiri kurasa na kwenye Majibu ya haraka</translation>
 <translation id="3814529970604306954">Akaunti ya Shuleni</translation>
 <translation id="3816118180265633665">Rangi za Chrome</translation>
@@ -3409,7 +3409,7 @@ Ungependa kuanza <ph name="CONTROL_PANEL_APPLET_NAME" />?</translation>
 <translation id="4544174279960331769">Ishara chaguomsingi ya samawati</translation>
 <translation id="4545028762441890696">Ili ukiwashe upya, kubali ruhusa mpya:</translation>
 <translation id="4545759655004063573">Haiwezi kuhifadhi kwa sababu ya idhini isiyotosha. Tafadhali hifadhi katika eneo jingine.</translation>
-<translation id="4546308221697447294">Vinjari kwa kasi kwa kutumia Google Chrome</translation>
+<translation id="4546308221697447294">Vinjari kwa kasi kwa kutumia Decentr</translation>
 <translation id="4546345569117159016">Kitufe cha kulia</translation>
 <translation id="4546692474302123343">Kuweka data kwa kutamka ukitumia programu ya Mratibu wa Google</translation>
 <translation id="4547659257713117923">Hakuna Vichupo Kutoka Kwenye Vifaa Vingine</translation>
@@ -5209,7 +5209,7 @@ Unaweza kukabidhi kitendo hiki swichi nyingi.</translation>
 <translation id="6508248480704296122">Inahusiana na <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Programu: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Leseni ya maudhui</translation>
-<translation id="6513247462497316522">Google Chrome itatumia data ya simu ya mkononi ukiwa hujaunganishwa kwenye mtandao mwingine.</translation>
+<translation id="6513247462497316522">Decentr itatumia data ya simu ya mkononi ukiwa hujaunganishwa kwenye mtandao mwingine.</translation>
 <translation id="6514010653036109809">Kifaa kinachopatikana:</translation>
 <translation id="6514565641373682518">Ukurasa huu umekilemza kiteuzi chako cha kipanya.</translation>
 <translation id="6518014396551869914">&amp;Nakili picha</translation>
@@ -7158,7 +7158,7 @@ Sidhani tovuti hii inapaswa kuzuiwa!</translation>
 <translation id="8553342806078037065">Dhibiti watumiaji wengine</translation>
 <translation id="8554899698005018844">Hakuna lugha</translation>
 <translation id="8557022314818157177">Endelea kugusa ufunguo wako wa usalama hadi alama yako ya kidole inaswe</translation>
-<translation id="8557180006508471423">Washa "Google Chrome" katika Huduma za Mahali kwenye Mac yako</translation>
+<translation id="8557180006508471423">Washa "Decentr" katika Huduma za Mahali kwenye Mac yako</translation>
 <translation id="8557930019681227453">Faili ya maelezo</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Fungua Zote katika &amp;Dirisha Jipya}=1{Fungua katika &amp;Dirisha Jipya}other{Fungua Zote ({COUNT}) katika &amp;Dirisha Jipya}}</translation>
 <translation id="8561206103590473338">Tembo</translation>

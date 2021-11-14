@@ -860,7 +860,7 @@
 <translation id="1865769994591826607">Iba pripojenia z rovnakého webu</translation>
 <translation id="186612162884103683"><ph name="EXTENSION" /> môže čítať a zapisovať obrázky, video a zvukové súbory vo vybratých umiestneniach.</translation>
 <translation id="1867780286110144690">Aplikácia <ph name="PRODUCT_NAME" /> je pripravená dokončiť inštaláciu</translation>
-<translation id="1868553836791672080">Kontrola hesla nie je v prehliadači Chromium k dispozícii</translation>
+<translation id="1868553836791672080">Kontrola hesla nie je v prehliadači Decentr k dispozícii</translation>
 <translation id="1869433484041798909">Tlačidlo Záložka</translation>
 <translation id="1871098866036088250">Otvárať v prehliadači Chrome</translation>
 <translation id="187145082678092583">Menej aplikácií</translation>
@@ -1060,7 +1060,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="2087822576218954668">Tlač: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Registrácia je podporovaná až po inštalácii operačného systému <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Na domovskú obrazovku môžete kedykoľvek prejsť potiahnutím zdola nahor.</translation>
-<translation id="2089566709556890888">Prehliadajte v bezpečí pomocou prehliadača Google Chrome</translation>
+<translation id="2089566709556890888">Prehliadajte v bezpečí pomocou prehliadača Decentr</translation>
 <translation id="2089795179672254991">Opýtať sa, keď chce web získať prístup k textu a obrázkom skopírovaným do schránky (odporúča sa)</translation>
 <translation id="2090165459409185032">Ak chcete obnoviť informácie o svojom účte, prejdite na stránku google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Automaticky sa pripojí, keď sa prihlásite</translation>
@@ -1658,7 +1658,7 @@ Ak chcete spravovať nastavenia tohto účtu, nainštalujte si do zariadenia apl
 <translation id="2701330563083355633">Zdieľané zo zariadenia <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Prihlásiť sa, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Čitateľský zoznam</translation>
-<translation id="270358213449696159">Obsah zmluvných podmienok systému Google Chrome OS</translation>
+<translation id="270358213449696159">Obsah zmluvných podmienok systému Decentr OS</translation>
 <translation id="270414148003105978">Mobilné siete</translation>
 <translation id="2704184184447774363">Podpis dokumentu Microsoft</translation>
 <translation id="270516211545221798">Rýchlosť touchpadu</translation>
@@ -2373,7 +2373,7 @@ stlačením klávesov Ctrl + Alt + zníženie jasu zobrazenie oddialite.</tr
 <translation id="344630545793878684">Čítať vaše údaje na viacerých webových stránkach</translation>
 <translation id="3446650212859500694">Tento súbor má citlivý obsah</translation>
 <translation id="3446827946208017735">Porozumejte najdôležitejším nastaveniam ochrany súkromia a skontrolujte ich na jednom mieste</translation>
-<translation id="3448086340637592206">Doplňujúce zmluvné podmienky prehliadača Google Chrome a systému Chrome OS</translation>
+<translation id="3448086340637592206">Doplňujúce zmluvné podmienky prehliadača Decentr a systému Chrome OS</translation>
 <translation id="3448492834076427715">Aktualizovať účet</translation>
 <translation id="3449393517661170867">Nové okno s kartami</translation>
 <translation id="3449839693241009168">Stlačením tlačidla <ph name="SEARCH_KEY" /> odošlete príkazy rozšíreniu <ph name="EXTENSION_NAME" /></translation>
@@ -2728,7 +2728,7 @@ stlačením klávesov Ctrl + Alt + zníženie jasu zobrazenie oddialite.</tr
 <translation id="3810973564298564668">Spravovať</translation>
 <translation id="381202950560906753">Pridať ďalší</translation>
 <translation id="3812525830114410218">Nesprávny certifikát</translation>
-<translation id="3813296892522778813">Ak neviete nájsť požadovaný obsah, prejdite do <ph name="BEGIN_LINK_CHROMIUM" />pomocníka Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Ak neviete nájsť požadovaný obsah, prejdite do <ph name="BEGIN_LINK_CHROMIUM" />pomocníka Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Jazyk, do ktorého boli preložené stránky a rýchle odpovede</translation>
 <translation id="3814529970604306954">Školský účet</translation>
 <translation id="3816118180265633665">Farby Chromu</translation>
@@ -3401,7 +3401,7 @@ stlačením klávesov Ctrl + Alt + zníženie jasu zobrazenie oddialite.</tr
 <translation id="4544174279960331769">Predvolený modrý avatar</translation>
 <translation id="4545028762441890696">Ak ju chcete znova povoliť, prijmite nové povolenia:</translation>
 <translation id="4545759655004063573">Uloženie nie je možné z dôvodu nedostatočných oprávnení. Uložte položku inde.</translation>
-<translation id="4546308221697447294">Prehliadajte rýchlejšie pomocou prehliadača Google Chrome</translation>
+<translation id="4546308221697447294">Prehliadajte rýchlejšie pomocou prehliadača Decentr</translation>
 <translation id="4546345569117159016">Pravé tlačidlo</translation>
 <translation id="4546692474302123343">Hlasový vstup Asistenta Google</translation>
 <translation id="4547659257713117923">Žiadne karty z iných zariadení</translation>
@@ -5201,7 +5201,7 @@ Tejto akcii môžete prideliť viacero prepínačov.</translation>
 <translation id="6508248480704296122">Podobné ako <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Aplikácia: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licencia pre médiá</translation>
-<translation id="6513247462497316522">Ak nebudete mať pripojenie k inej sieti, prehliadač Google Chrome použije mobilné dáta.</translation>
+<translation id="6513247462497316522">Ak nebudete mať pripojenie k inej sieti, prehliadač Decentr použije mobilné dáta.</translation>
 <translation id="6514010653036109809">Dostupné zariadenie:</translation>
 <translation id="6514565641373682518">Táto stránka zakázala kurzor myši.</translation>
 <translation id="6518014396551869914">&amp;Kopírovať obrázok</translation>
@@ -7147,7 +7147,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="8553342806078037065">Spravovať ďalšie osoby</translation>
 <translation id="8554899698005018844">Žiadny jazyk</translation>
 <translation id="8557022314818157177">Klepte na bezpečnostný kľúč, dokým sa odtlačok prsta nenasníma</translation>
-<translation id="8557180006508471423">V sekcii Lokalizačné služby v Macu zapnite Google Chrome</translation>
+<translation id="8557180006508471423">V sekcii Lokalizačné služby v Macu zapnite Decentr</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Otvoriť všetky v novom okne}=1{Otvoriť v novom okne}few{Otvoriť všetky ({COUNT}) v novom okne}many{Otvoriť všetky ({COUNT}) v novom okne}other{Otvoriť všetky ({COUNT}) v novom okne}}</translation>
 <translation id="8561206103590473338">Slon</translation>

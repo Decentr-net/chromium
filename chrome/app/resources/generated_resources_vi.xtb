@@ -271,7 +271,7 @@
 <translation id="1272978324304772054">Tài khoản người dùng này không thuộc về miền mà thiết bị được đăng ký. Nếu bạn muốn đăng ký miền khác, bạn cần tìm thiết bị trước tiên.</translation>
 <translation id="1274997165432133392">Cookie và các dữ liệu khác của trang web</translation>
 <translation id="1275718070701477396">Đã chọn</translation>
-<translation id="1276242130531808236">Tôi đã đọc và đồng ý với <ph name="BEGIN_LINK1" />Điều khoản dịch vụ của Google<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />Điều khoản dịch vụ bổ sung của Google Chrome và Chrome OS<ph name="END_LINK2" />.</translation>
+<translation id="1276242130531808236">Tôi đã đọc và đồng ý với <ph name="BEGIN_LINK1" />Điều khoản dịch vụ của Google<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />Điều khoản dịch vụ bổ sung của Decentr và Chrome OS<ph name="END_LINK2" />.</translation>
 <translation id="1276994519141842946">Không gỡ được cài đặt <ph name="APP_NAME" /></translation>
 <translation id="1277020343994096713">Hãy tạo một mã PIN mới khác với mã PIN hiện tại của bạn</translation>
 <translation id="1278859221870828664">Xem xét các ứng dụng và dịch vụ của Google Play</translation>
@@ -870,7 +870,7 @@
 <translation id="1865769994591826607">Chỉ các kết nối cùng trang web</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" có thể đọc và ghi hình ảnh, video và tệp âm thanh trong các vị trí đã chọn.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> sẵn sàng hoàn tất việc cài đặt của bạn</translation>
-<translation id="1868553836791672080">Tính năng kiểm tra mật khẩu không hoạt động trong Chromium</translation>
+<translation id="1868553836791672080">Tính năng kiểm tra mật khẩu không hoạt động trong Decentr</translation>
 <translation id="1869433484041798909">Nút dấu trang</translation>
 <translation id="1871098866036088250">Mở trong trình duyệt Chrome</translation>
 <translation id="187145082678092583">Ẩn bớt ứng dụng</translation>
@@ -1070,7 +1070,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2087822576218954668">Bản in: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Chỉ hỗ trợ đăng ký sau khi bạn hoàn tất cài đặt <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Để chuyển đến Màn hình chính bất cứ lúc nào, hãy vuốt lên từ cuối màn hình.</translation>
-<translation id="2089566709556890888">Duyệt web an toàn bằng Google Chrome</translation>
+<translation id="2089566709556890888">Duyệt web an toàn bằng Decentr</translation>
 <translation id="2089795179672254991">Hỏi khi có một trang web muốn xem văn bản và hình ảnh đã sao chép sang bảng nhớ tạm (được đề xuất)</translation>
 <translation id="2090165459409185032">Để khôi phục thông tin tài khoản của bạn, hãy truy cập: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Tự động kết nối khi bạn đăng nhập</translation>
@@ -1671,7 +1671,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2701330563083355633">Chia sẻ từ <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Đăng nhập, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Danh sách đọc</translation>
-<translation id="270358213449696159">Nội dung Điều khoản của Google Chrome OS</translation>
+<translation id="270358213449696159">Nội dung Điều khoản của Decentr OS</translation>
 <translation id="270414148003105978">Mạng di động</translation>
 <translation id="2704184184447774363">Ký Tài liệu của Microsoft</translation>
 <translation id="270516211545221798">Tốc độ bàn di chuột</translation>
@@ -2386,7 +2386,7 @@ và Ctrl+Alt+Giảm độ sáng để thu nhỏ.</translation>
 <translation id="344630545793878684">Đọc dữ liệu của bạn trên một số trang web</translation>
 <translation id="3446650212859500694">Tệp này có chứa nội dung nhạy cảm</translation>
 <translation id="3446827946208017735">Hiểu và xem xét các chế độ cài đặt quyền riêng tư quan trọng nhất tại cùng một nơi</translation>
-<translation id="3448086340637592206">Các điều khoản bổ sung của Google Chrome và Chrome OS</translation>
+<translation id="3448086340637592206">Các điều khoản bổ sung của Decentr và Chrome OS</translation>
 <translation id="3448492834076427715">Cập nhật tài khoản</translation>
 <translation id="3449393517661170867">Cửa sổ mới dạng thẻ</translation>
 <translation id="3449839693241009168">Bấm <ph name="SEARCH_KEY" /> để gửi lệnh đến <ph name="EXTENSION_NAME" /></translation>
@@ -2741,7 +2741,7 @@ và Ctrl+Alt+Giảm độ sáng để thu nhỏ.</translation>
 <translation id="3810973564298564668">Quản lý</translation>
 <translation id="381202950560906753">Thêm vân tay khác</translation>
 <translation id="3812525830114410218">Chứng chỉ không hợp lệ</translation>
-<translation id="3813296892522778813">Hãy truy cập <ph name="BEGIN_LINK_CHROMIUM" />Trợ giúp Google Chrome<ph name="END_LINK_CHROMIUM" /> nếu bạn không tìm thấy nội dung mình đang tìm kiếm</translation>
+<translation id="3813296892522778813">Hãy truy cập <ph name="BEGIN_LINK_CHROMIUM" />Trợ giúp Decentr<ph name="END_LINK_CHROMIUM" /> nếu bạn không tìm thấy nội dung mình đang tìm kiếm</translation>
 <translation id="3813358687923336574">Ngôn ngữ dùng để dịch các trang và nội dung trong phần Thông tin nhanh</translation>
 <translation id="3814529970604306954">Tài khoản trường học</translation>
 <translation id="3816118180265633665">Màu Chrome</translation>
@@ -3415,7 +3415,7 @@ và Ctrl+Alt+Giảm độ sáng để thu nhỏ.</translation>
 <translation id="4544174279960331769">Hình đại diện màu xanh lam mặc định</translation>
 <translation id="4545028762441890696">Để bật lại, hãy chấp nhận các quyền mới:</translation>
 <translation id="4545759655004063573">Không thể lưu do không đủ quyền. Hãy lưu vào một vị trí khác.</translation>
-<translation id="4546308221697447294">Duyệt web nhanh bằng Google Chrome</translation>
+<translation id="4546308221697447294">Duyệt web nhanh bằng Decentr</translation>
 <translation id="4546345569117159016">Nút chuột phải</translation>
 <translation id="4546692474302123343">Tính năng nhập bằng giọng nói của Trợ lý Google</translation>
 <translation id="4547659257713117923">Không có thẻ nào từ thiết bị khác</translation>
@@ -5215,7 +5215,7 @@ Bạn có thể gán nhiều công tắc cho thao tác này.</translation>
 <translation id="6508248480704296122">Liên quan tới <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Ứng dụng: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Giấy phép phương tiện</translation>
-<translation id="6513247462497316522">Google Chrome sẽ sử dụng dữ liệu di động nếu bạn không được kết nối với mạng khác.</translation>
+<translation id="6513247462497316522">Decentr sẽ sử dụng dữ liệu di động nếu bạn không được kết nối với mạng khác.</translation>
 <translation id="6514010653036109809">Thiết bị có sẵn:</translation>
 <translation id="6514565641373682518">Trang này đã tắt con trỏ chuột của bạn.</translation>
 <translation id="6518014396551869914">Sao ché&amp;p hình ảnh</translation>
@@ -7162,7 +7162,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8553342806078037065">Quản lý những người khác</translation>
 <translation id="8554899698005018844">Không có ngôn ngữ nào</translation>
 <translation id="8557022314818157177">Chạm liên tục vào khóa bảo mật cho đến khi thiết bị ghi lại vân tay của bạn</translation>
-<translation id="8557180006508471423">Hãy bật "Google Chrome" trong mục cài đặt Dịch vụ vị trí (Location Services) trên máy Mac của bạn</translation>
+<translation id="8557180006508471423">Hãy bật "Decentr" trong mục cài đặt Dịch vụ vị trí (Location Services) trên máy Mac của bạn</translation>
 <translation id="8557930019681227453">Tệp kê khai</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Mở tất cả trong cửa sổ &amp;mới}=1{Mở trong cửa sổ &amp;mới}other{Mở tất cả ({COUNT}) trong cửa sổ &amp;mới}}</translation>
 <translation id="8561206103590473338">Voi</translation>

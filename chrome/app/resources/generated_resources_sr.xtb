@@ -271,7 +271,7 @@
 <translation id="1272978324304772054">Овај кориснички налог не припада домену на ком је уређај регистрован. Ако желите да се региструјете на другом домену, прво морате да обавите опоравак уређаја.</translation>
 <translation id="1274997165432133392">Колачићи и други подаци о сајтовима</translation>
 <translation id="1275718070701477396">Изабрано</translation>
-<translation id="1276242130531808236">Прочитао/ла сам и прихватам <ph name="BEGIN_LINK1" />Google услове коришћења услуге<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />додатне услове коришћења услуге за Google Chrome и Chrome ОС<ph name="END_LINK2" />.</translation>
+<translation id="1276242130531808236">Прочитао/ла сам и прихватам <ph name="BEGIN_LINK1" />Google услове коришћења услуге<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />додатне услове коришћења услуге за Decentr и Chrome ОС<ph name="END_LINK2" />.</translation>
 <translation id="1276994519141842946">Деинсталирање апликације <ph name="APP_NAME" /> није успело</translation>
 <translation id="1277020343994096713">Направите нови PIN који се разликује од актуелног PIN-а</translation>
 <translation id="1278859221870828664">Прегледајте Google Play апликације и услуге</translation>
@@ -857,7 +857,7 @@
 <translation id="1865769994591826607">Само везе са истим сајтом</translation>
 <translation id="186612162884103683">„<ph name="EXTENSION" />“ може да чита слике, видео и аудио датотеке на наведеним локацијама, као и да уписује податке у њих.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> је спреман да доврши инсталацију</translation>
-<translation id="1868553836791672080">Провера лозинки није доступна у Chromium-у</translation>
+<translation id="1868553836791672080">Провера лозинки није доступна у Decentr-у</translation>
 <translation id="1869433484041798909">Дугме обележивача</translation>
 <translation id="1871098866036088250">Отвори у прегледачу Chrome</translation>
 <translation id="187145082678092583">Мање апликација</translation>
@@ -1057,7 +1057,7 @@
 <translation id="2087822576218954668">Штампање: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Регистровање је подржано само када инсталирате <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Да бисте дошли на почетни екран у било ком тренутку, превуците нагоре од дна.</translation>
-<translation id="2089566709556890888">Прегледајте безбедно уз Google Chrome</translation>
+<translation id="2089566709556890888">Прегледајте безбедно уз Decentr</translation>
 <translation id="2089795179672254991">Питај када сајт жели да види текст и слике који су копирани у привремену меморију (препоручено)</translation>
 <translation id="2090165459409185032">Да бисте вратили информације о налогу, идите на: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Аутоматски се повезује када се пријавите</translation>
@@ -1655,7 +1655,7 @@
 <translation id="2701330563083355633">Дељено са: <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Пријавите се, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Листа за читање</translation>
-<translation id="270358213449696159">Садржај услова за Google Chrome ОС</translation>
+<translation id="270358213449696159">Садржај услова за Decentr ОС</translation>
 <translation id="270414148003105978">Мобилне мреже</translation>
 <translation id="2704184184447774363">Microsoft потписивање докумената</translation>
 <translation id="270516211545221798">Брзина тачпеда</translation>
@@ -2370,7 +2370,7 @@
 <translation id="344630545793878684">Читање ваших података на више веб-сајтова</translation>
 <translation id="3446650212859500694">Ова датотека садржи осетљив садржај</translation>
 <translation id="3446827946208017735">Разумите и прегледајте најважнија подешавања приватности на једном месту</translation>
-<translation id="3448086340637592206">Додатни услови за Google Chrome и Chrome ОС</translation>
+<translation id="3448086340637592206">Додатни услови за Decentr и Chrome ОС</translation>
 <translation id="3448492834076427715">Ажурирај налог</translation>
 <translation id="3449393517661170867">Нови прозор са картицама</translation>
 <translation id="3449839693241009168">Притисните <ph name="SEARCH_KEY" /> да бисте послали команде у <ph name="EXTENSION_NAME" /></translation>
@@ -2725,7 +2725,7 @@
 <translation id="3810973564298564668">Управљај</translation>
 <translation id="381202950560906753">Додај други</translation>
 <translation id="3812525830114410218">Неисправан сертификат</translation>
-<translation id="3813296892522778813">Идите на <ph name="BEGIN_LINK_CHROMIUM" />страницу помоћи за Google Chrome<ph name="END_LINK_CHROMIUM" /> ако не можете да пронађете оно што тражите</translation>
+<translation id="3813296892522778813">Идите на <ph name="BEGIN_LINK_CHROMIUM" />страницу помоћи за Decentr<ph name="END_LINK_CHROMIUM" /> ако не можете да пронађете оно што тражите</translation>
 <translation id="3813358687923336574">Језик који се користи за превођење страница и брзе одговоре</translation>
 <translation id="3814529970604306954">Школски налог</translation>
 <translation id="3816118180265633665">Chrome боје</translation>
@@ -3398,7 +3398,7 @@
 <translation id="4544174279960331769">Подразумевани плави аватар</translation>
 <translation id="4545028762441890696">Да бисте га поново омогућили, прихватите нове дозволе:</translation>
 <translation id="4545759655004063573">Није могуће сачувати због недовољног броја дозвола. Сачувајте на другу локацију.</translation>
-<translation id="4546308221697447294">Прегледајте брзо уз Google Chrome</translation>
+<translation id="4546308221697447294">Прегледајте брзо уз Decentr</translation>
 <translation id="4546345569117159016">Десно дугме</translation>
 <translation id="4546692474302123343">Гласовни унос у Google помоћнику</translation>
 <translation id="4547659257713117923">Нема картица са других уређаја</translation>
@@ -5198,7 +5198,7 @@
 <translation id="6508248480704296122">Сродно са ставком <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Апл.: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Лиценца за медије</translation>
-<translation id="6513247462497316522">Google Chrome ће користити мобилне податке ако нисте повезани са другом мрежом.</translation>
+<translation id="6513247462497316522">Decentr ће користити мобилне податке ако нисте повезани са другом мрежом.</translation>
 <translation id="6514010653036109809">Доступан уређај:</translation>
 <translation id="6514565641373682518">Ова страница је онемогућила курсор.</translation>
 <translation id="6518014396551869914">Коп&amp;ирај слику</translation>
@@ -7144,7 +7144,7 @@
 <translation id="8553342806078037065">Управљање другим људима</translation>
 <translation id="8554899698005018844">Без језика</translation>
 <translation id="8557022314818157177">Наставите да додирујете безбедносни кључ док не снимимо отисак прста</translation>
-<translation id="8557180006508471423">Укључите Google Chrome у услугама локације на Mac-у</translation>
+<translation id="8557180006508471423">Укључите Decentr у услугама локације на Mac-у</translation>
 <translation id="8557930019681227453">Манифест</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Отвори све у &amp;новом прозору}=1{Отвори у &amp;новом прозору}one{Отвори све ({COUNT}) у &amp;новом прозору}few{Отвори све ({COUNT}) у &amp;новом прозору}other{Отвори све ({COUNT}) у &amp;новом прозору}}</translation>
 <translation id="8561206103590473338">Слон</translation>

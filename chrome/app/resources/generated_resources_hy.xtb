@@ -860,7 +860,7 @@
 <translation id="1865769994591826607">Միայն միևնույն կայքի կապակցման համար</translation>
 <translation id="186612162884103683">«<ph name="EXTENSION" />» ընդլայնումը կարող է նշված պանակներում կարդալ և գրել պատկերները, տեսանյութերը և ձայնային ֆայլերը:</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" />-ը պատրաստ է ավարտել տեղադրումը</translation>
-<translation id="1868553836791672080">Գաղտնաբառերի ստուգումը հասանելի չէ Chromium-ում</translation>
+<translation id="1868553836791672080">Գաղտնաբառերի ստուգումը հասանելի չէ Decentr-ում</translation>
 <translation id="1869433484041798909">Էջանշման կոճակ</translation>
 <translation id="1871098866036088250">Բացել Chrome դիտարկիչում</translation>
 <translation id="187145082678092583">Ավելի քիչ հավելվածներ</translation>
@@ -1060,7 +1060,7 @@
 <translation id="2087822576218954668">Տպում՝ <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Գրանցվել կարելի է միայն <ph name="DEVICE_OS" />-ի տեղադրումից հետո։</translation>
 <translation id="208928984520943006">Հիմնական էկրան անցնելու համար մատը սահեցրեք ներքևից վերև։</translation>
-<translation id="2089566709556890888">Համացանցում ավելի անվտանգ շրջեք Google Chrome-ի օգնությամբ</translation>
+<translation id="2089566709556890888">Համացանցում ավելի անվտանգ շրջեք Decentr-ի օգնությամբ</translation>
 <translation id="2089795179672254991">Հարցնել, երբ կայքն ուզում է տեսնել սեղմատախտակին պատճենված տեքստն ու պատկերները (խորհուրդ է տրվում)</translation>
 <translation id="2090165459409185032">Հաշվի տեղեկությունները վերականգնելու համար այցելեք՝ google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Ավտոմատ միանում է, երբ դուք մուտք եք գործում</translation>
@@ -1658,7 +1658,7 @@
 <translation id="2701330563083355633">Ուղարկվել է <ph name="DEVICE_NAME" />-ի միջոցով</translation>
 <translation id="2701737434167469065">Մուտք գործել, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Ընթերցանության ցանկ</translation>
-<translation id="270358213449696159">Google Chrome OS-ի օգտագործման պայմանների ամբողջական տեքստը</translation>
+<translation id="270358213449696159">Decentr OS-ի օգտագործման պայմանների ամբողջական տեքստը</translation>
 <translation id="270414148003105978">Բջջային ցանցեր</translation>
 <translation id="2704184184447774363">Microsoft փաստաթղթերի ստորագրում</translation>
 <translation id="270516211545221798">Հպահարթակի արագությունը</translation>
@@ -2372,7 +2372,7 @@
 <translation id="344630545793878684">Կարդալ ձեր տվյալները մի շարք կայքերում</translation>
 <translation id="3446650212859500694">Այս ֆայլը պարունակում է խիստ անձնական բովանդակություն</translation>
 <translation id="3446827946208017735">Ստուգեք գաղտնիության ամենակարևոր կարգավորումները՝ մեկ տեղում</translation>
-<translation id="3448086340637592206">Google Chrome-ի և Chrome OS-ի լրացուցիչ պայմաններ</translation>
+<translation id="3448086340637592206">Decentr-ի և Chrome OS-ի լրացուցիչ պայմաններ</translation>
 <translation id="3448492834076427715">Թարմացնել հաշիվը</translation>
 <translation id="3449393517661170867">Նոր ներդիրով պատուհան</translation>
 <translation id="3449839693241009168"><ph name="EXTENSION_NAME" />-ին հրամաններ ուղարկելու համար սեղմեք <ph name="SEARCH_KEY" /></translation>
@@ -2727,7 +2727,7 @@
 <translation id="3810973564298564668">Կառավարել</translation>
 <translation id="381202950560906753">Նոր մատնահետք</translation>
 <translation id="3812525830114410218">Սխալ վկայական</translation>
-<translation id="3813296892522778813">Եթե չեք գտնում ձեր ուզածը, այցելեք <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome-ի օգնության էջ<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Եթե չեք գտնում ձեր ուզածը, այցելեք <ph name="BEGIN_LINK_CHROMIUM" />Decentr-ի օգնության էջ<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Էջերի թարգմանության և արագ պատասխանների համար օգտագործվող լեզուն</translation>
 <translation id="3814529970604306954">Ուսումնական հաշիվ</translation>
 <translation id="3816118180265633665">Chrome-ի գույներ</translation>
@@ -3400,7 +3400,7 @@
 <translation id="4544174279960331769">Կանխադրված կապույտ ավատար</translation>
 <translation id="4545028762441890696">Նորից միացնելու համար ընդունեք նոր թույլտվությունները՝</translation>
 <translation id="4545759655004063573">Հնարավոր չէ պահել ոչ բավարար թույլտվությունների պատճառով: Պահեք մեկ այլ տեղադրությունում:</translation>
-<translation id="4546308221697447294">Համացանցում ավելի արագ շրջեք Google Chrome-ի օգնությամբ</translation>
+<translation id="4546308221697447294">Համացանցում ավելի արագ շրջեք Decentr-ի օգնությամբ</translation>
 <translation id="4546345569117159016">«Աջ» կոճակ</translation>
 <translation id="4546692474302123343">Google Օգնականի ձայնային ներածում</translation>
 <translation id="4547659257713117923">Այլ սարքերից ներդիրներ չկան</translation>
@@ -5203,7 +5203,7 @@
 <translation id="6508248480704296122">Կապված է <ph name="NAME_PH" />-ի հետ</translation>
 <translation id="6508261954199872201">Հավելված` <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Մեդիա արտոնագիր</translation>
-<translation id="6513247462497316522">Եթե կապակցված չեք այլ ցանցի, Google Chrome-ը կօգտագործի տվյալների փոխանցման բջջային ցանցը:</translation>
+<translation id="6513247462497316522">Եթե կապակցված չեք այլ ցանցի, Decentr-ը կօգտագործի տվյալների փոխանցման բջջային ցանցը:</translation>
 <translation id="6514010653036109809">Հասանելի սարք՝</translation>
 <translation id="6514565641373682518">Այս էջը կողպել է ձեր մկնիկի նշորդը:</translation>
 <translation id="6518014396551869914">Պատ&amp;ճենել պատկերը</translation>
@@ -7147,7 +7147,7 @@
 <translation id="8553342806078037065">Կառավարել այլ օգտատերերի</translation>
 <translation id="8554899698005018844">Լեզու նշված չէ</translation>
 <translation id="8557022314818157177">Հպեք անվտանգության բանալուն և պահեք, մինչև ձեր մատնահետքն ավելացվի:</translation>
-<translation id="8557180006508471423">Միացրեք «Google Chrome»-ը ձեր Mac համակարգչի տեղորոշման ծառայություններում</translation>
+<translation id="8557180006508471423">Միացրեք «Decentr»-ը ձեր Mac համակարգչի տեղորոշման ծառայություններում</translation>
 <translation id="8557930019681227453">Մանիֆեստ</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Բացել բոլորը &amp;նոր պատուհանում}=1{Բացել &amp;նոր պատուհանում}one{Բացել բոլորը ({COUNT}) &amp;նոր պատուհանում}other{Բացել բոլորը ({COUNT}) &amp;նոր պատուհանում}}</translation>
 <translation id="8561206103590473338">Փիղ</translation>

@@ -866,7 +866,7 @@
 <translation id="1865769994591826607">Само връзки в същия сайт</translation>
 <translation id="186612162884103683"><ph name="EXTENSION" /> може да чете и записва изображения, видео- и звукови файлове в местоположенията с отметка.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> е готов да завърши инсталирането</translation>
-<translation id="1868553836791672080">Функцията за проверка на паролите не е налице в Chromium</translation>
+<translation id="1868553836791672080">Функцията за проверка на паролите не е налице в Decentr</translation>
 <translation id="1869433484041798909">Бутон за отметка</translation>
 <translation id="1871098866036088250">Отваряне в браузъра Chrome</translation>
 <translation id="187145082678092583">По-малко приложения</translation>
@@ -1066,7 +1066,7 @@
 <translation id="2087822576218954668">Отпечатване: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Регистрирането се поддържа само след като инсталирате <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Можете по всяко време да преминете към началния екран, като прекарате пръст нагоре от долната част на екрана.</translation>
-<translation id="2089566709556890888">Сърфирайте безопасно с Google Chrome</translation>
+<translation id="2089566709556890888">Сърфирайте безопасно с Decentr</translation>
 <translation id="2089795179672254991">Извеждане на запитване, когато сайт иска да преглежда текста и изображенията, копирани в буферната памет (препоръчително)</translation>
 <translation id="2090165459409185032">За да възстановите информацията за профила си, отворете google.bg/accounts/recovery</translation>
 <translation id="2090507354966565596">Автоматично се свързва, когато влезете в профила си</translation>
@@ -1667,7 +1667,7 @@
 <translation id="2701330563083355633">Споделено от <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Влизане в профила <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Списък за четене</translation>
-<translation id="270358213449696159">Съдържание на Общите условия на Google Chrome OS</translation>
+<translation id="270358213449696159">Съдържание на Общите условия на Decentr OS</translation>
 <translation id="270414148003105978">Мобилни мрежи</translation>
 <translation id="2704184184447774363">Подписване на документи от Microsoft</translation>
 <translation id="270516211545221798">Скорост на сензорния панел</translation>
@@ -2380,7 +2380,7 @@
 <translation id="344630545793878684">Четене на данните ви от редица уебсайтове</translation>
 <translation id="3446650212859500694">В този файл има деликатно съдържание</translation>
 <translation id="3446827946208017735">Прегледайте най-важните настройки за поверителност и научете повече за тях на едно място</translation>
-<translation id="3448086340637592206">Допълнителни условия на Google Chrome и Chrome OS</translation>
+<translation id="3448086340637592206">Допълнителни условия на Decentr и Chrome OS</translation>
 <translation id="3448492834076427715">Актуализиране на профила</translation>
 <translation id="3449393517661170867">Нов прозорец с раздели</translation>
 <translation id="3449839693241009168">Натиснете <ph name="SEARCH_KEY" /> за да изпратите командите до <ph name="EXTENSION_NAME" /></translation>
@@ -2734,7 +2734,7 @@
 <translation id="3810973564298564668">Управление</translation>
 <translation id="381202950560906753">Добавяне на друг</translation>
 <translation id="3812525830114410218">Невалиден сертификат</translation>
-<translation id="3813296892522778813">Прегледайте <ph name="BEGIN_LINK_CHROMIUM" />помощното съдържание за Google Chrome<ph name="END_LINK_CHROMIUM" />, ако не можете да намерите търсеното</translation>
+<translation id="3813296892522778813">Прегледайте <ph name="BEGIN_LINK_CHROMIUM" />помощното съдържание за Decentr<ph name="END_LINK_CHROMIUM" />, ако не можете да намерите търсеното</translation>
 <translation id="3813358687923336574">Езикът за превеждане на страници и „Бързи отговори“</translation>
 <translation id="3814529970604306954">Училищен профил</translation>
 <translation id="3816118180265633665">Цветове на Chrome</translation>
@@ -3409,7 +3409,7 @@
 <translation id="4544174279960331769">Стандартен син аватар</translation>
 <translation id="4545028762441890696">За да го активирате, приемете новите разрешения:</translation>
 <translation id="4545759655004063573">Не може да се запази поради недостатъчни разрешения. Моля, запазете на друго място.</translation>
-<translation id="4546308221697447294">Сърфирайте бързо с Google Chrome</translation>
+<translation id="4546308221697447294">Сърфирайте бързо с Decentr</translation>
 <translation id="4546345569117159016">Десен бутон</translation>
 <translation id="4546692474302123343">Гласово въвеждане с Google Асистент</translation>
 <translation id="4547659257713117923">Няма раздели от други устройства</translation>
@@ -5209,7 +5209,7 @@
 <translation id="6508248480704296122">Свързано със <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Приложение: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Лиценз за мултимедия</translation>
-<translation id="6513247462497316522">Google Chrome ще използва мобилни данни, ако не сте свързани с друга мрежа.</translation>
+<translation id="6513247462497316522">Decentr ще използва мобилни данни, ако не сте свързани с друга мрежа.</translation>
 <translation id="6514010653036109809">Налично устройство:</translation>
 <translation id="6514565641373682518">Тази страница е деактивирала курсора на мишката ви.</translation>
 <translation id="6518014396551869914">Копиране на изобра&amp;жението</translation>
@@ -7156,7 +7156,7 @@
 <translation id="8553342806078037065">Управление на другите хора</translation>
 <translation id="8554899698005018844">Без език</translation>
 <translation id="8557022314818157177">Продължете да докосвате ключа за сигурност, докато отпечатъкът ви бъде записан</translation>
-<translation id="8557180006508471423">Включете Google Chrome в услугите за местоположение на своя Mac</translation>
+<translation id="8557180006508471423">Включете Decentr в услугите за местоположение на своя Mac</translation>
 <translation id="8557930019681227453">Манифест</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Отваряне на всички в &amp;нов прозорец}=1{Отваряне в &amp;нов прозорец}other{Отваряне на всички ({COUNT}) в &amp;нов прозорец}}</translation>
 <translation id="8561206103590473338">Слон</translation>

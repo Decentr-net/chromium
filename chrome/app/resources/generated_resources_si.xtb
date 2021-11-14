@@ -859,7 +859,7 @@
 <translation id="1865769994591826607">එකම අඩවියේ සම්බන්ධතා පමණි</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" ට පරීක්ෂා කළ ස්ථානවල රූප, වීඩියෝ, සහ ශබ්ද ගොනු කියවිය සහ ලිවිය හැක.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> ඔබේ ස්ථාපනය සම්පූර්ණ කිරීමට සූදානම්</translation>
-<translation id="1868553836791672080">Chromium හි මුරපද පිරික්සුම ලබා ගත නොහැක</translation>
+<translation id="1868553836791672080">Decentr හි මුරපද පිරික්සුම ලබා ගත නොහැක</translation>
 <translation id="1869433484041798909">පිටුසන් බොත්තම</translation>
 <translation id="1871098866036088250">Chrome බ්‍රව්සරය තුළ විවෘත කරන්න</translation>
 <translation id="187145082678092583">යෙදුම් අඩුවෙන්</translation>
@@ -1059,7 +1059,7 @@
 <translation id="2087822576218954668">මුද්‍රණය කරන්න: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">බඳවා ගැනීම ඔබ <ph name="DEVICE_OS" /> ස්ථාපනය කිරීමෙන් පසුව පමණක් සහාය දැක්වේ.</translation>
 <translation id="208928984520943006">ඕනෑම වේලාවකදී මුල් තිරයට යාමට, පහළ සිට ඉහළට ස්වයිප් කරන්න.</translation>
-<translation id="2089566709556890888">Google Chrome සමඟ සුරක්ෂිතව බ්‍රවුස් කරන්න</translation>
+<translation id="2089566709556890888">Decentr සමඟ සුරක්ෂිතව බ්‍රවුස් කරන්න</translation>
 <translation id="2089795179672254991">පසුරු පුවරුවට පිටපත් කළ පෙළ සහ රූප බැලීමට අඩවියකට අවශ්‍ය කවර විටක දැයි අසන්න (නිර්දේශිතයි)</translation>
 <translation id="2090165459409185032">ඔබේ ගිණුම් තොරතුරු ප්‍රතිසාධනය කර ගැනීමට google.com/accounts/recovery වෙත යන්න</translation>
 <translation id="2090507354966565596">ඔබ පුරන විට ස්වයංක්‍රියව සම්බන්ධ වේ</translation>
@@ -1660,7 +1660,7 @@
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" /> වෙතින් බෙදා ගන්නා ලදි</translation>
 <translation id="2701737434167469065">පුරන්න, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">කියවීම් ලැයිස්තුව</translation>
-<translation id="270358213449696159">Google Chrome OS නියම අන්තර්ගතය</translation>
+<translation id="270358213449696159">Decentr OS නියම අන්තර්ගතය</translation>
 <translation id="270414148003105978">ජංගම ජාල</translation>
 <translation id="2704184184447774363">Microsoft ලේඛන සන් කිරීම</translation>
 <translation id="270516211545221798">ස්පර්ශ පුවරු වේගය</translation>
@@ -2374,7 +2374,7 @@
 <translation id="344630545793878684">වෙබ අඩවි විශාල ගණනක ඔබගේ දත්ත කියවන්න</translation>
 <translation id="3446650212859500694">මෙම ගොනුවේ සංවේදී අන්තර්ගතය ඇත</translation>
 <translation id="3446827946208017735">එක් ස්ථානයක් තුළදී ඉතාම තීරණාත්මක පෞද්ගලිකත්ව සැකසීම් වටහා ගන්න සහ සමාලෝචනය කරන්න</translation>
-<translation id="3448086340637592206">Google Chrome සහ Chrome OS අතිරේක නියම</translation>
+<translation id="3448086340637592206">Decentr සහ Chrome OS අතිරේක නියම</translation>
 <translation id="3448492834076427715">ගිණුම යාවත්කාලීන කරන්න</translation>
 <translation id="3449393517661170867">නව පටිති කවුළුව</translation>
 <translation id="3449839693241009168"><ph name="SEARCH_KEY" /> ඔබා නියෝග <ph name="EXTENSION_NAME" /> වෙත යවන්න</translation>
@@ -2729,7 +2729,7 @@
 <translation id="3810973564298564668">කළමනාකරණය</translation>
 <translation id="381202950560906753">තව එකක් එක් කරන්න</translation>
 <translation id="3812525830114410218">නරක සහතිකය</translation>
-<translation id="3813296892522778813">ඔබ සොයමින් සිටින දේ සොයාගත නොහැකි නම් <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome උදවු<ph name="END_LINK_CHROMIUM" /> වෙත යන්න</translation>
+<translation id="3813296892522778813">ඔබ සොයමින් සිටින දේ සොයාගත නොහැකි නම් <ph name="BEGIN_LINK_CHROMIUM" />Decentr උදවු<ph name="END_LINK_CHROMIUM" /> වෙත යන්න</translation>
 <translation id="3813358687923336574">පිටු සහ ඉක්මන් පිළිතුරු පරිවර්තනය කිරීම සඳහා භාවිත කරන භාෂාව</translation>
 <translation id="3814529970604306954">පාසල් ගිණුම</translation>
 <translation id="3816118180265633665">Chrome වර්ණ</translation>
@@ -3403,7 +3403,7 @@ Linux ස්ථාපනය කිරීම දත්තවලින් <ph name
 <translation id="4544174279960331769">පෙරනිමි නිල් නියුරුව</translation>
 <translation id="4545028762441890696">එය නැවත සබල කිරීම සඳහා, නව අවසර පිළිගන්න:</translation>
 <translation id="4545759655004063573">අප්‍රමාණවත් අවසර හේතුවෙන් සුරැකීමට නොහැකිය. කරුණාකර වෙනත් පිහිටීමක් වෙත සුරකින්න.</translation>
-<translation id="4546308221697447294">Google Chrome සමඟ වේගයෙන් බ්‍රවුස් කරන්න</translation>
+<translation id="4546308221697447294">Decentr සමඟ වේගයෙන් බ්‍රවුස් කරන්න</translation>
 <translation id="4546345569117159016">දකුණු බොත්තම</translation>
 <translation id="4546692474302123343">Google සහකරු හඬ ආදානය</translation>
 <translation id="4547659257713117923">වෙනත් උපාංග වෙතින් පටිති නොමැත</translation>
@@ -5204,7 +5204,7 @@ Linux ස්ථාපනය කිරීම දත්තවලින් <ph name
 <translation id="6508248480704296122"><ph name="NAME_PH" /> වෙත අදාළ</translation>
 <translation id="6508261954199872201">යෙදුම්: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">මාධ්‍ය බලපත්‍රය</translation>
-<translation id="6513247462497316522">ඔබ වෙනත් ජාලයකට සබැඳී නැති නම්, Google Chrome ජංගම දත්ත භාවිතා කරනු ඇත.</translation>
+<translation id="6513247462497316522">ඔබ වෙනත් ජාලයකට සබැඳී නැති නම්, Decentr ජංගම දත්ත භාවිතා කරනු ඇත.</translation>
 <translation id="6514010653036109809">ලබා ගත හැකි උපාංගය:</translation>
 <translation id="6514565641373682518">මෙම පිටුව ඔබේ මවුස කර්සරය අක්‍රිය කර තිබේ.</translation>
 <translation id="6518014396551869914">අනුරුව පිටප&amp;ත් කරන්න</translation>
@@ -7146,7 +7146,7 @@ Linux ස්ථාපනය කිරීම දත්තවලින් <ph name
 <translation id="8553342806078037065">අනෙක් පුද්ගලයින් කළමනාකරණය කරන්න</translation>
 <translation id="8554899698005018844">භාෂාවක් නැත</translation>
 <translation id="8557022314818157177">ඔබේ ඇඟිලි සලකුණ ග්‍රහණ කරන තෙක් ඔබේ ආරක්‍ෂක යතුර ස්පර්ශ කරමින් සිටින්න</translation>
-<translation id="8557180006508471423">ඔබගේ Mac හි ස්ථාන සේවාවල "Google Chrome" ක්‍රියාත්මක කරන්න</translation>
+<translation id="8557180006508471423">ඔබගේ Mac හි ස්ථාන සේවාවල "Decentr" ක්‍රියාත්මක කරන්න</translation>
 <translation id="8557930019681227453">මැනිෆෙස්ට්</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{සියල්ල &amp;නව කවුළුවක විවෘත කරන්න}=1{&amp;නව කවුළුවක විවෘත කරන්න}one{සියල්ල ({COUNT}) &amp;නව කවුළුවක විවෘත කරන්න}other{සියල්ල ({COUNT}) &amp;නව කවුළුවක විවෘත කරන්න}}</translation>
 <translation id="8561206103590473338">අලියා</translation>

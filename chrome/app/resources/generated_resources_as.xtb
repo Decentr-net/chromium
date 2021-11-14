@@ -868,7 +868,7 @@
 <translation id="1865769994591826607">কেৱল একে ছাইটৰ সংযোগ</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />"এ পৰীক্ষা কৰা অৱস্থানসমূহত প্ৰতিচ্ছবি, ভিডিঅ’ আৰু ধ্বনিৰ ফাইলসমূহ পঢ়িব আৰু লিখিব পাৰে।</translation>
 <translation id="1867780286110144690">আপোনাৰ ইনষ্টলেশ্বন সম্পূৰ্ণ কৰিবলৈ <ph name="PRODUCT_NAME" /> সাজু আছে</translation>
-<translation id="1868553836791672080">Chromiumত পাছৱৰ্ড পৰীক্ষা কৰাৰ সুবিধাটো উপলব্ধ নহয়</translation>
+<translation id="1868553836791672080">Decentrত পাছৱৰ্ড পৰীক্ষা কৰাৰ সুবিধাটো উপলব্ধ নহয়</translation>
 <translation id="1869433484041798909">বুকমাৰ্ক কৰাৰ বুটাম</translation>
 <translation id="1871098866036088250">Chrome ব্ৰাউজাৰত খোলক</translation>
 <translation id="187145082678092583">কম এপ্‌</translation>
@@ -1068,7 +1068,7 @@
 <translation id="2087822576218954668">প্ৰিণ্ট কৰক: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">আপুনি <ph name="DEVICE_OS" /> ইনষ্টল কৰাৰ পাছতহে পঞ্জীয়ন সমৰ্থন কৰে।</translation>
 <translation id="208928984520943006">যিকোনো সময়তে গৃহ স্ক্রীনলৈ যাবলৈ একেবাৰে তলিৰ পৰা ওপৰলৈ ছোৱাইপ কৰক।</translation>
-<translation id="2089566709556890888">Google Chromeৰ সহায়ত সুৰক্ষিতভাৱে ব্ৰাউজ কৰক</translation>
+<translation id="2089566709556890888">Decentrৰ সহায়ত সুৰক্ষিতভাৱে ব্ৰাউজ কৰক</translation>
 <translation id="2089795179672254991">কোনো ছাইটে ক্লিপব’ৰ্ড প্ৰতিলিপি হোৱা পাঠ আৰু প্ৰতিচ্ছবিসমূহ চাব খুজিলে অনুমতি লওক</translation>
 <translation id="2090165459409185032">আপোনাৰ একাউণ্টৰ তথ্য পুনৰুদ্ধাৰ কৰিবলৈ google.com/accounts/recoveryলৈ যাওক</translation>
 <translation id="2090507354966565596">আপুনি লগ ইন কৰিলে আপোনাক স্বয়ংক্ৰিয়ভাৱে সংযোগ কৰে</translation>
@@ -1669,7 +1669,7 @@
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" />ৰ পৰা শ্বেয়াৰ কৰা হৈছে</translation>
 <translation id="2701737434167469065">ছাইন ইন কৰক, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">পঢ়াৰ সূচী</translation>
-<translation id="270358213449696159">Google Chrome OSৰ চৰ্তাৱলীৰ সমল</translation>
+<translation id="270358213449696159">Decentr OSৰ চৰ্তাৱলীৰ সমল</translation>
 <translation id="270414148003105978">ম’বাইল নেটৱৰ্কসমূহ</translation>
 <translation id="2704184184447774363">Microsoft Document Signing</translation>
 <translation id="270516211545221798">টাচ্চপেডৰ গতি</translation>
@@ -2383,7 +2383,7 @@
 <translation id="344630545793878684">আপোনাৰ ডেটা ৱেবছাইটসমূহত পঢ়ে</translation>
 <translation id="3446650212859500694">এই ফাইলটোত সংবেদনশীল সমল আছে</translation>
 <translation id="3446827946208017735">একেঠাইতে আটাইতকৈ গুৰুত্বপূৰ্ণ গোপনীয়তাৰ ছেটিংসমূহৰ বিষয়ে বুজি পাওক আৰু সেইবোৰ পৰ্যালোচনা কৰক</translation>
-<translation id="3448086340637592206">Google Chrome আৰু Chrome OSৰ অতিৰিক্ত চৰ্তাৱলী</translation>
+<translation id="3448086340637592206">Decentr আৰু Chrome OSৰ অতিৰিক্ত চৰ্তাৱলী</translation>
 <translation id="3448492834076427715">একাউণ্ট আপডে'ট কৰক</translation>
 <translation id="3449393517661170867">টিপা নতুন ৱিণ্ড’</translation>
 <translation id="3449839693241009168"><ph name="EXTENSION_NAME" />লৈ নিৰ্দেশ পঠিয়াবলৈ <ph name="SEARCH_KEY" /> টিপক</translation>
@@ -2738,7 +2738,7 @@
 <translation id="3810973564298564668">পৰিচালনা কৰক</translation>
 <translation id="381202950560906753">অন্য এটা যোগ কৰক</translation>
 <translation id="3812525830114410218">বেয়া প্ৰমাণপত্ৰ</translation>
-<translation id="3813296892522778813">আপুনি বিচাৰি থকা সমল পোৱা নাই যদি <ph name="BEGIN_LINK_CHROMIUM" />Google Chromeৰ সহায়<ph name="END_LINK_CHROMIUM" />লৈ যাওক</translation>
+<translation id="3813296892522778813">আপুনি বিচাৰি থকা সমল পোৱা নাই যদি <ph name="BEGIN_LINK_CHROMIUM" />Decentrৰ সহায়<ph name="END_LINK_CHROMIUM" />লৈ যাওক</translation>
 <translation id="3813358687923336574">পৃষ্ঠা আৰু দ্ৰুত উত্তৰ অনুবাদ কৰোঁতে ব্যৱহাৰ কৰা ভাষা</translation>
 <translation id="3814529970604306954">বিদ্যালয়ৰ একাউণ্ট</translation>
 <translation id="3816118180265633665">Chrome Colors</translation>
@@ -3411,7 +3411,7 @@
 <translation id="4544174279960331769">ডিফ’ল্ট নীলা অৱতাৰ</translation>
 <translation id="4545028762441890696">এইটো পুনৰ সক্ষম কৰিবলৈ নতুন অনুমতিবোৰ গ্ৰহণ কৰক:</translation>
 <translation id="4545759655004063573">পৰ্যাপ্ত অনুমতি নোহোৱাৰ কাৰণে ছেভ কৰিব নোৱাৰি। অনুগ্ৰহ কৰি আন এঠাইত ছেভ কৰক।</translation>
-<translation id="4546308221697447294">Google Chrome ব্যৱহাৰ কৰি দ্ৰুতভাৱে ব্ৰাউজ কৰক</translation>
+<translation id="4546308221697447294">Decentr ব্যৱহাৰ কৰি দ্ৰুতভাৱে ব্ৰাউজ কৰক</translation>
 <translation id="4546345569117159016">সোঁফালৰ বুটাম</translation>
 <translation id="4546692474302123343">Google Assistantৰ ভইচ ইনপুট</translation>
 <translation id="4547659257713117923">অন্য ডিভাইচৰ কোনো টেব নাই</translation>
@@ -5211,7 +5211,7 @@
 <translation id="6508248480704296122"><ph name="NAME_PH" />ৰ সৈতে জড়িত</translation>
 <translation id="6508261954199872201">এপ্‌: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">মিডিয়াৰ অনুজ্ঞাপত্ৰ</translation>
-<translation id="6513247462497316522">আপুনি কোনো অন্য নেটৱর্কত সংযোগ হৈ নাথাকিলে Google Chromeএ ম’বাইল ডেটা ব্যৱহাৰ কৰিব।</translation>
+<translation id="6513247462497316522">আপুনি কোনো অন্য নেটৱর্কত সংযোগ হৈ নাথাকিলে Decentrএ ম’বাইল ডেটা ব্যৱহাৰ কৰিব।</translation>
 <translation id="6514010653036109809">উপলব্ধ ডিভাইচ:</translation>
 <translation id="6514565641373682518">পৃষ্ঠাটোৱে আপোনাৰ মাউছৰ কাৰ্ছৰ অক্ষম কৰিলে।</translation>
 <translation id="6518014396551869914">ছবি প্ৰতিলি&amp;পি কৰক</translation>
@@ -7156,7 +7156,7 @@
 <translation id="8553342806078037065">অন্য লোকসকলক পৰিচালনা কৰক</translation>
 <translation id="8554899698005018844">কোনো ভাষা নাই</translation>
 <translation id="8557022314818157177">আপোনাৰ ফিংগাৰপ্ৰিণ্টটো কেপশ্বাৰ নকৰা পর্যন্ত আপোনাৰ সুৰক্ষা চাবিটো স্পৰ্শ কৰি থাকক</translation>
-<translation id="8557180006508471423">আপোনাৰ Macৰ অৱস্থান সেৱাসমূহত থকা "Google Chrome" অন কৰক</translation>
+<translation id="8557180006508471423">আপোনাৰ Macৰ অৱস্থান সেৱাসমূহত থকা "Decentr" অন কৰক</translation>
 <translation id="8557930019681227453">মেনিফেষ্ট</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{সকলো &amp;নতুন ৱিণ্ড’ত খোলক}=1{&amp;নতুন ৱিণ্ড’ত খোলক}one{সকলো ({COUNT} টা) &amp;নতুন ৱিণ্ড’ত খোলক}other{সকলো ({COUNT} টা) &amp;নতুন ৱিণ্ড’ত খোলক}}</translation>
 <translation id="8561206103590473338">হাতী</translation>

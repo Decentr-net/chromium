@@ -867,7 +867,7 @@
 <translation id="1865769994591826607">‏فقط اتصالات same-site</translation>
 <translation id="186612162884103683">«<ph name="EXTENSION" />» می‌تواند تصاویر، ویدئوها و فایل‌های صوتی را از مکان‌های انتخاب شده  بخوانید یا بنویسید.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> آماده تکمیل نصب است</translation>
-<translation id="1868553836791672080">‏بررسی گذرواژه در Chromium دردسترس نیست</translation>
+<translation id="1868553836791672080">‏بررسی گذرواژه در Decentr دردسترس نیست</translation>
 <translation id="1869433484041798909">دکمه نشانک‌گذاری</translation>
 <translation id="1871098866036088250">‏باز کردن در مرورگر Chrome</translation>
 <translation id="187145082678092583">برنامه‌های کمتر</translation>
@@ -1067,7 +1067,7 @@
 <translation id="2087822576218954668">چاپ: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">ثبت‌نام فقط پس‌از نصب <ph name="DEVICE_OS" /> پشتیبانی می‌شود.</translation>
 <translation id="208928984520943006">هرزمان خواستید به «صفحه اصلی» بروید، از پایین صفحه تند به‌سمت بالا بکشید.</translation>
-<translation id="2089566709556890888">‏با Google Chrome ایمن مرور کنید</translation>
+<translation id="2089566709556890888">‏با Decentr ایمن مرور کنید</translation>
 <translation id="2089795179672254991">وقتی سایتی می‌خواهد به نوشتار و تصاویر کپی‌شده در بریده‌دان دسترسی پیدا کند، سؤال شود (توصیه می‌شود)</translation>
 <translation id="2090165459409185032">‏برای بازیابی اطلاعات حساب‌تان به اینجا بروید: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">وقتی به سیستم وارد می‌شوید، به‌طور خودکار متصل می‌شود</translation>
@@ -1668,7 +1668,7 @@
 <translation id="2701330563083355633">هم‌رسانی‌شده از <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">ورودبه‌سیستم، <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">فهرست خواندن</translation>
-<translation id="270358213449696159">‏محتوای شرایط سیستم‌عامل Google Chrome</translation>
+<translation id="270358213449696159">‏محتوای شرایط سیستم‌عامل Decentr</translation>
 <translation id="270414148003105978">شبکه‌های تلفن همراه</translation>
 <translation id="2704184184447774363">‏امضای مدرک Microsoft</translation>
 <translation id="270516211545221798">سرعت صفحه لمسی</translation>
@@ -2383,7 +2383,7 @@
 <translation id="344630545793878684">خواندن داده‌های شما در تعدادی از وب‌سایت‌ها</translation>
 <translation id="3446650212859500694">این فایل محتوای حساس دارد</translation>
 <translation id="3446827946208017735">در یک جا از تنظیمات حریم‌خصوصی بسیار مهم مطلع شوید و آن‌ها را مرور کنید</translation>
-<translation id="3448086340637592206">‏شرایط تکمیلی Google Chrome و Chrome OS</translation>
+<translation id="3448086340637592206">‏شرایط تکمیلی Decentr و Chrome OS</translation>
 <translation id="3448492834076427715">به‌روزرسانی حساب</translation>
 <translation id="3449393517661170867">پنجره برگه‌دار جدید</translation>
 <translation id="3449839693241009168"><ph name="SEARCH_KEY" /> را فشار دهید تا فرمانها به <ph name="EXTENSION_NAME" /> ارسال شود</translation>
@@ -2738,7 +2738,7 @@
 <translation id="3810973564298564668">مدیریت</translation>
 <translation id="381202950560906753">افزودن دستگاه دیگر</translation>
 <translation id="3812525830114410218">گواهی نادرست</translation>
-<translation id="3813296892522778813">‏اگر نمی‌توانید چیزی را که می‌خواهید پیدا کنید،‌ به <ph name="BEGIN_LINK_CHROMIUM" />راهنمای Google Chrome‏<ph name="END_LINK_CHROMIUM" /> بروید</translation>
+<translation id="3813296892522778813">‏اگر نمی‌توانید چیزی را که می‌خواهید پیدا کنید،‌ به <ph name="BEGIN_LINK_CHROMIUM" />راهنمای Decentr‏<ph name="END_LINK_CHROMIUM" /> بروید</translation>
 <translation id="3813358687923336574">زبان استفاده‌شده برای ترجمه صفحات و «پاسخ‌های سریع»</translation>
 <translation id="3814529970604306954">حساب محل تحصیل</translation>
 <translation id="3816118180265633665">‏رنگ‌های Chrome</translation>
@@ -3412,7 +3412,7 @@
 <translation id="4544174279960331769">چهره‌نمای پیش‌فرض آبی</translation>
 <translation id="4545028762441890696">برای دوباره فعال کردن آن، مجوزهای جدید را بپذیرید:</translation>
 <translation id="4545759655004063573">به دلیل مجوزهای ناکافی ذخیره امکان‌پذیر نیست. لطفاً در محل دیگری ذخیره کنید.</translation>
-<translation id="4546308221697447294">‏با Google Chrome سریع مرور کنید</translation>
+<translation id="4546308221697447294">‏با Decentr سریع مرور کنید</translation>
 <translation id="4546345569117159016">دکمه راست</translation>
 <translation id="4546692474302123343">‏ورودی گفتاری «دستیار Google»</translation>
 <translation id="4547659257713117923">برگه‌ای از دیگر دستگاه‌ها وجود ندارد</translation>
@@ -5212,7 +5212,7 @@
 <translation id="6508248480704296122">مرتبط با <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">برنامه: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">گواهینامه رسانه</translation>
-<translation id="6513247462497316522">‏اگر به شبکه دیگری وصل نباشید Google Chrome از داده‌های تلفن همراه استفاده خواهد کرد.</translation>
+<translation id="6513247462497316522">‏اگر به شبکه دیگری وصل نباشید Decentr از داده‌های تلفن همراه استفاده خواهد کرد.</translation>
 <translation id="6514010653036109809">دستگاه دردسترس:</translation>
 <translation id="6514565641373682518">این صفحه مکان‌نمای ماوس شما را غیرفعال کرد.</translation>
 <translation id="6518014396551869914">&amp;کپی تصویر</translation>
@@ -7159,7 +7159,7 @@
 <translation id="8553342806078037065">مدیریت افراد دیگر</translation>
 <translation id="8554899698005018844">زبانی موجود نیست</translation>
 <translation id="8557022314818157177">کلید امنیتی را تازمانی‌که اثرانگشت ثبت شود، لمس کنید</translation>
-<translation id="8557180006508471423">‏روشن کردن «Google Chrome» در خدمات مکان در Mac</translation>
+<translation id="8557180006508471423">‏روشن کردن «Decentr» در خدمات مکان در Mac</translation>
 <translation id="8557930019681227453">مانیفست</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{باز کردن همه در پنجره جدید}=1{باز کردن در پنجره جدید}one{باز کردن همه ({COUNT}) در پنجره جدید}other{باز کردن همه ({COUNT}) در پنجره جدید}}</translation>
 <translation id="8561206103590473338">فیل</translation>

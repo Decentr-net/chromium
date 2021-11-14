@@ -871,7 +871,7 @@ Inaatasan ka ng <ph name="DOMAIN" /> na panatilihing nakalagay ang iyong smart c
 <translation id="1865769994591826607">Mga koneksyon sa iisang site lang</translation>
 <translation id="186612162884103683">Ang "<ph name="EXTENSION" />" ay nakakabasa at nakakapagsulat ng mga larawan, video, file ng tunog sa mga may check na lokasyon.</translation>
 <translation id="1867780286110144690">Ang <ph name="PRODUCT_NAME" /> ay handa nang kumpletuhin ang iyong pag-install</translation>
-<translation id="1868553836791672080">Hindi available ang pagsusuri sa password sa Chromium</translation>
+<translation id="1868553836791672080">Hindi available ang pagsusuri sa password sa Decentr</translation>
 <translation id="1869433484041798909">Button ng bookmark</translation>
 <translation id="1871098866036088250">Buksan sa Chrome browser</translation>
 <translation id="187145082678092583">Mas kaunting app</translation>
@@ -1071,7 +1071,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2087822576218954668">Print: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Sinusuportahan lang ang pag-enroll pagkatapos mong i-install ang <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Para pumunta sa Home screen anumang oras, mag-swipe pataas mula sa ibaba.</translation>
-<translation id="2089566709556890888">Mag-browse nang ligtas gamit ang Google Chrome</translation>
+<translation id="2089566709556890888">Mag-browse nang ligtas gamit ang Decentr</translation>
 <translation id="2089795179672254991">Magtanong kapag gusto ng site na makita ang text at mga larawang kinopya sa clipboard (inirerekomenda)</translation>
 <translation id="2090165459409185032">Upang i-recover ang impormasyon ng iyong account, pumunta sa: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Awtomatikong kumonekta kapag nag-log in ka</translation>
@@ -1672,7 +1672,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2701330563083355633">Ibinahagi mula kay <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Mag-sign in, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Listahan ng Babasahin</translation>
-<translation id="270358213449696159">Mga content ng Mga Tuntunin ng Google Chrome OS</translation>
+<translation id="270358213449696159">Mga content ng Mga Tuntunin ng Decentr OS</translation>
 <translation id="270414148003105978">Mga mobile network</translation>
 <translation id="2704184184447774363">Microsoft Document Signing</translation>
 <translation id="270516211545221798">Bilis ng touchpad</translation>
@@ -2385,7 +2385,7 @@ Inaatasan ka ng <ph name="DOMAIN" /> na panatilihing nakalagay ang iyong smart c
 <translation id="344630545793878684">Basahin ang iyong data sa ilang website</translation>
 <translation id="3446650212859500694">May sensitibong content ang file na ito</translation>
 <translation id="3446827946208017735">Maunawaan at suriin ang pinakamahahalagang setting ng privacy sa iisang lugar</translation>
-<translation id="3448086340637592206">Mga Karagdagang Tuntunin ng Google Chrome at Chrome OS</translation>
+<translation id="3448086340637592206">Mga Karagdagang Tuntunin ng Decentr at Chrome OS</translation>
 <translation id="3448492834076427715">I-update ang account</translation>
 <translation id="3449393517661170867">Bagong naka-tab na window</translation>
 <translation id="3449839693241009168">Pindutin ang <ph name="SEARCH_KEY" /> upang magpadala ng mga command sa <ph name="EXTENSION_NAME" /></translation>
@@ -2739,7 +2739,7 @@ Inaatasan ka ng <ph name="DOMAIN" /> na panatilihing nakalagay ang iyong smart c
 <translation id="3810973564298564668">Pamahalaan</translation>
 <translation id="381202950560906753">Magdagdag ng isa pa</translation>
 <translation id="3812525830114410218">Maling certificate</translation>
-<translation id="3813296892522778813">Pumunta sa <ph name="BEGIN_LINK_CHROMIUM" />tulong ng Google Chrome<ph name="END_LINK_CHROMIUM" /> kung hindi mo makita ang hinahanap mo</translation>
+<translation id="3813296892522778813">Pumunta sa <ph name="BEGIN_LINK_CHROMIUM" />tulong ng Decentr<ph name="END_LINK_CHROMIUM" /> kung hindi mo makita ang hinahanap mo</translation>
 <translation id="3813358687923336574">Wikang ginagamit para sa pagsasalin ng mga page at Instant na impormasyon</translation>
 <translation id="3814529970604306954">Pampaaralang Account</translation>
 <translation id="3816118180265633665">Mga Kulay ng Chrome</translation>
@@ -3413,7 +3413,7 @@ Inaatasan ka ng <ph name="DOMAIN" /> na panatilihing nakalagay ang iyong smart c
 <translation id="4544174279960331769">Default na asul na avatar</translation>
 <translation id="4545028762441890696">Upang muli itong i-enable, tanggapin ang mga bagong pahintulot:</translation>
 <translation id="4545759655004063573">Hindi ma-save dahil hindi sapat ang mga pahintulot. Mangyaring i-save sa isa pang lokasyon.</translation>
-<translation id="4546308221697447294">Mag-browse nang mabilis gamit ang Google Chrome</translation>
+<translation id="4546308221697447294">Mag-browse nang mabilis gamit ang Decentr</translation>
 <translation id="4546345569117159016">Kanang button</translation>
 <translation id="4546692474302123343">Input na boses ng Google Assistant</translation>
 <translation id="4547659257713117923">Walang Mga Tab Mula Sa Ibang Mga Device</translation>
@@ -5212,7 +5212,7 @@ Inaatasan ka ng <ph name="DOMAIN" /> na panatilihing nakalagay ang iyong smart c
 <translation id="6508248480704296122">Kaugnay ng <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">App: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Lisensya ng media</translation>
-<translation id="6513247462497316522">Gagamit ang Google Chrome ng data ng mobile kung hindi ka nakakonekta sa isa pang network.</translation>
+<translation id="6513247462497316522">Gagamit ang Decentr ng data ng mobile kung hindi ka nakakonekta sa isa pang network.</translation>
 <translation id="6514010653036109809">Available na device:</translation>
 <translation id="6514565641373682518">Hindi pinagana ng pahinang ito ang cursor ng iyong mouse.</translation>
 <translation id="6518014396551869914">Kop&amp;yahin ang imahe</translation>
@@ -7160,7 +7160,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8553342806078037065">Pamahalaan ang iba pang mga tao</translation>
 <translation id="8554899698005018844">Walang wika</translation>
 <translation id="8557022314818157177">Patuloy na pindutin ang iyong security key hanggang ma-capture ang fingerprint mo</translation>
-<translation id="8557180006508471423">I-on ang "Google Chrome" sa Mga Serbisyo ng Lokasyon sa iyong Mac</translation>
+<translation id="8557180006508471423">I-on ang "Decentr" sa Mga Serbisyo ng Lokasyon sa iyong Mac</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Buksan Lahat sa &amp;Bagong Window}=1{Buksan sa &amp;Bagong Window}one{Buksan Lahat ({COUNT}) sa &amp;Bagong Window}other{Buksan Lahat ({COUNT}) sa &amp;Bagong Window}}</translation>
 <translation id="8561206103590473338">Elepante</translation>

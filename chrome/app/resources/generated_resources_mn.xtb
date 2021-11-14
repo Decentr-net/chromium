@@ -866,7 +866,7 @@
 <translation id="1865769994591826607">Зөвхөн ижил сайтын холболтод</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" нь шалгагдсан байршлуудад зураг, видео, дууны файлуудыг уншиж, бичиж чадна.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> нь таны суулгалтыг бүрэн дуусгахад бэлэн байна.</translation>
-<translation id="1868553836791672080">Chromium дээр нууц үг шалгах боломжгүй</translation>
+<translation id="1868553836791672080">Decentr дээр нууц үг шалгах боломжгүй</translation>
 <translation id="1869433484041798909">Хавчуурганы товчлуур</translation>
 <translation id="1871098866036088250">Chrome хөтөч дээр нээх</translation>
 <translation id="187145082678092583">Арай цөөн апп</translation>
@@ -1066,7 +1066,7 @@
 <translation id="2087822576218954668">Хэвлэх: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Бүртгэлийг зөвхөн таныг <ph name="DEVICE_OS" />-г суулгасны дараа дэмждэг.</translation>
 <translation id="208928984520943006">Үндсэн нүүр лүү хүссэн үедээ очихын тулд доороос дээш шударна.</translation>
-<translation id="2089566709556890888">Google Chrome-р аюулгүй хайгаарай</translation>
+<translation id="2089566709556890888">Decentr-р аюулгүй хайгаарай</translation>
 <translation id="2089795179672254991">Сайт түр санах ойд хуулсан текст, зургийг харах хүсэлтэй үед асуух (санал болгосон)</translation>
 <translation id="2090165459409185032">бүртгэлныхаа мэдээллийг сэргээхийн тулд: google.com/accounts/recovery руу орно уу</translation>
 <translation id="2090507354966565596">Таныг нэвтрэх үед автоматаар холбогдоно</translation>
@@ -1667,7 +1667,7 @@
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" />-с хуваалцсан</translation>
 <translation id="2701737434167469065">Нэвтрэх, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Унших жагсаалт</translation>
-<translation id="270358213449696159">Google Chrome үйлдлийн системийн нөхцөлийн агуулга</translation>
+<translation id="270358213449696159">Decentr үйлдлийн системийн нөхцөлийн агуулга</translation>
 <translation id="270414148003105978">Мобайл сүлжээ</translation>
 <translation id="2704184184447774363">Майкрософтын бичиг баримтын цохолт</translation>
 <translation id="270516211545221798">Мэдрэгч самбарын хурд</translation>
@@ -2382,7 +2382,7 @@
 <translation id="344630545793878684">Олон тооны веб хуудсууд дээр байгаа өөрийнхөө мэдээллийг уншина уу</translation>
 <translation id="3446650212859500694">Энэ файл эмзэг контенттой байна</translation>
 <translation id="3446827946208017735">Нууцлалын хамгийн чухал тохиргоог нэг дороос ойлгож, шалгана уу</translation>
-<translation id="3448086340637592206">Google Chrome болон Chrome үйлдлийн системийн нэмэлт нөхцөл</translation>
+<translation id="3448086340637592206">Decentr болон Chrome үйлдлийн системийн нэмэлт нөхцөл</translation>
 <translation id="3448492834076427715">Бүртгэл шинэчлэх</translation>
 <translation id="3449393517661170867">Шинэ табтай цонх</translation>
 <translation id="3449839693241009168"><ph name="EXTENSION_NAME" /> руу коммандуудыг илгээхийн тулд <ph name="SEARCH_KEY" /> дээр дарна уу</translation>
@@ -2737,7 +2737,7 @@
 <translation id="3810973564298564668">удирдах</translation>
 <translation id="381202950560906753">Өөрийг нэмэх</translation>
 <translation id="3812525830114410218">Муу сертификат</translation>
-<translation id="3813296892522778813">Хэрэв та хайж байгаа зүйлээ олохгүй байвал <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome тусламж<ph name="END_LINK_CHROMIUM" /> хэсэгт очно уу</translation>
+<translation id="3813296892522778813">Хэрэв та хайж байгаа зүйлээ олохгүй байвал <ph name="BEGIN_LINK_CHROMIUM" />Decentr тусламж<ph name="END_LINK_CHROMIUM" /> хэсэгт очно уу</translation>
 <translation id="3813358687923336574">Хуудсыг орчуулах болон Шуурхай хариултад ашигласан хэл</translation>
 <translation id="3814529970604306954">Сургуулийн бүртгэл</translation>
 <translation id="3816118180265633665">Chrome-н өнгө</translation>
@@ -3410,7 +3410,7 @@
 <translation id="4544174279960331769">Өгөгдмөл цэнхэр аватар</translation>
 <translation id="4545028762441890696">Дахин идэвхжүүлэхийн тулд шинэ зөвшөөрлийг зөвшөөрнө үү:</translation>
 <translation id="4545759655004063573">Холбогдох зөвшөөрөл дутуу байаа тул хадгалах боломжгүй байна. Та өөр хэсэгт хадгална уу.</translation>
-<translation id="4546308221697447294">Google Chrome-р хурдан хайгаарай</translation>
+<translation id="4546308221697447294">Decentr-р хурдан хайгаарай</translation>
 <translation id="4546345569117159016">Баруун товч</translation>
 <translation id="4546692474302123343">Google Туслахын дуу хоолойгоор оруулах</translation>
 <translation id="4547659257713117923">Бусад төхөөрөмжөөс ирсэн цонх байхгүй байна</translation>
@@ -5210,7 +5210,7 @@
 <translation id="6508248480704296122"><ph name="NAME_PH" />-тай холбоотой</translation>
 <translation id="6508261954199872201">Аппликейшн: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Медиа лиценз</translation>
-<translation id="6513247462497316522">Хэрэв та өөр сүлжээнд холбогдоогүй байгаа тохиолдолд Google Chrome нь таны гар утасны дата эрхийг ашиглах болно.</translation>
+<translation id="6513247462497316522">Хэрэв та өөр сүлжээнд холбогдоогүй байгаа тохиолдолд Decentr нь таны гар утасны дата эрхийг ашиглах болно.</translation>
 <translation id="6514010653036109809">Боломжтой төхөөрөмж:</translation>
 <translation id="6514565641373682518">Энэ хуудас нь таны хулганын курсорыг идэвхгүй болгосон байна.</translation>
 <translation id="6518014396551869914">Зургийг хуулах</translation>
@@ -7154,7 +7154,7 @@
 <translation id="8553342806078037065">Бусад хүмүүсийг удирдах</translation>
 <translation id="8554899698005018844">Хэл байхгүй</translation>
 <translation id="8557022314818157177">Хурууны хээг автал аюулгүй байдлын түлхүүр дээрээ үргэлжлүүлэн хүрнэ үү</translation>
-<translation id="8557180006508471423">Mac дээрх Байршлын үйлчилгээндээ "Google Chrome"-г асаана уу</translation>
+<translation id="8557180006508471423">Mac дээрх Байршлын үйлчилгээндээ "Decentr"-г асаана уу</translation>
 <translation id="8557930019681227453">Тодорхойлогч файл</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Бүгдийг &amp;Шинэ цонхонд нээх}=1{&amp;Шинэ цонхонд нээх}other{Бүгдийг ({COUNT}) &amp;Шинэ цонхонд нээх}}</translation>
 <translation id="8561206103590473338">Заан</translation>

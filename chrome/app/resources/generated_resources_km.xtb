@@ -870,7 +870,7 @@
 <translation id="1865769994591826607">ការតភ្ជាប់នៅក្នុងបណ្តាញដូចគ្នាតែប៉ុណ្ណោះ</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" អាចអាន និងសរសេររូបភាព វីដេអូ និងឯកសារសម្លេងនៅក្នុងទីតាំងដែលបានពិនិត្យ។</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> រួចរាល់ក្នុងការបញ្ចប់ការតំឡើងរបស់អ្នក</translation>
-<translation id="1868553836791672080">មិនអាចប្រើ​ការពិនិត្យពាក្យសម្ងាត់​នៅក្នុង Chromium បានទេ</translation>
+<translation id="1868553836791672080">មិនអាចប្រើ​ការពិនិត្យពាក្យសម្ងាត់​នៅក្នុង Decentr បានទេ</translation>
 <translation id="1869433484041798909">ប៊ូតុង​ចំណាំ</translation>
 <translation id="1871098866036088250">បើកនៅក្នុង​កម្មវិធីរុករក​តាមអ៊ីនធឺណិត Chrome</translation>
 <translation id="187145082678092583">កម្មវិធីតិចជាងនេះ</translation>
@@ -1070,7 +1070,7 @@
 <translation id="2087822576218954668">បោះពុម្ព៖ <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">ការចុះឈ្មោះ​អាចធ្វើ​ទៅបាន បន្ទាប់ពី​អ្នកដំឡើង <ph name="DEVICE_OS" /> ហើយតែប៉ុណ្ណោះ។</translation>
 <translation id="208928984520943006">ដើម្បី​ចូលទៅ​អេក្រង់ដើម​បានគ្រប់ពេល សូមអូស​ពីក្រោម​ឡើងលើ។</translation>
-<translation id="2089566709556890888">រុករក​ដោយសុវត្ថិភាពជាមួយ Google Chrome</translation>
+<translation id="2089566709556890888">រុករក​ដោយសុវត្ថិភាពជាមួយ Decentr</translation>
 <translation id="2089795179672254991">សួរនៅពេល​ដែល​ទំព័រ​ចង់​មើល​អត្ថបទ និង​រូបភាព​ដែល​បាន​ចម្លង​ទៅ​អង្គចងចាំ (បាន​ណែ​នាំ)</translation>
 <translation id="2090165459409185032">ដើម្បីសង្គ្រោះទិន្នន័យគណនីរបស់អ្នក សូមចូលទៅកាន់៖ google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">ភ្ជាប់​ដោយស្វ័យប្រវត្តិ នៅពេលដែល​អ្នកចូល</translation>
@@ -1671,7 +1671,7 @@
 <translation id="2701330563083355633">បាន​ចែករំលែក​ពី <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">ចូលគណនី <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">បញ្ជីអាន</translation>
-<translation id="270358213449696159">មាតិកា​លក្ខខណ្ឌ Google Chrome OS</translation>
+<translation id="270358213449696159">មាតិកា​លក្ខខណ្ឌ Decentr OS</translation>
 <translation id="270414148003105978">បណ្ដាញ​ទូរសព្ទ​ចល័ត</translation>
 <translation id="2704184184447774363">ការចុះហត្ថលេខាឯកសារ Microsoft</translation>
 <translation id="270516211545221798">ល្បឿនផ្ទាំងប៉ះ</translation>
@@ -2386,7 +2386,7 @@
 <translation id="344630545793878684">អានទិន្នន័យរបស់អ្នកនៅលើគេហទំព័រមួយចំនួន</translation>
 <translation id="3446650212859500694">ឯកសារនេះមានខ្លឹមសាររសើប</translation>
 <translation id="3446827946208017735">ស្វែងយល់ និងពិនិត្យមើល​ការកំណត់​ឯកជនភាព​សំខាន់បំផុត​នៅកន្លែង​តែមួយ</translation>
-<translation id="3448086340637592206">លក្ខខណ្ឌបន្ថែម​របស់ Google Chrome និង Chrome OS</translation>
+<translation id="3448086340637592206">លក្ខខណ្ឌបន្ថែម​របស់ Decentr និង Chrome OS</translation>
 <translation id="3448492834076427715">ធ្វើបច្ចុប្បន្នភាព​គណនី</translation>
 <translation id="3449393517661170867">វិនដូថ្មី​ដែលចែកជា​ផ្ទាំង</translation>
 <translation id="3449839693241009168">ចុច <ph name="SEARCH_KEY" /> ដើម្បីផ្ញើការបញ្ជាទៅ <ph name="EXTENSION_NAME" /></translation>
@@ -2741,7 +2741,7 @@
 <translation id="3810973564298564668">គ្រប់គ្រង</translation>
 <translation id="381202950560906753">បញ្ចូលស្នាមម្រាមដៃផ្សេងទៀត</translation>
 <translation id="3812525830114410218">វិញ្ញាបនប័ត្រមិនល្អ</translation>
-<translation id="3813296892522778813">សូមចូលទៅកាន់<ph name="BEGIN_LINK_CHROMIUM" />ជំនួយ Google Chrome<ph name="END_LINK_CHROMIUM" /> ប្រសិនបើអ្នកមិនអាចរកឃើញអ្វីដែលអ្នកកំពុងរក</translation>
+<translation id="3813296892522778813">សូមចូលទៅកាន់<ph name="BEGIN_LINK_CHROMIUM" />ជំនួយ Decentr<ph name="END_LINK_CHROMIUM" /> ប្រសិនបើអ្នកមិនអាចរកឃើញអ្វីដែលអ្នកកំពុងរក</translation>
 <translation id="3813358687923336574">ភាសាដែលប្រើ​សម្រាប់បកប្រែទំព័រ និងចម្លើយរហ័ស</translation>
 <translation id="3814529970604306954">គណនី​សាលារៀន</translation>
 <translation id="3816118180265633665">ពណ៌ Chrome</translation>
@@ -3415,7 +3415,7 @@
 <translation id="4544174279960331769">រូបតំណាងពណ៌ខៀវលំនាំដើម</translation>
 <translation id="4545028762441890696">ដើម្បី​បើក​វាឡើងវិញ សូម​ទទួលយក​ការអនុញ្ញាតថ្មី៖</translation>
 <translation id="4545759655004063573">មិនអាចរក្សាទុកទេដោយសារមិនមានការអនុញ្ញាតគ្រប់គ្រាន់។ សូមរក្សាទុកទៅទីតាំងដ៏ទៃទៀត។</translation>
-<translation id="4546308221697447294">រុករក​បានរហ័ស​ជាមួយ Google Chrome</translation>
+<translation id="4546308221697447294">រុករក​បានរហ័ស​ជាមួយ Decentr</translation>
 <translation id="4546345569117159016">ប៊ូតុងស្ដាំ</translation>
 <translation id="4546692474302123343">ការ​បញ្ចូល​ដោយប្រើសំឡេងរបស់ Google ជំនួយការ</translation>
 <translation id="4547659257713117923">គ្មានផ្ទាំងពីឧបករណ៍ដ៏ទៃទេ</translation>
@@ -5216,7 +5216,7 @@
 <translation id="6508248480704296122">ទាក់ទង​នឹង <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">កម្មវិធី៖ <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">អាជ្ញាបណ្ណមេឌៀ</translation>
-<translation id="6513247462497316522">Google Chrome នឹងប្រើទិន្នន័យទូរស័ព្ទ ប្រសិនបើអ្នកមិនភ្ជាប់ទៅបណ្តាញដ៏ទៃទេ។</translation>
+<translation id="6513247462497316522">Decentr នឹងប្រើទិន្នន័យទូរស័ព្ទ ប្រសិនបើអ្នកមិនភ្ជាប់ទៅបណ្តាញដ៏ទៃទេ។</translation>
 <translation id="6514010653036109809">ឧបករណ៍​ដែលអាច​ភ្ជាប់បាន៖</translation>
 <translation id="6514565641373682518">ទំព័រនេះបានបិទដំណើរការព្រួញកណ្តុររបស់អ្នក។</translation>
 <translation id="6518014396551869914">ចម្លងរូបភាព</translation>
@@ -7162,7 +7162,7 @@
 <translation id="8553342806078037065">គ្រប់គ្រងមនុស្សផ្សេងទៀត</translation>
 <translation id="8554899698005018844">គ្មាន​ភាសាទេ</translation>
 <translation id="8557022314818157177">បន្ត​ចុច​សោសុវត្ថិភាព​ រហូតទាល់តែ​ថតបាន​ស្នាមម្រាមដៃ​របស់អ្នក</translation>
-<translation id="8557180006508471423">បើក "Google Chrome" នៅក្នុង​សេវាកម្មទីតាំងនៅលើ Mac របស់អ្នក</translation>
+<translation id="8557180006508471423">បើក "Decentr" នៅក្នុង​សេវាកម្មទីតាំងនៅលើ Mac របស់អ្នក</translation>
 <translation id="8557930019681227453">ជាក់លាក់</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{បើកទាំងអស់នៅក្នុង&amp;វិនដូថ្មី}=1{បើកនៅក្នុង&amp;វិនដូថ្មី}other{បើកទាំងអស់ ({COUNT}) នៅក្នុង&amp;វិនដូថ្មី}}</translation>
 <translation id="8561206103590473338">ដំរី</translation>

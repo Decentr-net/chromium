@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This file contains definitions of strings that are specific to
-Google Chrome. These strings will be translated for each locale that Google
-Chrome supports. If you update this file, be sure also to update
+Decentr. These strings will be translated for each locale that Google
+Decentr supports. If you update this file, be sure also to update
 chromium_strings.grd. -->
 
 <grit base_dir="." latest_public_release="0" current_release="1"
@@ -192,44 +192,44 @@ chromium_strings.grd. -->
         <part file="settings_google_chrome_strings.grdp" />
       </if>
 
-      <message name="IDS_PRODUCT_NAME" desc="The Chrome application name">
-        Google Chrome
+      <message name="IDS_PRODUCT_NAME" desc="The Decentr application name">
+        Decentr
       </message>
-      <message name="IDS_SHORT_PRODUCT_NAME" desc="The Chrome application short name">
-        Chrome
+      <message name="IDS_SHORT_PRODUCT_NAME" desc="The Decentr application short name">
+        Decentr
       </message>
       <if expr="is_win">
-        <message name="IDS_SXS_SHORTCUT_NAME" desc="The Chrome shortcut name for canary channel">
-          Google Chrome Canary
+        <message name="IDS_SXS_SHORTCUT_NAME" desc="The Decentr shortcut name for canary channel">
+          Decentr Canary
         </message>
-        <message name="IDS_SHORTCUT_NAME_BETA" desc="The Chrome shortcut name for beta channel">
-          Google Chrome Beta
+        <message name="IDS_SHORTCUT_NAME_BETA" desc="The Decentr shortcut name for beta channel">
+          Decentr Beta
         </message>
-        <message name="IDS_SHORTCUT_NAME_DEV" desc="The Chrome shortcut name for dev channel">
-          Google Chrome Dev
+        <message name="IDS_SHORTCUT_NAME_DEV" desc="The Decentr shortcut name for dev channel">
+          Decentr Dev
         </message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
-          Google Chrome is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Google Chrome.
+          Decentr is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Decentr.
         </message>
-        <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Chrome is launched at the conclusion of installation.">
-          Welcome to Chrome; new browser window opened
+        <message name="IDS_WELCOME_TO_CHROME" desc="Welcoming text announced via screen readers the first time Decentr is launched at the conclusion of installation.">
+          Welcome to Decentr; new browser window opened
         </message>
       </if>
       <if expr="is_macosx or is_linux">
         <message name="IDS_FIRST_RUN_DIALOG_WINDOW_TITLE" desc="Window title of First Run dialog on Mac and Linux, displayed in title bar">
-          Welcome to Google Chrome
+          Welcome to Decentr
         </message>
       </if>
       <if expr="chromeos">
-        <message name="IDS_PRODUCT_OS_NAME" desc="The Chrome OS application name">
-          Google Chrome OS
+        <message name="IDS_PRODUCT_OS_NAME" desc="The Decentr OS application name">
+          Decentr OS
         </message>
-        <message name="IDS_SHORT_PRODUCT_OS_NAME" desc="The Chrome OS application short name">
-          Chrome OS
+        <message name="IDS_SHORT_PRODUCT_OS_NAME" desc="The Decentr OS application short name">
+          Decentr OS
         </message>
       </if>
-      <message name="IDS_PRODUCT_LOGO_ENTERPRISE_ALT_TEXT" desc="Alt text for the Chrome Enterprise logo image.">
-        Chrome Enterprise logo
+      <message name="IDS_PRODUCT_LOGO_ENTERPRISE_ALT_TEXT" desc="Alt text for the Decentr Enterprise logo image.">
+        Decentr Enterprise logo
       </message>
       <if expr="is_win">
         <message name="IDS_SHORTCUT_NEW_WINDOW" desc="The text label of the New window shortcut context menu entry as of Windows 8">
@@ -243,34 +243,34 @@ chromium_strings.grd. -->
       </if>
       <if expr="not is_macosx and not chromeos">
         <message name="IDS_TASK_MANAGER_TITLE" desc="The title of the Task Manager window">
-          Task Manager - Google Chrome
+          Task Manager - Decentr
         </message>
       </if>
       <message name="IDS_SESSION_CRASHED_VIEW_UMA_OPTIN" desc="Text besides the checkbox to let users optin to UMA in the restore from previous crash bubble.">
-        Help make Google Chrome better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Google
+        Help make Decentr better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Google
       </message>
       <if expr="not chromeos">
         <!-- Browser Window Title Format -->
         <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabs and popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Google Chrome
+          <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Decentr
         </message>
       </if>
       <if expr="chromeos">
         <!-- Browser Window Title Format -->
         <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabbed browser windows">
-          Chrome - <ph name="PAGE_TITLE">$1<ex>Google</ex></ph>
+          Decentr - <ph name="PAGE_TITLE">$1<ex>Google</ex></ph>
         </message>
       </if>
       <if expr="not chromeos and not is_macosx">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Network Sign-in - Chrome
+          <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Network Sign-in - Decentr
         </message>
       </if>
       <if expr="chromeos">
         <!-- Captive Portal Browser Window Title Format -->
         <message name="IDS_CAPTIVE_PORTAL_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in captive portal popup windows">
-          Chrome - Network Sign-in - <ph name="PAGE_TITLE">$1<ex>Google</ex></ph>
+          Decentr - Network Sign-in - <ph name="PAGE_TITLE">$1<ex>Google</ex></ph>
         </message>
       </if>
       <if expr="is_macosx">
@@ -280,18 +280,18 @@ chromium_strings.grd. -->
         </message>
       </if>
       <!-- Accessible window title format - includes the channel, and the same
-           on all browser platforms rather than different on Chrome OS. -->
+           on all browser platforms rather than different on Decentr OS. -->
       <message name="IDS_ACCESSIBLE_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window">
-        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Google Chrome
+        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Decentr
       </message>
       <message name="IDS_ACCESSIBLE_BETA_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the beta channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Google Chrome Beta
+        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Decentr Beta
       </message>
       <message name="IDS_ACCESSIBLE_DEV_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the developer (dev) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Google Chrome Dev
+        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Decentr Dev
       </message>
       <message name="IDS_ACCESSIBLE_CANARY_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the canary (nightly build) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Google Chrome Canary
+        <ph name="PAGE_TITLE">$1<ex>Google</ex></ph> - Decentr Canary
       </message>
       <message name="IDS_ABOUT_VERSION_COMPANY_NAME" desc="Company name on the about pages">
         Google LLC
@@ -300,11 +300,11 @@ chromium_strings.grd. -->
         Copyright <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> Google LLC. All rights reserved.
       </message>
       <if expr="chromeos">
-        <message name="IDS_ABOUT_CROS_VERSION_LICENSE" desc="Additional text displayed beneath the Chromium open source URLs for Chrome OS.">
-          Chrome OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>.
+        <message name="IDS_ABOUT_CROS_VERSION_LICENSE" desc="Additional text displayed beneath the Chromium open source URLs for Decentr OS.">
+          Decentr OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>.
         </message>
-        <message name="IDS_ABOUT_CROS_WITH_LINUX_VERSION_LICENSE" desc="Additional text displayed beneath the Chromium open source URLs for Chrome OS when Crostini is installed.">
-          Chrome OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>, as is <ph name="BEGIN_LINK_LINUX_OSS">&lt;a target="_blank" href="$2"&gt;</ph>Linux development environment<ph name="END_LINK_LINUX_OSS">&lt;/a&gt;</ph>.
+        <message name="IDS_ABOUT_CROS_WITH_LINUX_VERSION_LICENSE" desc="Additional text displayed beneath the Chromium open source URLs for Decentr OS when Crostini is installed.">
+          Decentr OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>, as is <ph name="BEGIN_LINK_LINUX_OSS">&lt;a target="_blank" href="$2"&gt;</ph>Linux development environment<ph name="END_LINK_LINUX_OSS">&lt;/a&gt;</ph>.
         </message>
         <message name="IDS_ABOUT_SAFETY_INFORMATION" desc="The safety label in the About box.">
           Important use and safety information
@@ -315,77 +315,77 @@ chromium_strings.grd. -->
       </message>
       <if expr="is_macosx">
         <message name="IDS_MAC_10_10_OBSOLETE_SOON" desc="A message displayed on an at-launch infobar and About (Help) page warning the user that the OS version they are using will soon be or is already unsupported.">
-          To get future Google Chrome updates, you'll need OS X 10.11 or later. This computer is using OS X 10.10.
+          To get future Decentr updates, you'll need OS X 10.11 or later. This computer is using OS X 10.10.
         </message>
       </if>
       <if expr="is_win">
         <message name="IDS_WIN_XP_VISTA_OBSOLETE" desc="A message displayed on an at-launch infobar and about:help warning the user that the computer they are using is no longer supported.">
-          This computer will no longer receive Google Chrome updates because Windows XP and Windows Vista are no longer supported
+          This computer will no longer receive Decentr updates because Windows XP and Windows Vista are no longer supported
         </message>
       </if>
       <message name="IDS_ACCNAME_APP" desc="The accessible name for the app menu.">
-        Chrome
+        Decentr
       </message>
       <!-- Hung Browser Detector -->
       <if expr="is_win">
         <message name="IDS_BROWSER_HUNGBROWSER_MESSAGE" desc="Content of the dialog box shown when the browser is hung">
-          Google Chrome is unresponsive. Relaunch now?
+          Decentr is unresponsive. Relaunch now?
         </message>
       </if>
       <!-- Sharing messages -->
       <message name="IDS_BROWSER_SHARING_CLICK_TO_CALL_DIALOG_HELP_TEXT_NO_DEVICES" desc="The label to be shown as a help text of the dialog when user click on a phone number, if there are no phones to choose from.">
-        To send a number from here to your Android phone, sign in to Chrome on both devices.
+        To send a number from here to your Android phone, sign in to Decentr on both devices.
       </message>
       <message name="IDS_BROWSER_SHARING_CLICK_TO_CALL_DIALOG_HELP_TEXT_NO_DEVICES_ORIGIN" desc="The label to be shown as a help text of the dialog when user click on a phone number, if there are no phones to choose from.">
-        To send a number from <ph name="ORIGIN">$1<ex>www.google.com</ex></ph> to your Android phone, sign in to Chrome on both devices.
+        To send a number from <ph name="ORIGIN">$1<ex>www.google.com</ex></ph> to your Android phone, sign in to Decentr on both devices.
       </message>
       <message name="IDS_BROWSER_SHARING_ERROR_DIALOG_TEXT_DEVICE_NOT_FOUND" desc="The text to be shown on the dialog when an error occurred because the device is not synced.">
-        Make sure you are signed in to Chrome on your <ph name="TARGET_DEVICE_NAME">$1<ex>Pixel XL</ex></ph> and then try sending again.
+        Make sure you are signed in to Decentr on your <ph name="TARGET_DEVICE_NAME">$1<ex>Pixel XL</ex></ph> and then try sending again.
       </message>
       <!-- Uninstall messages -->
       <if expr="is_win">
         <message name="IDS_UNINSTALL_CLOSE_APP" desc="Message to user when uninstall detects other app instance running">
-          Please close all Google Chrome windows and try again.
+          Please close all Decentr windows and try again.
         </message>
         <message name="IDS_UNINSTALL_VERIFY" desc="Message to confirm user wants to uninstall">
-          Are you sure you want to uninstall Google Chrome?
+          Are you sure you want to uninstall Decentr?
         </message>
-        <message name="IDS_UNINSTALL_CHROME" desc="The title of the Google Chrome uninstall dialog.">
-          Uninstall Google Chrome
+        <message name="IDS_UNINSTALL_CHROME" desc="The title of the Decentr uninstall dialog.">
+          Uninstall Decentr
         </message>
       </if>
       <message name="IDS_FR_CUSTOMIZE_DEFAULT_BROWSER" desc="Default browser checkbox label">
-        Make Google Chrome the default browser
+        Make Decentr the default browser
       </message>
       <if expr="chromeos">
         <message name="IDS_EXTERNAL_PROTOCOL_NO_HANDLER_TITLE" desc="External Protocol Dialog Title">
-          Google Chrome OS can't open this page.
+          Decentr OS can't open this page.
         </message>
       </if>
       <if expr="use_titlecase">
         <message name="IDS_STATUS_TRAY_KEEP_CHROME_RUNNING_IN_BACKGROUND" desc="In Title Case: The checkbox in the status tray context menu that controls whether chrome keeps running in the background after the last window is closed">
-          Let Google Chrome Run in the Background
+          Let Decentr Run in the Background
         </message>
       </if>
       <if expr="not use_titlecase">
         <message name="IDS_STATUS_TRAY_KEEP_CHROME_RUNNING_IN_BACKGROUND" desc="The checkbox in the status tray context menu that controls whether chrome keeps running in the background after the last window is closed">
-          Let Google Chrome run in the background
+          Let Decentr run in the background
         </message>
       </if>
       <message name="IDS_CANT_WRITE_USER_DIRECTORY_SUMMARY" desc="Summary of problem displayed in dialog when we can't create a directory for this user.">
-Google Chrome cannot read and write to its data directory:
+Decentr cannot read and write to its data directory:
 
-<ph name="USER_DATA_DIRECTORY">$1<ex>C:\Documents and Settings\devint\Local Settings\Application Data\Google\Chrome</ex></ph>
+<ph name="USER_DATA_DIRECTORY">$1<ex>C:\Documents and Settings\devint\Local Settings\Application Data\Google\Decentr</ex></ph>
       </message>
       <if expr="chromeos">
         <message name="IDS_EULA_CHECKBOX_ENABLE_LOGGING" desc="The label of the checkbox to enable/disable crash and user metrics logging on EULA screen.">
-          Optional: Help improve Chrome OS features and performance by automatically sending diagnostic and usage data to Google.
+          Optional: Help improve Decentr OS features and performance by automatically sending diagnostic and usage data to Google.
         </message>
       </if>
       <message name="IDS_PROFILE_TOO_NEW_ERROR" desc="Error displayed on startup when the profile is from a newer version of the product and can not be read">
-Your profile can not be used because it is from a newer version of Google Chrome.
+Your profile can not be used because it is from a newer version of Decentr.
 
-Some features may be unavailable. Please specify a different profile directory or use a newer version of Chrome.
+Some features may be unavailable. Please specify a different profile directory or use a newer version of Decentr.
       </message>
       <message name="IDS_PREFERENCES_UNREADABLE_ERROR" desc="Error displayed on startup when user preferences file can not be read">
 Your preferences can not be read.
@@ -395,95 +395,95 @@ Some features may be unavailable and changes to preferences won't be saved.
       <message name="IDS_PREFERENCES_CORRUPT_ERROR" desc="Error displayed on startup when user preferences file can not be read">
 Your preferences file is corrupt or invalid.
 
-Google Chrome is unable to recover your settings.
+Decentr is unable to recover your settings.
       </message>
       <!-- Crash Recovery Dialog -->
       <message name="IDS_CRASH_RECOVERY_TITLE" desc="Title of dialog shown when the browser crashes.">
-        Google Chrome
+        Decentr
       </message>
       <if expr="is_win">
         <message name="IDS_CRASH_RECOVERY_CONTENT" desc="Text content telling the user the browser has crashed.">
-          Whoa! Google Chrome has crashed. Relaunch now?
+          Whoa! Decentr has crashed. Relaunch now?
         </message>
       </if>
       <!-- Password generation strings -->
       <message name="IDS_PASSWORD_GENERATION_PROMPT" desc="Autofill dropdown text describing password generation.">
-        Chrome will save this password in your Google Account. You won’t have to remember it.
+        Decentr will save this password in your Google Account. You won’t have to remember it.
       </message>
       <!-- Password manager onboarding strings -->
       <message name="IDS_PASSWORD_MANAGER_ONBOARDING_DETAILS_C" desc="The explanation text that is shown below the title in the password manager onboarding dialog.">
-        Chrome lets you know if your passwords are ever compromised
+        Decentr lets you know if your passwords are ever compromised
       </message>
       <message name="IDS_PASSWORD_MANAGER_TITLE_BRAND" desc="The product name used in the title of the password bubble.">
-        Google Chrome
+        Decentr
       </message>
       <if expr="is_macosx">
         <message name="IDS_PASSWORDS_PAGE_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before revealing plaintext passwords on the password page.">
-          Google Chrome is trying to show passwords.
+          Decentr is trying to show passwords.
         </message>
         <message name="IDS_PASSWORDS_PAGE_COPY_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before copying plaintext passwords into the clipbord.">
-          Google Chrome is trying to copy passwords.
+          Decentr is trying to copy passwords.
         </message>
         <message name="IDS_PASSWORDS_PAGE_EDIT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before editing plaintext passwords on the password page.">
-          Google Chrome is trying to edit passwords.
+          Decentr is trying to edit passwords.
         </message>
         <message name="IDS_PASSWORDS_PAGE_EXPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before exporting passwords to a file.">
-          Google Chrome wants to export your passwords.
+          Decentr wants to export your passwords.
         </message>
       </if>
       <if expr="is_win">
         <message name="IDS_PASSWORDS_PAGE_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before revealing plaintext passwords on the password page.">
-          Google Chrome is trying to show passwords. Type your Windows password to allow this.
+          Decentr is trying to show passwords. Type your Windows password to allow this.
         </message>
         <message name="IDS_PASSWORDS_PAGE_COPY_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before copying plaintext passwords into the clipbord.">
-          Google Chrome is trying to copy passwords. Type your Windows password to allow this.
+          Decentr is trying to copy passwords. Type your Windows password to allow this.
         </message>
         <message name="IDS_PASSWORDS_PAGE_EDIT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before editing plaintext passwords on the password page.">
-          Google Chrome is trying to edit passwords. Type your Windows password to allow this.
+          Decentr is trying to edit passwords. Type your Windows password to allow this.
         </message>
         <message name="IDS_PASSWORDS_PAGE_EXPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before exporting passwords to a file.">
-          Google Chrome wants to export your passwords. Type your Windows password to allow this.
+          Decentr wants to export your passwords. Type your Windows password to allow this.
         </message>
         <message name="IDS_INSTALL_HIGHER_VERSION" desc="Error displayed when higher version already exists.">
-          This computer already has a more recent version of Google Chrome. If the software is not working, please uninstall Google Chrome and try again.
+          This computer already has a more recent version of Decentr. If the software is not working, please uninstall Decentr and try again.
         </message>
         <message name="IDS_INSTALL_FAILED" desc="Error displayed if installation fails due to some unknown error.">
-          Installation failed due to unspecified error. If Google Chrome is currently running, please close it and try again.
+          Installation failed due to unspecified error. If Decentr is currently running, please close it and try again.
         </message>
-        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Chrome running.">
-          Can not install the same Google Chrome version that is currently running. Please close Google Chrome and try again.
+        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Decentr running.">
+          Can not install the same Decentr version that is currently running. Please close Decentr and try again.
         </message>
         <message name="IDS_SETUP_PATCH_FAILED" desc="Error message when setup.exe fails to patch itself.">
-          Installation failed due to unspecified error. Please download Google Chrome again.
+          Installation failed due to unspecified error. Please download Decentr again.
         </message>
         <message name="IDS_INSTALL_OS_NOT_SUPPORTED" desc="Error displayed if OS is not supported">
-          Google Chrome requires Windows 7 or higher.
+          Decentr requires Windows 7 or higher.
         </message>
         <message name="IDS_INSTALL_OS_ERROR" desc="Error displayed when any Windows API call fails and we do not have more specific information.">
-          An operating system error occurred during installation. Please download Google Chrome again.
+          An operating system error occurred during installation. Please download Decentr again.
         </message>
         <message name="IDS_INSTALL_SINGLETON_ACQUISITION_FAILED" desc="Error displayed when the installer cannot run because another installer is already running.">
-          Another operation on Google Chrome is in progress. Please try again later.
+          Another operation on Decentr is in progress. Please try again later.
         </message>
         <message name="IDS_INSTALL_TEMP_DIR_FAILED" desc="Error displayed when we fail to create temporary directory during installation.">
           The installer couldn't create a temporary directory. Please check for free disk space and permission to install software.
         </message>
         <message name="IDS_INSTALL_UNCOMPRESSION_FAILED" desc="Error when when we can not uncompress installation archive.">
-          The installer failed to uncompress archive. Please download Google Chrome again.
+          The installer failed to uncompress archive. Please download Decentr again.
         </message>
         <message name="IDS_INSTALL_INVALID_ARCHIVE" desc="Error displayed when we can not open the installation archive.">
-          The installer archive is corrupted or invalid. Please download Google Chrome again.
+          The installer archive is corrupted or invalid. Please download Decentr again.
         </message>
         <message name="IDS_INSTALL_INSUFFICIENT_RIGHTS" desc="Error displayed when a non admin user tries to attempt system level install/uninstall.">
           You do not have appropriate rights for system-level install. Try running the installer again as Administrator.
         </message>
-        <message name="IDS_INSTALL_EXISTING_VERSION_LAUNCHED" desc="A message shown to users who try to install Chrome in their user profile directory when their computer already has Chrome installed for all users. In this case, the installer silently launches the existing version of Chrome for all users rather than installing a second version of Chrome.">
-          Google Chrome is already installed for all users on your computer.
+        <message name="IDS_INSTALL_EXISTING_VERSION_LAUNCHED" desc="A message shown to users who try to install Decentr in their user profile directory when their computer already has Decentr installed for all users. In this case, the installer silently launches the existing version of Decentr for all users rather than installing a second version of Decentr.">
+          Decentr is already installed for all users on your computer.
         </message>
       </if>
       <!-- Options Dialog -->
       <if expr="is_win">
-        <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the Google Chrome shortcuts.">
+        <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the Decentr shortcuts.">
           Access the Internet
         </message>
         <message name="IDS_UNINSTALL_DELETE_PROFILE" desc="Text to show user to ask whether to delete all the profile data also during uninstallation.">
@@ -496,232 +496,232 @@ Google Chrome is unable to recover your settings.
           Uninstall
         </message>
       </if>
-      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Google Chrome is not the current default browser.">
-        Google Chrome isn't your default browser
+      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Decentr is not the current default browser.">
+        Decentr isn't your default browser
       </message>
       <if expr="is_win">
-        <!-- Try Chrome Toast Dialog -->
+        <!-- Try Decentr Toast Dialog -->
         <message name="IDS_TRY_TOAST_HEADING" desc="Top line of the try-chrome-again dialog">
-          There is a new version of Google Chrome available.
+          There is a new version of Decentr available.
         </message>
         <message name="IDS_TRY_TOAST_HEADING2" desc="Top line of the try-chrome-again dialog">
-          There's a new version of Google Chrome available, and it's faster than ever.
+          There's a new version of Decentr available, and it's faster than ever.
         </message>
         <message name="IDS_TRY_TOAST_HEADING3" desc="Top line of the try-chrome-again dialog">
-          There's a new, safer version of Google Chrome available.
+          There's a new, safer version of Decentr available.
         </message>
         <message name="IDS_TRY_TOAST_HEADING4" desc="Top line of the try-chrome-again dialog">
-          Google Chrome has been updated, but you haven't used it for at least 30 days.
+          Decentr has been updated, but you haven't used it for at least 30 days.
         </message>
         <message name="IDS_TRY_TOAST_HEADING_SKYPE" desc="Top line of the try-chrome-again dialog">
-          Google Chrome lets you click a phone number on the web and call it with Skype!
+          Decentr lets you click a phone number on the web and call it with Skype!
         </message>
       </if>
 
       <!-- Print Preview -->
       <message name="IDS_PRINT_PREVIEW_NO_PLUGIN" desc="Message to display when the PDF viewer is missing.">
-        Google Chrome cannot show the print preview when the built-in PDF viewer is missing.
+        Decentr cannot show the print preview when the built-in PDF viewer is missing.
       </message>
 
       <!-- Download Shelf Items -->
       <message name="IDS_DOWNLOAD_STATUS_CRX_INSTALL_RUNNING"
                desc="Message shown when a CRX has been downloaded and is being unpacked.">
-        Adding to Chrome...
+        Adding to Decentr...
       </message>
 
       <message name="IDS_PROMPT_DOWNLOAD_CHANGES_SETTINGS"
                desc="Message shown on the download shelf when the download is known to change settings in the browser.">
-        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous, so Chrome has blocked it.
+        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous, so Decentr has blocked it.
       </message>
 
       <message name="IDS_PROMPT_MALICIOUS_DOWNLOAD_URL"
          desc="Message shown to the user to validate the download when the download url is classified to lead to malware by the safebrowsing database.">
-        This file is dangerous, so Chrome has blocked it.
+        This file is dangerous, so Decentr has blocked it.
       </message>
       <message name="IDS_PROMPT_MALICIOUS_DOWNLOAD_CONTENT"
          desc="Message shown to the user to validate the download when the download content is classified to lead to malware by safebrowsing.">
-        <ph name="FILE_NAME">$1<ex>malware.exe</ex></ph> is dangerous, so Chrome has blocked it.
+        <ph name="FILE_NAME">$1<ex>malware.exe</ex></ph> is dangerous, so Decentr has blocked it.
       </message>
       <message name="IDS_BLOCK_REASON_DANGEROUS_DOWNLOAD"
          desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is malware.">
-        This file is dangerous, so Chrome has blocked it.
+        This file is dangerous, so Decentr has blocked it.
       </message>
 
       <message name="IDS_BLOCK_REASON_UNWANTED_DOWNLOAD"
          desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is unwanted sofware.">
-        This file may be dangerous, so Chrome has blocked it.
+        This file may be dangerous, so Decentr has blocked it.
       </message>
 
       <message name="IDS_PROMPT_CONFIRM_DANGEROUS_DOWNLOAD_ACCOUNT_COMPROMISE_BODY"
         desc="Body prompt text for the confirmation dialog asking whether the user really meant to keep a download deemed to be associated with account compromise by safebrowsing">
-        Chrome recommends that you don't download or open this file
+        Decentr recommends that you don't download or open this file
       </message>
 
       <!-- Abandon in-progress downloads confirmation dialog -->
       <if expr="not is_macosx">
-        <message name="IDS_ABANDON_DOWNLOAD_DIALOG_BROWSER_MESSAGE" desc="Message on a dialog shown when the user closes the browser while one or more downloads are in progress. This string is shown on Windows, Chrome OS, and Linux, which all use 'Exit' to refer to closing a browser.">
-          Exit Chrome anyway?
+        <message name="IDS_ABANDON_DOWNLOAD_DIALOG_BROWSER_MESSAGE" desc="Message on a dialog shown when the user closes the browser while one or more downloads are in progress. This string is shown on Windows, Decentr OS, and Linux, which all use 'Exit' to refer to closing a browser.">
+          Exit Decentr anyway?
         </message>
       </if>
       <if expr="is_macosx">
         <message name="IDS_ABANDON_DOWNLOAD_DIALOG_BROWSER_MESSAGE" desc="Mac OSX Only: Message on a dialog shown when the user closes the browser while one or more downloads are in progress. This string is shown on Mac OSX only, which uses 'Quit' to refer to closing a browser.">
-          Quit Chrome anyway?
+          Quit Decentr anyway?
         </message>
       </if>
 
       <!-- Quit all apps confirmation dialog -->
       <if expr="is_macosx">
-        <message name="IDS_QUIT_WITH_APPS_TITLE" desc="Title for a notification explaining that Chrome is running in the background.">
-          Google Chrome is in background mode.
+        <message name="IDS_QUIT_WITH_APPS_TITLE" desc="Title for a notification explaining that Decentr is running in the background.">
+          Decentr is in background mode.
         </message>
       </if>
 
       <!-- Google API keys info bar -->
       <message name="IDS_MISSING_GOOGLE_API_KEYS" desc="Message shown when Google API keys are missing. This message is followed by a 'Learn more' link.">
-        Google API keys are missing. Some functionality of Google Chrome will be disabled.
+        Google API keys are missing. Some functionality of Decentr will be disabled.
       </message>
 
       <!-- Extension/App install prompt -->
       <if expr="enable_extensions">
         <!-- Extension installed bubble -->
         <message name="IDS_EXTENSION_INSTALLED_HEADING" desc="Title of the extension-installed bubble. Instructs that the extension was installed.">
-          <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> has been added to Chrome
+          <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> has been added to Decentr
         </message>
 
         <!-- Extension uninstall prompt -->
         <message name="IDS_EXTENSION_UNINSTALL_PROMPT_REMOVE_DATA_CHECKBOX" desc="Checkbox text to ask the user whether they want to remove associated data at uninstall time. Only used when uninstalling an app associated with a particular website.">
-          Also clear data from Chrome (<ph name="URL">$1<ex>www.google.com</ex></ph>)
+          Also clear data from Decentr (<ph name="URL">$1<ex>www.google.com</ex></ph>)
         </message>
 
         <!-- Extension alerts. -->
         <message name="IDS_EXTENSION_ALERT_ITEM_BLOCKLISTED_MALWARE" desc="A statement that an extension has been newly blocklisted for malware.">
-          Chrome found that "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" contains malware
+          Decentr found that "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" contains malware
         </message>
         <message name="IDS_EXTENSIONS_ALERT_ITEM_BLOCKLISTED_MALWARE_TITLE" desc="A statement that an extension has been newly blocklisted for malware.">
-          Chrome found that these extensions contain malware:
+          Decentr found that these extensions contain malware:
         </message>
       </if>
 
       <!-- chrome://settings/extensions page -->
-      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Chrome cannot prevent extensions from recording history in Incognito mode. Displayed in extensions management UI after an extension is selected to be run in Incognito mode.">
-        Warning: Google Chrome cannot prevent extensions from recording your browsing history. To disable this extension in Incognito mode, unselect this option.
+      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Decentr cannot prevent extensions from recording history in Incognito mode. Displayed in extensions management UI after an extension is selected to be run in Incognito mode.">
+        Warning: Decentr cannot prevent extensions from recording your browsing history. To disable this extension in Incognito mode, unselect this option.
       </message>
       <message name="IDS_EXTENSIONS_UNINSTALL" desc="The link for uninstalling extensions.">
-        Remove from Chrome...
+        Remove from Decentr...
       </message>
-      <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Chrome application.">
-        In Chrome
+      <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Decentr application.">
+        In Decentr
       </message>
 
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_MULTIPLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when multiple unsupported extensions have been disabled.">
-          To make Chrome safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Chrome Web Store</ex></ph> and may have been added without your knowledge.
+          To make Decentr safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Decentr Web Store</ex></ph> and may have been added without your knowledge.
         </message>
         <message name="IDS_EXTENSIONS_SINGLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when a single unsupported extension has been disabled.">
-          To make Chrome safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Chrome Web Store</ex></ph> and may have been added without your knowledge.
+          To make Decentr safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Decentr Web Store</ex></ph> and may have been added without your knowledge.
         </message>
       </if>
 
       <!-- App menu -->
       <message name="IDS_APPMENU_TOOLTIP" desc="The tooltip to show for the browser menu">
-        Customize and control Google Chrome
+        Customize and control Decentr
       </message>
 
       <message name="IDS_APPMENU_TOOLTIP_UPDATE_AVAILABLE" desc="The tooltip to show for the browser menu when an update is available">
-        Customize and control Google Chrome. Update is available.
+        Customize and control Decentr. Update is available.
       </message>
 
       <message name="IDS_APPMENU_TOOLTIP_ALERT" desc="The tooltip to show for the browser menu when a non-update alert is displayed">
-        Customize and control Google Chrome. Something needs your attention - click for details.
+        Customize and control Decentr. Something needs your attention - click for details.
       </message>
 
-      <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Chrome menu item for the Hosted App app menu">
-        &amp;Open in Chrome
+      <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Decentr menu item for the Hosted App app menu">
+        &amp;Open in Decentr
       </message>
 
       <if expr="use_titlecase and not chromeos">
-        <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Chrome menu item">
-          About &amp;Google Chrome
+        <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Decentr menu item">
+          About &amp;Decentr
         </message>
-        <message name="IDS_UPDATE_NOW" desc="In Title Case: The text label of the Update Chrome Now menu item">
-          Update &amp;Google Chrome
+        <message name="IDS_UPDATE_NOW" desc="In Title Case: The text label of the Update Decentr Now menu item">
+          Update &amp;Decentr
         </message>
-        <message name="IDS_RELAUNCH_TO_UPDATE" desc="In Title Case: The text label of the Update Chrome menu item, when relaunch to update experiment is enabled">
-          Relaunch to Update &amp;Chrome
+        <message name="IDS_RELAUNCH_TO_UPDATE" desc="In Title Case: The text label of the Update Decentr menu item, when relaunch to update experiment is enabled">
+          Relaunch to Update &amp;Decentr
         </message>
       </if>
       <if expr="not use_titlecase and not chromeos">
-        <message name="IDS_ABOUT" desc="The text label of the About Chrome menu item">
-          About &amp;Google Chrome
+        <message name="IDS_ABOUT" desc="The text label of the About Decentr menu item">
+          About &amp;Decentr
         </message>
-        <message name="IDS_UPDATE_NOW" desc="The text label of the Update Chrome Now menu item">
-          Update &amp;Google Chrome
+        <message name="IDS_UPDATE_NOW" desc="The text label of the Update Decentr Now menu item">
+          Update &amp;Decentr
         </message>
-        <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the Update Chrome menu item, when relaunch to update experiment is enabled">
-          Relaunch to update &amp;Chrome
+        <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the Update Decentr menu item, when relaunch to update experiment is enabled">
+          Relaunch to update &amp;Decentr
         </message>
       </if>
       <if expr="chromeos">
-        <message name="IDS_ABOUT" desc="The text label of the About Chrome menu item">
-          About &amp;Google Chrome
+        <message name="IDS_ABOUT" desc="The text label of the About Decentr menu item">
+          About &amp;Decentr
         </message>
-        <message name="IDS_UPDATE_NOW" desc="The text label of the Update Chrome OS Now menu item">
-          Update &amp;Chrome OS
+        <message name="IDS_UPDATE_NOW" desc="The text label of the Update Decentr OS Now menu item">
+          Update &amp;Decentr OS
         </message>
-        <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the Update Chrome OS menu item, when relaunch to update experiment is enabled">
-          Relaunch to update &amp;Chrome OS
+        <message name="IDS_RELAUNCH_TO_UPDATE" desc="The text label of the Update Decentr OS menu item, when relaunch to update experiment is enabled">
+          Relaunch to update &amp;Decentr OS
         </message>
       </if>
 
       <if expr="is_macosx">
-        <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Chrome, not Google Chrome.">
-          Chrome
+        <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Decentr, not Decentr.">
+          Decentr
         </message>
-        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Chrome application name (IDS_PRODUCT_NAME). Example: Google Chrome Helper.">
-          Google Chrome Helper
+        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Decentr application name (IDS_PRODUCT_NAME). Example: Decentr Helper.">
+          Decentr Helper
         </message>
-        <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Chrome Helper, not Google Chrome Helper.">
-          Chrome Helper
+        <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Decentr Helper, not Decentr Helper.">
+          Decentr Helper
         </message>
       </if>
 
-      <!-- Chrome sign-in page -->
+      <!-- Decentr sign-in page -->
       <message name="IDS_CHROME_SIGNIN_TITLE" desc="Title on the about:chrome-signin page">
-        Chrome
+        Decentr
       </message>
 
       <!-- DICE sign-in promo strings -->
       <message name="IDS_PROFILES_DICE_SYNC_PROMO" desc="Text describing the benefits of turning on Sync.">
-        Sync and personalize Chrome across your devices
+        Sync and personalize Decentr across your devices
       </message>
 
       <!-- One click sign-in infobar -->
       <if expr="not chromeos">
         <!-- New one-click sign-in dialog contents for SAML support -->
         <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_TITLE_NEW" desc="The title of the modal dialog window that opens when the user chooses to use one click sign-in.">
-          You're signed in to Chrome!
+          You're signed in to Decentr!
         </message>
         <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_MESSAGE_NEW" desc="The message of the one click sign-in dialog.">
           You're signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Now you can access your bookmarks, history, and other settings on all your signed in devices.
         </message>
         <message name="IDS_SYNC_WRONG_EMAIL" desc="Message shown when sync setup failed due to the user entering the wrong email address for sign-in.">
-          You were signed in to Chrome as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Please use the same account to sign in again.
+          You were signed in to Decentr as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Please use the same account to sign in again.
         </message>
         <message name="IDS_SYNC_USED_PROFILE_ERROR" desc="An error message shown when user tries to sign in to a profile that is used by other user name before.">
-          Someone previously signed in to Chrome on this computer as <ph name="ACCOUNT_EMAIL_LAST">$1<ex>user@example.com</ex></ph>. Please create a new Chrome user to keep your information separate.
+          Someone previously signed in to Decentr on this computer as <ph name="ACCOUNT_EMAIL_LAST">$1<ex>user@example.com</ex></ph>. Please create a new Decentr user to keep your information separate.
         </message>
       </if>
 
       <!-- Enterprise sign-in dialog -->
       <if expr="toolkit_views">
         <message name="IDS_ENTERPRISE_SIGNIN_TITLE" desc="The title of the dialog to confirm linking the browser profile with the signed-in enterprise account">
-          Link your Chrome data to this account?
+          Link your Decentr data to this account?
         </message>
         <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITHOUT_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Google account. This message is followed by a 'Learn more' link.">
-          You are signing in with a managed account and giving its administrator control over your Google Chrome profile. Your Chrome data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
+          You are signing in with a managed account and giving its administrator control over your Decentr profile. Your Decentr data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Google account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
-          You are signing in with a managed account and giving its administrator control over your Google Chrome profile. Your Chrome data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Chrome data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
+          You are signing in with a managed account and giving its administrator control over your Decentr profile. Your Decentr data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Google Accounts Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Decentr data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_ENTERPRISE_SIGNIN_WORK_PROFILE_TITLE" desc="The title of the dialog to confirm adding a new work profile with the signed-in enterprise account">
           Add Work Profile to this browser
@@ -733,145 +733,145 @@ Google Chrome is unable to recover your settings.
           This work profile is completely separate from your personal profile.
         </message>
         <message name="IDS_ENTERPRISE_SIGNIN_WORK_PROFILE_EXPLANATION" desc="The warning message displayed to an enterprise user about to link their profile to their Google account. This message is followed by a 'Learn more' link.">
-          Any Chrome data that is generated during the use of this profile (such as the creation of bookmarks, history, passwords, and other settings) can be removed by the work profile administrator. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
+          Any Decentr data that is generated during the use of this profile (such as the creation of bookmarks, history, passwords, and other settings) can be removed by the work profile administrator. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
       </if>
 
       <!-- about:browser-switch strings -->
       <if expr="is_win or is_macosx or is_fuchsia or (is_linux and not chromeos)">
         <message name="IDS_ABOUT_BROWSER_SWITCH_DESCRIPTION_UNKNOWN_BROWSER" desc="Description shown while waiting for an alternative browser to open, when the browser name is not auto-detected">
-          Your system administrator has configured Google Chrome to open an alternative browser to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
+          Your system administrator has configured Decentr to open an alternative browser to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
         </message>
         <message name="IDS_ABOUT_BROWSER_SWITCH_DESCRIPTION_KNOWN_BROWSER" desc="Description shown while waiting for an alternative browser to open, when the browser name is auto-detected">
-          Your system administrator has configured Google Chrome to open <ph name="ALTERNATIVE_BROWSER_NAME">$2<ex>Internet Explorer</ex></ph> to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
+          Your system administrator has configured Decentr to open <ph name="ALTERNATIVE_BROWSER_NAME">$2<ex>Internet Explorer</ex></ph> to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
         </message>
       </if>
 
       <!-- NTP strings -->
-      <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Chrome browser.">
-        Customize Chrome
+      <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize Decentr browser.">
+        Customize Decentr
       </message>
 
       <!-- Signin Email Confirmation tab modal dialog -->
       <if expr="not chromeos">
         <message name="IDS_SIGNIN_EMAIL_CONFIRMATION_TITLE" desc="Title of the signin email confirmation tab modal dialog.">
-          <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph> was previously using Chrome
+          <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph> was previously using Decentr
         </message>
       </if>
 
       <if expr="not chromeos and not is_android">
         <!-- Dice Web Signin Interception Bubble-->
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CREATE_BUBBLE_TITLE" desc="Title of the web signin interception bubble">
-          Continue in a new Chrome profile?
+          Continue in a new Decentr profile?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_TITLE" desc="Title for the profile switch interception bubble">
-          Switch to existing Chrome profile?
+          Switch to existing Decentr profile?
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_SWITCH_BUBBLE_DESC" desc="Description for the profile switch interception bubble">
-          A Chrome profile with this account already exists
+          A Decentr profile with this account already exists
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CONSUMER_BUBBLE_DESC" desc="Body of the web signin interception bubble">
-          <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in to this Chrome profile. To keep your browsing separate, Chrome can create your own profile for you.
+          <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in to this Decentr profile. To keep your browsing separate, Decentr can create your own profile for you.
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_CONSUMER_BUBBLE_DESC_MANAGED_DEVICE" desc="Body of the web signin interception bubble on a managed device">
-          <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in to this Chrome profile. This will create a new Chrome profile for <ph name="USER_EMAIL_ADDRESS">$2<ex>foo@gmail.com</ex></ph>
+          <ph name="EXISTING_USER">$1<ex>Elisa</ex></ph> is already signed in to this Decentr profile. This will create a new Decentr profile for <ph name="USER_EMAIL_ADDRESS">$2<ex>foo@gmail.com</ex></ph>
         </message>
          <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_ENTERPRISE_BUBBLE_DESC_MANAGED_DEVICE" desc="Body of the web signin interception bubble when the new account is personal and the existing account is managed on a managed device">
-          This will create a new Chrome profile for <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>
+          This will create a new Decentr profile for <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>
         </message>
 
         <!-- Profile Customization Bubble-->
         <message name="IDS_PROFILE_CUSTOMIZATION_TEXT" desc="Text of the profile customization bubble">
-          Customize your new Chrome profile
+          Customize your new Decentr profile
         </message>
       </if>
 
-      <!-- Chrome Cleanup prompt -->
+      <!-- Decentr Cleanup prompt -->
       <if expr="is_win">
-        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Chrome Cleanup dialog that Chrome browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Chrome; we are asking, Do you want Chrome to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Chrome Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
-          There's harmful software on your computer. Chrome can remove it, restore your settings, and disable extensions to make your browser work normally again.
+        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Decentr Cleanup dialog that Decentr browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Decentr; we are asking, Do you want Decentr to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Decentr Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
+          There's harmful software on your computer. Decentr can remove it, restore your settings, and disable extensions to make your browser work normally again.
         </message>
       </if>
 
       <!-- Sync/sign-in error messages -->
       <if expr="not chromeos">
         <message name="IDS_SYNC_SIGN_IN_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error bubble view when the user's sign-in credentials are out of date.">
-          Google Chrome could not sync your data because your account sign-in details are out of date.
+          Decentr could not sync your data because your account sign-in details are out of date.
         </message>
         <message name="IDS_SYNC_UNAVAILABLE_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error bubble view when sync is not available for their domain.">
-          Google Chrome could not sync your data because Sync is not available for your domain.
+          Decentr could not sync your data because Sync is not available for your domain.
         </message>
         <message name="IDS_SYNC_OTHER_SIGN_IN_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error bubble view when there's an error signing in.">
-          Google Chrome could not sync your data due to an error signing in.
+          Decentr could not sync your data due to an error signing in.
         </message>
       </if>
       <if expr="chromeos">
-        <message name="IDS_SIGNIN_ERROR_SECONDARY_ACCOUNT_DISPLAY_SOURCE" desc="Context title shown in the notification header of sign-in error notification for Chrome OS Secondary Accounts.">
-          Chrome OS System
+        <message name="IDS_SIGNIN_ERROR_SECONDARY_ACCOUNT_DISPLAY_SOURCE" desc="Context title shown in the notification header of sign-in error notification for Decentr OS Secondary Accounts.">
+          Decentr OS System
         </message>
         <message name="IDS_SYNC_SIGN_IN_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error notification when the user's sign-in credentials are out of date.">
-          Chrome OS could not sync your data because your account sign-in details are out of date.
+          Decentr OS could not sync your data because your account sign-in details are out of date.
         </message>
         <message name="IDS_SYNC_UNAVAILABLE_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error notification when sync is not available for their domain.">
-          Chrome OS could not sync your data because Sync is not available for your domain.
+          Decentr OS could not sync your data because Sync is not available for your domain.
         </message>
         <message name="IDS_SYNC_OTHER_SIGN_IN_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error notification when there's an error signing in.">
-          Chrome OS could not sync your data due to an error signing in.
+          Decentr OS could not sync your data due to an error signing in.
         </message>
       </if>
 
       <!-- App list -->
       <if expr="chromeos">
         <message name="IDS_APP_LIST_EXTENSIONS_UNINSTALL" desc="Title text for the context menu item of a non-platform-app app list item that removes the app.">
-          Remove from Chrome...
+          Remove from Decentr...
         </message>
       </if>
 
       <!-- App shortcuts -->
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Chrome Apps Start Menu folder name.">
-        Chrome Apps
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Decentr Apps Start Menu folder name.">
+        Decentr Apps
       </message>
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY" desc="Name for the Chrome Apps Start Menu folder name for the Canary channel.">
-        Chrome Canary Apps
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY" desc="Name for the Decentr Apps Start Menu folder name for the Canary channel.">
+        Decentr Canary Apps
       </message>
       <if expr="is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA" desc="Name for the Chrome Apps Start Menu folder name for the Beta channel.">
-          Chrome Beta Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA" desc="Name for the Decentr Apps Start Menu folder name for the Beta channel.">
+          Decentr Beta Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV" desc="Name for the Chrome Apps Start Menu folder name for the Dev channel.">
-          Chrome Dev Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV" desc="Name for the Decentr Apps Start Menu folder name for the Dev channel.">
+          Decentr Dev Apps
         </message>
       </if>
 
-      <!-- Chrome OS OOBE Terms of Service screen-->
+      <!-- Decentr OS OOBE Terms of Service screen-->
       <if expr="chromeos">
         <message name="IDS_TERMS_OF_SERVICE_SCREEN_SUBHEADING" desc="Subheading at the top of the Terms of Service screen. MANAGER can be a domain or an email address.">
-          <ph name="MANAGER">$1<ex>example.com</ex></ph> requires that you read and accept the following Terms of Service before using this device. These terms do not expand, modify or limit the Google Chrome OS Terms.
+          <ph name="MANAGER">$1<ex>example.com</ex></ph> requires that you read and accept the following Terms of Service before using this device. These terms do not expand, modify or limit the Decentr OS Terms.
         </message>
       </if>
 
       <!-- MediaStream capture status tray icon -->
       <message name="IDS_MEDIA_STREAM_STATUS_TRAY_TEXT_AUDIO_AND_VIDEO" desc="Tool tip for the capture status tray icon when microphone and camera are being used">
-        Google Chrome is using your camera and microphone.
+        Decentr is using your camera and microphone.
       </message>
       <message name="IDS_MEDIA_STREAM_STATUS_TRAY_TEXT_AUDIO_ONLY" desc="Tool tip for the capture status tray icon when microphone is being used">
-        Google Chrome is using your microphone.
+        Decentr is using your microphone.
       </message>
       <message name="IDS_MEDIA_STREAM_STATUS_TRAY_TEXT_VIDEO_ONLY" desc="Tool tip for the capture status tray icon when camera is being used">
-        Google Chrome is using your camera.
+        Decentr is using your camera.
       </message>
 
       <!-- ProcessSingleton -->
       <if expr="is_linux or is_macosx">
         <message name="IDS_PROFILE_IN_USE_POSIX" desc="Message shown when the browser cannot start because the profile is in use on a different host.">
-          The profile appears to be in use by another Google Chrome process (<ph name="PROCESS_ID">$1<ex>12345</ex></ph>) on another computer (<ph name="HOST_NAME">$2<ex>example.com</ex></ph>).  Chrome has locked the profile so that it doesn't get corrupted.  If you are sure no other processes are using this profile, you can unlock the profile and relaunch Chrome.
+          The profile appears to be in use by another Decentr process (<ph name="PROCESS_ID">$1<ex>12345</ex></ph>) on another computer (<ph name="HOST_NAME">$2<ex>example.com</ex></ph>).  Decentr has locked the profile so that it doesn't get corrupted.  If you are sure no other processes are using this profile, you can unlock the profile and relaunch Decentr.
         </message>
       </if>
 
       <!-- Mac First-run dialog messages -->
       <if expr="is_macosx">
         <message name="IDS_FIRSTRUN_DLG_MAC_SET_DEFAULT_BROWSER_LABEL" desc="Label for checkbox that sets the default browser">
-          Set Google Chrome as your default browser
+          Set Decentr as your default browser
         </message>
       </if>
 
@@ -879,111 +879,111 @@ Google Chrome is unable to recover your settings.
       <if expr="not is_android and not chromeos">
         <!-- User pod remove sync warning text -->
         <message name="IDS_LOGIN_POD_USER_REMOVE_WARNING_SYNC" desc="Main text shown as a warning when attempting to remove an user.">
-          This person's browsing data will be deleted from this device. To recover the data, sign in to Chrome as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
+          This person's browsing data will be deleted from this device. To recover the data, sign in to Decentr as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
         </message>
 
         <!-- Tutorial -->
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_INTRO_TITLE" desc="Title of the tutorial introduction slide">
-          Chrome just got better
+          Decentr just got better
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_INTRO_TEXT" desc="Main text of the tutorial introduction slide">
-          Now it's easier to use Chrome with your Google Account and on shared computers.
+          Now it's easier to use Decentr with your Google Account and on shared computers.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_YOUR_CHROME_TITLE" desc="Title of the personalization slide">
-          This is your Chrome
+          This is your Decentr
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_YOUR_CHROME_TEXT" desc="Main text of the personalization slide">
-          Your web, bookmarks, and other Chrome stuff live here.
+          Your web, bookmarks, and other Decentr stuff live here.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_GUEST_TEXT" desc="Main text of the guest user slide">
-          Guests can use Chrome without leaving anything behind.
+          Guests can use Decentr without leaving anything behind.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_FRIENDS_TEXT" desc="Main text of the friends and family slide">
-          If you share a computer, friends and family can browse separately and set up Chrome just the way they want.
+          If you share a computer, friends and family can browse separately and set up Decentr just the way they want.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_OUTRO_TEXT" desc="Main text of the tutorial completion slide">
-          Click your name to open Chrome and start browsing.
+          Click your name to open Decentr and start browsing.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_OUTRO_ADD_USER" desc="Title text for the button that would add a new user">
-          Add yourself to Chrome
+          Add yourself to Decentr
         </message>
       </if>
 
       <!-- Settings API bubble -->
       <message name="IDS_EXTENSIONS_SETTINGS_API_FIRST_LINE_START_PAGES_SPECIFIC" desc="Text displayed in the Settings API bubble as first line when an extension has changed the start pages, and we are pointing to its icon.">
-        This extension has changed what page is shown when you start Chrome.
+        This extension has changed what page is shown when you start Decentr.
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_FIRST_LINE_START_PAGES" desc="Text displayed in the Settings API bubble as first line when an extension has changed the start pages, and we are not pointing to its icon.">
-        The extension "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you start Chrome.
+        The extension "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you start Decentr.
       </message>
-      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the start pages. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Chrome is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
-        ''' It also controls what page is shown when you start Chrome. '''
+      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the start pages. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Decentr is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
+        ''' It also controls what page is shown when you start Decentr. '''
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_AND_HOME" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was both the start page and the home page. See IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES for reason for triple quotes.">
-        ''' It also controls what page is shown when you start Chrome or click the Home button. '''
+        ''' It also controls what page is shown when you start Decentr or click the Home button. '''
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_AND_SEARCH" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was both the start page and the search engine. See IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES for reason for triple quotes.">
-        ''' It also controls what page is shown when you start Chrome or search from the Omnibox. '''
+        ''' It also controls what page is shown when you start Decentr or search from the Omnibox. '''
       </message>
 
       <!-- Webstore strings -->
       <message name="IDS_WEBSTORE_APP_DESCRIPTION" desc="Description for the WebStore app.">
-        Discover great apps, games, extensions and themes for Google Chrome.
+        Discover great apps, games, extensions and themes for Decentr.
       </message>
 
       <!-- Windows firewall rule strings. -->
       <if expr="is_win">
         <message name="IDS_INBOUND_MDNS_RULE_NAME" desc="The name of the firewall rule allowing inbound mDNS traffic.">
-          Google Chrome (mDNS-In)
+          Decentr (mDNS-In)
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA" desc="The name of the firewall rule allowing inbound mDNS traffic for beta.">
-          Google Chrome Beta (mDNS-In)
+          Decentr Beta (mDNS-In)
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY" desc="The name of the firewall rule allowing inbound mDNS traffic for canary.">
-          Google Chrome Canary (mDNS-In)
+          Decentr Canary (mDNS-In)
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV" desc="The name of the firewall rule allowing inbound mDNS traffic for dev.">
-          Google Chrome Dev (mDNS-In)
+          Decentr Dev (mDNS-In)
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION" desc="The description of the firewall rule allowing inbound mDNS traffic.">
-          Inbound rule for Google Chrome to allow mDNS traffic.
+          Inbound rule for Decentr to allow mDNS traffic.
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA" desc="The description of the firewall rule allowing inbound mDNS traffic beta.">
-          Inbound rule for Google Chrome Beta to allow mDNS traffic.
+          Inbound rule for Decentr Beta to allow mDNS traffic.
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY" desc="The description of the firewall rule allowing inbound mDNS traffic canary.">
-          Inbound rule for Google Chrome Canary to allow mDNS traffic.
+          Inbound rule for Decentr Canary to allow mDNS traffic.
         </message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV" desc="The description of the firewall rule allowing inbound mDNS traffic dev.">
-          Inbound rule for Google Chrome Dev to allow mDNS traffic.
+          Inbound rule for Decentr Dev to allow mDNS traffic.
         </message>
       </if>
 
       <!-- content area context menus. Android does not use it -->
       <if expr="not is_android">
         <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to Chromium.">
-          If an image doesn’t have a useful description, Chrome will try to provide one for you. To create descriptions, images are sent to Google. You can turn this off in settings at any time.
+          If an image doesn’t have a useful description, Decentr will try to provide one for you. To create descriptions, images are sent to Google. You can turn this off in settings at any time.
         </message>
         <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to Chromium just once.">
-          If an image doesn’t have a useful description, Chrome will try to provide one for you. To create descriptions, images are sent to Google.
+          If an image doesn’t have a useful description, Decentr will try to provide one for you. To create descriptions, images are sent to Google.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Google to Chrome.">
+        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Google to Decentr.">
           This uses the same spell checker that's used in Google search. Text you type in the browser is sent to Google. You can always change this behavior in settings.
         </message>
         <if expr="not use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP" desc="The name of the command to open a link in a newly created browser tab when the user is in an app window">
-            Open link in new Chrome &amp;tab
+            Open link in new Decentr &amp;tab
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP" desc="The name of the command to open a link in an Incognito browser window when the user is in an app window">
-            Open link in Chrome inco&amp;gnito window
+            Open link in Decentr inco&amp;gnito window
           </message>
         </if>
         <if expr="use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP" desc="In Title Case: The name of the command to open a link in a newly created browser tab when the user is in an app window">
-            Open Link in New Chrome &amp;tab
+            Open Link in New Decentr &amp;tab
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP" desc="In Title Case: The name of the command to open a link in an Incognito browser window when the user is in an app window">
-            Open Link in Chrome Inco&amp;gnito Window
+            Open Link in Decentr Inco&amp;gnito Window
           </message>
         </if>
       </if>
@@ -991,78 +991,78 @@ Google Chrome is unable to recover your settings.
       <!-- Update Recommended dialog -->
       <if expr="not chromeos">
         <message name="IDS_UPDATE_RECOMMENDED_DIALOG_TITLE" desc="The window title for the Update Recommended dialog.">
-          Relaunch Chrome
+          Relaunch Decentr
         </message>
         <message name="IDS_UPDATE_RECOMMENDED" desc="The main text of the Update Recommended dialog with a count of open Incognito windows.">
           {COUNT, plural,
-           =0 {A new update for Chrome is available and will be applied as soon as you relaunch.}
-           =1 {A new update for Chrome is available and will be applied as soon as you relaunch. Your Incognito window won't reopen.}
-          other {A new update for Chrome is available and will be applied as soon as you relaunch. Your # Incognito windows won't reopen.}}
+           =0 {A new update for Decentr is available and will be applied as soon as you relaunch.}
+           =1 {A new update for Decentr is available and will be applied as soon as you relaunch. Your Incognito window won't reopen.}
+          other {A new update for Decentr is available and will be applied as soon as you relaunch. Your # Incognito windows won't reopen.}}
         </message>
-        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Chrome.">
+        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Decentr.">
           Relaunch
         </message>
       </if>
       <if expr="chromeos">
         <message name="IDS_UPDATE_RECOMMENDED_DIALOG_TITLE" desc="The window title for the Update Recommended dialog.">
-          Restart Chrome OS
+          Restart Decentr OS
         </message>
         <message name="IDS_UPDATE_RECOMMENDED" desc="The main text of the Update Recommended dialog.">
-          Chrome OS needs to be restarted to apply the update.
+          Decentr OS needs to be restarted to apply the update.
         </message>
-        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and restarts Chrome OS.">
+        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and restarts Decentr OS.">
           Restart
         </message>
       </if>
 
       <!-- Update bubble -->
       <message name="IDS_REINSTALL_APP" desc="Text for the button the user clicks to reinstall the app.">
-        Reinstall Chrome
+        Reinstall Decentr
       </message>
       <if expr="use_titlecase">
-        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="In Title Case: Text for the Chrome menu option replacing Update required.">
-          Chrome is Out of Date
+        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="In Title Case: Text for the Decentr menu option replacing Update required.">
+          Decentr is Out of Date
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="Text for the Chrome menu option replacing Update required.">
-          Chrome is out of date
+        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="Text for the Decentr menu option replacing Update required.">
+          Decentr is out of date
         </message>
       </if>
       <message name="IDS_UPGRADE_BUBBLE_TITLE" desc="Text for the title of the upgrade bubble view.">
-        Can't update Chrome
+        Can't update Decentr
       </message>
       <message name="IDS_UPGRADE_BUBBLE_TEXT" desc="Text for the upgrade bubble view full description.">
-        Chrome couldn't update to the latest version, so you're missing out on new features and security fixes.
+        Decentr couldn't update to the latest version, so you're missing out on new features and security fixes.
       </message>
 
       <!-- User menu errors -->
-      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Chrome to fix the out-of-date Chrome client error.">
-        Update Chrome
+      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Decentr to fix the out-of-date Decentr client error.">
+        Update Decentr
       </message>
 
       <!-- Sync errors. Android uses native UI to handle Sync settings -->
       <if expr="not is_android">
         <message name="IDS_SYNC_UPGRADE_CLIENT" desc="Message indicating client needs to be upgraded to the latest version.">
-          Update Chrome to start sync
+          Update Decentr to start sync
         </message>
         <message name="IDS_SYNC_UPGRADE_CLIENT_BUTTON" desc="Button indicating client needs to be upgraded to the latest version.">
-          Update Chrome
+          Update Decentr
         </message>
       </if>
 
       <!-- Upgrade recovery bubble -->
       <message name="IDS_RECOVERY_BUBBLE_TITLE" desc="Text for the title of the chrome recovery bubble view.">
-        Chrome is out of date
+        Decentr is out of date
       </message>
       <if expr="use_titlecase">
-        <message name="IDS_RUN_RECOVERY" desc="In Title Case: Text for the button the user clicks to recover Chrome and its updater.">
-          Update Chrome
+        <message name="IDS_RUN_RECOVERY" desc="In Title Case: Text for the button the user clicks to recover Decentr and its updater.">
+          Update Decentr
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_RUN_RECOVERY" desc="Text for the button the user clicks to recover Chrome and its updater.">
-          Update Chrome
+        <message name="IDS_RUN_RECOVERY" desc="Text for the button the user clicks to recover Decentr and its updater.">
+          Update Decentr
         </message>
       </if>
       <message name="IDS_RECOVERY_BUBBLE_TEXT" desc="Text for the chrome recovery bubble view full description.">
@@ -1070,91 +1070,91 @@ Google Chrome is unable to recover your settings.
       </message>
 
       <!-- Critical Notification bubble -->
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Chrome must restart to install it. It counts down from # seconds and then Chrome automatically restarts.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Decentr must restart to install it. It counts down from # seconds and then Decentr automatically restarts.">
         {SECONDS, plural,
-         =1 {Google Chrome will restart in 1 second}
-         other {Google Chrome will restart in # seconds}}
+         =1 {Decentr will restart in 1 second}
+         other {Decentr will restart in # seconds}}
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Chrome must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
-        Please restart Chrome now
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Decentr must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
+        Please restart Decentr now
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Chrome must restart to install it.">
-        A special security update for Google Chrome was just applied. Restart now and we'll restore your tabs.
+      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Decentr must restart to install it.">
+        A special security update for Decentr was just applied. Restart now and we'll restore your tabs.
       </message>
 
       <!-- Desktop Capture -->
       <message name="IDS_DESKTOP_MEDIA_PICKER_SOURCE_TYPE_TAB" desc="Text for the button on the window picker dialog, clicking which takes one to tab sharing">
-        Chrome Tab
+        Decentr Tab
       </message>
 
       <!-- Runtime permission strings -->
       <if expr="is_android">
-        <message name="IDS_INFOBAR_MISSING_AR_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to augmented reality capabilities, but Chrome is missing the Android camera permission.">
-          Chrome needs permission to access your camera to create a 3D map of your surroundings
+        <message name="IDS_INFOBAR_MISSING_AR_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to augmented reality capabilities, but Decentr is missing the Android camera permission.">
+          Decentr needs permission to access your camera to create a 3D map of your surroundings
         </message>
-        <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Chrome is missing the Android camera permission.">
-          Chrome needs permission to access your camera for this site
+        <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Decentr is missing the Android camera permission.">
+          Decentr needs permission to access your camera for this site
         </message>
-        <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Chrome is missing the Android microphone permission.">
-          Chrome needs permission to access your microphone for this site
+        <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Decentr is missing the Android microphone permission.">
+          Decentr needs permission to access your microphone for this site
         </message>
-        <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Chrome is missing the Android microphone and camera permissions.">
-          Chrome needs permission to access your camera and microphone for this site
+        <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Decentr is missing the Android microphone and camera permissions.">
+          Decentr needs permission to access your camera and microphone for this site
         </message>
-        <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Chrome is missing the Android location permission.">
-          Chrome needs access to your location to share your location with this site
+        <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Decentr is missing the Android location permission.">
+          Decentr needs access to your location to share your location with this site
         </message>
-        <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Chrome is missing the Android storage permission, which is required to download files.">
-          Chrome needs storage access to download files
+        <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Decentr is missing the Android storage permission, which is required to download files.">
+          Decentr needs storage access to download files
         </message>
 
-        <message name="IDS_MESSAGE_MISSING_AR_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to augmented reality capabilities, but Chrome is missing the Android camera permission.">
-          Chrome needs camera permission to create a 3D map of your surroundings
+        <message name="IDS_MESSAGE_MISSING_AR_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to augmented reality capabilities, but Decentr is missing the Android camera permission.">
+          Decentr needs camera permission to create a 3D map of your surroundings
         </message>
-        <message name="IDS_MESSAGE_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the camera capabilities, but Chrome is missing the Android camera permission.">
-          Chrome needs camera permission for this site
+        <message name="IDS_MESSAGE_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the camera capabilities, but Decentr is missing the Android camera permission.">
+          Decentr needs camera permission for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone capabilities, but Chrome is missing the Android microphone permission.">
-          Chrome needs microphone permission for this site
+        <message name="IDS_MESSAGE_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone capabilities, but Decentr is missing the Android microphone permission.">
+          Decentr needs microphone permission for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone and camera capabilities, but Chrome is missing the Android microphone and camera permissions.">
-          Chrome needs camera and microphone permissions for this site
+        <message name="IDS_MESSAGE_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in a prompt ui when a website has requested access to the microphone and camera capabilities, but Decentr is missing the Android microphone and camera permissions.">
+          Decentr needs camera and microphone permissions for this site
         </message>
-        <message name="IDS_MESSAGE_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the location capabilities, but Chrome is missing the Android location permission.">
-          Chrome needs location permission for this site
+        <message name="IDS_MESSAGE_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in a prompt ui when a website has requested access to the location capabilities, but Decentr is missing the Android location permission.">
+          Decentr needs location permission for this site
         </message>
-        <message name="IDS_MESSAGE_STORAGE_ACCESS_PERMISSION_TEXT" desc="Text shown educating the user that Chrome is missing the Android storage permission, which is required to download files.">
-          Chrome needs storage access permission to download files
+        <message name="IDS_MESSAGE_STORAGE_ACCESS_PERMISSION_TEXT" desc="Text shown educating the user that Decentr is missing the Android storage permission, which is required to download files.">
+          Decentr needs storage access permission to download files
         </message>
       </if>
 
       <if  expr="is_macosx">
-        <message name="IDS_RUNTIME_PERMISSION_OS_REASON_TEXT" desc="Text provided to the macOS permission dialog, explaining why Chrome needs to access a protected resource (e.g., camera, microphone).">
-          Once Chrome has access, websites will be able to ask you for access.
+        <message name="IDS_RUNTIME_PERMISSION_OS_REASON_TEXT" desc="Text provided to the macOS permission dialog, explaining why Decentr needs to access a protected resource (e.g., camera, microphone).">
+          Once Decentr has access, websites will be able to ask you for access.
         </message>
       </if>
 
       <!-- OOBE -->
       <if expr="chromeos">
         <message name="IDS_INSTALLING_UPDATE" desc="Label shown on the updates installation screen during OOBE">
-          Please wait while Chrome installs the latest system updates.
+          Please wait while Decentr installs the latest system updates.
         </message>
         <message name="IDS_EULA_SCREEN_ACCESSIBLE_TITLE" desc="Title to be spoken on opening the OOBE EULA screen">
-          Chrome OS terms
+          Decentr OS terms
         </message>
       </if>
 
       <!-- Welcome page (chrome://welcome) strings -->
       <if expr="not chromeos">
-        <message name="IDS_WELCOME_HEADER" desc="A message which will appear as the header on the Welcome UI if the user has never run Chrome before.">
-          Welcome to Chrome
+        <message name="IDS_WELCOME_HEADER" desc="A message which will appear as the header on the Welcome UI if the user has never run Decentr before.">
+          Welcome to Decentr
         </message>
       </if>
 
       <!-- Native notifications for Windows 10 -->
       <if expr="is_win">
-        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Chrome notification settings.">
-          Go to Chrome notification settings
+        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Decentr notification settings.">
+          Go to Decentr notification settings
         </message>
       </if>
       <!-- Relaunch notification bubble and dialog. -->
@@ -1162,60 +1162,60 @@ Google Chrome is unable to recover your settings.
         <if expr="not chromeos">
           <message name="IDS_RELAUNCH_RECOMMENDED_TITLE" desc="The title of a dialog that tells users that a browser relaunch is recommended for an update available for some number of days.">
             {0, plural,
-              =0 {A Chrome update is available}
-              =1 {A Chrome update is available}
-              other {A Chrome update has been available for # days}}
+              =0 {A Decentr update is available}
+              =1 {A Decentr update is available}
+              other {A Decentr update has been available for # days}}
           </message>
           <message name="IDS_RELAUNCH_RECOMMENDED_BODY" desc="The body text of a dialog that tells users that a browser relaunch is recommended for an update with Incognito counter.">
             {COUNT, plural,
-              =0 {Your administrator asks that you relaunch Chrome to apply this update}
-              =1 {Your administrator asks that you relaunch Chrome to apply this update. Your Incognito window won't reopen.}
-              other {Your administrator asks that you relaunch Chrome to apply this update. Your # Incognito windows won't reopen.}}
+              =0 {Your administrator asks that you relaunch Decentr to apply this update}
+              =1 {Your administrator asks that you relaunch Decentr to apply this update. Your Incognito window won't reopen.}
+              other {Your administrator asks that you relaunch Decentr to apply this update. Your # Incognito windows won't reopen.}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_DAYS" desc="The title of a dialog that tells users the browser must be relaunched within two or more days.">
             {0, plural,
-              =1 {Relaunch Chrome within a day}
-              other {Relaunch Chrome within # days}}
+              =1 {Relaunch Decentr within a day}
+              other {Relaunch Decentr within # days}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_HOURS" desc="The title of a dialog that tells users the browser must be relaunched within one or more hours.">
             {0, plural,
-              =1 {Chrome will relaunch in an hour}
-              other {Chrome will relaunch in # hours}}
+              =1 {Decentr will relaunch in an hour}
+              other {Decentr will relaunch in # hours}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_MINUTES" desc="The title of a dialog that tells users the browser must be relaunched within one or more minutes.">
             {0, plural,
-              =1 {Chrome will relaunch in 1 minute}
-              other {Chrome will relaunch in # minutes}}
+              =1 {Decentr will relaunch in 1 minute}
+              other {Decentr will relaunch in # minutes}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_SECONDS" desc="The title of a dialog that tells users the browser must be relaunched within some number of seconds.">
             {0, plural,
-              =0 {Chrome will relaunch now}
-              =1 {Chrome will relaunch in 1 second}
-              other {Chrome will relaunch in # seconds}}
+              =0 {Decentr will relaunch now}
+              =1 {Decentr will relaunch in 1 second}
+              other {Decentr will relaunch in # seconds}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_BODY" desc="The body text of a dialog that tells users the browser must be relaunched with Incognito counter">
             {COUNT, plural,
-              =0 {Your administrator requires that you relaunch Chrome to apply an update}
-              =1 {Your administrator requires that you relaunch Chrome to apply an update. Your Incognito window won't reopen.}
-              other {Your administrator requires that you relaunch Chrome to apply an update. Your # Incognito windows won't reopen.}}
+              =0 {Your administrator requires that you relaunch Decentr to apply an update}
+              =1 {Your administrator requires that you relaunch Decentr to apply an update. Your Incognito window won't reopen.}
+              other {Your administrator requires that you relaunch Decentr to apply an update. Your # Incognito windows won't reopen.}}
           </message>
         </if>
       </if>
 
-      <!-- Chrome launch blocking dialog. -->
+      <!-- Decentr launch blocking dialog. -->
       <if expr="not is_android and not chromeos">
-        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Chrome launch blocking dialog for machine level user cloud policy enrollment.">
-          Launching Chrome...
+        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Decentr launch blocking dialog for machine level user cloud policy enrollment.">
+          Launching Decentr...
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Chrome launch blocking dialog when machine level user cloud policy enrollment failed.">
-          Couldn't launch Chrome. Try again.
+        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Decentr launch blocking dialog when machine level user cloud policy enrollment failed.">
+          Couldn't launch Decentr. Try again.
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Chrome launch blocking dialog.">
-          Relaunch Chrome
+        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Decentr launch blocking dialog.">
+          Relaunch Decentr
         </message>
       </if>
       <message name="IDS_DESKTOP_MEDIA_PICKER_TITLE_WEB_CONTENTS_ONLY" desc="Title for the window picker dialog shown when desktop capture of a tab is requested by an app.">
-        Share a Chrome tab
+        Share a Decentr tab
       </message>
 
       <!-- User happiness tracking survey UI -->
@@ -1225,81 +1225,81 @@ Google Chrome is unable to recover your settings.
         </message>
       </if>
 
-      <!-- Chrome parent extension/app install blocking dialog. -->
+      <!-- Decentr parent extension/app install blocking dialog. -->
       <if expr="chromeos">
         <message name="IDS_EXTENSION_INSTALL_BLOCKED_BY_PARENT_PROMPT_MESSAGE" desc="Text for the dialog indicating that a parent has blocked extensions and apps.">
-         Your parent has turned off "Permissions for sites, apps and extensions" for Chrome. Adding this <ph name="EXTENSION_TYPE_PARAMETER">$1<ex>extension</ex></ph> is not allowed.
+         Your parent has turned off "Permissions for sites, apps and extensions" for Decentr. Adding this <ph name="EXTENSION_TYPE_PARAMETER">$1<ex>extension</ex></ph> is not allowed.
         </message>
         <message name="IDS_EXTENSION_ENABLE_BLOCKED_BY_PARENT_PROMPT_MESSAGE" desc="Text for the dialog indicating that a parent has blocked extensions and apps.">
-         Your parent has turned off "Permissions for sites, apps and extensions" for Chrome. Enabling this <ph name="EXTENSION_TYPE_PARAMETER">$1<ex>extension</ex></ph> is not allowed.
+         Your parent has turned off "Permissions for sites, apps and extensions" for Decentr. Enabling this <ph name="EXTENSION_TYPE_PARAMETER">$1<ex>extension</ex></ph> is not allowed.
         </message>
       </if>
 
       <if expr="not chromeos and not is_android">
         <!-- Profile Picker -->
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE" desc="Profile picker main view title">
-          Welcome to Chrome profiles
+          Welcome to Decentr profiles
         </message>
-        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which Chrome profile would you like to use?' may be used instead">
-          Who's using Chrome?
+        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which Decentr profile would you like to use?' may be used instead">
+          Who's using Decentr?
         </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE" desc="Profile picker main view subtitle">
-          With Chrome profiles you can separate all your Chrome stuff. Create profiles for friends and family, or split between work and fun.
+          With Decentr profiles you can separate all your Decentr stuff. Create profiles for friends and family, or split between work and fun.
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_PROFILE_TYPE_CHOICE_TITLE" desc="Profile picker profile type choice title">
-          Set up your new Chrome profile
+          Set up your new Decentr profile
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_PROFILE_TYPE_CHOICE_SUBTITLE" desc="Profile picker profile type choice subtitle">
-          To access your Chrome stuff across all your devices, sign in, then turn on sync.
+          To access your Decentr stuff across all your devices, sign in, then turn on sync.
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_PROFILE_TYPE_CHOICE_SUBTITLE_V2" desc="Profile picker profile type choice subtitle">
-          To access your Chrome stuff across all your devices, sign in so that you can turn on sync.
+          To access your Decentr stuff across all your devices, sign in so that you can turn on sync.
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_LOCAL_PROFILE_CREATION_TITLE" desc="Title for the local profile customiztion screen on the picker.">
-          Customize your Chrome profile
+          Customize your Decentr profile
         </message>
         <message name="IDS_PROFILE_PICKER_IPH_FOR_PROFILES_TEXT" desc="Text of the IPH bubble for introducing profiles.">
-          Each profile holds its own Chrome info like bookmarks, history, passwords, and more
+          Each profile holds its own Decentr info like bookmarks, history, passwords, and more
         </message>
         <message name="IDS_PROFILE_PICKER_IPH_FOR_ADD_PROFILE_TEXT" desc="Text of the IPH bubble for adding new profiles.">
-          If you share a device, friends and family can browse separately and set up Chrome just the way they want
+          If you share a device, friends and family can browse separately and set up Decentr just the way they want
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_SWITCH_TITLE" desc="Profile picker profile switch title">
-          Switch to existing Chrome profile?
+          Switch to existing Decentr profile?
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_SWITCH_SUBTITLE" desc="Profile picker profile switch subtitle">
-          A Chrome profile with this account already exists on this device
+          A Decentr profile with this account already exists on this device
         </message>
         <if expr="lacros">
           <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_ACCOUNT_SELECTION_LACROS_SUBTITLE" desc="Profile picker, account selection screen subtitle">
-            The following accounts are not signed into any Chrome profiles. If you want to use an account in another profile, remove that profile first.
+            The following accounts are not signed into any Decentr profiles. If you want to use an account in another profile, remove that profile first.
           </message>
         </if>
 
         <!-- Profile switch IPH -->
         <message name="IDS_PROFILE_SWITCH_PROMO" desc="Text of the In-Product-Help bubble for profile switching.">
-          You can switch between Chrome profiles here
+          You can switch between Decentr profiles here
         </message>
         <message name="IDS_PROFILE_SWITCH_PROMO_SCREENREADER" desc="Text announced by screenreaders to explain how to switch between profiles.">
-          <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+M</ex></ph> can switch between Chrome profiles
+          <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+M</ex></ph> can switch between Decentr profiles
         </message>
       </if>
 
       <!-- Strings for full restore notifications -->
       <if expr="chromeos">
         <message name="IDS_RESTORE_NOTIFICATION_DISPLAY_SOURCE" desc="This is the string shown as the display source of the notification for the user to select restore or not on startup.">
-          Chrome OS system
+          Decentr OS system
         </message>
       </if>
 
-      <!-- ChromeLabs bubble -->
-      <message name="IDS_CHROMELABS_RELAUNCH_FOOTER_MESSAGE" desc="Text that shows in the footer of the Chrome Labs bubble when relaunch is needed for changes to take effect.">
-        Your changes will take effect the next time you relaunch Google Chrome.
+      <!-- DecentrLabs bubble -->
+      <message name="IDS_CHROMELABS_RELAUNCH_FOOTER_MESSAGE" desc="Text that shows in the footer of the Decentr Labs bubble when relaunch is needed for changes to take effect.">
+        Your changes will take effect the next time you relaunch Decentr.
       </message>
 
       <!-- Device Chooser Prompt -->
       <message name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH" desc="Text shown in the Chooser when browser does not have Bluetooth permission. The '&#10;' is a newline character to force the desired line wrapping.">
-        Google Chrome needs Bluetooth access to continue &#10; pairing. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK">$1<ex>Open Preferences</ex></ph>
+        Decentr needs Bluetooth access to continue &#10; pairing. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK">$1<ex>Open Preferences</ex></ph>
       </message>
     </messages>
   </release>

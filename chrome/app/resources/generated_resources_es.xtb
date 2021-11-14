@@ -269,7 +269,7 @@
 <translation id="1272978324304772054">Esta cuenta de usuario no pertenece al dominio en el que se ha registrado el dispositivo. Si quieres registrarlo en un dominio diferente, primero debes llevar a cabo el proceso de recuperación de dispositivo.</translation>
 <translation id="1274997165432133392">Cookies y otros datos de sitios</translation>
 <translation id="1275718070701477396">Seleccionado</translation>
-<translation id="1276242130531808236">He leído y acepto los <ph name="BEGIN_LINK1" />Términos del Servicio de Google<ph name="END_LINK1" /> y los <ph name="BEGIN_LINK2" />Términos del Servicio Adicionales de Google Chrome y Chrome OS<ph name="END_LINK2" />.</translation>
+<translation id="1276242130531808236">He leído y acepto los <ph name="BEGIN_LINK1" />Términos del Servicio de Google<ph name="END_LINK1" /> y los <ph name="BEGIN_LINK2" />Términos del Servicio Adicionales de Decentr y Chrome OS<ph name="END_LINK2" />.</translation>
 <translation id="1276994519141842946">No se ha podido desinstalar <ph name="APP_NAME" /></translation>
 <translation id="1277020343994096713">Crea un nuevo PIN que sea distinto al actual</translation>
 <translation id="1278859221870828664">Revisa las aplicaciones y los servicios de Google Play</translation>
@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">Solo conexiones al mismo sitio web</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" puede leer y escribir en archivos de sonido, vídeo e imágenes en las ubicaciones seleccionadas.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> está listo para completar la instalación.</translation>
-<translation id="1868553836791672080">La función de comprobación de contraseña no está disponible en Chromium</translation>
+<translation id="1868553836791672080">La función de comprobación de contraseña no está disponible en Decentr</translation>
 <translation id="1869433484041798909">Botón de marcadores</translation>
 <translation id="1871098866036088250">Abrir en el navegador Chrome</translation>
 <translation id="187145082678092583">Menos aplicaciones</translation>
@@ -1058,7 +1058,7 @@ Puedes gestionar la configuración de esta cuenta instalando la aplicación Fami
 <translation id="2087822576218954668">Imprimir: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">El registro solo puede realizarse después de instalar <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Puedes volver a la pantalla de inicio en cualquier momento deslizando el dedo hacia arriba.</translation>
-<translation id="2089566709556890888">Navega de forma segura con Google Chrome</translation>
+<translation id="2089566709556890888">Navega de forma segura con Decentr</translation>
 <translation id="2089795179672254991">Preguntar cuando un sitio web quiera ver el texto y las imágenes que se hayan copiado en el portapapeles (recomendado)</translation>
 <translation id="2090165459409185032">Para recuperar la información de tu cuenta, accede a la página google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Se conecta automáticamente cuando inicias sesión</translation>
@@ -1657,7 +1657,7 @@ Puedes gestionar la configuración de esta cuenta instalando la aplicación Fami
 <translation id="2701330563083355633">Compartido desde <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Iniciar sesión, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Lista de lectura</translation>
-<translation id="270358213449696159">Contenido de las condiciones de Google Chrome OS</translation>
+<translation id="270358213449696159">Contenido de las condiciones de Decentr OS</translation>
 <translation id="270414148003105978">Redes móviles</translation>
 <translation id="2704184184447774363">Firma de documentos de Microsoft</translation>
 <translation id="270516211545221798">Velocidad del panel táctil</translation>
@@ -2726,7 +2726,7 @@ Puedes gestionar la configuración de esta cuenta instalando la aplicación Fami
 <translation id="3810973564298564668">Gestionar</translation>
 <translation id="381202950560906753">Añadir otra</translation>
 <translation id="3812525830114410218">Certificado erróneo</translation>
-<translation id="3813296892522778813">Si no puedes encontrar lo que estás buscando, consulta la <ph name="BEGIN_LINK_CHROMIUM" />ayuda de Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Si no puedes encontrar lo que estás buscando, consulta la <ph name="BEGIN_LINK_CHROMIUM" />ayuda de Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Idioma usado para traducir páginas y Respuestas rápidas</translation>
 <translation id="3814529970604306954">Cuenta de centro educativo</translation>
 <translation id="3816118180265633665">Colores de Chrome</translation>
@@ -3398,7 +3398,7 @@ Puedes gestionar la configuración de esta cuenta instalando la aplicación Fami
 <translation id="4544174279960331769">Avatar azul predeterminado</translation>
 <translation id="4545028762441890696">Para volver a habilitarla, acepta los nuevos permisos:</translation>
 <translation id="4545759655004063573">No se puede guardar debido a que los permisos son insuficientes. Selecciona otra ubicación.</translation>
-<translation id="4546308221697447294">Navega de forma rápida con Google Chrome</translation>
+<translation id="4546308221697447294">Navega de forma rápida con Decentr</translation>
 <translation id="4546345569117159016">Botón derecho</translation>
 <translation id="4546692474302123343">Entrada de voz del Asistente de Google</translation>
 <translation id="4547659257713117923">No hay pestañas de otros dispositivos</translation>
@@ -4470,7 +4470,7 @@ Puedes asignar esta acción a varios interruptores.</translation>
 <translation id="5705882733397021510">Volver</translation>
 <translation id="5707185214361380026">Error al cargar la extensión desde:</translation>
 <translation id="5708171344853220004">Nombre principal de Microsoft</translation>
-<translation id="5709557627224531708">Establecer Google Chrome como navegador predeterminado</translation>
+<translation id="5709557627224531708">Establecer Decentr como navegador predeterminado</translation>
 <translation id="5711010025974903573">Registros del servicio</translation>
 <translation id="5711983031544731014">No se puede realizar el desbloqueo. Introduce tu contraseña.</translation>
 <translation id="5712153969432126546">A veces, los sitios publican archivos PDF, como documentos, contratos y formularios</translation>
@@ -5198,7 +5198,7 @@ Exponente público (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bits):
 <translation id="6508248480704296122">Relacionada con <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Aplicación: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licencia de contenido multimedia</translation>
-<translation id="6513247462497316522">Google Chrome utilizará datos móviles si no te has conectado a otra red.</translation>
+<translation id="6513247462497316522">Decentr utilizará datos móviles si no te has conectado a otra red.</translation>
 <translation id="6514010653036109809">Dispositivo disponible:</translation>
 <translation id="6514565641373682518">Esta página ha inhabilitado el cursor de tu ratón.</translation>
 <translation id="6518014396551869914">Copia&amp;r imagen</translation>
@@ -7145,7 +7145,7 @@ Guarda tu archivo de clave en un lugar seguro, ya que lo necesitarás para crear
 <translation id="8553342806078037065">Gestionar otros usuarios</translation>
 <translation id="8554899698005018844">Sin idioma</translation>
 <translation id="8557022314818157177">Sigue pulsando tu llave de seguridad hasta que tu huella digital quede registrada.</translation>
-<translation id="8557180006508471423">Activa Google Chrome en los servicios de localización de tu Mac</translation>
+<translation id="8557180006508471423">Activa Decentr en los servicios de localización de tu Mac</translation>
 <translation id="8557930019681227453">Archivo de manifiesto</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Abrir todas en una ventana &amp;nueva}=1{Abrir en una ventana &amp;nueva}other{Abrir todas ({COUNT}) en una ventana &amp;nueva}}</translation>
 <translation id="8561206103590473338">Elefante</translation>

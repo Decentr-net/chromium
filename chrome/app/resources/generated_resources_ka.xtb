@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">მხოლოდ იმავე საიტის კავშირები</translation>
 <translation id="186612162884103683">„<ph name="EXTENSION" />“-ს შეუძლია გამოსახულებების, ვიდეოს და ხმოვანი ფაილების წაკითხვა და ჩაწერა დაფიქსირებულ ადგილებში.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> მზად არის ინსტალაციის დასასრულებლად</translation>
-<translation id="1868553836791672080">პაროლების შემოწმება მიუწვდომელია Chromium-ში</translation>
+<translation id="1868553836791672080">პაროლების შემოწმება მიუწვდომელია Decentr-ში</translation>
 <translation id="1869433484041798909">სანიშნეს ღილაკი</translation>
 <translation id="1871098866036088250">Chrome-ის ბრაუზერში გახსნა</translation>
 <translation id="187145082678092583">ნაკლები აპი</translation>
@@ -1058,7 +1058,7 @@
 <translation id="2087822576218954668">დაბეჭდეთ: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">რეგისტრაცია მხარდაჭერილი იქნება მხოლოდ მაშინ, როცა <ph name="DEVICE_OS" /> დაინსტალირდება.</translation>
 <translation id="208928984520943006">მთავარ ეკრანზე ნებისმიერ დროს გადასასვლელად გადაფურცლეთ ქვემოდან ზემოთ.</translation>
-<translation id="2089566709556890888">დაათვალიერეთ ვები უსაფრთხოდ Google Chrome-ის მეშვეობით</translation>
+<translation id="2089566709556890888">დაათვალიერეთ ვები უსაფრთხოდ Decentr-ის მეშვეობით</translation>
 <translation id="2089795179672254991">შეკითხვა, როცა საიტს სურს გაცვლის ბუფერში კოპირებული ტექსტისა და სურათების ნახვა (რეკომენდებული)</translation>
 <translation id="2090165459409185032">თქვენი ანგარიშის ინფორმაციის აღსადგენად, ეწვიეთ: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">ავტომატურად უკავშირდება, როცა სისტემაში შედიხართ</translation>
@@ -1656,7 +1656,7 @@
 <translation id="2701330563083355633">გაზიარებულია <ph name="DEVICE_NAME" />-დან</translation>
 <translation id="2701737434167469065">შესვლა, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">საკითხავი სია</translation>
-<translation id="270358213449696159">Google Chrome OS-ის პირობების შიგთავსი</translation>
+<translation id="270358213449696159">Decentr OS-ის პირობების შიგთავსი</translation>
 <translation id="270414148003105978">მობილური ქსელები</translation>
 <translation id="2704184184447774363">Microsoft დოკუმენტების ხელმოწერა</translation>
 <translation id="270516211545221798">სენსორული პანელის სიჩქარე</translation>
@@ -2371,7 +2371,7 @@
 <translation id="344630545793878684">წაიკითხეთ თქვენი მონაცემები რამდენიმე ვებსაიტზე</translation>
 <translation id="3446650212859500694">ეს ფაილი შეიცავს სენსიტიურ კონტენტს</translation>
 <translation id="3446827946208017735">ერთი სივრციდან შეამოწმეთ კონფიდენციალურობის ყველაზე მნიშვნელოვანი პარამეტრები</translation>
-<translation id="3448086340637592206">Google Chrome-ისა და Chrome OS-ის დამატებითი პირობები</translation>
+<translation id="3448086340637592206">Decentr-ისა და Chrome OS-ის დამატებითი პირობები</translation>
 <translation id="3448492834076427715">ანგარიშის განახლება</translation>
 <translation id="3449393517661170867">ახალი ფანჯრის გახსნა ჩანართებიან რეჟიმში</translation>
 <translation id="3449839693241009168">დააჭირეთ ღილაკს <ph name="SEARCH_KEY" />, <ph name="EXTENSION_NAME" />-ში ბრძანებების გასაგზავნად</translation>
@@ -2726,7 +2726,7 @@
 <translation id="3810973564298564668">მართვა</translation>
 <translation id="381202950560906753">კიდევ ერთის დამატება</translation>
 <translation id="3812525830114410218">ცუდი სერთიფიცირება</translation>
-<translation id="3813296892522778813">თუ სასურველ კონტენტს ვერ პოულობთ, გადადით <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome-ის დახმარების<ph name="END_LINK_CHROMIUM" /> სექციაზე</translation>
+<translation id="3813296892522778813">თუ სასურველ კონტენტს ვერ პოულობთ, გადადით <ph name="BEGIN_LINK_CHROMIUM" />Decentr-ის დახმარების<ph name="END_LINK_CHROMIUM" /> სექციაზე</translation>
 <translation id="3813358687923336574">ენა, რომელიც გვერდების თარგმნისა და სწრაფი პასუხებისთვის გამოიყენება</translation>
 <translation id="3814529970604306954">სასწავლებლის ანგარიში</translation>
 <translation id="3816118180265633665">Chrome-ის ფერები</translation>
@@ -3399,7 +3399,7 @@
 <translation id="4544174279960331769">ნაგულისხმევი ლურჯი ავატარი</translation>
 <translation id="4545028762441890696">ხელახლა ჩასართავად დაეთანხმეთ ახალ ნებართვებს:</translation>
 <translation id="4545759655004063573">ვერ შეინახავს არასაკმარისი ნებართვების გამო. შეინახეთ სხვა დირექტორიაში.</translation>
-<translation id="4546308221697447294">დაათვალიერეთ ვები სწრაფად Google Chrome-ის მეშვეობით</translation>
+<translation id="4546308221697447294">დაათვალიერეთ ვები სწრაფად Decentr-ის მეშვეობით</translation>
 <translation id="4546345569117159016">მარჯვენა ღილაკი</translation>
 <translation id="4546692474302123343">Google ასისტენტის ხმოვანი შეყვანა</translation>
 <translation id="4547659257713117923">ჩანართები სხვა მოწყობილობებიდან არ არის</translation>
@@ -5199,7 +5199,7 @@
 <translation id="6508248480704296122"><ph name="NAME_PH" />-თან დაკავშირებული</translation>
 <translation id="6508261954199872201">პროგრამა: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">მედია-ლიცენზია</translation>
-<translation id="6513247462497316522">თუ თქვენ არ ხართ დაკავშირებული სხვა ქსელთან, Google Chrome გამოიყენებს მობილურ მონაცემებს.</translation>
+<translation id="6513247462497316522">თუ თქვენ არ ხართ დაკავშირებული სხვა ქსელთან, Decentr გამოიყენებს მობილურ მონაცემებს.</translation>
 <translation id="6514010653036109809">ხელმისაწვდომი მოწყობილობა:</translation>
 <translation id="6514565641373682518">ამ გვერდზე გამოირთო მაუსის კურსორი.</translation>
 <translation id="6518014396551869914">გამოსახულების კოპ&amp;ირება</translation>
@@ -7144,7 +7144,7 @@
 <translation id="8553342806078037065">სხვა ადამიანების მართვა</translation>
 <translation id="8554899698005018844">ენის გარეშე</translation>
 <translation id="8557022314818157177">გეჭიროთ თითი უსაფრთხოების გასაღებზე თითის ანაბეჭდის აღბეჭდვამდე</translation>
-<translation id="8557180006508471423">ჩართეთ „Google Chrome“ მდებარეობის სერვისებში თქვენს Mac-ზე</translation>
+<translation id="8557180006508471423">ჩართეთ „Decentr“ მდებარეობის სერვისებში თქვენს Mac-ზე</translation>
 <translation id="8557930019681227453">მანიფესტი</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{ყველას ა&amp;ხალ ფანჯარაში გახსნა}=1{ა&amp;ხალ ფანჯარაში გახსნა}other{{COUNT}-ვეს ა&amp;ხალ ფანჯარაში გახსნა}}</translation>
 <translation id="8561206103590473338">სპილო</translation>

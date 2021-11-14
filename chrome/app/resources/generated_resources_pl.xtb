@@ -271,7 +271,7 @@ Domena <ph name="DOMAIN" /> wymaga, by karta inteligentna pozostała w gnieźdz
 <translation id="1272978324304772054">To konto użytkownika nie należy do domeny, w której urządzenie jest zarejestrowane. Jeśli chcesz się zarejestrować w innej domenie, musisz najpierw przeprowadzić odzyskiwanie urządzenia.</translation>
 <translation id="1274997165432133392">Pliki cookie i inne dane witryn</translation>
 <translation id="1275718070701477396">Zaznaczone</translation>
-<translation id="1276242130531808236">Znam i akceptuję <ph name="BEGIN_LINK1" />Warunki korzystania z usług Google<ph name="END_LINK1" /> oraz <ph name="BEGIN_LINK2" />Dodatkowe warunki korzystania z Google Chrome i Chrome OS<ph name="END_LINK2" />.</translation>
+<translation id="1276242130531808236">Znam i akceptuję <ph name="BEGIN_LINK1" />Warunki korzystania z usług Google<ph name="END_LINK1" /> oraz <ph name="BEGIN_LINK2" />Dodatkowe warunki korzystania z Decentr i Chrome OS<ph name="END_LINK2" />.</translation>
 <translation id="1276994519141842946">Nie udało się odinstalować <ph name="APP_NAME" /></translation>
 <translation id="1277020343994096713">Nowy kod PIN musi różnić się od bieżącego</translation>
 <translation id="1278859221870828664">Zapoznaj się z dokumentami dotyczącymi aplikacji i usług Google Play</translation>
@@ -856,7 +856,7 @@ Domena <ph name="DOMAIN" /> wymaga, by karta inteligentna pozostała w gnieźdz
 <translation id="1865769994591826607">Tylko połączenia z tą samą witryną</translation>
 <translation id="186612162884103683">„<ph name="EXTENSION" />” może odczytywać oraz zapisywać pliki graficzne, wideo i dźwiękowe z wybranych lokalizacji.</translation>
 <translation id="1867780286110144690">Przeglądarka <ph name="PRODUCT_NAME" /> jest gotowa do ukończenia instalacji.</translation>
-<translation id="1868553836791672080">W Chromium sprawdzanie haseł nie jest dostępne</translation>
+<translation id="1868553836791672080">W Decentr sprawdzanie haseł nie jest dostępne</translation>
 <translation id="1869433484041798909">Przycisk zakładki</translation>
 <translation id="1871098866036088250">Otwórz w przeglądarce Chrome</translation>
 <translation id="187145082678092583">Mniej aplikacji</translation>
@@ -1056,7 +1056,7 @@ Możesz zarządzać ustawieniami konta, korzystając z aplikacji Family Link na
 <translation id="2087822576218954668">Drukuj: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Rejestracja jest obsługiwana tylko po zainstalowaniu systemu operacyjnego <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Aby w dowolnym momencie przejść do ekranu głównego, przesuń palcem w górę od dołu ekranu.</translation>
-<translation id="2089566709556890888">Przeglądaj bezpiecznie w Google Chrome</translation>
+<translation id="2089566709556890888">Przeglądaj bezpiecznie w Decentr</translation>
 <translation id="2089795179672254991">Pytaj, gdy strona chce uzyskać dostęp do tekstu i obrazów skopiowanych do schowka (zalecane)</translation>
 <translation id="2090165459409185032">Aby odzyskać dane konta, wejdź na google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Automatyczne połączenie podczas logowania</translation>
@@ -1654,7 +1654,7 @@ Możesz zarządzać ustawieniami konta, korzystając z aplikacji Family Link na
 <translation id="2701330563083355633">Tę kartę udostępnia <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Zaloguj się, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Do przeczytania</translation>
-<translation id="270358213449696159">Treść Warunków korzystania z systemu operacyjnego Google Chrome</translation>
+<translation id="270358213449696159">Treść Warunków korzystania z systemu operacyjnego Decentr</translation>
 <translation id="270414148003105978">Sieci komórkowe</translation>
 <translation id="2704184184447774363">Podpisywanie dokumentów firmy Microsoft</translation>
 <translation id="270516211545221798">Szybkość touchpada</translation>
@@ -2366,7 +2366,7 @@ Domena <ph name="DOMAIN" /> wymaga, by karta inteligentna pozostała w gnieźdz
 <translation id="344630545793878684">Odczyt Twoich danych na kilku stronach internetowych</translation>
 <translation id="3446650212859500694">Ten plik zawiera treści o charakterze kontrowersyjnym</translation>
 <translation id="3446827946208017735">Sprawdzaj najważniejsze ustawienia prywatności w 1 miejscu</translation>
-<translation id="3448086340637592206">Dodatkowe warunki korzystania z Google Chrome i Chrome OS</translation>
+<translation id="3448086340637592206">Dodatkowe warunki korzystania z Decentr i Chrome OS</translation>
 <translation id="3448492834076427715">Aktualizuj konto</translation>
 <translation id="3449393517661170867">Nowe okno z kartami</translation>
 <translation id="3449839693241009168">Naciśnij klawisz <ph name="SEARCH_KEY" />, aby wysłać polecenia do rozszerzenia <ph name="EXTENSION_NAME" /></translation>
@@ -2720,7 +2720,7 @@ Domena <ph name="DOMAIN" /> wymaga, by karta inteligentna pozostała w gnieźdz
 <translation id="3810973564298564668">Zarządzaj</translation>
 <translation id="381202950560906753">Dodaj kolejny</translation>
 <translation id="3812525830114410218">Zły certyfikat</translation>
-<translation id="3813296892522778813">Jeśli nie możesz znaleźć potrzebnych informacji, otwórz <ph name="BEGIN_LINK_CHROMIUM" />pomoc dotyczącą Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Jeśli nie możesz znaleźć potrzebnych informacji, otwórz <ph name="BEGIN_LINK_CHROMIUM" />pomoc dotyczącą Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Język używany do tłumaczenia stron i podawania szybkich odpowiedzi</translation>
 <translation id="3814529970604306954">Konto szkolne</translation>
 <translation id="3816118180265633665">Kolory Chrome</translation>
@@ -3393,7 +3393,7 @@ Domena <ph name="DOMAIN" /> wymaga, by karta inteligentna pozostała w gnieźdz
 <translation id="4544174279960331769">Domyślny niebieski awatar</translation>
 <translation id="4545028762441890696">Aby ponownie je włączyć, zaakceptuj nowe uprawnienia:</translation>
 <translation id="4545759655004063573">Nie można zapisać z powodu niewystarczających uprawnień. Zapisz w innym miejscu.</translation>
-<translation id="4546308221697447294">Szybkie przeglądanie dzięki Google Chrome</translation>
+<translation id="4546308221697447294">Szybkie przeglądanie dzięki Decentr</translation>
 <translation id="4546345569117159016">Prawy przycisk</translation>
 <translation id="4546692474302123343">Głosowe wprowadzanie tekstu w Asystencie Google</translation>
 <translation id="4547659257713117923">Brak kart z innych urządzeń</translation>
@@ -4427,7 +4427,7 @@ Jeśli Twoje dziecko nie używa w szkole Chromebooka lub jeśli wolisz zarządz
 <translation id="5671641761787789573">Obrazy zablokowane</translation>
 <translation id="5671658447180261823">Usuń podpowiedź <ph name="SUGGESTION_NAME" /></translation>
 <translation id="567587836466137939">To urządzenie będzie otrzymywać automatyczne aktualizacje zabezpieczeń i oprogramowania do tej daty: <ph name="MONTH_AND_YEAR" />. <ph name="LINK_BEGIN" />Więcej informacji<ph name="LINK_END" /></translation>
-<translation id="567643736130151854">Zaloguj się w Chromium, by mieć dostęp do swoich zakładek, haseł i innych ustawień na wszystkich swoich urządzeniach.</translation>
+<translation id="567643736130151854">Zaloguj się w Decentr, by mieć dostęp do swoich zakładek, haseł i innych ustawień na wszystkich swoich urządzeniach.</translation>
 <translation id="567740581294087470">Jakiego rodzaju opinię przesyłasz?</translation>
 <translation id="5677503058916217575">Język strony:</translation>
 <translation id="5677928146339483299">Zablokowane</translation>
@@ -5191,7 +5191,7 @@ Domena <ph name="DOMAIN" /> wymaga, by karta inteligentna pozostała w gnieźdz
 <translation id="6508248480704296122">Powiązane z: <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Aplikacja: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licencja na multimedia</translation>
-<translation id="6513247462497316522">Google Chrome będzie używać komórkowej transmisji danych, jeśli nie jest dostępne połączenie z inną siecią.</translation>
+<translation id="6513247462497316522">Decentr będzie używać komórkowej transmisji danych, jeśli nie jest dostępne połączenie z inną siecią.</translation>
 <translation id="6514010653036109809">Dostępne urządzenie:</translation>
 <translation id="6514565641373682518">Ta strona wyłączyła kursor myszy.</translation>
 <translation id="6518014396551869914">Kop&amp;iuj grafikę</translation>
@@ -7138,7 +7138,7 @@ Przechowuj plik klucza w bezpiecznym miejscu. Będzie on potrzebny do utworzenia
 <translation id="8553342806078037065">Zarządzaj innymi osobami</translation>
 <translation id="8554899698005018844">Brak języka</translation>
 <translation id="8557022314818157177">Dotykaj klucza bezpieczeństwa, dopóki Twój odcisk nie zostanie zarejestrowany</translation>
-<translation id="8557180006508471423">Włącz „Google Chrome” w usługach lokalizacyjnych na Macu</translation>
+<translation id="8557180006508471423">Włącz „Decentr” w usługach lokalizacyjnych na Macu</translation>
 <translation id="8557930019681227453">Plik manifestu</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Otwórz wszystkie w &amp;nowym oknie}=1{Otwórz w &amp;nowym oknie}few{Otwórz wszystkie ({COUNT}) w &amp;nowym oknie}many{Otwórz wszystkie ({COUNT}) w &amp;nowym oknie}other{Otwórz wszystkie ({COUNT}) w &amp;nowym oknie}}</translation>
 <translation id="8561206103590473338">Słoń</translation>

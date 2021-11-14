@@ -855,7 +855,7 @@
 <translation id="1865769994591826607">仅限同一网站的连接</translation>
 <translation id="186612162884103683">“<ph name="EXTENSION" />”对于选中位置中的图片、视频及声音文件具有读取和写入权限。</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" />已准备就绪，可以进行安装。</translation>
-<translation id="1868553836791672080">此版 Chromium 无法检查密码</translation>
+<translation id="1868553836791672080">此版 Decentr 无法检查密码</translation>
 <translation id="1869433484041798909">书签按钮</translation>
 <translation id="1871098866036088250">在 Chrome 浏览器中打开</translation>
 <translation id="187145082678092583">收起部分应用</translation>
@@ -1055,7 +1055,7 @@
 <translation id="2087822576218954668">打印：<ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">安装 <ph name="DEVICE_OS" /> 后才能注册。</translation>
 <translation id="208928984520943006">从屏幕底部向上滑动即可随时回到主屏幕。</translation>
-<translation id="2089566709556890888">使用 Google Chrome 进行安全浏览</translation>
+<translation id="2089566709556890888">使用 Decentr 进行安全浏览</translation>
 <translation id="2089795179672254991">当网站想查看复制到剪贴板的文字和图片时询问您（推荐）</translation>
 <translation id="2090165459409185032">要恢复您的帐号信息，请访问 google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">在您登录后自动连接</translation>
@@ -1653,7 +1653,7 @@
 <translation id="2701330563083355633">共享自 <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">登录，<ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">阅读清单</translation>
-<translation id="270358213449696159">Google Chrome 操作系统条款内容</translation>
+<translation id="270358213449696159">Decentr 操作系统条款内容</translation>
 <translation id="270414148003105978">移动网络</translation>
 <translation id="2704184184447774363">Microsoft 文档签名</translation>
 <translation id="270516211545221798">触控板速度</translation>
@@ -2367,7 +2367,7 @@
 <translation id="344630545793878684">读取您在一些网站上的数据</translation>
 <translation id="3446650212859500694">此文件包含敏感内容</translation>
 <translation id="3446827946208017735">在一处集中了解和查看最重要的隐私设置</translation>
-<translation id="3448086340637592206">Google Chrome 和 Chrome 操作系统附加条款</translation>
+<translation id="3448086340637592206">Decentr 和 Chrome 操作系统附加条款</translation>
 <translation id="3448492834076427715">更新帐号</translation>
 <translation id="3449393517661170867">打开新的标签页窗口</translation>
 <translation id="3449839693241009168">按 <ph name="SEARCH_KEY" /> 可向<ph name="EXTENSION_NAME" />发送命令</translation>
@@ -2722,7 +2722,7 @@
 <translation id="3810973564298564668">管理</translation>
 <translation id="381202950560906753">添加其他指纹</translation>
 <translation id="3812525830114410218">证书有误</translation>
-<translation id="3813296892522778813">如果您找不到要查找的内容，请参阅 <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome 帮助<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">如果您找不到要查找的内容，请参阅 <ph name="BEGIN_LINK_CHROMIUM" />Decentr 帮助<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">翻译页面和快速解答时使用的语言</translation>
 <translation id="3814529970604306954">学校帐号</translation>
 <translation id="3816118180265633665">Chrome 颜色</translation>
@@ -3394,7 +3394,7 @@
 <translation id="4544174279960331769">默认的蓝色头像</translation>
 <translation id="4545028762441890696">要重新启用它，请接受新权限：</translation>
 <translation id="4545759655004063573">因权限不足而无法保存。请保存到其他位置。</translation>
-<translation id="4546308221697447294">使用 Google Chrome 进行快速浏览</translation>
+<translation id="4546308221697447294">使用 Decentr 进行快速浏览</translation>
 <translation id="4546345569117159016">右键</translation>
 <translation id="4546692474302123343">Google 助理语音输入</translation>
 <translation id="4547659257713117923">没有从其他设备打开的标签页</translation>
@@ -5194,7 +5194,7 @@
 <translation id="6508248480704296122">已与“<ph name="NAME_PH" />”关联</translation>
 <translation id="6508261954199872201">应用：<ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">媒体许可</translation>
-<translation id="6513247462497316522">如果您没有连接到其他网络，则 Google Chrome 会使用移动数据网络。</translation>
+<translation id="6513247462497316522">如果您没有连接到其他网络，则 Decentr 会使用移动数据网络。</translation>
 <translation id="6514010653036109809">可用的设备：</translation>
 <translation id="6514565641373682518">此网页已隐藏鼠标指针。</translation>
 <translation id="6518014396551869914">复制图片(&amp;Y)</translation>
@@ -7140,7 +7140,7 @@
 <translation id="8553342806078037065">管理其他用户</translation>
 <translation id="8554899698005018844">无语言</translation>
 <translation id="8557022314818157177">连续轻触您的安全密钥，直到您的指纹被捕获</translation>
-<translation id="8557180006508471423">在 Mac 上的“定位服务”中开启“Google Chrome”</translation>
+<translation id="8557180006508471423">在 Mac 上的“定位服务”中开启“Decentr”</translation>
 <translation id="8557930019681227453">由应用缓存指定的网址</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{在新窗口中打开全部书签(&amp;N)}=1{在新窗口中打开(&amp;N)}other{在新窗口中打开全部（{COUNT} 个）书签(&amp;N)}}</translation>
 <translation id="8561206103590473338">大象</translation>

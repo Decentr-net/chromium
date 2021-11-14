@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">Apenas ligações do mesmo site</translation>
 <translation id="186612162884103683">A extensão "<ph name="EXTENSION" />" consegue ler e escrever em imagens, em ficheiros de vídeo e de som nas localizações confirmadas.</translation>
 <translation id="1867780286110144690">O <ph name="PRODUCT_NAME" /> está preparado para concluir a instalação</translation>
-<translation id="1868553836791672080">A verificação da palavra-passe não está disponível no Chromium.</translation>
+<translation id="1868553836791672080">A verificação da palavra-passe não está disponível no Decentr.</translation>
 <translation id="1869433484041798909">Botão de marcadores</translation>
 <translation id="1871098866036088250">Abrir no navegador Chrome</translation>
 <translation id="187145082678092583">Menos apps</translation>
@@ -1058,7 +1058,7 @@ Pode gerir as definições desta conta ao instalar a aplicação Family Link no 
 <translation id="2087822576218954668">Imprimir: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">A inscrição só é suportada após a instalação do <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Para aceder ao ecrã principal em qualquer altura, deslize rapidamente para cima a partir da parte inferior.</translation>
-<translation id="2089566709556890888">Navegue em segurança com o Google Chrome</translation>
+<translation id="2089566709556890888">Navegue em segurança com o Decentr</translation>
 <translation id="2089795179672254991">Perguntar quando um site pretender ver o texto e as imagens copiados para a área de transferência (recomendado)</translation>
 <translation id="2090165459409185032">Para recuperar a sua informação da conta, aceda a google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Estabelece ligação automaticamente quando inicia sessão</translation>
@@ -1656,7 +1656,7 @@ Pode gerir as definições desta conta ao instalar a aplicação Family Link no 
 <translation id="2701330563083355633">Partilhado a partir do <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Inicie sessão, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Lista de leitura</translation>
-<translation id="270358213449696159">Conteúdo dos Termos de Utilização do Google Chrome OS</translation>
+<translation id="270358213449696159">Conteúdo dos Termos de Utilização do Decentr OS</translation>
 <translation id="270414148003105978">Redes móveis</translation>
 <translation id="2704184184447774363">Assinatura de documentos Microsoft</translation>
 <translation id="270516211545221798">Velocidade do touchpad</translation>
@@ -2370,7 +2370,7 @@ Pretende pará-lo?</translation>
 <translation id="344630545793878684">Ler os seus dados em vários Sites</translation>
 <translation id="3446650212859500694">Este ficheiro tem conteúdo sensível</translation>
 <translation id="3446827946208017735">Compreenda e analise as definições de privacidade mais críticas num único local</translation>
-<translation id="3448086340637592206">Termos Adicionais do Google Chrome e do Chrome OS</translation>
+<translation id="3448086340637592206">Termos Adicionais do Decentr e do Chrome OS</translation>
 <translation id="3448492834076427715">Atualizar conta</translation>
 <translation id="3449393517661170867">Nova janela com separadores</translation>
 <translation id="3449839693241009168">Prima <ph name="SEARCH_KEY" /> para enviar comandos para <ph name="EXTENSION_NAME" /></translation>
@@ -2724,7 +2724,7 @@ Pretende pará-lo?</translation>
 <translation id="3810973564298564668">Administrar</translation>
 <translation id="381202950560906753">Adicionar outra</translation>
 <translation id="3812525830114410218">Certificado incorreto</translation>
-<translation id="3813296892522778813">Aceda à <ph name="BEGIN_LINK_CHROMIUM" />ajuda do Google Chrome<ph name="END_LINK_CHROMIUM" /> se não conseguir encontrar aquilo que procura.</translation>
+<translation id="3813296892522778813">Aceda à <ph name="BEGIN_LINK_CHROMIUM" />ajuda do Decentr<ph name="END_LINK_CHROMIUM" /> se não conseguir encontrar aquilo que procura.</translation>
 <translation id="3813358687923336574">Idioma utilizado para traduzir páginas e Respostas rápidas</translation>
 <translation id="3814529970604306954">Conta escolar</translation>
 <translation id="3816118180265633665">Cores do Chrome</translation>
@@ -3397,7 +3397,7 @@ Pretende pará-lo?</translation>
 <translation id="4544174279960331769">Avatar azul predefinido.</translation>
 <translation id="4545028762441890696">Para a reativar, aceite as novas autorizações:</translation>
 <translation id="4545759655004063573">Não é possível guardar devido a permissões insuficientes. Guarde noutra localização.</translation>
-<translation id="4546308221697447294">Navegue mais depressa com o Google Chrome</translation>
+<translation id="4546308221697447294">Navegue mais depressa com o Decentr</translation>
 <translation id="4546345569117159016">Botão direito</translation>
 <translation id="4546692474302123343">Entrada de texto por voz do Assistente Google</translation>
 <translation id="4547659257713117923">Sem separadores de outros dispositivos</translation>
@@ -4742,7 +4742,7 @@ Certifique-se de que não revela informações confidenciais.</translation>
 <translation id="6019851026059441029">Excelente – HD</translation>
 <translation id="6020431688553761150">O servidor não lhe deu autorização para aceder a este recurso.</translation>
 <translation id="6022526133015258832">Abrir em Ecrã Inteiro</translation>
-<translation id="6022659036123304283">Personalize o Google Chrome</translation>
+<translation id="6022659036123304283">Personalize o Decentr</translation>
 <translation id="6023643151125006053">Este dispositivo (SN: <ph name="SERIAL_NUMBER" />) foi bloqueado pelo administrador de <ph name="SAML_DOMAIN" />.</translation>
 <translation id="6025215716629925253">Rastreio de pilha</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE" /> – dispositivo USB ligado</translation>
@@ -5197,7 +5197,7 @@ Certifique-se de que não revela informações confidenciais.</translation>
 <translation id="6508248480704296122">Relacionado com <ph name="NAME_PH" />.</translation>
 <translation id="6508261954199872201">Aplicação: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Licença de multimédia</translation>
-<translation id="6513247462497316522">O Google Chrome irá utilizar dados móveis se não estiver ligado a outra rede.</translation>
+<translation id="6513247462497316522">O Decentr irá utilizar dados móveis se não estiver ligado a outra rede.</translation>
 <translation id="6514010653036109809">Dispositivo disponível:</translation>
 <translation id="6514565641373682518">Esta página desativou o cursor do rato.</translation>
 <translation id="6518014396551869914">Cop&amp;iar imagem</translation>
@@ -7144,7 +7144,7 @@ Mantenha o seu ficheiro de chave num local seguro, pois irá precisar dele para 
 <translation id="8553342806078037065">Gerir outras pessoas</translation>
 <translation id="8554899698005018844">Nenhum idioma</translation>
 <translation id="8557022314818157177">Continue a tocar na chave de segurança até que a sua impressão digital seja capturada.</translation>
-<translation id="8557180006508471423">Ative o "Google Chrome" nos Serviços de localização do seu Mac</translation>
+<translation id="8557180006508471423">Ative o "Decentr" nos Serviços de localização do seu Mac</translation>
 <translation id="8557930019681227453">Manifesto</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Abrir todos numa &amp;nova janela}=1{Abrir numa &amp;nova Janela}other{Abrir todos ({COUNT}) numa &amp;nova janela}}</translation>
 <translation id="8561206103590473338">Elefante</translation>

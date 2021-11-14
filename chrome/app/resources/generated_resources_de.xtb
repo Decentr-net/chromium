@@ -269,7 +269,7 @@
 <translation id="1272978324304772054">Dieses Nutzerkonto gehört nicht zu der Domain, in der das Gerät angemeldet ist. Wenn Sie sich in einer anderen Domain anmelden möchten, müssen Sie zunächst eine Gerätewiederherstellung durchführen.</translation>
 <translation id="1274997165432133392">Cookies und andere Websitedaten</translation>
 <translation id="1275718070701477396">Ausgewählt</translation>
-<translation id="1276242130531808236">Ich habe die <ph name="BEGIN_LINK1" />Nutzungsbedingungen von Google<ph name="END_LINK1" /> sowie <ph name="BEGIN_LINK2" />die zusätzlichen Nutzungsbedingungen für Google Chrome und Chrome OS<ph name="END_LINK2" /> gelesen und stimme ihnen zu.</translation>
+<translation id="1276242130531808236">Ich habe die <ph name="BEGIN_LINK1" />Nutzungsbedingungen von Google<ph name="END_LINK1" /> sowie <ph name="BEGIN_LINK2" />die zusätzlichen Nutzungsbedingungen für Decentr und Chrome OS<ph name="END_LINK2" /> gelesen und stimme ihnen zu.</translation>
 <translation id="1276994519141842946"><ph name="APP_NAME" /> konnte nicht deinstalliert werden</translation>
 <translation id="1277020343994096713">Legen Sie eine neue PIN fest, die sich von Ihrer aktuellen PIN unterscheidet</translation>
 <translation id="1278859221870828664">Google Play-Apps und -Dienste überprüfen</translation>
@@ -855,7 +855,7 @@ Diese Aktion wirkt sich nicht auf Lesezeichen, Passwörter und den Verlauf aus.<
 <translation id="1865769994591826607">Nur bei Verbindungen zur gleichen Website</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" kann Bilder, Video- und Sounddateien an den geprüften Orten lesen und schreiben.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> ist zum Abschließen der Installation bereit.</translation>
-<translation id="1868553836791672080">Die Passwortüberprüfung ist in Chromium nicht verfügbar</translation>
+<translation id="1868553836791672080">Die Passwortüberprüfung ist in Decentr nicht verfügbar</translation>
 <translation id="1869433484041798909">Lesezeichen-Schaltfläche</translation>
 <translation id="1871098866036088250">In Chrome-Browser öffnen</translation>
 <translation id="187145082678092583">Weniger Apps</translation>
@@ -1055,7 +1055,7 @@ Wenn Sie die Family Link App auf Ihrem Gerät installieren, können Sie die Eins
 <translation id="2087822576218954668">Drucken: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Die Anmeldung wird erst nach der Installation von <ph name="DEVICE_OS" /> unterstützt.</translation>
 <translation id="208928984520943006">Sie können jederzeit von unten nach oben wischen, um den Startbildschirm aufzurufen.</translation>
-<translation id="2089566709556890888">Sicher surfen mit Google Chrome</translation>
+<translation id="2089566709556890888">Sicher surfen mit Decentr</translation>
 <translation id="2089795179672254991">Nachfragen, wenn eine Website Texte und Bilder aus der Zwischenablage abrufen möchte (empfohlen)</translation>
 <translation id="2090165459409185032">Besuchen Sie die folgende Seite, um Ihre Kontoinformationen wiederzuherstellen: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Stellt automatisch eine Verbindung her, wenn Sie sich anmelden.</translation>
@@ -1653,7 +1653,7 @@ Wenn Sie die Family Link App auf Ihrem Gerät installieren, können Sie die Eins
 <translation id="2701330563083355633">Geteilt von <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Anmelden, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Leseliste</translation>
-<translation id="270358213449696159">Inhalt der Google Chrome OS-Nutzungsbedingungen</translation>
+<translation id="270358213449696159">Inhalt der Decentr OS-Nutzungsbedingungen</translation>
 <translation id="270414148003105978">Mobilfunknetze</translation>
 <translation id="2704184184447774363">Microsoft-Dokumentsignatur</translation>
 <translation id="270516211545221798">Touchpad-Geschwindigkeit</translation>
@@ -2041,7 +2041,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 <translation id="3083193146044397360">Vorübergehend blockiert, um Ihre Privatsphäre zu schützen</translation>
 <translation id="3083899879156272923">Maus beim Bewegen des Bildschirms in der Mitte halten</translation>
 <translation id="3084548735795614657">Zum Installieren ablegen</translation>
-<translation id="3084771660770137092">Entweder verfügt Google Chrome nicht mehr über genügend Arbeitsspeicher oder der Prozess für die Webseite wurde aus einem anderen Grund beendet. Aktualisieren Sie die Seite oder rufen Sie eine andere Seite auf.</translation>
+<translation id="3084771660770137092">Entweder verfügt Decentr nicht mehr über genügend Arbeitsspeicher oder der Prozess für die Webseite wurde aus einem anderen Grund beendet. Aktualisieren Sie die Seite oder rufen Sie eine andere Seite auf.</translation>
 <translation id="3084958266922136097">Bildschirmschoner deaktivieren</translation>
 <translation id="3085412380278336437">Die Website kann Ihre Kamera verwenden</translation>
 <translation id="3088052000289932193">Die Website verwendet ein MIDI-Gerät</translation>
@@ -2368,7 +2368,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 <translation id="344630545793878684">Ihre Daten auf verschiedenen Websites lesen</translation>
 <translation id="3446650212859500694">Diese Datei enthält vertrauliche Inhalte</translation>
 <translation id="3446827946208017735">Hier können Sie an einem Ort mehr über die wichtigsten Datenschutzeinstellungen erfahren und sie überprüfen</translation>
-<translation id="3448086340637592206">Google Chrome und Chrome OS – zusätzliche Nutzungsbedingungen</translation>
+<translation id="3448086340637592206">Decentr und Chrome OS – zusätzliche Nutzungsbedingungen</translation>
 <translation id="3448492834076427715">Konto aktualisieren</translation>
 <translation id="3449393517661170867">Neues Tab-Fenster</translation>
 <translation id="3449839693241009168">Drücken Sie <ph name="SEARCH_KEY" />, um Befehle an <ph name="EXTENSION_NAME" /> zu senden.</translation>
@@ -2723,7 +2723,7 @@ Servernachricht: <ph name="SERVER_MSG" /></translation>
 <translation id="3810973564298564668">Verwalten</translation>
 <translation id="381202950560906753">Weitere hinzufügen</translation>
 <translation id="3812525830114410218">Ungültiges Zertifikat</translation>
-<translation id="3813296892522778813">Wenn Sie keine Ergebnisse erhalten, <ph name="BEGIN_LINK_CHROMIUM" />rufen Sie die Google Chrome-Hilfe auf<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Wenn Sie keine Ergebnisse erhalten, <ph name="BEGIN_LINK_CHROMIUM" />rufen Sie die Decentr-Hilfe auf<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Verwendete Sprache zum Übersetzen von Seiten und Schnellinfos</translation>
 <translation id="3814529970604306954">Konto einer Bildungseinrichtung</translation>
 <translation id="3816118180265633665">Chrome-Farben</translation>
@@ -3396,7 +3396,7 @@ Möchten Sie <ph name="CONTROL_PANEL_APPLET_NAME" /> starten?</translation>
 <translation id="4544174279960331769">Blauer Standardavatar</translation>
 <translation id="4545028762441890696">Akzeptieren Sie die neuen Berechtigungen, um die Erweiterung wieder zu aktivieren:</translation>
 <translation id="4545759655004063573">Speichern aufgrund unzureichender Berechtigungen nicht möglich. Wählen Sie bitte einen anderen Speicherort aus.</translation>
-<translation id="4546308221697447294">Schnell surfen mit Google Chrome</translation>
+<translation id="4546308221697447294">Schnell surfen mit Decentr</translation>
 <translation id="4546345569117159016">Rechte Taste</translation>
 <translation id="4546692474302123343">Google Assistant-Spracheingabe</translation>
 <translation id="4547659257713117923">Keine Tabs von anderen Geräten</translation>
@@ -5194,7 +5194,7 @@ Sie können dieser Aktion mehrere Schalter zuweisen.</translation>
 <translation id="6508248480704296122">Verknüpft mit <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">App: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medienlizenz</translation>
-<translation id="6513247462497316522">Google Chrome verwendet Mobilfunk, wenn Sie nicht mit einem anderen Netzwerk verbunden sind.</translation>
+<translation id="6513247462497316522">Decentr verwendet Mobilfunk, wenn Sie nicht mit einem anderen Netzwerk verbunden sind.</translation>
 <translation id="6514010653036109809">Verfügbares Gerät:</translation>
 <translation id="6514565641373682518">Diese Seite hat den Cursor deaktiviert.</translation>
 <translation id="6518014396551869914">Bild ko&amp;pieren</translation>
@@ -7140,7 +7140,7 @@ Unter <ph name="BEGIN_LINK" />photos.google.com/settings<ph name="END_LINK" /> k
 <translation id="8553342806078037065">Andere Personen verwalten</translation>
 <translation id="8554899698005018844">Keine Sprache</translation>
 <translation id="8557022314818157177">Berühren Sie mehrmals den Fingerabdrucksensor auf Ihrem Sicherheitsschlüssel, bis der Fingerabdruck gespeichert ist</translation>
-<translation id="8557180006508471423">„Google Chrome“ in den Standortdiensten auf Ihrem Mac einschalten</translation>
+<translation id="8557180006508471423">„Decentr“ in den Standortdiensten auf Ihrem Mac einschalten</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Alle in &amp;neuem Fenster öffnen}=1{In &amp;neuem Fenster öffnen}other{Alle ({COUNT}) in &amp;neuem Fenster öffnen}}</translation>
 <translation id="8561206103590473338">Elefant</translation>

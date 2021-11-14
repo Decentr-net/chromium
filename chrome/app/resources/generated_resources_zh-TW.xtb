@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">僅限同網站連線</translation>
 <translation id="186612162884103683">「<ph name="EXTENSION" />」對於勾選位置中的圖片、影片和聲音檔，具有讀取和寫入權限。</translation>
 <translation id="1867780286110144690">「<ph name="PRODUCT_NAME" />」已準備好完成安裝程序</translation>
-<translation id="1868553836791672080">Chromium 不支援密碼檢查功能</translation>
+<translation id="1868553836791672080">Decentr 不支援密碼檢查功能</translation>
 <translation id="1869433484041798909">書籤按鈕</translation>
 <translation id="1871098866036088250">在 Chrome 瀏覽器中開啟</translation>
 <translation id="187145082678092583">較少應用程式</translation>
@@ -1058,7 +1058,7 @@
 <translation id="2087822576218954668">列印：<ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">安裝 <ph name="DEVICE_OS" /> 後才能註冊。</translation>
 <translation id="208928984520943006">隨時從底部向上滑動即可返回主畫面。</translation>
-<translation id="2089566709556890888">使用 Google Chrome 安全瀏覽網路</translation>
+<translation id="2089566709556890888">使用 Decentr 安全瀏覽網路</translation>
 <translation id="2089795179672254991">當網站要讀取已複製到剪貼簿的文字和圖片時，必須先詢問你 (建議使用)</translation>
 <translation id="2090165459409185032">如要還原您的帳戶資訊，請前往 google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">登入時自動連線</translation>
@@ -1656,7 +1656,7 @@
 <translation id="2701330563083355633">透過 <ph name="DEVICE_NAME" /> 分享</translation>
 <translation id="2701737434167469065">登入，<ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">閱讀清單</translation>
-<translation id="270358213449696159">Google Chrome 作業系統條款內容</translation>
+<translation id="270358213449696159">Decentr 作業系統條款內容</translation>
 <translation id="270414148003105978">行動網路</translation>
 <translation id="2704184184447774363">Microsoft 文件簽署</translation>
 <translation id="270516211545221798">觸控板速度</translation>
@@ -2371,7 +2371,7 @@
 <translation id="344630545793878684">讀取你在多個網站上產生的資料</translation>
 <translation id="3446650212859500694">這個檔案含有敏感內容</translation>
 <translation id="3446827946208017735">在同一處審查及瞭解最重要的隱私權設定</translation>
-<translation id="3448086340637592206">Google Chrome 和 Chrome 作業系統的《附加條款》</translation>
+<translation id="3448086340637592206">Decentr 和 Chrome 作業系統的《附加條款》</translation>
 <translation id="3448492834076427715">更新帳戶</translation>
 <translation id="3449393517661170867">新分頁視窗</translation>
 <translation id="3449839693241009168">按下「<ph name="SEARCH_KEY" />」即可將指令傳送給 <ph name="EXTENSION_NAME" /></translation>
@@ -2726,7 +2726,7 @@
 <translation id="3810973564298564668">管理</translation>
 <translation id="381202950560906753">新增其他指紋</translation>
 <translation id="3812525830114410218">錯誤的憑證</translation>
-<translation id="3813296892522778813">如果你找不到需要的資訊，請參閱 <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome 說明<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">如果你找不到需要的資訊，請參閱 <ph name="BEGIN_LINK_CHROMIUM" />Decentr 說明<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">網頁譯文和快速解答功能所用語言</translation>
 <translation id="3814529970604306954">學校帳戶</translation>
 <translation id="3816118180265633665">Chrome 顏色</translation>
@@ -3398,7 +3398,7 @@
 <translation id="4544174279960331769">預設的藍色顯示圖片</translation>
 <translation id="4545028762441890696">如要重新啟用這個擴充功能，請接受新權限：</translation>
 <translation id="4545759655004063573">由於權限不足，因此無法儲存內容。請選擇其他儲存位置。</translation>
-<translation id="4546308221697447294">使用 Google Chrome 快速瀏覽網路</translation>
+<translation id="4546308221697447294">使用 Decentr 快速瀏覽網路</translation>
 <translation id="4546345569117159016">右鍵</translation>
 <translation id="4546692474302123343">Google 助理語音輸入</translation>
 <translation id="4547659257713117923">沒有在其他裝置上開啟的分頁</translation>
@@ -5198,7 +5198,7 @@
 <translation id="6508248480704296122">與「<ph name="NAME_PH" />」相關</translation>
 <translation id="6508261954199872201">應用程式：<ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">媒體授權</translation>
-<translation id="6513247462497316522">如果你沒有連線至其他網路，Google Chrome 將使用行動數據網路連線。</translation>
+<translation id="6513247462497316522">如果你沒有連線至其他網路，Decentr 將使用行動數據網路連線。</translation>
 <translation id="6514010653036109809">可用的裝置：</translation>
 <translation id="6514565641373682518">這個網頁已停用滑鼠游標。</translation>
 <translation id="6518014396551869914">複製圖片(&amp;Y)</translation>
@@ -7145,7 +7145,7 @@
 <translation id="8553342806078037065">管理其他使用者</translation>
 <translation id="8554899698005018844">未指定語言</translation>
 <translation id="8557022314818157177">請持續輕觸安全金鑰，直到指紋擷取完成</translation>
-<translation id="8557180006508471423">請在 Mac 的「定位服務」中開啟「Google Chrome」</translation>
+<translation id="8557180006508471423">請在 Mac 的「定位服務」中開啟「Decentr」</translation>
 <translation id="8557930019681227453">資訊清單</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{在新視窗中開啟所有網址(&amp;N)}=1{在新視窗中開啟(&amp;N)}other{在新視窗中開啟所有 ({COUNT} 個) 網址(&amp;N)}}</translation>
 <translation id="8561206103590473338">大象</translation>

@@ -871,7 +871,7 @@
 <translation id="1865769994591826607">Kun forbindelser på samme website</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" har læse- og skriverettigheder til billed-, video- og lydfiler på de markerede placeringer.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> er klar til at færdiggøre din installation</translation>
-<translation id="1868553836791672080">Kontrol af adgangskode er ikke tilgængelig i Chromium</translation>
+<translation id="1868553836791672080">Kontrol af adgangskode er ikke tilgængelig i Decentr</translation>
 <translation id="1869433484041798909">Knappen Bogmærke</translation>
 <translation id="1871098866036088250">Åbn i Chrome-browseren</translation>
 <translation id="187145082678092583">Færre apps</translation>
@@ -1071,7 +1071,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="2087822576218954668">Udskrift: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Du kan først tilmelde dig, når du har installeret <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Du kan altid komme til startskærmen ved at stryge opad fra bunden.</translation>
-<translation id="2089566709556890888">Brug internettet sikkert med Google Chrome</translation>
+<translation id="2089566709556890888">Brug internettet sikkert med Decentr</translation>
 <translation id="2089795179672254991">Spørg, når et website vil se tekst og billeder, der er kopieret til udklipsholderen (anbefales)</translation>
 <translation id="2090165459409185032">Du gendanner dine kontooplysninger ved at gå til: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Opretter automatisk forbindelse, når du logger ind</translation>
@@ -1672,7 +1672,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="2701330563083355633">Delt fra <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Log ind, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Læseliste</translation>
-<translation id="270358213449696159">Indholdet i vilkårene for Google Chrome OS</translation>
+<translation id="270358213449696159">Indholdet i vilkårene for Decentr OS</translation>
 <translation id="270414148003105978">Mobilnetværk</translation>
 <translation id="2704184184447774363">Microsoft-signering af dokument</translation>
 <translation id="270516211545221798">Hastighed for touchplade</translation>
@@ -2385,7 +2385,7 @@ og tryk på Ctrl+Alt+lysstyrke ned for at zoome ud.</translation>
 <translation id="344630545793878684">Læs dine data på en række websites</translation>
 <translation id="3446650212859500694">Denne fil har følsomt indhold</translation>
 <translation id="3446827946208017735">Forstå og gennemgå de vigtigste privatlivsindstillinger samlet på ét sted</translation>
-<translation id="3448086340637592206">Yderligere vilkår for Google Chrome og Chrome OS</translation>
+<translation id="3448086340637592206">Yderligere vilkår for Decentr og Chrome OS</translation>
 <translation id="3448492834076427715">Opdater konto</translation>
 <translation id="3449393517661170867">Nyt fanevindue</translation>
 <translation id="3449839693241009168">Tryk på <ph name="SEARCH_KEY" /> for at sende kommandoer til <ph name="EXTENSION_NAME" /></translation>
@@ -2739,7 +2739,7 @@ og tryk på Ctrl+Alt+lysstyrke ned for at zoome ud.</translation>
 <translation id="3810973564298564668">Administrer</translation>
 <translation id="381202950560906753">Tilføj endnu et</translation>
 <translation id="3812525830114410218">Ugyldigt certifikat</translation>
-<translation id="3813296892522778813">Gå til <ph name="BEGIN_LINK_CHROMIUM" />Hjælp til Google Chrome<ph name="END_LINK_CHROMIUM" />, hvis du ikke kan finde det, du leder efter.</translation>
+<translation id="3813296892522778813">Gå til <ph name="BEGIN_LINK_CHROMIUM" />Hjælp til Decentr<ph name="END_LINK_CHROMIUM" />, hvis du ikke kan finde det, du leder efter.</translation>
 <translation id="3813358687923336574">Sprog, der bruges til oversættelse af sider og Hurtig info</translation>
 <translation id="3814529970604306954">Skolekonto</translation>
 <translation id="3816118180265633665">Chrome-farver</translation>
@@ -3413,7 +3413,7 @@ Vil du starte <ph name="CONTROL_PANEL_APPLET_NAME" />?</translation>
 <translation id="4544174279960331769">Blå standardavatar</translation>
 <translation id="4545028762441890696">Acceptér de nye tilladelser for at aktivere den igen:</translation>
 <translation id="4545759655004063573">Kan ikke gemme på grund af utilstrækkelige tilladelser. Gem på en anden placering.</translation>
-<translation id="4546308221697447294">Hurtig browsing med Google Chrome</translation>
+<translation id="4546308221697447294">Hurtig browsing med Decentr</translation>
 <translation id="4546345569117159016">Højre knap</translation>
 <translation id="4546692474302123343">Indtaling i Google Assistent</translation>
 <translation id="4547659257713117923">Ingen faner fra andre enheder</translation>
@@ -5212,7 +5212,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="6508248480704296122">Relateret til <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Program: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medielicens</translation>
-<translation id="6513247462497316522">Google Chrome anvender mobildata, hvis du ikke har forbindelse til et andet netværk.</translation>
+<translation id="6513247462497316522">Decentr anvender mobildata, hvis du ikke har forbindelse til et andet netværk.</translation>
 <translation id="6514010653036109809">Tilgængelig enhed:</translation>
 <translation id="6514565641373682518">Denne side har deaktiveret din musemarkør.</translation>
 <translation id="6518014396551869914">Ko&amp;pier billede</translation>
@@ -7158,7 +7158,7 @@ Opbevar din nøglefil på et sikkert sted. Du skal bruge den til at oprette nye 
 <translation id="8553342806078037065">Administrer andre personer</translation>
 <translation id="8554899698005018844">Intet sprog</translation>
 <translation id="8557022314818157177">Bliv ved med at røre din sikkerhedsnøgle, indtil dit fingeraftryk er registreret</translation>
-<translation id="8557180006508471423">Aktivér "Google Chrome" i Lokationstjenester på din Mac</translation>
+<translation id="8557180006508471423">Aktivér "Decentr" i Lokationstjenester på din Mac</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Åbn alle i &amp;nyt vindue}=1{Åbn i &amp;nyt vindue}one{Åbn ({COUNT}) i &amp;nyt vindue}other{Åbn alle ({COUNT}) i &amp;nyt vindue}}</translation>
 <translation id="8561206103590473338">Elefant</translation>

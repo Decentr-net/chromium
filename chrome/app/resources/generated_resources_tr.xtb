@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">Yalnızca aynı site bağlantıları</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" işaretli konumlardaki resimleri, video ve ses dosyalarını okuyabilir ve yazabilir.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" />, yükleme işleminizi tamamlamaya hazır</translation>
-<translation id="1868553836791672080">Şifre kontrolü özelliği Chromium'da kullanılamıyor</translation>
+<translation id="1868553836791672080">Şifre kontrolü özelliği Decentr'da kullanılamıyor</translation>
 <translation id="1869433484041798909">Yer işareti düğmesi</translation>
 <translation id="1871098866036088250">Chrome tarayıcıda aç</translation>
 <translation id="187145082678092583">Daha az uygulama</translation>
@@ -1058,7 +1058,7 @@ Cihazınızda Family Link uygulamasını yükleyerek bu hesabın ayarlarını y�
 <translation id="2087822576218954668">Yazdır: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Kayıt, yalnızca <ph name="DEVICE_OS" /> yüklemesinden sonra desteklenir.</translation>
 <translation id="208928984520943006">İstediğiniz zaman Ana ekrana dönmek için ekranın altından yukarı kaydırın.</translation>
-<translation id="2089566709556890888">Google Chrome ile güvenli bir şekilde göz atın</translation>
+<translation id="2089566709556890888">Decentr ile güvenli bir şekilde göz atın</translation>
 <translation id="2089795179672254991">Siteler panoya kopyalanan metin ve resimleri görmek istediğinde sorulsun (önerilen)</translation>
 <translation id="2090165459409185032">Hesap bilgilerinizi kurtarmak için şu adrese gidin: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Giriş yaptığınızda otomatik olarak bağlanır</translation>
@@ -1655,7 +1655,7 @@ Cihazınızda Family Link uygulamasını yükleyerek bu hesabın ayarlarını y�
 <translation id="2701330563083355633">Paylaşan: <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065"><ph name="EMAIL" /> hesabında oturum açın</translation>
 <translation id="2702801445560668637">Okuma Listesi</translation>
-<translation id="270358213449696159">Google Chrome OS Şartları içeriği</translation>
+<translation id="270358213449696159">Decentr OS Şartları içeriği</translation>
 <translation id="270414148003105978">Mobil ağlar</translation>
 <translation id="2704184184447774363">Microsoft Belge İmzalama</translation>
 <translation id="270516211545221798">Dokunmatik alan hızı</translation>
@@ -2369,7 +2369,7 @@ Sunucunun mesajı: <ph name="SERVER_MSG" /></translation>
 <translation id="344630545793878684">Birden fazla web sitesindeki verilerinize erişme</translation>
 <translation id="3446650212859500694">Bu dosya hassas içeriğe sahip</translation>
 <translation id="3446827946208017735">En kritik gizlilik ayarlarını anlayıp tek bir yerden inceleyin</translation>
-<translation id="3448086340637592206">Google Chrome ve Chrome OS Ek Şartları</translation>
+<translation id="3448086340637592206">Decentr ve Chrome OS Ek Şartları</translation>
 <translation id="3448492834076427715">Hesabı güncelle</translation>
 <translation id="3449393517661170867">Sekmeli yeni pencere</translation>
 <translation id="3449839693241009168">Komutları <ph name="EXTENSION_NAME" /> uygulamasına göndermek için <ph name="SEARCH_KEY" /> tuşuna basın</translation>
@@ -2724,7 +2724,7 @@ Sunucunun mesajı: <ph name="SERVER_MSG" /></translation>
 <translation id="3810973564298564668">Yönet</translation>
 <translation id="381202950560906753">Başka ekle</translation>
 <translation id="3812525830114410218">Bozuk sertifika</translation>
-<translation id="3813296892522778813">Aradığınız bilgiyi bulamazsanız <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome yardımına<ph name="END_LINK_CHROMIUM" /> gidin</translation>
+<translation id="3813296892522778813">Aradığınız bilgiyi bulamazsanız <ph name="BEGIN_LINK_CHROMIUM" />Decentr yardımına<ph name="END_LINK_CHROMIUM" /> gidin</translation>
 <translation id="3813358687923336574">Sayfaları ve Bil bakalım'ı çevirmek için kullanılan dil</translation>
 <translation id="3814529970604306954">Okul Hesabı</translation>
 <translation id="3816118180265633665">Chrome Renkleri</translation>
@@ -3397,7 +3397,7 @@ Sunucunun mesajı: <ph name="SERVER_MSG" /></translation>
 <translation id="4544174279960331769">Varsayılan mavi avatar</translation>
 <translation id="4545028762441890696">Tekrar etkinleştirmek için yeni izinleri kabul edin:</translation>
 <translation id="4545759655004063573">İzinler yetersiz olduğundan  kaydedilemiyor. Lütfen başka bir yere kaydedin.</translation>
-<translation id="4546308221697447294">Google Chrome ile hızlı göz atın</translation>
+<translation id="4546308221697447294">Decentr ile hızlı göz atın</translation>
 <translation id="4546345569117159016">Sağ düğme</translation>
 <translation id="4546692474302123343">Google Asistan ses girişi</translation>
 <translation id="4547659257713117923">Diğer Cihazlardan Sekme Yok</translation>
@@ -5198,7 +5198,7 @@ Hassas bilgileri vermediğinizden emin olun.</translation>
 <translation id="6508248480704296122"><ph name="NAME_PH" /> ile ilgili</translation>
 <translation id="6508261954199872201">Uygulama: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medya lisansı</translation>
-<translation id="6513247462497316522">Başka bir ağa bağlı değilseniz Google Chrome mobil verileri kullanır.</translation>
+<translation id="6513247462497316522">Başka bir ağa bağlı değilseniz Decentr mobil verileri kullanır.</translation>
 <translation id="6514010653036109809">Kullanılabilir cihaz:</translation>
 <translation id="6514565641373682518">Bu sayfa fare imlecinizi devre dışı bıraktı.</translation>
 <translation id="6518014396551869914">Resmi Kop&amp;yala</translation>
@@ -7143,7 +7143,7 @@ Anahtar dosyanızı güvenli bir yerde saklayın. Uzantınızın yeni sürümler
 <translation id="8553342806078037065">Diğer kişileri yönet</translation>
 <translation id="8554899698005018844">Dil yok</translation>
 <translation id="8557022314818157177">Parmak iziniz alınana kadar güvenlik anahtarınıza dokunmaya devam edin</translation>
-<translation id="8557180006508471423">Mac'inizdeki Konum Hizmetlerinde "Google Chrome"u açın</translation>
+<translation id="8557180006508471423">Mac'inizdeki Konum Hizmetlerinde "Decentr"u açın</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Tümünü &amp;Yeni Pencerede Aç}=1{&amp;Yeni Pencerede Aç}other{Tümünü ({COUNT}) &amp;Yeni Pencerede Aç}}</translation>
 <translation id="8561206103590473338">Fil</translation>

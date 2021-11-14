@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">同一サイトの接続のみ</translation>
 <translation id="186612162884103683">「<ph name="EXTENSION" />」はチェックした場所にある画像、動画、音声の各ファイルの読み込みと書き込みが可能です。</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> をインストールする準備ができました</translation>
-<translation id="1868553836791672080">Chromium では、パスワード確認をご利用いただけません</translation>
+<translation id="1868553836791672080">Decentr では、パスワード確認をご利用いただけません</translation>
 <translation id="1869433484041798909">ブックマーク ボタン</translation>
 <translation id="1871098866036088250">Chrome ブラウザで開く</translation>
 <translation id="187145082678092583">表示するアプリを減らす</translation>
@@ -1058,7 +1058,7 @@
 <translation id="2087822576218954668">印刷: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">登録は <ph name="DEVICE_OS" /> をインストールした後にのみ行うことができます。</translation>
 <translation id="208928984520943006">ホーム画面は、下から上にスワイプすれば、いつでも表示できます。</translation>
-<translation id="2089566709556890888">Google Chrome で安全にブラウジング</translation>
+<translation id="2089566709556890888">Decentr で安全にブラウジング</translation>
 <translation id="2089795179672254991">クリップボードにコピーされているテキストや画像にサイトがアクセスする際に確認する（推奨）</translation>
 <translation id="2090165459409185032">アカウント情報を復旧するには google.com/accounts/recovery に移動します。</translation>
 <translation id="2090507354966565596">ログイン時に自動接続します</translation>
@@ -1654,7 +1654,7 @@
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" /> から共有しました</translation>
 <translation id="2701737434167469065">ログイン（<ph name="EMAIL" />）</translation>
 <translation id="2702801445560668637">リーディング リスト</translation>
-<translation id="270358213449696159">Google Chrome OS 利用規約コンテンツ</translation>
+<translation id="270358213449696159">Decentr OS 利用規約コンテンツ</translation>
 <translation id="270414148003105978">モバイル ネットワーク</translation>
 <translation id="2704184184447774363">Microsoft ドキュメントの署名</translation>
 <translation id="270516211545221798">タッチパッドの速度</translation>
@@ -2369,7 +2369,7 @@
 <translation id="344630545793878684">多数のウェブサイトでのユーザーデータの読み取り</translation>
 <translation id="3446650212859500694">このファイルにはデリケートなコンテンツが含まれています</translation>
 <translation id="3446827946208017735">最も重要なプライバシー設定を 1 か所で確認して変更できます</translation>
-<translation id="3448086340637592206">Google Chrome および Chrome OS 追加利用規約</translation>
+<translation id="3448086340637592206">Decentr および Chrome OS 追加利用規約</translation>
 <translation id="3448492834076427715">アカウントを更新</translation>
 <translation id="3449393517661170867">新規タブ付きウィンドウ</translation>
 <translation id="3449839693241009168"><ph name="SEARCH_KEY" /> を押すと <ph name="EXTENSION_NAME" /> にコマンドが送信されます</translation>
@@ -2724,7 +2724,7 @@
 <translation id="3810973564298564668">管理</translation>
 <translation id="381202950560906753">別の指紋を登録</translation>
 <translation id="3812525830114410218">不適切な証明書</translation>
-<translation id="3813296892522778813">探しているものが見つからない場合は、<ph name="BEGIN_LINK_CHROMIUM" />Google Chrome のヘルプ<ph name="END_LINK_CHROMIUM" />をご覧ください。</translation>
+<translation id="3813296892522778813">探しているものが見つからない場合は、<ph name="BEGIN_LINK_CHROMIUM" />Decentr のヘルプ<ph name="END_LINK_CHROMIUM" />をご覧ください。</translation>
 <translation id="3813358687923336574">ページの翻訳とクイック アンサーに使用する言語</translation>
 <translation id="3814529970604306954">学校用アカウント</translation>
 <translation id="3816118180265633665">Chrome の色</translation>
@@ -3396,7 +3396,7 @@
 <translation id="4544174279960331769">デフォルトの青のアバター</translation>
 <translation id="4545028762441890696">再度有効にするには次の新しい権限を許可してください。</translation>
 <translation id="4545759655004063573">十分な権限がないため保存できません。別の場所に保存してください。</translation>
-<translation id="4546308221697447294">Google Chrome で高速なブラウジング</translation>
+<translation id="4546308221697447294">Decentr で高速なブラウジング</translation>
 <translation id="4546345569117159016">右ボタン</translation>
 <translation id="4546692474302123343">Google アシスタントの音声入力</translation>
 <translation id="4547659257713117923">他のデバイスからのタブはありません</translation>
@@ -5193,7 +5193,7 @@
 <translation id="6508248480704296122"><ph name="NAME_PH" /> に関連しています</translation>
 <translation id="6508261954199872201">アプリ: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">メディア ライセンス</translation>
-<translation id="6513247462497316522">他のネットワークに接続していない場合、Google Chrome はモバイル データを使用します。</translation>
+<translation id="6513247462497316522">他のネットワークに接続していない場合、Decentr はモバイル データを使用します。</translation>
 <translation id="6514010653036109809">接続可能なデバイス:</translation>
 <translation id="6514565641373682518">このページではマウスカーソルが無効になります。</translation>
 <translation id="6518014396551869914">画像をコピー(&amp;Y)</translation>
@@ -7138,7 +7138,7 @@
 <translation id="8553342806078037065">他のユーザーを管理</translation>
 <translation id="8554899698005018844">言語設定なし</translation>
 <translation id="8557022314818157177">指紋の登録が完了するまで、セキュリティ キーをタッチし続けてください</translation>
-<translation id="8557180006508471423">Mac の位置情報サービスで「Google Chrome」をオンにしてください</translation>
+<translation id="8557180006508471423">Mac の位置情報サービスで「Decentr」をオンにしてください</translation>
 <translation id="8557930019681227453">マニフェスト</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{すべてを新しいウィンドウで開く(&amp;N)}=1{新しいウィンドウで開く(&amp;N)}other{すべて（{COUNT} 個）を新しいウィンドウで開く(&amp;N)}}</translation>
 <translation id="8561206103590473338">ゾウ</translation>

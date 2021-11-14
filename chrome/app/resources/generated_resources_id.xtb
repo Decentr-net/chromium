@@ -870,7 +870,7 @@
 <translation id="1865769994591826607">Hanya sambungan situs serupa</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" dapat membaca dan menulis file gambar, video, dan suara di lokasi yang dicentang.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> siap menyelesaikan penginstalan</translation>
-<translation id="1868553836791672080">Pemeriksaan sandi tidak tersedia di Chromium</translation>
+<translation id="1868553836791672080">Pemeriksaan sandi tidak tersedia di Decentr</translation>
 <translation id="1869433484041798909">Tombol bookmark</translation>
 <translation id="1871098866036088250">Buka di browser Chrome</translation>
 <translation id="187145082678092583">Lebih sedikit aplikasi</translation>
@@ -1070,7 +1070,7 @@ Anda dapat mengelola setelan akun ini dengan menginstal aplikasi Family Link di 
 <translation id="2087822576218954668">Pencetakan: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Pendaftaran hanya didukung setelah Anda menginstal <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Untuk membuka Layar utama kapan saja, geser ke atas dari bagian bawah.</translation>
-<translation id="2089566709556890888">Akses dengan aman menggunakan Google Chrome</translation>
+<translation id="2089566709556890888">Akses dengan aman menggunakan Decentr</translation>
 <translation id="2089795179672254991">Tanyakan saat situs ingin melihat teks dan gambar yang disalin ke papan klip (direkomendasikan)</translation>
 <translation id="2090165459409185032">Untuk memulihkan informasi akun Anda, buka: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Otomatis menghubungkan saat Anda login</translation>
@@ -1671,7 +1671,7 @@ Anda dapat mengelola setelan akun ini dengan menginstal aplikasi Family Link di 
 <translation id="2701330563083355633">Dibagikan dari <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Login, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Daftar Bacaan</translation>
-<translation id="270358213449696159">Konten Persyaratan Google Chrome OS</translation>
+<translation id="270358213449696159">Konten Persyaratan Decentr OS</translation>
 <translation id="270414148003105978">Jaringan seluler</translation>
 <translation id="2704184184447774363">Microsoft Document Signing</translation>
 <translation id="270516211545221798">Kecepatan touchpad</translation>
@@ -2386,7 +2386,7 @@ dan Ctrl+Alt+Kurangi kecerahan untuk memperkecil.</translation>
 <translation id="344630545793878684">Membaca data Anda di sejumlah situs</translation>
 <translation id="3446650212859500694">File ini berisi konten sensitif</translation>
 <translation id="3446827946208017735">Pahami dan tinjau setelan privasi paling penting di satu tempat</translation>
-<translation id="3448086340637592206">Persyaratan Tambahan Google Chrome dan Chrome OS</translation>
+<translation id="3448086340637592206">Persyaratan Tambahan Decentr dan Chrome OS</translation>
 <translation id="3448492834076427715">Perbarui akun</translation>
 <translation id="3449393517661170867">Jendela dengan tab baru</translation>
 <translation id="3449839693241009168">Tekan <ph name="SEARCH_KEY" /> untuk mengirimkan perintah ke <ph name="EXTENSION_NAME" /></translation>
@@ -2741,7 +2741,7 @@ dan Ctrl+Alt+Kurangi kecerahan untuk memperkecil.</translation>
 <translation id="3810973564298564668">Kelola</translation>
 <translation id="381202950560906753">Tambahkan lainnya</translation>
 <translation id="3812525830114410218">Sertifikat buruk</translation>
-<translation id="3813296892522778813">Buka <ph name="BEGIN_LINK_CHROMIUM" />bantuan Google Chrome<ph name="END_LINK_CHROMIUM" /> jika tidak dapat menemukan yang Anda cari</translation>
+<translation id="3813296892522778813">Buka <ph name="BEGIN_LINK_CHROMIUM" />bantuan Decentr<ph name="END_LINK_CHROMIUM" /> jika tidak dapat menemukan yang Anda cari</translation>
 <translation id="3813358687923336574">Bahasa yang digunakan untuk menerjemahkan halaman dan Jawaban Instan</translation>
 <translation id="3814529970604306954">Akun Sekolah</translation>
 <translation id="3816118180265633665">Warna Chrome</translation>
@@ -3415,7 +3415,7 @@ dan Ctrl+Alt+Kurangi kecerahan untuk memperkecil.</translation>
 <translation id="4544174279960331769">Avatar biru default</translation>
 <translation id="4545028762441890696">Untuk mengaktifkannya kembali, setujui izin baru:</translation>
 <translation id="4545759655004063573">Tidak dapat menyimpan karena izin tidak memadai. Simpan ke lokasi lain.</translation>
-<translation id="4546308221697447294">Akses dengan cepat menggunakan Google Chrome</translation>
+<translation id="4546308221697447294">Akses dengan cepat menggunakan Decentr</translation>
 <translation id="4546345569117159016">Tombol kanan</translation>
 <translation id="4546692474302123343">Masukan suara Asisten Google</translation>
 <translation id="4547659257713117923">Tidak Ada Tab dari Perangkat Lainnya</translation>
@@ -5215,7 +5215,7 @@ Anda dapat menetapkan beberapa tombol akses untuk tindakan ini.</translation>
 <translation id="6508248480704296122">Berkaitan dengan <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Aplikasi: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Lisensi Media</translation>
-<translation id="6513247462497316522">Google Chrome akan menggunakan data seluler jika Anda tidak terhubung ke jaringan lain.</translation>
+<translation id="6513247462497316522">Decentr akan menggunakan data seluler jika Anda tidak terhubung ke jaringan lain.</translation>
 <translation id="6514010653036109809">Perangkat yang tersedia:</translation>
 <translation id="6514565641373682518">Halaman ini telah menonaktifkan kursor mouse Anda.</translation>
 <translation id="6518014396551869914">Sali&amp;n gambar</translation>
@@ -7162,7 +7162,7 @@ Simpan file kunci Anda di tempat yang aman. Anda akan membutuhkannya untuk membu
 <translation id="8553342806078037065">Kelola orang lain</translation>
 <translation id="8554899698005018844">Tidak ada bahasa</translation>
 <translation id="8557022314818157177">Terus sentuh kunci keamanan Anda hingga sidik jari terekam</translation>
-<translation id="8557180006508471423">Aktifkan "Google Chrome" di Layanan Lokasi pada Mac</translation>
+<translation id="8557180006508471423">Aktifkan "Decentr" di Layanan Lokasi pada Mac</translation>
 <translation id="8557930019681227453">Manifes</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Buka Semua di &amp;Jendela Baru}=1{Buka di &amp;Jendela Baru}other{Buka Semua ({COUNT}) di &amp;Jendela Baru}}</translation>
 <translation id="8561206103590473338">Gajah</translation>

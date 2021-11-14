@@ -869,7 +869,7 @@ A(z) <ph name="DOMAIN" /> megköveteli, hogy ne távolítsa el az intelligens k�
 <translation id="1865769994591826607">Csak egyező webhelyek kapcsolata esetén</translation>
 <translation id="186612162884103683">A(z) „<ph name="EXTENSION" />” olvashat és írhat képeket, videókat és hangfájlokat a megjelölt helyeken.</translation>
 <translation id="1867780286110144690">A <ph name="PRODUCT_NAME" /> készen áll a telepítés befejezésére</translation>
-<translation id="1868553836791672080">A Jelszóellenőrzés nem áll rendelkezésre Chromium böngészőben</translation>
+<translation id="1868553836791672080">A Jelszóellenőrzés nem áll rendelkezésre Decentr böngészőben</translation>
 <translation id="1869433484041798909">Könyvjelző gomb</translation>
 <translation id="1871098866036088250">Megnyitás a Chrome böngészőben</translation>
 <translation id="187145082678092583">Kevesebb alkalmazás</translation>
@@ -1069,7 +1069,7 @@ Ha kezelni szeretné a fiók beállításait, telepítse eszközére a Family Li
 <translation id="2087822576218954668">Nyomtatás: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">A regisztráció csak a következő rendszer telepítése után támogatott: <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Bármikor visszajuthat a kezdőképernyőre, csak csúsztassa fel ujját a képernyő aljától.</translation>
-<translation id="2089566709556890888">Biztonságos böngészés a Google Chrome-mal</translation>
+<translation id="2089566709556890888">Biztonságos böngészés a Decentr-mal</translation>
 <translation id="2089795179672254991">Kérdezzen meg, amikor az adott webhely szeretné megtekinteni a vágólapra másolt szövegeket és képeket (ajánlott)</translation>
 <translation id="2090165459409185032">Fiókadatainak helyreállításához lépjen a következő oldalra: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Automatikus csatlakozás bejelentkezéskor</translation>
@@ -1670,7 +1670,7 @@ Ha kezelni szeretné a fiók beállításait, telepítse eszközére a Family Li
 <translation id="2701330563083355633">Megosztva a következő eszközről: <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Bejelentkezés, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Olvasási lista</translation>
-<translation id="270358213449696159">Google Chrome OS – A Szerződési Feltételek tartalma</translation>
+<translation id="270358213449696159">Decentr OS – A Szerződési Feltételek tartalma</translation>
 <translation id="270414148003105978">Mobilhálózatok</translation>
 <translation id="2704184184447774363">Microsoft dokumentum-aláírás</translation>
 <translation id="270516211545221798">Érintőpad sebessége</translation>
@@ -2384,7 +2384,7 @@ A(z) <ph name="DOMAIN" /> megköveteli, hogy ne távolítsa el az intelligens k�
 <translation id="344630545793878684">Adatok beolvasása számos webhelyen</translation>
 <translation id="3446650212859500694">Ebben a fájlban bizalmas tartalom található.</translation>
 <translation id="3446827946208017735">Egyetlen helyen ismerheti meg és tekintheti át a legfontosabb adatvédelmi beállításokat.</translation>
-<translation id="3448086340637592206">A Google Chrome és a Chrome OS Kiegészítő Általános Szerződési Feltételei</translation>
+<translation id="3448086340637592206">A Decentr és a Chrome OS Kiegészítő Általános Szerződési Feltételei</translation>
 <translation id="3448492834076427715">Fiók frissítése</translation>
 <translation id="3449393517661170867">Új ablak lapokkal</translation>
 <translation id="3449839693241009168">Nyomja meg a(z) <ph name="SEARCH_KEY" /> billentyűt a parancsok elküldéséhez a következőre: <ph name="EXTENSION_NAME" /></translation>
@@ -2739,7 +2739,7 @@ A(z) <ph name="DOMAIN" /> megköveteli, hogy ne távolítsa el az intelligens k�
 <translation id="3810973564298564668">Kezelés</translation>
 <translation id="381202950560906753">Még egy hozzáadása</translation>
 <translation id="3812525830114410218">Helytelen tanúsítvány</translation>
-<translation id="3813296892522778813">Ha nem találja, amit keres, próbálkozzon a <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome súgójában<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Ha nem találja, amit keres, próbálkozzon a <ph name="BEGIN_LINK_CHROMIUM" />Decentr súgójában<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Az oldalak és a gyors válaszok lefordításához használni kívánt nyelv</translation>
 <translation id="3814529970604306954">Iskolai fiók</translation>
 <translation id="3816118180265633665">Chrome-színek</translation>
@@ -3412,7 +3412,7 @@ Elindítja a következőt: <ph name="CONTROL_PANEL_APPLET_NAME" />?</translation
 <translation id="4544174279960331769">Alapértelmezett kék avatar</translation>
 <translation id="4545028762441890696">Ha szeretné újra engedélyezni, el kell fogadnia az új engedélyeket:</translation>
 <translation id="4545759655004063573">Nem lehet menteni, mert nincs elegendő jogosultság. Kérjük, mentse másik helyre.</translation>
-<translation id="4546308221697447294">Gyors böngészés a Google Chrome-mal</translation>
+<translation id="4546308221697447294">Gyors böngészés a Decentr-mal</translation>
 <translation id="4546345569117159016">Jobb egérgomb</translation>
 <translation id="4546692474302123343">Google Segéd-hangbevitel</translation>
 <translation id="4547659257713117923">Nincs más eszközről származó lap</translation>
@@ -5214,7 +5214,7 @@ A(z) <ph name="DOMAIN" /> megköveteli, hogy ne távolítsa el az intelligens k�
 <translation id="6508248480704296122">Kapcsolódik a következőhöz: <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Alkalmazás: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Médiaengedély</translation>
-<translation id="6513247462497316522">A Google Chrome mobil-adatforgalmat fog használni, ha nem kapcsolódik másik hálózathoz.</translation>
+<translation id="6513247462497316522">A Decentr mobil-adatforgalmat fog használni, ha nem kapcsolódik másik hálózathoz.</translation>
 <translation id="6514010653036109809">Rendelkezésre álló eszköz:</translation>
 <translation id="6514565641373682518">Ez az oldal letiltotta az egérmutatóját.</translation>
 <translation id="6518014396551869914">Ké&amp;p másolása</translation>
@@ -7160,7 +7160,7 @@ A kulcsfájlt tartsa biztonságos helyen. Szüksége lesz rá ahhoz, hogy új ve
 <translation id="8553342806078037065">Más személyek kezelése</translation>
 <translation id="8554899698005018844">Nincs nyelv</translation>
 <translation id="8557022314818157177">Érintse meg többször a biztonsági kulcsot, amíg meg nem történik az ujjlenyomat rögzítése.</translation>
-<translation id="8557180006508471423">Kapcsolja be a „Google Chrome” böngészőt Mac típusú számítógépének Helyszolgáltatások menüjében.</translation>
+<translation id="8557180006508471423">Kapcsolja be a „Decentr” böngészőt Mac típusú számítógépének Helyszolgáltatások menüjében.</translation>
 <translation id="8557930019681227453">Jegyzék</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Összes megnyitása &amp;új ablakban}=1{Megnyitás &amp;új ablakban}other{Összes ({COUNT}) megnyitása &amp;új ablakban}}</translation>
 <translation id="8561206103590473338">Elefánt</translation>

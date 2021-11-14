@@ -858,7 +858,7 @@
 <translation id="1865769994591826607">Només les connexions dins del mateix lloc</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" pot llegir imatges, vídeos i fitxers d'àudio de les ubicacions marcades, així com escriure-hi.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> està llest per completar la instal·lació</translation>
-<translation id="1868553836791672080">La comprovació de contrasenyes no està disponible a Chromium</translation>
+<translation id="1868553836791672080">La comprovació de contrasenyes no està disponible a Decentr</translation>
 <translation id="1869433484041798909">Botó d'adreça d'interès</translation>
 <translation id="1871098866036088250">Obre al navegador Chrome</translation>
 <translation id="187145082678092583">Menys aplicacions</translation>
@@ -1058,7 +1058,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2087822576218954668">Impressió: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">La inscripció només s'admet després que instal·lis <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Per anar a la pantalla d'inici en qualsevol moment, llisca cap amunt des de la part inferior.</translation>
-<translation id="2089566709556890888">Navega de manera segura amb Google Chrome</translation>
+<translation id="2089566709556890888">Navega de manera segura amb Decentr</translation>
 <translation id="2089795179672254991">Pregunta'm quan un lloc web vulgui veure el text i les imatges copiats al porta-retalls (opció recomanada)</translation>
 <translation id="2090165459409185032">Per recuperar la informació del compte, accediu a: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Es connecta automàticament quan inicies la sessió</translation>
@@ -1655,7 +1655,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2701330563083355633">S'ha compartit des del dispositiu <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Inicia la sessió, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Llista de lectura</translation>
-<translation id="270358213449696159">Contingut de les Condicions de Google Chrome OS</translation>
+<translation id="270358213449696159">Contingut de les Condicions de Decentr OS</translation>
 <translation id="270414148003105978">Xarxes mòbils</translation>
 <translation id="2704184184447774363">Signatura de documents de Microsoft</translation>
 <translation id="270516211545221798">Velocitat del ratolí tàctil</translation>
@@ -2722,7 +2722,7 @@ i Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="3810973564298564668">Gestiona</translation>
 <translation id="381202950560906753">Afegeix-ne una altra</translation>
 <translation id="3812525830114410218">Certificat incorrecte</translation>
-<translation id="3813296892522778813">Si no trobes el que busques, ves a l'<ph name="BEGIN_LINK_CHROMIUM" />ajuda de Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Si no trobes el que busques, ves a l'<ph name="BEGIN_LINK_CHROMIUM" />ajuda de Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Idioma utilitzat per traduir pàgines i per a les Respostes ràpides</translation>
 <translation id="3814529970604306954">Compte de centre educatiu</translation>
 <translation id="3816118180265633665">Colors de Chrome</translation>
@@ -3394,7 +3394,7 @@ i Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="4544174279960331769">Avatar blau predeterminat</translation>
 <translation id="4545028762441890696">Per tornar-la a activar, accepta els permisos nous:</translation>
 <translation id="4545759655004063573">No es pot desar perquè no hi ha prou permisos. Deseu-ho en un altre lloc.</translation>
-<translation id="4546308221697447294">Navega ràpidament amb Google Chrome</translation>
+<translation id="4546308221697447294">Navega ràpidament amb Decentr</translation>
 <translation id="4546345569117159016">Botó dret</translation>
 <translation id="4546692474302123343">Entrada de veu de l'Assistent de Google</translation>
 <translation id="4547659257713117923">Cap pestanya d'altres dispositius</translation>
@@ -5195,7 +5195,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6508248480704296122">Relacionada amb <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Aplicació: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Llicència per a recursos multimèdia</translation>
-<translation id="6513247462497316522">Google Chrome utilitzarà dades mòbils si no esteu connectat a una altra xarxa.</translation>
+<translation id="6513247462497316522">Decentr utilitzarà dades mòbils si no esteu connectat a una altra xarxa.</translation>
 <translation id="6514010653036109809">Dispositiu disponible:</translation>
 <translation id="6514565641373682518">Aquesta pàgina ha desactivat el cursor del ratolí.</translation>
 <translation id="6518014396551869914">Copia&amp; la imatge</translation>
@@ -7143,7 +7143,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8553342806078037065">Gestiona altres usuaris</translation>
 <translation id="8554899698005018844">Cap idioma</translation>
 <translation id="8557022314818157177">Continua tocant la clau de seguretat fins que es capturi l'empremta digital</translation>
-<translation id="8557180006508471423">Activa Google Chrome als serveis d'ubicació del Mac.</translation>
+<translation id="8557180006508471423">Activa Decentr als serveis d'ubicació del Mac.</translation>
 <translation id="8557930019681227453">Fitxer de manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Obre-les totes en una finestra &amp;nova}=1{Obre en una finestra &amp;nova}other{Obre-les totes ({COUNT}) en una finestra &amp;nova}}</translation>
 <translation id="8561206103590473338">Elefant</translation>

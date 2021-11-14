@@ -855,7 +855,7 @@
 <translation id="1865769994591826607">उही-साइटका जडानहरू मात्र</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" ले जाँच गरिएका स्थानहरूमा रहेका फोटो, भिडियो, र ध्वनि फाइलहरू पढ्न र लेख्न सक्छ।</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> ले तपाइँको स्थापना पूर्ण गर्न तैयार छ</translation>
-<translation id="1868553836791672080">Chromium मा पासवर्ड जाँच गर्ने सुविधा उपलब्ध छैन</translation>
+<translation id="1868553836791672080">Decentr मा पासवर्ड जाँच गर्ने सुविधा उपलब्ध छैन</translation>
 <translation id="1869433484041798909">बुकमार्क बटन</translation>
 <translation id="1871098866036088250">Chrome ब्राउजरमा खोलियोस्</translation>
 <translation id="187145082678092583">अझ थोरै एपहरू</translation>
@@ -1055,7 +1055,7 @@
 <translation id="2087822576218954668">प्रिन्ट: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">तपाईंले <ph name="DEVICE_OS" /> इन्स्टल गरेपछि मात्र दर्ता गर्न मिल्छ।</translation>
 <translation id="208928984520943006">जुनसुकै बेला गृह स्क्रिनमा जान तलबाट माथितिर स्वाइप गर्नुहोस्।</translation>
-<translation id="2089566709556890888">Google Chrome मार्फत सुरक्षित ब्राउज गर्नुहोस्</translation>
+<translation id="2089566709556890888">Decentr मार्फत सुरक्षित ब्राउज गर्नुहोस्</translation>
 <translation id="2089795179672254991">कुनै साइटले क्लिपबोर्डमा प्रतिलिपि गरिएका पाठ र छवि हेर्न चाहेको बेला सोध्नुहोस् (सिफारिस गरिएको)</translation>
 <translation id="2090165459409185032">तपाईँको खाता जानकारी पुनःप्राप्ति गर्न google.com/accounts/recovery मा जानुहोस्</translation>
 <translation id="2090507354966565596">तपाईंले लग इन गरेपछि स्वतः कनेक्ट हुन्छ</translation>
@@ -1653,7 +1653,7 @@
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" /> ले आदान प्रदान गरेको</translation>
 <translation id="2701737434167469065">साइन इन गर्नुहोस्, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">पाठ्य सूची</translation>
-<translation id="270358213449696159">Google Chrome OS का सामग्रीहरूका सर्तहरू</translation>
+<translation id="270358213449696159">Decentr OS का सामग्रीहरूका सर्तहरू</translation>
 <translation id="270414148003105978">मोबाइल नेटवर्कहरू</translation>
 <translation id="2704184184447774363">Microsoft दस्तावेज हस्ताक्षरित</translation>
 <translation id="270516211545221798">टचप्याडको गति</translation>
@@ -2054,7 +2054,7 @@
 <translation id="3090819949319990166">बाह्य सिआरएक्स फाइललाई <ph name="TEMP_CRX_FILE" /> मा प्रतिलिपि गर्न सकिएन।</translation>
 <translation id="3090871774332213558">"<ph name="DEVICE_NAME" />" जोडि मिलाईयो</translation>
 <translation id="3093714882666365141">साइटहरूलाई भुक्तानी ह्यान्ड्लर इन्स्टल गर्ने अनुमति नदिइयोस्</translation>
-<translation id="3094141017404513551">तपाईंले नयाँ Chromium प्रोफाइल प्रयोग गर्नुभयो भने तपाईंको ब्राउजिङ इतिहास र <ph name="EXISTING_USER" /> को ब्राउजिङ इतिहास छुट्टाछुट्टै सुरक्षित गरिने छ</translation>
+<translation id="3094141017404513551">तपाईंले नयाँ Decentr प्रोफाइल प्रयोग गर्नुभयो भने तपाईंको ब्राउजिङ इतिहास र <ph name="EXISTING_USER" /> को ब्राउजिङ इतिहास छुट्टाछुट्टै सुरक्षित गरिने छ</translation>
 <translation id="3095871294753148861">बुकमार्क, पासवर्ड र ब्राउजरसम्बन्धी अन्य डेटा प्राथमिक खातामा सिंक गरिन्छन्।</translation>
 <translation id="3099836255427453137">{NUM_EXTENSIONS,plural, =1{हानिकारक हुन सक्ने १ एक्स्टेन्सन निष्क्रिय पारिएको छ। तपाईं यसलाई हटाउन पनि सक्नुहुन्छ।}other{हानिकारक हुन सक्ने {NUM_EXTENSIONS} एक्स्टेन्सनहरू निष्क्रिय पारिएका छन्। तपाईं तिनीहरूलाई हटाउन पनि सक्नुहुन्छ।}}</translation>
 <translation id="3101126716313987672">मधुरो प्रकाश</translation>
@@ -2369,7 +2369,7 @@
 <translation id="344630545793878684">विभिन्न वेबसाइटहरूमा तपाईँको डेटा पढ्नुहोस्</translation>
 <translation id="3446650212859500694">यो फाइलमा संवेदनशील सामग्री छ</translation>
 <translation id="3446827946208017735">एकै ठाउँबाट गोपनीयतासम्बन्धी सबैभन्दा महत्त्वपूर्ण सेटिङका बारेमा जानकारी प्राप्त गर्नुहोस् र ती सेटिङको समीक्षा गर्नुहोस्</translation>
-<translation id="3448086340637592206">Google Chrome र Chrome OS का अतिरिक्त सर्तहरू</translation>
+<translation id="3448086340637592206">Decentr र Chrome OS का अतिरिक्त सर्तहरू</translation>
 <translation id="3448492834076427715">खाता अपडेट गर्नुहोस्</translation>
 <translation id="3449393517661170867">नयाँ ट्याबमा खोलिएको विन्डो</translation>
 <translation id="3449839693241009168"><ph name="EXTENSION_NAME" /> लाई आदेशहरू पठाउनको लागि <ph name="SEARCH_KEY" /> थिच्नुहोस्</translation>
@@ -2724,7 +2724,7 @@
 <translation id="3810973564298564668">व्यवस्थित गर्नुहोस्</translation>
 <translation id="381202950560906753">अर्को थप्नुहोस्</translation>
 <translation id="3812525830114410218">खराब प्रमाणपत्र</translation>
-<translation id="3813296892522778813">आफूले खोजी गरेका वस्तुहरू भेट्टाउनु भएन भने <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome सम्बन्धी मद्दत<ph name="END_LINK_CHROMIUM" /> मा जानुहोस्</translation>
+<translation id="3813296892522778813">आफूले खोजी गरेका वस्तुहरू भेट्टाउनु भएन भने <ph name="BEGIN_LINK_CHROMIUM" />Decentr सम्बन्धी मद्दत<ph name="END_LINK_CHROMIUM" /> मा जानुहोस्</translation>
 <translation id="3813358687923336574">पेज अनुवाद गर्न र द्रुत जवाफ देखाउन प्रयोग गरिने भाषा</translation>
 <translation id="3814529970604306954">विद्यालयको खाता</translation>
 <translation id="3816118180265633665">Chrome का रङ्गहरू</translation>
@@ -3396,7 +3396,7 @@
 <translation id="4544174279960331769">डिफल्ट निलो अवतार</translation>
 <translation id="4545028762441890696">यसलाई पुनः सक्षम पार्न नयाँ अनुमतिहरू स्वीकार गर्नुहोस्:</translation>
 <translation id="4545759655004063573">अपुग्दो अनुमतिहरूको कारणले गर्दा बचत गर्न सक्दैन। कृपया अर्को स्थानमा बचत गर्नुहोस्।</translation>
-<translation id="4546308221697447294">Google Chrome मार्फत छिटो ब्राउज गर्नुहोस्</translation>
+<translation id="4546308221697447294">Decentr मार्फत छिटो ब्राउज गर्नुहोस्</translation>
 <translation id="4546345569117159016">दायाँतिरको बटन</translation>
 <translation id="4546692474302123343">Google सहायकमा बोलेर टाइप गर्ने सुविधा</translation>
 <translation id="4547659257713117923">अन्य यन्त्रहरूबाट कुनै ट्याबहरू छैनन्</translation>
@@ -4147,7 +4147,7 @@
 <translation id="5370819323174483825">पुन: लोड गर्नुहोस्</translation>
 <translation id="5372529912055771682">आपूर्ति गरिएएको नामांकन मोडलाई यो संस्करणको अपरेटिङ सिस्टमले समर्थन गर्दैन।  कृपया तपाईंले सबैभन्दा नयाँ संस्करण चलाईरहनुभएको छ भनि सुनिश्चित गर्नुहोस् र पुन: प्रयास गर्नुहोस्।</translation>
 <translation id="5372579129492968947">एक्स्टेन्सन अनपिन गर्नुहोस्</translation>
-<translation id="5372632722660566343">कुनै खातामा साइन इन नगरिकनै Chromium चलाउनुहोस्</translation>
+<translation id="5372632722660566343">कुनै खातामा साइन इन नगरिकनै Decentr चलाउनुहोस्</translation>
 <translation id="5375318608039113175">नजिकैका डिभाइससँग सेयर गर्ने सुविधा प्रयोग गरी सम्पर्क सूचीमा भएका यी मान्छेहरूसँग सेयर गर्न आफ्नो सम्पर्क सूचीमा उनीहरूको Google खातामा लिंक गरिएको इमेल ठेगाना हाल्नुहोस्।</translation>
 <translation id="5376169624176189338">पछि जानको लागि क्लिक गर्नुहोस्, इतिहास हर्न होल्ड गर्नुहोस्</translation>
 <translation id="5376354385557966694">स्वचालित उज्यालो मोड</translation>
@@ -5195,7 +5195,7 @@
 <translation id="6508248480704296122"><ph name="NAME_PH" /> सँग सम्बन्धित</translation>
 <translation id="6508261954199872201">एप: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">मिडियाको इजाजत पत्र</translation>
-<translation id="6513247462497316522">यदि तपाइँ अर्को सञ्जालमा जडित हुनुहुन्न भने Google Chrome ले मोबाइल लगत प्रयोग गर्ने छ।</translation>
+<translation id="6513247462497316522">यदि तपाइँ अर्को सञ्जालमा जडित हुनुहुन्न भने Decentr ले मोबाइल लगत प्रयोग गर्ने छ।</translation>
 <translation id="6514010653036109809">उपलब्ध यन्त्र:</translation>
 <translation id="6514565641373682518">यस पृष्ठले तपाइँको माउस कर्सरलाई असक्षम गरेको छ।</translation>
 <translation id="6518014396551869914">छविको प्रति&amp;लिपि बनाउनुहोस्</translation>
@@ -7141,7 +7141,7 @@
 <translation id="8553342806078037065">अन्य व्यक्तिहरूलाई व्यवस्थापन गर्नुहोस्</translation>
 <translation id="8554899698005018844">कुनै पनि भाषा छैन</translation>
 <translation id="8557022314818157177">तपाईंको फिंगरप्रिन्ट नथपिँदासम्म आफ्नो सुरक्षा साँचोमा छोइरहनुहोस्</translation>
-<translation id="8557180006508471423">Mac को लोकेसन सेवाहरूमा गई "Google Chrome" अन गर्नुहोस्</translation>
+<translation id="8557180006508471423">Mac को लोकेसन सेवाहरूमा गई "Decentr" अन गर्नुहोस्</translation>
 <translation id="8557930019681227453">म्यानिफेस्ट</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{सबै URL &amp;नयाँ विन्डोमा खोल्नुहोस्}=1{&amp;नयाँ विन्डोमा खोल्नुहोस्}other{सबै URL ({COUNT}) &amp;नयाँ विन्डोमा खोल्नुहोस्}}</translation>
 <translation id="8561206103590473338">हात्ती</translation>

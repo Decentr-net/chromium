@@ -94,7 +94,7 @@
     Site information is not available in VR
   </message>
   <message name="IDS_VR_SHELL_AUDIO_PERMISSION_PROMPT_DESCRIPTION" desc="Text on the exit prompt in VR that shows up when the user needs to grant audio permission to Chrome">
-    Allow Chrome to record audio?
+    Allow Decentr to record audio?
   </message>
   <message name="IDS_VR_SHELL_AUDIO_PERMISSION_PROMPT_ABORT_BUTTON" desc="Text on the cancel button of the prompt that shows up in VR when user needs to grant audio permission to Chrome">
     Cancel

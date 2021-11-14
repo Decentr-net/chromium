@@ -857,13 +857,13 @@
 <translation id="1865769994591826607">Faqat bir saytga ulanishlar</translation>
 <translation id="186612162884103683">“<ph name="EXTENSION" />” kengaytmasi belgilangan jildlarda rasm, audio va video fayllarni o‘qishi va o‘zgartirishi mumkin.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> o‘rnatish jarayonini tugatishga tayyor</translation>
-<translation id="1868553836791672080">Chromiumda parollar tekshiruvi ishlamaydi</translation>
+<translation id="1868553836791672080">Decentrda parollar tekshiruvi ishlamaydi</translation>
 <translation id="1869433484041798909">Bukmark tugmasi</translation>
 <translation id="1871098866036088250">Chrome brauzerida ochish</translation>
 <translation id="187145082678092583">Kamroq ilovalar</translation>
 <translation id="1871534214638631766">Ustiga oʻng klik yoki biroz bosib turilsa, tegishli axborot chiqsin</translation>
 <translation id="1871569928317311284">Tungi mavzuni faolsizlantirish</translation>
-<translation id="1871615898038944731"><ph name="DEVICE_TYPE" /> qurilmangizdagi Chromium OS versiyasi yangi</translation>
+<translation id="1871615898038944731"><ph name="DEVICE_TYPE" /> qurilmangizdagi Decentr OS versiyasi yangi</translation>
 <translation id="1874248162548993294">Reklama chiqarishga ruxsat berilgan</translation>
 <translation id="1874972853365565008">{NUM_TABS,plural, =1{Varaqni boshqa oynaga olish}other{Varaqlarni boshqa oynaga olish}}</translation>
 <translation id="1875386316419689002">Bu varaq HID qurilmaga ulangan.</translation>
@@ -1057,7 +1057,7 @@ Oʻz qurilmangizda Family Link ilovasini oʻrnatib, bu hisob sozlamalarini boshq
 <translation id="2087822576218954668">Chop etish: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196"><ph name="DEVICE_OS" /> oʻrnatilgandan keyin roʻyxatdan oʻtish mumkin.</translation>
 <translation id="208928984520943006">Istalgan vaqtda bosh ekranga qaytish uchun pastdan tepaga suring.</translation>
-<translation id="2089566709556890888">Google Chrome yordamida internetda xavfsiz ishlaysiz</translation>
+<translation id="2089566709556890888">Decentr yordamida internetda xavfsiz ishlaysiz</translation>
 <translation id="2089795179672254991">Saytlar klipbordga nusxalangan matn va rasmlarni ko‘rmoqchi bo‘lganda xabar berilsin (tavsiya etiladi)</translation>
 <translation id="2090165459409185032">Hisob ma’lumotini tiklash uchun bu yerga o‘ting: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Hisobga kirilganda avtomatik ulanadi</translation>
@@ -1658,7 +1658,7 @@ Oʻz qurilmangizda Family Link ilovasini oʻrnatib, bu hisob sozlamalarini boshq
 <translation id="2701330563083355633"><ph name="DEVICE_NAME" /> orqali ulashilgan</translation>
 <translation id="2701737434167469065">Kirish, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Mutolaa ro‘yxati</translation>
-<translation id="270358213449696159">Google Chrome OS shartlari</translation>
+<translation id="270358213449696159">Decentr OS shartlari</translation>
 <translation id="270414148003105978">Mobil tarmoqlar</translation>
 <translation id="2704184184447774363">Microsoft hujjatlari imzosi</translation>
 <translation id="270516211545221798">Kursor tezligi (sensorli panel uchun)</translation>
@@ -2373,7 +2373,7 @@ kichiklashtirish uchun Ctrl+Alt+Yorqinlikni pasaytirish tugmalarini bosing.</tra
 <translation id="344630545793878684">Bir nechta saytlardagi ma’lumotlarni ko‘rish</translation>
 <translation id="3446650212859500694">Bu faylda maxfiy kontent bor</translation>
 <translation id="3446827946208017735">Eng muhim maxfiylik sozlamalari bilan tanishing va bir joyda koʻrib chiqing</translation>
-<translation id="3448086340637592206">Google Chrome va Chrome OS qoʻshimcha shartlari</translation>
+<translation id="3448086340637592206">Decentr va Chrome OS qoʻshimcha shartlari</translation>
 <translation id="3448492834076427715">Hisobni yangilash</translation>
 <translation id="3449393517661170867">Varaqlari bor yangi oyna</translation>
 <translation id="3449839693241009168"><ph name="EXTENSION_NAME" /> kengaytmasiga buyruq jo‘natish uchun <ph name="SEARCH_KEY" /> tugmasini bosing</translation>
@@ -2728,7 +2728,7 @@ kichiklashtirish uchun Ctrl+Alt+Yorqinlikni pasaytirish tugmalarini bosing.</tra
 <translation id="3810973564298564668">Sozlash</translation>
 <translation id="381202950560906753">Yana qo‘shish</translation>
 <translation id="3812525830114410218">Sertifikat buzilgan</translation>
-<translation id="3813296892522778813">Agar qidirayotgan narsangiz topilmagan bo‘lsa, <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome yordam markazi<ph name="END_LINK_CHROMIUM" /> sahifasiga o‘ting</translation>
+<translation id="3813296892522778813">Agar qidirayotgan narsangiz topilmagan bo‘lsa, <ph name="BEGIN_LINK_CHROMIUM" />Decentr yordam markazi<ph name="END_LINK_CHROMIUM" /> sahifasiga o‘ting</translation>
 <translation id="3813358687923336574">Tildan sahifalarni tarjima qilish va tezkor javoblar uchun foydalaniladi</translation>
 <translation id="3814529970604306954">Maktab hisobi</translation>
 <translation id="3816118180265633665">Chrome ranglari</translation>
@@ -3402,7 +3402,7 @@ kichiklashtirish uchun Ctrl+Alt+Yorqinlikni pasaytirish tugmalarini bosing.</tra
 <translation id="4544174279960331769">Standart ko‘k avatar</translation>
 <translation id="4545028762441890696">Uni qayta ishga tushirish uchun yangi ruxsatlarga rozi bo‘lishingiz lozim:</translation>
 <translation id="4545759655004063573">Ruxsat yo‘qligi tufayli saqlab bo‘lmadi. Boshqa jildni tanlang.</translation>
-<translation id="4546308221697447294">Google Chrome yordamida internet tezligi oshadi</translation>
+<translation id="4546308221697447294">Decentr yordamida internet tezligi oshadi</translation>
 <translation id="4546345569117159016">Oʻng tugma</translation>
 <translation id="4546692474302123343">Google Assistentda ovoz bilan yozish</translation>
 <translation id="4547659257713117923">Boshqa qurilmalarda ochilgan tablar yo‘q</translation>
@@ -4103,7 +4103,7 @@ kichiklashtirish uchun Ctrl+Alt+Yorqinlikni pasaytirish tugmalarini bosing.</tra
 <translation id="5311565231560644461">Saytlarga virtual reallik qurilmalari yoki maʼlumotlardan foydalanishni taqiqlash</translation>
 <translation id="5315738755890845852">Oʻng figurali qavs ortiqcha: <ph name="ERROR_LINE" /></translation>
 <translation id="5317780077021120954">Saqlash</translation>
-<translation id="5319359161174645648">Google Chrome brauzerini  tavsiya qiladi</translation>
+<translation id="5319359161174645648">Decentr brauzerini  tavsiya qiladi</translation>
 <translation id="5319712128756744240">Yangi qurilmani ulash</translation>
 <translation id="5320135788267874712">Yangi qurilma nomi</translation>
 <translation id="532043380734099846">Qurilma <ph name="DEVICE_INDEX" />/<ph name="DEVICE_COUNT" />, <ph name="DEVICE_NAME" />, Sichqoncha, Batareya quvvati: <ph name="BATTERY_PERCENTAGE" />%</translation>
@@ -5202,7 +5202,7 @@ Ochiq eksponenta (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bit):
 <translation id="6508248480704296122"><ph name="NAME_PH" /> bilan aloqador</translation>
 <translation id="6508261954199872201">Ilova: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Litsenziyalar</translation>
-<translation id="6513247462497316522">Boshqa tarmoqqa ulanish yo‘qligida, Google Chrome mobil internet tarmog‘idan foydalanadi.</translation>
+<translation id="6513247462497316522">Boshqa tarmoqqa ulanish yo‘qligida, Decentr mobil internet tarmog‘idan foydalanadi.</translation>
 <translation id="6514010653036109809">Mavjud qurilma:</translation>
 <translation id="6514565641373682518">Ushbu sahifa sichqoncha kursorini o‘chirib qo‘ydi.</translation>
 <translation id="6518014396551869914">Rasmni &amp;nusxalash</translation>
@@ -6650,7 +6650,7 @@ Kalit faylini ishonchli joyda saqlang. U kengaytmaning yangi versiyalarini yarat
 <translation id="8008356846765065031">Tarmoqqa ulanib bo‘lmadi. Internetga ulanish sozlamalarini tekshiring.</translation>
 <translation id="8009225694047762179">Parollarni boshqarish</translation>
 <translation id="8012647001091218357">Aynan hozir ota-onangiz bilan bog‘lanib bo‘lmadi. Qayta urinib ko‘ring.</translation>
-<translation id="8013993649590906847">Agar rasmga foydali tavsif berilmagan boʻlsa, Google Chrome uni sizga tavsiflaydi. Tavsif yaratish uchun rasmlar Googlega yuboriladi.</translation>
+<translation id="8013993649590906847">Agar rasmga foydali tavsif berilmagan boʻlsa, Decentr uni sizga tavsiflaydi. Tavsif yaratish uchun rasmlar Googlega yuboriladi.</translation>
 <translation id="8014154204619229810">Yangilash vositasi ishlamoqda. Bir necha daqiqadan so‘ng qayta urinib ko‘ring.</translation>
 <translation id="8014206674403687691"><ph name="IDS_SHORT_PRODUCT_NAME" />‘ni avval o‘rnatilgan versiyaga qaytarish imkoniyati yo‘q. Powerwash funksiyasidan foydalanib ko‘ring.</translation>
 <translation id="8015163965024115122">Ota-onangiz tomonidan belgilangan <ph name="IDS_SHORT_PRODUCT_NAME" /> yoki <ph name="IDS_SHORT_PRODUCT_NAME" /> veb ilovalardan foydalanish vaqti tugadi.</translation>
@@ -7148,7 +7148,7 @@ Kalit faylini ishonchli joyda saqlang. U kengaytmaning yangi versiyalarini yarat
 <translation id="8553342806078037065">Boshqa foydalanuvchilarni boshqarish</translation>
 <translation id="8554899698005018844">Til tanlanmagan</translation>
 <translation id="8557022314818157177">Barmoq izi yozib olinguncha elektron kalitga teginib turing</translation>
-<translation id="8557180006508471423">Mac qurilmangizda “﻿Location Services” orqali “Google Chrome” brauzerini yoqing</translation>
+<translation id="8557180006508471423">Mac qurilmangizda “﻿Location Services” orqali “Decentr” brauzerini yoqing</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Barchasini &amp;yangi oynada ochish}=1{&amp;Yangi oynada ochish}other{Barchasini ({COUNT}) &amp;yangi oynada ochish}}</translation>
 <translation id="8561206103590473338">Fil</translation>

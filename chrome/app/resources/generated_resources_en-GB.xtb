@@ -870,7 +870,7 @@
 <translation id="1865769994591826607">Same-site connections only</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" can read and write images, video and sound files in the ticked locations.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> is ready to complete your installation</translation>
-<translation id="1868553836791672080">Password check is not available in Chromium</translation>
+<translation id="1868553836791672080">Password check is not available in Decentr</translation>
 <translation id="1869433484041798909">Bookmark button</translation>
 <translation id="1871098866036088250">Open in Chrome browser</translation>
 <translation id="187145082678092583">Fewer apps</translation>
@@ -1070,7 +1070,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="2087822576218954668">Print: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Enrolment is only supported after you install <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">To get to the home screen at any time, swipe up from the bottom.</translation>
-<translation id="2089566709556890888">Browse safely with Google Chrome</translation>
+<translation id="2089566709556890888">Browse safely with Decentr</translation>
 <translation id="2089795179672254991">Ask when a site wants to see text and images copied to the clipboard (recommended)</translation>
 <translation id="2090165459409185032">To recover your account information, go to: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Automatically connects when you log in</translation>
@@ -1671,7 +1671,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="2701330563083355633">Shared from <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Sign in, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Reading List</translation>
-<translation id="270358213449696159">Google Chrome OS Terms contents</translation>
+<translation id="270358213449696159">Decentr OS Terms contents</translation>
 <translation id="270414148003105978">Mobile networks</translation>
 <translation id="2704184184447774363">Microsoft Document Signing</translation>
 <translation id="270516211545221798">Touchpad speed</translation>
@@ -2384,7 +2384,7 @@ and Ctrl+Alt+Brightness down to zoom out.</translation>
 <translation id="344630545793878684">Read your data on a number of websites</translation>
 <translation id="3446650212859500694">This file has sensitive content</translation>
 <translation id="3446827946208017735">Understand and review the most critical privacy settings in one place</translation>
-<translation id="3448086340637592206">Google Chrome and Chrome OS additional terms</translation>
+<translation id="3448086340637592206">Decentr and Chrome OS additional terms</translation>
 <translation id="3448492834076427715">Update account</translation>
 <translation id="3449393517661170867">New tabbed window</translation>
 <translation id="3449839693241009168">Press <ph name="SEARCH_KEY" /> to send commands to <ph name="EXTENSION_NAME" /></translation>
@@ -2738,7 +2738,7 @@ and Ctrl+Alt+Brightness down to zoom out.</translation>
 <translation id="3810973564298564668">Manage</translation>
 <translation id="381202950560906753">Add another</translation>
 <translation id="3812525830114410218">Bad certificate</translation>
-<translation id="3813296892522778813">Go to <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome help<ph name="END_LINK_CHROMIUM" /> if you can't find what you're looking for</translation>
+<translation id="3813296892522778813">Go to <ph name="BEGIN_LINK_CHROMIUM" />Decentr help<ph name="END_LINK_CHROMIUM" /> if you can't find what you're looking for</translation>
 <translation id="3813358687923336574">Language used for translating pages and Quick Answers</translation>
 <translation id="3814529970604306954">School account</translation>
 <translation id="3816118180265633665">Chrome colours</translation>
@@ -3412,7 +3412,7 @@ and Ctrl+Alt+Brightness down to zoom out.</translation>
 <translation id="4544174279960331769">Default blue avatar</translation>
 <translation id="4545028762441890696">To re-enable it, accept the new permissions:</translation>
 <translation id="4545759655004063573">Cannot save due to insufficient permissions. Please save to another location.</translation>
-<translation id="4546308221697447294">Browse fast with Google Chrome</translation>
+<translation id="4546308221697447294">Browse fast with Decentr</translation>
 <translation id="4546345569117159016">Right button</translation>
 <translation id="4546692474302123343">Google Assistant voice input</translation>
 <translation id="4547659257713117923">No tabs from other devices</translation>
@@ -5211,7 +5211,7 @@ You can assign multiple switches to this action.</translation>
 <translation id="6508248480704296122">Related to <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">App: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Media licence</translation>
-<translation id="6513247462497316522">Google Chrome will use mobile data if you're not connected to another network.</translation>
+<translation id="6513247462497316522">Decentr will use mobile data if you're not connected to another network.</translation>
 <translation id="6514010653036109809">Available device:</translation>
 <translation id="6514565641373682518">This page has disabled your mouse cursor.</translation>
 <translation id="6518014396551869914">Cop&amp;y image</translation>
@@ -7158,7 +7158,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8553342806078037065">Manage other people</translation>
 <translation id="8554899698005018844">No language</translation>
 <translation id="8557022314818157177">Keep touching your security key until your fingerprint is captured</translation>
-<translation id="8557180006508471423">Turn on 'Google Chrome' in Location Services on your Mac</translation>
+<translation id="8557180006508471423">Turn on 'Decentr' in Location Services on your Mac</translation>
 <translation id="8557930019681227453">Manifest</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Open all in &amp;new window}=1{Open in &amp;new window}other{Open all ({COUNT}) in &amp;new window}}</translation>
 <translation id="8561206103590473338">Elephant</translation>

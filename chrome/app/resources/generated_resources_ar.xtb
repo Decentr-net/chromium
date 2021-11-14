@@ -862,7 +862,7 @@
 <translation id="1865769994591826607">اتصالات من نفس الموقع فقط</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" يمكنها قراءة ملفات الصور والفيديو والصوت وكتابتها في المواقع المحددة.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> جاهز لإكمال عملية التثبيت</translation>
-<translation id="1868553836791672080">‏لا تتوفّر ميزة "التحقُّق من كلمة المرور" في Chromium.</translation>
+<translation id="1868553836791672080">‏لا تتوفّر ميزة "التحقُّق من كلمة المرور" في Decentr.</translation>
 <translation id="1869433484041798909">زر وضع إشارة مرجعية</translation>
 <translation id="1871098866036088250">‏فتح في متصفّح Chrome</translation>
 <translation id="187145082678092583">عرض تطبيقات أقل</translation>
@@ -1062,7 +1062,7 @@
 <translation id="2087822576218954668">الطباعة: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">لن يُتاح التسجيل إلا بعد تثبيت نظام التشغيل <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">للوصول إلى الشاشة الرئيسية في أي وقت، مرّر سريعًا بإصبعك من أسفل الشاشة إلى أعلاها.</translation>
-<translation id="2089566709556890888">‏التصفح بأمان باستخدام Google Chrome</translation>
+<translation id="2089566709556890888">‏التصفح بأمان باستخدام Decentr</translation>
 <translation id="2089795179672254991">طلب الإذن عند محاولة أحد المواقع الاطلاع على النصوص والصور التي تم نسخها إلى الحافظة (موصى به)</translation>
 <translation id="2090165459409185032">‏لاسترداد معلومات حسابك، انتقل إلى: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">الاتصال تلقائيًا عند تسجيل الدخول</translation>
@@ -1660,7 +1660,7 @@
 <translation id="2701330563083355633">تمت المشاركة من <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">تسجيل الدخول، <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">قائمة القراءة</translation>
-<translation id="270358213449696159">‏محتوى بنود نظام التشغيل Google Chrome</translation>
+<translation id="270358213449696159">‏محتوى بنود نظام التشغيل Decentr</translation>
 <translation id="270414148003105978">شبكات الجوّال</translation>
 <translation id="2704184184447774363">‏توقيع المستند لـ Microsoft</translation>
 <translation id="270516211545221798">سرعة لوحة اللمس</translation>
@@ -2375,7 +2375,7 @@
 <translation id="344630545793878684">قراءة بياناتك على عدد من المواقع الإلكترونية</translation>
 <translation id="3446650212859500694">هذا الملف به محتوى حسّاس.</translation>
 <translation id="3446827946208017735">فهم الإعدادات المُهمّة للخصوصية ومراجعتها من مكان واحد</translation>
-<translation id="3448086340637592206">‏بنود الخدمة الإضافية لكلٍّ من متصفّح Google Chrome و"نظام التشغيل Chrome"</translation>
+<translation id="3448086340637592206">‏بنود الخدمة الإضافية لكلٍّ من متصفّح Decentr و"نظام التشغيل Chrome"</translation>
 <translation id="3448492834076427715">تحديث الحساب</translation>
 <translation id="3449393517661170867">نافذة ذات علامات تبويب جديدة</translation>
 <translation id="3449839693241009168">اضغط على <ph name="SEARCH_KEY" /> لإرسال الأوامر إلى <ph name="EXTENSION_NAME" /></translation>
@@ -2729,7 +2729,7 @@
 <translation id="3810973564298564668">إدارة</translation>
 <translation id="381202950560906753">إضافة بصمة إصبع أخرى</translation>
 <translation id="3812525830114410218">شهادة سيئة</translation>
-<translation id="3813296892522778813">‏يمكنك الانتقال إلى <ph name="BEGIN_LINK_CHROMIUM" />مساعدة Google Chrome<ph name="END_LINK_CHROMIUM" /> إذا لم تتمكن من العثور عما تبحث عنه</translation>
+<translation id="3813296892522778813">‏يمكنك الانتقال إلى <ph name="BEGIN_LINK_CHROMIUM" />مساعدة Decentr<ph name="END_LINK_CHROMIUM" /> إذا لم تتمكن من العثور عما تبحث عنه</translation>
 <translation id="3813358687923336574">اللغة المستخدمة لترجمة الصفحات وميزة "معلومات سريعة"</translation>
 <translation id="3814529970604306954">حساب المؤسسة التعليمية</translation>
 <translation id="3816118180265633665">‏ألوان Chrome</translation>
@@ -3399,7 +3399,7 @@
 <translation id="4544174279960331769">الصورة الرمزية التلقائية الزرقاء</translation>
 <translation id="4545028762441890696">لإعادة تفعليها ، اقبل الأذونات الجديدة:</translation>
 <translation id="4545759655004063573">لا يمكن الحفظ نظرًا لأن الأذونات غير كافية. يُرجى الحفظ في مكان آخر.</translation>
-<translation id="4546308221697447294">‏استمتع بالتصفح السريع باستخدام Google Chrome</translation>
+<translation id="4546308221697447294">‏استمتع بالتصفح السريع باستخدام Decentr</translation>
 <translation id="4546345569117159016">زر الماوس الأيمن</translation>
 <translation id="4546692474302123343">‏الإدخال الصوتي في "مساعد Google"</translation>
 <translation id="4547659257713117923">ليست هناك علامات تبويب من أجهزة أخرى</translation>
@@ -5198,7 +5198,7 @@
 <translation id="6508248480704296122">ذات صلة بـ <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">التطبيق: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">ترخيص الوسائط</translation>
-<translation id="6513247462497316522">‏سيستخدم Google Chrome بيانات الجوال إذا لم تكن متصلاً بشبكة أخرى.</translation>
+<translation id="6513247462497316522">‏سيستخدم Decentr بيانات الجوال إذا لم تكن متصلاً بشبكة أخرى.</translation>
 <translation id="6514010653036109809">الجهاز المتاح:</translation>
 <translation id="6514565641373682518">أوقفت هذه الصفحة مؤشر الماوس.</translation>
 <translation id="6518014396551869914">نس&amp;خ الصورة</translation>
@@ -7145,7 +7145,7 @@
 <translation id="8553342806078037065">إدارة الأشخاص الآخرين</translation>
 <translation id="8554899698005018844">بدون لغة</translation>
 <translation id="8557022314818157177">يُرجى الاستمرار في لمس مفتاح الأمان إلى أن يتم حِفظ بصمة الإصبع.</translation>
-<translation id="8557180006508471423">‏تفعيل "Google Chrome" في "خدمات الموقع الجغرافي" على جهاز يعمل بنظام التشغيل Mac</translation>
+<translation id="8557180006508471423">‏تفعيل "Decentr" في "خدمات الموقع الجغرافي" على جهاز يعمل بنظام التشغيل Mac</translation>
 <translation id="8557930019681227453">البيان</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{فتح كل العناوين في &amp;نافذة جديدة}=1{فتح في &amp;نافذة جديدة}two{فتح كِلا العنوانَين ({COUNT}) في &amp;نافذة جديدة}few{فتح كل الـ ({COUNT}) عناوين في &amp;نافذة جديدة}many{فتح كل الـ ({COUNT}) عنوانًا في &amp;نافذة جديدة}other{فتح كل الـ ({COUNT}) عنوان في &amp;نافذة جديدة}}</translation>
 <translation id="8561206103590473338">فيل</translation>

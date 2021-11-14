@@ -869,7 +869,7 @@
 <translation id="1865769994591826607">חיבורים מאותו אתר בלבד</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" יכול לקרוא ולכתוב קובצי תמונות, וידאו ואודיו במיקומים המסומנים.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> מוכן להשלים את ההתקנה שלך</translation>
-<translation id="1868553836791672080">‏בדיקת הסיסמאות לא זמינה ב-Chromium</translation>
+<translation id="1868553836791672080">‏בדיקת הסיסמאות לא זמינה ב-Decentr</translation>
 <translation id="1869433484041798909">לחצן סימניה</translation>
 <translation id="1871098866036088250">‏פתיחה בדפדפן Chrome</translation>
 <translation id="187145082678092583">פחות אפליקציות</translation>
@@ -1069,7 +1069,7 @@
 <translation id="2087822576218954668">הדפסה: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">הרישום אפשרי רק לאחר התקנה של <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">כדי לעבור למסך הבית בכל שלב, מחליקים כלפי מעלה מתחתית המסך.</translation>
-<translation id="2089566709556890888">‏גלישה בטוחה עם Google Chrome</translation>
+<translation id="2089566709556890888">‏גלישה בטוחה עם Decentr</translation>
 <translation id="2089795179672254991">יש לשאול כשאתר רוצה גישה אל טקסט ותמונות שהועתקו אל הלוח (מומלץ)</translation>
 <translation id="2090165459409185032">‏כדי לשחזר את המידע מהחשבון, יש לעבור אל: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">חיבור באופן אוטומטי עם ההתחברות</translation>
@@ -1670,7 +1670,7 @@
 <translation id="2701330563083355633">שותפה מהמכשיר <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">כניסה, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">רשימת קריאה</translation>
-<translation id="270358213449696159">‏תוכן התנאים של Google Chrome OS</translation>
+<translation id="270358213449696159">‏תוכן התנאים של Decentr OS</translation>
 <translation id="270414148003105978">רשתות סלולריות</translation>
 <translation id="2704184184447774363">‏חתימה על מסמכים של Microsoft</translation>
 <translation id="270516211545221798">מהירות לוח מגע</translation>
@@ -2384,7 +2384,7 @@
 <translation id="344630545793878684">קריאת הנתונים שלך במספר אתרים</translation>
 <translation id="3446650212859500694">הקובץ הזה מכיל תוכן רגיש</translation>
 <translation id="3446827946208017735">הבנת ובדיקת הגדרות הפרטיות החשובות ביותר – במקום אחד.</translation>
-<translation id="3448086340637592206">‏תנאים נוספים של Google Chrome ו-Chrome OS</translation>
+<translation id="3448086340637592206">‏תנאים נוספים של Decentr ו-Chrome OS</translation>
 <translation id="3448492834076427715">עדכון חשבון</translation>
 <translation id="3449393517661170867">חלון מרובה כרטיסיות חדש</translation>
 <translation id="3449839693241009168">יש ללחוץ על <ph name="SEARCH_KEY" /> כדי לשלוח פקודות אל <ph name="EXTENSION_NAME" /></translation>
@@ -2738,7 +2738,7 @@
 <translation id="3810973564298564668">ניהול</translation>
 <translation id="381202950560906753">להמשך הוספה</translation>
 <translation id="3812525830114410218">אישור פגום</translation>
-<translation id="3813296892522778813">‏אם לא מצאת את מה שחיפשת, יש לעבור אל <ph name="BEGIN_LINK_CHROMIUM" />מרכז העזרה של Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">‏אם לא מצאת את מה שחיפשת, יש לעבור אל <ph name="BEGIN_LINK_CHROMIUM" />מרכז העזרה של Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">השפה שאליה יתורגמו דפים ותשובות מהירות</translation>
 <translation id="3814529970604306954">חשבון בית ספרי</translation>
 <translation id="3816118180265633665">‏צבעי Chrome</translation>
@@ -3412,7 +3412,7 @@
 <translation id="4544174279960331769">דמות ברירת מחדל כחולה</translation>
 <translation id="4545028762441890696">כדי להפעיל את התוסף מחדש, יש לאשר את ההרשאות החדשות:</translation>
 <translation id="4545759655004063573">לא ניתן לשמור עקב הרשאות לא מספיקות. יש לשמור במיקום אחר.</translation>
-<translation id="4546308221697447294">‏גלישה מהירה עם Google Chrome</translation>
+<translation id="4546308221697447294">‏גלישה מהירה עם Decentr</translation>
 <translation id="4546345569117159016">הלחצן הימני</translation>
 <translation id="4546692474302123343">‏קלט קולי ב-Google Assistant</translation>
 <translation id="4547659257713117923">אין כרטיסיות ממכשירים אחרים</translation>
@@ -5211,7 +5211,7 @@
 <translation id="6508248480704296122">קשור אל <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">יישום: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">רישיון מדיה</translation>
-<translation id="6513247462497316522">‏Google Chrome ישתמש בחבילת הגלישה אם אין לך חיבור לרשת אחרת.</translation>
+<translation id="6513247462497316522">‏Decentr ישתמש בחבילת הגלישה אם אין לך חיבור לרשת אחרת.</translation>
 <translation id="6514010653036109809">מכשיר זמין:</translation>
 <translation id="6514565641373682518">דף זה השבית את סמן העכבר שלך.</translation>
 <translation id="6518014396551869914">הע&amp;תקת תמונה</translation>
@@ -7159,7 +7159,7 @@
 <translation id="8553342806078037065">ניהול אנשים אחרים</translation>
 <translation id="8554899698005018844">לא הוגדרה שפה</translation>
 <translation id="8557022314818157177">צריך להמשיך לגעת במפתח האבטחה עד לתיעוד טביעת האצבע</translation>
-<translation id="8557180006508471423">‏הפעלת "Google Chrome" בשירותי המיקום של מכשיר ה-Mac</translation>
+<translation id="8557180006508471423">‏הפעלת "Decentr" בשירותי המיקום של מכשיר ה-Mac</translation>
 <translation id="8557930019681227453">מניפסט</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{פתיחת כל הכתובות בחלון &amp;חדש}=1{פתיחה בחלון &amp;חדש}two{פתיחת כל הכתובות ({COUNT}) בחלון &amp;חדש}many{פתיחת כל הכתובות ({COUNT}) בחלון &amp;חדש}other{פתיחת כל הכתובות ({COUNT}) בחלון &amp;חדש}}</translation>
 <translation id="8561206103590473338">פיל</translation>

@@ -869,7 +869,7 @@
 <translation id="1865769994591826607">Vain samalle sivustolle muodostetut yhteydet</translation>
 <translation id="186612162884103683"><ph name="EXTENSION" /> voi lukea ja kirjoittaa kuva-, video- ja äänitiedostoja valituissa sijainneissa.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> on valmis suorittamaan asennuksen loppuun.</translation>
-<translation id="1868553836791672080">Salasanojen tarkistus ei ole saatavilla Chromiumissa</translation>
+<translation id="1868553836791672080">Salasanojen tarkistus ei ole saatavilla Decentrissa</translation>
 <translation id="1869433484041798909">Kirjanmerkkipainike</translation>
 <translation id="1871098866036088250">Avaa Chrome-selaimessa</translation>
 <translation id="187145082678092583">Vähemmän sovelluksia</translation>
@@ -1069,7 +1069,7 @@ Voit ylläpitää tilin asetuksia asentamalla laitteellesi Family Link ‑sovell
 <translation id="2087822576218954668">Tulosta: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Rekisteröinti on mahdollista vasta, kun <ph name="DEVICE_OS" /> on asennettu.</translation>
 <translation id="208928984520943006">Voit siirtyä aloitusnäytölle milloin tahansa pyyhkäisemällä alareunasta ylöspäin.</translation>
-<translation id="2089566709556890888">Selaa turvallisesti Google Chromella.</translation>
+<translation id="2089566709556890888">Selaa turvallisesti Decentrlla.</translation>
 <translation id="2089795179672254991">Kysy, kun sivusto haluaa nähdä leikepöydälle kopioidun tekstin ja kuvat (suositus)</translation>
 <translation id="2090165459409185032">Saat tilisi tiedot takaisin käyttöön osoitteessa google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Muodostaa yhteyden automaattisesti, kun kirjaudut sisään</translation>
@@ -1670,7 +1670,7 @@ Voit ylläpitää tilin asetuksia asentamalla laitteellesi Family Link ‑sovell
 <translation id="2701330563083355633">Jaettu: <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Kirjaudu sisään, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Lukulista</translation>
-<translation id="270358213449696159">Google Chrome ‑käyttöjärjestelmän käyttöehtojen sisältö</translation>
+<translation id="270358213449696159">Decentr ‑käyttöjärjestelmän käyttöehtojen sisältö</translation>
 <translation id="270414148003105978">Mobiiliverkot</translation>
 <translation id="2704184184447774363">Microsoftin tiedoston allekirjoitus</translation>
 <translation id="270516211545221798">Kosketuslevyn nopeus</translation>
@@ -2383,7 +2383,7 @@ ja loitonna painamalla Ctrl + Alt + kirkkauden vähennys.</translation>
 <translation id="344630545793878684">Lukea tietojasi useissa sivustoissa</translation>
 <translation id="3446650212859500694">Tämä tiedosto sisältää arkaluontoista sisältöä</translation>
 <translation id="3446827946208017735">Tutustu tärkeimpiin yksityisyysasetuksiin yhdestä paikasta</translation>
-<translation id="3448086340637592206">Google Chromen ja Chrome-käyttöjärjestelmän lisäehdot</translation>
+<translation id="3448086340637592206">Decentrn ja Chrome-käyttöjärjestelmän lisäehdot</translation>
 <translation id="3448492834076427715">Päivitä tili</translation>
 <translation id="3449393517661170867">Uusi välilehdellinen ikkuna</translation>
 <translation id="3449839693241009168">Lähetä laajennukselle <ph name="EXTENSION_NAME" /> komentoja painamalla <ph name="SEARCH_KEY" /></translation>
@@ -2737,7 +2737,7 @@ ja loitonna painamalla Ctrl + Alt + kirkkauden vähennys.</translation>
 <translation id="3810973564298564668">Hallinnoi</translation>
 <translation id="381202950560906753">Lisää toinen</translation>
 <translation id="3812525830114410218">Virheellinen varmenne</translation>
-<translation id="3813296892522778813">Jos et löydä etsimääsi, siirry <ph name="BEGIN_LINK_CHROMIUM" />Google Chromen ohjeisiin<ph name="END_LINK_CHROMIUM" />.</translation>
+<translation id="3813296892522778813">Jos et löydä etsimääsi, siirry <ph name="BEGIN_LINK_CHROMIUM" />Decentrn ohjeisiin<ph name="END_LINK_CHROMIUM" />.</translation>
 <translation id="3813358687923336574">Kieli, jolle sivuja käännetään ja jolla pikainfo näkyy</translation>
 <translation id="3814529970604306954">Oppilaitoksen tili</translation>
 <translation id="3816118180265633665">Chrome-värit</translation>
@@ -3408,7 +3408,7 @@ ja loitonna painamalla Ctrl + Alt + kirkkauden vähennys.</translation>
 <translation id="4544174279960331769">Sininen oletusavatar</translation>
 <translation id="4545028762441890696">Ota se uudelleen käyttöön hyväksymällä uudet käyttöoikeudet:</translation>
 <translation id="4545759655004063573">Ei voi tallentaa, sillä käyttöluvat eivät riitä. Tallenna muuhun sijaintiin.</translation>
-<translation id="4546308221697447294">Selaa nopeasti Google Chromella.</translation>
+<translation id="4546308221697447294">Selaa nopeasti Decentrlla.</translation>
 <translation id="4546345569117159016">Kakkospainike</translation>
 <translation id="4546692474302123343">Google Assistantin äänisyöte</translation>
 <translation id="4547659257713117923">Ei välilehtiä muista laitteista</translation>
@@ -5207,7 +5207,7 @@ Julkinen eksponentti (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bittiä):
 <translation id="6508248480704296122">Liittyy kohteeseen <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Sovellus: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Medialisenssi</translation>
-<translation id="6513247462497316522">Google Chrome käyttää mobiilitiedonsiirtoa, jos et ole yhteydessä toiseen verkkoon.</translation>
+<translation id="6513247462497316522">Decentr käyttää mobiilitiedonsiirtoa, jos et ole yhteydessä toiseen verkkoon.</translation>
 <translation id="6514010653036109809">Käytettävissä oleva laite:</translation>
 <translation id="6514565641373682518">Tämä sivu on poistanut hiiren osoittimen käytöstä.</translation>
 <translation id="6518014396551869914">K&amp;opioi kuva</translation>
@@ -7153,7 +7153,7 @@ Tallenna avaintiedosto suojattuun sijaintiin. Tarvitset sitä, jos haluat luoda 
 <translation id="8553342806078037065">Hallitse muita ihmisiä</translation>
 <translation id="8554899698005018844">Ei kieltä</translation>
 <translation id="8557022314818157177">Jatka suojausavaimen koskettamista, kunnes sormenjälki tallennetaan</translation>
-<translation id="8557180006508471423">Salli "Google Chrome" Macin sijaintipalveluissa</translation>
+<translation id="8557180006508471423">Salli "Decentr" Macin sijaintipalveluissa</translation>
 <translation id="8557930019681227453">Luettelo</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Avaa kaikki uudessa ikku&amp;nassa}=1{Avaa uudessa ikku&amp;nassa}other{Avaa kaikki ({COUNT}) uudessa ikku&amp;nassa}}</translation>
 <translation id="8561206103590473338">Norsu</translation>

@@ -871,7 +871,7 @@
 <translation id="1865769994591826607">Aðeins tengingar á sama vefsvæði</translation>
 <translation id="186612162884103683">„<ph name="EXTENSION" />“ getur lesið og skrifað myndir, myndskeið og hljóðskrár á stöðunum sem merkt er við.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> er tilbúið til að ljúka uppsetningunni</translation>
-<translation id="1868553836791672080">Ekki er hægt að athuga aðgangsorð í Chromium</translation>
+<translation id="1868553836791672080">Ekki er hægt að athuga aðgangsorð í Decentr</translation>
 <translation id="1869433484041798909">Bókamerkishnappur</translation>
 <translation id="1871098866036088250">Opna í Chrome vafra</translation>
 <translation id="187145082678092583">Færri forrit</translation>
@@ -1071,7 +1071,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2087822576218954668">Prenta: <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">Skráning er aðeins studd eftir að þú setur upp <ph name="DEVICE_OS" />.</translation>
 <translation id="208928984520943006">Þú getur hvenær sem er komist á heimaskjáinn með því að strjúka upp frá neðsta hluta skjásins.</translation>
-<translation id="2089566709556890888">Örugg vefskoðun með Google Chrome</translation>
+<translation id="2089566709556890888">Örugg vefskoðun með Decentr</translation>
 <translation id="2089795179672254991">Spyrja þegar vefsvæði vill sjá texta og myndir sem þú afritar á klippiborðið (ráðlagt)</translation>
 <translation id="2090165459409185032">Til að endurheimta reikningsupplýsingarnar þínar skaltu fara á: google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">Tengist sjálfkrafa þegar þú skráir þig inn.</translation>
@@ -1672,7 +1672,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2701330563083355633">Deilt úr <ph name="DEVICE_NAME" /></translation>
 <translation id="2701737434167469065">Skrá inn, <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">Leslisti</translation>
-<translation id="270358213449696159">Innihald skilmála Google Chrome OS</translation>
+<translation id="270358213449696159">Innihald skilmála Decentr OS</translation>
 <translation id="270414148003105978">Farsímakerfi</translation>
 <translation id="2704184184447774363">Microsoft-skjalaskráning</translation>
 <translation id="270516211545221798">Hraði snertiflatar</translation>
@@ -2384,7 +2384,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="344630545793878684">Lesa gögnin þín á fjölda vefsvæða</translation>
 <translation id="3446650212859500694">Skráin inniheldur viðkvæmt efni</translation>
 <translation id="3446827946208017735">Kynntu þér og farðu yfir mikilvægar persónuverndarstillingar á einum stað</translation>
-<translation id="3448086340637592206">Viðbótarskilmálar Google Chrome og Chrome OS</translation>
+<translation id="3448086340637592206">Viðbótarskilmálar Decentr og Chrome OS</translation>
 <translation id="3448492834076427715">Uppfæra reikning</translation>
 <translation id="3449393517661170867">Nýr flipagluggi</translation>
 <translation id="3449839693241009168">Ýttu á <ph name="SEARCH_KEY" /> til að senda skipanir til <ph name="EXTENSION_NAME" /></translation>
@@ -2738,7 +2738,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3810973564298564668">Stjórna</translation>
 <translation id="381202950560906753">Bæta öðru við</translation>
 <translation id="3812525830114410218">Ógilt vottorð</translation>
-<translation id="3813296892522778813">Opnaðu <ph name="BEGIN_LINK_CHROMIUM" />aðstoð Google Chrome<ph name="END_LINK_CHROMIUM" /> ef þú finnur ekki það sem þú leitar að.</translation>
+<translation id="3813296892522778813">Opnaðu <ph name="BEGIN_LINK_CHROMIUM" />aðstoð Decentr<ph name="END_LINK_CHROMIUM" /> ef þú finnur ekki það sem þú leitar að.</translation>
 <translation id="3813358687923336574">Tungumál notað til að þýða síður og skjót svör</translation>
 <translation id="3814529970604306954">Skólareikningur</translation>
 <translation id="3816118180265633665">Litirnir í Chrome</translation>
@@ -3412,7 +3412,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4544174279960331769">Sjálfgefin blá notandamynd</translation>
 <translation id="4545028762441890696">Samþykktu nýju heimildirnar til að virkja þetta á ný:</translation>
 <translation id="4545759655004063573">Ekki eru nægar heimildir til að vista. Vistaðu á öðrum stað.</translation>
-<translation id="4546308221697447294">Hraðvirk vefskoðun með Google Chrome</translation>
+<translation id="4546308221697447294">Hraðvirk vefskoðun með Decentr</translation>
 <translation id="4546345569117159016">Hægri hnappur</translation>
 <translation id="4546692474302123343">Raddinntak Google hjálpara</translation>
 <translation id="4547659257713117923">Engir flipar frá öðrum tækjum</translation>
@@ -5211,7 +5211,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6508248480704296122">Tengist <ph name="NAME_PH" /></translation>
 <translation id="6508261954199872201">Forrit: <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">Margmiðlunarleyfi</translation>
-<translation id="6513247462497316522">Google Chrome notar farsímagögn ef þú ert ekki með tengingu við annað net.</translation>
+<translation id="6513247462497316522">Decentr notar farsímagögn ef þú ert ekki með tengingu við annað net.</translation>
 <translation id="6514010653036109809">Tiltækt tæki:</translation>
 <translation id="6514565641373682518">Þessi síða hefur gert músarbendilinn óvirkan.</translation>
 <translation id="6518014396551869914">Afrita m&amp;ynd</translation>
@@ -7157,7 +7157,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="8553342806078037065">Stjórna öðrum notendum</translation>
 <translation id="8554899698005018844">Ekkert tungumál</translation>
 <translation id="8557022314818157177">Haltu áfram að ýta á öryggislykilinn þinn þangað til fingrafarið greinist</translation>
-<translation id="8557180006508471423">Kveiktu á „Google Chrome“ í staðsetningarþjónustum Mac-tölvunnar</translation>
+<translation id="8557180006508471423">Kveiktu á „Decentr“ í staðsetningarþjónustum Mac-tölvunnar</translation>
 <translation id="8557930019681227453">Upplýsingaskrá</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Opna allt í &amp;nýjum glugga}=1{Opna í &amp;nýjum glugga}one{Opna allt ({COUNT}) í &amp;nýjum glugga}other{Opna allt ({COUNT}) í &amp;nýjum glugga}}</translation>
 <translation id="8561206103590473338">Fíll</translation>

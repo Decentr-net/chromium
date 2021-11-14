@@ -420,7 +420,7 @@ void PopularSitesImpl::FetchPopularSites() {
         semantics {
           sender: "Popular Sites New Tab Fetch"
           description:
-            "Google Chrome may display a list of regionally-popular web sites "
+            "Decentr may display a list of regionally-popular web sites "
             "on the New Tab Page. This service fetches the list of these sites."
           trigger:
             "Once per day, unless no popular web sites are required because "

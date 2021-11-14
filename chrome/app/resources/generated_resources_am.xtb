@@ -866,7 +866,7 @@
 <translation id="1865769994591826607">የተመሳሳይ-ጣቢያ ግንኙነቶች ብቻ</translation>
 <translation id="186612162884103683">«<ph name="EXTENSION" />» ምልክት በተደረገባቸው አካባቢዎች ውስጥ ምስሎችን፣ ቪዲዮ እና የድምጽ ፋይሎችን ማንበብ እና መጻፍ ይችላል።</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> ጭነትዎን ለማጠናቀቅ ዝግጁ ነው</translation>
-<translation id="1868553836791672080">የይለፍ ቃል ፍተሻ በChromium ውስጥ አይገኝም</translation>
+<translation id="1868553836791672080">የይለፍ ቃል ፍተሻ በDecentr ውስጥ አይገኝም</translation>
 <translation id="1869433484041798909">የዕልባት አዝራር</translation>
 <translation id="1871098866036088250">በChrome አሳሽ ውስጥ ይክፈቱ</translation>
 <translation id="187145082678092583">ያነሱ መተግበሪያዎች</translation>
@@ -1066,7 +1066,7 @@
 <translation id="2087822576218954668">አትም፦ <ph name="PRINT_NAME" /></translation>
 <translation id="2088092308059522196">ምዝገባ የሚደገፈው <ph name="DEVICE_OS" />ን ከጫኑ በኋላ ብቻ ነው።</translation>
 <translation id="208928984520943006">በማንኛውም ጊዜ ወደ መነሻ ገጹ ለመሄድ ከታች ሆነው ወደ ላይ ይጥረጉ።</translation>
-<translation id="2089566709556890888">ከGoogle Chrome ጋር ደህንነቱ በተጠበቀ ሁኔታ ያስሱ</translation>
+<translation id="2089566709556890888">ከDecentr ጋር ደህንነቱ በተጠበቀ ሁኔታ ያስሱ</translation>
 <translation id="2089795179672254991">አንድ ጣቢያ እርስዎ ወደ ቅንጥብ ሰሌዳ የቀዱትን ጽሑፍ እና ምስሎች መመልከት ሲፈልግ ይጠይቅ (የሚመከር)</translation>
 <translation id="2090165459409185032">የጠፋብዎትን የመለያ መረጃ መልሶ ለማግኘት፣ ወደዚህ ይሂዱ፦ google.com/accounts/recovery</translation>
 <translation id="2090507354966565596">ሲገቡ በራስ-ሰር ይገናኛል</translation>
@@ -1665,7 +1665,7 @@
 <translation id="2701330563083355633">በ <ph name="DEVICE_NAME" /> የተጋራ</translation>
 <translation id="2701737434167469065">ግባ፣ <ph name="EMAIL" /></translation>
 <translation id="2702801445560668637">የንባብ ዝርዝር</translation>
-<translation id="270358213449696159">የGoogle Chrome OS ውል ይዘቶች</translation>
+<translation id="270358213449696159">የDecentr OS ውል ይዘቶች</translation>
 <translation id="270414148003105978">ሞባይል አውታረ መረቦች</translation>
 <translation id="2704184184447774363">Microsoft Document Signing</translation>
 <translation id="270516211545221798">የመዳሰሻ ሰሌዳ ፍጥነት</translation>
@@ -2378,7 +2378,7 @@
 <translation id="344630545793878684">የእርስዎን ውሂብ በበርካታ የድር ጣቢያዎች ላይ ያንብቡ</translation>
 <translation id="3446650212859500694">ይህ ፋይል ሚስጥራዊነት ይያለው ይዘት አለው</translation>
 <translation id="3446827946208017735">በጣም አሳሳቢ የግላዊነት ቅንብሮችን በአንድ ቦታ ይረዱ እና ይገምግሙ</translation>
-<translation id="3448086340637592206">የGoogle Chrome እና የChrome OS ተጨማሪ ደንቦች</translation>
+<translation id="3448086340637592206">የDecentr እና የChrome OS ተጨማሪ ደንቦች</translation>
 <translation id="3448492834076427715">መለያን አዘምን</translation>
 <translation id="3449393517661170867">አዲስ የትር መስኮት</translation>
 <translation id="3449839693241009168">ትዕዛዞችን ለ<ph name="EXTENSION_NAME" /> ለመላክ <ph name="SEARCH_KEY" />ን ይጫኑ</translation>
@@ -2732,7 +2732,7 @@
 <translation id="3810973564298564668">አደራጅ</translation>
 <translation id="381202950560906753">ሌላ አክል</translation>
 <translation id="3812525830114410218">መጥፎ የእውቅና ማረጋገጫ</translation>
-<translation id="3813296892522778813">የሚፈልጉትን ነገር ማግኘት ካልቻሉ ወደ <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome እገዛ<ph name="END_LINK_CHROMIUM" /> ይሂዱ</translation>
+<translation id="3813296892522778813">የሚፈልጉትን ነገር ማግኘት ካልቻሉ ወደ <ph name="BEGIN_LINK_CHROMIUM" />Decentr እገዛ<ph name="END_LINK_CHROMIUM" /> ይሂዱ</translation>
 <translation id="3813358687923336574">ገጾችን ለመተርጎም እና ለፈጣን መልሶች ጥቅም ላይ የዋለ ቋንቋ</translation>
 <translation id="3814529970604306954">የትምህርት ቤት መለያ</translation>
 <translation id="3816118180265633665">Chrome ቀለማት</translation>
@@ -3403,7 +3403,7 @@
 <translation id="4544174279960331769">ነባሪ ሰማያዊ አምሳያ</translation>
 <translation id="4545028762441890696">ለማንቃት አዲሶቹን ፍቃዶች ይቀበሉ፦</translation>
 <translation id="4545759655004063573">በቂ ባልሆኑ ፍቃዶች ምክንያት ማስቀመጥ አልተቻለም። እባክዎ ሌላ ቦታ ላይ ያስቀምጡ።</translation>
-<translation id="4546308221697447294">ከGoogle Chrome ጋር በፍጥነት ያስሱ</translation>
+<translation id="4546308221697447294">ከDecentr ጋር በፍጥነት ያስሱ</translation>
 <translation id="4546345569117159016">የቀኝ አዝራር</translation>
 <translation id="4546692474302123343">የGoogle ረዳት የድምጽ ግቤት</translation>
 <translation id="4547659257713117923">ከሌሎች መሣሪያዎች ምንም ትሮች የሉም</translation>
@@ -4104,7 +4104,7 @@
 <translation id="5311565231560644461">ጣቢያዎች የእርስዎን የምናባዊ እውነታ መሣሪያዎች እና ውሂብ እንዲጠቀሙ አይፍቀዱ</translation>
 <translation id="5315738755890845852">ትርፍ ጠምዛዛ መያዣ፦ <ph name="ERROR_LINE" /></translation>
 <translation id="5317780077021120954">አስቀምጥ</translation>
-<translation id="5319359161174645648">Google Chromeን ይመክራል</translation>
+<translation id="5319359161174645648">Decentrን ይመክራል</translation>
 <translation id="5319712128756744240">አዲስ መሣሪያ ያጣምሩ</translation>
 <translation id="5320135788267874712">አዲስ የመሣሪያ ስም</translation>
 <translation id="532043380734099846">መሳሪያ <ph name="DEVICE_INDEX" /> ከ<ph name="DEVICE_COUNT" />፣ <ph name="DEVICE_NAME" />፣ መዳፊት ፣ የባትሪ ደረጃ <ph name="BATTERY_PERCENTAGE" />%</translation>
@@ -5202,7 +5202,7 @@
 <translation id="6508248480704296122">ከ<ph name="NAME_PH" /> ጋር የሚዛመድ</translation>
 <translation id="6508261954199872201">መተግበሪያ፦ <ph name="APP_NAME" /></translation>
 <translation id="6509207748479174212">የማህደረ መረጃ ፈቃድ</translation>
-<translation id="6513247462497316522">ከሌላ አውታረ መረብ ጋር ካልተገናኙ Google Chrome የተንቀሳቃሽ ውሂብን ይጠቀማል።</translation>
+<translation id="6513247462497316522">ከሌላ አውታረ መረብ ጋር ካልተገናኙ Decentr የተንቀሳቃሽ ውሂብን ይጠቀማል።</translation>
 <translation id="6514010653036109809">የሚገኝ መሣሪያ፦</translation>
 <translation id="6514565641373682518">ይህ ገጽ የመዳፊት ጠቋሚዎን አሰናክሏል።</translation>
 <translation id="6518014396551869914">ምስል ቅ&amp;ዳ</translation>
@@ -7154,7 +7154,7 @@ nil</translation>
 <translation id="8553342806078037065">ሌሎች ሰዎችን አቀናብር</translation>
 <translation id="8554899698005018844">ምንም ቋንቋ</translation>
 <translation id="8557022314818157177">የጣት አሻራዎ እስኪመዘገብ ድረስ የደህንነት ቁልፍዎን መንካቱን ይቀጥሉ</translation>
-<translation id="8557180006508471423">በእርስዎ Mac ላይ ባሉ የአካባቢ አገልግሎቶች ውስጥ «Google Chrome»ን ያብሩ</translation>
+<translation id="8557180006508471423">በእርስዎ Mac ላይ ባሉ የአካባቢ አገልግሎቶች ውስጥ «Decentr»ን ያብሩ</translation>
 <translation id="8557930019681227453">ዝርዝር ሰነድ</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{ሁሉንም በ&amp;አዲስ መስኮት ውስጥ ክፈት}=1{በ&amp;አዲስ መስኮት ውስጥ ክፈት}one{ሁሉንም ({COUNT}) በ&amp;አዲስ መስኮት ውስጥ ክፈት}other{ሁሉንም ({COUNT}) በ&amp;አዲስ መስኮት ውስጥ ክፈት}}</translation>
 <translation id="8561206103590473338">ዝሆን</translation>
