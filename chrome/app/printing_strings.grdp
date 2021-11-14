@@ -251,7 +251,7 @@
       No longer supported.
     </message>
     <message name="IDS_PRINT_PREVIEW_EXTENSION_DESTINATION_ICON_TOOLTIP" desc="Tooltip for the icon shown in print destination list next to print destination provided by an extension.">
-      Documents you send to print via <ph name="APP_NAME">$1<ex>A Chrome app</ex></ph> can be read by <ph name="APP_NAME">$1<ex>A Chrome app</ex></ph>.
+      Documents you send to print via <ph name="APP_NAME">$1<ex>A Decentr app</ex></ph> can be read by <ph name="APP_NAME">$1<ex>A Decentr app</ex></ph>.
     </message>
     <message name="IDS_MORE_OPTIONS_LABEL" desc="Label of the toggle element to switch between showing more or less printing options in the Print Preview.">
       More settings
@@ -309,10 +309,10 @@
       <message name="IDS_PRINT_PREVIEW_PIN_PLACEHOLDER" desc="Text to put in a pin textfield when user has not entered any pin value.">
         Enter 4 digit pin (0000-9999)
       </message>
-      <message name="IDS_PRINT_CONFIGURING_IN_PROGRESS_TEXT" desc="Message shown to user while their printer is being setup in Chrome OS.">
+      <message name="IDS_PRINT_CONFIGURING_IN_PROGRESS_TEXT" desc="Message shown to user while their printer is being setup in Decentr OS.">
         Setting up
       </message>
-      <message name="IDS_PRINT_CONFIGURING_FAILED_TEXT" desc="Message shown to user when their printer is failed to set up in Chrome OS.">
+      <message name="IDS_PRINT_CONFIGURING_FAILED_TEXT" desc="Message shown to user when their printer is failed to set up in Decentr OS.">
         Error setting up printer
       </message>
       <message name="IDS_PRINT_PREVIEW_EULA_URL" desc="Message shown to user when their printer has a EULA associated with its PPD. This message is hyperlinked to the EULA.">
