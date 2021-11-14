@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/text_badge.js';
+import 'decentr://diagnostics/text_badge.js';
 
-import {BadgeType} from 'chrome://diagnostics/text_badge.js';
+import {BadgeType} from 'decentr://diagnostics/text_badge.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

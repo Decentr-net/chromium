@@ -56,7 +56,7 @@ gfx::Rect GetDefaultBoundsForEche(Browser*) {
 EcheSystemAppDelegate::EcheSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(web_app::SystemAppType::ECHE,
                                     "Eche",
-                                    GURL("chrome://eche-app"),
+                                    GURL("decentr://eche-app"),
                                     profile) {}
 
 std::unique_ptr<WebApplicationInfo> EcheSystemAppDelegate::GetWebAppInfo()

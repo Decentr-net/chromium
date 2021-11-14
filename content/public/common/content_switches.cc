@@ -764,7 +764,7 @@ const char kSitePerProcess[]                = "site-per-process";
 // Note that for historic reasons the name of the switch misleadingly mentions
 // "trials", but the switch also disables the default site isolation that ships
 // on desktop since M67.  The name of the switch is preserved for
-// backcompatibility of chrome://flags.
+// backcompatibility of decentr://flags.
 const char kDisableSiteIsolation[] = "disable-site-isolation-trials";
 
 // Specifies if the browser should start in fullscreen mode, like if the user
@@ -920,7 +920,7 @@ const char kWebRtcMaxCpuConsumptionPercentage[] =
     "webrtc-max-cpu-consumption-percentage";
 
 // Enable capture and local storage of WebRTC event logs without visiting
-// chrome://webrtc-internals. This is useful for automated testing. It accepts
+// decentr://webrtc-internals. This is useful for automated testing. It accepts
 // the path to which the local logs would be stored. Disabling is not possible
 // without restarting the browser and relaunching without this flag.
 const char kWebRtcLocalEventLogging[] = "webrtc-event-logging";

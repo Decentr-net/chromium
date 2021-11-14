@@ -428,7 +428,7 @@ bool GtkUi::GetTint(int id, color_utils::HSL* tint) const {
     // Tints for which the cross-platform default is fine. Before adding new
     // values here, specifically verify they work well on Linux.
     case ThemeProperties::TINT_BACKGROUND_TAB:
-    // TODO(estade): Return something useful for TINT_BUTTONS so that chrome://
+    // TODO(estade): Return something useful for TINT_BUTTONS so that decentr://
     // page icons are colored appropriately.
     case ThemeProperties::TINT_BUTTONS:
       break;

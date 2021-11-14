@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {navigation, Page} from 'chrome://extensions/extensions.js';
+import {navigation, Page} from 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {eventToPromise} from '../test_util.js';
 
 window.extension_manager_tests = {};

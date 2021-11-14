@@ -16,7 +16,7 @@
 
 namespace chromeos {
 
-// The WebUI Controller for chrome://audio
+// The WebUI Controller for decentr://audio
 class AudioUI : public ui::MojoWebUIController,
                 public audio::mojom::PageHandlerFactory {
  public:

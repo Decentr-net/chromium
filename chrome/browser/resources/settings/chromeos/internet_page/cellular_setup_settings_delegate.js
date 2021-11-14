@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CellularSetupDelegate} from 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_setup_delegate.m.js';
+import {CellularSetupDelegate} from 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_setup_delegate.m.js';
 // clang-format on
 
 /** @implements {CellularSetupDelegate} */

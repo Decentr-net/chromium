@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrScrollableBehavior} from 'chrome://resources/cr_elements/cr_scrollable_behavior.m.js';
-import { Base, flush, html,Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrScrollableBehavior} from 'decentr://resources/cr_elements/cr_scrollable_behavior.m.js';
+import { Base, flush, html,Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {waitBeforeNextRender} from '../test_util.js';
@@ -16,7 +16,7 @@ suite('cr-scrollable-behavior', function() {
   /** @type {!IronListElement} */ let ironList;
 
   suiteSetup(function() {
-    if (window.location.origin === 'chrome://test') {
+    if (window.location.origin === 'decentr://test') {
       // Polymer 3 setup
       Polymer({
         is: 'test-element',

@@ -110,7 +110,7 @@ TEST_F(URLOpenerTest, HandleOpenURL) {
     // Tests for http, googlechrome, and chromium scheme URLs.
     @"http://www.google.com/" : @YES,
     @"https://www.google.com/settings/account/" : @YES,
-    @"googlechrome://www.google.com/" : @YES,
+    @"googledecentr://www.google.com/" : @YES,
     @"googlechromes://www.google.com/settings/account/" : @YES,
     @"chromium://www.google.com/" : @YES,
     @"chromiums://www.google.com/settings/account/" : @YES,
@@ -195,7 +195,7 @@ TEST_F(URLOpenerTest, HandleOpenURL) {
           } else if (result) {
             if ([params completeURL].SchemeIsFile()) {
               // External file:// URL will be loaded by WebState, which expects
-              // complete // file:// URL. chrome:// URL is expected to be
+              // complete // file:// URL. decentr:// URL is expected to be
               // displayed in the omnibox, and omnibox shows virtual URL.
               EXPECT_EQ([params completeURL],
                         tabOpener.urlLoadParams.web_params.url);

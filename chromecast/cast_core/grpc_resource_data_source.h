@@ -59,7 +59,7 @@ class GrpcResourceDataSource : public content::URLDataSource {
 
   // This is set to true when GrpcResourceDataSource is initialized by
   // GrpcWebUIController and false otherwise. In practice, for all the
-  // chrome://home/* urls this is set to true and false for chrome-resource://*
+  // decentr://home/* urls this is set to true and false for chrome-resource://*
   const bool for_webui_;
   cast::v2::CoreApplicationService::Stub core_app_service_stub_;
 

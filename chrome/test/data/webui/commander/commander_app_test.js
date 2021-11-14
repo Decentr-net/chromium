@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://commander/app.js';
+import 'decentr://commander/app.js';
 
-import {BrowserProxy} from 'chrome://commander/browser_proxy.js';
-import {Action, Entity, ViewModel} from 'chrome://commander/types.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {BrowserProxy} from 'decentr://commander/browser_proxy.js';
+import {Action, Entity, ViewModel} from 'decentr://commander/types.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
 import {assertDeepEquals, assertEquals, assertGT} from '../chai_assert.js';
 import {flushTasks} from '../test_util.js';

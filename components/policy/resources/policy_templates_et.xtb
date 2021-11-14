@@ -505,7 +505,7 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
 
       Erandid saab määrata lubatud URL-ide loendi reegliga. Need reeglid kehtivad vaid 1000 kirje puhul, järgnevaid kirjeid eiratakse.
 
-      Pange tähele, et me ei soovita blokeerida sisemisi URL-e „chrome://*”, kuna see võib tekitada ootamatuid vigu.
+      Pange tähele, et me ei soovita blokeerida sisemisi URL-e „decentr://*”, kuna see võib tekitada ootamatuid vigu.
 
       Alates versioonist M73 saate blokeerida vorminguga 'javascript://*' URL-id. See mõjutab aga ainult aadressiribale (või nt funktsionaaljärjehoidjatesse) sisestatud JavaScripti. Pange tähele, et dünaamiliselt laaditud andmete kasutamisel ei kehti reegel lehesiseste JavaScripti URL-ide puhul. Näiteks kui blokeerite „example.com/abc”, saab leht „example.com” siiski funktsiooni XMLHTTPRequest kaudu laadida aadressi „example.com/abc”.
 
@@ -672,7 +672,7 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
       taaskäivitamisel uuesti.</translation>
 <translation id="2138449619211358657">See reegel võimaldab operatsioonisüsteemil <ph name="PRODUCT_OS_NAME" /> hõiveportaali autentimisel puhverserverit vältida.
 
-      See reegel jõustatakse vaid siis, kui puhverserver on seadistatud (nt kasutaja on seda teinud reegli kaudu aadressil chrome://settings või on seda teinud laiendused).
+      See reegel jõustatakse vaid siis, kui puhverserver on seadistatud (nt kasutaja on seda teinud reegli kaudu aadressil decentr://settings või on seda teinud laiendused).
 
       Kui lubate selle seade, kuvatakse kõik hõiveportaalide autentimislehed (nt kõik veebilehed alates hõiveportaali sisselogimislehest, kuni operatsioonisüsteem <ph name="PRODUCT_NAME" /> tuvastab toimiva Interneti-ühenduse) eraldi aknas, eirates kõiki praeguse kasutaja reegliseadeid ja piiranguid.
 
@@ -693,15 +693,15 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
 <translation id="2170233653554726857">WPAD-optimeerimise lubamine</translation>
 <translation id="2176565653304920879">Kui reegel on määratud, toimib ajavööndi automaatse tuvastamise voog seade väärtusest olenevalt järgmisel moel.
 
-      Kui valitud on seade TimezoneAutomaticDetectionUsersDecide, saavad kasutajad ajavööndi automaatset tuvastamist jaotises chrome://settings tavapäraste juhtnuppude abil hallata.
+      Kui valitud on seade TimezoneAutomaticDetectionUsersDecide, saavad kasutajad ajavööndi automaatset tuvastamist jaotises decentr://settings tavapäraste juhtnuppude abil hallata.
 
-      Kui valitud on seade TimezoneAutomaticDetectionDisabled, keelatakse ajavööndi automaatsed juhtnupud jaotises chrome://settings. Ajavööndi automaatne tuvastamine on alati välja lülitatud.
+      Kui valitud on seade TimezoneAutomaticDetectionDisabled, keelatakse ajavööndi automaatsed juhtnupud jaotises decentr://settings. Ajavööndi automaatne tuvastamine on alati välja lülitatud.
 
-      Kui valitud on seade TimezoneAutomaticDetectionIPOnly, keelatakse ajavööndi juhtnupud jaotises chrome://settings. Ajavööndi automaatne tuvastamine on alati sisse lülitatud. Ajavööndi tuvastamise funktsioon kasutab asukoha lahendamiseks ainult IP-aadressil põhinevat meetodit.
+      Kui valitud on seade TimezoneAutomaticDetectionIPOnly, keelatakse ajavööndi juhtnupud jaotises decentr://settings. Ajavööndi automaatne tuvastamine on alati sisse lülitatud. Ajavööndi tuvastamise funktsioon kasutab asukoha lahendamiseks ainult IP-aadressil põhinevat meetodit.
 
-      Kui valitud on seade TimezoneAutomaticDetectionSendWiFiAccessPoints, keelatakse ajavööndi juhtnupud jaotises chrome://settings. Ajavööndi automaatne tuvastamine on alati sisse lülitatud. Nähtavate WiFi-pääsupunktide loend saadetakse ajavööndi täpseks tuvastamiseks alati asukoha määramise API serverisse.
+      Kui valitud on seade TimezoneAutomaticDetectionSendWiFiAccessPoints, keelatakse ajavööndi juhtnupud jaotises decentr://settings. Ajavööndi automaatne tuvastamine on alati sisse lülitatud. Nähtavate WiFi-pääsupunktide loend saadetakse ajavööndi täpseks tuvastamiseks alati asukoha määramise API serverisse.
 
-      Kui valitud on seade TimezoneAutomaticDetectionSendAllLocationInfo, keelatakse ajavööndi juhtnupud jaotises chrome://settings. Ajavööndi automaatne tuvastamine on alati sisse lülitatud. Asukohateave (nt WiFi-pääsupunktid, kättesaadavad mobiilimastid, GPS) saadetakse täpseks ajavööndi tuvastamiseks serverisse.
+      Kui valitud on seade TimezoneAutomaticDetectionSendAllLocationInfo, keelatakse ajavööndi juhtnupud jaotises decentr://settings. Ajavööndi automaatne tuvastamine on alati sisse lülitatud. Asukohateave (nt WiFi-pääsupunktid, kättesaadavad mobiilimastid, GPS) saadetakse täpseks ajavööndi tuvastamiseks serverisse.
 
       Kui reegel on määramata, käitub see, nagu oleks valitud seade TimezoneAutomaticDetectionUsersDecide.
 
@@ -1260,9 +1260,9 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
       Kui reegel on määramata või selle väärtuseks on määratud Väär, ei ole DHE šifreerimiskomplektid TLS-is lubatud. Selle väärtuseks võib olla määratud ka Tõene, et lubada DHE šifreerimiskomplektid ja et säilitada ühilduvus aegunud serveriga. See on ajutine meede ja server tuleks ümber seadistada.
 
       Serverid on soovitatav üle viia ECDHE šifreerimiskomplektidele. Kui need ei ole saadaval, lubage kindlasti RSA võtmevahetust kasutav šifreerimiskomplekt.</translation>
-<translation id="3117706142826400449">Kui reegel on keelatud, on Chrome Cleanupil keelatud süsteemi soovimatu tarkvara suhtes skannida ja puhastada. Chrome Cleanupi käsitsi käivitamine aadressil chrome://settings/cleanup on keelatud.
+<translation id="3117706142826400449">Kui reegel on keelatud, on Chrome Cleanupil keelatud süsteemi soovimatu tarkvara suhtes skannida ja puhastada. Chrome Cleanupi käsitsi käivitamine aadressil decentr://settings/cleanup on keelatud.
 
-      Kui reegel on lubatud või määramata, skannib Chrome Cleanup regulaarselt süsteemi soovimatu tarkvara suhtes. Soovimatu tarkvara leidmisel küsitakse kasutajalt, kas ta soovib selle eemaldada. Chrome Cleanupi käsitsi käivitamine aadressil chrome://settings on lubatud.
+      Kui reegel on lubatud või määramata, skannib Chrome Cleanup regulaarselt süsteemi soovimatu tarkvara suhtes. Soovimatu tarkvara leidmisel küsitakse kasutajalt, kas ta soovib selle eemaldada. Chrome Cleanupi käsitsi käivitamine aadressil decentr://settings on lubatud.
 
       Reegel on saadaval ainult Windowsi eksemplarides, mis on liidetud domeeniga <ph name="MS_AD_NAME" />, ja Windows 10 Pro või Enterprise'i eksemplaridega, mis on registreeritud seadmehalduse teenuses.</translation>
 <translation id="3152425128389603870">Muudab ühendatud töölaud kättesaadavaks ja lülitab selle vaikimisi sisse</translation>
@@ -1310,7 +1310,7 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
       Kui seade on lubatud või seadistamata, saavad kasutajad lubada pilvprintimise puhverserveri Google'i kontoga autentides.
 
       Kui seade on keelatud, ei saa kasutajad puhverserverit lubada ja seadmel ei ole lubatud jagada printereid teenusega <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Lubab aadressiga chrome://password-change lehe, mis võimaldab SAML-i kasutajatel seansi ajal SAML-i parooli muuta. See tagab, et SAML-i parool ja seadme lukustuskuva parool on sünkroonitud.
+<translation id="3312206664202507568">Lubab aadressiga decentr://password-change lehe, mis võimaldab SAML-i kasutajatel seansi ajal SAML-i parooli muuta. See tagab, et SAML-i parool ja seadme lukustuskuva parool on sünkroonitud.
 
       Reegel lubab ka märguanded, mis annavad SAML-i kasutajatele parooli peatsest aegumisest teada, et nad saaksid kohe seansi ajal parooli muuta.
       Neid märguandeid esitatakse ainult juhul, kui SAML-i identiteedi pakkuja saadab SAML-i sisselogimisvoo ajal seadmesse parooli aegumise teabe.
@@ -2072,7 +2072,7 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
       Seadega SitePerProcess saab kasutajate jaoks keelata kõigi saitide isoleerimise vaikeseadest loobumise. Pange tähele, et reegel IsolateOrigins võimaldab isoleerida ka muid, täpsemini määratud lähtekohti.
       Kui reegel on lubatud, ei saa kasutajad loobuda vaikekäitumisest, mille puhul käitatakse igat saiti eraldi protsessina.
       Kui reegel on seadistamata või keelatud, saab kasutaja loobuda saidi isoleerimisest
-      (nt jaotises chrome://flags kirje „Keela saidi isoleerimine” kasutamisest).  Reegli keelamisel ja/või seadistamata jätmisel ei lülitata saidi isoleerimist välja.
+      (nt jaotises decentr://flags kirje „Keela saidi isoleerimine” kasutamisest).  Reegli keelamisel ja/või seadistamata jätmisel ei lülitata saidi isoleerimist välja.
       Operatsioonisüsteemi <ph name="PRODUCT_OS_NAME" /> versioonis 76 või vanemas on soovitatav määrata seadmereegli <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> jaoks sama väärtus. Kui nende kahe reegli jaoks määratud väärtused ei kattu, võib kasutajaseansi avamisel ilmneda viivitus kasutajareegli jaoks määratud väärtuse rakendamise tõttu.
 
       MÄRKUS. See reegel ei kehti Androidi puhul. Androidis funktsiooni SitePerProcess lubamiseks kasutage reegli SitePerProcessAndroid seadet.
@@ -2974,7 +2974,7 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
 
           Kui lubate selle seade, kasutatakse avalehena alati uut vahelehte ja avalehe URL-i eiratakse.
 
-          Kui keelate seade, ei ole kasutaja avaleht kunagi uus vaheleht, v.a juhul, kui avalehe URL-iks on määratud „chrome://newtab”.
+          Kui keelate seade, ei ole kasutaja avaleht kunagi uus vaheleht, v.a juhul, kui avalehe URL-iks on määratud „decentr://newtab”.
 
           Kui lubate või keelate seade, ei saa kasutajad teenuses <ph name="PRODUCT_NAME" /> avalehe tüüpi muuta.
 
@@ -3145,7 +3145,7 @@ loendist, desinstallib rakendus <ph name="PRODUCT_NAME" /> selle automaatselt.
 
       Kui reegel on keelatud, siis ei kasutata sisseehitatud DNS-i klienti kunagi.
 
-      Kui reegel on määramata, on sisseehitatud DNS-i klient MacOS-is, Androidis (kui nii privaatne DNS kui ka VPN ei ole lubatud) ja ChromeOS-is vaikimisi lubatud ning kasutajad saavad otsustada, kas rakendus kasutab sisseehitatud DNS-i klienti, muutes atribuuti chrome://flags või määrates käsurea lipu.</translation>
+      Kui reegel on määramata, on sisseehitatud DNS-i klient MacOS-is, Androidis (kui nii privaatne DNS kui ka VPN ei ole lubatud) ja ChromeOS-is vaikimisi lubatud ning kasutajad saavad otsustada, kas rakendus kasutab sisseehitatud DNS-i klienti, muutes atribuuti decentr://flags või määrates käsurea lipu.</translation>
 <translation id="6843296367238757293">Selle reegli tugi on katkestatud. Seda ei ole soovitatav kasutada Vaadake lisateavet aadressilt https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Reegel eemaldati operatsioonisüsteemist <ph name="PRODUCT_NAME" /> 68 ja see asendati reegliga <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Selle reegli tugi on katkestatud ja see on versioonist M66 eemaldatud, kuna seda kasutati ainult sisetestides ja see sisaldab turvaauku.
@@ -3786,7 +3786,7 @@ Kui jätate selle reegli määramata, ei ole kasutajate sisselogimine piiratud. 
 <translation id="7941975817681987555">Ära ennusta võrgutoiminguid ühegi võrguühenduse puhul</translation>
 <translation id="7952007677054834789">Võimaldab määrata rakenduses <ph name="PRODUCT_NAME" /> laadimisel käivitatavad lehed ning vaikimisi kasutatava avalehe ja uue vahelehe ning takistab kasutajaid neid muutmast.
 
-      Kasutaja avalehe seaded on täielikult lukustatud vaid juhul, kui valite avaleheks uue vahelehe või seate selle URL-iks ja määrate avalehe URL-i. Kui te ei määra avalehe URL-i, saab kasutaja määrata avaleheks uue vahelehe käsuga „chrome://newtab”.
+      Kasutaja avalehe seaded on täielikult lukustatud vaid juhul, kui valite avaleheks uue vahelehe või seate selle URL-iks ja määrate avalehe URL-i. Kui te ei määra avalehe URL-i, saab kasutaja määrata avaleheks uue vahelehe käsuga „decentr://newtab”.
 
       Reeglit „Käivitamisel avatavad URL-id” eiratakse, kui te ei vali jaotises „Toiming käivitamisel” käsku „Ava URL-ide loend”.</translation>
 <translation id="7952958573604504839">Reegli tugi on versioonis M48 katkestatud ja asendatud reegliga <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> ning versioonist M54 on reegel eemaldatud.

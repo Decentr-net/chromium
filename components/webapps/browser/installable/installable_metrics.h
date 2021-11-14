@@ -106,7 +106,7 @@ enum class WebappUninstallSource {
   // Menu item from the 3-dot menu of a WebApp window.
   kAppMenu = 1,
 
-  // Context menu for a WebApp in chrome://apps.
+  // Context menu for a WebApp in decentr://apps.
   kAppsPage = 2,
 
   // Via OS Settings or Controls.

@@ -137,7 +137,7 @@ class SystemNetworkContextManager {
   network::mojom::NetworkContextParamsPtr CreateDefaultNetworkContextParams();
 
   // Returns a shared global NetExportFileWriter instance, used by net-export.
-  // It lives here so it can outlive chrome://net-export/ if the tab is closed
+  // It lives here so it can outlive decentr://net-export/ if the tab is closed
   // or destroyed, and so that it's destroyed before Mojo is shut down.
   net_log::NetExportFileWriter* GetNetExportFileWriter();
 

@@ -600,8 +600,8 @@ is not part of the network service. Standard schemes like file:// and blob://
 are handled by the content layer and its dependencies
 (content::FileURLLoaderFactory and storage::BlobURLLoaderFactory, respectively,
 for those two schemes). Chrome-specific schemes, like externalfile:// and
-chrome-extension:// are often handled by a URLLoaderFactory in the chrome layer,
-though chrome:// itself is actually handled in //content.
+decentr-extension:// are often handled by a URLLoaderFactory in the chrome layer,
+though decentr:// itself is actually handled in //content.
 
 data:// URLs are handled a bit differently from other schemes. If a renderer
 process requests a data:// subresource, the renderer typically decodes it

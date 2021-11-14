@@ -6,8 +6,8 @@
  * Handles DumpDatabase tab for syncfs-internals.
  */
 
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 import {createElementFromText} from './utils.js';
 
 /**

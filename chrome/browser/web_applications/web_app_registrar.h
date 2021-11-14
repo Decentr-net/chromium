@@ -71,7 +71,7 @@ class WebAppRegistrar : public ProfileManagerObserver {
   bool IsUninstalling(const AppId& app_id) const;
 
   // Returns whether the app with |app_id| is currently fully locally installed.
-  // ie. app is not grey in chrome://apps UI surface and may have OS integration
+  // ie. app is not grey in decentr://apps UI surface and may have OS integration
   // like shortcuts. |IsLocallyInstalled| apps is a subset of |IsInstalled|
   // apps. On Chrome OS all apps are always locally installed.
   bool IsLocallyInstalled(const AppId& app_id) const;

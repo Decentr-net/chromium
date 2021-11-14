@@ -151,7 +151,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dmazzoni@chromium.org</owner>
   <summary>
     When a user selects the Chrome accessibility image labels option in
-    chrome://settings, whether they are trying to enable or disable the feature.
+    decentr://settings, whether they are trying to enable or disable the feature.
     Recorded when the user activates the toggle from the settings page. The
     feature may not have been enabled if they do not confirm on the modal dialog
     that appears after.
@@ -217,7 +217,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-a11y-core@google.com</owner>
   <summary>
     Records when a user enables or disables the Live Caption feature from
-    chrome://settings.
+    decentr://settings.
   </summary>
 </histogram>
 
@@ -2976,7 +2976,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     The Wallpaper App that the user is using right now on Chrome OS. It's the
     app that is used when the user right clicks on desktop and selects &quot;Set
     wallpaper&quot; or when the user selects &quot;Set wallpaper&quot; from
-    chrome://settings page. This is recorded at user login.
+    decentr://settings page. This is recorded at user login.
   </summary>
 </histogram>
 
@@ -16561,7 +16561,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dtrainor@chromium.org</owner>
   <summary>
     A download warning was shown in the shelf. Note that some downloads may not
-    be shown on the shelf, e.g., if chrome://downloads is already open when the
+    be shown on the shelf, e.g., if decentr://downloads is already open when the
     download completes, or if an extension is using the downloads API. Grouped
     by the type of danger.
   </summary>
@@ -24403,7 +24403,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>extensions-core@chromium.org</owner>
   <summary>
     The error code for failures of incremental reads of a file stream for a
-    chrome-extension:// URL. (See also ExtensionUrlRequest.OnReadCompleteResult
+    decentr-extension:// URL. (See also ExtensionUrlRequest.OnReadCompleteResult
     for the success case).
   </summary>
 </histogram>
@@ -24417,7 +24417,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>lazyboy@chromium.org</owner>
   <owner>extensions-core@chromium.org</owner>
   <summary>
-    The result of an incremental read of a file stream for a chrome-extension://
+    The result of an incremental read of a file stream for a decentr-extension://
     URL, representing a byte count. Logged in success cases (see also
     ExtensionUrlRequest.OnReadCompleteError).
   </summary>
@@ -27856,7 +27856,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>Please list the metric's owners. Add more owner tags as needed.</owner>
   <summary>
     Records, on startup, whether the user has chosen to opt-in to or opt-out of
-    InstantExtended via chrome://flags.
+    InstantExtended via decentr://flags.
   </summary>
 </histogram>
 
@@ -27868,7 +27868,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>Please list the metric's owners. Add more owner tags as needed.</owner>
   <summary>
     Records, on startup, whether the user has chosen to opt-in to or opt-out of
-    InstantExtended via chrome://flags.
+    InstantExtended via decentr://flags.
   </summary>
 </histogram>
 
@@ -32655,7 +32655,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>kenjibaheux@google.com</owner>
   <owner>kouhei@chromium.org</owner>
   <summary>
-    The private working set used by each chrome:// renderer process. Each
+    The private working set used by each decentr:// renderer process. Each
     process provides one sample. Recorded once per process per UMA ping.
   </summary>
 </histogram>
@@ -32669,7 +32669,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>kenjibaheux@google.com</owner>
   <owner>kouhei@chromium.org</owner>
   <summary>
-    The count of active chrome:// renderer processes. Recorded once per UMA
+    The count of active decentr:// renderer processes. Recorded once per UMA
     ping.
   </summary>
 </histogram>
@@ -33909,7 +33909,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>kenjibaheux@google.com</owner>
   <owner>kouhei@chromium.org</owner>
   <summary>
-    The swap used by each chrome:// renderer process. Each process provides one
+    The swap used by each decentr:// renderer process. Each process provides one
     sample. Recorded once per process per UMA ping if the system has swapped.
   </summary>
 </histogram>
@@ -40658,8 +40658,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   </obsolete>
   <owner>eroman@chromium.org</owner>
   <summary>
-    Counts the number of browser launches where chrome://net-internals and
-    chrome://net-internals/#tests are used.
+    Counts the number of browser launches where decentr://net-internals and
+    decentr://net-internals/#tests are used.
   </summary>
 </histogram>
 
@@ -55684,7 +55684,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>bdea@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
-    Records how a user interacts with the chrome://settings page that displays
+    Records how a user interacts with the decentr://settings page that displays
     the password protection warning. Logged when the page is shown and when the
     user chooses to change their password on the page.
   </summary>
@@ -55723,7 +55723,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   </obsolete>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
-    When user manually navigates to chrome://reset-password page, records how
+    When user manually navigates to decentr://reset-password page, records how
     this user interacts with this page. Logged when the interstitial is shown
     and when the user chooses to change their password.
   </summary>
@@ -71947,7 +71947,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>estade@chromium.org</owner>
   <summary>
     Measures how much the user modifies their search engines, whether through
-    window.external.AddSearchProvider or chrome://settings.
+    window.external.AddSearchProvider or decentr://settings.
   </summary>
 </histogram>
 
@@ -74420,7 +74420,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>msalama@chromium.org</owner>
   <owner>chrome-signin-team@google.com</owner>
   <summary>
-    Tracks the sWAA value we show to the user in chrome://settings/syncSetup for
+    Tracks the sWAA value we show to the user in decentr://settings/syncSetup for
     sync users. This tracks as well the different states for which sWAA can be
     off. This is recorded everytime the sWAA state is calculated/refreshed. Only
     Desktop.
@@ -78208,7 +78208,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>yefim@chromium.org</owner>
   <summary>
     Percentage of clips with Google related urls (points to internal Google
-    resources). Logs every time user goes to chrome://bookmarks.
+    resources). Logs every time user goes to decentr://bookmarks.
   </summary>
 </histogram>
 
@@ -78220,7 +78220,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>yefim@chromium.org</owner>
   <summary>
     Percentage of clips with Google related urls within first 20 (points to
-    internal Google resources). Logs every time user goes to chrome://bookmarks.
+    internal Google resources). Logs every time user goes to decentr://bookmarks.
   </summary>
 </histogram>
 
@@ -78231,7 +78231,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>yefim@chromium.org</owner>
   <summary>
     Percentage of clips with images. Logs every time user goes to
-    chrome://bookmarks.
+    decentr://bookmarks.
   </summary>
 </histogram>
 
@@ -78243,7 +78243,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>yefim@chromium.org</owner>
   <summary>
     Percentage of clips with images within first 20. Logs every time user goes
-    to chrome://bookmarks.
+    to decentr://bookmarks.
   </summary>
 </histogram>
 
@@ -78326,7 +78326,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>yefim@chromium.org</owner>
   <summary>
     Percentage of clips without images or snippets. Logs every time user goes to
-    chrome://bookmarks.
+    decentr://bookmarks.
   </summary>
 </histogram>
 
@@ -78338,7 +78338,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>yefim@chromium.org</owner>
   <summary>
     Percentage of clips without images or snippets within first 20. Logs every
-    time user goes to chrome://bookmarks.
+    time user goes to decentr://bookmarks.
   </summary>
 </histogram>
 
@@ -80970,8 +80970,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Records the availability status (local, sync or non-available) for each
     favicon displayed by an interface. Recorded when the recent tabs menu is
-    opened or when a request is done to chrome://favicon by page url, which
-    happens for example for the chrome://history and chrome://history/syncedTabs
+    opened or when a request is done to decentr://favicon by page url, which
+    happens for example for the decentr://history and decentr://history/syncedTabs
     interfaces.
   </summary>
 </histogram>
@@ -82020,8 +82020,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     Records the number of active requests simultaneously done to the Google
     favicon server that were associated with a same icon url and could have thus
     been grouped. Recorded when one of the following is displayed: entries in
-    chrome://history that are known to be present in remote history data; all
-    entries in chrome://history/syncedTabs; tabs from other devices in the 3
+    decentr://history that are known to be present in remote history data; all
+    entries in decentr://history/syncedTabs; tabs from other devices in the 3
     dots history menu (desktop); tabs from other devices in the android Recent
     Tabs UI.
   </summary>
@@ -82200,7 +82200,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   </obsolete>
   <owner>zea@chromium.org</owner>
   <summary>
-    Delay from the time chrome://history is loaded until the other devices'
+    Delay from the time decentr://history is loaded until the other devices'
     sessions data became available.
   </summary>
 </histogram>
@@ -82310,8 +82310,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Records the number of active requests simultaneously done to the Google
     favicon server that were associated with a same icon url and could have thus
-    been grouped. Recorded when opening the recent tabs menu, chrome://history
-    or chrome://history/syncedTabs with both history sync and the
+    been grouped. Recorded when opening the recent tabs menu, decentr://history
+    or decentr://history/syncedTabs with both history sync and the
     EnableHistoryFaviconsGoogleServerQuery feature enabled.
   </summary>
 </histogram>
@@ -82703,8 +82703,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dbeam@chromium.org</owner>
   <summary>
     Shows actions taken on the &quot;Not signed in? You're misssing out&quot;
-    link on the top right of chrome://apps. Logged once per visit of
-    chrome://apps as well as on each click of the sync promo.
+    link on the top right of decentr://apps. Logged once per visit of
+    decentr://apps as well as on each click of the sync promo.
   </summary>
 </histogram>
 

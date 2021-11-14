@@ -276,8 +276,8 @@ IN_PROC_BROWSER_TEST_F(ExternallyManagedAppManagerImplBrowserTest,
   }
 }
 
-// Test that adding a manifest that points to a chrome:// URL does not actually
-// install a web app that points to a chrome:// URL.
+// Test that adding a manifest that points to a decentr:// URL does not actually
+// install a web app that points to a decentr:// URL.
 IN_PROC_BROWSER_TEST_F(ExternallyManagedAppManagerImplBrowserTest,
                        InstallChromeURLFails) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -293,7 +293,7 @@ IN_PROC_BROWSER_TEST_F(ExternallyManagedAppManagerImplBrowserTest,
   // The installer falls back to installing a web app of the original URL.
   EXPECT_EQ(url, registrar().GetAppStartUrl(app_id.value()));
   EXPECT_NE(app_id,
-            registrar().FindAppWithUrlInScope(GURL("chrome://settings")));
+            registrar().FindAppWithUrlInScope(GURL("decentr://settings")));
 }
 
 // Test that adding a web app without a manifest while using the

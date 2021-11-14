@@ -59,8 +59,8 @@ const std::vector<TestItem>& TestItems() {
               content::GetWebUIURLString(chrome::kChromeUINewTabHost),
       },
       {
-          GURL("chrome-extension://fooooooooooooooooooooooooooooooo/bar.html"),
-          "chrome-extension://fooooooooooooooooooooooooooooooo/bar.html",
+          GURL("decentr-extension://fooooooooooooooooooooooooooooooo/bar.html"),
+          "decentr-extension://fooooooooooooooooooooooooooooooo/bar.html",
       },
       {
           GURL(url::kAboutBlankURL),
@@ -120,7 +120,7 @@ void LocationBarModelTest::SetUp() {
       base::BindRepeating(&AutocompleteClassifierFactory::BuildInstanceFor));
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-  // Install a fake extension so that the ID in the chrome-extension test URL is
+  // Install a fake extension so that the ID in the decentr-extension test URL is
   // valid. Invalid extension URLs may result in error pages (if blocked by
   // ExtensionNavigationThrottle), which this test doesn't wish to exercise.
   extensions::TestExtensionSystem* extension_system =
@@ -226,7 +226,7 @@ TEST_F(LocationBarModelTest, ShouldDisplayURLWhileNavigatingAwayFromNTP) {
   LocationBarModel* location_bar_model = browser()->location_bar_model();
 
   // Open an NTP. Its URL should not be displayed.
-  AddTab(browser(), GURL("chrome://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
   ASSERT_FALSE(location_bar_model->ShouldDisplayURL());
   ASSERT_TRUE(location_bar_model->GetFormattedFullURL().empty());
 

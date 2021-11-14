@@ -6,17 +6,17 @@
  * @fileoverview 'settings-search-engine-entry' is a component for showing a
  * search engine with its name, domain and query URL.
  */
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
 import '../controls/extension_controlled_indicator.js';
 import './search_engine_entry_css.js';
 import '../settings_shared_css.js';
 import '../site_favicon.js';
 
-import {AnchorAlignment} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {FocusRowBehavior} from 'chrome://resources/js/cr/ui/focus_row_behavior.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AnchorAlignment} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {FocusRowBehavior} from 'decentr://resources/js/cr/ui/focus_row_behavior.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {SearchEngine, SearchEnginesBrowserProxy, SearchEnginesBrowserProxyImpl} from './search_engines_browser_proxy.js';
 

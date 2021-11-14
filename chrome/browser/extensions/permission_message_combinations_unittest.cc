@@ -519,7 +519,7 @@ TEST_F(PermissionMessageCombinationsUnittest, HostsPermissionMessages) {
       "{"
       "  'permissions': ["
       "    'http://*.go.com/',"
-      "    'chrome://favicon/',"
+      "    'decentr://favicon/',"
       "  ]"
       "}");
   ASSERT_TRUE(CheckManifestProducesPermissions(
@@ -532,7 +532,7 @@ TEST_F(PermissionMessageCombinationsUnittest, HostsPermissionMessages) {
       "{"
       "  'permissions': ["
       "    'http://*.go.com/',"
-      "    'chrome://favicon/',"
+      "    'decentr://favicon/',"
       "    'http://*.*',"
       "  ]"
       "}");

@@ -7,14 +7,14 @@
  * allows a user to pick their locale for Dictation's speech recognition.
  */
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/cr_elements/cr_scrollable_behavior.m.js';
-import 'chrome://resources/cr_elements/cr_search_field/cr_search_field.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import 'chrome://resources/polymer/v3_0/paper-ripple/paper-ripple.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_scrollable_behavior.m.js';
+import 'decentr://resources/cr_elements/cr_search_field/cr_search_field.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/polymer/v3_0/paper-ripple/paper-ripple.js';
 import '../../settings_shared_css.js';
 
 import {I18nBehavior, I18nBehaviorInterface} from '//resources/js/i18n_behavior.m.js';

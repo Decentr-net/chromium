@@ -3,13 +3,13 @@ The VpnProvider example demonstrates how to use the VpnProvider API.
 This NaCl SDK example can only be used as an extension on Chrome OS.
 
 == Compile ==
-Run "make" from this folder, then open up chrome://extensions
+Run "make" from this folder, then open up decentr://extensions
 in the browser select "Pack extension...", browse to examples/api/vpn_provider,
 click on "Open", then on "Pack extension" and "OK". Copy the .crx to the
 Chromebook.
 
 == Install ==
-To "sideload" an app or extension under Chrome OS, open up chrome://extensions
+To "sideload" an app or extension under Chrome OS, open up decentr://extensions
 in the browser on the Chromebook, then open the file manager with Alt-Shift-M,
 then drag the .crx file onto the extensions page.
 

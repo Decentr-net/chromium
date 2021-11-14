@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://settings/settings.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {waitAfterNextRender} from 'chrome://test/test_util.js';
+import 'decentr://settings/settings.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {waitAfterNextRender} from 'decentr://test/test_util.js';
 
 /** @fileoverview Suite of tests for settings-dropdown-menu. */
 suite('SettingsDropdownMenu', function() {

@@ -6,7 +6,7 @@ function testSendBeacon() {
 }
 
 const isolatedWorldId = 1;
-const isolatedWorldSecurityOrigin = 'chrome-extensions://123';
+const isolatedWorldSecurityOrigin = 'decentr-extensions://123';
 
 const tests = [
   function() {

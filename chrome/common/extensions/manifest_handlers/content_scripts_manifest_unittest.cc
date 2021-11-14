@@ -30,7 +30,7 @@ class ContentScriptsManifestTest : public ChromeManifestTest {
 
 TEST_F(ContentScriptsManifestTest, MatchPattern) {
   Testcase testcases[] = {
-      // chrome:// urls are not allowed.
+      // decentr:// urls are not allowed.
       Testcase("content_script_chrome_url_invalid.json",
                ErrorUtils::FormatErrorMessage(
                    errors::kInvalidMatch, base::NumberToString(0),

@@ -308,7 +308,7 @@ TEST_F(DocumentProviderTest, IsInputLikelyURL) {
   EXPECT_TRUE(IsInputLikelyURL_Wrapper("w"));
   EXPECT_TRUE(IsInputLikelyURL_Wrapper("www."));
   EXPECT_TRUE(IsInputLikelyURL_Wrapper("www.web.site"));
-  EXPECT_TRUE(IsInputLikelyURL_Wrapper("chrome://extensions"));
+  EXPECT_TRUE(IsInputLikelyURL_Wrapper("decentr://extensions"));
   EXPECT_FALSE(IsInputLikelyURL_Wrapper("https certificate"));
   EXPECT_FALSE(IsInputLikelyURL_Wrapper("www website hosting"));
   EXPECT_FALSE(IsInputLikelyURL_Wrapper("text query"));

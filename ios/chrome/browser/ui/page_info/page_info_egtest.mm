@@ -59,7 +59,7 @@
 // Tests that opening the page info on a Chromium page displays the correct
 // information.
 - (void)testShowPageInfoChromePage {
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
   [ChromeEarlGreyUI openPageInfo];
 
   // Checks that the page info view has appeared.

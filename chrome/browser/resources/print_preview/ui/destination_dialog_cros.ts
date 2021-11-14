@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/cr_elements/cr_searchable_drop_down/cr_searchable_drop_down.m.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/js/action_link.js';
-import 'chrome://resources/cr_elements/action_link_css.m.js';
-import 'chrome://resources/cr_elements/md_select_css.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_searchable_drop_down/cr_searchable_drop_down.m.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/js/action_link.js';
+import 'decentr://resources/cr_elements/action_link_css.m.js';
+import 'decentr://resources/cr_elements/md_select_css.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 import '../print_preview_utils.js';
 import './destination_dialog_css.js';
 import './destination_list.js';
@@ -23,13 +23,13 @@ import '../strings.m.js';
 import './throbber_css.js';
 import './destination_list_item.js';
 
-import {CrDialogElement} from 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {ListPropertyUpdateBehavior} from 'chrome://resources/js/list_property_update_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {WebUIListenerBehavior} from 'chrome://resources/js/web_ui_listener_behavior.m.js';
-import {beforeNextRender, html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrDialogElement} from 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {ListPropertyUpdateBehavior} from 'decentr://resources/js/list_property_update_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {WebUIListenerBehavior} from 'decentr://resources/js/web_ui_listener_behavior.m.js';
+import {beforeNextRender, html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Destination, GooglePromotedDestinationId} from '../data/destination.js';
 import {DestinationStore, DestinationStoreEventType} from '../data/destination_store.js';

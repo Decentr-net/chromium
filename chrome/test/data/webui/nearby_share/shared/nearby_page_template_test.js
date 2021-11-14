@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://nearby/shared/nearby_page_template.m.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://nearby/shared/nearby_page_template.m.js';
 // #import {waitAfterNextRender, isChildVisible} from '../../test_util.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 // clang-format on

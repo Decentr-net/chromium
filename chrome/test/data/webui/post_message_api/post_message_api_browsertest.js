@@ -15,7 +15,7 @@ PostMessageAPIModuleTest.prototype = {
 
   /** @override */
   browsePreload:
-      'chrome://chrome-signin/test_loader.html?module=post_message_api/post_message_api_test.js',
+      'decentr://chrome-signin/test_loader.html?module=post_message_api/post_message_api_test.js',
 
   extraLibraries: [
     '//third_party/mocha/mocha.js',

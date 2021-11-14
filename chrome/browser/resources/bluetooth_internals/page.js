@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {dispatchPropertyChange} from 'chrome://resources/js/cr.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {getRequiredElement} from 'chrome://resources/js/util.m.js';
+import {dispatchPropertyChange} from 'decentr://resources/js/cr.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {getRequiredElement} from 'decentr://resources/js/util.m.js';
 
 /**
  * Finds a good place to set initial focus. Generally called when UI is shown.

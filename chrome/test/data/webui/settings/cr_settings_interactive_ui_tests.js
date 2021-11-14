@@ -14,7 +14,7 @@ GEN('#include "content/public/test/browser_test.h"');
 var CrSettingsInteractiveUITest = class extends PolymerInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings';
+    return 'decentr://settings';
   }
 };
 
@@ -22,7 +22,7 @@ var CrSettingsInteractiveUITest = class extends PolymerInteractiveUITest {
 var CrSettingsAnimatedPagesTest = class extends CrSettingsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/settings_animated_pages_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/settings_animated_pages_test.js';
   }
 };
 
@@ -34,7 +34,7 @@ TEST_F('CrSettingsAnimatedPagesTest', 'All', function() {
 var CrSettingsPaymentsSectionTest = class extends CrSettingsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/payments_section_interactive_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/payments_section_interactive_test.js';
   }
 };
 
@@ -46,7 +46,7 @@ TEST_F('CrSettingsPaymentsSectionTest', 'All', function() {
 var CrSettingsSyncPageTest = class extends CrSettingsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/people_page_sync_page_interactive_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/people_page_sync_page_interactive_test.js';
   }
 };
 
@@ -58,7 +58,7 @@ TEST_F('CrSettingsSyncPageTest', 'All', function() {
 var CrSettingsSecureDnsTest = class extends CrSettingsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/secure_dns_interactive_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/secure_dns_interactive_test.js';
   }
 };
 
@@ -70,7 +70,7 @@ TEST_F('CrSettingsSecureDnsTest', 'All', function() {
 var SettingsUIInteractiveTest = class extends CrSettingsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/settings_ui_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/settings_ui_tests.js';
   }
 };
 
@@ -110,7 +110,7 @@ TEST_F('SettingsUIInteractiveTest', 'MAYBE_SettingsUISearch', function() {
 var CrSettingsMenuInteractiveTest = class extends CrSettingsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/settings_menu_interactive_ui_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/settings_menu_interactive_ui_test.js';
   }
 };
 

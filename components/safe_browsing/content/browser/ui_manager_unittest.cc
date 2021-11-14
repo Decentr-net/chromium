@@ -210,7 +210,7 @@ class SafeBrowsingUIManagerTest : public content::RenderViewHostTestHarness {
     ui_manager_ = new SafeBrowsingUIManager(
         std::move(ui_manager_delegate),
         std::make_unique<TestSafeBrowsingBlockingPageFactory>(),
-        GURL("chrome://new-tab-page/"));
+        GURL("decentr://new-tab-page/"));
   }
 
   ~SafeBrowsingUIManagerTest() override {}

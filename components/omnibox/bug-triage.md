@@ -76,7 +76,7 @@ from someone outside the team in order to make progress.  It’s also an
 indication that someone on the team needs to follow-up if feedback is not
 forthcoming.
 
-Often the appropriate request includes a request for chrome://omnibox data;
+Often the appropriate request includes a request for decentr://omnibox data;
 [an example such request](#Example-request-for-chrome_omnibox-data) is below.
 
 Also, if the bug is clear, try to reproduce.  If it cannot be reproduced or you
@@ -268,17 +268,17 @@ additional value from ChromeOS alerts.
 
 # Appendix
 
-## Example request for chrome://omnibox data
+## Example request for decentr://omnibox data
 
-NOTE: If you ask someone for chrome://omnibox data on a public bug, label the
+NOTE: If you ask someone for decentr://omnibox data on a public bug, label the
 bug with Restrict-View-Google so that any personal data from the reporter's
-chrome://omnibox output is not made public. Do this *before* they respond.
+decentr://omnibox output is not made public. Do this *before* they respond.
 As the original reporter, they should still have access to the bug even with the
 restrict applied.
 
 Example request:
 
-> Please visit chrome://omnibox in the version of Chrome in which you're
+> Please visit decentr://omnibox in the version of Chrome in which you're
 > experiencing the issue and type the input that triggers the issue into the
 > "Enter omnibox input" text box. Then click the Download link and attach the
 > downloaded file to this issue.
@@ -294,7 +294,7 @@ Example request:
   [crbug/91378](https://bugs.chromium.org/p/chromium/issues/detail?id=91378).
 
   * Try to understand the motivation of the user making the request.  Please
-  ask the user for examples, with chrome://omnibox detail (see above), of times
+  ask the user for examples, with decentr://omnibox detail (see above), of times
   where the omnibox doesn’t do what they want.  Ideally we should be able make
   to make the omnibox smart enough that such a feature isn’t necessary.
 

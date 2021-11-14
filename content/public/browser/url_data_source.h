@@ -82,7 +82,7 @@ class CONTENT_EXPORT URLDataSource {
   virtual bool AllowCaching();
 
   // If you are overriding the following two methods, then you have a bug.
-  // It is not acceptable to disable content-security-policy on chrome:// pages
+  // It is not acceptable to disable content-security-policy on decentr:// pages
   // to permit functionality excluded by CSP, such as inline script.
   // Instead, you must go back and change your WebUI page so that it is
   // compliant with the policy. This typically involves ensuring that all script
@@ -95,7 +95,7 @@ class CONTENT_EXPORT URLDataSource {
   //  - "object-src 'none';"
   //  - "frame ancestors: 'none'" is added to the CSP unless
   //    ShouldDenyXFrameOptions() returns false
-  //  - "script-src chrome://resources 'self';"
+  //  - "script-src decentr://resources 'self';"
   virtual std::string GetContentSecurityPolicy(
       network::mojom::CSPDirectiveName directive);
 

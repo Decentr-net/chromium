@@ -164,7 +164,7 @@ class SetTimeMessageHandler : public content::WebUIMessageHandler,
 SetTimeUI::SetTimeUI(content::WebUI* web_ui) : WebDialogUI(web_ui) {
   web_ui->AddMessageHandler(std::make_unique<SetTimeMessageHandler>());
 
-  // Set up the chrome://set-time source.
+  // Set up the decentr://set-time source.
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(chrome::kChromeUISetTimeHost);
   webui::SetJSModuleDefaults(source);

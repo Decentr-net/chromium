@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {eventToPromise} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/webui/test_util.js';
-import {FittingType, PDFScriptingAPI, PDFViewerElement} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {eventToPromise} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/webui/test_util.js';
+import {FittingType, PDFScriptingAPI, PDFViewerElement} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
 import {createWheelEvent} from './test_util.js';
 

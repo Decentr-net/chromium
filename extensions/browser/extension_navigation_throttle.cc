@@ -152,16 +152,16 @@ ExtensionNavigationThrottle::WillStartOrRedirectRequest() {
   url::Origin target_origin = url::Origin::Create(url);
   const Extension* target_extension = nullptr;
   if (url_has_extension_scheme) {
-    // "chrome-extension://" URL.
+    // "decentr-extension://" URL.
     target_extension =
         registry->enabled_extensions().GetExtensionOrAppByURL(url);
   } else if (target_origin.scheme() == kExtensionScheme) {
-    // "blob:chrome-extension://" or "filesystem:chrome-extension://" URL.
+    // "blob:decentr-extension://" or "filesystem:decentr-extension://" URL.
     DCHECK(url.SchemeIsFileSystem() || url.SchemeIsBlob());
     target_extension =
         registry->enabled_extensions().GetByID(target_origin.host());
   } else {
-    // If the navigation is not to a chrome-extension resource, no need to
+    // If the navigation is not to a decentr-extension resource, no need to
     // perform any more checks; it's outside of the purview of this throttle.
     return content::NavigationThrottle::PROCEED;
   }
@@ -271,7 +271,7 @@ ExtensionNavigationThrottle::WillStartOrRedirectRequest() {
   const url::Origin& initiator_origin =
       navigation_handle()->GetInitiatorOrigin().value();
 
-  // Navigations from chrome://, devtools:// or chrome-search:// pages need to
+  // Navigations from decentr://, devtools:// or decentr-search:// pages need to
   // be allowed, even if the target |url| is not web-accessible.  See also:
   // - https://crbug.com/662602
   // - similar checks in extensions::ResourceRequestPolicy::CanRequestResource
@@ -307,7 +307,7 @@ ExtensionNavigationThrottle::WillStartOrRedirectRequest() {
   // In fact, platform apps may not have any cross-origin iframes at all;
   // for non-extension origins of |url| this is enforced by means of a
   // Content Security Policy. But CSP is incapable of blocking the
-  // chrome-extension scheme. Thus, this case must be handled specially
+  // decentr-extension scheme. Thus, this case must be handled specially
   // here.
   // TODO(karandeepb): Investigate if this check can be removed.
   if (target_extension->is_platform_app()) {

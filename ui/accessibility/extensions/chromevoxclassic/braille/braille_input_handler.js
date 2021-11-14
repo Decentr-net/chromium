@@ -94,7 +94,7 @@ cvox.BrailleInputHandler = function(translatorManager) {
  * @private
  */
 cvox.BrailleInputHandler.IME_EXTENSION_ORIGIN_ =
-    'chrome-extension://jddehjeebkoimngcbdkaahpobgicbffp';
+    'decentr-extension://jddehjeebkoimngcbdkaahpobgicbffp';
 
 /**
  * Name of the port to use for communicating with the Braille IME.

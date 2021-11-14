@@ -83,19 +83,19 @@
   }
 
   #folderIcon {
-    background-image: url(chrome://theme/IDR_FOLDER_CLOSED);
+    background-image: url(decentr://theme/IDR_FOLDER_CLOSED);
   }
 
   /**
    * Folder icons are OS-specific. On Mac, there is a separate folder icon
    * for dark mode; on non-Mac, there is a separate folder icon for open states
    * and the icon for that is slightly larger. This is mirroring the icons
-   * used in chrome://bookmarks.
+   * used in decentr://bookmarks.
    */
 <if expr="is_macosx">
   @media (prefers-color-scheme: dark) {
     #folderIcon {
-      background-image: url(chrome://theme/IDR_FOLDER_CLOSED_WHITE);
+      background-image: url(decentr://theme/IDR_FOLDER_CLOSED_WHITE);
     }
   }
 </if>
@@ -107,7 +107,7 @@
     }
 
     #folderIcon[open] {
-      background-image: url(chrome://theme/IDR_FOLDER_OPEN);
+      background-image: url(decentr://theme/IDR_FOLDER_OPEN);
     }
 </if>
 

@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview js2gtest wrapper for the chrome://help-app test suite. Actual
+ * @fileoverview js2gtest wrapper for the decentr://help-app test suite. Actual
  * test implementations live in help_app_ui_browsertest.js and
  * help_app_guest_ui_browsertest.js.
  */
@@ -12,7 +12,7 @@ GEN('#include "ash/webui/help_app_ui/test/help_app_ui_browsertest.h"');
 GEN('#include "ash/constants/ash_features.h"');
 GEN('#include "content/public/test/browser_test.h"');
 
-const HOST_ORIGIN = 'chrome://help-app';
+const HOST_ORIGIN = 'decentr://help-app';
 
 // js2gtest fixtures require var here (https://crbug.com/1033337).
 // eslint-disable-next-line no-var

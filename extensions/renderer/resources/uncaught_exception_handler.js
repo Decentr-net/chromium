@@ -76,7 +76,7 @@ function filterExtensionStackTrace(stack) {
   // extension, to not confuse extension developers with internal details.
   stack = $String.split(stack, '\n');
   stack = $Array.filter(stack, function(line) {
-    return $String.indexOf(line, 'chrome-extension://') >= 0;
+    return $String.indexOf(line, 'decentr-extension://') >= 0;
   });
   return $Array.join(stack, '\n');
 }

@@ -4,7 +4,7 @@
 
 /** A pipe through which we can send messages to the untrusted frame. */
 const untrustedMessagePipe =
-    new MessagePipe('chrome-untrusted://system-app-test');
+    new MessagePipe('decentr-untrusted://system-app-test');
 
 /**
  * Promise that signals the guest is ready to receive test messages.

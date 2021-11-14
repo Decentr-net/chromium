@@ -13,7 +13,7 @@ class LocationBarView;
 // A less prominent version of `PermissionRequestChip`. It is used to display a
 // permission request from origins with an abusive reputation, low acceptance
 // rate, or if a user manually enabled "quieter messaging" in
-// chrome://settings/content/notifications.
+// decentr://settings/content/notifications.
 class PermissionQuietChip : public PermissionChip {
  public:
   METADATA_HEADER(PermissionQuietChip);

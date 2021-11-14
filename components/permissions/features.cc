@@ -33,7 +33,7 @@ const base::Feature kPermissionChip{"PermissionChip",
                                     base::FEATURE_DISABLED_BY_DEFAULT};
 
 // Enables an experimental less prominent permission prompt that uses a chip in
-// the location bar. Requires chrome://flags/#quiet-notification-prompts to be
+// the location bar. Requires decentr://flags/#quiet-notification-prompts to be
 // enabled.
 const base::Feature kPermissionQuietChip{"PermissionQuietChip",
                                          base::FEATURE_DISABLED_BY_DEFAULT};

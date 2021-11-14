@@ -14,7 +14,7 @@ public class CreditUtils {
 
     @NativeMethods
     public interface Natives {
-        /** Writes the chrome://credits HTML to the given descriptor. */
+        /** Writes the decentr://credits HTML to the given descriptor. */
         void writeCreditsHtml(int fd);
     }
 }

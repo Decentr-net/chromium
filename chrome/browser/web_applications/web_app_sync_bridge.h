@@ -101,7 +101,7 @@ class WebAppSyncBridge : public syncer::ModelTypeSyncBridge {
   void SetAppWindowControlsOverlayEnabled(const AppId& app_id, bool enabled);
 
   // These methods are used by extensions::AppSorting, which manages the sorting
-  // of web apps on chrome://apps.
+  // of web apps on decentr://apps.
   void SetUserPageOrdinal(const AppId& app_id,
                           syncer::StringOrdinal user_page_ordinal);
   void SetUserLaunchOrdinal(const AppId& app_id,

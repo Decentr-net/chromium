@@ -6,17 +6,17 @@ import './iframe.js';
 import './realbox/realbox.js';
 import './logo.js';
 import './modules/modules.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {ClickInfo, Command} from 'chrome://resources/js/browser_command/browser_command.mojom-webui.js';
-import {BrowserCommandProxy} from 'chrome://resources/js/browser_command/browser_command_proxy.js';
-import {hexColorToSkColor, skColorToRgba} from 'chrome://resources/js/color_utils.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {SkColor} from 'chrome://resources/mojo/skia/public/mojom/skcolor.mojom-webui.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {ClickInfo, Command} from 'decentr://resources/js/browser_command/browser_command.mojom-webui.js';
+import {BrowserCommandProxy} from 'decentr://resources/js/browser_command/browser_command_proxy.js';
+import {hexColorToSkColor, skColorToRgba} from 'decentr://resources/js/color_utils.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {SkColor} from 'decentr://resources/mojo/skia/public/mojom/skcolor.mojom-webui.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BackgroundManager} from './background_manager.js';
 import {BackgroundSelection, BackgroundSelectionType, CustomizeDialogPage} from './customize_dialog_types.js';
@@ -95,7 +95,7 @@ class AppElement extends mixinBehaviors
           params.set(
               'paramsencoded',
               btoa(window.location.search.replace(/^[?]/, '&')));
-          return `chrome-untrusted://new-tab-page/one-google-bar?${params}`;
+          return `decentr-untrusted://new-tab-page/one-google-bar?${params}`;
         },
       },
 

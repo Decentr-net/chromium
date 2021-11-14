@@ -15,13 +15,13 @@ namespace chromeos {
 namespace {
 // List of pages, which along with their subpages are allowed in kiosk mode.
 KioskSettingsNavigationThrottle::SettingsPage kSettingsPages[] = {
-    {"chrome://os-settings/manageAccessibility", true},
-    {"chrome-extension://mndnfokpggljbaajbnioimlmbfngpief/chromevox/options/"
+    {"decentr://os-settings/manageAccessibility", true},
+    {"decentr-extension://mndnfokpggljbaajbnioimlmbfngpief/chromevox/options/"
      "options.html",
      false},
-    {"chrome-extension://klbcgckkldhdhonijdbnhhaiedfkllef/", true},
-    {"chrome-extension://gjjabgpgjpampikjhjpfhneeoapjbjaf/", true},
-    {"chrome-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/", true}};
+    {"decentr-extension://klbcgckkldhdhonijdbnhhaiedfkllef/", true},
+    {"decentr-extension://gjjabgpgjpampikjhjpfhneeoapjbjaf/", true},
+    {"decentr-extension://dakbfdmgjiabojdgbiljlhgjbokobjpg/", true}};
 
 // This list is used in tests to replace default |kSettingsPages| items.
 std::vector<KioskSettingsNavigationThrottle::SettingsPage>*

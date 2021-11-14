@@ -31,7 +31,7 @@ def getNestedShadowDom(driver, selectors):
 
 def RunTest(driver):
   # The extension must be visible on the extensions page.
-  driver.get("chrome://extensions")
+  driver.get("decentr://extensions")
 
   # It's nested within a couple of shadow doms on the page - extract it.
   print("Looking for extension on extensions page: %s" % FLAGS.extension_id)

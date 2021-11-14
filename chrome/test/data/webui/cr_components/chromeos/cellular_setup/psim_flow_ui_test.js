@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/psim_flow_ui.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/psim_flow_ui.m.js';
 
-// #import {PSimUIState, PSimPageName, PSimSetupFlowResult, PSIM_SETUP_RESULT_METRIC_NAME, SUCCESSFUL_PSIM_SETUP_DURATION_METRIC_NAME, FAILED_PSIM_SETUP_DURATION_METRIC_NAME} from 'chrome://resources/cr_components/chromeos/cellular_setup/psim_flow_ui.m.js';
-// #import {setCellularSetupRemoteForTesting} from 'chrome://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {PSimUIState, PSimPageName, PSimSetupFlowResult, PSIM_SETUP_RESULT_METRIC_NAME, SUCCESSFUL_PSIM_SETUP_DURATION_METRIC_NAME, FAILED_PSIM_SETUP_DURATION_METRIC_NAME} from 'decentr://resources/cr_components/chromeos/cellular_setup/psim_flow_ui.m.js';
+// #import {setCellularSetupRemoteForTesting} from 'decentr://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {assertTrue} from '../../../chai_assert.js';
-// #import {ButtonState} from 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
+// #import {ButtonState} from 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
 // #import {FakeCellularSetupDelegate} from './fake_cellular_setup_delegate.m.js';
 // #import {FakeCarrierPortalHandlerRemote, FakeCellularSetupRemote} from './fake_cellular_setup_remote.m.js';
 // #import {MockMetricsPrivate} from './mock_metrics_private.m.js';
-// #import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
+// #import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
 // clang-format on
 
 suite('CrComponentsPsimFlowUiTest', function() {

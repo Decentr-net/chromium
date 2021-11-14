@@ -122,7 +122,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionSettingsUIBrowserTest, ViewSource) {
   // Navigate to an in-page (guest-view-based) extension options page
   // and grab the WebContents hosting the options page.
   const extensions::Extension* extension = InstallExtensionWithInPageOptions();
-  GURL options_url("chrome://extensions/?options=" + extension->id());
+  GURL options_url("decentr://extensions/?options=" + extension->id());
   content::WebContents* options_contents = nullptr;
   {
     content::WebContentsAddedObserver options_contents_added_observer;
@@ -173,7 +173,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionSettingsUIBrowserTest, ViewSource) {
 }
 
 // Verify that listeners for the developer private API are only registered
-// when there is a chrome://extensions page open. This is important, since some
+// when there is a decentr://extensions page open. This is important, since some
 // of the event construction can be expensive.
 IN_PROC_BROWSER_TEST_F(ExtensionSettingsUIBrowserTest, ListenerRegistration) {
   Profile* profile = browser()->profile();
@@ -196,7 +196,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionSettingsUIBrowserTest, ListenerRegistration) {
   }
 
   ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("chrome://extensions"),
+      browser(), GURL("decentr://extensions"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP);
 
@@ -219,9 +219,9 @@ IN_PROC_BROWSER_TEST_F(ExtensionSettingsUIBrowserTest, ListenerRegistration) {
 
 IN_PROC_BROWSER_TEST_F(ExtensionSettingsUIBrowserTest,
                        ActivityLogInactiveWithoutSwitch) {
-  // Navigate to chrome://extensions which is a allowlisted URL for the
+  // Navigate to decentr://extensions which is a allowlisted URL for the
   // chrome.activityLogPrivate API.
-  GURL extensions_url("chrome://extensions");
+  GURL extensions_url("decentr://extensions");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), extensions_url));
   content::WebContents* page_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
@@ -261,7 +261,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionsActivityLogTest, TestActivityLogVisible) {
       test_data_dir.AppendASCII("activity_log/simple_call"));
   ASSERT_TRUE(listener.WaitUntilSatisfied());
 
-  GURL activity_log_url("chrome://extensions/?activity=" + extension->id());
+  GURL activity_log_url("decentr://extensions/?activity=" + extension->id());
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), activity_log_url));
   content::WebContents* activity_log_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
@@ -272,7 +272,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionsActivityLogTest, TestActivityLogVisible) {
   // that is the only API call the simple_call.crx extension does.
   // The querySelectors and shadowRoots are used here in order to penetrate
   // multiple nested shadow DOMs created by Polymer components
-  // in the chrome://extensions page.
+  // in the decentr://extensions page.
   // See chrome/browser/resources/extensions for the Polymer code.
   // This test only serves as an end to end test, and most of the functionality
   // is covered in the JS unit tests.
@@ -285,7 +285,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionsActivityLogTest, TestActivityLogVisible) {
          let activityLogHistory =
              activityLog.shadowRoot.querySelector('activity-log-history');
          const polymerPath =
-             'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+             'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
          Promise.all([
            activityLogHistory.whenDataFetched(),
            import(polymerPath),

@@ -36,7 +36,7 @@ public class NativePageTest {
             new UrlCombo("chrome-native://bookmarks/#245", NativePageType.BOOKMARKS),
             new UrlCombo("chrome-native://recent-tabs", NativePageType.RECENT_TABS),
             new UrlCombo("chrome-native://recent-tabs/", NativePageType.RECENT_TABS),
-            new UrlCombo("chrome://history/", NativePageType.HISTORY)};
+            new UrlCombo("decentr://history/", NativePageType.HISTORY)};
 
     public static final String[] INVALID_URLS = {
             null,
@@ -45,8 +45,8 @@ public class NativePageTest {
             "newtab@google.com:80",
             "/newtab",
             "://newtab",
-            "chrome://",
-            "chrome://most_visited",
+            "decentr://",
+            "decentr://most_visited",
             "chrome-native://",
             "chrome-native://newtablet",
             "chrome-native://bookmarks-inc",

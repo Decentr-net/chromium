@@ -6,20 +6,20 @@
  * @fileoverview 'settings-import-data-dialog' is a component for importing
  * bookmarks and other data from other sources.
  */
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/cr_elements/md_select_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/md_select_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
 import '../controls/settings_checkbox.js';
 import '../controls/settings_toggle_button.js';
 import '../icons.js';
 import '../settings_vars_css.js';
 
-import {CrDialogElement} from 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import {I18nMixin} from 'chrome://resources/js/i18n_mixin.js';
-import {WebUIListenerMixin} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrDialogElement} from 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import {I18nMixin} from 'decentr://resources/js/i18n_mixin.js';
+import {WebUIListenerMixin} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {SettingsCheckboxElement} from '../controls/settings_checkbox.js';
 import {loadTimeData} from '../i18n_setup.js';

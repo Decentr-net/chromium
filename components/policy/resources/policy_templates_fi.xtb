@@ -499,7 +499,7 @@
 
       Voit määritellä poikkeuksia käyttämällä sallittujen URL-osoitteiden luettelon käytäntöä. Voit lisätä näihin käytäntöihin enintään 1 000 merkintää, ja tämän rajan ylittävät merkinnät ohitetaan.
 
-      Huomaa, että sisäisten chrome://*-osoitteiden estämistä ei suositella, sillä se voi aiheuttaa odottamattomia virheitä.
+      Huomaa, että sisäisten decentr://*-osoitteiden estämistä ei suositella, sillä se voi aiheuttaa odottamattomia virheitä.
 
       M73-versiosta alkaen voit estää 'javascript://*' ‑osoitteet. Se vaikuttaa kuitenkin vain osoitepalkkiin kirjoitettuun JavaScriptiin (tai esimerkiksi aktiivisiin kirjanmerkkeihin). Käytäntö ei koska sivulla olevia JavaScript-osoitteita, jos ne ladataan dynaamisesti. Jos estät esimerkiksi osoitteen example.com/abc, käyttäjät voivat silti siirtyä osoitteeseen example.com ja ladata example.com/abc-linkin XMLHTTP-pyynnöllä.
 
@@ -660,7 +660,7 @@
       uudelleenkäynnistyksen yhteydessä.</translation>
 <translation id="2138449619211358657">Tämä käytäntö määrittää, saako <ph name="PRODUCT_OS_NAME" /> ohittaa välityspalvelimet captive portal ‑todennuksen yhteydessä.
 
-      Tämä käytäntö on voimassa vain silloin, kun välityspalvelin on määritetty (esimerkiksi käytännön tai laajennuksen kautta tai käyttäjän itsensä määrittämänä chrome://settings-kohdasta).
+      Tämä käytäntö on voimassa vain silloin, kun välityspalvelin on määritetty (esimerkiksi käytännön tai laajennuksen kautta tai käyttäjän itsensä määrittämänä decentr://settings-kohdasta).
 
       Jos tämä asetus on käytössä, kaikki captive portal ‑todennussivut (eli kaikki avautuvat verkkosivut captive portal ‑kirjautumissivun avaamisesta siihen saakka, että <ph name="PRODUCT_NAME" /> toteaa internetyhteyden muodostamisen onnistuneen) avautuvat erillisessä ikkunassa ja ohittavat kaikki nykyistä käyttäjää koskevat käytäntöasetukset ja rajoitukset.
 
@@ -681,15 +681,15 @@
 <translation id="2170233653554726857">Ota WPAD-optimointi käyttöön</translation>
 <translation id="2176565653304920879">Kun tämä käytäntö on määritetty, aikavyöhykkeen automaattinen tunnistaminen tapahtuu jollakin seuraavista tavoista, määritetystä arvosta riippuen:
 
-      Jos arvo on TimezoneAutomaticDetectionUsersDecide, käyttäjät voivat hallita aikavyöhykkeen tunnistamista normaalisti osoitteessa chrome://settings.
+      Jos arvo on TimezoneAutomaticDetectionUsersDecide, käyttäjät voivat hallita aikavyöhykkeen tunnistamista normaalisti osoitteessa decentr://settings.
 
-      Jos arvo on TimezoneAutomaticDetectionDisabled, osoitteen chrome://settings automaattiset aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina poissa käytöstä.
+      Jos arvo on TimezoneAutomaticDetectionDisabled, osoitteen decentr://settings automaattiset aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina poissa käytöstä.
 
-      Jos arvo on TimezoneAutomaticDetectionIPOnly, osoitteen chrome://settings aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina käytössä. Aikavyöhyke tunnistetaan sijainnista, joka perustuu pelkkään IP-osoitteeseen.
+      Jos arvo on TimezoneAutomaticDetectionIPOnly, osoitteen decentr://settings aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina käytössä. Aikavyöhyke tunnistetaan sijainnista, joka perustuu pelkkään IP-osoitteeseen.
 
-      Jos arvo on TimezoneAutomaticDetectionSendWiFiAccessPoints, osoitteen chrome://settings aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina käytössä. Aikavyöhyke tunnistetaan aina tarkasti lähettämällä näkyvien Wi-Fi-tukiasemien luettelo sijainnin sovellusliittymän palvelimelle.
+      Jos arvo on TimezoneAutomaticDetectionSendWiFiAccessPoints, osoitteen decentr://settings aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina käytössä. Aikavyöhyke tunnistetaan aina tarkasti lähettämällä näkyvien Wi-Fi-tukiasemien luettelo sijainnin sovellusliittymän palvelimelle.
 
-      Jos arvo on TimezoneAutomaticDetectionSendAllLocationInfo, osoitteen chrome://settings aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina käytössä. Aikavyöhyke tunnistetaan aina tarkasti lähettämällä palvelimelle sijaintitietoja (esim. Wi-Fin ja matkapuhelinverkon tukiasemia ja GPS-signaaleja).
+      Jos arvo on TimezoneAutomaticDetectionSendAllLocationInfo, osoitteen decentr://settings aikavyöhykevalinnat poistetaan käytöstä. Aikavyöhykkeen automaattinen tunnistaminen on aina käytössä. Aikavyöhyke tunnistetaan aina tarkasti lähettämällä palvelimelle sijaintitietoja (esim. Wi-Fin ja matkapuhelinverkon tukiasemia ja GPS-signaaleja).
 
       Jos käytännölle ei määritetä arvoa, se käyttäytyy arvon TimezoneAutomaticDetectionUsersDecide mukaisesti.
 
@@ -1231,9 +1231,9 @@ Kaikki luettelon kohteet ovat tunnuksia, joiden perusteella erotetaan laitteesee
       Jos tätä käytäntöä ei aseteta tai jos sen arvo on epätosi, TLS:n DHE-salaustekniikoita ei oteta käyttöön. Jos yhteensopivuus vanhentuneen palvelimen kanssa täytyy varmistaa, arvoksi voidaan asettaa tosi. Tämä on kuitenkin tilapäinen toimenpide, ja palvelimen määritykset tulee tehdä uudelleen.
 
       ECDHE-salaustekniikoihin siirtymistä suositellaan palvelimille. Jos näitä tekniikoita ei ole saatavilla, varmista, että käytössä on RSA-avainvaihtoa käyttävä salaustekniikka.</translation>
-<translation id="3117706142826400449">Jos tämä käytäntö on poistettu käytöstä, Chrome Cleanup ei voi tarkistaa järjestelmää ei-toivottujen ohjelmistojen varalta tai puhdistaa sitä. Chrome Cleanupia ei voi käynnistää manuaalisesti osoitteessa chrome://settings/cleanup.
+<translation id="3117706142826400449">Jos tämä käytäntö on poistettu käytöstä, Chrome Cleanup ei voi tarkistaa järjestelmää ei-toivottujen ohjelmistojen varalta tai puhdistaa sitä. Chrome Cleanupia ei voi käynnistää manuaalisesti osoitteessa decentr://settings/cleanup.
 
-      Jos tämä käytäntö on käytössä tai sitä ei ole määritetty, Chrome Cleanup tarkistaa järjestelmän ajoittain ei-toivottujen ohjelmistojen varalta. Jos tällaisia ohjelmistoja löytyy, käyttäjältä kysytään, poistetaanko ne. Chrome Cleanup voidaan käynnistää manuaalisesti osoitteessa chrome://settings.
+      Jos tämä käytäntö on käytössä tai sitä ei ole määritetty, Chrome Cleanup tarkistaa järjestelmän ajoittain ei-toivottujen ohjelmistojen varalta. Jos tällaisia ohjelmistoja löytyy, käyttäjältä kysytään, poistetaanko ne. Chrome Cleanup voidaan käynnistää manuaalisesti osoitteessa decentr://settings.
 
       Tämä käytäntö on käytettävissä vain Windows-esiintymissä, jotka on yhdistetty <ph name="MS_AD_NAME" /> ‑verkkotunnukseen, tai Windows 10 Pro- ja Enterprise ‑esiintymissä, jotka on rekisteröity laitteiden hallinnointiohjelmaan.</translation>
 <translation id="3152425128389603870">Salli yhtenäisen työpöydän tilan käyttö ja pidä se oletuksena käytössä</translation>
@@ -1281,7 +1281,7 @@ Kaikki luettelon kohteet ovat tunnuksia, joiden perusteella erotetaan laitteesee
 Jos tämä asetus on käytössä tai sitä ei ole määritetty, käyttäjät voivat ottaa pilvitulostuksen välityspalvelimen käyttöön todentamalla sen Google-tilinsä avulla.
 
 Jos asetus ei ole käytössä, käyttäjät eivät voi ottaa välityspalvelinta käyttöön eikä kone voi jakaa tulostimiaan palvelussa <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Ottaa osoitteessa chrome://password-change käyttöön sivun, jossa SAML-käyttäjät voivat vaihtaa SAML-salasanansa käyttökerran aikana, mikä varmistaa sen, että SAML-salasana ja laitteen lukitusnäyttö pysyvät synkronoituina.
+<translation id="3312206664202507568">Ottaa osoitteessa decentr://password-change käyttöön sivun, jossa SAML-käyttäjät voivat vaihtaa SAML-salasanansa käyttökerran aikana, mikä varmistaa sen, että SAML-salasana ja laitteen lukitusnäyttö pysyvät synkronoituina.
 
       Tämä käytäntö ottaa myös käyttöön ilmoitukset, jotka varoittavat SAML-käyttäjiä, kun heidän SAML-salasanansa ovat vanhentumassa, jotta he voivat välittömästi vaihtaa salasanan käyttökerran aikana.
       Nämä ilmoitukset näytetään vain, jos SAML-tunnistustietojen tarjoaja lähettää salasanan vanhentumistiedot laitteelle SAML-kirjautumisprosessin aikana.
@@ -2033,7 +2033,7 @@ Jos asetus ei ole käytössä, käyttäjät eivät voi ottaa välityspalvelinta 
       Tällä asetuksella (SitePerProcess) voidaan estää käyttäjiä lopettamasta oletuskäytös, kaikkien sivustojen erilläänpito. Huomaa, että IsolateOrigins voi myös olla hyödyllinen eristettäessä muita, tarkemmin määritettyjä alkuperiä.
       Jos käytäntö on käytössä, käyttäjä voi lopettaa oletuskäyttäytymisen eli oman prosessin suorittamisen joka sivustolla.
       Jos käytäntöä ei määritetä tai se poistetaan käytöstä, käyttäjä voi poistaa sivustojen erilläänpidon käytöstä
-      (esimerkiksi chrome://flags-valinnalla Älä pidä sivustoja erillään).  Sivustojen erilläänpito ei poistu käytöstä, vaikka käytäntö poistetaan käytöstä tai sitä ei määritetä.
+      (esimerkiksi decentr://flags-valinnalla Älä pidä sivustoja erillään).  Sivustojen erilläänpito ei poistu käytöstä, vaikka käytäntö poistetaan käytöstä tai sitä ei määritetä.
       Suositus (<ph name="PRODUCT_OS_NAME" />, versio 76 ja sitä vanhemmat): aseta sama arvo myös laitekäytännölle <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" />. Jos näiden kahden käytännön arvot eivät täsmää, käyttökerran aloittaminen voi viivästyä käyttäjäkäytännössä määritetyn arvon hakemisen vuoksi.
 
       HUOM. Tämä käytäntö ei koske Androidia. Jos haluat ottaa SitePerProcess-asetuksen käyttöön Androidilla, käytä SitePerProcessAndroid-käytännön asetusta.
@@ -2902,7 +2902,7 @@ Jos tämä asetus ei ole käytössä tai jos sen arvo on false, tulostuskomento 
 
           Jos otat tämän asetuksen käyttöön, etusivuna käytetään aina Uusi välilehti ‑sivua ja etusivun URL-osoite ohitetaan.
 
-          Jos poistat tämän asetuksen käytöstä, käyttäjän etusivuna käytetään Uusi välilehti ‑sivua vain siinä tapauksessa, että etusivun URL-osoitteeksi on määritetty chrome://newtab.
+          Jos poistat tämän asetuksen käytöstä, käyttäjän etusivuna käytetään Uusi välilehti ‑sivua vain siinä tapauksessa, että etusivun URL-osoitteeksi on määritetty decentr://newtab.
 
           Jos otat tämän asetuksen käyttöön tai poistat sen käytöstä, käyttäjät eivät voi valita, minkä tyyppistä etusivua <ph name="PRODUCT_NAME" /> käyttää.
 
@@ -3074,7 +3074,7 @@ Jos tämä asetus ei ole käytössä tai jos sen arvo on false, tulostuskomento 
 
       Jos tämän käytännön arvo on epätosi, sisäänrakennettua DNS-asiakassovellusta ei käytetä koskaan.
 
-      Jos tätä käytäntöä ei ole määritetty, sisäänrakennettu DNS-asiakassovellus otetaan oletuksena käyttöön MacOSissa, Androidissa (kun yksityinen DNS ja VPN eivät ole käytössä) ja Chrome-käyttöjärjestelmässä. Lisäksi käyttäjät voivat ottaa sisäänrakennetun DNS-asiakassovelluksen käyttöön tai poistaa sen käytöstä chrome://flags-sivun tai komentorivin avulla.</translation>
+      Jos tätä käytäntöä ei ole määritetty, sisäänrakennettu DNS-asiakassovellus otetaan oletuksena käyttöön MacOSissa, Androidissa (kun yksityinen DNS ja VPN eivät ole käytössä) ja Chrome-käyttöjärjestelmässä. Lisäksi käyttäjät voivat ottaa sisäänrakennetun DNS-asiakassovelluksen käyttöön tai poistaa sen käytöstä decentr://flags-sivun tai komentorivin avulla.</translation>
 <translation id="6843296367238757293">Tämä käytäntö on vanhentunut. Suosittelemme, että et käytä sitä. Lue lisää täältä: https://support.google.com/chrome/a/answer/7643500.</translation>
 <translation id="684856667300805181">Tämä käytäntö poistettiin tuotteessa <ph name="PRODUCT_NAME" /> 68 ja korvattiin käytännöllä <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Tämä käytäntö on poistettu käytöstä ja M66:sta, sillä sitä käytettiin ainoastaan sisäisessä testauksessa. Se on lisäksi tietosuojariski.
@@ -3690,7 +3690,7 @@ Jos tätä käytäntöä ei ole määritetty, käytetään oletusarvoa (32).</tr
 <translation id="7941975817681987555">Älä ennakoi verkon toimia millään verkkoyhteydellä</translation>
 <translation id="7952007677054834789">Määrittää <ph name="PRODUCT_NAME" /> ‑käynnistyksen yhteydessä ladattavat sivut, oletusarvoisen etusivun ja uusi välilehti ‑sivun ja estää käyttäjiä muuttamasta niitä.
 
-      Käyttäjän omat etusivuasetukset estetään vain, jos valitset etusivuksi uusi välilehti ‑sivun tai tietyn URL-osoitteen. Jos et määritä etusivun URL-osoitetta, käyttäjä voi asettaa etusivuksi uusi välilehti ‑sivun kirjoittamalla chrome://newtab.
+      Käyttäjän omat etusivuasetukset estetään vain, jos valitset etusivuksi uusi välilehti ‑sivun tai tietyn URL-osoitteen. Jos et määritä etusivun URL-osoitetta, käyttäjä voi asettaa etusivuksi uusi välilehti ‑sivun kirjoittamalla decentr://newtab.
 
       Käynnistettäessä avattavat sivut ‑käytäntö ohitetaan, jos et valitse Toiminto käynnistettäessä ‑asetukseksi vaihtoehtoa Avaa seuraavat sivut.</translation>
 <translation id="7952958573604504839">Tämä käytäntö on poistettu käytöstä. Se korvattiin <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />-käytännöllä versiossa M48 ja poistettiin kokonaan versiossa M54.

@@ -35,7 +35,7 @@ class PageInfoBubbleViewBase : public views::BubbleDialogDelegateView,
     BUBBLE_NONE,
     // Usual page info bubble for websites.
     BUBBLE_PAGE_INFO,
-    // Custom bubble for internal pages like chrome:// and chrome-extensions://.
+    // Custom bubble for internal pages like decentr:// and decentr-extensions://.
     BUBBLE_INTERNAL_PAGE,
     // Custom bubble for displaying safety tips.
     BUBBLE_SAFETY_TIP,

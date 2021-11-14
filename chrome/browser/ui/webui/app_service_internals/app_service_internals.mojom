@@ -31,7 +31,7 @@ struct PreferredAppInfo {
 };
 
 // Handler providing access to App Service information from the
-// chrome://app-service-internals WebUI.
+// decentr://app-service-internals WebUI.
 interface AppServiceInternalsPageHandler {
 
   // Returns an array of debug information about every installed app.

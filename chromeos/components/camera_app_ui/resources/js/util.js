@@ -222,7 +222,7 @@ export async function createUntrustedJSModule(scriptUrl) {
   iFrame.addEventListener('load', () => untrustedPageReady.signal());
   iFrame.setAttribute(
       'src',
-      'chrome-untrusted://camera-app/views/untrusted_script_loader.html');
+      'decentr-untrusted://camera-app/views/untrusted_script_loader.html');
   iFrame.hidden = true;
   document.body.appendChild(iFrame);
   await untrustedPageReady.wait();

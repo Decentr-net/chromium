@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserApi, ZoomBehavior} from './browser_api.js';
 import {FittingType, Point} from './constants.js';

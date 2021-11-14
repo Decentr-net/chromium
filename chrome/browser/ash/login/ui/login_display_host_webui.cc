@@ -127,13 +127,13 @@ namespace {
 const int kStartupSoundMaxDelayMs = 4000;
 
 // URL which corresponds to the login WebUI.
-const char kLoginURL[] = "chrome://oobe/login";
+const char kLoginURL[] = "decentr://oobe/login";
 
 // URL which corresponds to the OOBE WebUI.
-const char kOobeURL[] = "chrome://oobe/oobe";
+const char kOobeURL[] = "decentr://oobe/oobe";
 
 // URL which corresponds to the app launch splash WebUI.
-const char kAppLaunchSplashURL[] = "chrome://oobe/app-launch-splash";
+const char kAppLaunchSplashURL[] = "decentr://oobe/app-launch-splash";
 
 // Duration of sign-in transition animation.
 const int kLoginFadeoutTransitionDurationMs = 700;

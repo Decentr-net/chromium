@@ -461,7 +461,7 @@ function appendError(str) {
 
 // Set up the event listeners for use in manual run mode.  Then, if the URL
 // contains a test name in the URL fragment
-// (chrome-extension://pkn.../options.html#dom_fullscreen), launch that test
+// (decentr-extension://pkn.../options.html#dom_fullscreen), launch that test
 // automatically.
 function setupEvents() {
   for (var key in fnMap) {

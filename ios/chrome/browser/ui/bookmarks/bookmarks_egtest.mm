@@ -760,12 +760,12 @@ using chrome_test_util::TappableBookmarkNodeWithLabel;
   [BookmarkEarlGreyUI verifyBookmarkFolderIsSeen:@"Folder 2"];
 }
 
-// Tests that chrome://bookmarks is disabled.
+// Tests that decentr://bookmarks is disabled.
 - (void)testBookmarksURLDisabled {
-  const std::string kChromeBookmarksURL = "chrome://bookmarks";
+  const std::string kChromeBookmarksURL = "decentr://bookmarks";
   [ChromeEarlGrey loadURL:GURL(kChromeBookmarksURL)];
 
-  // Verify chrome://bookmarks appears in the omnibox.
+  // Verify decentr://bookmarks appears in the omnibox.
   [[EarlGrey selectElementWithMatcher:OmniboxText(kChromeBookmarksURL)]
       assertWithMatcher:grey_notNil()];
 

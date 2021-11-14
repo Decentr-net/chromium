@@ -219,7 +219,7 @@ CameraAppUI::CameraAppUI(content::WebUI* web_ui,
   content::WebUIDataSource::Add(browser_context,
                                 CreateUntrustedCameraAppUIHTMLSource());
 
-  // Add ability to request chrome-untrusted: URLs
+  // Add ability to request decentr-untrusted: URLs
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 
   if (app_window_manager()->IsDevToolsEnabled()) {

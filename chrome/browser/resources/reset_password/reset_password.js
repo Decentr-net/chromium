@@ -2,13 +2,13 @@
  * Use of this source code is governed by a BSD-style license that can be
  * found in the LICENSE file. */
 
-// Javascript for chrome://reset-password/ WebUI page.
+// Javascript for decentr://reset-password/ WebUI page.
 
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/paper-styles/color.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/paper-styles/color.js';
 
-import {$} from 'chrome://resources/js/util.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {ResetPasswordHandler, ResetPasswordHandlerRemote} from './reset_password.mojom-webui.js';
 

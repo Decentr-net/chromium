@@ -98,7 +98,7 @@ message OmniboxEventProto {
     // An invalid URL; shouldn't happen.
     INVALID_SPEC = 0;
 
-    // chrome://newtab/.  For modern versions of Chrome, this is only reported
+    // decentr://newtab/.  For modern versions of Chrome, this is only reported
     // when an extension is replacing the new tab page. Otherwise, new tab
     // page interactions will be reported as NTP_REALBOX,
     // INSTANT_NTP_WITH_FAKEBOX_AS_STARTING_FOCUS or
@@ -201,7 +201,7 @@ message OmniboxEventProto {
                            // in history
     SEARCH = 4;            // Search suggestions for the default search engine
     KEYWORD = 5;           // Keyword-triggered searches
-    BUILTIN = 6;           // Built-in URLs, such as chrome://version
+    BUILTIN = 6;           // Built-in URLs, such as decentr://version
     SHORTCUTS = 7;         // Recently selected omnibox suggestions
     EXTENSION_APPS = 8;    // DEPRECATED. Suggestions from extensions or apps
     CONTACT = 9;           // DEPRECATED. The user's contacts

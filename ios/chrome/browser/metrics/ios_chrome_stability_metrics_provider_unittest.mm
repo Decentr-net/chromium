@@ -97,7 +97,7 @@ TEST_F(IOSChromeStabilityMetricsProviderTest,
 TEST_F(IOSChromeStabilityMetricsProviderTest,
        ChromeUrlNavigationShouldNotLogPageLoad) {
   web::FakeNavigationContext context;
-  context.SetUrl(GURL("chrome://newtab"));
+  context.SetUrl(GURL("decentr://newtab"));
   context.SetIsSameDocument(false);
 
   IOSChromeStabilityMetricsProvider provider(&prefs_);
@@ -119,7 +119,7 @@ TEST_F(IOSChromeStabilityMetricsProviderTest,
 TEST_F(IOSChromeStabilityMetricsProviderTest,
        SameDocumentChromeUrlNavigationShouldNotLogPageLoad) {
   web::FakeNavigationContext context;
-  context.SetUrl(GURL("chrome://newtab"));
+  context.SetUrl(GURL("decentr://newtab"));
   context.SetIsSameDocument(true);
 
   IOSChromeStabilityMetricsProvider provider(&prefs_);

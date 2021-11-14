@@ -516,7 +516,7 @@ Als je dit beleid niet toepast, wordt op de webpagina naar specifieke tekstfragm
 <translation id="1620510694547887537">Camera</translation>
 <translation id="1626379196197114720">Toestaan dat de Back-Forward Cache wordt gebruikt</translation>
 <translation id="1628974048137236820">Geen kaarten te zien op de pagina Nieuw tabblad</translation>
-<translation id="1630263002012156148">Als je het beleid toepast, wordt de pagina 'Nieuw tabblad' gebruikt als homepage van de gebruiker en wordt de URL voor de homepage genegeerd. Als je het beleid niet toepast, wordt de pagina 'Nieuw tabblad' nooit gebruikt als homepage van de gebruiker, tenzij de URL voor de homepage is ingesteld op chrome://newtab.
+<translation id="1630263002012156148">Als je het beleid toepast, wordt de pagina 'Nieuw tabblad' gebruikt als homepage van de gebruiker en wordt de URL voor de homepage genegeerd. Als je het beleid niet toepast, wordt de pagina 'Nieuw tabblad' nooit gebruikt als homepage van de gebruiker, tenzij de URL voor de homepage is ingesteld op decentr://newtab.
 
       Als je het beleid instelt, kunnen gebruikers het type homepage niet wijzigen in <ph name="PRODUCT_NAME" />. Als je dit beleid niet instelt, kan de gebruiker bepalen of de pagina 'Nieuw tabblad' als homepage wordt gebruikt.
 
@@ -664,7 +664,7 @@ Het veld <ph name="PROXY_SERVER_MODE_PROXY_SETTINGS_FIELD" /> is beëindigd ten 
 <translation id="1798559516913615713">Levensduur GPO in cachegeheugen</translation>
 <translation id="180130467244315277">Met dit beleid kunnen beheerders de volgorde instellen van de voorkeurstalen in de instellingen van <ph name="PRODUCT_NAME" />.
 
-      De lijst wordt in dezelfde volgorde getoond in het gedeelte Talen rangschikken op basis van je voorkeur op chrome://settings/languages. Gebruikers kunnen talen die door het beleid zijn ingesteld niet verwijderen of anders indelen. Ze kunnen wel extra talen toevoegen onder de talen die door het beleid zijn ingesteld. Gebruikers hebben ook de volledige controle over de UI-taal van de browser en instellingen voor vertaling/spellingcontrole, tenzij die door ander beleid worden afgedwongen.
+      De lijst wordt in dezelfde volgorde getoond in het gedeelte Talen rangschikken op basis van je voorkeur op decentr://settings/languages. Gebruikers kunnen talen die door het beleid zijn ingesteld niet verwijderen of anders indelen. Ze kunnen wel extra talen toevoegen onder de talen die door het beleid zijn ingesteld. Gebruikers hebben ook de volledige controle over de UI-taal van de browser en instellingen voor vertaling/spellingcontrole, tenzij die door ander beleid worden afgedwongen.
 
       Als je het beleid niet instelt, kunnen gebruikers de hele lijst met voorkeurstalen aanpassen.</translation>
 <translation id="1803646570632580723">Lijst met vastgezette apps om in het opstartprogramma te tonen</translation>
@@ -1120,7 +1120,7 @@ Als je het beleid niet instelt, zijn er geen extensies vrijgesteld van de resetp
 <translation id="2299220924812062390">Lijst met aangezette plug-ins specificeren</translation>
 <translation id="2301048990069984110">Breid de ondersteuning uit voor Chrome-apps op Windows, Mac en Linux.</translation>
 <translation id="2303795211377219696">Automatisch invullen aanzetten voor creditcards</translation>
-<translation id="2304009805995145854">Sinds <ph name="PRODUCT_NAME" /> 67 staat site-isolatie standaard aan op alle desktopplatforms, waardoor elke site zijn eigen proces uitvoert. Een site is een schema plus eTLD+1 (bijvoorbeeld https://example.com). Dit gedrag verandert niet als je dit beleid toepast, maar het verhindert wel dat gebruikers deze functie kunnen uitzetten (bijvoorbeeld door site-isolatie uit te zetten in chrome://flags). Sinds <ph name="PRODUCT_NAME" /> 76 wordt site-isolatie niet uitgezet als je het beleid niet toepast of niet instelt, maar kunnen gebruikers deze functie zelf uitzetten.
+<translation id="2304009805995145854">Sinds <ph name="PRODUCT_NAME" /> 67 staat site-isolatie standaard aan op alle desktopplatforms, waardoor elke site zijn eigen proces uitvoert. Een site is een schema plus eTLD+1 (bijvoorbeeld https://example.com). Dit gedrag verandert niet als je dit beleid toepast, maar het verhindert wel dat gebruikers deze functie kunnen uitzetten (bijvoorbeeld door site-isolatie uit te zetten in decentr://flags). Sinds <ph name="PRODUCT_NAME" /> 76 wordt site-isolatie niet uitgezet als je het beleid niet toepast of niet instelt, maar kunnen gebruikers deze functie zelf uitzetten.
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> kan ook handig zijn om specifieke herkomsten te isoleren op een kleiner niveau dan het siteniveau (bijvoorbeeld https://a.example.com).
 
@@ -3477,7 +3477,7 @@ Als dit beleid is ingesteld op False, gebruikt <ph name="PRODUCT_NAME" /> geen s
       Als je het beleid niet toepast, kunnen gebruikers geen nieuwe wachtwoorden opslaan, maar kunnen ze nog wel gebruikmaken van eerder opgeslagen wachtwoorden.
 
       Als je het beleid instelt, kunnen gebruikers het niet wijzigen in <ph name="PRODUCT_NAME" />. Als je dit beleid niet instelt, kunnen gebruikers de functie voor opslag van wachtwoorden uitzetten.</translation>
-<translation id="5239333626804545932">Als je het beleid toepast of niet instelt, scant Chrome Cleanup het systeem periodiek op ongewenste software. Als er ongewenste software wordt aangetroffen, wordt de gebruiker gevraagd of deze software moet worden verwijderd. Het is in dit geval mogelijk Chrome Cleanup handmatig te starten via chrome://settings.
+<translation id="5239333626804545932">Als je het beleid toepast of niet instelt, scant Chrome Cleanup het systeem periodiek op ongewenste software. Als er ongewenste software wordt aangetroffen, wordt de gebruiker gevraagd of deze software moet worden verwijderd. Het is in dit geval mogelijk Chrome Cleanup handmatig te starten via decentr://settings.
 
       Als je het beleid niet toepast, scant Chrome Cleanup niet periodiek en wordt handmatige activering uitgezet.
 
@@ -4208,7 +4208,7 @@ Voor meer informatie over een beveiligde context ga je naar https://www.w3.org/T
 
       Als gebruikers het dialoogvenster voor importeren openen, is het selectievakje voor formuliergegevens voor automatisch invullen aan- of uitgevinkt in overeenstemming met de waarde van dit beleid.</translation>
 <translation id="614616930188030377">Patronen in deze lijst worden vergeleken met de beveiligingsoorsprong van de aanvragende URL.
-      Als een overeenkomst wordt gevonden of als chrome://flags/#enable-webrtc-hide-local-ips-with-mdns is Uitgezet, worden de lokale IP-adressen getoond in WebRTC ICE-kandidaten.
+      Als een overeenkomst wordt gevonden of als decentr://flags/#enable-webrtc-hide-local-ips-with-mdns is Uitgezet, worden de lokale IP-adressen getoond in WebRTC ICE-kandidaten.
       Anders worden lokale IP-adressen verborgen met mDNS-hostnamen.
       Houd er rekening mee dat dit beleid de beveiliging van lokale IP's verzwakt als beheerders dit nodig hebben.</translation>
 <translation id="614662973812186053">Met dit beleid wordt ook het gebruik van Android en het verzamelen van diagnostische gegevens bepaald.</translation>
@@ -4430,12 +4430,12 @@ Voor meer informatie over een beveiligde context ga je naar https://www.w3.org/T
 <translation id="645425387487868471">Inloggen voor <ph name="PRODUCT_NAME" /> verplichten</translation>
 <translation id="6455842857207956758">Hiermee wordt SAML-wachtwoordsynchronisatie tussen meerdere Chrome-apparaten aangezet door de waarde van de wachtwoordsynchronisatietoken te monitoren en een gebruiker de online verificatie opnieuw te laten uitvoeren als het wachtwoord is geüpdatet en moet worden gesynchroniseerd.
 
-      Hiermee wordt een pagina op chrome://password-change actief waar SAML-gebruikers hun SAML-wachtwoorden kunnen wijzigen tijdens een sessie. Dit zorgt ervoor dat het SAML-wachtwoord en het wachtwoord voor schermvergrendeling van het apparaat gesynchroniseerd blijven.
+      Hiermee wordt een pagina op decentr://password-change actief waar SAML-gebruikers hun SAML-wachtwoorden kunnen wijzigen tijdens een sessie. Dit zorgt ervoor dat het SAML-wachtwoord en het wachtwoord voor schermvergrendeling van het apparaat gesynchroniseerd blijven.
 
       Met dit beleid worden er ook meldingen gegenereerd voor SAML-gebruikers van wie het SAML-wachtwoord bijna verloopt. Ze kunnen dit dan meteen verhelpen door tijdens de sessie het wachtwoord te wijzigen.
       Deze meldingen worden alleen weergegeven als de SAML-identiteitsprovider tijdens de SAML-inlogprocedure informatie over het verlopen van het wachtwoord naar het apparaat stuurt.
 
-      Als je dit beleid niet toepast of niet instelt, kan het SAML-wachtwoord niet worden gewijzigd op chrome://password-change. Er wordt ook geen melding getoond als SAML-wachtwoorden bijna verlopen.</translation>
+      Als je dit beleid niet toepast of niet instelt, kan het SAML-wachtwoord niet worden gewijzigd op decentr://password-change. Er wordt ook geen melding getoond als SAML-wachtwoorden bijna verlopen.</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">Als je het beleid toepast of niet instelt, kunnen alle gebruikers <ph name="PRODUCT_CROSTINI_NAME" /> gebruiken, zolang alle drie beleidsregels (<ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" /> en <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" />) zijn toegepast. Als je het beleid niet toepast, kunnen niet-aangesloten gebruikers <ph name="PRODUCT_CROSTINI_NAME" /> niet gebruiken. Als je het beleid niet toepast, wordt het beleid wel toegepast op startende nieuwe <ph name="PRODUCT_CROSTINI_NAME" />-containers en niet op containers die al actief zijn.</translation>
 <translation id="6464074037294098618">Automatisch invullen voor adressen aanzetten</translation>
@@ -4503,7 +4503,7 @@ Voor meer informatie over een beveiligde context ga je naar https://www.w3.org/T
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />: Automatische tijdzonedetectie blijft aan. De lijst met zichtbare wifi-toegangspunten wordt voortdurend naar de Geolocation API-server gestuurd voor gedetailleerdere tijdzonedetectie.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />: Automatische tijdzonedetectie blijft aan. Locatiegegevens (zoals wifi-toegangspunten, bereikbare zendmasten, gps) worden voortdurend naar een server gestuurd voor de meest gedetailleerde tijdzonedetectie.
 
-      Als je het beleid niet instelt, 'Gebruikers laten bepalen' instelt of het beleid instelt op None, bepalen gebruikers de automatische tijdzonedetectie via de normale opties in chrome://settings.</translation>
+      Als je het beleid niet instelt, 'Gebruikers laten bepalen' instelt of het beleid instelt op None, bepalen gebruikers de automatische tijdzonedetectie via de normale opties in decentr://settings.</translation>
 <translation id="6532769014584932288">Wake locks toestaan</translation>
 <translation id="6536600139108165863">Automatisch opnieuw opstarten wanneer apparaat wordt afgesloten</translation>
 <translation id="6539246272469751178">Dit beleid is niet van invloed op Android-apps. Android-apps gebruiken altijd de standaardmap voor downloads en hebben geen toegang tot bestanden die door <ph name="PRODUCT_OS_NAME" /> zijn gedownload naar een niet-standaard downloadmap.</translation>
@@ -4732,7 +4732,7 @@ Als je dit beleid instelt op True, wordt WebSQL in contexten van derden opnieuw 
 
 Als je het beleid niet toepast, wordt het icoon voor experimentele browserfuncties verwijderd van de werkbalk.
 
-      chrome://flags en andere manieren om browserfuncties aan- en uit te zetten werken nog steeds hetzelfde, ongeacht of je het beleid wel of niet hebt toegepast.</translation>
+      decentr://flags en andere manieren om browserfuncties aan- en uit te zetten werken nog steeds hetzelfde, ongeacht of je het beleid wel of niet hebt toegepast.</translation>
 <translation id="6794083666143216172">Toestaan dat de herkomst query's voor apparaatkenmerken kan uitvoeren</translation>
 <translation id="6795485990775913659">Alleen afdrukken toestaan zonder pincode</translation>
 <translation id="6800181452282128474">Geen query's sturen naar Quirks Servers</translation>
@@ -5409,7 +5409,7 @@ Als je dit beleid instelt op False, wordt de functionaliteit uitgezet.</translat
       Als het beleid is ingesteld op GAIA, wordt het inloggen uitgevoerd volgens de normale GAIA-verificatie.
 
       Als het beleid is ingesteld op SAML_INTERSTITIAL, wordt er bij het inloggen een interstitial getoond waarin de gebruiker kan kiezen of hij wil doorgaan met de verificatie via de SAML IdP van het registratiedomein van het apparaat of wil teruggaan naar de normale manier van inloggen volgens GAIA.</translation>
-<translation id="7554382342294940216">Als je het beleid toepast, kan <ph name="PRODUCT_OS_NAME" /> elke proxy voor captive portal-verificatie omzeilen. Deze verificatiepagina's (vanaf de captive portal-inlogpagina totdat Chrome een internetverbinding waarneemt) worden in een afzonderlijk venster geopend, waarbij alle beleidsinstellingen en -beperkingen voor de huidige gebruiker worden genegeerd. Dit beleid is alleen van kracht als er een proxy is ingesteld (via beleid, extensie of door de gebruiker in chrome://settings).
+<translation id="7554382342294940216">Als je het beleid toepast, kan <ph name="PRODUCT_OS_NAME" /> elke proxy voor captive portal-verificatie omzeilen. Deze verificatiepagina's (vanaf de captive portal-inlogpagina totdat Chrome een internetverbinding waarneemt) worden in een afzonderlijk venster geopend, waarbij alle beleidsinstellingen en -beperkingen voor de huidige gebruiker worden genegeerd. Dit beleid is alleen van kracht als er een proxy is ingesteld (via beleid, extensie of door de gebruiker in decentr://settings).
 
       Als je het beleid niet toepast of niet instelt, worden captive portal-verificatiepagina's getoond in een (normaal) nieuw browsertabblad, waarbij de proxyinstellingen van de huidige gebruiker worden gebruikt.</translation>
 <translation id="7566878661979235378">Verificatietype voor SAML-inlog</translation>
@@ -5706,7 +5706,7 @@ Dit beleid kan alleen worden ingesteld via de <ph name="GOOGLE_ADMIN_CONSOLE_PRO
 <translation id="7951605113561734721">Specificeert clientcertificaten voor het hele apparaat die moeten worden ingeschreven via het protocol voor apparaatbeheer.</translation>
 <translation id="7952007677054834789">Hiermee wordt geconfigureerd welke pagina's worden geladen bij het opstarten, wat de standaard homepage is en welke pagina standaard wordt gebruikt voor nieuwe tabbladen in <ph name="PRODUCT_NAME" />. Ook verhinder je hiermee dat gebruikers deze pagina's kunnen wijzigen.
 
-      De instellingen voor de homepage worden alleen volledig voor de gebruiker vergrendeld als je de pagina 'Nieuw tabblad' als de homepage selecteert of als je zelf een URL voor de homepage specificeert. Als je geen URL voor de homepage opgeeft, kan de gebruiker nog steeds de pagina 'Nieuw tabblad' als homepage instellen door 'chrome://newtab' op te geven.
+      De instellingen voor de homepage worden alleen volledig voor de gebruiker vergrendeld als je de pagina 'Nieuw tabblad' als de homepage selecteert of als je zelf een URL voor de homepage specificeert. Als je geen URL voor de homepage opgeeft, kan de gebruiker nog steeds de pagina 'Nieuw tabblad' als homepage instellen door 'decentr://newtab' op te geven.
 
       Het beleid 'URL's die worden geopend bij starten' wordt genegeerd, tenzij je 'Een lijst met URL's openen' selecteert bij 'Actie bij starten'.</translation>
 <translation id="7952958573604504839">Dit beleid is beëindigd in M48 ten gunste van <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> en is verwijderd in M54.
@@ -6266,7 +6266,7 @@ Dit beleid geldt per frame en is niet alleen gebaseerd op de oorspronkelijke URL
 
       Vanaf <ph name="PRODUCT_NAME" /> versie 92 wordt dit beleid ook ondersteund in de stand zonder interface.
 
-      Opmerking: Het blokkeren van interne chrome://* URL's kan tot onverwachte fouten leiden.</translation>
+      Opmerking: Het blokkeren van interne decentr://* URL's kan tot onverwachte fouten leiden.</translation>
 <translation id="8626826495474944836">Site-isolatie verplichten voor elke site</translation>
 <translation id="8631434304112909927">tot versie <ph name="UNTIL_VERSION" /></translation>
 <translation id="8631437968147930597">De lijst met notitie-apps die zijn toegestaan op het <ph name="PRODUCT_OS_NAME" />-vergrendelscherm</translation>
@@ -6424,7 +6424,7 @@ Dit beleid geldt per frame en is niet alleen gebaseerd op de oorspronkelijke URL
 
       Gebruikers kunnen de broncode van een extensie wijzigen via de ontwikkelaarstools, waardoor de extensie mogelijk niet meer functioneert. Als je je hierover zorgen maakt, moet je het beleid <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" /> instellen.
 
-      Elk lijstitem van het beleid is een tekenreeks die een extensie-ID en optioneel een update-URL bevat, gescheiden door een puntkomma (;). De extensie-ID is de tekenreeks van 32 letters die bijvoorbeeld op chrome://extensions kan worden gevonden als de ontwikkelaarsmodus actief is. De update-URL, indien opgegeven, moet verwijzen naar een XML-updatedocument voor het manifest ( https://developer.chrome.com/extensions/autoupdate ). Standaard wordt de update-URL van de Chrome Web Store gebruikt. De update-URL die in dit beleid is ingesteld, wordt alleen voor de eerste installatie gebruikt. Daaropvolgende updates van de extensie gebruiken de update-URL die in het manifest van de extensie wordt aangegeven.
+      Elk lijstitem van het beleid is een tekenreeks die een extensie-ID en optioneel een update-URL bevat, gescheiden door een puntkomma (;). De extensie-ID is de tekenreeks van 32 letters die bijvoorbeeld op decentr://extensions kan worden gevonden als de ontwikkelaarsmodus actief is. De update-URL, indien opgegeven, moet verwijzen naar een XML-updatedocument voor het manifest ( https://developer.chrome.com/extensions/autoupdate ). Standaard wordt de update-URL van de Chrome Web Store gebruikt. De update-URL die in dit beleid is ingesteld, wordt alleen voor de eerste installatie gebruikt. Daaropvolgende updates van de extensie gebruiken de update-URL die in het manifest van de extensie wordt aangegeven.
 
        Opmerking: Dit beleid is niet van toepassing op de incognitomodus. Bekijk meer informatie over het hosten van extensies ( https://developer.chrome.com/extensions/hosting ).</translation>
 <translation id="8827366480126575426">Het protocol voor de protocolhandler.</translation>
@@ -6804,7 +6804,7 @@ en 5 optionele leden:
 
       Vanaf <ph name="PRODUCT_NAME" /> versie 73 kun je javascript://* URL's blokkeren. Maar dit heeft alleen gevolgen voor JavaScript die wordt ingevoerd in de adresbalk (of bijvoorbeeld bookmarklets). In-page JavaScript-URL's met dynamisch geladen gegevens vallen niet onder dit beleid. Als je bijvoorbeeld 'example.com/abc' blokkeert, kan de pagina 'example.com' nog steeds 'example.com/abc' laden via XMLHTTPRequest.
 
-      Opmerking: Als je interne URL's met chrome://* blokkeert, kan dit tot onverwachte fouten leiden.</translation>
+      Opmerking: Als je interne URL's met decentr://* blokkeert, kan dit tot onverwachte fouten leiden.</translation>
 <translation id="957778406002650056">De URL waar de <ph name="PLUGIN_VM_NAME" />-afbeelding kan worden gedownload.</translation>
 <translation id="971677226939413180">Optie 'Afdrukken als afbeelding' niet beschikbaar voor gebruikersselectie.</translation>
 <translation id="974349541138387272">URI-template van gewenste DNS-over-HTTPS-resolver opgeven</translation>

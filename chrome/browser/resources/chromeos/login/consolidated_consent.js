@@ -24,9 +24,9 @@ const UIState = {
  * URL to use when online page is not available.
  * @type {string}
  */
-const EULA_TERMS_URL = 'chrome://terms';
-const ARC_TERMS_URL = 'chrome://terms/arc/terms';
-const PRIVACY_POLICY_URL = 'chrome://terms/arc/privacy_policy';
+const EULA_TERMS_URL = 'decentr://terms';
+const ARC_TERMS_URL = 'decentr://terms/arc/terms';
+const PRIVACY_POLICY_URL = 'decentr://terms/arc/privacy_policy';
 
 Polymer({
   is: 'consolidated-consent-element',

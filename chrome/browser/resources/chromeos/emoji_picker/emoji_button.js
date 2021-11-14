@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 import './emoji_variants.js';
-import 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
+import 'decentr://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
 
-import {beforeNextRender, html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {beforeNextRender, html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {createCustomEvent, EMOJI_BUTTON_CLICK, EMOJI_VARIANTS_SHOWN} from './events.js';
 import {Emoji} from './types.js';

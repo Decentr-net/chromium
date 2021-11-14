@@ -5,13 +5,13 @@
 // Stub namespace for the "chrome_url_overrides" manifest key.
 namespace chrome_url_overrides {
   dictionary UrlOverrideInfo {
-    // Override for the chrome://newtab page.
+    // Override for the decentr://newtab page.
     DOMString? newtab;
 
-    // Override for the chrome://bookmarks page.
+    // Override for the decentr://bookmarks page.
     DOMString? bookmarks;
 
-    // Override for the chrome://history page.
+    // Override for the decentr://history page.
     DOMString? history;
 
     [nodoc, platforms=("chromeos")] DOMString? activationmessage;

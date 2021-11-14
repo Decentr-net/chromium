@@ -93,7 +93,7 @@ IN_PROC_BROWSER_TEST_P(UserCloudPolicyManagerTest, StartSession) {
                 logged_in_user_mixin_.GetAccountId()));
 
   // Set up start-up URLs through a mandatory user policy.
-  const char* const kStartupURLs[] = {"chrome://policy", "chrome://about"};
+  const char* const kStartupURLs[] = {"decentr://policy", "decentr://about"};
   enterprise_management::StringList* startup_urls_proto =
       logged_in_user_mixin_.GetUserPolicyMixin()
           ->RequestPolicyUpdate()

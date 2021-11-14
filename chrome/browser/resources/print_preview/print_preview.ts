@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-export {PluralStringProxyImpl as PrintPreviewPluralStringProxyImpl} from 'chrome://resources/js/plural_string_proxy.js';
+export {PluralStringProxyImpl as PrintPreviewPluralStringProxyImpl} from 'decentr://resources/js/plural_string_proxy.js';
 export {CloudPrintInterfaceEventType} from './cloud_print_interface.js';
 export {CloudPrintInterfaceImpl} from './cloud_print_interface_impl.js';
 export {ColorMode, createDestinationKey, Destination, DestinationCertificateStatus, DestinationConnectionStatus, DestinationOrigin, DestinationType, GooglePromotedDestinationId, makeRecentDestination} from './data/destination.js';

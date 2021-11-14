@@ -47,7 +47,7 @@ int GetIntegerv(unsigned int name) {
 
 }  // namespace
 
-// Used by chrome://gpucrash and gpu_benchmarking_extension's
+// Used by decentr://gpucrash and gpu_benchmarking_extension's
 // CrashForTesting.
 void Crash() {
   DVLOG(1) << "GPU: Simulating GPU crash";
@@ -56,7 +56,7 @@ void Crash() {
   *it_s_the_end_of_the_world_as_we_know_it = 0xdead;
 }
 
-// Used by chrome://gpuhang.
+// Used by decentr://gpuhang.
 void Hang() {
   DVLOG(1) << "GPU: Simulating GPU hang";
   int do_not_delete_me = 0;

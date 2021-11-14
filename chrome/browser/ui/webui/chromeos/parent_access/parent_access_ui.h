@@ -16,7 +16,7 @@
 namespace chromeos {
 
 // Controller for the ParentAccessUI, a WebUI which enables parent verification.
-// It is hosted at chrome://parent-access.
+// It is hosted at decentr://parent-access.
 class ParentAccessUI : public ui::MojoWebUIController {
  public:
   explicit ParentAccessUI(content::WebUI* web_ui);
@@ -38,7 +38,7 @@ class ParentAccessUI : public ui::MojoWebUIController {
       mojo_api_handler_;
 
   // The URL for the remote web content embedded in the WebUI's webview (not to
-  // be confused with the chrome:// URL for the WebUI itself).
+  // be confused with the decentr:// URL for the WebUI itself).
   GURL web_content_url_;
 
   WEB_UI_CONTROLLER_TYPE_DECL();

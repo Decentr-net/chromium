@@ -19,7 +19,7 @@
 namespace safe_browsing {
 // Please define any new SafeBrowsing related features in this file, and add
 // them to the ExperimentalFeaturesList below to start displaying their status
-// on the chrome://safe-browsing page.
+// on the decentr://safe-browsing page.
 
 const base::Feature kAccuracyTipsFeature{"AccuracyTips",
                                          base::FEATURE_DISABLED_BY_DEFAULT};
@@ -155,10 +155,10 @@ const base::Feature kVisualFeaturesSizes{"VisualFeaturesSizes",
 namespace {
 // List of Safe Browsing features. Boolean value for each list member should
 // be set to true if the experiment state should be listed on
-// chrome://safe-browsing. Features should be listed in alphabetical order.
+// decentr://safe-browsing. Features should be listed in alphabetical order.
 constexpr struct {
   const base::Feature* feature;
-  // True if the feature's state should be listed on chrome://safe-browsing.
+  // True if the feature's state should be listed on decentr://safe-browsing.
   bool show_state;
 } kExperimentalFeatures[]{
     {&kAccuracyTipsFeature, true},

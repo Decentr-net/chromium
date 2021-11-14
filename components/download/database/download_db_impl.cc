@@ -56,7 +56,7 @@ DownloadDBImpl::DownloadDBImpl(
       leveldb_proto::ProtoDbType::DOWNLOAD_DB, database_dir,
       base::ThreadPool::CreateSequencedTaskRunner(
           {base::MayBlock(),
-           // USER_VISIBLE because it is required to display chrome://downloads.
+           // USER_VISIBLE because it is required to display decentr://downloads.
            // https://crbug.com/976223
            base::TaskPriority::USER_VISIBLE,
            base::TaskShutdownBehavior::CONTINUE_ON_SHUTDOWN}));

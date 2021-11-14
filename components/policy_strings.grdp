@@ -293,7 +293,7 @@ Additional details:
       Value "<ph name="VALUE">$1<ex>#zzzzzz</ex></ph>" is an invalid hex color.
     </message>
 
-  <!-- chrome://policy -->
+  <!-- decentr://policy -->
   <message name="IDS_POLICY_TITLE" desc="Page title and the title of the section that lists policies.">
     Policies
   </message>
@@ -374,10 +374,10 @@ Additional details:
   <message name="IDS_POLICY_LABEL_PUSH_POLICIES" desc="Label to indicates the policies can be pushed or not to chrome.">
     Policies push:
   </message>
-  <message name="IDS_POLICY_PUSH_POLICIES_ON" desc="Label in the chrome://policy information page." meaning="Policies can be pushed to chrome.">
+  <message name="IDS_POLICY_PUSH_POLICIES_ON" desc="Label in the decentr://policy information page." meaning="Policies can be pushed to chrome.">
     On
   </message>
-  <message name="IDS_POLICY_PUSH_POLICIES_OFF" desc="Label in the chrome://policy information page." meaning="Policies cannot be pushed to chrome.">
+  <message name="IDS_POLICY_PUSH_POLICIES_OFF" desc="Label in the decentr://policy information page." meaning="Policies cannot be pushed to chrome.">
     Off
   </message>
   <message name="IDS_POLICY_NEVER_FETCHED" desc="Indicates that a policy fetch was never performed before.">
@@ -606,7 +606,7 @@ Additional details:
     Copy as JSON
   </message>
 
-  <!-- Strings for Disabled chrome://.* screen -->
+  <!-- Strings for Disabled decentr://.* screen -->
   <message name="IDS_CHROME_URLS_DISABLED_PAGE_HEADER" desc="A heading for the user when the application is blocked.">
     Application is blocked
   </message>

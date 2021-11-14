@@ -8,10 +8,10 @@
  * which allows finer-grained control over introducing dependencies.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {EntryLocation} from '../../externs/entry_location.js';
 import {FakeEntry, FilesAppEntry} from '../../externs/files_app_entry_interfaces.js';

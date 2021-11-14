@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 
 import {MessageData} from './controller.js';
 import {LayoutOptions} from './viewport.js';

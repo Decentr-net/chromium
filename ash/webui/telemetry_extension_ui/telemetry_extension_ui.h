@@ -19,7 +19,7 @@
 
 namespace ash {
 
-// The WebUI for chrome://telemetry-extension/.
+// The WebUI for decentr://telemetry-extension/.
 class TelemetryExtensionUI : public ui::MojoWebUIController {
  public:
   explicit TelemetryExtensionUI(content::WebUI* web_ui);

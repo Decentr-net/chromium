@@ -565,7 +565,7 @@ public class UrlOverridingTest {
         mActivityTestRule.startMainActivityOnBlankPage();
         // This will make the mActivityTestRule.getActivity().getActivityTab() used in the method
         // loadUrlAndWaitForIntentUrl to return an incognito tab instead.
-        mActivityTestRule.loadUrlInNewTab("chrome://about/", /**incognito**/ true);
+        mActivityTestRule.loadUrlInNewTab("decentr://about/", /**incognito**/ true);
 
         String fallbackUrl = mTestServer.getURL(FALLBACK_LANDING_PATH);
         String fallbackUrlWithoutScheme = fallbackUrl.replace("http://", "");

@@ -320,8 +320,8 @@ GURL GetEffectiveURLForInstant(const GURL& url, Profile* profile) {
   if (url.SchemeIs(chrome::kChromeSearchScheme))
     return url;
 
-  // Replace the scheme with "chrome-search:", and clear the port, since
-  // chrome-search is a scheme without port.
+  // Replace the scheme with "decentr-search:", and clear the port, since
+  // decentr-search is a scheme without port.
   url::Replacements<char> replacements;
   std::string search_scheme(chrome::kChromeSearchScheme);
   replacements.SetScheme(search_scheme.data(),

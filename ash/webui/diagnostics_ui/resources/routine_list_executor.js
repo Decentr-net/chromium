@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 import {RoutineResult, RoutineResultInfo, RoutineRunnerInterface, RoutineRunnerReceiver, RoutineType, SystemRoutineControllerInterface} from './diagnostics_types.js';
 

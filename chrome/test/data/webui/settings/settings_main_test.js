@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {CrSettingsPrefs, pageVisibility, Router, routes, SearchRequest, setSearchManagerForTesting} from 'chrome://settings/settings.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise, whenAttributeIs} from 'chrome://test/test_util.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrSettingsPrefs, pageVisibility, Router, routes, SearchRequest, setSearchManagerForTesting} from 'decentr://settings/settings.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise, whenAttributeIs} from 'decentr://test/test_util.js';
 // clang-format on
 
 /**

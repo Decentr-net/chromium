@@ -28,13 +28,13 @@ constexpr char kSystemExtensionsProfileDirectory[] = "SystemExtensions";
 constexpr SystemExtensionId kTestSystemExtensionId = {1, 2, 3, 4};
 
 constexpr char kTestSystemExtensionIndexURL[] =
-    "chrome-untrusted://system-extension-echo-01020304/html/index.html";
+    "decentr-untrusted://system-extension-echo-01020304/html/index.html";
 
 constexpr char kTestSystemExtensionWrongURL[] =
-    "chrome-untrusted://system-extension-echo-01020304/html/wrong.html";
+    "decentr-untrusted://system-extension-echo-01020304/html/wrong.html";
 
 constexpr char kTestSystemExtensionEmptyPathURL[] =
-    "chrome-untrusted://system-extension-echo-01020304/";
+    "decentr-untrusted://system-extension-echo-01020304/";
 
 base::FilePath GetBasicSystemExtensionDir() {
   base::FilePath test_dir;

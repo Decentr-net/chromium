@@ -476,7 +476,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 
       Výnimky môžu byť definované v pravidle zoznamu povolených webových adries. Počet záznamov v týchto pravidlách je obmedzený na 1 000. Všetky ďalšie záznamy sa budú ignorovať.
 
-      Upozorňujeme, že sa neodporúča blokovať interné webové adresy „chrome://*“, pretože by to mohlo viesť k neočakávaným chybám.
+      Upozorňujeme, že sa neodporúča blokovať interné webové adresy „decentr://*“, pretože by to mohlo viesť k neočakávaným chybám.
 
       Od verzie M73 môžete blokovať webové adresy „javascript://*“. Ovplyvňuje to však iba JavaScript zadaný do panela s adresou (alebo napríklad bookmarklety). Upozorňujeme, že toto pravidlo sa netýka webových adries v JavaScripte vložených v stránke ani dynamicky načítavaných údajov. Ak napríklad zablokujete „example.com/abc“, stránka „example.com“ bude stále môcť načítať stránku „example.com/abc“ prostredníctvom žiadosti XMLHTTPRequest.
 
@@ -643,7 +643,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
       pri reštartovaní opakovane nepoužije.</translation>
 <translation id="2138449619211358657">Toto pravidlo umožňuje operačnému systému <ph name="PRODUCT_OS_NAME" /> obísť akýkoľvek proxy server na overenie pomocou prihlasovacieho portálu.
 
-      Toto pravidlo sa použije iba v prípade, že je nakonfigurovaný proxy server (napríklad pomocou pravidla, používateľským nastavením na chrome://settings alebo pomocou rozšírení).
+      Toto pravidlo sa použije iba v prípade, že je nakonfigurovaný proxy server (napríklad pomocou pravidla, používateľským nastavením na decentr://settings alebo pomocou rozšírení).
 
       Ak toto nastavenie povolíte, všetky overovacie stránky prihlasovacieho portálu (t. j. všetky webové stránky od prihlasovacej stránky tohto portálu až do momentu, kedy <ph name="PRODUCT_NAME" /> zistí úspešné pripojenie k internetu) budú zobrazené v samostatnom okne ignorujúcom všetky nastavenia pravidiel a obmedzenia aktuálneho používateľa.
 
@@ -664,15 +664,15 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="2170233653554726857">Povoliť optimalizáciu pomocou protokolu WPAD</translation>
 <translation id="2176565653304920879">Keď je toto pravidlo nastavené, postup automatického zisťovania časového pásma bude v závislosti od hodnoty daného nastavenia prebiehať jedným z nasledujúcich spôsobov:
 
-      Ak je nastavené na hodnotu TimezoneAutomaticDetectionUsersDecide, používatelia budú môcť ovládať automatické zisťovanie časového pásma pomocou bežných ovládacích prvkov v nastaveniach na adrese chrome://settings.
+      Ak je nastavené na hodnotu TimezoneAutomaticDetectionUsersDecide, používatelia budú môcť ovládať automatické zisťovanie časového pásma pomocou bežných ovládacích prvkov v nastaveniach na adrese decentr://settings.
 
-      Ak je nastavené na hodnotu TimezoneAutomaticDetectionDisabled, ovládacie prvky automatického zisťovania časového pásma budú v nastaveniach na adrese chrome://settings zakázané. Automatické zisťovanie časového pásma bude vždy vypnuté.
+      Ak je nastavené na hodnotu TimezoneAutomaticDetectionDisabled, ovládacie prvky automatického zisťovania časového pásma budú v nastaveniach na adrese decentr://settings zakázané. Automatické zisťovanie časového pásma bude vždy vypnuté.
 
-      Ak je nastavené na hodnotu TimezoneAutomaticDetectionIPOnly, ovládacie prvky časového pásma budú v nastaveniach na adrese chrome://settings zakázané. Automatické zisťovanie časového pásma bude vždy zapnuté. Zisťovanie časového pásma bude na rozpoznávanie polohy používať iba metódu pomocou adresy IP.
+      Ak je nastavené na hodnotu TimezoneAutomaticDetectionIPOnly, ovládacie prvky časového pásma budú v nastaveniach na adrese decentr://settings zakázané. Automatické zisťovanie časového pásma bude vždy zapnuté. Zisťovanie časového pásma bude na rozpoznávanie polohy používať iba metódu pomocou adresy IP.
 
-      Ak je nastavené na hodnotu TimezoneAutomaticDetectionSendWiFiAccessPoints, ovládacie prvky časového pásma budú v nastaveniach na adrese chrome://settings zakázané. Automatické zisťovanie časového pásma bude vždy zapnuté. Zoznam viditeľných prístupových bodov Wi‑Fi sa bude vždy posielať na server s rozhraním Geolocation API, ktorý zisťovanie časového pásma ešte viac spresní.
+      Ak je nastavené na hodnotu TimezoneAutomaticDetectionSendWiFiAccessPoints, ovládacie prvky časového pásma budú v nastaveniach na adrese decentr://settings zakázané. Automatické zisťovanie časového pásma bude vždy zapnuté. Zoznam viditeľných prístupových bodov Wi‑Fi sa bude vždy posielať na server s rozhraním Geolocation API, ktorý zisťovanie časového pásma ešte viac spresní.
 
-      Ak je nastavené na hodnotu TimezoneAutomaticDetectionSendAllLocationInfo, ovládacie prvky časového pásma budú v nastaveniach na adrese chrome://settings zakázané. Automatické zisťovanie časového pásma bude vždy zapnuté. Informácie o polohe (ako sú prístupové body Wi‑Fi, stanice BTS v dosahu a súradnice GPS) sa budú odosielať na server, ktorý zisťovanie časového pásma ešte viac spresní.
+      Ak je nastavené na hodnotu TimezoneAutomaticDetectionSendAllLocationInfo, ovládacie prvky časového pásma budú v nastaveniach na adrese decentr://settings zakázané. Automatické zisťovanie časového pásma bude vždy zapnuté. Informácie o polohe (ako sú prístupové body Wi‑Fi, stanice BTS v dosahu a súradnice GPS) sa budú odosielať na server, ktorý zisťovanie časového pásma ešte viac spresní.
 
       Ak toto pravidlo nie je nastavené, bude sa správať, ako keby bolo nastavené pravidlo TimezoneAutomaticDetectionUsersDecide.
 
@@ -1230,9 +1230,9 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
       Ak toto pravidlo nie je nastavené alebo je nastavené na hodnotu False, v protokole TLS nebudú povolené šifrovacie súpravy DHE. Nastavením tohto pravidla na hodnotu True je možné povoliť šifrovacie súpravy DHE a zaistiť kompatibilitu so zastaraným serverom. Ide o krátkodobé riešenie, takže konfigurácia príslušného servera by mala byť upravená.
 
       Odporúčame migráciu serverov na šifrovacie súpravy ECDHE. Ak nie sú k dispozícii, povoľte šifrovaciu súpravu používajúcu výmenu kľúčov RSA.</translation>
-<translation id="3117706142826400449">Ak toto pravidlo zakážete, zabráni nástroju Chrome Cleanup hľadať v systéme nechcený softvér a vykonávať čistenia. Ručné spúšťanie nástroja Chrome Cleanup z chrome://settings/cleanup je zakázané.
+<translation id="3117706142826400449">Ak toto pravidlo zakážete, zabráni nástroju Chrome Cleanup hľadať v systéme nechcený softvér a vykonávať čistenia. Ručné spúšťanie nástroja Chrome Cleanup z decentr://settings/cleanup je zakázané.
 
-      Ak ho povolíte alebo ponecháte nenastavené, Chrome Cleanup bude pravidelne hľadať v systéme nechcený softvér a v prípade jeho nájdenia sa používateľa opýta, či ho chce odstrániť. Ručné spúšťanie nástroja Chrome Cleanup z chrome://settings je povolené.
+      Ak ho povolíte alebo ponecháte nenastavené, Chrome Cleanup bude pravidelne hľadať v systéme nechcený softvér a v prípade jeho nájdenia sa používateľa opýta, či ho chce odstrániť. Ručné spúšťanie nástroja Chrome Cleanup z decentr://settings je povolené.
 
       Toto pravidlo je k dispozícii iba v inštanciách systému Windows, ktoré sú zapojené do domény <ph name="MS_AD_NAME" />, alebo v inštanciách systému Windows 10 Pro alebo Enterprise, ktoré sú zaregistrované do správy zariadení.</translation>
 <translation id="3152425128389603870">Sprístupnenie režimu zjednotenej plochy a jeho zapnutie v predvolenom nastavení</translation>
@@ -1283,7 +1283,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
       Ak je toto nastavenie povolené alebo nebolo nakonfigurované, používatelia môžu povoliť server proxy pre tlač z cloudu prostredníctvom overenia totožnosti pomocou účtu Google.
 
       Ak je toto nastavenie zakázané, používatelia nebudú môcť povoliť server proxy a počítač nebude môcť zdieľať pripojené tlačiarne so službou <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Povolí stránku na chrome://password-change, ktorá umožňuje používateľom SAML zmeniť svoje heslá SAML v rámci relácie, čím sa zaistí, že heslo SAML a heslo uzamknutej obrazovky zariadenia zostanú synchronizované.
+<translation id="3312206664202507568">Povolí stránku na decentr://password-change, ktorá umožňuje používateľom SAML zmeniť svoje heslá SAML v rámci relácie, čím sa zaistí, že heslo SAML a heslo uzamknutej obrazovky zariadenia zostanú synchronizované.
 
       Toto pravidlo tiež povoľuje upozornenia, ktoré používateľov SAML upozorňujú na blízke vypršanie platnosti ich hesiel SAML, aby to mohli okamžite vyriešiť zmenou hesla v rámci relácie.
       Tieto upozornenia sa však zobrazia iba vtedy, keď informácie o vypršaní platnosti hesla odošle do zariadenia poskytovateľ identity SAML počas prihlasovacieho postupu SAML.
@@ -2040,7 +2040,7 @@ Ak je toto nastavenie zakázané alebo nie je nakonfigurované, nebudú môcť p
 <translation id="4777805166623621364">
       Pomocou tohto nastavenia SitePerProcess môžete zakázať používateľom deaktivovať predvolené správanie, ktorým je izolovanie všetkých webov. Na izolovanie ďalších, podrobnejších zdrojov môžete použiť aj pravidlo IsolateOrigins.
       Ak toto pravidlo povolíte, používateľa nebudú môcť deaktivovať predvolené správanie, v rámci ktorého sa všetky weby spúšťajú vo vlastných procesoch.
-      Ak ho nenakonfigurujete alebo zakážete, používateľ bude môcť deaktivovať izolovanie webov (napr. pomocou vstupu Zakázať izolovanie webov na chrome://flags).  Ak ho zakážete alebo nenakonfigurujete, izolovanie webov sa nevypne.
+      Ak ho nenakonfigurujete alebo zakážete, používateľ bude môcť deaktivovať izolovanie webov (napr. pomocou vstupu Zakázať izolovanie webov na decentr://flags).  Ak ho zakážete alebo nenakonfigurujete, izolovanie webov sa nevypne.
       V systéme <ph name="PRODUCT_OS_NAME" /> verzie 76 alebo skoršej odporúčame tiež nastaviť pravidlo pre zariadenie <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> na rovnakú hodnotu. Ak sa hodnoty určené týmito dvoma pravidlami nezhodujú, môže dôjsť pri prechode do relácie používateľa k oneskoreniu spôsobenému uplatňovaním hodnoty určenej pravidlom pre používateľov.
 
       UPOZORNENIE: Toto pravidlo neplatí v Androide. SitePerProcess povoľte v Androide pomocou nastavenia pravidla SitePerProcessAndroid.
@@ -2922,7 +2922,7 @@ Ak značku recommended nastavíte na hodnotu true, používatelia môžu zmeniť
 
           Ak toto nastavenie povolíte, ako domovská stránka sa vždy použije stránka na novej karte a webová adresa domovskej stránky sa bude ignorovať.
 
-          Ak toto nastavenie zakážete, ako domovská stránka používateľa sa nikdy nepoužije stránka na novej karte. Stane sa tak iba vtedy, keď jej webová adresa bude „chrome://newtab“.
+          Ak toto nastavenie zakážete, ako domovská stránka používateľa sa nikdy nepoužije stránka na novej karte. Stane sa tak iba vtedy, keď jej webová adresa bude „decentr://newtab“.
 
           Ak toto nastavenie povolíte alebo zakážete, používatelia nebudú môcť v prehliadači <ph name="PRODUCT_NAME" /> meniť typ svojej domovskej stránky.
 
@@ -3094,7 +3094,7 @@ Ak toto pravidlo nastavíte na hodnotu True, vstavaný klient DNS sa použije (p
 
       Ak toto pravidlo nastavíte na hodnotu False, vstavaný klient DNS sa nepoužije nikdy.
 
-      Ak toto pravidlo nenastavíte, v systémoch MacOS, Android (keď nie sú povolené súkromné DNS ani VPN) a ChromeOS bude predvolene povolený vstavaný klient DNS, a používatelia budú môcť ovládať používanie vstavaného klienta DNS pomocou úprav na chrome://flags alebo určením príznaku v príkazovom riadku.</translation>
+      Ak toto pravidlo nenastavíte, v systémoch MacOS, Android (keď nie sú povolené súkromné DNS ani VPN) a ChromeOS bude predvolene povolený vstavaný klient DNS, a používatelia budú môcť ovládať používanie vstavaného klienta DNS pomocou úprav na decentr://flags alebo určením príznaku v príkazovom riadku.</translation>
 <translation id="6843296367238757293">Podpora tohto pravidla bola ukončená. Neodporúča sa používať. Ďalšie informácie nájdete na https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Toto pravidlo bolo odstránené v systéme <ph name="PRODUCT_NAME" /> verzie 68 a nahradené pravidlom <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Toto pravidlo je vo verzii M66 deaktivované a odstránené, pretože sa používalo iba na interné testovanie a predstavuje bezpečnostné riziko.
@@ -3734,7 +3734,7 @@ Ak toto pravidlo nastavíte na hodnotu True, vstavaný klient DNS sa použije (p
 <translation id="7941975817681987555">Nepredpovedať akcie siete pri sieťovom pripojení</translation>
 <translation id="7952007677054834789">Konfiguruje v prehliadači <ph name="PRODUCT_NAME" /> načítanie stránok pri spustení, predvolenú domovskú stránku a predvolenú stránku na novej karte a bráni používateľom ich zmeniť.
 
-      Nastavenia domovskej stránky používateľa sú úplne uzamknuté iba vtedy, keď nastavíte domovskú stránku ako stránku na novej karte alebo vopred určenú webovú adresu domovskej stránky. Ak túto webovú adresu neurčíte, používateľ bude stále môcť nastaviť domovskú stránku ako stránku na novej karte príkazom „chrome://newtab“.
+      Nastavenia domovskej stránky používateľa sú úplne uzamknuté iba vtedy, keď nastavíte domovskú stránku ako stránku na novej karte alebo vopred určenú webovú adresu domovskej stránky. Ak túto webovú adresu neurčíte, používateľ bude stále môcť nastaviť domovskú stránku ako stránku na novej karte príkazom „decentr://newtab“.
 
       Ak ste v časti Akcia pri spustení nevybrali Otvoriť zoznam webových adries, pravidlo Webové adresy otvárané pri spustení sa bude ignorovať.</translation>
 <translation id="7952958573604504839">Vo verzii M48 bola podpora tohto pravidla ukončená a bolo nahradené pravidlom <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, vo verzii M54 bolo toto pravidlo odstránené.

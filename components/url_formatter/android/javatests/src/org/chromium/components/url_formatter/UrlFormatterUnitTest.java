@@ -39,7 +39,7 @@ public class UrlFormatterUnitTest {
     @SmallTest
     public void testFixupUrl() {
         assertEquals("http://google.com/", UrlFormatter.fixupUrl("google.com").getSpec());
-        assertEquals("chrome://version/", UrlFormatter.fixupUrl("about:").getSpec());
+        assertEquals("decentr://version/", UrlFormatter.fixupUrl("about:").getSpec());
         assertEquals("file:///mail.google.com:/",
                 UrlFormatter.fixupUrl("//mail.google.com:/").getSpec());
         Assert.assertFalse(UrlFormatter.fixupUrl("0x100.0").isValid());
@@ -64,7 +64,7 @@ public class UrlFormatterUnitTest {
                 UrlFormatter::formatUrlForDisplayOmitSchemeOmitTrivialSubdomains;
 
         assertEquals("google.com/path", f.apply("http://user:pass@google.com/path"));
-        assertEquals("chrome://version", f.apply("chrome://version"));
+        assertEquals("decentr://version", f.apply("decentr://version"));
         assertEquals("äää.de", f.apply("https://äää.de"));
         assertEquals("xn--4caaa.com", f.apply("https://äää.com"));
         assertEquals("مثال.إختبار", f.apply("https://xn--mgbh0fb.xn--kgbechtv/"));
@@ -78,7 +78,7 @@ public class UrlFormatterUnitTest {
                 UrlFormatter::formatUrlForDisplayOmitSchemePathAndTrivialSubdomains;
 
         assertEquals("google.com", f.apply(new GURL("http://user:pass@google.com/path")));
-        assertEquals("chrome://version", f.apply(new GURL("chrome://version")));
+        assertEquals("decentr://version", f.apply(new GURL("decentr://version")));
         assertEquals("äää.de", f.apply(new GURL("https://äää.de")));
         assertEquals("xn--4caaa.com", f.apply(new GURL("https://äää.com")));
         assertEquals("مثال.إختبار", f.apply(new GURL("https://xn--mgbh0fb.xn--kgbechtv/")));

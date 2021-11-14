@@ -6,8 +6,8 @@
  * @fileoverview Tests for MultiStoreExceptionEntry.
  */
 
-import {MultiStoreExceptionEntry} from 'chrome://settings/settings.js';
-import {createExceptionEntry} from 'chrome://test/settings/passwords_and_autofill_fake_data.js';
+import {MultiStoreExceptionEntry} from 'decentr://settings/settings.js';
+import {createExceptionEntry} from 'decentr://test/settings/passwords_and_autofill_fake_data.js';
 
 suite('MultiStoreExceptionEntry', function() {
   test('verifyIds', function() {

@@ -29,7 +29,7 @@ constexpr char kURL2[] = "http://youtube.com/";
 constexpr char kSiteMutedEvent[] = "Media.SiteMuted";
 constexpr char kSiteMutedReason[] = "MuteReason";
 #if !defined(OS_ANDROID)
-constexpr char kChromeURL[] = "chrome://dino";
+constexpr char kChromeURL[] = "decentr://dino";
 constexpr char kExtensionId[] = "extensionid";
 #endif
 

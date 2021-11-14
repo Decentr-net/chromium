@@ -91,7 +91,7 @@ if (optimize_webui) {
   build_manifest = "build_manifest.json"
 
   optimize_webui("build") {
-    host = "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai"
+    host = "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai"
     input = rebase_path("$target_gen_dir/$preprocess_folder", root_build_dir)
     js_out_files = [ "pdf_viewer_wrapper.rollup.js" ]
     js_module_in_files = [ "pdf_viewer_wrapper.js" ]
@@ -104,7 +104,7 @@ if (optimize_webui) {
     ]
     excludes = [
       "browser_api.js",
-      "chrome://resources/js/cr.m.js",
+      "decentr://resources/js/cr.m.js",
     ]
   }
 }
@@ -126,7 +126,7 @@ optimize_webui("build_internal_plugin") {
   ]
   excludes = [
     "browser_api.js",
-    "chrome://resources/js/cr.m.js",
+    "decentr://resources/js/cr.m.js",
   ]
 }
 

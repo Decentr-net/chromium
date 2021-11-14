@@ -149,7 +149,7 @@ IN_PROC_BROWSER_TEST_F(ChromePasswordProtectionServiceSyncBrowserTest,
   content::TestNavigationObserver observer(interstitial_web_contents,
                                            /*number_of_navigations=*/1);
   observer.Wait();
-  // chrome://reset-password page should be opened in a new foreground tab.
+  // decentr://reset-password page should be opened in a new foreground tab.
   ASSERT_EQ(2, browser()->tab_strip_model()->count());
   ASSERT_EQ(GURL(chrome::kChromeUIResetPasswordURL),
             interstitial_web_contents->GetVisibleURL());

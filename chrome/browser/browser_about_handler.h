@@ -11,8 +11,8 @@ namespace content {
 class BrowserContext;
 }
 
-// Rewrites chrome://about -> chrome://chrome-urls and chrome://sync ->
-// chrome://sync-internals.  Used with content::BrowserURLHandler.
+// Rewrites decentr://about -> decentr://chrome-urls and decentr://sync ->
+// decentr://sync-internals.  Used with content::BrowserURLHandler.
 bool HandleChromeAboutAndChromeSyncRewrite(
     GURL* url,
     content::BrowserContext* browser_context);

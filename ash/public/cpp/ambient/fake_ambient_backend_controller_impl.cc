@@ -24,7 +24,7 @@ constexpr AmbientModeTopicSource kTopicSource =
 constexpr AmbientModeTemperatureUnit kTemperatureUnit =
     AmbientModeTemperatureUnit::kCelsius;
 
-constexpr char kFakeUrl[] = "chrome://ambient";
+constexpr char kFakeUrl[] = "decentr://ambient";
 
 constexpr char kFakeDetails[] = "fake-photo-attribution";
 

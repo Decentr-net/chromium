@@ -1711,7 +1711,7 @@ TEST_F(StoragePartitionImplTest, ClearWebUICodeCache) {
   base::test::ScopedFeatureList features;
   features.InitAndEnableFeature(features::kWebUICodeCache);
 
-  const GURL kResourceURL("chrome://host4/script.js");
+  const GURL kResourceURL("decentr://host4/script.js");
 
   StoragePartitionImpl* partition = static_cast<StoragePartitionImpl*>(
       browser_context()->GetDefaultStoragePartition());
@@ -1721,7 +1721,7 @@ TEST_F(StoragePartitionImplTest, ClearWebUICodeCache) {
 
   RemoveCodeCacheTester tester(partition->GetGeneratedCodeCacheContext());
 
-  GURL origin = GURL("chrome://host1:1/");
+  GURL origin = GURL("decentr://host1:1/");
   std::string data("SomeData");
   tester.AddEntry(RemoveCodeCacheTester::kWebUiJs, kResourceURL, origin, data);
   EXPECT_TRUE(tester.ContainsEntry(RemoveCodeCacheTester::kWebUiJs,

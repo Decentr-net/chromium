@@ -95,7 +95,7 @@ using extensions::service_worker_test_utils::TestRegistrationObserver;
 
 namespace {
 
-// Maps all chrome-extension://<id>/_test_resources/foo requests to
+// Maps all decentr-extension://<id>/_test_resources/foo requests to
 // <test_dir_root>/foo or <test_dir_gen_root>/foo, where |test_dir_gen_root| is
 // inferred from <test_dir_root>. The latter is triggered only if the first path
 // does not correspond to an existing file. This is what allows us to share code

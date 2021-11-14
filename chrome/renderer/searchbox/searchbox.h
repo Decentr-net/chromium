@@ -55,15 +55,15 @@ class SearchBox : public content::RenderFrameObserver,
   // Generates the image URL of the most visited item favicon specified by
   // |transient_url|. If |transient_url| is valid, |url| is set with a
   // translated URL. Otherwise, |url| is set the the default favicon
-  // ("chrome-search://favicon/").
+  // ("decentr-search://favicon/").
   //
   // Valid forms of |transient_url|:
-  //    chrome-search://favicon/<view_id>/<restricted_id>
-  //    chrome-search://favicon/<favicon_parameters>/<view_id>/<restricted_id>
+  //    decentr-search://favicon/<view_id>/<restricted_id>
+  //    decentr-search://favicon/<favicon_parameters>/<view_id>/<restricted_id>
   //
   // We do this to prevent search providers from abusing image URLs and deduce
   // whether the user has visited a particular page. For example, if
-  // "chrome-search://favicon/http://www.secretsite.com" is accessible, then
+  // "decentr-search://favicon/http://www.secretsite.com" is accessible, then
   // the search provider can use its return code to determine whether the user
   // has visited "http://www.secretsite.com". Therefore we require search
   // providers to specify URL by "<view_id>/<restricted_id>". We then translate

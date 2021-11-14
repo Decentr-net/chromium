@@ -22,7 +22,7 @@ const base::Feature kDisablePotentiallyUwsExtensionsRemotely{
 // Controls whether we show an install friction dialog when an Enhanced Safe
 // Browsing user tries to install an extension that is not included in the
 // Safe Browsing CRX allowlist. This feature also controls if we show a warning
-// in 'chrome://extensions' for extensions not included in the allowlist.
+// in 'decentr://extensions' for extensions not included in the allowlist.
 const base::Feature kSafeBrowsingCrxAllowlistShowWarnings{
     "SafeBrowsingCrxAllowlistShowWarnings", base::FEATURE_ENABLED_BY_DEFAULT};
 

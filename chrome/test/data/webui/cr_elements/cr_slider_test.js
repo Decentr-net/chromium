@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrSliderElement} from 'chrome://resources/cr_elements/cr_slider/cr_slider.js';
+import {CrSliderElement} from 'decentr://resources/cr_elements/cr_slider/cr_slider.js';
 
-import {pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {eventToPromise, flushTasks} from '../test_util.js';

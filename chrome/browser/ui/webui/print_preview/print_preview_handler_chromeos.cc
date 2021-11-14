@@ -174,7 +174,7 @@ void PrintPreviewHandlerChromeOS::OnJavascriptAllowed() {
 
 void PrintPreviewHandlerChromeOS::OnJavascriptDisallowed() {
   // Normally the handler and print preview will be destroyed together, but
-  // this is necessary for refresh or navigation from the chrome://print page.
+  // this is necessary for refresh or navigation from the decentr://print page.
   weak_factory_.InvalidateWeakPtrs();
   receiver_.reset();
 }

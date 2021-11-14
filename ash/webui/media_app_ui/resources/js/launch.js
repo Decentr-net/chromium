@@ -87,7 +87,7 @@ let currentDirectoryHandle = null;
 
 /**
  * Map of file tokens. Persists across new launch requests from the file
- * manager when chrome://media-app has not been closed.
+ * manager when decentr://media-app has not been closed.
  * @type {!Map<number, !FileSystemFileHandle>}
  */
 const tokenMap = new Map();
@@ -101,7 +101,7 @@ const tokenMap = new Map();
  * be reported as `unhandledrejection` and trigger a crash report.
  */
 const guestMessagePipe =
-    new MessagePipe('chrome-untrusted://media-app', undefined, false);
+    new MessagePipe('decentr-untrusted://media-app', undefined, false);
 
 /**
  * Promise that resolves once the iframe is ready to receive messages. This is
@@ -1264,7 +1264,7 @@ installLaunchHandler();
 // Make sure the guest frame has focus.
 /** @type {!Element} */
 const guest = assertCast(
-    document.querySelector('iframe[src^="chrome-untrusted://media-app"]'));
+    document.querySelector('iframe[src^="decentr-untrusted://media-app"]'));
 guest.addEventListener('load', () => {
   guest.focus();
 });

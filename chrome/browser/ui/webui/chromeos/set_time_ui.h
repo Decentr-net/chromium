@@ -10,7 +10,7 @@
 
 namespace chromeos {
 
-// The WebUI for chrome://set-time.
+// The WebUI for decentr://set-time.
 class SetTimeUI : public ui::WebDialogUI {
  public:
   explicit SetTimeUI(content::WebUI* web_ui);

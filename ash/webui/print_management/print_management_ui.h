@@ -13,7 +13,7 @@ namespace ash {
 namespace printing {
 namespace printing_manager {
 
-// The WebUI for chrome://print-management/.
+// The WebUI for decentr://print-management/.
 class PrintManagementUI : public ui::MojoWebUIController {
  public:
   using BindPrintingMetadataProviderCallback = base::RepeatingCallback<void(

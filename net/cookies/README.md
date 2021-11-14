@@ -393,7 +393,7 @@ The core classes are highlighted.
 * [`CookiesTreeModel`](/chrome/browser/browsing_data/cookies_tree_model.h)
 
     Stores cookie information for use in settings UI (the Page Info Bubble and
-    various `chrome://settings` pages). Populated with info from
+    various `decentr://settings` pages). Populated with info from
     `PageSpecificContentSettings`.
 
 * [`CookieJar`](/third_party/blink/renderer/core/loader/cookie_jar.h)
@@ -431,7 +431,7 @@ The core classes are highlighted.
     which means it is sometimes initialized with a bare `net::CookieStore`.
 
     Also notable for allowing cookies for `file://` scheme URLs (normally they
-    are only allowed for HTTP and websocket schemes and `chrome-extension://`),
+    are only allowed for HTTP and websocket schemes and `decentr-extension://`),
     though this is non-default and deprecated.
 
 ## Main interfaces for finding, setting, deleting, and observing cookies

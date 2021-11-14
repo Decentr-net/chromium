@@ -632,19 +632,19 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
 // variety of special URL schemes. Since these are not loaded over the network,
 // an IP address space must be made up for them.
 
-// This test verifies that the chrome-untrusted:// scheme is considered local
+// This test verifies that the decentr-untrusted:// scheme is considered local
 // for the purpose of Private Network Access computations.
-// TODO(crbug.com/1244544): The NTP no longer loads a chrome-untrusted://
-// iframe in all cases. Find another way to test the chrome-untrusted:// scheme.
+// TODO(crbug.com/1244544): The NTP no longer loads a decentr-untrusted://
+// iframe in all cases. Find another way to test the decentr-untrusted:// scheme.
 IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
                        DISABLED_SpecialSchemeChromeUntrusted) {
-  // The only way to have a page with a loaded chrome-untrusted:// url without
+  // The only way to have a page with a loaded decentr-untrusted:// url without
   // relying on platform specific or components features, is to use the
-  // new-tab-page host. chrome-untrusted://new-tab-page is restricted to iframes
-  // however so we load chrome://new-tab-page that embeds chrome-untrusted://
+  // new-tab-page host. decentr-untrusted://new-tab-page is restricted to iframes
+  // however so we load decentr://new-tab-page that embeds decentr-untrusted://
   // frame(s) by default.
   EXPECT_TRUE(
-      content::NavigateToURL(web_contents(), GURL("chrome://new-tab-page")));
+      content::NavigateToURL(web_contents(), GURL("decentr://new-tab-page")));
   content::RenderFrameHost* iframe = ChildFrameAt(web_contents(), 0);
   ASSERT_TRUE(iframe);
   EXPECT_TRUE(iframe->GetLastCommittedURL().SchemeIs(
@@ -653,7 +653,7 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
   std::unique_ptr<net::EmbeddedTestServer> server = NewServer();
   GURL fetch_url = LocalNonSecureWithCrossOriginCors(*server);
 
-  // TODO(crbug.com/591068): The chrome-untrusted:// page should be kLocal, and
+  // TODO(crbug.com/591068): The decentr-untrusted:// page should be kLocal, and
   // not require a Private Network Access CORS preflight. However we have not
   // yet implemented the CORS preflight mechanism, and fixing the underlying
   // issue will not change the test result. Once CORS preflight is implemented,
@@ -685,19 +685,19 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
   EXPECT_EQ(true, content::EvalJs(web_contents(), FetchScript(fetch_url)));
 }
 
-// This test verifies that the chrome-search:// scheme is considered local for
+// This test verifies that the decentr-search:// scheme is considered local for
 // the purpose of Private Network Access.
 IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
                        SpecialSchemeChromeSearch) {
   EXPECT_TRUE(content::NavigateToURL(
-      web_contents(), GURL("chrome-search://most-visited/title.html")));
+      web_contents(), GURL("decentr-search://most-visited/title.html")));
   ASSERT_TRUE(web_contents()->GetMainFrame()->GetLastCommittedURL().SchemeIs(
       chrome::kChromeSearchScheme));
 
   std::unique_ptr<net::EmbeddedTestServer> server = NewServer();
   GURL fetch_url = LocalNonSecureWithCrossOriginCors(*server);
 
-  // TODO(crbug.com/591068): The chrome-search:// page should be kLocal, and not
+  // TODO(crbug.com/591068): The decentr-search:// page should be kLocal, and not
   // require a Private Network Access CORS preflight. However we have not yet
   // implemented the CORS preflight mechanism, and fixing the underlying issue
   // will not change the test result. Once CORS preflight is implemented, review
@@ -709,7 +709,7 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
                                   content::ISOLATED_WORLD_ID_CONTENT_END));
 }
 
-// This test verifies that the chrome-extension:// scheme is considered local
+// This test verifies that the decentr-extension:// scheme is considered local
 // for the purpose of Private Network Access.
 IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
                        SpecialSchemeChromeExtension) {
@@ -726,7 +726,7 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
   constexpr char kContents[] = R"(
   <html>
     <head>
-      <title>IPAddressSpace of chrome-extension:// schemes.</title>
+      <title>IPAddressSpace of decentr-extension:// schemes.</title>
     </head>
     <body>
     </body>
@@ -756,7 +756,7 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessWithFeatureEnabledBrowserTest,
   std::unique_ptr<net::EmbeddedTestServer> server = NewServer();
   GURL fetch_url = LocalNonSecureWithCrossOriginCors(*server);
 
-  // TODO(crbug.com/591068): The chrome-extension:// page should be kLocal, and
+  // TODO(crbug.com/591068): The decentr-extension:// page should be kLocal, and
   // not require a Private Network Access CORS preflight. However we have not
   // yet implemented the CORS preflight mechanism, and fixing the underlying
   // issue will not change the test result. Once CORS preflight is implemented,

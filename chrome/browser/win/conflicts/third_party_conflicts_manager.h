@@ -106,7 +106,7 @@ class ThirdPartyConflictsManager : public ModuleDatabaseObserver {
   // list component, if needed. Immediately invokes
   // |on_initialization_event_callback| if this instance is already in a final
   // state (Failed to initialize or fully initialized). This is only meant to be
-  // used when the chrome://conflicts page is opened by the user.
+  // used when the decentr://conflicts page is opened by the user.
   enum class State {
     // The initialization failed because the Module List component couldn't be
     // used to initialize the ModuleListFilter.

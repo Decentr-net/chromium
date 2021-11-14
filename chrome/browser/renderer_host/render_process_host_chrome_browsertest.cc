@@ -233,7 +233,7 @@ class ChromeRenderProcessHostTest : public extensions::ExtensionBrowserTest {
     EXPECT_NE(tab2->GetMainFrame()->GetProcess(), rph1);
 
     // Create an extension tab.  It should be in its own process.
-    GURL extension_url("chrome-extension://" + extension->id());
+    GURL extension_url("decentr-extension://" + extension->id());
     ui_test_utils::TabAddedWaiter add_tab4(browser());
     ::ShowSingletonTab(browser(), extension_url);
 

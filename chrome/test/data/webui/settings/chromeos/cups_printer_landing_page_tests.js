@@ -3,19 +3,19 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/lazy_load.js';
+// #import 'decentr://os-settings/chromeos/lazy_load.js';
 
-// #import {CupsPrintersBrowserProxyImpl,PrinterSetupResult,CupsPrintersEntryManager,PrintServerResult,PrinterType} from 'chrome://os-settings/chromeos/lazy_load.js';
+// #import {CupsPrintersBrowserProxyImpl,PrinterSetupResult,CupsPrintersEntryManager,PrintServerResult,PrinterType} from 'decentr://os-settings/chromeos/lazy_load.js';
 // #import {MojoInterfaceProviderImpl, MojoInterfaceProvider} from '//resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
 // #import {TestCupsPrintersBrowserProxy } from './test_cups_printers_browser_proxy.m.js';
-// #import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-// #import {Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+// #import {Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {createCupsPrinterInfo,createPrinterListEntry} from './cups_printer_test_utils.m.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {flushTasks} from '../../test_util.js';
 // #import {getPrinterEntries} from './cups_printer_test_utils.m.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 const arrowUpEvent = new KeyboardEvent(

@@ -46,7 +46,7 @@ content::WebUIDataSource* CreateHelpAppKidsMagazineUntrustedDataSource() {
         kChromeosHelpAppKidsMagazineBundleResources[i].id);
   }
 
-  // Add chrome://help-app and chrome-untrusted://help-app as frame ancestors.
+  // Add decentr://help-app and decentr-untrusted://help-app as frame ancestors.
   source->AddFrameAncestor(GURL(kChromeUIHelpAppURL));
   source->AddFrameAncestor(GURL(kChromeUIHelpAppUntrustedURL));
   source->OverrideContentSecurityPolicy(

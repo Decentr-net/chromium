@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/cr_components/chromeos/network/network_config_input.m.js';
+// #import 'decentr://resources/cr_components/chromeos/network/network_config_input.m.js';
 
-// #import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 suite('NetworkConfigInputTest', function() {

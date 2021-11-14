@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PrintPreviewNumberSettingsSectionElement} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {triggerInputEvent} from 'chrome://test/print_preview/print_preview_test_utils.js';
+import {PrintPreviewNumberSettingsSectionElement} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {triggerInputEvent} from 'decentr://test/print_preview/print_preview_test_utils.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 

@@ -71,7 +71,7 @@ class COMPONENT_EXPORT(CHROMEOS_NETWORK) CellularESimProfileHandlerImpl
 
   bool CellularDeviceExists() const;
 
-  // Used by chrome://network debug page; not meant to be called during normal
+  // Used by decentr://network debug page; not meant to be called during normal
   // usage.
   void ResetESimProfileCache();
 

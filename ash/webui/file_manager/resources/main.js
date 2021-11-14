@@ -14,10 +14,10 @@ import './crt0.js';
  */
 import {BrowserProxy} from './browser_proxy.js'
 import {ScriptLoader} from './script_loader.js'
-import {promisify} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/common/js/api.js';
-import {VolumeManagerImpl} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/volume_manager_impl.js';
-import 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/metrics_start.js';
-import {background} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/background.js';
+import {promisify} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/common/js/api.js';
+import {VolumeManagerImpl} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/volume_manager_impl.js';
+import 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/metrics_start.js';
+import {background} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/background.js';
 import './test_util_swa.js';
 
 /**

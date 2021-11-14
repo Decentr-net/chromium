@@ -32,7 +32,7 @@ const security_interstitials::SecurityInterstitialPage::TypeID
 
 // Note that we always create a navigation entry with SSL errors.
 // No error happening loading a sub-resource triggers an interstitial so far.
-// Creating an interstitial without showing (e.g. from chrome://interstitials)
+// Creating an interstitial without showing (e.g. from decentr://interstitials)
 // it leaks memory, so don't create it here.
 MITMSoftwareBlockingPage::MITMSoftwareBlockingPage(
     content::WebContents* web_contents,

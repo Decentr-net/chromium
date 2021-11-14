@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {str} from '../../../../common/js/util.js';
 
 import {VolumeManagerCommon} from '../../../../common/js/volume_manager_types.js';
@@ -82,17 +82,17 @@ export class SharedWithCrostiniPluginVmBanner extends StateBanner {
         (constants.DEFAULT_CROSTINI_VM + constants.PLUGIN_VM)) {
       text.innerText = str('MESSAGE_FOLDER_SHARED_WITH_CROSTINI_AND_PLUGIN_VM');
       button.setAttribute(
-          'href', 'chrome://os-settings/app-management/pluginVm/sharedPaths');
+          'href', 'decentr://os-settings/app-management/pluginVm/sharedPaths');
       return;
     }
     if (context.type === constants.PLUGIN_VM) {
       text.innerText = str('MESSAGE_FOLDER_SHARED_WITH_PLUGIN_VM');
       button.setAttribute(
-          'href', 'chrome://os-settings/app-management/pluginVm/sharedPaths');
+          'href', 'decentr://os-settings/app-management/pluginVm/sharedPaths');
       return;
     }
     text.innerText = str('MESSAGE_FOLDER_SHARED_WITH_CROSTINI');
-    button.setAttribute('href', 'chrome://os-settings/crostini/sharedPaths');
+    button.setAttribute('href', 'decentr://os-settings/crostini/sharedPaths');
   }
 }
 

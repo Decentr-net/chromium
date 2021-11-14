@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://resources/cr_elements/cr_lottie/cr_lottie.m.js';
+import 'decentr://resources/cr_elements/cr_lottie/cr_lottie.m.js';
 
-import {FINGEPRINT_TICK_DARK_URL, FINGEPRINT_TICK_LIGHT_URL} from 'chrome://resources/cr_elements/cr_fingerprint/cr_fingerprint_progress_arc.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {FINGEPRINT_TICK_DARK_URL, FINGEPRINT_TICK_LIGHT_URL} from 'decentr://resources/cr_elements/cr_fingerprint/cr_fingerprint_progress_arc.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals} from '../chai_assert.js';
 import {MockController, MockMethod} from '../mock_controller.m.js';

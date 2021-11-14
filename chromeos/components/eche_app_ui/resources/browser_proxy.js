@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // Pass the query string params from the trusted URL.
-const mainUrl = 'chrome-untrusted://eche-app/untrusted_index.html';
+const mainUrl = 'decentr-untrusted://eche-app/untrusted_index.html';
 // The window.location.hash starts with # and window.location.search starts
 // with ?, uses substring(1) to remove them.
 let urlParams = window.location.hash ?
@@ -52,7 +52,7 @@ const notificationGenerator =
  * be reported as `unhandledrejection` and trigger a crash report.
  */
  const guestMessagePipe =
- new MessagePipe('chrome-untrusted://eche-app',
+ new MessagePipe('decentr-untrusted://eche-app',
                  /*target=*/ undefined,
                  /*rethrow_errors=*/ false);
 

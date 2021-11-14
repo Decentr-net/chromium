@@ -12,7 +12,7 @@ import '//resources/cr_elements/cr_input/cr_input.m.js';
 
 import {I18nBehavior, I18nBehaviorInterface} from '//resources/js/i18n_behavior.m.js';
 import {html, mixinBehaviors, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {getDeviceName} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_utils.js';
+import {getDeviceName} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_utils.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 

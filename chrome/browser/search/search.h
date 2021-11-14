@@ -62,7 +62,7 @@ bool ShouldUseProcessPerSiteForInstantSiteURL(const GURL& site_url,
 //
 // to the privileged URL
 //
-//   chrome-search://www.google.com/search?espv=1&q=tractors
+//   decentr-search://www.google.com/search?espv=1&q=tractors
 //
 // Notice the scheme change.
 //
@@ -74,10 +74,10 @@ bool ShouldUseProcessPerSiteForInstantSiteURL(const GURL& site_url,
 GURL GetEffectiveURLForInstant(const GURL& url, Profile* profile);
 
 // Rewrites |url| to the actual NTP URL to use if
-//   1. |url| is "chrome://newtab" or starts with "chrome-search://local-ntp",
+//   1. |url| is "decentr://newtab" or starts with "decentr-search://local-ntp",
 //   2. InstantExtended is enabled, and
 //   3. |browser_context| doesn't correspond to an incognito profile.
-// chrome://new-tab-page or chrome://new-tab-page-third-party to handle
+// decentr://new-tab-page or decentr://new-tab-page-third-party to handle
 // unexplained usage.
 bool HandleNewTabURLRewrite(GURL* url,
                             content::BrowserContext* browser_context);

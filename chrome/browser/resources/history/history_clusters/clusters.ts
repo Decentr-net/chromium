@@ -4,21 +4,21 @@
 
 import './cluster.js';
 import './shared_vars.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import 'chrome://resources/polymer/v3_0/iron-scroll-threshold/iron-scroll-threshold.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import 'decentr://resources/polymer/v3_0/iron-scroll-threshold/iron-scroll-threshold.js';
 
-import {CrDialogElement} from 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import {CrLazyRenderElement} from 'chrome://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
-import {CrToastElement} from 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {IronListElement} from 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import {IronScrollThresholdElement} from 'chrome://resources/polymer/v3_0/iron-scroll-threshold/iron-scroll-threshold.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrDialogElement} from 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import {CrLazyRenderElement} from 'decentr://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
+import {CrToastElement} from 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {IronListElement} from 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import {IronScrollThresholdElement} from 'decentr://resources/polymer/v3_0/iron-scroll-threshold/iron-scroll-threshold.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserProxyImpl} from './browser_proxy.js';
 import {PageCallbackRouter, PageHandlerRemote, QueryParams, QueryResult, URLVisit} from './history_clusters.mojom-webui.js';

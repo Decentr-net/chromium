@@ -8,7 +8,7 @@
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The implementation for the chrome://invalidations page.
+// The implementation for the decentr://invalidations page.
 class InvalidationsUI : public content::WebUIController {
  public:
   explicit InvalidationsUI(content::WebUI* web_ui);

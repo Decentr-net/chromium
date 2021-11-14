@@ -362,13 +362,13 @@ class HtmlInlineUnittest(unittest.TestCase):
       <html>
       <head>
       <link rel="stylesheet" href="foo.css">
-      <link rel="stylesheet" href="chrome://resources/bar.css">
+      <link rel="stylesheet" href="decentr://resources/bar.css">
       </head>
       </html>
       ''',
 
       'foo.css': '''
-      @import url(chrome://resources/blurp.css);
+      @import url(decentr://resources/blurp.css);
       blink {
         display: none;
       }
@@ -379,12 +379,12 @@ class HtmlInlineUnittest(unittest.TestCase):
       <html>
       <head>
       <style>
-      @import url(chrome://resources/blurp.css);
+      @import url(decentr://resources/blurp.css);
       blink {
         display: none;
       }
       </style>
-      <link rel="stylesheet" href="chrome://resources/bar.css">
+      <link rel="stylesheet" href="decentr://resources/bar.css">
       </head>
       </html>
       '''
@@ -604,8 +604,8 @@ class HtmlInlineUnittest(unittest.TestCase):
       <html>
       <img src="img1.png" srcset="img2.png 1x, img3.png 2x">
       <img src="img4.png" srcset=" img5.png   1x , img6.png 2x ">
-      <img src="chrome://theme/img11.png" srcset="img7.png 1x, '''\
-          '''chrome://theme/img13.png 2x">
+      <img src="decentr://theme/img11.png" srcset="img7.png 1x, '''\
+          '''decentr://theme/img13.png 2x">
       <img srcset="img8.png 300w, img9.png 11E-2w,img10.png -1e2w">
       <img srcset="img11.png">
       <img srcset="img11.png, img2.png 1x">
@@ -631,8 +631,8 @@ class HtmlInlineUnittest(unittest.TestCase):
           '''YTI= 1x,data:image/png;base64,YTM= 2x">
       <img src="data:image/png;base64,YTQ=" srcset="data:image/png;base64,'''\
           '''YTU= 1x,data:image/png;base64,YTY= 2x">
-      <img src="chrome://theme/img11.png" srcset="data:image/png;base64,'''\
-          '''YTc= 1x,chrome://theme/img13.png 2x">
+      <img src="decentr://theme/img11.png" srcset="data:image/png;base64,'''\
+          '''YTc= 1x,decentr://theme/img13.png 2x">
       <img srcset="data:image/png;base64,YTg= 300w,data:image/png;base64,'''\
           '''YTk= 11E-2w,data:image/png;base64,YTEw -1e2w">
       <img srcset="data:image/png;base64,YTEx">
@@ -699,8 +699,8 @@ class HtmlInlineUnittest(unittest.TestCase):
       <html>
       <source src="img1.png" srcset="img2.png 1x, img3.png 2x">
       <source src="img4.png" srcset=" img5.png   1x , img6.png 2x ">
-      <source src="chrome://theme/img11.png" srcset="img7.png 1x, '''\
-          '''chrome://theme/img13.png 2x">
+      <source src="decentr://theme/img11.png" srcset="img7.png 1x, '''\
+          '''decentr://theme/img13.png 2x">
       <source srcset="img8.png 300w, img9.png 11E-2w,img10.png -1e2w">
       <source srcset="img11.png">
       </html>
@@ -724,8 +724,8 @@ class HtmlInlineUnittest(unittest.TestCase):
           '''base64,YTI= 1x,data:image/png;base64,YTM= 2x">
       <source src="data:image/png;base64,YTQ=" srcset="data:image/png;'''\
           '''base64,YTU= 1x,data:image/png;base64,YTY= 2x">
-      <source src="chrome://theme/img11.png" srcset="data:image/png;'''\
-          '''base64,YTc= 1x,chrome://theme/img13.png 2x">
+      <source src="decentr://theme/img11.png" srcset="data:image/png;'''\
+          '''base64,YTc= 1x,decentr://theme/img13.png 2x">
       <source srcset="data:image/png;base64,YTg= 300w,data:image/png;'''\
           '''base64,YTk= 11E-2w,data:image/png;base64,YTEw -1e2w">
       <source srcset="data:image/png;base64,YTEx">
@@ -760,8 +760,8 @@ class HtmlInlineUnittest(unittest.TestCase):
         <img src="img4.png" srcset=" img5.png 1x, img6.png 2x ">
       </if>
       <if expr="True">
-        <img src="chrome://theme/img11.png" srcset="img7.png 1x, '''\
-            '''chrome://theme/img13.png 2x">
+        <img src="decentr://theme/img11.png" srcset="img7.png 1x, '''\
+            '''decentr://theme/img13.png 2x">
       </if>
       <img srcset="img8.png 300w, img9.png 11E-2w,img10.png -1e2w">
       </html>
@@ -782,8 +782,8 @@ class HtmlInlineUnittest(unittest.TestCase):
       <html>
       <img src="data:image/png;base64,YTE=" srcset="data:image/png;base64,'''\
           '''YTI= 1x,data:image/png;base64,YTM= 2x">
-      <img src="chrome://theme/img11.png" srcset="data:image/png;base64,'''\
-          '''YTc= 1x,chrome://theme/img13.png 2x">
+      <img src="decentr://theme/img11.png" srcset="data:image/png;base64,'''\
+          '''YTc= 1x,decentr://theme/img13.png 2x">
       <img srcset="data:image/png;base64,YTg= 300w,data:image/png;base64,'''\
           '''YTk= 11E-2w,data:image/png;base64,YTEw -1e2w">
       </html>

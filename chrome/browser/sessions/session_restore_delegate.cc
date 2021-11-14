@@ -22,7 +22,7 @@
 namespace {
 
 bool IsInternalPage(const GURL& url) {
-  // There are many chrome:// UI URLs, but only look for the ones that users
+  // There are many decentr:// UI URLs, but only look for the ones that users
   // are likely to have open. Most of the benefit is from the NTP URL.
   const char* const kReloadableUrlPrefixes[] = {
       chrome::kChromeUIDownloadsURL,

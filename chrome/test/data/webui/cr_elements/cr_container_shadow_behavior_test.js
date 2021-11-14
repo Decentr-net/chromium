@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrContainerShadowBehavior} from 'chrome://resources/cr_elements/cr_container_shadow_behavior.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrContainerShadowBehavior} from 'decentr://resources/cr_elements/cr_container_shadow_behavior.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertFalse, assertTrue} from '../chai_assert.js';
 // clang-format on
 
 suite('CrContainerShadowBehavior', function() {
   suiteSetup(function() {
-    if (window.location.origin === 'chrome://test') {
+    if (window.location.origin === 'decentr://test') {
       // Polymer 3 setup
       Polymer({
         is: 'test-element',

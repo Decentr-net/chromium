@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://welcome/ntp_background/nux_ntp_background.js';
+import 'decentr://welcome/ntp_background/nux_ntp_background.js';
 
-import {NtpBackgroundMetricsProxyImpl} from 'chrome://welcome/ntp_background/ntp_background_metrics_proxy.js';
-import {NtpBackgroundProxyImpl} from 'chrome://welcome/ntp_background/ntp_background_proxy.js';
+import {NtpBackgroundMetricsProxyImpl} from 'decentr://welcome/ntp_background/ntp_background_metrics_proxy.js';
+import {NtpBackgroundProxyImpl} from 'decentr://welcome/ntp_background/ntp_background_proxy.js';
 
 import {TestMetricsProxy} from './test_metrics_proxy.js';
 import {TestNtpBackgroundProxy} from './test_ntp_background_proxy.js';

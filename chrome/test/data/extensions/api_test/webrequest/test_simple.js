@@ -32,7 +32,7 @@ runTests([
             fromCache: false,
             statusLine: "HTTP/1.1 200 OK",
             initiator: getDomain(initiators.BROWSER_INITIATED),
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "a-onCompleted",
@@ -43,7 +43,7 @@ runTests([
             fromCache: false,
             statusLine: "HTTP/1.1 200 OK",
             initiator: getDomain(initiators.BROWSER_INITIATED),
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
       ],
@@ -192,7 +192,7 @@ runTests([
             fromCache: false,
             error: "net::ERR_FILE_NOT_FOUND",
             initiator: getDomain(initiators.BROWSER_INITIATED),
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
       ],

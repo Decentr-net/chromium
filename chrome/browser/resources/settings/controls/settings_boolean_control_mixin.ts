@@ -9,8 +9,8 @@
  */
 
 // clang-format off
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {dedupingMixin, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {dedupingMixin, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {CrPolicyPrefMixin, CrPolicyPrefMixinInterface} from './cr_policy_pref_mixin.js';
 import {PrefControlMixin, PrefControlMixinInterface} from './pref_control_mixin.js';

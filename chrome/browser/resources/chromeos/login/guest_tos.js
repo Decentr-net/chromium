@@ -19,7 +19,7 @@ const UIState = {
  * URL to use when online page is not available.
  * @type {string}
  */
-const EULA_TERMS_URL = 'chrome://terms';
+const EULA_TERMS_URL = 'decentr://terms';
 
 Polymer({
   is: 'guest-tos-element',

@@ -349,7 +349,7 @@ TEST_F(BrowserBookmarkBarTest, StateOnActiveTabChanged) {
   ASSERT_EQ(BookmarkBar::HIDDEN, browser()->bookmark_bar_state());
   ASSERT_EQ(BookmarkBar::HIDDEN, window_bookmark_bar_state());
 
-  GURL ntp_url("chrome://newtab");
+  GURL ntp_url("decentr://newtab");
   GURL non_ntp_url("http://foo");
 
   // Open a tab to NTP.

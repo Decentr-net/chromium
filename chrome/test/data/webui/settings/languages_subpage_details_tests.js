@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {LanguagesBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {CrSettingsPrefs} from 'chrome://settings/settings.js';
-import {getFakeLanguagePrefs} from 'chrome://test/settings/fake_language_settings_private.js';
-import {FakeSettingsPrivate} from 'chrome://test/settings/fake_settings_private.js';
-import {TestLanguagesBrowserProxy} from 'chrome://test/settings/test_languages_browser_proxy.js';
-import {eventToPromise, fakeDataBind} from 'chrome://test/test_util.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {LanguagesBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {CrSettingsPrefs} from 'decentr://settings/settings.js';
+import {getFakeLanguagePrefs} from 'decentr://test/settings/fake_language_settings_private.js';
+import {FakeSettingsPrivate} from 'decentr://test/settings/fake_settings_private.js';
+import {TestLanguagesBrowserProxy} from 'decentr://test/settings/test_languages_browser_proxy.js';
+import {eventToPromise, fakeDataBind} from 'decentr://test/test_util.js';
 
 // clang-format on
 

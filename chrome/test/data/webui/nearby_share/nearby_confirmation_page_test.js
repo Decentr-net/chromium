@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // So that mojo is defined.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://nearby/nearby_confirmation_page.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://nearby/nearby_confirmation_page.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 

@@ -31,7 +31,7 @@ public class IntentionalCrashTest {
     @Test
     public void testRendererCrash() {
         mActivityTestRule.startMainActivityFromLauncher();
-        mActivityTestRule.loadUrl("chrome://crash");
+        mActivityTestRule.loadUrl("decentr://crash");
     }
 
     @DisabledTest
@@ -39,7 +39,7 @@ public class IntentionalCrashTest {
     @Test
     public void testBrowserCrash() {
         mActivityTestRule.startMainActivityFromLauncher();
-        mActivityTestRule.loadUrl("chrome://inducebrowsercrashforrealz");
+        mActivityTestRule.loadUrl("decentr://inducebrowsercrashforrealz");
     }
 
     @DisabledTest
@@ -47,7 +47,7 @@ public class IntentionalCrashTest {
     @Test
     public void testJavaCrash() {
         mActivityTestRule.startMainActivityFromLauncher();
-        mActivityTestRule.loadUrl("chrome://java-crash/");
+        mActivityTestRule.loadUrl("decentr://java-crash/");
     }
 
     @DisabledTest
@@ -55,6 +55,6 @@ public class IntentionalCrashTest {
     @Test
     public void testGpuCrash() {
         mActivityTestRule.startMainActivityFromLauncher();
-        mActivityTestRule.loadUrl("chrome://gpucrash");
+        mActivityTestRule.loadUrl("decentr://gpucrash");
     }
 }

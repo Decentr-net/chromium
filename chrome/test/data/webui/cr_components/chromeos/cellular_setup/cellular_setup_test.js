@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_setup.m.js';
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/psim_flow_ui.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_setup.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/psim_flow_ui.m.js';
 
-// #import {CellularSetupPageName} from 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {CellularSetupPageName} from 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {assertTrue, assertFalse} from '../../../chai_assert.js';
 // #import {FakeCellularSetupDelegate} from './fake_cellular_setup_delegate.m.js';
-// #import {FakeNetworkConfig} from 'chrome://test/chromeos/fake_network_config_mojom.m.js';
-// #import {FakeESimManagerRemote} from 'chrome://test/cr_components/chromeos/cellular_setup/fake_esim_manager_remote.m.js';
-// #import {setESimManagerRemoteForTesting} from 'chrome://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
-// #import {MojoInterfaceProviderImpl} from 'chrome://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
+// #import {FakeNetworkConfig} from 'decentr://test/chromeos/fake_network_config_mojom.m.js';
+// #import {FakeESimManagerRemote} from 'decentr://test/cr_components/chromeos/cellular_setup/fake_esim_manager_remote.m.js';
+// #import {setESimManagerRemoteForTesting} from 'decentr://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
+// #import {MojoInterfaceProviderImpl} from 'decentr://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
 // clang-format on
 
 suite('CrComponentsCellularSetupTest', function() {

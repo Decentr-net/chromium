@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {changeFolderOpen, clearSearch, Command, createBookmark, createEmptyState, deselectItems, editBookmark, getDisplayedList, isShowingSearch, MenuSource, moveBookmark, reduceAction, removeBookmark, reorderChildren, selectFolder, setSearchResults, setSearchTerm, updateAnchor, updateFolderOpenState, updateNodes, updateSelectedFolder, updateSelection} from 'chrome://bookmarks/bookmarks.js';
-import {createFolder, createItem, normalizeIterable, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
+import {changeFolderOpen, clearSearch, Command, createBookmark, createEmptyState, deselectItems, editBookmark, getDisplayedList, isShowingSearch, MenuSource, moveBookmark, reduceAction, removeBookmark, reorderChildren, selectFolder, setSearchResults, setSearchTerm, updateAnchor, updateFolderOpenState, updateNodes, updateSelectedFolder, updateSelection} from 'decentr://bookmarks/bookmarks.js';
+import {createFolder, createItem, normalizeIterable, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
 
 suite('selection state', function() {
   let selection;

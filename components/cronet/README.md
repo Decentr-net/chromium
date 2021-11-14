@@ -145,7 +145,7 @@ To get more information about how Cronet is processing network
 requests, you can start and stop **NetLog** logging by calling
 `CronetEngine.startNetLogToFile` and `CronetEngine.stopNetLog`.
 Bear in mind that logs may contain sensitive data. You may analyze the
-generated log by navigating to [chrome://net-internals#import] using a
+generated log by navigating to [decentr://net-internals#import] using a
 Chrome browser.
 
 # Using the java.net.HttpURLConnection API
@@ -172,5 +172,5 @@ You can configure Cronet and control caching through the
 `CronetEngine` and then call `CronetEngine.createURLStreamHandlerFactory()`.
 
 [ByteBuffer]: https://developer.android.com/reference/java/nio/ByteBuffer.html
-[chrome://net-internals#import]: chrome://net-internals#import
+[decentr://net-internals#import]: decentr://net-internals#import
 [java.net.HttpURLConnection]: https://developer.android.com/reference/java/net/HttpURLConnection.html

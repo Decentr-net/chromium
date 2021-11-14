@@ -484,7 +484,7 @@ public class TabImpl implements Tab, TabObscuringHandler.Observer {
                 mIsNativePageCommitPending = maybeShowNativePage(params.getUrl(), false);
             }
 
-            if ("chrome://java-crash/".equals(params.getUrl())) {
+            if ("decentr://java-crash/".equals(params.getUrl())) {
                 return handleJavaCrash();
             }
 
@@ -523,7 +523,7 @@ public class TabImpl implements Tab, TabObscuringHandler.Observer {
         if (!fixedUrl.isValid()) return TabLoadStatus.PAGE_LOAD_FAILED;
 
         // Record UMA "ShowHistory" here. That way it'll pick up both user
-        // typing chrome://history as well as selecting from the drop down menu.
+        // typing decentr://history as well as selecting from the drop down menu.
         if (fixedUrl.getSpec().equals(UrlConstants.HISTORY_URL)) {
             RecordUserAction.record("ShowHistory");
         }

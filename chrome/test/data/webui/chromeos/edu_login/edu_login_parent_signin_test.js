@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://chrome-signin/edu_login_parent_signin.js';
-import 'chrome://chrome-signin/edu_login_button.js';
+import 'decentr://chrome-signin/edu_login_parent_signin.js';
+import 'decentr://chrome-signin/edu_login_button.js';
 
-import {EduAccountLoginBrowserProxyImpl} from 'chrome://chrome-signin/browser_proxy.js';
-import {ParentAccount} from 'chrome://chrome-signin/edu_login_util.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {EduAccountLoginBrowserProxyImpl} from 'decentr://chrome-signin/browser_proxy.js';
+import {ParentAccount} from 'decentr://chrome-signin/edu_login_util.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {getFakeParent, TestEduAccountLoginBrowserProxy} from './edu_login_test_util.js';
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {FakeMethodResolver} from 'chrome://resources/ash/common/fake_method_resolver.js';
+import {FakeMethodResolver} from 'decentr://resources/ash/common/fake_method_resolver.js';
 
 import {AcceleratorConfig, AcceleratorConfigResult, AcceleratorKeys, AcceleratorSource, LayoutInfoList, ShortcutProviderInterface} from './shortcut_types.js';
 

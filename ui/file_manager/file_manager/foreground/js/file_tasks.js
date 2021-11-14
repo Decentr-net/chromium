@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {AsyncUtil} from '../../common/js/async_util.js';
 import {FileType} from '../../common/js/file_type.js';

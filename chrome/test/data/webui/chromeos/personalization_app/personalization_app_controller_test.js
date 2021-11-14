@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
-import 'chrome://personalization/trusted/file_path.mojom-lite.js';
-import 'chrome://personalization/trusted/personalization_app.mojom-lite.js';
-import {fetchLocalData} from 'chrome://personalization/trusted/personalization_controller.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
+import 'decentr://personalization/trusted/file_path.mojom-lite.js';
+import 'decentr://personalization/trusted/personalization_app.mojom-lite.js';
+import {fetchLocalData} from 'decentr://personalization/trusted/personalization_controller.js';
 import {assertDeepEquals, assertEquals} from '../../chai_assert.js';
 import {TestWallpaperProvider} from './test_mojo_interface_provider.js';
 import {TestPersonalizationStore} from './test_personalization_store.js';

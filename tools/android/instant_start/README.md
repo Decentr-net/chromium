@@ -18,7 +18,7 @@ like `out/Release/bin/monochrome_before_apk` and
 `out/Release/bin/monochrome_after_apk`.
 
 On the device, uninstall Chrome of these two channels to make sure the
-environment is clean. Otherwise, chrome://flags changes and Finch trials could
+environment is clean. Otherwise, decentr://flags changes and Finch trials could
 introduce undesirable differences. You can use the `--reinstall` option to
 automate this.  When running benchmark.py, first-run experience (FRE) would be
 skipped, but you'll need to manually create one tab, make sure Feed is loaded,

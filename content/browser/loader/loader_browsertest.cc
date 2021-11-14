@@ -535,7 +535,7 @@ IN_PROC_BROWSER_TEST_F(LoaderBrowserTest, CrossSiteFailedRequest) {
   EXPECT_TRUE(NavigateToURL(shell(), GetTestUrl("", "simple_page.html")));
 
   // Visit a URL that fails without calling ResourceDispatcherHost::Read.
-  GURL broken_url("chrome://theme");
+  GURL broken_url("decentr://theme");
   EXPECT_FALSE(NavigateToURL(shell(), broken_url));
 }
 

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/polymer/v3_0/iron-collapse/iron-collapse.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
+import 'decentr://resources/polymer/v3_0/iron-collapse/iron-collapse.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
 import './diagnostics_card.js';
 import './diagnostics_shared_css.js';
 import './icons.js';
@@ -12,11 +12,11 @@ import './routine_result_list.js';
 import './text_badge.js';
 import './strings.m.js';
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {IronA11yAnnouncer} from 'chrome://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {IronA11yAnnouncer} from 'decentr://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {PowerRoutineResult, RoutineType, StandardRoutineResult, SystemRoutineControllerInterface} from './diagnostics_types.js';
 import {getSystemRoutineController} from './mojo_interface_provider.js';

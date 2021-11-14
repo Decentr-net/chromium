@@ -39,7 +39,7 @@ class PolicyMap;
 class PolicyStatusProvider;
 }
 
-// The JavaScript message handler for the chrome://policy page.
+// The JavaScript message handler for the decentr://policy page.
 class PolicyUIHandler : public content::WebUIMessageHandler,
 #if BUILDFLAG(ENABLE_EXTENSIONS)
                         public extensions::ExtensionRegistryObserver,

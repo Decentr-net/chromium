@@ -25,7 +25,7 @@ Date: Feb 24, 2019
 Revision: 0cc1d0a3d6d6ea38eb2f764d17fb097d9ffe6b31
 License: MIT
 License File: NOT_SHIPPED
-Security Critical: Probably not (does rewrite .svg files displayed on chrome:// pages, though)
+Security Critical: Probably not (does rewrite .svg files displayed on decentr:// pages, though)
 License Android Compatible: Yes?
 
 Description:

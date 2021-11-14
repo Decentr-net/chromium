@@ -270,8 +270,8 @@ TEST_F(ExtensionWebRequestHelpersTestWithThreadsTest,
                 WebRequestPermissions::REQUIRE_ALL_URLS, absl::nullopt,
                 kWebRequestType));
 
-  // Make sure that chrome:// URLs cannot be accessed.
-  const GURL chrome_url("chrome://version/");
+  // Make sure that decentr:// URLs cannot be accessed.
+  const GURL chrome_url("decentr://version/");
 
   EXPECT_EQ(PermissionsData::PageAccess::kDenied,
             WebRequestPermissions::CanExtensionAccessURL(

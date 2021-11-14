@@ -460,7 +460,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     enum="SimpleCacheSyncCheckEOFResult" expires_after="2021-07-01">
   <obsolete>
     As of July 2021, no longer logged in UMA data. Kept as a local histogram
-    (data not sent to UMA) so it appears in chrome://histograms for local
+    (data not sent to UMA) so it appears in decentr://histograms for local
     debugging.
   </obsolete>
   <owner>morlovich@chromium.org</owner>
@@ -475,7 +475,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     enum="SimpleCacheSyncCloseResult" expires_after="2021-07-01">
   <obsolete>
     As of July 2021, no longer logged in UMA data. Kept as a local histogram
-    (data not sent to UMA) so it appears in chrome://histograms for local
+    (data not sent to UMA) so it appears in decentr://histograms for local
     debugging.
   </obsolete>
   <owner>morlovich@chromium.org</owner>
@@ -489,7 +489,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     enum="PlatformFileError" expires_after="2021-07-01">
   <obsolete>
     As of July 2021, no longer logged in UMA data. Kept as a local histogram
-    (data not sent to UMA) so it appears in chrome://histograms for local
+    (data not sent to UMA) so it appears in decentr://histograms for local
     debugging.
   </obsolete>
   <owner>morlovich@chromium.org</owner>
@@ -504,7 +504,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     enum="PlatformFileError" expires_after="2021-07-01">
   <obsolete>
     As of July 2021, no longer logged in UMA data. Kept as a local histogram
-    (data not sent to UMA) so it appears in chrome://histograms for local
+    (data not sent to UMA) so it appears in decentr://histograms for local
     debugging.
   </obsolete>
   <owner>morlovich@chromium.org</owner>
@@ -529,7 +529,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     enum="SimpleCacheSyncOpenResult" expires_after="2021-07-01">
   <obsolete>
     As of July 2021, no longer logged in UMA data. Kept as a local histogram
-    (data not sent to UMA) so it appears in chrome://histograms for local
+    (data not sent to UMA) so it appears in decentr://histograms for local
     debugging.
   </obsolete>
   <owner>morlovich@chromium.org</owner>
@@ -544,7 +544,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     enum="SimpleCacheSyncWriteResult" expires_after="2021-07-01">
   <obsolete>
     As of July 2021, no longer logged in UMA data. Kept as a local histogram
-    (data not sent to UMA) so it appears in chrome://histograms for local
+    (data not sent to UMA) so it appears in decentr://histograms for local
     debugging.
   </obsolete>
   <owner>morlovich@chromium.org</owner>

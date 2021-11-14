@@ -22,8 +22,8 @@ namespace {
 using ChromeURLUtilTest = PlatformTest;
 
 TEST_F(ChromeURLUtilTest, TestIsExternalFileReference) {
-  GURL external_url("chrome://external-file/foo/bar");
-  GURL not_external_url("chrome://foo/bar");
+  GURL external_url("decentr://external-file/foo/bar");
+  GURL not_external_url("decentr://foo/bar");
   GURL still_not_external_url("http://external-file/foo/bar");
   EXPECT_TRUE(UrlIsExternalFileReference(external_url));
   EXPECT_FALSE(UrlIsExternalFileReference(not_external_url));
@@ -35,7 +35,7 @@ const char* kSchemeTestData[] = {
     "https://foo.com",
     "data:text/html;charset=utf-8,Hello",
     "about:blank",
-    "chrome://settings",
+    "decentr://settings",
 };
 
 // Tests UrlHasChromeScheme with NSURL* parameter.

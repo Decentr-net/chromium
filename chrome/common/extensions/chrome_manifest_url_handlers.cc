@@ -28,7 +28,7 @@ namespace errors = manifest_errors;
 
 namespace {
 
-const char kOverrideExtentUrlPatternFormat[] = "chrome://%s/*";
+const char kOverrideExtentUrlPatternFormat[] = "decentr://%s/*";
 using ChromeUrlOverridesKeys = api::chrome_url_overrides::ManifestKeys;
 
 }  // namespace
@@ -111,7 +111,7 @@ bool URLOverridesHandler::Parse(Extension* extension, std::u16string* error) {
     if (!property.second)
       continue;
 
-    // Replace the entry with a fully qualified chrome-extension:// URL.
+    // Replace the entry with a fully qualified decentr-extension:// URL.
     url_overrides->chrome_url_overrides_[property.first] =
         extension->GetResourceURL(*property.second);
 

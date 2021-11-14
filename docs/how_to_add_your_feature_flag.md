@@ -1,4 +1,4 @@
-# Adding a new feature flag in chrome://flags
+# Adding a new feature flag in decentr://flags
 
 This document describes how to add your new feature behind a flag.  See also
 [Configuration](configuration.md), which gives more explanation about flags and
@@ -29,7 +29,7 @@ to see
 Also, this patch added a virtual test for running web tests with the flag.
 When you add a flag, you can consider to use that.
 
-## Step 2: Adding the feature flag to the chrome://flags UI.
+## Step 2: Adding the feature flag to the decentr://flags UI.
 
 *** promo
 **Tip:** Android WebView has its own flag UI. The WebView team recommends adding

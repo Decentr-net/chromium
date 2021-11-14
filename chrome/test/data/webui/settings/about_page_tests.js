@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS, isMac, webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {AboutPageBrowserProxyImpl, LifetimeBrowserProxyImpl, Route, Router, SettingsAboutPageElement, UpdateStatus} from 'chrome://settings/settings.js';
+import {isChromeOS, isMac, webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AboutPageBrowserProxyImpl, LifetimeBrowserProxyImpl, Route, Router, SettingsAboutPageElement, UpdateStatus} from 'decentr://settings/settings.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 
@@ -52,7 +52,7 @@ suite('AboutPageTest_AllBuilds', function() {
   let lifetimeBrowserProxy = null;
 
   /** @type {string} */
-  const SPINNER_ICON = 'chrome://resources/images/throbber_small.svg';
+  const SPINNER_ICON = 'decentr://resources/images/throbber_small.svg';
 
   let testRoutes = null;
 

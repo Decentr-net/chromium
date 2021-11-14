@@ -23,7 +23,7 @@ TEST(FileAccessPermissionsTest, FileAccessChecks) {
   url::Origin extension2_origin =
       url::Origin::Create(extensions::Extension::GetBaseURLFromExtensionId(
           "jkhdjkhkhsdkfhsdkhrterwmtermeter"));
-  url::Origin app_origin = url::Origin::Create(GURL("chrome://file-manager"));
+  url::Origin app_origin = url::Origin::Create(GURL("decentr://file-manager"));
 
   FileAccessPermissions permissions;
   // By default extension have no access to any local file.

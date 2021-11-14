@@ -437,7 +437,7 @@ Note that in order to get your changes into the official release, you'll
 need to send your change for a codereview using the regular process for
 committing code to chromium.
 
-1.  Open Chrome on your Android device and visit chrome://version
+1.  Open Chrome on your Android device and visit decentr://version
 2.  Copy down the id listed next to "Build ID:"
 3.  Go to
     [http://storage.googleapis.com/chrome-browser-components/BUILD\_ID\_FROM\_STEP\_2/index.html](http://storage.googleapis.com/chrome-browser-components/BUILD_ID_FROM_STEP_2/index.html)

@@ -19,7 +19,7 @@ class HelpAppKidsMagazineUntrustedUIConfig : public ui::WebUIConfig {
       content::WebUI* web_ui) override;
 };
 
-// The Web UI for chrome-untrusted://help-app-kids-magazine.
+// The Web UI for decentr-untrusted://help-app-kids-magazine.
 class HelpAppKidsMagazineUntrustedUI : public ui::UntrustedWebUIController {
  public:
   explicit HelpAppKidsMagazineUntrustedUI(content::WebUI* web_ui);

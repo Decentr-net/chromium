@@ -10,7 +10,7 @@ automatically loaded by the testing framework.
   <head>
     ...
     <script
-        src="chrome-extension://kbbhhngcmjcmlgcnbihfgliliemmijmj/screenshot.js">
+        src="decentr-extension://kbbhhngcmjcmlgcnbihfgliliemmijmj/screenshot.js">
     </script>
   <head>
 

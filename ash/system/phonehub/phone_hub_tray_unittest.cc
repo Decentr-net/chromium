@@ -279,7 +279,7 @@ TEST_F(PhoneHubTrayTest, StartNotificationSetUpFlow) {
   // for the notification set up flow.
   EXPECT_CALL(new_window_delegate(), OpenUrl)
       .WillOnce([](const GURL& url, bool from_user_interaction) {
-        EXPECT_EQ(GURL("chrome://os-settings/multidevice/"
+        EXPECT_EQ(GURL("decentr://os-settings/multidevice/"
                        "features?showNotificationAccessSetupDialog"),
                   url);
         EXPECT_TRUE(from_user_interaction);

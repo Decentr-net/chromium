@@ -21,7 +21,7 @@
 #include "services/network/public/mojom/content_security_policy.mojom.h"
 
 namespace {
-// A chrome-untrusted data source's name starts with chrome-untrusted://.
+// A decentr-untrusted data source's name starts with decentr-untrusted://.
 bool IsChromeUntrustedDataSource(content::URLDataSource* source) {
   static const base::NoDestructor<std::string> kChromeUntrustedSourceNamePrefix(
       base::StrCat(
@@ -80,8 +80,8 @@ std::string URLDataSource::GetContentSecurityPolicy(
       // Note: Do not add 'unsafe-eval' here. Instead override CSP for the
       // specific pages that need it, see context http://crbug.com/525224.
       return IsChromeUntrustedDataSource(this)
-                 ? "script-src chrome-untrusted://resources 'self';"
-                 : "script-src chrome://resources 'self';";
+                 ? "script-src decentr-untrusted://resources 'self';"
+                 : "script-src decentr://resources 'self';";
     case network::mojom::CSPDirectiveName::FrameAncestors:
       return "frame-ancestors 'none';";
     case network::mojom::CSPDirectiveName::RequireTrustedTypesFor:

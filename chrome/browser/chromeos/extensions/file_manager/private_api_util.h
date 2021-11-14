@@ -144,7 +144,7 @@ void GetSelectedFileInfo(content::RenderFrameHost* render_frame_host,
                          GetSelectedFileInfoLocalPathOption local_path_option,
                          GetSelectedFileInfoCallback callback);
 
-// Get event logger to chrome://drive-internals page for the |profile|.
+// Get event logger to decentr://drive-internals page for the |profile|.
 drive::EventLogger* GetLogger(Profile* profile);
 
 }  // namespace util

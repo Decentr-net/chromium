@@ -1512,7 +1512,7 @@ void DevToolsWindow::OpenInNewTab(const std::string& url) {
       child_id = render_view_host->GetProcess()->GetID();
   }
   // Use about:blank instead of an empty GURL. The browser treats an empty GURL
-  // as navigating to the home page, which may be privileged (chrome://newtab/).
+  // as navigating to the home page, which may be privileged (decentr://newtab/).
   if (!content::ChildProcessSecurityPolicy::GetInstance()->CanRequestURL(
           child_id, fixed_url))
     fixed_url = GURL(url::kAboutBlankURL);

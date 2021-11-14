@@ -28,7 +28,7 @@ class DownloadItem;
 
 namespace content {
 
-// The implementation for the chrome://indexeddb-internals page.
+// The implementation for the decentr://indexeddb-internals page.
 class IndexedDBInternalsUI : public WebUIController {
  public:
   explicit IndexedDBInternalsUI(WebUI* web_ui);

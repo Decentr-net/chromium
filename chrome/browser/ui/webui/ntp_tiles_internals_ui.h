@@ -8,7 +8,7 @@
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The implementation for the chrome://ntp-tiles-internals page.
+// The implementation for the decentr://ntp-tiles-internals page.
 class NTPTilesInternalsUI : public content::WebUIController {
  public:
   explicit NTPTilesInternalsUI(content::WebUI* web_ui);

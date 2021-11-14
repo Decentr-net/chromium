@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
+import 'decentr://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
 
-import {AnchorAlignment, CrActionMenuElement, ShowAtPositionConfig} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {isMac, isWindows} from 'chrome://resources/js/cr.m.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AnchorAlignment, CrActionMenuElement, ShowAtPositionConfig} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {isMac, isWindows} from 'decentr://resources/js/cr.m.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 import {eventToPromise, flushTasks} from '../test_util.js';

@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/button_bar.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/button_bar.m.js';
 
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {ButtonState, Button, ButtonBarState, CellularSetupPageName} from 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {ButtonState, Button, ButtonBarState, CellularSetupPageName} from 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../../chai_assert.js';
 // clang-format on
 

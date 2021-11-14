@@ -514,7 +514,7 @@ Se você desativar a política, essa rolagem será desativada.</translation>
 <translation id="1620510694547887537">Câmera</translation>
 <translation id="1626379196197114720">Permitir o uso do cache de avanço e retorno</translation>
 <translation id="1628974048137236820">A página Nova guia não exibirá cards</translation>
-<translation id="1630263002012156148">Se a política for definida como "Ativada", a página Nova guia será a página inicial do usuário. Qualquer local de URL de página inicial será ignorado. Se a política for definida como "Desativada", a página Nova guia não será a página inicial, a não ser que o URL dela seja definido como chrome://newtab.
+<translation id="1630263002012156148">Se a política for definida como "Ativada", a página Nova guia será a página inicial do usuário. Qualquer local de URL de página inicial será ignorado. Se a política for definida como "Desativada", a página Nova guia não será a página inicial, a não ser que o URL dela seja definido como decentr://newtab.
 
       Se você definir a política, os usuários não poderão mudar a página inicial no <ph name="PRODUCT_NAME" />. Se a política não for definida, o usuário poderá escolher se a página Nova guia será a inicial.
 
@@ -661,7 +661,7 @@ Se você desativar a política, essa rolagem será desativada.</translation>
 <translation id="1798559516913615713">Ciclo de vida do cache do GPO</translation>
 <translation id="180130467244315277">Esta política permite que administradores configurem a ordem dos idiomas preferidos nas configurações do <ph name="PRODUCT_NAME" />.
 
-      A lista aparecerá nessa mesma ordem na seção "Ordenar idiomas com base na sua preferência" em chrome://settings/languages. Os usuários não poderão remover ou reorganizar os idiomas definidos pela política, mas será possível adicionar mais idiomas abaixo deles. Além disso, os usuários terão total controle sobre as configurações de tradução/verificação ortográfica e o idioma da IU do navegador, a menos que eles sejam impostos por outras políticas.
+      A lista aparecerá nessa mesma ordem na seção "Ordenar idiomas com base na sua preferência" em decentr://settings/languages. Os usuários não poderão remover ou reorganizar os idiomas definidos pela política, mas será possível adicionar mais idiomas abaixo deles. Além disso, os usuários terão total controle sobre as configurações de tradução/verificação ortográfica e o idioma da IU do navegador, a menos que eles sejam impostos por outras políticas.
 
       Se a política não for definida, será possível manipular toda a lista de idiomas preferidos.</translation>
 <translation id="1803646570632580723">Lista de aplicativos fixados a serem mostrados no iniciador</translation>
@@ -1131,7 +1131,7 @@ Se você desativar a política, essa rolagem será desativada.</translation>
 <translation id="2299220924812062390">Especifica uma lista de plug-ins ativados</translation>
 <translation id="2301048990069984110">Oferecer suporte para apps do Chrome no Windows, Mac e Linux.</translation>
 <translation id="2303795211377219696">Ativar o preenchimento automático para cartões de crédito</translation>
-<translation id="2304009805995145854">Desde o <ph name="PRODUCT_NAME" /> 67, o isolamento de sites é ativado por padrão em todas as plataformas para computador, obrigando cada site a executar um processo próprio. Um site é um esquema + eTLD+1 (por exemplo, https://example.com). Se a política for ativada, esse comportamento não mudará. Ela apenas evita que usuários possam escolher outra opção (por exemplo, desativar o isolamento de sites em chrome://flags). Desde o <ph name="PRODUCT_NAME" /> 76, desativar esta política ou deixá-la sem definição não desativa o isolamento de sites, mas permite que os usuários escolham outra opção.
+<translation id="2304009805995145854">Desde o <ph name="PRODUCT_NAME" /> 67, o isolamento de sites é ativado por padrão em todas as plataformas para computador, obrigando cada site a executar um processo próprio. Um site é um esquema + eTLD+1 (por exemplo, https://example.com). Se a política for ativada, esse comportamento não mudará. Ela apenas evita que usuários possam escolher outra opção (por exemplo, desativar o isolamento de sites em decentr://flags). Desde o <ph name="PRODUCT_NAME" /> 76, desativar esta política ou deixá-la sem definição não desativa o isolamento de sites, mas permite que os usuários escolham outra opção.
 
       A <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> também pode ser útil para isolar origens específicas com uma granularidade mais refinada que a do site (por exemplo, https://a.example.com).
 
@@ -3507,7 +3507,7 @@ Se esta política for definida como "Falsa", o <ph name="PRODUCT_NAME" /> não u
       Se a política for definida como "Desativada", os usuários não poderão salvar senhas novas, mas as senhas salvas anteriormente ainda poderão ser usadas.
 
       Se a política for definida, os usuários não poderão mudá-la no <ph name="PRODUCT_NAME" />. Se ela não for definida, os usuários poderão desativar o salvamento de senhas.</translation>
-<translation id="5239333626804545932">Se a política for definida como "Ativada" ou não for definida, o Varredura do Chrome verificará o sistema periodicamente em busca de softwares indesejados e, caso algum seja encontrado, perguntará aos usuários se eles querem removê-los. O acionamento manual do Varredura do Chrome em chrome://settings será permitido.
+<translation id="5239333626804545932">Se a política for definida como "Ativada" ou não for definida, o Varredura do Chrome verificará o sistema periodicamente em busca de softwares indesejados e, caso algum seja encontrado, perguntará aos usuários se eles querem removê-los. O acionamento manual do Varredura do Chrome em decentr://settings será permitido.
 
       Se a política for definida como "Desativada" o Varredura do Chrome não fará verificações periódicas e o acionamento manual será desativado.
 
@@ -4262,7 +4262,7 @@ Se esta política for definida como "Falsa", o <ph name="PRODUCT_NAME" /> não u
 
       O usuário pode acionar uma caixa de diálogo de importação em que a caixa de seleção de dados de preenchimento automático de formulários estará marcada ou desmarcada de acordo com o valor da política.</translation>
 <translation id="614616930188030377">Os padrões desta lista serão comparados com a origem de segurança do URL solicitante.
-      Se uma correspondência for encontrada ou a opção chrome://flags/#enable-webrtc-hide-local-ips-with-mdns estiver desativada, os endereços IP locais serão mostrados nos candidatos ICE do WebRTC.
+      Se uma correspondência for encontrada ou a opção decentr://flags/#enable-webrtc-hide-local-ips-with-mdns estiver desativada, os endereços IP locais serão mostrados nos candidatos ICE do WebRTC.
       Caso contrário, os endereços IP locais serão ocultos com os nomes de host de mDNS.
       Observe que, se exigida pelos administradores, esta política enfraquece a proteção dos IPs locais.</translation>
 <translation id="614662973812186053">Esta política também controla a coleta de dados de uso e diagnóstico do Android.</translation>
@@ -4493,12 +4493,12 @@ Se esta política for definida como "Falsa", o <ph name="PRODUCT_NAME" /> não u
 <translation id="645425387487868471">Ativar login forçado no <ph name="PRODUCT_NAME" /></translation>
 <translation id="6455842857207956758">Monitora o valor do token de sincronização de senhas e, caso uma senha tenha sido atualizada e precise ser sincronizada, leva o usuário para a reautenticação on-line para ativar a sincronização de senhas do SAML entre vários dispositivos Chrome.
 
-      Ativa uma página em chrome://password-change, que permite que os usuários mudem as senhas do SAML durante a sessão. Isso garante que a senha do SAML e a da tela de bloqueio do dispositivo permaneçam sincronizadas.
+      Ativa uma página em decentr://password-change, que permite que os usuários mudem as senhas do SAML durante a sessão. Isso garante que a senha do SAML e a da tela de bloqueio do dispositivo permaneçam sincronizadas.
 
       Esta política também ativa notificações que avisarão os usuários se as senhas do SAML estiverem prestes a expirar, para que eles possam mudá-las imediatamente em uma sessão.
       No entanto, essas notificações só serão mostradas se as informações de validade da senha forem enviadas para o dispositivo pelo provedor de identidade do SAML durante o fluxo de login do SAML.
 
-      Se a política for desativada ou deixada sem definição, a senha do SAML não poderá ser mudada em chrome://password-change e notificações não serão exibidas quando as senhas do SAML estiverem prestes a expirar.</translation>
+      Se a política for desativada ou deixada sem definição, a senha do SAML não poderá ser mudada em decentr://password-change e notificações não serão exibidas quando as senhas do SAML estiverem prestes a expirar.</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">Se a política for definida como "Ativada" ou não for definida e <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" /> e <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> estiverem ativadas, todos os usuários poderão usar o <ph name="PRODUCT_CROSTINI_NAME" />. Se a política for definida como "Desativada", os usuários sem filiação não poderão usar o <ph name="PRODUCT_CROSTINI_NAME" />. Se a definição for mudada para "Desativada", a política será aplicada para iniciar novos contêineres <ph name="PRODUCT_CROSTINI_NAME" />, e não para os já existentes.</translation>
 <translation id="6464074037294098618">Ativa o Preenchimento automático de endereços</translation>
@@ -4566,7 +4566,7 @@ Se esta configuração estiver desativada ou se nenhum valor for definido, o Mod
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />, a detecção automática de fuso horário ficará ativada, enviando continuamente a lista de pontos de acesso Wi-Fi visíveis ao servidor da API Geolocation para uma detecção automática mais precisa;
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />, a detecção automática de fuso horário ficará ativada, enviando continuamente informações de localização (como pontos de acesso Wi-Fi, torres de celular próximas e GPS) a um servidor para uma detecção de fuso horário mais precisa.
 
-      Se a política não for definida, especifique a opção "Deixar os usuários decidirem" ou defina como "Nenhuma". Assim, os usuários controlarão a detecção automática de fuso horário usando os controles normais em chrome://settings.</translation>
+      Se a política não for definida, especifique a opção "Deixar os usuários decidirem" ou defina como "Nenhuma". Assim, os usuários controlarão a detecção automática de fuso horário usando os controles normais em decentr://settings.</translation>
 <translation id="6532769014584932288">Permitir wake locks</translation>
 <translation id="6536600139108165863">Reinicialização automática no desligamento do dispositivo</translation>
 <translation id="6539246272469751178">Esta política não tem nenhum efeito sobre apps Android. Os apps Android sempre usam o diretório de downloads padrão e não podem acessar nenhum arquivo transferido por download pelo <ph name="PRODUCT_OS_NAME" /> para um diretório de downloads não padrão.</translation>
@@ -4796,7 +4796,7 @@ Se esta configuração estiver desativada ou se nenhum valor for definido, o Mod
 
       Se a política for definida como "Desativada", o ícone de recursos experimentais do navegador será removido da barra de ferramentas.
 
-      chrome://flags e todas as outras formas de desativar e ativar os recursos do navegador ainda funcionarão como esperado, independentemente de a política ser definida como "Ativada" ou "Desativada".</translation>
+      decentr://flags e todas as outras formas de desativar e ativar os recursos do navegador ainda funcionarão como esperado, independentemente de a política ser definida como "Ativada" ou "Desativada".</translation>
 <translation id="6794083666143216172">Permitir que as origens consultem os atributos do dispositivo</translation>
 <translation id="6795485990775913659">Permitir impressão apenas sem PIN</translation>
 <translation id="6800181452282128474">Não consultar servidores Quirks</translation>
@@ -5471,7 +5471,7 @@ Essas políticas são ignoradas se a Área de trabalho remota do Google Chrome n
       Se configurada como GAIA, o login é feito pelo fluxo normal de autenticação GAIA.
 
       Se configurada como SAML_INTERSTITIAL, o login exibe uma tela intersticial oferecendo ao usuário a opção de prosseguir com a autenticação por IdP de SAML do domínio de inscrição do dispositivo ou voltar para o fluxo normal de login GAIA.</translation>
-<translation id="7554382342294940216">Se a política for definida como "Ativada", o <ph name="PRODUCT_OS_NAME" /> poderá ignorar qualquer proxy de autenticação de portal cativo. Essas páginas da Web de autenticação, começando pela página de login do portal cativo até que o Chrome detecte uma conexão de Internet bem-sucedida, serão abertas em uma janela separada, ignorando todas as configurações e restrições de política para o usuário atual. Esta política só terá efeito se um proxy estiver configurado (por uma política, por uma extensão ou pelo usuário em chrome://settings).
+<translation id="7554382342294940216">Se a política for definida como "Ativada", o <ph name="PRODUCT_OS_NAME" /> poderá ignorar qualquer proxy de autenticação de portal cativo. Essas páginas da Web de autenticação, começando pela página de login do portal cativo até que o Chrome detecte uma conexão de Internet bem-sucedida, serão abertas em uma janela separada, ignorando todas as configurações e restrições de política para o usuário atual. Esta política só terá efeito se um proxy estiver configurado (por uma política, por uma extensão ou pelo usuário em decentr://settings).
 
       Se a política for definida como "Desativada" ou se ela não for definida, qualquer página de autenticação de portal cativo será exibida em uma nova guia (normal) do navegador usando as configurações de proxy atuais do usuário.</translation>
 <translation id="7566878661979235378">Tipo de autenticação de login SAML</translation>
@@ -5771,7 +5771,7 @@ Se esta política não for definida, o renderizador padrão será usado para tod
 <translation id="7951605113561734721">Especifica os certificados do cliente em todo o dispositivo que deveriam ser registrados usando o protocolo de gerenciamento do dispositivo.</translation>
 <translation id="7952007677054834789">Configura as páginas a serem carregadas na inicialização, a página inicial padrão e a página "Nova guia" padrão no <ph name="PRODUCT_NAME" /> e impede que elas sejam alteradas pelos usuários.
 
-      As configurações da página inicial do usuário só serão completamente bloqueadas se você selecionar a página inicial como a página "Nova guia" ou se configurá-la para que seja um URL específico. Se você não especificar o URL, o usuário ainda poderá definir a página inicial como a página "Nova guia" especificando "chrome://newtab".
+      As configurações da página inicial do usuário só serão completamente bloqueadas se você selecionar a página inicial como a página "Nova guia" ou se configurá-la para que seja um URL específico. Se você não especificar o URL, o usuário ainda poderá definir a página inicial como a página "Nova guia" especificando "decentr://newtab".
 
       A política "URLs que devem ser abertos na inicialização" será ignorada, a menos que você selecione "Abrir uma lista de URLs" em "Ação na inicialização".</translation>
 <translation id="7952958573604504839">Esta política foi substituída por <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> no M48 e removida no M54.
@@ -6334,7 +6334,7 @@ O modo recomendado para configurar políticas no Windows é por meio de GPO, emb
 
       A partir da versão 92 do <ph name="PRODUCT_NAME" />, esta política também será compatível com o modo headless.
 
-      Observação: bloquear URLs chrome://* internos pode causar erros inesperados.</translation>
+      Observação: bloquear URLs decentr://* internos pode causar erros inesperados.</translation>
 <translation id="8626826495474944836">Exigir isolamento de sites para todos os sites</translation>
 <translation id="8631434304112909927">até a versão <ph name="UNTIL_VERSION" /></translation>
 <translation id="8631437968147930597">A lista de apps de anotação permitidos na tela de bloqueio do <ph name="PRODUCT_OS_NAME" /></translation>
@@ -6492,7 +6492,7 @@ O modo recomendado para configurar políticas no Windows é por meio de GPO, emb
 
       O código-fonte de qualquer extensão pode ser mudado pelos usuários por meio das ferramentas para desenvolvedores, possivelmente prejudicando a funcionalidade da extensão. Se isso for uma preocupação, defina a política <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" />.
 
-      Cada item da lista da política é uma string que contém um ID de extensão e, opcionalmente, um URL de atualização separados por ponto e vírgula (;). O ID da extensão é a string de 32 letras encontrada, por exemplo, em chrome://extensions no modo de desenvolvedor. Se especificado, o URL de atualização apontará para um documento XML de manifesto de atualização (https://developer.chrome.com/extensions/autoupdate). Por padrão, é usado o URL de atualização da Chrome Web Store. O URL de atualização definido nesta política só é usado na instalação inicial. As atualizações subsequentes da extensão empregam o URL de atualização indicado no manifesto da extensão.
+      Cada item da lista da política é uma string que contém um ID de extensão e, opcionalmente, um URL de atualização separados por ponto e vírgula (;). O ID da extensão é a string de 32 letras encontrada, por exemplo, em decentr://extensions no modo de desenvolvedor. Se especificado, o URL de atualização apontará para um documento XML de manifesto de atualização (https://developer.chrome.com/extensions/autoupdate). Por padrão, é usado o URL de atualização da Chrome Web Store. O URL de atualização definido nesta política só é usado na instalação inicial. As atualizações subsequentes da extensão empregam o URL de atualização indicado no manifesto da extensão.
 
        Observação: esta política não se aplica ao modo de navegação anônima. Leia sobre hospedagem de extensões (https://developer.chrome.com/extensions/hosting).</translation>
 <translation id="8827366480126575426">O protocolo do gerenciador de protocolos.</translation>
@@ -6884,7 +6884,7 @@ A configuração padrão é permitir que o navegador do host faça a renderizaç
 
       A partir do <ph name="PRODUCT_NAME" /> 73, é possível bloquear URLs "javascript://*". No entanto, isso só afeta JavaScript inserido na barra de endereço (ou, por exemplo, bookmarklets). URLs com JavaScript na página que tenham dados dinamicamente carregados não estarão sujeitos a esta política. Por exemplo, se você bloquear example.com/abc, ainda será possível carregar example.com/abc na página example.com por meio de XMLHTTPRequest.
 
-      Observação: bloquear URLs chrome://* internos pode causar erros inesperados.</translation>
+      Observação: bloquear URLs decentr://* internos pode causar erros inesperados.</translation>
 <translation id="957778406002650056">O URL no qual o download da imagem do <ph name="PLUGIN_VM_NAME" /> pode ser feito.</translation>
 <translation id="971677226939413180">A opção "Imprimir como imagem" não está disponível para a seleção do usuário.</translation>
 <translation id="974349541138387272">Especifica o modelo de URI do resolvedor DNS sobre HTTPS desejado</translation>

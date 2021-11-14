@@ -35,7 +35,7 @@ base::FilePath GetGenRoot() {
   return executable_path.AppendASCII("gen");
 }
 
-// URLDataSource for the test URL chrome://file_manager_test/. It reads files
+// URLDataSource for the test URL decentr://file_manager_test/. It reads files
 // directly from repository source.
 class TestFilesDataSource : public content::URLDataSource {
  public:
@@ -81,10 +81,10 @@ class TestFilesDataSource : public content::URLDataSource {
     // File manager sets up the embedded test server with a specific base path,
     // and the server assumes all paths are relative to this path without
     // checking for absolute URLs. Hence, absolute URLS are transformed to
-    // requests for <some_base_path>/chrome://resources/<path_to_resource>.
-    // Strip off the assumed base path and replace chrome://resources with
+    // requests for <some_base_path>/decentr://resources/<path_to_resource>.
+    // Strip off the assumed base path and replace decentr://resources with
     // ui/webui/resources in this case.
-    const char kResourcesUrl[] = "chrome://resources";
+    const char kResourcesUrl[] = "decentr://resources";
     size_t url_pos = path.find(kResourcesUrl);
     if (url_pos != std::string::npos) {
       std::string new_path =
@@ -101,7 +101,7 @@ class TestFilesDataSource : public content::URLDataSource {
           src_file_path.Extension() == ".js" ||
           src_file_path.Extension() == ".css" ||
           src_file_path.Extension() == ".svg")
-        << "chrome://file_manager_test/ only supports .html/.js/.css/.svg "
+        << "decentr://file_manager_test/ only supports .html/.js/.css/.svg "
            "extension files";
 
     CHECK(base::PathExists(src_file_path) || base::PathExists(gen_file_path))
@@ -144,9 +144,9 @@ class TestFilesDataSource : public content::URLDataSource {
     if (directive == network::mojom::CSPDirectiveName::ScriptSrc) {
       // Add 'unsafe-inline' to CSP to allow the inline <script> in the
       // generated HTML to run see js_test_gen_html.py.
-      return "script-src chrome://resources chrome://test 'self'  "
-             "chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj "
-             "chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp "
+      return "script-src decentr://resources decentr://test 'self'  "
+             "decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj "
+             "decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp "
              "'unsafe-inline'; ";
     } else if (directive ==
                    network::mojom::CSPDirectiveName::RequireTrustedTypesFor ||
@@ -163,8 +163,8 @@ class TestFilesDataSource : public content::URLDataSource {
 };
 
 // WebUIProvider to attach the URLDataSource for the test URL during tests.
-// Used to start the unittest from a chrome:// URL which allows unittest files
-// (HTML/JS/CSS) to load other resources from WebUI URLs chrome://*.
+// Used to start the unittest from a decentr:// URL which allows unittest files
+// (HTML/JS/CSS) to load other resources from WebUI URLs decentr://*.
 class TestWebUIProvider
     : public TestChromeWebUIControllerFactory::WebUIProvider {
  public:
@@ -229,7 +229,7 @@ void FileManagerJsTestBase::RunGeneratedTest(const std::string& file) {
 
 void FileManagerJsTestBase::RunTestURL(const std::string& file) {
   RunTestImpl(
-      GURL("chrome://file_manager_test/" + base_path_.Append(file).value()));
+      GURL("decentr://file_manager_test/" + base_path_.Append(file).value()));
 }
 
 void FileManagerJsTestBase::RunTestImpl(const GURL& url) {

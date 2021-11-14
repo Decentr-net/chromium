@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import { addSingletonGetter, addWebUIListener,WebUIListener} from 'chrome://resources/js/cr.m.js';
+import { addSingletonGetter, addWebUIListener,WebUIListener} from 'decentr://resources/js/cr.m.js';
 // clang-format on
 
   /**

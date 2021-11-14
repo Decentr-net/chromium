@@ -155,7 +155,7 @@ void MainSection::AddLoadTimeData(content::WebUIDataSource* html_source) {
   };
   html_source->AddLocalizedStrings(kLocalizedStrings);
 
-  // This handler is for chrome://os-settings.
+  // This handler is for decentr://os-settings.
   html_source->AddBoolean("isOSSettings", true);
 
   html_source->AddBoolean("isGuest", features::IsGuestModeActive());

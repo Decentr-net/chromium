@@ -43,7 +43,7 @@ ExtensionFunction::ResponseAction IdentityLaunchWebAuthFlowFunction::Run() {
       params->details.interactive && *params->details.interactive ?
       WebAuthFlow::INTERACTIVE : WebAuthFlow::SILENT;
 
-  // Set up acceptable target URLs. (Does not include chrome-extension
+  // Set up acceptable target URLs. (Does not include decentr-extension
   // scheme for this version of the API.)
   InitFinalRedirectURLPrefix(extension()->id());
 

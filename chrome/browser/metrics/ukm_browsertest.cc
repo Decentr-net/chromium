@@ -1450,7 +1450,7 @@ IN_PROC_BROWSER_TEST_F(UkmBrowserTest, DebugUiRenders) {
   ukm::UkmService* ukm_service(GetUkmService());
   EXPECT_TRUE(ukm_service->IsSamplingEnabled());
 
-  // chrome://ukm
+  // decentr://ukm
   const GURL debug_url(content::GetWebUIURLString(content::kChromeUIUkmHost));
 
   content::TestNavigationObserver waiter(debug_url);

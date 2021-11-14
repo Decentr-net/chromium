@@ -23,7 +23,7 @@ TEST_F(URLSchemeUtilTest, UrlHasWebScheme) {
   EXPECT_TRUE(UrlHasWebScheme(GURL("https://foo.com")));
   EXPECT_TRUE(UrlHasWebScheme(GURL("data:text/html;charset=utf-8,Hello")));
   EXPECT_FALSE(UrlHasWebScheme(GURL("about:blank")));
-  EXPECT_FALSE(UrlHasWebScheme(GURL("chrome://settings")));
+  EXPECT_FALSE(UrlHasWebScheme(GURL("decentr://settings")));
 }
 
 TEST_F(URLSchemeUtilTest, NSURLHasWebScheme) {
@@ -32,7 +32,7 @@ TEST_F(URLSchemeUtilTest, NSURLHasWebScheme) {
   EXPECT_TRUE(UrlHasWebScheme(
       [NSURL URLWithString:@"data:text/html;charset=utf-8,Hello"]));
   EXPECT_FALSE(UrlHasWebScheme([NSURL URLWithString:@"about:blank"]));
-  EXPECT_FALSE(UrlHasWebScheme([NSURL URLWithString:@"chrome://settings"]));
+  EXPECT_FALSE(UrlHasWebScheme([NSURL URLWithString:@"decentr://settings"]));
 }
 
 }  // namespace web

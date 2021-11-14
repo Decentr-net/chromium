@@ -45,13 +45,13 @@ struct SystemExtension {
   absl::optional<GURL> companion_web_app_url;
   // Entry point to the System Extension. For now, we just open a page
   // in the background, but we'll change to a Service Worker once
-  // chrome-untrusted:// supports Service Workers.
+  // decentr-untrusted:// supports Service Workers.
   GURL service_worker_url;
 
   // The following fields are constructed from the System Extension's manifest.
 
   // The System Extension's base URL derived from the type and the id e.g.
-  // `chrome-untrusted://system-extension-echo-1234/`
+  // `decentr-untrusted://system-extension-echo-1234/`
   GURL base_url;
 };
 

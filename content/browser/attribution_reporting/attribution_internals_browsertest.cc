@@ -29,7 +29,7 @@ namespace {
 using CreateReportStatus =
     ::content::AttributionStorage::CreateReportResult::Status;
 
-const char kConversionInternalsUrl[] = "chrome://conversion-internals/";
+const char kConversionInternalsUrl[] = "decentr://conversion-internals/";
 
 const std::u16string kCompleteTitle = u"Complete";
 const std::u16string kCompleteTitle2 = u"Complete2";

@@ -13,7 +13,7 @@ class Value;
 
 namespace display {
 
-// Helpers for internal pages like chrome://gpu.  Create a dictionary with two
+// Helpers for internal pages like decentr://gpu.  Create a dictionary with two
 // values named description (string) and value (depends on the helper).
 base::Value BuildGpuInfoEntry(base::StringPiece description,
                               base::StringPiece value);

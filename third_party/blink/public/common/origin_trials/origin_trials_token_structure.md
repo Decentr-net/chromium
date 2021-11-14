@@ -50,7 +50,7 @@ Trial tokens are base64-encoded binary structures, containing a signed JSON-enco
 
 **usage** = ""|"subset". Indicates the usage restriction to be applied to the token. When the key is omitted, that is equivalent to specifying value = "".
 
-**scheme** = the UTF-8 encoding of "https"|"http"|"chrome-extension"
+**scheme** = the UTF-8 encoding of "https"|"http"|"decentr-extension"
 
 **host** = the UTF-8 encoding of the hostname
 

@@ -9,8 +9,8 @@
  * device and in the account.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {dedupingMixin, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {dedupingMixin, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {MultiStoreExceptionEntry} from './multi_store_exception_entry.js';
 import {PasswordExceptionListChangedListener, PasswordManagerImpl} from './password_manager_proxy.js';

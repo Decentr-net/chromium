@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test fixture for chrome://shimless_rma.
+ * @fileoverview Test fixture for decentr://shimless_rma.
  * Unifieid polymer testing suite for shimless rma flow.
  *
  * To run all tests in a single instance (default, faster):
@@ -25,7 +25,7 @@ GEN('#include "content/public/test/browser_test.h"');
 this.ShimlessRMABrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://shimless-rma/test_loader.html?module=chromeos/' +
+    return 'decentr://shimless-rma/test_loader.html?module=chromeos/' +
         'shimless_rma/shimless_rma_unified_test.js';
   }
 

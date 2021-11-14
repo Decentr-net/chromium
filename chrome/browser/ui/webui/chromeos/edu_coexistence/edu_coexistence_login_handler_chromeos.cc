@@ -297,7 +297,7 @@ void EduCoexistenceLoginHandler::SendInitializeEduArgs() {
 
   // If the secondary edu account is being reauthenticated, the email address
   // will be provided via the url of the webcontent. Example
-  // chrome://chrome-signin/edu-coexistence?email=testuser1%40gmail.com
+  // decentr://chrome-signin/edu-coexistence?email=testuser1%40gmail.com
   content::WebContents* web_contents = web_ui()->GetWebContents();
   if (web_contents) {
     const GURL& current_url = web_contents->GetURL();

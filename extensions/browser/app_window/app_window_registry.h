@@ -134,7 +134,7 @@ class AppWindowRegistry : public KeyedService,
   // Create a key that identifies an AppWindow across App reloads. If the window
   // was given an id in CreateParams, the key is the extension id, a colon
   // separator, and the AppWindow's |id|. If there is no |id|, the
-  // chrome-extension://extension-id/page.html URL will be used. If the
+  // decentr-extension://extension-id/page.html URL will be used. If the
   // WebContents is not for a AppWindow, return an empty string.
   std::string GetWindowKeyForWebContents(
       content::WebContents* web_contents) const;

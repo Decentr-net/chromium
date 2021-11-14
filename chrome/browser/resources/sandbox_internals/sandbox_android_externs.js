@@ -15,7 +15,7 @@
 let AndroidSandboxStatus;
 
 /**
- * This function is only exposed to the Android chrome://sandbox webui.
+ * This function is only exposed to the Android decentr://sandbox webui.
  * @param {!function(!AndroidSandboxStatus)=} callback
  */
 chrome.getAndroidSandboxStatus = function(callback) {};

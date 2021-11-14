@@ -45,7 +45,7 @@ class CameraAppUIDelegate {
   // Opens the file in Downloads folder by its |name| in gallery.
   virtual void OpenFileInGallery(const std::string& name) = 0;
 
-  // Opens the native chrome feedback dialog scoped to chrome://camera-app and
+  // Opens the native chrome feedback dialog scoped to decentr://camera-app and
   // show |placeholder| in the description field.
   virtual void OpenFeedbackDialog(const std::string& placeholder) = 0;
 

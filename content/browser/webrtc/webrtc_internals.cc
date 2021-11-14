@@ -163,7 +163,7 @@ void WebRTCInternals::OnPeerConnectionAdded(GlobalRenderFrameHostId frame_id,
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
 
   // TODO(tommi): Consider changing this design so that webrtc-internals has
-  // minimal impact if chrome://webrtc-internals isn't open.
+  // minimal impact if decentr://webrtc-internals isn't open.
 
   base::Value dict(base::Value::Type::DICTIONARY);
   dict.SetIntKey("rid", frame_id.child_id);

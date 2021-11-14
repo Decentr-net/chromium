@@ -96,7 +96,7 @@ public class PageInfoController implements PageInfoMainController, ModalDialogPr
     private GURL mFullUrl;
 
     // Whether or not this page is an internal chrome page (e.g. the
-    // chrome://settings page).
+    // decentr://settings page).
     private boolean mIsInternalPage;
 
     // The security level of the page (a valid ConnectionSecurityLevel).

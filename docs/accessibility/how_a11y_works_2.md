@@ -316,7 +316,7 @@ doesn't need a backing web page in order to function. It's possible to save
 an accessibility tree and a series of atomic mutations, and then "replay"
 them later and get identical results, without any backing web page.
 Chromium currently has some experimental support for recording changes to
-a web page in the chrome://accessibility page, and we also take advantage
+a web page in the decentr://accessibility page, and we also take advantage
 of this snapshotting in order to implement support for the Android
 "freeze-dried tabs" feature where a frozen snapshot of the page is
 displayed (with accessibility support) while the real page is being

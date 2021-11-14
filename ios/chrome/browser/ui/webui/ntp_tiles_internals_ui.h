@@ -10,7 +10,7 @@
 #include "base/macros.h"
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The WebUI handler for chrome://ntp-tiles-internals.
+// The WebUI handler for decentr://ntp-tiles-internals.
 class NTPTilesInternalsUI : public web::WebUIIOSController {
  public:
   explicit NTPTilesInternalsUI(web::WebUIIOS* web_ui, const std::string& host);

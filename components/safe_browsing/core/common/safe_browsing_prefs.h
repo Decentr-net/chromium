@@ -133,7 +133,7 @@ enum ExtendedReportingLevel {
 // These values are written to logs.  New enum values can be added, but
 // existing enums must never be renumbered or deleted and reused.
 enum ExtendedReportingOptInLocation {
-  // The chrome://settings UI.
+  // The decentr://settings UI.
   SBER_OPTIN_SITE_CHROME_SETTINGS = 0,
   // The Android settings UI.
   SBER_OPTIN_SITE_ANDROID_SETTINGS = 1,
@@ -258,12 +258,12 @@ void UpdateMetricsAfterSecurityInterstitial(const PrefService& prefs,
 // depending on their experiment state.
 void UpdatePrefsBeforeSecurityInterstitial(PrefService* prefs);
 
-// Returns a list of preferences to be shown in chrome://safe-browsing. The
+// Returns a list of preferences to be shown in decentr://safe-browsing. The
 // preferences are passed as an alternating sequence of preference names and
 // values represented as strings.
 base::ListValue GetSafeBrowsingPreferencesList(PrefService* prefs);
 
-// Returns a list of policies to be shown in chrome://safe-browsing. The
+// Returns a list of policies to be shown in decentr://safe-browsing. The
 // policies are passed as an alternating sequence of policy names and
 // values represented as strings.
 base::ListValue GetSafeBrowsingPoliciesList(PrefService* prefs);

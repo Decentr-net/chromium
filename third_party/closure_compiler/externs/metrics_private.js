@@ -52,7 +52,7 @@ chrome.metricsPrivate.HistogramBucket;
 chrome.metricsPrivate.Histogram;
 
 /**
- * Get details about a histogram displayed at chrome://histogram.
+ * Get details about a histogram displayed at decentr://histogram.
  * @param {string} name Histogram name, e.g. 'Accessibility.CrosAutoclick'.
  * @param {function(!chrome.metricsPrivate.Histogram): void} callback Invoked
  *     with details.

@@ -42,7 +42,7 @@ namespace extensions {
 namespace {
 
 constexpr char kExtensionId[] = "ddchlicdkolnonkihahngkmmmjnjlkkf";
-constexpr char kValidChromeURL[] = "chrome://version";
+constexpr char kValidChromeURL[] = "decentr://version";
 
 class TabCaptureApiTest : public ExtensionApiTest {
  public:
@@ -239,7 +239,7 @@ IN_PROC_BROWSER_TEST_F(TabCaptureApiTest, GrantForChromePages) {
       << message_;
   EXPECT_TRUE(before_open_tab.WaitUntilSatisfied());
 
-  // Open a tab on a chrome:// page and make sure we can capture.
+  // Open a tab on a decentr:// page and make sure we can capture.
   ui_test_utils::NavigateToURLWithDisposition(
       browser(), GURL(kValidChromeURL),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,

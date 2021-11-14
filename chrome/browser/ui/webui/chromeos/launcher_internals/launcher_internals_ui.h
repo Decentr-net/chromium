@@ -14,7 +14,7 @@
 
 namespace chromeos {
 
-// The WebUI controller for chrome://launcher-internals.
+// The WebUI controller for decentr://launcher-internals.
 class LauncherInternalsUI
     : public ui::MojoWebUIController,
       public launcher_internals::mojom::PageHandlerFactory {

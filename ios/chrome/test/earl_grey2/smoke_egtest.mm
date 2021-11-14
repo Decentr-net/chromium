@@ -107,9 +107,9 @@
 
 // Tests navigation-related converted helpers in chrome_earl_grey.h.
 - (void)testURLNavigation {
-  [ChromeEarlGrey loadURL:GURL("chrome://terms")];
+  [ChromeEarlGrey loadURL:GURL("decentr://terms")];
   [ChromeEarlGrey reload];
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
   [ChromeEarlGrey goBack];
   [ChromeEarlGrey goForward];
 }
@@ -186,7 +186,7 @@
 
 // Tests accessibility util converted helper in chrome_earl_grey.h.
 - (void)testAccessibilityUtil {
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
   [ChromeEarlGrey verifyAccessibilityForCurrentScreen];
 }
 

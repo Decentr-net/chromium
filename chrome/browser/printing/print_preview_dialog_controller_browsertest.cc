@@ -60,7 +60,7 @@ void PluginsLoadedCallback(
   std::move(quit_closure).Run();
 }
 
-const char kDummyPrintUrl[] = "chrome-untrusted://print/dummy.pdf";
+const char kDummyPrintUrl[] = "decentr-untrusted://print/dummy.pdf";
 
 void CheckPdfPluginForRenderFrame(content::RenderFrameHost* frame) {
   static const base::FilePath kPdfInternalPluginPath(
@@ -246,7 +246,7 @@ IN_PROC_BROWSER_TEST_P(PrintPreviewDialogControllerBrowserTest,
   content::WebPluginInfo pdf_external_plugin_info;
   ASSERT_TRUE(content::PluginService::GetInstance()->GetPluginInfoByPath(
       base::FilePath(FILE_PATH_LITERAL(
-          "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/")),
+          "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/")),
       &pdf_external_plugin_info));
 
   // Disable the PDF plugin.

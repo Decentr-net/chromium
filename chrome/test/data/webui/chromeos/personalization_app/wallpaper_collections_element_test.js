@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {kMaximumLocalImagePreviews} from 'chrome://personalization/common/constants.js';
-import {emptyState} from 'chrome://personalization/trusted/personalization_reducers.js';
-import {promisifyIframeFunctionsForTesting, WallpaperCollections} from 'chrome://personalization/trusted/wallpaper_collections_element.js';
+import {kMaximumLocalImagePreviews} from 'decentr://personalization/common/constants.js';
+import {emptyState} from 'decentr://personalization/trusted/personalization_reducers.js';
+import {promisifyIframeFunctionsForTesting, WallpaperCollections} from 'decentr://personalization/trusted/wallpaper_collections_element.js';
 import {assertDeepEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {waitAfterNextRender} from '../../test_util.js';
 import {assertWindowObjectsEqual, baseSetup, initElement, teardownElement} from './personalization_app_test_utils.js';

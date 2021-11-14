@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://bookmarks/bookmarks.js';
-import {normalizeIterable} from 'chrome://test/bookmarks/test_util.js';
+import 'decentr://bookmarks/bookmarks.js';
+import {normalizeIterable} from 'decentr://test/bookmarks/test_util.js';
 
 export class TestCommandManager {
   constructor() {

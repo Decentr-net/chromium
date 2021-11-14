@@ -104,9 +104,9 @@ TEST_F(SupervisedUserURLFilterTest, Basic) {
   EXPECT_FALSE(IsURLAllowlisted("http://youtube.com/"));
 
   EXPECT_TRUE(IsURLAllowlisted("bogus://youtube.com/"));
-  EXPECT_TRUE(IsURLAllowlisted("chrome://youtube.com/"));
-  EXPECT_TRUE(IsURLAllowlisted("chrome://extensions/"));
-  EXPECT_TRUE(IsURLAllowlisted("chrome-extension://foo/main.html"));
+  EXPECT_TRUE(IsURLAllowlisted("decentr://youtube.com/"));
+  EXPECT_TRUE(IsURLAllowlisted("decentr://extensions/"));
+  EXPECT_TRUE(IsURLAllowlisted("decentr-extension://foo/main.html"));
   EXPECT_TRUE(IsURLAllowlisted("file:///home/chronos/user/Downloads/img.jpg"));
 }
 
@@ -265,7 +265,7 @@ TEST_F(SupervisedUserURLFilterTest, HasFilteredScheme) {
       SupervisedUserURLFilter::HasFilteredScheme(
           GURL("filesystem://80cols.com")));
   EXPECT_FALSE(
-      SupervisedUserURLFilter::HasFilteredScheme(GURL("chrome://example.com")));
+      SupervisedUserURLFilter::HasFilteredScheme(GURL("decentr://example.com")));
   EXPECT_FALSE(
       SupervisedUserURLFilter::HasFilteredScheme(GURL("wtf://example.com")));
   EXPECT_FALSE(

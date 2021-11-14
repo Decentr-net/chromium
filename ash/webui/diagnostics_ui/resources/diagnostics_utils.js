@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {LockType, Network, NetworkState, NetworkType, RoutineProperties, RoutineResult, RoutineType, StandardRoutineResult} from './diagnostics_types.js';
 import {RoutineGroup} from './routine_group.js';

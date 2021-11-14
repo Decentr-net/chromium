@@ -1936,51 +1936,51 @@ are declared in tools/grit/grit_rule.gni.
         Download <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph>? Anyone using the device can see it.
       </message>
       <message name="IDS_BLOCK_REASON_UNCOMMON_DOWNLOAD"
-         desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is uncommon.">
+         desc="Message shown to the user on decentr://downloads page to explain that this download is blocked because it is uncommon.">
         This file is not commonly downloaded and may be dangerous.
       </message>
       <message name="IDS_BLOCK_REASON_UNCOMMON_DOWNLOAD_IN_ADVANCED_PROTECTION"
-         desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is uncommon. This variant is shown when the user is enrolled in the Advanced Protection program.">
+         desc="Message shown to the user on decentr://downloads page to explain that this download is blocked because it is uncommon. This variant is shown when the user is enrolled in the Advanced Protection program.">
         This file was blocked by Advanced Protection.
       </message>
       <message name="IDS_BLOCK_REASON_GENERIC_DOWNLOAD"
-         desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it may be dangerous.">
+         desc="Message shown to the user on decentr://downloads page to explain that this download is blocked because it may be dangerous.">
         This type of file may harm your computer.
       </message>
       <message name="IDS_BLOCK_REASON_MIXED_CONTENT"
-         desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is mixed-content.">
+         desc="Message shown to the user on decentr://downloads page to explain that this download is blocked because it is mixed-content.">
         This file can't be downloaded securely
       </message>
       <message name="IDS_INCOGNITO_DOWNLOAD_WARNING"
-         desc="Message shown to the user on chrome://downloads page to explain that downloaded file will stay after incognito session will end">
+         desc="Message shown to the user on decentr://downloads page to explain that downloaded file will stay after incognito session will end">
         This file will be stored on the device and everyone will be able to see it.
       </message>
       <message name="IDS_BLOCK_REASON_DEEP_SCANNING"
-        desc="Message shown on chrome://downloads when a download is being scanned">
+        desc="Message shown on decentr://downloads when a download is being scanned">
         This file is being scanned.
       </message>
       <message name="IDS_BLOCK_REASON_ACCOUNT_COMPROMISE"
-        desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is associated with account compromise.">
+        desc="Message shown to the user on decentr://downloads page to explain that this download is blocked because it is associated with account compromise.">
         This file could let attackers steal your personal information.
       </message>
       <message name="IDS_DEEP_SCANNED_SAFE_DESCRIPTION"
-        desc="Message shown to the user on chrome://downloads page to explain this this download was deep scanned, and found to be safe.">
+        desc="Message shown to the user on decentr://downloads page to explain this this download was deep scanned, and found to be safe.">
         Security checks are done
       </message>
       <message name="IDS_DEEP_SCANNED_OPENED_DANGEROUS_DESCRIPTION"
-        desc="Message shown to the user on chrome://downloads page to explain this this download was deep scanned, and found to be malicious.">
+        desc="Message shown to the user on decentr://downloads page to explain this this download was deep scanned, and found to be malicious.">
         This file is dangerous
       </message>
-      <message name="IDS_BLOCK_REASON_SENSITIVE_CONTENT_WARNING" desc="Message shown to the user on chrome://downloads page to explain this download is showing a warning because it contains sensitive content">
+      <message name="IDS_BLOCK_REASON_SENSITIVE_CONTENT_WARNING" desc="Message shown to the user on decentr://downloads page to explain this download is showing a warning because it contains sensitive content">
         This file has sensitive content
       </message>
-      <message name="IDS_SENSITIVE_CONTENT_BLOCKED_DESCRIPTION" desc="Message shown to the user on chrome://downloads page to explain this download is blocked because it contains sensitive content">
+      <message name="IDS_SENSITIVE_CONTENT_BLOCKED_DESCRIPTION" desc="Message shown to the user on decentr://downloads page to explain this download is blocked because it contains sensitive content">
         This file has sensitive or dangerous content. Ask its owner to fix.
       </message>
-      <message name="IDS_BLOCKED_TOO_LARGE_DESCRIPTION" desc="Message shown to the user on chrome://downloads page to explain this download is blocked because it is too large for deep scanning">
+      <message name="IDS_BLOCKED_TOO_LARGE_DESCRIPTION" desc="Message shown to the user on decentr://downloads page to explain this download is blocked because it is too large for deep scanning">
         This file is too big for a security check. You can open files up to 50 MB.
       </message>
-      <message name="IDS_BLOCKED_PASSWORD_PROTECTED_DESCRIPTION" desc="Message shown to the user on chrome://downloads page to explain this download is blocked because it is password protected">
+      <message name="IDS_BLOCKED_PASSWORD_PROTECTED_DESCRIPTION" desc="Message shown to the user on decentr://downloads page to explain this download is blocked because it is password protected">
         This file is encrypted. Ask its owner to decrypt.
       </message>
 
@@ -2050,7 +2050,7 @@ are declared in tools/grit/grit_rule.gni.
         </message>
       </if>
       <message name="IDS_CONFIRM_DOWNLOAD_RESTORE"
-               desc="Text for the button used to validate the downloading of a dangerous download on chrome://downloads page.">
+               desc="Text for the button used to validate the downloading of a dangerous download on decentr://downloads page.">
         Keep dangerous file
       </message>
       <message name="IDS_CONTINUE_EXTENSION_DOWNLOAD"
@@ -2086,7 +2086,7 @@ are declared in tools/grit/grit_rule.gni.
                desc="Placeholder text/label for the search input in the download page">
         Search downloads
       </message>
-      <message name="IDS_DOWNLOAD_NO_DOWNLOADS" desc="A message shown when the user has no downloads to show on chrome://downloads.">
+      <message name="IDS_DOWNLOAD_NO_DOWNLOADS" desc="A message shown when the user has no downloads to show on decentr://downloads.">
         Files you download appear here
       </message>
       <message name="IDS_DOWNLOAD_ITEM_DROPDOWN_BUTTON_ACCESSIBLE_TEXT" desc="Text for the dropdown button that opens the download item options menu">
@@ -4604,21 +4604,21 @@ are declared in tools/grit/grit_rule.gni.
         </message>
 
         <if expr="not chromeos and not is_macosx">
-          <message name="IDS_EXTENSION_INSTALLED_MANAGE_INFO" desc="Text displayed in the InfoBubble with instructions on how to find the chrome://extensions/ management page">
+          <message name="IDS_EXTENSION_INSTALLED_MANAGE_INFO" desc="Text displayed in the InfoBubble with instructions on how to find the decentr://extensions/ management page">
             Manage your extensions by clicking Extensions in the Tools menu.
           </message>
         </if>
         <if expr="chromeos">
-          <message name="IDS_EXTENSION_INSTALLED_MANAGE_INFO" desc="Text displayed in the InfoBubble with instructions on how to find the chrome://extensions/ management page on Decentr OS">
+          <message name="IDS_EXTENSION_INSTALLED_MANAGE_INFO" desc="Text displayed in the InfoBubble with instructions on how to find the decentr://extensions/ management page on Decentr OS">
             Manage your extensions by clicking Extensions in the "More tools" menu.
           </message>
         </if>
         <if expr="is_macosx">
-          <message name="IDS_EXTENSION_INSTALLED_MANAGE_INFO" desc="Text displayed in the InfoBubble with instructions on how to find the chrome://extensions/ management page on MAC OS X">
+          <message name="IDS_EXTENSION_INSTALLED_MANAGE_INFO" desc="Text displayed in the InfoBubble with instructions on how to find the decentr://extensions/ management page on MAC OS X">
             Manage your extensions by clicking Extensions in the Window menu.
           </message>
         </if>
-        <message name="IDS_EXTENSION_INSTALLED_MANAGE_SHORTCUTS" desc="Text for the link in the InfoBubble that opens the chrome://extensions page with the Configure Commands UI visible.">
+        <message name="IDS_EXTENSION_INSTALLED_MANAGE_SHORTCUTS" desc="Text for the link in the InfoBubble that opens the decentr://extensions page with the Configure Commands UI visible.">
           Manage shortcuts
         </message>
 
@@ -4653,7 +4653,7 @@ are declared in tools/grit/grit_rule.gni.
         </message>
       </if>
 
-      <!-- Extensions strings, which are not used by chrome://extensions. -->
+      <!-- Extensions strings, which are not used by decentr://extensions. -->
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_LOAD_ERROR_ALERT_HEADING" desc="The title of the section that describes an extension load error.">
           Error Loading Extension
@@ -5148,7 +5148,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
 
       <!-- Components -->
-      <message name="IDS_COMPONENTS_TITLE" desc="Title for the chrome://components page.">
+      <message name="IDS_COMPONENTS_TITLE" desc="Title for the decentr://components page.">
         Components
       </message>
       <message name="IDS_COMPONENTS_VERSION" desc="The label in front of a component version number.">
@@ -5317,52 +5317,52 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <!-- End of Sync Promo strings for Desktop Identity Consistency. -->
 
       <!-- WebRTC logs -->
-      <message name="IDS_WEBRTC_LOGS_TITLE" desc="Title for the chrome://webrtc-logs page.">
+      <message name="IDS_WEBRTC_LOGS_TITLE" desc="Title for the decentr://webrtc-logs page.">
         WebRTC logs
       </message>
-      <message name="IDS_WEBRTC_TEXT_LOGS_LOG_COUNT_BANNER_FORMAT" desc="Format for WebRTC text log count banner on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_TEXT_LOGS_LOG_COUNT_BANNER_FORMAT" desc="Format for WebRTC text log count banner on decentr://webrtc-logs">
         WebRTC text logs (<ph name="WEBRTC_TEXT_LOG_COUNT">$1<ex>3</ex></ph>)
       </message>
-      <message name="IDS_WEBRTC_EVENT_LOGS_LOG_COUNT_BANNER_FORMAT" desc="Format for WebRTC event log count banner on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_EVENT_LOGS_LOG_COUNT_BANNER_FORMAT" desc="Format for WebRTC event log count banner on decentr://webrtc-logs">
         WebRTC event logs (<ph name="WEBRTC_EVENT_LOG_COUNT">$1<ex>3</ex></ph>)
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_HEADER_FORMAT" desc="Format for uploaded log entry headings on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_LOGS_LOG_HEADER_FORMAT" desc="Format for uploaded log entry headings on decentr://webrtc-logs">
         WebRTC log captured <ph name="WEBRTC_LOG_CAPTURE_TIME">$1<ex>Tuesday, January 25, 2011 2:58:02 PM</ex></ph>
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_LOCAL_FILE_LABEL_FORMAT" desc="Format for local log entry label on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_LOGS_LOG_LOCAL_FILE_LABEL_FORMAT" desc="Format for local log entry label on decentr://webrtc-logs">
         Local file:
       </message>
-      <message name="IDS_WEBRTC_LOGS_NO_LOCAL_LOG_FILE_MESSAGE" desc="The explanatory message for chrome://webrtc-logs when there is no local log file">
+      <message name="IDS_WEBRTC_LOGS_NO_LOCAL_LOG_FILE_MESSAGE" desc="The explanatory message for decentr://webrtc-logs when there is no local log file">
         No local log file.
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_UPLOAD_TIME_FORMAT" desc="Format for uploaded log entry upload time on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_LOGS_LOG_UPLOAD_TIME_FORMAT" desc="Format for uploaded log entry upload time on decentr://webrtc-logs">
         Uploaded <ph name="WEBRTC_LOG_UPLOAD_TIME">$1<ex>Tuesday, January 25, 2011 2:58:02 PM</ex></ph>
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_FAILED_UPLOAD_TIME_FORMAT" desc="Format for a log's failed upload attempt entry on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_LOGS_LOG_FAILED_UPLOAD_TIME_FORMAT" desc="Format for a log's failed upload attempt entry on decentr://webrtc-logs">
         Upload failed (<ph name="WEBRTC_LOG_UPLOAD_TIME">$1<ex>Tuesday, January 25, 2011 2:58:02 PM</ex></ph>).
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_REPORT_ID_FORMAT" desc="Format for uploaded log entry report ID on chrome://webrtc-logs. This is the ID on the server to which the log was uploaded.">
+      <message name="IDS_WEBRTC_LOGS_LOG_REPORT_ID_FORMAT" desc="Format for uploaded log entry report ID on decentr://webrtc-logs. This is the ID on the server to which the log was uploaded.">
         Report ID <ph name="WEBRTC_LOG_REPORT_ID">$1<ex>8fa95dbb6f2ec862</ex></ph>
       </message>
-      <message name="IDS_WEBRTC_LOGS_BUG_LINK_LABEL" desc="Link text for filing a bug on chrome://webrtc-logs">
+      <message name="IDS_WEBRTC_LOGS_BUG_LINK_LABEL" desc="Link text for filing a bug on decentr://webrtc-logs">
         File bug
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_PENDING_MESSAGE" desc="The explanatory message for chrome://webrtc-logs when the log is still pending upload.">
+      <message name="IDS_WEBRTC_LOGS_LOG_PENDING_MESSAGE" desc="The explanatory message for decentr://webrtc-logs when the log is still pending upload.">
         Log upload pending.
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_ACTIVELY_UPLOADED_MESSAGE" desc="The explanatory message for chrome://webrtc-logs when the log is currently being uploaded.">
+      <message name="IDS_WEBRTC_LOGS_LOG_ACTIVELY_UPLOADED_MESSAGE" desc="The explanatory message for decentr://webrtc-logs when the log is currently being uploaded.">
         Log upload underway.
       </message>
-      <message name="IDS_WEBRTC_LOGS_LOG_NOT_UPLOADED_MESSAGE" desc="The explanatory message for chrome://webrtc-logs when the log has not been uploaded">
+      <message name="IDS_WEBRTC_LOGS_LOG_NOT_UPLOADED_MESSAGE" desc="The explanatory message for decentr://webrtc-logs when the log has not been uploaded">
         Log not uploaded.
       </message>
       <message name="IDS_WEBRTC_LOGS_EVENT_LOG_LOCAL_LOG_ID" desc="The ID of the log. This ID is assigned even if the log is not uploaded.">
         Local log ID: <ph name="WEBRTC_EVENT_LOG_LOCAL_ID">$1<ex>A83BC19927509874309F2EE002174235</ex></ph>.
       </message>
-      <message name="IDS_WEBRTC_LOGS_NO_TEXT_LOGS_MESSAGE" desc="The explanatory message for chrome://webrtc-logs when there are no captured text logs">
+      <message name="IDS_WEBRTC_LOGS_NO_TEXT_LOGS_MESSAGE" desc="The explanatory message for decentr://webrtc-logs when there are no captured text logs">
         You have no recently captured WebRTC text logs.
       </message>
-      <message name="IDS_WEBRTC_LOGS_NO_EVENT_LOGS_MESSAGE" desc="The explanatory message for chrome://webrtc-logs when there are no captured event logs">
+      <message name="IDS_WEBRTC_LOGS_NO_EVENT_LOGS_MESSAGE" desc="The explanatory message for decentr://webrtc-logs when there are no captured event logs">
         You have no recently captured WebRTC event logs.
       </message>
 
@@ -5527,7 +5527,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         </message>
       </if>
 
-      <!-- chrome://browser-switch strings -->
+      <!-- decentr://browser-switch strings -->
       <if expr="is_win or is_macosx or is_fuchsia or (is_linux and not chromeos)">
         <message name="IDS_ABOUT_BROWSER_SWITCH_TITLE" desc="about:browser-switch page title">
           Legacy Browser Support
@@ -6124,13 +6124,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <!-- Extensions NTP Middle Slot Promo -->
       <message name="IDS_EXTENSIONS_PROMO_PERFORMANCE">
-        Web browsing should be fast. Take a moment to <ph name="BEGIN_LINK">&lt;a href="chrome://extensions"&gt;</ph>check your extensions<ph name="END_LINK">&lt;/a&gt;</ph> now.
+        Web browsing should be fast. Take a moment to <ph name="BEGIN_LINK">&lt;a href="decentr://extensions"&gt;</ph>check your extensions<ph name="END_LINK">&lt;/a&gt;</ph> now.
       </message>
       <message name="IDS_EXTENSIONS_PROMO_PRIVACY">
-        Safety matters. Take a moment and <ph name="BEGIN_LINK">&lt;a href="chrome://extensions"&gt;</ph>check your extensions now<ph name="END_LINK">&lt;/a&gt;</ph>
+        Safety matters. Take a moment and <ph name="BEGIN_LINK">&lt;a href="decentr://extensions"&gt;</ph>check your extensions now<ph name="END_LINK">&lt;/a&gt;</ph>
       </message>
       <message name="IDS_EXTENSIONS_PROMO_NEUTRAL">
-        Got extensions? <ph name="BEGIN_LINK">&lt;a href="chrome://extensions"&gt;</ph>Manage your extensions<ph name="END_LINK">&lt;/a&gt;</ph> in one easy place.
+        Got extensions? <ph name="BEGIN_LINK">&lt;a href="decentr://extensions"&gt;</ph>Manage your extensions<ph name="END_LINK">&lt;/a&gt;</ph> in one easy place.
       </message>
 
       <if expr="is_android">
@@ -7710,7 +7710,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         </message>
       </if>
 
-      <!-- chrome://help -->
+      <!-- decentr://help -->
       <if expr="not is_android">
         <if expr="not chromeos and use_titlecase">
           <message name="IDS_RELAUNCH_BUTTON" desc="Titlecase: The label for the relaunch button that relaunches the browser once update is complete">
@@ -7743,7 +7743,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         </message>
       </if> <!-- chromeos -->
 
-      <!-- Settings related strings not specific to chrome://settings.
+      <!-- Settings related strings not specific to decentr://settings.
            (Settings specific strings are in settings_strings.grdp).
            Android uses native UI for settings -->
       <if expr="not is_android">
@@ -7821,7 +7821,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         </message>
 
         <!-- Enhanced Safe Browsing CRX allowlist warning -->
-        <message name="IDS_EXTENSIONS_SAFE_BROWSING_CRX_ALLOWLIST_WARNING" desc="A warning shown in 'chrome://extensions' when the extension is not included in the Enhanced Safe Browsing CRX allowlist.">
+        <message name="IDS_EXTENSIONS_SAFE_BROWSING_CRX_ALLOWLIST_WARNING" desc="A warning shown in 'decentr://extensions' when the extension is not included in the Enhanced Safe Browsing CRX allowlist.">
            This extension is not trusted by Enhanced Safe Browsing.
         </message>
 
@@ -8286,7 +8286,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Your account <ph name="EMAIL">$1<ex>john.doe@example.com</ex></ph> is no longer allowed as the primary account. Because this account is managed by <ph name="DOMAIN">$2<ex>example.com</ex></ph>, your bookmarks, history, passwords, and other settings will be cleared from this device.
       </message>
 
-      <!-- Managed UI on pages like chrome://settings and chrome://downloads -->
+      <!-- Managed UI on pages like decentr://settings and decentr://downloads -->
       <if expr="not is_android">
         <if expr="chromeos">
           <message name="IDS_DEVICE_MANAGED_WITH_HYPERLINK" desc="Message to end users in Enterprise/EDU, with a link for more info (DecentrOS)">
@@ -10696,11 +10696,11 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
 
       <!-- About device logs UI display strings -->
-      <message name="IDS_DEVICE_LOG_TITLE" desc="Title of the chrome://device-log page">
+      <message name="IDS_DEVICE_LOG_TITLE" desc="Title of the decentr://device-log page">
         Device Log
       </message>
       <message name="IDS_DEVICE_AUTO_REFRESH" desc="Instructions for how to auto-refresh the page">
-        Add a query param in URL to auto-refresh the page: chrome://device-log/?refresh=&lt;sec&gt;
+        Add a query param in URL to auto-refresh the page: decentr://device-log/?refresh=&lt;sec&gt;
       </message>
       <message name="IDS_DEVICE_LOG_REFRESH" desc="Button to refresh device log entries">
         Refresh
@@ -10765,7 +10765,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_DEVICE_LOG_TIME_DETAIL" desc="Detailed timestamps checkbox in device event log">
         Detailed Timestamps
       </message>
-      <message name="IDS_DEVICE_LOG_ENTRY" desc="Format string for lines in chrome://device-log.">
+      <message name="IDS_DEVICE_LOG_ENTRY" desc="Format string for lines in decentr://device-log.">
         [<ph name="TIMESTAMP">$1<ex>Timestamp</ex></ph>]
         <ph name="FILE_INFO">$2<ex>file:123</ex></ph>
         <ph name="EVENT_NAME">$3<ex>Event Description</ex></ph>

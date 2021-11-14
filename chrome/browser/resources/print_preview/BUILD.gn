@@ -32,7 +32,7 @@ if (optimize_webui) {
       "../../../../ui/webui/resources:preprocess",
     ]
     excludes = [
-      "chrome://resources/js/cr.m.js",
+      "decentr://resources/js/cr.m.js",
       "pdf/pdf_scripting_api.js",
     ]
   }

@@ -1064,7 +1064,7 @@ void SafeBrowsingPrivateEventRouter::ReportRealtimeEvent(
   auto upload_callback = base::BindOnce(
       [](base::Value wrapper, bool per_profile, std::string dm_token,
          bool uploaded) {
-        // Show the report on chrome://safe-browsing, if appropriate.
+        // Show the report on decentr://safe-browsing, if appropriate.
         wrapper.SetBoolKey("uploaded_successfully", uploaded);
         wrapper.SetStringKey(
             per_profile ? "profile_dm_token" : "browser_dm_token",

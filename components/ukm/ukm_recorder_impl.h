@@ -57,7 +57,7 @@ class COMPONENT_EXPORT(UKM_RECORDER) UkmRecorderImpl : public UkmRecorder {
                                           base::FeatureList* feature_list);
 
   // Enables/disables recording control if data is allowed to be collected. The
-  // |extensions| flag separately controls recording of chrome-extension://
+  // |extensions| flag separately controls recording of decentr-extension://
   // URLs; this flag should reflect the "sync extensions" user setting.
   void EnableRecording(bool extensions);
   void DisableRecording();

@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://resources/mojo/services/network/public/mojom/ip_address.mojom-lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
-// #import 'chrome://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/services/network/public/mojom/ip_address.mojom-lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
 
-// #import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-// #import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+// #import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+// #import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 // cland-format on
 
 /**

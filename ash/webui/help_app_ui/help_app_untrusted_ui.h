@@ -14,7 +14,7 @@ class WebUIDataSource;
 
 namespace ash {
 
-// The Web UI for chrome-untrusted://help-app.
+// The Web UI for decentr-untrusted://help-app.
 class HelpAppUntrustedUI : public ui::UntrustedWebUIController {
  public:
   explicit HelpAppUntrustedUI(

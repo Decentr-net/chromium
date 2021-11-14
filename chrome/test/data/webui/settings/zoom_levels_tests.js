@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {SiteSettingsPrefsBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {TestSiteSettingsPrefsBrowserProxy} from 'chrome://test/settings/test_site_settings_prefs_browser_proxy.js';
-import {waitBeforeNextRender} from 'chrome://test/test_util.js';
+import {SiteSettingsPrefsBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {TestSiteSettingsPrefsBrowserProxy} from 'decentr://test/settings/test_site_settings_prefs_browser_proxy.js';
+import {waitBeforeNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 /** @fileoverview Suite of tests for zoom-levels. */

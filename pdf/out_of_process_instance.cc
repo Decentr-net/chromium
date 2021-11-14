@@ -831,13 +831,13 @@ std::string OutOfProcessInstance::RewriteRequestUrl(
     base::StringPiece url) const {
   if (IsPrintPreview()) {
     // TODO(crbug.com/1238829): This is a workaround for Pepper not supporting
-    // chrome-untrusted://print/ URLs. Pepper issues requests through the
+    // decentr-untrusted://print/ URLs. Pepper issues requests through the
     // embedder's URL loaders, but a WebUI loader only supports subresource
     // requests to the same scheme (so chrome: only can request chrome: URLs,
-    // and chrome-untrusted: only can request chrome-untrusted: URLs).
+    // and decentr-untrusted: only can request decentr-untrusted: URLs).
     //
     // To work around this (for the Pepper plugin only), we'll issue
-    // chrome-untrusted://print/ requests to the equivalent chrome://print/ URL,
+    // decentr-untrusted://print/ requests to the equivalent decentr://print/ URL,
     // since both schemes support the same PDF URLs.
     if (base::StartsWith(url, kChromeUntrustedPrintHost)) {
       return base::StrCat(

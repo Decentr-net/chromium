@@ -984,7 +984,7 @@ bool VrShell::ShouldDisplayURL() const {
   if (url.SchemeIs(browser_ui::kChromeUINativeScheme)) {
     return false;
   }
-  // URL is of the form chrome://....
+  // URL is of the form decentr://....
   if (url.SchemeIs(content::kChromeUIScheme)) {
     return true;
   }

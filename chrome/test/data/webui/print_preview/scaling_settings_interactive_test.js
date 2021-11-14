@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PrintPreviewModelElement, PrintPreviewScalingSettingsElement, ScalingType} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {selectOption} from 'chrome://test/print_preview/print_preview_test_utils.js';
-import {eventToPromise, fakeDataBind} from 'chrome://test/test_util.js';
+import {PrintPreviewModelElement, PrintPreviewScalingSettingsElement, ScalingType} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {selectOption} from 'decentr://test/print_preview/print_preview_test_utils.js';
+import {eventToPromise, fakeDataBind} from 'decentr://test/test_util.js';
 
 window.scaling_settings_interactive_test = {};
 scaling_settings_interactive_test.suiteName = 'ScalingSettingsInteractiveTest';

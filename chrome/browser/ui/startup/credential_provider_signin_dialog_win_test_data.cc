@@ -62,7 +62,7 @@ void CredentialProviderSigninDialogTestDataStorage::SetSigninPassword(
       credential_provider::kKeyExitCode,
       base::Value(credential_provider::kUiecSuccess));
 
-  // Merge with results from chrome://inline-signin to form the full
+  // Merge with results from decentr://inline-signin to form the full
   // result.
   expected_success_full_result_ = expected_success_signin_result_.Clone();
   expected_success_full_result_.MergeDictionary(

@@ -4,11 +4,11 @@
 
 import './strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {CustomElement} from 'chrome://resources/js/custom_element.js';
-import {getFavicon} from 'chrome://resources/js/icon.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {isRTL} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {CustomElement} from 'decentr://resources/js/custom_element.js';
+import {getFavicon} from 'decentr://resources/js/icon.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {isRTL} from 'decentr://resources/js/util.m.js';
 
 import {AlertIndicatorsElement} from './alert_indicators.js';
 import {Tab, TabNetworkState} from './tab_strip.mojom-webui.js';

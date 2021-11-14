@@ -30,7 +30,7 @@ class ExtensionsContainer;
 class ExtensionsMenuItemView;
 
 // This bubble view displays a list of user extensions and a button to get to
-// managing the user's extensions (chrome://extensions).
+// managing the user's extensions (decentr://extensions).
 class ExtensionsMenuView : public views::BubbleDialogDelegateView,
                            public TabStripModelObserver,
                            public ToolbarActionsModel::Observer {

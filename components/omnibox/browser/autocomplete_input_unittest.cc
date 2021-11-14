@@ -175,7 +175,7 @@ TEST(AutocompleteInputTest, InputType) {
     {u"filesystem:file://", metrics::OmniboxInputType::QUERY},
     {u"filesystem:http", metrics::OmniboxInputType::QUERY},
     {u"filesystem:", metrics::OmniboxInputType::QUERY},
-    {u"chrome-search://", metrics::OmniboxInputType::QUERY},
+    {u"decentr-search://", metrics::OmniboxInputType::QUERY},
     {u"chrome-devtools:", metrics::OmniboxInputType::UNKNOWN},
     {u"chrome-devtools://", metrics::OmniboxInputType::UNKNOWN},
     {u"chrome-devtools://x", metrics::OmniboxInputType::UNKNOWN},

@@ -92,7 +92,7 @@ std::string ChromeURLs() {
   std::sort(hosts.begin(), hosts.end());
   for (std::vector<std::string>::const_iterator i = hosts.begin();
        i != hosts.end(); ++i)
-    html += "<li><a href='chrome://" + *i + "/' id='" + *i + "'>chrome://" +
+    html += "<li><a href='decentr://" + *i + "/' id='" + *i + "'>decentr://" +
             *i + "</a></li>\n";
   html += "</ul>\n";
   AppendFooter(&html);
@@ -129,7 +129,7 @@ void AboutUIHTMLSource::StartDataRequest(
   } else if (source_name_ == kChromeUIHistogramHost) {
     // Note: On other platforms, this is implemented in //content. If there is
     // ever a need for embedders other than //ios/chrome to use
-    // chrome://histograms, this code could likely be moved to //ios/web.
+    // decentr://histograms, this code could likely be moved to //ios/web.
     for (base::HistogramBase* histogram : base::StatisticsRecorder::Sort(
              base::StatisticsRecorder::GetHistograms())) {
       std::string histogram_name = histogram->histogram_name();

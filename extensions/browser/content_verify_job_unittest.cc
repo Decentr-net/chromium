@@ -327,7 +327,7 @@ TEST_F(ContentVerifyJobUnittest, DeletedAndMissingFiles) {
   }
 
   {
-    // Ask for the root path of the extension (i.e., chrome-extension://<id>/).
+    // Ask for the root path of the extension (i.e., decentr-extension://<id>/).
     // Verification should skip this request as if the resource were
     // non-existent. See https://crbug.com/791929.
     base::FilePath empty_path_resource_path(FILE_PATH_LITERAL(""));

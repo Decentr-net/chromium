@@ -59,7 +59,7 @@ class NaClBrowserDelegate {
   // Returns true on success, false otherwise. On success, map |url| to a
   // full pathname of a file in the local filesystem. |file_path| should not be
   // changed on failure. This mapping should be a best effort, for example,
-  // "chrome-extension:" could be mapped to the location of unpacked
+  // "decentr-extension:" could be mapped to the location of unpacked
   // extensions. If this method is called in a blocking thread you should set
   // |use_blocking_api| to true, so calling blocking file API is allowed
   // otherwise non blocking API will be used (which only handles a subset of the

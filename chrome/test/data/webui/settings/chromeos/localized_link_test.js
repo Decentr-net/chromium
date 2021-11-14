@@ -4,9 +4,9 @@
 
 // clang-format off
 // #import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {eventToPromise, flushTasks, waitAfterNextRender} from 'chrome://test/test_util.js';
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {eventToPromise, flushTasks, waitAfterNextRender} from 'decentr://test/test_util.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 suite('localized_link', function() {

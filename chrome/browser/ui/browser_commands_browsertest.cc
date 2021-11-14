@@ -45,7 +45,7 @@ class ReloadObserver : public content::WebContentsObserver {
 // Verify that all of selected tabs are refreshed after executing a reload
 // command. https://crbug.com/862102
 IN_PROC_BROWSER_TEST_F(BrowserCommandsTest, ReloadSelectedTabs) {
-  constexpr char kUrl[] = "chrome://version/";
+  constexpr char kUrl[] = "decentr://version/";
   constexpr int kTabCount = 3;
   std::vector<ReloadObserver> watcher_vec(kTabCount);
   for (int i = 0; i < kTabCount; i++) {
@@ -135,8 +135,8 @@ IN_PROC_BROWSER_TEST_F(BrowserCommandsTest, MoveToExistingWindow) {
 // since it needs to create a new browser window, which doesn't work with a
 // TestingProfile.
 IN_PROC_BROWSER_TEST_F(BrowserCommandsTest, MoveActiveTabToNewWindow) {
-  GURL url1("chrome://version");
-  GURL url2("chrome://about");
+  GURL url1("decentr://version");
+  GURL url2("decentr://about");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url1));
 
   // Should be disabled with 1 tab.
@@ -170,9 +170,9 @@ IN_PROC_BROWSER_TEST_F(BrowserCommandsTest, MoveActiveTabToNewWindow) {
 
 IN_PROC_BROWSER_TEST_F(BrowserCommandsTest,
                        MoveActiveTabToNewWindowMultipleSelection) {
-  GURL url1("chrome://version");
-  GURL url2("chrome://about");
-  GURL url3("chrome://terms");
+  GURL url1("decentr://version");
+  GURL url2("decentr://about");
+  GURL url3("decentr://terms");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url1));
   AddTabAtIndex(1, url2, ui::PAGE_TRANSITION_LINK);
   AddTabAtIndex(2, url3, ui::PAGE_TRANSITION_LINK);

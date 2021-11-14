@@ -39,7 +39,7 @@ namespace crostini {
 // is equal to GenerateId("Terminal").
 extern const char kCrostiniDeletedTerminalId[];
 // web_app::GenerateAppId(/*manifest_id=*/absl::nullopt,
-//     GURL("chrome-untrusted://terminal/html/terminal.html"))
+//     GURL("decentr-untrusted://terminal/html/terminal.html"))
 extern const char kCrostiniTerminalSystemAppId[];
 
 extern const char kCrostiniImageAliasPattern[];

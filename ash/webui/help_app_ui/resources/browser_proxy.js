@@ -31,7 +31,7 @@ const indexRemote = chromeos.localSearchService.mojom.Index.getRemote();
  */
 const searchHandlerRemote = ash.helpApp.mojom.SearchHandler.getRemote();
 
-const GUEST_ORIGIN = 'chrome-untrusted://help-app';
+const GUEST_ORIGIN = 'decentr-untrusted://help-app';
 const MAX_STRING_LEN = 9999;
 const guestFrame =
     /** @type {!HTMLIFrameElement} */ (document.createElement('iframe'));
@@ -70,7 +70,7 @@ const SUBHEADING_ID = 'subheading';
  * frame), not on this side.
  */
 const guestMessagePipe = new MessagePipe(
-    'chrome-untrusted://help-app', /*target=*/ undefined,
+    'decentr-untrusted://help-app', /*target=*/ undefined,
     /*rethrowErrors=*/ false);
 
 guestMessagePipe.registerHandler(Message.OPEN_FEEDBACK_DIALOG, () => {

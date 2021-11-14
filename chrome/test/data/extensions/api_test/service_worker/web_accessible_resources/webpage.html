@@ -16,7 +16,7 @@
       iframe.contentWindow.postMessage('ping', '*');
     };
 
-    iframe.src = 'chrome-extension://' + extensionId + '/' + iframeSrc;
+    iframe.src = 'decentr-extension://' + extensionId + '/' + iframeSrc;
     document.body.appendChild(iframe);
   };
 </script>

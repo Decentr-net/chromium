@@ -6,10 +6,10 @@ import './icons.js';
 import './emoji_group.js';
 import './emoji_group_button.js';
 import './emoji_search.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {afterNextRender, html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {afterNextRender, html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {EMOJI_GROUP_SIZE_PX, EMOJI_ICON_SIZE, EMOJI_PER_ROW, EMOJI_PICKER_HEIGHT_PX, EMOJI_PICKER_SIDE_PADDING_PX, EMOJI_PICKER_TOP_PADDING_PX, EMOJI_PICKER_TOTAL_EMOJI_WIDTH, EMOJI_PICKER_TOTAL_EMOJI_WIDTH_PX, EMOJI_PICKER_WIDTH_PX, EMOJI_SIZE_PX, EMOJI_SPACING_PX, GROUP_ICON_SIZE, GROUP_PER_ROW} from './constants.js';
 import {EmojiButton} from './emoji_button.js';

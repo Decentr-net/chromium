@@ -88,7 +88,7 @@ class SystemWebAppLinkCaptureBrowserTest
     incognito->window()->Show();
     return incognito;
   }
-  const GURL kInitiatingAppUrl = GURL("chrome://initiating-app/pwa.html");
+  const GURL kInitiatingAppUrl = GURL("decentr://initiating-app/pwa.html");
   const SystemAppType kInitiatingAppType = SystemAppType::SETTINGS;
 };
 

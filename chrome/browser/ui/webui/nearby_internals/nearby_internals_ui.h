@@ -7,7 +7,7 @@
 
 #include "ui/webui/mojo_web_ui_controller.h"
 
-// The WebUI controller for chrome://nearby-internals.
+// The WebUI controller for decentr://nearby-internals.
 class NearbyInternalsUI : public ui::MojoWebUIController {
  public:
   explicit NearbyInternalsUI(content::WebUI* web_ui);

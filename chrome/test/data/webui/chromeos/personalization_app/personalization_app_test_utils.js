@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview A set of utilities to help test the chrome://personalization
+ * @fileoverview A set of utilities to help test the decentr://personalization
  * SWA.
  */
 
-import {setWallpaperProviderForTesting} from 'chrome://personalization/trusted/mojo_interface_provider.js';
-import {emptyState, PersonalizationState} from 'chrome://personalization/trusted/personalization_reducers.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {setWallpaperProviderForTesting} from 'decentr://personalization/trusted/mojo_interface_provider.js';
+import {emptyState, PersonalizationState} from 'decentr://personalization/trusted/personalization_reducers.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';
 import {TestWallpaperProvider} from './test_mojo_interface_provider.js';

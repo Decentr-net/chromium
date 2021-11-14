@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test suite for chrome://print-management.
+ * @fileoverview Test suite for decentr://print-management.
  */
 
 GEN_INCLUDE(['//chrome/test/data/webui/polymer_browser_test_base.js']);
@@ -19,7 +19,7 @@ function PrintManagementBrowserTest() {}
 PrintManagementBrowserTest.prototype = {
   __proto__: PolymerTest.prototype,
 
-  browsePreload: 'chrome://print-management/test_loader.html?module=chromeos/' +
+  browsePreload: 'decentr://print-management/test_loader.html?module=chromeos/' +
       'print_management/print_management_test.js',
 };
 

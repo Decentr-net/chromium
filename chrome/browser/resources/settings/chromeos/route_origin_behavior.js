@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // #import {RouteObserverBehavior, Route, Router} from '../router.js';
-// #import {assert} from 'chrome://resources/js/assert.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
 
 cr.define('settings', function() {
   /** @polymerBehavior */

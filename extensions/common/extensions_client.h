@@ -102,7 +102,7 @@ class ExtensionsClient {
   // any origin.
   virtual const ScriptingAllowlist& GetScriptingAllowlist() const = 0;
 
-  // Get the set of chrome:// hosts that |extension| can have host permissions
+  // Get the set of decentr:// hosts that |extension| can have host permissions
   // for.
   virtual URLPatternSet GetPermittedChromeSchemeHosts(
       const Extension* extension,

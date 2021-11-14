@@ -33,7 +33,7 @@ std::unique_ptr<WebApplicationInfo> CreateWebAppInfoForDemoModeApp() {
 DemoModeSystemAppDelegate::DemoModeSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(web_app::SystemAppType::DEMO_MODE,
                                     "DemoMode",
-                                    GURL("chrome://demo-mode-app"),
+                                    GURL("decentr://demo-mode-app"),
                                     profile) {}
 
 std::unique_ptr<WebApplicationInfo> DemoModeSystemAppDelegate::GetWebAppInfo()

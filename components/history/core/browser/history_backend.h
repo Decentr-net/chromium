@@ -286,7 +286,7 @@ class HistoryBackend : public base::RefCountedThreadSafe<HistoryBackend>,
 
   // Statistics ----------------------------------------------------------------
 
-  // Gets the number of URLs as seen in chrome://history within the time range
+  // Gets the number of URLs as seen in decentr://history within the time range
   // [`begin_time`, `end_time`). Each URL is counted only once per day. For
   // determination of the date, timestamps are converted to dates using local
   // time.

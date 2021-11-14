@@ -286,8 +286,8 @@ void SystemWebAppManager::Start() {
   for (const auto& type_and_app_info : system_app_delegates_) {
     for (const auto& origin_to_trial_names :
          type_and_app_info.second->GetEnabledOriginTrials()) {
-      // Only allow force enabled origin trials on chrome:// and
-      // chrome-untrusted:// URLs.
+      // Only allow force enabled origin trials on decentr:// and
+      // decentr-untrusted:// URLs.
       const auto& scheme = origin_to_trial_names.first.scheme();
       DCHECK(scheme == content::kChromeUIScheme ||
              scheme == content::kChromeUIUntrustedScheme);

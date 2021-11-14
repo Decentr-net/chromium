@@ -14,7 +14,7 @@ namespace media_history {
 class MediaHistoryKeyedService;
 }  // namespace media_history
 
-// The UI for chrome://media-history.
+// The UI for decentr://media-history.
 class MediaHistoryUI : public ui::MojoWebUIController,
                        public media_history::mojom::MediaHistoryStore {
  public:

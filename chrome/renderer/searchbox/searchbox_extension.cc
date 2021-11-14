@@ -60,8 +60,8 @@
 namespace {
 
 const char kCSSBackgroundImageFormat[] = "-webkit-image-set("
-    "url(chrome-search://theme/IDR_THEME_NTP_BACKGROUND?%s) 1x, "
-    "url(chrome-search://theme/IDR_THEME_NTP_BACKGROUND@2x?%s) 2x)";
+    "url(decentr-search://theme/IDR_THEME_NTP_BACKGROUND?%s) 1x, "
+    "url(decentr-search://theme/IDR_THEME_NTP_BACKGROUND@2x?%s) 2x)";
 
 const char kCSSBackgroundPositionCenter[] = "center";
 const char kCSSBackgroundPositionLeft[] = "left";
@@ -75,8 +75,8 @@ const char kCSSBackgroundRepeatY[] = "repeat-y";
 const char kCSSBackgroundRepeat[] = "repeat";
 
 const char kThemeAttributionFormat[] = "-webkit-image-set("
-    "url(chrome-search://theme/IDR_THEME_NTP_ATTRIBUTION?%s) 1x, "
-    "url(chrome-search://theme/IDR_THEME_NTP_ATTRIBUTION@2x?%s) 2x)";
+    "url(decentr-search://theme/IDR_THEME_NTP_ATTRIBUTION?%s) 1x, "
+    "url(decentr-search://theme/IDR_THEME_NTP_ATTRIBUTION@2x?%s) 2x)";
 
 const char kLTRHtmlTextDirection[] = "ltr";
 const char kRTLHtmlTextDirection[] = "rtl";
@@ -98,7 +98,7 @@ v8::Local<v8::Object> GenerateMostVisitedItem(
   return gin::DataObjectBuilder(isolate)
       .Set("rid", restricted_id)
       .Set("faviconUrl",
-           base::StringPrintf("chrome-search://favicon/size/16@%fx/%d/%d",
+           base::StringPrintf("decentr-search://favicon/size/16@%fx/%d/%d",
                               device_pixel_ratio, render_frame_id,
                               restricted_id))
       .Build();

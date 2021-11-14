@@ -8,10 +8,10 @@
  * chrome.developerPrivate API.
  */
 
-import {navigation, Page, Service} from 'chrome://extensions/extensions.js';
+import {navigation, Page, Service} from 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {TestService} from './test_service.js';
 import {createExtensionInfo} from './test_util.js';
 

@@ -4,7 +4,7 @@
 
 module ash.media_app_ui.mojom;
 
-// Browser interface for chrome://media-app to bootstrap a connection.
+// Browser interface for decentr://media-app to bootstrap a connection.
 interface PageHandlerFactory {
   // Create a page handler which exposes interfaces implemented in the browser
   // process to the renderer process via |handler|.
@@ -12,7 +12,7 @@ interface PageHandlerFactory {
 };
 
 // An interface implemented in the browser process that is exposed to the
-// renderer process for chrome://media-app.
+// renderer process for decentr://media-app.
 interface PageHandler {
   // Opens the chrome feedback dialog.
   OpenFeedbackDialog() => (string? error_message);

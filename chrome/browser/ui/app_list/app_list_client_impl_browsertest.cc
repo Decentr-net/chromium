@@ -382,7 +382,7 @@ IN_PROC_BROWSER_TEST_F(AppListClientImplBrowserTest, OpenSearchResult) {
 #endif  // !BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
   const std::string app_result_id =
-      "chrome-extension://mgndgikekgjfcpckkfioiadnlibdjbkf/";
+      "decentr-extension://mgndgikekgjfcpckkfioiadnlibdjbkf/";
 
   // Search by title and the app must present in the results.
   model_updater->UpdateSearchBox(base::ASCIIToUTF16(app_title),

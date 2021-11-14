@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ImageOrientation} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/foreground/js/metadata/image_orientation.js';
-import {assertEquals} from 'chrome://test/chai_assert.js';
+import {ImageOrientation} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/foreground/js/metadata/image_orientation.js';
+import {assertEquals} from 'decentr://test/chai_assert.js';
 
 import {ImageLoaderUtil} from './image_loader_util.js';
 import {LoadImageRequest} from './load_image_request.js';

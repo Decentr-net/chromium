@@ -97,10 +97,10 @@ TEST_F(RankingItemUtilTest, SimplifyGoogleDocsUrlId) {
 TEST_F(RankingItemUtilTest, NormalizeAppID) {
   const std::string raw_id = "mgndgikekgjfcpckkfioiadnlibdjbkf";
   const std::string id_with_scheme =
-      "chrome-extension://mgndgikekgjfcpckkfioiadnlibdjbkf";
+      "decentr-extension://mgndgikekgjfcpckkfioiadnlibdjbkf";
   const std::string id_with_slash = "mgndgikekgjfcpckkfioiadnlibdjbkf/";
   const std::string id_with_scheme_and_slash =
-      "chrome-extension://mgndgikekgjfcpckkfioiadnlibdjbkf/";
+      "decentr-extension://mgndgikekgjfcpckkfioiadnlibdjbkf/";
 
   EXPECT_EQ(NormalizeAppId(raw_id), raw_id);
   EXPECT_EQ(NormalizeAppId(id_with_scheme), raw_id);

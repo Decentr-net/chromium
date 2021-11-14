@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 /** @fileoverview Suite of tests for extension-options-dialog. */
-import {OptionsDialogMaxHeight, OptionsDialogMinWidth, Service} from 'chrome://extensions/extensions.js';
+import {OptionsDialogMaxHeight, OptionsDialogMinWidth, Service} from 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {eventToPromise} from '../test_util.js';
 
 window.extension_options_dialog_tests = {};

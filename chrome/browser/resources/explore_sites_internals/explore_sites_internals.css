@@ -29,7 +29,7 @@ body {
 }
 
 .failed.throbber {
-  background: url(chrome://resources/images/error.svg);
+  background: url(decentr://resources/images/error.svg);
   background-size: contain;
 }
 

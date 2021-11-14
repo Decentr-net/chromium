@@ -1660,8 +1660,8 @@ TEST_F(ExternallyManagedAppManagerImplTest,
 
 TEST_F(ExternallyManagedAppManagerImplTest,
        DoNotRegisterServiceWorkerForLocalApps) {
-  GURL local_urls[] = {GURL("chrome://sample"),
-                       GURL("chrome-untrusted://sample")};
+  GURL local_urls[] = {GURL("decentr://sample"),
+                       GURL("decentr-untrusted://sample")};
 
   for (const auto& install_url : local_urls) {
     size_t prev_install_run_count = install_run_count();

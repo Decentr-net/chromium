@@ -417,7 +417,7 @@ TEST_F(PrefetchProxyPageLoadMetricsObserverTest, BeforeFCP_MaxUKM) {
 }
 
 TEST_F(PrefetchProxyPageLoadMetricsObserverTest, DontRecordForNonHttp) {
-  set_navigation_url(GURL("chrome://version"));
+  set_navigation_url(GURL("decentr://version"));
 
   StartTest();
 

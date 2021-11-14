@@ -42,7 +42,7 @@ IndexedDBInternalsUI::IndexedDBInternalsUI(WebUI* web_ui)
       WebUIDataSource::Create(kChromeUIIndexedDBInternalsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::TrustedTypes,
       "trusted-types jstemplate;");
@@ -275,7 +275,7 @@ void IndexedDBInternalsHandler::OnDownloadDataReady(
           description:
             "This is an internal Chrome webpage that displays debug "
             "information about IndexedDB usage and data, used by developers."
-          trigger: "When a user navigates to chrome://indexeddb-internals/."
+          trigger: "When a user navigates to decentr://indexeddb-internals/."
           data: "None."
           destination: LOCAL
         }

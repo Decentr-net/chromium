@@ -18,7 +18,7 @@ js_type_check("closure_compile") {
   is_polymer3 = true
   deps = [ ":cast_feedback_ui_test" ]
   closure_flags = default_closure_args + [
-                    "browser_resolver_prefix_replacements=\"chrome://cast-feedback/=../../chrome/browser/resources/media_router/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://cast-feedback/=../../chrome/browser/resources/media_router/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                   ]

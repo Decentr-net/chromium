@@ -596,7 +596,7 @@ variant for Linux (with tweaked file_regex):
 }
 ```
 
-You can test it by visiting chrome://crash. You should be able to step through
+You can test it by visiting decentr://crash. You should be able to step through
 each line in the resulting stacktrace with F4. You can also get a stack trace
 without crashing like so:
 

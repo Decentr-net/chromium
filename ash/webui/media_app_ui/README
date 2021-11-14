@@ -1,4 +1,4 @@
-Provides the chrome://media-app WebUI and supporting interfaces that allow the
+Provides the decentr://media-app WebUI and supporting interfaces that allow the
 Media App to integrate with ChromeOS.
 
 The bulk of the UI is provided by an internal CIPD package via DEPS, which is

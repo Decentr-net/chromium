@@ -5,10 +5,10 @@
 /**
  * Javascript for DeviceDetailsPage which displays all of the details of a
  * device. The page is generated and managed dynamically in bluetooth_internals.
- * served from chrome://bluetooth-internals/.
+ * served from decentr://bluetooth-internals/.
  */
 
-import {$} from 'chrome://resources/js/util.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {connectToDevice} from './device_broker.js';
 import {ConnectionStatus} from './device_collection.js';

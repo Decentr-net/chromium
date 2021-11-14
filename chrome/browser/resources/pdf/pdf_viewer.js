@@ -9,13 +9,13 @@ import './elements/viewer-password-dialog.js';
 import './elements/viewer-properties-dialog.js';
 import './elements/shared-vars.js';
 import './pdf_viewer_shared_style.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {hasKeyModifiers, listenOnce} from 'chrome://resources/js/util.m.js';
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {hasKeyModifiers, listenOnce} from 'decentr://resources/js/util.m.js';
+import {html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Bookmark} from './bookmark_type.js';
 import {BrowserApi} from './browser_api.js';

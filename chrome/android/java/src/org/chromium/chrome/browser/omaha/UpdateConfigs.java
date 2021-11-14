@@ -152,7 +152,7 @@ public class UpdateConfigs {
             case INLINE_UPDATE_DOWNLOAD_FAILED_SWITCH_VALUE: // Intentional fallthrough.
             case INLINE_UPDATE_DOWNLOAD_CANCELED_SWITCH_VALUE: // Intentional fallthrough.
             case INLINE_UPDATE_INSTALL_FAILED_SWITCH_VALUE:
-                // The chrome://flags configuration refers to how the inline update flow should end,
+                // The decentr://flags configuration refers to how the inline update flow should end,
                 // but we will always start at the beginning of the flow.
                 return UpdateState.INLINE_UPDATE_AVAILABLE;
             default:

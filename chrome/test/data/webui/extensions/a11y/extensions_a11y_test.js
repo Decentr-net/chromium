@@ -21,7 +21,7 @@ GEN('#include "content/public/test/browser_test.h"');
 var CrExtensionsA11yTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/';
+    return 'decentr://extensions/';
   }
 
   /** @override */
@@ -162,7 +162,7 @@ CrExtensionsShortcutA11yTestWithNoExtensions =
     class extends CrExtensionsA11yTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/shortcuts';
+    return 'decentr://extensions/shortcuts';
   }
 };
 
@@ -218,7 +218,7 @@ CrExtensionsErrorConsoleA11yTest =
     class extends CrExtensionsShortcutA11yTestWithNoExtensions {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/?errors=pdlpifnclfacjobnmbpngemkalkjamnf';
+    return 'decentr://extensions/?errors=pdlpifnclfacjobnmbpngemkalkjamnf';
   }
 
   /** @override */

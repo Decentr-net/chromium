@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Tests for chrome://bluetooth-internals
+ * @fileoverview Tests for decentr://bluetooth-internals
  */
 
 GEN('#include "content/public/test/browser_test.h"');
@@ -20,7 +20,7 @@ BluetoothInternalsTest.prototype = {
 
   /** @override */
   browsePreload:
-      'chrome://bluetooth-internals/bluetooth_internals.html?module=bluetooth_internals/bluetooth_internals_test.js',
+      'decentr://bluetooth-internals/bluetooth_internals.html?module=bluetooth_internals/bluetooth_internals_test.js',
 
   /** @override */
   isAsync: true,

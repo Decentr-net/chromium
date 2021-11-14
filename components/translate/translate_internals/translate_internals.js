@@ -3,16 +3,16 @@
 // found in the LICENSE file.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
 import './strings.m.js';
 
-import {addWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {TabBox} from 'chrome://resources/js/cr/ui/tabs.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {TabBox} from 'decentr://resources/js/cr/ui/tabs.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 const detectionLogs = [];
 

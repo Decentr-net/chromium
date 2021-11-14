@@ -4,8 +4,8 @@
 
 /** @fileoverview Suite of tests for the ListPropertyUpdateBehavior.  */
 
-import {ListPropertyUpdateBehavior, updateListProperty} from 'chrome://resources/js/list_property_update_behavior.m.js';
-import {Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ListPropertyUpdateBehavior, updateListProperty} from 'decentr://resources/js/list_property_update_behavior.m.js';
+import {Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 suite('ListPropertyUpdateBehavior', function() {
   /**

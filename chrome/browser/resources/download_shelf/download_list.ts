@@ -8,8 +8,8 @@
 
 import './download_item.js';
 
-import {CustomElement} from 'chrome://resources/js/custom_element.js';
-import {listenOnce} from 'chrome://resources/js/util.m.js';
+import {CustomElement} from 'decentr://resources/js/custom_element.js';
+import {listenOnce} from 'decentr://resources/js/util.m.js';
 
 import {DownloadItemElement} from './download_item.js';
 import {DownloadItem} from './download_shelf.mojom-webui.js';

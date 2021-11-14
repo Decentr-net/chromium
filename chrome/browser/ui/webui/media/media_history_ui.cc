@@ -22,7 +22,7 @@
 
 MediaHistoryUI::MediaHistoryUI(content::WebUI* web_ui)
     : ui::MojoWebUIController(web_ui) {
-  // Setup the data source behind chrome://media-history.
+  // Setup the data source behind decentr://media-history.
   std::unique_ptr<content::WebUIDataSource> source(
       content::WebUIDataSource::Create(chrome::kChromeUIMediaHistoryHost));
   source->AddResourcePath("media_data_table.js", IDR_MEDIA_DATA_TABLE_JS);

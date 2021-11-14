@@ -251,10 +251,10 @@ public class ExternalNavigationHandlerTest {
 
         // http://crbug.com/159153: Don't override http or https URLs from the NTP or bookmarks.
         checkUrl(YOUTUBE_URL)
-                .withReferrer("chrome://about")
+                .withReferrer("decentr://about")
                 .expecting(OverrideUrlLoadingResultType.NO_OVERRIDE, IGNORE);
         checkUrl("tel:012345678")
-                .withReferrer("chrome://about")
+                .withReferrer("decentr://about")
                 .expecting(OverrideUrlLoadingResultType.OVERRIDE_WITH_EXTERNAL_INTENT,
                         START_OTHER_ACTIVITY);
     }
@@ -380,7 +380,7 @@ public class ExternalNavigationHandlerTest {
         // Ensure the following URLs are not broadcast for external navigation.
         String urlsToIgnore[] = new String[] {"about:test",
                 "content:test", // Content URLs should not be exposed outside of Chrome.
-                "chrome://history", "chrome-native://newtab", "devtools://foo",
+                "decentr://history", "chrome-native://newtab", "devtools://foo",
                 "intent:chrome-urls#Intent;package=com.android.chrome;scheme=about;end;",
                 "intent:chrome-urls#Intent;package=com.android.chrome;scheme=chrome;end;",
                 "intent://com.android.chrome.FileProvider/foo.html#Intent;scheme=content;end;",

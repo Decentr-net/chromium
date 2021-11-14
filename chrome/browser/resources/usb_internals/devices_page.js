@@ -4,15 +4,15 @@
 
 /**
  * Javascript for DevicesPage, served from
- *     chrome://usb-internals/.
+ *     decentr://usb-internals/.
  */
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Tab, TabPanel} from 'chrome://resources/js/cr/ui/tabs.js';
-import {Tree, TreeItem} from 'chrome://resources/js/cr/ui/tree.js';
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
-import {String16} from 'chrome://resources/mojo/mojo/public/mojom/base/string16.mojom-webui.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Tab, TabPanel} from 'decentr://resources/js/cr/ui/tabs.js';
+import {Tree, TreeItem} from 'decentr://resources/js/cr/ui/tree.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
+import {String16} from 'decentr://resources/mojo/mojo/public/mojom/base/string16.mojom-webui.js';
 
 import {DescriptorPanel, renderClassCodeWithDescription} from './descriptor_panel.js';
 

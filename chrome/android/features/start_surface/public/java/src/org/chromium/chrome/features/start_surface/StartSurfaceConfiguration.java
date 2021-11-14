@@ -246,7 +246,7 @@ public class StartSurfaceConfiguration {
     }
 
     /**
-     * @return Whether the given tab should be treated as chrome://newTab. This function returns
+     * @return Whether the given tab should be treated as decentr://newTab. This function returns
      *         true only when {@link OMNIBOX_FOCUSED_ON_NEW_TAB} is enabled, the tab is newly
      *         created from the new Tab menu or "+" button, and it hasn't navigate to any URL yet.
      */

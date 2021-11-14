@@ -365,7 +365,7 @@ TEST_F(PlatformNotificationServiceTest, DisplayNameForContextMessage) {
   EXPECT_TRUE(registry->AddEnabled(extension));
 
   display_name = service()->DisplayNameForContextMessage(
-      GURL("chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html"));
+      GURL("decentr-extension://honijodknafkokifofgiaalefdiedpko/main.html"));
   EXPECT_EQ("NotificationTest", base::UTF16ToUTF8(display_name));
 }
 
@@ -397,7 +397,7 @@ TEST_F(PlatformNotificationServiceTest, CreateNotificationFromData) {
   EXPECT_TRUE(registry->AddEnabled(extension));
 
   notification = service()->CreateNotificationFromData(
-      GURL("chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html"),
+      GURL("decentr-extension://honijodknafkokifofgiaalefdiedpko/main.html"),
       "id", notification_data, NotificationResources(),
       /*web_app_hint_url=*/GURL());
   EXPECT_EQ("NotificationTest",

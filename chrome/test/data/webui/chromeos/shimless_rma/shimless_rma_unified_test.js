@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 
 import {fakeShimlessRmaServiceTestSuite} from './fake_shimless_rma_service_test.js';
 import {onboardingChooseDestinationPageTest} from './onboarding_choose_destination_page_test.js';

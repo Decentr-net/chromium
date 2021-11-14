@@ -358,7 +358,7 @@ bool IsValidJSValue(const std::string* str) {
 
 AccessibilityUI::AccessibilityUI(content::WebUI* web_ui)
     : WebUIController(web_ui) {
-  // Set up the chrome://accessibility source.
+  // Set up the decentr://accessibility source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIAccessibilityHost);
 

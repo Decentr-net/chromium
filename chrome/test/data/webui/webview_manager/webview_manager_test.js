@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {WebviewManager} from 'chrome://resources/js/webview_manager.js';
+import {WebviewManager} from 'decentr://resources/js/webview_manager.js';
 
 // The actual URL doesn't matter since we are configuring the behavior that
 // occurs before the request starts.
-const TARGET_URL = 'chrome://about';
+const TARGET_URL = 'decentr://about';
 
 suite('WebviewManagerTest', function() {
   suiteSetup(function() {
@@ -42,7 +42,7 @@ suite('WebviewManagerTest', function() {
     }, {urls: ['<all_urls>']}, ['requestHeaders']);
 
     // URL is not the TARGET_URL, so no token should be sent
-    this.webview.src = 'chrome://version';
+    this.webview.src = 'decentr://version';
   });
 
 

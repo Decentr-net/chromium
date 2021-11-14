@@ -299,7 +299,7 @@ bool WaitForOmniboxContaining(std::string text) {
   [ChromeEarlGrey waitForWebStateContainingText:kPageOneContent];
 
   // Load chrome url
-  const GURL chromePage = GURL("chrome://chrome-urls");
+  const GURL chromePage = GURL("decentr://chrome-urls");
   [ChromeEarlGrey loadURL:chromePage];
 
   // Load error page.
@@ -352,14 +352,14 @@ bool WaitForOmniboxContaining(std::string text) {
 
   // Go back to chrome url.
   [[EarlGrey selectElementWithMatcher:BackButton()] performAction:grey_tap()];
-  GREYAssert(WaitForOmniboxContaining("chrome://chrome-urls"),
+  GREYAssert(WaitForOmniboxContaining("decentr://chrome-urls"),
              @"Timeout while waiting for  omnibox text to become "
-             @"\"chrome://chrome-urls\".");
+             @"\"decentr://chrome-urls\".");
   [ChromeEarlGrey waitForWebStateContainingText:"List of Chrome"];
   [self triggerRestore];
-  GREYAssert(WaitForOmniboxContaining("chrome://chrome-urls"),
+  GREYAssert(WaitForOmniboxContaining("decentr://chrome-urls"),
              @"Timeout while waiting for  omnibox text to become "
-             @"\"chrome://chrome-urls\".");
+             @"\"decentr://chrome-urls\".");
   [ChromeEarlGrey waitForWebStateContainingText:"List of Chrome"];
 
   // Go back to page1 and confirm page2 is still in the forward history.

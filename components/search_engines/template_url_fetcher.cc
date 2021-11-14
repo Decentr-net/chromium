@@ -41,7 +41,7 @@ const net::NetworkTrafficAnnotationTag kTrafficAnnotation =
           "Web pages can include an OpenSearch description doc in their HTML. "
           "In this case Chromium downloads and parses the file. The "
           "corresponding search engine is added to the list in the browser "
-          "settings (chrome://settings/searchEngines)."
+          "settings (decentr://settings/searchEngines)."
         trigger:
           "User visits a web page containing a <link rel=\"search\"> tag."
         data: "None"

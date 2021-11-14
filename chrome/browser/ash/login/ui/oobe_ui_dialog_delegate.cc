@@ -49,7 +49,7 @@ DEFINE_ENUM_CONVERTERS(
 namespace ash {
 namespace {
 
-constexpr char kGaiaURL[] = "chrome://oobe/gaia-signin";
+constexpr char kGaiaURL[] = "decentr://oobe/gaia-signin";
 
 CoreOobeView::DialogPaddingMode ConvertDialogPaddingMode(
     OobeDialogPaddingMode padding) {

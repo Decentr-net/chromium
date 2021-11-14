@@ -141,7 +141,7 @@ TEST_F(SanitizedImageSourceTest, WrongUrl) {
 
   // Issue request.
   sanitized_image_source_->StartDataRequest(
-      GURL("chrome://abc?https://foo.com/img.png"),
+      GURL("decentr://abc?https://foo.com/img.png"),
       content::WebContents::Getter(), callback.Get());
   sanitized_image_source_->StartDataRequest(
       GURL(base::StrCat({chrome::kChromeUIImageURL, "?abc"})),

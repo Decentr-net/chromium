@@ -50,7 +50,7 @@ Custom APIs can be written by the SWA owner, and exposed through Mojo. These are
 Custom APIs can also be exposed through PostMessage. This method is to be used when an SWA processes untrusted data.
 
 ## Untrusted Data
-Untrusted data, meaning content from untrustworthy sources (e.g network data, user data loaded from the disk), is ok to process in SWAs. It requires sandboxing into a frame in the chrome-untrusted:// scheme.
+Untrusted data, meaning content from untrustworthy sources (e.g network data, user data loaded from the disk), is ok to process in SWAs. It requires sandboxing into a frame in the decentr-untrusted:// scheme.
 ## Background Runtime
 System web apps provide a timed background processing functionality, and Shared Workers. It's possible to communicate between windows or with the background task with Shared Workers. The background page is opened on a timer or at login.
 

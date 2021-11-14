@@ -12,8 +12,8 @@ namespace remoting {
 // remoting/host/it2me/com.google.chrome.remote_assistance.json.jinja2
 // to keep the two lists in sync.
 const char* const kIt2MeOrigins[] = {
-    "chrome-extension://inomeogfingihgjfjlpeplalcfajhgai/",
-    "chrome-extension://hpodccmdligbeohchckkeajbfohibipg/"};
+    "decentr-extension://inomeogfingihgjfjlpeplalcfajhgai/",
+    "decentr-extension://hpodccmdligbeohchckkeajbfohibipg/"};
 
 const size_t kIt2MeOriginsSize = base::size(kIt2MeOrigins);
 

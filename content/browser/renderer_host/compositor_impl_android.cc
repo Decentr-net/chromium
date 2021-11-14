@@ -179,7 +179,7 @@ void CreateContextProviderAfterGpuChannelEstablished(
       base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
           std::move(gpu_channel_host), factory->GetGpuMemoryBufferManager(),
           stream_id, stream_priority, handle,
-          GURL(std::string("chrome://gpu/Compositor::CreateContextProvider")),
+          GURL(std::string("decentr://gpu/Compositor::CreateContextProvider")),
           automatic_flushes, support_locking, support_grcontext,
           shared_memory_limits, attributes,
           viz::command_buffer_metrics::ContextType::UNKNOWN);
@@ -630,7 +630,7 @@ void CompositorImpl::OnGpuChannelEstablished(
       base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
           std::move(gpu_channel_host), factory->GetGpuMemoryBufferManager(),
           stream_id, stream_priority, gpu::kNullSurfaceHandle,
-          GURL(std::string("chrome://gpu/CompositorImpl::") +
+          GURL(std::string("decentr://gpu/CompositorImpl::") +
                std::string("CompositorContextProvider")),
           automatic_flushes, support_locking, support_grcontext,
           GetCompositorContextSharedMemoryLimits(root_window_),

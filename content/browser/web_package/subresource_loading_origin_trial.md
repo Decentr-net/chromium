@@ -115,7 +115,7 @@ Chrome M89 will show `ExternalProtocolDialog` for a iframe loading with
 # How to try this feature locally
 
 Enable _Experimental Web Platform Features_ flag
-([chrome://flags/#enable-experimental-web-platform-features](chrome://flags/#enable-experimental-web-platform-features)).
+([decentr://flags/#enable-experimental-web-platform-features](decentr://flags/#enable-experimental-web-platform-features)).
 Note that an earlier version of Chrome might not support this feature.
 
 [chrome status]: https://www.chromestatus.com/feature/5710618575241216

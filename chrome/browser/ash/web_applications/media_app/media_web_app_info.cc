@@ -82,10 +82,10 @@ MediaSystemAppDelegate::MediaSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(
           web_app::SystemAppType::MEDIA,
           "Media",
-          GURL("chrome://media-app/pwa.html"),
+          GURL("decentr://media-app/pwa.html"),
           profile,
           web_app::OriginTrialsMap(
-              {{web_app::GetOrigin("chrome://media-app"), {"FileHandling"}}})) {
+              {{web_app::GetOrigin("decentr://media-app"), {"FileHandling"}}})) {
 }
 
 std::unique_ptr<WebApplicationInfo> CreateWebAppInfoForMediaWebApp() {

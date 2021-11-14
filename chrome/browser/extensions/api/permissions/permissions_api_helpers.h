@@ -59,7 +59,7 @@ struct UnpackPermissionSetResult {
   //     URLPattern::SCHEME_FILE as a valid scheme.
   //   * file:///* will be included in restricted_file_scheme_patterns, because
   //     it is restricted and cannot be granted without explicit access from the
-  //     chrome://extensions page.
+  //     decentr://extensions page.
   // - If the extension *has* file access:
   //   * <all_urls> will be unpacked normally, and will include
   //     URLPattern::SCHEME_FILE as a valid scheme.

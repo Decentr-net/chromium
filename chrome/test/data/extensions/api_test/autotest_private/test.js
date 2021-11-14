@@ -1434,7 +1434,7 @@ var systemWebAppsTests = [
       chrome.test.callbackPass(apps => {
         chrome.test.assertEq(1, apps.length)
         chrome.test.assertEq('OSSettings', apps[0].internalName);
-        chrome.test.assertEq('chrome://test-system-app/', apps[0].url);
+        chrome.test.assertEq('decentr://test-system-app/', apps[0].url);
       })
     );
   },
@@ -1450,7 +1450,7 @@ var systemWebAppsTests = [
 
           // Open test app and verify the state should be open.
           chrome.autotestPrivate.launchSystemWebApp(
-              'OSSettings', 'chrome://test-system-app/',
+              'OSSettings', 'decentr://test-system-app/',
               chrome.test.callbackPass(() => {
                 chrome.autotestPrivate.isSystemWebAppOpen(
                     'maphiehpiinjgiaepbljmopkodkadcbh',

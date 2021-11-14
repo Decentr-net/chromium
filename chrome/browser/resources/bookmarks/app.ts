@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_components/managed_footnote/managed_footnote.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast_manager.js';
-import 'chrome://resources/cr_elements/cr_splitter/cr_splitter.js';
+import 'decentr://resources/cr_components/managed_footnote/managed_footnote.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast_manager.js';
+import 'decentr://resources/cr_elements/cr_splitter/cr_splitter.js';
 import './folder_node.js';
 import './list.js';
 import './router.js';
@@ -16,12 +16,12 @@ import './strings.m.js';
 import './command_manager.js';
 import './toolbar.js';
 
-import {CrSplitterElement} from 'chrome://resources/cr_elements/cr_splitter/cr_splitter.js';
-import {FindShortcutBehavior} from 'chrome://resources/cr_elements/find_shortcut_behavior.js';
-import {StoreObserver} from 'chrome://resources/js/cr/ui/store.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrSplitterElement} from 'decentr://resources/cr_elements/cr_splitter/cr_splitter.js';
+import {FindShortcutBehavior} from 'decentr://resources/cr_elements/find_shortcut_behavior.js';
+import {StoreObserver} from 'decentr://resources/js/cr/ui/store.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {setSearchResults} from './actions.js';
 import {destroy as destroyApiListener, init as initApiListener} from './api_listener.js';
@@ -33,7 +33,7 @@ import {BookmarksStoreClientInterface, StoreClient} from './store_client.js';
 import {BookmarksToolbarElement} from './toolbar.js';
 import {BookmarksPageState, FolderOpenState} from './types.js';
 import {createEmptyState, normalizeNodes} from './util.js';
-import {IronScrollTargetBehavior} from 'chrome://resources/polymer/v3_0/iron-scroll-target-behavior/iron-scroll-target-behavior.js';
+import {IronScrollTargetBehavior} from 'decentr://resources/polymer/v3_0/iron-scroll-target-behavior/iron-scroll-target-behavior.js';
 
 const BookmarksAppElementBase =
     mixinBehaviors(

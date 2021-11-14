@@ -20,7 +20,7 @@ CONTENT_EXPORT bool IsSavableURL(const GURL& url);
 
 // Helper function to determine if the navigation to |url| should make a request
 // to the network stack. A request should not be sent for JavaScript URLs, or
-// about:srcdoc, or chrome://crash. In these cases, no request needs to be sent.
+// about:srcdoc, or decentr://crash. In these cases, no request needs to be sent.
 //
 // See also `network::IsURLHandledByNetworkService` which answers if a request
 // is handled by a URLLoaderFactory returned by

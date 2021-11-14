@@ -94,7 +94,7 @@ UkmInternalsUI::UkmInternalsUI(WebUI* web_ui) : WebUIController(web_ui) {
   ukm::UkmService* ukm_service = GetContentClient()->browser()->GetUkmService();
   web_ui->AddMessageHandler(std::make_unique<UkmMessageHandler>(ukm_service));
 
-  // Set up the chrome://ukm/ source.
+  // Set up the decentr://ukm/ source.
   BrowserContext* browser_context =
       web_ui->GetWebContents()->GetBrowserContext();
   WebUIDataSource::Add(browser_context, CreateUkmHTMLSource());

@@ -11,7 +11,7 @@
 
 namespace web {
 
-// A DataSource for chrome://resources/ URLs.
+// A DataSource for decentr://resources/ URLs.
 class SharedResourcesDataSourceIOS : public URLDataSourceIOS {
  public:
   SharedResourcesDataSourceIOS();

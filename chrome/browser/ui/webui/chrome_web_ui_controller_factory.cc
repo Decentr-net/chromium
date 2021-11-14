@@ -507,7 +507,7 @@ void BindMultiDeviceSetup(
     service->BindMultiDeviceSetup(std::move(receiver));
 }
 
-// Special case for chrome://proximity_auth.
+// Special case for decentr://proximity_auth.
 template <>
 WebUIController* NewWebUI<chromeos::multidevice::ProximityAuthUI>(
     WebUI* web_ui,
@@ -586,7 +586,7 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
   if (!content::HasWebUIScheme(url))
     return nullptr;
 
-  // This factory doesn't support chrome-untrusted:// WebUIs.
+  // This factory doesn't support decentr-untrusted:// WebUIs.
   if (url.SchemeIs(content::kChromeUIUntrustedScheme))
     return nullptr;
 
@@ -985,7 +985,7 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
       return nullptr;
     return &NewWebUI<DevToolsUI>;
   }
-  // chrome://inspect isn't supported on Android nor iOS. Page debugging is
+  // decentr://inspect isn't supported on Android nor iOS. Page debugging is
   // handled by a remote devtools on the host machine, and other elements, i.e.
   // extensions aren't supported.
   if (url.host_piece() == chrome::kChromeUIInspectHost)
@@ -1046,7 +1046,7 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
     if (profile->GetPrefs()->GetBoolean(prefs::kPrintPreviewDisabled))
       return nullptr;
     // Filter out iframes that just display the preview PDF. Ideally, this would
-    // filter out anything other than chrome://print/, but that does not work
+    // filter out anything other than decentr://print/, but that does not work
     // for PrintPreviewUI tests that inject test_loader.html.
     if (url.path() == "/pdf/index.html")
       return nullptr;

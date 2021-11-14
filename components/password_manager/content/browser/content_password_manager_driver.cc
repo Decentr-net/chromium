@@ -350,8 +350,8 @@ void ContentPasswordManagerDriver::RecordSavePasswordProgress(
   if (!password_manager::bad_message::CheckFrameNotPrerendering(
           render_frame_host_))
     return;
-  // Skip messages from chrome:// URLs as they are just noise for
-  // chrome://password-manager-internals based debugging.
+  // Skip messages from decentr:// URLs as they are just noise for
+  // decentr://password-manager-internals based debugging.
   if (GetLastCommittedURL().SchemeIs(content::kChromeUIScheme))
     return;
   client_->GetLogManager()->LogTextMessage(log);

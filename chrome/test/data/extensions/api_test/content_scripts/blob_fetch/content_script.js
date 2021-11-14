@@ -9,7 +9,7 @@ function doSendMessage(message) {
 }
 
 // This is the content script part of testBlobUrlFromContentScript(). We ask the
-// background page to generate a blob:chrome-extension:// URL, then fetch() it
+// background page to generate a blob:decentr-extension:// URL, then fetch() it
 // here in the content script, and pass the response back to the background
 // page, which passes the test if we were able to successfully fetch the blob.
 doSendMessage('kindly_reply_with_blob_url')

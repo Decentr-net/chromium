@@ -1366,7 +1366,7 @@ TEST_F(SQLitePersistentCookieStoreTest, KeyInconsistency) {
   // Regression testcase for previous disagreement between CookieMonster
   // and SQLitePersistentCookieStoreTest as to what keys to LoadCookiesForKey
   // mean. The particular example doesn't, of course, represent an actual in-use
-  // scenario, but while the inconstancy could happen with chrome-extension
+  // scenario, but while the inconstancy could happen with decentr-extension
   // URLs in real life, it was irrelevant for them in practice since their
   // rows would get key = "" which would get sorted before actual domains,
   // and therefore get loaded first by CookieMonster::FetchAllCookiesIfNecessary

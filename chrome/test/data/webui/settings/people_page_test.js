@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://settings/lazy_load.js';
+import 'decentr://settings/lazy_load.js';
 
-import {isChromeOS, webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {listenOnce} from 'chrome://resources/js/util.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {pageVisibility, ProfileInfoBrowserProxyImpl, Router, routes, StatusAction, SyncBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {simulateStoredAccounts, simulateSyncStatus} from 'chrome://test/settings/sync_test_util.js';
-import {TestProfileInfoBrowserProxy} from 'chrome://test/settings/test_profile_info_browser_proxy.js';
-import {TestSyncBrowserProxy} from 'chrome://test/settings/test_sync_browser_proxy.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {flushTasks, waitBeforeNextRender} from 'chrome://test/test_util.js';
+import {isChromeOS, webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {listenOnce} from 'decentr://resources/js/util.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {pageVisibility, ProfileInfoBrowserProxyImpl, Router, routes, StatusAction, SyncBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {simulateStoredAccounts, simulateSyncStatus} from 'decentr://test/settings/sync_test_util.js';
+import {TestProfileInfoBrowserProxy} from 'decentr://test/settings/test_profile_info_browser_proxy.js';
+import {TestSyncBrowserProxy} from 'decentr://test/settings/test_sync_browser_proxy.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {flushTasks, waitBeforeNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 /** @implements {settings.PeopleBrowserProxy} */
@@ -252,7 +252,7 @@ if (!isChromeOS) {
     });
 
     test('SignOutNavigationNormalProfile', async function() {
-      // Navigate to chrome://settings/signOut
+      // Navigate to decentr://settings/signOut
       Router.getInstance().navigateTo(routes.SIGN_OUT);
 
       await flushTasks();
@@ -324,7 +324,7 @@ if (!isChromeOS) {
     });
 
     test('getProfileStatsCount', async function() {
-      // Navigate to chrome://settings/signOut
+      // Navigate to decentr://settings/signOut
       Router.getInstance().navigateTo(routes.SIGN_OUT);
 
       await flushTasks();
@@ -362,7 +362,7 @@ if (!isChromeOS) {
     });
 
     test('NavigateDirectlyToSignOutURL', async function() {
-      // Navigate to chrome://settings/signOut
+      // Navigate to decentr://settings/signOut
       Router.getInstance().navigateTo(routes.SIGN_OUT);
 
       await flushTasks();
@@ -372,7 +372,7 @@ if (!isChromeOS) {
       await profileInfoBrowserProxy.whenCalled('getProfileStatsCount');
       // 'getProfileStatsCount' can be the first message sent to the
       // handler if the user navigates directly to
-      // chrome://settings/signOut. if so, it should not cause a crash.
+      // decentr://settings/signOut. if so, it should not cause a crash.
       new ProfileInfoBrowserProxyImpl().getProfileStatsCount();
 
       // Close the disconnect dialog.

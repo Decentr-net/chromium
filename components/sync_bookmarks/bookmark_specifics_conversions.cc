@@ -119,7 +119,7 @@ void SetBookmarkFaviconFromSpecifics(
   LogFaviconContainedInSpecifics(true);
 
   if (icon_url.is_empty()) {
-    // WebUI pages such as "chrome://bookmarks/" are missing a favicon URL but
+    // WebUI pages such as "decentr://bookmarks/" are missing a favicon URL but
     // they have a favicon. In addition, ancient clients (prior to M25) may not
     // be syncing the favicon URL. If the icon URL is not synced, use the page
     // URL as a fake icon URL as it is guaranteed to be unique.

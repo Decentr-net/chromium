@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {LanguagesBrowserProxyImpl, LanguagesMetricsProxyImpl, LanguagesPageInteraction, InputsShortcutReminderState} from 'chrome://os-settings/chromeos/lazy_load.js';
-// #import {CrSettingsPrefs, Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {LanguagesBrowserProxyImpl, LanguagesMetricsProxyImpl, LanguagesPageInteraction, InputsShortcutReminderState} from 'decentr://os-settings/chromeos/lazy_load.js';
+// #import {CrSettingsPrefs, Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {getFakeLanguagePrefs} from './fake_language_settings_private.js'
 // #import {FakeSettingsPrivate} from '../fake_settings_private.js';
 // #import {TestLanguagesBrowserProxy} from './test_os_languages_browser_proxy.m.js';
 // #import {TestLanguagesMetricsProxy} from './test_os_languages_metrics_proxy.m.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 // #import {fakeDataBind} from '../../test_util.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-// #import {isVisible, waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+// #import {isVisible, waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 suite('input page', () => {
@@ -181,7 +181,7 @@ suite('input page', () => {
       const router = settings.Router.getInstance();
       assertEquals(
           router.getCurrentRoute().getAbsolutePath(),
-          'chrome://os-settings/osLanguages/inputMethodOptions');
+          'decentr://os-settings/osLanguages/inputMethodOptions');
       assertEquals(
           router.getQueryParameters().get('id'),
           '_comp_ime_jkghodnilhceideoidjikpgommlajknkxkb:us::eng');
@@ -878,7 +878,7 @@ suite('input page', () => {
       const router = settings.Router.getInstance();
       assertEquals(
           router.getCurrentRoute().getAbsolutePath(),
-          'chrome://os-settings/osLanguages/editDictionary');
+          'decentr://os-settings/osLanguages/editDictionary');
     });
   });
 
@@ -1248,7 +1248,7 @@ suite('input page', () => {
       const router = settings.Router.getInstance();
       assertEquals(
           router.getCurrentRoute().getAbsolutePath(),
-          'chrome://os-settings/osLanguages/editDictionary');
+          'decentr://os-settings/osLanguages/editDictionary');
     });
   });
 

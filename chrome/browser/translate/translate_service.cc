@@ -135,7 +135,7 @@ bool TranslateService::IsTranslatableURL(const GURL& url) {
   // A URL is translatable unless it is one of the following:
   // - empty (can happen for popups created with window.open(""))
   // - an internal URL:
-  //   - chrome:// and chrome-native:// for all platforms
+  //   - decentr:// and chrome-native:// for all platforms
   // - the devtools (which is considered UI)
   // - about:blank
   // - Chrome OS file manager extension

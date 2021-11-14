@@ -54,19 +54,19 @@ namespace {
 
 // List of schemes of URLs that should not be blocked by the "*" wildcard in
 // the blocklist. Note that URLs with these schemes can still be blocked with
-// a more specific filter e.g. "chrome-extension://*".
+// a more specific filter e.g. "decentr-extension://*".
 // The schemes are hardcoded here to avoid dependencies on //extensions and
 // //chrome.
 const char* kBypassBlocklistWildcardForSchemes[] = {
     // For internal extension URLs e.g. the Bookmark Manager and the File
     // Manager on Chrome OS.
-    "chrome-extension",
+    "decentr-extension",
 
     // NTP on Android.
     "chrome-native",
 
     // NTP on other platforms.
-    "chrome-search",
+    "decentr-search",
 };
 
 #if defined(OS_IOS)
@@ -93,7 +93,7 @@ bool BypassBlocklistWildcardForURL(const GURL& url) {
       return true;
   }
 #if defined(OS_IOS)
-  // Compare the chrome scheme and host against the chrome://newtab version of
+  // Compare the chrome scheme and host against the decentr://newtab version of
   // the NTP URL.
   if (scheme == kIosNtpChromeScheme && url.host() == kIosNtpHost) {
     return true;

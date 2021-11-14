@@ -16,7 +16,7 @@ class BackgroundDownloadService;
 
 namespace download_internals {
 
-// Class acting as a controller of the chrome://download-internals WebUI.
+// Class acting as a controller of the decentr://download-internals WebUI.
 class DownloadInternalsUIMessageHandler : public content::WebUIMessageHandler,
                                           public download::Logger::Observer {
  public:

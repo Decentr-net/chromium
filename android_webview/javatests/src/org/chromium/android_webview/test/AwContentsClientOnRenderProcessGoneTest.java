@@ -104,7 +104,7 @@ public class AwContentsClientOnRenderProcessGoneTest {
     @SmallTest
     @OnlyRunIn(MULTI_PROCESS)
     public void testOnRenderProcessCrash() throws Throwable {
-        createAndTerminateRenderProcess(() -> { mAwContents.loadUrl("chrome://crash"); }, true);
+        createAndTerminateRenderProcess(() -> { mAwContents.loadUrl("decentr://crash"); }, true);
     }
 
     @Test
@@ -112,7 +112,7 @@ public class AwContentsClientOnRenderProcessGoneTest {
     @SmallTest
     @OnlyRunIn(MULTI_PROCESS)
     public void testOnRenderProcessKill() throws Throwable {
-        createAndTerminateRenderProcess(() -> { mAwContents.loadUrl("chrome://kill"); }, false);
+        createAndTerminateRenderProcess(() -> { mAwContents.loadUrl("decentr://kill"); }, false);
     }
 
     @Test

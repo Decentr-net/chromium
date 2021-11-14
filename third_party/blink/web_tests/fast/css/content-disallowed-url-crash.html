@@ -3,7 +3,7 @@
 <img id="target">
 <script>
 test(() => {
-  target.style.content = 'url("chrome://")';
+  target.style.content = 'url("decentr://")';
   getComputedStyle(target).content;
 }, 'Specifying a disallowed url protocol for <img> content property should not crash when serialising.');
 </script>

@@ -5,22 +5,22 @@
 import './strings.m.js';
 import './item.js';
 import './toolbar.js';
-import 'chrome://resources/cr_components/managed_footnote/managed_footnote.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_page_host_style_css.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/cr_components/managed_footnote/managed_footnote.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_page_host_style_css.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
 
-import {getToastManager} from 'chrome://resources/cr_elements/cr_toast/cr_toast_manager.js';
-import {FindShortcutBehavior} from 'chrome://resources/cr_elements/find_shortcut_behavior.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {IronListElement} from 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {getToastManager} from 'decentr://resources/cr_elements/cr_toast/cr_toast_manager.js';
+import {FindShortcutBehavior} from 'decentr://resources/cr_elements/find_shortcut_behavior.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {IronListElement} from 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserProxy} from './browser_proxy.js';
 import {States} from './constants.js';
@@ -118,7 +118,7 @@ export class DownloadsManagerElement extends DownloadsManagerElementBase {
     // trailing slash in three different groups.
     const CANONICAL_PATH_REGEX = /(^\/)([\/-\w]+)(\/$)/;
     const path = location.pathname.replace(CANONICAL_PATH_REGEX, '$1$2');
-    if (path !== '/') {  // There are no subpages in chrome://downloads.
+    if (path !== '/') {  // There are no subpages in decentr://downloads.
       window.history.replaceState(undefined /* stateObject */, '', '/');
     }
   }

@@ -14,7 +14,7 @@ preprocess_if_expr("preprocess") {
 js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + [
-                    "browser_resolver_prefix_replacements=\"chrome://chrome-signin/=../../chrome/browser/resources/inline_login/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://chrome-signin/=../../chrome/browser/resources/inline_login/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                     "js_module_root=../../chrome/browser/resources/gaia_auth_host/",

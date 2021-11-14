@@ -618,7 +618,7 @@ TEST_F(BrowsingDataRemoverImplTest, RemoveUnprotectedLocalStorageForever) {
       url::Origin::Create(GURL("http://host3.com")), mock_policy()));
   EXPECT_FALSE(removal_data.origin_matcher.Run(
       url::Origin::Create(
-          GURL("chrome-extension://abcdefghijklmnopqrstuvwxyz/")),
+          GURL("decentr-extension://abcdefghijklmnopqrstuvwxyz/")),
       mock_policy()));
 }
 
@@ -654,7 +654,7 @@ TEST_F(BrowsingDataRemoverImplTest, RemoveProtectedLocalStorageForever) {
       url::Origin::Create(GURL("http://host3.com")), mock_policy()));
   EXPECT_FALSE(removal_data.origin_matcher.Run(
       url::Origin::Create(
-          GURL("chrome-extension://abcdefghijklmnopqrstuvwxyz/")),
+          GURL("decentr-extension://abcdefghijklmnopqrstuvwxyz/")),
       mock_policy()));
 }
 
@@ -687,7 +687,7 @@ TEST_F(BrowsingDataRemoverImplTest, RemoveLocalStorageForLastWeek) {
       url::Origin::Create(GURL("http://host3.com")), mock_policy()));
   EXPECT_FALSE(removal_data.origin_matcher.Run(
       url::Origin::Create(
-          GURL("chrome-extension://abcdefghijklmnopqrstuvwxyz/")),
+          GURL("decentr-extension://abcdefghijklmnopqrstuvwxyz/")),
       mock_policy()));
 }
 
@@ -1218,7 +1218,7 @@ TEST_F(BrowsingDataRemoverImplTest,
   // origin matcher would not match these origin.
   EXPECT_FALSE(removal_data.origin_matcher.Run(
       url::Origin::Create(
-          GURL("chrome-extension://abcdefghijklmnopqrstuvwxyz/")),
+          GURL("decentr-extension://abcdefghijklmnopqrstuvwxyz/")),
       mock_policy()));
   EXPECT_FALSE(removal_data.origin_matcher.Run(
       url::Origin::Create(GURL("devtools://abcdefghijklmnopqrstuvw/")),

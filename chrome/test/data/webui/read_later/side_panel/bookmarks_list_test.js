@@ -4,12 +4,12 @@
 
 // ReadLaterUI is a Mojo WebUI controller and therefore needs mojo defined to
 // finish running its tests.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 
-import {BookmarkFolderElement, FOLDER_OPEN_CHANGED_EVENT} from 'chrome://read-later.top-chrome/side_panel/bookmark_folder.js';
-import {BookmarksApiProxy} from 'chrome://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
-import {BookmarksListElement, LOCAL_STORAGE_OPEN_FOLDERS_KEY} from 'chrome://read-later.top-chrome/side_panel/bookmarks_list.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {BookmarkFolderElement, FOLDER_OPEN_CHANGED_EVENT} from 'decentr://read-later.top-chrome/side_panel/bookmark_folder.js';
+import {BookmarksApiProxy} from 'decentr://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
+import {BookmarksListElement, LOCAL_STORAGE_OPEN_FOLDERS_KEY} from 'decentr://read-later.top-chrome/side_panel/bookmarks_list.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

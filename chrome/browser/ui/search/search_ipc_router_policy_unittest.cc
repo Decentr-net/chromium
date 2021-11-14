@@ -17,7 +17,7 @@ class SearchIPCRouterPolicyTest : public BrowserWithTestWindowTest {
  public:
   void SetUp() override {
     BrowserWithTestWindowTest::SetUp();
-    AddTab(browser(), GURL("chrome://blank"));
+    AddTab(browser(), GURL("decentr://blank"));
     SearchTabHelper::CreateForWebContents(web_contents());
   }
 
@@ -43,19 +43,19 @@ class SearchIPCRouterPolicyTest : public BrowserWithTestWindowTest {
 // remote NTPs.
 TEST_F(SearchIPCRouterPolicyTest, DoNotProcessFocusOmnibox) {
   // Process message only if the underlying page is an InstantNTP.
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   EXPECT_FALSE(GetSearchIPCRouterPolicy()->ShouldProcessFocusOmnibox(true));
 }
 
 TEST_F(SearchIPCRouterPolicyTest, DoNotSendMostVisitedInfo) {
   // Send most visited items only if the current tab is an Instant NTP.
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   EXPECT_FALSE(GetSearchIPCRouterPolicy()->ShouldSendMostVisitedInfo());
 }
 
 TEST_F(SearchIPCRouterPolicyTest, DoNotSendNtpTheme) {
   // Send theme background information only if the current tab is an
   // Instant NTP.
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   EXPECT_FALSE(GetSearchIPCRouterPolicy()->ShouldSendNtpTheme());
 }

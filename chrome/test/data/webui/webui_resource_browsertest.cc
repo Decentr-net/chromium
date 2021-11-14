@@ -25,7 +25,7 @@
 class WebUIResourceBrowserTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
-    // Setup chrome://test/ data source.
+    // Setup decentr://test/ data source.
     content::WebContents* tab =
         browser()->tab_strip_model()->GetActiveWebContents();
     Profile* profile = Profile::FromBrowserContext(tab->GetBrowserContext());
@@ -34,7 +34,7 @@ class WebUIResourceBrowserTest : public InProcessBrowserTest {
   }
 
   void LoadTestUrl(const std::string& file) {
-    GURL url(std::string("chrome://test/") + file);
+    GURL url(std::string("decentr://test/") + file);
     RunTest(url);
   }
 

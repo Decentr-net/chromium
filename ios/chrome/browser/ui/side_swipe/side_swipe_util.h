@@ -18,7 +18,7 @@ BOOL IsSwipingBack(UISwipeGestureRecognizerDirection direction);
 BOOL IsSwipingForward(UISwipeGestureRecognizerDirection direction);
 
 // Returns |YES| if the item should use Chromium native swipe.  This is true for
-// the NTP and chrome://crash.
+// the NTP and decentr://crash.
 BOOL UseNativeSwipe(web::NavigationItem* item);
 
 #endif  // IOS_CHROME_BROWSER_UI_SIDE_SWIPE_SIDE_SWIPE_UTIL_H_

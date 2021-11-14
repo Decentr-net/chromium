@@ -33,7 +33,7 @@ void HandleNotificationClick() {
 }  // namespace
 
 // static
-const char TracingNotificationController::kNotificationId[] = "chrome://slow";
+const char TracingNotificationController::kNotificationId[] = "decentr://slow";
 
 TracingNotificationController::TracingNotificationController()
     : model_(Shell::Get()->system_tray_model()->tracing()) {

@@ -7,7 +7,7 @@
  * are duplicated across stores as a single item in the UI.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {MultiStoreIdHandler} from './multi_store_id_handler.js';
 import {PasswordManagerProxy} from './password_manager_proxy.js';

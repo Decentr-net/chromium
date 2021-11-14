@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, ModuleDescriptor, ModuleWrapperElement, WindowProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {assertDeepEquals, assertEquals, assertThrows} from 'chrome://test/chai_assert.js';
-import {fakeMetricsPrivate, MetricsTracker} from 'chrome://test/new_tab_page/metrics_test_support.js';
-import {createElement, initNullModule, installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {$$, ModuleDescriptor, ModuleWrapperElement, WindowProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {assertDeepEquals, assertEquals, assertThrows} from 'decentr://test/chai_assert.js';
+import {fakeMetricsPrivate, MetricsTracker} from 'decentr://test/new_tab_page/metrics_test_support.js';
+import {createElement, initNullModule, installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 suite('NewTabPageModulesModuleWrapperTest', () => {
   /** @type {!ModuleWrapperElement} */

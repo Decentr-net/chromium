@@ -455,9 +455,9 @@ TEST_F(ChromeDataExchangeDelegateTest, ParseFileSystemSources) {
   guest_os_share_path->RegisterSharedPath(crostini::kCrostiniDefaultVmName,
                                           shared_path);
   std::u16string urls =
-      u"filesystem:chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/"
+      u"filesystem:decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/"
       "external/Downloads-test%2540example.com-hash/shared/file1\n"
-      "filesystem:chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/"
+      "filesystem:decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/"
       "external/Downloads-test%2540example.com-hash/shared/file2";
   base::Pickle pickle;
   ui::WriteCustomDataToPickle(
@@ -466,7 +466,7 @@ TEST_F(ChromeDataExchangeDelegateTest, ParseFileSystemSources) {
       &pickle);
 
   ui::DataTransferEndpoint files_app(url::Origin::Create(
-      GURL("chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj")));
+      GURL("decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj")));
   std::vector<ui::FileInfo> file_info =
       data_exchange_delegate.ParseFileSystemSources(&files_app, pickle);
   EXPECT_EQ(2, file_info.size());

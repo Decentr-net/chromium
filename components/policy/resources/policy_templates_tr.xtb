@@ -517,7 +517,7 @@ Bu politikayı devre dışı bırakırsanız web sayfasını URL yoluyla belirli
 <translation id="1620510694547887537">Kamera</translation>
 <translation id="1626379196197114720">Geri-ileri önbelleğin kullanılmasına izin ver</translation>
 <translation id="1628974048137236820">Yeni Sekme Sayfası kartları gösterme</translation>
-<translation id="1630263002012156148">Politika, Etkin değerine ayarlanırsa herhangi bir ana sayfanın URL konumu yok sayılarak Yeni Sekme sayfası kullanıcının ana sayfası yapılır. Politika, Devre dışı değerine ayarlanırsa kullanıcının ana sayfa URL'si chrome://newtab olarak ayarlanmadığı sürece ana sayfa hiçbir zaman Yeni Sekme sayfası olmaz.
+<translation id="1630263002012156148">Politika, Etkin değerine ayarlanırsa herhangi bir ana sayfanın URL konumu yok sayılarak Yeni Sekme sayfası kullanıcının ana sayfası yapılır. Politika, Devre dışı değerine ayarlanırsa kullanıcının ana sayfa URL'si decentr://newtab olarak ayarlanmadığı sürece ana sayfa hiçbir zaman Yeni Sekme sayfası olmaz.
 
       Bu politikayı ayarlarsanız kullanıcılar <ph name="PRODUCT_NAME" /> ürününde ana sayfa türlerini değiştiremez. Politika ayarlanmadan bırakılırsa ana sayfasının Yeni Sekme sayfası olup olmayacağına kullanıcı karar verir.
 
@@ -664,7 +664,7 @@ Bu politikayı devre dışı bırakırsanız web sayfasını URL yoluyla belirli
 <translation id="1798559516913615713">GPO önbellek ömrü</translation>
 <translation id="180130467244315277">Bu politika, yöneticilerin <ph name="PRODUCT_NAME" /> ürününün ayarlarında tercih edilen dillerin sıralamasını yapılandırmalarına olanak tanır.
 
-      Listenin sırası, chrome://settings/languages adresindeki "Dilleri tercihinize göre sıralayın" bölümün altındaki liste ile aynı sırada görünür. Kullanıcılar, politika tarafından ayarlanan dilleri kaldıramaz veya sırasını değiştiremezler ancak politika tarafından ayarlanan dillerin altında yeni diller ekleyebilirler. Diğer politikalar tarafından uygulanmadığı sürece kullanıcılar ayrıca, tarayıcının hem kullanıcı arayüzü hem de çeviri/yazım denetimi ayarları üzerinde tam kontrol sahibi olurlar.
+      Listenin sırası, decentr://settings/languages adresindeki "Dilleri tercihinize göre sıralayın" bölümün altındaki liste ile aynı sırada görünür. Kullanıcılar, politika tarafından ayarlanan dilleri kaldıramaz veya sırasını değiştiremezler ancak politika tarafından ayarlanan dillerin altında yeni diller ekleyebilirler. Diğer politikalar tarafından uygulanmadığı sürece kullanıcılar ayrıca, tarayıcının hem kullanıcı arayüzü hem de çeviri/yazım denetimi ayarları üzerinde tam kontrol sahibi olurlar.
 
       Politikanın ayarlanmadan bırakılması, kullanıcıların tercih edilen diller listesinin tamamını manipüle etmelerine olanak tanır.</translation>
 <translation id="1803646570632580723">Başlatıcıda gösterilecek sabitlenmiş uygulamalar listesi</translation>
@@ -1128,7 +1128,7 @@ Bu politikayı devre dışı bırakırsanız web sayfasını URL yoluyla belirli
 <translation id="2299220924812062390">Etkinleştirilmiş eklentilerin listesini belirt</translation>
 <translation id="2301048990069984110">Windows, Mac ve Linux'taki Chrome Uygulamaları desteğini artırma.</translation>
 <translation id="2303795211377219696">Kredi kartları için Otomatik Doldurma özelliğini etkinleştirme</translation>
-<translation id="2304009805995145854">Site izolasyonu, 67. <ph name="PRODUCT_NAME" /> sürümünden itibaren tüm masaüstü platformlarda varsayılan olarak etkinleştirilerek her sitenin kendi işleminde çalışmasına neden olur. Site, şema artı eTLD+1 olarak tanımlanır (ör. https://example.com). Bu politikanın Etkin değerine ayarlanması bu davranışı değiştirmez, yalnızca kullanıcıların bu ayarı devre dışı bırakmasını (örneğin, chrome://flags'te Site izolasyonunu devre dışı bırak seçeneğini kullanarak) engeller. 76. <ph name="PRODUCT_NAME" /> sürümünden itibaren, bu politikanın Devre dışı değerine ayarlanması veya ayarlanmadan bırakılması, site izolasyonunu kapatmaz ancak kullanıcılar tarafından devre dışı bırakılmasına izin verir.
+<translation id="2304009805995145854">Site izolasyonu, 67. <ph name="PRODUCT_NAME" /> sürümünden itibaren tüm masaüstü platformlarda varsayılan olarak etkinleştirilerek her sitenin kendi işleminde çalışmasına neden olur. Site, şema artı eTLD+1 olarak tanımlanır (ör. https://example.com). Bu politikanın Etkin değerine ayarlanması bu davranışı değiştirmez, yalnızca kullanıcıların bu ayarı devre dışı bırakmasını (örneğin, decentr://flags'te Site izolasyonunu devre dışı bırak seçeneğini kullanarak) engeller. 76. <ph name="PRODUCT_NAME" /> sürümünden itibaren, bu politikanın Devre dışı değerine ayarlanması veya ayarlanmadan bırakılması, site izolasyonunu kapatmaz ancak kullanıcılar tarafından devre dışı bırakılmasına izin verir.
 
       Siteden daha yüksek ayrıntı düzeyindeki belirli kaynakların (ör. https://a.example.com) izole edilmesinde <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> politikasından da yararlanılabilir.
 
@@ -3502,7 +3502,7 @@ Bu politika Yanlış değerine ayarlanırsa <ph name="PRODUCT_NAME" /> yerel bil
       Politika, Devre Dışı değerine ayarlanırsa kullanıcılar yeni şifreleri kaydedemez, ancak önceden kaydedilmiş şifreler çalışmaya devam eder.
 
       Politika ayarlanırsa kullanıcılar bunu <ph name="PRODUCT_NAME" /> ürününde değiştiremezler. Politika ayarlanmadan bırakılırsa kullanıcı şifre kaydetmeyi devre dışı bırakabilir.</translation>
-<translation id="5239333626804545932">Politika Etkin değerine ayarlanır veya ayarlanmadan bırakılırsa Chrome Temizleme Aracı belirli aralıklarla sistemdeki istenmeyen yazılımları tarar ve böyle bir yazılım bulursa kullanıcıya, bulduğu yazılımı kaldırmak isteyip istemediğini sorar. Chrome Temizleme Aracı'nın chrome://settings adresinden manuel olarak tetiklenmesine izin verilir.
+<translation id="5239333626804545932">Politika Etkin değerine ayarlanır veya ayarlanmadan bırakılırsa Chrome Temizleme Aracı belirli aralıklarla sistemdeki istenmeyen yazılımları tarar ve böyle bir yazılım bulursa kullanıcıya, bulduğu yazılımı kaldırmak isteyip istemediğini sorar. Chrome Temizleme Aracı'nın decentr://settings adresinden manuel olarak tetiklenmesine izin verilir.
 
       Politika Devre dışı değerine ayarlanırsa Chrome Temizleme Aracı düzenli tarama yapmaz ve manuel tetikleme devre dışı bırakılır.
 
@@ -4233,7 +4233,7 @@ Bu ayarı etkinleştirirseniz veya yapılandırmazsanız kullanıcılar şifrele
 
       Kullanıcılar içe aktarma iletişim kutusunu tetikleyebilir ve otomatik doldurulan form verileri onay kutusu, bu politikanın değerine uyacak şekilde işaretlenir veya işareti kaldırılır.</translation>
 <translation id="614616930188030377">Bu listedeki kalıplar, istek yapan URL'nin güvenlik kaynağı ile karşılaştırılır.
-      Bir eşleşme bulunursa veya chrome://flags/#enable-webrtc-hide-local-ips-with-mdns Devre dışı bırakıldıysa yerel IP adresleri WebRTC ICE adaylarında gösterilir.
+      Bir eşleşme bulunursa veya decentr://flags/#enable-webrtc-hide-local-ips-with-mdns Devre dışı bırakıldıysa yerel IP adresleri WebRTC ICE adaylarında gösterilir.
       Aksi takdirde, yerel IP adresleri mDNS ana makine adlarıyla gizlenir.
       Bu politikanın, yöneticilerin ihtiyaç duyması halinde yerel IP'lerin korunmasını zayıflattığını lütfen unutmayın.</translation>
 <translation id="614662973812186053">Bu politika, Android kullanımını ve teşhis verilerini toplama çalışmalarını da kontrol eder.</translation>
@@ -4458,12 +4458,12 @@ Bu ayarı etkinleştirirseniz veya yapılandırmazsanız kullanıcılar şifrele
 <translation id="645425387487868471"><ph name="PRODUCT_NAME" /> için oturum açmaya zorlamayı etkinleştir</translation>
 <translation id="6455842857207956758">Password sync jetonunun değerini izleyerek ve güncellendiği için senkronize edilmesi gereken şifreler olması halinde kullanıcıyı yeniden online kimlik doğrulama sürecinden geçirerek birden fazla Chrome cihaz arasında SAML password sync özelliğini etkinleştirir.
 
-      chrome://password-change konumunda, SAML kullanıcılarının oturum açmış durumdayken SAML şifrelerini değiştirmelerine izin veren ve SAML şifresi ile cihaz ekran kilidi şifresinin senkronize durumda tutulmasını sağlayan bir sayfayı etkinleştirir.
+      decentr://password-change konumunda, SAML kullanıcılarının oturum açmış durumdayken SAML şifrelerini değiştirmelerine izin veren ve SAML şifresi ile cihaz ekran kilidi şifresinin senkronize durumda tutulmasını sağlayan bir sayfayı etkinleştirir.
 
       Bu politika ayrıca SAML kullanıcılarını SAML şifrelerinin süresinin biteceği konusunda uyaran bildirimleri etkinleştirir, böylece kullanıcılar oturum içi şifre değiştirme işlemini hemen yapabilirler.
       Ancak bu bildirimler sadece şifre geçerliliği bitiş bilgileri cihaza SAML kimlik sağlayıcısı tarafından SAML oturum açma akışı sırasında gönderilirse gösterilir.
 
-      Politika, Devre Dışı değerine ayarlanır veya ayarlanmadan bırakılırsa SAML şifresi, chrome://password-change adresinde değiştirilemez ve SAML şifrelerinin süresinin bitmesi yakınlaştığında herhangi bir bildirim gösterilmez.</translation>
+      Politika, Devre Dışı değerine ayarlanır veya ayarlanmadan bırakılırsa SAML şifresi, decentr://password-change adresinde değiştirilemez ve SAML şifrelerinin süresinin bitmesi yakınlaştığında herhangi bir bildirim gösterilmez.</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">Politika Etkin değerine ayarlanır veya ayarlanmadan bırakılırsa <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" /> ve <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> politikalarının hepsi Etkin değerine ayarlandığı sürece tüm kullanıcıların <ph name="PRODUCT_CROSTINI_NAME" /> kullanmasına izin verilir. Politika Devre Dışı değerine ayarlanırsa bağlı olmayan kullanıcılar <ph name="PRODUCT_CROSTINI_NAME" /> kullanamaz. Politika Devre Dışı olarak değiştirilirse halihazırda çalışan kapsayıcılara değil, başlatılan yeni <ph name="PRODUCT_CROSTINI_NAME" /> kapsayıcılarına uygulanmaya başlar.</translation>
 <translation id="6464074037294098618">Adresleri otomatik doldurmayı etkinleştir</translation>
@@ -4531,7 +4531,7 @@ Bu ayar devre dışı bırakılır veya herhangi bir değer belirlenmezse <ph na
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" /> saat diliminin daha hassas algılanması için görünür kablosuz erişim noktalarının listesini düzenli olarak Geolocation API sunucusuna göndererek otomatik saat dilimi algılama seçeneğini açık tutar.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" /> saat diliminin en hassas seviyede algılanması için konum bilgilerini (kablosuz bağlantı erişim noktaları, ulaşılabilen baz istasyonları, GPS gibi) düzenli olarak bir sunucuya gönderir.
 
-      Ayarlanmazsa Kullanıcıların karar vermesine izin ver veya Yok olarak ayarlandığında kullanıcılar otomatik saat dilimi algılama seçeneğini chrome://settings sayfasındaki normal kontrolleri kullanarak ayarlar.</translation>
+      Ayarlanmazsa Kullanıcıların karar vermesine izin ver veya Yok olarak ayarlandığında kullanıcılar otomatik saat dilimi algılama seçeneğini decentr://settings sayfasındaki normal kontrolleri kullanarak ayarlar.</translation>
 <translation id="6532769014584932288">Uyanık kalma kilitlerine izin ver</translation>
 <translation id="6536600139108165863">Cihaz kapandığında otomatik olarak yenide başlat</translation>
 <translation id="6539246272469751178">Bu politikanın Android uygulamaları üzerinde hiçbir etkisi yoktur. Android uygulamaları daima varsayılan indirme dizinini kullanır ve <ph name="PRODUCT_OS_NAME" /> tarafından, varsayılan olmayan indirme dizinine indirilen dosyalara erişemez.</translation>
@@ -4761,7 +4761,7 @@ Bu ayar devre dışı bırakılır veya herhangi bir değer belirlenmezse <ph na
 
       Politika Devre Dışı değerine ayarlanırsa tarayıcı deneysel özellikler simgesi araç çubuğundan kaldırılır.
 
-      chrome://flags ve tarayıcı özelliklerini açıp kapatmak için kullanılan herhangi başka bir yöntem, bu politikanın Etkin ya da Devre Dışı olmasından bağımsız olarak, beklendiği şekilde davranacaktır.</translation>
+      decentr://flags ve tarayıcı özelliklerini açıp kapatmak için kullanılan herhangi başka bir yöntem, bu politikanın Etkin ya da Devre Dışı olmasından bağımsız olarak, beklendiği şekilde davranacaktır.</translation>
 <translation id="6794083666143216172">Kaynakların cihaz özelliklerini sorgulamasına izin ver</translation>
 <translation id="6795485990775913659">Yalnızca PIN olmadan yazdırmaya izin ver</translation>
 <translation id="6800181452282128474">Quirks Sunucularını sorgulama</translation>
@@ -5441,7 +5441,7 @@ Bu ayar devre dışı bırakılır veya herhangi bir değer belirlenmezse <ph na
       GAIA seçeneğine ayarlanırsa, giriş işlemi normal GAIA kimlik doğrulama akışıyla yapılır.
 
       SAML_INTERSTITIAL seçeneğine ayarlanırsa, giriş işleminde bir geçiş ekranı görüntülenerek kullanıcıya cihazın kaydolduğu alan adının SAML IdP'sini kullanarak giriş işlemine devam etme veya normal GAIA giriş akışına geri dönme seçeneği sunulur.</translation>
-<translation id="7554382342294940216">Politika, Etkin değerine ayarlanırsa <ph name="PRODUCT_OS_NAME" /> ürünü, giriş portalı kimlik doğrulaması için proxy'leri atlayabilir. Bu kimlik doğrulama web sayfaları (giriş portalı oturum açma sayfasından itibaren Chrome başarılı bir internet bağlantısı algılayana kadar), geçerli kullanıcıyla ilgili tüm politika ayarları ve kısıtlamalar yok sayılarak ayrı bir pencerede açılır. Bu politika, yalnızca bir proxy yapılandırıldığında (politika veya uzantı aracılığıyla ya da kullanıcı tarafından chrome://settings bölümünden) geçerli olur.
+<translation id="7554382342294940216">Politika, Etkin değerine ayarlanırsa <ph name="PRODUCT_OS_NAME" /> ürünü, giriş portalı kimlik doğrulaması için proxy'leri atlayabilir. Bu kimlik doğrulama web sayfaları (giriş portalı oturum açma sayfasından itibaren Chrome başarılı bir internet bağlantısı algılayana kadar), geçerli kullanıcıyla ilgili tüm politika ayarları ve kısıtlamalar yok sayılarak ayrı bir pencerede açılır. Bu politika, yalnızca bir proxy yapılandırıldığında (politika veya uzantı aracılığıyla ya da kullanıcı tarafından decentr://settings bölümünden) geçerli olur.
 
       Politika, Devre Dışı değerine ayarlanır veya ayarlanmadan bırakılırsa giriş portalı kimlik doğrulama sayfaları, geçerli kullanıcının proxy ayarları kullanılarak yeni bir (normal) tarayıcı sekmesinde görüntülenir.</translation>
 <translation id="7566878661979235378">SAML oturum açma kimlik doğrulama türü</translation>
@@ -5741,7 +5741,7 @@ Bu ayar devre dışı bırakılır veya herhangi bir değer belirlenmezse <ph na
 <translation id="7951605113561734721">Cihaz yönetim protokolü kullanılarak kaydolunması gereken, cihaz genelinde istemci sertifikalarını belirtir.</translation>
 <translation id="7952007677054834789">Başlangıçta yüklenecek sayfaları, <ph name="PRODUCT_NAME" /> varsayılan ana sayfasını, varsayılan yeni sekme sayfasını yapılandırın ve kullanıcıların bunları değiştirmesini engelleyin.
 
-      Kullanıcının ana sayfa ayarları sadece ana sayfayı yeni sayfa sekmesi olarak seçerseniz veya onu bir URL olarak ayarlayıp bir ana sayfa URL'si belirtirseniz tamamen kilitlenir. Ana sayfa URL'sini belirtmezseniz, kullanıcı "chrome://newtab" dizesini belirterek yine de ana sayfayı yeni sekme sayfası olarak ayarlayabilir.
+      Kullanıcının ana sayfa ayarları sadece ana sayfayı yeni sayfa sekmesi olarak seçerseniz veya onu bir URL olarak ayarlayıp bir ana sayfa URL'si belirtirseniz tamamen kilitlenir. Ana sayfa URL'sini belirtmezseniz, kullanıcı "decentr://newtab" dizesini belirterek yine de ana sayfayı yeni sekme sayfası olarak ayarlayabilir.
 
       "Başlangıçtaki işlem" içinde "URL listesi aç"ı seçmediğiniz sürece "Başlangıçta açılan URL'ler" politikası göz ardı edilir.</translation>
 <translation id="7952958573604504839">Bu politika M48 sürümünde kullanımdan kaldırılarak yerine <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> getirilmiş, M54 sürümünde ise tamamen kaldırılmıştır.
@@ -6297,7 +6297,7 @@ Bu politika "true" (doğru) olarak ayarlanırsa kullanıcının tarayıcıyı ku
 
       Bu politika, <ph name="PRODUCT_NAME" /> 92 sürümünden itibaren gözetimsiz modda da desteklenir.
 
-      Not: Dahili chrome://* URL'lerinin engellenmesi beklenmedik hatalara neden olabilir.</translation>
+      Not: Dahili decentr://* URL'lerinin engellenmesi beklenmedik hatalara neden olabilir.</translation>
 <translation id="8626826495474944836">Her site için Site İzolasyonunu zorunlu tut</translation>
 <translation id="8631434304112909927"><ph name="UNTIL_VERSION" /> sürümüne kadar</translation>
 <translation id="8631437968147930597"><ph name="PRODUCT_OS_NAME" /> kilit ekranında izin verilen not alma uygulamaları listesi</translation>
@@ -6455,7 +6455,7 @@ Bu politika "true" (doğru) olarak ayarlanırsa kullanıcının tarayıcıyı ku
 
       Herhangi bir uzantının kaynak kodu, kullanıcılar tarafından geliştirici araçları kullanılarak uzantının işlevselliğini devre dışı bırakabilecek şekilde değiştirilebilir. Böyle bir endişe olması durumunda <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" /> politikasını ayarlayın.
 
-      Politikaya ait her liste öğesi, noktalı virgülle (;) ayrılmış bir uzantı kimliği ve isteğe bağlı bir "güncelleme" URL'si içeren bir dizedir. Uzantı kimliği, örneğin Geliştirici modundayken chrome://extensions adresinde bulunabilen 32 harfli bir dizedir. Belirtilmişse "güncelleme" URL'si bir Güncelleme Manifest XML dokümanına işaret etmelidir. (https://developer.chrome.com/extensions/autoupdate). Varsayılan olarak Chrome Web Mağazası'nın güncelleme URL'si kullanılır. Bu politikada ayarlanan "güncelleme" URL'si yalnızca ilk yükleme için kullanılır. Uzantının sonraki güncellemelerinde ise uzantının manifest dosyasındaki güncelleme URL'si kullanılır.
+      Politikaya ait her liste öğesi, noktalı virgülle (;) ayrılmış bir uzantı kimliği ve isteğe bağlı bir "güncelleme" URL'si içeren bir dizedir. Uzantı kimliği, örneğin Geliştirici modundayken decentr://extensions adresinde bulunabilen 32 harfli bir dizedir. Belirtilmişse "güncelleme" URL'si bir Güncelleme Manifest XML dokümanına işaret etmelidir. (https://developer.chrome.com/extensions/autoupdate). Varsayılan olarak Chrome Web Mağazası'nın güncelleme URL'si kullanılır. Bu politikada ayarlanan "güncelleme" URL'si yalnızca ilk yükleme için kullanılır. Uzantının sonraki güncellemelerinde ise uzantının manifest dosyasındaki güncelleme URL'si kullanılır.
 
        Not: Bu politika gizli mod için geçerli değildir. Uzantıların barındırılması (https://developer.chrome.com/extensions/hosting) ile ilgili bilgi edinin.</translation>
 <translation id="8827366480126575426">Protokol işleyicinin protokolü.</translation>
@@ -6840,7 +6840,7 @@ Bu politika "true" (doğru) olarak ayarlanırsa kullanıcının tarayıcıyı ku
 
       <ph name="PRODUCT_NAME" /> sürüm 73'ten itibaren javascript://* URL'lerini engelleyebilirsiniz. Ancak bu engelleme yalnızca adres çubuğuna girilen JavaScript'i (veya örneğin yer işareti uygulamalarını) etkiler. Dinamik olarak yüklenen verileri olan sayfa içi JavaScript URL'leri bu politikaya tabi değildir. Örneğin, example.com/abc URL'sini engellerseniz example.com yine de XMLHTTPRequest kullanarak example.com/abc URL'sini yükleyebilir.
 
-      Not: Dahili chrome://* URL'lerinin engellenmesi beklenmedik hatalara neden olabilir.</translation>
+      Not: Dahili decentr://* URL'lerinin engellenmesi beklenmedik hatalara neden olabilir.</translation>
 <translation id="957778406002650056"><ph name="PLUGIN_VM_NAME" /> resminin indirilebileceği URL.</translation>
 <translation id="971677226939413180">Resim olarak yazdır seçeneği kullanıcı tarafından seçilemez.</translation>
 <translation id="974349541138387272">İstenen DNS-over-HTTPS çözümleyicisinin URI şablonunu belirler</translation>

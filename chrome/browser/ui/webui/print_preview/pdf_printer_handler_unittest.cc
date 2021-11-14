@@ -247,7 +247,7 @@ TEST_F(PdfPrinterHandlerTest, GetFileName) {
       {"http://empty.com/image", "", false, FPL("image.pdf")},
       {"http://empty.com/nomimetype", "", false, FPL("nomimetype.pdf")},
       {"http://empty.com/weird.extension", "", false, FPL("weird.pdf")},
-      {"chrome-extension://foo/views/app.html", "demo.docx", true,
+      {"decentr-extension://foo/views/app.html", "demo.docx", true,
        FPL("demo.docx.pdf")},
   };
 

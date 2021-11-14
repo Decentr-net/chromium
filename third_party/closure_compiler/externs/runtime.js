@@ -185,7 +185,7 @@ chrome.runtime.getBackgroundPage = function(callback) {};
  * href="optionsV2">options_ui</a></code> or <code><a
  * href="options">options_page</a></code> key, or what Chrome happens to support
  * at the time. For example, the page may be opened in a new tab, within
- * chrome://extensions, within an App, or it may just focus an open options
+ * decentr://extensions, within an App, or it may just focus an open options
  * page. It will never cause the caller page to reload.</p><p>If your Extension
  * does not declare an options page, or Chrome failed to create one for some
  * other reason, the callback will set $(ref:lastError).</p>

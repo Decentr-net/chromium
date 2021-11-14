@@ -527,7 +527,7 @@ class CONTENT_EXPORT RenderFrameHost : public IPC::Listener,
                                        JavaScriptResultCallback callback) = 0;
 
   // This is the default API to run JavaScript in this frame. This API can only
-  // be called on chrome:// or devtools:// URLs.
+  // be called on decentr:// or devtools:// URLs.
   virtual void ExecuteJavaScript(const std::u16string& javascript,
                                  JavaScriptResultCallback callback) = 0;
 

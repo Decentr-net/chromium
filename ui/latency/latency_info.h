@@ -41,7 +41,7 @@ class LatencyInfoDataView;
 // to tracing@chromium.org so we can assist.
 enum LatencyComponentType {
   // ---------------------------BEGIN COMPONENT-------------------------------
-  // BEGIN COMPONENT is when we show the latency begin in chrome://tracing.
+  // BEGIN COMPONENT is when we show the latency begin in decentr://tracing.
   // Timestamp when the input event is sent from RenderWidgetHost to renderer.
   INPUT_EVENT_LATENCY_BEGIN_RWH_COMPONENT,
   // ---------------------------NORMAL COMPONENT-------------------------------

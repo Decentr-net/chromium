@@ -32,7 +32,7 @@
         trigger_in_world();
 
         alert("Case #3: Trigger TT error in extension.");
-        testRunner.setIsolatedWorldInfo(1, 'chrome-extension://123', '');
+        testRunner.setIsolatedWorldInfo(1, 'decentr-extension://123', '');
         trigger_in_world();
 
         alert("Case #4: Set default policy on main page. Trigger TT error in main 0page.");
@@ -41,7 +41,7 @@
         trigger_in_world();
 
         alert("Case #5: Default policy on main page. Trigger TT error in extension");
-        testRunner.setIsolatedWorldInfo(1, 'chrome-extension://123', '');
+        testRunner.setIsolatedWorldInfo(1, 'decentr-extension://123', '');
         trigger_in_world();
 
         alert("Cleanup & done.");

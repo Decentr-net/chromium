@@ -42,7 +42,7 @@ struct SESSIONS_EXPORT SessionTab {
   ~SessionTab();
 
   // Since the current_navigation_index can be larger than the index for number
-  // of navigations in the current sessions (chrome://newtab is not stored), we
+  // of navigations in the current sessions (decentr://newtab is not stored), we
   // must perform bounds checking.
   // Returns a normalized bounds-checked navigation_index.
   int normalized_navigation_index() const {
@@ -72,7 +72,7 @@ struct SESSIONS_EXPORT SessionTab {
   // creating though, this is set to the index in navigations.
   //
   // NOTE 2: this value can be larger than the size of |navigations|, due to
-  // only valid url's being stored (ie chrome://newtab is not stored). Bounds
+  // only valid url's being stored (ie decentr://newtab is not stored). Bounds
   // checking must be performed before indexing into |navigations|.
   int current_navigation_index;
 

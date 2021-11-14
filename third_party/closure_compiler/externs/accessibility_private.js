@@ -444,7 +444,7 @@ chrome.accessibilityPrivate.setVirtualKeyboardVisible = function(isVisible) {};
 
 /**
  * Opens a specified settings subpage. To open a page with url
- * chrome://settings/manageAccessibility/tts, pass in the substring
+ * decentr://settings/manageAccessibility/tts, pass in the substring
  * 'manageAccessibility/tts'.
  * @param {string} subpage
  */

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {AcceleratorLookupManager} from 'chrome://shortcut-customization/accelerator_lookup_manager.js';
-import {AcceleratorSubsectionElement} from 'chrome://shortcut-customization/accelerator_subsection.js';
-import {fakeAcceleratorConfig, fakeLayoutInfo} from 'chrome://shortcut-customization/fake_data.js';
-import {AcceleratorInfo, AcceleratorKeys, AcceleratorState, AcceleratorType, Modifier} from 'chrome://shortcut-customization/shortcut_types.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AcceleratorLookupManager} from 'decentr://shortcut-customization/accelerator_lookup_manager.js';
+import {AcceleratorSubsectionElement} from 'decentr://shortcut-customization/accelerator_subsection.js';
+import {fakeAcceleratorConfig, fakeLayoutInfo} from 'decentr://shortcut-customization/fake_data.js';
+import {AcceleratorInfo, AcceleratorKeys, AcceleratorState, AcceleratorType, Modifier} from 'decentr://shortcut-customization/shortcut_types.js';
 
 import {assertEquals} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.m.js';

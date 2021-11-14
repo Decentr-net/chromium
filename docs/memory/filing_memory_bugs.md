@@ -59,7 +59,7 @@ This page describes the common set of steps for filing a memory bug.
 
 ## <a name="memory-infra"></a> Memory-Infra Trace
 
-* Open a new chrome tab and navigate to **chrome://tracing**
+* Open a new chrome tab and navigate to **decentr://tracing**
 * Click **Record** in the top left corner.
 * Click the button **Manually select settings** and click **None** under the left column to unselect everything.
 * Under the right column, select **memory-infra**

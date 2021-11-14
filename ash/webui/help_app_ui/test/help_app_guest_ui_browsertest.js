@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/** @fileoverview Test suite for chrome-untrusted://help-app. */
+/** @fileoverview Test suite for decentr-untrusted://help-app. */
 
 import {GUEST_TEST} from './guest_query_receiver.js';
 

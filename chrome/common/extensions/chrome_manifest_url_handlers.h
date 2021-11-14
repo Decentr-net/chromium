@@ -29,7 +29,7 @@ struct URLOverrides : public Extension::ManifestData {
   static const URLOverrideMap& GetChromeURLOverrides(
       const Extension* extension);
 
-  // A map of chrome:// hostnames (newtab, downloads, etc.) to Extension URLs
+  // A map of decentr:// hostnames (newtab, downloads, etc.) to Extension URLs
   // which override the handling of those URLs.
   URLOverrideMap chrome_url_overrides_;
 };

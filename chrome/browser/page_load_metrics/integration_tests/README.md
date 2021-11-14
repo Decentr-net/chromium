@@ -6,9 +6,9 @@
 Chrome's [speed metrics][csm] are reported to a number of downstream consumers:
 
 - Web Performance APIs (typically through the PerformanceObserver)
-- UKM (as seen in `chrome://ukm`]
-- UMA (as seen in `chrome://histograms`)
-- Trace Events (as seen in `chrome://tracing`)
+- UKM (as seen in `decentr://ukm`]
+- UMA (as seen in `decentr://histograms`)
+- Trace Events (as seen in `decentr://tracing`)
 
 Due to the diverse use cases for and contexts required by each consumer, we
 can't always guarantee that the calculation of each metric is done entirely in

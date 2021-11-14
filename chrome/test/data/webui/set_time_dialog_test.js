@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://set-time/set_time_dialog.js';
+import 'decentr://set-time/set_time_dialog.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {SetTimeBrowserProxyImpl} from 'chrome://set-time/set_time_browser_proxy.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SetTimeBrowserProxyImpl} from 'decentr://set-time/set_time_browser_proxy.js';
 
 import {TestBrowserProxy} from './test_browser_proxy.js';
 

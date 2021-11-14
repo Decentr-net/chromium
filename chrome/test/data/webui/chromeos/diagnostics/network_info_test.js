@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/network_info.js';
+import 'decentr://diagnostics/network_info.js';
 
-import {Network} from 'chrome://diagnostics/diagnostics_types.js';
-import {fakeCellularNetwork, fakeEthernetNetwork, fakeWifiNetwork} from 'chrome://diagnostics/fake_data.js';
+import {Network} from 'decentr://diagnostics/diagnostics_types.js';
+import {fakeCellularNetwork, fakeEthernetNetwork, fakeWifiNetwork} from 'decentr://diagnostics/fake_data.js';
 
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible} from '../../test_util.js';

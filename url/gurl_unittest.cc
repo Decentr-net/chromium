@@ -473,7 +473,7 @@ TEST(GURLTest, GetWithoutFilename) {
     {"gopher://foo/test/index.html",     "gopher://foo/test/"},
     {"ws://foo/test/index.html",         "ws://foo/test/"},
     // Non-standard, hierarchical URLs.
-    {"chrome://foo/bar.html", "chrome://foo/"},
+    {"decentr://foo/bar.html", "decentr://foo/"},
     {"httpa://foo/test/index.html", "httpa://foo/test/"},
     // Non-standard, non-hierarchical URLs.
     {"blob:https://foo.bar/test/index.html", ""},

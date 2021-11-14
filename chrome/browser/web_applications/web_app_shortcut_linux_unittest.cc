@@ -360,7 +360,7 @@ TEST_F(WebAppShortcutLinuxTest, GetExistingShortcutLocations) {
 }
 
 TEST_F(WebAppShortcutLinuxTest, GetExtensionShortcutFilename) {
-  EXPECT_EQ(base::FilePath("chrome-extensionid-Profile_1.desktop"),
+  EXPECT_EQ(base::FilePath("decentr-extensionid-Profile_1.desktop"),
             GetAppShortcutFilename(GetProfilePath(), "extensionid"));
 }
 

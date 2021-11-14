@@ -4,7 +4,7 @@
 
 // clang-format off
 // #import {MultiDeviceSettingsMode, MultiDeviceFeature, MultiDeviceFeatureState, MultiDevicePageContentData, PhoneHubNotificationAccessStatus} from './multidevice_constants.m.js';
-// #import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
+// #import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
 // clang-format on
 
 /**

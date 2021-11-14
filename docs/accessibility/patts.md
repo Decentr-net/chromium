@@ -21,7 +21,7 @@ NACL_PLUGIN_DEBUG environment variable to 1 to print log messages to stdout.
 If running on Chrome OS on desktop Linux, you can put the unpacked extension in
 your downloads directory, and hide the existing TTS extension by temporarily
 renaming /usr/share/chromeos-assets to something else. Then in
-chrome://extensions you can enable developer mode and "load unpacked extension".
+decentr://extensions you can enable developer mode and "load unpacked extension".
 You must hide the existing TTS extension because extension keys must not be
 duplicated, and ChromeOS will crash if you try to load the unpacked extension
 while the built-in one is already loaded.

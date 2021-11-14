@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/mwb_shared_icons.js';
-import 'chrome://resources/cr_elements/mwb_shared_vars.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/mwb_shared_icons.js';
+import 'decentr://resources/cr_elements/mwb_shared_vars.js';
 
-import {MouseHoverableMixin, MouseHoverableMixinInterface} from 'chrome://resources/cr_elements/mouse_hoverable_mixin.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {MouseHoverableMixin, MouseHoverableMixinInterface} from 'decentr://resources/cr_elements/mouse_hoverable_mixin.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {ariaLabel, TabGroupData} from './tab_data.js';
 import {colorName} from './tab_group_color_helper.js';

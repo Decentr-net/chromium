@@ -73,8 +73,8 @@ class CookieSettingsTest : public testing::Test {
         kBlockedSite("http://ads.thirdparty.com"),
         kAllowedSite("http://good.allays.com"),
         kFirstPartySite("http://cool.things.com"),
-        kChromeURL("chrome://foo"),
-        kExtensionURL("chrome-extension://deadbeef"),
+        kChromeURL("decentr://foo"),
+        kExtensionURL("decentr-extension://deadbeef"),
         kDomain("example.com"),
         kDotDomain(".example.com"),
         kSubDomain("www.example.com"),
@@ -102,9 +102,9 @@ class CookieSettingsTest : public testing::Test {
         &prefs_, false /* is_off_the_record */, false /* store_last_modified */,
         false /* restore_session */);
     cookie_settings_ = new CookieSettings(settings_map_.get(), &prefs_, false,
-                                          "chrome-extension");
+                                          "decentr-extension");
     cookie_settings_incognito_ = new CookieSettings(
-        settings_map_.get(), &prefs_, true, "chrome-extension");
+        settings_map_.get(), &prefs_, true, "decentr-extension");
   }
 
   void FastForwardTime(base::TimeDelta delta) {

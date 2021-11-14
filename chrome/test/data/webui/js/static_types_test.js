@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getTrustedHTML, getTrustedScript, getTrustedScriptURL} from 'chrome://resources/js/static_types.js';
+import {getTrustedHTML, getTrustedScript, getTrustedScriptURL} from 'decentr://resources/js/static_types.js';
 import {assertEquals, assertNotReached} from '../chai_assert.js';
 
 suite('StaticTypesTest', function() {

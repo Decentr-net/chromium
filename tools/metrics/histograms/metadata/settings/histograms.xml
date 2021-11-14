@@ -285,7 +285,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 <histogram name="Settings.SearchLength" units="units" expires_after="M85">
   <owner>dschuyler@chromium.org</owner>
   <summary>
-    The number of characters typed in the chrome://settings page search box.
+    The number of characters typed in the decentr://settings page search box.
     Intended to determine if we are making the user type too much to find what
     they are looking for (the search is incremental).
   </summary>
@@ -295,7 +295,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="M85">
   <owner>dschuyler@chromium.org</owner>
   <summary>
-    If no matches are found when searching within the chrome://settings page,
+    If no matches are found when searching within the decentr://settings page,
     record the length of the search text.
   </summary>
 </histogram>
@@ -304,7 +304,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="M85">
   <owner>dschuyler@chromium.org</owner>
   <summary>
-    The number of search page hits within the chrome://settings page. This is
+    The number of search page hits within the decentr://settings page. This is
     especially important when the count is zero (i.e. we returned no hits for a
     given search in settings). A search is considered complete via timeout since
     there is no concrete way to define the end of a search (the search is
@@ -318,7 +318,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     If there is no further activity in the search box for 1 second, this records
     one tick each time a settings section is shown as a result of searching
-    withing the chrome://settings page. If multiple matches are found within the
+    withing the decentr://settings page. If multiple matches are found within the
     same section, the section match is only recorded once.
   </summary>
 </histogram>
@@ -327,7 +327,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="M85">
   <owner>dschuyler@chromium.org</owner>
   <summary>
-    The number of search subpage hits within the chrome://settings page. This is
+    The number of search subpage hits within the decentr://settings page. This is
     different from Settings.SearchPageMatchCount in that it is tracking hits in
     subpages rather than top level pages. See also
     Settings.SearchPageMatchCount.
@@ -424,7 +424,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 <histogram name="Settings.TimeToFirstSearch" units="ms" expires_after="M85">
   <owner>dschuyler@chromium.org</owner>
   <summary>
-    The time between when the chrome://settings page is opened to the first time
+    The time between when the decentr://settings page is opened to the first time
     a search is done within that page. This is intended to evaluate how long a
     user looks for a setting before giving up and searching for it.
   </summary>

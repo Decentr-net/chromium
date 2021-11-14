@@ -1347,13 +1347,13 @@ NavigationRequest::NavigationRequest(
   //    omnibox, from other apps, etc) the //content embedder should fix
   //    the URL using the url_formatter::FixupURL API from
   //    //components/url_formatter (which would for example translate
-  //    "about:version" into "chrome://version/", "localhost:1234" into
+  //    "about:version" into "decentr://version/", "localhost:1234" into
   //    "http://localhost:1234/", etc.).
   //
   // 2. Most tests should directly use correct, final URLs (e.g.
-  //    chrome://version instead of about:version;  or about:blank instead of
+  //    decentr://version instead of about:version;  or about:blank instead of
   //    about://blank).  Similarly, links in the product (e.g. links inside
-  //    chrome://about/) should use correct, final URLs.
+  //    decentr://about/) should use correct, final URLs.
   //
   // 3. Renderer-initiated navigations (e.g. ones initiated via
   //    <a href="...">...</a> links embedded in web pages) should typically be
@@ -1466,7 +1466,7 @@ NavigationRequest::NavigationRequest(
 
   // Let the NTP override the navigation params and pretend that this is a
   // browser-initiated, bookmark-like navigation.
-  // TODO(crbug.com/1099431): determine why some link navigations on chrome://
+  // TODO(crbug.com/1099431): determine why some link navigations on decentr://
   //     pages have |browser_initiated| set to true and others set to false.
   if (source_site_instance_) {
     bool is_renderer_initiated = !browser_initiated;

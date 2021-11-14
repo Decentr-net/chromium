@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserProxy, Command, MenuSource} from 'chrome://bookmarks/bookmarks.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestBookmarksBrowserProxy} from 'chrome://test/bookmarks/test_browser_proxy.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, customClick, getAllFoldersOpenState, normalizeIterable, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {BrowserProxy, Command, MenuSource} from 'decentr://bookmarks/bookmarks.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestBookmarksBrowserProxy} from 'decentr://test/bookmarks/test_browser_proxy.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, customClick, getAllFoldersOpenState, normalizeIterable, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 suite('<bookmarks-list>', function() {
   let list;

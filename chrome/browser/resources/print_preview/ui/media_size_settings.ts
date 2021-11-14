@@ -6,7 +6,7 @@ import './print_preview_shared_css.js';
 import './settings_section.js';
 import './settings_select.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {MediaSizeCapability, SelectOption} from '../data/cdd.js';
 

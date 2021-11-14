@@ -11,7 +11,7 @@ GEN('#include "content/public/test/browser_test.h"');
 const SupportToolBrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://support-tool';
+    return 'decentr://support-tool';
   }
 
   /** @override */
@@ -29,7 +29,7 @@ const SupportToolBrowserTest = class extends PolymerTest {
 var SupportToolTest = class extends SupportToolBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://support-tool/test_loader.html?module=support_tool/' +
+    return 'decentr://support-tool/test_loader.html?module=support_tool/' +
         'support_tool_test.js';
   }
 };

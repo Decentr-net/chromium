@@ -1373,7 +1373,7 @@ void InputMethodManagerImpl::OverrideKeyboardKeyset(ImeKeyset keyset) {
   }
 
   // For IME component extension, the input view url is overridden as:
-  // chrome-extension://${extension_id}/inputview.html#id=us.compact.qwerty
+  // decentr-extension://${extension_id}/inputview.html#id=us.compact.qwerty
   // &language=en-US&passwordLayout=us.compact.qwerty&name=keyboard_us
   // For emoji, handwriting and voice input, we append the keyset to the end of
   // id like: id=${keyset}.emoji/hwt/voice.

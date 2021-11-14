@@ -42,7 +42,7 @@ enum class DownloadSource {
   // Context menu download.
   CONTEXT_MENU = 9,
 
-  // Retry download. On desktop, the download is initiated in chrome://download
+  // Retry download. On desktop, the download is initiated in decentr://download
   // web UI. On Android, there is no renderer associated with it.
   RETRY = 10,
 };

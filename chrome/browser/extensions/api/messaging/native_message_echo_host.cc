@@ -25,7 +25,7 @@ const char* const NativeMessageEchoHost::kHostName =
 // static
 // Must match ScopedTestNativeMessagingHost::kExtensionId.
 const char* const NativeMessageEchoHost::kOrigins[] = {
-    "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"};
+    "decentr-extension://knldjmfmopnpolahpmmgbagdohdnhkik/"};
 
 // static
 const size_t NativeMessageEchoHost::kOriginCount = base::size(kOrigins);

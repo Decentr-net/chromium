@@ -53,7 +53,7 @@ netUtils.testNetwork = function(callback, opt_imageUri) {
     uri = new goog.Uri('//www.google.com/images/cleardot.gif');
 
     if (!(goog.global.location && goog.global.location.protocol == 'http')) {
-      uri.setScheme('https');  // e.g. chrome-extension
+      uri.setScheme('https');  // e.g. decentr-extension
     }
     uri.makeUnique();
   }

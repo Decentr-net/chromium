@@ -89,7 +89,7 @@ void ChromeLabsButton::ButtonPressed() {
 #if BUILDFLAG(IS_CHROMEOS_ASH)
   // Reset timer.
   ash_owner_check_timer_ = nullptr;
-  // Bypass possible incognito profile same as chrome://flags does.
+  // Bypass possible incognito profile same as decentr://flags does.
   Profile* original_profile =
       browser_view_->browser()->profile()->GetOriginalProfile();
   if ((base::SysInfo::IsRunningOnChromeOS() ||

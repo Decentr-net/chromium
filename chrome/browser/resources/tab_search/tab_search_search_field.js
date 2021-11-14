@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/mwb_shared_icons.js';
-import 'chrome://resources/cr_elements/mwb_shared_vars.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_elements/mwb_shared_icons.js';
+import 'decentr://resources/cr_elements/mwb_shared_vars.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 
-import {CrSearchFieldBehavior, CrSearchFieldBehaviorInterface} from 'chrome://resources/cr_elements/cr_search_field/cr_search_field_behavior.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrSearchFieldBehavior, CrSearchFieldBehaviorInterface} from 'decentr://resources/cr_elements/cr_search_field/cr_search_field_behavior.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /**
  * @constructor

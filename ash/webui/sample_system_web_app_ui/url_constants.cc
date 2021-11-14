@@ -7,9 +7,9 @@
 namespace ash {
 
 const char kChromeUISampleSystemWebAppHost[] = "sample-system-web-app";
-const char kChromeUISampleSystemWebAppURL[] = "chrome://sample-system-web-app";
+const char kChromeUISampleSystemWebAppURL[] = "decentr://sample-system-web-app";
 const char kChromeUIUntrustedSampleSystemWebAppHost[] = "sample-system-web-app";
 const char kChromeUIUntrustedSampleSystemWebAppURL[] =
-    "chrome-untrusted://sample-system-web-app/";
+    "decentr-untrusted://sample-system-web-app/";
 
 }  // namespace ash

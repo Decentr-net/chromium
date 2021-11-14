@@ -122,7 +122,7 @@ TEST_F(AppLaunchEventLoggerTest, CheckUkmCodeChrome) {
           .Build();
   registry.AddEnabled(extension);
 
-  GURL url(std::string("chrome-extension://") + kGmailChromeApp + "/");
+  GURL url(std::string("decentr-extension://") + kGmailChromeApp + "/");
 
   test_ukm_recorder_.SetIsWebstoreExtensionCallback(
       base::BindRepeating(&TestIsWebstoreExtension));

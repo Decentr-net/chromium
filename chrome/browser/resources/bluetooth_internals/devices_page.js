@@ -4,7 +4,7 @@
 
 /**
  * Javascript for DevicesPage and DevicesView, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 
 import {DeviceCollection} from './device_collection.js';

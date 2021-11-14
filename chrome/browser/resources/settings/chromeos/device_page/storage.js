@@ -164,7 +164,7 @@ Polymer({
    * @private
    */
   onBrowsingDataTap_() {
-    window.open('chrome://settings/clearBrowserData');
+    window.open('decentr://settings/clearBrowserData');
   },
 
   /**
@@ -172,7 +172,7 @@ Polymer({
    * @private
    */
   onAppsTap_() {
-    window.location = 'chrome://os-settings/app-management';
+    window.location = 'decentr://os-settings/app-management';
   },
 
   /**

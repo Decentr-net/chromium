@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://settings/strings.m.js';
+import 'decentr://settings/strings.m.js';
 
-import {CertificateProvisioningViewDetailsActionEvent} from 'chrome://resources/cr_components/certificate_manager/certificate_manager_types.js';
-import {CertificateProvisioningBrowserProxyImpl} from 'chrome://resources/cr_components/certificate_manager/certificate_provisioning_browser_proxy.js';
-import {CertificateProvisioningDetailsDialogElement} from 'chrome://resources/cr_components/certificate_manager/certificate_provisioning_details_dialog.js';
-import {CertificateProvisioningEntryElement} from 'chrome://resources/cr_components/certificate_manager/certificate_provisioning_entry.js';
-import {CertificateProvisioningListElement} from 'chrome://resources/cr_components/certificate_manager/certificate_provisioning_list.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CertificateProvisioningViewDetailsActionEvent} from 'decentr://resources/cr_components/certificate_manager/certificate_manager_types.js';
+import {CertificateProvisioningBrowserProxyImpl} from 'decentr://resources/cr_components/certificate_manager/certificate_provisioning_browser_proxy.js';
+import {CertificateProvisioningDetailsDialogElement} from 'decentr://resources/cr_components/certificate_manager/certificate_provisioning_details_dialog.js';
+import {CertificateProvisioningEntryElement} from 'decentr://resources/cr_components/certificate_manager/certificate_provisioning_entry.js';
+import {CertificateProvisioningListElement} from 'decentr://resources/cr_components/certificate_manager/certificate_provisioning_list.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';

@@ -238,7 +238,7 @@ function getMostVisitedStyles(params, isTitle) {
  */
 const isSchemeAllowed = function(url) {
   return url.startsWith('http://') || url.startsWith('https://') ||
-      url.startsWith('ftp://') || url.startsWith('chrome-extension://');
+      url.startsWith('ftp://') || url.startsWith('decentr-extension://');
 };
 
 /**

@@ -4,7 +4,7 @@ Fingerprint scanners are an easy way for users to authenticate to their devices.
 As per current policy, up to 3 fingerprints can be enrolled per user per device.
 On devices that have fingerprint sensors, users can enroll their fingerprints:
 1.  during the user login OOBE in the Fingerprint Enrollment screen
-2.  in lock screen settings page (chrome://settings/lockScreen).
+2.  in lock screen settings page (decentr://settings/lockScreen).
 
 The OOBE Fingerprint Enrollment screen is shown in the middle of OOBE flow and
 can be skipped. It prompts the user to enroll a fingerprint up to 3 times and

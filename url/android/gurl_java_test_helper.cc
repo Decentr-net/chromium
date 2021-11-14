@@ -45,7 +45,7 @@ static void JNI_GURLJavaTestHelper_TestGURLEquivalence(JNIEnv* env) {
       "gopher://foo/test/index.html",
       "ws://foo/test/index.html",
       // Non-standard,
-      "chrome://foo/bar.html",
+      "decentr://foo/bar.html",
       "httpa://foo/test/index.html",
       "blob:https://foo.bar/test/index.html",
       "about:blank",

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/polymer/v3_0/iron-location/iron-location.js';
-import 'chrome://resources/polymer/v3_0/iron-location/iron-query-params.js';
+import 'decentr://resources/polymer/v3_0/iron-location/iron-location.js';
+import 'decentr://resources/polymer/v3_0/iron-location/iron-query-params.js';
 
-import {Debouncer, html, microTask, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {Debouncer, html, microTask, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {QueryState} from './externs.js';
 

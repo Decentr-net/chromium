@@ -28,7 +28,7 @@ namespace extensions {
 namespace app_file_handler_util {
 namespace {
 
-const char kOrigin[] = "chrome-extension://cmalghjoncmjoeakimpfhojhpgemgaje";
+const char kOrigin[] = "decentr-extension://cmalghjoncmjoeakimpfhojhpgemgaje";
 const char kJPEGExtensionFilePath[] = "/fake/path/foo.jpg";
 const char kJPEGExtensionUpperCaseFilePath[] = "/fake/path/FOO.JPG";
 

@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PostMessageAPIClient} from 'chrome://resources/js/post_message_api_client.m.js';
-import {RequestHandler} from 'chrome://resources/js/post_message_api_request_handler.m.js';
+import {PostMessageAPIClient} from 'decentr://resources/js/post_message_api_client.m.js';
+import {RequestHandler} from 'decentr://resources/js/post_message_api_request_handler.m.js';
 
 import {ProjectorBrowserProxy, ProjectorBrowserProxyImpl} from '../../communication/projector_browser_proxy.js';
 
-const TARGET_URL = 'chrome-untrusted://projector/'
+const TARGET_URL = 'decentr-untrusted://projector/'
 
 
-// A PostMessageAPIClient that sends messages to chrome-untrusted://projector.
+// A PostMessageAPIClient that sends messages to decentr-untrusted://projector.
 export class UntrustedAppClient extends PostMessageAPIClient {
   /**
    * @param {!Window} targetWindow
@@ -70,7 +70,7 @@ export class TrustedAppRequestHandler extends RequestHandler {
 
 /**
  * This is a class that is used to setup the duplex communication
- * channels between this origin, chrome://projector/* and the iframe embedded
+ * channels between this origin, decentr://projector/* and the iframe embedded
  * inside the document.
  */
 export class AppTrustedCommFactory {

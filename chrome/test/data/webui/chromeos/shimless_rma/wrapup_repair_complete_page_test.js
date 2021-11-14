@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {FakeShimlessRmaService} from 'chrome://shimless-rma/fake_shimless_rma_service.js';
-import {setShimlessRmaServiceForTesting} from 'chrome://shimless-rma/mojo_interface_provider.js';
-import {WrapupRepairCompletePage} from 'chrome://shimless-rma/wrapup_repair_complete_page.js';
+import {FakeShimlessRmaService} from 'decentr://shimless-rma/fake_shimless_rma_service.js';
+import {setShimlessRmaServiceForTesting} from 'decentr://shimless-rma/mojo_interface_provider.js';
+import {WrapupRepairCompletePage} from 'decentr://shimless-rma/wrapup_repair_complete_page.js';
 
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

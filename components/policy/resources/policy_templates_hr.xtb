@@ -487,7 +487,7 @@
 
       Iznimke se mogu definirati u pravilu za popis dopuštenih URL-ova. Ta su pravila ograničena na 1000 unosa, a daljnji će se unosi zanemariti.
 
-      Ne preporučuje se blokiranje internih "chrome://*" URL-ova jer to može dovesti do neočekivanih pogrešaka.
+      Ne preporučuje se blokiranje internih "decentr://*" URL-ova jer to može dovesti do neočekivanih pogrešaka.
 
       'javascript://*' možete blokirati putem M73-a URL-ova. Međutim, to utječe samo na JavaScript u adresnoj traci (ili, primjerice, opcije označavanja). URL-ovi JavaScripta unutar stranice dugački kao dinamički učitani podaci nisu podložni ovom pravilu. Na primjer, ako blokirate 'example.com/abc', stranica 'example.com' i dalje će moći učitavati 'example.com/abc' putem zahtjeva XMLHTTPRequest.
 
@@ -648,7 +648,7 @@
       primjenjivati nakon ponovnog pokretanja.</translation>
 <translation id="2138449619211358657">To pravilo omogućuje da <ph name="PRODUCT_OS_NAME" /> zaobiđe bilo koji proxy za autentifikaciju zaštitnim portalom.
 
-      To se pravilo primjenjuje samo ako je konfiguriran proxy (na primjer, pravilom, korisnički na stranici chrome://settings ili proširenjima).
+      To se pravilo primjenjuje samo ako je konfiguriran proxy (na primjer, pravilom, korisnički na stranici decentr://settings ili proširenjima).
 
       Ako omogućite tu postavku, sve autentifikacijske stranice zaštitnog portala (tj., sve web-stranice koje se pokreću sa stranice za prijavu na zaštitnom portalu dok <ph name="PRODUCT_NAME" /> ne otkrije uspješnu internetsku vezu) prikazivat će se u zasebnom prozoru, zanemarujući sve postavke i ograničenja pravila za trenutačnog korisnika.
 
@@ -669,15 +669,15 @@
 <translation id="2170233653554726857">Omogući WPAD optimizaciju</translation>
 <translation id="2176565653304920879">Kada se to pravilo postavi, automatsko otkrivanje vremenske zone odvijat će se na jedan od sljedećih način ovisno o vrijednosti postavke:
 
-      Ako se pravilo postavi na TimezoneAutomaticDetectionUsersDecide, korisnici će moći upravljati automatskim otkrivanjem vremenske zone uobičajenim kontrolama na stranici chrome://settings.
+      Ako se pravilo postavi na TimezoneAutomaticDetectionUsersDecide, korisnici će moći upravljati automatskim otkrivanjem vremenske zone uobičajenim kontrolama na stranici decentr://settings.
 
-      Ako se pravilo postavi na TimezoneAutomaticDetectionDisabled, kontrole automatskog otkrivanja vremenske zone na stranici chrome://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek isključeno.
+      Ako se pravilo postavi na TimezoneAutomaticDetectionDisabled, kontrole automatskog otkrivanja vremenske zone na stranici decentr://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek isključeno.
 
-      Ako se pravilo postavi na TimezoneAutomaticDetectionIPOnly, kontrole za vremenske zone na stranici chrome://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek uključeno. Otkrivanje vremenske zone utvrđivat će lokaciju samo na temelju IP adrese.
+      Ako se pravilo postavi na TimezoneAutomaticDetectionIPOnly, kontrole za vremenske zone na stranici decentr://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek uključeno. Otkrivanje vremenske zone utvrđivat će lokaciju samo na temelju IP adrese.
 
-      Ako se pravilo postavi na TimezoneAutomaticDetectionSendWiFiAccessPoints, kontrole za vremenske zone na stranici chrome://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek uključeno. Popis vidljivih Wi-Fi pristupnih točaka uvijek će se slati poslužitelju API-ja Geolocation radi preciznog otkrivanja vremenske zone.
+      Ako se pravilo postavi na TimezoneAutomaticDetectionSendWiFiAccessPoints, kontrole za vremenske zone na stranici decentr://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek uključeno. Popis vidljivih Wi-Fi pristupnih točaka uvijek će se slati poslužitelju API-ja Geolocation radi preciznog otkrivanja vremenske zone.
 
-      Ako se pravilo postavi na TimezoneAutomaticDetectionSendAllLocationInfo, kontrole za vremenske zone na stranici chrome://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek uključeno. Podaci o lokaciji (na primjer Wi-Fi pristupne točke, dostupne bazne stanice, GPS) slat će se poslužitelju radi preciznog otkrivanja vremenske zone.
+      Ako se pravilo postavi na TimezoneAutomaticDetectionSendAllLocationInfo, kontrole za vremenske zone na stranici decentr://settings bit će onemogućene. Automatsko otkrivanje vremenske zone bit će uvijek uključeno. Podaci o lokaciji (na primjer Wi-Fi pristupne točke, dostupne bazne stanice, GPS) slat će se poslužitelju radi preciznog otkrivanja vremenske zone.
 
       Ako se to pravilo ne postavi, ponašat će se kao da je postavljeno pravilo TimezoneAutomaticDetectionUsersDecide.
 
@@ -1219,9 +1219,9 @@
       Ako se to pravilo ne postavi ili se postavi na "False", DHE paketi šifri u TLS-u neće biti omogućeni. U protivnom se može postaviti na "True" radi omogućivanja DHE paketa šifri i održanja kompatibilnosti sa zastarjelim poslužiteljem. To je privremena mjera i poslužitelj se treba ponovo konfigurirati.
 
       Potiče se premještanje poslužitelja na ECDHE pakete šifri. Ako oni nisu dostupni, pomoću RSA razmjene ključeva provjerite je li omogućen paket šifri.</translation>
-<translation id="3117706142826400449">Ako se pravilo onemogući, Chromeov alat za čišćenje neće pretraživati sustav radi pronalaženja i uklanjanja neželjenog softvera. Onemogućeno je i ručno pokretanje Chromeovog alata za čišćenje putem stranice chrome://settings/cleanup.
+<translation id="3117706142826400449">Ako se pravilo onemogući, Chromeov alat za čišćenje neće pretraživati sustav radi pronalaženja i uklanjanja neželjenog softvera. Onemogućeno je i ručno pokretanje Chromeovog alata za čišćenje putem stranice decentr://settings/cleanup.
 
-      Ako se pravilo omogući ili se ne postavi, Chromeov alat za čišćenje povremeno će tražiti neželjeni softver u sustavu i ako ga pronađe, korisniku će postaviti upit za uklanjanje. Omogućeno je i ručno aktiviranje Chromeovog alata za čišćenje putem stranice chrome://settings.
+      Ako se pravilo omogući ili se ne postavi, Chromeov alat za čišćenje povremeno će tražiti neželjeni softver u sustavu i ako ga pronađe, korisniku će postaviti upit za uklanjanje. Omogućeno je i ručno aktiviranje Chromeovog alata za čišćenje putem stranice decentr://settings.
 
       Pravilo je dostupno samo na instancama Windowsa koje su pridružene domeni <ph name="MS_AD_NAME" /> ili instancama Windowsa 10 Pro ili Enterprise prijavljenim za upravljanje uređajima.</translation>
 <translation id="3152425128389603870">Omogući i uključi Jedinstvenu radnu površinu prema zadanim postavkama</translation>
@@ -1265,7 +1265,7 @@
 <translation id="3284094172359247914">Upravljanje upotrebom API-ja WebUSB</translation>
 <translation id="3288595667065905535">Kanal izdanja</translation>
 <translation id="3292147213643666827">Omogućuje da se proizvod <ph name="PRODUCT_NAME" /> ponaša kao proxy između pisača iz oblaka <ph name="CLOUD_PRINT_NAME" /> i pisača iz starog sustava povezanih s računalom. Ako je ova postavka onemogućena ili nije konfigurirana, korisnici mogu omogućiti proxy ispisivanja na oblaku autentifikacijom putem svojih Google računa. Ako je ova postavka onemogućena, korisnici ne mogu omogućiti proxy, a računalu neće biti dopušteno dijeljenje pisača s oblakom <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Omogućuje stranicu na chrome://password-change na kojoj korisnici SAML-a mogu promijeniti svoje SAML zaporke unutar sesije kako bi SAML zaporka i zaporka zaključanog zaslona na uređaju ostale sinkronizirane.
+<translation id="3312206664202507568">Omogućuje stranicu na decentr://password-change na kojoj korisnici SAML-a mogu promijeniti svoje SAML zaporke unutar sesije kako bi SAML zaporka i zaporka zaključanog zaslona na uređaju ostale sinkronizirane.
 
       To pravilo omogućuje i prikaz obavijesti korisnicima SAML-a u slučaju skorog isteka njihovih SAML zaporki tako da ih mogu odmah promijeniti unutar sesije.
       No te će se obavijesti prikazati samo ako informacije o isteku zaporke uređaju pošalje davatelj identiteta za SAML tijekom postupka SAML prijave.
@@ -2018,7 +2018,7 @@
       Ova postavka, SitePerProcess, može se koristiti kako bi se korisnicima onemogućilo da se isključe iz zadanog ponašanja izolacije svih web-lokacija. Napominjemo da pravilo IsolateOrigins također može biti korisno za izolaciju dodatnih, preciznije određenih izvora.
       Ako se to pravilo omogući, korisnici se neće moći isključiti iz zadanog ponašanja pri kojem se svaka web-lokacija izvodi u svojem procesu.
       Ako se pravilo ne konfigurira ili se onemogući, korisnik će se moći isključiti iz izolacije web-lokacije
-      (na primjer pomoću unosa "Disable site isolation" (Onemogući izolaciju web-lokacije) na stranici chrome://flags).  Ako se to pravilo postavi na onemogućeno i/ili ne konfigurira, ono ne isključuje izolaciju web-lokacije.
+      (na primjer pomoću unosa "Disable site isolation" (Onemogući izolaciju web-lokacije) na stranici decentr://flags).  Ako se to pravilo postavi na onemogućeno i/ili ne konfigurira, ono ne isključuje izolaciju web-lokacije.
       Na proizvodu <ph name="PRODUCT_OS_NAME" /> do verzije 76 preporučuje se postaviti pravila za uređaje <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> na istu vrijednost. Ako se vrijednosti koje navode ta dva pravila ne podudaraju, može doći do kašnjenja prilikom pokretanja korisničke sesije dok se primjenjuje vrijednost koju navode korisnička pravila.
 
       NAPOMENA: to se pravilo ne primjenjuje na Androidu. Da biste omogućili SitePerProcess na Androidu, postavite pravilo SitePerProcessAndroid.
@@ -2889,7 +2889,7 @@ otvorene kartice. Zato će se neke kartice možda i dalje ponašati u skladu s p
 
           Ako omogućite tu postavku, za početnu se stranicu uvijek koristi web-stranica nove kartice i zanemaruje se lokacija URL-a početne stranice.
 
-          Ako onemogućite tu postavku, početna stranica korisnika nikad neće biti web-stranica nove kartice osim ako se njezin URL postavi na "chrome://newtab".
+          Ako onemogućite tu postavku, početna stranica korisnika nikad neće biti web-stranica nove kartice osim ako se njezin URL postavi na "decentr://newtab".
 
           Ako omogućite ili onemogućite tu postavku, korisnici neće moći promijeniti vrstu početne stranice u pregledniku <ph name="PRODUCT_NAME" />.
 
@@ -3061,7 +3061,7 @@ otvorene kartice. Zato će se neke kartice možda i dalje ponašati u skladu s p
 
       Ako se pravilo postavi na False, ugrađeni DNS klijent nikad se neće upotrebljavati.
 
-      Ako se to pravilo ne postavi, ugrađeni DNS klijent bit će omogućen prema zadanim postavkama na MacOS-u, Androidu (ako nisu omogućeni ni Privatni DNS ni VPN) i OS-u Chrome, a korisnici će moći promijeniti postavku upotrebe ugrađenog DNS klijenta uređivanjem oznaka na stranici chrome://flags ili navođenjem oznake naredbenog retka.</translation>
+      Ako se to pravilo ne postavi, ugrađeni DNS klijent bit će omogućen prema zadanim postavkama na MacOS-u, Androidu (ako nisu omogućeni ni Privatni DNS ni VPN) i OS-u Chrome, a korisnici će moći promijeniti postavku upotrebe ugrađenog DNS klijenta uređivanjem oznaka na stranici decentr://flags ili navođenjem oznake naredbenog retka.</translation>
 <translation id="6843296367238757293">Pravilo je zastarjelo. Njegova se upotreba ne preporučuje. Pročitajte više na https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">To je pravilo uklonjeno iz sustava <ph name="PRODUCT_NAME" /> 68 i zamijenjeno pravilom <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">To je pravilo zastarjelo i uklonjeno u M66 budući da se upotrebljavalo samo za interno testiranje i predstavlja sigurnosni rizik.
@@ -3676,7 +3676,7 @@ onemogućene. Korisnici će još uvijek moći ručno omogućiti SitePerProcess.
 <translation id="7941975817681987555">Ne predviđaj mrežne radnje ni na jednoj mrežnoj vezi</translation>
 <translation id="7952007677054834789">Konfigurirajte stranice koje se učitavaju prilikom pokretanja, zadanu početnu stranicu i zadanu stranicu nove kartice u pregledniku <ph name="PRODUCT_NAME" /> i spriječite korisnike da ih promijene.
 
-      Korisničke postavke početne stranice potpuno su zaključane samo ako odaberete početnu stranicu kao web-stranicu nove kartice ili je postavite kao URL i navedete URL početne stranice. Ako ne navedete URL početne stranice, korisnik će svejedno moći postaviti početnu stranicu na web-stranicu nove kartice tako da navede "chrome://newtab".
+      Korisničke postavke početne stranice potpuno su zaključane samo ako odaberete početnu stranicu kao web-stranicu nove kartice ili je postavite kao URL i navedete URL početne stranice. Ako ne navedete URL početne stranice, korisnik će svejedno moći postaviti početnu stranicu na web-stranicu nove kartice tako da navede "decentr://newtab".
 
       Pravilo "URL-ovi za otvaranje prilikom pokretanja" zanemaruje se ako ne odaberete "Otvori popis URL-ova" u odjeljku "Radnje prilikom pokretanja".</translation>
 <translation id="7952958573604504839">To je pravilo obustavljeno u verziji M48 u korist pravila <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, a uklonjeno je u verziji M54.

@@ -355,7 +355,7 @@ TEST_F(NetErrorTabHelperTest, NoDiagnosticsForNonHttpSchemes) {
     "",
     "http",
     "file:///blah/blah",
-    "chrome://blah/",
+    "decentr://blah/",
     "about:blank",
     "file://foo/bar",
   };
@@ -394,7 +394,7 @@ TEST_F(NetErrorTabHelperTest, NoDownloadPageLaterForNonHttpSchemes1) {
 }
 
 TEST_F(NetErrorTabHelperTest, NoDownloadPageLaterForNonHttpSchemes2) {
-  NoDownloadPageLaterForNonHttpSchemes("chrome://blah/", false);
+  NoDownloadPageLaterForNonHttpSchemes("decentr://blah/", false);
 }
 
 TEST_F(NetErrorTabHelperTest, NoDownloadPageLaterForNonHttpSchemes3) {

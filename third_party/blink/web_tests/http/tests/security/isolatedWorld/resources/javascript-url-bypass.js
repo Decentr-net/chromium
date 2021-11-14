@@ -41,14 +41,14 @@ function test() {
     case 2:
       alert('Isolated world with permissive CSP');
       testRunner.setIsolatedWorldInfo(
-          isolatedWorldID, 'chrome-extension://123',
+          isolatedWorldID, 'decentr-extension://123',
           'script-src \'unsafe-inline\'');
       testJavaScriptUrlInIsolatedWorld();
       break;
     case 3:
       alert('Isolated world with strict CSP');
       testRunner.setIsolatedWorldInfo(
-          isolatedWorldID, 'chrome-extension://123', 'script-src \'none\'');
+          isolatedWorldID, 'decentr-extension://123', 'script-src \'none\'');
       testJavaScriptUrlInIsolatedWorld();
       break;
     case 4:

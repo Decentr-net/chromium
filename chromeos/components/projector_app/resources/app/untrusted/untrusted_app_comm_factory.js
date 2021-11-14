@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PostMessageAPIClient} from 'chrome-untrusted://projector/js/post_message_api_client.m.js';
-import {RequestHandler} from 'chrome-untrusted://projector/js/post_message_api_request_handler.m.js';
+import {PostMessageAPIClient} from 'decentr-untrusted://projector/js/post_message_api_client.m.js';
+import {RequestHandler} from 'decentr-untrusted://projector/js/post_message_api_request_handler.m.js';
 
-const TARGET_URL = 'chrome://projector/'
+const TARGET_URL = 'decentr://projector/'
 
 /**
  * Returns the projector app element inside this current DOM.
@@ -135,7 +135,7 @@ export class UntrustedAppRequestHandler extends RequestHandler {
 
 /**
  * This is a class that is used to setup the duplex communication channels
- * between this origin, chrome-untrusted://projector/* and the embedder content.
+ * between this origin, decentr-untrusted://projector/* and the embedder content.
  */
 export class AppUntrustedCommFactory {
   /**

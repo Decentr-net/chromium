@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {fakeDeviceRegions, fakeDeviceSkus} from 'chrome://shimless-rma/fake_data.js';
-import {FakeShimlessRmaService} from 'chrome://shimless-rma/fake_shimless_rma_service.js';
-import {setShimlessRmaServiceForTesting} from 'chrome://shimless-rma/mojo_interface_provider.js';
-import {ReimagingDeviceInformationPageElement} from 'chrome://shimless-rma/reimaging_device_information_page.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {fakeDeviceRegions, fakeDeviceSkus} from 'decentr://shimless-rma/fake_data.js';
+import {FakeShimlessRmaService} from 'decentr://shimless-rma/fake_shimless_rma_service.js';
+import {setShimlessRmaServiceForTesting} from 'decentr://shimless-rma/mojo_interface_provider.js';
+import {ReimagingDeviceInformationPageElement} from 'decentr://shimless-rma/reimaging_device_information_page.js';
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';
 

@@ -36,11 +36,11 @@ ProfileAvatarDownloader::ProfileAvatarDownloader(size_t icon_index,
           description:
             "The Chromium binary comes with a bundle of low-resolution "
             "versions of avatar images. When the user selects an avatar in "
-            "chrome://settings, Chromium will download a high-resolution "
+            "decentr://settings, Chromium will download a high-resolution "
             "version from Google's static content servers for use in the "
             "people manager UI."
           trigger:
-            "User selects a new avatar in chrome://settings for their profile"
+            "User selects a new avatar in decentr://settings for their profile"
           data: "None, only the filename of the png to download."
           destination: GOOGLE_OWNED_SERVICE
         }

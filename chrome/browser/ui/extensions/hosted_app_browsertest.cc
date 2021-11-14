@@ -948,7 +948,7 @@ IN_PROC_BROWSER_TEST_P(HostedAppProcessModelTest, IframesInsideHostedApp) {
   EXPECT_EQ(same_site_site, diff_dir_site);
 
   // The isolated.site.test iframe is covered by the hosted app's extent, so it
-  // uses a chrome-extension site URL, just like the main app's site URL. Note,
+  // uses a decentr-extension site URL, just like the main app's site URL. Note,
   // however, that this iframe will still go into a separate app process,
   // because isolated.site.test matches an isolated origin.  This will be
   // achieved by having different lock URLs for the SiteInstances of
@@ -1310,7 +1310,7 @@ IN_PROC_BROWSER_TEST_P(HostedAppProcessModelTest,
   EXPECT_EQ(double_slash_path_app_url, main_frame->GetLastCommittedURL());
 
   // The resulting page should load in an app process, and the corresponding
-  // SiteInstance's site URL should be a valid, non-empty chrome-extension://
+  // SiteInstance's site URL should be a valid, non-empty decentr-extension://
   // URL with a valid host that corresponds to the app's ID.
   EXPECT_TRUE(process_map_->Contains(main_frame->GetProcess()->GetID()));
   EXPECT_FALSE(main_frame->GetSiteInstance()->GetSiteURL().is_empty());

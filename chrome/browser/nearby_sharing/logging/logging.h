@@ -11,7 +11,7 @@
 
 // Use the NS_LOG() macro for all logging related to Nearby Sharing so the debug
 // page can reflect all logs related to this feature in the internal debug WebUI
-// (chrome://nearby-internals).
+// (decentr://nearby-internals).
 #define NS_LOG(severity) \
   ScopedLogMessage(__FILE__, __LINE__, logging::LOG_##severity).stream()
 

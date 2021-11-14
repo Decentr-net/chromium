@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserProxy, changeFolderOpen, DragInfo, DropPosition} from 'chrome://bookmarks/bookmarks.js';
-import {middleOfNode, topLeftOfNode} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestBookmarksBrowserProxy} from 'chrome://test/bookmarks/test_browser_proxy.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {TestTimerProxy} from 'chrome://test/bookmarks/test_timer_proxy.js';
-import {createFolder, createItem, findFolderNode, getAllFoldersOpenState, normalizeIterable, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
+import {BrowserProxy, changeFolderOpen, DragInfo, DropPosition} from 'decentr://bookmarks/bookmarks.js';
+import {middleOfNode, topLeftOfNode} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestBookmarksBrowserProxy} from 'decentr://test/bookmarks/test_browser_proxy.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {TestTimerProxy} from 'decentr://test/bookmarks/test_timer_proxy.js';
+import {createFolder, createItem, findFolderNode, getAllFoldersOpenState, normalizeIterable, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
 
 suite('drag and drop', function() {
   let app;

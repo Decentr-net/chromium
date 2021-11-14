@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // TODO(crbug.com/1179821): Migrate to JS module Mojo bindings.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
 import './chrome_cart.mojom-lite.js';
 
 /**

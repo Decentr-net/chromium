@@ -604,7 +604,7 @@ void MobileSetupHandler::UpdatePortalReachability(const NetworkState* network,
 MobileSetupUI::MobileSetupUI(content::WebUI* web_ui) : ui::WebDialogUI(web_ui) {
   web_ui->AddMessageHandler(std::make_unique<MobileSetupHandler>());
 
-  // Set up the chrome://mobilesetup/ source.
+  // Set up the decentr://mobilesetup/ source.
   content::URLDataSource::Add(Profile::FromWebUI(web_ui),
                               std::make_unique<MobileSetupUIHTMLSource>());
 }

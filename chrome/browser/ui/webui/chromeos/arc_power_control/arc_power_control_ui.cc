@@ -37,7 +37,7 @@ content::WebUIDataSource* CreatePowerControlDataSource() {
   source->AddResourcePath(kArcTracingUiJsPath, IDR_ARC_TRACING_UI_JS);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self';");
+      "script-src decentr://resources 'self';");
 
   base::DictionaryValue localized_strings;
   const std::string& app_locale = g_browser_process->GetApplicationLocale();

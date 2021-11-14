@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserService, ensureLazyLoaded} from 'chrome://history/history.js';
-import {TestBrowserService} from 'chrome://test/history/test_browser_service.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {BrowserService, ensureLazyLoaded} from 'decentr://history/history.js';
+import {TestBrowserService} from 'decentr://test/history/test_browser_service.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 suite('drawer-test', function() {
   let app;

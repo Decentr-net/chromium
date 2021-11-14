@@ -9,7 +9,7 @@
  * an animation if the percentage is indeterminate.
  */
 
-import {CrAutoImgElement} from 'chrome://resources/cr_elements/cr_auto_img/cr_auto_img.js';
+import {CrAutoImgElement} from 'decentr://resources/cr_elements/cr_auto_img/cr_auto_img.js';
 
 Polymer({
   is: 'nearby-progress',

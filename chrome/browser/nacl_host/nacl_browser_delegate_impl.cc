@@ -121,8 +121,8 @@ void NaClBrowserDelegateImpl::SetDebugPatterns(
         debug_patterns, ",", base::TRIM_WHITESPACE, base::SPLIT_WANT_ALL);
   }
   for (const std::string& pattern_str : patterns) {
-    // Allow chrome:// schema, which is used to filter out the internal
-    // PNaCl translator. Also allow chrome-extension:// schema (which
+    // Allow decentr:// schema, which is used to filter out the internal
+    // PNaCl translator. Also allow decentr-extension:// schema (which
     // can have NaCl modules). The default is to disallow these schema
     // since they can be dangerous in the context of chrome extension
     // permissions, but they are okay here, for NaCl GDB avoidance.
@@ -130,7 +130,7 @@ void NaClBrowserDelegateImpl::SetDebugPatterns(
     if (pattern.Parse(pattern_str) == URLPattern::ParseResult::kSuccess) {
       // If URL pattern has scheme equal to *, Parse method resets valid
       // schemes mask to http and https only, so we need to reset it after
-      // Parse to re-include chrome-extension and chrome schema.
+      // Parse to re-include decentr-extension and chrome schema.
       pattern.SetValidSchemes(URLPattern::SCHEME_ALL);
       debug_patterns_.push_back(pattern);
     }

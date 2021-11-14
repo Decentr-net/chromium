@@ -16,7 +16,7 @@ namespace ash {
 
 class MediaAppPageHandler;
 
-// The WebUI controller for chrome://media-app.
+// The WebUI controller for decentr://media-app.
 class MediaAppUI : public ui::MojoWebUIController,
                    public media_app_ui::mojom::PageHandlerFactory {
  public:

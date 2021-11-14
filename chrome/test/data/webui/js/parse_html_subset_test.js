@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {parseHtmlSubset, sanitizeInnerHtml} from 'chrome://resources/js/parse_html_subset.m.js';
+import {parseHtmlSubset, sanitizeInnerHtml} from 'decentr://resources/js/parse_html_subset.m.js';
 
 suite('ParseHtmlSubsetModuleTest', function() {
   function parseAndAssertThrows() {
@@ -46,7 +46,7 @@ suite('ParseHtmlSubsetModuleTest', function() {
 
   test('valid anchors', function() {
     parseHtmlSubset('<a href="https://google.com">Google</a>');
-    parseHtmlSubset('<a href="chrome://settings">Google</a>');
+    parseHtmlSubset('<a href="decentr://settings">Google</a>');
   });
 
   test('invalid anchor hrefs', function() {
@@ -55,7 +55,7 @@ suite('ParseHtmlSubsetModuleTest', function() {
     parseAndAssertThrows('<a href="http/google.com">Google</a>');
     parseAndAssertThrows('<a href="javascript:alert(1)">Google</a>');
     parseAndAssertThrows(
-        '<a href="chrome-extension://whurblegarble">Google</a>');
+        '<a href="decentr-extension://whurblegarble">Google</a>');
   });
 
   test('invalid anchor attributes', function() {
@@ -94,12 +94,12 @@ suite('ParseHtmlSubsetModuleTest', function() {
     let result = parseHtmlSubset('<a role="link">link</a>', null, ['role']);
     assertEquals('link', result.firstChild.getAttribute('role'));
     result =
-        parseHtmlSubset('<img src="chrome://favicon2/">', ['img'], ['src']);
-    assertEquals('chrome://favicon2/', result.firstChild.getAttribute('src'));
+        parseHtmlSubset('<img src="decentr://favicon2/">', ['img'], ['src']);
+    assertEquals('decentr://favicon2/', result.firstChild.getAttribute('src'));
   });
 
   test('supported optional attributes without the argument', function() {
-    parseAndAssertThrows('<img src="chrome://favicon2/">', ['img']);
+    parseAndAssertThrows('<img src="decentr://favicon2/">', ['img']);
     parseAndAssertThrows('<a id="test">link</a>');
   });
 
@@ -114,8 +114,8 @@ suite('ParseHtmlSubsetModuleTest', function() {
 
   test('sanitizeInnerHtml', function() {
     assertEquals(
-        '<a href="chrome://foo"></a>',
-        sanitizeInnerHtml('<a href="chrome://foo"></a>'));
+        '<a href="decentr://foo"></a>',
+        sanitizeInnerHtml('<a href="decentr://foo"></a>'));
     assertThrows(() => {
       sanitizeInnerHtml('<iframe></iframe>');
     }, 'IFRAME is not supported');

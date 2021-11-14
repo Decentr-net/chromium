@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {assertEquals, assertFalse, assertNotEquals, assertTrue} from 'chrome://test/chai_assert.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {assertEquals, assertFalse, assertNotEquals, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {FilesMessage} from './files_message.js';
 

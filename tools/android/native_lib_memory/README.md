@@ -83,7 +83,7 @@ $ adb shell "echo '_ --log-native-library-residency' > /data/local/tmp/chrome-co
 $ adb shell mkdir /data/local/tmp/chrome
 ```
 
-To trace the device remotely, open <chrome://inspect/?tracing#devices>. Select
+To trace the device remotely, open <decentr://inspect/?tracing#devices>. Select
 the `memory-infra` category, and wait for a dump to complete. This requires a
 device running at least a 4.4 kernel.
 

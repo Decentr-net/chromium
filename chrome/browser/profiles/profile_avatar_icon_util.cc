@@ -337,7 +337,7 @@ constexpr SkColor kAvatarBubbleGaiaBackgroundColor =
     SkColorSetRGB(0xf5, 0xf5, 0xf5);
 constexpr SkColor kUserManagerBackgroundColor = SkColorSetRGB(0xee, 0xee, 0xee);
 
-constexpr char kDefaultUrlPrefix[] = "chrome://theme/IDR_PROFILE_AVATAR_";
+constexpr char kDefaultUrlPrefix[] = "decentr://theme/IDR_PROFILE_AVATAR_";
 constexpr base::FilePath::CharType kGAIAPictureFileName[] =
     FILE_PATH_LITERAL("Google Profile Picture.png");
 constexpr base::FilePath::CharType kHighResAvatarFolderName[] =
@@ -489,7 +489,7 @@ std::string GetPlaceholderAvatarIconUrl() {
   // icon (i.e. providing the image through
   // ProfileAttributesEntry::GetAvatarIcon(), instead) which would require more
   // refactoring.
-  return "chrome://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE";
+  return "decentr://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE";
 }
 
 const IconResourceInfo* GetDefaultAvatarIconResourceInfo(size_t index) {

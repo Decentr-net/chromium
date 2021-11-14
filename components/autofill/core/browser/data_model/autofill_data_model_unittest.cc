@@ -70,7 +70,7 @@ TEST(AutofillDataModelTest, IsVerified) {
   model.set_origin("data:text/plain;charset=utf-8;base64,ZXhhbXBsZQ==");
   EXPECT_FALSE(model.IsVerified());
 
-  model.set_origin("chrome://settings/autofill");
+  model.set_origin("decentr://settings/autofill");
   EXPECT_FALSE(model.IsVerified());
 
   model.set_origin(kSettingsOrigin);

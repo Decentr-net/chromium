@@ -1401,7 +1401,7 @@ TEST_F(WebContentsImplTest, CrossSiteNavigationBackOldNavigationIgnored) {
                                          ui::PAGE_TRANSITION_TYPED);
   EXPECT_EQ(entry1, controller().GetLastCommittedEntry());
 
-  // The newly created process for url1 should be locked to chrome://gpu.
+  // The newly created process for url1 should be locked to decentr://gpu.
   RenderProcessHost* new_process = contents()->GetMainFrame()->GetProcess();
   auto* policy = content::ChildProcessSecurityPolicy::GetInstance();
   EXPECT_TRUE(policy->CanAccessDataForOrigin(new_process->GetID(),
@@ -2329,7 +2329,7 @@ TEST_F(WebContentsImplTest, ActiveContentsCountChangeBrowsingInstance) {
   contents->NavigateAndCommit(GURL("http://a.com"));
   EXPECT_EQ(1u, instance->GetRelatedActiveContentsCount());
 
-  // Navigate to a URL which sort of looks like a chrome:// url.
+  // Navigate to a URL which sort of looks like a decentr:// url.
   contents->NavigateAndCommit(GURL("http://gpu"));
   if (CanCrossSiteNavigationsProactivelySwapBrowsingInstances()) {
     // The navigation from "a.com" to "gpu" is using a new BrowsingInstance.
@@ -3176,7 +3176,7 @@ TEST_F(WebContentsImplTest, CanonicalUrlSchemeHttpsIsAllowed) {
 }
 
 TEST_F(WebContentsImplTest, CanonicalUrlSchemeChromeIsNotAllowed) {
-  TestCanonicalUrlLocalFrame local_frame(contents(), GURL("chrome://someurl/"));
+  TestCanonicalUrlLocalFrame local_frame(contents(), GURL("decentr://someurl/"));
   NavigationSimulator::NavigateAndCommitFromBrowser(contents(),
                                                     GURL("https://site/"));
 

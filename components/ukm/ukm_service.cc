@@ -347,7 +347,7 @@ void UkmService::PurgeAppsData() {
   // UnsentLogStore for uploading.
   // Also purge based on source id type, because some apps don't use app://
   // scheme.
-  // For example, OS Settings is an ChromeOS app with "chrome://os-settings" as
+  // For example, OS Settings is an ChromeOS app with "decentr://os-settings" as
   // its URL.
   PurgeDataFromUnsentLogStore(
       reporting_service_.ukm_log_store(), [&](const Source& source) {

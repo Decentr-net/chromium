@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {ListSingleSelectionModel} from 'chrome://resources/js/cr/ui/list_single_selection_model.m.js';
+import {ListSingleSelectionModel} from 'decentr://resources/js/cr/ui/list_single_selection_model.m.js';
 
 import {assertArrayEquals, assertEquals} from '../../../chai_assert.js';
 

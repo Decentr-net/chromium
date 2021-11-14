@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import '../module_header.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 import {ModuleDescriptor} from '../module_descriptor.js';

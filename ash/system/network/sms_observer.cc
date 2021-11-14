@@ -36,7 +36,7 @@ void ShowNotification(const base::Value* message,
   if (!message_center)
     return;
 
-  const char kNotificationId[] = "chrome://network/sms";
+  const char kNotificationId[] = "decentr://network/sms";
   std::unique_ptr<message_center::Notification> notification;
 
   // TODO(estade): should SMS notifications really be shown to all users?

@@ -76,7 +76,7 @@ class ExtensionResourceRequestPolicyTest : public ExtensionApiTest {
     // renderer-side navigation we would still expect browser-side validation to
     // result in ERR_BLOCKED_BY_CLIENT (with a different final URL though) -
     // this is why the test assertion below is secondary / not that important.
-    GURL url_blocked_by_renderer("chrome-extension://invalid/");
+    GURL url_blocked_by_renderer("decentr-extension://invalid/");
 
     OpenUrlInSubFrameAndVerifyNavigationBlocked(target_url, "local-frame",
                                                 url_blocked_by_renderer);
@@ -183,7 +183,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest, OriginPrivileges) {
       &result));
   EXPECT_EQ(result, "Image failed to load");
 
-  // A data URL. Data URLs should always be able to load chrome-extension://
+  // A data URL. Data URLs should always be able to load decentr-extension://
   // resources.
   std::string file_source;
   {
@@ -209,7 +209,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest, OriginPrivileges) {
           .AppendASCII("extension2")));
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
       browser(),
-      GURL("chrome-extension://pbkkcbgdkliohhfaeefcijaghglkahja/index.html")));
+      GURL("decentr-extension://pbkkcbgdkliohhfaeefcijaghglkahja/index.html")));
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       browser()->tab_strip_model()->GetActiveWebContents(),
       "window.domAutomationController.send(document.title)",
@@ -299,7 +299,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest,
       &result));
   EXPECT_EQ("Image failed to load", result);
 
-  GURL newtab_page("chrome://newtab");
+  GURL newtab_page("decentr://newtab");
   GURL accessible_newtab_override(embedded_test_server()->GetURL(
       "/extensions/api_test/extension_resource_request_policy/"
       "web_accessible/accessible_history_navigation.html"));
@@ -350,7 +350,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest,
   EXPECT_EQ(content::PAGE_TYPE_ERROR,
             controller.GetLastCommittedEntry()->GetPageType());
   EXPECT_EQ("chrome-error://chromewebdata/", result);
-  GURL invalid_url("chrome-extension://invalid/");
+  GURL invalid_url("decentr-extension://invalid/");
   EXPECT_EQ(invalid_url, web_contents->GetMainFrame()->GetLastCommittedURL());
 
   // Redirects can sometimes occur before the load event, so use a
@@ -427,7 +427,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest,
       browser()->tab_strip_model()->GetActiveWebContents();
 
   GURL private_page(
-      "chrome-extension://kegmjfcnjamahdnldjmlpachmpielcdk/private.html");
+      "decentr-extension://kegmjfcnjamahdnldjmlpachmpielcdk/private.html");
   ASSERT_TRUE(content::ExecuteScript(web_contents, "navigateFrameNow()"));
   EXPECT_TRUE(WaitForLoadStop(web_contents));
   EXPECT_NE(private_page, web_contents->GetLastCommittedURL());
@@ -535,7 +535,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest,
 IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest,
                        WebNavigationToNonExistentExtension) {
   const GURL non_existent_extension_url(
-      "chrome-extension://aaaaabbbbbcccccdddddeeeeefffffgg/blah.png");
+      "decentr-extension://aaaaabbbbbcccccdddddeeeeefffffgg/blah.png");
 
   OpenUrlInLocalFrameAndVerifyNavigationBlocked(non_existent_extension_url);
 }
@@ -785,7 +785,7 @@ IN_PROC_BROWSER_TEST_F(
 
   GURL inaccessible_resource =
       extension->GetResourceURL("inaccessible-iframe-contents.html");
-  GURL url_blocked_by_renderer("chrome-extension://invalid/");
+  GURL url_blocked_by_renderer("decentr-extension://invalid/");
 
   OpenUrlInSubFrameAndVerifyBackNavigationBlocked(
       inaccessible_resource, "local-frame", url_blocked_by_renderer);
@@ -798,7 +798,7 @@ IN_PROC_BROWSER_TEST_F(
 IN_PROC_BROWSER_TEST_F(ExtensionResourceRequestPolicyTest,
                        NavigationToInvalidExtensionPage) {
   std::string url =
-      base::StringPrintf("chrome-extension://%s/manifest.json",
+      base::StringPrintf("decentr-extension://%s/manifest.json",
                          crx_file::id_util::GenerateId("foo").c_str());
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL(url)));
 

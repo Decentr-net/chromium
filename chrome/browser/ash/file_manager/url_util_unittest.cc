@@ -37,15 +37,15 @@ std::string PrettyPrintEscapedJson(const std::string& query) {
 }
 
 TEST(FileManagerUrlUtilTest, GetFileManagerMainPageUrl) {
-  EXPECT_EQ("chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/main.html",
+  EXPECT_EQ("decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/main.html",
             GetFileManagerMainPageUrl().spec());
 }
 
 TEST(FileManagerUrlUtilTest, GetFileManagerMainPageUrlWithParams_NoFileTypes) {
   const GURL url = GetFileManagerMainPageUrlWithParams(
       ui::SelectFileDialog::SELECT_OPEN_FILE, u"some title",
-      GURL("filesystem:chrome-extension://abc/Downloads/"),
-      GURL("filesystem:chrome-extension://abc/Downloads/foo.txt"), "foo.txt",
+      GURL("filesystem:decentr-extension://abc/Downloads/"),
+      GURL("filesystem:decentr-extension://abc/Downloads/foo.txt"), "foo.txt",
       nullptr,  // No file types
       0,        // Hence no file type index.
       "",       // search_query
@@ -62,10 +62,10 @@ TEST(FileManagerUrlUtilTest, GetFileManagerMainPageUrlWithParams_NoFileTypes) {
                 "{\n"
                 "   \"allowedPaths\": \"nativePath\",\n"
                 "   \"currentDirectoryURL\": "
-                "\"filesystem:chrome-extension://abc/Downloads/\",\n"
+                "\"filesystem:decentr-extension://abc/Downloads/\",\n"
                 "   \"searchQuery\": \"\",\n"
                 "   \"selectionURL\": "
-                "\"filesystem:chrome-extension://abc/Downloads/foo.txt\",\n"
+                "\"filesystem:decentr-extension://abc/Downloads/foo.txt\",\n"
                 "   \"showAndroidPickerApps\": false,\n"
                 "   \"title\": \"some title\",\n"
                 "   \"type\": \"open-file\"\n"
@@ -91,8 +91,8 @@ TEST(FileManagerUrlUtilTest,
 
   const GURL url = GetFileManagerMainPageUrlWithParams(
       ui::SelectFileDialog::SELECT_SAVEAS_FILE, u"some title",
-      GURL("filesystem:chrome-extension://abc/Downloads/"),
-      GURL("filesystem:chrome-extension://abc/Downloads/foo.txt"), "foo.txt",
+      GURL("filesystem:decentr-extension://abc/Downloads/"),
+      GURL("filesystem:decentr-extension://abc/Downloads/foo.txt"), "foo.txt",
       &file_types,
       1,  // The file type index is 1-based.
       "search query",
@@ -109,11 +109,11 @@ TEST(FileManagerUrlUtilTest,
       "{\n"
       "   \"allowedPaths\": \"anyPath\",\n"
       "   \"currentDirectoryURL\": "
-      "\"filesystem:chrome-extension://abc/Downloads/\",\n"
+      "\"filesystem:decentr-extension://abc/Downloads/\",\n"
       "   \"includeAllFiles\": false,\n"
       "   \"searchQuery\": \"search query\",\n"
       "   \"selectionURL\": "
-      "\"filesystem:chrome-extension://abc/Downloads/foo.txt\",\n"
+      "\"filesystem:decentr-extension://abc/Downloads/foo.txt\",\n"
       "   \"showAndroidPickerApps\": true,\n"
       "   \"targetName\": \"foo.txt\",\n"
       "   \"title\": \"some title\",\n"

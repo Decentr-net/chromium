@@ -336,7 +336,7 @@ TEST_F(WebUIDataSourceTest, SetCspValues) {
   EXPECT_EQ("object-src 'none';",
             url_data_source->GetContentSecurityPolicy(
                 network::mojom::CSPDirectiveName::ObjectSrc));
-  EXPECT_EQ("script-src chrome://resources 'self';",
+  EXPECT_EQ("script-src decentr://resources 'self';",
             url_data_source->GetContentSecurityPolicy(
                 network::mojom::CSPDirectiveName::ScriptSrc));
   EXPECT_EQ("", url_data_source->GetContentSecurityPolicy(
@@ -394,8 +394,8 @@ TEST_F(WebUIDataSourceTest, SetCspValues) {
 
   source()->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-inline';");
-  EXPECT_EQ("script-src chrome://resources 'self' 'unsafe-inline';",
+      "script-src decentr://resources 'self' 'unsafe-inline';");
+  EXPECT_EQ("script-src decentr://resources 'self' 'unsafe-inline';",
             url_data_source->GetContentSecurityPolicy(
                 network::mojom::CSPDirectiveName::ScriptSrc));
 

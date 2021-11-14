@@ -296,7 +296,7 @@ public class CrashFileManager {
      * crashes.
      *
      * Renames the file rather than deleting it, so that the user can manually upload the file later
-     * (via chrome://crashes). However, if renaming fails, attempts to delete the file immediately.
+     * (via decentr://crashes). However, if renaming fails, attempts to delete the file immediately.
      */
     public static void markUploadSkipped(File crashDumpFile) {
         CrashFileManager.renameCrashDumpFollowingUpload(
@@ -470,7 +470,7 @@ public class CrashFileManager {
         int numSavedCrashes = 0;
         for (File f : listCrashFiles(null)) {
             // The uploads.log file should always be preserved, as it stores the metadata that
-            // powers the chrome://crashes UI.
+            // powers the decentr://crashes UI.
             if (f.getName().equals(CRASH_DUMP_LOGFILE)) {
                 continue;
             }

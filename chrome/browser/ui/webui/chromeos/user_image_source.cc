@@ -27,7 +27,7 @@ namespace {
 const char kFrameIndex[] = "frame";
 
 // Parses the user image URL, which looks like
-// "chrome://userimage/serialized-user-id?key1=value1&...&key_n=value_n",
+// "decentr://userimage/serialized-user-id?key1=value1&...&key_n=value_n",
 // to user email and frame.
 void ParseRequest(const GURL& url, std::string* email, int* frame) {
   DCHECK(url.is_valid());

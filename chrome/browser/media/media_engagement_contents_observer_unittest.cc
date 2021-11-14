@@ -1076,7 +1076,7 @@ TEST_F(MediaEngagementContentsObserverTest,
 }
 
 TEST_F(MediaEngagementContentsObserverTest, DoNotCreateSessionOnInternalUrl) {
-  Navigate(GURL("chrome://about"));
+  Navigate(GURL("decentr://about"));
 
   // Delete recorded UKM related to the previous navigation to not have to rely
   // on how the SetUp() is made.
@@ -1286,9 +1286,9 @@ TEST_F(MediaEngagementContentsObserverTest, OnlyIgnoreFinishedMedia) {
 
 TEST_F(MediaEngagementContentsObserverTest, GetOrCreateSession_SpecialURLs) {
   std::vector<url::Origin> origins = {
-      // chrome:// and about: URLs don't use MEI.
+      // decentr:// and about: URLs don't use MEI.
       url::Origin::Create(GURL("about:blank")),
-      url::Origin::Create(GURL("chrome://settings")),
+      url::Origin::Create(GURL("decentr://settings")),
       // Only http/https URLs use MEI, ignoring other protocals.
       url::Origin::Create(GURL("file:///tmp/")),
       url::Origin::Create(GURL("foobar://")),

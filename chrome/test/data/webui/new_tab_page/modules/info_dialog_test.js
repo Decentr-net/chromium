@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, InfoDialogElement} from 'chrome://new-tab-page/new_tab_page.js';
+import {$$, InfoDialogElement} from 'decentr://new-tab-page/new_tab_page.js';
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 
 suite('NewTabPageModulesInfoDialogTest', () => {

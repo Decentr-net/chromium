@@ -108,21 +108,21 @@ tree:focus .tree-row[selected] {
 
 .tree-label-icon,
 .tree-row[may-have-children] > .tree-label-icon {
-  background-image: url(chrome://theme/IDR_FOLDER_CLOSED);
+  background-image: url(decentr://theme/IDR_FOLDER_CLOSED);
 }
 
 <if expr="is_macosx or is_ios">
 @media (prefers-color-scheme: dark) {
   .tree-label-icon,
   .tree-row[may-have-children] > .tree-label-icon {
-    background-image: url(chrome://theme/IDR_FOLDER_CLOSED_WHITE);
+    background-image: url(decentr://theme/IDR_FOLDER_CLOSED_WHITE);
   }
 }
 </if>
 
 <if expr="not is_macosx and not is_ios">
 .tree-item[expanded] > .tree-row > .tree-label-icon {
-  background-image: url(chrome://theme/IDR_FOLDER_OPEN);
+  background-image: url(decentr://theme/IDR_FOLDER_OPEN);
 }
 </if>
 

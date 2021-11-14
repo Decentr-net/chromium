@@ -197,7 +197,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionDisabledGlobalErrorTest,
   // Although the dialog is modal, a user can still uninstall the extension by
   // other means, e.g. if the user had two browser windows open they can use the
   // second browser window that does not contain the modal dialog, navigate to
-  // chrome://extensions and uninstall the extension.
+  // decentr://extensions and uninstall the extension.
   UninstallExtension(extension->id());
 }
 

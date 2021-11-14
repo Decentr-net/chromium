@@ -123,7 +123,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionCSPBypassTest, LoadWebAccessibleScript) {
   const Extension* ext_with_permission = AddExtension(false, true);
   const Extension* ext_without_permission = AddExtension(false, false);
 
-  // chrome-extension:-URLs can always bypass CSP in normal pages.
+  // decentr-extension:-URLs can always bypass CSP in normal pages.
   GURL non_webui_url(embedded_test_server()->GetURL("/empty.html"));
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), non_webui_url));
 
@@ -132,7 +132,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionCSPBypassTest, LoadWebAccessibleScript) {
   EXPECT_TRUE(CanLoadScript(ext_with_permission));
   EXPECT_TRUE(CanLoadScript(ext_without_permission));
 
-  // chrome-extension:-URLs can never bypass CSP in WebUI.
+  // decentr-extension:-URLs can never bypass CSP in WebUI.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
                                            GURL(chrome::kChromeUISettingsURL)));
 

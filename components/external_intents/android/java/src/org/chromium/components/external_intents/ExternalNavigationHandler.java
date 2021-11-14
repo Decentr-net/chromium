@@ -676,7 +676,7 @@ public class ExternalNavigationHandler {
     private boolean isLinkFromChromeInternalPage(ExternalNavigationParams params) {
         if (params.getReferrerUrl().getScheme().equals(UrlConstants.CHROME_SCHEME)
                 && UrlUtilities.isHttpOrHttps(params.getUrl())) {
-            if (DEBUG) Log.i(TAG, "Link from an internal chrome:// page");
+            if (DEBUG) Log.i(TAG, "Link from an internal decentr:// page");
             return true;
         }
         return false;
@@ -915,7 +915,7 @@ public class ExternalNavigationHandler {
         if (isIntentWithSupportedProtocol && !hasSpecializedHandler) return true;
 
         // Fall back to querying for browser packages if the intent doesn't obviously match or not
-        // match a browser. This will catch custom URL schemes like googlechrome://.
+        // match a browser. This will catch custom URL schemes like googledecentr://.
         Set<String> browserPackages = getInstalledBrowserPackages();
 
         if (hasSpecializedHandler) {

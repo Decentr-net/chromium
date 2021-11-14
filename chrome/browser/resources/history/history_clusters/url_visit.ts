@@ -4,13 +4,13 @@
 
 import './page_favicon.js';
 import './shared_style.js';
-import 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import 'chrome://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
+import 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import 'decentr://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
 
-import {CrActionMenuElement} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {CrLazyRenderElement} from 'chrome://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrActionMenuElement} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {CrLazyRenderElement} from 'decentr://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Annotation, URLVisit} from './history_clusters.mojom-webui.js';
 import {MetricsProxyImpl, VisitAction, VisitType} from './metrics_proxy.js';

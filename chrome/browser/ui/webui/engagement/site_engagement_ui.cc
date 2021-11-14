@@ -94,12 +94,12 @@ class SiteEngagementDetailsProviderImpl
 
 SiteEngagementUI::SiteEngagementUI(content::WebUI* web_ui)
     : ui::MojoWebUIController(web_ui) {
-  // Set up the chrome://site-engagement/ source.
+  // Set up the decentr://site-engagement/ source.
   std::unique_ptr<content::WebUIDataSource> source(
       content::WebUIDataSource::Create(chrome::kChromeUISiteEngagementHost));
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   source->AddResourcePath("site_engagement.js", IDR_SITE_ENGAGEMENT_JS);
   source->AddResourcePath("site_engagement_details.mojom-webui.js",
                           IDR_SITE_ENGAGEMENT_DETAILS_MOJOM_WEBUI_JS);

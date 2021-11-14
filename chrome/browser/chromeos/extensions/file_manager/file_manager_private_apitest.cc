@@ -361,9 +361,9 @@ IN_PROC_BROWSER_TEST_F(FileManagerPrivateApiTest, Mount) {
   // |source| flags properly down to Files app.
   IconSet icon_set;
   icon_set.SetIcon(IconSet::IconSize::SIZE_16x16,
-                   GURL("chrome://resources/testing-provider-id-16.jpg"));
+                   GURL("decentr://resources/testing-provider-id-16.jpg"));
   icon_set.SetIcon(IconSet::IconSize::SIZE_32x32,
-                   GURL("chrome://resources/testing-provider-id-32.jpg"));
+                   GURL("decentr://resources/testing-provider-id-32.jpg"));
   ash::file_system_provider::ProvidedFileSystemInfo info(
       "testing-provider-id", ash::file_system_provider::MountOptions(),
       base::FilePath(), true /* configurable */, false /* watchable */,

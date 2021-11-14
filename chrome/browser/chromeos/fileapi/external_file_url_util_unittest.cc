@@ -34,7 +34,7 @@ class ExternalFileURLUtilTest : public testing::Test {
 
   storage::FileSystemURL CreateExpectedURL(const base::FilePath& path) {
     return storage::FileSystemURL::CreateForTest(
-        blink::StorageKey::CreateFromStringForTesting("chrome-extension://xxx"),
+        blink::StorageKey::CreateFromStringForTesting("decentr-extension://xxx"),
         storage::kFileSystemTypeExternal,
         base::FilePath("arc-documents-provider").Append(path), "",
         storage::kFileSystemTypeArcDocumentsProvider, base::FilePath(), "",

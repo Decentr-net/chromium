@@ -12,7 +12,7 @@
 
 class BluetoothInternalsHandler;
 
-// The WebUI for chrome://bluetooth-internals
+// The WebUI for decentr://bluetooth-internals
 class BluetoothInternalsUI : public ui::MojoWebUIController {
  public:
   explicit BluetoothInternalsUI(content::WebUI* web_ui);

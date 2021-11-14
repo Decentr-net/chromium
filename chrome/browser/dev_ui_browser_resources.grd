@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-This file specifies browser resources for developer-facing chrome:// pages
+This file specifies browser resources for developer-facing decentr:// pages
 (DevUI pages). This is needed by the Developer WebUI Dynamic Feature Module
 (DevUI DFM) for Android Chrome. Details:
 * User-facing resources should reside in browser_resources.grd.
 * DevUI page resources that are *not* for Android Chrome can reside in
   browser_resources.grd
 * This file is the "miscellaneous" bin among DevUI pages; individual DevUI pages
-  (e.g., chrome://bluetooth-internals) can have their own GRD files.
+  (e.g., decentr://bluetooth-internals) can have their own GRD files.
 -->
 <grit latest_public_release="0" current_release="1" output_all_resource_defines="false">
   <outputs>

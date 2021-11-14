@@ -6,7 +6,7 @@ var firstWindowId;
 
 chrome.test.runTests([
   function setupWindow() {
-    createWindow(["about:blank", "chrome://newtab/", pageUrl("a")], {},
+    createWindow(["about:blank", "decentr://newtab/", pageUrl("a")], {},
                  pass(function(winId, tabIds) {
       firstWindowId = winId;
     }));

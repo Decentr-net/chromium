@@ -20,7 +20,7 @@
         securityStatusText:(NSString*)statusText;
 
 // Notifies the consumer about shareability of the current web page. Some web
-// pages are not considered shareable (e.g. chrome://flags), and the share
+// pages are not considered shareable (e.g. decentr://flags), and the share
 // button for such pages should not be enabled.
 - (void)updateLocationShareable:(BOOL)shareable;
 

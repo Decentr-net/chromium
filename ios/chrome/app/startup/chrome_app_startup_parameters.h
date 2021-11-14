@@ -76,7 +76,7 @@ enum MobileSessionCallerApp {
 // - file://url/goes/here
 //   Here the received URL is a file. This is used in cases where the app
 //   receives a file from another app. The string for the parser URL is
-//   "chrome://external-file/url/goes/here"
+//   "decentr://external-file/url/goes/here"
 //
 // - x-<protocol>://x-callback-url/<action>?url=<url/goes/here>
 //   This forms is compliant with x-callback-url (x-callback-url.com).

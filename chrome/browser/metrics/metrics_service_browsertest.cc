@@ -186,7 +186,7 @@ IN_PROC_BROWSER_TEST_F(MetricsServiceBrowserTest, MAYBE_CrashRenderers) {
   // Verify that the expected stability metrics were recorded.
   const PrefService* prefs = g_browser_process->local_state();
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityLaunchCount));
-  // The three tabs from OpenTabs() and the one tab to open chrome://crash/.
+  // The three tabs from OpenTabs() and the one tab to open decentr://crash/.
   EXPECT_EQ(4, prefs->GetInteger(metrics::prefs::kStabilityPageLoadCount));
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityRendererCrashCount));
 
@@ -220,7 +220,7 @@ IN_PROC_BROWSER_TEST_F(MetricsServiceBrowserTest,
   // Verify that the expected stability metrics were recorded.
   const PrefService* prefs = g_browser_process->local_state();
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityLaunchCount));
-  // The three tabs from OpenTabs() and the one tab to open chrome://crash/.
+  // The three tabs from OpenTabs() and the one tab to open decentr://crash/.
   EXPECT_EQ(4, prefs->GetInteger(metrics::prefs::kStabilityPageLoadCount));
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityRendererCrashCount));
 
@@ -241,7 +241,7 @@ IN_PROC_BROWSER_TEST_F(MetricsServiceBrowserTest, MAYBE_CheckCrashRenderers) {
   const PrefService* prefs = g_browser_process->local_state();
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityLaunchCount));
   // The three tabs from OpenTabs() and the one tab to open
-  // chrome://checkcrash/.
+  // decentr://checkcrash/.
   EXPECT_EQ(4, prefs->GetInteger(metrics::prefs::kStabilityPageLoadCount));
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityRendererCrashCount));
 
@@ -273,7 +273,7 @@ IN_PROC_BROWSER_TEST_F(MetricsServiceBrowserTest, OOMRenderers) {
   const PrefService* prefs = g_browser_process->local_state();
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityLaunchCount));
   // The three tabs from OpenTabs() and the one tab to open
-  // chrome://memory-exhaust/.
+  // decentr://memory-exhaust/.
   EXPECT_EQ(4, prefs->GetInteger(metrics::prefs::kStabilityPageLoadCount));
   EXPECT_EQ(1, prefs->GetInteger(metrics::prefs::kStabilityRendererCrashCount));
 

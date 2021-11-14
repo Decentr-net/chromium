@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/input_list.js';
+import 'decentr://diagnostics/input_list.js';
 
-import {ConnectionType, KeyboardInfo, MechanicalLayout, NumberPadPresence, PhysicalLayout, TouchDeviceInfo, TouchDeviceType} from 'chrome://diagnostics/diagnostics_types.js';
-import {fakeKeyboards, fakeTouchDevices} from 'chrome://diagnostics/fake_data.js';
-import {FakeInputDataProvider} from 'chrome://diagnostics/fake_input_data_provider.js';
-import {setInputDataProviderForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
+import {ConnectionType, KeyboardInfo, MechanicalLayout, NumberPadPresence, PhysicalLayout, TouchDeviceInfo, TouchDeviceType} from 'decentr://diagnostics/diagnostics_types.js';
+import {fakeKeyboards, fakeTouchDevices} from 'decentr://diagnostics/fake_data.js';
+import {FakeInputDataProvider} from 'decentr://diagnostics/fake_input_data_provider.js';
+import {setInputDataProviderForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

@@ -13,7 +13,7 @@ namespace pdf {
 class FakePdfStreamDelegate : public PdfStreamDelegate {
  public:
   static constexpr char kDefaultStreamUrl[] =
-      "chrome-extension://id/stream-url";
+      "decentr-extension://id/stream-url";
   static constexpr char kDefaultOriginalUrl[] = "https://example.test/fake.pdf";
 
   FakePdfStreamDelegate();

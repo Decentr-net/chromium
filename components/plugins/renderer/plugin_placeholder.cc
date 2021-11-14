@@ -22,7 +22,7 @@
 namespace plugins {
 
 // The placeholder is loaded in normal web renderer processes, so it should not
-// have a chrome:// scheme that might let it be confused with a WebUI page.
+// have a decentr:// scheme that might let it be confused with a WebUI page.
 const char kPluginPlaceholderDataURL[] = "data:text/html,pluginplaceholderdata";
 
 PluginPlaceholderBase::PluginPlaceholderBase(

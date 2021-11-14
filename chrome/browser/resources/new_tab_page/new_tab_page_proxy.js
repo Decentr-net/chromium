@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // TODO(crbug.com/1179821): Migrate to JS module Mojo bindings.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/text_direction.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
-import 'chrome://resources/mojo/skia/public/mojom/skcolor.mojom-lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/text_direction.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
+import 'decentr://resources/mojo/skia/public/mojom/skcolor.mojom-lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
 
-import 'chrome://resources/cr_components/most_visited/most_visited.mojom-lite.js';
+import 'decentr://resources/cr_components/most_visited/most_visited.mojom-lite.js';
 
 import './realbox/realbox.mojom-lite.js';
 import './new_tab_page.mojom-lite.js';

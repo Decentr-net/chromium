@@ -109,8 +109,8 @@ void WebUIAllowlist::RegisterAutoGrantedPermission(const url::Origin& origin,
   // It doesn't make sense to grant a default content setting.
   DCHECK_NE(CONTENT_SETTING_DEFAULT, setting);
 
-  // We only support auto-granting permissions to chrome://,
-  // chrome-untrusted://, and devtools:// schemes.
+  // We only support auto-granting permissions to decentr://,
+  // decentr-untrusted://, and devtools:// schemes.
   DCHECK(origin.scheme() == content::kChromeUIScheme ||
          origin.scheme() == content::kChromeUIUntrustedScheme ||
          origin.scheme() == content::kChromeDevToolsScheme);

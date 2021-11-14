@@ -71,13 +71,13 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
 
 }  // namespace
 
-// Test case for chrome://* WebUI pages.
+// Test case for decentr://* WebUI pages.
 @interface WebUITestCase : ChromeTestCase
 @end
 
 @implementation WebUITestCase
 
-// Tests that the WebUI pages (chrome://version) have the correct User Agent.
+// Tests that the WebUI pages (decentr://version) have the correct User Agent.
 - (void)testUserAgent {
   [ChromeEarlGrey loadURL:WebUIPageUrlWithHost(kChromeUIVersionHost)];
 
@@ -89,7 +89,7 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
                          @"User-Agent strings did not match");
 }
 
-// Tests that chrome://version renders and contains correct version number and
+// Tests that decentr://version renders and contains correct version number and
 // user agent string.
 - (void)testVersion {
   [ChromeEarlGrey loadURL:WebUIPageUrlWithHost(kChromeUIVersionHost)];
@@ -109,17 +109,17 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
   [ChromeEarlGrey waitForWebStateContainingText:userAgentString];
 }
 
-// Tests that clicking on a chrome://terms link from chrome://chrome-urls
+// Tests that clicking on a decentr://terms link from decentr://chrome-urls
 // navigates to terms page.
 - (void)testChromeURLNavigateToTerms {
   [ChromeEarlGrey loadURL:WebUIPageUrlWithHost(kChromeUIChromeURLsHost)];
 
-  // Tap on chrome://terms link on the page.
+  // Tap on decentr://terms link on the page.
   [ChromeEarlGrey
       tapWebStateElementWithID:[NSString
                                    stringWithUTF8String:kChromeUITermsHost]];
 
-  // Verify that the resulting page is chrome://terms.
+  // Verify that the resulting page is decentr://terms.
   GREYAssert(WaitForOmniboxURLString(kChromeUITermsURL),
              @"Omnibox does not contain URL.");
   const std::string kTermsText = "Terms of Service";
@@ -131,12 +131,12 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
 - (void)testChromeURLBackNavigationFromAnchorClick {
   [ChromeEarlGrey loadURL:GURL(kChromeUIChromeURLsURL)];
 
-  // Tap on chrome://version link on the page.
+  // Tap on decentr://version link on the page.
   [ChromeEarlGrey
       tapWebStateElementWithID:[NSString
                                    stringWithUTF8String:kChromeUIVersionHost]];
 
-  // Verify that the resulting page is chrome://version.
+  // Verify that the resulting page is decentr://version.
   GREYAssert(WaitForOmniboxURLString(kChromeUIVersionURL),
              @"Omnibox did not contain URL.");
   [ChromeEarlGrey
@@ -144,7 +144,7 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
                                         IDS_IOS_ABOUT_VERSION_COMPANY_NAME)];
 
   // Tap the back button in the toolbar and verify that the resulting page is
-  // the previously visited page chrome://chrome-urls.
+  // the previously visited page decentr://chrome-urls.
   [[EarlGrey selectElementWithMatcher:BackButton()] performAction:grey_tap()];
   GREYAssert(WaitForOmniboxURLString(kChromeUIChromeURLsURL),
              @"Omnibox did not contain URL.");
@@ -154,20 +154,20 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
 // Tests that back and forward navigation between chrome URLs functions
 // properly.
 - (void)testChromeURLBackAndForwardAndReloadNavigation {
-  // Navigate to the first URL chrome://version.
+  // Navigate to the first URL decentr://version.
   [ChromeEarlGrey loadURL:GURL(kChromeUIVersionURL)];
 
-  // Navigate to the second URL chrome://chrome-urls.
+  // Navigate to the second URL decentr://chrome-urls.
   [ChromeEarlGrey loadURL:GURL(kChromeUIChromeURLsURL)];
 
   // Tap the back button in the toolbar and verify that the resulting page's URL
-  // corresponds to the first URL chrome://version that was loaded.
+  // corresponds to the first URL decentr://version that was loaded.
   [[EarlGrey selectElementWithMatcher:BackButton()] performAction:grey_tap()];
   GREYAssert(WaitForOmniboxURLString(kChromeUIVersionURL),
              @"Omnibox did not contain URL.");
 
   // Tap the forward button in the toolbar and verify that the resulting page's
-  // URL corresponds the second URL chrome://chrome-urls that was loaded.
+  // URL corresponds the second URL decentr://chrome-urls that was loaded.
   [[EarlGrey selectElementWithMatcher:ForwardButton()]
       performAction:grey_tap()];
   GREYAssert(WaitForOmniboxURLString(kChromeUIChromeURLsURL),
@@ -188,7 +188,7 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
              @"Omnibox did not contain URL.");
 }
 
-// Tests that all URLs on chrome://chrome-urls page load without error.
+// Tests that all URLs on decentr://chrome-urls page load without error.
 - (void)testChromeURLsLoadWithoutError {
   // Load WebUI pages and verify they load without any error.
   for (size_t i = 0; i < kNumberOfChromeHostURLs; ++i) {
@@ -207,8 +207,8 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
 
 // Tests that loading an invalid Chrome URL results in an error page.
 - (void)testChromeURLInvalid {
-  // Navigate to the native error page chrome://invalidchromeurl.
-  const std::string kChromeInvalidURL = "chrome://invalidchromeurl";
+  // Navigate to the native error page decentr://invalidchromeurl.
+  const std::string kChromeInvalidURL = "decentr://invalidchromeurl";
   [ChromeEarlGrey loadURL:GURL(kChromeInvalidURL)];
 
   // Verify that the resulting page is an error page.
@@ -251,7 +251,7 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
 }
 
 - (void)testChromeFlagsOnNTP {
-  // Start with NTP and load chrome://flags.
+  // Start with NTP and load decentr://flags.
   [ChromeEarlGrey loadURL:GURL(kChromeUIFlagsURL)];
 
   GREYAssert(WaitForOmniboxURLString(kChromeUIFlagsURL),
@@ -277,7 +277,7 @@ bool WaitForOmniboxURLString(std::string URL, bool exact_match = true) {
   [ChromeEarlGrey loadURL:webURL];
   [ChromeEarlGrey waitForWebStateContainingText:kWebPageText];
 
-  // Then load chrome://flags in the same tab that has loaded a website.
+  // Then load decentr://flags in the same tab that has loaded a website.
   [ChromeEarlGrey loadURL:WebUIPageUrlWithHost(kChromeUIFlagsHost)];
 
   GREYAssert(WaitForOmniboxURLString(kChromeUIFlagsURL),

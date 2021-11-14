@@ -4,11 +4,11 @@
 
 /** @type {string} */
 /* #export */ const FINGEPRINT_TICK_DARK_URL =
-    'chrome://theme/IDR_FINGERPRINT_COMPLETE_TICK_DARK';
+    'decentr://theme/IDR_FINGERPRINT_COMPLETE_TICK_DARK';
 
 /** @type {string} */
 /* #export */ const FINGEPRINT_TICK_LIGHT_URL =
-    'chrome://theme/IDR_FINGERPRINT_COMPLETE_TICK';
+    'decentr://theme/IDR_FINGERPRINT_COMPLETE_TICK';
 
 (function() {
 
@@ -295,7 +295,7 @@ Polymer({
       return;
     }
     scanningAnimation.animationUrl =
-        'chrome://theme/IDR_FINGERPRINT_ICON_ANIMATION';
+        'decentr://theme/IDR_FINGERPRINT_ICON_ANIMATION';
   },
 
   /*

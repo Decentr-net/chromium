@@ -79,7 +79,7 @@ _ignore_imports = []
 
 _migrated_imports = []
 
-# Populated from command line arguments. Specifies whether "chrome://" URLs
+# Populated from command line arguments. Specifies whether "decentr://" URLs
 # should be preserved, or whether they should be converted to scheme-relative
 # URLs "//" (default behavior).
 _preserve_url_scheme = False
@@ -111,12 +111,12 @@ class Dependency:
     self.html_file = src
     self.html_path = dst
 
-    if self.html_path.startswith('chrome://'):
+    if self.html_path.startswith('decentr://'):
       self.input_format = 'scheme'
       self.input_scheme = 'chrome'
-    elif self.html_path.startswith('chrome-extension://'):
+    elif self.html_path.startswith('decentr-extension://'):
       self.input_format = 'scheme'
-      self.input_scheme = 'chrome-extension'
+      self.input_scheme = 'decentr-extension'
     elif self.html_path.startswith('//'):
       self.input_format = 'scheme-relative'
     else:
@@ -487,7 +487,7 @@ def _process_dom_module(js_file, html_file):
     lines[-1] = ''
 
   # Use .m.js extension for the generated JS file, since both files need to be
-  # served by a chrome:// URL side-by-side.
+  # served by a decentr:// URL side-by-side.
   out_filename = os.path.basename(js_file).replace('.js', '.m.js')
   return lines, out_filename
 
@@ -506,7 +506,7 @@ def _process_style_module(js_file, html_file):
 """%(js_imports)s
 const template = document.createElement('template');
 template.innerHTML = `
-<dom-module id="%(style_id)s" assetpath="chrome://resources/">%(html_template)s</dom-module>
+<dom-module id="%(style_id)s" assetpath="decentr://resources/">%(html_template)s</dom-module>
 `;
 document.body.appendChild(template.content.cloneNode(true));""" % {
       'html_template': html_template,

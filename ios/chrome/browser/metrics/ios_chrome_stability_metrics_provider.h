@@ -26,9 +26,9 @@ class IOSChromeStabilityMetricsProvider : public metrics::MetricsProvider,
   // These values are persisted to logs. Entries should not be renumbered and
   // numeric values should never be reused.
   enum class PageLoadCountNavigationType {
-    // A chrome:// URL navigation. This is not counted for page load.
+    // A decentr:// URL navigation. This is not counted for page load.
     CHROME_URL_NAVIGATION = 0,
-    // A same-document web (i.e. not chrome:// URL) navigation. This is not
+    // A same-document web (i.e. not decentr:// URL) navigation. This is not
     // counted for page load.
     SAME_DOCUMENT_WEB_NAVIGATION = 1,
     // A navigation that is not SAME_DOCUMENT_WEB or CHROME_URL. It is counted

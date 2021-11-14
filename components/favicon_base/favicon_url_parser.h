@@ -44,10 +44,10 @@ struct ParsedFaviconPath {
   bool show_fallback_monogram = false;
 };
 
-// Enum describing the two possible url formats: the legacy chrome://favicon
-// and chrome://favicon2.
-// - chrome://favicon format:
-//   chrome://favicon/size&scalefactor/iconurl/url
+// Enum describing the two possible url formats: the legacy decentr://favicon
+// and decentr://favicon2.
+// - decentr://favicon format:
+//   decentr://favicon/size&scalefactor/iconurl/url
 // Some parameters are optional as described below. However, the order of the
 // parameters is not interchangeable.
 //
@@ -63,16 +63,16 @@ struct ParsedFaviconPath {
 //      The supported requested DIP sizes are: 16x16, 32x32 and 64x64.
 //      If the parameter is unspecified, the requested favicon's size defaults
 //      to 16 and the requested scale factor defaults to 1x.
-//      Example: chrome://favicon/size/16@2x/https://www.google.com/
+//      Example: decentr://favicon/size/16@2x/https://www.google.com/
 //  'iconurl'           Optional
 //    Values: ['iconurl']
 //    'iconurl': Specifies that the url parameter refers to the URL of
 //    the favicon image as opposed to the URL of the page that the favicon is
 //    on.
-//    Example: chrome://favicon/iconurl/https://www.google.com/favicon.ico
+//    Example: decentr://favicon/iconurl/https://www.google.com/favicon.ico
 //
-// - chrome://favicon2 format:
-//   chrome://favicon2/?query_parameters
+// - decentr://favicon2 format:
+//   decentr://favicon2/?query_parameters
 // Standard URL query parameters are used as described below.
 //
 // URL Parameters:
@@ -90,13 +90,13 @@ struct ParsedFaviconPath {
 //  'size'  Optional
 //      Specifies the requested favicon's size in DIP. If unspecified, defaults
 //      to 16.
-//    Example: chrome://favicon2/?size=32
+//    Example: decentr://favicon2/?size=32
 // TODO(victorvianna): Refactor to remove scale_factor parameter.
 //  'scale_factor'  Optional
 //      Values: ['SCALEx']
 //      Specifies the requested favicon's scale factor. If unspecified, defaults
 //      to 1x.
-//    Example: chrome://favicon2/?scale_factor=1.2x
+//    Example: decentr://favicon2/?scale_factor=1.2x
 //
 //  'allow_google_server_fallback' Optional
 //      Values: ['1', '0']
@@ -105,9 +105,9 @@ struct ParsedFaviconPath {
 //      Setting this to 1 while not providing a non-empty page url will cause
 //      parsing to fail.
 enum class FaviconUrlFormat {
-  // Legacy chrome://favicon format.
+  // Legacy decentr://favicon format.
   kFaviconLegacy,
-  // chrome://favicon2 format.
+  // decentr://favicon2 format.
   kFavicon2,
 };
 

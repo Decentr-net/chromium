@@ -20,7 +20,7 @@ GEN('#include "content/public/test/browser_test.h"');
 var CrManagementA11yTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://management/';
+    return 'decentr://management/';
   }
 
   /** @override */

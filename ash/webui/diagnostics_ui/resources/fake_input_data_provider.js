@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import {ConnectedDevicesObserverRemote, ConnectionType, GetConnectedDevicesResponse, GetKeyboardVisualLayoutResponse, InputDataProviderInterface, KeyboardInfo, TouchDeviceInfo, TouchDeviceType} from './diagnostics_types.js';
-import {FakeMethodResolver} from 'chrome://resources/ash/common/fake_method_resolver.js';
+import {FakeMethodResolver} from 'decentr://resources/ash/common/fake_method_resolver.js';
 
 /**
  * @fileoverview

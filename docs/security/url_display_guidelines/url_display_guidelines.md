@@ -247,7 +247,7 @@ In Chrome, file:// schemed URIs do not contain a host component; be sure that yo
 
 **view-source:** is a special URL scheme which wraps another scheme (e.g., `view-source:https://example.com`) and displays the document in a special Blink "view-source" mode. For security reasons, web content cannot navigate directly to view-source URLs.
 
-In Chrome, a **virtual URL** is roughly the URL displayed in the omnibox even though the real url is something different. An example is `chrome://newtab/` -- under the hood it is either a local version or a remote one but that shouldn’t matter to the user who sees it as the New Tab Page. URL spoofs can easily result if the URL display surface fails to update the URL upon a navigation to a resource which is not intended to be rendered under the virtual URL (e.g., [750298](https://bugs.chromium.org/p/chromium/issues/detail?id=750298)).
+In Chrome, a **virtual URL** is roughly the URL displayed in the omnibox even though the real url is something different. An example is `decentr://newtab/` -- under the hood it is either a local version or a remote one but that shouldn’t matter to the user who sees it as the New Tab Page. URL spoofs can easily result if the URL display surface fails to update the URL upon a navigation to a resource which is not intended to be rendered under the virtual URL (e.g., [750298](https://bugs.chromium.org/p/chromium/issues/detail?id=750298)).
 
 ### %-Escaping
 

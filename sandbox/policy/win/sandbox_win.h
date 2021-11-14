@@ -106,7 +106,7 @@ class SANDBOX_POLICY_EXPORT SandboxWin {
   static ResultCode GetPolicyDiagnostics(
       base::OnceCallback<void(base::Value)> response);
 
-  // Provides a friendly name for the sandbox for chrome://sandbox and tracing.
+  // Provides a friendly name for the sandbox for decentr://sandbox and tracing.
   static std::string GetSandboxTypeInEnglish(SandboxType sandbox_type);
 };
 

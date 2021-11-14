@@ -6,10 +6,10 @@
  * @fileoverview Root element of the OOBE UI Debugger.
  */
 
-// #import {addSingletonGetter} from 'chrome://resources/js/cr.m.js';
+// #import {addSingletonGetter} from 'decentr://resources/js/cr.m.js';
 // #import {loadTimeData} from '../i18n_setup.js';
 // #import {Oobe} from '../cr_ui.m.js'
-// #import {$} from 'chrome://resources/js/util.m.js';
+// #import {$} from 'decentr://resources/js/util.m.js';
 
 cr.define('cr.ui.login.debug', function() {
   const DEBUG_BUTTON_STYLE = `
@@ -466,7 +466,7 @@ cr.define('cr.ui.login.debug', function() {
         appInfo: {
           name: 'Application Name',
           url: 'http://example.com/someApplication/VeryLongURL',
-          iconURL: 'chrome://theme/IDR_LOGO_GOOGLE_COLOR_90',
+          iconURL: 'decentr://theme/IDR_LOGO_GOOGLE_COLOR_90',
         },
         shortcutEnabled: true,
       },

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {DomainSecurityPolicyView} from 'chrome://net-internals/domain_security_policy_view.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {DomainSecurityPolicyView} from 'decentr://net-internals/domain_security_policy_view.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {assertEquals, assertLE, assertNotEquals} from '../chai_assert.js';
 

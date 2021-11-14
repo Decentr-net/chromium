@@ -23,7 +23,7 @@
 namespace chrome {
 
 // chrome: components (without schemes) and URLs (including schemes).
-// e.g. kChromeUIFooHost = "foo" and kChromeUIFooURL = "chrome://foo/"
+// e.g. kChromeUIFooHost = "foo" and kChromeUIFooURL = "decentr://foo/"
 // Not all components have corresponding URLs and vice versa. Only add as
 // needed.
 // Please keep in alphabetical order, with OS/feature specific sections below.
@@ -447,11 +447,11 @@ extern const char kChromeUICastFeedbackHost[];
 // Extensions sub pages.
 extern const char kExtensionConfigureCommandsSubPage[];
 
-// Gets the hosts/domains that are shown in chrome://chrome-urls.
+// Gets the hosts/domains that are shown in decentr://chrome-urls.
 extern const char* const kChromeHostURLs[];
 extern const size_t kNumberOfChromeHostURLs;
 
-// Gets the chrome://internals pages that are shown in chrome://chrome-urls.
+// Gets the decentr://internals pages that are shown in decentr://chrome-urls.
 extern const char* const kChromeInternalsPathURLs[];
 extern const size_t kNumberOfChromeInternalsPathURLs;
 

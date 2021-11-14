@@ -2808,7 +2808,7 @@ TEST_F(TransportSecurityStateStaticTest, PreloadedDomainSet) {
   TransportSecurityState::PKPState pkp_state;
 
   // The domain wasn't being set, leading to a blank string in the
-  // chrome://net-internals/#hsts UI. So test that.
+  // decentr://net-internals/#hsts UI. So test that.
   EXPECT_TRUE(
       state.GetStaticDomainState("market.android.com", &sts_state, &pkp_state));
   EXPECT_EQ(sts_state.domain, "market.android.com");

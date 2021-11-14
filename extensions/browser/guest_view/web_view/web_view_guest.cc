@@ -1383,12 +1383,12 @@ WebContents* WebViewGuest::OpenURLFromTab(
     WebContents* source,
     const content::OpenURLParams& params) {
   // Most navigations should be handled by WebViewGuest::LoadURLWithParams,
-  // which takes care of blocking chrome:// URLs and other web-unsafe schemes.
+  // which takes care of blocking decentr:// URLs and other web-unsafe schemes.
   // (NavigateGuest and CreateNewGuestWebViewWindow also go through
   // LoadURLWithParams.)
   //
   // We make an exception here for context menu items, since the Language
-  // Settings item uses a browser-initiated navigation to a chrome:// URL.
+  // Settings item uses a browser-initiated navigation to a decentr:// URL.
   // These can be passed to the embedder's WebContentsDelegate so that the
   // browser performs the action for the <webview>. Navigations to a new
   // tab, etc., are also handled by the WebContentsDelegate.
@@ -1518,7 +1518,7 @@ void WebViewGuest::LoadURLWithParams(
 
   // Do not allow navigating a guest to schemes other than known safe schemes.
   // This will block the embedder trying to load unwanted schemes, e.g.
-  // chrome://.
+  // decentr://.
   if (scheme_is_blocked) {
     LoadAbort(true /* is_top_level */, url, net::ERR_DISALLOWED_URL_SCHEME);
     NavigateGuest(url::kAboutBlankURL, false /* force_navigation */);

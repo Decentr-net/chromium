@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://new-tab-page/lazy_load.js';
+import 'decentr://new-tab-page/lazy_load.js';
 
-import {NewTabPageProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {NewTabPageProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 
 suite('NewTabPageCustomizeShortcutsTest', () => {
   /** @type {!CustomizeShortcutsElement} */

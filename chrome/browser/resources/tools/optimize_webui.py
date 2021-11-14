@@ -39,9 +39,9 @@ for excluded_file in [
   'resources/polymer/v3_0/polymer/polymer_bundled.min.js',
   'resources/js/load_time_data.m.js',
 ]:
-     # Exclude both the chrome://resources form and the scheme-relative form for
+     # Exclude both the decentr://resources form and the scheme-relative form for
      # files used in Polymer 3.
-     _BASE_EXCLUDES.append("chrome://" + excluded_file)
+     _BASE_EXCLUDES.append("decentr://" + excluded_file)
      _BASE_EXCLUDES.append("//" + excluded_file)
 
 
@@ -54,7 +54,7 @@ def _request_list_path(out_path, target_name):
 def _get_dep_path(dep, host_url, in_path):
   if dep.startswith(host_url):
     return dep.replace(host_url, os.path.relpath(in_path, _CWD))
-  elif not (dep.startswith('chrome://') or dep.startswith('//')):
+  elif not (dep.startswith('decentr://') or dep.startswith('//')):
     return os.path.relpath(in_path, _CWD) + '/' + dep
   return dep
 
@@ -68,7 +68,7 @@ def _update_dep_file(in_folder, args, manifest):
   for out_file in manifest:
     request_list += manifest[out_file]
 
-  # Add a slash in front of every dependency that is not a chrome:// URL, so
+  # Add a slash in front of every dependency that is not a decentr:// URL, so
   # that we can map it to the correct source file path below.
   request_list = map(lambda dep: _get_dep_path(dep, args.host_url, in_path),
                      request_list)
@@ -248,7 +248,7 @@ def main(argv):
   args.out_folder = os.path.normpath(args.out_folder)
   scheme_end_index = args.host.find('://')
   if (scheme_end_index == -1):
-    args.host_url = 'chrome://%s/' % args.host
+    args.host_url = 'decentr://%s/' % args.host
   else:
     args.host_url = args.host
 

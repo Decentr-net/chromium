@@ -446,8 +446,8 @@ const OriginTestData common_tests[] = {
      L"wss://www.google.com", L"wss://www.google.com", L"www.google.com"},
     {"Unusual non-secure scheme (ftp)", "ftp://www.google.com/",
      L"ftp://www.google.com", L"ftp://www.google.com", L"ftp://www.google.com"},
-    {"Unlisted scheme (chrome)", "chrome://version", L"chrome://version",
-     L"chrome://version", L"chrome://version"},
+    {"Unlisted scheme (chrome)", "decentr://version", L"decentr://version",
+     L"decentr://version", L"decentr://version"},
     {"HTTP IP address", "http://173.194.65.103", L"http://173.194.65.103",
      L"173.194.65.103", L"http://173.194.65.103"},
     {"HTTPS IP address", "https://173.194.65.103", L"https://173.194.65.103",
@@ -690,9 +690,9 @@ TEST(TextEliderTest, FormatUrlForDisplayOmitSchemePathAndTrivialSubdomains) {
       url_formatter::FormatUrlForDisplayOmitSchemePathAndTrivialSubdomains(
           GURL("http://user:pass@google.com/path")));
   EXPECT_EQ(
-      u"chrome://version",
+      u"decentr://version",
       url_formatter::FormatUrlForDisplayOmitSchemePathAndTrivialSubdomains(
-          GURL("chrome://version")));
+          GURL("decentr://version")));
   EXPECT_EQ(
       u"äää.de",
       url_formatter::FormatUrlForDisplayOmitSchemePathAndTrivialSubdomains(

@@ -297,13 +297,13 @@ const base::Feature kIntranetRedirectBehaviorPolicyRollout{
 const base::Feature kOmniboxAssistantVoiceSearch{
     "OmniboxAssistantVoiceSearch", base::FEATURE_DISABLED_BY_DEFAULT};
 
-// When enabled, a setting is added to chrome://settings/searchEngines to
+// When enabled, a setting is added to decentr://settings/searchEngines to
 // control whether <space> can be used to trigger keyword mode.
 const base::Feature kKeywordSpaceTriggeringSetting{
     "OmniboxKeywordSpaceTriggeringSetting", enabled_by_default_desktop_only};
 
 // When enabled, add an Active Search Engines category to
-// chrome://settings/searchEngines. This section contains any search engines
+// decentr://settings/searchEngines. This section contains any search engines
 // that have been used or manually added/modified by the user.
 const base::Feature kActiveSearchEngines{"OmniboxActiveSearchEngines",
                                          base::FEATURE_DISABLED_BY_DEFAULT};

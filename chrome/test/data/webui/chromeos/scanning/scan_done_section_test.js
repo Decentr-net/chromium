@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://scanning/scan_done_section.js';
+import 'decentr://scanning/scan_done_section.js';
 
-import {ScanningBrowserProxyImpl} from 'chrome://scanning/scanning_browser_proxy.js';
+import {ScanningBrowserProxyImpl} from 'decentr://scanning/scanning_browser_proxy.js';
 
 import {assertArrayEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible} from '../../test_util.js';

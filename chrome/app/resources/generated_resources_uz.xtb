@@ -1401,7 +1401,7 @@ Oʻz qurilmangizda Family Link ilovasini oʻrnatib, bu hisob sozlamalarini boshq
 <translation id="2431027948063157455">Google Assistent yuklanmadi, tarmoq sozlamalarini tekshiring va qaytadan urining.</translation>
 <translation id="243179355394256322">Tashkilotingiz qurilmalarini faqatgina vakolatli foydalanuvchilar qayd qilishi mumkin. Bu foydalanuvchi qurilmalarni qayd qilish vakolatiga ega emas. Foydalanuvchi uchun Administrator konsoli orqali foydalanuvchilar boʻlimida ”Google Meet qurilmalarini qayd qilish” vakolati yoqilgan boʻlishi kerak.</translation>
 <translation id="243275146591958220">Yuklab olishni bekor qilish</translation>
-<translation id="2433452467737464329">Sahifa avtomatik yangilanishi uchun URL manzilga so‘rov parametrini qo‘shing: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Sahifa avtomatik yangilanishi uchun URL manzilga so‘rov parametrini qo‘shing: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Tashqi ko‘rinish</translation>
 <translation id="2433836460518180625">Faqat qurilmani qulfdan chiqarsin</translation>
 <translation id="2434449159125086437">Printer sozlanmadi. Sozlamalarni tekshiring va qaytadan urining.</translation>
@@ -1930,7 +1930,7 @@ kichiklashtirish uchun Ctrl+Alt+Yorqinlikni pasaytirish tugmalarini bosing.</tra
 <translation id="2959127025785722291">Xatolik yuz berdi. Oxirigacha tekshirilmadi. Qaytadan urining.</translation>
 <translation id="2959842337402130152">Tiklash uchun xotirada joy yetarli emas. Qurilmada <ph name="SPACE_REQUIRED" /> joy ochib, keyin qayta urining.</translation>
 <translation id="2960208947600937804">Linux tizimini yangilashda xatolik yuz berdi. Administratorga murojaat qiling.</translation>
-<translation id="296026337010986570">Tamom! Zararli dasturlar tozalandi. Kengaytmalarni qaytadan yoqish uchun &lt;a href="chrome://extensions"&gt;Kengaytmalar&lt;/a&gt; sahifasiga kiring.</translation>
+<translation id="296026337010986570">Tamom! Zararli dasturlar tozalandi. Kengaytmalarni qaytadan yoqish uchun &lt;a href="decentr://extensions"&gt;Kengaytmalar&lt;/a&gt; sahifasiga kiring.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (uzaytirish ko‘zda tutilgan)</translation>
 <translation id="2961210776189273067">Nomi</translation>
 <translation id="2961695502793809356">Oldinga o‘tish uchun bosing, tarixni ko‘rish uchun bosib turing</translation>
@@ -4932,7 +4932,7 @@ Ochiq eksponenta (<ph name="PUBLIC_EXPONENT_NUM_BITS" /> bit):
 <translation id="6227280783235722609">kengaytma</translation>
 <translation id="6229849828796482487">Wi-Fi tarmoqni uzish</translation>
 <translation id="6231782223312638214">Tavsiya etiladi</translation>
-<translation id="6231881193380278751">Sahifa avtomatik yangilanishi uchun URL manzilga so‘rov parametrini qo‘shing: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Sahifa avtomatik yangilanishi uchun URL manzilga so‘rov parametrini qo‘shing: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Batareya</translation>
 <translation id="6232116551750539448"><ph name="NAME" /> tarmog‘iga ulanish uzilib qoldi</translation>
 <translation id="6233154960150021497">Birlamchi holatda klaviatura oʻrniga ovoz ishlatilsin</translation>

@@ -394,16 +394,16 @@ public class AutocompleteEditTextModel implements AutocompleteEditTextModelBase 
                 // with a noticeable delay after the initial character is typed, and in certain
                 // circumstances it does not check that the current state of the text matches
                 // the expectations of it's composing region. For example, you can be typing:
-                //   chrome://f
+                //   decentr://f
                 // Chrome will autocomplete to:
-                //   chrome://f[lags]
+                //   decentr://f[lags]
                 // And after the autocomplete has been set, the keyboard will set the composing
                 // region to the last character and it assumes it is 'f' as it was the last
                 // character the keyboard sent.  If we commit this composition, the text will
                 // look like:
-                //   chrome://flag[f]
+                //   decentr://flag[f]
                 // And if we use the autocomplete clearing logic below, it will look like:
-                //   chrome://f[f]
+                //   decentr://f[f]
                 // To work around this, we see if the composition matches all the characters
                 // prior to the autocomplete and just readjust the composing region to be that
                 // subset.

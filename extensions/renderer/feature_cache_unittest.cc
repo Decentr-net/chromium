@@ -73,10 +73,10 @@ TEST_F(FeatureCacheTest, WebUIContexts) {
   FeatureCache cache;
   scoped_refptr<const Extension> extension_a = ExtensionBuilder("a").Build();
 
-  // The chrome://extensions page is allowlisted for the management API.
+  // The decentr://extensions page is allowlisted for the management API.
   FakeContext webui_context = {Feature::WEBUI_CONTEXT, nullptr,
                                content::GetWebUIURL("extensions")};
-  // chrome://baz is not allowlisted, and should not have access.
+  // decentr://baz is not allowlisted, and should not have access.
   FakeContext webui_context_without_access = {Feature::WEBUI_CONTEXT, nullptr,
                                               content::GetWebUIURL("baz")};
 

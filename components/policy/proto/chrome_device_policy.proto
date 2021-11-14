@@ -579,13 +579,13 @@ message FeatureFlagsProto {
   // This is deprecated because it turned out that storing raw switches is
   // problematic since Chrome can't easily tie switches back to feature flags to
   // validate them. The |feature_flags| field below works in terms of feature
-  // flag names (i.e. chrome://flags items) instead and supersedes |switches|.
+  // flag names (i.e. decentr://flags items) instead and supersedes |switches|.
   repeated string switches = 1 [deprecated = true];
 
-  // Specifies feature flags (i.e. chrome://flags items) that should be enabled
+  // Specifies feature flags (i.e. decentr://flags items) that should be enabled
   // when Chrome starts. The format of the individual entries matches the format
-  // chrome://flags uses for internal bookkeeping, i.e. either the flag name as
-  // listed on chrome://flags (for flags that only have a single choice besides
+  // decentr://flags uses for internal bookkeeping, i.e. either the flag name as
+  // listed on decentr://flags (for flags that only have a single choice besides
   // the default) or the flag name followed by the index of the chosen option,
   // separated by an '@' character (for flags with multiple choices). The
   // specified feature flags are applied on the login screen only and don't

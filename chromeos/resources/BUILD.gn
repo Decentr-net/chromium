@@ -73,37 +73,37 @@ template("chromeos_generated_grit") {
   }
 }
 
-# Resources used by chrome://camera-app.
+# Resources used by decentr://camera-app.
 chromeos_generated_grit("camera_app_resources") {
   source = "$root_gen_dir/chromeos/components/camera_app_ui/chromeos_camera_app_resources.grd"
   deps = [ "//chromeos/components/camera_app_ui:build_grd" ]
 }
 
-# Resources used by chrome://eche-app
+# Resources used by decentr://eche-app
 chromeos_generated_grit("eche_app_resources") {
   source = "$root_gen_dir/chromeos/components/eche_app_ui/chromeos_eche_app_resources.grd"
   deps = [ "//chromeos/components/eche_app_ui:build_grd" ]
 }
 
-# Resources used by chrome://personalization SWA.
+# Resources used by decentr://personalization SWA.
 chromeos_generated_grit("personalization_app_resources") {
   source = "$root_gen_dir/chromeos/components/personalization_app/resources/chromeos_personalization_app_resources.grd"
   deps = [ "//chromeos/components/personalization_app/resources:build_grd" ]
 }
 
-# Resources used by chrome-untrusted://projector SWA.
+# Resources used by decentr-untrusted://projector SWA.
 chromeos_generated_grit("projector_app_untrusted_resources") {
   source = "$root_gen_dir/chromeos/components/projector_app/resources/chromeos_projector_app_untrusted_resources.grd"
   deps = [ "//chromeos/components/projector_app/resources:build_untrusted_grd" ]
 }
 
-# Resources used by chrome://projector SWA.
+# Resources used by decentr://projector SWA.
 chromeos_generated_grit("projector_app_trusted_resources") {
   source = "$root_gen_dir/chromeos/components/projector_app/resources/chromeos_projector_app_trusted_resources.grd"
   deps = [ "//chromeos/components/projector_app/resources:build_trusted_grd" ]
 }
 
-# Resources automatically served by the chrome-untrusted://projector bundle, obtained via DEPS.
+# Resources automatically served by the decentr-untrusted://projector bundle, obtained via DEPS.
 grit("projector_app_bundle_resources") {
   if (enable_cros_projector_app) {
     # Obtained via an internal CIPD package in src/DEPS.
@@ -123,7 +123,7 @@ grit("projector_app_bundle_resources") {
   output_dir = "$root_gen_dir/chromeos"
 }
 
-# Resources used by chrome://connectivity-diagnostics
+# Resources used by decentr://connectivity-diagnostics
 grit("connectivity_diagnostics_resources") {
   # These arguments are needed since the grd is generated at build time.
   enable_input_discovery_for_gn_analyze = false
@@ -144,7 +144,7 @@ grit("connectivity_diagnostics_resources") {
   output_dir = "$root_gen_dir/chromeos"
 }
 
-# Resources automatically served by the chrome://eche-app bundle, obtained via DEPS.
+# Resources automatically served by the decentr://eche-app bundle, obtained via DEPS.
 grit("eche_bundle_resources") {
   # Obtained via an internal CIPD package in src/DEPS.
   if (enable_cros_eche_app) {

@@ -92,7 +92,7 @@
 //     no need to specify that.
 // 33. "driver_update_link" provides a link where affected users with older
 //     drivers can download a newer driver to avoid triggering this entry.
-//     Such link will be displayed in chrome://gpu for affected devices.
+//     Such link will be displayed in decentr://gpu for affected devices.
 //
 // VERSION includes "op", "style", "schema", "value", and "value2".  "op" can
 // be any of the following values: "=", "<", "<=", ">", ">=", "any", "between".

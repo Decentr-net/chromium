@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {eventToPromise, waitAfterNextRender, whenAttributeIs} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/webui/test_util.js';
-import {PAINTED_ATTRIBUTE, PluginController, ViewerThumbnailBarElement, ViewerThumbnailElement} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {eventToPromise, waitAfterNextRender, whenAttributeIs} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/webui/test_util.js';
+import {PAINTED_ATTRIBUTE, PluginController, ViewerThumbnailBarElement, ViewerThumbnailElement} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /** @return {!ViewerThumbnailBarElement} */
 function createThumbnailBar() {

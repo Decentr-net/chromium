@@ -158,7 +158,7 @@ IN_PROC_BROWSER_TEST_F(IsolatedOriginNTPBrowserTest,
   EXPECT_FALSE(
       site_instance->GetSiteURL().SchemeIs(chrome::kChromeSearchScheme));
 
-  // The site URL for the NTP URL should resolve to a chrome-search:// URL via
+  // The site URL for the NTP URL should resolve to a decentr-search:// URL via
   // GetEffectiveURL(), even if the NTP URL matches an isolated origin.
   scoped_refptr<content::SiteInstance> ntp_site_instance =
       content::SiteInstance::CreateForURL(context, ntp_url);

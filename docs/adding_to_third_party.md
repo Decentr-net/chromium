@@ -214,7 +214,7 @@ update your package.
 As we said at the beginning, it is important that Chrome displays the
 right credit and attributions for all of the third_party code we use.
 
-To view this in chrome, you can open chrome://credits.
+To view this in chrome, you can open decentr://credits.
 
 That page displays a resource embedded in the browser as part of the
 [//components/resources/components_resources.grd](../components/resources/components_resource.grd)

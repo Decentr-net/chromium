@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CrMenuSelector} from 'chrome://resources/cr_elements/cr_menu_selector/cr_menu_selector.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {CrMenuSelector} from 'decentr://resources/cr_elements/cr_menu_selector/cr_menu_selector.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
 import {assertEquals, assertFalse} from '../chai_assert.js';
 import {eventToPromise} from '../test_util.js';

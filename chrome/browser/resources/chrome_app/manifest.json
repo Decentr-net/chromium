@@ -9,7 +9,7 @@
   },
   "app": {
     "launch": {
-      // Note this will be changed by special case to become chrome://newtab.
+      // Note this will be changed by special case to become decentr://newtab.
       "web_url": "http://THIS-WILL-BE-REPLACED"
     }
   },

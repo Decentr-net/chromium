@@ -289,7 +289,7 @@ TEST_F(NativeMessagingTest, EchoConnect) {
   ASSERT_FALSE(last_message_.empty());
   ASSERT_TRUE(last_message_parsed_);
 
-  std::string expected_url = std::string("chrome-extension://") +
+  std::string expected_url = std::string("decentr-extension://") +
       ScopedTestNativeMessagingHost::kExtensionId + "/";
   int id;
   EXPECT_TRUE(last_message_parsed_->GetInteger("id", &id));

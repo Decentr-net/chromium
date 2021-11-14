@@ -268,7 +268,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionPreferenceApiTest, OnChangeSplit) {
       profile_->GetPrimaryOTRProfile(/*create_if_needed=*/true));
 
   // Open an incognito window.
-  OpenURLOffTheRecord(profile_, GURL("chrome://newtab/"));
+  OpenURLOffTheRecord(profile_, GURL("decentr://newtab/"));
 
   // changeDefault listeners.
   ExtensionTestMessageListener listener1("changeDefault regular ready", true);
@@ -410,7 +410,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionPreferenceApiTest,
   SetCookieControlsMode(prefs, CookieControlsMode::kBlockThirdParty);
 
   // Open an incognito window.
-  OpenURLOffTheRecord(profile_, GURL("chrome://newtab/"));
+  OpenURLOffTheRecord(profile_, GURL("decentr://newtab/"));
   EXPECT_TRUE(profile_->HasPrimaryOTRProfile());
 
   extensions::ResultCatcher catcher;

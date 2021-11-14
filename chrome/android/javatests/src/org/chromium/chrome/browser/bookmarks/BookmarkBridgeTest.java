@@ -339,7 +339,7 @@ public class BookmarkBridgeTest {
         Assert.assertTrue("Read later feature is not loaded properly.",
                 ChromeFeatureList.isEnabled(ChromeFeatureList.READ_LATER));
         Assert.assertNull("Should return null for non http/https URLs.",
-                mBookmarkBridge.addToReadingList("a", new GURL("chrome://flags")));
+                mBookmarkBridge.addToReadingList("a", new GURL("decentr://flags")));
         BookmarkId readingListId =
                 mBookmarkBridge.addToReadingList("a", new GURL("https://www.google.com/"));
         Assert.assertNotNull("Failed to add to reading list", readingListId);

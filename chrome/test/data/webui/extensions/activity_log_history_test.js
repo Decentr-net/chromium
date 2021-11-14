@@ -4,8 +4,8 @@
 
 /** @fileoverview Suite of tests for activity-log-history. */
 
-import {ActivityLogPageState} from 'chrome://extensions/extensions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ActivityLogPageState} from 'decentr://extensions/extensions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {TestService} from './test_service.js';
 import {testVisible} from './test_util.js';
 
@@ -36,7 +36,7 @@ suite('ExtensionsActivityLogHistoryTest', function() {
         extensionId: EXTENSION_ID,
         other: {domVerb: 'method'},
         pageTitle: 'Test Extension',
-        pageUrl: `chrome-extension://${EXTENSION_ID}/index.html`,
+        pageUrl: `decentr-extension://${EXTENSION_ID}/index.html`,
         time: 1541203131994.837
       },
       {
@@ -46,7 +46,7 @@ suite('ExtensionsActivityLogHistoryTest', function() {
         args: 'null',
         count: 10,
         extensionId: EXTENSION_ID,
-        pageUrl: `chrome-extension://${EXTENSION_ID}/index.html`,
+        pageUrl: `decentr-extension://${EXTENSION_ID}/index.html`,
         time: 1541203131994.837
       },
       {
@@ -109,7 +109,7 @@ suite('ExtensionsActivityLogHistoryTest', function() {
           webRequest:
               `{"modified_request_headers":true, "added_request_headers":"a"}`
         },
-        pageUrl: `chrome-extension://${EXTENSION_ID}/index.html`,
+        pageUrl: `decentr-extension://${EXTENSION_ID}/index.html`,
         time: 1546499283237.616
       },
       {
@@ -120,7 +120,7 @@ suite('ExtensionsActivityLogHistoryTest', function() {
         count: 3,
         extensionId: EXTENSION_ID,
         other: {},
-        pageUrl: `chrome-extension://${EXTENSION_ID}/index.html`,
+        pageUrl: `decentr-extension://${EXTENSION_ID}/index.html`,
         time: 1546499283237.616
       },
     ]
@@ -347,7 +347,7 @@ suite('ExtensionsActivityLogHistoryTest', function() {
         '[{"activityId":"309","activityType":"dom_access","apiCall":"Storage.' +
         'getItem","args":"null","count":35,"extensionId":"aaaaaaaaaaaaaaaaaaa' +
         'aaaaaaaaaaaaa","other":{"domVerb":"method"},"pageTitle":"Test Extens' +
-        'ion","pageUrl":"chrome-extension://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/' +
+        'ion","pageUrl":"decentr-extension://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/' +
         'index.html","time":1541203131994.837},{"activityId":"299","activityT' +
         'ype":"api_call","apiCall":"i18n.getUILanguage","args":"null","count"' +
         ':10,"extensionId":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","time":15412031' +

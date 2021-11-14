@@ -43,7 +43,7 @@ MediaHistoryStatsWebUIBrowserTest.prototype = {
   __proto__: MediaHistoryWebUIBrowserTest.prototype,
 
   /** @override */
-  browsePreload: 'chrome://media-history#tab-stats',
+  browsePreload: 'decentr://media-history#tab-stats',
 };
 
 TEST_F('MediaHistoryStatsWebUIBrowserTest', 'MAYBE_All', function() {
@@ -81,7 +81,7 @@ MediaHistoryOriginsWebUIBrowserTest.prototype = {
   __proto__: MediaHistoryWebUIBrowserTest.prototype,
 
   /** @override */
-  browsePreload: 'chrome://media-history#tab-origins',
+  browsePreload: 'decentr://media-history#tab-origins',
 };
 
 TEST_F('MediaHistoryOriginsWebUIBrowserTest', 'MAYBE_All', function() {
@@ -114,7 +114,7 @@ MediaHistoryPlaybacksWebUIBrowserTest.prototype = {
   __proto__: MediaHistoryWebUIBrowserTest.prototype,
 
   /** @override */
-  browsePreload: 'chrome://media-history#tab-playbacks',
+  browsePreload: 'decentr://media-history#tab-playbacks',
 };
 
 TEST_F('MediaHistoryPlaybacksWebUIBrowserTest', 'MAYBE_All', function() {
@@ -144,7 +144,7 @@ MediaHistorySessionsWebUIBrowserTest.prototype = {
   __proto__: MediaHistoryWebUIBrowserTest.prototype,
 
   /** @override */
-  browsePreload: 'chrome://media-history#tab-sessions',
+  browsePreload: 'decentr://media-history#tab-sessions',
 };
 
 TEST_F('MediaHistorySessionsWebUIBrowserTest', 'MAYBE_All', function() {

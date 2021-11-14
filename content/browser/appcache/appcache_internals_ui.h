@@ -30,7 +30,7 @@ class FilePath;
 
 namespace content {
 
-// The implementation for the chrome://appcache-internals page.
+// The implementation for the decentr://appcache-internals page.
 // This implementation is based on the WebUI API and consists of a controller on
 // The UI thread which communicates (through a Proxy) with the AppCacheService
 // and AppCache storage which live on the IO thread.

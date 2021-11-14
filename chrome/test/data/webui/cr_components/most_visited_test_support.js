@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://new-tab-page/strings.m.js';
+import 'decentr://new-tab-page/strings.m.js';
 
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
 import {assertEquals, assertNotEquals} from '../chai_assert.js';
 

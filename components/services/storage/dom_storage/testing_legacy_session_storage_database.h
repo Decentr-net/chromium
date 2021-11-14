@@ -105,7 +105,7 @@ class TestingLegacySessionStorageDatabase
       std::map<std::string, std::vector<blink::StorageKey>>*
           namespaces_and_storage_keys);
 
-  // Adds memory statistics to `pmd` for chrome://tracing.
+  // Adds memory statistics to `pmd` for decentr://tracing.
   void OnMemoryDump(base::trace_event::ProcessMemoryDump* pmd);
 
   // Used in testing to set an easier to handle in-memory database. Should

@@ -283,7 +283,7 @@ TEST_F(UkmServiceTest, PurgeExtensionDataFromUnsentLogStore) {
 
   std::string non_extension_url = "https://www.google.ca";
   std::string extension_url =
-      "chrome-extension://bmnlcjabgnpnenekpadlanbbkooimhnj/manifest.json";
+      "decentr-extension://bmnlcjabgnpnenekpadlanbbkooimhnj/manifest.json";
 
   // Add both extension- and non-extension-related sources to the Report.
   Source* proto_source_1 = report.add_sources();
@@ -351,7 +351,7 @@ TEST_F(UkmServiceTest, PurgeAppDataFromUnsentLogStore) {
   // A URL with app:// scheme.
   std::string app_url = "app://mgndgikekgjfcpckkfioiadnlibdjbkf";
   // OS Settings is an app on ChromeOS without the app:// scheme.
-  std::string os_settings_url = "chrome://os-settings";
+  std::string os_settings_url = "decentr://os-settings";
 
   // Add sources to the Report.
   // Non-app source.
@@ -1239,11 +1239,11 @@ TEST_F(UkmServiceTest, SupportedSchemes) {
       {"https://google.ca/", true},
       {"ftp://google.ca/", true},
       {"about:blank", true},
-      {"chrome://version/", true},
+      {"decentr://version/", true},
       {"app://play/abcdefghijklmnopqrstuvwxyzabcdef/", true},
-      // chrome-extension are controlled by TestIsWebstoreExtension, above.
-      {"chrome-extension://bhcnanendmgjjeghamaccjnochlnhcgj/", true},
-      {"chrome-extension://abcdefghijklmnopqrstuvwxyzabcdef/", false},
+      // decentr-extension are controlled by TestIsWebstoreExtension, above.
+      {"decentr-extension://bhcnanendmgjjeghamaccjnochlnhcgj/", true},
+      {"decentr-extension://abcdefghijklmnopqrstuvwxyzabcdef/", false},
       {"file:///tmp/", false},
       {"abc://google.ca/", false},
       {"www.google.ca/", false},
@@ -1298,10 +1298,10 @@ TEST_F(UkmServiceTest, SupportedSchemesNoExtensions) {
       {"https://google.ca/", true},
       {"ftp://google.ca/", true},
       {"about:blank", true},
-      {"chrome://version/", true},
+      {"decentr://version/", true},
       {"app://play/abcdefghijklmnopqrstuvwxyzabcdef/", true},
-      {"chrome-extension://bhcnanendmgjjeghamaccjnochlnhcgj/", false},
-      {"chrome-extension://abcdefghijklmnopqrstuvwxyzabcdef/", false},
+      {"decentr-extension://bhcnanendmgjjeghamaccjnochlnhcgj/", false},
+      {"decentr-extension://abcdefghijklmnopqrstuvwxyzabcdef/", false},
       {"file:///tmp/", false},
       {"abc://google.ca/", false},
       {"www.google.ca/", false},
@@ -1372,14 +1372,14 @@ TEST_F(UkmServiceTest, SanitizeChromeUrlParams) {
     const char* url;
     const char* expected_url;
   } test_cases[] = {
-      {"chrome://version/?foo=bar", "chrome://version/"},
+      {"decentr://version/?foo=bar", "decentr://version/"},
       {"about:blank?foo=bar", "about:blank"},
-      {"chrome://histograms/Variations", "chrome://histograms/Variations"},
+      {"decentr://histograms/Variations", "decentr://histograms/Variations"},
       {"http://google.ca/?foo=bar", "http://google.ca/?foo=bar"},
       {"https://google.ca/?foo=bar", "https://google.ca/?foo=bar"},
       {"ftp://google.ca/?foo=bar", "ftp://google.ca/?foo=bar"},
-      {"chrome-extension://bhcnanendmgjjeghamaccjnochlnhcgj/foo.html?a=b",
-       "chrome-extension://bhcnanendmgjjeghamaccjnochlnhcgj/"},
+      {"decentr-extension://bhcnanendmgjjeghamaccjnochlnhcgj/foo.html?a=b",
+       "decentr-extension://bhcnanendmgjjeghamaccjnochlnhcgj/"},
   };
 
   for (const auto& test : test_cases) {

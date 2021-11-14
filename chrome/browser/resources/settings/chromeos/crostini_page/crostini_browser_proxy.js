@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
+import 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
 
-import {addSingletonGetter, sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {addSingletonGetter, sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 

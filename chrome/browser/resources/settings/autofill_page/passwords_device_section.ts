@@ -12,21 +12,21 @@
  */
 
 import './passwords_list_handler.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
 import '../settings_shared_css.js';
 import './avatar_icon.js';
 import './passwords_shared_css.js';
 import './password_list_item.js';
 import './password_move_multiple_passwords_to_account_dialog.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
 
-import {CrToastElement} from 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import {PluralStringProxyImpl} from 'chrome://resources/js/plural_string_proxy.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrToastElement} from 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import {PluralStringProxyImpl} from 'decentr://resources/js/plural_string_proxy.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {GlobalScrollTargetMixin} from '../global_scroll_target_mixin.js';
 import {loadTimeData} from '../i18n_setup.js';

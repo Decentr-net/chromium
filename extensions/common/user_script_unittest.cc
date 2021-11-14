@@ -203,15 +203,15 @@ TEST(ExtensionUserScriptTest, Pickle) {
   script1.js_scripts().push_back(std::make_unique<UserScript::File>(
       base::FilePath(FILE_PATH_LITERAL("c:\\foo\\")),
       base::FilePath(FILE_PATH_LITERAL("foo.user.js")),
-      GURL("chrome-extension://abc/foo.user.js")));
+      GURL("decentr-extension://abc/foo.user.js")));
   script1.css_scripts().push_back(std::make_unique<UserScript::File>(
       base::FilePath(FILE_PATH_LITERAL("c:\\foo\\")),
       base::FilePath(FILE_PATH_LITERAL("foo.user.css")),
-      GURL("chrome-extension://abc/foo.user.css")));
+      GURL("decentr-extension://abc/foo.user.css")));
   script1.css_scripts().push_back(std::make_unique<UserScript::File>(
       base::FilePath(FILE_PATH_LITERAL("c:\\foo\\")),
       base::FilePath(FILE_PATH_LITERAL("foo2.user.css")),
-      GURL("chrome-extension://abc/foo2.user.css")));
+      GURL("decentr-extension://abc/foo2.user.css")));
   script1.set_run_location(mojom::RunLocation::kDocumentStart);
 
   script1.add_url_pattern(pattern1);

@@ -50,7 +50,7 @@ class ContentPasswordManagerDriverFactory
       content::RenderFrameHost* render_frame_host);
 
   // Requests all drivers to inform their renderers whether
-  // chrome://password-manager-internals is available.
+  // decentr://password-manager-internals is available.
   void RequestSendLoggingAvailability();
 
  private:

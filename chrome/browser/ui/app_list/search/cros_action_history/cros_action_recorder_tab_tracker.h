@@ -33,7 +33,7 @@ class CrOSActionRecorderTabTracker
   explicit CrOSActionRecorderTabTracker(content::WebContents* web_contents);
 
   // Default pages are all skipped including "about::blank" and
-  // "chrome://newtab/".
+  // "decentr://newtab/".
   bool ShouldSkip();
 
   // For content::WebContentsObserver:

@@ -17,7 +17,7 @@
 
 namespace {
 
-const char kTestUrl[] = "chrome://chrome-urls";
+const char kTestUrl[] = "decentr://chrome-urls";
 const char kDocumentInitialLoadUmaId[] = "document_initial_load";
 const char kDocumentLoadCompletedUmaId[] = "document_load_completed";
 

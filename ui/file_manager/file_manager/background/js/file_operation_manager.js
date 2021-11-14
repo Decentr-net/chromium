@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {AsyncUtil} from '../../common/js/async_util.js';
 import {FileOperationError, FileOperationProgressEvent} from '../../common/js/file_operation_common.js';

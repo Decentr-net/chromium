@@ -176,7 +176,7 @@ class ChromeFileSystemAccessPermissionContextTest : public testing::Test {
   const std::string kTestStartingDirectoryId = "test_id";
   const base::FilePath kTestPath =
       base::FilePath(FILE_PATH_LITERAL("/foo/bar"));
-  const url::Origin kChromeOrigin = url::Origin::Create(GURL("chrome://test"));
+  const url::Origin kChromeOrigin = url::Origin::Create(GURL("decentr://test"));
 
   content::BrowserTaskEnvironment task_environment_{
       base::test::TaskEnvironment::TimeSource::MOCK_TIME};
@@ -399,7 +399,7 @@ TEST_F(ChromeFileSystemAccessPermissionContextTest,
 
 TEST_F(ChromeFileSystemAccessPermissionContextTest,
        CanObtainWritePermission_ContentSettingAllow) {
-  // Note, chrome:// scheme is whitelisted. But we can't set default content
+  // Note, decentr:// scheme is whitelisted. But we can't set default content
   // setting here because ALLOW is not an acceptable option.
   EXPECT_TRUE(permission_context()->CanObtainWritePermission(kChromeOrigin));
 }

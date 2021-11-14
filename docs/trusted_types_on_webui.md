@@ -167,7 +167,7 @@ Example code:
 
 ```
 const script = document.createElement('script');
-script.src = 'chrome://resources/foo.js';
+script.src = 'decentr://resources/foo.js';
 document.body.appendChild(script);
 ```
 
@@ -176,7 +176,7 @@ This can be converted to:
 ```
 const staticUrlPolicy = trustedTypes.createPolicy(
     'foo-js-static',
-    {createScriptURL: () => 'chrome://resources/foo.js'});
+    {createScriptURL: () => 'decentr://resources/foo.js'});
 
 const script = document.createElement('script');
 // Unfortunately, a string argument to createScriptURL is required.
@@ -213,6 +213,6 @@ for Trusted Types violations on your WebUI page.
 
 ## Sample CLs
 
-1. [Remove innerHTML usage in chrome://interstitials](https://crrev.com/c/2245937)
+1. [Remove innerHTML usage in decentr://interstitials](https://crrev.com/c/2245937)
 2. [Trusted Type various WebUI](https://crrev.com/c/2236992)
 3. [Trusted Type WebRTC internals](https://crrev.com/c/2208950)

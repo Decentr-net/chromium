@@ -1249,7 +1249,7 @@ public class CustomTabActivityTest {
         connection.newSession(token);
         setCanUseHiddenTabForSession(connection, token, true);
         Assert.assertFalse(
-                connection.mayLaunchUrl(token, Uri.parse("chrome://version"), null, null));
+                connection.mayLaunchUrl(token, Uri.parse("decentr://version"), null, null));
     }
 
     /**

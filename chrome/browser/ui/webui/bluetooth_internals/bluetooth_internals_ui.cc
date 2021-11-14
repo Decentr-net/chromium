@@ -22,12 +22,12 @@
 
 BluetoothInternalsUI::BluetoothInternalsUI(content::WebUI* web_ui)
     : ui::MojoWebUIController(web_ui) {
-  // Set up the chrome://bluetooth-internals source.
+  // Set up the decentr://bluetooth-internals source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIBluetoothInternalsHost);
   html_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   html_source->DisableTrustedTypesCSP();
   html_source->AddResourcePath("test_loader_util.js",
                                IDR_WEBUI_JS_TEST_LOADER_UTIL_JS);

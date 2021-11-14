@@ -20,7 +20,7 @@ async function install() { // eslint-disable-line no-unused-vars
   const registration = await navigator.serviceWorker.ready;
   if (!registration.paymentManager) {
     return 'No payment handler capability in this browser. Is' +
-        'chrome://flags/#service-worker-payment-apps enabled?';
+        'decentr://flags/#service-worker-payment-apps enabled?';
   }
 
   if (!registration.paymentManager.instruments) {

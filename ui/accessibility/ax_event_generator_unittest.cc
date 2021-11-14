@@ -232,14 +232,14 @@ TEST(AXEventGeneratorTest, LoadCompleteNewTree) {
                   HasEventAtNode(AXEventGenerator::Event::SUBTREE_CREATED, 3)));
 
   // TODO(accessibility): http://crbug.com/888758
-  // Load complete should not be emitted for chrome-search URLs.
+  // Load complete should not be emitted for decentr-search URLs.
   load_complete_update.root_id = 4;
   load_complete_update.nodes.resize(1);
   load_complete_update.nodes[0].id = 4;
   load_complete_update.nodes[0].relative_bounds.bounds =
       gfx::RectF(0, 0, 800, 600);
   load_complete_update.nodes[0].AddStringAttribute(
-      ax::mojom::StringAttribute::kUrl, "chrome-search://foo");
+      ax::mojom::StringAttribute::kUrl, "decentr-search://foo");
   load_complete_update.has_tree_data = true;
   load_complete_update.tree_data.loaded = true;
 

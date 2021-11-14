@@ -4,11 +4,11 @@
 
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {SystemPageBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {LifetimeBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestLifetimeBrowserProxy} from 'chrome://test/settings/test_lifetime_browser_proxy.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SystemPageBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {LifetimeBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestLifetimeBrowserProxy} from 'decentr://test/settings/test_lifetime_browser_proxy.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 // clang-format on
 
 /** @const {boolean} */

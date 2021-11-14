@@ -32,7 +32,7 @@ const WelcomeBrowserTest = class extends PolymerTest {
 var WelcomeAppChooserTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/app_chooser_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/app_chooser_test.js';
   }
 };
 
@@ -44,7 +44,7 @@ TEST_F('WelcomeAppChooserTest', 'All', function() {
 var WelcomeWelcomeAppTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/welcome_app_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/welcome_app_test.js';
   }
 };
 
@@ -56,7 +56,7 @@ TEST_F('WelcomeWelcomeAppTest', 'All', function() {
 var WelcomeSigninViewTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/signin_view_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/signin_view_test.js';
   }
 };
 
@@ -68,7 +68,7 @@ TEST_F('WelcomeSigninViewTest', 'All', function() {
 var WelcomeNavigationBehaviorTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/navigation_mixin_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/navigation_mixin_test.js';
   }
 };
 
@@ -80,7 +80,7 @@ TEST_F('WelcomeNavigationBehaviorTest', 'All', function() {
 var WelcomeModuleMetricsTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/module_metrics_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/module_metrics_test.js';
   }
 };
 
@@ -92,7 +92,7 @@ TEST_F('WelcomeModuleMetricsTest', 'All', function() {
 var WelcomeSetAsDefaultTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/nux_set_as_default_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/nux_set_as_default_test.js';
   }
 };
 
@@ -104,7 +104,7 @@ TEST_F('WelcomeSetAsDefaultTest', 'All', function() {
 var WelcomeNtpBackgroundTest = class extends WelcomeBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/test_loader.html?module=welcome/nux_ntp_background_test.js';
+    return 'decentr://welcome/test_loader.html?module=welcome/nux_ntp_background_test.js';
   }
 };
 

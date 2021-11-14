@@ -8,7 +8,7 @@ function checkIcon(item, size, path) {
     var icon = icons[i];
     if (icon.size == size) {
       var expected_url =
-          "chrome://extension-icon/" + item.id + "/" + size + "/0";
+          "decentr://extension-icon/" + item.id + "/" + size + "/0";
       assertEq(expected_url, icon.url);
       return;
     }
@@ -62,7 +62,7 @@ var tests = [
       checkItemInList(items, "enabled_extension", true, "extension",
           { "homepageUrl": "http://example.com/" });
       checkItemInList(items, "disabled_extension", false, "extension",
-          { "optionsUrl": "chrome-extension://<ID>/pages/options.html",
+          { "optionsUrl": "decentr-extension://<ID>/pages/options.html",
             "disabledReason": "unknown" });
       checkItemInList(items, "description", true, "extension",
           { "installType": "development" });

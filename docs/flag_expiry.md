@@ -4,7 +4,7 @@ ellyjones@ / avi@
 
 This document outlines the process by which flags in Chromium expire and are
 removed from the codebase. This document only describes entries in
-`chrome://flags`, *not* command-line switches (commonly also called command-line
+`decentr://flags`, *not* command-line switches (commonly also called command-line
 flags). This process does not cover command-line switches and there continue to
 be no guarantees about those.
 

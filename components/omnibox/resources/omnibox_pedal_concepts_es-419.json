@@ -483,7 +483,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/safetyCheck?activateSafetyCheck"
+      "url": "decentr://settings/safetyCheck?activateSafetyCheck"
     },
     {
       "id": 8,
@@ -499,7 +499,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/security"
+      "url": "decentr://settings/security"
     },
     {
       "id": 9,
@@ -515,7 +515,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/cookies"
+      "url": "decentr://settings/cookies"
     },
     {
       "id": 10,
@@ -531,7 +531,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/addresses"
+      "url": "decentr://settings/addresses"
     },
     {
       "id": 11,
@@ -547,7 +547,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/syncSetup/advanced"
+      "url": "decentr://settings/syncSetup/advanced"
     },
     {
       "id": 12,
@@ -563,7 +563,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/content"
+      "url": "decentr://settings/content"
     },
     {
       "id": 13,

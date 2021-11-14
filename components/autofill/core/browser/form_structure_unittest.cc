@@ -414,7 +414,7 @@ TEST_F(FormStructureTestImpl, ShouldBeParsed_BadScheme) {
   EXPECT_TRUE(form_structure->ShouldBeUploaded());
 
   // Chrome internal urls shouldn't be parsed.
-  form.url = GURL("chrome://settings");
+  form.url = GURL("decentr://settings");
   form_structure = std::make_unique<FormStructure>(form);
   form_structure->ParseFieldTypesFromAutocompleteAttributes();
   EXPECT_FALSE(form_structure->ShouldBeParsed());

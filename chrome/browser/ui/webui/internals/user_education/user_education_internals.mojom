@@ -5,7 +5,7 @@
 module mojom.user_education_internals;
 
 // Provides access to browser-side user education data (including IPH) for
-// chrome://internals/user-education
+// decentr://internals/user-education
 interface UserEducationInternalsPageHandler {
   // Get the list of all available tutorials. Only needs to be called once
   // since the browser-side list is static and does not change.

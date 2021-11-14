@@ -5,5 +5,5 @@
 let image = document.createElement('img');
 image.onload = () => { document.title = 'Loaded'; };
 image.onerror = () => { document.title = 'Image failed to load'; };
-image.src = 'chrome-extension://fnbdbepgnidhjejikpionpfohdjjogpm/test.png';
+image.src = 'decentr-extension://fnbdbepgnidhjejikpionpfohdjjogpm/test.png';
 document.body.appendChild(image);

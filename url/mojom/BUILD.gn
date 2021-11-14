@@ -41,7 +41,7 @@ mojom("url_mojom_gurl") {
     },
   ]
 
-  webui_module_path = "chrome://resources/mojo/url/mojom"
+  webui_module_path = "decentr://resources/mojo/url/mojom"
 }
 
 mojom("url_mojom_origin") {
@@ -85,7 +85,7 @@ mojom("url_mojom_origin") {
     },
   ]
 
-  webui_module_path = "chrome://resources/mojo/url/mojom"
+  webui_module_path = "decentr://resources/mojo/url/mojom"
 }
 
 mojom("test_url_mojom_gurl") {

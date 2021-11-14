@@ -56,7 +56,7 @@ web::WebUIIOSDataSource* CreateInspectUIHTMLSource() {
   return source;
 }
 
-// The handler for Javascript messages for the chrome://inspect/ page.
+// The handler for Javascript messages for the decentr://inspect/ page.
 class InspectDOMHandler : public web::WebUIIOSMessageHandler,
                           public JavaScriptConsoleFeatureDelegate {
  public:

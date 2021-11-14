@@ -56,7 +56,7 @@ class ConnectionHelpTabHelperTest : public InProcessBrowserTest {
   net::EmbeddedTestServer https_expired_server_;
 };
 
-// Tests that the chrome://connection-help redirect is not triggered for an
+// Tests that the decentr://connection-help redirect is not triggered for an
 // interstitial on a site that is not the help center.
 IN_PROC_BROWSER_TEST_F(ConnectionHelpTabHelperTest,
                        InterstitialOnNonSupportURL) {
@@ -70,7 +70,7 @@ IN_PROC_BROWSER_TEST_F(ConnectionHelpTabHelperTest,
   EXPECT_EQ(base::UTF16ToUTF8(tab_title), "Privacy error");
 }
 
-// Tests that the chrome://connection-help redirect is not triggered for the
+// Tests that the decentr://connection-help redirect is not triggered for the
 // help center URL if there was no interstitial.
 IN_PROC_BROWSER_TEST_F(ConnectionHelpTabHelperTest,
                        SupportURLWithNoInterstitial) {
@@ -83,7 +83,7 @@ IN_PROC_BROWSER_TEST_F(ConnectionHelpTabHelperTest,
   EXPECT_EQ(base::UTF16ToUTF8(tab_title), "Title Of Awesomeness");
 }
 
-// Tests that the chrome://connection-help redirect is triggered for the help
+// Tests that the decentr://connection-help redirect is triggered for the help
 // center URL if there was an interstitial.
 IN_PROC_BROWSER_TEST_F(ConnectionHelpTabHelperTest, InterstitialOnSupportURL) {
   GURL expired_url = https_expired_server()->GetURL("/title2.html");

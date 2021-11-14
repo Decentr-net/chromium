@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://settings/lazy_load.js';
+import 'decentr://settings/lazy_load.js';
 
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {PrivacyPageBrowserProxyImpl, StatusAction, SyncBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestPrivacyPageBrowserProxy} from 'chrome://test/settings/test_privacy_page_browser_proxy.js';
-import {TestSyncBrowserProxy} from 'chrome://test/settings/test_sync_browser_proxy.js';
-import {eventToPromise, isChildVisible, isVisible} from 'chrome://test/test_util.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {PrivacyPageBrowserProxyImpl, StatusAction, SyncBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestPrivacyPageBrowserProxy} from 'decentr://test/settings/test_privacy_page_browser_proxy.js';
+import {TestSyncBrowserProxy} from 'decentr://test/settings/test_sync_browser_proxy.js';
+import {eventToPromise, isChildVisible, isVisible} from 'decentr://test/test_util.js';
 
 // clang-format on
 

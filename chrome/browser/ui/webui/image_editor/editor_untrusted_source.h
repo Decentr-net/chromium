@@ -11,10 +11,10 @@
 
 class Profile;
 
-// Serves chrome-untrusted://image-editor/* sources which can return
+// Serves decentr-untrusted://image-editor/* sources which can return
 // user-generated content from outside the chromium codebase. The
-// chrome-untrusted://image-editor/* sources can only be embedded in
-// the chrome://image-editor by using an <iframe>.
+// decentr-untrusted://image-editor/* sources can only be embedded in
+// the decentr://image-editor by using an <iframe>.
 //
 class EditorUntrustedSource : public content::URLDataSource {
  public:

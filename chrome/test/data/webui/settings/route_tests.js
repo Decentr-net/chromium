@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {buildRouter, pageVisibility, Route, Router, routes, setPageVisibilityForTesting} from 'chrome://settings/settings.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {buildRouter, pageVisibility, Route, Router, routes, setPageVisibilityForTesting} from 'decentr://settings/settings.js';
 
 // clang-format on
 
@@ -301,16 +301,16 @@ suite('route', function() {
         // correct path.
         window.location.href = 'https://example.com/path/to/page.html';
         assertEquals(
-            'chrome://settings/cookies', routes.COOKIES.getAbsolutePath());
+            'decentr://settings/cookies', routes.COOKIES.getAbsolutePath());
 
         // Check getting the absolute path while inside settings returns the
         // correct path for the current route and a different route.
         Router.getInstance().navigateTo(routes.DOWNLOADS);
         assertEquals(
-            'chrome://settings/downloads',
+            'decentr://settings/downloads',
             Router.getInstance().getCurrentRoute().getAbsolutePath());
         assertEquals(
-            'chrome://settings/languages', routes.LANGUAGES.getAbsolutePath());
+            'decentr://settings/languages', routes.LANGUAGES.getAbsolutePath());
       });
 });
 

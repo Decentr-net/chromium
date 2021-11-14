@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 
-import 'chrome://resources/mojo/skia/public/mojom/image_info.mojom-lite.js';
-import 'chrome://resources/mojo/skia/public/mojom/bitmap.mojom-lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
+import 'decentr://resources/mojo/skia/public/mojom/image_info.mojom-lite.js';
+import 'decentr://resources/mojo/skia/public/mojom/bitmap.mojom-lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
 import '/app-management/file_path.mojom-lite.js';
 import '/app-management/image.mojom-lite.js';
 import '/app-management/types.mojom-lite.js';

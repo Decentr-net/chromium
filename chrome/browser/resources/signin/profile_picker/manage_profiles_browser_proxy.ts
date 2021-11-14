@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {AvatarIcon} from 'chrome://resources/cr_elements/cr_profile_avatar_selector/cr_profile_avatar_selector.js';
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {AvatarIcon} from 'decentr://resources/cr_elements/cr_profile_avatar_selector/cr_profile_avatar_selector.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 /**
  * This is the data structure sent back and forth between C++ and JS.

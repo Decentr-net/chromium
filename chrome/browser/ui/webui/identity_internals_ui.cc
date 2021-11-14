@@ -34,7 +34,7 @@ const int kRevokeTokenTokenOffset = 2;
 
 class IdentityInternalsTokenRevoker;
 
-// Class acting as a controller of the chrome://identity-internals WebUI.
+// Class acting as a controller of the decentr://identity-internals WebUI.
 class IdentityInternalsUIMessageHandler : public content::WebUIMessageHandler {
  public:
   IdentityInternalsUIMessageHandler();
@@ -302,7 +302,7 @@ void IdentityInternalsTokenRevoker::OnOAuth2RevokeTokenCompleted(
 
 IdentityInternalsUI::IdentityInternalsUI(content::WebUI* web_ui)
   : content::WebUIController(web_ui) {
-  // chrome://identity-internals source.
+  // decentr://identity-internals source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIIdentityInternalsHost);
 

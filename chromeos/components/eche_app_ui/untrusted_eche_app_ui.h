@@ -10,7 +10,7 @@ class WebUI;
 }  // namespace content
 namespace chromeos {
 namespace eche_app {
-// WebUI config for chrome-untrusted://eche-app
+// WebUI config for decentr-untrusted://eche-app
 class UntrustedEcheAppUIConfig : public ui::WebUIConfig {
  public:
   UntrustedEcheAppUIConfig();
@@ -18,7 +18,7 @@ class UntrustedEcheAppUIConfig : public ui::WebUIConfig {
   std::unique_ptr<content::WebUIController> CreateWebUIController(
       content::WebUI* web_ui) override;
 };
-// WebUI controller for chrome-untrusted://eche-app
+// WebUI controller for decentr-untrusted://eche-app
 class UntrustedEcheAppUI : public ui::UntrustedWebUIController {
  public:
   explicit UntrustedEcheAppUI(content::WebUI* web_ui);

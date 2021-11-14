@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$} from 'chrome://resources/js/util.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 /**
  * Generate the page content.
@@ -10,7 +10,7 @@ import {$} from 'chrome://resources/js/util.m.js';
  *    numerical error ID and error code string.
  */
 function listErrorCodes(errorCodes) {
-  const errorPageUrl = 'chrome://network-error/';
+  const errorPageUrl = 'decentr://network-error/';
   const errorCodesList = document.createElement('ul');
   for (let i = 0; i < errorCodes.length; i++) {
     const listEl = document.createElement('li');

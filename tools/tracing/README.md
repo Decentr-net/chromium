@@ -79,7 +79,7 @@ Setup steps:
     ```
 
     *   Alternatively you can enable heap profiling from
-        chrome://memory-internals.
+        decentr://memory-internals.
     *   For CPU sampling profiling, no Chrome command line setup is needed.
 
 1.  Make sure that the Chrome browser installed has permission to access device

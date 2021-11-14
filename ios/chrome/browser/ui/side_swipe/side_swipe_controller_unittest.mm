@@ -117,14 +117,14 @@ TEST_F(SideSwipeControllerTest, TestEdgeNavigationEnabled) {
   fake_navigation_manager->SetVisibleItem(item.get());
   fake_web_state->SetNavigationManager(std::move(fake_navigation_manager));
 
-  // The NTP and chrome://crash should use native swipe.
+  // The NTP and decentr://crash should use native swipe.
   item->SetURL(GURL(kChromeUINewTabURL));
   [side_swipe_controller_
       updateNavigationEdgeSwipeForWebState:fake_web_state.get()];
   EXPECT_TRUE(side_swipe_controller_.leadingEdgeNavigationEnabled);
   EXPECT_TRUE(side_swipe_controller_.trailingEdgeNavigationEnabled);
 
-  item->SetURL(GURL("chrome://crash"));
+  item->SetURL(GURL("decentr://crash"));
   [side_swipe_controller_
       updateNavigationEdgeSwipeForWebState:fake_web_state.get()];
   EXPECT_TRUE(side_swipe_controller_.leadingEdgeNavigationEnabled);
@@ -136,13 +136,13 @@ TEST_F(SideSwipeControllerTest, TestEdgeNavigationEnabled) {
   EXPECT_FALSE(side_swipe_controller_.leadingEdgeNavigationEnabled);
   EXPECT_FALSE(side_swipe_controller_.trailingEdgeNavigationEnabled);
 
-  item->SetURL(GURL("chrome://foo"));
+  item->SetURL(GURL("decentr://foo"));
   [side_swipe_controller_
       updateNavigationEdgeSwipeForWebState:fake_web_state.get()];
   EXPECT_FALSE(side_swipe_controller_.leadingEdgeNavigationEnabled);
   EXPECT_FALSE(side_swipe_controller_.trailingEdgeNavigationEnabled);
 
-  item->SetURL(GURL("chrome://version"));
+  item->SetURL(GURL("decentr://version"));
   [side_swipe_controller_
       updateNavigationEdgeSwipeForWebState:fake_web_state.get()];
   EXPECT_FALSE(side_swipe_controller_.leadingEdgeNavigationEnabled);
@@ -184,7 +184,7 @@ TEST_F(SideSwipeControllerTest, ObserversTriggerStateUpdate) {
   fake_navigation_manager->SetLastCommittedItem(item.get());
   fake_web_state->SetNavigationManager(std::move(fake_navigation_manager));
 
-  // The NTP and chrome://crash should use native swipe.
+  // The NTP and decentr://crash should use native swipe.
   item->SetURL(GURL(kChromeUINewTabURL));
   // Insert the WebState and make sure it's active. This should trigger
   // didChangeActiveWebState and update edge navigation state.

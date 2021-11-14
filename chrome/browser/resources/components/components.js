@@ -4,9 +4,9 @@
 
 import './strings.m.js';
 
-import {addWebUIListener, isChromeOS, sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener, isChromeOS, sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 /**
  * An array of the latest component data including ID, name, status and

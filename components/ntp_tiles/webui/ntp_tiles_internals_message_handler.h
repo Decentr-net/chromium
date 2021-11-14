@@ -28,7 +28,7 @@ namespace ntp_tiles {
 class MostVisitedSites;
 class NTPTilesInternalsMessageHandlerClient;
 
-// Implements the WebUI message handler for chrome://ntp-tiles-internals/
+// Implements the WebUI message handler for decentr://ntp-tiles-internals/
 //
 // Because content and iOS use different implementations of WebUI, this class
 // implements the generic portion and depends on the embedder to inject a bridge

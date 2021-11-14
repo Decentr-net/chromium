@@ -13,8 +13,8 @@ namespace webui {
 extern const char kWebUICreatedForUrl[];
 
 // Called when WebUI objects are created to get aggregate usage data (i.e. is
-// chrome://history used more than chrome://help?). Only internal (e.g.
-// chrome://) URLs are logged. Returns whether the URL was actually logged.
+// decentr://history used more than decentr://help?). Only internal (e.g.
+// decentr://) URLs are logged. Returns whether the URL was actually logged.
 bool LogWebUIUrl(const GURL& web_ui_url);
 
 }  // namespace webui

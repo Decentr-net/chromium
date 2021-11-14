@@ -6,15 +6,15 @@
 // only temporary. Eventually, this side_panel directory should become the main
 // directory, with read_later being moved into a subdirectory within side_panel.
 
-import 'chrome://resources/cr_elements/cr_tabs/cr_tabs.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-pages/iron-pages.js';
+import 'decentr://resources/cr_elements/cr_tabs/cr_tabs.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-pages/iron-pages.js';
 import '../app.js'; /* <read-later-app> */
 import '../strings.m.js';
 import './bookmarks_list.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {ReadLaterApiProxy, ReadLaterApiProxyImpl} from '../read_later_api_proxy.js';
 
 // Key for localStorage object that refers to the last active tab's ID.

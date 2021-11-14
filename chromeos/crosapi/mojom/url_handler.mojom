@@ -7,7 +7,7 @@ module crosapi.mojom;
 import "url/mojom/url.mojom";
 
 // An interface for exposing Ash's URL handling capabilities. Used to load
-// system UI with a given chrome:// URL, for example.
+// system UI with a given decentr:// URL, for example.
 [Stable, Uuid="d909224b-700b-4fe3-b24a-f804e4329ab0"]
 interface UrlHandler {
   // Open the given URL. May be ignored if Ash does not know how to handle

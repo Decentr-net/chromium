@@ -176,7 +176,7 @@ class BrowserCrashAfterStartTest(_BaseSampleIntegrationTest):
       # startup. The try/catch forces the GpuIntegrationTest's first
       # fetch of this tab to fail. crbug.com/682819
       try:
-        browser.tabs[0].Navigate('chrome://crash')
+        browser.tabs[0].Navigate('decentr://crash')
       except Exception:
         pass
 

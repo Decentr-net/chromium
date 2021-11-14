@@ -10,7 +10,7 @@
 
 namespace content {
 
-// The implementation for the chrome://media-internals page.
+// The implementation for the decentr://media-internals page.
 class MediaInternalsUI : public WebUIController {
  public:
   explicit MediaInternalsUI(WebUI* web_ui);

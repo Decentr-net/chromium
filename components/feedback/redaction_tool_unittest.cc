@@ -242,8 +242,8 @@ TEST_F(RedactionToolTest, RedactCustomPatterns) {
       "http://test.com/foo(bar)baz.html",
       "http://test.com/foo%20bar",
       "ftp://test:tester@test.com",
-      "chrome://extensions/",
-      "chrome-extension://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/options.html",
+      "decentr://extensions/",
+      "decentr-extension://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/options.html",
       "http://example.com/foo?email=foo@bar.com",
       "rtsp://root@example.com/",
       "https://aaaaaaaaaaaaaaaa.com",
@@ -436,16 +436,16 @@ TEST_F(RedactionToolTest, RedactChunk) {
      "<IPv6: 18>"},
     {"aa:aa:aa:aa:aa:aa",  // MAC address (BSSID).
      "[MAC OUI=aa:aa:aa IFACE=1]"},
-    {"chrome://resources/foo",  // Secure chrome resource, exempt.
-     "chrome://resources/foo"},
-    {"chrome://settings/crisper.js",  // Exempt settings URLs.
-     "chrome://settings/crisper.js"},
+    {"decentr://resources/foo",  // Secure chrome resource, exempt.
+     "decentr://resources/foo"},
+    {"decentr://settings/crisper.js",  // Exempt settings URLs.
+     "decentr://settings/crisper.js"},
     // Exempt first party extension.
-    {"chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/foobar.js",
-     "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/foobar.js"},
-    {"chrome://resources/f?user=bar",  // Potentially PII in parameter.
+    {"decentr-extension://nkoccljplnhpfnfiajclkommnmllphnl/foobar.js",
+     "decentr-extension://nkoccljplnhpfnfiajclkommnmllphnl/foobar.js"},
+    {"decentr://resources/f?user=bar",  // Potentially PII in parameter.
      "<URL: 2>"},
-    {"chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/foobar.js?bar=x",
+    {"decentr-extension://nkoccljplnhpfnfiajclkommnmllphnl/foobar.js?bar=x",
      "<URL: 3>"},  // Potentially PII in parameter.
     {"/root/27540283740a0897ab7c8de0f809add2bacde78f/foo",
      "/root/<HASH:2754 1>/foo"},  // Hash string.

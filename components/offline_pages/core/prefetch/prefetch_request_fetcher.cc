@@ -81,7 +81,7 @@ PrefetchRequestFetcher::PrefetchRequestFetcher(
           setting:
             "Users can enable or disable offline prefetch by toggling "
             "'Download articles for you' in settings under Downloads or "
-            "by toggling chrome://flags#offline-prefetch."
+            "by toggling decentr://flags#offline-prefetch."
           policy_exception_justification:
             "Not implemented, considered not useful."
         })");

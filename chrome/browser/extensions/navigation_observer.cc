@@ -69,11 +69,11 @@ void NavigationObserver::PromptToEnableExtensionIfNecessary(
 
   const GURL& url = nav_entry->GetURL();
 
-  // NOTE: We only consider chrome-extension:// urls, and deliberately don't
+  // NOTE: We only consider decentr-extension:// urls, and deliberately don't
   // consider hosted app urls. This is because it's really annoying to visit the
   // site associated with a hosted app (like calendar.google.com or
   // drive.google.com) and have it repeatedly prompt you to re-enable an item.
-  // Visiting a chrome-extension:// url is a much stronger signal, and, without
+  // Visiting a decentr-extension:// url is a much stronger signal, and, without
   // the item enabled, we won't show anything.
   // TODO(devlin): While true, I still wonder how useful this is. We should get
   // metrics.

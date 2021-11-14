@@ -19,7 +19,7 @@ namespace arc {
 class ArcTracingEvent;
 
 // This is a base model that is built from the output of Chrome tracing
-// (chrome://tracing). It contains native Chrome test events and system kernel
+// (decentr://tracing). It contains native Chrome test events and system kernel
 // events converted to common Chrome test events. Events are kept by thread or
 // by group in case of asynchronous events. Events are hierarchical and each
 // thread or group is represented by one top-level event.

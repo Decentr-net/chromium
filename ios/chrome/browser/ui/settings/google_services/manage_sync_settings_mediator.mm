@@ -360,7 +360,7 @@ const std::map<SyncSetupService::SyncableDatatype, const char*>
             initWithType:SignOutItemFooterType];
     footerItem.text = l10n_util::GetNSString(
         IDS_IOS_ENTERPRISE_FORCED_SIGNIN_SYNC_SETTINGS_SIGNOUT_FOOTER);
-    footerItem.urls = std::vector<GURL>{GURL("chrome://management/")};
+    footerItem.urls = std::vector<GURL>{GURL("decentr://management/")};
     [model setFooter:footerItem
         forSectionWithIdentifier:SignOutSectionIdentifier];
   }

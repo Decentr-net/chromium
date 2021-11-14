@@ -2,7 +2,7 @@
 
 A browser's session history keeps track of the navigations in each tab, to
 support back/forward navigations and session restore. This is in contrast to
-"history" (e.g., `chrome://history`), which tracks the main frame URLs the user
+"history" (e.g., `decentr://history`), which tracks the main frame URLs the user
 has visited in any tab for the lifetime of a profile.
 
 Chromium tracks the session history of each tab in NavigationController, using a

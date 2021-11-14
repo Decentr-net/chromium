@@ -1399,7 +1399,7 @@ Voice Match-ekin, Google-ren Laguntzailea eginbideak <ph name="SUPERVISED_USER_N
 <translation id="2431027948063157455">Ezin izan da kargatu Google-ren Laguntzailea. Egiaztatu sarera konektatuta zaudela eta saiatu berriro.</translation>
 <translation id="243179355394256322">Zure erakundeak ezarritako mugen arabera, baimendutako erabiltzaileek soilik erregistra ditzakete gailuak. Erabiltzaileak ez du baimenik gailuak erregistratzeko. Egiaztatu erabiltzaileak "Erregistratu Google Meet-en hardwarea" administratzaile-pribilegioa duela administrazio-kontsolako Erabiltzaileak atalean.</translation>
 <translation id="243275146591958220">Utzi deskargatzeari</translation>
-<translation id="2433452467737464329">Orria automatikoki freskatzeko, gehitu kontsulta-parametro bat URLan: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Orria automatikoki freskatzeko, gehitu kontsulta-parametro bat URLan: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Itxura</translation>
 <translation id="2433836460518180625">Desblokeatu gailua bakarrik</translation>
 <translation id="2434449159125086437">Ezin da konfiguratu inprimagailua. Egiaztatu konfigurazioa eta saiatu berriro.</translation>
@@ -1927,7 +1927,7 @@ Txartel adimenduna sartuta edukitzea eskatzen du <ph name="DOMAIN" /> domeinuak.
 <translation id="2959127025785722291">Arazoren bat izan da. Ezin izan da amaitu azterketa. Saiatu berriro.</translation>
 <translation id="2959842337402130152">Ezin da leheneratu, ez dagoelako behar adina biltegiratzeko toki. Utzi libre <ph name="SPACE_REQUIRED" /> gailuan eta saiatu berriro.</translation>
 <translation id="2960208947600937804">Errore bat gertatu da Linux konfiguratzean. Jarri administratzailearekin harremanetan.</translation>
-<translation id="296026337010986570">Kendu da software kaltegarria. Luzapenak berriro aktibatzeko, joan &lt;a href="chrome://extensions"&gt;Luzapenak&lt;/a&gt; atalera.</translation>
+<translation id="296026337010986570">Kendu da software kaltegarria. Luzapenak berriro aktibatzeko, joan &lt;a href="decentr://extensions"&gt;Luzapenak&lt;/a&gt; atalera.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (luzapenak emandakoa)</translation>
 <translation id="2961210776189273067">Trataera</translation>
 <translation id="2961695502793809356">Sakatu aurrera joateko; eduki sakatuta historia ikusteko</translation>
@@ -4924,7 +4924,7 @@ Erabilerraztasun-etengailu bat baino gehiago eslei diezazkiokezu ekintza horri.<
 <translation id="6227280783235722609">luzapena</translation>
 <translation id="6229849828796482487">Deskonektatu wifi-sarea</translation>
 <translation id="6231782223312638214">Iradokitakoak</translation>
-<translation id="6231881193380278751">Gehitu kontsulta-parametroa URLan orria automatikoki freskatzeko: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Gehitu kontsulta-parametroa URLan orria automatikoki freskatzeko: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Bateria</translation>
 <translation id="6232116551750539448">Galdu egin da <ph name="NAME" /> sarerako konexioa</translation>
 <translation id="6233154960150021497">Lehenetsi ahotsa erabiltzea, teklatuaren gainetik</translation>

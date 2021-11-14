@@ -37,7 +37,7 @@ namespace {
 std::string RedactURL(const GURL& url) {
   std::string redacted_url = url.GetOrigin().spec();
   // Path will start with / and GetOrigin ends with /. Cut one / to avoid
-  // chrome://discards//graph.
+  // decentr://discards//graph.
   if (!redacted_url.empty() && redacted_url.back() == '/') {
     redacted_url.pop_back();
   }
@@ -116,13 +116,13 @@ void WebUIMainFrameObserver::OnDidAddMessageToConsole(
     return;
   }
 
-  // If this is not a chrome:// page, do not report the error. In particular,
-  // some WebUIs use chrome-untrusted:// to host pages with some
+  // If this is not a decentr:// page, do not report the error. In particular,
+  // some WebUIs use decentr-untrusted:// to host pages with some
   // not-controlled-by-Chrome content. The code must not send reports for such
   // content because Chrome cannot control what information is being included in
   // the reports.
   if (!url.SchemeIs(kChromeUIScheme)) {
-    DVLOG(3) << "Message not reported, not a chrome:// URL";
+    DVLOG(3) << "Message not reported, not a decentr:// URL";
     return;
   }
 

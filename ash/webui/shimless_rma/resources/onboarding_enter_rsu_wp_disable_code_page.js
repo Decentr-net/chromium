@@ -6,7 +6,7 @@ import './shimless_rma_shared_css.js';
 import './base_page.js';
 import '//resources/cr_elements/cr_input/cr_input.m.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {getShimlessRmaService} from './mojo_interface_provider.js';
 import {QrCode, ShimlessRmaServiceInterface, StateResult} from './shimless_rma_types.js';

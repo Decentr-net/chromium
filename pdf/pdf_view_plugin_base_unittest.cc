@@ -1169,7 +1169,7 @@ TEST_F(PdfViewPluginBaseTest, HandleResetPrintPreviewModeMessage) {
 
   fake_plugin_.HandleMessage(base::test::ParseJson(R"({
     "type": "resetPrintPreviewMode",
-    "url": "chrome-untrusted://print/0/0/print.pdf",
+    "url": "decentr-untrusted://print/0/0/print.pdf",
     "grayscale": false,
     "pageCount": 1,
   })"));
@@ -1194,7 +1194,7 @@ TEST_F(PdfViewPluginBaseTest, HandleResetPrintPreviewModeMessageSetGrayscale) {
 
   fake_plugin_.HandleMessage(base::test::ParseJson(R"({
     "type": "resetPrintPreviewMode",
-    "url": "chrome-untrusted://print/0/0/print.pdf",
+    "url": "decentr-untrusted://print/0/0/print.pdf",
     "grayscale": true,
     "pageCount": 1,
   })"));

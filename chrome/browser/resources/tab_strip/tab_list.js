@@ -5,12 +5,12 @@
 import './strings.m.js';
 import './tab.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {addWebUIListener, removeWebUIListener, WebUIListener} from 'chrome://resources/js/cr.m.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {CustomElement} from 'chrome://resources/js/custom_element.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {isRTL} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {addWebUIListener, removeWebUIListener, WebUIListener} from 'decentr://resources/js/cr.m.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {CustomElement} from 'decentr://resources/js/custom_element.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {isRTL} from 'decentr://resources/js/util.m.js';
 
 import {DragManager, DragManagerDelegate} from './drag_manager.js';
 import {isTabElement, TabElement} from './tab.js';

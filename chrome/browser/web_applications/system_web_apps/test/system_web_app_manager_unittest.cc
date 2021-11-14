@@ -419,7 +419,7 @@ TEST_F(SystemWebAppManagerTest, UpdateOnVersionChange) {
                             SystemAppType::SETTINGS, kSettingsAppInternalName,
                             AppUrl1(), GetApp1WebAppInfoFactory()));
     // Create another app. The version hasn't changed, but we should immediately
-    // install anyway, as if a user flipped a chrome://flag. The first app won't
+    // install anyway, as if a user flipped a decentr://flag. The first app won't
     // force reinstall.
     system_apps.emplace(SystemAppType::CAMERA,
                         std::make_unique<UnittestingSystemAppDelegate>(

@@ -13,7 +13,7 @@ namespace gin {
 
 class IsolateHolder;
 
-// Memory dump provider for the chrome://tracing infrastructure. It dumps
+// Memory dump provider for the decentr://tracing infrastructure. It dumps
 // summarized memory stats about the V8 Isolate.
 class V8IsolateMemoryDumpProvider
     : public base::trace_event::MemoryDumpProvider {

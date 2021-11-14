@@ -3,17 +3,17 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import 'chrome://os-settings/strings.m.js';
+// #import 'decentr://os-settings/strings.m.js';
 
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {Router, Route, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {Router, Route, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {assertTrue} from '../../../chai_assert.js';
-// #import {createDefaultBluetoothDevice, FakeBluetoothConfig,} from 'chrome://test/cr_components/chromeos/bluetooth/fake_bluetooth_config.js';
-// #import {setBluetoothConfigForTesting} from 'chrome://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
-// #import {mojoString16ToString} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_utils.js';
-// #import {eventToPromise} from 'chrome://test/test_util.m.js';
+// #import {createDefaultBluetoothDevice, FakeBluetoothConfig,} from 'decentr://test/cr_components/chromeos/bluetooth/fake_bluetooth_config.js';
+// #import {setBluetoothConfigForTesting} from 'decentr://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
+// #import {mojoString16ToString} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_utils.js';
+// #import {eventToPromise} from 'decentr://test/test_util.m.js';
 // clang-format on
 
 suite('OsBluetoothSummaryTest', function() {

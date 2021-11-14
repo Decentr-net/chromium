@@ -484,7 +484,7 @@ Hvis denne politik ikke er angivet, benyttes standardreglen, hvor ingen HTTP/2-f
 
       Undtagelser kan defineres i politikken for hvidlistede webadresser. Der er en maksimumsgrænse på 1000 poster for disse politikker. Alle efterfølgende poster ignoreres.
 
-      Bemærk, at det frarådes at blokere interne webadresser af typen "chrome://*", da dette kan føre til uventede fejl.
+      Bemærk, at det frarådes at blokere interne webadresser af typen "decentr://*", da dette kan føre til uventede fejl.
 
       Du kan blokere webadresser af typen "javascript://*" via M73. Det påvirker dog kun JavaScript, der er angivet i adresselinjen (eller f.eks. bookmarklets). Bemærk, at JavaScript-webadresser på siden ikke er underlagt denne politik, så længe de er dynamisk indlæste data. Hvis du f.eks. blokerer "eksempel.dk/abc", kan "eksempel.dk" stadig indlæse "eksempel.dk/abc" via XMLHTTPRequest.
 
@@ -645,7 +645,7 @@ Hvis kompatabilitet med en fejlbehæftet server skal opretholdes, kan denne poli
       ved genstart.</translation>
 <translation id="2138449619211358657">Denne politik giver <ph name="PRODUCT_OS_NAME" /> mulighed for at omgå enhver proxy, der kræver godkendelse via en loginportal.
 
-      Denne politik træder kun i kraft, hvis der er konfigureret en proxy (f.eks. via en politik, af en bruger på chrome://settings eller via udvidelser).
+      Denne politik træder kun i kraft, hvis der er konfigureret en proxy (f.eks. via en politik, af en bruger på decentr://settings eller via udvidelser).
 
       Hvis du aktiverer denne indstilling, vises alle godkendelsessider med loginportal (dvs. alle websider, der kræver adgang via en loginside, indtil <ph name="PRODUCT_NAME" /> registrerer en internetforbindelse) i et separat vindue, og alle politikindstillinger og -begrænsninger for den aktuelle bruger ignoreres.
 
@@ -666,15 +666,15 @@ Hvis kompatabilitet med en fejlbehæftet server skal opretholdes, kan denne poli
 <translation id="2170233653554726857">Aktivér WPAD-optimering</translation>
 <translation id="2176565653304920879">Når denne politik er indstillet, fungerer flowet for registrering af tidszoner på en af de følgende måder, alt efter hvilken værdi der bruges i indstillingen:
 
-      Hvis der er indstillet til TimezoneAutomaticDetectionUsersDecide, kan brugerne kontrollere den automatiske registrering af tidszoner med de almindelige kontrolelementer i chrome://settings.
+      Hvis der er indstillet til TimezoneAutomaticDetectionUsersDecide, kan brugerne kontrollere den automatiske registrering af tidszoner med de almindelige kontrolelementer i decentr://settings.
 
-      Hvis der er indstillet til TimezoneAutomaticDetectionDisabled, bliver de automatiske kontrolelementer for tidszoner i chrome://settings deaktiveret. Automatisk registrering af tidszoner vil altid være deaktiveret.
+      Hvis der er indstillet til TimezoneAutomaticDetectionDisabled, bliver de automatiske kontrolelementer for tidszoner i decentr://settings deaktiveret. Automatisk registrering af tidszoner vil altid være deaktiveret.
 
-      Hvis der er indstillet til TimezoneAutomaticDetectionIPOnly, bliver kontrolelementerne for tidszone i chrome://settings deaktiveret. Automatisk registrering af tidszoner vil altid være aktiveret. Registreringen af tidszoner bruger udelukkende IP-metoden til at fastlægge placeringen.
+      Hvis der er indstillet til TimezoneAutomaticDetectionIPOnly, bliver kontrolelementerne for tidszone i decentr://settings deaktiveret. Automatisk registrering af tidszoner vil altid være aktiveret. Registreringen af tidszoner bruger udelukkende IP-metoden til at fastlægge placeringen.
 
-      Hvis der indstilles til TimezoneAutomaticDetectionSendWiFiAccessPoints, bliver kontrolelementerne for tidszoner i chrome://settings deaktiveret. Automatisk registrering af tidszoner vil altid være aktiveret. Listen over synlige Wi-Fi-adgangspunkter sendes altid til Geolocation API-serveren, så der kan foretages detaljeret registrering af tidszoner.
+      Hvis der indstilles til TimezoneAutomaticDetectionSendWiFiAccessPoints, bliver kontrolelementerne for tidszoner i decentr://settings deaktiveret. Automatisk registrering af tidszoner vil altid være aktiveret. Listen over synlige Wi-Fi-adgangspunkter sendes altid til Geolocation API-serveren, så der kan foretages detaljeret registrering af tidszoner.
 
-      Hvis der indstilles til TimezoneAutomaticDetectionSendAllLocationInfo, bliver kontrolelementerne for tidszoner i chrome://settings deaktiveret. Automatisk registrering af tidszoner vil altid være aktiveret. Placeringsinfo (som f.eks. Wi-Fi-adgangspunkter, tilgængelige mobiltårne, GPS) bliver sendt til en server, så der kan foretages detaljeret registrering af tidszoner.
+      Hvis der indstilles til TimezoneAutomaticDetectionSendAllLocationInfo, bliver kontrolelementerne for tidszoner i decentr://settings deaktiveret. Automatisk registrering af tidszoner vil altid være aktiveret. Placeringsinfo (som f.eks. Wi-Fi-adgangspunkter, tilgængelige mobiltårne, GPS) bliver sendt til en server, så der kan foretages detaljeret registrering af tidszoner.
 
       Hvis politikken ikke indstilles, svarer det til, at TimezoneAutomaticDetectionUsersDecide er indstillet.
 
@@ -1213,9 +1213,9 @@ Hvis kompatabilitet med en fejlbehæftet server skal opretholdes, kan denne poli
       Hvis politikken ikke er angivet eller er angivet til Falsk, aktiveres DHE-krypteringsprogrammer i TLS ikke. Alternativt kan den angives til Sandt for at aktivere DHE-krypteringsprogrammer og for at bevare kompatibiliteten med en forældet server. Dette er en midlertidig løsning, og serveren bør konfigureres igen.
 
       Servere bør migreres til ECDHE-krypteringsprogrammer. Hvis disse ikke er tilgængelige, skal du sørge for, at et krypteringsprogram, der bruger RSA-hovedudveksling, er aktiveret.</translation>
-<translation id="3117706142826400449">Hvis politikken er deaktiveret, forhindres Chrome-oprydning i at scanne systemet for uønsket software og foretage oprydning. Manuel aktivering af Chrome-oprydning fra chrome://settings/cleanup er deaktiveret.
+<translation id="3117706142826400449">Hvis politikken er deaktiveret, forhindres Chrome-oprydning i at scanne systemet for uønsket software og foretage oprydning. Manuel aktivering af Chrome-oprydning fra decentr://settings/cleanup er deaktiveret.
 
-      Hvis politikken er aktiveret eller ikke angivet, scanner Chrome-oprydning jævnligt systemet for uønsket software, og hvis der findes noget, bliver brugeren spurgt, om softwaren skal fjernes. Manuel aktivering af Chrome-oprydning fra chrome://settings/cleanup er aktiveret.
+      Hvis politikken er aktiveret eller ikke angivet, scanner Chrome-oprydning jævnligt systemet for uønsket software, og hvis der findes noget, bliver brugeren spurgt, om softwaren skal fjernes. Manuel aktivering af Chrome-oprydning fra decentr://settings/cleanup er aktiveret.
 
       Denne politik er kun tilgængelig for Windows-forekomster, der er knyttet til et <ph name="MS_AD_NAME" />-domæne, eller Windows 10 Pro- eller Enterprise-forekomster, der er tilmeldt administration af enheder.</translation>
 <translation id="3152425128389603870">Gør Kombineret skrivebord tilgængeligt, og aktivér denne funktion som standard</translation>
@@ -1263,7 +1263,7 @@ Hvis kompatabilitet med en fejlbehæftet server skal opretholdes, kan denne poli
       Hvis indstillingen er aktiveret eller ikke konfigureret, kan brugerne aktivere proxyen til Cloudprinter ved at godkende med deres Google-konto.
 
       Hvis denne indstilling er deaktiveret, kan brugerne ikke aktivere proxyen, og det vil ikke være tilladt for maskinen at dele sine printere med <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Aktiverer en side på chrome://password-change, som giver SAML-brugere mulighed for at ændre deres SAML-adgangskoder, mens en session er i gang, hvilket sikrer, at SAML-adgangskoden og adgangskoden til enhedens låseskærm synkroniseres.
+<translation id="3312206664202507568">Aktiverer en side på decentr://password-change, som giver SAML-brugere mulighed for at ændre deres SAML-adgangskoder, mens en session er i gang, hvilket sikrer, at SAML-adgangskoden og adgangskoden til enhedens låseskærm synkroniseres.
 
       Denne politik aktiverer også notifikationer, der advarer SAML-brugere om, at deres SAML-adgangskoder snart udløber, så de kan ændre dem med det samme, mens en session er i gang.
       Men disse notifikationer vises kun, hvis oplysningerne om adgangskodernes udløb sendes til enheden af SAML-identitetsudbyderen under SAML-loginflowet.
@@ -2013,7 +2013,7 @@ Mens selve politikken understøttes på ovenstående platforme, kan den funktion
       Denne indstilling, SitePerProcess, kan bruges til at forhindre brugerne i at fravælge standardadfærden, hvor alle websites isoleres. Bemærk, at politikken IsolateOrigins også kan bruges til mere finkornet isolering af websites.
       Hvis politikken er aktiveret, kan brugerne ikke fravælge standardadfærden, hvor hvert website kører i sin egen proces.
       Hvis politikken ikke er angivet eller er deaktiveret, kan brugerne fravælge isolering af website
-      (f.eks. ved at bruge posten "Deaktiver isolering af website" i chrome://flags).  Isolering af website slås ikke fra, hvis politikken angives som deaktiveret og/eller ikke angives.
+      (f.eks. ved at bruge posten "Deaktiver isolering af website" i decentr://flags).  Isolering af website slås ikke fra, hvis politikken angives som deaktiveret og/eller ikke angives.
       I version 76 og ældre af <ph name="PRODUCT_OS_NAME" /> anbefales det, at der også angives den samme værdi for enhedspolitikken <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" />. Hvis de to politikker har forskellige værdier, kan der ske forsinkelser ved opstart af en brugersession, mens den værdi, der er angivet af brugerpolitikken, anvendes.
 
       BEMÆRK! Denne politik anvendes ikke på Android-enheder. Hvis du vil aktivere SitePerProcess på en Android-enhed, skal du bruge politikindstillingen SitePerProcessAndroid.
@@ -2875,7 +2875,7 @@ Kun hvis allowCorporateKeyUsage er angivet som "sand" for en udvidelse, kan den 
 
           Hvis du aktiverer denne indstilling, anvendes siden Ny fane altid som startside, og webadressen for startsiden ignoreres.
 
-          Hvis du deaktiverer denne indstilling, er brugerens startside aldrig siden Ny fane, medmindre webadressen er indstillet til "chrome://newtab".
+          Hvis du deaktiverer denne indstilling, er brugerens startside aldrig siden Ny fane, medmindre webadressen er indstillet til "decentr://newtab".
 
           Hvis du aktiverer eller deaktiverer denne indstilling, kan brugerne ikke ændre startsidetypen i <ph name="PRODUCT_NAME" />.
 
@@ -3047,7 +3047,7 @@ Kun hvis allowCorporateKeyUsage er angivet som "sand" for en udvidelse, kan den 
 
       Hvis denne politik er angivet som falsk, bruges den indbyggede DNS-klient aldrig.
 
-      Hvis denne politik ikke er angivet, aktiveres den indbyggede DNS-klient som standard i MacOS, Android (når hverken Privat DNS eller VPN er aktiveret) og ChromeOS, og brugerne kan ændre, om den indbyggede DNS-klient bruges, ved at redigere chrome://flags eller angive et kommandolinjeflag.</translation>
+      Hvis denne politik ikke er angivet, aktiveres den indbyggede DNS-klient som standard i MacOS, Android (når hverken Privat DNS eller VPN er aktiveret) og ChromeOS, og brugerne kan ændre, om den indbyggede DNS-klient bruges, ved at redigere decentr://flags eller angive et kommandolinjeflag.</translation>
 <translation id="6843296367238757293">Denne politik er forældet. Det anbefales ikke at bruge den. Læs mere på https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Denne politik er blevet fjernet i <ph name="PRODUCT_NAME" /> 68 og erstattet af <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Denne politik er forældet og fjernet i M66, da den kun blev brugt til interne test, og den er til fare for sikkerheden.
@@ -3666,7 +3666,7 @@ BEMÆRK! Op til version 45 var denne funktion kun understøttet i terminaltilsta
 <translation id="7941975817681987555">Forudse ikke netværkshandlinger på nogen netværksforbindelse</translation>
 <translation id="7952007677054834789">Konfigurerer siderne, der indlæses på opstartssiden, startsiden og siden Ny fane i <ph name="PRODUCT_NAME" />, og forhindrer brugerne i at ændre dem.
 
-      Brugerens startsideindstillinger låses kun helt, hvis du enten vælger, at startsiden skal være siden Ny fane eller indstiller den til at være en webadresse og angiver en webadresse for startsiden. Hvis du ikke angiver webadressen for startsiden, kan brugeren stadig angive siden Ny fane som startside ved at angive "chrome://newtab".
+      Brugerens startsideindstillinger låses kun helt, hvis du enten vælger, at startsiden skal være siden Ny fane eller indstiller den til at være en webadresse og angiver en webadresse for startsiden. Hvis du ikke angiver webadressen for startsiden, kan brugeren stadig angive siden Ny fane som startside ved at angive "decentr://newtab".
 
       Politikken "Webadresser, der skal åbnes ved opstart" ignoreres, medmindre du vælger "Åbn en liste over webadresser" i "Handling ved opstart".</translation>
 <translation id="7952958573604504839">Denne politik er udfaset i M48 til fordel for <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> og er fjernet i M54.

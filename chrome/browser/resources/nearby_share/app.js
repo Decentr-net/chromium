@@ -4,7 +4,7 @@
 
 /**
  * @fileoverview The 'nearby-share' component is the entry point for the Nearby
- * Share flow. It is used as a standalone dialog via chrome://nearby and as part
+ * Share flow. It is used as a standalone dialog via decentr://nearby and as part
  * of the ChromeOS share sheet.
  */
 
@@ -13,8 +13,8 @@ import './shared/nearby_visibility_page.m.js';
 import './nearby_confirmation_page.js';
 import './nearby_discovery_page.js';
 
-import {CrViewManagerElement} from 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrViewManagerElement} from 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {NearbyShareSettingsBehavior} from './shared/nearby_share_settings_behavior.m.js';
 import {CloseReason} from './shared/types.m.js';
 

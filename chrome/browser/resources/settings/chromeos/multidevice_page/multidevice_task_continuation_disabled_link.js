@@ -70,7 +70,7 @@ Polymer({
     if (loadTimeData.getBoolean('syncSettingsCategorizationEnabled')) {
       // If syncSettingsCategorization is enabled, then syncing of tabs is
       // controlled by the browser sync settings, not OS sync settings.
-      window.open('chrome://settings/syncSetup/advanced');
+      window.open('decentr://settings/syncSetup/advanced');
       this.fire('opened-browser-advanced-sync-settings');
     } else {
       settings.Router.getInstance().navigateTo(settings.routes.SYNC_ADVANCED);

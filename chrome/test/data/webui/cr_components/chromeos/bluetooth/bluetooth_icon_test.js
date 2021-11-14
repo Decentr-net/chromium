@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {SettingsBluetoothIconElement} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_icon.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SettingsBluetoothIconElement} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_icon.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {assertEquals, assertTrue} from '../../../chai_assert.js';
 import {createDefaultBluetoothDevice} from './fake_bluetooth_config.js';
 // clang-format on

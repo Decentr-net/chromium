@@ -80,7 +80,7 @@ TEST_F(RssLinksFetcherUnitTest, Success) {
     // are filtered out.
     std::vector<GURL> returned_urls = TestRssUrls();
     returned_urls.push_back(GURL());
-    returned_urls.push_back(GURL("chrome://non-http-url-is-ignored"));
+    returned_urls.push_back(GURL("decentr://non-http-url-is-ignored"));
     link_reader.Respond(
         feed::mojom::RssLinks::New(TestPageUrl(), returned_urls));
   }

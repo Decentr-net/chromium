@@ -208,7 +208,7 @@ void HistoryUiFaviconRequestHandlerImpl::RequestFromGoogleServer(
           "Sends a request to Google favicon server to rerieve the favicon "
           "bitmap for an entry in the history UI or the recent tabs menu UI."
         trigger:
-          "The user visits chrome://history, chrome://history/syncedTabs or "
+          "The user visits decentr://history, decentr://history/syncedTabs or "
           "uses the Recent Tabs menu. A request can be sent if Chrome does not "
           "have a favicon for a particular page url. Only happens if history "
           "sync (with no custom passphrase) is enabled."

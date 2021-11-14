@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://bluetooth-pairing/strings.m.js';
+import 'decentr://bluetooth-pairing/strings.m.js';
 
-import {BluetoothDeviceBatteryInfoElement} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_device_battery_info.js';
-import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {BluetoothDeviceBatteryInfoElement} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_device_battery_info.js';
+import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {assertEquals, assertTrue} from '../../../chai_assert.js';
 import {createDefaultBluetoothDevice} from './fake_bluetooth_config.js';
 // clang-format on

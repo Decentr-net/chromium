@@ -26,7 +26,7 @@ bool HasSubstringAt(const std::string& path,
 // Parse with legacy FaviconUrlFormat::kFavicon format.
 bool ParseFaviconPathWithLegacyFormat(const std::string& path,
                                       chrome::ParsedFaviconPath* parsed) {
-  // Parameters which can be used in chrome://favicon path. See file
+  // Parameters which can be used in decentr://favicon path. See file
   // "favicon_url_parser.h" for a description of what each one does.
   const char kIconURLParameter[] = "iconurl/";
   const char kSizeParameter[] = "size/";
@@ -76,9 +76,9 @@ bool ParseFaviconPathWithLegacyFormat(const std::string& path,
   // The parsed index needs to be returned in order to allow Instant Extended
   // to translate favicon URLs using advanced parameters.
   // Example:
-  //   "chrome-search://favicon/size/16@2x/<renderer-id>/<most-visited-id>"
+  //   "decentr-search://favicon/size/16@2x/<renderer-id>/<most-visited-id>"
   // would be translated to:
-  //   "chrome-search://favicon/size/16@2x/<most-visited-item-with-given-id>".
+  //   "decentr-search://favicon/size/16@2x/<most-visited-item-with-given-id>".
   parsed->path_index = parsed_index;
   return true;
 }
@@ -89,13 +89,13 @@ bool ParseFaviconPathWithFavicon2Format(const std::string& path,
   if (path.empty())
     return false;
 
-  GURL query_url = GURL("chrome://favicon2/").Resolve(path);
+  GURL query_url = GURL("decentr://favicon2/").Resolve(path);
 
   *parsed = chrome::ParsedFaviconPath();
 
   for (net::QueryIterator it(query_url); !it.IsAtEnd(); it.Advance()) {
     const std::string key = it.GetKey();
-    // Note: each of these keys can be used in chrome://favicon2 path. See file
+    // Note: each of these keys can be used in decentr://favicon2 path. See file
     // "favicon_url_parser.h" for a description of what each one does.
     if (key == "allow_google_server_fallback") {
       const std::string val = it.GetUnescapedValue();

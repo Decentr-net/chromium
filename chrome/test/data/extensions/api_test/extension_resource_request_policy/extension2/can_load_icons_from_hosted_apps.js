@@ -5,5 +5,5 @@
 let image = document.createElement('img');
 image.onload = () => { chrome.test.notifyPass(); };
 image.onerror = () => { chrome.test.notifyFail('Image should have loaded'); };
-image.src = 'chrome-extension://ggmldgjhdenlnjjjmehkomheglpmijnf/test.png';
+image.src = 'decentr-extension://ggmldgjhdenlnjjjmehkomheglpmijnf/test.png';
 document.body.appendChild(image);

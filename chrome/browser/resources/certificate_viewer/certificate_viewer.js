@@ -4,12 +4,12 @@
 
 import './strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {TabBox} from 'chrome://resources/js/cr/ui/tabs.js';
-import {Tree, TreeItem} from 'chrome://resources/js/cr/ui/tree.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {TabBox} from 'decentr://resources/js/cr/ui/tabs.js';
+import {Tree, TreeItem} from 'decentr://resources/js/cr/ui/tree.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 /**
  * @typedef {{

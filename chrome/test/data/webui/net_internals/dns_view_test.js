@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {DnsView} from 'chrome://net-internals/dns_view.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {DnsView} from 'decentr://net-internals/dns_view.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {assertEquals} from '../chai_assert.js';
 

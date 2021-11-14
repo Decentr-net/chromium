@@ -72,14 +72,14 @@ class InterstitialUITest : public InProcessBrowserTest {
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, HomePage) {
   TestInterstitial(
-      GURL("chrome://interstitials"),
+      GURL("decentr://interstitials"),
       "Interstitials");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, InvalidURLShouldOpenHomePage) {
   // Invalid path should open the main page:
   TestInterstitial(
-      GURL("chrome://interstitials/--invalid--"),
+      GURL("decentr://interstitials/--invalid--"),
       "Interstitials");
 }
 
@@ -87,124 +87,124 @@ IN_PROC_BROWSER_TEST_F(InterstitialUITest,
                        InvalidURLMatchingStartOfValidURLShouldBeInvalid) {
   // Path that matches the first characters of another should be invalid
   // (and therefore open the main page).
-  TestInterstitial(GURL("chrome://interstitials/ssl--invalid--"),
+  TestInterstitial(GURL("decentr://interstitials/ssl--invalid--"),
                    "Interstitials");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, SSLInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/ssl"), "Privacy error",
+  TestInterstitial(GURL("decentr://interstitials/ssl"), "Privacy error",
                    IDS_SSL_V2_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, MITMSoftwareInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/mitm-software-ssl"),
+  TestInterstitial(GURL("decentr://interstitials/mitm-software-ssl"),
                    "Privacy error", IDS_MITM_SOFTWARE_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, PinnedCertInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/ssl?type=hpkp_failure"),
+  TestInterstitial(GURL("decentr://interstitials/ssl?type=hpkp_failure"),
                    "Privacy error",
                    u"NET::ERR_SSL_PINNED_KEY_NOT_IN_CERT_CHAIN");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, CTInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/ssl?type=ct_failure"),
+  TestInterstitial(GURL("decentr://interstitials/ssl?type=ct_failure"),
                    "Privacy error",
                    u"NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, MalwareInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/safebrowsing?type=malware"),
+  TestInterstitial(GURL("decentr://interstitials/safebrowsing?type=malware"),
                    "Security error", IDS_MALWARE_V3_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, PhishingInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/safebrowsing?type=phishing"),
+  TestInterstitial(GURL("decentr://interstitials/safebrowsing?type=phishing"),
                    "Security error", IDS_PHISHING_V4_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, UnwantedSoftwareInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/safebrowsing?type=unwanted"),
+  TestInterstitial(GURL("decentr://interstitials/safebrowsing?type=unwanted"),
                    "Security error", IDS_HARMFUL_V3_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, MalwareInterstitialQuiet) {
   TestInterstitial(
-      GURL("chrome://interstitials/quietsafebrowsing?type=malware"),
+      GURL("decentr://interstitials/quietsafebrowsing?type=malware"),
       "Security error", IDS_MALWARE_WEBVIEW_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, PhishingInterstitialQuiet) {
   TestInterstitial(
-      GURL("chrome://interstitials/quietsafebrowsing?type=phishing"),
+      GURL("decentr://interstitials/quietsafebrowsing?type=phishing"),
       "Security error", IDS_PHISHING_WEBVIEW_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, UnwantedSoftwareInterstitialQuiet) {
   TestInterstitial(
-      GURL("chrome://interstitials/quietsafebrowsing?type=unwanted"),
+      GURL("decentr://interstitials/quietsafebrowsing?type=unwanted"),
       "Security error", IDS_HARMFUL_WEBVIEW_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, BillingInterstitialQuiet) {
   TestInterstitial(
-      GURL("chrome://interstitials/quietsafebrowsing?type=billing"),
+      GURL("decentr://interstitials/quietsafebrowsing?type=billing"),
       "Page may charge money", IDS_BILLING_WEBVIEW_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, ClientsideMalwareInterstitial) {
   TestInterstitial(
-      GURL("chrome://interstitials/safebrowsing?type=clientside_malware"),
+      GURL("decentr://interstitials/safebrowsing?type=clientside_malware"),
       "Security error", IDS_MALWARE_V3_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, ClientsidePhishingInterstitial) {
   TestInterstitial(
-      GURL("chrome://interstitials/safebrowsing?type=clientside_phishing"),
+      GURL("decentr://interstitials/safebrowsing?type=clientside_phishing"),
       "Security error", IDS_PHISHING_V4_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, BillingInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/safebrowsing?type=billing"),
+  TestInterstitial(GURL("decentr://interstitials/safebrowsing?type=billing"),
                    "Page may charge money", IDS_BILLING_HEADING);
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, CaptivePortalInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/captiveportal"),
+  TestInterstitial(GURL("decentr://interstitials/captiveportal"),
                    "Connect to network");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, CaptivePortalInterstitialWifi) {
-  TestInterstitial(GURL("chrome://interstitials/captiveportal?is_wifi=1"),
+  TestInterstitial(GURL("decentr://interstitials/captiveportal?is_wifi=1"),
                    "Connect to Wi-Fi");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, OriginPolicyErrorInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/origin_policy"),
+  TestInterstitial(GURL("decentr://interstitials/origin_policy"),
                    "Origin Policy Error",
                    u"has requested that an origin policy");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, BlockedInterceptionInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/blocked-interception"),
+  TestInterstitial(GURL("decentr://interstitials/blocked-interception"),
                    "Your activity on example.com is being monitored",
                    u"Anything you type");
 }
 
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, LegacyTLSInterstitial) {
-  TestInterstitial(GURL("chrome://interstitials/legacy-tls"), "Privacy error",
+  TestInterstitial(GURL("decentr://interstitials/legacy-tls"), "Privacy error",
                    u"outdated security configuration");
 }
 
 // Tests that back button works after opening an interstitial from
-// chrome://interstitials.
+// decentr://interstitials.
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, InterstitialBackButton) {
   content::WebContents* web_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://interstitials")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://interstitials")));
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
-                                           GURL("chrome://interstitials/ssl")));
+                                           GURL("decentr://interstitials/ssl")));
   content::TestNavigationObserver navigation_observer(web_contents);
   chrome::GoBack(browser(), WindowOpenDisposition::CURRENT_TAB);
   navigation_observer.Wait();
@@ -213,10 +213,10 @@ IN_PROC_BROWSER_TEST_F(InterstitialUITest, InterstitialBackButton) {
   EXPECT_EQ(title, u"Interstitials");
 }
 
-// Tests that view-source: works correctly on chrome://interstitials.
+// Tests that view-source: works correctly on decentr://interstitials.
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, InterstitialViewSource) {
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("view-source:chrome://interstitials/")));
+      browser(), GURL("view-source:decentr://interstitials/")));
   int found;
   std::u16string expected_title = u"<title>Interstitials</title>";
   found = ui_test_utils::FindInPage(
@@ -228,7 +228,7 @@ IN_PROC_BROWSER_TEST_F(InterstitialUITest, InterstitialViewSource) {
 }
 
 // Tests that view-source: works correctly on a subpage of
-// chrome://interstitials (using chrome://interstitials/ssl).
+// decentr://interstitials (using decentr://interstitials/ssl).
 
 // Test is currently flaky on Windows (crbug.com/926392)
 #if defined(OS_WIN)
@@ -241,7 +241,7 @@ IN_PROC_BROWSER_TEST_F(InterstitialUITest, InterstitialViewSource) {
 IN_PROC_BROWSER_TEST_F(InterstitialUITest,
                        MAYBE_InterstitialWithPathViewSource) {
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("view-source:chrome://interstitials/ssl")));
+      browser(), GURL("view-source:decentr://interstitials/ssl")));
   int found;
   std::u16string expected_title = u"<title>Privacy error</title";
   found = ui_test_utils::FindInPage(
@@ -258,7 +258,7 @@ IN_PROC_BROWSER_TEST_F(InterstitialUITest,
 IN_PROC_BROWSER_TEST_F(InterstitialUITest, UseCorrectWebContents) {
   int current_tab = browser()->tab_strip_model()->active_index();
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
-                                           GURL("chrome://interstitials/ssl")));
+                                           GURL("decentr://interstitials/ssl")));
   // Duplicate the tab and close it.
   chrome::DuplicateTab(browser());
   EXPECT_NE(current_tab, browser()->tab_strip_model()->active_index());

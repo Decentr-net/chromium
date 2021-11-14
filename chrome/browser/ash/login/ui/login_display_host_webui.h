@@ -43,7 +43,7 @@ class WebUILoginView;
 // For OOBE, it provides wizard screens such as welcome, network, EULA, update,
 // GAIA etc. For user adding, it is legacy support and provides the user
 // selection screen (aka account picker).
-// The WebUI (chrome://oobe) is loaded hidden on start and made visible when
+// The WebUI (decentr://oobe) is loaded hidden on start and made visible when
 // WebUI signals ready (via NOTIFICATION_LOGIN_OR_LOCK_WEBUI_VISIBLE) or there
 // is a network error (via NOTIFICATION_LOGIN_NETWORK_ERROR_SHOWN).
 class LoginDisplayHostWebUI : public LoginDisplayHostCommon,

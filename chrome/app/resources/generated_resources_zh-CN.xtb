@@ -1396,7 +1396,7 @@
 <translation id="2431027948063157455">无法加载 Google 助理。请检查您的网络连接，然后重试。</translation>
 <translation id="243179355394256322">贵单位仅允许已获授权的用户注册设备。此用户无权注册设备。请确保此用户在管理控制台的“用户”部分中拥有“注册 Google Meet 设备”管理员权限。</translation>
 <translation id="243275146591958220">取消下载</translation>
-<translation id="2433452467737464329">在网址中添加查询参数以便自动刷新网页：chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">在网址中添加查询参数以便自动刷新网页：decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">外观</translation>
 <translation id="2433836460518180625">仅解锁设备</translation>
 <translation id="2434449159125086437">无法设置打印机。请检查配置，然后重试。</translation>
@@ -1924,7 +1924,7 @@
 <translation id="2959127025785722291">出了点问题。无法完成扫描。请重试。</translation>
 <translation id="2959842337402130152">存储空间不足，因此无法恢复。请从设备中释放 <ph name="SPACE_REQUIRED" /> 空间，然后重试。</translation>
 <translation id="2960208947600937804">配置 Linux 时出错。请与您的管理员联系。</translation>
-<translation id="296026337010986570">大功告成！已移除有害软件。要想重新开启扩展程序，请前往&lt;a href="chrome://extensions"&gt;扩展程序&lt;/a&gt;页面。</translation>
+<translation id="296026337010986570">大功告成！已移除有害软件。要想重新开启扩展程序，请前往&lt;a href="decentr://extensions"&gt;扩展程序&lt;/a&gt;页面。</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" />（已提供扩展功能）</translation>
 <translation id="2961210776189273067">称谓</translation>
 <translation id="2961695502793809356">点击可前进，按住可查看历史记录</translation>
@@ -4924,7 +4924,7 @@
 <translation id="6227280783235722609">扩展程序</translation>
 <translation id="6229849828796482487">断开 WLAN 网络连接</translation>
 <translation id="6231782223312638214">建议</translation>
-<translation id="6231881193380278751">在网址中添加查询参数可自动刷新相应网页：chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">在网址中添加查询参数可自动刷新相应网页：decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">电池</translation>
 <translation id="6232116551750539448">与“<ph name="NAME" />”的连接已中断</translation>
 <translation id="6233154960150021497">默认为使用语音（而非键盘）</translation>

@@ -322,10 +322,10 @@ content::WebUIDataSource* CreateNewTabPageUiHtmlSource(Profile* profile) {
   // script-src.
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test "
+      "script-src decentr://resources decentr://test "
       "'self' 'unsafe-inline' https:;");
   // Allow embedding of iframes from the One Google Bar and
-  // chrome-untrusted://new-tab-page for other external content and resources.
+  // decentr-untrusted://new-tab-page for other external content and resources.
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ChildSrc,
       base::StringPrintf("child-src https: %s %s;",
@@ -608,7 +608,7 @@ void NewTabPageUI::OnCustomBackgroundImageUpdated() {
       "backgroundImageUrl",
       encoded_url.length() > 0
           ? base::StrCat(
-                {"chrome-untrusted://new-tab-page/custom_background_image?url=",
+                {"decentr-untrusted://new-tab-page/custom_background_image?url=",
                  std::string(encoded_url.data(), encoded_url.length())})
           : "");
   content::WebUIDataSource::Update(profile_, chrome::kChromeUINewTabPageHost,

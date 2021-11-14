@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrToastElement} from 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import { CrToastManagerElement,getToastManager} from 'chrome://resources/cr_elements/cr_toast/cr_toast_manager.js';
+import {CrToastElement} from 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import { CrToastManagerElement,getToastManager} from 'decentr://resources/cr_elements/cr_toast/cr_toast_manager.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {eventToPromise} from '../test_util.js';

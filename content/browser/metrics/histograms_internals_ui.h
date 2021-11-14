@@ -10,7 +10,7 @@
 
 namespace content {
 
-// Handles serving the chrome://histograms HTML, JS, CSS as well as internal
+// Handles serving the decentr://histograms HTML, JS, CSS as well as internal
 // page requests.
 class HistogramsInternalsUI : public WebUIController {
  public:

@@ -6,10 +6,10 @@
 // Note: webview_event_manager.js is already included by saml_handler.js.
 
 // clang-format off
-// #import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js'
-// #import {assert} from 'chrome://resources/js/assert.m.js';
-// #import {$, appendParam} from 'chrome://resources/js/util.m.js';
-// #import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
+// #import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js'
+// #import {assert} from 'decentr://resources/js/assert.m.js';
+// #import {$, appendParam} from 'decentr://resources/js/util.m.js';
+// #import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 // #import {SamlHandler, OnHeadersReceivedDetails} from './saml_handler.m.js';
 // #import {WebviewEventManager} from './webview_event_manager.m.js';

@@ -5,20 +5,20 @@
 /** @fileoverview Runs the Polymer Check Password tests. */
 
 // clang-format off
-import 'chrome://settings/lazy_load.js';
+import 'decentr://settings/lazy_load.js';
 
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {PluralStringProxyImpl} from 'chrome://resources/js/plural_string_proxy.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {OpenWindowProxyImpl, PasswordCheckInteraction, PasswordManagerImpl, Router, routes, SyncBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {makeCompromisedCredential, makeInsecureCredential, makePasswordCheckStatus} from 'chrome://test/settings/passwords_and_autofill_fake_data.js';
-import {getSyncAllPrefs,simulateSyncStatus} from 'chrome://test/settings/sync_test_util.js';
-import {TestOpenWindowProxy} from 'chrome://test/settings/test_open_window_proxy.js';
-import {TestPasswordManagerProxy} from 'chrome://test/settings/test_password_manager_proxy.js';
-import {TestSyncBrowserProxy} from 'chrome://test/settings/test_sync_browser_proxy.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {PluralStringProxyImpl} from 'decentr://resources/js/plural_string_proxy.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {OpenWindowProxyImpl, PasswordCheckInteraction, PasswordManagerImpl, Router, routes, SyncBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {makeCompromisedCredential, makeInsecureCredential, makePasswordCheckStatus} from 'decentr://test/settings/passwords_and_autofill_fake_data.js';
+import {getSyncAllPrefs,simulateSyncStatus} from 'decentr://test/settings/sync_test_util.js';
+import {TestOpenWindowProxy} from 'decentr://test/settings/test_open_window_proxy.js';
+import {TestPasswordManagerProxy} from 'decentr://test/settings/test_password_manager_proxy.js';
+import {TestSyncBrowserProxy} from 'decentr://test/settings/test_sync_browser_proxy.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 // clang-format on
 
@@ -1100,7 +1100,7 @@ suite('PasswordsCheckSection', function() {
     assertTrue(isElementVisible(
         checkPasswordSection.shadowRoot.querySelector('#bannerImage')));
     expectEquals(
-        'chrome://settings/images/password_check_positive.svg',
+        'decentr://settings/images/password_check_positive.svg',
         checkPasswordSection.shadowRoot.querySelector('#bannerImage').src);
   });
 
@@ -1116,7 +1116,7 @@ suite('PasswordsCheckSection', function() {
     assertTrue(isElementVisible(
         checkPasswordSection.shadowRoot.querySelector('#bannerImage')));
     expectEquals(
-        'chrome://settings/images/password_check_neutral.svg',
+        'decentr://settings/images/password_check_neutral.svg',
         checkPasswordSection.shadowRoot.querySelector('#bannerImage').src);
   });
 
@@ -1135,7 +1135,7 @@ suite('PasswordsCheckSection', function() {
     assertTrue(isElementVisible(
         checkPasswordSection.shadowRoot.querySelector('#bannerImage')));
     expectEquals(
-        'chrome://settings/images/password_check_neutral.svg',
+        'decentr://settings/images/password_check_neutral.svg',
         checkPasswordSection.shadowRoot.querySelector('#bannerImage').src);
   });
 
@@ -1153,7 +1153,7 @@ suite('PasswordsCheckSection', function() {
     assertTrue(isElementVisible(
         checkPasswordSection.shadowRoot.querySelector('#bannerImage')));
     expectEquals(
-        'chrome://settings/images/password_check_neutral.svg',
+        'decentr://settings/images/password_check_neutral.svg',
         checkPasswordSection.shadowRoot.querySelector('#bannerImage').src);
   });
 

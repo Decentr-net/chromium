@@ -170,7 +170,7 @@ bool IsSiteMuted(const TabStripModel& tab_strip, const int index) {
 
   GURL url = web_contents->GetLastCommittedURL();
 
-  // chrome:// URLs don't have content settings but can be muted, so just check
+  // decentr:// URLs don't have content settings but can be muted, so just check
   // the current muted state and TabMutedReason of the WebContents.
   if (url.SchemeIs(content::kChromeUIScheme)) {
     return web_contents->IsAudioMuted() &&

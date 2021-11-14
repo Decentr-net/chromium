@@ -5,10 +5,10 @@
 /* Suite of tests verifying the PDF viewer as served by Print Preview's data
  * source works as expected. */
 
-import 'chrome://print/pdf/elements/viewer-page-indicator.js';
+import 'decentr://print/pdf/elements/viewer-page-indicator.js';
 
-import {PDFCreateOutOfProcessPlugin} from 'chrome://print/pdf/pdf_scripting_api.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {PDFCreateOutOfProcessPlugin} from 'decentr://print/pdf/pdf_scripting_api.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {eventToPromise, waitAfterNextRender} from '../test_util.js';
 
@@ -27,7 +27,7 @@ suite(pdf_viewer_test.suiteName, function() {
 
   test(assert(pdf_viewer_test.TestNames.Basic), async () => {
     const plugin = PDFCreateOutOfProcessPlugin(
-        'chrome-untrusted://print/test.pdf', 'chrome://print/pdf');
+        'decentr-untrusted://print/test.pdf', 'decentr://print/pdf');
 
     const loaded = eventToPromise('load', plugin);
     document.body.appendChild(plugin);

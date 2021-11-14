@@ -283,7 +283,7 @@ TEST_F(RenderProcessHostUnitTest,
   // Simulate a situation where |sw_host| won't be considered suitable for
   // future navigations to |kUrl|.  In https://crbug.com/782349, this happened
   // when |kUrl| corresponded to a nonexistent extension, but
-  // chrome-extension:// URLs can't be tested inside content/.  Instead,
+  // decentr-extension:// URLs can't be tested inside content/.  Instead,
   // install a ContentBrowserClient which will return false when IsSuitableHost
   // is consulted.
   UnsuitableHostContentBrowserClient modified_client;

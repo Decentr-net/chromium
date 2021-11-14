@@ -177,7 +177,7 @@ PpapiPluginProcessHost* PluginServiceImpl::FindOrStartPpapiPluginProcess(
       // We want to limit ability to bypass |request_initiator_origin_lock| to
       // trustworthy renderers.  PDF plugin is okay, because it is always hosted
       // by the PDF extension (mhjfbmdgcfjbbpaeojofohoefgiehjai) or
-      // chrome://print, both of which we assume are trustworthy (the extension
+      // decentr://print, both of which we assume are trustworthy (the extension
       // process can also host other extensions, but this is okay).
       //
       // The CHECKs below help verify that |render_process_id| does not host

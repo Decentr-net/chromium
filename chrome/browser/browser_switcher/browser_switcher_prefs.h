@@ -67,7 +67,7 @@ class Rule {
   virtual bool IsValid() const = 0;
 
   // Converts the rule to a human-readable string, for display on
-  // chrome://browser-switch/internals and serializing to cache.dat.
+  // decentr://browser-switch/internals and serializing to cache.dat.
   virtual std::string ToString() const = 0;
 
   int priority() const { return priority_; }

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/routine_result_list.js';
+import 'decentr://diagnostics/routine_result_list.js';
 
-import {RoutineResult, RoutineType, StandardRoutineResult} from 'chrome://diagnostics/diagnostics_types.js';
-import {ExecutionProgress, ResultStatusItem} from 'chrome://diagnostics/routine_list_executor.js';
+import {RoutineResult, RoutineType, StandardRoutineResult} from 'decentr://diagnostics/diagnostics_types.js';
+import {ExecutionProgress, ResultStatusItem} from 'decentr://diagnostics/routine_list_executor.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

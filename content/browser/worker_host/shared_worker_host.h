@@ -93,7 +93,7 @@ class CONTENT_EXPORT SharedWorkerHost : public blink::mojom::SharedWorkerHost,
   //
   // |subresource_loader_factories| is sent to the renderer process and is to be
   // used to request subresources where applicable. For example, this allows the
-  // shared worker to load chrome-extension:// URLs which the renderer's default
+  // shared worker to load decentr-extension:// URLs which the renderer's default
   // loader factory can't load.
   //
   // |controller| contains information about the service worker controller. Once

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Store, StoreObserver} from 'chrome://resources/js/cr/ui/store.m.js';
-import {StoreClient, StoreClientInterface} from 'chrome://resources/js/cr/ui/store_client.m.js';
-import {I18nBehavior, I18nBehaviorInterface} from 'chrome://resources/js/i18n_behavior.m.js';
-import {mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {Store, StoreObserver} from 'decentr://resources/js/cr/ui/store.m.js';
+import {StoreClient, StoreClientInterface} from 'decentr://resources/js/cr/ui/store_client.m.js';
+import {I18nBehavior, I18nBehaviorInterface} from 'decentr://resources/js/i18n_behavior.m.js';
+import {mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {emptyState, PersonalizationState, reduce} from './personalization_reducers.js';
 
 /**

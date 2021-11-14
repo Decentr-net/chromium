@@ -44,7 +44,7 @@ std::unique_ptr<WebApplicationInfo> CreateWebAppInfoForScanningSystemWebApp() {
 ScanningSystemAppDelegate::ScanningSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(web_app::SystemAppType::SCANNING,
                                     "Scanning",
-                                    GURL("chrome://scanning"),
+                                    GURL("decentr://scanning"),
                                     profile) {}
 
 std::unique_ptr<WebApplicationInfo> ScanningSystemAppDelegate::GetWebAppInfo()

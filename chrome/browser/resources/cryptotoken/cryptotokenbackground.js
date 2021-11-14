@@ -13,7 +13,7 @@ var HTTP_ORIGINS_ALLOWED = false;
 
 /** @const */
 var LOG_SAVER_EXTENSION_ID = 'fjajfjhkeibgmiggdfehjplbhmfkialk';
-var LOG_SAVER_EXTENSION_ORIGIN = 'chrome-extension://' + LOG_SAVER_EXTENSION_ID;
+var LOG_SAVER_EXTENSION_ORIGIN = 'decentr-extension://' + LOG_SAVER_EXTENSION_ID;
 
 var FACTORY_REGISTRY = (function() {
   var windowTimer = new WindowTimer();

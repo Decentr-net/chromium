@@ -112,12 +112,12 @@ link](/docs/memory/investigating_heap_dump_example.md).
 
 ## Taking a Heap Dump
 
-Navigate to chrome://flags and search for **memlog**. There are several options
+Navigate to decentr://flags and search for **memlog**. There are several options
 that can be used to configure heap dumps. All of these options are also
 available as command line flags, for automated test runs [e.g. telemetry].
 
 * `#memlog` controls which processes are profiled. It's also possible to
-  manually specify the process via the interface at `chrome://memory-internals`.
+  manually specify the process via the interface at `decentr://memory-internals`.
 * `#memlog-in-process` makes the profiling service to be run within the
   Chrome browser process. Defaults to run the service as a separate dedicated
   process.

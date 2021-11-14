@@ -79,7 +79,7 @@ bool SlowTraceSource::AllowCaching() {
 SlowTraceController::SlowTraceController(content::WebUI* web_ui)
     : WebUIController(web_ui) {
 
-  // Set up the chrome://slow_trace/ source.
+  // Set up the decentr://slow_trace/ source.
   content::URLDataSource::Add(Profile::FromWebUI(web_ui),
                               std::make_unique<SlowTraceSource>());
 }

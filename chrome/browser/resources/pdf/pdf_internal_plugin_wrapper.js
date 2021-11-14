@@ -22,9 +22,9 @@ channel.port1.onmessage = e => {
 
 const srcUrl = new URL(plugin.getAttribute('src'));
 let parentOrigin = srcUrl.origin;
-if (parentOrigin === 'chrome-untrusted://print') {
+if (parentOrigin === 'decentr-untrusted://print') {
   // Within Print Preview, the source origin differs from the parent origin.
-  parentOrigin = 'chrome://print';
+  parentOrigin = 'decentr://print';
 }
 window.parent.postMessage(
     {type: 'connect', token: srcUrl.href}, parentOrigin, [channel.port2]);

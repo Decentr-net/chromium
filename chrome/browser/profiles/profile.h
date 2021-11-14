@@ -358,7 +358,7 @@ class Profile : public content::BrowserContext {
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
   enum AppLocaleChangedVia {
-    // Caused by chrome://settings change.
+    // Caused by decentr://settings change.
     APP_LOCALE_CHANGED_VIA_SETTINGS,
     // Locale has been reverted via LocaleChangeGuard.
     APP_LOCALE_CHANGED_VIA_REVERT,

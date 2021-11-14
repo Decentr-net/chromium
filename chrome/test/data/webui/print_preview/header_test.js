@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Destination, DestinationConnectionStatus, DestinationOrigin, DestinationType, Error, GooglePromotedDestinationId, PrintPreviewHeaderElement, PrintPreviewModelElement, PrintPreviewPluralStringProxyImpl, State} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {Destination, DestinationConnectionStatus, DestinationOrigin, DestinationType, Error, GooglePromotedDestinationId, PrintPreviewHeaderElement, PrintPreviewModelElement, PrintPreviewPluralStringProxyImpl, State} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {TestPluralStringProxy} from '../test_plural_string_proxy.js';
 import {fakeDataBind} from '../test_util.js';
@@ -98,7 +98,7 @@ suite(header_test.suiteName, function() {
       assertEquals('printPreviewPageSummaryLabel', messageName);
       assertEquals(1, itemCount);
     }
-    // Verify the chrome://print case of a zero length document does not show
+    // Verify the decentr://print case of a zero length document does not show
     // the summary.
     header.sheetCount = 0;
     assertEquals('', summary.textContent);

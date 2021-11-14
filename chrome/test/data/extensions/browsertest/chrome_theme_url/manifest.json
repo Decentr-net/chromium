@@ -2,7 +2,7 @@
   "name": "chrome theme test",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Tests whether we can load images through chrome://theme/.",
+  "description": "Tests whether we can load images through decentr://theme/.",
   "background": {
     "page": "test.html"
   },

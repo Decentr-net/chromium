@@ -473,8 +473,8 @@ rules.
 ### Diagnostics
 
 In Chromium, the policies associated with active processes can be viewed at
-chrome://sandbox. Tracing of the `sandbox` category will output the policy used
-when a process is launched. Tracing can be enabled using chrome://tracing or by
+decentr://sandbox. Tracing of the `sandbox` category will output the policy used
+when a process is launched. Tracing can be enabled using decentr://tracing or by
 using the `--trace-startup=-*,disabled-by-default-sandbox` command line flag.
 Trace output can be investigated with `//tools/win/trace-sandbox-viewer.py`.
 

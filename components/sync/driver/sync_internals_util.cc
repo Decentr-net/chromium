@@ -87,7 +87,7 @@ const char kUninitialized[] = "Uninitialized";
 const char kUninitializedCSSClass[] = "uninitialized";
 const char kBadStateCSSClass[] = "in_bad_state";
 
-// This class represents one field in chrome://sync-internals. It gets
+// This class represents one field in decentr://sync-internals. It gets
 // serialized into a dictionary with entries for 'stat_name', 'stat_value' and
 // 'stat_status'.
 class StatBase {
@@ -126,7 +126,7 @@ class Stat : public StatBase {
   }
 };
 
-// A section for display on chrome://sync-internals, consisting of a title and a
+// A section for display on decentr://sync-internals, consisting of a title and a
 // list of fields.
 class Section {
  public:
@@ -320,7 +320,7 @@ std::string GetConnectionStatus(const SyncTokenStatus& status) {
 
 // This function both defines the structure of the message to be returned and
 // its contents.  Most of the message consists of simple fields in
-// chrome://sync-internals which are grouped into sections and populated with
+// decentr://sync-internals which are grouped into sections and populated with
 // the help of the SyncStat classes defined above.
 std::unique_ptr<base::DictionaryValue> ConstructAboutInformation(
     IncludeSensitiveData include_sensitive_data,

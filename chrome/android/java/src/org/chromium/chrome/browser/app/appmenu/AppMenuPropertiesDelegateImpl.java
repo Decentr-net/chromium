@@ -463,7 +463,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
                 .setVisible(
                         isCurrentTabNotNull && BookmarkFeatures.isEditBookmarkMenuItemEnabled());
 
-        // Don't allow either "chrome://" pages or interstitial pages to be shared, or when the
+        // Don't allow either "decentr://" pages or interstitial pages to be shared, or when the
         // current tab is null.
         menu.findItem(R.id.share_row_menu_id)
                 .setVisible(isCurrentTabNotNull && mShareUtils.shouldEnableShare(currentTab));
@@ -524,7 +524,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
         MenuItem managedByMenuItem = menu.findItem(R.id.managed_by_menu_id);
         managedByMenuItem.setVisible(
                 isCurrentTabNotNull && shouldShowManagedByMenuItem(currentTab));
-        // TODO(https://crbug.com/1092175): Enable "managed by" menu item after chrome://management
+        // TODO(https://crbug.com/1092175): Enable "managed by" menu item after decentr://management
         // page is added.
         managedByMenuItem.setEnabled(false);
     }
@@ -745,7 +745,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
     }
 
     /**
-     * @param isChromeScheme Whether URL for the current tab starts with the chrome:// scheme.
+     * @param isChromeScheme Whether URL for the current tab starts with the decentr:// scheme.
      * @param currentTab The currentTab for which the app menu is showing.
      * @param isIncognito Whether the currentTab is incognito.
      * @return Whether the paint preview menu item should be displayed.
@@ -784,7 +784,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
     }
 
     /**
-     * @param isChromeScheme Whether URL for the current tab starts with the chrome:// scheme.
+     * @param isChromeScheme Whether URL for the current tab starts with the decentr:// scheme.
      * @param isFileScheme Whether URL for the current tab starts with the file:// scheme.
      * @param isContentScheme Whether URL for the current tab starts with the file:// scheme.
      * @param isIncognito Whether the current tab is incognito.
@@ -794,7 +794,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
     protected boolean shouldShowHomeScreenMenuItem(boolean isChromeScheme, boolean isFileScheme,
             boolean isContentScheme, boolean isIncognito, @NonNull GURL url) {
         // Hide 'Add to homescreen' for the following:
-        // * chrome:// pages - Android doesn't know how to direct those URLs.
+        // * decentr:// pages - Android doesn't know how to direct those URLs.
         // * incognito pages - To avoid problems where users create shortcuts in incognito
         //                      mode and then open the webapp in regular mode.
         // * file:// - After API 24, file: URIs are not supported in VIEW intents and thus
@@ -1027,7 +1027,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
      * @param menu {@link Menu} for request desktop site.
      * @param currentTab Current tab being displayed.
      * @param canShowRequestDesktopSite If the request desktop site menu item should show or not.
-     * @param isChromeScheme Whether URL for the current tab starts with the chrome:// scheme.
+     * @param isChromeScheme Whether URL for the current tab starts with the decentr:// scheme.
      */
     protected void updateRequestDesktopSiteMenuItem(Menu menu, @Nullable Tab currentTab,
             boolean canShowRequestDesktopSite, boolean isChromeScheme) {
@@ -1035,7 +1035,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
         MenuItem requestMenuLabel = menu.findItem(R.id.request_desktop_site_id);
         MenuItem requestMenuCheck = menu.findItem(R.id.request_desktop_site_check_id);
 
-        // Hide request desktop site on all chrome:// pages except for the NTP.
+        // Hide request desktop site on all decentr:// pages except for the NTP.
         boolean itemVisible = currentTab != null && canShowRequestDesktopSite
                 && (!isChromeScheme || currentTab.isNativePage())
                 && !shouldShowReaderModePrefs(currentTab) && currentTab.getWebContents() != null;
@@ -1070,14 +1070,14 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
      *
      * @param menu {@link Menu} for auto dark.
      * @param currentTab Current tab being displayed.
-     * @param isChromeScheme Whether URL for the current tab starts with the chrome:// scheme.
+     * @param isChromeScheme Whether URL for the current tab starts with the decentr:// scheme.
      */
     protected void updateAutoDarkMenuItem(
             Menu menu, @Nullable Tab currentTab, boolean isChromeScheme) {
         MenuItem autoDarkMenuRow = menu.findItem(R.id.auto_dark_web_contents_row_menu_id);
         MenuItem autoDarkMenuCheck = menu.findItem(R.id.auto_dark_web_contents_check_id);
 
-        // Hide app menu item if on non-NTP chrome:// page or auto dark not enabled.
+        // Hide app menu item if on non-NTP decentr:// page or auto dark not enabled.
         boolean isAutoDarkEnabled = isAutoDarkWebContentsEnabled();
         boolean itemVisible = currentTab != null && !isChromeScheme && isAutoDarkEnabled;
         autoDarkMenuRow.setVisible(itemVisible);

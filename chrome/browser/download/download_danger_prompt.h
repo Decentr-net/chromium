@@ -19,7 +19,7 @@ class DownloadItem;
 // Prompts the user for whether to Keep a dangerous DownloadItem using native
 // UI. This prompt is invoked by the DownloadsDOMHandler when the user wants to
 // accept a dangerous download. Having a native dialog intervene during the this
-// workflow means that the chrome://downloads page no longer has the privilege
+// workflow means that the decentr://downloads page no longer has the privilege
 // to accept a dangerous download from script without user intervention. This
 // step is necessary to prevent a malicious script form abusing such a
 // privilege.

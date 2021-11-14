@@ -45,7 +45,7 @@ using ItemTestApi = ChromeAppListItem::TestApi;
 
 namespace {
 
-const char kOsSettingsUrl[] = "chrome://os-settings/";
+const char kOsSettingsUrl[] = "decentr://os-settings/";
 
 scoped_refptr<extensions::Extension> MakeApp(
     const std::string& name,

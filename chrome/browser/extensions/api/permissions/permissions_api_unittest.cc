@@ -613,9 +613,9 @@ TEST_F(PermissionsAPIUnitTest, RequestingChromeURLs) {
           .Build();
   AddExtensionAndGrantPermissions(*extension);
 
-  const GURL chrome_url("chrome://settings");
+  const GURL chrome_url("decentr://settings");
 
-  // By default, the extension should not have access to chrome://settings.
+  // By default, the extension should not have access to decentr://settings.
   EXPECT_FALSE(extension->permissions_data()->HasHostPermission(chrome_url));
   // The optional permissions should also omit the chrome:-scheme for the
   // <all_urls> pattern.
@@ -624,18 +624,18 @@ TEST_F(PermissionsAPIUnitTest, RequestingChromeURLs) {
                    .MatchesURL(chrome_url));
 
   {
-    // Trying to request "chrome://settings/*" should fail, since it's not in
+    // Trying to request "decentr://settings/*" should fail, since it's not in
     // the optional permissions.
     auto function = base::MakeRefCounted<PermissionsRequestFunction>();
     function->set_user_gesture(true);
     function->set_extension(extension.get());
     std::string error =
         extension_function_test_utils::RunFunctionAndReturnError(
-            function.get(), R"([{"origins": ["chrome://settings/*"]}])",
+            function.get(), R"([{"origins": ["decentr://settings/*"]}])",
             browser(), api_test_utils::NONE);
     EXPECT_EQ(kNotInManifestError, error);
   }
-  // chrome://settings should still be restricted.
+  // decentr://settings should still be restricted.
   EXPECT_FALSE(extension->permissions_data()->HasHostPermission(chrome_url));
 
   // The extension can request <all_urls>, but it should not grant access to the

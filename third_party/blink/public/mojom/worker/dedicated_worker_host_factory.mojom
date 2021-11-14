@@ -52,7 +52,7 @@ interface DedicatedWorkerHostFactoryClient {
       WorkerMainScriptLoadParams main_script_load_params,
 
       // Used for loading subresources. This also supports non-network URLs like
-      // chrome-extension:// URLs.
+      // decentr-extension:// URLs.
       URLLoaderFactoryBundle subresource_loader_factories,
 
       // Used for updating subresource loaders after NetworkService crash.

@@ -346,7 +346,7 @@ scoped_refptr<viz::ContextProviderCommandBuffer> CreateOffscreenContext(
   return base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
       std::move(gpu_channel_host), gpu_memory_buffer_manager, stream_id,
       stream_priority, gpu::kNullSurfaceHandle,
-      GURL("chrome://gpu/RenderThreadImpl::CreateOffscreenContext/" +
+      GURL("decentr://gpu/RenderThreadImpl::CreateOffscreenContext/" +
            viz::command_buffer_metrics::ContextTypeToString(type)),
       automatic_flushes, support_locking, support_grcontext, limits, attributes,
       type);
@@ -961,7 +961,7 @@ void RenderThreadImpl::RegisterSchemes() {
       chrome_scheme);
   WebSecurityPolicy::RegisterURLSchemeAsWebUI(chrome_scheme);
 
-  // chrome-untrusted:
+  // decentr-untrusted:
   WebString chrome_untrusted_scheme(
       WebString::FromASCII(kChromeUIUntrustedScheme));
   WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(

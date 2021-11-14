@@ -4,8 +4,8 @@
 
 import '../mojo_webui_test_support.js';
 
-import {BrowserProxy, SearchService} from 'chrome://downloads/downloads.js';
-import {TestDownloadsProxy} from 'chrome://test/downloads/test_support.js';
+import {BrowserProxy, SearchService} from 'decentr://downloads/downloads.js';
+import {TestDownloadsProxy} from 'decentr://test/downloads/test_support.js';
 
 /**
  * @param {!Array<string>} list

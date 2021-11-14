@@ -6,18 +6,18 @@
  * @fileoverview
  * 'site-list-entry' shows an Allowed and Blocked site for a given category.
  */
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_elements/policy/cr_policy_pref_indicator.m.js';
-import 'chrome://resources/cr_elements/policy/cr_tooltip_icon.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/policy/cr_policy_pref_indicator.m.js';
+import 'decentr://resources/cr_elements/policy/cr_tooltip_icon.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 import '../icons.js';
 import '../settings_shared_css.js';
 import '../site_favicon.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {FocusRowBehavior} from 'chrome://resources/js/cr/ui/focus_row_behavior.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {FocusRowBehavior} from 'decentr://resources/js/cr/ui/focus_row_behavior.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BaseMixin, BaseMixinInterface} from '../base_mixin.js';
 import {loadTimeData} from '../i18n_setup.js';

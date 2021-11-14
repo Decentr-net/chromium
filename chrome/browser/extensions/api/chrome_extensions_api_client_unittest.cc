@@ -52,7 +52,7 @@ TEST_F(ChromeExtensionsAPIClientTest, ShouldHideBrowserNetworkRequest) {
     return request_params;
   };
 
-  // Requests made by the browser with chrome://newtab as its initiator should
+  // Requests made by the browser with decentr://newtab as its initiator should
   // not be visible to extensions.
   EXPECT_TRUE(client.ShouldHideBrowserNetworkRequest(
       nullptr /* context */,

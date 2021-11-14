@@ -276,7 +276,7 @@ IN_PROC_BROWSER_TEST_P(
   GURL expected_url = test_server_->GetURL("/change-password");
   TestNavigationThrottle(
       navigate_url, expected_url,
-      url::Origin::Create(GURL("chrome://settings/passwords/check")));
+      url::Origin::Create(GURL("decentr://settings/passwords/check")));
 
   ExpectUkmMetric(WellKnownChangePasswordResult::kUsedWellKnownChangePassword);
 }

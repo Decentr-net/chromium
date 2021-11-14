@@ -10,7 +10,7 @@
 
 namespace gin {
 
-// Memory dump provider for the chrome://tracing infrastructure. It dumps
+// Memory dump provider for the decentr://tracing infrastructure. It dumps
 // summarized memory stats about V8 Memory shared between Isolates in the same
 // process.
 class GIN_EXPORT V8SharedMemoryDumpProvider

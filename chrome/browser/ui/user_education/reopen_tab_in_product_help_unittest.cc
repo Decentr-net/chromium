@@ -82,8 +82,8 @@ TEST_F(ReopenTabInProductHelpTest, TriggersIPH) {
       .Times(1)
       .WillOnce(Return(true));
 
-  AddTab(browser(), GURL("chrome://blank"));
-  AddTab(browser(), GURL("chrome://blank"));
+  AddTab(browser(), GURL("decentr://blank"));
+  AddTab(browser(), GURL("decentr://blank"));
   BrowserList::SetLastActive(browser());
 
   clock()->Advance(kTabMinimumActiveDuration);

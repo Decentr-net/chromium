@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 
-import {FOLDER_OPEN_CHANGED_EVENT} from 'chrome://read-later.top-chrome/side_panel/bookmark_folder.js';
-import {BookmarksApiProxy} from 'chrome://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
-import {BookmarksDragManager, DROP_POSITION_ATTR, DropPosition, overrideFolderOpenerTimeoutDelay} from 'chrome://read-later.top-chrome/side_panel/bookmarks_drag_manager.js';
-import {BookmarksListElement, LOCAL_STORAGE_OPEN_FOLDERS_KEY} from 'chrome://read-later.top-chrome/side_panel/bookmarks_list.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {FOLDER_OPEN_CHANGED_EVENT} from 'decentr://read-later.top-chrome/side_panel/bookmark_folder.js';
+import {BookmarksApiProxy} from 'decentr://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
+import {BookmarksDragManager, DROP_POSITION_ATTR, DropPosition, overrideFolderOpenerTimeoutDelay} from 'decentr://read-later.top-chrome/side_panel/bookmarks_drag_manager.js';
+import {BookmarksListElement, LOCAL_STORAGE_OPEN_FOLDERS_KEY} from 'decentr://read-later.top-chrome/side_panel/bookmarks_list.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.m.js';

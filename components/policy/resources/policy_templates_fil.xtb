@@ -500,7 +500,7 @@
 
       Maaaring tumukoy ng mga exception sa patakaran sa pag-whitelist ng URL. Limitado sa 1000 entry ang mga patakarang ito; babalewalain ang mga entry na lalampas dito.
 
-      Tandaang hindi inirerekomendang i-block ang mga internal na 'chrome://*' URL dahil maaari itong magdulot ng mga hindi inaasahang error.
+      Tandaang hindi inirerekomendang i-block ang mga internal na 'decentr://*' URL dahil maaari itong magdulot ng mga hindi inaasahang error.
 
       Mula sa M73 maaari mong i-block ang mga 'javascript://*' na URL. Gayunpaman, naaapektuhan lang nito ang JavaScript na na-type sa address bar (o kaya, halimbawa, mga bookmarklet). Tandaan na ang mga in-page JavaScript URL, hangga't ito ay dynamic na na-load na data, ay hindi sakop ng patakarang ito. Halimbawa, kung iba-block mo ang 'example.com/abc', malo-load pa rin ng page na 'example.com' ang 'example.com/abc' sa pamamagitan ng XMLHTTPRequest.
 
@@ -667,7 +667,7 @@
       pag-restart.</translation>
 <translation id="2138449619211358657">Nagbibigay-daan ang patakarang ito sa <ph name="PRODUCT_OS_NAME" /> na i-bypass ang anumang proxy para sa pag-authenticate ng captive portal.
 
-      Magkakaroon lang ng bisa ang patakarang ito kung naka-configure ang isang proxy (halimbawa, sa pamamagitan ng patakaran, sa pamamagitan ng user sa chrome://settings, o sa pamamagitan ng mga extension).
+      Magkakaroon lang ng bisa ang patakarang ito kung naka-configure ang isang proxy (halimbawa, sa pamamagitan ng patakaran, sa pamamagitan ng user sa decentr://settings, o sa pamamagitan ng mga extension).
 
       Kung ie-enable mo ang setting na ito, ipapakita sa isang hiwalay na window ang anumang page sa pag-authenticate ng captive portal (ibig sabihin, lahat ng web page simula sa page ng pag-sign in sa captive portal hanggang sa maka-detect ang <ph name="PRODUCT_NAME" /> ng matagumpay na koneksyon sa internet) nang binabalewala ang lahat ng setting at paghihigpit sa patakaran para sa kasalukuyang user.
 
@@ -688,15 +688,15 @@
 <translation id="2170233653554726857">I-enable ang pag-optimize ng WPAD</translation>
 <translation id="2176565653304920879">Kapag nakatakda ang patakarang ito, ang awtomatikong proseso ng pag-detect ng timezone ay magiging isa sa mga sumusunod na paraan depende sa value ng setting:
 
-      Kung itatakda sa TimezoneAutomaticDetectionUsersDecide, makokontrol ng mga user ang awtomatikong pag-detect ng timezone gamit ang mga normal na kontrol sa chrome://settings.
+      Kung itatakda sa TimezoneAutomaticDetectionUsersDecide, makokontrol ng mga user ang awtomatikong pag-detect ng timezone gamit ang mga normal na kontrol sa decentr://settings.
 
-      Kung itatakda sa TimezoneAutomaticDetectionDisabled, madi-disable ang mga awtomatikong kontrol sa chrome://settings. Magiging palaging naka-off ang awtomatikong pag-detect ng timezone.
+      Kung itatakda sa TimezoneAutomaticDetectionDisabled, madi-disable ang mga awtomatikong kontrol sa decentr://settings. Magiging palaging naka-off ang awtomatikong pag-detect ng timezone.
 
-      Kung itatakda sa TimezoneAutomaticDetectionIPOnly, madi-disable ang mga kontrol sa timezone sa chrome://settings. Magiging palaging naka-on ang awtomatikong pag-detect ng timezone. Gagamit ang pag-detect ng timezone ng paraang IP lang ang gagamitin upang malaman ang lokasyon.
+      Kung itatakda sa TimezoneAutomaticDetectionIPOnly, madi-disable ang mga kontrol sa timezone sa decentr://settings. Magiging palaging naka-on ang awtomatikong pag-detect ng timezone. Gagamit ang pag-detect ng timezone ng paraang IP lang ang gagamitin upang malaman ang lokasyon.
 
-      Kung itatakda sa TimezoneAutomaticDetectionSendWiFiAccessPoints, madi-disable ang mga kontrol sa timezone sa chrome://settings. Magiging palaging naka-on ang awtomatikong pag-detect ng timezone. Ipapadala palagi ang listahan ng mga makikitang access-point ng WiFi sa server ng Geolocation API para sa napakadetalyadong pag-detect ng timezone.
+      Kung itatakda sa TimezoneAutomaticDetectionSendWiFiAccessPoints, madi-disable ang mga kontrol sa timezone sa decentr://settings. Magiging palaging naka-on ang awtomatikong pag-detect ng timezone. Ipapadala palagi ang listahan ng mga makikitang access-point ng WiFi sa server ng Geolocation API para sa napakadetalyadong pag-detect ng timezone.
 
-      Kung itatakda sa TimezoneAutomaticDetectionSendAllLocationInfo, madi-disable ang mga kontrol sa timezone sa chrome://settings. Magiging palaging naka-on ang awtomatikong pag-detect ng timezone. Ipapadala ang impormasyon sa lokasyon (gaya ng mga access-point ng WiFi, maaaring makaugnayang Mga Cell Tower, GPS) sa isang server para sa napakadetalyadong pag-detect ng timezone.
+      Kung itatakda sa TimezoneAutomaticDetectionSendAllLocationInfo, madi-disable ang mga kontrol sa timezone sa decentr://settings. Magiging palaging naka-on ang awtomatikong pag-detect ng timezone. Ipapadala ang impormasyon sa lokasyon (gaya ng mga access-point ng WiFi, maaaring makaugnayang Mga Cell Tower, GPS) sa isang server para sa napakadetalyadong pag-detect ng timezone.
 
       Kung hindi itatakda ang patakarang ito, gagana ito nang parang nakatakda sa TimezoneAutomaticDetectionUsersDecide.
 
@@ -1254,9 +1254,9 @@
       Kung hindi nakatakda ang patakaran, o kung nakatakda ito sa false, hindi mae-enable ang mga DHE na cipher suite sa TLS. Kung hindi naman ay maaari itong itakda sa true upang i-enable ang mga DHE na cipher suite at mapanatili ang compatibility sa isang lumang server. Isa itong pansamantalang solusyon at dapat na i-configure muli ang server.
 
       Hinihimok ang mga server na mag-migrate sa mga ECDHE na cipher suite. Kung hindi available ang mga ito, tiyaking naka-enable ang isang cipher suite gamit ang RSA key exchange.</translation>
-<translation id="3117706142826400449">Kung naka-disable, pumipigil sa Chrome Cleanup na i-scan ang system para sa mga hindi gustong software at magsagawa ng mga paglilinis. Naka-disable ang manual na pag-trigger sa Chrome Cleanup mula sa chrome://settings/cleanup.
+<translation id="3117706142826400449">Kung naka-disable, pumipigil sa Chrome Cleanup na i-scan ang system para sa mga hindi gustong software at magsagawa ng mga paglilinis. Naka-disable ang manual na pag-trigger sa Chrome Cleanup mula sa decentr://settings/cleanup.
 
-      Kung naka-enable o hindi nakatakda, pana-panahong isa-scan ng Chrome Cleanup ang system para sa hindi gustong software, at kung may mahanap na ganito, magtatanong sa user kung gusto niya itong alisin. Naka-enable ang manual na pag-trigger sa Chrome Cleanup mula sa chrome://settings.
+      Kung naka-enable o hindi nakatakda, pana-panahong isa-scan ng Chrome Cleanup ang system para sa hindi gustong software, at kung may mahanap na ganito, magtatanong sa user kung gusto niya itong alisin. Naka-enable ang manual na pag-trigger sa Chrome Cleanup mula sa decentr://settings.
 
       Available lang ang patakarang ito sa mga instance ng Windows na kasama sa domain ng<ph name="MS_AD_NAME" />. O kaya, sa mga instance ng Windows 10 Pro o Enterprise na naka-enroll para sa pamamahala sa device.</translation>
 <translation id="3152425128389603870">Gawing available ang Unified Desktop at i-on bilang default</translation>
@@ -1308,7 +1308,7 @@
       Kung pinagana o hindi naka-configure ang setting na ito, mapapagana ng mga user ang proxy ng cloud print proxy sa pamamagitan ng pagpapatotoo sa kanilang Google Account.
 
       Kung hindi pinapagana ang setting na ito, hindi mapapagana ng mga user ang proxy, at hindi papayagan ang machine na ibahagi ang mga printer nito sa <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Nag-e-enable ng page sa chrome://password-change na nagbibigay-daan sa mga user ng SAML na baguhin ang kanilang mga password sa SAML habang nasa session, na tumitiyak na ang password sa SAML at ang password ng lockscreen ng device ay nananatiling naka-sync.
+<translation id="3312206664202507568">Nag-e-enable ng page sa decentr://password-change na nagbibigay-daan sa mga user ng SAML na baguhin ang kanilang mga password sa SAML habang nasa session, na tumitiyak na ang password sa SAML at ang password ng lockscreen ng device ay nananatiling naka-sync.
 
       Ine-enable din ng patakarang ito ang mga notification na nagbababala sa mga user ng SAML kung malapit nang mag-expire ang kanilang mga password sa SAML para maayos nila ito kaagad sa pamamagitan ng pagbabago ng password habang nasa session.
       Pero ipapakita lang ang mga notification na ito kung ang impormasyon tungkol sa pag-expire ng password ay ipinadala sa device ng identity provider ng SAML habang nasa flow ng pag-log in ng SAML.
@@ -2072,7 +2072,7 @@
       Magagamit ang setting na SitePerProcess para huwag payagan ang mga user na mag-opt out sa default na gawi ng pag-isolate ng lahat ng site. Tandaang puwede ring maging kapaki-pakinabang ang patakarang IsolateOrigins sa pag-isolate ng karagdagang mas mahuhusay na pinagmulan.
       Kung naka-enable ang patakaran, hindi makakapag-opt out ang mga user sa default na gawi kung saan tumatakbo ang bawat site sa sarili nitong proseso.
       Kung hindi naka-configure o naka-disable ang patakaran, makakapag-opt out ang user sa pag-isolate ng site
-      (hal. paggamit ng entry na "I-disable ang pag-isolate ng site" sa chrome://flags).  Hindi mao-off ang Pag-isolate ng Site kapag itinakda ang patakaran sa naka-disable at/o hindi na-configure ang patakaran.
+      (hal. paggamit ng entry na "I-disable ang pag-isolate ng site" sa decentr://flags).  Hindi mao-off ang Pag-isolate ng Site kapag itinakda ang patakaran sa naka-disable at/o hindi na-configure ang patakaran.
       Sa <ph name="PRODUCT_OS_NAME" /> bersyon 76 at mas luma, inirerekomendang itakda rin ang patakaran ng device na <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> sa parehong value. Kung hindi magkatugma ang mga value na tinukoy ng dalawang patakaran, puwedeng magkaroon ng pagkaantala kapag pumapasok sa session ng user habang inilalapat ang value na tinukoy ng patakaran ng user.
 
       TANDAAN: Hindi nalalapat ang patakarang ito sa Android. Para i-enable ang SitePerProcess sa Android, gamitin ang setting ng patakarang SitePerProcessAndroid.
@@ -2971,7 +2971,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
           Kung ie-enable mo ang setting na ito, laging gagamitin ang Page ng Bagong Tab para sa home page, at babalewalain ang lokasyon ng URL ng home page.
 
-          Kung idi-disable mo ang setting na ito, hindi kailanman gagamitin ang Page ng Bagong Tab bilang homepage, maliban na lang kung nakatakda sa 'chrome://newtab' ang URL nito.
+          Kung idi-disable mo ang setting na ito, hindi kailanman gagamitin ang Page ng Bagong Tab bilang homepage, maliban na lang kung nakatakda sa 'decentr://newtab' ang URL nito.
 
           Kung ie-enable o idi-disable mo ang setting na ito, hindi mababago ng mga user ang uri ng kanilang homepage sa <ph name="PRODUCT_NAME" />.
 
@@ -3143,7 +3143,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 
       Kung itatakda sa false ang patakarang ito, hindi kailanman gagamitin ang built-in na DNS client.
 
-      Kung iiwang hindi nakatakda ang patakarang ito, mae-enable bilang default ang built-in na DNS client sa MacOS, Android (kapag hindi naka-enable ang Private DNS at VPN), at ChromeOS, at magagawa ng mga user na baguhin kung gagamitin ang built-in na DNS client sa pamamagitan ng pag-edit ng chrome://flags o pagtukoy ng command-line flag.</translation>
+      Kung iiwang hindi nakatakda ang patakarang ito, mae-enable bilang default ang built-in na DNS client sa MacOS, Android (kapag hindi naka-enable ang Private DNS at VPN), at ChromeOS, at magagawa ng mga user na baguhin kung gagamitin ang built-in na DNS client sa pamamagitan ng pag-edit ng decentr://flags o pagtukoy ng command-line flag.</translation>
 <translation id="6843296367238757293">Hindi na ginagamit ang patakarang ito. Hindi hinihikayat ang paggamit nito. Magbasa pa sa https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Inalis ang patakarang ito sa <ph name="PRODUCT_NAME" /> 68 at pinalitan ito ng <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Hindi na ginagamit at tinanggal na ang patakarang ito sa M66, dahil ginamit lang ito para sa internal na pagsubok at isa itong sagutin sa seguridad.
@@ -3786,7 +3786,7 @@ lumagpas na sa partikular na haba ng panahon ang oras na hindi ito nagamit.
 <translation id="7941975817681987555">Huwag hulaan ang mga pagkilos sa network sa anumang koneksyon sa network</translation>
 <translation id="7952007677054834789">Kino-configure ang mga page na ilo-load sa startup, sa default na home page at sa default na page ng bagong tab sa <ph name="PRODUCT_NAME" /> at pinipigilan ang mga user na baguhin ang mga ito.
 
-      Ang mga setting ng home page ng user ay ganap lang na naka-lock down kung pinili mo ang home page para maging page ng bagong tab, o itinakda mo ito para maging URL at tumukoy ng URL ng home page. Kung hindi mo tutukuyin ang URL ng home page, maitatakda pa rin ng user ang home page sa page ng bagong tab sa pamamagitan ng pagtukoy sa 'chrome://newtab.'
+      Ang mga setting ng home page ng user ay ganap lang na naka-lock down kung pinili mo ang home page para maging page ng bagong tab, o itinakda mo ito para maging URL at tumukoy ng URL ng home page. Kung hindi mo tutukuyin ang URL ng home page, maitatakda pa rin ng user ang home page sa page ng bagong tab sa pamamagitan ng pagtukoy sa 'decentr://newtab.'
 
       Babalewalain ang patakarang 'Mga bubuksang URL sa startup' maliban kung pipiliin mo ang 'Buksan ang isang listahan ng mga URL' sa 'Pagkilos sa startup.'</translation>
 <translation id="7952958573604504839">Hindi na ginagamit ang patakarang ito sa M48 at pinalitan na ng <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, at inalis sa M54.

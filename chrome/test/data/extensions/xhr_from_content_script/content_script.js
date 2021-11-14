@@ -9,7 +9,7 @@ b.innerText = 'Send XHR';
 document.body.appendChild(b);
 
 // Do a cross-origin fetch to an origin not listed in this extension's manifest.
-// The HTTP request will have an Origin: HTTP header with a chrome-extension://
+// The HTTP request will have an Origin: HTTP header with a decentr-extension://
 // security origin. Notifies the test if it succeeds or fails.
 b.onclick = () =>
     fetch('http://maps.google.com:' + location.port + '/extensions/xhr.txt')

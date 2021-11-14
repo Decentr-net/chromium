@@ -190,7 +190,7 @@ def WhitelistLibsForExtensionCommand(target, source, env):
 
 # Whitelist glibc shared libraries (if necessary), so that they are
 # 'web_accessible_resources'.  This allows the libraries hosted at the origin
-# chrome-extension://[PACKAGE ID]/
+# decentr-extension://[PACKAGE ID]/
 # to be made available to webpages that use this NaCl extension,
 # which are in a different origin.
 # See: http://code.google.com/chrome/extensions/manifest.html

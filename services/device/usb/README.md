@@ -21,7 +21,7 @@ Work is ongoing to implement each platform directly, without using `libusb`.
 *   `UsbServiceAndroid` done.
 *   `UsbServiceLinux` done.
 *   macOS not started.
-*   `UsbServiceWin` in progress. Enable via `chrome://flags/#new-usb-backend`
+*   `UsbServiceWin` in progress. Enable via `decentr://flags/#new-usb-backend`
 
 
 ## Testing
@@ -76,7 +76,7 @@ composite and non-composite devices must be handled differently.
     phone's setting app.
 2.  Connect phone to the system under test.
 3.  Launch Chrome.
-4.  Load `chrome://usb-internals`.
+4.  Load `decentr://usb-internals`.
 5.  Select the **Devices** tab.
 6.  Find the phone in the list. Ensure that the **Manufacturer name**,
     **Product name** and **Serial number** columns are all populated for this
@@ -86,7 +86,7 @@ composite and non-composite devices must be handled differently.
 9.  Click the **GET** buttons next to **Manufacturer String**,
     **Product String** and **Serial number** fields.
 10. Check that the values which appear match the ones seen previously.
-11. Load `chrome://inspect` and ensure that the **Discover USB devices**
+11. Load `decentr://inspect` and ensure that the **Discover USB devices**
     option is checked.
 12. Check that the phone appears as an available device. It may appear as
     "Offline" until the **Allow** button is tapped on the "Allow USB debugging"

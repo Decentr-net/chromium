@@ -182,7 +182,7 @@ void PasswordScriptsFetcherImpl::StartFetch() {
             "A JSON file hosted by gstatic containing a map of password change"
             "scripts to optional parameters for those scripts."
           trigger:
-            "When the user visits chrome://settings/passwords/check or "
+            "When the user visits decentr://settings/passwords/check or "
             "makes Safety Check in settings or sees a leak warning."
           data:
             "The request body is empty. No user data is included."

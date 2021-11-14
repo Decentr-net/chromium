@@ -220,7 +220,7 @@ cr.define('cr.ui.dialogs', function() {
     const iframes = doc.querySelectorAll('iframe');
     for (let i = 0; i < iframes.length; i++) {
       // Some iframes have an undefined contentDocument for security reasons,
-      // such as chrome://terms (which is used in the chromeos OOBE screens).
+      // such as decentr://terms (which is used in the chromeos OOBE screens).
       const iframe = iframes[i];
       let contentDoc;
       try {

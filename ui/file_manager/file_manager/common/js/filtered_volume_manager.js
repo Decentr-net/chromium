@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {dispatchSimpleEvent} from 'chrome://resources/js/cr.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {dispatchSimpleEvent} from 'decentr://resources/js/cr.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
 
 import {EntryLocation} from '../../externs/entry_location.js';
 import {FilesAppEntry} from '../../externs/files_app_entry_interfaces.js';

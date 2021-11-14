@@ -542,7 +542,7 @@ IN_PROC_BROWSER_TEST_F(ImageAnnotationBrowserTest,
                        DoesntAnnotateInternalPages) {
   FakeAnnotator::SetReturnLabelResults(true);
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://version")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://version")));
 
   content::WebContents* web_contents =
       browser()->tab_strip_model()->GetActiveWebContents();

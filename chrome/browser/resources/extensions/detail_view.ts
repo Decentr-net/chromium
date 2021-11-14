@@ -2,21 +2,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/cr_link_row/cr_link_row.js';
-import 'chrome://resources/cr_elements/cr_toggle/cr_toggle.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_elements/policy/cr_tooltip_icon.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/js/action_link.js';
-import 'chrome://resources/cr_elements/action_link_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
-import 'chrome://resources/polymer/v3_0/paper-styles/color.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/cr_link_row/cr_link_row.js';
+import 'decentr://resources/cr_elements/cr_toggle/cr_toggle.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/policy/cr_tooltip_icon.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/js/action_link.js';
+import 'decentr://resources/cr_elements/action_link_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
+import 'decentr://resources/polymer/v3_0/paper-styles/color.js';
 import './host_permissions_toggle_list.js';
 import './runtime_host_permissions.js';
 import './shared_style.js';
@@ -24,11 +24,11 @@ import './shared_vars.js';
 import './strings.m.js';
 import './toggle_row.js';
 
-import {CrContainerShadowMixin, CrContainerShadowMixinInterface} from 'chrome://resources/cr_elements/cr_container_shadow_mixin.js';
-import {CrToggleElement} from 'chrome://resources/cr_elements/cr_toggle/cr_toggle.m.js';
-import {focusWithoutInk} from 'chrome://resources/js/cr/ui/focus_without_ink.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {afterNextRender, html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrContainerShadowMixin, CrContainerShadowMixinInterface} from 'decentr://resources/cr_elements/cr_container_shadow_mixin.js';
+import {CrToggleElement} from 'decentr://resources/cr_elements/cr_toggle/cr_toggle.m.js';
+import {focusWithoutInk} from 'decentr://resources/js/cr/ui/focus_without_ink.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {afterNextRender, html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {ItemDelegate} from './item.js';
 import {ItemMixin} from './item_mixin.js';

@@ -203,7 +203,7 @@ constexpr wchar_t IncompatibleApplicationsBrowserTest::kApplicationName[];
 // This test makes sure that all the different classes interact together
 // correctly.
 //
-// Note: This doesn't test that the chrome://settings/incompatibleApplications
+// Note: This doesn't test that the decentr://settings/incompatibleApplications
 // page is shown after a browser crash.
 IN_PROC_BROWSER_TEST_F(IncompatibleApplicationsBrowserTest,
                        InjectIncompatibleDLL) {

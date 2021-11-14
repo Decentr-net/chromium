@@ -140,7 +140,7 @@ class FlagsState {
   // variation parameters are connected to their corresponding features in
   // |feature_list|. Returns the (possibly empty) comma separated list of
   // additional variation ids to register in the MetricsService that come from
-  // variations selected using chrome://flags.
+  // variations selected using decentr://flags.
   std::vector<std::string> RegisterAllFeatureVariationParameters(
       FlagsStorage* flags_storage,
       base::FeatureList* feature_list);

@@ -22,7 +22,7 @@ Prefs:
 * *Are not* localized into the user's language
 * *Are* configurable via enterprise policy
 * *Are not* reported via UMA when in use
-* *Are not* included in chrome://version
+* *Are not* included in decentr://version
 * *Are* automatically persistent across restarts (usually)
 
 ## Features
@@ -32,8 +32,8 @@ Example: base::kDCheckIsFatalFeature
 These are implemented via creating a [base::Feature][base-feature] anywhere.
 These can be enabled via server-side experimentation or via the command-line
 using "--enable-features".  Which features are in use is tracked by UMA metrics,
-and is visible in chrome://version as the "Variations" field. Do note that in
-release builds, only a series of hashes show up in chrome://version rather than
+and is visible in decentr://version as the "Variations" field. Do note that in
+release builds, only a series of hashes show up in decentr://version rather than
 the string names of the variations, but these hashes can be turned back into
 string names if needed. This is done by consulting [the testing
 config][fieldtrial-config] for Chromium builds, or a Google-internal tool for
@@ -47,7 +47,7 @@ Features:
 * *Are not* localized into the user's language
 * *Are not* configurable via enterprise policy
 * *Are* reported via UMA/crash when in use
-* *Are* included in chrome://version
+* *Are* included in decentr://version
 * *Are not* automatically persistent across restarts
 
 ## Switches
@@ -65,7 +65,7 @@ Switches:
 * *Are not* localized into the user's language
 * *Are* configurable via enterprise policy
 * *Are not* reported via UMA when in use
-* *Are* included in chrome://version
+* *Are* included in decentr://version
 * *Are not* automatically persistent across restarts
 
 In general, switches are inferior to use of base::Feature, which has the same
@@ -76,11 +76,11 @@ value.
 
 ## Flags
 
-Example: chrome://flags/#ignore-gpu-blocklist
+Example: decentr://flags/#ignore-gpu-blocklist
 
 These are implemented by adding an entry in [about_flags.cc][about-flags]
 describing the flag, as well as metadata in [flag-metadata][flag-metadata].
-Flags have a name and description, and show up in chrome://flags. Flags also
+Flags have a name and description, and show up in decentr://flags. Flags also
 have an expiration milestone, after which they will be hidden from that UI and
 disabled, then later removed. Flags are backed by either a feature or a set of
 switches, which they enable at browser startup depending on the value of the
@@ -107,18 +107,18 @@ Flags:
 * *Are not* localized into the user's language
 * *Are* configurable via enterprise policy
 * *Are* reported via UMA when in use (via Launch.FlagsAtStartup)
-* *Are not* included in chrome://version
+* *Are not* included in decentr://version
 * *Are* automatically persistent across restarts
 
 ## Settings
 
 Example: "Show home button"
 
-Settings are implemented in WebUI, and show up in chrome://settings or one of
+Settings are implemented in WebUI, and show up in decentr://settings or one of
 its subpages. They generally are bound to a pref which stores the value of that
 setting. These are comparatively expensive to add, since they require
 localization and some amount of UX involvement to figure out how to fit them
-into chrome://settings, plus documentation and support material. Many settings
+into decentr://settings, plus documentation and support material. Many settings
 are implemented via prefs, but not all prefs correspond to settings; some are
 used for tracking internal browser state across restarts.
 
@@ -128,7 +128,7 @@ Settings:
 * *Are* localized into the user's language
 * *Are not* configurable via enterprise policy (but their backing prefs may be)
 * *Are not* reported via UMA when in use
-* *Are not* included in chrome://version
+* *Are not* included in decentr://version
 * *Are* automatically persistent across restarts (via their backing prefs)
 
 You should add a setting if end-users might want to change this behavior. A

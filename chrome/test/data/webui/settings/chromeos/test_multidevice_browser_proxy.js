@@ -4,8 +4,8 @@
 
 // clang-format off
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {MultiDeviceSettingsMode, MultiDeviceFeature, MultiDevicePageContentData} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {PrintServerResult} from 'chrome://os-settings/chromeos/lazy_load.js';
+// #import {MultiDeviceSettingsMode, MultiDeviceFeature, MultiDevicePageContentData} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {PrintServerResult} from 'decentr://os-settings/chromeos/lazy_load.js';
 // clang-format on
 
 cr.define('multidevice', function() {

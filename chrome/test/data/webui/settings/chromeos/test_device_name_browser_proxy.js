@@ -4,7 +4,7 @@
 
 // clang-format off
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {SetDeviceNameResult} from 'chrome://os-settings/chromeos/os_settings.js'
+// #import {SetDeviceNameResult} from 'decentr://os-settings/chromeos/os_settings.js'
 // clang-format on
 
 /** @implements {DeviceNameBrowserProxy} */

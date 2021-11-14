@@ -198,7 +198,7 @@ IN_PROC_BROWSER_TEST_F(NaClExtensionTest, DISABLED_UnpackedExtension) {
   CheckPluginsCreated(extension, PLUGIN_TYPE_ALL);
 }
 
-// Test that the NaCl plugin is blocked for non chrome-extension urls, except
+// Test that the NaCl plugin is blocked for non decentr-extension urls, except
 // if it's a content (MIME type) handler.
 // Disabled: http://crbug.com/319892
 IN_PROC_BROWSER_TEST_F(NaClExtensionTest, DISABLED_NonExtensionScheme) {

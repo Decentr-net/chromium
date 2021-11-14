@@ -7,17 +7,17 @@
  * 'chooser-exception-list' shows a list of chooser exceptions for a given
  * chooser type.
  */
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
 import '../settings_shared_css.js';
 import './chooser_exception_list_entry.js';
 
-import {I18nMixin, I18nMixinInterface} from 'chrome://resources/js/i18n_mixin.js';
-import {ListPropertyUpdateBehavior} from 'chrome://resources/js/list_property_update_behavior.m.js';
-import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {PaperTooltipElement} from 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nMixin, I18nMixinInterface} from 'decentr://resources/js/i18n_mixin.js';
+import {ListPropertyUpdateBehavior} from 'decentr://resources/js/list_property_update_behavior.m.js';
+import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {PaperTooltipElement} from 'decentr://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 

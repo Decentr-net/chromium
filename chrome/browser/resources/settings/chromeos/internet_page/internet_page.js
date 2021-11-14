@@ -338,7 +338,7 @@ Polymer({
   currentRouteChanged(route, oldRoute) {
     if (route === routes.INTERNET_NETWORKS) {
       // Handle direct navigation to the networks page,
-      // e.g. chrome://settings/internet/networks?type=WiFi
+      // e.g. decentr://settings/internet/networks?type=WiFi
       const queryParams = Router.getInstance().getQueryParameters();
       const type = queryParams.get('type');
       if (type) {
@@ -365,7 +365,7 @@ Polymer({
           this.subpageType_ === mojom.NetworkType.kCellular;
     } else if (route === routes.KNOWN_NETWORKS) {
       // Handle direct navigation to the known networks page,
-      // e.g. chrome://settings/internet/knownNetworks?type=WiFi
+      // e.g. decentr://settings/internet/knownNetworks?type=WiFi
       const queryParams = Router.getInstance().getQueryParameters();
       const type = queryParams.get('type');
       if (type) {

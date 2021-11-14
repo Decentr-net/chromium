@@ -187,7 +187,7 @@ export function createExtensionInfo(opt_properties) {
   const id = opt_properties && opt_properties.hasOwnProperty('id') ?
       opt_properties['id'] :
       'a'.repeat(32);
-  const baseUrl = 'chrome-extension://' + id + '/';
+  const baseUrl = 'decentr-extension://' + id + '/';
   return Object.assign(
       {
         commands: [],
@@ -203,7 +203,7 @@ export function createExtensionInfo(opt_properties) {
           reloading: false,
         },
         homePage: {specified: false, url: ''},
-        iconUrl: 'chrome://extension-icon/' + id + '/24/0',
+        iconUrl: 'decentr://extension-icon/' + id + '/24/0',
         id: id,
         incognitoAccess: {isEnabled: true, isActive: false},
         location: 'FROM_STORE',

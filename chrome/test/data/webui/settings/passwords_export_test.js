@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {MockTimer} from 'chrome://test/mock_timer.m.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {MockTimer} from 'decentr://test/mock_timer.m.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 // clang-format on
 
 // Test that tapping "Export passwords..." notifies the browser.

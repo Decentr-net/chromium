@@ -461,9 +461,9 @@ public class FullscreenManagerTest {
     @DisabledTest(message = "Flaky. crbug.com/936252")
     public void testManualFullscreenDisabledForChromePages() {
         FullscreenManagerTestUtils.disableBrowserOverrides();
-        // The credits page was chosen as it is a chrome:// page that is long and would support
+        // The credits page was chosen as it is a decentr:// page that is long and would support
         // manual fullscreen if it were supported.
-        mActivityTestRule.startMainActivityWithURL("chrome://credits");
+        mActivityTestRule.startMainActivityWithURL("decentr://credits");
 
         final BrowserControlsManager browserControlsManager =
                 mActivityTestRule.getActivity().getBrowserControlsManager();

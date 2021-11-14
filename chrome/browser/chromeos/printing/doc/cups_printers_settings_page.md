@@ -1,6 +1,6 @@
 # CUPS Printers Settings Page
 
-The CUPS Printers settings page (located at `chrome://settings/cupsPrinters`)
+The CUPS Printers settings page (located at `decentr://settings/cupsPrinters`)
 displays the the currently configured native printers and allows users to set up
 their own native printers using CUPS.
 

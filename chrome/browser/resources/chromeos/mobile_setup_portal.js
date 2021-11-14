@@ -6,7 +6,7 @@ cr.define('mobile', function() {
 
   /** @const {string} */
   var EXTENSION_BASE_URL =
-      'chrome-extension://iadeocfgjdjdmpenejdbfeaocpbikmab/';
+      'decentr-extension://iadeocfgjdjdmpenejdbfeaocpbikmab/';
   /** @const {string} */
   var PORTAL_OFFLINE_PAGE_URL = EXTENSION_BASE_URL + 'portal_offline.html';
   /** @const {string} */

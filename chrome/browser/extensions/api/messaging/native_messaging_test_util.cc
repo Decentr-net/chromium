@@ -42,7 +42,7 @@ void WriteTestNativeHostManifest(const base::FilePath& target_dir,
 
   base::Value origins(base::Value::Type::LIST);
   origins.Append(base::StringPrintf(
-      "chrome-extension://%s/", ScopedTestNativeMessagingHost::kExtensionId));
+      "decentr-extension://%s/", ScopedTestNativeMessagingHost::kExtensionId));
   manifest->SetKey("allowed_origins", std::move(origins));
 
   base::FilePath manifest_path = target_dir.AppendASCII(host_name + ".json");

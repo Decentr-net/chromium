@@ -3,7 +3,7 @@
  * found in the LICENSE file. */
 
 /* This file holds CSS that should be shared, in theory, by all user-visible
- * chrome:// pages. This contrasts chrome_shared.css, which it is meant to
+ * decentr:// pages. This contrasts chrome_shared.css, which it is meant to
  * replace, but has CSS specific to options and options-like pages. */
 
 /* Prevent CSS from overriding the hidden property. */

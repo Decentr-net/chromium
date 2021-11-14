@@ -17,7 +17,7 @@ CertificateManagerDialogWebUITest.prototype = {
   /**
    * Browse to the certification manager dialog page.
    */
-  browsePreload: 'chrome://certificate-manager/',
+  browsePreload: 'decentr://certificate-manager/',
 };
 
 // crbug.com/682497

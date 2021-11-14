@@ -21,7 +21,7 @@ const char kAdvancedProtectionDownloadLearnMoreURL[] =
     "https://support.google.com/accounts/accounts?p=safe-browsing";
 
 const char kAppNotificationsBrowserSettingsURL[] =
-    "chrome://settings/content/notifications";
+    "decentr://settings/content/notifications";
 
 const char kBluetoothAdapterOffHelpURL[] =
     "https://support.google.com/chrome?p=bluetooth";
@@ -50,7 +50,7 @@ const char kChromeFixUpdateProblems[] =
 const char kChromeHelpViaKeyboardURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-    "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
+    "decentr-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
     "https://support.google.com/chromebook/?p=help&ctx=keyboard";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
@@ -61,7 +61,7 @@ const char kChromeHelpViaKeyboardURL[] =
 const char kChromeHelpViaMenuURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-    "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
+    "decentr-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
     "https://support.google.com/chromebook/?p=help&ctx=menu";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
@@ -74,7 +74,7 @@ const char kChromeHelpViaWebUIURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 const char kChromeOsHelpViaWebUIURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-    "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
+    "decentr-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
     "https://support.google.com/chromebook/?p=help&ctx=settings";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
@@ -85,18 +85,18 @@ const char kChromeNativeScheme[] = "chrome-native";
 const char kChromeSearchLocalNtpHost[] = "local-ntp";
 
 const char kChromeSearchMostVisitedHost[] = "most-visited";
-const char kChromeSearchMostVisitedUrl[] = "chrome-search://most-visited/";
+const char kChromeSearchMostVisitedUrl[] = "decentr-search://most-visited/";
 
 const char kChromeUIUntrustedNewTabPageBackgroundUrl[] =
-    "chrome-untrusted://new-tab-page/background.jpg";
+    "decentr-untrusted://new-tab-page/background.jpg";
 const char kChromeUIUntrustedNewTabPageBackgroundFilename[] = "background.jpg";
 
 const char kChromeSearchRemoteNtpHost[] = "remote-ntp";
 
-const char kChromeSearchScheme[] = "chrome-search";
+const char kChromeSearchScheme[] = "decentr-search";
 
 const char kChromeUIUntrustedNewTabPageUrl[] =
-    "chrome-untrusted://new-tab-page/";
+    "decentr-untrusted://new-tab-page/";
 
 const char kChromiumProjectURL[] = "https://www.chromium.org/";
 
@@ -149,7 +149,7 @@ const char kDownloadScanningLearnMoreURL[] =
 const char kExtensionControlledSettingLearnMoreURL[] =
     "https://support.google.com/chrome/?p=ui_settings_api_extension";
 
-const char kExtensionInvalidRequestURL[] = "chrome-extension://invalid/";
+const char kExtensionInvalidRequestURL[] = "decentr-extension://invalid/";
 
 const char kFlashDeprecationLearnMoreURL[] =
     "https://blog.chromium.org/2017/07/so-long-and-thanks-for-all-flash.html";
@@ -345,7 +345,7 @@ const char kChromeOSCreditsPath[] =
 // The magic numbers in this url are the topic and article ids currently
 // required to navigate directly to a help article in the Help App.
 const char kChromeOSGestureEducationHelpURL[] =
-    "chrome://help-app/help/sub/3399710/id/9739838";
+    "decentr://help-app/help/sub/3399710/id/9739838";
 
 const char kChromePaletteHelpURL[] =
     "https://support.google.com/chromebook?p=stylus_help";
@@ -362,7 +362,7 @@ const char kEasyUnlockLearnMoreUrl[] =
     "https://support.google.com/chromebook/?p=smart_lock";
 
 const char kEchoLearnMoreURL[] =
-    "chrome://help-app/help/sub/3399709/id/2703646";
+    "decentr://help-app/help/sub/3399709/id/2703646";
 
 const char kArcTermsPathFormat[] = "arc_tos/%s/terms.html";
 

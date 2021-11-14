@@ -33,7 +33,7 @@ namespace {
 
 const char kNotifierId[] = "ash.update";
 
-const char kNotificationId[] = "chrome://update";
+const char kNotificationId[] = "decentr://update";
 
 bool CheckForSlowBoot(const base::FilePath& slow_boot_file_path) {
   if (base::PathExists(slow_boot_file_path)) {

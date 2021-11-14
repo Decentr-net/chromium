@@ -71,7 +71,7 @@ class TsLibraryTest(unittest.TestCase):
                      tsbuildinfo)
 
   # Builds project2 which depends on files from project1 and project3, both via
-  # relative URLs, as well as via absolute chrome:// URLs.
+  # relative URLs, as well as via absolute decentr:// URLs.
   def _build_project2(self, project1_gen_dir, project3_gen_dir):
     root_dir = os.path.join(_HERE_DIR, 'tests', 'project2')
     gen_dir = os.path.join(self._out_folder, 'project2')
@@ -91,7 +91,7 @@ class TsLibraryTest(unittest.TestCase):
         os.path.join(project1_gen_dir, 'tsconfig.json'),
         os.path.join(project3_gen_dir, 'tsconfig.json'),
         '--path_mappings',
-        'chrome://some-other-source/*|' + os.path.join(project1_gen_dir, '*'),
+        'decentr://some-other-source/*|' + os.path.join(project1_gen_dir, '*'),
         '--tsconfig_base',
         os.path.relpath(os.path.join(root_dir, 'tsconfig_base.json'), gen_dir),
     ])

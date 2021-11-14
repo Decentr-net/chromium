@@ -229,7 +229,7 @@ TEST_F(SourceUrlRecorderWebContentsObserverTest, NavigationMetadata) {
   GURL same_origin_url1("https://www.example.com/same_origin");
   GURL url2("https://test.example.com/2");
   GURL cross_origin_url2("https://test1.example.com/cross_origin");
-  GURL error_url("chrome://error");
+  GURL error_url("decentr://error");
   NavigationSimulator::NavigateAndCommitFromBrowser(web_contents(), url1);
   NavigationSimulator::CreateRendererInitiated(same_origin_url1, main_rfh())
       ->Commit();

@@ -37,7 +37,7 @@ GetSortedMetadataWithoutFavicons(const sync_sessions::SyncedSession* session) {
       GURL tab_url = current_navigation.virtual_url();
 
       // URLs whose schemes are not http:// or https:// should be ignored
-      // because they may be platform specific (e.g., chrome:// URLs) or may
+      // because they may be platform specific (e.g., decentr:// URLs) or may
       // refer to local media on the phone (e.g., content:// URLs).
       if (!tab_url.SchemeIsHTTPOrHTTPS())
         continue;

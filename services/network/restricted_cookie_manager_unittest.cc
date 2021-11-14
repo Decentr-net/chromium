@@ -1248,15 +1248,15 @@ TEST_P(RestrictedCookieManagerTest, CookiesEnabledFor) {
   EXPECT_TRUE(result);
 }
 
-// Test that special chrome:// scheme always attaches SameSite cookies when the
+// Test that special decentr:// scheme always attaches SameSite cookies when the
 // requested origin is secure.
 TEST_P(RestrictedCookieManagerTest, SameSiteCookiesSpecialScheme) {
   url::ScopedSchemeRegistryForTests scoped_registry;
   cookie_settings_.set_secure_origin_cookies_allowed_schemes({"chrome"});
   url::AddStandardScheme("chrome", url::SchemeType::SCHEME_WITH_HOST);
 
-  GURL extension_url("chrome-extension://abcdefghijklmnopqrstuvwxyz");
-  GURL chrome_url("chrome://whatever");
+  GURL extension_url("decentr-extension://abcdefghijklmnopqrstuvwxyz");
+  GURL chrome_url("decentr://whatever");
   GURL http_url("http://example.com/test");
   GURL https_url("https://example.com/test");
   auto http_origin = url::Origin::Create(http_url);

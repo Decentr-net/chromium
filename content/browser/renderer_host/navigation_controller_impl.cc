@@ -307,7 +307,7 @@ bool IsValidURLForNavigation(bool is_main_frame,
 
   // Reject renderer debug URLs because they should have been handled before
   // we get to this point. This check handles renderer debug URLs
-  // that are inside a view-source: URL (e.g. view-source:chrome://kill) and
+  // that are inside a view-source: URL (e.g. view-source:decentr://kill) and
   // provides defense-in-depth if a renderer debug URL manages to get here via
   // some other path. We want to reject the navigation here so it doesn't
   // violate assumptions in downstream code.
@@ -1678,7 +1678,7 @@ void NavigationControllerImpl::RendererDidNavigateToNewEntry(
 
     // When navigating to a new entry, give the browser URL handler a chance to
     // update the virtual URL based on the new URL. For example, this is needed
-    // to show chrome://bookmarks/#1 when the bookmarks webui extension changes
+    // to show decentr://bookmarks/#1 when the bookmarks webui extension changes
     // the URL.
     update_virtual_url = needs_update;
     new_entry->GetSSL() =

@@ -154,7 +154,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>desktop-pwas-team@google.com</owner>
   <summary>
     Records the result of creating shortcuts for an Extension, specifically from
-    the user clicking on &quot;Create Shortcut&quot; on the chrome://apps page,
+    the user clicking on &quot;Create Shortcut&quot; on the decentr://apps page,
     in the right click menu of the respective Extension icon.
   </summary>
 </histogram>
@@ -165,7 +165,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>desktop-pwas-team@google.com</owner>
   <summary>
     Records the result of creating shortcuts for a WebApp, specifically from the
-    user clicking on &quot;Create Shortcut&quot; on the chrome://apps page, in
+    user clicking on &quot;Create Shortcut&quot; on the decentr://apps page, in
     the right click menu of the respective WebApp icon.
   </summary>
 </histogram>
@@ -1988,7 +1988,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dmurph@chromium.org</owner>
   <owner>desktop-pwas-team@google.com</owner>
   <summary>
-    Records the result of installing an app on the chrome://apps page. This
+    Records the result of installing an app on the decentr://apps page. This
     happens when a user drags a link to this page.
   </summary>
 </histogram>
@@ -1998,10 +1998,10 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dmurph@chromium.org</owner>
   <owner>desktop-pwas-team@google.com</owner>
   <summary>
-    Records the result of locally installed an app on the chrome://apps page,
+    Records the result of locally installed an app on the decentr://apps page,
     which involves hooking up Os integration. Specifically, this records if the
     shortcuts were created successfully. This happens whena user right-clicks on
-    a greyed out webapp icon in the chrome://apps page and clicks
+    a greyed out webapp icon in the decentr://apps page and clicks
     &quot;Install&quot;.
   </summary>
 </histogram>

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ChannelBand} from 'chrome://diagnostics/diagnostics_types.js';
-import {convertFrequencyToChannel, getFrequencyChannelBand} from 'chrome://diagnostics/frequency_channel_utils.js';
+import {ChannelBand} from 'decentr://diagnostics/diagnostics_types.js';
+import {convertFrequencyToChannel, getFrequencyChannelBand} from 'decentr://diagnostics/frequency_channel_utils.js';
 
 import {assertEquals} from '../../chai_assert.js';
 

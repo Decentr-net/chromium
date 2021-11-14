@@ -221,7 +221,7 @@ TEST(SchemefulSiteTest, SerializationConsistent) {
       SchemefulSite(url::Origin::Create(GURL("https://b.foo.test"))),
       SchemefulSite(url::Origin::Create(GURL("http://b.foo.test"))),
       SchemefulSite(url::Origin::Create(GURL("http://a.b.foo.test"))),
-      SchemefulSite(url::Origin::Create(GURL("chrome://a.b.test")))};
+      SchemefulSite(url::Origin::Create(GURL("decentr://a.b.test")))};
 
   for (const auto& site : kTestSites) {
     SCOPED_TRACE(site.GetDebugString());

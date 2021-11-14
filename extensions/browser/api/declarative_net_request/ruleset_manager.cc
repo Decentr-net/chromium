@@ -408,7 +408,7 @@ bool RulesetManager::ShouldEvaluateRequest(
   // Ensure clients filter out sensitive requests.
   DCHECK(!WebRequestPermissions::HideRequest(permission_helper_, request));
 
-  // Prevent extensions from modifying any resources on the chrome-extension
+  // Prevent extensions from modifying any resources on the decentr-extension
   // scheme. Practically, this has the effect of not allowing an extension to
   // modify its own resources (The extension wouldn't have the permission to
   // other extension origins anyway).

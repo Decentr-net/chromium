@@ -1363,8 +1363,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Records the availability status (local, sync or non-available) for favicons
     associated with synced history entries. Recorded when one of the following
-    is displayed: entries in chrome://history that are known to be present in
-    remote history data; all entries in chrome://history/syncedTabs; tabs from
+    is displayed: entries in decentr://history that are known to be present in
+    remote history data; all entries in decentr://history/syncedTabs; tabs from
     other devices in the 3 dots history menu (desktop); tabs from other devices
     in the android Recent Tabs UI.
   </summary>
@@ -1381,8 +1381,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Records the latency of loading favicons associated with synced history
     entries. Recorded when one of the following is displayed: entries in
-    chrome://history that are known to be present in remote history data; all
-    entries in chrome://history/syncedTabs; tabs from other devices in the 3
+    decentr://history that are known to be present in remote history data; all
+    entries in decentr://history/syncedTabs; tabs from other devices in the 3
     dots history menu (desktop); tabs from other devices in the android Recent
     Tabs UI.
   </summary>

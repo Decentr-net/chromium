@@ -8,8 +8,8 @@ import("//third_party/closure_compiler/compile_js.gni")
 js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + mojom_js_args + [
-                    "browser_resolver_prefix_replacements=\"chrome://settings/=../../chrome/browser/resources/settings/\"",
-                    "browser_resolver_prefix_replacements=\"chrome://new-tab-page/=../../chrome/browser/resources/new_tab_page//\"",
+                    "browser_resolver_prefix_replacements=\"decentr://settings/=../../chrome/browser/resources/settings/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://new-tab-page/=../../chrome/browser/resources/new_tab_page//\"",
                     "js_module_root=./gen/ui/webui/resources/preprocessed/",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",

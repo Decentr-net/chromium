@@ -7,7 +7,7 @@
 #   https://source.chromium.org/chromium/infra/infra/+/main:go/src/infra/tools/dirmd/proto/dir_metadata.proto
 
 # This is the component for the Network Error Logging API.
-# For chrome://net-export and NetLogs, see Internals>Network>Logging.
+# For decentr://net-export and NetLogs, see Internals>Network>Logging.
 # For network errors in general, see Internals>Network.
 monorail {
   component: "Internals>Network>ReportingAndNEL"

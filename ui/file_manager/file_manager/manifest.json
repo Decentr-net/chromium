@@ -1,5 +1,5 @@
 {
-  // chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/
+  // decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/
   "key": "MIGdMA0GCSqGSIb3DQEBAQUAA4GLADCBhwKBgQDlhpGghtnNJ7pluQN0RDwbUxwwi99oM35ZEaFYvxPLrf0fIEC18cfDdJi6u4aJ+UoSpgzK731L0P/k4LvK2Rz9kVKOy0+IvuRrWkT7lbrLfA1UEBh02OA1AAshjmyRg4IxCqgl8ia8XWq6HKegS1y1KXZYGgb4qp7Bh9VC4cIzswIBIw==",
   "manifest_version": 2,
   "name": "Files",
@@ -17,10 +17,10 @@
     "256": "common/images/icon256.png"
   },
   "permissions": [
-    "chrome://extension-icon/",
-    "chrome://app-icon/",
-    "chrome://resources/",
-    "chrome://theme/",
+    "decentr://extension-icon/",
+    "decentr://app-icon/",
+    "decentr://resources/",
+    "decentr://theme/",
     "clipboardRead",
     "clipboardWrite",
     "commandLinePrivate",
@@ -232,7 +232,7 @@
     "background": {
       "page": "background.html"
     },
-    // chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp is the image loader extension.
-    "content_security_policy": "default-src 'none'; script-src 'self' blob: filesystem: chrome://resources chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp; style-src 'self' blob: filesystem: 'unsafe-inline' chrome://resources; frame-src 'self' blob: filesystem: about:; img-src 'self' blob: filesystem: chrome://resources chrome://theme data: https://docs.google.com https://*.googleusercontent.com chrome://extension-icon chrome://app-icon; media-src 'self' blob: filesystem: https://*.googleusercontent.com; connect-src https://drive.google.com https://www.google-analytics.com chrome://resources; object-src 'self' blob: filesystem:; font-src chrome://resources;"
+    // decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp is the image loader extension.
+    "content_security_policy": "default-src 'none'; script-src 'self' blob: filesystem: decentr://resources decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp; style-src 'self' blob: filesystem: 'unsafe-inline' decentr://resources; frame-src 'self' blob: filesystem: about:; img-src 'self' blob: filesystem: decentr://resources decentr://theme data: https://docs.google.com https://*.googleusercontent.com decentr://extension-icon decentr://app-icon; media-src 'self' blob: filesystem: https://*.googleusercontent.com; connect-src https://drive.google.com https://www.google-analytics.com decentr://resources; object-src 'self' blob: filesystem:; font-src decentr://resources;"
   }
 }

@@ -25,8 +25,8 @@
     '',
     '',
     '^$',
-    'chrome-extension://extensionName/main.js',
-    '^chrome-extension://extensionName\\b.*/main\\.js$',
+    'decentr-extension://extensionName/main.js',
+    '^decentr-extension://extensionName\\b.*/main\\.js$',
     'extensions::unload_events',
     '^extensions::unload_events$',
   ];

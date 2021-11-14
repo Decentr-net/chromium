@@ -16,7 +16,7 @@ namespace {
 
 TEST(SchemefulSiteMojomTraitsTest, SerializeAndDeserialize) {
   url::ScopedSchemeRegistryForTests scoped_registry;
-  url::AddStandardScheme("chrome-extension", url::SCHEME_WITH_HOST);
+  url::AddStandardScheme("decentr-extension", url::SCHEME_WITH_HOST);
 
   std::vector<net::SchemefulSite> keys = {
       net::SchemefulSite(),
@@ -31,7 +31,7 @@ TEST(SchemefulSiteMojomTraitsTest, SerializeAndDeserialize) {
       net::SchemefulSite(url::Origin::Create(GURL("file:///path"))),
       net::SchemefulSite(url::Origin::Create(GURL("file://foo.test/path"))),
       net::SchemefulSite(
-          url::Origin::Create(GURL("chrome-extension://abcdefghi"))),
+          url::Origin::Create(GURL("decentr-extension://abcdefghi"))),
       net::SchemefulSite(url::Origin::Create(GURL("data:text/plain,foo")))};
 
   for (auto original : keys) {

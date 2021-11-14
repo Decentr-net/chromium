@@ -4,9 +4,9 @@
 
 /** @fileoverview Suite of tests for activity-log-stream-item. */
 
-import {ARG_URL_PLACEHOLDER} from 'chrome://extensions/extensions.js';
+import {ARG_URL_PLACEHOLDER} from 'decentr://extensions/extensions.js';
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {testVisible} from './test_util.js';
 
 suite('ExtensionsActivityLogStreamItemTest', function() {

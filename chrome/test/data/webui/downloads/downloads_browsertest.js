@@ -13,7 +13,7 @@ GEN('#include "content/public/test/browser_test.h"');
 var DownloadsTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://downloads';
+    return 'decentr://downloads';
   }
 };
 
@@ -21,7 +21,7 @@ var DownloadsTest = class extends PolymerTest {
 var DownloadsItemTest = class extends DownloadsTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://downloads/test_loader.html?module=downloads/item_tests.js';
+    return 'decentr://downloads/test_loader.html?module=downloads/item_tests.js';
   }
 };
 
@@ -33,7 +33,7 @@ TEST_F('DownloadsItemTest', 'All', function() {
 var DownloadsManagerTest = class extends DownloadsTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://downloads/test_loader.html?module=downloads/manager_tests.js';
+    return 'decentr://downloads/test_loader.html?module=downloads/manager_tests.js';
   }
 };
 
@@ -45,7 +45,7 @@ TEST_F('DownloadsManagerTest', 'All', function() {
 var DownloadsToolbarTest = class extends DownloadsTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://downloads/test_loader.html?module=downloads/toolbar_tests.js';
+    return 'decentr://downloads/test_loader.html?module=downloads/toolbar_tests.js';
   }
 };
 
@@ -57,7 +57,7 @@ TEST_F('DownloadsToolbarTest', 'All', function() {
 var DownloadsUrlTest = class extends DownloadsTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://downloads/a/b/';
+    return 'decentr://downloads/a/b/';
   }
 
   /** @override */
@@ -70,11 +70,11 @@ var DownloadsUrlTest = class extends DownloadsTest {
 };
 
 TEST_F('DownloadsUrlTest', 'All', async function() {
-  await import('chrome://test/mojo_webui_test_support.js');
+  await import('decentr://test/mojo_webui_test_support.js');
   suite('loading a nonexistent URL of /a/b/', function() {
     test('should load main page with no console errors', function() {
       return customElements.whenDefined('downloads-manager').then(() => {
-        assertEquals('chrome://downloads/', location.href);
+        assertEquals('decentr://downloads/', location.href);
       });
     });
   });
@@ -85,7 +85,7 @@ TEST_F('DownloadsUrlTest', 'All', async function() {
 var DownloadsSearchServiceTest = class extends DownloadsTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://downloads/test_loader.html?module=downloads/search_service_test.js';
+    return 'decentr://downloads/test_loader.html?module=downloads/search_service_test.js';
   }
 };
 

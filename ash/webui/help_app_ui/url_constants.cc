@@ -8,9 +8,9 @@ namespace ash {
 
 const char kChromeUIHelpAppHost[] = "help-app";
 const char kChromeUIHelpAppKidsMagazineHost[] = "help-app-kids-magazine";
-const char kChromeUIHelpAppURL[] = "chrome://help-app/";
-const char kChromeUIHelpAppUntrustedURL[] = "chrome-untrusted://help-app/";
+const char kChromeUIHelpAppURL[] = "decentr://help-app/";
+const char kChromeUIHelpAppUntrustedURL[] = "decentr-untrusted://help-app/";
 const char kChromeUIHelpAppKidsMagazineUntrustedURL[] =
-    "chrome-untrusted://help-app-kids-magazine/";
+    "decentr-untrusted://help-app-kids-magazine/";
 
 }  // namespace ash

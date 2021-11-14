@@ -114,7 +114,7 @@ chrome.test.getConfig(function(config) {
 
     async function chromeExtensionURL() {
       chrome.test.assertTrue(
-          SAME_ORIGIN_CHROME_EXTENSION_URL.startsWith('chrome-extension://'));
+          SAME_ORIGIN_CHROME_EXTENSION_URL.startsWith('decentr-extension://'));
       await testRegisterProtocolHandler(
           'mailto', SAME_ORIGIN_CHROME_EXTENSION_URL, TITLE);
       chrome.test.succeed();

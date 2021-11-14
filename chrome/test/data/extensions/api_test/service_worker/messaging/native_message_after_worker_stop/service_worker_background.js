@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 const appName = 'com.google.chrome.test.echo';
-const kExtensionURL = 'chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/';
+const kExtensionURL = 'decentr-extension://knldjmfmopnpolahpmmgbagdohdnhkik/';
 
 var sentMessage = {text: 'test-echo'};
 port = chrome.runtime.connectNative(appName);

@@ -487,7 +487,7 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
 
       Excepțiile pot fi definite în politica privind lista albă de adrese URL. Aceste politici sunt limitate la 1.000 de intrări. Intrările suplimentare vor fi ignorate.
 
-      Reține că nu este recomandat să blochezi adresele URL interne de tipul „chrome://*”, deoarece pot rezulta erori neașteptate.
+      Reține că nu este recomandat să blochezi adresele URL interne de tipul „decentr://*”, deoarece pot rezulta erori neașteptate.
 
       De la M73 poți bloca URL-urile „javascript://*” . Aceasta afectează numai codul JavaScript introdus în bara de adrese (de exemplu, marcatoarele). URL-urile JavaScript din pagină nu sunt afectate de această politică atât timp cât datele se încarcă dinamic. De exemplu, dacă blochezi pagina „example.com/abc”, „example.com” poate încărca în continuare „example.com/abc” prin XMLHTTPRequest.
 
@@ -648,7 +648,7 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
       nu este reaplicată la repornire.</translation>
 <translation id="2138449619211358657">Politica permite <ph name="PRODUCT_OS_NAME" /> să ocolească orice proxy pentru autentificarea prin portalul captiv.
 
-      Politica are efect numai dacă este configurat un proxy (de exemplu, conform politicii, de utilizator în chrome://settings sau prin extensii).
+      Politica are efect numai dacă este configurat un proxy (de exemplu, conform politicii, de utilizator în decentr://settings sau prin extensii).
 
       Dacă activezi această setare, orice pagină de autentificare prin portalul captiv (de exemplu, toate paginile începând cu pagina de conectare la portalul captiv până când <ph name="PRODUCT_NAME" /> detectează o conexiune stabilă la internet) va fi afișată într-o fereastră separată, ignorând toate setările și restricțiile politicii pentru utilizatorul actual.
 
@@ -669,15 +669,15 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
 <translation id="2170233653554726857">Activați optimizarea pentru WPAD</translation>
 <translation id="2176565653304920879">Când această politică este configurată, fluxul de detectare automată a fusului orar va fi într-unul dintre următoarele moduri, în funcție de valoarea setării:
 
-      Dacă este setată la TimezoneAutomaticDetectionUsersDecide, utilizatorii vor putea controla detectarea automată a fusului orar folosind comenzi obișnuite în chrome://settings.
+      Dacă este setată la TimezoneAutomaticDetectionUsersDecide, utilizatorii vor putea controla detectarea automată a fusului orar folosind comenzi obișnuite în decentr://settings.
 
-      Dacă este setată la TimezoneAutomaticDetectionDisabled, comenzile pentru fusul orar automat din chrome://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna dezactivată.
+      Dacă este setată la TimezoneAutomaticDetectionDisabled, comenzile pentru fusul orar automat din decentr://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna dezactivată.
 
-      Dacă este setată la TimezoneAutomaticDetectionIPOnly, comenzile pentru fusul orar din chrome://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna activată. Detectarea fusului orar va folosi numai metoda prin adresa IP pentru a stabili locația.
+      Dacă este setată la TimezoneAutomaticDetectionIPOnly, comenzile pentru fusul orar din decentr://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna activată. Detectarea fusului orar va folosi numai metoda prin adresa IP pentru a stabili locația.
 
-      Dacă este setată la TimezoneAutomaticDetectionSendWiFiAccessPoints, comenzile pentru fusul orar din chrome://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna activată. Lista cu punctele de acces Wi-Fi vizibile va fi trimisă întotdeauna către serverul API-ului Geolocation pentru detectarea exactă a fusului orar.
+      Dacă este setată la TimezoneAutomaticDetectionSendWiFiAccessPoints, comenzile pentru fusul orar din decentr://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna activată. Lista cu punctele de acces Wi-Fi vizibile va fi trimisă întotdeauna către serverul API-ului Geolocation pentru detectarea exactă a fusului orar.
 
-      Dacă este setată la TimezoneAutomaticDetectionSendAllLocationInfo, comenzile pentru fusul orar din chrome://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna activată. Informațiile despre locație (cum ar fi punctele de acces Wi-Fi, turnurile de telefonie mobilă accesibili, GPS) vor fi trimise la un server pentru detectarea exactă a fusului orar.
+      Dacă este setată la TimezoneAutomaticDetectionSendAllLocationInfo, comenzile pentru fusul orar din decentr://settings vor fi dezactivate. Detectarea automată a fusului orar va fi întotdeauna activată. Informațiile despre locație (cum ar fi punctele de acces Wi-Fi, turnurile de telefonie mobilă accesibili, GPS) vor fi trimise la un server pentru detectarea exactă a fusului orar.
 
       Dacă această politică nu este configurată, se va comporta ca și cum TimezoneAutomaticDetectionUsersDecide ar fi setată.
 
@@ -1219,9 +1219,9 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
       Dacă această politică nu este configurată sau dacă este dezactivată, suitele de codificare DHE din TLS nu vor fi activate. În caz contrar, politica poate fi activată pentru a activa suitele de codificare DHE și pentru a se menține compatibilitatea cu un server învechit. Aceasta este o măsură temporară, iar serverul trebuie să fie reconfigurat.
 
       Se recomandă ca serverele să fie migrate la suitele de codificare ECDHE. Dacă acestea nu sunt disponibile, asigură-te că este activată o suită de codificare care folosește schimbul de chei RSA.</translation>
-<translation id="3117706142826400449">Dacă este dezactivată, împiedică Chrome Cleanup să scaneze sistemul pentru a detecta software nedorit și să îl elimine. Declanșarea manuală a funcției Chrome Cleanup din chrome://settings/cleanup este dezactivată.
+<translation id="3117706142826400449">Dacă este dezactivată, împiedică Chrome Cleanup să scaneze sistemul pentru a detecta software nedorit și să îl elimine. Declanșarea manuală a funcției Chrome Cleanup din decentr://settings/cleanup este dezactivată.
 
-      Dacă este activată sau neconfigurată, funcția Chrome Cleanup scanează periodic sistemul pentru a detecta software nedorit și, dacă detectează un astfel de software, va întreba utilizatorul dacă dorește să îl elimine. Declanșarea manuală a funcției Chrome Cleanup din chrome://settings este activată.
+      Dacă este activată sau neconfigurată, funcția Chrome Cleanup scanează periodic sistemul pentru a detecta software nedorit și, dacă detectează un astfel de software, va întreba utilizatorul dacă dorește să îl elimine. Declanșarea manuală a funcției Chrome Cleanup din decentr://settings este activată.
 
       Această politică este disponibilă doar în instanțe Windows asociate unui domeniu <ph name="MS_AD_NAME" />, instanțele Windows 10 Pro sau instanțele Enterprise care au fost înscrise pentru gestionarea dispozitivului.</translation>
 <translation id="3152425128389603870">Setează modul Desktop unificat ca fiind disponibil și activează-l în mod prestabilit</translation>
@@ -1269,7 +1269,7 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
       Dacă această setare este activată sau nu este configurată, utilizatorii pot activa proxy-ul Cloud Print autentificându-se cu Contul Google.
 
       Dacă această setare este dezactivată, utilizatorii nu pot activa proxy-ul, iar computerul nu va putea să permită accesul <ph name="CLOUD_PRINT_NAME" /> la imprimantele sale.</translation>
-<translation id="3312206664202507568">Activează o pagină la chrome://password-change care permite utilizatorilor SAML să își schimbe parolele SAML în timpul sesiunii, asigurându-se, astfel, că parola SAML și parola pentru ecranul de blocare al dispozitivului sunt sincronizate în continuare.
+<translation id="3312206664202507568">Activează o pagină la decentr://password-change care permite utilizatorilor SAML să își schimbe parolele SAML în timpul sesiunii, asigurându-se, astfel, că parola SAML și parola pentru ecranul de blocare al dispozitivului sunt sincronizate în continuare.
 
       Politica activează și notificările care anunță utilizatorii SAML că parolele SAML vor expira în curând, astfel încât să poată acționa imediat, modificând parola în timpul sesiunii.
       Însă aceste notificări vor fi afișate numai dacă informațiile privind expirarea parolei sunt trimise la dispozitiv de Furnizorul de identitate SAML în timpul conectării SAML.
@@ -2022,7 +2022,7 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
       Această setare, SitePerProcess, poate fi folosită pentru a nu permite utilizatorilor să renunțe la comportamentul prestabilit de a izola toate site-urile. Reține că politica IsolateOrigins poate fi utilă și pentru a izola origini suplimentare, mai exacte.
       Dacă politica este activată, utilizatorii nu vor putea să renunțe la comportamentul prestabilit, în care fiecare site rulează procesul propriu.
       Dacă politica nu este configurată sau este dezactivată, utilizatorul va putea să renunțe la izolarea site-ului
-      (de exemplu, să folosească intrarea „Dezactivează izolarea site-ului” în in chrome://flags).  Dacă dezactivezi și/sau nu configurezi politica, izolarea site-ului nu va fi dezactivată.
+      (de exemplu, să folosească intrarea „Dezactivează izolarea site-ului” în in decentr://flags).  Dacă dezactivezi și/sau nu configurezi politica, izolarea site-ului nu va fi dezactivată.
       În <ph name="PRODUCT_OS_NAME" /> versiunea 76 și versiunile anterioare, se recomandă să setezi și politica privind dispozitivele <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> la aceeași valoare. Dacă valorile specificate de cele două politici nu se potrivesc, poate avea loc o întârziere când intri într-o sesiune de utilizator în timp ce se aplică valoarea specificată de politica privind utilizatorii.
 
       NOTĂ: această politică nu se aplică în Android. Pentru a activa SitePerProcess în Android, folosește setarea politicii SitePerProcessAndroid.
@@ -2896,7 +2896,7 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
 
           Dacă activezi această setare, pagina Filă nouă este folosită întotdeauna pentru pagina principală, iar locația adresei URL a paginii principale este ignorată.
 
-          Dacă dezactivezi această setare, pagina de pornire a utilizatorului nu va fi niciodată pagina Filă nouă, cu excepția cazului în care adresa URL a acesteia este setată la „chrome://newtab”.
+          Dacă dezactivezi această setare, pagina de pornire a utilizatorului nu va fi niciodată pagina Filă nouă, cu excepția cazului în care adresa URL a acesteia este setată la „decentr://newtab”.
 
           Dacă activezi sau dezactivezi această setare, utilizatorii nu își pot schimba tipul paginii de pornire în <ph name="PRODUCT_NAME" />.
 
@@ -3068,7 +3068,7 @@ Dacă politica nu este setată, se va folosi comportamentul prestabilit de a nu 
 
       Dacă această politică este dezactivată, clientul DNS integrat nu va fi utilizat niciodată.
 
-      Dacă această politică nu este configurată, clientul DNS integrat va fi activat în mod implicit pe MacOS, Android (când nu este activat nici DNS privat, nici VPN) și ChromeOS, iar utilizatorii vor putea alege dacă se utilizează clientul DNS integrat, modificând chrome://flags sau specificând un semnalizator în linia de comandă.</translation>
+      Dacă această politică nu este configurată, clientul DNS integrat va fi activat în mod implicit pe MacOS, Android (când nu este activat nici DNS privat, nici VPN) și ChromeOS, iar utilizatorii vor putea alege dacă se utilizează clientul DNS integrat, modificând decentr://flags sau specificând un semnalizator în linia de comandă.</translation>
 <translation id="6843296367238757293">Această politică este învechită. Nu se recomandă folosirea ei. Citește mai multe la https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Această politică a fost eliminată în <ph name="PRODUCT_NAME" /> 68 și înlocuită cu <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Această politică este învechită și eliminată din M66, deoarece a fost folosită doar pentru testare internă și reprezintă un risc de securitate.
@@ -3687,7 +3687,7 @@ nu poate fi stabilit de utilizator din setările browserului.
 <translation id="7941975817681987555">Nu anticipa acțiunile în rețea pentru nicio conexiune la rețea</translation>
 <translation id="7952007677054834789">Configurează paginile care se vor încărca la pornire, pagina principală prestabilită și pagina Filă nouă prestabilită în <ph name="PRODUCT_NAME" /> și împiedică utilizatorii să le modifice.
 
-      Dacă selectezi ca pagina principală să fie pagina Filă nouă sau o adresă URL (și indici o adresă URL pentru aceasta), setările pentru pagina principală a utilizatorului sunt în întregime blocate. Dacă nu specifici adresa URL a paginii principale, utilizatorul poate seta ca pagină principală pagina Filă nouă specificând „chrome://newtab”.
+      Dacă selectezi ca pagina principală să fie pagina Filă nouă sau o adresă URL (și indici o adresă URL pentru aceasta), setările pentru pagina principală a utilizatorului sunt în întregime blocate. Dacă nu specifici adresa URL a paginii principale, utilizatorul poate seta ca pagină principală pagina Filă nouă specificând „decentr://newtab”.
 
       Politica „Adrese URL care se deschid la pornire” este ignorată, cu excepția cazului în care selectezi „Deschide o listă cu adrese URL” în „Acțiune la pornire”.</translation>
 <translation id="7952958573604504839">Această politică este învechită în M48 în favoarea politicii <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> și este eliminată în M54.

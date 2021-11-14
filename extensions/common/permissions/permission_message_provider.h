@@ -52,7 +52,7 @@ class PermissionMessageProvider {
 
   // Given the permissions for an extension, returns the IDs of all the
   // permissions for that extension which the user should be warned about in
-  // chrome://management
+  // decentr://management
   virtual PermissionIDSet GetManagementUIPermissionIDs(
       const PermissionSet& permissions,
       Manifest::Type extension_type) const;

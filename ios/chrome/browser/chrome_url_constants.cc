@@ -9,21 +9,21 @@
 #include "base/cxx17_backports.h"
 #include "ios/components/webui/web_ui_url_constants.h"
 
-const char kChromeUIChromeURLsURL[] = "chrome://chrome-urls/";
-const char kChromeUICookiesSettingsURL[] = "chrome://settings/coookies";
-const char kChromeUICreditsURL[] = "chrome://credits/";
-const char kChromeUIFlagsURL[] = "chrome://flags/";
-const char kChromeUIHistoryURL[] = "chrome://history/";
-const char kChromeUIInspectURL[] = "chrome://inspect/";
-const char kChromeUIIntersitialsURL[] = "chrome://interstitials";
-const char kChromeUIManagementURL[] = "chrome://management";
-const char kChromeUINewTabURL[] = "chrome://newtab/";
-const char kChromeUINTPTilesInternalsURL[] = "chrome://ntp-tiles-internals/";
-const char kChromeUIOfflineURL[] = "chrome://offline/";
-const char kChromeUIPolicyURL[] = "chrome://policy/";
-const char kChromeUISettingsURL[] = "chrome://settings/";
-const char kChromeUITermsURL[] = "chrome://terms/";
-const char kChromeUIVersionURL[] = "chrome://version/";
+const char kChromeUIChromeURLsURL[] = "decentr://chrome-urls/";
+const char kChromeUICookiesSettingsURL[] = "decentr://settings/coookies";
+const char kChromeUICreditsURL[] = "decentr://credits/";
+const char kChromeUIFlagsURL[] = "decentr://flags/";
+const char kChromeUIHistoryURL[] = "decentr://history/";
+const char kChromeUIInspectURL[] = "decentr://inspect/";
+const char kChromeUIIntersitialsURL[] = "decentr://interstitials";
+const char kChromeUIManagementURL[] = "decentr://management";
+const char kChromeUINewTabURL[] = "decentr://newtab/";
+const char kChromeUINTPTilesInternalsURL[] = "decentr://ntp-tiles-internals/";
+const char kChromeUIOfflineURL[] = "decentr://offline/";
+const char kChromeUIPolicyURL[] = "decentr://policy/";
+const char kChromeUISettingsURL[] = "decentr://settings/";
+const char kChromeUITermsURL[] = "decentr://terms/";
+const char kChromeUIVersionURL[] = "decentr://version/";
 
 const char kChromeUIAutofillInternalsHost[] = "autofill-internals";
 const char kChromeUIBrowserCrashHost[] = "inducebrowsercrashforrealz";
@@ -57,7 +57,7 @@ const char kChromeUIURLKeyedMetricsHost[] = "ukm";
 const char kChromeUIUserActionsHost[] = "user-actions";
 const char kChromeUIVersionHost[] = "version";
 
-// Add hosts here to be included in chrome://chrome-urls (about:about).
+// Add hosts here to be included in decentr://chrome-urls (about:about).
 // These hosts will also be suggested by BuiltinProvider.
 // 'histograms' is chrome WebUI on iOS, content WebUI on other platforms.
 const char* const kChromeHostURLs[] = {
@@ -126,7 +126,7 @@ const char kGoogleMyAccountDeviceActivityURL[] =
     "https://myaccount.google.com/device-activity?utm_source=chrome";
 
 const char kReadingListReferrerURL[] =
-    "chrome://do_not_consider_for_most_visited/reading_list";
+    "decentr://do_not_consider_for_most_visited/reading_list";
 
 const char kChromeUIAboutNewTabURL[] = "about://newtab/";
 

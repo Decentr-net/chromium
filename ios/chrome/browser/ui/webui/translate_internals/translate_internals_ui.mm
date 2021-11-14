@@ -20,7 +20,7 @@
 
 namespace {
 
-// Creates a WebUI data source for chrome://translate-internals page.
+// Creates a WebUI data source for decentr://translate-internals page.
 // Changes to this should be in sync with its non-iOS equivalent
 // chrome/browser/ui/webui/translate_internals/translate_internals_ui.cc
 web::WebUIIOSDataSource* CreateTranslateInternalsHTMLSource() {

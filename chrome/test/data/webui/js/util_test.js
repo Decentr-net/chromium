@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$, findAncestor, quoteString} from 'chrome://resources/js/util.m.js';
+import {$, findAncestor, quoteString} from 'decentr://resources/js/util.m.js';
 
 suite('UtilModuleTest', function() {
   test('quote string', function() {

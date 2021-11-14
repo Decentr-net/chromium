@@ -38,7 +38,7 @@ constexpr const char kMimeTypePdf[] = "application/pdf";
 constexpr const char kMimeTypeSvgXml[] = "image/svg+xml";
 constexpr const char kMimeTypeJpeg[] = "image/jpeg";
 constexpr const char kMimeTypePng[] = "image/png";
-constexpr const char kAllowedOriginPrefix[] = "chrome://";
+constexpr const char kAllowedOriginPrefix[] = "decentr://";
 
 }  // namespace
 

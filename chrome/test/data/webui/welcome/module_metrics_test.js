@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ModuleMetricsManager} from 'chrome://welcome/shared/module_metrics_proxy.js';
+import {ModuleMetricsManager} from 'decentr://welcome/shared/module_metrics_proxy.js';
 
 import {TestMetricsProxy} from './test_metrics_proxy.js';
 

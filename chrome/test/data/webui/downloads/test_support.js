@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {DangerType, PageCallbackRouter, PageHandlerInterface, PageInterface, PageRemote, States} from 'chrome://downloads/downloads.js';
+import {DangerType, PageCallbackRouter, PageHandlerInterface, PageInterface, PageRemote, States} from 'decentr://downloads/downloads.js';
 
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 
 export class TestDownloadsProxy {
   constructor() {

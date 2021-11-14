@@ -19,7 +19,7 @@ UserActionsUI::UserActionsUI(web::WebUIIOS* web_ui, const std::string& host)
     : web::WebUIIOSController(web_ui, host) {
   web_ui->AddMessageHandler(std::make_unique<UserActionsHandler>());
 
-  // Set up the chrome://user-actions/ source.
+  // Set up the decentr://user-actions/ source.
   web::WebUIIOSDataSource* html_source =
       web::WebUIIOSDataSource::Create(kChromeUIUserActionsHost);
   html_source->SetDefaultResource(IDR_USER_ACTIONS_HTML);

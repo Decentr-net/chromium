@@ -8,7 +8,7 @@ chrome.test.runTests([
     function setupWindow() {
       var testTabId;
 
-      createWindow(["about:blank", "chrome://newtab/"], {},
+      createWindow(["about:blank", "decentr://newtab/"], {},
                    pass(function(winId, tabIds) {
         testTabId = tabIds[1];
       }));

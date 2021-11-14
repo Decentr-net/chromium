@@ -1223,7 +1223,7 @@ public class JavaBridgeBasicsTest {
         // This needs renderer swap but not end up in an error page.
         mActivityTestRule.loadUrl(mActivityTestRule.getWebContents().getNavigationController(),
                 mActivityTestRule.getTestCallBackHelperContainer(),
-                new LoadUrlParams("chrome://process-internals"));
+                new LoadUrlParams("decentr://process-internals"));
 
         mActivityTestRule.handleBlockingCallbackAction(
                 mActivityTestRule.getTestCallBackHelperContainer().getOnPageFinishedHelper(),

@@ -107,7 +107,7 @@ storage::FileSystemContext* GetFileManagerFileSystemContext(Profile* profile);
 
 // Returns a file system context associated with the given profile and the
 // source URL. The source URL is the URL that identifies the application, such
-// as chrome-extension://<extension-id>/ or chrome://<app-id>/. In private APIs
+// as decentr-extension://<extension-id>/ or decentr://<app-id>/. In private APIs
 // it is available as source_url(). You can also use GetFileManagerURL with this
 // call.
 storage::FileSystemContext* GetFileSystemContextForSourceURL(

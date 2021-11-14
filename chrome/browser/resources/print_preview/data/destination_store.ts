@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {CloudPrintInterface, CloudPrintInterfaceEventType, CloudPrintInterfacePrinterFailedDetail, CloudPrintInterfaceSearchDoneDetail} from '../cloud_print_interface.js';
 import {DestinationSearchBucket, MetricsContext, PrintPreviewInitializationEvents} from '../metrics.js';

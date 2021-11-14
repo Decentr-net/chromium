@@ -961,7 +961,7 @@ void ManagementUIHandler::HandleGetExtensions(const base::ListValue* args) {
 
   base::Value powerful_extensions = GetPowerfulExtensions(extensions);
 
-  // The number of extensions to be reported in chrome://management with
+  // The number of extensions to be reported in decentr://management with
   // powerful permissions.
   base::UmaHistogramCounts1000(kPowerfulExtensionsCountHistogram,
                                powerful_extensions.GetList().size());

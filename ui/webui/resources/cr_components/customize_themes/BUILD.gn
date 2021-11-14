@@ -23,7 +23,7 @@ mojom("mojom") {
     "//skia/public/mojom",
   ]
 
-  webui_module_path = "chrome://resources/cr_components/customize_themes/"
+  webui_module_path = "decentr://resources/cr_components/customize_themes/"
 }
 
 html_to_js("web_components_local") {

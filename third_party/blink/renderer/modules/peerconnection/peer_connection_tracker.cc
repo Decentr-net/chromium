@@ -355,7 +355,7 @@ String SerializeConfiguration(
 
 // Note: All of these strings need to be kept in sync with
 // peer_connection_update_table.js, in order to be displayed as friendly
-// strings on chrome://webrtc-internals.
+// strings on decentr://webrtc-internals.
 
 const char* GetSignalingStateString(
     webrtc::PeerConnectionInterface::SignalingState state) {
@@ -526,7 +526,7 @@ int GetNextProcessLocalID() {
 
 }  // namespace
 
-// chrome://webrtc-internals displays stats and stats graphs. The call path
+// decentr://webrtc-internals displays stats and stats graphs. The call path
 // involves thread and process hops (IPC). This is the webrtc::StatsObserver
 // that is used when webrtc-internals wants legacy stats. It starts in
 // webrtc_internals.js performing requestLegacyStats and the result gets
@@ -582,7 +582,7 @@ class InternalLegacyStatsObserver : public webrtc::StatsObserver {
   CrossThreadOnceFunction<void(int, base::Value)> completion_callback_;
 };
 
-// chrome://webrtc-internals displays stats and stats graphs. The call path
+// decentr://webrtc-internals displays stats and stats graphs. The call path
 // involves thread and process hops (IPC). This is the ----webrtc::StatsObserver
 // that is used when webrtc-internals wants standard stats. It starts in
 // webrtc_internals.js performing requestStandardStats and the result gets

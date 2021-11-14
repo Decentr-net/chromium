@@ -37,7 +37,7 @@ const int kExpiredTimesAddedCount = 2;
 
 // URL constants used by TabUsageRecorderBrowserAgentTest.
 const char kURL[] = "http://www.chromium.org";
-const char kNativeURL[] = "chrome://version";
+const char kNativeURL[] = "decentr://version";
 
 // Option to InsertFakeWebState() to create the WebState for a tab that is in
 // memory or not.
@@ -151,7 +151,7 @@ TEST_F(TabUsageRecorderBrowserAgentTest, CountPageLoadsBeforeEvictedTab) {
       tab_usage_recorder::kPageLoadsBeforeEvictedTabSelected, kNumReloads, 1);
 }
 
-// Tests that chrome:// URLs are not counted in page load stats.
+// Tests that decentr:// URLs are not counted in page load stats.
 TEST_F(TabUsageRecorderBrowserAgentTest, CountNativePageLoadsBeforeEvictedTab) {
   web::FakeWebState* mock_tab_a = InsertFakeWebState(kNativeURL, IN_MEMORY);
   web::FakeWebState* mock_tab_b = InsertFakeWebState(kNativeURL, NOT_IN_MEMORY);
@@ -168,7 +168,7 @@ TEST_F(TabUsageRecorderBrowserAgentTest, CountNativePageLoadsBeforeEvictedTab) {
 }
 
 // Tests that page load stats is not updated for an evicted tab that has a
-// pending chrome:// URL.
+// pending decentr:// URL.
 TEST_F(TabUsageRecorderBrowserAgentTest,
        CountPendingNativePageLoadBeforeEvictedTab) {
   web::FakeWebState* old_tab = InsertFakeWebState(kURL, IN_MEMORY);

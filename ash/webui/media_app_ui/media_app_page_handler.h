@@ -15,7 +15,7 @@ namespace ash {
 
 class MediaAppUI;
 
-// Implements the media_app mojom interface providing chrome://media-app
+// Implements the media_app mojom interface providing decentr://media-app
 // with browser process functions to call from the renderer process.
 class MediaAppPageHandler : public media_app_ui::mojom::PageHandler {
  public:

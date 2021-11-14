@@ -100,9 +100,9 @@ TEST(ChromeContentClientTest, AdditionalSchemes) {
       url::Component(0, strlen(extensions::kExtensionScheme))));
 
   GURL extension_url(
-      "chrome-extension://abcdefghijklmnopqrstuvwxyzabcdef/foo.html");
+      "decentr-extension://abcdefghijklmnopqrstuvwxyzabcdef/foo.html");
   url::Origin origin = url::Origin::Create(extension_url);
-  EXPECT_EQ("chrome-extension://abcdefghijklmnopqrstuvwxyzabcdef",
+  EXPECT_EQ("decentr-extension://abcdefghijklmnopqrstuvwxyzabcdef",
             origin.Serialize());
 
   // IsUrlPotentiallyTrustworthy assertions test for https://crbug.com/734581.
@@ -113,11 +113,11 @@ TEST(ChromeContentClientTest, AdditionalSchemes) {
     "chrome-native://newtab/",
     "chrome-error://foo/",
     // The schemes below are registered as secure (but not as no-access).
-    "chrome://foo/",
-    "chrome-untrusted://foo/",
-    "chrome-search://foo/",
+    "decentr://foo/",
+    "decentr-untrusted://foo/",
+    "decentr-search://foo/",
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-    "chrome-extension://foo/",
+    "decentr-extension://foo/",
 #endif
     "devtools://foo/",
   };

@@ -23,7 +23,7 @@ cr.define('settings', function() {
   function forceLazyLoaded(pathPrefix) {
     return new Promise(function(resolve, reject) {
       // This URL needs to match the location of lazy_load.html (differs across
-      // chrome://settings and chrome://os-settings).
+      // decentr://settings and decentr://os-settings).
       Polymer.Base.importHref(
           `${pathPrefix || ''}/lazy_load.html`, resolve, reject, true);
     });

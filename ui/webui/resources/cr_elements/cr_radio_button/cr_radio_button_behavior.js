@@ -7,7 +7,7 @@
  */
 
 // clang-format off
-// #import {PaperRippleBehavior} from 'chrome://resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js'
+// #import {PaperRippleBehavior} from 'decentr://resources/polymer/v3_0/paper-behaviors/paper-ripple-behavior.js'
 // clang-format on
 
 /** @polymerBehavior */

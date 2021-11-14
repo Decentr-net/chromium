@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/ash/common/navigation_view_panel.js';
-import 'chrome://resources/ash/common/page_toolbar.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
+import 'decentr://resources/ash/common/navigation_view_panel.js';
+import 'decentr://resources/ash/common/page_toolbar.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
 import './diagnostics_sticky_banner.js';
 import './input_list.js';
 import './network_list.js';
 import './strings.m.js';
 import './system_page.js';
 
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {DiagnosticsBrowserProxy, DiagnosticsBrowserProxyImpl} from './diagnostics_browser_proxy.js';
 import {getDiagnosticsIcon, getNavigationIcon} from './diagnostics_utils.js';

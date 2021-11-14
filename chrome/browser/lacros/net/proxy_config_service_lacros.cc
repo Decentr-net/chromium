@@ -56,7 +56,7 @@ ProxyConfigServiceLacros::ProxyConfigServiceLacros(Profile* profile) {
   // to use the system proxy settings, the value of kUseAshProxy is always true,
   // and the setting is not exposed to the user.
   // TODO(acostinas, b:192915915) Enable secondary profiles to configure
-  // `kUseAshProxy` from chrome://settings.
+  // `kUseAshProxy` from decentr://settings.
   if (profile->IsMainProfile()) {
     profile->GetPrefs()->SetBoolean(prefs::kUseAshProxy, true);
     lacros_extension_proxy_tracker_ =

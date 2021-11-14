@@ -5,7 +5,7 @@
 import './scanning_fonts_css.js';
 import './scanning_shared_css.js';
 
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 Polymer({
   is: 'scan-settings-section',

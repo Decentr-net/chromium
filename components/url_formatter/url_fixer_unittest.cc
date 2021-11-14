@@ -94,7 +94,7 @@ static const SegmentCase segment_cases[] = {
         url::Component(23, 3),  // ref
     },
     {
-        "chrome://host/path?query#ref", "chrome",
+        "decentr://host/path?query#ref", "chrome",
         url::Component(0, 6),   // scheme
         url::Component(),       // username
         url::Component(),       // password
@@ -326,9 +326,9 @@ struct FixupCase {
     {"http://host.com:ninety-two/", "http://host.com:ninety-two/"},
     {"http://host.com:ninety-two?foo", "http://host.com:ninety-two/?foo"},
     {"google.com:123", "http://google.com:123/"},
-    {"about:", "chrome://version/"},
-    {"about:foo", "chrome://foo/"},
-    {"about:version", "chrome://version/"},
+    {"about:", "decentr://version/"},
+    {"about:foo", "decentr://foo/"},
+    {"about:version", "decentr://version/"},
     {"about:blank", "about:blank"},
     {"About:blaNk", "about:blank"},
     {"about:blank#blah", "about:blank#blah"},
@@ -336,10 +336,10 @@ struct FixupCase {
     {"about:srcdoc", "about:srcdoc"},
     {"about:srcdoc#blah", "about:srcdoc#blah"},
     {"about:srcdoc/#blah", "about:srcdoc/#blah"},
-    {"about:usr:pwd@hst:20/pth?qry#ref", "chrome://hst/pth?qry#ref"},
-    {"about://usr:pwd@hst/pth?qry#ref", "chrome://hst/pth?qry#ref"},
-    {"chrome:usr:pwd@hst/pth?qry#ref", "chrome://hst/pth?qry#ref"},
-    {"chrome://usr:pwd@hst/pth?qry#ref", "chrome://hst/pth?qry#ref"},
+    {"about:usr:pwd@hst:20/pth?qry#ref", "decentr://hst/pth?qry#ref"},
+    {"about://usr:pwd@hst/pth?qry#ref", "decentr://hst/pth?qry#ref"},
+    {"chrome:usr:pwd@hst/pth?qry#ref", "decentr://hst/pth?qry#ref"},
+    {"decentr://usr:pwd@hst/pth?qry#ref", "decentr://hst/pth?qry#ref"},
     {"www:123", "http://www:123/"},
     {"   www:123", "http://www:123/"},
     {"www.google.com?foo", "http://www.google.com/?foo"},
@@ -372,7 +372,7 @@ struct FixupCase {
     {"::1", "http://:1/"},
     // Semicolon as scheme separator for standard schemes.
     {"http;//www.google.com/", "http://www.google.com/"},
-    {"about;help", "chrome://help/"},
+    {"about;help", "decentr://help/"},
     // Semicolon in non-standard schemes is not replaced by colon.
     {"whatsup;//fool", "http://whatsup%3B//fool"},
     // Semicolon left as-is in URL itself.

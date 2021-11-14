@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/base_page.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/base_page.m.js';
 
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 suite('CrComponentsBasePageTest', function() {

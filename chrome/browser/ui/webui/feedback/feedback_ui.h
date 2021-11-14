@@ -7,7 +7,7 @@
 
 #include "ui/web_dialogs/web_dialog_ui.h"
 
-// The implementation for the chrome://feedback page.
+// The implementation for the decentr://feedback page.
 class FeedbackUI : public ui::WebDialogUI {
  public:
   explicit FeedbackUI(content::WebUI* web_ui);

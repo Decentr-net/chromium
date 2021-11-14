@@ -143,8 +143,8 @@ struct TestShortcutData shortcut_test_db[] = {
      AutocompleteMatch::DocumentType::NONE, "www.word", "0,0", "Google Search",
      "0,4", ui::PAGE_TRANSITION_GENERATED,
      AutocompleteMatchType::SEARCH_HISTORY, "google.com", 1, 100},
-    {"BD85DBA2-8C29-49F9-84AE-48E1E90880F5", "about:o", "chrome://omnibox",
-     "chrome://omnibox/", AutocompleteMatch::DocumentType::NONE,
+    {"BD85DBA2-8C29-49F9-84AE-48E1E90880F5", "about:o", "decentr://omnibox",
+     "decentr://omnibox/", AutocompleteMatch::DocumentType::NONE,
      "about:omnibox", "0,3,10,1", "", "", ui::PAGE_TRANSITION_TYPED,
      AutocompleteMatchType::NAVSUGGEST, "", 1, 100},
     {"BD85DBA2-8C29-49F9-84AE-48E1E90880F6", "www/real sp",
@@ -179,7 +179,7 @@ struct TestShortcutData shortcut_test_db[] = {
      "0,1", "Trailing1 - Space in Shortcut", "0,1", ui::PAGE_TRANSITION_TYPED,
      AutocompleteMatchType::HISTORY_URL, "", 1, 100},
     {"BD85DBA2-8C29-49F9-84AE-48E1E90880FC", "about:trailing2 ",
-     "chrome://trailing2blah", "chrome://trailing2blah/",
+     "decentr://trailing2blah", "decentr://trailing2blah/",
      AutocompleteMatch::DocumentType::NONE, "Trailing2 - Space in Shortcut",
      "0,1", "Trailing2 - Space in Shortcut", "0,1", ui::PAGE_TRANSITION_TYPED,
      AutocompleteMatchType::HISTORY_URL, "", 1, 100},
@@ -322,9 +322,9 @@ TEST_F(ShortcutsProviderTest, SimpleSingleMatch) {
 // These tests are like those in SimpleSingleMatch but more complex,
 // involving URLs that need to be fixed up to match properly.
 TEST_F(ShortcutsProviderTest, TrickySingleMatch) {
-  // Test that about: URLs are fixed up/transformed to chrome:// URLs.
+  // Test that about: URLs are fixed up/transformed to decentr:// URLs.
   std::u16string text(u"about:o");
-  std::string expected_url("chrome://omnibox/");
+  std::string expected_url("decentr://omnibox/");
   ExpectedURLs expected_urls;
   expected_urls.push_back(ExpectedURLAndAllowedToBeDefault(expected_url, true));
   RunShortcutsProviderTest(provider_, text, false, expected_urls, expected_url,
@@ -386,7 +386,7 @@ TEST_F(ShortcutsProviderTest, TrickySingleMatch) {
   RunShortcutsProviderTest(provider_, text, false, expected_urls, expected_url,
                            u".com");
   text = u"about:trailing2";
-  expected_url = "chrome://trailing2blah/";
+  expected_url = "decentr://trailing2blah/";
   expected_urls.clear();
   expected_urls.push_back(ExpectedURLAndAllowedToBeDefault(expected_url, true));
   RunShortcutsProviderTest(provider_, text, false, expected_urls, expected_url,

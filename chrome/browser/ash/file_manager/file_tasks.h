@@ -32,7 +32,7 @@
 // [
 //   {
 //     "iconUrl":
-//       "chrome://extension-icon/hhaomjibdihmijegdhdafkllkbggdgoj/16/1",
+//       "decentr://extension-icon/hhaomjibdihmijegdhdafkllkbggdgoj/16/1",
 //     "isDefault": true,
 //     "descriptor": {
 //       appId: "hhaomjibdihmijegdhdafkllkbggdgoj",

@@ -147,7 +147,7 @@ TEST_F(ExtensionActionViewControllerUnitTest,
           "extension", extensions::ExtensionBuilder::ActionType::PAGE_ACTION)
           ->id();
 
-  AddTab(browser(), GURL("chrome://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
 
   content::WebContents* web_contents = GetActiveWebContents();
   ExtensionActionViewController* const action = GetViewControllerForId(id);
@@ -623,7 +623,7 @@ TEST_F(ExtensionActionViewControllerUnitTest, RuntimeHostsTooltip) {
 TEST_F(ExtensionActionViewControllerUnitTest, ActiveTabIconAppearance) {
   const GURL kUnlistedHost("https://www.example.com");
   const GURL kGrantedHost("https://www.google.com");
-  const GURL kRestrictedHost("chrome://extensions");
+  const GURL kRestrictedHost("decentr://extensions");
   const std::string kWantsAccessTooltip(
       "active tab\nWants access to this site");
   const std::string kHasAccessTooltip("active tab\nHas access to this site");
@@ -722,7 +722,7 @@ TEST_F(ExtensionActionViewControllerUnitTest,
 
   // Now navigate to a restricted URL. Clicking the extension won't give access
   // here, so the page interaction status should be "none".
-  NavigateAndCommitActiveTab(GURL("chrome://extensions"));
+  NavigateAndCommitActiveTab(GURL("decentr://extensions"));
   EXPECT_EQ(ExtensionActionViewController::PageInteractionStatus::kNone,
             controller->GetPageInteractionStatus(web_contents));
   controller->ExecuteAction(

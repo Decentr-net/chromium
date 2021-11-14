@@ -957,7 +957,7 @@ IN_PROC_BROWSER_TEST_F(DiceBrowserTest, EnableSyncAfterToken) {
         auto url =
             content::Details<content::LoadNotificationDetails>(details)->url;
         // Some test flags (e.g. ForceWebRequestProxyForTest) can change whether
-        // the reported NTP URL is chrome://newtab or chrome://new-tab-page.
+        // the reported NTP URL is decentr://newtab or decentr://new-tab-page.
         return url == GURL(chrome::kChromeUINewTabPageURL) ||
                url == GURL(chrome::kChromeUINewTabURL);
       }));

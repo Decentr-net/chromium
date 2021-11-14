@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {Command} from 'chrome://resources/js/cr/ui/command.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
-import {TreeItem} from 'chrome://resources/js/cr/ui/tree.js';
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {Command} from 'decentr://resources/js/cr/ui/command.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
+import {TreeItem} from 'decentr://resources/js/cr/ui/tree.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {FileType} from '../../common/js/file_type.js';
 import {ProgressCenterItem, ProgressItemState, ProgressItemType} from '../../common/js/progress_center_common.js';

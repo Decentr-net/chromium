@@ -4,8 +4,8 @@
 
 // TODO(crbug.com/1010321): Use cros_bluetooth_config.mojom-webui.js instead
 // as non-module JS is deprecated.
-import 'chrome://resources/mojo/chromeos/services/bluetooth_config/public/mojom/cros_bluetooth_config.mojom-lite.js';
-import {PairingAuthType} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_types.js';
+import 'decentr://resources/mojo/chromeos/services/bluetooth_config/public/mojom/cros_bluetooth_config.mojom-lite.js';
+import {PairingAuthType} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_types.js';
 
 /**
  * @fileoverview Fake implementation of DevicePairingHandler for testing.

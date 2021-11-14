@@ -651,19 +651,19 @@ TEST_F(PermissionsUpdaterTest, ChromeFaviconIsNotARevokableHost) {
   InitializeEmptyExtensionService();
 
   URLPattern chrome_favicon_pattern(Extension::kValidHostPermissionSchemes,
-                                    "chrome://favicon/");
+                                    "decentr://favicon/");
 
   {
     scoped_refptr<const Extension> extension =
         ExtensionBuilder("favicon extension")
-            .AddPermissions({"https://example.com/*", "chrome://favicon/*"})
+            .AddPermissions({"https://example.com/*", "decentr://favicon/*"})
             .Build();
     URLPattern example_com_pattern(Extension::kValidHostPermissionSchemes,
                                    "https://example.com/*");
     PermissionsUpdater updater(profile());
     updater.InitializePermissions(extension.get());
 
-    // To start, the extension should have both example.com and chrome://favicon
+    // To start, the extension should have both example.com and decentr://favicon
     // permissions.
     EXPECT_TRUE(extension->permissions_data()
                     ->active_permissions()
@@ -674,7 +674,7 @@ TEST_F(PermissionsUpdaterTest, ChromeFaviconIsNotARevokableHost) {
                     .explicit_hosts()
                     .ContainsPattern(example_com_pattern));
 
-    // Only example.com should be revokable - chrome://favicon is not a real
+    // Only example.com should be revokable - decentr://favicon is not a real
     // host permission.
     std::unique_ptr<const PermissionSet> revokable_permissions =
         updater.GetRevokablePermissions(extension.get());
@@ -707,7 +707,7 @@ TEST_F(PermissionsUpdaterTest, ChromeFaviconIsNotARevokableHost) {
     PermissionsUpdater updater(profile());
     updater.InitializePermissions(extension.get());
 
-    // <all_urls> (strangely) includes the chrome://favicon/ permission.
+    // <all_urls> (strangely) includes the decentr://favicon/ permission.
     EXPECT_TRUE(extension->permissions_data()
                     ->active_permissions()
                     .explicit_hosts()

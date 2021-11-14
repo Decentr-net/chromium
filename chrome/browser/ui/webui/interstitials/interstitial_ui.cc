@@ -93,7 +93,7 @@ scoped_refptr<net::X509Certificate> CreateFakeCert() {
       base::as_bytes(base::make_span(cert_der)));
 }
 
-// Implementation of chrome://interstitials demonstration pages. This code is
+// Implementation of decentr://interstitials demonstration pages. This code is
 // not used in displaying any real interstitials.
 class InterstitialHTMLSource : public content::URLDataSource {
  public:
@@ -467,7 +467,7 @@ std::string InterstitialHTMLSource::GetContentSecurityPolicy(
     const network::mojom::CSPDirectiveName directive) {
   if (directive == network::mojom::CSPDirectiveName::ScriptSrc) {
     // 'unsafe-inline' is added to script-src.
-    return "script-src chrome://resources 'self' 'unsafe-inline';";
+    return "script-src decentr://resources 'self' 'unsafe-inline';";
   } else if (directive == network::mojom::CSPDirectiveName::StyleSrc) {
     return "style-src 'self' 'unsafe-inline';";
   } else if (directive == network::mojom::CSPDirectiveName::ImgSrc) {

@@ -138,7 +138,7 @@ SlowUI::SlowUI(content::WebUI* web_ui) : WebUIController(web_ui) {
 
   web_ui->AddMessageHandler(std::make_unique<SlowHandler>(profile));
 
-  // Set up the chrome://slow/ source.
+  // Set up the decentr://slow/ source.
   content::WebUIDataSource::Add(profile, CreateSlowUIHTMLSource());
 }
 

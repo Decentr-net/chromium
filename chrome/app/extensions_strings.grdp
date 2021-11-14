@@ -34,13 +34,13 @@
   <message name="IDS_EXTENSIONS_INSTALL_WARNINGS" desc="The text which says that an extension has warnings when it was installed.">
     There were warnings when trying to install this extension:
   </message>
-  <message name="IDS_EXTENSIONS_LOG_LEVEL_ERROR" desc="Alt-text indicating a high severity level for the error icon in the chrome://extensions page.">
+  <message name="IDS_EXTENSIONS_LOG_LEVEL_ERROR" desc="Alt-text indicating a high severity level for the error icon in the decentr://extensions page.">
     Error
   </message>
-  <message name="IDS_EXTENSIONS_LOG_LEVEL_INFO" desc="Alt-text indicating a low severity level for the error icon in the chrome://extensions page.">
+  <message name="IDS_EXTENSIONS_LOG_LEVEL_INFO" desc="Alt-text indicating a low severity level for the error icon in the decentr://extensions page.">
     Log
   </message>
-  <message name="IDS_EXTENSIONS_LOG_LEVEL_WARN" desc="Alt-text indicating a medium severity level for the error icon in the chrome://extensions page.">
+  <message name="IDS_EXTENSIONS_LOG_LEVEL_WARN" desc="Alt-text indicating a medium severity level for the error icon in the decentr://extensions page.">
     Warning
   </message>
   <message name="IDS_EXTENSIONS_PATH" desc="The label in front of the extension load path.">
@@ -355,10 +355,10 @@
   <message name="IDS_EXTENSIONS_PACK_DIALOG_CONFIRM_BUTTON" desc="The label of the button to confirm the action to pack an extension.">
     Pack extension
   </message>
-  <message name="IDS_EXTENSIONS_TOOLBAR_TITLE" desc="The text displayed in the toolbar of the chrome://extensions page.">
+  <message name="IDS_EXTENSIONS_TOOLBAR_TITLE" desc="The text displayed in the toolbar of the decentr://extensions page.">
     Extensions
   </message>
-  <message name="IDS_EXTENSIONS_SEARCH" desc="The text displayed in the search box on the chrome://extensions page.">
+  <message name="IDS_EXTENSIONS_SEARCH" desc="The text displayed in the search box on the decentr://extensions page.">
     Search extensions
   </message>
   <message name="IDS_EXTENSIONS_EDIT_SHORTCUT" desc="The label for a button to edit the shortcut.">

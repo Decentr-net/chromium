@@ -144,9 +144,9 @@ TEST(SearchBoxUtilTest, ParseIconRestrictedUrlFaviconSuccess) {
     int expected_frame_id;
     InstantRestrictedID expected_rid;
   } test_cases[] = {
-      {"chrome-search://favicon/1/2", "", 1, 2},
-      {"chrome-search://favicon/size/16@2x/3/4", "size/16@2x/", 3, 4},
-      {"chrome-search://favicon/iconurl/9/10", "iconurl/", 9, 10},
+      {"decentr-search://favicon/1/2", "", 1, 2},
+      {"decentr-search://favicon/size/16@2x/3/4", "size/16@2x/", 3, 4},
+      {"decentr-search://favicon/iconurl/9/10", "iconurl/", 9, 10},
   };
   for (size_t i = 0; i < base::size(test_cases); ++i) {
     std::string param_part = "(unwritten)";
@@ -168,11 +168,11 @@ TEST(SearchBoxUtilTest, ParseIconRestrictedUrlFailure) {
   struct {
     const char* transient_url_str;
   } test_cases[] = {
-      {"chrome-search://favicon/"},
-      {"chrome-search://favicon/3/"},
-      {"chrome-search://favicon/size/3/4"},
-      {"chrome-search://favicon/largest/http://www.google.com"},
-      {"chrome-search://favicon/size/16@2x/-1/10"},
+      {"decentr-search://favicon/"},
+      {"decentr-search://favicon/3/"},
+      {"decentr-search://favicon/size/3/4"},
+      {"decentr-search://favicon/largest/http://www.google.com"},
+      {"decentr-search://favicon/size/16@2x/-1/10"},
   };
   for (size_t i = 0; i < base::size(test_cases); ++i) {
     std::string param_part = "(unwritten)";
@@ -192,16 +192,16 @@ TEST(SearchBoxUtilTest, TranslateIconRestrictedUrlSuccess) {
     const char* transient_url_str;
     std::string expected_url_str;
   } test_cases[] = {
-      {"chrome-search://favicon/137/1",
-       std::string("chrome-search://favicon/") + kUrlString1},
-      {"chrome-search://favicon/", "chrome-search://favicon/"},
-      {"chrome-search://favicon/314", "chrome-search://favicon/"},
-      {"chrome-search://favicon/314/1", "chrome-search://favicon/"},
-      {"chrome-search://favicon/137/255", "chrome-search://favicon/"},
-      {"chrome-search://favicon/-3/-1", "chrome-search://favicon/"},
-      {"chrome-search://favicon/invalidstuff", "chrome-search://favicon/"},
-      {"chrome-search://favicon/size/16@2x/http://www.google.com",
-       "chrome-search://favicon/"},
+      {"decentr-search://favicon/137/1",
+       std::string("decentr-search://favicon/") + kUrlString1},
+      {"decentr-search://favicon/", "decentr-search://favicon/"},
+      {"decentr-search://favicon/314", "decentr-search://favicon/"},
+      {"decentr-search://favicon/314/1", "decentr-search://favicon/"},
+      {"decentr-search://favicon/137/255", "decentr-search://favicon/"},
+      {"decentr-search://favicon/-3/-1", "decentr-search://favicon/"},
+      {"decentr-search://favicon/invalidstuff", "decentr-search://favicon/"},
+      {"decentr-search://favicon/size/16@2x/http://www.google.com",
+       "decentr-search://favicon/"},
   };
 
   MockIconURLHelper helper;

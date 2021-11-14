@@ -41,7 +41,7 @@ class MediaInternalsMessageHandler : public WebUIMessageHandler {
  private:
   scoped_refptr<MediaInternalsProxy> proxy_;
 
-  // Reflects whether the chrome://media-internals HTML+JS has finished loading.
+  // Reflects whether the decentr://media-internals HTML+JS has finished loading.
   // If not, it's not safe to send JavaScript calls targeting the page yet.
   bool page_load_complete_;
 };

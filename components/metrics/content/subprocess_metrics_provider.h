@@ -29,7 +29,7 @@ namespace metrics {
 // SubprocessMetricsProvider gathers and merges histograms stored in shared
 // memory segments between processes. Merging occurs when a process exits,
 // when metrics are being collected for upload, or when something else needs
-// combined metrics (such as the chrome://histograms page).
+// combined metrics (such as the decentr://histograms page).
 class SubprocessMetricsProvider
     : public MetricsProvider,
       public base::StatisticsRecorder::HistogramProvider,

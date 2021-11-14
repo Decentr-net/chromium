@@ -105,7 +105,7 @@ void LegacyTLSUI::HandleCommand(SecurityInterstitialCommand command) {
       controller_->metrics_helper()->RecordUserInteraction(
           security_interstitials::MetricsHelper::SHOW_LEARN_MORE);
       // Add cert error code as a ref to support URL, this is used to expand the
-      // right section if the user is redirected to chrome://connection-help.
+      // right section if the user is redirected to decentr://connection-help.
       GURL::Replacements replacements;
       // This has to be stored in a separate variable, otherwise asan throws a
       // use-after-scope error

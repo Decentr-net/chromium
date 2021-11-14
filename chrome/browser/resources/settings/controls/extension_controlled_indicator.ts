@@ -41,7 +41,7 @@ class ExtensionControlledIndicatorElement extends
       return '';
     }
 
-    const manageUrl = 'chrome://extensions/?id=' + this.extensionId;
+    const manageUrl = 'decentr://extensions/?id=' + this.extensionId;
     return this.i18nAdvanced('controlledByExtension', {
       substitutions:
           ['<a href="' + manageUrl + '" target="_blank">' + this.extensionName +

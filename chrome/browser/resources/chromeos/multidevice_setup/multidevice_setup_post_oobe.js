@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
 import './strings.m.js';
 
 import {loadTimeData} from '//resources/js/load_time_data.m.js';
-import {PageName} from 'chrome://resources/cr_components/chromeos/multidevice_setup/multidevice_setup.m.js';
-import {MultiDeviceSetupDelegate} from 'chrome://resources/cr_components/chromeos/multidevice_setup/multidevice_setup_delegate.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {PageName} from 'decentr://resources/cr_components/chromeos/multidevice_setup/multidevice_setup.m.js';
+import {MultiDeviceSetupDelegate} from 'decentr://resources/cr_components/chromeos/multidevice_setup/multidevice_setup_delegate.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {PostOobeDelegate} from './post_oobe_delegate.js';
 

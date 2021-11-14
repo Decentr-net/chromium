@@ -196,7 +196,7 @@ IN_PROC_BROWSER_TEST_F(AppListSearchBrowserTest,
 
   // Open the search result. This should open the help app at the expected url.
   size_t num_browsers = chrome::GetTotalBrowserCount();
-  const GURL expected_url("chrome://help-app/discover");
+  const GURL expected_url("decentr://help-app/discover");
   content::TestNavigationObserver navigation_observer(expected_url);
   navigation_observer.StartWatchingNewWebContents();
 
@@ -278,7 +278,7 @@ IN_PROC_BROWSER_TEST_F(AppListSearchBrowserTest,
 
   // Open the search result. This should open the help app at the expected url.
   size_t num_browsers = chrome::GetTotalBrowserCount();
-  const GURL expected_url("chrome://help-app/updates");
+  const GURL expected_url("decentr://help-app/updates");
   content::TestNavigationObserver navigation_observer(expected_url);
   navigation_observer.StartWatchingNewWebContents();
 
@@ -341,7 +341,7 @@ IN_PROC_BROWSER_TEST_F(AppListSearchBrowserTest,
     // This gives a chance for the icon to load between searches.
     web_app::FlushSystemWebAppLaunchesForTesting(GetProfile());
 
-    result = FindResult("chrome://help-app/help/id/test");
+    result = FindResult("decentr://help-app/help/id/test");
   }
 
   EXPECT_EQ(base::UTF16ToASCII(result->title()), "Fix connection problems");
@@ -353,7 +353,7 @@ IN_PROC_BROWSER_TEST_F(AppListSearchBrowserTest,
   // Open the search result. This should open the help app at the expected url
   // and log a metric indicating what content was launched.
   const size_t num_browsers = chrome::GetTotalBrowserCount();
-  const GURL expected_url("chrome://help-app/help/id/test");
+  const GURL expected_url("decentr://help-app/help/id/test");
   content::TestNavigationObserver navigation_observer(expected_url);
   navigation_observer.StartWatchingNewWebContents();
   base::HistogramTester histogram_tester;

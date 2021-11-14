@@ -1398,7 +1398,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2431027948063157455">L'Assistent de Google no s'ha pogut carregar. Comprova la connexió a la xarxa i tornar-ho a provar.</translation>
 <translation id="243179355394256322">La teva organització limita la inscripció de dispositius només als usuaris autoritzats. Aquest usuari no té autorització per inscriure dispositius. Assegura't que l'usuari tingui el privilegi d'administrador "Inscriure maquinari de Google Meet" a la secció de la consola d'administració Usuaris.</translation>
 <translation id="243275146591958220">Cancel·la la baixada</translation>
-<translation id="2433452467737464329">Afegiu un paràmetre de consulta a l'URL per actualitzar la pàgina automàticament: chrome://network/?refresh=&lt;seg.&gt;</translation>
+<translation id="2433452467737464329">Afegiu un paràmetre de consulta a l'URL per actualitzar la pàgina automàticament: decentr://network/?refresh=&lt;seg.&gt;</translation>
 <translation id="2433507940547922241">Aparença</translation>
 <translation id="2433836460518180625">Desbloqueja només el dispositiu</translation>
 <translation id="2434449159125086437">La impressora no es pot configurar. Comprova'n la configuració i torna-ho a provar.</translation>
@@ -1927,7 +1927,7 @@ i Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="2959127025785722291">S'ha produït un error. No s'ha pogut completar l'anàlisi. Torna-ho a provar.</translation>
 <translation id="2959842337402130152">No es pot dur a terme la restauració perquè no hi ha prou espai d'emmagatzematge. Allibera <ph name="SPACE_REQUIRED" /> del dispositiu i torna-ho a provar.</translation>
 <translation id="2960208947600937804">S'ha produït un error en configurar Linux. Contacta amb l'administrador.</translation>
-<translation id="296026337010986570">Fet! S'ha suprimit el programari nociu. Per tornar a activar les extensions, ves a &lt;a href="chrome://extensions"&gt;Extensions&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Fet! S'ha suprimit el programari nociu. Per tornar a activar les extensions, ves a &lt;a href="decentr://extensions"&gt;Extensions&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (extensió proporcionada)</translation>
 <translation id="2961210776189273067">Títol</translation>
 <translation id="2961695502793809356">Feu clic per anar endavant o manteniu premut per veure l'historial</translation>
@@ -4925,7 +4925,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6227280783235722609">extensió</translation>
 <translation id="6229849828796482487">Desconnecta la xarxa Wi‑Fi</translation>
 <translation id="6231782223312638214">Suggerida</translation>
-<translation id="6231881193380278751">Afegiu un paràmetre de consulta a l'URL per actualitzar la pàgina de manera automàtica: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Afegiu un paràmetre de consulta a l'URL per actualitzar la pàgina de manera automàtica: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Bateria</translation>
 <translation id="6232116551750539448">S'ha perdut la connexió amb <ph name="NAME" /></translation>
 <translation id="6233154960150021497">Utilitza la veu en comptes del teclat de manera predeterminada</translation>

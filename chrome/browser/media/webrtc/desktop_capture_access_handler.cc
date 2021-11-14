@@ -318,7 +318,7 @@ bool DesktopCaptureAccessHandler::IsDefaultApproved(
 }
 
 bool DesktopCaptureAccessHandler::IsDefaultApproved(const GURL& url) {
-  // allow the Feedback WebUI chrome://feedback/ to take screenshot without
+  // allow the Feedback WebUI decentr://feedback/ to take screenshot without
   // user's approval. The screenshot will not be shared by default. So the
   // user can still decide whether the screenshot taken is shared or not.
   return url.spec() == chrome::kChromeUIFeedbackURL;

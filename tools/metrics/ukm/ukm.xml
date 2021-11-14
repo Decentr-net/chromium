@@ -9604,7 +9604,7 @@ be describing additional metrics about the same event.
       Deprecated 8/19 as part of https://crbug.com/998685
     </obsolete>
     <summary>
-      Whether the origin was preloaded (from the chrome://component) as a high
+      Whether the origin was preloaded (from the decentr://component) as a high
       engagement origin.
     </summary>
   </metric>

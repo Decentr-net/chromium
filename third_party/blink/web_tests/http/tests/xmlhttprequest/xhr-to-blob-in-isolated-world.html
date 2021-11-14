@@ -7,7 +7,7 @@ if (!window.testRunner) {
     document.body.appendChild(document.createTextNode("This test requires window.testRunner"));
 } else {
     testRunner.dumpAsText();
-    // Can't use chrome-extension:// since it's an unknown scheme and
+    // Can't use decentr-extension:// since it's an unknown scheme and
     // will fail validation in content/ land; so pretend that
     // https://cloud-cuckoo-land.google:2112 is a chrome extension origin.
     testRunner.setIsolatedWorldInfo(1, "https://cloud-cuckoo-land.google:2112", null);

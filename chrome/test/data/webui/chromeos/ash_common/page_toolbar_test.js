@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PageToolbarElement} from 'chrome://resources/ash/common/page_toolbar.js';
+import {PageToolbarElement} from 'decentr://resources/ash/common/page_toolbar.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 

@@ -119,7 +119,7 @@ IN_PROC_BROWSER_TEST_F(PolicyTest,
 
 IN_PROC_BROWSER_TEST_F(PolicyTest, DeveloperToolsDisabledExtensionsDevMode) {
   // Verifies that when DeveloperToolsDisabled policy is set, the "dev mode"
-  // in chrome://extensions is actively turned off and the checkbox
+  // in decentr://extensions is actively turned off and the checkbox
   // is disabled.
   // Note: We don't test the indicator as it is tested in the policy pref test
   // for kDeveloperToolsDisabled and kDeveloperToolsAvailability.

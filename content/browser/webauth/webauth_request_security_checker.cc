@@ -25,7 +25,7 @@ namespace content {
 namespace {
 
 constexpr char kCryptotokenOrigin[] =
-    "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd";
+    "decentr-extension://kmendfapggjehodndflmmgagdbamhnfd";
 
 // Returns AuthenticatorStatus::SUCCESS if the domain is valid and an error
 // if it fails one of the criteria below.

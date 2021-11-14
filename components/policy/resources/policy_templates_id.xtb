@@ -517,7 +517,7 @@ Jika Anda menonaktifkan kebijakan ini, scroll halaman web ke fragmen teks terten
 <translation id="1620510694547887537">Kamera</translation>
 <translation id="1626379196197114720">Izinkan penggunaan back-forward cache</translation>
 <translation id="1628974048137236820">Halaman Tab Baru tidak akan menampilkan kartu</translation>
-<translation id="1630263002012156148">Jika kebijakan disetel ke Aktif, halaman beranda pengguna akan menjadi halaman Tab Baru dan lokasi URL halaman beranda lain akan diabaikan. Jika kebijakan disetel ke Nonaktif, halaman beranda pengguna tidak akan pernah menjadi halaman Tab Baru, kecuali jika URL halaman beranda pengguna disetel ke chrome://newtab.
+<translation id="1630263002012156148">Jika kebijakan disetel ke Aktif, halaman beranda pengguna akan menjadi halaman Tab Baru dan lokasi URL halaman beranda lain akan diabaikan. Jika kebijakan disetel ke Nonaktif, halaman beranda pengguna tidak akan pernah menjadi halaman Tab Baru, kecuali jika URL halaman beranda pengguna disetel ke decentr://newtab.
 
       Jika Anda menyetel kebijakan, pengguna tidak dapat mengubah jenis halaman berandanya di <ph name="PRODUCT_NAME" />. Jika tidak disetel, pengguna dapat memutuskan apakah halaman Tab Baru akan menjadi halaman berandanya atau tidak.
 
@@ -664,7 +664,7 @@ Jika Anda menonaktifkan kebijakan ini, scroll halaman web ke fragmen teks terten
 <translation id="1798559516913615713">Masa berlaku cache GPO</translation>
 <translation id="180130467244315277">Kebijakan ini memungkinkan admin mengonfigurasi urutan bahasa pilihan di setelan <ph name="PRODUCT_NAME" />.
 
-      Urutan daftar akan muncul dalam urutan yang sama di bagian "Urutkan bahasa berdasarkan preferensi Anda" di chrome://settings/languages. Pengguna tidak akan dapat menghapus atau mengurutkan ulang bahasa yang ditetapkan oleh kebijakan, tetapi akan dapat menambahkan bahasa di bawah daftar yang ditetapkan oleh kebijakan. Pengguna juga akan memiliki kontrol penuh atas setelan bahasa UI dan terjemahan/periksa ejaan browser, kecuali diterapkan oleh kebijakan lainnya.
+      Urutan daftar akan muncul dalam urutan yang sama di bagian "Urutkan bahasa berdasarkan preferensi Anda" di decentr://settings/languages. Pengguna tidak akan dapat menghapus atau mengurutkan ulang bahasa yang ditetapkan oleh kebijakan, tetapi akan dapat menambahkan bahasa di bawah daftar yang ditetapkan oleh kebijakan. Pengguna juga akan memiliki kontrol penuh atas setelan bahasa UI dan terjemahan/periksa ejaan browser, kecuali diterapkan oleh kebijakan lainnya.
 
       Jika kebijakan tidak disetel, pengguna akan dapat memanipulasi seluruh daftar bahasa pilihan.</translation>
 <translation id="1803646570632580723">Daftar aplikasi tersemat untuk ditampilkan pada peluncur</translation>
@@ -1138,7 +1138,7 @@ Jika Anda menonaktifkan kebijakan ini, scroll halaman web ke fragmen teks terten
 <translation id="2299220924812062390">Tentukan daftar plugin yang diaktifkan</translation>
 <translation id="2301048990069984110">Memperluas dukungan untuk Aplikasi Chrome di Windows, Mac, dan Linux.</translation>
 <translation id="2303795211377219696">Mengaktifkan IsiOtomatis untuk kartu kredit</translation>
-<translation id="2304009805995145854">Sejak <ph name="PRODUCT_NAME" /> 67, isolasi situs telah diaktifkan secara default di semua platform Desktop, yang menyebabkan setiap situs berjalan dalam prosesnya sendiri. Situs adalah skema plus eTLD+1 (misalnya, https://example.com). Menyetel kebijakan ke Aktif tidak mengubah perilaku tersebut; hanya mencegah pengguna menonaktifkannya (misalnya, menggunakan Nonaktifkan isolasi situs di chrome://flags). Sejak <ph name="PRODUCT_NAME" /> 76, menyetel kebijakan ini ke Nonaktif atau membiarkannya tanpa disetel tidak akan menonaktifkan isolasi situs, tetapi memungkinkan pengguna untuk menonaktifkannya.
+<translation id="2304009805995145854">Sejak <ph name="PRODUCT_NAME" /> 67, isolasi situs telah diaktifkan secara default di semua platform Desktop, yang menyebabkan setiap situs berjalan dalam prosesnya sendiri. Situs adalah skema plus eTLD+1 (misalnya, https://example.com). Menyetel kebijakan ke Aktif tidak mengubah perilaku tersebut; hanya mencegah pengguna menonaktifkannya (misalnya, menggunakan Nonaktifkan isolasi situs di decentr://flags). Sejak <ph name="PRODUCT_NAME" /> 76, menyetel kebijakan ini ke Nonaktif atau membiarkannya tanpa disetel tidak akan menonaktifkan isolasi situs, tetapi memungkinkan pengguna untuk menonaktifkannya.
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> mungkin juga berguna untuk mengisolasi asal tertentu pada tingkat perincian yang lebih baik daripada situs (misalnya, https://a.example.com).
 
@@ -3526,7 +3526,7 @@ Jika disetel ke Salah (False), <ph name="PRODUCT_NAME" /> tidak akan menggunakan
       Jika kebijakan disetel ke Nonaktif, pengguna tidak dapat menyimpan sandi baru, tetapi sandi yang disimpan sebelumnya masih berfungsi.
 
       Jika kebijakan disetel, pengguna tidak dapat mengubahnya di <ph name="PRODUCT_NAME" />. Jika tidak disetel, pengguna dapat menonaktifkan penyimpanan sandi.</translation>
-<translation id="5239333626804545932">Jika kebijakan disetel ke Aktif atau tidak disetel, Pembersih Chrome akan memindai sistem secara berkala untuk menemukan software yang tidak diinginkan, dan jika ditemukan, akan menanyakan kepada pengguna apakah ia ingin menghapusnya atau tidak. Pembersih Chrome dapat dipicu secara manual dari chrome://settings.
+<translation id="5239333626804545932">Jika kebijakan disetel ke Aktif atau tidak disetel, Pembersih Chrome akan memindai sistem secara berkala untuk menemukan software yang tidak diinginkan, dan jika ditemukan, akan menanyakan kepada pengguna apakah ia ingin menghapusnya atau tidak. Pembersih Chrome dapat dipicu secara manual dari decentr://settings.
 
       Jika kebijakan disetel ke Nonaktif, Pembersih Chrome tidak akan memindai sistem secara berkala dan pemicu manual akan dinonaktifkan.
 
@@ -4285,7 +4285,7 @@ Jika disetel ke Salah (False), <ph name="PRODUCT_NAME" /> tidak akan menggunakan
 
       Pengguna dapat memicu dialog impor dan kontak centang data formulir isi otomatis akan dicentang atau dihapus centangnya agar cocok dengan nilai kebijakan ini.</translation>
 <translation id="614616930188030377">Pola dalam daftar ini akan dicocokkan dengan asal keamanan URL yang meminta.
-      Jika kecocokan ditemukan atau chrome://flags/#enable-webrtc-hide-local-ips-with-mdns Nonaktif, alamat IP lokal akan ditampilkan dalam kandidat WebRTC ICE.
+      Jika kecocokan ditemukan atau decentr://flags/#enable-webrtc-hide-local-ips-with-mdns Nonaktif, alamat IP lokal akan ditampilkan dalam kandidat WebRTC ICE.
       Jika tidak, alamat IP lokal akan disembunyikan dengan hostname mDNS.
       Perlu diingat bahwa kebijakan ini akan melemahkan perlindungan IP lokal jika dibutuhkan oleh administrator.</translation>
 <translation id="614662973812186053">Kebijakan ini juga mengontrol pengumpulan data diagnostik dan penggunaan Android.</translation>
@@ -4519,12 +4519,12 @@ Jika disetel ke Salah (False), <ph name="PRODUCT_NAME" /> tidak akan menggunakan
 <translation id="645425387487868471">Aktifkan login paksa untuk <ph name="PRODUCT_NAME" /></translation>
 <translation id="6455842857207956758">Mengaktifkan sinkronisasi sandi SAML antara beberapa perangkat Chrome dengan memantau nilai token sinkronisasi sandi dan mengirimkan autentikasi ulang kepada pengguna secara online jika sandi diperbarui dan perlu disinkronkan.
 
-      Mengaktifkan halaman di chrome://password-change yang memungkinkan pengguna SAML untuk mengubah sandi SAML mereka selama dalam-sesi, yang memastikan bahwa sandi SAML dan sandi layar kunci perangkat selalu sinkron.
+      Mengaktifkan halaman di decentr://password-change yang memungkinkan pengguna SAML untuk mengubah sandi SAML mereka selama dalam-sesi, yang memastikan bahwa sandi SAML dan sandi layar kunci perangkat selalu sinkron.
 
       Kebijakan ini juga mengaktifkan notifikasi yang memperingatkan pengguna SAML jika masa berlaku sandi SAML mereka akan segera habis, sehingga mereka dapat segera menangani hal tersebut dengan melakukan pengubahan sandi dalam-sesi.
       Namun, notifikasi ini hanya akan ditampilkan jika informasi masa berlaku sandi dikirimkan ke perangkat oleh penyedia identitas SAML selama alur login SAML.
 
-      Jika kebijakan ini disetel ke Nonaktif atau tidak disetel, sandi SAML tidak akan dapat diubah di chrome://password-change dan tidak akan ada notifikasi saat masa berlaku sandi SAML hampir habis.</translation>
+      Jika kebijakan ini disetel ke Nonaktif atau tidak disetel, sandi SAML tidak akan dapat diubah di decentr://password-change dan tidak akan ada notifikasi saat masa berlaku sandi SAML hampir habis.</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">Jika kebijakan disetel ke Aktif atau tidak disetel, semua pengguna dapat menggunakan <ph name="PRODUCT_CROSTINI_NAME" />, selama ketiga kebijakan, <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" />, dan <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" />, disetel ke Aktif. Jika kebijakan disetel ke Nonaktif, pengguna yang tidak terafiliasi tidak dapat menggunakan <ph name="PRODUCT_CROSTINI_NAME" />. Jika setelan diubah ke Nonaktif, kebijakan mulai diterapkan ke penampung <ph name="PRODUCT_CROSTINI_NAME" /> baru yang akan dijalankan, bukan yang sudah berjalan.</translation>
 <translation id="6464074037294098618">Mengaktifkan IsiOtomatis untuk alamat</translation>
@@ -4592,7 +4592,7 @@ Jika disetel ke Salah (False), <ph name="PRODUCT_NAME" /> tidak akan menggunakan
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />, deteksi zona waktu otomatis akan tetap aktif, dan daftar titik akses Wi-Fi yang terlihat terus-menerus dikirim ke server API Geolokasi untuk deteksi zona waktu yang lebih mendetail.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />, deteksi zona waktu otomatis akan tetap aktif, dan informasi lokasi (seperti titik akses Wi-Fi, menara BTS yang dapat dijangkau, GPS) terus-menerus dikirim ke server untuk deteksi zona waktu yang paling mendetail.
 
-      Jika tidak ditetapkan, ditetapkan ke Biarkan pengguna menentukan (Let user decide), atau ditetapkan ke Tidak Ada (None), pengguna akan mengontrol deteksi zona waktu otomatis menggunakan kontrol normal di chrome://setelan.</translation>
+      Jika tidak ditetapkan, ditetapkan ke Biarkan pengguna menentukan (Let user decide), atau ditetapkan ke Tidak Ada (None), pengguna akan mengontrol deteksi zona waktu otomatis menggunakan kontrol normal di decentr://setelan.</translation>
 <translation id="6532769014584932288">Izinkan penguncian layar saat aktif</translation>
 <translation id="6536600139108165863">Booting ulang otomatis saat mematikan perangkat</translation>
 <translation id="6539246272469751178">Kebijakan ini tidak memengaruhi aplikasi Android. Aplikasi Android selalu menggunakan direktori download default dan tidak dapat mengakses file apa pun yang didownload oleh <ph name="PRODUCT_OS_NAME" /> ke direktori download non-default.</translation>
@@ -4822,7 +4822,7 @@ Jika disetel ke Salah (False), <ph name="PRODUCT_NAME" /> tidak akan menggunakan
 
       Jika kebijakan disetel ke Nonaktif, ikon fitur eksperimental browser akan dihapus dari toolbar.
 
-      chrome://flags dan cara lain untuk menonaktifkan dan mengaktifkan fitur browser akan tetap berperilaku sebagaimana mestinya terlepas dari apakah kebijakan ini disetel ke Aktif atau Nonaktif.</translation>
+      decentr://flags dan cara lain untuk menonaktifkan dan mengaktifkan fitur browser akan tetap berperilaku sebagaimana mestinya terlepas dari apakah kebijakan ini disetel ke Aktif atau Nonaktif.</translation>
 <translation id="6794083666143216172">Mengizinkan asal mengkueri atribut perangkat</translation>
 <translation id="6795485990775913659">Hanya izinkan pencetakan tanpa PIN</translation>
 <translation id="6800181452282128474">Jangan kueri Server Quirks</translation>
@@ -5499,7 +5499,7 @@ Jika kebijakan ini tidak disetel atau kosong, pengguna dapat menyetel akun Googl
       Jika disetel ke GAIA, proses masuk akan dilakukan melalui alur autentikasi GAIA normal.
 
       Jika disetel ke SAML_INTERSTITIAL, alur masuk akan menampilkan layar pengantara yang menawari pengguna untuk melanjutkan autentikasi melalui SAML IdP domain pendaftaran perangkat, atau kembali ke alur proses masuk GAIA normal.</translation>
-<translation id="7554382342294940216">Jika kebijakan disetel ke Aktif, <ph name="PRODUCT_OS_NAME" /> akan diizinkan mengabaikan proxy apa pun untuk autentikasi captive portal. Halaman autentikasi ini, yang dimulai dari halaman login captive portal hingga Chrome mendeteksi koneksi internet yang berhasil, terbuka di jendela yang terpisah, yang mengabaikan semua setelan kebijakan dan batasan untuk pengguna saat ini. Kebijakan ini hanya berlaku jika proxy disiapkan (oleh kebijakan, ekstensi, atau pengguna di chrome://settings).
+<translation id="7554382342294940216">Jika kebijakan disetel ke Aktif, <ph name="PRODUCT_OS_NAME" /> akan diizinkan mengabaikan proxy apa pun untuk autentikasi captive portal. Halaman autentikasi ini, yang dimulai dari halaman login captive portal hingga Chrome mendeteksi koneksi internet yang berhasil, terbuka di jendela yang terpisah, yang mengabaikan semua setelan kebijakan dan batasan untuk pengguna saat ini. Kebijakan ini hanya berlaku jika proxy disiapkan (oleh kebijakan, ekstensi, atau pengguna di decentr://settings).
 
       Jika kebijakan disetel ke Nonaktif atau tidak disetel, semua halaman autentikasi captive portal akan ditampilkan di tab browser baru (reguler), yang menggunakan setelan proxy pengguna saat ini.</translation>
 <translation id="7566878661979235378">Jenis autentikasi login SAML</translation>
@@ -5798,7 +5798,7 @@ Cara yang diharapkan terkait penggunaan kebijakan ini adalah merotasi konfiguras
 <translation id="7951605113561734721">Menentukan sertifikat klien di seluruh perangkat yang seharusnya didaftarkan menggunakan protokol pengelolaan perangkat.</translation>
 <translation id="7952007677054834789">Mengonfigurasi halaman yang akan dimuat saat permulaan, halaman beranda default, dan halaman tab baru default di <ph name="PRODUCT_NAME" /> dan mencegah pengguna mengubahnya.
 
-      Setelan halaman beranda pengguna hanya terkunci sepenuhnya jika Anda memilih halaman beranda untuk menjadi halaman tab baru, atau menetapkannya menjadi URL dan menentukan URL halaman beranda. Jika Anda tidak menentukan URL halaman beranda, maka pengguna masih dapat menetapkan halaman beranda ke halaman tab baru dengan menentukan 'chrome://newtab'.
+      Setelan halaman beranda pengguna hanya terkunci sepenuhnya jika Anda memilih halaman beranda untuk menjadi halaman tab baru, atau menetapkannya menjadi URL dan menentukan URL halaman beranda. Jika Anda tidak menentukan URL halaman beranda, maka pengguna masih dapat menetapkan halaman beranda ke halaman tab baru dengan menentukan 'decentr://newtab'.
 
       Kebijakan 'URL yang akan dibuka saat permulaan' akan diabaikan, kecuali jika Anda memilih 'Buka daftar URL' dalam 'Tindakan saat permulaan'.</translation>
 <translation id="7952958573604504839">Kebijakan ini tidak digunakan lagi di M48 guna mendukung <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, dan dihapus di M54.
@@ -6358,7 +6358,7 @@ Kebijakan akan dihapus pada M75.</translation>
 
       Mulai <ph name="PRODUCT_NAME" /> versi 92, kebijakan ini juga didukung dalam mode headless.
 
-      Catatan: Memblokir URL chrome://* internal dapat menyebabkan error tak terduga.</translation>
+      Catatan: Memblokir URL decentr://* internal dapat menyebabkan error tak terduga.</translation>
 <translation id="8626826495474944836">Memerlukan Isolasi Situs untuk setiap situs</translation>
 <translation id="8631434304112909927">sampai versi <ph name="UNTIL_VERSION" /></translation>
 <translation id="8631437968147930597">Daftar aplikasi pencatat yang diizinkan di layar kunci <ph name="PRODUCT_OS_NAME" /></translation>
@@ -6516,7 +6516,7 @@ Kebijakan akan dihapus pada M75.</translation>
 
       Kode sumber ekstensi apa pun dapat diubah oleh pengguna melalui alat developer, yang berpotensi menyebabkan ekstensi tersebut tidak berfungsi lagi. Jika hal ini menjadi masalah, setel kebijakan <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" />.
 
-      Setiap item daftar kebijakan merupakan string yang berisi ID ekstensi dan, terkadang, URL "update" yang dipisahkan titik koma (;). ID ekstensi adalah string 32 huruf yang ditemukan, misalnya, di chrome://extensions saat dalam mode Developer. Jika ditentukan, URL "update" akan mengarah ke dokumen XML Manifes Update (https://developer.chrome.com/extensions/autoupdate). Secara default, URL update Chrome Web Store akan digunakan. URL "update" yang disetel dalam kebijakan ini hanya digunakan untuk penginstalan awal; update ekstensi berikutnya akan menggunakan URL update dalam manifes ekstensi.
+      Setiap item daftar kebijakan merupakan string yang berisi ID ekstensi dan, terkadang, URL "update" yang dipisahkan titik koma (;). ID ekstensi adalah string 32 huruf yang ditemukan, misalnya, di decentr://extensions saat dalam mode Developer. Jika ditentukan, URL "update" akan mengarah ke dokumen XML Manifes Update (https://developer.chrome.com/extensions/autoupdate). Secara default, URL update Chrome Web Store akan digunakan. URL "update" yang disetel dalam kebijakan ini hanya digunakan untuk penginstalan awal; update ekstensi berikutnya akan menggunakan URL update dalam manifes ekstensi.
 
        Catatan: Kebijakan ini tidak berlaku untuk mode Samaran. Baca tentang ekstensi hosting (https://developer.chrome.com/extensions/hosting).</translation>
 <translation id="8827366480126575426">Protokol untuk pengendali protokol.</translation>
@@ -6910,7 +6910,7 @@ Kebijakan akan dihapus pada M75.</translation>
 
       Mulai <ph name="PRODUCT_NAME" /> versi 73, Anda dapat memblokir URL javascript://*. Namun, ini hanya akan memengaruhi JavaScript yang dimasukkan dalam kolom URL (atau, misalnya, bookmarklet). URL JavaScript dalam halaman dengan data yang dimuat secara dinamis tidak tunduk pada kebijakan ini. Misalnya, jika Anda memblokir example.com/abc, example.com tetap dapat memuat example.com/abc melalui XMLHTTPRequest.
 
-      Catatan: Memblokir URL chrome://* internal dapat menyebabkan error tak terduga.</translation>
+      Catatan: Memblokir URL decentr://* internal dapat menyebabkan error tak terduga.</translation>
 <translation id="957778406002650056">URL tempat gambar <ph name="PLUGIN_VM_NAME" /> dapat didownload.</translation>
 <translation id="971677226939413180">Opsi Cetak sebagai gambar tidak tersedia bagi pilihan pengguna.</translation>
 <translation id="974349541138387272">Menentukan template URI pada resolver DNS-over-HTTPS yang diinginkan</translation>

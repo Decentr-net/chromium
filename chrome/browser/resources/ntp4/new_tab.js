@@ -4,12 +4,12 @@
 
 import './strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {addWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {getUrlForCss} from 'chrome://resources/js/icon.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {parseHtmlSubset} from 'chrome://resources/js/parse_html_subset.m.js';
-import {$, appendParam, getRequiredElement} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {addWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {getUrlForCss} from 'decentr://resources/js/icon.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {parseHtmlSubset} from 'decentr://resources/js/parse_html_subset.m.js';
+import {$, appendParam, getRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {AppInfo} from './app_info.js';
 import {APP_LAUNCH, AppsPage} from './apps_page.js';
@@ -18,7 +18,7 @@ import {PageListView} from './page_list_view.js';
 /**
  * @fileoverview New tab page 4
  * This is the main code for a previous version of the Chrome NTP ("NTP4").
- * Some parts of this are still used for the chrome://apps page.
+ * Some parts of this are still used for the decentr://apps page.
  */
 
 // Use an anonymous function to enable strict mode just for this file (which
@@ -113,7 +113,7 @@ function onLoad() {
     startTime = Date.now();
 
     addWebUIListener('theme-changed', () => {
-      $('themecss').href = 'chrome://theme/css/new_tab_theme.css?' + Date.now();
+      $('themecss').href = 'decentr://theme/css/new_tab_theme.css?' + Date.now();
     });
     chrome.send('observeThemeChanges');
   });

@@ -118,7 +118,7 @@ void AssociateEvents(trace_analyzer::TraceAnalyzer* analyzer,
 content::WebContents* OpenWebrtcInternalsTab(Browser* browser) {
   chrome::AddTabAt(browser, GURL(url::kAboutBlankURL), -1, true);
   EXPECT_TRUE(
-      ui_test_utils::NavigateToURL(browser, GURL("chrome://webrtc-internals")));
+      ui_test_utils::NavigateToURL(browser, GURL("decentr://webrtc-internals")));
   return browser->tab_strip_model()->GetActiveWebContents();
 }
 

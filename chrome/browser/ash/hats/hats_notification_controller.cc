@@ -41,7 +41,7 @@
 namespace ash {
 namespace {
 
-const char kNotificationOriginUrl[] = "chrome://hats";
+const char kNotificationOriginUrl[] = "decentr://hats";
 
 const char kNotifierHats[] = "ash.hats";
 

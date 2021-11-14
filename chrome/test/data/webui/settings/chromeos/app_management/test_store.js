@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {TestStore} from 'chrome://test/test_store.js';
-// #import {AppManagementStore, createEmptyState, reduceAction} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {TestStore} from 'decentr://test/test_store.js';
+// #import {AppManagementStore, createEmptyState, reduceAction} from 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 cr.define('app_management', function() {

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {MockVolumeManager} from '../../background/js/mock_volume_manager.js';
 import {VolumeInfo} from '../../externs/volume_info.js';
@@ -226,7 +226,7 @@ export function testRotateLogs_RemembersInitialActiveLog(callback) {
 }
 
 export function testDeflateAppUrl() {
-  const url = 'filesystem:chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj' +
+  const url = 'filesystem:decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj' +
       '/external/removable/USB%20Drive/DCIM/derekkind2.jpg';
   const deflated = importer.deflateAppUrl(url);
 

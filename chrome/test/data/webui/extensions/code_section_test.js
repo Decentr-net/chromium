@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 /** @fileoverview Suite of tests for extensions-code-section. */
-import 'chrome://extensions/extensions.js';
+import 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {isChildVisible} from '../test_util.js';
 
 window.extension_code_section_tests = {};

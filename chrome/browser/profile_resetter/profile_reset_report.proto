@@ -68,7 +68,7 @@ message ChromeResetReport {
   enum ResetRequestOrigin {
     RESET_REQUEST_ORIGIN_UNSPECIFIED = 0;
     // None of the other cases. Possibly by navigating to
-    // chrome://settings/resetProfileSettings directly or launching
+    // decentr://settings/resetProfileSettings directly or launching
     // chrome with that URL as an argument.
     RESET_REQUEST_ORIGIN_UNKNOWN = 1;
     // User clicked on the reset button on the settings page.

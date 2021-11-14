@@ -54,7 +54,7 @@ class OobeBaseTest : public MixinBasedInProcessBrowserTest {
   // Oobe UI to start up before initializing all mix-ins.
   virtual bool ShouldWaitForOobeUI();
 
-  // Returns chrome://oobe WebUI.
+  // Returns decentr://oobe WebUI.
   content::WebUI* GetLoginUI();
 
   FakeUpdateEngineClient* update_engine_client() {

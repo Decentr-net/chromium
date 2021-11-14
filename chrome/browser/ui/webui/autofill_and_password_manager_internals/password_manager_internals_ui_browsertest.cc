@@ -61,7 +61,7 @@ void PasswordManagerInternalsWebUIBrowserTest::OpenInternalsPage(
 void PasswordManagerInternalsWebUIBrowserTest::OpenInternalsPageWithBrowser(
     Browser* browser,
     WindowOpenDisposition disposition) {
-  std::string url_string("chrome://");
+  std::string url_string("decentr://");
   url_string += chrome::kChromeUIPasswordManagerInternalsHost;
   ui_test_utils::NavigateToURLWithDisposition(
       browser, GURL(url_string), disposition,

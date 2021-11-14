@@ -696,7 +696,7 @@ TEST_F(LocalPrinterAshTest, FetchValidEulaUrl) {
 
   RunUntilIdle();
 
-  EXPECT_EQ(fetched_eula_url, GURL("chrome://os-credits/#expected_make_model"));
+  EXPECT_EQ(fetched_eula_url, GURL("decentr://os-credits/#expected_make_model"));
 }
 
 // Test that a printer with no PPD license will return an empty string.

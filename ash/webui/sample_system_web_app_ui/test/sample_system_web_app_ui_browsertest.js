@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test suite for chrome://sample-system-web-app.
+ * @fileoverview Test suite for decentr://sample-system-web-app.
  */
 
 GEN('#include "content/public/test/browser_test.h"');
 
-const HOST_ORIGIN = 'chrome://sample-system-web-app';
-const UNTRUSTED_HOST_ORIGIN = 'chrome-untrusted://sample-system-web-app';
+const HOST_ORIGIN = 'decentr://sample-system-web-app';
+const UNTRUSTED_HOST_ORIGIN = 'decentr-untrusted://sample-system-web-app';
 
 var SampleSystemWebAppUIBrowserTest = class extends testing.Test {
   /** @override */
@@ -28,7 +28,7 @@ var SampleSystemWebAppUIBrowserTest = class extends testing.Test {
   }
 };
 
-// Tests that chrome://sample-system-web-app runs js file and that it goes
+// Tests that decentr://sample-system-web-app runs js file and that it goes
 // somewhere instead of 404ing or crashing.
 TEST_F('SampleSystemWebAppUIBrowserTest', 'HasChromeSchemeURL', () => {
   const header = document.querySelector('header');
@@ -82,8 +82,8 @@ var SampleSystemWebAppUIUntrustedBrowserTest = class extends testing.Test {
   }
 };
 
-// Tests that chrome://sample-system-web-app/sandbox.html embeds a
-// chrome-untrusted:// iframe
+// Tests that decentr://sample-system-web-app/sandbox.html embeds a
+// decentr-untrusted:// iframe
 TEST_F(
     'SampleSystemWebAppUIUntrustedBrowserTest', 'HasChromeUntrustedIframe',
     () => {

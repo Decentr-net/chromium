@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
 // #import {FakeUsersPrivate} from './fake_users_private.m.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';

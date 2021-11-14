@@ -863,7 +863,7 @@ TEST_F(RasterImplementationTest, TransferCacheSerialization) {
 
 TEST_F(RasterImplementationTest, SetActiveURLCHROMIUM) {
   const uint32_t kURLBucketId = RasterImplementation::kResultBucketId;
-  const std::string url = "chrome://test";
+  const std::string url = "decentr://test";
   const uint32_t kPaddedStringSize =
       transfer_buffer_->RoundToAlignment(url.size());
 

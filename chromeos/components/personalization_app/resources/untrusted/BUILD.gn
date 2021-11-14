@@ -65,8 +65,8 @@ js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + [
                     "language_in=ECMASCRIPT_2020",
-                    "browser_resolver_prefix_replacements=\"chrome-untrusted://personalization/polymer/v3_0/=../../third_party/polymer/v3_0/components-chromium/\"",
-                    "browser_resolver_prefix_replacements=\"chrome-untrusted://personalization/polymer/v3_0/polymer/polymer_bundled.min.js=../../third_party/polymer/v3_0/components-chromium/polymer/polymer_bundled.js\"",
+                    "browser_resolver_prefix_replacements=\"decentr-untrusted://personalization/polymer/v3_0/=../../third_party/polymer/v3_0/components-chromium/\"",
+                    "browser_resolver_prefix_replacements=\"decentr-untrusted://personalization/polymer/v3_0/polymer/polymer_bundled.min.js=../../third_party/polymer/v3_0/components-chromium/polymer/polymer_bundled.js\"",
                   ]
   deps = [
     ":collections_grid",

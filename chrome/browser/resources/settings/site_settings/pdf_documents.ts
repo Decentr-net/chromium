@@ -11,7 +11,7 @@
 import '../controls/settings_toggle_button.js';
 import '../settings_shared_css.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 class SettingsPdfDocumentsElement extends PolymerElement {
   static get is() {

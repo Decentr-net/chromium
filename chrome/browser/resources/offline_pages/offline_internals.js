@@ -4,8 +4,8 @@
 
 import './strings.m.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {IsLogging, OfflineInternalsBrowserProxy, OfflineInternalsBrowserProxyImpl, OfflinePage, SavePageRequest} from './offline_internals_browser_proxy.js';
 

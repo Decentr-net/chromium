@@ -3030,7 +3030,7 @@ TEST_P(URLRequestSameSiteCookiesTest, SettingSameSiteCookies) {
   }
 }
 
-// Tests special chrome:// scheme that is supposed to always attach SameSite
+// Tests special decentr:// scheme that is supposed to always attach SameSite
 // cookies if the requested site is secure.
 TEST_P(URLRequestSameSiteCookiesTest, SameSiteCookiesSpecialScheme) {
   url::ScopedSchemeRegistryForTests scoped_registry;
@@ -3069,7 +3069,7 @@ TEST_P(URLRequestSameSiteCookiesTest, SameSiteCookiesSpecialScheme) {
             "LaxSameSiteCookie=1;SameSite=Lax"),
         DEFAULT_PRIORITY, &d, TRAFFIC_ANNOTATION_FOR_TESTS));
     req->set_site_for_cookies(
-        SiteForCookies::FromUrl(GURL("chrome://whatever/")));
+        SiteForCookies::FromUrl(GURL("decentr://whatever/")));
     req->Start();
     d.RunUntilComplete();
     EXPECT_EQ(0u, GetAllCookies(&context).size());
@@ -3084,7 +3084,7 @@ TEST_P(URLRequestSameSiteCookiesTest, SameSiteCookiesSpecialScheme) {
             "LaxSameSiteCookie=1;SameSite=Lax"),
         DEFAULT_PRIORITY, &d, TRAFFIC_ANNOTATION_FOR_TESTS));
     req->set_site_for_cookies(
-        SiteForCookies::FromUrl(GURL("chrome://whatever/")));
+        SiteForCookies::FromUrl(GURL("decentr://whatever/")));
     req->Start();
     d.RunUntilComplete();
     CookieList cookies = GetAllCookies(&context);
@@ -3099,7 +3099,7 @@ TEST_P(URLRequestSameSiteCookiesTest, SameSiteCookiesSpecialScheme) {
         https_test_server.GetURL("/echoheader?Cookie"), DEFAULT_PRIORITY, &d,
         TRAFFIC_ANNOTATION_FOR_TESTS));
     req->set_site_for_cookies(
-        SiteForCookies::FromUrl(GURL("chrome://whatever/")));
+        SiteForCookies::FromUrl(GURL("decentr://whatever/")));
     req->Start();
     d.RunUntilComplete();
     EXPECT_NE(std::string::npos,
@@ -3115,7 +3115,7 @@ TEST_P(URLRequestSameSiteCookiesTest, SameSiteCookiesSpecialScheme) {
         http_test_server.GetURL("/echoheader?Cookie"), DEFAULT_PRIORITY, &d,
         TRAFFIC_ANNOTATION_FOR_TESTS));
     req->set_site_for_cookies(
-        SiteForCookies::FromUrl(GURL("chrome://whatever/")));
+        SiteForCookies::FromUrl(GURL("decentr://whatever/")));
     req->Start();
     d.RunUntilComplete();
     EXPECT_EQ(std::string::npos,

@@ -24,7 +24,7 @@ namespace content {
 
 class TracingDelegate;
 
-// The C++ back-end for the chrome://tracing webui page.
+// The C++ back-end for the decentr://tracing webui page.
 class CONTENT_EXPORT TracingUI : public WebUIController {
  public:
   explicit TracingUI(WebUI* web_ui);

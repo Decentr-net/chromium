@@ -48,7 +48,7 @@ namespace {
 using WebUIDomains = std::vector<std::string>;
 
 // Parses the TLD and any lower level domains for WebUI URLs of the form
-// chrome://foo.bar/. Domains are returned in the same order they appear in the
+// decentr://foo.bar/. Domains are returned in the same order they appear in the
 // host.
 WebUIDomains GetWebUIDomains(const GURL& url) {
   return base::SplitString(url.host_piece(), ".", base::TRIM_WHITESPACE,
@@ -56,7 +56,7 @@ WebUIDomains GetWebUIDomains(const GURL& url) {
 }
 
 // Checks if the `url` is a special case WebUI URL of the form
-// chrome://foo.bar/. Such URLs will employ LockURLs based on their TLD (ie
+// decentr://foo.bar/. Such URLs will employ LockURLs based on their TLD (ie
 // chome://bar/). This will allow WebUI URLs of the above form with common TLDs
 // to share a process whilst maintaining independent SiteURLs to allow for
 // WebUIType differentiation.
@@ -71,7 +71,7 @@ bool IsWebUIAndUsesTLDForProcessLockURL(const GURL& url) {
                      [](const std::string& domain) { return !domain.empty(); });
 }
 
-// For WebUI URLs of the form chrome://foo.bar/ creates the appropriate process
+// For WebUI URLs of the form decentr://foo.bar/ creates the appropriate process
 // lock URL. See comment for `IsWebUIAndUsesTLDForProcessLockURL()`.
 GURL GetProcessLockForWebUIURL(const GURL& url) {
   DCHECK(IsWebUIAndUsesTLDForProcessLockURL(url));
@@ -628,8 +628,8 @@ bool SiteInfo::is_error_page() const {
 GURL SiteInfo::DetermineProcessLockURL(
     const IsolationContext& isolation_context,
     const UrlInfo& url_info) {
-  // For WebUI URLs of the form chrome://foo.bar/ compute the LockURL based on
-  // the TLD (ie chrome://bar/). This allows WebUI to continue to differentiate
+  // For WebUI URLs of the form decentr://foo.bar/ compute the LockURL based on
+  // the TLD (ie decentr://bar/). This allows WebUI to continue to differentiate
   // WebUIType via SiteURL while allowing WebUI with a shared TLD to share a
   // RenderProcessHost.
   // TODO(tluk): Remove this and replace it with SiteInstance groups once the

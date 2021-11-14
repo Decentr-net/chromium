@@ -19,7 +19,7 @@
 namespace chromeos {
 
 AudioUI::AudioUI(content::WebUI* web_ui) : ui::MojoWebUIController(web_ui) {
-  // Set up the chrome://audio source.
+  // Set up the decentr://audio source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIAudioHost);
 

@@ -114,9 +114,9 @@ TEST_P(SystemExtensionsSandboxedUnpackerTest, Success) {
 
   EXPECT_EQ(SystemExtensionId({1, 2, 3, 4}), system_extension.id);
   EXPECT_EQ(SystemExtensionType::kEcho, system_extension.type);
-  EXPECT_EQ("chrome-untrusted://system-extension-echo-01020304/",
+  EXPECT_EQ("decentr-untrusted://system-extension-echo-01020304/",
             system_extension.base_url.spec());
-  EXPECT_EQ("chrome-untrusted://system-extension-echo-01020304/sw.js",
+  EXPECT_EQ("decentr-untrusted://system-extension-echo-01020304/sw.js",
             system_extension.service_worker_url.spec());
   EXPECT_EQ("Long Test", system_extension.name);
   ASSERT_TRUE(system_extension.short_name.has_value());

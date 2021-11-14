@@ -9,7 +9,7 @@ the [Network Health and Configuration] team. [Design Doc].
 
 Network diagnostics routines are triggered via the `NetworkDiagnosticsRoutines`
 interface located in [network_diagnostics.mojom]. The interface is currently
-being used by cros_healthd, chrome://network UI, and feedback reports. In order
+being used by cros_healthd, decentr://network UI, and feedback reports. In order
 to run a routine and view the results, a service must first acquire a
 `NetworkDiagnosticsRoutines` Mojo remote from the [NetworkHealthService]. Use
 `GetDiagnosticsRemoteAndBindReceiver()`.

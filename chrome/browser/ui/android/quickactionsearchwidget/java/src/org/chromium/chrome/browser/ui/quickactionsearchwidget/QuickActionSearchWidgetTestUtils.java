@@ -49,7 +49,7 @@ class QuickActionSearchWidgetTestUtils {
     }
 
     /**
-     * Asserts that {@link ChromeTabbedActivity} is launched with the URL chrome://dino after a
+     * Asserts that {@link ChromeTabbedActivity} is launched with the URL decentr://dino after a
      * given {@link Runnable} is ran.
      *
      * @param testRule BaseActivityTestRule used to start an action and monitor for changes.

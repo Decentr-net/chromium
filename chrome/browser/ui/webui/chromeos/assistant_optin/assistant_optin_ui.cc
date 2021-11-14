@@ -67,7 +67,7 @@ GURL CreateAssistantOptInURL(ash::FlowType type) {
 
 AssistantOptInUI::AssistantOptInUI(content::WebUI* web_ui)
     : ui::WebDialogUI(web_ui) {
-  // Set up the chrome://assistant-optin source.
+  // Set up the decentr://assistant-optin source.
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(chrome::kChromeUIAssistantOptInHost);
 

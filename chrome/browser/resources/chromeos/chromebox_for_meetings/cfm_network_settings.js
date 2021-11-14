@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_components/chromeos/network/network_select.m.js';
-import 'chrome://resources/cr_components/chromeos/network/network_list.m.js';
-import 'chrome://resources/js/load_time_data.m.js';
-import 'chrome://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
+import 'decentr://resources/cr_components/chromeos/network/network_select.m.js';
+import 'decentr://resources/cr_components/chromeos/network/network_list.m.js';
+import 'decentr://resources/js/load_time_data.m.js';
+import 'decentr://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
 import './strings.m.js';
 
-import {MojoInterfaceProviderImpl} from 'chrome://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
-import {NetworkList} from 'chrome://resources/cr_components/chromeos/network/network_list_types.m.js';
-import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {MojoInterfaceProviderImpl} from 'decentr://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
+import {NetworkList} from 'decentr://resources/cr_components/chromeos/network/network_list_types.m.js';
+import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {CfmNetworkSettingsBrowserProxy, CfmNetworkSettingsBrowserProxyImpl} from './cfm_network_settings_browser_proxy.js';
 

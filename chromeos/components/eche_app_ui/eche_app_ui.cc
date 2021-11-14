@@ -70,10 +70,10 @@ EcheAppUI::EcheAppUI(content::WebUI* web_ui,
   auto* browser_context = web_ui->GetWebContents()->GetBrowserContext();
   content::WebUIDataSource::Add(browser_context, html_source.release());
 
-  // Add ability to request chrome-untrusted: URLs.
+  // Add ability to request decentr-untrusted: URLs.
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 
-  // Register common permissions for chrome-untrusted:// pages.
+  // Register common permissions for decentr-untrusted:// pages.
   // TODO(https://crbug.com/1113568): Remove this after common permissions are
   // granted by default.
   auto* webui_allowlist = WebUIAllowlist::GetOrCreate(browser_context);

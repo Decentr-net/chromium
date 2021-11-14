@@ -41,7 +41,7 @@ namespace {
 
 struct TestShortcutData shortcut_test_db[] = {
     {"BD85DBA2-8C29-49F9-84AE-48E1E90880F1", "echo echo", "echo echo",
-     "chrome-extension://cedabbhfglmiikkmdgcpjdkocfcmbkee/?q=echo",
+     "decentr-extension://cedabbhfglmiikkmdgcpjdkocfcmbkee/?q=echo",
      AutocompleteMatch::DocumentType::NONE, "Run Echo command: echo", "0,0",
      "Echo", "0,4", ui::PAGE_TRANSITION_TYPED,
      AutocompleteMatchType::EXTENSION_APP_DEPRECATED, "", 1, 1},
@@ -99,7 +99,7 @@ TEST_F(ShortcutsProviderExtensionTest, Extension) {
   // Try an input string that matches an extension URL.
   std::u16string text(u"echo");
   std::string expected_url(
-      "chrome-extension://cedabbhfglmiikkmdgcpjdkocfcmbkee/?q=echo");
+      "decentr-extension://cedabbhfglmiikkmdgcpjdkocfcmbkee/?q=echo");
   ExpectedURLs expected_urls;
   expected_urls.push_back(ExpectedURLAndAllowedToBeDefault(expected_url, true));
   RunShortcutsProviderTest(provider_, text, false, expected_urls, expected_url,

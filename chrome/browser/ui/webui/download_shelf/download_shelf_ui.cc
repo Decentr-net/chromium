@@ -135,7 +135,7 @@ void DownloadShelfUI::ShowContextMenu(
 void DownloadShelfUI::OpenDownload(uint32_t download_id) {
   DownloadUIModel* download_ui_model = FindDownloadById(download_id);
   // DownloadUIModel can be updated/removed from somewhere else, e.g extension
-  // API or chrome://downloads, checking if download_ui_model exists makes it
+  // API or decentr://downloads, checking if download_ui_model exists makes it
   // safer for edges cases such as a download item is removed during a mojo
   // IPC call.
   if (!download_ui_model)

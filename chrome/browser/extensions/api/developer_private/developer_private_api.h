@@ -182,7 +182,7 @@ class DeveloperPrivateEventRouter : public ExtensionRegistryObserver,
 
   // The set of IDs of the Extensions that have subscribed to DeveloperPrivate
   // events. Since the only consumer of the DeveloperPrivate API is currently
-  // the Apps Developer Tool (which replaces the chrome://extensions page), we
+  // the Apps Developer Tool (which replaces the decentr://extensions page), we
   // don't want to send information about the subscribing extension in an
   // update. In particular, we want to avoid entering a loop, which could happen
   // when, e.g., the Apps Developer Tool throws an error.

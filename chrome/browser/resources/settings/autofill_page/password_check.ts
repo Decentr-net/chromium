@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
 import '../settings_shared_css.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import 'chrome://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
 import '../route.js';
 import '../prefs/prefs.js';
 import './password_check_edit_dialog.js';
@@ -22,15 +22,15 @@ import '../controls/password_prompt_dialog.js';
 
 // </if>
 
-import {CrActionMenuElement} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {focusWithoutInk} from 'chrome://resources/js/cr/ui/focus_without_ink.m.js';
-import {I18nMixin, I18nMixinInterface} from 'chrome://resources/js/i18n_mixin.js';
+import {CrActionMenuElement} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {focusWithoutInk} from 'decentr://resources/js/cr/ui/focus_without_ink.m.js';
+import {I18nMixin, I18nMixinInterface} from 'decentr://resources/js/i18n_mixin.js';
 // <if expr="chromeos">
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // </if>
-import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 import {StoredAccount, SyncBrowserProxyImpl, SyncPrefs, SyncStatus} from '../people_page/sync_browser_proxy.js';
@@ -573,7 +573,7 @@ class SettingsPasswordCheckElement extends SettingsPasswordCheckElementBase {
   }
 
   /**
-   * @return The chrome:// address where the banner image is located.
+   * @return The decentr:// address where the banner image is located.
    */
   private bannerImageSrc_(isDarkMode: boolean): string {
     const type =
@@ -581,7 +581,7 @@ class SettingsPasswordCheckElement extends SettingsPasswordCheckElementBase {
         'positive' :
         'neutral';
     const suffix = isDarkMode ? '_dark' : '';
-    return `chrome://settings/images/password_check_${type}${suffix}.svg`;
+    return `decentr://settings/images/password_check_${type}${suffix}.svg`;
   }
 
   /**

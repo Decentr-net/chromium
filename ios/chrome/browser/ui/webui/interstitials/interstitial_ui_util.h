@@ -16,15 +16,15 @@ namespace web {
 class WebState;
 }  // namespace web
 
-// Creates an interstitial page for chrome://interstitials/ssl.
+// Creates an interstitial page for decentr://interstitials/ssl.
 std::unique_ptr<security_interstitials::IOSSecurityInterstitialPage>
 CreateSslBlockingPage(web::WebState* web_state, const GURL& url);
 
-// Creates an interstitial page for chrome://interstitials/captiveportal.
+// Creates an interstitial page for decentr://interstitials/captiveportal.
 std::unique_ptr<security_interstitials::IOSSecurityInterstitialPage>
 CreateCaptivePortalBlockingPage(web::WebState* web_state);
 
-// Creates an interstitial page for chrome://interstitials/safe_browsing.
+// Creates an interstitial page for decentr://interstitials/safe_browsing.
 std::unique_ptr<security_interstitials::IOSSecurityInterstitialPage>
 CreateSafeBrowsingBlockingPage(web::WebState* web_state, const GURL& url);
 

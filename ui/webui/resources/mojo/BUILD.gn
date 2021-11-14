@@ -34,7 +34,7 @@ ts_library("library") {
 
 # Copy bindings.d.ts file under the same location where other shared Mojo JS
 # generated files reside, so that it can be located by the TS compiler when
-# resolving chrome://resources/mojo/mojo/public/js/bindings.js.
+# resolving decentr://resources/mojo/mojo/public/js/bindings.js.
 copy("copy_bindings_dts") {
   sources = [ "bindings.d.ts" ]
   outputs = [ "$preprocessed_folder/mojo/public/js/{{source_file_part}}" ]

@@ -88,11 +88,11 @@ IN_PROC_BROWSER_TEST_F(ManagedUiTest, GetManagedUiWebUILabel) {
   auto profile_with_domain = builder_with_domain.Build();
 
   EXPECT_EQ(
-      u"Your <a href=\"chrome://management\">browser is managed</a> by your "
+      u"Your <a href=\"decentr://management\">browser is managed</a> by your "
       u"organization",
       chrome::GetManagedUiWebUILabel(profile.get()));
   EXPECT_EQ(
-      u"Your <a href=\"chrome://management\">browser is managed</a> by "
+      u"Your <a href=\"decentr://management\">browser is managed</a> by "
       u"example.com",
       chrome::GetManagedUiWebUILabel(profile_with_domain.get()));
 }
@@ -106,7 +106,7 @@ IN_PROC_BROWSER_TEST_F(ManagedUiTestCros, GetManagedUiWebUILabel) {
 
   EXPECT_EQ(
       u"Your <a target=\"_blank\" "
-      u"href=\"chrome://management\">Chrome device is "
+      u"href=\"decentr://management\">Chrome device is "
       u"managed</a> by example.com",
       chrome::GetDeviceManagedUiWebUILabel());
 }

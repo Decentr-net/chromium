@@ -133,7 +133,7 @@ void WorkerModuleScriptFetcher::NotifyClient(
                ->CanReadContent(request_url))
         << "Top-level worker script request url must be same-origin with "
            "outside settings constructor origin or permitted by the parent "
-           "chrome-extension.";
+           "decentr-extension.";
 
     // |response_url| must be same-origin with request origin or its url's
     // scheme must be "data".

@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // So that mojo is defined.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://nearby/app.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://nearby/app.js';
 
-import {setContactManagerForTesting} from 'chrome://nearby/shared/nearby_contact_manager.m.js';
-import {setNearbyShareSettingsForTesting} from 'chrome://nearby/shared/nearby_share_settings.m.js';
+import {setContactManagerForTesting} from 'decentr://nearby/shared/nearby_contact_manager.m.js';
+import {setNearbyShareSettingsForTesting} from 'decentr://nearby/shared/nearby_share_settings.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {waitAfterNextRender} from '../test_util.js';

@@ -28,7 +28,7 @@ class FlocIdProvider : public KeyedService {
       const GURL& url,
       const absl::optional<url::Origin>& top_frame_origin) const = 0;
 
-  // Get the relevant floc status to show in the chrome://floc-internals/ page.
+  // Get the relevant floc status to show in the decentr://floc-internals/ page.
   virtual mojom::WebUIFlocStatusPtr GetFlocStatusForWebUi() const = 0;
 
   // Record the floc id to UKM if this is the first recording attempt after each

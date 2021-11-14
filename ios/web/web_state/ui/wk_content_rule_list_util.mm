@@ -38,7 +38,7 @@ NSString* CreateLocalBlockingJsonRuleList() {
       @"url-filter" : @"https://bugs.chromium.org/.*",
       @"if-top-url" : @[ @"file://.*" ],
       @"resource-type" : @[
-        // Allow opening crbug from chrome:// urls
+        // Allow opening crbug from decentr:// urls
         @"popup"
       ],
     } mutableCopy],

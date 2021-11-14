@@ -96,7 +96,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldRecordNumberOfTiles) {
   base::HistogramTester histogram_tester;
 
   // Ensure non-zero statistics.
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   const base::TimeDelta delta = base::Milliseconds(73);
 
@@ -130,12 +130,12 @@ TEST_F(NTPUserDataLoggerTest, ShouldRecordPreinstalledApps) {
 
   // Impressions increment the associated bins.
   // Ensure non-zero statistics.
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   const base::TimeDelta delta = base::Milliseconds(73);
 
   GURL gmail_extension_url(
-      "chrome-extension://pjkljhegncpnkpknbcohdijeoejaedia/index.html");
+      "decentr-extension://pjkljhegncpnkpknbcohdijeoejaedia/index.html");
   logger.LogMostVisitedImpression(
       MakeNTPTileImpression(0, TileSource::TOP_SITES, TileTitleSource::INFERRED,
                             TileVisualType::ICON_REAL, gmail_extension_url));
@@ -161,7 +161,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldRecordPreinstalledApps) {
 }
 
 TEST_F(NTPUserDataLoggerTest, ShouldNotRecordImpressionsBeforeAllTilesLoaded) {
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   base::HistogramTester histogram_tester;
 
@@ -187,7 +187,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldNotRecordImpressionsBeforeAllTilesLoaded) {
 }
 
 TEST_F(NTPUserDataLoggerTest, ShouldRecordImpressions) {
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   base::HistogramTester histogram_tester;
 
@@ -265,7 +265,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldRecordImpressions) {
 }
 
 TEST_F(NTPUserDataLoggerTest, ShouldNotRecordRepeatedImpressions) {
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   base::HistogramTester histogram_tester;
 
@@ -320,7 +320,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldNotRecordRepeatedImpressions) {
 }
 
 TEST_F(NTPUserDataLoggerTest, ShouldNotRecordImpressionsForBinsBeyondMax) {
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   base::HistogramTester histogram_tester;
 
@@ -366,7 +366,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldNotRecordImpressionsForBinsBeyondMax) {
 }
 
 TEST_F(NTPUserDataLoggerTest, ShouldRecordNavigations) {
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   {
     base::HistogramTester histogram_tester;
@@ -513,7 +513,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldRecordNavigations) {
 TEST_F(NTPUserDataLoggerTest, ShouldRecordMostVisitedLoadTime) {
   base::HistogramTester histogram_tester;
 
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   base::TimeDelta delta_tiles_loaded = base::Milliseconds(100);
 
@@ -549,7 +549,7 @@ TEST_F(NTPUserDataLoggerTest, ShouldRecordImpressionsAge) {
   base::HistogramTester histogram_tester;
 
   // Ensure non-zero statistics.
-  TestNTPUserDataLogger logger(GURL("chrome://newtab/"));
+  TestNTPUserDataLogger logger(GURL("decentr://newtab/"));
 
   constexpr base::TimeDelta delta = base::Milliseconds(0);
 

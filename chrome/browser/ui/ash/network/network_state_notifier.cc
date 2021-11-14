@@ -160,11 +160,11 @@ bool IsSimLockConnectionFailure(const std::string& connection_error_name,
 }  // namespace
 
 const char NetworkStateNotifier::kNetworkConnectNotificationId[] =
-    "chrome://settings/internet/connect";
+    "decentr://settings/internet/connect";
 const char NetworkStateNotifier::kNetworkActivateNotificationId[] =
-    "chrome://settings/internet/activate";
+    "decentr://settings/internet/activate";
 const char NetworkStateNotifier::kNetworkOutOfCreditsNotificationId[] =
-    "chrome://settings/internet/out-of-credits";
+    "decentr://settings/internet/out-of-credits";
 
 NetworkStateNotifier::NetworkStateNotifier() {
   if (!NetworkHandler::IsInitialized())

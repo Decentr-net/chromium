@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {dispatchPropertyChange} from 'chrome://resources/js/cr.m.js';
-import {Command} from 'chrome://resources/js/cr/ui/command.m.js';
+import {dispatchPropertyChange} from 'decentr://resources/js/cr.m.js';
+import {Command} from 'decentr://resources/js/cr/ui/command.m.js';
 
 /**
  * Sets 'hidden' property of a Command instance and dispatches

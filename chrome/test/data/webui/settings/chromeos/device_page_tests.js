@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
-// #import 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
+// #import 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
-// #import {setDisplayApiForTesting, Router, routes, DevicePageBrowserProxyImpl, IdleBehavior, NoteAppLockScreenSupport, LidClosedBehavior, StorageSpaceState} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {setDisplayApiForTesting, Router, routes, DevicePageBrowserProxyImpl, IdleBehavior, NoteAppLockScreenSupport, LidClosedBehavior, StorageSpaceState} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {FakeSystemDisplay} from './fake_system_display.m.js';
-// #import {assert} from 'chrome://resources/js/assert.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
-// #import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-// #import {flushTasks} from 'chrome://test/test_util.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
+// #import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+// #import {flushTasks} from 'decentr://test/test_util.js';
 // clang-format on
 
 cr.define('device_page_tests', function() {

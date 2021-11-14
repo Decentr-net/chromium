@@ -183,7 +183,7 @@ class FakeContainerWrapper : public PdfViewWebPlugin::ContainerWrapper {
   MOCK_METHOD(void, UpdateSelectionBounds, (), (override));
 
   std::string GetEmbedderOriginString() override {
-    return "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/";
+    return "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/";
   }
 
   blink::WebLocalFrame* GetFrame() override { return nullptr; }

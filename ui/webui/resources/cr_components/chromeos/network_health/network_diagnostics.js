@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/js/load_time_data.m.js';
+// #import 'decentr://resources/js/load_time_data.m.js';
 // clang-format on
 
 /**

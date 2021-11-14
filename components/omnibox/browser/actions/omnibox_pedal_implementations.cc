@@ -42,7 +42,7 @@ class OmniboxPedalClearBrowsingData : public OmniboxPedal {
                 IDS_OMNIBOX_PEDAL_CLEAR_BROWSING_DATA_SUGGESTION_CONTENTS,
                 IDS_ACC_OMNIBOX_PEDAL_CLEAR_BROWSING_DATA_SUFFIX,
                 IDS_ACC_OMNIBOX_PEDAL_CLEAR_BROWSING_DATA),
-            GURL("chrome://settings/clearBrowserData")),
+            GURL("decentr://settings/clearBrowserData")),
         incognito_(incognito) {}
 
   std::vector<SynonymGroupSpec> SpecifySynonymGroups() const override {
@@ -97,7 +97,7 @@ class OmniboxPedalManagePasswords : public OmniboxPedal {
                          IDS_OMNIBOX_PEDAL_MANAGE_PASSWORDS_SUGGESTION_CONTENTS,
                          IDS_ACC_OMNIBOX_PEDAL_MANAGE_PASSWORDS_SUFFIX,
                          IDS_ACC_OMNIBOX_PEDAL_MANAGE_PASSWORDS),
-            GURL("chrome://settings/passwords")) {}
+            GURL("decentr://settings/passwords")) {}
 
   std::vector<SynonymGroupSpec> SpecifySynonymGroups() const override {
     return {
@@ -137,7 +137,7 @@ class OmniboxPedalUpdateCreditCard : public OmniboxPedal {
                 IDS_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_SUGGESTION_CONTENTS,
                 IDS_ACC_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_SUFFIX,
                 IDS_ACC_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD),
-            GURL("chrome://settings/payments")) {}
+            GURL("decentr://settings/payments")) {}
 
   std::vector<SynonymGroupSpec> SpecifySynonymGroups() const override {
     return {
@@ -177,7 +177,7 @@ class OmniboxPedalLaunchIncognito : public OmniboxPedal {
                          IDS_ACC_OMNIBOX_PEDAL_LAUNCH_INCOGNITO_SUFFIX,
                          IDS_ACC_OMNIBOX_PEDAL_LAUNCH_INCOGNITO),
             // Fake URL to distinguish matches.
-            GURL("chrome://newtab?incognito=true")) {}
+            GURL("decentr://newtab?incognito=true")) {}
 
   std::vector<SynonymGroupSpec> SpecifySynonymGroups() const override {
     return {
@@ -226,7 +226,7 @@ class OmniboxPedalTranslate : public OmniboxPedal {
                          IDS_ACC_OMNIBOX_PEDAL_TRANSLATE_SUFFIX,
                          IDS_ACC_OMNIBOX_PEDAL_TRANSLATE),
             // Fake URL to distinguish matches.
-            GURL("chrome://translate/pedals")) {}
+            GURL("decentr://translate/pedals")) {}
 
   std::vector<SynonymGroupSpec> SpecifySynonymGroups() const override {
     return {
@@ -257,7 +257,7 @@ class OmniboxPedalTranslate : public OmniboxPedal {
   bool IsReadyToTrigger(
       const AutocompleteInput& input,
       const AutocompleteProviderClient& client) const override {
-    // Built-in chrome:// URLs do not generally support translation, and the
+    // Built-in decentr:// URLs do not generally support translation, and the
     // translate UI does not yet inform users with a clear helpful error message
     // when requesting translation for a page that doesn't support translation,
     // so this is a quick early-out to prevent bad message crashes.
@@ -281,7 +281,7 @@ class OmniboxPedalUpdateChrome : public OmniboxPedal {
                          IDS_OMNIBOX_PEDAL_UPDATE_CHROME_SUGGESTION_CONTENTS,
                          IDS_ACC_OMNIBOX_PEDAL_UPDATE_CHROME_SUFFIX,
                          IDS_ACC_OMNIBOX_PEDAL_UPDATE_CHROME),
-            GURL("chrome://settings/help")) {}
+            GURL("decentr://settings/help")) {}
 
   std::vector<SynonymGroupSpec> SpecifySynonymGroups() const override {
     return {
@@ -1050,7 +1050,7 @@ class OmniboxPedalPlayChromeDinoGame : public OmniboxPedal {
                 IDS_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_SUGGESTION_CONTENTS,
                 IDS_ACC_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_SUFFIX,
                 IDS_ACC_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME),
-            GURL("chrome://dino")) {}
+            GURL("decentr://dino")) {}
 
 #if SUPPORTS_DESKTOP_ICONS
   const gfx::VectorIcon& GetVectorIcon() const override {

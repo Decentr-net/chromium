@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-This file aggregates resource GRDPs for developer-facing chrome:// pages
+This file aggregates resource GRDPs for developer-facing decentr:// pages
 (DevUI pages) under /components. This is needed by the Developer WebUI Dynamic
 Feature Module (DevUI DFM) for Android Chrome. More info:
 * User-facing resources should be aggregated in components_resources.grd.

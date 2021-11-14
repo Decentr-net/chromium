@@ -9,7 +9,7 @@
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The implementation for the chrome://sync-internals page.
+// The implementation for the decentr://sync-internals page.
 class SyncInternalsUI : public content::WebUIController {
  public:
   explicit SyncInternalsUI(content::WebUI* web_ui);

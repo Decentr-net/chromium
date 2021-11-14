@@ -48,7 +48,7 @@ storage::FileSystemURL CreateFileSystemURL(
     Profile* profile,
     const ProvidedFileSystemInfo& file_system_info,
     const base::FilePath& file_path) {
-  const std::string origin = std::string("chrome-extension://") + kExtensionId;
+  const std::string origin = std::string("decentr-extension://") + kExtensionId;
   const base::FilePath mount_path = file_system_info.mount_path();
   const storage::ExternalMountPoints* const mount_points =
       storage::ExternalMountPoints::GetSystemInstance();

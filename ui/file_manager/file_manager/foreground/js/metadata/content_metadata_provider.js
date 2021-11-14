@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ImageLoaderClient} from 'chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp/image_loader_client.js';
-import {LoadImageRequest, LoadImageResponseStatus} from 'chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp/load_image_request.js';
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
+import {ImageLoaderClient} from 'decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp/image_loader_client.js';
+import {LoadImageRequest, LoadImageResponseStatus} from 'decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp/load_image_request.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
 
 import {FileType} from '../../../common/js/file_type.js';
 import {util} from '../../../common/js/util.js';

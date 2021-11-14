@@ -23,7 +23,7 @@ DomainReliabilityInternalsUI::DomainReliabilityInternalsUI(
       chrome::kChromeUIDomainReliabilityInternalsHost);
   html_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   html_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::TrustedTypes,
       "trusted-types jstemplate;");

@@ -1,7 +1,7 @@
 
-<link rel="import" href="chrome://resources/html/polymer.html">
+<link rel="import" href="decentr://resources/html/polymer.html">
 
-<link rel="import" href="chrome://resources/polymer/v1_0/paper-styles/color.html">
+<link rel="import" href="decentr://resources/polymer/v1_0/paper-styles/color.html">
 
 <link rel="import" href="../../components/hd_iron_icon.html">
 <link rel="import" href="../../components/oobe_icons.html">
@@ -88,7 +88,7 @@
                 icon2x="oobe-40:hid-touchscreen">
             </hd-iron-icon>
             <img id="touchscreen-tick" alt=""
-                src="chrome://theme/IDR_BLUETOOTH_PAIRING_TICK">
+                src="decentr://theme/IDR_BLUETOOTH_PAIRING_TICK">
             <div id="touchscreen-label" aria-live="polite">
                 [[i18nDynamic(locale, 'hidDetectionTouchscreenDetected')]]
             </div>
@@ -101,7 +101,7 @@
             </hd-iron-icon>
             <img id="mouse-tick" alt=""
                 hidden="[[!tickIsVisible_(mouseState_)]]"
-                src="chrome://theme/IDR_BLUETOOTH_PAIRING_TICK">
+                src="decentr://theme/IDR_BLUETOOTH_PAIRING_TICK">
             <div id="mouse-label" aria-live="polite" class="flex">
               [[getMouseLabel_(locale, mouseState_, pointingDeviceName)]]
             </div>
@@ -118,7 +118,7 @@
             </hd-iron-icon>
             <img id="keyboard-tick" alt=""
                 hidden="[[!tickIsVisible_(keyboardState_)]]"
-                src="chrome://theme/IDR_BLUETOOTH_PAIRING_TICK">
+                src="decentr://theme/IDR_BLUETOOTH_PAIRING_TICK">
             <div id="keyboard-label" aria-live="polite" class="flex">
               [[getKeyboardLabel_(locale, keyboardState_, keyboardDeviceName)]]
             </div>

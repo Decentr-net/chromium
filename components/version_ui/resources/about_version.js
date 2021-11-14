@@ -7,12 +7,12 @@
 // asynchronously by the host.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
 import './strings.m.js';
-import {addWebUIListener, sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener, sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 /**
  * Promise resolution handler for variations list and command line equivalent.

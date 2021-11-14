@@ -75,11 +75,11 @@ void LaunchSystemWebApp(Profile* profile,
   // Use hash mark(#) to send params to webui so we don't need to reload the
   // whole eche window.
   if (notification_id.has_value()) {
-    url = u"chrome://eche-app/#notification_id=";
+    url = u"decentr://eche-app/#notification_id=";
     url.append(base::NumberToString16(notification_id.value()));
     url.append(u"&package_name=");
   } else {
-    url = u"chrome://eche-app/#package_name=";
+    url = u"decentr://eche-app/#package_name=";
   }
   std::u16string u16_package_name = base::UTF8ToUTF16(package_name);
   url.append(u16_package_name);

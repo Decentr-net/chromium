@@ -30,8 +30,8 @@ struct ProcessMemoryInformation {
   enum RendererProcessType {
     RENDERER_UNKNOWN = 0,
     RENDERER_NORMAL,
-    RENDERER_CHROME,        // WebUI (chrome:// URL)
-    RENDERER_EXTENSION,     // chrome-extension://
+    RENDERER_CHROME,        // WebUI (decentr:// URL)
+    RENDERER_EXTENSION,     // decentr-extension://
     RENDERER_DEVTOOLS,      // Web inspector
     RENDERER_INTERSTITIAL,  // malware/phishing interstitial
     RENDERER_BACKGROUND_APP // hosted app background page

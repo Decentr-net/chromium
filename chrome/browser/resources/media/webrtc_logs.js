@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 import './strings.m.js';
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$, appendParam} from 'chrome://resources/js/util.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$, appendParam} from 'decentr://resources/js/util.m.js';
 
 /**
  * Requests the list of WebRTC logs from the backend.

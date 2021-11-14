@@ -46,7 +46,7 @@ void NearbyInternalsPrefsHandler::HandleClearNearbyPrefs(
   pref_service_->ClearPrefsWithPrefixSilently(kNearbySharingPrefPrefix);
 
   // Add log message so users who trigger the Clear Pref button on
-  // chrome://nearby-internals know that the Nearby prefs have been cleared.
+  // decentr://nearby-internals know that the Nearby prefs have been cleared.
   NS_LOG(INFO)
       << "Nearby Share has been disabled and Nearby prefs have been cleared.";
 }

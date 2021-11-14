@@ -237,13 +237,13 @@ content::WebUIDataSource* CreateWebUIDataSource(Profile* profile) {
                         .spec());
 
   source->OverrideContentSecurityPolicy(
-      network::mojom::CSPDirectiveName::FrameSrc, "frame-src chrome://test/;");
+      network::mojom::CSPDirectiveName::FrameSrc, "frame-src decentr://test/;");
 #endif
 
   return source;
 }
 
-// Returns whether |url| can be displayed in a chrome://chrome-signin web
+// Returns whether |url| can be displayed in a decentr://chrome-signin web
 // contents, depending on the signin reason that is encoded in the url.
 bool IsValidChromeSigninReason(const GURL& url) {
 #if BUILDFLAG(IS_CHROMEOS_ASH)

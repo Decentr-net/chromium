@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {PrivacyReviewHistorySyncFragmentElement, SettingsPrivacyReviewPageElement} from 'chrome://settings/lazy_load.js';
-import {Route, Router, routes, SyncBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestSyncBrowserProxy} from 'chrome://test/settings/test_sync_browser_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {PrivacyReviewHistorySyncFragmentElement, SettingsPrivacyReviewPageElement} from 'decentr://settings/lazy_load.js';
+import {Route, Router, routes, SyncBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestSyncBrowserProxy} from 'decentr://test/settings/test_sync_browser_proxy.js';
 
 import {assertEquals} from '../chai_assert.js';
 import {flushTasks, isChildVisible} from '../test_util.js';

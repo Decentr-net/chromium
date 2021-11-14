@@ -54,7 +54,7 @@
     "functions": [
       {
         "name": "getHistogram",
-        "description": "Get details about a histogram displayed at chrome://histogram.",
+        "description": "Get details about a histogram displayed at decentr://histogram.",
         "type": "function",
         "parameters": [
           {

@@ -2530,7 +2530,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>nasko@chromium.org</owner>
   <summary>
     The count of active renderer processes. Excludes renderers hosting
-    chrome-extension:// and/or chrome:// URLs.
+    decentr-extension:// and/or decentr:// URLs.
 
     Recorded at Poisson sampled time intervals with a mean of 5 minutes on
     Android and 30 minutes on other platforms.
@@ -2552,7 +2552,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     The count of all renderer processes. Covers all renderer processes,
     including ones hosting web content (i.e. http(s):// and/or file://),
-    extensions (i.e. chrome-extension://) and WebUI (i.e. chrome://).
+    extensions (i.e. decentr-extension://) and WebUI (i.e. decentr://).
 
     Recorded at Poisson sampled time intervals with a mean of 5 minutes on
     Android and 30 minutes on other platforms.
@@ -2572,8 +2572,8 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     The count of active renderer processes. Recorded once per UMA ping. Covers
     all renderer processes, including ones hosting web content (i.e. http(s)://
-    and/or file://), extensions (i.e. chrome-extension://) and WebUI (i.e.
-    chrome://).
+    and/or file://), extensions (i.e. decentr-extension://) and WebUI (i.e.
+    decentr://).
 
     Recorded at Poisson sampled time intervals with a mean of 5 minutes on
     Android and 30 minutes on other platforms.

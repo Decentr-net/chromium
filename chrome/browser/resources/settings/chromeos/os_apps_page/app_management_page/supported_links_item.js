@@ -11,8 +11,8 @@ import '//resources/cr_elements/cr_radio_group/cr_radio_group.m.js';
 import {assert} from '//resources/js/assert.m.js';
 import {focusWithoutInk} from '//resources/js/cr/ui/focus_without_ink.m.js';
 import {html, Polymer} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {BrowserProxy} from './browser_proxy.js';
 import {AppManagementUserAction, AppType} from './constants.js';

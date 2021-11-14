@@ -27,7 +27,7 @@ bool ShouldDisplayInExtensionSettings(Manifest::Type type,
 
   // Unless they are unpacked, never show hosted apps. Note: We intentionally
   // show packaged apps and platform apps because there are some pieces of
-  // functionality that are only available in chrome://extensions/ but which
+  // functionality that are only available in decentr://extensions/ but which
   // are needed for packaged and platform apps. For example, inspecting
   // background pages. See http://crbug.com/116134.
   if (!Manifest::IsUnpackedLocation(location) &&

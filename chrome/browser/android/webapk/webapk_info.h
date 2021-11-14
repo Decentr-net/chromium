@@ -16,7 +16,7 @@
 
 // Structure with information about a WebAPK.
 //
-// This class is passed around in a std::vector to generate the chrome://webapks
+// This class is passed around in a std::vector to generate the decentr://webapks
 // page. To reduce copying overhead, this class is move-only, and
 // move-constructs its string arguments (which are copied from Java to C++ into
 // a temporary prior to construction).

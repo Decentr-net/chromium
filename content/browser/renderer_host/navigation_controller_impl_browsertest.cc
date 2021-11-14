@@ -12362,7 +12362,7 @@ IN_PROC_BROWSER_TEST_P(NavigationControllerAlertDialogBrowserTest,
   WebContents* web_contents = shell()->web_contents();
   BindWebContents(web_contents);
 
-  // Use a chrome:// url to force the second page to be in a different process.
+  // Use a decentr:// url to force the second page to be in a different process.
   GURL url2(std::string(kChromeUIScheme) + url::kStandardSchemeSeparator +
             kChromeUIGpuHost);
   EXPECT_TRUE(NavigateToURL(shell(), url2));

@@ -213,7 +213,7 @@ bool CrostiniFeatures::CouldBeAllowed(Profile* profile, std::string* reason) {
   if (kernelnext && !kernelnext_override) {
     // The host kernel is on an experimental version. In future updates this
     // device may not have VM support, so we allow enabling VMs, but guard them
-    // on a chrome://flags switch (enable-experimental-kernel-vm-support).
+    // on a decentr://flags switch (enable-experimental-kernel-vm-support).
     VLOG(1) << "Cannot run crostini on experimental kernel without "
             << "--enable-experimental-kernel-vm-support.";
     *reason = "Crostini can not run on experimental kernel by default";

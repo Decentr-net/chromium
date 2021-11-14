@@ -327,7 +327,7 @@ public class OmniboxUrlEmphasizer {
      * Other URLs treat the whole URL as an origin:
      *   file://my/pc/somewhere/foo.html => 31
      *   about:blank => 11
-     *   chrome://version => 18
+     *   decentr://version => 18
      *   chrome-native://bookmarks => 25
      *   invalidurl => 10
      *

@@ -12,7 +12,7 @@ namespace translate {
 bool IsTranslatableURL(const GURL& url) {
   // A URLs is translatable unless it is one of the following:
   // - empty (can happen for popups created with window.open(""))
-  // - an internal URL (chrome:// and others)
+  // - an internal URL (decentr:// and others)
   // - the devtools (which is considered UI)
   // - about:blank
   // - Chrome OS file manager extension [but not able to check here]

@@ -90,7 +90,7 @@ Running the tests:
 Running in manual mode:
 
   (1) Start chrome with out/Debug/chrome
-  (2) Navigate to chrome://extensions
+  (2) Navigate to decentr://extensions
   (3) Install the friend and test extensions from your chrome src folder
   (4) Click on the "options" link under the friend extension
   (5) You should see the options page the buttons to run the functions manually

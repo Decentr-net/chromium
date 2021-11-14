@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {cookieInfo, LocalDataBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {MetricsBrowserProxyImpl, PrivacyElementInteractions, Router,routes} from 'chrome://settings/settings.js';
-import {TestLocalDataBrowserProxy} from 'chrome://test/settings/test_local_data_browser_proxy.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {cookieInfo, LocalDataBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {MetricsBrowserProxyImpl, PrivacyElementInteractions, Router,routes} from 'decentr://settings/settings.js';
+import {TestLocalDataBrowserProxy} from 'decentr://test/settings/test_local_data_browser_proxy.js';
 
 import {flushTasks} from '../test_util.js';
 

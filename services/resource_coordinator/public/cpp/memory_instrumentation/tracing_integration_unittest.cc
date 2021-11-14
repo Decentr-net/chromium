@@ -343,7 +343,7 @@ TEST_F(MemoryTracingIntegrationTest, TestBackgroundTracingSetup) {
 }
 
 // This test (and the TraceConfigExpectationsWhenIsCoordinator below)
-// crystallizes the expectations of the chrome://tracing UI and chrome telemetry
+// crystallizes the expectations of the decentr://tracing UI and chrome telemetry
 // w.r.t. periodic dumps in memory-infra, handling gracefully the transition
 // between the legacy and the new-style (JSON-based) TraceConfig.
 TEST_F(MemoryTracingIntegrationTest, TraceConfigExpectations) {
@@ -379,7 +379,7 @@ TEST_F(MemoryTracingIntegrationTest, TraceConfigExpectationsWhenIsCoordinator) {
 
   // Enabling memory-infra with the new (JSON) TraceConfig in a coordinator
   // process while specifying a "memory_dump_config" section should enable
-  // periodic dumps. This is to preserve the behavior chrome://tracing UI, that
+  // periodic dumps. This is to preserve the behavior decentr://tracing UI, that
   // is: ticking memory-infra should dump periodically with an explicit config.
   EnableMemoryInfraTracingWithTraceConfig(
       base::trace_event::TraceConfigMemoryTestUtil::

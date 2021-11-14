@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {$, hasKeyModifiers, isRTL} from 'chrome://resources/js/util.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {$, hasKeyModifiers, isRTL} from 'decentr://resources/js/util.m.js';
 
 import {FittingType, Point} from './constants.js';
 import {Gesture, GestureDetector, PinchEventDetail} from './gesture_detector.js';

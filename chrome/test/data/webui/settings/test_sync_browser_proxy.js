@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {PageStatus, StoredAccount, SyncBrowserProxy, SyncStatus} from 'chrome://settings/settings.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {PageStatus, StoredAccount, SyncBrowserProxy, SyncStatus} from 'decentr://settings/settings.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 // clang-format on

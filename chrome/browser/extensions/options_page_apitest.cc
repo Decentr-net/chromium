@@ -22,7 +22,7 @@
 namespace extensions {
 
 // Test that an extension with an options page makes an 'Options' button appear
-// on chrome://extensions, and that clicking the button opens a new tab with the
+// on decentr://extensions, and that clicking the button opens a new tab with the
 // extension's options page.
 IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest, OptionsPage) {
   TestExtensionDir extension_dir;
@@ -42,12 +42,12 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest, OptionsPage) {
 
   // Go to the Extension Settings page and click the button.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://extensions?id=" + extension->id())));
+      browser(), GURL("decentr://extensions?id=" + extension->id())));
   TabStripModel* tab_strip = browser()->tab_strip_model();
   ui_test_utils::TabAddedWaiter tab_add(browser());
 
   // Used to simulate a click on the 'Extension options' link.
-  // NOTE: This relies on the layout of the chrome://extensions page, and may
+  // NOTE: This relies on the layout of the decentr://extensions page, and may
   // need to be updated if that layout changes.
   static constexpr char kScriptClickOptionButton[] = R"(
     (function() {
@@ -67,7 +67,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest, OptionsPage) {
             tab->GetLastCommittedURL());
 }
 
-// Tests that navigating directly to chrome://extensions?options=<id> to an
+// Tests that navigating directly to decentr://extensions?options=<id> to an
 // extension with an embedded options page loads that extension's options page.
 IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
                        LoadChromeExtensionsWithOptionsParamWhenEmbedded) {
@@ -93,7 +93,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
       InstallExtension(extension_dir.Pack(), 1);
   ASSERT_TRUE(extension.get());
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://extensions?options=" + extension->id())));
+      browser(), GURL("decentr://extensions?options=" + extension->id())));
   ASSERT_TRUE(listener.WaitUntilSatisfied());
   ASSERT_EQ("embedded", listener.message());
 }

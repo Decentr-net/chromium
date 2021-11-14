@@ -20,7 +20,7 @@ namespace syncer {
 // are modelled by {GetUpdates, Commit}x{Request,Response} objects.
 //
 // These objects are intended to be used for displaying information on
-// chrome://sync-internals.  They should be considered to be immutable and
+// decentr://sync-internals.  They should be considered to be immutable and
 // opaque.  No program behavior should depend on their contents.
 //
 // Each type of request can maintain its own set of additional metadata and have

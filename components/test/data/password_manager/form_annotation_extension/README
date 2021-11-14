@@ -3,7 +3,7 @@ This extension generates Python scripts for testing form classifier in Chrome.
 0. Set the list of sites to be visited in "sites_to_visit.js" and the value of
 IS_PWD_CREATION_VALUE in "background.js".
 1. Install the extension into Chrome as an unpacked extension on 
-chrome://extensions (don't forget to turn on "Developer mode" on this page).
+decentr://extensions (don't forget to turn on "Developer mode" on this page).
 2. Open background page. Open the Console in Developer tools on the
 background page.
 3. Back to the main window and click on the extension icon that is on the right

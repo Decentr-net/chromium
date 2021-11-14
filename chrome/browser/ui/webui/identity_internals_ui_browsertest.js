@@ -25,7 +25,7 @@ BaseIdentityInternalsWebUITest.prototype = {
   /**
    * Browse to the downloads page & call our preLoad().
    */
-  browsePreload: 'chrome://identity-internals',
+  browsePreload: 'decentr://identity-internals',
 
   /** @override */
   typedefCppFixture: 'IdentityInternalsUIBrowserTest',
@@ -115,7 +115,7 @@ BaseIdentityInternalsWebUITest.prototype = {
   },
 };
 
-// Test verifying chrome://identity-internals Web UI when the token cache is
+// Test verifying decentr://identity-internals Web UI when the token cache is
 // empty.
 TEST_F('BaseIdentityInternalsWebUITest', 'emptyTokenCache', function() {
   const tokenListEntries = this.getTokens();

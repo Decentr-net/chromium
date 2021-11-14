@@ -20,7 +20,7 @@ class GURL;
 //
 // <url-pattern> := <scheme>://<host><port><path> | '<all_urls>'
 // <scheme> := '*' | 'http' | 'https' | 'file' | 'ftp' | 'chrome' |
-//             'chrome-extension' | 'filesystem'
+//             'decentr-extension' | 'filesystem'
 // <host> := '*' | <IPv4 address> | [<IPv6 address>] |
 //           '*.' <anychar except '/' and '*'>+
 // <port> := [':' ('*' | <port number between 0 and 65535>)]
@@ -46,7 +46,7 @@ class GURL;
 // - http://foo.*.bar/baz -- * must be first component
 // - http:/bar -- scheme separator not found
 // - foo://* -- invalid scheme
-// - chrome:// -- we don't support chrome internal URLs
+// - decentr:// -- we don't support chrome internal URLs
 class URLPattern {
  public:
   // A collection of scheme bitmasks for use with valid_schemes.
@@ -65,7 +65,7 @@ class URLPattern {
     SCHEME_URN = 1 << 10,
 
     // IMPORTANT!
-    // SCHEME_ALL will match every scheme, including chrome://, chrome-
+    // SCHEME_ALL will match every scheme, including decentr://, chrome-
     // extension://, about:, etc. Because this has lots of security
     // implications, third-party extensions should usually not be able to get
     // access to URL patterns initialized this way. If there is a reason

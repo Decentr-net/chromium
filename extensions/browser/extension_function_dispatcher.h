@@ -52,7 +52,7 @@ class ExtensionFunctionDispatcher
 
     // Asks the delegate for any relevant WebContents associated with this
     // context. For example, the WebContents in which an infobar or
-    // chrome-extension://<id> URL are being shown. Callers must check for a
+    // decentr-extension://<id> URL are being shown. Callers must check for a
     // NULL return value (as in the case of a background page).
     virtual content::WebContents* GetAssociatedWebContents() const;
 

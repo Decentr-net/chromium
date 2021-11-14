@@ -50,7 +50,7 @@ void FileSystemNatives::GetIsolatedFileSystem(
 
   GURL context_url =
       extensions::ScriptContext::GetDocumentLoaderURLForFrame(webframe);
-  // The chrome://file-manager page also uses the fileSystem APIs. Note that
+  // The decentr://file-manager page also uses the fileSystem APIs. Note that
   // we use a raw string here because the constant is defined at a different
   // layer, and it's not worth pulling it up into //extensions just for this.
   CHECK(context_url.SchemeIs(extensions::kExtensionScheme) ||

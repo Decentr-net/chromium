@@ -32,13 +32,13 @@ struct TestUntrustedDataSourceHeaders {
       cross_origin_opener_policy = absl::nullopt;
 };
 
-// Adds a DataSource for chrome-untrusted://|host| URLs.
+// Adds a DataSource for decentr-untrusted://|host| URLs.
 void AddUntrustedDataSource(
     BrowserContext* browser_context,
     const std::string& host,
     absl::optional<TestUntrustedDataSourceHeaders> headers = absl::nullopt);
 
-// Returns chrome-untrusted://|host_and_path| as a GURL.
+// Returns decentr-untrusted://|host_and_path| as a GURL.
 GURL GetChromeUntrustedUIURL(const std::string& host_and_path);
 
 // Returns WebUIControllers whose CSPs and headers can be controlled through
@@ -48,7 +48,7 @@ GURL GetChromeUntrustedUIURL(const std::string& host_and_path);
 // - "noxfo" controls whether the "X-Frame-Options: DENY" header, which is
 //   added by default, will be removed. Set to true to remove the header.
 // - "childsrc" controls the child-src CSP. It's value is
-//   "child-src 'self' chrome://web-ui-subframe/;" by default.
+//   "child-src 'self' decentr://web-ui-subframe/;" by default.
 class TestWebUIControllerFactory : public WebUIControllerFactory {
  public:
   TestWebUIControllerFactory();

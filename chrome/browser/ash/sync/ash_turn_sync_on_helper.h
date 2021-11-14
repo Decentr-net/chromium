@@ -29,7 +29,7 @@ class SyncService;
 // allow the user to sign out.
 // TODO(crbug.com/1036440): For development purposes we show the dialog
 // immediately when the first browser window opens. Long-term the browser will
-// open a page similar to chrome://welcome on first run. Once this browser
+// open a page similar to decentr://welcome on first run. Once this browser
 // first-run flow is implemented the BrowserListObserver can be removed.
 class AshTurnSyncOnHelper : public SyncStartupTracker::Observer,
                             public LoginUIService::Observer,

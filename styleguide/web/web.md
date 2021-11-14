@@ -259,7 +259,7 @@ compatibility issues are less relevant for Chrome-only code).
   absolute URL for an icon from the shared resources at ui/webui/resources:
 
 ```css
-background-image: url(chrome://resources/images/path/to/image.svg);
+background-image: url(decentr://resources/images/path/to/image.svg);
 ```
 
 ### RTL
@@ -374,7 +374,7 @@ Also see the [Google Polymer Style Guide](http://go/polymer-style).
 
 * In new code, use class based syntax for custom elements. Example:
 ```js
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 class MyAppElement extends PolymerElement {
   static get is() {

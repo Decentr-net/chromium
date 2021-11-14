@@ -103,11 +103,11 @@ export const foo = 5;
 alert('hello from shared resource');''');
 
     self._write_file_to_src_dir('element.js', '''
-import 'chrome://resources/js/fake_resource.js';
+import 'decentr://resources/js/fake_resource.js';
 alert('yay');
 ''')
     self._write_file_to_src_dir('element_in_dir/element_in_dir.js', '''
-import {foo} from 'chrome://resources/js/fake_resource.js';
+import {foo} from 'decentr://resources/js/fake_resource.js';
 import '../strings.m.js';
 alert('hello from element_in_dir');
 ''')
@@ -162,7 +162,7 @@ import './element_in_dir/element_in_dir.js';
       '--host', 'fake-host',
       '--js_module_in_files', 'ui.js',
       '--js_out_files', 'ui.rollup.js',
-      '--external_paths', 'chrome://resources|%s' % resources_path,
+      '--external_paths', 'decentr://resources|%s' % resources_path,
     ]
     self._run_optimize(args)
 
@@ -239,7 +239,7 @@ import './element_in_dir/element_in_dir.js';
       '--js_module_in_files', 'ui.js',
       '--js_out_files', 'ui.rollup.js',
       '--external_paths',
-      'chrome://resources|%s' % resources_path,
+      'decentr://resources|%s' % resources_path,
       'some-fake-scheme://foo|%s' % os.path.abspath(custom_dir),
     ]
     self._run_optimize(args)
@@ -264,7 +264,7 @@ import './element_in_dir/element_in_dir.js';
   def testV3SimpleOptimizeExcludes(self):
     self._write_v3_files_to_src_dir()
     args = [
-      '--host', 'chrome-extension://myextensionid/',
+      '--host', 'decentr-extension://myextensionid/',
       '--js_module_in_files', 'ui.js',
       '--js_out_files', 'ui.rollup.js',
       '--exclude', 'element_in_dir/element_in_dir.js',
@@ -304,7 +304,7 @@ alert('hello from external_element_dep');''')
       '--js_module_in_files', 'ui.js',
       '--js_out_files', 'ui.rollup.js',
       '--external_paths',
-      'chrome://resources|%s' % resources_path,
+      'decentr://resources|%s' % resources_path,
       'some-fake-scheme://foo|%s' % os.path.abspath(custom_dir_foo),
       'some-fake-scheme://bar|%s' % os.path.abspath(custom_dir_bar),
     ]

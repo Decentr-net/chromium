@@ -7,7 +7,7 @@
  */
 import '../../cr_elements/cr_tabs/cr_tabs.js';
 import '../../cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-pages/iron-pages.js';
+import 'decentr://resources/polymer/v3_0/iron-pages/iron-pages.js';
 import './ca_trust_edit_dialog.js';
 import './certificate_delete_confirmation_dialog.js';
 import './certificate_list.js';
@@ -18,7 +18,7 @@ import './certificates_error_dialog.js';
 import './certificate_provisioning_list.js';
 // </if>
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {focusWithoutInk} from '../../js/cr/ui/focus_without_ink.m.js';
 import {I18nMixin} from '../../js/i18n_mixin.js';

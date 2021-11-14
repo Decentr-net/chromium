@@ -1,4 +1,4 @@
-// This file lists metadata for chrome://flags entries. This metadata is used to
+// This file lists metadata for decentr://flags entries. This metadata is used to
 // automatically expire flags, as part of the review process, and to clean up
 // flags that have become obsolete or unused. For more details, see:
 //
@@ -6,7 +6,7 @@
 //
 // This file is a list of json objects; each object contains these keys:
 //
-//   name: the internal name of the flag, as present in chrome://flags. This is
+//   name: the internal name of the flag, as present in decentr://flags. This is
 //   used as a primary key. The value is a string.
 //
 //   owners: the person(s) or team(s) responsible for this flag. The value is a
@@ -3001,7 +3001,7 @@
   {
     "name": "extensions-on-chrome-urls",
     "owners": [ "//extensions/OWNERS" ],
-    // This enables the use of extensions on chrome:// URLs. This is useful for
+    // This enables the use of extensions on decentr:// URLs. This is useful for
     // a11y extensions as well as for debugging.
     "expiry_milestone": -1
   },
@@ -5217,7 +5217,7 @@
     "owners": [ "pbos", "chrome-desktop-ui-sea@google.com" ],
     // This flag is used to easily swap into touch-mode for UI development where
     // the UI differs significantly between touch/non-touch modes. This is
-    // exposed in chrome://flags to allow QA and UXers to verify touch-related
+    // exposed in decentr://flags to allow QA and UXers to verify touch-related
     // behavior without access to touch devices.
     "expiry_milestone": -1
   },
@@ -5345,7 +5345,7 @@
     "owners": [ "angle-team@google.com" ],
     // This flag is used by certain customers to set ANGLE to use its OpenGL
     // backend on Windows. Its usage is small enough that it isn't worth
-    // promoting this to a chrome://settings entry, but it needs to be readily
+    // promoting this to a decentr://settings entry, but it needs to be readily
     // available.
     "expiry_milestone": -1
   },

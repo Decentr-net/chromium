@@ -134,7 +134,7 @@ Polymer({
    * @private
    */
   getProfilePictureUrl_(user) {
-    return 'chrome://userimage/' + user.email + '?id=' + Date.now() +
+    return 'decentr://userimage/' + user.email + '?id=' + Date.now() +
         '&frame=0';
   },
 

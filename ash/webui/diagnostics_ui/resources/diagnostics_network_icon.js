@@ -9,14 +9,14 @@
  * @see //ui/webui/resources/cr_components/chromeos/network/network_icon.js
  */
 
-import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
-import 'chrome://resources/cr_components/chromeos/network/network_icon.m.js';
-import 'chrome://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
+import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
+import 'decentr://resources/cr_components/chromeos/network/network_icon.m.js';
+import 'decentr://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
 import './diagnostics_shared_css.js';
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {I18nBehavior, I18nBehaviorInterface} from 'chrome://resources/js/i18n_behavior.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {I18nBehavior, I18nBehaviorInterface} from 'decentr://resources/js/i18n_behavior.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Network, NetworkState, NetworkType, SecurityType} from './diagnostics_types.js';
 import {getNetworkType} from './diagnostics_utils.js';

@@ -108,10 +108,10 @@ TEST_F(WebUISourcesTest, ThemeSourceCSS) {
 
 TEST_F(WebUISourcesTest, ThemeAllowedOrigin) {
   EXPECT_EQ(
-      theme_source()->GetAccessControlAllowOriginForOrigin("chrome://settings"),
-      "chrome://settings");
+      theme_source()->GetAccessControlAllowOriginForOrigin("decentr://settings"),
+      "decentr://settings");
   EXPECT_EQ(theme_source()->GetAccessControlAllowOriginForOrigin(
-                "chrome-extensions://some-id"),
+                "decentr-extensions://some-id"),
             "");
   EXPECT_EQ(
       theme_source()->GetAccessControlAllowOriginForOrigin("http://google.com"),

@@ -1015,7 +1015,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>peter@chromium.org</owner>
   <summary>
     Recorded when Chrome on Android is launched to an internal Chrome scheme
-    (chrome://, chrome-native://, about://) by a first party app (not Chrome).
+    (decentr://, chrome-native://, about://) by a first party app (not Chrome).
     This metric is to be used to determine whether any first party app uses the
     feature, and whether we can remove it.
   </summary>

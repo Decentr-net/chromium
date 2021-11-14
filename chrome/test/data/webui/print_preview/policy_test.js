@@ -2,16 +2,16 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BackgroundGraphicsModeRestriction, DuplexMode, getInstance, NativeLayerImpl, PluginProxyImpl, PrintPreviewAppElement, PrintPreviewPluralStringProxyImpl} from 'chrome://print/print_preview.js';
+import {BackgroundGraphicsModeRestriction, DuplexMode, getInstance, NativeLayerImpl, PluginProxyImpl, PrintPreviewAppElement, PrintPreviewPluralStringProxyImpl} from 'decentr://print/print_preview.js';
 // <if expr="chromeos or lacros">
-import {ColorModeRestriction, DuplexModeRestriction, PinModeRestriction} from 'chrome://print/print_preview.js';
+import {ColorModeRestriction, DuplexModeRestriction, PinModeRestriction} from 'decentr://print/print_preview.js';
 // </if>
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {NativeLayerStub} from 'chrome://test/print_preview/native_layer_stub.js';
-import {getDefaultInitialSettings} from 'chrome://test/print_preview/print_preview_test_utils.js';
-import {TestPluginProxy} from 'chrome://test/print_preview/test_plugin_proxy.js';
-import {TestPluralStringProxy} from 'chrome://test/test_plural_string_proxy.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {NativeLayerStub} from 'decentr://test/print_preview/native_layer_stub.js';
+import {getDefaultInitialSettings} from 'decentr://test/print_preview/print_preview_test_utils.js';
+import {TestPluginProxy} from 'decentr://test/print_preview/test_plugin_proxy.js';
+import {TestPluralStringProxy} from 'decentr://test/test_plural_string_proxy.js';
 
 // <if expr="chromeos or lacros">
 import {setNativeLayerCrosInstance} from './native_layer_cros_stub.js';

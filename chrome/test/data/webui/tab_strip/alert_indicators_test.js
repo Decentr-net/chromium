@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {AlertIndicatorElement} from 'chrome://tab-strip.top-chrome/alert_indicator.js';
-import {AlertIndicatorsElement} from 'chrome://tab-strip.top-chrome/alert_indicators.js';
-import {TabAlertState} from 'chrome://tab-strip.top-chrome/tab_strip.mojom-webui.js';
+import {AlertIndicatorElement} from 'decentr://tab-strip.top-chrome/alert_indicator.js';
+import {AlertIndicatorsElement} from 'decentr://tab-strip.top-chrome/alert_indicators.js';
+import {TabAlertState} from 'decentr://tab-strip.top-chrome/tab_strip.mojom-webui.js';
 
 import {assertEquals} from '../chai_assert.js';
 

@@ -4,9 +4,9 @@
 
 /** @fileoverview Suite of tests for extension-load-error. */
 
-import 'chrome://extensions/extensions.js';
+import 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {TestService} from './test_service.js';
 import {isElementVisible} from './test_util.js';
 

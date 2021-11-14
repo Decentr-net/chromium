@@ -105,14 +105,14 @@ terminates a SW if the SW has been idle for 30 seconds. Chrome also detects
 long-running workers and terminates them. It does this if an event takes more
 than 5 minutes to settle, or if the worker is busy running synchronous
 JavaScript and does not respond to a ping within 30 seconds. When a SW is not
-running, Developer Tools and chrome://serviceworker-internals show its status as
+running, Developer Tools and decentr://serviceworker-internals show its status as
 STOPPED.
 
 ## How can I see Service Workers in Chrome?
 
 You can see them in the **Service Workers** field in the **Application** tab of
 **Developer Tools**. You can also look at
-[chrome://serviceworker-internals](chrome://serviceworker-internals).
+[decentr://serviceworker-internals](decentr://serviceworker-internals).
 
 ## Do Service Workers keep running after I close the tab?
 
@@ -208,7 +208,7 @@ that means that they must be nested inside secure contexts, all the way up to
 the top-level document.
 
 Additionally, third-party iframes can’t register Service Workers if third party
-cookies are blocked. (See chrome://settings/content.)
+cookies are blocked. (See decentr://settings/content.)
 
 ## Why doesn’t Chrome prompt the user before registering a Service Worker?
 
@@ -230,28 +230,28 @@ from Service Workers.
 
 ## What if I don't want *any* SWs?
 
-You can disable SWs by disabling storage in chrome://settings. SW are gated on
+You can disable SWs by disabling storage in decentr://settings. SW are gated on
 cookie/local data storage settings. (That is, the **Block sites from setting any
 data** radio button in **Content Settings**.)
 
 Clearing browser data (CBD; the **Clear browsing data...** button in
-**Settings** or chrome://settings/clearBrowserData) also deletes SWs. You can
+**Settings** or decentr://settings/clearBrowserData) also deletes SWs. You can
 verify that by following this test procedure:
 
 1. Visit https://gauntface.github.io/simple-push-demo/
-1. In a second tab, visit chrome://serviceworker-internals/ to see the ACTIVATED
+1. In a second tab, visit decentr://serviceworker-internals/ to see the ACTIVATED
    and RUNNING SW
    *    Note that the origin/the origin's SW cannot actually send any push notifications
         until you grant it that permission
-1. In a third tab, go to chrome://settings/clearBrowserData to clear browsing data;
+1. In a third tab, go to decentr://settings/clearBrowserData to clear browsing data;
    clear it by clicking **Clear browsing data**
-1. Reload chrome://serviceworker-internals/ to see that the SW's status is now
+1. Reload decentr://serviceworker-internals/ to see that the SW's status is now
    REDUNDANT and STOPPED
 1. Close the Simple Push Demo tab
-1. Reload chrome://serviceworker-internals/ to see that the SW is now gone
+1. Reload decentr://serviceworker-internals/ to see that the SW is now gone
 
 You can also remove individual SW registrations with
-chrome://serviceworker-internals/.
+decentr://serviceworker-internals/.
 
 Another way to avid SWs is to use one of the browsers that don't (yet) support
 SWs. But, eventually, the Open Web Platform will continue to evolve into a

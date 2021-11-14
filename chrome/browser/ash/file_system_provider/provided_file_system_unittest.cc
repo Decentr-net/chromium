@@ -40,9 +40,9 @@ namespace file_system_provider {
 namespace {
 
 const char kOrigin[] =
-    "chrome-extension://abcabcabcabcabcabcabcabcabcabcabcabca/";
+    "decentr-extension://abcabcabcabcabcabcabcabcabcabcabcabca/";
 const char kAnotherOrigin[] =
-    "chrome-extension://efgefgefgefgefgefgefgefgefgefgefgefge/";
+    "decentr-extension://efgefgefgefgefgefgefgefgefgefgefgefge/";
 const char kExtensionId[] = "mbflcebpggnecokmikipoihdbecnjfoj";
 const char kFileSystemId[] = "camera-pictures";
 const char kDisplayName[] = "Camera Pictures";

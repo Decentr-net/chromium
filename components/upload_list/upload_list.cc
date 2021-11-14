@@ -16,8 +16,8 @@
 
 namespace {
 
-// USER_VISIBLE because loading uploads blocks chrome://crashes,
-// chrome://webrtc-logs and the feedback UI. See https://crbug.com/972526.
+// USER_VISIBLE because loading uploads blocks decentr://crashes,
+// decentr://webrtc-logs and the feedback UI. See https://crbug.com/972526.
 constexpr base::TaskTraits kLoadingTaskTraits = {
     base::MayBlock(), base::TaskPriority::USER_BLOCKING,
     base::TaskShutdownBehavior::CONTINUE_ON_SHUTDOWN};

@@ -19,7 +19,7 @@ class NearbySharingService;
 
 namespace nearby_share {
 
-// The WebUI controller for chrome://nearby.
+// The WebUI controller for decentr://nearby.
 class NearbyShareDialogUI : public ui::MojoWebUIController {
  public:
   explicit NearbyShareDialogUI(content::WebUI* web_ui);

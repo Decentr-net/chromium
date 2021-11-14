@@ -17,7 +17,7 @@ CrOSActionRecorderTabTracker::CrOSActionRecorderTabTracker(
 // A tab should be skipped if it is empty, blank or default page.
 bool CrOSActionRecorderTabTracker::ShouldSkip() {
   const std::string& url = web_contents()->GetURL().spec();
-  return url.empty() || url == "about:blank" || url == "chrome://newtab/";
+  return url.empty() || url == "about:blank" || url == "decentr://newtab/";
 }
 
 // For tracking tab navigations.

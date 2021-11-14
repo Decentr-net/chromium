@@ -638,9 +638,9 @@ class OriginChangeMapTest : public testing::Test {
 };
 
 TEST_F(OriginChangeMapTest, Basic) {
-  const GURL kOrigin1("chrome-extension://foo");
-  const GURL kOrigin2("chrome-extension://bar");
-  const GURL kOrigin3("chrome-extension://baz");
+  const GURL kOrigin1("decentr-extension://foo");
+  const GURL kOrigin2("decentr-extension://bar");
+  const GURL kOrigin3("decentr-extension://baz");
 
   ASSERT_EQ(0, GetTotalChangeCount());
 
@@ -701,9 +701,9 @@ TEST_F(OriginChangeMapTest, Basic) {
 }
 
 TEST_F(OriginChangeMapTest, WithDisabled) {
-  const GURL kOrigin1("chrome-extension://foo");
-  const GURL kOrigin2("chrome-extension://bar");
-  const GURL kOrigin3("chrome-extension://baz");
+  const GURL kOrigin1("decentr-extension://foo");
+  const GURL kOrigin2("decentr-extension://bar");
+  const GURL kOrigin3("decentr-extension://baz");
   const GURL kOrigins[] = { kOrigin1, kOrigin2, kOrigin3 };
 
   ASSERT_EQ(0, GetTotalChangeCount());

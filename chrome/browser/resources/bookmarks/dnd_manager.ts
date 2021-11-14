@@ -5,9 +5,9 @@
 import './folder_node.js';
 import './item.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {isTextInputElement} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {isTextInputElement} from 'decentr://resources/js/util.m.js';
 
 import {changeFolderOpen, deselectItems, selectItem} from './actions.js';
 import {highlightUpdatedItems, trackUpdatedItems} from './api_listener.js';

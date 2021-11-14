@@ -38,7 +38,7 @@ InjectedScriptLoader = class {
           const debugSrc = src.replace('closure/../', '');
           // The 'chromevox' id is only used in the DevTools instead of a long
           // extension id.
-          scriptText += '\n//# sourceURL= chrome-extension://chromevox/' +
+          scriptText += '\n//# sourceURL= decentr-extension://chromevox/' +
               debugSrc + '\n';
           code[src] = scriptText;
           waiting--;

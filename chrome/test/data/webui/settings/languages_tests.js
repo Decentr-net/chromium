@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS, isWindows} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {LanguagesBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {CrSettingsPrefs} from 'chrome://settings/settings.js';
-import {getFakeLanguagePrefs} from 'chrome://test/settings/fake_language_settings_private.js';
-import {FakeSettingsPrivate} from 'chrome://test/settings/fake_settings_private.js';
-import {TestLanguagesBrowserProxy} from 'chrome://test/settings/test_languages_browser_proxy.js';
-import {fakeDataBind} from 'chrome://test/test_util.js';
+import {isChromeOS, isWindows} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {LanguagesBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {CrSettingsPrefs} from 'decentr://settings/settings.js';
+import {getFakeLanguagePrefs} from 'decentr://test/settings/fake_language_settings_private.js';
+import {FakeSettingsPrivate} from 'decentr://test/settings/fake_settings_private.js';
+import {TestLanguagesBrowserProxy} from 'decentr://test/settings/test_languages_browser_proxy.js';
+import {fakeDataBind} from 'decentr://test/test_util.js';
 
 // clang-format on
 

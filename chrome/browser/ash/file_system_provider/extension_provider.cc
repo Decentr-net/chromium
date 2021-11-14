@@ -148,10 +148,10 @@ ExtensionProvider::ExtensionProvider(
   }
 
   icon_set_.SetIcon(IconSet::IconSize::SIZE_16x16,
-                    GURL(std::string("chrome://extension-icon/") +
+                    GURL(std::string("decentr://extension-icon/") +
                          provider_id_.GetExtensionId() + "/16/1"));
   icon_set_.SetIcon(IconSet::IconSize::SIZE_32x32,
-                    GURL(std::string("chrome://extension-icon/") +
+                    GURL(std::string("decentr://extension-icon/") +
                          provider_id_.GetExtensionId() + "/32/1"));
 }
 

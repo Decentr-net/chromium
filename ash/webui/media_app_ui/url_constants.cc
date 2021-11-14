@@ -7,7 +7,7 @@
 namespace ash {
 
 const char kChromeUIMediaAppHost[] = "media-app";
-const char kChromeUIMediaAppURL[] = "chrome://media-app/";
-const char kChromeUIMediaAppGuestURL[] = "chrome-untrusted://media-app/";
+const char kChromeUIMediaAppURL[] = "decentr://media-app/";
+const char kChromeUIMediaAppGuestURL[] = "decentr-untrusted://media-app/";
 
 }  // namespace ash

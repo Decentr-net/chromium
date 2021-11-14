@@ -68,7 +68,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://extensions/*"
+      "decentr://extensions/*"
     ]
   }],
   "app": {
@@ -106,7 +106,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://settings/*"
+      "decentr://settings/*"
     ]
   }],
   "autotestPrivate": {
@@ -120,8 +120,8 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*",
-      "chrome://read-later.top-chrome/*"
+      "decentr://bookmarks/*",
+      "decentr://read-later.top-chrome/*"
     ]
   }],
   "bookmarks": [{
@@ -132,9 +132,9 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*",
-      "chrome://read-later.top-chrome/*",
-      "chrome://welcome/*"
+      "decentr://bookmarks/*",
+      "decentr://read-later.top-chrome/*",
+      "decentr://welcome/*"
     ]
   }],
   "bookmarks.export": {
@@ -142,7 +142,7 @@
     "contexts": ["webui"],
     "dependencies": [],
     "matches": [
-      "chrome://bookmarks/*"
+      "decentr://bookmarks/*"
     ]
   },
   "bookmarks.import": {
@@ -150,7 +150,7 @@
     "contexts": ["webui"],
     "dependencies": [],
     "matches": [
-      "chrome://bookmarks/*"
+      "decentr://bookmarks/*"
     ]
   },
   "brailleDisplayPrivate": {
@@ -208,7 +208,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://version/*"
+      "decentr://version/*"
     ],
     "platforms": ["chromeos"]
   }],
@@ -221,16 +221,16 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://assistant-optin/*",
-      "chrome://add-supervision/*",
-      "chrome://chrome-signin/*",
-      "chrome://discards/*",
-      "chrome://mobilesetup/*",
-      "chrome://oobe/*",
-      "chrome://os-settings/*",
-      "chrome://parent-access/*",
-      "chrome://password-change/*",
-      "chrome://lock-reauth/*"
+      "decentr://assistant-optin/*",
+      "decentr://add-supervision/*",
+      "decentr://chrome-signin/*",
+      "decentr://discards/*",
+      "decentr://mobilesetup/*",
+      "decentr://oobe/*",
+      "decentr://os-settings/*",
+      "decentr://parent-access/*",
+      "decentr://password-change/*",
+      "decentr://lock-reauth/*"
     ]
   }],
   "commandLinePrivate": {
@@ -264,17 +264,17 @@
       "webui"
     ],
     "matches": [
-      "chrome://camera-app/*",
-      "chrome://media-app/*"
+      "decentr://camera-app/*",
+      "decentr://media-app/*"
     ]
   },
   {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://camera-app/*",
-      "chrome-untrusted://help-app/*",
-      "chrome-untrusted://media-app/*"
+      "decentr-untrusted://camera-app/*",
+      "decentr-untrusted://help-app/*",
+      "decentr-untrusted://media-app/*"
     ]
   }],
   "cryptotokenPrivate": {
@@ -317,7 +317,7 @@
   }, {
     "channel": "stable",
     "contexts": ["webui"],
-    "matches": ["chrome://extensions/*"]
+    "matches": ["decentr://extensions/*"]
   }],
   // All devtools APIs are implemented by hand, so don't compile them.
   "devtools.inspectedWindow": {
@@ -351,7 +351,7 @@
     {
       "channel": "stable",
       "contexts": ["webui"],
-      "matches": ["chrome://download-shelf.top-chrome/*"]
+      "matches": ["decentr://download-shelf.top-chrome/*"]
     }
   ],
   "downloadsInternal": [
@@ -364,7 +364,7 @@
       "internal": true,
       "channel": "stable",
       "contexts": ["webui"],
-      "matches": ["chrome://download-shelf.top-chrome/*"]
+      "matches": ["decentr://download-shelf.top-chrome/*"]
     }
   ],
   "echoPrivate": {
@@ -470,7 +470,7 @@
     "internal": true,
     "channel": "stable",
     "contexts": ["webui"],
-    "matches": ["chrome://extensions/*"]
+    "matches": ["decentr://extensions/*"]
   },
   // This is not a real API, only here for documentation purposes.
   // See http://crbug.com/275944 for background.
@@ -497,7 +497,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://file-manager/*"
+      "decentr://file-manager/*"
     ]
   }],
   "fileManagerPrivateInternal": [{
@@ -509,7 +509,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://file-manager/*"
+      "decentr://file-manager/*"
     ]
   }],
   "fileSystemProvider": {
@@ -574,10 +574,10 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      // TODO(maybelle): Audit and remove chrome://settings or
-      // chrome://os-settings as appropriate
-      "chrome://os-settings/*",
-      "chrome://settings/*"
+      // TODO(maybelle): Audit and remove decentr://settings or
+      // decentr://os-settings as appropriate
+      "decentr://os-settings/*",
+      "decentr://settings/*"
     ]
   }],
   "instanceID": {
@@ -591,10 +591,10 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      // TODO(maybelle): Audit and remove chrome://settings or
-      // chrome://os-settings as appropriate
-      "chrome://os-settings/*",
-      "chrome://settings/*"
+      // TODO(maybelle): Audit and remove decentr://settings or
+      // decentr://os-settings as appropriate
+      "decentr://os-settings/*",
+      "decentr://settings/*"
     ]
   }],
   "login": {
@@ -662,7 +662,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://settings/*"
+      "decentr://settings/*"
     ]
   }],
   "permissions": {
@@ -719,10 +719,10 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://multidevice-setup/*",
-      "chrome://os-settings/*",
-      "chrome://settings/*",
-      "chrome://oobe/*"
+      "decentr://multidevice-setup/*",
+      "decentr://os-settings/*",
+      "decentr://settings/*",
+      "decentr://oobe/*"
     ],
     "platforms": ["chromeos"]
   },
@@ -733,7 +733,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://print/*"
+      "decentr://print/*"
     ]
   }],
   "rtcPrivate": {
@@ -763,8 +763,8 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://os-settings/*",
-      "chrome://settings/*"
+      "decentr://os-settings/*",
+      "decentr://settings/*"
     ]
   }],
   "signedInDevices": {
@@ -801,16 +801,16 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*",
-      "chrome://read-later.top-chrome/*",
-      "chrome://tab-strip.top-chrome/*"
+      "decentr://bookmarks/*",
+      "decentr://read-later.top-chrome/*",
+      "decentr://tab-strip.top-chrome/*"
     ]
   }, {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://crosh/*",
-      "chrome-untrusted://terminal/*"
+      "decentr-untrusted://crosh/*",
+      "decentr-untrusted://terminal/*"
     ],
     "platforms": ["chromeos"]
   }],
@@ -842,7 +842,7 @@
     "max_manifest_version": 2
   },
   // chrome.terminalPrivate allowed for nassh extensions,
-  // chrome-untrusted://crosh, and chrome-untrusted://terminal.
+  // decentr-untrusted://crosh, and decentr-untrusted://terminal.
   "terminalPrivate": [{
     "dependencies": ["permission:terminalPrivate"],
     "contexts": ["blessed_extension"],
@@ -852,13 +852,13 @@
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://crosh/*",
-      "chrome-untrusted://terminal/*"
+      "decentr-untrusted://crosh/*",
+      "decentr-untrusted://terminal/*"
     ],
     "platforms": ["chromeos"]
   }],
   // terminalPrivate.openTerminalProcess allowed for nassh extensions,
-  // and chrome-untrusted://crosh, but NOT for chrome-untrusted://terminal.
+  // and decentr-untrusted://crosh, but NOT for decentr-untrusted://terminal.
   "terminalPrivate.openTerminalProcess": [{
     "contexts": ["blessed_extension"]
   }, {
@@ -866,7 +866,7 @@
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://crosh/*"
+      "decentr-untrusted://crosh/*"
     ]
   }],
   "topSites": {
@@ -880,7 +880,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://oobe/*"
+      "decentr://oobe/*"
     ]
   }],
   "ttsEngine": {
@@ -895,7 +895,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://os-settings/*"
+      "decentr://os-settings/*"
     ]
   }],
   "virtualKeyboardPrivate": {
@@ -909,7 +909,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://file-manager/*"
+      "decentr://file-manager/*"
     ]
   }],
   "wallpaperPrivate": {
@@ -967,16 +967,16 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*",
-      "chrome://tab-strip.top-chrome/*",
-      "chrome://file-manager/*"
+      "decentr://bookmarks/*",
+      "decentr://tab-strip.top-chrome/*",
+      "decentr://file-manager/*"
     ]
   }, {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://crosh/*",
-      "chrome-untrusted://terminal/*"
+      "decentr-untrusted://crosh/*",
+      "decentr-untrusted://terminal/*"
     ],
     "platforms": ["chromeos"]
   }],

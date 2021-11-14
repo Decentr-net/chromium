@@ -14,7 +14,7 @@ function MediaInternalsUIBrowserTest() {}
 MediaInternalsUIBrowserTest.prototype = {
   __proto__: testing.Test.prototype,
 
-  browsePreload: 'chrome://media-internals',
+  browsePreload: 'decentr://media-internals',
 
   isAsync: true,
 

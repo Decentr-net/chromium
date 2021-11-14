@@ -7,13 +7,13 @@
  * the settings page.
  */
 
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
 import '../i18n_setup.js';
 import '../settings_shared_css.js';
 import './passwords_shared_css.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 class SettingsCreditCardListEntryElement extends PolymerElement {
   static get is() {

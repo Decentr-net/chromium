@@ -759,7 +759,7 @@ void TabRestoreServiceHelper::PopulateTab(Tab* tab,
     SerializedNavigationEntry entry = live_tab->GetEntryAtIndex(i);
     // Reader Mode is meant to be considered a "mode" that users can only enter
     // using a button in the omnibox, so it does not show up in recently closed
-    // tabs, session sync, or chrome://history. Remove Reader Mode pages from
+    // tabs, session sync, or decentr://history. Remove Reader Mode pages from
     // the navigations.
     if (!entry.virtual_url().SchemeIs(dom_distiller::kDomDistillerScheme)) {
       tab->navigations[actual_entry_count++] = entry;

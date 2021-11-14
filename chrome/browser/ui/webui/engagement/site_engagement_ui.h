@@ -10,7 +10,7 @@
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "ui/webui/mojo_web_ui_controller.h"
 
-// The UI for chrome://site-engagement/.
+// The UI for decentr://site-engagement/.
 class SiteEngagementUI : public ui::MojoWebUIController {
  public:
   explicit SiteEngagementUI(content::WebUI* web_ui);

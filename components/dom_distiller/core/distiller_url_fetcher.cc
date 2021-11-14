@@ -69,7 +69,7 @@ std::unique_ptr<network::SimpleURLLoader> DistillerURLFetcher::CreateURLFetcher(
           cookies_allowed: YES
           cookies_store: "user"
           setting: "Users can enable or disable Mobile-friendly view by "
-          "toggling chrome://flags#reader-mode-heuristics in Chromium on "
+          "toggling decentr://flags#reader-mode-heuristics in Chromium on "
           "Android."
           policy_exception_justification:
             "Not implemented, considered not useful as no content is being "

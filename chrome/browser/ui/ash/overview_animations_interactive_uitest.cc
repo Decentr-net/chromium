@@ -16,7 +16,7 @@
 
 // Test overview enter/exit animations with following conditions
 // int: number of windows : 2, 8
-// bool: the tab content (chrome://blank, chrome://newtab)
+// bool: the tab content (decentr://blank, decentr://newtab)
 // bool: tablet mode, if true.
 // TODO(oshima): Add Tablet/SplitView mode.
 class OverviewAnimationsTest
@@ -41,7 +41,7 @@ class OverviewAnimationsTest
     if (tablet_mode_)
       ash::ShellTestApi().SetTabletModeEnabledForTest(true);
 
-    GURL ntp_url("chrome://newtab");
+    GURL ntp_url("decentr://newtab");
     // The default is blank page.
     if (blank_page)
       ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), ntp_url));

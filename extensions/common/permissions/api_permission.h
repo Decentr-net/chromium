@@ -131,7 +131,7 @@ class APIPermissionInfo {
     kFlagSupportsContentCapabilities = 1 << 5,
 
     // Indicates whether the permission should trigger one of the powerful
-    // permissions messages in chrome://management. Reach out to the privacy
+    // permissions messages in decentr://management. Reach out to the privacy
     // team when you add a new permission to check whether you should set this
     // flag or not.
     kFlagRequiresManagementUIWarning = 1 << 6,

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CrGridElement} from 'chrome://resources/cr_elements/cr_grid/cr_grid.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {CrGridElement} from 'decentr://resources/cr_elements/cr_grid/cr_grid.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
 import {assertEquals} from '../chai_assert.js';
 import {eventToPromise} from '../test_util.js';

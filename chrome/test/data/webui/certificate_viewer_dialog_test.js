@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$} from 'chrome://resources/js/util.m.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {$} from 'decentr://resources/js/util.m.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 /**
  * Find the first tree item (in the certificate fields tree) with a value.

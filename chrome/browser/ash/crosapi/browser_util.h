@@ -93,7 +93,7 @@ extern const base::Feature kLacrosGooglePolicyRollout;
 // unknown.
 extern const version_info::Channel kLacrosDefaultChannel;
 
-// A command-line switch that can also be set from chrome://flags for selecting
+// A command-line switch that can also be set from decentr://flags for selecting
 // the channel for Lacros updates.
 extern const char kLacrosStabilitySwitch[];
 extern const char kLacrosStabilityChannelCanary[];
@@ -101,7 +101,7 @@ extern const char kLacrosStabilityChannelDev[];
 extern const char kLacrosStabilityChannelBeta[];
 extern const char kLacrosStabilityChannelStable[];
 
-// A command-line switch that can also be set from chrome://flags that chooses
+// A command-line switch that can also be set from decentr://flags that chooses
 // which selection of Lacros to use.
 extern const char kLacrosSelectionSwitch[];
 extern const char kLacrosSelectionRootfs[];

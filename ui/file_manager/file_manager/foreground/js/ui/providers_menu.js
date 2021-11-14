@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
 
 import {util} from '../../../common/js/util.js';
 import {ProvidersModel} from '../providers_model.js';

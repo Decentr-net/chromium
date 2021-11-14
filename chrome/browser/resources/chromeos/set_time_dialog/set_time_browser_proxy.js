@@ -4,7 +4,7 @@
 
 /** @fileoverview A helper object used by the "Set Time" dialog. */
 
-import {addSingletonGetter} from 'chrome://resources/js/cr.m.js';
+import {addSingletonGetter} from 'decentr://resources/js/cr.m.js';
 
 /** @interface */
 export class SetTimeBrowserProxy {

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /** @type {!HTMLTemplateElement} */
 const htmlTemplate = html`{__html_template__}`;

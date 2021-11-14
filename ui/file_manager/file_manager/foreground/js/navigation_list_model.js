@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {EntryList, FakeEntryImpl, VolumeEntry} from '../../common/js/files_app_entry_types.js';
 import {TrashRootEntry} from '../../common/js/trash.js';

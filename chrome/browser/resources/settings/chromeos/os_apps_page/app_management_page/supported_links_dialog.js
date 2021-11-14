@@ -6,7 +6,7 @@ import '//resources/cr_elements/cr_dialog/cr_dialog.m.js';
 import '//resources/polymer/v3_0/iron-list/iron-list.js';
 
 import {afterNextRender, flush, html, Polymer, TemplateInstanceBase, Templatizer} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
 
 Polymer({
   _template: html`{__html_template__}`,

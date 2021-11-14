@@ -25,7 +25,7 @@ content::WebUIDataSource* CreateInvalidationsHTMLSource() {
       content::WebUIDataSource::Create(chrome::kChromeUIInvalidationsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self' 'unsafe-eval';");
+      "script-src decentr://resources decentr://test 'self' 'unsafe-eval';");
   source->AddResourcePath("test_loader_util.js",
                           IDR_WEBUI_JS_TEST_LOADER_UTIL_JS);
   source->DisableTrustedTypesCSP();

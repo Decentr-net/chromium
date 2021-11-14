@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {MojoInterfaceProviderImpl} from 'chrome://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
-// #import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
+// #import {MojoInterfaceProviderImpl} from 'decentr://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
+// #import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
 // clang-format on
 
 /**

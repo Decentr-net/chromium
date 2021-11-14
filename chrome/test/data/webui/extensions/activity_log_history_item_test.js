@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://extensions/extensions.js';
+import 'decentr://extensions/extensions.js';
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {testVisible} from './test_util.js';
 
 /** @fileoverview Suite of tests for activity-log-history-item. */
@@ -101,7 +101,7 @@ suite('ExtensionsActivityLogHistoryItemTest', function() {
 
   test('count shown in descending order for multiple page URLs', function() {
     const countsByUrl =
-        new Map([['google.com', 5], ['chrome://extensions', 10]]);
+        new Map([['google.com', 5], ['decentr://extensions', 10]]);
 
     testActivityGroup = {
       activityIds: ['1'],
@@ -130,7 +130,7 @@ suite('ExtensionsActivityLogHistoryItemTest', function() {
     // hence the use of .includes.
     expectTrue(pageUrls[0]
                    .querySelector('.page-url-link')
-                   .innerText.includes('chrome://extensions'));
+                   .innerText.includes('decentr://extensions'));
     expectEquals(pageUrls[0].querySelector('.page-url-count').innerText, '10');
 
     expectTrue(pageUrls[1]

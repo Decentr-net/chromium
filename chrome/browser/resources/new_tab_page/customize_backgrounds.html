@@ -135,7 +135,7 @@
   }
 
   #backgroundsDisabledIcon {
-    -webkit-mask-image: url(chrome://resources/images/business.svg);
+    -webkit-mask-image: url(decentr://resources/images/business.svg);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100%;
     background-color: var(--cr-primary-text-color);
@@ -197,7 +197,7 @@
       <div class="tile" tabindex="0" title="[[item.label]]" role="button"
           on-click="onCollectionClick_">
         <ntp-iframe class="image"
-            src="chrome-untrusted://new-tab-page/background_image?[[item.previewImageUrl.url]]">
+            src="decentr-untrusted://new-tab-page/background_image?[[item.previewImageUrl.url]]">
         </ntp-iframe>
         <div class="label">[[item.label]]</div>
       </div>
@@ -213,7 +213,7 @@
           tabindex="0" title="[[item.attribution1]]" role="button"
           on-click="onImageClick_">
         <ntp-iframe class="image"
-            src="chrome-untrusted://new-tab-page/background_image?[[item.previewImageUrl.url]]">
+            src="decentr-untrusted://new-tab-page/background_image?[[item.previewImageUrl.url]]">
         </ntp-iframe>
         <div class="selected-circle"></div>
         <div class="selected-check"></div>

@@ -16,7 +16,7 @@ class Value;
 }
 
 // WebUIMessageHandler for the NS_LOG Macro to pass logging messages to the
-// chrome://nearby-internals logging tab.
+// decentr://nearby-internals logging tab.
 class NearbyInternalsLogsHandler : public content::WebUIMessageHandler,
                                    public LogBuffer::Observer {
  public:

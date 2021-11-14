@@ -6,9 +6,9 @@ import './edu_login_css.js';
 import './edu_login_template.js';
 import './edu_login_button.js';
 
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {getImage} from 'chrome://resources/js/icon.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {getImage} from 'decentr://resources/js/icon.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {EduAccountLoginBrowserProxyImpl} from './browser_proxy.js';
 import {EduLoginErrorType, ParentAccount} from './edu_login_util.js';

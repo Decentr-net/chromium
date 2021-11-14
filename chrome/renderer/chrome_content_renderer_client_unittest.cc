@@ -66,7 +66,7 @@ const bool kHostedApp = true;
 #endif
 
 #if BUILDFLAG(ENABLE_NACL)
-const char kExtensionUrl[] = "chrome-extension://extension_id/background.html";
+const char kExtensionUrl[] = "decentr-extension://extension_id/background.html";
 
 #endif
 
@@ -214,7 +214,7 @@ TEST_F(ChromeContentRendererClientTest, NaClRestriction) {
         GURL("https://talkgadget.google.com/hangouts/foo1"), kNaClRestricted,
         nullptr));
   }
-  // Non chrome-extension:// URLs belonging to hosted apps are allowed for
+  // Non decentr-extension:// URLs belonging to hosted apps are allowed for
   // webstore installed hosted apps.
   {
     EXPECT_TRUE(ChromeContentRendererClient::IsNativeNaClAllowed(

@@ -104,7 +104,7 @@ Polymer({
    */
   getProfileImage_() {
     return this.isDarkModeActive_ ?
-        'chrome://resources/cr_components/chromeos/cellular_setup/default_esim_profile_dark.svg' :
-        'chrome://resources/cr_components/chromeos/cellular_setup/default_esim_profile.svg';
+        'decentr://resources/cr_components/chromeos/cellular_setup/default_esim_profile_dark.svg' :
+        'decentr://resources/cr_components/chromeos/cellular_setup/default_esim_profile.svg';
   },
 });

@@ -63,7 +63,7 @@ class RecentSource {
     }
 
     // Origin of external file system URLs.
-    // E.g. "chrome-extension://<extension-ID>/"
+    // E.g. "decentr-extension://<extension-ID>/"
     const GURL& origin() const { return origin_; }
 
     // Maximum number of files a RecentSource is expected to return. It is fine

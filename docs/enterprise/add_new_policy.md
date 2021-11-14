@@ -90,7 +90,7 @@ Usually you need a policy when
             [policy_test_cases.json](https://source.chromium.org/chromium/chromium/src/+/main:ios/chrome/test/data/policy/policy_test_cases.json)
             file.
 4.  Disable the user setting UI when the policy is applied.
-    -   If your feature can be controlled by GUI in `chrome://settings`, the
+    -   If your feature can be controlled by GUI in `decentr://settings`, the
         associated option should be disabled when the policy controlling it is
         managed.
         -   `PrefService:Preference::IsManaged` reveals whether a prefs value

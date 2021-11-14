@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS, isLinux} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {AppearanceBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {isChromeOS, isLinux} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AppearanceBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 // clang-format on
 
 /** @implements {AppearanceBrowserProxy} */

@@ -332,14 +332,14 @@ class ControlledPrefsNotifyWhenNeeded : public ExtensionControlledPrefsTest {
     EXPECT_CALL(observer, OnPreferenceChanged(_));
     EXPECT_CALL(incognito_observer, OnPreferenceChanged(_));
     InstallExtensionControlledPref(extension1(), kPref1,
-                                   base::Value("chrome://newtab"));
+                                   base::Value("decentr://newtab"));
     Mock::VerifyAndClearExpectations(&observer);
     Mock::VerifyAndClearExpectations(&incognito_observer);
     // Change only incognito persistent value.
     EXPECT_CALL(observer, OnPreferenceChanged(_)).Times(0);
     EXPECT_CALL(incognito_observer, OnPreferenceChanged(_));
     InstallExtensionControlledPrefIncognito(extension1(), kPref1,
-                                            base::Value("chrome://newtab2"));
+                                            base::Value("decentr://newtab2"));
     Mock::VerifyAndClearExpectations(&observer);
     Mock::VerifyAndClearExpectations(&incognito_observer);
 
@@ -347,7 +347,7 @@ class ControlledPrefsNotifyWhenNeeded : public ExtensionControlledPrefsTest {
     EXPECT_CALL(observer, OnPreferenceChanged(_)).Times(0);
     EXPECT_CALL(incognito_observer, OnPreferenceChanged(_));
     InstallExtensionControlledPrefIncognito(extension1(), kPref1,
-                                            base::Value("chrome://newtab3"));
+                                            base::Value("decentr://newtab3"));
     Mock::VerifyAndClearExpectations(&observer);
     Mock::VerifyAndClearExpectations(&incognito_observer);
 

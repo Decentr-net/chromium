@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {IncompatibleApplicationsBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {IncompatibleApplicationsBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 // clang-format on
 
 /** @implements {IncompatibleApplicationsBrowserProxy} */
@@ -93,12 +93,12 @@ suite('incompatibleApplicationsHandler', function() {
   const learnMoreIncompatibleApplication = {
     'name': 'Update Application',
     'type': 1,
-    'url': 'chrome://update-url',
+    'url': 'decentr://update-url',
   };
   const updateIncompatibleApplication = {
     'name': 'Update Application',
     'type': 2,
-    'url': 'chrome://update-url',
+    'url': 'decentr://update-url',
   };
 
   /**

@@ -41,8 +41,8 @@ js_type_check("closure_compile_polymer") {
   closure_flags = default_closure_args + [
                     "js_module_root=gen/ui/file_manager/",
                     "js_module_root=../../ui/file_manager/",
-                    "browser_resolver_prefix_replacements=\"chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/=./file_manager/\"",
-                    "browser_resolver_prefix_replacements=\"chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp/=./image_loader/\"",
+                    "browser_resolver_prefix_replacements=\"decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/=./file_manager/\"",
+                    "browser_resolver_prefix_replacements=\"decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp/=./image_loader/\"",
                   ]
 
   deps = [
@@ -129,8 +129,8 @@ optimize_webui("build") {
   js_out_files = [ "main.rollup.js" ]
 
   external_paths = [
-    "chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj|$files_app_path",
-    "chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp|$image_loader_path",
+    "decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj|$files_app_path",
+    "decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp|$image_loader_path",
   ]
 
   deps = [
@@ -150,8 +150,8 @@ optimize_webui("build_worker") {
   js_out_files = [ "metadata_worker.rollup.js" ]
 
   external_paths = [
-    "chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj|$files_app_path",
-    "chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp|$image_loader_path",
+    "decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj|$files_app_path",
+    "decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp|$image_loader_path",
   ]
 
   deps = [
@@ -177,8 +177,8 @@ optimize_webui("build_background") {
   ]
 
   external_paths = [
-    "chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj|$files_app_path",
-    "chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp|$image_loader_path",
+    "decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj|$files_app_path",
+    "decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp|$image_loader_path",
   ]
 
   deps = [

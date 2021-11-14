@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://welcome/signin_view.js';
+import 'decentr://welcome/signin_view.js';
 
-import {SigninViewProxyImpl} from 'chrome://welcome/signin_view_proxy.js';
-import {WelcomeBrowserProxyImpl} from 'chrome://welcome/welcome_browser_proxy.js';
+import {SigninViewProxyImpl} from 'decentr://welcome/signin_view_proxy.js';
+import {WelcomeBrowserProxyImpl} from 'decentr://welcome/welcome_browser_proxy.js';
 
 import {TestSigninViewProxy} from './test_signin_view_proxy.js';
 import {TestWelcomeBrowserProxy} from './test_welcome_browser_proxy.js';

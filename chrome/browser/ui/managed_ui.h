@@ -16,12 +16,12 @@ class Profile;
 namespace chrome {
 
 // Returns true if a 'Managed by your organization' message should appear in
-// Chrome's App Menu, and on the following chrome:// pages:
-// - chrome://bookmarks
-// - chrome://downloads
-// - chrome://extensions
-// - chrome://history
-// - chrome://settings
+// Chrome's App Menu, and on the following decentr:// pages:
+// - decentr://bookmarks
+// - decentr://downloads
+// - decentr://extensions
+// - decentr://history
+// - decentr://settings
 //
 // N.B.: This is independent of Chrome OS's system tray message for enterprise
 // users.

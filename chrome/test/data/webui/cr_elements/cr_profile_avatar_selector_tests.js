@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrProfileAvatarSelectorElement} from 'chrome://resources/cr_elements/cr_profile_avatar_selector/cr_profile_avatar_selector.js';
+import {CrProfileAvatarSelectorElement} from 'decentr://resources/cr_elements/cr_profile_avatar_selector/cr_profile_avatar_selector.js';
 
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn, pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn, pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 // clang-format on
@@ -23,19 +23,19 @@ suite('cr-profile-avatar-selector', function() {
         document.createElement('cr-profile-avatar-selector'));
     avatarSelector.avatars = [
       {
-        url: 'chrome://avatar1.png',
+        url: 'decentr://avatar1.png',
         label: 'avatar1',
         index: '1',
         selected: false
       },
       {
-        url: 'chrome://avatar2.png',
+        url: 'decentr://avatar2.png',
         label: 'avatar2',
         index: '2',
         selected: false
       },
       {
-        url: 'chrome://avatar3.png',
+        url: 'decentr://avatar3.png',
         label: 'avatar3',
         index: '3',
         selected: false
@@ -107,13 +107,13 @@ suite('cr-profile-avatar-selector', function() {
     verifyTabIndex(items, [0, -1, -1]);
     avatarSelector.avatars = [
       {
-        url: 'chrome://avatar1.png',
+        url: 'decentr://avatar1.png',
         label: 'avatar1',
         index: '1',
         selected: false
       },
       {
-        url: 'chrome://avatar2.png',
+        url: 'decentr://avatar2.png',
         label: 'avatar2',
         index: '2',
         selected: true
@@ -146,7 +146,7 @@ suite('cr-profile-avatar-selector', function() {
 
     // Simulate tapping the third avatar.
     items[2].click();
-    assertEquals('chrome://avatar3.png', avatarSelector.selectedAvatar.url);
+    assertEquals('decentr://avatar3.png', avatarSelector.selectedAvatar.url);
     assertFalse(items[0].classList.contains('iron-selected'));
     assertFalse(items[1].classList.contains('iron-selected'));
     assertTrue(items[2].classList.contains('iron-selected'));

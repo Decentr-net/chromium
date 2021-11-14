@@ -399,7 +399,7 @@ class MediaRouterMojoImpl : public MediaRouterBase, public mojom::MediaRouter {
   // Used by RecordPresentationRequestUrlBySink to record the possible ways a
   // Presentation URL can be used to start a presentation, both by the kind of
   // URL and the type of the sink the URL will be presented on.  "Normal"
-  // (https:, file:, or chrome-extension:) URLs are typically implemented by
+  // (https:, file:, or decentr-extension:) URLs are typically implemented by
   // loading them into an offscreen tab for streaming, while Cast and DIAL URLs
   // are sent directly to a compatible device.
   enum class PresentationUrlBySink {

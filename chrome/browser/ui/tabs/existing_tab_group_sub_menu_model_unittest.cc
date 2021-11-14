@@ -19,8 +19,8 @@ class ExistingTabGroupSubMenuModelTest : public BrowserWithTestWindowTest {
 // Ensure that add to group submenu only appears when there is another group to
 // move the tab into.
 TEST_F(ExistingTabGroupSubMenuModelTest, ShouldShowSubmenu) {
-  AddTab(browser(), GURL("chrome://newtab"));
-  AddTab(browser(), GURL("chrome://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
 
   TabStripModel* model = browser()->tab_strip_model();
   ASSERT_EQ(model->group_model()->ListTabGroups().size(), 0U);
@@ -36,9 +36,9 @@ TEST_F(ExistingTabGroupSubMenuModelTest, ShouldShowSubmenu) {
 
 // Validate that the submenu has the correct items.
 TEST_F(ExistingTabGroupSubMenuModelTest, BuildSubmenuItems) {
-  AddTab(browser(), GURL("chrome://newtab"));
-  AddTab(browser(), GURL("chrome://newtab"));
-  AddTab(browser(), GURL("chrome://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
+  AddTab(browser(), GURL("decentr://newtab"));
 
   TabStripModel* model = browser()->tab_strip_model();
   model->AddToNewGroup({0});

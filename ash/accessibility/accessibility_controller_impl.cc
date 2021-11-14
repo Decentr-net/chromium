@@ -144,7 +144,7 @@ const FeatureDialogData kFeatureDialogs[] = {
      prefs::kHighContrastAcceleratorDialogHasBeenAccepted,
      IDS_ASH_HIGH_CONTRAST_TITLE, IDS_ASH_HIGH_CONTRAST_BODY, false}};
 
-constexpr char kNotificationId[] = "chrome://settings/accessibility";
+constexpr char kNotificationId[] = "decentr://settings/accessibility";
 constexpr char kNotifierAccessibility[] = "ash.accessibility";
 
 // TODO(warx): Signin screen has more controllable accessibility prefs. We may

@@ -333,7 +333,7 @@ AppCacheInternalsUI::AppCacheInternalsUI(WebUI* web_ui)
       WebUIDataSource::Create(kChromeUIAppCacheInternalsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   source->DisableTrustedTypesCSP();
 
   source->UseStringsJs();

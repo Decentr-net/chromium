@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {normalizeNodes} from 'chrome://bookmarks/bookmarks.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
+import {normalizeNodes} from 'decentr://bookmarks/bookmarks.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
 
 /**
  * Replace the current body of the test with a new element.

@@ -47,7 +47,7 @@ namespace {
 using ::chromeos::AuthPolicyClient;
 
 constexpr base::TimeDelta kGetUserStatusCallsInterval = base::Hours(1);
-constexpr char kProfileSigninNotificationId[] = "chrome://settings/signin/";
+constexpr char kProfileSigninNotificationId[] = "decentr://settings/signin/";
 
 // Sets up Chrome OS Account Manager.
 // |profile| is a non-owning pointer to |Profile|.

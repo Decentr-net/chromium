@@ -17,7 +17,7 @@ function SysInternalsBrowserTest() {}
 SysInternalsBrowserTest.prototype = {
   __proto__: testing.Test.prototype,
 
-  browsePreload: 'chrome://sys-internals',
+  browsePreload: 'decentr://sys-internals',
 
   isAsync: true,
 

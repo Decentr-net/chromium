@@ -88,7 +88,7 @@ class GuestOsFileTasksTest : public testing::Test {
         util::GetDownloadsMountPointName(&profile_) + "/" + path,
         /*use_plus=*/false);
     urls_.push_back(
-        GURL("filesystem:chrome-extension://id/external/" + virtual_path));
+        GURL("filesystem:decentr-extension://id/external/" + virtual_path));
   }
 
   void AddMime(const std::string& file_ext, const std::string& mime) {

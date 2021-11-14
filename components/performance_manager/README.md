@@ -33,7 +33,7 @@ Here’s an overview picture of the intended architecture:
   to the corresponding content entity for any task that needs to run on the main thread.
 
 The graph lives on the Performance Manager Sequence, as do all graph observers and mutators.
-The graph structure can be viewed in the graph tab of the `chrome://discards WebUI.`
+The graph structure can be viewed in the graph tab of the `decentr://discards WebUI.`
 
 In addition to the above, the Performance Manager also provides support for
 users that need to occasionally query the graph to e.g. collect metrics.

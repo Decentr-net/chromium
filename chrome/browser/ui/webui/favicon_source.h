@@ -33,8 +33,8 @@ class NativeTheme;
 
 // FaviconSource is the gateway between network-level chrome:
 // requests for favicons and the history backend that serves these.
-// Two possible formats are allowed: chrome://favicon, kept only for backwards
-// compatibility for extensions, and chrome://favicon2. Formats are described in
+// Two possible formats are allowed: decentr://favicon, kept only for backwards
+// compatibility for extensions, and decentr://favicon2. Formats are described in
 // favicon_url_parser.h.
 class FaviconSource : public content::URLDataSource {
  public:

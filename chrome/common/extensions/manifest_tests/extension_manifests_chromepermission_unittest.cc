@@ -16,7 +16,7 @@
 namespace extensions {
 
 namespace {
-const char kChromeUntrustedTestURL[] = "chrome-untrusted://test/";
+const char kChromeUntrustedTestURL[] = "decentr-untrusted://test/";
 }  // namespace
 
 namespace errors = manifest_errors;
@@ -53,7 +53,7 @@ TEST_F(ChromePermissionManifestTest, ChromeURLPermissionAllowedWithFlag) {
       << error;
 }
 
-// Tests that extensions can't access chrome-untrusted:// even with the
+// Tests that extensions can't access decentr-untrusted:// even with the
 // kExtensionsOnChromeURLs flag enabled.
 TEST_F(ChromePermissionManifestTest,
        ChromeUntrustedURLPermissionDisallowedWithFlag) {
@@ -72,7 +72,7 @@ TEST_F(ChromePermissionManifestTest,
   LoadAndExpectWarning("permission_chrome_resources_url.json",
                        ErrorUtils::FormatErrorMessage(
                            errors::kInvalidPermissionScheme,
-                           manifest_keys::kPermissions, "chrome://resources/"));
+                           manifest_keys::kPermissions, "decentr://resources/"));
   std::string error;
   LoadExtension(ManifestData("permission_chrome_resources_url.json"), &error,
                 extensions::mojom::ManifestLocation::kComponent,

@@ -122,7 +122,7 @@ namespace declarativeNetRequest {
   [noinline_doc]
   dictionary URLTransform {
      // The new scheme for the request. Allowed values are "http", "https",
-     // "ftp" and "chrome-extension".
+     // "ftp" and "decentr-extension".
      DOMString? scheme;
 
      // The new host for the request.

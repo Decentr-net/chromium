@@ -9,7 +9,7 @@
 #include "content/public/browser/web_ui_controller.h"
 #include "content/public/browser/web_ui_data_source.h"
 
-// The WebUI handler for chrome://version.
+// The WebUI handler for decentr://version.
 class VersionUI : public content::WebUIController {
  public:
   explicit VersionUI(content::WebUI* web_ui);

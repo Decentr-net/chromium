@@ -28,7 +28,7 @@ struct TranslateErrorDetails;
 struct TranslateEventDetails;
 struct TranslateInitDetails;
 
-// The handler class for chrome://translate-internals page operations.
+// The handler class for decentr://translate-internals page operations.
 class TranslateInternalsHandler {
  public:
   TranslateInternalsHandler();

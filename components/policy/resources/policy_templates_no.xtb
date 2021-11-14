@@ -484,7 +484,7 @@ For mer informasjon om sikkert innhold, se https://www.w3.org/TR/secure-contexts
 
       Unntak kan spesifiseres i regelen for godkjenning av nettadresser. Disse reglene er begrenset til 1000 oppføringer, og eventuelle oppføringer som overskrider dette, ignoreres.
 
-      Vær oppmerksom på at vi ikke anbefaler å blokkere interne «chrome://*»-nettadresser, siden det kan føre til uventede feil.
+      Vær oppmerksom på at vi ikke anbefaler å blokkere interne «decentr://*»-nettadresser, siden det kan føre til uventede feil.
 
       Fra M73 kan du blokkere «javascript://*»-nettadresser. Men dette påvirker kun JavaScript som skrives inn i adressefeltet (eller f.eks. minibokmerker). Merk at JavaScript-nettadresser på nettsider, så lenge de utgjør dynamisk innlastede data, ikke omfattes av denne regelen. Hvis du for eksempel blokkerer «eksempel.no/abc», kan siden «eksempel.no» fremdeles laste inn «eksempel.no/abc» via XMLHTTPRequest.
 
@@ -649,7 +649,7 @@ For mer informasjon om sikkert innhold, se https://www.w3.org/TR/secure-contexts
       ved omstart.</translation>
 <translation id="2138449619211358657">Med denne regelen kan <ph name="PRODUCT_OS_NAME" /> omgå eventuelle proxy-tjenere for autentisering via obligatoriske sider.
 
-      Denne regelen trer bare i kraft hvis det er konfigurert en proxy-tjener (for eksempel ved at brukeren har angitt en regel i chrome://settings, eller via utvidelser).
+      Denne regelen trer bare i kraft hvis det er konfigurert en proxy-tjener (for eksempel ved at brukeren har angitt en regel i decentr://settings, eller via utvidelser).
 
       Hvis du slår på denne innstillingen, blir alle obligatoriske autentiseringssider (dvs. alle nettsider fra den obligatoriske påloggingssiden og frem til <ph name="PRODUCT_NAME" /> registrerer at enheten er koblet til internett) vist i separate vinduer, og alle regelinnstillinger og begrensninger for den aktive brukeren blir ignorert.
 
@@ -670,15 +670,15 @@ For mer informasjon om sikkert innhold, se https://www.w3.org/TR/secure-contexts
 <translation id="2170233653554726857">Slå på WPAD-optimalisering</translation>
 <translation id="2176565653304920879">Når denne regelen er spesifisert, blir tidssonen automatisk påvist i henhold til innstillingen som er valgt. Her ser du de ulike alternativene:
 
-      Hvis TimezoneAutomaticDetectionUsersDecide er angitt, kan brukerne kontrollere den automatiske påvisningen av tidssoner ved å bruke vanlige kontroller i chrome://settings.
+      Hvis TimezoneAutomaticDetectionUsersDecide er angitt, kan brukerne kontrollere den automatiske påvisningen av tidssoner ved å bruke vanlige kontroller i decentr://settings.
 
-      Hvis TimezoneAutomaticDetectionDisabled er angitt, er kontrollene for automatisk tidssone i chrome://settings slått av. Automatisk påvisning av tidssoner er alltid av.
+      Hvis TimezoneAutomaticDetectionDisabled er angitt, er kontrollene for automatisk tidssone i decentr://settings slått av. Automatisk påvisning av tidssoner er alltid av.
 
-      Hvis TimezoneAutomaticDetectionIPOnly er angitt, er tidssonekontrollene i chrome://settings slått av. Automatisk påvisning av tidssoner er alltid på. Systemet bruker bare IP-adresser for å finne riktig tidssone.
+      Hvis TimezoneAutomaticDetectionIPOnly er angitt, er tidssonekontrollene i decentr://settings slått av. Automatisk påvisning av tidssoner er alltid på. Systemet bruker bare IP-adresser for å finne riktig tidssone.
 
-      Hvis TimezoneAutomaticDetectionSendWiFiAccessPoints er angitt, er tidssonekontrollene i chrome://settings slått av. Automatisk påvisning av tidssoner er alltid på. Listen over synlige Wi-Fi-tilgangspunkter sendes alltid til Geolocation API-tjeneren, slik at det kan utføres detaljert påvisning av tidssonen.
+      Hvis TimezoneAutomaticDetectionSendWiFiAccessPoints er angitt, er tidssonekontrollene i decentr://settings slått av. Automatisk påvisning av tidssoner er alltid på. Listen over synlige Wi-Fi-tilgangspunkter sendes alltid til Geolocation API-tjeneren, slik at det kan utføres detaljert påvisning av tidssonen.
 
-      Hvis TimezoneAutomaticDetectionSendAllLocationInfo er angitt, er tidssonekontrollene i chrome://settings slått av. Automatisk påvisning av tidssoner er alltid på. Posisjonsinformasjon (som Wi-Fi-tilgangspunkter, basestasjoner som kan nås, og GPS) sendes til en tjener, slik at det kan utføres detaljert påvisning av tidssonen.
+      Hvis TimezoneAutomaticDetectionSendAllLocationInfo er angitt, er tidssonekontrollene i decentr://settings slått av. Automatisk påvisning av tidssoner er alltid på. Posisjonsinformasjon (som Wi-Fi-tilgangspunkter, basestasjoner som kan nås, og GPS) sendes til en tjener, slik at det kan utføres detaljert påvisning av tidssonen.
 
       Hvis denne regelen ikke spesifiseres, har det samme effekt som om TimezoneAutomaticDetectionUsersDecide var angitt.
 
@@ -1227,9 +1227,9 @@ For mer informasjon om sikkert innhold, se https://www.w3.org/TR/secure-contexts
       Hvis regelen ikke er angitt eller er satt til false (usann), er ikke DHE-chifferserier i TLS slått på. Den kan angis som true (sann) for å sikre kompatibilitet med utdaterte tjenere. Dette er en midlertidig løsning, og eventuelle slike tjenere bør konfigureres på nytt.
 
       Vi anbefaler at tjenere overføres til ECDHE-chifferserier. Hvis det ikke er mulig, bør du sikre at nøkkelutveksling er slått på for chifferserien.</translation>
-<translation id="3117706142826400449">Hvis denne er slått av, hindres Opprydning for Chrome i å søke etter og fjerne uønsket programvare på systemet. Manuell start av Opprydning for Chrome fra chrome://settings/cleanup er deaktivert.
+<translation id="3117706142826400449">Hvis denne er slått av, hindres Opprydning for Chrome i å søke etter og fjerne uønsket programvare på systemet. Manuell start av Opprydning for Chrome fra decentr://settings/cleanup er deaktivert.
 
-      Hvis regelen er slått på eller ikke er angitt, søker Opprydning for Chrome med jevne mellomrom etter uønsket programvare på systemet, og hvis det blir funnet noe, blir brukeren spurt om det skal fjernes. Manuell start av Opprydning for Chrome fra chrome://settings er aktivert.
+      Hvis regelen er slått på eller ikke er angitt, søker Opprydning for Chrome med jevne mellomrom etter uønsket programvare på systemet, og hvis det blir funnet noe, blir brukeren spurt om det skal fjernes. Manuell start av Opprydning for Chrome fra decentr://settings er aktivert.
 
       Denne regelen er bare tilgjengelig på Windows-forekomster som er tilknyttet <ph name="MS_AD_NAME" />-domener, eller Windows 10 Pro- eller Enterprise-forekomster som er registrert for enhetsadministrering.</translation>
 <translation id="3152425128389603870">Gjør det enhetlige skrivebordet tilgjengelig, og slå det på som standard.</translation>
@@ -1273,7 +1273,7 @@ For mer informasjon om sikkert innhold, se https://www.w3.org/TR/secure-contexts
 <translation id="3284094172359247914">Kontrollér bruken av WebUSB API</translation>
 <translation id="3288595667065905535">Utgivelseskanal</translation>
 <translation id="3292147213643666827">Aktiverer <ph name="PRODUCT_NAME" /> til å fungere som mellomtjener mellom <ph name="CLOUD_PRINT_NAME" /> og tidligere skrivere tilkoblet denne datamaskinen. Hvis innstillingen er aktivert eller ikke konfigurert, kan brukerne aktivere mellomtjener for Google Cloud Print ved hjelp av autentisering i Google-kontoen. Hvis denne innstillingen er deaktivert, kan ikke brukere aktivere mellomtjeneren, og får ikke tilgang til å dele datamaskinens skrivere med <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Slår på en side på chrome://password-change som gjør det mulig for SAML-brukere å endre SAML-passordene sine mens de er i en økt. Dette sikrer at SAML-passordet og enhetens låseskjermpassord holdes synkronisert.
+<translation id="3312206664202507568">Slår på en side på decentr://password-change som gjør det mulig for SAML-brukere å endre SAML-passordene sine mens de er i en økt. Dette sikrer at SAML-passordet og enhetens låseskjermpassord holdes synkronisert.
 
       Denne regelen slår også på varsler som advarer SAML-brukere hvis SAML-passordene deres snart utløper, så de kan håndtere dette umiddelbart ved å endre passord mens de er i en økt.
       Men disse varslene vises kun hvis SAML-identitetsleverandøren sender informasjon om passordutløp til enheten i løpet av SAML-påloggingsprosessen.
@@ -2035,7 +2035,7 @@ Verdiene for denne regelen og WebUsbAllowDevicesForUrls-regelen slås sammen.</t
 <translation id="4777805166623621364">
       Denne innstillingen (SitePerProcess) kan brukes til å nekte brukere å velge bort standardfunksjonaliteten, som er å isolere alle nettsteder. Merk at regelen IsolateOrigins også kan være nyttig for å isolere flere, mer finkornede opprinnelser.
       Hvis regelen er slått på, kan ikke brukerne velge bort standardfunksjonaliteten der alle nettsteder kjører i sine egne prosesser.
-      Hvis regelen er slått av eller ikke er konfigurert, kan brukeren velge bort nettstedsisolering (f.eks. ved å bruke oppføringen «Slå av nettstedsisolering» i chrome://flags).  Nettstedsisolering slås ikke av selv om du slår av regelen og/eller ikke konfigurerer den.
+      Hvis regelen er slått av eller ikke er konfigurert, kan brukeren velge bort nettstedsisolering (f.eks. ved å bruke oppføringen «Slå av nettstedsisolering» i decentr://flags).  Nettstedsisolering slås ikke av selv om du slår av regelen og/eller ikke konfigurerer den.
       I <ph name="PRODUCT_OS_NAME" /> versjon 76 og eldre anbefales det også å sette enhetsregelen <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" />til samme verdi. Hvis disse to reglene har ulike verdier, kan det medføre at oppstart av brukerøkter blir forsinket mens verdien som spesifiseres av brukerregelen, tas i bruk.
 
       MERK: Denne regelen gjelder ikke på Android. For å slå på SitePerProcess på Android, bruk regelinnstillingen SitePerProcessAndroid.
@@ -2924,7 +2924,7 @@ Verdiene for denne regelen og DeviceWebUsbAllowDevicesForUrls-regelen slås samm
 
           Hvis du slår på denne innstillingen, brukes alltid siden for nye faner for startsiden, og nettadressen for startsiden ignoreres.
 
-          Hvis du slår av denne innstillingen, brukes siden for nye faner aldri som brukerens startside, med mindre nettadressen for startsiden er angitt som «chrome://newtab».
+          Hvis du slår av denne innstillingen, brukes siden for nye faner aldri som brukerens startside, med mindre nettadressen for startsiden er angitt som «decentr://newtab».
 
           Hvis du slår denne innstillingen av eller på, kan ikke brukerne endre typen startside i <ph name="PRODUCT_NAME" />.
 
@@ -3096,7 +3096,7 @@ skjermtastaturet når som helst og statusen den har på påloggingsskjermen er v
 
       Hvis denne regelen er satt til «false» (usann), brukes aldri den innebygde DNS-klienten.
 
-      Hvis denne regelen ikke angis, blir den innebygde DNS-klienten slått på som standard på MacOS, Android (når verken Privat DNS eller VPN er slått på) og ChromeOS, og brukerne kan endre om den innebygde DNS-klienten skal brukes eller ikke, ved å endre chrome://flags eller spesifisere et flagg i kommandolinjen.</translation>
+      Hvis denne regelen ikke angis, blir den innebygde DNS-klienten slått på som standard på MacOS, Android (når verken Privat DNS eller VPN er slått på) og ChromeOS, og brukerne kan endre om den innebygde DNS-klienten skal brukes eller ikke, ved å endre decentr://flags eller spesifisere et flagg i kommandolinjen.</translation>
 <translation id="6843296367238757293">Denne regelen er avviklet. Vi anbefaler å ikke bruke den. Les mer på https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Denne regelen ble fjernet i <ph name="PRODUCT_NAME" /> 68 og erstattet av <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Denne regelen er avviklet og fjernet i M66, fordi den bare ble brukt til intern testing og er en sikkerhetsrisiko.
@@ -3723,7 +3723,7 @@ MERK: Frem til versjon 45 ble denne regelen bare støttet i kioskmodus.</transla
 <translation id="7941975817681987555">Ikke forutsi nettverkshandlinger på noen nettverkstilkoblinger</translation>
 <translation id="7952007677054834789">Konfigurer sidene som skal lastes inn ved oppstart, samt standard startside og standard side for ny fane i <ph name="PRODUCT_NAME" />. Brukere blir forhindret fra å endre dem.
 
-      Brukerens innstillinger for startside blir fullstendig låst bare hvis du enten velger startsiden som siden for ny fane, eller hvis du velger at den skal være en nettadresse, og spesifiserer en nettadresse for startsiden. Hvis du ikke spesifiserer nettadressen for startsiden, kan brukeren fremdeles angi siden for ny fane som startside ved å angi «chrome://newtab».
+      Brukerens innstillinger for startside blir fullstendig låst bare hvis du enten velger startsiden som siden for ny fane, eller hvis du velger at den skal være en nettadresse, og spesifiserer en nettadresse for startsiden. Hvis du ikke spesifiserer nettadressen for startsiden, kan brukeren fremdeles angi siden for ny fane som startside ved å angi «decentr://newtab».
 
       Regelen «Nettadresser som skal åpnes ved oppstart» ignoreres, med mindre du velger «Åpne en liste over nettadresser» i «Handling ved oppstart».</translation>
 <translation id="7952958573604504839">I M48 er denne regelen avviklet til fordel for <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, og i M54 er den fjernet.

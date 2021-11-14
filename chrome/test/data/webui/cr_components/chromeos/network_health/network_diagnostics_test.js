@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://connectivity-diagnostics/strings.m.js';
-import 'chrome://resources/cr_components/chromeos/network_health/network_diagnostics_mojo.m.js';
-import 'chrome://resources/cr_components/chromeos/network_health/network_diagnostics.m.js';
+import 'decentr://connectivity-diagnostics/strings.m.js';
+import 'decentr://resources/cr_components/chromeos/network_health/network_diagnostics_mojo.m.js';
+import 'decentr://resources/cr_components/chromeos/network_health/network_diagnostics.m.js';
 
-import {setNetworkDiagnosticsServiceForTesting} from 'chrome://resources/cr_components/chromeos/network_health/mojo_interface_provider.m.js';
-import {Icons} from 'chrome://resources/cr_components/chromeos/network_health/network_diagnostics_types.m.js';
+import {setNetworkDiagnosticsServiceForTesting} from 'decentr://resources/cr_components/chromeos/network_health/mojo_interface_provider.m.js';
+import {Icons} from 'decentr://resources/cr_components/chromeos/network_health/network_diagnostics_types.m.js';
 
 import {assertEquals, assertFalse, assertGT, assertNotReached, assertTrue} from '../../../chai_assert.js';
 import {flushTasks, isVisible} from '../../../test_util.js';

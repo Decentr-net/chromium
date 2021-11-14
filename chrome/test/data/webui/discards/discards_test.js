@@ -6,8 +6,8 @@
 // be loaded for any test of "mojo_webui" type.
 import '../mojo_webui_test_support.js';
 
-import {durationToString, maybeMakePlural} from 'chrome://discards/discards.js';
-import {compareTabDiscardsInfos} from 'chrome://discards/discards_tab.js';
+import {durationToString, maybeMakePlural} from 'decentr://discards/discards.js';
+import {compareTabDiscardsInfos} from 'decentr://discards/discards_tab.js';
 
 suite('discards', function() {
   test('CompareTabDiscardsInfo', function() {

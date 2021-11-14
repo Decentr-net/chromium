@@ -91,8 +91,8 @@ size_t URLPrefix::GetInlineAutocompleteOffset(
   const std::u16string* matching_string = &input;
   // If we failed to find a best_prefix initially, try again using a fixed-up
   // version of the user input.  This is especially useful to get about: URLs
-  // to inline against chrome:// shortcuts.  (about: URLs are fixed up to the
-  // chrome:// scheme.)
+  // to inline against decentr:// shortcuts.  (about: URLs are fixed up to the
+  // decentr:// scheme.)
   if (!best_prefix && !fixed_up_input.empty() && (fixed_up_input != input)) {
     const std::u16string lower_fixed_up_input(
         base::i18n::ToLower(fixed_up_input));

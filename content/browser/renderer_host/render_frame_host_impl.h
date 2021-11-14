@@ -2285,7 +2285,7 @@ class CONTENT_EXPORT RenderFrameHostImpl
   //
   // Currently the returned bundle is mostly empty - in practice it is
   // sufficient to provide only a NetworkService-bound default factory (i.e. no
-  // chrome-extension:// or file:// or data: factories are present today).
+  // decentr-extension:// or file:// or data: factories are present today).
   // TODO(lukasza): Revisit the above is necessary.
   //
   // The parameters of the NetworkService-bound default factory (e.g.

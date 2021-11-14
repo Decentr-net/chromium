@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test suite for chrome://personalization. Tests individual
+ * @fileoverview Test suite for decentr://personalization. Tests individual
  * polymer components in isolation.
  */
 
@@ -14,7 +14,7 @@ GEN('#include "content/public/test/browser_test.h"');
 
 var PersonalizationAppComponentBrowserTest = class extends PolymerTest {
   get browsePreload() {
-    return 'chrome://personalization/test_loader.html?' +
+    return 'decentr://personalization/test_loader.html?' +
         'module=chromeos/personalization_app/' +
         'personalization_app_component_test.js';
   }

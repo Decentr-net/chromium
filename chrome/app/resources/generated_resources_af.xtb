@@ -1414,7 +1414,7 @@ Jy kan hierdie rekening se instellings bestuur deur die Family Link-program op j
 <translation id="2431027948063157455">Google Assistent kon nie laai nie. Gaan asseblief jou netwerkverbinding na en probeer weer.</translation>
 <translation id="243179355394256322">Jou organisasie beperk toestelinskrywing tot gemagtigde gebruikers. Hierdie gebruiker is nie gemagtig om toestelle in te skryf nie. Maak in die Gebruikers-afdeling van die Adminkonsole seker dat die gebruiker die "Skryf Google Vergader-hardeware in"-administrateursvoorreg het.</translation>
 <translation id="243275146591958220">Kanselleer aflaai</translation>
-<translation id="2433452467737464329">Voeg 'n navraagparameter in URL by om die blad outomaties te herlaai: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Voeg 'n navraagparameter in URL by om die blad outomaties te herlaai: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Voorkoms</translation>
 <translation id="2433836460518180625">Ontsluit net toestel</translation>
 <translation id="2434449159125086437">Kan nie drukker opstel nie. Gaan opstelling na en probeer weer.</translation>
@@ -1943,7 +1943,7 @@ en Ctrl+Alt+Verlaag Helderheid om uit te zoem</translation>
 <translation id="2959127025785722291">Iets is fout. Kon nie skandering voltooi nie. Probeer weer.</translation>
 <translation id="2959842337402130152">Kon weens 'n tekort aan bergingspasie nie terugstel nie. Stel <ph name="SPACE_REQUIRED" /> op die toestel beskikbaar en probeer weer.</translation>
 <translation id="2960208947600937804">Kon nie Linux opstel nie. Kontak jou administrateur.</translation>
-<translation id="296026337010986570">Klaar! Skadelike sagteware is verwyder. Besoek &lt;a href="chrome://extensions"&gt;Uitbreidings&lt;/a&gt; om uitbreidings weer aan te skakel.</translation>
+<translation id="296026337010986570">Klaar! Skadelike sagteware is verwyder. Besoek &lt;a href="decentr://extensions"&gt;Uitbreidings&lt;/a&gt; om uitbreidings weer aan te skakel.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (uitstel is voorsien)</translation>
 <translation id="2961210776189273067">Titel</translation>
 <translation id="2961695502793809356">Klik om vorentoe te gaan, hou om geskiedenis te sien</translation>
@@ -4942,7 +4942,7 @@ Maak seker jy wys nie enige sensitiewe inligting nie.</translation>
 <translation id="6227280783235722609">uitbreiding</translation>
 <translation id="6229849828796482487">Ontkoppel Wi-Fi-netwerk</translation>
 <translation id="6231782223312638214">Voorgestelde</translation>
-<translation id="6231881193380278751">Voeg 'n navraagparameter in URL by om die bladsy te outoherlaai: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Voeg 'n navraagparameter in URL by om die bladsy te outoherlaai: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Battery</translation>
 <translation id="6232116551750539448">Verbinding aan <ph name="NAME" /> is verlore</translation>
 <translation id="6233154960150021497">Gaan na verstek om stem pleks van sleutelbord te gebruik</translation>

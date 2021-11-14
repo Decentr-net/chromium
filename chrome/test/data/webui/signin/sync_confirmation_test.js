@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://sync-confirmation/sync_confirmation_app.js';
+import 'decentr://sync-confirmation/sync_confirmation_app.js';
 
-import {SyncConfirmationBrowserProxyImpl} from 'chrome://sync-confirmation/sync_confirmation_browser_proxy.js';
+import {SyncConfirmationBrowserProxyImpl} from 'decentr://sync-confirmation/sync_confirmation_browser_proxy.js';
 import {TestSyncConfirmationBrowserProxy} from './test_sync_confirmation_browser_proxy.js';
 
 suite('SigninSyncConfirmationTest', function() {

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 // #import '../constants/routes.mojom-lite.js';
 
 // #import {OsSettingsRoutes} from './os_settings_routes.m.js';
 // #import {Route, Router} from '../router.js';
-// #import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+// #import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 cr.define('settings', function() {
   /**

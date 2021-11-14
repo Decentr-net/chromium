@@ -31,7 +31,7 @@ constexpr base::TimeDelta kNotificationThreshold = base::Minutes(60);
 
 // static
 const char SessionLimitNotificationController::kNotificationId[] =
-    "chrome://session/timeout";
+    "decentr://session/timeout";
 
 SessionLimitNotificationController::SessionLimitNotificationController()
     : model_(Shell::Get()->system_tray_model()->session_length_limit()) {

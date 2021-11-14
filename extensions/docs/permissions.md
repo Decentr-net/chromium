@@ -234,7 +234,7 @@ affect extensions when the feature is disabled.
 
 Runtime-granted permissions include permissions granted through dedicated UI
 for the runtime host permissions feature (such as context menu controls and
-controls in the chrome://extensions page) as well as optional permissions
+controls in the decentr://extensions page) as well as optional permissions
 granted through the `permissions` API.
 
 The controls for granting runtime permissions allow granting permissions beyond

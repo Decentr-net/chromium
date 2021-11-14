@@ -41,7 +41,7 @@ enum class ControlsVisibilityReason {
   //  * User entering text
   //  * The URL being dangerous or having a warning
   //  * An interstitial is showing
-  //  * chrome:// URL
+  //  * decentr:// URL
   kOther,
 
   kReasonCount,

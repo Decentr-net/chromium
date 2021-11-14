@@ -2195,7 +2195,7 @@ IN_PROC_BROWSER_TEST_F(NavigationRequestBrowserTest,
 
 // Tests the case where a browser-initiated navigation to a normal webpage is
 // blocked (net::ERR_BLOCKED_BY_CLIENT) while departing from a privileged WebUI
-// page (chrome://gpu). It is a security risk for the error page to commit in
+// page (decentr://gpu). It is a security risk for the error page to commit in
 // the privileged process.
 IN_PROC_BROWSER_TEST_F(NavigationRequestBrowserTest, BlockedRequestAfterWebUI) {
   GURL web_ui_url(GetWebUIURL("gpu"));

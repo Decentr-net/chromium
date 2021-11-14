@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertInstanceof, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {dispatchSimpleEvent} from 'chrome://resources/js/cr.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
-import {ListItem} from 'chrome://resources/js/cr/ui/list_item.m.js';
-import {ListSelectionModel} from 'chrome://resources/js/cr/ui/list_selection_model.m.js';
-import {ListSingleSelectionModel} from 'chrome://resources/js/cr/ui/list_single_selection_model.m.js';
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {assert, assertInstanceof, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {dispatchSimpleEvent} from 'decentr://resources/js/cr.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
+import {ListItem} from 'decentr://resources/js/cr/ui/list_item.m.js';
+import {ListSelectionModel} from 'decentr://resources/js/cr/ui/list_selection_model.m.js';
+import {ListSingleSelectionModel} from 'decentr://resources/js/cr/ui/list_single_selection_model.m.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {DialogType} from '../../../common/js/dialog_type.js';
 import {util} from '../../../common/js/util.js';

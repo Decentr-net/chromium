@@ -159,9 +159,9 @@ TEST(PnaclTranslationCacheKeyTest, CacheKeyTest) {
             "sandbox:x86-32;extra_flags:;",
             PnaclTranslationCache::GetKey(info));
   // Check chrome-extesnsion scheme
-  info.pexe_url = GURL("chrome-extension://ljacajndfccfgnfohlgkdphmbnpkjflk/");
+  info.pexe_url = GURL("decentr-extension://ljacajndfccfgnfohlgkdphmbnpkjflk/");
   EXPECT_EQ("ABI:0;opt:0;"
-            "URL:chrome-extension://ljacajndfccfgnfohlgkdphmbnpkjflk/;"
+            "URL:decentr-extension://ljacajndfccfgnfohlgkdphmbnpkjflk/;"
             "modified:1995:11:15:6:25:24:0:UTC;etag:;"
             "sandbox:x86-32;extra_flags:;",
             PnaclTranslationCache::GetKey(info));

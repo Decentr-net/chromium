@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
 
-import {CrAutoImgElement} from 'chrome://resources/cr_elements/cr_auto_img/cr_auto_img.js';
-import {ClickInfo, Command} from 'chrome://resources/js/browser_command/browser_command.mojom-webui.js';
-import {BrowserCommandProxy} from 'chrome://resources/js/browser_command/browser_command_proxy.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrAutoImgElement} from 'decentr://resources/cr_elements/cr_auto_img/cr_auto_img.js';
+import {ClickInfo, Command} from 'decentr://resources/js/browser_command/browser_command.mojom-webui.js';
+import {BrowserCommandProxy} from 'decentr://resources/js/browser_command/browser_command_proxy.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {NewTabPageProxy} from './new_tab_page_proxy.js';
 import {WindowProxy} from './window_proxy.js';

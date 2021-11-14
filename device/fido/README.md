@@ -28,7 +28,7 @@ If interaction with UI is required, for example to prompt for a PIN, the handler
 
 ## Settings
 
-It's also possible for security key operations to be triggered by actions in the Settings UI: there are several security key actions that can be taken on `chrome://settings/securityKeys`. In this case, calls from the Javascript that implements the Settings UI end up in [`SecurityKeysHandler`](https://cs.chromium.org/search/?q=symbol:settings::SecurityKeysHandler+exact:yes), which then operates in the same way as `AuthenticatorCommon`, albeit without creating any native UI.
+It's also possible for security key operations to be triggered by actions in the Settings UI: there are several security key actions that can be taken on `decentr://settings/securityKeys`. In this case, calls from the Javascript that implements the Settings UI end up in [`SecurityKeysHandler`](https://cs.chromium.org/search/?q=symbol:settings::SecurityKeysHandler+exact:yes), which then operates in the same way as `AuthenticatorCommon`, albeit without creating any native UI.
 
 ## Fuzzers
 

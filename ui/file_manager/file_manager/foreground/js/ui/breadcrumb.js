@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CrActionMenuElement} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrActionMenuElement} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /** @const {!HTMLTemplateElement} */
 const htmlTemplate = html`{__html_template__}`;

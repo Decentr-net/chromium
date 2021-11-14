@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 
 /**
- * A mojom.BluetoothInternalsHandler for the chrome://bluetooth-internals
+ * A mojom.BluetoothInternalsHandler for the decentr://bluetooth-internals
  * page. Provides a fake BluetoothInternalsHandler::GetAdapter
  * implementation and acts as a root of all Test* classes by containing an
  * adapter member.
@@ -47,7 +47,7 @@ export class TestBluetoothInternalsHandler extends TestBrowserProxy {
 
 /**
  * A bluetooth.mojom.Adapter implementation for the
- * chrome://bluetooth-internals page.
+ * decentr://bluetooth-internals page.
  */
 export class TestAdapter extends TestBrowserProxy {
   constructor(adapterInfo) {
@@ -139,7 +139,7 @@ export class TestAdapter extends TestBrowserProxy {
 
 /**
  * A bluetooth.mojom.Device implementation for the
- * chrome://bluetooth-internals page. Remotes are returned by a
+ * decentr://bluetooth-internals page. Remotes are returned by a
  * TestAdapter which provides the DeviceInfo.
  * @param {!device.DeviceInfo} info
  */

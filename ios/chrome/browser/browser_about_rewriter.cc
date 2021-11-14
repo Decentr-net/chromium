@@ -42,11 +42,11 @@ bool WillHandleWebBrowserAboutURL(GURL* url, web::BrowserState* browser_state) {
   DCHECK(!url->SchemeIs(url::kAboutScheme) ||
          (url->path() == url::kAboutBlankPath));
 
-  // url_formatter::FixupURL translates about:foo into chrome://foo/.
+  // url_formatter::FixupURL translates about:foo into decentr://foo/.
   if (!url->SchemeIs(kChromeUIScheme))
     return false;
 
-  // Translate chrome://newtab back into about://newtab so the WebState shows a
+  // Translate decentr://newtab back into about://newtab so the WebState shows a
   // blank page under the NTP.
   if (url->GetOrigin() == kChromeUINewTabURL) {
     GURL::Replacements replacements;

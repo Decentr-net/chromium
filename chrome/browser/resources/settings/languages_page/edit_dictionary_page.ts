@@ -7,19 +7,19 @@
  * the "dictionary" of custom words used for spell check.
  */
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/polymer/v3_0/iron-a11y-keys/iron-a11y-keys.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/polymer/v3_0/iron-a11y-keys/iron-a11y-keys.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
 import '../prefs/prefs.js';
 import '../settings_shared_css.js';
 import '../settings_vars_css.js';
 
-import {CrInputElement} from 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
-import {IronA11yKeysElement} from 'chrome://resources/polymer/v3_0/iron-a11y-keys/iron-a11y-keys.js';
-import {flush, html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrInputElement} from 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
+import {IronA11yKeysElement} from 'decentr://resources/polymer/v3_0/iron-a11y-keys/iron-a11y-keys.js';
+import {flush, html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {GlobalScrollTargetMixin} from '../global_scroll_target_mixin.js';
 import {loadTimeData} from '../i18n_setup.js';

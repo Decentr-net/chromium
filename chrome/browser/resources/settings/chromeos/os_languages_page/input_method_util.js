@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// #import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
+// #import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
 // #import {routes} from '../os_route.m.js';
 import {inputMethodSettings, SettingsType} from './input_method_settings.js';
 // #import {Route} from '../../router.js';

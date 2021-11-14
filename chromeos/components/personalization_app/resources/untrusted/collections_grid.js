@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome-untrusted://personalization/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr-untrusted://personalization/polymer/v3_0/iron-list/iron-list.js';
 import './setup.js';
 import './styles.js';
-import {afterNextRender, html, PolymerElement} from 'chrome-untrusted://personalization/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {afterNextRender, html, PolymerElement} from 'decentr-untrusted://personalization/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {EventType, kMaximumLocalImagePreviews} from '../common/constants.js';
 import {selectCollection, selectLocalCollection, validateReceivedData} from '../common/iframe_api.js';
 import {getLoadingPlaceholderAnimationDelay, isSelectionEvent} from '../common/utils.js';
@@ -385,7 +385,7 @@ export class CollectionsGrid extends PolymerElement {
   }
 
   /**
-   * Not using I18nBehavior because of chrome-untrusted:// incompatibility.
+   * Not using I18nBehavior because of decentr-untrusted:// incompatibility.
    * @param {string} str
    * @return {string}
    */

@@ -28,7 +28,7 @@ bool HandleAndroidNativePageURL(GURL* url,
       return true;
     }
 
-    // TODO(twellington): stop redirecting chrome://history to
+    // TODO(twellington): stop redirecting decentr://history to
     // chrome-native://history when M57 is a distant memory.
     // See http://crbug.com/654071.
     if (url->host() == kChromeUIHistoryHost) {

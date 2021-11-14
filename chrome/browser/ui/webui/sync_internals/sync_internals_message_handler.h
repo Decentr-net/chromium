@@ -22,7 +22,7 @@ class SyncInvalidationsService;
 struct TypeEntitiesCount;
 }  //  namespace syncer
 
-// The implementation for the chrome://sync-internals page.
+// The implementation for the decentr://sync-internals page.
 class SyncInternalsMessageHandler : public content::WebUIMessageHandler,
                                     public syncer::SyncServiceObserver,
                                     public syncer::ProtocolEventObserver,

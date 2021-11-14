@@ -116,7 +116,7 @@ IN_PROC_BROWSER_TEST_P(TelemetryExtensionWithDirIntegrationTest,
 }
 
 // Tests that TelemetryExtensionUntrustedSource fails to load non-existing
-// chrome-untrusted://telemetry-extension/ resource from disk.
+// decentr-untrusted://telemetry-extension/ resource from disk.
 IN_PROC_BROWSER_TEST_P(
     TelemetryExtensionWithDirIntegrationTest,
     TelemetryExtensionUntrustedSourceFailToLoadNonExistentURL) {

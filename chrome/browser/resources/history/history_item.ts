@@ -5,19 +5,19 @@
 import './searched_label.js';
 import './shared_style.js';
 import './strings.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/js/icon.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/js/icon.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 
-import {CrCheckboxElement} from 'chrome://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
-import {CrIconButtonElement} from 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import {FocusRowBehavior} from 'chrome://resources/js/cr/ui/focus_row_behavior.m.js';
-import {focusWithoutInk} from 'chrome://resources/js/cr/ui/focus_without_ink.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {getFaviconForPageURL} from 'chrome://resources/js/icon.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {afterNextRender, html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrCheckboxElement} from 'decentr://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
+import {CrIconButtonElement} from 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import {FocusRowBehavior} from 'decentr://resources/js/cr/ui/focus_row_behavior.m.js';
+import {focusWithoutInk} from 'decentr://resources/js/cr/ui/focus_without_ink.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {getFaviconForPageURL} from 'decentr://resources/js/icon.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {afterNextRender, html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserService} from './browser_service.js';
 import {UMA_MAX_BUCKET_VALUE, UMA_MAX_SUBSET_BUCKET_VALUE} from './constants.js';

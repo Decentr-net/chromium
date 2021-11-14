@@ -32,7 +32,7 @@
 
 namespace {
 
-// The implementation for the chrome://ntp-tiles-internals page.
+// The implementation for the decentr://ntp-tiles-internals page.
 class ChromeNTPTilesInternalsMessageHandlerClient
     : public content::WebUIMessageHandler,
       public ntp_tiles::NTPTilesInternalsMessageHandlerClient {
@@ -140,7 +140,7 @@ content::WebUIDataSource* CreateNTPTilesInternalsHTMLSource() {
       content::WebUIDataSource::Create(chrome::kChromeUINTPTilesInternalsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::TrustedTypes,
       "trusted-types jstemplate;");

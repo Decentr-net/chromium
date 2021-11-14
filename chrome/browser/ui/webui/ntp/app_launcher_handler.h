@@ -220,7 +220,7 @@ class AppLauncherHandler
   // True if the extension should be displayed.
   bool ShouldShow(const extensions::Extension* extension);
 
-  // Handle installing OS hooks for Web App installs from chrome://apps page.
+  // Handle installing OS hooks for Web App installs from decentr://apps page.
   void InstallOsHooks(const web_app::AppId& app_id);
 
   // The apps are represented in the extensions model, which

@@ -1052,7 +1052,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dominickn@chromium.org</owner>
   <summary>
     The actions taken by the user when they are viewing the app details of an
-    app in App Management (chrome://os-settings/app-management).
+    app in App Management (decentr://os-settings/app-management).
   </summary>
 </histogram>
 
@@ -8036,7 +8036,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="2018-08-30">
   <owner>gab@chromium.org</owner>
   <summary>
-    The importer used on import from the chrome://settings/importData UI.
+    The importer used on import from the decentr://settings/importData UI.
   </summary>
 </histogram>
 
@@ -8204,7 +8204,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>pmonette@chromium.org</owner>
   <summary>
     Records whether the user was automatically shown the
-    chrome://settings/incompatibleApplications page following a Chrome crash.
+    decentr://settings/incompatibleApplications page following a Chrome crash.
   </summary>
 </histogram>
 
@@ -8213,7 +8213,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>pmonette@chromium.org</owner>
   <summary>
     The number of incompatible applications detected by Chrome at the time the
-    chrome://settings/incompatibleApplications page was opened.
+    decentr://settings/incompatibleApplications page was opened.
   </summary>
 </histogram>
 
@@ -14305,7 +14305,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <obsolete>
     Removed June 2021 in favor of a local histogram. See
     Net.SQLite.CorruptMetaTableRecovered (which is a local histogram only logged
-    to, and viewable from, chrome://histograms).
+    to, and viewable from, decentr://histograms).
   </obsolete>
   <owner>chlily@chromium.org</owner>
   <owner>sburnett@chromium.org</owner>
@@ -14321,7 +14321,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <obsolete>
     Removed June 2021 in favor of a local histogram. See
     Net.SQLite.CorruptMetaTableRecovered (which is a local histogram only logged
-    to, and viewable from, chrome://histograms).
+    to, and viewable from, decentr://histograms).
   </obsolete>
   <owner>chlily@chromium.org</owner>
   <owner>sburnett@chromium.org</owner>
@@ -19566,7 +19566,7 @@ regressions. -->
   <summary>
     Percentage of results that are present locally but are not returned by the
     web history API call. Recorded every time a signed-in user visits the
-    chrome://history page and the results from the web history are received.
+    decentr://history page and the results from the web history are received.
   </summary>
 </histogram>
 
@@ -19575,7 +19575,7 @@ regressions. -->
   <owner>zea@chromium.org</owner>
   <summary>
     Whether getting the OAuth token was successful for a web history query. On
-    visits to the chrome://history page this token is obtained and then used to
+    visits to the decentr://history page this token is obtained and then used to
     get the user's synced web history.
   </summary>
 </histogram>
@@ -19594,7 +19594,7 @@ regressions. -->
   <owner>zea@chromium.org</owner>
   <summary>
     Whether the web history API call was successful. Every time a signed-in user
-    visits the chrome://history page this query is executed to get the user's
+    visits the decentr://history page this query is executed to get the user's
     synced web history. If successful, the local and remote results are merged
     and shown in the history page.
   </summary>
@@ -19604,7 +19604,7 @@ regressions. -->
   <owner>zea@chromium.org</owner>
   <summary>
     Time it took for the web history to reply. Recorded when the web history API
-    call triggered by visiting chrome://history receives the data, measuring how
+    call triggered by visiting decentr://history receives the data, measuring how
     much time it took for the server to reply.
   </summary>
 </histogram>
@@ -19877,8 +19877,8 @@ regressions. -->
   <owner>tbuckley@chromium.org</owner>
   <owner>bettes@chromium.org</owner>
   <summary>
-    Paths within chrome://settings visited. For evaluating popularity and
-    priorities for chrome://settings GUI. Note that this metric used to include
+    Paths within decentr://settings visited. For evaluating popularity and
+    priorities for decentr://settings GUI. Note that this metric used to include
     paths that were part of OS settings, but starting with M-81, this metric
     only records browser settings paths.
   </summary>

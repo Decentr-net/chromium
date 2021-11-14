@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/activation_code_page.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/activation_code_page.m.js';
 
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {assertTrue} from '../../../chai_assert.js';
 // #import {FakeMediaDevices} from './fake_media_devices.m.js';
 // #import {FakeBarcodeDetector, FakeImageCapture} from './fake_barcode_detector.m.js';
-// #import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
+// #import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
 // clang-format on
 
 suite('CrComponentsActivationCodePageTest', function() {

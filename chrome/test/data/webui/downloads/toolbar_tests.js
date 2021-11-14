@@ -4,8 +4,8 @@
 
 import '../mojo_webui_test_support.js';
 
-import {SearchService} from 'chrome://downloads/downloads.js';
-import {createDownload} from 'chrome://test/downloads/test_support.js';
+import {SearchService} from 'decentr://downloads/downloads.js';
+import {createDownload} from 'decentr://test/downloads/test_support.js';
 
 suite('toolbar tests', function() {
   /** @type {!downloads.Toolbar} */

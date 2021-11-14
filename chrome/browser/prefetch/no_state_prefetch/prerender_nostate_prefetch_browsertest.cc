@@ -1245,7 +1245,7 @@ IN_PROC_BROWSER_TEST_F(NoStatePrefetchBrowserTest, RendererCrash) {
           ->GetController()
           .GetDefaultSessionStorageNamespace();
 
-  // Navigate to about:crash without an intermediate loader because chrome://
+  // Navigate to about:crash without an intermediate loader because decentr://
   // URLs are ignored in renderers, and the test server has no support for them.
   const gfx::Size kSize(640, 480);
   std::unique_ptr<TestPrerender> test_prerender =

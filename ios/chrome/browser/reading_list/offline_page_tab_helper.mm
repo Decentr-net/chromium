@@ -239,7 +239,7 @@ void OfflinePageTabHelper::PageLoaded(
   }
   StopCheckingLoadingProgress();
   // If the offline page was loaded directly, the initial_navigation_url_ is
-  // chrome://offline?... and triggers a load error. Extract the meaningful
+  // decentr://offline?... and triggers a load error. Extract the meaningful
   // URL from the loading URL.
   GURL url = GetOnlineURLFromNavigationURL(initial_navigation_url_);
 
@@ -315,7 +315,7 @@ void OfflinePageTabHelper::PresentOfflinePageForOnlineUrl(const GURL& url) {
   const ReadingListEntry* entry = reading_list_model_->GetEntryByURL(entry_url);
   if (!is_offline_navigation_ && is_new_navigation_ && !navigation_committed_) {
     // If the current navigation was not committed, but it was a new navigation,
-    // a new placeholder navigation with a chrome://offline URL can be created
+    // a new placeholder navigation with a decentr://offline URL can be created
     // which will be replaced by the offline version on load failure.
     GURL offlineURL = reading_list::OfflineURLForPath(
         entry->DistilledPath(), entry_url, entry->DistilledURL());

@@ -33,7 +33,7 @@ def _process_js_module(input_file, output_filename):
 
   # Map //ui/file_manager files to test URL:
   js_module_url = input_file.replace(
-      'ui/file_manager/', 'chrome://file_manager_test/ui/file_manager/', 1)
+      'ui/file_manager/', 'decentr://file_manager_test/ui/file_manager/', 1)
 
   with open(output_filename, 'w') as out:
     out.write(_HTML_FILE_START + '\n')

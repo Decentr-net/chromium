@@ -300,7 +300,7 @@ void LogWarningAction(WarningUIType ui_type,
                       WarningAction action,
                       ReusedPasswordAccountType password_account_type) {
   // |password_type| can be unknown if user directly navigates to
-  // chrome://reset-password page. In this case, do not record user action.
+  // decentr://reset-password page. In this case, do not record user action.
   if (password_account_type.account_type() ==
           ReusedPasswordAccountType::UNKNOWN &&
       ui_type == WarningUIType::INTERSTITIAL) {

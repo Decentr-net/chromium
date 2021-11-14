@@ -108,7 +108,7 @@ bool WebSessionStateTabHelper::RestoreSessionFromCache() {
       item->SetTitle(l10n_util::GetStringUTF16(IDS_NEW_TAB_TITLE));
     }
 
-    // The wk_state underlaying a forced-offline page is chrome://offline, which
+    // The wk_state underlaying a forced-offline page is decentr://offline, which
     // has an embedded entry URL. Apply that entryURL to the virtualURL here.
     if (item->GetVirtualURL().host() == kChromeUIOfflineHost) {
       item->SetVirtualURL(

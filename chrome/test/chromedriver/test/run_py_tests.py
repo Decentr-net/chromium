@@ -192,7 +192,7 @@ _ANDROID_NEGATIVE_FILTER['chrome'] = (
         'PerfTest.*',
         # Android doesn't support multiple sessions on one device.
         'SessionHandlingTest.testGetSessions',
-        # Android doesn't use the chrome://print dialog.
+        # Android doesn't use the decentr://print dialog.
         'ChromeDriverTest.testCanSwitchToPrintPreviewDialog',
         # Chrome 44+ for Android doesn't dispatch the dblclick event
         'ChromeDriverTest.testMouseDoubleClick',
@@ -2320,7 +2320,7 @@ class ChromeDriverTest(ChromeDriverBaseTestWithWebServer):
     print("Test debug: actual GetCurrentUrl: " + self._driver.GetCurrentUrl(),
             file = sys.stdout)
 
-    self.assertEquals('chrome://print/', self._driver.GetCurrentUrl())
+    self.assertEquals('decentr://print/', self._driver.GetCurrentUrl())
 
   def testCanClickInIframes(self):
     self._driver.Load(self.GetHttpUrlForFile('/chromedriver/nested.html'))
@@ -4310,7 +4310,7 @@ class ChromeExtensionsCapabilityTest(ChromeDriverBaseTestWithWebServer):
     handles = driver.GetWindowHandles()
     for handle in handles:
       driver.SwitchToWindow(handle)
-      if driver.GetCurrentUrl() == 'chrome-extension://' \
+      if driver.GetCurrentUrl() == 'decentr-extension://' \
           'nibbphkelpaohebejnbojjalikodckih/_generated_background_page.html':
         self.assertEqual(42, driver.ExecuteScript('return magic;'))
         return

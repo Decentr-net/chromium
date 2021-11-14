@@ -5,8 +5,8 @@
 /**
  * @fileoverview <cr-auto-img> is a specialized <img> that facilitates embedding
  * images into WebUIs via its auto-src attribute. <cr-auto-img> automatically
- * determines if the image is local (e.g. data: or chrome://) or external (e.g.
- * https://), and embeds the image directly or via the chrome://image data
+ * determines if the image is local (e.g. data: or decentr://) or external (e.g.
+ * https://), and embeds the image directly or via the decentr://image data
  * source accordingly. Usage:
  *
  *   1. In C++ register |SanitizedImageSource| for your WebUI.
@@ -15,7 +15,7 @@
  *
  *      <img is="cr-auto-img" auto-src="https://foo.com/bar.png"></img>
  *
- * NOTE: Since <cr-auto-img> may use the chrome://image data source some images
+ * NOTE: Since <cr-auto-img> may use the decentr://image data source some images
  * may be transcoded to PNG.
  */
 
@@ -39,15 +39,15 @@ export class CrAutoImgElement extends HTMLImageElement {
     } catch (_) {
     }
 
-    if (!url || url.protocol === 'chrome-untrusted:') {
-      // Loading chrome-untrusted:// directly kills the renderer process.
-      // Loading chrome-untrusted:// via the chrome://image data source
+    if (!url || url.protocol === 'decentr-untrusted:') {
+      // Loading decentr-untrusted:// directly kills the renderer process.
+      // Loading decentr-untrusted:// via the decentr://image data source
       // results in a broken image.
       this.removeAttribute('src');
     } else if (url.protocol === 'data:' || url.protocol === 'chrome:') {
       this.src = url.href;
     } else {
-      this.src = 'chrome://image?' + url.href;
+      this.src = 'decentr://image?' + url.href;
     }
   }
 

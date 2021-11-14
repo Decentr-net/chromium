@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
 
-import {keyDownOn, keyEventOn, tap} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {keyDownOn, keyEventOn, tap} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertNotReached, assertTrue} from '../chai_assert.js';
 //
@@ -50,9 +50,9 @@ suite('cr-dialog', function() {
   setup(function() {
     document.body.innerHTML = '';
     // Ensure svg, which is referred to by a relative URL, is loaded from
-    // chrome://resources and not chrome://test
+    // decentr://resources and not decentr://test
     const base = document.createElement('base');
-    base.href = 'chrome://resources/cr_elements/';
+    base.href = 'decentr://resources/cr_elements/';
     document.head.appendChild(base);
   });
 

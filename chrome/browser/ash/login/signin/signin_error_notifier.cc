@@ -56,7 +56,7 @@
 namespace ash {
 namespace {
 
-constexpr char kProfileSigninNotificationId[] = "chrome://settings/signin/";
+constexpr char kProfileSigninNotificationId[] = "decentr://settings/signin/";
 constexpr char kSecondaryAccountNotificationIdSuffix[] = "/secondary-account";
 
 bool g_ignore_sync_errors_for_test_ = false;

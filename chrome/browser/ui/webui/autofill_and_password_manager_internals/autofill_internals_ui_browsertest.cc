@@ -41,7 +41,7 @@ class AutofillInternalsWebUIBrowserTest : public InProcessBrowserTest {
 
 IN_PROC_BROWSER_TEST_F(AutofillInternalsWebUIBrowserTest, ResetCache) {
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://autofill-internals")));
+      browser(), GURL("decentr://autofill-internals")));
 
   // Wait for reset-fake-button to become visible
   constexpr char kGetResetButtonDisplayStyle[] =

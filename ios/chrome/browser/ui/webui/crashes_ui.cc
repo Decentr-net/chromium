@@ -61,7 +61,7 @@ web::WebUIIOSDataSource* CreateCrashesUIHTMLSource() {
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-// The handler for Javascript messages for the chrome://crashes/ page.
+// The handler for Javascript messages for the decentr://crashes/ page.
 class CrashesDOMHandler : public web::WebUIIOSMessageHandler {
  public:
   CrashesDOMHandler();
@@ -162,7 +162,7 @@ CrashesUI::CrashesUI(web::WebUIIOS* web_ui, const std::string& host)
     : web::WebUIIOSController(web_ui, host) {
   web_ui->AddMessageHandler(std::make_unique<CrashesDOMHandler>());
 
-  // Set up the chrome://crashes/ source.
+  // Set up the decentr://crashes/ source.
   web::WebUIIOSDataSource::Add(ChromeBrowserState::FromWebUIIOS(web_ui),
                                CreateCrashesUIHTMLSource());
 }

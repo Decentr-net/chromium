@@ -10,7 +10,7 @@
 
 namespace security_interstitials {
 
-// The WebUI for chrome://connection-help, which provides help content to users
+// The WebUI for decentr://connection-help, which provides help content to users
 // with network configuration problems that prevent them from making secure
 // connections.
 class ConnectionHelpUI : public content::WebUIController {

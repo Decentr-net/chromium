@@ -26,7 +26,7 @@ content::WebUIDataSource* CreateConflictsUIHTMLSource() {
       content::WebUIDataSource::Create(chrome::kChromeUIConflictsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::TrustedTypes,
       "trusted-types jstemplate;");

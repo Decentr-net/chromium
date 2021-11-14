@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // #clang-format off
-import 'chrome://settings/settings.js';
+import 'decentr://settings/settings.js';
 // #clang-format on
 
 suite('Settings idle load tests', function() {
   setup(function() {
     document.body.innerHTML = `
       <settings-idle-load id="idleTemplate"
-          url="chrome://resources/html/polymer.html">
+          url="decentr://resources/html/polymer.html">
         <template>
           <div></div>
         </template>

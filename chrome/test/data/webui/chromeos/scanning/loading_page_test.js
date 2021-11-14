@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://scanning/loading_page.js';
+import 'decentr://scanning/loading_page.js';
 
-import {AppState} from 'chrome://scanning/scanning_app_types.js';
+import {AppState} from 'decentr://scanning/scanning_app_types.js';
 
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 import {isVisible} from '../../test_util.js';

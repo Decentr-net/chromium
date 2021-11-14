@@ -1,6 +1,6 @@
 # Prefs
 Prefs is meant to store lightweight state that reflects user preferences (e.g.
-chrome://settings, position of windows on last exit, etc.). Browser-wide prefs
+decentr://settings, position of windows on last exit, etc.). Browser-wide prefs
 are stored in Local State (`g_browser_process->local_state()`) and per-profile
 prefs are stored in Preferences (`Profile::GetPrefs()`). The `base::PrefService`
 API is used to read/write registered prefs. Prefs are saved as JSON and any

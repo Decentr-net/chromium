@@ -176,7 +176,7 @@ void ProfilePickerDiceSignInProvider::NavigationStateChanged(
     DiceTabHelper::CreateForWebContents(contents_.get());
     DiceTabHelper* tab_helper = DiceTabHelper::FromWebContents(contents_.get());
     // Use |redirect_url| and not |continue_url|, so that the DiceTabHelper can
-    // redirect to chrome:// URLs such as the NTP.
+    // redirect to decentr:// URLs such as the NTP.
     tab_helper->InitializeSigninFlow(
         GetSigninURL(host_->ShouldUseDarkColors()),
         signin_metrics::AccessPoint::ACCESS_POINT_USER_MANAGER,

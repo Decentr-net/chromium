@@ -245,7 +245,7 @@ public class VideoPlayerMediatorUnitTest {
                 animationUrl, thumbnailUrl, captionUrl, shareUrl, 25);
 
         assertThat(VideoPlayerURLBuilder.buildFromTutorial(testTutorial),
-                equalTo("chrome-untrusted://video-tutorials/"
+                equalTo("decentr-untrusted://video-tutorials/"
                         + "?video_url=https://example/video.mp4"
                         + "&poster_url=https://example/poster.png"
                         + "&caption_url=https://example/caption.vtt"));

@@ -4,7 +4,7 @@
   "version": "1",
   "app": {
     "launch": {
-      "web_url": "chrome://history/"
+      "web_url": "decentr://history/"
     }
   }
 }

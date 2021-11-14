@@ -34,7 +34,7 @@ class ProcessMap;
 // chrome/browser/extensions/extension_protocols_unittest.cc for related tests.
 namespace chrome_url_request_util {
 
-// Sets allowed=true to allow a chrome-extension:// resource request coming from
+// Sets allowed=true to allow a decentr-extension:// resource request coming from
 // renderer A to access a resource in an extension running in renderer B.
 // Returns false when it couldn't determine if the resource is allowed or not
 bool AllowCrossRendererResourceLoad(

@@ -365,7 +365,7 @@ UIViewController* TopPresentedViewController() {
   }
 
   // Navigate to a page to enable the back button.
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   FocusOmnibox();
 
@@ -380,7 +380,7 @@ UIViewController* TopPresentedViewController() {
 // different orientation than the default one.
 - (void)testFocusOmniboxFromOtherOrientation {
   // Load a page to have the toolbar visible (hidden on NTP).
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   // Get the original trait collection.
   UIViewController* topViewController = TopPresentedViewController();
@@ -416,7 +416,7 @@ UIViewController* TopPresentedViewController() {
 // the default orientation.
 - (void)testFocusOmniboxFromPortrait {
   // Load a page to have the toolbar visible (hidden on NTP).
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   FocusOmnibox();
 
@@ -583,7 +583,7 @@ UIViewController* TopPresentedViewController() {
 // Verifies the existence and state of toolbar UI elements.
 - (void)testToolbarUI {
   // Load a page to have the toolbar visible (hidden on NTP).
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   // Get the original trait collection.
   UIViewController* topViewController = TopPresentedViewController();

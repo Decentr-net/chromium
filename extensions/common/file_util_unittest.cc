@@ -609,7 +609,7 @@ TEST_F(FileUtilTest, CheckInvisibleIconFilePacked) {
 }
 
 TEST_F(FileUtilTest, ExtensionURLToRelativeFilePath) {
-#define URL_PREFIX "chrome-extension://extension-id/"
+#define URL_PREFIX "decentr-extension://extension-id/"
   struct TestCase {
     const char* url;
     const char* expected_relative_path;

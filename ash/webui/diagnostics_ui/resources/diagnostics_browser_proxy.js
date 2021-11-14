@@ -8,7 +8,7 @@
  * exist in chrome/.
  */
 
-import {addSingletonGetter, sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {addSingletonGetter, sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 /** @interface */
 export class DiagnosticsBrowserProxy {

@@ -13,7 +13,7 @@
 
 class ProfileInfoWatcher;
 
-// The handler for login-related messages from chrome://history.
+// The handler for login-related messages from decentr://history.
 class HistoryLoginHandler : public content::WebUIMessageHandler {
  public:
   explicit HistoryLoginHandler(base::RepeatingClosure signin_callback);

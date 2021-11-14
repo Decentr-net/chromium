@@ -35,4 +35,4 @@ CrPicture.SelectionTypes = {
  */
 CrPicture.ImageElement;
 
-CrPicture.kDefaultImageUrl = 'chrome://theme/IDR_LOGIN_DEFAULT_USER';
+CrPicture.kDefaultImageUrl = 'decentr://theme/IDR_LOGIN_DEFAULT_USER';

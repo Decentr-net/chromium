@@ -759,7 +759,7 @@ TEST_F(WebDatabaseMigrationTest, MigrateVersion58ToCurrent) {
 
   const char query_extensions[] =
       "SELECT * FROM keywords "
-      "WHERE url='chrome-extension://iphchnegaodmijmkdlbhbanjhfphhikp/"
+      "WHERE url='decentr-extension://iphchnegaodmijmkdlbhbanjhfphhikp/"
       "?q={searchTerms}'";
   // Verify pre-conditions.
   {

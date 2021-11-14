@@ -28,7 +28,7 @@ ExtensionBridge = class {
     self.messageListeners = [];
     self.disconnectListeners = [];
 
-    if (/^chrome-extension:\/\/.*background\.html$/.test(
+    if (/^decentr-extension:\/\/.*background\.html$/.test(
             window.location.href)) {
       // This depends on the fact that the background page has a specific url.
       // We should never be loaded into another extension's background page, so

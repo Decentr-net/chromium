@@ -35,7 +35,7 @@ void BrowserProcessPlatformPart::AttemptExit(bool try_to_quit_application) {
   // that is done, will cause the application to exit cleanly.
   //
   // This function is called for two types of attempted exits: URL requests
-  // (chrome://quit or chrome://restart), and a keyboard menu invocations of
+  // (decentr://quit or decentr://restart), and a keyboard menu invocations of
   // command-Q. (Interestingly, selecting the Quit command with the mouse don't
   // come down this code path at all.) URL requests to exit have
   // |try_to_quit_application| set to true; keyboard menu invocations have it

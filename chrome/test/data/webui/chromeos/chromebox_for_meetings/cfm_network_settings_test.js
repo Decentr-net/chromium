@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://cfm-network-settings/cfm_network_settings.js';
+import 'decentr://cfm-network-settings/cfm_network_settings.js';
 
-import {CfmNetworkSettingsBrowserProxyImpl} from 'chrome://cfm-network-settings/cfm_network_settings_browser_proxy.js';
-import {MojoInterfaceProviderImpl} from 'chrome://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
-import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {FakeNetworkConfig} from 'chrome://test/chromeos/fake_network_config_mojom.m.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {CfmNetworkSettingsBrowserProxyImpl} from 'decentr://cfm-network-settings/cfm_network_settings_browser_proxy.js';
+import {MojoInterfaceProviderImpl} from 'decentr://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
+import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {FakeNetworkConfig} from 'decentr://test/chromeos/fake_network_config_mojom.m.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 
 /** @implements {CfmNetworkSettingsBrowserProxy} */
 export class TestCfmNetworkSettingsBrowserProxy extends TestBrowserProxy {

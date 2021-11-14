@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {PermissionType, TriState, FakePageHandler, AppManagementStore, updateSelectedAppId} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {flushTasks} from 'chrome://test/test_util.js';
+// #import {PermissionType, TriState, FakePageHandler, AppManagementStore, updateSelectedAppId} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {flushTasks} from 'decentr://test/test_util.js';
 // #import {setupFakeHandler, replaceStore, replaceBody, getPermissionToggleByType } from './test_util.m.js';
 // clang-format on
 

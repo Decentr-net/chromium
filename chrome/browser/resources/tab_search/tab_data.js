@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {Token} from 'chrome://resources/mojo/mojo/public/mojom/base/token.mojom-webui.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {Token} from 'decentr://resources/mojo/mojo/public/mojom/base/token.mojom-webui.js';
 
 import {RecentlyClosedTab, RecentlyClosedTabGroup, Tab, TabGroup} from './tab_search.mojom-webui.js';
 

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {NativeLayerCrosImpl, PrinterStatusReason, PrinterStatusSeverity} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {NativeLayerCrosImpl, PrinterStatusReason, PrinterStatusSeverity} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 

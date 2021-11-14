@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://multidevice-setup/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/multidevice_setup/start_setup_page.m.js';
+// #import 'decentr://multidevice-setup/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/multidevice_setup/start_setup_page.m.js';
 
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 /**

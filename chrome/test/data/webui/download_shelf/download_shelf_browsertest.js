@@ -36,7 +36,7 @@ class DownloadShelfBrowserTest extends testing.Test {
 var DownloadListTest = class extends DownloadShelfBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://download-shelf.top-chrome/test_loader.html?module=download_shelf/download_list_test.js';
+    return 'decentr://download-shelf.top-chrome/test_loader.html?module=download_shelf/download_list_test.js';
   }
 };
 

@@ -753,7 +753,7 @@ public class IntentHandler {
     /**
      * Start the activity that handles launching tabs in Chrome given the trusted intent.
      *
-     * This allows specifying URLs that chrome:// handles internally, but does not expose in
+     * This allows specifying URLs that decentr:// handles internally, but does not expose in
      * intent-filters for global use.
      *
      * To make sure the intent is not dropped by Chrome, we send along an authentication token to
@@ -762,7 +762,7 @@ public class IntentHandler {
      */
     public static void startChromeLauncherActivityForTrustedIntent(Intent intent) {
         // Specify the exact component that will handle creating a new tab.  This allows specifying
-        // URLs that are not exposed in the intent filters (i.e. chrome://).
+        // URLs that are not exposed in the intent filters (i.e. decentr://).
         startActivityForTrustedIntentInternal(intent, ChromeLauncherActivity.class.getName());
     }
 
@@ -775,7 +775,7 @@ public class IntentHandler {
         if (componentClassName != null) {
             assert copiedIntent.getComponent() == null;
             // Specify the exact component that will handle creating a new tab.  This allows
-            // specifying URLs that are not exposed in the intent filters (i.e. chrome://).
+            // specifying URLs that are not exposed in the intent filters (i.e. decentr://).
             copiedIntent.setComponent(
                     new ComponentName(appContext.getPackageName(), componentClassName));
         }
@@ -989,7 +989,7 @@ public class IntentHandler {
     static boolean intentHasValidUrl(Intent intent) {
         String url = extractUrlFromIntent(intent);
 
-        // Check if this is a valid googlechrome:// URL.
+        // Check if this is a valid googledecentr:// URL.
         if (isGoogleChromeScheme(url)) {
             url = getUrlFromGoogleChromeSchemeUrl(url);
             if (url == null) return false;
@@ -1188,7 +1188,7 @@ public class IntentHandler {
 
     /**
      * Retrieve the URL from the Intent, which may be in multiple locations.
-     * If the URL is googlechrome:// scheme, parse the actual navigation URL.
+     * If the URL is googledecentr:// scheme, parse the actual navigation URL.
      * @param intent Intent to examine.
      * @return URL from the Intent, or null if a valid URL couldn't be found.
      */
@@ -1289,7 +1289,7 @@ public class IntentHandler {
     }
 
     /**
-     * Adjusts the URL to account for the googlechrome:// scheme.
+     * Adjusts the URL to account for the googledecentr:// scheme.
      * Currently, its only use is to handle navigations, only http and https URL is allowed.
      * @param url URL to be processed
      * @return The string with the scheme and prefixes chopped off, if a valid prefix was used.
@@ -1313,7 +1313,7 @@ public class IntentHandler {
 
     /**
      * @param url URL to be tested
-     * @return Whether the given URL adheres to the googlechrome:// scheme definition.
+     * @return Whether the given URL adheres to the googledecentr:// scheme definition.
      */
     public static boolean isGoogleChromeScheme(String url) {
         if (url == null) return false;

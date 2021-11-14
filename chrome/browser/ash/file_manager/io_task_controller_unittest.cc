@@ -44,10 +44,10 @@ TEST_F(IOTaskControllerTest, SimpleQueueing) {
   io_task_controller_.AddObserver(&observer);
 
   std::vector<storage::FileSystemURL> source_urls{
-      CreateFileSystemURL("filesystem:chrome-extension://abc/external/foo/src"),
+      CreateFileSystemURL("filesystem:decentr-extension://abc/external/foo/src"),
   };
   auto dest = CreateFileSystemURL(
-      "filesystem:chrome-extension://abc/external/foo/dest");
+      "filesystem:decentr-extension://abc/external/foo/dest");
 
   // All progress statuses should return the same |type|, |source_urls| and
   // |destination_folder| as given, so set up a base matcher to check this.
@@ -101,10 +101,10 @@ TEST_F(IOTaskControllerTest, Cancel) {
   io_task_controller_.AddObserver(&observer);
 
   std::vector<storage::FileSystemURL> source_urls{
-      CreateFileSystemURL("filesystem:chrome-extension://abc/external/foo/src"),
+      CreateFileSystemURL("filesystem:decentr-extension://abc/external/foo/src"),
   };
   auto dest = CreateFileSystemURL(
-      "filesystem:chrome-extension://abc/external/foo/dest");
+      "filesystem:decentr-extension://abc/external/foo/dest");
 
   // All progress statuses should return the same |type|, |source_urls| and
   // |destination_folder| given, so set up a base matcher to check this.

@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 import './input_key.js'
-import 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
+import 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {AcceleratorLookupManager} from './accelerator_lookup_manager.js';
 import {getShortcutProvider} from './mojo_interface_provider.js';

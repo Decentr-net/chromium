@@ -536,7 +536,7 @@ TEST_F(TemplateURLServiceTest, NotPersistOmniboxExtensionKeyword) {
 
   // Register an omnibox keyword.
   model()->RegisterOmniboxKeyword("test", "extension", "keyword",
-                                  "chrome-extension://test", Time());
+                                  "decentr-extension://test", Time());
   ASSERT_TRUE(model()->GetTemplateURLForKeyword(u"keyword"));
 
   // Reload the data.

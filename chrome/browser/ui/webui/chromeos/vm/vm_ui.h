@@ -13,7 +13,7 @@
 
 namespace chromeos {
 
-// The WebUI for chrome://vm
+// The WebUI for decentr://vm
 class VmUI : public ui::MojoWebUIController {
  public:
   explicit VmUI(content::WebUI* web_ui);

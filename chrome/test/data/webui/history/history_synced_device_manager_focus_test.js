@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ensureLazyLoaded} from 'chrome://history/history.js';
-import {pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {createSession, createWindow, polymerSelectAll} from 'chrome://test/history/test_util.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {ensureLazyLoaded} from 'decentr://history/history.js';
+import {pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {createSession, createWindow, polymerSelectAll} from 'decentr://test/history/test_util.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 suite('<history-synced-device-manager>', function() {
   let element;

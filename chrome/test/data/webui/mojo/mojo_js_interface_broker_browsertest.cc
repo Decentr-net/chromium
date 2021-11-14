@@ -38,9 +38,9 @@
 
 namespace {
 
-static constexpr char kFooURL[] = "chrome://foo/";
-static constexpr char kBarURL[] = "chrome-untrusted://bar/";
-static constexpr char kBuzURL[] = "chrome-untrusted://buz/";
+static constexpr char kFooURL[] = "decentr://foo/";
+static constexpr char kBarURL[] = "decentr-untrusted://bar/";
+static constexpr char kBuzURL[] = "decentr-untrusted://buz/";
 
 // A (trusted) WebUIController provides Foo Mojo API.
 class FooUI : public content::WebUIController, public ::test::mojom::Foo {
@@ -53,18 +53,18 @@ class FooUI : public content::WebUIController, public ::test::mojom::Foo {
     data_source->AddResourcePath("foobar.mojom-lite.js",
                                  IDR_FOOBAR_MOJO_LITE_JS);
 
-    // Allow Foo to embed chrome-untrusted://bar.
+    // Allow Foo to embed decentr-untrusted://bar.
     data_source->OverrideContentSecurityPolicy(
         network::mojom::CSPDirectiveName::ChildSrc,
-        "child-src chrome-untrusted://bar/;");
+        "child-src decentr-untrusted://bar/;");
     // Allow inline test helper scripts to execute with a special nonce.
     data_source->OverrideContentSecurityPolicy(
         network::mojom::CSPDirectiveName::ScriptSrc,
-        "script-src 'self' chrome://resources/ 'nonce-test';");
+        "script-src 'self' decentr://resources/ 'nonce-test';");
     content::WebUIDataSource::Add(web_ui->GetWebContents()->GetBrowserContext(),
                                   data_source);
 
-    // Allow requesting chrome-untrusted://bar in iframe.
+    // Allow requesting decentr-untrusted://bar in iframe.
     web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
   }
 

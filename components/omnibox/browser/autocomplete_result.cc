@@ -334,7 +334,7 @@ void AutocompleteResult::GroupAndDemoteMatchesWithHeaders() {
   for (auto it = matches_.begin(); it != matches_.end(); ++it) {
     if (it->suggestion_group_id.has_value()) {
       // Record group IDs and header strings, if available, into the
-      // additional_info field for chrome://omnibox.
+      // additional_info field for decentr://omnibox.
       int group_id = it->suggestion_group_id.value();
       it->RecordAdditionalInfo("suggestion_group_id", group_id);
       const std::u16string header = GetHeaderForGroupId(group_id);

@@ -233,7 +233,7 @@ public class SearchActivityTest {
     @Test
     @SmallTest
     public void testStartsBrowserAfterUrlSubmitted_chromeUrl() throws Exception {
-        verifyUrlLoads("chrome://flags/");
+        verifyUrlLoads("decentr://flags/");
     }
 
     private void verifyUrlLoads(final String url) throws Exception {

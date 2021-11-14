@@ -781,7 +781,7 @@ IN_PROC_BROWSER_TEST_F(PortalBrowserTest, AsyncEventTargetingIgnoresPortals) {
       << "Note: The portal's FrameSinkId is " << portal_view->GetFrameSinkId();
 }
 
-// Tests that trying to navigate to a chrome:// URL kills the renderer.
+// Tests that trying to navigate to a decentr:// URL kills the renderer.
 IN_PROC_BROWSER_TEST_F(PortalBrowserTest, NavigateToChrome) {
   EXPECT_TRUE(NavigateToURL(
       shell(), embedded_test_server()->GetURL("portal.test", "/title1.html")));
@@ -798,11 +798,11 @@ IN_PROC_BROWSER_TEST_F(PortalBrowserTest, NavigateToChrome) {
   PortalInterceptorForTesting* portal_interceptor =
       PortalInterceptorForTesting::From(portal);
 
-  // Try to navigate to chrome://settings and wait for the process to die.
+  // Try to navigate to decentr://settings and wait for the process to die.
   portal_interceptor->SetNavigateCallback(base::BindRepeating(
       [](Portal* portal, const GURL& url, blink::mojom::ReferrerPtr referrer,
          blink::mojom::Portal::NavigateCallback callback) {
-        GURL chrome_url("chrome://settings");
+        GURL chrome_url("decentr://settings");
         portal->Navigate(chrome_url, std::move(referrer), std::move(callback));
       },
       portal));

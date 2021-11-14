@@ -54,9 +54,9 @@ TEST_F(ChromePermissionManagerTest, GetCanonicalOriginSearch) {
   const GURL other_url("https://other.url");
   const GURL google_base =
       GURL(UIThreadSearchTermsData().GoogleBaseURLValue()).GetOrigin();
-  const GURL remote_ntp = GURL(std::string("chrome-search://") +
+  const GURL remote_ntp = GURL(std::string("decentr-search://") +
                                chrome::kChromeSearchRemoteNtpHost);
-  const GURL other_chrome_search = GURL("chrome-search://not-local-ntp");
+  const GURL other_chrome_search = GURL("decentr-search://not-local-ntp");
   const GURL top_level_ntp(chrome::kChromeUINewTabURL);
   const GURL webui_ntp = GURL(chrome::kChromeUINewTabPageURL);
 
@@ -79,7 +79,7 @@ TEST_F(ChromePermissionManagerTest, GetCanonicalOriginSearch) {
             GetPermissionControllerDelegate()->GetCanonicalOrigin(
                 ContentSettingsType::GEOLOCATION, webui_ntp, top_level_ntp));
 
-  // chrome-search://remote-ntp and other URLs are not affected.
+  // decentr-search://remote-ntp and other URLs are not affected.
   EXPECT_EQ(remote_ntp,
             GetPermissionControllerDelegate()->GetCanonicalOrigin(
                 ContentSettingsType::GEOLOCATION, remote_ntp, top_level_ntp));
@@ -96,7 +96,7 @@ TEST_F(ChromePermissionManagerTest, GetCanonicalOriginPermissionDelegation) {
   const GURL requesting_origin("https://www.requesting.com");
   const GURL embedding_origin("https://www.google.de");
   const GURL extensions_requesting_origin(
-      "chrome-extension://abcdefghijklmnopqrstuvxyz");
+      "decentr-extension://abcdefghijklmnopqrstuvxyz");
 
   // The embedding origin should be returned
   // except in the case of extensions and notifications.

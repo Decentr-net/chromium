@@ -87,7 +87,7 @@ content::WebUIDataSource* CreateNewTabPageThirdPartyUiHtmlSource(
           ntp_features::kNtpHandleMostVisitedNavigationExplicitly));
 
   // Needed by <cr-most-visited> but not used in
-  // chrome://new-tab-page-third-party/.
+  // decentr://new-tab-page-third-party/.
   source->AddString("addLinkTitle", "");
   source->AddString("editLinkTitle", "");
   source->AddString("invalidUrl", "");

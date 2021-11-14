@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {fakeAcceleratorConfig, fakeLayoutInfo} from './fake_data.js'
 import {FakeShortcutProvider} from './fake_shortcut_provider.js'
 import {ShortcutProviderInterface} from './shortcut_types.js'

@@ -5,8 +5,8 @@
 import './diagnostics_fonts_css.js';
 import './diagnostics_shared_css.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {SystemDataProviderInterface, SystemInfo} from './diagnostics_types.js'
 import {getSystemDataProvider} from './mojo_interface_provider.js';

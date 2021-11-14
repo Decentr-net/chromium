@@ -681,7 +681,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     omnibox to go somewhere.
 
     Pedals are a button attached to a search suggestion that either navigate to
-    a chrome:// URL or trigger a Chrome action (for example, opening the page
+    a decentr:// URL or trigger a Chrome action (for example, opening the page
     translation dialog or opening a new window in Incognito mode).
 
     Note that, while it is uncommon, it is possible for multiple pedals to be
@@ -890,7 +890,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     of the pedal used.
 
     Pedals are a button attached to a search suggestion that either navigate to
-    a chrome:// URL or trigger a Chrome action (for example, opening the page
+    a decentr:// URL or trigger a Chrome action (for example, opening the page
     translation dialog or opening a new window in Incognito mode).
 
     This histogram is related to Omnibox.PedalShown.

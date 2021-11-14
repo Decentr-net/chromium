@@ -17,7 +17,7 @@
 
 namespace {
 
-// Create data source for chrome://device-emulator/.
+// Create data source for decentr://device-emulator/.
 content::WebUIDataSource* CreateDeviceEmulatorUIDataSource() {
   content::WebUIDataSource* html =
       content::WebUIDataSource::Create(chrome::kChromeUIDeviceEmulatorHost);

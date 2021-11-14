@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import 'chrome://os-settings/strings.m.js';
+// #import 'decentr://os-settings/strings.m.js';
 
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {assertTrue, assertEquals} from '../../../chai_assert.js';
-// #import {eventToPromise} from 'chrome://test/test_util.m.js';
-// #import {createDefaultBluetoothDevice} from 'chrome://test/cr_components/chromeos/bluetooth/fake_bluetooth_config.js';
-// #import {Router, Route, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {eventToPromise} from 'decentr://test/test_util.m.js';
+// #import {createDefaultBluetoothDevice} from 'decentr://test/cr_components/chromeos/bluetooth/fake_bluetooth_config.js';
+// #import {Router, Route, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 suite('OsPairedBluetoothListItemTest', function() {

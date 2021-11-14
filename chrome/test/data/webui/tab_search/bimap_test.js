@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BiMap} from 'chrome://tab-search.top-chrome/tab_search.js';
+import {BiMap} from 'decentr://tab-search.top-chrome/tab_search.js';
 import {assertEquals} from '../../chai_assert.js';
 
 suite('BiMapTest', () => {

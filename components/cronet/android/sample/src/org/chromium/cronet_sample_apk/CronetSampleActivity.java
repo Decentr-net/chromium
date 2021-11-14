@@ -193,7 +193,7 @@ public class CronetSampleActivity extends Activity {
     // NetLog can be downloaded afterwards via:
     //   adb root
     //   adb pull /data/data/org.chromium.cronet_sample_apk/cache/netlog.json
-    // netlog.json can then be viewed in a Chrome tab navigated to chrome://net-internals/#import
+    // netlog.json can then be viewed in a Chrome tab navigated to decentr://net-internals/#import
     private void stopNetLog() {
         mCronetEngine.stopNetLog();
     }

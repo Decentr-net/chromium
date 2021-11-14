@@ -289,7 +289,7 @@ TEST_F(FileSystemHelperTest, CannedAddFileSystem) {
 TEST_F(FileSystemHelperTest, IgnoreExtensionsAndDevTools) {
   ASSERT_TRUE(canned_helper_->empty());
   canned_helper_->Add(url::Origin::Create(
-      GURL("chrome-extension://abcdefghijklmnopqrstuvwxyz")));
+      GURL("decentr-extension://abcdefghijklmnopqrstuvwxyz")));
   ASSERT_TRUE(canned_helper_->empty());
   canned_helper_->Add(
       url::Origin::Create(GURL("devtools://abcdefghijklmnopqrstuvw")));

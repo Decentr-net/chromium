@@ -134,7 +134,7 @@ void ReadData(
   // For media content, |content_length| must be known upfront for data that is
   // assumed to be fully buffered (as opposed to streamed from the network),
   // otherwise the media player will get confused and refuse to play.
-  // Content delivered via chrome:// URLs is assumed fully buffered.
+  // Content delivered via decentr:// URLs is assumed fully buffered.
   headers->content_length = output_size;
 
   mojo::Remote<network::mojom::URLLoaderClient> client(

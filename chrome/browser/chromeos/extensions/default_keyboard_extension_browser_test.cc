@@ -48,7 +48,7 @@ const char kExtensionId[] = "mppnpdlheglhdfmldimlhpnegondlapf";
 // Loading the virtual keyboard with id=none suppresses asynchronous loading of
 // layout and configuration assets. This allows the javascript test code to be
 // injected ahead of the keyboard initialization.
-const char kVirtualKeyboardURL[] = "chrome://keyboard?id=none";
+const char kVirtualKeyboardURL[] = "decentr://keyboard?id=none";
 
 }  // namespace
 

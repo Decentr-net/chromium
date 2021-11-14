@@ -43,9 +43,9 @@ const char kForceVariationIds[] = "force-variation-ids";
 const char kForceDisableVariationIds[] = "force-disable-variation-ids";
 
 // Allows overriding the country used for evaluating variations. This is similar
-// to the "Override Variations Country" entry on chrome://translate-internals,
+// to the "Override Variations Country" entry on decentr://translate-internals,
 // but is exposed as a command-line flag to allow testing First Run scenarios.
-// Additionally, unlike chrome://translate-internals, the value isn't persisted
+// Additionally, unlike decentr://translate-internals, the value isn't persisted
 // across sessions.
 const char kVariationsOverrideCountry[] = "variations-override-country";
 

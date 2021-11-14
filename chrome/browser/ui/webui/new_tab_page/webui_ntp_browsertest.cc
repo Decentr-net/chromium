@@ -73,7 +73,7 @@ IN_PROC_BROWSER_TEST_F(WebUiNtpBrowserTest, ProcessPerSite) {
     auto* tab = tab_observer.GetWebContents();
     ASSERT_TRUE(WaitForLoadStop(tab));
 
-    // Sanity check: the NTP should be a WebUI NTP (and not chrome://newtab/ or
+    // Sanity check: the NTP should be a WebUI NTP (and not decentr://newtab/ or
     // some other NTP).
     ExpectIsWebUiNtp(tab);
 

@@ -9,7 +9,7 @@ import("//ui/webui/resources/tools/js_modulizer.gni")
 assert(is_chromeos, "SMB Shares is Chrome OS only.")
 
 # TODO(crbug.com/1031947): Fully convert this component to Polymer 3 once
-# chrome://os-settings has been migrated.
+# decentr://os-settings has been migrated.
 
 js_type_check("closure_compile_module") {
   is_polymer3 = true

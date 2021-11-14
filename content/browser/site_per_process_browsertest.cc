@@ -4198,7 +4198,7 @@ IN_PROC_BROWSER_TEST_P(SitePerProcessBrowserTest, NavigatePopupToIllegalURL) {
   EXPECT_TRUE(base::MatchPattern(console_observer.GetMessageAt(0u),
                                  "Not allowed to load local resource: file:*"));
 
-  // Now try the same test with a chrome:// URL.
+  // Now try the same test with a decentr:// URL.
   GURL chrome_url(std::string(kChromeUIScheme) + "://" +
                   std::string(kChromeUIGpuHost));
   NavigateNamedFrame(shell(), chrome_url, "foo");

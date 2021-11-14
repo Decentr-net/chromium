@@ -85,7 +85,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*"
+      "decentr://bookmarks/*"
     ]
   }],
   "loginState": {
@@ -99,7 +99,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://settings/*"
+      "decentr://settings/*"
     ]
   }],
   "tabs": [{
@@ -110,7 +110,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*"
+      "decentr://bookmarks/*"
     ]
   }],
   "tts": {
@@ -128,7 +128,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*"
+      "decentr://bookmarks/*"
     ]
   }]
 }

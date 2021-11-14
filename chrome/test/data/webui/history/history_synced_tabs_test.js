@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserService, ensureLazyLoaded} from 'chrome://history/history.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {TestBrowserService} from 'chrome://test/history/test_browser_service.js';
-import {createSession, createWindow, polymerSelectAll} from 'chrome://test/history/test_util.js';
-import {flushTasks, waitBeforeNextRender} from 'chrome://test/test_util.js';
+import {BrowserService, ensureLazyLoaded} from 'decentr://history/history.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {TestBrowserService} from 'decentr://test/history/test_browser_service.js';
+import {createSession, createWindow, polymerSelectAll} from 'decentr://test/history/test_util.js';
+import {flushTasks, waitBeforeNextRender} from 'decentr://test/test_util.js';
 
 function getCards(manager) {
   return polymerSelectAll(manager, 'history-synced-device-card');

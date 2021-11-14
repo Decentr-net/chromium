@@ -19,7 +19,7 @@ namespace chromeos {
 namespace multidevice {
 
 // WebUIMessageHandler for the PA_LOG Macro to pass logging messages to the
-// chrome://multidevice-internals logging tab.
+// decentr://multidevice-internals logging tab.
 class MultideviceLogsHandler : public content::WebUIMessageHandler,
                                public multidevice::LogBuffer::Observer {
  public:

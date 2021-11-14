@@ -19,7 +19,7 @@ GEN('#include "content/public/test/browser_test.h"');
 const CrExtensionsInteractiveUITest = class extends PolymerInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/';
+    return 'decentr://extensions/';
   }
 
   // The name of the mocha suite. Should be overridden by subclasses.
@@ -39,7 +39,7 @@ const CrExtensionsInteractiveUITest = class extends PolymerInteractiveUITest {
 var CrExtensionsOptionsPageTest = class extends CrExtensionsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/extension_options_dialog_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/extension_options_dialog_test.js';
   }
 
   /** @override */
@@ -63,7 +63,7 @@ var CrExtensionsShortcutInputTest =
     class extends CrExtensionsInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/shortcut_input_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/shortcut_input_test.js';
   }
 
   /** @override */

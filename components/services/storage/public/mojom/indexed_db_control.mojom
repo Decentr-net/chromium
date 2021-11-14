@@ -64,7 +64,7 @@ interface IndexedDBControl {
   GetConnectionCount(blink.mojom.StorageKey storage_key) =>
     (uint64 connection_count);
 
-  // Called by chrome://indexeddb-internals to download all of the indexeddb
+  // Called by decentr://indexeddb-internals to download all of the indexeddb
   // data for a particular `storage_key`.  This creates a zip file at
   // `zip_path` using the temporary directory `temp_path` which needs to be
   // cleaned up after the user downloads the file.
@@ -73,7 +73,7 @@ interface IndexedDBControl {
       mojo_base.mojom.FilePath temp_path,
       mojo_base.mojom.FilePath zip_path);
 
-  // Called by chrome://indexeddb-internals to populate its page details.
+  // Called by decentr://indexeddb-internals to populate its page details.
   GetAllStorageKeysDetails() => (bool incognito,
                                  mojo_base.mojom.ListValue details);
 

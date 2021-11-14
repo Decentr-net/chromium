@@ -225,13 +225,13 @@ IN_PROC_BROWSER_TEST_F(ChromeNewWindowClientBrowserTest,
   // Opening a browser setting should not open the OS setting window.
   TestOpenSettingFromArc(
       browser(), ChromePage::AUTOFILL,
-      GURL("chrome://settings/").Resolve(chrome::kAutofillSubPage),
+      GURL("decentr://settings/").Resolve(chrome::kAutofillSubPage),
       /*expected_setting_window_count=*/0u);
 
   // But opening an OS setting should open the OS setting window.
   TestOpenSettingFromArc(
       browser(), ChromePage::POWER,
-      GURL("chrome://os-settings/")
+      GURL("decentr://os-settings/")
           .Resolve(chromeos::settings::mojom::kPowerSubpagePath),
       /*expected_setting_window_count=*/1u);
 }

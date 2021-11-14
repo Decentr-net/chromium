@@ -276,9 +276,9 @@ TEST(ShellIntegrationTest, GetExistingShortcutContents) {
 
 TEST(ShellIntegrationTest, GetExistingProfileShortcutFilenames) {
   base::FilePath kProfilePath("a/b/c/Profile Name?");
-  const char kApp1Filename[] = "chrome-extension1-Profile_Name_.desktop";
-  const char kApp2Filename[] = "chrome-extension2-Profile_Name_.desktop";
-  const char kUnrelatedAppFilename[] = "chrome-extension-Other_Profile.desktop";
+  const char kApp1Filename[] = "decentr-extension1-Profile_Name_.desktop";
+  const char kApp2Filename[] = "decentr-extension2-Profile_Name_.desktop";
+  const char kUnrelatedAppFilename[] = "decentr-extension-Other_Profile.desktop";
 
   content::BrowserTaskEnvironment task_environment;
 

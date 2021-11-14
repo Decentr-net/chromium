@@ -9,7 +9,7 @@
 #include "content/public/browser/web_ui_controller.h"
 #include "ui/base/layout.h"
 
-// The WebUI handler for chrome://webrtc-logs.
+// The WebUI handler for decentr://webrtc-logs.
 class WebRtcLogsUI : public content::WebUIController {
  public:
   explicit WebRtcLogsUI(content::WebUI* web_ui);

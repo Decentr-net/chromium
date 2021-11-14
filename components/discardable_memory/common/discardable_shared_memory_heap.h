@@ -123,7 +123,7 @@ class DISCARDABLE_MEMORY_EXPORT DiscardableSharedMemoryHeap {
   // Returns bytes of memory currently in the free lists.
   size_t GetFreelistSize() const;
 
-  // Dumps memory statistics for chrome://tracing.
+  // Dumps memory statistics for decentr://tracing.
   bool OnMemoryDump(const base::trace_event::MemoryDumpArgs& args,
                     base::trace_event::ProcessMemoryDump* pmd);
 
@@ -164,7 +164,7 @@ class DISCARDABLE_MEMORY_EXPORT DiscardableSharedMemoryHeap {
         const char* name,
         base::trace_event::ProcessMemoryDump* pmd) const;
 
-    // Used for dumping memory statistics from the segment to chrome://tracing.
+    // Used for dumping memory statistics from the segment to decentr://tracing.
     void OnMemoryDump(base::trace_event::ProcessMemoryDump* pmd) const;
 
     size_t MarkPages(size_t start, size_t length, bool value);
@@ -191,7 +191,7 @@ class DISCARDABLE_MEMORY_EXPORT DiscardableSharedMemoryHeap {
 
   absl::optional<size_t> GetResidentSize() const;
 
-  // Dumps memory statistics about a memory segment for chrome://tracing.
+  // Dumps memory statistics about a memory segment for decentr://tracing.
   void OnMemoryDump(const base::DiscardableSharedMemory* shared_memory,
                     size_t size,
                     int32_t segment_id,

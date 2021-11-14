@@ -8,6 +8,6 @@ namespace chromeos {
 
 const char kChromeUIConnectivityDiagnosticsHost[] = "connectivity-diagnostics";
 const char kChromeUIConnectivityDiagnosticsUrl[] =
-    "chrome://connectivity-diagnostics";
+    "decentr://connectivity-diagnostics";
 
 }  // namespace chromeos

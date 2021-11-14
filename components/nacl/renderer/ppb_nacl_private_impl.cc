@@ -84,7 +84,7 @@ namespace {
 const char* const kPortableArch = "portable";
 
 // The base URL for resources used by the PNaCl translator processes.
-const char* kPNaClTranslatorBaseUrl = "chrome://pnacl-translator/";
+const char* kPNaClTranslatorBaseUrl = "decentr://pnacl-translator/";
 
 base::LazyInstance<scoped_refptr<PnaclTranslationResourceHost>>::
     DestructorAtExit g_pnacl_resource_host = LAZY_INSTANCE_INITIALIZER;
@@ -105,7 +105,7 @@ bool InitializePnaclResourceHost() {
 bool CanOpenViaFastPath(content::PepperPluginInstance* plugin_instance,
                         const GURL& gurl) {
   // Fast path only works for installed file URLs.
-  if (!gurl.SchemeIs("chrome-extension"))
+  if (!gurl.SchemeIs("decentr-extension"))
     return PP_kInvalidFileHandle;
 
   // IMPORTANT: Make sure the document can request the given URL. If we don't
@@ -1183,7 +1183,7 @@ PP_Bool PPBNaClPrivate::GetPnaclResourceInfo(PP_Instance instance,
                                              PP_Var* llc_tool_name,
                                              PP_Var* ld_tool_name,
                                              PP_Var* subzero_tool_name) {
-  static const char kFilename[] = "chrome://pnacl-translator/pnacl.json";
+  static const char kFilename[] = "decentr://pnacl-translator/pnacl.json";
   NexeLoadManager* load_manager = GetNexeLoadManager(instance);
   DCHECK(load_manager);
   if (!load_manager)
@@ -1197,7 +1197,7 @@ PP_Bool PPBNaClPrivate::GetPnaclResourceInfo(PP_Instance instance,
     load_manager->ReportLoadError(
         PP_NACL_ERROR_PNACL_RESOURCE_FETCH,
         "The Portable Native Client (pnacl) component is not "
-        "installed. Please consult chrome://components for more "
+        "installed. Please consult decentr://components for more "
         "information.");
     return PP_FALSE;
   }

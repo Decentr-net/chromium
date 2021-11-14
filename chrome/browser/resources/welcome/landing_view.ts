@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/polymer/v3_0/paper-styles/color.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/polymer/v3_0/paper-styles/color.js';
 import './shared/action_link_style_css.js';
 import './shared/onboarding_background.js';
 import './shared/splash_pages_shared_css.js';
 import '../strings.m.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {LandingViewProxy, LandingViewProxyImpl} from './landing_view_proxy.js';
 import {navigateTo, NavigationMixin, Routes} from './navigation_mixin.js';
@@ -71,7 +71,7 @@ export class LandingViewElement extends LandingViewElementBase {
     this.landingViewProxy_.recordExistingUser();
     if (this.signinAllowed_) {
       WelcomeBrowserProxyImpl.getInstance().handleActivateSignIn(
-          'chrome://welcome/returning-user');
+          'decentr://welcome/returning-user');
     } else {
       navigateTo(Routes.RETURNING_USER, 1);
     }

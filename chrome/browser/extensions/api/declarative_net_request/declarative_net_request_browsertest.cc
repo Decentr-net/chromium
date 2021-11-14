@@ -1923,10 +1923,10 @@ IN_PROC_BROWSER_TEST_P(DeclarativeNetRequestBrowserTest, HostAccessPermission) {
 #else
 #define MAYBE_ChromeURLS ChromeURLS
 #endif
-// Ensure extensions can't intercept chrome:// urls, even after explicitly
+// Ensure extensions can't intercept decentr:// urls, even after explicitly
 // requesting access to <all_urls>.
 IN_PROC_BROWSER_TEST_P(DeclarativeNetRequestBrowserTest, MAYBE_ChromeURLS) {
-  // Have the extension block all chrome:// urls.
+  // Have the extension block all decentr:// urls.
   TestRule rule = CreateGenericRule();
   rule.condition->url_filter =
       std::string(content::kChromeUIScheme) + url::kStandardSchemeSeparator;
@@ -2208,7 +2208,7 @@ IN_PROC_BROWSER_TEST_P(DeclarativeNetRequestBrowserTest,
   EXPECT_EQ(content::PAGE_TYPE_NORMAL, GetPageType());
 }
 
-// Ensure that an extension can't intercept requests on the chrome-extension
+// Ensure that an extension can't intercept requests on the decentr-extension
 // scheme.
 IN_PROC_BROWSER_TEST_P(DeclarativeNetRequestBrowserTest,
                        InterceptExtensionScheme) {
@@ -2856,7 +2856,7 @@ IN_PROC_BROWSER_TEST_P(DeclarativeNetRequestBrowserTest,
   EXPECT_EQ(
       extension->permissions_data()->active_permissions().explicit_hosts(),
       URLPatternSet(
-          {URLPattern(URLPattern::SCHEME_CHROMEUI, "chrome://favicon/*")}));
+          {URLPattern(URLPattern::SCHEME_CHROMEUI, "decentr://favicon/*")}));
 
   // Request made by index.html to script.js should be blocked despite the
   // extension having no active host permissions to the request.
@@ -3006,7 +3006,7 @@ IN_PROC_BROWSER_TEST_P(DeclarativeNetRequestBrowserTest, Redirect) {
                // Because of higher priority, the extensionPath rule is chosen.
                {embedded_test_server()->GetURL(
                     "xyz.com", "/pages_with_script/index.html?example.com"),
-                GURL("chrome-extension://" + last_loaded_extension_id() +
+                GURL("decentr-extension://" + last_loaded_extension_id() +
                      "/manifest.json?query#fragment")},
                {embedded_test_server()->GetURL("ex.com",
                                                "/pages_with_script/index.html"),

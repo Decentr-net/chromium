@@ -34,20 +34,20 @@ public class UrlConstants {
     public static final String CHROME_NATIVE_URL_SHORT_PREFIX = "chrome-native:";
     public static final String FILE_URL_SHORT_PREFIX = "file:";
 
-    public static final String CHROME_URL_PREFIX = "chrome://";
+    public static final String CHROME_URL_PREFIX = "decentr://";
     public static final String CHROME_NATIVE_URL_PREFIX = "chrome-native://";
     public static final String CONTENT_URL_PREFIX = "content://";
     public static final String FILE_URL_PREFIX = "file://";
     public static final String HTTP_URL_PREFIX = "http://";
     public static final String HTTPS_URL_PREFIX = "https://";
 
-    public static final String ABOUT_URL = "chrome://about/";
+    public static final String ABOUT_URL = "decentr://about/";
 
-    public static final String CHROME_BLANK_URL = "chrome://blank/";
+    public static final String CHROME_BLANK_URL = "decentr://blank/";
 
     public static final String NTP_HOST = "newtab";
     public static final String NTP_URL = "chrome-native://newtab/";
-    public static final String NTP_NON_NATIVE_URL = "chrome://newtab/";
+    public static final String NTP_NON_NATIVE_URL = "decentr://newtab/";
     public static final String NTP_ABOUT_URL = "about:newtab";
 
     public static final String BOOKMARKS_HOST = "bookmarks";
@@ -65,11 +65,11 @@ public class UrlConstants {
 
     // TODO(dbeam): do we need both HISTORY_URL and NATIVE_HISTORY_URL?
     public static final String HISTORY_HOST = "history";
-    public static final String HISTORY_URL = "chrome://history/";
+    public static final String HISTORY_URL = "decentr://history/";
     public static final String NATIVE_HISTORY_URL = "chrome-native://history/";
 
     public static final String LAUNCHPAD_HOST = "apps";
-    public static final String LAUNCHPAD_URL = "chrome://apps/";
+    public static final String LAUNCHPAD_URL = "decentr://apps/";
 
     public static final String INTERESTS_HOST = "interests";
     public static final String INTERESTS_URL = "chrome-native://interests/";
@@ -94,8 +94,8 @@ public class UrlConstants {
 
     public static final String EXPLORE_HOST = "explore";
     public static final String EXPLORE_URL = "chrome-native://explore/";
-    public static final String CHROME_DINO_URL = "chrome://dino";
+    public static final String CHROME_DINO_URL = "decentr://dino";
 
     public static final String MANAGEMENT_HOST = "management";
-    public static final String MANAGEMENT_URL = "chrome://management/";
+    public static final String MANAGEMENT_URL = "decentr://management/";
 }

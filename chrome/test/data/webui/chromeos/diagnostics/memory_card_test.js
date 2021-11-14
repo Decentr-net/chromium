@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/memory_card.js';
+import 'decentr://diagnostics/memory_card.js';
 
-import {MemoryUsage} from 'chrome://diagnostics/diagnostics_types.js';
-import {convertKibToGibDecimalString} from 'chrome://diagnostics/diagnostics_utils.js';
-import {fakeMemoryUsage, fakeMemoryUsageLowAvailableMemory} from 'chrome://diagnostics/fake_data.js';
-import {FakeSystemDataProvider} from 'chrome://diagnostics/fake_system_data_provider.js';
-import {setSystemDataProviderForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {MemoryUsage} from 'decentr://diagnostics/diagnostics_types.js';
+import {convertKibToGibDecimalString} from 'decentr://diagnostics/diagnostics_utils.js';
+import {fakeMemoryUsage, fakeMemoryUsageLowAvailableMemory} from 'decentr://diagnostics/fake_data.js';
+import {FakeSystemDataProvider} from 'decentr://diagnostics/fake_system_data_provider.js';
+import {setSystemDataProviderForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isChildVisible, isVisible} from '../../test_util.js';

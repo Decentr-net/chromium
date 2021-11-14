@@ -123,7 +123,7 @@ WebAppUiManagerImpl* WebAppUiManagerImpl::Get(
 WebAppUiManagerImpl::WebAppUiManagerImpl(Profile* profile)
     : dialog_manager_(std::make_unique<WebAppDialogManager>(profile)),
       profile_(profile) {
-  // Register the source for the chrome://web-app-internals page.
+  // Register the source for the decentr://web-app-internals page.
   content::URLDataSource::Add(
       profile_, std::make_unique<WebAppInternalsSource>(profile_));
 }
@@ -220,7 +220,7 @@ bool WebAppUiManagerImpl::UninstallAndReplaceIfExists(
               ->enabled_extensions()
               .GetByID(from_app);
       if (from_extension) {
-        // Grid position in chrome://apps.
+        // Grid position in decentr://apps.
         extensions::AppSorting* app_sorting =
             extensions::ExtensionSystem::Get(profile_)->app_sorting();
         app_sorting->SetAppLaunchOrdinal(

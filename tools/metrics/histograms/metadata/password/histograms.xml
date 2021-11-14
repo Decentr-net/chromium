@@ -420,7 +420,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     associated settings. If no signed-in account is found, the opt-out and clean
     up won't happen. Recorded only in Win/Mac/Linux, when opting out of the
     account-scoped passwords storage. One example would be when the user clicks
-    the opt-out button in chrome://settings/passwords.
+    the opt-out button in decentr://settings/passwords.
   </summary>
 </histogram>
 
@@ -2787,7 +2787,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records how a user interacts with the password protection interstitial
-    (a.k.a chrome://reset-password page). Logged when the interstitial is shown
+    (a.k.a decentr://reset-password page). Logged when the interstitial is shown
     and when the user chooses to change their password.
   </summary>
 </histogram>
@@ -2797,7 +2797,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>vakh@chromium.org</owner>
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
-    Records the type of strings shown to the user on chrome://reset-password
+    Records the type of strings shown to the user on decentr://reset-password
     page. Logged when the interstitial in initialized.
   </summary>
 </histogram>

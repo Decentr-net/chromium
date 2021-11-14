@@ -95,7 +95,7 @@ TEST_F(MetricsWebContentsObserverTest,
   content::WebContentsTester* web_contents_tester =
       content::WebContentsTester::For(web_contents());
   const GURL chrome_extension_url(
-      "chrome-extension://mbflcebpggnecokmikipoihdbecnjfoj/main.html");
+      "decentr-extension://mbflcebpggnecokmikipoihdbecnjfoj/main.html");
   web_contents_tester->NavigateAndCommit(GURL(chrome_extension_url));
   ASSERT_EQ(main_rfh()->GetLastCommittedURL().spec(),
             GURL(chrome_extension_url));

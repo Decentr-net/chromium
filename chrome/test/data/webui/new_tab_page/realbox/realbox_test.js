@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, decodeString16, mojoString16, RealboxBrowserProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {assertStyle, createTheme} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {$$, decodeString16, mojoString16, RealboxBrowserProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {assertStyle, createTheme} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 /**
  * @enum {string}
@@ -253,7 +253,7 @@ suite('NewTabPageRealboxTest', () => {
   function assertIconBackgroundImageUrl(iconElement, url) {
     assertStyle(
         iconElement.$.icon, 'background-image',
-        `url("chrome://new-tab-page/${url}")`);
+        `url("decentr://new-tab-page/${url}")`);
     assertStyle(iconElement.$.icon, '-webkit-mask-image', 'none');
   }
 
@@ -264,7 +264,7 @@ suite('NewTabPageRealboxTest', () => {
   function assertIconMaskImageUrl(iconElement, url) {
     assertStyle(
         iconElement.$.icon, '-webkit-mask-image',
-        `url("chrome://new-tab-page/${url}")`);
+        `url("decentr://new-tab-page/${url}")`);
     assertStyle(iconElement.$.icon, 'background-image', 'none');
   }
 
@@ -2368,7 +2368,7 @@ suite('NewTabPageRealboxTest', () => {
         accessibilitySuffix: mojoString16(''),
         hint: mojoString16('Clear Browsing History'),
         suggestionContents: mojoString16(''),
-        iconUrl: 'chrome://theme/current-channel-logo'
+        iconUrl: 'decentr://theme/current-channel-logo'
       }
     })];
     testProxy.callbackRouterRemote.autocompleteResultChanged({
@@ -2386,7 +2386,7 @@ suite('NewTabPageRealboxTest', () => {
 
     assertEquals(
         pedalEl.querySelector('#action-icon').src,
-        'chrome://theme/current-channel-logo');  // Default Pedal
+        'decentr://theme/current-channel-logo');  // Default Pedal
                                                  // Icon
 
     let leftClick = new MouseEvent('click', {
@@ -2420,7 +2420,7 @@ suite('NewTabPageRealboxTest', () => {
           accessibilitySuffix: mojoString16(''),
           hint: mojoString16('Clear Browsing History'),
           suggestionContents: mojoString16(''),
-          iconUrl: 'chrome://theme/current-channel-logo'
+          iconUrl: 'decentr://theme/current-channel-logo'
         }
       })
     ];
@@ -2441,7 +2441,7 @@ suite('NewTabPageRealboxTest', () => {
 
     assertEquals(
         pedalEl.querySelector('#action-icon').src,
-        'chrome://theme/current-channel-logo');  // Default Pedal
+        'decentr://theme/current-channel-logo');  // Default Pedal
                                                  // Icon
 
     let leftClick = new MouseEvent('click', {

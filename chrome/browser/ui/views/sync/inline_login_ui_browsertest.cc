@@ -537,7 +537,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginHelperBrowserTest,
   InlineLoginHandlerImpl handler;
   // See Source enum in components/signin/public/base/signin_metrics.h for
   // possible values of access_point=, reason=.
-  GURL url("chrome://chrome-signin/?access_point=0&reason=5");
+  GURL url("decentr://chrome-signin/?access_point=0&reason=5");
   // MockSyncStarterInlineSigninHelper will delete itself when done using
   // base::ThreadTaskRunnerHandle::DeleteSoon(), so need to delete here.  But
   // do need the RunUntilIdle() at the end.
@@ -575,7 +575,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginHelperBrowserTest,
   InlineLoginHandlerImpl handler;
   // See Source enum in components/signin/public/base/signin_metrics.h for
   // possible values of access_point=, reason=.
-  const GURL url("chrome://chrome-signin/?access_point=0&reason=5");
+  const GURL url("decentr://chrome-signin/?access_point=0&reason=5");
   // MockSyncStarterInlineSigninHelper will delete itself when done using
   // base::ThreadTaskRunnerHandle::DeleteSoon(), so need to delete here.  But
   // do need the RunUntilIdle() at the end.
@@ -598,7 +598,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginHelperBrowserTest,
   InlineLoginHandlerImpl handler;
   // See Source enum in components/signin/public/base/signin_metrics.h for
   // possible values of access_point=, reason=.
-  GURL url("chrome://chrome-signin/?access_point=0&reason=5");
+  GURL url("decentr://chrome-signin/?access_point=0&reason=5");
   // MockSyncStarterInlineSigninHelper will delete itself when done using
   // base::ThreadTaskRunnerHandle::DeleteSoon(), so need to delete here.  But
   // do need the RunUntilIdle() at the end.
@@ -623,7 +623,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginHelperBrowserTest,
   InlineLoginHandlerImpl handler;
   // See Source enum in components/signin/public/base/signin_metrics.h for
   // possible values of access_point=, reason=.
-  GURL url("chrome://chrome-signin/?access_point=0&reason=5");
+  GURL url("decentr://chrome-signin/?access_point=0&reason=5");
   // MockSyncStarterInlineSigninHelper will delete itself when done using
   // base::ThreadTaskRunnerHandle::DeleteSoon(), so need to delete here.  But
   // do need the RunUntilIdle() at the end.
@@ -651,7 +651,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginHelperBrowserTest,
   InlineLoginHandlerImpl handler;
   // See Source enum in components/signin/public/base/signin_metrics.h for
   // possible values of access_point=, reason=.
-  const GURL url("chrome://chrome-signin/?access_point=3&reason=5");
+  const GURL url("decentr://chrome-signin/?access_point=3&reason=5");
   // MockSyncStarterInlineSigninHelper will delete itself when done using
   // base::ThreadTaskRunnerHandle::DeleteSoon(), so need to delete here.  But
   // do need the RunUntilIdle() at the end.
@@ -674,7 +674,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginHelperBrowserTest,
                        ForceSigninWithUserManager) {
   signin_util::ScopedForceSigninSetterForTesting force_signin_setter(true);
   InlineLoginHandlerImpl handler;
-  GURL url("chrome://chrome-signin/?access_point=0&reason=5");
+  GURL url("decentr://chrome-signin/?access_point=0&reason=5");
   // MockSyncStarterInlineSigninHelper will delete itself when done using
   // base::ThreadTaskRunnerHandle::DeleteSoon(), so need to delete here.  But
   // do need the RunUntilIdle() at the end.
@@ -772,7 +772,7 @@ IN_PROC_BROWSER_TEST_F(InlineLoginUISafeIframeBrowserTest, Basic) {
 IN_PROC_BROWSER_TEST_F(InlineLoginUISafeIframeBrowserTest,
                        MAYBE_NoWebUIInIframe) {
   GURL url = GetSigninPromoURL().Resolve(
-      "?source=0&access_point=0&reason=5&frameUrl=chrome://foo");
+      "?source=0&access_point=0&reason=5&frameUrl=decentr://foo");
   EXPECT_CALL(foo_provider(), NewWebUI(_, _)).Times(0);
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url));
 }

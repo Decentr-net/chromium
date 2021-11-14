@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
-import 'chrome://resources/js/jstemplate_compiled.js';
-import {addWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import 'decentr://resources/js/jstemplate_compiled.js';
+import {addWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 const initialize = function() {
   $('submit-update').addEventListener('click', function(event) {

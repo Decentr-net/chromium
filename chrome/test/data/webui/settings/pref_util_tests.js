@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {prefToString, stringToPrefValue} from 'chrome://settings/settings.js';
+import {prefToString, stringToPrefValue} from 'decentr://settings/settings.js';
 // clang-format on
 
 /** @fileoverview Suite of tests for Settings.PrefUtil. */

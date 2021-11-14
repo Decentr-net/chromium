@@ -192,7 +192,7 @@ backend driver for the system and/or GPUs and fail if it cannot find/load it.
 A few steps are customary to verify the support and use of a given codec.
 
 To verify that the build and platform supports video acceleration, launch
-Chromium and navigate to `chrome://gpu`, then:
+Chromium and navigate to `decentr://gpu`, then:
 * Search for the "Video Acceleration Information" Section: this should
    enumerate the available accelerated codecs and resolutions.
 * If this section is empty, oftentimes the "Log Messages" Section immediately
@@ -206,7 +206,7 @@ Chromium and navigate to `chrome://gpu`, then:
 To verify that a given video is being played back using the accelerated video
 decoding backend:
 * Navigate to a url that causes a video to be played. Leave it playing.
-* Navigate to the `chrome://media-internals` tab.
+* Navigate to the `decentr://media-internals` tab.
  * Find the entry associated to the video-playing tab.
  * Scroll down to "`Player Properties`" and check the "`video_decoder`" entry:
    it should say "GpuVideoDecoder".
@@ -240,7 +240,7 @@ To run Chromium using VaAPI three arguments are necessary:
 Note that you can set the environment variable `MESA_GLSL_CACHE_DISABLE=false`
 if you want the gpu process to run in sandboxed mode, see
 [crbug.com/264818](https://crbug.com/264818). To check if the running gpu
-process is sandboxed or not, just open `chrome://gpu` and search for
+process is sandboxed or not, just open `decentr://gpu` and search for
 `Sandboxed` in the driver information table. In addition, passing
 `--gpu-sandbox-failures-fatal=yes` will prevent the gpu process to run in
 non-sandboxed mode.

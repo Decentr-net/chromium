@@ -6,11 +6,11 @@
  * @fileoverview 'settings-search-engines-page' is the settings page
  * containing search engines settings.
  */
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/js/cr.m.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/js/cr.m.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
 import '../controls/controlled_radio_button.js';
 import '../controls/settings_radio_group.js';
 import './search_engine_dialog.js';
@@ -19,11 +19,11 @@ import './omnibox_extension_entry.js';
 import '../settings_shared_css.js';
 import '../settings_vars_css.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {focusWithoutInk} from 'chrome://resources/js/cr/ui/focus_without_ink.m.js';
-import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {IronListElement} from 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import {afterNextRender, html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {focusWithoutInk} from 'decentr://resources/js/cr/ui/focus_without_ink.m.js';
+import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {IronListElement} from 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import {afterNextRender, html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {GlobalScrollTargetMixin} from '../global_scroll_target_mixin.js';
 import {loadTimeData} from '../i18n_setup.js';

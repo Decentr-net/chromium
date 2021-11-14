@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test suite for chrome://shortcut-customization.
+ * @fileoverview Test suite for decentr://shortcut-customization.
  * To run all tests in a single instance (default, faster):
  * `browser_tests --gtest_filter=ShortcutCustomizationApp*`
  *
@@ -30,7 +30,7 @@ function ShortcutCustomizationAppBrowserTest() {}
 ShortcutCustomizationAppBrowserTest.prototype = {
   __proto__: PolymerTest.prototype,
 
-  browsePreload: 'chrome://shortcut-customization/test_loader.html' +
+  browsePreload: 'decentr://shortcut-customization/test_loader.html' +
       '?module=chromeos/shortcut_customization/' +
       'shortcut_customization_unified_test.js',
 

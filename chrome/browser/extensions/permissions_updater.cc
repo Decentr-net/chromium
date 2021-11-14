@@ -389,7 +389,7 @@ void PermissionsUpdater::RevokeRuntimePermissions(
           active, permissions,
           URLPatternSet::IntersectionBehavior::kPatternsContainedByBoth);
   // One exception: If we're revoking a permission like "<all_urls>", we need
-  // to make sure it doesn't revoke the included chrome://favicon permission.
+  // to make sure it doesn't revoke the included decentr://favicon permission.
   std::set<URLPattern> removable_explicit_hosts;
   bool needs_adjustment = false;
   for (const auto& pattern : active_permissions_to_remove->explicit_hosts()) {

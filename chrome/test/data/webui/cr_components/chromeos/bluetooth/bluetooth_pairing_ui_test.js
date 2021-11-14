@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://bluetooth-pairing/strings.m.js';
+import 'decentr://bluetooth-pairing/strings.m.js';
 
-import {SettingsBluetoothPairingUiElement} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_pairing_ui.js';
-import {PairingAuthType} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_types.js';
-import {setBluetoothConfigForTesting} from 'chrome://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SettingsBluetoothPairingUiElement} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_pairing_ui.js';
+import {PairingAuthType} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_types.js';
+import {setBluetoothConfigForTesting} from 'decentr://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {assertEquals, assertFalse, assertTrue} from '../../../chai_assert.js';
 import {eventToPromise} from '../../../test_util.js';
 import {createDefaultBluetoothDevice, FakeBluetoothConfig} from './fake_bluetooth_config.js';

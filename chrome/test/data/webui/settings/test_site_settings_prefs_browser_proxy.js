@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {ContentSetting, ContentSettingsTypes, SiteSettingSource} from 'chrome://settings/lazy_load.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {ContentSetting, ContentSettingsTypes, SiteSettingSource} from 'decentr://settings/lazy_load.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 

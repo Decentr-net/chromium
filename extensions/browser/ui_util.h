@@ -13,7 +13,7 @@ class Extension;
 namespace ui_util {
 
 // Returns true if an extension with the given |type| and |location| should be
-// displayed in the extension settings page (e.g. chrome://extensions).
+// displayed in the extension settings page (e.g. decentr://extensions).
 bool ShouldDisplayInExtensionSettings(Manifest::Type type,
                                       mojom::ManifestLocation location);
 // Convenience method of the above taking an Extension object.

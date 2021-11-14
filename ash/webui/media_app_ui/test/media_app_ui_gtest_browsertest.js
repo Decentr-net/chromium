@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview js2gtest wrapper for the chrome://media-app test suite.
+ * @fileoverview js2gtest wrapper for the decentr://media-app test suite.
  */
 GEN('#include "ash/webui/media_app_ui/test/media_app_ui_browsertest.h"');
 
@@ -16,7 +16,7 @@ GEN('#include "third_party/blink/public/common/features.h"');
 var MediaAppUIGtestBrowserTest = class extends testing.Test {
   /** @override */
   get browsePreload() {
-    return 'chrome://media-app';
+    return 'decentr://media-app';
   }
 
   /** @override */

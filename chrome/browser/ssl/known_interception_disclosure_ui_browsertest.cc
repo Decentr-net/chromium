@@ -13,7 +13,7 @@
 
 using KnownInterceptionDisclosureUITest = InProcessBrowserTest;
 
-// Tests that the chrome://connection-monitoring-detected WebUI page shows the
+// Tests that the decentr://connection-monitoring-detected WebUI page shows the
 // expected title and strings.
 IN_PROC_BROWSER_TEST_F(KnownInterceptionDisclosureUITest, PageDisplaysStrings) {
   constexpr char16_t kTabTitle[] = u"Monitoring Detected";

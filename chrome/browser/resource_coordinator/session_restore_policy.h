@@ -167,7 +167,7 @@ class SessionRestorePolicy {
     // desktop platforms.
     bool is_app = false;
 
-    // Indicates whether or not the tab corresponds to an internal chrome://
+    // Indicates whether or not the tab corresponds to an internal decentr://
     // URL. These are considered lower priority for restoring as they can be
     // created locally and usually offline, and have very low latency.
     bool is_internal = false;

@@ -47,10 +47,10 @@ js_modules_args = [
   "js_module_root=../../ui/webui/resources/",
   "js_module_root=gen/ui/webui/resources/",
 
-  # chrome://resources maps to root, since both ../../ui/webui/resources and
+  # decentr://resources maps to root, since both ../../ui/webui/resources and
   # gen/ui/webui/resources are js_module_roots.
   "module_resolution=BROWSER_WITH_TRANSFORMED_PREFIXES",
-  "browser_resolver_prefix_replacements=\"chrome://resources/=./\"",
+  "browser_resolver_prefix_replacements=\"decentr://resources/=./\"",
   "browser_resolver_prefix_replacements=\"//resources/=./\"",
 ]
 
@@ -68,17 +68,17 @@ mojom_js_args = [
   "browser_resolver_prefix_replacements=\"//resources/mojo/mojo/public/js/bindings.js=/bindings_uncompiled.js\"",
 
   # Shared Mojom WebUI JS modules are by convention exposed through URLs like
-  # chrome://resources/mojo/<path-to-module>. At build time these will be given
+  # decentr://resources/mojo/<path-to-module>. At build time these will be given
   # as gen/<path-to-module> for compilation, so we can rewrite them as absolute
   # paths.
-  "browser_resolver_prefix_replacements=\"chrome://resources/mojo/=/\"",
+  "browser_resolver_prefix_replacements=\"decentr://resources/mojo/=/\"",
 ]
 
 polymer3_args = [
   "browser_resolver_prefix_replacements=\"../polymer/polymer_bundled.min.js=../polymer/polymer_bundled.js\"",
-  "browser_resolver_prefix_replacements=\"chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js=../../third_party/polymer/v3_0/components-chromium/polymer/polymer_bundled.js\"",
+  "browser_resolver_prefix_replacements=\"decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js=../../third_party/polymer/v3_0/components-chromium/polymer/polymer_bundled.js\"",
   "browser_resolver_prefix_replacements=\"//resources/polymer/v3_0/polymer/polymer_bundled.min.js=../../third_party/polymer/v3_0/components-chromium/polymer/polymer_bundled.js\"",
-  "browser_resolver_prefix_replacements=\"chrome://resources/polymer/v3_0/=../../third_party/polymer/v3_0/components-chromium/\"",
+  "browser_resolver_prefix_replacements=\"decentr://resources/polymer/v3_0/=../../third_party/polymer/v3_0/components-chromium/\"",
   "browser_resolver_prefix_replacements=\"//resources/polymer/v3_0/=../../third_party/polymer/v3_0/components-chromium/\"",
 
   "hide_warnings_for=externs.zip",

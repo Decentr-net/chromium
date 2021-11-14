@@ -168,7 +168,7 @@ TEST_F(URLLoadingBrowserAgentTest, TestSwitchToTabFromNTP) {
 
   std::unique_ptr<web::FakeWebState> web_state = CreateFakeWebState();
   web::WebState* web_state_ptr = web_state.get();
-  web_state->SetCurrentURL(GURL("chrome://newtab"));
+  web_state->SetCurrentURL(GURL("decentr://newtab"));
   web_state_list->InsertWebState(0, std::move(web_state),
                                  WebStateList::INSERT_FORCE_INDEX,
                                  WebStateOpener());
@@ -202,7 +202,7 @@ TEST_F(URLLoadingBrowserAgentTest, TestSwitchToClosedTab) {
   ASSERT_EQ(0, web_state_list->count());
 
   std::unique_ptr<web::FakeWebState> web_state = CreateFakeWebState();
-  web_state->SetCurrentURL(GURL("chrome://newtab"));
+  web_state->SetCurrentURL(GURL("decentr://newtab"));
   web::WebState* web_state_ptr = web_state.get();
   web_state_list->InsertWebState(0, std::move(web_state),
                                  WebStateList::INSERT_FORCE_INDEX,
@@ -227,7 +227,7 @@ TEST_F(URLLoadingBrowserAgentTest, TestOpenInCurrentTab) {
   ASSERT_EQ(0, web_state_list->count());
 
   // Set a new tab, so we can open in it.
-  GURL newtab("chrome://newtab");
+  GURL newtab("decentr://newtab");
   loader_->Load(
       UrlLoadParams::InNewTab(web::NavigationManager::WebLoadParams(newtab)));
   EXPECT_EQ(1, web_state_list->count());
@@ -256,7 +256,7 @@ TEST_F(URLLoadingBrowserAgentTest, TestOpenInNewTab) {
   ASSERT_EQ(0, web_state_list->count());
 
   // Set a new tab.
-  GURL newtab("chrome://newtab");
+  GURL newtab("decentr://newtab");
   loader_->Load(
       UrlLoadParams::InNewTab(web::NavigationManager::WebLoadParams(newtab)));
   EXPECT_EQ(1, web_state_list->count());
@@ -284,7 +284,7 @@ TEST_F(URLLoadingBrowserAgentTest, TestOpenInCurrentIncognitoTab) {
   scene_loader_->current_browser_ = otr_browser.get();
 
   // Set a new tab.
-  GURL newtab("chrome://newtab");
+  GURL newtab("decentr://newtab");
   UrlLoadParams new_tab_params =
       UrlLoadParams::InNewTab(web::NavigationManager::WebLoadParams(newtab));
   new_tab_params.in_incognito = YES;
@@ -447,7 +447,7 @@ TEST_F(URLLoadingBrowserAgentTest,
   scene_loader_->current_browser_ = otr_browser.get();
 
   // Set a new incognito tab.
-  GURL newtab("chrome://newtab");
+  GURL newtab("decentr://newtab");
   UrlLoadParams new_tab_params =
       UrlLoadParams::InNewTab(web::NavigationManager::WebLoadParams(newtab));
   new_tab_params.in_incognito = YES;

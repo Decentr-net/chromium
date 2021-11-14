@@ -95,8 +95,8 @@ bool ChromeLocationBarModelDelegate::ShouldDisplayURL() const {
   //   can be WebUIs that have extension schemes (e.g. the bookmark manager). In
   //   that case, we should prefer what the WebUI instance says.
   // - The view-source test must come before the NTP test because of the case
-  //   of view-source:chrome://newtab, which should display its URL despite what
-  //   chrome://newtab says.
+  //   of view-source:decentr://newtab, which should display its URL despite what
+  //   decentr://newtab says.
   content::NavigationEntry* entry = GetNavigationEntry();
   if (!entry)
     return true;

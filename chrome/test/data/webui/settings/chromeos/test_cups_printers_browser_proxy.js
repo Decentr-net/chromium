@@ -4,7 +4,7 @@
 
 // clang-format off
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {CupsPrintersBrowserProxy,PrinterSetupResult,PrintServerResult} from 'chrome://os-settings/chromeos/lazy_load.js';
+// #import {CupsPrintersBrowserProxy,PrinterSetupResult,PrintServerResult} from 'decentr://os-settings/chromeos/lazy_load.js';
 // clang-format on
 
 cr.define('printerBrowserProxy', function() {

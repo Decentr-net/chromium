@@ -55,7 +55,7 @@
       Relaunch
     </message>
   </if>
-  <message name="IDS_FLAGS_UI_CLEAR_SEARCH" translateable="false" desc="Tooltip for icon button that clears the searchbar on the chrome://flags page.">
+  <message name="IDS_FLAGS_UI_CLEAR_SEARCH" translateable="false" desc="Tooltip for icon button that clears the searchbar on the decentr://flags page.">
     Clear search
   </message>
   <message name="IDS_FLAGS_UI_RESET_ACKNOWLEDGED" translateable="false" desc="Screen reader text stating that the reset action was acknowledged.">
@@ -124,7 +124,7 @@
   <message name="IDS_DEPRECATED_FEATURES_NO_RESULTS" desc="Message shown when searching and no results were found.">
     No matching features
   </message>
-  <message name="IDS_DEPRECATED_UI_CLEAR_SEARCH" desc="Tooltip for icon button that clears the searchbar on the chrome://flags/enterprise page.">
+  <message name="IDS_DEPRECATED_UI_CLEAR_SEARCH" desc="Tooltip for icon button that clears the searchbar on the decentr://flags/enterprise page.">
     Clear search
   </message>
   <message name="IDS_DEPRECATED_UI_RESET_ACKNOWLEDGED" desc="Screen reader text stating that the reset action was acknowledged.">

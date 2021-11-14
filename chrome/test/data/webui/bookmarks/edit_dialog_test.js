@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://bookmarks/bookmarks.js';
+import 'decentr://bookmarks/bookmarks.js';
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, replaceBody} from 'chrome://test/bookmarks/test_util.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, replaceBody} from 'decentr://test/bookmarks/test_util.js';
 
 suite('<bookmarks-edit-dialog>', function() {
   let dialog;

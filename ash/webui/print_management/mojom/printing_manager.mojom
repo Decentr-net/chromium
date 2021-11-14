@@ -109,7 +109,7 @@ interface PrintJobsObserver {
 };
 
 // Provides APIs to retrieve print metadata information. This API is exposed
-// only to the Print Management App (chrome://print-management). Interfaces are
+// only to the Print Management App (decentr://print-management). Interfaces are
 // implemented by a browser service. Interacts with PrintHistory API to retrieve
 // print job metadatas.
 interface PrintingMetadataProvider {

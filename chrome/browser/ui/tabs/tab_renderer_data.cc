@@ -53,7 +53,7 @@ TabRendererData TabRendererData::FromTabInModel(TabStripModel* model,
   data.network_state = TabNetworkStateForWebContents(contents);
   data.title = tab_ui_helper->GetTitle();
   data.visible_url = contents->GetVisibleURL();
-  // Allow empty title for chrome-untrusted:// URLs.
+  // Allow empty title for decentr-untrusted:// URLs.
   if (data.title.empty() &&
       data.visible_url.SchemeIs(content::kChromeUIUntrustedScheme)) {
     data.should_render_empty_title = true;

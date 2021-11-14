@@ -24,7 +24,7 @@ GEN('#endif');
 var CrSettingsBrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings';
+    return 'decentr://settings';
   }
 
   /** @override */
@@ -46,7 +46,7 @@ var CrSettingsBrowserTest = class extends PolymerTest {
 var CrSettingsAboutPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/about_page_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/about_page_tests.js';
   }
 };
 
@@ -64,7 +64,7 @@ GEN('#endif');
 var CrSettingsAvatarIconTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/avatar_icon_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/avatar_icon_test.js';
   }
 };
 
@@ -76,7 +76,7 @@ TEST_F('CrSettingsAvatarIconTest', 'All', function() {
 var CrSettingsBasicPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/basic_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/basic_page_test.js';
   }
 
   /** @override */
@@ -95,7 +95,7 @@ TEST_F('CrSettingsBasicPageTest', 'All', function() {
 var CrSettingsBasicPageRedesignTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/basic_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/basic_page_test.js';
   }
 
   /** @override */
@@ -115,7 +115,7 @@ GEN('#if !BUILDFLAG(IS_CHROMEOS_ASH)');
 var CrSettingsLanguagesPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/languages_page_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/languages_page_tests.js';
   }
 };
 
@@ -154,7 +154,7 @@ GEN('#endif');
 var CrSettingsLanguagesSubpageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/languages_subpage_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/languages_subpage_tests.js';
   }
 };
 
@@ -172,7 +172,7 @@ var CrSettingsLanguagesSubpageDetailedTest =
     class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/languages_subpage_details_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/languages_subpage_details_tests.js';
   }
 };
 
@@ -196,7 +196,7 @@ GEN('#endif');
 var CrSettingsLanguagesPageMetricsTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/languages_page_metrics_test_browser.js';
+    return 'decentr://settings/test_loader.html?module=settings/languages_page_metrics_test_browser.js';
   }
 };
 
@@ -212,7 +212,7 @@ GEN('#endif  // !BUILDFLAG(IS_CHROMEOS_ASH)');
 var CrSettingsClearBrowsingDataTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/clear_browsing_data_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/clear_browsing_data_test.js';
   }
 
   /** @override */
@@ -249,7 +249,7 @@ GEN('#endif');
 var CrSettingsMainPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/settings_main_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/settings_main_test.js';
   }
 };
 
@@ -265,7 +265,7 @@ TEST_F('CrSettingsMainPageTest', 'DISABLED_MainPage', function() {
 var CrSettingsAutofillPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/autofill_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/autofill_page_test.js';
   }
 };
 
@@ -278,7 +278,7 @@ var CrSettingsAutofillSectionCompanyEnabledTest =
     class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/autofill_section_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/autofill_section_test.js';
   }
 };
 
@@ -295,7 +295,7 @@ TEST_F('CrSettingsAutofillSectionCompanyEnabledTest', 'All', function() {
 var CrSettingsPasswordsSectionTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/passwords_section_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/passwords_section_test.js';
   }
 };
 
@@ -315,7 +315,7 @@ var CrSettingsMultiStorePasswordUiEntryTest =
     class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/multi_store_password_ui_entry_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/multi_store_password_ui_entry_test.js';
   }
 };
 
@@ -327,7 +327,7 @@ TEST_F('CrSettingsMultiStorePasswordUiEntryTest', 'All', function() {
 var CrSettingsPasswordsDeviceSectionTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/passwords_device_section_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/passwords_device_section_test.js';
   }
 };
 
@@ -340,7 +340,7 @@ var CrSettingsMultiStoreExceptionEntryTest =
     class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/multi_store_exception_entry_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/multi_store_exception_entry_test.js';
   }
 };
 
@@ -352,7 +352,7 @@ TEST_F('CrSettingsMultiStoreExceptionEntryTest', 'All', function() {
 var CrSettingsPasswordsCheckTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/password_check_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/password_check_test.js';
   }
 };
 
@@ -371,7 +371,7 @@ GEN('#undef MAYBE_All');
 var CrSettingsSafetyCheckPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/safety_check_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/safety_check_page_test.js';
   }
 };
 
@@ -385,7 +385,7 @@ var CrSettingsSafetyCheckChromeCleanerTest =
     class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/safety_check_chrome_cleaner_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/safety_check_chrome_cleaner_test.js';
   }
 };
 
@@ -398,7 +398,7 @@ GEN('#endif  // defined(OS_WIN) && BUILDFLAG(GOOGLE_CHROME_BRANDING)');
 var CrSettingsSiteListTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/site_list_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/site_list_tests.js';
   }
 };
 
@@ -426,7 +426,7 @@ TEST_F('CrSettingsSiteListTest', 'AddExceptionDialog', function() {
 var CrSettingsSiteDetailsTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/site_details_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/site_details_tests.js';
   }
 };
 
@@ -447,7 +447,7 @@ TEST_F('CrSettingsSiteDetailsTest', 'MAYBE_SiteDetails', function() {
 var CrSettingsPersonalizationOptionsTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/personalization_options_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/personalization_options_test.js';
   }
 };
 
@@ -465,7 +465,7 @@ GEN('#endif');
 var CrSettingsPrivacyPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/privacy_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/privacy_page_test.js';
   }
 
   /** @override */
@@ -508,7 +508,7 @@ GEN('#endif');
 var CrSettingsPrivacyReviewPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/privacy_review_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/privacy_review_page_test.js';
   }
 
   /** @override */
@@ -531,7 +531,7 @@ TEST_F(
 var CrSettingsRouteTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/route_tests.js';
+    return 'decentr://settings/test_loader.html?module=settings/route_tests.js';
   }
 };
 
@@ -559,7 +559,7 @@ TEST_F('CrSettingsRouteTest', 'MAYBE_NonExistentRoute', function() {
 var CrSettingsAdvancedPageTest = class extends CrSettingsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=settings/advanced_page_test.js';
+    return 'decentr://settings/test_loader.html?module=settings/advanced_page_test.js';
   }
 };
 
@@ -686,7 +686,7 @@ function registerTest(testName, module, caseName) {
   this[className] = class extends CrSettingsBrowserTest {
     /** @override */
     get browsePreload() {
-      return `chrome://settings/test_loader.html?module=settings/${module}`;
+      return `decentr://settings/test_loader.html?module=settings/${module}`;
     }
   };
 

@@ -20,7 +20,7 @@ GEN(`#include "content/public/test/browser_test.h"
 const PrintPreviewTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/';
+    return 'decentr://print/';
   }
 
   // The name of the mocha suite. Should be overridden by subclasses.
@@ -38,7 +38,7 @@ const PrintPreviewTest = class extends PolymerTest {
 var PrintPreviewAppTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/print_preview_app_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/print_preview_app_test.js';
   }
 
   /** @override */
@@ -77,7 +77,7 @@ GEN('#endif');
 var PrintPreviewSidebarTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/print_preview_sidebar_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/print_preview_sidebar_test.js';
   }
 
   /** @override */
@@ -104,7 +104,7 @@ TEST_F('PrintPreviewSidebarTest', 'SheetCountWithCopies', function() {
 var PrintPreviewPagesSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pages_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pages_settings_test.js';
   }
 
   /** @override */
@@ -141,7 +141,7 @@ TEST_F('PrintPreviewPagesSettingsTest', 'NupChangesPages', function() {
 var PrintPreviewPdfToolbarManagerTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pdf_toolbar_manager_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pdf_toolbar_manager_test.js';
   }
 
   /** @override */
@@ -168,7 +168,7 @@ TEST_F('PrintPreviewPdfToolbarManagerTest', 'TouchInteraction', function() {
 var PrintPreviewPdfViewerTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pdf_viewer_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pdf_viewer_test.js';
   }
 
   /** @override */
@@ -189,7 +189,7 @@ TEST_F('PrintPreviewPdfViewerTest', 'PageIndicator', function() {
 var PrintPreviewPdfZoomToolbarTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pdf_zoom_toolbar_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pdf_zoom_toolbar_test.js';
   }
 
   /** @override */
@@ -210,7 +210,7 @@ TEST_F('PrintPreviewPdfZoomToolbarTest', 'ForceFitToPage', function() {
 var PrintPreviewPolicyTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/policy_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/policy_test.js';
   }
 
   /** @override */
@@ -263,7 +263,7 @@ TEST_F('PrintPreviewPolicyTest', 'PrintPdfAsImageDefault', function() {
 var PrintPreviewSettingsSelectTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/settings_select_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/settings_select_test.js';
   }
 };
 
@@ -275,7 +275,7 @@ TEST_F('PrintPreviewSettingsSelectTest', 'All', function() {
 var PrintPreviewSelectBehaviorTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/select_behavior_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/select_behavior_test.js';
   }
 
   /** @override */
@@ -292,7 +292,7 @@ TEST_F('PrintPreviewSelectBehaviorTest', 'CallProcessSelectChange', function() {
 var PrintPreviewNumberSettingsSectionTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/number_settings_section_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/number_settings_section_test.js';
   }
 
   /** @override */
@@ -317,7 +317,7 @@ TEST_F(
 var PrintPreviewRestoreStateTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/restore_state_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/restore_state_test.js';
   }
 
   /** @override */
@@ -342,7 +342,7 @@ TEST_F('PrintPreviewRestoreStateTest', 'SaveValues', function() {
 var PrintPreviewModelTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/model_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/model_test.js';
   }
 
   /** @override */
@@ -380,7 +380,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewModelTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/model_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/model_test.js';
   }
 
   /** @override */
@@ -398,7 +398,7 @@ GEN('#endif');
 var PrintPreviewModelSettingsAvailabilityTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/model_settings_availability_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/model_settings_availability_test.js';
   }
 };
 
@@ -411,7 +411,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewModelSettingsPolicyTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/model_settings_policy_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/model_settings_policy_test.js';
   }
 };
 
@@ -424,7 +424,7 @@ GEN('#endif');
 var PrintPreviewPreviewGenerationTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/preview_generation_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/preview_generation_test.js';
   }
 
   /** @override */
@@ -510,7 +510,7 @@ GEN('#if !defined(OS_CHROMEOS)');
 var PrintPreviewLinkContainerTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/link_container_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/link_container_test.js';
   }
 
   /** @override */
@@ -543,7 +543,7 @@ GEN('#if defined(OS_WIN) || defined(OS_MAC)');
 var PrintPreviewSystemDialogBrowserTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/system_dialog_browsertest.js';
+    return 'decentr://print/test_loader.html?module=print_preview/system_dialog_browsertest.js';
   }
 
   /** @override */
@@ -571,7 +571,7 @@ GEN('#endif');  // defined(OS_WIN) || defined(OS_MAC)
 var PrintPreviewInvalidSettingsBrowserTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/invalid_settings_browsertest.js';
+    return 'decentr://print/test_loader.html?module=print_preview/invalid_settings_browsertest.js';
   }
 
   /** @override */
@@ -605,7 +605,7 @@ TEST_F(
 var PrintPreviewDestinationStoreTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_store_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_store_test.js';
   }
 
   /** @override */
@@ -705,7 +705,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewDestinationStoreTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_store_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_store_test.js';
   }
 
   /** @override */
@@ -736,7 +736,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewPrintServerStoreTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/print_server_store_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/print_server_store_test.js';
   }
 
   /** @override */
@@ -774,7 +774,7 @@ GEN('#if !defined(OS_CHROMEOS)');
 var PrintPreviewDestinationDialogTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_dialog_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_dialog_test.js';
   }
 
   /** @override */
@@ -797,7 +797,7 @@ GEN('#else');
 var PrintPreviewDestinationDialogCrosTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_dialog_cros_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_dialog_cros_test.js';
   }
 
   /** @override */
@@ -839,7 +839,7 @@ GEN('#endif');
 var PrintPreviewAdvancedDialogTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/advanced_dialog_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/advanced_dialog_test.js';
   }
 
   /** @override */
@@ -881,7 +881,7 @@ TEST_F('PrintPreviewAdvancedDialogTest', 'AdvancedSettingsFilter', function() {
 var PrintPreviewPreviewAreaTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/preview_area_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/preview_area_test.js';
   }
 
   /** @override */
@@ -902,7 +902,7 @@ TEST_F('PrintPreviewPreviewAreaTest', 'ViewportSizeChanges', function() {
 var PrintPreviewCustomMarginsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/custom_margins_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/custom_margins_test.js';
   }
 
   /** @override */
@@ -984,7 +984,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewDestinationSearchTestChromeOS = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_search_test_chromeos.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_search_test_chromeos.js';
   }
 
   /** @override */
@@ -1018,7 +1018,7 @@ GEN('#else');
 var PrintPreviewDestinationSearchTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_search_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_search_test.js';
   }
 
   /** @override */
@@ -1042,7 +1042,7 @@ GEN('#endif');
 var PrintPreviewHeaderTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/header_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/header_test.js';
   }
 
   /** @override */
@@ -1067,7 +1067,7 @@ TEST_F('PrintPreviewHeaderTest', 'EnterprisePolicy', function() {
 var PrintPreviewButtonStripTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/button_strip_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/button_strip_test.js';
   }
 
   /** @override */
@@ -1092,7 +1092,7 @@ TEST_F('PrintPreviewButtonStripTest', 'ButtonStripFiresEvents', function() {
 var PrintPreviewDestinationItemTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_item_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_item_test.js';
   }
 
   /** @override */
@@ -1126,7 +1126,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewDestinationItemTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_item_test_cros.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_item_test_cros.js';
   }
 
   /** @override */
@@ -1160,7 +1160,7 @@ GEN('#endif');
 var PrintPreviewAdvancedItemTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/advanced_item_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/advanced_item_test.js';
   }
 
   /** @override */
@@ -1197,7 +1197,7 @@ TEST_F('PrintPreviewAdvancedItemTest', 'QueryOption', function() {
 var PrintPreviewDestinationListTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_list_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_list_test.js';
   }
 
   /** @override */
@@ -1220,7 +1220,7 @@ TEST_F(
 var PrintPreviewPrintButtonTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/print_button_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/print_button_test.js';
   }
 
   /** @override */
@@ -1242,7 +1242,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewPrintButtonTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/print_button_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/print_button_test.js';
   }
 
   /** @override */
@@ -1263,7 +1263,7 @@ GEN('#endif');
 var PrintPreviewKeyEventTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/key_event_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/key_event_test.js';
   }
 
   /** @override */
@@ -1315,7 +1315,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewPrinterStatusTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_select_test_cros.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_select_test_cros.js';
   }
 
   /** @override */
@@ -1356,7 +1356,7 @@ TEST_F(
 var PrintPreviewDestinationDropdownCrosTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_dropdown_cros_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_dropdown_cros_test.js';
   }
 
   /** @override */
@@ -1414,7 +1414,7 @@ GEN('#else');
 var PrintPreviewDestinationSelectTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_select_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_select_test.js';
   }
 
   /** @override */
@@ -1436,7 +1436,7 @@ GEN('#endif');
 var PrintPreviewDestinationSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_settings_test.js';
   }
 
   /** @override */
@@ -1541,7 +1541,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewDestinationSettingsTestCros = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_settings_test_cros.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_settings_test_cros.js';
   }
 
   /** @override */
@@ -1567,7 +1567,7 @@ GEN('#endif');
 var PrintPreviewScalingSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/scaling_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/scaling_settings_test.js';
   }
 
   /** @override */
@@ -1598,7 +1598,7 @@ TEST_F(
 var PrintPreviewCopiesSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/copies_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/copies_settings_test.js';
   }
 };
 
@@ -1610,7 +1610,7 @@ TEST_F('PrintPreviewCopiesSettingsTest', 'All', function() {
 var PrintPreviewMediaSizeSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/media_size_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/media_size_settings_test.js';
   }
 };
 
@@ -1622,7 +1622,7 @@ TEST_F('PrintPreviewMediaSizeSettingsTest', 'All', function() {
 var PrintPreviewDpiSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/dpi_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/dpi_settings_test.js';
   }
 };
 
@@ -1634,7 +1634,7 @@ TEST_F('PrintPreviewDpiSettingsTest', 'All', function() {
 var PrintPreviewOtherOptionsSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/other_options_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/other_options_settings_test.js';
   }
 };
 
@@ -1646,7 +1646,7 @@ TEST_F('PrintPreviewOtherOptionsSettingsTest', 'All', function() {
 var PrintPreviewLayoutSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/layout_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/layout_settings_test.js';
   }
 };
 
@@ -1658,7 +1658,7 @@ TEST_F('PrintPreviewLayoutSettingsTest', 'All', function() {
 var PrintPreviewColorSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/color_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/color_settings_test.js';
   }
 };
 
@@ -1670,7 +1670,7 @@ TEST_F('PrintPreviewColorSettingsTest', 'All', function() {
 var PrintPreviewMarginsSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/margins_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/margins_settings_test.js';
   }
 };
 
@@ -1682,7 +1682,7 @@ TEST_F('PrintPreviewMarginsSettingsTest', 'All', function() {
 var PrintPreviewPagesPerSheetSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pages_per_sheet_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pages_per_sheet_settings_test.js';
   }
 };
 
@@ -1694,7 +1694,7 @@ TEST_F('PrintPreviewPagesPerSheetSettingsTest', 'All', function() {
 var PrintPreviewDuplexSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/duplex_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/duplex_settings_test.js';
   }
 };
 
@@ -1707,7 +1707,7 @@ GEN('#if defined(OS_CHROMEOS)');
 var PrintPreviewPinSettingsTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pin_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pin_settings_test.js';
   }
 };
 
@@ -1720,7 +1720,7 @@ GEN('#endif');
 var PrintPreviewUserManagerTest = class extends PrintPreviewTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/user_manager_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/user_manager_test.js';
   }
 };
 

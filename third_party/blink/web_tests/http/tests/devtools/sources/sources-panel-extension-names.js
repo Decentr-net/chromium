@@ -11,7 +11,7 @@
   contentScriptsNavigatorView.show(UI.inspectorView.element);
 
   var mockExecutionContext =
-      {id: 1234567, isDefault: false, origin: 'chrome-extension://113581321345589144', name: 'FibExtension'};
+      {id: 1234567, isDefault: false, origin: 'decentr-extension://113581321345589144', name: 'FibExtension'};
   var mockContentScriptURL = mockExecutionContext.origin + '/script.js';
 
   TestRunner.runTestSuite([

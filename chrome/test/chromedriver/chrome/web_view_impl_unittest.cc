@@ -297,7 +297,7 @@ TEST(CreateChild, Load_NoErrors) {
   std::unique_ptr<WebViewImpl> child_view =
       std::unique_ptr<WebViewImpl>(parent_view.CreateChild(sessionid, "1234"));
 
-  ASSERT_NO_FATAL_FAILURE(child_view->Load("chrome://version", nullptr));
+  ASSERT_NO_FATAL_FAILURE(child_view->Load("decentr://version", nullptr));
 }
 
 TEST(CreateChild, WaitForPendingNavigations_NoErrors) {
@@ -351,7 +351,7 @@ TEST(ManageCookies, AddCookie_SameSiteTrue) {
   base::DictionaryValue dict;
   dict.SetBoolean("success", true);
   client_ptr->set_result(dict);
-  Status status = view.AddCookie("utest", "chrome://version", "value", "domain",
+  Status status = view.AddCookie("utest", "decentr://version", "value", "domain",
                                  "path", samesite, true, true, 123456789);
   ASSERT_EQ(kOk, status.code());
 }

@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 import './uuid.mojom-lite.js';
 import './device.mojom-lite.js';
 import './adapter.mojom-lite.js';
 import './bluetooth_internals.mojom-lite.js';
 
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
 
 const SCAN_CLIENT_NAME = 'Bluetooth Internals Page';
 
 /**
  * Javascript for AdapterBroker, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 /** @typedef {bluetooth.mojom.AdapterRemote} */
 let AdapterRemote;

@@ -15,7 +15,7 @@ generate_extension_admx.py --name <name> --id <id> --schema <schema_file>
 
 Example:
   Download the managed bookmarks extension from
-    https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/mv2-archive/extensions/managed_bookmarks
+    https://github.com/GoogleChrome/decentr-extensions-samples/tree/main/mv2-archive/extensions/managed_bookmarks
   to obtain the schema.json file.
 
   generate_extension_admx.py --name 'Managed Bookmarks'

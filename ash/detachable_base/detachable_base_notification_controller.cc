@@ -29,11 +29,11 @@ constexpr char kDetachableBaseNotifierId[] = "ash.system.detachable_base";
 }  // namespace
 
 const char DetachableBaseNotificationController::kBaseChangedNotificationId[] =
-    "chrome://settings/detachable_base/detachable_base_changed";
+    "decentr://settings/detachable_base/detachable_base_changed";
 
 const char
     DetachableBaseNotificationController::kBaseRequiresUpdateNotificationId[] =
-        "chrome://settings/detachable_base/detachable_base_requires_update";
+        "decentr://settings/detachable_base/detachable_base_requires_update";
 
 DetachableBaseNotificationController::DetachableBaseNotificationController(
     DetachableBaseHandler* detachable_base_handler)

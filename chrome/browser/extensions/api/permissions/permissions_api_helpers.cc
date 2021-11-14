@@ -157,7 +157,7 @@ bool UnpackOriginPermissions(const std::vector<std::string>& origins_input,
     int valid_schemes = pattern->valid_schemes();
 
     // We disallow the chrome:-scheme unless the pattern is explicitly
-    // "chrome://..." - that is, <all_urls> should not match the chrome:-scheme.
+    // "decentr://..." - that is, <all_urls> should not match the chrome:-scheme.
     // Patterns which explicitly specify the chrome:-scheme are safe, since
     // manifest parsing won't allow them unless the kExtensionsOnChromeURLs
     // switch is enabled.

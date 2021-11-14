@@ -15,7 +15,7 @@
 class Profile;
 
 // We expose this class because the OOBE flow may need to explicitly add the
-// chrome://terms source outside of the normal flow.
+// decentr://terms source outside of the normal flow.
 class AboutUIHTMLSource : public content::URLDataSource {
  public:
   // Construct a data source for the specified |source_name|.

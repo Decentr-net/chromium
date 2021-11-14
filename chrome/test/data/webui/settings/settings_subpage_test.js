@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {Route, Router} from 'chrome://settings/settings.js';
-import {setupPopstateListener} from 'chrome://test/settings/test_util.js';
-import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {Route, Router} from 'decentr://settings/settings.js';
+import {setupPopstateListener} from 'decentr://test/settings/test_util.js';
+import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
 
 // clang-format on
 

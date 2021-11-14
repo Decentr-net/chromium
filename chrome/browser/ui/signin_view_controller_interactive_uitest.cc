@@ -134,7 +134,7 @@ IN_PROC_BROWSER_TEST_F(SignInViewControllerBrowserTest,
   signin::MakePrimaryAccountAvailable(GetIdentityManager(), "alice@gmail.com",
                                       signin::ConsentLevel::kSync);
   content::TestNavigationObserver content_observer(
-      GURL("chrome://sync-confirmation/"));
+      GURL("decentr://sync-confirmation/"));
   content_observer.StartWatchingNewWebContents();
   browser()->signin_view_controller()->ShowModalSyncConfirmationDialog();
   EXPECT_TRUE(browser()->signin_view_controller()->ShowsModalDialog());
@@ -159,7 +159,7 @@ IN_PROC_BROWSER_TEST_F(SignInViewControllerBrowserTest,
 IN_PROC_BROWSER_TEST_F(SignInViewControllerBrowserTest,
                        EmailConfirmationDefaultFocus) {
   content::TestNavigationObserver content_observer(
-      GURL("chrome://signin-email-confirmation/"));
+      GURL("decentr://signin-email-confirmation/"));
   content_observer.StartWatchingNewWebContents();
   base::RunLoop run_loop;
   SigninEmailConfirmationDialog::Action chosen_action;
@@ -187,7 +187,7 @@ IN_PROC_BROWSER_TEST_F(SignInViewControllerBrowserTest,
 IN_PROC_BROWSER_TEST_F(SignInViewControllerBrowserTest,
                        ErrorDialogDefaultFocus) {
   content::TestNavigationObserver content_observer(
-      GURL("chrome://signin-error/"));
+      GURL("decentr://signin-error/"));
   content_observer.StartWatchingNewWebContents();
   browser()->signin_view_controller()->ShowModalSigninErrorDialog();
   EXPECT_TRUE(browser()->signin_view_controller()->ShowsModalDialog());
@@ -211,7 +211,7 @@ IN_PROC_BROWSER_TEST_F(SignInViewControllerBrowserTest,
   auto account_info = signin::MakePrimaryAccountAvailable(
       GetIdentityManager(), "alice@gmail.com", signin::ConsentLevel::kSync);
   content::TestNavigationObserver content_observer(
-      GURL("chrome://enterprise-profile-welcome/"));
+      GURL("decentr://enterprise-profile-welcome/"));
   content_observer.StartWatchingNewWebContents();
   bool result;
   browser()->signin_view_controller()->ShowModalEnterpriseConfirmationDialog(

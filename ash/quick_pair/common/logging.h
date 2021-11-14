@@ -15,7 +15,7 @@ namespace quick_pair {
 
 // Use the QP_LOG() macro for all logging related to Quick Pair implementations
 // (e.g. Fast Pair), so the system is aware of all logs related to this feature.
-// We display these logs in the debug WebUI (chrome://nearby-internals).
+// We display these logs in the debug WebUI (decentr://nearby-internals).
 //
 // QP_LOG() has the same interface as the standard LOG() macro and also creates
 // a normal log message of the same severity.

@@ -30,7 +30,7 @@
 
 namespace media {
 
-// Interface for media components to log to chrome://media-internals log.
+// Interface for media components to log to decentr://media-internals log.
 //
 // To provide a logging implementation, derive from MediaLog instead.
 //

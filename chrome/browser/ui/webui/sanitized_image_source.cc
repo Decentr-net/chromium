@@ -70,7 +70,7 @@ void SanitizedImageSource::StartDataRequest(
             "This data source fetches an arbitrary image to be displayed in a "
             "WebUI."
           trigger:
-            "When a WebUI triggers the download of chrome://image?<URL> by "
+            "When a WebUI triggers the download of decentr://image?<URL> by "
             "e.g. setting that URL as a src on an img tag."
           data: "NONE"
           destination: WEBSITE

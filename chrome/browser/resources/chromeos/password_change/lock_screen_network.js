@@ -7,14 +7,14 @@
  * Polymer element lock screen network selection UI.
  */
 
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_components/chromeos/network/network_select.m.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_components/chromeos/network/network_select.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
 import './strings.m.js';
 
-import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 Polymer({
   is: 'lock-screen-network-ui',

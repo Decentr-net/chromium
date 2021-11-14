@@ -132,7 +132,7 @@ class ArcInputMethodStateDelegateImpl : public ArcInputMethodState::Delegate {
     const std::string layout("us");
 
     // Set the fake language so that the IME is shown in the special section in
-    // chrome://settings.
+    // decentr://settings.
     const std::vector<std::string> languages{
         ash::extension_ime_util::kArcImeLanguage};
 
@@ -483,7 +483,7 @@ void ArcInputMethodManagerService::UpdateInputMethodEntryWithImeInfo() {
 
   // Enable IMEs that are already enabled in the container.
   // TODO(crbug.com/845079): We should keep the order of the IMEs as same as in
-  // chrome://settings
+  // decentr://settings
   prefs_.UpdateEnabledImes(arc_ime_state_.GetEnabledInputMethods());
 
   for (const auto& descriptor : arc_ime_state_.GetEnabledInputMethods())
@@ -619,7 +619,7 @@ void ArcInputMethodManagerService::SyncEnabledImesInArc() {
         !enabled_ime_ids_on_prefs.count(id)) {
       // This path is taken in the following two cases:
       // 1) The device is in tablet mode, and the user disabled the IME via
-      //    chrome://settings.
+      //    decentr://settings.
       // 2) The device was just switched to laptop mode, and this service
       //    disallowed Android IMEs.
       // In the former case, |active_ime_ids_on_prefs| doesn't have the IME,
@@ -689,7 +689,7 @@ void ArcInputMethodManagerService::OnTabletModeToggled(bool /* enabled */) {
 void ArcInputMethodManagerService::NotifyInputMethodManagerObservers(
     bool is_tablet_mode) {
   // Togging the mode may enable or disable all the ARC IMEs. To dynamically
-  // reflect the potential state changes to chrome://settings, notify the
+  // reflect the potential state changes to decentr://settings, notify the
   // manager's observers here.
   // TODO(yusukes): This is a temporary workaround for supporting ARC IMEs
   // and supports neither Chrome OS extensions nor state changes enforced by

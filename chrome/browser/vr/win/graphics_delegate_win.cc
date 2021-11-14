@@ -41,7 +41,7 @@ bool GraphicsDelegateWin::InitializeOnMainThread() {
   context_provider_ = base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
       host, factory->GetGpuMemoryBufferManager(), content::kGpuStreamIdDefault,
       content::kGpuStreamPriorityUI, gpu::kNullSurfaceHandle,
-      GURL(std::string("chrome://gpu/VrUiWin")), false /* automatic flushes */,
+      GURL(std::string("decentr://gpu/VrUiWin")), false /* automatic flushes */,
       false /* support locking */, false /* support grcontext */,
       gpu::SharedMemoryLimits::ForMailboxContext(), attributes,
       viz::command_buffer_metrics::ContextType::XR_COMPOSITING);

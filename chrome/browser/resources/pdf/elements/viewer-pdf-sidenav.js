@@ -7,11 +7,11 @@ import '../pdf_viewer_shared_style.js';
 import './icons.js';
 import './viewer-document-outline.js';
 import './viewer-thumbnail-bar.js';
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Bookmark} from '../bookmark_type.js';
 import {record, UserAction} from '../metrics.js';

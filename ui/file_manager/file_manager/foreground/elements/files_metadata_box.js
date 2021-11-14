@@ -4,7 +4,7 @@
 
 import './files_metadata_entry.js';
 
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 Polymer({
   _template: html`{__html_template__}`,

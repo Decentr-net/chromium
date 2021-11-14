@@ -38,7 +38,7 @@ std::string GetVersionString(WithExtendedStable with_extended_stable);
 //
 // Ordinarily, extended stable is reported as "". Specify `with_extended_stable`
 // to report extended stable as "extended". In general, this should be used for
-// diagnostic strings in UX (e.g., in chrome://version). Whether or not it is
+// diagnostic strings in UX (e.g., in decentr://version). Whether or not it is
 // used in strings sent to services (e.g., in the channel field of crash
 // reports) is dependent on the specific service. `with_extended_stable` has no
 // effect on Chrome OS Ash or Android due to lack of support for extended stable

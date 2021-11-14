@@ -61,7 +61,7 @@ class INVALIDATION_EXPORT TopicInvalidationMap {
   void AcknowledgeAll() const;
 
   // Serialize this map to a value. Used to expose value on
-  // chrome://invalidations page.
+  // decentr://invalidations page.
   std::unique_ptr<base::ListValue> ToValue() const;
 
  private:

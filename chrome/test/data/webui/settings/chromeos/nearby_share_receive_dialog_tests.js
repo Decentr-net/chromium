@@ -5,8 +5,8 @@
 // clang-format off
 // #import {assertEquals} from '../../chai_assert.js';
 // #import {isChildVisible, waitAfterNextRender} from '../../test_util.js';
-// #import {setNearbyShareSettingsForTesting, setReceiveManagerForTesting, setContactManagerForTesting} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {setNearbyShareSettingsForTesting, setReceiveManagerForTesting, setContactManagerForTesting} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {FakeContactManager} from '../../nearby_share/shared/fake_nearby_contact_manager.m.js';
 // #import {FakeNearbyShareSettings} from '../../nearby_share/shared/fake_nearby_share_settings.m.js';
 // #import {FakeReceiveManager} from './fake_receive_manager.m.js'

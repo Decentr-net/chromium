@@ -397,10 +397,10 @@ TEST_F(ExtensionInfoGeneratorUnitTest, GenerateExtensionsJSONData) {
   {
     InspectableViewsFinder::ViewList views;
     views.push_back(InspectableViewsFinder::ConstructView(
-        GURL("chrome-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/bar.html"),
+        GURL("decentr-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/bar.html"),
         42, 88, true, false, api::developer_private::VIEW_TYPE_TAB_CONTENTS));
     views.push_back(InspectableViewsFinder::ConstructView(
-        GURL("chrome-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/dog.html"), 0,
+        GURL("decentr-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/dog.html"), 0,
         0, false, true, api::developer_private::VIEW_TYPE_TAB_CONTENTS));
 
     CompareExpectedAndActualOutput(
@@ -420,10 +420,10 @@ TEST_F(ExtensionInfoGeneratorUnitTest, GenerateExtensionsJSONData) {
     // It's OK to have duplicate URLs, so long as the IDs are different.
     InspectableViewsFinder::ViewList views;
     views.push_back(InspectableViewsFinder::ConstructView(
-        GURL("chrome-extension://hpiknbiabeeppbpihjehijgoemciehgk/bar.html"),
+        GURL("decentr-extension://hpiknbiabeeppbpihjehijgoemciehgk/bar.html"),
         42, 88, true, false, api::developer_private::VIEW_TYPE_TAB_CONTENTS));
     views.push_back(InspectableViewsFinder::ConstructView(
-        GURL("chrome-extension://hpiknbiabeeppbpihjehijgoemciehgk/bar.html"), 0,
+        GURL("decentr-extension://hpiknbiabeeppbpihjehijgoemciehgk/bar.html"), 0,
         0, false, true, api::developer_private::VIEW_TYPE_TAB_CONTENTS));
 
     CompareExpectedAndActualOutput(

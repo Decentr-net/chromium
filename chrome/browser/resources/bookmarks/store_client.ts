@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {StoreObserver} from 'chrome://resources/js/cr/ui/store.m.js';
-import {StoreClient as CrUiStoreClient, StoreClientInterface as CrUiStoreClientInterface} from 'chrome://resources/js/cr/ui/store_client.m.js';
-import {mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {StoreObserver} from 'decentr://resources/js/cr/ui/store.m.js';
+import {StoreClient as CrUiStoreClient, StoreClientInterface as CrUiStoreClientInterface} from 'decentr://resources/js/cr/ui/store_client.m.js';
+import {mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Store} from './store.js';
 import {BookmarksPageState} from './types.js';

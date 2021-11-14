@@ -7,26 +7,26 @@
  * 'site-list' shows a list of Allowed and Blocked sites for a given
  * category.
  */
-import 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/policy/cr_policy_pref_indicator.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
+import 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/policy/cr_policy_pref_indicator.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
 import '../settings_shared_css.js';
 import './add_site_dialog.js';
 import './edit_exception_dialog.js';
 import './site_list_entry.js';
 
-import {CrActionMenuElement} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {focusWithoutInk} from 'chrome://resources/js/cr/ui/focus_without_ink.m.js';
-import {ListPropertyUpdateBehavior} from 'chrome://resources/js/list_property_update_behavior.m.js';
-import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {PaperTooltipElement} from 'chrome://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrActionMenuElement} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {focusWithoutInk} from 'decentr://resources/js/cr/ui/focus_without_ink.m.js';
+import {ListPropertyUpdateBehavior} from 'decentr://resources/js/list_property_update_behavior.m.js';
+import {WebUIListenerMixin, WebUIListenerMixinInterface} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {PaperTooltipElement} from 'decentr://resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 

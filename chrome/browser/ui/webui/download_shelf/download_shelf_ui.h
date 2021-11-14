@@ -80,7 +80,7 @@ class DownloadShelfUI : public ui::MojoWebUIController,
   // DownloadItem::Observer
   // The observer calls notify JS side when an download item is updated
   // triggered download shelf or other places e.g. extension API or
-  // chrome://downloads.
+  // decentr://downloads.
   void OnDownloadOpened(DownloadItem* download) override;
   void OnDownloadUpdated(DownloadItem* download) override;
   void OnDownloadRemoved(DownloadItem* download) override;

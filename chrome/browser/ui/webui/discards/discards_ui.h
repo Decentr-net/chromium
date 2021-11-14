@@ -13,7 +13,7 @@
 #include "mojo/public/cpp/bindings/pending_receiver.h"
 #include "ui/webui/mojo_web_ui_controller.h"
 
-// Controller for chrome://discards. Corresponding resources are in
+// Controller for decentr://discards. Corresponding resources are in
 // file://chrome/browser/resources/discards.
 class DiscardsUI : public ui::MojoWebUIController {
  public:

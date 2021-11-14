@@ -66,11 +66,11 @@ TEST(ProcessExtensions, GenerateIds) {
 
   ASSERT_EQ(kOk, status.code()) << status.message();
   ASSERT_EQ(3u, bg_pages.size());
-  ASSERT_EQ("chrome-extension://llphabdmknikmpmkioimgdfbohinlekl/"
+  ASSERT_EQ("decentr-extension://llphabdmknikmpmkioimgdfbohinlekl/"
             "_generated_background_page.html", bg_pages[0]);
-  ASSERT_EQ("chrome-extension://dfdeoklpcichfcnoaomfpagfiibhomnh/"
+  ASSERT_EQ("decentr-extension://dfdeoklpcichfcnoaomfpagfiibhomnh/"
             "_generated_background_page.html", bg_pages[1]);
-  ASSERT_EQ("chrome-extension://ioccpomhcpklobebcbeohnmffkmcokbm/"
+  ASSERT_EQ("decentr-extension://ioccpomhcpklobebcbeohnmffkmcokbm/"
             "_generated_background_page.html", bg_pages[2]);
 }
 
@@ -90,7 +90,7 @@ TEST(ProcessExtensions, GenerateIdCrx3) {
   ASSERT_EQ(kOk, status.code()) << status.message();
   ASSERT_EQ(1u, bg_pages.size());
   ASSERT_EQ(
-      "chrome-extension://dfdeoklpcichfcnoaomfpagfiibhomnh/"
+      "decentr-extension://dfdeoklpcichfcnoaomfpagfiibhomnh/"
       "_generated_background_page.html",
       bg_pages[0]);
 }
@@ -135,7 +135,7 @@ TEST(ProcessExtensions, SingleExtensionWithBgPage) {
       key);
   ASSERT_EQ(1u, bg_pages.size());
   ASSERT_EQ(
-      "chrome-extension://ejapkfeonjhabbbnlpmcgholnoicapdb/"
+      "decentr-extension://ejapkfeonjhabbbnlpmcgholnoicapdb/"
       "_generated_background_page.html",
       bg_pages[0]);
 }

@@ -182,7 +182,7 @@ public class GURLJavaTest {
                 new GURL("gopher://foo/test/index.html"),
                 new GURL("ws://foo/test/index.html"),
                 // Non-standard,
-                new GURL("chrome://foo/bar.html"),
+                new GURL("decentr://foo/bar.html"),
                 new GURL("httpa://foo/test/index.html"),
                 new GURL("blob:https://foo.bar/test/index.html"),
                 new GURL("about:blank"),
@@ -235,7 +235,7 @@ public class GURLJavaTest {
                 + "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,false,true,"
                 // Inner Parsed.
                 + "17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,true,false,"
-                + "chrome://foo/bar.html";
+                + "decentr://foo/bar.html";
         serialization = serialization.replace(',', GURL.SERIALIZER_DELIMITER);
         serialization = prependLengthToSerialization(serialization);
         GURL url = GURL.deserialize(serialization);

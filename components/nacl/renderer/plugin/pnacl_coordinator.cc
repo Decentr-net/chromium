@@ -255,7 +255,7 @@ void PnaclCoordinator::BitcodeStreamCacheMiss(int64_t expected_pexe_size,
     ReportNonPpapiError(
         PP_NACL_ERROR_PNACL_RESOURCE_FETCH,
         std::string("The Portable Native Client (pnacl) component is not "
-                     "installed. Please consult chrome://components for more "
+                     "installed. Please consult decentr://components for more "
                       "information."));
     return;
   }

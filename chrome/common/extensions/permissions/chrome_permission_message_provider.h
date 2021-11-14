@@ -42,7 +42,7 @@ class ChromePermissionMessageProvider : public PermissionMessageProvider {
       Manifest::Type extension_type) const override;
 
   // Returns the permissions IDs which should trigger a warning for the user in
-  // chrome://management page.
+  // decentr://management page.
   PermissionIDSet GetManagementUIPermissionIDs(
       const PermissionSet& permissions,
       Manifest::Type extension_type) const override;
@@ -62,13 +62,13 @@ class ChromePermissionMessageProvider : public PermissionMessageProvider {
                           Manifest::Type extension_type) const;
 
   // Adds the IDs of API permissions which should trigger a warning in
-  // chrome://management.
+  // decentr://management.
   void AddAPIPermissionsForManagementUIWarning(
       const PermissionSet& permissions,
       PermissionIDSet* permission_ids) const;
 
   // Adds the IDs of manifest permissions which should trigger a warning in
-  // chrome://management.
+  // decentr://management.
   void AddManifestPermissionsForManagementUIWarning(
       const PermissionSet& permissions,
       PermissionIDSet* permission_ids) const;

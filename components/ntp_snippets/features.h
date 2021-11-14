@@ -62,7 +62,7 @@ extern const char kNotificationsTextValueAndMore[];
 // "false": automatically dismiss notification when Chrome becomes frontmost.
 extern const char kNotificationsKeepWhenFrontmostParam[];
 
-// "true": notifications link to chrome://newtab, with appropriate text.
+// "true": notifications link to decentr://newtab, with appropriate text.
 // "false": notifications link to URL of notifying article.
 extern const char kNotificationsOpenToNTPParam[];
 

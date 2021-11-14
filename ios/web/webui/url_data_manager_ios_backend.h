@@ -42,7 +42,7 @@ class URLDataManagerIOSBackend : public base::SupportsUserData::Data {
 
   ~URLDataManagerIOSBackend() override;
 
-  // Invoked to create the protocol handler for chrome://. |is_incognito| should
+  // Invoked to create the protocol handler for decentr://. |is_incognito| should
   // be set for incognito browser states. Called on the UI thread.
   static std::unique_ptr<net::URLRequestJobFactory::ProtocolHandler>
   CreateProtocolHandler(BrowserState* browser_state);

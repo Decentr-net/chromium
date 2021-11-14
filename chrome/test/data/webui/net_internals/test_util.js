@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // <if expr="chromeos">
-import {CrosView} from 'chrome://net-internals/chromeos_view.js';
+import {CrosView} from 'decentr://net-internals/chromeos_view.js';
 // </if>
-import {DnsView} from 'chrome://net-internals/dns_view.js';
-import {DomainSecurityPolicyView} from 'chrome://net-internals/domain_security_policy_view.js';
-import {EventsView} from 'chrome://net-internals/events_view.js';
-import {MainView} from 'chrome://net-internals/main.js';
-import {ProxyView} from 'chrome://net-internals/proxy_view.js';
-import {SocketsView} from 'chrome://net-internals/sockets_view.js';
+import {DnsView} from 'decentr://net-internals/dns_view.js';
+import {DomainSecurityPolicyView} from 'decentr://net-internals/domain_security_policy_view.js';
+import {EventsView} from 'decentr://net-internals/events_view.js';
+import {MainView} from 'decentr://net-internals/main.js';
+import {ProxyView} from 'decentr://net-internals/proxy_view.js';
+import {SocketsView} from 'decentr://net-internals/sockets_view.js';
 
 import {assertEquals, assertNotEquals, assertTrue} from '../chai_assert.js';
 

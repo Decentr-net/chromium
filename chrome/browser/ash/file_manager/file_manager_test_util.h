@@ -33,7 +33,7 @@ class FolderInMyFiles {
 
   // Use platform_util::OpenItem() on the file with basename matching |path| to
   // simulate a user request to open that path, e.g., from the Files app or
-  // chrome://downloads.
+  // decentr://downloads.
   platform_util::OpenOperationResult Open(const base::FilePath& path);
 
   // Refreshes `files_` by re-reading directory contents, sorting by name.

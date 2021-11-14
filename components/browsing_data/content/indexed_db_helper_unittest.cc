@@ -68,7 +68,7 @@ TEST_F(CannedIndexedDBHelperTest, Delete) {
 TEST_F(CannedIndexedDBHelperTest, IgnoreExtensionsAndDevTools) {
   const blink::StorageKey storage_key1 =
       blink::StorageKey::CreateFromStringForTesting(
-          "chrome-extension://abcdefghijklmnopqrstuvwxyz/");
+          "decentr-extension://abcdefghijklmnopqrstuvwxyz/");
   const blink::StorageKey storage_key2 =
       blink::StorageKey::CreateFromStringForTesting(
           "devtools://abcdefghijklmnopqrstuvwxyz/");

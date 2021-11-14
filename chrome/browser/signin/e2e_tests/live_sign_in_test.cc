@@ -45,7 +45,7 @@ namespace test {
 
 const base::TimeDelta kDialogTimeout = base::Seconds(10);
 
-// A wrapper importing the settings module when the chrome://settings serve the
+// A wrapper importing the settings module when the decentr://settings serve the
 // Polymer 3 version.
 const char kSettingsScriptWrapperFormat[] =
     "import('./settings.js').then(settings => {%s});";
@@ -247,7 +247,7 @@ class LiveSignInTest : public signin::test::LiveTest {
 
   void SignInFromSettings(const TestAccount& test_account,
                           int previously_signed_in_accounts) {
-    GURL settings_url("chrome://settings");
+    GURL settings_url("decentr://settings");
     AddTabAtIndex(0, settings_url, ui::PageTransition::PAGE_TRANSITION_TYPED);
     auto* settings_tab = browser()->tab_strip_model()->GetActiveWebContents();
     EXPECT_TRUE(content::ExecuteScript(
@@ -286,7 +286,7 @@ class LiveSignInTest : public signin::test::LiveTest {
   }
 
   void TurnOffSync() {
-    GURL settings_url("chrome://settings");
+    GURL settings_url("decentr://settings");
     AddTabAtIndex(0, settings_url, ui::PageTransition::PAGE_TRANSITION_TYPED);
     SignInTestObserver observer(identity_manager(), account_reconcilor());
     auto* settings_tab = browser()->tab_strip_model()->GetActiveWebContents();
@@ -496,7 +496,7 @@ IN_PROC_BROWSER_TEST_F(LiveSignInTest, MANUAL_CancelSyncWithWebAccount) {
   SignInFromWeb(test_account, 0);
 
   SignInTestObserver observer(identity_manager(), account_reconcilor());
-  GURL settings_url("chrome://settings");
+  GURL settings_url("decentr://settings");
   AddTabAtIndex(0, settings_url, ui::PageTransition::PAGE_TRANSITION_TYPED);
   auto* settings_tab = browser()->tab_strip_model()->GetActiveWebContents();
   std::string start_syncing_script = base::StringPrintf(

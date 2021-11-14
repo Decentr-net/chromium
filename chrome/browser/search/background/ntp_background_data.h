@@ -98,7 +98,7 @@ struct ErrorInfo {
 
   void ClearError();
 
-  // Network error number, listed at chrome://network-errors.
+  // Network error number, listed at decentr://network-errors.
   int net_error;
 
   // Category of error that occured.

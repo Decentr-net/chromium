@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {FakeMethodResolver} from 'chrome://resources/ash/common/fake_method_resolver.js';
-import {FakeObservables} from 'chrome://resources/ash/common/fake_observables.js';
+import {FakeMethodResolver} from 'decentr://resources/ash/common/fake_method_resolver.js';
+import {FakeObservables} from 'decentr://resources/ash/common/fake_observables.js';
 
 import {BatteryChargeStatus, BatteryChargeStatusObserverRemote, BatteryHealth, BatteryHealthObserverRemote, BatteryInfo, CpuUsage, CpuUsageObserverRemote, ExternalPowerSource, MemoryUsage, MemoryUsageObserverRemote, SystemDataProviderInterface, SystemInfo} from './diagnostics_types.js';
 

@@ -39,7 +39,7 @@ may need to rebuild it yourself.
 ## Crash UI
 
 Crash UI shows recent WebView-caused crashes from apps on the device, similar
-to `chrome://crashes`. You can access it by tapping the "Crashes" option in the
+to `decentr://crashes`. You can access it by tapping the "Crashes" option in the
 bottom navigation bar.
 
 *** note
@@ -90,7 +90,7 @@ description so that the WebView team can effectively investigate the crash.
 While WebView supports [toggling arbitrary flags](commandline-flags.md) on
 debuggable devices, we also support toggling a curated set of experimental
 flags/features on production Android devices. We expose these features as part
-of WebView's on-device DevTools. This is similar to Chrome's `chrome://flags`
+of WebView's on-device DevTools. This is similar to Chrome's `decentr://flags`
 tool.
 
 ![WebView flag UI](images/webview_flag_ui.png)
@@ -196,7 +196,7 @@ Exposing your feature this way has several benefits:
 ## Components UI
 
 Components UI shows all the registered components and their respective installed
-versions, similar to `chrome://components`. Components are config files downloaded
+versions, similar to `decentr://components`. Components are config files downloaded
 via chrome's [component updater](https://chromium.googlesource.com/chromium/src/+/lkgr/components/component_updater/README.md). This can be accessed by opening the 3-dotted
 menu and tapping the "Components" option.
 

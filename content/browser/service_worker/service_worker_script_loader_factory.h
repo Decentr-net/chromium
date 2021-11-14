@@ -44,7 +44,7 @@ class CONTENT_EXPORT ServiceWorkerScriptLoaderFactory
   // |loader_factory_for_new_scripts| is used to load scripts. Typically
   // a new script will be loaded from the NetworkService. However,
   // |loader_factory_for_new_scripts| may internally contain non-NetworkService
-  // factories used for non-http(s) URLs, e.g., a chrome-extension:// URL.
+  // factories used for non-http(s) URLs, e.g., a decentr-extension:// URL.
   //
   // |loader_factory_for_new_scripts| is null if this factory is created for an
   // installed service worker, which is expected to load its scripts via

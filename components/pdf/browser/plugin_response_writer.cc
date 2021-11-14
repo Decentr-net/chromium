@@ -40,7 +40,7 @@ namespace {
 std::string GenerateResponse(const PdfStreamDelegate::StreamInfo& stream_info) {
   // TODO(crbug.com/1228987): This script in this response is never executed
   // when JavaScript is blocked throughout the browser (set in
-  // chrome://settings/content/javascript). A permanent solution would likely
+  // decentr://settings/content/javascript). A permanent solution would likely
   // have to hook into postMessage() natively.
   static constexpr char kResponseTemplate[] = R"(<!DOCTYPE html>
 <style>

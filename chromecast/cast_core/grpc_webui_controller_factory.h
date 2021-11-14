@@ -19,7 +19,7 @@ namespace chromecast {
 
 // WebUIController Factory that uses gRPC for IPC. It determines which WebUIType
 // to use based on the URL and creates an instance of GrpcWebUI for Urls of the
-// form chrome://*.
+// form decentr://*.
 class GrpcWebUiControllerFactory : public content::WebUIControllerFactory {
  public:
   GrpcWebUiControllerFactory(

@@ -35,7 +35,7 @@ public class PartnerBrowserCustomizationsUnitTest {
                 "chrome-native://newtab/path#fragment"));
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("chrome-native://newtab/"));
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("chrome-native://newtab"));
-        Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("chrome://newtab"));
+        Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("decentr://newtab"));
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("chrome:newtab"));
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("about://newtab"));
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("about:newtab"));
@@ -44,10 +44,10 @@ public class PartnerBrowserCustomizationsUnitTest {
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("http://example.com"));
         Assert.assertTrue(PartnerBrowserCustomizations.isValidHomepage("https:example.com"));
 
-        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome://newtab--not"));
+        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr://newtab--not"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("about:newtab--not"));
-        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome://history"));
-        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome://"));
+        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr://history"));
+        Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("decentr://"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome:"));
         Assert.assertFalse(PartnerBrowserCustomizations.isValidHomepage("chrome"));
         Assert.assertFalse(

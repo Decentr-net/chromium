@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://new-tab-page/strings.m.js';
+import 'decentr://new-tab-page/strings.m.js';
 import '../mojo_webui_test_support.js';
 
-import {CustomizeThemesBrowserProxyImpl} from 'chrome://resources/cr_components/customize_themes/browser_proxy.js';
-import {CustomizeThemesElement} from 'chrome://resources/cr_components/customize_themes/customize_themes.js';
-import {ChromeTheme, CustomizeThemesClientCallbackRouter, CustomizeThemesHandlerInterface, ThemeType} from 'chrome://resources/cr_components/customize_themes/customize_themes.mojom-webui.js';
-import {ThemeIconElement} from 'chrome://resources/cr_components/customize_themes/theme_icon.js';
+import {CustomizeThemesBrowserProxyImpl} from 'decentr://resources/cr_components/customize_themes/browser_proxy.js';
+import {CustomizeThemesElement} from 'decentr://resources/cr_components/customize_themes/customize_themes.js';
+import {ChromeTheme, CustomizeThemesClientCallbackRouter, CustomizeThemesHandlerInterface, ThemeType} from 'decentr://resources/cr_components/customize_themes/customize_themes.mojom-webui.js';
+import {ThemeIconElement} from 'decentr://resources/cr_components/customize_themes/theme_icon.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';

@@ -6,12 +6,12 @@
  * @fileoverview
  * 'settings-main' displays the selected settings page.
  */
-import 'chrome://resources/cr_components/managed_footnote/managed_footnote.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/js/search_highlight_utils.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_components/managed_footnote/managed_footnote.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/js/search_highlight_utils.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 import '../about_page/about_page.js';
 import '../basic_page/basic_page.js';
 import '../prefs/prefs.js';
@@ -19,10 +19,10 @@ import '../search_settings.js';
 import '../settings_shared_css.js';
 import '../settings_vars_css.js';
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {IronA11yAnnouncer} from 'chrome://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {IronA11yAnnouncer} from 'decentr://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {SettingsBasicPageElement} from '../basic_page/basic_page.js';
 import {loadTimeData} from '../i18n_setup.js';

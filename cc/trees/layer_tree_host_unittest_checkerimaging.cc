@@ -39,7 +39,7 @@ class LayerTreeHostCheckerImagingTest : public LayerTreeTest {
     // Change the source to ensure any accumulated metrics are flushed.
     ukm::SourceId newSourceId = ukm::AssignNewSourceId();
     impl->ukm_manager()->SetSourceId(newSourceId);
-    recorder->UpdateSourceURL(newSourceId, GURL("chrome://test2"));
+    recorder->UpdateSourceURL(newSourceId, GURL("decentr://test2"));
 
     const auto& entries = recorder->GetEntriesByName(kRenderingEvent);
     ASSERT_EQ(1u, entries.size());

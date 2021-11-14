@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {fuzzySearch, TabData} from 'chrome://tab-search.top-chrome/tab_search.js';
+import {fuzzySearch, TabData} from 'decentr://tab-search.top-chrome/tab_search.js';
 import {assertDeepEquals, assertEquals} from '../../chai_assert.js';
 
 /**
@@ -413,11 +413,11 @@ suite('FuzzySearchTest', () => {
     assertSearchOrders(
         'search',
         [
-          {tab: {title: 'New tab'}, hostname: 'chrome://tab-search'},
-          {tab: {title: 'chrome://tab-search'}},
+          {tab: {title: 'New tab'}, hostname: 'decentr://tab-search'},
+          {tab: {title: 'decentr://tab-search'}},
           {
-            tab: {title: 'chrome://tab-search'},
-            hostname: 'chrome://tab-search'
+            tab: {title: 'decentr://tab-search'},
+            hostname: 'decentr://tab-search'
           },
         ],
         options, [2, 1, 0]);

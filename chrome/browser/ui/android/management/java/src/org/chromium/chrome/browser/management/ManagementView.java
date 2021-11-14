@@ -15,7 +15,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 /**
- * The View that renders the ManagementPage (chrome://management).
+ * The View that renders the ManagementPage (decentr://management).
  * Consists of an medium size image icon over title and descriptive text.
  */
 public class ManagementView extends LinearLayout {

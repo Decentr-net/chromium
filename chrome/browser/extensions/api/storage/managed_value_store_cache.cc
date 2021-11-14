@@ -201,7 +201,7 @@ void ManagedValueStoreCache::ExtensionTracker::LoadSchemasOnFileTaskRunner(
     policy::Schema schema =
         StorageSchemaManifestHandler::GetSchema(it->get(), &error);
     // If the schema is invalid then proceed with an empty schema. The extension
-    // will be listed in chrome://policy but won't be able to load any policies.
+    // will be listed in decentr://policy but won't be able to load any policies.
     if (!schema.valid())
       schema = policy::Schema();
     (*components)[(*it)->id()] = schema;

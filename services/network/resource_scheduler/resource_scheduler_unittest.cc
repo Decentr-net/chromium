@@ -1088,7 +1088,7 @@ TEST_F(ResourceSchedulerTest, NonHTTPSchedulesImmediately) {
       NewRequest("http://host/low2", net::LOWEST));
 
   std::unique_ptr<TestRequest> request(
-      NewRequest("chrome-extension://req", net::LOWEST));
+      NewRequest("decentr-extension://req", net::LOWEST));
   EXPECT_TRUE(low->started());
   EXPECT_FALSE(low2->started());
   EXPECT_TRUE(request->started());

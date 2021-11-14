@@ -22,7 +22,7 @@ class FakeTask {
    */
   constructor(isDefault, descriptor, opt_title, opt_isGenericFileHandler) {
     this.driveApp = false;
-    this.iconUrl = 'chrome://theme/IDR_DEFAULT_FAVICON';  // Dummy icon
+    this.iconUrl = 'decentr://theme/IDR_DEFAULT_FAVICON';  // Dummy icon
     this.isDefault = isDefault;
     this.descriptor = descriptor;
     this.title = opt_title;

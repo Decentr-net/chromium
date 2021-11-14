@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/network_list.js';
+import 'decentr://diagnostics/network_list.js';
 
-import {NetworkGuidInfo} from 'chrome://diagnostics/diagnostics_types.js';
-import {fakeCellularNetwork, fakeEthernetNetwork, fakeNetworkGuidInfoList, fakePowerRoutineResults, fakeRoutineResults, fakeWifiNetwork} from 'chrome://diagnostics/fake_data.js';
-import {FakeNetworkHealthProvider} from 'chrome://diagnostics/fake_network_health_provider.js';
-import {FakeSystemRoutineController} from 'chrome://diagnostics/fake_system_routine_controller.js';
-import {setNetworkHealthProviderForTesting, setSystemRoutineControllerForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
+import {NetworkGuidInfo} from 'decentr://diagnostics/diagnostics_types.js';
+import {fakeCellularNetwork, fakeEthernetNetwork, fakeNetworkGuidInfoList, fakePowerRoutineResults, fakeRoutineResults, fakeWifiNetwork} from 'decentr://diagnostics/fake_data.js';
+import {FakeNetworkHealthProvider} from 'decentr://diagnostics/fake_network_health_provider.js';
+import {FakeSystemRoutineController} from 'decentr://diagnostics/fake_system_routine_controller.js';
+import {setNetworkHealthProviderForTesting, setSystemRoutineControllerForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible} from '../../test_util.js';

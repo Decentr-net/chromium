@@ -2140,7 +2140,7 @@ TEST_F(TabStripModelTest, NavigationForgettingDoesntAffectNewTab) {
   std::unique_ptr<WebContents> new_tab_contents = CreateWebContents();
   WebContents* raw_new_tab_contents = new_tab_contents.get();
   content::WebContentsTester::For(raw_new_tab_contents)
-      ->NavigateAndCommit(GURL("chrome://newtab"));
+      ->NavigateAndCommit(GURL("decentr://newtab"));
   strip.AddWebContents(std::move(new_tab_contents), -1,
                        ui::PAGE_TRANSITION_TYPED, TabStripModel::ADD_ACTIVE);
 

@@ -127,7 +127,7 @@ chrome.virtualKeyboardPrivate.keyboardLoaded = function(callback) {};
 chrome.virtualKeyboardPrivate.getKeyboardConfig = function(callback) {};
 
 /**
- * Opens chrome://settings/languages page.
+ * Opens decentr://settings/languages page.
  */
 chrome.virtualKeyboardPrivate.openSettings = function() {};
 

@@ -209,7 +209,7 @@ TEST(FeaturesGenerationTest, FeaturesTest) {
         std::vector<Feature::Context>({Feature::WEBUI_UNTRUSTED_CONTEXT});
     comparator.channel = version_info::Channel::STABLE;
     comparator.matches.AddPattern(
-        URLPattern(URLPattern::SCHEME_ALL, "chrome-untrusted://foo/*"));
+        URLPattern(URLPattern::SCHEME_ALL, "decentr-untrusted://foo/*"));
     comparator.CompareFeature(feature);
   }
   {

@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Destination, DestinationConnectionStatus, DestinationOrigin, DestinationType, NativeLayerImpl, PluginProxyImpl, PrintPreviewLinkContainerElement, PrintPreviewSidebarElement, whenReady} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isWindows} from 'chrome://resources/js/cr.m.js';
-import {NativeLayerStub} from 'chrome://test/print_preview/native_layer_stub.js';
-import {getCddTemplate, getDefaultInitialSettings, selectOption} from 'chrome://test/print_preview/print_preview_test_utils.js';
-import {TestPluginProxy} from 'chrome://test/print_preview/test_plugin_proxy.js';
-import {eventToPromise, waitBeforeNextRender} from 'chrome://test/test_util.js';
+import {Destination, DestinationConnectionStatus, DestinationOrigin, DestinationType, NativeLayerImpl, PluginProxyImpl, PrintPreviewLinkContainerElement, PrintPreviewSidebarElement, whenReady} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isWindows} from 'decentr://resources/js/cr.m.js';
+import {NativeLayerStub} from 'decentr://test/print_preview/native_layer_stub.js';
+import {getCddTemplate, getDefaultInitialSettings, selectOption} from 'decentr://test/print_preview/print_preview_test_utils.js';
+import {TestPluginProxy} from 'decentr://test/print_preview/test_plugin_proxy.js';
+import {eventToPromise, waitBeforeNextRender} from 'decentr://test/test_util.js';
 
 window.system_dialog_browsertest = {};
 system_dialog_browsertest.suiteName = 'SystemDialogBrowserTest';

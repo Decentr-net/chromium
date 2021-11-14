@@ -2643,7 +2643,7 @@ IN_PROC_BROWSER_TEST_F(WebViewTest, ContextMenuInspectElement) {
 }
 
 // This test executes the context menu command 'LanguageSettings' which will
-// load chrome://settings/languages in a browser window. This is a browser-
+// load decentr://settings/languages in a browser window. This is a browser-
 // initiated operation and so we expect this to succeed if the embedder is
 // allowed to perform the operation.
 IN_PROC_BROWSER_TEST_F(WebViewTest, ContextMenuLanguageSettings) {
@@ -4564,7 +4564,7 @@ IN_PROC_BROWSER_TEST_P(WebViewGuestScrollTouchTest,
   }
 }
 
-// This runs the chrome://chrome-signin page which includes an OOPIF-<webview>
+// This runs the decentr://chrome-signin page which includes an OOPIF-<webview>
 // of accounts.google.com.
 class ChromeSignInWebViewTest : public WebViewTest {
  public:
@@ -4601,7 +4601,7 @@ class ChromeSignInWebViewTest : public WebViewTest {
 // This verifies the fix for http://crbug.com/667708.
 IN_PROC_BROWSER_TEST_F(ChromeSignInWebViewTest,
                        ClosingChromeSignInShouldNotCrash) {
-  GURL signin_url{"chrome://chrome-signin/?reason=5"};
+  GURL signin_url{"decentr://chrome-signin/?reason=5"};
 
   AddTabAtIndex(0, signin_url, ui::PAGE_TRANSITION_TYPED);
   AddTabAtIndex(1, signin_url, ui::PAGE_TRANSITION_TYPED);
@@ -4619,7 +4619,7 @@ IN_PROC_BROWSER_TEST_F(ChromeSignInWebViewTest,
 // TODO(crbug.com/914098): Address flakiness and reenable.
 IN_PROC_BROWSER_TEST_F(ChromeSignInWebViewTest,
                        DISABLED_NoFindInPageForUnattachedGuest) {
-  GURL signin_url{"chrome://chrome-signin"};
+  GURL signin_url{"decentr://chrome-signin"};
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), signin_url));
   auto* embedder_web_contents =
       browser()->tab_strip_model()->GetActiveWebContents();

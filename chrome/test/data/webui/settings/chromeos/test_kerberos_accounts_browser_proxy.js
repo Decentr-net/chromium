@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-// #import {KerberosErrorType, KerberosConfigErrorCode} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+// #import {KerberosErrorType, KerberosConfigErrorCode} from 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 // List of fake accounts.

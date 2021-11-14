@@ -55,7 +55,7 @@ public class UrlUtilitiesUnitTest {
                 UrlUtilities.isHttpOrHttps("ftp://https:password@example.com/?http:#http:"));
         Assert.assertFalse(UrlUtilities.isHttpOrHttps(
                 "google-search://https:password@example.com/?http:#http:"));
-        Assert.assertFalse(UrlUtilities.isHttpOrHttps("chrome://http://version"));
+        Assert.assertFalse(UrlUtilities.isHttpOrHttps("decentr://http://version"));
         Assert.assertFalse(UrlUtilities.isHttpOrHttps(""));
     }
 
@@ -106,7 +106,7 @@ public class UrlUtilitiesUnitTest {
                 UrlUtilities.isAcceptedScheme("ftp://https:password@example.com/?http:#http:"));
         Assert.assertFalse(UrlUtilities.isAcceptedScheme(
                 "google-search://https:password@example.com/?http:#http:"));
-        Assert.assertFalse(UrlUtilities.isAcceptedScheme("chrome://http://version"));
+        Assert.assertFalse(UrlUtilities.isAcceptedScheme("decentr://http://version"));
         Assert.assertFalse(UrlUtilities.isAcceptedScheme(""));
     }
 
@@ -135,7 +135,7 @@ public class UrlUtilitiesUnitTest {
                 new GURL("ftp://https:password@example.com/?http:#http:")));
         Assert.assertFalse(UrlUtilities.isDownloadableScheme(
                 new GURL("google-search://https:password@example.com/?http:#http:")));
-        Assert.assertFalse(UrlUtilities.isDownloadableScheme(new GURL("chrome://http://version")));
+        Assert.assertFalse(UrlUtilities.isDownloadableScheme(new GURL("decentr://http://version")));
         Assert.assertFalse(UrlUtilities.isDownloadableScheme(GURL.emptyGURL()));
     }
 
@@ -183,11 +183,11 @@ public class UrlUtilitiesUnitTest {
     @SmallTest
     public void testIsNtpUrlString() {
         Assert.assertTrue(UrlUtilities.isNTPUrl("chrome-native://newtab"));
-        Assert.assertTrue(UrlUtilities.isNTPUrl("chrome://newtab"));
+        Assert.assertTrue(UrlUtilities.isNTPUrl("decentr://newtab"));
         Assert.assertTrue(UrlUtilities.isNTPUrl("about:newtab"));
 
         Assert.assertFalse(UrlUtilities.isNTPUrl("http://www.example.com"));
-        Assert.assertFalse(UrlUtilities.isNTPUrl("chrome://history"));
+        Assert.assertFalse(UrlUtilities.isNTPUrl("decentr://history"));
         Assert.assertFalse(UrlUtilities.isNTPUrl("chrome-native://newtabz"));
         Assert.assertFalse(UrlUtilities.isNTPUrl("newtab"));
         Assert.assertFalse(UrlUtilities.isNTPUrl(""));
@@ -197,14 +197,14 @@ public class UrlUtilitiesUnitTest {
     @SmallTest
     public void testIsNtpUrlGurl() {
         Assert.assertTrue(UrlUtilities.isNTPUrl(new GURL("chrome-native://newtab")));
-        Assert.assertTrue(UrlUtilities.isNTPUrl(new GURL("chrome://newtab")));
+        Assert.assertTrue(UrlUtilities.isNTPUrl(new GURL("decentr://newtab")));
 
         // Note that this intentionally differs from UrlUtilities#isNTPUrl(String) (see comments on
         // method).
         Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("about:newtab")));
 
         Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("http://www.example.com")));
-        Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("chrome://history")));
+        Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("decentr://history")));
         Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("chrome-native://newtabz")));
         Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("newtab")));
         Assert.assertFalse(UrlUtilities.isNTPUrl(new GURL("")));

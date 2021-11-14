@@ -34,13 +34,13 @@ using testing::StrEq;
 using testing::Return;
 
 static const char* const kExtensionUrl_1 =
-    "chrome-extension://some_id/popup.css";
+    "decentr-extension://some_id/popup.css";
 
 static const char* const kExtensionUrl_2 =
-    "chrome-extension://some_id2/popup.css";
+    "decentr-extension://some_id2/popup.css";
 
 static const char* const kExtensionUrl_3 =
-    "chrome-extension://some_id3/popup.css";
+    "decentr-extension://some_id3/popup.css";
 
 void MessageDeleter(IPC::Message* message) {
   delete message;

@@ -25,7 +25,7 @@ enum class ProjectorError {
   kTokenFetchFailure,
 };
 
-// Handles messages from the Projector WebUIs (i.e. chrome://projector).
+// Handles messages from the Projector WebUIs (i.e. decentr://projector).
 class ProjectorMessageHandler : public content::WebUIMessageHandler,
                                 public ProjectorAppClient::Observer {
  public:

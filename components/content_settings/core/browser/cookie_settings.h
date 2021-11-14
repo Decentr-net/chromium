@@ -155,7 +155,7 @@ class CookieSettings : public CookieSettingsBase,
   // allow the cookie regardless of cookie content settings and third-party
   // cookie blocking settings.
   // This just checks the scheme of the |url| and |site_for_cookies|:
-  //  - Allow cookies if the |site_for_cookies| is a chrome:// scheme URL, and
+  //  - Allow cookies if the |site_for_cookies| is a decentr:// scheme URL, and
   //    the |url| has a secure scheme.
   //  - Allow cookies if the |site_for_cookies| and the |url| match in scheme
   //    and both have the Chrome extensions scheme.

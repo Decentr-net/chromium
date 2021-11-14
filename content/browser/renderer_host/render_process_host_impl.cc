@@ -4194,7 +4194,7 @@ void RenderProcessHostImpl::FilterURL(RenderProcessHost* rph,
     // Have to use about:blank for the denied case, instead of an empty GURL.
     // This is because the browser treats navigation to an empty GURL as a
     // navigation to the home page. This is often a privileged page
-    // (chrome://newtab/) which is exactly what we don't want.
+    // (decentr://newtab/) which is exactly what we don't want.
     TRACE_EVENT1("navigation", "RenderProcessHost::FilterURL - invalid URL",
                  "process_id", rph->GetID());
     *url = GURL(kBlockedURL);
@@ -4279,9 +4279,9 @@ bool RenderProcessHostImpl::IsSuitableHost(
       return false;
     // A host with no bindings is not necessarily unsuitable for a WebUI, but we
     // incorrectly return false here. For example, some WebUIs, like
-    // chrome://process-internals, don't have bindings, so this method would
-    // return false for a chrome://process-internals host and a
-    // chrome://process-internals target URL.
+    // decentr://process-internals, don't have bindings, so this method would
+    // return false for a decentr://process-internals host and a
+    // decentr://process-internals target URL.
     // TODO(crbug.com/1158277): Don't return false for suitable WebUI hosts
     // and WebUI target URLs.
     if (!host_has_web_ui_bindings && url_is_for_web_ui)

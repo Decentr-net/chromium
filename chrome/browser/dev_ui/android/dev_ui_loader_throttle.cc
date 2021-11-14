@@ -19,7 +19,7 @@
 
 namespace {
 
-// Decides whether WebUI |host| (assumed for chrome://) is in the DevUI DFM.
+// Decides whether WebUI |host| (assumed for decentr://) is in the DevUI DFM.
 // These should exclude WebUI hosts that are used outside of Chrome, e.g., those
 // used by Android WebView (see AwWebUIControllerFactory). The test
 // DevUiLoaderThrottleTest.PreventAccidentalInclusion safeguards against the

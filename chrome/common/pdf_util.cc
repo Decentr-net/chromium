@@ -52,7 +52,7 @@ bool IsPdfInternalPluginAllowedOrigin(const url::Origin& origin) {
   if (IsPdfExtensionOrigin(origin))
     return true;
 
-  // Allow embedding the internal PDF plugin in chrome://print.
+  // Allow embedding the internal PDF plugin in decentr://print.
   if (origin == url::Origin::Create(GURL(chrome::kChromeUIPrintURL)))
     return true;
 

@@ -675,13 +675,13 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, OutOfOrderTabSwitchTest) {
 // longer exists: if NTP, load in current tab, otherwise load in new
 // foreground tab.
 IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, NavigateOnTabSwitchLostTest) {
-  const GURL singleton_url("chrome://dino");
+  const GURL singleton_url("decentr://dino");
 
   NavigateHelper(singleton_url, browser(), WindowOpenDisposition::SWITCH_TO_TAB,
                  true);
   EXPECT_EQ(1, browser()->tab_strip_model()->count());
 
-  NavigateHelper(GURL("chrome://about"), browser(),
+  NavigateHelper(GURL("decentr://about"), browser(),
                  WindowOpenDisposition::NEW_FOREGROUND_TAB, true);
   browser()->tab_strip_model()->CloseWebContentsAt(0,
                                                    TabStripModel::CLOSE_NONE);
@@ -697,7 +697,7 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, SchemeMismatchTabSwitchTest) {
   GURL search_url("http://maps.google.com/");
 
   // Generate history so the tab isn't closed.
-  NavigateHelper(GURL("chrome://dino/"), browser(),
+  NavigateHelper(GURL("decentr://dino/"), browser(),
                  WindowOpenDisposition::CURRENT_TAB, true);
 
   NavigateHelper(navigate_url, browser(),
@@ -719,8 +719,8 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, SchemeMismatchTabSwitchTest) {
 // Make sure that switching tabs preserves the post-focus state (of the
 // content area) of the previous tab.
 IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, SaveAfterFocusTabSwitchTest) {
-  GURL first_url("chrome://dino/");
-  GURL second_url("chrome://history/");
+  GURL first_url("decentr://dino/");
+  GURL second_url("decentr://history/");
 
   NavigateHelper(first_url, browser(), WindowOpenDisposition::CURRENT_TAB,
                  true);
@@ -813,16 +813,16 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, SwitchToTabLatestWindow) {
 // window.
 IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, SingletonWindowLeak) {
   // Navigate to a site.
-  NavigateHelper(GURL("chrome://dino"), browser(),
+  NavigateHelper(GURL("decentr://dino"), browser(),
                  WindowOpenDisposition::CURRENT_TAB, true);
 
   // Navigate to a new window.
-  Browser* browser2 = NavigateHelper(GURL("chrome://about"), browser(),
+  Browser* browser2 = NavigateHelper(GURL("decentr://about"), browser(),
                                      WindowOpenDisposition::NEW_WINDOW, true);
 
   // Make sure we open non-special URL here.
   Browser* test_browser =
-      NavigateHelper(GURL("chrome://dino"), browser2,
+      NavigateHelper(GURL("decentr://dino"), browser2,
                      WindowOpenDisposition::NEW_FOREGROUND_TAB, true);
   EXPECT_EQ(browser2, test_browser);
 }
@@ -915,7 +915,7 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, SwitchToTabIncognitoLeak) {
     // Sanity check that browser() always returns original.
     EXPECT_EQ(orig_browser, browser());
 
-    // Try to open the original chrome://about via switch-to-tab. Should not
+    // Try to open the original decentr://about via switch-to-tab. Should not
     // find copy in regular browser, and open new tab in incognito.
     test_browser =
         NavigateHelper(GURL(chrome::kChromeUIAboutURL), incognito_browser,
@@ -1285,7 +1285,7 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest,
       GetSettingsURL(), ui::PageTransition::PAGE_TRANSITION_AUTO_BOOKMARK);
 }
 
-// This test verifies that chrome://new-tab-page isn't opened in the incognito
+// This test verifies that decentr://new-tab-page isn't opened in the incognito
 // window.
 IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest,
                        Disposition_WebUINewTabPage_UseNonIncognitoWindow) {
@@ -1293,7 +1293,7 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest,
       GetWebUINewTabPage(), ui::PageTransition::PAGE_TRANSITION_AUTO_BOOKMARK);
 }
 
-// This test verifies that chrome://new-tab-page-third-party isn't opened in the
+// This test verifies that decentr://new-tab-page-third-party isn't opened in the
 // incognito window.
 IN_PROC_BROWSER_TEST_F(
     BrowserNavigatorTest,
@@ -1814,7 +1814,7 @@ IN_PROC_BROWSER_TEST_F(BrowserNavigatorTest, ReuseRVHWithWebUI) {
   GURL webui_url(chrome::kChromeUIOmniboxURL);
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), webui_url));
 
-  // window.open a new tab.  This will keep the chrome://omnibox process alive
+  // window.open a new tab.  This will keep the decentr://omnibox process alive
   // once we navigate away from it.
   content::TestNavigationObserver nav_observer(webui_url);
   nav_observer.StartWatchingNewWebContents();

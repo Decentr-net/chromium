@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrSettingsPrefs} from 'chrome://settings/settings.js';
-import {FakeSettingsPrivate} from 'chrome://test/settings/fake_settings_private.js';
-import {prefsTestCases} from 'chrome://test/settings/prefs_test_cases.js';
+import {CrSettingsPrefs} from 'decentr://settings/settings.js';
+import {FakeSettingsPrivate} from 'decentr://test/settings/fake_settings_private.js';
+import {prefsTestCases} from 'decentr://test/settings/prefs_test_cases.js';
 // clang-format on
 
 /** @fileoverview Suite of tests for settings-prefs. */

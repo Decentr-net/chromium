@@ -45,7 +45,7 @@ IN_PROC_BROWSER_TEST_F(SkiaGoldDemoPixelTest, TestOmnibox) {
   // Always disable animation for stability.
   ui::ScopedAnimationDurationScaleMode disable_animation(
       ui::ScopedAnimationDurationScaleMode::ZERO_DURATION);
-  GURL url("chrome://bookmarks");
+  GURL url("decentr://bookmarks");
   AddTabAtIndex(0, url, ui::PageTransition::PAGE_TRANSITION_FIRST);
   auto* const browser_view = static_cast<BrowserView*>(browser()->window());
   bool ret = GetPixelDiff().CompareScreenshot("omnibox",

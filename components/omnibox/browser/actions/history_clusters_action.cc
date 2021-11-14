@@ -40,7 +40,7 @@ class HistoryClustersAction : public OmniboxAction {
                     ? IDS_ACC_OMNIBOX_ACTION_HISTORY_CLUSTERS_SEARCH_ALTERNATE
                     : IDS_ACC_OMNIBOX_ACTION_HISTORY_CLUSTERS_SEARCH),
             GURL(base::StringPrintf(
-                "chrome://history/journeys?q=%s",
+                "decentr://history/journeys?q=%s",
                 net::EscapeQueryParamValue(query, /*use_plus=*/false)
                     .c_str()))) {}
 

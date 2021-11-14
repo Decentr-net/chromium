@@ -7,10 +7,10 @@ import './elements/viewer-page-indicator.js';
 import './elements/shared-vars.js';
 import './pdf_viewer_shared_style.js';
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {isRTL} from 'chrome://resources/js/util.m.js';
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {isRTL} from 'decentr://resources/js/util.m.js';
+import {html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserApi} from './browser_api.js';
 import {FittingType} from './constants.js';

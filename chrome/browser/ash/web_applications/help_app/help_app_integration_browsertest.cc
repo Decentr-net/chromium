@@ -151,7 +151,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest, HelpAppV2AppServiceMetrics) {
   // the metric is not recorded twice.
   auto* proxy = apps::AppServiceProxyFactory::GetForProfile(profile());
   content::TestNavigationObserver navigation_observer(
-      GURL("chrome://help-app/"));
+      GURL("decentr://help-app/"));
   navigation_observer.StartWatchingNewWebContents();
 
   proxy->Launch(
@@ -189,7 +189,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppAllProfilesIntegrationTest, HelpAppV2ShowHelp) {
   chrome::ShowHelp(browser(), chrome::HELP_SOURCE_KEYBOARD);
 
 #if BUILDFLAG(ENABLE_CROS_HELP_APP)
-  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("chrome://help-app/")));
+  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("decentr://help-app/")));
 #else
   EXPECT_EQ(1u, chrome::GetTotalBrowserCount());
   EXPECT_EQ(GURL(chrome::kChromeHelpViaKeyboardURL),
@@ -206,7 +206,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppAllProfilesIntegrationTest,
   // There should be 1 browser window initially.
   EXPECT_EQ(1u, chrome::GetTotalBrowserCount());
 
-  const GURL expected_url("chrome://help-app/updates");
+  const GURL expected_url("decentr://help-app/updates");
   content::TestNavigationObserver navigation_observer(expected_url);
   navigation_observer.StartWatchingNewWebContents();
 
@@ -222,7 +222,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppAllProfilesIntegrationTest,
 
   // The opened window should be showing the url with attached WebUI.
   // The inner frame should be the pathname for the release notes pathname.
-  EXPECT_EQ("chrome-untrusted://help-app/updates",
+  EXPECT_EQ("decentr-untrusted://help-app/updates",
             SandboxedWebUiAppTestBase::EvalJsInAppFrame(
                 GetActiveWebContents(), "window.location.href"));
 #else
@@ -277,7 +277,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest,
   EXPECT_EQ(1, user_action_tester.GetActionCount(
                    "ReleaseNotes.LaunchedNotification"));
 #if BUILDFLAG(ENABLE_CROS_HELP_APP)
-  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("chrome://help-app/updates")));
+  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("decentr://help-app/updates")));
   EXPECT_EQ(1,
             user_action_tester.GetActionCount("ReleaseNotes.ShowReleaseNotes"));
 #else
@@ -343,7 +343,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest,
                                  absl::nullopt, absl::nullopt);
 
 #if BUILDFLAG(ENABLE_CROS_HELP_APP)
-  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("chrome://help-app/discover")));
+  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("decentr://help-app/discover")));
 #else
   // We just have the original browser. No new app opens.
   EXPECT_EQ(1u, chrome::GetTotalBrowserCount());
@@ -405,7 +405,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest,
                                  absl::nullopt, absl::nullopt);
 
 #if BUILDFLAG(ENABLE_CROS_HELP_APP)
-  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("chrome://help-app/updates")));
+  EXPECT_NO_FATAL_FAILURE(WaitForAppToOpen(GURL("decentr://help-app/updates")));
 #else
   // We just have the original browser. No new app opens.
   EXPECT_EQ(1u, chrome::GetTotalBrowserCount());
@@ -442,12 +442,12 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest, HelpAppV2NavigateOnRelaunch) {
 IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest, HelpAppV2DirectNavigation) {
   WaitForTestSystemAppInstall();
   auto params = LaunchParamsForApp(web_app::SystemAppType::HELP);
-  params.override_url = GURL("chrome://help-app/help/");
+  params.override_url = GURL("decentr://help-app/help/");
 
   content::WebContents* web_contents = LaunchApp(std::move(params));
 
   // The inner frame should have the same pathname as the launch URL.
-  EXPECT_EQ("chrome-untrusted://help-app/help/",
+  EXPECT_EQ("decentr-untrusted://help-app/help/",
             SandboxedWebUiAppTestBase::EvalJsInAppFrame(
                 web_contents, "window.location.href"));
 }
@@ -483,7 +483,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest, HelpAppV2ShowParentalControls) {
   // opened help app.
   EXPECT_EQ(2u, chrome::GetTotalBrowserCount());
 
-  const GURL expected_url("chrome://os-settings/osPeople");
+  const GURL expected_url("decentr://os-settings/osPeople");
   content::TestNavigationObserver navigation_observer(expected_url);
   navigation_observer.StartWatchingNewWebContents();
 
@@ -635,7 +635,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppIntegrationTest,
   WaitForTestSystemAppInstall();
   ui::ScopedSetIdleState idle(ui::IDLE_STATE_IDLE);
 
-  const GURL bg_task_url("chrome://help-app/background");
+  const GURL bg_task_url("decentr://help-app/background");
   content::TestNavigationObserver navigation_observer(bg_task_url);
   navigation_observer.StartWatchingNewWebContents();
 
@@ -712,7 +712,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppAllProfilesIntegrationTest, HelpAppOpenGestures) {
   SystemTrayClientImpl::Get()->ShowGestureEducationHelp();
 
   EXPECT_NO_FATAL_FAILURE(
-      WaitForAppToOpen(GURL("chrome://help-app/help/sub/3399710/id/9739838")));
+      WaitForAppToOpen(GURL("decentr://help-app/help/sub/3399710/id/9739838")));
   // The HELP app is 18, see DefaultAppName in
   // src/chrome/browser/apps/app_service/app_service_metrics.cc
   histogram_tester.ExpectUniqueSample("Apps.DefaultAppLaunch.FromOtherApp", 18,
@@ -733,7 +733,7 @@ IN_PROC_BROWSER_TEST_P(HelpAppAllProfilesIntegrationTest,
 #if BUILDFLAG(ENABLE_CROS_HELP_APP)
   // Default browser tab and Help app are open.
   EXPECT_EQ(2u, chrome::GetTotalBrowserCount());
-  EXPECT_EQ("chrome://help-app/", GetActiveWebContents()->GetVisibleURL());
+  EXPECT_EQ("decentr://help-app/", GetActiveWebContents()->GetVisibleURL());
   // The HELP app is 18, see DefaultAppName in
   // src/chrome/browser/apps/app_service/app_service_metrics.cc
   histogram_tester.ExpectUniqueSample("Apps.DefaultAppLaunch.FromKeyboard", 18,
@@ -756,17 +756,17 @@ IN_PROC_BROWSER_TEST_P(HelpAppAllProfilesIntegrationTest,
                        HelpAppCapturesBrowserNavigation) {
   WaitForTestSystemAppInstall();
   content::TestNavigationObserver navigation_observer(
-      GURL("chrome://help-app"));
+      GURL("decentr://help-app"));
   navigation_observer.StartWatchingNewWebContents();
   ASSERT_EQ(1u, chrome::GetTotalBrowserCount());
 
   // Try to navigate to the help app in the browser.
-  ui_test_utils::SendToOmniboxAndSubmit(browser(), "chrome://help-app");
+  ui_test_utils::SendToOmniboxAndSubmit(browser(), "decentr://help-app");
   navigation_observer.Wait();
 
   // We now have two browsers, one for the chrome window, one for the Help app.
   EXPECT_EQ(2u, chrome::GetTotalBrowserCount());
-  EXPECT_EQ(GURL("chrome://help-app"), GetActiveWebContents()->GetVisibleURL());
+  EXPECT_EQ(GURL("decentr://help-app"), GetActiveWebContents()->GetVisibleURL());
 }
 
 INSTANTIATE_SYSTEM_WEB_APP_MANAGER_TEST_SUITE_REGULAR_PROFILE_P(

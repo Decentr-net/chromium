@@ -4,5 +4,5 @@
 
 import './strings.m.js';
 
-export {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-export {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+export {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+export {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';

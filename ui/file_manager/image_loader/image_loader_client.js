@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {LRUCache} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/common/js/lru_cache.js';
+import {LRUCache} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/common/js/lru_cache.js';
 import {LoadImageRequest, LoadImageResponse, LoadImageResponseStatus} from './load_image_request.js';
 
 /**
@@ -94,10 +94,10 @@ ImageLoaderClient.sendMessage_ = function(request, callback) {
  * Image loader client extension request URL matcher.
  * @const {!RegExp}
  */
-ImageLoaderClient.CLIENT_URL_REGEX = /filesystem:chrome-extension:\/\/[a-z]+/;
+ImageLoaderClient.CLIENT_URL_REGEX = /filesystem:decentr-extension:\/\/[a-z]+/;
 
 /**
- * Image loader client chrome://file-manager request URL matcher.
+ * Image loader client decentr://file-manager request URL matcher.
  * @const {!RegExp}
  */
 ImageLoaderClient.CLIENT_SWA_REGEX = /filesystem:chrome:\/\/file-manager/;
@@ -109,7 +109,7 @@ ImageLoaderClient.CLIENT_SWA_REGEX = /filesystem:chrome:\/\/file-manager/;
  * @const {string}
  */
 ImageLoaderClient.IMAGE_LOADER_URL =
-    'filesystem:chrome-extension://' + ImageLoaderClient.EXTENSION_ID;
+    'filesystem:decentr-extension://' + ImageLoaderClient.EXTENSION_ID;
 
 /**
  * Loads and resizes and image.

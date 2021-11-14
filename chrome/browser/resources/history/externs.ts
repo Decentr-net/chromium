@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Externs for objects sent from C++ to chrome://history.
+ * @fileoverview Externs for objects sent from C++ to decentr://history.
  */
 
 /**

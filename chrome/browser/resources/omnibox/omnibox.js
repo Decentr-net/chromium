@@ -5,15 +5,15 @@
 import './strings.m.js';
 
 import {OmniboxPageCallbackRouter, OmniboxPageHandler, OmniboxPageHandlerRemote, OmniboxResponse} from '/chrome/browser/ui/webui/omnibox/omnibox.mojom-webui.js';
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {DisplayInputs, OmniboxInput, QueryInputs} from './omnibox_input.js';
 import {OmniboxOutput} from './omnibox_output.js';
 
 /**
- * Javascript for omnibox.html, served from chrome://omnibox/
+ * Javascript for omnibox.html, served from decentr://omnibox/
  * This is used to debug omnibox ranking.  The user enters some text
  * into a box, submits it, and then sees lots of debug information
  * from the autocompleter that shows what omnibox would do with that
@@ -272,7 +272,7 @@ class ExportDelegate {
       dateCreated: now.toISOString(),
       author: '',
       description: '',
-      authorTool: 'chrome://omnibox',
+      authorTool: 'decentr://omnibox',
       batchName,
       versionDetails : ExportDelegate.getVersionDetails_(),
       variationInfo,

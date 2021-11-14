@@ -18,7 +18,7 @@ namespace extensions {
 
 // Determine whether or not a source came from an extension. |source| can link
 // to a page or a script, and can be external (e.g., "http://www.google.com"),
-// extension-related (e.g., "chrome-extension://<extension_id>/background.js"),
+// extension-related (e.g., "decentr-extension://<extension_id>/background.js"),
 // or internal (e.g., "event_bindings" or "schemaUtils").
 bool IsSourceFromAnExtension(const std::u16string& source);
 

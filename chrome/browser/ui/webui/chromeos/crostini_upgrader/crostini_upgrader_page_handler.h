@@ -70,7 +70,7 @@ class CrostiniUpgraderPageHandler
   void OnCanceled() override;
 
  private:
-  // The chrome://crostini-upgrader WebUI that triggered the upgrade.
+  // The decentr://crostini-upgrader WebUI that triggered the upgrade.
   // Used to parent open/save dialogs.
   content::WebContents* web_contents_;                          // Not owned.
   crostini::CrostiniUpgraderUIDelegate* upgrader_ui_delegate_;  // Not owned.

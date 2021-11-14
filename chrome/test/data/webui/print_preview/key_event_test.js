@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {NativeLayerImpl, PluginProxyImpl, PrintPreviewAppElement} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS, isLacros, isMac, isWindows} from 'chrome://resources/js/cr.m.js';
-import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {NativeLayerImpl, PluginProxyImpl, PrintPreviewAppElement} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS, isLacros, isMac, isWindows} from 'decentr://resources/js/cr.m.js';
+import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertTrue} from '../chai_assert.js';
 import {eventToPromise, flushTasks} from '../test_util.js';

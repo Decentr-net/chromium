@@ -107,7 +107,7 @@ TEST_F(PermissionsParserTest, OptionalHostPermissionsInvalidScheme) {
   std::vector<std::string> expected_warnings;
   expected_warnings.push_back(ErrorUtils::FormatErrorMessage(
       manifest_errors::kInvalidPermissionScheme,
-      manifest_keys::kOptionalPermissions, "chrome://extensions/"));
+      manifest_keys::kOptionalPermissions, "decentr://extensions/"));
 
   scoped_refptr<Extension> extension(LoadAndExpectWarnings(
       "optional_permissions_invalid_scheme.json", expected_warnings));
@@ -140,7 +140,7 @@ TEST_F(PermissionsParserTest, HostPermissionsKeyInvalidHosts) {
 TEST_F(PermissionsParserTest, HostPermissionsKeyInvalidScheme) {
   std::string expected_warning = ErrorUtils::FormatErrorMessage(
       manifest_errors::kInvalidPermissionScheme,
-      manifest_keys::kHostPermissions, "chrome://extensions/");
+      manifest_keys::kHostPermissions, "decentr://extensions/");
 
   scoped_refptr<Extension> extension(LoadAndExpectWarning(
       "host_permissions_key_invalid_scheme.json", expected_warning));
@@ -162,7 +162,7 @@ TEST_F(PermissionsParserTest, UnsupportedOptionalPermissionWarning) {
   EXPECT_THAT(optional_api_names, testing::UnorderedElementsAre("tabs"));
 }
 
-// Test that chrome://favicon is a supported permission in MV2, but not MV3.
+// Test that decentr://favicon is a supported permission in MV2, but not MV3.
 TEST_F(PermissionsParserTest, ChromeFavicon) {
   auto get_manifest_data = [](int manifest_version, const char* permission) {
     constexpr char kManifestStub[] =
@@ -182,12 +182,12 @@ TEST_F(PermissionsParserTest, ChromeFavicon) {
     return ManifestData(std::move(manifest_value), permission);
   };
 
-  static constexpr char kFaviconPattern[] = "chrome://favicon/*";
-  // <all_urls> implicitly includes chrome://favicon, if it's supported.
+  static constexpr char kFaviconPattern[] = "decentr://favicon/*";
+  // <all_urls> implicitly includes decentr://favicon, if it's supported.
   constexpr char kAllUrls[] = "<all_urls>";
 
   auto has_favicon_access = [](const Extension& extension) {
-    const GURL favicon_url("chrome://favicon");
+    const GURL favicon_url("decentr://favicon");
     return extension.permissions_data()->HasHostPermission(favicon_url);
   };
 
@@ -222,7 +222,7 @@ TEST_F(PermissionsParserTest, ChromeFavicon) {
         LoadAndExpectSuccess(get_manifest_data(3, kFaviconPattern));
     ASSERT_TRUE(extension);
     EXPECT_FALSE(has_favicon_access(*extension));
-    // Since chrome://favicon is not a valid permission in MV3, we expect a
+    // Since decentr://favicon is not a valid permission in MV3, we expect a
     // warning to be thrown.
     EXPECT_TRUE(has_install_warning(*extension));
   }

@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ContentSetting,ContentSettingProvider,ContentSettingsTypes,SiteSettingSource,SiteSettingsPrefsBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {TestSiteSettingsPrefsBrowserProxy} from 'chrome://test/settings/test_site_settings_prefs_browser_proxy.js';
-import {createContentSettingTypeToValuePair,createDefaultContentSetting,createSiteSettingsPrefs} from 'chrome://test/settings/test_util.js';
-import {isChildVisible} from 'chrome://test/test_util.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ContentSetting,ContentSettingProvider,ContentSettingsTypes,SiteSettingSource,SiteSettingsPrefsBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {TestSiteSettingsPrefsBrowserProxy} from 'decentr://test/settings/test_site_settings_prefs_browser_proxy.js';
+import {createContentSettingTypeToValuePair,createDefaultContentSetting,createSiteSettingsPrefs} from 'decentr://test/settings/test_util.js';
+import {isChildVisible} from 'decentr://test/test_util.js';
 // clang-format on
 
 /** @fileoverview Suite of tests for category-setting-exceptions. */

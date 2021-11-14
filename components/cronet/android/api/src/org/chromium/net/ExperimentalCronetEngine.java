@@ -261,7 +261,7 @@ public abstract class ExperimentalCronetEngine extends CronetEngine {
      * to netlog.json in {@code dirPath}. If logging is interrupted, you can
      * stitch the files found in .inprogress subdirectory manually using:
      * https://chromium.googlesource.com/chromium/src/+/main/net/tools/stitch_net_log_files.py.
-     * The log can be viewed using a Chrome browser navigated to chrome://net-internals/#import.
+     * The log can be viewed using a Chrome browser navigated to decentr://net-internals/#import.
      * @param dirPath the directory where the netlog.json file will be created. dirPath must
      *            already exist. NetLog files must not exist in the directory. If actively
      *            logging, this method is ignored.

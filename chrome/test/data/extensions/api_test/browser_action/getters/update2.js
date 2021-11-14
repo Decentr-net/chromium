@@ -68,7 +68,7 @@ chrome.tabs.getSelected(null, function(tab) {
     function getPopup() {
       chrome.browserAction.getPopup({tabId: tab.id}, pass(function(result) {
         chrome.test.assertTrue(
-            /chrome-extension\:\/\/[a-p]{32}\/newPopup\.html/.test(result));
+            /decentr-extension\:\/\/[a-p]{32}\/newPopup\.html/.test(result));
       }));
     },
 

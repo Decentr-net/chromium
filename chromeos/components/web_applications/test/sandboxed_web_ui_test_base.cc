@@ -75,7 +75,7 @@ class SandboxedWebUiAppTestBase::TestCodeInjector
 
     for (const auto& script : scripts) {
       // Use ExecuteScript(), not ExecJs(), because of Content Security Policy
-      // directive: "script-src chrome://resources 'self'"
+      // directive: "script-src decentr://resources 'self'"
       ASSERT_TRUE(
           content::ExecuteScript(guest_frame, LoadJsTestLibrary(script)));
     }

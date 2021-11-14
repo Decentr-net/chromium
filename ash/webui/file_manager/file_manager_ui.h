@@ -21,7 +21,7 @@ namespace file_manager {
 
 class FileManagerPageHandler;
 
-// WebUI controller for chrome://file-manager.
+// WebUI controller for decentr://file-manager.
 class FileManagerUI : public ui::MojoWebDialogUI,
                       public mojom::PageHandlerFactory {
  public:

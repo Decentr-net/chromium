@@ -36,7 +36,7 @@ std::unique_ptr<WebApplicationInfo> CreateWebAppInfoForFileManager() {
 FileManagerSystemAppDelegate::FileManagerSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(web_app::SystemAppType::FILE_MANAGER,
                                     "File Manager",
-                                    GURL("chrome://file-manager"),
+                                    GURL("decentr://file-manager"),
                                     profile) {}
 
 std::unique_ptr<WebApplicationInfo>

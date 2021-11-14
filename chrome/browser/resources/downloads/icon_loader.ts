@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getFileIconUrl} from 'chrome://resources/js/icon.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {getFileIconUrl} from 'decentr://resources/js/icon.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 export class IconLoader {
   private iconResolvers_: Map<string, PromiseResolver<boolean>>;

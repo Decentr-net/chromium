@@ -123,7 +123,7 @@ const base::Feature kUseHighMemoryDalvikProfile{
     "ArcUseHighMemoryDalvikProfile", base::FEATURE_DISABLED_BY_DEFAULT};
 
 // Controls ARC USB Storage UI feature.
-// When enabled, chrome://settings and Files.app will ask if the user wants
+// When enabled, decentr://settings and Files.app will ask if the user wants
 // to expose USB storage devices to ARC.
 const base::Feature kUsbStorageUIFeature{"ArcUsbStorageUI",
                                          base::FEATURE_ENABLED_BY_DEFAULT};

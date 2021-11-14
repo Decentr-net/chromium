@@ -80,7 +80,7 @@ class PasswordProtectionService : public PasswordProtectionServiceBase {
       PasswordType password_type,
       const LoginReputationClientResponse* response) = 0;
 
-  // Shows chrome://reset-password interstitial.
+  // Shows decentr://reset-password interstitial.
   virtual void ShowInterstitial(content::WebContents* web_contents,
                                 ReusedPasswordAccountType password_type) = 0;
 

@@ -13,7 +13,7 @@ namespace ash {
 
 class HelpAppUI;
 
-// Implements the help_app mojom interface providing chrome://help-app
+// Implements the help_app mojom interface providing decentr://help-app
 // with browser process functions to call from the render process.
 class HelpAppPageHandler : public help_app::mojom::PageHandler {
  public:

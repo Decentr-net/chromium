@@ -9,7 +9,7 @@
  */
 
 import './styles.js';
-import {afterNextRender, html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {afterNextRender, html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {kMaximumLocalImagePreviews} from '../common/constants.js';
 import {sendCollections, sendImageCounts, sendLocalImageData, sendLocalImages, sendVisible} from '../common/iframe_api.js';
 import {isNonEmptyArray, promisifyOnload} from '../common/utils.js';

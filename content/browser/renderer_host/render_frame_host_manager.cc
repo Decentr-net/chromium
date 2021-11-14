@@ -1563,7 +1563,7 @@ RenderFrameHostManager::ShouldSwapBrowsingInstancesForNavigation(
   const GURL& destination_effective_url =
       SiteInstanceImpl::GetEffectiveURL(browser_context, destination_url);
   // Don't force a new BrowsingInstance for URLs that are handled in the
-  // renderer process, like javascript: or debug URLs like chrome://crash.
+  // renderer process, like javascript: or debug URLs like decentr://crash.
   if (blink::IsRendererDebugURL(destination_effective_url))
     return ShouldSwapBrowsingInstance::kNo_RendererDebugURL;
 
@@ -2162,7 +2162,7 @@ RenderFrameHostManager::DetermineSiteInstanceForURL(
     // In rare cases, `source_instance` maybe be already in another
     // BrowsingInstance from `current_instance` (e.g. see how the
     // ExtensionApiTabTest.HostPermission test uses chrome.tabs.update API to
-    // navigate from "chrome://new-tab-page/" to "about:blank").  In such cases,
+    // navigate from "decentr://new-tab-page/" to "about:blank").  In such cases,
     // using `source_instance` will 1) effectively force browsing instance swap
     // and 2) use a process compatible with "about:blank"'s origin (unlike a
     // new, unrelated SiteInstance that might use an unlocked process even

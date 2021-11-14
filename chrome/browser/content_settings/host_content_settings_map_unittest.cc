@@ -1314,7 +1314,7 @@ TEST_F(HostContentSettingsMapTest, GetContentSetting) {
       HostContentSettingsMapFactory::GetForProfile(&profile);
 
   GURL host("http://example.com/");
-  GURL embedder("chrome://foo");
+  GURL embedder("decentr://foo");
   host_content_settings_map->SetContentSettingDefaultScope(
       host, GURL(), ContentSettingsType::COOKIES, CONTENT_SETTING_BLOCK);
   EXPECT_EQ(CONTENT_SETTING_BLOCK,

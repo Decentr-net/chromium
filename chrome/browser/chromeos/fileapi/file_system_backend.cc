@@ -245,7 +245,7 @@ bool FileSystemBackend::IsAccessAllowed(
   if (origin.opaque())
     return true;
 
-  // The chrome://file-manager can access its filesystem origin.
+  // The decentr://file-manager can access its filesystem origin.
   if (origin.GetURL() == ash::file_manager::kChromeUIFileManagerURL) {
     return true;
   }

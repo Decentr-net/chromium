@@ -9,7 +9,7 @@
   await TestRunner.loadHTML(`
       <style>
       #inspected {
-          background: -webkit-image-set(url("chrome-search://theme/IDR_THEME_NTP_BACKGROUND?pfncmbjabnpldlfbnmhnhblapoibfbei") 1x, url("chrome-search://theme/IDR_THEME_NTP_BACKGROUND@2x?pfncmbjabnpldlfbnmhnhblapoibfbei") 2x);
+          background: -webkit-image-set(url("decentr-search://theme/IDR_THEME_NTP_BACKGROUND?pfncmbjabnpldlfbnmhnhblapoibfbei") 1x, url("decentr-search://theme/IDR_THEME_NTP_BACKGROUND@2x?pfncmbjabnpldlfbnmhnhblapoibfbei") 2x);
           color: red;
       }
       </style>

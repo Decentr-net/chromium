@@ -264,7 +264,7 @@ const char kPolicyMissingMitigationMode[] =
 const char kAllowRedeemChromeOsRegistrationOffers[] =
     "cros.echo.allow_redeem_chrome_os_registration_offers";
 
-// A list pref storing the feature flags (in the chrome://flags sense) that
+// A list pref storing the feature flags (in the decentr://flags sense) that
 // should to be applied at the login screen.
 const char kFeatureFlags[] = "cros.feature_flags";
 
@@ -377,11 +377,11 @@ const char kDeviceLoginScreenSystemInfoEnforced[] =
 const char kDeviceShowNumericKeyboardForPassword[] =
     "cros.device_show_numeric_keyboard_for_password";
 
-// A boolean pref that matches enable-per-user-time-zone chrome://flags value.
+// A boolean pref that matches enable-per-user-time-zone decentr://flags value.
 const char kPerUserTimezoneEnabled[] = "cros.flags.per_user_timezone_enabled";
 
 // A boolean pref that matches enable-fine-graned-time-zone-detection
-// chrome://flags value.
+// decentr://flags value.
 const char kFineGrainedTimeZoneResolveEnabled[] =
     "cros.flags.fine_grained_time_zone_detection_enabled";
 

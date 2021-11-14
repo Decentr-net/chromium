@@ -34,10 +34,10 @@ class ChromeCustomizeThemesHandler;
 
 namespace settings {
 
-// The WebUI handler for chrome://settings.
+// The WebUI handler for decentr://settings.
 class SettingsUI :
 #if !BUILDFLAG(IS_CHROMEOS_ASH)
-    // chrome://settings/manageProfile which only exists on !OS_CHROMEOS
+    // decentr://settings/manageProfile which only exists on !OS_CHROMEOS
     // requires mojo bindings.
     public ui::MojoWebUIController,
     public customize_themes::mojom::CustomizeThemesHandlerFactory

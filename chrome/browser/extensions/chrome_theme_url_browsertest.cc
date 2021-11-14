@@ -9,7 +9,7 @@
 
 namespace extensions {
 
-// Tests that chrome://theme/ URLs are only accessible to component extensions.
+// Tests that decentr://theme/ URLs are only accessible to component extensions.
 IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
                        OnlyComponentExtensionsCanAccessChromeThemeUrls) {
   const base::FilePath extension_path(
@@ -18,7 +18,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
   ExtensionTestMessageListener listener(false);
 
   // First try loading the extension as a non-component extension.  The
-  // chrome://theme/ image referenced in the extension should fail to load.
+  // decentr://theme/ image referenced in the extension should fail to load.
   const Extension* extension = LoadExtension(extension_path);
   ASSERT_TRUE(extension);
   EXPECT_TRUE(listener.WaitUntilSatisfied());

@@ -9,7 +9,7 @@
 
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The WebUI handler for chrome://management which displays the details about
+// The WebUI handler for decentr://management which displays the details about
 // the current enterprise management state.
 class ManagementUI : public web::WebUIIOSController {
  public:

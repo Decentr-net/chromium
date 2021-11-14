@@ -1400,7 +1400,7 @@ Vous pouvez gérer les paramètres de ce compte en installant l'application Fami
 <translation id="2431027948063157455">Impossible de charger l'Assistant Google. Veuillez vérifier votre connexion réseau et réessayer.</translation>
 <translation id="243179355394256322">Votre organisation limite l'enregistrement d'un appareil aux seuls utilisateurs autorisés. Cet utilisateur n'est pas autorisé à enregistrer des appareils. Veuillez vous assurer qu'il dispose du droit d'administrateur "Enregistrer du matériel Google Meet" dans la section "Utilisateurs" de la Console d'administration.</translation>
 <translation id="243275146591958220">Annuler le téléchargement</translation>
-<translation id="2433452467737464329">Ajoutez un paramètre de requête dans l'URL pour une actualisation automatique de la page : chrome://network/?refresh=&lt;sec&gt;.</translation>
+<translation id="2433452467737464329">Ajoutez un paramètre de requête dans l'URL pour une actualisation automatique de la page : decentr://network/?refresh=&lt;sec&gt;.</translation>
 <translation id="2433507940547922241">Apparence</translation>
 <translation id="2433836460518180625">Déverrouiller l'appareil uniquement</translation>
 <translation id="2434449159125086437">Échec de la configuration de l'imprimante. Veuillez vérifier la configuration, puis réessayer.</translation>
@@ -1929,7 +1929,7 @@ et Ctrl+Alt+Diminuer la luminosité pour faire un zoom arrière.</translation>
 <translation id="2959127025785722291">Un problème est survenu. Impossible de terminer l'analyse. Veuillez réessayer.</translation>
 <translation id="2959842337402130152">Échec de la restauration en raison de l'espace de stockage insuffisant. Libérez <ph name="SPACE_REQUIRED" /> sur cet appareil, puis réessayez.</translation>
 <translation id="2960208947600937804">Une erreur s'est produite lors de la configuration de Linux. Contactez l'administrateur.</translation>
-<translation id="296026337010986570">Le logiciel malveillant a été supprimé. Pour réactiver les extensions, consultez la page &lt;a href="chrome://extensions"&gt;Extensions&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Le logiciel malveillant a été supprimé. Pour réactiver les extensions, consultez la page &lt;a href="decentr://extensions"&gt;Extensions&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (extension accordée)</translation>
 <translation id="2961210776189273067">Civilité</translation>
 <translation id="2961695502793809356">Cliquer pour avancer, maintenir pour voir l'historique</translation>
@@ -4931,7 +4931,7 @@ Assurez-vous de ne pas dévoiler d'informations sensibles.</translation>
 <translation id="6227280783235722609">extension</translation>
 <translation id="6229849828796482487">Se déconnecter du réseau Wi-Fi</translation>
 <translation id="6231782223312638214">Suggestions</translation>
-<translation id="6231881193380278751">Ajoutez un paramètre de requête dans l'URL pour une actualisation automatique de la page : chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Ajoutez un paramètre de requête dans l'URL pour une actualisation automatique de la page : decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Batterie</translation>
 <translation id="6232116551750539448">La connexion à "<ph name="NAME" />" a été interrompue.</translation>
 <translation id="6233154960150021497">Utiliser par défaut les commandes vocales plutôt que le clavier</translation>

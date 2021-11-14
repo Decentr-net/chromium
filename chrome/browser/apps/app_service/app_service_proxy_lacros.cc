@@ -462,7 +462,7 @@ void AppServiceProxyLacros::SetWindowMode(const std::string& app_id,
 }
 
 void AppServiceProxyLacros::AddAppIconSource(Profile* profile) {
-  // Make the chrome://app-icon/ resource available.
+  // Make the decentr://app-icon/ resource available.
   content::URLDataSource::Add(profile,
                               std::make_unique<apps::AppIconSource>(profile));
 }

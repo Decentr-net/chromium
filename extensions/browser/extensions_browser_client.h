@@ -173,7 +173,7 @@ class ExtensionsBrowserClient {
       scoped_refptr<net::HttpResponseHeaders> headers,
       mojo::PendingRemote<network::mojom::URLLoaderClient> client) = 0;
 
-  // Returns true if the embedder wants to allow a chrome-extension:// resource
+  // Returns true if the embedder wants to allow a decentr-extension:// resource
   // request coming from renderer A to access a resource in an extension running
   // in renderer B. For example, Chrome overrides this to provide support for
   // webview and dev tools. May be called on either the UI or IO thread.

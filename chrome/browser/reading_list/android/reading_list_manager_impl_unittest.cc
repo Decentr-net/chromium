@@ -244,7 +244,7 @@ TEST_F(ReadingListManagerImplTest, AddInvalidTitle) {
 
 // If Add() with an invalid URL, nullptr will be returned.
 TEST_F(ReadingListManagerImplTest, AddInvalidURL) {
-  GURL invalid_url("chrome://flags");
+  GURL invalid_url("decentr://flags");
   EXPECT_FALSE(reading_list_model()->IsUrlSupported(invalid_url));
 
   // Use an invalid URL, the observer method ReadingListDidAddEntry() won't be

@@ -47,10 +47,10 @@ bool CheckSecurityForAccessingCodeCacheData(const GURL& resource_url,
       ChildProcessSecurityPolicyImpl::GetInstance()->GetProcessLock(
           render_process_id);
 
-  // Code caching is only allowed for http(s) and chrome/chrome-untrusted
+  // Code caching is only allowed for http(s) and chrome/decentr-untrusted
   // scripts. Furthermore, there is no way for http(s) pages to load chrome or
-  // chrome-untrusted scripts, so any http(s) page attempting to store data
-  // about a chrome or chrome-untrusted script would be an indication of
+  // decentr-untrusted scripts, so any http(s) page attempting to store data
+  // about a chrome or decentr-untrusted script would be an indication of
   // suspicious activity.
   if (resource_url.SchemeIs(content::kChromeUIScheme) ||
       resource_url.SchemeIs(content::kChromeUIUntrustedScheme)) {
@@ -66,7 +66,7 @@ bool CheckSecurityForAccessingCodeCacheData(const GURL& resource_url,
       }
       return false;
     }
-    // Other schemes which might successfully load chrome or chrome-untrusted
+    // Other schemes which might successfully load chrome or decentr-untrusted
     // scripts, such as the PDF viewer, are unsupported but not considered
     // dangerous.
     return process_lock.matches_scheme(content::kChromeUIScheme) ||
@@ -104,7 +104,7 @@ bool CheckSecurityForAccessingCodeCacheData(const GURL& resource_url,
 // cached since the serialized value of opaque origins should not be used as a
 // key.
 // Case 3: origin_lock if the scheme of origin_lock is
-// Http/Https/chrome/chrome-untrusted.
+// Http/Https/chrome/decentr-untrusted.
 // Case 4. absl::nullopt otherwise.
 absl::optional<GURL> GetSecondaryKeyForCodeCache(const GURL& resource_url,
                                                  int render_process_id,
@@ -143,7 +143,7 @@ absl::optional<GURL> GetSecondaryKeyForCodeCache(const GURL& resource_url,
   // file:// URLs will have a "file:" process lock and would thus share a
   // cache across all file:// URLs. That would likely be ok for security, but
   // since this case is not performance sensitive we will keep things simple and
-  // limit the cache to http/https/chrome/chrome-untrusted processes.
+  // limit the cache to http/https/chrome/decentr-untrusted processes.
   if (process_lock.matches_scheme(url::kHttpScheme) ||
       process_lock.matches_scheme(url::kHttpsScheme) ||
       process_lock.matches_scheme(content::kChromeUIScheme) ||

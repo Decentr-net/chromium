@@ -55,7 +55,7 @@ class NotificationUIManagerTest : public BrowserWithTestWindowTest {
     return Notification(
         message_center::NOTIFICATION_TYPE_SIMPLE, id, std::u16string(),
         std::u16string(), gfx::Image(), std::u16string(),
-        GURL("chrome-extension://adflkjsdflkdsfdsflkjdsflkdjfs"),
+        GURL("decentr-extension://adflkjsdflkdsfdsflkjdsflkdjfs"),
         NotifierId(NotifierType::APPLICATION, "adflkjsdflkdsfdsflkjdsflkdjfs"),
         message_center::RichNotificationData(),
         new message_center::NotificationDelegate());

@@ -2,29 +2,29 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/iron-media-query/iron-media-query.js';
-import 'chrome://resources/polymer/v3_0/paper-progress/paper-progress.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/iron-media-query/iron-media-query.js';
+import 'decentr://resources/polymer/v3_0/paper-progress/paper-progress.js';
 import './icons.js';
 import './print_management_fonts_css.js';
 import './print_management_shared_css.js';
 import './printing_manager.mojom-lite.js';
 import './strings.m.js';
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {FocusRowBehavior} from 'chrome://resources/js/cr/ui/focus_row_behavior.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {IronA11yAnnouncer} from 'chrome://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {FocusRowBehavior} from 'decentr://resources/js/cr/ui/focus_row_behavior.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {IronA11yAnnouncer} from 'decentr://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {getMetadataProvider} from './mojo_interface_provider.js';
 

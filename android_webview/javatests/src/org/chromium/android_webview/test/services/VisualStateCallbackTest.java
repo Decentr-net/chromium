@@ -161,7 +161,7 @@ public class VisualStateCallbackTest {
         final VisualStateCallbackImpl vsImpl = new VisualStateCallbackImpl();
         mHelper.setOnRenderProcessGoneTask(
                 () -> mAwContents.insertVisualStateCallback(vsImpl.requestId(), vsImpl));
-        mActivityTestRule.loadUrlAsync(mAwContents, "chrome://kill");
+        mActivityTestRule.loadUrlAsync(mAwContents, "decentr://kill");
 
         mHelper.waitForRenderProcessGoneNotifiedToAwContentsClient();
 

@@ -305,7 +305,7 @@ IN_PROC_BROWSER_TEST_P(PageInfoBubbleViewBrowserTest,
 
 IN_PROC_BROWSER_TEST_P(PageInfoBubbleViewBrowserTest, ChromeURL) {
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://settings")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://settings")));
   OpenPageInfoBubble(browser());
   EXPECT_EQ(PageInfoBubbleView::BUBBLE_INTERNAL_PAGE,
             PageInfoBubbleView::GetShownBubbleType());
@@ -313,7 +313,7 @@ IN_PROC_BROWSER_TEST_P(PageInfoBubbleViewBrowserTest, ChromeURL) {
 
 IN_PROC_BROWSER_TEST_P(PageInfoBubbleViewBrowserTest, ChromeExtensionURL) {
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome-extension://extension-id/options.html")));
+      browser(), GURL("decentr-extension://extension-id/options.html")));
   OpenPageInfoBubble(browser());
   EXPECT_EQ(PageInfoBubbleView::BUBBLE_INTERNAL_PAGE,
             PageInfoBubbleView::GetShownBubbleType());

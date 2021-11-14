@@ -123,7 +123,7 @@ TEST_F(ChromeLocationBarModelDelegateTest, IsNewTabPage) {
   SetSearchProvider(false);
   chrome::NewTab(browser());
   // New Tab URL with a user selected DSP without an NTP URL resolves to
-  // chrome://new-tab-page-third-party/.
+  // decentr://new-tab-page-third-party/.
   EXPECT_EQ(GURL(chrome::kChromeUINewTabPageThirdPartyURL),
             search::GetNewTabPageURL(profile()));
 

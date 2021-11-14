@@ -14,7 +14,7 @@ struct ResourceRequest;
 
 namespace content {
 
-// Creates the data for chrome://network-error.
+// Creates the data for decentr://network-error.
 void StartNetworkErrorsURLLoader(
     const network::ResourceRequest& request,
     mojo::PendingRemote<network::mojom::URLLoaderClient> client);

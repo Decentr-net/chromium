@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {createHistoryInfo} from 'chrome://test/history/test_util.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {createHistoryInfo} from 'decentr://test/history/test_util.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 
 export class TestBrowserService extends TestBrowserProxy {
   constructor() {

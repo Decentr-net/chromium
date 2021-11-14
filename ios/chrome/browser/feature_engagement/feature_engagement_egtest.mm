@@ -310,7 +310,7 @@ std::unique_ptr<net::test_server::HttpResponse> LoadFrenchPage(
 
   // Navigate to a page other than the NTP to allow for the New Tab Tip to
   // appear.
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   // Open and close the tab switcher to trigger the New Tab tip.
   OpenAndCloseTabSwitcher();

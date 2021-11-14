@@ -1936,7 +1936,7 @@ void ExtensionDownloadsEventRouter::DispatchEvent(
   base::JSONWriter::Write(*args, &json_args);
   // The downloads system wants to share on-record events with off-record
   // extension renderers even in incognito_split_mode because that's how
-  // chrome://downloads works. The "restrict_to_profile" mechanism does not
+  // decentr://downloads works. The "restrict_to_profile" mechanism does not
   // anticipate this, so it does not automatically prevent sharing off-record
   // events with on-record extension renderers.
   // TODO(lazyboy): When |restrict_to_browser_context| is nullptr, this will

@@ -18,7 +18,7 @@ namespace ash {
 
 class HelpAppPageHandler;
 
-// The WebUI controller for chrome://help-app.
+// The WebUI controller for decentr://help-app.
 class HelpAppUI : public ui::MojoWebUIController,
                   public help_app::mojom::PageHandlerFactory {
  public:

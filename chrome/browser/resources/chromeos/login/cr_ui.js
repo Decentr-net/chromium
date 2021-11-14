@@ -8,9 +8,9 @@
  * shared between all *two* screens here.
  */
 
-// #import {assert} from 'chrome://resources/js/assert.m.js';
-// #import {$} from 'chrome://resources/js/util.m.js';
-// #import {addSingletonGetter, sendWithPromise} from 'chrome://resources/js/cr.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
+// #import {$} from 'decentr://resources/js/util.m.js';
+// #import {addSingletonGetter, sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 // #import {DisplayManager} from './display_manager.m.js';
 // #import {DISPLAY_TYPE} from './components/display_manager_types.m.js';

@@ -10,7 +10,7 @@
 #include "base/macros.h"
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The WebUI handler for chrome://terms.
+// The WebUI handler for decentr://terms.
 class TermsUI : public web::WebUIIOSController {
  public:
   TermsUI(web::WebUIIOS* web_ui, const std::string& name);

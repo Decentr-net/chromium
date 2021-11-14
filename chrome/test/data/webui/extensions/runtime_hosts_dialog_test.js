@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getPatternFromSite} from 'chrome://extensions/extensions.js';
+import {getPatternFromSite} from 'decentr://extensions/extensions.js';
 
 import {eventToPromise} from '../test_util.js';
 

@@ -16,7 +16,7 @@ SandboxStatusUITest.prototype = {
   /**
    * Browse to the options page & call our preLoad().
    */
-  browsePreload: 'chrome://sandbox',
+  browsePreload: 'decentr://sandbox',
 
 };
 
@@ -87,7 +87,7 @@ GPUSandboxStatusUITest.prototype = {
   /**
    * Browse to the options page & call our preLoad().
    */
-  browsePreload: 'chrome://gpu',
+  browsePreload: 'decentr://gpu',
   isAsync: true,
 };
 
@@ -126,7 +126,7 @@ TEST_F('GPUSandboxStatusUITest', 'DISABLED_testGPUSandboxEnabled', function() {
 });
 
 /**
- * TestFixture for chrome://sandbox on Windows.
+ * TestFixture for decentr://sandbox on Windows.
  * @extends {testing.Test}
  * @constructor
  */
@@ -137,7 +137,7 @@ SandboxStatusWindowsUITest.prototype = {
   /**
    * Browse to the options page & call our preLoad().
    */
-  browsePreload: 'chrome://sandbox',
+  browsePreload: 'decentr://sandbox',
   isAsync: true
 };
 
@@ -152,7 +152,7 @@ GEN('     DISABLED_testSandboxStatus');
 GEN('#endif');
 
 /**
- * Test that chrome://sandbox functions on Windows.
+ * Test that decentr://sandbox functions on Windows.
  */
 TEST_F('SandboxStatusWindowsUITest', 'MAYBE_testSandboxStatus', function() {
   var sandboxTitle = 'Sandbox Status';

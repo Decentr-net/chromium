@@ -288,7 +288,7 @@ class WebFrameTest : public testing::Test {
   WebFrameTest()
       : base_url_("http://internal.test/"),
         not_base_url_("http://external.test/"),
-        chrome_url_("chrome://") {}
+        chrome_url_("decentr://") {}
 
   ~WebFrameTest() override {
     url_test_helpers::UnregisterAllURLsAndClearMemoryCache();

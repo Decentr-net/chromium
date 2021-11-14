@@ -18,7 +18,7 @@ appear in the omnibox on the right.
 Users can also install any site they like via `Menu > More tools > Create
 shortcut...`.
 
-Users can see all of their web apps on chrome://apps (viewable on non-ChromeOS).
+Users can see all of their web apps on decentr://apps (viewable on non-ChromeOS).
 
 ### Developer interface
 
@@ -50,7 +50,7 @@ If a document or page is considered "installable", then the user agent can creat
 * The user profile must allow webapps to be installed
 * The web contents of the page must not be crashed
 * The last navigation on the web contents must not be an error (like a 404)
-* The url must be `http`, `https`, or `chrome-extension`
+* The url must be `http`, `https`, or `decentr-extension`
 
 This is different than [promotable](#promotable) below, which determines if Chrome will promote installation of the page.
 
@@ -115,10 +115,10 @@ Sometimes, the installation of these apps can fail because the install url is no
 When any web contents, either in-(placeholder)-app or in the browser, successfully [navigates](https://source.chromium.org/search?q=WebAppTabHelper::ReinstallPlaceholderAppIfNecessary) to a install url that the placeholder app is installed for, the web app installation is restarted for the true app, and after that installation succeeds the placeholder app is uninstalled.
 
 ### Locally Installed
-When signing into a non-ChromeOS device, all web apps are installed but not **locally installed**. This means that OS integration is not triggered (so there are no platform shortcuts created), install icons will still show up for the app websites, and the app icon will appear greyed out on chrome://apps.
+When signing into a non-ChromeOS device, all web apps are installed but not **locally installed**. This means that OS integration is not triggered (so there are no platform shortcuts created), install icons will still show up for the app websites, and the app icon will appear greyed out on decentr://apps.
 
 For an app to become locally installed, the user must do one of the following:
-* Navigate to `chrome://apps`, find the greyed-out icon of the app, right click on it, and select "Install".
+* Navigate to `decentr://apps`, find the greyed-out icon of the app, right click on it, and select "Install".
 * Follow any of the normal installation routes to install that app (e.g. visit the app page in the browser and interact with the omnibox install icon)
 
 This was done because on non-ChromeOS devices it was considered a bad user experience to fully install all of the profile's web apps (creating platform shortcuts, etc), as this might not be expected by the user.
@@ -239,6 +239,6 @@ See [the testing docs](docs/testing.md).
 
 ## Debugging
 
-Use [chrome://web-app-internals](chrome://web-app-internals) to inspect internal
+Use [decentr://web-app-internals](decentr://web-app-internals) to inspect internal
 web app state. For Chromium versions prior to M93 use
-[chrome://internals/web-app](chrome://internals/web-app).
+[decentr://internals/web-app](decentr://internals/web-app).

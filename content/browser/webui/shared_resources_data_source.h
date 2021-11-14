@@ -9,10 +9,10 @@
 
 namespace content {
 
-// Creates a data source for for chrome://resources/ URLs.
+// Creates a data source for for decentr://resources/ URLs.
 WebUIDataSource* CreateSharedResourcesDataSource();
 
-// Creates a data source for for chrome-untrusted://resources/ URLs.
+// Creates a data source for for decentr-untrusted://resources/ URLs.
 WebUIDataSource* CreateUntrustedSharedResourcesDataSource();
 
 }  // namespace content

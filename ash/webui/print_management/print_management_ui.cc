@@ -114,7 +114,7 @@ PrintManagementUI::PrintManagementUI(
       content::WebUIDataSource::Create(kChromeUIPrintManagementHost));
   html_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   html_source->DisableTrustedTypesCSP();
 
   const auto resources = base::make_span(kAshPrintManagementResources,

@@ -23,7 +23,7 @@ struct SyncCycleEvent;
 // This class watches various sync engine components, updating its internal
 // state upon change and firing the callback injected on construction.
 //
-// Most of this data ends up on the chrome://sync-internals page. But the page
+// Most of this data ends up on the decentr://sync-internals page. But the page
 // is only 'pinged' to update itself at the end of a sync cycle. A user could
 // refresh manually, but unless their timing is excellent it's unlikely that a
 // user will see any state in mid-sync cycle. We have no plans to change this.

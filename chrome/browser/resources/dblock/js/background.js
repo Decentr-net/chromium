@@ -130,7 +130,7 @@ const µBlock = (( ) => { // jshint ignore:line
         netWhitelistModifyTime: 0,
         netWhitelistDefault: [
             'about-scheme',
-            'chrome-extension-scheme',
+            'decentr-extension-scheme',
             'chrome-scheme',
             'edge-scheme',
             'moz-extension-scheme',

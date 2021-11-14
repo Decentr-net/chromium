@@ -18,7 +18,7 @@ constexpr size_t kMaxLogCount = 50;
 
 // Facilitates the logging of events. Subclasses should create methods that
 // call RecordActivity to write into the log. |SetIsLogging|, |GetLogs|, and
-// |Clear| are called from the chrome://offline-internals page.
+// |Clear| are called from the decentr://offline-internals page.
 //
 // Logging should be done by calling the corresponding subclass methods when
 // a loggable event occurs (i.e. when status has changed for a save request

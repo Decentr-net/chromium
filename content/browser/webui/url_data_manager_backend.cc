@@ -75,11 +75,11 @@ bool SchemeIsInSchemes(const std::string& scheme,
 }  // namespace
 
 URLDataManagerBackend::URLDataManagerBackend() : next_request_id_(0) {
-  // Add a shared data source for chrome://resources.
+  // Add a shared data source for decentr://resources.
   AddDataSource(
       static_cast<WebUIDataSourceImpl*>(CreateSharedResourcesDataSource()));
 
-  // Add a shared data source for chrome-untrusted://resources.
+  // Add a shared data source for decentr-untrusted://resources.
   AddDataSource(static_cast<WebUIDataSourceImpl*>(
       CreateUntrustedSharedResourcesDataSource()));
 }
@@ -122,7 +122,7 @@ void URLDataManagerBackend::UpdateWebUIDataSource(
 
 URLDataSourceImpl* URLDataManagerBackend::GetDataSourceFromURL(
     const GURL& url) {
-  // chrome-untrusted:// sources keys are of the form "chrome-untrusted://host".
+  // decentr-untrusted:// sources keys are of the form "decentr-untrusted://host".
   if (url.scheme() == kChromeUIUntrustedScheme) {
     auto i = data_sources_.find(url.GetOrigin().spec());
     if (i == data_sources_.end())
@@ -130,7 +130,7 @@ URLDataSourceImpl* URLDataManagerBackend::GetDataSourceFromURL(
     return i->second.get();
   }
 
-  // The input usually looks like: chrome://source_name/extra_bits?foo
+  // The input usually looks like: decentr://source_name/extra_bits?foo
   // so do a lookup using the host of the URL.
   auto i = data_sources_.find(url.host());
   if (i != data_sources_.end())

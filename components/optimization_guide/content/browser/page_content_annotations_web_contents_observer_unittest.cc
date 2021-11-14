@@ -175,7 +175,7 @@ TEST_F(PageContentAnnotationsWebContentsObserverTest,
 
 TEST_F(PageContentAnnotationsWebContentsObserverTest,
        DoesNotRequestForNonHttpHttps) {
-  EXPECT_EQ(RequestTextDumpForUrl(GURL("chrome://new-tab")), nullptr);
+  EXPECT_EQ(RequestTextDumpForUrl(GURL("decentr://new-tab")), nullptr);
 }
 
 TEST_F(PageContentAnnotationsWebContentsObserverTest,

@@ -96,7 +96,7 @@ actions that include it, go ahead.
 
 ## Testing
 
-Test your user actions using `chrome://user-actions`. Make sure they're being
+Test your user actions using `decentr://user-actions`. Make sure they're being
 emitted when you expect and not emitted otherwise.
 
 If this is a general UI surface, please try to check every platform. In

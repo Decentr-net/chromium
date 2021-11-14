@@ -130,7 +130,7 @@ CommandStore.denyOOBE = function(command) {
  *            showing a list of nodes.
  *  skipInput: Explicitly skips this command when text input has focus.
  *             Defaults to false.
- *  denyOOBE: Explicitly denies this command when on chrome://oobe/*.
+ *  denyOOBE: Explicitly denies this command when on decentr://oobe/*.
  *             Defaults to false.
  *  allowEvents: Allows EventWatcher to continue processing events which can
  * trump TTS.

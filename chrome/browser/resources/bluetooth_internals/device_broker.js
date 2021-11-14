@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 /**
- * Javascript for device_broker, served from chrome://bluetooth-internals/.
+ * Javascript for device_broker, served from decentr://bluetooth-internals/.
  * Provides a single source to access DeviceRemotes. DeviceRemotes are cached
  * for repeated use. Multiple connection requests will result in the same
  * DeviceRemote being shared among all requesters.
  */
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 import './device.mojom-lite.js';
 import {getAdapterBroker} from './adapter_broker.js';
 

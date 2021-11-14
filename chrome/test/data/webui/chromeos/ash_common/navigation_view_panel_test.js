@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {SelectorItem} from 'chrome://resources/ash/common/navigation_selector.js';
-import {NavigationViewPanelElement} from 'chrome://resources/ash/common/navigation_view_panel.js';
-import {CrDrawerElement} from 'chrome://resources/cr_elements/cr_drawer/cr_drawer.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {SelectorItem} from 'decentr://resources/ash/common/navigation_selector.js';
+import {NavigationViewPanelElement} from 'decentr://resources/ash/common/navigation_view_panel.js';
+import {CrDrawerElement} from 'decentr://resources/cr_elements/cr_drawer/cr_drawer.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {eventToPromise, flushTasks} from '../../test_util.js';
 

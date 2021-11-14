@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test fixture for chrome://diagnostics.
+ * @fileoverview Test fixture for decentr://diagnostics.
  * Unifieid polymer testing suite for diagnostics app.
  *
  * To run all tests in a single instance (default, faster):
@@ -27,7 +27,7 @@ const dxTestSuites = 'chromeos/diagnostics/diagnostics_app_unified_test.js';
 this.DiagnosticsApp = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return `chrome://diagnostics/test_loader.html?module=${dxTestSuites}`;
+    return `decentr://diagnostics/test_loader.html?module=${dxTestSuites}`;
   }
 
   /** @override */
@@ -43,7 +43,7 @@ this.DiagnosticsApp = class extends PolymerTest {
 this.DiagnosticsAppWithNetwork = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return `chrome://diagnostics/test_loader.html?module=${dxTestSuites}`;
+    return `decentr://diagnostics/test_loader.html?module=${dxTestSuites}`;
   }
 
   /** @override */
@@ -61,7 +61,7 @@ this.DiagnosticsAppWithNetwork = class extends PolymerTest {
 this.DiagnosticsAppWithInput = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return `chrome://diagnostics/test_loader.html?module=${dxTestSuites}`;
+    return `decentr://diagnostics/test_loader.html?module=${dxTestSuites}`;
   }
 
   /** @override */

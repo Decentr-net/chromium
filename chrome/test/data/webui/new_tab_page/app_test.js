@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, BackgroundManager, BackgroundSelectionType, BrowserCommandProxy, CustomizeDialogPage, ModuleRegistry, NewTabPageProxy, NtpElement, VoiceAction, WindowProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {Command, CommandHandlerRemote} from 'chrome://resources/js/browser_command/browser_command.mojom-webui.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {fakeMetricsPrivate, MetricsTracker} from 'chrome://test/new_tab_page/metrics_test_support.js';
-import {assertNotStyle, assertStyle, createTheme, installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
+import {$$, BackgroundManager, BackgroundSelectionType, BrowserCommandProxy, CustomizeDialogPage, ModuleRegistry, NewTabPageProxy, NtpElement, VoiceAction, WindowProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {Command, CommandHandlerRemote} from 'decentr://resources/js/browser_command/browser_command.mojom-webui.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {fakeMetricsPrivate, MetricsTracker} from 'decentr://test/new_tab_page/metrics_test_support.js';
+import {assertNotStyle, assertStyle, createTheme, installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
 
 suite('NewTabPageAppTest', () => {
   /** @type {!AppElement} */
@@ -136,7 +136,7 @@ suite('NewTabPageAppTest', () => {
     const theme = createTheme();
     theme.backgroundImage = {
       url: {url: 'https://foo.com'},
-      attributionUrl: {url: 'chrome://theme/foo'},
+      attributionUrl: {url: 'decentr://theme/foo'},
     };
 
     // Act.
@@ -144,7 +144,7 @@ suite('NewTabPageAppTest', () => {
     await callbackRouterRemote.$.flushForTesting();
 
     assertNotStyle($$(app, '#themeAttribution'), 'display', 'none');
-    assertEquals('chrome://theme/foo', $$(app, '#themeAttribution img').src);
+    assertEquals('decentr://theme/foo', $$(app, '#themeAttribution img').src);
   });
 
   test('realbox is not visible by default', async () => {

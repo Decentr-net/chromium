@@ -18,7 +18,7 @@ namespace chrome_pdf {
 namespace {
 
 constexpr char kDummyOriginalUrl[] = "https://test.com/dummy.pdf";
-constexpr char kDummySrcUrl[] = "chrome-extension://dummy-source-url";
+constexpr char kDummySrcUrl[] = "decentr-extension://dummy-source-url";
 
 constexpr SkColor kNewBackgroundColor = SkColorSetARGB(0xFF, 0x52, 0x56, 0x59);
 

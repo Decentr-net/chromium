@@ -227,7 +227,7 @@ IN_PROC_BROWSER_TEST_F(RegisterProtocolHandlerExtensionBrowserTest, Basic) {
   ASSERT_NE(nullptr, extension);
 
   std::string handler_url =
-      "chrome-extension://" + extension->id() + "/test.html";
+      "decentr-extension://" + extension->id() + "/test.html";
 
   // Register the handler.
   {

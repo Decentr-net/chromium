@@ -21,7 +21,7 @@ namespace {
 
 constexpr char kSecureSite[] = "https://site.tld";
 constexpr char kInsecureSite[] = "http://othersite.tld";
-constexpr char kPrivilegedInitiator[] = "https://chrome-extension.example.com";
+constexpr char kPrivilegedInitiator[] = "https://decentr-extension.example.com";
 
 constexpr char kKnownSecChHeader[] = "Sec-CH-UA";
 constexpr char kKnownSecFetchSiteHeader[] = "Sec-Fetch-Site";

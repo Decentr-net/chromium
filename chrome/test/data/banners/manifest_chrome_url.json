@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "chrome://settings",
+  "start_url": "decentr://settings",
   "display": "standalone",
   "orientation": "landscape"
 }

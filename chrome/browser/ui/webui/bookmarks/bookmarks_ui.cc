@@ -141,7 +141,7 @@ content::WebUIDataSource* CreateBookmarksUIHTMLSource(Profile* profile) {
 }  // namespace
 
 BookmarksUI::BookmarksUI(content::WebUI* web_ui) : WebUIController(web_ui) {
-  // Set up the chrome://bookmarks/ source.
+  // Set up the decentr://bookmarks/ source.
   Profile* profile = Profile::FromWebUI(web_ui);
   auto* source = CreateBookmarksUIHTMLSource(profile);
   ManagedUIHandler::Initialize(web_ui, source);

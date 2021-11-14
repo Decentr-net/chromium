@@ -46,7 +46,7 @@ class BLINK_PLATFORM_EXPORT WebDedicatedOrSharedWorkerFetchContext
   // default factory and instead go directly to network for http(s) requests.
   // |pending_fallback_factory| might not be simply the direct network factory,
   // because it might additionally support non-NetworkService schemes (e.g.,
-  // chrome-extension://).
+  // decentr-extension://).
   static scoped_refptr<WebDedicatedOrSharedWorkerFetchContext> Create(
       WebServiceWorkerProviderContext* provider_context,
       const RendererPreferences& renderer_preferences,

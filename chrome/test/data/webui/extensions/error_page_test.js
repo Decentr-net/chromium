@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 /** @fileoverview Suite of tests for extensions-detail-view. */
-import 'chrome://extensions/extensions.js';
+import 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {isChildVisible} from '../test_util.js';
 
@@ -66,7 +66,7 @@ suite(extension_error_page_tests.suiteName, function() {
     document.body.innerHTML = '';
     const runtimeError = Object.assign(
         {
-          source: 'chrome-extension://' + extensionId + '/source.html',
+          source: 'decentr-extension://' + extensionId + '/source.html',
           message: 'message',
           id: 1,
           severity: chrome.developerPrivate.ErrorLevel.ERROR,
@@ -152,7 +152,7 @@ suite(extension_error_page_tests.suiteName, function() {
   test(assert(extension_error_page_tests.TestNames.ErrorSelection), function() {
     const nextRuntimeError = Object.assign(
         {
-          source: 'chrome-extension://' + extensionId + '/other_source.html',
+          source: 'decentr-extension://' + extensionId + '/other_source.html',
           message: 'Other error',
           id: 2,
           severity: chrome.developerPrivate.ErrorLevel.ERROR,

@@ -840,7 +840,7 @@ const base::Feature kQuietNotificationPrompts{"QuietNotificationPrompts",
                                               base::FEATURE_ENABLED_BY_DEFAULT};
 
 // Enables recording additional web app related debugging data to be displayed
-// in: chrome://web-app-internals
+// in: decentr://web-app-internals
 const base::Feature kRecordWebAppDebugInfo{"RecordWebAppDebugInfo",
                                            base::FEATURE_DISABLED_BY_DEFAULT};
 
@@ -945,12 +945,12 @@ const base::Feature kSSLCipher3DES{"SSLCipher3DES",
                                    base::FEATURE_DISABLED_BY_DEFAULT};
 
 // Enables the demo version of the Support Tool. The tool will be available in
-// chrome://support-tool. See go/support-tool-v1-design for more details.
+// decentr://support-tool. See go/support-tool-v1-design for more details.
 const base::Feature kSupportTool{"SupportTool",
                                  base::FEATURE_DISABLED_BY_DEFAULT};
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-// Enables or disables chrome://sys-internals.
+// Enables or disables decentr://sys-internals.
 const base::Feature kSysInternals{"SysInternals",
                                   base::FEATURE_DISABLED_BY_DEFAULT};
 

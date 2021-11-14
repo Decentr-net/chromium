@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
 
 /**
  * Helper class to be used as the super class of all custom elements in
- * chrome://omnibox.
+ * decentr://omnibox.
  * @abstract
  */
 export class OmniboxElement extends HTMLElement {

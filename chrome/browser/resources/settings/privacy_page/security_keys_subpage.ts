@@ -6,16 +6,16 @@
  * @fileoverview 'security-keys-subpage' is a settings subpage
  * containing operations on security keys.
  */
-import 'chrome://resources/cr_elements/cr_link_row/cr_link_row.js';
+import 'decentr://resources/cr_elements/cr_link_row/cr_link_row.js';
 import '../settings_shared_css.js';
 import './security_keys_credential_management_dialog.js';
 import './security_keys_bio_enroll_dialog.js';
 import './security_keys_set_pin_dialog.js';
 import './security_keys_reset_dialog.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {focusWithoutInk} from 'chrome://resources/js/cr/ui/focus_without_ink.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {focusWithoutInk} from 'decentr://resources/js/cr/ui/focus_without_ink.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 

@@ -93,8 +93,8 @@ bool CastResourceDataSource::ShouldServiceRequest(
 
 std::string CastResourceDataSource::GetAccessControlAllowOriginForOrigin(
     const std::string& origin) {
-  // For now we give access for all "chrome://*" origins.
-  std::string allowed_origin_prefix = "chrome://";
+  // For now we give access for all "decentr://*" origins.
+  std::string allowed_origin_prefix = "decentr://";
   if (!base::StartsWith(origin, allowed_origin_prefix,
                         base::CompareCase::SENSITIVE)) {
     return "";

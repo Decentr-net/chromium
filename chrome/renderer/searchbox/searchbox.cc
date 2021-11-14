@@ -117,8 +117,8 @@ bool ParseFrameIdAndRestrictedId(const std::string& id_part,
 
 // Takes a favicon |url| that looks like:
 //
-//   chrome-search://favicon/<frame_id>/<restricted_id>
-//   chrome-search://favicon/<parameters>/<frame_id>/<restricted_id>
+//   decentr-search://favicon/<frame_id>/<restricted_id>
+//   decentr-search://favicon/<parameters>/<frame_id>/<restricted_id>
 //
 // If successful, assigns |*param_part| := "" or "<parameters>/" (note trailing
 // slash), |*frame_id| := "<frame_id>", |*rid| := "rid", and returns true.
@@ -161,11 +161,11 @@ void TranslateIconRestrictedUrl(const GURL& transient_url,
   if (!internal::ParseIconRestrictedUrl(transient_url, &params, &frame_id,
                                         &rid) ||
       frame_id != helper.GetMainFrameID()) {
-    *url = GURL(base::StringPrintf("chrome-search://%s/",
+    *url = GURL(base::StringPrintf("decentr-search://%s/",
                                    chrome::kChromeUIFaviconHost));
   } else {
     std::string item_url = helper.GetURLStringFromRestrictedID(rid);
-    *url = GURL(base::StringPrintf("chrome-search://%s/%s%s",
+    *url = GURL(base::StringPrintf("decentr-search://%s/%s%s",
                                    chrome::kChromeUIFaviconHost, params.c_str(),
                                    item_url.c_str()));
   }

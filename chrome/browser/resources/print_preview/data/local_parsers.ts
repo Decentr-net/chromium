@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS, isLacros} from 'chrome://resources/js/cr.m.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS, isLacros} from 'decentr://resources/js/cr.m.js';
 
 import {Destination, DestinationConnectionStatus, DestinationOptionalParams, DestinationOrigin, DestinationProvisionalType, DestinationType} from './destination.js';
 import {PrinterType} from './destination_match.js';

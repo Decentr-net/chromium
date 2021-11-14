@@ -45,7 +45,7 @@ class MockPromptDelegate
   MOCK_METHOD0(OnSettingsPageIsActiveTab, void());
 };
 
-// The reboot flow requires loading chrome://settings/cleanup, which only
+// The reboot flow requires loading decentr://settings/cleanup, which only
 // exists on the Google-branded browser.
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 

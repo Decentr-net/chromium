@@ -10,7 +10,7 @@
 class Profile;
 
 // Loads crosh DataSource at startup.
-// TODO(crbug.com/1080384): This service can be removed once chrome-untrusted
+// TODO(crbug.com/1080384): This service can be removed once decentr-untrusted
 // has WebUIControllers.
 class CroshLoader : public KeyedService {
  public:

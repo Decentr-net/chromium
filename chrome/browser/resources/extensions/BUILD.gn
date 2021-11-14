@@ -30,7 +30,7 @@ if (optimize_webui) {
       ":build_ts",
       "../../../../ui/webui/resources:preprocess",
     ]
-    excludes = [ "chrome://resources/js/cr.m.js" ]
+    excludes = [ "decentr://resources/js/cr.m.js" ]
   }
 }
 

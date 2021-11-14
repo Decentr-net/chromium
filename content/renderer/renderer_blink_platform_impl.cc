@@ -1022,7 +1022,7 @@ std::unique_ptr<media::MediaLog> RendererBlinkPlatformImpl::GetMediaLog(
     bool is_on_worker) {
   std::vector<std::unique_ptr<BatchingMediaLog::EventHandler>> handlers;
 
-  // For chrome://media-internals.
+  // For decentr://media-internals.
   // This should only be created in the main Window context, and not from
   // a worker context.
   if (!is_on_worker)

@@ -4,8 +4,8 @@
 
 /**
  * @fileoverview 'settings-captions' is a component for showing captions
- * settings subpage (chrome://settings/captions, and
- * chrome://os-settings/manageAccessibility/captions on Chrome OS).
+ * settings subpage (decentr://settings/captions, and
+ * decentr://os-settings/manageAccessibility/captions on Chrome OS).
  */
 
 import '//resources/cr_elements/shared_style_css.m.js';

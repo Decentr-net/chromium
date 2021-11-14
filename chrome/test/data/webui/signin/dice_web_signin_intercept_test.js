@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {DiceWebSigninInterceptAppElement} from 'chrome://signin-dice-web-intercept/dice_web_signin_intercept_app.js';
-import {DiceWebSigninInterceptBrowserProxyImpl} from 'chrome://signin-dice-web-intercept/dice_web_signin_intercept_browser_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {DiceWebSigninInterceptAppElement} from 'decentr://signin-dice-web-intercept/dice_web_signin_intercept_app.js';
+import {DiceWebSigninInterceptBrowserProxyImpl} from 'decentr://signin-dice-web-intercept/dice_web_signin_intercept_browser_proxy.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {isChildVisible, waitAfterNextRender} from '../test_util.js';
@@ -24,9 +24,9 @@ suite('DiceWebSigninInterceptTest', function() {
   let browserProxy;
 
   /** @type {string} */
-  const AVATAR_URL_1 = 'chrome://theme/IDR_PROFILE_AVATAR_1';
+  const AVATAR_URL_1 = 'decentr://theme/IDR_PROFILE_AVATAR_1';
   /** @type {string} */
-  const AVATAR_URL_2 = 'chrome://theme/IDR_PROFILE_AVATAR_2';
+  const AVATAR_URL_2 = 'decentr://theme/IDR_PROFILE_AVATAR_2';
 
   setup(async function() {
     browserProxy = new TestDiceWebSigninInterceptBrowserProxy();

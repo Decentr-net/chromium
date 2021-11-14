@@ -18,7 +18,7 @@ class Profile;
 
 namespace syncfs_internals {
 
-// This class handles messages from WebUI page of chrome://syncfs-internals/
+// This class handles messages from WebUI page of decentr://syncfs-internals/
 // for the File Metadata tab. It corresponds to browser/resources/
 // sync_file_system_internals/file_metadata.html. All methods in this class
 // should be called on UI thread.

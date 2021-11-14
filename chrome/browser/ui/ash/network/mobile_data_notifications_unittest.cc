@@ -39,7 +39,7 @@ const char kCellularDevicePath[] = "/device/stub_cellular_device1";
 const char kCellularServicePath[] = "/service/cellular1";
 const char kCellularGuid[] = "cellular1_guid";
 
-const char kNotificationId[] = "chrome://settings/internet/mobile_data";
+const char kNotificationId[] = "decentr://settings/internet/mobile_data";
 const char kTestUserName[] = "test-user@example.com";
 
 class NetworkConnectTestDelegate : public chromeos::NetworkConnect::Delegate {

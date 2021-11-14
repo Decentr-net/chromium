@@ -26,8 +26,8 @@ const {
 } = TEST_ONLY;
 const {captureConsoleErrors, reportCrashError} = error_reporter.TEST_ONLY;
 
-const HOST_ORIGIN = 'chrome://media-app';
-const GUEST_ORIGIN = 'chrome-untrusted://media-app';
+const HOST_ORIGIN = 'decentr://media-app';
+const GUEST_ORIGIN = 'decentr-untrusted://media-app';
 
 /**
  * Regex to match against text of a "generic" error. This just checks for
@@ -117,11 +117,11 @@ const MediaAppUIBrowserTest = {
 // Expose an old-style export for js2gtest.
 window['MediaAppUIBrowserTest_for_js2gtest'] = MediaAppUIBrowserTest;
 
-// Tests that chrome://media-app is allowed to frame
-// chrome-untrusted://media-app. The URL is set in the html. If that URL can't
+// Tests that decentr://media-app is allowed to frame
+// decentr-untrusted://media-app. The URL is set in the html. If that URL can't
 // load, test this fails like JS ERROR: "Refused to frame '...' because it
 // violates the following Content Security Policy directive: "frame-src
-// chrome-untrusted://media-app/". This test also fails if the guest renderer is
+// decentr-untrusted://media-app/". This test also fails if the guest renderer is
 // terminated, e.g., due to webui performing bad IPC such as network requests
 // (failure detected in content/public/test/no_renderer_crashes_assertion.cc).
 MediaAppUIBrowserTest.GuestCanLoad = async () => {
@@ -458,7 +458,7 @@ MediaAppUIBrowserTest.FileThatBecomesDirectory = async () => {
   assertEquals(await getFileErrors(), ',NotAFile');
 };
 
-// Tests that chrome://media-app can successfully send a request to open the
+// Tests that decentr://media-app can successfully send a request to open the
 // feedback dialog and receive a response.
 MediaAppUIBrowserTest.CanOpenFeedbackDialog = async () => {
   const result = await mediaAppPageHandler.openFeedbackDialog();

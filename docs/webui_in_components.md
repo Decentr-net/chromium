@@ -12,7 +12,7 @@
 
 # Creating WebUI Interfaces in `components/`
 
-To create a WebUI interface in `components/` you need to follow different steps from [Creating WebUI Interfaces in `chrome/`](https://www.chromium.org/developers/webui). This guide is specific to creating a WebUI interface in `src/components/`. It is based on the steps I went through to create the WebUI infrastructure for chrome://safe-browsing in 'src/components/safe_browsing/content/browser/web_ui/'.
+To create a WebUI interface in `components/` you need to follow different steps from [Creating WebUI Interfaces in `chrome/`](https://www.chromium.org/developers/webui). This guide is specific to creating a WebUI interface in `src/components/`. It is based on the steps I went through to create the WebUI infrastructure for decentr://safe-browsing in 'src/components/safe_browsing/content/browser/web_ui/'.
 
 [TOC]
 
@@ -29,10 +29,10 @@ WebUI resources in `components/` will be added in your specific project folder. 
  <meta charset="utf-8">
  <title>$i18n{helloWorldTitle}</title>
  <link rel="stylesheet" href="hello_world.css">
- <script src="chrome://resources/js/cr.js"></script>
- <script src="chrome://resources/js/load_time_data.js"></script>
- <script src="chrome://resources/js/assert.js"></script>
- <script src="chrome://resources/js/util.js"></script>
+ <script src="decentr://resources/js/cr.js"></script>
+ <script src="decentr://resources/js/load_time_data.js"></script>
+ <script src="decentr://resources/js/assert.js"></script>
+ <script src="decentr://resources/js/util.js"></script>
  <script src="strings.js"></script>
  <script src="hello_world.js"></script>
 </head>
@@ -98,7 +98,7 @@ Create the `constants.cc` and `constants.h` files to add the URL constants. This
 
 `src/components/hello_world/constants.cc:`
 ```c++
-const char kChromeUIHelloWorldURL[] = "chrome://hello-world/";
+const char kChromeUIHelloWorldURL[] = "decentr://hello-world/";
 const char kChromeUIHelloWorldHost[] = "hello-world";
 ```
 
@@ -126,7 +126,7 @@ Add the created file in `components/components_strings.grd`:
 +<part file="hello_world_strings.grdp" />
 ```
 
-## Adding a WebUI class for handling requests to the chrome://hello-world/ URL
+## Adding a WebUI class for handling requests to the decentr://hello-world/ URL
 
 Next we need a class to handle requests to this new resource URL. Typically this will subclass `ChromeWebUI` (but WebUI dialogs should subclass `HtmlDialogUI` instead).
 
@@ -139,7 +139,7 @@ Next we need a class to handle requests to this new resource URL. Typically this
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The WebUI for chrome://hello-world
+// The WebUI for decentr://hello-world
 class HelloWorldUI : public content::WebUIController {
  public:
   explicit HelloWorldUI(content::WebUI* web_ui);
@@ -167,7 +167,7 @@ class HelloWorldUI : public content::WebUIController {
 
 HelloWorldUI::HelloWorldUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
-  // Set up the chrome://hello-world source.
+  // Set up the decentr://hello-world source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIHelloWorldHost);
 
@@ -228,7 +228,7 @@ The Chrome WebUI factory is where you setup your new request handler.
 
 ## Testing
 
-You're done! Assuming no errors (because everyone gets their code perfect the first time) you should be able to compile and run chrome and navigate to `chrome://hello-world/` and see your nifty welcome text!
+You're done! Assuming no errors (because everyone gets their code perfect the first time) you should be able to compile and run chrome and navigate to `decentr://hello-world/` and see your nifty welcome text!
 
 ## Adding a callback handler
 
@@ -239,9 +239,9 @@ You probably want your new WebUI page to be able to do something or get informat
 #include "base/values.h"
 #include "content/public/browser/web_ui.h"
 
-// The WebUI for chrome://hello-world
+// The WebUI for decentr://hello-world
 ...
-    // Set up the chrome://hello-world source.
+    // Set up the decentr://hello-world source.
     content::WebUIDataSource* html_source = content::WebUIDataSource::Create(hello_world::kChromeUIHelloWorldHost);
 +
 +   // Register callback handler.
@@ -305,7 +305,7 @@ Some pages have many messages or share code that sends messages. To make possibl
 
 ## DevUI Pages
 
-DevUI pages are WebUI pages intended for developers, and unlikely used by most users. An example is `chrome://bluetooth-internals`. On Android Chrome, these pages are moved to a separate [Dynamic Feature Module (DFM)](https://chromium.googlesource.com/chromium/src/+/main/docs/android_dynamic_feature_modules.md) to reduce binary size. Most WebUI pages are DevUI. This is why in this doc uses `dev_ui_components_resources.{grd, h}` in its examples.
+DevUI pages are WebUI pages intended for developers, and unlikely used by most users. An example is `decentr://bluetooth-internals`. On Android Chrome, these pages are moved to a separate [Dynamic Feature Module (DFM)](https://chromium.googlesource.com/chromium/src/+/main/docs/android_dynamic_feature_modules.md) to reduce binary size. Most WebUI pages are DevUI. This is why in this doc uses `dev_ui_components_resources.{grd, h}` in its examples.
 
 `components/` resources that are intended for end users are associated with `components_resources.{grd, h}` and `components_scaled_resorces.{grd, h}`. Use these in place of or inadditional to `dev_ui_components_resources.{grd, h}` if needed.
 

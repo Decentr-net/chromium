@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://settings/lazy_load.js';
+import 'decentr://settings/lazy_load.js';
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {PasswordManagerImpl, routes} from 'chrome://settings/settings.js';
-import {createPasswordEntry} from 'chrome://test/settings/passwords_and_autofill_fake_data.js';
-import {TestPasswordManagerProxy} from 'chrome://test/settings/test_password_manager_proxy.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {PasswordManagerImpl, routes} from 'decentr://settings/settings.js';
+import {createPasswordEntry} from 'decentr://test/settings/passwords_and_autofill_fake_data.js';
+import {TestPasswordManagerProxy} from 'decentr://test/settings/test_password_manager_proxy.js';
 
 /** @type {PasswordsSectionElement}*/
 let passwordsSection = null;

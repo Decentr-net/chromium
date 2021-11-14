@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 This file aggregates resource GRDPs for user-facing features under /components.
-Resources for developer-facing chrome:// pages should be aggregated in
+Resources for developer-facing decentr:// pages should be aggregated in
 dev_ui_components_resources.grd.
 -->
 <grit latest_public_release="0" current_release="1" output_all_resource_defines="false">

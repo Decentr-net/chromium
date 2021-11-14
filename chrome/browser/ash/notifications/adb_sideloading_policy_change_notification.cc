@@ -23,11 +23,11 @@
 
 namespace {
 constexpr char kAdbSideloadingDisallowedNotificationId[] =
-    "chrome://adb_sideloading_disallowed";
+    "decentr://adb_sideloading_disallowed";
 constexpr char kAdbSideloadingPowerwashPlannedNotificationId[] =
-    "chrome://adb_sideloading_powerwash_planned";
+    "decentr://adb_sideloading_powerwash_planned";
 constexpr char kAdbSideloadingPowerwashOnRebootNotificationId[] =
-    "chrome://adb_sideloading_powerwash_on_reboot";
+    "decentr://adb_sideloading_powerwash_on_reboot";
 }  // namespace
 
 namespace ash {

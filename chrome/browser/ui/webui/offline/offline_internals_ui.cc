@@ -18,7 +18,7 @@
 
 OfflineInternalsUI::OfflineInternalsUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
-  // chrome://offline-internals source.
+  // decentr://offline-internals source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIOfflineInternalsHost);
 

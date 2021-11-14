@@ -123,7 +123,7 @@ class ChromeOSTermsTest : public testing::Test {
     content::WebContents::Getter wc_getter;
     tested_html_source_->StartDataRequest(
         GURL(base::StrCat(
-            {"chrome://", chrome::kChromeUITermsHost, "/", request_url})),
+            {"decentr://", chrome::kChromeUITermsHost, "/", request_url})),
         std::move(wc_getter),
         base::BindOnce(&TestDataReceiver::OnDataReceived,
                        base::Unretained(data_receiver)));

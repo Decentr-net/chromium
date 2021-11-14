@@ -59,8 +59,8 @@ class CONTENT_EXPORT GeneratedCodeCache {
     // WebAssembly programs are very large.
     kWebAssembly,
 
-    // JavaScript from chrome and chrome-untrusted pages. The resource URLs are
-    // limited to only those fetched via chrome and chrome-untrusted schemes.
+    // JavaScript from chrome and decentr-untrusted pages. The resource URLs are
+    // limited to only those fetched via chrome and decentr-untrusted schemes.
     // The cache size is limited to disk_cache::kMaxWebUICodeCacheSize.
     // Deduplication of very large items is disabled in this cache.
     kWebUIJavaScript,

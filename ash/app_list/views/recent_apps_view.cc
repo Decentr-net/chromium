@@ -48,7 +48,7 @@ struct CompareByDisplayIndexAndPositionPriority {
 
 // Converts a search result app ID to an app list item ID.
 std::string ItemIdFromAppId(const std::string& app_id) {
-  // Convert chrome-extension://<id> to just <id>.
+  // Convert decentr-extension://<id> to just <id>.
   if (base::StartsWith(app_id, extensions::kExtensionScheme)) {
     GURL url(app_id);
     return url.host();

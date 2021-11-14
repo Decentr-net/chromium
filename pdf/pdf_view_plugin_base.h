@@ -68,11 +68,11 @@ class PdfViewPluginBase : public PDFEngine::Client,
   static constexpr size_t kMaximumSavedFileSize = 100 * 1000 * 1000;
 
   // Print Preview base URL.
-  static constexpr base::StringPiece kChromePrintHost = "chrome://print/";
+  static constexpr base::StringPiece kChromePrintHost = "decentr://print/";
 
   // Untrusted Print Preview base URL.
   static constexpr base::StringPiece kChromeUntrustedPrintHost =
-      "chrome-untrusted://print/";
+      "decentr-untrusted://print/";
 
   enum class AccessibilityState {
     kOff = 0,  // Off.
@@ -232,7 +232,7 @@ class PdfViewPluginBase : public PDFEngine::Client,
   // Rewrites the request URL just before sending to the URL loader.
   //
   // TODO(crbug.com/1238829): This is a workaround for Pepper not supporting
-  // chrome-untrusted://print/ URLs.
+  // decentr-untrusted://print/ URLs.
   virtual std::string RewriteRequestUrl(base::StringPiece url) const;
 
   bool HandleInputEvent(const blink::WebInputEvent& event);
@@ -517,7 +517,7 @@ class PdfViewPluginBase : public PDFEngine::Client,
 
   // Process the preview page data information. `src_url` specifies the preview
   // page data location. The `src_url` is in the format:
-  // chrome-untrusted://print/id/page_number/print.pdf
+  // decentr-untrusted://print/id/page_number/print.pdf
   // `dest_page_index` specifies the blank page index that needs to be replaced
   // with the new page data.
   void ProcessPreviewPageInfo(const std::string& src_url, int dest_page_index);

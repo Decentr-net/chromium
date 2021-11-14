@@ -5141,7 +5141,7 @@ TEST_F(CookieMonsterTest, CookieSourceSchemeNameHistogram) {
       {CookieSourceSchemeName::kHttpScheme, url::kHttpScheme},
       {CookieSourceSchemeName::kWssScheme, url::kWssScheme},
       {CookieSourceSchemeName::kWsScheme, url::kWsScheme},
-      {CookieSourceSchemeName::kChromeExtensionScheme, "chrome-extension"},
+      {CookieSourceSchemeName::kChromeExtensionScheme, "decentr-extension"},
       {CookieSourceSchemeName::kFileScheme, url::kFileScheme},
       {CookieSourceSchemeName::kQuicTransportScheme, url::kQuicTransportScheme},
       {CookieSourceSchemeName::kOther, "abcd1234"}};

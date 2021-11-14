@@ -7,8 +7,8 @@
  * DiscoveryManager which allows interaction with native code.
  */
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/unguessable_token.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/unguessable_token.mojom-lite.js';
 import './mojo/nearby_share_target_types.mojom-lite.js';
 import './mojo/nearby_share_share_type.mojom-lite.js';
 import './mojo/nearby_share.mojom-lite.js';

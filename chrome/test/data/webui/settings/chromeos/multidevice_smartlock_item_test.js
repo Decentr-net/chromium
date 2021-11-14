@@ -3,17 +3,17 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
 // #import {TestLifetimeBrowserProxy} from './test_os_lifetime_browser_proxy.m.js';
-// #import {MultiDeviceSettingsMode, MultiDeviceFeature, MultiDeviceFeatureState, MultiDevicePageContentData, MultiDeviceBrowserProxyImpl, Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {MultiDeviceSettingsMode, MultiDeviceFeature, MultiDeviceFeatureState, MultiDevicePageContentData, MultiDeviceBrowserProxyImpl, Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {TestOsResetBrowserProxy} from './test_os_reset_browser_proxy.m.js';
 // #import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {TestMultideviceBrowserProxy, createFakePageContentData, HOST_DEVICE} from './test_multidevice_browser_proxy.m.js';
-// #import {isChildVisible, waitAfterNextRender} from 'chrome://test/test_util.js';
-// import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {isChildVisible, waitAfterNextRender} from 'decentr://test/test_util.js';
+// import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // clang-format on
 
 suite('Multidevice', function() {

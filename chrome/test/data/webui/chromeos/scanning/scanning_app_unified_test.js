@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 // TODO(crbug/1004256): Use es6 module for mojo binding.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/unguessable_token.mojom-lite.js';
-import 'chrome://scanning/file_path.mojom-lite.js';
-import 'chrome://scanning/scanning.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/unguessable_token.mojom-lite.js';
+import 'decentr://scanning/file_path.mojom-lite.js';
+import 'decentr://scanning/scanning.mojom-lite.js';
 
 import {actionToolbarTest} from './action_toolbar_test.js';
 import {colorModeSelectTest} from './color_mode_select_test.js';

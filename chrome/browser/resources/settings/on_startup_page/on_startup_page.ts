@@ -6,8 +6,8 @@
  * @fileoverview
  * 'settings-on-startup-page' is a settings page.
  */
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
 import '../controls/controlled_radio_button.js';
 import '../controls/extension_controlled_indicator.js';
 import '../controls/settings_radio_group.js';
@@ -15,8 +15,8 @@ import './startup_urls_page.js';
 import '../i18n_setup.js';
 import '../settings_shared_css.js';
 
-import {WebUIListenerMixin} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {WebUIListenerMixin} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {NtpExtension, OnStartupBrowserProxyImpl} from './on_startup_browser_proxy.js';
 

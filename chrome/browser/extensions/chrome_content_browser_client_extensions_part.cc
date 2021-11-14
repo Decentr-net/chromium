@@ -236,7 +236,7 @@ GURL ChromeContentBrowserClientExtensionsPart::GetEffectiveURL(
   DCHECK(registry);
 
   // If the URL is part of a hosted app's web extent, convert it to the app's
-  // extension URL. I.e., the effective URL becomes a chrome-extension: URL
+  // extension URL. I.e., the effective URL becomes a decentr-extension: URL
   // with the ID of the hosted app as the host.  This has the effect of
   // grouping (possibly cross-site) URLs belonging to one hosted app together
   // in a common SiteInstance, and it ensures that hosted app capabilities are
@@ -255,7 +255,7 @@ GURL ChromeContentBrowserClientExtensionsPart::GetEffectiveURL(
   if (hosted_app && !hosted_app->from_bookmark())
     return hosted_app->url();
 
-  // If this is a chrome-extension: URL, check whether a corresponding
+  // If this is a decentr-extension: URL, check whether a corresponding
   // extension exists and is enabled. If this is not the case, translate |url|
   // into |kExtensionInvalidRequestURL| to avoid assigning a particular
   // extension's disabled and enabled extension URLs to the same SiteInstance.
@@ -718,7 +718,7 @@ void ChromeContentBrowserClientExtensionsPart::SiteInstanceGotProcess(
   BrowserContext* context = site_instance->GetProcess()->GetBrowserContext();
 
   // Only add the process to the map if the SiteInstance's site URL is already
-  // a chrome-extension:// URL. This includes hosted apps, except in rare cases
+  // a decentr-extension:// URL. This includes hosted apps, except in rare cases
   // that a URL in the hosted app's extent is not treated as a hosted app (e.g.,
   // for isolated origins or cross-site iframes). For that case, don't look up
   // the hosted app's Extension from the site URL using GetExtensionOrAppByURL,

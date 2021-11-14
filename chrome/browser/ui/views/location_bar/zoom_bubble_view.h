@@ -151,7 +151,7 @@ class ZoomBubbleView : public LocationBarBubbleDelegateView,
 
   // Image button in the zoom bubble that will show the |extension_icon_| image
   // if an extension initiated the zoom change, and links to that extension at
-  // "chrome://extensions".
+  // "decentr://extensions".
   views::ImageButton* image_button_ = nullptr;
 
   // Label displaying the zoom percentage.

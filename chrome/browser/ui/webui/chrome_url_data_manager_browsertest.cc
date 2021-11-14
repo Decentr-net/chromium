@@ -110,14 +110,14 @@ IN_PROC_BROWSER_TEST_F(ChromeURLDataManagerTest, UnknownResource) {
   NavigationObserver observer(
       browser()->tab_strip_model()->GetActiveWebContents());
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://theme/IDR_SETTINGS_FAVICON")));
+      browser(), GURL("decentr://theme/IDR_SETTINGS_FAVICON")));
   EXPECT_EQ(NavigationObserver::SUCCESS, observer.navigation_result());
   EXPECT_EQ(net::OK, observer.net_error());
 
   // Unknown resource
   observer.Reset();
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://theme/IDR_ASDFGHJKL")));
+      browser(), GURL("decentr://theme/IDR_ASDFGHJKL")));
   EXPECT_EQ(NavigationObserver::ERROR_PAGE, observer.navigation_result());
   // The presence of net error means that navigation did not commit to the
   // original url.
@@ -130,14 +130,14 @@ IN_PROC_BROWSER_TEST_F(ChromeURLDataManagerTest, LargeResourceScale) {
   NavigationObserver observer(
       browser()->tab_strip_model()->GetActiveWebContents());
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://theme/IDR_SETTINGS_FAVICON@2x")));
+      browser(), GURL("decentr://theme/IDR_SETTINGS_FAVICON@2x")));
   EXPECT_EQ(NavigationObserver::SUCCESS, observer.navigation_result());
   EXPECT_EQ(net::OK, observer.net_error());
 
   // Unreasonably large scale
   observer.Reset();
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://theme/IDR_SETTINGS_FAVICON@99999x")));
+      browser(), GURL("decentr://theme/IDR_SETTINGS_FAVICON@99999x")));
   EXPECT_EQ(NavigationObserver::ERROR_PAGE, observer.navigation_result());
   // The presence of net error means that navigation did not commit to the
   // original url.
@@ -151,7 +151,7 @@ class ChromeURLDataManagerWebUITrustedTypesTest
   ChromeURLDataManagerWebUITrustedTypesTest() {
     std::vector<base::Feature> enabled_features;
 #if !BUILDFLAG(IS_CHROMEOS_ASH)
-    if (GetParam() == std::string("chrome://welcome"))
+    if (GetParam() == std::string("decentr://welcome"))
       enabled_features.push_back(welcome::kForceEnabled);
 #endif
     enabled_features.push_back(media::kUseMediaHistoryStore);
@@ -170,7 +170,7 @@ class ChromeURLDataManagerWebUITrustedTypesTest
     ASSERT_TRUE(embedded_test_server()->Start());
     ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL(url)));
 
-    if (url == "chrome://network-error" || url == "chrome://dino") {
+    if (url == "decentr://network-error" || url == "decentr://dino") {
       // We don't ASSERT_TRUE here because some WebUI pages are
       // PAGE_TYPE_ERROR by design.
       content::WaitForLoadStop(content);
@@ -196,158 +196,158 @@ class ChromeURLDataManagerWebUITrustedTypesTest
 #endif
 };
 
-// Verify that there's no Trusted Types violation in chrome://chrome-urls
+// Verify that there's no Trusted Types violation in decentr://chrome-urls
 IN_PROC_BROWSER_TEST_P(ChromeURLDataManagerWebUITrustedTypesTest,
                        NoTrustedTypesViolation) {
   CheckTrustedTypesViolation(GetParam());
 }
 
-// Non-exhaustive list of chrome:// URLs to test for trusted types violations.
-// This list was derived from chrome://about. :)
+// Non-exhaustive list of decentr:// URLs to test for trusted types violations.
+// This list was derived from decentr://about. :)
 static constexpr const char* const kChromeUrls[] = {
-    "chrome://accessibility",
+    "decentr://accessibility",
     // TODO(crbug.com/1114074): DCHECK failure when opening
-    // chrome://appcache-internals.
-    // "chrome://appcache-internals",
-    "chrome://autofill-internals",
-    "chrome://blob-internals",
-    "chrome://bookmarks",
-    "chrome://chrome-urls",
-    "chrome://components",
-    "chrome://connection-help",
-    "chrome://connection-monitoring-detected",
-    "chrome://conversion-internals",
-    "chrome://crashes",
-    "chrome://credits",
-    "chrome://device-log",
-    "chrome://dino",
+    // decentr://appcache-internals.
+    // "decentr://appcache-internals",
+    "decentr://autofill-internals",
+    "decentr://blob-internals",
+    "decentr://bookmarks",
+    "decentr://chrome-urls",
+    "decentr://components",
+    "decentr://connection-help",
+    "decentr://connection-monitoring-detected",
+    "decentr://conversion-internals",
+    "decentr://crashes",
+    "decentr://credits",
+    "decentr://device-log",
+    "decentr://dino",
     // TODO(crbug.com/1113446): Test failure due to excessive output.
-    // "chrome://discards",
-    "chrome://domain-reliability-internals",
-    "chrome://download-internals",
-    "chrome://downloads",
-    "chrome://extensions",
-    "chrome://extensions-internals",
-    "chrome://flags",
-    "chrome://gcm-internals",
-    "chrome://gpu",
-    "chrome://histograms",
-    "chrome://history",
-    "chrome://identity-internals",
-    "chrome://indexeddb-internals",
-    "chrome://inspect",
-    "chrome://interstitials/ssl",
-    "chrome://invalidations",
-    "chrome://local-state",
-    "chrome://management",
-    "chrome://media-engagement",
-    "chrome://media-history",
-    "chrome://media-internals",
-    "chrome://media-router-internals",
+    // "decentr://discards",
+    "decentr://domain-reliability-internals",
+    "decentr://download-internals",
+    "decentr://downloads",
+    "decentr://extensions",
+    "decentr://extensions-internals",
+    "decentr://flags",
+    "decentr://gcm-internals",
+    "decentr://gpu",
+    "decentr://histograms",
+    "decentr://history",
+    "decentr://identity-internals",
+    "decentr://indexeddb-internals",
+    "decentr://inspect",
+    "decentr://interstitials/ssl",
+    "decentr://invalidations",
+    "decentr://local-state",
+    "decentr://management",
+    "decentr://media-engagement",
+    "decentr://media-history",
+    "decentr://media-internals",
+    "decentr://media-router-internals",
     // TODO(crbug.com/1217395): DCHECK failure
-    // "chrome://memory-internals",
-    "chrome://net-export",
-    "chrome://net-internals",
-    "chrome://network-error",
-    "chrome://network-errors",
-    "chrome://new-tab-page",
-    "chrome://newtab",
-    "chrome://ntp-tiles-internals",
-    "chrome://omnibox",
-    "chrome://password-manager-internals",
-    "chrome://policy",
-    "chrome://predictors",
-    "chrome://prefs-internals",
-    "chrome://print",
-    "chrome://process-internals",
-    "chrome://quota-internals",
-    "chrome://reset-password",
-    "chrome://safe-browsing",
-    "chrome://serviceworker-internals",
-    "chrome://settings",
+    // "decentr://memory-internals",
+    "decentr://net-export",
+    "decentr://net-internals",
+    "decentr://network-error",
+    "decentr://network-errors",
+    "decentr://new-tab-page",
+    "decentr://newtab",
+    "decentr://ntp-tiles-internals",
+    "decentr://omnibox",
+    "decentr://password-manager-internals",
+    "decentr://policy",
+    "decentr://predictors",
+    "decentr://prefs-internals",
+    "decentr://print",
+    "decentr://process-internals",
+    "decentr://quota-internals",
+    "decentr://reset-password",
+    "decentr://safe-browsing",
+    "decentr://serviceworker-internals",
+    "decentr://settings",
     // TODO(crbug.com/1115600): DCHECK failure when opening
-    // chrome://signin-dice-web-intercept.
-    // "chrome://signin-dice-web-intercept",
-    "chrome://signin-internals",
-    "chrome://site-engagement",
-    // TODO(crbug.com/1099564): Navigating to chrome://sync-confirmation and
+    // decentr://signin-dice-web-intercept.
+    // "decentr://signin-dice-web-intercept",
+    "decentr://signin-internals",
+    "decentr://site-engagement",
+    // TODO(crbug.com/1099564): Navigating to decentr://sync-confirmation and
     // quickly navigating away cause DCHECK failure.
-    // "chrome://sync-confirmation",
-    "chrome://sync-internals",
-    "chrome://syncfs-internals",
-    "chrome://system",
-    // TODO(crbug.com/1099565): Navigating to chrome://tab-strip and quickly
+    // "decentr://sync-confirmation",
+    "decentr://sync-internals",
+    "decentr://syncfs-internals",
+    "decentr://system",
+    // TODO(crbug.com/1099565): Navigating to decentr://tab-strip and quickly
     // navigating away cause DCHECK failure.
-    // "chrome://tab-strip",
-    "chrome://terms",
-    "chrome://tracing",
-    "chrome://translate-internals",
-    "chrome://ukm",
-    "chrome://usb-internals",
-    "chrome://user-actions",
-    "chrome://version",
-    "chrome://web-app-internals",
-    "chrome://webrtc-internals",
-    "chrome://webrtc-logs",
+    // "decentr://tab-strip",
+    "decentr://terms",
+    "decentr://tracing",
+    "decentr://translate-internals",
+    "decentr://ukm",
+    "decentr://usb-internals",
+    "decentr://user-actions",
+    "decentr://version",
+    "decentr://web-app-internals",
+    "decentr://webrtc-internals",
+    "decentr://webrtc-logs",
 #if defined(OS_ANDROID)
-    "chrome://explore-sites-internals",
-    "chrome://internals/notifications",
-    "chrome://internals/query-tiles",
-    "chrome://offline-internals",
-    "chrome://snippets-internals",
-    "chrome://webapks",
+    "decentr://explore-sites-internals",
+    "decentr://internals/notifications",
+    "decentr://internals/query-tiles",
+    "decentr://offline-internals",
+    "decentr://snippets-internals",
+    "decentr://webapks",
 #endif
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "chrome://account-manager-error",
-    "chrome://account-manager-welcome",
-    "chrome://account-migration-welcome",
-    "chrome://add-supervision",
+    "decentr://account-manager-error",
+    "decentr://account-manager-welcome",
+    "decentr://account-migration-welcome",
+    "decentr://add-supervision",
     // TODO(crbug.com/1102129): DCHECK failure in
     // ArcGraphicsTracingHandler::ArcGraphicsTracingHandler.
-    // "chrome://arc-graphics-tracing",
-    // "chrome://arc-overview-tracing",
-    "chrome://assistant-optin",
-    "chrome://bluetooth-pairing",
-    "chrome://certificate-manager",
-    "chrome://crostini-credits",
-    "chrome://crostini-installer",
-    "chrome://cryptohome",
-    "chrome://drive-internals",
-    "chrome://family-link-user-internals",
-    "chrome://help-app",
-    "chrome://internet-config-dialog",
-    "chrome://internet-detail-dialog",
-    "chrome://linux-proxy-config",
-    "chrome://multidevice-setup",
-    "chrome://network",
-    "chrome://oobe",
-    "chrome://os-credits",
-    "chrome://os-settings",
-    "chrome://power",
-    "chrome://proximity-auth/proximity_auth.html",
-    "chrome://set-time",
-    "chrome://slow",
-    "chrome://smb-credentials-dialog",
-    "chrome://smb-share-dialog",
-    "chrome://sys-internals",
-    "chrome-untrusted://terminal",
+    // "decentr://arc-graphics-tracing",
+    // "decentr://arc-overview-tracing",
+    "decentr://assistant-optin",
+    "decentr://bluetooth-pairing",
+    "decentr://certificate-manager",
+    "decentr://crostini-credits",
+    "decentr://crostini-installer",
+    "decentr://cryptohome",
+    "decentr://drive-internals",
+    "decentr://family-link-user-internals",
+    "decentr://help-app",
+    "decentr://internet-config-dialog",
+    "decentr://internet-detail-dialog",
+    "decentr://linux-proxy-config",
+    "decentr://multidevice-setup",
+    "decentr://network",
+    "decentr://oobe",
+    "decentr://os-credits",
+    "decentr://os-settings",
+    "decentr://power",
+    "decentr://proximity-auth/proximity_auth.html",
+    "decentr://set-time",
+    "decentr://slow",
+    "decentr://smb-credentials-dialog",
+    "decentr://smb-share-dialog",
+    "decentr://sys-internals",
+    "decentr-untrusted://terminal",
 #endif
 #if !defined(OS_CHROMEOS)
-    "chrome://apps",
-    "chrome://browser-switch",
+    "decentr://apps",
+    "decentr://browser-switch",
 #endif
 #if !BUILDFLAG(IS_CHROMEOS_ASH)
-    "chrome://signin-email-confirmation",
-    "chrome://welcome",
+    "decentr://signin-email-confirmation",
+    "decentr://welcome",
 #endif
 #if !defined(OS_MAC)
-    "chrome://sandbox",
-    "chrome://nacl",
+    "decentr://sandbox",
+    "decentr://nacl",
     // TODO(https://crbug.com/1219651): this test is flaky on mac.
-    "chrome://bluetooth-internals",
+    "decentr://bluetooth-internals",
 #endif
 #if defined(OS_WIN)
-    "chrome://conflicts",
+    "decentr://conflicts",
 #endif
 };
 

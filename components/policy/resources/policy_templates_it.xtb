@@ -516,7 +516,7 @@ Se disattivi questo criterio, lo scorrimento della pagina web ai frammenti di te
 <translation id="1620510694547887537">Fotocamera</translation>
 <translation id="1626379196197114720">Consenti uso della cache back-forward</translation>
 <translation id="1628974048137236820">La pagina Nuova scheda non mostra schede</translation>
-<translation id="1630263002012156148">Se il criterio viene impostato su Attivato, la pagina Nuova scheda viene impostata come pagina iniziale dell'utente e l'eventuale URL della pagina iniziale specificato viene ignorato. Se viene impostato su Disattivato, la pagina iniziale dell'utente non sarà mai la pagina Nuova scheda, a meno che chrome://newtab venga impostato come URL della pagina iniziale dell'utente.
+<translation id="1630263002012156148">Se il criterio viene impostato su Attivato, la pagina Nuova scheda viene impostata come pagina iniziale dell'utente e l'eventuale URL della pagina iniziale specificato viene ignorato. Se viene impostato su Disattivato, la pagina iniziale dell'utente non sarà mai la pagina Nuova scheda, a meno che decentr://newtab venga impostato come URL della pagina iniziale dell'utente.
 
       Se il criterio viene impostato, gli utenti non possono cambiare il tipo di pagina iniziale in <ph name="PRODUCT_NAME" />. Se non viene impostato, l'utente può decidere se impostare o meno la pagina Nuova scheda come pagina iniziale.
 
@@ -659,7 +659,7 @@ Se disattivi questo criterio, lo scorrimento della pagina web ai frammenti di te
 <translation id="1798559516913615713">Durata della cache del GPO</translation>
 <translation id="180130467244315277">Questo criterio consente agli amministratori di configurare l'ordine delle lingue preferite nelle impostazioni di <ph name="PRODUCT_NAME" />.
 
-      L'ordine dell'elenco sarà uguale a quello nella sezione "Ordina le lingue in base alle tue preferenze" della pagina chrome://settings/languages. Gli utenti non potranno rimuovere o cambiare l'ordine delle lingue impostate nel criterio, ma potranno aggiungere lingue sotto quelle impostate nel criterio. Gli utenti avranno inoltre il pieno controllo della lingua dell'interfaccia utente del browser e delle impostazioni di traduzione/controllo ortografico, a meno che non vengano applicate da altri criteri.
+      L'ordine dell'elenco sarà uguale a quello nella sezione "Ordina le lingue in base alle tue preferenze" della pagina decentr://settings/languages. Gli utenti non potranno rimuovere o cambiare l'ordine delle lingue impostate nel criterio, ma potranno aggiungere lingue sotto quelle impostate nel criterio. Gli utenti avranno inoltre il pieno controllo della lingua dell'interfaccia utente del browser e delle impostazioni di traduzione/controllo ortografico, a meno che non vengano applicate da altri criteri.
 
       Se il criterio non viene configurato, gli utenti possono modificare l'intero elenco di lingue preferite.</translation>
 <translation id="1803646570632580723">Elenco di applicazioni bloccate da visualizzare in Avvio applicazioni</translation>
@@ -1128,7 +1128,7 @@ Lasciare il criterio non impostato significa che nessuna estensione è esente da
 <translation id="2299220924812062390">Consente di specificare un elenco dei plug-in attivati</translation>
 <translation id="2301048990069984110">Estendi il supporto delle app di Chrome su Windows, Mac e Linux</translation>
 <translation id="2303795211377219696">Attiva la Compilazione automatica per le carte di credito</translation>
-<translation id="2304009805995145854">A partire da <ph name="PRODUCT_NAME" /> 67, l'isolamento dei siti è stato attivato per impostazione predefinita su tutte le piattaforme desktop, così che ogni sito venga eseguito nel proprio processo. Ogni sito è uno schema più eTLD+1 (ad es. https://example.com). Se il criterio viene impostato su Attivato, il comportamento non cambia; impedisce solo la disattivazione da parte degli utenti (ad esempio, utilizzando la voce "Disattiva l'isolamento dei siti" in chrome://flags). A partire da <ph name="PRODUCT_NAME" /> 76, se il criterio viene impostato su Disattivato o se non viene configurato, l'isolamento dei siti non viene disattivato, ma è consentita la disattivazione da parte degli utenti.
+<translation id="2304009805995145854">A partire da <ph name="PRODUCT_NAME" /> 67, l'isolamento dei siti è stato attivato per impostazione predefinita su tutte le piattaforme desktop, così che ogni sito venga eseguito nel proprio processo. Ogni sito è uno schema più eTLD+1 (ad es. https://example.com). Se il criterio viene impostato su Attivato, il comportamento non cambia; impedisce solo la disattivazione da parte degli utenti (ad esempio, utilizzando la voce "Disattiva l'isolamento dei siti" in decentr://flags). A partire da <ph name="PRODUCT_NAME" /> 76, se il criterio viene impostato su Disattivato o se non viene configurato, l'isolamento dei siti non viene disattivato, ma è consentita la disattivazione da parte degli utenti.
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> potrebbe anche essere utile per l'isolamento di origini specifiche a una granularità maggiore rispetto al sito (ad es. https://a.example.com).
 
@@ -3499,7 +3499,7 @@ Se questo criterio viene impostato su Falso, <ph name="PRODUCT_NAME" /> non util
       Se viene impostato su Disattivato, gli utenti non possono salvare le nuove password, ma quelle salvate in precedenza restano attive.
 
       Se il criterio viene configurato, gli utenti non possono modificarlo in <ph name="PRODUCT_NAME" />. Se non viene configurato, gli utenti possono disattivare il salvataggio delle password.</translation>
-<translation id="5239333626804545932">Se il criterio viene impostato su Attivato o se non viene configurato, Chrome Software Cleaner analizza periodicamente il sistema per individuare eventuale software indesiderato e, qualora fosse presente, chiede all'utente se vuole rimuoverlo. L'attivazione manuale di Chrome Software Cleaner da chrome://settings è consentita.
+<translation id="5239333626804545932">Se il criterio viene impostato su Attivato o se non viene configurato, Chrome Software Cleaner analizza periodicamente il sistema per individuare eventuale software indesiderato e, qualora fosse presente, chiede all'utente se vuole rimuoverlo. L'attivazione manuale di Chrome Software Cleaner da decentr://settings è consentita.
 
       Se il criterio viene impostato su Disattivato, Chrome Software Cleaner non esegue alcuna scansione periodica e l'attivazione manuale è disattivata.
 
@@ -4232,7 +4232,7 @@ Per ulteriori informazioni sui contesti sicuri, visita il sito https://www.w3.or
 
       Gli utenti possono attivare una finestra di dialogo per l'importazione e la casella di controllo dei dati di compilazione automatica dei moduli verrà selezionata o deselezionata in modo che corrisponda al valore del criterio.</translation>
 <translation id="614616930188030377">I pattern di questo elenco verranno confrontati con l'origine di sicurezza dell'URL richiedente.
-      Se viene trovata una corrispondenza o se chrome://flags/#enable-webrtc-hide-local-ips-with-mdns è disattivato, gli indirizzi IP locali vengono mostrati nei candidati ICE WebRTC.
+      Se viene trovata una corrispondenza o se decentr://flags/#enable-webrtc-hide-local-ips-with-mdns è disattivato, gli indirizzi IP locali vengono mostrati nei candidati ICE WebRTC.
       In caso contrario, gli indirizzi IP locali vengono nascosti tramite nomi host mDNS.
       Tieni presente che questo criterio riduce la sicurezza degli indirizzi IP locali se richiesto dagli amministratori.</translation>
 <translation id="614662973812186053">Questa norma controlla anche la raccolta dei dati diagnostici e sull'utilizzo di Android.</translation>
@@ -4466,12 +4466,12 @@ Per ulteriori informazioni sui contesti sicuri, visita il sito https://www.w3.or
 <translation id="645425387487868471">Attiva l'accesso forzato per <ph name="PRODUCT_NAME" /></translation>
 <translation id="6455842857207956758">Consente di attivare la sincronizzazione delle password SAML tra più dispositivi Chrome monitorando il valore del token di sincronizzazione delle password e facendo svolgere all'utente la procedura di riautenticazione online se la password è stata aggiornata e deve essere sincronizzata.
 
-      Consente di attivare all'indirizzo chrome://password-change una pagina che permette agli utenti SAML di cambiare le loro password SAML all'interno della sessione, il che assicura che le password SAML e quelle per la schermata di blocco del dispositivo rimangano sincronizzate.
+      Consente di attivare all'indirizzo decentr://password-change una pagina che permette agli utenti SAML di cambiare le loro password SAML all'interno della sessione, il che assicura che le password SAML e quelle per la schermata di blocco del dispositivo rimangano sincronizzate.
 
       Questo criterio inoltre consente le notifiche che avvisano gli utenti SAML se le loro password SAML stanno per scadere, in modo che possano organizzarsi immediatamente ed effettuare una modifica della password all'interno della sessione.
       Tuttavia, queste notifiche verranno mostrate solo se le informazioni sulla scadenza della password vengono inviate al dispositivo dal provider di identità SAML durante il flusso di accesso SAML.
 
-      Se questo criterio viene impostato su Disattivato o se non viene configurato, non è possibile modificare le password SAML all'indirizzo chrome://password-change e non verranno mostrate notifiche quando tali password stanno per scadere.</translation>
+      Se questo criterio viene impostato su Disattivato o se non viene configurato, non è possibile modificare le password SAML all'indirizzo decentr://password-change e non verranno mostrate notifiche quando tali password stanno per scadere.</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">Se il criterio viene impostato su Attivato o se non viene configurato, tutti gli utenti possono utilizzare <ph name="PRODUCT_CROSTINI_NAME" /> finché tutti e tre i criteri, <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" /> e <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> sono impostati su Attivato. Se il criterio viene impostato su Disattivato, gli utenti non affiliati non possono utilizzare <ph name="PRODUCT_CROSTINI_NAME" />. Impostando il criterio su Disattivato, questo viene applicato all'avvio di nuovi container <ph name="PRODUCT_CROSTINI_NAME" />, non a quelli già in esecuzione.</translation>
 <translation id="6464074037294098618">Attiva la Compilazione automatica per gli indirizzi</translation>
@@ -4539,7 +4539,7 @@ Per ulteriori informazioni sui contesti sicuri, visita il sito https://www.w3.or
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />, il rilevamento automatico del fuso orario rimane sempre attivo tramite l'invio continuo dell'elenco dei punti di accesso Wi-Fi visibili al server dell'API di geolocalizzazione per rilevare il fuso orario con precisione.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />, il rilevamento automatico del fuso orario rimane sempre attivo tramite l'invio continuo di informazioni sulla posizione (ad esempio, punti di accesso Wi-Fi, torri cellulari raggiungibili, GPS) a un server per rilevare il fuso orario con precisione.
 
-      Se il criterio non viene impostato, viene impostato su Consenti agli utenti di decidere o su Nessuno, gli utenti possono gestire il rilevamento automatico del fuso orario usando i normali controlli in chrome://settings.</translation>
+      Se il criterio non viene impostato, viene impostato su Consenti agli utenti di decidere o su Nessuno, gli utenti possono gestire il rilevamento automatico del fuso orario usando i normali controlli in decentr://settings.</translation>
 <translation id="6532769014584932288">Consenti i wakelock</translation>
 <translation id="6536600139108165863">Riavvia automaticamente allo spegnimento del dispositivo</translation>
 <translation id="6539246272469751178">Questa norma non influisce sulle app Android, che utilizzano sempre la directory per i download predefinita e non possono accedere ai file scaricati da <ph name="PRODUCT_OS_NAME" /> in una directory per i download non predefinita.</translation>
@@ -4769,7 +4769,7 @@ Per ulteriori informazioni sui contesti sicuri, visita il sito https://www.w3.or
 
       Se viene impostato su Disattivato, l'icona delle funzionalità sperimentali del browser viene rimossa dalla barra degli strumenti.
 
-      chrome://flags e qualsiasi altro metodo per attivare e disattivare le funzionalità del browser continueranno a comportarsi come previsto a prescindere dall'attivazione o meno di questo criterio.</translation>
+      decentr://flags e qualsiasi altro metodo per attivare e disattivare le funzionalità del browser continueranno a comportarsi come previsto a prescindere dall'attivazione o meno di questo criterio.</translation>
 <translation id="6794083666143216172">Consenti alle origini di richiedere gli attributi dei dispositivi</translation>
 <translation id="6795485990775913659">Consenti la stampa solo senza PIN</translation>
 <translation id="6800181452282128474">Non inviare query a Quirks Server</translation>
@@ -5447,7 +5447,7 @@ Per informazioni dettagliate sui pattern <ph name="URL_LABEL" /> validi, visita 
       Se la norma viene impostata su GAIA, l'accesso verrà eseguito tramite il normale flusso di autenticazione GAIA.
 
       Se viene impostata su SAML_INTERSTITIAL, durante l'accesso verrà mostrata una schermata interstitial che consentirà all'utente di procedere con l'autenticazione tramite l'IdP SAML del dominio di registrazione del dispositivo oppure di tornare al normale flusso di accesso GAIA.</translation>
-<translation id="7554382342294940216">Se il criterio viene impostato su Attivato, <ph name="PRODUCT_OS_NAME" /> può aggirare qualsiasi proxy per l'autenticazione captive portal. Queste pagine web di autenticazione, a partire dalla pagina di accesso al captive portal fino al rilevamento di una connessione a Internet attiva da parte di Chrome, si aprono in una finestra separata, ignorando tutte le impostazioni del criterio e le limitazioni relative all'utente corrente. Questo criterio viene applicato soltanto se viene configurato un proxy (tramite criterio, estensione o da parte dell'utente in chrome://settings).
+<translation id="7554382342294940216">Se il criterio viene impostato su Attivato, <ph name="PRODUCT_OS_NAME" /> può aggirare qualsiasi proxy per l'autenticazione captive portal. Queste pagine web di autenticazione, a partire dalla pagina di accesso al captive portal fino al rilevamento di una connessione a Internet attiva da parte di Chrome, si aprono in una finestra separata, ignorando tutte le impostazioni del criterio e le limitazioni relative all'utente corrente. Questo criterio viene applicato soltanto se viene configurato un proxy (tramite criterio, estensione o da parte dell'utente in decentr://settings).
 
       Se viene impostato su Disattivato o se non viene configurato, qualsiasi pagina di autenticazione captive portal viene visualizzata in una nuova scheda del browser standard, in base alle impostazioni del proxy dell'utente corrente.</translation>
 <translation id="7566878661979235378">Tipo di autenticazione per gli accessi SAML</translation>
@@ -5747,7 +5747,7 @@ Per informazioni dettagliate sui pattern <ph name="URL_LABEL" /> validi, visita 
 <translation id="7951605113561734721">Consente di specificare i certificati client a livello di dispositivo che dovrebbero essere registrati usando il protocollo di gestione del dispositivo.</translation>
 <translation id="7952007677054834789">Consente di configurare le pagine da caricare all'avvio, la pagina iniziale predefinita e la pagina Nuova scheda predefinita in <ph name="PRODUCT_NAME" />; inoltre, impedisce agli utenti di modificare queste impostazioni.
 
-      Le impostazioni della pagina iniziale dell'utente sono completamente bloccate se hai selezionato la pagina iniziale come pagina Nuova scheda oppure se hai specificato un URL che funga da pagina iniziale. Se non specifichi l'URL della pagina iniziale, l'utente può ancora impostare la pagina iniziale come pagina Nuova scheda se specifica "chrome://newtab".
+      Le impostazioni della pagina iniziale dell'utente sono completamente bloccate se hai selezionato la pagina iniziale come pagina Nuova scheda oppure se hai specificato un URL che funga da pagina iniziale. Se non specifichi l'URL della pagina iniziale, l'utente può ancora impostare la pagina iniziale come pagina Nuova scheda se specifica "decentr://newtab".
 
       Il criterio "URL da aprire all'avvio" viene ignorato a meno che non selezioni "Apri un elenco di URL" in "Azione all'avvio".</translation>
 <translation id="7952958573604504839">La norma è obsoleta in M48 in favore di <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> ed è rimossa in M54.
@@ -6302,7 +6302,7 @@ Se questa norma non viene impostata, le pagine saranno sottoposte a scansione pe
 
       A partire dalla versione 92 di <ph name="PRODUCT_NAME" />, questo criterio è supportato anche nella modalità headless.
 
-      Nota: il blocco degli URL chrome://* interni può generare errori imprevisti.</translation>
+      Nota: il blocco degli URL decentr://* interni può generare errori imprevisti.</translation>
 <translation id="8626826495474944836">Richiedi isolamento dei siti per ogni sito</translation>
 <translation id="8631434304112909927">fino alla versione <ph name="UNTIL_VERSION" /></translation>
 <translation id="8631437968147930597">L'elenco delle app per scrivere note consentite nella schermata di blocco di <ph name="PRODUCT_OS_NAME" /></translation>
@@ -6461,7 +6461,7 @@ Se la norma non viene impostata o viene impostata su false, la posizione non vie
 
       Il codice sorgente di qualsiasi estensione può essere modificato dagli utenti tramite lo strumento per sviluppatori, causando potenzialmente il malfunzionamento dell'estensione. Per evitare un problema di questo tipo, imposta il criterio <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" />.
 
-      Ogni elemento nell'elenco del criterio è una stringa contenente un ID estensione e, facoltativamente, un URL "di aggiornamento" separati da punto e virgola (;). L'ID estensione è la stringa di 32 lettere che si trova, ad esempio, all'indirizzo chrome://extensions quando è attiva la modalità sviluppatore. Se specificato, l'URL "di aggiornamento" deve indirizzare a un documento XML manifest di aggiornamento (https://developer.chrome.com/extensions/autoupdate). Per impostazione predefinita, viene utilizzato l'URL di aggiornamento del Chrome Web Store. L'URL "di aggiornamento" impostato in questo criterio viene utilizzato esclusivamente per l'installazione iniziale; per i successivi aggiornamenti dell'estensione viene utilizzato l'URL di aggiornamento nel file manifest dell'estensione.
+      Ogni elemento nell'elenco del criterio è una stringa contenente un ID estensione e, facoltativamente, un URL "di aggiornamento" separati da punto e virgola (;). L'ID estensione è la stringa di 32 lettere che si trova, ad esempio, all'indirizzo decentr://extensions quando è attiva la modalità sviluppatore. Se specificato, l'URL "di aggiornamento" deve indirizzare a un documento XML manifest di aggiornamento (https://developer.chrome.com/extensions/autoupdate). Per impostazione predefinita, viene utilizzato l'URL di aggiornamento del Chrome Web Store. L'URL "di aggiornamento" impostato in questo criterio viene utilizzato esclusivamente per l'installazione iniziale; per i successivi aggiornamenti dell'estensione viene utilizzato l'URL di aggiornamento nel file manifest dell'estensione.
 
        Nota: questo criterio non viene applicato alla Modalità di navigazione in incognito. Leggi ulteriori informazioni sull'hosting delle estensioni (https://developer.chrome.com/extensions/hosting).</translation>
 <translation id="8827366480126575426">Il protocollo del gestore di protocollo.</translation>
@@ -6834,7 +6834,7 @@ Se la norma non viene impostata o viene impostata su false, la posizione non vie
 
       A partire da <ph name="PRODUCT_NAME" /> 73, puoi bloccare gli URL javascript://*. Tuttavia, questa operazione interessa solo il codice JavaScript inserito nella barra degli indirizzi o, ad esempio, nei bookmarklet. Gli URL JavaScript in-page con un caricamento dinamico dei dati non sono soggetti a questo criterio. Ad esempio, se example.com/abc viene bloccato, example.com può comunque caricare example.com/abc tramite XMLHTTPRequest.
 
-      Nota: il blocco degli URL chrome://* interni può generare errori imprevisti.</translation>
+      Nota: il blocco degli URL decentr://* interni può generare errori imprevisti.</translation>
 <translation id="957778406002650056">L'URL da cui è possibile scaricare l'immagine <ph name="PLUGIN_VM_NAME" />.</translation>
 <translation id="971677226939413180">L'opzione Stampa come immagine non può essere selezionata dagli utenti</translation>
 <translation id="974349541138387272">Specifica il modello URI del resolver DNS over HTTPS desiderato</translation>

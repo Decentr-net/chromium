@@ -31,7 +31,7 @@
 
 namespace {
 
-const char kFlocInternalsUrl[] = "chrome://floc-internals/";
+const char kFlocInternalsUrl[] = "decentr://floc-internals/";
 
 class FixedFlocIdProvider : public federated_learning::FlocIdProvider {
  public:

@@ -209,7 +209,7 @@ html[dir='rtl'] #footer.showing-trash-mode #trash.drag-target .lid {
 }
 
 #chrome-web-store-title {
-  background: url(chrome://theme/IDR_WEBSTORE_ICON_24) right 50% no-repeat;
+  background: url(decentr://theme/IDR_WEBSTORE_ICON_24) right 50% no-repeat;
   display: inline-block;
   line-height: 49px;
   padding-inline-end: 36px;

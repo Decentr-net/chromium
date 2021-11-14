@@ -172,14 +172,14 @@ class TranslatePrefs {
   // formatted as Chrome language codes.
   std::vector<std::string> GetNeverTranslateLanguages() const;
 
-  // Adds the language to the language list at chrome://settings/languages.
+  // Adds the language to the language list at decentr://settings/languages.
   // If the param |force_blocked| is set to true, the language is added to the
   // blocked list.
   // If force_blocked is set to false, the language is added to the blocked list
   // if the language list does not already contain another language with the
   // same base language.
   void AddToLanguageList(base::StringPiece language, bool force_blocked);
-  // Removes the language from the language list at chrome://settings/languages.
+  // Removes the language from the language list at decentr://settings/languages.
   void RemoveFromLanguageList(base::StringPiece language);
 
   // Rearranges the given language inside the language list.

@@ -10,7 +10,7 @@ class GURL;
 namespace lacros_url_handling {
 
 // Provides an opportunity for the URL to be intercepted and handled by Ash.
-// This is used for example to handle system chrome:// URLs that only Ash knows
+// This is used for example to handle system decentr:// URLs that only Ash knows
 // how to load. Returns |true| if the navigation was intercepted.
 bool MaybeInterceptNavigation(const GURL& url);
 

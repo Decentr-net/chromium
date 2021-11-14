@@ -44,7 +44,7 @@ std::string MakePerfTestLabel(std::string base, bool opus_dtx) {
 // Performance browsertest for WebRTC. This test is manual since it takes long
 // to execute and requires the reference files provided by the webrtc.DEPS
 // solution (which is only available on WebRTC internal bots).
-// Gets its metrics from "chrome://webrtc-internals".
+// Gets its metrics from "decentr://webrtc-internals".
 class WebRtcInternalsPerfBrowserTest : public WebRtcTestBase {
  public:
   void SetUpInProcessBrowserTestFixture() override {
@@ -104,7 +104,7 @@ class WebRtcInternalsPerfBrowserTest : public WebRtcTestBase {
       int duration_msec) {
     chrome::AddTabAt(browser(), GURL(url::kAboutBlankURL), -1, true);
     EXPECT_TRUE(ui_test_utils::NavigateToURL(
-        browser(), GURL("chrome://webrtc-internals")));
+        browser(), GURL("decentr://webrtc-internals")));
     content::WebContents* webrtc_internals_tab =
         browser()->tab_strip_model()->GetActiveWebContents();
 

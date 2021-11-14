@@ -255,7 +255,7 @@ class PrerenderOriginTrialBrowserTest
 };
 
 // We basically use blink::features::kPrerender2 to enable Prerender 2 related
-// features (eg: chrome://flags/#enable-prerender2, Field Trial Testing Config).
+// features (eg: decentr://flags/#enable-prerender2, Field Trial Testing Config).
 // But it is still posiible to change the availability this feature by enabling
 // (/disabling) Blink runtime-enabled features (REF) with
 // --enable(/disable)-blink-features=Prerender2. So we test all the combinations

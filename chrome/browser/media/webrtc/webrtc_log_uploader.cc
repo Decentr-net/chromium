@@ -325,7 +325,7 @@ void WebRtcLogUploader::OnSimpleLoaderComplete(
   // The log path can be empty here if we failed getting it before. We still
   // upload the log if that's the case.
   if (!upload_done_data.paths.directory.empty()) {
-    // TODO(jiayl): Add the RTP dump records to chrome://webrtc-logs.
+    // TODO(jiayl): Add the RTP dump records to decentr://webrtc-logs.
     base::FilePath log_list_path =
         webrtc_logging::TextLogList::GetWebRtcLogListFileForDirectory(
             upload_done_data.paths.directory);

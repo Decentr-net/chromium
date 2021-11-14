@@ -61,7 +61,7 @@ class WebUISecurityTest : public ContentBrowserTest {
   DISALLOW_COPY_AND_ASSIGN(WebUISecurityTest);
 };
 
-// Verify chrome-untrusted:// have no bindings.
+// Verify decentr-untrusted:// have no bindings.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest, UntrustedNoBindings) {
   auto* web_contents = shell()->web_contents();
   untrusted_factory().add_web_ui_config(
@@ -445,7 +445,7 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest, WebUIFailedNavigation) {
   EXPECT_EQ(0, root->current_frame_host()->GetEnabledBindings());
 }
 
-// Verify load script from chrome-untrusted:// is blocked.
+// Verify load script from decentr-untrusted:// is blocked.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        DisallowResourceRequestToChromeUntrusted) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -479,7 +479,7 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
   }
 }
 
-// Verify chrome-untrusted://resources can't be loaded from the Web.
+// Verify decentr-untrusted://resources can't be loaded from the Web.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest, DisallowWebRequestToSharedResources) {
   ASSERT_TRUE(embedded_test_server()->Start());
   ASSERT_TRUE(
@@ -499,7 +499,7 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest, DisallowWebRequestToSharedResources) {
       "});";
 
   GURL shared_resource_url =
-      GURL("chrome-untrusted://resources/mojo/mojo/public/js/bindings.js");
+      GURL("decentr-untrusted://resources/mojo/mojo/public/js/bindings.js");
   EXPECT_EQ("Load failed", EvalJs(shell(), JsReplace(kLoadResourceScript,
                                                      shared_resource_url)));
 }
@@ -614,12 +614,12 @@ EvalJsResult PerformFetch(Shell* shell,
 }
 }  // namespace
 
-// Verify fetch request from web pages to chrome-untrusted:// is blocked,
-// because web pages don't have WebUIURLLoaderFactory for chrome-untrusted://
+// Verify fetch request from web pages to decentr-untrusted:// is blocked,
+// because web pages don't have WebUIURLLoaderFactory for decentr-untrusted://
 // scheme.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        DisallowWebPageFetchRequestToChromeUntrusted) {
-  const GURL untrusted_url = GURL("chrome-untrusted://test/title1.html");
+  const GURL untrusted_url = GURL("decentr-untrusted://test/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url.host()));
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -648,9 +648,9 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
   }
 }
 
-// Verify a chrome-untrusted:// document can fetch itself.
+// Verify a decentr-untrusted:// document can fetch itself.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest, ChromeUntrustedFetchRequestToSelf) {
-  const GURL untrusted_url = GURL("chrome-untrusted://test/title1.html");
+  const GURL untrusted_url = GURL("decentr-untrusted://test/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url.host()));
 
@@ -659,17 +659,17 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest, ChromeUntrustedFetchRequestToSelf) {
             PerformFetch(shell(), untrusted_url, FetchMode::SAME_ORIGIN));
 }
 
-// Verify cross-origin fetch request from a chrome-untrusted:// page to another
-// chrome-untrusted:// page is blocked by the default "default-src 'self'"
+// Verify cross-origin fetch request from a decentr-untrusted:// page to another
+// decentr-untrusted:// page is blocked by the default "default-src 'self'"
 // Content Security Policy on URLDataSource.
 IN_PROC_BROWSER_TEST_F(
     WebUISecurityTest,
     DisallowCrossOriginFetchRequestToChromeUntrustedByDefault) {
-  const GURL untrusted_url1 = GURL("chrome-untrusted://test1/title1.html");
+  const GURL untrusted_url1 = GURL("decentr-untrusted://test1/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url1.host()));
 
-  const GURL untrusted_url2 = GURL("chrome-untrusted://test2/title2.html");
+  const GURL untrusted_url2 = GURL("decentr-untrusted://test2/title2.html");
   URLDataSource::Add(
       shell()->web_contents()->GetBrowserContext(),
       UntrustedSourceWithCorsSupport::CreateForHost(untrusted_url2.host()));
@@ -705,18 +705,18 @@ IN_PROC_BROWSER_TEST_F(
   }
 }
 
-// Verify cross-origin fetch request from a chrome-untrusted:// page to another
-// chrome-untrusted:// page succeeds if Content Security Policy allows it.
+// Verify cross-origin fetch request from a decentr-untrusted:// page to another
+// decentr-untrusted:// page succeeds if Content Security Policy allows it.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        CrossOriginFetchRequestToChromeUntrusted) {
   TestUntrustedDataSourceHeaders headers;
-  headers.default_src = "default-src chrome-untrusted://test2;";
-  const GURL untrusted_url1 = GURL("chrome-untrusted://test1/title1.html");
+  headers.default_src = "default-src decentr-untrusted://test2;";
+  const GURL untrusted_url1 = GURL("decentr-untrusted://test1/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url1.host(),
                                                      headers));
 
-  const GURL untrusted_url2 = GURL("chrome-untrusted://test2/title2.html");
+  const GURL untrusted_url2 = GURL("decentr-untrusted://test2/title2.html");
   URLDataSource::Add(
       shell()->web_contents()->GetBrowserContext(),
       UntrustedSourceWithCorsSupport::CreateForHost(untrusted_url2.host()));
@@ -727,19 +727,19 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
             PerformFetch(shell(), untrusted_url2, FetchMode::NO_CORS));
 }
 
-// Verify fetch request from a chrome-untrusted:// page to a chrome:// page
-// is blocked because chrome-untrusted:// pages don't have WebUIURLLoaderFactory
-// for chrome:// scheme, even if CSP allows this.
+// Verify fetch request from a decentr-untrusted:// page to a decentr:// page
+// is blocked because decentr-untrusted:// pages don't have WebUIURLLoaderFactory
+// for decentr:// scheme, even if CSP allows this.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        DisallowChromeUntrustedFetchRequestToChrome) {
   TestUntrustedDataSourceHeaders headers;
-  headers.default_src = "default-src chrome://webui;";
-  const GURL untrusted_url = GURL("chrome-untrusted://test1/title1.html");
+  headers.default_src = "default-src decentr://webui;";
+  const GURL untrusted_url = GURL("decentr-untrusted://test1/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url.host(),
                                                      headers));
 
-  const GURL chrome_url = GURL("chrome://webui/title2.html");
+  const GURL chrome_url = GURL("decentr://webui/title2.html");
 
   EXPECT_TRUE(NavigateToURL(shell(), untrusted_url));
 
@@ -784,12 +784,12 @@ EvalJsResult PerformXHRRequest(Shell* shell, const GURL& xhr_url) {
 }
 }  // namespace
 
-// Verify XHR request from web pages to chrome-untrusted:// is blocked, because
-// web pages don't have WebUIURLLoader required to load chrome-untrusted://
+// Verify XHR request from web pages to decentr-untrusted:// is blocked, because
+// web pages don't have WebUIURLLoader required to load decentr-untrusted://
 // resources.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        DisallowWebPageXHRRequestToChromeUntrusted) {
-  const GURL untrusted_url = GURL("chrome-untrusted://test/title1.html");
+  const GURL untrusted_url = GURL("decentr-untrusted://test/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url.host()));
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -805,10 +805,10 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
             "Failed to load resource: net::ERR_UNKNOWN_URL_SCHEME");
 }
 
-// Verify a chrome-untrusted:// document can XHR itself.
+// Verify a decentr-untrusted:// document can XHR itself.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        AllowChromeUntrustedXHRRequestToSelf) {
-  const GURL untrusted_url = GURL("chrome-untrusted://test/title1.html");
+  const GURL untrusted_url = GURL("decentr-untrusted://test/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url.host()));
 
@@ -816,17 +816,17 @@ IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
   EXPECT_EQ("success", PerformXHRRequest(shell(), untrusted_url));
 }
 
-// Verify cross-origin XHR request from a chrome-untrusted:// page to another
-// chrome-untrusted:// page is blocked by "default-src 'self';" Content Security
+// Verify cross-origin XHR request from a decentr-untrusted:// page to another
+// decentr-untrusted:// page is blocked by "default-src 'self';" Content Security
 // Policy.
 IN_PROC_BROWSER_TEST_F(
     WebUISecurityTest,
     DisallowCrossOriginXHRRequestToChromeUntrustedByDefault) {
-  const GURL untrusted_url1 = GURL("chrome-untrusted://test1/title1.html");
+  const GURL untrusted_url1 = GURL("decentr-untrusted://test1/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url1.host()));
 
-  const GURL untrusted_url2 = GURL("chrome-untrusted://test2/");
+  const GURL untrusted_url2 = GURL("decentr-untrusted://test2/");
   URLDataSource::Add(
       shell()->web_contents()->GetBrowserContext(),
       UntrustedSourceWithCorsSupport::CreateForHost(untrusted_url2.host()));
@@ -845,20 +845,20 @@ IN_PROC_BROWSER_TEST_F(
                 untrusted_url2.spec().c_str()));
 }
 
-// Verify cross-origin XHR request from a chrome-untrusted:// page to another
-// chrome-untrusted:// page is successful, if Content Security Policy allows it,
+// Verify cross-origin XHR request from a decentr-untrusted:// page to another
+// decentr-untrusted:// page is successful, if Content Security Policy allows it,
 // and the requested resource presents an Access-Control-Allow-Origin header.
 IN_PROC_BROWSER_TEST_F(
     WebUISecurityTest,
     CrossOriginXHRRequestToChromeUntrustedIfContenSecurityPolicyAllowsIt) {
   TestUntrustedDataSourceHeaders headers;
-  headers.default_src = "default-src chrome-untrusted://test2;";
-  const GURL untrusted_url1 = GURL("chrome-untrusted://test1/title1.html");
+  headers.default_src = "default-src decentr-untrusted://test2;";
+  const GURL untrusted_url1 = GURL("decentr-untrusted://test1/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url1.host(),
                                                      headers));
 
-  const GURL untrusted_url2 = GURL("chrome-untrusted://test2/");
+  const GURL untrusted_url2 = GURL("decentr-untrusted://test2/");
   URLDataSource::Add(
       shell()->web_contents()->GetBrowserContext(),
       UntrustedSourceWithCorsSupport::CreateForHost(untrusted_url2.host()));
@@ -867,18 +867,18 @@ IN_PROC_BROWSER_TEST_F(
   EXPECT_EQ("success", PerformXHRRequest(shell(), untrusted_url2));
 }
 
-// Verify XHR request from a chrome-untrusted:// page to a chrome:// page is
+// Verify XHR request from a decentr-untrusted:// page to a decentr:// page is
 // blocked, even if CSP allows this.
 IN_PROC_BROWSER_TEST_F(WebUISecurityTest,
                        DisallowChromeUntrustedXHRRequestToChrome) {
   TestUntrustedDataSourceHeaders headers;
-  headers.default_src = "default-src chrome://webui;";
-  const GURL untrusted_url = GURL("chrome-untrusted://test1/title1.html");
+  headers.default_src = "default-src decentr://webui;";
+  const GURL untrusted_url = GURL("decentr-untrusted://test1/title1.html");
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>(untrusted_url.host(),
                                                      headers));
 
-  const GURL chrome_url = GURL("chrome://webui/title2.html");
+  const GURL chrome_url = GURL("decentr://webui/title2.html");
 
   EXPECT_TRUE(NavigateToURL(shell(), untrusted_url));
 

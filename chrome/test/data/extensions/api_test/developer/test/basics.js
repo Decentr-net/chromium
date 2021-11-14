@@ -16,7 +16,7 @@ var tests = [
 
       checkItemInList(items, "simple_extension", true, "extension",
           { "homepage_url": "http://example.com/",
-            "options_url": "chrome-extension://<ID>/pages/options.html"});
+            "options_url": "decentr-extension://<ID>/pages/options.html"});
 
       var extension = getItemNamed(items, "packaged_app");
       checkItemInList(items, "packaged_app", true, "packaged_app",

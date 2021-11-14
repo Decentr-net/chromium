@@ -1397,7 +1397,7 @@ incoming reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>khorimoto@chromium.org</owner>
   <owner>cros-customization@google.com</owner>
   <summary>
-    Paths visited within chrome://os-settings. For evaluating popularity and
+    Paths visited within decentr://os-settings. For evaluating popularity and
     priorities for OS Settings UI.
   </summary>
 </histogram>

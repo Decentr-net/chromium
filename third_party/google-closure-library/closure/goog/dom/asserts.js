@@ -371,7 +371,7 @@ goog.dom.asserts.debugStringForType_ = function(value) {
 goog.dom.asserts.getWindow_ = function(o) {
   try {
     var doc = o && o.ownerDocument;
-    // This can throw “Blocked a frame with origin "chrome-extension://..." from
+    // This can throw “Blocked a frame with origin "decentr-extension://..." from
     // accessing a cross-origin frame” in Chrome extension.
     var win =
         doc && /** @type {?Window} */ (doc.defaultView || doc.parentWindow);

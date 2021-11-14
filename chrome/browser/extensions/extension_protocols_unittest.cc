@@ -381,7 +381,7 @@ class ExtensionProtocolsIncognitoTest : public ExtensionProtocolsTestBase {
       : ExtensionProtocolsTestBase(true /*force_incognito*/) {}
 };
 
-// Tests that making a chrome-extension request in an incognito context is
+// Tests that making a decentr-extension request in an incognito context is
 // only allowed under the right circumstances (if the extension is allowed
 // in incognito, and it's either a non-main-frame request or a split-mode
 // extension).

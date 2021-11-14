@@ -191,7 +191,7 @@ class ExtensionSpecialStoragePolicyTest : public testing::Test {
 
 TEST_F(ExtensionSpecialStoragePolicyTest, EmptyPolicy) {
   const GURL kHttpUrl("http://foo");
-  const GURL kExtensionUrl("chrome-extension://bar");
+  const GURL kExtensionUrl("decentr-extension://bar");
   scoped_refptr<Extension> app(CreateRegularApp());
 
   EXPECT_FALSE(policy_->IsStorageUnlimited(kHttpUrl));
@@ -259,7 +259,7 @@ TEST_F(ExtensionSpecialStoragePolicyTest, AppWithUnlimitedStorage) {
 
 TEST_F(ExtensionSpecialStoragePolicyTest, HasIsolatedStorage) {
   const GURL kHttpUrl("http://foo");
-  const GURL kExtensionUrl("chrome-extension://bar");
+  const GURL kExtensionUrl("decentr-extension://bar");
   scoped_refptr<Extension> app(CreateRegularApp());
   policy_->GrantRightsForExtension(app.get());
 

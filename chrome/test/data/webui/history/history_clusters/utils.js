@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PageCallbackRouter, PageHandlerRemote} from 'chrome://history/history.js';
-import {TestBrowserProxy as BaseTestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {PageCallbackRouter, PageHandlerRemote} from 'decentr://history/history.js';
+import {TestBrowserProxy as BaseTestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 
 export class TestBrowserProxy extends BaseTestBrowserProxy {
   constructor() {

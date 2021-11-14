@@ -610,7 +610,7 @@ namespace autotestPrivate {
     // Get state of the policies.
     // Will contain device policies and policies from the active profile.
     // The policy values are formatted as they would be for exporting in
-    // chrome://policy.
+    // decentr://policy.
     [supportsPromises] static void getAllEnterprisePolicies(
         AllEnterprisePoliciesCallback callback);
 

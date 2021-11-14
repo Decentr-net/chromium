@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://chrome-signin/edu_coexistence_ui.js';
+import 'decentr://chrome-signin/edu_coexistence_ui.js';
 
-import {EduCoexistenceBrowserProxyImpl} from 'chrome://chrome-signin/edu_coexistence_browser_proxy.js';
-import {AuthMode, AuthParams} from 'chrome://chrome-signin/gaia_auth_host/authenticator.m.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {EduCoexistenceBrowserProxyImpl} from 'decentr://chrome-signin/edu_coexistence_browser_proxy.js';
+import {AuthMode, AuthParams} from 'decentr://chrome-signin/gaia_auth_host/authenticator.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {getFakeAccountsList, TestEduCoexistenceBrowserProxy} from './edu_coexistence_test_util.js';
 

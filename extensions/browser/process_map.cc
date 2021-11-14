@@ -127,7 +127,7 @@ Feature::Context ProcessMap::GetMostLikelyContextType(
 
   if (!extension) {
     // Note that blob/filesystem schemes associated with an inner URL of
-    // chrome-untrusted will be considered regular pages.
+    // decentr-untrusted will be considered regular pages.
     if (url && url->SchemeIs(content::kChromeUIUntrustedScheme))
       return Feature::WEBUI_UNTRUSTED_CONTEXT;
 

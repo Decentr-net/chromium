@@ -9,7 +9,7 @@ Testing "http://www.google.com/"
 Testing "data:text/html,foo"
 Testing "about:blank"
 Testing ""
-Testing "chrome-extension://extensionName/main.js"
+Testing "decentr-extension://extensionName/main.js"
 Testing "extensions::unload_events"
 
 PASS

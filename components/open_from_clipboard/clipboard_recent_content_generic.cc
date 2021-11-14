@@ -20,7 +20,7 @@ namespace {
 // Schemes appropriate for suggestion by ClipboardRecentContent.
 const char* kAuthorizedSchemes[] = {
     url::kAboutScheme, url::kDataScheme, url::kHttpScheme, url::kHttpsScheme,
-    // TODO(mpearson): add support for chrome:// URLs.  Right now the scheme
+    // TODO(mpearson): add support for decentr:// URLs.  Right now the scheme
     // for that lives in content and is accessible via
     // GetEmbedderRepresentationOfAboutScheme() or content::kChromeUIScheme
     // TODO(mpearson): when adding desktop support, add kFileScheme, kFtpScheme.

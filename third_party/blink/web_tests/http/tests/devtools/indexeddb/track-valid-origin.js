@@ -9,7 +9,7 @@
   await ApplicationTestRunner.resetState();
 
   let indexedDBModel = TestRunner.mainTarget.model(Resources.IndexedDBModel);
-  let invalidOrigins = ['http', 'test://fake', 'test://fake.origin.com', 'chrome://test'];
+  let invalidOrigins = ['http', 'test://fake', 'test://fake.origin.com', 'decentr://test'];
   let validOrigins = ['http://fake.origin.com', 'https://fake.origin.com'];
 
   TestRunner.addResult('Invalid Origins:');

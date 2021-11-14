@@ -23,7 +23,7 @@ OobeWebUITest.prototype = {
   __proto__: testing.Test.prototype,
 
   /** @override */
-  browsePreload: 'chrome://oobe/oobe',
+  browsePreload: 'decentr://oobe/oobe',
 
   /** @override */
   runAccessibilityChecks: true,
@@ -168,8 +168,8 @@ TEST_F('OobeWebUITest', 'DISABLED_OobeSupervisedUsers3', function() {
        'data' : createOobeWebUITestSupervisedManagerData()});
   $('supervised-user-creation').setDefaultImages(
       {'first' : 0,
-       'images' : [{'url': 'chrome://nothing/', 'title': 'None'},
-                   {'url': 'chrome://nothing/', 'title': 'None'}]});
+       'images' : [{'url': 'decentr://nothing/', 'title': 'None'},
+                   {'url': 'decentr://nothing/', 'title': 'None'}]});
   $('supervised-user-creation').setVisiblePage_('username');
 });
 

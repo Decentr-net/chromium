@@ -18,7 +18,7 @@ namespace content {
 
 class AttributionInternalsHandlerImpl;
 
-// WebUI which handles serving the chrome://conversion-internals page.
+// WebUI which handles serving the decentr://conversion-internals page.
 class CONTENT_EXPORT ConversionInternalsUI : public WebUIController {
  public:
   explicit ConversionInternalsUI(WebUI* web_ui);

@@ -24,7 +24,7 @@ DOWNLOAD_SHELF_BENCHMARK_UMA = [
 ]
 
 DOWNLOAD_URL = 'https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg'
-WEBUI_DOWNLOAD_SHELF_URL = 'chrome://download-shelf.top-chrome/'
+WEBUI_DOWNLOAD_SHELF_URL = 'decentr://download-shelf.top-chrome/'
 
 
 class DownloadShelfStory(MultiTabStory):

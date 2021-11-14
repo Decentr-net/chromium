@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {AcceleratorLookupManager} from 'chrome://shortcut-customization/accelerator_lookup_manager.js';
-import {AcceleratorSubsectionElement} from 'chrome://shortcut-customization/accelerator_subsection.js';
-import {fakeAcceleratorConfig, fakeLayoutInfo, fakeSubCategories} from 'chrome://shortcut-customization/fake_data.js';
-import {getShortcutProvider, setShortcutProviderForTesting} from 'chrome://shortcut-customization/mojo_interface_provider.js';
-import {ShortcutCustomizationAppElement} from 'chrome://shortcut-customization/shortcut_customization_app.js';
-import {AcceleratorInfo, Modifier, ShortcutProviderInterface} from 'chrome://shortcut-customization/shortcut_types.js';
+import {AcceleratorLookupManager} from 'decentr://shortcut-customization/accelerator_lookup_manager.js';
+import {AcceleratorSubsectionElement} from 'decentr://shortcut-customization/accelerator_subsection.js';
+import {fakeAcceleratorConfig, fakeLayoutInfo, fakeSubCategories} from 'decentr://shortcut-customization/fake_data.js';
+import {getShortcutProvider, setShortcutProviderForTesting} from 'decentr://shortcut-customization/mojo_interface_provider.js';
+import {ShortcutCustomizationAppElement} from 'decentr://shortcut-customization/shortcut_customization_app.js';
+import {AcceleratorInfo, Modifier, ShortcutProviderInterface} from 'decentr://shortcut-customization/shortcut_types.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

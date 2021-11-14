@@ -1126,7 +1126,7 @@ void ExtensionService::PostActivateExtension(
 
   const PermissionsData* permissions_data = extension->permissions_data();
 
-  // If the extension has permission to load chrome://favicon/ resources we need
+  // If the extension has permission to load decentr://favicon/ resources we need
   // to make sure that the FaviconSource is registered with the
   // ChromeURLDataManager.
   if (permissions_data->HasHostPermission(GURL(chrome::kChromeUIFaviconURL))) {
@@ -1135,7 +1135,7 @@ void ExtensionService::PostActivateExtension(
                       profile_, chrome::FaviconUrlFormat::kFaviconLegacy));
   }
 
-  // Same for chrome://theme/ resources.
+  // Same for decentr://theme/ resources.
   if (permissions_data->HasHostPermission(GURL(chrome::kChromeUIThemeURL))) {
     content::URLDataSource::Add(profile_,
                                 std::make_unique<ThemeSource>(profile_));
@@ -2146,7 +2146,7 @@ void ExtensionService::OnUpgradeRecommended() {
 void ExtensionService::PreAddExtension(const Extension* extension,
                                        const Extension* old_extension) {
   // An extension may have updated to no longer support incognito. When this
-  // is the case, we don't show the toggle in the chrome://extensions page.
+  // is the case, we don't show the toggle in the decentr://extensions page.
   // In order to ensure an extension doesn't keep an unrevokable permission,
   // reset the stored pref.
   if (old_extension && !IncognitoInfo::IsIncognitoAllowed(extension))

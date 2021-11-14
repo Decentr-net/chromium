@@ -44,7 +44,7 @@ constexpr base::TimeDelta kNotificationInterval = base::Seconds(60);
 
 constexpr char kNotifierStylusBattery[] = "ash.stylus-battery";
 
-constexpr char kNotificationOriginUrl[] = "chrome://peripheral-battery";
+constexpr char kNotificationOriginUrl[] = "decentr://peripheral-battery";
 constexpr char kNotifierNonStylusBattery[] = "power.peripheral-battery";
 
 // Prefix added to the key of a device to generate a unique ID when posting

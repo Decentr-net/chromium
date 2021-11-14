@@ -751,7 +751,7 @@ void AboutHandler::OnRegulatoryLabelTextRead(
   std::string image_path =
       label_dir_path.AppendASCII(kRegulatoryLabelImageFilename).MaybeAsASCII();
   std::string url =
-      std::string("chrome://") + chrome::kChromeOSAssetHost + "/" + image_path;
+      std::string("decentr://") + chrome::kChromeOSAssetHost + "/" + image_path;
   regulatory_info->SetString("url", url);
 
   ResolveJavascriptCallback(base::Value(callback_id), *regulatory_info);

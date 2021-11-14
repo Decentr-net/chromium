@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://signin-reauth/signin_reauth_app.js';
+import 'decentr://signin-reauth/signin_reauth_app.js';
 
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {SigninReauthBrowserProxyImpl} from 'chrome://signin-reauth/signin_reauth_browser_proxy.js';
-import {isVisible} from 'chrome://test/test_util.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SigninReauthBrowserProxyImpl} from 'decentr://signin-reauth/signin_reauth_browser_proxy.js';
+import {isVisible} from 'decentr://test/test_util.js';
 
 import {TestSigninReauthBrowserProxy} from './test_signin_reauth_browser_proxy.js';
 

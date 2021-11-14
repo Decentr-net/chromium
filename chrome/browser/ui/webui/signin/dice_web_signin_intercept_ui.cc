@@ -48,7 +48,7 @@ DiceWebSigninInterceptUI::DiceWebSigninInterceptUI(content::WebUI* web_ui)
 
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   source->DisableTrustedTypesCSP();
 
   content::WebUIDataSource::Add(Profile::FromWebUI(web_ui), source);

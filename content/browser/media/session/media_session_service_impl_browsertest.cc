@@ -183,8 +183,8 @@ IN_PROC_BROWSER_TEST_F(MediaSessionServiceImplBrowserTest,
                        MAYBE_CrashMessageOnUnload) {
   EXPECT_TRUE(
       NavigateToURL(shell(), GetTestUrl("media/session", "embedder.html")));
-  // Navigate to a chrome:// URL to avoid render process re-use.
-  EXPECT_TRUE(NavigateToURL(shell(), GURL("chrome://gpu")));
+  // Navigate to a decentr:// URL to avoid render process re-use.
+  EXPECT_TRUE(NavigateToURL(shell(), GURL("decentr://gpu")));
   // Should not crash.
 }
 

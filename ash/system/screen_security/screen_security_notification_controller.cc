@@ -22,8 +22,8 @@ namespace ash {
 
 // It is possible that we are capturing and sharing screen at the same time, so
 // we cannot share the notification IDs for capturing and sharing.
-const char kScreenCaptureNotificationId[] = "chrome://screen/capture";
-const char kScreenShareNotificationId[] = "chrome://screen/share";
+const char kScreenCaptureNotificationId[] = "decentr://screen/capture";
+const char kScreenShareNotificationId[] = "decentr://screen/share";
 const char kNotifierScreenCapture[] = "ash.screen-capture";
 const char kNotifierScreenShare[] = "ash.screen-share";
 

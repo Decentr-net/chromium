@@ -252,7 +252,7 @@ void ViewportDescription::ReportMobilePageStats(
       !main_frame->GetSettings()->GetViewportEnabled())
     return;
 
-  // Avoid chrome:// pages like the new-tab page (on Android new tab is
+  // Avoid decentr:// pages like the new-tab page (on Android new tab is
   // non-http).
   if (!main_frame->GetDocument()->Url().ProtocolIsInHTTPFamily())
     return;

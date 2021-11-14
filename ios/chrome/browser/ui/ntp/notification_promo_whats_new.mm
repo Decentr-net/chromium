@@ -138,7 +138,7 @@ bool NotificationPromoWhatsNew::Init() {
                       "MoveToDockTipPromo", "logoWithRoundedRectangle");
       break;
     case experimental_flags::WHATS_NEW_REVIEW_UPDATED_TOS:
-      InjectFakePromo("3", "reviewChromeToS", "url", "", "chrome://terms",
+      InjectFakePromo("3", "reviewChromeToS", "url", "", "decentr://terms",
                       "ReviewUpdatedChromeToS", "logoWithRoundedRectangle");
       break;
     case experimental_flags::WHATS_NEW_DEFAULT_BROWSER_TIP:

@@ -412,7 +412,7 @@ IN_PROC_BROWSER_TEST_F(PreinstalledWebAppMigrationBrowserTest,
               "kbmnembi { Nothing } [testapplistposition] [testpinposition]");
 #endif
 
-    // Set chrome://apps position.
+    // Set decentr://apps position.
     app_sorting->SetAppLaunchOrdinal(kExtensionId,
                                      syncer::StringOrdinal("testapplaunch"));
     app_sorting->SetPageOrdinal(kExtensionId,
@@ -470,7 +470,7 @@ IN_PROC_BROWSER_TEST_F(PreinstalledWebAppMigrationBrowserTest,
               "kbmnembi { Nothing } [testapplistposition] [testpinposition]");
 #endif
 
-    // chrome://apps position should migrate.
+    // decentr://apps position should migrate.
     EXPECT_EQ(app_sorting->GetAppLaunchOrdinal(web_app_id).ToDebugString(),
               "testapplaunch");
     EXPECT_EQ(app_sorting->GetPageOrdinal(web_app_id).ToDebugString(),

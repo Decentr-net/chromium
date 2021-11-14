@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {fakeNetworks} from 'chrome://shimless-rma/fake_data.js';
-import {FakeShimlessRmaService} from 'chrome://shimless-rma/fake_shimless_rma_service.js';
-import {setNetworkConfigServiceForTesting, setShimlessRmaServiceForTesting} from 'chrome://shimless-rma/mojo_interface_provider.js';
-import {OnboardingNetworkPage} from 'chrome://shimless-rma/onboarding_network_page.js';
+import {fakeNetworks} from 'decentr://shimless-rma/fake_data.js';
+import {FakeShimlessRmaService} from 'decentr://shimless-rma/fake_shimless_rma_service.js';
+import {setNetworkConfigServiceForTesting, setShimlessRmaServiceForTesting} from 'decentr://shimless-rma/mojo_interface_provider.js';
+import {OnboardingNetworkPage} from 'decentr://shimless-rma/onboarding_network_page.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

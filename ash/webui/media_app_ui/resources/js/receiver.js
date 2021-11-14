@@ -9,7 +9,7 @@ import {FileContext, LoadFilesMessage, Message, OverwriteFileMessage, OverwriteV
 import {loadPiex} from './piex_module_loader.js';
 
 /** A pipe through which we can send messages to the parent frame. */
-const parentMessagePipe = new MessagePipe('chrome://media-app', window.parent);
+const parentMessagePipe = new MessagePipe('decentr://media-app', window.parent);
 
 /**
  * Placeholder Blob used when a null file is received. For null files we only

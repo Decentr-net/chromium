@@ -95,7 +95,7 @@ bool ExternallyInstalledWebAppPrefs::HasAppId(const PrefService* pref_service,
 void ExternallyInstalledWebAppPrefs::RemoveTerminalPWA(
     PrefService* pref_service) {
   DictionaryPrefUpdate update(pref_service, prefs::kWebAppsExtensionIDs);
-  update->RemoveKey("chrome-untrusted://terminal/html/pwa.html");
+  update->RemoveKey("decentr-untrusted://terminal/html/pwa.html");
 }
 
 // static

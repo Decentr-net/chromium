@@ -11,7 +11,7 @@
 
 using BrowserAboutRewriterTest = PlatformTest;
 
-// Test that chrome://newtab is re-written to about://newtab,
+// Test that decentr://newtab is re-written to about://newtab,
 // but that about://newtab is not re-written twice.
 TEST_F(BrowserAboutRewriterTest, NtpTest) {
   GURL url = GURL(kChromeUINewTabURL);
@@ -20,29 +20,29 @@ TEST_F(BrowserAboutRewriterTest, NtpTest) {
   EXPECT_FALSE(WillHandleWebBrowserAboutURL(&url, nil));
 }
 
-// Test that about|chrome://about is rewritten to chrome-urls and about:blank
+// Test that about|decentr://about is rewritten to chrome-urls and about:blank
 // is not.
 TEST_F(BrowserAboutRewriterTest, AboutTest) {
   GURL url = GURL("about:about");
   EXPECT_FALSE(WillHandleWebBrowserAboutURL(&url, /*browser_state=*/nullptr));
-  EXPECT_EQ(url, GURL("chrome://chrome-urls/"));
+  EXPECT_EQ(url, GURL("decentr://chrome-urls/"));
 
-  url = GURL("chrome://about/");
+  url = GURL("decentr://about/");
   EXPECT_FALSE(WillHandleWebBrowserAboutURL(&url, /*browser_state=*/nullptr));
-  EXPECT_EQ(url, GURL("chrome://chrome-urls/"));
+  EXPECT_EQ(url, GURL("decentr://chrome-urls/"));
 
   url = GURL("about:blank?for=");
   EXPECT_FALSE(WillHandleWebBrowserAboutURL(&url, /*browser_state=*/nullptr));
   EXPECT_EQ(url, GURL("about:blank?for="));
 }
 
-// Test that about|chrome://sync is rewritten to sync-internals.
+// Test that about|decentr://sync is rewritten to sync-internals.
 TEST_F(BrowserAboutRewriterTest, SyncTest) {
   GURL url = GURL("about:sync");
   EXPECT_FALSE(WillHandleWebBrowserAboutURL(&url, /*browser_state=*/nullptr));
-  EXPECT_EQ(url, GURL("chrome://sync-internals/"));
+  EXPECT_EQ(url, GURL("decentr://sync-internals/"));
 
-  url = GURL("chrome://sync/");
+  url = GURL("decentr://sync/");
   EXPECT_FALSE(WillHandleWebBrowserAboutURL(&url, /*browser_state=*/nullptr));
-  EXPECT_EQ(url, GURL("chrome://sync-internals/"));
+  EXPECT_EQ(url, GURL("decentr://sync-internals/"));
 }

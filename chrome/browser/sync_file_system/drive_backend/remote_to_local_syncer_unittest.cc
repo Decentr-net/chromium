@@ -243,7 +243,7 @@ class RemoteToLocalSyncerTest : public testing::Test {
 };
 
 TEST_F(RemoteToLocalSyncerTest, AddNewFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -277,7 +277,7 @@ TEST_F(RemoteToLocalSyncerTest, AddNewFile) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, DeleteFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -312,7 +312,7 @@ TEST_F(RemoteToLocalSyncerTest, DeleteFile) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, DeleteNestedFiles) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -353,7 +353,7 @@ TEST_F(RemoteToLocalSyncerTest, DeleteNestedFiles) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFileOnFolder) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -374,7 +374,7 @@ TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFileOnFolder) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFolderOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -399,7 +399,7 @@ TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFolderOnFile) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFolderOnFolder) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -418,7 +418,7 @@ TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFolderOnFolder) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFileOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -439,7 +439,7 @@ TEST_F(RemoteToLocalSyncerTest, Conflict_CreateFileOnFile) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, Conflict_CreateNestedFolderOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -463,7 +463,7 @@ TEST_F(RemoteToLocalSyncerTest, Conflict_CreateNestedFolderOnFile) {
 }
 
 TEST_F(RemoteToLocalSyncerTest, AppRootDeletion) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();

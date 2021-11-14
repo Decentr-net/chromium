@@ -50,7 +50,7 @@ content::WebUIDataSource* CreateHelpAppUntrustedDataSource(
       network::mojom::CSPDirectiveName::DefaultSrc, "");
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ChildSrc,
-      "child-src 'self' chrome-untrusted://help-app-kids-magazine;");
+      "child-src 'self' decentr-untrusted://help-app-kids-magazine;");
   return source;
 }
 

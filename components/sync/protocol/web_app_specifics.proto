@@ -59,7 +59,7 @@ message WebAppSpecifics {
   repeated WebAppIconInfo icon_infos = 6;
 
   // Used to store the page number that the app is displayed on in
-  // chrome://apps.
+  // decentr://apps.
   optional string user_page_ordinal = 7;
   // Used to store the in-page ranking for ordering apps in its given
   // |user_page_ordinal| page.

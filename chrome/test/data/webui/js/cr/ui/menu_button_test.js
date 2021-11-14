@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {MenuButton} from 'chrome://resources/js/cr/ui/menu_button.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {MenuButton} from 'decentr://resources/js/cr/ui/menu_button.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../../chai_assert.js';
 

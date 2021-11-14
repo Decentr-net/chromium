@@ -329,7 +329,7 @@ bool KeywordTable::MigrateToVersion53AddNewTabURLColumn() {
 
 bool KeywordTable::MigrateToVersion59RemoveExtensionKeywords() {
   return db_->Execute("DELETE FROM keywords "
-                      "WHERE url LIKE 'chrome-extension://%'");
+                      "WHERE url LIKE 'decentr-extension://%'");
 }
 
 // SQLite does not support DROP COLUMN operation. So A new table is created

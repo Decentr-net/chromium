@@ -346,7 +346,7 @@ bool NexeLoadManager::RequestNaClManifest(const std::string& url) {
     const GURL& resolved_url = plugin_base_url_.Resolve(url);
     if (resolved_url.is_valid()) {
       manifest_base_url_ = resolved_url;
-      is_installed_ = manifest_base_url_.SchemeIs("chrome-extension");
+      is_installed_ = manifest_base_url_.SchemeIs("decentr-extension");
       HistogramEnumerateManifestIsDataURI(
           manifest_base_url_.SchemeIs("data"));
       set_nacl_ready_state(PP_NACL_READY_STATE_OPENED);
@@ -367,7 +367,7 @@ void NexeLoadManager::ProcessNaClManifest(const std::string& program_url) {
   GURL gurl(program_url);
   DCHECK(gurl.is_valid());
   if (gurl.is_valid())
-    is_installed_ = gurl.SchemeIs("chrome-extension");
+    is_installed_ = gurl.SchemeIs("decentr-extension");
   set_nacl_ready_state(PP_NACL_READY_STATE_LOADING);
   DispatchProgressEvent(pp_instance_, ProgressEvent(PP_NACL_EVENT_PROGRESS));
 }

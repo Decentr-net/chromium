@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 runTests([
-  // Opens a cross-origin iframe (a http-URL in this chrome-extension tab) and
+  // Opens a cross-origin iframe (a http-URL in this decentr-extension tab) and
   // removes it.
   function insertSlowCrossOriginFrameAndRemove() {
     const url = getSlowURL('frame-in-extension-url');

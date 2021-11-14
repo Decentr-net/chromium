@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
+import 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
 
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {DialogType} from '../../../common/js/dialog_type.js';
 import {FileType} from '../../../common/js/file_type.js';

@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isWindows} from 'chrome://resources/js/cr.m.js';
+import {isWindows} from 'decentr://resources/js/cr.m.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 

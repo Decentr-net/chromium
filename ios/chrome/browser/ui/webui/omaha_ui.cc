@@ -33,7 +33,7 @@ web::WebUIIOSDataSource* CreateOmahaUIHTMLSource() {
 
 // OmahaDOMHandler
 
-// The handler for Javascript messages for the chrome://omaha/ page.
+// The handler for Javascript messages for the decentr://omaha/ page.
 class OmahaDOMHandler : public WebUIIOSMessageHandler {
  public:
   OmahaDOMHandler();
@@ -89,7 +89,7 @@ OmahaUI::OmahaUI(web::WebUIIOS* web_ui, const std::string& host)
     : WebUIIOSController(web_ui, host) {
   web_ui->AddMessageHandler(std::make_unique<OmahaDOMHandler>());
 
-  // Set up the chrome://omaha/ source.
+  // Set up the decentr://omaha/ source.
   ChromeBrowserState* browser_state = ChromeBrowserState::FromWebUIIOS(web_ui);
   web::WebUIIOSDataSource::Add(browser_state, CreateOmahaUIHTMLSource());
 }

@@ -20,7 +20,7 @@ var NewTabPageCustomizeDialogFocusTest =
     class extends NewTabPageInteractiveTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://new-tab-page/test_loader.html?module=new_tab_page/customize_dialog_focus_test.js';
+    return 'decentr://new-tab-page/test_loader.html?module=new_tab_page/customize_dialog_focus_test.js';
   }
 };
 
@@ -33,7 +33,7 @@ var NewTabPageDoodleShareDialogFocusTest =
     class extends NewTabPageInteractiveTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://new-tab-page/test_loader.html?module=new_tab_page/doodle_share_dialog_focus_test.js';
+    return 'decentr://new-tab-page/test_loader.html?module=new_tab_page/doodle_share_dialog_focus_test.js';
   }
 };
 

@@ -81,19 +81,19 @@ function test() {
         console.log(
             'Allowing unsafe-inline for the isolated world: this should pass!');
         testRunner.setIsolatedWorldInfo(
-            1, 'chrome-extension://123', 'script-src \'unsafe-inline\'');
+            1, 'decentr-extension://123', 'script-src \'unsafe-inline\'');
         testInlineScript(true, 1);
         break;
       case 3:
         console.log('Disallowing unsafe-inline for the isolated world.');
         testRunner.setIsolatedWorldInfo(
-            1, 'chrome-extension://123', 'script-src \'none\'');
+            1, 'decentr-extension://123', 'script-src \'none\'');
         testInlineScript(true, 1);
         break;
       case 2:
         console.log(
             'Using an empty CSP for the isolated world. This should pass.');
-        testRunner.setIsolatedWorldInfo(1, 'chrome-extension://123', '');
+        testRunner.setIsolatedWorldInfo(1, 'decentr-extension://123', '');
         testInlineScript(true, 1);
         break;
       case 1:

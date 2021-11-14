@@ -54,7 +54,7 @@ void GetResource(const std::string& id,
 
 struct WebUIControllerConfig {
   int bindings = BINDINGS_POLICY_WEB_UI;
-  std::string child_src = "child-src 'self' chrome://web-ui-subframe/;";
+  std::string child_src = "child-src 'self' decentr://web-ui-subframe/;";
   bool disable_xfo = false;
   bool disable_trusted_types = false;
   std::vector<std::string> requestable_schemes;

@@ -288,7 +288,7 @@ class SplitCacheContentBrowserTest : public ContentBrowserTest {
                                 const GURL& sub_frame,
                                 bool subframe_navigation_resource_cached) {
     // Do a cross-process navigation to clear the in-memory cache.
-    // We assume that we don't start this call from "chrome://blob-internals",
+    // We assume that we don't start this call from "decentr://blob-internals",
     // as otherwise it won't be a cross-process navigation. We are relying on
     // this navigation to discard the old process.
     EXPECT_TRUE(NavigateToURL(shell(), GetWebUIURL("blob-internals")));
@@ -324,7 +324,7 @@ class SplitCacheContentBrowserTest : public ContentBrowserTest {
     DCHECK(worker.is_valid());
 
     // Do a cross-process navigation to clear the in-memory cache.
-    // We assume that we don't start this call from "chrome://blob-internals",
+    // We assume that we don't start this call from "decentr://blob-internals",
     // as otherwise it won't be a cross-process navigation. We are relying on
     // this navigation to discard the old process.
     EXPECT_TRUE(NavigateToURL(shell(), GetWebUIURL("blob-internals")));

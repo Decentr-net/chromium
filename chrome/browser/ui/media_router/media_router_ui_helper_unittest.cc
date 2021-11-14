@@ -12,7 +12,7 @@ namespace media_router {
 
 TEST(MediaRouterUIHelperTest, GetExtensionNameExtensionPresent) {
   std::string id = "extensionid";
-  GURL url = GURL("chrome-extension://" + id);
+  GURL url = GURL("decentr-extension://" + id);
   std::unique_ptr<extensions::ExtensionRegistry> registry =
       std::make_unique<extensions::ExtensionRegistry>(nullptr);
   scoped_refptr<const extensions::Extension> app =
@@ -27,7 +27,7 @@ TEST(MediaRouterUIHelperTest, GetExtensionNameExtensionPresent) {
 
 TEST(MediaRouterUIHelperTest, GetExtensionNameEmptyWhenNotInstalled) {
   std::string id = "extensionid";
-  GURL url = GURL("chrome-extension://" + id);
+  GURL url = GURL("decentr-extension://" + id);
   std::unique_ptr<extensions::ExtensionRegistry> registry =
       std::make_unique<extensions::ExtensionRegistry>(nullptr);
 

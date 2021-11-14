@@ -1130,7 +1130,7 @@ alternative CertificatePattern types. The
       array with a recognized scheme is navigated to, with the intention this
       informs the user how to either get the certificate or gets the certificate
       for the user. For instance, the array may be [
-      "chrome-extension://asakgksjssjwwkeielsjs/fetch-client-cert.html",
+      "decentr-extension://asakgksjssjwwkeielsjs/fetch-client-cert.html",
       "http://intra/connecting-to-wireless.html" ] so that for Chrome browsers a
       Chrome app or extension is shown to the user, but for other browsers, a
       web URL is shown.

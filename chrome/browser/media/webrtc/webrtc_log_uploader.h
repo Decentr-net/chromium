@@ -170,7 +170,7 @@ class WebRtcLogUploader {
 
   // Append information (upload time, report ID and local ID) about a log to a
   // log list file, limited to |kLogListLimitLines| entries. This list is used
-  // for viewing the logs under chrome://webrtc-logs, see WebRtcLogUploadList.
+  // for viewing the logs under decentr://webrtc-logs, see WebRtcLogUploadList.
   // The list has the format:
   //   [upload_time],[report_id],[local_id],[capture_time]
   // Each line represents a log.

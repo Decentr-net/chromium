@@ -45,7 +45,7 @@ TEST_P(RealboxHandlerIconTest, VectorIcons) {
       // Pedals are not supported in the NTP Realbox.
       ASSERT_TRUE(svg_name.empty());
     } else if (is_bookmark) {
-      ASSERT_EQ("chrome://resources/images/icon_bookmark.svg", svg_name);
+      ASSERT_EQ("decentr://resources/images/icon_bookmark.svg", svg_name);
     } else {
       ASSERT_FALSE(svg_name.empty());
     }
@@ -68,7 +68,7 @@ TEST_P(RealboxHandlerIconTest, VectorIcons) {
     const std::string& svg_name =
         RealboxHandler::AutocompleteMatchVectorIconToResourceName(vector_icon);
     if (is_bookmark) {
-      ASSERT_EQ("chrome://resources/images/icon_bookmark.svg", svg_name);
+      ASSERT_EQ("decentr://resources/images/icon_bookmark.svg", svg_name);
     } else {
       ASSERT_FALSE(svg_name.empty());
       ASSERT_NE("search.svg", svg_name);

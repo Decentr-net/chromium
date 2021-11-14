@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test suite for chrome://telemetry-extension.
+ * @fileoverview Test suite for decentr://telemetry-extension.
  */
 
 GEN('#include "ash/webui/telemetry_extension_ui/test/telemetry_extension_ui_browsertest.h"');
@@ -11,8 +11,8 @@ GEN('#include "ash/webui/telemetry_extension_ui/test/telemetry_extension_ui_brow
 GEN('#include "ash/constants/ash_features.h"');
 GEN('#include "content/public/test/browser_test.h"');
 
-const HOST_ORIGIN = 'chrome://telemetry-extension';
-const UNTRUSTED_HOST_ORIGIN = 'chrome-untrusted://telemetry-extension';
+const HOST_ORIGIN = 'decentr://telemetry-extension';
+const UNTRUSTED_HOST_ORIGIN = 'decentr-untrusted://telemetry-extension';
 
 var TelemetryExtensionUIBrowserTest = class extends testing.Test {
   /** @override */
@@ -49,7 +49,7 @@ var TelemetryExtensionUIBrowserTest = class extends testing.Test {
   }
 };
 
-// Tests that chrome://telemetry-extension runs js file and that it goes
+// Tests that decentr://telemetry-extension runs js file and that it goes
 // somewhere instead of 404ing or crashing.
 TEST_F('TelemetryExtensionUIBrowserTest', 'HasChromeSchemeURL', () => {
   const title = document.querySelector('title');
@@ -59,8 +59,8 @@ TEST_F('TelemetryExtensionUIBrowserTest', 'HasChromeSchemeURL', () => {
   testDone();
 });
 
-// Tests that chrome://telemetry-extension embeds a
-// chrome-untrusted:// iframe.
+// Tests that decentr://telemetry-extension embeds a
+// decentr-untrusted:// iframe.
 TEST_F('TelemetryExtensionUIBrowserTest', 'HasChromeUntrustedIframe', () => {
   const iframe = document.querySelector('iframe');
   assertNotEquals(null, iframe);
@@ -570,7 +570,7 @@ const untrustedTests = [
 ].forEach(test => registerUntrustedTest(...test));
 
 /**
- * Registers a test in chrome-untrusted://.
+ * Registers a test in decentr-untrusted://.
  * @param {!string} testName
  * @param {!string=} testClass
  */

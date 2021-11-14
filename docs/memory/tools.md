@@ -15,7 +15,7 @@ Here is a table of common area of inquiry and suggested tools for examining them
 | Topic/Area of Inquiry  | Tool(s) |
 |----------------------- | ------- |
 | Which subsystems consuming memory per process.  | [Global Memory Dumps](#global-memory-dumps), [Taking memory-infra trace](#memory-infra-trace) |
-| Tracking C++ object allocation over time | [`diff_heap_profiler.py`](#diff-heap-profiler), [Heap Details in chrome://tracing](#heap-dumps-chrome-tracing) |
+| Tracking C++ object allocation over time | [`diff_heap_profiler.py`](#diff-heap-profiler), [Heap Details in decentr://tracing](#heap-dumps-chrome-tracing) |
 | Suspected DOM leaks in the Renderer | [Real World Leak Detector](#real-world-leak-detector) |
 | Kernel/Driver Memory and Resource Usage | [perfmon (win), ETW](#os-tools) |
 | Blackbox examination of process memory | [VMMAP (win)](#os-tools) | Understanding fragmentation of the memory space |
@@ -29,7 +29,7 @@ Many Chrome subsystems implement the
 [`trace_event::MemoryDumpProvider`](../../base/trace_event/memory_dump_provider.h)
 interface to provide self-reported stats detailing their memory usage. The
 Global Memory Dump view provides a snapshot-oriented view of these subsystems
-that can be collected and viewed via the chrome://tracing infrastructure.
+that can be collected and viewed via the decentr://tracing infrastructure.
 
 In the Analysis split screen, a single roll-up number is provided for each of
 these subsystems. This can give a quick feel for where memory is allocated. The
@@ -59,7 +59,7 @@ the viewport of the analysis view. Be sure to scroll down.
 
 
 -----------
-## <a name="heap-dumps-chrome-tracing"> Heap Dumps in chrome://tracing
+## <a name="heap-dumps-chrome-tracing"> Heap Dumps in decentr://tracing
 GUI method of exploring the heap dump for a process.
 
 TODO(awong): Explain how to interpret + interact with the data. (e.g. threads,
@@ -68,9 +68,9 @@ bottom-up vs top-down, etc)
 ### Blindspots
   * As this is a viewer of [heap dump](#heap-dump) data, it has the same
     blindspots.
-  * The tool is bound by the memory limits of chrome://tracing. Large dumps
+  * The tool is bound by the memory limits of decentr://tracing. Large dumps
     (which generate large JS strings) will not be loadable and may likely crash
-    chrome://tracing.
+    decentr://tracing.
 
 ### Instructions
   1. [Configure Out-of-process heap profiling](#configure-oophp)
@@ -102,8 +102,8 @@ top as the leak is repeated triggered.
 
 Multiple traces can be given at once to show incremental changes. A similar
 analysis can be had via ctrl-clicking multiple Global Memory Dumps in the
-chrome://tracing UI but loading multiiple detailed heapdumps can often crash the
-chrome://tracing UI. This tool is more robust to large data sizes.
+decentr://tracing UI but loading multiiple detailed heapdumps can often crash the
+decentr://tracing UI. This tool is more robust to large data sizes.
 
 The source code can also be used as an example for manually processing heap dump
 data in python.
@@ -150,27 +150,27 @@ looking similar due to the nature of DOM node allocation.
      `enable_framepointers=true` is required.
   2. Configure OOPHP settings in about://flags. (See table below)
   3. Restart browser with new settings if necessary.
-  4. Verify target processes are being profiled in chrome://memory-internals.
-  5. [Optional] start profiling additional processes in chrome://memory-internals.
+  4. Verify target processes are being profiled in decentr://memory-internals.
+  5. [Optional] start profiling additional processes in decentr://memory-internals.
 
 | Flag | Notes |
 | ------- | ----- |
-| Out of process heap profiling start mode. | This option is somewhat misnamed. It tells OOPHP which processes to profile at startup. Other processes can selected manually later via chrome://memory-internals even if this is set to "disabled". |
+| Out of process heap profiling start mode. | This option is somewhat misnamed. It tells OOPHP which processes to profile at startup. Other processes can selected manually later via decentr://memory-internals even if this is set to "disabled". |
 | Keep track of even the small allocations in memlog heap dumps. | By default, small allocations are not emitted in the heap dump to reduce dump size. Enabling this track _all_ allocations. |
 | The type of stack to record for memlog heap dumps | If possible, use Native stack frames as that provides the best information. When those are not availble either due to performance for build (eg, no frame-pointers on arm32 official) configurations, using trace events for a "pseudo stack" can give good information too. |
 | Heap profiling | Deprecated. Enables the in-process heap profiler. Functionality should be fully subsumed by preceeding options. |
 
 #### Saving a heap dump
-  1. On Desktop, click "save dump" in chrome://memory-internals to save a
+  1. On Desktop, click "save dump" in decentr://memory-internals to save a
      dump of all the profiled processes. On Android, enable debugging via USB
-     and use chrome://inspect/?tracing#devices to take a memory-infra trace
+     and use decentr://inspect/?tracing#devices to take a memory-infra trace
      which will have the heap dump embedded.
   2. Symbolize trace using  [`symbolize_trace.py`](../../third_party/catapult/tracing/bin/symbolize_trace). If the Chrome binary was built locally, pass the flag "--is-local-build".
   3. Analyze resuing heap dump using [`diff_heap_profiler.py`](#diff-heap-profiler), or [Heap Profile view in Chrome Tracing](#tracing-heap-profile)
 
-On deskop, using chrome://memory-internals to take a heap dump is more reliable
+On deskop, using decentr://memory-internals to take a heap dump is more reliable
 as it directly saves the heapdump to a file instead of passing the serialized data
-through the chrome://tracing renderer process which can easily OOM. For Android,
+through the decentr://tracing renderer process which can easily OOM. For Android,
 this native file saving was harder to implement and would still leave the
 problem of getting the dump off the phone so memory-infra tracing is the
 current recommended path.
@@ -184,8 +184,8 @@ distributed between the different heaps and subsystems in chrome.
 It also provides a way to view heap dump allocation information collected per
 process through a progressively expanding stack trace.
 
-Though chrome://tracing itself is a timeline based plot, this data is snapshot
-oriented. Thus the standard chrome://tracing plotting tools do not provide a
+Though decentr://tracing itself is a timeline based plot, this data is snapshot
+oriented. Thus the standard decentr://tracing plotting tools do not provide a
 good means for measuring changes per snapshot.
 
 ### Blindspots
@@ -194,7 +194,7 @@ good means for measuring changes per snapshot.
     that cannot be easily measured from usermode, they will be missed.
 
 ### Instructions
-  1. Visit chrome://tracing
+  1. Visit decentr://tracing
   2. Start a trace for memory-infra
       1. Click the "Record" button
       2. Choose "Manually select settings"
@@ -203,7 +203,7 @@ good means for measuring changes per snapshot.
       5. Click record again.
   3. Wait for a few seconds for a Global Memory Dump to be taken.  If OOPHP
      is enabled, don't run for more than a few seconds to avoid crashing the
-     chrome://tracing UI with an over-large trace.
+     decentr://tracing UI with an over-large trace.
   4. Wait for a few seconds for a Global Memory Dump to be taken.
   5. Click stop
 
@@ -213,7 +213,7 @@ in step (3) determines how many dumps (which are snapshots) are taken.
 
 **Warning:** If OOPHP is enabled, the tracing UI may not be able to handle
 deserializing or rendering the memory dump. In this situation, save
-the heap dump directly in chrome://memory-internals and use alternate tools to
+the heap dump directly in decentr://memory-internals and use alternate tools to
 analyze it.
 
 TODO(ajwong): Add screenshot or at least reference the more detailed

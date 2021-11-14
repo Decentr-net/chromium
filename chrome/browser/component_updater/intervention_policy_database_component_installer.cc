@@ -26,7 +26,7 @@ const uint8_t kInterventionPolicyDatabasePublicKeySHA256[32] = {
     0x8f, 0xbc, 0xc4, 0x75, 0x2a, 0x48, 0x9a, 0x64, 0x74, 0xc6, 0xda,
     0xb7, 0xb9, 0xdf, 0x5f, 0x51, 0x3e, 0x50, 0x39, 0x04, 0xab};
 
-// The name of the component, used in the chrome://components page.
+// The name of the component, used in the decentr://components page.
 const char kInterventionPolicyDatabaseComponentName[] =
     "Intervention Policy Database";
 

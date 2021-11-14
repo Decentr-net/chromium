@@ -57,7 +57,7 @@ runTests([
             statusCode: 200,
             statusLine: "HTTP/1.1 200 OK",
             initiator: getDomain(initiators.BROWSER_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "b.html-onResponseStarted",
@@ -71,7 +71,7 @@ runTests([
             frameId: 1,
             parentFrameId: 0,
             initiator: getDomain(initiators.WEB_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "b.jpg-onResponseStarted",
@@ -85,7 +85,7 @@ runTests([
             frameId: 1,
             parentFrameId: 0,
             initiator: getDomain(initiators.WEB_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "a.html-onCompleted",
@@ -97,7 +97,7 @@ runTests([
             statusCode: 200,
             statusLine: "HTTP/1.1 200 OK",
             initiator: getDomain(initiators.BROWSER_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "b.html-onCompleted",
@@ -111,7 +111,7 @@ runTests([
             frameId: 1,
             parentFrameId: 0,
             initiator: getDomain(initiators.WEB_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "b.jpg-onCompleted",
@@ -125,7 +125,7 @@ runTests([
             frameId: 1,
             parentFrameId: 0,
             initiator: getDomain(initiators.WEB_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
       ],
@@ -175,7 +175,7 @@ runTests([
             statusCode: 200,
             statusLine: "HTTP/1.1 200 OK",
             initiator: getDomain(initiators.BROWSER_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "b-onResponseStarted",
@@ -189,7 +189,7 @@ runTests([
             frameId: 1,
             parentFrameId: 0,
             initiator: getDomain(initiators.WEB_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "a-onCompleted",
@@ -201,7 +201,7 @@ runTests([
             statusCode: 200,
             statusLine: "HTTP/1.1 200 OK",
             initiator: getDomain(initiators.BROWSER_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
         { label: "b-onCompleted",
@@ -215,7 +215,7 @@ runTests([
             frameId: 1,
             parentFrameId: 0,
             initiator: getDomain(initiators.WEB_INITIATED)
-            // Request to chrome-extension:// url has no IP.
+            // Request to decentr-extension:// url has no IP.
           }
         },
       ],

@@ -4,8 +4,8 @@
 
 import '../elements/files_toggle_ripple.js';
 
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {FilesTooltip} from '../elements/files_tooltip.js';
 

@@ -101,7 +101,7 @@ IN_PROC_BROWSER_TEST_F(ProjectorAnnotatorControllerTest, SetTool) {
 }
 
 // This edge case can happen if the user navigates to
-// chrome://projector/annotator/annotator_embedder.html while doing a screen
+// decentr://projector/annotator/annotator_embedder.html while doing a screen
 // capture with annotator tools enabled.
 IN_PROC_BROWSER_TEST_F(ProjectorAnnotatorControllerTest, TwoAnnotators) {
   chromeos::AnnotatorTool expected_tool;

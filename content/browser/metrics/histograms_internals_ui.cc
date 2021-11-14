@@ -149,7 +149,7 @@ HistogramsInternalsUI::HistogramsInternalsUI(WebUI* web_ui)
     : WebUIController(web_ui) {
   web_ui->AddMessageHandler(std::make_unique<HistogramsMessageHandler>());
 
-  // Set up the chrome://histograms/ source.
+  // Set up the decentr://histograms/ source.
   BrowserContext* browser_context =
       web_ui->GetWebContents()->GetBrowserContext();
   WebUIDataSource::Add(browser_context, CreateHistogramsHTMLSource());

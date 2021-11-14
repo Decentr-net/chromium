@@ -108,7 +108,7 @@ ConnectivityDiagnosticsUI::ConnectivityDiagnosticsUI(
       content::WebUIDataSource::Create(kChromeUIConnectivityDiagnosticsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
 
   source->DisableTrustedTypesCSP();
   source->UseStringsJs();

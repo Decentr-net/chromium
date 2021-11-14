@@ -63,7 +63,7 @@ sk_sp<SkPromiseImageTexture> Fulfill(void* texture_context) {
 
 gpu::ContextUrl& GetActiveUrl() {
   static base::NoDestructor<gpu::ContextUrl> active_url(
-      GURL("chrome://gpu/SkiaRenderer"));
+      GURL("decentr://gpu/SkiaRenderer"));
   return *active_url;
 }
 

@@ -11,7 +11,7 @@ export function loadTestModule() {
   }
   const script = document.createElement('script');
   script.type = 'module';
-  script.src = `chrome://test/${module}`;
+  script.src = `decentr://test/${module}`;
   document.body.appendChild(script);
   return true;
 }

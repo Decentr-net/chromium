@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {addSingletonGetter} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addSingletonGetter} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {addNode, addNodeWithText, setNodeDisplay, setNodePosition} from './util.js';
 import {View} from './view.js';

@@ -10,9 +10,9 @@ import '../../cr_elements/cr_button/cr_button.m.js';
 import '../../cr_elements/cr_dialog/cr_dialog.m.js';
 import '../../cr_elements/icons.m.js';
 import '../../cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {I18nBehavior, I18nBehaviorInterface} from '../../js/i18n_behavior.m.js';
 

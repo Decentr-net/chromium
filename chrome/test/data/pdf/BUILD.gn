@@ -8,8 +8,8 @@ import("//third_party/closure_compiler/compile_js.gni")
 js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + [
-                    "browser_resolver_prefix_replacements=\"chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/=../../chrome/test/data/\"",
-                    "browser_resolver_prefix_replacements=\"chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/=../../chrome/browser/resources/pdf/\"",
+                    "browser_resolver_prefix_replacements=\"decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/=../../chrome/test/data/\"",
+                    "browser_resolver_prefix_replacements=\"decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/=../../chrome/browser/resources/pdf/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                   ]

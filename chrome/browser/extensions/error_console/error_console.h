@@ -37,7 +37,7 @@ class ExtensionPrefs;
 // The ErrorConsole is a central object to which all extension errors are
 // reported. This includes errors detected in extensions core, as well as
 // runtime Javascript errors. If FeatureSwitch::error_console() is enabled these
-// errors can be viewed at chrome://extensions in developer mode.
+// errors can be viewed at decentr://extensions in developer mode.
 // This class is owned by ExtensionSystem, making it, in effect, a
 // BrowserContext-keyed service.
 class ErrorConsole : public KeyedService,

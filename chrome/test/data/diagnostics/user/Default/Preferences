@@ -44,7 +44,7 @@
          "version": "0.0.0.149"
       },
       "chrome_url_overrides": {
-         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+         "bookmarks": [ "decentr-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
       },
       "last_chrome_version": "28.0.1500.71",
       "settings": {

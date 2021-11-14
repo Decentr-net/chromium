@@ -86,7 +86,7 @@ TEST(ExtensionSetTest, ExtensionSet) {
   EXPECT_TRUE(extensions.Insert(ext4));
   EXPECT_EQ(3u, extensions.size());
 
-  // Get extension by its chrome-extension:// URL
+  // Get extension by its decentr-extension:// URL
   EXPECT_EQ(
       ext2.get(),
       extensions.GetExtensionOrAppByURL(ext2->GetResourceURL("test.html")));

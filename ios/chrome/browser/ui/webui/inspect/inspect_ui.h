@@ -10,7 +10,7 @@
 #include "base/macros.h"
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The WebUI handler for chrome://inspect which displays JavaScript console
+// The WebUI handler for decentr://inspect which displays JavaScript console
 // messages.
 class InspectUI : public web::WebUIIOSController {
  public:

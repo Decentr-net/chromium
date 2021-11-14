@@ -38,7 +38,7 @@ class Origin;
 
 namespace extensions {
 
-// Manages cookie store for chrome-extension:// URLs, and associated
+// Manages cookie store for decentr-extension:// URLs, and associated
 // RestrictedCookieManager objects. All public APIs are for UI thread use.
 class ChromeExtensionCookies
     : public KeyedService,
@@ -52,7 +52,7 @@ class ChromeExtensionCookies
   // ChromeExtensionCookiesFactory.
   static ChromeExtensionCookies* Get(content::BrowserContext* context);
 
-  // Creates a RestrictedCookieManager for a chrome-extension:// URL
+  // Creates a RestrictedCookieManager for a decentr-extension:// URL
   // with origin |origin|, bound to |receiver|. Whether this will use disk
   // storage or not depends on the Profile |this| was created for.
   void CreateRestrictedCookieManager(

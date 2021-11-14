@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getFavicon} from 'chrome://resources/js/icon.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {TabElement} from 'chrome://tab-strip.top-chrome/tab.js';
-import {Tab, TabNetworkState} from 'chrome://tab-strip.top-chrome/tab_strip.mojom-webui.js';
-import {CloseTabAction, TabsApiProxyImpl} from 'chrome://tab-strip.top-chrome/tabs_api_proxy.js';
+import {getFavicon} from 'decentr://resources/js/icon.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {TabElement} from 'decentr://tab-strip.top-chrome/tab.js';
+import {Tab, TabNetworkState} from 'decentr://tab-strip.top-chrome/tab_strip.mojom-webui.js';
+import {CloseTabAction, TabsApiProxyImpl} from 'decentr://tab-strip.top-chrome/tabs_api_proxy.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 

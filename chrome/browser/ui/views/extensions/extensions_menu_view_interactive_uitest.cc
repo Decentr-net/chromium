@@ -621,7 +621,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionsMenuViewInteractiveUITest,
       ->button_controller()
       ->OnMouseReleased(click_event);
 
-  // Clicking the Manage Extensions button should open chrome://extensions.
+  // Clicking the Manage Extensions button should open decentr://extensions.
   EXPECT_EQ(
       chrome::kChromeUIExtensionsURL,
       browser()->tab_strip_model()->GetActiveWebContents()->GetVisibleURL());

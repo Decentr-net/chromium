@@ -32,7 +32,7 @@ LegacyTLSBlockingPage::LegacyTLSBlockingPage(
   DCHECK(web_state_);
 
   // Creating an interstitial without showing it (e.g. from
-  // chrome://interstitials) leaks memory, so don't create it here.
+  // decentr://interstitials) leaks memory, so don't create it here.
 }
 
 LegacyTLSBlockingPage::~LegacyTLSBlockingPage() = default;

@@ -52,7 +52,7 @@ Generic widget representing image tiles carousel.
 ## Test and debug
 
 ### Feature flags
-In chrome://flags,
+In decentr://flags,
 
 * Disable `Start surface`
 
@@ -66,5 +66,5 @@ In chrome://flags,
 restart Chrome twice and wait for 10 seconds.
 
 ### WebUI
-Use `chrome://internals/query-tiles` to manually tune the flow(start/reset) and
+Use `decentr://internals/query-tiles` to manually tune the flow(start/reset) and
 show the internal status and data.

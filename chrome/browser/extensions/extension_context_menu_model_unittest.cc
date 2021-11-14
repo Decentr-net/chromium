@@ -1065,7 +1065,7 @@ TEST_F(ExtensionContextMenuModelTest, PageAccessMenuOptions) {
        {}},
       // No access controls should ever show for restricted pages, like
       // chrome:-scheme pages or the webstore.
-      {"<all_urls>", "<all_urls>", GURL("chrome://extensions"), {}, {}},
+      {"<all_urls>", "<all_urls>", GURL("decentr://extensions"), {}, {}},
       {"<all_urls>",
        "<all_urls>",
        ExtensionsClient::Get()->GetWebstoreBaseURL(),

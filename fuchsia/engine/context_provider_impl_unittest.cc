@@ -53,7 +53,7 @@ namespace {
 constexpr char kTestDataFileIn[] = "DataFileIn";
 constexpr char kTestDataFileOut[] = "DataFileOut";
 
-constexpr char kUrl[] = "chrome://:emorhc";
+constexpr char kUrl[] = "decentr://:emorhc";
 constexpr char kTitle[] = "Palindrome";
 
 constexpr uint64_t kTestQuotaBytes = 1024;

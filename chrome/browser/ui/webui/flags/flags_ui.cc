@@ -68,7 +68,7 @@ content::WebUIDataSource* CreateFlagsUIHTMLSource() {
       content::WebUIDataSource::Create(chrome::kChromeUIFlagsHost);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::TrustedTypes,
       "trusted-types jstemplate;");

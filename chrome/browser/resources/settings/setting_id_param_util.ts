@@ -7,7 +7,7 @@
  * from the Url parameter.
  */
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 import {Router} from './router.js';
 
 const SETTING_ID_URL_PARAM_NAME: string = 'settingId';

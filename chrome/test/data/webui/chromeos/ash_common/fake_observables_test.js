@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {FakeObservables} from 'chrome://resources/ash/common/fake_observables.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {FakeObservables} from 'decentr://resources/ash/common/fake_observables.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 import {assertEquals} from '../../chai_assert.js';
 

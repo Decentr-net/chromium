@@ -49,7 +49,7 @@ namespace {
 
 const char kAllHostsPermission[] = "*://*/*";
 
-const char kChromeUntrustedURL[] = "chrome-untrusted://test/index.html";
+const char kChromeUntrustedURL[] = "decentr-untrusted://test/index.html";
 
 GURL GetFaviconURL(const char* path) {
   GURL::Replacements replace_path;
@@ -96,9 +96,9 @@ void CheckRestrictedUrls(const Extension* extension,
   // We log the name so we know _which_ extension failed here.
   const std::string& name = extension->name();
   const GURL chrome_settings_url(chrome::kChromeUISettingsURL);
-  const GURL chrome_extension_url("chrome-extension://foo/bar.html");
+  const GURL chrome_extension_url("decentr-extension://foo/bar.html");
   const GURL google_url("https://www.google.com/");
-  const GURL self_url("chrome-extension://" + extension->id() + "/foo.html");
+  const GURL self_url("decentr-extension://" + extension->id() + "/foo.html");
   const GURL invalid_url("chrome-debugger://foo/bar.html");
   const GURL chrome_untrusted_url(kChromeUntrustedURL);
 
@@ -293,14 +293,14 @@ TEST(PermissionsDataTest, SocketPermissions) {
 TEST(PermissionsDataTest, IsRestrictedUrl) {
   scoped_refptr<const Extension> extension = GetExtensionWithHostPermission(
       "normal_extension", kAllHostsPermission, ManifestLocation::kInternal);
-  // Chrome and chrome-untrusted:// urls should be blocked for normal
+  // Chrome and decentr-untrusted:// urls should be blocked for normal
   // extensions.
   CheckRestrictedUrls(extension.get(), /*block_chrome_urls=*/true,
                       /*block_chrome_untrusted_urls=*/true);
 
   scoped_refptr<const Extension> component = GetExtensionWithHostPermission(
       "component", kAllHostsPermission, ManifestLocation::kComponent);
-  // Chrome and chrome-untrusted:// urls should be accessible by component
+  // Chrome and decentr-untrusted:// urls should be accessible by component
   // extensions.
   CheckRestrictedUrls(component.get(), /*block_chrome_urls=*/false,
                       /*block_chrome_untrusted_urls=*/false);
@@ -308,7 +308,7 @@ TEST(PermissionsDataTest, IsRestrictedUrl) {
   base::CommandLine::ForCurrentProcess()->AppendSwitch(
       switches::kExtensionsOnChromeURLs);
   // Enabling the switch should allow all extensions to access chrome urls but
-  // not chrome-untrusted:// urls.
+  // not decentr-untrusted:// urls.
   CheckRestrictedUrls(extension.get(), /*block_chrome_urls=*/false,
                       /*block_chrome_untrusted_urls=*/true);
 }
@@ -351,15 +351,15 @@ TEST(PermissionsDataTest, GetPermissionMessages_ManyHosts) {
 
 TEST(PermissionsDataTest, ExtensionScheme) {
   GURL external_file(
-      "chrome-extension://abcdefghijklmnopabcdefghijklmnop/index.html");
+      "decentr-extension://abcdefghijklmnopabcdefghijklmnop/index.html");
 
-  // A regular extension shouldn't get access to chrome-extension: scheme URLs
+  // A regular extension shouldn't get access to decentr-extension: scheme URLs
   // even with <all_urls> specified.
   scoped_refptr<const Extension> extension = GetExtensionWithHostPermission(
       "regular_extension", "<all_urls>", ManifestLocation::kUnpacked);
   ASSERT_FALSE(extension->permissions_data()->HasHostPermission(external_file));
 
-  // Component extensions should get access to chrome-extension: scheme URLs
+  // Component extensions should get access to decentr-extension: scheme URLs
   // when <all_urls> is specified.
   extension = GetExtensionWithHostPermission(
       "component_extension", "<all_urls>", ManifestLocation::kComponent);
@@ -379,7 +379,7 @@ class ExtensionScriptAndCaptureVisibleTest : public testing::Test {
         sample_example_com("https://sample.example.com"),
         file_url("file:///foo/bar"),
         favicon_url(GetFaviconURL("http://www.google.com")),
-        extension_url("chrome-extension://" +
+        extension_url("decentr-extension://" +
                       crx_file::id_util::GenerateIdForPath(
                           base::FilePath(FILE_PATH_LITERAL("foo")))),
         settings_url(chrome::kChromeUISettingsURL),
@@ -537,8 +537,8 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, Permissions) {
       LoadManifest("script_and_capture", "extension_wildcard_settings.json");
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
 
-  // Having chrome://*/ should not work for regular extensions. Note that
-  // for favicon access, we require the explicit pattern chrome://favicon/*.
+  // Having decentr://*/ should not work for regular extensions. Note that
+  // for favicon access, we require the explicit pattern decentr://favicon/*.
   std::string error;
   extension = LoadManifestUnchecked(
       "script_and_capture", "extension_wildcard_chrome.json",
@@ -547,7 +547,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, Permissions) {
   EXPECT_FALSE(warnings.empty());
   EXPECT_EQ(ErrorUtils::FormatErrorMessage(
                 manifest_errors::kInvalidPermissionScheme,
-                manifest_keys::kPermissions, "chrome://*/"),
+                manifest_keys::kPermissions, "decentr://*/"),
             warnings[0].message);
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
   EXPECT_EQ(DISALLOWED,
@@ -555,7 +555,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, Permissions) {
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), favicon_url));
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), about_flags_url));
 
-  // Having chrome://favicon/* should not give you chrome://*
+  // Having decentr://favicon/* should not give you decentr://*
   extension = LoadManifestStrict("script_and_capture",
       "extension_chrome_favicon_wildcard.json");
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
@@ -566,7 +566,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, Permissions) {
 
   EXPECT_TRUE(extension->permissions_data()->HasHostPermission(favicon_url));
 
-  // Having http://favicon should not give you chrome://favicon
+  // Having http://favicon should not give you decentr://favicon
   extension = LoadManifestStrict("script_and_capture",
       "extension_http_favicon.json");
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
@@ -621,7 +621,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, PermissionsWithChromeURLsEnabled) {
             GetExtensionAccess(extension.get(), chrome_untrusted_url));
   EXPECT_EQ(
       ALLOWED_SCRIPT_AND_CAPTURE,
-      GetExtensionAccess(extension.get(), favicon_url));  // chrome:// requested
+      GetExtensionAccess(extension.get(), favicon_url));  // decentr:// requested
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), about_flags_url));
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), extension_url));
 
@@ -656,7 +656,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, PermissionsWithChromeURLsEnabled) {
       LoadManifest("script_and_capture", "extension_wildcard_settings.json");
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
 
-  // Having chrome://*/ should work for regular extensions with the flag
+  // Having decentr://*/ should work for regular extensions with the flag
   // enabled.
   std::string error;
   extension = LoadManifestUnchecked(
@@ -674,7 +674,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, PermissionsWithChromeURLsEnabled) {
   EXPECT_EQ(ALLOWED_SCRIPT_ONLY,
             GetExtensionAccess(extension.get(), favicon_url));
 
-  // Having chrome://favicon/* should not give you chrome://*
+  // Having decentr://favicon/* should not give you decentr://*
   extension = LoadManifestStrict("script_and_capture",
                                  "extension_chrome_favicon_wildcard.json");
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
@@ -685,7 +685,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, PermissionsWithChromeURLsEnabled) {
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), about_flags_url));
   EXPECT_TRUE(extension->permissions_data()->HasHostPermission(favicon_url));
 
-  // Having http://favicon should not give you chrome://favicon
+  // Having http://favicon should not give you decentr://favicon
   extension =
       LoadManifestStrict("script_and_capture", "extension_http_favicon.json");
   EXPECT_EQ(DISALLOWED, GetExtensionAccess(extension.get(), settings_url));
@@ -816,7 +816,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, TabSpecific) {
   EXPECT_TRUE(ScriptAllowedExclusivelyOnTab(extension.get(), no_urls, 2));
 }
 
-// Test that activeTab is required for capturing chrome:// urls with
+// Test that activeTab is required for capturing decentr:// urls with
 // tabs.captureVisibleTab. https://crbug.com/810220.
 TEST_F(ExtensionScriptAndCaptureVisibleTest, CaptureChromeURLs) {
   const int kTabId = 42;
@@ -845,7 +845,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, CaptureChromeURLs) {
             GetExtensionAccess(active_tab.get(), settings_url, kTabId));
 }
 
-// chrome-untrusted:// can never be captured.
+// decentr-untrusted:// can never be captured.
 TEST_F(ExtensionScriptAndCaptureVisibleTest, CaptureChromeUntrustedURLs) {
   const int kTabId = 42;
   scoped_refptr<const Extension> all_urls =
@@ -863,7 +863,7 @@ TEST_F(ExtensionScriptAndCaptureVisibleTest, CaptureChromeUntrustedURLs) {
     tab_api_permissions.insert(APIPermissionID::kTab);
     URLPatternSet tab_hosts;
     // Even extensions that can execute scripts everywhere, e.g. component
-    // extensions, are not able to capture chrome-untrusted://.
+    // extensions, are not able to capture decentr-untrusted://.
     tab_hosts.AddOrigin(UserScript::ValidUserScriptSchemes(
                             /*can_execute_script_everywhere=*/true),
                         chrome_untrusted_url.GetOrigin());
@@ -1279,15 +1279,15 @@ TEST_F(CaptureVisiblePageTest, URLsCapturableOnlyWithActiveTab) {
   // all.
   const GURL test_urls[] = {
       // Another extension's URL.
-      GURL("chrome-extension://cccccccccccccccccccccccccccccccc/foo.html"),
+      GURL("decentr-extension://cccccccccccccccccccccccccccccccc/foo.html"),
 
       // filesystem: urls behave like the underlying origin.
       // https://crbug.com/853392: filesystem: URLs don't work with activeTab.
-      // GURL("filesystem:chrome-extension://cccccccccccccccccccccccccccccccc/foo"),
+      // GURL("filesystem:decentr-extension://cccccccccccccccccccccccccccccccc/foo"),
 
       // blob: urls behave like the underlying origin.
       // https://crbug.com/853392: blob: URLs don't work with activeTab.
-      // GURL("blob:chrome-extension://cccccccccccccccccccccccccccccccc/bar"),
+      // GURL("blob:decentr-extension://cccccccccccccccccccccccccccccccc/bar"),
 
       // data: urls have no associated origin, so are more restricted.
       GURL("data:text/html;charset=utf-8,<html>Hello!</html>"),
@@ -1330,7 +1330,7 @@ TEST_F(CaptureVisiblePageTest, URLsCapturableOnlyWithActiveTab) {
   }
 }
 
-// TODO(crbug.com/1041309): Add support for capturing chrome-untrusted://.
+// TODO(crbug.com/1041309): Add support for capturing decentr-untrusted://.
 TEST_F(CaptureVisiblePageTest, ChromeUntrustedSchemeNotCaptured) {
   const GURL chrome_untrusted_url(kChromeUntrustedURL);
 
@@ -1359,11 +1359,11 @@ TEST_F(CaptureVisiblePageTest, ChromeUntrustedSchemeNotCaptured) {
 
 TEST_F(CaptureVisiblePageTest, SelfExtensionURLs) {
   auto get_filesystem_url_for_extension = [](const Extension& extension) {
-    return GURL(base::StringPrintf("filesystem:chrome-extension://%s/foo",
+    return GURL(base::StringPrintf("filesystem:decentr-extension://%s/foo",
                                    extension.id().c_str()));
   };
   auto get_blob_url_for_extension = [](const Extension& extension) {
-    return GURL(base::StringPrintf("blob:chrome-extension://%s/foo",
+    return GURL(base::StringPrintf("blob:decentr-extension://%s/foo",
                                    extension.id().c_str()));
   };
 

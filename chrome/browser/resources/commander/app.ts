@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 import './option.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
 
-import {addWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {Debouncer, enqueueDebouncer, html, microTask, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {addWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {Debouncer, enqueueDebouncer, html, microTask, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserProxy} from './browser_proxy.js';
 import {CommanderOptionElement} from './option.js';

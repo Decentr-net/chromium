@@ -12,7 +12,7 @@ namespace weblayer {
 using WebLayerWebUIBrowserTest = WebLayerBrowserTest;
 
 IN_PROC_BROWSER_TEST_F(WebLayerWebUIBrowserTest, WebUI) {
-  NavigateAndWaitForCompletion(GURL("chrome://weblayer"), shell());
+  NavigateAndWaitForCompletion(GURL("decentr://weblayer"), shell());
   base::RunLoop run_loop;
   bool result =
       ExecuteScript(shell(),

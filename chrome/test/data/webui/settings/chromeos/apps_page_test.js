@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-// #import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-// #import {AndroidAppsBrowserProxyImpl, Router, routes, setAppNotificationProviderForTesting} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+// #import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+// #import {AndroidAppsBrowserProxyImpl, Router, routes, setAppNotificationProviderForTesting} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {TestAndroidAppsBrowserProxy} from './test_android_apps_browser_proxy.m.js';
-// #import {flush} from'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {waitAfterNextRender, flushTasks} from 'chrome://test/test_util.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {flush} from'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {waitAfterNextRender, flushTasks} from 'decentr://test/test_util.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // clang-format on
 
 /** @type {?OsSettingsAppsPageElement} */

@@ -83,7 +83,7 @@ function registerTest(componentName, webuiHost, testName, module, caseName) {
     get browsePreload() {
       // TODO(jhawkins): Set up test_loader.html for internet-config-dialog
       // and use it here instead of os-settings.
-      return `chrome://${
+      return `decentr://${
           webuiHost}/test_loader.html?module=cr_components/chromeos/${module}`;
     }
 

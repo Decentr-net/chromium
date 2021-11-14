@@ -40,11 +40,11 @@ std::unique_ptr<const PermissionSet> PartitionHostPermissions(
             requested_patterns, runtime_granted_patterns,
             URLPatternSet::IntersectionBehavior::kDetailed);
         for (const URLPattern& pattern : requested_patterns) {
-          // The chrome://favicon permission is special. It is requested by
+          // The decentr://favicon permission is special. It is requested by
           // extensions to access stored favicons, but is not a traditional
           // host permission. Since it cannot be reasonably runtime-granted
           // while the user is on the site (i.e., the user never visits
-          // chrome://favicon/), we auto-grant it and treat it like an API
+          // decentr://favicon/), we auto-grant it and treat it like an API
           // permission.
           bool is_chrome_favicon =
               pattern.scheme() == content::kChromeUIScheme &&
@@ -98,14 +98,14 @@ std::unique_ptr<const PermissionSet> GetRuntimePermissionsFromPrefs(
   if (!permissions)
     return nullptr;
 
-  // If the extension is allowed to run on chrome:// URLs, then we don't have
+  // If the extension is allowed to run on decentr:// URLs, then we don't have
   // to adjust anything.
   if (PermissionsData::AllUrlsIncludesChromeUrls(extension.id()))
     return permissions;
 
   // We need to adjust a pattern if it matches all URLs and includes the
   // chrome:-scheme. These patterns would otherwise match hosts like
-  // chrome://settings, which should not be allowed.
+  // decentr://settings, which should not be allowed.
   // NOTE: We don't need to adjust for the file scheme, because
   // ExtensionPrefs properly does that based on the extension's file access.
   auto needs_chrome_scheme_adjustment = [](const URLPattern& pattern) {
@@ -116,7 +116,7 @@ std::unique_ptr<const PermissionSet> GetRuntimePermissionsFromPrefs(
   // NOTE: We don't need to check scriptable_hosts, because the default
   // scriptable_hosts scheme mask omits the chrome:-scheme in normal
   // circumstances (whereas the default explicit scheme does not, in order to
-  // allow for patterns like chrome://favicon).
+  // allow for patterns like decentr://favicon).
 
   bool needs_adjustment = std::any_of(permissions->explicit_hosts().begin(),
                                       permissions->explicit_hosts().end(),

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Tab, TabData, TabGroup, TabGroupColor, TabItemType, TabSearchItem} from 'chrome://tab-search.top-chrome/tab_search.js';
+import {Tab, TabData, TabGroup, TabGroupColor, TabItemType, TabSearchItem} from 'decentr://tab-search.top-chrome/tab_search.js';
 
 import {assertDeepEquals, assertEquals, assertNotEquals} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

@@ -7,7 +7,7 @@
  */
 
 
-// #import {assert} from 'chrome://resources/js/assert.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
 
 /** Multi-tap gesture detector. */
 /* #export */ class MultiTapDetector {

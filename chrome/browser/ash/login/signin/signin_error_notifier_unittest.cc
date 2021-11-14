@@ -39,9 +39,9 @@ const char kTestSecondaryEmail[] = "email2@example.com";
 // Notification ID corresponding to kProfileSigninNotificationId +
 // kTestAccountId.
 const char kPrimaryAccountErrorNotificationId[] =
-    "chrome://settings/signin/testing_profile";
+    "decentr://settings/signin/testing_profile";
 const char kSecondaryAccountErrorNotificationId[] =
-    "chrome://settings/signin/testing_profile/secondary-account";
+    "decentr://settings/signin/testing_profile/secondary-account";
 
 class SigninErrorNotifierTest : public BrowserWithTestWindowTest {
  public:

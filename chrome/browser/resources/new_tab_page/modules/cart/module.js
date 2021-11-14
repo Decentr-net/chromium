@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 import '../module_header.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/cr_auto_img/cr_auto_img.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/cr_auto_img/cr_auto_img.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
 
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {I18nBehavior, loadTimeData} from '../../i18n_setup.js';
 import {recordOccurence} from '../../metrics_utils.js';
@@ -133,7 +133,7 @@ class ChromeCartModuleElement extends mixinBehaviors
    * @private
    */
   getFaviconUrl_(url) {
-    const faviconUrl = new URL('chrome://favicon2/');
+    const faviconUrl = new URL('decentr://favicon2/');
     faviconUrl.searchParams.set('size', '24');
     faviconUrl.searchParams.set('scale_factor', '1x');
     faviconUrl.searchParams.set('show_fallback_monogram', '');

@@ -275,7 +275,7 @@ TEST(ExtensionURLPatternTest, Match8) {
       GURL("http://\xe1\x80\xbf/a\xc2\x81\xe1\xe1")));
 }
 
-// chrome://
+// decentr://
 TEST(ExtensionURLPatternTest, Match9) {
   URLPattern pattern(kAllSchemes);
   EXPECT_EQ(URLPattern::ParseResult::kSuccess,
@@ -404,7 +404,7 @@ static const struct MatchPatterns {
   {"about:*", "about:blank"},
   {"about:blank", "about:blank"},
   {"about:*", "about:version"},
-  {"chrome-extension://*/*", "chrome-extension://FTW"},
+  {"decentr-extension://*/*", "decentr-extension://FTW"},
   {"data:*", "data:monkey"},
   {"javascript:*", "javascript:atemyhomework"},
 };
@@ -515,24 +515,24 @@ TEST(ExtensionURLPatternTest, Match18) {
       GURL("filesystem:http://www.example.com:8080/foo/")));
 }
 
-// chrome-extension://
+// decentr-extension://
 TEST(ExtensionURLPatternTest, Match19) {
   URLPattern pattern(URLPattern::SCHEME_EXTENSION);
   EXPECT_EQ(URLPattern::ParseResult::kSuccess,
-            pattern.Parse("chrome-extension://ftw/*"));
+            pattern.Parse("decentr-extension://ftw/*"));
   EXPECT_EQ(extensions::kExtensionScheme, pattern.scheme());
   EXPECT_EQ("ftw", pattern.host());
   EXPECT_FALSE(pattern.match_subdomains());
   EXPECT_FALSE(pattern.match_all_urls());
   EXPECT_EQ("/*", pattern.path());
-  EXPECT_TRUE(pattern.MatchesURL(GURL("chrome-extension://ftw")));
+  EXPECT_TRUE(pattern.MatchesURL(GURL("decentr-extension://ftw")));
   EXPECT_TRUE(pattern.MatchesURL(
-      GURL("chrome-extension://ftw/http://google.com")));
+      GURL("decentr-extension://ftw/http://google.com")));
   EXPECT_TRUE(pattern.MatchesURL(
-      GURL("chrome-extension://ftw/https://google.com")));
-  EXPECT_FALSE(pattern.MatchesURL(GURL("chrome-extension://foobar")));
+      GURL("decentr-extension://ftw/https://google.com")));
+  EXPECT_FALSE(pattern.MatchesURL(GURL("decentr-extension://foobar")));
   EXPECT_TRUE(pattern.MatchesURL(
-      GURL("filesystem:chrome-extension://ftw/t/file.txt")));
+      GURL("filesystem:decentr-extension://ftw/t/file.txt")));
 }
 
 static const struct GetAsStringPatterns {
@@ -544,8 +544,8 @@ static const struct GetAsStringPatterns {
     {content::GetWebUIURLString("newtab/")},
     {"about:*"},
     {"about:blank"},
-    {"chrome-extension://*/*"},
-    {"chrome-extension://ftw/"},
+    {"decentr-extension://*/*"},
+    {"decentr-extension://ftw/"},
     {"data:*"},
     {"data:monkey"},
     {"javascript:*"},
@@ -649,7 +649,7 @@ TEST(ExtensionURLPatternTest, ConvertToExplicitSchemes) {
   EXPECT_EQ("file:///*", all_urls[2].GetAsString());
   EXPECT_EQ("ftp://*/*", all_urls[3].GetAsString());
   EXPECT_EQ(content::GetWebUIURLString("*/*"), all_urls[4].GetAsString());
-  EXPECT_EQ("chrome-extension://*/*", all_urls[5].GetAsString());
+  EXPECT_EQ("decentr-extension://*/*", all_urls[5].GetAsString());
   EXPECT_EQ("filesystem://*/*", all_urls[6].GetAsString());
   EXPECT_EQ("ws://*/*", all_urls[7].GetAsString());
   EXPECT_EQ("wss://*/*", all_urls[8].GetAsString());

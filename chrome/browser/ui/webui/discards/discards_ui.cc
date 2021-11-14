@@ -217,7 +217,7 @@ DiscardsUI::DiscardsUI(content::WebUI* web_ui)
 
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   source->DisableTrustedTypesCSP();
 
   const webui::ResourcePath kResources[] = {

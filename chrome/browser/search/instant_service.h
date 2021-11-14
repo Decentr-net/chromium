@@ -75,7 +75,7 @@ class InstantService : public KeyedService,
   virtual void AddObserver(InstantServiceObserver* observer);
   void RemoveObserver(InstantServiceObserver* observer);
 
-  // Determine if this chrome-search: request is coming from an Instant render
+  // Determine if this decentr-search: request is coming from an Instant render
   // process.
   static bool ShouldServiceRequest(const GURL& url,
                                    content::BrowserContext* browser_context,

@@ -28,19 +28,19 @@ you find, either:
 ## Wait, What Are You Doing?
 
 When the flag ownership project started, many of the hundreds of flags in
-`chrome://flags` were obsolete and unused, but each of them represented
+`decentr://flags` were obsolete and unused, but each of them represented
 configuration surface that was exposed to users and to QA. Worse, obsolete flags
 often prevented removal of legacy code paths that were not used in the field but
 were still reachable via a flag setting.
 
 The flag ownership project has dealt with that by moving Chromium towards a
-model where `chrome://flags` entries are what they were originally intended to
+model where `decentr://flags` entries are what they were originally intended to
 be: temporary, experimental options. Each flag must have a set owner who can
 keep track of whether or when that flag should expire and an express time by
 which it will expire, either because the feature it controls will have become
 default-enabled or because the feature it controls will have been cancelled.
 
-Note that this change only affects `chrome://flags` entries, not features
+Note that this change only affects `decentr://flags` entries, not features
 controlled via [`FeatureList`](../base/feature_list.h) (commonly used to run
 Finch trials) or command-line switches.
 

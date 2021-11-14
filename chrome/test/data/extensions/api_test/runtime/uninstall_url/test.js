@@ -37,8 +37,8 @@ chrome.test.runTests([
     });
   },
   function uninstallInvalidURLNonHttpOrHttps() {
-    chrome.runtime.setUninstallURL('chrome://newtab', function() {
-      chrome.test.assertLastError('Invalid URL: "chrome://newtab".');
+    chrome.runtime.setUninstallURL('decentr://newtab', function() {
+      chrome.test.assertLastError('Invalid URL: "decentr://newtab".');
       chrome.test.succeed();
     });
   }

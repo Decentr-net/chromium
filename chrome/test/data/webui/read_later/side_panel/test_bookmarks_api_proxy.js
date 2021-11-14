@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BookmarksApiProxy} from 'chrome://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
+import {BookmarksApiProxy} from 'decentr://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
 
 import {TestBrowserProxy} from '../../test_browser_proxy.js';
 

@@ -9,8 +9,8 @@
  * calls.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {Action} from 'chrome://resources/js/cr/ui/store.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {Action} from 'decentr://resources/js/cr/ui/store.m.js';
 
 import {ChangeFolderOpenAction, CreateBookmarkAction, EditBookmarkAction, FinishSearchAction, MoveBookmarkAction, RefreshNodesAction, RemoveBookmarkAction, ReorderChildrenAction, SelectFolderAction, SelectItemsAction, SetPrefAction, StartSearchAction, UpdateAnchorAction} from './actions.js';
 import {BookmarkNode, BookmarksPageState, FolderOpenState, NodeMap, PreferencesState, SearchState, SelectionState} from './types.js';

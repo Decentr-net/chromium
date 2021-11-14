@@ -16,7 +16,7 @@ namespace multidevice {
 
 // Use the PA_LOG() macro for all logging related to Proximity Auth, so the
 // system is aware of all logs related to this feature. We display these logs in
-// the debug WebUI (chrome://proximity-auth).
+// the debug WebUI (decentr://proximity-auth).
 //
 // PA_LOG() has the same interface as the standard LOG() macro and also creates
 // a normal log message of the same severity.

@@ -103,7 +103,7 @@ class ChromeJsErrorReportProcessor : public JsErrorReportProcessor {
   virtual std::string GetCrashEndpointStaging();
 
   // Update the uploads.log file with a record of this error report. This
-  // ensures that the error appears on chrome://crashes and is listed in the
+  // ensures that the error appears on decentr://crashes and is listed in the
   // feedback reports.
   virtual void UpdateReportDatabase(std::string remote_report_id,
                                     base::Time report_time);

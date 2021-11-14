@@ -81,7 +81,7 @@ class WebClient {
 
   // Returns true if URL has application specific schema. Embedder must return
   // true for every custom app specific schema it supports. For example Chromium
-  // browser would return true for "chrome://about" URL.
+  // browser would return true for "decentr://about" URL.
   virtual bool IsAppSpecificURL(const GURL& url) const;
 
   // Returns text to be displayed for an unsupported plugin.

@@ -48,7 +48,7 @@ constexpr int kLabelTextFontSizeDip = 14;
 // URL of the multidevice settings page with the URL parameter that will
 // start up the opt-in-flow.
 constexpr char kMultideviceSettingsUrl[] =
-    "chrome://os-settings/multidevice/"
+    "decentr://os-settings/multidevice/"
     "features?showNotificationAccessSetupDialog";
 
 }  // namespace

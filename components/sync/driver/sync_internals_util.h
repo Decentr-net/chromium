@@ -72,7 +72,7 @@ extern const char kOnInvalidationReceived[];
 using IncludeSensitiveData =
     base::StrongAlias<class IncludeSensitiveDataTag, bool>;
 // This function returns a DictionaryValue which contains all the information
-// required to populate the 'About' tab of chrome://sync-internals.
+// required to populate the 'About' tab of decentr://sync-internals.
 // Note that |service| may be null.
 // If |include_sensitive_data| is false, Personally Identifiable Information
 // won't be included in the return value.

@@ -44,7 +44,7 @@ namespace browsing_data {
 // Returns true iff the provided scheme is (really) web safe, and suitable
 // for treatment as "browsing data". This relies on the definition of web safe
 // in ChildProcessSecurityPolicy, but excluding schemes like
-// `chrome-extension`.
+// `decentr-extension`.
 bool IsWebScheme(const std::string& scheme);
 bool HasWebScheme(const GURL& origin);
 

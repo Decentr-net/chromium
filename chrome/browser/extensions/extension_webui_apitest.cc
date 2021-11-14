@@ -72,13 +72,13 @@ class ExtensionWebUITest : public ExtensionApiTest {
   }
 
   testing::AssertionResult RunTestOnExtensionsPage(const char* name) {
-    return RunTest(name, GURL("chrome://extensions"), true);
+    return RunTest(name, GURL("decentr://extensions"), true);
   }
 
   testing::AssertionResult RunTestOnAboutPage(const char* name) {
-    // chrome://about is an innocuous page that doesn't have any bindings.
+    // decentr://about is an innocuous page that doesn't have any bindings.
     // Tests should fail.
-    return RunTest(name, GURL("chrome://about"), false);
+    return RunTest(name, GURL("decentr://about"), false);
   }
 };
 
@@ -354,7 +354,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionWebUITest, MultipleURLListeners) {
   content::URLDataSource::Add(profile(),
                               std::make_unique<TestDataSource>("extensions"));
   EXPECT_TRUE(ui_test_utils::NavigateToURL(browser(),
-                                           GURL("chrome://test/body1.html")));
+                                           GURL("decentr://test/body1.html")));
   content::WebContents* web_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
   content::RenderFrameHost* main_frame = web_contents->GetMainFrame();
@@ -366,7 +366,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionWebUITest, MultipleURLListeners) {
       const listener = e => {};
       chrome.test.onMessage.addListener(listener);
       const iframe = document.createElement('iframe');
-      iframe.src = 'chrome://test/body2.html';
+      iframe.src = 'decentr://test/body2.html';
       document.body.appendChild(iframe);
   )"));
   EXPECT_TRUE(event_router->HasEventListener("test.onMessage"));
@@ -374,7 +374,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionWebUITest, MultipleURLListeners) {
 
   // Add and remove the listener in the child frame.
   content::RenderFrameHost* child_frame = ChildFrameAt(main_frame, 0);
-  EXPECT_EQ(GURL("chrome://test/body2.html"),
+  EXPECT_EQ(GURL("decentr://test/body2.html"),
             child_frame->GetLastCommittedURL());
   EXPECT_TRUE(content::ExecuteScript(child_frame, R"(
       const listener = e => {};

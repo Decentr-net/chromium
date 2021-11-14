@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {FakeEntryImpl} from '../../common/js/files_app_entry_types.js';
 import {str, strf, util} from '../../common/js/util.js';

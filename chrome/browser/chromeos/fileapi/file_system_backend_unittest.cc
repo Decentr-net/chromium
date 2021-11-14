@@ -31,7 +31,7 @@ FileSystemURL CreateFileSystemURL(const std::string& extension,
                                   const char* path,
                                   ExternalMountPoints* mount_points) {
   return mount_points->CreateCrackedFileSystemURL(
-      blink::StorageKey::CreateFromStringForTesting("chrome-extension://" +
+      blink::StorageKey::CreateFromStringForTesting("decentr-extension://" +
                                                     extension + "/"),
       storage::kFileSystemTypeExternal, base::FilePath::FromUTF8Unsafe(path));
 }

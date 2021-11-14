@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrTabsElement} from 'chrome://resources/cr_elements/cr_tabs/cr_tabs.js';
+import {CrTabsElement} from 'decentr://resources/cr_elements/cr_tabs/cr_tabs.js';
 
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyDownOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyDownOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
 
 import {assertEquals, assertNotEquals, assertTrue} from '../chai_assert.js';
 import {eventToPromise, flushTasks} from '../test_util.js';
@@ -20,7 +20,7 @@ suite('cr_tabs_test', function() {
     document.body.innerHTML = '';
     tabs = /** @type {!CrTabsElement} */ (document.createElement('cr-tabs'));
     tabs.tabNames = ['tab1', 'tab2', 'tab3'];
-    tabs.tabIcons = ['chrome://icon1.png'];
+    tabs.tabIcons = ['decentr://icon1.png'];
     document.body.appendChild(tabs);
     return flushTasks();
   });

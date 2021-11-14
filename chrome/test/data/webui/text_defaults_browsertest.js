@@ -15,10 +15,10 @@ TextDefaultsTest.prototype = {
   __proto__: testing.Test.prototype,
 
   /**
-   * Must be on same domain as text_defaults.css (chrome://resources).
+   * Must be on same domain as text_defaults.css (decentr://resources).
    * @override
    */
-  browsePreload: 'chrome://resources/html/assert.html',
+  browsePreload: 'decentr://resources/html/assert.html',
 
   /** @override */
   isAsync: true,
@@ -37,7 +37,7 @@ function decodeHtmlEntities(html) {
 TEST_F('TextDefaultsTest', 'ScrapeStyles', function() {
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'chrome://resources/css/text_defaults.css';
+  link.href = 'decentr://resources/css/text_defaults.css';
   link.onload = function() {
     var fontFamily = link.sheet.rules[1].style['font-family'];
     assertNotEquals('', fontFamily);
@@ -50,7 +50,7 @@ TEST_F('TextDefaultsTest', 'ScrapeStyles', function() {
 TEST_F('TextDefaultsTest', 'ScrapeMDStyles', function() {
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'chrome://resources/css/text_defaults_md.css';
+  link.href = 'decentr://resources/css/text_defaults_md.css';
   link.onload = function() {
     var fontFamily = link.sheet.rules[2].style['font-family'];
     assertNotEquals('', fontFamily);

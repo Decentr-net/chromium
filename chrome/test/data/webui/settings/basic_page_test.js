@@ -5,11 +5,11 @@
 /** @fileoverview Suite of tests for the Settings basic page. */
 
 // clang-format off
-import 'chrome://settings/settings.js';
+import 'decentr://settings/settings.js';
 
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {loadTimeData, pageVisibility, Router, routes} from 'chrome://settings/settings.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData, pageVisibility, Router, routes} from 'decentr://settings/settings.js';
 
 import {eventToPromise, flushTasks, isVisible} from '../test_util.js';
 // clang-format on

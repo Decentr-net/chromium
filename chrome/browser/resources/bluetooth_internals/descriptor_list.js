@@ -4,12 +4,12 @@
 
 /**
  * Javascript for DescriptorList and DescriptorListItem, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
 
 import {connectToDevice} from './device_broker.js';
 import {ExpandableList, ExpandableListItem} from './expandable_list.js';

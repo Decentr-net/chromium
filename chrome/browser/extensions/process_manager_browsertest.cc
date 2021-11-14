@@ -828,7 +828,7 @@ IN_PROC_BROWSER_TEST_F(ProcessManagerBrowserTest,
   // Ideally, this would be a GURL, but it's easier to compose the rest of the
   // URLs if this is a std::string. Meh.
   const std::string extension_base_url =
-      base::StrCat({"chrome-extension://", extension->id()});
+      base::StrCat({"decentr-extension://", extension->id()});
   const GURL extension_blob_url =
       GURL(base::StrCat({"blob:", extension_base_url, "/some-guid"}));
   const GURL extension_file_system_url =

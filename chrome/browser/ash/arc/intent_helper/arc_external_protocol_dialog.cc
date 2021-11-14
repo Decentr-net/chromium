@@ -301,7 +301,7 @@ GetActionResult GetAction(
     // |in_out_safe_to_bypass_ui|, this means that we trust the current tab
     // since its content was originated from ARC.
     // 3) its package and activity are for opening ARC IME settings page. The
-    // activity is launched with an explicit user action in chrome://settings.
+    // activity is launched with an explicit user action in decentr://settings.
     if (handlers.size() == 1) {
       const GetActionResult internal_result = GetActionInternal(
           original_url, handlers[0], out_url_and_activity_name);

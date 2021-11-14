@@ -29,7 +29,7 @@ import {assert, assertNotReached} from '//resources/js/assert.m.js';
 import {focusWithoutInk} from '//resources/js/cr/ui/focus_without_ink.m.js';
 import {WebUIListenerMixin, WebUIListenerMixinInterface} from '//resources/js/web_ui_listener_mixin.js';
 import {flush, html, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {I18nMixin, I18nMixinInterface} from 'chrome://resources/js/i18n_mixin.js';
+import {I18nMixin, I18nMixinInterface} from 'decentr://resources/js/i18n_mixin.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 import {SettingsPersonalizationOptionsElement} from '../privacy_page/personalization_options.js';
@@ -109,7 +109,7 @@ export class SettingsSyncPageElement extends SettingsSyncPageElementBase {
        * Dictionary defining page visibility.
        * TODO(dpapad): Restore the type information here
        * (PrivacyPageVisibility), when this file is no longer shared with
-       * chrome://os-settings.
+       * decentr://os-settings.
        */
       pageVisibility: Object,
 

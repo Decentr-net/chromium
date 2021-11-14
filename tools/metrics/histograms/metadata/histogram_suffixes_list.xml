@@ -7814,7 +7814,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 <histogram_suffixes name="MemoryFDsAllProcesses" separator="."
     ordering="prefix">
   <suffix name="Browser" label="Browser process"/>
-  <suffix name="Chrome" label="chrome:// renderer process"/>
+  <suffix name="Chrome" label="decentr:// renderer process"/>
   <suffix name="Extension" label="Extension process"/>
   <suffix name="Gpu" label="GPU process"/>
   <suffix name="NativeClient" label="Native client process"/>
@@ -17119,11 +17119,11 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 </histogram_suffixes>
 
 <histogram_suffixes name="SyncFaviconRequestOrigin" separator=".">
-  <suffix name="HISTORY" label="Request made by chrome://history."/>
+  <suffix name="HISTORY" label="Request made by decentr://history."/>
   <suffix name="RECENTLY_CLOSED_TABS"
       label="Request made by the recently closed tabs menu."/>
   <suffix name="SYNCED_TABS"
-      label="Request made by chrome://history/syncedTabs."/>
+      label="Request made by decentr://history/syncedTabs."/>
   <suffix name="UNKNOWN" label="Request made by an unknown source.">
     <obsolete>
       Removed in M77.

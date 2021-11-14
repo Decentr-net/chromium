@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {LanguagesBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {Router, routes} from 'chrome://settings/settings.js';
-import {FakeLanguageSettingsPrivate} from 'chrome://test/settings/fake_language_settings_private.js';
-import {TestLanguagesBrowserProxy} from 'chrome://test/settings/test_languages_browser_proxy.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {LanguagesBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {Router, routes} from 'decentr://settings/settings.js';
+import {FakeLanguageSettingsPrivate} from 'decentr://test/settings/fake_language_settings_private.js';
+import {TestLanguagesBrowserProxy} from 'decentr://test/settings/test_languages_browser_proxy.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 const fakeLanguageSettingsPrivate = new FakeLanguageSettingsPrivate();
 const fakeLanugagesProxy = new TestLanguagesBrowserProxy();

@@ -56,7 +56,7 @@ gfx::Rect GetDefaultBoundsForHelpApp(Browser*) {
 HelpAppSystemAppDelegate::HelpAppSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(web_app::SystemAppType::HELP,
                                     "Help",
-                                    GURL("chrome://help-app/pwa.html"),
+                                    GURL("decentr://help-app/pwa.html"),
                                     profile) {}
 
 gfx::Rect HelpAppSystemAppDelegate::GetDefaultBounds(Browser* browser) const {
@@ -79,7 +79,7 @@ absl::optional<web_app::SystemAppBackgroundTaskInfo>
 HelpAppSystemAppDelegate::GetTimerInfo() const {
   if (base::FeatureList::IsEnabled(features::kHelpAppBackgroundPage)) {
     return web_app::SystemAppBackgroundTaskInfo(
-        absl::nullopt, GURL("chrome://help-app/background"),
+        absl::nullopt, GURL("decentr://help-app/background"),
         /*open_immediately=*/true);
   } else {
     return absl::nullopt;

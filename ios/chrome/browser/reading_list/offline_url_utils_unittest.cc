@@ -20,7 +20,7 @@
 using OfflineURLUtilsTest = PlatformTest;
 
 // Checks the distilled URL for the page with an onlineURL is
-// chrome://offline/MD5/page.html?entryURL=...&virtualURL=...
+// decentr://offline/MD5/page.html?entryURL=...&virtualURL=...
 TEST_F(OfflineURLUtilsTest, OfflineURLForPathWithEntryURLAndVirtualURLTest) {
   base::FilePath page_path("MD5/page.html");
   GURL entry_url = GURL("http://foo.bar");
@@ -28,16 +28,16 @@ TEST_F(OfflineURLUtilsTest, OfflineURLForPathWithEntryURLAndVirtualURLTest) {
   GURL distilled_url =
       reading_list::OfflineURLForPath(page_path, entry_url, virtual_url);
   EXPECT_EQ(
-      "chrome://offline/MD5/page.html?"
+      "decentr://offline/MD5/page.html?"
       "entryURL=http%3A%2F%2Ffoo.bar%2F&"
       "virtualURL=http%3A%2F%2Ffoo.bar%2Fvirtual",
       distilled_url.spec());
 }
 
-// Checks the parsing of offline URL chrome://offline/MD5/page.html.
+// Checks the parsing of offline URL decentr://offline/MD5/page.html.
 // As entryURL and virtualURL are absent, they should be invalid.
 TEST_F(OfflineURLUtilsTest, ParseOfflineURLTest) {
-  GURL distilled_url("chrome://offline/MD5/page.html");
+  GURL distilled_url("decentr://offline/MD5/page.html");
   GURL entry_url = reading_list::EntryURLForOfflineURL(distilled_url);
   EXPECT_TRUE(entry_url.is_empty());
   GURL virtual_url = reading_list::VirtualURLForOfflineURL(distilled_url);
@@ -45,12 +45,12 @@ TEST_F(OfflineURLUtilsTest, ParseOfflineURLTest) {
 }
 
 // Checks the parsing of offline URL
-// chrome://offline/MD5/page.html?entryURL=encorded%20URL
+// decentr://offline/MD5/page.html?entryURL=encorded%20URL
 // As entryURL is present, it should be returned correctly.
 // As virtualURL is absent, it should return GURL::EmptyGURL().
 TEST_F(OfflineURLUtilsTest, ParseOfflineURLWithEntryURLTest) {
   GURL offline_url(
-      "chrome://offline/MD5/page.html?entryURL=http%3A%2F%2Ffoo.bar%2F");
+      "decentr://offline/MD5/page.html?entryURL=http%3A%2F%2Ffoo.bar%2F");
   GURL entry_url = reading_list::EntryURLForOfflineURL(offline_url);
   EXPECT_EQ("http://foo.bar/", entry_url.spec());
   GURL virtual_url = reading_list::VirtualURLForOfflineURL(offline_url);
@@ -58,12 +58,12 @@ TEST_F(OfflineURLUtilsTest, ParseOfflineURLWithEntryURLTest) {
 }
 
 // Checks the parsing of offline URL
-// chrome://offline/MD5/page.html?virtualURL=encorded%20URL
+// decentr://offline/MD5/page.html?virtualURL=encorded%20URL
 // As entryURL is absent, it should return the offline URL.
 // As virtualURL is present, it should be returned correctly.
 TEST_F(OfflineURLUtilsTest, ParseOfflineURLWithVirtualURLTest) {
   GURL offline_url(
-      "chrome://offline/MD5/page.html?virtualURL=http%3A%2F%2Ffoo.bar%2F");
+      "decentr://offline/MD5/page.html?virtualURL=http%3A%2F%2Ffoo.bar%2F");
   GURL entry_url = reading_list::EntryURLForOfflineURL(offline_url);
   EXPECT_TRUE(entry_url.is_empty());
   GURL virtual_url = reading_list::VirtualURLForOfflineURL(offline_url);
@@ -71,12 +71,12 @@ TEST_F(OfflineURLUtilsTest, ParseOfflineURLWithVirtualURLTest) {
 }
 
 // Checks the parsing of offline URL
-// chrome://offline/MD5/page.html?entryURL=...&virtualURL=...
+// decentr://offline/MD5/page.html?entryURL=...&virtualURL=...
 // As entryURL is present, it should be returned correctly.
 // As virtualURL is present, it should be returned correctly.
 TEST_F(OfflineURLUtilsTest, ParseOfflineURLWithVirtualAndEntryURLTest) {
   GURL offline_url(
-      "chrome://offline/MD5/"
+      "decentr://offline/MD5/"
       "page.html?virtualURL=http%3A%2F%2Ffoo.bar%2Fvirtual&entryURL=http%3A%2F%"
       "2Ffoo.bar%2Fentry");
   GURL entry_url = reading_list::EntryURLForOfflineURL(offline_url);
@@ -85,9 +85,9 @@ TEST_F(OfflineURLUtilsTest, ParseOfflineURLWithVirtualAndEntryURLTest) {
   EXPECT_EQ("http://foo.bar/virtual", virtual_url.spec());
 }
 
-// Checks the file path for chrome://offline/MD5/page.html is
+// Checks the file path for decentr://offline/MD5/page.html is
 // file://profile_path/Offline/MD5/page.html.
-// Checks the resource root for chrome://offline/MD5/page.html is
+// Checks the resource root for decentr://offline/MD5/page.html is
 // file://profile_path/Offline/MD5
 TEST_F(OfflineURLUtilsTest, FileURLForDistilledURLTest) {
   base::FilePath offline_path("/profile_path/Offline");
@@ -95,7 +95,7 @@ TEST_F(OfflineURLUtilsTest, FileURLForDistilledURLTest) {
       reading_list::FileURLForDistilledURL(GURL(), offline_path, nullptr);
   EXPECT_FALSE(file_url.is_valid());
 
-  GURL distilled_url("chrome://offline/MD5/page.html");
+  GURL distilled_url("decentr://offline/MD5/page.html");
   file_url = reading_list::FileURLForDistilledURL(distilled_url, offline_path,
                                                   nullptr);
   EXPECT_TRUE(file_url.is_valid());
@@ -113,75 +113,75 @@ TEST_F(OfflineURLUtilsTest, FileURLForDistilledURLTest) {
 // Checks that the offline URLs are correctly detected by |IsOfflineURL|.
 TEST_F(OfflineURLUtilsTest, IsOfflineURL) {
   EXPECT_FALSE(reading_list::IsOfflineURL(GURL()));
-  EXPECT_FALSE(reading_list::IsOfflineURL(GURL("chrome://")));
-  EXPECT_FALSE(reading_list::IsOfflineURL(GURL("chrome://offline-foobar")));
+  EXPECT_FALSE(reading_list::IsOfflineURL(GURL("decentr://")));
+  EXPECT_FALSE(reading_list::IsOfflineURL(GURL("decentr://offline-foobar")));
   EXPECT_FALSE(reading_list::IsOfflineURL(GURL("http://offline/")));
-  EXPECT_FALSE(reading_list::IsOfflineURL(GURL("http://chrome://offline/")));
-  EXPECT_TRUE(reading_list::IsOfflineURL(GURL("chrome://offline")));
-  EXPECT_TRUE(reading_list::IsOfflineURL(GURL("chrome://offline/")));
-  EXPECT_TRUE(reading_list::IsOfflineURL(GURL("chrome://offline/foobar")));
+  EXPECT_FALSE(reading_list::IsOfflineURL(GURL("http://decentr://offline/")));
+  EXPECT_TRUE(reading_list::IsOfflineURL(GURL("decentr://offline")));
+  EXPECT_TRUE(reading_list::IsOfflineURL(GURL("decentr://offline/")));
+  EXPECT_TRUE(reading_list::IsOfflineURL(GURL("decentr://offline/foobar")));
   EXPECT_TRUE(
-      reading_list::IsOfflineURL(GURL("chrome://offline/foobar?foo=bar")));
+      reading_list::IsOfflineURL(GURL("decentr://offline/foobar?foo=bar")));
   EXPECT_TRUE(reading_list::IsOfflineURL(
-      GURL("chrome://offline/foobar?entryURL=http%3A%2F%2Ffoo.bar%2F")));
+      GURL("decentr://offline/foobar?entryURL=http%3A%2F%2Ffoo.bar%2F")));
   EXPECT_TRUE(reading_list::IsOfflineURL(
-      GURL("chrome://offline/foobar?reload=http%3A%2F%2Ffoo.bar%2F")));
+      GURL("decentr://offline/foobar?reload=http%3A%2F%2Ffoo.bar%2F")));
 }
 
 // Checks that the offline URLs are correctly detected by |IsOfflineEntryURL|.
 TEST_F(OfflineURLUtilsTest, IsOfflineEntryURL) {
   EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL()));
-  EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("chrome://")));
+  EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("decentr://")));
   EXPECT_FALSE(
-      reading_list::IsOfflineEntryURL(GURL("chrome://offline-foobar")));
+      reading_list::IsOfflineEntryURL(GURL("decentr://offline-foobar")));
   EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("http://offline/")));
   EXPECT_FALSE(
-      reading_list::IsOfflineEntryURL(GURL("http://chrome://offline/")));
-  EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("chrome://offline")));
-  EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("chrome://offline/")));
+      reading_list::IsOfflineEntryURL(GURL("http://decentr://offline/")));
+  EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("decentr://offline")));
+  EXPECT_FALSE(reading_list::IsOfflineEntryURL(GURL("decentr://offline/")));
   EXPECT_FALSE(
-      reading_list::IsOfflineEntryURL(GURL("chrome://offline/foobar")));
+      reading_list::IsOfflineEntryURL(GURL("decentr://offline/foobar")));
   EXPECT_FALSE(
-      reading_list::IsOfflineEntryURL(GURL("chrome://offline/foobar?foo=bar")));
+      reading_list::IsOfflineEntryURL(GURL("decentr://offline/foobar?foo=bar")));
   EXPECT_TRUE(reading_list::IsOfflineEntryURL(
-      GURL("chrome://offline/foobar?entryURL=http%3A%2F%2Ffoo.bar%2F")));
+      GURL("decentr://offline/foobar?entryURL=http%3A%2F%2Ffoo.bar%2F")));
   EXPECT_FALSE(reading_list::IsOfflineEntryURL(
-      GURL("chrome://offline/foobar?reload=http%3A%2F%2Ffoo.bar%2F")));
+      GURL("decentr://offline/foobar?reload=http%3A%2F%2Ffoo.bar%2F")));
 }
 
 // Checks that the offline URLs are correctly detected by |IsOfflineReloadURL|.
 TEST_F(OfflineURLUtilsTest, IsOfflineReloadURL) {
   EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL()));
-  EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("chrome://")));
+  EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("decentr://")));
   EXPECT_FALSE(
-      reading_list::IsOfflineReloadURL(GURL("chrome://offline-foobar")));
+      reading_list::IsOfflineReloadURL(GURL("decentr://offline-foobar")));
   EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("http://offline/")));
   EXPECT_FALSE(
-      reading_list::IsOfflineReloadURL(GURL("http://chrome://offline/")));
-  EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("chrome://offline")));
-  EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("chrome://offline/")));
+      reading_list::IsOfflineReloadURL(GURL("http://decentr://offline/")));
+  EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("decentr://offline")));
+  EXPECT_FALSE(reading_list::IsOfflineReloadURL(GURL("decentr://offline/")));
   EXPECT_FALSE(
-      reading_list::IsOfflineReloadURL(GURL("chrome://offline/foobar")));
+      reading_list::IsOfflineReloadURL(GURL("decentr://offline/foobar")));
   EXPECT_FALSE(reading_list::IsOfflineReloadURL(
-      GURL("chrome://offline/foobar?foo=bar")));
+      GURL("decentr://offline/foobar?foo=bar")));
   EXPECT_FALSE(reading_list::IsOfflineReloadURL(
-      GURL("chrome://offline/foobar?entryURL=http%3A%2F%2Ffoo.bar%2F")));
+      GURL("decentr://offline/foobar?entryURL=http%3A%2F%2Ffoo.bar%2F")));
   EXPECT_TRUE(reading_list::IsOfflineReloadURL(
-      GURL("chrome://offline/foobar?reload=http%3A%2F%2Ffoo.bar%2F")));
+      GURL("decentr://offline/foobar?reload=http%3A%2F%2Ffoo.bar%2F")));
 }
 
 // Checks the offline URL to reload URL is
-// chrome://offline?reload=URL
+// decentr://offline?reload=URL
 TEST_F(OfflineURLUtilsTest, OfflineReloadURLForURLTest) {
   GURL reload_url = GURL("http://foo.bar");
   GURL offline_url = reading_list::OfflineReloadURLForURL(reload_url);
-  EXPECT_EQ("chrome://offline/?reload=http%3A%2F%2Ffoo.bar%2F",
+  EXPECT_EQ("decentr://offline/?reload=http%3A%2F%2Ffoo.bar%2F",
             offline_url.spec());
 }
 
-// Extracts the reload URL from chrome://offline?reload=URL
+// Extracts the reload URL from decentr://offline?reload=URL
 TEST_F(OfflineURLUtilsTest, ReloadURLForOfflineURLTest) {
-  GURL offline_url = GURL("chrome://offline?reload=http%3A%2F%2Ffoo.bar%2F");
+  GURL offline_url = GURL("decentr://offline?reload=http%3A%2F%2Ffoo.bar%2F");
   GURL reload_url = reading_list::ReloadURLForOfflineURL(offline_url);
   EXPECT_EQ("http://foo.bar/", reload_url.spec());
 }

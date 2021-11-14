@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {define} from 'chrome://resources/js/cr/ui.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {define} from 'decentr://resources/js/cr/ui.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 let tokenList;
 

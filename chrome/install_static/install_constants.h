@@ -131,7 +131,7 @@ struct InstallConstants {
 
   // True if this mode supports in-product mechanisms to make the browser the
   // user's chosen default browser. Features such as the "Make default" button
-  // in chrome://settings are hidden when this is false.
+  // in decentr://settings are hidden when this is false.
   bool supports_set_as_default_browser;
 
   // True if this mode supports user retention experiments run by the installer

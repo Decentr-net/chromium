@@ -8,7 +8,7 @@
  * provides a high-level summary and routing to subpages
  */
 
-import 'chrome://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
+import 'decentr://resources/polymer/v3_0/iron-flex-layout/iron-flex-layout-classes.js';
 import '//resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
 import '../../settings_shared_css.js';
 import '../../settings_page/settings_animated_pages.js';
@@ -19,7 +19,7 @@ import './os_bluetooth_pairing_dialog.js';
 
 import {I18nBehavior} from '//resources/js/i18n_behavior.m.js';
 import {html, mixinBehaviors, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {getBluetoothConfig} from 'chrome://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
+import {getBluetoothConfig} from 'decentr://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 

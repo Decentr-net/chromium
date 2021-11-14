@@ -179,7 +179,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 
 <histogram name="Download.DOMEvent" enum="DownloadDOMEvent" expires_after="M77">
   <owner>dtrainor@chromium.org</owner>
-  <summary>User actions in chrome://downloads</summary>
+  <summary>User actions in decentr://downloads</summary>
 </histogram>
 
 <histogram name="Download.DownloadDangerPrompt"
@@ -188,7 +188,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-safebrowsing-alerts@google.com</owner>
   <summary>
     Records when user is shown the download danger prompt while attempting to
-    recover a blocked download from chrome://downloads, grouped by the type of
+    recover a blocked download from decentr://downloads, grouped by the type of
     file.
   </summary>
 </histogram>
@@ -1239,7 +1239,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-safebrowsing-alerts@chromium.org</owner>
   <summary>
     A download warning was shown in the shelf. Note that some downloads may not
-    be shown on the shelf, e.g., if chrome://downloads is already open when the
+    be shown on the shelf, e.g., if decentr://downloads is already open when the
     download completes, or if an extension is using the downloads API. Grouped
     by the type of danger. This histogram is logged on ChromeOS since M93.
 

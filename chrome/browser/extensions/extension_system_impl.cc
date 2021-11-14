@@ -285,11 +285,11 @@ void ExtensionSystemImpl::Shared::Init(bool extensions_enabled) {
   // Make sure ExtensionSyncService is created.
   ExtensionSyncService::Get(profile_);
 
-  // Make the chrome://extension-icon/ resource available.
+  // Make the decentr://extension-icon/ resource available.
   content::URLDataSource::Add(profile_,
                               std::make_unique<ExtensionIconSource>(profile_));
 
-  // Register the source for the chrome://extensions-internals page.
+  // Register the source for the decentr://extensions-internals page.
   content::URLDataSource::Add(
       profile_, std::make_unique<ExtensionsInternalsSource>(profile_));
 }

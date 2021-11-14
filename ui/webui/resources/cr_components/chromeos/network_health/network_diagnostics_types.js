@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_health/public/mojom/network_diagnostics.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_health/public/mojom/network_diagnostics.mojom-lite.js';
 // clang-format on
 
 /**

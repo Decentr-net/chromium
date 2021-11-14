@@ -5,7 +5,7 @@
 GEN('#include "ash/constants/ash_features.h"');
 GEN('#include "content/public/test/browser_test.h"')
 
-const HOST_ORIGIN = 'chrome://demo-mode-app';
+const HOST_ORIGIN = 'decentr://demo-mode-app';
 
 var DemoModeAppUIBrowserTest = class extends testing.Test {
   /** @override */
@@ -24,7 +24,7 @@ var DemoModeAppUIBrowserTest = class extends testing.Test {
   }
 };
 
-// Tests that chrome://demo-mode-app runs js file and that it goes
+// Tests that decentr://demo-mode-app runs js file and that it goes
 // somewhere instead of 404ing or crashing.
 TEST_F('DemoModeAppUIBrowserTest', 'HasChromeSchemeURL', () => {
   const header = document.querySelector('h1');

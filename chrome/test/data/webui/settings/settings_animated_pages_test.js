@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {Route, Router} from 'chrome://settings/settings.js';
-import {setupPopstateListener} from 'chrome://test/settings/test_util.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {Route, Router} from 'decentr://settings/settings.js';
+import {setupPopstateListener} from 'decentr://test/settings/test_util.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 // clang-format on
 

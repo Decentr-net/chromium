@@ -49,5 +49,5 @@ flattening HTML.
 
 ## How to debug
 To debug the contents in the webview, navigate to the development tools
-page inspector (`chrome://inspect/#pages`), and select the inspect link from the
-subpage you see there under the `chrome://discards` page.
+page inspector (`decentr://inspect/#pages`), and select the inspect link from the
+subpage you see there under the `decentr://discards` page.

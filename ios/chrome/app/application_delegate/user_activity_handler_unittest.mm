@@ -727,10 +727,10 @@ TEST_F(UserActivityHandlerTest, ContinueUserActivityIntentForeground) {
 }
 
 // Tests that handleStartupParameters with a file url. "external URL" gets
-// rewritten to chrome://URL, while "complete URL" remains full local file URL.
+// rewritten to decentr://URL, while "complete URL" remains full local file URL.
 TEST_F(UserActivityHandlerTest, HandleStartupParamsWithExternalFile) {
   // Setup.
-  GURL externalURL("chrome://test.pdf");
+  GURL externalURL("decentr://test.pdf");
   GURL completeURL("file://test.pdf");
 
   AppStartupParameters* startupParams =
@@ -769,7 +769,7 @@ TEST_F(UserActivityHandlerTest, HandleStartupParamsWithExternalFile) {
   // Tests.
   EXPECT_OCMOCK_VERIFY(startupInformationMock);
   // External file:// URL will be loaded by WebState, which expects complete
-  // file:// URL. chrome:// URL is expected to be displayed in the omnibox,
+  // file:// URL. decentr:// URL is expected to be displayed in the omnibox,
   // and omnibox shows virtual URL.
   EXPECT_EQ(completeURL, tabOpener.urlLoadParams.web_params.url);
   EXPECT_EQ(externalURL, tabOpener.urlLoadParams.web_params.virtual_url);
@@ -908,7 +908,7 @@ TEST_F(UserActivityHandlerTest, HandleStartupParamsU2F) {
 TEST_F(UserActivityHandlerTest,
        MAYBE_PerformActionForShortcutItemWithRealShortcut) {
   // Setup.
-  GURL gurlNewTab("chrome://newtab/");
+  GURL gurlNewTab("decentr://newtab/");
 
   FakeStartupInformation* fakeStartupInformation =
       [[FakeStartupInformation alloc] init];

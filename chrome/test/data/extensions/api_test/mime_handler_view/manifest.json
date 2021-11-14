@@ -1,6 +1,6 @@
 {
   // This extension's id is allowed to handle mime types.
-  // chrome-extension://oickdpebdnfbgkcaoklfcdhjniefkcji
+  // decentr-extension://oickdpebdnfbgkcaoklfcdhjniefkcji
   "name": "Test MIMEHandlerView",
   "version": "1",
   "manifest_version": 2,

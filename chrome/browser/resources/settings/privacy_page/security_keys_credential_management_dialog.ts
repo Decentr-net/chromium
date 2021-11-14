@@ -7,23 +7,23 @@
  * dialog for viewing and erasing credentials stored on a security key.
  */
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import 'chrome://resources/polymer/v3_0/iron-pages/iron-pages.js';
-import 'chrome://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/polymer/v3_0/iron-pages/iron-pages.js';
+import 'decentr://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
 import '../settings_shared_css.js';
 import '../site_favicon.js';
 import './security_keys_pin_field.js';
 
-import {CrCheckboxElement} from 'chrome://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
-import {CrDialogElement} from 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {I18nMixin} from 'chrome://resources/js/i18n_mixin.js';
-import {WebUIListenerMixin} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {IronListElement} from 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrCheckboxElement} from 'decentr://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
+import {CrDialogElement} from 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {I18nMixin} from 'decentr://resources/js/i18n_mixin.js';
+import {WebUIListenerMixin} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {IronListElement} from 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 

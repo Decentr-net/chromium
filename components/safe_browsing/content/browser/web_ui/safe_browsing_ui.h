@@ -116,51 +116,51 @@ class SafeBrowsingUIHandler : public content::WebUIMessageHandler {
   void GetDatabaseManagerInfo(const base::ListValue* args);
 
   // Get the download URLs that have been checked since the oldest currently
-  // open chrome://safe-browsing tab was opened.
+  // open decentr://safe-browsing tab was opened.
   void GetDownloadUrlsChecked(const base::ListValue* args);
 
   // Get the ClientDownloadRequests that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetSentClientDownloadRequests(const base::ListValue* args);
 
   // Get the ClientDownloadReponses that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetReceivedClientDownloadResponses(const base::ListValue* args);
 
   // Get the ClientPhishingRequests that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetSentClientPhishingRequests(const base::ListValue* args);
 
   // Get the ClientPhishingResponses that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetReceivedClientPhishingResponses(const base::ListValue* args);
 
   // Get the ThreatDetails that have been collected since the oldest currently
-  // open chrome://safe-browsing tab was opened.
+  // open decentr://safe-browsing tab was opened.
   void GetSentCSBRRs(const base::ListValue* args);
 
   // Get the PhishGuard events that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetPGEvents(const base::ListValue* args);
 
   // Get the Security events that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetSecurityEvents(const base::ListValue* args);
 
   // Get the PhishGuard pings that have been sent since the oldest currently
-  // open chrome://safe-browsing tab was opened.
+  // open decentr://safe-browsing tab was opened.
   void GetPGPings(const base::ListValue* args);
 
   // Get the PhishGuard responses that have been received since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetPGResponses(const base::ListValue* args);
 
   // Get the real time lookup pings that have been sent since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetRTLookupPings(const base::ListValue* args);
 
   // Get the real time lookup responses that have been received since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetRTLookupResponses(const base::ListValue* args);
 
   // Get the current referrer chain for a given URL.
@@ -171,15 +171,15 @@ class SafeBrowsingUIHandler : public content::WebUIMessageHandler {
   void GetReferringAppInfo(const base::ListValue* args);
 
   // Get the list of log messages that have been received since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetLogMessages(const base::ListValue* args);
 
   // Get the reporting events that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetReportingEvents(const base::ListValue* args);
 
   // Get the deep scanning requests that have been collected since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   void GetDeepScans(const base::ListValue* args);
 
   // Register callbacks for WebUI messages.
@@ -280,7 +280,7 @@ class SafeBrowsingUIHandler : public content::WebUIMessageHandler {
   base::WeakPtrFactory<SafeBrowsingUIHandler> weak_factory_{this};
 };
 
-// The WebUI for chrome://safe-browsing
+// The WebUI for decentr://safe-browsing
 class SafeBrowsingUI : public content::WebUIController {
  public:
   explicit SafeBrowsingUI(content::WebUI* web_ui);
@@ -298,11 +298,11 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   WebUIInfoSingleton(const WebUIInfoSingleton&) = delete;
   WebUIInfoSingleton& operator=(const WebUIInfoSingleton&) = delete;
 
-  // Returns true when there is a listening chrome://safe-browsing tab.
+  // Returns true when there is a listening decentr://safe-browsing tab.
   static bool HasListener();
 
   // Add the new message in |download_urls_checked_| and send it to all
-  // the open chrome://safe-browsing tabs.
+  // the open decentr://safe-browsing tabs.
   void AddToDownloadUrlsChecked(const std::vector<GURL>& urls,
                                 DownloadCheckResult result);
 
@@ -310,7 +310,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   void ClearDownloadUrlsChecked();
 
   // Add the new message in |client_download_requests_sent_| and send it to all
-  // the open chrome://safe-browsing tabs.
+  // the open decentr://safe-browsing tabs.
   void AddToClientDownloadRequestsSent(
       std::unique_ptr<ClientDownloadRequest> report_request);
 
@@ -318,7 +318,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   void ClearClientDownloadRequestsSent();
 
   // Add the new message in |client_download_responses_received_| and send it to
-  // all the open chrome://safe-browsing tabs.
+  // all the open decentr://safe-browsing tabs.
   void AddToClientDownloadResponsesReceived(
       std::unique_ptr<ClientDownloadResponse> response);
 
@@ -326,7 +326,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   void ClearClientDownloadResponsesReceived();
 
   // Add the new message and token in |client_phishing_requests_sent_| and send
-  // it to all the open chrome://safe-browsing tabs.
+  // it to all the open decentr://safe-browsing tabs.
   void AddToClientPhishingRequestsSent(
       std::unique_ptr<ClientPhishingRequest> client_phishing_request,
       std::string token);
@@ -335,7 +335,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   void ClearClientPhishingRequestsSent();
 
   // Add the new message in |client_phishing_responses_received_| and send it to
-  // all the open chrome://safe-browsing tabs.
+  // all the open decentr://safe-browsing tabs.
   void AddToClientPhishingResponsesReceived(
       std::unique_ptr<ClientPhishingResponse> response);
 
@@ -343,34 +343,34 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   void ClearClientPhishingResponsesReceived();
 
   // Add the new message in |csbrrs_sent_| and send it to all the open
-  // chrome://safe-browsing tabs.
+  // decentr://safe-browsing tabs.
   void AddToCSBRRsSent(std::unique_ptr<ClientSafeBrowsingReportRequest> csbrr);
 
   // Clear the list of the sent ClientSafeBrowsingReportRequest messages.
   void ClearCSBRRsSent();
 
   // Add the new message in |pg_event_log_| and send it to all the open
-  // chrome://safe-browsing tabs.
+  // decentr://safe-browsing tabs.
   void AddToPGEvents(const sync_pb::UserEventSpecifics& event);
 
   // Clear the list of sent PhishGuard events.
   void ClearPGEvents();
 
   // Add the new message in |security_event_log_| and send it to all the open
-  // chrome://safe-browsing tabs.
+  // decentr://safe-browsing tabs.
   void AddToSecurityEvents(const sync_pb::GaiaPasswordReuse& event);
 
   // Clear the list of sent Security events.
   void ClearSecurityEvents();
 
   // Add the new ping (with oauth token) to |pg_pings_| and send it to all the
-  // open chrome://safe-browsing tabs. Returns a token that can be used in
+  // open decentr://safe-browsing tabs. Returns a token that can be used in
   // |AddToPGResponses| to correlate a ping and response.
   int AddToPGPings(const LoginReputationClientRequest& request,
                    const std::string oauth_token);
 
   // Add the new response to |pg_responses_| and send it to all the open
-  // chrome://safe-browsing tabs.
+  // decentr://safe-browsing tabs.
   void AddToPGResponses(int token,
                         const LoginReputationClientResponse& response);
 
@@ -398,7 +398,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
                                         const std::string& message);
 
   // Add the reporting event to |reporting_events_| and send it to all the open
-  // chrome://safe-browsing tabs.
+  // decentr://safe-browsing tabs.
   void AddToReportingEvents(const base::Value& event);
 
   // Clear |reporting_events_|.
@@ -406,7 +406,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
 
 #if BUILDFLAG(FULL_SAFE_BROWSING)
   // Add the new request to |deep_scan_requests_| and send it to all the open
-  // chrome://safe-browsing tabs. Uses |request.request_token()| as an
+  // decentr://safe-browsing tabs. Uses |request.request_token()| as an
   // identifier that can be used in |AddToDeepScanResponses| to correlate a ping
   // and response.
   void AddToDeepScanRequests(
@@ -415,7 +415,7 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
       const enterprise_connectors::ContentAnalysisRequest& request);
 
   // Add the new response to |deep_scan_requests_| and send it to all the open
-  // chrome://safe-browsing tabs.
+  // decentr://safe-browsing tabs.
   void AddToDeepScanResponses(
       const std::string& token,
       const std::string& status,
@@ -432,21 +432,21 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   void UnregisterWebUIInstance(SafeBrowsingUIHandler* webui);
 
   // Get the list of download URLs checked since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::vector<std::pair<std::vector<GURL>, DownloadCheckResult>>&
   download_urls_checked() const {
     return download_urls_checked_;
   }
 
   // Get the list of the sent ClientDownloadRequests that have been collected
-  // since the oldest currently open chrome://safe-browsing tab was opened.
+  // since the oldest currently open decentr://safe-browsing tab was opened.
   const std::vector<std::unique_ptr<ClientDownloadRequest>>&
   client_download_requests_sent() const {
     return client_download_requests_sent_;
   }
 
   // Get the list of the sent ClientDownloadResponses that have been collected
-  // since the oldest currently open chrome://safe-browsing tab was opened.
+  // since the oldest currently open decentr://safe-browsing tab was opened.
   const std::vector<std::unique_ptr<ClientDownloadResponse>>&
   client_download_responses_received() const {
     return client_download_responses_received_;
@@ -454,21 +454,21 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
 
   // Get the list of the sent ClientPhishingRequestAndToken that have been
   // collected (potentially with token in header) since the oldest currently
-  // open chrome://safe-browsing tab was opened.
+  // open decentr://safe-browsing tab was opened.
   const std::vector<ClientPhishingRequestAndToken>&
   client_phishing_requests_sent() const {
     return client_phishing_requests_sent_;
   }
 
   // Get the list of the sent ClientPhishingResponse that have been collected
-  // since the oldest currently open chrome://safe-browsing tab was opened.
+  // since the oldest currently open decentr://safe-browsing tab was opened.
   const std::vector<std::unique_ptr<ClientPhishingResponse>>&
   client_phishing_responses_received() const {
     return client_phishing_responses_received_;
   }
 
   // Get the list of the sent CSBRR reports that have been collected since the
-  // oldest currently open chrome://safe-browsing tab was opened.
+  // oldest currently open decentr://safe-browsing tab was opened.
   const std::vector<std::unique_ptr<ClientSafeBrowsingReportRequest>>&
   csbrrs_sent() const {
     return csbrrs_sent_;
@@ -480,44 +480,44 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   }
 
   // Get the list of PhishGuard events since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::vector<sync_pb::UserEventSpecifics>& pg_event_log() const {
     return pg_event_log_;
   }
 
   // Get the list of Security events since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::vector<sync_pb::GaiaPasswordReuse>& security_event_log() const {
     return security_event_log_;
   }
 
   // Get the list of PhishGuard pings and tokens since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::vector<LoginReputationClientRequestAndToken>& pg_pings() const {
     return pg_pings_;
   }
 
   // Get the list of PhishGuard pings since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::map<int, LoginReputationClientResponse>& pg_responses() const {
     return pg_responses_;
   }
 
   // Get the list of real time lookup pings since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::vector<RTLookupRequestAndToken>& rt_lookup_pings() const {
     return rt_lookup_pings_;
   }
 
   // Get the list of real time lookup pings since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   const std::map<int, RTLookupResponse>& rt_lookup_responses() const {
     return rt_lookup_responses_;
   }
 
 #if BUILDFLAG(FULL_SAFE_BROWSING)
   // Get the collection of deep scanning requests since the oldest currently
-  // open chrome://safe-browsing tab was opened. Returns a map from a unique
+  // open decentr://safe-browsing tab was opened. Returns a map from a unique
   // token to the request proto.
   const base::flat_map<std::string, DeepScanDebugData>& deep_scan_requests()
       const {
@@ -561,65 +561,65 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   friend struct base::DefaultSingletonTraits<WebUIInfoSingleton>;
 
   // List of download URLs checked since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<std::pair<std::vector<GURL>, DownloadCheckResult>>
       download_urls_checked_;
 
   // List of ClientDownloadRequests sent since since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   // "ClientDownloadRequests" cannot be const, due to being used by functions
   // that call AllowJavascript(), which is not marked const.
   std::vector<std::unique_ptr<ClientDownloadRequest>>
       client_download_requests_sent_;
 
   // List of ClientDownloadResponses received since since the oldest currently
-  // open chrome://safe-browsing tab was opened. "ClientDownloadReponse" cannot
+  // open decentr://safe-browsing tab was opened. "ClientDownloadReponse" cannot
   // be const, due to being used by functions that call AllowJavascript(), which
   // is not marked const.
   std::vector<std::unique_ptr<ClientDownloadResponse>>
       client_download_responses_received_;
 
   // List of ClientPhishingRequests and tokens sent since since the oldest
-  // currently open chrome://safe-browsing tab was opened.
+  // currently open decentr://safe-browsing tab was opened.
   // "ClientPhishingRequests" cannot be const, due to being used by functions
   // that call AllowJavascript(), which is not marked const.
   std::vector<ClientPhishingRequestAndToken> client_phishing_requests_sent_;
 
   // List of ClientPhishingResponses received since since the oldest currently
-  // open chrome://safe-browsing tab was opened. "ClientPhishingResponse" cannot
+  // open decentr://safe-browsing tab was opened. "ClientPhishingResponse" cannot
   // be const, due to being used by functions that call AllowJavascript(), which
   // is not marked const.
   std::vector<std::unique_ptr<ClientPhishingResponse>>
       client_phishing_responses_received_;
 
   // List of CSBRRs sent since since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   // "ClientSafeBrowsingReportRequest" cannot be const, due to being used by
   // functions that call AllowJavascript(), which is not marked const.
   std::vector<std::unique_ptr<ClientSafeBrowsingReportRequest>> csbrrs_sent_;
 
   // List of PhishGuard events sent since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<sync_pb::UserEventSpecifics> pg_event_log_;
 
   // List of Security events sent since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<sync_pb::GaiaPasswordReuse> security_event_log_;
 
   // List of PhishGuard pings and tokens sent since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<LoginReputationClientRequestAndToken> pg_pings_;
 
   // List of PhishGuard responses received since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::map<int, LoginReputationClientResponse> pg_responses_;
 
   // List of real time lookup pings sent since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<RTLookupRequestAndToken> rt_lookup_pings_;
 
   // List of real time lookup responses received since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::map<int, RTLookupResponse> rt_lookup_responses_;
 
   // List of WebUI listener objects. "SafeBrowsingUIHandler*" cannot be const,
@@ -628,16 +628,16 @@ class WebUIInfoSingleton : public SafeBrowsingUrlCheckerImpl::WebUIDelegate {
   std::vector<SafeBrowsingUIHandler*> webui_instances_;
 
   // List of messages logged since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<std::pair<base::Time, std::string>> log_messages_;
 
   // List of reporting events logged since the oldest currently open
-  // chrome://safe-browsing tab was opened.
+  // decentr://safe-browsing tab was opened.
   std::vector<base::Value> reporting_events_;
 
 #if BUILDFLAG(FULL_SAFE_BROWSING)
   // Map of deep scan requests sent since the oldest currently open
-  // chrome://safe-browsing tab was opened. Maps from the unique token per
+  // decentr://safe-browsing tab was opened. Maps from the unique token per
   // request to the data about the request.
   base::flat_map<std::string, DeepScanDebugData> deep_scan_requests_;
 #endif
@@ -664,7 +664,7 @@ class CrSBLogMessage {
 };
 
 // Used to consume a stream so that we don't even evaluate the streamed data if
-// there are no chrome://safe-browsing tabs open.
+// there are no decentr://safe-browsing tabs open.
 class CrSBLogVoidify {
  public:
   CrSBLogVoidify() = default;

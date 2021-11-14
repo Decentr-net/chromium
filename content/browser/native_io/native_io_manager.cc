@@ -146,7 +146,7 @@ void NativeIOManager::BindReceiver(
 
   // This feature should only be exposed to potentially trustworthy origins
   // (https://w3c.github.io/webappsec-secure-contexts/#is-origin-trustworthy).
-  // Notably this includes the https and chrome-extension schemes, among
+  // Notably this includes the https and decentr-extension schemes, among
   // others.
   if (!network::IsOriginPotentiallyTrustworthy(storage_key.origin())) {
     std::move(bad_message_callback)

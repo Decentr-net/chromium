@@ -1414,7 +1414,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="2431027948063157455">Google Assistant was unable to load. Please check your network connection and retry.</translation>
 <translation id="243179355394256322">Your organisation limits device enrolment to authorised users only. This user is not authorised to enrol devices. Please make sure that the user has the 'Enrol Google Meet hardware' administrator privilege in the Users section of the Admin console.</translation>
 <translation id="243275146591958220">Cancel download</translation>
-<translation id="2433452467737464329">Add a query param in URL to auto-refresh the page: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Add a query param in URL to auto-refresh the page: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Appearance</translation>
 <translation id="2433836460518180625">Unlock device only</translation>
 <translation id="2434449159125086437">Unable to set up printer. Please check configuration and try again.</translation>
@@ -1943,7 +1943,7 @@ and Ctrl+Alt+Brightness down to zoom out.</translation>
 <translation id="2959127025785722291">Something went wrong. Scanning could not be completed. Please try again.</translation>
 <translation id="2959842337402130152">Cannot restore due to lack of storage space. Free up <ph name="SPACE_REQUIRED" /> from the device and try again.</translation>
 <translation id="2960208947600937804">There was an error while configuring Linux. Contact your administrator.</translation>
-<translation id="296026337010986570">Finished! Harmful software removed. To turn extensions back on, visit &lt;a href="chrome://extensions"&gt;Extensions&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Finished! Harmful software removed. To turn extensions back on, visit &lt;a href="decentr://extensions"&gt;Extensions&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (extension provided)</translation>
 <translation id="2961210776189273067">Title</translation>
 <translation id="2961695502793809356">Click to go forward, hold to see history</translation>
@@ -4941,7 +4941,7 @@ You can assign multiple switches to this action.</translation>
 <translation id="6227280783235722609">extension</translation>
 <translation id="6229849828796482487">Disconnect Wi-Fi network</translation>
 <translation id="6231782223312638214">Suggested</translation>
-<translation id="6231881193380278751">Add a QueryParam in URL to auto-refresh the page: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Add a QueryParam in URL to auto-refresh the page: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Battery</translation>
 <translation id="6232116551750539448">Connection to <ph name="NAME" /> has been lost</translation>
 <translation id="6233154960150021497">Default to using voice instead of keyboard</translation>

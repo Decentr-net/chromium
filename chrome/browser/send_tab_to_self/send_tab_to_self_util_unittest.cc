@@ -92,12 +92,12 @@ TEST_F(SendTabToSelfUtilTest, NotHTTPOrHTTPS) {
 }
 
 TEST_F(SendTabToSelfUtilTest, UntrustedPage) {
-  url_ = GURL("chrome-untrusted://url");
+  url_ = GURL("decentr-untrusted://url");
   EXPECT_FALSE(AreContentRequirementsMet(url_, profile()));
 }
 
 TEST_F(SendTabToSelfUtilTest, NativePage) {
-  url_ = GURL("chrome://flags");
+  url_ = GURL("decentr://flags");
   EXPECT_FALSE(AreContentRequirementsMet(url_, profile()));
 }
 

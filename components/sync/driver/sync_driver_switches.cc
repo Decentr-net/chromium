@@ -35,7 +35,7 @@ const char kSyncDeferredStartupTimeoutSeconds[] =
 const char kSyncDisableDeferredStartup[] = "sync-disable-deferred-startup";
 
 // Controls whether the initial state of the "Capture Specifics" flag on
-// chrome://sync-internals is enabled.
+// decentr://sync-internals is enabled.
 const char kSyncIncludeSpecificsInProtocolLog[] = "sync-include-specifics";
 
 // This flag causes sync to retry very quickly (see polling_constants.h) the

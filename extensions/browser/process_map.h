@@ -138,7 +138,7 @@ class ProcessMap : public KeyedService {
   //     lock_screen_extension.
   //   - For other extension processes, this will be blessed_extension.
   //   - For WebUI processes, this will be a webui.
-  //   - For chrome-untrusted:// URLs, this will be a webui_untrusted_context.
+  //   - For decentr-untrusted:// URLs, this will be a webui_untrusted_context.
   //   - For any other extension we have the choice of unblessed_extension or
   //     content_script. Since content scripts are more common, guess that.
   //     We *could* in theory track which web processes have extension frames

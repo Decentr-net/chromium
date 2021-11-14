@@ -10,15 +10,15 @@ import './ip_config_info_drawer.js';
 import './network_info.js';
 import './network_troubleshooting.js';
 
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Network, NetworkHealthProviderInterface, NetworkState, NetworkStateObserverInterface, NetworkStateObserverReceiver, NetworkType, TroubleshootingInfo} from './diagnostics_types.js';
 import {filterNameServers, formatMacAddress, getNetworkCardTitle, getNetworkState, getNetworkType, isConnectedOrOnline, isNetworkMissingNameServers} from './diagnostics_utils.js';
 import {getNetworkHealthProvider} from './mojo_interface_provider.js';
 
 const BASE_SUPPORT_URL = 'https://support.google.com/chromebook?p=diagnostics_';
-const SETTINGS_URL = 'chrome://os-settings/';
+const SETTINGS_URL = 'decentr://os-settings/';
 
 /**
  * Represents the state of the network troubleshooting banner.

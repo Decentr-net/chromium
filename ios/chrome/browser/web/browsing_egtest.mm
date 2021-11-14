@@ -346,7 +346,7 @@ id<GREYMatcher> TabWithTitle(const std::string& tab_title) {
       "    document.body.appendChild(document.createTextNode('Hello world!'));"
       "  }"
       "</script>"
-      "<a href='chrome://version' id='link' onclick='printMsg()'>Version</a>";
+      "<a href='decentr://version' id='link' onclick='printMsg()'>Version</a>";
   responses[URL] = kPageHTML;
   web::test::SetUpSimpleHttpServer(responses);
 
@@ -356,16 +356,16 @@ id<GREYMatcher> TabWithTitle(const std::string& tab_title) {
 
   [ChromeEarlGrey loadURL:URL];
 
-  // Tap on chrome://version link.
+  // Tap on decentr://version link.
   [ChromeEarlGrey tapWebStateElementWithID:@"link"];
 
   // Verify that page did not change by checking its URL and message printed by
   // onclick event.
-  [[EarlGrey selectElementWithMatcher:OmniboxText("chrome://version")]
+  [[EarlGrey selectElementWithMatcher:OmniboxText("decentr://version")]
       assertWithMatcher:grey_nil()];
   [ChromeEarlGrey waitForWebStateContainingText:"Hello world!"];
 
-  // Verify that no new tabs were open which could load chrome://version.
+  // Verify that no new tabs were open which could load decentr://version.
   [ChromeEarlGrey waitForMainTabCount:1];
 }
 

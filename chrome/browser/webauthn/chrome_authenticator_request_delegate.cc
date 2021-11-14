@@ -188,14 +188,14 @@ ChromeWebAuthenticationDelegate::MaybeGetRelyingPartyIdOverride(
     const url::Origin& caller_origin) {
   // Don't override cryptotoken processing.
   constexpr char kCryptotokenOrigin[] =
-      "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd";
+      "decentr-extension://kmendfapggjehodndflmmgagdbamhnfd";
   if (caller_origin == url::Origin::Create(GURL(kCryptotokenOrigin))) {
     return absl::nullopt;
   }
 
   // Otherwise, allow extensions to use WebAuthn and map their origins
   // directly to RP IDs.
-  if (caller_origin.scheme() == "chrome-extension") {
+  if (caller_origin.scheme() == "decentr-extension") {
     // The requested RP ID for an extension must simply be the extension
     // identifier because no flexibility is permitted. If a caller doesn't
     // specify an RP ID then Blink defaults the value to the origin's host.

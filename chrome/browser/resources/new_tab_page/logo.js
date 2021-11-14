@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
 import './iframe.js';
 import './doodle_share_dialog.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {skColorToRgba} from 'chrome://resources/js/color_utils.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {skColorToRgba} from 'decentr://resources/js/color_utils.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {I18nBehavior} from './i18n_setup.js';
 import {NewTabPageProxy} from './new_tab_page_proxy.js';
@@ -416,7 +416,7 @@ class LogoElement extends mixinBehaviors
    */
   computeAnimationUrl_() {
     return this.imageDoodle_ && this.imageDoodle_.animationUrl ?
-        `chrome-untrusted://new-tab-page/image?${
+        `decentr-untrusted://new-tab-page/image?${
             this.imageDoodle_.animationUrl.url}` :
         '';
   }

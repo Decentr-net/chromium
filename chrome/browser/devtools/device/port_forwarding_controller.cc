@@ -128,18 +128,18 @@ net::NetworkTrafficAnnotationTag kPortForwardingControllerTrafficAnnotation =
             "between the two."
           trigger:
             "A user connects to an Android device using remote debugging and "
-            "enables port forwarding on chrome://inspect."
+            "enables port forwarding on decentr://inspect."
           data: "Any data requested from the local port on Android device."
           destination: OTHER
           destination_other:
-            "Data is sent to the target that user selects in chrome://inspect."
+            "Data is sent to the target that user selects in decentr://inspect."
         }
         policy {
           cookies_allowed: YES
           cookies_store: "user"
           setting:
             "This request cannot be disabled in settings, however it would be "
-            "sent only if user enables port fowarding in chrome://inspect and "
+            "sent only if user enables port fowarding in decentr://inspect and "
             "USB debugging in the Android device system settings."
           policy_exception_justification:
             "Not implemented, policies defined on Android device will apply "

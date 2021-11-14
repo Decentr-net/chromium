@@ -118,7 +118,7 @@ IN_PROC_BROWSER_TEST_P(IncognitoClearBrowsingDataTest,
                        ClearBrowsingDataNavigationInIncognito) {
   Browser* incognito_browser = CreateIncognitoBrowser();
   ui_test_utils::SendToOmniboxAndSubmit(incognito_browser,
-                                        "chrome://settings/clearBrowserData");
+                                        "decentr://settings/clearBrowserData");
   std::u16string current_tab_title;
 
   if (GetParam()) {
@@ -128,7 +128,7 @@ IN_PROC_BROWSER_TEST_P(IncognitoClearBrowsingDataTest,
   } else {
     // Should open the clear browsing data dialog in regular browser.
     ui_test_utils::GetCurrentTabTitle(browser(), &current_tab_title);
-    EXPECT_EQ(u"chrome://settings/clearBrowserData", current_tab_title);
+    EXPECT_EQ(u"decentr://settings/clearBrowserData", current_tab_title);
     ASSERT_FALSE(IncognitoClearBrowsingDataDialog::IsShowing());
   }
 }

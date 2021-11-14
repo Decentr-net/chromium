@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
-import 'chrome://resources/js/jstemplate_compiled.js';
+import 'decentr://resources/js/jstemplate_compiled.js';
 import './strings.m.js';
-import {addWebUIListener, sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener, sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 // TODO(vishwath): This function is identical to the one in sync_internals.js
 // Merge both if possible.

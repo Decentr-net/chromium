@@ -14,7 +14,7 @@
 
 namespace chromeos {
 
-// The WebUI controller for chrome://enterprise-casting.
+// The WebUI controller for decentr://enterprise-casting.
 class EnterpriseCastingUI
     : public ui::MojoWebUIController,
       public enterprise_casting::mojom::PageHandlerFactory {

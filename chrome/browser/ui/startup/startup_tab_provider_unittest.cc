@@ -314,7 +314,7 @@ TEST(StartupTabProviderTest, GetCommandLineTabs) {
 
   // Unsafe scheme should be filtered out.
   {
-    base::CommandLine command_line({"", "chrome://flags"});
+    base::CommandLine command_line({"", "decentr://flags"});
     StartupTabs output = StartupTabProviderImpl().GetCommandLineTabs(
         command_line, base::FilePath(), &profile);
     ASSERT_TRUE(output.empty());
@@ -323,36 +323,36 @@ TEST(StartupTabProviderTest, GetCommandLineTabs) {
   // Exceptional settings page.
   {
     base::CommandLine command_line(
-        {"", "chrome://settings/resetProfileSettings"});
+        {"", "decentr://settings/resetProfileSettings"});
     StartupTabs output = StartupTabProviderImpl().GetCommandLineTabs(
         command_line, base::FilePath(), &profile);
     ASSERT_EQ(1u, output.size());
-    EXPECT_EQ(GURL("chrome://settings/resetProfileSettings"), output[0].url);
+    EXPECT_EQ(GURL("decentr://settings/resetProfileSettings"), output[0].url);
   }
   {
     base::CommandLine command_line(
-        {"", "chrome://settings/resetProfileSettings#cct"});
+        {"", "decentr://settings/resetProfileSettings#cct"});
     StartupTabs output = StartupTabProviderImpl().GetCommandLineTabs(
         command_line, base::FilePath(), &profile);
     // Allowed only on Windows.
 #if defined(OS_WIN)
     ASSERT_EQ(1u, output.size());
-    EXPECT_EQ(GURL("chrome://settings/resetProfileSettings#cct"),
+    EXPECT_EQ(GURL("decentr://settings/resetProfileSettings#cct"),
               output[0].url);
 #else
     EXPECT_TRUE(output.empty());
 #endif
   }
 
-  // chrome://settings/ page handling.
+  // decentr://settings/ page handling.
   {
-    base::CommandLine command_line({"", "chrome://settings/syncSetup"});
+    base::CommandLine command_line({"", "decentr://settings/syncSetup"});
     StartupTabs output = StartupTabProviderImpl().GetCommandLineTabs(
         command_line, base::FilePath(), &profile);
 #if BUILDFLAG(IS_CHROMEOS_ASH)
     // On Chrome OS (ash-chrome), settings page is allowed to be specified.
     ASSERT_EQ(1u, output.size());
-    EXPECT_EQ(GURL("chrome://settings/syncSetup"), output[0].url);
+    EXPECT_EQ(GURL("decentr://settings/syncSetup"), output[0].url);
 #else
     // On other platforms, it is blocked.
     EXPECT_TRUE(output.empty());
@@ -419,7 +419,7 @@ TEST(StartupTabProviderTest, GetCrosapiTabs) {
     auto params = crosapi::mojom::BrowserInitParams::New();
     params->initial_browser_action =
         crosapi::mojom::InitialBrowserAction::kOpenWindowWithUrls;
-    params->startup_urls = std::vector<GURL>{GURL("chrome://flags")};
+    params->startup_urls = std::vector<GURL>{GURL("decentr://flags")};
     lacros_service.SetInitParamsForTests(std::move(params));
     StartupTabs output = StartupTabProviderImpl().GetCrosapiTabs();
     EXPECT_TRUE(output.empty());
@@ -431,11 +431,11 @@ TEST(StartupTabProviderTest, GetCrosapiTabs) {
     params->initial_browser_action =
         crosapi::mojom::InitialBrowserAction::kOpenWindowWithUrls;
     params->startup_urls =
-        std::vector<GURL>{GURL("chrome://settings/resetProfileSettings")};
+        std::vector<GURL>{GURL("decentr://settings/resetProfileSettings")};
     lacros_service.SetInitParamsForTests(std::move(params));
     StartupTabs output = StartupTabProviderImpl().GetCrosapiTabs();
     ASSERT_EQ(1u, output.size());
-    EXPECT_EQ(GURL("chrome://settings/resetProfileSettings"), output[0].url);
+    EXPECT_EQ(GURL("decentr://settings/resetProfileSettings"), output[0].url);
   }
 
   // about:blank URL.

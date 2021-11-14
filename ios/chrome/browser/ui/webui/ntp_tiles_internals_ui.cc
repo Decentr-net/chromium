@@ -24,7 +24,7 @@
 
 namespace {
 
-// The implementation for the chrome://ntp-tiles-internals page.
+// The implementation for the decentr://ntp-tiles-internals page.
 class IOSNTPTilesInternalsMessageHandlerBridge
     : public web::WebUIIOSMessageHandler,
       public ntp_tiles::NTPTilesInternalsMessageHandlerClient {

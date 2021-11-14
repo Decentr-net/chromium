@@ -160,7 +160,7 @@ void OmniboxView::OpenMatch(const AutocompleteMatch& match,
                             const std::u16string& pasted_text,
                             size_t selected_line,
                             base::TimeTicks match_selection_timestamp) {
-  // Invalid URLs such as chrome://history can end up here.
+  // Invalid URLs such as decentr://history can end up here.
   if (!match.destination_url.is_valid() || !model_)
     return;
   model_->OpenMatch(match, disposition, alternate_nav_url, pasted_text,

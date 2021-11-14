@@ -1311,7 +1311,7 @@ SyncState GetSyncStateFromBrowserState(ChromeBrowserState* browserState) {
 }
 
 // Shows a contextual bubble explaining that the tapped setting is managed and
-// includes a link to the chrome://management page.
+// includes a link to the decentr://management page.
 - (void)showEnterprisePopover:(EnterpriseInfoPopoverViewController*)popover
                 forInfoButton:(UIButton*)buttonView {
   popover.delegate = self;

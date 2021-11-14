@@ -134,10 +134,10 @@ void RemoveFileManagerInternalActions(const std::set<std::string>& actions,
   tasks->swap(filtered);
 }
 
-// Adjusts |tasks| to reflect the product decision that chrome://media-app
+// Adjusts |tasks| to reflect the product decision that decentr://media-app
 // should behave more like a user-installed app than a fallback handler.
 // Specifically, only apps set as the default in user prefs should be preferred
-// over chrome://media-app.
+// over decentr://media-app.
 void AdjustTasksForMediaApp(const std::vector<extensions::EntryInfo>& entries,
                             std::vector<FullTaskDescriptor>* tasks) {
   const auto task_for_app = [&](const std::string& app_id) {

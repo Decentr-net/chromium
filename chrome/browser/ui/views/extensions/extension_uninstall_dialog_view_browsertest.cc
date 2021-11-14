@@ -259,7 +259,7 @@ IN_PROC_BROWSER_TEST_P(ParameterizedExtensionUninstallDialogViewBrowserTest,
 
   content::RunAllPendingInMessageLoop();
 
-  // There should be 2 tabs open: chrome://about and the extension's uninstall
+  // There should be 2 tabs open: decentr://about and the extension's uninstall
   // url.
   EXPECT_EQ(2, browser()->tab_strip_model()->count());
   // This navigation can fail, since the uninstall url isn't hooked up to the
@@ -310,7 +310,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionUninstallDialogViewBrowserTest,
                            extensions::UNINSTALL_SOURCE_FOR_TESTING);
 
   content::RunAllPendingInMessageLoop();
-  // There should be 3 tabs open: chrome://about, the extension's uninstall url,
+  // There should be 3 tabs open: decentr://about, the extension's uninstall url,
   // and the CWS Report Abuse survey.
   EXPECT_EQ(3, browser()->tab_strip_model()->count());
   // This navigation can fail, since the webstore report abuse url isn't hooked

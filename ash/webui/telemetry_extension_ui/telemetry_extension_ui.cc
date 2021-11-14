@@ -54,7 +54,7 @@ CreateTrustedTelemetryExtensionDataSource() {
   trusted_source->SetDefaultResource(IDR_TELEMETRY_EXTENSION_INDEX_HTML);
 #endif  // !DCHECK_IS_ON()
 
-  // We need a CSP override to use the chrome-untrusted:// scheme in the host.
+  // We need a CSP override to use the decentr-untrusted:// scheme in the host.
   std::string csp =
       std::string("frame-src ") + kChromeUIUntrustedTelemetryExtensionURL + ";";
   trusted_source->OverrideContentSecurityPolicy(
@@ -72,7 +72,7 @@ TelemetryExtensionUI::TelemetryExtensionUI(content::WebUI* web_ui)
   content::WebUIDataSource::Add(
       browser_context, CreateTrustedTelemetryExtensionDataSource().release());
 
-  // Add ability to request chrome-untrusted: URLs
+  // Add ability to request decentr-untrusted: URLs
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 }
 

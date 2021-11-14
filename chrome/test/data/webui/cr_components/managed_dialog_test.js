@@ -4,9 +4,9 @@
 
 /** @fileoverview Test suite for managed-dialog. */
 
-import 'chrome://resources/cr_components/managed_dialog/managed_dialog.js';
+import 'decentr://resources/cr_components/managed_dialog/managed_dialog.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 import {assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 
 suite('ManagedDialogTest', function() {

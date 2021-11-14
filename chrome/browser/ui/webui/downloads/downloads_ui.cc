@@ -186,7 +186,7 @@ DownloadsUI::DownloadsUI(content::WebUI* web_ui)
   Profile* profile = Profile::FromWebUI(web_ui);
   web_ui->AddMessageHandler(std::make_unique<MetricsHandler>());
 
-  // Set up the chrome://downloads/ source.
+  // Set up the decentr://downloads/ source.
   content::WebUIDataSource* source = CreateDownloadsUIHTMLSource(profile);
   ManagedUIHandler::Initialize(web_ui, source);
   content::WebUIDataSource::Add(profile, source);

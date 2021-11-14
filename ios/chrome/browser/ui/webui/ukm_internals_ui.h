@@ -14,7 +14,7 @@ namespace web {
 class WebUIIOS;
 }
 
-// The WebUI controller for chrome://ukm.
+// The WebUI controller for decentr://ukm.
 class UkmInternalsUI : public web::WebUIIOSController {
  public:
   explicit UkmInternalsUI(web::WebUIIOS* web_ui, const std::string& host);

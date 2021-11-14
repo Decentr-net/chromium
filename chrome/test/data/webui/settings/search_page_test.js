@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://settings/settings.js';
+import 'decentr://settings/settings.js';
 
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {SearchEnginesBrowserProxyImpl, SettingsSearchPageElement} from 'chrome://settings/settings.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SearchEnginesBrowserProxyImpl, SettingsSearchPageElement} from 'decentr://settings/settings.js';
 
 import {assertEquals, assertFalse, assertNotReached, assertTrue} from '../chai_assert.js';
 

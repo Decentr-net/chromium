@@ -513,7 +513,7 @@
 <translation id="1620510694547887537">摄像头</translation>
 <translation id="1626379196197114720">允许使用往返缓存</translation>
 <translation id="1628974048137236820">“新标签页”页面不会显示卡片</translation>
-<translation id="1630263002012156148">如果此政策已启用，系统会使用“新标签页”页面作为用户的主页，并忽略所有主页网址位置。如果此政策已停用，系统绝不会使用“新标签页”页面作为用户的主页，除非用户将主页网址设为 chrome://newtab。
+<translation id="1630263002012156148">如果此政策已启用，系统会使用“新标签页”页面作为用户的主页，并忽略所有主页网址位置。如果此政策已停用，系统绝不会使用“新标签页”页面作为用户的主页，除非用户将主页网址设为 decentr://newtab。
 
       如果您设置了此政策，用户将无法更改 <ph name="PRODUCT_NAME" /> 中的主页类型。如果您未设置此政策，用户便可自行决定是否使用“新标签页”页面作为主页。
 
@@ -657,7 +657,7 @@
 <translation id="1798559516913615713">GPO 缓存期限</translation>
 <translation id="180130467244315277">此政策让管理员能够在 <ph name="PRODUCT_NAME" /> 设置中以列表形式配置首选语言的顺序。
 
-      该列表将按同样的顺序显示在 chrome://settings/languages 页面内的“根据您的偏好设置对语言进行排序”部分中。用户将无法移除或重新排列此政策设定的语言，但能在这些语言下方添加语言。此外，用户还能完全控制浏览器的界面语言和翻译/拼写检查设置，除非其他政策已强制执行这些设置。
+      该列表将按同样的顺序显示在 decentr://settings/languages 页面内的“根据您的偏好设置对语言进行排序”部分中。用户将无法移除或重新排列此政策设定的语言，但能在这些语言下方添加语言。此外，用户还能完全控制浏览器的界面语言和翻译/拼写检查设置，除非其他政策已强制执行这些设置。
 
       如果此政策未设置，用户便可操控整个首选语言列表。</translation>
 <translation id="1803646570632580723">要在启动程序中显示的固定应用的列表</translation>
@@ -1116,7 +1116,7 @@
 <translation id="2299220924812062390">指定已启用插件的列表</translation>
 <translation id="2301048990069984110">扩展对 Chrome 应用的支持以涵盖 Windows、Mac 和 Linux。</translation>
 <translation id="2303795211377219696">允许使用“自动填充”功能填写信用卡信息</translation>
-<translation id="2304009805995145854">从 <ph name="PRODUCT_NAME" /> 67 版起，系统已默认在所有桌面平台上启用网站隔离功能，因此每个网站都会在自己的进程中运行。网站的网址格式为架构加上 eTLD+1（例如，https://example.com）。如果此政策已启用，系统并不会更改相应行为，只会禁止用户选择停用此功能（例如，通过使用 chrome://flags 中的“停用网站隔离”）。从 <ph name="PRODUCT_NAME" /> 76 版起，如果此政策已停用或未设置，系统将不会关闭网站隔离功能，但会允许用户选择停用此功能。
+<translation id="2304009805995145854">从 <ph name="PRODUCT_NAME" /> 67 版起，系统已默认在所有桌面平台上启用网站隔离功能，因此每个网站都会在自己的进程中运行。网站的网址格式为架构加上 eTLD+1（例如，https://example.com）。如果此政策已启用，系统并不会更改相应行为，只会禁止用户选择停用此功能（例如，通过使用 decentr://flags 中的“停用网站隔离”）。从 <ph name="PRODUCT_NAME" /> 76 版起，如果此政策已停用或未设置，系统将不会关闭网站隔离功能，但会允许用户选择停用此功能。
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> 还可用于隔离比网站更精确的特定来源（例如，https://a.example.com）。
 
@@ -3471,7 +3471,7 @@
       如果此政策已停用，用户将无法保存新密码，但先前保存的密码仍可正常使用。
 
       如果您设置了此政策，用户便无法在 <ph name="PRODUCT_NAME" /> 中更改它。如果您未设置此政策，用户将能够关闭密码保存功能。</translation>
-<translation id="5239333626804545932">如果此政策已启用或未设置，Chrome 清理功能将会定期扫描系统以检测是否存在垃圾软件，并会在发现任何垃圾软件时询问用户是否要将其移除。此外，系统还会允许通过 chrome://settings 手动触发 Chrome 清理功能。
+<translation id="5239333626804545932">如果此政策已启用或未设置，Chrome 清理功能将会定期扫描系统以检测是否存在垃圾软件，并会在发现任何垃圾软件时询问用户是否要将其移除。此外，系统还会允许通过 decentr://settings 手动触发 Chrome 清理功能。
 
       如果此政策已停用，Chrome 清理功能将不会定期进行扫描，并且手动触发会被停用。
 
@@ -4201,7 +4201,7 @@
 
       用户可以触发导入对话框，系统将会根据此政策的值选中或不选中“自动填充表单数据”复选框。</translation>
 <translation id="614616930188030377">系统会将此列表中的网址格式与请求网址的安全来源进行比对。
-      如果找到了匹配项或者 chrome://flags/#enable-webrtc-hide-local-ips-with-mdns 已停用，本地 IP 地址就会显示在 WebRTC ICE 候选路径中。
+      如果找到了匹配项或者 decentr://flags/#enable-webrtc-hide-local-ips-with-mdns 已停用，本地 IP 地址就会显示在 WebRTC ICE 候选路径中。
       否则，本地 IP 地址将会隐藏，被 mDNS 主机名取代。
       请注意，此政策会削弱对本地 IP 的保护（如果管理员需要这样做）。</translation>
 <translation id="614662973812186053">此政策亦用于控制对 Android 使用情况和诊断数据的收集。</translation>
@@ -4425,11 +4425,11 @@
 <translation id="645425387487868471">为 <ph name="PRODUCT_NAME" /> 启用强制登录功能</translation>
 <translation id="6455842857207956758">允许在多部 Chrome 设备之间同步 SAML 密码，方法是：监控密码同步令牌的值，并在密码已更新且需要同步时要求用户在线重新验证身份。
 
-      启用此政策后，可在 chrome://password-change 中启用一个页面，以便 SAML 用户能够在会话期间更改其 SAML 密码，从而确保 SAML 密码和设备屏幕解锁密码保持同步。
+      启用此政策后，可在 decentr://password-change 中启用一个页面，以便 SAML 用户能够在会话期间更改其 SAML 密码，从而确保 SAML 密码和设备屏幕解锁密码保持同步。
 
       启用此政策还会开启通知功能，在 SAML 密码即将到期时向 SAML 用户发送提醒，以便他们能够在会话期间更改密码，立即处理密码到期问题。不过，除非 SAML 身份提供商在 SAML 登录流程中将密码到期信息发送给设备，否则系统不会显示此类通知。
 
-      如果停用或不设置此政策，用户将无法在 chrome://password-change 上更改 SAML 密码，当 SAML 密码即将到期时，系统也不会显示任何通知。</translation>
+      如果停用或不设置此政策，用户将无法在 decentr://password-change 上更改 SAML 密码，当 SAML 密码即将到期时，系统也不会显示任何通知。</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">如果此政策已启用或未设置，系统会允许所有用户使用 <ph name="PRODUCT_CROSTINI_NAME" />，前提是 <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />、<ph name="CROSTINI_ALLOWED_POLICY_NAME" /> 和 <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> 这 3 项政策均已启用。如果此政策已停用，意味着独立用户无法使用 <ph name="PRODUCT_CROSTINI_NAME" />。如果将此政策的状态改为已停用，此政策将开始应用于新启动的 <ph name="PRODUCT_CROSTINI_NAME" /> 容器，而非应用于已在运行的容器。</translation>
 <translation id="6464074037294098618">自动填充地址信息</translation>
@@ -4497,7 +4497,7 @@
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />，“自动检测时区”功能会保持开启状态，并会不断将可见 Wi-Fi 接入点的列表发送至 Geolocation API 服务器，以便实现更精确的时区检测。
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />，“自动检测时区”功能会保持开启状态，并会不断将位置信息（例如 Wi-Fi 接入点、可连接到的手机基站、GPS）发送至服务器，以便实现最精确的时区检测。
 
-      如果此政策未设置、设为“由用户决定”或设为“无”，用户便可使用 chrome://settings 页面中的常规控件来控制“自动检测时区”功能。</translation>
+      如果此政策未设置、设为“由用户决定”或设为“无”，用户便可使用 decentr://settings 页面中的常规控件来控制“自动检测时区”功能。</translation>
 <translation id="6532769014584932288">允许使用唤醒锁定</translation>
 <translation id="6536600139108165863">设备关机后自动重新启动</translation>
 <translation id="6539246272469751178">此政策对 Android 应用没有任何影响。Android 应用始终都会使用默认下载目录，并且无法访问由 <ph name="PRODUCT_OS_NAME" />下载到非默认下载目录中的任何文件。</translation>
@@ -4727,7 +4727,7 @@
 
       如果此政策已停用，系统会从工具栏中移除浏览器实验性功能图标。
 
-      无论此政策是已启用还是已停用，chrome://flags 和任何其他可用于开启和关闭浏览器功能的方法都能正常起作用。</translation>
+      无论此政策是已启用还是已停用，decentr://flags 和任何其他可用于开启和关闭浏览器功能的方法都能正常起作用。</translation>
 <translation id="6794083666143216172">允许来源查询设备属性</translation>
 <translation id="6795485990775913659">仅允许在没有 PIN 码的情况下打印</translation>
 <translation id="6800181452282128474">不向 Quirks Server 发送查询</translation>
@@ -5404,7 +5404,7 @@
       如果设为 GAIA，将通过常规 GAIA 身份验证流程完成登录。
 
       如果设为 SAML_INTERSTITIAL，登录过程中将会显示一个插页式屏幕，让用户选择是通过设备注册网域的 SAML IdP 进行身份验证，还是返回到常规 GAIA 登录流程。</translation>
-<translation id="7554382342294940216">如果此政策已启用，系统会允许 <ph name="PRODUCT_OS_NAME" />在进行强制门户身份验证时跳过所有代理。这些身份验证网页（即在 Chrome 检测到成功建立互联网连接之前，从强制门户登录页面开始的所有网页）都会在单独的窗口中打开，并会忽略针对当前用户的所有政策设置和限制。仅当已设置了代理时（通过政策或扩展程序设置，或者由用户在 chrome://settings 中设置），此政策才会生效。
+<translation id="7554382342294940216">如果此政策已启用，系统会允许 <ph name="PRODUCT_OS_NAME" />在进行强制门户身份验证时跳过所有代理。这些身份验证网页（即在 Chrome 检测到成功建立互联网连接之前，从强制门户登录页面开始的所有网页）都会在单独的窗口中打开，并会忽略针对当前用户的所有政策设置和限制。仅当已设置了代理时（通过政策或扩展程序设置，或者由用户在 decentr://settings 中设置），此政策才会生效。
 
       如果此政策已停用或未设置，任何强制门户身份验证页面都将在新的常规浏览器标签页中显示，并会使用当前用户的代理设置。</translation>
 <translation id="7566878661979235378">SAML 登录身份验证类型</translation>
@@ -5702,7 +5702,7 @@
 <translation id="7951605113561734721">指定应使用设备管理协议注册的设备级客户端证书。</translation>
 <translation id="7952007677054834789">在 <ph name="PRODUCT_NAME" /> 中配置启动时加载的页面、默认主页和默认新标签页，并禁止用户更改它们。
 
-      只有将主页设为新标签页或某个特定的主页网址，才能完全锁定用户的主页设置。如果您不指定主页网址，则用户仍可通过指定“chrome://newtab”将主页设为新标签页。
+      只有将主页设为新标签页或某个特定的主页网址，才能完全锁定用户的主页设置。如果您不指定主页网址，则用户仍可通过指定“decentr://newtab”将主页设为新标签页。
 
       除非您在“启动时的操作”政策中选择“打开网址列表”，否则系统会忽略“启动时打开的网址”政策。</translation>
 <translation id="7952958573604504839">我们在 M48 中弃用了此政策（改用 <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />），并在 M54 中移除了此政策。
@@ -6253,7 +6253,7 @@
 
       从 <ph name="PRODUCT_NAME" /> 92 版开始，此政策在无头模式中也受支持。
 
-      注意：屏蔽内部 chrome://* 网址可能会导致意外的错误。</translation>
+      注意：屏蔽内部 decentr://* 网址可能会导致意外的错误。</translation>
 <translation id="8626826495474944836">要求为所有网站启用网站隔离功能</translation>
 <translation id="8631434304112909927">到版本 <ph name="UNTIL_VERSION" /> 为止</translation>
 <translation id="8631437968147930597">可在 <ph name="PRODUCT_OS_NAME" />锁定屏幕中显示的笔记应用的列表。</translation>
@@ -6411,7 +6411,7 @@
 
       用户可通过开发者工具更改任意扩展程序的源代码，这可能会导致扩展程序无法正常运行。如果您不希望用户进行此类更改，请设置 <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" /> 政策。
 
-      此政策的每个列表项都是一个字符串，其中包含一个扩展程序 ID 和一个可选的“更新”网址（这两者之间以英文分号 [;] 分隔）。扩展程序 ID 是一个由 32 个字母构成的字符串；若想查看该字符串，一种方法是在开发者模式下访问 chrome://extensions。“更新”网址（若指定）应指向一个更新清单 XML 文档 (https://developer.chrome.com/extensions/autoupdate)。默认情况下，系统会使用 Chrome 网上应用店的更新网址。此政策中设置的“更新”网址仅用于初次安装；扩展程序的后续更新将会使用该扩展程序的清单中的更新网址。
+      此政策的每个列表项都是一个字符串，其中包含一个扩展程序 ID 和一个可选的“更新”网址（这两者之间以英文分号 [;] 分隔）。扩展程序 ID 是一个由 32 个字母构成的字符串；若想查看该字符串，一种方法是在开发者模式下访问 decentr://extensions。“更新”网址（若指定）应指向一个更新清单 XML 文档 (https://developer.chrome.com/extensions/autoupdate)。默认情况下，系统会使用 Chrome 网上应用店的更新网址。此政策中设置的“更新”网址仅用于初次安装；扩展程序的后续更新将会使用该扩展程序的清单中的更新网址。
 
        请注意：此政策不适用于无痕模式。了解如何托管扩展程序 (https://developer.chrome.com/extensions/hosting)。</translation>
 <translation id="8827366480126575426">协议处理程序所对应的协议。</translation>
@@ -6789,7 +6789,7 @@
 
       从 <ph name="PRODUCT_NAME" /> 73 版开始，您可以屏蔽 javascript://* 网址。不过，这仅会影响在地址栏（或小书签等）中输入的 JavaScript 网址。凡是能动态加载数据的页内 JavaScript 网址都不会受此政策影响。例如，即使您屏蔽了 example.com/abc，example.com 仍可以使用 XMLHTTPRequest 加载 example.com/abc。
 
-      注意：屏蔽内部 chrome://* 网址可能会导致意外的错误。</translation>
+      注意：屏蔽内部 decentr://* 网址可能会导致意外的错误。</translation>
 <translation id="957778406002650056">可供下载相应 <ph name="PLUGIN_VM_NAME" /> 图片的网址。</translation>
 <translation id="971677226939413180">不提供“以图片形式打印”选项供用户选择。</translation>
 <translation id="974349541138387272">指定所需 DNS-over-HTTPS 解析器的 URI 模板</translation>

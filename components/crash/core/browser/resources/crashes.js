@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
-import 'chrome://resources/js/action_link.js';
+import 'decentr://resources/js/action_link.js';
 import './strings.m.js';
-import {addWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$, appendParam} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$, appendParam} from 'decentr://resources/js/util.m.js';
 
 /* Id for tracking automatic refresh of crash list.  */
 let refreshCrashListId = undefined;

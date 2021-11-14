@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {HIDE_FOCUS_RING_ATTRIBUTE, LOCAL_STORAGE_FOLDER_STATE_KEY, LOCAL_STORAGE_TREE_WIDTH_KEY} from 'chrome://bookmarks/bookmarks.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {down, keyDownOn, pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, normalizeIterable, replaceBody} from 'chrome://test/bookmarks/test_util.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {HIDE_FOCUS_RING_ATTRIBUTE, LOCAL_STORAGE_FOLDER_STATE_KEY, LOCAL_STORAGE_TREE_WIDTH_KEY} from 'decentr://bookmarks/bookmarks.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {down, keyDownOn, pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, normalizeIterable, replaceBody} from 'decentr://test/bookmarks/test_util.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 suite('<bookmarks-app>', function() {
   let app;

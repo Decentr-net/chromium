@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ConfirmDialog} from 'chrome://resources/js/cr/ui/dialogs.m.js';
+import {ConfirmDialog} from 'decentr://resources/js/cr/ui/dialogs.m.js';
 
 import {str, util} from '../../../common/js/util.js';
 

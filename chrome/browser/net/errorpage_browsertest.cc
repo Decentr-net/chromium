@@ -1073,7 +1073,7 @@ IN_PROC_BROWSER_TEST_F(ErrorPageSniffTest,
 
 #if defined(OS_CHROMEOS) && BUILDFLAG(IS_CHROMEOS_ASH)
 // On ChromeOS "Running Connectivity Diagnostics" link on error page should
-// launch chrome://connectivity-diagnostics app by default. Not running test on
+// launch decentr://connectivity-diagnostics app by default. Not running test on
 // LaCROS due to errors on Wayland initialization and to keep test to ChromeOS
 // devices.
 class ErrorPageOfflineAppLaunchFeatureDisabledTest
@@ -1100,12 +1100,12 @@ IN_PROC_BROWSER_TEST_F(ErrorPageOfflineAppLaunchFeatureDisabledTest,
   // The active screen should be Connectivity Diagnostics app.
   content::WebContents* contents =
       ::chrome::FindLastActive()->tab_strip_model()->GetActiveWebContents();
-  EXPECT_EQ(GURL("chrome://connectivity-diagnostics"),
+  EXPECT_EQ(GURL("decentr://connectivity-diagnostics"),
             contents->GetVisibleURL());
 }
 
 // On ChromeOS "Running Connectivity Diagnostics" link on error page should
-// launch chrome://diagnostics/?connectivity app when related features are
+// launch decentr://diagnostics/?connectivity app when related features are
 // enabled.
 class ErrorPageOfflineAppLaunchFeatureEnabledTest
     : public web_app::SystemWebAppBrowserTestBase {
@@ -1139,7 +1139,7 @@ IN_PROC_BROWSER_TEST_F(ErrorPageOfflineAppLaunchFeatureEnabledTest,
   // The active screen should be Diagnostics app at connectivity screen.
   content::WebContents* contents =
       ::chrome::FindLastActive()->tab_strip_model()->GetActiveWebContents();
-  EXPECT_EQ(GURL("chrome://diagnostics/?connectivity"),
+  EXPECT_EQ(GURL("decentr://diagnostics/?connectivity"),
             contents->GetVisibleURL());
 }
 #endif  // defined(OS_CHROMEOS) && BUILDFLAG(IS_CHROMEOS_ASH).

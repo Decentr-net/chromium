@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {MenuItem} from 'chrome://resources/js/cr/ui/menu_item.m.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {MenuItem} from 'decentr://resources/js/cr/ui/menu_item.m.js';
 
 /**
  * Menu item with ripple animation.

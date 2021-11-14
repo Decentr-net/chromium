@@ -449,7 +449,7 @@ class ChromeHtmlUnittest(unittest.TestCase):
     tmp_dir.CleanUp()
 
   def testThemeResources(self):
-    '''Tests inserting high DPI chrome://theme references.'''
+    '''Tests inserting high DPI decentr://theme references.'''
 
     tmp_dir = util.TempDir({
       'index.html': '''
@@ -466,8 +466,8 @@ class ChromeHtmlUnittest(unittest.TestCase):
 
       'test.css': '''
       .image {
-        background: url('chrome://theme/IDR_RESOURCE_NAME');
-        content: url('chrome://theme/IDR_RESOURCE_NAME_WITH_Q?$1');
+        background: url('decentr://theme/IDR_RESOURCE_NAME');
+        content: url('decentr://theme/IDR_RESOURCE_NAME_WITH_Q?$1');
       }
       ''',
     })
@@ -483,8 +483,8 @@ class ChromeHtmlUnittest(unittest.TestCase):
         <head>
           <style>
       .image {
-        background: -webkit-image-set(url('chrome://theme/IDR_RESOURCE_NAME') 1x, url('chrome://theme/IDR_RESOURCE_NAME@2x') 2x);
-        content: -webkit-image-set(url('chrome://theme/IDR_RESOURCE_NAME_WITH_Q?$1') 1x, url('chrome://theme/IDR_RESOURCE_NAME_WITH_Q@2x?$1') 2x);
+        background: -webkit-image-set(url('decentr://theme/IDR_RESOURCE_NAME') 1x, url('decentr://theme/IDR_RESOURCE_NAME@2x') 2x);
+        content: -webkit-image-set(url('decentr://theme/IDR_RESOURCE_NAME_WITH_Q?$1') 1x, url('decentr://theme/IDR_RESOURCE_NAME_WITH_Q@2x?$1') 2x);
       }
       </style>
         </head>

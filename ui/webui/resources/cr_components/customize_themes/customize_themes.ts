@@ -12,9 +12,9 @@ import '../../cr_elements/shared_style_css.m.js';
 import './theme_icon.js';
 import '//resources/polymer/v3_0/paper-tooltip/paper-tooltip.js';
 
-import {SkColor} from 'chrome://resources/mojo/skia/public/mojom/skcolor.mojom-webui.js';
-import {DomRepeat} from 'chrome://resources/polymer/v3_0/polymer/lib/elements/dom-repeat.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SkColor} from 'decentr://resources/mojo/skia/public/mojom/skcolor.mojom-webui.js';
+import {DomRepeat} from 'decentr://resources/polymer/v3_0/polymer/lib/elements/dom-repeat.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assert} from '../../js/assert.m.js';
 import {hexColorToSkColor, skColorToRgba} from '../../js/color_utils.js';

@@ -1115,7 +1115,7 @@ class PCScan::PCScanThread final {
     std::thread{[this] {
       static constexpr const char* kThreadName = "PCScan";
       // Ideally we should avoid mixing base:: and std:: API for threading, but
-      // this is useful for visualizing the pcscan thread in chrome://tracing.
+      // this is useful for visualizing the pcscan thread in decentr://tracing.
       base::PlatformThread::SetName(kThreadName);
       TaskLoop();
     }}.detach();

@@ -25,7 +25,7 @@ namespace ash {
 
 // static
 const char GestureEducationNotificationController::kNotificationId[] =
-    "chrome://gesture_education";
+    "decentr://gesture_education";
 
 GestureEducationNotificationController::
     GestureEducationNotificationController() {

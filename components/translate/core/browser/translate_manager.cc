@@ -402,7 +402,7 @@ void TranslateManager::TranslatePage(const std::string& original_source_lang,
         ->ReportAcceptedAfterForceTriggerOnEnglishPages();
   }
 
-  // If the target language isn't in the chrome://settings/languages list, add
+  // If the target language isn't in the decentr://settings/languages list, add
   // it there. This way, it's obvious to the user that Chrome is remembering
   // their choice, they can remove it from the list, and they'll send that
   // language in the Accept-Language header, giving servers a chance to serve

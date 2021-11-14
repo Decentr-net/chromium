@@ -82,11 +82,11 @@ std::unique_ptr<net::test_server::HttpResponse> StandardResponse(
 #endif
 - (void)MAYBE_testBackForwardErrorPage {
   // TODO(crbug.com/1153261): Going back/forward on the same host is failing.
-  // Use chrome:// to have a different hosts.
+  // Use decentr:// to have a different hosts.
   std::string errorText = net::ErrorToShortString(net::ERR_INVALID_URL);
   self.serverRespondsWithContent = YES;
 
-  [ChromeEarlGrey loadURL:GURL("chrome://invalid")];
+  [ChromeEarlGrey loadURL:GURL("decentr://invalid")];
   [ChromeEarlGrey waitForWebStateContainingText:errorText];
   // Add some delay otherwise the back/forward navigations are occurring too
   // fast.

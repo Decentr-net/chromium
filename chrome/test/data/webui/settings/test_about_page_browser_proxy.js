@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {isMac, webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {UpdateStatus} from 'chrome://settings/settings.js';
+import {isMac, webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {UpdateStatus} from 'decentr://settings/settings.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 
 /** @implements {AboutPageBrowserProxy} */

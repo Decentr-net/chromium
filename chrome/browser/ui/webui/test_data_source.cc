@@ -92,7 +92,7 @@ bool TestDataSource::AllowCaching() {
 std::string TestDataSource::GetContentSecurityPolicy(
     network::mojom::CSPDirectiveName directive) {
   if (directive == network::mojom::CSPDirectiveName::ScriptSrc) {
-    return "script-src chrome://* 'self';";
+    return "script-src decentr://* 'self';";
   } else if (directive == network::mojom::CSPDirectiveName::WorkerSrc) {
     return "worker-src blob: 'self';";
   } else if (directive ==
@@ -100,11 +100,11 @@ std::string TestDataSource::GetContentSecurityPolicy(
              directive == network::mojom::CSPDirectiveName::TrustedTypes) {
     return std::string();
   } else if (directive == network::mojom::CSPDirectiveName::FrameAncestors) {
-    return "frame-ancestors chrome://* 'self';";
+    return "frame-ancestors decentr://* 'self';";
   } else if (directive == network::mojom::CSPDirectiveName::FrameSrc) {
-    return "frame-src chrome://test/;";
+    return "frame-src decentr://test/;";
   } else if (directive == network::mojom::CSPDirectiveName::ChildSrc) {
-    return "child-src chrome://test/;";
+    return "child-src decentr://test/;";
   }
 
   return content::URLDataSource::GetContentSecurityPolicy(directive);

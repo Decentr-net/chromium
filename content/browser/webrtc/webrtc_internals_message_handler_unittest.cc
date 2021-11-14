@@ -69,7 +69,7 @@ class WebRtcInternalsMessageHandlerTest : public RenderViewHostTestHarness {
 };
 
 TEST_F(WebRtcInternalsMessageHandlerTest, DontRunJSBeforeNavigationCommitted) {
-  GURL webrtc_url(std::string("chrome://") + kChromeUIWebRTCInternalsHost);
+  GURL webrtc_url(std::string("decentr://") + kChromeUIWebRTCInternalsHost);
   GURL example_url("http://www.example.com/");
 
   WebRTCInternalsForTest webrtc_internals;

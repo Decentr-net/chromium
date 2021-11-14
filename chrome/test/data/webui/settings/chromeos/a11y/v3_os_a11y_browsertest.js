@@ -130,7 +130,7 @@ function defineTest(testName, module, config) {
   this[className] = class extends OSSettingsAccessibilityV3Test {
     /** @override */
     get browsePreload() {
-      return `chrome://os-settings/test_loader.html?module=settings/chromeos/a11y/${
+      return `decentr://os-settings/test_loader.html?module=settings/chromeos/a11y/${
           module}`;
     }
 

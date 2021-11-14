@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, driveDescriptor, DriveProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
-import {installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {isVisible} from 'chrome://test/test_util.js';
+import {$$, driveDescriptor, DriveProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
+import {installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {isVisible} from 'decentr://test/test_util.js';
 
 suite('NewTabPageModulesDriveModuleTest', () => {
   /** @type {!TestBrowserProxy} */

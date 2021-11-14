@@ -51,8 +51,8 @@ let RunRoutineResponsePromise;
 
 /**
  * Proxying diagnostics requests between DiagnosticsRequester on
- * chrome-untrusted:// side with WebIDL types and DiagnosticsService on
- * chrome:// side with Mojo types.
+ * decentr-untrusted:// side with WebIDL types and DiagnosticsService on
+ * decentr:// side with Mojo types.
  */
 class DiagnosticsProxy {
   constructor() {
@@ -585,7 +585,7 @@ const diagnosticsProxy = new DiagnosticsProxy();
 
 /**
  * Proxying telemetry requests between TelemetryRequester on
- * chrome-untrusted:// side with WebIDL types and ProbeService on chrome://
+ * decentr-untrusted:// side with WebIDL types and ProbeService on decentr://
  * side with Mojo types.
  */
 class TelemetryProxy {
@@ -851,8 +851,8 @@ const telemetryProxy = new TelemetryProxy();
 
 /**
  * Proxying event requests between SystemEventsRequester on
- * chrome-untrusted:// side with WebIDL types and SystemEventsService on
- * chrome:// side with Mojo types.
+ * decentr-untrusted:// side with WebIDL types and SystemEventsService on
+ * decentr:// side with Mojo types.
  */
 class SystemEventsProxy {
   /**
@@ -930,7 +930,7 @@ class SystemEventsProxy {
   }
 
   /**
-   * Sends event type to chrome-untrusted://.
+   * Sends event type to decentr-untrusted://.
    * @param {!string} type
    */
   async sendEvent(type) {
@@ -947,7 +947,7 @@ class SystemEventsProxy {
 }
 
 const untrustedMessagePipe =
-    new MessagePipe('chrome-untrusted://telemetry-extension');
+    new MessagePipe('decentr-untrusted://telemetry-extension');
 
 untrustedMessagePipe.registerHandler(
     dpsl_internal.Message.DIAGNOSTICS_AVAILABLE_ROUTINES,

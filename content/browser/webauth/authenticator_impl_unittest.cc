@@ -149,9 +149,9 @@ constexpr char kTestOrigin1[] = "https://a.google.com";
 constexpr char kTestOrigin2[] = "https://acme.org";
 constexpr char kTestRelyingPartyId[] = "google.com";
 constexpr char kCryptotokenOrigin[] =
-    "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd";
+    "decentr-extension://kmendfapggjehodndflmmgagdbamhnfd";
 constexpr char kTestExtensionOrigin[] =
-    "chrome-extension://abcdefghijklmnopqrstuvwxyzabcdef";
+    "decentr-extension://abcdefghijklmnopqrstuvwxyzabcdef";
 
 constexpr uint8_t kTestChallengeBytes[] = {
     0x68, 0x71, 0x34, 0x96, 0x82, 0x22, 0xEC, 0x17, 0x20, 0x2E, 0x42,
@@ -554,7 +554,7 @@ class AuthenticatorTestBase : public RenderViewHostTestHarness {
 class AuthenticatorImplTest : public AuthenticatorTestBase {
  protected:
   AuthenticatorImplTest() {
-    url::AddStandardScheme("chrome-extension", url::SCHEME_WITH_HOST);
+    url::AddStandardScheme("decentr-extension", url::SCHEME_WITH_HOST);
   }
   ~AuthenticatorImplTest() override = default;
 
@@ -2155,7 +2155,7 @@ class AuthenticatorContentBrowserClientTest : public AuthenticatorImplTest {
 TEST_F(AuthenticatorContentBrowserClientTest, ChromeExtensions) {
   static constexpr char kExtensionId[] = "abcdefg";
   static const std::string kExtensionOrigin =
-      std::string("chrome-extension://") + kExtensionId;
+      std::string("decentr-extension://") + kExtensionId;
 
   NavigateAndCommit(GURL(kExtensionOrigin + "/test.html"));
 

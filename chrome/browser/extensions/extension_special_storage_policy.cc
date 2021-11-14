@@ -127,7 +127,7 @@ bool ExtensionSpecialStoragePolicy::IsStorageUnlimited(const GURL& origin) {
     return true;
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  // chrome-untrusted://terminal/ runs the SSH extension code which can store
+  // decentr-untrusted://terminal/ runs the SSH extension code which can store
   // SSH known_hosts, config, and Identity keys. Use unlimitedStorage to match
   // extension config.
   if (origin == chrome::kChromeUIUntrustedTerminalURL)

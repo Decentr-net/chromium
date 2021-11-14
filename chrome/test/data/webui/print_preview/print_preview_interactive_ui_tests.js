@@ -32,7 +32,7 @@ var PrintPreviewButtonStripInteractiveTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/button_strip_interactive_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/button_strip_interactive_test.js';
   }
 
   /** @override */
@@ -60,7 +60,7 @@ var PrintPreviewDestinationDialogInteractiveTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_dialog_interactive_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_dialog_interactive_test.js';
   }
 
   /** @override */
@@ -89,7 +89,7 @@ var PrintPreviewDestinationDialogCrosInteractiveTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_dialog_cros_interactive_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_dialog_cros_interactive_test.js';
   }
 
   /** @override */
@@ -119,7 +119,7 @@ var PrintPreviewPagesSettingsTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/pages_settings_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/pages_settings_test.js';
   }
 
   /** @override */
@@ -150,7 +150,7 @@ var PrintPreviewNumberSettingsSectionInteractiveTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/number_settings_section_interactive_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/number_settings_section_interactive_test.js';
   }
 
   /** @override */
@@ -171,7 +171,7 @@ var PrintPreviewScalingSettingsInteractiveTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/scaling_settings_interactive_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/scaling_settings_interactive_test.js';
   }
 
   /** @override */
@@ -199,7 +199,7 @@ var PrintPreviewDestinationDropdownCrosTest =
     class extends PrintPreviewInteractiveUITest {
   /** @override */
   get browsePreload() {
-    return 'chrome://print/test_loader.html?module=print_preview/destination_dropdown_cros_test.js';
+    return 'decentr://print/test_loader.html?module=print_preview/destination_dropdown_cros_test.js';
   }
 
   /** @override */

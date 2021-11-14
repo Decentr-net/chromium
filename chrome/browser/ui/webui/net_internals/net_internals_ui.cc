@@ -40,7 +40,7 @@ content::WebUIDataSource* CreateNetInternalsHTMLSource() {
   source->SetDefaultResource(IDR_NET_INTERNALS_INDEX_HTML);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   source->AddResourcePath("test_loader_util.js",
                           IDR_WEBUI_JS_TEST_LOADER_UTIL_JS);
   source->DisableTrustedTypesCSP();
@@ -327,7 +327,7 @@ NetInternalsUI::NetInternalsUI(content::WebUI* web_ui)
   web_ui->AddMessageHandler(
       std::make_unique<NetInternalsMessageHandler>(web_ui));
 
-  // Set up the chrome://net-internals/ source.
+  // Set up the decentr://net-internals/ source.
   Profile* profile = Profile::FromWebUI(web_ui);
   content::WebUIDataSource::Add(profile, CreateNetInternalsHTMLSource());
 }

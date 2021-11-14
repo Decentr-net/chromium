@@ -198,9 +198,9 @@ class PixelIntegrationTest(
     # Crash the GPU process.
     #
     # This used to create a new tab and navigate it to
-    # chrome://gpucrash, but there was enough unreliability
+    # decentr://gpucrash, but there was enough unreliability
     # navigating between these tabs (one of which was created solely
-    # in order to navigate to chrome://gpucrash) that the simpler
+    # in order to navigate to decentr://gpucrash) that the simpler
     # solution of provoking the GPU process crash from this renderer
     # process was chosen.
     del page  # Unused in this particular action.

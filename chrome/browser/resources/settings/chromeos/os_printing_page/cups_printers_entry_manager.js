@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {addSingletonGetter, addWebUIListener, removeWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {WebUIListener} from 'chrome://resources/js/cr.m.js';
+import {addSingletonGetter, addWebUIListener, removeWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {WebUIListener} from 'decentr://resources/js/cr.m.js';
 
 import {findDifference} from './cups_printer_dialog_util.js';
 import {PrinterListEntry, PrinterType} from './cups_printer_types.js';

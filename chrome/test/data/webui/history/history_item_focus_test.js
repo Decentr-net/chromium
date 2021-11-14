@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserService} from 'chrome://history/history.js';
-import {TestBrowserService} from 'chrome://test/history/test_browser_service.js';
-import {createHistoryEntry} from 'chrome://test/history/test_util.js';
-import {eventToPromise, flushTasks, waitAfterNextRender} from 'chrome://test/test_util.js';
+import {BrowserService} from 'decentr://history/history.js';
+import {TestBrowserService} from 'decentr://test/history/test_browser_service.js';
+import {createHistoryEntry} from 'decentr://test/history/test_util.js';
+import {eventToPromise, flushTasks, waitAfterNextRender} from 'decentr://test/test_util.js';
 
 suite('<history-item> focus test', function() {
   let item;

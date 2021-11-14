@@ -565,7 +565,7 @@ TEST_F(BidderWorkletTest, GenerateBidResult) {
       {"https://url.test/ generateBid() returned "
        "render URL that isn't a valid https:// URL."});
   RunGenerateBidWithReturnValueExpectingResult(
-      R"({ad: ["ad"], bid:1, render:"chrome-extension://response.test/"})",
+      R"({ad: ["ad"], bid:1, render:"decentr-extension://response.test/"})",
       mojom::BidderWorkletBidPtr() /* expected_bid */,
       {"https://url.test/ generateBid() returned "
        "render URL that isn't a valid https:// URL."});

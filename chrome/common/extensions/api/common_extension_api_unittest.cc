@@ -165,26 +165,26 @@ TEST(ExtensionAPITest, APIFeatures) {
     { "test7.foo", true, Feature::WEB_PAGE_CONTEXT, GURL("http://foo.com") },
     { "test7.bar", false, Feature::WEB_PAGE_CONTEXT, GURL("http://bar.com") },
     { "test7.bar", false, Feature::WEB_PAGE_CONTEXT, GURL("http://foo.com") },
-    { "test8", true, Feature::WEBUI_CONTEXT, GURL("chrome://test/") },
-    { "test8", true, Feature::WEBUI_CONTEXT, GURL("chrome://other-test/") },
-    { "test8", false, Feature::WEBUI_CONTEXT, GURL("chrome://dangerous/") },
+    { "test8", true, Feature::WEBUI_CONTEXT, GURL("decentr://test/") },
+    { "test8", true, Feature::WEBUI_CONTEXT, GURL("decentr://other-test/") },
+    { "test8", false, Feature::WEBUI_CONTEXT, GURL("decentr://dangerous/") },
     { "test8", false, Feature::WEBUI_CONTEXT,
-        GURL("chrome-untrusted://test/") },
+        GURL("decentr-untrusted://test/") },
     { "test8", false, Feature::WEBUI_UNTRUSTED_CONTEXT,
-        GURL("chrome-untrusted://test/") },
+        GURL("decentr-untrusted://test/") },
     { "test8", false, Feature::WEBUI_UNTRUSTED_CONTEXT,
-      GURL("chrome://test/*") },
+      GURL("decentr://test/*") },
     { "test9", true, Feature::WEBUI_UNTRUSTED_CONTEXT,
-        GURL("chrome-untrusted://test/") },
+        GURL("decentr-untrusted://test/") },
     { "test9", true, Feature::WEBUI_UNTRUSTED_CONTEXT,
-        GURL("chrome-untrusted://other-test/") },
+        GURL("decentr-untrusted://other-test/") },
     { "test9", false, Feature::WEBUI_UNTRUSTED_CONTEXT,
-        GURL("chrome-untrusted://dangerous/") },
+        GURL("decentr-untrusted://dangerous/") },
     { "test9", false, Feature::WEBUI_UNTRUSTED_CONTEXT,
-        GURL("chrome://test/") },
-    { "test9", false, Feature::WEBUI_CONTEXT, GURL("chrome://test/") },
+        GURL("decentr://test/") },
+    { "test9", false, Feature::WEBUI_CONTEXT, GURL("decentr://test/") },
     { "test9", false, Feature::WEBUI_CONTEXT,
-      GURL("chrome-untrusted://test/*") },
+      GURL("decentr-untrusted://test/*") },
 
     // Test parent/child.
     { "parent1", true, Feature::CONTENT_SCRIPT_CONTEXT, GURL() },
@@ -344,17 +344,17 @@ TEST(ExtensionAPITest, IsAnyFeatureAvailableToContext) {
        GURL("http://foo.com")},
       {"test7", false, Feature::WEB_PAGE_CONTEXT, nullptr,
        GURL("http://bar.com")},
-      {"test10", true, Feature::WEBUI_CONTEXT, nullptr, GURL("chrome://test/")},
+      {"test10", true, Feature::WEBUI_CONTEXT, nullptr, GURL("decentr://test/")},
       {"test10", true, Feature::WEBUI_CONTEXT, nullptr,
-       GURL("chrome://other-test/")},
+       GURL("decentr://other-test/")},
       {"test10", false, Feature::WEBUI_UNTRUSTED_CONTEXT, nullptr,
-       GURL("chrome-untrusted://test/")},
+       GURL("decentr-untrusted://test/")},
       {"test11", true, Feature::WEBUI_UNTRUSTED_CONTEXT, nullptr,
-       GURL("chrome-untrusted://test/")},
+       GURL("decentr-untrusted://test/")},
       {"test11", true, Feature::WEBUI_UNTRUSTED_CONTEXT, nullptr,
-       GURL("chrome-untrusted://other-test/")},
+       GURL("decentr-untrusted://other-test/")},
       {"test11", false, Feature::WEBUI_CONTEXT, nullptr,
-       GURL("chrome://test/")},
+       GURL("decentr://test/")},
   };
 
   FeatureProvider api_feature_provider;
@@ -743,11 +743,11 @@ TEST(ExtensionAPITest, URLMatching) {
 
   // Also to internal URLs.
   EXPECT_TRUE(MatchesURL(api.get(), "app", "about:flags"));
-  EXPECT_TRUE(MatchesURL(api.get(), "app", "chrome://flags"));
+  EXPECT_TRUE(MatchesURL(api.get(), "app", "decentr://flags"));
 
-  // "app" should be available to chrome-extension URLs.
+  // "app" should be available to decentr-extension URLs.
   EXPECT_TRUE(MatchesURL(api.get(), "app",
-                          "chrome-extension://fakeextension"));
+                          "decentr-extension://fakeextension"));
 
   // "storage" API (for example) isn't available to any URLs.
   EXPECT_FALSE(MatchesURL(api.get(), "storage",
@@ -755,9 +755,9 @@ TEST(ExtensionAPITest, URLMatching) {
   EXPECT_FALSE(MatchesURL(api.get(), "storage", "https://blah.net"));
   EXPECT_FALSE(MatchesURL(api.get(), "storage", "file://somefile.html"));
   EXPECT_FALSE(MatchesURL(api.get(), "storage", "about:flags"));
-  EXPECT_FALSE(MatchesURL(api.get(), "storage", "chrome://flags"));
+  EXPECT_FALSE(MatchesURL(api.get(), "storage", "decentr://flags"));
   EXPECT_FALSE(MatchesURL(api.get(), "storage",
-                          "chrome-extension://fakeextension"));
+                          "decentr-extension://fakeextension"));
 }
 
 TEST(ExtensionAPITest, GetAPINameFromFullName) {

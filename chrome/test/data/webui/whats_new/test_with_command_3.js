@@ -4,5 +4,5 @@
 
 window.onload = function() {
   window.top.postMessage(
-      {'data': {'commandId': 3, 'clickInfo': {}}}, 'chrome://whats-new/');
+      {'data': {'commandId': 3, 'clickInfo': {}}}, 'decentr://whats-new/');
 };

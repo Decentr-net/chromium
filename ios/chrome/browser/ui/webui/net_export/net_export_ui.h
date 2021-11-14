@@ -10,7 +10,7 @@
 #include "base/macros.h"
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The C++ back-end for the chrome://net-export webui page.
+// The C++ back-end for the decentr://net-export webui page.
 class NetExportUI : public web::WebUIIOSController {
  public:
   explicit NetExportUI(web::WebUIIOS* web_ui, const std::string& host);

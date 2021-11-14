@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CommandHandlerRemote} from 'chrome://resources/js/browser_command/browser_command.mojom-webui.js';
-import {BrowserCommandProxy} from 'chrome://resources/js/browser_command/browser_command_proxy.js';
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {WhatsNewAppElement} from 'chrome://whats-new/whats_new_app.js';
-import {WhatsNewProxyImpl} from 'chrome://whats-new/whats_new_proxy.js';
+import {CommandHandlerRemote} from 'decentr://resources/js/browser_command/browser_command.mojom-webui.js';
+import {BrowserCommandProxy} from 'decentr://resources/js/browser_command/browser_command_proxy.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {WhatsNewAppElement} from 'decentr://whats-new/whats_new_app.js';
+import {WhatsNewProxyImpl} from 'decentr://whats-new/whats_new_proxy.js';
 
 import {assertFalse, assertTrue} from '../chai_assert.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';
@@ -35,9 +35,9 @@ class TestWhatsNewProxy extends TestBrowserProxy {
 }
 
 suite('WhatsNewAppTest', function() {
-  const whatsNewURL = 'chrome://test/whats_new/test.html';
+  const whatsNewURL = 'decentr://test/whats_new/test.html';
   const whatsNewWithCommandURL =
-      'chrome://test/whats_new/test_with_command_3.html';
+      'decentr://test/whats_new/test_with_command_3.html';
 
   setup(function() {
     document.body.innerHTML = '';

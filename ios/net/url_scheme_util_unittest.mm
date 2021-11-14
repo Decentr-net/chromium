@@ -22,7 +22,7 @@ const char* kSchemeTestData[] = {
     "https://foo.com",
     "data:text/html;charset=utf-8,Hello",
     "about:blank",
-    "chrome://settings",
+    "decentr://settings",
 };
 
 using URLSchemeUtilTest = PlatformTest;

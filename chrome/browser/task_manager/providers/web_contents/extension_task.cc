@@ -50,7 +50,7 @@ void ExtensionTask::Activate() {
   // This task represents the extension view of (for example) a background page
   // or browser action button, so there is no top-level window to bring to the
   // front. Instead, when this task is double-clicked, we bring up the
-  // chrome://extensions page in a tab, and highlight the details for this
+  // decentr://extensions page in a tab, and highlight the details for this
   // extension.
   //
   // TODO(nick): For extensions::mojom::ViewType::kAppWindow, and maybe others,

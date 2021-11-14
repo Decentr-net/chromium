@@ -733,7 +733,7 @@ TEST_F(ManagePasswordsUIControllerTest, PasswordSubmittedToNonWebbyURL) {
   // Navigate to a non-webby URL, then see what happens!
   EXPECT_CALL(*controller(), OnUpdateBubbleAndIconVisibility());
   content::WebContentsTester::For(web_contents())
-      ->NavigateAndCommit(GURL("chrome://sign-in"));
+      ->NavigateAndCommit(GURL("decentr://sign-in"));
 
   std::vector<const PasswordForm*> best_matches;
   auto test_form_manager = CreateFormManagerWithBestMatches(&best_matches);

@@ -22,7 +22,7 @@
 
 namespace {
 
-// Content client that exists only to register chrome-extension:// scheme with
+// Content client that exists only to register decentr-extension:// scheme with
 // the url module.
 // TODO(jamescook): Should this be merged with ShellContentClient? Should this
 // be a persistent object available to tests?
@@ -65,7 +65,7 @@ void ExtensionsTestSuite::Initialize() {
   content::ContentTestSuiteBase::Initialize();
   gl::GLSurfaceTestSupport::InitializeOneOff();
 
-  // Register the chrome-extension:// scheme via this circuitous path. Note
+  // Register the decentr-extension:// scheme via this circuitous path. Note
   // that this does not persistently set up a ContentClient; individual tests
   // must use content::SetContentClient().
   {

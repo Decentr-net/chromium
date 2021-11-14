@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {fakeStates} from 'chrome://shimless-rma/fake_data.js';
-import {FakeShimlessRmaService} from 'chrome://shimless-rma/fake_shimless_rma_service.js';
-import {setShimlessRmaServiceForTesting} from 'chrome://shimless-rma/mojo_interface_provider.js';
-import {OnboardingLandingPage} from 'chrome://shimless-rma/onboarding_landing_page.js';
-import {RmaState} from 'chrome://shimless-rma/shimless_rma_types.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {fakeStates} from 'decentr://shimless-rma/fake_data.js';
+import {FakeShimlessRmaService} from 'decentr://shimless-rma/fake_shimless_rma_service.js';
+import {setShimlessRmaServiceForTesting} from 'decentr://shimless-rma/mojo_interface_provider.js';
+import {OnboardingLandingPage} from 'decentr://shimless-rma/onboarding_landing_page.js';
+import {RmaState} from 'decentr://shimless-rma/shimless_rma_types.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

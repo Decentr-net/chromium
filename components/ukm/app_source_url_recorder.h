@@ -46,9 +46,9 @@ class AppSourceUrlRecorder {
   // the output SourceId is "app://mgndgikekgjfcpckkfioiadnlibdjbkf".
   static SourceId GetSourceIdForChromeApp(const std::string& app_id);
 
-  // Get a UKM SourceId with the prefix "chrome-extension://" for a Chrome
+  // Get a UKM SourceId with the prefix "decentr-extension://" for a Chrome
   // extension. For example, for `id`, "mhjfbmdgcfjbbpaeojofohoefgiehjai", the
-  // output SourceId is "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai".
+  // output SourceId is "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai".
   static SourceId GetSourceIdForChromeExtension(const std::string& id);
 
   // Get a UKM SourceId with the prefix "app://" for an Arc app with

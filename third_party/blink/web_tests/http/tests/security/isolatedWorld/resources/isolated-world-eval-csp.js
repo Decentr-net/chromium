@@ -24,7 +24,7 @@ function testEval(expectBlocked) {
 }
 
 let isolatedWorldId = 1;
-const isolatedWorldSecurityOrigin = 'chrome-extensions://123';
+const isolatedWorldSecurityOrigin = 'decentr-extensions://123';
 
 function testEvalInIsolatedWorld(expectBlocked) {
   const expectBlockedStr = expectBlocked ? 'true' : 'false';

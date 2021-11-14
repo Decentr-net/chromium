@@ -517,7 +517,7 @@ class MAYBE_WebRtcInternalsBrowserTest: public ContentBrowserTest {
 
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
                        AddAndRemovePeerConnection) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   // Add two PeerConnections and then remove them.
@@ -539,7 +539,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
 
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
                        UpdateAllPeerConnections) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   PeerConnectionEntry pc_0(1, 0);
@@ -558,7 +558,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
 }
 
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, UpdatePeerConnection) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   // Add one PeerConnection and send one update.
@@ -597,7 +597,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, UpdatePeerConnection) {
 
 // Tests that adding random named stats updates the dataSeries and graphs.
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, AddStats) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   PeerConnectionEntry pc(1, 0);
@@ -623,7 +623,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, AddStats) {
 
 // Tests that the bandwidth estimation values are drawn on a single graph.
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, BweCompoundGraph) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   PeerConnectionEntry pc(1, 0);
@@ -663,7 +663,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, BweCompoundGraph) {
 // Tests that the total packet/byte count is converted to count per second,
 // and the converted data is drawn.
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, ConvertedGraphs) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   PeerConnectionEntry pc(1, 0);
@@ -714,7 +714,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
   ExpectTitle("OK");
 
   // Open webrtc-internals in the second window.
-  GURL url2("chrome://webrtc-internals");
+  GURL url2("decentr://webrtc-internals");
   Shell* shell2 = CreateBrowser();
   EXPECT_TRUE(NavigateToURL(shell2, url2));
 
@@ -793,7 +793,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
 }
 
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, CreatePageDump) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   PeerConnectionEntry pc_0(1, 0);
@@ -840,7 +840,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, CreatePageDump) {
 }
 
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, UpdateGetUserMedia) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   UserMediaRequestEntry request1(1, 1, "origin", "ac", "vc");
@@ -866,7 +866,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest, UpdateGetUserMedia) {
 // correctly.
 IN_PROC_BROWSER_TEST_F(MAYBE_WebRtcInternalsBrowserTest,
                        ReceivedPropagationDelta) {
-  GURL url("chrome://webrtc-internals");
+  GURL url("decentr://webrtc-internals");
   EXPECT_TRUE(NavigateToURL(shell(), url));
 
   PeerConnectionEntry pc(1, 0);

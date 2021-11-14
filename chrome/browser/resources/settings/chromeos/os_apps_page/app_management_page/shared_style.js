@@ -9,7 +9,7 @@ import '//resources/cr_elements/shared_vars_css.m.js';
 
 const template = document.createElement('template');
 template.innerHTML = `
-<dom-module id="app-management-shared-css" assetpath="chrome://resources/">
+<dom-module id="app-management-shared-css" assetpath="decentr://resources/">
 {__html_template__}</dom-module>
 `;
 document.body.appendChild(template.content.cloneNode(true));

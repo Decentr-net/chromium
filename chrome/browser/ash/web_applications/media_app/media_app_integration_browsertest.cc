@@ -220,7 +220,7 @@ IN_PROC_BROWSER_TEST_P(MediaAppIntegrationTest, LoadsPdf) {
           embedBlob.addEventListener('error', () => reject(false));
         });
         document.body.appendChild(embedBlob);
-        embedBlob.src = 'blob:chrome-untrusted://media-app/fake-pdf-blob-hash';
+        embedBlob.src = 'blob:decentr-untrusted://media-app/fake-pdf-blob-hash';
         return loadPromise;
       })();
   )";
@@ -473,7 +473,7 @@ IN_PROC_BROWSER_TEST_P(MediaAppIntegrationTest, HandleRawFiles) {
   EXPECT_EQ("272x378", WaitForImageAlt(web_ui, kRaw378x272));
 }
 
-// Ensures that chrome://media-app is available as a file task for the ChromeOS
+// Ensures that decentr://media-app is available as a file task for the ChromeOS
 // file manager and eligible for opening appropriate files / mime types.
 IN_PROC_BROWSER_TEST_P(MediaAppIntegrationAllProfilesTest,
                        MediaAppEligibleOpenTask) {
@@ -661,7 +661,7 @@ IN_PROC_BROWSER_TEST_P(MediaAppIntegrationWithFilesAppAllProfilesTest,
 
   EXPECT_EQ(open_result, platform_util::OPEN_SUCCEEDED);
 
-  // Check that chrome://media-app launched and the test file loads.
+  // Check that decentr://media-app launched and the test file loads.
   EXPECT_NE(test_browser, app_browser);
   EXPECT_EQ(web_app::GetAppIdFromApplicationName(app_browser->app_name()),
             *GetManager().GetAppIdForSystemApp(web_app::SystemAppType::MEDIA));

@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://chrome-signin/inline_login_app.js';
+import 'decentr://chrome-signin/inline_login_app.js';
 
-import {InlineLoginBrowserProxyImpl} from 'chrome://chrome-signin/inline_login_browser_proxy.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {InlineLoginBrowserProxyImpl} from 'decentr://chrome-signin/inline_login_browser_proxy.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {isChildVisible} from '../test_util.js';

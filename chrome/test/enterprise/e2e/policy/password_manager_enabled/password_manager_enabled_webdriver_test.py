@@ -20,7 +20,7 @@ def getNestedShadowDom(driver, selectors):
 
 def main(argv):
   driver = test_util.create_chrome_webdriver()
-  driver.get("chrome://settings/passwords")
+  driver.get("decentr://settings/passwords")
 
   # The settings is nested within multiple shadow doms - extract it.
   el = getNestedShadowDom(driver, [

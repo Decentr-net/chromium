@@ -265,8 +265,8 @@ const DefaultImageSourceInfo kDefaultImageSourceInfo[] = {
     {IDS_LOGIN_DEFAULT_USER_AUTHOR_33, IDS_LOGIN_DEFAULT_USER_WEBSITE_33},
 };
 
-const char kDefaultUrlPrefix[] = "chrome://theme/IDR_LOGIN_DEFAULT_USER_";
-const char kZeroDefaultUrl[] = "chrome://theme/IDR_LOGIN_DEFAULT_USER";
+const char kDefaultUrlPrefix[] = "decentr://theme/IDR_LOGIN_DEFAULT_USER_";
+const char kZeroDefaultUrl[] = "decentr://theme/IDR_LOGIN_DEFAULT_USER";
 
 // Returns true if the string specified consists of the prefix and one of
 // the default images indices. Returns the index of the image in `image_id`

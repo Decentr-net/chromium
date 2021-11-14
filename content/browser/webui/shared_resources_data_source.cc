@@ -142,7 +142,7 @@ WebUIDataSource* CreateSharedResourcesDataSource() {
 }
 
 WebUIDataSource* CreateUntrustedSharedResourcesDataSource() {
-  // This data source only serves resources used by all chrome-untrusted://
+  // This data source only serves resources used by all decentr-untrusted://
   // WebUI pages.
   //
   // Don't put generated Mojo bindings here. Please explicitly add them to each

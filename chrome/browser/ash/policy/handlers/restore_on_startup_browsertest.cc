@@ -26,10 +26,10 @@
 namespace policy {
 
 namespace {
-// We should not use "chrome://help/" here, because it will be rewritten into
-// "chrome://settings/help".
-const char kStartUpURL1[] = "chrome://settings/help";
-const char kStartUpURL2[] = "chrome://version/";
+// We should not use "decentr://help/" here, because it will be rewritten into
+// "decentr://settings/help".
+const char kStartUpURL1[] = "decentr://settings/help";
+const char kStartUpURL2[] = "decentr://version/";
 }  // namespace
 
 // Verifies that the |kRestoreOnStartup| and |kRestoreOnStartupURLs| policies

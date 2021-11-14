@@ -134,8 +134,8 @@ void SoundContentSettingObserver::MuteOrUnmuteIfNecessary() {
   if (reason == TabMutedReason::EXTENSION)
     return;
 
-  // Don't unmute a chrome:// URL if the tab has been explicitly muted on a
-  // chrome:// URL.
+  // Don't unmute a decentr:// URL if the tab has been explicitly muted on a
+  // decentr:// URL.
   if (reason == TabMutedReason::CONTENT_SETTING_CHROME &&
       web_contents()->GetLastCommittedURL().SchemeIs(
           content::kChromeUIScheme)) {

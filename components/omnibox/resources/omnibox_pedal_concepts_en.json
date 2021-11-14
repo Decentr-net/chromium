@@ -704,7 +704,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to run a safety check in Chrome settings",
         "spoken_button_focus_announcement": "Run Chrome safety check button, press Enter to run a safety check in Chrome settings"
       },
-      "url": "chrome://settings/safetyCheck?activateSafetyCheck"
+      "url": "decentr://settings/safetyCheck?activateSafetyCheck"
     },
     {
       "id": 8,
@@ -794,7 +794,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage your Safe Browsing and more in Chrome settings",
         "spoken_button_focus_announcement": "Manage security settings button, press Enter to manage your Safe Browsing and more in Chrome settings"
       },
-      "url": "chrome://settings/security"
+      "url": "decentr://settings/security"
     },
     {
       "id": 9,
@@ -876,7 +876,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage your cookie preferences in Chrome settings",
         "spoken_button_focus_announcement": "Manage cookies button, press Enter to manage your cookie preferences in Chrome settings"
       },
-      "url": "chrome://settings/cookies"
+      "url": "decentr://settings/cookies"
     },
     {
       "id": 10,
@@ -961,7 +961,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to add and manage addresses in Chrome settings",
         "spoken_button_focus_announcement": "Manage addresses button, press Enter to add and manage addresses in Chrome settings"
       },
-      "url": "chrome://settings/addresses"
+      "url": "decentr://settings/addresses"
     },
     {
       "id": 11,
@@ -1029,7 +1029,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage what info you sync in Chrome settings",
         "spoken_button_focus_announcement": "Manage sync button, press Enter to manage what info you sync in Chrome settings"
       },
-      "url": "chrome://settings/syncSetup/advanced"
+      "url": "decentr://settings/syncSetup/advanced"
     },
     {
       "id": 12,
@@ -1095,7 +1095,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage permissions and data stored across sites in Chrome settings",
         "spoken_button_focus_announcement": "Manage site settings button, press Enter to manage permissions and data stored across sites in Chrome settings"
       },
-      "url": "chrome://settings/content"
+      "url": "decentr://settings/content"
     },
     {
       "id": 13,
@@ -1929,7 +1929,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to play the Dino Run game in Chrome",
         "spoken_button_focus_announcement": "Play Chrome Dino game button, press Enter to play the Dino Run game in Chrome"
       },
-      "url": "chrome://dino"
+      "url": "decentr://dino"
     },
     {
       "id": 28,
@@ -2156,7 +2156,7 @@
         "spoken_suggestion_description_suffix": "$1, Press Tab then Enter to manage your Chrome settings",
         "spoken_button_focus_announcement": "Manage Chrome settings button, press Enter to visit your Chrome settings"
       },
-      "url": "chrome://settings"
+      "url": "decentr://settings"
     },
     {
       "id": 32,
@@ -2231,7 +2231,7 @@
         "spoken_suggestion_description_suffix": "$1, Press Tab then Enter to manage files you have downloaded in Chrome",
         "spoken_button_focus_announcement": "Manage downloads in Chrome button, press Enter to manage files you have downloaded in Chrome."
       },
-      "url": "chrome://downloads"
+      "url": "decentr://downloads"
     },
     {
       "id": 33,
@@ -2297,7 +2297,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to view your browsing history in Chrome",
         "spoken_button_focus_announcement": "View your Chrome history button, press Enter to view and manage your browsing history in Chrome settings"
       },
-      "url": "chrome://history"
+      "url": "decentr://history"
     },
     {
       "id": 34,
@@ -2473,7 +2473,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to personalize your accessibility tools in Chrome settings.",
         "spoken_button_focus_announcement": "Manage accessibility settings button, press Enter to personalize your accessibility tools in Chrome settings."
       },
-      "url": "chrome://settings/accessibility"
+      "url": "decentr://settings/accessibility"
     },
     {
       "id": 36,
@@ -2557,7 +2557,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to customize font sizes and typefaces in Chrome",
         "spoken_button_focus_announcement": "Customize fonts in Chrome button, press Enter to customize font sizes and typefaces in Chrome"
       },
-      "url": "chrome://settings/fonts"
+      "url": "decentr://settings/fonts"
     },
     {
       "id": 37,
@@ -2626,7 +2626,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to customize the look of your browser.",
         "spoken_button_focus_announcement": "Customize Chrome button, press Enter to customize the look of your browser."
       },
-      "url": "chrome://new-tab-page/?customize=backgrounds"
+      "url": "decentr://new-tab-page/?customize=backgrounds"
     },
     {
       "id": 38,
@@ -2721,7 +2721,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to manage site search and your default search engine",
         "spoken_button_focus_announcement": "Manage search engines button, press Enter to manage your default search engine and site search"
       },
-      "url": "chrome://settings/searchEngines"
+      "url": "decentr://settings/searchEngines"
     },
     {
       "id": 39,
@@ -2803,7 +2803,7 @@
         "spoken_suggestion_description_suffix": "$1, Press tab then Enter to personalize your accessibility tools in Chrome OS settings.",
         "spoken_button_focus_announcement": "Manage accessibility settings button, Enter to personalize your accessibility tools in Chrome OS settings"
       },
-      "url": "chrome://os-settings/manageAccessibility"
+      "url": "decentr://os-settings/manageAccessibility"
     }
   ],
   "ignore_group": {

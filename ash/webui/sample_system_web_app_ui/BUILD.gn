@@ -69,7 +69,7 @@ generate_grd("build_mojo_grdp") {
   deps = [ "//ash/webui/sample_system_web_app_ui/mojom:mojom_webui_js" ]
 
   # Flatten out the dependency tree of your mojom and add any files not included
-  # in `chrome://resources` here.
+  # in `decentr://resources` here.
   input_files = [ "ash/webui/sample_system_web_app_ui/mojom/sample_system_web_app_ui.mojom-webui.js" ]
 
   input_files_base_dir =

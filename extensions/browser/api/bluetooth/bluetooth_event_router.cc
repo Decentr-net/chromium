@@ -267,7 +267,7 @@ void BluetoothEventRouter::AddPairingDelegateImpl(
 
   if (base::Contains(pairing_delegate_map_, extension_id)) {
     // For WebUI there may be more than one page open to the same url
-    // (e.g. chrome://settings). These will share the same pairing delegate.
+    // (e.g. decentr://settings). These will share the same pairing delegate.
     BLUETOOTH_LOG(EVENT) << "Pairing delegate already exists for extension_id: "
                          << extension_id;
     return;

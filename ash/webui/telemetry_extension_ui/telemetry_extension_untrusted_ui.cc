@@ -59,7 +59,7 @@ void ReadFile(const base::FilePath& path,
 }
 
 // A data source that helps with loading resources needed by
-// chrome-untrusted://telemetry-extension/ WebUI pages.
+// decentr-untrusted://telemetry-extension/ WebUI pages.
 // There are two types of resources:
 // 1. GRIT resourse if the resource path exist in |path_to_idr_map_|; otherwise,
 // 2. Resource from the directory specified by

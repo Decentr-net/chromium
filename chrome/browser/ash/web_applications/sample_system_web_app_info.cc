@@ -39,14 +39,14 @@ std::unique_ptr<WebApplicationInfo> CreateWebAppInfoForSampleSystemWebApp() {
   {
     WebApplicationShortcutsMenuItemInfo shortcut;
     shortcut.name = u"Untrusted Sandbox Demo";
-    shortcut.url = GURL("chrome://sample-system-web-app/sandbox.html");
+    shortcut.url = GURL("decentr://sample-system-web-app/sandbox.html");
     info->shortcuts_menu_item_infos.push_back(std::move(shortcut));
   }
   {
     WebApplicationShortcutsMenuItemInfo shortcut;
     shortcut.name = u"Component Playground";
     shortcut.url =
-        GURL("chrome://sample-system-web-app/component_playground.html");
+        GURL("decentr://sample-system-web-app/component_playground.html");
     info->shortcuts_menu_item_infos.push_back(std::move(shortcut));
   }
 
@@ -57,12 +57,12 @@ SampleSystemAppDelegate::SampleSystemAppDelegate(Profile* profile)
     : web_app::SystemWebAppDelegate(
           web_app::SystemAppType::SAMPLE,
           "Sample",
-          GURL("chrome://sample-system-web-app/pwa.html"),
+          GURL("decentr://sample-system-web-app/pwa.html"),
           profile,
           web_app::OriginTrialsMap(
-              {{web_app::GetOrigin("chrome://sample-system-web-app"),
+              {{web_app::GetOrigin("decentr://sample-system-web-app"),
                 {"Frobulate"}},
-               {web_app::GetOrigin("chrome-untrusted://sample-system-web-app"),
+               {web_app::GetOrigin("decentr-untrusted://sample-system-web-app"),
                 {"Frobulate"}}})) {}
 
 std::unique_ptr<WebApplicationInfo> SampleSystemAppDelegate::GetWebAppInfo()
@@ -85,5 +85,5 @@ bool SampleSystemAppDelegate::ShouldBeSingleWindow() const {
 absl::optional<web_app::SystemAppBackgroundTaskInfo>
 SampleSystemAppDelegate::GetTimerInfo() const {
   return web_app::SystemAppBackgroundTaskInfo(
-      base::Seconds(30), GURL("chrome://sample-system-web-app/timer.html"));
+      base::Seconds(30), GURL("decentr://sample-system-web-app/timer.html"));
 }

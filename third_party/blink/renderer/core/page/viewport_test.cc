@@ -61,7 +61,7 @@ namespace blink {
 class ViewportTest : public testing::Test {
  protected:
   ViewportTest()
-      : base_url_("http://www.test.com/"), chrome_url_("chrome://") {}
+      : base_url_("http://www.test.com/"), chrome_url_("decentr://") {}
 
   ~ViewportTest() override {
     url_test_helpers::UnregisterAllURLsAndClearMemoryCache();

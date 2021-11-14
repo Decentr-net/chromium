@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$} from 'chrome://resources/js/util.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 // <if expr="is_linux">
 import './strings.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 // </if>
 
 /**

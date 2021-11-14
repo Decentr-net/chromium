@@ -27,7 +27,7 @@ class PerHostStorageInfo;
 class PerOriginStorageInfo;
 typedef std::map<std::string, std::string> Statistics;
 
-// This class handles message from WebUI page of chrome://quota-internals/.
+// This class handles message from WebUI page of decentr://quota-internals/.
 // All methods in this class should be called on UI thread.
 class QuotaInternalsHandler : public content::WebUIMessageHandler {
  public:

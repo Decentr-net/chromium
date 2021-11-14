@@ -152,7 +152,7 @@ TEST_F(SearchTest, ShouldAssignURLToInstantRenderer) {
   // Only remote NTPs and most-visited tiles embedded in remote NTPs should be
   // assigned to Instant renderers.
   const SearchTestCase kTestCases[] = {
-      {"chrome-search://most-visited/title.html?bar=abc", true,
+      {"decentr-search://most-visited/title.html?bar=abc", true,
        "Most-visited tile"},
       {"https://foo.com/newtab", true, "Remote NTP"},
       {"https://foo.com/instant", false, "Instant support was removed"},
@@ -173,9 +173,9 @@ TEST_F(SearchTest, ShouldAssignURLToInstantRenderer) {
 
 TEST_F(SearchTest, ShouldUseProcessPerSiteForInstantSiteURL) {
   const SearchTestCase kTestCases[] = {
-      {"chrome-search://remote-ntp", true, "Remote NTP"},
+      {"decentr-search://remote-ntp", true, "Remote NTP"},
       {"invalid-scheme://online-ntp", false, "Invalid Online NTP URL"},
-      {"chrome-search://foo.com", false, "Search result page"},
+      {"decentr-search://foo.com", false, "Search result page"},
       {"https://foo.com/instant", false, ""},
       {"https://foo.com/url", false, ""},
       {"https://foo.com/alt", false, ""},
@@ -197,7 +197,7 @@ TEST_F(SearchTest, ShouldUseProcessPerSiteForInstantSiteURL) {
 TEST_F(SearchTest, ProcessIsolation) {
   for (size_t i = 0; i < base::size(kProcessIsolationTestCases); ++i) {
     const ProcessIsolationTestCase& test = kProcessIsolationTestCases[i];
-    AddTab(browser(), GURL("chrome://blank"));
+    AddTab(browser(), GURL("decentr://blank"));
     content::WebContents* contents =
         browser()->tab_strip_model()->GetActiveWebContents();
 
@@ -234,7 +234,7 @@ TEST_F(SearchTest, ProcessIsolation) {
 TEST_F(SearchTest, ProcessIsolation_RendererInitiated) {
   for (size_t i = 0; i < base::size(kProcessIsolationTestCases); ++i) {
     const ProcessIsolationTestCase& test = kProcessIsolationTestCases[i];
-    AddTab(browser(), GURL("chrome://blank"));
+    AddTab(browser(), GURL("decentr://blank"));
     content::WebContents* contents =
         browser()->tab_strip_model()->GetActiveWebContents();
 
@@ -278,15 +278,15 @@ const SearchTestCase kInstantNTPTestCases[] = {
     {"https://foo.com/url?bar=abc", false, "Has query terms"},
     {"http://foo.com/instant", false, "Insecure URL"},
     {"https://foo.com/instant", false, "No search term replacement"},
-    {"chrome://blank/", false, "Chrome scheme"},
-    {"chrome-search://foo", false, "Chrome-search scheme"},
+    {"decentr://blank/", false, "Chrome scheme"},
+    {"decentr-search://foo", false, "Chrome-search scheme"},
     {"https://bar.com/instant", false, "Random non-search page"},
     {"https://foo.com/newtab", true, "New tab URL"},
     {"http://foo.com/newtab", false, "Insecure New tab URL"},
 };
 
 TEST_F(SearchTest, InstantNTPExtendedEnabled) {
-  AddTab(browser(), GURL("chrome://blank"));
+  AddTab(browser(), GURL("decentr://blank"));
   for (const SearchTestCase& test : kInstantNTPTestCases) {
     NavigateAndCommitActiveTab(GURL(test.url));
     content::WebContents* contents =
@@ -297,7 +297,7 @@ TEST_F(SearchTest, InstantNTPExtendedEnabled) {
 }
 
 TEST_F(SearchTest, InstantCacheableNTPNavigationEntry) {
-  AddTab(browser(), GURL("chrome://blank"));
+  AddTab(browser(), GURL("decentr://blank"));
   content::WebContents* contents =
         browser()->tab_strip_model()->GetWebContentsAt(0);
   content::NavigationController& controller = contents->GetController();
@@ -317,7 +317,7 @@ TEST_F(SearchTest, InstantCacheableNTPNavigationEntryNewProfile) {
   content::WebContents* contents =
         browser()->tab_strip_model()->GetWebContentsAt(0);
   content::NavigationController& controller = contents->GetController();
-  // Test virtual url chrome://newtab for first NTP of a new profile
+  // Test virtual url decentr://newtab for first NTP of a new profile
   EXPECT_TRUE(
       MatchesOriginAndPath(GURL(chrome::kChromeUINewTabPageThirdPartyURL),
                            controller.GetLastCommittedEntry()->GetURL()));
@@ -405,12 +405,12 @@ TEST_F(SearchTest, IsNTPOrRelatedURL) {
 // See search::IsNTPURL(const GURL& url);
 TEST_F(SearchTest, IsNTPURL) {
   const SearchTestCase kTestCases[] = {
-      {"chrome-search://remote-ntp", true, "Remote NTP URL"},
-      {"chrome://new-tab-page", true, "WebUI NTP"},
-      {"chrome://new-tab-page/path?params", true,
+      {"decentr-search://remote-ntp", true, "Remote NTP URL"},
+      {"decentr://new-tab-page", true, "WebUI NTP"},
+      {"decentr://new-tab-page/path?params", true,
        "WebUI NTP with path and params"},
       {"invalid-scheme://remote-ntp", false, "Invalid Remote NTP URL"},
-      {"chrome-search://most-visited/", false, "Most visited URL"},
+      {"decentr-search://most-visited/", false, "Most visited URL"},
       {"", false, "Invalid URL"},
   };
 
@@ -422,7 +422,7 @@ TEST_F(SearchTest, IsNTPURL) {
 }
 
 // Regression test for https://crbug.com/605720: Set up a search provider backed
-// by localhost on a specific port, like browsertests do.  The chrome-search://
+// by localhost on a specific port, like browsertests do.  The decentr-search://
 // URLs generated in this mode should not have ports.
 TEST_F(SearchTest, SearchProviderWithPort) {
   TemplateURLService* template_url_service =
@@ -441,7 +441,7 @@ TEST_F(SearchTest, SearchProviderWithPort) {
       GURL("https://[::1]:1993/newtab?lala"), profile()));
   EXPECT_FALSE(ShouldAssignURLToInstantRenderer(
       GURL("https://[::1]:1992/newtab?lala"), profile()));
-  EXPECT_EQ(GURL("chrome-search://remote-ntp/newtab?lala"),
+  EXPECT_EQ(GURL("decentr-search://remote-ntp/newtab?lala"),
             GetEffectiveURLForInstant(GURL("https://[::1]:1993/newtab?lala"),
                                       profile()));
   EXPECT_FALSE(ShouldAssignURLToInstantRenderer(

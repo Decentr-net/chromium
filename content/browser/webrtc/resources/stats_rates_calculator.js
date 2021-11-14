@@ -23,7 +23,7 @@ class Metric {
 // Represents a companion dictionary to an RTCStats object of an RTCStatsReport.
 // The CalculatedStats object contains additional metrics associated with the
 // original RTCStats object. Typically, the RTCStats object contains
-// accumulative counters, but in chrome://webrc-internals/ we also want graphs
+// accumulative counters, but in decentr://webrc-internals/ we also want graphs
 // for the average rate over the last second, so we have CalculatedStats
 // containing calculated Metrics.
 class CalculatedStats {

@@ -3,17 +3,17 @@
 // found in the LICENSE file.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
-import 'chrome://resources/js/jstemplate_compiled.js';
+import 'decentr://resources/js/jstemplate_compiled.js';
 import './strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isIOS, sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isIOS, sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 let lastChanged = null;
 let lastFocused = null;

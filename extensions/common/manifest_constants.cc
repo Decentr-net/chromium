@@ -237,9 +237,9 @@ const char kBackgroundSpecificationInvalidForManifestV3[] =
 const char kCannotAccessAboutUrl[] =
     "Cannot access \"*\" at origin \"*\". Extension must have permission to "
     "access the frame's origin, and matchAboutBlank must be true.";
-const char kCannotAccessChromeUrl[] = "Cannot access a chrome:// URL";
+const char kCannotAccessChromeUrl[] = "Cannot access a decentr:// URL";
 const char kCannotAccessExtensionUrl[] =
-    "Cannot access a chrome-extension:// URL of different extension";
+    "Cannot access a decentr-extension:// URL of different extension";
 // This deliberately does not contain a URL. Otherwise an extension can parse
 // error messages and determine the URLs of open tabs without having appropriate
 // permissions to see these URLs.

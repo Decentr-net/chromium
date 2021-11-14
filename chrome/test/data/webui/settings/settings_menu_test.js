@@ -5,10 +5,10 @@
 /** @fileoverview Runs tests for the settings menu. */
 
 // clang-format off
-import {isChromeOS, isLacros} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {pageVisibility, Router, routes} from 'chrome://settings/settings.js';
+import {isChromeOS, isLacros} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {pageVisibility, Router, routes} from 'decentr://settings/settings.js';
 // clang-format on
 
 suite('SettingsMenu', function() {

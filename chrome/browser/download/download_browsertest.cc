@@ -2335,8 +2335,8 @@ IN_PROC_BROWSER_TEST_F(DownloadTest, DownloadHistoryDangerCheck) {
   // there are CRLF transformations for those files.
 }
 
-// Test for crbug.com/14505. This tests that chrome:// urls are still functional
-// after download of a file while viewing another chrome://.
+// Test for crbug.com/14505. This tests that decentr:// urls are still functional
+// after download of a file while viewing another decentr://.
 IN_PROC_BROWSER_TEST_F(DownloadTest, ChromeURLAfterDownload) {
   GURL flags_url(chrome::kChromeUIFlagsURL);
   GURL extensions_url(chrome::kChromeUIExtensionsURL);
@@ -2363,7 +2363,7 @@ IN_PROC_BROWSER_TEST_F(DownloadTest, ChromeURLAfterDownload) {
 }
 
 // Test for crbug.com/12745. This tests that if a download is initiated from
-// a chrome:// page that has registered and onunload handler, the browser
+// a decentr:// page that has registered and onunload handler, the browser
 // will be able to close.
 IN_PROC_BROWSER_TEST_F(DownloadTest, BrowserCloseAfterDownload) {
   GURL downloads_url(chrome::kChromeUIFlagsURL);

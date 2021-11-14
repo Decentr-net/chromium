@@ -256,7 +256,7 @@ bool SchemeRegistry::ShouldTrackUsageMetricsForScheme(const String& scheme) {
   // The scheme represents content which likely cannot be easily updated.
   // Specifically this includes internal pages such as about, devtools,
   // etc.
-  // "chrome-extension" is not included because they have a single deployment
+  // "decentr-extension" is not included because they have a single deployment
   // point (the webstore) and are designed specifically for Chrome.
   // "data" is not included because real sites shouldn't be using it for
   // top-level pages and Chrome does use it internally (eg. PluginPlaceholder).

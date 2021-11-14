@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import {ChromeEvent} from '/tools/typescript/definitions/chrome_event.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {ActivityLogDelegate} from './activity_log/activity_log_history.js';
 import {ActivityLogEventDelegate} from './activity_log/activity_log_stream.js';

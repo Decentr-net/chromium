@@ -3,16 +3,16 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://test/cr_elements/cr_policy_strings.js';
+import 'decentr://test/cr_elements/cr_policy_strings.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ContentSettingsTypes, LocalDataBrowserProxyImpl, SiteSettingsPrefsBrowserProxyImpl, SortMethod} from 'chrome://settings/lazy_load.js';
-import {Router, routes} from 'chrome://settings/settings.js';
-import {TestLocalDataBrowserProxy} from 'chrome://test/settings/test_local_data_browser_proxy.js';
-import {TestSiteSettingsPrefsBrowserProxy} from 'chrome://test/settings/test_site_settings_prefs_browser_proxy.js';
-import {createSiteGroup} from 'chrome://test/settings/test_util.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ContentSettingsTypes, LocalDataBrowserProxyImpl, SiteSettingsPrefsBrowserProxyImpl, SortMethod} from 'decentr://settings/lazy_load.js';
+import {Router, routes} from 'decentr://settings/settings.js';
+import {TestLocalDataBrowserProxy} from 'decentr://test/settings/test_local_data_browser_proxy.js';
+import {TestSiteSettingsPrefsBrowserProxy} from 'decentr://test/settings/test_site_settings_prefs_browser_proxy.js';
+import {createSiteGroup} from 'decentr://test/settings/test_util.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 // clang-format on
 

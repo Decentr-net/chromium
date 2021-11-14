@@ -24,16 +24,16 @@ struct XCallbackURLEncodeTestCase {
 using XCallbackURLTest = PlatformTest;
 
 TEST_F(XCallbackURLTest, IsXCallbackURL) {
-  EXPECT_TRUE(IsXCallbackURL(GURL("chrome://x-callback-url")));
+  EXPECT_TRUE(IsXCallbackURL(GURL("decentr://x-callback-url")));
   EXPECT_TRUE(IsXCallbackURL(GURL("https://x-callback-url")));
   EXPECT_TRUE(IsXCallbackURL(GURL("exotic-scheme://x-callback-url")));
 
-  EXPECT_TRUE(IsXCallbackURL(GURL("chrome://x-callback-url/action")));
+  EXPECT_TRUE(IsXCallbackURL(GURL("decentr://x-callback-url/action")));
   EXPECT_TRUE(IsXCallbackURL(GURL("https://x-callback-url/action")));
   EXPECT_TRUE(IsXCallbackURL(GURL("exotic-scheme://x-callback-url/action")));
 
   EXPECT_FALSE(IsXCallbackURL(GURL()));
-  EXPECT_FALSE(IsXCallbackURL(GURL("chrome://version")));
+  EXPECT_FALSE(IsXCallbackURL(GURL("decentr://version")));
   EXPECT_FALSE(IsXCallbackURL(GURL("https://www.google.com")));
 }
 
@@ -47,7 +47,7 @@ TEST_F(XCallbackURLTest, URLWithScheme) {
           GURL(),
           {},
 
-          "chrome://x-callback-url/",
+          "decentr://x-callback-url/",
       },
       {
           "chrome",
@@ -57,17 +57,17 @@ TEST_F(XCallbackURLTest, URLWithScheme) {
           GURL(),
           {},
 
-          "chrome://x-callback-url/command",
+          "decentr://x-callback-url/command",
       },
       {
           "chrome",
           "command",
-          GURL("chrome://callback/?success=1"),
-          GURL("chrome://callback/?success=0"),
-          GURL("chrome://callback/?cancelled=1"),
+          GURL("decentr://callback/?success=1"),
+          GURL("decentr://callback/?success=0"),
+          GURL("decentr://callback/?cancelled=1"),
           {},
 
-          "chrome://x-callback-url/"
+          "decentr://x-callback-url/"
           "command?x-success=chrome%3A%2F%2Fcallback%2F"
           "%3Fsuccess%3D1&x-error=chrome%3A%2F%2Fcallback%2F"
           "%3Fsuccess%3D0&x-cancel=chrome%3A%2F%2Fcallback%2F"
@@ -81,17 +81,17 @@ TEST_F(XCallbackURLTest, URLWithScheme) {
           GURL(),
           {{"foo", "bar baz"}, {"qux", ""}},
 
-          "chrome://x-callback-url/command?foo=bar+baz&qux=",
+          "decentr://x-callback-url/command?foo=bar+baz&qux=",
       },
       {
           "chrome",
           "command",
-          GURL("chrome://callback/?success=1"),
-          GURL("chrome://callback/?success=0"),
-          GURL("chrome://callback/?cancelled=1"),
+          GURL("decentr://callback/?success=1"),
+          GURL("decentr://callback/?success=0"),
+          GURL("decentr://callback/?cancelled=1"),
           {{"foo", "bar baz"}, {"qux", ""}},
 
-          "chrome://x-callback-url/"
+          "decentr://x-callback-url/"
           "command?x-success=chrome%3A%2F%2Fcallback%2F%3Fsuccess%3D1"
           "&x-error=chrome%3A%2F%2Fcallback%2F%3Fsuccess%3D0&x-cancel=chrome"
           "%3A%2F%2Fcallback%2F%3Fcancelled%3D1&foo=bar+baz&qux=",
@@ -99,12 +99,12 @@ TEST_F(XCallbackURLTest, URLWithScheme) {
       {
           "chrome",
           "command",
-          GURL("chrome://path/with%20spaces"),
+          GURL("decentr://path/with%20spaces"),
           GURL(),
           GURL(),
           {},
 
-          "chrome://x-callback-url/command?x-success="
+          "decentr://x-callback-url/command?x-success="
           "chrome%3A%2F%2Fpath%2Fwith%2520spaces",
       },
   };
@@ -127,47 +127,47 @@ struct XCallbackURLDecodeTestCase {
 TEST_F(XCallbackURLTest, QueryParameters) {
   const XCallbackURLDecodeTestCase test_cases[] = {
       {
-          GURL("chrome://x-callback-url/"),
+          GURL("decentr://x-callback-url/"),
 
           {},
       },
       {
-          GURL("chrome://x-callback-url/command"),
+          GURL("decentr://x-callback-url/command"),
 
           {},
       },
       {
-          GURL("chrome://x-callback-url/"
+          GURL("decentr://x-callback-url/"
                "command?x-success=chrome%3A%2F%2Fcallback%2F%3Fsuccess%3D1"
                "&x-error=chrome%3A%2F%2Fcallback%2F%3Fsuccess%3D0&x-cancel="
                "chrome%3A%2F%2Fcallback%2F%3Fcancelled%3D1"),
 
-          {{"x-success", "chrome://callback/?success=1"},
-           {"x-error", "chrome://callback/?success=0"},
-           {"x-cancel", "chrome://callback/?cancelled=1"}},
+          {{"x-success", "decentr://callback/?success=1"},
+           {"x-error", "decentr://callback/?success=0"},
+           {"x-cancel", "decentr://callback/?cancelled=1"}},
       },
       {
-          GURL("chrome://x-callback-url/command?foo=bar+baz&qux="),
+          GURL("decentr://x-callback-url/command?foo=bar+baz&qux="),
 
           {{"foo", "bar baz"}, {"qux", ""}},
       },
       {
-          GURL("chrome://x-callback-url/"
+          GURL("decentr://x-callback-url/"
                "command?x-success=chrome%3A%2F%2Fcallback%2F%3Fsuccess%3D1"
                "&x-error=chrome%3A%2F%2Fcallback%2F%3Fsuccess%3D0&x-cancel="
                "chrome%3A%2F%2Fcallback%2F%3Fcancelled%3D1&foo=bar+baz&qux="),
 
-          {{"x-success", "chrome://callback/?success=1"},
-           {"x-error", "chrome://callback/?success=0"},
-           {"x-cancel", "chrome://callback/?cancelled=1"},
+          {{"x-success", "decentr://callback/?success=1"},
+           {"x-error", "decentr://callback/?success=0"},
+           {"x-cancel", "decentr://callback/?cancelled=1"},
            {"foo", "bar baz"},
            {"qux", ""}},
       },
       {
-          GURL("chrome://x-callback-url/command?x-success="
+          GURL("decentr://x-callback-url/command?x-success="
                "chrome%3A%2F%2Fpath%2Fwith%2520spaces"),
 
-          {{"x-success", "chrome://path/with%20spaces"}},
+          {{"x-success", "decentr://path/with%20spaces"}},
       },
   };
 

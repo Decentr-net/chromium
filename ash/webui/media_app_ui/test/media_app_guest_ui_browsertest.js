@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/** @fileoverview Test suite for chrome-untrusted://media-app. */
+/** @fileoverview Test suite for decentr-untrusted://media-app. */
 
 import {GUEST_TEST} from './guest_query_receiver.js';
 
@@ -15,7 +15,7 @@ export function eventToPromise(eventType, target) {
   });
 }
 
-// Test web workers can be spawned from chrome-untrusted://media-app. Errors
+// Test web workers can be spawned from decentr-untrusted://media-app. Errors
 // will be logged in console from web_ui_browser_test.cc.
 GUEST_TEST('GuestCanSpawnWorkers', async () => {
   const worker = new Worker('test_worker.js');
@@ -56,9 +56,9 @@ GUEST_TEST('GuestLoadsLoadTimeData', () => {
 // currently in media_app_integration_browsertest.cc due to 'wasm-eval' JS
 // errors.
 GUEST_TEST('GuestCanLoadWithCspRestrictions', async () => {
-  // Can load images served from chrome-untrusted://media-app/.
+  // Can load images served from decentr-untrusted://media-app/.
   const image = new Image();
-  image.src = 'chrome-untrusted://media-app/does-not-exist.png';
+  image.src = 'decentr-untrusted://media-app/does-not-exist.png';
   await eventToPromise('error', image);
 
   // Can load image data urls.
@@ -68,13 +68,13 @@ GUEST_TEST('GuestCanLoadWithCspRestrictions', async () => {
 
   // Can load image blobs.
   const imageBlob = new Image();
-  imageBlob.src = 'blob:chrome-untrusted://media-app/my-fake-blob-hash';
+  imageBlob.src = 'blob:decentr-untrusted://media-app/my-fake-blob-hash';
   await eventToPromise('error', imageBlob);
 
   // Can load video blobs.
   const videoBlob =
       /** @type {!HTMLVideoElement} */ (document.createElement('video'));
-  videoBlob.src = 'blob:chrome-untrusted://media-app/my-fake-blob-hash';
+  videoBlob.src = 'blob:decentr-untrusted://media-app/my-fake-blob-hash';
   await eventToPromise('error', videoBlob);
 });
 

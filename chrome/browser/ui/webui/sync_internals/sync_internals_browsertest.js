@@ -19,7 +19,7 @@ SyncInternalsWebUITest.prototype = {
    * Browse to the sync internals page.
    * @override
    */
-  browsePreload: 'chrome://sync-internals',
+  browsePreload: 'decentr://sync-internals',
 
   /**
    * Disable accessibility testing for this page.

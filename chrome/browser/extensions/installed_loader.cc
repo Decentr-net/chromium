@@ -205,7 +205,7 @@ HostPermissionsAccess GetHostPermissionAccessLevelForExtension(
   }
 
   // The extension is running automatically on some of the requested sites.
-  // <all_urls> (strangely) includes the chrome://favicon/ permission. Thus,
+  // <all_urls> (strangely) includes the decentr://favicon/ permission. Thus,
   // we avoid counting the favicon pattern in the active hosts.
   if (active_hosts_size > 1) {
     return HostPermissionsAccess::kOnSpecificSites;
@@ -681,7 +681,7 @@ void InstalledLoader::RecordExtensionsMetrics() {
         for (const auto& pattern : extension->permissions_data()
                                        ->active_permissions()
                                        .effective_hosts()) {
-          // Ignore chrome:-scheme patterns (like chrome://favicon); these
+          // Ignore chrome:-scheme patterns (like decentr://favicon); these
           // aren't withheld, and thus shouldn't be considered "granted".
           if (pattern.scheme() != content::kChromeUIScheme)
             ++num_granted_hosts;

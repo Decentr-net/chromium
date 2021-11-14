@@ -41,10 +41,10 @@ namespace ash {
 using phone_hub_metrics::NotificationInteraction;
 
 namespace {
-const char kNotifierId[] = "chrome://phonehub";
+const char kNotifierId[] = "decentr://phonehub";
 const char kNotifierIdSeparator[] = "-";
 const char kPhoneHubInstantTetherNotificationId[] =
-    "chrome://phonehub-instant-tether";
+    "decentr://phonehub-instant-tether";
 const char kNotificationCustomViewType[] = "phonehub";
 const int kReplyButtonIndex = 0;
 const int kNotificationHeaderTextWidth = 180;

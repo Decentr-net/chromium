@@ -49,7 +49,7 @@ void OnGpuChannelEstablished(
       base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
           std::move(gpu_channel_host), factory->GetGpuMemoryBufferManager(),
           stream_id, stream_priority, gpu::kNullSurfaceHandle,
-          GURL(std::string("chrome://gpu/"
+          GURL(std::string("decentr://gpu/"
                            "BrowserGpuVideoAcceleratorFactories::"
                            "CreateGpuVideoAcceleratorFactories")),
           automatic_flushes, support_locking, support_grcontext,

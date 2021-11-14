@@ -17,9 +17,9 @@ void SetUserSelectedDefaultSearchProvider(Profile* profile,
                                           const std::string& ntp_url);
 
 // Get the URL that WebContents->GetVisibleURL() will return after navigating to
-// chrome://newtab/.  While this should typically be chrome://newtab/, in a test
+// decentr://newtab/.  While this should typically be decentr://newtab/, in a test
 // environment where there is no network connection, it may be
-// chrome://new-tab-page-third-party.
+// decentr://new-tab-page-third-party.
 GURL GetFinalNtpUrl(Profile* profile);
 
 }  // namespace ntp_test_utils

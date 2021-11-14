@@ -79,7 +79,7 @@ cvox.ChromeVox.recallInit_ = function(reason) {
  */
 cvox.ChromeVox.initDocument = function() {
   // Don't start the content script on the ChromeVox background page.
-  if (/^chrome-extension:\/\/.*background\.html$/.test(window.location.href)) {
+  if (/^decentr-extension:\/\/.*background\.html$/.test(window.location.href)) {
     return;
   }
 

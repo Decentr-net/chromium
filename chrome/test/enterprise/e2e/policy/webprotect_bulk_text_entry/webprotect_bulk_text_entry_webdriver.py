@@ -34,7 +34,7 @@ def main(argv):
   time.sleep(15)
 
   # Click reload policy to pull cloud policies from the server side
-  policy_url = "chrome://policy"
+  policy_url = "decentr://policy"
   driver.get(policy_url)
   driver.find_element_by_id('reload-policies').click
 

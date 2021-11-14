@@ -590,7 +590,7 @@ void ZoomBubbleView::ImageButtonPressed() {
   DCHECK(browser);
   chrome::AddSelectedTabWithURL(
       browser,
-      GURL(base::StringPrintf("chrome://extensions?id=%s",
+      GURL(base::StringPrintf("decentr://extensions?id=%s",
                               extension_info_.id.c_str())),
       ui::PAGE_TRANSITION_FROM_API);
 }

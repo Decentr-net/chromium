@@ -17,7 +17,7 @@ class DictionaryValue;
 
 namespace chromeos {
 
-// WebUI controller for chrome://lock-network dialog.
+// WebUI controller for decentr://lock-network dialog.
 class LockScreenNetworkUI : public ui::MojoWebDialogUI {
  public:
   explicit LockScreenNetworkUI(content::WebUI* web_ui);

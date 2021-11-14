@@ -141,7 +141,7 @@ TEST_F(FileBrowserHandlerManifestTest, ValidFileBrowserHandler) {
   const extensions::URLPatternSet& patterns = action->file_url_patterns();
   ASSERT_EQ(1U, patterns.patterns().size());
   EXPECT_TRUE(action->MatchesURL(
-      GURL("filesystem:chrome-extension://foo/local/test.txt")));
+      GURL("filesystem:decentr-extension://foo/local/test.txt")));
   EXPECT_FALSE(action->HasCreateAccessPermission());
   EXPECT_TRUE(action->CanRead());
   EXPECT_TRUE(action->CanWrite());
@@ -184,7 +184,7 @@ TEST_F(FileBrowserHandlerManifestTest, ValidFileBrowserHandlerMIMETypes) {
   const extensions::URLPatternSet& patterns = action->file_url_patterns();
   ASSERT_EQ(1U, patterns.patterns().size());
   EXPECT_TRUE(action->MatchesURL(
-      GURL("filesystem:chrome-extension://foo/local/test.txt")));
+      GURL("filesystem:decentr-extension://foo/local/test.txt")));
 }
 
 TEST_F(FileBrowserHandlerManifestTest, ValidFileBrowserHandlerWithCreate) {

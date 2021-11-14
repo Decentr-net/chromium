@@ -161,7 +161,7 @@ class ChromeBrowserMainParts : public content::BrowserMainParts {
   // Parts are deleted in the inverse order they are added.
   std::vector<std::unique_ptr<ChromeBrowserMainExtraParts>> chrome_extra_parts_;
 
-  // The system stats monitor used by chrome://tracing. This doesn't do anything
+  // The system stats monitor used by decentr://tracing. This doesn't do anything
   // until tracing of the |system_stats| category is enabled.
   std::unique_ptr<tracing::TraceEventSystemStatsMonitor>
       trace_event_system_stats_monitor_;

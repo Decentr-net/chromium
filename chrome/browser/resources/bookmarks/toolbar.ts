@@ -2,20 +2,20 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_selection_overlay.js';
-import 'chrome://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_selection_overlay.js';
+import 'decentr://resources/cr_elements/icons.m.js';
 import './shared_style.js';
 import './strings.m.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
 
-import {CrToolbarElement} from 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import {CrToolbarSearchFieldElement} from 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {StoreObserver} from 'chrome://resources/js/cr/ui/store.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrToolbarElement} from 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import {CrToolbarSearchFieldElement} from 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {StoreObserver} from 'decentr://resources/js/cr/ui/store.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {deselectItems, setSearchTerm} from './actions.js';
 import {BookmarksCommandManagerElement} from './command_manager.js';

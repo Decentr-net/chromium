@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {assertArrayEquals, assertEquals, assertFalse, assertLT, assertNotReached, assertTrue} from 'chrome://test/chai_assert.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {assertArrayEquals, assertEquals, assertFalse, assertLT, assertNotReached, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {FileOperationError, FileOperationProgressEvent} from '../../common/js/file_operation_common.js';
 import {installMockChrome} from '../../common/js/mock_chrome.js';

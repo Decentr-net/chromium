@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 import {UserEducationInternalsPageHandler, UserEducationInternalsPageHandlerRemote} from '/chrome/browser/ui/webui/internals/user_education/user_education_internals.mojom-webui.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /** @polymer */
 class UserEducationInternalsElement extends PolymerElement {

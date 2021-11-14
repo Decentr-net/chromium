@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getInstance, MarginsType, NativeLayerImpl, PluginProxyImpl, ScalingType} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS, isLacros} from 'chrome://resources/js/cr.m.js';
-import {NativeLayerStub} from 'chrome://test/print_preview/native_layer_stub.js';
-import {getCddTemplate, getCddTemplateWithAdvancedSettings, getDefaultInitialSettings} from 'chrome://test/print_preview/print_preview_test_utils.js';
-import {TestPluginProxy} from 'chrome://test/print_preview/test_plugin_proxy.js';
+import {getInstance, MarginsType, NativeLayerImpl, PluginProxyImpl, ScalingType} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS, isLacros} from 'decentr://resources/js/cr.m.js';
+import {NativeLayerStub} from 'decentr://test/print_preview/native_layer_stub.js';
+import {getCddTemplate, getCddTemplateWithAdvancedSettings, getDefaultInitialSettings} from 'decentr://test/print_preview/print_preview_test_utils.js';
+import {TestPluginProxy} from 'decentr://test/print_preview/test_plugin_proxy.js';
 
 // <if expr="chromeos or lacros">
 import {setNativeLayerCrosInstance} from './native_layer_cros_stub.js';

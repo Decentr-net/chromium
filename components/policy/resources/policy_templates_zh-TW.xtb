@@ -514,7 +514,7 @@
 <translation id="1620510694547887537">攝影機</translation>
 <translation id="1626379196197114720">允許使用往返快取</translation>
 <translation id="1628974048137236820">新分頁不會顯示卡片</translation>
-<translation id="1630263002012156148">如果將這項政策設為啟用，系統會將使用者的首頁設為「新分頁」，並忽略所有首頁網址位置。如果將這項政策設為停用，使用者的首頁一律不會是「新分頁」，除非使用者的首頁網址設為 chrome://newtab。
+<translation id="1630263002012156148">如果將這項政策設為啟用，系統會將使用者的首頁設為「新分頁」，並忽略所有首頁網址位置。如果將這項政策設為停用，使用者的首頁一律不會是「新分頁」，除非使用者的首頁網址設為 decentr://newtab。
 
       如果設定這項政策，使用者將無法在 <ph name="PRODUCT_NAME" /> 中變更首頁類型。如果未設定，使用者可決定是否使用「新分頁」做為首頁。
 
@@ -662,7 +662,7 @@
 <translation id="1798559516913615713">GPO 快取生命週期</translation>
 <translation id="180130467244315277">管理員可以透過這項政策配置 <ph name="PRODUCT_NAME" /> 設定中的偏好語言順序。
 
-      設定完成後，chrome://settings/languages 的「根據你的偏好設定排列語言順序」部分就會顯示同樣的順序。使用者將無法移除或調整這項政策設定的語言與順序，但可以在這類語言底下新增其他語言。使用者也能全面控管瀏覽器的 UI 語言和翻譯/拼字檢查設定，但前提是其他政策未強制執行相關設定。
+      設定完成後，decentr://settings/languages 的「根據你的偏好設定排列語言順序」部分就會顯示同樣的順序。使用者將無法移除或調整這項政策設定的語言與順序，但可以在這類語言底下新增其他語言。使用者也能全面控管瀏覽器的 UI 語言和翻譯/拼字檢查設定，但前提是其他政策未強制執行相關設定。
 
       如果不設定這項政策，使用者就能完全控制偏好語言清單。</translation>
 <translation id="1803646570632580723">要顯示在啟動器中的固定應用程式清單</translation>
@@ -1120,7 +1120,7 @@
 <translation id="2299220924812062390">指定停用的外掛程式清單</translation>
 <translation id="2301048990069984110">延長在 Windows、Mac 和 Linux 上支援 Chrome 應用程式的時間。</translation>
 <translation id="2303795211377219696">啟用信用卡的自動填入功能</translation>
-<translation id="2304009805995145854">自 <ph name="PRODUCT_NAME" /> 第 67 版起，系統預設已在所有電腦平台上啟用網站隔離功能，因此每個網站都會以獨立程序執行。網站是指加上 eTLD+1 的配置 (例如 https://example.com)。將這項政策設為 Enabled 並不會改變這項行為，只會禁止使用者停用這項設定 (例如在 chrome://flags 中使用「停用網站隔離」功能)。自 <ph name="PRODUCT_NAME" /> 第 76 版起，如果將這項政策設為 Disabled 或不設定，系統並不會關閉網站隔離功能，只會開放使用者停用這項設定。
+<translation id="2304009805995145854">自 <ph name="PRODUCT_NAME" /> 第 67 版起，系統預設已在所有電腦平台上啟用網站隔離功能，因此每個網站都會以獨立程序執行。網站是指加上 eTLD+1 的配置 (例如 https://example.com)。將這項政策設為 Enabled 並不會改變這項行為，只會禁止使用者停用這項設定 (例如在 decentr://flags 中使用「停用網站隔離」功能)。自 <ph name="PRODUCT_NAME" /> 第 76 版起，如果將這項政策設為 Disabled 或不設定，系統並不會關閉網站隔離功能，只會開放使用者停用這項設定。
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> 也能用來隔離低於網站層級的來源 (例如 https://a.example.com)。
 
@@ -3466,7 +3466,7 @@
       如果設為停用，使用者就無法儲存新密碼，但先前儲存的密碼仍可供使用。
 
       這項政策一經設定，使用者就無法在 <ph name="PRODUCT_NAME" /> 中變更。如果不設定這項政策，使用者將可關閉密碼儲存功能。</translation>
-<translation id="5239333626804545932">如果將這項政策設為啟用或不設定，Chrome 清理功能會定期掃描系統中的垃圾軟體，並且在找到垃圾軟體時詢問使用者是否要將其移除。使用者可以透過 chrome://settings/cleanup 手動觸發 Chrome 清理功能。
+<translation id="5239333626804545932">如果將這項政策設為啟用或不設定，Chrome 清理功能會定期掃描系統中的垃圾軟體，並且在找到垃圾軟體時詢問使用者是否要將其移除。使用者可以透過 decentr://settings/cleanup 手動觸發 Chrome 清理功能。
 
       如果將這項政策設為停用，Chrome 清理功能將不會定期執行掃描，並且無法手動觸發。
 
@@ -4184,7 +4184,7 @@
 
       使用者可以觸發匯入對話方塊，瀏覽器將根據這項政策的值，勾選或取消勾選自動填入表單資料的核取方塊。</translation>
 <translation id="614616930188030377">系統會將這份清單中的模式與要求網址的安全性來源進行比對。
-      如果找到相符的結果，或你已停用 chrome://flags/#enable-webrtc-hide-local-ips-with-mdns，系統就會在 WebRTC ICE 候選項目中顯示本機 IP 位址。
+      如果找到相符的結果，或你已停用 decentr://flags/#enable-webrtc-hide-local-ips-with-mdns，系統就會在 WebRTC ICE 候選項目中顯示本機 IP 位址。
       否則系統會透過 mDNS 主機名稱隱藏本機 IP 位址。
       請注意，如果系統管理員必須使用此政策，此政策將降低系統對本機 IP 的保護程度。</translation>
 <translation id="614662973812186053">這項政策也可以控制 Android 使用資料和診斷資料的收集設定。</translation>
@@ -4406,12 +4406,12 @@
 <translation id="645425387487868471">啟用 <ph name="PRODUCT_NAME" /> 的強制登入功能</translation>
 <translation id="6455842857207956758">在密碼更新完成且需要同步時，監控密碼同步權杖的值，並讓使用者在線上進行重新驗證，以啟用多部 Chrome 之間的 SAML 密碼同步功能。
 
-      在 chrome://password-change 中啟用一個頁面，讓 SAML 使用者能在工作階段中變更 SAML 密碼。這可以確保 SAML 密碼和裝置的螢幕鎖定密碼保持同步。
+      在 decentr://password-change 中啟用一個頁面，讓 SAML 使用者能在工作階段中變更 SAML 密碼。這可以確保 SAML 密碼和裝置的螢幕鎖定密碼保持同步。
 
       這項政策也會啟用通知功能，在 SAML 密碼即將到期時提醒 SAML 使用者，方便使用者立即在工作階段中變更密碼。
       不過，只有當 SAML 識別資訊提供者在 SAML 登入流程中將密碼到期資訊傳送至裝置時，系統才會顯示這些通知。
 
-      如果將這項政策設為「停用」或不設定，則無法在 chrome://password-change 變更 SAML 密碼；當 SAML 密碼即將到期時，系統也不會顯示通知。</translation>
+      如果將這項政策設為「停用」或不設定，則無法在 decentr://password-change 變更 SAML 密碼；當 SAML 密碼即將到期時，系統也不會顯示通知。</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">如果將這項政策設為啟用或不設定，只要 <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />、<ph name="CROSTINI_ALLOWED_POLICY_NAME" /> 和 <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> 這 3 項政策都設為啟用，所有使用者將可使用 <ph name="PRODUCT_CROSTINI_NAME" />。如果將這項政策設為停用，無關聯的使用者將無法使用 <ph name="PRODUCT_CROSTINI_NAME" />。變更為停用後，系統會開始將這項政策套用到新的 <ph name="PRODUCT_CROSTINI_NAME" /> 容器，不會套用到已經在執行的這類容器。</translation>
 <translation id="6464074037294098618">啟用地址的自動填入功能</translation>
@@ -4479,7 +4479,7 @@
        * 設為 <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />：系統會將自動偵測時區的功能保持啟用，並持續將可見的 WiFi 存取點清單傳送至 Geolocation API 伺服器，讓時區偵測結果更佳精確。
        * 設為 <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />：系統會將自動偵測時區的功能保持啟用，並持續將將位置資訊 (例如 Wi-Fi 存取點、可建立連線的行動通信基地台和全球衛星定位系統) 傳送至伺服器，以得到最精確的時區偵測結果。
 
-      如果未設定、設為讓使用者決定或設為 None，使用者將可透過 chrome://settings 中的一般控制項來控制自動偵測時區的功能。</translation>
+      如果未設定、設為讓使用者決定或設為 None，使用者將可透過 decentr://settings 中的一般控制項來控制自動偵測時區的功能。</translation>
 <translation id="6532769014584932288">允許使用 Wake Lock</translation>
 <translation id="6536600139108165863">裝置關機時自動重新啟動</translation>
 <translation id="6539246272469751178">這項政策對 Android 應用程式沒有影響。Android 應用程式會一律使用預設的下載目錄，無法存取任何由 <ph name="PRODUCT_OS_NAME" />下載到非預設下載目錄的檔案。</translation>
@@ -4708,7 +4708,7 @@
 
       如果將這項政策設為停用，則會從工具列中移除瀏覽器實驗功能圖示。
 
-      無論這項政策設為啟用或停用，chrome://flags 和其他開啟/關閉瀏覽器功能的方法都能正常運作。</translation>
+      無論這項政策設為啟用或停用，decentr://flags 和其他開啟/關閉瀏覽器功能的方法都能正常運作。</translation>
 <translation id="6794083666143216172">同意讓來源查詢裝置屬性</translation>
 <translation id="6795485990775913659">只在 PIN 碼停用時允許列印</translation>
 <translation id="6800181452282128474">不向 Quirks Server 發送查詢</translation>
@@ -5386,7 +5386,7 @@
       如果設為 GAIA，系統會讓使用者透過標準 GAIA 驗證流程完成登入作業。
 
       如果設為 SAML_INTERSTITIAL，系統在登入過程中會顯示插頁畫面，讓使用者選擇繼續透過裝置註冊網域的 SAML IdP 進行驗證，或是返回標準 GAIA 登入流程。</translation>
-<translation id="7554382342294940216">你可以透過設定這項政策，讓 <ph name="PRODUCT_OS_NAME" /> 在網頁認證入口的驗證機制忽略所有 Proxy 設定。這些驗證網頁 (也就是從開啟網頁認證入口登入網頁開始，到 Chrome 成功偵測到網際網路連線為止的所有網頁) 會在另一個視窗開啟，並忽略目前使用者的所有政策設定和限制。只有當政策、擴充功能或是使用者在 chrome://settings 設定 Proxy 時，這項政策才會生效。
+<translation id="7554382342294940216">你可以透過設定這項政策，讓 <ph name="PRODUCT_OS_NAME" /> 在網頁認證入口的驗證機制忽略所有 Proxy 設定。這些驗證網頁 (也就是從開啟網頁認證入口登入網頁開始，到 Chrome 成功偵測到網際網路連線為止的所有網頁) 會在另一個視窗開啟，並忽略目前使用者的所有政策設定和限制。只有當政策、擴充功能或是使用者在 decentr://settings 設定 Proxy 時，這項政策才會生效。
 
       如果將這項政策設為停用或不設定，則所有網頁認證入口驗證網頁都會顯示在一般的新瀏覽器分頁中，使用目前使用者的 Proxy 設定。</translation>
 <translation id="7566878661979235378">SAML 登入驗證類型</translation>
@@ -5678,7 +5678,7 @@
 <translation id="7951605113561734721">指定應使用裝置管理通訊協定註冊的裝置通用用戶端憑證。</translation>
 <translation id="7952007677054834789">設定 <ph name="PRODUCT_NAME" /> 的起始載入頁面、預設首頁和預設新分頁，並禁止使用者變更這些設定。
 
-      如果你選取使用者的首頁做為新分頁，或是將使用者的首頁設為網址並指定為首頁網址，系統會完全鎖定使用者的首頁設定。如果你沒有指定首頁網址，那麼使用者只要將網址設為「chrome://newtab」，就能以新分頁做為首頁。
+      如果你選取使用者的首頁做為新分頁，或是將使用者的首頁設為網址並指定為首頁網址，系統會完全鎖定使用者的首頁設定。如果你沒有指定首頁網址，那麼使用者只要將網址設為「decentr://newtab」，就能以新分頁做為首頁。
 
       除非你在 [起始動作] 中選取 [開啟網址清單]，否則系統會忽略「起始時開啟的網址」政策。</translation>
 <translation id="7952958573604504839">自 M48 起，我們已淘汰這項政策並改用 <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />，並在 M54 中移除了這項政策。
@@ -6230,7 +6230,7 @@
 
       自 <ph name="PRODUCT_NAME" /> 92 版起，系統在無頭模式下也會支援這項政策。
 
-      注意：封鎖內部的 chrome://* 網址可能會導致非預期的錯誤。</translation>
+      注意：封鎖內部的 decentr://* 網址可能會導致非預期的錯誤。</translation>
 <translation id="8626826495474944836">要求針對所有網站啟用網站隔離功能</translation>
 <translation id="8631434304112909927">到第 <ph name="UNTIL_VERSION" /> 版為止</translation>
 <translation id="8631437968147930597"><ph name="PRODUCT_OS_NAME" />螢幕鎖定畫面上允許的筆記應用程式清單</translation>
@@ -6384,7 +6384,7 @@
 
       使用者可透過開發人員工具變更任何擴充功能的原始碼，但可能會導致擴充功能無法正常運作。如果你對此有所顧慮，請設定 <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" /> 政策。
 
-      這項政策的每個清單項目都是一行字串，其中包含以分號 (;) 區隔的擴充功能 ID 和「更新」網址 (選用)。擴充功能 ID 為 32 個字母的字串，你可以在開發人員模式下前往 chrome://extensions 等位置查看這類字串。「更新」網址 (如有指定) 應指向更新資訊清單 XML 文件 ( https://developer.chrome.com/extensions/autoupdate )。根據預設，系統會使用 Chrome 線上應用程式商店的更新網址。這項政策設定的「更新」網址僅適用於初次安裝，後續的擴充功能更新將使用擴充功能資訊清單中的更新網址。
+      這項政策的每個清單項目都是一行字串，其中包含以分號 (;) 區隔的擴充功能 ID 和「更新」網址 (選用)。擴充功能 ID 為 32 個字母的字串，你可以在開發人員模式下前往 decentr://extensions 等位置查看這類字串。「更新」網址 (如有指定) 應指向更新資訊清單 XML 文件 ( https://developer.chrome.com/extensions/autoupdate )。根據預設，系統會使用 Chrome 線上應用程式商店的更新網址。這項政策設定的「更新」網址僅適用於初次安裝，後續的擴充功能更新將使用擴充功能資訊清單中的更新網址。
 
        注意：這項政策不適用於無痕模式。請前往以下頁面，參閱有關代管擴充功能的資訊：https://developer.chrome.com/extensions/hosting。</translation>
 <translation id="8827366480126575426">通訊協定處理常式的通訊協定。</translation>
@@ -6763,7 +6763,7 @@
 
       自 <ph name="PRODUCT_NAME" /> 73 版開始，你可以封鎖 javascript://* 網址。不過，這項設定只適用於在網址列 (或書籤小程式等) 輸入的 JavaScript，動態載入資料的網頁內 JavaScript 網址不會受到這項政策影響。舉例來說，即使你封鎖了 example.com/abc，example.com 仍可透過 XMLHTTPRequest 載入 example.com/abc。
 
-      注意：封鎖內部的 chrome://* 網址可能會導致非預期的錯誤。</translation>
+      注意：封鎖內部的 decentr://* 網址可能會導致非預期的錯誤。</translation>
 <translation id="957778406002650056">可下載 <ph name="PLUGIN_VM_NAME" /> 圖片的網址。</translation>
 <translation id="971677226939413180">使用者無法選擇「以圖片形式列印」選項。</translation>
 <translation id="974349541138387272">指定所需 DNS-over-HTTPS 解析器的 URI 範本</translation>

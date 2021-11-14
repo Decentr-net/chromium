@@ -34,7 +34,7 @@ window.queue_ = [];
 window.CLOSURE_IMPORT_SCRIPT = function(src) {
   // Only run our version of the import script
   // when trying to inject ChromeVox scripts.
-  if (src.indexOf('chrome-extension://') == 0) {
+  if (src.indexOf('decentr-extension://') == 0) {
     if (!goog.inHtmlDocument_() ||
         goog.dependencies_.written[src]) {
       return false;

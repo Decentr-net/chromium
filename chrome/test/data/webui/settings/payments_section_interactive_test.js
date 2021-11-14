@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://settings/lazy_load.js';
+import 'decentr://settings/lazy_load.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {PaymentsManagerImpl} from 'chrome://settings/lazy_load.js';
-import {createCreditCardEntry, createEmptyCreditCardEntry, TestPaymentsManager} from 'chrome://test/settings/passwords_and_autofill_fake_data.js';
-import {eventToPromise, isVisible, whenAttributeIs} from 'chrome://test/test_util.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {PaymentsManagerImpl} from 'decentr://settings/lazy_load.js';
+import {createCreditCardEntry, createEmptyCreditCardEntry, TestPaymentsManager} from 'decentr://test/settings/passwords_and_autofill_fake_data.js';
+import {eventToPromise, isVisible, whenAttributeIs} from 'decentr://test/test_util.js';
 // clang-format on
 
 /**

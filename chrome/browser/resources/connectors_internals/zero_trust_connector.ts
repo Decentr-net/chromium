@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CustomElement} from 'chrome://resources/js/custom_element.js';
+import {CustomElement} from 'decentr://resources/js/custom_element.js';
 import {PageHandler, PageHandlerInterface, ZeroTrustState} from './connectors_internals.mojom-webui.js';
 
 export class ZeroTrustConnectorElement extends CustomElement {

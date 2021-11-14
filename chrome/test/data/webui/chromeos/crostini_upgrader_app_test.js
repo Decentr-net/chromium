@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://crostini-upgrader/app.js';
+import 'decentr://crostini-upgrader/app.js';
 
-import {BrowserProxy} from 'chrome://crostini-upgrader/browser_proxy.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {BrowserProxy} from 'decentr://crostini-upgrader/browser_proxy.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 class FakePageHandler extends TestBrowserProxy {
   constructor() {

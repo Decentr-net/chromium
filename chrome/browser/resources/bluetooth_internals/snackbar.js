@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
-import {$, ensureTransitionEndEvent, listenOnce} from 'chrome://resources/js/util.m.js';
+import {define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
+import {$, ensureTransitionEndEvent, listenOnce} from 'decentr://resources/js/util.m.js';
 
 /**
- * Javascript for Snackbar controls, served from chrome://bluetooth-internals/.
+ * Javascript for Snackbar controls, served from decentr://bluetooth-internals/.
  */
 
 /**

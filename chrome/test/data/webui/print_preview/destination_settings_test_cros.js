@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Destination, DestinationStore, DestinationType, NativeLayerCrosImpl, NativeLayerImpl, NUM_PERSISTED_DESTINATIONS, PrintPreviewDestinationSettingsElement, State} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {Destination, DestinationStore, DestinationType, NativeLayerCrosImpl, NativeLayerImpl, NUM_PERSISTED_DESTINATIONS, PrintPreviewDestinationSettingsElement, State} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {eventToPromise, fakeDataBind, waitBeforeNextRender} from '../test_util.js';
@@ -129,7 +129,7 @@ suite(destination_settings_test_cros.suiteName, function() {
         // Recent destinations start out empty.
         assertRecentDestinations([]);
 
-        const expectedUrl = 'chrome://os-credits/eula';
+        const expectedUrl = 'decentr://os-credits/eula';
 
         assertEquals(0, nativeLayerCros.getCallCount('getEulaUrl'));
 
@@ -146,7 +146,7 @@ suite(destination_settings_test_cros.suiteName, function() {
               return nativeLayer.whenCalled('getPrinters');
             })
             .then(() => {
-              nativeLayerCros.setEulaUrl('chrome://os-credits/eula');
+              nativeLayerCros.setEulaUrl('decentr://os-credits/eula');
               // Simulate selecting a destination that has a EULA URL from the
               // dialog.
               selectDestination(destinations[0]);

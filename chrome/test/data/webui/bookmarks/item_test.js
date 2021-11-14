@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {selectItem} from 'chrome://bookmarks/bookmarks.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
+import {selectItem} from 'decentr://bookmarks/bookmarks.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
 
 suite('<bookmarks-item>', function() {
   let item;

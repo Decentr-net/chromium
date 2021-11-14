@@ -821,12 +821,12 @@ TEST_F(SystemNotificationManagerTest, CopyProgress) {
   int copy_id = 1;
   double copy_size = 100.0;
   std::string copy_file_dest_url =
-      "filesystem:chrome://file-manager/external/Downloads-test-user/NewFolder/"
+      "filesystem:decentr://file-manager/external/Downloads-test-user/NewFolder/"
       "file.txt";
   status.destination_url = std::make_unique<std::string>(copy_file_dest_url);
   status.size = std::make_unique<double>(copy_size);
   std::string copy_file_src_url =
-      "filesystem:chrome://file-manager/external/Downloads-test-user/file.txt";
+      "filesystem:decentr://file-manager/external/Downloads-test-user/file.txt";
   status.source_url = std::make_unique<std::string>(copy_file_src_url);
   status.type = file_manager_private::COPY_OR_MOVE_PROGRESS_STATUS_TYPE_BEGIN;
 
@@ -1075,7 +1075,7 @@ TEST_F(SystemNotificationManagerTest, SyncProgressSingle) {
       file_manager_private::TRANSFER_STATE_IN_PROGRESS;
   transfer_status.num_total_jobs = 1;
   transfer_status.file_url =
-      "filesystem:chrome://file-manager/drive/MyDrive-test-user/file.txt";
+      "filesystem:decentr://file-manager/drive/MyDrive-test-user/file.txt";
   transfer_status.processed = 0;
   transfer_status.total = 100;
   std::unique_ptr<extensions::Event> event =
@@ -1162,7 +1162,7 @@ TEST_F(SystemNotificationManagerTest, SyncProgressMultiple) {
       file_manager_private::TRANSFER_STATE_IN_PROGRESS;
   transfer_status.num_total_jobs = 10;
   transfer_status.file_url =
-      "filesystem:chrome://file-manager/drive/MyDrive-test-user/file.txt";
+      "filesystem:decentr://file-manager/drive/MyDrive-test-user/file.txt";
   transfer_status.processed = 0;
   transfer_status.total = 100;
   std::unique_ptr<extensions::Event> event =
@@ -1196,7 +1196,7 @@ TEST_F(SystemNotificationManagerTest, PinProgressSingle) {
   pin_status.transfer_state = file_manager_private::TRANSFER_STATE_IN_PROGRESS;
   pin_status.num_total_jobs = 1;
   pin_status.file_url =
-      "filesystem:chrome://file-manager/drive/MyDrive-test-user/file.txt";
+      "filesystem:decentr://file-manager/drive/MyDrive-test-user/file.txt";
   pin_status.processed = 0;
   pin_status.total = 100;
   std::unique_ptr<extensions::Event> event =
@@ -1279,7 +1279,7 @@ TEST_F(SystemNotificationManagerTest, PinProgressMultiple) {
   pin_status.transfer_state = file_manager_private::TRANSFER_STATE_IN_PROGRESS;
   pin_status.num_total_jobs = 10;
   pin_status.file_url =
-      "filesystem:chrome://file-manager/drive/MyDrive-test-user/file.txt";
+      "filesystem:decentr://file-manager/drive/MyDrive-test-user/file.txt";
   pin_status.processed = 0;
   pin_status.total = 100;
   std::unique_ptr<extensions::Event> event =

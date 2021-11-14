@@ -4,9 +4,9 @@
 
 import '../mojo_webui_test_support.js';
 
-import {BrowserProxy, DangerType, IconLoader, States} from 'chrome://downloads/downloads.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {createDownload, TestDownloadsProxy, TestIconLoader} from 'chrome://test/downloads/test_support.js';
+import {BrowserProxy, DangerType, IconLoader, States} from 'decentr://downloads/downloads.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {createDownload, TestDownloadsProxy, TestIconLoader} from 'decentr://test/downloads/test_support.js';
 
 suite('item tests', function() {
   /** @type {!downloads.Item} */

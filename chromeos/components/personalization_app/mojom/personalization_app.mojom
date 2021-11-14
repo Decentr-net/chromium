@@ -94,7 +94,7 @@ interface WallpaperObserver {
 };
 
 // Provides APIs to retrieve Wallpaper information. This API is exposed only to
-// the Personalization App (chrome://personalization). It is a mojom wrapper for
+// the Personalization App (decentr://personalization). It is a mojom wrapper for
 // APIs found in |backdrop_wallpaper.proto|.
 interface WallpaperProvider {
 

@@ -431,7 +431,7 @@ TEST_F(NotificationTemplateBuilderTest, ExtensionNoContextMessage) {
   // Explicitly set origin url to something non http/https to ensure that origin
   // is not used as attribution.
   notification.set_origin_url(
-      GURL("chrome-extension://bfojpkhoiegeigfifhdnbeobmhlahdle/"));
+      GURL("decentr-extension://bfojpkhoiegeigfifhdnbeobmhlahdle/"));
 
   const wchar_t kExpectedXml[] =
       LR"(<toast launch="0|0|Default|0|https://example.com/|notification_id" displayTimestamp="1998-09-04T01:02:03Z">

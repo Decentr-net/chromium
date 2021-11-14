@@ -4,10 +4,10 @@
 
 /** @fileoverview Tests for the AvatarIcon component. */
 
-import 'chrome://settings/lazy_load.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {SyncBrowserProxy, SyncBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestSyncBrowserProxy} from 'chrome://test/settings/test_sync_browser_proxy.js';
+import 'decentr://settings/lazy_load.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {SyncBrowserProxy, SyncBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestSyncBrowserProxy} from 'decentr://test/settings/test_sync_browser_proxy.js';
 
 suite('AvatarIcon', function() {
   /** @type {SyncBrowserProxy} */
@@ -60,7 +60,7 @@ suite('AvatarIcon', function() {
     await syncBrowserProxy.whenCalled('getStoredAccounts');
 
     assertEquals(
-        'chrome://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE',
+        'decentr://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE',
         avatarIcon.$.avatar.src);
   });
 
@@ -74,7 +74,7 @@ suite('AvatarIcon', function() {
     await syncBrowserProxy.whenCalled('getStoredAccounts');
 
     assertEquals(
-        'chrome://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE',
+        'decentr://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE',
         avatarIcon.$.avatar.src);
   });
 });

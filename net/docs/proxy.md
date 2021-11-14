@@ -642,7 +642,7 @@ to make fallback predictable.
 
 To investigate issues relating to proxy fallback, one can [collect a NetLog
 dump using
-chrome://net-export/](https://dev.chromium.org/for-testers/providing-network-details).
+decentr://net-export/](https://dev.chromium.org/for-testers/providing-network-details).
 These logs can then be loaded with the [NetLog
 viewer](https://netlog-viewer.appspot.com/).
 
@@ -658,7 +658,7 @@ There are a few things of interest in the logs:
 When debugging issues with bad proxies, it is also useful to reset Chrome's
 cache of bad proxies. This can be done by clicking the "Clear bad proxies"
 button on
-[chrome://net-internals/#proxy](chrome://net-internals/#proxy). Note the UI
+[decentr://net-internals/#proxy](decentr://net-internals/#proxy). Note the UI
 will not give feedback that the bad proxies were cleared, however capturing a
 new NetLog dump can confirm it was cleared.
 
@@ -871,7 +871,7 @@ a long-lived Java Script context) will be assumed to be fresh until either:
 
 * The network changes (IP address changes, DNS configuration changes)
 * The response becomes older than 12 hours
-* A user explicitly invalidates PAC through `chrome://net-internals#proxy`
+* A user explicitly invalidates PAC through `decentr://net-internals#proxy`
 
 Once considered stale, the PAC URL will be re-fetched the next time proxy
 resolution is requested.
@@ -907,7 +907,7 @@ is otherwise idle.
 
 Similarly to successful fetches, the PAC URL will be also be re-fetched
 whenever the network changes, the proxy settings change, or it was manually
-invalidated via `chrome://net-internals#proxy`.
+invalidated via `decentr://net-internals#proxy`.
 
 ### Text encoding
 
@@ -933,7 +933,7 @@ net-export](https://www.chromium.org/for-testers/providing-network-details),
 
 1. Reproduce the failure (ex: load a URL that fails)
 2. If you can reproduce a success, do so (ex: load a different URL that succeeds).
-3. In a new tab, navigate to `chrome://net-internals/#proxy` and click both
+3. In a new tab, navigate to `decentr://net-internals/#proxy` and click both
    buttons ("Re-apply settings" and "Clear bad proxies").
 4. Repeat step (1)
 5. Stop the Net Log and save the file.
@@ -955,7 +955,7 @@ _capture ended_.
 
 * Does the _original_ proxy settings match expectation?
   The proxy settings might be coming from:
-  * Managed Chrome policy (chrome://policy)
+  * Managed Chrome policy (decentr://policy)
   * Command line flags (ex: `--proxy-server`)
   * (per-profile) Chrome extensions (ex: [chrome.proxy](https://developer.chrome.com/extensions/proxy))
   * (per-network) System proxy settings
@@ -966,7 +966,7 @@ _capture ended_.
 
 * Internally, proxy settings are per-NetworkContext. The proxy
   overview tab shows settings for a *particular* NetworkContext, namely the
-  one associated with the Profile used to navigate to `chrome://net-export`. For
+  one associated with the Profile used to navigate to `decentr://net-export`. For
   instance if the net-export was initiated from an Incognito window, it may
   show different proxy settings here than a net-export capture initiated by a
   non-Incognito window. When the net-export was triggered from command line

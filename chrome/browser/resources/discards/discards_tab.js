@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/js/action_link.js';
-import 'chrome://resources/cr_elements/action_link_css.m.js';
+import 'decentr://resources/js/action_link.js';
+import 'decentr://resources/cr_elements/action_link_css.m.js';
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {getFaviconForPageURL} from 'chrome://resources/js/icon.js';
-import {TimeDelta} from 'chrome://resources/mojo/mojo/public/mojom/base/time.mojom-webui.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {getFaviconForPageURL} from 'decentr://resources/js/icon.js';
+import {TimeDelta} from 'decentr://resources/mojo/mojo/public/mojom/base/time.mojom-webui.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {LifecycleUnitDiscardReason, LifecycleUnitLoadingState, LifecycleUnitState} from './chrome/browser/resource_coordinator/lifecycle_unit_state.mojom-webui.js';
 import {DetailsProviderRemote, LifecycleUnitVisibility, TabDiscardsInfo} from './chrome/browser/ui/webui/discards/discards.mojom-webui.js';

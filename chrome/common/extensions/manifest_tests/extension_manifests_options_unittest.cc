@@ -99,12 +99,12 @@ TEST_F(OptionsPageManifestTest, OptionsUIPage) {
 
   scoped_refptr<extensions::Extension> extension =
       LoadAndExpectSuccess("options_ui_page_basic.json");
-  EXPECT_EQ(base::StringPrintf("chrome-extension://%s/options.html",
+  EXPECT_EQ(base::StringPrintf("decentr-extension://%s/options.html",
                                extension->id().c_str()),
             OptionsPageInfo::GetOptionsPage(extension.get()).spec());
 
   extension = LoadAndExpectSuccess("options_ui_page_with_legacy_page.json");
-  EXPECT_EQ(base::StringPrintf("chrome-extension://%s/newoptions.html",
+  EXPECT_EQ(base::StringPrintf("decentr-extension://%s/newoptions.html",
                                extension->id().c_str()),
             OptionsPageInfo::GetOptionsPage(extension.get()).spec());
 

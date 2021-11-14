@@ -2,24 +2,24 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_components/chromeos/network/network_select.m.js';
-import 'chrome://resources/cr_components/chromeos/network_health/network_diagnostics.m.js';
-import 'chrome://resources/cr_components/chromeos/network_health/network_health_summary.m.js';
-import 'chrome://resources/cr_components/chromeos/traffic_counters/traffic_counters.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
-import 'chrome://resources/cr_elements/cr_tabs/cr_tabs.js';
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/polymer/v3_0/iron-pages/iron-pages.js';
+import 'decentr://resources/cr_components/chromeos/network/network_select.m.js';
+import 'decentr://resources/cr_components/chromeos/network_health/network_diagnostics.m.js';
+import 'decentr://resources/cr_components/chromeos/network_health/network_health_summary.m.js';
+import 'decentr://resources/cr_components/chromeos/traffic_counters/traffic_counters.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
+import 'decentr://resources/cr_elements/cr_tabs/cr_tabs.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/polymer/v3_0/iron-pages/iron-pages.js';
 import './strings.m.js';
 import './network_state_ui.js';
 import './network_logs_ui.js';
 
-import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {NetworkUIBrowserProxy, NetworkUIBrowserProxyImpl} from './network_ui_browser_proxy.js';
 
 

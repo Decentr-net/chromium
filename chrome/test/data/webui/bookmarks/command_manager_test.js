@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BookmarksCommandManagerElement, Command, createBookmark, DialogFocusManager, getDisplayedList, MenuSource, selectFolder} from 'chrome://bookmarks/bookmarks.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestCommandManager} from 'chrome://test/bookmarks/test_command_manager.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, customClick, findFolderNode, normalizeIterable, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {BookmarksCommandManagerElement, Command, createBookmark, DialogFocusManager, getDisplayedList, MenuSource, selectFolder} from 'decentr://bookmarks/bookmarks.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestCommandManager} from 'decentr://test/bookmarks/test_command_manager.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, customClick, findFolderNode, normalizeIterable, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 suite('<bookmarks-command-manager>', function() {
   let commandManager;

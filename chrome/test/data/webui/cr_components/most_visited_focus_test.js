@@ -4,11 +4,11 @@
 
 import '../mojo_webui_test_support.js';
 
-import {MostVisitedBrowserProxy} from 'chrome://resources/cr_components/most_visited/browser_proxy.js';
-import {MostVisitedElement} from 'chrome://resources/cr_components/most_visited/most_visited.js';
-import {MostVisitedPageCallbackRouter, MostVisitedPageHandlerRemote} from 'chrome://resources/cr_components/most_visited/most_visited.mojom-webui.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {TextDirection} from 'chrome://resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js';
+import {MostVisitedBrowserProxy} from 'decentr://resources/cr_components/most_visited/browser_proxy.js';
+import {MostVisitedElement} from 'decentr://resources/cr_components/most_visited/most_visited.js';
+import {MostVisitedPageCallbackRouter, MostVisitedPageHandlerRemote} from 'decentr://resources/cr_components/most_visited/most_visited.mojom-webui.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {TextDirection} from 'decentr://resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 import {eventToPromise} from '../test_util.js';

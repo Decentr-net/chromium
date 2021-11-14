@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserService, ensureLazyLoaded} from 'chrome://history/history.js';
-import {isMac, webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestBrowserService} from 'chrome://test/history/test_browser_service.js';
-import {createHistoryEntry, createHistoryInfo, polymerSelectAll, shiftClick, waitForEvent} from 'chrome://test/history/test_util.js';
-import {flushTasks, waitAfterNextRender} from 'chrome://test/test_util.js';
+import {BrowserService, ensureLazyLoaded} from 'decentr://history/history.js';
+import {isMac, webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestBrowserService} from 'decentr://test/history/test_browser_service.js';
+import {createHistoryEntry, createHistoryInfo, polymerSelectAll, shiftClick, waitForEvent} from 'decentr://test/history/test_util.js';
+import {flushTasks, waitAfterNextRender} from 'decentr://test/test_util.js';
 
 window.history_list_test = {};
 history_list_test.suiteName = 'HistoryListTest';
@@ -748,8 +748,8 @@ suite(history_list_test.suiteName, function() {
                 value: TEST_HISTORY_RESULTS,
               });
 
-              // Navigate from chrome://history/ to
-              // chrome://history/?q=something else.
+              // Navigate from decentr://history/ to
+              // decentr://history/?q=something else.
               app.fire('change-query', {search: 'something else'});
               return testService.whenCalled('queryHistory');
             })
@@ -779,7 +779,7 @@ suite(history_list_test.suiteName, function() {
             .then(function() {
               // Confirmation dialog should appear.
               assertTrue(element.$.dialog.getIfExists().open);
-              // Navigate back to chrome://history.
+              // Navigate back to decentr://history.
               window.history.back();
 
               return waitForEvent(window, 'popstate');

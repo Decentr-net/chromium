@@ -254,7 +254,7 @@ TEST_F(BackgroundTabLoadingPolicyTest, ScoreAndScheduleTabLoad) {
 
   // Add an internal page to restore.
   page_nodes.push_back(CreateNode<performance_manager::PageNodeImpl>(
-      WebContentsProxy(), std::string(), GURL("chrome://newtab"), false, false,
+      WebContentsProxy(), std::string(), GURL("decentr://newtab"), false, false,
       base::TimeTicks::Now() - base::Seconds(1)));
   raw_page_nodes.push_back(page_nodes.back().get());
 

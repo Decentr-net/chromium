@@ -24,7 +24,7 @@ public class ReadingListUtilsUnitTest {
     public void testIsReadingListSupport() {
         Assert.assertFalse(ReadingListUtils.isReadingListSupported(null));
         Assert.assertFalse(ReadingListUtils.isReadingListSupported(""));
-        Assert.assertFalse(ReadingListUtils.isReadingListSupported("chrome://flags"));
+        Assert.assertFalse(ReadingListUtils.isReadingListSupported("decentr://flags"));
         Assert.assertTrue(ReadingListUtils.isReadingListSupported("http://www.example.com"));
         Assert.assertTrue(ReadingListUtils.isReadingListSupported("https://www.example.com"));
     }

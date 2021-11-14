@@ -46,7 +46,7 @@ bool IsTriggeredByGoogleOwnedUI(NavigationHandle* handle) {
     return true;
 
   // In case where the user clicked on a link, we require that the origin is
-  // either chrome://settings or https://passwords.google.com.
+  // either decentr://settings or https://passwords.google.com.
   if (ui::PageTransitionCoreTypeIs(page_transition, ui::PAGE_TRANSITION_LINK)) {
     url::Origin origin = handle->GetInitiatorOrigin().value_or(url::Origin());
     return origin == url::Origin::Create(GURL(chrome::kChromeUISettingsURL)) ||

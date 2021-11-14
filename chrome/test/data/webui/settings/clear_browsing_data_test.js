@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ClearBrowsingDataBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {Router, routes, StatusAction, SyncBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestClearBrowsingDataBrowserProxy} from 'chrome://test/settings/test_clear_browsing_data_browser_proxy.js';
-import {TestSyncBrowserProxy} from 'chrome://test/settings/test_sync_browser_proxy.js';
-import {eventToPromise, isChildVisible, isVisible, whenAttributeIs} from 'chrome://test/test_util.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ClearBrowsingDataBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {Router, routes, StatusAction, SyncBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestClearBrowsingDataBrowserProxy} from 'decentr://test/settings/test_clear_browsing_data_browser_proxy.js';
+import {TestSyncBrowserProxy} from 'decentr://test/settings/test_sync_browser_proxy.js';
+import {eventToPromise, isChildVisible, isVisible, whenAttributeIs} from 'decentr://test/test_util.js';
 
 // clang-format on
 

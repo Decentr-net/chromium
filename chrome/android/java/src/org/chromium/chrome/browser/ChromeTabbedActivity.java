@@ -1290,7 +1290,7 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
             if (TextUtils.isEmpty(url)) {
                 url = UrlConstants.NTP_URL;
             } else {
-                // Migrate legacy NTP URLs (chrome://newtab) to the newer format
+                // Migrate legacy NTP URLs (decentr://newtab) to the newer format
                 // (chrome-native://newtab)
                 if (UrlUtilities.isNTPUrl(url)) {
                     url = UrlConstants.NTP_URL;

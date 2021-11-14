@@ -26,7 +26,7 @@ using testing::_;
 
 namespace {
 
-const char kNotificationId[] = "chrome://cast";
+const char kNotificationId[] = "decentr://cast";
 
 // Helper to create a MediaRoute instance.
 media_router::MediaRoute MakeRoute(const std::string& route_id,

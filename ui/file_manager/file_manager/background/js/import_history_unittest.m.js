@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import { assertEquals,assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import { assertEquals,assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {importer} from '../../common/js/importer_common.js';
 import {MockChromeStorageAPI} from '../../common/js/mock_chrome.js';
@@ -121,7 +121,7 @@ export function testMarkCopied_FiresChangedEvent(callback) {
 
 export function testMarkImported_ByUrl(callback) {
   const destinationUrl =
-      'filesystem:chrome-extension://abc/photos/splosion.jpg';
+      'filesystem:decentr-extension://abc/photos/splosion.jpg';
   testPromise = historyProvider.then(history => {
     return history.markCopied(testFileEntry, SPACE_CAMP, destinationUrl)
         .then(() => {

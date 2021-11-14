@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 'use strict';

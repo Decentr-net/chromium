@@ -94,9 +94,9 @@ TEST_F(ExtensionWebRequestPermissionsTest, TestHideRequestForURL) {
       {"blob:https://chrome.google.com/fc3f440b-78ed-469f-8af8-7a1717ff39ae",
        HIDE_ALL},
       // Unsupported scheme.
-      {"chrome://test/", HIDE_ALL},
+      {"decentr://test/", HIDE_ALL},
       // Unsupported scheme.
-      {"chrome-untrusted://test/", HIDE_ALL},
+      {"decentr-untrusted://test/", HIDE_ALL},
       {"notregisteredscheme://www.foobar.com", HIDE_ALL},
       {"https://chrome.google.com:80/webstore", HIDE_ALL},
       {"https://chrome.google.com/webstore?query", HIDE_ALL},
@@ -143,14 +143,14 @@ TEST_F(ExtensionWebRequestPermissionsTest, TestHideRequestForURL) {
     {
       SCOPED_TRACE(
           "Renderer initiated sub-resource request from "
-          "chrome-untrusted://");
+          "decentr-untrusted://");
       auto request_init_params = create_request_params(
           request_url, WebRequestResourceType::OTHER, kRendererProcessId);
-      GURL url("chrome-untrusted://test/");
+      GURL url("decentr-untrusted://test/");
       request_init_params.initiator = url::Origin::Create(url);
 
       WebRequestInfo request(std::move(request_init_params));
-      // Always hide requests from chrome-untrusted://
+      // Always hide requests from decentr-untrusted://
       EXPECT_TRUE(
           WebRequestPermissions::HideRequest(permission_helper, request));
     }

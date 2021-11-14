@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Tests for chrome://usb-internals
+ * @fileoverview Tests for decentr://usb-internals
  */
 
 GEN('#include "content/public/test/browser_test.h"');
@@ -18,7 +18,7 @@ UsbInternalsTest.prototype = {
   __proto__: testing.Test.prototype,
 
   /** @override */
-  browsePreload: 'chrome://usb-internals/',
+  browsePreload: 'decentr://usb-internals/',
 
   /** @override */
   isAsync: true,
@@ -39,7 +39,7 @@ TEST_F('UsbInternalsTest', 'WebUIValueRenderTest', function() {
   };
   const staticUrlPolicy = trustedTypes.createPolicy(
       'usb-test-static',
-      {createScriptURL: () => 'chrome://test/usb_internals_test.js'});
+      {createScriptURL: () => 'decentr://test/usb_internals_test.js'});
   script.src = staticUrlPolicy.createScriptURL('');
   document.body.appendChild(script);
 });

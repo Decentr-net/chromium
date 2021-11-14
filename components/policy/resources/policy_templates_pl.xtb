@@ -493,7 +493,7 @@ Każdy element na liście tej zasady jest ciągiem zawierającym identyfikator r
 
       Wyjątki można definiować za pomocą białej listy adresów URL. Listy w tych zasadach mogą zawierać maksymalnie 1000 pozycji. Dalsze pozycje będą ignorowane.
 
-      Pamiętaj, że nie zalecamy blokowania wewnętrznych adresów URL „chrome://*” – mogłoby to powodować nieoczekiwane błędy.
+      Pamiętaj, że nie zalecamy blokowania wewnętrznych adresów URL „decentr://*” – mogłoby to powodować nieoczekiwane błędy.
 
       Począwszy od M73 można blokować adresy URL „javascript://*”. Ma to wpływ tylko na kod JavaScript wpisany w pasku adresu (oraz na przykład na skryptozakładki). Pamiętaj, że adresy URL JavaScript znajdujące się na stronie oraz dane ładowane dynamicznie nie podlegają tej zasadzie. Na przykład: jeśli zablokujesz „example.com/abc”, strona „example.com” będzie mimo tego mogła załadować „example.com/abc” za pomocą XMLHTTPRequest.
 
@@ -655,7 +655,7 @@ Jeśli pozostanie ona nieskonfigurowana, użytkownik może sam zdecydować, czy 
       zastosowana po ponownym uruchomieniu urządzenia.</translation>
 <translation id="2138449619211358657">Ta zasada umożliwia <ph name="PRODUCT_OS_NAME" /> ominięcie dowolnego serwera proxy na potrzeby uwierzytelnienia w portalu przechwytującym.
 
-      Działa ona tylko wtedy, gdy serwer proxy jest skonfigurowany (np. przez zasadę, użytkownika na stronie „chrome://settings” lub przez rozszerzenie).
+      Działa ona tylko wtedy, gdy serwer proxy jest skonfigurowany (np. przez zasadę, użytkownika na stronie „decentr://settings” lub przez rozszerzenie).
 
       Jeśli włączysz tę zasadę, wszystkie strony uwierzytelniania w portalu przechwytującym (czyli wszystkie strony internetowe wyświetlane od momentu pojawienia się strony logowania w portalu przechwytującym do momentu, gdy <ph name="PRODUCT_NAME" /> wykryje nawiązanie połączenia z internetem) będą wyświetlać się w osobnym oknie, ignorując wszystkie ustawienia zasad i ograniczenia dla bieżącego użytkownika.
 
@@ -676,15 +676,15 @@ Jeśli pozostanie ona nieskonfigurowana, użytkownik może sam zdecydować, czy 
 <translation id="2170233653554726857">Włącz optymalizację WPAD</translation>
 <translation id="2176565653304920879">Gdy zasada jest ustawiona, proces automatycznego wykrywania strefy czasowej przebiega na jeden z tych sposobów, zależnie od ustawionej wartości:
 
-      Jeśli wartość to TimezoneAutomaticDetectionUsersDecide, użytkownicy mogą określać automatyczne wykrywanie strefy czasowej przy użyciu zwykłych opcji na stronie chrome://settings.
+      Jeśli wartość to TimezoneAutomaticDetectionUsersDecide, użytkownicy mogą określać automatyczne wykrywanie strefy czasowej przy użyciu zwykłych opcji na stronie decentr://settings.
 
-      Jeśli wartość to TimezoneAutomaticDetectionDisabled, opcje sterowania automatyczną zmianą strefy czasowej na stronie chrome://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze wyłączone.
+      Jeśli wartość to TimezoneAutomaticDetectionDisabled, opcje sterowania automatyczną zmianą strefy czasowej na stronie decentr://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze wyłączone.
 
-      Jeśli wartość to TimezoneAutomaticDetectionIPOnly, opcje sterowania automatyczną zmianą strefy czasowej na stronie chrome://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze włączone. Wykrywanie strefy czasowej do określania lokalizacji używa tylko adresu IP.
+      Jeśli wartość to TimezoneAutomaticDetectionIPOnly, opcje sterowania automatyczną zmianą strefy czasowej na stronie decentr://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze włączone. Wykrywanie strefy czasowej do określania lokalizacji używa tylko adresu IP.
 
-      Jeśli wartość to TimezoneAutomaticDetectionSendWiFiAccessPoints, opcje sterowania automatyczną zmianą strefy czasowej na stronie chrome://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze włączone. Lista widocznych punktów dostępu Wi-Fi jest zawsze przesyłana do serwera interfejsu API geolokalizacji, by z dużą dokładnością wykrywać strefę czasową.
+      Jeśli wartość to TimezoneAutomaticDetectionSendWiFiAccessPoints, opcje sterowania automatyczną zmianą strefy czasowej na stronie decentr://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze włączone. Lista widocznych punktów dostępu Wi-Fi jest zawsze przesyłana do serwera interfejsu API geolokalizacji, by z dużą dokładnością wykrywać strefę czasową.
 
-      Jeśli wartość to TimezoneAutomaticDetectionSendAllLocationInfo, opcje sterowania automatyczną zmianą strefy czasowej na stronie chrome://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze włączone. Na serwer przesyłane są informacje o lokalizacji (takie jak dane GPS, dane o punktach dostępu Wi-Fi czy o komórkowych stacjach przekaźnikowych w zasięgu), by z dużą dokładnością wykrywać strefę czasową.
+      Jeśli wartość to TimezoneAutomaticDetectionSendAllLocationInfo, opcje sterowania automatyczną zmianą strefy czasowej na stronie decentr://settings są wyłączone. Automatyczne wykrywanie strefy czasowej jest zawsze włączone. Na serwer przesyłane są informacje o lokalizacji (takie jak dane GPS, dane o punktach dostępu Wi-Fi czy o komórkowych stacjach przekaźnikowych w zasięgu), by z dużą dokładnością wykrywać strefę czasową.
 
       Jeśli ta zasada nie jest ustawiona, stosowana jest wartość TimezoneAutomaticDetectionUsersDecide.
 
@@ -1220,9 +1220,9 @@ Jeśli pozostanie ona nieskonfigurowana, użytkownik może sam zdecydować, czy 
       Jeśli ta zasada nie jest ustawiona lub jest wyłączona, mechanizmy szyfrowania DHE w TLS będą wyłączone. Można ją włączyć, by mechanizmy szyfrowania pozostały aktywne oraz w celu zachowania zgodności z przestarzałym serwerem. Jest to rozwiązanie tymczasowe i konieczna jest zmiana konfiguracji serwera.
 
       Zalecamy wdrożenie na serwerach mechanizmów szyfrowania ECDHE. Jeśli nie ma takiej możliwości, upewnij się, że włączony jest mechanizm szyfrowania obsługujący wymianę kluczy RSA.</translation>
-<translation id="3117706142826400449">Kiedy ta zasada jest wyłączona, Czyszczenie Chrome nie może skanować systemu w poszukiwaniu niechcianego oprogramowania ani wykonywać czyszczenia. Ręczne uruchamianie Czyszczenia Chrome pod adresem chrome://settings/cleanup jest wyłączone.
+<translation id="3117706142826400449">Kiedy ta zasada jest wyłączona, Czyszczenie Chrome nie może skanować systemu w poszukiwaniu niechcianego oprogramowania ani wykonywać czyszczenia. Ręczne uruchamianie Czyszczenia Chrome pod adresem decentr://settings/cleanup jest wyłączone.
 
-      Jeśli ta zasada jest włączona lub nieskonfigurowana, Czyszczenie Chrome okresowo skanuje system w poszukiwaniu niechcianego oprogramowania. Jeśli je znajdzie, zapyta użytkownika, czy chce je usunąć. Ręczne uruchamianie Czyszczenia Chrome pod adresem chrome://settings/cleanup jest włączone.
+      Jeśli ta zasada jest włączona lub nieskonfigurowana, Czyszczenie Chrome okresowo skanuje system w poszukiwaniu niechcianego oprogramowania. Jeśli je znajdzie, zapyta użytkownika, czy chce je usunąć. Ręczne uruchamianie Czyszczenia Chrome pod adresem decentr://settings/cleanup jest włączone.
 
       Ta zasada jest dostępna tylko w wystąpieniach systemu Windows, które należą do domeny <ph name="MS_AD_NAME" />, oraz w wystąpieniach systemu Windows 10 Pro lub Enterprise zarejestrowanych w funkcji zarządzania urządzeniami.</translation>
 <translation id="3152425128389603870">Udostępnij ujednolicony pulpit i włącz go domyślnie</translation>
@@ -1274,7 +1274,7 @@ Jeśli ta zasada nie zostanie ustawiona, użytkownik może zobaczyć pytanie, cz
       Jeśli to ustawienie jest włączone lub nieskonfigurowane, użytkownicy mogą włączyć serwer proxy drukowania w chmurze, uwierzytelniając się na swoim koncie Google.
 
       W przypadku wyłączenia ustawienia użytkownicy nie mogą włączyć serwera proxy ani udostępnić w <ph name="CLOUD_PRINT_NAME" /> drukarek podłączonych do komputera.</translation>
-<translation id="3312206664202507568">Włącza stronę chrome://password-change umożliwiającą użytkownikom SAML zmianę hasła SAML w trakcie sesji, co zapewnia synchronizację hasła SAML i hasła blokady ekranu urządzenia.
+<translation id="3312206664202507568">Włącza stronę decentr://password-change umożliwiającą użytkownikom SAML zmianę hasła SAML w trakcie sesji, co zapewnia synchronizację hasła SAML i hasła blokady ekranu urządzenia.
 
       Ta zasada włącza też powiadomienia ostrzegające użytkowników SAML o zbliżającym się wygaśnięciu hasła SAML i umożliwiające im natychmiastową zmianę hasła w trakcie sesji.
       Powiadomienia te są wyświetlane tylko wtedy, gdy podczas procedury logowania SAML dostawca tożsamości SAML wysłał do urządzenia informację o wygaśnięciu hasła.
@@ -2016,7 +2016,7 @@ W przypadku nieskonfigurowania tej zasady użytkownik będzie mógł wybrać, cz
 <translation id="4777805166623621364">
       Ustawienie SitePerProcess pozwala uniemożliwić użytkownikowi wyłączenie domyślnego zachowania, czyli izolowania wszystkich witryn. Możesz jednocześnie użyć zasady IsolateOrigins, by dodatkowo izolować źródła według bardziej szczegółowych kryteriów.
       Jeśli ta zasada jest włączona, użytkownik nie może wyłączyć domyślnego zachowania, przy którym każda witryna działa w obrębie własnego procesu.
-      Jeśli zasada jest wyłączona lub nie jest skonfigurowana, użytkownik może wyłączyć izolację witryn (np. przez zmianę ustawienia „Wyłącz izolację witryn” na stronie chrome://flags).  Wyłączenie lub nieskonfigurowanie tej zasady nie wyłącza ustawienia Izolacja witryn.
+      Jeśli zasada jest wyłączona lub nie jest skonfigurowana, użytkownik może wyłączyć izolację witryn (np. przez zmianę ustawienia „Wyłącz izolację witryn” na stronie decentr://flags).  Wyłączenie lub nieskonfigurowanie tej zasady nie wyłącza ustawienia Izolacja witryn.
       W <ph name="PRODUCT_OS_NAME" /> 76 i wcześniejszych wersjach zaleca się ustawienie zasady dotyczącej urządzeń <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> na tę samą wartość. Jeśli wartości tych dwóch zasad są niezgodne, możliwe są opóźnienia przy uruchamianiu sesji użytkownika spowodowane stosowaniem wartości określonej w zasadach dotyczących użytkowników.
 
       UWAGA: ta zasada nie działa na Androidzie. Aby włączyć zasadę SitePerProcess na Androidzie, użyj ustawienia zasady SitePerProcessAndroid.
@@ -2879,7 +2879,7 @@ Do odwzorowania sekwencji dowolnych znaków można używać symboli wieloznaczny
 
           Jeśli włączysz to ustawienie, stroną główną będzie zawsze strona Nowa karta, a URL strony głównej będzie ignorowany.
 
-          Jeśli wyłączysz to ustawienie, stroną główną użytkownika nie będzie nigdy strona Nowa karta, chyba że wybierzesz dla strony głównej adres „chrome://newtab”.
+          Jeśli wyłączysz to ustawienie, stroną główną użytkownika nie będzie nigdy strona Nowa karta, chyba że wybierzesz dla strony głównej adres „decentr://newtab”.
 
           Jeśli włączysz lub wyłączysz to ustawienie, użytkownicy nie będą mogli zmienić typu strony głównej w <ph name="PRODUCT_NAME" />.
 
@@ -3050,7 +3050,7 @@ Do odwzorowania sekwencji dowolnych znaków można używać symboli wieloznaczny
 
       Jeśli dla tej zasady wybrane jest ustawienie Fałsz, wbudowany klient DNS nigdy nie będzie używany.
 
-      Jeśli ta zasada jest nieskonfigurowana, wbudowany klient DNS będzie domyślnie włączony w MacOS, Androidzie (jeśli nie włączono ani prywatnego serwera DNS, ani sieci VPN) i Chrome OS. Poza tym użytkownicy będą mogli włączać i wyłączać wbudowanego klienta DNS na stronie chrome://flags lub za pomocą flagi wiersza poleceń.</translation>
+      Jeśli ta zasada jest nieskonfigurowana, wbudowany klient DNS będzie domyślnie włączony w MacOS, Androidzie (jeśli nie włączono ani prywatnego serwera DNS, ani sieci VPN) i Chrome OS. Poza tym użytkownicy będą mogli włączać i wyłączać wbudowanego klienta DNS na stronie decentr://flags lub za pomocą flagi wiersza poleceń.</translation>
 <translation id="6843296367238757293">Ta zasada jest wycofana. Nie zalecamy jej używania. Więcej informacji: https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Ta zasada została usunięta w <ph name="PRODUCT_NAME" /> 68 i zastąpiona zasadą <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Ta zasada została wycofana i usunięta w M66, ponieważ była używana tylko do testów wewnętrznych i obniżała bezpieczeństwo.
@@ -3659,7 +3659,7 @@ Uwaga: dozwolone wartości w polu <ph name="MINUTE_FIELD_NAME" /> w opcjach <p
 <translation id="7941975817681987555">Nie przewiduj działań w sieci dla żadnego połączenia sieciowego</translation>
 <translation id="7952007677054834789">Umożliwia skonfigurowanie stron wczytywanych podczas uruchamiania, domyślnej strony głównej i domyślnej strony nowej karty w <ph name="PRODUCT_NAME" /> oraz uniemożliwia użytkownikom ich zmianę.
 
-      Ustawienia strony głównej użytkownika zostaną całkowicie zablokowane tylko wtedy, gdy jako stronę główną ustawisz stronę Nowa karta albo adres URL (wpisany ręcznie). Jeśli adres URL strony głównej nie zostanie określony, użytkownik jako stronę główną będzie mógł ustawić stronę Nowa karta, podając adres „chrome://newtab”.
+      Ustawienia strony głównej użytkownika zostaną całkowicie zablokowane tylko wtedy, gdy jako stronę główną ustawisz stronę Nowa karta albo adres URL (wpisany ręcznie). Jeśli adres URL strony głównej nie zostanie określony, użytkownik jako stronę główną będzie mógł ustawić stronę Nowa karta, podając adres „decentr://newtab”.
 
       Zasada „Adresy URL otwierane po uruchomieniu” jest ignorowana, chyba że wybierzesz opcję „Otwórz adresy URL z listy” w ustawieniu „Działanie po uruchomieniu”.</translation>
 <translation id="7952958573604504839">Ta zasada została zastąpiona w wersji M48 zasadą <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, a w wersji M54 – wycofana.

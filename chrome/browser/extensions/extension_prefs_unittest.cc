@@ -225,7 +225,7 @@ class ExtensionPrefsGrantedPermissions : public ExtensionPrefsTest {
 
     AddPattern(&ehost_perm_set1_, "http://*.google.com/*");
     AddPattern(&ehost_perm_set1_, "http://example.com/*");
-    AddPattern(&ehost_perm_set1_, "chrome://favicon/*");
+    AddPattern(&ehost_perm_set1_, "decentr://favicon/*");
 
     AddPattern(&ehost_perm_set2_, "https://*.google.com/*");
     // with duplicate:
@@ -240,7 +240,7 @@ class ExtensionPrefsGrantedPermissions : public ExtensionPrefsTest {
 
     AddPattern(&ehost_permissions_, "http://*.google.com/*");
     AddPattern(&ehost_permissions_, "http://example.com/*");
-    AddPattern(&ehost_permissions_, "chrome://favicon/*");
+    AddPattern(&ehost_permissions_, "decentr://favicon/*");
     AddPattern(&ehost_permissions_, "https://*.google.com/*");
 
     AddPattern(&shost_permissions_, "http://reddit.com/r/test/*");
@@ -359,7 +359,7 @@ class ExtensionPrefsActivePermissions : public ExtensionPrefsTest {
       URLPatternSet ehosts;
       AddPattern(&ehosts, "http://*.google.com/*");
       AddPattern(&ehosts, "http://example.com/*");
-      AddPattern(&ehosts, "chrome://favicon/*");
+      AddPattern(&ehosts, "decentr://favicon/*");
 
       URLPatternSet shosts;
       AddPattern(&shosts, "https://*.google.com/*");
@@ -876,7 +876,7 @@ class ExtensionPrefsComponentExtension : public ExtensionPrefsTest {
     api_perms.insert(APIPermissionID::kHistory);
 
     URLPatternSet shosts;
-    AddPattern(&shosts, "chrome://print/*");
+    AddPattern(&shosts, "decentr://print/*");
 
     active_perms_ = std::make_unique<PermissionSet>(
         std::move(api_perms), ManifestPermissionSet(), URLPatternSet(),
@@ -888,12 +888,12 @@ class ExtensionPrefsComponentExtension : public ExtensionPrefsTest {
   }
 
   void Verify() override {
-    // Component extension can access chrome://print/*.
+    // Component extension can access decentr://print/*.
     std::unique_ptr<const PermissionSet> component_permissions =
         prefs()->GetActivePermissions(component_extension_->id());
     EXPECT_EQ(1u, component_permissions->scriptable_hosts().size());
 
-    // Non Component extension can not access chrome://print/*.
+    // Non Component extension can not access decentr://print/*.
     std::unique_ptr<const PermissionSet> no_component_permissions =
         prefs()->GetActivePermissions(no_component_extension_->id());
     EXPECT_EQ(0u, no_component_permissions->scriptable_hosts().size());

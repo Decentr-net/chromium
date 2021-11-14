@@ -117,7 +117,7 @@ public class StartSurfaceUserData implements UserData {
     }
 
     /**
-     * Sets whether the tab is created as chrome://newTab. A tab can only be created in this way
+     * Sets whether the tab is created as decentr://newTab. A tab can only be created in this way
      * when {@link StartSurfaceConfiguration.OMNIBOX_FOCUSED_ON_NEW_TAB} is enabled. The URL of the
      * newly created tab is empty, but should be treated as NTP for features like autocomplete.
      */
@@ -133,7 +133,7 @@ public class StartSurfaceUserData implements UserData {
     }
 
     /**
-     * @return Whether the tab is created as chrome://newTab. A tab can only be created in this way
+     * @return Whether the tab is created as decentr://newTab. A tab can only be created in this way
      * when {@link StartSurfaceConfiguration.OMNIBOX_FOCUSED_ON_NEW_TAB} is enabled. The URL of the
      * newly created tab is empty, but should be treated as NTP for features like autocomplete.
      */

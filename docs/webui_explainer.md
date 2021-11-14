@@ -22,12 +22,12 @@ implemented with web technologies** (i.e. HTML, CSS, JavaScript).
 
 Examples of WebUI in Chromium:
 
-* Settings (chrome://settings)
-* History (chrome://history)
-* Downloads (chrome://downloads)
+* Settings (decentr://settings)
+* History (decentr://history)
+* Downloads (decentr://downloads)
 
 <div class="note">
-Not all web-based UIs in Chrome have chrome:// URLs.
+Not all web-based UIs in Chrome have decentr:// URLs.
 </div>
 
 This document explains how WebUI works.
@@ -45,7 +45,7 @@ Only special URLs are granted WebUI "bindings" via the child security process.
 Specifically, these bindings:
 
 * give a renderer access to load [`chrome:`](#chrome_urls) URLS
-  * this is helpful for shared libraries, i.e. `chrome://resources/`
+  * this is helpful for shared libraries, i.e. `decentr://resources/`
 * allow the browser to execute arbitrary JavaScript in that renderer via
   [`CallJavascriptFunction()`](#CallJavascriptFunction)
 * allow communicating from the renderer to the browser with
@@ -75,7 +75,7 @@ up.
 Examples:
 
 * devtools:
-* chrome-extensions:
+* decentr-extensions:
 * chrome:
 * file:
 * view-source:
@@ -106,7 +106,7 @@ renderer to the browser (a `RenderFrameHost`).
 The URL of the request is inspected:
 
 ```c++
-if (url.SchemeIs("chrome") && url.host_piece() == "donuts")  // chrome://donuts
+if (url.SchemeIs("chrome") && url.host_piece() == "donuts")  // decentr://donuts
   return &NewWebUI<DonutsUI>;
 return nullptr;  // Not a known host; no special access.
 ```
@@ -127,7 +127,7 @@ The factory creates a [`WebUIController`](#WebUIController) for a tab.
 Here's an example:
 
 ```c++
-// Controller for chrome://donuts.
+// Controller for decentr://donuts.
 class DonutsUI : public content::WebUIController {
  public:
   DonutsUI(content::WebUI* web_ui) : content::WebUIController(web_ui) {
@@ -149,7 +149,7 @@ If we assume the contents of `IDR_DONUTS_HTML` yields:
 <h1>$i18n{mmmDonuts}</h1>
 ```
 
-Visiting `chrome://donuts` should show in something like:
+Visiting `decentr://donuts` should show in something like:
 
 <div style="border: 1px solid black; padding: 10px;">
 <h1>Mmmm, donuts!</h1>
@@ -204,7 +204,7 @@ controller for organizational benefits.
 
 A `WebUIController` is owned by a [`WebUI`](#WebUI), and is created and set on
 an existing [`WebUI`](#WebUI) when the correct one is determined via URL
-inspection (i.e. chrome://settings creates a generic [`WebUI`](#WebUI) with a
+inspection (i.e. decentr://settings creates a generic [`WebUI`](#WebUI) with a
 settings-specific `WebUIController`).
 
 <a name="WebUIDataSource"></a>
@@ -322,11 +322,11 @@ or .grdp file), adds a resource to the UI with the specified path.
 
 It's generally a good idea to call <code>AddResourcePath()</code> with the empty
 path and a resource ID that should be served as the "catch all" resource to
-respond with. This resource will be served for requests like "chrome://history",
-or "chrome://history/pathThatDoesNotExist". It will not be served for requests
+respond with. This resource will be served for requests like "decentr://history",
+or "decentr://history/pathThatDoesNotExist". It will not be served for requests
 that look like they are attempting to fetch a specific file, like
-"chrome://history/file\_that\_does\_not\_exist.js". This is so that if a user
-enters a typo when trying to load a subpage like "chrome://history/syncedTabs"
+"decentr://history/file\_that\_does\_not\_exist.js". This is so that if a user
+enters a typo when trying to load a subpage like "decentr://history/syncedTabs"
 they will be redirected to the main history page, instead of seeing an error,
 but incorrect imports in the source code will fail, so that they can be more
 easily found and corrected.
@@ -414,8 +414,8 @@ utility instead of duplicating the configuration steps it performs elsewhere.
 Specific setup steps include:
 
 * Setting the content security policy to allow the data source to load only
-  resources from its own host (e.g. chrome://history), chrome://resources, and
-  chrome://test (used to load test files).
+  resources from its own host (e.g. decentr://history), decentr://resources, and
+  decentr://test (used to load test files).
 * Enabling i18n template replacements by calling <code>UseStringsJs()</code> and
   <code>EnableReplaceI18nInJS()</code> on the data source.
 * Adding the test loader files to the data source, so that test files can be
@@ -919,7 +919,7 @@ only be generated for Google Chrome builds, not Chromium or other Chromium-based
 browsers.
 
 Specifically, an error report will be generated when the JavaScript for a
-WebUI-based chrome:// page does one of the following:
+WebUI-based decentr:// page does one of the following:
 * Generates an uncaught exception,
 * Has a promise which is rejected, and no rejection handler is provided, or
 * Calls `console.error()`.
@@ -941,7 +941,7 @@ page; this will avoid generating redundant error reports.
 
 Known issues:
 1. Error reporting is currently enabled only on ChromeOS and Linux.
-2. Errors are only reported for chrome:// URLs.
+2. Errors are only reported for decentr:// URLs.
 3. Unhandled promise rejections do not have a good stack.
 4. The line numbers and column numbers in the stacks are for the minified
    JavaScript and do not correspond to the line and column numbers of the

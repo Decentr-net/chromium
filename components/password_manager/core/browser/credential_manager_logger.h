@@ -17,7 +17,7 @@ class LogManager;
 namespace password_manager {
 
 // A helper for logging Credential Manager API calls to
-// chrome://password-manager-internals.
+// decentr://password-manager-internals.
 class CredentialManagerLogger {
  public:
   explicit CredentialManagerLogger(const autofill::LogManager*);

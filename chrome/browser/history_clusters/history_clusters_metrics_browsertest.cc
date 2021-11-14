@@ -161,7 +161,7 @@ IN_PROC_BROWSER_TEST_F(HistoryClustersMetricsBrowserTest,
   EXPECT_TRUE(content::ExecuteScriptAndExtractBool(
       browser()->tab_strip_model()->GetActiveWebContents(), R"(
         const polymerPath =
-            'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+            'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
         import(polymerPath).then((polymerModule)=> {
           polymerModule.flush();
           const historyApp = document.querySelector('#history-app');

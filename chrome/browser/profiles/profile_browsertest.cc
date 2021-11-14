@@ -653,7 +653,7 @@ IN_PROC_BROWSER_TEST_F(ProfileBrowserTest,
   // We don't need to test with a real extension URL - it is sufficient to
   // verify that the factory responds with ERR_BLOCKED_BY_CLIENT that indicates
   // a missing extension.
-  GURL missing_extension_url("chrome-extension://no-such-extension/blah");
+  GURL missing_extension_url("decentr-extension://no-such-extension/blah");
   {
     SimpleURLLoaderHelper simple_loader_helper(url_loader_factory.get(),
                                                missing_extension_url,

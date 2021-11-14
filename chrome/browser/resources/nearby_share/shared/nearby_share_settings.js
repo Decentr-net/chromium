@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js'
-// #import {addSingletonGetter} from 'chrome://resources/js/cr.m.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js'
+// #import {addSingletonGetter} from 'decentr://resources/js/cr.m.js';
 // #import '/mojo/nearby_share_settings.mojom-lite.js';
 // clang-format on
 

@@ -19,7 +19,7 @@ function MediaEngagementWebUIBrowserTest() {}
 MediaEngagementWebUIBrowserTest.prototype = {
   __proto__: testing.Test.prototype,
 
-  browsePreload: 'chrome://media-engagement',
+  browsePreload: 'decentr://media-engagement',
 
   featureList: {enabled: ['media::kRecordMediaEngagementScores']},
 

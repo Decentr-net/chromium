@@ -5,10 +5,10 @@
 /** @fileoverview Suite of tests for cr_policy-network-indicator-mojo. */
 
 // clang-format off
-// #import 'chrome://resources/cr_components/chromeos/network/cr_policy_network_indicator_mojo.m.js';
-// #import 'chrome://test/cr_elements/cr_policy_strings.js';
+// #import 'decentr://resources/cr_components/chromeos/network/cr_policy_network_indicator_mojo.m.js';
+// #import 'decentr://test/cr_elements/cr_policy_strings.js';
 
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 suite('cr-policy-network-indicator-mojo', function() {

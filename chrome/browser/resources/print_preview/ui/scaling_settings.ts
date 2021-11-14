@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/md_select_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-collapse/iron-collapse.js';
+import 'decentr://resources/cr_elements/md_select_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-collapse/iron-collapse.js';
 import './number_settings_section.js';
 import './print_preview_shared_css.js';
 import './settings_section.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {ScalingType} from '../data/scaling.js';
 

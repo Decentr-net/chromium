@@ -4,8 +4,8 @@
 
 import './strings.m.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {DiagnosticEntry_Status as Status} from './guest_os_diagnostics.mojom-webui.js';
 import {VmDiagnosticsProvider} from './vm.mojom-webui.js';

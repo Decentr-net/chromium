@@ -260,7 +260,7 @@ bool ExtensionCanLoadInIncognito(bool is_main_frame,
   return IncognitoInfo::IsSplitMode(extension);
 }
 
-// Returns true if an chrome-extension:// resource should be allowed to load.
+// Returns true if an decentr-extension:// resource should be allowed to load.
 // Pass true for |is_incognito| only for incognito profiles and not Chrome OS
 // guest mode profiles.
 //

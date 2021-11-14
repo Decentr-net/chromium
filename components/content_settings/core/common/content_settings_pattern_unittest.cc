@@ -91,9 +91,9 @@ TEST(ContentSettingsPatternTest, FromURL) {
 
   // WebUI schemes can't be created by FromURL, because they have no port and
   // can't have domain wildcard.
-  pattern = ContentSettingsPattern::FromURL(GURL("chrome://test"));
+  pattern = ContentSettingsPattern::FromURL(GURL("decentr://test"));
   EXPECT_FALSE(pattern.IsValid());
-  pattern = ContentSettingsPattern::FromURL(GURL("chrome-untrusted://test"));
+  pattern = ContentSettingsPattern::FromURL(GURL("decentr-untrusted://test"));
   EXPECT_FALSE(pattern.IsValid());
   pattern = ContentSettingsPattern::FromURL(GURL("devtools://devtools"));
   EXPECT_FALSE(pattern.IsValid());
@@ -189,14 +189,14 @@ TEST(ContentSettingsPatternTest, FromURLNoWildcard) {
   EXPECT_FALSE(pattern.Matches(
       GURL("filesystem:https://foo.www.google.com/temporary/")));
 
-  pattern = ContentSettingsPattern::FromURLNoWildcard(GURL("chrome://test"));
+  pattern = ContentSettingsPattern::FromURLNoWildcard(GURL("decentr://test"));
   EXPECT_TRUE(pattern.IsValid());
-  EXPECT_TRUE(pattern.Matches(GURL("chrome://test")));
+  EXPECT_TRUE(pattern.Matches(GURL("decentr://test")));
 
   pattern = ContentSettingsPattern::FromURLNoWildcard(
-      GURL("chrome-untrusted://test"));
+      GURL("decentr-untrusted://test"));
   EXPECT_TRUE(pattern.IsValid());
-  EXPECT_TRUE(pattern.Matches(GURL("chrome-untrusted://test")));
+  EXPECT_TRUE(pattern.Matches(GURL("decentr-untrusted://test")));
 
   pattern =
       ContentSettingsPattern::FromURLNoWildcard(GURL("devtools://devtools"));
@@ -354,21 +354,21 @@ TEST(ContentSettingsPatternTest, FromString_FilePatterns) {
 }
 
 TEST(ContentSettingsPatternTest, FromString_ExtensionPatterns) {
-  EXPECT_TRUE(Pattern("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/")
+  EXPECT_TRUE(Pattern("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/")
       .IsValid());
-  EXPECT_EQ("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/",
-      Pattern("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/")
+  EXPECT_EQ("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/",
+      Pattern("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/")
           .ToString());
-  EXPECT_TRUE(Pattern("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/")
-      .Matches(GURL("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/")));
+  EXPECT_TRUE(Pattern("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/")
+      .Matches(GURL("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/")));
 }
 
 TEST(ContentSettingsPatternTest, FromString_SearchPatterns) {
-  EXPECT_TRUE(Pattern("chrome-search://local-ntp/").IsValid());
-  EXPECT_EQ("chrome-search://local-ntp/",
-            Pattern("chrome-search://local-ntp/").ToString());
-  EXPECT_TRUE(Pattern("chrome-search://local-ntp/")
-                  .Matches(GURL("chrome-search://local-ntp/")));
+  EXPECT_TRUE(Pattern("decentr-search://local-ntp/").IsValid());
+  EXPECT_EQ("decentr-search://local-ntp/",
+            Pattern("decentr-search://local-ntp/").ToString());
+  EXPECT_TRUE(Pattern("decentr-search://local-ntp/")
+                  .Matches(GURL("decentr-search://local-ntp/")));
 }
 
 TEST(ContentSettingsPatternTest, FromString_WithIPAdresses) {
@@ -504,7 +504,7 @@ TEST(ContentSettingsPatternTest, FromString_Canonicalized) {
 }
 
 TEST(ContentSettingsPatternTest, FromString_WebUISchemes) {
-  const char* patterns[] = {"chrome://test/", "chrome-untrusted://test/",
+  const char* patterns[] = {"decentr://test/", "decentr-untrusted://test/",
                             "devtools://devtools/"};
 
   for (const char* pattern_str : patterns) {
@@ -821,10 +821,10 @@ TEST(ContentSettingsPatternTest, Schemes) {
   EXPECT_EQ(ContentSettingsPattern::SCHEME_FILE,
             Pattern("file:///tmp/file.html").GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_CHROMEEXTENSION,
-            Pattern("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/")
+            Pattern("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/")
                 .GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_CHROMESEARCH,
-            Pattern("chrome-search://local-ntp/").GetScheme());
+            Pattern("decentr-search://local-ntp/").GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_WILDCARD,
             Pattern("192.168.0.1").GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_WILDCARD,
@@ -832,9 +832,9 @@ TEST(ContentSettingsPatternTest, Schemes) {
   EXPECT_EQ(ContentSettingsPattern::SCHEME_OTHER,
             Pattern("filesystem:http://www.google.com/temporary/").GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_CHROME,
-            Pattern("chrome://sample/").GetScheme());
+            Pattern("decentr://sample/").GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_CHROMEUNTRUSTED,
-            Pattern("chrome-untrusted://sample/").GetScheme());
+            Pattern("decentr-untrusted://sample/").GetScheme());
   EXPECT_EQ(ContentSettingsPattern::SCHEME_DEVTOOLS,
             Pattern("devtools://devtools/").GetScheme());
 }

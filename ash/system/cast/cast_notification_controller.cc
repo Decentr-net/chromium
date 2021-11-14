@@ -52,7 +52,7 @@ std::u16string GetNotificationMessage(const CastRoute& route) {
   }
 }
 
-const char kNotificationId[] = "chrome://cast";
+const char kNotificationId[] = "decentr://cast";
 const char kNotifierId[] = "ash.cast";
 
 }  // namespace

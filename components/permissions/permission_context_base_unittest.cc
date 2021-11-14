@@ -189,7 +189,7 @@ class TestPermissionsClientBypassExtensionOriginCheck
  public:
   bool CanBypassEmbeddingOriginCheck(const GURL& requesting_origin,
                                      const GURL& embedding_origin) override {
-    return requesting_origin.SchemeIs("chrome-extension");
+    return requesting_origin.SchemeIs("decentr-extension");
   }
 };
 
@@ -819,7 +819,7 @@ TEST_F(PermissionContextBaseTests, TestGlobalKillSwitch) {
 TEST_F(PermissionContextBaseTests,
        TestSecureOriginRestrictedPermissionContextSwitch) {
   url::ScopedSchemeRegistryForTests scoped_registry;
-  url::AddSecureScheme("chrome-extension");
+  url::AddSecureScheme("decentr-extension");
   struct {
     std::string requesting_url_spec;
     std::string embedding_url_spec;
@@ -847,7 +847,7 @@ TEST_F(PermissionContextBaseTests,
        /*expect_allowed=*/true},
 
       // Extensions are exempt from checking the embedder chain.
-      {"chrome-extension://some-extension", "http://not-secure.com",
+      {"decentr-extension://some-extension", "http://not-secure.com",
        /*expect_allowed=*/true},
 
       // Insecure-origins that should be blocked.
@@ -895,7 +895,7 @@ TEST_F(PermissionContextBaseTests, TestVirtualURLDifferentOrigin) {
 }
 
 TEST_F(PermissionContextBaseTests, TestVirtualURLNotHTTP) {
-  TestVirtualURL(GURL("chrome://foo"), GURL("chrome://newtab"),
+  TestVirtualURL(GURL("decentr://foo"), GURL("decentr://newtab"),
                  CONTENT_SETTING_ASK, PermissionStatusSource::UNSPECIFIED);
 }
 

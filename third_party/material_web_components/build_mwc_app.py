@@ -62,7 +62,7 @@ def _get_dep_path(dep, host_url, in_path, out_path):
     DLOG('in_path  : ' + in_path)
     if dep.startswith(host_url):
         result = dep.replace(host_url, os.path.relpath(in_path, _CWD))
-    elif not (dep.startswith('chrome://') or dep.startswith('//')):
+    elif not (dep.startswith('decentr://') or dep.startswith('//')):
         result = os.path.relpath(out_path, _CWD) + '/' + dep
     else:
         result = dep
@@ -225,7 +225,7 @@ def _build(in_folder, args):
 
     excludes = _BASE_EXCLUDES + [
         # This file is dynamically created by C++. Need to specify an exclusion
-        # URL for both the relative URL and chrome:// URL syntax.
+        # URL for both the relative URL and decentr:// URL syntax.
         'strings.js',
         'strings.m.js',
         '%s/strings.js' % args.host_url,
@@ -279,7 +279,7 @@ def main(argv):
     args.out_folder = os.path.normpath(args.out_folder)
     scheme_end_index = args.host.find('://')
     if (scheme_end_index == -1):
-        args.host_url = 'chrome://%s/' % args.host
+        args.host_url = 'decentr://%s/' % args.host
     else:
         args.host_url = args.host
 

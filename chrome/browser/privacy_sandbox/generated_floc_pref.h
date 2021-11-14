@@ -11,7 +11,7 @@
 
 extern const char kGeneratedFlocPref[];
 
-// A generated preference which is used on the chrome://settings/privacySandbox
+// A generated preference which is used on the decentr://settings/privacySandbox
 // page to drive the FLoC toggle. This preference reflects the effective state
 // of FLoC, which also respects the main Privacy Sandbox pref as an opt out,
 // rather than the state of the underlying FLoC preference.

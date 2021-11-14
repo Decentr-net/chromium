@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://print/print_preview.js';
+import 'decentr://print/print_preview.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {triggerInputEvent} from 'chrome://test/print_preview/print_preview_test_utils.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {triggerInputEvent} from 'decentr://test/print_preview/print_preview_test_utils.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 window.number_settings_section_test = {};
 number_settings_section_test.suiteName = 'NumberSettingsSectionTest';

@@ -19,7 +19,7 @@
 
 namespace ash {
 
-// The WebUI for chrome://sample-system-web-app/.
+// The WebUI for decentr://sample-system-web-app/.
 class SampleSystemWebAppUI : public ui::MojoWebUIController,
                              public mojom::sample_swa::PageHandlerFactory {
  public:

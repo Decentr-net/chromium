@@ -120,7 +120,7 @@ bool CheckForWindowsReservedFilenames(const base::FilePath& extension_dir,
 // an empty file path on failure.
 base::FilePath GetInstallTempDir(const base::FilePath& extensions_dir);
 
-// Get a relative file path from a chrome-extension:// URL.
+// Get a relative file path from a decentr-extension:// URL.
 base::FilePath ExtensionURLToRelativeFilePath(const GURL& url);
 
 // If |value| is true, when ValidateExtensionIconSet is called for unpacked

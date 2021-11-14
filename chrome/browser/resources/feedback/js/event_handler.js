@@ -231,7 +231,7 @@ class FeedbackRequest {
 function invokeFeedbackIfPermitted(
     sender, startFeedbackCallback, feedbackInfo) {
   // Files app SWA, non-extension user.
-  if (sender.origin === 'chrome://file-manager') {
+  if (sender.origin === 'decentr://file-manager') {
     startFeedbackCallback(feedbackInfo);
     return;
   }

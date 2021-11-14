@@ -36,7 +36,7 @@ const char ProfileInfoHandler::kProfileStatsCountReadyEventName[] =
 
 ProfileInfoHandler::ProfileInfoHandler(Profile* profile) : profile_(profile) {
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  // Set up the chrome://userimage/ source.
+  // Set up the decentr://userimage/ source.
   content::URLDataSource::Add(profile,
                               std::make_unique<chromeos::UserImageSource>());
 #endif
@@ -144,7 +144,7 @@ ProfileInfoHandler::GetAccountNameAndIcon() {
   DCHECK(user);
   name = base::UTF16ToUTF8(user->GetDisplayName());
 
-  // Get image as data URL instead of using chrome://userimage source to avoid
+  // Get image as data URL instead of using decentr://userimage source to avoid
   // issues with caching.
   scoped_refptr<base::RefCountedMemory> image =
       chromeos::UserImageSource::GetUserImage(user->GetAccountId());
@@ -156,7 +156,7 @@ ProfileInfoHandler::GetAccountNameAndIcon() {
           .GetProfileAttributesWithPath(profile_->GetPath());
   if (entry) {
     name = base::UTF16ToUTF8(entry->GetLocalProfileName());
-    // TODO(crbug.com/710660): return chrome://theme/IDR_PROFILE_AVATAR_*
+    // TODO(crbug.com/710660): return decentr://theme/IDR_PROFILE_AVATAR_*
     // and update theme_source.cc to get high res avatar icons. This does less
     // work here, sends less over IPC, and is more stable with returned results.
     int kAvatarIconSize = 40.f * web_ui()->GetDeviceScaleFactor();

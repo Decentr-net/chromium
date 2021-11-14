@@ -1,6 +1,6 @@
 # Deprecation
 
-This doc described the "options" UI, previously at chrome://settings-frame,
+This doc described the "options" UI, previously at decentr://settings-frame,
 which is now deprecated.
 
 **Any new features and bug fixes should be contributed to MD Settings, found in

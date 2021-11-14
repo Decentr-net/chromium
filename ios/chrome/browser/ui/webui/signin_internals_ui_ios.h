@@ -13,7 +13,7 @@
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 #include "ios/web/public/webui/web_ui_ios_message_handler.h"
 
-// The implementation for the chrome://signin-internals page.
+// The implementation for the decentr://signin-internals page.
 class SignInInternalsUIIOS : public web::WebUIIOSController {
  public:
   SignInInternalsUIIOS(web::WebUIIOS* web_ui, const std::string& host);

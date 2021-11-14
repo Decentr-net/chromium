@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {LOTTIE_JS_URL} from 'chrome://resources/cr_elements/cr_lottie/cr_lottie.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {LOTTIE_JS_URL} from 'decentr://resources/cr_elements/cr_lottie/cr_lottie.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {MockController, MockMethod} from '../mock_controller.m.js';
@@ -270,7 +270,7 @@ suite('cr_lottie_test', function() {
     // Expectations for loading the worker.
     mockXhrConstructor.addExpectation();
     mockXhr.open.addExpectation(
-        'GET', 'chrome://resources/lottie/lottie_worker.min.js', true);
+        'GET', 'decentr://resources/lottie/lottie_worker.min.js', true);
     mockXhr.send.addExpectation();
 
     // Expectations for loading the image and aborting it.
@@ -309,7 +309,7 @@ suite('cr_lottie_test', function() {
     // Expectations for loading the worker.
     mockXhrConstructor.addExpectation();
     mockXhr.open.addExpectation(
-        'GET', 'chrome://resources/lottie/lottie_worker.min.js', true);
+        'GET', 'decentr://resources/lottie/lottie_worker.min.js', true);
     mockXhr.send.addExpectation();
 
     // Expectations for loading the first image and aborting it.

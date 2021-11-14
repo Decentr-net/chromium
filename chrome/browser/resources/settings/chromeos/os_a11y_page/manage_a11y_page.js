@@ -524,7 +524,7 @@ Polymer({
   /** @private */
   onAppearanceTap_() {
     // Open browser appearance section in a new browser tab.
-    window.open('chrome://settings/appearance');
+    window.open('decentr://settings/appearance');
   },
 
   /** @private */

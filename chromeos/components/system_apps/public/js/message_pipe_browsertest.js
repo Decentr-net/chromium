@@ -45,7 +45,7 @@ async function sendTestMessage(messageType, message = {}) {
 var MessagePipeBrowserTest = class extends testing.Test {
   /** @override */
   get browsePreload() {
-    return 'chrome://system-app-test/test_data/message_pipe_browsertest_trusted.html';
+    return 'decentr://system-app-test/test_data/message_pipe_browsertest_trusted.html';
   }
 
   /** @override */
@@ -88,7 +88,7 @@ TEST_F('MessagePipeBrowserTest', 'IgnoresMessagesWithNoType', async () => {
   window.addEventListener('message', receiveMessage, false);
   const guestFrame = /** @type {!HTMLIFrameElement} */ (
       document.querySelector('iframe'));
-  const TEST_GUEST_ORIGIN = 'chrome-untrusted://system-app-test';
+  const TEST_GUEST_ORIGIN = 'decentr-untrusted://system-app-test';
   // These postMessages should be ignored and not cause any errors.
   guestFrame.contentWindow.postMessage('test', TEST_GUEST_ORIGIN);
   guestFrame.contentWindow.postMessage({type: 9}, TEST_GUEST_ORIGIN);
@@ -116,13 +116,13 @@ TEST_F('MessagePipeBrowserTest', 'ReceivesNoHandlerError', async () => {
   assertMatchErrorStack(caughtError.stack, [
     // Error stack of the test context.
     'Error: unknown-message: No handler registered for message type \'unknown-message\'',
-    'at MessagePipe.sendMessage \\(chrome://system-app-test/',
+    'at MessagePipe.sendMessage \\(decentr://system-app-test/',
     'at async MessagePipeBrowserTest.',
     // Error stack of the untrusted context.
-    'Error from chrome-untrusted://system-app-test',
+    'Error from decentr-untrusted://system-app-test',
     'Error: No handler registered for message type \'unknown-message\'',
-    'at MessagePipe.receiveMessage_ \\(chrome-untrusted://system-app-test/',
-    'at MessagePipe.messageListener_ \\(chrome-untrusted://system-app-test/'
+    'at MessagePipe.receiveMessage_ \\(decentr-untrusted://system-app-test/',
+    'at MessagePipe.messageListener_ \\(decentr-untrusted://system-app-test/'
   ]);
   testDone();
 });
@@ -145,15 +145,15 @@ TEST_F('MessagePipeBrowserTest', 'ReceivesProxiedError', async () => {
   assertMatchErrorStack(caughtError.stack, [
     // Error stack of the test context.
     'Error: bad-handler: This is an error from untrusted',
-    'at MessagePipe.sendMessage \\(chrome://system-app-test/',
+    'at MessagePipe.sendMessage \\(decentr://system-app-test/',
     'at async MessagePipeBrowserTest.',
     // Error stack of the untrusted context.
-    'Error from chrome-untrusted://system-app-test',
+    'Error from decentr-untrusted://system-app-test',
     'Error: This is an error from untrusted',
-    'at chrome-untrusted://system-app-test/test_data/message_pipe_browsertest_untrusted.js',
-    'at MessagePipe.callHandlerForMessageType_ \\(chrome-untrusted://system-app-test/',
-    'at MessagePipe.receiveMessage_ \\(chrome-untrusted://system-app-test/',
-    'at MessagePipe.messageListener_ \\(chrome-untrusted://system-app-test/'
+    'at decentr-untrusted://system-app-test/test_data/message_pipe_browsertest_untrusted.js',
+    'at MessagePipe.callHandlerForMessageType_ \\(decentr-untrusted://system-app-test/',
+    'at MessagePipe.receiveMessage_ \\(decentr-untrusted://system-app-test/',
+    'at MessagePipe.messageListener_ \\(decentr-untrusted://system-app-test/'
   ]);
   testDone();
 });
@@ -184,15 +184,15 @@ TEST_F('MessagePipeBrowserTest', 'CrossContextErrors', async () => {
   assertMatchErrorStack(caughtError.stack, [
     // Error stack of the test context.
     'Error: request-bad-handler: bad-handler: This is an error from trusted',
-    'at MessagePipe.sendMessage \\(chrome://system-app-test/',
+    'at MessagePipe.sendMessage \\(decentr://system-app-test/',
     'at async MessagePipeBrowserTest',
     // Error stack of the untrusted context.
-    'Error from chrome-untrusted://system-app-test',
+    'Error from decentr-untrusted://system-app-test',
     'Error: bad-handler: This is an error from trusted',
-    'at MessagePipe.sendMessage \\(chrome-untrusted://system-app-test/',
-    'at async MessagePipe.callHandlerForMessageType_ \\(chrome-untrusted://system-app-test/',
+    'at MessagePipe.sendMessage \\(decentr-untrusted://system-app-test/',
+    'at async MessagePipe.callHandlerForMessageType_ \\(decentr-untrusted://system-app-test/',
     // Error stack of the trusted context.
-    'Error from chrome://system-app-test',
+    'Error from decentr://system-app-test',
     'Error: This is an error from trusted', 'at .*message_pipe_browsertest.js',
     'at MessagePipe.callHandlerForMessageType_',
     'at MessagePipe.receiveMessage_', 'at MessagePipe.messageListener_'

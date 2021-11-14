@@ -328,7 +328,7 @@ class UserAgentResponseProvider : public web::DataResponseProvider {
 
 // Tests that requesting desktop site button is not enabled on WebUI pages.
 - (void)testRequestDesktopSiteNotEnabledOnWebUIPage {
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   // Verify tapping on request desktop button is no-op.
   [ChromeEarlGreyUI openToolsMenu];

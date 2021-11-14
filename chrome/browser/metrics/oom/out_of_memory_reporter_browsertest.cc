@@ -264,7 +264,7 @@ IN_PROC_BROWSER_TEST_F(MAYBE_OutOfMemoryReporterPrerenderBrowserTest,
   PrerenderHostObserver host_observer(*web_contents(), host_id);
   // Exhaust renderer process memory of the prerendered page. We execute script
   // that does as similar thing as blink::kChromeUIMemoryExhaustURL because
-  // there are various throttles to prevent loading chrome:// URLs for
+  // there are various throttles to prevent loading decentr:// URLs for
   // prerendering.
   ExecuteScriptAsync(prerender_rfh,
                      "const x = [];"

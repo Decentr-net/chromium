@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// #import {assertNotReached} from 'chrome://resources/js/assert.m.js';
+// #import {assertNotReached} from 'decentr://resources/js/assert.m.js';
 // #import {ButtonBarState} from "./cellular_types.m.js";
 
 /**

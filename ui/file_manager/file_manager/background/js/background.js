@@ -586,7 +586,7 @@ let nextFileManagerDialogID = 0;
 
 /** @const {!string} */
 const GPLUS_PHOTOS_APP_ORIGIN =
-    'chrome-extension://efjnaogkjbogokcnohkmnjdojkikgobo';
+    'decentr-extension://efjnaogkjbogokcnohkmnjdojkikgobo';
 
 /**
  * Singleton instance of Background object.

@@ -1397,7 +1397,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2431027948063157455">"Asistenti i Google" nuk ishte në gjendje të ngarkohej, kontrollo lidhjen e rrjetit provo sërish.</translation>
 <translation id="243179355394256322">Organizata jote e kufizon regjistrimin e pajisjes vetëm për përdoruesit e autorizuar. Ky përdorues nuk është i autorizuar për të regjistruar pajisje. Sigurohu që përdoruesi të ketë privilegjin e administratorit "Regjistro harduerin e Google Meet" në seksionin "Përdoruesit" të panelit të administratorit.</translation>
 <translation id="243275146591958220">Anulo shkarkimin</translation>
-<translation id="2433452467737464329">Shto një parametër pyetjeje në URL për të rifreskuar automatikisht faqen: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Shto një parametër pyetjeje në URL për të rifreskuar automatikisht faqen: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Pamja</translation>
 <translation id="2433836460518180625">Shkyç vetëm pajisjen</translation>
 <translation id="2434449159125086437">Printeri nuk mund të konfigurohet. Kontrollo konfigurimin dhe provo përsëri.</translation>
@@ -1925,7 +1925,7 @@ Për ndihmë lidhur me zgjidhjen e problemeve të transmetimit, drejtohu te <ph 
 <translation id="2959127025785722291">Ndodhi një gabim. Skanimi nuk mund të përfundohej. Provo përsëri.</translation>
 <translation id="2959842337402130152">Nuk mund të restaurohet për shkak të mungesës së hapësirës ruajtëse. Liro <ph name="SPACE_REQUIRED" /> nga pajisja dhe provo përsëri.</translation>
 <translation id="2960208947600937804">Ndodhi një gabim gjatë konfigurimit të Linux. Kontakto me administratorin tënd.</translation>
-<translation id="296026337010986570">U krye! Softueri keqdashës u hoq. Për të riaktivizuar shtesat, vizito &lt;a href="chrome://extensions"&gt;Shtesat.&lt;/a&gt;</translation>
+<translation id="296026337010986570">U krye! Softueri keqdashës u hoq. Për të riaktivizuar shtesat, vizito &lt;a href="decentr://extensions"&gt;Shtesat.&lt;/a&gt;</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (shtesa e dhënë)</translation>
 <translation id="2961210776189273067">Titulli</translation>
 <translation id="2961695502793809356">Kliko për të shkuar përpara, mbaje shtypur për të parë historikun</translation>
@@ -4926,7 +4926,7 @@ Mund të caktosh shumë çelësa për këtë veprim.</translation>
 <translation id="6227280783235722609">shtesë</translation>
 <translation id="6229849828796482487">Shkëput rrjetin Wi-Fi</translation>
 <translation id="6231782223312638214">Sugjerimet</translation>
-<translation id="6231881193380278751">Shto një parametër të kërkesës në URL për të rifreskuar automatikisht faqen: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Shto një parametër të kërkesës në URL për të rifreskuar automatikisht faqen: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Bateria</translation>
 <translation id="6232116551750539448">Lidhja me <ph name="NAME" /> ka humbur</translation>
 <translation id="6233154960150021497">Cakto si parazgjedhje përdorimin e zërit në vend të tastierës</translation>

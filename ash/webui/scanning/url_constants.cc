@@ -7,6 +7,6 @@
 namespace ash {
 
 const char kChromeUIScanningAppHost[] = "scanning";
-const char kChromeUIScanningAppUrl[] = "chrome://scanning";
+const char kChromeUIScanningAppUrl[] = "decentr://scanning";
 
 }  // namespace ash

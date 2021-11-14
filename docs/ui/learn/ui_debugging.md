@@ -6,7 +6,7 @@ developer tools and their usages.
 
 ## UI Debugging Shortcuts
 
-After enabling `ui-debug-tools` flag from `chrome://flags`, developers will be
+After enabling `ui-debug-tools` flag from `decentr://flags`, developers will be
 able to use the following keyboard shortcuts:
 
 | Actions             | Shortcuts |
@@ -21,11 +21,11 @@ able to use the following keyboard shortcuts:
 UI DevTools is a set of graphical inspection and debugging tools for Chromium
 native UI. They largely resemble the Web DevTools used by Web developers.
 There are two ways to enable the tools:
-* Enable `ui-debug-tools` flag from `chrome://flags`
+* Enable `ui-debug-tools` flag from `decentr://flags`
 * Execute chromium/chrome with `--enable-ui-devtools` command line flag
 
 Once being enabled, UI DevTools can be launched through a button on
-`chrome://inspect#native-ui` page. Thus, UI developers are able to
+`decentr://inspect#native-ui` page. Thus, UI developers are able to
 examine the UI structure, individual view's layout and properties etc.
 
 Detailed usage information and feature tutorials can be found in this [doc](https://chromium.googlesource.com/chromium/src/+/main/docs/ui/ui_devtools/index.md).

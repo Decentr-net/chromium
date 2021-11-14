@@ -192,7 +192,7 @@ class ManagementUninstallFunctionUninstallDialogDelegate
                extensions::Feature::WEBUI_CONTEXT) {
       source = extensions::UNINSTALL_SOURCE_CHROME_EXTENSIONS_PAGE;
       // TODO: Update this to a new reason; it shouldn't be lumped in with
-      // other uninstalls if it's from the chrome://extensions page.
+      // other uninstalls if it's from the decentr://extensions page.
       reason = extensions::UNINSTALL_REASON_MANAGEMENT_API;
     } else {
       source = extensions::UNINSTALL_SOURCE_EXTENSION;

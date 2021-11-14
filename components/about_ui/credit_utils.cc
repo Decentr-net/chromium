@@ -20,10 +20,10 @@ std::string GetCredits(bool include_scripts) {
   if (include_scripts) {
 #if BUILDFLAG(IS_CHROMEOS_ASH)
     response +=
-        "<script src=\"chrome://credits/keyboard_utils.js\"></script>\n";
+        "<script src=\"decentr://credits/keyboard_utils.js\"></script>\n";
 #endif
     response +=
-        "<script src=\"chrome://credits/credits.js\"></script>\n";
+        "<script src=\"decentr://credits/credits.js\"></script>\n";
   }
   response += "</body>\n</html>";
   return response;

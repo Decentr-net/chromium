@@ -20,7 +20,7 @@ testing::AssertionResult EnsurePDFHasLoaded(
           frame,
           R"(window.addEventListener('message', event => {
             if (event.origin !==
-                    'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai') {
+                    'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai') {
               return;
             }
             if (event.data.type === 'documentLoaded') {

@@ -200,7 +200,7 @@ testcase.zipFileOpenDownloadsEncryptedCancelPassphrase = async () => {
 
   const zipArchiverAppId = 'dmboannefpncccogfdikhmhpmdnddgoe';
   const zipArchiverPassphraseDialogUrl =
-      'chrome-extension://dmboannefpncccogfdikhmhpmdnddgoe/html/passphrase.html';
+      'decentr-extension://dmboannefpncccogfdikhmhpmdnddgoe/html/passphrase.html';
 
   const passphraseCloseScript = `
       function clickClose() {

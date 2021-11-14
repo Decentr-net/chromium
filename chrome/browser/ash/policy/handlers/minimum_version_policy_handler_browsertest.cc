@@ -649,7 +649,7 @@ IN_PROC_BROWSER_TEST_F(MinimumVersionPolicyTest, EolNotificationClick) {
   ASSERT_TRUE(settings_browser);
   EXPECT_EQ(
       settings_browser->tab_strip_model()->GetActiveWebContents()->GetURL(),
-      "chrome://management/");
+      "decentr://management/");
 }
 
 IN_PROC_BROWSER_TEST_F(MinimumVersionPolicyTest, RelaunchNotificationOverride) {

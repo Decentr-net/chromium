@@ -19,7 +19,7 @@ class HelpAppUIDelegate {
  public:
   virtual ~HelpAppUIDelegate() = default;
 
-  // Opens the native chrome feedback dialog scoped to chrome://help-app.
+  // Opens the native chrome feedback dialog scoped to decentr://help-app.
   // Returns an optional error message if unable to open the dialog or nothing
   // if the dialog was determined to have opened successfully.
   virtual absl::optional<std::string> OpenFeedbackDialog() = 0;

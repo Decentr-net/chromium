@@ -31,7 +31,7 @@ TabSwitcherItem* CreateItem(web::WebState* web_state) {
   TabIdTabHelper* tab_helper = TabIdTabHelper::FromWebState(web_state);
   TabSwitcherItem* item =
       [[TabSwitcherItem alloc] initWithIdentifier:tab_helper->tab_id()];
-  // chrome://newtab (NTP) tabs have no title.
+  // decentr://newtab (NTP) tabs have no title.
   if (IsURLNtp(web_state->GetVisibleURL())) {
     item.hidesTitle = YES;
   }

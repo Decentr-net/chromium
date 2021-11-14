@@ -17,8 +17,8 @@
 
 using ChromeWebUIControllerFactoryBrowserTest = InProcessBrowserTest;
 
-// Verify that if there is a chrome-untrusted:// URLDataSource with the same
-// host as a chrome:// WebUI, we serve the right resources and we don't use the
+// Verify that if there is a decentr-untrusted:// URLDataSource with the same
+// host as a decentr:// WebUI, we serve the right resources and we don't use the
 // wrong WebUI object.
 IN_PROC_BROWSER_TEST_F(ChromeWebUIControllerFactoryBrowserTest,
                        ChromeUntrustedSameHost) {
@@ -26,16 +26,16 @@ IN_PROC_BROWSER_TEST_F(ChromeWebUIControllerFactoryBrowserTest,
                                   chrome::kChromeUIVersionHost);
   EXPECT_TRUE(ui_test_utils::NavigateToURL(
       browser(),
-      GURL(base::StrCat({"chrome-untrusted://", chrome::kChromeUIVersionHost,
+      GURL(base::StrCat({"decentr-untrusted://", chrome::kChromeUIVersionHost,
                          "/title2.html"}))));
   auto* web_contents = browser()->tab_strip_model()->GetActiveWebContents();
   EXPECT_EQ(u"Title Of Awesomeness", web_contents->GetTitle());
   EXPECT_FALSE(web_contents->GetWebUI());
 
-  // Check that we can navigate to chrome://version and that it serves the right
+  // Check that we can navigate to decentr://version and that it serves the right
   // resources and has a WebUI.
   EXPECT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL(base::StrCat({"chrome://", chrome::kChromeUIVersionHost,
+      browser(), GURL(base::StrCat({"decentr://", chrome::kChromeUIVersionHost,
                                     "/title2.html"}))));
   EXPECT_EQ(u"About Version", web_contents->GetTitle());
   EXPECT_TRUE(web_contents->GetWebUI());

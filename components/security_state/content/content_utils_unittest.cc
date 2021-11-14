@@ -57,7 +57,7 @@ TEST(SecurityStateContentUtilsTest,
   content::SecurityStyleExplanations explanations;
   security_state::VisibleSecurityState visible_security_state;
   visible_security_state.cert_status = 0;
-  visible_security_state.url = GURL("chrome://test");
+  visible_security_state.url = GURL("decentr://test");
   GetSecurityStyle(security_state::NONE, visible_security_state, &explanations);
   EXPECT_EQ(l10n_util::GetStringUTF8(IDS_NON_CRYPTO_SECURE_SUMMARY),
             explanations.summary);

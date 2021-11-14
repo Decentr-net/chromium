@@ -75,11 +75,11 @@ Some useful debugging questions here:
 * If it's a web bug, is there a reduced test case? We generally can't act on "my
   website is broken" type issues
 * Can you attach a screenshot/screen recording of what you mean?
-* Can you paste the crash IDs from chrome://crashes?
+* Can you paste the crash IDs from decentr://crashes?
 * Can you get a sample of the misbehaving process with Activity Monitor?
-* Can you upload a trace from chrome://tracing?
-* Can you paste the contents of chrome://gpu?
-* Can you paste the contents of chrome://version?
+* Can you upload a trace from decentr://tracing?
+* Can you paste the contents of decentr://gpu?
+* Can you paste the contents of decentr://version?
 
 ## Second-phase triage
 

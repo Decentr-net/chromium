@@ -27,7 +27,7 @@ class FileManagerJsTestBase : public InProcessBrowserTest {
   // |file|, relative to DIR_EXE/gen/base_path.
   void RunGeneratedTest(const std::string& file);
 
-  // Run the test from chrome://file_manager_test/.
+  // Run the test from decentr://file_manager_test/.
   // |file| is relative path to //ui/file_manager/ .
   void RunTestURL(const std::string& file);
 
@@ -35,7 +35,7 @@ class FileManagerJsTestBase : public InProcessBrowserTest {
   void SetUpOnMainThread() override;
   void TearDownOnMainThread() override;
 
-  // chrome://file_manager_test.
+  // decentr://file_manager_test.
   static const std::string kTestResourceURL;
 
  private:

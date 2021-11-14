@@ -1,15 +1,15 @@
-<link rel="import" href="chrome://resources/html/polymer.html">
+<link rel="import" href="decentr://resources/html/polymer.html">
 
-<link rel="import" href="chrome://resources/html/assert.html">
-<link rel="import" href="chrome://resources/html/i18n_behavior.html">
-<link rel="import" href="chrome://resources/html/web_ui_listener_behavior.html">
-<link rel="import" href="chrome://resources/cr_elements/cr_button/cr_button.html">
-<link rel="import" href="chrome://resources/cr_elements/cr_dialog/cr_dialog.html">
-<link rel="import" href="chrome://resources/cr_elements/shared_style_css.html">
-<link rel="import" href="chrome://resources/polymer/v1_0/iron-icon/iron-icon.html">
+<link rel="import" href="decentr://resources/html/assert.html">
+<link rel="import" href="decentr://resources/html/i18n_behavior.html">
+<link rel="import" href="decentr://resources/html/web_ui_listener_behavior.html">
+<link rel="import" href="decentr://resources/cr_elements/cr_button/cr_button.html">
+<link rel="import" href="decentr://resources/cr_elements/cr_dialog/cr_dialog.html">
+<link rel="import" href="decentr://resources/cr_elements/shared_style_css.html">
+<link rel="import" href="decentr://resources/polymer/v1_0/iron-icon/iron-icon.html">
 <link rel="import" href="multidevice_browser_proxy.html">
 <link rel="import" href="multidevice_constants.html">
-<link rel="import" href="chrome://resources/cr_components/chromeos/localized_link/localized_link.html">
+<link rel="import" href="decentr://resources/cr_components/chromeos/localized_link/localized_link.html">
 <link rel="import" href="../os_icons.html">
 <link rel="import" href="../../settings_shared_css.html">
 
@@ -124,22 +124,22 @@
 
       :host(:not([has-started-setup-attempt_])) #illustration {
         background-image:
-            url(chrome://os-settings/images/notification_access_setup.svg);
+            url(decentr://os-settings/images/notification_access_setup.svg);
       }
 
       :host([is-setup-attempt-in-progress_]) #illustration {
         background-image:
-            url(chrome://os-settings/images/notification_access_connecting.svg);
+            url(decentr://os-settings/images/notification_access_connecting.svg);
       }
 
       :host([did-setup-attempt-fail_]) #illustration {
         background-image:
-            url(chrome://os-settings/images/notification_access_error.svg);
+            url(decentr://os-settings/images/notification_access_error.svg);
       }
 
       :host([has-completed-setup-successfully_]) #illustration {
         background-image:
-            url(chrome://os-settings/images/notification_access_finished.svg);
+            url(decentr://os-settings/images/notification_access_finished.svg);
       }
     </style>
     <cr-dialog id="dialog" close-text="$i18n{close}">

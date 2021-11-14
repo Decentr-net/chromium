@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserService, listenForPrivilegedLinkClicks} from 'chrome://history/history.js';
-import {$} from 'chrome://resources/js/util.m.js';
-import {TestBrowserService} from 'chrome://test/history/test_browser_service.js';
+import {BrowserService, listenForPrivilegedLinkClicks} from 'decentr://history/history.js';
+import {$} from 'decentr://resources/js/util.m.js';
+import {TestBrowserService} from 'decentr://test/history/test_browser_service.js';
 
 suite('listenForPrivilegedLinkClicks unit test', function() {
   test('click handler', async () => {

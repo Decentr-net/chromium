@@ -1415,7 +1415,7 @@
 <translation id="2431027948063157455">Google অ্যাসিস্ট্যান্চ লোড করা যায়নি, আপনার ইন্টারনেট সংযোগ দেখে নিয়ে আবার চেষ্টা করুন।</translation>
 <translation id="243179355394256322">আপনার সংস্থাটি কেবল অনুমোদিত ব্যবহারকারীদের মধ্যেই ডিভাইস নথিভুক্ত করার বিষয়টি সীমাবদ্ধ করে। এই ব্যবহারকারীর ডিভাইসের নাম প্রবেশ করার অনুমতি নেই। অ্যাডমিন কনসোলের ব্যবহারকারী বিভাগে ব্যবহারকারীর "Google Meet হার্ডওয়্যার নথিভুক্ত করুন" বিভাগে অ্যাডমিনিস্ট্রেটর সুবিধা রয়েছে কিনা তা নিশ্চিত করুন।</translation>
 <translation id="243275146591958220">ডাউনলোড বাতিল করুন</translation>
-<translation id="2433452467737464329">এই পৃষ্ঠাটিকে অটো-রিফ্রেশ করতে URL-এ একটি কোয়েরি param যোগ করুন: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">এই পৃষ্ঠাটিকে অটো-রিফ্রেশ করতে URL-এ একটি কোয়েরি param যোগ করুন: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">উপস্থিতি</translation>
 <translation id="2433836460518180625">শুধুমাত্র ডিভাইস আনলক করুন</translation>
 <translation id="2434449159125086437">প্রিন্টার সেট-আপ করা যাচ্ছে না। কনফিগারেশন চেক করে আবার চেষ্টা করুন।</translation>
@@ -1943,7 +1943,7 @@
 <translation id="2959127025785722291">কিছু সমস্যা হয়েছে। স্ক্যানিং সম্পূর্ণ করা যায়নি। আবার চেষ্টা করুন।</translation>
 <translation id="2959842337402130152">স্টোরেজের জায়গা নেই বলে ফিরিয়ে আনা যায়নি। ডিভাইসে <ph name="SPACE_REQUIRED" /> জায়গা খালি করে আবার চেষ্টা করুন।</translation>
 <translation id="2960208947600937804">Linux কনফিগার করার সময় কোনও সমস্যা হয়েছে। আপনার অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।</translation>
-<translation id="296026337010986570">হয়ে গেছে! ক্ষতিকারক সফ্টওয়্যার সরানো হয়েছে। এক্সটেনশন আবার চালু করতে, &lt;a href="chrome://extensions"&gt;এক্সটেনশন&lt;/a&gt; -এ যান।</translation>
+<translation id="296026337010986570">হয়ে গেছে! ক্ষতিকারক সফ্টওয়্যার সরানো হয়েছে। এক্সটেনশন আবার চালু করতে, &lt;a href="decentr://extensions"&gt;এক্সটেনশন&lt;/a&gt; -এ যান।</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (এক্সটেনশন থেকে প্রদান করা)</translation>
 <translation id="2961210776189273067">সম্বোধন</translation>
 <translation id="2961695502793809356">এগিয়ে যাওয়ার জন্য ক্লিক করুন, ইতিহাস দেখার জন্য ধরে রাখুন</translation>
@@ -4945,7 +4945,7 @@
 <translation id="6227280783235722609">এক্সটেনশন</translation>
 <translation id="6229849828796482487">ওয়াই-ফাই নেটওয়ার্ক ডিসকানেক্ট করুন</translation>
 <translation id="6231782223312638214">সুপারিশকৃত</translation>
-<translation id="6231881193380278751">পৃষ্ঠাটি অটো-রিফ্রেশ করতে URL-এ কোনো কোয়েরি param যোগ করুন: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">পৃষ্ঠাটি অটো-রিফ্রেশ করতে URL-এ কোনো কোয়েরি param যোগ করুন: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">ব্যাটারি: %</translation>
 <translation id="6232116551750539448"><ph name="NAME" /> এর সাথে সংযোগ বিচ্ছিন্ন হয়েছে</translation>
 <translation id="6233154960150021497">সাধারণভাবে কিবোর্ডের পরিবর্তে ভয়েস ব্যবহার</translation>

@@ -2,10 +2,10 @@
  * Use of this source code is governed by a BSD-style license that can be
  * found in the LICENSE file. */
 
-import {addWebUIListener, sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {TabBox} from 'chrome://resources/js/cr/ui/tabs.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener, sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {TabBox} from 'decentr://resources/js/cr/ui/tabs.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 decorate('tabbox', TabBox);
 

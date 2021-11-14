@@ -123,7 +123,7 @@ The [Help Center](https://support.google.com/chrome/?p=cpn_incognito) explains
 what privacy protections Incognito mode attempts to enforce. In particular,
 please note that Incognito is not a “do not track” mode, and it does not hide
 aspects of your identity from web sites. Chrome does offer a way to send Do Not
-Track request to servers; see chrome://settings/?search=do+not+track
+Track request to servers; see decentr://settings/?search=do+not+track
 
 When in Incognito mode, Chrome does not store any new history, cookies, or other
 state in non-volatile storage. However, Incognito windows will be able to access
@@ -202,9 +202,9 @@ physical control over **your** computer, in certain circumstances.
 *    Take advantage of your operating system’s screen lock feature.
 *    You can reduce the amount of information (including credentials like
      cookies and passwords) that Chrome will store locally by using Chrome's
-     Content Settings (chrome://settings/content) and turning off the form
+     Content Settings (decentr://settings/content) and turning off the form
      auto-fill and password storage features
-     ([chrome://settings/search#password](chrome://settings/search#password)).
+     ([decentr://settings/search#password](decentr://settings/search#password)).
 
 There is almost nothing you can do to mitigate risks when using a **public**
 computer.
@@ -514,7 +514,7 @@ port) patterns:
 *    (*, 127/8, *)
 *    (*, ::1/128, *)
 *    (file, *, —)
-*    (chrome-extension, *, —)
+*    (decentr-extension, *, —)
 
 That is, secure origins are those that load resources either from the local
 machine (necessarily trusted) or over the network from a

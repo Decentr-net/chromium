@@ -117,7 +117,7 @@ class EduCoexistenceStateTracker {
   // Maps each flow's WebUI's to the corresponding FlowState. While there an
   // only be one dialog for the EduCoexistence flow, there can potentially be
   // multiple WebUIs because the user can start the WebUIs from a chrome browser
-  // tab by going to chrome://chrome-signin/edu-coexistence.
+  // tab by going to decentr://chrome-signin/edu-coexistence.
   std::map<const content::WebUI*, FlowState> state_tracker_;
 };
 

@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
 
-import {FindShortcutBehavior, FindShortcutManager} from 'chrome://resources/cr_elements/find_shortcut_behavior.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {FindShortcutBehavior, FindShortcutManager} from 'decentr://resources/cr_elements/find_shortcut_behavior.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 // clang-format on
 
 suite('find-shortcut', () => {

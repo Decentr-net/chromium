@@ -244,7 +244,7 @@ IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest,
   EXPECT_FALSE(orig_site_instance->IsRelatedSiteInstance(new_site_instance));
 }
 
-// Tests that navigating from chrome:// to chrome-untrusted:// results in
+// Tests that navigating from decentr:// to decentr-untrusted:// results in
 // SiteInstance swap.
 IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, ForceSwapOnFromChromeToUntrusted) {
   WebContents* web_contents = shell()->web_contents();
@@ -264,7 +264,7 @@ IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, ForceSwapOnFromChromeToUntrusted) {
       web_contents->GetSiteInstance());
   auto orig_browsing_instance_id = orig_site_instance->GetBrowsingInstanceId();
 
-  // Navigate to chrome-untrusted:// and ensure that the SiteInstance
+  // Navigate to decentr-untrusted:// and ensure that the SiteInstance
   // has changed and the new process has no WebUI bindings.
   ASSERT_TRUE(NavigateToURL(web_contents,
                             GetChromeUntrustedUIURL("test-host/title1.html")));
@@ -276,7 +276,7 @@ IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, ForceSwapOnFromChromeToUntrusted) {
       web_contents->GetMainFrame()->GetProcess()->GetID()));
 }
 
-// Tests that navigating from chrome-untrusted:// to chrome:// results in
+// Tests that navigating from decentr-untrusted:// to decentr:// results in
 // SiteInstance swap.
 IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, ForceSwapOnFromUntrustedToChrome) {
   WebContents* web_contents = shell()->web_contents();
@@ -396,7 +396,7 @@ IN_PROC_BROWSER_TEST_F(WebUIRequiringGestureBrowserTest,
   EXPECT_EQ(2, test_handler()->message_requiring_gesture_count());
 }
 
-// Verify that we can successfully navigate to a chrome-untrusted:// URL.
+// Verify that we can successfully navigate to a decentr-untrusted:// URL.
 IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, UntrustedSchemeLoads) {
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>("test-host"));
@@ -407,7 +407,7 @@ IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, UntrustedSchemeLoads) {
   EXPECT_EQ(u"Title Of Awesomeness", web_contents->GetTitle());
 }
 
-// Verify that we can successfully navigate to a chrome-untrusted:// URL
+// Verify that we can successfully navigate to a decentr-untrusted:// URL
 // without a crash while WebUI::Send is being performed.
 // TODO(crbug.com/1221528): Enable this test once a root cause is identified.
 IN_PROC_BROWSER_TEST_F(WebUIImplBrowserTest, DISABLED_NavigateWhileWebUISend) {
@@ -585,13 +585,13 @@ class WebUIWorkerTest : public ContentBrowserTest {
 
     if (allow_embedded_frame) {
       // Allow the frame to be embedded in the chrome main page.
-      headers.frame_ancestors.emplace().push_back("chrome://trusted");
+      headers.frame_ancestors.emplace().push_back("decentr://trusted");
     }
 
     // These two lines are to avoid:
     // "TypeError: Failed to construct 'SharedWorker': This document requires
     // 'TrustedScriptURL' assignment."
-    headers.script_src = "worker-src chrome-untrusted://untrusted;";
+    headers.script_src = "worker-src decentr-untrusted://untrusted;";
     headers.no_trusted_types = true;
 
     untrusted_factory().add_web_ui_config(
@@ -645,7 +645,7 @@ INSTANTIATE_TEST_SUITE_P(All, WebUIDedicatedWorkerTest, testing::Bool());
 
 // TODO(crbug.com/154571): Shared workers are not available on Android.
 #if !defined(OS_ANDROID)
-// Verify that we can create SharedWorker with scheme "chrome://" under
+// Verify that we can create SharedWorker with scheme "decentr://" under
 // WebUI page.
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest, CanCreateWebUISharedWorkerForWebUI) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -655,8 +655,8 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest, CanCreateWebUISharedWorkerForWebUI) {
                       kLoadSharedWorkerScript));
 }
 
-// Verify that pages with scheme other than "chrome://" cannot create
-// SharedWorker with scheme "chrome://".
+// Verify that pages with scheme other than "decentr://" cannot create
+// SharedWorker with scheme "decentr://".
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                        CannotCreateWebUISharedWorkerForNonWebUI) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -670,7 +670,7 @@ Error: Failed to construct 'SharedWorker')";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
-// Test that we can start a Shared Worker from a chrome-untrusted:// iframe.
+// Test that we can start a Shared Worker from a decentr-untrusted:// iframe.
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                        CanCreateSharedWorkerFromUntrustedIframe) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -688,10 +688,10 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
   const GURL untrusted_worker_url(
       GetChromeUntrustedUIURL("untrusted/web_ui_shared_worker.js"));
 
-  // Navigate to a chrome:// main page.
+  // Navigate to a decentr:// main page.
   EXPECT_TRUE(NavigateToURL(web_contents, web_ui_url));
   auto* main_frame = web_contents->GetMainFrame();
-  // Add an iframe in chrome-untrusted://.
+  // Add an iframe in decentr-untrusted://.
   EXPECT_EQ(true,
             EvalJs(main_frame,
                    JsReplace("var frame = document.createElement('iframe');\n"
@@ -701,18 +701,18 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                    EXECUTE_SCRIPT_DEFAULT_OPTIONS, 1 /* world_id */));
   EXPECT_TRUE(WaitForLoadStop(web_contents));
 
-  // Get the chrome-untrusted:// iframe.
+  // Get the decentr-untrusted:// iframe.
   RenderFrameHost* child = ChildFrameAt(main_frame, 0);
   EXPECT_EQ(untrusted_iframe_url, child->GetLastCommittedURL());
 
-  // Start a shared worker from the chrome-untrusted iframe.
+  // Start a shared worker from the decentr-untrusted iframe.
   EXPECT_EQ(true, EvalJs(child,
                          JsReplace(kLoadSharedWorkerScript,
                                    untrusted_worker_url.spec().c_str()),
                          EXECUTE_SCRIPT_DEFAULT_OPTIONS, 1 /* world_id */));
 }
 
-// Test that we can create a shared worker from a chrome-untrusted:// main
+// Test that we can create a shared worker from a decentr-untrusted:// main
 // frame.
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                        CanCreateUntrustedWebUISharedWorkerForUntrustedWebUI) {
@@ -729,8 +729,8 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
   EXPECT_EQ(untrusted_page_url, shell()->web_contents()->GetLastCommittedURL());
 }
 
-// Verify that chrome:// pages cannot create a SharedWorker with scheme
-// "chrome-untrusted://".
+// Verify that decentr:// pages cannot create a SharedWorker with scheme
+// "decentr-untrusted://".
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                        CannotCreateUntrustedWebUISharedWorkerFromTrustedWebUI) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -741,13 +741,13 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
 
   std::string expected_failure =
       "a JavaScript error:\nError: Failed to construct 'SharedWorker': "
-      "Script at 'chrome-untrusted://untrusted/web_ui_shared_worker.js' cannot "
-      "be accessed from origin 'chrome://trusted'";
+      "Script at 'decentr-untrusted://untrusted/web_ui_shared_worker.js' cannot "
+      "be accessed from origin 'decentr://trusted'";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
-// Verify that pages with scheme other than "chrome-untrusted://" cannot create
-// a SharedWorker with scheme "chrome-untrusted://".
+// Verify that pages with scheme other than "decentr-untrusted://" cannot create
+// a SharedWorker with scheme "decentr-untrusted://".
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                        CannotCreateUntrustedWebUISharedWorkerForWebURL) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -759,13 +759,13 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
 
   std::string expected_failure =
       "a JavaScript error:\nError: Failed to construct 'SharedWorker': "
-      "Script at 'chrome-untrusted://untrusted/web_ui_shared_worker.js' cannot "
+      "Script at 'decentr-untrusted://untrusted/web_ui_shared_worker.js' cannot "
       "be accessed from origin 'http://localhost";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
-// Verify that pages with scheme "chrome-untrusted://" cannot create a
-// SharedWorker with scheme "chrome://".
+// Verify that pages with scheme "decentr-untrusted://" cannot create a
+// SharedWorker with scheme "decentr://".
 IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
                        CannotCreateWebUISharedWorkerForUntrustedPage) {
   SetUntrustedWorkerSrcToWebUIConfig(/*allow_embedded_frame=*/false);
@@ -776,14 +776,14 @@ IN_PROC_BROWSER_TEST_F(WebUIWorkerTest,
 
   std::string expected_failure =
       "a JavaScript error:\nError: Failed to construct 'SharedWorker': Script "
-      "at 'chrome://trusted/web_ui_shared_worker.js' cannot be accessed from "
-      "origin 'chrome-untrusted://untrusted'.";
+      "at 'decentr://trusted/web_ui_shared_worker.js' cannot be accessed from "
+      "origin 'decentr-untrusted://untrusted'.";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
 #endif  // !defined(OS_ANDROID)
 
-// Verify that we can create a Worker with scheme "chrome://" under WebUI page.
+// Verify that we can create a Worker with scheme "decentr://" under WebUI page.
 IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                        CanCreateWebUIDedicatedWorkerForWebUI) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -794,8 +794,8 @@ IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                 kLoadDedicatedWorkerScript));
 }
 
-// Verify that pages with scheme other than "chrome://" cannot create a Worker
-// with scheme "chrome://".
+// Verify that pages with scheme other than "decentr://" cannot create a Worker
+// with scheme "decentr://".
 IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                        CannotCreateWebUIDedicatedWorkerForNonWebUI) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -809,7 +809,7 @@ Error: Failed to construct 'Worker')";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
-// Test that we can start a Worker from a chrome-untrusted:// iframe.
+// Test that we can start a Worker from a decentr-untrusted:// iframe.
 IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                        CanCreateDedicatedWorkerFromUntrustedIframe) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -827,10 +827,10 @@ IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
   const GURL untrusted_worker_url(
       GetChromeUntrustedUIURL("untrusted/web_ui_dedicated_worker.js"));
 
-  // Navigate to a chrome:// main page.
+  // Navigate to a decentr:// main page.
   EXPECT_TRUE(NavigateToURL(web_contents, web_ui_url));
   auto* main_frame = web_contents->GetMainFrame();
-  // Add an iframe in chrome-untrusted://.
+  // Add an iframe in decentr-untrusted://.
   EXPECT_EQ(true,
             EvalJs(main_frame,
                    JsReplace("var frame = document.createElement('iframe');\n"
@@ -840,18 +840,18 @@ IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                    EXECUTE_SCRIPT_DEFAULT_OPTIONS, 1 /* world_id */));
   EXPECT_TRUE(WaitForLoadStop(web_contents));
 
-  // Get the chrome-untrusted:// iframe.
+  // Get the decentr-untrusted:// iframe.
   RenderFrameHost* child = ChildFrameAt(main_frame, 0);
   EXPECT_EQ(untrusted_iframe_url, child->GetLastCommittedURL());
 
-  // Start a worker from the chrome-untrusted iframe.
+  // Start a worker from the decentr-untrusted iframe.
   EXPECT_EQ(true, EvalJs(child,
                          JsReplace(kLoadDedicatedWorkerScript,
                                    untrusted_worker_url.spec().c_str()),
                          EXECUTE_SCRIPT_DEFAULT_OPTIONS, 1 /* world_id */));
 }
 
-// Test that we can create a Worker from a chrome-untrusted:// main frame.
+// Test that we can create a Worker from a decentr-untrusted:// main frame.
 IN_PROC_BROWSER_TEST_P(
     WebUIDedicatedWorkerTest,
     CanCreateUntrustedWebUIDedicatedWorkerForUntrustedWebUI) {
@@ -865,8 +865,8 @@ IN_PROC_BROWSER_TEST_P(
                 kLoadDedicatedWorkerScript));
 }
 
-// Verify that chrome:// pages cannot create a Worker with scheme
-// "chrome-untrusted://".
+// Verify that decentr:// pages cannot create a Worker with scheme
+// "decentr-untrusted://".
 IN_PROC_BROWSER_TEST_P(
     WebUIDedicatedWorkerTest,
     CannotCreateUntrustedWebUIDedicatedWorkerFromTrustedWebUI) {
@@ -878,13 +878,13 @@ IN_PROC_BROWSER_TEST_P(
 
   std::string expected_failure =
       "a JavaScript error:\nError: Failed to construct 'Worker': "
-      "Script at 'chrome-untrusted://untrusted/web_ui_dedicated_worker.js' "
-      "cannot be accessed from origin 'chrome://trusted'";
+      "Script at 'decentr-untrusted://untrusted/web_ui_dedicated_worker.js' "
+      "cannot be accessed from origin 'decentr://trusted'";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
-// Verify that pages with scheme other than "chrome-untrusted://" cannot create
-// a Worker with scheme "chrome-untrusted://".
+// Verify that pages with scheme other than "decentr-untrusted://" cannot create
+// a Worker with scheme "decentr-untrusted://".
 IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                        CannotCreateUntrustedWebUIDedicatedWorkerForWebURL) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -896,13 +896,13 @@ IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
 
   std::string expected_failure =
       "a JavaScript error:\nError: Failed to construct 'Worker': "
-      "Script at 'chrome-untrusted://untrusted/web_ui_dedicated_worker.js' "
+      "Script at 'decentr-untrusted://untrusted/web_ui_dedicated_worker.js' "
       "cannot be accessed from origin 'http://localhost";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 
-// Verify that pages with scheme "chrome-untrusted://" cannot create a Worker
-// with scheme "chrome://".
+// Verify that pages with scheme "decentr-untrusted://" cannot create a Worker
+// with scheme "decentr://".
 IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
                        CannotCreateWebUIDedicatedWorkerForUntrustedPage) {
   ASSERT_TRUE(embedded_test_server()->Start());
@@ -915,8 +915,8 @@ IN_PROC_BROWSER_TEST_P(WebUIDedicatedWorkerTest,
 
   std::string expected_failure =
       "a JavaScript error:\nError: Failed to construct 'Worker': Script "
-      "at 'chrome://trusted/web_ui_dedicated_worker.js' cannot be accessed "
-      "from origin 'chrome-untrusted://untrusted'.";
+      "at 'decentr://trusted/web_ui_dedicated_worker.js' cannot be accessed "
+      "from origin 'decentr-untrusted://untrusted'.";
   EXPECT_THAT(result.error, ::testing::StartsWith(expected_failure));
 }
 

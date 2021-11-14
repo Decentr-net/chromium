@@ -22,7 +22,7 @@ called which results in calling `ServiceWorkerTaskQueue::ActivateExtension`
 which calls `ServiceWorkerContext::RegisterServiceWorker`. During registration,
 [`script_url`](https://source.chromium.org/chromium/chromium/src/+/77dcc35a2a0b98d3913148149496b8dd0d3464cc:content/public/browser/service_worker_context.h;l=125) is set to the URL corresponding to the relative path from
 manifest.json's "background.service_worker" and scope is set to the extension
-root, i.e., chrome-extension://<extension_id>/.
+root, i.e., decentr-extension://<extension_id>/.
 
 When registering the service worker, the //extensions layer relies on the
 content layer’s guarantee that the registration is completed.
@@ -128,8 +128,8 @@ key in Manifest V3:
 
 ## Error reporting and handling
 For service worker-based extensions, when service worker registration fails, an
-error is displayed in chrome://extensions page. Runtime errors are also
-displayed in chrome://extensions page. When registering or starting a service
+error is displayed in decentr://extensions page. Runtime errors are also
+displayed in decentr://extensions page. When registering or starting a service
 worker fails, a detailed error code is propagated from the content layer to the
 //extensions layer, which enables the //extensions layer to display the error in
-chrome://extensions to give developers a hint about the issue.
+decentr://extensions to give developers a hint about the issue.

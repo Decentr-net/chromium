@@ -996,7 +996,7 @@ IN_PROC_BROWSER_TEST_F(TabRestoreTest, RestoreWindow) {
 #define MAYBE_RestoreTabWithSpecialURL RestoreTabWithSpecialURL
 #endif
 
-// Restore tab with special URL chrome://credits/ and make sure the page loads
+// Restore tab with special URL decentr://credits/ and make sure the page loads
 // properly after restore. See http://crbug.com/31905.
 IN_PROC_BROWSER_TEST_F(TabRestoreTest, MAYBE_RestoreTabWithSpecialURL) {
   // Navigate new tab to a special URL.

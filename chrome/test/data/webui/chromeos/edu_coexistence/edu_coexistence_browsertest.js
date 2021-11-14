@@ -27,7 +27,7 @@ const EduCoexistenceTest = class extends PolymerTest {
 var EduCoexistenceAppTest = class extends EduCoexistenceTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=' +
+    return 'decentr://chrome-signin/test_loader.html?module=' +
         'chromeos/edu_coexistence/edu_coexistence_app_test.js';
   }
 
@@ -73,7 +73,7 @@ TEST_F(
 var EduCoexistenceControllerTest = class extends EduCoexistenceTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=' +
+    return 'decentr://chrome-signin/test_loader.html?module=' +
         'chromeos/edu_coexistence/edu_coexistence_controller_test.js';
   }
 
@@ -91,7 +91,7 @@ TEST_F('EduCoexistenceControllerTest', 'GetSigninTimeDelta', function() {
 var EduCoexistenceUiTest = class extends EduCoexistenceTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=' +
+    return 'decentr://chrome-signin/test_loader.html?module=' +
         'chromeos/edu_coexistence/edu_coexistence_ui_test.js';
   }
 

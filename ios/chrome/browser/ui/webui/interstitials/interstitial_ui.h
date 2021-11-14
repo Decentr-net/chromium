@@ -9,7 +9,7 @@
 
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The WebUI handler for chrome://interstitials.
+// The WebUI handler for decentr://interstitials.
 class InterstitialUI : public web::WebUIIOSController {
  public:
   explicit InterstitialUI(web::WebUIIOS* web_ui, const std::string& host);

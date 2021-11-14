@@ -253,7 +253,7 @@ void VizProcessContextProvider::InitializeContext(
 
   command_buffer_ = std::make_unique<gpu::InProcessCommandBuffer>(
       task_executor,
-      GURL("chrome://gpu/VizProcessContextProvider::InitializeContext"));
+      GURL("decentr://gpu/VizProcessContextProvider::InitializeContext"));
   context_result_ = command_buffer_->Initialize(
       /*surface=*/nullptr, is_offscreen, surface_handle, attributes_,
       gpu_memory_buffer_manager, image_factory, gpu_channel_manager_delegate,

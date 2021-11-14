@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // <if expr="is_ios">
-import 'chrome://resources/js/ios/web_ui.js';
+import 'decentr://resources/js/ios/web_ui.js';
 // </if>
 
 import './about.js';
@@ -14,10 +14,10 @@ import './traffic_log.js';
 import './search.js';
 import './strings.m.js';
 import './invalidations.js';
-import {isWindows} from 'chrome://resources/js/cr.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {TabBox} from 'chrome://resources/js/cr/ui/tabs.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {isWindows} from 'decentr://resources/js/cr.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {TabBox} from 'decentr://resources/js/cr/ui/tabs.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 // Allow platform specific CSS rules.
 //

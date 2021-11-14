@@ -9,7 +9,7 @@ assert(is_chromeos, "Nearby Share is CrOS only")
 js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + [
-                    "browser_resolver_prefix_replacements=\"chrome://nearby/=../../chrome/browser/resources/nearby_share/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://nearby/=../../chrome/browser/resources/nearby_share/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                     "js_module_root=../../chrome/browser/resources/nearby_share/",

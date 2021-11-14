@@ -7,7 +7,7 @@
  * 'settings-privacy-review-promo' is an element representing a promo for the
  * privacy review feature.
  */
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {routes} from '../route.js';
 import {Router} from '../router.js';

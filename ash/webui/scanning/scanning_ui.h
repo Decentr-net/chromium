@@ -21,7 +21,7 @@ namespace ash {
 
 class ScanningAppDelegate;
 
-// The WebUI for chrome://scanning.
+// The WebUI for decentr://scanning.
 class ScanningUI : public ui::MojoWebUIController {
  public:
   using BindScanServiceCallback = base::RepeatingCallback<void(

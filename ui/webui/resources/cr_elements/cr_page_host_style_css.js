@@ -5,7 +5,7 @@
 import './shared_vars_css.m.js';
 const template = document.createElement('template');
 template.innerHTML = `
-<dom-module id="cr-page-host-style" assetpath="chrome://resources/">
+<dom-module id="cr-page-host-style" assetpath="decentr://resources/">
 {__html_template__}
 </dom-module>
 `;

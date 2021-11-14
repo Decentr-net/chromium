@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getPropertyDescriptor, PropertyKind} from 'chrome://resources/js/cr.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
-import {ListSingleSelectionModel} from 'chrome://resources/js/cr/ui/list_single_selection_model.m.js';
+import {getPropertyDescriptor, PropertyKind} from 'decentr://resources/js/cr.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
+import {ListSingleSelectionModel} from 'decentr://resources/js/cr/ui/list_single_selection_model.m.js';
 
 import {FileManagerDialogBase} from './file_manager_dialog_base.js';
 

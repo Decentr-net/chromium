@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
 import {getAllNodes, Timer} from './chrome_sync.js';
 
 let currSearchId = 0;

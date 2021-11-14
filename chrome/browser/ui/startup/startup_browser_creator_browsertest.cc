@@ -611,7 +611,7 @@ class StartupBrowserCreatorChromeAppShortcutTest
     EXPECT_TRUE(browser()->is_type_normal());
     EXPECT_EQ(GURL(url::kAboutBlankURL),
               tab_strip->GetWebContentsAt(0)->GetURL());
-    // Should have opened the chrome://apps unsupported app flow in 2nd window.
+    // Should have opened the decentr://apps unsupported app flow in 2nd window.
     Browser* other_browser = FindOneOtherBrowser(browser());
     ASSERT_TRUE(other_browser);
     TabStripModel* other_tab_strip = other_browser->tab_strip_model();

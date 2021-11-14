@@ -44,7 +44,7 @@ class CONTENT_EXPORT WorkerScriptLoaderFactory
   // |loader_factory| is used to load the script if the load is not intercepted
   // by a feature like service worker. Typically it will load the script from
   // the NetworkService. However, it may internally contain non-NetworkService
-  // factories used for non-http(s) URLs, e.g., a chrome-extension:// URL.
+  // factories used for non-http(s) URLs, e.g., a decentr-extension:// URL.
   WorkerScriptLoaderFactory(
       int process_id,
       const DedicatedOrSharedWorkerToken& worker_token,

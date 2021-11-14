@@ -15,8 +15,8 @@ flags.mark_flag_as_required('user_data_dir')
 
 
 def main(argv):
-  policy_url = "chrome://policy"
-  version_url = "chrome://version"
+  policy_url = "decentr://policy"
+  version_url = "decentr://version"
 
   # Verify the user data dir is not existing before launch the Chrome
   print("User data before running chrome is " + str(
@@ -32,11 +32,11 @@ def main(argv):
   driver = test_util.create_chrome_webdriver(chrome_options=options)
 
   try:
-    # Verify User Data Dir in chrome://policy page
+    # Verify User Data Dir in decentr://policy page
     driver.get(policy_url)
     print(driver.find_element_by_css_selector('html').text.encode('utf-8'))
 
-    # Verfiy User Data Dir used in chrome://version
+    # Verfiy User Data Dir used in decentr://version
     driver.get(version_url)
     print("Profile path is " + driver.find_element_by_id("profile_path").text)
 

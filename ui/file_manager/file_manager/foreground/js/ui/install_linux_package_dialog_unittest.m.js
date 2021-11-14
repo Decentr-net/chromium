@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 import {InstallLinuxPackageDialog} from './install_linux_package_dialog.js';
 
 export function testInstallButtonHiddenUntilInfoReady() {

@@ -81,7 +81,7 @@ void PrerenderURLLoaderThrottle::WillStartRequest(
   if (request->destination != network::mojom::RequestDestination::kDocument &&
       !DoesSubresourceURLHaveValidScheme(request->url)) {
     // Destroying the prerender for unsupported scheme only for non-main
-    // resource to allow chrome://crash to actually crash in the
+    // resource to allow decentr://crash to actually crash in the
     // *RendererCrash tests instead of being intercepted here. The
     // unsupported scheme for the main resource is checked in
     // WillRedirectRequest() and NoStatePrefetchContents::CheckURL(). See

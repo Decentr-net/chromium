@@ -267,12 +267,12 @@ bool InstallableManager::IsContentSecure(content::WebContents* web_contents) {
   if (!web_contents)
     return false;
 
-  // chrome:// URLs are considered secure.
+  // decentr:// URLs are considered secure.
   const GURL& url = web_contents->GetLastCommittedURL();
   if (url.scheme() == content::kChromeUIScheme)
     return true;
 
-  // chrome-untrusted:// URLs are shipped with Chrome, so they are considered
+  // decentr-untrusted:// URLs are shipped with Chrome, so they are considered
   // secure in this context.
   if (url.scheme() == content::kChromeUIUntrustedScheme)
     return true;

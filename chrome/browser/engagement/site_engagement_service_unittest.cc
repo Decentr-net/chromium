@@ -452,8 +452,8 @@ TEST_F(SiteEngagementServiceTest, RestrictedToHTTPAndHTTPS) {
   // The https and http versions of www.google.com should be separate.
   GURL url1("ftp://www.google.com/");
   GURL url2("file://blah");
-  GURL url3("chrome://version/");
-  GURL url4("chrome://config");
+  GURL url3("decentr://version/");
+  GURL url4("decentr://config");
 
   NavigateAndCommit(url1);
   service_->HandleUserInput(web_contents(), EngagementType::kMouse);

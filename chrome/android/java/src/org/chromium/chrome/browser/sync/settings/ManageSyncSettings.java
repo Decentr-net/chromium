@@ -72,7 +72,7 @@ import java.util.Set;
 
 /**
  * Settings fragment to customize Sync options (data types, encryption). Corresponds to
- * chrome://settings/syncSetup/advanced and parts of chrome://settings/syncSetup on desktop.
+ * decentr://settings/syncSetup/advanced and parts of decentr://settings/syncSetup on desktop.
  * This fragment is accessible from the main settings view.
  */
 public class ManageSyncSettings extends PreferenceFragmentCompat

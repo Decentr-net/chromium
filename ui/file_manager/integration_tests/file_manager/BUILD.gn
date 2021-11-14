@@ -56,8 +56,8 @@ js_type_check("closure_compile") {
   closure_flags = strict_error_checking_closure_args + [
                     "js_module_root=gen/ui/file_manager/",
                     "js_module_root=../../ui/file_manager/",
-                    "browser_resolver_prefix_replacements=\"chrome://test/=./\"",
-                    "browser_resolver_prefix_replacements=\"chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/=./file_manager/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://test/=./\"",
+                    "browser_resolver_prefix_replacements=\"decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/=./file_manager/\"",
                     "hide_warnings_for=third_party/",
                   ]
 }

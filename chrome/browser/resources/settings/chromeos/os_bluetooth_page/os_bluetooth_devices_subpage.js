@@ -12,7 +12,7 @@ import './os_paired_bluetooth_list.js';
 
 import {I18nBehavior, I18nBehaviorInterface} from '//resources/js/i18n_behavior.m.js';
 import {html, mixinBehaviors, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {getBluetoothConfig} from 'chrome://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
+import {getBluetoothConfig} from 'decentr://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
 
 const mojom = chromeos.bluetoothConfig.mojom;
 

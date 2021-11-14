@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, photosDescriptor, PhotosProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
-import {fakeMetricsPrivate, MetricsTracker} from 'chrome://test/new_tab_page/metrics_test_support.js';
-import {installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {isVisible} from 'chrome://test/test_util.js';
+import {$$, photosDescriptor, PhotosProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
+import {fakeMetricsPrivate, MetricsTracker} from 'decentr://test/new_tab_page/metrics_test_support.js';
+import {installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {isVisible} from 'decentr://test/test_util.js';
 
 suite('NewTabPageModulesPhotosModuleTest', () => {
   /** @type {!TestBrowserProxy} */

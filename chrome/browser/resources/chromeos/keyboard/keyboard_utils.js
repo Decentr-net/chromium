@@ -28,7 +28,7 @@ var keyboardHostOrigin;
  * @private
  */
 keyboard.onInitMessage_ = function(event) {
-  if (event.data == 'initialMessage' && event.origin == 'chrome://oobe') {
+  if (event.data == 'initialMessage' && event.origin == 'decentr://oobe') {
     keyboardHostWindow = event.source;
     keyboardHostOrigin = event.origin;
   }

@@ -678,7 +678,7 @@ TEST_F(WebStateImplTest, PolicyDeciderTest) {
     EXPECT_TRUE(policy_decision.ShouldCancelNavigation());
   }
 
-  NSURL* error_url = [NSURL URLWithString:@"chrome://invalid"];
+  NSURL* error_url = [NSURL URLWithString:@"decentr://invalid"];
   NSURLResponse* error_response =
       [[NSURLResponse alloc] initWithURL:error_url
                                 MIMEType:@"text/html"

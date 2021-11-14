@@ -501,7 +501,7 @@
 
       É possível definir exceções na política de lista de autorizações de URLs. Estas políticas estão limitadas a 1000 entradas; as entradas subsequentes são ignoradas.
 
-      Tenha em atenção que não é recomendado bloquear URLs "'chrome://*" internos, uma vez que isso pode causar erros inesperados.
+      Tenha em atenção que não é recomendado bloquear URLs "'decentr://*" internos, uma vez que isso pode causar erros inesperados.
 
       A partir de M73, pode bloquear URLs "javascript://*". Contudo, apenas é afetado o JavaScript introduzido na barra de endereço (ou, por exemplo, bookmarklets). Tenha em atenção que os URLs de JavaScript na página, com o comprimento de dados carregados dinamicamente, não estão sujeitos a esta política. Por exemplo, se bloquear "example.com/abc", a página "example.com" continua a poder carregar "example.com/abc" através de XMLHTTPRequest.
 
@@ -662,7 +662,7 @@
       reinício.</translation>
 <translation id="2138449619211358657">Esta política permite ao <ph name="PRODUCT_OS_NAME" /> ignorar qualquer proxy para autenticação do portal cativo.
 
-      Esta política só produz efeitos se estiver configurado um proxy (por exemplo, através da política, pelo utilizador em chrome://settings ou através de extensões).
+      Esta política só produz efeitos se estiver configurado um proxy (por exemplo, através da política, pelo utilizador em decentr://settings ou através de extensões).
 
       Se ativar esta definição, todas as páginas de autenticação do portal cativo (ou seja, todas as páginas Web desde a página de início de sessão do portal cativo até o <ph name="PRODUCT_NAME" /> detetar uma ligação à Internet com êxito) são apresentadas numa janela separada e são ignoradas todas as restrições e definições da política para o utilizador atual.
 
@@ -683,15 +683,15 @@
 <translation id="2170233653554726857">Ativar otimização WPAD</translation>
 <translation id="2176565653304920879">Quando esta política está definida, o fluxo da deteção automática do fuso horário é um dos seguintes, consoante o valor da definição:
 
-      Se estiver definida como TimezoneAutomaticDetectionUsersDecide, os utilizadores podem controlar a deteção automática do fuso horário ao utilizar controlos normais em chrome://settings.
+      Se estiver definida como TimezoneAutomaticDetectionUsersDecide, os utilizadores podem controlar a deteção automática do fuso horário ao utilizar controlos normais em decentr://settings.
 
-      Se estiver definida como TimezoneAutomaticDetectionDisabled, os controlos automáticos do fuso horário disponíveis em chrome://settings estão desativados. A deteção automática do fuso horário está sempre desativada.
+      Se estiver definida como TimezoneAutomaticDetectionDisabled, os controlos automáticos do fuso horário disponíveis em decentr://settings estão desativados. A deteção automática do fuso horário está sempre desativada.
 
-      Se estiver definida como TimezoneAutomaticDetectionIPOnly, os controlos do fuso horário disponíveis em chrome://settings estão desativados. A deteção automática do fuso horário está sempre ativada. A deteção do fuso horário utiliza o método apenas de IP para resolver a localização.
+      Se estiver definida como TimezoneAutomaticDetectionIPOnly, os controlos do fuso horário disponíveis em decentr://settings estão desativados. A deteção automática do fuso horário está sempre ativada. A deteção do fuso horário utiliza o método apenas de IP para resolver a localização.
 
-      Se estiver definida como TimezoneAutomaticDetectionSendWiFiAccessPoints, os controlos do fuso horário disponíveis em chrome://settings estão desativados. A deteção automática do fuso horário está sempre ativada. A lista de pontos de acesso Wi-Fi visíveis é sempre enviada para o servidor da API de geolocalização, de modo a permitir a deteção precisa do fuso horário.
+      Se estiver definida como TimezoneAutomaticDetectionSendWiFiAccessPoints, os controlos do fuso horário disponíveis em decentr://settings estão desativados. A deteção automática do fuso horário está sempre ativada. A lista de pontos de acesso Wi-Fi visíveis é sempre enviada para o servidor da API de geolocalização, de modo a permitir a deteção precisa do fuso horário.
 
-      Se estiver definida como TimezoneAutomaticDetectionSendAllLocationInfo, os controlos automáticos do fuso horário disponíveis em chrome://settings estão desativados. A deteção automática do fuso horário está sempre ativada. As informações da localização (tal como pontos de acesso Wi-Fi, torres de difusão alcançáveis, GPS) serão enviadas para um servidor para uma deteção precisa do fuso horário.
+      Se estiver definida como TimezoneAutomaticDetectionSendAllLocationInfo, os controlos automáticos do fuso horário disponíveis em decentr://settings estão desativados. A deteção automática do fuso horário está sempre ativada. As informações da localização (tal como pontos de acesso Wi-Fi, torres de difusão alcançáveis, GPS) serão enviadas para um servidor para uma deteção precisa do fuso horário.
 
       Se esta política não estiver definida, o comportamento é o mesmo como se TimezoneAutomaticDetectionUsersDecide estivesse definido.
 
@@ -1232,9 +1232,9 @@
       Se a política não for definida ou for definida como falsa, os conjuntos de cifras DHE no TLS não estão ativados. Caso contrário, pode ser definida como verdadeira para ativar os conjuntos de cifras DHE e manter a compatibilidade com um servidor desatualizado. Esta é uma medida temporária e é necessário voltar a configurar o servidor.
 
       É recomendado migrar os servidores para os conjuntos de cifras ECDHE. Se não estiverem disponíveis, certifique-se de que está ativado um conjunto de cifras que utilize a troca de chaves RSA.</translation>
-<translation id="3117706142826400449">Se estiver desativada, impede a Limpeza do Chrome de verificar a existência de software indesejado no sistema e de realizar limpezas. O acionamento manual da Limpeza do Chrome a partir de chrome://settings/cleanup está desativado.
+<translation id="3117706142826400449">Se estiver desativada, impede a Limpeza do Chrome de verificar a existência de software indesejado no sistema e de realizar limpezas. O acionamento manual da Limpeza do Chrome a partir de decentr://settings/cleanup está desativado.
 
-      Se estiver ativada ou por definir, a Limpeza do Chrome verifica periodicamente a existência de software indesejado no sistema e, caso encontre algum, pergunta ao utilizador se pretende removê-lo. O acionamento manual da Limpeza do Chrome a partir de chrome://settings está ativado.
+      Se estiver ativada ou por definir, a Limpeza do Chrome verifica periodicamente a existência de software indesejado no sistema e, caso encontre algum, pergunta ao utilizador se pretende removê-lo. O acionamento manual da Limpeza do Chrome a partir de decentr://settings está ativado.
 
       Esta política está apenas disponível em instâncias do Windows associadas a um domínio do <ph name="MS_AD_NAME" /> ou em instâncias do Windows 10 Pro ou Enterprise inscritas para gestão de dispositivos.</translation>
 <translation id="3152425128389603870">Disponibilizar o Ambiente de trabalho unificado e ativá-lo por predefinição</translation>
@@ -1282,7 +1282,7 @@
 Se esta definição estiver ativada ou por configurar, os utilizadores podem ativar o proxy do "cloud print" através da autenticação junto da respetiva Conta Google.
 
 Se esta definição estiver desativada, os utilizadores não podem ativar o proxy e o computador não poderá partilhar as impressoras nele instaladas com o <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Ativa uma página em chrome://password-change que permite aos utilizadores SAML alterarem as respetivas palavras-passe SAML enquanto têm sessão iniciada, o que garante que a palavra-passe SAML e a palavra-passe do ecrã de bloqueio do dispositivo se mantêm sincronizadas.
+<translation id="3312206664202507568">Ativa uma página em decentr://password-change que permite aos utilizadores SAML alterarem as respetivas palavras-passe SAML enquanto têm sessão iniciada, o que garante que a palavra-passe SAML e a palavra-passe do ecrã de bloqueio do dispositivo se mantêm sincronizadas.
 
       Esta política também ativa notificações que avisam os utilizadores SAML de que as suas palavras-passe SAML estão prestes a expirar, para estes poderem atuar imediatamente e alterarem a palavra-passe com a sessão iniciada.
       No entanto, estas notificações apenas podem ser apresentadas se as informações de validade da palavra-passe forem enviadas para o dispositivo pelo fornecedor de identidade SAML, durante o fluxo de início de sessão SAML.
@@ -2035,7 +2035,7 @@ Se esta definição estiver desativada, os utilizadores não podem ativar o prox
       Esta definição, SitePerProcess, pode ser utilizada para não permitir que os utilizadores recusem o comportamento predefinido de isolamento de todos os sites. Tenha em atenção que a política IsolateOrigins também pode ser útil para isolar origens adicionais mais detalhadas.
       Se a política estiver ativada, os utilizadores não poderão recusar o comportamento predefinido, que prevê que cada site seja executado no seu próprio processo.
       Se a política não for configurada ou estiver desativada, o utilizador poderá recusar o isolamento de site
-      (por exemplo, ao utilizar a entrada "Desativar isolamento de site" em chrome://flags).  Definir a política como desativada e/ou não configurar a política não desativa o isolamento de site.
+      (por exemplo, ao utilizar a entrada "Desativar isolamento de site" em decentr://flags).  Definir a política como desativada e/ou não configurar a política não desativa o isolamento de site.
       Na versão 76 e anteriores do <ph name="PRODUCT_OS_NAME" />, recomenda-se também a definição da política do dispositivo <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> para o mesmo valor. Se os valores especificados pelas duas políticas não coincidirem, poderá ocorrer um atraso ao iniciar uma sessão de utilizador enquanto o valor especificado pela Política do Utilizador é aplicado.
 
       NOTA: esta política não se aplica ao Android. Para ativar a política SitePerProcess no Android, utilize a definição da política SitePerProcessAndroid.
@@ -2901,7 +2901,7 @@ Se esta definição estiver desativada, os utilizadores não podem ativar o prox
 
           Se ativar esta definição, a página Novo separador é sempre utilizada como a página inicial e a localização do URL da página inicial é ignorada.
 
-          Se desativar esta definição, a página inicial do utilizador nunca é a página Novo separador, a menos que o respetivo URL seja definido como "chrome://newtab".
+          Se desativar esta definição, a página inicial do utilizador nunca é a página Novo separador, a menos que o respetivo URL seja definido como "decentr://newtab".
 
           Se ativar ou desativar esta definição, os utilizadores não poderão alterar o tipo de página inicial no <ph name="PRODUCT_NAME" />.
 
@@ -3073,7 +3073,7 @@ Se esta definição estiver desativada, os utilizadores não podem ativar o prox
 
       Se esta política estiver definida como falsa, o cliente DNS incorporado nunca será utilizado.
 
-      Se esta política não estiver definida, o cliente DNS incorporado será ativado por predefinição no MacOS, no Android (quando nem o DNS privado nem a VPN estiverem ativados) e no Chrome OS, e os utilizadores poderão alterar se o cliente DNS incorporado é utilizado ao editar chrome://flags ou especificar um sinalizador de linha de comandos.</translation>
+      Se esta política não estiver definida, o cliente DNS incorporado será ativado por predefinição no MacOS, no Android (quando nem o DNS privado nem a VPN estiverem ativados) e no Chrome OS, e os utilizadores poderão alterar se o cliente DNS incorporado é utilizado ao editar decentr://flags ou especificar um sinalizador de linha de comandos.</translation>
 <translation id="6843296367238757293">Esta política foi descontinuada. A sua utilização é desaconselhada. Leia mais em https://support.google.com/chrome/a/answer/7643500.</translation>
 <translation id="684856667300805181">Esta política foi removida no <ph name="PRODUCT_NAME" /> 68 e substituída por <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Esta política foi descontinuada e removida no M66, uma vez que era utilizada apenas para testes internos e representa um risco de segurança.
@@ -3688,7 +3688,7 @@ Se esta definição estiver desativada, os utilizadores não podem ativar o prox
 <translation id="7941975817681987555">Não prever ações de rede em nenhuma ligação de rede</translation>
 <translation id="7952007677054834789">Configura as páginas a carregar no arranque, a Página inicial predefinida e a página Novo separador predefinida no <ph name="PRODUCT_NAME" /> e impede que os utilizadores as alterem.
 
-      As definições da Página inicial do utilizador só são totalmente bloqueadas se definir que a Página inicial é a página Novo separador ou se a definir para ser um URL e especificar um URL para a página inicial. Se não especificar o URL da Página inicial, então o utilizador continua a poder definir a página inicial como a página Novo separador se especificar "chrome://newtab".
+      As definições da Página inicial do utilizador só são totalmente bloqueadas se definir que a Página inicial é a página Novo separador ou se a definir para ser um URL e especificar um URL para a página inicial. Se não especificar o URL da Página inicial, então o utilizador continua a poder definir a página inicial como a página Novo separador se especificar "decentr://newtab".
 
       A política "URLs a abrir no arranque" é ignorada, a não ser que selecione "Abrir uma lista de URLs" em "Ação no arranque".</translation>
 <translation id="7952958573604504839">Esta política foi descontinuada no M48 e substituída pela política <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, e removida no M54.

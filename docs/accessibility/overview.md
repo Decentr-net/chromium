@@ -201,7 +201,7 @@ of Chromium's multi-process architecture. More on this below.
 
 Developers can inspect the accessibility tree in several ways:
 
-* By navigating to [chrome://accessibility/](chrome://accessibility)
+* By navigating to [decentr://accessibility/](decentr://accessibility)
 and inspecting a tree directly. Note that you may want to enable the
 'Internal' option. Click 'show accessibility tree' for a particular tab,
 then click again to refresh that tree.

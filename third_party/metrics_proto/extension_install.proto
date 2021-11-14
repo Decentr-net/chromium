@@ -36,7 +36,7 @@ message ExtensionInstallProto {
     EXTERNAL_PREF = 2;  // A crx file from an external directory (via prefs).
     EXTERNAL_REGISTRY = 3;  // A crx file from an external directory (via the
                             // Windows registry)
-    UNPACKED = 4;   // An unpacked extension loaded from chrome://extensions.
+    UNPACKED = 4;   // An unpacked extension loaded from decentr://extensions.
     COMPONENT = 5;  // An internal component extension.
     EXTERNAL_PREF_DOWNLOAD = 6;    // A crx file from an external directory (via
                                    // prefs), downloaded from an update URL.

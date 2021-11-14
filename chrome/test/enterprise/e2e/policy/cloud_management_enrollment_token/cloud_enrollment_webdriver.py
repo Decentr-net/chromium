@@ -18,8 +18,8 @@ def main(argv):
   time.sleep(10)
 
   try:
-    # Verify Policy status legend in chrome://policy page
-    policy_url = "chrome://policy"
+    # Verify Policy status legend in decentr://policy page
+    policy_url = "decentr://policy"
     driver.get(policy_url)
     driver.find_element_by_id('reload-policies').click
     print(driver.find_element_by_class_name('legend').text)

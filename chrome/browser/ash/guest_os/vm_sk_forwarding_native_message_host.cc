@@ -36,8 +36,8 @@ const char* const VmSKForwardingNativeMessageHost::kHostName =
 
 // static
 const char* const VmSKForwardingNativeMessageHost::kOrigins[] = {
-    "chrome-extension://lehkgnicackihfeppclgiffgbgbhmbdp/",
-    "chrome-extension://lcooaekmckohjjnpaaokodoepajbnill/"};
+    "decentr-extension://lehkgnicackihfeppclgiffgbgbhmbdp/",
+    "decentr-extension://lcooaekmckohjjnpaaokodoepajbnill/"};
 
 // static
 const char* const

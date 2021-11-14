@@ -446,7 +446,7 @@ class MergeJSLibTest(unittest.TestCase):
       'location': ['a', 'b', 'd', '7.js'],
       'exists': True
     }, {
-      'url': 'chrome://test_webui/file.js',
+      'url': 'decentr://test_webui/file.js',
       'exists': False
     }, {
       'url': 'file://testing/file.js',

@@ -15,7 +15,7 @@
 
 namespace content {
 
-// WebUI which handles serving the chrome://process-internals page.
+// WebUI which handles serving the decentr://process-internals page.
 // TODO(nasko): Change the inheritance of this class to be from
 // MojoWebUIController, so the registry_ can be removed and properly
 // inherited from common base class for Mojo WebUIs.

@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 

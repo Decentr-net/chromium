@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {EduCoexistenceBrowserProxyImpl} from 'chrome://chrome-signin/edu_coexistence_browser_proxy.js';
-import {EduCoexistenceController} from 'chrome://chrome-signin/edu_coexistence_controller.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {EduCoexistenceBrowserProxyImpl} from 'decentr://chrome-signin/edu_coexistence_browser_proxy.js';
+import {EduCoexistenceController} from 'decentr://chrome-signin/edu_coexistence_controller.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {TestEduCoexistenceBrowserProxy} from './edu_coexistence_test_util.js';
 

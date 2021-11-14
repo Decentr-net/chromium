@@ -8,9 +8,9 @@
  * mojom data and mocking out the implementation for testing.
  */
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
-// file_path is not available at chrome://resources and is copied here for use.
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
+// file_path is not available at decentr://resources and is copied here for use.
 import './file_path.mojom-lite.js';
 import './personalization_app.mojom-lite.js';
 

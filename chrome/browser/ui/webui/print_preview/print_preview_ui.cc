@@ -372,16 +372,16 @@ void AddPrintPreviewFlags(content::WebUIDataSource* source, Profile* profile) {
 }
 
 void SetupPrintPreviewPlugin(content::WebUIDataSource* source) {
-  // TODO(crbug.com/1238829): Only serve PDF from chrome-untrusted://print. The
+  // TODO(crbug.com/1238829): Only serve PDF from decentr-untrusted://print. The
   // legacy Pepper-based PDF plugin still requires this.
   AddDataRequestFilter(*source);
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ChildSrc,
-      "child-src 'self' chrome-untrusted://print;");
+      "child-src 'self' decentr-untrusted://print;");
   source->DisableDenyXFrameOptions();
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ObjectSrc,
-      "object-src chrome-untrusted://print;");
+      "object-src decentr-untrusted://print;");
 }
 
 content::WebUIDataSource* CreatePrintPreviewUISource(Profile* profile) {
@@ -445,10 +445,10 @@ PrintPreviewUI::PrintPreviewUI(content::WebUI* web_ui)
     : ConstrainedWebDialogUI(web_ui),
       initial_preview_start_time_(base::TimeTicks::Now()),
       handler_(CreatePrintPreviewHandlers(web_ui)) {
-  // Allow requests to URLs like chrome-untrusted://print/.
+  // Allow requests to URLs like decentr-untrusted://print/.
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 
-  // Set up the chrome://print/ data source.
+  // Set up the decentr://print/ data source.
   Profile* profile = Profile::FromWebUI(web_ui);
   content::WebUIDataSource* source = CreatePrintPreviewUISource(profile);
 #if !BUILDFLAG(OPTIMIZE_WEBUI)
@@ -457,7 +457,7 @@ PrintPreviewUI::PrintPreviewUI(content::WebUI* web_ui)
 #endif
   content::WebUIDataSource::Add(profile, source);
 
-  // Set up the chrome://theme/ source.
+  // Set up the decentr://theme/ source.
   content::URLDataSource::Add(profile, std::make_unique<ThemeSource>(profile));
 
 #if BUILDFLAG(ENABLE_OOP_PRINTING)

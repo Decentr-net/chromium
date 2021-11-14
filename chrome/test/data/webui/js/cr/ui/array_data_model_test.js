@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
 import {assertArrayEquals, assertEquals} from '../../../chai_assert.js';
 // clang-format on
 

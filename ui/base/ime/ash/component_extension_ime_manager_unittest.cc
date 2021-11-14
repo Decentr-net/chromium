@@ -32,7 +32,7 @@ class ComponentExtensionIMEManagerTest : public testing::Test {
     ext1.id = "ext1_id_xxxxxxxxxxxxxxxxxxxxxxxx";
     ext1.description = "ext1_description";
     ext1.options_page_url =
-        GURL("chrome-extension://" + ext1.id + "/options.html");
+        GURL("decentr-extension://" + ext1.id + "/options.html");
     ext1.path = base::FilePath("ext1_file_path");
 
     ComponentExtensionEngine ext1_engine1;
@@ -90,7 +90,7 @@ class ComponentExtensionIMEManagerTest : public testing::Test {
     ext3.id = "ext3_id_xxxxxxxxxxxxxxxxxxxxxxxx";
     ext3.description = "ext3_description";
     ext3.options_page_url =
-    GURL("chrome-extension://" + ext3.id + "/options.html");
+    GURL("decentr-extension://" + ext3.id + "/options.html");
     ext3.path = base::FilePath("ext3_file_path");
 
     ComponentExtensionEngine ext3_engine1;

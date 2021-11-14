@@ -100,11 +100,11 @@ TEST(UkmRecorderImplTest, PurgeExtensionRecordings) {
   SourceId id1 = ConvertToSourceId(1, SourceIdType::NAVIGATION_ID);
   recorder.UpdateSourceURL(id1, GURL("https://www.google.ca"));
   SourceId id2 = ConvertToSourceId(2, SourceIdType::NAVIGATION_ID);
-  recorder.UpdateSourceURL(id2, GURL("chrome-extension://abc/manifest.json"));
+  recorder.UpdateSourceURL(id2, GURL("decentr-extension://abc/manifest.json"));
   SourceId id3 = ConvertToSourceId(3, SourceIdType::NAVIGATION_ID);
   recorder.UpdateSourceURL(id3, GURL("http://www.wikipedia.org"));
   SourceId id4 = ConvertToSourceId(4, SourceIdType::NAVIGATION_ID);
-  recorder.UpdateSourceURL(id4, GURL("chrome-extension://abc/index.html"));
+  recorder.UpdateSourceURL(id4, GURL("decentr-extension://abc/index.html"));
 
   TestEvent1(id1).Record(&recorder);
   TestEvent1(id2).Record(&recorder);
@@ -131,7 +131,7 @@ TEST(UkmRecorderImplTest, PurgeExtensionRecordings) {
   // Recording is disabled for extensions, thus new extension URL will not be
   // recorded.
   recorder.EnableRecording(/* extensions = */ false);
-  recorder.UpdateSourceURL(id4, GURL("chrome-extension://abc/index.html"));
+  recorder.UpdateSourceURL(id4, GURL("decentr-extension://abc/index.html"));
   EXPECT_FALSE(recorder.extensions_enabled_);
   EXPECT_EQ(2U, recorder.sources().size());
 }

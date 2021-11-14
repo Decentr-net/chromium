@@ -54,7 +54,7 @@ void DeleteOrigin(Profile* profile,
         base::BarrierClosure(2, std::move(done_callback));
 
     // TODO(ajwong): Cookies are not properly isolated for
-    // chrome-extension:// scheme.  (http://crbug.com/158386).
+    // decentr-extension:// scheme.  (http://crbug.com/158386).
     //
     // However, no isolated apps actually can write to kExtensionScheme
     // origins. Thus, it is benign to delete from the

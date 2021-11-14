@@ -24,7 +24,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);
 bool IsDomDistillerEnabled();
 
 // Returns true when reader mode flag is enabled and the flag parameter to add
-// "offer reader mode" in chrome://settings is set.
+// "offer reader mode" in decentr://settings is set.
 bool OfferReaderModeInSettings();
 
 // Returns true if a user should be shown the option to view pages in reader

@@ -105,7 +105,7 @@ void MediaToolbarButtonView::Enable() {
     } else {
       // Live Caption only works for English-language speech for now, so we only
       // show the promo to users whose fluent languages include english. Fluent
-      // languages are set in chrome://settings/languages.
+      // languages are set in decentr://settings/languages.
       language::LanguageModel* language_model =
           LanguageModelManagerFactory::GetForBrowserContext(browser_->profile())
               ->GetPrimaryModel();

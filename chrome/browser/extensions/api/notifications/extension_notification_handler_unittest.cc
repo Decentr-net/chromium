@@ -19,7 +19,7 @@ namespace extensions {
 namespace {
 
 static const char kChromeExtensionOrigin[] =
-    "chrome-extension://gclcddgeeaknflkijpcbplmhbkonmlij/";
+    "decentr-extension://gclcddgeeaknflkijpcbplmhbkonmlij/";
 static const char kChromeExtensionId[] = "gclcddgeeaknflkijpcbplmhbkonmlij";
 static const char kChromeNotificationId[] =
     "gclcddgeeaknflkijpcbplmhbkonmlij-id1";

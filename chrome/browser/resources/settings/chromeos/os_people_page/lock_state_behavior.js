@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// #import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-// #import {WebUIListenerBehavior} from 'chrome://resources/js/web_ui_listener_behavior.m.js';
+// #import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+// #import {WebUIListenerBehavior} from 'decentr://resources/js/web_ui_listener_behavior.m.js';
 
 /**
  * @fileoverview

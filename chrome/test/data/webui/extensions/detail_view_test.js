@@ -4,9 +4,9 @@
 
 /** @fileoverview Suite of tests for extensions-detail-view. */
 
-import {navigation, Page} from 'chrome://extensions/extensions.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {navigation, Page} from 'decentr://extensions/extensions.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {isChildVisible, isVisible} from '../test_util.js';
 
@@ -126,7 +126,7 @@ suite(extension_detail_view_tests.suiteName, function() {
     flush();
 
     const optionsUrl =
-        'chrome-extension://' + extensionData.id + '/options.html';
+        'decentr-extension://' + extensionData.id + '/options.html';
     item.set('data.optionsPage', {openInTab: true, url: optionsUrl});
     expectTrue(testIsVisible('#extensions-options'));
 
@@ -306,7 +306,7 @@ suite(extension_detail_view_tests.suiteName, function() {
       assert(extension_detail_view_tests.TestNames.ClickableElements),
       function() {
         const optionsUrl =
-            'chrome-extension://' + extensionData.id + '/options.html';
+            'decentr-extension://' + extensionData.id + '/options.html';
         item.set('data.optionsPage', {openInTab: true, url: optionsUrl});
         item.set('data.prettifiedPath', 'foo/bar/baz/');
         item.set('showActivityLog', true);

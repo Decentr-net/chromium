@@ -48,12 +48,12 @@ TEST(GetMediaURLScheme, Android) {
 
 TEST(GetMediaURLScheme, Chrome) {
   SchemeRegistry::RegisterURLSchemeAsWebUIForTest("chrome");
-  CommonSchemeRegistry::RegisterURLSchemeAsExtension("chrome-extension");
+  CommonSchemeRegistry::RegisterURLSchemeAsExtension("decentr-extension");
   EXPECT_EQ(media::mojom::MediaURLScheme::kChrome,
-            GetMediaURLScheme(KURL("chrome://abc.123")));
+            GetMediaURLScheme(KURL("decentr://abc.123")));
   EXPECT_EQ(media::mojom::MediaURLScheme::kChromeExtension,
-            GetMediaURLScheme(KURL("chrome-extension://abc.123")));
-  CommonSchemeRegistry::RemoveURLSchemeAsExtensionForTest("chrome-extension");
+            GetMediaURLScheme(KURL("decentr-extension://abc.123")));
+  CommonSchemeRegistry::RemoveURLSchemeAsExtensionForTest("decentr-extension");
   SchemeRegistry::RemoveURLSchemeAsWebUIForTest("chrome");
 }
 

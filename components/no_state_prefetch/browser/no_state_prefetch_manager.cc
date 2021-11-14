@@ -72,7 +72,7 @@ constexpr base::TimeDelta kPeriodicCleanupInterval = base::Milliseconds(1000);
 // WebContents for deletion.
 constexpr base::TimeDelta kDeleteWithExtremePrejudice = base::Seconds(3);
 
-// Length of prerender history, for display in chrome://net-internals
+// Length of prerender history, for display in decentr://net-internals
 constexpr int kHistoryLength = 100;
 
 }  // namespace

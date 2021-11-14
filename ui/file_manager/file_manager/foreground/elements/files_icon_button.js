@@ -5,9 +5,9 @@
 import './files_ripple.js';
 import './files_toggle_ripple.js';
 
-import {IronButtonState} from 'chrome://resources/polymer/v3_0/iron-behaviors/iron-button-state.js';
-import {IronControlState} from 'chrome://resources/polymer/v3_0/iron-behaviors/iron-control-state.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {IronButtonState} from 'decentr://resources/polymer/v3_0/iron-behaviors/iron-button-state.js';
+import {IronControlState} from 'decentr://resources/polymer/v3_0/iron-behaviors/iron-control-state.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 Polymer({
   _template: html`{__html_template__}`,

@@ -5,13 +5,13 @@
 // clang-format off
 // #import {TestAboutPageBrowserProxyChromeOS} from './test_about_page_browser_proxy_chromeos.m.js';
 // #import {TestDeviceNameBrowserProxy} from './test_device_name_browser_proxy.m.js';
-// #import {BrowserChannel,UpdateStatus,Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {AboutPageBrowserProxyImpl,DeviceNameBrowserProxyImpl,DeviceNameState,LifetimeBrowserProxyImpl, SetDeviceNameResult} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {BrowserChannel,UpdateStatus,Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {AboutPageBrowserProxyImpl,DeviceNameBrowserProxyImpl,DeviceNameState,LifetimeBrowserProxyImpl, SetDeviceNameResult} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {TestLifetimeBrowserProxy} from './test_os_lifetime_browser_proxy.m.js';
-// #import {eventToPromise,flushTasks,waitAfterNextRender} from 'chrome://test/test_util.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {eventToPromise,flushTasks,waitAfterNextRender} from 'decentr://test/test_util.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // #import {CrPolicyIndicatorType} from '//resources/cr_elements/policy/cr_policy_indicator_behavior.m.js';
 // clang-format on
 
@@ -25,7 +25,7 @@ cr.define('settings_about_page', function() {
     /** @type {?settings.TestLifetimeBrowserProxy} */
     let lifetimeBrowserProxy = null;
 
-    const SPINNER_ICON = 'chrome://resources/images/throbber_small.svg';
+    const SPINNER_ICON = 'decentr://resources/images/throbber_small.svg';
 
     setup(function() {
       lifetimeBrowserProxy = new settings.TestLifetimeBrowserProxy();

@@ -4,7 +4,7 @@
 
 // clang-format off
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {BrowserChannel,UpdateStatus} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {BrowserChannel,UpdateStatus} from 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 /** @implements {settings.AboutPageBrowserProxy} */

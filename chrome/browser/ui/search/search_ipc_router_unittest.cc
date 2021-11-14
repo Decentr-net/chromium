@@ -100,7 +100,7 @@ class SearchIPCRouterTest : public BrowserWithTestWindowTest {
 
   void SetUp() override {
     BrowserWithTestWindowTest::SetUp();
-    AddTab(browser(), GURL("chrome://blank"));
+    AddTab(browser(), GURL("decentr://blank"));
     SearchTabHelper::CreateForWebContents(web_contents());
 
     TemplateURLServiceFactory::GetInstance()->SetTestingFactoryAndUse(
@@ -185,7 +185,7 @@ class SearchIPCRouterTest : public BrowserWithTestWindowTest {
 // TODO(aee): ProcessFocusOmniboxMsg and IgnoreFocusOmniboxMsg both pass with
 // unknown URLs. I'm not sure this is testing anything.
 TEST_F(SearchIPCRouterTest, ProcessFocusOmniboxMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*mock_delegate(), FocusOmnibox(OMNIBOX_FOCUS_VISIBLE)).Times(1);
@@ -202,7 +202,7 @@ TEST_F(SearchIPCRouterTest, ProcessFocusOmniboxMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, IgnoreFocusOmniboxMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*mock_delegate(), FocusOmnibox(OMNIBOX_FOCUS_VISIBLE)).Times(0);
@@ -219,7 +219,7 @@ TEST_F(SearchIPCRouterTest, IgnoreFocusOmniboxMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, HandleTabChangedEvents) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   content::WebContents* contents = web_contents();
   EXPECT_EQ(0, browser()->tab_strip_model()->GetIndexOfWebContents(contents));
   EXPECT_TRUE(IsActiveTab(contents));
@@ -239,7 +239,7 @@ TEST_F(SearchIPCRouterTest, HandleTabChangedEvents) {
 }
 
 TEST_F(SearchIPCRouterTest, ProcessDeleteMostVisitedItemMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   GURL item_url("www.foo.com");
@@ -253,7 +253,7 @@ TEST_F(SearchIPCRouterTest, ProcessDeleteMostVisitedItemMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, IgnoreDeleteMostVisitedItemMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   GURL item_url("www.foo.com");
@@ -267,7 +267,7 @@ TEST_F(SearchIPCRouterTest, IgnoreDeleteMostVisitedItemMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, ProcessUndoMostVisitedDeletionMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   GURL item_url("www.foo.com");
@@ -281,7 +281,7 @@ TEST_F(SearchIPCRouterTest, ProcessUndoMostVisitedDeletionMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, IgnoreUndoMostVisitedDeletionMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   GURL item_url("www.foo.com");
@@ -295,7 +295,7 @@ TEST_F(SearchIPCRouterTest, IgnoreUndoMostVisitedDeletionMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, ProcessUndoAllMostVisitedDeletionsMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*mock_delegate(), OnUndoAllMostVisitedDeletions()).Times(1);
@@ -307,7 +307,7 @@ TEST_F(SearchIPCRouterTest, ProcessUndoAllMostVisitedDeletionsMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, IgnoreUndoAllMostVisitedDeletionsMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/bar"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/bar"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*mock_delegate(), OnUndoAllMostVisitedDeletions()).Times(0);
@@ -319,7 +319,7 @@ TEST_F(SearchIPCRouterTest, IgnoreUndoAllMostVisitedDeletionsMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, SendOmniboxFocusChange) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendOmniboxFocusChanged())
@@ -332,7 +332,7 @@ TEST_F(SearchIPCRouterTest, SendOmniboxFocusChange) {
 }
 
 TEST_F(SearchIPCRouterTest, DoNotSendOmniboxFocusChange) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendOmniboxFocusChanged())
@@ -345,7 +345,7 @@ TEST_F(SearchIPCRouterTest, DoNotSendOmniboxFocusChange) {
 }
 
 TEST_F(SearchIPCRouterTest, SendSetInputInProgress) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendSetInputInProgress(true))
@@ -357,7 +357,7 @@ TEST_F(SearchIPCRouterTest, SendSetInputInProgress) {
 }
 
 TEST_F(SearchIPCRouterTest, DoNotSendSetInputInProgress) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendSetInputInProgress(true))
@@ -369,7 +369,7 @@ TEST_F(SearchIPCRouterTest, DoNotSendSetInputInProgress) {
 }
 
 TEST_F(SearchIPCRouterTest, SendMostVisitedInfoMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendMostVisitedInfo())
@@ -381,7 +381,7 @@ TEST_F(SearchIPCRouterTest, SendMostVisitedInfoMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, DoNotSendMostVisitedInfoMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendMostVisitedInfo())
@@ -394,7 +394,7 @@ TEST_F(SearchIPCRouterTest, DoNotSendMostVisitedInfoMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, SendNtpThemeMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendNtpTheme()).Times(1).WillOnce(Return(true));
@@ -404,7 +404,7 @@ TEST_F(SearchIPCRouterTest, SendNtpThemeMsg) {
 }
 
 TEST_F(SearchIPCRouterTest, DoNotSendNtpThemeMsg) {
-  NavigateAndCommitActiveTab(GURL("chrome-search://foo/baz"));
+  NavigateAndCommitActiveTab(GURL("decentr-search://foo/baz"));
   SetupMockDelegateAndPolicy();
   MockSearchIPCRouterPolicy* policy = GetSearchIPCRouterPolicy();
   EXPECT_CALL(*policy, ShouldSendNtpTheme()).Times(1).WillOnce(Return(false));

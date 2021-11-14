@@ -139,7 +139,7 @@ LogBuffer& operator<<(LogBuffer& buf, base::StringPiece text);
 LogBuffer& operator<<(LogBuffer& buf, base::StringPiece16 text);
 
 // Sometimes you may want to fill a buffer that you then stream as a whole
-// to LOG_AF_INTERNALS, which commits the data to chrome://autofill-internals:
+// to LOG_AF_INTERNALS, which commits the data to decentr://autofill-internals:
 //
 //   LogBuffer buffer;
 //   for (FormStructure* form : forms)

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {DangerType, DownloadItem, DownloadListElement, DownloadMode, DownloadShelfApiProxyImpl, DownloadState, MixedContentStatus} from 'chrome://download-shelf.top-chrome/download_shelf.js';
+import {DangerType, DownloadItem, DownloadListElement, DownloadMode, DownloadShelfApiProxyImpl, DownloadState, MixedContentStatus} from 'decentr://download-shelf.top-chrome/download_shelf.js';
 
 import {assertDeepEquals, assertEquals} from '../../chai_assert.js';
 import {flushTasks, waitAfterNextRender} from '../../test_util.js';

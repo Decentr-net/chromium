@@ -124,7 +124,7 @@ IN_PROC_BROWSER_TEST_F(WebAuthnBrowserTest, ChromeExtensions) {
   auto extension_id = url.host();
   static const uint8_t kCredentialID[] = {1, 2, 3, 4};
   virtual_device_factory->mutable_state()->InjectRegistration(
-      kCredentialID, "chrome-extension://" + extension_id);
+      kCredentialID, "decentr-extension://" + extension_id);
 
   content::AuthenticatorEnvironment::GetInstance()
       ->ReplaceDefaultDiscoveryFactoryForTesting(

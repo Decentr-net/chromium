@@ -153,14 +153,14 @@ TEST(SiteForCookiesTest, File) {
 
 TEST_F(SchemelessSiteForCookiesTest, Extension) {
   url::ScopedSchemeRegistryForTests scoped_registry;
-  url::AddStandardScheme("chrome-extension", url::SCHEME_WITH_HOST);
-  std::vector<GURL> equivalent = {GURL("chrome-extension://abc/"),
-                                  GURL("chrome-extension://abc/foo.txt"),
+  url::AddStandardScheme("decentr-extension", url::SCHEME_WITH_HOST);
+  std::vector<GURL> equivalent = {GURL("decentr-extension://abc/"),
+                                  GURL("decentr-extension://abc/foo.txt"),
                                   GURL("https://abc"), GURL("http://abc"),
                                   // This one is disputable.
                                   GURL("file://abc/bar.txt")};
 
-  std::vector<GURL> distinct = {GURL("chrome-extension://def")};
+  std::vector<GURL> distinct = {GURL("decentr-extension://def")};
 
   TestEquivalentAndDistinct(equivalent, distinct, "abc");
 }
@@ -169,13 +169,13 @@ TEST_F(SchemelessSiteForCookiesTest, Extension) {
 // that http(s) schemes are distinct.
 TEST(SiteForCookiesTest, Extension) {
   url::ScopedSchemeRegistryForTests scoped_registry;
-  url::AddStandardScheme("chrome-extension", url::SCHEME_WITH_HOST);
+  url::AddStandardScheme("decentr-extension", url::SCHEME_WITH_HOST);
   std::vector<GURL> equivalent = {
-      GURL("chrome-extension://abc/"),
-      GURL("chrome-extension://abc/foo.txt"),
+      GURL("decentr-extension://abc/"),
+      GURL("decentr-extension://abc/foo.txt"),
   };
 
-  std::vector<GURL> distinct = {GURL("chrome-extension://def"),
+  std::vector<GURL> distinct = {GURL("decentr-extension://def"),
                                 GURL("https://abc"), GURL("http://abc"),
                                 GURL("file://abc/bar.txt")};
 

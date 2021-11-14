@@ -10,18 +10,18 @@
  * circumstances. See triggered_profile_resetter.h for when the triggered
  * variant will be used.
  */
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/js/action_link.js';
-import 'chrome://resources/cr_elements/action_link_css.m.js';
-import 'chrome://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/js/action_link.js';
+import 'decentr://resources/cr_elements/action_link_css.m.js';
+import 'decentr://resources/polymer/v3_0/paper-spinner/paper-spinner-lite.js';
 import '../settings_shared_css.js';
 
-import {CrCheckboxElement} from 'chrome://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
-import {CrDialogElement} from 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import {I18nMixin} from 'chrome://resources/js/i18n_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrCheckboxElement} from 'decentr://resources/cr_elements/cr_checkbox/cr_checkbox.m.js';
+import {CrDialogElement} from 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import {I18nMixin} from 'decentr://resources/js/i18n_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 import {routes} from '../route.js';
@@ -133,7 +133,7 @@ export class SettingsResetProfileDialogElement extends
     } else {
       // For the non-triggered reset dialog, a '#cct' hash indicates that the
       // reset request came from the Chrome Cleanup Tool by launching Chrome
-      // with the startup URL chrome://settings/resetProfileSettings#cct.
+      // with the startup URL decentr://settings/resetProfileSettings#cct.
       const origin = window.location.hash.slice(1).toLowerCase() === 'cct' ?
           'cct' :
           Router.getInstance().getQueryParameters().get('origin');

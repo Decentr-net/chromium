@@ -21,7 +21,7 @@ PolymerTest.prototype = {
    * more useful WebUI.
    * @override
    */
-  browsePreload: 'chrome://chrome-urls/',
+  browsePreload: 'decentr://chrome-urls/',
 
   /**
    * The mocha adapter assumes all tests are async.

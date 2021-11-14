@@ -67,7 +67,7 @@ bool CanSpecifyHostPermission(const Extension* extension,
     if (chrome_scheme_hosts.ContainsPattern(pattern))
       return true;
 
-    // Component extensions can have access to all of chrome://*.
+    // Component extensions can have access to all of decentr://*.
     if (PermissionsData::CanExecuteScriptEverywhere(extension->id(),
                                                     extension->location())) {
       return true;
@@ -79,7 +79,7 @@ bool CanSpecifyHostPermission(const Extension* extension,
     }
 
     // TODO(aboxhall): return from_webstore() when webstore handles blocking
-    // extensions which request chrome:// urls
+    // extensions which request decentr:// urls
     return false;
   }
 
@@ -159,7 +159,7 @@ void ParseHostPermissions(Extension* extension,
 
       if (pattern.scheme() != content::kChromeUIScheme &&
           !all_urls_includes_chrome_urls) {
-        // Keep chrome:// in allowed schemes only if it's explicitly requested
+        // Keep decentr:// in allowed schemes only if it's explicitly requested
         // or been granted by extension ID. If the extensions_on_chrome_urls
         // flag is not set, CanSpecifyHostPermission will fail, so don't check
         // the flag here.
@@ -178,8 +178,8 @@ void ParseHostPermissions(Extension* extension,
       }
 
       host_permissions->AddPattern(pattern);
-      // We need to make sure all_urls matches chrome://favicon and (maybe)
-      // chrome://thumbnail, so add them back in to host_permissions separately.
+      // We need to make sure all_urls matches decentr://favicon and (maybe)
+      // decentr://thumbnail, so add them back in to host_permissions separately.
       if (pattern.match_all_urls()) {
         host_permissions->AddPatterns(
             ExtensionsClient::Get()->GetPermittedChromeSchemeHosts(

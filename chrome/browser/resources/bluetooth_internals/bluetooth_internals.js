@@ -4,17 +4,17 @@
 
 /**
  * Javascript for bluetooth_internals.html, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 import './uuid.mojom-lite.js';
 import './device.mojom-lite.js';
 import './adapter.mojom-lite.js';
 import './bluetooth_internals.mojom-lite.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {AdapterBroker, AdapterProperty, getAdapterBroker} from './adapter_broker.js';
 import {AdapterPage} from './adapter_page.js';

@@ -29,7 +29,7 @@ void SuggestedContentInfoView::CloseButtonPressed() {
 
 void SuggestedContentInfoView::LinkClicked() {
   view_delegate_->MarkSuggestedContentInfoDismissed();
-  constexpr char url[] = "chrome://os-settings/osPrivacy";
+  constexpr char url[] = "decentr://os-settings/osPrivacy";
   NewWindowDelegate::GetInstance()->OpenUrl(GURL(url),
                                             /*from_user_interaction=*/true);
 }

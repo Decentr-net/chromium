@@ -4,8 +4,8 @@
 
 /** @fileoverview Test suite for wallpaper-breadcrumb component.  */
 
-import {Paths} from 'chrome://personalization/trusted/personalization_router_element.js';
-import {WallpaperBreadcrumb} from 'chrome://personalization/trusted/wallpaper_breadcrumb_element.js';
+import {Paths} from 'decentr://personalization/trusted/personalization_router_element.js';
+import {WallpaperBreadcrumb} from 'decentr://personalization/trusted/wallpaper_breadcrumb_element.js';
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, waitAfterNextRender} from '../../test_util.js';
 import {baseSetup, initElement} from './personalization_app_test_utils.js';

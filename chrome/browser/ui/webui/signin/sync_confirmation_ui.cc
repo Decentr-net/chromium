@@ -130,7 +130,7 @@ void SyncConfirmationUI::InitializeForSyncConfirmation(
 
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
 
   AddStringResource(source, "syncConfirmationTitle",
                     IDS_SYNC_CONFIRMATION_TITLE);

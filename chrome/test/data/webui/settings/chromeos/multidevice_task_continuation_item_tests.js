@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
 // #import {assertFalse, assertTrue} from '../../chai_assert.js';
-// #import {assert} from 'chrome://resources/js/assert.m.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {SyncBrowserProxyImpl} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {SyncBrowserProxyImpl} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 // #import {TestSyncBrowserProxy} from './test_os_sync_browser_proxy.m.js';
 // clang-format on
 

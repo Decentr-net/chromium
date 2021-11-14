@@ -29,7 +29,7 @@ using ::extensions::ExtensionRegistry;
 // Official HelpApp extension id.
 const char kExtensionId[] = "honijodknafkokifofgiaalefdiedpko";
 
-const char kHelpAppFormat[] = "chrome-extension://%s/oobe.html?id=%d";
+const char kHelpAppFormat[] = "decentr-extension://%s/oobe.html?id=%d";
 
 const char* g_extension_id_for_test = nullptr;
 

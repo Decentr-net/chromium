@@ -285,7 +285,7 @@ Polymer({
    */
   getImgSrc_(url) {
     // Use first frame of animated user images.
-    if (url.startsWith('chrome://theme')) {
+    if (url.startsWith('decentr://theme')) {
       return url + '[0]';
     }
 
@@ -301,7 +301,7 @@ Polymer({
   },
 
   /**
-   * Returns the 2x (high dpi) image to use for 'srcset' for chrome://theme
+   * Returns the 2x (high dpi) image to use for 'srcset' for decentr://theme
    * images. Note: 'src' will still be used as the 1x candidate as per the HTML
    * spec.
    * @param {string} url
@@ -309,7 +309,7 @@ Polymer({
    * @private
    */
   getImgSrc2x_(url) {
-    if (!url.startsWith('chrome://theme')) {
+    if (!url.startsWith('decentr://theme')) {
       return '';
     }
     return url + '[0]@2x 2x';

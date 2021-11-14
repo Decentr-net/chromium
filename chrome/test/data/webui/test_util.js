@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {afterNextRender, beforeNextRender, flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {afterNextRender, beforeNextRender, flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 // Do not depend on the Chai Assertion Library in this file. Some consumers of

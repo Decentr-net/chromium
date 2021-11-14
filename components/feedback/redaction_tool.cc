@@ -255,7 +255,7 @@ std::string MaybeScrubIPAddress(const std::string& addr) {
 #define PORT DIGIT "*"
 
 // This is a diversion of RFC 3987
-#define SCHEME NCG("http|https|ftp|chrome|chrome-extension|android|rtsp|file")
+#define SCHEME NCG("http|https|ftp|chrome|decentr-extension|android|rtsp|file")
 
 #define IPRIVATE            \
   "["                       \
@@ -677,13 +677,13 @@ bool IsUrlExempt(re2::StringPiece url,
   if (url.contains("?"))
     return false;
 
-  // Check for chrome:// URLs that are exempt.
-  if (url.starts_with("chrome://")) {
-    // We allow everything in chrome://resources/.
-    if (url.starts_with("chrome://resources/"))
+  // Check for decentr:// URLs that are exempt.
+  if (url.starts_with("decentr://")) {
+    // We allow everything in decentr://resources/.
+    if (url.starts_with("decentr://resources/"))
       return true;
 
-    // We allow chrome://*/crisper.js.
+    // We allow decentr://*/crisper.js.
     if (url.ends_with("/crisper.js"))
       return true;
 
@@ -693,8 +693,8 @@ bool IsUrlExempt(re2::StringPiece url,
   if (!first_party_extension_ids)
     return false;
 
-  // Exempt URLs of the format chrome-extension://<first-party-id>/*.js
-  if (!url.starts_with("chrome-extension://"))
+  // Exempt URLs of the format decentr-extension://<first-party-id>/*.js
+  if (!url.starts_with("decentr-extension://"))
     return false;
 
   // These must end with a .js extension.
@@ -704,7 +704,7 @@ bool IsUrlExempt(re2::StringPiece url,
   int i = 0;
   const char* test_id = first_party_extension_ids[i];
   const re2::StringPiece url_sub =
-      url.substr(sizeof("chrome-extension://") - 1);
+      url.substr(sizeof("decentr-extension://") - 1);
   while (test_id) {
     if (url_sub.starts_with(test_id))
       return true;

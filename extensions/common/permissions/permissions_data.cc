@@ -427,7 +427,7 @@ bool PermissionsData::CanCaptureVisiblePage(
 
     // We check GetPageAccess() (in addition to the <all_urls> and activeTab
     // checks below) for the case of URLs that can be conditionally granted
-    // (such as file:// URLs or chrome:// URLs for component extensions). If an
+    // (such as file:// URLs or decentr:// URLs for component extensions). If an
     // extension has <all_urls>, GetPageAccess() will still (correctly) return
     // false if, for instance, the URL is a file:// URL and the extension does
     // not have file access. See https://crbug.com/810220. If the extension has

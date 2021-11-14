@@ -40,22 +40,22 @@ Crashpad can be enabled by passing `--enable-crash-reporter` and
 * Linux:
   ```bash
   out/Debug/content_shell --enable-crash-reporter \
-      --crash-dumps-dir=/tmp/crashes chrome://crash
+      --crash-dumps-dir=/tmp/crashes decentr://crash
   ```
 * Mac:
   ```bash
   out/Debug/Content\ Shell.app/Contents/MacOS/Content\ Shell \
-      --enable-crash-reporter --crash-dumps-dir=/tmp/crashes chrome://crash
+      --enable-crash-reporter --crash-dumps-dir=/tmp/crashes decentr://crash
   ```
 * Windows:
   ```bash
   out\Default\content_shell.exe --enable-crash-reporter ^
-      --crash-dumps-dir=%TEMP%\crashes chrome://crash
+      --crash-dumps-dir=%TEMP%\crashes decentr://crash
   ```
 * Android:
   ```bash
   out/Default/bin/content_shell_apk install
-  out/Default/bin/content_shell_apk launch chrome://crash
+  out/Default/bin/content_shell_apk launch decentr://crash
   --args="--enable-crash-reporter --crash-dumps-dir=/data/data/org.chromium.content_shell_apk/cache"
   ```
 

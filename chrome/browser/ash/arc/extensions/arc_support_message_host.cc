@@ -20,7 +20,7 @@ const char ArcSupportMessageHost::kHostName[] = "com.google.arc_support";
 
 // static
 const char* const ArcSupportMessageHost::kHostOrigin[] = {
-    "chrome-extension://cnbgggchhmkkdmeppjobngjoejnihlei/"};
+    "decentr-extension://cnbgggchhmkkdmeppjobngjoejnihlei/"};
 
 // static
 std::unique_ptr<extensions::NativeMessageHost> ArcSupportMessageHost::Create(

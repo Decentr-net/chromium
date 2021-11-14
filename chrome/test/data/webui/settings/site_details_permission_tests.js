@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ContentSetting,ContentSettingsTypes,SiteSettingSource,SiteSettingsPrefsBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {TestSiteSettingsPrefsBrowserProxy} from 'chrome://test/settings/test_site_settings_prefs_browser_proxy.js';
-import {createContentSettingTypeToValuePair,createDefaultContentSetting,createRawSiteException,createSiteSettingsPrefs} from 'chrome://test/settings/test_util.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ContentSetting,ContentSettingsTypes,SiteSettingSource,SiteSettingsPrefsBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {TestSiteSettingsPrefsBrowserProxy} from 'decentr://test/settings/test_site_settings_prefs_browser_proxy.js';
+import {createContentSettingTypeToValuePair,createDefaultContentSetting,createRawSiteException,createSiteSettingsPrefs} from 'decentr://test/settings/test_util.js';
 // clang-format on
 
 /** @fileoverview Suite of tests for site-details. */
@@ -306,7 +306,7 @@ suite('SiteDetailsPermission', function() {
   });
 
   test('info string correct for allowlisted source', function() {
-    const origin = 'chrome://test';
+    const origin = 'decentr://test';
     testElement.category = ContentSettingsTypes.NOTIFICATIONS;
     testElement.$.details.hidden = false;
     testElement.site = {

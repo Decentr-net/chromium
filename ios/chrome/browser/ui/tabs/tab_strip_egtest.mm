@@ -30,9 +30,9 @@
   // case.
   const int kNumberOfTabs = 3;
   [ChromeEarlGreyUI openNewTab];
-  [ChromeEarlGrey loadURL:GURL("chrome://about")];
+  [ChromeEarlGrey loadURL:GURL("decentr://about")];
   [ChromeEarlGreyUI openNewTab];
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   // Note that the tab ordering wraps.  E.g. if A, B, and C are open,
   // and C is the current tab, the 'next' tab is 'A'.

@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/battery_status_card.js';
-import {BatteryChargeStatus, BatteryHealth, BatteryInfo, ExternalPowerSource, RoutineType} from 'chrome://diagnostics/diagnostics_types.js';
-import {getDiagnosticsIcon} from 'chrome://diagnostics/diagnostics_utils.js';
-import {fakeBatteryChargeStatus, fakeBatteryChargeStatus2, fakeBatteryHealth, fakeBatteryHealth2, fakeBatteryInfo} from 'chrome://diagnostics/fake_data.js';
-import {FakeSystemDataProvider} from 'chrome://diagnostics/fake_system_data_provider.js';
-import {getSystemDataProvider, setSystemDataProviderForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
-import {mojoString16ToString} from 'chrome://diagnostics/mojo_utils.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import 'decentr://diagnostics/battery_status_card.js';
+import {BatteryChargeStatus, BatteryHealth, BatteryInfo, ExternalPowerSource, RoutineType} from 'decentr://diagnostics/diagnostics_types.js';
+import {getDiagnosticsIcon} from 'decentr://diagnostics/diagnostics_utils.js';
+import {fakeBatteryChargeStatus, fakeBatteryChargeStatus2, fakeBatteryHealth, fakeBatteryHealth2, fakeBatteryInfo} from 'decentr://diagnostics/fake_data.js';
+import {FakeSystemDataProvider} from 'decentr://diagnostics/fake_system_data_provider.js';
+import {getSystemDataProvider, setSystemDataProviderForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
+import {mojoString16ToString} from 'decentr://diagnostics/mojo_utils.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isChildVisible, isVisible} from '../../test_util.js';

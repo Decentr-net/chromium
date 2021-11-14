@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://resources/cr_elements/policy/cr_policy_indicator.m.js';
+import 'decentr://resources/cr_elements/policy/cr_policy_indicator.m.js';
 import './cr_policy_strings.js';
 
-import {CrPolicyIndicatorType} from 'chrome://resources/cr_elements/policy/cr_policy_indicator_behavior.m.js';
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
+import {CrPolicyIndicatorType} from 'decentr://resources/cr_elements/policy/cr_policy_indicator_behavior.m.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 // clang-format on

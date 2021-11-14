@@ -19,7 +19,7 @@ class TabStackTraceTest(tab_test_case.TabTestCase):
   @decorators.Disabled('snowleopard', 'chromeos', 'win')
   def testValidDump(self):
     with self.assertRaises(exceptions.DevtoolsTargetCrashException) as c:
-      self._tab.Navigate('chrome://crash', timeout=10)
+      self._tab.Navigate('decentr://crash', timeout=10)
     self.assertTrue(c.exception.is_valid_dump)
 
   # Stack traces aren't working on Android yet.
@@ -27,7 +27,7 @@ class TabStackTraceTest(tab_test_case.TabTestCase):
   @decorators.Disabled('all')
   def testCrashSymbols(self):
     with self.assertRaises(exceptions.DevtoolsTargetCrashException) as c:
-      self._tab.Navigate('chrome://crash', timeout=5)
+      self._tab.Navigate('decentr://crash', timeout=5)
     self.assertIn('CrashIntentionally', '\n'.join(c.exception.stack_trace))
 
   # Some platforms do not support full stack traces, this test requires only
@@ -37,7 +37,7 @@ class TabStackTraceTest(tab_test_case.TabTestCase):
   @decorators.Disabled('all')
   def testCrashMinimalSymbols(self):
     with self.assertRaises(exceptions.DevtoolsTargetCrashException) as c:
-      self._tab.Navigate('chrome://crash', timeout=5)
+      self._tab.Navigate('decentr://crash', timeout=5)
     self.assertIn('HandleRendererDebugURL',
                   '\n'.join(c.exception.stack_trace))
 
@@ -60,7 +60,7 @@ class TabStackTraceTest(tab_test_case.TabTestCase):
       f.write('MODULE PLATFORM ARCH %s %s' % (garbage_hash, executable))
       f.flush()
       with self.assertRaises(exceptions.DevtoolsTargetCrashException) as c:
-        self._tab.Navigate('chrome://crash', timeout=5)
+        self._tab.Navigate('decentr://crash', timeout=5)
       # The symbol directory should now symbols for out executable.
       tmp_dir = os.path.join(self._browser._browser_backend._tmp_minidump_dir)
       symbol_dir = os.path.join(tmp_dir, 'symbols')

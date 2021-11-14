@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
-import {ListItem} from 'chrome://resources/js/cr/ui/list_item.m.js';
+import {define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
+import {ListItem} from 'decentr://resources/js/cr/ui/list_item.m.js';
 
 /**
  * Javascript for ExpandableList and ExpandableListItem, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 
 /**

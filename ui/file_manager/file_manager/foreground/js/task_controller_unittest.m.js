@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Command} from 'chrome://resources/js/cr/ui/command.m.js';
-import {assertNotReached} from 'chrome://test/chai_assert.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Command} from 'decentr://resources/js/cr/ui/command.m.js';
+import {assertNotReached} from 'decentr://test/chai_assert.js';
 
 import {createCrostiniForTest} from '../../background/js/mock_crostini.js';
 import {DialogType} from '../../common/js/dialog_type.js';

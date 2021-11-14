@@ -23,7 +23,7 @@ POLICY_EXPORT extern const base::Feature kCBCMPolicyInvalidations;
 // remote commands when fetching policies.
 POLICY_EXPORT extern const base::Feature kCBCMRemoteCommands;
 
-// Enable chrome://management page on Android.
+// Enable decentr://management page on Android.
 POLICY_EXPORT extern const base::Feature kChromeManagementPageAndroid;
 
 // PolicyBlocklistThrottle defers navigations until policies are loaded.

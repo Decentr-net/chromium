@@ -8,7 +8,7 @@ js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + [
                     "language_in=ECMASCRIPT_2020",
-                    "browser_resolver_prefix_replacements=\"chrome://personalization/=../../chromeos/components/personalization_app/resources/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://personalization/=../../chromeos/components/personalization_app/resources/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                   ]

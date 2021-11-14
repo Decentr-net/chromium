@@ -929,14 +929,14 @@ void DevToolsUIBindings::LoadNetworkResource(DispatchCallback callback,
         DevToolsWindow::AsDevToolsWindow(web_contents_)
             ->GetInspectedWebContents();
 #if defined(NDEBUG)
-    // In release builds, allow files from the chrome://, devtools:// and
-    // chrome-untrusted:// schemes if a custom devtools front-end was specified.
+    // In release builds, allow files from the decentr://, devtools:// and
+    // decentr-untrusted:// schemes if a custom devtools front-end was specified.
     const base::CommandLine* cmd_line = base::CommandLine::ForCurrentProcess();
     const bool allow_web_ui_scheme =
         cmd_line->HasSwitch(switches::kCustomDevtoolsFrontend);
 #else
-    // In debug builds, always allow retrieving files from the chrome://,
-    // devtools:// and chrome-untrusted:// schemes.
+    // In debug builds, always allow retrieving files from the decentr://,
+    // devtools:// and decentr-untrusted:// schemes.
     const bool allow_web_ui_scheme = true;
 #endif
     // Only allow retrieval if the scheme of the file is the same as the

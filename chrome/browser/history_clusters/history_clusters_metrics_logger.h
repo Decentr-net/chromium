@@ -22,7 +22,7 @@ enum class HistoryClustersInitialState {
   // other surface/path such as an omnibox action or other UI surface.
   kDirectNavigation = 1,
   // The HistoryClusters UI was opened indirectly; e.g., using the link the
-  // chrome://history sidebar.
+  // decentr://history sidebar.
   kIndirectNavigation = 2,
   // Add new values above this line.
   kMaxValue = kIndirectNavigation,

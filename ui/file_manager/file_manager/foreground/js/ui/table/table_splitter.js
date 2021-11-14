@@ -10,8 +10,8 @@
  * It is column model responsibility to resize other columns accordingly.
  */
 
-import {dispatchSimpleEvent, getPropertyDescriptor} from 'chrome://resources/js/cr.m.js';
-import {Splitter} from 'chrome://resources/js/cr/ui/splitter.js';
+import {dispatchSimpleEvent, getPropertyDescriptor} from 'decentr://resources/js/cr.m.js';
+import {Splitter} from 'decentr://resources/js/cr/ui/splitter.js';
 
 import {Table} from './table.js';
 

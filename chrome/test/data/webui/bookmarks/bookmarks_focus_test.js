@@ -22,7 +22,7 @@ const BookmarksFocusTest = class extends PolymerInteractiveUITest {
 var BookmarksFolderNodeFocusTest = class extends BookmarksFocusTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://bookmarks/test_loader.html?module=bookmarks/folder_node_focus_test.js';
+    return 'decentr://bookmarks/test_loader.html?module=bookmarks/folder_node_focus_test.js';
   }
 };
 
@@ -36,7 +36,7 @@ TEST_F('BookmarksFolderNodeFocusTest', 'MAYBE_All', function() {
 var BookmarksListFocusTest = class extends BookmarksFocusTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://bookmarks/test_loader.html?module=bookmarks/list_focus_test.js';
+    return 'decentr://bookmarks/test_loader.html?module=bookmarks/list_focus_test.js';
   }
 };
 
@@ -50,7 +50,7 @@ TEST_F('BookmarksListFocusTest', 'MAYBE_All', function() {
 var BookmarksDialogFocusManagerTest = class extends BookmarksFocusTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://bookmarks/test_loader.html?module=bookmarks/dialog_focus_manager_test.js';
+    return 'decentr://bookmarks/test_loader.html?module=bookmarks/dialog_focus_manager_test.js';
   }
 };
 

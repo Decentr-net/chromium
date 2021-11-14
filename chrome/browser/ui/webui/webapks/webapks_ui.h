@@ -8,7 +8,7 @@
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The WebUI handler for chrome://webapks.
+// The WebUI handler for decentr://webapks.
 class WebApksUI : public content::WebUIController {
  public:
   explicit WebApksUI(content::WebUI* web_ui);

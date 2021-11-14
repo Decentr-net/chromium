@@ -26,7 +26,7 @@ class DriveApiUrlGeneratorTest : public testing::Test {
   DriveApiUrlGeneratorTest()
       : url_generator_(GURL(kBaseUrlForTesting),
                        GURL(kBaseThumbnailUrlForTesting)) {
-    url::AddStandardScheme("chrome-extension", url::SCHEME_WITH_HOST);
+    url::AddStandardScheme("decentr-extension", url::SCHEME_WITH_HOST);
   }
 
  protected:

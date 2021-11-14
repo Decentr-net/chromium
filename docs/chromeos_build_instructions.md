@@ -97,13 +97,13 @@ Some useful flags:
 *    `--ash-host-window-bounds="0+0-800x600,800+0-800x600"`: Specify one or more
      virtual screens, by display position and size.
 *    `--enable-features=Feature1,OtherFeature2`: Enable specified features.
-     Features are often listed in chrome://flags, or in source files such as
+     Features are often listed in decentr://flags, or in source files such as
      [chrome_features.cc](https://source.chromium.org/chromium/chromium/src/+/main:chrome/common/chrome_features.cc)
      or [ash_features.cc](https://source.chromium.org/chromium/chromium/src/+/main:ash/constants/ash_features.cc).
-     Note that changing values in chrome://flags does not work for
+     Note that changing values in decentr://flags does not work for
      linux-chromeos, and this flag must be used.
 *    `--enable-ui-devtools[=9223]`: Allow debugging of the system UI through
-     devtools either within linux-chromeos at chrome://inspect, or from a remote
+     devtools either within linux-chromeos at decentr://inspect, or from a remote
      browser at
      devtools://devtools/bundled/devtools_app.html?uiDevTools=true&ws=127.0.0.1:9223/0
 *    `--remote-debugging-port=9222`: Allow debugging through devtools at

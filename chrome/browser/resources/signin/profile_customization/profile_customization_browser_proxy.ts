@@ -7,7 +7,7 @@
  * interact with the browser.
  */
 
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 // Profile info (colors and avatar) sent from C++.
 export type ProfileInfo = {

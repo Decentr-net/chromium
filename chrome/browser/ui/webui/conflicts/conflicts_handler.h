@@ -18,7 +18,7 @@ class Listvalue;
 }
 
 // This class takes care of sending the list of all loaded modules to the
-// chrome://conflicts WebUI page when it is requested.
+// decentr://conflicts WebUI page when it is requested.
 class ConflictsHandler : public content::WebUIMessageHandler {
  public:
   ConflictsHandler();

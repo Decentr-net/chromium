@@ -110,7 +110,7 @@ class ModelTypeSyncBridge {
   // Asynchronously retrieve all of the local sync data. |callback| should be
   // invoked if the operation is successful, otherwise the processor's
   // ReportError method should be called.
-  // Used for getting all data in Sync Node Browser of chrome://sync-internals.
+  // Used for getting all data in Sync Node Browser of decentr://sync-internals.
   virtual void GetAllDataForDebugging(DataCallback callback) = 0;
 
   // Must not be called unless SupportsGetClientTag() returns true.

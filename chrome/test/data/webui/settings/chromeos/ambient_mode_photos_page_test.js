@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {AmbientModeTopicSource, AmbientModeBrowserProxyImpl} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {AmbientModeTopicSource, AmbientModeBrowserProxyImpl} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 /**
@@ -584,7 +584,7 @@ suite('AmbientModeHandler', function() {
     const album0 = albumItems[0];
 
     // Different topic source will no update album URL.
-    const url = 'chrome://ambient';
+    const url = 'decentr://ambient';
     cr.webUIListenerCallback('album-preview-changed', {
       topicSource: AmbientModeTopicSource.GOOGLE_PHOTOS,
       albumId: 'id0',

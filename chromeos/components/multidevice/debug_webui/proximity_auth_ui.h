@@ -23,7 +23,7 @@ class SecureChannelClient;
 
 namespace multidevice {
 
-// The WebUI controller for chrome://proximity-auth.
+// The WebUI controller for decentr://proximity-auth.
 class ProximityAuthUI : public ui::MojoWebUIController {
  public:
   using MultiDeviceSetupBinder = base::RepeatingCallback<void(

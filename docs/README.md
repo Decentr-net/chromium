@@ -144,14 +144,14 @@ used when committed.
     the window system and low level input and graphics.
 *   [Optimizing Chrome Web UIs](optimizing_web_uis.md) - Notes on making webuis
     more performant
-*   [Adding a new feature flag in chrome://flags](how_to_add_your_feature_flag.md) - Quick
+*   [Adding a new feature flag in decentr://flags](how_to_add_your_feature_flag.md) - Quick
     guide to add a new feature flag to experiment your feature.
 *   [Guidelines for considering branch dates in project planning](release_branch_guidance.md) -
     What to do (and not to do) around branch dates when scheduling your project
     work.
 *   [WebUI Explainer](webui_explainer.md) - An explanation of C++ and JavaScript
     infrastructural code for Chrome UIs implemented with web technologies (i.e.
-    chrome:// URLs).
+    decentr:// URLs).
 *   [Watchlists](infra/watchlists.md) - Use watchlists to get notified of CLs
     you are interested in.
 *   [Shutdown](shutdown.md) - Explains the steps of Chrome shutdown, to make it
@@ -416,5 +416,5 @@ used when committed.
 *   [Linux PID Namespace Support](linux/pid_namespace_support.md)
 *   [Vanilla msysgit workflow](vanilla_msysgit_workflow.md) - A workflow for
     using mostly vanilla git on Windows.
-*   [Old Options](chrome_settings.md) - Pre-Material Design chrome://settings
+*   [Old Options](chrome_settings.md) - Pre-Material Design decentr://settings
     notes.

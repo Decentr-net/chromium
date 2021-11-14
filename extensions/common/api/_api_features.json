@@ -98,8 +98,8 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bluetooth-pairing/*",
-      "chrome://os-settings/*"
+      "decentr://bluetooth-pairing/*",
+      "decentr://os-settings/*"
     ]
   }],
   "bluetoothLowEnergy": {
@@ -114,8 +114,8 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bluetooth-pairing/*",
-      "chrome://os-settings/*"
+      "decentr://bluetooth-pairing/*",
+      "decentr://os-settings/*"
     ]
   }],
   "bluetoothSocket": {
@@ -189,9 +189,9 @@
       "channel": "stable",
       "contexts": ["webui"],
       "matches": [
-        "chrome://feedback/*",
-        "chrome://cast-feedback/*",
-        "chrome://os-feedback/*"
+        "decentr://feedback/*",
+        "decentr://cast-feedback/*",
+        "decentr://os-feedback/*"
       ]
     }
   ],
@@ -204,7 +204,7 @@
       "channel": "stable",
       "contexts": ["webui"],
       "matches": [
-        "chrome://feedback/*"
+        "decentr://feedback/*"
       ]
     }
   ],
@@ -223,18 +223,18 @@
       "channel": "stable",
       "contexts": ["webui"],
       "matches": [
-        "chrome://add-supervision/*",
-        "chrome://assistant-optin/*",
-        "chrome://discards/*",
-        "chrome://extensions/*",
-        "chrome://home/*",
-        "chrome://chrome-signin/*",
-        "chrome://mobilesetup/*",
-        "chrome://oobe/*",
-        "chrome://os-settings/*",
-        "chrome://parent-access/*",
-        "chrome://password-change/*",
-        "chrome://lock-reauth/*"
+        "decentr://add-supervision/*",
+        "decentr://assistant-optin/*",
+        "decentr://discards/*",
+        "decentr://extensions/*",
+        "decentr://home/*",
+        "decentr://chrome-signin/*",
+        "decentr://mobilesetup/*",
+        "decentr://oobe/*",
+        "decentr://os-settings/*",
+        "decentr://parent-access/*",
+        "decentr://password-change/*",
+        "decentr://lock-reauth/*"
       ]
     }
   ],
@@ -269,8 +269,8 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://extensions/*",
-      "chrome://settings/*"
+      "decentr://extensions/*",
+      "decentr://settings/*"
     ]
   }],
   "management.getPermissionWarningsByManifest": {
@@ -316,29 +316,29 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://bookmarks/*",
-      "chrome://download-shelf.top-chrome/*",
-      "chrome://eche-app/*",
-      "chrome://extensions/*",
-      "chrome://file-manager/*",
-      "chrome://help-app/*",
-      "chrome://history/*",
-      "chrome://new-tab-page/*",
-      "chrome://os-settings/*",
-      "chrome://profile-picker/*",
-      "chrome://read-later.top-chrome/*",
-      "chrome://settings/*",
-      "chrome://sync-confirmation/*",
-      "chrome://tab-search.top-chrome/*",
-      "chrome://tab-strip.top-chrome/*",
-      "chrome://welcome/*"
+      "decentr://bookmarks/*",
+      "decentr://download-shelf.top-chrome/*",
+      "decentr://eche-app/*",
+      "decentr://extensions/*",
+      "decentr://file-manager/*",
+      "decentr://help-app/*",
+      "decentr://history/*",
+      "decentr://new-tab-page/*",
+      "decentr://os-settings/*",
+      "decentr://profile-picker/*",
+      "decentr://read-later.top-chrome/*",
+      "decentr://settings/*",
+      "decentr://sync-confirmation/*",
+      "decentr://tab-search.top-chrome/*",
+      "decentr://tab-strip.top-chrome/*",
+      "decentr://welcome/*"
     ]
   }, {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://help-app/*",
-      "chrome-untrusted://media-app/*"
+      "decentr-untrusted://help-app/*",
+      "decentr-untrusted://media-app/*"
     ]
   }],
   "metricsPrivate.getIsCrashReportingEnabled": {
@@ -416,11 +416,11 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://network/*",
-      "chrome://oobe/*",
-      "chrome://internet-config-dialog/*",
-      "chrome://internet-detail-dialog/*",
-      "chrome://os-settings/*"
+      "decentr://network/*",
+      "decentr://oobe/*",
+      "decentr://internet-config-dialog/*",
+      "decentr://internet-detail-dialog/*",
+      "decentr://os-settings/*"
     ]
   }],
   "power": {
@@ -480,7 +480,7 @@
     "contexts": ["webui_untrusted"],
     "matches": [
       // Allow only nassh.html page in Terminal System Web App.
-      "chrome-untrusted://terminal/html/nassh.html"
+      "decentr-untrusted://terminal/html/nassh.html"
     ]
   }],
   "runtime.connectNative": {
@@ -542,15 +542,15 @@
   },{
     "contexts": ["webui"],
     "matches": [
-      "chrome://password-change/*",
-      "chrome://file-manager/*"
+      "decentr://password-change/*",
+      "decentr://file-manager/*"
     ]
   },{
     "channel": "dev",
     "contexts": ["webui_untrusted"],
     "matches": [
       // Allow only nassh.html page in Terminal System Web App.
-      "chrome-untrusted://terminal/html/nassh.html"
+      "decentr-untrusted://terminal/html/nassh.html"
     ]
   }],
   "runtime.sendNativeMessage": {
@@ -595,7 +595,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://os-settings/*"
+      "decentr://os-settings/*"
     ]
   }],
   "system.memory": {
@@ -629,15 +629,15 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://extensions/*",
+      "decentr://extensions/*",
       // System Web App version of File Manager.
-      "chrome://file-manager/*",
-      "chrome://test/*"
+      "decentr://file-manager/*",
+      "decentr://test/*"
     ]
   }, {
     "channel": "stable",
     "contexts": [ "webui_untrusted" ],
-    "matches": [ "chrome-untrusted://api-test/*" ]
+    "matches": [ "decentr-untrusted://api-test/*" ]
   }],
   "types": {
     "internal": true,
@@ -671,17 +671,17 @@
     "internal": true,
     "contexts": ["webui"],
     "matches": [
-      "chrome://add-supervision/*",
-      "chrome://assistant-optin/*",
-      "chrome://chrome-signin/*",
-      "chrome://discards/*",
-      "chrome://home/*",
-      "chrome://mobilesetup/*",
-      "chrome://oobe/*",
-      "chrome://os-settings/*",
-      "chrome://parent-access/*",
-      "chrome://password-change/*",
-      "chrome://lock-reauth/*"
+      "decentr://add-supervision/*",
+      "decentr://assistant-optin/*",
+      "decentr://chrome-signin/*",
+      "decentr://discards/*",
+      "decentr://home/*",
+      "decentr://mobilesetup/*",
+      "decentr://oobe/*",
+      "decentr://os-settings/*",
+      "decentr://parent-access/*",
+      "decentr://password-change/*",
+      "decentr://lock-reauth/*"
     ]
   }],
   "webViewInternal": [{
@@ -693,17 +693,17 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://add-supervision/*",
-      "chrome://assistant-optin/*",
-      "chrome://chrome-signin/*",
-      "chrome://discards/*",
-      "chrome://home/*",
-      "chrome://mobilesetup/*",
-      "chrome://oobe/*",
-      "chrome://os-settings/*",
-      "chrome://parent-access/*",
-      "chrome://password-change/*",
-      "chrome://lock-reauth/*"
+      "decentr://add-supervision/*",
+      "decentr://assistant-optin/*",
+      "decentr://chrome-signin/*",
+      "decentr://discards/*",
+      "decentr://home/*",
+      "decentr://mobilesetup/*",
+      "decentr://oobe/*",
+      "decentr://os-settings/*",
+      "decentr://parent-access/*",
+      "decentr://password-change/*",
+      "decentr://lock-reauth/*"
     ]
   }],
   "webViewRequest": [{
@@ -713,15 +713,15 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://add-supervision/*",
-      "chrome://assistant-optin/*",
-      "chrome://chrome-signin/*",
-      "chrome://discards/*",
-      "chrome://home/*",
-      "chrome://mobilesetup/*",
-      "chrome://oobe/*",
-      "chrome://os-settings/*",
-      "chrome://parent-access/*"
+      "decentr://add-supervision/*",
+      "decentr://assistant-optin/*",
+      "decentr://chrome-signin/*",
+      "decentr://discards/*",
+      "decentr://home/*",
+      "decentr://mobilesetup/*",
+      "decentr://oobe/*",
+      "decentr://os-settings/*",
+      "decentr://parent-access/*"
     ]
   }]
 }

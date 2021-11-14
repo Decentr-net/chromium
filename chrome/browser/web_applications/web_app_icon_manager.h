@@ -172,7 +172,7 @@ class WebAppIconManager : public AppRegistrarObserver {
   void SetFaviconMonochromeReadCallbackForTesting(FaviconReadCallback callback);
 
   // Collects icon read/write errors (unbounded) if the |kRecordWebAppDebugInfo|
-  // flag is enabled to be used by: chrome://web-app-internals
+  // flag is enabled to be used by: decentr://web-app-internals
   const std::vector<std::string>* error_log() const { return error_log_.get(); }
   std::vector<std::string>* error_log() { return error_log_.get(); }
 

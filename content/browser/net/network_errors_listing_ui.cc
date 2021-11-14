@@ -77,7 +77,7 @@ void HandleWebUIRequestCallback(BrowserContext* current_context,
 
 NetworkErrorsListingUI::NetworkErrorsListingUI(WebUI* web_ui)
     : WebUIController(web_ui) {
-  // Set up the chrome://network-errors source.
+  // Set up the decentr://network-errors source.
   WebUIDataSource* html_source =
       WebUIDataSource::Create(kChromeUINetworkErrorsListingHost);
 

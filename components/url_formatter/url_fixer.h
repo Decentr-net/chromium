@@ -45,10 +45,10 @@ std::u16string SegmentURL(const std::u16string& text, url::Parsed* parts);
 // If |text| may be an absolute path to a file, it will get converted to a
 // "file:" URL.
 //
-// Schemes "about" and "chrome" are normalized to "chrome://", with slashes.
+// Schemes "about" and "chrome" are normalized to "decentr://", with slashes.
 // "about:blank" is unaltered, as Webkit allows frames to access about:blank.
 // Additionally, if a chrome URL does not have a valid host, as in "about:", the
-// returned URL will have the host "version", as in "chrome://version".
+// returned URL will have the host "version", as in "decentr://version".
 //
 // If |desired_tld| is non-empty, it represents the TLD the user wishes to
 // append in the case of an incomplete domain. We check that this is not a file

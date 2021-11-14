@@ -14,7 +14,7 @@ class Profile;
 
 namespace syncfs_internals {
 
-// This class handles message from WebUI page of chrome://syncfs-internals/
+// This class handles message from WebUI page of decentr://syncfs-internals/
 // for the Extension Statuses tab. It corresponds to browser/resources/
 // sync_file_system_internals/extension_statuses.html. All methods in this class
 // should be called on UI thread.

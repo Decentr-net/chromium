@@ -1402,7 +1402,7 @@ Postavkama računa možete upravljati tako da instalirate aplikaciju Family Link
 <translation id="2431027948063157455">Učitavanje Google asistenta nije uspjelo, provjerite mrežnu vezu i pokušajte ponovo.</translation>
 <translation id="243179355394256322">Vaša organizacija ograničila je prijavu uređaja samo na ovlaštene korisnike. Korisnik nije ovlašten za prijavu uređaja. Provjerite ima li korisnik administratorsku ovlast Prijavi hardver za Meet u odjeljku Korisnici administratorske konzole.</translation>
 <translation id="243275146591958220">Otkaži preuzimanje</translation>
-<translation id="2433452467737464329">Dodajte parametar upita u URL da biste automatski osvježili stranicu: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Dodajte parametar upita u URL da biste automatski osvježili stranicu: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Prikaz</translation>
 <translation id="2433836460518180625">Otključaj samo uređaj</translation>
 <translation id="2434449159125086437">Postavljanje pisača nije moguće. Provjerite konfiguraciju i pokušajte ponovo.</translation>
@@ -1931,7 +1931,7 @@ i Ctrl + Alt + Smanjivanje svjetline da biste smanjili prikaz.</translation>
 <translation id="2959127025785722291">Nešto nije u redu. Pregled nije dovršen. Pokušajte ponovo.</translation>
 <translation id="2959842337402130152">Vraćanje nije moguće jer nema dovoljno prostora za pohranu. Oslobodite <ph name="SPACE_REQUIRED" /> na uređaju i pokušajte ponovo.</translation>
 <translation id="2960208947600937804">Došlo je do pogreške prilikom konfiguriranja Linuxa. Obratite se administratoru.</translation>
-<translation id="296026337010986570">Gotovo! Štetni je softver uklonjen. Za ponovno uključivanje proširenja otvorite &lt;a href="chrome://extensions"&gt;Proširenja&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Gotovo! Štetni je softver uklonjen. Za ponovno uključivanje proširenja otvorite &lt;a href="decentr://extensions"&gt;Proširenja&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (omogućeno produženje)</translation>
 <translation id="2961210776189273067">Titula</translation>
 <translation id="2961695502793809356">Kliknite za kretanje prema naprijed, zadržite da biste vidjeli povijest</translation>
@@ -4928,7 +4928,7 @@ Toj radnji možete dodijeliti više prekidača.</translation>
 <translation id="6227280783235722609">proširenje</translation>
 <translation id="6229849828796482487">Prekidanje veze s Wi-Fi mrežom</translation>
 <translation id="6231782223312638214">Predloženo</translation>
-<translation id="6231881193380278751">Dodajte parametar upita u URL da biste automatski osvježili stranicu: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Dodajte parametar upita u URL da biste automatski osvježili stranicu: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Baterija</translation>
 <translation id="6232116551750539448">Prekinuta je veza s mrežom <ph name="NAME" /></translation>
 <translation id="6233154960150021497">Vraćanje na upotrebu glasa umjesto tipkovnice</translation>

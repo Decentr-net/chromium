@@ -77,7 +77,7 @@ const char kGaiaLockScreenOfflineSigninTimeLimitDays[] =
 const char kSamlLockScreenOfflineSigninTimeLimitDays[] =
     "saml.lock_screen_offline_signin_time_limit";
 
-// Enable chrome://password-change page for in-session change of SAML passwords.
+// Enable decentr://password-change page for in-session change of SAML passwords.
 // Also enables SAML password expiry notifications, if we have that information.
 const char kSamlInSessionPasswordChangeEnabled[] =
     "saml.in_session_password_change_enabled";

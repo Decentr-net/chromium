@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/ethernet_info.js';
+import 'decentr://diagnostics/ethernet_info.js';
 
-import {AuthenticationType, EthernetStateProperties, Network} from 'chrome://diagnostics/diagnostics_types.js';
-import {fakeEthernetNetwork} from 'chrome://diagnostics/fake_data.js';
+import {AuthenticationType, EthernetStateProperties, Network} from 'decentr://diagnostics/diagnostics_types.js';
+import {fakeEthernetNetwork} from 'decentr://diagnostics/fake_data.js';
 
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

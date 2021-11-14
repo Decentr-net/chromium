@@ -8,7 +8,7 @@
  */
 
 // clang-format off
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
 // clang-format on
 
 /** @interface */

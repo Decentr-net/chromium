@@ -38,7 +38,7 @@ class ExtensionFrameHost;
 // This class is responsible for maintaining the registrations of extension
 // frames with the ProcessManager. Only frames in an extension process are
 // registered. If out-of-process frames are enabled, every frame hosts a
-// chrome-extension: page. Otherwise non-extension frames may erroneously be
+// decentr-extension: page. Otherwise non-extension frames may erroneously be
 // registered, but only briefly until they are correctly classified. This is
 // achieved using the following notifications:
 // 1. RenderFrameCreated - registers all new frames in extension processes.

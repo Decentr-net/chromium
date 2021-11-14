@@ -46,7 +46,7 @@ chrome.test.runTests([
     });
   },
   function testGetCrostiniSharedPaths() {
-    const urlPrefix = 'filesystem:chrome-extension://' + TEST_EXTENSION_ID +
+    const urlPrefix = 'filesystem:decentr-extension://' + TEST_EXTENSION_ID +
         '/external/Downloads-user';
     let observeFirstForSession = false;
     chrome.fileManagerPrivate.getCrostiniSharedPaths(

@@ -178,7 +178,7 @@ using chrome_test_util::SystemSelectionCalloutCopyButton;
   // some configurations the NTP only has a fakebox and does not display the
   // omnibox.)
   [ChromeEarlGrey loadURL:GURL("about:blank")];
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
 
   // First test: check that the keyboard is opened when tapping the omnibox,
   // and that it is dismissed when the "Back" button is tapped.
@@ -337,7 +337,7 @@ using chrome_test_util::SystemSelectionCalloutCopyButton;
     EARL_GREY_TEST_SKIPPED(@"This test doesn't pass on iPad device.");
   }
 #endif
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
   [ChromeEarlGreyUI focusOmniboxAndType:@"javascript:alert('Hello');\n"];
 
   [[EarlGrey

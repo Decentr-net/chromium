@@ -186,7 +186,7 @@ void SetLanguage(PlatformSpellChecker* spell_checker_instance,
   // Do not set any language right now, since Chrome should honor the
   // system spellcheck settings. (http://crbug.com/166046)
   // Fix this once Chrome actually allows setting a spellcheck language
-  // in chrome://settings.
+  // in decentr://settings.
   //  NSString* NS_lang_to_set = ConvertLanguageCodeToMac(lang_to_set);
   //  [SharedSpellChecker() setLanguage:NS_lang_to_set];
   std::move(callback).Run(true);

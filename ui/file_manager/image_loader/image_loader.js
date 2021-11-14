@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ImageOrientation} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/foreground/js/metadata/image_orientation.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {ImageOrientation} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/foreground/js/metadata/image_orientation.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {ImageCache} from './cache.js';
 import {ImageRequestTask} from './image_request_task.js';
@@ -97,8 +97,8 @@ export function ImageLoader() {
  * @type {Array<string>}
  */
 ImageLoader.ALLOWED_CLIENT_ORIGINS = [
-  'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj',  // File Manager
-  'chrome://file-manager',  // File Manager SWA
+  'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj',  // File Manager
+  'decentr://file-manager',  // File Manager SWA
 ];
 
 /**

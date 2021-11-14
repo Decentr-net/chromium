@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {decorate, define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
-import {Splitter} from 'chrome://resources/js/cr/ui/splitter.js';
-import {Tree, TreeItem} from 'chrome://resources/js/cr/ui/tree.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {decorate, define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
+import {Splitter} from 'decentr://resources/js/cr/ui/splitter.js';
+import {Tree, TreeItem} from 'decentr://resources/js/cr/ui/tree.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {getAllNodes} from './chrome_sync.js';
 

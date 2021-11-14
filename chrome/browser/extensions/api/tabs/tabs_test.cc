@@ -1747,7 +1747,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionTabsZoomTest, ZoomSettings) {
   // In this test we need two URLs that (1) represent real pages (i.e. they
   // load without causing an error page load), (2) have different domains, and
   // (3) are zoomable by the extension API (this last condition rules out
-  // chrome:// urls). We achieve this by noting that about:blank meets these
+  // decentr:// urls). We achieve this by noting that about:blank meets these
   // requirements, allowing us to spin up an embedded http server on localhost
   // to get the other domain.
   net::EmbeddedTestServer http_server;
@@ -1876,7 +1876,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionTabsZoomTest, CannotZoomInvalidTab) {
   error = RunSetZoomSettingsExpectError(bogus_id, "manual", "per-tab");
   EXPECT_TRUE(base::MatchPattern(error, keys::kTabNotFoundError));
 
-  const char kNewTestTabArgs[] = "chrome://version";
+  const char kNewTestTabArgs[] = "decentr://version";
   params = GetOpenParams(kNewTestTabArgs);
   web_contents = browser()->OpenURL(params);
   tab_id = ExtensionTabUtil::GetTabId(web_contents);
@@ -2106,7 +2106,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionApiTest, WindowsCreate_OpenerAndOrigin) {
       {kDataURL, false, "null"},
       {kDataURL, absl::nullopt, "null"},
 
-      // chrome-extension:// URLs.
+      // decentr-extension:// URLs.
       // These always get extension origin.
       {extension_url_str, true, extension_origin_str},
       {extension_url_str, false, extension_origin_str},
@@ -2222,12 +2222,12 @@ IN_PROC_BROWSER_TEST_F(ExtensionApiTest, TabsUpdate_WebToAboutNewTab) {
   GURL web_url = embedded_test_server()->GetURL("/title1.html");
   url::Origin web_origin = url::Origin::Create(web_url);
 
-  // https://crbug.com/1145381: about:version is rewritten to chrome://version
+  // https://crbug.com/1145381: about:version is rewritten to decentr://version
   // when entered in the omnibox or used in a bookmark.  Such rewriting is
   // definitely undesirable for http-initiated navigations (see r818969), but
   // it is less clear what should happen in extension-initiated navigations.
   GURL about_newtab_url = GURL("about:newtab");
-  GURL chrome_newtab_url = GURL("chrome://new-tab-page/");
+  GURL chrome_newtab_url = GURL("decentr://new-tab-page/");
 
   // Navigate a tab to an extension page.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), extension_url));

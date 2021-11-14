@@ -3,17 +3,17 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {assert} from 'chrome://resources/js/assert.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
 // #import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {FakeQuickUnlockPrivate} from './fake_quick_unlock_private.m.js';
 // #import {FakeQuickUnlockUma} from './fake_quick_unlock_uma.m.js';
-// #import {LockScreenProgress} from 'chrome://resources/cr_components/chromeos/quick_unlock/lock_screen_constants.m.js';
-// #import {FakeSettingsPrivate} from 'chrome://test/settings/fake_settings_private.js';
-// #import {CrSettingsPrefs, Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {LockScreenProgress} from 'decentr://resources/cr_components/chromeos/quick_unlock/lock_screen_constants.m.js';
+// #import {FakeSettingsPrivate} from 'decentr://test/settings/fake_settings_private.js';
+// #import {CrSettingsPrefs, Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // #import {eventToPromise, waitAfterNextRender, waitBeforeNextRender} from '../../../test_util.js';
 // clang-format on
 

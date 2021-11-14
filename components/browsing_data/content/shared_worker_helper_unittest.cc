@@ -60,7 +60,7 @@ TEST_F(CannedSharedWorkerHelperTest, Delete) {
 }
 
 TEST_F(CannedSharedWorkerHelperTest, IgnoreExtensionsAndDevTools) {
-  const GURL worker1("chrome-extension://abcdefghijklmnopqrstuvwxyz/worker.js");
+  const GURL worker1("decentr-extension://abcdefghijklmnopqrstuvwxyz/worker.js");
   const GURL worker2("devtools://abcdefghijklmnopqrstuvwxyz/worker.js");
   std::string name("name");
   const blink::StorageKey storage_key1(url::Origin::Create(worker1));

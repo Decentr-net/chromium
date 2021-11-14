@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {isChromeOS, isWindows, webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {listenOnce} from 'chrome://resources/js/util.m.js';
-import {flush,Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ChooserType,ContentSetting,ContentSettingsTypes,SiteSettingSource,SiteSettingsPrefsBrowserProxyImpl,WebsiteUsageBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {MetricsBrowserProxyImpl, PrivacyElementInteractions, Route,Router,routes} from 'chrome://settings/settings.js';
-import {TestSiteSettingsPrefsBrowserProxy} from 'chrome://test/settings/test_site_settings_prefs_browser_proxy.js';
-import {createContentSettingTypeToValuePair,createRawChooserException,createRawSiteException,createSiteSettingsPrefs} from 'chrome://test/settings/test_util.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {isChromeOS, isWindows, webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {listenOnce} from 'decentr://resources/js/util.m.js';
+import {flush,Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ChooserType,ContentSetting,ContentSettingsTypes,SiteSettingSource,SiteSettingsPrefsBrowserProxyImpl,WebsiteUsageBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {MetricsBrowserProxyImpl, PrivacyElementInteractions, Route,Router,routes} from 'decentr://settings/settings.js';
+import {TestSiteSettingsPrefsBrowserProxy} from 'decentr://test/settings/test_site_settings_prefs_browser_proxy.js';
+import {createContentSettingTypeToValuePair,createRawChooserException,createRawSiteException,createSiteSettingsPrefs} from 'decentr://test/settings/test_util.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 import {TestMetricsBrowserProxy} from './test_metrics_browser_proxy.js';
 
 // clang-format on

@@ -181,7 +181,7 @@ TEST(DriveAPIParserTest, FileListParser) {
   EXPECT_EQ(0U, file2.open_with_links().size());
   EXPECT_EQ(GURL("https://drive.google.com/share"
                  "?id=1Pc8jzfU1ErbN_eucMMqdqzY3eBm0v8sxXm_1CtLxABC"
-                 "&embedOrigin=chrome-extension://test&hl=ja"),
+                 "&embedOrigin=decentr-extension://test&hl=ja"),
             file2.share_link());
 
   // Check file 3 (a folder)

@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/network/network_list.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/network/network_list.m.js';
 
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://resources/mojo/services/network/public/mojom/ip_address.mojom-lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
-// #import 'chrome://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/services/network/public/mojom/ip_address.mojom-lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
 
-// #import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // clang-format on
 
 suite('NetworkListTest', function() {

@@ -582,7 +582,7 @@ void AppLauncherHandler::OnWebAppWillBeUninstalled(
 
 void AppLauncherHandler::OnWebAppUninstalled(const web_app::AppId& app_id) {
   // This can be redundant in most cases, however it is not uncommon for the
-  // chrome://apps page to be loaded, or reloaded, during the uninstallation of
+  // decentr://apps page to be loaded, or reloaded, during the uninstallation of
   // an app. In this state, the app is still in the registry, but the
   // |OnWebAppWillBeUninstalled| event has already been sent. Thus we also
   // listen to this event, to ensure that the app is removed.
@@ -1217,7 +1217,7 @@ void AppLauncherHandler::OnFaviconForAppInstallFromLink(
              const web_app::AppId& app_id,
              web_app::InstallResultCode install_result) {
             // Note: this installation path only happens when the user drags a
-            // link to chrome://apps, hence the specific metric name.
+            // link to decentr://apps, hence the specific metric name.
             base::UmaHistogramEnumeration(
                 "Apps.Launcher.InstallAppFromLinkResult", install_result);
             if (!app_launcher_handler)

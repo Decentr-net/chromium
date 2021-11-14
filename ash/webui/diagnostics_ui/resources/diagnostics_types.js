@@ -7,9 +7,9 @@
  * Type aliases for the mojo API.
  */
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/big_buffer.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
 import './input_data_provider.mojom-lite.js';
 import './network_health_provider.mojom-lite.js'
 import './system_data_provider.mojom-lite.js';

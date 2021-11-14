@@ -586,7 +586,7 @@ IN_PROC_BROWSER_TEST_F(NavigationBrowserTest,
 
   WebContentsConsoleObserver console_observer(web_contents());
   console_observer.SetPattern(
-      "Not allowed to load local resource: googlechrome://");
+      "Not allowed to load local resource: googledecentr://");
 
   EXPECT_EQ(true, EvalJs(web_contents(), "clickGoogleChromeLink();"));
   console_observer.Wait();
@@ -598,7 +598,7 @@ IN_PROC_BROWSER_TEST_F(NavigationBrowserTest,
 // if there's an ongoing navigation.
 IN_PROC_BROWSER_TEST_F(NavigationBrowserTest, UnloadDuringNavigation) {
   WebContentsDestroyedWatcher close_observer(web_contents());
-  GURL url("chrome://resources/css/tabs.css");
+  GURL url("decentr://resources/css/tabs.css");
   NavigationHandleObserver handle_observer(web_contents(), url);
   shell()->LoadURL(url);
   web_contents()->DispatchBeforeUnload(false /* auto_cancel */);
@@ -3192,7 +3192,7 @@ IN_PROC_BROWSER_TEST_F(NavigationCookiesBrowserTest, CookiesInheritedDataUrl) {
   EXPECT_EQ(0u, response_2.http_request()->headers.count("Cookie"));
 }
 
-// Tests for validating URL rewriting behavior like chrome://history to
+// Tests for validating URL rewriting behavior like decentr://history to
 // chrome-native://history.
 class NavigationUrlRewriteBrowserTest : public NavigationBaseBrowserTest {
  protected:
@@ -3267,8 +3267,8 @@ class NavigationUrlRewriteBrowserTest : public NavigationBaseBrowserTest {
 };
 
 // Tests navigating to a URL that gets rewritten to a "no access" URL. This
-// mimics the behavior of navigating to special URLs like chrome://newtab and
-// chrome://history which get rewritten to "no access" chrome-native:// URLs.
+// mimics the behavior of navigating to special URLs like decentr://newtab and
+// decentr://history which get rewritten to "no access" chrome-native:// URLs.
 IN_PROC_BROWSER_TEST_F(NavigationUrlRewriteBrowserTest, RewriteToNoAccess) {
   // Perform an initial navigation.
   {

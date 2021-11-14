@@ -179,15 +179,15 @@ std::unique_ptr<network::SimpleURLLoader> RemoteClusteringBackend::CreateLoader(
         semantics {
           sender: "Memories"
           description:
-            "chrome://memories clusters the user's history entries into "
+            "decentr://memories clusters the user's history entries into "
             "'memories' for easier browsing and searching. This request is "
             "made only if the user explicitly sets the appropriate feature and "
             "param through the command line. The param is intentionally not in "
-            "chrome://flags to avoid users accidentally setting it. The "
+            "decentr://flags to avoid users accidentally setting it. The "
             "request will send the user's previous navigations and searches. "
           trigger: "User must set a command line param. The request is sent "
             "for both explicit user actions (e.g. navigating, visiting "
-            "chrome://memories, or typing in the omnibox) and passively (e.g. "
+            "decentr://memories, or typing in the omnibox) and passively (e.g. "
             " on browser startup or periodically)."
           data: "The user's navigation and search history."
           destination: OTHER

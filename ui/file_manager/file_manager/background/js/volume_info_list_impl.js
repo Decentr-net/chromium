@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
 
 import {VolumeInfo} from '../../externs/volume_info.js';
 import {VolumeInfoList} from '../../externs/volume_info_list.js';

@@ -104,10 +104,10 @@ const struct PatternContentTypeTestCase {
     {{"https://google.com", "cookies"}, {true, ""}},
     {{";", "cookies"}, {false, "Not a valid web address"}},
     {{"*", "cookies"}, {false, "Not a valid web address"}},
-    {{"chrome://test", "popups"}, {false, "Not a valid web address"}},
-    {{"chrome-untrusted://test", "popups"}, {false, "Not a valid web address"}},
+    {{"decentr://test", "popups"}, {false, "Not a valid web address"}},
+    {{"decentr-untrusted://test", "popups"}, {false, "Not a valid web address"}},
     {{"devtools://devtools", "popups"}, {false, "Not a valid web address"}},
-    {{"chrome-search://search", "popups"}, {false, "Not a valid web address"}},
+    {{"decentr-search://search", "popups"}, {false, "Not a valid web address"}},
     {{"http://google.com", "location"}, {false, "Origin must be secure"}},
     {{"http://127.0.0.1", "location"}, {true, ""}},  // Localhost is secure.
     {{"http://[::1]", "location"}, {true, ""}}};
@@ -1501,7 +1501,7 @@ TEST_F(SiteSettingsHandlerTest, ExceptionHelpers) {
 TEST_F(SiteSettingsHandlerTest, ExtensionDisplayName) {
   auto* extension_registry = extensions::ExtensionRegistry::Get(profile());
   std::string test_extension_id = "test-extension-url";
-  std::string test_extension_url = "chrome-extension://" + test_extension_id;
+  std::string test_extension_url = "decentr-extension://" + test_extension_id;
   scoped_refptr<const extensions::Extension> extension =
       extensions::ExtensionBuilder()
           .SetManifest(extensions::DictionaryBuilder()
@@ -1650,10 +1650,10 @@ TEST_F(SiteSettingsHandlerInfobarTest, SettingPermissionsTriggersInfobar) {
       "https://www.example.com/with/path/blah#heading";
   const GURL foo("http://foo");
   const GURL origin_anchor(origin_anchor_string);
-  const GURL chrome("chrome://about");
+  const GURL chrome("decentr://about");
   const GURL origin("https://www.example.com/");
   const GURL extension(
-      "chrome-extension://fooooooooooooooooooooooooooooooo/bar.html");
+      "decentr-extension://fooooooooooooooooooooooooooooooo/bar.html");
 
   // Make sure |extension|'s extension ID exists before navigating to it. This
   // fixes a test timeout that occurs with --enable-browser-side-navigation on.
@@ -1852,8 +1852,8 @@ TEST_F(SiteSettingsHandlerTest, ExcludeWebUISchemesInLists) {
       ContentSettingsType::NOTIFICATIONS;
   // Register WebUIAllowlist auto-granted permissions.
   const url::Origin kWebUIOrigins[] = {
-      url::Origin::Create(GURL("chrome://test")),
-      url::Origin::Create(GURL("chrome-untrusted://test")),
+      url::Origin::Create(GURL("decentr://test")),
+      url::Origin::Create(GURL("decentr-untrusted://test")),
       url::Origin::Create(GURL("devtools://devtools")),
   };
 
@@ -1934,15 +1934,15 @@ TEST_F(SiteSettingsHandlerTest, ExcludeWebUISchemesInLists) {
 
 // GetOriginPermissions() returns the allowlisted exception. We explicitly
 // return this, so developers can easily test things (e.g. by navigating to
-// chrome://settings/content/siteDetails?site=chrome://example).
+// decentr://settings/content/siteDetails?site=decentr://example).
 TEST_F(SiteSettingsHandlerTest, IncludeWebUISchemesInGetOriginPermissions) {
   const ContentSettingsType content_settings_type =
       ContentSettingsType::NOTIFICATIONS;
 
   // Register WebUIAllowlist auto-granted permissions.
   const url::Origin kWebUIOrigins[] = {
-      url::Origin::Create(GURL("chrome://test")),
-      url::Origin::Create(GURL("chrome-untrusted://test")),
+      url::Origin::Create(GURL("decentr://test")),
+      url::Origin::Create(GURL("decentr-untrusted://test")),
       url::Origin::Create(GURL("devtools://devtools")),
   };
 
@@ -1996,7 +1996,7 @@ class SiteSettingsHandlerChooserExceptionTest : public SiteSettingsHandlerTest {
   const GURL kAndroidUrl{"https://android.com"};
   const GURL kChromiumUrl{"https://chromium.org"};
   const GURL kGoogleUrl{"https://google.com"};
-  const GURL kWebUIUrl{"chrome://test"};
+  const GURL kWebUIUrl{"decentr://test"};
 
   void SetUp() override {
     // Set up UsbChooserContext first, since the granting of device permissions

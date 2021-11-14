@@ -162,7 +162,7 @@ void MostVisitedSitesProviderTest::OnProviderUpdate(bool updated_matches) {}
 
 TEST_F(MostVisitedSitesProviderTest, AllowMostVisitedSitesSuggestions) {
   std::string input_url = "https://example.com/";
-  std::string start_surface_url = "chrome://newtab";
+  std::string start_surface_url = "decentr://newtab";
 
   AutocompleteInput prefix_input(base::ASCIIToUTF16(input_url),
                                  metrics::OmniboxEventProto::OTHER,

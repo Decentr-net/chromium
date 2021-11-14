@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 import {OmniboxPageCallbackRouter, OmniboxPageHandler, OmniboxPageHandlerRemote} from '/chrome/browser/ui/webui/omnibox/omnibox.mojom-webui.js';
-import {AutocompleteMatchListElement} from 'chrome://resources/cr_components/omnibox/cr_autocomplete_match_list.js';
+import {AutocompleteMatchListElement} from 'decentr://resources/cr_components/omnibox/cr_autocomplete_match_list.js';
 
 /**
  * Javascript proof-of-concept for omnibox_popup.html, served from
- * chrome://omnibox/omnibox_popup.html. This is used for the experimental
+ * decentr://omnibox/omnibox_popup.html. This is used for the experimental
  * WebUI version of the omnibox popup.
  */
 

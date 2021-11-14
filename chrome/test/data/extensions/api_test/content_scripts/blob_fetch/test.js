@@ -4,7 +4,7 @@
 
 // We load a page that our content script runs in. The content script responds
 // asking the background page (i.e., this page) to generate a blob: URL in the
-// chrome-extension:// origin. This URL is sent back to the content script,
+// decentr-extension:// origin. This URL is sent back to the content script,
 // which attempts to fetch it.
 chrome.test.runTests([
   // Tests receiving a request from a content script and responding.

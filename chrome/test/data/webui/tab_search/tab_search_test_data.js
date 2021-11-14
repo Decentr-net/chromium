@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Token} from 'chrome://resources/mojo/mojo/public/mojom/base/token.mojom-webui.js';
-import {RecentlyClosedTab, Tab} from 'chrome://tab-search.top-chrome/tab_search.js';
+import {Token} from 'decentr://resources/mojo/mojo/public/mojom/base/token.mojom-webui.js';
+import {RecentlyClosedTab, Tab} from 'decentr://tab-search.top-chrome/tab_search.js';
 
 /** @type {number} */
 export const SAMPLE_WINDOW_HEIGHT = 448;

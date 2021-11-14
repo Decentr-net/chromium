@@ -15,7 +15,7 @@ class WebUI;
 namespace ash {
 namespace file_manager {
 
-// Class that stores properties for the chrome-untrusted://file-manager WebUI.
+// Class that stores properties for the decentr-untrusted://file-manager WebUI.
 class FileManagerUntrustedUIConfig : public ui::WebUIConfig {
  public:
   FileManagerUntrustedUIConfig();
@@ -25,7 +25,7 @@ class FileManagerUntrustedUIConfig : public ui::WebUIConfig {
       content::WebUI* web_ui) override;
 };
 
-// WebUI for chrome-untrusted://file-manager, intended to be used by the file
+// WebUI for decentr-untrusted://file-manager, intended to be used by the file
 // manager when untrusted content needs to be processed.
 class FileManagerUntrustedUI : public ui::UntrustedWebUIController {
  public:

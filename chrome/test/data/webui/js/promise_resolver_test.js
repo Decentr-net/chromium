@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 suite('PromiseResolverModuleTest', function() {
   test('members read only', function() {

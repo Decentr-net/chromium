@@ -40,7 +40,7 @@ const char kTrialGroupAboutFlags[] = "AboutFlags";
 namespace {
 
 // Separator used for origin list values. The list of origins provided from
-// the command line or from the text input in chrome://flags are concatenated
+// the command line or from the text input in decentr://flags are concatenated
 // using this separator. The value is then appended as a command line switch
 // and saved in the dictionary pref (kAboutFlagsOriginLists).
 // E.g. --isolate_origins=http://example1.net,http://example2.net
@@ -534,7 +534,7 @@ std::vector<std::string> FlagsState::RegisterEnabledFeatureVariationParameters(
             DCHECK(insert_result.second)
                 << "Multiple values for the same parameter '"
                 << variation->params[i].param_name
-                << "' are specified in chrome://flags!";
+                << "' are specified in decentr://flags!";
           }
           if (variation->variation_id)
             variation_ids.push_back(variation->variation_id);

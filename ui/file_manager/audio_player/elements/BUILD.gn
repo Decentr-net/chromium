@@ -59,7 +59,7 @@ js_library("repeat_button") {
 
 js_type_check("closure_compile") {
   is_polymer3 = true
-  closure_flags = default_closure_args + [ "browser_resolver_prefix_replacements=\"chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/=../../ui/file_manager/file_manager/\"" ]
+  closure_flags = default_closure_args + [ "browser_resolver_prefix_replacements=\"decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/=../../ui/file_manager/file_manager/\"" ]
   deps = [
     ":audio_player",
     ":control_panel",

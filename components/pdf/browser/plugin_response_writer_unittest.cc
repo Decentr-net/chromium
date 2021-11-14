@@ -123,7 +123,7 @@ TEST_F(PluginResponseWriterTest, Start) {
   const std::string kFakeScript = "fake-script";
 
   PdfStreamDelegate::StreamInfo stream;
-  stream.stream_url = GURL("chrome-extension://id/stream-url");
+  stream.stream_url = GURL("decentr-extension://id/stream-url");
   stream.original_url = GURL("https://example.test/fake.pdf");
   stream.injected_script = &kFakeScript;
   stream.background_color = SK_ColorGREEN;
@@ -168,7 +168,7 @@ TEST_F(PluginResponseWriterTest, Start) {
   body_drainer_->WaitComplete();
 
   EXPECT_THAT(body_drainer_->content(),
-              HasSubstr("src=\"chrome-extension://id/stream-url\""));
+              HasSubstr("src=\"decentr-extension://id/stream-url\""));
   EXPECT_THAT(body_drainer_->content(),
               HasSubstr("original-url=\"https://example.test/fake.pdf\""));
   EXPECT_THAT(body_drainer_->content(), HasSubstr(kFakeScript));
@@ -180,27 +180,27 @@ TEST_F(PluginResponseWriterTest, Start) {
 
 TEST_F(PluginResponseWriterTest, StartWithUnescapedUrls) {
   PdfStreamDelegate::StreamInfo stream;
-  stream.stream_url = GURL("chrome-extension://id/stream-url\"");
+  stream.stream_url = GURL("decentr-extension://id/stream-url\"");
   stream.original_url = GURL("https://example.test/\"fake.pdf");
   std::string response = GenerateResponse(stream);
 
   EXPECT_THAT(response,
-              HasSubstr("src=\"chrome-extension://id/stream-url%22\""));
+              HasSubstr("src=\"decentr-extension://id/stream-url%22\""));
   EXPECT_THAT(response,
               HasSubstr("original-url=\"https://example.test/%22fake.pdf\""));
 }
 
 TEST_F(PluginResponseWriterTest, StartForPrintPreview) {
   PdfStreamDelegate::StreamInfo stream;
-  stream.stream_url = GURL("chrome-untrusted://print/1/0/print.pdf");
-  stream.original_url = GURL("chrome-untrusted://print/1/0/print.pdf");
+  stream.stream_url = GURL("decentr-untrusted://print/1/0/print.pdf");
+  stream.original_url = GURL("decentr-untrusted://print/1/0/print.pdf");
   std::string response = GenerateResponse(stream);
 
   EXPECT_THAT(response,
-              HasSubstr("src=\"chrome-untrusted://print/1/0/print.pdf\""));
+              HasSubstr("src=\"decentr-untrusted://print/1/0/print.pdf\""));
   EXPECT_THAT(
       response,
-      HasSubstr("original-url=\"chrome-untrusted://print/1/0/print.pdf\""));
+      HasSubstr("original-url=\"decentr-untrusted://print/1/0/print.pdf\""));
 }
 
 TEST_F(PluginResponseWriterTest, StartWithoutInjectedScript) {

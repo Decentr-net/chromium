@@ -26,7 +26,7 @@ const char kSandboxPaymentsSecureServiceUrl[] =
     "https://payments.sandbox.google.com/";
 
 // URLs used when opening the Payment methods management page from
-// chrome://settings/payments.
+// decentr://settings/payments.
 const char kProdPaymentsManageCardsUrl[] =
     "https://pay.google.com/payments/"
     "home?utm_source=chrome&utm_medium=settings&utm_campaign=payment-methods#"

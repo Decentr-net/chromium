@@ -56,7 +56,7 @@ class ExtensionUntrustedWebUITest : public ExtensionApiTest {
     ResultCatcher catcher;
 
     ASSERT_TRUE(ui_test_utils::NavigateToURL(
-        browser(), GURL("chrome-untrusted://api-test/title1.html")));
+        browser(), GURL("decentr-untrusted://api-test/title1.html")));
 
     content::RenderFrameHost* rfh =
         browser()->tab_strip_model()->GetActiveWebContents()->GetMainFrame();

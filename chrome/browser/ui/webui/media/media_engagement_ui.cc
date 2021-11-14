@@ -144,7 +144,7 @@ class MediaEngagementScoreDetailsProviderImpl
 
 MediaEngagementUI::MediaEngagementUI(content::WebUI* web_ui)
     : ui::MojoWebUIController(web_ui) {
-  // Setup the data source behind chrome://media-engagement.
+  // Setup the data source behind decentr://media-engagement.
   std::unique_ptr<content::WebUIDataSource> source(
       content::WebUIDataSource::Create(chrome::kChromeUIMediaEngagementHost));
   source->AddResourcePath("media_engagement.js", IDR_MEDIA_ENGAGEMENT_JS);

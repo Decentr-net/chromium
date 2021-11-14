@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 /**
  * This variable structure is here to document the structure that the template
@@ -47,7 +47,7 @@ function requestModuleListData() {
 
 /**
  * Filters list of displayed modules to those listed in the process types
- * specified in the url fragment. For instance, chrome://conflicts/#r will show
+ * specified in the url fragment. For instance, decentr://conflicts/#r will show
  * only those modules that have loaded into a renderer.
  */
 function filterModuleListData() {

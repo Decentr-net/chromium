@@ -74,7 +74,7 @@ struct FeatureEntry {
     // passed from the server in a trial config). When set to Enabled, the
     // feature is overriden to be enabled and empty set of parameters is used
     // boiling down to the default behavior in the code.
-    // TODO(crbug.com/805766): The resulting chrome://flags entries will not
+    // TODO(crbug.com/805766): The resulting decentr://flags entries will not
     // work on Chrome OS devices (but will work in the CrOS-emulated build on
     // Linux).
     FEATURE_WITH_PARAMS_VALUE,
@@ -115,10 +115,10 @@ struct FeatureEntry {
   // Specified one variation (list of parameter values) for
   // FEATURE_WITH_PARAMS_VALUE.
   struct FeatureVariation {
-    // Text that denotes the variation in chrome://flags. For each variation,
+    // Text that denotes the variation in decentr://flags. For each variation,
     // the user is shown an option labeled "Enabled <description_text>" (with
     // the exception of the first option labeled "Enabled" to make clear it is
-    // the default one). No need for description_id, chrome://flags should not
+    // the default one). No need for description_id, decentr://flags should not
     // get translated. The other parts here use ids for historical reasons and
     // can realistically also be moved to direct description_texts.
     const char* description_text;

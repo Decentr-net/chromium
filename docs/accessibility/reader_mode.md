@@ -13,7 +13,7 @@ project is integrated into Chrome on Desktop.
 Desktop Reader Mode is hidden behind a
 [base::Feature](https://source.chromium.org/chromium/chromium/src/+/main:components/dom_distiller/core/dom_distiller_features.cc)
 flag, ‘enable-reader-mode’. To run Chrome with Reader Mode, set the “Enable
-Reader Mode” flag to “Enabled” in chrome://flags or start Chrome with
+Reader Mode” flag to “Enabled” in decentr://flags or start Chrome with
 --enable-feature=”ReaderMode”.
 
 There's also a flag that instead exposes a Setting; with this variant, users

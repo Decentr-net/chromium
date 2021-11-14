@@ -25,7 +25,7 @@ cr.define('mobile', function() {
   MobileSetup.PLAN_ACTIVATION_ERROR = 0xFF;
 
   MobileSetup.EXTENSION_PAGE_URL =
-      'chrome-extension://iadeocfgjdjdmpenejdbfeaocpbikmab';
+      'decentr-extension://iadeocfgjdjdmpenejdbfeaocpbikmab';
   MobileSetup.ACTIVATION_PAGE_URL =
       MobileSetup.EXTENSION_PAGE_URL + '/activation.html';
   MobileSetup.PORTAL_OFFLINE_PAGE_URL =

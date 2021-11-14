@@ -11,7 +11,7 @@ import org.chromium.chrome.browser.video_tutorials.Tutorial;
  */
 class VideoPlayerURLBuilder {
     // TODO(shaktisahu): Move this to UrlConstants.
-    private static final String VIDEO_PLAYER_URL = "chrome-untrusted://video-tutorials/";
+    private static final String VIDEO_PLAYER_URL = "decentr-untrusted://video-tutorials/";
 
     /** Constructs the player URL for a given video tutorial. */
     public static String buildFromTutorial(Tutorial tutorial) {

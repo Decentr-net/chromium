@@ -17,7 +17,7 @@ function sendLoadTime(time) {
         url: location.href,
         time: time,
       },
-      'chrome://new-tab-page');
+      'decentr://new-tab-page');
 }
 
 function onImageLoad() {

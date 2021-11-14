@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://new-tab-page/new_tab_page.js';
+import 'decentr://new-tab-page/new_tab_page.js';
 
 suite('NewTabPageDoodleShareDialogFocusTest', () => {
   /** @type {!DoodleShareDialogElement} */

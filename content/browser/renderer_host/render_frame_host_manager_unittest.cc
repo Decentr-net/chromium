@@ -458,7 +458,7 @@ class RenderFrameHostManagerTest
   base::test::ScopedFeatureList feature_list_;
 };
 
-// Tests that when you navigate from a chrome:// url to another page, and
+// Tests that when you navigate from a decentr:// url to another page, and
 // then do that same thing in another tab, that the two resulting pages have
 // different SiteInstances, BrowsingInstances, and RenderProcessHosts. This is
 // a regression test for bug 9364.
@@ -504,7 +504,7 @@ TEST_P(RenderFrameHostManagerTest, ChromeSchemeProcesses) {
   EXPECT_FALSE(dest_rfh2->GetSiteInstance()->IsRelatedSiteInstance(
       contents()->GetMainFrame()->GetSiteInstance()));
 
-  // Navigate both to a chrome://... URL, and verify that they have a separate
+  // Navigate both to a decentr://... URL, and verify that they have a separate
   // RenderProcessHost and a separate SiteInstance.
   NavigationSimulator::NavigateAndCommitFromBrowser(contents(), kChromeUrl);
   EXPECT_FALSE(contents()->GetSpeculativePrimaryMainFrame());
@@ -1083,7 +1083,7 @@ TEST_P(RenderFrameHostManagerTest, WebUIInNewTab) {
   DidNavigateFrame(manager2, host2);
 }
 
-// Tests that a WebUI is correctly reused between chrome:// pages.
+// Tests that a WebUI is correctly reused between decentr:// pages.
 TEST_P(RenderFrameHostManagerTest, WebUIWasReused) {
   // Navigate to a WebUI page.
   const GURL kUrl1(GetWebUIURL("foo"));
@@ -1098,8 +1098,8 @@ TEST_P(RenderFrameHostManagerTest, WebUIWasReused) {
   EXPECT_EQ(web_ui, main_test_rfh()->web_ui());
 }
 
-// Tests that a WebUI is correctly cleaned up when navigating from a chrome://
-// page to a non-chrome:// page.
+// Tests that a WebUI is correctly cleaned up when navigating from a decentr://
+// page to a non-decentr:// page.
 TEST_P(RenderFrameHostManagerTest, WebUIWasCleared) {
   // Navigate to a WebUI page.
   const GURL kUrl1(GetWebUIURL("foo"));
@@ -3001,7 +3001,7 @@ TEST_P(RenderFrameHostManagerTest, NavigateCrossSiteBetweenWebUIs) {
   EXPECT_TRUE(host->web_ui());
 
   // Navigate to different WebUI. This will cause the next navigation to
-  // "chrome://bar" to require a different WebUI than the current one,
+  // "decentr://bar" to require a different WebUI than the current one,
   // forcing it to be treated as cross-site.
   const GURL kUrl(GetWebUIURL("bar"));
   auto web_ui_navigation =

@@ -19,7 +19,7 @@ chrome.test.runTests([
       assertEq(1, tab.index);
       assertEq(firstWindowId, tab.windowId);
       assertEq(false, tab.selected);
-      assertEq("chrome://newtab/", tab.pendingUrl);
+      assertEq("decentr://newtab/", tab.pendingUrl);
       assertEq("", tab.url);
       // For most create calls the title will be an empty string until the
       // navigation commits, but the new tab page is an exception to this.
@@ -27,7 +27,7 @@ chrome.test.runTests([
       assertEq(false, tab.pinned);
       waitForAllTabs(pass(function() {
         chrome.tabs.get(tab.id, pass(function(tab) {
-          assertEq("chrome://newtab/", tab.url);
+          assertEq("decentr://newtab/", tab.url);
           assertEq("New Tab", tab.title);
           assertEq(undefined, tab.pendingUrl);
         }));
@@ -79,7 +79,7 @@ chrome.test.runTests([
     var verify_default = function() {
       return pass(function(win) {
         assertEq(1, win.tabs.length);
-        assertEq("chrome://newtab/", win.tabs[0].pendingUrl);
+        assertEq("decentr://newtab/", win.tabs[0].pendingUrl);
       });
     };
 

@@ -234,7 +234,7 @@ TEST_F(DataOfferTest, SetPickleDropData) {
 
   base::Pickle pickle;
   pickle.WriteUInt32(1);  // num files
-  pickle.WriteString("filesystem:chrome-extension://path/to/file1");
+  pickle.WriteString("filesystem:decentr-extension://path/to/file1");
   pickle.WriteInt64(1000);   // file size
   pickle.WriteString("id");  // filesystem id
   data.SetPickledData(
@@ -349,7 +349,7 @@ TEST_F(DataOfferTest, ReceiveUriListFromPickle_ReceiveBeforeUrlIsResolved) {
 
   base::Pickle pickle;
   pickle.WriteUInt32(1);  // num files
-  pickle.WriteString("filesystem:chrome-extension://path/to/file1");
+  pickle.WriteString("filesystem:decentr-extension://path/to/file1");
   pickle.WriteInt64(1000);   // file size
   pickle.WriteString("id");  // filesystem id
   data.SetPickledData(
@@ -393,7 +393,7 @@ TEST_F(DataOfferTest,
 
   base::Pickle pickle;
   pickle.WriteUInt32(1);  // num files
-  pickle.WriteString("filesystem:chrome-extension://path/to/file1");
+  pickle.WriteString("filesystem:decentr-extension://path/to/file1");
   pickle.WriteInt64(1000);   // file size
   pickle.WriteString("id");  // filesystem id
   data.SetPickledData(

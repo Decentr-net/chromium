@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Command} from 'chrome://resources/js/cr/ui/command.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {MenuItem} from 'chrome://resources/js/cr/ui/menu_item.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Command} from 'decentr://resources/js/cr/ui/command.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {MenuItem} from 'decentr://resources/js/cr/ui/menu_item.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../../chai_assert.js';
 // clang-format on

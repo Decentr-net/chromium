@@ -257,8 +257,8 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   }
 }
 
-// Verify that a chrome-untrusted:// scheme document can add iframes with web
-// content when the CSP allows it. This is different from chrome:// URLs where
+// Verify that a decentr-untrusted:// scheme document can add iframes with web
+// content when the CSP allows it. This is different from decentr:// URLs where
 // no web content can be loaded, even if the CSP allows it.
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        WebFrameInChromeUntrustedSchemeAllowedByCSP) {
@@ -334,7 +334,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   }
 }
 
-// Verify that a chrome-untrusted:// scheme document cannot add iframes with web
+// Verify that a decentr-untrusted:// scheme document cannot add iframes with web
 // content when the CSP disallows it.
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        WebFrameInChromeUntrustedSchemeDisallowedByCSP) {
@@ -371,11 +371,11 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
     EXPECT_FALSE(observer.last_navigation_succeeded());
   }
 
-  // Add iframe and navigate it to a chrome-untrusted URL and verify that the
+  // Add iframe and navigate it to a decentr-untrusted URL and verify that the
   // navigation was blocked.
   {
     TestNavigationObserver observer(shell()->web_contents());
-    // Add a DataSource for chrome-untrusted:// that can be iframe'd.
+    // Add a DataSource for decentr-untrusted:// that can be iframe'd.
     TestUntrustedDataSourceHeaders headers;
     headers.no_xfo = true;
     untrusted_factory().add_web_ui_config(
@@ -402,14 +402,14 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   }
 }
 
-// Verify that a browser check stops websites from embeding chrome:// iframes.
+// Verify that a browser check stops websites from embeding decentr:// iframes.
 // This tests the OpenURL Mojo method.
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        DisallowEmbeddingChromeSchemeFromWebFrameBrowserCheck) {
   GURL main_frame_url(embedded_test_server()->GetURL("/title1.html"));
   EXPECT_TRUE(NavigateToURL(shell(), main_frame_url));
 
-  // Add iframe but don't navigate it to a chrome:// URL yet.
+  // Add iframe but don't navigate it to a decentr:// URL yet.
   EXPECT_TRUE(ExecJs(shell(),
                      "var frame = document.createElement('iframe');\n"
                      "document.body.appendChild(frame);\n",
@@ -422,7 +422,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   RenderFrameHostImpl* child = root->child_at(0)->current_frame_host();
   EXPECT_EQ("about:blank", child->GetLastCommittedURL());
 
-  // Simulate an IPC message to navigate the subframe to a chrome:// URL.
+  // Simulate an IPC message to navigate the subframe to a decentr:// URL.
   // This bypasses the renderer-side check that would have stopped the
   // navigation.
   TestNavigationObserver observer(shell()->web_contents());
@@ -434,7 +434,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   EXPECT_EQ(kBlockedURL, child->GetLastCommittedURL());
 }
 
-// Verify that a browser check stops websites from embeding chrome-untrusted://
+// Verify that a browser check stops websites from embeding decentr-untrusted://
 // iframes. This tests the OpenURL Mojo method path.
 IN_PROC_BROWSER_TEST_F(
     WebUINavigationBrowserTest,
@@ -448,7 +448,7 @@ IN_PROC_BROWSER_TEST_F(
       std::make_unique<ui::TestUntrustedWebUIConfig>("test-iframe-host",
                                                      headers));
 
-  // Add iframe but don't navigate it to a chrome-untrusted:// URL yet.
+  // Add iframe but don't navigate it to a decentr-untrusted:// URL yet.
   EXPECT_TRUE(ExecJs(shell(),
                      "var frame = document.createElement('iframe');\n"
                      "document.body.appendChild(frame);\n",
@@ -461,7 +461,7 @@ IN_PROC_BROWSER_TEST_F(
   RenderFrameHostImpl* child = root->child_at(0)->current_frame_host();
   EXPECT_EQ("about:blank", child->GetLastCommittedURL());
 
-  // Simulate a Mojo message to navigate the subframe to a chrome-untrusted://
+  // Simulate a Mojo message to navigate the subframe to a decentr-untrusted://
   // URL.
   TestNavigationObserver observer(shell()->web_contents());
   static_cast<mojom::FrameHost*>(child)->OpenURL(CreateOpenURLParams(
@@ -525,7 +525,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   GURL iframe_url(GetWebUIURL("web-ui/title1.html?frameancestors=" +
                               GetWebUIURLString("web-ui")));
 
-  // Add the iframe to a WebUI with the same origin 'chrome://web-ui' and verify
+  // Add the iframe to a WebUI with the same origin 'decentr://web-ui' and verify
   // it can be allowed.
   {
     GURL main_frame_url(GetWebUIURL("web-ui/title1.html?childsrc="));
@@ -538,7 +538,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   }
 
   // Add the iframe to a WebUI with a different origin
-  // 'chrome://different-web-ui' and verify it was blocked.
+  // 'decentr://different-web-ui' and verify it was blocked.
   {
     GURL main_frame_url(GetWebUIURL("different-web-ui/title1.html?childsrc="));
     TestEmbeddingIFrameFailed(main_frame_url, iframe_url);
@@ -571,11 +571,11 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        FrameAncestorsAllowEmbeddingFromOtherHosts) {
   auto* web_contents = shell()->web_contents();
-  // Serve an iframe with frame-ancestor 'chrome://web-ui'.
+  // Serve an iframe with frame-ancestor 'decentr://web-ui'.
   GURL iframe_url(GetWebUIURL("different-web-ui/title1.html?frameancestors=" +
                               GetWebUIURLString("web-ui")));
 
-  // Add the iframe to 'chrome://web-ui' WebUI and verify it can be embedded.
+  // Add the iframe to 'decentr://web-ui' WebUI and verify it can be embedded.
   {
     GURL main_frame_url(GetWebUIURL("web-ui/title1.html?childsrc="));
     ASSERT_TRUE(NavigateToURL(web_contents, main_frame_url));
@@ -586,7 +586,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
     EXPECT_TRUE(observer.last_navigation_succeeded());
   }
 
-  // Add the iframe to 'chrome://different-web-ui' WebUI and verify it was
+  // Add the iframe to 'decentr://different-web-ui' WebUI and verify it was
   // blocked.
   {
     GURL main_frame_url(GetWebUIURL("different-web-ui/title1.html?childsrc="));
@@ -614,7 +614,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   }
 }
 
-// Verify that default WebUI cannot embed chrome-untrusted: iframes. To allow
+// Verify that default WebUI cannot embed decentr-untrusted: iframes. To allow
 // embedding, WebUI needs to call AddRequestableScheme to explicitly allow it.
 IN_PROC_BROWSER_TEST_F(
     WebUINavigationBrowserTest,
@@ -630,14 +630,14 @@ IN_PROC_BROWSER_TEST_F(
             root->current_frame_host()->GetEnabledBindings());
   EXPECT_EQ(0UL, root->child_count());
 
-  // Add a DataSource for chrome-untrusted:// that can be iframe'd.
+  // Add a DataSource for decentr-untrusted:// that can be iframe'd.
   TestUntrustedDataSourceHeaders headers;
   headers.no_xfo = true;
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>("test-host", headers));
   GURL untrusted_url(GetChromeUntrustedUIURL("test-host/title1.html"));
 
-  // Navigate an iframe to a chrome-untrusted URL and verify that the navigation
+  // Navigate an iframe to a decentr-untrusted URL and verify that the navigation
   // was blocked. This tests the Frame::BeginNavigation path.
   TestNavigationObserver observer(shell()->web_contents());
   EXPECT_TRUE(ExecJs(shell(), JsReplace(kAddIframeScript, untrusted_url),
@@ -649,7 +649,7 @@ IN_PROC_BROWSER_TEST_F(
   EXPECT_EQ(kBlockedURL, child->GetLastCommittedURL());
 }
 
-// Verify that a chrome-untrusted:// scheme iframe can be embedded in chrome://
+// Verify that a decentr-untrusted:// scheme iframe can be embedded in decentr://
 // frame. The test needs to specify requestableschemes parameter to the main
 // frame WebUI URL, which will result in a call to AddRequestableScheme and
 // permit the embedding to work.
@@ -658,7 +658,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   // Serve a WebUI with no iframe restrictions.
   GURL main_frame_url(
       GetWebUIURL("web-ui/"
-                  "title1.html?childsrc=&requestableschemes=chrome-untrusted"));
+                  "title1.html?childsrc=&requestableschemes=decentr-untrusted"));
   EXPECT_TRUE(NavigateToURL(shell(), main_frame_url));
 
   FrameTreeNode* root = static_cast<WebContentsImpl*>(shell()->web_contents())
@@ -678,18 +678,18 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
             webui_site_instance->GetProcessLock());
 
   TestUntrustedDataSourceHeaders headers;
-  std::vector<std::string> frame_ancestors({"chrome://web-ui"});
+  std::vector<std::string> frame_ancestors({"decentr://web-ui"});
   headers.frame_ancestors =
       absl::make_optional<std::vector<std::string>>(std::move(frame_ancestors));
 
-  // Add a DataSource for the chrome-untrusted:// iframe with frame ancestor
-  // chrome://web-ui.
+  // Add a DataSource for the decentr-untrusted:// iframe with frame ancestor
+  // decentr://web-ui.
   untrusted_factory().add_web_ui_config(
       std::make_unique<ui::TestUntrustedWebUIConfig>("test-host", headers));
   GURL untrusted_url(GetChromeUntrustedUIURL("test-host/title1.html"));
   TestNavigationObserver observer(shell()->web_contents());
 
-  // Add the iframe to the chrome://web-ui WebUI and verify it was successfully
+  // Add the iframe to the decentr://web-ui WebUI and verify it was successfully
   // embedded.
   EXPECT_TRUE(ExecJs(shell(), JsReplace(kAddIframeScript, untrusted_url),
                      EXECUTE_SCRIPT_DEFAULT_OPTIONS, 1 /* world_id */));
@@ -699,7 +699,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
             root->child_at(0)->current_frame_host()->GetLastCommittedURL());
 }
 
-// Verify that a renderer check stops websites from embeding chrome:// iframes.
+// Verify that a renderer check stops websites from embeding decentr:// iframes.
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        DisallowEmbeddingChromeSchemeFromWebFrameRendererCheck) {
   GURL main_frame_url(embedded_test_server()->GetURL("/title1.html"));
@@ -710,7 +710,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   console_observer.SetPattern("Not allowed to load local resource: " +
                               webui_url.spec());
 
-  // Add iframe and navigate it to a chrome:// URL and verify that the
+  // Add iframe and navigate it to a decentr:// URL and verify that the
   // navigation was blocked.
   EXPECT_TRUE(ExecJs(shell(), JsReplace(kAddIframeScript, webui_url),
                      EXECUTE_SCRIPT_DEFAULT_OPTIONS, 1 /* world_id */));
@@ -735,7 +735,7 @@ class WebUINavigationDisabledWebSecurityBrowserTest
   }
 };
 
-// Verify that a browser check stops websites from embeding chrome:// iframes.
+// Verify that a browser check stops websites from embeding decentr:// iframes.
 // This tests the Frame::BeginNavigation path.
 IN_PROC_BROWSER_TEST_F(WebUINavigationDisabledWebSecurityBrowserTest,
                        DisallowEmbeddingChromeSchemeFromWebFrameBrowserCheck2) {
@@ -758,7 +758,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationDisabledWebSecurityBrowserTest,
 }
 
 // Verify that a browser check stops websites from navigating to
-// chrome:// documents in the main frame. This tests the Frame::BeginNavigation
+// decentr:// documents in the main frame. This tests the Frame::BeginNavigation
 // path.
 IN_PROC_BROWSER_TEST_F(
     WebUINavigationDisabledWebSecurityBrowserTest,
@@ -774,7 +774,7 @@ IN_PROC_BROWSER_TEST_F(
 }
 
 // Verify that a browser check stops websites from navigating to
-// chrome-untrusted:// documents in the main frame. This tests the
+// decentr-untrusted:// documents in the main frame. This tests the
 // Frame::BeginNavigation path.
 IN_PROC_BROWSER_TEST_F(
     WebUINavigationDisabledWebSecurityBrowserTest,
@@ -796,7 +796,7 @@ IN_PROC_BROWSER_TEST_F(
 }
 
 // Verify that website cannot use window.open() to navigate succsesfully a new
-// window to a chrome:// URL.
+// window to a decentr:// URL.
 IN_PROC_BROWSER_TEST_F(WebUINavigationDisabledWebSecurityBrowserTest,
                        DisallowWebWindowOpenToChromeURL) {
   GURL main_frame_url(embedded_test_server()->GetURL("/title1.html"));
@@ -824,7 +824,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationDisabledWebSecurityBrowserTest,
 }
 
 // Verify that website cannot use window.open() to navigate successfully a new
-// window to a chrome-untrusted:// URL.
+// window to a decentr-untrusted:// URL.
 IN_PROC_BROWSER_TEST_F(WebUINavigationDisabledWebSecurityBrowserTest,
                        DisallowWebWindowOpenToChromeUntrustedURL) {
   GURL main_frame_url(embedded_test_server()->GetURL("/title1.html"));
@@ -930,7 +930,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
 
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        WebUIOriginsRequireDedicatedProcess) {
-  // chrome:// URLs should require a dedicated process.
+  // decentr:// URLs should require a dedicated process.
   WebContents* web_contents = shell()->web_contents();
   BrowserContext* browser_context = web_contents->GetBrowserContext();
   IsolationContext isolation_context(browser_context);
@@ -968,10 +968,10 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
             SiteInfo::CreateForTesting(isolation_context, blob_url));
 }
 
-// Verify chrome-untrusted:// uses a dedicated process.
+// Verify decentr-untrusted:// uses a dedicated process.
 IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
                        UntrustedWebUIOriginsRequireDedicatedProcess) {
-  // chrome-untrusted:// URLs should require a dedicated process.
+  // decentr-untrusted:// URLs should require a dedicated process.
   WebContents* web_contents = shell()->web_contents();
   BrowserContext* browser_context = web_contents->GetBrowserContext();
   IsolationContext isolation_context(browser_context);
@@ -986,7 +986,7 @@ IN_PROC_BROWSER_TEST_F(WebUINavigationBrowserTest,
   EXPECT_TRUE(
       DoesURLRequireDedicatedProcess(isolation_context, chrome_untrusted_url));
 
-  // Navigate to a chrome-untrusted:// page.
+  // Navigate to a decentr-untrusted:// page.
   EXPECT_TRUE(NavigateToURL(shell(), chrome_untrusted_url));
 
   // Verify that the "hostname" is also part of the site URL.

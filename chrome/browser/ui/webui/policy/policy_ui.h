@@ -12,7 +12,7 @@ namespace content {
 class WebUI;
 }
 
-// The Web UI controller for the chrome://policy page.
+// The Web UI controller for the decentr://policy page.
 class PolicyUI : public content::WebUIController {
  public:
   explicit PolicyUI(content::WebUI* web_ui);

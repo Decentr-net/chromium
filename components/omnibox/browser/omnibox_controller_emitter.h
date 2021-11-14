@@ -15,7 +15,7 @@
 
 // This KeyedService is meant to observe multiple AutocompleteController
 // instances and forward the notifications to its own observers.
-// Its main purpose is to act as a bridge between the chrome://omnibox WebUI
+// Its main purpose is to act as a bridge between the decentr://omnibox WebUI
 // handler, and the many usages of AutocompleteController (Views, NTP, Android).
 class OmniboxControllerEmitter : public KeyedService,
                                  public AutocompleteController::Observer {

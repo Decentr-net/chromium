@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, ModuleHeaderElement} from 'chrome://new-tab-page/new_tab_page.js';
+import {$$, ModuleHeaderElement} from 'decentr://new-tab-page/new_tab_page.js';
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 
 /** @param {!HTMLElement} element */
@@ -91,7 +91,7 @@ suite('NewTabPageModulesModuleHeaderTest', () => {
 
     // Assert.
     assertEquals(
-        'chrome://new-tab-page/icons/module_logo.svg',
+        'decentr://new-tab-page/icons/module_logo.svg',
         $$(moduleHeader, '.module-icon').src);
   });
 

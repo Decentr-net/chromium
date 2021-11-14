@@ -56,7 +56,7 @@ TEST_F(CannedDatabaseHelperTest, Delete) {
 TEST_F(CannedDatabaseHelperTest, IgnoreExtensionsAndDevTools) {
   content::TestBrowserContext browser_context;
 
-  const GURL origin1("chrome-extension://abcdefghijklmnopqrstuvwxyz/");
+  const GURL origin1("decentr-extension://abcdefghijklmnopqrstuvwxyz/");
   const GURL origin2("devtools://abcdefghijklmnopqrstuvwxyz/");
 
   auto helper = base::MakeRefCounted<CannedDatabaseHelper>(&browser_context);

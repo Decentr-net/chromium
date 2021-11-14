@@ -8164,7 +8164,7 @@ IN_PROC_BROWSER_TEST_F(SSLUITest, NetworkErrorDoesntRevokeExemptions) {
 }
 
 // Checks we don't attempt to show an interstitial (or crash) when visiting an
-// SSL error related page in chrome://network-errors. Regression test for
+// SSL error related page in decentr://network-errors. Regression test for
 // crbug.com/953812
 IN_PROC_BROWSER_TEST_F(SSLUITest, NoInterstitialOnNetworkErrorPage) {
   GURL invalid_cert_url(blink::kChromeUINetworkErrorURL);

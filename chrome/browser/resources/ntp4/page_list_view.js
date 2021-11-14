@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {dispatchSimpleEvent} from 'chrome://resources/js/cr.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {$, isRTL} from 'chrome://resources/js/util.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {dispatchSimpleEvent} from 'decentr://resources/js/cr.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {$, isRTL} from 'decentr://resources/js/util.m.js';
 
 import {AppInfo} from './app_info.js';
 import {App, AppsPage} from './apps_page.js';

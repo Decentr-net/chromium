@@ -697,7 +697,7 @@ void SafeBrowsingUrlCheckerImpl::LogRTLookupRequest(
     return;
 
   // The following is to log this RTLookupRequest on any open
-  // chrome://safe-browsing pages.
+  // decentr://safe-browsing pages.
   ui_task_runner_->PostTaskAndReplyWithResult(
       FROM_HERE,
       base::BindOnce(&WebUIDelegate::AddToRTLookupPings,
@@ -715,7 +715,7 @@ void SafeBrowsingUrlCheckerImpl::LogRTLookupResponse(
 
   if (url_web_ui_token_ != -1) {
     // The following is to log this RTLookupResponse on any open
-    // chrome://safe-browsing pages.
+    // decentr://safe-browsing pages.
     ui_task_runner_->PostTask(
         FROM_HERE, base::BindOnce(&WebUIDelegate::AddToRTLookupResponses,
                                   base::Unretained(webui_delegate_),

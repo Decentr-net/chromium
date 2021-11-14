@@ -45,7 +45,7 @@ const char* const kKDE5ProxyConfigCommand[] = {"kcmshell5", "proxy", nullptr};
 
 // The URL for Linux proxy configuration help when not running under a
 // supported desktop environment.
-constexpr char kLinuxProxyConfigUrl[] = "chrome://linux-proxy-config";
+constexpr char kLinuxProxyConfigUrl[] = "decentr://linux-proxy-config";
 
 // Show the proxy config URL in the given tab.
 void ShowLinuxProxyConfigUrl(int render_process_id, int render_view_id) {

@@ -233,7 +233,7 @@ bool VariationsFieldTrialCreator::SetupFieldTrials(
   VariationsIdsProvider* http_header_provider =
       VariationsIdsProvider::GetInstance();
   http_header_provider->SetLowEntropySourceValue(low_entropy_source_value);
-  // Force the variation ids selected in chrome://flags and/or specified using
+  // Force the variation ids selected in decentr://flags and/or specified using
   // the command-line flag.
   auto result = http_header_provider->ForceVariationIds(
       variation_ids,
@@ -246,7 +246,7 @@ bool VariationsFieldTrialCreator::SetupFieldTrials(
       break;
     case VariationsIdsProvider::ForceIdsResult::INVALID_VECTOR_ENTRY:
       // It should not be possible to have invalid variation ids from the
-      // vector param (which corresponds to chrome://flags).
+      // vector param (which corresponds to decentr://flags).
       NOTREACHED();
       break;
     case VariationsIdsProvider::ForceIdsResult::SUCCESS:

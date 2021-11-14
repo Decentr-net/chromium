@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://scanning/scan_preview.js';
+import 'decentr://scanning/scan_preview.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {AppState} from 'chrome://scanning/scanning_app_types.js';
-import {ScanningBrowserProxyImpl} from 'chrome://scanning/scanning_browser_proxy.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AppState} from 'decentr://scanning/scanning_app_types.js';
+import {ScanningBrowserProxyImpl} from 'decentr://scanning/scanning_browser_proxy.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible, waitAfterNextRender} from '../../test_util.js';

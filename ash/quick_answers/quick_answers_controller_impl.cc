@@ -29,9 +29,9 @@ using ::ash::quick_answers::QuickAnswersRequest;
 using ::ash::quick_answers::ResultType;
 
 constexpr char kAssistantRelatedInfoUrl[] =
-    "chrome://os-settings/googleAssistant";
+    "decentr://os-settings/googleAssistant";
 constexpr char kQuickAnswersSettingsUrl[] =
-    "chrome://os-settings/osSearch/search";
+    "decentr://os-settings/osSearch/search";
 
 constexpr char kQuickAnswersExitPoint[] = "QuickAnswers.ExitPoint";
 

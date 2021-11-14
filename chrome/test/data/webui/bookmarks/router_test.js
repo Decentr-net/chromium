@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getDisplayedList, Store} from 'chrome://bookmarks/bookmarks.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {getDisplayedList, Store} from 'decentr://bookmarks/bookmarks.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 suite('<bookmarks-router>', function() {
   let store;
@@ -49,12 +49,12 @@ suite('<bookmarks-router>', function() {
     store.notifyObservers();
 
     await flushTasks();
-    assertEquals('chrome://bookmarks/?id=2', window.location.href);
+    assertEquals('decentr://bookmarks/?id=2', window.location.href);
     store.data.selectedFolder = '1';
     store.notifyObservers();
     await flushTasks();
     // Selecting Bookmarks bar clears route.
-    assertEquals('chrome://bookmarks/', window.location.href);
+    assertEquals('decentr://bookmarks/', window.location.href);
   });
 
   test('route updates from search', async function() {
@@ -62,13 +62,13 @@ suite('<bookmarks-router>', function() {
     store.notifyObservers();
     await flushTasks();
 
-    assertEquals('chrome://bookmarks/?q=bloop', window.location.href);
+    assertEquals('decentr://bookmarks/?q=bloop', window.location.href);
 
     // Ensure that the route doesn't change when the search finishes.
     store.data.selectedFolder = null;
     store.notifyObservers();
     await flushTasks();
-    assertEquals('chrome://bookmarks/?q=bloop', window.location.href);
+    assertEquals('decentr://bookmarks/?q=bloop', window.location.href);
   });
 
   test('bookmarks bar selected with empty route', function() {
@@ -135,7 +135,7 @@ suite('URL preload', function() {
     const state = Store.getInstance().data;
     assertEquals('1', state.selectedFolder);
     return Promise.resolve().then(function() {
-      assertEquals('chrome://bookmarks/', window.location.href);
+      assertEquals('decentr://bookmarks/', window.location.href);
     });
   });
 });

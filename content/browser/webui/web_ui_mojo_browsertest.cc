@@ -92,7 +92,7 @@ class TestWebUIController : public WebUIController {
       WebUIDataSource* data_source = WebUIDataSource::Create(kMojoWebUiHost);
       data_source->OverrideContentSecurityPolicy(
           network::mojom::CSPDirectiveName::ScriptSrc,
-          "script-src chrome://resources 'self' 'unsafe-eval';");
+          "script-src decentr://resources 'self' 'unsafe-eval';");
       data_source->DisableTrustedTypesCSP();
       data_source->AddResourcePaths(kMojoWebUiResources);
       data_source->AddResourcePath("", IDR_WEB_UI_MOJO_HTML);
@@ -280,7 +280,7 @@ IN_PROC_BROWSER_TEST_F(WebUIMojoTest, EndToEndCommunication) {
   EXPECT_EQ(true, EvalJs(other_shell->web_contents(), kTestScript,
                          EXECUTE_SCRIPT_USE_MANUAL_REPLY));
 
-  // We expect two independent chrome://foo tabs/shells to use a separate
+  // We expect two independent decentr://foo tabs/shells to use a separate
   // process.
   EXPECT_NE(shell()->web_contents()->GetMainFrame()->GetProcess(),
             other_shell->web_contents()->GetMainFrame()->GetProcess());

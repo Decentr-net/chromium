@@ -3,14 +3,14 @@
 // found in the LICENSE file.
 
 // clang-format off
-import 'chrome://settings/lazy_load.js';
+import 'decentr://settings/lazy_load.js';
 
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ExtensionControlBrowserProxyImpl, SearchEnginesBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestExtensionControlBrowserProxy} from 'chrome://test/settings/test_extension_control_browser_proxy.js';
-import {TestSearchEnginesBrowserProxy} from 'chrome://test/settings/test_search_engines_browser_proxy.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ExtensionControlBrowserProxyImpl, SearchEnginesBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestExtensionControlBrowserProxy} from 'decentr://test/settings/test_extension_control_browser_proxy.js';
+import {TestSearchEnginesBrowserProxy} from 'decentr://test/settings/test_search_engines_browser_proxy.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 // clang-format on
 
 /**
@@ -49,7 +49,7 @@ function createSampleOmniboxExtension() {
     default: false,
     displayName: 'Omnibox extension displayName',
     extension: {
-      icon: 'chrome://extension-icon/some-extension-icon',
+      icon: 'decentr://extension-icon/some-extension-icon',
       id: 'dummyextensionid',
       name: 'Omnibox extension'
     },
@@ -58,7 +58,7 @@ function createSampleOmniboxExtension() {
     keyword: 'oe',
     modelIndex: 6,
     name: 'Omnibox extension',
-    url: 'chrome-extension://dummyextensionid/?q=%s',
+    url: 'decentr-extension://dummyextensionid/?q=%s',
     urlLocked: false
   };
 }

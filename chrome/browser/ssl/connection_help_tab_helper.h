@@ -16,7 +16,7 @@ class NavigationHandle;
 
 // ConnectionHelpTabHelper checks URLs that trigger certificate error
 // interstitials, and if a URL matches the connection help page of the help
-// center, it redirects to chrome://connection-help. This allows users to view
+// center, it redirects to decentr://connection-help. This allows users to view
 // help content for certificate errors even when a certificate error is
 // preventing them from accessing the live help center site.
 class ConnectionHelpTabHelper

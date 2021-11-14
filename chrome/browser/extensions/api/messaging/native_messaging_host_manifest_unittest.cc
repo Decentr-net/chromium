@@ -26,7 +26,7 @@ const char kTestHostPath[] = "C:\\ProgramFiles\\host.exe";
 const char kTestHostPath[] = "/usr/bin/host";
 #endif
 const char kTestOrigin[] =
-    "chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/";
+    "decentr-extension://knldjmfmopnpolahpmmgbagdohdnhkik/";
 
 class NativeMessagingHostManifestTest : public ::testing::Test {
  public:
@@ -103,9 +103,9 @@ TEST_F(NativeMessagingHostManifestTest, LoadValid) {
             NativeMessagingHostManifest::HOST_INTERFACE_STDIO);
   EXPECT_EQ(manifest->path(), base::FilePath::FromASCII(kTestHostPath));
   EXPECT_TRUE(manifest->allowed_origins().MatchesSecurityOrigin(
-      GURL("chrome-extension://knldjmfmopnpolahpmmgbagdohdnhkik/")));
+      GURL("decentr-extension://knldjmfmopnpolahpmmgbagdohdnhkik/")));
   EXPECT_FALSE(manifest->allowed_origins().MatchesSecurityOrigin(
-      GURL("chrome-extension://jnldjmfmopnpolahpmmgbagdohdnhkik/")));
+      GURL("decentr-extension://jnldjmfmopnpolahpmmgbagdohdnhkik/")));
   EXPECT_FALSE(manifest->supports_native_initiated_connections());
 }
 
@@ -194,7 +194,7 @@ TEST_F(NativeMessagingHostManifestTest, InvalidName) {
 // Verify that match-all origins are rejected.
 TEST_F(NativeMessagingHostManifestTest, MatchAllOrigin) {
   ASSERT_TRUE(WriteManifest(kTestHostName, kTestHostPath,
-                            "chrome-extension://*/", absl::nullopt));
+                            "decentr-extension://*/", absl::nullopt));
 
   std::string error_message;
   std::unique_ptr<NativeMessagingHostManifest> manifest =

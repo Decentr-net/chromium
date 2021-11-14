@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../../chai_assert.js';
 

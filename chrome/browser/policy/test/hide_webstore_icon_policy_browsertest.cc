@@ -54,7 +54,7 @@ class PolicyWebStoreIconTest : public PolicyTest {
 };
 
 IN_PROC_BROWSER_TEST_F(PolicyWebStoreIconTest, AppsWebStoreIconHidden) {
-  // Verifies that the web store icon can be hidden from the chrome://apps
+  // Verifies that the web store icon can be hidden from the decentr://apps
   // page. A policy change takes immediate effect on the apps page for the
   // current profile. Browser restart is not required.
 

@@ -269,7 +269,7 @@ class ArcTracingDataSource
 struct ArcTracingBridge::Category {
   // The name used by Android to trigger tracing.
   std::string name;
-  // The full name shown in the tracing UI in chrome://tracing.
+  // The full name shown in the tracing UI in decentr://tracing.
   std::string full_name;
 };
 

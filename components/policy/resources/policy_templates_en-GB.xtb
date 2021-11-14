@@ -499,7 +499,7 @@
 
       Exceptions can be defined in the URL whitelist policy. These policies are limited to 1,000 entries; subsequent entries will be ignored.
 
-      Note that it is not recommended to block internal 'chrome://*' URLs after this may lead to unexpected errors.
+      Note that it is not recommended to block internal 'decentr://*' URLs after this may lead to unexpected errors.
 
       From M73 you can block 'javascript://*' URLs. However, it only affects JavaScript typed in address bar (or, for example, bookmarklets). Note that in-page JavaScript URLs, as long as data is dynamically loaded, are not subject to this policy. For example, if you block 'example.com/abc', page 'example.com' will still be able to load 'example.com/abc' via XMLHTTPRequest.
 
@@ -666,7 +666,7 @@
       restart.</translation>
 <translation id="2138449619211358657">This policy allows <ph name="PRODUCT_OS_NAME" /> to bypass any proxy for captive portal authentication.
 
-      This policy only takes effect if a proxy is configured (for example through policy, by the user in chrome://settings or by extensions).
+      This policy only takes effect if a proxy is configured (for example through policy, by the user in decentr://settings or by extensions).
 
       If you enable this setting, any captive portal authentication pages (i.e. all web pages starting from captive portal sign-in page until <ph name="PRODUCT_NAME" /> detects successful Internet connection) will be displayed in a separate window ignoring all policy settings and restrictions for the current user.
 
@@ -687,15 +687,15 @@
 <translation id="2170233653554726857">Enable WPAD optimisation</translation>
 <translation id="2176565653304920879">When this policy is set, automatic time zone detection flow will be in one of the following ways depending on the value of the setting:
 
-      If set to TimezoneAutomaticDetectionUsersDecide, users would be able to control automatic time zone detection using normal controls in chrome://settings.
+      If set to TimezoneAutomaticDetectionUsersDecide, users would be able to control automatic time zone detection using normal controls in decentr://settings.
 
-      If set to TimezoneAutomaticDetectionDisabled, automatic time zone controls in chrome://settings will be disabled. Automatic time zone detection will always be off.
+      If set to TimezoneAutomaticDetectionDisabled, automatic time zone controls in decentr://settings will be disabled. Automatic time zone detection will always be off.
 
-      If set to TimezoneAutomaticDetectionIPOnly, time zone controls in chrome://settings will be disabled. Automatic time zone detection will always be on. Time zone detection will use IP-only method to resolve location.
+      If set to TimezoneAutomaticDetectionIPOnly, time zone controls in decentr://settings will be disabled. Automatic time zone detection will always be on. Time zone detection will use IP-only method to resolve location.
 
-      If set to TimezoneAutomaticDetectionSendWiFiAccessPoints, time zone controls in chrome://settings will be disabled. Automatic time zone detection will always be on. The list of visible Wi-Fi access points will always be sent to Geolocation API server for fine-grained time zone detection.
+      If set to TimezoneAutomaticDetectionSendWiFiAccessPoints, time zone controls in decentr://settings will be disabled. Automatic time zone detection will always be on. The list of visible Wi-Fi access points will always be sent to Geolocation API server for fine-grained time zone detection.
 
-      If set to TimezoneAutomaticDetectionSendAllLocationInfo, time zone controls in chrome://settings will be disabled. Automatic time zone detection will always be on. Location information (such as Wi-Fi access points, reachable mobile masts, GPS) will be sent to a server for fine-grained time zone detection.
+      If set to TimezoneAutomaticDetectionSendAllLocationInfo, time zone controls in decentr://settings will be disabled. Automatic time zone detection will always be on. Location information (such as Wi-Fi access points, reachable mobile masts, GPS) will be sent to a server for fine-grained time zone detection.
 
       If this policy is not set, it will behave as if TimezoneAutomaticDetectionUsersDecide is set.
 
@@ -1250,9 +1250,9 @@
       If the policy is not set, or is set to false, then DHE cipher suites in TLS will not be enabled. Otherwise it may be set to true to enable DHE cipher suites and retain compatibility with an outdated server. This is a stopgap measure and the server should be reconfigured.
 
       Servers are encouraged to migrate to ECDHE cipher suites. If these are unavailable, ensure a cipher suite using RSA key exchange is enabled.</translation>
-<translation id="3117706142826400449">If disabled, prevents Chrome Clean-Up from scanning the system for unwanted software and performing clean ups. Manually triggering Chrome Clean-Up from chrome://settings/cleanup is disabled.
+<translation id="3117706142826400449">If disabled, prevents Chrome Clean-Up from scanning the system for unwanted software and performing clean ups. Manually triggering Chrome Clean-Up from decentr://settings/cleanup is disabled.
 
-      If enabled or unset, Chrome Clean-Up periodically scans the system for unwanted software and should any be found, will ask the user if they wish to remove it. Manually triggering Chrome Clean-Up from chrome://settings is enabled.
+      If enabled or unset, Chrome Clean-Up periodically scans the system for unwanted software and should any be found, will ask the user if they wish to remove it. Manually triggering Chrome Clean-Up from decentr://settings is enabled.
 
       This policy is available only on Windows instances that are joined to a <ph name="MS_AD_NAME" /> domain. It also applies to Windows 10 Pro or Enterprise instances that enrolled for device management.</translation>
 <translation id="3152425128389603870">Make Unified Desktop available and turn on by default</translation>
@@ -1304,7 +1304,7 @@
       If this setting is enabled or not configured, users can enable the cloud print proxy by authentication with their Google Account.
 
       If this setting is disabled, users cannot enable the proxy, and the machine will not be allowed to share it's printers with <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Enables a page at chrome://password-change that lets SAML users change their SAML passwords while in-session, which ensures that the SAML password and the device lock-screen password are kept in sync.
+<translation id="3312206664202507568">Enables a page at decentr://password-change that lets SAML users change their SAML passwords while in-session, which ensures that the SAML password and the device lock-screen password are kept in sync.
 
       This policy also enables notifications that warn SAML users if their SAML passwords are soon to expire so that they can deal with this immediately by doing an in-session password change.
       But these notifications will only be shown if password expiry information is sent to the device by the SAML identity provider during the SAML login flow.
@@ -2066,7 +2066,7 @@
       This setting, SitePerProcess, may be used to disallow users from opting out of the default behaviour of isolating all sites. Note that the IsolateOrigins policy may also be useful for isolating additional, finer-grained origins.
       If the policy is enabled, users will be unable to opt out of the default behaviour where each site runs in its own process.
       If the policy is not configured or disabled, the user will be able to opt out of site isolation
-      (e.g. using 'Disable site isolation' entry in chrome://flags).  Setting the policy to disabled and/or not configuring the policy does not turn off Site Isolation.
+      (e.g. using 'Disable site isolation' entry in decentr://flags).  Setting the policy to disabled and/or not configuring the policy does not turn off Site Isolation.
       On <ph name="PRODUCT_OS_NAME" /> version 76 and earlier, it is recommended to also set the <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> device policy to the same value. If the values specified by the two policies don't match, a delay may be incurred when entering a user session while the value specified by user policy is being applied.
 
       NOTE: This policy does not apply on Android. To enable SitePerProcess on Android, use the SitePerProcessAndroid policy setting.
@@ -2959,7 +2959,7 @@
 
           If you enable this setting, the new tab page is always used for the homepage, and the homepage URL location is ignored.
 
-          If you disable this setting, the user's homepage will never be the new tab page, unless its URL is set to 'chrome://newtab'.
+          If you disable this setting, the user's homepage will never be the new tab page, unless its URL is set to 'decentr://newtab'.
 
           If you enable or disable this setting, users cannot change their homepage type in <ph name="PRODUCT_NAME" />.
 
@@ -3130,7 +3130,7 @@
 
       If this policy is set to false, the built-in DNS client will never be used.
 
-      If this policy is left not set, the built-in DNS client will be enabled by default on MacOS, Android (when neither Private DNS nor VPN are enabled) and ChromeOS, and the users will be able to change whether the built-in DNS client is used by editing chrome://flags or specifying a command-line flag.</translation>
+      If this policy is left not set, the built-in DNS client will be enabled by default on MacOS, Android (when neither Private DNS nor VPN are enabled) and ChromeOS, and the users will be able to change whether the built-in DNS client is used by editing decentr://flags or specifying a command-line flag.</translation>
 <translation id="6843296367238757293">This policy is deprecated. Its usage is discouraged. Read more at https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">This policy was removed in <ph name="PRODUCT_NAME" /> 68 and replaced by <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">This policy is deprecated and removed in M66, because it was used only for internal testing and it is a security liability.
@@ -3771,7 +3771,7 @@
 <translation id="7941975817681987555">Do not predict network actions on any network connection</translation>
 <translation id="7952007677054834789">Configure the pages to load on startup, the default home page and the default new tab page in <ph name="PRODUCT_NAME" /> and prevents users from changing them.
 
-      The user's home page settings are only completely locked down if you either select the home page to be the new tab page, or set it to be a URL and specify a home page URL. If you don't specify the home page URL, then the user is still able to set the home page to the new tab page by specifying 'chrome://newtab'.
+      The user's home page settings are only completely locked down if you either select the home page to be the new tab page, or set it to be a URL and specify a home page URL. If you don't specify the home page URL, then the user is still able to set the home page to the new tab page by specifying 'decentr://newtab'.
 
       The policy 'URLs to open on startup' is ignored unless you select 'Open a list of URLs' in 'Action on startup'.</translation>
 <translation id="7952958573604504839">This policy is deprecated in M48 in favour of <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, and removed in M54.

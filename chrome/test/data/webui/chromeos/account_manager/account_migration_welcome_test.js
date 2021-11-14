@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://account-migration-welcome/account_migration_welcome_app.js';
+import 'decentr://account-migration-welcome/account_migration_welcome_app.js';
 
-import {AccountManagerBrowserProxyImpl} from 'chrome://account-migration-welcome/account_manager_browser_proxy.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AccountManagerBrowserProxyImpl} from 'decentr://account-migration-welcome/account_manager_browser_proxy.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals} from '../../chai_assert.js';
 import {TestAccountManagerBrowserProxy} from './test_account_manager_browser_proxy.js';

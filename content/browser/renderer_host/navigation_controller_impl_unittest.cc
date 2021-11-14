@@ -937,7 +937,7 @@ TEST_F(NavigationControllerTest, LoadURL_PrivilegedPending) {
   NavigationControllerImpl& controller = controller_impl();
 
   // First make some history, starting with a privileged URL.
-  const GURL kExistingURL1("chrome://gpu");
+  const GURL kExistingURL1("decentr://gpu");
   NavigationSimulator::NavigateAndCommitFromBrowser(contents(), kExistingURL1);
   EXPECT_EQ(1U, navigation_entry_committed_counter_);
   navigation_entry_committed_counter_ = 0;
@@ -4210,7 +4210,7 @@ TEST_F(NavigationControllerTest, SubFrameNavigationUIData) {
 
 bool SrcDocRewriter(GURL* url, BrowserContext* browser_context) {
   if (url->IsAboutSrcdoc()) {
-    *url = GURL("chrome://srcdoc");
+    *url = GURL("decentr://srcdoc");
     return true;
   }
   return false;

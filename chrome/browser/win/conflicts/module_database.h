@@ -133,7 +133,7 @@ class ModuleDatabase : public ModuleDatabaseEventSource {
                                 uint32_t module_time_date_stamp);
 
   // TODO(chrisha): Module analysis code, and various accessors for use by
-  // chrome://conflicts.
+  // decentr://conflicts.
 
   // Adds or removes an observer.
   // Note that when adding an observer, OnNewModuleFound() will immediately be

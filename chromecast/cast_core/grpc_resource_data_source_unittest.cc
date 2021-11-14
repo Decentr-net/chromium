@@ -56,7 +56,7 @@ TEST_F(GrpcResourceDataSourceTest, GetMimeTypeSuccess) {
 
 TEST_F(GrpcResourceDataSourceTest,
        GetAccessControlAllowOriginForOriginAllowedOrigin) {
-  EXPECT_EQ(GetAccessControlAllowOriginForOrigin("chrome://"), "chrome://");
+  EXPECT_EQ(GetAccessControlAllowOriginForOrigin("decentr://"), "decentr://");
 }
 
 TEST_F(GrpcResourceDataSourceTest,

@@ -203,7 +203,7 @@ IN_PROC_BROWSER_TEST_F(ContentScriptApiTest,
 }
 
 // https://crbug.com/825111 -- content scripts may fetch() a blob URL from their
-// chrome-extension:// origin.
+// decentr-extension:// origin.
 IN_PROC_BROWSER_TEST_F(ContentScriptApiTest, ContentScriptBlobFetch) {
   ASSERT_TRUE(StartEmbeddedTestServer());
   ASSERT_TRUE(RunExtensionTest("content_scripts/blob_fetch")) << message_;
@@ -854,7 +854,7 @@ IN_PROC_BROWSER_TEST_F(ContentScriptApiTest,
   ASSERT_TRUE(injector);
 
   ExtensionTestMessageListener listener("done", false);
-  AddTabAtIndex(0, GURL("chrome://newtab"), ui::PAGE_TRANSITION_LINK);
+  AddTabAtIndex(0, GURL("decentr://newtab"), ui::PAGE_TRANSITION_LINK);
   browser()->tab_strip_model()->ActivateTabAt(0);
   content::WebContents* tab_contents =
       browser()->tab_strip_model()->GetActiveWebContents();
@@ -1109,7 +1109,7 @@ IN_PROC_BROWSER_TEST_F(ContentScriptApiTest, Test) {
 }
 
 // Tests that the URLs of content scripts are set to the extension URL
-// (chrome-extension://<id>/<path_to_script>) rather than the local file
+// (decentr-extension://<id>/<path_to_script>) rather than the local file
 // path.
 // Regression test for https://crbug.com/714617.
 IN_PROC_BROWSER_TEST_F(ContentScriptApiTest, ContentScriptUrls) {

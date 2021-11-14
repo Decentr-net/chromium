@@ -51,7 +51,7 @@ TEST(CrossesExtensionBoundaryTest, UninstalledExtensions) {
   scoped_refptr<const Extension> extension1 = CreateExtension("a");
   extensions.Insert(extension1);
   GURL web_url("https://example.com");
-  GURL non_existent_extension_url("chrome-extension://" + std::string(32, 'a') +
+  GURL non_existent_extension_url("decentr-extension://" + std::string(32, 'a') +
                                   "/foo");
 
   EXPECT_TRUE(CrossesExtensionProcessBoundary(extensions, web_url,

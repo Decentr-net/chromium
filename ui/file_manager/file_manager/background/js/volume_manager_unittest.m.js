@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {installMockChrome, MockCommandLinePrivate} from '../../common/js/mock_chrome.js';
 import {MockDirectoryEntry, MockFileEntry, MockFileSystem} from '../../common/js/mock_entry.js';
@@ -266,7 +266,7 @@ export function testMountArchiveAndUnmount(callback) {
     // Mount an archive
     const password = 'My Password';
     const mounted = volumeManager.mountArchive(
-        'filesystem:chrome-extension://extensionid/external/' +
+        'filesystem:decentr-extension://extensionid/external/' +
             'Downloads-test/foobar.zip',
         password);
 

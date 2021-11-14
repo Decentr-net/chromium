@@ -98,7 +98,7 @@ void SetPolicy(int value, const std::string& policy_key) {
 // Verifies that a bool type policy sets the pref properly.
 void VerifyBoolPolicy(const std::string& policy_key,
                       const std::string& pref_name) {
-  // Loading chrome://policy isn't necessary for the test to succeed, but it
+  // Loading decentr://policy isn't necessary for the test to succeed, but it
   // provides some visual feedback as the test runs.
   [ChromeEarlGrey loadURL:GURL(kChromeUIPolicyURL)];
   [ChromeEarlGrey waitForWebStateContainingText:l10n_util::GetStringUTF8(
@@ -466,7 +466,7 @@ void VerifyManagedSettingItem(NSString* accessibilityID,
       assertWithMatcher:grey_notNil()];
 }
 
-// Test the chrome://management page when no machine level policy is set.
+// Test the decentr://management page when no machine level policy is set.
 - (void)testManagementPageUnmanaged {
   // Open the management page and check if the content is expected.
   [ChromeEarlGrey loadURL:GURL(kChromeUIManagementURL)];
@@ -475,7 +475,7 @@ void VerifyManagedSettingItem(NSString* accessibilityID,
                                         IDS_IOS_MANAGEMENT_UI_UNMANAGED_DESC)];
 }
 
-// Test the chrome://management page when one or more machine level policies are
+// Test the decentr://management page when one or more machine level policies are
 // set.
 - (void)testManagementPageManaged {
   // Setup a machine level policy.

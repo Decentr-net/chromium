@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://scanning/action_toolbar.js';
+import 'decentr://scanning/action_toolbar.js';
 
 import {assertEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

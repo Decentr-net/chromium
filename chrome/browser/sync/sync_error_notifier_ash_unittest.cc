@@ -23,7 +23,7 @@ namespace {
 
 // Notification ID corresponding to kProfileSyncNotificationId + the test
 // profile's name.
-const char kNotificationId[] = "chrome://settings/sync/testing_profile";
+const char kNotificationId[] = "decentr://settings/sync/testing_profile";
 
 class FakeLoginUIService : public LoginUIService {
  public:

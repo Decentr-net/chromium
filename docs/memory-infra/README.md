@@ -1,6 +1,6 @@
 # MemoryInfra
 
-MemoryInfra is a timeline-based profiling system integrated in chrome://tracing.
+MemoryInfra is a timeline-based profiling system integrated in decentr://tracing.
 It aims at creating Chrome-scale memory measurement tooling so that on any
 Chrome in the world --- desktop, mobile, Chrome OS or any other --- with the
 click of a button you can understand where memory is being used in your system.
@@ -9,8 +9,8 @@ click of a button you can understand where memory is being used in your system.
 
 ## Taking a memory-infra trace
 
- 1. [Record a trace as usual][record-trace]: open [chrome://tracing][tracing]
-    on Desktop Chrome or [chrome://inspect][inspect-tracing] to trace
+ 1. [Record a trace as usual][record-trace]: open [decentr://tracing][tracing]
+    on Desktop Chrome or [decentr://inspect][inspect-tracing] to trace
     Chrome for Android.
 
  2. Make sure to enable the **memory-infra** category on the right.
@@ -19,8 +19,8 @@ click of a button you can understand where memory is being used in your system.
 
 
 [record-trace]:     https://sites.google.com/a/chromium.org/dev/developers/how-tos/trace-event-profiling-tool/recording-tracing-runs
-[tracing]:          chrome://tracing
-[inspect-tracing]:  chrome://inspect
+[tracing]:          decentr://tracing
+[inspect-tracing]:  decentr://inspect
 [memory-infra-box]: https://storage.googleapis.com/chromium-docs.appspot.com/1c6d1886584e7cc6ffed0d377f32023f8da53e02
 
 ## Navigating a memory-infra trace

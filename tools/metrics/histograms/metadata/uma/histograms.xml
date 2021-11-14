@@ -739,7 +739,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 
     Clients that are eligible for sampling but are sampled out (i.e., not
     uploading logs) will not have this histogram recorded. Notably, it will not
-    appear in chrome://histograms! (Obviously, it also won't appear in the UMA
+    appear in decentr://histograms! (Obviously, it also won't appear in the UMA
     logs because the client is not uploading logs.)
 
     Additional nuance, hopefully not important: the rate refers to the session

@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {LanguagesBrowserProxy} from 'chrome://os-settings/chromeos/lazy_load.js';
+// #import {LanguagesBrowserProxy} from 'decentr://os-settings/chromeos/lazy_load.js';
 // #import {FakeInputMethodPrivate} from '../fake_input_method_private.js';
 // #import {FakeLanguageSettingsPrivate} from './fake_language_settings_private.js';
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';

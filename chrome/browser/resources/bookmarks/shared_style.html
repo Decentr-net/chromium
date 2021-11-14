@@ -50,7 +50,7 @@
     }
 
     .folder-icon {
-      content: url(chrome://theme/IDR_FOLDER_CLOSED);
+      content: url(decentr://theme/IDR_FOLDER_CLOSED);
       height: var(--folder-icon-size);
       min-width: var(--folder-icon-size);
       width: var(--folder-icon-size);
@@ -63,7 +63,7 @@
 
     @media (prefers-color-scheme: dark) {
       .folder-icon {
-         content: url(chrome://theme/IDR_FOLDER_CLOSED_WHITE);
+         content: url(decentr://theme/IDR_FOLDER_CLOSED_WHITE);
       }
     }
 </if>
@@ -74,12 +74,12 @@
     }
 
     .folder-icon[open] {
-      content: url(chrome://theme/IDR_FOLDER_OPEN);
+      content: url(decentr://theme/IDR_FOLDER_OPEN);
     }
 </if>
 
     :host-context([enable-branding-update]) .folder-icon {
-      -webkit-mask-image: url(chrome://bookmarks/images/folder_open.svg);
+      -webkit-mask-image: url(decentr://bookmarks/images/folder_open.svg);
       -webkit-mask-position: center;
       -webkit-mask-repeat: no-repeat;
       -webkit-mask-size: var(--cr-icon-size);

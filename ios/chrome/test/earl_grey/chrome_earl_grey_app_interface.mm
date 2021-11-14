@@ -1214,7 +1214,7 @@ int watchRunNumber = 0;
 
 + (void)copyURLToPasteBoard {
   UIPasteboard* pasteboard = UIPasteboard.generalPasteboard;
-  pasteboard.URL = [NSURL URLWithString:@"chrome://version"];
+  pasteboard.URL = [NSURL URLWithString:@"decentr://version"];
 }
 
 + (void)disableDefaultBrowserPromo {

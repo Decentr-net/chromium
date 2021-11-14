@@ -255,23 +255,23 @@ TEST_F(ExtensionNavigationThrottleUnitTest, DisabledExtensionChildFrame) {
 
   std::string second_id = crx_file::id_util::GenerateId("bar");
   ASSERT_NE(second_id, extension()->id());
-  GURL unknown_url(base::StringPrintf("chrome-extension://%s/accessible.html",
+  GURL unknown_url(base::StringPrintf("decentr-extension://%s/accessible.html",
                                       second_id.c_str()));
   // Requests to non-existent extensions should be blocked.
   CheckTestCase(child, unknown_url, NavigationThrottle::BLOCK_REQUEST);
 
   // Test blob and filesystem URLs with disabled/unknown extensions.
-  GURL disabled_blob(base::StringPrintf("blob:chrome-extension://%s/SOMEGUID",
+  GURL disabled_blob(base::StringPrintf("blob:decentr-extension://%s/SOMEGUID",
                                         extension()->id().c_str()));
-  GURL unknown_blob(base::StringPrintf("blob:chrome-extension://%s/SOMEGUID",
+  GURL unknown_blob(base::StringPrintf("blob:decentr-extension://%s/SOMEGUID",
                                        second_id.c_str()));
   CheckTestCase(child, disabled_blob, NavigationThrottle::BLOCK_REQUEST);
   CheckTestCase(child, unknown_blob, NavigationThrottle::BLOCK_REQUEST);
   GURL disabled_filesystem(
-      base::StringPrintf("filesystem:chrome-extension://%s/temporary/foo.html",
+      base::StringPrintf("filesystem:decentr-extension://%s/temporary/foo.html",
                          extension()->id().c_str()));
   GURL unknown_filesystem(
-      base::StringPrintf("filesystem:chrome-extension://%s/temporary/foo.html",
+      base::StringPrintf("filesystem:decentr-extension://%s/temporary/foo.html",
                          second_id.c_str()));
   CheckTestCase(child, disabled_filesystem, NavigationThrottle::BLOCK_REQUEST);
   CheckTestCase(child, unknown_filesystem, NavigationThrottle::BLOCK_REQUEST);
@@ -296,23 +296,23 @@ TEST_F(ExtensionNavigationThrottleUnitTest, DisabledExtensionMainFrame) {
   std::string second_id = crx_file::id_util::GenerateId("bar");
 
   ASSERT_NE(second_id, extension()->id());
-  GURL unknown_url(base::StringPrintf("chrome-extension://%s/accessible.html",
+  GURL unknown_url(base::StringPrintf("decentr-extension://%s/accessible.html",
                                       second_id.c_str()));
   // Requests to non-existent extensions should be blocked.
   CheckTestCase(main_rfh(), unknown_url, NavigationThrottle::BLOCK_REQUEST);
 
   // Test blob and filesystem URLs with disabled/unknown extensions.
-  GURL disabled_blob(base::StringPrintf("blob:chrome-extension://%s/SOMEGUID",
+  GURL disabled_blob(base::StringPrintf("blob:decentr-extension://%s/SOMEGUID",
                                         extension()->id().c_str()));
-  GURL unknown_blob(base::StringPrintf("blob:chrome-extension://%s/SOMEGUID",
+  GURL unknown_blob(base::StringPrintf("blob:decentr-extension://%s/SOMEGUID",
                                        second_id.c_str()));
   CheckTestCase(main_rfh(), disabled_blob, NavigationThrottle::BLOCK_REQUEST);
   CheckTestCase(main_rfh(), unknown_blob, NavigationThrottle::BLOCK_REQUEST);
   GURL disabled_filesystem(
-      base::StringPrintf("filesystem:chrome-extension://%s/temporary/foo.html",
+      base::StringPrintf("filesystem:decentr-extension://%s/temporary/foo.html",
                          extension()->id().c_str()));
   GURL unknown_filesystem(
-      base::StringPrintf("filesystem:chrome-extension://%s/temporary/foo.html",
+      base::StringPrintf("filesystem:decentr-extension://%s/temporary/foo.html",
                          second_id.c_str()));
   CheckTestCase(main_rfh(), disabled_filesystem,
                 NavigationThrottle::BLOCK_REQUEST);

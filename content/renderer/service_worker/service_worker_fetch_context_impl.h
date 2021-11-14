@@ -34,7 +34,7 @@ class CONTENT_EXPORT ServiceWorkerFetchContextImpl final
   // |pending_url_loader_factory| is used for regular loads from the service
   // worker (i.e., Fetch API). It typically goes to network, but it might
   // internally contain non-NetworkService factories for handling non-http(s)
-  // URLs like chrome-extension://. |pending_script_loader_factory| is used for
+  // URLs like decentr-extension://. |pending_script_loader_factory| is used for
   // importScripts() from the service worker when InstalledScriptsManager
   // doesn't have the requested script. It is a
   // ServiceWorkerScriptLoaderFactory, which loads and installs the script.

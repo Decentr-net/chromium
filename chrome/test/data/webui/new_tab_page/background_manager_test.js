@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BackgroundManager} from 'chrome://new-tab-page/new_tab_page.js';
+import {BackgroundManager} from 'decentr://new-tab-page/new_tab_page.js';
 
 class FakeIFrameElement extends HTMLIFrameElement {
   constructor() {
@@ -29,7 +29,7 @@ suite('NewTabPageBackgroundManagerTest', () => {
    * @return {string}
    */
   function wrapImageUrl(url) {
-    return `chrome-untrusted://new-tab-page/custom_background_image?url=${
+    return `decentr-untrusted://new-tab-page/custom_background_image?url=${
         encodeURIComponent(url)}`;
   }
 
@@ -97,7 +97,7 @@ suite('NewTabPageBackgroundManagerTest', () => {
 
     // Assert.
     const expected =
-        'chrome-untrusted://new-tab-page/custom_background_image?' +
+        'decentr-untrusted://new-tab-page/custom_background_image?' +
         `url=${encodeURIComponent('https://example.com')}&` +
         `url2x=${encodeURIComponent('https://example2x.com')}&` +
         'size=cover&repeatX=no-repeat&repeatY=repeat&positionX=left&' +

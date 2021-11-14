@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ManageProfilesBrowserProxyImpl, ProfileCardMenuElement} from 'chrome://profile-picker/profile_picker.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
+import {ManageProfilesBrowserProxyImpl, ProfileCardMenuElement} from 'decentr://profile-picker/profile_picker.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 import {waitBeforeNextRender} from '../test_util.js';

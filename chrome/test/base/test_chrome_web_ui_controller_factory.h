@@ -68,7 +68,7 @@ class TestChromeWebUIControllerFactory : public ChromeWebUIControllerFactory {
   FactoryOverridesMap factory_overrides_;
 
   // Stores the Web UI host to create the correct Web UI controller for
-  // chrome://test URL requests.
+  // decentr://test URL requests.
   std::string webui_host_;
 };
 

@@ -136,7 +136,7 @@ public class TabThemeTest {
         assertColorsEqual(THEME_COLOR, getThemeColor());
 
         // Navigate to a native page from a themed page.
-        mActivityTestRule.loadUrl("chrome://newtab/");
+        mActivityTestRule.loadUrl("decentr://newtab/");
         // WebContents does not set theme color for native pages, so don't wait for the call.
         assertColorsEqual(getDefaultThemeColor(tab), getThemeColor());
 

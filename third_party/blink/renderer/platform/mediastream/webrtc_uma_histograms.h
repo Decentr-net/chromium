@@ -38,12 +38,12 @@ PLATFORM_EXPORT void LogUserMediaRequestResult(
 //
 // This contributes to two histograms; the former is a raw count of
 // the number of times the APIs are called, and be viewed at
-// chrome://histograms/WebRTC.webkitApiCount.
+// decentr://histograms/WebRTC.webkitApiCount.
 //
 // The latter is a count of the number of times the APIs are called
 // that gets incremented only once per "session" as established by the
 // PerSessionWebRTCAPIMetrics singleton below. It can be viewed at
-// chrome://histograms/WebRTC.webkitApiCountPerSession.
+// decentr://histograms/WebRTC.webkitApiCountPerSession.
 PLATFORM_EXPORT void UpdateWebRTCMethodCount(RTCAPIName api_name);
 
 // A singleton that keeps track of the number of MediaStreams being

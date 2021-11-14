@@ -49,7 +49,7 @@ namespace {
 
 const char kContentSecurityPolicy[] = "Content-Security-Policy";
 const char kChromeURLContentSecurityPolicyHeaderBase[] =
-    "script-src chrome://resources 'self'; ";
+    "script-src decentr://resources 'self'; ";
 
 const char kXFrameOptions[] = "X-Frame-Options";
 const char kChromeURLXFrameOptionsHeader[] = "DENY";
@@ -536,7 +536,7 @@ bool URLDataManagerIOSBackend::StartRequest(const net::URLRequest* request,
 
 URLDataSourceIOSImpl* URLDataManagerIOSBackend::GetDataSourceFromURL(
     const GURL& url) {
-  // The input usually looks like: chrome://source_name/extra_bits?foo
+  // The input usually looks like: decentr://source_name/extra_bits?foo
   // so do a lookup using the host of the URL.
   DataSourceMap::iterator i = data_sources_.find(url.host());
   if (i != data_sources_.end())

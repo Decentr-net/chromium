@@ -53,7 +53,7 @@ void HelpAppDiscoverTabNotification::OnClick(absl::optional<int> button_index) {
   SystemNotificationHelper::GetInstance()->Close(
       kShowHelpAppDiscoverTabNotificationId);
   web_app::SystemAppLaunchParams params;
-  params.url = GURL("chrome://help-app/discover");
+  params.url = GURL("decentr://help-app/discover");
   params.launch_source =
       apps::mojom::LaunchSource::kFromDiscoverTabNotification;
   LaunchSystemWebAppAsync(profile_, web_app::SystemAppType::HELP, params);

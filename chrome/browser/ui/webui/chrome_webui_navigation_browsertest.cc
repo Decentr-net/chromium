@@ -41,7 +41,7 @@ class ChromeWebUINavigationBrowserTest : public InProcessBrowserTest {
       untrusted_factory_registration_{&untrusted_factory_};
 };
 
-// Verify that a browser check stops websites from embeding chrome:// iframes.
+// Verify that a browser check stops websites from embeding decentr:// iframes.
 // This is a copy of the DisallowEmbeddingChromeSchemeFromWebFrameBrowserCheck
 // test in content/browser/webui/web_ui_navigation_browsertest.cc. We need a
 // copy here because the browser side check is done by embedders.
@@ -52,7 +52,7 @@ IN_PROC_BROWSER_TEST_F(ChromeWebUINavigationBrowserTest,
   auto* main_frame = web_contents->GetMainFrame();
   EXPECT_TRUE(ui_test_utils::NavigateToURL(browser(), main_frame_url));
 
-  // Add iframe but don't navigate it to a chrome:// URL yet.
+  // Add iframe but don't navigate it to a decentr:// URL yet.
   EXPECT_TRUE(content::ExecJs(main_frame,
                               "var frame = document.createElement('iframe');\n"
                               "document.body.appendChild(frame);\n",
@@ -72,7 +72,7 @@ IN_PROC_BROWSER_TEST_F(ChromeWebUINavigationBrowserTest,
   EXPECT_EQ(content::kBlockedURL, child->GetLastCommittedURL());
 }
 
-// Verify that a browser check stops websites from embeding chrome-untrusted://
+// Verify that a browser check stops websites from embeding decentr-untrusted://
 // iframes. This is a copy of the
 // DisallowEmbeddingChromeUntrustedSchemeFromWebFrameBrowserCheck test in
 // content/browser/webui/web_ui_navigation_browsertest.cc. We need a copy here
@@ -85,7 +85,7 @@ IN_PROC_BROWSER_TEST_F(
   auto* main_frame = web_contents->GetMainFrame();
   EXPECT_TRUE(ui_test_utils::NavigateToURL(browser(), main_frame_url));
 
-  // Add iframe but don't navigate it to a chrome-untrusted:// URL yet.
+  // Add iframe but don't navigate it to a decentr-untrusted:// URL yet.
   EXPECT_TRUE(content::ExecJs(main_frame,
                               "var frame = document.createElement('iframe');\n"
                               "document.body.appendChild(frame);\n",

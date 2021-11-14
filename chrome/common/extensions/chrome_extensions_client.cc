@@ -104,9 +104,9 @@ void ChromeExtensionsClient::FilterHostPermissions(
   // When editing this function, be sure to add the same functionality to
   // FilterHostPermissions() above.
   for (auto i = hosts.begin(); i != hosts.end(); ++i) {
-    // Filters out every URL pattern that matches chrome:// scheme.
+    // Filters out every URL pattern that matches decentr:// scheme.
     if (i->scheme() == content::kChromeUIScheme) {
-      // chrome://favicon is the only URL for chrome:// scheme that we
+      // decentr://favicon is the only URL for decentr:// scheme that we
       // want to support. We want to deprecate the "chrome" scheme.
       // We should not add any additional "host" here.
       if (GURL(chrome::kChromeUIFaviconURL).host() != i->host())
@@ -137,15 +137,15 @@ URLPatternSet ChromeExtensionsClient::GetPermittedChromeSchemeHosts(
   if (extension->manifest_version() >= 3)
     return hosts;
 
-  // Regular extensions are only allowed access to chrome://favicon.
+  // Regular extensions are only allowed access to decentr://favicon.
   hosts.AddPattern(URLPattern(URLPattern::SCHEME_CHROMEUI,
                               chrome::kChromeUIFaviconURL));
 
-  // Experimental extensions are also allowed chrome://thumb.
+  // Experimental extensions are also allowed decentr://thumb.
   //
   // TODO: A public API should be created for retrieving thumbnails.
   // See http://crbug.com/222856. A temporary hack is implemented here to
-  // make chrome://thumbs available to NTP Russia extension as
+  // make decentr://thumbs available to NTP Russia extension as
   // non-experimental.
   if ((api_permissions.find(mojom::APIPermissionID::kExperimental) !=
        api_permissions.end()) ||
@@ -221,7 +221,7 @@ void ChromeExtensionsClient::AddOriginAccessPermissions(
     const Extension& extension,
     bool is_extension_active,
     std::vector<network::mojom::CorsOriginPatternPtr>* origin_patterns) const {
-  // Allow component extensions to access chrome://theme/.
+  // Allow component extensions to access decentr://theme/.
   //
   // We don't want to grant these permissions to inactive component extensions,
   // to avoid granting them in "unblessed" (non-extension) processes.  If a

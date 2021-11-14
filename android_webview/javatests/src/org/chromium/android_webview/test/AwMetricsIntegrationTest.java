@@ -316,7 +316,7 @@ public class AwMetricsIntegrationTest {
 
         // Crash the renderer and wait for onRenderProcessGone to be called.
         int callCount = helper.getCallCount();
-        mRule.loadUrlAsync(mAwContents, "chrome://crash");
+        mRule.loadUrlAsync(mAwContents, "decentr://crash");
         helper.waitForCallback(
                 callCount, 1, CallbackHelper.WAIT_TIMEOUT_SECONDS * 5, TimeUnit.SECONDS);
 

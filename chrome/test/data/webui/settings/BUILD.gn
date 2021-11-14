@@ -22,7 +22,7 @@ preprocess_if_expr("preprocess") {
 js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = settings_closure_flags + [
-                    "browser_resolver_prefix_replacements=\"chrome://settings/=../../chrome/browser/resources/settings/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://settings/=../../chrome/browser/resources/settings/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                   ]

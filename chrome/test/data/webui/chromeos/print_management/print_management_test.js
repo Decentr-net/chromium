@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // TODO(jimmyxgong): use es6 module for mojo binding crbug/1004256
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://print-management/print_management.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://print-management/print_management.js';
 
-import {setMetadataProviderForTesting} from 'chrome://print-management/mojo_interface_provider.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {flushTasks} from 'chrome://test/test_util.js';
+import {setMetadataProviderForTesting} from 'decentr://print-management/mojo_interface_provider.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {flushTasks} from 'decentr://test/test_util.js';
 
 const CompletionStatus = {
   FAILED: 0,

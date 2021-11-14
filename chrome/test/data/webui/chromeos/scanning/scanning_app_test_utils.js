@@ -1,7 +1,7 @@
 // Copyright 2020 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
-import {alphabeticalCompare} from 'chrome://scanning/scanning_app_util.js';
+import {alphabeticalCompare} from 'decentr://scanning/scanning_app_util.js';
 import {assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';
 

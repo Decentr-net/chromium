@@ -39,7 +39,7 @@ class FileSystemAccessPermissionViewTest : public DialogBrowserTest {
     } else if (name == "ExtensionOrigin") {
       request.path = base::FilePath(FILE_PATH_LITERAL("/foo/README.txt"));
       request.origin = url::Origin::Create(GURL(
-          "chrome-extension://ehoadneljpdggcbbknedodolkkjodefl/capture.html"));
+          "decentr-extension://ehoadneljpdggcbbknedodolkkjodefl/capture.html"));
     } else if (name == "FolderRead") {
       request.path = base::FilePath(FILE_PATH_LITERAL("/bar/MyProject"));
       request.handle_type = HandleType::kDirectory;

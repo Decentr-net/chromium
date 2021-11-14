@@ -300,7 +300,7 @@ public class OmniboxUrlEmphasizerTest {
     }
 
     /**
-     * Verify that an internal 'chrome://' page is colored correctly by
+     * Verify that an internal 'decentr://' page is colored correctly by
      * OmniboxUrlEmphasizer.emphasizeUrl().
      */
     @Test
@@ -308,7 +308,7 @@ public class OmniboxUrlEmphasizerTest {
     @UiThreadTest
     @Feature({"Browser", "Main"})
     public void testInternalChromePageUrl() {
-        Spannable url = new SpannableStringBuilder("chrome://bookmarks");
+        Spannable url = new SpannableStringBuilder("decentr://bookmarks");
         OmniboxUrlEmphasizer.emphasizeUrl(url, mResources, mChromeAutocompleteSchemeClassifier,
                 ConnectionSecurityLevel.NONE, true, true, true);
         EmphasizedUrlSpanHelper[] spans = getSpansForEmphasizedUrl(url);
@@ -462,7 +462,7 @@ public class OmniboxUrlEmphasizerTest {
         Assert.assertEquals("Unexpected origin end index for url " + url + ":", url.length(),
                 OmniboxUrlEmphasizer.getOriginEndIndex(url, mChromeAutocompleteSchemeClassifier));
 
-        url = "chrome://version";
+        url = "decentr://version";
         Assert.assertEquals("Unexpected origin end index for url " + url + ":", url.length(),
                 OmniboxUrlEmphasizer.getOriginEndIndex(url, mChromeAutocompleteSchemeClassifier));
 

@@ -2,27 +2,27 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/cr_input/cr_input.m.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/cr_input/cr_input.m.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {skColorToRgba} from 'chrome://resources/js/color_utils.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {hasKeyModifiers} from 'chrome://resources/js/util.m.js';
-import {TextDirection} from 'chrome://resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js';
-import {SkColor} from 'chrome://resources/mojo/skia/public/mojom/skcolor.mojom-webui.js';
-import {Url} from 'chrome://resources/mojo/url/mojom/url.mojom-webui.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {skColorToRgba} from 'decentr://resources/js/color_utils.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {hasKeyModifiers} from 'decentr://resources/js/util.m.js';
+import {TextDirection} from 'decentr://resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js';
+import {SkColor} from 'decentr://resources/mojo/skia/public/mojom/skcolor.mojom-webui.js';
+import {Url} from 'decentr://resources/mojo/url/mojom/url.mojom-webui.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {MostVisitedBrowserProxy} from './browser_proxy.js';
 import {MostVisitedPageCallbackRouter, MostVisitedPageHandlerRemote, MostVisitedTheme, MostVisitedTile} from './most_visited.mojom-webui.js';
@@ -623,7 +623,7 @@ export class MostVisitedElement extends mixinBehaviors
    * @private
    */
   getFaviconUrl_(url) {
-    const faviconUrl = new URL('chrome://favicon2/');
+    const faviconUrl = new URL('decentr://favicon2/');
     faviconUrl.searchParams.set('size', '24');
     faviconUrl.searchParams.set('scale_factor', '1x');
     faviconUrl.searchParams.set('show_fallback_monogram', '');

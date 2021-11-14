@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {LockScreenProgress} from 'chrome://resources/cr_components/chromeos/quick_unlock/lock_screen_constants.m.js';
+// #import {LockScreenProgress} from 'decentr://resources/cr_components/chromeos/quick_unlock/lock_screen_constants.m.js';
 // clang-format on
 
 /**

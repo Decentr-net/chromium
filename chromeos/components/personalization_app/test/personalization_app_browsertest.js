@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview E2E test suite for chrome://personalization.
+ * @fileoverview E2E test suite for decentr://personalization.
  */
 
 GEN('#include "chromeos/components/personalization_app/test/personalization_app_browsertest_fixture.h"');
@@ -11,7 +11,7 @@ GEN('#include "chromeos/components/personalization_app/test/personalization_app_
 GEN('#include "ash/constants/ash_features.h"');
 GEN('#include "content/public/test/browser_test.h"');
 
-const HOST_ORIGIN = 'chrome://personalization';
+const HOST_ORIGIN = 'decentr://personalization';
 
 var PersonalizationAppBrowserTest = class extends testing.Test {
   /** @override */
@@ -40,7 +40,7 @@ var PersonalizationAppBrowserTest = class extends testing.Test {
   }
 };
 
-// Tests that chrome://personalization runs js file and that it goes
+// Tests that decentr://personalization runs js file and that it goes
 // somewhere instead of 404ing or crashing.
 TEST_F('PersonalizationAppBrowserTest', 'HasChromeSchemeURL', () => {
   assertEquals(document.location.origin, HOST_ORIGIN);
@@ -64,7 +64,7 @@ TEST_F(
       assertTrue(!!iframe);
 
       assertEquals(
-          'chrome-untrusted://personalization/untrusted/collections.html',
+          'decentr-untrusted://personalization/untrusted/collections.html',
           iframe.src);
       testDone();
     });

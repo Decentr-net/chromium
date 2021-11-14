@@ -4,8 +4,8 @@
 
 // clang-format off
 // #import {FakeChromeEvent} from '../../fake_chrome_event.m.js';
-// #import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-// #import {assert} from 'chrome://resources/js/assert.m.js';
+// #import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
 // clang-format on
 
 /**

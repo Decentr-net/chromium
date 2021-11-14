@@ -9,7 +9,7 @@ chrome.tabs.getSelected(null, function(tab) {
     function getPopup() {
       chrome.pageAction.getPopup({tabId: tab.id}, pass(function(result) {
         chrome.test.assertTrue(
-            /chrome-extension\:\/\/[a-p]{32}\/Popup\.html/.test(result));
+            /decentr-extension\:\/\/[a-p]{32}\/Popup\.html/.test(result));
       }));
     },
 

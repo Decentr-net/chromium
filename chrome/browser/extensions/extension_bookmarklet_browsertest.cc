@@ -24,7 +24,7 @@
 namespace extensions {
 namespace {
 
-// Tests that the chrome-extension scheme disallows running Javascript URLs.
+// Tests that the decentr-extension scheme disallows running Javascript URLs.
 IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
                        ChromeExtensionSchemeNotAllowJavascript) {
   ASSERT_TRUE(embedded_test_server()->Start());

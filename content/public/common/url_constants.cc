@@ -14,7 +14,7 @@ namespace content {
 const char kChromeDevToolsScheme[] = "devtools";
 const char kChromeErrorScheme[] = "chrome-error";
 const char kChromeUIScheme[] = "chrome";
-const char kChromeUIUntrustedScheme[] = "chrome-untrusted";
+const char kChromeUIUntrustedScheme[] = "decentr-untrusted";
 const char kGuestScheme[] = "chrome-guest";
 const char kViewSourceScheme[] = "view-source";
 #if BUILDFLAG(IS_CHROMEOS_ASH)
@@ -43,11 +43,11 @@ const char kChromeUIResourcesHost[] = "resources";
 const char kChromeUIServiceWorkerInternalsHost[] = "serviceworker-internals";
 const char kChromeUITracingHost[] = "tracing";
 const char kChromeUIUkmHost[] = "ukm";
-const char kChromeUIUntrustedResourcesURL[] = "chrome-untrusted://resources/";
+const char kChromeUIUntrustedResourcesURL[] = "decentr-untrusted://resources/";
 const char kChromeUIWebRTCInternalsHost[] = "webrtc-internals";
 
 // This error URL is loaded in normal web renderer processes, so it should not
-// have a chrome:// scheme that might let it be confused with a WebUI page.
+// have a decentr:// scheme that might let it be confused with a WebUI page.
 const char kUnreachableWebDataURL[] = "chrome-error://chromewebdata/";
 
 const char kBlockedURL[] = "about:blank#blocked";

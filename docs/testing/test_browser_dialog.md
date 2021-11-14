@@ -179,7 +179,7 @@ Even discovering the full set of UI present for each platform in Chrome is
          (`InitializeGLOneOffPlatform()`, etc.).
 
 *   Why not chrome.exe?
-    *   E.g. a scrappy chrome:// page with links to invoke UI would be great!
+    *   E.g. a scrappy decentr:// page with links to invoke UI would be great!
     *   But...
         *   UI may have test data (e.g. credit card info) which shouldn’t be in
         the release build.

@@ -253,11 +253,11 @@ TEST_F(NewTabPageHandlerTest, SetTheme) {
   EXPECT_EQ(SkColorSetRGB(0, 0, 3), theme->logo_color);
   EXPECT_FALSE(theme->daily_refresh_collection_id.has_value());
   ASSERT_TRUE(theme->background_image);
-  EXPECT_EQ("chrome-untrusted://theme/IDR_THEME_NTP_BACKGROUND?bar",
+  EXPECT_EQ("decentr-untrusted://theme/IDR_THEME_NTP_BACKGROUND?bar",
             theme->background_image->url);
-  EXPECT_EQ("chrome-untrusted://theme/IDR_THEME_NTP_BACKGROUND@2x?bar",
+  EXPECT_EQ("decentr-untrusted://theme/IDR_THEME_NTP_BACKGROUND@2x?bar",
             theme->background_image->url_2x);
-  EXPECT_EQ("chrome://theme/IDR_THEME_NTP_ATTRIBUTION?bar",
+  EXPECT_EQ("decentr://theme/IDR_THEME_NTP_ATTRIBUTION?bar",
             theme->background_image->attribution_url);
   EXPECT_EQ("initial", theme->background_image->size);
   EXPECT_EQ("repeat", theme->background_image->repeat_x);

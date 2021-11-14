@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_toast/cr_toast.js';
-import 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast.js';
+import 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
 import './google_apps/nux_google_apps.js';
 import './landing_view.js';
 import './ntp_background/nux_ntp_background.js';
@@ -12,10 +12,10 @@ import './set_as_default/nux_set_as_default.js';
 import './signin_view.js';
 import '../strings.m.js';
 
-import {CrViewManagerElement} from 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrViewManagerElement} from 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {NavigationMixin, Routes} from './navigation_mixin.js';
 import {NuxSetAsDefaultProxyImpl} from './set_as_default/nux_set_as_default_proxy.js';

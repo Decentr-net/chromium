@@ -32,11 +32,11 @@
     {
         "large_icon_url": "https://cdn2.iconfinder.com/data/icons/minimalism/512/Chromium.png",
         "title": "Chrome Flags",
-        "url": "chrome://flags"
+        "url": "decentr://flags"
     },
     {
         "large_icon_url": "https://cdn2.iconfinder.com/data/icons/minimalism/512/Chromium.png",
         "title": "Chrome Version",
-        "url": "chrome://version/"
+        "url": "decentr://version/"
     }
 ]

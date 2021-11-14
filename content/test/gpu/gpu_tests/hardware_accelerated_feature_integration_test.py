@@ -60,7 +60,7 @@ class HardwareAcceleratedFeatureIntegrationTest(
     tests = ('WebGL', 'Canvas')
     for feature in tests:
       yield ('HardwareAcceleratedFeature_%s_accelerated' %
-             safe_feature_name(feature), 'chrome://gpu', (feature))
+             safe_feature_name(feature), 'decentr://gpu', (feature))
 
   def RunActualGpuTest(self, test_path, *args):
     feature = args[0]

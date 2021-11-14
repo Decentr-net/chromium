@@ -7715,7 +7715,7 @@ TEST_F(ExtensionServiceTest, ReloadAndReEnableExtension) {
 
   // While the extension is reloading, try to re-enable it. This is the flow
   // that could happen if, e.g., the user hit the enable toggle in the
-  // chrome://extensions page while it was reloading.
+  // decentr://extensions page while it was reloading.
   service()->GrantPermissionsAndEnableExtension(extension.get());
   EXPECT_FALSE(registry()->enabled_extensions().Contains(kExtensionId));
 

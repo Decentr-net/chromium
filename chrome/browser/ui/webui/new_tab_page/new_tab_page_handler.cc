@@ -106,12 +106,12 @@ new_tab_page::mojom::ThemePtr MakeTheme(
     most_visited->use_title_pill = true;
     auto theme_id = theme_service->GetThemeID();
     background_image->url = GURL(base::StrCat(
-        {"chrome-untrusted://theme/IDR_THEME_NTP_BACKGROUND?", theme_id}));
+        {"decentr-untrusted://theme/IDR_THEME_NTP_BACKGROUND?", theme_id}));
     background_image->url_2x = GURL(base::StrCat(
-        {"chrome-untrusted://theme/IDR_THEME_NTP_BACKGROUND@2x?", theme_id}));
+        {"decentr-untrusted://theme/IDR_THEME_NTP_BACKGROUND@2x?", theme_id}));
     if (theme_provider->HasCustomImage(IDR_THEME_NTP_ATTRIBUTION)) {
       background_image->attribution_url = GURL(base::StrCat(
-          {"chrome://theme/IDR_THEME_NTP_ATTRIBUTION?", theme_id}));
+          {"decentr://theme/IDR_THEME_NTP_ATTRIBUTION?", theme_id}));
     }
     background_image->size = "initial";
     switch (theme_provider->GetDisplayProperty(

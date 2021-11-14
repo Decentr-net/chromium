@@ -6,9 +6,9 @@
  * @fileoverview TODO(cowmoo)
  */
 
-export const untrustedOrigin = 'chrome-untrusted://personalization';
+export const untrustedOrigin = 'decentr-untrusted://personalization';
 
-export const trustedOrigin = 'chrome://personalization';
+export const trustedOrigin = 'decentr://personalization';
 
 export const kMaximumLocalImagePreviews = 3;
 

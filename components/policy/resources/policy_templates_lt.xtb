@@ -502,7 +502,7 @@
 
       Išimtis galima nurodyti URL baltojo sąrašo politikoje. Į politiką galima įtraukti iki 1000 įrašų – į kitus nebus atsižvelgiama.
 
-      Atminkite, kad nerekomenduojama blokuoti vidinių chrome://* URL, nes gali atsirasti netikėtų klaidų.
+      Atminkite, kad nerekomenduojama blokuoti vidinių decentr://* URL, nes gali atsirasti netikėtų klaidų.
 
       Iš M73 galite blokuoti javascript://* URL. Tačiau tai daro poveikį tik adreso juostoje įrašytam „JavaScript“ (arba, pvz., žymelėms). Atminkite, kad puslapio „JavaScript“ URL netaikoma ši politika (jei duomenys įkeliami dinamiškai). Pavyzdžiui, užblokavus example.com/abc, puslapis example.com vis tiek galės įkelti example.com/abc naudojant „XMLHTTPRequest“.
 
@@ -669,7 +669,7 @@
       paleidus įrenginį iš naujo.</translation>
 <translation id="2138449619211358657">Įgalinus šią politiką „<ph name="PRODUCT_OS_NAME" />“ gali apeiti fiksuotojo portalo autentifikavimo tarpinį serverį.
 
-      Ši politika taikoma, tik jei sukonfigūruotas tarpinis serveris (pvz., kai naudotojas pakeičia politiką apsilankęs adresu chrome://settings arba kai tai atlieka plėtiniai).
+      Ši politika taikoma, tik jei sukonfigūruotas tarpinis serveris (pvz., kai naudotojas pakeičia politiką apsilankęs adresu decentr://settings arba kai tai atlieka plėtiniai).
 
       Jei įgalinsite šį nustatymą, visi fiksuotojo portalo autentifikavimo puslapiai (pvz., visi tinklalapiai nuo fiksuotojo portalo prisijungimo puslapio iki tada, kai „<ph name="PRODUCT_NAME" />“ aptinka, kad sėkmingai prisijungta prie interneto), bus pateikiami atskirame lange ir bus nepaisoma visų dabartinio naudotojo politikos nustatymų bei apribojimų.
 
@@ -690,15 +690,15 @@
 <translation id="2170233653554726857">Įgalinti WPAD optimizavimą</translation>
 <translation id="2176565653304920879">Kai ši politika nustatyta, automatinio laiko aptikimas bus vykdomas vienu iš toliau nurodytų būdų, atsižvelgiant į nustatymo vertę.
 
-      Jei nustatyta į „TimezoneAutomaticDetectionUsersDecide“, naudotojai galėtų valdyti automatinį laiko juostos aptikimą naudodami įprastus valdiklius apsilankę chrome://settings.
+      Jei nustatyta į „TimezoneAutomaticDetectionUsersDecide“, naudotojai galėtų valdyti automatinį laiko juostos aptikimą naudodami įprastus valdiklius apsilankę decentr://settings.
 
-      Jei nustatyta į „TimezoneAutomaticDetectionDisabled“, automatiniai laiko juostos valdikliai, pateikti chrome://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus išjungtas.
+      Jei nustatyta į „TimezoneAutomaticDetectionDisabled“, automatiniai laiko juostos valdikliai, pateikti decentr://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus išjungtas.
 
-      Jei nustatyta į „TimezoneAutomaticDetectionIPOnly“, laiko juostos valdikliai, pateikti chrome://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus įjungtas. Laiko juostos aptikimo funkcija nustatydama vietovę naudos tik IP pagrįstą metodą.
+      Jei nustatyta į „TimezoneAutomaticDetectionIPOnly“, laiko juostos valdikliai, pateikti decentr://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus įjungtas. Laiko juostos aptikimo funkcija nustatydama vietovę naudos tik IP pagrįstą metodą.
 
-      Jei nustatyta į „TimezoneAutomaticDetectionSendWiFiAccessPoints“, laiko juostos valdikliai, pateikti chrome://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus įjungtas. Matomų „Wi-Fi“ prieigos taškų sąrašas visada bus siunčiamas į geografinės vietovės nustatymo API serverį, kad būtų nustatyta tiksli laiko juosta.
+      Jei nustatyta į „TimezoneAutomaticDetectionSendWiFiAccessPoints“, laiko juostos valdikliai, pateikti decentr://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus įjungtas. Matomų „Wi-Fi“ prieigos taškų sąrašas visada bus siunčiamas į geografinės vietovės nustatymo API serverį, kad būtų nustatyta tiksli laiko juosta.
 
-      Jei nustatyta į „TimezoneAutomaticDetectionSendAllLocationInfo“, laiko juostos valdikliai, pateikti chrome://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus įjungtas. Vietovės informacija (pvz., „Wi-Fi“ prieigos taškai, pasiekiami mobiliojo ryšio bokštai, GPS) bus siunčiami į serverį, kad būtų nustatyta tiksli laiko juosta.
+      Jei nustatyta į „TimezoneAutomaticDetectionSendAllLocationInfo“, laiko juostos valdikliai, pateikti decentr://settings, bus išjungti. Automatinis laiko juostos aptikimas visada bus įjungtas. Vietovės informacija (pvz., „Wi-Fi“ prieigos taškai, pasiekiami mobiliojo ryšio bokštai, GPS) bus siunčiami į serverį, kad būtų nustatyta tiksli laiko juosta.
 
       Jei ši politika nenustatyta, aptikimas veiks taip, tarsi būtų nustatyta „TimezoneAutomaticDetectionUsersDecide“.
 
@@ -1254,9 +1254,9 @@
       Jei politika nenustatyta arba nustatyta į „false“, TLS DHE šifruotieji programų komplektai nebus įgalinti. Priešingu atveju ją galima nustatyti į „true“, kad būtų įgalinti DHE šifruotieji programų komplektai ir išsaugotas suderinamumas su pasenusiu serveriu. Tai laikina priemonė; serverį reikia iš naujo sukonfigūruoti.
 
       Serverius raginama perkelti į ECDHE šifruotuosius programų komplektus. Jei jie nepasiekiami, įsitikinkite, kad įgalintas šifruotasis programų komplektas, kuriam naudojami RSA rakto mainai.</translation>
-<translation id="3117706142826400449">Jei šis nustatymas išjungtas, „Chrome“ valymo funkcijai neleidžiama nuskaityti sistemos ieškant nepageidaujamos programinės įrangos ir atlikti valymo veiksmų. Neautomatinis „Chrome“ valymo funkcijos suaktyvinimas apsilankius adresu chrome://settings/cleanup išjungtas.
+<translation id="3117706142826400449">Jei šis nustatymas išjungtas, „Chrome“ valymo funkcijai neleidžiama nuskaityti sistemos ieškant nepageidaujamos programinės įrangos ir atlikti valymo veiksmų. Neautomatinis „Chrome“ valymo funkcijos suaktyvinimas apsilankius adresu decentr://settings/cleanup išjungtas.
 
-      Jei šis nustatymas įgalintas arba nenustatytas, „Chrome“ valymo funkcija periodiškai nuskaitys sistemą ieškodama nepageidaujamos programinės įrangos, o radus tokios įrangos naudotojo bus klausiama, ar jis nori ją pašalinti. Neautomatinis „Chrome“ valymo funkcijos suaktyvinimas apsilankius adresu chrome://settings įgalintas.
+      Jei šis nustatymas įgalintas arba nenustatytas, „Chrome“ valymo funkcija periodiškai nuskaitys sistemą ieškodama nepageidaujamos programinės įrangos, o radus tokios įrangos naudotojo bus klausiama, ar jis nori ją pašalinti. Neautomatinis „Chrome“ valymo funkcijos suaktyvinimas apsilankius adresu decentr://settings įgalintas.
 
       Ši politika pasiekiama tik „Windows“ objektuose, kurie susieti su „<ph name="MS_AD_NAME" />“ domenu, arba „Windows 10 Pro“ ar „Enterprise“ objektuose, kurie užregistruoti naudoti įrenginių tvarkymo funkciją.</translation>
 <translation id="3152425128389603870">Vieno darbalaukio režimo pasiekiamumo nustatymas ir įjungimas pagal numatytuosius nustatymus</translation>
@@ -1308,7 +1308,7 @@
       Jei įgalinsite šį nustatymą arba jo nekonfigūruosite, naudotojai galės įgalinti spausdinimo iš debesies įgaliotąjį serverį, tapatumą nustatydami pagal savo „Google“ paskyrą.
 
       Jei šio nustatymo neleisite, naudotojai negalės įgalinti tarpinio serverio, o kompiuteriui bus neleidžiama bendrinti prijungtų spausdintuvų su „<ph name="CLOUD_PRINT_NAME" />“.</translation>
-<translation id="3312206664202507568">Įgalinamas puslapis adresu chrome://password-change, kur SAML naudotojai gali pakeisti savo SAML slaptažodžius vykstant sesijai, kad būtų užtikrinta, jog sinchronizuojami SAML ir įrenginio užrakinimo ekrano slaptažodžiai.
+<translation id="3312206664202507568">Įgalinamas puslapis adresu decentr://password-change, kur SAML naudotojai gali pakeisti savo SAML slaptažodžius vykstant sesijai, kad būtų užtikrinta, jog sinchronizuojami SAML ir įrenginio užrakinimo ekrano slaptažodžiai.
 
       Ši politika taip pat įgalina pranešimus, įspėjančius SAML naudotojus, jei netrukus baigsis jų SAML slaptažodžių galiojimas, kad jie galėtų nedelsdami tai sutvarkyti, pakeitę slaptažodį vykstant sesijai.
       Bet šie pranešimai bus rodomi, tik jei SAML tapatybės teikėjas siunčia informaciją apie slaptažodžio galiojimo pabaigos laiką į įrenginį, vykstant SAML prisijungimo procesui.
@@ -2072,7 +2072,7 @@
       Šis nustatymas („SitePerProcess“) gali būti naudojamas norint neleisti naudotojams atsisakyti numatytosios elgsenos – izoliuoti visas svetaines. Atminkite, kad politika „IsolateOrigins“ taip pat gali būti naudinga, jei reikia izoliuoti papildomus smulkesnius šaltinius.
       Jei politika įgalinta, naudotojai negalės atsisakyti numatytosios elgsenos, kai vykdomi atskiri kiekvienos svetainės procesai.
       Jei politika nesukonfigūruota ar išjungta, naudotojai galės atsisakyti svetainių izoliavimo
-      (pvz., įrašydami „Išjungti svetainių izoliavimą“ adresu chrome://flags).  Nustačius politiką kaip išjungtą ir (arba) jos nesukonfigūravus, svetainių izoliavimas neišjungiamas.
+      (pvz., įrašydami „Išjungti svetainių izoliavimą“ adresu decentr://flags).  Nustačius politiką kaip išjungtą ir (arba) jos nesukonfigūravus, svetainių izoliavimas neišjungiamas.
       Sistemos „<ph name="PRODUCT_OS_NAME" />“ 76 ir ankstesnėse versijose rekomenduojama taip pat nustatyti tokią pačią „<ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" />“ įrenginio politikos vertę. Jei abiejų politikos nuostatų nurodytos vertės nesutampa, pradedant naudotojo seansą galima delsa, kol pritaikoma naudotojo politikos vertė.
 
       PASTABA: ši politika netaikoma „Android“. Norėdami įgalinti „SitePerProcess“ sistemoje „Android“, naudokite politikos nustatymą „SitePerProcessAndroid“.
@@ -2977,7 +2977,7 @@
 
           Jei įgalinsite šį nustatymą, naujo skirtuko puslapis visada bus naudojamas kaip pagrindinis puslapis, o pagrindinio puslapio URL vietos bus nepaisoma.
 
-          Jei šį nustatymą išjungsite, naudotojo pagrindinis puslapis niekada nebus naujo skirtuko puslapis, jei jo URL nebus nustatytas kaip „chrome://newtab“.
+          Jei šį nustatymą išjungsite, naudotojo pagrindinis puslapis niekada nebus naujo skirtuko puslapis, jei jo URL nebus nustatytas kaip „decentr://newtab“.
 
           Jei šį nustatymą įgalinsite arba išjungsite, paleidę „<ph name="PRODUCT_NAME" />“ naudotojai negalės pakeisti pagrindinio puslapio tipo.
 
@@ -3149,7 +3149,7 @@
 
       Jei ši politika nustatyta kaip „Netiesa“, integruota DNS kliento programa niekada nebus naudojama.
 
-      Jei ši politika nenustatyta, pagal numatytuosius nustatymus bus įgalinta integruota DNS kliento programa „Mac“ OS, „Android“ (kai neįgalintas nei privatus DNS, nei VPN) ir „Chrome“ OS ir naudotojai galės pakeisti, ar integruota DNS kliento programa naudojama, redaguodami chrome://flags arba nurodydami komandų eilutės žymą.</translation>
+      Jei ši politika nenustatyta, pagal numatytuosius nustatymus bus įgalinta integruota DNS kliento programa „Mac“ OS, „Android“ (kai neįgalintas nei privatus DNS, nei VPN) ir „Chrome“ OS ir naudotojai galės pakeisti, ar integruota DNS kliento programa naudojama, redaguodami decentr://flags arba nurodydami komandų eilutės žymą.</translation>
 <translation id="6843296367238757293">Ši politika nebenaudojama. Jos naudojimas nutrauktas. Daugiau informacijos adresu https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Ši politika pašalinta „<ph name="PRODUCT_NAME" />“ 68 ir pakeista „<ph name="ARC_GLS_POLICY_NAME" />“.</translation>
 <translation id="6856743875250214792">Ši politika nebenaudojama ir yra pašalinta iš M66, nes ji buvo naudojama tik vidinio testavimo tikslais ir tai yra saugos atsakomybė.
@@ -3790,7 +3790,7 @@
 <translation id="7941975817681987555">Nenumatyti tinklo veiksmų, naudojant bet kurį tinklo ryšį</translation>
 <translation id="7952007677054834789">Konfigūruojami puslapiai, kurie turi būti įkelti paleidžiant, numatytasis pagrindinis puslapis bei numatytasis naujo skirtuko puslapis sistemoje „<ph name="PRODUCT_NAME" />“ ir naudotojams neleidžiama jų keisti.
 
-      Naudotojo pagrindinio puslapio nustatymai bus visiškai užrakinti tik tada, jei kaip pagrindinį puslapį pasirinksite naujo skirtuko puslapį arba nustatysite, kad į jį būtų įkeltas URL, ir nurodysite pagrindinio puslapio URL. Jei pagrindinio puslapio URL nenurodysite, naudotojui ir toliau bus leidžiama kaip pagrindinį puslapį nustatyti naujo skirtuko puslapį nurodant „chrome://newtab“.
+      Naudotojo pagrindinio puslapio nustatymai bus visiškai užrakinti tik tada, jei kaip pagrindinį puslapį pasirinksite naujo skirtuko puslapį arba nustatysite, kad į jį būtų įkeltas URL, ir nurodysite pagrindinio puslapio URL. Jei pagrindinio puslapio URL nenurodysite, naudotojui ir toliau bus leidžiama kaip pagrindinį puslapį nustatyti naujo skirtuko puslapį nurodant „decentr://newtab“.
 
       Jei skiltyje „Veiksmai paleidžiant“ nepasirinksite „Atidaryti URL sąrašą“, politikos „Paleidžiant atidaromi URL“ bus nepaisoma.</translation>
 <translation id="7952958573604504839">Vietoje šios politikos M48 naudojama „<ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />“ ir ji pašalinta iš M54.

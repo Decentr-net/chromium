@@ -260,7 +260,7 @@ class LocalToRemoteSyncerTest : public testing::Test {
 };
 
 TEST_F(LocalToRemoteSyncerTest, CreateFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -291,7 +291,7 @@ TEST_F(LocalToRemoteSyncerTest, CreateFile) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, CreateFileOnMissingPath) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -325,7 +325,7 @@ TEST_F(LocalToRemoteSyncerTest, CreateFileOnMissingPath) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, DeleteFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -359,7 +359,7 @@ TEST_F(LocalToRemoteSyncerTest, DeleteFile) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFileOnFolder) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -383,7 +383,7 @@ TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFileOnFolder) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFolderOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -408,7 +408,7 @@ TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFolderOnFile) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFileOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -433,7 +433,7 @@ TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFileOnFile) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, Conflict_UpdateDeleteOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -465,7 +465,7 @@ TEST_F(LocalToRemoteSyncerTest, Conflict_UpdateDeleteOnFile) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, Conflict_CreateDeleteOnFile) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -495,7 +495,7 @@ TEST_F(LocalToRemoteSyncerTest, Conflict_CreateDeleteOnFile) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFolderOnFolder) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();
@@ -528,7 +528,7 @@ TEST_F(LocalToRemoteSyncerTest, Conflict_CreateFolderOnFolder) {
 }
 
 TEST_F(LocalToRemoteSyncerTest, AppRootDeletion) {
-  const GURL kOrigin("chrome-extension://example");
+  const GURL kOrigin("decentr-extension://example");
   const std::string sync_root = CreateSyncRoot();
   const std::string app_root = CreateRemoteFolder(sync_root, kOrigin.host());
   InitializeMetadataDatabase();

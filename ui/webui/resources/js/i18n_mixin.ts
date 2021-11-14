@@ -10,7 +10,7 @@
  * handled by a C++ templatizer.
  */
 
-import {dedupingMixin, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {dedupingMixin, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {loadTimeData} from './load_time_data.m.js';
 import {parseHtmlSubset, sanitizeInnerHtml, SanitizeInnerHtmlOpts} from './parse_html_subset.m.js';

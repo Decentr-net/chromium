@@ -56,7 +56,7 @@
       "id": 7,
       "name": "RUN_CHROME_SAFETY_CHECK",
       "enabled": true,
-      "url": "chrome://settings/safetyCheck?activateSafetyCheck",
+      "url": "decentr://settings/safetyCheck?activateSafetyCheck",
       "description": "Run a Safety Check in Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_HINT\nIDS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK",
       "tags": ""
     },
@@ -64,7 +64,7 @@
       "id": 8,
       "name": "MANAGE_SECURITY_SETTINGS",
       "enabled": true,
-      "url": "chrome://settings/security",
+      "url": "decentr://settings/security",
       "description": "Manage your Safe Browsing and more in Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_SECURITY_SETTINGS_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_SECURITY_SETTINGS_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_SECURITY_SETTINGS_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_SECURITY_SETTINGS",
       "tags": ""
     },
@@ -72,7 +72,7 @@
       "id": 9,
       "name": "MANAGE_COOKIES",
       "enabled": true,
-      "url": "chrome://settings/cookies",
+      "url": "decentr://settings/cookies",
       "description": "Manage your cookie preferences in Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_COOKIES_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_COOKIES_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_COOKIES_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_COOKIES",
       "tags": ""
     },
@@ -80,7 +80,7 @@
       "id": 10,
       "name": "MANAGE_ADDRESSES",
       "enabled": true,
-      "url": "chrome://settings/addresses",
+      "url": "decentr://settings/addresses",
       "description": "Add and manage addresses in Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_ADDRESSES_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_ADDRESSES_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_ADDRESSES_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_ADDRESSES",
       "tags": ""
     },
@@ -88,7 +88,7 @@
       "id": 11,
       "name": "MANAGE_SYNC",
       "enabled": true,
-      "url": "chrome://settings/syncSetup/advanced",
+      "url": "decentr://settings/syncSetup/advanced",
       "description": "Manage what info you sync in Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_SYNC_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_SYNC_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_SYNC_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_SYNC",
       "tags": ""
     },
@@ -96,7 +96,7 @@
       "id": 12,
       "name": "MANAGE_SITE_SETTINGS",
       "enabled": true,
-      "url": "chrome://settings/content",
+      "url": "decentr://settings/content",
       "description": "Manage permissions and data stored across sites in Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_SITE_SETTINGS_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_SITE_SETTINGS_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_SITE_SETTINGS_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_SITE_SETTINGS",
       "tags": ""
     },
@@ -216,7 +216,7 @@
       "id": 27,
       "name": "PLAY_CHROME_DINO_GAME",
       "enabled": true,
-      "url": "chrome://dino",
+      "url": "decentr://dino",
       "description": "Play the Dino Run game in Chrome\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_HINT\nIDS_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME",
       "tags": "batch3"
     },
@@ -248,7 +248,7 @@
       "id": 31,
       "name": "MANAGE_CHROME_SETTINGS",
       "enabled": true,
-      "url": "chrome://settings",
+      "url": "decentr://settings",
       "description": "Get to Chrome settings\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_SETTINGS_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_SETTINGS_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_SETTINGS_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_SETTINGS",
       "tags": "batch3"
     },
@@ -256,7 +256,7 @@
       "id": 32,
       "name": "MANAGE_CHROME_DOWNLOADS",
       "enabled": true,
-      "url": "chrome://downloads",
+      "url": "decentr://downloads",
       "description": "Access downloaded files in Chrome\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_DOWNLOADS_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_DOWNLOADS_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_DOWNLOADS_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_DOWNLOADS",
       "tags": "batch3"
     },
@@ -264,7 +264,7 @@
       "id": 33,
       "name": "VIEW_CHROME_HISTORY",
       "enabled": true,
-      "url": "chrome://history",
+      "url": "decentr://history",
       "description": "See the full Chrome history page\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_VIEW_CHROME_HISTORY_HINT\nIDS_OMNIBOX_PEDAL_VIEW_CHROME_HISTORY_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_VIEW_CHROME_HISTORY_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_VIEW_CHROME_HISTORY",
       "tags": "batch3"
     },
@@ -280,7 +280,7 @@
       "id": 35,
       "name": "MANAGE_CHROME_ACCESSIBILITY",
       "enabled": true,
-      "url": "chrome://settings/accessibility",
+      "url": "decentr://settings/accessibility",
       "description": "Personalize Chrome based on abilities and preferences for assistive technology\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_ACCESSIBILITY_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_ACCESSIBILITY_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_ACCESSIBILITY_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_ACCESSIBILITY\n",
       "tags": "batch3,no_test,not_chromeos"
     },
@@ -288,7 +288,7 @@
       "id": 36,
       "name": "CUSTOMIZE_CHROME_FONTS",
       "enabled": true,
-      "url": "chrome://settings/fonts",
+      "url": "decentr://settings/fonts",
       "description": "Adjust font sizes and font types in Chrome\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_CUSTOMIZE_CHROME_FONTS_HINT\nIDS_OMNIBOX_PEDAL_CUSTOMIZE_CHROME_FONTS_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_CUSTOMIZE_CHROME_FONTS_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_CUSTOMIZE_CHROME_FONTS\n",
       "tags": "batch3"
     },
@@ -296,7 +296,7 @@
       "id": 37,
       "name": "MANAGE_CHROME_THEMES",
       "enabled": true,
-      "url": "chrome://new-tab-page/?customize=backgrounds",
+      "url": "decentr://new-tab-page/?customize=backgrounds",
       "description": "Change themes in Chrome\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_THEMES_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_CHROME_THEMES_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_THEMES_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROME_THEMES\n",
       "tags": "batch3"
     },
@@ -304,7 +304,7 @@
       "id": 38,
       "name": "CUSTOMIZE_SEARCH_ENGINES",
       "enabled": true,
-      "url": "chrome://settings/searchEngines",
+      "url": "decentr://settings/searchEngines",
       "description": "Manage search engines in Chrome\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_CUSTOMIZE_SEARCH_ENGINES_HINT\nIDS_OMNIBOX_PEDAL_CUSTOMIZE_SEARCH_ENGINES_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_CUSTOMIZE_SEARCH_ENGINES_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_CUSTOMIZE_SEARCH_ENGINES",
       "tags": "batch3"
     },
@@ -312,7 +312,7 @@
       "id": 39,
       "name": "MANAGE_CHROMEOS_ACCESSIBILITY",
       "enabled": true,
-      "url": "chrome://os-settings/manageAccessibility",
+      "url": "decentr://os-settings/manageAccessibility",
       "description": "Manage accessibility settings in ChromeOS settings\n\nFor metrics, marketing, etc., this is the same as pedal #35 MANAGE_CHROME_ACCESSIBILITY -- #39 specifies the different UX details for ChromeOS.\n\nUser-facing strings for this Pedal:\nIDS_OMNIBOX_PEDAL_MANAGE_CHROMEOS_ACCESSIBILITY_HINT\nIDS_OMNIBOX_PEDAL_MANAGE_CHROMEOS_ACCESSIBILITY_SUGGESTION_CONTENTS\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROMEOS_ACCESSIBILITY_SUFFIX\nIDS_ACC_OMNIBOX_PEDAL_MANAGE_CHROMEOS_ACCESSIBILITY",
       "tags": "batch3,no_test,chromeos"
     }

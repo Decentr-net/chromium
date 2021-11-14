@@ -256,7 +256,7 @@ bool ExtensionContextMenuModel::IsCommandIdEnabled(int command_id) const {
       // The HOME_PAGE links to the Homepage URL. If the extension doesn't have
       // a homepage, we just disable this menu item. We also disable for
       // component extensions, because it doesn't make sense to link to a
-      // webstore page or chrome://extensions.
+      // webstore page or decentr://extensions.
       return ManifestURL::GetHomepageURL(extension).is_valid() &&
              !is_component_;
     case OPTIONS:

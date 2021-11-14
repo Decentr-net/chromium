@@ -29,14 +29,14 @@ function test() {
     case 1:
       alert('With lax isolated world CSP');
       testRunner.setIsolatedWorldInfo(
-          1, 'chrome-extension://123', 'font-src *');
+          1, 'decentr-extension://123', 'font-src *');
       testRunner.evaluateScriptInIsolatedWorld(
           1, String(eval('setFontFace')) + '\nsetFontFace(1);');
       break;
     case 2:
       alert('With strict isolated world CSP');
       testRunner.setIsolatedWorldInfo(
-          1, 'chrome-extension://123', 'font-src \'none\'');
+          1, 'decentr-extension://123', 'font-src \'none\'');
       testRunner.evaluateScriptInIsolatedWorld(
           1, String(eval('setFontFace')) + '\nsetFontFace(2);');
       break;

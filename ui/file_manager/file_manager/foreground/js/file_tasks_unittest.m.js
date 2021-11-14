@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertArrayEquals, assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import {assertArrayEquals, assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {createCrostiniForTest} from '../../background/js/mock_crostini.js';
 import {MockProgressCenter} from '../../background/js/mock_progress_center.js';
@@ -108,7 +108,7 @@ const fakeTracker = {
  * @type {string}
  */
 const fakeMountedZipUrl =
-    'filesystem:chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/' +
+    'filesystem:decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/' +
     'external/fakePath/test.zip';
 
 /**

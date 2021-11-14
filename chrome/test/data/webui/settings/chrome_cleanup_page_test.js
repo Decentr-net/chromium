@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {CHROME_CLEANUP_DEFAULT_ITEMS_TO_SHOW, ChromeCleanupIdleReason,ChromeCleanupProxyImpl} from 'chrome://settings/lazy_load.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CHROME_CLEANUP_DEFAULT_ITEMS_TO_SHOW, ChromeCleanupIdleReason,ChromeCleanupProxyImpl} from 'decentr://settings/lazy_load.js';
 import {TestChromeCleanupProxy} from './test_chrome_cleanup_proxy.js';
 // clang-format on
 

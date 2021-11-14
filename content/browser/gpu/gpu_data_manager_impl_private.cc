@@ -658,7 +658,7 @@ bool GpuDataManagerImplPrivate::GpuAccessAllowed(std::string* reason) const {
                   switches::kDisableGpu))
             *reason += "through commandline switch --disable-gpu.";
           else if (hardware_disabled_explicitly_)
-            *reason += "in chrome://settings.";
+            *reason += "in decentr://settings.";
           else
             *reason += "due to frequent crashes.";
         }
@@ -710,7 +710,7 @@ void GpuDataManagerImplPrivate::RequestDxDiagNodeData() {
     // abnormal situation (id == 0). There are a few crash reports on
     // exit_or_terminate_process() during process teardown. The GPU ID
     // should be available by the time this task starts to run.
-    // This request comes from chrome://gpu page.
+    // This request comes from decentr://gpu page.
     const gpu::GPUInfo::GPUDevice gpu = manager->GetGPUInfo().gpu;
     if ((gpu.vendor_id == 0xffff && gpu.device_id == 0xffff) ||
         (gpu.vendor_id == 0 && gpu.device_id == 0)) {

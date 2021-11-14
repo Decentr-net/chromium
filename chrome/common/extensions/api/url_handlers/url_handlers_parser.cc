@@ -138,7 +138,7 @@ bool ParseUrlHandler(const std::string& handler_id,
     // TODO(sergeygs): Also add a verification to the CWS installer that the
     // URL patterns claimed here belong to the app's author verified sites.
     URLPattern pattern(URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS);
-    // System Web Apps are bookmark apps that point to chrome:// URLs.
+    // System Web Apps are bookmark apps that point to decentr:// URLs.
     // TODO(calamity): Remove once Bookmark Apps are no longer on Extensions.
     if (extension->location() == mojom::ManifestLocation::kExternalComponent &&
         extension->from_bookmark()) {

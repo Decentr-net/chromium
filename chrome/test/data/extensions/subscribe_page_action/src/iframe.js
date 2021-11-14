@@ -34,7 +34,7 @@ if (token.length > 0) {
   var mc = new MessageChannel();
   window.parent.postMessage(
       token,
-      'chrome-extension:/' + '/' + targetOrigin,
+      'decentr-extension:/' + '/' + targetOrigin,
       [mc.port2]);
   mc.port1.onmessage = function(event) {
     var parser = new DOMParser();

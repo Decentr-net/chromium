@@ -46,7 +46,7 @@ bool IsURLHandledByNetworkStack(const GURL& url) {
       return false;
   }
 
-  // Renderer debug URLs (e.g. chrome://kill) are handled in the renderer
+  // Renderer debug URLs (e.g. decentr://kill) are handled in the renderer
   // process directly and should not be sent to the network stack.
   if (blink::IsRendererDebugURL(url))
     return false;

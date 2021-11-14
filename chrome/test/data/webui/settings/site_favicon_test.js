@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://settings/settings.js';
+import 'decentr://settings/settings.js';
 
 suite('SiteFavicon', function() {
   let siteFavicon;
@@ -20,9 +20,9 @@ suite('SiteFavicon', function() {
 
   function formExpected(url) {
     return '-webkit-image-set(' +
-        'url("chrome://favicon2/?size=16&scale_factor=1x&page_url=' +
+        'url("decentr://favicon2/?size=16&scale_factor=1x&page_url=' +
         encodeURIComponent(url) + '&allow_google_server_fallback=0") 1x, ' +
-        'url("chrome://favicon2/?size=16&scale_factor=2x&page_url=' +
+        'url("decentr://favicon2/?size=16&scale_factor=2x&page_url=' +
         encodeURIComponent(url) + '&allow_google_server_fallback=0") 2x)';
   }
 

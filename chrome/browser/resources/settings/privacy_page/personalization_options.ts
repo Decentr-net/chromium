@@ -67,7 +67,7 @@ export class SettingsPersonalizationOptionsElement extends
 
       /**
        * TODO(dpapad): Restore actual type !PrivacyPageVisibility after this
-       * file is no longer reused by chrome://os-settings. Dictionary defining
+       * file is no longer reused by decentr://os-settings. Dictionary defining
        * page visibility.
        */
       pageVisibility: Object,

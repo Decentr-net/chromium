@@ -121,7 +121,7 @@ class ProfilePickerInteractiveUiTest : public ProfilePickerTestBase {
 IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest, CloseWithKeyboard) {
   // Open a new picker.
   ShowAndFocusPicker(ProfilePicker::EntryPoint::kProfileMenuManageProfiles);
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker"));
   EXPECT_TRUE(ProfilePicker::IsOpen());
   SendCloseWindowKeyboardCommand();
   WaitForPickerClosed();
@@ -135,7 +135,7 @@ IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest, CloseWithKeyboard) {
 IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest, ExitWithKeyboard) {
   // Open a new picker.
   ShowAndFocusPicker(ProfilePicker::EntryPoint::kProfileMenuManageProfiles);
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker"));
   EXPECT_TRUE(ProfilePicker::IsOpen());
 
   content::WindowedNotificationObserver terminate_observer(
@@ -155,7 +155,7 @@ IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest, ExitWithKeyboard) {
 IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest, FullscreenWithKeyboard) {
   // Open a new picker.
   ShowAndFocusPicker(ProfilePicker::EntryPoint::kProfileMenuManageProfiles);
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker"));
   EXPECT_TRUE(ProfilePicker::IsOpen());
   EXPECT_FALSE(widget()->IsFullscreen());
   WidgetBoundsChangeWaiter bounds_waiter(widget());
@@ -220,13 +220,13 @@ IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest,
   // back to the picker makes sense. Check that the navigation list is populated
   // correctly.
   ShowAndFocusPicker(ProfilePicker::EntryPoint::kProfileMenuManageProfiles);
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker"));
   EXPECT_EQ(1, web_contents()->GetController().GetEntryCount());
   EXPECT_EQ(0, web_contents()->GetController().GetLastCommittedEntryIndex());
   web_contents()->GetController().LoadURL(
-      GURL("chrome://profile-picker/new-profile"), content::Referrer(),
+      GURL("decentr://profile-picker/new-profile"), content::Referrer(),
       ui::PAGE_TRANSITION_AUTO_TOPLEVEL, std::string());
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker/new-profile"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker/new-profile"));
   EXPECT_EQ(2, web_contents()->GetController().GetEntryCount());
   EXPECT_EQ(1, web_contents()->GetController().GetLastCommittedEntryIndex());
 
@@ -244,12 +244,12 @@ IN_PROC_BROWSER_TEST_F(ProfilePickerInteractiveUiTest,
   // Navigate back with the keyboard.
   SendBackKeyboardCommand();
   WaitForLayoutWithoutToolbar();
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker/new-profile"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker/new-profile"));
   EXPECT_EQ(1, web_contents()->GetController().GetLastCommittedEntryIndex());
 
   // Navigate again back with the keyboard.
   SendBackKeyboardCommand();
-  WaitForLoadStop(web_contents(), GURL("chrome://profile-picker"));
+  WaitForLoadStop(web_contents(), GURL("decentr://profile-picker"));
   EXPECT_EQ(0, web_contents()->GetController().GetLastCommittedEntryIndex());
 
   // Navigating back once again does nothing.

@@ -28,7 +28,7 @@ const EduLoginTest = class extends PolymerTest {
 var EduLoginButtonTest = class extends EduLoginTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_button_test.js';
+    return 'decentr://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_button_test.js';
   }
 
   /** @override */
@@ -65,7 +65,7 @@ TEST_F('EduLoginButtonTest', 'BackButtonRtlIcon', function() {
 var EduLoginParentsTest = class extends EduLoginTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_parents_test.js';
+    return 'decentr://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_parents_test.js';
   }
 
   /** @override */
@@ -101,7 +101,7 @@ TEST_F('EduLoginParentsTest', 'CannotAddAccountError', function() {
 var EduLoginParentSigninTest = class extends EduLoginTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_parent_signin_test.js';
+    return 'decentr://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_parent_signin_test.js';
   }
 
   /** @override */
@@ -134,7 +134,7 @@ TEST_F('EduLoginParentSigninTest', 'ClearState', function() {
 var EduLoginSigninTest = class extends EduLoginTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_signin_test.js';
+    return 'decentr://chrome-signin/test_loader.html?module=chromeos/edu_login/edu_login_signin_test.js';
   }
 
   /** @override */

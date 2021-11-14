@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // So that mojo is defined.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 
-import {createScrollBorders, decodeString16, mojoString16} from 'chrome://new-tab-page/new_tab_page.js';
-import {flushTasks, waitAfterNextRender} from 'chrome://test/test_util.js';
+import {createScrollBorders, decodeString16, mojoString16} from 'decentr://new-tab-page/new_tab_page.js';
+import {flushTasks, waitAfterNextRender} from 'decentr://test/test_util.js';
 
 suite('scroll borders', () => {
   /** @type {!HTMLElement} */

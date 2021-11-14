@@ -7,8 +7,8 @@
  * 'step-indicator' is an element that displays a row of dots, one of which is
  * highlighted, to indicate how far the user is through a multi-step flow.
  */
-import {I18nMixin} from 'chrome://resources/js/i18n_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nMixin} from 'decentr://resources/js/i18n_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 const StepIndicatorBase = I18nMixin(PolymerElement);
 

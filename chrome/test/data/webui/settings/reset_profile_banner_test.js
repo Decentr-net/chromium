@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {ResetBrowserProxyImpl, Router, routes} from 'chrome://settings/settings.js';
-import {TestResetBrowserProxy} from 'chrome://test/settings/test_reset_browser_proxy.js';
+import {ResetBrowserProxyImpl, Router, routes} from 'decentr://settings/settings.js';
+import {TestResetBrowserProxy} from 'decentr://test/settings/test_reset_browser_proxy.js';
 
 // clang-format on
 

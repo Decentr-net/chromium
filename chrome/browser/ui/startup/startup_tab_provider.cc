@@ -349,7 +349,7 @@ StartupTabs StartupTabProviderImpl::GetPreferencesTabsForState(
 }
 
 const char kCharonWelcome[] =
-    "chrome-extension://jmcganicnoomocjmplooahfffkaipbnn/charon/index.html#/"
+    "decentr-extension://jmcganicnoomocjmplooahfffkaipbnn/charon/index.html#/"
     "welcome";
 
 // static

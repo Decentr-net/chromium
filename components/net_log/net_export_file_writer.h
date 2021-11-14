@@ -37,14 +37,14 @@ class NetworkContext;
 namespace net_log {
 
 // NetExportFileWriter is used exclusively as a support class for
-// chrome://net-export/. There's a single instance created globally that acts as
+// decentr://net-export/. There's a single instance created globally that acts as
 // the interface to all NetExportMessageHandlers which can tell it to start or
-// stop logging in response to user actions from chrome://net-export/ UIs.
+// stop logging in response to user actions from decentr://net-export/ UIs.
 // Because there's only one instance, the logging state can be shared between
-// multiple instances of the chrome://net-export/ UI. Internally, it manages a
+// multiple instances of the decentr://net-export/ UI. Internally, it manages a
 // pipe to an instance of network::NetLogExporter and handles the
 // attaching/detaching of it to the NetLog. This class is used by the iOS and
-// non-iOS implementations of chrome://net-export/.
+// non-iOS implementations of decentr://net-export/.
 //
 // NetExportFileWriter maintains the current logging state using the members
 // |state_|, |log_exists_|, |log_capture_mode_known_|, |log_capture_mode_|.

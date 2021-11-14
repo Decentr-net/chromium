@@ -271,7 +271,7 @@ IN_PROC_BROWSER_TEST_F(CrashReportPrivateApiTest, SuppressedIfDevtoolsOpen) {
 IN_PROC_BROWSER_TEST_F(CrashReportPrivateApiTest, CalledFromWebContentsInTab) {
   // Navigate to the text |extension_| that has access to |CrashReportPrivate|.
   const GURL extension_context_url(
-      "chrome-extension://jjeoclcdfjddkdjokiejckgcildcflpp/"
+      "decentr-extension://jjeoclcdfjddkdjokiejckgcildcflpp/"
       "_generated_background_page.html");
   content::WebContents* web_content =
       browser()->tab_strip_model()->GetActiveWebContents();
@@ -333,9 +333,9 @@ IN_PROC_BROWSER_TEST_P(CrashReportPrivateCalledFromSwaTest,
 
   content::WebContents* web_content =
       app_browser->tab_strip_model()->GetActiveWebContents();
-  // Navigate to chrome://media-app which was access to |CrashReportPrivate|
+  // Navigate to decentr://media-app which was access to |CrashReportPrivate|
   // from the |WebContents| in the web app window.
-  const GURL extension_context_url("chrome://media-app");
+  const GURL extension_context_url("decentr://media-app");
   EXPECT_TRUE(NavigateToURL(web_content, extension_context_url));
 
   constexpr char kTestScript[] = R"(

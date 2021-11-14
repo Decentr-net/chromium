@@ -187,7 +187,7 @@ void KeyboardAccessTest::TestMenuKeyboardAccess(bool alternate_key_sequence,
   // Navigate to a page in the first tab, which makes sure that focus is
   // set to the browser window.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://version/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://version/")));
 
   // The initial tab index should be 0.
   ASSERT_EQ(0, browser()->tab_strip_model()->active_index());
@@ -273,7 +273,7 @@ void KeyboardAccessTest::TestSystemMenuWithKeyboard() {
   // Navigate to a page in the first tab, which makes sure that focus is
   // set to the browser window.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://version/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://version/")));
 
   ASSERT_TRUE(ui_test_utils::BringBrowserWindowToFront(browser()));
 
@@ -323,10 +323,10 @@ void KeyboardAccessTest::TestSystemMenuReopenClosedTabWithKeyboard() {
   // Navigate to a page in the first tab, which makes sure that focus is
   // set to the browser window.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://version/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://version/")));
 
   ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("chrome://version/"),
+      browser(), GURL("decentr://version/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP);
 
@@ -367,7 +367,7 @@ void KeyboardAccessTest::TestSystemMenuReopenClosedTabWithKeyboard() {
 
 void KeyboardAccessTest::TestMenuKeyboardAccessAndDismiss() {
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://version/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://version/")));
 
   ASSERT_EQ(0, browser()->tab_strip_model()->active_index());
 
@@ -492,8 +492,8 @@ IN_PROC_BROWSER_TEST_F(KeyboardAccessTest, ReserveKeyboardAccelerators) {
 IN_PROC_BROWSER_TEST_F(KeyboardAccessTest, BackForwardKeys) {
   // Navigate to create some history.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://version/")));
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("chrome://about/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://version/")));
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("decentr://about/")));
 
   std::u16string before_back;
   ASSERT_TRUE(ui_test_utils::GetCurrentTabTitle(browser(), &before_back));

@@ -14,7 +14,7 @@ subdirectory (often `Default`) within the user data directory.
 
 To determine the user data directory for a running Chrome instance:
 
-1. Navigate to `chrome://version`
+1. Navigate to `decentr://version`
 2. Look for the `Profile Path` field.  This gives the path to the profile
    directory.
 3. The user data directory is the parent of the profile directory.

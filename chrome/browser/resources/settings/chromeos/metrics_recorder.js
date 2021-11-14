@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js'
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js'
 // #import '../constants/setting.mojom-lite.js';
 // #import '../search/user_action_recorder.mojom-lite.js';
 // clang-format on

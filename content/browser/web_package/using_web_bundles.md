@@ -10,7 +10,7 @@ This document is for web developers who want to create [Web Bundles](https://wic
 
 Web Bundles can be created with the [`gen-bundle` tool in the WICG/webpackage repository](https://github.com/WICG/webpackage/tree/master/go/bundle).
 
-To enable experimental support for Web Bundles in Chrome, enable `chrome://flags/#web-bundles` flag .
+To enable experimental support for Web Bundles in Chrome, enable `decentr://flags/#web-bundles` flag .
 
 ## Dealing with Common Problems in Unsigned Bundles
 

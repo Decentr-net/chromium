@@ -1,5 +1,5 @@
 {
-  // chrome-extension://oobinhbdbiehknkpbpejbbpdbkdjmoco/
+  // decentr-extension://oobinhbdbiehknkpbpejbbpdbkdjmoco/
   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBjsTE4ocXJWzgcCDCUcsPASoRCGaTHrHn6b4zDTCayTuJtyGKzw4xZPMiG4dbEbmSAwEU7UCoyJAM1XfLS7UQ/Zz7ft8wpZkSS8/PJW+E4Qu++tMS0csj2Wdrrd2c5yyWxlJ+H9o2ivwtwuxs7pd+LXt+gsBA0epnT04T9EvOTQIDAQAB",
   "name": "Files test extension",
   "version": "0.1",
@@ -11,11 +11,11 @@
   },
   "permissions": [
     {"fileSystem": ["write"]},
-    "chrome://resources/",
+    "decentr://resources/",
     "tabs",
     "commandLinePrivate",
-    "chrome-extension://oobinhbdbiehknkpbpejbbpdbkdjmoco/*",
-    "chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/*"
+    "decentr-extension://oobinhbdbiehknkpbpejbbpdbkdjmoco/*",
+    "decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/*"
   ],
-  "content_security_policy": "script-src 'self' chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj chrome://resources ;"
+  "content_security_policy": "script-src 'self' decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj decentr://resources ;"
 }

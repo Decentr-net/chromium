@@ -23,7 +23,7 @@ namespace {
 
 network::mojom::CorsOriginPatternPtr CreateTestPattern(
     std::string target_domain) {
-  std::string scheme = "chrome-extension";
+  std::string scheme = "decentr-extension";
   uint16_t port = 123;
   network::mojom::CorsDomainMatchMode domain_mode =
       network::mojom::CorsDomainMatchMode::kAllowSubdomains;

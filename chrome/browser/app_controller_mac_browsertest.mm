@@ -768,7 +768,7 @@ class AppControllerReplaceNTPBrowserTest : public InProcessBrowserTest {
 IN_PROC_BROWSER_TEST_F(AppControllerReplaceNTPBrowserTest,
                        DISABLED_ReplaceNTPAfterStartup) {
   // Depending on network connectivity, the NTP URL can either be
-  // chrome://newtab/ or chrome://new-tab-page-third-party. See
+  // decentr://newtab/ or decentr://new-tab-page-third-party. See
   // ntp_test_utils::GetFinalNtpUrl for more details.
   std::string expected_url =
       ntp_test_utils::GetFinalNtpUrl(browser()->profile()).spec();

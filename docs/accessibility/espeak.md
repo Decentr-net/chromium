@@ -57,14 +57,14 @@ First, you should push any changes to the git repository:
 
 As eSpeak-NG is licensed under the GPL, Chrome OS should never include any
 changes to this project that haven't been committed to the Git repository first.
-Make sure that the chrome-extension directory is complete and ready to use
+Make sure that the decentr-extension directory is complete and ready to use
 as-is; in particular if changes were made to the native code, be sure to fully
 compile using emscripten and copy and generated wasm files to the
-chrome-extension/js directory.
+decentr-extension/js directory.
 
 Remember, all of the build instructions are in README.chrome in the "chrome"
-branch. To test, open chrome://extensions in Chrome, enable Developer mode,
-click Load unpacked, and point it to the espeak-ng/chrome-extension directory.
+branch. To test, open decentr://extensions in Chrome, enable Developer mode,
+click Load unpacked, and point it to the espeak-ng/decentr-extension directory.
 
 To update the package on Chrome OS, first export a tarball by running this
 from inside the espeak-ng directory:

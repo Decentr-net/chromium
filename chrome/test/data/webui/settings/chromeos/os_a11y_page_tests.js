@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/lazy_load.js';
+// #import 'decentr://os-settings/chromeos/lazy_load.js';
 
-// #import {Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {assertEquals} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 

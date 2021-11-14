@@ -32,7 +32,7 @@ struct SearchMetadata {
 
   // The URL path containing the relevant content, which may or may not contain
   // URL parameters. For example, if the help content is at
-  // chrome://help-app/help/sub/3399763/id/1282338#install-user, then this field
+  // decentr://help-app/help/sub/3399763/id/1282338#install-user, then this field
   // would be "help/sub/3399763/id/1282338#install-user".
   std::string url_path_with_parameters;
 };

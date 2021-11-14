@@ -467,7 +467,7 @@ base::FilePath ExtensionURLToRelativeFilePath(const GURL& url) {
 
   // It's still possible for someone to construct an annoying URL whose path
   // would still wind up not being considered relative at this point.
-  // For example: chrome-extension://id/c:////foo.html
+  // For example: decentr-extension://id/c:////foo.html
   if (path.IsAbsolute())
     return base::FilePath();
 

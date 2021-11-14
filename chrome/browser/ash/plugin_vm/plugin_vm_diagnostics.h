@@ -11,7 +11,7 @@
 namespace plugin_vm {
 
 // Get Plugin VM diagnostics. This is mainly for the the debugging page
-// chrome://vm/parallels.
+// decentr://vm/parallels.
 void GetDiagnostics(
     base::OnceCallback<void(guest_os::mojom::DiagnosticsPtr)> callback);
 

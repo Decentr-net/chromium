@@ -1419,7 +1419,7 @@ TEST_F(DeveloperPrivateApiUnitTest, GrantHostPermission) {
                           kInvalidHostError);
 
   // Cannot grant chrome:-scheme URLs.
-  GURL chrome_host("chrome://settings/*");
+  GURL chrome_host("decentr://settings/*");
   run_add_host_permission(chrome_host.spec(), false, kInvalidHostError);
 
   EXPECT_FALSE(modifier.HasGrantedHostPermission(chrome_host));

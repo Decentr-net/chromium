@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ListSelectionModel} from 'chrome://resources/js/cr/ui/list_selection_model.m.js';
-import {ListSingleSelectionModel} from 'chrome://resources/js/cr/ui/list_single_selection_model.m.js';
+import {ListSelectionModel} from 'decentr://resources/js/cr/ui/list_selection_model.m.js';
+import {ListSingleSelectionModel} from 'decentr://resources/js/cr/ui/list_single_selection_model.m.js';
 
 export class FileListSelectionModel extends ListSelectionModel {
   /** @param {number=} opt_length The number items in the selection. */

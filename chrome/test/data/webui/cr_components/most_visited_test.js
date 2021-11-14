@@ -4,14 +4,14 @@
 
 import '../mojo_webui_test_support.js';
 
-import {MostVisitedBrowserProxy} from 'chrome://resources/cr_components/most_visited/browser_proxy.js';
-import {MostVisitedElement} from 'chrome://resources/cr_components/most_visited/most_visited.js';
-import {MostVisitedPageCallbackRouter, MostVisitedPageHandlerRemote} from 'chrome://resources/cr_components/most_visited/most_visited.mojom-webui.js';
-import {MostVisitedWindowProxy} from 'chrome://resources/cr_components/most_visited/window_proxy.js';
-import {CrActionMenuElement} from 'chrome://resources/cr_elements/cr_action_menu/cr_action_menu.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {TextDirection} from 'chrome://resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js';
+import {MostVisitedBrowserProxy} from 'decentr://resources/cr_components/most_visited/browser_proxy.js';
+import {MostVisitedElement} from 'decentr://resources/cr_components/most_visited/most_visited.js';
+import {MostVisitedPageCallbackRouter, MostVisitedPageHandlerRemote} from 'decentr://resources/cr_components/most_visited/most_visited.mojom-webui.js';
+import {MostVisitedWindowProxy} from 'decentr://resources/cr_components/most_visited/window_proxy.js';
+import {CrActionMenuElement} from 'decentr://resources/cr_elements/cr_action_menu/cr_action_menu.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {TextDirection} from 'decentr://resources/mojo/mojo/public/mojom/base/text_direction.mojom-webui.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';
@@ -629,7 +629,7 @@ suite('Modification', () => {
 
     test('chrome is not a valid scheme', () => {
       assertTrue(saveButton.disabled);
-      inputUrl.value = 'chrome://url';
+      inputUrl.value = 'decentr://url';
       assertFalse(inputUrl.invalid);
       leaveUrlInput();
       assertTrue(inputUrl.invalid);

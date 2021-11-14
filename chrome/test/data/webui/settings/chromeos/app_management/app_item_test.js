@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {FakePageHandler} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {FakePageHandler} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {replaceBody} from './test_util.m.js';
-// #import {flushTasks} from 'chrome://test/test_util.js';
-// #import {Router} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {flushTasks} from 'decentr://test/test_util.js';
+// #import {Router} from 'decentr://os-settings/chromeos/os_settings.js';
 // clang-format on
 
 'use strict';

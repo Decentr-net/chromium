@@ -117,10 +117,10 @@ TEST_F(SmsObserverTest, MultipleTextMessages) {
   EXPECT_EQ(2u, notifications.size());
 
   for (message_center::Notification* iter : notifications) {
-    if (iter->id().find("chrome://network/sms1") != std::string::npos) {
+    if (iter->id().find("decentr://network/sms1") != std::string::npos) {
       EXPECT_EQ(u"000-000-0000", iter->title());
       EXPECT_EQ(u"first message", iter->message());
-    } else if (iter->id().find("chrome://network/sms2") != std::string::npos) {
+    } else if (iter->id().find("decentr://network/sms2") != std::string::npos) {
       EXPECT_EQ(u"000-000-0000", iter->title());
       EXPECT_EQ(u"second message", iter->message());
     } else {

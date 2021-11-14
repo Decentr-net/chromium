@@ -3,12 +3,12 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {MultiDeviceFeature, MultiDeviceFeatureState, routes, Router} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {MultiDeviceFeature, MultiDeviceFeatureState, routes, Router} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
-// #import {eventToPromise} from 'chrome://test/test_util.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {eventToPromise} from 'decentr://test/test_util.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 suite('Multidevice', function() {

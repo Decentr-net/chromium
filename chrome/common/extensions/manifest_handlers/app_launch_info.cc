@@ -54,14 +54,14 @@ bool ReadLaunchDimension(const extensions::Manifest* manifest,
 }
 
 bool HasValidComponentBookmarkAppURL(const GURL& url) {
-  // For component Bookmark Apps we additionally accept chrome:// and
-  // chrome-untrusted://.
+  // For component Bookmark Apps we additionally accept decentr:// and
+  // decentr-untrusted://.
   //
-  // Making chrome-untrusted:// work with URLPattern has many side-effects e.g.
-  // it makes chrome-untrusted:// URLs scriptable. Given that
-  // chrome-untrusted:// support is only needed temporarily until Bookmark Apps
+  // Making decentr-untrusted:// work with URLPattern has many side-effects e.g.
+  // it makes decentr-untrusted:// URLs scriptable. Given that
+  // decentr-untrusted:// support is only needed temporarily until Bookmark Apps
   // are deprecated, we simply check the parsed URL scheme, rather than adding
-  // chrome-untrusted:// to URLPattern and dealing with all the side-effects.
+  // decentr-untrusted:// to URLPattern and dealing with all the side-effects.
   if (url.SchemeIs(content::kChromeUIScheme))
     return true;
   if (url.SchemeIs(content::kChromeUIUntrustedScheme))
@@ -136,7 +136,7 @@ bool AppLaunchInfo::Parse(Extension* extension, std::u16string* error) {
 bool AppLaunchInfo::LoadLaunchURL(Extension* extension, std::u16string* error) {
   const base::Value* temp = NULL;
 
-  // Launch URL can be either local (to chrome-extension:// root) or an absolute
+  // Launch URL can be either local (to decentr-extension:// root) or an absolute
   // web URL.
   if (extension->manifest()->Get(keys::kLaunchLocalPath, &temp)) {
     if (extension->manifest()->Get(keys::kLaunchWebURL, NULL)) {

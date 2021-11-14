@@ -166,7 +166,7 @@ TEST_F(BreadcrumbManagerTabHelperTest, GooglePlayNavigationStart) {
       << events.front();
 }
 
-// Tests metadata for chrome://newtab NTP navigation.
+// Tests metadata for decentr://newtab NTP navigation.
 TEST_F(BreadcrumbManagerTabHelperTest, ChromeNewTabNavigationStart) {
   ASSERT_EQ(0ul, breadcrumb_service_->GetEvents(0).size());
 

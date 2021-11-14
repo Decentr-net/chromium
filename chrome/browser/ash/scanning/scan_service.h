@@ -38,7 +38,7 @@ namespace ash {
 class LorgnetteScannerManager;
 
 // Implementation of the ash::scanning::mojom::ScanService interface. Used
-// by the scanning WebUI (chrome://scanning) to get connected scanners, obtain
+// by the scanning WebUI (decentr://scanning) to get connected scanners, obtain
 // scanner capabilities, and perform scans.
 class ScanService : public scanning::mojom::ScanService,
                     public scanning::mojom::MultiPageScanController,

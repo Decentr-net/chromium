@@ -6,8 +6,8 @@ import './base_page.js';
 import './repair_component_chip.js';
 import './shimless_rma_shared_css.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {ComponentTypeToId, ComponentTypeToName} from './data.js';
 import {getShimlessRmaService} from './mojo_interface_provider.js';

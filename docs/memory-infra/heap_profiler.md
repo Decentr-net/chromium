@@ -5,18 +5,18 @@ allocations (calls to new or malloc without a subsequent call to delete or free)
 along with sufficient metadata to identify the code that made the allocation.
 
 By default, MemoryInfra traces will not contain heap dumps. Heap profiling must
-be enabled via chrome://memory-internals or about://flags.
+be enabled via decentr://memory-internals or about://flags.
 
 [TOC]
 
 ## How to obtain a heap dump (M66+, Linux, macOS, Windows)
 
- 1. Navigate to chrome://memory-internals.
+ 1. Navigate to decentr://memory-internals.
     * There will be an error message at the top if heap-profiling is not
       supported on the current configuration
  2. Enable heap profiling for the relevant processes. Future allocations will be
     tracked. Refresh the page to view tracked processes.
-    * To enable tracking at process start, navigate to chrome://flags and search
+    * To enable tracking at process start, navigate to decentr://flags and search
       for `memlog`.
  3. To take a heap dump, click `save dump`. This is stored as a
     [MemoryInfra][memory-infra] trace.
@@ -32,7 +32,7 @@ be enabled via chrome://memory-internals or about://flags.
      frame pointers if they're present, and backtrace lib. The former can be
      forced on with enable_frame_pointers gn arg. This should work on all architectures except for
      arm 32. The latter depends on unwind tables.
- 5. Load the (now symbolized) trace in chrome://tracing.
+ 5. Load the (now symbolized) trace in decentr://tracing.
 
 ## How to obtain a heap dump (M66+, Android)
 
@@ -51,7 +51,7 @@ symbolize_trace script above.
 
 ## How to obtain a heap dump (M65 and older)
 
-For the most part, the setting `enable-heap-profiling` in `chrome://flags` has a
+For the most part, the setting `enable-heap-profiling` in `decentr://flags` has a
 similar effect to the various `memlog` flags.
 
 

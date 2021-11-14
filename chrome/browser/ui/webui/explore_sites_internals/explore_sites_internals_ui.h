@@ -15,7 +15,7 @@
 
 namespace explore_sites {
 
-// UI controller for chrome://explore-sites-internals, hooks up a concrete
+// UI controller for decentr://explore-sites-internals, hooks up a concrete
 // implementation of explore_sites_internals::mojom::PageHandler to requests for
 // that page handler that will come from the frontend.
 class ExploreSitesInternalsUI : public ui::MojoWebUIController {

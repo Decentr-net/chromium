@@ -2,17 +2,17 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/system_page.js';
+import 'decentr://diagnostics/system_page.js';
 
-import {DiagnosticsBrowserProxyImpl} from 'chrome://diagnostics/diagnostics_browser_proxy.js';
-import {BatteryChargeStatus, BatteryHealth, BatteryInfo, CpuUsage, MemoryUsage, RoutineType, StandardRoutineResult, SystemInfo} from 'chrome://diagnostics/diagnostics_types.js';
-import {fakeBatteryChargeStatus, fakeBatteryHealth, fakeBatteryInfo, fakeCellularNetwork, fakeCpuUsage, fakeEthernetNetwork, fakeMemoryUsage, fakeNetworkGuidInfoList, fakePowerRoutineResults, fakeRoutineResults, fakeSystemInfo, fakeSystemInfoWithoutBattery, fakeWifiNetwork} from 'chrome://diagnostics/fake_data.js';
-import {FakeNetworkHealthProvider} from 'chrome://diagnostics/fake_network_health_provider.js';
-import {FakeSystemDataProvider} from 'chrome://diagnostics/fake_system_data_provider.js';
-import {FakeSystemRoutineController} from 'chrome://diagnostics/fake_system_routine_controller.js';
-import {setNetworkHealthProviderForTesting, setSystemDataProviderForTesting, setSystemRoutineControllerForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
-import {TestSuiteStatus} from 'chrome://diagnostics/routine_list_executor.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {DiagnosticsBrowserProxyImpl} from 'decentr://diagnostics/diagnostics_browser_proxy.js';
+import {BatteryChargeStatus, BatteryHealth, BatteryInfo, CpuUsage, MemoryUsage, RoutineType, StandardRoutineResult, SystemInfo} from 'decentr://diagnostics/diagnostics_types.js';
+import {fakeBatteryChargeStatus, fakeBatteryHealth, fakeBatteryInfo, fakeCellularNetwork, fakeCpuUsage, fakeEthernetNetwork, fakeMemoryUsage, fakeNetworkGuidInfoList, fakePowerRoutineResults, fakeRoutineResults, fakeSystemInfo, fakeSystemInfoWithoutBattery, fakeWifiNetwork} from 'decentr://diagnostics/fake_data.js';
+import {FakeNetworkHealthProvider} from 'decentr://diagnostics/fake_network_health_provider.js';
+import {FakeSystemDataProvider} from 'decentr://diagnostics/fake_system_data_provider.js';
+import {FakeSystemRoutineController} from 'decentr://diagnostics/fake_system_routine_controller.js';
+import {setNetworkHealthProviderForTesting, setSystemDataProviderForTesting, setSystemRoutineControllerForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
+import {TestSuiteStatus} from 'decentr://diagnostics/routine_list_executor.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible} from '../../test_util.js';

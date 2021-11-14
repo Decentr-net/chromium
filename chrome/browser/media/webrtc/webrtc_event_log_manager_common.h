@@ -86,7 +86,7 @@ extern const base::FilePath::CharType kWebRtcEventLogGzippedExtension[];
 
 // Logs themselves are kept on disk for kRemoteBoundWebRtcEventLogsMaxRetention,
 // or until uploaded. Smaller history files are kept for a longer time, allowing
-// Chrome to display on chrome://webrtc-logs/ that these files were captured
+// Chrome to display on decentr://webrtc-logs/ that these files were captured
 // and later uploaded.
 extern const base::FilePath::CharType kWebRtcEventLogHistoryExtension[];
 

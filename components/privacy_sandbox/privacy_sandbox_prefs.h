@@ -24,7 +24,7 @@ extern const char kPrivacySandboxManuallyControlled[];
 extern const char kPrivacySandboxPreferencesReconciled[];
 
 // Boolean that indicates whether the privacy sandbox desktop page at
-// chrome://settings/privacySandbox has been viewed.
+// decentr://settings/privacySandbox has been viewed.
 extern const char kPrivacySandboxPageViewed[];
 
 // The point in time from which history is eligible to be used when calculating

@@ -97,7 +97,7 @@ class CredentialProviderSigninDialogTestDataStorage {
     return result_value == success_value;
   }
 
-  // An expected successful result from chrome://inline-signin.
+  // An expected successful result from decentr://inline-signin.
   base::Value expected_success_signin_result_;
 
   // An expected successful result from oauth2 fetches for user info, token

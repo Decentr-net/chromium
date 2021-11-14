@@ -64,7 +64,7 @@ class OmniboxFocusInteractiveTest : public ExtensionBrowserTest {
     content::WebContents* web_contents =
         browser()->tab_strip_model()->GetActiveWebContents();
 
-    // Wait until chrome://newtab navigation finished.
+    // Wait until decentr://newtab navigation finished.
     content::TestNavigationObserver nav_observer(web_contents);
     nav_observer.Wait();
   }
@@ -88,7 +88,7 @@ IN_PROC_BROWSER_TEST_F(OmniboxFocusInteractiveTest,
   EXPECT_FALSE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_TAB_CONTAINER));
 
   // Install an extension that
-  // 1) provides a replacement for chrome://newtab URL
+  // 1) provides a replacement for decentr://newtab URL
   // 2) navigates away from the replacement
   WriteExtensionFile(FILE_PATH_LITERAL("ext_ntp.html"),
                      "<script src='ext_ntp.js'></script>");
@@ -142,7 +142,7 @@ IN_PROC_BROWSER_TEST_F(OmniboxFocusInteractiveTest,
   EXPECT_TRUE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_OMNIBOX));
   EXPECT_FALSE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_TAB_CONTAINER));
 
-  // Install an extension that provides a replacement for chrome://newtab URL.
+  // Install an extension that provides a replacement for decentr://newtab URL.
   WriteExtensionFile(FILE_PATH_LITERAL("ext_ntp.html"),
                      "<body>NTP replacement extension</body>");
   const Extension* extension = CreateAndLoadNtpReplacementExtension();
@@ -202,7 +202,7 @@ IN_PROC_BROWSER_TEST_F(OmniboxFocusInteractiveTest,
   EXPECT_FALSE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_TAB_CONTAINER));
 
   // Install an extension that
-  // 1) provides a replacement for chrome://newtab URL
+  // 1) provides a replacement for decentr://newtab URL
   // 2) navigates away from the replacement
   WriteExtensionFile(FILE_PATH_LITERAL("ext_ntp.html"),
                      "<script src='ext_ntp.js'></script>");
@@ -236,7 +236,7 @@ IN_PROC_BROWSER_TEST_F(OmniboxFocusInteractiveTest,
   EXPECT_TRUE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_OMNIBOX));
   EXPECT_FALSE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_TAB_CONTAINER));
 
-  // Install an extension that provides a replacement for chrome://newtab URL.
+  // Install an extension that provides a replacement for decentr://newtab URL.
   WriteExtensionFile(FILE_PATH_LITERAL("ext_ntp.html"),
                      "<body>NTP replacement extension</body>");
   const Extension* extension = CreateAndLoadNtpReplacementExtension();
@@ -284,7 +284,7 @@ IN_PROC_BROWSER_TEST_F(OmniboxFocusInteractiveTest,
   EXPECT_TRUE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_OMNIBOX));
   EXPECT_FALSE(ui_test_utils::IsViewFocused(browser(), VIEW_ID_TAB_CONTAINER));
 
-  // Install an extension that provides a replacement for chrome://newtab URL.
+  // Install an extension that provides a replacement for decentr://newtab URL.
   WriteExtensionFile(FILE_PATH_LITERAL("ext_ntp.html"),
                      "<body>NTP replacement extension</body>");
   const Extension* extension = CreateAndLoadNtpReplacementExtension();

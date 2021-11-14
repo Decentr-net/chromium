@@ -48,7 +48,7 @@ $CHROMIUM_SRC/tools/android/kerberos/negotiate_test_server.py
 
 #### 4: Set up port forwarding via the Chrome inspector
 
- -  Go to <chrome://inspect>
+ -  Go to <decentr://inspect>
  -  Click **Port forwarding**
  -  `8080` to `localhost:8080` should be prefilled
  -  Check **Enable port forwarding** and click **Done**

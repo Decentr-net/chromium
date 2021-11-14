@@ -516,7 +516,7 @@ Si vous la désactivez, le défilement des pages Web vers des fragments de texte
 <translation id="1620510694547887537">Caméra</translation>
 <translation id="1626379196197114720">Autoriser l'utilisation du cache amélioré</translation>
 <translation id="1628974048137236820">Fiches non affichées sur la page Nouvel onglet</translation>
-<translation id="1630263002012156148">Permet de définir la page "Nouvel onglet" comme page d'accueil de l'utilisateur. Toute URL de page d'accueil est ignorée. Si cette règle est désactivée, la page d'accueil de l'utilisateur ne sera jamais la page "Nouvel onglet", sauf si l'URL de la page d'accueil est définie sur "chrome://newtab".
+<translation id="1630263002012156148">Permet de définir la page "Nouvel onglet" comme page d'accueil de l'utilisateur. Toute URL de page d'accueil est ignorée. Si cette règle est désactivée, la page d'accueil de l'utilisateur ne sera jamais la page "Nouvel onglet", sauf si l'URL de la page d'accueil est définie sur "decentr://newtab".
 
       Si cette règle est configurée, les utilisateurs ne peuvent pas modifier leur type de page d'accueil dans <ph name="PRODUCT_NAME" />. Si elle n'est pas configurée, l'utilisateur peut choisir lui-même d'utiliser la page "Nouvel onglet" comme page d'accueil.
 
@@ -664,7 +664,7 @@ Si vous la désactivez, le défilement des pages Web vers des fragments de texte
 <translation id="1798559516913615713">Durée de réutilisation des GPO mis en cache</translation>
 <translation id="180130467244315277">Cette règle permet aux administrateurs de configurer l'ordre des langues préférées dans les paramètres de <ph name="PRODUCT_NAME" />.
 
-      La liste apparaîtra dans le même ordre dans la section "Classer les langues selon vos préférences" dans chrome://settings/languages. Les utilisateurs ne pourront pas supprimer ni réorganiser les langues définies par la règle, mais pourront en ajouter sous celles définies. Les utilisateurs auront un contrôle total de la langue de l'UI du navigateur et des paramètres de traduction/du correcteur orthographique, sauf si d'autres règles s'appliquent.
+      La liste apparaîtra dans le même ordre dans la section "Classer les langues selon vos préférences" dans decentr://settings/languages. Les utilisateurs ne pourront pas supprimer ni réorganiser les langues définies par la règle, mais pourront en ajouter sous celles définies. Les utilisateurs auront un contrôle total de la langue de l'UI du navigateur et des paramètres de traduction/du correcteur orthographique, sauf si d'autres règles s'appliquent.
 
       Si cette règle n'est pas définie, les utilisateurs peuvent manipuler toute la liste des langues préférées.</translation>
 <translation id="1803646570632580723">Liste des applications épinglées à afficher dans le lanceur d'applications</translation>
@@ -1138,7 +1138,7 @@ Si vous la désactivez, le défilement des pages Web vers des fragments de texte
 <translation id="2299220924812062390">Indiquer une liste de plug-ins activés</translation>
 <translation id="2301048990069984110">Étendre la compatibilité pour les applis Chrome sur Windows, Mac et Linux.</translation>
 <translation id="2303795211377219696">Activer la saisie automatique pour les cartes de crédit</translation>
-<translation id="2304009805995145854">Depuis <ph name="PRODUCT_NAME" /> 67, l'isolation de sites a été activée par défaut sur toutes les plates-formes de bureau. Chaque site exécute ainsi son propre processus. Un site est un schéma avec eTLD+1 (ex. : https://example.com). Activer cette règle ne change pas ce comportement. Cela empêche seulement les utilisateurs de s'y soustraire (par exemple, via l'option "Désactiver l'isolation de sites" sur chrome://flags). Depuis <ph name="PRODUCT_NAME" /> 76, si cette règle est désactivée ou qu'elle n'est pas configurée, l'isolation de sites n'est pas désactivée, mais les utilisateurs peuvent s'y soustraire.
+<translation id="2304009805995145854">Depuis <ph name="PRODUCT_NAME" /> 67, l'isolation de sites a été activée par défaut sur toutes les plates-formes de bureau. Chaque site exécute ainsi son propre processus. Un site est un schéma avec eTLD+1 (ex. : https://example.com). Activer cette règle ne change pas ce comportement. Cela empêche seulement les utilisateurs de s'y soustraire (par exemple, via l'option "Désactiver l'isolation de sites" sur decentr://flags). Depuis <ph name="PRODUCT_NAME" /> 76, si cette règle est désactivée ou qu'elle n'est pas configurée, l'isolation de sites n'est pas désactivée, mais les utilisateurs peuvent s'y soustraire.
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> peut aussi être utile pour isoler des origines spécifiques plus précisément que le site (ex. : https://a.example.com).
 
@@ -3508,7 +3508,7 @@ Si elle est définie sur "False", <ph name="PRODUCT_NAME" /> n'utilise pas les n
       Si elle est désactivée, les utilisateurs ne peuvent pas enregistrer de nouveaux mots de passe. Cependant, ceux qui ont été enregistrés précédemment continueront de fonctionner.
 
       Si cette règle est définie, les utilisateurs ne peuvent pas la modifier dans <ph name="PRODUCT_NAME" />. Si elle n'est pas définie, les utilisateurs peuvent désactiver l'enregistrement des mots de passe.</translation>
-<translation id="5239333626804545932">Si cette règle est activée ou qu'elle n'est pas configurée, Chrome Cleanup analyse régulièrement le système pour détecter les éventuels logiciels indésirables. Si Chrome Cleanup en trouve un, l'utilisateur doit confirmer qu'il souhaite le supprimer. Notez également que le déclenchement manuel de Chrome Cleanup depuis la page chrome://settings est autorisé.
+<translation id="5239333626804545932">Si cette règle est activée ou qu'elle n'est pas configurée, Chrome Cleanup analyse régulièrement le système pour détecter les éventuels logiciels indésirables. Si Chrome Cleanup en trouve un, l'utilisateur doit confirmer qu'il souhaite le supprimer. Notez également que le déclenchement manuel de Chrome Cleanup depuis la page decentr://settings est autorisé.
 
       Si cette règle est désactivée, Chrome Cleanup ne procède pas à une analyse régulière du système, et le déclenchement manuel est désactivé.
 
@@ -4268,7 +4268,7 @@ Lorsque cette règle n'est pas configurée, le paramètre par défaut utilisé c
 
       Les utilisateurs peuvent ouvrir une boîte de dialogue d'importation. La case correspondant aux données de saisie automatique sera ou ne sera pas cochée, suivant la configuration de cette règle.</translation>
 <translation id="614616930188030377">Les modèles de cette liste sont comparés à la source de sécurité de l'URL à l'origine de la demande.
-      En cas de correspondance ou si chrome://flags/#enable-webrtc-hide-local-ips-with-mdns est désactivé, les candidats WebRTC ICE affichent les adresses IP locales.
+      En cas de correspondance ou si decentr://flags/#enable-webrtc-hide-local-ips-with-mdns est désactivé, les candidats WebRTC ICE affichent les adresses IP locales.
       Sinon, les adresses IP locales sont masquées avec les noms d'hôte mDNS.
       Veuillez noter que cette règle affaiblit la protection des adresses IP locales, dans le cas où celle-ci serait requise par les administrateurs.</translation>
 <translation id="614662973812186053">Cette règle permet également de contrôler la collecte des données d'utilisation et de diagnostic sur les appareils Android.</translation>
@@ -4499,12 +4499,12 @@ Lorsque cette règle n'est pas configurée, le paramètre par défaut utilisé c
 <translation id="645425387487868471">Activer la connexion forcée pour <ph name="PRODUCT_NAME" /></translation>
 <translation id="6455842857207956758">Permet la synchronisation des mots de passe SAML entre plusieurs appareils Google Chrome en contrôlant la valeur du jeton de synchronisation du mot de passe et en envoyant un utilisateur via la réauthentification en ligne si le mot de passe a été mis à jour et doit être synchronisé.
 
-      Affiche la page chrome://password-change, qui permet aux utilisateurs SAML de changer leur mot de passe en cours de session. Ainsi, le mot de passe SAML et celui de l'écran de verrouillage de l'appareil restent synchronisés.
+      Affiche la page decentr://password-change, qui permet aux utilisateurs SAML de changer leur mot de passe en cours de session. Ainsi, le mot de passe SAML et celui de l'écran de verrouillage de l'appareil restent synchronisés.
 
       Cette règle permet aussi d'activer les notifications destinées à signaler aux utilisateurs SAML que leur mot de passe SAML va bientôt expirer. Ils peuvent ainsi le modifier immédiatement, durant la session.
       Cependant, ces notifications ne s'affichent que si le fournisseur d'identité SAML envoie à l'appareil des infos sur l'expiration du mot de passe lors du processus de connexion SAML.
 
-      Si cette règle est désactivée ou non définie, le mot de passe SAML n'est pas modifiable sur la page chrome://password-change, et aucune notification ne s'affiche en cas d'expiration imminente.</translation>
+      Si cette règle est désactivée ou non définie, le mot de passe SAML n'est pas modifiable sur la page decentr://password-change, et aucune notification ne s'affiche en cas d'expiration imminente.</translation>
 <translation id="6457477291648119596">Type 42</translation>
 <translation id="6458361632497500815">Si cette règle est activée ou qu'elle n'est pas configurée, tous les utilisateurs sont autorisés à utiliser <ph name="PRODUCT_CROSTINI_NAME" /> tant que les trois règles <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" /> et <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> sont activées. Si elle est désactivée, les utilisateurs non affiliés ne sont pas autorisés à utiliser <ph name="PRODUCT_CROSTINI_NAME" />. Si vous la désactivez, elle est appliquée aux conteneurs <ph name="PRODUCT_CROSTINI_NAME" /> qui vont être lancés, mais pas à ceux qui le sont déjà.</translation>
 <translation id="6464074037294098618">Activer la saisie automatique pour les adresses</translation>
@@ -4572,7 +4572,7 @@ Lorsque cette règle n'est pas configurée, le paramètre par défaut utilisé c
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" /> : la détection automatique du fuseau horaire est toujours activée. La liste des points d'accès Wi-Fi visibles est continuellement transmise au serveur de l'API Geolocation pour une détection plus précise du fuseau horaire.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" /> : la détection automatique du fuseau horaire est toujours activée. Les informations de localisation (telles que les points d'accès Wi-Fi, les antennes-relais accessibles et les données GPS) sont transmises à un serveur pour détecter le plus précisément possible le fuseau horaire.
 
-      Si cette règle n'est pas configurée, ou qu'elle est définie sur "Choix laissé aux utilisateurs" ou "Aucun", les utilisateurs peuvent gérer la détection automatique du fuseau horaire à l'aide des commandes classiques disponibles dans chrome://settings.</translation>
+      Si cette règle n'est pas configurée, ou qu'elle est définie sur "Choix laissé aux utilisateurs" ou "Aucun", les utilisateurs peuvent gérer la détection automatique du fuseau horaire à l'aide des commandes classiques disponibles dans decentr://settings.</translation>
 <translation id="6532769014584932288">Autoriser les wakelocks</translation>
 <translation id="6536600139108165863">Redémarrer automatiquement à l'arrêt de l'appareil</translation>
 <translation id="6539246272469751178">Cette règle n'a aucun effet sur les applications Android. Celles-ci se servent toujours du répertoire de téléchargements par défaut. Elles ne peuvent pas accéder aux fichiers téléchargés par <ph name="PRODUCT_OS_NAME" /> dans un autre répertoire de téléchargements.</translation>
@@ -4802,7 +4802,7 @@ Si vous sélectionnez les options suivantes :
 
       Si cette règle est désactivée, l'icône des fonctionnalités expérimentales du navigateur ne s'affiche pas dans la barre d'outils.
 
-      L'activation ou la désactivation de cette règle ne change rien au fonctionnement de la page chrome://flags ni à celui de tout autre moyen d'activer ou désactiver des fonctionnalités du navigateur.</translation>
+      L'activation ou la désactivation de cette règle ne change rien au fonctionnement de la page decentr://flags ni à celui de tout autre moyen d'activer ou désactiver des fonctionnalités du navigateur.</translation>
 <translation id="6794083666143216172">Autoriser les origines à interroger les attributs des appareils</translation>
 <translation id="6795485990775913659">Autoriser l'impression sans code uniquement</translation>
 <translation id="6800181452282128474">Ne pas envoyer de requêtes aux serveurs Quirks</translation>
@@ -5481,7 +5481,7 @@ Si elle est définie sur "False" ou si elle n'est pas configurée, ces publicit�
       Si la valeur est GAIA, la connexion s'effectue suivant le flux d'authentification GAIA normale.
 
       Si la valeur est SAML_INTERSTITIAL, un écran interstitiel s'affiche lors de la connexion et invite l'utilisateur à poursuivre l'authentification via le fournisseur d'identité SAML du domaine d'inscription de l'appareil, ou à revenir au flux de connexion GAIA normal.</translation>
-<translation id="7554382342294940216">Si cette règle est activée, <ph name="PRODUCT_OS_NAME" /> ignore tout proxy pour l'authentification du portail captif. Ces pages Web d'authentification (à partir de la page de connexion au portail captif jusqu'à ce que Chrome détecte une connexion Internet réussie) s'ouvrent dans une fenêtre distincte, sans tenir compte de l'ensemble des règles et des restrictions en place pour l'utilisateur actuel. Cette règle ne s'applique que si un proxy est configuré (par une règle, une extension ou l'utilisateur dans chrome://settings).
+<translation id="7554382342294940216">Si cette règle est activée, <ph name="PRODUCT_OS_NAME" /> ignore tout proxy pour l'authentification du portail captif. Ces pages Web d'authentification (à partir de la page de connexion au portail captif jusqu'à ce que Chrome détecte une connexion Internet réussie) s'ouvrent dans une fenêtre distincte, sans tenir compte de l'ensemble des règles et des restrictions en place pour l'utilisateur actuel. Cette règle ne s'applique que si un proxy est configuré (par une règle, une extension ou l'utilisateur dans decentr://settings).
 
       Si cette règle est désactivée ou qu'elle n'est pas configurée, toutes les pages d'authentification du portail captif sont affichées dans un nouvel onglet (normal) du navigateur, en utilisant les paramètres proxy de l'utilisateur actuel.</translation>
 <translation id="7566878661979235378">Type d'authentification pour les connexions SAML</translation>
@@ -5782,7 +5782,7 @@ au maximum si un utilisateur se sert de l'appareil.
 <translation id="7951605113561734721">Indique les certificats clients qui doivent être enregistrés au niveau de l'appareil à l'aide du protocole de gestion des appareils.</translation>
 <translation id="7952007677054834789">Permet de configurer les pages à charger au démarrage, la page d'accueil par défaut et la page Nouvel onglet par défaut dans <ph name="PRODUCT_NAME" />, tout en empêchant les utilisateurs de les modifier.
 
-      Les paramètres de page d'accueil de l'utilisateur ne sont verrouillés complètement que si vous définissez la page Nouvel onglet ou une URL spécifique comme page d'accueil. Si vous ne précisez pas l'URL de la page d'accueil, l'utilisateur est toujours en mesure de définir la page d'accueil sur la page Nouvel onglet en spécifiant "chrome://newtab".
+      Les paramètres de page d'accueil de l'utilisateur ne sont verrouillés complètement que si vous définissez la page Nouvel onglet ou une URL spécifique comme page d'accueil. Si vous ne précisez pas l'URL de la page d'accueil, l'utilisateur est toujours en mesure de définir la page d'accueil sur la page Nouvel onglet en spécifiant "decentr://newtab".
 
       La règle "URL à ouvrir au démarrage" est ignorée, sauf si vous sélectionnez "Ouvrir une liste d'URL" dans "Action au démarrage".</translation>
 <translation id="7952958573604504839">Cette règle est obsolète dans la version M48 et remplacée par <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />. Elle a été supprimée dans la version M54.
@@ -6343,7 +6343,7 @@ Il est conseillé de configurer les règles sur Windows via GPO, même si la ges
 
       À compter de la version 92 de <ph name="PRODUCT_NAME" />, cette règle est aussi prise en charge en mode sans interface graphique.
 
-      Remarque : Le blocage des URL internes chrome://* peut provoquer des erreurs inattendues.</translation>
+      Remarque : Le blocage des URL internes decentr://* peut provoquer des erreurs inattendues.</translation>
 <translation id="8626826495474944836">Exiger l'isolation de chaque site</translation>
 <translation id="8631434304112909927">jusqu'à la version <ph name="UNTIL_VERSION" /></translation>
 <translation id="8631437968147930597">Liste des applications de prise de notes autorisées sur l'écran de verrouillage de <ph name="PRODUCT_OS_NAME" /></translation>
@@ -6501,7 +6501,7 @@ Il est conseillé de configurer les règles sur Windows via GPO, même si la ges
 
       Le code source de toute extension peut être modifié par les utilisateurs à l'aide des outils pour les développeurs, ce qui peut entraîner des dysfonctionnements. Si cela pose problème, configurez la règle <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" />.
 
-      Chaque élément de la règle correspond à une chaîne constituée d'un identifiant d'extension et éventuellement d'une URL de mise à jour séparés par un point-virgule (;). L'identifiant d'extension est la chaîne de 32 lettres figurant, par exemple, sur la page chrome://extensions, lorsque le mode développeur est activé. Si elle est indiquée, l'URL de mise à jour doit renvoyer à un fichier manifeste au format XML (voir https://developer.chrome.com/extensions/autoupdate). Par défaut, l'URL de mise à jour du Chrome Web Store est utilisée. L'URL de mise à jour spécifiée dans cette règle ne sert que pour l'installation initiale. Toute mise à jour ultérieure de l'extension est effectuée avec l'URL indiquée dans le fichier manifeste de l'extension.
+      Chaque élément de la règle correspond à une chaîne constituée d'un identifiant d'extension et éventuellement d'une URL de mise à jour séparés par un point-virgule (;). L'identifiant d'extension est la chaîne de 32 lettres figurant, par exemple, sur la page decentr://extensions, lorsque le mode développeur est activé. Si elle est indiquée, l'URL de mise à jour doit renvoyer à un fichier manifeste au format XML (voir https://developer.chrome.com/extensions/autoupdate). Par défaut, l'URL de mise à jour du Chrome Web Store est utilisée. L'URL de mise à jour spécifiée dans cette règle ne sert que pour l'installation initiale. Toute mise à jour ultérieure de l'extension est effectuée avec l'URL indiquée dans le fichier manifeste de l'extension.
 
        Remarque : cette règle ne s'applique pas en mode navigation privée. Pour en savoir plus sur l'hébergement des extensions, consultez la page https://developer.chrome.com/extensions/hosting.</translation>
 <translation id="8827366480126575426">Protocole du gestionnaire de protocoles.</translation>
@@ -6899,7 +6899,7 @@ Si cette règle n'est pas configurée, ce paramètre est activé et l'utilisateu
 
       À compter de la version 73 de <ph name="PRODUCT_NAME" />, vous pouvez bloquer les URL javascript://*. Toutefois, cela ne concerne que le code JavaScript saisi dans la barre d'adresse (ou, par exemple, les favoris intelligents). Cette règle ne s'applique pas aux URL JavaScript intégrées dans les pages si les données sont chargées dynamiquement. Par exemple, si vous bloquez "example.com/abc", la page example.com pourra quand même charger "example.com/abc" via une requête XMLHTTPRequest.
 
-      Remarque : le blocage des URL internes chrome://* peut provoquer des erreurs inattendues.</translation>
+      Remarque : le blocage des URL internes decentr://* peut provoquer des erreurs inattendues.</translation>
 <translation id="957778406002650056">URL depuis laquelle l'image de <ph name="PLUGIN_VM_NAME" /> peut être téléchargée.</translation>
 <translation id="971677226939413180">L'option "Imprimer en tant qu'image" n'est pas proposée à l'utilisateur.</translation>
 <translation id="974349541138387272">Permet de définir le modèle URI du résolveur DNS-over-HTTPS souhaité</translation>

@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://new-tab-page/lazy_load.js';
+import 'decentr://new-tab-page/lazy_load.js';
 
-import {BackgroundSelectionType, NewTabPageProxy, WindowProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {assertNotStyle, assertStyle, installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise, flushTasks, isVisible} from 'chrome://test/test_util.js';
+import {BackgroundSelectionType, NewTabPageProxy, WindowProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {assertNotStyle, assertStyle, installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise, flushTasks, isVisible} from 'decentr://test/test_util.js';
 
 function createCollection(id = 0, label = '', url = '') {
   return {id: id, label: label, previewImageUrl: {url: url}};
@@ -66,7 +66,7 @@ suite('NewTabPageCustomizeBackgroundsTest', () => {
     assertEquals(3, tiles.length);
     assertEquals('col_0', tiles[2].getAttribute('title'));
     assertEquals(
-        'chrome-untrusted://new-tab-page/background_image?https://col_0.jpg',
+        'decentr-untrusted://new-tab-page/background_image?https://col_0.jpg',
         tiles[2].querySelector('.image').src);
   });
 
@@ -125,7 +125,7 @@ suite('NewTabPageCustomizeBackgroundsTest', () => {
     assertEquals(tiles.length, 1);
     assertEquals(
         tiles[0].querySelector('.image').src,
-        'chrome-untrusted://new-tab-page/background_image?https://a.com/p.png');
+        'decentr-untrusted://new-tab-page/background_image?https://a.com/p.png');
   });
 
   test('Going back shows collections', async function() {

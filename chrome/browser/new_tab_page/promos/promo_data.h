@@ -32,7 +32,7 @@ struct PromoData {
   // The unique identifier for this promo. May be empty.
   std::string promo_id;
 
-  // Allow the promo to open chrome://extensions for the extensions checkup
+  // Allow the promo to open decentr://extensions for the extensions checkup
   // experiment.
   bool can_open_extensions_page = false;
 };

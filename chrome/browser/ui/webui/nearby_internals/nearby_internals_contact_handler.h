@@ -24,7 +24,7 @@ class BrowserContext;
 }  // namespace content
 
 // WebUIMessageHandler for Contact Messages to pass messages to the
-// chrome://nearby-internals Contact tab.
+// decentr://nearby-internals Contact tab.
 class NearbyInternalsContactHandler
     : public content::WebUIMessageHandler,
       public NearbyShareContactManager::Observer {

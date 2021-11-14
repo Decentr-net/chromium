@@ -7,8 +7,8 @@
  * by support_tool_browsertest.js.
  */
 
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {SupportToolElement} from 'chrome://support-tool/support_tool.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {SupportToolElement} from 'decentr://support-tool/support_tool.js';
 import {assertEquals, assertTrue} from '../chai_assert.js';
 
 suite('SupportToolTest', function() {

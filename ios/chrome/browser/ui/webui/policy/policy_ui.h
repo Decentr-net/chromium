@@ -13,7 +13,7 @@ namespace web {
 class WebUIIOS;
 }
 
-// The Web UI controller for the chrome://policy page.
+// The Web UI controller for the decentr://policy page.
 class PolicyUI : public web::WebUIIOSController {
  public:
   explicit PolicyUI(web::WebUIIOS* web_ui, const std::string& host);

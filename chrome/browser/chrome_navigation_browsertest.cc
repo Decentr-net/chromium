@@ -1185,7 +1185,7 @@ IN_PROC_BROWSER_TEST_F(ChromeNavigationBrowserTest, ChromeSchemeNavFromSadTab) {
   process->Shutdown(-1);
   crash_observer.Wait();
 
-  // Attempt to navigate to a chrome://... URL.
+  // Attempt to navigate to a decentr://... URL.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
                                            GURL(chrome::kChromeUIVersionURL)));
 }

@@ -62,7 +62,7 @@ class ExtensionURLRewriteBrowserTest : public extensions::ExtensionBrowserTest {
 
   // Navigates to |url| and tests that the location bar and the |virtual_url|
   // correspond to |url|, while the real URL of the navigation entry uses the
-  // chrome-extension:// scheme.
+  // decentr-extension:// scheme.
   void TestExtensionURLOverride(const GURL& url) {
     ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url));
     EXPECT_EQ(url, GetLocationBarTextAsURL());
@@ -81,7 +81,7 @@ class ExtensionURLRewriteBrowserTest : public extensions::ExtensionBrowserTest {
 };
 
 IN_PROC_BROWSER_TEST_F(ExtensionURLRewriteBrowserTest, NewTabPageURL) {
-  // Navigate to chrome://newtab and check that the location bar text is blank.
+  // Navigate to decentr://newtab and check that the location bar text is blank.
   // We do not use TestURLNotShown here because the virtual URL may be
   // updated to the local NTP since we do not have a network connection to
   // reach the remote NTP.
@@ -97,18 +97,18 @@ IN_PROC_BROWSER_TEST_F(ExtensionURLRewriteBrowserTest, NewTabPageURL) {
 
 IN_PROC_BROWSER_TEST_F(ExtensionURLRewriteBrowserTest, NewTabPageURLOverride) {
   // Load an extension to override the NTP and check that the location bar text
-  // is blank after navigating to chrome://newtab.
+  // is blank after navigating to decentr://newtab.
   ASSERT_TRUE(LoadExtension(GetTestExtensionPath("newtab")));
   TestURLNotShown(GURL(chrome::kChromeUINewTabURL));
-  // Check that the internal URL uses the chrome-extension:// scheme.
+  // Check that the internal URL uses the decentr-extension:// scheme.
   EXPECT_TRUE(GetNavigationEntry()->GetURL().SchemeIs(
       extensions::kExtensionScheme));
 }
 
 IN_PROC_BROWSER_TEST_F(ExtensionURLRewriteBrowserTest, BookmarksURLOverride) {
-  // Load an extension that overrides chrome://bookmarks.
+  // Load an extension that overrides decentr://bookmarks.
   ASSERT_TRUE(LoadExtension(GetTestExtensionPath("bookmarks")));
-  // Navigate to chrome://bookmarks and check that the location bar URL is what
-  // was entered and the internal URL uses the chrome-extension:// scheme.
+  // Navigate to decentr://bookmarks and check that the location bar URL is what
+  // was entered and the internal URL uses the decentr-extension:// scheme.
   TestExtensionURLOverride(GURL(chrome::kChromeUIBookmarksURL));
 }

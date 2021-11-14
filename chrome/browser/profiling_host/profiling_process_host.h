@@ -38,7 +38,7 @@ class ProfilingProcessHost {
   void Start();
 
   // Create a trace with a heap dump at the given path.
-  // This is equivalent to navigating to chrome://tracing, taking a trace with
+  // This is equivalent to navigating to decentr://tracing, taking a trace with
   // only the memory-infra category selected, waiting 10 seconds, and saving the
   // result to |dest|.
   // |done| will be called on the UI thread.

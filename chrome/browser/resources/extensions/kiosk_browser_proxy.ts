@@ -7,7 +7,7 @@
  * the browser.
  */
 
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
 
 type KioskSettings = {
   kioskEnabled: boolean,

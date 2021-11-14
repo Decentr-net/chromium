@@ -55,7 +55,7 @@ class ServiceWorkerVersion;
 //
 // NOTE: To perform the network request, this class uses |loader_factory_| which
 // may internally use a non-NetworkService factory if URL has a non-http(s)
-// scheme, e.g., a chrome-extension:// URL. Regardless, that is still called a
+// scheme, e.g., a decentr-extension:// URL. Regardless, that is still called a
 // "network" request in comments and naming. "network" is meant to distinguish
 // from the load this URLLoader does for its client:
 //     "network" <------> SWNewScriptLoader <------> client

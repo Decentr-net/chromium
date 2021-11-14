@@ -19,7 +19,7 @@ class WebUI;
 
 namespace ash {
 
-// The WebUI for ShimlessRMA or chrome://shimless-rma.
+// The WebUI for ShimlessRMA or decentr://shimless-rma.
 class ShimlessRMADialogUI : public ui::MojoWebDialogUI {
  public:
   explicit ShimlessRMADialogUI(content::WebUI* web_ui);

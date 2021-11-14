@@ -106,17 +106,17 @@ public class LensController {
         return mDelegate.isLensEnabled(lensQueryParams);
     }
 
-    /** Enables lens debug mode for chrome://internals/lens. */
+    /** Enables lens debug mode for decentr://internals/lens. */
     public void enableDebugMode() {
         mDelegate.enableDebugMode();
     }
 
-    /** Disables lens debug mode for chrome://internals/lens. */
+    /** Disables lens debug mode for decentr://internals/lens. */
     public void disableDebugMode() {
         mDelegate.disableDebugMode();
     }
 
-    /** Gets debug data to populate chrome://internals/lens. */
+    /** Gets debug data to populate decentr://internals/lens. */
     public String[][] getDebugData() {
         return mDelegate.getDebugData();
     }

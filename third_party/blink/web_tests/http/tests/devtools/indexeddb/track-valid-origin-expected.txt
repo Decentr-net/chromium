@@ -4,7 +4,7 @@ Invalid Origins:
 http, valid = false
 test://fake, valid = false
 test://fake.origin.com, valid = false
-chrome://test, valid = false
+decentr://test, valid = false
 
 Valid Origins:
 http://fake.origin.com, valid = true

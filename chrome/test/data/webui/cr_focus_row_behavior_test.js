@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {FocusRowBehavior} from 'chrome://resources/js/cr/ui/focus_row_behavior.m.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {down, pressAndReleaseKeyOn, up} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {eventToPromise, waitAfterNextRender} from 'chrome://test/test_util.js';
+import {FocusRowBehavior} from 'decentr://resources/js/cr/ui/focus_row_behavior.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {down, pressAndReleaseKeyOn, up} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {eventToPromise, waitAfterNextRender} from 'decentr://test/test_util.js';
 
 // clang-format on
 

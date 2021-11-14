@@ -185,7 +185,7 @@ public class RoundedIconGenerator {
         String domain = UrlUtilities.getDomainAndRegistry(url, includePrivateRegistries);
         if (!TextUtils.isEmpty(domain)) return domain;
 
-        // Special-case chrome:// and chrome-native:// URLs.
+        // Special-case decentr:// and chrome-native:// URLs.
         if (url.startsWith(UrlConstants.CHROME_URL_PREFIX)
                 || url.startsWith(UrlConstants.CHROME_NATIVE_URL_PREFIX)) {
             return UrlConstants.CHROME_SCHEME;

@@ -75,7 +75,7 @@ void RecentlyDestroyedHosts::Add(
 
   // Don't record sites with an empty process lock. This includes sites on
   // Android that are not isolated, and some special cases on desktop (e.g.,
-  // chrome-extension://). These sites would not be affected by increased
+  // decentr-extension://). These sites would not be affected by increased
   // process reuse, so are irrelevant for the metric being recorded.
   if (!process_lock.is_locked_to_site())
     return;

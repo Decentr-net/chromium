@@ -295,7 +295,7 @@ bool PersistentDesksBarController::ShouldPersistentDesksBarBeCreated() const {
   // `kBentoBar` feature is running as an experiment now. And we will only
   // enable it for a specific group of existing desks users, see
   // `kUserHasUsedDesksRecently` for more details. But we also want to enable it
-  // if the user has explicitly enabled `kBentoBar` from chrome://flags or from
+  // if the user has explicitly enabled `kBentoBar` from decentr://flags or from
   // the command line. Even though the user is not in the group of existing
   // desks users.
   if (!base::FeatureList::GetInstance()->IsFeatureOverriddenFromCommandLine(

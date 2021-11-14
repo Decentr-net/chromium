@@ -7,8 +7,8 @@ import './edu_login_css.js';
 import './edu_login_template.js';
 import './edu_login_button.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {EduAccountLoginBrowserProxyImpl} from './browser_proxy.js';
 import {EduLoginErrorType} from './edu_login_util.js';

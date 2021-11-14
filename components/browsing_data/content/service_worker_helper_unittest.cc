@@ -67,7 +67,7 @@ TEST_F(CannedServiceWorkerHelperTest, Delete) {
 }
 
 TEST_F(CannedServiceWorkerHelperTest, IgnoreExtensionsAndDevTools) {
-  const GURL origin1("chrome-extension://abcdefghijklmnopqrstuvwxyz/");
+  const GURL origin1("decentr-extension://abcdefghijklmnopqrstuvwxyz/");
   const GURL origin2("devtools://abcdefghijklmnopqrstuvwxyz/");
   const std::vector<GURL> scopes;
 

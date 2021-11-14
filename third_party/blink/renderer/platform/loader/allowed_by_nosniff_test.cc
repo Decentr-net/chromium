@@ -239,15 +239,15 @@ TEST_F(AllowedByNosniffTest, AllTheSchemes) {
       {"https://example.com/bla.js", false},
       {"file://etc/passwd.js", true},
       {"file://etc/passwd", false},
-      {"chrome://dino/dino.js", true},
-      {"chrome://dino/dino.css", false},
+      {"decentr://dino/dino.js", true},
+      {"decentr://dino/dino.css", false},
       {"ftp://example.com/bla.js", true},
       {"ftp://example.com/bla.txt", false},
 
       {"file://home/potato.txt", false},
       {"file://home/potato.js", true},
       {"file://home/potato.mjs", true},
-      {"chrome://dino/dino.mjs", true},
+      {"decentr://dino/dino.mjs", true},
 
       // `blob:` and `filesystem:` are excluded:
       {"blob:https://example.com/bla.js", true},

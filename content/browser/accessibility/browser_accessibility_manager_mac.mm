@@ -581,9 +581,9 @@ bool BrowserAccessibilityManagerMac::IsChromeNewTabPage() {
   if (!web_contents)
     return false;
   const GURL& url = web_contents->GetVisibleURL();
-  return url == GURL("chrome://newtab/") ||
-         url == GURL("chrome://new-tab-page") ||
-         url == GURL("chrome-search://local-ntp/local-ntp.html");
+  return url == GURL("decentr://newtab/") ||
+         url == GURL("decentr://new-tab-page") ||
+         url == GURL("decentr-search://local-ntp/local-ntp.html");
 }
 
 }  // namespace content

@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_drawer/cr_drawer.js';
-import 'chrome://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
-import 'chrome://resources/cr_elements/cr_toast/cr_toast_manager.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/cr_drawer/cr_drawer.js';
+import 'decentr://resources/cr_elements/cr_lazy_render/cr_lazy_render.m.js';
+import 'decentr://resources/cr_elements/cr_toast/cr_toast_manager.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
 import './activity_log/activity_log.js';
 import './detail_view.js';
 import './drop_overlay.js';
@@ -25,10 +25,10 @@ import './toolbar.js';
 import './kiosk_dialog.js';
 // </if>
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {CrViewManagerElement} from 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrViewManagerElement} from 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
 
 import {ActivityLogExtensionPlaceholder} from './activity_log/activity_log.js';
 import {ExtensionsDetailViewElement} from './detail_view.js';
@@ -294,7 +294,7 @@ class ExtensionsManagerElement extends PolymerElement {
 
   /**
    * Initializes the page to reflect what's specified in the url so that if
-   * the user visits chrome://extensions/?id=..., we land on the proper page.
+   * the user visits decentr://extensions/?id=..., we land on the proper page.
    */
   private initPage_() {
     this.didInitPage_ = true;
@@ -377,7 +377,7 @@ class ExtensionsManagerElement extends PolymerElement {
       case ExtensionType.SHARED_MODULE:
         return 'extensions_';
       case ExtensionType.THEME:
-        assertNotReached('Don\'t send themes to the chrome://extensions page');
+        assertNotReached('Don\'t send themes to the decentr://extensions page');
         break;
     }
     assertNotReached();

@@ -17,7 +17,7 @@ enum class ProtocolHandlerSecurityLevel {
   // Allow registration calls to cross-origin URLs.
   kUntrustedOrigins,
 
-  // Allow extension features: ext+foo schemes and chrome-extension:// URLs.
+  // Allow extension features: ext+foo schemes and decentr-extension:// URLs.
   kExtensionFeatures,
 };
 

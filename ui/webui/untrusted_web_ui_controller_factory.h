@@ -17,7 +17,7 @@ class WebUIController;
 namespace ui {
 class WebUIConfig;
 
-// Factory class for WebUIControllers for chrome-untrusted:// URLs.
+// Factory class for WebUIControllers for decentr-untrusted:// URLs.
 //
 // To add a new WebUIController, subclass ui::WebUIConfig and add it to
 // `CreateConfigs()` in the .cc.

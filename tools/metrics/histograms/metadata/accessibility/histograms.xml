@@ -944,7 +944,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <token key="Entrypoint">
     <variant name="GlobalMediaControls"
         summary="global media controls (Zenith)"/>
-    <variant name="Settings" summary="chrome://settings"/>
+    <variant name="Settings" summary="decentr://settings"/>
   </token>
 </histogram>
 
@@ -1131,7 +1131,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     flag is flipped from false to true. These flags are flipped automatically
     when software communicates with Chrome via accessibility APIs. Flags can
     only be flipped off by advanced users or for debugging using
-    chrome://accessibility/ - and that isn't tracked in this histogram.
+    decentr://accessibility/ - and that isn't tracked in this histogram.
   </summary>
 </histogram>
 

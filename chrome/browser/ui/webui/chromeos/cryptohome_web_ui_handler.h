@@ -23,7 +23,7 @@ class Value;
 
 namespace chromeos {
 
-// Class to handle messages from chrome://cryptohome.
+// Class to handle messages from decentr://cryptohome.
 class CryptohomeWebUIHandler : public content::WebUIMessageHandler {
  public:
   CryptohomeWebUIHandler();

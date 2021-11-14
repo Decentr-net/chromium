@@ -6,7 +6,7 @@
  * @fileoverview
  * UI element for displaying Bluetooth pairing dialog.
  */
-import 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_pairing_ui.js';
+import 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_pairing_ui.js';
 
 import {html, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 

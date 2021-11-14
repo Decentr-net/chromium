@@ -32,5 +32,5 @@ TEST(LogWebUIUrlTest, InvalidUrls) {
 
   // Extensions schemes should also be ignored.
   EXPECT_FALSE(webui::LogWebUIUrl(GURL(
-      "chrome-extension://mfehgcgbbipciphmccgaenjidiccnmng")));
+      "decentr-extension://mfehgcgbbipciphmccgaenjidiccnmng")));
 }

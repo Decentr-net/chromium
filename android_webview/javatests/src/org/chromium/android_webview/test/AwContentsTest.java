@@ -941,16 +941,16 @@ public class AwContentsTest {
         mActivityTestRule.runOnUiThread(() -> {
             // "about:safe-browsing" will be rewritten by
             // components.url_formatter.UrlFormatter.fixupUrl into
-            // "chrome://safe-browsing/".
+            // "decentr://safe-browsing/".
             //
-            // Note that chrome://safe-browsing/ is one of very few chrome://... URLs that work
-            // in Android WebView.  In particular, chrome://version/ wouldn't work.
+            // Note that decentr://safe-browsing/ is one of very few decentr://... URLs that work
+            // in Android WebView.  In particular, decentr://version/ wouldn't work.
             awContents.loadUrl("about:safe-browsing");
         });
 
         mContentsClient.getOnPageFinishedHelper().waitForCallback(
                 0, 1, WAIT_TIMEOUT_MS, TimeUnit.MILLISECONDS);
-        Assert.assertEquals("chrome://safe-browsing/", awContents.getLastCommittedUrl());
+        Assert.assertEquals("decentr://safe-browsing/", awContents.getLastCommittedUrl());
     }
 
     private void pollForQuadrantColors(AwTestContainerView testView, int[] expectedQuadrantColors)
@@ -1313,11 +1313,11 @@ public class AwContentsTest {
 
     private static final String HELLO_WORLD_URL = "/android_webview/test/data/hello_world.html";
     private static final String HELLO_WORLD_TITLE = "Hello, World!";
-    private static final String WEBUI_URL = "chrome://safe-browsing";
+    private static final String WEBUI_URL = "decentr://safe-browsing";
     private static final String WEBUI_TITLE = "Safe Browsing";
 
     // Check that we can navigate between a regular web page and a WebUI page
-    // that's available on AW (chrome://safe-browsing), and that the WebUI page
+    // that's available on AW (decentr://safe-browsing), and that the WebUI page
     // loads in its own locked renderer process when in multi-process mode.
     @Test
     @Feature({"AndroidWebView"})

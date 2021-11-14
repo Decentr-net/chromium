@@ -46,7 +46,7 @@ class PageInfoUI {
     // The UI describes whether the connection is secure, e.g. secure
     // HTTPS, non-secure HTTP.
     CONNECTION,
-    // The UI describes e.g. an internal (chrome://) page or extension page.
+    // The UI describes e.g. an internal (decentr://) page or extension page.
     INTERNAL,
     // The UI describes a Safe Browsing warning, e.g. site deceptive or contains
     // malware.

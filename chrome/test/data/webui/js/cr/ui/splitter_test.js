@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Splitter} from 'chrome://resources/js/cr/ui/splitter.js';
-import {getRequiredElement} from 'chrome://resources/js/util.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Splitter} from 'decentr://resources/js/cr/ui/splitter.js';
+import {getRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../../chai_assert.js';
 

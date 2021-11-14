@@ -4,8 +4,8 @@
 
 import '../elements/audio_player.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {dashToCamelCase} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {dashToCamelCase} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {appUtil} from '../../file_manager/common/js/app_util.js';
 import {AsyncUtil} from '../../file_manager/common/js/async_util.js';

@@ -122,7 +122,7 @@ class NetExportMessageHandler
   // Reveal |path| in the shell on desktop platforms.
   void ShowFileInShell(const base::FilePath& path);
 
-  // chrome://net-export can be used on both mobile and desktop platforms.
+  // decentr://net-export can be used on both mobile and desktop platforms.
   // On mobile a user cannot pick where their NetLog file is saved to.
   // Instead, everything is saved on the user's temp directory. Thus the
   // mobile user has the UI available to send their NetLog file as an
@@ -380,7 +380,7 @@ void NetExportMessageHandler::ShowSelectFileDialog(
 NetExportUI::NetExportUI(content::WebUI* web_ui) : WebUIController(web_ui) {
   web_ui->AddMessageHandler(std::make_unique<NetExportMessageHandler>());
 
-  // Set up the chrome://net-export/ source.
+  // Set up the decentr://net-export/ source.
   Profile* profile = Profile::FromWebUI(web_ui);
   content::WebUIDataSource::Add(profile, CreateNetExportHTMLSource());
 }

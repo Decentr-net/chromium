@@ -3,8 +3,8 @@
   * found in the LICENSE file.
 **/
 
-@import url(chrome://resources/css/roboto.css);
-@import url(chrome://sys-internals/line_chart.css);
+@import url(decentr://resources/css/roboto.css);
+@import url(decentr://sys-internals/line_chart.css);
 
 /* Scorllbar Style */
 

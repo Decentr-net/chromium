@@ -89,7 +89,7 @@ should be able to be added at any place in this file.
   <owner>megjablon@chromium.org</owner>
   <description>
     User enabled flag that Forces Data Saver Lo-Fi mode to be always enabled via
-    chrome://flags. The action is emitted once per startup when the flag is
+    decentr://flags. The action is emitted once per startup when the flag is
     active.
   </description>
 </action>
@@ -100,7 +100,7 @@ should be able to be added at any place in this file.
   <owner>megjablon@chromium.org</owner>
   <description>
     User enabled flag that Forces Data Saver Lo-Fi mode to be enabled only on
-    cellular connection via chrome://flags. The action is emitted once per
+    cellular connection via decentr://flags. The action is emitted once per
     startup when the flag is active.
   </description>
 </action>
@@ -111,7 +111,7 @@ should be able to be added at any place in this file.
   <owner>megjablon@chromium.org</owner>
   <description>
     User enabled flag that Forces Data Saver Lo-Fi mode to be disabled via
-    chrome://flags. The action is emitted once per startup when the flag is
+    decentr://flags. The action is emitted once per startup when the flag is
     active.
   </description>
 </action>
@@ -122,7 +122,7 @@ should be able to be added at any place in this file.
   <owner>megjablon@chromium.org</owner>
   <description>
     User enabled flag that Forces Data Saver Lo-Fi mode to be enabled only on
-    slow connections via chrome://flags. The action is emitted once per startup
+    slow connections via decentr://flags. The action is emitted once per startup
     when the flag is active.
   </description>
 </action>
@@ -181,7 +181,7 @@ should be able to be added at any place in this file.
   <obsolete>Deprecated in favor of AboutFlags.Seen histogram.</obsolete>
   <owner>dtapuska@chromium.org</owner>
   <description>
-    User enabled the PassiveDocumentEventListeners via chrome://flags.
+    User enabled the PassiveDocumentEventListeners via decentr://flags.
   </description>
 </action>
 
@@ -228,7 +228,7 @@ should be able to be added at any place in this file.
   <obsolete>Deprecated in favor of AboutFlags.Seen histogram.</obsolete>
   <owner>skau@chromium.org</owner>
   <description>
-    Records if native cups printing is enabled in chrome://flags
+    Records if native cups printing is enabled in decentr://flags
   </description>
 </action>
 
@@ -242,7 +242,7 @@ should be able to be added at any place in this file.
   <obsolete>Deprecated in favor of AboutFlags.Seen histogram.</obsolete>
   <owner>nzolghadr@chromium.org</owner>
   <description>
-    User enabled the &quot;PointerEvent&quot; blink feature via chrome://flags.
+    User enabled the &quot;PointerEvent&quot; blink feature via decentr://flags.
   </description>
 </action>
 
@@ -257,7 +257,7 @@ should be able to be added at any place in this file.
   <owner>jyasskin@chromium.org</owner>
   <owner>ortuno@chromium.org</owner>
   <owner>scheib@chromium.org</owner>
-  <description>User enabled Web Bluetooth via chrome://flags.</description>
+  <description>User enabled Web Bluetooth via decentr://flags.</description>
 </action>
 
 <action name="AboutFlags_enable-website-settings">
@@ -270,7 +270,7 @@ should be able to be added at any place in this file.
   <obsolete>Deprecated in favor of AboutFlags.Seen histogram.</obsolete>
   <owner>quiche@chromium.org</owner>
   <description>
-    User enabled WiFi credential sync via chrome://flags.
+    User enabled WiFi credential sync via decentr://flags.
   </description>
 </action>
 
@@ -381,7 +381,7 @@ should be able to be added at any place in this file.
   <obsolete>Deprecated in favor of AboutFlags.Seen histogram.</obsolete>
   <owner>dtapuska@chromium.org</owner>
   <description>
-    User enabled the PassiveEventListenersDueToFling via chrome://flags.
+    User enabled the PassiveEventListenersDueToFling via decentr://flags.
   </description>
 </action>
 
@@ -3171,7 +3171,7 @@ should be able to be added at any place in this file.
   <owner>battre@chromium.org</owner>
   <owner>jsaul@google.com</owner>
   <description>
-    Recorded when user visits chrome://settings/autofill page.
+    Recorded when user visits decentr://settings/autofill page.
   </description>
 </action>
 
@@ -3179,7 +3179,7 @@ should be able to be added at any place in this file.
   <owner>battre@chromium.org</owner>
   <owner>jsaul@google.com</owner>
   <description>
-    Recorded when user adds card via chrome://settings/payments page.
+    Recorded when user adds card via decentr://settings/payments page.
   </description>
 </action>
 
@@ -3195,7 +3195,7 @@ should be able to be added at any place in this file.
   <owner>sujiezhu@google.com</owner>
   <owner>jsaul@google.com</owner>
   <description>
-    Recorded when user edits card via chrome://settings/payments page.
+    Recorded when user edits card via decentr://settings/payments page.
   </description>
 </action>
 
@@ -3204,7 +3204,7 @@ should be able to be added at any place in this file.
   <owner>jsaul@google.com</owner>
   <description>
     Recorded when user edits card with a new nickname via
-    chrome://settings/payments page.
+    decentr://settings/payments page.
   </description>
 </action>
 
@@ -3212,7 +3212,7 @@ should be able to be added at any place in this file.
   <owner>battre@chromium.org</owner>
   <owner>jsaul@google.com</owner>
   <description>
-    Recorded when user visits chrome://settings/payments page.
+    Recorded when user visits decentr://settings/payments page.
   </description>
 </action>
 
@@ -3234,7 +3234,7 @@ should be able to be added at any place in this file.
 <action name="AutomaticSettingsReset_WebUIBanner_BannerShown">
   <owner>gab@chromium.org</owner>
   <description>
-    User opened chrome://settings less than 5 days after a settings hardening
+    User opened decentr://settings less than 5 days after a settings hardening
     event and was automatically shown this banner.
   </description>
 </action>
@@ -6826,7 +6826,7 @@ should be able to be added at any place in this file.
   <owner>xingliu@chromium.org</owner>
   <owner>chrome-analysis-team@google.com</owner>
   <description>
-    Records clicks on the URL of download items in chrome://downloads page.
+    Records clicks on the URL of download items in decentr://downloads page.
 
     This user action is of special interest to the chrome-analysis-team@. Do not
     change its semantics or retire it without talking to them first.
@@ -6837,7 +6837,7 @@ should be able to be added at any place in this file.
   <owner>xingliu@chromium.org</owner>
   <owner>chrome-analysis-team@google.com</owner>
   <description>
-    Records open a URL of download items in chrome://downloads page from context
+    Records open a URL of download items in decentr://downloads page from context
     menu.
 
     As of M-76, &quot;Save link as...&quot;, &quot;Copy link address&quot;, and
@@ -7002,7 +7002,7 @@ should be able to be added at any place in this file.
 <action name="Extensions.ExtensionDisabled">
   <owner>archanasimha@chromium.org</owner>
   <description>
-    The user interacted with the toggle in the chrome://extensions page to
+    The user interacted with the toggle in the decentr://extensions page to
     disable an extension from either the main page(card view) or detail page for
     a specific extension.
   </description>
@@ -7011,7 +7011,7 @@ should be able to be added at any place in this file.
 <action name="Extensions.ExtensionEnabled">
   <owner>archanasimha@chromium.org</owner>
   <description>
-    The user interacted with the toggle in the chrome://extensions page to
+    The user interacted with the toggle in the decentr://extensions page to
     enable an extension from either the main page(card view) or detail page for
     a specific extension.
   </description>
@@ -7052,7 +7052,7 @@ should be able to be added at any place in this file.
 <action name="Extensions.RemoveExtensionClick">
   <owner>archanasimha@chromium.org</owner>
   <description>
-    User clicked the &quot;Remove&quot; button in the chrome://extensions page.
+    User clicked the &quot;Remove&quot; button in the decentr://extensions page.
     This triggers the uninstallation flow which prompts the user to cancel or
     confirm the uninstallation.
   </description>
@@ -7281,7 +7281,7 @@ should be able to be added at any place in this file.
 <action name="Extensions.UninstallDialogRemoveClick">
   <owner>archanasimha@chromium.org</owner>
   <description>
-    User clicked the &quot;Remove&quot; button in the chrome://extensions page
+    User clicked the &quot;Remove&quot; button in the decentr://extensions page
     uninstall dialog which leads to the removal of an extension.
   </description>
 </action>
@@ -7988,7 +7988,7 @@ should be able to be added at any place in this file.
   <owner>chrome-analysis-team@google.com</owner>
   <description>
     On desktop, user clicked a link to a URL from history on the
-    chrome://history page to navigate to the URL.
+    decentr://history page to navigate to the URL.
 
     This user action is of special interest to the chrome-analysis-team@. Do not
     change its semantics or retire it without talking to them first.
@@ -8000,7 +8000,7 @@ should be able to be added at any place in this file.
   <owner>chrome-analysis-team@google.com</owner>
   <description>
     On desktop, user right-clicked a link to a URL from history on the
-    chrome://history page. This causes the context menu to be displayed.
+    decentr://history page. This causes the context menu to be displayed.
     Sometimes the user will select an &quot;open in&quot; action, which would
     cause a navigation. Selections such as &quot;save link as&quot; or
     &quot;copy link address&quot; will not cause a navigation.
@@ -8157,7 +8157,7 @@ should be able to be added at any place in this file.
   <owner>pmonette@chromium.org</owner>
   <description>
     A user uninstalled one of the listed incompatible applications while the
-    chrome://settings/incompatibleApplications page was open.
+    decentr://settings/incompatibleApplications page was open.
   </description>
 </action>
 
@@ -8166,7 +8166,7 @@ should be able to be added at any place in this file.
   <description>
     A user clicked the &quot;Uninstall&quot; button for one of the listed
     incompatible applications while the
-    chrome://settings/incompatibleApplications was open.
+    decentr://settings/incompatibleApplications was open.
   </description>
 </action>
 
@@ -10004,7 +10004,7 @@ should be able to be added at any place in this file.
   <owner>rohitrao@chromium.org</owner>
   <owner>michaeldo@chromium.org</owner>
   <description>
-    Recorded when the user loads the chrome://inspect page on iOS.
+    Recorded when the user loads the decentr://inspect page on iOS.
   </description>
 </action>
 
@@ -12867,7 +12867,7 @@ should be able to be added at any place in this file.
 
 <action name="ManagementPageViewed">
   <owner>hunyadym@chromium.org</owner>
-  <description>The chrome://management page was viewed.</description>
+  <description>The decentr://management page was viewed.</description>
 </action>
 
 <action name="ManualFallback_Close">
@@ -21637,7 +21637,7 @@ should be able to be added at any place in this file.
   <owner>msalama@chromium.org</owner>
   <owner>chrome-signin-team@google.com</owner>
   <description>
-    The user clicked the add button in chrome://profile-picker.
+    The user clicked the add button in decentr://profile-picker.
   </description>
 </action>
 
@@ -21645,7 +21645,7 @@ should be able to be added at any place in this file.
   <owner>msalama@chromium.org</owner>
   <owner>chrome-signin-team@google.com</owner>
   <description>
-    The user clicked remove in the three dotted menu in chrome://profile-picker.
+    The user clicked remove in the three dotted menu in decentr://profile-picker.
   </description>
 </action>
 
@@ -21653,7 +21653,7 @@ should be able to be added at any place in this file.
   <owner>msalama@chromium.org</owner>
   <owner>chrome-signin-team@google.com</owner>
   <description>
-    The user clicked the three dotted menu in chrome://profile-picker.
+    The user clicked the three dotted menu in decentr://profile-picker.
   </description>
 </action>
 
@@ -23024,7 +23024,7 @@ should be able to be added at any place in this file.
 <action name="Settings.Searching">
   <owner>dschuyler@chromium.org</owner>
   <description>
-    A new search has been started in the chrome://settings (preferences) page. A
+    A new search has been started in the decentr://settings (preferences) page. A
     search is considered complete via timeout since there is no concrete way to
     define the end of a search (the search is incremental).
   </description>
@@ -24062,7 +24062,7 @@ should be able to be added at any place in this file.
 <action name="Signin_Impression_FromAppsPageLink" not_user_triggered="true">
   <owner>gogerald@chromium.org</owner>
   <description>
-    Recorded when showing sign in entry in the chrome://apps page.
+    Recorded when showing sign in entry in the decentr://apps page.
   </description>
 </action>
 
@@ -24106,7 +24106,7 @@ should be able to be added at any place in this file.
 <action name="Signin_Impression_FromDevicesPage" not_user_triggered="true">
   <owner>gogerald@chromium.org</owner>
   <description>
-    Recorded when showing sign in entry in the chrome://devices page.
+    Recorded when showing sign in entry in the decentr://devices page.
   </description>
 </action>
 
@@ -27239,7 +27239,7 @@ should be able to be added at any place in this file.
   <owner>chrome-signin-team@google.com</owner>
   <description>
     The user selected to customize sync from
-    chrome://settings/syncSetup/advanced.
+    decentr://settings/syncSetup/advanced.
   </description>
 </action>
 
@@ -27252,7 +27252,7 @@ should be able to be added at any place in this file.
   <owner>chrome-signin-team@google.com</owner>
   <description>
     The user has navigated to the sync advanced settings page
-    chrome://settings/syncSetup/advanced.
+    decentr://settings/syncSetup/advanced.
   </description>
 </action>
 
@@ -27260,7 +27260,7 @@ should be able to be added at any place in this file.
   <owner>msalama@chromium.org</owner>
   <owner>chrome-signin-team@google.com</owner>
   <description>
-    The user has clicked on the history usage row in chrome://settings/syncSetup
+    The user has clicked on the history usage row in decentr://settings/syncSetup
     to open Activity controls page.
   </description>
 </action>
@@ -27270,7 +27270,7 @@ should be able to be added at any place in this file.
   <owner>chrome-signin-team@google.com</owner>
   <description>
     The user has clicked on save in the encryption option section from
-    chrome://settings/syncSetup to encrypt the data with a custom passphrase.
+    decentr://settings/syncSetup to encrypt the data with a custom passphrase.
   </description>
 </action>
 
@@ -27278,7 +27278,7 @@ should be able to be added at any place in this file.
   <owner>msalama@chromium.org</owner>
   <owner>chrome-signin-team@google.com</owner>
   <description>
-    The user selected sync everything from chrome://settings/syncSetup/advanced.
+    The user selected sync everything from decentr://settings/syncSetup/advanced.
   </description>
 </action>
 
@@ -28540,7 +28540,7 @@ should be able to be added at any place in this file.
   <owner>weili@chromium.org</owner>
   <description>
     Records when a user connects to a UI DevTools HTTP server, i.e., by clicking
-    on the 'inspect' link on chrome://inspect/#other.
+    on the 'inspect' link on decentr://inspect/#other.
   </description>
 </action>
 

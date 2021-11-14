@@ -34,7 +34,7 @@ NetInternalsBrowserTest.prototype = {
   __proto__: NetInternalsTest.prototype,
 
   /** @inheritDoc */
-  browsePreload: 'chrome://net-internals/',
+  browsePreload: 'decentr://net-internals/',
 
   setUp: function() {
     NetInternalsTest.prototype.setUp.call(this);
@@ -58,7 +58,7 @@ NetInternalsDnsViewTest.prototype = {
   __proto__: NetInternalsBrowserTest.prototype,
 
   browsePreload:
-      'chrome://net-internals/index.html?module=net_internals/dns_view_test.js',
+      'decentr://net-internals/index.html?module=net_internals/dns_view_test.js',
 };
 
 TEST_F('NetInternalsDnsViewTest', 'ClearCache', function() {
@@ -75,7 +75,7 @@ NetInternalsMainTest.prototype = {
   __proto__: NetInternalsBrowserTest.prototype,
 
   browsePreload:
-      'chrome://net-internals/index.html?module=net_internals/main_test.js',
+      'decentr://net-internals/index.html?module=net_internals/main_test.js',
 };
 
 TEST_F('NetInternalsMainTest', 'TabVisibility', function() {
@@ -87,7 +87,7 @@ NetInternalsDomainSecurityPolicyViewTest.prototype = {
   __proto__: NetInternalsBrowserTest.prototype,
 
   browsePreload:
-      'chrome://net-internals/index.html?module=net_internals/domain_security_policy_view_test.js',
+      'decentr://net-internals/index.html?module=net_internals/domain_security_policy_view_test.js',
 
   get suiteName() {
     return domain_security_policy_view_test.suiteName;

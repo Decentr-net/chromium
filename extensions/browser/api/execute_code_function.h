@@ -94,7 +94,7 @@ class ExecuteCodeFunction : public ExtensionFunction {
   bool Execute(const std::string& code_string, std::string* error);
 
   // The URL of the file being injected into the page, in the
-  // chrome-extension: scheme.
+  // decentr-extension: scheme.
   GURL script_url_;
 
   // The ID of the injection host.

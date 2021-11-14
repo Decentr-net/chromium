@@ -34,7 +34,7 @@ constexpr net::NetworkTrafficAnnotationTag kThumbnailTrafficAnnotation =
           setting:
             "Users can enable or disable offline prefetch by toggling "
             "'Download articles for you' in settings under Downloads or "
-            "by toggling chrome://flags#offline-prefetch."
+            "by toggling decentr://flags#offline-prefetch."
           chrome_policy {
             NTPContentSuggestionsEnabled {
               policy_options {mode: MANDATORY}

@@ -194,16 +194,16 @@ std::string NewTabUI::NewTabHTMLSource::GetContentSecurityPolicy(
     network::mojom::CSPDirectiveName directive) {
   if (directive == network::mojom::CSPDirectiveName::ScriptSrc) {
     // 'unsafe-inline' and google resources are added to script-src.
-    return "script-src chrome://resources 'self' 'unsafe-eval' 'unsafe-inline' "
+    return "script-src decentr://resources 'self' 'unsafe-eval' 'unsafe-inline' "
            "*.google.com *.gstatic.com;";
   } else if (directive == network::mojom::CSPDirectiveName::StyleSrc) {
-    return "style-src 'self' chrome://resources 'unsafe-inline' "
-           "chrome://theme;";
+    return "style-src 'self' decentr://resources 'unsafe-inline' "
+           "decentr://theme;";
   } else if (directive == network::mojom::CSPDirectiveName::ImgSrc) {
-    return "img-src chrome-search://thumb chrome-search://thumb2 "
-           "chrome-search://theme chrome://theme data:;";
+    return "img-src decentr-search://thumb decentr-search://thumb2 "
+           "decentr-search://theme decentr://theme data:;";
   } else if (directive == network::mojom::CSPDirectiveName::ChildSrc) {
-    return "child-src chrome-search://most-visited;";
+    return "child-src decentr-search://most-visited;";
   } else if (directive ==
                  network::mojom::CSPDirectiveName::RequireTrustedTypesFor ||
              directive == network::mojom::CSPDirectiveName::TrustedTypes) {

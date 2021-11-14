@@ -9,7 +9,7 @@ namespace system_logs {
 
 class SystemLogsFetcher;
 
-// Creates a SystemLogsFetcher to aggregate logs for chrome://system.
+// Creates a SystemLogsFetcher to aggregate logs for decentr://system.
 // The fetcher deletes itself once it finishes fetching data.
 SystemLogsFetcher* BuildAboutSystemLogsFetcher();
 

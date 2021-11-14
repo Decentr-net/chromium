@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {getFilenameFromURL, PDFViewerElement, shouldIgnoreKeyEvents, ViewerToolbarElement} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
+import {getFilenameFromURL, PDFViewerElement, shouldIgnoreKeyEvents, ViewerToolbarElement} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
 
 const tests = [
   /**

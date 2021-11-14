@@ -98,7 +98,7 @@
       }
 
       #banner {
-        background: url(chrome://settings/images/sync_banner.svg) no-repeat;
+        background: url(decentr://settings/images/sync_banner.svg) no-repeat;
         background-size: 100% auto;
         display: none;
         padding-top: calc(120 / 680 * 100%); /* Keep background ratio. */
@@ -106,7 +106,7 @@
 
       @media (prefers-color-scheme: dark) {
         #banner {
-          background-image: url(chrome://settings/images/sync_banner_dark.svg);
+          background-image: url(decentr://settings/images/sync_banner_dark.svg);
         }
       }
 
@@ -219,7 +219,7 @@
           <button class="dropdown-item" on-click="onSigninTap_"
               disabled="[[syncStatus.firstSetupInProgress]]" id="sign-in-item">
             <img class="account-icon small" alt=""
-                src="chrome://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE">
+                src="decentr://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE">
             <span>$i18n{useAnotherAccount}</span>
           </button>
           <button class="dropdown-item" on-click="onSignoutTap_"

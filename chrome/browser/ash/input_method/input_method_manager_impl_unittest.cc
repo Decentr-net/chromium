@@ -1326,7 +1326,7 @@ TEST_F(InputMethodManagerImplTest, MigrateInputMethodTest) {
 TEST_F(InputMethodManagerImplTest, OverrideKeyboardUrlRefWithKeyset) {
   // Create an input method with a input view URL for testing.
   const GURL inputview_url(
-      "chrome-extension://"
+      "decentr-extension://"
       "inputview.html#id=us.compact.qwerty&language=en-US&passwordLayout=us."
       "compact.qwerty&name=keyboard_us");
 
@@ -1350,7 +1350,7 @@ TEST_F(InputMethodManagerImplTest, OverrideKeyboardUrlRefWithKeyset) {
 
   // Override the keyboard url ref with 'emoji'.
   const GURL overridden_url_emoji(
-      "chrome-extension://"
+      "decentr-extension://"
       "inputview.html#id=us.compact.qwerty.emoji&language=en-US&passwordLayout="
       "us.compact.qwerty&name=keyboard_us");
   manager_->OverrideKeyboardKeyset(ImeKeyset::kEmoji);
@@ -1359,7 +1359,7 @@ TEST_F(InputMethodManagerImplTest, OverrideKeyboardUrlRefWithKeyset) {
 
   // Override the keyboard url ref with 'hwt'.
   const GURL overridden_url_hwt(
-      "chrome-extension://"
+      "decentr-extension://"
       "inputview.html#id=us.compact.qwerty.hwt&language=en-US&passwordLayout="
       "us.compact.qwerty&name=keyboard_us");
   manager_->OverrideKeyboardKeyset(ImeKeyset::kHandwriting);
@@ -1368,7 +1368,7 @@ TEST_F(InputMethodManagerImplTest, OverrideKeyboardUrlRefWithKeyset) {
 
   // Override the keyboard url ref with 'voice'.
   const GURL overridden_url_voice(
-      "chrome-extension://"
+      "decentr-extension://"
       "inputview.html#id=us.compact.qwerty.voice&language=en-US"
       "&passwordLayout=us.compact.qwerty&name=keyboard_us");
   manager_->OverrideKeyboardKeyset(ImeKeyset::kVoice);
@@ -1377,7 +1377,7 @@ TEST_F(InputMethodManagerImplTest, OverrideKeyboardUrlRefWithKeyset) {
 }
 
 TEST_F(InputMethodManagerImplTest, OverrideDefaultKeyboardUrlRef) {
-  const GURL default_url("chrome://inputview.html");
+  const GURL default_url("decentr://inputview.html");
 
   const auto ime_id =
       extension_ime_util::GetInputMethodID(kExtensionId1, "test_engine_id");
@@ -1401,7 +1401,7 @@ TEST_F(InputMethodManagerImplTest, OverrideDefaultKeyboardUrlRef) {
 TEST_F(InputMethodManagerImplTest, DoesNotResetInputViewUrlWhenOverridden) {
   // Create an input method with a input view URL for testing.
   const GURL inputview_url(
-      "chrome-extension://"
+      "decentr-extension://"
       "inputview.html#id=us.compact.qwerty&language=en-US&passwordLayout=us."
       "compact.qwerty&name=keyboard_us");
 
@@ -1421,7 +1421,7 @@ TEST_F(InputMethodManagerImplTest, DoesNotResetInputViewUrlWhenOverridden) {
   manager_->GetActiveIMEState()->EnableInputView();
 
   const GURL overridden_url_emoji(
-      "chrome-extension://"
+      "decentr-extension://"
       "inputview.html#id=us.compact.qwerty.emoji&language=en-US&passwordLayout="
       "us.compact.qwerty&name=keyboard_us");
 

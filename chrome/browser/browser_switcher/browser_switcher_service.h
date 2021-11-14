@@ -170,7 +170,7 @@ class BrowserSwitcherService : public KeyedService {
   static base::TimeDelta refresh_delay_;
 
  private:
-  // chrome://browser-switch/internals has access to some
+  // decentr://browser-switch/internals has access to some
   // implementation-specific methods to query this object's state, listen for
   // events and trigger a re-download immediately.
   friend class ::BrowserSwitchHandler;
@@ -185,7 +185,7 @@ class BrowserSwitcherService : public KeyedService {
   XmlDownloader* sitelist_downloader();
 
   // Triggers a sitelist refresh immediately. Used by
-  // chrome://browser-switch/internals.
+  // decentr://browser-switch/internals.
   void DownloadNow();
 
   // Registers a callback that triggers after the sitelists are done downloading

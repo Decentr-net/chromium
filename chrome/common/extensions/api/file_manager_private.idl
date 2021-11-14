@@ -380,7 +380,7 @@ dictionary FileTask {
   // a file (ex. "open_with").
   Verb? verb;
 
-  // Task icon url (from chrome://extension-icon/...)
+  // Task icon url (from decentr://extension-icon/...)
   DOMString iconUrl;
 
   // True if this task is a default task for the selected files.

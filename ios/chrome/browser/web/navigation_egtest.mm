@@ -566,14 +566,14 @@ std::unique_ptr<net::test_server::HttpResponse> WindowLocationHashHandlers(
 - (void)testRestoreHistoryToWebUIAndNavigateForward {
   GREYAssertTrue(self.testServer->Start(), @"Test server failed to start.");
   const GURL destinationURL = self.testServer->GetURL(kSimpleFileBasedTestURL);
-  [ChromeEarlGrey loadURL:GURL("chrome://version")];
+  [ChromeEarlGrey loadURL:GURL("decentr://version")];
   [ChromeEarlGrey loadURL:destinationURL];
   [ChromeEarlGrey goBack];
 
   [ChromeEarlGrey triggerRestoreViaTabGridRemoveAllUndo];
 
   [ChromeEarlGrey waitForWebStateContainingText:"Revision"];
-  [[EarlGrey selectElementWithMatcher:OmniboxText("chrome://version")]
+  [[EarlGrey selectElementWithMatcher:OmniboxText("decentr://version")]
       assertWithMatcher:grey_notNil()];
   [ChromeEarlGrey goForward];
   [ChromeEarlGrey waitForWebStateContainingText:"pony"];
@@ -604,10 +604,10 @@ std::unique_ptr<net::test_server::HttpResponse> WindowLocationHashHandlers(
 // regression test from http://crbug.com/1011758.
 - (void)testRestoreHistoryToPlaceholderURL {
   GREYAssertTrue(self.testServer->Start(), @"Test server failed to start.");
-  const GURL destinationURL("chrome://crash");
+  const GURL destinationURL("decentr://crash");
   [ChromeEarlGrey loadURL:destinationURL];
   [ChromeEarlGrey triggerRestoreViaTabGridRemoveAllUndo];
-  [[EarlGrey selectElementWithMatcher:OmniboxText("chrome://crash")]
+  [[EarlGrey selectElementWithMatcher:OmniboxText("decentr://crash")]
       assertWithMatcher:grey_notNil()];
 }
 

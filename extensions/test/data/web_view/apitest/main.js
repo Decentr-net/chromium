@@ -984,10 +984,10 @@ function testInlineScriptFromAccessibleResources() {
 }
 
 // This tests verifies that webview fires a loadabort event instead of crashing
-// the browser if we attempt to navigate to a chrome-extension: URL with an
+// the browser if we attempt to navigate to a decentr-extension: URL with an
 // extension ID that does not exist.
 function testInvalidChromeExtensionURL() {
-  var invalidResource = 'chrome-extension://abc123/guest.html';
+  var invalidResource = 'decentr-extension://abc123/guest.html';
   var webview = document.createElement('webview');
   // foobar is a privileged partition according to the manifest file.
   webview.partition = 'foobar';
@@ -1037,7 +1037,7 @@ function testLoadAbortIllegalChromeURL() {
     embedder.test.assertEq('about:blank', webview.src);
     embedder.test.succeed();
   });
-  webview.src = 'chrome://newtab';
+  webview.src = 'decentr://newtab';
   document.body.appendChild(webview);
 }
 

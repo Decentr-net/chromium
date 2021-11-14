@@ -4788,7 +4788,7 @@ IN_PROC_BROWSER_TEST_F(DownloadContentTest, DownloadFromWebUI) {
 // Verify WebUI download will gracefully fail without an associated renderer
 // process.
 IN_PROC_BROWSER_TEST_F(DownloadContentTest, DownloadFromWebUIWithoutRenderer) {
-  GURL webui_url("chrome://resources/images/apps/topbar_button_maximize.png");
+  GURL webui_url("decentr://resources/images/apps/topbar_button_maximize.png");
   EXPECT_TRUE(NavigateToURL(shell(), webui_url));
   SetupEnsureNoPendingDownloads();
 

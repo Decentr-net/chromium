@@ -27,7 +27,7 @@ using session_manager::SessionState;
 namespace ash {
 namespace {
 
-const char kLocaleChangeNotificationId[] = "chrome://settings/locale";
+const char kLocaleChangeNotificationId[] = "decentr://settings/locale";
 const char kNotifierLocale[] = "ash.locale";
 
 class LocaleNotificationDelegate : public message_center::NotificationDelegate {

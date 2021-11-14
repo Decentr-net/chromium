@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PostMessageAPIClient} from 'chrome://resources/js/post_message_api_client.m.js';
-import {RequestHandler} from 'chrome://resources/js/post_message_api_request_handler.m.js';
+import {PostMessageAPIClient} from 'decentr://resources/js/post_message_api_client.m.js';
+import {RequestHandler} from 'decentr://resources/js/post_message_api_request_handler.m.js';
 
-const ServerOriginURLFilter = 'chrome://chrome-signin/';
+const ServerOriginURLFilter = 'decentr://chrome-signin/';
 
 class TestRequestHandler extends RequestHandler {
   constructor() {

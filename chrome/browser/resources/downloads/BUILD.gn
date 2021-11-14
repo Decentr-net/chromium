@@ -22,8 +22,8 @@ if (optimize_webui) {
     js_module_in_files = [ "downloads.js" ]
     out_manifest = "$target_gen_dir/$build_manifest"
     excludes = [
-      "chrome://resources/js/cr.m.js",
-      "chrome://resources/mojo/mojo/public/js/bindings.js",
+      "decentr://resources/js/cr.m.js",
+      "decentr://resources/mojo/mojo/public/js/bindings.js",
     ]
 
     deps = [

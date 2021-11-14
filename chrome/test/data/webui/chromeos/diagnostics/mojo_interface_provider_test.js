@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {SystemDataProviderInterface} from 'chrome://diagnostics/diagnostics_types.js';
-import {FakeNetworkHealthProvider} from 'chrome://diagnostics/fake_network_health_provider.js';
-import {FakeSystemDataProvider} from 'chrome://diagnostics/fake_system_data_provider.js';
-import {FakeSystemRoutineController} from 'chrome://diagnostics/fake_system_routine_controller.js';
-import {getNetworkHealthProvider, getSystemDataProvider, getSystemRoutineController, setNetworkHealthProviderForTesting, setSystemDataProviderForTesting, setSystemRoutineControllerForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
+import {SystemDataProviderInterface} from 'decentr://diagnostics/diagnostics_types.js';
+import {FakeNetworkHealthProvider} from 'decentr://diagnostics/fake_network_health_provider.js';
+import {FakeSystemDataProvider} from 'decentr://diagnostics/fake_system_data_provider.js';
+import {FakeSystemRoutineController} from 'decentr://diagnostics/fake_system_routine_controller.js';
+import {getNetworkHealthProvider, getSystemDataProvider, getSystemRoutineController, setNetworkHealthProviderForTesting, setSystemDataProviderForTesting, setSystemRoutineControllerForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
 
 import {assertEquals} from '../../chai_assert.js';
 

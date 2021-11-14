@@ -635,12 +635,12 @@ IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessBrowserTest,
             security_state->ip_address_space);
 }
 
-// This test verifies that the chrome:// scheme is considered local for the
+// This test verifies that the decentr:// scheme is considered local for the
 // purpose of Private Network Access.
 IN_PROC_BROWSER_TEST_F(PrivateNetworkAccessBrowserTest,
                        ClientSecurityStateForSpecialSchemeChromeURL) {
-  // Not all chrome:// hosts are available in content/ but ukm is one of them.
-  EXPECT_TRUE(NavigateToURL(shell(), GURL("chrome://ukm")));
+  // Not all decentr:// hosts are available in content/ but ukm is one of them.
+  EXPECT_TRUE(NavigateToURL(shell(), GURL("decentr://ukm")));
   EXPECT_TRUE(
       root_frame_host()->GetLastCommittedURL().SchemeIs(kChromeUIScheme));
 

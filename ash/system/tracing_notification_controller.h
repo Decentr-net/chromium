@@ -10,7 +10,7 @@
 
 namespace ash {
 
-// Controller class to manage tracing enabled (chrome://slow) notification.
+// Controller class to manage tracing enabled (decentr://slow) notification.
 class ASH_EXPORT TracingNotificationController : public TracingObserver {
  public:
   TracingNotificationController();

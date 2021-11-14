@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://print/pdf/elements/viewer-zoom-toolbar.js';
+import 'decentr://print/pdf/elements/viewer-zoom-toolbar.js';
 
-import {ToolbarManager} from 'chrome://print/pdf/toolbar_manager.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {ToolbarManager} from 'decentr://print/pdf/toolbar_manager.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {assertFalse, assertTrue} from '../chai_assert.js';
 

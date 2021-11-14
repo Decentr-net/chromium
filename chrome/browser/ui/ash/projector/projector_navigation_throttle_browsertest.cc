@@ -38,8 +38,8 @@ constexpr char kFilePath[] = "xyz";
 // Summary of expected behavior on ChromeOS:
 // ____________________________|_SWA_launches_|_URL_redirection
 // projector.apps.chrome       | Yes          | Yes
-// chrome://projector/app/     | Yes          | No
-// chrome-untrusted://projector| No           | No
+// decentr://projector/app/     | Yes          | No
+// decentr-untrusted://projector| No           | No
 
 class ProjectorNavigationThrottleTest : public InProcessBrowserTest {
  public:
@@ -69,7 +69,7 @@ class ProjectorNavigationThrottleTestParameterized
 };
 
 // Verifies that navigating to https://projector.apps.chrome/xyz redirects to
-// chrome://projector/app/xyz and launches the SWA.
+// decentr://projector/app/xyz and launches the SWA.
 IN_PROC_BROWSER_TEST_P(ProjectorNavigationThrottleTestParameterized,
                        PwaNavigationRedirects) {
   base::HistogramTester histogram_tester;
@@ -135,7 +135,7 @@ INSTANTIATE_TEST_SUITE_P(,
                          ProjectorNavigationThrottleTestParameterized,
                          /*navigate_from_link=*/testing::Bool());
 
-// Verifies that navigating to chrome-untrusted://projector does not redirect.
+// Verifies that navigating to decentr-untrusted://projector does not redirect.
 IN_PROC_BROWSER_TEST_F(ProjectorNavigationThrottleTest,
                        UntrustedNavigationNoRedirect) {
   std::string url = chromeos::kChromeUIUntrustedProjectorAppUrl;
@@ -147,7 +147,7 @@ IN_PROC_BROWSER_TEST_F(ProjectorNavigationThrottleTest,
   Browser* app_browser =
       FindSystemWebAppBrowser(profile(), web_app::SystemAppType::PROJECTOR);
   // Projector SWA is not open. We don't capture navigations to
-  // chrome-untrusted://projector.
+  // decentr-untrusted://projector.
   EXPECT_FALSE(app_browser);
   content::WebContents* tab =
       browser()->tab_strip_model()->GetActiveWebContents();
@@ -159,7 +159,7 @@ IN_PROC_BROWSER_TEST_F(ProjectorNavigationThrottleTest,
   EXPECT_EQ(tab->GetVisibleURL().spec(), url);
 }
 
-// Verifies that navigating to chrome://projector/app/ does not redirect.
+// Verifies that navigating to decentr://projector/app/ does not redirect.
 IN_PROC_BROWSER_TEST_F(ProjectorNavigationThrottleTest,
                        TrustedNavigationNoRedirect) {
   std::string url = chromeos::kChromeUITrustedProjectorAppUrl;

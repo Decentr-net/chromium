@@ -16,7 +16,7 @@
 
 UserActionsUI::UserActionsUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
-  // Set up the chrome://user-actions/ source.
+  // Set up the decentr://user-actions/ source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIUserActionsHost);
   html_source->SetDefaultResource(IDR_USER_ACTIONS_HTML);

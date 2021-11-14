@@ -24,7 +24,7 @@ namespace diagnostics {
 class DiagnosticsManager;
 }  // namespace diagnostics
 
-// The WebDialogUI for chrome://diagnostics.
+// The WebDialogUI for decentr://diagnostics.
 class DiagnosticsDialogUI : public ui::MojoWebDialogUI {
  public:
   explicit DiagnosticsDialogUI(

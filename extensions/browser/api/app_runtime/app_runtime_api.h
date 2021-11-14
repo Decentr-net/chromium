@@ -59,7 +59,7 @@ class AppRuntimeEventRouter {
   // the form:
   // {
   //   "intent" : {
-  //     "type" : "chrome-extension://fileentry",
+  //     "type" : "decentr-extension://fileentry",
   //     "data" : a FileEntry,
   //     "postResults" : a null function,
   //     "postFailure" : a null function

@@ -113,7 +113,7 @@ bool SiteIsolationPolicy::AreIsolatedOriginsEnabled() {
 // static
 bool SiteIsolationPolicy::IsStrictOriginIsolationEnabled() {
   // If the feature is explicitly enabled by the user (e.g., from
-  // chrome://flags), honor this regardless of checks to disable site isolation
+  // decentr://flags), honor this regardless of checks to disable site isolation
   // below.  This means this takes precedence over memory thresholds or
   // switches to disable site isolation.
   if (base::FeatureList::GetInstance()->IsFeatureOverriddenFromCommandLine(

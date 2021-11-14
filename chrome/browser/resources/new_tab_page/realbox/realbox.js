@@ -5,10 +5,10 @@
 import './realbox_dropdown.js';
 import './realbox_icon.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {skColorToRgba} from 'chrome://resources/js/color_utils.js';
-import {hasKeyModifiers} from 'chrome://resources/js/util.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {skColorToRgba} from 'decentr://resources/js/color_utils.js';
+import {hasKeyModifiers} from 'decentr://resources/js/util.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {I18nBehavior, loadTimeData} from '../i18n_setup.js';
 import {decodeString16, mojoString16, mojoTimeDelta} from '../utils.js';

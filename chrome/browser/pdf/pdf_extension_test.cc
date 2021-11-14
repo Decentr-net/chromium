@@ -516,7 +516,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTestWithTestGuestViewManager,
 
   // Verify we loaded the extension.
   const GURL extension_url(
-      "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
+      "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
   EXPECT_EQ(extension_url, guest_web_contents->GetLastCommittedURL());
   EXPECT_EQ(main_url, embedder_web_contents->GetLastCommittedURL());
 
@@ -558,7 +558,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTestWithTestGuestViewManager,
 
   // Verify the extension was loaded.
   const GURL extension_url(
-      "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
+      "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
   EXPECT_EQ(extension_url, guest_web_contents->GetLastCommittedURL());
   EXPECT_EQ(main_url, embedder_web_contents->GetLastCommittedURL());
 
@@ -588,7 +588,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTestWithTestGuestViewManager,
 
   // Verify the extension was loaded.
   const GURL extension_url(
-      "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
+      "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
   EXPECT_EQ(extension_url, guest_web_contents->GetLastCommittedURL());
   EXPECT_EQ(main_url, embedder_web_contents->GetLastCommittedURL());
 }
@@ -633,7 +633,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTestWithTestGuestViewManager,
 
   // Verify the extension was loaded.
   const GURL extension_url(
-      "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
+      "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html");
   EXPECT_EQ(extension_url, guest_web_contents->GetLastCommittedURL());
   EXPECT_EQ(main_url, embedder_web_contents->GetLastCommittedURL());
 }
@@ -1246,7 +1246,7 @@ class PDFExtensionContentSettingJSTest : public PDFExtensionJSTest {
     map->SetContentSettingCustomScope(
         ContentSettingsPattern::Wildcard(),
         ContentSettingsPattern::FromString(
-            "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai"),
+            "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai"),
         ContentSettingsType::JAVASCRIPT,
         enabled ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
   }
@@ -1408,7 +1408,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTest, BlockDirectAccess) {
   console_observer.SetPattern(
       "*Streams are only available from a mime handler view guest.*");
   GURL forbidden_url(
-      "chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html?"
+      "decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html?"
       "https://example.com/notrequested.pdf");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), forbidden_url));
 
@@ -1459,7 +1459,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTest, LinkPermissions) {
       LoadPdfGetGuestContents(embedded_test_server()->GetURL("/pdf/test.pdf"));
   ASSERT_TRUE(guest_contents);
 
-  // chrome://favicon links should be allowed for PDFs, while chrome://settings
+  // decentr://favicon links should be allowed for PDFs, while decentr://settings
   // links should not.
   GURL valid_link_url(std::string(chrome::kChromeUIFaviconURL) +
                       "https://www.google.ca/");
@@ -3078,7 +3078,7 @@ IN_PROC_BROWSER_TEST_P(PDFExtensionTest, DidStopLoading) {
   // Prepare to wait for requests for the main page of the MimeHandlerView for
   // PDFs.
   RequestWaiter interceptor(
-      GURL("chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html"));
+      GURL("decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/index.html"));
 
   // Navigate to a page with:
   //   <embed type="application/pdf" src="test.pdf"></embed>
@@ -3587,10 +3587,10 @@ class PDFExtensionAccessibilityTreeDumpTest
     property_filters.emplace_back("value='*'", AXPropertyFilter::ALLOW);
     // The value attribute on the document object contains the URL of the
     // current page which will not be the same every time the test is run.
-    // The PDF plugin uses the 'chrome-extension' protocol, so block that as
+    // The PDF plugin uses the 'decentr-extension' protocol, so block that as
     // well.
     property_filters.emplace_back("value='http*'", AXPropertyFilter::DENY);
-    property_filters.emplace_back("value='chrome-extension*'",
+    property_filters.emplace_back("value='decentr-extension*'",
                                   AXPropertyFilter::DENY);
     // Object attributes.value
     property_filters.emplace_back("layout-guess:*", AXPropertyFilter::ALLOW);

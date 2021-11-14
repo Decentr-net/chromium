@@ -4,7 +4,7 @@
 //
 // Definitions for the System Events API exposed by the telemetry
 // system web extension.
-// This API is consumed by chrome://.
+// This API is consumed by decentr://.
 //
 // This Mojo interface will go through security review before shipping.
 //

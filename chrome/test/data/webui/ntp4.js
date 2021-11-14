@@ -16,7 +16,7 @@ NTP4WebUITest.prototype = {
   __proto__: testing.Test.prototype,
 
   /** @override */
-  browsePreload: 'chrome://newtab',
+  browsePreload: 'decentr://newtab',
 };
 
 // Test loading new tab page and selecting each card doesn't have console

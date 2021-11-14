@@ -8,7 +8,7 @@ import './diagnostics_shared_css.js';
 import './ethernet_info.js';
 import './wifi_info.js';
 
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Network, NetworkType} from './diagnostics_types.js';
 

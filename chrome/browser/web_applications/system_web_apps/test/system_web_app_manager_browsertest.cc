@@ -135,8 +135,8 @@ IN_PROC_BROWSER_TEST_P(SystemWebAppManagerBrowserTest, Install) {
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 }
 
-// Check the toolbar is not shown for system web apps for pages on the chrome://
-// scheme but is shown off the chrome:// scheme.
+// Check the toolbar is not shown for system web apps for pages on the decentr://
+// scheme but is shown off the decentr:// scheme.
 IN_PROC_BROWSER_TEST_P(SystemWebAppManagerBrowserTest,
                        ToolbarVisibilityForSystemWebApp) {
   WaitForTestSystemAppInstall();
@@ -149,14 +149,14 @@ IN_PROC_BROWSER_TEST_P(SystemWebAppManagerBrowserTest,
   // In scope, the toolbar should not be visible.
   EXPECT_FALSE(app_browser->app_controller()->ShouldShowCustomTabBar());
 
-  // Out of scope chrome:// URL.
-  GURL out_of_scope_chrome_page("chrome://foo");
+  // Out of scope decentr:// URL.
+  GURL out_of_scope_chrome_page("decentr://foo");
   content::NavigateToURLBlockUntilNavigationsComplete(
       app_browser->tab_strip_model()->GetActiveWebContents(),
       out_of_scope_chrome_page, 1);
   EXPECT_TRUE(app_browser->app_controller()->ShouldShowCustomTabBar());
 
-  // Even though the url is secure it is not being served over chrome:// so a
+  // Even though the url is secure it is not being served over decentr:// so a
   // toolbar should be shown.
   GURL off_scheme_page("https://example.com");
   content::NavigateToURLBlockUntilNavigationsComplete(
@@ -828,7 +828,7 @@ class SystemWebAppManagerFileHandlingOriginTrialsBrowserTest
       : SystemWebAppManagerBrowserTest(/*install_mock=*/false) {
     maybe_installation_ =
         TestSystemWebAppInstallation::SetUpAppWithEnabledOriginTrials(
-            OriginTrialsMap({{GetOrigin(GURL("chrome://test-system-app/")),
+            OriginTrialsMap({{GetOrigin(GURL("decentr://test-system-app/")),
                               {"FileHandling"}}}));
   }
 
@@ -1061,7 +1061,7 @@ class SystemWebAppManagerUninstallBrowserTest
       maybe_installation_ =
           TestSystemWebAppInstallation::SetUpAppWithEnabledOriginTrials(
               OriginTrialsMap(
-                  {{url::Origin::Create(GURL("chrome://test-system-app/")),
+                  {{url::Origin::Create(GURL("decentr://test-system-app/")),
                     {"FileHandling"}}}));
     } else {
       maybe_installation_ = TestSystemWebAppInstallation::SetUpWithoutApps();
@@ -1192,7 +1192,7 @@ IN_PROC_BROWSER_TEST_P(SystemWebAppManagerChromeUntrustedTest, Install) {
   EXPECT_TRUE(registrar.HasExternalAppWithInstallSource(
       app_id, ExternalInstallSource::kSystemInstalled));
   EXPECT_EQ(registrar.FindAppWithUrlInScope(
-                GURL("chrome-untrusted://test-system-app/")),
+                GURL("decentr-untrusted://test-system-app/")),
             app_id);
 }
 #endif  // !BUILDFLAG(IS_CHROMEOS_LACROS)
@@ -1230,9 +1230,9 @@ class SystemWebAppManagerOriginTrialsBrowserTest
   const std::vector<std::string> main_url_trials_ = {"Frobulate"};
   const std::vector<std::string> trial_url_trials_ = {"FrobulateNavigation"};
 
-  const GURL main_url_ = GURL("chrome://test-system-app/pwa.html");
-  const GURL trial_url_ = GURL("chrome://test-subframe/title2.html");
-  const GURL notrial_url_ = GURL("chrome://notrial-subframe/title3.html");
+  const GURL main_url_ = GURL("decentr://test-system-app/pwa.html");
+  const GURL trial_url_ = GURL("decentr://test-subframe/title2.html");
+  const GURL notrial_url_ = GURL("decentr://notrial-subframe/title3.html");
 
  private:
   url::Origin GetOrigin(const GURL& url) { return url::Origin::Create(url); }
@@ -1518,7 +1518,7 @@ IN_PROC_BROWSER_TEST_P(SystemWebAppManagerShortcutTest, ShortcutUrl) {
 
   const int command_id = ash::LAUNCH_APP_SHORTCUT_FIRST + 1;
   ui_test_utils::UrlLoadObserver url_observer(
-      GURL("chrome://test-system-app/pwa.html#two"),
+      GURL("decentr://test-system-app/pwa.html#two"),
       content::NotificationService::AllSources());
   menu_model->ActivatedAt(menu_model->GetIndexOfCommandId(command_id),
                           ui::EF_LEFT_MOUSE_BUTTON);
@@ -1559,7 +1559,7 @@ IN_PROC_BROWSER_TEST_P(SystemWebAppManagerBackgroundTaskTest, TimerFires) {
   // in unittests, this is probably enough.
   base::HistogramTester histograms;
   content::TestNavigationObserver navigation_observer(
-      GURL("chrome://test-system-app/page2.html"));
+      GURL("decentr://test-system-app/page2.html"));
   navigation_observer.StartWatchingNewWebContents();
   ui::ScopedSetIdleState idle(ui::IDLE_STATE_IDLE);
 

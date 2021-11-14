@@ -7,8 +7,8 @@ header.textContent = 'Untrusted Sample System Web App';
 // For testing purposes: notify the parent window the iframe has been embedded
 // successfully.
 window.addEventListener('message', event => {
-  if (event.origin.startsWith('chrome://sample-system-web-app')) {
+  if (event.origin.startsWith('decentr://sample-system-web-app')) {
     window.parent.postMessage(
-        {'success': true}, 'chrome://sample-system-web-app');
+        {'success': true}, 'decentr://sample-system-web-app');
   }
 });

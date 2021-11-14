@@ -1398,7 +1398,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="2431027948063157455">Google Assistent yüklənmədi. Şəbəkə bağlantısını yoxlayın və yenidən cəhd edin.</translation>
 <translation id="243179355394256322">Təşkilatınız cihaz qeydiyyatını yalnız səlahiyyətli istifadəçilərlə məhdudlaşdırır. Bu istifadəçinin cihazları qeydiyyata almasına icazə verilmir. İstifadəçinin Admin konsolunun İstifadəçilər bölməsində "Google Meet avadanlığını qeydiyyatdan keçir" administrator imtiyazına sahib olduğuna əmin olun.</translation>
 <translation id="243275146591958220">Endirməni ləğv edin</translation>
-<translation id="2433452467737464329">Səhifəni avtomatik təzələmək üçün linkdə sorğu parametri əlavə edin: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Səhifəni avtomatik təzələmək üçün linkdə sorğu parametri əlavə edin: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Görünüş</translation>
 <translation id="2433836460518180625">Yalnız cihazı kiliddən çıxarın</translation>
 <translation id="2434449159125086437">Printeri quraşdırmaq mümkün deyil. Konfiqurasiyanı yoxlayın və yenidən cəhd edin.</translation>
@@ -1926,7 +1926,7 @@ Cihazda Family Link tətbiqini quraşdırmaqla bu hesabın ayarlarını idarə e
 <translation id="2959127025785722291">Xəta baş verdi. Skanlamanı tamamlamaq mümkün olmadı. Yenidən cəhd edin.</translation>
 <translation id="2959842337402130152">Yaddaş yeri az olduğuna görə bərpa etmək mümkün deyil. Cihazın yaddaşında <ph name="SPACE_REQUIRED" /> yer boşaldın və yenidən cəhd edin.</translation>
 <translation id="2960208947600937804">Linux'u konfiqurasiya edərkən xəta baş verdi. Admin ilə əlaqə saxlayın.</translation>
-<translation id="296026337010986570">Hazırdır! Zərərli proqram silindi. Artırmaları yenidən aktiv etmək üçün &lt;a href="chrome://extensions"&gt;Artırmalar&lt;/a&gt; ünvanına keçin.</translation>
+<translation id="296026337010986570">Hazırdır! Zərərli proqram silindi. Artırmaları yenidən aktiv etmək üçün &lt;a href="decentr://extensions"&gt;Artırmalar&lt;/a&gt; ünvanına keçin.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (artırma təmin edildi)</translation>
 <translation id="2961210776189273067">Başlıq</translation>
 <translation id="2961695502793809356">Davam etmək üçün basın, tarixçəni görmək üçün basıb saxlayın</translation>
@@ -4923,7 +4923,7 @@ Bu əməliyyata birdən çox keçirici təyin edə bilərsiniz.</translation>
 <translation id="6227280783235722609">artırma</translation>
 <translation id="6229849828796482487">Wi‑Fi şəbəkəsini ayırın</translation>
 <translation id="6231782223312638214">Təklif edilən</translation>
-<translation id="6231881193380278751">Səhifəni avtomatik yeniləmək üçün URL-də sorğu parametri əlavə edin: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Səhifəni avtomatik yeniləmək üçün URL-də sorğu parametri əlavə edin: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Batareya</translation>
 <translation id="6232116551750539448"><ph name="NAME" /> bağlantısı kəsildi</translation>
 <translation id="6233154960150021497">Klaviatura əvəzinə səsdən istifadə üçün defolt</translation>

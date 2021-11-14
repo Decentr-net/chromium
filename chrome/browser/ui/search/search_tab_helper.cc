@@ -267,7 +267,7 @@ void SearchTabHelper::NavigationEntryCommitted(
     logger_ = std::make_unique<NTPUserDataLogger>(
         Profile::FromBrowserContext(web_contents_->GetBrowserContext()),
         // We use the NavigationController's URL since it might differ from the
-        // WebContents URL which is usually chrome://newtab/.
+        // WebContents URL which is usually decentr://newtab/.
         web_contents_->GetController().GetVisibleEntry()->GetURL());
     ipc_router_.SetInputInProgress(IsInputInProgress());
   }

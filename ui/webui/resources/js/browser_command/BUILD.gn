@@ -10,7 +10,7 @@ import("//ui/webui/resources/tools/generate_grd.gni")
 
 mojom("mojo_bindings") {
   sources = [ "browser_command.mojom" ]
-  webui_module_path = "chrome://resources/js/browser_command"
+  webui_module_path = "decentr://resources/js/browser_command"
 }
 
 js_type_check("closure_compile") {

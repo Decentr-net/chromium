@@ -45,8 +45,8 @@ class SigninScreenHandlerDelegate;
 // - update screen.
 class OobeUI : public ui::MojoWebUIController {
  public:
-  // List of known types of OobeUI. Type added as path in chrome://oobe url, for
-  // example chrome://oobe/login.
+  // List of known types of OobeUI. Type added as path in decentr://oobe url, for
+  // example decentr://oobe/login.
   static const char kAppLaunchSplashDisplay[];
   static const char kGaiaSigninDisplay[];
   static const char kLockDisplay[];

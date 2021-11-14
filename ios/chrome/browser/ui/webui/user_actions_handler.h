@@ -15,7 +15,7 @@ namespace base {
 class TimeTicks;
 }  // namespace base
 
-// UI Handler for chrome://user-actions/
+// UI Handler for decentr://user-actions/
 // It listens to user action notifications and passes those notifications
 // into the Javascript to update the page.
 class UserActionsHandler : public web::WebUIIOSMessageHandler {

@@ -50,25 +50,25 @@ TEST(IntentPickersInternalTest, TestShouldOverrideUrlLoading) {
   // A navigation to an a url that is neither an http nor https scheme cannot be
   // override.
   EXPECT_FALSE(ShouldOverrideUrlLoading(
-      GURL("http://www.a.com"), GURL("chrome-extension://fake_document")));
+      GURL("http://www.a.com"), GURL("decentr-extension://fake_document")));
   EXPECT_FALSE(ShouldOverrideUrlLoading(
-      GURL("https://www.a.com"), GURL("chrome-extension://fake_document")));
+      GURL("https://www.a.com"), GURL("decentr-extension://fake_document")));
   EXPECT_FALSE(ShouldOverrideUrlLoading(GURL("http://www.a.com"),
-                                        GURL("chrome://fake_document")));
+                                        GURL("decentr://fake_document")));
   EXPECT_FALSE(ShouldOverrideUrlLoading(GURL("http://www.a.com"),
                                         GURL("file://fake_document")));
   EXPECT_FALSE(ShouldOverrideUrlLoading(GURL("https://www.a.com"),
-                                        GURL("chrome://fake_document")));
+                                        GURL("decentr://fake_document")));
   EXPECT_FALSE(ShouldOverrideUrlLoading(GURL("https://www.a.com"),
                                         GURL("file://fake_document")));
 
-  // A navigation from chrome-extension scheme cannot be overridden.
+  // A navigation from decentr-extension scheme cannot be overridden.
   EXPECT_FALSE(ShouldOverrideUrlLoading(
-      GURL("chrome-extension://fake_document"), GURL("http://www.a.com")));
+      GURL("decentr-extension://fake_document"), GURL("http://www.a.com")));
   EXPECT_FALSE(ShouldOverrideUrlLoading(
-      GURL("chrome-extension://fake_document"), GURL("https://www.a.com")));
-  EXPECT_FALSE(ShouldOverrideUrlLoading(GURL("chrome-extension://fake_a"),
-                                        GURL("chrome-extension://fake_b")));
+      GURL("decentr-extension://fake_document"), GURL("https://www.a.com")));
+  EXPECT_FALSE(ShouldOverrideUrlLoading(GURL("decentr-extension://fake_a"),
+                                        GURL("decentr-extension://fake_b")));
 
   // Other navigations can be overridden.
   EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("http://www.google.com"),
@@ -81,11 +81,11 @@ TEST(IntentPickersInternalTest, TestShouldOverrideUrlLoading) {
                                        GURL("http://b.google.com/")));
   EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("http://a.not-google.com"),
                                        GURL("http://b.not-google.com")));
-  EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("chrome://fake_document"),
+  EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("decentr://fake_document"),
                                        GURL("http://www.a.com")));
   EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("file://fake_document"),
                                        GURL("http://www.a.com")));
-  EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("chrome://fake_document"),
+  EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("decentr://fake_document"),
                                        GURL("https://www.a.com")));
   EXPECT_TRUE(ShouldOverrideUrlLoading(GURL("file://fake_document"),
                                        GURL("https://www.a.com")));

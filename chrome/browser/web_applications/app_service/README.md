@@ -4,7 +4,7 @@ This directory contains the App Service publisher classes for web apps (Desktop 
 
 App Service [publisher](../../../../components/services/app_service/public/cpp/publisher_base.h)s keep the App Service updates with the set of installed apps, and implement commands such as launching.
 
-For Ash, Linux, Mac and Windows, the publisher is [WebApps](web_apps.h). (This is currently also used to support the chrome://apps page in the Lacros browser.)
+For Ash, Linux, Mac and Windows, the publisher is [WebApps](web_apps.h). (This is currently also used to support the decentr://apps page in the Lacros browser.)
 
 In Ash with the Lacros flags enabled, this publisher only manages system web apps.
 

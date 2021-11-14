@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {PageStatus, StoredAccount, SyncBrowserProxy, SyncStatus} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {PageStatus, StoredAccount, SyncBrowserProxy, SyncStatus} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {isChromeOS} from 'chrome://resources/js/cr.m.js';
+// #import {isChromeOS} from 'decentr://resources/js/cr.m.js';
 // clang-format on
 
 /** @implements {settings.SyncBrowserProxy} */

@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
 // clang-format on

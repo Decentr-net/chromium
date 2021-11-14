@@ -116,7 +116,7 @@ class SafeBrowsingUrlCheckerImpl : public mojom::SafeBrowsingUrlChecker,
   // have non-default values on iOS.
   // TODO(crbug.com/1103222): Add an iOS-specific WebUIDelegate implementation
   // and pass it here to log RT requests/responses on open
-  // chrome://safe-browsing pages once chrome://safe-browsing works on iOS, or
+  // decentr://safe-browsing pages once decentr://safe-browsing works on iOS, or
   // else to log those requests/responses to stderr.
   SafeBrowsingUrlCheckerImpl(
       network::mojom::RequestDestination request_destination,
@@ -234,11 +234,11 @@ class SafeBrowsingUrlCheckerImpl : public mojom::SafeBrowsingUrlChecker,
                           bool is_cached_response,
                           std::unique_ptr<RTLookupResponse> response);
 
-  // Logs |request| on any open chrome://safe-browsing pages.
+  // Logs |request| on any open decentr://safe-browsing pages.
   void LogRTLookupRequest(const RTLookupRequest& request,
                           const std::string& oauth_token);
 
-  // Logs |response| on any open chrome://safe-browsing pages.
+  // Logs |response| on any open decentr://safe-browsing pages.
   void LogRTLookupResponse(const RTLookupResponse& response);
 
   void SetWebUIToken(int token);
@@ -342,7 +342,7 @@ class SafeBrowsingUrlCheckerImpl : public mojom::SafeBrowsingUrlChecker,
   // UI thread.
   base::WeakPtr<RealTimeUrlLookupServiceBase> url_lookup_service_on_ui_;
 
-  // May be null on certain platforms that don't support chrome://safe-browsing
+  // May be null on certain platforms that don't support decentr://safe-browsing
   // and in unit tests. If non-null, guaranteed to outlive this object by
   // contract.
   WebUIDelegate* webui_delegate_ = nullptr;

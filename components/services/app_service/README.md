@@ -396,7 +396,7 @@ the response.
 `LoadIcon`'s `allow_placeholder_icon` states whether the the caller will accept
 a placeholder if the real icon can not be provided quickly. Native user
 interfaces like the app launcher will probably set this to true. On the other
-hand, serving Web-UI URLs such as `chrome://app-icon/app_id/icon_size` will set
+hand, serving Web-UI URLs such as `decentr://app-icon/app_id/icon_size` will set
 this to false, as that URL should identify a particular icon, not one that
 changes over time. Web-UI that wants to display placeholder icons and be
 notified of when real icons are ready will require some mechanism other than a

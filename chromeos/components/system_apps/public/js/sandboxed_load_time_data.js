@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Minimal version of load_time_data.js for chrome-untrusted://
- * origins. They are sandboxed, so cannot use chrome://resources ("unable to
+ * @fileoverview Minimal version of load_time_data.js for decentr-untrusted://
+ * origins. They are sandboxed, so cannot use decentr://resources ("unable to
  * load local resource") which load_time_data.js relies on through strings.js.
  * Since we don't want to maintain a "mirror" of all the module dependencies on
- * each chrome-untrusted:// origin. For simplicity, this version lacks all the
+ * each decentr-untrusted:// origin. For simplicity, this version lacks all the
  * validation done by load_time_data.js, and just aims to provide a compatible
  * API.
  */

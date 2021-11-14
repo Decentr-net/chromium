@@ -4,7 +4,7 @@
 
 ## Overview
 
-Content Settings are settings pages that live under chrome://settings/content.
+Content Settings are settings pages that live under decentr://settings/content.
 They are intended to provide the user with information about the status of
 sites' capabilities as well as to allow them to tweak these settings as they see
 fit.
@@ -17,10 +17,10 @@ All content settings pages live under this folder and under the
 folder. Arguably, the most important pages are:
 
 *   [site_settings_page.html](https://cs.chromium.org/chromium/src/chrome/browser/resources/settings/site_settings_page/site_settings_page.html?type=cs&g=0)
-    is the main settings page (`chrome://settings/content`).
+    is the main settings page (`decentr://settings/content`).
 *   [all_sites.html](https://cs.chromium.org/chromium/src/chrome/browser/resources/settings/site_settings/all_sites.html)
     lists all sites that have any relevant information to the users
-    (`chrome://settings/content/all`).
+    (`decentr://settings/content/all`).
 *   [category_default_setting.html](https://cs.chromium.org/chromium/src/chrome/browser/resources/settings/site_settings/category_default_setting.html?g=0)
     is used to show some particular settings category (e.g. "location").
 *   [site_details.html](https://cs.chromium.org/chromium/src/chrome/browser/resources/settings/site_settings/site_details.html?type=cs&g=0)

@@ -25,7 +25,7 @@ class ChromeMediaAppGuestUIDelegate : public ash::MediaAppGuestUIDelegate {
   void PopulateLoadTimeData(content::WebUIDataSource* source) override;
 };
 
-// A webui config for the chrome-untrusted:// part of media-app.
+// A webui config for the decentr-untrusted:// part of media-app.
 class MediaAppGuestUIConfig : public ui::WebUIConfig {
  public:
   MediaAppGuestUIConfig();

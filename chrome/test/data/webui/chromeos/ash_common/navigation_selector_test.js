@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {NavigationSelectorElement, SelectorItem} from 'chrome://resources/ash/common/navigation_selector.js';
+import {NavigationSelectorElement, SelectorItem} from 'decentr://resources/ash/common/navigation_selector.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {waitAfterNextRender} from '../../test_util.js';

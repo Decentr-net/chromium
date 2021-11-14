@@ -91,7 +91,7 @@ CastGpuFactoryImpl::CreateOpenGLContextProvider() {
   return base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
       gpu_channel_host_, gpu_->gpu_memory_buffer_manager(), 0 /* stream ID */,
       gpu::SchedulingPriority::kHigh, gpu::kNullSurfaceHandle,
-      GURL("chrome://gpu/opengl"), false /* automatic_flushes */,
+      GURL("decentr://gpu/opengl"), false /* automatic_flushes */,
       false /* support_locking */, false /* support_grcontext */,
       gpu::SharedMemoryLimits::ForMailboxContext(), attributes,
       viz::command_buffer_metrics::ContextType::WEBGL);
@@ -280,7 +280,7 @@ void CastGpuFactoryImpl::SetupContext() {
   context_provider_ = base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
       gpu_channel_host_, gpu_->gpu_memory_buffer_manager(), 0 /* stream ID */,
       gpu::SchedulingPriority::kHigh, gpu::kNullSurfaceHandle,
-      GURL("chrome://gpu/CastVideoAcceleratorFactory"),
+      GURL("decentr://gpu/CastVideoAcceleratorFactory"),
       false /* automatic_flushes */, false /* support_locking */,
       false /* support_grcontext */,
       gpu::SharedMemoryLimits::ForMailboxContext(), attributes,

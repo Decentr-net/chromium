@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ExtensionControlBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestExtensionControlBrowserProxy} from 'chrome://test/settings/test_extension_control_browser_proxy.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ExtensionControlBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestExtensionControlBrowserProxy} from 'decentr://test/settings/test_extension_control_browser_proxy.js';
 
 // clang-format on
 
@@ -47,7 +47,7 @@ suite('extension controlled indicator', function() {
     assertTrue(!!labelLink);
     assertEquals(labelLink.textContent, indicator.extensionName);
 
-    assertEquals('chrome://extensions', new URL(labelLink.href).origin);
+    assertEquals('decentr://extensions', new URL(labelLink.href).origin);
     assertTrue(labelLink.href.includes(indicator.extensionId));
 
     indicator.extensionId = 'dpjamkmjmigaoobjbekmfgabipmfilij';

@@ -1415,7 +1415,7 @@ Puwede mong pamahalaan ang mga setting ng account na ito sa pamamagitan ng pag-i
 <translation id="2431027948063157455">Hindi na-load ang Google Assistant, pakitingnan ang iyong koneksyon sa network at subukang muli.</translation>
 <translation id="243179355394256322">Nililimitahan lang ng iyong organisasyon ang pag-enroll ng device sa mga pinapahintulutang user. Hindi pinapahintulutan ang user na ito na mag-enroll ng mga device. Pakitiyak na may pribilehiyong pang-administrator na "I-enroll ang hardware ng Google Meet" ang user sa seksyong Mga User ng Admin console.</translation>
 <translation id="243275146591958220">Kanselahin ang pag-download</translation>
-<translation id="2433452467737464329">Magdagdag ng query param sa URL upang i-auto-refresh ang pahina: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Magdagdag ng query param sa URL upang i-auto-refresh ang pahina: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Hitsura</translation>
 <translation id="2433836460518180625">I-unlock lang ang device</translation>
 <translation id="2434449159125086437">Hindi na-set up ang printer. Pakisuri ang configuration at subukan ulit.</translation>
@@ -1944,7 +1944,7 @@ Inaatasan ka ng <ph name="DOMAIN" /> na panatilihing nakalagay ang iyong smart c
 <translation id="2959127025785722291">Nagkaproblema. Hindi makumpleto ang pag-scan. Pakisubukan ulit.</translation>
 <translation id="2959842337402130152">Hindi ma-restore dahil kulang ang storage space. Magbakante ng <ph name="SPACE_REQUIRED" /> sa device at subukan ulit.</translation>
 <translation id="2960208947600937804">Nagka-error habang kino-configure ang Linux. Makipag-uganayan sa iyong administrator.</translation>
-<translation id="296026337010986570">Tapos na! Naalis na ang mapanganib na software. Para i-on muli ang mga extension, bisitahin ang &lt;a href="chrome://extensions"&gt;Mga Extension&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Tapos na! Naalis na ang mapanganib na software. Para i-on muli ang mga extension, bisitahin ang &lt;a href="decentr://extensions"&gt;Mga Extension&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (ibinigay ang extension)</translation>
 <translation id="2961210776189273067">Pamagat</translation>
 <translation id="2961695502793809356">I-click upang sumulong, pindutin nang matagal upang makita ang history</translation>
@@ -4942,7 +4942,7 @@ Puwede kang magtalaga ng maraming switch sa pagkilos na ito.</translation>
 <translation id="6227280783235722609">extension</translation>
 <translation id="6229849828796482487">Idiskonekta ang Wi-Fi network</translation>
 <translation id="6231782223312638214">Iminungkahi</translation>
-<translation id="6231881193380278751">Magdagdag ng query param sa URL upang awtomatikong i-refresh ang page: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Magdagdag ng query param sa URL upang awtomatikong i-refresh ang page: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Baterya</translation>
 <translation id="6232116551750539448">Naputol ang koneksyon sa <ph name="NAME" /></translation>
 <translation id="6233154960150021497">Default na gumamit ng boses sa halip na keyboard</translation>

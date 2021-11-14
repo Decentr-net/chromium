@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {MechanicalLayout} from 'chrome://resources/ash/common/keyboard_diagram.js';
+import {MechanicalLayout} from 'decentr://resources/ash/common/keyboard_diagram.js';
 import {assertEquals, assertNotEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';
 

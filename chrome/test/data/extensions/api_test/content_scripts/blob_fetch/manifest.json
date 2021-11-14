@@ -2,7 +2,7 @@
   "name": "content_script_blob_fetch",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Tests the behavior of fetching a blob:chrome-extension:// URL from a content script.",
+  "description": "Tests the behavior of fetching a blob:decentr-extension:// URL from a content script.",
   "background": {
     "persistent": true,
     "page": "test.html"

@@ -734,8 +734,8 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
 
         // Test with a single autocomplete
 
-        setTextAndVerifyNoAutocomplete("chrome://f");
-        setAutocomplete("chrome://f", "lags");
+        setTextAndVerifyNoAutocomplete("decentr://f");
+        setAutocomplete("decentr://f", "lags");
 
         AutocompleteState state = getAutocompleteState(new Runnable() {
             @Override
@@ -751,20 +751,20 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
             // setComposingRegion fails because autocomplete is hidden from IME. In reality, IME
             // shouldn't do this.
             Assert.assertFalse(state.hasAutocomplete);
-            Assert.assertEquals("chrome://ff", urlText.toString());
+            Assert.assertEquals("decentr://ff", urlText.toString());
             Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 10);
             Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 11);
         } else {
             Assert.assertFalse(state.hasAutocomplete);
-            Assert.assertEquals("chrome://f", urlText.toString());
+            Assert.assertEquals("decentr://f", urlText.toString());
             Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 9);
             Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 10);
         }
 
         // Test with > 1 characters in composition.
 
-        setTextAndVerifyNoAutocomplete("chrome://fl");
-        setAutocomplete("chrome://fl", "ags");
+        setTextAndVerifyNoAutocomplete("decentr://fl");
+        setAutocomplete("decentr://fl", "ags");
 
         state = getAutocompleteState(new Runnable() {
             @Override
@@ -780,20 +780,20 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
             // setComposingRegion fails because autocomplete is hidden from IME. In reality, IME
             // shouldn't do this.
             Assert.assertFalse(state.hasAutocomplete);
-            Assert.assertEquals("chrome://flfl", urlText.toString());
+            Assert.assertEquals("decentr://flfl", urlText.toString());
             Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 11);
             Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 13);
         } else {
             Assert.assertFalse(state.hasAutocomplete);
-            Assert.assertEquals("chrome://fl", urlText.toString());
+            Assert.assertEquals("decentr://fl", urlText.toString());
             Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 9);
             Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 11);
         }
 
         // Test with non-matching composition.  Should just append to the URL text.
 
-        setTextAndVerifyNoAutocomplete("chrome://f");
-        setAutocomplete("chrome://f", "lags");
+        setTextAndVerifyNoAutocomplete("decentr://f");
+        setAutocomplete("decentr://f", "lags");
 
         state = getAutocompleteState(new Runnable() {
             @Override
@@ -805,20 +805,20 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
         Assert.assertFalse(state.hasAutocomplete);
 
         urlText = getUrlBarText();
-        Assert.assertEquals("chrome://fg", urlText.toString());
+        Assert.assertEquals("decentr://fg", urlText.toString());
         Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 10);
         Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 11);
 
         // Test with composition text that matches the entire text w/o autocomplete.
 
-        setTextAndVerifyNoAutocomplete("chrome://f");
-        setAutocomplete("chrome://f", "lags");
+        setTextAndVerifyNoAutocomplete("decentr://f");
+        setAutocomplete("decentr://f", "lags");
 
         state = getAutocompleteState(new Runnable() {
             @Override
             public void run() {
                 mUrlBar.getInputConnection().setComposingRegion(13, 14);
-                mUrlBar.getInputConnection().setComposingText("chrome://f", 1);
+                mUrlBar.getInputConnection().setComposingText("decentr://f", 1);
             }
         });
         urlText = getUrlBarText();
@@ -827,12 +827,12 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
             // setComposingRegion fails because autocomplete is hidden from IME. In reality, IME
             // shouldn't do this.
             Assert.assertFalse(state.hasAutocomplete);
-            Assert.assertEquals("chrome://fchrome://f", urlText.toString());
+            Assert.assertEquals("decentr://fdecentr://f", urlText.toString());
             Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 10);
             Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 20);
         } else {
             Assert.assertFalse(state.hasAutocomplete);
-            Assert.assertEquals("chrome://f", urlText.toString());
+            Assert.assertEquals("decentr://f", urlText.toString());
             Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 0);
             Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 10);
         }
@@ -840,8 +840,8 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
         // Test with composition text longer than the URL text.  Shouldn't crash and should
         // just append text.
 
-        setTextAndVerifyNoAutocomplete("chrome://f");
-        setAutocomplete("chrome://f", "lags");
+        setTextAndVerifyNoAutocomplete("decentr://f");
+        setAutocomplete("decentr://f", "lags");
 
         state = getAutocompleteState(new Runnable() {
             @Override
@@ -853,7 +853,7 @@ public class UrlBarTest extends DummyUiChromeActivityTestCase {
         Assert.assertFalse(state.hasAutocomplete);
 
         urlText = getUrlBarText();
-        Assert.assertEquals("chrome://fblahblahblah", urlText.toString());
+        Assert.assertEquals("decentr://fblahblahblah", urlText.toString());
         Assert.assertEquals(BaseInputConnection.getComposingSpanStart(urlText), 10);
         Assert.assertEquals(BaseInputConnection.getComposingSpanEnd(urlText), 22);
     }

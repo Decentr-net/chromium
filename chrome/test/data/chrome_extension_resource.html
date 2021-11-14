@@ -3,13 +3,13 @@
 <script>
 var xhrStatus = -1;
 // An icon in the simple_with_icon test extension.
-var imgUrl = 'chrome-extension://ombfbiolafbecdcaofoilglhmobpdbnd/icon.png';
+var imgUrl = 'decentr-extension://ombfbiolafbecdcaofoilglhmobpdbnd/icon.png';
 
 window.onload = function() {
-  // The call to pushState with chrome-extension:// URL will succeed, since the
+  // The call to pushState with decentr-extension:// URL will succeed, since the
   // test uses --disable-web-security.
   history.pushState('', '',
-      'chrome-extension://ombfbiolafbecdcaofoilglhmobpdbnd/');
+      'decentr-extension://ombfbiolafbecdcaofoilglhmobpdbnd/');
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4) {

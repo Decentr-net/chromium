@@ -30,7 +30,7 @@ FileManagerUI::FileManagerUI(content::WebUI* web_ui,
   auto* trusted_source = CreateTrustedAppDataSource();
   content::WebUIDataSource::Add(browser_context, trusted_source);
 
-  // Add ability to request chrome-untrusted: URLs
+  // Add ability to request decentr-untrusted: URLs
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 }
 
@@ -38,10 +38,10 @@ content::WebUIDataSource* FileManagerUI::CreateTrustedAppDataSource() {
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(kChromeUIFileManagerHost);
 
-  // Setup chrome://file-manager main and default page.
+  // Setup decentr://file-manager main and default page.
   source->AddResourcePath("", IDR_FILE_MANAGER_SWA_MAIN_HTML);
 
-  // Add chrome://file-manager content.
+  // Add decentr://file-manager content.
   source->AddResourcePaths(
       base::make_span(kFileManagerSwaResources, kFileManagerSwaResourcesSize));
 
@@ -58,21 +58,21 @@ content::WebUIDataSource* FileManagerUI::CreateTrustedAppDataSource() {
   // Script security policy.
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj "
-      "chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp "
-      "chrome://resources "
+      "script-src decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj "
+      "decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp "
+      "decentr://resources "
       "'self' ;");
 
   // Metadata Shared Worker security policy.
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::WorkerSrc,
-      "worker-src chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj "
+      "worker-src decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj "
       "'self' ;");
 
-  // Allow using the chrome-untrusted:// scheme in the host.
+  // Allow using the decentr-untrusted:// scheme in the host.
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::FrameSrc,
-      "frame-src chrome-untrusted://file-manager "
+      "frame-src decentr-untrusted://file-manager "
       "'self';");
 
   // TODO(crbug.com/1098685): Trusted Type remaining WebUI.

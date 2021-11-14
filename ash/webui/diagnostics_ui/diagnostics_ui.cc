@@ -44,7 +44,7 @@ namespace {
 std::u16string GetSettingsLinkLabel() {
   int string_id = IDS_DIAGNOSTICS_SETTINGS_LINK_TEXT;
   std::vector<std::u16string> replacements;
-  const char* kOsSettingsUrl = "chrome://os-settings/";
+  const char* kOsSettingsUrl = "decentr://os-settings/";
   replacements.push_back(base::UTF8ToUTF16(kOsSettingsUrl));
 
   return l10n_util::GetStringFUTF16(string_id, replacements, nullptr);
@@ -333,7 +333,7 @@ DiagnosticsDialogUI::DiagnosticsDialogUI(
       content::WebUIDataSource::Create(kChromeUIDiagnosticsAppHost));
   html_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   html_source->DisableTrustedTypesCSP();
 
   const auto resources = base::make_span(kAshDiagnosticsAppResources,

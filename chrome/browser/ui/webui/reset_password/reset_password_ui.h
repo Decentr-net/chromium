@@ -18,7 +18,7 @@ class DictionaryValue;
 
 using password_manager::metrics_util::PasswordType;
 
-// The WebUI for chrome://reset-password/.
+// The WebUI for decentr://reset-password/.
 class ResetPasswordUI : public ui::MojoWebUIController {
  public:
   explicit ResetPasswordUI(content::WebUI* web_ui);

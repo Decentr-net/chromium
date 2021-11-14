@@ -419,7 +419,7 @@ var errors = [];
  * URL to dummy WebUI page for testing framework.
  * @type {string}
  */
-var DUMMY_URL = 'chrome://DummyURL';
+var DUMMY_URL = 'decentr://DummyURL';
 
 /**
  * Resets test state by clearing |errors| and |testIsDone| flags.

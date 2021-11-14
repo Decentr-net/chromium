@@ -54,10 +54,10 @@
     [
       'href',
       (node, value) => {
-        // Only allow a[href] starting with chrome:// or https:// or equaling
+        // Only allow a[href] starting with decentr:// or https:// or equaling
         // to #.
         return node.tagName === 'A' &&
-            (value.startsWith('chrome://') || value.startsWith('https://') ||
+            (value.startsWith('decentr://') || value.startsWith('https://') ||
              value === '#');
       }
     ],
@@ -84,8 +84,8 @@
     [
       'src',
       (node, value) => {
-        // Only allow img[src] starting with chrome://
-        return node.tagName === 'IMG' && value.startsWith('chrome://');
+        // Only allow img[src] starting with decentr://
+        return node.tagName === 'IMG' && value.startsWith('decentr://');
       }
     ],
     ['tabindex', allowAttribute],

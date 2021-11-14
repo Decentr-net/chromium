@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PageCallbackRouter, PageRemote} from 'chrome://tab-strip.top-chrome/tab_strip.mojom-webui.js';
-import {Tab, TabGroupVisualData} from 'chrome://tab-strip.top-chrome/tab_strip.mojom-webui.js';
-import {ExtensionsApiTab, TabsApiProxy} from 'chrome://tab-strip.top-chrome/tabs_api_proxy.js';
+import {PageCallbackRouter, PageRemote} from 'decentr://tab-strip.top-chrome/tab_strip.mojom-webui.js';
+import {Tab, TabGroupVisualData} from 'decentr://tab-strip.top-chrome/tab_strip.mojom-webui.js';
+import {ExtensionsApiTab, TabsApiProxy} from 'decentr://tab-strip.top-chrome/tabs_api_proxy.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 

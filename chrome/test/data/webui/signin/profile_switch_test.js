@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ProfileSwitchElement} from 'chrome://profile-picker/lazy_load.js';
+import {ProfileSwitchElement} from 'decentr://profile-picker/lazy_load.js';
 
-import {ManageProfilesBrowserProxyImpl} from 'chrome://profile-picker/profile_picker.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {ManageProfilesBrowserProxyImpl} from 'decentr://profile-picker/profile_picker.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {waitBeforeNextRender} from '../test_util.js';

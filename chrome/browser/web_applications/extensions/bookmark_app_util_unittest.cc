@@ -89,10 +89,10 @@ TEST(BookmarkAppUtil, IsInNavigationScopeForLaunchUrl_LaunchUrlVariations) {
 TEST(BookmarkAppUtil, IsInNavigationScopeForLaunchUrl_Extensions) {
   // The Crosh extension.
   const GURL extension_launch_url = GURL(
-      "chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html");
+      "decentr-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.html");
   EXPECT_TRUE(IsInNavigationScopeForLaunchUrl(
       extension_launch_url,
-      GURL("chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/path")));
+      GURL("decentr-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/path")));
 }
 
 }  // namespace extensions

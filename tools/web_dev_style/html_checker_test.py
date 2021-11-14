@@ -167,7 +167,7 @@ class HtmlCheckerTest(unittest.TestCase):
       self.ShouldPassCheck(line, self.checker.I18nContentJavaScriptCaseCheck)
 
   def testImportCorrectPolymerHtmlFails(self):
-    bad_url = 'chrome://resources/polymer/v1_0/polymer/polymer.html'
+    bad_url = 'decentr://resources/polymer/v1_0/polymer/polymer.html'
     lines = [
       '<link rel="import" href="%s">' % bad_url,
       '<link href="%s" rel="import">' % bad_url,
@@ -176,7 +176,7 @@ class HtmlCheckerTest(unittest.TestCase):
       self.ShouldFailCheck(line, self.checker.ImportCorrectPolymerHtml)
 
   def testImportCorrectPolymerHtmlPasses(self):
-    good_url = 'chrome://resources/html/polymer.html'
+    good_url = 'decentr://resources/html/polymer.html'
     lines = [
       '<link rel="import" href="%s">' % good_url,
       '<link href="%s" rel="import">' % good_url,

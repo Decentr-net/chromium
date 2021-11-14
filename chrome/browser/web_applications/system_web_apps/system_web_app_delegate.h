@@ -28,7 +28,7 @@ using OriginTrialsMap = std::map<url::Origin, std::vector<std::string>>;
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 
 // A convenience method to create OriginTrialsMap. Note, we only support simple
-// cases for chrome:// and chrome-untrusted:// URLs. We don't support complex
+// cases for decentr:// and decentr-untrusted:// URLs. We don't support complex
 // cases such as about:blank (which inherits origins from the embedding frame).
 url::Origin GetOrigin(const char* url);
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
@@ -87,7 +87,7 @@ class SystemWebAppDelegate {
   virtual bool ShouldIncludeLaunchDirectory() const;
 
   // Map from origin to enabled origin trial names for this app. For example,
-  // "chrome://sample-web-app/" to ["Frobulate"]. If set, we will enable the
+  // "decentr://sample-web-app/" to ["Frobulate"]. If set, we will enable the
   // given origin trials when the corresponding origin is loaded in the app.
   const OriginTrialsMap& GetEnabledOriginTrials() const;
 

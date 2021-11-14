@@ -6,8 +6,8 @@
  * @fileoverview This component displays toast notifications to the user.
  */
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import {html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {dismissErrorAction} from './personalization_actions.js';
 import {WithPersonalizationStore} from './personalization_store.js';
 

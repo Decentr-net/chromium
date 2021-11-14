@@ -44,7 +44,7 @@ GURL GetParentAccessURL() {
   GURL::Replacements replacements;
   // TODO(b/200853161): Set caller id from params.
   std::string query_string = base::StringPrintf(
-      "callerid=2fdd8d6e&cros-origin=chrome://parent-access");
+      "callerid=2fdd8d6e&cros-origin=decentr://parent-access");
   replacements.SetQueryStr(query_string);
   const GURL result = base_url.ReplaceComponents(replacements);
   DCHECK(result.is_valid()) << "Invalid URL \"" << url << "\" for switch \""

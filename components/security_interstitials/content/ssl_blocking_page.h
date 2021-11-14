@@ -28,7 +28,7 @@ class SSLErrorUI;
 
 // URL to use as the 'Learn More' link when the interstitial is caused by
 // a "ERR_CERT_SYMANTEC_LEGACY" error, -202 fragment is included so
-// chrome://connection-help expands the right section if the user can't reach
+// decentr://connection-help expands the right section if the user can't reach
 // the help center.
 const char kSymantecSupportUrl[] =
     "https://support.google.com/chrome?p=symantec#-202";

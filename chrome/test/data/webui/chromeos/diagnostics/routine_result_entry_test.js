@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/routine_result_entry.js';
+import 'decentr://diagnostics/routine_result_entry.js';
 
-import {RoutineResult, RoutineType, StandardRoutineResult} from 'chrome://diagnostics/diagnostics_types.js';
-import {RoutineGroup} from 'chrome://diagnostics/routine_group.js';
-import {ExecutionProgress, ResultStatusItem} from 'chrome://diagnostics/routine_list_executor.js';
-import {BadgeType} from 'chrome://diagnostics/text_badge.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {RoutineResult, RoutineType, StandardRoutineResult} from 'decentr://diagnostics/diagnostics_types.js';
+import {RoutineGroup} from 'decentr://diagnostics/routine_group.js';
+import {ExecutionProgress, ResultStatusItem} from 'decentr://diagnostics/routine_list_executor.js';
+import {BadgeType} from 'decentr://diagnostics/text_badge.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible} from '../../test_util.js';

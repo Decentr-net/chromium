@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {NetworkType, RoutineType} from 'chrome://diagnostics/diagnostics_types.js';
-import {convertKibToGibDecimalString, getNetworkCardTitle, getRoutineGroups, getSubnetMaskFromRoutingPrefix, setDisplayStateInTitleForTesting} from 'chrome://diagnostics/diagnostics_utils.js';
-import {RoutineGroup} from 'chrome://diagnostics/routine_group.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {NetworkType, RoutineType} from 'decentr://diagnostics/diagnostics_types.js';
+import {convertKibToGibDecimalString, getNetworkCardTitle, getRoutineGroups, getSubnetMaskFromRoutingPrefix, setDisplayStateInTitleForTesting} from 'decentr://diagnostics/diagnostics_utils.js';
+import {RoutineGroup} from 'decentr://diagnostics/routine_group.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertArrayEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 

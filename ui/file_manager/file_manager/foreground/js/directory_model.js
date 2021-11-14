@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {dispatchSimpleEvent} from 'chrome://resources/js/cr.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {ListSelectionModel} from 'chrome://resources/js/cr/ui/list_selection_model.m.js';
-import {ListSingleSelectionModel} from 'chrome://resources/js/cr/ui/list_single_selection_model.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {dispatchSimpleEvent} from 'decentr://resources/js/cr.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {ListSelectionModel} from 'decentr://resources/js/cr/ui/list_selection_model.m.js';
+import {ListSingleSelectionModel} from 'decentr://resources/js/cr/ui/list_single_selection_model.m.js';
 
 import {AsyncUtil} from '../../common/js/async_util.js';
 import {metrics} from '../../common/js/metrics.js';

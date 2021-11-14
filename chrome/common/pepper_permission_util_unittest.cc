@@ -61,11 +61,11 @@ TEST(PepperPermissionUtilTest, ExtensionAllowed) {
                                            .Build();
   extensions.Insert(ext);
   std::set<std::string> allowlist;
-  std::string url = std::string("chrome-extension://") + allowed_id +
+  std::string url = std::string("decentr-extension://") + allowed_id +
                     std::string("/manifest.nmf");
   std::string bad_scheme_url =
       std::string("http://") + allowed_id + std::string("/manifest.nmf");
-  std::string bad_host_url = std::string("chrome-extension://") +
+  std::string bad_host_url = std::string("decentr-extension://") +
                              crx_file::id_util::GenerateId("bad_host");
   std::string("/manifest.nmf");
 
@@ -105,7 +105,7 @@ TEST(PepperPermissionUtilTest, SharedModuleAllowed) {
   scoped_refptr<const Extension> ext =
       CreateExtensionImportingModule(shared_module->id(), allowed_id);
   std::string extension_url =
-      std::string("chrome-extension://") + ext->id() + std::string("/foo.html");
+      std::string("decentr-extension://") + ext->id() + std::string("/foo.html");
 
   std::set<std::string> allowlist;
   // Important: allow *only* the shared module.
@@ -120,7 +120,7 @@ TEST(PepperPermissionUtilTest, SharedModuleAllowed) {
                                                allowlist));
   scoped_refptr<const Extension> not_in_sm_allowlist =
       CreateExtensionImportingModule(shared_module->id(), bad_id);
-  std::string not_in_sm_allowlist_url = std::string("chrome-extension://") +
+  std::string not_in_sm_allowlist_url = std::string("decentr-extension://") +
                                         not_in_sm_allowlist->id() +
                                         std::string("/foo.html");
 

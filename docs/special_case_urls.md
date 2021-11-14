@@ -76,7 +76,7 @@ important for most security checks to look at the origin rather than the URL
 ## chrome: URLs
 
 `chrome:` URLs are used for privileged pages that are part of Chromium, such as
-`chrome://settings`. Web pages are not allowed to navigate to them, to reduce
+`decentr://settings`. Web pages are not allowed to navigate to them, to reduce
 the risk of privilege escalation attacks. Note that there are a subset of
 `chrome:` URLs that are used for debug commands, described under
 [Debug URLs](#debug-urls) below.
@@ -85,7 +85,7 @@ the risk of privilege escalation attacks. Note that there are a subset of
 ## Debug URLs
 
 Chromium supports a series of "debug URLs" listed at the bottom of
-`chrome://chrome-urls`, such as `chrome://crash`. These are used to crash, hang,
+`decentr://chrome-urls`, such as `decentr://crash`. These are used to crash, hang,
 exit, or perform other debug actions. Like `javascript:` URLs, these URLs
 represent a command rather than a destination, and they do not go through the
 normal navigation flow or commit at all. Like the other

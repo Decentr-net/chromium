@@ -120,7 +120,7 @@ Other cases where it's OK to set **Security_Impact-None**:
 
 * The impacted code runs behind a feature flag which is *disabled by default*,
   and the field trial configuration has not been switched on.
-* The impacted code only runs behind a command-line flag or `chrome://flags`
+* The impacted code only runs behind a command-line flag or `decentr://flags`
   entry. (In particular, if a bug can only affect those who have
   set `#enable-experimental-web-platform-features`, it is **Security_Impact-None**.
 * It's a V8 feature behind flags such as `--future`, `--es-staging` or

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PersonalizationRouter} from 'chrome://personalization/trusted/personalization_router_element.js';
-import {promisifySendImagesForTesting, WallpaperImages} from 'chrome://personalization/trusted/wallpaper_images_element.js';
+import {PersonalizationRouter} from 'decentr://personalization/trusted/personalization_router_element.js';
+import {promisifySendImagesForTesting, WallpaperImages} from 'decentr://personalization/trusted/wallpaper_images_element.js';
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, waitAfterNextRender} from '../../test_util.js';
 import {assertWindowObjectsEqual, baseSetup, initElement, teardownElement} from './personalization_app_test_utils.js';

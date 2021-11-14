@@ -13,7 +13,7 @@
 
 namespace keyboard {
 
-const char kKeyboardURL[] = "chrome://keyboard";
+const char kKeyboardURL[] = "decentr://keyboard";
 const char kKeyboardHost[] = "keyboard";
 
 const webui::ResourcePath* GetKeyboardExtensionResources(size_t* size) {

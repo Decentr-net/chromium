@@ -196,7 +196,7 @@ void IsolatedXRRuntimeProvider::CreateContextProviderAsync(
       base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
           viz_gpu_->GetGpuChannel(), nullptr /* gpu_memory_buffer_manager */,
           content::kGpuStreamIdDefault, content::kGpuStreamPriorityUI,
-          gpu::kNullSurfaceHandle, GURL(std::string("chrome://gpu/XrRuntime")),
+          gpu::kNullSurfaceHandle, GURL(std::string("decentr://gpu/XrRuntime")),
           false /* automatic flushes */, false /* support locking */,
           false /* support grcontext */,
           gpu::SharedMemoryLimits::ForMailboxContext(),

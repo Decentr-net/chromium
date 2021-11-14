@@ -226,7 +226,7 @@
 #
 #   In order to hide sensitive policy values from the user, you can use
 #   'sensitiveValue': True (default 'False') in the associated schema. Those
-#   values will be masked with '********' in the chrome://policy UI and policy
+#   values will be masked with '********' in the decentr://policy UI and policy
 #   exports. 'sensitiveValue' can be applied to all schema types.
 #
 #   For some policies which have complicated schema we add either
@@ -372,7 +372,7 @@
       'caption': '''Startup, Home page and New Tab page''',
       'desc': '''Configure the pages to load on startup, the default home page and the default new tab page in <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> and prevents users from changing them.
 
-      The user's home page settings are only completely locked down if you either select the home page to be the new tab page, or set it to be a URL and specify a home page URL. If you don't specify the home page URL, then the user is still able to set the home page to the new tab page by specifying 'chrome://newtab'.
+      The user's home page settings are only completely locked down if you either select the home page to be the new tab page, or set it to be a URL and specify a home page URL. If you don't specify the home page URL, then the user is still able to set the home page to the new tab page by specifying 'decentr://newtab'.
 
       The policy 'URLs to open on startup' is ignored unless you select 'Open a list of URLs' in 'Action on startup'.''',
       'policies': [
@@ -1342,7 +1342,7 @@
       'id': 2,
       'caption': '''Use New Tab Page as homepage''',
       'tags': [],
-      'desc': '''Setting the policy to Enabled makes the New Tab page the user's homepage, ignoring any homepage URL location. Setting the policy to Disabled means that their homepage is never the New Tab page, unless the user's homepage URL is set to chrome://newtab.
+      'desc': '''Setting the policy to Enabled makes the New Tab page the user's homepage, ignoring any homepage URL location. Setting the policy to Disabled means that their homepage is never the New Tab page, unless the user's homepage URL is set to decentr://newtab.
 
       If you set the policy, users can't change their homepage type in <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph>. If not set, the user decides whether or not the New Tab page is their homepage.
 
@@ -4565,7 +4565,7 @@
       'id': 295,
       'caption': '''Captive portal authentication ignores proxy''',
       'tags': [],
-      'desc': '''Setting the policy to Enabled lets <ph name="PRODUCT_OS_NAME">$2<ex>Google Chrome OS</ex></ph> bypass any proxy for captive portal authentication. These authentication webpages, starting from the captive portal sign-in page until Chrome detects a successful internet connection, open in a separate window, ignoring all policy settings and restrictions for the current user. This policy only takes effect if a proxy is set up (by policy, extension, or the user in chrome://settings).
+      'desc': '''Setting the policy to Enabled lets <ph name="PRODUCT_OS_NAME">$2<ex>Google Chrome OS</ex></ph> bypass any proxy for captive portal authentication. These authentication webpages, starting from the captive portal sign-in page until Chrome detects a successful internet connection, open in a separate window, ignoring all policy settings and restrictions for the current user. This policy only takes effect if a proxy is set up (by policy, extension, or the user in decentr://settings).
 
       Setting the policy to Disabled or leaving it unset means any captive portal authentication pages are shown in a (regular) new browser tab, using the current user's proxy settings.''',
     },
@@ -5103,7 +5103,7 @@
 
       Setting the policy to Disabled removes the browser experimental features icon from the toolbar.
 
-      chrome://flags and any other means of turning off and on browser features will still behave as expected regardless of whether this policy is Enabled or Disabled.'''
+      decentr://flags and any other means of turning off and on browser features will still behave as expected regardless of whether this policy is Enabled or Disabled.'''
     },
     {
       'name': 'GSSAPILibraryName',
@@ -5328,7 +5328,7 @@
 
       The source code of any extension may be altered by users through developer tools, potentially rendering the extension dysfunctional. If this is a concern, set the <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME">DeveloperToolsDisabled</ph> policy.
 
-      Each list item of the policy is a string that contains an extension ID and, optionally, an "update" URL separated by a semicolon (;). The extension ID is the 32-letter string found, for example, on chrome://extensions when in Developer mode. If specified, the "update" URL should point to an Update Manifest XML document ( https://developer.chrome.com/extensions/autoupdate ). By default, the Chrome Web Store's update URL is used. The "update" URL set in this policy is only used for the initial installation; subsequent updates of the extension use the update URL in the extension's manifest.
+      Each list item of the policy is a string that contains an extension ID and, optionally, an "update" URL separated by a semicolon (;). The extension ID is the 32-letter string found, for example, on decentr://extensions when in Developer mode. If specified, the "update" URL should point to an Update Manifest XML document ( https://developer.chrome.com/extensions/autoupdate ). By default, the Chrome Web Store's update URL is used. The "update" URL set in this policy is only used for the initial installation; subsequent updates of the extension use the update URL in the extension's manifest.
 
        Note: This policy doesn't apply to Incognito mode. Read about hosting extensions ( https://developer.chrome.com/extensions/hosting ).''',
       'label': '''Extension/App IDs and update URLs to be silently installed''',
@@ -9266,7 +9266,7 @@
 
       From <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> version 73, you can block javascript://* URLs. However, it affects only JavaScript entered in the address bar (or, for example, bookmarklets). In-page JavaScript URLs with dynamically loaded data aren't subject to this policy. For example, if you block example.com/abc, then example.com can still load example.com/abc using XMLHTTPRequest.
 
-      Note: Blocking internal chrome://* URLs can lead to unexpected errors.''',
+      Note: Blocking internal decentr://* URLs can lead to unexpected errors.''',
       'arc_support': 'Android apps may voluntarily choose to honor this list. You cannot force them to honor it.',
     },
     {
@@ -9332,7 +9332,7 @@
 
       From <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> version 92, this policy is also supported in the headless mode.
 
-      Note: Blocking internal chrome://* URLs can lead to unexpected errors.''',
+      Note: Blocking internal decentr://* URLs can lead to unexpected errors.''',
       'arc_support': 'Android apps may voluntarily choose to honor this list. You cannot force them to honor it.',
     },
     {
@@ -11326,7 +11326,7 @@
         'dynamic_refresh': True,
       },
       'deprecated': True,
-      'example_value': [ 'https://google.com', 'chrome-extension://aaaaaaaaaaaaaaaaaaaaaaaa/' ],
+      'example_value': [ 'https://google.com', 'decentr-extension://aaaaaaaaaaaaaaaaaaaaaaaa/' ],
       'id': 137,
       'caption': '''Load specified urls on demo login''',
       'tags': [],
@@ -16519,7 +16519,7 @@
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS">TimezoneAutomaticDetectionSendWiFiAccessPoints</ph> keeps automatic time zone detection on, continually sending the list of visible Wi-Fi access-points to the Geolocation API server for finer-grained time zone detection.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO">TimezoneAutomaticDetectionSendAllLocationInfo</ph> keeps automatic time zone detection on, continually sending location information (such as Wi-Fi access points, reachable cell towers, GPS) to a server for the most fine-grained time zone detection.
 
-      If not set, set to Let users decide, or set to None, then users control automatic time zone detection using normal controls in chrome://settings.''',
+      If not set, set to Let users decide, or set to None, then users control automatic time zone detection using normal controls in decentr://settings.''',
     },
     {
       'name': 'TaskManagerEndProcessEnabled',
@@ -16745,7 +16745,7 @@
 
       If an app or extension that previously had been force-installed is removed from this list, it is automatically uninstalled by <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph>.
 
-      Each list item of the policy is a string that contains an extension ID and, optionally, an "update" URL separated by a semicolon (<ph name="SEMICOLON">;</ph>). The extension ID is the 32-letter string found e.g. on <ph name="CHROME_EXTENSIONS_LINK">chrome://extensions</ph> when in developer mode. The "update" URL, if specified, should point to an update manifest XML document as described at <ph name="LINK_TO_EXTENSION_DOC1">https://developer.chrome.com/extensions/autoupdate</ph>. By default, the Chrome Web Store's update URL is used (which currently is "https://clients2.google.com/service/update2/crx"). Note that the "update" URL set in this policy is only used for the initial installation; subsequent updates of the extension employ the update URL indicated in the extension's manifest.
+      Each list item of the policy is a string that contains an extension ID and, optionally, an "update" URL separated by a semicolon (<ph name="SEMICOLON">;</ph>). The extension ID is the 32-letter string found e.g. on <ph name="CHROME_EXTENSIONS_LINK">decentr://extensions</ph> when in developer mode. The "update" URL, if specified, should point to an update manifest XML document as described at <ph name="LINK_TO_EXTENSION_DOC1">https://developer.chrome.com/extensions/autoupdate</ph>. By default, the Chrome Web Store's update URL is used (which currently is "https://clients2.google.com/service/update2/crx"). Note that the "update" URL set in this policy is only used for the initial installation; subsequent updates of the extension employ the update URL indicated in the extension's manifest.
 
       For example, <ph name="LOGIN_SCREEN_EXTENSION_POLICY_EXAMPLE">khpfeaanjngmcnplbdlpegiifgpfgdco;https://clients2.google.com/service/update2/crx</ph> installs the <ph name="SMART_CARD_CONNECTOR_APP_NAME">Smart Card Connector</ph> app from the standard Chrome Web Store "update" URL. For more information about hosting extensions, see: <ph name="LINK_TO_EXTENSION_DOC2">https://developer.chrome.com/extensions/hosting</ph>.''',
     },
@@ -17089,7 +17089,7 @@
       'caption': '''URLs for which local IPs are exposed in WebRTC ICE candidates''',
       'tags': [],
       'desc': '''Patterns in this list will be matched against the security origin of the requesting URL.
-      If a match is found or chrome://flags/#enable-webrtc-hide-local-ips-with-mdns is Disabled, the local IP addresses are shown in WebRTC ICE candidates.
+      If a match is found or decentr://flags/#enable-webrtc-hide-local-ips-with-mdns is Disabled, the local IP addresses are shown in WebRTC ICE candidates.
       Otherwise, local IP addresses are concealed with mDNS hostnames.
       Please note that this policy weakens the protection of local IPs if needed by administrators.''',
     },
@@ -19046,7 +19046,7 @@
       'id': 399,
       'caption': '''Require Site Isolation for every site''',
       'tags': ['system-security'],
-      'desc': '''Since <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> 67, site isolation has been enabled by default on all Desktop platforms, causing every site to run in its own process. A site is a scheme plus eTLD+1 (e.g., https://example.com). Setting this policy to Enabled does not change that behavior; it only prevents users from opting out (for example, using Disable site isolation in chrome://flags). Since <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> 76, setting the policy to Disabled or leaving it unset doesn't turn off site isolation, but instead allows users to opt out.
+      'desc': '''Since <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> 67, site isolation has been enabled by default on all Desktop platforms, causing every site to run in its own process. A site is a scheme plus eTLD+1 (e.g., https://example.com). Setting this policy to Enabled does not change that behavior; it only prevents users from opting out (for example, using Disable site isolation in decentr://flags). Since <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph> 76, setting the policy to Disabled or leaving it unset doesn't turn off site isolation, but instead allows users to opt out.
 
       <ph name="ISOLATE_ORIGINS_POLICY_NAME">IsolateOrigins</ph> might also be useful for isolating specific origins at a finer granularity than site (e.g., https://a.example.com).
 
@@ -20483,7 +20483,7 @@
       'id': 441,
       'caption': '''Enable Chrome Cleanup on Windows''',
       'tags': ['system-security'],
-      'desc': '''Setting the policy to Enabled or leaving it unset means Chrome Cleanup periodically scans the system for unwanted software and should any be found, will ask the user if they wish to remove it. Manually triggering Chrome Cleanup from chrome://settings is allowed.
+      'desc': '''Setting the policy to Enabled or leaving it unset means Chrome Cleanup periodically scans the system for unwanted software and should any be found, will ask the user if they wish to remove it. Manually triggering Chrome Cleanup from decentr://settings is allowed.
 
       Setting the policy to Disabled means Chrome Cleanup won't periodically scan and manual triggering is disabled.
 
@@ -22870,12 +22870,12 @@
       'caption': '''Password synchronization between third-party SSO providers and Chrome devices''',
       'desc': '''Enables SAML password sync between multiple Chrome devices by monitoring the value of password sync token and sending a user through the online re-authentication if password was updated and needs to be synchronized.
 
-      Enables a page at chrome://password-change that lets SAML users change their SAML passwords while in-session, which ensures that the SAML password and the device lockscreen password are kept in-sync.
+      Enables a page at decentr://password-change that lets SAML users change their SAML passwords while in-session, which ensures that the SAML password and the device lockscreen password are kept in-sync.
 
       This policy also enables notifications that warn SAML users if their SAML passwords are soon to expire so that they can deal with this immediately by doing an in-session password change.
       But, these notifications will only be shown if password expiry information is sent to the device by the SAML identity provider during the SAML login flow.
 
-      Setting this policy to Disabled or not set, SAML password can't be changed at chrome://password-change and there won't be any notification when SAML passwords are soon to expire.''',
+      Setting this policy to Disabled or not set, SAML password can't be changed at decentr://password-change and there won't be any notification when SAML passwords are soon to expire.''',
     },
     {
       'name': 'LockScreenReauthenticationEnabled',
@@ -25186,7 +25186,7 @@
       },
       'example_value': {
         'url_list': [
-          "chrome://*",
+          "decentr://*",
           "file://*",
           "https://www.support.google.com",
           "https://www.policies.google.com"
@@ -25259,7 +25259,7 @@
       },
       'example_value': {
         'url_list': [
-          "chrome://*",
+          "decentr://*",
           "file://*",
           "https://www.support.google.com",
           "https://www.policies.google.com"
@@ -25311,9 +25311,9 @@
       'example_value': True,
       'default': True,
       'id': 662,
-      'caption': '''Enable <ph name="CHROME_DEVICES_LINK">chrome://devices</ph>''',
+      'caption': '''Enable <ph name="CHROME_DEVICES_LINK">decentr://devices</ph>''',
       'tags': [],
-      'desc': '''This policy controls access to controllable features in the local discovery UI (<ph name="CHROME_DEVICES_LINK">chrome://devices</ph>) which shows discoverable devices near the user as well as cloud devices registered to them. On all operating systems except for <ph name="PRODUCT_OS_NAME">$2<ex>Google Chrome OS</ex></ph>, the local discovery UI also allows users to add classic printers connected to their computers to <ph name="CLOUD_PRINT_NAME">Google Cloud Print</ph>.
+      'desc': '''This policy controls access to controllable features in the local discovery UI (<ph name="CHROME_DEVICES_LINK">decentr://devices</ph>) which shows discoverable devices near the user as well as cloud devices registered to them. On all operating systems except for <ph name="PRODUCT_OS_NAME">$2<ex>Google Chrome OS</ex></ph>, the local discovery UI also allows users to add classic printers connected to their computers to <ph name="CLOUD_PRINT_NAME">Google Cloud Print</ph>.
 
       Setting the policy to Enabled or not set allow local device discovery.
 
@@ -27328,7 +27328,7 @@ If you disable this policy, web page scrolling to specific text fragments via UR
       'tags': [],
       'desc': '''This policy allows admins to configure the order of the preferred languages in <ph name="PRODUCT_NAME">$1<ex>Google Chrome</ex></ph>'s settings.
 
-      The order of the list will appear in the same order under the "Order languages based on your preference" section in chrome://settings/languages. Users won't be able to remove or reorder languages set by the policy, but will be able to add languages underneath those set by the policy. Users will also have full control over the browser's UI language and translation/spell check settings, unless enforced by other policies.
+      The order of the list will appear in the same order under the "Order languages based on your preference" section in decentr://settings/languages. Users won't be able to remove or reorder languages set by the policy, but will be able to add languages underneath those set by the policy. Users will also have full control over the browser's UI language and translation/spell check settings, unless enforced by other policies.
 
       Leaving the policy unset lets users manipulate the entire list of preferred languages.''',
     },

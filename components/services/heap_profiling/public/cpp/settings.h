@@ -36,7 +36,7 @@ enum class Mode {
   kAllRenderers = 6,
 
   // By default, profile no processes. User may choose to start profiling for
-  // processes via chrome://memory-internals.
+  // processes via decentr://memory-internals.
   kManual = 7,
 
   // Each utility process has a fixed probability of being profiled at startup.

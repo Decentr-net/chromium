@@ -1412,7 +1412,7 @@
 <translation id="2431027948063157455">Google Assistant ল’ড কৰিব পৰা নগ’ল, অনুগ্ৰহ কৰি আপোনাৰ নেটৱর্ক সংযোগ পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক।</translation>
 <translation id="243179355394256322">আপোনাৰ প্ৰতিষ্ঠানে ডিভাইচৰ পঞ্জীয়ন কেৱল কৰ্তৃত্ব থকা ব্যৱহাৰকাৰীৰ মাজত সীমিত কৰিছে। এই ব্যৱহাৰকাৰী গৰাকীৰ ডিভাইচ পঞ্জীয়ন কৰিবলৈ কৰ্তৃত্ব নাই। অনুগ্ৰহ কৰি প্ৰশাসকৰ কনছ’লৰ ব্যৱহাৰকাৰীৰ শাখাটোত ব্যৱহাৰকাৰী গৰাকীৰ "Google Meetৰ হাৰ্ডৱেৰ পঞ্জীয়ন কৰক" প্ৰশাসকীয় বিশেষ সুবিধা থকাটো নিশ্চিত কৰক।</translation>
 <translation id="243275146591958220">ডাউনল’ড বাতিল কৰক</translation>
-<translation id="2433452467737464329">পৃষ্ঠাটো স্বয়ংক্ৰিয়ভাৱে ৰিফ্রে’শ্ব কৰিবলৈ URLত সন্ধানৰ এটা পৰম যোগ কৰক: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">পৃষ্ঠাটো স্বয়ংক্ৰিয়ভাৱে ৰিফ্রে’শ্ব কৰিবলৈ URLত সন্ধানৰ এটা পৰম যোগ কৰক: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">ৰূপ</translation>
 <translation id="2433836460518180625">কেৱল ডিভাইচহে আনলক কৰক</translation>
 <translation id="2434449159125086437">প্ৰিণ্টাৰ ছেট আপ কৰিব পৰা নাই। অনুগ্ৰহ কৰি কনফিগাৰেশ্বন পৰীক্ষা কৰি পুনৰ চেষ্টা কৰক।</translation>
@@ -1940,7 +1940,7 @@
 <translation id="2959127025785722291">কিবা ভুল হ’ল। স্কেন সম্পূর্ণ কৰিব পৰা নগ’ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।</translation>
 <translation id="2959842337402130152">ষ্ট’ৰেজত ঠাই নোহোৱাৰ বাবে পুনঃস্থাপন কৰিব নোৱাৰি। ডিভাইচটোৰ পৰা <ph name="SPACE_REQUIRED" /> খালী কৰক আৰু পুনৰ চেষ্টা কৰক।</translation>
 <translation id="2960208947600937804">Linux কনফিগাৰ কৰি থাকোঁতে এটা আসোঁৱাহ হৈছে। আপোনাৰ প্ৰশাসকৰ সৈতে যোগাযোগ কৰক।</translation>
-<translation id="296026337010986570">হ’ল! ক্ষতিকাৰক ছফ্টৱেৰ আঁতৰোৱা হ’ল। এক্সটেনশ্বন পুনৰাই অন কৰিবলৈ &lt;a href="chrome://extensions"&gt;Extensions&lt;/a&gt;লৈ যাওক।</translation>
+<translation id="296026337010986570">হ’ল! ক্ষতিকাৰক ছফ্টৱেৰ আঁতৰোৱা হ’ল। এক্সটেনশ্বন পুনৰাই অন কৰিবলৈ &lt;a href="decentr://extensions"&gt;Extensions&lt;/a&gt;লৈ যাওক।</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (এক্সটেনশ্বন প্ৰদান কৰা হৈছে)</translation>
 <translation id="2961210776189273067">শিৰোনাম</translation>
 <translation id="2961695502793809356">আগলৈ যাবলৈ ক্লিক কৰক, ইতিহাস চাবলৈ ধৰি ৰাখক</translation>
@@ -4941,7 +4941,7 @@
 <translation id="6227280783235722609">এক্সটেনশ্বন</translation>
 <translation id="6229849828796482487">ৱাই-ফাই নেটৱৰ্কৰ সংযোগ বিচ্ছিন্ন কৰক</translation>
 <translation id="6231782223312638214">পৰামৰ্শিত</translation>
-<translation id="6231881193380278751">পৃষ্ঠাটো স্বয়ংক্ৰিয়ভাৱে ৰিফ্রে’শ্ব কৰিবলৈ সন্ধানৰ এটা পৰম যোগ কৰক: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">পৃষ্ঠাটো স্বয়ংক্ৰিয়ভাৱে ৰিফ্রে’শ্ব কৰিবলৈ সন্ধানৰ এটা পৰম যোগ কৰক: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">বেটাৰী</translation>
 <translation id="6232116551750539448"><ph name="NAME" />ৰ সৈতে সংযোগ বিচ্ছিন্ন হৈছে</translation>
 <translation id="6233154960150021497">ডিফ'ল্ট হৈছে কীব'ৰ্ডৰ পৰিৱৰ্তে কণ্ঠধ্বনিৰ ব্যৱহাৰ কৰা</translation>

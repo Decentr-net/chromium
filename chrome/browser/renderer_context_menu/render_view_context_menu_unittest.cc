@@ -460,7 +460,7 @@ class RenderViewContextMenuPrefsTest : public ChromeRenderViewHostTestHarness {
     return ::CreateContextMenu(web_contents(), registry_.get());
   }
 
-  // Returns a test context menu for a chrome:// url not permitted to open in
+  // Returns a test context menu for a decentr:// url not permitted to open in
   // incognito mode.
   std::unique_ptr<TestRenderViewContextMenu> CreateContextMenuOnChromeLink() {
     content::ContextMenuParams params = CreateParams(MenuItem::LINK);

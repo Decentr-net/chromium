@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrDrawerElement} from 'chrome://resources/cr_elements/cr_drawer/cr_drawer.js';
+import {CrDrawerElement} from 'decentr://resources/cr_elements/cr_drawer/cr_drawer.js';
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertThrows, assertTrue} from '../chai_assert.js';
 import {eventToPromise} from '../test_util.js';

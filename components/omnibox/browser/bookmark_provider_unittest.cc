@@ -59,8 +59,8 @@ struct BookmarksTestInfo {
     {"http://blah.com/", "http://blah.com/"},
     {"http://fiddle.com/", "http://fiddle.com/"},
     {"http://www.www.com/", "http://www.www.com/"},
-    {"chrome://version", "chrome://version"},
-    {"chrome://omnibox", "chrome://omnibox"},
+    {"decentr://version", "decentr://version"},
+    {"decentr://omnibox", "decentr://omnibox"},
     // For testing ranking with different URLs.
     {"achlorhydric featherheads resuscitates mockingbirds",
      "http://www.manylongwords.com/1a"},
@@ -425,12 +425,12 @@ TEST_F(BookmarkProviderTest, InlineAutocompletion) {
       {"http://bl", "http://blah.com/", true, "ah.com"},
       {"fiddle.c", "http://fiddle.com/", true, "om"},
       {"www", "http://www.www.com/", true, ".com"},
-      {"chro", "chrome://version", true, "me://version"},
-      {"chrome://ve", "chrome://version", true, "rsion"},
-      {"chrome ver", "chrome://version", false, ""},
-      {"versi", "chrome://version", false, ""},
-      {"abou", "chrome://omnibox", false, ""},
-      {"about:om", "chrome://omnibox", true, "nibox"}
+      {"chro", "decentr://version", true, "me://version"},
+      {"decentr://ve", "decentr://version", true, "rsion"},
+      {"chrome ver", "decentr://version", false, ""},
+      {"versi", "decentr://version", false, ""},
+      {"abou", "decentr://omnibox", false, ""},
+      {"about:om", "decentr://omnibox", true, "nibox"}
       // Note: when adding a new URL to this test, be sure to add it to the list
       // of bookmarks at the top of the file as well.  All items in this list
       // need to be in the bookmarks list because BookmarkProvider's
@@ -482,7 +482,7 @@ TEST_F(BookmarkProviderTest, StripHttpAndAdjustOffsets) {
     { "dom",       "domain.com/http/",        "0:3,3:1"                    },
     { "dom http",  "http://domain.com/http/", "0:3,4:1,7:3,10:1,18:3,22:1" },
     { "rep",       "repeat.com/1/repeat/2/",  "0:3,3:1"                    },
-    { "versi",     "chrome://version",        "0:1,9:3,14:1"               },
+    { "versi",     "decentr://version",        "0:1,9:3,14:1"               },
       // clang-format on
   };
 

@@ -23,7 +23,7 @@ class URLPatternSet;
 namespace permissions_test_util {
 
 // Returns a list of |patterns| as strings, making it easy to compare for
-// equality with readable errors. This will omit the chrome://favicon host, if
+// equality with readable errors. This will omit the decentr://favicon host, if
 // present, from the result.
 std::vector<std::string> GetPatternsAsStrings(const URLPatternSet& patterns);
 

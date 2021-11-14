@@ -8,8 +8,8 @@
  */
 
 // clang-format off
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {addSingletonGetter, sendWithPromise} from 'chrome://resources/js/cr.m.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {addSingletonGetter, sendWithPromise} from 'decentr://resources/js/cr.m.js';
 // clang-format on
 
 /**

@@ -104,19 +104,19 @@ IN_PROC_BROWSER_TEST_F(ContentSettingBubbleModelMediaStreamTest,
 
   // The microphone bubble links to microphone exceptions.
   ManageMediaStreamSettings(PageSpecificContentSettings::MICROPHONE_ACCESSED);
-  EXPECT_EQ(GURL("chrome://settings/contentExceptions#media-stream-mic"),
+  EXPECT_EQ(GURL("decentr://settings/contentExceptions#media-stream-mic"),
             GetActiveTab()->GetLastCommittedURL());
 
   // The bubble for both media devices links to the the first section of the
   // default media content settings, which is the microphone section.
   ManageMediaStreamSettings(PageSpecificContentSettings::MICROPHONE_ACCESSED |
                             PageSpecificContentSettings::CAMERA_ACCESSED);
-  EXPECT_EQ(GURL("chrome://settings/content#media-stream-mic"),
+  EXPECT_EQ(GURL("decentr://settings/content#media-stream-mic"),
             GetActiveTab()->GetLastCommittedURL());
 
   // The camera bubble links to camera exceptions.
   ManageMediaStreamSettings(PageSpecificContentSettings::CAMERA_ACCESSED);
-  EXPECT_EQ(GURL("chrome://settings/contentExceptions#media-stream-camera"),
+  EXPECT_EQ(GURL("decentr://settings/contentExceptions#media-stream-camera"),
             GetActiveTab()->GetLastCommittedURL());
 }
 

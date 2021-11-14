@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {beforeNextRender} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {beforeNextRender} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import { MinimumRoutes,Route, Router} from '../../router.js';
 import {ensureLazyLoaded} from '../ensure_lazy_loaded.m.js';

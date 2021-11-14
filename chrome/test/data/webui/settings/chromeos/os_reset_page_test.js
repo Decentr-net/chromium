@@ -4,15 +4,15 @@
 
 // clang-format off
 // #import {TestLifetimeBrowserProxy} from './test_os_lifetime_browser_proxy.m.js';
-// #import {OsResetBrowserProxyImpl} from 'chrome://os-settings/chromeos/lazy_load.js';
-// #import {LifetimeBrowserProxyImpl, Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {OsResetBrowserProxyImpl} from 'decentr://os-settings/chromeos/lazy_load.js';
+// #import {LifetimeBrowserProxyImpl, Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {TestOsResetBrowserProxy} from './test_os_reset_browser_proxy.m.js';
-// #import {setESimManagerRemoteForTesting} from 'chrome://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
-// #import {FakeESimManagerRemote} from 'chrome://test/cr_components/chromeos/cellular_setup/fake_esim_manager_remote.m.js';
+// #import {setESimManagerRemoteForTesting} from 'decentr://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
+// #import {FakeESimManagerRemote} from 'decentr://test/cr_components/chromeos/cellular_setup/fake_esim_manager_remote.m.js';
 // #import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 cr.define('settings_reset_page', function() {

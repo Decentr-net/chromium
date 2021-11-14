@@ -24,7 +24,7 @@ public final class UrlFormatter {
      *
      * Given a URL-like string, returns a possibly-invalid GURL. For example:
      *  - "google.com" -> "http://google.com/"
-     *  - "about:" -> "chrome://version/"
+     *  - "about:" -> "decentr://version/"
      *  - "//mail.google.com:/" -> "file:///mail.google.com:/"
      *  - "0x100.0" -> "http://0x100.0/" (invalid)
      */

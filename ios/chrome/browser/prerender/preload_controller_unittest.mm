@@ -126,7 +126,7 @@ TEST_F(PreloadControllerTest, DontPreloadNonWebURLs) {
 
   // Attempt to prerender the NTP and verify that no WebState was created
   // to preload.
-  [controller_ prerenderURL:GURL("chrome://newtab")
+  [controller_ prerenderURL:GURL("decentr://newtab")
                    referrer:kReferrer
                  transition:kTransition
             currentWebState:nil

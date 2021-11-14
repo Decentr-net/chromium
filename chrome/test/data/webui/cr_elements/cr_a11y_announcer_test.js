@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CrA11yAnnouncerElement, TIMEOUT_MS} from 'chrome://resources/cr_elements/cr_a11y_announcer/cr_a11y_announcer.js';
+import {CrA11yAnnouncerElement, TIMEOUT_MS} from 'decentr://resources/cr_elements/cr_a11y_announcer/cr_a11y_announcer.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 

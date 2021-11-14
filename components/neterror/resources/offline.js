@@ -122,7 +122,7 @@ const IS_MOBILE = /Android/.test(window.navigator.userAgent) || IS_IOS;
 const IS_RTL = document.querySelector('html').dir == 'rtl';
 
 /** @const */
-const ARCADE_MODE_URL = 'chrome://dino/';
+const ARCADE_MODE_URL = 'decentr://dino/';
 
 /** @const */
 const RESOURCE_POSTFIX = 'offline-resources-';

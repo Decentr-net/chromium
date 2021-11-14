@@ -5,7 +5,7 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
   // Look for an existing tab for the extensions page before opening a new one.
   chrome.tabs.getAllInWindow(null, function(tabs) {
-    var chromeExtUrl = "chrome://extensions/";
+    var chromeExtUrl = "decentr://extensions/";
     for (var i = 0; i < tabs.length; i++) {
       if (tabs[i].url == chromeExtUrl){
         chrome.tabs.update(tabs[i].id, {selected: true});

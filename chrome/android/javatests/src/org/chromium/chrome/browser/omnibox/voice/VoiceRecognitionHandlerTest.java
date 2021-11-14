@@ -961,7 +961,7 @@ public class VoiceRecognitionHandlerTest {
     public void testStartVoiceRecognition_OmitPageUrlForInternalPages() {
         doReturn(true).when(mAssistantVoiceSearchService).canRequestAssistantVoiceSearch();
         doReturn(true).when(mAssistantVoiceSearchService).shouldRequestAssistantVoiceSearch();
-        GURL url = new GURL("chrome://version");
+        GURL url = new GURL("decentr://version");
         doReturn(url).when(mTab).getUrl();
 
         startVoiceRecognition(VoiceInteractionSource.TOOLBAR);

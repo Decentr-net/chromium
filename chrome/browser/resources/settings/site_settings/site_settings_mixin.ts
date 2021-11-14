@@ -7,8 +7,8 @@
  */
 
 // clang-format off
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {dedupingMixin, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {dedupingMixin, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {ContentSetting,ContentSettingsTypes, SiteSettingSource} from './constants.js';
 import {RawSiteException,SiteException,SiteSettingsPrefsBrowserProxy,SiteSettingsPrefsBrowserProxyImpl} from './site_settings_prefs_browser_proxy.js';
 // clang-format on

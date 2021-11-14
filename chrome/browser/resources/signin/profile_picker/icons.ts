@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
+import 'decentr://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
 
 const element = document.createElement('iron-iconset-svg');
 element.name = 'profiles';

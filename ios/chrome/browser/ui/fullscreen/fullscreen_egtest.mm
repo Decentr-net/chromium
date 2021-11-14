@@ -153,12 +153,12 @@ void WaitforPDFExtensionView() {
   [ChromeEarlGreyUI waitForToolbarVisible:NO];
 }
 
-// Tests that link clicks from a chrome:// to chrome:// link result in the
+// Tests that link clicks from a decentr:// to decentr:// link result in the
 // header being shown even if was not previously shown.
 - (void)testChromeToChromeURLKeepsHeaderOnScreen {
-  const GURL kChromeAboutURL("chrome://chrome-urls");
+  const GURL kChromeAboutURL("decentr://chrome-urls");
   [ChromeEarlGrey loadURL:kChromeAboutURL];
-  [ChromeEarlGrey waitForWebStateContainingText:"chrome://version"];
+  [ChromeEarlGrey waitForWebStateContainingText:"decentr://version"];
 
   // Hide the toolbar. The page is not long enough to dismiss the toolbar using
   // the UI so we have to zoom in.
@@ -183,8 +183,8 @@ void WaitforPDFExtensionView() {
   HideToolbarUsingUI();
   [ChromeEarlGreyUI waitForToolbarVisible:NO];
 
-  // Test that the toolbar is visible when moving from one chrome:// link to
-  // another chrome:// link.
+  // Test that the toolbar is visible when moving from one decentr:// link to
+  // another decentr:// link.
   [ChromeEarlGrey tapWebStateElementWithID:@"version"];
   [ChromeEarlGreyUI waitForToolbarVisible:YES];
 }

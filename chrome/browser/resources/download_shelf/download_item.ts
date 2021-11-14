@@ -6,13 +6,13 @@
  * @fileoverview UI element of a download item.
  */
 
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
 import './strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {CustomElement} from 'chrome://resources/js/custom_element.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {CustomElement} from 'decentr://resources/js/custom_element.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {DownloadItem, DownloadMode, DownloadState} from './download_shelf.mojom-webui.js';
 import {DownloadShelfApiProxy, DownloadShelfApiProxyImpl} from './download_shelf_api_proxy.js';

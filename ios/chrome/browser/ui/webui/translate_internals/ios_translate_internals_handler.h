@@ -19,7 +19,7 @@ class WebState;
 
 class AllWebStateListObservationRegistrar;
 
-// The handler for JavaScript messages for chrome://translate-internals.
+// The handler for JavaScript messages for decentr://translate-internals.
 class IOSTranslateInternalsHandler
     : public translate::TranslateInternalsHandler,
       public web::WebUIIOSMessageHandler,

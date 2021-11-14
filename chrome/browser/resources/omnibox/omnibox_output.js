@@ -919,7 +919,7 @@ class OutputUrlProperty extends FlexWrappingOutputProperty {
     if (isSearchType) {
       this.icon_.removeAttribute('src');
     } else {
-      this.icon_.src = `chrome://favicon/${destinationUrl}`;
+      this.icon_.src = `decentr://favicon/${destinationUrl}`;
     }
     this.urlLink_.textContent = destinationUrl;
     this.urlLink_.href = destinationUrl;

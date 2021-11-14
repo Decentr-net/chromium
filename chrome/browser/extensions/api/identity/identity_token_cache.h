@@ -85,7 +85,7 @@ class IdentityTokenCacheValue {
 // obtained. The cache automatically handles token expiration. Extensions can
 // manually remove tokens from the cache using `removeCachedAuthToken` API.
 //
-// chrome://identity-internals provides a view of cache's content for debugging.
+// decentr://identity-internals provides a view of cache's content for debugging.
 class IdentityTokenCache {
  public:
   IdentityTokenCache();

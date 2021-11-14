@@ -225,13 +225,13 @@
       {
         "name": "openSettings",
         "type": "function",
-        "description": "Opens chrome://os-settings/osLanguages page.",
+        "description": "Opens decentr://os-settings/osLanguages page.",
         "parameters": []
       },
       {
         "name": "openSuggestionSettings",
         "type": "function",
-        "description": "Opens chrome://os-settings/osLanguages/smartInputs page.",
+        "description": "Opens decentr://os-settings/osLanguages/smartInputs page.",
         "parameters": []
       },
       {

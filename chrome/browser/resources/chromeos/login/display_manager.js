@@ -6,10 +6,10 @@
  * @fileoverview Display manager for WebUI OOBE and login.
  */
 
-// #import {assert} from 'chrome://resources/js/assert.m.js';
-// #import {$, ensureTransitionEndEvent} from 'chrome://resources/js/util.m.js';
-// #import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-// #import {toCssPx} from 'chrome://resources/js/cr/ui.m.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
+// #import {$, ensureTransitionEndEvent} from 'decentr://resources/js/util.m.js';
+// #import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+// #import {toCssPx} from 'decentr://resources/js/cr/ui.m.js';
 // #import {loadTimeData} from './i18n_setup.js';
 // #import {OobeTypes} from './components/oobe_types.m.js';
 

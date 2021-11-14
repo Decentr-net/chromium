@@ -3,17 +3,17 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/lazy_load.js';
+// #import 'decentr://os-settings/chromeos/lazy_load.js';
 
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-// #import {flush} from'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+// #import {flush} from'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
-// #import {assert} from 'chrome://resources/js/assert.m.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-// #import {SecureDnsMode, SecureDnsUiManagementMode, Router, routes, PeripheralDataAccessBrowserProxyImpl, DataAccessPolicyState} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+// #import {SecureDnsMode, SecureDnsUiManagementMode, Router, routes, PeripheralDataAccessBrowserProxyImpl, DataAccessPolicyState} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {FakeQuickUnlockPrivate} from './fake_quick_unlock_private.m.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 const crosSettingPrefName = 'cros.device.peripheral_data_access_enabled';

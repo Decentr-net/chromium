@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {Command} from 'chrome://resources/js/cr/ui/command.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {Command} from 'decentr://resources/js/cr/ui/command.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {DialogType} from '../../common/js/dialog_type.js';
 import {metrics} from '../../common/js/metrics.js';

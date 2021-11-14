@@ -13,7 +13,7 @@
 
 namespace notifications {
 
-// The client used in chrome://notifications-internals for debugging purposes.
+// The client used in decentr://notifications-internals for debugging purposes.
 class WebUIClient : public NotificationSchedulerClient {
  public:
   WebUIClient();

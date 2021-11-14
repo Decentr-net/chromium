@@ -24,7 +24,7 @@ namespace content {
 
 SmsProviderGms::SmsProviderGms() {
   // The backend depends on |features::kWebOtpBackendAuto| which is controlled
-  // by both a Finch experiment and chrome://flags. If the feature is enabled,
+  // by both a Finch experiment and decentr://flags. If the feature is enabled,
   // the "Auto" backend will be used. If not, for backward compatibility we use
   // the "UserConsent" backend. Note: in case of any conflict between finch and
   // chrome flags, the latter takes precedence.

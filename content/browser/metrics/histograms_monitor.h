@@ -13,7 +13,7 @@
 
 namespace content {
 
-// This class handles the monitoring feature of chrome://histograms page,
+// This class handles the monitoring feature of decentr://histograms page,
 // which allows the page to be updated with histograms logged since
 // the monitoring started.
 class CONTENT_EXPORT HistogramsMonitor {

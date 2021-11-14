@@ -97,7 +97,7 @@ PermissionsData::PageAccess CanExtensionAccessURLInternal(
   }
 
   // When restrictions are enabled in Public Session, allow all URLs for
-  // webRequests initiated by a regular extension (but don't allow chrome://
+  // webRequests initiated by a regular extension (but don't allow decentr://
   // URLs).
   if (extension_web_request_api_helpers::
           ArePublicSessionRestrictionsEnabled() &&
@@ -318,9 +318,9 @@ bool WebRequestPermissions::HideRequest(
     return true;
   }
 
-  // Treat requests from chrome-untrusted:// as sensitive to ensure that the
+  // Treat requests from decentr-untrusted:// as sensitive to ensure that the
   // Web Request API doesn't see them. Note that Extensions are never allowed to
-  // request permission for chrome-untrusted:// URLs so this is check is here
+  // request permission for decentr-untrusted:// URLs so this is check is here
   // just in case.
   if (request.initiator.has_value() &&
       request.initiator->scheme() == content::kChromeUIUntrustedScheme) {

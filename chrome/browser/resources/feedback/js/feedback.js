@@ -200,11 +200,11 @@ function setupLinkHandlers(anchorElement, url, useAppWindow) {
 }
 
 /**
- * Opens a new window with chrome://slow_trace, downloading performance data.
+ * Opens a new window with decentr://slow_trace, downloading performance data.
  */
 function openSlowTraceWindow() {
   chrome.app.window.create(
-      'chrome://slow_trace/tracing.zip#' + feedbackInfo.traceId);
+      'decentr://slow_trace/tracing.zip#' + feedbackInfo.traceId);
 }
 
 /**
@@ -651,7 +651,7 @@ function initialize() {
         if (histogramUrlElement) {
           // Opens a new window showing the histogram metrics.
           setupLinkHandlers(
-              histogramUrlElement, 'chrome://histograms',
+              histogramUrlElement, 'decentr://histograms',
               true /* useAppWindow */);
         }
 

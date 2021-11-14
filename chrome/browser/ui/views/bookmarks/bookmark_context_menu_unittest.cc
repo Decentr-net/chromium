@@ -107,7 +107,7 @@ class BookmarkContextMenuTest : public testing::Test {
   // a
   // F1
   //  f1a
-  // -f1b as "chrome://settings"
+  // -f1b as "decentr://settings"
   //  F11
   //   f11a
   // F2

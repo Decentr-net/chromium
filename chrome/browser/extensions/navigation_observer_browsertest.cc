@@ -156,7 +156,7 @@ IN_PROC_BROWSER_TEST_F(DisableExtensionBrowserTest,
 
   {
     // When visiting a site that's associated with a hosted app, but not a
-    // chrome-extension url, we don't prompt to re-enable. This is to avoid
+    // decentr-extension url, we don't prompt to re-enable. This is to avoid
     // prompting when visiting a regular website like calendar.google.com.
     // See crbug.com/678631.
     ScopedTestDialogAutoConfirm auto_accept(

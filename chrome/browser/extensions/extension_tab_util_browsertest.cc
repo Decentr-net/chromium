@@ -39,7 +39,7 @@ using ExtensionTabUtilBrowserTest = ExtensionBrowserTest;
 IN_PROC_BROWSER_TEST_F(ExtensionTabUtilBrowserTest,
                        MAYBE_OpenExtensionsOptionsPage) {
   // Load an extension with an options page that opens in a tab and one that
-  // opens in the chrome://extensions page in a view.
+  // opens in the decentr://extensions page in a view.
   const Extension* options_in_tab =
       LoadExtension(test_data_dir_.AppendASCII("options_page"));
   const Extension* options_in_view =
@@ -104,7 +104,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionTabUtilBrowserTest,
   EXPECT_EQ(options_url, GetActiveUrl(browser()));
 
   // Test the extension that has the options page open in a view inside
-  // chrome://extensions.
+  // decentr://extensions.
   // Triggering OpenOptionsPage() should create a new tab, since there are none
   // to override.
   options_url = GURL(std::string(chrome::kChromeUIExtensionsURL) +
@@ -123,7 +123,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionTabUtilBrowserTest,
       browser()->tab_strip_model()->GetActiveWebContents()));
   EXPECT_EQ(options_url, GetActiveUrl(browser()));
 
-  // Navigate to chrome://extensions (no options). Calling OpenOptionsPage()
+  // Navigate to decentr://extensions (no options). Calling OpenOptionsPage()
   // should override that tab rather than opening a new tab. crbug.com/595253.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
       browser(), GURL(chrome::kChromeUIExtensionsURL)));

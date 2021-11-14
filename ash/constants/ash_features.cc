@@ -932,7 +932,7 @@ const base::Feature kReleaseNotesSuggestionChip{
     "ReleaseNotesSuggestionChip", base::FEATURE_ENABLED_BY_DEFAULT};
 
 // Enables or disables Reven Log Source on Chrome OS. This adds hardware
-// information to Feedback reports and chrome://system on CloudReady systems.
+// information to Feedback reports and decentr://system on CloudReady systems.
 const base::Feature kRevenLogSource{"RevenLogSource",
                                     base::FEATURE_ENABLED_BY_DEFAULT};
 
@@ -1151,7 +1151,7 @@ const base::Feature kVirtualKeyboardMultipaste{
 const base::Feature kVirtualKeyboardMultipasteSuggestion{
     "VirtualKeyboardMultipasteSuggestion", base::FEATURE_DISABLED_BY_DEFAULT};
 
-// Enable or disable the chrome://vm page
+// Enable or disable the decentr://vm page
 const base::Feature kVmStatusPage{"VmStatusPage",
                                   base::FEATURE_ENABLED_BY_DEFAULT};
 

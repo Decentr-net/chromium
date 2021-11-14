@@ -135,7 +135,7 @@ class SyncEngineTest : public testing::Test,
 };
 
 TEST_F(SyncEngineTest, OriginTest) {
-  GURL origin("chrome-extension://app_0");
+  GURL origin("decentr-extension://app_0");
 
   SyncStatusCode sync_status;
   std::string status;
@@ -177,12 +177,12 @@ TEST_F(SyncEngineTest, OriginTest) {
 TEST_F(SyncEngineTest, GetOriginStatusMap) {
   SyncStatusCode sync_status = SYNC_STATUS_UNKNOWN;
 
-  sync_engine()->RegisterOrigin(GURL("chrome-extension://app_0"),
+  sync_engine()->RegisterOrigin(GURL("decentr-extension://app_0"),
                                 CreateResultReceiver(&sync_status));
   WaitForWorkerTaskRunner();
   EXPECT_EQ(SYNC_STATUS_OK, sync_status);
 
-  sync_engine()->RegisterOrigin(GURL("chrome-extension://app_1"),
+  sync_engine()->RegisterOrigin(GURL("decentr-extension://app_1"),
                                 CreateResultReceiver(&sync_status));
   WaitForWorkerTaskRunner();
   EXPECT_EQ(SYNC_STATUS_OK, sync_status);
@@ -191,10 +191,10 @@ TEST_F(SyncEngineTest, GetOriginStatusMap) {
   sync_engine()->GetOriginStatusMap(CreateResultReceiver(&status_map));
   WaitForWorkerTaskRunner();
   ASSERT_EQ(2u, status_map->size());
-  EXPECT_EQ("Registered", (*status_map)[GURL("chrome-extension://app_0")]);
-  EXPECT_EQ("Registered", (*status_map)[GURL("chrome-extension://app_1")]);
+  EXPECT_EQ("Registered", (*status_map)[GURL("decentr-extension://app_0")]);
+  EXPECT_EQ("Registered", (*status_map)[GURL("decentr-extension://app_1")]);
 
-  sync_engine()->DisableOrigin(GURL("chrome-extension://app_1"),
+  sync_engine()->DisableOrigin(GURL("decentr-extension://app_1"),
                                CreateResultReceiver(&sync_status));
   WaitForWorkerTaskRunner();
   EXPECT_EQ(SYNC_STATUS_OK, sync_status);
@@ -202,8 +202,8 @@ TEST_F(SyncEngineTest, GetOriginStatusMap) {
   sync_engine()->GetOriginStatusMap(CreateResultReceiver(&status_map));
   WaitForWorkerTaskRunner();
   ASSERT_EQ(2u, status_map->size());
-  EXPECT_EQ("Registered", (*status_map)[GURL("chrome-extension://app_0")]);
-  EXPECT_EQ("Disabled", (*status_map)[GURL("chrome-extension://app_1")]);
+  EXPECT_EQ("Registered", (*status_map)[GURL("decentr-extension://app_0")]);
+  EXPECT_EQ("Disabled", (*status_map)[GURL("decentr-extension://app_1")]);
 }
 
 TEST_F(SyncEngineTest, UpdateServiceState) {

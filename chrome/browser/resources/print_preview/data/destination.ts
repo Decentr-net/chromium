@@ -4,9 +4,9 @@
 
 import '../strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS, isLacros} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS, isLacros} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 // <if expr="chromeos or lacros">
 import {NativeLayerCrosImpl} from '../native_layer_cros.js';

@@ -107,7 +107,7 @@ in JSON.  As such, it will probably not be well-formed until you have called the
 `stopNetLog()` method, as filesystem buffers will not have been flushed.
 
 Retrieve the file from your device's file system, and import it to chrome
-browser at chrome://net-internals/#import, or
+browser at decentr://net-internals/#import, or
 http://catapult-project.github.io/catapult/netlog_viewer which helps to
 visualize the data.
 

@@ -108,7 +108,7 @@ class ChildProcessSecurityPolicyTest : public testing::Test {
   void SetUp() override {
     old_browser_client_ = SetBrowserClientForTesting(&test_browser_client_);
 
-    // Claim to always handle chrome:// URLs because the CPSP's notion of
+    // Claim to always handle decentr:// URLs because the CPSP's notion of
     // allowing WebUI bindings is hard-wired to this particular scheme.
     test_browser_client_.AddScheme(kChromeUIScheme);
 
@@ -648,7 +648,7 @@ TEST_F(ChildProcessSecurityPolicyTest, GoogleChromeScheme) {
 
   p->AddForTesting(kRendererID, browser_context());
 
-  GURL test_url("googlechrome://whatever");
+  GURL test_url("googledecentr://whatever");
 
   EXPECT_FALSE(p->CanRequestURL(kRendererID, test_url));
   EXPECT_FALSE(p->CanRedirectToURL(test_url));

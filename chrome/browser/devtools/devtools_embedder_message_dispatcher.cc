@@ -138,7 +138,7 @@ bool ParseAndHandleWithCallback(
 
 /**
  * Dispatcher for messages sent from the frontend running in an
- * isolated renderer (devtools:// or chrome://inspect) to the embedder
+ * isolated renderer (devtools:// or decentr://inspect) to the embedder
  * in the browser.
  *
  * The messages are sent via InspectorFrontendHost.sendMessageToEmbedder or

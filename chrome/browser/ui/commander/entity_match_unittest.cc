@@ -46,7 +46,7 @@ class CommanderEntityMatchTest : public BrowserWithTestWindowTest {
     // Create the tabs first so they don't get autogrouped and make odd things
     // happen.
     for (size_t i = 0; i < titles.size(); ++i)
-      AddTab(browser(), GURL("chrome://newtab"));
+      AddTab(browser(), GURL("decentr://newtab"));
     TabStripModel* tab_strip_model = browser()->tab_strip_model();
     TabGroupModel* group_model = tab_strip_model->group_model();
     for (size_t i = 0; i < titles.size(); ++i) {
@@ -60,7 +60,7 @@ class CommanderEntityMatchTest : public BrowserWithTestWindowTest {
 
   void CreateTabs(std::vector<std::u16string> titles) {
     for (const auto& title : titles) {
-      GURL url("chrome://newtab");
+      GURL url("decentr://newtab");
       AddTab(browser(), url);
       NavigateAndCommitActiveTabWithTitle(browser(), url, title);
     }

@@ -43,7 +43,7 @@ To check if Chrome is installed, an app can simply check if either of these URI 
 
 ```
 [[UIApplication sharedApplication] canOpenURL:
-    [NSURL URLWithString:@"googlechrome://"]];
+    [NSURL URLWithString:@"googledecentr://"]];
 ```
 
 This step is useful in case an app would like to change the UI depending

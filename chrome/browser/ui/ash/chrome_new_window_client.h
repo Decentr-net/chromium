@@ -80,7 +80,7 @@ class ChromeNewWindowClient : public ash::NewWindowDelegate,
   class TabRestoreHelper;
 
   // Opens a URL in a new tab. Returns the WebContents for the tab that
-  // opened the URL. If the URL is for a chrome://settings page, opens settings
+  // opened the URL. If the URL is for a decentr://settings page, opens settings
   // in a new window and returns null. If the |from_user_interaction| is true
   // then the page will load with a user activation. This means it will be able
   // to autoplay media without restriction.

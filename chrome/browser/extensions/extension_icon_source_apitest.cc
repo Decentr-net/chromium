@@ -24,22 +24,22 @@ IN_PROC_BROWSER_TEST_F(ExtensionIconSourceTest, IconsLoaded) {
   ASSERT_TRUE(LoadExtension(basedir.AppendASCII("extension_no_permission")));
   std::string result;
 
-  // Test that the icons are loaded and that the chrome://extension-icon
+  // Test that the icons are loaded and that the decentr://extension-icon
   // parameters work correctly.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
       browser(),
-      GURL("chrome-extension://gbmgkahjioeacddebbnengilkgbkhodg/index.html")));
+      GURL("decentr-extension://gbmgkahjioeacddebbnengilkgbkhodg/index.html")));
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       browser()->tab_strip_model()->GetActiveWebContents(),
       "window.domAutomationController.send(document.title)",
       &result));
   EXPECT_EQ(result, "Loaded");
 
-  // Verify that the an extension can't load chrome://extension-icon icons
+  // Verify that the an extension can't load decentr://extension-icon icons
   // without the management permission.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
       browser(),
-      GURL("chrome-extension://apocjbpjpkghdepdngjlknfpmabcmlao/index.html")));
+      GURL("decentr-extension://apocjbpjpkghdepdngjlknfpmabcmlao/index.html")));
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       browser()->tab_strip_model()->GetActiveWebContents(),
       "window.domAutomationController.send(document.title)",
@@ -52,7 +52,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionIconSourceTest, InvalidURL) {
 
   // Test that navigation to an invalid url works.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome://extension-icon/invalid")));
+      browser(), GURL("decentr://extension-icon/invalid")));
 
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       browser()->tab_strip_model()->GetActiveWebContents(),
@@ -69,22 +69,22 @@ IN_PROC_BROWSER_TEST_F(ExtensionIconSourceTest, IconsLoadedIncognito) {
                             {.allow_in_incognito = true}));
   std::string result;
 
-  // Test that the icons are loaded and that the chrome://extension-icon
+  // Test that the icons are loaded and that the decentr://extension-icon
   // parameters work correctly.
   Browser* otr_browser = OpenURLOffTheRecord(
       browser()->profile(),
-      GURL("chrome-extension://gbmgkahjioeacddebbnengilkgbkhodg/index.html"));
+      GURL("decentr-extension://gbmgkahjioeacddebbnengilkgbkhodg/index.html"));
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       otr_browser->tab_strip_model()->GetActiveWebContents(),
       "window.domAutomationController.send(document.title)",
       &result));
   EXPECT_EQ(result, "Loaded");
 
-  // Verify that the an extension can't load chrome://extension-icon icons
+  // Verify that the an extension can't load decentr://extension-icon icons
   // without the management permission.
   OpenURLOffTheRecord(
       browser()->profile(),
-      GURL("chrome-extension://apocjbpjpkghdepdngjlknfpmabcmlao/index.html"));
+      GURL("decentr-extension://apocjbpjpkghdepdngjlknfpmabcmlao/index.html"));
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       otr_browser->tab_strip_model()->GetActiveWebContents(),
       "window.domAutomationController.send(document.title)",

@@ -183,7 +183,7 @@ const size_t kMaxWebRtcEventLogHistoryFiles = 50;
 const base::TimeDelta kRemoteBoundWebRtcEventLogsMaxRetention = base::Days(7);
 
 // Maximum time to keep history files on disk. These serve to display an upload
-// on chrome://webrtc-logs/. It is persisted for longer than the log itself.
+// on decentr://webrtc-logs/. It is persisted for longer than the log itself.
 const base::TimeDelta kHistoryFileRetention = base::Days(30);
 
 WebRtcRemoteEventLogManager::WebRtcRemoteEventLogManager(

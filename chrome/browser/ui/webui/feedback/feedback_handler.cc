@@ -99,5 +99,5 @@ void FeedbackHandler::HandleShowSystemInfo(const base::ListValue* args) {
 }
 
 void FeedbackHandler::HandleShowMetrics(const base::ListValue* args) {
-  ShowChildPage(dialog_, GURL("chrome://histograms"), std::u16string());
+  ShowChildPage(dialog_, GURL("decentr://histograms"), std::u16string());
 }

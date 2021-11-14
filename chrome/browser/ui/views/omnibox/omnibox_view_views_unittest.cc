@@ -636,7 +636,7 @@ TEST_F(OmniboxViewViewsTest, Emphasis) {
        Range(0, 4)},
       {"https://www.example.com/path/file.htm", false, Range(8, 23),
        Range(0, 5)},
-      {"chrome-extension://ldfbacdbackkjhclmhnjabngnppnkagl", false,
+      {"decentr-extension://ldfbacdbackkjhclmhnjabngnppnkagl", false,
        Range::InvalidRange(), Range(0, 16)},
       {"nosuchscheme://opaque/string", true, Range::InvalidRange(),
        Range(0, 12)},
@@ -821,11 +821,11 @@ TEST_F(OmniboxViewViewsTest, SelectAllOnReactivateTabAfterDeleteAll) {
   omnibox_view()->RevertAll();
   omnibox_view()->SaveStateToTab(web_contents1.get());
 
-  // Simulate creating another tab at "chrome://history". The second url should
+  // Simulate creating another tab at "decentr://history". The second url should
   // be longer than the first (to trigger the bug).
   auto web_contents2 =
       content::WebContentsTester::CreateTestWebContents(profile(), nullptr);
-  const GURL url_2("chrome://history/");
+  const GURL url_2("decentr://history/");
   EXPECT_GT(url_2.spec().size(), url_1.spec().size());
   // Notice the url is set before ResetDisplayTexts(), this matches what
   // actually happens in code.

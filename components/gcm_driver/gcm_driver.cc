@@ -286,7 +286,7 @@ void GCMDriver::DispatchMessageInternal(const std::string& app_id,
         handler->OnMessage(app_id, message);
 
       // TODO(peter/harkness): Surface unavailable app handlers on
-      // chrome://gcm-internals and send a delivery receipt.
+      // decentr://gcm-internals and send a delivery receipt.
       return;
     }
     case GCMDecryptionResult::INVALID_ENCRYPTION_HEADER:

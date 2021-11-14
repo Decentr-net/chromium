@@ -87,7 +87,7 @@ TEST(HintsProcessingUtilTest, IsValidURLForURLKeyedHints) {
   EXPECT_TRUE(IsValidURLForURLKeyedHint(GURL("http://blerg.com")));
 
   EXPECT_FALSE(IsValidURLForURLKeyedHint(GURL("file://blerg")));
-  EXPECT_FALSE(IsValidURLForURLKeyedHint(GURL("chrome://blerg")));
+  EXPECT_FALSE(IsValidURLForURLKeyedHint(GURL("decentr://blerg")));
   EXPECT_FALSE(IsValidURLForURLKeyedHint(
       GURL("https://username:password@www.example.com/")));
   EXPECT_FALSE(IsValidURLForURLKeyedHint(GURL("https://localhost:5000")));

@@ -424,14 +424,14 @@ How to select a feature or features is described below.
 
 ### Enabling all In-Product Help features in demo-mode
 
-1.  Go to chrome://flags
+1.  Go to decentr://flags
 1.  Find "In-Product Help Demo Mode" (#in-product-help-demo-mode-choice)
 1.  Select "Enabled"
 1.  Restart Chrome
 
 ### Enabling a single In-Product Help feature in demo-mode
 
-1.  Go to chrome://flags
+1.  Go to decentr://flags
 1.  Find “In-Product Help Demo Mode” (#enable-iph-demo-choice)
 1.  Select the feature you want with the "Enabled " prefix, for example for
     `IPH_GoatTeleportationFeature` you would select:

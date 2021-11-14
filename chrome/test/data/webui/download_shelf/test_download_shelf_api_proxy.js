@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {DownloadItem, PageCallbackRouter, PageRemote} from 'chrome://download-shelf.top-chrome/download_shelf.js';
+import {DownloadItem, PageCallbackRouter, PageRemote} from 'decentr://download-shelf.top-chrome/download_shelf.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 
 export class TestDownloadShelfApiProxy extends TestBrowserProxy {

@@ -37,7 +37,7 @@ import './people_page/signout_dialog.js';
 import './people_page/sync_controls.js';
 import './people_page/sync_page.js';
 // <if expr="use_nss_certs">
-import 'chrome://resources/cr_components/certificate_manager/certificate_manager.js';
+import 'decentr://resources/cr_components/certificate_manager/certificate_manager.js';
 // </if>
 
 // Sections
@@ -56,7 +56,7 @@ import './languages_page/edit_dictionary_page.js';
 
 // </if>
 
-export {getToastManager} from 'chrome://resources/cr_elements/cr_toast/cr_toast_manager.js';
+export {getToastManager} from 'decentr://resources/cr_elements/cr_toast/cr_toast_manager.js';
 export {FontsBrowserProxy, FontsBrowserProxyImpl} from './appearance_page/fonts_browser_proxy.js';
 export {CountryDetailManagerImpl} from './autofill_page/address_edit_dialog.js';
 export {AutofillManager, AutofillManagerImpl} from './autofill_page/autofill_section.js';

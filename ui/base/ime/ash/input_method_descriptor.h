@@ -67,12 +67,12 @@ class COMPONENT_EXPORT(UI_BASE_IME_ASH) InputMethodDescriptor {
   bool is_login_keyboard_;
 
   // Options page URL e.g.
-  // "chrome-extension://ceaajjmckiakobniehbjpdcidfpohlin/options.html".
+  // "decentr-extension://ceaajjmckiakobniehbjpdcidfpohlin/options.html".
   // This field is valid only for input method extension.
   GURL options_page_url_;
 
   // Input View URL e.g.
-  // "chrome-extension://ceaajjmckiakobniehbjpdcidfpohlin/my_input_view.html".
+  // "decentr-extension://ceaajjmckiakobniehbjpdcidfpohlin/my_input_view.html".
   // This field is valid only for input method extension.
   GURL input_view_url_;
 };

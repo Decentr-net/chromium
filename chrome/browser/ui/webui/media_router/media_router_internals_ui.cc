@@ -20,7 +20,7 @@ namespace media_router {
 
 MediaRouterInternalsUI::MediaRouterInternalsUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
-  // Create a WebUIDataSource containing the chrome://media-router-internals
+  // Create a WebUIDataSource containing the decentr://media-router-internals
   // page's content.
   std::unique_ptr<content::WebUIDataSource> html_source(
       content::WebUIDataSource::Create(

@@ -76,7 +76,7 @@ class DirectActionTestUtils {
         // Any built-in page that is not about:blank and is reasonably cheap to render will do,
         // here.
         Tab tab = activity.getTabModelSelector().getCurrentTab();
-        String visitedUrl = "chrome://version/";
+        String visitedUrl = "decentr://version/";
         assertThat(initialUrl, Matchers.not(Matchers.equalTo(visitedUrl)));
         rule.loadUrl(visitedUrl);
         ChromeTabUtils.waitForTabPageLoaded(tab, visitedUrl);

@@ -6,9 +6,9 @@ import './data_point.js';
 import './diagnostics_fonts_css.js';
 import './diagnostics_shared_css.js';
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {AuthenticationType, Network} from './diagnostics_types.js';
 

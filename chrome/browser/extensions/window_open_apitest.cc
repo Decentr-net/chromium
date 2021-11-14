@@ -261,7 +261,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest, WindowOpenInvalidExtension) {
   bool new_page_in_same_process = false;
   bool expect_success = false;
   GURL broken_extension_url(
-      "chrome-extension://thisissurelynotavalidextensionid/newtab.html");
+      "decentr-extension://thisissurelynotavalidextensionid/newtab.html");
   ASSERT_NO_FATAL_FAILURE(OpenWindow(
       browser()->tab_strip_model()->GetActiveWebContents(),
       broken_extension_url, new_page_in_same_process, expect_success, &newtab));
@@ -329,7 +329,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
       extensions::kExtensionScheme));
 }
 
-// Test that navigating to an extension URL is allowed on chrome://.
+// Test that navigating to an extension URL is allowed on decentr://.
 // See https://crbug.com/662602.
 IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
                        NavigateToInaccessibleResourceFromChromeURL) {
@@ -342,8 +342,8 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest,
   content::WebContents* tab =
       browser()->tab_strip_model()->GetActiveWebContents();
 
-  // Navigate to the non-web-accessible URL from chrome:// and
-  // chrome-search:// pages.  Verify that the page loads correctly.
+  // Navigate to the non-web-accessible URL from decentr:// and
+  // decentr-search:// pages.  Verify that the page loads correctly.
   GURL history_url(chrome::kChromeUIHistoryURL);
   ASSERT_TRUE(history_url.SchemeIs(content::kChromeUIScheme));
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), history_url));

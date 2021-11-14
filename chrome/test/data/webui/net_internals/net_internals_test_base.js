@@ -19,7 +19,7 @@ NetInternalsTest.prototype = {
   typedefCppFixture: 'NetInternalsTest',
 
   /** @inheritDoc */
-  browsePreload: 'chrome://net-internals/',
+  browsePreload: 'decentr://net-internals/',
 
   /** @inheritDoc */
   isAsync: true,

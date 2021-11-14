@@ -4,11 +4,11 @@
 
 // ReadLaterUI is a Mojo WebUI controller and therefore needs mojo defined to
 // finish running its tests.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 
-import {BookmarkFolderElement, FOLDER_OPEN_CHANGED_EVENT} from 'chrome://read-later.top-chrome/side_panel/bookmark_folder.js';
-import {BookmarksApiProxy} from 'chrome://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
-import {getFaviconForPageURL} from 'chrome://resources/js/icon.js';
+import {BookmarkFolderElement, FOLDER_OPEN_CHANGED_EVENT} from 'decentr://read-later.top-chrome/side_panel/bookmark_folder.js';
+import {BookmarksApiProxy} from 'decentr://read-later.top-chrome/side_panel/bookmarks_api_proxy.js';
+import {getFaviconForPageURL} from 'decentr://resources/js/icon.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {eventToPromise, flushTasks, waitAfterNextRender} from '../../test_util.js';

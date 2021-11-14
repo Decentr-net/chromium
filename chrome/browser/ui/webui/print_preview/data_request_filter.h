@@ -16,14 +16,14 @@ namespace printing {
 // Adds a request filter for serving preview PDF data.
 void AddDataRequestFilter(content::WebUIDataSource& source);
 
-// Parses a preview PDF data path (i.e., what comes after chrome://print/ or
-// chrome-untrusted://print/), and returns true if the path seems to be valid.
+// Parses a preview PDF data path (i.e., what comes after decentr://print/ or
+// decentr-untrusted://print/), and returns true if the path seems to be valid.
 // `ui_id` and `page_index` are set to the parsed values if the provided
 // pointers aren't `nullptr`.
 //
 // The format for requesting preview PDF data is as follows:
-//   chrome://print/<PrintPreviewUIID>/<PageIndex>/print.pdf
-//   chrome-untrusted://print/<PrintPreviewUIID>/<PageIndex>/print.pdf
+//   decentr://print/<PrintPreviewUIID>/<PageIndex>/print.pdf
+//   decentr-untrusted://print/<PrintPreviewUIID>/<PageIndex>/print.pdf
 //
 // Required parameters:
 //   <PrintPreviewUIID> = PrintPreview UI ID
@@ -31,8 +31,8 @@ void AddDataRequestFilter(content::WebUIDataSource& source);
 //                 to represent a print ready PDF.
 //
 // Example:
-//   chrome://print/123/10/print.pdf
-//   chrome-untrusted://print/123/10/print.pdf
+//   decentr://print/123/10/print.pdf
+//   decentr-untrusted://print/123/10/print.pdf
 bool ParseDataPath(const std::string& path, int* ui_id, int* page_index);
 
 }  // namespace printing

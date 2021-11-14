@@ -1398,7 +1398,7 @@ Možete da upravljate podešavanjima ovog naloga ako instalirate aplikaciju Fami
 <translation id="2431027948063157455">Google pomoćnik nije uspeo da se učita. Proverite mrežnu vezu, pa pokušajte ponovo.</translation>
 <translation id="243179355394256322">Organizacija ograničava registraciju uređaja samo na ovlašćene korisnike. Ovaj korisnik nije ovlašćen za registrovanje uređaja. Proverite da li korisnik ima administratorsku privilegiju Registracija Google Meet hardvera u odeljku Korisnici na administratorskoj konzoli.</translation>
 <translation id="243275146591958220">Otkaži preuzimanje</translation>
-<translation id="2433452467737464329">Dodajte parametar upita u URL da biste automatski osvežili stranicu: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Dodajte parametar upita u URL da biste automatski osvežili stranicu: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Izgled</translation>
 <translation id="2433836460518180625">Otključaj samo uređaj</translation>
 <translation id="2434449159125086437">Podešavanje štampača nije uspelo. Proverite konfiguraciju, pa probajte ponovo.</translation>
@@ -1927,7 +1927,7 @@ a Ctrl+Alt+taster za smanjivanje osvetljenosti da biste umanjili prikaz.</transl
 <translation id="2959127025785722291">Došlo je do greške. Skeniranje nije dovršeno. Probajte ponovo.</translation>
 <translation id="2959842337402130152">Vraćanje nije uspelo zbog nedostatka memorijskog prostora. Oslobodite <ph name="SPACE_REQUIRED" /> sa uređaja i probajte ponovo.</translation>
 <translation id="2960208947600937804">Došlo je do greške pri konfigurisanju Linux-a. Obratite se administratoru.</translation>
-<translation id="296026337010986570">Gotovo! Štetni softver je uklonjen. Da biste ponovo uključili dodatke, posetite odeljak &lt;a href="chrome://extensions"&gt;Dodaci&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Gotovo! Štetni softver je uklonjen. Da biste ponovo uključili dodatke, posetite odeljak &lt;a href="decentr://extensions"&gt;Dodaci&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (produženo je)</translation>
 <translation id="2961210776189273067">Zvanje</translation>
 <translation id="2961695502793809356">Kliknite da biste otišli napred, zadržite da biste videli istoriju</translation>
@@ -4928,7 +4928,7 @@ Vodite računa da ne otkrijete nikakve osetljive informacije.</translation>
 <translation id="6227280783235722609">dodatak</translation>
 <translation id="6229849828796482487">Prekini vezu sa WiFi mrežom</translation>
 <translation id="6231782223312638214">Predloženo</translation>
-<translation id="6231881193380278751">Dodajte parametar upita u URL da biste automatski osvežili stranicu: chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">Dodajte parametar upita u URL da biste automatski osvežili stranicu: decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">Baterija</translation>
 <translation id="6232116551750539448">Veza sa mrežom <ph name="NAME" /> je prekinuta</translation>
 <translation id="6233154960150021497">Vraća podrazumevanu upotrebu glasa umesto tastature</translation>

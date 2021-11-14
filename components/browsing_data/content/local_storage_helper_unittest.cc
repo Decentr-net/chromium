@@ -62,7 +62,7 @@ TEST_F(CannedLocalStorageTest, IgnoreExtensionsAndDevTools) {
 
   const blink::StorageKey storage_key1 =
       blink::StorageKey::CreateFromStringForTesting(
-          "chrome-extension://abcdefghijklmnopqrstuvwxyz/");
+          "decentr-extension://abcdefghijklmnopqrstuvwxyz/");
   const blink::StorageKey storage_key2 =
       blink::StorageKey::CreateFromStringForTesting(
           "devtools://abcdefghijklmnopqrstuvwxyz/");

@@ -7,7 +7,7 @@
 
 #include "ios/web/public/webui/web_ui_ios_controller.h"
 
-// The WebUI for chrome://download-internals on iOS.
+// The WebUI for decentr://download-internals on iOS.
 class DownloadInternalsUI : public web::WebUIIOSController {
  public:
   DownloadInternalsUI(web::WebUIIOS* web_ui, const std::string& host);

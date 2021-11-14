@@ -849,7 +849,7 @@ TEST_P(HintCacheTest, UnsupportedURLsForURLKeyedHints) {
   GURL https_url("https://whatever.com/r/werd");
   GURL http_url("http://werd.com/werd/");
   GURL file_url("file://dog.png");
-  GURL chrome_url("chrome://dog.png");
+  GURL chrome_url("decentr://dog.png");
   GURL auth_url("https://username:password@www.example.com/");
 
   google::protobuf::RepeatedPtrField<proto::Hint> hints;
@@ -883,7 +883,7 @@ TEST_P(HintCacheTest, URLsWithNoURLKeyedHints) {
   GURL https_url_with_hint("https://whatever.com/r/hint");
   GURL https_url_unseen("https://unseen.com/new");
   GURL file_url("file://dog.png");
-  GURL chrome_url("chrome://dog.png");
+  GURL chrome_url("decentr://dog.png");
   GURL auth_url("https://username:password@www.example.com/");
 
   google::protobuf::RepeatedPtrField<proto::Hint> hints;

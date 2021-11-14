@@ -63,7 +63,7 @@ enum class GCMDecryptionResult {
 };
 
 // Converts the GCMDecryptionResult value to a string that can be used to
-// explain the issue on chrome://gcm-internals/.
+// explain the issue on decentr://gcm-internals/.
 std::string ToGCMDecryptionResultDetailsString(GCMDecryptionResult result);
 
 }  // namespace gcm

@@ -261,7 +261,7 @@ void ChromeContentClient::AddContentDecryptionModules(
 //     such that hostnames provide meaningful compartmentalization of
 //     privileges.
 //
-// Example standard schemes: https://, chrome-extension://, chrome://, file://
+// Example standard schemes: https://, decentr-extension://, decentr://, file://
 // Example nonstandard schemes: mailto:, data:, javascript:, about:
 static const char* const kChromeStandardURLSchemes[] = {
     extensions::kExtensionScheme, chrome::kChromeNativeScheme,
@@ -288,7 +288,7 @@ void ChromeContentClient::AddAdditionalSchemes(Schemes* schemes) {
   schemes->savable_schemes.push_back(chrome::kChromeSearchScheme);
   schemes->savable_schemes.push_back(dom_distiller::kDomDistillerScheme);
 
-  // chrome-search: resources shouldn't trigger insecure content warnings.
+  // decentr-search: resources shouldn't trigger insecure content warnings.
   schemes->secure_schemes.push_back(chrome::kChromeSearchScheme);
 
   // Treat as secure because communication with them is entirely in the browser,

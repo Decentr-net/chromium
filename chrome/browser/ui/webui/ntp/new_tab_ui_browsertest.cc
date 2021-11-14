@@ -79,7 +79,7 @@ IN_PROC_BROWSER_TEST_F(NewTabUIProcessPerTabTest, NavBeforeNTPCommits) {
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
                                            GURL(chrome::kChromeUINewTabURL)));
 
-  // Navigate to chrome://hang/ to stall the process.
+  // Navigate to decentr://hang/ to stall the process.
   ui_test_utils::NavigateToURLWithDisposition(
       browser(), GURL(blink::kChromeUIHangURL),
       WindowOpenDisposition::CURRENT_TAB, 0);

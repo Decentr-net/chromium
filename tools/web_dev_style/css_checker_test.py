@@ -39,7 +39,7 @@ class CssCheckerTest(unittest.TestCase):
   def testCssAlphaWithAtBlock(self):
     self.VerifyContentsProducesOutput("""
 <include src="../shared/css/cr/ui/overlay.css">
-<include src="chrome://resources/totally-cool.css" />
+<include src="decentr://resources/totally-cool.css" />
 
 /* A hopefully safely ignored comment and @media statement. /**/
 @media print {
@@ -52,12 +52,12 @@ class CssCheckerTest(unittest.TestCase):
 .rule {
   z-index: 5;
 <if expr="not is macosx">
-  background-image: url(chrome://resources/BLAH); /* TODO(dbeam): Fix this. */
+  background-image: url(decentr://resources/BLAH); /* TODO(dbeam): Fix this. */
   background-color: rgb(235, 239, 249);
 </if>
 <if expr="is_macosx">
   background-color: white;
-  background-image: url(chrome://resources/BLAH2);
+  background-image: url(decentr://resources/BLAH2);
 </if>
   color: black;
 }
@@ -282,14 +282,14 @@ mixins or documented custom properties directly.
   def testCssNoQuotesInUrl(self):
     self.VerifyContentsProducesOutput("""
 img {
-  background: url('chrome://resources/images/blah.jpg');
+  background: url('decentr://resources/images/blah.jpg');
   background: url("../../folder/hello.png");
 }""", """
 - Use single quotes (') instead of double quotes (") in strings.
     background: url("../../folder/hello.png");
 
 - Don't use quotes in url().
-    background: url('chrome://resources/images/blah.jpg');
+    background: url('decentr://resources/images/blah.jpg');
     background: url("../../folder/hello.png");""")
 
   def testCssOneRulePerLine(self):
@@ -298,7 +298,7 @@ a:not([hidden]):not(.custom-appearance):not([version=1]):first-of-type,
 a:not([hidden]):not(.custom-appearance):not([version=1]):first-of-type ~
     input[type='checkbox']:not([hidden]),
 div {
-  background: url(chrome://resources/BLAH);
+  background: url(decentr://resources/BLAH);
   rule: value; /* rule: value; */
   rule: value; rule: value;
 }

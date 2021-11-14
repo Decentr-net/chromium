@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ElementObject, KeyModifiers} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/runtime_loaded_test_util.js';
-import {VolumeManagerCommon} from 'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/common/js/volume_manager_types.js';
+import {ElementObject, KeyModifiers} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/background/js/runtime_loaded_test_util.js';
+import {VolumeManagerCommon} from 'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/common/js/volume_manager_types.js';
 
 import {getCaller, pending, repeatUntil, sendTestMessage} from './test_util.js';
 
@@ -449,7 +449,7 @@ export class RemoteCallFilesApp extends RemoteCall {
    * @return {boolean} Returns whether the code is running in SWA mode.
    */
   isSwaMode() {
-    return this.origin_.startsWith('chrome://');
+    return this.origin_.startsWith('decentr://');
   }
 
   /**

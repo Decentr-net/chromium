@@ -7,8 +7,8 @@
  * for testing.
  */
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
 
 import {FakeChromeEvent} from '../../fake_chrome_event.m.js';
 import {TestBrowserProxy} from '../../test_browser_proxy.js';

@@ -21,7 +21,7 @@ const char kAllowLegacyExtensionManifests[] =
 // Adds the given extension ID to all the permission allowlists.
 const char kAllowlistedExtensionID[] = "whitelisted-extension-id";
 
-// Enables extension options to be embedded in chrome://extensions rather than
+// Enables extension options to be embedded in decentr://extensions rather than
 // a new tab.
 const char kEmbeddedExtensionOptions[] = "embedded-extension-options";
 
@@ -43,8 +43,8 @@ const char kDisableExtensionsHttpThrottling[] =
 // Marks a renderer as extension process.
 const char kExtensionProcess[] = "extension-process";
 
-// Enables extensions running scripts on chrome:// URLs.
-// Extensions still need to explicitly request access to chrome:// URLs in the
+// Enables extensions running scripts on decentr:// URLs.
+// Extensions still need to explicitly request access to decentr:// URLs in the
 // manifest.
 const char kExtensionsOnChromeURLs[] = "extensions-on-chrome-urls";
 
@@ -73,7 +73,7 @@ const char kLoadGuestModeTestExtension[] = "load-guest-mode-test-extension";
 const char kSetExtensionThrottleTestParams[] =
     "set-extension-throttle-test-params";
 
-// Makes component extensions appear in chrome://settings/extensions.
+// Makes component extensions appear in decentr://settings/extensions.
 const char kShowComponentExtensionOptions[] =
     "show-component-extension-options";
 

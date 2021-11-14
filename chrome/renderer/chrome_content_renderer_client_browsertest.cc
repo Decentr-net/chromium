@@ -57,7 +57,7 @@ TEST_F(ChromeContentRendererClientSearchBoxTest, RewriteThumbnailURL) {
 
   // Create a thumbnail URL containing the correct render frame ID and an
   // arbitrary instant restricted ID.
-  GURL thumbnail_url(base::StringPrintf("chrome-search:/thumb/%i/1",
+  GURL thumbnail_url(base::StringPrintf("decentr-search:/thumb/%i/1",
                                         render_frame->GetRoutingID()));
 
   GURL result;

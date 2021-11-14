@@ -5,8 +5,8 @@
 /** @fileoverview Suite of tests for the Settings advanced page. */
 
 // clang-format off
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {CrSettingsPrefs, SettingsBasicPageElement, SettingsMainElement, SettingsUiElement} from 'chrome://settings/settings.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrSettingsPrefs, SettingsBasicPageElement, SettingsMainElement, SettingsUiElement} from 'decentr://settings/settings.js';
 
 import {assertEquals, assertGT, assertTrue} from '../chai_assert.js';
 

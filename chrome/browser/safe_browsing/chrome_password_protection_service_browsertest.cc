@@ -379,7 +379,7 @@ IN_PROC_BROWSER_TEST_F(
   content::TestNavigationObserver observer(new_web_contents,
                                            /*number_of_navigations=*/1);
   observer.Wait();
-  // Verify chrome://settings/passwords/check page should be opened in a new
+  // Verify decentr://settings/passwords/check page should be opened in a new
   // foreground tab.
   ASSERT_EQ(2, browser()->tab_strip_model()->count());
   ASSERT_EQ(

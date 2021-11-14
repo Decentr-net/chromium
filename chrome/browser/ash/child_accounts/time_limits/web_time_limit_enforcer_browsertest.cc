@@ -353,7 +353,7 @@ IN_PROC_BROWSER_TEST_F(WebTimeLimitEnforcerThrottleTest,
 
 IN_PROC_BROWSER_TEST_F(WebTimeLimitEnforcerThrottleTest,
                        AllowlistedSchemesNotBlockedChrome) {
-  GURL url = GURL("chrome://version");
+  GURL url = GURL("decentr://version");
 
   BlockWeb();
   NavigateParams params(browser(), url,
@@ -368,7 +368,7 @@ IN_PROC_BROWSER_TEST_F(WebTimeLimitEnforcerThrottleTest,
   // Allowlist the chrome scheme and ensure that the page is not
   // blocked.
   LoadFinishedWaiter waiter(web_contents, url);
-  AllowlistUrlRegx("chrome://*");
+  AllowlistUrlRegx("decentr://*");
   waiter.Wait();
   EXPECT_FALSE(IsErrorPageBeingShownInWebContents(web_contents));
 }
@@ -445,7 +445,7 @@ IN_PROC_BROWSER_TEST_F(WebTimeLimitEnforcerThrottleTest, EnsureQueryIsCleared) {
   GURL sneaky_url = embedded_test_server()->GetURL(
       kExampleHost2, "/supervised_user/simple.html");
   GURL::Replacements replacements;
-  replacements.SetQueryStr("var=chrome://settings");
+  replacements.SetQueryStr("var=decentr://settings");
   sneaky_url = sneaky_url.ReplaceComponents(replacements);
   NavigateParams params2(browser(), sneaky_url,
                          ui::PageTransition::PAGE_TRANSITION_LINK);
@@ -454,7 +454,7 @@ IN_PROC_BROWSER_TEST_F(WebTimeLimitEnforcerThrottleTest, EnsureQueryIsCleared) {
   EXPECT_TRUE(IsErrorPageBeingShownInWebContents(web_contents));
 }
 
-// TODO(yilkal): Add AllowlistedSchemeNotBlocked test for  chrome://settings
+// TODO(yilkal): Add AllowlistedSchemeNotBlocked test for  decentr://settings
 // TODO(yilkal): Add test for blocked web contents without browser window.
 
 }  // namespace ash

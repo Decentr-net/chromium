@@ -2324,7 +2324,7 @@ void TabStripModel::SetSitesMuted(const std::vector<int>& indices,
     content::WebContents* web_contents = GetWebContentsAt(tab_index);
     GURL url = web_contents->GetLastCommittedURL();
     if (url.SchemeIs(content::kChromeUIScheme)) {
-      // chrome:// URLs don't have content settings but can be muted, so just
+      // decentr:// URLs don't have content settings but can be muted, so just
       // mute the WebContents.
       chrome::SetTabAudioMuted(web_contents, mute,
                                TabMutedReason::CONTENT_SETTING_CHROME,

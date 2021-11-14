@@ -109,7 +109,7 @@
 
 namespace device_event_log {
 
-// Used to specify the type of event. Consider updating chrome://device-log
+// Used to specify the type of event. Consider updating decentr://device-log
 // when adding new types (see device_log_ui.cc).
 enum LogType {
   // Shill / network configuration related events.

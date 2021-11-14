@@ -148,7 +148,7 @@ void ProcessInternalsHandlerImpl::GetIsolationMode(
 void ProcessInternalsHandlerImpl::GetUserTriggeredIsolatedOrigins(
     GetUserTriggeredIsolatedOriginsCallback callback) {
   // Retrieve serialized user-triggered isolated origins for the current
-  // profile (i.e., profile from which chrome://process-internals is shown).
+  // profile (i.e., profile from which decentr://process-internals is shown).
   // Note that this may differ from the list of stored user-triggered isolated
   // origins if the user clears browsing data.  Clearing browsing data clears
   // stored isolated origins right away, but the corresponding origins in
@@ -166,7 +166,7 @@ void ProcessInternalsHandlerImpl::GetUserTriggeredIsolatedOrigins(
 void ProcessInternalsHandlerImpl::GetWebTriggeredIsolatedOrigins(
     GetWebTriggeredIsolatedOriginsCallback callback) {
   // Retrieve serialized user-triggered isolated origins for the current
-  // profile (i.e., profile from which chrome://process-internals is shown).
+  // profile (i.e., profile from which decentr://process-internals is shown).
   auto* policy = ChildProcessSecurityPolicyImpl::GetInstance();
   std::vector<std::string> serialized_origins;
   for (const auto& origin : policy->GetIsolatedOrigins(
@@ -184,7 +184,7 @@ void ProcessInternalsHandlerImpl::GetGloballyIsolatedOrigins(
 
   // The following global isolated origin sources are safe to show to the user.
   // Any new sources should only be added here if they are ok to be shown on
-  // chrome://process-internals.
+  // decentr://process-internals.
   for (IsolatedOriginSource source :
        {IsolatedOriginSource::BUILT_IN, IsolatedOriginSource::COMMAND_LINE,
         IsolatedOriginSource::FIELD_TRIAL, IsolatedOriginSource::POLICY,

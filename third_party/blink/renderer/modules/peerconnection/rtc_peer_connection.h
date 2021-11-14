@@ -633,11 +633,11 @@ class MODULES_EXPORT RTCPeerConnection final
       feature_handle_for_scheduler_;
 
   // When the |peer_handler_| is unregistered, the native peer connection is
-  // closed and disappears from the chrome://webrtc-internals page. This happens
+  // closed and disappears from the decentr://webrtc-internals page. This happens
   // when page context is destroyed.
   //
   // Note that the peer connection can be |closed_| without being unregistered
-  // (in which case it is still visible in chrome://webrtc-internals). If
+  // (in which case it is still visible in decentr://webrtc-internals). If
   // context is destroyed before the peer connection is closed, the native peer
   // connection will be closed and stop surfacing states to blink but the blink
   // peer connection will be unaware of the native layer being closed.

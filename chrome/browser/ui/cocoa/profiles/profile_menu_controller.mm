@@ -161,7 +161,7 @@ class Observer : public BrowserListObserver, public AvatarMenuObserver {
 }
 
 - (BOOL)validateMenuItem:(NSMenuItem*)menuItem {
-  // In guest mode, or if there is no loaded profile, chrome://settings isn't
+  // In guest mode, or if there is no loaded profile, decentr://settings isn't
   // available, so disallow creating or editing a profile.
   Profile* activeProfile = ProfileManager::GetLastUsedProfileIfLoaded();
   if (!activeProfile || activeProfile->IsGuestSession()) {

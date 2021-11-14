@@ -388,7 +388,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>mcrouse@chromium.org</owner>
   <owner>chrome-memories@google.com</owner>
   <summary>
-    Logged when the user closes the chrome://history/journeys page (e.g. closed
+    Logged when the user closes the decentr://history/journeys page (e.g. closed
     tab, navigated in the same tab, or closed browser). Logs whether the user
     made a query on their history from the journeys page.
   </summary>
@@ -399,7 +399,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>mcrouse@chromium.org</owner>
   <owner>chrome-memories@google.com</owner>
   <summary>
-    Logged when the user closes the chrome://history/journeys page (e.g. closed
+    Logged when the user closes the decentr://history/journeys page (e.g. closed
     tab, navigated in the same tab, or closed browser). Logs the final state
     that ended the use of the journeys page (e.g., a link click away from the
     page).
@@ -411,7 +411,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>mcrouse@chromium.org</owner>
   <owner>chrome-memories@google.com</owner>
   <summary>
-    Logged when the user closes the chrome://history/journeys page (e.g. closed
+    Logged when the user closes the decentr://history/journeys page (e.g. closed
     tab, navigated in the same tab, or closed browser). Logs the state that
     started the use of the journeys page (e.g., a direct navigation to journeys
     page).
@@ -423,7 +423,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>manukh@chromium.org</owner>
   <owner>chrome-memories@google.com</owner>
   <summary>
-    Logged when the user closed the chrome://history/journeys page (e.g. closed
+    Logged when the user closed the decentr://history/journeys page (e.g. closed
     tab, navigated in the same tab, or closed browser). Logs the # of links
     opened from the journeys page.
   </summary>
@@ -434,7 +434,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>mcrouse@chromium.org</owner>
   <owner>chrome-memories@google.com</owner>
   <summary>
-    Logged when the user closes the chrome://history/journeys page (e.g. closed
+    Logged when the user closes the decentr://history/journeys page (e.g. closed
     tab, navigated in the same tab, or closed browser). Logs the number of
     queries the user made while on the journeys page, only logged if at least
     one query was made.
@@ -574,7 +574,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>mahmadi@chromium.org</owner>
   <owner>chrome-memories@google.com</owner>
   <summary>
-    Recorded every time the user {ClusterAction} in chrome://history/journeys.
+    Recorded every time the user {ClusterAction} in decentr://history/journeys.
     The value represents the 0-indexed index of the cluster.
   </summary>
   <token key="ClusterAction">
@@ -594,7 +594,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-memories@google.com</owner>
   <summary>
     Recorded every time the user {RelatedSearchAction} a related search
-    suggestion in a history cluster in chrome://history/journeys. The value
+    suggestion in a history cluster in decentr://history/journeys. The value
     represents the 0-indexed index of the related search suggestion in the
     respective cluster.
   </summary>
@@ -609,7 +609,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-memories@google.com</owner>
   <summary>
     Recorded every time the user toggles the visibility of the history clusters
-    Web UI shown at chrome://history/journeys from the history Web UI sidebar.
+    Web UI shown at decentr://history/journeys from the history Web UI sidebar.
     The value represents the visibility of the history clusters Web UI.
   </summary>
 </histogram>
@@ -620,7 +620,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-memories@google.com</owner>
   <summary>
     Recorded every time the user {VisitAction} a {VisitType} in a history
-    cluster in chrome://history/journeys. The value represents the 0-indexed
+    cluster in decentr://history/journeys. The value represents the 0-indexed
     index of the visit in the respective cluster.
   </summary>
   <token key="VisitAction">

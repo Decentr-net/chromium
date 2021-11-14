@@ -483,7 +483,7 @@ void JsonManifest::GetPrefetchableFiles(
     const std::string& file_key = it.key();
     // We skip invalid entries in "files".
     if (GetKeyUrl(*files_dict, file_key, &full_url, &unused_pnacl_options)) {
-      if (GURL(full_url).SchemeIs("chrome-extension"))
+      if (GURL(full_url).SchemeIs("decentr-extension"))
         out_files->push_back(NaClResourcePrefetchRequest(file_key, full_url));
     }
   }

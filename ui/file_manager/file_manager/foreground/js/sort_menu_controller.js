@@ -4,7 +4,7 @@
 
 import '../elements/files_toggle_ripple.js';
 
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {FileListModel} from './file_list_model.js';
 import {MultiMenuButton} from './ui/multi_menu_button.js';

@@ -14,7 +14,7 @@ var expected = [
   // Deprecated proprietary Chrome APIs unrelated to Extensions.
   'csi',
   'loadTimes',
-  // chrome.runtime is always available for chrome-untrusted://.
+  // chrome.runtime is always available for decentr-untrusted://.
   'runtime',
   // chrome.test is granted for testing.
   'test',

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-/** @fileoverview Test suite for chrome-untrusted://telemetry_extension. */
+/** @fileoverview Test suite for decentr-untrusted://telemetry_extension. */
 
 /**
  * This is used to create TrustedScriptURL.
@@ -12,7 +12,7 @@ const workerUrlPolicy = trustedTypes.createPolicy(
     'telemetry-extension-static', {createScriptURL: () => 'worker.js'});
 
 // Tests that web workers can be spawned from
-// chrome-untrusted://telemetry_extension.
+// decentr-untrusted://telemetry_extension.
 UNTRUSTED_TEST('UntrustedCanSpawnWorkers', async () => {
   if (!window.Worker) {
     throw 'Worker is not supported!';
@@ -51,7 +51,7 @@ UNTRUSTED_TEST('UntrustedCanSpawnWorkers', async () => {
 });
 
 // Tests that array of available routines can be successfully
-// requested from chrome-untrusted://.
+// requested from decentr-untrusted://.
 UNTRUSTED_TEST('UntrustedDiagnosticsRequestAvailableRoutines', async () => {
   const expectedResult = [
     'battery-capacity',
@@ -738,7 +738,7 @@ UNTRUSTED_TEST('UntrustedRequestTelemetryInfoUnknownCategory', async () => {
 });
 
 // Tests that TelemetryInfo can be successfully requested from
-// from chrome-untrusted://.
+// from decentr-untrusted://.
 UNTRUSTED_TEST('UntrustedRequestTelemetryInfo', async () => {
   // Rounded down to the nearest 100MiB due to privacy requirement.
   const availableSpace = BigInt(
@@ -958,7 +958,7 @@ UNTRUSTED_TEST(
 });
 
 // Tests that TelemetryInfo can be successfully requested from
-// from chrome-untrusted://.
+// from decentr-untrusted://.
 UNTRUSTED_TEST('UntrustedRequestTelemetryInfoWithInterceptor', async () => {
   const probeTelemetryResponse = await chromeos.telemetry.probeTelemetryInfo([
     'battery', 'non-removable-block-devices', 'cached-vpd-data', 'cpu',
@@ -989,7 +989,7 @@ UNTRUSTED_TEST('UntrustedRequestTelemetryInfoWithInterceptor', async () => {
 });
 
 // Tests that TelemetryInfo with errors can be successfully requested from
-// from chrome-untrusted://.
+// from decentr-untrusted://.
 UNTRUSTED_TEST('UntrustedRequestTelemetryInfoWithErrors', async () => {
   const expectedResult = {
     batteryResult: {

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {TroubleshootingInfo} from 'chrome://diagnostics/diagnostics_types.js';
-import {NetworkTroubleshootingElement} from 'chrome://diagnostics/network_troubleshooting.js';
+import {TroubleshootingInfo} from 'decentr://diagnostics/diagnostics_types.js';
+import {NetworkTroubleshootingElement} from 'decentr://diagnostics/network_troubleshooting.js';
 
 import {assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

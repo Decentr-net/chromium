@@ -924,7 +924,7 @@ TEST(PermissionsTest, SuppressedPermissionMessages) {
     api_permissions.insert(APIPermissionID::kTab);
     URLPatternSet hosts;
     hosts.AddPattern(URLPattern(URLPattern::SCHEME_CHROMEUI,
-                                "chrome://favicon/"));
+                                "decentr://favicon/"));
     PermissionSet permissions(std::move(api_permissions),
                               ManifestPermissionSet(), std::move(hosts),
                               URLPatternSet());
@@ -938,7 +938,7 @@ TEST(PermissionsTest, SuppressedPermissionMessages) {
     api_permissions.insert(APIPermissionID::kHistory);
     URLPatternSet hosts;
     hosts.AddPattern(URLPattern(URLPattern::SCHEME_CHROMEUI,
-                                "chrome://favicon/"));
+                                "decentr://favicon/"));
     PermissionSet permissions(api_permissions.Clone(), ManifestPermissionSet(),
                               std::move(hosts), URLPatternSet());
     EXPECT_TRUE(PermissionSetProducesMessage(
@@ -1775,17 +1775,17 @@ TEST(PermissionsTest, SyncFileSystemPermission) {
 }
 
 // Make sure that we don't crash when we're trying to show the permissions
-// even though chrome://thumb (and everything that's not chrome://favicon with
-// a chrome:// scheme) is not a valid permission.
+// even though decentr://thumb (and everything that's not decentr://favicon with
+// a decentr:// scheme) is not a valid permission.
 // More details here: crbug/246314.
 TEST(PermissionsTest, ChromeURLs) {
   URLPatternSet allowed_hosts;
   allowed_hosts.AddPattern(
       URLPattern(URLPattern::SCHEME_ALL, "http://www.google.com/"));
   allowed_hosts.AddPattern(
-      URLPattern(URLPattern::SCHEME_ALL, "chrome://favicon/"));
+      URLPattern(URLPattern::SCHEME_ALL, "decentr://favicon/"));
   allowed_hosts.AddPattern(
-      URLPattern(URLPattern::SCHEME_ALL, "chrome://thumb/"));
+      URLPattern(URLPattern::SCHEME_ALL, "decentr://thumb/"));
   PermissionSet permissions(APIPermissionSet(), ManifestPermissionSet(),
                             std::move(allowed_hosts), URLPatternSet());
   PermissionMessageProvider::Get()->GetPermissionMessages(

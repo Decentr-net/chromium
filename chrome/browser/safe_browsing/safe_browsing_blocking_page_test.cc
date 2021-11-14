@@ -145,7 +145,7 @@ const char kPageWithCrossOriginMaliciousIframe[] =
 const char kCrossOriginMaliciousIframeHost[] = "malware.test";
 const char kMaliciousIframe[] = "/safe_browsing/malware_iframe.html";
 const char kUnrelatedUrl[] = "https://www.google.com";
-const char kEnhancedProtectionUrl[] = "chrome://settings/security?q=enhanced";
+const char kEnhancedProtectionUrl[] = "decentr://settings/security?q=enhanced";
 const char kMaliciousJsPage[] = "/safe_browsing/malware_js.html";
 const char kMaliciousJs[] = "/safe_browsing/script.js";
 

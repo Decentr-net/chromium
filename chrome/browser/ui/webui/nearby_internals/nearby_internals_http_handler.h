@@ -22,7 +22,7 @@ class BrowserContext;
 }  // namespace content
 
 // WebUIMessageHandler for HTTP Messages to pass messages to the
-// chrome://nearby-internals HTTP tab.
+// decentr://nearby-internals HTTP tab.
 class NearbyInternalsHttpHandler : public content::WebUIMessageHandler,
                                    public NearbyShareHttpNotifier::Observer {
  public:

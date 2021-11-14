@@ -126,8 +126,8 @@ public class SafeBrowsingTest {
     private static final String IFRAME_HTML_PATH = RESOURCE_PATH + "/iframe.html";
 
     // These URLs will be CTS-tested and should not be changed.
-    private static final String WEB_UI_MALWARE_URL = "chrome://safe-browsing/match?type=malware";
-    private static final String WEB_UI_PHISHING_URL = "chrome://safe-browsing/match?type=phishing";
+    private static final String WEB_UI_MALWARE_URL = "decentr://safe-browsing/match?type=malware";
+    private static final String WEB_UI_PHISHING_URL = "decentr://safe-browsing/match?type=phishing";
     private static final String WEB_UI_HOST = "safe-browsing";
 
     /**

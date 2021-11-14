@@ -3,16 +3,16 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_eid_dialog.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_eid_dialog.m.js';
 
-// #import {afterNextRender, flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {setESimManagerRemoteForTesting} from 'chrome://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
+// #import {afterNextRender, flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {setESimManagerRemoteForTesting} from 'decentr://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
 // #import {assertTrue, assertEquals, assertDeepEquals} from '../../../chai_assert.js';
 // #import {FakeESimManagerRemote} from './fake_esim_manager_remote.m.js';
 // #import {FakeCanvasContext} from "./fake_canvas_context.m.js";
-// #import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
-// #import {waitAfterNextRender} from 'chrome://test/test_util.js';
+// #import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
+// #import {waitAfterNextRender} from 'decentr://test/test_util.js';
 // clang-format on
 
 suite('CrComponentsCellularEidDialogTest', function() {

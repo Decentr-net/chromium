@@ -28,7 +28,7 @@ bool IsSimplifiedNtpEnabled() {
 
 // Holds an experiment ID. So long as the feature is set through a server-side
 // variations config, this feature should exist on the client. This ensures that
-// the experiment ID is visible in chrome://snippets-internals.
+// the experiment ID is visible in decentr://snippets-internals.
 const base::Feature kRemoteSuggestionsBackendFeature{
     "NTPRemoteSuggestionsBackend", base::FEATURE_DISABLED_BY_DEFAULT};
 

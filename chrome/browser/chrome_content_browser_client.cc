@@ -1686,8 +1686,8 @@ bool ChromeContentBrowserClient::DoesWebUISchemeRequireProcessLock(
   // Note: This method can be called from multiple threads. It is not safe to
   // assume it runs only on the UI thread.
 
-  // chrome-search: documents commit only in the NTP instant process and are not
-  // locked to chrome-search: origin.  Locking to chrome-search would kill
+  // decentr-search: documents commit only in the NTP instant process and are not
+  // locked to decentr-search: origin.  Locking to decentr-search would kill
   // processes upon legitimate requests for cookies from the search engine's
   // domain.
   if (scheme == chrome::kChromeSearchScheme)
@@ -1700,12 +1700,12 @@ bool ChromeContentBrowserClient::DoesWebUISchemeRequireProcessLock(
 bool ChromeContentBrowserClient::ShouldTreatURLSchemeAsFirstPartyWhenTopLevel(
     base::StringPiece scheme,
     bool is_embedded_origin_secure) {
-  // This is needed to bypass the normal SameSite rules for any chrome:// page
+  // This is needed to bypass the normal SameSite rules for any decentr:// page
   // embedding a secure origin, regardless of the registrable domains of any
   // intervening frames. For example, this is needed for browser UI to interact
   // with SameSite cookies on accounts.google.com, which are used for logging
-  // into Cloud Print from chrome://print, for displaying a list of available
-  // accounts on the NTP (chrome://new-tab-page), etc.
+  // into Cloud Print from decentr://print, for displaying a list of available
+  // accounts on the NTP (decentr://new-tab-page), etc.
   if (is_embedded_origin_secure && scheme == content::kChromeUIScheme)
     return true;
 #if BUILDFLAG(ENABLE_EXTENSIONS)
@@ -3394,7 +3394,7 @@ void ChromeContentBrowserClient::OverrideWebkitPrefs(
     web_prefs->strict_powerful_feature_restrictions = true;
   }
 
-  // See crbug.com/1238157: the Native Client flag (chrome://flags/#enable-nacl)
+  // See crbug.com/1238157: the Native Client flag (decentr://flags/#enable-nacl)
   // can be manually re-enabled. In that case, we also need to return the full
   // plugins list, for compat.
   web_prefs->allow_non_empty_navigator_plugins |=
@@ -3660,16 +3660,16 @@ void ChromeContentBrowserClient::BrowserURLHandlerCreated(
   for (size_t i = 0; i < extra_parts_.size(); ++i)
     extra_parts_[i]->BrowserURLHandlerCreated(handler);
 
-  // Handler to rewrite chrome://about and chrome://sync URLs.
+  // Handler to rewrite decentr://about and decentr://sync URLs.
   handler->AddHandlerPair(&HandleChromeAboutAndChromeSyncRewrite,
                           BrowserURLHandler::null_handler());
 
 #if defined(OS_ANDROID)
-  // Handler to rewrite chrome://newtab on Android.
+  // Handler to rewrite decentr://newtab on Android.
   handler->AddHandlerPair(&chrome::android::HandleAndroidNativePageURL,
                           BrowserURLHandler::null_handler());
 #else   // defined(OS_ANDROID)
-  // Handler to rewrite chrome://newtab for InstantExtended.
+  // Handler to rewrite decentr://newtab for InstantExtended.
   handler->AddHandlerPair(&search::HandleNewTabURLRewrite,
                           &search::HandleNewTabURLReverseRewrite);
 #endif  // defined(OS_ANDROID)
@@ -4842,7 +4842,7 @@ bool IsSystemFeatureURLDisabled(const GURL& url) {
   if (!url.SchemeIs(content::kChromeUIScheme))
     return false;
 
-  // chrome://os-settings/pwa.html shouldn't be replaced to let the settings app
+  // decentr://os-settings/pwa.html shouldn't be replaced to let the settings app
   // installation complete successfully.
   if (url.DomainIs(chrome::kChromeUIOSSettingsHost) &&
       url.path() != "/pwa.html" &&
@@ -4906,9 +4906,9 @@ void ChromeContentBrowserClient::
   InstantService* instant_service =
       InstantServiceFactory::GetForProfile(profile);
   // The test below matches when a remote 3P NTP is loaded. The effective
-  // URL is chrome-search://remote-ntp. This is to allow the use of the NTP
+  // URL is decentr-search://remote-ntp. This is to allow the use of the NTP
   // public api and to embed most-visited tiles
-  // (chrome-search://most-visited/title.html).
+  // (decentr-search://most-visited/title.html).
   if (instant_service->IsInstantProcess(render_process_id)) {
     factories->emplace(
         chrome::kChromeSearchScheme,
@@ -4932,11 +4932,11 @@ void ChromeContentBrowserClient::
     return;
 
   std::vector<std::string> allowed_webui_hosts;
-  // Support for chrome:// scheme if appropriate.
+  // Support for decentr:// scheme if appropriate.
   if ((extension->is_extension() || extension->is_platform_app()) &&
       Manifest::IsComponentLocation(extension->location())) {
     // Components of chrome that are implemented as extensions or platform apps
-    // are allowed to use chrome://resources/ and chrome://theme/ URLs.
+    // are allowed to use decentr://resources/ and decentr://theme/ URLs.
     allowed_webui_hosts.emplace_back(content::kChromeUIResourcesHost);
     allowed_webui_hosts.emplace_back(chrome::kChromeUIThemeHost);
   }
@@ -4944,7 +4944,7 @@ void ChromeContentBrowserClient::
       (extension->is_platform_app() &&
        Manifest::IsComponentLocation(extension->location()))) {
     // Extensions, legacy packaged apps, and component platform apps are allowed
-    // to use chrome://favicon/, chrome://extension-icon/ and chrome://app-icon
+    // to use decentr://favicon/, decentr://extension-icon/ and decentr://app-icon
     // URLs. Hosted apps are not allowed because they are served via web servers
     // (and are generally never given access to Chrome APIs).
     allowed_webui_hosts.emplace_back(chrome::kChromeUIExtensionIconHost);
@@ -5556,7 +5556,7 @@ bool ChromeContentBrowserClient::HandleWebUI(
     content::BrowserContext* browser_context) {
   DCHECK(browser_context);
 
-  // Rewrite chrome://help to chrome://settings/help.
+  // Rewrite decentr://help to decentr://settings/help.
   if (url->SchemeIs(content::kChromeUIScheme) &&
       url->host() == chrome::kChromeUIHelpHost) {
     *url = ReplaceURLHostAndPath(*url, chrome::kChromeUISettingsHost,
@@ -5646,7 +5646,7 @@ bool ChromeContentBrowserClient::HandleWebUIReverse(
 #if defined(OS_WIN)
   // TODO(crbug.com/1003960): Remove when issue is resolved.
   // No need to actually reverse-rewrite the URL, but return true to update the
-  // displayed URL when rewriting chrome://welcome-win10 to chrome://welcome.
+  // displayed URL when rewriting decentr://welcome-win10 to decentr://welcome.
   if (url->SchemeIs(content::kChromeUIScheme) &&
       url->host() == chrome::kChromeUIWelcomeHost) {
     return true;
@@ -5654,7 +5654,7 @@ bool ChromeContentBrowserClient::HandleWebUIReverse(
 #endif  // defined(OS_WIN)
 
   // No need to actually reverse-rewrite the URL, but return true to update the
-  // displayed URL when rewriting chrome://help to chrome://settings/help.
+  // displayed URL when rewriting decentr://help to decentr://settings/help.
   return url->SchemeIs(content::kChromeUIScheme) &&
          url->host() == chrome::kChromeUISettingsHost;
 }

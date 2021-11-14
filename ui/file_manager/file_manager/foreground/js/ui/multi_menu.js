@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {MenuItem} from 'chrome://resources/js/cr/ui/menu_item.m.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {MenuItem} from 'decentr://resources/js/cr/ui/menu_item.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
 
 /**
  * Creates a menu that supports sub-menus.

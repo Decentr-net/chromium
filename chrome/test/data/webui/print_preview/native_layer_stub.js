@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Destination, GooglePromotedDestinationId, PrinterType} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {Destination, GooglePromotedDestinationId, PrinterType} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 

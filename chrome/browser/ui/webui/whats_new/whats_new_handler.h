@@ -18,7 +18,7 @@ namespace network {
 class SimpleURLLoader;
 }
 
-// Page handler for chrome://whats-new.
+// Page handler for decentr://whats-new.
 class WhatsNewHandler : public content::WebUIMessageHandler {
  public:
   WhatsNewHandler();

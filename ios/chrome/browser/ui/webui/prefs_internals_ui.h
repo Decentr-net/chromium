@@ -14,7 +14,7 @@ namespace web {
 class WebUIIOS;
 }
 
-// The WebUIController for chrome://prefs-internals. Renders the current user
+// The WebUIController for decentr://prefs-internals. Renders the current user
 // prefs.
 class PrefsInternalsUI : public web::WebUIIOSController {
  public:

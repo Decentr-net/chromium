@@ -9,7 +9,7 @@
 #endif
 
 NSString* const kSafeBrowsingSafetyCheckStringURL =
-    @"chrome://settings/syncSetup";
+    @"decentr://settings/syncSetup";
 
 NSString* const kTimestampOfLastIssueFoundKey =
     @"TimestampOfLastSafetyCheckIssueFound";

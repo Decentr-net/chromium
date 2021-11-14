@@ -30,7 +30,7 @@ std::string DevToolsManagerDelegateAndroid::GetDiscoveryPageHTML() {
   const char html[] =
       "<html>"
       "<head><title>WebLayer remote debugging</title></head>"
-      "<body>Please use <a href=\'chrome://inspect\'>chrome://inspect</a>"
+      "<body>Please use <a href=\'decentr://inspect\'>decentr://inspect</a>"
       "</body>"
       "</html>";
   return html;

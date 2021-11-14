@@ -112,7 +112,7 @@ class WebrtcAudioPrivateTest : public AudioWaitingExtensionTest {
   void SetUpOnMainThread() override {
     AudioWaitingExtensionTest::SetUpOnMainThread();
     // Needs to happen after chrome's schemes are added.
-    source_url_ = GURL("chrome-extension://fakeid012345678/fakepage.html");
+    source_url_ = GURL("decentr-extension://fakeid012345678/fakepage.html");
   }
 
  protected:

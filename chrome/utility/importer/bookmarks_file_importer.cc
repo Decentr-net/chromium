@@ -47,7 +47,7 @@ bool CanImportURL(const GURL& url) {
   if (url == url::kAboutBlankURL)
     return true;
 
-  // If |url| starts with chrome:// or about:, check if it's one of the URLs
+  // If |url| starts with decentr:// or about:, check if it's one of the URLs
   // that we support.
   if (url.SchemeIs(content::kChromeUIScheme) ||
       url.SchemeIs(url::kAboutScheme)) {
@@ -65,7 +65,7 @@ bool CanImportURL(const GURL& url) {
         return true;
     }
 
-    // If url has either chrome:// or about: schemes but wasn't found in the
+    // If url has either decentr:// or about: schemes but wasn't found in the
     // above lists, it means we don't support it, so we don't allow the user
     // to import it.
     return false;

@@ -123,8 +123,8 @@ TEST(ExtensionProcessMapTest, Test) {
 TEST(ExtensionProcessMapTest, GetMostLikelyContextType) {
   ProcessMap map;
   const GURL web_url("https://foo.example");
-  const GURL extension_url("chrome-extension://foobar");
-  const GURL untrusted_webui_url("chrome-untrusted://foo/index.html");
+  const GURL extension_url("decentr-extension://foobar");
+  const GURL untrusted_webui_url("decentr-untrusted://foo/index.html");
 
   EXPECT_EQ(extensions::Feature::WEB_PAGE_CONTEXT,
             map.GetMostLikelyContextType(nullptr, 1, &web_url));

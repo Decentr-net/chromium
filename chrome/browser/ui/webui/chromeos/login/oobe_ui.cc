@@ -280,7 +280,7 @@ void AddTestAPIResources(content::WebUIDataSource* source) {
 }
 
 // Default and non-shared resource definition for kOobeDisplay display type.
-// chrome://oobe/oobe
+// decentr://oobe/oobe
 void AddOobeDisplayTypeDefaultResources(content::WebUIDataSource* source) {
   if (switches::IsOsInstallAllowed()) {
     source->SetDefaultResource(IDR_OS_INSTALL_OOBE_HTML);
@@ -302,7 +302,7 @@ void AddOobeDisplayTypeDefaultResources(content::WebUIDataSource* source) {
 }
 
 // Default and non-shared resource definition for kLoginDisplay display type.
-// chrome://oobe/login
+// decentr://oobe/login
 void AddLoginDisplayTypeDefaultResources(content::WebUIDataSource* source) {
   if (switches::IsOsInstallAllowed()) {
     source->SetDefaultResource(IDR_OS_INSTALL_LOGIN_HTML);
@@ -325,7 +325,7 @@ void AddLoginDisplayTypeDefaultResources(content::WebUIDataSource* source) {
   source->AddResourcePath(kLoginJSPath, IDR_OOBE_JS);
 }
 
-// Creates a WebUIDataSource for chrome://oobe
+// Creates a WebUIDataSource for decentr://oobe
 content::WebUIDataSource* CreateOobeUIDataSource(
     const base::DictionaryValue& localized_strings,
     const std::string& display_type) {
@@ -569,15 +569,15 @@ void OobeUI::ConfigureOobeDisplay() {
       std::make_unique<GuestTosScreenHandler>(js_calls_container_.get()));
 
   Profile* profile = Profile::FromWebUI(web_ui());
-  // Set up the chrome://theme/ source, for Chrome logo.
+  // Set up the decentr://theme/ source, for Chrome logo.
   content::URLDataSource::Add(profile, std::make_unique<ThemeSource>(profile));
 
-  // Set up the chrome://terms/ data source, for EULA content.
+  // Set up the decentr://terms/ data source, for EULA content.
   content::URLDataSource::Add(
       profile,
       std::make_unique<AboutUIHTMLSource>(chrome::kChromeUITermsHost, profile));
 
-  // Set up the chrome://userimage/ source.
+  // Set up the decentr://userimage/ source.
   content::URLDataSource::Add(profile, std::make_unique<UserImageSource>());
 
   // TabHelper is required for OOBE webui to make webview working on it.
@@ -663,7 +663,7 @@ OobeUI::OobeUI(content::WebUI* web_ui, const GURL& url)
   base::DictionaryValue localized_strings;
   GetLocalizedStrings(&localized_strings);
 
-  // Set up the chrome://oobe/ source.
+  // Set up the decentr://oobe/ source.
   content::WebUIDataSource* html_source =
       CreateOobeUIDataSource(localized_strings, display_type_);
   content::WebUIDataSource::Add(Profile::FromWebUI(web_ui), html_source);

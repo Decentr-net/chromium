@@ -93,7 +93,7 @@ void NotificationManager::ShowNotification() {
 
   message_center::NotifierId notifier_id(
       message_center::NotifierType::SYSTEM_COMPONENT,
-      "chrome://file_system_provider_notification");
+      "decentr://file_system_provider_notification");
   notifier_id.profile_id =
       multi_user_util::GetAccountIdFromProfile(profile_).GetUserEmail();
 

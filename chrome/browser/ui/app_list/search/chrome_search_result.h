@@ -189,7 +189,7 @@ class ChromeSearchResult {
   //
   // TODO(crbug.com/1199206): Move this to a map<string, string> of debug info
   // that contains more than just scores, and display the contents of
-  // |scoring_| in chrome://launcher-internals
+  // |scoring_| in decentr://launcher-internals
   base::flat_map<std::string, double> ranker_scores_;
 
   // More often than not, calling Open() on a ChromeSearchResult will cause the

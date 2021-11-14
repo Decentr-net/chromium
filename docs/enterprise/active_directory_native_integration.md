@@ -41,7 +41,7 @@ system daemon.
 ## Policies
 Policies pulled from AD group policy objects (GPOs) have
 [POLICY_SOURCE_ACTIVE_DIRECTORY](https://cs.chromium.org/chromium/src/components/policy/core/common/policy_types.h?l=43&rcl=fdd7489f1f95a984371c03e118ff17a460c659f8),
-which translates to "Local Server" on the [Chrome policy page](chrome://policy).
+which translates to "Local Server" on the [Chrome policy page](decentr://policy).
 The conversion from GPO to protobuf happens in
 [DevicePolicyEncoder](http://cs/chromeos_public/src/platform2/authpolicy/policy/device_policy_encoder.h?l=30&rcl=34f2f96b8af4677048f3f3d21e24d507618187ef)
 and

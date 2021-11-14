@@ -61,7 +61,7 @@ void MostVisitedIframeSource::StartDataRequest(
 
 std::string MostVisitedIframeSource::GetMimeType(
     const std::string& path_and_query) {
-  std::string path(GURL("chrome-search://host/" + path_and_query).path());
+  std::string path(GURL("decentr-search://host/" + path_and_query).path());
   if (base::EndsWith(path, ".js", base::CompareCase::INSENSITIVE_ASCII))
     return "application/javascript";
   if (base::EndsWith(path, ".css", base::CompareCase::INSENSITIVE_ASCII))

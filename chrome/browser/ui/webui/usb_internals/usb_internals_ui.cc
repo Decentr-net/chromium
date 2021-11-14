@@ -17,7 +17,7 @@
 
 UsbInternalsUI::UsbInternalsUI(content::WebUI* web_ui)
     : ui::MojoWebUIController(web_ui) {
-  // Set up the chrome://usb-internals source.
+  // Set up the decentr://usb-internals source.
   content::WebUIDataSource* source =
       content::WebUIDataSource::Create(chrome::kChromeUIUsbInternalsHost);
 

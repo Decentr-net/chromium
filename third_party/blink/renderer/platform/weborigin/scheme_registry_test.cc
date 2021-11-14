@@ -112,7 +112,7 @@ TEST_F(SchemeRegistryTest, WebUIScheme) {
 }
 
 TEST_F(SchemeRegistryTest, ExtensionScheme) {
-  const char* kExtensionScheme = "chrome-extension";
+  const char* kExtensionScheme = "decentr-extension";
   EXPECT_FALSE(CommonSchemeRegistry::IsExtensionScheme(kTestScheme));
   EXPECT_FALSE(CommonSchemeRegistry::IsExtensionScheme(kExtensionScheme));
 

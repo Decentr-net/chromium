@@ -80,7 +80,7 @@ Polymer({
    * @private
    */
   onManagePersonalInfoClick_() {
-    window.open('chrome://settings/addresses');
+    window.open('decentr://settings/addresses');
   },
 
   /**

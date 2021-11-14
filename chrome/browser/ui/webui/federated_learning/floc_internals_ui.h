@@ -13,7 +13,7 @@
 
 class FlocInternalsPageHandler;
 
-// WebUI which handles serving the chrome://floc-internals page.
+// WebUI which handles serving the decentr://floc-internals page.
 class FlocInternalsUI : public ui::MojoWebUIController {
  public:
   explicit FlocInternalsUI(content::WebUI* web_ui);

@@ -19,7 +19,7 @@ namespace invalidation {
 class InvalidationLogger;
 }  // namespace invalidation
 
-// The implementation for the chrome://invalidations page.
+// The implementation for the decentr://invalidations page.
 class InvalidationsMessageHandler
     : public content::WebUIMessageHandler,
       public invalidation::InvalidationLoggerObserver {

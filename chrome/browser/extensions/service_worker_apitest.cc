@@ -1627,7 +1627,7 @@ IN_PROC_BROWSER_TEST_F(ServiceWorkerBasedBackgroundTest,
 }
 
 // This test loads a web page that has an iframe pointing to a
-// chrome-extension:// URL. The URL is listed in the extension's
+// decentr-extension:// URL. The URL is listed in the extension's
 // web_accessible_resources. Initially the iframe is served from the extension's
 // resource file. After verifying that, we register a Service Worker that
 // controls the extension. Further requests to the same resource as before
@@ -2003,14 +2003,14 @@ IN_PROC_BROWSER_TEST_F(ServiceWorkerBasedBackgroundTest, TabsQuerySplit) {
     // and replies with the URLs of the tabs.
     ready_regular.Reply("");
     EXPECT_TRUE(tabs_listener.WaitUntilSatisfied());
-    EXPECT_EQ(R"(["chrome://version/"])", tabs_listener.message());
+    EXPECT_EQ(R"(["decentr://version/"])", tabs_listener.message());
   }
   {
     ExtensionTestMessageListener tabs_listener(false);
     // Reply to the original message and wait for the return message.
     ready_incognito.Reply("");
     EXPECT_TRUE(tabs_listener.WaitUntilSatisfied());
-    EXPECT_EQ(R"(["chrome://about/"])", tabs_listener.message());
+    EXPECT_EQ(R"(["decentr://about/"])", tabs_listener.message());
   }
 }
 
@@ -2043,7 +2043,7 @@ IN_PROC_BROWSER_TEST_F(ServiceWorkerBasedBackgroundTest, TabsQuerySpanning) {
   // and replies with the URLs of the tabs.
   ready_listener.Reply("");
   EXPECT_TRUE(tabs_listener.WaitUntilSatisfied());
-  EXPECT_EQ(R"(["chrome://version/","chrome://about/"])",
+  EXPECT_EQ(R"(["decentr://version/","decentr://about/"])",
             tabs_listener.message());
 }
 
@@ -2079,7 +2079,7 @@ IN_PROC_BROWSER_TEST_F(ServiceWorkerBasedBackgroundTest, TabsOnUpdatedSplit) {
     // and replies with the URLs of the tabs.
     ready_regular.Reply("");
     EXPECT_TRUE(tabs_listener.WaitUntilSatisfied());
-    EXPECT_EQ(R"(["chrome://version/"])", tabs_listener.message());
+    EXPECT_EQ(R"(["decentr://version/"])", tabs_listener.message());
   }
   {
     ExtensionTestMessageListener tabs_listener(false);
@@ -2087,7 +2087,7 @@ IN_PROC_BROWSER_TEST_F(ServiceWorkerBasedBackgroundTest, TabsOnUpdatedSplit) {
     // and replies with the URLs of the tabs.
     ready_incognito.Reply("");
     EXPECT_TRUE(tabs_listener.WaitUntilSatisfied());
-    EXPECT_EQ(R"(["chrome://about/"])", tabs_listener.message());
+    EXPECT_EQ(R"(["decentr://about/"])", tabs_listener.message());
   }
 }
 
@@ -2129,7 +2129,7 @@ IN_PROC_BROWSER_TEST_F(ServiceWorkerBasedBackgroundTest,
       ui_test_utils::NavigateToURL(browser_incognito, GURL("chrome:about")));
 
   EXPECT_TRUE(tabs_listener.WaitUntilSatisfied());
-  EXPECT_EQ(R"(["chrome://version/","chrome://about/"])",
+  EXPECT_EQ(R"(["decentr://version/","decentr://about/"])",
             tabs_listener.message());
 }
 

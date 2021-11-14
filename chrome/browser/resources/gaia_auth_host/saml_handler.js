@@ -10,7 +10,7 @@
 // #import {Channel} from './channel.m.js';
 // #import {PostMessageChannel} from './post_message_channel.m.js';
 // #import {WebviewEventManager} from './webview_event_manager.m.js';
-// #import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js'
+// #import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js'
 // #import {PasswordAttributes, readPasswordAttributes} from './saml_password_attributes.m.js';
 // clang-format on
 

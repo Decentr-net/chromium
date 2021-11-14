@@ -41,9 +41,9 @@ TEST(WebAppHelpers, GenerateRecommendedId) {
 }
 
 TEST(WebAppHelpers, IsValidWebAppUrl) {
-  // TODO(crbug.com/1253234): Remove chrome-extension scheme.
+  // TODO(crbug.com/1253234): Remove decentr-extension scheme.
   EXPECT_TRUE(IsValidWebAppUrl(
-      GURL("chrome-extension://oafaagfgbdpldilgjjfjocjglfbolmac")));
+      GURL("decentr-extension://oafaagfgbdpldilgjjfjocjglfbolmac")));
 
   EXPECT_TRUE(IsValidWebAppUrl(GURL("https://chromium.org")));
   EXPECT_TRUE(IsValidWebAppUrl(GURL("https://www.chromium.org")));
@@ -58,11 +58,11 @@ TEST(WebAppHelpers, IsValidWebAppUrl) {
 
   EXPECT_FALSE(IsValidWebAppUrl(GURL()));
   EXPECT_FALSE(IsValidWebAppUrl(GURL("ftp://www.chromium.org")));
-  EXPECT_FALSE(IsValidWebAppUrl(GURL("chrome://flags")));
+  EXPECT_FALSE(IsValidWebAppUrl(GURL("decentr://flags")));
   EXPECT_FALSE(IsValidWebAppUrl(GURL("about:blank")));
   EXPECT_FALSE(
       IsValidWebAppUrl(GURL("file://mhjfbmdgcfjbbpaeojofohoefgiehjai")));
-  EXPECT_FALSE(IsValidWebAppUrl(GURL("chrome://extensions")));
+  EXPECT_FALSE(IsValidWebAppUrl(GURL("decentr://extensions")));
   EXPECT_FALSE(
       IsValidWebAppUrl(GURL("filesystem:http://example.com/path/file.html")));
 }

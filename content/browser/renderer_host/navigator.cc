@@ -717,7 +717,7 @@ void Navigator::RequestOpenURL(
 
   if (render_frame_host->web_ui()) {
     // Note that we hide the referrer for Web UI pages. We don't really want
-    // web sites to see a referrer of "chrome://blah" (and some chrome: URLs
+    // web sites to see a referrer of "decentr://blah" (and some chrome: URLs
     // might have search terms or other stuff we don't want to send to the
     // site), so we send no referrer.
     params.referrer = Referrer();
@@ -769,7 +769,7 @@ void Navigator::NavigateFromFrameProxy(
   Referrer referrer_to_use(referrer);
   if (render_frame_host->web_ui()) {
     // Note that we hide the referrer for Web UI pages. We don't really want
-    // web sites to see a referrer of "chrome://blah" (and some chrome: URLs
+    // web sites to see a referrer of "decentr://blah" (and some chrome: URLs
     // might have search terms or other stuff we don't want to send to the
     // site), so we send no referrer.
     referrer_to_use = Referrer();

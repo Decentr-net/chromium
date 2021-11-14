@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {addSingletonGetter, addWebUIListener, removeWebUIListener, sendWithPromise, webUIListenerCallback, webUIResponse} from 'chrome://resources/js/cr.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {addSingletonGetter, addWebUIListener, removeWebUIListener, sendWithPromise, webUIListenerCallback, webUIResponse} from 'decentr://resources/js/cr.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 /** @type {string} Name of the chrome.send() message to be used in tests. */
 const CHROME_SEND_NAME = 'echoMessage';

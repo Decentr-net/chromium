@@ -3,26 +3,26 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/network/network_list_item.m.js';
+// #import 'decentr://os-settings/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/network/network_list_item.m.js';
 
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://resources/mojo/services/network/public/mojom/ip_address.mojom-lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
-// #import 'chrome://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
-// #import 'chrome://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/services/network/public/mojom/ip_address.mojom-lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/network_types.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/mojom/base/time.mojom-lite.js';
+// #import 'decentr://resources/mojo/chromeos/services/network_config/public/mojom/cros_network_config.mojom-lite.js';
 
-// #import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {FakeNetworkConfig} from 'chrome://test/chromeos/fake_network_config_mojom.m.js';
-// #import {setESimManagerRemoteForTesting} from 'chrome://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
-// #import {FakeESimManagerRemote} from 'chrome://test/cr_components/chromeos/cellular_setup/fake_esim_manager_remote.m.js';
-// #import {MojoInterfaceProviderImpl} from 'chrome://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
-// #import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-// #import {NetworkList} from 'chrome://resources/cr_components/chromeos/network/network_list_types.m.js';
-// #import {keyDownOn, move} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-// #import {eventToPromise} from 'chrome://test/test_util.js';
-// #import {CellularSetupPageName} from 'chrome://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
+// #import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {FakeNetworkConfig} from 'decentr://test/chromeos/fake_network_config_mojom.m.js';
+// #import {setESimManagerRemoteForTesting} from 'decentr://resources/cr_components/chromeos/cellular_setup/mojo_interface_provider.m.js';
+// #import {FakeESimManagerRemote} from 'decentr://test/cr_components/chromeos/cellular_setup/fake_esim_manager_remote.m.js';
+// #import {MojoInterfaceProviderImpl} from 'decentr://resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
+// #import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+// #import {NetworkList} from 'decentr://resources/cr_components/chromeos/network/network_list_types.m.js';
+// #import {keyDownOn, move} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+// #import {eventToPromise} from 'decentr://test/test_util.js';
+// #import {CellularSetupPageName} from 'decentr://resources/cr_components/chromeos/cellular_setup/cellular_types.m.js';
 // clang-format on
 
 suite('NetworkListItemTest', function() {

@@ -276,7 +276,7 @@ TEST_F(PageTestBase, CSPForWorld) {
       ToScriptState(frame, *world_with_csp);
   IsolatedWorldCSP::Get().SetContentSecurityPolicy(
       kIsolatedWorldWithCSPId, kIsolatedWorldCSP,
-      SecurityOrigin::Create(KURL("chrome-extension://123")));
+      SecurityOrigin::Create(KURL("decentr-extension://123")));
 
   // Returns the csp headers being used for the current world.
   auto get_csp = [this]()

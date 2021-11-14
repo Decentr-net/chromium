@@ -10,16 +10,16 @@ const char kChromeUIProjectorAppHost[] = "projector";
 
 // content::WebUIDataSource::Create() requires trailing slash.
 const char kChromeUIUntrustedProjectorAppUrl[] =
-    "chrome-untrusted://projector/";
+    "decentr-untrusted://projector/";
 const char kChromeUIUntrustedProjectorPwaUrl[] =
     "https://projector.apps.chrome";
 
-const char kChromeUITrustedProjectorUrl[] = "chrome://projector/";
-const char kChromeUITrustedProjectorAppUrl[] = "chrome://projector/app/";
+const char kChromeUITrustedProjectorUrl[] = "decentr://projector/";
+const char kChromeUITrustedProjectorAppUrl[] = "decentr://projector/app/";
 const char kChromeUITrustedProjectorSelfieCamUrl[] =
-    "chrome://projector/selfie_cam/selfie_cam.html";
+    "decentr://projector/selfie_cam/selfie_cam.html";
 const char kChromeUITrustedAnnotatorUrl[] =
-    "chrome://projector/annotator/annotator_embedder.html";
+    "decentr://projector/annotator/annotator_embedder.html";
 const char kChromeUITrustedProjectorSwaAppId[] =
     "fgnpbdobngpkonkajbmelfhjkemaddhp";
 }  // namespace chromeos

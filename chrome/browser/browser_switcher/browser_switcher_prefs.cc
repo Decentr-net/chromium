@@ -443,7 +443,7 @@ const char kChromeParameters[] = "browser_switcher.chrome_parameters";
 // Disable browser_switcher unless this is set to true.
 const char kEnabled[] = "browser_switcher.enabled";
 
-// How long to wait on chrome://browser-switch (milliseconds).
+// How long to wait on decentr://browser-switch (milliseconds).
 const char kDelay[] = "browser_switcher.delay";
 
 // Behavior switch for BrowserSwitcherSitelist.

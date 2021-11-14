@@ -341,7 +341,7 @@ public class WebViewBrowserActivity extends AppCompatActivity {
                 return;
             }
             // Make sure to load a blank page to make it immediately inspectable with
-            // chrome://inspect.
+            // decentr://inspect.
             url = "about:blank";
         }
         setUrlBarText(url);
@@ -416,9 +416,9 @@ public class WebViewBrowserActivity extends AppCompatActivity {
             public boolean shouldOverrideUrlLoading(WebView webView, String url) {
                 // Treat some URLs as internal, always open them in the WebView:
                 // * about: scheme URIs
-                // * chrome:// scheme URIs
+                // * decentr:// scheme URIs
                 // * file:///android_asset/ or file:///android_res/ URIs
-                if (url.startsWith("about:") || url.startsWith("chrome://")
+                if (url.startsWith("about:") || url.startsWith("decentr://")
                         || FILE_ANDROID_ASSET_PATTERN.matcher(url).matches()) {
                     return false;
                 }

@@ -3,18 +3,18 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/lazy_load.js';
+// #import 'decentr://os-settings/chromeos/lazy_load.js';
 
-// #import {Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {CupsPrintersBrowserProxyImpl,PrinterSetupResult,CupsPrintersEntryManager,PrintServerResult,PrinterType} from 'chrome://os-settings/chromeos/lazy_load.js';
+// #import {Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {CupsPrintersBrowserProxyImpl,PrinterSetupResult,CupsPrintersEntryManager,PrintServerResult,PrinterType} from 'decentr://os-settings/chromeos/lazy_load.js';
 // #import {TestCupsPrintersBrowserProxy} from './test_cups_printers_browser_proxy.m.js';
 // #import {createCupsPrinterInfo,createPrinterListEntry} from './cups_printer_test_utils.m.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
 // #import {flushTasks} from '../../test_util.js';
 // #import {MojoInterfaceProviderImpl, MojoInterfaceProvider} from '//resources/cr_components/chromeos/network/mojo_interface_provider.m.js';
-// #import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-// #import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
+// #import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+// #import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
 // clang-format on
 
 /*
@@ -396,7 +396,7 @@ suite('CupsAddPrinterDialogTests', function() {
     addDialog.$$('.action-button').click();
     Polymer.dom.flush();
 
-    const expectedEulaLink = 'chrome://os-credits/#google';
+    const expectedEulaLink = 'decentr://os-credits/#google';
     const expectedManufacturer = 'Google';
     const expectedModel = 'printer';
     const expectedModel2 = 'newPrinter';

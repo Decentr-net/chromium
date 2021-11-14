@@ -30,7 +30,7 @@ class ReadingListModel;
 //   - The load is slow (possibly due to poor network conditions).
 //   - The load has failed (possibly because the device does not have internet).
 //     It is possible to trigger a page load failure to load the distilled
-//     version of |url| by loading chrome://offline?entryURL=url.
+//     version of |url| by loading decentr://offline?entryURL=url.
 class OfflinePageTabHelper : public web::WebStateUserData<OfflinePageTabHelper>,
                              public web::WebStateObserver,
                              ReadingListModelObserver {
@@ -132,7 +132,7 @@ class OfflinePageTabHelper : public web::WebStateUserData<OfflinePageTabHelper>,
   // committed.
   bool navigation_committed_ = false;
   // Whether the latest navigation started for this tab helper was initiated
-  // with chrome://offline URL.
+  // with decentr://offline URL.
   bool is_offline_navigation_ = false;
   // Whether the latest navigation started for this tab helper was a reload.
   bool is_reload_navigation_ = false;

@@ -8,7 +8,7 @@ Use device event log macros to record events without contributing to noise in
 the chrome log.
 
 * Events are stored in a circular buffer (current limit is 4000).
-* Events can be viewed at chrome://device-log. Events can be filtered by type
+* Events can be viewed at decentr://device-log. Events can be filtered by type
   and level.
 * Events show up in **feedback reports** under `device_event_log`.
 * Network events are separated out into a `network_event_log` section.

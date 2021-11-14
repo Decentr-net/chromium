@@ -28,9 +28,9 @@ constexpr base::FilePath::CharType kRootDir[] =
     FILE_PATH_LITERAL("chromeos/components/system_apps/public/js/");
 
 constexpr char kSystemAppTestHost[] = "system-app-test";
-constexpr char kSystemAppTestURL[] = "chrome://system-app-test";
+constexpr char kSystemAppTestURL[] = "decentr://system-app-test";
 constexpr char kUntrustedSystemAppTestURL[] =
-    "chrome-untrusted://system-app-test/";
+    "decentr-untrusted://system-app-test/";
 
 bool IsSystemAppTestURL(const GURL& url) {
   return url.SchemeIs(content::kChromeUIScheme) &&
@@ -62,7 +62,7 @@ void SetRequestFilterForDataSource(content::WebUIDataSource& data_source) {
 content::WebUIDataSource* CreateTrustedSysemAppTestDataSource() {
   auto* trusted_source = content::WebUIDataSource::Create(kSystemAppTestHost);
 
-  // We need a CSP override to be able to embed a chrome-untrusted:// iframe.
+  // We need a CSP override to be able to embed a decentr-untrusted:// iframe.
   std::string csp =
       std::string("frame-src ") + kUntrustedSystemAppTestURL + ";";
   trusted_source->OverrideContentSecurityPolicy(
@@ -92,7 +92,7 @@ class JsLibraryTestWebUIController : public ui::MojoWebUIController {
     content::WebUIDataSource::Add(browser_context,
                                   CreateUntrustedSystemAppTestDataSource());
 
-    // Add ability to request chrome-untrusted: URLs
+    // Add ability to request decentr-untrusted: URLs
     web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
   }
 };

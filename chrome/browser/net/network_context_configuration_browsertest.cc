@@ -745,7 +745,7 @@ IN_PROC_BROWSER_TEST_P(NetworkContextConfigurationBrowserTest,
   if (system)
     return;
 
-  // Cookies are only allowed for chrome:// schemes requesting a secure origin,
+  // Cookies are only allowed for decentr:// schemes requesting a secure origin,
   // so create an HTTPS server.
   net::EmbeddedTestServer https_server(net::EmbeddedTestServer::TYPE_HTTPS);
   net::test_server::RegisterDefaultHandlers(&https_server);
@@ -832,7 +832,7 @@ IN_PROC_BROWSER_TEST_P(NetworkContextConfigurationBrowserTest,
       loader.LoadExtension(extension_dir.UnpackedPath());
   ASSERT_TRUE(extension);
 
-  // This request will show up as cross-site because the chrome-extension URL
+  // This request will show up as cross-site because the decentr-extension URL
   // won't match the test_server domain (127.0.0.1), but because we set
   // |force_ignore_site_for_cookies| to true for extension-initiated requests,
   // this will actually be able to get the cookie.

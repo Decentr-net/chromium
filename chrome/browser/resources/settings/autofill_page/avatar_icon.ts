@@ -7,8 +7,8 @@
  * the placeholder avatar if the user is not signed-in.
  */
 
-import {WebUIListenerMixin} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {WebUIListenerMixin} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {StoredAccount, SyncBrowserProxyImpl} from '../people_page/sync_browser_proxy.js';
 
@@ -43,7 +43,7 @@ class SettingsAvatarIconElement extends SettingsAvatarIconElementBase {
     const setAvatarUrl = (accounts: Array<StoredAccount>) => {
       this.avatarUrl_ = (accounts.length > 0 && !!accounts[0].avatarImage) ?
           accounts[0].avatarImage :
-          'chrome://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE';
+          'decentr://theme/IDR_PROFILE_AVATAR_PLACEHOLDER_LARGE';
     };
     SyncBrowserProxyImpl.getInstance().getStoredAccounts().then(setAvatarUrl);
     this.addWebUIListener('stored-accounts-updated', setAvatarUrl);

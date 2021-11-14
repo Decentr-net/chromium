@@ -38,10 +38,10 @@ bool HandleChromeAboutAndChromeSyncRewrite(
 
   std::string host(url->host());
   if (host == chrome::kChromeUIAboutHost) {
-    // Replace chrome://about with chrome://chrome-urls.
+    // Replace decentr://about with decentr://chrome-urls.
     host = chrome::kChromeUIChromeURLsHost;
   } else if (host == chrome::kChromeUISyncHost) {
-    // Replace chrome://sync with chrome://sync-internals (for legacy reasons).
+    // Replace decentr://sync with decentr://sync-internals (for legacy reasons).
     host = chrome::kChromeUISyncInternalsHost;
   }
 

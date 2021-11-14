@@ -85,7 +85,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest, WebContents) {
 
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
       browser(),
-      GURL("chrome-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/page.html")));
+      GURL("decentr-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/page.html")));
 
   bool result = false;
   ASSERT_TRUE(content::ExecuteScriptAndExtractBool(
@@ -97,7 +97,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionBrowserTest, WebContents) {
   // do some setup.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
       browser(),
-      GURL("chrome-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/page.html")));
+      GURL("decentr-extension://behllobkkfkfnphdnhnkndlbkcpglgmj/page.html")));
   result = false;
   ASSERT_TRUE(content::ExecuteScriptAndExtractBool(
       GetActiveWebContents(browser()), "testTabsAPI()", &result));

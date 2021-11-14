@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://profile-customization/profile_customization_app.js';
+import 'decentr://profile-customization/profile_customization_app.js';
 
-import {ProfileCustomizationBrowserProxyImpl} from 'chrome://profile-customization/profile_customization_browser_proxy.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {ProfileCustomizationBrowserProxyImpl} from 'decentr://profile-customization/profile_customization_browser_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {isChildVisible} from '../test_util.js';
@@ -21,9 +21,9 @@ suite('ProfileCustomizationTest', function() {
   let browserProxy;
 
   /** @type {string} */
-  const AVATAR_URL_1 = 'chrome://theme/IDR_PROFILE_AVATAR_1';
+  const AVATAR_URL_1 = 'decentr://theme/IDR_PROFILE_AVATAR_1';
   /** @type {string} */
-  const AVATAR_URL_2 = 'chrome://theme/IDR_PROFILE_AVATAR_2';
+  const AVATAR_URL_2 = 'decentr://theme/IDR_PROFILE_AVATAR_2';
   /** @type {string} */
   const WELCOME_TEXT_1 = 'Welcome, Bob';
   /** @type {string} */

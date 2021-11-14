@@ -37,12 +37,12 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
 </variants>
 
 <variants name="ExtensionWebUiPageType">
-  <variant name=".MD" summary="The Material Design chrome://extensions page.">
+  <variant name=".MD" summary="The Material Design decentr://extensions page.">
     <obsolete>
       Deprecated and removed from code as of 10/2020.
     </obsolete>
   </variant>
-  <variant name=".Uber" summary="The Uber chrome://extensions page.">
+  <variant name=".Uber" summary="The Uber decentr://extensions page.">
     <obsolete>
       Deprecated and removed from code as of 04/2018.
     </obsolete>
@@ -405,7 +405,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>archanasimha@chromium.org</owner>
   <owner>extensions-core@chromium.org</owner>
   <summary>
-    The amount of time passed from when the chrome://extensions page has
+    The amount of time passed from when the decentr://extensions page has
     finished loading till it is closed. We record the time elapsed once the
     WebUI has been destroyed.
   </summary>
@@ -934,7 +934,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Part of the suite of Extensions.DidCreateScriptContext_* metrics. Records
     the time taken to install Extension JavaScript bindings per blessed
-    extension context (chrome-extension://... origins within Extension
+    extension context (decentr-extension://... origins within Extension
     processes, like background pages, options pages, popups).
   </summary>
 </histogram>
@@ -981,7 +981,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Part of the suite of Extensions.DidCreateScriptContext_* metrics. Records
     the time taken to install Extension JavaScript bindings per unblessed
-    extension context (chrome-extension://... origins hosted in iframes).
+    extension context (decentr-extension://... origins hosted in iframes).
   </summary>
 </histogram>
 
@@ -1014,7 +1014,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <summary>
     Part of the suite of Extensions.DidCreateScriptContext_* metrics. Records
     the time taken to install Extension JavaScript bindings per WebUI context
-    (chrome://extensions and so forth).
+    (decentr://extensions and so forth).
   </summary>
 </histogram>
 
@@ -1449,7 +1449,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>archanasimha@chromium.org</owner>
   <owner>extensions-core@chromium.org</owner>
   <summary>
-    Records when an extension with the chrome://favicon host permission makes a
+    Records when an extension with the decentr://favicon host permission makes a
     network level request for a favicon resource.
   </summary>
 </histogram>
@@ -1471,7 +1471,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     The number of extensions (and friends) that could have been given access to
     the file:// scheme, and were, for users that have at least one extension
     that could have been given access. This excludes anything that doesn't show
-    up in chrome://extensions (platform apps, hosted apps, component
+    up in decentr://extensions (platform apps, hosted apps, component
     extensions), policy-installed extensions, and unpacked extensions. See also
     Extensions.FileAccessNotAllowed.
   </summary>
@@ -1484,7 +1484,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     The number of extensions (and friends) that could have been given access to
     the file:// scheme, but weren't, for users that have at least one extension
     that could have been given access. This excludes anything that doesn't show
-    up in chrome://extensions (platform apps, hosted apps, component
+    up in decentr://extensions (platform apps, hosted apps, component
     extensions), policy-installed extensions, and unpacked extensions. See also
     Extensions.FileAccessAllowed.
   </summary>
@@ -2372,7 +2372,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     less inclusive, for example it does not include navigations to the hosted
     app due to normal browsing, which the other definition does include. This
     definition could be thought of more as explicit launches via a launch
-    surface such as the app launcher, chrome://apps, or a shortcut.
+    surface such as the app launcher, decentr://apps, or a shortcut.
   </summary>
 </histogram>
 
@@ -2424,7 +2424,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     The number of extensions (and friends) that could have been allowed in
     incognito, and were, for users that have at least one extension that could
     have been allowed. This excludes anything that doesn't show up in
-    chrome://extensions (platform apps, hosted apps, component extensions),
+    decentr://extensions (platform apps, hosted apps, component extensions),
     policy-installed extensions, and unpacked extensions. See also
     Extensions.IncognitoNotAllowed.
   </summary>
@@ -2437,7 +2437,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     The number of extensions (and friends) that could have been allowed in
     incognito, but weren't, for users that have at least one extension that
     could have been allowed. This excludes anything that doesn't show up in
-    chrome://extensions (platform apps, hosted apps, component extensions),
+    decentr://extensions (platform apps, hosted apps, component extensions),
     policy-installed extensions, and unpacked extensions. See also
     Extensions.IncognitoAllowed.
   </summary>
@@ -3445,9 +3445,9 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>tnagel@chromium.org</owner>
   <owner>chrome-privacy-core@chromium.org</owner>
   <summary>
-    The number of extensions reported in chrome://management UI with powerful
+    The number of extensions reported in decentr://management UI with powerful
     permissions. This number is recorded every time the user opens
-    chrome://management UI.
+    decentr://management UI.
   </summary>
 </histogram>
 
@@ -4169,7 +4169,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dbeam@chromium.org</owner>
   <summary>
     The amount of time between starting the provisional load and fully loading
-    the document in the main frame of the chrome://extensions page. This
+    the document in the main frame of the decentr://extensions page. This
     corresponds to the WebContentsObserver::DocumentLoadedInFrame method.
     {ExtensionWebUiPageType}
   </summary>
@@ -4185,7 +4185,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>dbeam@chromium.org</owner>
   <summary>
     The amount of time between starting the provisional load and having
-    completed the onload handler in the main frame of the chrome://extensions
+    completed the onload handler in the main frame of the decentr://extensions
     page. This corresponds to the
     WebContentsObserver::DocumentOnLoadCompletedInMainFrame method.
     {ExtensionWebUiPageType}

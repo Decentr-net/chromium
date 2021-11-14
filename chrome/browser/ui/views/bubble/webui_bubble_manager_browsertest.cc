@@ -49,7 +49,7 @@ class WebUIBubbleManagerBrowserTest : public InProcessBrowserTest {
     bubble_manager_ =
         std::make_unique<WebUIBubbleManagerT<TestWebUIController>>(
             BrowserView::GetBrowserViewForBrowser(browser()),
-            browser()->profile(), GURL("chrome://test"), 1, false);
+            browser()->profile(), GURL("decentr://test"), 1, false);
   }
   void TearDownOnMainThread() override {
     auto* widget = bubble_manager_->GetBubbleWidget();

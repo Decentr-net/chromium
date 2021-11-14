@@ -49,13 +49,13 @@ For each bug try to:
   * Add the `Needs-Feedback` label
   * Add a comment thanking the reporter, but explaining the issue is ambiguous
     and they need to do the debugging to demonstrate it is an actual Chrome bug.
-    * Point them to `chrome://net-export` and the
+    * Point them to `decentr://net-export` and the
       [NetLog Viewer](https://netlog-viewer.appspot.com/).
     * Ask them to confirm whether it is a Chromium regression. (Regressions are
       treated as high priority)
 * Request a NetLog that captures the problem. You can paste this on the bug:
   ```
-  Please collect and attach a chrome://net-export log.
+  Please collect and attach a decentr://net-export log.
   Instructions can be found here:
   https://chromium.org/for-testers/providing-network-details
   ```

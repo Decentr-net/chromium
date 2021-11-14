@@ -16,7 +16,7 @@ I18nProcessTest.prototype = {
   __proto__: testing.Test.prototype,
 
   /** @override */
-  browsePreload: 'chrome://dummyurl/',
+  browsePreload: 'decentr://dummyurl/',
 
   /**
    * The mocha adapter assumes all tests are async.

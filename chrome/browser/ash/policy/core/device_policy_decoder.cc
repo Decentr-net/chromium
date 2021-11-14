@@ -54,7 +54,7 @@ namespace {
 // |policy_name| in |policies| will be set to the decoded base::Value.
 // Otherwise, the policy will be set to a base::Value of the original
 // |json_string|. This way, the faulty value can still be seen in
-// chrome://policy along with any errors/warnings.
+// decentr://policy along with any errors/warnings.
 void SetJsonDevicePolicy(
     const std::string& policy_name,
     const std::string& json_string,

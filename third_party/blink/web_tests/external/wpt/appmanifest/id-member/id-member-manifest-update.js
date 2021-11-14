@@ -16,7 +16,7 @@ window.onload = () => {
             Trigger a manifest update event.
             <p>
               This step is specific to each browser implementation.
-              On Chrome, trigger the update by restarting the browser through chrome://restart.
+              On Chrome, trigger the update by restarting the browser through decentr://restart.
             </p>
           </li>
           <li>

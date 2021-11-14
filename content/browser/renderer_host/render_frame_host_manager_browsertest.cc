@@ -2420,7 +2420,7 @@ IN_PROC_BROWSER_TEST_P(RenderFrameHostManagerTest,
 // Ensure that renderer-side debug URLs do not cause a process swap, since they
 // are meant to run in the current page.  We had a bug where we expected a
 // BrowsingInstance swap to occur on pages like view-source and extensions,
-// which broke chrome://crash and javascript: URLs.
+// which broke decentr://crash and javascript: URLs.
 // See http://crbug.com/335503.
 // The test fails on Mac OSX with ASAN.
 // See http://crbug.com/699062.

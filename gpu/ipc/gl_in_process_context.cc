@@ -76,7 +76,7 @@ ContextResult GLInProcessContext::Initialize(
   DCHECK_GE(attribs.offscreen_framebuffer_size.height(), 0);
 
   command_buffer_ = std::make_unique<InProcessCommandBuffer>(
-      task_executor, GURL("chrome://gpu/GLInProcessContext::Initialize"));
+      task_executor, GURL("decentr://gpu/GLInProcessContext::Initialize"));
 
   auto result = command_buffer_->Initialize(
       surface, is_offscreen, window, attribs, gpu_memory_buffer_manager,

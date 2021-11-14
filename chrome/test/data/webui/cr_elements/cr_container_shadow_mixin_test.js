@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrContainerShadowMixin, CrContainerShadowMixinInterface} from 'chrome://resources/cr_elements/cr_container_shadow_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrContainerShadowMixin, CrContainerShadowMixinInterface} from 'decentr://resources/cr_elements/cr_container_shadow_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertFalse, assertTrue} from '../chai_assert.js';
 // clang-format on

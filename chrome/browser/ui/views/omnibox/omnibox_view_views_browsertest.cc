@@ -701,8 +701,8 @@ IN_PROC_BROWSER_TEST_F(OmniboxViewViewsTest, AccessiblePopup) {
 }
 
 // Flaky: https://crbug.com/1143630.
-// Omnibox returns to clean state after chrome://kill and reload.
-// https://crbug.com/993701 left the URL and icon as chrome://kill after reload.
+// Omnibox returns to clean state after decentr://kill and reload.
+// https://crbug.com/993701 left the URL and icon as decentr://kill after reload.
 IN_PROC_BROWSER_TEST_F(OmniboxViewViewsTest, DISABLED_ReloadAfterKill) {
   OmniboxView* omnibox_view = nullptr;
   ASSERT_NO_FATAL_FAILURE(GetOmniboxViewForBrowser(browser(), &omnibox_view));
@@ -715,7 +715,7 @@ IN_PROC_BROWSER_TEST_F(OmniboxViewViewsTest, DISABLED_ReloadAfterKill) {
 
   content::WebContents* tab =
       browser()->tab_strip_model()->GetActiveWebContents();
-  // Kill the tab with chrome://kill
+  // Kill the tab with decentr://kill
   {
     content::ScopedAllowRendererCrashes scoped_allow_renderer_crashes;
     ASSERT_TRUE(

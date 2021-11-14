@@ -154,7 +154,7 @@ const std::vector<flags_ui::FeatureEntry> GetFeatureEntries(
 }
 
 // In these tests, valid origins in the existing command line flag will be
-// appended to the list entered by the user in chrome://flags.
+// appended to the list entered by the user in decentr://flags.
 // The tests are run twice for each bool value: Once with an existing command
 // line (provided in SetUpCommandLine) and once without.
 class AboutFlagsBrowserTest : public InProcessBrowserTest,
@@ -190,7 +190,7 @@ class AboutFlagsBrowserTest : public InProcessBrowserTest,
 
   void NavigateToFlagsPage() {
     ASSERT_TRUE(
-        ui_test_utils::NavigateToURL(browser(), GURL("chrome://flags")));
+        ui_test_utils::NavigateToURL(browser(), GURL("decentr://flags")));
     WaitForExperimentalFeatures(
         browser()->tab_strip_model()->GetActiveWebContents());
   }
@@ -206,7 +206,7 @@ INSTANTIATE_TEST_SUITE_P(All,
                          AboutFlagsBrowserTest,
                          ::testing::Values(true, false));
 
-// Goes to chrome://flags page, types text into an ORIGIN_LIST_VALUE field but
+// Goes to decentr://flags page, types text into an ORIGIN_LIST_VALUE field but
 // does not enable the feature.
 IN_PROC_BROWSER_TEST_P(AboutFlagsBrowserTest, PRE_OriginFlagDisabled) {
   NavigateToFlagsPage();
@@ -248,7 +248,7 @@ IN_PROC_BROWSER_TEST_P(AboutFlagsBrowserTest, DISABLED_OriginFlagDisabled) {
             GetOriginListText(contents, kFlagName));
 }
 
-// Goes to chrome://flags page, types text into an ORIGIN_LIST_VALUE field and
+// Goes to decentr://flags page, types text into an ORIGIN_LIST_VALUE field and
 // enables the feature.
 IN_PROC_BROWSER_TEST_P(AboutFlagsBrowserTest, PRE_OriginFlagEnabled) {
   NavigateToFlagsPage();
@@ -313,7 +313,7 @@ IN_PROC_BROWSER_TEST_P(AboutFlagsBrowserTest, DISABLED_OriginFlagEnabled) {
             GetOriginListText(contents, kFlagName));
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  // ChromeOS doesn't read chrome://flags values on startup so we explicitly
+  // ChromeOS doesn't read decentr://flags values on startup so we explicitly
   // need to disable and re-enable the flag here.
   ToggleEnableDropdown(contents, kFlagName, true);
 #endif

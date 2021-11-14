@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {MockVolumeManager} from '../../background/js/mock_volume_manager.js';
 
@@ -354,10 +354,10 @@ export function testExtractFilePath() {
 
   // In the Extension:
   url =
-      'filesystem:chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/external/Downloads-u/Downloads/f.zip';
+      'filesystem:decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/external/Downloads-u/Downloads/f.zip';
   assertEquals(util.extractFilePath(url), '/Downloads-u/Downloads/f.zip');
 
   // In the SWA:
-  url = 'filesystem:chrome://file-manager/external/Downloads-u/Downloads/f.zip';
+  url = 'filesystem:decentr://file-manager/external/Downloads-u/Downloads/f.zip';
   assertEquals(util.extractFilePath(url), '/Downloads-u/Downloads/f.zip');
 }

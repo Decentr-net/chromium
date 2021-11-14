@@ -9,9 +9,9 @@ import './edu_login_parent_info.js';
 import './edu_login_signin.js';
 import './edu_login_error.js';
 
-import {CrViewManagerElement} from 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrViewManagerElement} from 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {EduAccountLoginBrowserProxyImpl} from './browser_proxy.js';
 import {EduLoginErrorType, EduLoginParams, ParentAccount} from './edu_login_util.js';

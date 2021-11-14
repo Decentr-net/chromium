@@ -35,7 +35,7 @@ namespace mojom {
 class SearchHandler;
 }  // namespace mojom
 
-// The WebUI handler for chrome://os-settings.
+// The WebUI handler for decentr://os-settings.
 class OSSettingsUI : public ui::MojoWebUIController {
  public:
   static void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);

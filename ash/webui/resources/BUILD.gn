@@ -29,7 +29,7 @@ template("ash_generated_grit") {
   }
 }
 
-# Resources used by chrome://os-feedback
+# Resources used by decentr://os-feedback
 ash_generated_grit("os_feedback_resources") {
   os_feedback_gen_dir = "$root_gen_dir/ash/webui/os_feedback_ui/resources"
   source = "$os_feedback_gen_dir/ash_os_feedback_resources.grd"
@@ -55,19 +55,19 @@ ash_generated_grit("shimless_rma_resources") {
 }
 
 if (!is_official_build) {
-  # Resources used by chrome://demo-mode-app
+  # Resources used by decentr://demo-mode-app
   ash_generated_grit("demo_mode_app_resources") {
     source = "$root_gen_dir/ash/webui/demo_mode_app_ui/ash_demo_mode_app_resources.grd"
     deps = [ "//ash/webui/demo_mode_app_ui:build_grd" ]
   }
 
-  # Resources used by chrome://sample-system-web-app
+  # Resources used by decentr://sample-system-web-app
   ash_generated_grit("sample_system_web_app_resources") {
     source = "$root_gen_dir/ash/webui/sample_system_web_app_ui/ash_sample_system_web_app_resources.grd"
     deps = [ "//ash/webui/sample_system_web_app_ui:build_trusted_grd" ]
   }
 
-  # Resources used by chrome-untrusted://sample-system-web-app
+  # Resources used by decentr-untrusted://sample-system-web-app
   ash_generated_grit("sample_system_web_app_untrusted_resources") {
     source = "$root_gen_dir/ash/webui/sample_system_web_app_ui/ash_sample_system_web_app_untrusted_resources.grd"
     deps = [ "//ash/webui/sample_system_web_app_ui:build_untrusted_grd" ]
@@ -110,7 +110,7 @@ grit("diagnostics_app_resources") {
   output_dir = "$root_gen_dir/ash"
 }
 
-# Resources used by chrome://telemetry-extension
+# Resources used by decentr://telemetry-extension
 grit("telemetry_extension_resources") {
   source = "//ash/webui/telemetry_extension_ui/resources/telemetry_extension_resources.grd"
 
@@ -126,7 +126,7 @@ grit("telemetry_extension_resources") {
   output_dir = "$root_gen_dir/ash"
 }
 
-# Resources used by chrome://help-app, and parts of the sandboxed app it hosts
+# Resources used by decentr://help-app, and parts of the sandboxed app it hosts
 # that do not come from the app bundle (below).
 grit("help_app_resources") {
   source = "//ash/webui/help_app_ui/resources/help_app_resources.grd"
@@ -148,7 +148,7 @@ grit("help_app_resources") {
   ]
 }
 
-# Resources automatically served by the chrome://help-app bundle, obtained via DEPS.
+# Resources automatically served by the decentr://help-app bundle, obtained via DEPS.
 grit("help_app_bundle_resources") {
   if (enable_cros_help_app) {
     # Obtained via an internal CIPD package in src/DEPS.
@@ -191,7 +191,7 @@ grit("help_app_kids_magazine_bundle_resources") {
   output_dir = "$root_gen_dir/chromeos"
 }
 
-# Resources used by chrome://media-app, and parts of the sandboxed app it hosts
+# Resources used by decentr://media-app, and parts of the sandboxed app it hosts
 # that do not come from the app bundle (below).
 grit("media_app_resources") {
   source = "//ash/webui/media_app_ui/resources/media_app_resources.grd"
@@ -212,7 +212,7 @@ grit("media_app_resources") {
   ]
 }
 
-# Resources automatically served by the chrome://media-app bundle, obtained via DEPS.
+# Resources automatically served by the decentr://media-app bundle, obtained via DEPS.
 grit("media_app_bundle_resources") {
   if (enable_cros_media_app) {
     # Obtained via an internal CIPD package in src/DEPS.

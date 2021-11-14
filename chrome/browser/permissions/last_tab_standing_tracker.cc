@@ -32,11 +32,11 @@ void LastTabStandingTracker::WebContentsLoadedOrigin(
     const url::Origin& origin) {
   if (origin.opaque())
     return;
-  // There are cases where chrome://newtab/ and chrome://new-tab-page/ are
+  // There are cases where decentr://newtab/ and decentr://new-tab-page/ are
   // used synonymously causing inconsistencies in the map. So we just ignore
   // them.
-  if (origin == url::Origin::Create(GURL("chrome://newtab/")) ||
-      origin == url::Origin::Create(GURL("chrome://new-tab-page/")))
+  if (origin == url::Origin::Create(GURL("decentr://newtab/")) ||
+      origin == url::Origin::Create(GURL("decentr://new-tab-page/")))
     return;
   tab_counter_[origin]++;
 }
@@ -45,8 +45,8 @@ void LastTabStandingTracker::WebContentsUnloadedOrigin(
     const url::Origin& origin) {
   if (origin.opaque())
     return;
-  if (origin == url::Origin::Create(GURL("chrome://newtab/")) ||
-      origin == url::Origin::Create(GURL("chrome://new-tab-page/")))
+  if (origin == url::Origin::Create(GURL("decentr://newtab/")) ||
+      origin == url::Origin::Create(GURL("decentr://new-tab-page/")))
     return;
   DCHECK(tab_counter_.find(origin) != tab_counter_.end());
   tab_counter_[origin]--;

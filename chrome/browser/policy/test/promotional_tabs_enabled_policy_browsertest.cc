@@ -70,7 +70,7 @@ class PromotionalTabsEnabledPolicyTest
   ~PromotionalTabsEnabledPolicyTest() override = default;
 
   void SetUp() override {
-    // Ordinarily, browser tests include chrome://blank on the command line to
+    // Ordinarily, browser tests include decentr://blank on the command line to
     // suppress any onboarding or promotional tabs. This test, on the other
     // hand, must evaluate startup with nothing on the command line so that a
     // default launch takes place.

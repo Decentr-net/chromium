@@ -294,7 +294,7 @@ PNaCl (15 May 2013)
   flag (for other apps).
 * When you launch Chrome with the ``--enable-pnacl`` flag, Chrome loads a PNaCl
   translator in the background. Wait about a minute after you launch Chrome and
-  check `chrome://nacl <chrome://nacl>`_ to verify that the translator loaded.
+  check `decentr://nacl <decentr://nacl>`_ to verify that the translator loaded.
 * PNaCl translators are currently available for 32-bit x86, 64-bit x86, and ARM
   architectures.
 * PNaCl applications must use the newlib C library (glibc and dynamic linking

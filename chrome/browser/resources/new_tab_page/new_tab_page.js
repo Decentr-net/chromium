@@ -10,7 +10,7 @@
  * things tests need.
  */
 
-export {BrowserCommandProxy} from 'chrome://resources/js/browser_command/browser_command_proxy.js';
+export {BrowserCommandProxy} from 'decentr://resources/js/browser_command/browser_command_proxy.js';
 export {NtpElement} from './app.js';
 export {BackgroundManager} from './background_manager.js';
 export {BackgroundSelectionType, CustomizeDialogPage} from './customize_dialog_types.js';

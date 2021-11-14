@@ -157,7 +157,7 @@ const DeviceMetrics* DevToolsHttpClient::device_metrics() {
 
 bool DevToolsHttpClient::IsBrowserWindow(const WebViewInfo& view) const {
   return base::Contains(*window_types_, view.type) ||
-         (view.type == WebViewInfo::kOther && view.url == "chrome://print/");
+         (view.type == WebViewInfo::kOther && view.url == "decentr://print/");
 }
 
 Status DevToolsHttpClient::CloseFrontends(const std::string& for_client_id) {
@@ -167,7 +167,7 @@ Status DevToolsHttpClient::CloseFrontends(const std::string& for_client_id) {
     return status;
 
   // Close frontends. Usually frontends are docked in the same page, although
-  // some may be in tabs (undocked, chrome://inspect, the DevTools
+  // some may be in tabs (undocked, decentr://inspect, the DevTools
   // discovery page, etc.). Tabs can be closed via the DevTools HTTP close
   // URL, but docked frontends can only be closed, by design, by connecting
   // to them and clicking the close button. Close the tab frontends first

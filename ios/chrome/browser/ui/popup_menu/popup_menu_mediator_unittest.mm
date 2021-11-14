@@ -406,7 +406,7 @@ TEST_F(PopupMenuMediatorTest, TestItemsStatusOnNTP) {
   mediator_.popupMenu = consumer;
   SetUpActiveWebState();
 
-  navigation_item_->SetVirtualURL(GURL("chrome://newtab"));
+  navigation_item_->SetVirtualURL(GURL("decentr://newtab"));
   web::FakeNavigationContext context;
   web_state_->OnNavigationFinished(&context);
 

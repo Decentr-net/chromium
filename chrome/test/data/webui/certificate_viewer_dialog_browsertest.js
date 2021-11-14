@@ -42,7 +42,7 @@ function loadTestModule() {
   const scriptPolicy =
       window.trustedTypes.createPolicy('certificate-test-script', {
         createScriptURL: () =>
-            'chrome://test/certificate_viewer_dialog_test.js',
+            'decentr://test/certificate_viewer_dialog_test.js',
       });
   const s = document.createElement('script');
   s.type = 'module';

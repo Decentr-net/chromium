@@ -61,7 +61,7 @@ EmojiPageHandler::~EmojiPageHandler() {}
 void EmojiPageHandler::ShowUI() {
   auto embedder = webui_controller_->embedder();
   // Embedder may not exist in some cases (e.g. user browses to
-  // chrome://emoji-picker directly rather than using right click on
+  // decentr://emoji-picker directly rather than using right click on
   // text field -> emoji).
   if (embedder) {
     embedder->ShowUI();

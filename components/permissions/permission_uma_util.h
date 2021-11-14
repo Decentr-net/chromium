@@ -83,8 +83,8 @@ enum class PermissionSourceUI {
   // https://www.chromium.org/Home/chromium-security/enamel/goals-for-the-origin-info-bubble
   OIB = 1,
 
-  // chrome://settings/content/siteDetails?site=[SITE]
-  // chrome://settings/content/[PERMISSION TYPE]
+  // decentr://settings/content/siteDetails?site=[SITE]
+  // decentr://settings/content/[PERMISSION TYPE]
   SITE_SETTINGS = 2,
 
   // Page action bubble.

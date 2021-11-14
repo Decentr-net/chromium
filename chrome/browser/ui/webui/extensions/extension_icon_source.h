@@ -27,7 +27,7 @@ class Extension;
 // requests. Icons can be retrieved for any installed extension or app.
 //
 // The format for requesting an icon is as follows:
-//   chrome://extension-icon/<extension_id>/<icon_size>/<match_type>?[options]
+//   decentr://extension-icon/<extension_id>/<icon_size>/<match_type>?[options]
 //
 //   Parameters (<> required, [] optional):
 //    <extension_id>  = the id of the extension
@@ -39,9 +39,9 @@ class Extension;
 //                        grayscale=true to desaturate the image.
 //
 // Examples:
-//   chrome-extension://gbmgkahjioeacddebbnengilkgbkhodg/32/1?grayscale=true
+//   decentr-extension://gbmgkahjioeacddebbnengilkgbkhodg/32/1?grayscale=true
 //     (ICON_SMALL, MATCH_BIGGER, grayscale)
-//   chrome-extension://gbmgkahjioeacddebbnengilkgbkhodg/128/0
+//   decentr-extension://gbmgkahjioeacddebbnengilkgbkhodg/128/0
 //     (ICON_LARGE, MATCH_EXACTLY)
 //
 // We attempt to load icons from the following sources in order:

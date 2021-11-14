@@ -903,7 +903,7 @@ Status GetExtensionBackgroundPage(const base::DictionaryValue* manifest,
   manifest->GetString("background.page", &bg_page_name);
   if (bg_page_name.empty() || !persistent)
     return Status(kOk);
-  GURL baseUrl("chrome-extension://" + id + "/");
+  GURL baseUrl("decentr-extension://" + id + "/");
   *bg_page = baseUrl.Resolve(bg_page_name).spec();
   return Status(kOk);
 }

@@ -888,7 +888,7 @@ public class WebLayerShellActivity extends AppCompatActivity {
             }
         }
 
-        if (input.startsWith("chrome://")) return Uri.parse(input);
+        if (input.startsWith("decentr://")) return Uri.parse(input);
 
         return Uri.parse("https://google.com/search")
                 .buildUpon()

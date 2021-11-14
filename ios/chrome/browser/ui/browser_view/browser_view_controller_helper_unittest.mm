@@ -32,7 +32,7 @@ namespace {
 
 static const char kWebUrl[] = "http://www.chromium.org";
 static const char16_t kWebUrl16[] = u"http://www.chromium.org";
-static const char kNativeUrl[] = "chrome://version";
+static const char kNativeUrl[] = "decentr://version";
 
 class BrowserViewControllerHelperTest : public PlatformTest {
  protected:

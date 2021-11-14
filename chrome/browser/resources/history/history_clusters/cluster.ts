@@ -6,8 +6,8 @@ import './page_favicon.js';
 import './shared_vars.js';
 import './top_visit.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserProxyImpl} from './browser_proxy.js';
 import {Cluster, PageCallbackRouter, URLVisit} from './history_clusters.mojom-webui.js';

@@ -13,7 +13,7 @@
 
 namespace tracing {
 
-// Watches for chrome://tracing to be enabled or disabled. When tracing is
+// Watches for decentr://tracing to be enabled or disabled. When tracing is
 // enabled, also enables system events profiling. This class is the preferred
 // way to turn system tracing on and off.
 class TraceEventSystemStatsMonitor

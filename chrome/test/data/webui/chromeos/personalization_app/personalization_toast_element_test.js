@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ActionName} from 'chrome://personalization/trusted/personalization_actions.js';
-import {PersonalizationToastElement} from 'chrome://personalization/trusted/personalization_toast_element.js';
+import {ActionName} from 'decentr://personalization/trusted/personalization_actions.js';
+import {PersonalizationToastElement} from 'decentr://personalization/trusted/personalization_toast_element.js';
 import {assertEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks, waitAfterNextRender} from '../../test_util.js';
 import {baseSetup, initElement, teardownElement} from './personalization_app_test_utils.js';

@@ -46,7 +46,7 @@ Fails if:
 Notably, this option does not go through the same exact pathway as the [omnibox install icon](#omnibox-install-icon), as it shares the call-site as the "Create Shortcut" method below. The main functional difference here is that if the site becomes no longer [promotable](../README.md#promotable) in between clicking on the menu option and the install actually happening, it will not fail and instead fall back to a fake manifest and/or fake icons based on the favicon. Practically, this option doesn't show up if the site is [promotable](../README.md#promotable). Should it share installation pathways as the the [omnibox install icon](#omnibox-install-icon)? Probably, yes.
 
 ### 3-dot menu option "Create Shortcut..."
-User-initiated installation. This menu option is always available, except for internal chrome urls like chrome://settings.
+User-initiated installation. This menu option is always available, except for internal chrome urls like decentr://settings.
 
 Prompts the user whether the shortcut should "open in a window". If the user checks this option, then the resulting WebApp will have the [user display](../README.md#user-display-mode) set to `kStandalone` / open-in-a-window.
 
@@ -109,12 +109,12 @@ To handle the cases above, on startup when the database is loaded, any WebApp wi
 ## Installation State Modifications
 
 ### Installing locally
-On non-ChromeOS devices, an app can be [not locally installed](../README.md#locally-installed). To become locally installed, the user can follow a normal install method (install icon will show up), or they can interact with the app on `chrome://apps`.
+On non-ChromeOS devices, an app can be [not locally installed](../README.md#locally-installed). To become locally installed, the user can follow a normal install method (install icon will show up), or they can interact with the app on `decentr://apps`.
 
-The `chrome://apps` code is unique here, and instead of re-installing the app, in manually sets the locally_installed bit to true in [`AppLauncherHandler::HandleInstallAppLocally`](https://source.chromium.org/search?q=AppLauncherHandler::HandleInstallAppLocally), and triggers OS integration in [`AppLauncherHandler::InstallOsHooks`](https://source.chromium.org/search?q=AppLauncherHandler::HandleInstallAppLocally)
+The `decentr://apps` code is unique here, and instead of re-installing the app, in manually sets the locally_installed bit to true in [`AppLauncherHandler::HandleInstallAppLocally`](https://source.chromium.org/search?q=AppLauncherHandler::HandleInstallAppLocally), and triggers OS integration in [`AppLauncherHandler::InstallOsHooks`](https://source.chromium.org/search?q=AppLauncherHandler::HandleInstallAppLocally)
 
 ### Creating Shortcuts
-Similarly to above, in `chrome://apps` the user can "Create Shortcuts..." for a web app. This should overwrite any shortcuts already created, and basically triggers OS integration to install shortcuts again in [`AppLauncherHandler::HandleCreateAppShortcut`](https://source.chromium.org/search?q=AppLauncherHandler::HandleCreateAppShortcut)
+Similarly to above, in `decentr://apps` the user can "Create Shortcuts..." for a web app. This should overwrite any shortcuts already created, and basically triggers OS integration to install shortcuts again in [`AppLauncherHandler::HandleCreateAppShortcut`](https://source.chromium.org/search?q=AppLauncherHandler::HandleCreateAppShortcut)
 
 ## Flowchart
 

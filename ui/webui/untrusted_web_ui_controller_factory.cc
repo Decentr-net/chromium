@@ -49,7 +49,7 @@ UntrustedWebUIControllerFactory::CreateWebUIControllerForURL(
 ui::WebUIConfig* UntrustedWebUIControllerFactory::GetConfigIfWebUIEnabled(
     content::BrowserContext* browser_context,
     const GURL& url) {
-  // This factory doesn't support non chrome-untrusted:// WebUIs.
+  // This factory doesn't support non decentr-untrusted:// WebUIs.
   if (!url.SchemeIs(content::kChromeUIUntrustedScheme))
     return nullptr;
 

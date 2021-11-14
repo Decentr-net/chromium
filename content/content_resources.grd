@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 This file specifies resources for user-facing features under /content. Resources
-for developer-facing chrome:// pages should be in dev_ui_content_resources.grd.
+for developer-facing decentr:// pages should be in dev_ui_content_resources.grd.
 Other resources that belong in this file:
 * Aliased resources (see shared_resources_data_source.cc).
 * (Optional) Resources for non-Android DevUI pages.

@@ -14,7 +14,7 @@ GEN('#include "content/public/test/browser_test.h"');
 WelcomeA11y = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://welcome/';
+    return 'decentr://welcome/';
   }
 
   /** @override */

@@ -63,7 +63,7 @@ Out of scope and known issues:
 
  * Site Isolation on Android is not enabled for all sites or devices. Reports
    should work when Site Isolation is enabled for the victim site (e.g., when
-   the victim site is specified in `chrome://flags/#isolate-origins`).
+   the victim site is specified in `decentr://flags/#isolate-origins`).
  * Compromised renderers are currently out of scope for Site Isolation on
    Android reports.
  * Sandboxed frames and data: URLs are currently treated as the same site as

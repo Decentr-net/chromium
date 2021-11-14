@@ -20,7 +20,7 @@ GEN('#include "chrome/browser/nearby_sharing/common/nearby_share_features.h"');
 var OSSettingsV3BrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings';
+    return 'decentr://os-settings';
   }
 
   /** @override */
@@ -38,7 +38,7 @@ var OSSettingsV3BrowserTest = class extends PolymerTest {
 var OSSettingsDevicePageV3Test = class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/device_page_tests.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/device_page_tests.m.js';
   }
 };
 
@@ -51,7 +51,7 @@ var OSSettingsDevicePageKeyboardArrangementDisabledV3Test =
     class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/device_page_tests.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/device_page_tests.m.js';
   }
 
   /** @override */
@@ -71,7 +71,7 @@ TEST_F(
 var OSSettingsNearbyShareSubPageV3Test = class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/nearby_share_subpage_tests.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/nearby_share_subpage_tests.m.js';
   }
 
   /** @override */
@@ -88,7 +88,7 @@ TEST_F('OSSettingsNearbyShareSubPageV3Test', 'All', () => mocha.run());
 var OSSettingsPrivacyPageV3Test = class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/os_privacy_page_test.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/os_privacy_page_test.m.js';
   }
 
   /** @override */
@@ -102,7 +102,7 @@ var OSSettingsPeoplePageAccountManagerV3Test =
     class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/people_page_account_manager_test.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/people_page_account_manager_test.m.js';
   }
 
   /** @override */
@@ -163,7 +163,7 @@ GEN('#endif');
 var OSSettingsLockScreenPageV3Test = class extends OSSettingsPrivacyPageV3Test {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/lock_screen_tests.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/lock_screen_tests.m.js';
   }
 
   /** @override */
@@ -210,7 +210,7 @@ TEST_F(
 var OSSettingsPeoplePageOsSyncV3Test = class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/os_sync_controls_test.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/os_sync_controls_test.m.js';
   }
 
   /** @override */
@@ -233,7 +233,7 @@ var OSSettingsPeoplePageOsSyncOptionalDisabledV3Test =
     class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/' +
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/' +
       'os_sync_controls_optional_disabled_test.m.js';
   }
 
@@ -256,7 +256,7 @@ TEST_F('OSSettingsPeoplePageOsSyncOptionalDisabledV3Test', 'AllJsTests', () => {
 var OSSettingsPeoplePageV3Test = class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/os_people_page_test.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/os_people_page_test.m.js';
   }
 
   /** @override */
@@ -297,7 +297,7 @@ TEST_F(
 var OSSettingsOsSettingsPageV3Test = class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/os_settings_page_test.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/os_settings_page_test.m.js';
   }
 
   /** @override */
@@ -320,7 +320,7 @@ var OSSettingsOsPairedBluetoothListItemV3Test =
     class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/os_paired_bluetooth_list_item_tests.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/os_paired_bluetooth_list_item_tests.m.js';
   }
 
   /** @override */
@@ -343,7 +343,7 @@ var OSSettingsOsBluetoothDeviceDetailSubpageV3Test =
     class extends OSSettingsV3BrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-settings/test_loader.html?module=settings/chromeos/os_bluetooth_device_detail_subpage_tests.m.js';
+    return 'decentr://os-settings/test_loader.html?module=settings/chromeos/os_bluetooth_device_detail_subpage_tests.m.js';
   }
 
   /** @override */
@@ -506,7 +506,7 @@ function registerTest(testName, module, caseName) {
   this[className] = class extends OSSettingsV3BrowserTest {
     /** @override */
     get browsePreload() {
-      return `chrome://os-settings/test_loader.html?module=settings/chromeos/${
+      return `decentr://os-settings/test_loader.html?module=settings/chromeos/${
           module}`;
     }
   };

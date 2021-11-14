@@ -30,9 +30,9 @@ const int64_t kPhoneHubNotificationId0 = 0;
 const int64_t kPhoneHubNotificationId1 = 1;
 const int64_t kPhoneHubNotificationId2 = 2;
 
-const char kCrOSNotificationId0[] = "chrome://phonehub-0";
-const char kCrOSNotificationId1[] = "chrome://phonehub-1";
-const char kCrOSNotificationId2[] = "chrome://phonehub-2";
+const char kCrOSNotificationId0[] = "decentr://phonehub-0";
+const char kCrOSNotificationId1[] = "decentr://phonehub-1";
+const char kCrOSNotificationId2[] = "decentr://phonehub-2";
 
 const char16_t kAppName[] = u"Test App";
 const char kPackageName[] = "com.google.testapp";

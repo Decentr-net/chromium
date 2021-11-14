@@ -221,11 +221,11 @@ input[type=checkbox] {
 }
 
 .search-icon {
-  background-image: url(chrome://resources/images/icon_search.svg);
+  background-image: url(decentr://resources/images/icon_search.svg);
 }
 
 .reset-icon {
-  background-image: url(chrome://resources/images/icon_refresh.svg);
+  background-image: url(decentr://resources/images/icon_refresh.svg);
 }
 
 .copy-icon {

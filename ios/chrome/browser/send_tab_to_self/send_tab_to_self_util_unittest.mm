@@ -96,7 +96,7 @@ TEST_F(SendTabToSelfUtilTest, NotHTTPOrHTTPS) {
 }
 
 TEST_F(SendTabToSelfUtilTest, WebUIPage) {
-  GURL url = GURL("chrome://flags");
+  GURL url = GURL("decentr://flags");
   EXPECT_FALSE(AreContentRequirementsMet(url, browser_state()));
 }
 

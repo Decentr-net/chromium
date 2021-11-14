@@ -47,7 +47,7 @@ copy("stage_generated") {
   ]
 }
 
-# Generate a bundle of all the JS needed for chrome://help-app.
+# Generate a bundle of all the JS needed for decentr://help-app.
 optimize_webui("browser_proxy_rollup") {
   host = "help-app"
   js_out_files = [ "browser_proxy.rollup.js" ]
@@ -59,7 +59,7 @@ optimize_webui("browser_proxy_rollup") {
   ]
 }
 
-# Generate a bundle of all the JS needed for chrome-untrusted://help-app.
+# Generate a bundle of all the JS needed for decentr-untrusted://help-app.
 optimize_webui("receiver_rollup") {
   host = "help-app"
   js_out_files = [ "receiver.rollup.js" ]

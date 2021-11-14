@@ -78,7 +78,7 @@ interface PPB_Trace_Event_Dev {
 
   /**
    * Sets the thread name of the calling thread in the tracing system so it will
-   * show up properly in chrome://tracing.
+   * show up properly in decentr://tracing.
    */
   void SetThreadName([in] cstr_t thread_name);
 };

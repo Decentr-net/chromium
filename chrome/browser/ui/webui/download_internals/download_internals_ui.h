@@ -8,7 +8,7 @@
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The WebUI for chrome://download-internals.
+// The WebUI for decentr://download-internals.
 class DownloadInternalsUI : public content::WebUIController {
  public:
   explicit DownloadInternalsUI(content::WebUI* web_ui);

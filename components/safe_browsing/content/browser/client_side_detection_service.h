@@ -116,7 +116,7 @@ class ClientSideDetectionService : public KeyedService {
   virtual bool IsPrivateIPAddress(const net::IPAddress& address) const;
 
   // Returns true if the given IP address does not refer to remote content. For
-  // example, local files and chrome:// pages will create navigations that
+  // example, local files and decentr:// pages will create navigations that
   // return true.
   virtual bool IsLocalResource(const net::IPAddress& address) const;
 

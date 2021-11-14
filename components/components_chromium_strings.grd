@@ -277,8 +277,8 @@
         </message>
       </if>
 
-      <!-- chrome://crashes strings -->
-      <message name="IDS_CRASH_DISABLED_MESSAGE" desc="The explanatory message for chrome://crashes when crash reporting is disabled">
+      <!-- decentr://crashes strings -->
+      <message name="IDS_CRASH_DISABLED_MESSAGE" desc="The explanatory message for decentr://crashes when crash reporting is disabled">
         Crash reporting is not available in Chromium.
       </message>
 
@@ -292,7 +292,7 @@
       </message>
 
       <!-- Page Info -->
-      <message name="IDS_PAGE_INFO_INTERNAL_PAGE" desc="Message to display in the page info bubble when the page you are on is a chrome:// page or about:something.">
+      <message name="IDS_PAGE_INFO_INTERNAL_PAGE" desc="Message to display in the page info bubble when the page you are on is a decentr:// page or about:something.">
         You're viewing a secure Chromium page
       </message>
 

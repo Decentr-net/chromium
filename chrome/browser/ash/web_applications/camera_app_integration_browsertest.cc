@@ -18,7 +18,7 @@ using CameraAppIntegrationTest = SystemWebAppIntegrationTest;
 IN_PROC_BROWSER_TEST_P(CameraAppIntegrationTest, MainUrlNavigation) {
   WaitForTestSystemAppInstall();
 
-  GURL main_camera_app_url("chrome://camera-app/views/main.html");
+  GURL main_camera_app_url("decentr://camera-app/views/main.html");
   content::TestNavigationObserver navigation_observer(main_camera_app_url);
   navigation_observer.StartWatchingNewWebContents();
   ASSERT_EQ(1u, chrome::GetTotalBrowserCount());
@@ -40,7 +40,7 @@ IN_PROC_BROWSER_TEST_P(CameraAppIntegrationTest, OtherPageUrlNavigation) {
 
   // TODO(crbug.com/980846): Change it to test page once the corresponding CL is
   // merged.
-  GURL other_page_camera_app_url("chrome://camera-app/js/main.js");
+  GURL other_page_camera_app_url("decentr://camera-app/js/main.js");
   ASSERT_EQ(1u, chrome::GetTotalBrowserCount());
 
   ui_test_utils::SendToOmniboxAndSubmit(browser(),

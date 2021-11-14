@@ -64,37 +64,37 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://test/*",
-      "chrome://other-test/*"
+      "decentr://test/*",
+      "decentr://other-test/*"
     ]
   },
   "test9": {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
     "matches": [
-      "chrome-untrusted://test/*",
-      "chrome-untrusted://other-test/*"
+      "decentr-untrusted://test/*",
+      "decentr-untrusted://other-test/*"
     ]
   },
   "test10": {
     "channel": "stable",
     "contexts": ["webui"],
-    "matches": ["chrome://test/*"]
+    "matches": ["decentr://test/*"]
   },
   "test10.foo": {
     "channel": "stable",
     "contexts": ["webui"],
-    "matches": ["chrome://other-test/*"]
+    "matches": ["decentr://other-test/*"]
   },
   "test11": {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
-    "matches" : ["chrome-untrusted://test/*"]
+    "matches" : ["decentr-untrusted://test/*"]
   },
   "test11.foo": {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
-    "matches" : ["chrome-untrusted://other-test/*"]
+    "matches" : ["decentr-untrusted://other-test/*"]
   },
 
   "parent1": {

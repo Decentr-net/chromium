@@ -9,7 +9,7 @@
 
 namespace chromeos {
 
-// The WebUI controller for chrome://multidevice-internals.
+// The WebUI controller for decentr://multidevice-internals.
 class MultideviceInternalsUI : public ui::MojoWebUIController {
  public:
   explicit MultideviceInternalsUI(content::WebUI* web_ui);

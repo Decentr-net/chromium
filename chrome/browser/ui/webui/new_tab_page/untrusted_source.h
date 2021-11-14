@@ -15,19 +15,19 @@
 
 class Profile;
 
-// Serves chrome-untrusted://new-tab-page/* sources which can return content
-// from outside the chromium codebase. The chrome-untrusted://new-tab-page/*
-// sources can only be embedded in the chrome://new-tab-page by using an
+// Serves decentr-untrusted://new-tab-page/* sources which can return content
+// from outside the chromium codebase. The decentr-untrusted://new-tab-page/*
+// sources can only be embedded in the decentr://new-tab-page by using an
 // <iframe>.
 //
-// Offers the following helpers to embed content into chrome://new-tab-page in a
+// Offers the following helpers to embed content into decentr://new-tab-page in a
 // generalized way:
-//   * chrome-untrusted://new-tab-page/image?<url>: Behaves like an img element
+//   * decentr-untrusted://new-tab-page/image?<url>: Behaves like an img element
 //       with src set to <url>.
-//   * chrome-untrusted://new-tab-page/background_image?<url>: Behaves like an
+//   * decentr-untrusted://new-tab-page/background_image?<url>: Behaves like an
 //       element that has <url> set as the background image, such that the image
 //       will cover the entire element.
-//   * chrome-untrusted://new-tab-page/custom_background_image?<params>: Similar
+//   * decentr-untrusted://new-tab-page/custom_background_image?<params>: Similar
 //       to background_image but allows for custom styling. <params> are of the
 //       form <key>=<value>. The following keys are supported:
 //         * url:       background image URL.
@@ -37,7 +37,7 @@ class Profile;
 //         * repeatY:   (optional) CSS background-repeat-y property.
 //         * positionX: (optional) CSS background-position-x property.
 //         * positionY: (optional) CSS background-position-y property.
-//   Each of those helpers only accept URLs with HTTPS or chrome-untrusted:.
+//   Each of those helpers only accept URLs with HTTPS or decentr-untrusted:.
 class UntrustedSource : public content::URLDataSource,
                         public OneGoogleBarServiceObserver {
  public:

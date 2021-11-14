@@ -97,7 +97,7 @@ void AssociateParamsFromExperiment(
   if (!trial) {
     DLOG(WARNING) << "Field trial config study skipped: " << study_name
                   << "." << experiment.name
-                  << " (it is overridden from chrome://flags)";
+                  << " (it is overridden from decentr://flags)";
     return;
   }
 

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_dialog/cr_dialog.m.js';
+import 'decentr://resources/cr_elements/cr_dialog/cr_dialog.m.js';
 
-import {MechanicalLayout as DiagramMechanicalLayout} from 'chrome://resources/ash/common/keyboard_diagram.js';
-import {html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {MechanicalLayout as DiagramMechanicalLayout} from 'decentr://resources/ash/common/keyboard_diagram.js';
+import {html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {KeyboardInfo, MechanicalLayout, PhysicalLayout} from './diagnostics_types.js'
 

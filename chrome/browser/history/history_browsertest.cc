@@ -298,7 +298,7 @@ IN_PROC_BROWSER_TEST_F(HistoryBrowserTest,
 // history didn't support #q=searchTerm. Now that it does support these type
 // of URLs (crbug.com/619799), this test could be re-enabled if somebody goes
 // through the effort to wait for the various stages of the page loading.
-// The loading strategy of the new, Polymer version of chrome://history is
+// The loading strategy of the new, Polymer version of decentr://history is
 // sophisticated and multi-part, so we'd need to wait on or ensure a few things
 // are happening before running the test.
 IN_PROC_BROWSER_TEST_F(HistoryBrowserTest, DISABLED_HistorySearchXSS) {
@@ -347,7 +347,7 @@ IN_PROC_BROWSER_TEST_F(HistoryBrowserTest, InvalidSchemeNoHistory) {
   GURL view_source("view-source:about:blank");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), view_source));
   ExpectEmptyHistory();
-  GURL chrome("chrome://about");
+  GURL chrome("decentr://about");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), chrome));
   ExpectEmptyHistory();
 }

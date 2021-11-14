@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_components/managed_dialog/managed_dialog.js';
-import 'chrome://resources/cr_elements/cr_button/cr_button.m.js';
-import 'chrome://resources/cr_elements/cr_link_row/cr_link_row.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
-import 'chrome://resources/cr_elements/md_select_css.m.js';
+import 'decentr://resources/cr_components/managed_dialog/managed_dialog.js';
+import 'decentr://resources/cr_elements/cr_button/cr_button.m.js';
+import 'decentr://resources/cr_elements/cr_link_row/cr_link_row.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/md_select_css.m.js';
 import '../controls/controlled_radio_button.js';
 import '../controls/extension_controlled_indicator.js';
 import '../controls/settings_radio_group.js';
@@ -18,9 +18,9 @@ import '../settings_vars_css.js';
 import './home_url_input.js';
 import '../controls/settings_dropdown_menu.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {I18nMixin} from 'chrome://resources/js/i18n_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {I18nMixin} from 'decentr://resources/js/i18n_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BaseMixin} from '../base_mixin.js';
 import {DropdownMenuOptionList} from '../controls/settings_dropdown_menu.js';

@@ -5,15 +5,15 @@
 /** @fileoverview Suite of tests for site-list-entry. */
 
 // clang-format off
-import 'chrome://test/cr_elements/cr_policy_strings.js';
+import 'decentr://test/cr_elements/cr_policy_strings.js';
 
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {ContentSettingsTypes,SiteSettingsPrefsBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {Router, routes} from 'chrome://settings/settings.js';
-import {TestSiteSettingsPrefsBrowserProxy} from 'chrome://test/settings/test_site_settings_prefs_browser_proxy.js';
-import {eventToPromise} from 'chrome://test/test_util.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {ContentSettingsTypes,SiteSettingsPrefsBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {Router, routes} from 'decentr://settings/settings.js';
+import {TestSiteSettingsPrefsBrowserProxy} from 'decentr://test/settings/test_site_settings_prefs_browser_proxy.js';
+import {eventToPromise} from 'decentr://test/test_util.js';
 
 // clang-format on
 

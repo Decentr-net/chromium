@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BrowserService, ensureLazyLoaded} from 'chrome://history/history.js';
-import {isMac} from 'chrome://resources/js/cr.m.js';
-import {pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestBrowserService} from 'chrome://test/history/test_browser_service.js';
-import {createHistoryEntry, createHistoryInfo, polymerSelectAll} from 'chrome://test/history/test_util.js';
-import {eventToPromise, flushTasks, waitAfterNextRender} from 'chrome://test/test_util.js';
+import {BrowserService, ensureLazyLoaded} from 'decentr://history/history.js';
+import {isMac} from 'decentr://resources/js/cr.m.js';
+import {pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestBrowserService} from 'decentr://test/history/test_browser_service.js';
+import {createHistoryEntry, createHistoryInfo, polymerSelectAll} from 'decentr://test/history/test_util.js';
+import {eventToPromise, flushTasks, waitAfterNextRender} from 'decentr://test/test_util.js';
 
 suite('<history-list>', function() {
   let app;

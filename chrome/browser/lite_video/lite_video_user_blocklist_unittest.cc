@@ -148,7 +148,7 @@ class LiteVideoUserBlocklistTest : public ChromeRenderViewHostTestHarness {
 };
 
 TEST_F(LiteVideoUserBlocklistTest, NavigationNotEligibile) {
-  GURL url("chrome://about");
+  GURL url("decentr://about");
   EXPECT_EQ(CheckBlocklistForMainframeNavigation(url),
             LiteVideoBlocklistReason::kNavigationNotEligibile);
 }

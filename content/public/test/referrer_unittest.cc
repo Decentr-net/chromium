@@ -64,7 +64,7 @@ TEST_F(ReferrerSanitizerTest, SanitizeOriginForRequest) {
 TEST(ReferrerSanitizerTest, OnlyHTTPFamilyReferrer) {
   auto result = Referrer::SanitizeForRequest(
       GURL("https://a"),
-      Referrer(GURL("chrome-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi"),
+      Referrer(GURL("decentr-extension://ghbmnnjooekpmoecnnnilnnbdlolhkhi"),
                network::mojom::ReferrerPolicy::kAlways));
   EXPECT_TRUE(result.url.is_empty());
 }

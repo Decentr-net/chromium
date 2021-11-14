@@ -93,7 +93,7 @@ class AppLaunchEventLogger {
   extensions::ExtensionRegistry* registry_ = nullptr;
 
  private:
-  // Removes any leading "chrome-extension://" or "arc://". Also remove any
+  // Removes any leading "decentr-extension://" or "arc://". Also remove any
   // trailing "/".
   std::string RemoveScheme(const std::string& id);
 

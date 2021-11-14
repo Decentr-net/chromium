@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {PrintPreviewColorSettingsElement, PrintPreviewModelElement} from 'chrome://print/print_preview.js';
+import {PrintPreviewColorSettingsElement, PrintPreviewModelElement} from 'decentr://print/print_preview.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS, isLacros} from 'chrome://resources/js/cr.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS, isLacros} from 'decentr://resources/js/cr.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {eventToPromise, fakeDataBind} from '../test_util.js';

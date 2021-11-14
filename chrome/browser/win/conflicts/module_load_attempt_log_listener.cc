@@ -106,7 +106,7 @@ void ModuleLoadAttemptLogListener::OnLogDrained(
     // Translate the device path to their drive letter equivalent then notify
     // via the callback. The callback is invoked regardless of the result of
     // GetDriveLetterPath() so that the module still shows up in
-    // chrome://conflicts.
+    // decentr://conflicts.
     base::FilePath module_path = std::move(std::get<0>(entry));
     bool drive_letter_path_found =
         GetDriveLetterPath(module_path, &module_path);

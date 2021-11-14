@@ -178,7 +178,7 @@ class VisitDatabase {
                                   int* count,
                                   base::Time* first_visit);
 
-  // Gets the number of URLs as seen in chrome://history within the time
+  // Gets the number of URLs as seen in decentr://history within the time
   // range [`begin_time`, `end_time`). "User-visible" is defined as in
   // GetVisibleVisitsInRange() above, i.e. excluding redirects and subframes.
   // Each URL is counted only once per day. For determination of the date,

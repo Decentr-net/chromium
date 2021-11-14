@@ -53,7 +53,7 @@ export function sendVisible(target, visible) {
 }
 
 /**
- * Send an array of wallpaper images to chrome-untrusted://.
+ * Send an array of wallpaper images to decentr-untrusted://.
  * Will clear the page if images is empty array.
  * @param {!Window} target the iframe window to send the message to.
  * @param {!Array<!chromeos.personalizationApp.mojom.WallpaperImage>} images
@@ -65,7 +65,7 @@ export function sendImages(target, images) {
 }
 
 /**
- * Send an array of local images to chrome-untrusted://.
+ * Send an array of local images to decentr-untrusted://.
  * @param {!Window} target the iframe window to send the message to.
  * @param {!Array<!mojoBase.mojom.FilePath>} images
  */

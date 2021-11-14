@@ -249,7 +249,7 @@ struct CastProviderState {
 };
 
 // Returned to the Media Router to reflect the state of a single route
-// provider for chrome://media-router-internals.
+// provider for decentr://media-router-internals.
 union ProviderState {
   // The state of the Cast MRP.
   CastProviderState cast_provider_state;

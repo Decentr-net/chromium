@@ -150,7 +150,7 @@ and `IDNSpoofChecker` class in
 
 In addition to the spoof checks above, Chrome also implements a full page
 security warning to protect against lookalike URLs. You can find an example of 
-this warning at `chrome://interstitials/lookalike`. This warning blocks main
+this warning at `decentr://interstitials/lookalike`. This warning blocks main
 frame navigations that involve lookalike URLs, either as a direct navigation or
 as part of a redirect.
 

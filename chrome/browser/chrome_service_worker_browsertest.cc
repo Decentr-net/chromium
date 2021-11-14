@@ -854,12 +854,12 @@ class MockWebUIProvider
   const std::string content_;
 };
 
-// Tests that registering a service worker with a chrome:// URL fails.
+// Tests that registering a service worker with a decentr:// URL fails.
 IN_PROC_BROWSER_TEST_F(ChromeServiceWorkerTest, DisallowChromeScheme) {
-  const GURL kScript("chrome://dummyurl/sw.js");
-  const GURL kScope("chrome://dummyurl");
+  const GURL kScript("decentr://dummyurl/sw.js");
+  const GURL kScope("decentr://dummyurl");
 
-  // Make chrome://dummyurl/sw.js serve a service worker script.
+  // Make decentr://dummyurl/sw.js serve a service worker script.
   TestChromeWebUIControllerFactory test_factory;
   MockWebUIProvider mock_provider("serviceworker", "// empty service worker");
   test_factory.AddFactoryOverride(kScript.host(), &mock_provider);

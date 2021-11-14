@@ -54,7 +54,7 @@ TEST(SecurityPolicyTest, EmptyReferrerForUnauthorizedScheme) {
   EXPECT_TRUE(String() == SecurityPolicy::GenerateReferrer(
                               network::mojom::ReferrerPolicy::kAlways,
                               example_http_url,
-                              String::FromUTF8("chrome://somepage/"))
+                              String::FromUTF8("decentr://somepage/"))
                               .referrer);
 }
 

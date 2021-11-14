@@ -858,7 +858,7 @@ TEST_F(DocumentTest, CanExecuteScriptsWithSandboxAndIsolatedWorld) {
       DOMWrapperWorld::EnsureIsolatedWorld(isolate, kIsolatedWorldWithCSPId);
   IsolatedWorldCSP::Get().SetContentSecurityPolicy(
       kIsolatedWorldWithCSPId, String::FromUTF8("script-src *"),
-      SecurityOrigin::Create(KURL("chrome-extension://123")));
+      SecurityOrigin::Create(KURL("decentr-extension://123")));
   ScriptState* isolated_world_with_csp_script_state =
       ToScriptState(frame, *world_with_csp);
   ASSERT_TRUE(world_with_csp->IsIsolatedWorld());

@@ -176,7 +176,7 @@ IN_PROC_BROWSER_TEST_F(NaClBrowserTestNewlibVcacheExtension,
   // nexe from the same origin, so we can't just try to load the extension
   // nexe as a mime-type handler from a non-extension URL.
   base::FilePath::StringType full_url =
-      FILE_PATH_LITERAL("chrome-extension://cbcdidchbppangcjoddlpdjlenngjldk/")
+      FILE_PATH_LITERAL("decentr-extension://cbcdidchbppangcjoddlpdjlenngjldk/")
       FILE_PATH_LITERAL("extension_validation_cache.html");
   RunNaClIntegrationTest(full_url, true);
 
@@ -224,7 +224,7 @@ IN_PROC_BROWSER_TEST_F(NaClBrowserTestGLibcVcacheExtension,
   // nexe from the same origin, so we can't just try to load the extension
   // nexe as a mime-type handler from a non-extension URL.
   base::FilePath::StringType full_url =
-      FILE_PATH_LITERAL("chrome-extension://cbcdidchbppangcjoddlpdjlenngjldk/")
+      FILE_PATH_LITERAL("decentr-extension://cbcdidchbppangcjoddlpdjlenngjldk/")
       FILE_PATH_LITERAL("extension_validation_cache.html");
   RunNaClIntegrationTest(full_url, true);
 

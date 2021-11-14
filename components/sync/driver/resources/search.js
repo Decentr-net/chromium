@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
-import {Splitter} from 'chrome://resources/js/cr/ui/splitter.js';
-import {$, getRequiredElement} from 'chrome://resources/js/util.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
+import {Splitter} from 'decentr://resources/js/cr/ui/splitter.js';
+import {$, getRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {decorateQuickQueryControls, decorateSearchControls} from './sync_search.js';
 

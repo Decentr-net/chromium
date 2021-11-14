@@ -21,7 +21,7 @@ class PolicyMap;
 struct PolicyNamespace;
 }  // namespace policy
 
-// The JavaScript message handler for the chrome://policy page.
+// The JavaScript message handler for the decentr://policy page.
 class PolicyUIHandler : public web::WebUIIOSMessageHandler,
                         public policy::PolicyService::Observer,
                         public policy::SchemaRegistry::Observer {

@@ -14,7 +14,7 @@
  * iron-icon element.
  *
  * Example of using a cr-icon:
- * <link rel="import" href="chrome://resources/cr_elements/cr_icons_css.html">
+ * <link rel="import" href="decentr://resources/cr_elements/cr_icons_css.html">
  * <dom-module id="module">
  *   <template>
  *     <style includes="cr-icons"></style>
@@ -26,7 +26,7 @@
  * class will set an image to the --cr-icon-image variable.
  *
  * Example of using an iron-icon:
- * <link rel="import" href="chrome://resources/cr_elements/icons.html">
+ * <link rel="import" href="decentr://resources/cr_elements/icons.html">
  * <cr-icon-button iron-icon="cr:icon-key"></cr-icon-button>
  *
  * The color of the icon can be overridden using CSS variables. When using

@@ -1414,7 +1414,7 @@
 <translation id="2431027948063157455">Google 어시스턴트를 로드할 수 없습니다. 네트워크 연결 상태를 확인하고 다시 시도해 보세요.</translation>
 <translation id="243179355394256322">조직에서 승인된 사용자만 기기를 등록할 수 있도록 제한하고 있습니다. 이 사용자는 기기를 등록할 권한이 없습니다. 관리 콘솔의 사용자 섹션에서 사용자가 'Google Meet 하드웨어 등록' 관리자 권한을 보유하고 있는지 확인하세요.</translation>
 <translation id="243275146591958220">다운로드 취소</translation>
-<translation id="2433452467737464329">URL에 다음 검색어 매개변수를 추가하여 페이지를 자동으로 새로고침: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">URL에 다음 검색어 매개변수를 추가하여 페이지를 자동으로 새로고침: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">모양</translation>
 <translation id="2433836460518180625">기기만 잠금 해제</translation>
 <translation id="2434449159125086437">프린터를 설정할 수 없습니다. 설정을 확인하고 다시 시도해 보세요.</translation>
@@ -1943,7 +1943,7 @@
 <translation id="2959127025785722291">문제가 발생했습니다. 스캔을 완료할 수 없습니다. 다시 시도해 보세요.</translation>
 <translation id="2959842337402130152">저장공간이 부족하여 복원할 수 없습니다. 기기에서 <ph name="SPACE_REQUIRED" />를 확보한 후 다시 시도해 보세요.</translation>
 <translation id="2960208947600937804">Linux를 설정하는 중에 오류가 발생했습니다. 관리자에게 문의하세요.</translation>
-<translation id="296026337010986570">유해한 소프트웨어 삭제가 완료되었습니다. 확장 프로그램을 다시 사용 설정하려면 &lt;a href="chrome://extensions"&gt;확장 프로그램&lt;/a&gt;으로 이동하세요.</translation>
+<translation id="296026337010986570">유해한 소프트웨어 삭제가 완료되었습니다. 확장 프로그램을 다시 사용 설정하려면 &lt;a href="decentr://extensions"&gt;확장 프로그램&lt;/a&gt;으로 이동하세요.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" />(확장 프로그램에서 제공)</translation>
 <translation id="2961210776189273067">제목</translation>
 <translation id="2961695502793809356">클릭하면 다음 페이지로 가고 누르고 있으면 방문 기록이 나타납니다.</translation>
@@ -4942,7 +4942,7 @@
 <translation id="6227280783235722609">확장 프로그램</translation>
 <translation id="6229849828796482487">Wi-Fi 네트워크 연결 해제</translation>
 <translation id="6231782223312638214">추천</translation>
-<translation id="6231881193380278751">검색어 매개변수를 URL에 추가하여 다음 페이지를 자동으로 새로고침하세요. chrome://device-log/?refresh=&lt;sec&gt;</translation>
+<translation id="6231881193380278751">검색어 매개변수를 URL에 추가하여 다음 페이지를 자동으로 새로고침하세요. decentr://device-log/?refresh=&lt;sec&gt;</translation>
 <translation id="6232017090690406397">배터리</translation>
 <translation id="6232116551750539448"><ph name="NAME" /> 연결이 끊어졌습니다.</translation>
 <translation id="6233154960150021497">키보드 대신 음성 사용을 기본값으로 설정</translation>

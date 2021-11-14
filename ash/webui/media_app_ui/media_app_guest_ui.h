@@ -21,7 +21,7 @@ class MediaAppGuestUIDelegate {
   virtual void PopulateLoadTimeData(content::WebUIDataSource* source) = 0;
 };
 
-// The webui for chrome-untrusted://media-app.
+// The webui for decentr-untrusted://media-app.
 class MediaAppGuestUI : public ui::UntrustedWebUIController {
  public:
   MediaAppGuestUI(content::WebUI* web_ui, MediaAppGuestUIDelegate* delegate);

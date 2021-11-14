@@ -35,7 +35,7 @@ using user_manager::UserManager;
 namespace {
 
 const char kMobileDataNotificationId[] =
-    "chrome://settings/internet/mobile_data";
+    "decentr://settings/internet/mobile_data";
 const char kNotifierMobileData[] = "ash.mobile-data";
 
 void MobileDataNotificationClicked(const std::string& network_id) {

@@ -18,7 +18,7 @@ std::vector<std::string> GetPatternsAsStrings(const URLPatternSet& patterns) {
   std::vector<std::string> pattern_strings;
   pattern_strings.reserve(patterns.size());
   for (const auto& pattern : patterns) {
-    // chrome://favicon/ is automatically added as a pattern when the extension
+    // decentr://favicon/ is automatically added as a pattern when the extension
     // requests access to <all_urls>, but isn't really a host pattern (it allows
     // the extension to retrieve a favicon for a given URL). Just ignore it when
     // generating host sets.

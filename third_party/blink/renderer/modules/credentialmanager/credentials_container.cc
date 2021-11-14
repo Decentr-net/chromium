@@ -96,7 +96,7 @@ using mojom::blink::GetAssertionAuthenticatorResponsePtr;
 using payments::mojom::blink::PaymentCredentialStorageStatus;
 
 constexpr char kCryptotokenOrigin[] =
-    "chrome-extension://kmendfapggjehodndflmmgagdbamhnfd";
+    "decentr-extension://kmendfapggjehodndflmmgagdbamhnfd";
 
 // RequiredOriginType enumerates the requirements on the environment to perform
 // an operation.

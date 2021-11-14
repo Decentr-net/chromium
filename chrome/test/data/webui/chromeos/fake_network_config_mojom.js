@@ -7,9 +7,9 @@
  */
 
 // clang-format off
- // #import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
- // #import {OncMojo} from 'chrome://resources/cr_components/chromeos/network/onc_mojo.m.js';
- // #import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+ // #import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+ // #import {OncMojo} from 'decentr://resources/cr_components/chromeos/network/onc_mojo.m.js';
+ // #import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 // clang-format on
 
 // Default cellular pin, used when locking/unlocking cellular profiles.

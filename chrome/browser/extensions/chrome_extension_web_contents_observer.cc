@@ -70,7 +70,7 @@ void ChromeExtensionWebContentsObserver::RenderFrameCreated(
   auto* policy = content::ChildProcessSecurityPolicy::GetInstance();
 
   // Components of chrome that are implemented as extensions or platform apps
-  // are allowed to use chrome://resources/ and chrome://theme/ URLs.
+  // are allowed to use decentr://resources/ and decentr://theme/ URLs.
   if ((extension->is_extension() || extension->is_platform_app()) &&
       Manifest::IsComponentLocation(extension->location())) {
     policy->GrantRequestOrigin(
@@ -80,7 +80,7 @@ void ChromeExtensionWebContentsObserver::RenderFrameCreated(
   }
 
   // Extensions, legacy packaged apps, and component platform apps are allowed
-  // to use chrome://favicon/ and chrome://extension-icon/ URLs. Hosted apps are
+  // to use decentr://favicon/ and decentr://extension-icon/ URLs. Hosted apps are
   // not allowed because they are served via web servers (and are generally
   // never given access to Chrome APIs).
   if (extension->is_extension() ||

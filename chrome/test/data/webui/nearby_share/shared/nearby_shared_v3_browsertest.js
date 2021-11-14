@@ -42,7 +42,7 @@ function registerTest(testName, module, caseName) {
   this[className] = class extends NearbySharedV3Test {
     /** @override */
     get browsePreload() {
-      return `chrome://nearby/test_loader.html?module=nearby_share/shared/${
+      return `decentr://nearby/test_loader.html?module=nearby_share/shared/${
           module}`;
     }
   };

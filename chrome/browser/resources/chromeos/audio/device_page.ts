@@ -1,4 +1,4 @@
-import {$} from 'chrome://resources/js/util.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {DeviceData, PageCallbackRouter, PageHandlerRemote} from './audio.mojom-webui.js';
 import {AudioBroker} from './audio_broker.js';

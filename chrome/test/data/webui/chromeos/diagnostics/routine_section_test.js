@@ -2,18 +2,18 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/routine_section.js';
+import 'decentr://diagnostics/routine_section.js';
 
-import {RoutineType, StandardRoutineResult} from 'chrome://diagnostics/diagnostics_types.js';
-import {createRoutine} from 'chrome://diagnostics/diagnostics_utils.js';
-import {fakePowerRoutineResults, fakeRoutineResults} from 'chrome://diagnostics/fake_data.js';
-import {FakeSystemRoutineController} from 'chrome://diagnostics/fake_system_routine_controller.js';
-import {setSystemRoutineControllerForTesting} from 'chrome://diagnostics/mojo_interface_provider.js';
-import {RoutineGroup} from 'chrome://diagnostics/routine_group.js';
-import {ExecutionProgress, TestSuiteStatus} from 'chrome://diagnostics/routine_list_executor.js';
-import {getRoutineType} from 'chrome://diagnostics/routine_result_entry.js';
-import {BadgeType} from 'chrome://diagnostics/text_badge.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {RoutineType, StandardRoutineResult} from 'decentr://diagnostics/diagnostics_types.js';
+import {createRoutine} from 'decentr://diagnostics/diagnostics_utils.js';
+import {fakePowerRoutineResults, fakeRoutineResults} from 'decentr://diagnostics/fake_data.js';
+import {FakeSystemRoutineController} from 'decentr://diagnostics/fake_system_routine_controller.js';
+import {setSystemRoutineControllerForTesting} from 'decentr://diagnostics/mojo_interface_provider.js';
+import {RoutineGroup} from 'decentr://diagnostics/routine_group.js';
+import {ExecutionProgress, TestSuiteStatus} from 'decentr://diagnostics/routine_list_executor.js';
+import {getRoutineType} from 'decentr://diagnostics/routine_result_entry.js';
+import {BadgeType} from 'decentr://diagnostics/text_badge.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible} from '../../test_util.js';

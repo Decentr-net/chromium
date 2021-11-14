@@ -57,7 +57,7 @@ TEST_F(CannedCacheStorageHelperTest, Delete) {
 }
 
 TEST_F(CannedCacheStorageHelperTest, IgnoreExtensionsAndDevTools) {
-  const GURL origin1("chrome-extension://abcdefghijklmnopqrstuvwxyz/");
+  const GURL origin1("decentr-extension://abcdefghijklmnopqrstuvwxyz/");
   const GURL origin2("devtools://abcdefghijklmnopqrstuvwxyz/");
 
   auto helper = MakeHelper();

@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/lazy_load.js';
+// #import 'decentr://os-settings/chromeos/lazy_load.js';
 
-// #import {PrinterType} from 'chrome://os-settings/chromeos/lazy_load.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {PrinterType} from 'decentr://os-settings/chromeos/lazy_load.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 /**

@@ -783,7 +783,7 @@ TEST_F(EnabledPasswordSiteIsolationFieldTrialTest, BelowThreshold) {
 
   // Simulate enabling password site isolation from command line.  (Note that
   // InitAndEnableFeature uses ScopedFeatureList::InitFromCommandLine
-  // internally, and that triggering the feature via chrome://flags follows the
+  // internally, and that triggering the feature via decentr://flags follows the
   // same override path as well.)
   base::test::ScopedFeatureList password_site_isolation_feature;
   password_site_isolation_feature.InitAndEnableFeature(
@@ -820,7 +820,7 @@ TEST_F(EnabledPasswordSiteIsolationFieldTrialTest, AboveThreshold) {
 
   // Simulate disabling password site isolation from command line.  (Note that
   // InitAndEnableFeature uses ScopedFeatureList::InitFromCommandLine
-  // internally, and that triggering the feature via chrome://flags follows the
+  // internally, and that triggering the feature via decentr://flags follows the
   // same override path as well.)  This should take precedence over the regular
   // field trial behavior.
   base::test::ScopedFeatureList password_site_isolation_feature;
@@ -842,7 +842,7 @@ TEST_F(DisabledPasswordSiteIsolationFieldTrialTest,
 
   // Simulate enabling password site isolation from command line.  (Note that
   // InitAndEnableFeature uses ScopedFeatureList::InitFromCommandLine
-  // internally, and that triggering the feature via chrome://flags follows the
+  // internally, and that triggering the feature via decentr://flags follows the
   // same override path as well.)
   base::test::ScopedFeatureList password_site_isolation_feature;
   password_site_isolation_feature.InitAndEnableFeature(
@@ -994,7 +994,7 @@ TEST_F(EnabledStrictOriginIsolationFieldTrialTest,
 
   // Simulate disabling strict origin isolation from command line.  (Note that
   // InitAndEnableFeature uses ScopedFeatureList::InitFromCommandLine
-  // internally, and that disabling the feature via chrome://flags follows the
+  // internally, and that disabling the feature via decentr://flags follows the
   // same override path as well.)
   base::test::ScopedFeatureList strict_origin_isolation_feature;
   strict_origin_isolation_feature.InitAndDisableFeature(
@@ -1015,7 +1015,7 @@ TEST_F(DisabledStrictOriginIsolationFieldTrialTest,
 
   // Simulate enabling strict origin isolation from command line.  (Note that
   // InitAndEnableFeature uses ScopedFeatureList::InitFromCommandLine
-  // internally, and that triggering the feature via chrome://flags follows the
+  // internally, and that triggering the feature via decentr://flags follows the
   // same override path as well.)
   base::test::ScopedFeatureList strict_origin_isolation_feature;
   strict_origin_isolation_feature.InitAndEnableFeature(

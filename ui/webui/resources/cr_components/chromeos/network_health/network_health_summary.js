@@ -202,7 +202,7 @@ Polymer({
    * @return {string}
    */
   getNetworkUrl_(network) {
-    return 'chrome://os-settings/networkDetail?guid=' + network.guid;
+    return 'decentr://os-settings/networkDetail?guid=' + network.guid;
   },
 
   /**

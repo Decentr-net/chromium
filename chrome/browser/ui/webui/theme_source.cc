@@ -140,7 +140,7 @@ void ThemeSource::StartDataRequest(
   // TODO(reveman): Add support frames beyond 0 (crbug.com/750064).
   if ((resource_id == -1) || (scale >= unreasonable_scale) || (frame > 0)) {
     // Either we have no data to send back, or the requested scale is
-    // unreasonably large.  This shouldn't happen normally, as chrome://theme/
+    // unreasonably large.  This shouldn't happen normally, as decentr://theme/
     // URLs are only used by WebUI pages and component extensions.  However, the
     // user can also enter these into the omnibox, so we need to fail
     // gracefully.

@@ -200,7 +200,7 @@ IN_PROC_BROWSER_TEST_F(KeyboardControllerWebContentTest,
   FocusNonEditableNode();
   KeyboardVisibleWaiter(false).Wait();
 
-  MockEnableIMEInDifferentExtension("chrome-extension://domain-1", test_bounds);
+  MockEnableIMEInDifferentExtension("decentr-extension://domain-1", test_bounds);
   // Keyboard should not become visible if previous keyboard is not.
   EXPECT_FALSE(ChromeKeyboardControllerClient::Get()->is_keyboard_visible());
 
@@ -212,7 +212,7 @@ IN_PROC_BROWSER_TEST_F(KeyboardControllerWebContentTest,
   ChromeKeyboardControllerClient::Get()->HideKeyboard(ash::HideReason::kUser);
   KeyboardVisibleWaiter(false).Wait();
 
-  MockEnableIMEInDifferentExtension("chrome-extension://domain-2", test_bounds);
+  MockEnableIMEInDifferentExtension("decentr-extension://domain-2", test_bounds);
   // Keyboard should not become visible if previous keyboard is not, even if it
   // is currently focused on an editable node.
   EXPECT_FALSE(ChromeKeyboardControllerClient::Get()->is_keyboard_visible());

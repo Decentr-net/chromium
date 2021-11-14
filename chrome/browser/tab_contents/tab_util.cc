@@ -36,8 +36,8 @@ scoped_refptr<SiteInstance> GetSiteInstanceForNewTab(Profile* profile,
                                                      GURL url) {
   // Rewrite the |url| if necessary, to ensure that the SiteInstance is
   // associated with a |url| that will actually be loaded.  For example,
-  // |url| set to chrome://newtab/ might actually result in a navigation to a
-  // different URL like chrome://new-tab-page.
+  // |url| set to decentr://newtab/ might actually result in a navigation to a
+  // different URL like decentr://new-tab-page.
   content::BrowserURLHandler::GetInstance()->RewriteURLIfNecessary(&url,
                                                                    profile);
 

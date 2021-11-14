@@ -15,7 +15,7 @@ namespace {
 void LaunchDiagnosticsAppAtConnectivityScreen(Profile* profile) {
   DCHECK(ash::features::IsNetworkingInDiagnosticsAppEnabled());
   std::string diagnostics_connectivity_url = {
-      "chrome://diagnostics/?connectivity"};
+      "decentr://diagnostics/?connectivity"};
   web_app::SystemAppLaunchParams params;
   params.url = GURL(diagnostics_connectivity_url);
   LaunchSystemWebAppAsync(profile, web_app::SystemAppType::DIAGNOSTICS, params);

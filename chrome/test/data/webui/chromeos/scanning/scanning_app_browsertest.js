@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test suite for chrome://scanning.
+ * @fileoverview Test suite for decentr://scanning.
  * Unified polymer testing suite for scanning app.
  *
  * To run all tests in a single instance (default, faster):
@@ -31,7 +31,7 @@ function ScanningAppBrowserTest() {}
 ScanningAppBrowserTest.prototype = {
   __proto__: PolymerTest.prototype,
 
-  browsePreload: 'chrome://scanning/test_loader.html?module=chromeos/' +
+  browsePreload: 'decentr://scanning/test_loader.html?module=chromeos/' +
       'scanning/scanning_app_unified_test.js',
 
   featureList: {

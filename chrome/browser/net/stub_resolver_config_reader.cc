@@ -144,10 +144,10 @@ StubResolverConfigReader::StubResolverConfigReader(PrefService* local_state,
                                       base::Value(default_doh_templates));
 
     // If the user has explicitly enabled or disabled the DoH experiment in
-    // chrome://flags and the DoH UI setting is not visible, store that choice
+    // decentr://flags and the DoH UI setting is not visible, store that choice
     // in the user prefs so that it can be persisted after the experiment ends.
     // Also make sure to remove the stored prefs value if the user has changed
-    // their chrome://flags selection to the default.
+    // their decentr://flags selection to the default.
     if (!features::kDnsOverHttpsShowUiParam.Get()) {
       flags_ui::PrefServiceFlagsStorage flags_storage(local_state_);
       std::set<std::string> entries = flags_storage.GetFlags();

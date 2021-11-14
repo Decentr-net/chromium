@@ -31,7 +31,7 @@ DIST_SUBSTR = '%DISTRIBUTION%'
 
 # Matches a chrome theme source URL.
 _THEME_SOURCE = lazy_re.compile(
-    r'(?P<baseurl>chrome://theme/IDR_[A-Z0-9_]*)(?P<query>\?.*)?')
+    r'(?P<baseurl>decentr://theme/IDR_[A-Z0-9_]*)(?P<query>\?.*)?')
 # Pattern for matching CSS url() function.
 _CSS_URL_PATTERN = r'url\((?P<quote>"|\'|)(?P<filename>[^"\'()]*)(?P=quote)\)'
 # Matches CSS url() functions with the capture group 'filename'.
@@ -60,7 +60,7 @@ def GetImageList(
 
   Takes an image filename and checks for files of the same name in folders
   corresponding to the supported scale factors. If the file is from a
-  chrome://theme/ source, inserts supported @Nx scale factors as high DPI
+  decentr://theme/ source, inserts supported @Nx scale factors as high DPI
   versions.
 
   Args:
@@ -136,7 +136,7 @@ def UrlToImageSet(
 
   Takes a regex match for url('path'). If the file is local, checks for
   files of the same name in folders corresponding to the supported scale
-  factors. If the file is from a chrome://theme/ source, inserts the
+  factors. If the file is from a decentr://theme/ source, inserts the
   supported @Nx scale factor request. In either case inserts a
   -webkit-image-set rule to fetch the appropriate image for the current
   scale factor.

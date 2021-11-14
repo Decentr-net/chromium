@@ -39,7 +39,7 @@ namespace {
 
 constexpr char kNotifierAccelerator[] = "ash.accelerator-controller";
 constexpr char kSpokenFeedbackToggleAccelNotificationId[] =
-    "chrome://settings/accessibility/spokenfeedback";
+    "decentr://settings/accessibility/spokenfeedback";
 constexpr char kStartupNewShortcutNotificationId[] =
     "accelerator_controller.new_shortcuts_in_release";
 
@@ -158,11 +158,11 @@ const char kKeyboardShortcutHelpPageUrl[] =
 
 // Accessibility notification ids.
 const char kDockedMagnifierToggleAccelNotificationId[] =
-    "chrome://settings/accessibility/dockedmagnifier";
+    "decentr://settings/accessibility/dockedmagnifier";
 const char kFullscreenMagnifierToggleAccelNotificationId[] =
-    "chrome://settings/accessibility/fullscreenmagnifier";
+    "decentr://settings/accessibility/fullscreenmagnifier";
 const char kHighContrastToggleAccelNotificationId[] =
-    "chrome://settings/accessibility/highcontrast";
+    "decentr://settings/accessibility/highcontrast";
 
 void ShowDeprecatedAcceleratorNotification(const char* notification_id,
                                            int message_id,

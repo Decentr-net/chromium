@@ -31,7 +31,7 @@ using ExtensionProtocolTestHandler =
     base::RepeatingCallback<void(base::FilePath* directory_path,
                                  base::FilePath* relative_path)>;
 
-// Allows tests to set a special handler for chrome-extension:// urls. Note
+// Allows tests to set a special handler for decentr-extension:// urls. Note
 // that this goes through all the normal security checks; it's essentially a
 // way to map extra resources to be included in extensions.
 void SetExtensionProtocolTestHandler(ExtensionProtocolTestHandler* handler);

@@ -12,7 +12,7 @@ chrome.test.runTests([
 
   async function attachToWebUI() {
     const {openTab} = await import('/_test_resources/test_util/tabs_util.js');
-    const tab = await openTab('chrome://version');
+    const tab = await openTab('decentr://version');
     const debuggee = {tabId: tab.id};
     chrome.debugger.attach(debuggee, protocolVersion,
                            fail("Cannot attach to this target."));

@@ -27,7 +27,7 @@
 const int kNonInstantRendererPID = 0;
 const char kNonInstantOrigin[] = "http://evil";
 const int kInstantRendererPID = 1;
-const char kInstantOrigin[] = "chrome-search://instant";
+const char kInstantOrigin[] = "decentr-search://instant";
 const int kInvalidRendererPID = 42;
 
 class TestMostVisitedIframeSource : public MostVisitedIframeSource {
@@ -126,19 +126,19 @@ TEST_F(MostVisitedIframeSourceTest, ShouldServiceRequest) {
   EXPECT_FALSE(ShouldService("http://test/loader.js", kNonInstantRendererPID));
   source()->set_origin(kInstantOrigin);
   EXPECT_FALSE(
-      ShouldService("chrome-search://bogus/valid.js", kInstantRendererPID));
+      ShouldService("decentr-search://bogus/valid.js", kInstantRendererPID));
   source()->set_origin(kInstantOrigin);
   EXPECT_FALSE(
-      ShouldService("chrome-search://test/bogus.js", kInstantRendererPID));
+      ShouldService("decentr-search://test/bogus.js", kInstantRendererPID));
   source()->set_origin(kInstantOrigin);
   EXPECT_TRUE(
-      ShouldService("chrome-search://test/valid.js", kInstantRendererPID));
+      ShouldService("decentr-search://test/valid.js", kInstantRendererPID));
   source()->set_origin(kNonInstantOrigin);
   EXPECT_FALSE(
-      ShouldService("chrome-search://test/valid.js", kNonInstantRendererPID));
+      ShouldService("decentr-search://test/valid.js", kNonInstantRendererPID));
   source()->set_origin(std::string());
   EXPECT_FALSE(
-      ShouldService("chrome-search://test/valid.js", kInvalidRendererPID));
+      ShouldService("decentr-search://test/valid.js", kInvalidRendererPID));
 }
 
 TEST_F(MostVisitedIframeSourceTest, GetMimeType) {

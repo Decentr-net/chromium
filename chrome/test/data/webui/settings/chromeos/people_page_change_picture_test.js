@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {CrPicture} from 'chrome://resources/cr_elements/chromeos/cr_picture/cr_picture_types.m.js';
-// #import {down, up, pressAndReleaseKeyOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js'
+// #import {CrPicture} from 'decentr://resources/cr_elements/chromeos/cr_picture/cr_picture_types.m.js';
+// #import {down, up, pressAndReleaseKeyOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js'
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
-// #import {Router, routes, AccountManagerBrowserProxyImpl, ChangePictureBrowserProxyImpl} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {Router, routes, AccountManagerBrowserProxyImpl, ChangePictureBrowserProxyImpl} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 cr.define('settings_people_page_change_picture', function() {
@@ -39,12 +39,12 @@ cr.define('settings_people_page_change_picture', function() {
         {
           index: 2,
           title: 'Title2',
-          url: 'chrome://foo/2.png',
+          url: 'decentr://foo/2.png',
         },
         {
           index: 3,
           title: 'Title3',
-          url: 'chrome://foo/3.png',
+          url: 'decentr://foo/3.png',
         },
       ];
       cr.webUIListenerCallback('default-images-changed', {
@@ -347,7 +347,7 @@ cr.define('settings_people_page_change_picture', function() {
       firstDefaultImage.click();
 
       let imageUrl = await browserProxy.whenCalled('selectDefaultImage');
-      expectEquals('chrome://foo/2.png', imageUrl);
+      expectEquals('decentr://foo/2.png', imageUrl);
 
       Polymer.dom.flush();
       expectEquals(
@@ -363,7 +363,7 @@ cr.define('settings_people_page_change_picture', function() {
       MockInteractions.pressAndReleaseKeyOn(
           changePicture.selectedItem_, RIGHT_KEY_CODE);
       imageUrl = await browserProxy.whenCalled('selectDefaultImage');
-      expectEquals('chrome://foo/3.png', imageUrl);
+      expectEquals('decentr://foo/3.png', imageUrl);
     });
 
     test('ChangePictureRestoreImageAfterDiscard', async function() {

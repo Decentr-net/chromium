@@ -167,15 +167,15 @@ class WebUIMainFrameObserverTest : public RenderViewHostTestHarness {
 
   static constexpr char kMessage8[] = "An Error Is Me";
   static constexpr char16_t kMessage16[] = u"An Error Is Me";
-  static constexpr char kSourceURL8[] = "chrome://here.is.error/bad.js";
-  static constexpr char16_t kSourceURL16[] = u"chrome://here.is.error/bad.js";
-  static constexpr char kPageURL8[] = "chrome://here.is.error/index.html";
+  static constexpr char kSourceURL8[] = "decentr://here.is.error/bad.js";
+  static constexpr char16_t kSourceURL16[] = u"decentr://here.is.error/bad.js";
+  static constexpr char kPageURL8[] = "decentr://here.is.error/index.html";
   static constexpr char kStackTrace8[] =
-      "at badFunction (chrome://page/my.js:20:30)\n"
-      "at poorCaller (chrome://page/my.js:50:10)\n";
+      "at badFunction (decentr://page/my.js:20:30)\n"
+      "at poorCaller (decentr://page/my.js:50:10)\n";
   static constexpr char16_t kStackTrace16[] =
-      u"at badFunction (chrome://page/my.js:20:30)\n"
-      u"at poorCaller (chrome://page/my.js:50:10)\n";
+      u"at badFunction (decentr://page/my.js:20:30)\n"
+      u"at poorCaller (decentr://page/my.js:50:10)\n";
 };
 
 constexpr char WebUIMainFrameObserverTest::kMessage8[];
@@ -283,26 +283,26 @@ TEST_F(WebUIMainFrameObserverTest, URLPathIsPreservedOtherPartsRemoved) {
   };
   const URLTest kTests[] = {
       // No path still has no path.
-      {u"chrome://version", "chrome://version/"},
-      {u"chrome://version/", "chrome://version/"},
+      {u"decentr://version", "decentr://version/"},
+      {u"decentr://version/", "decentr://version/"},
       // Path is kept.
-      {u"chrome://discards/graph", "chrome://discards/graph"},
-      {u"chrome://discards/graph/", "chrome://discards/graph/"},
+      {u"decentr://discards/graph", "decentr://discards/graph"},
+      {u"decentr://discards/graph/", "decentr://discards/graph/"},
       // Longer paths are kept.
-      {u"chrome://discards/graph/a/b/c/d", "chrome://discards/graph/a/b/c/d"},
+      {u"decentr://discards/graph/a/b/c/d", "decentr://discards/graph/a/b/c/d"},
       // Queries are removed, with or without a path.
-      {u"chrome://bookmarks/?q=chromium", "chrome://bookmarks/"},
-      {u"chrome://bookmarks/add?q=chromium", "chrome://bookmarks/add"},
-      {u"chrome://bookmarks/add/?q=chromium", "chrome://bookmarks/add/"},
+      {u"decentr://bookmarks/?q=chromium", "decentr://bookmarks/"},
+      {u"decentr://bookmarks/add?q=chromium", "decentr://bookmarks/add"},
+      {u"decentr://bookmarks/add/?q=chromium", "decentr://bookmarks/add/"},
       // Fragments are removed, with or without a path.
-      {u"chrome://flags/#tab-groups", "chrome://flags/"},
-      {u"chrome://flags/available/#tab-groups", "chrome://flags/available/"},
+      {u"decentr://flags/#tab-groups", "decentr://flags/"},
+      {u"decentr://flags/available/#tab-groups", "decentr://flags/available/"},
       // Queries & fragments are removed.
-      {u"chrome://bookmarks/add?q=chromium#code", "chrome://bookmarks/add"},
+      {u"decentr://bookmarks/add?q=chromium#code", "decentr://bookmarks/add"},
       // User name and password are removed. (It's weird to have a user name or
       // password on a chrome URL, but otherwise we get blocked by the
       // no-non-chrome-URLs check)
-      {u"chrome://chronos:test0000@version/Home", "chrome://version/Home"},
+      {u"decentr://chronos:test0000@version/Home", "decentr://version/Home"},
   };
 
   for (const URLTest& test : kTests) {
@@ -320,7 +320,7 @@ TEST_F(WebUIMainFrameObserverTest, URLPathIsPreservedOtherPartsRemoved) {
 
 TEST_F(WebUIMainFrameObserverTest, PageURLAlsoRedacted) {
   constexpr char kPageWithQueryAndFragment[] =
-      "chrome://bookmarks/add?q=chromium#code";
+      "decentr://bookmarks/add?q=chromium#code";
   NavigationSimulator::NavigateAndCommitFromBrowser(
       web_contents(), GURL(kPageWithQueryAndFragment));
   CallOnDidAddMessageToConsole(web_ui_->frame_host(),
@@ -328,7 +328,7 @@ TEST_F(WebUIMainFrameObserverTest, PageURLAlsoRedacted) {
                                kMessage16, 5, kSourceURL16, kStackTrace16);
   task_environment()->RunUntilIdle();
   EXPECT_EQ(processor_->error_report_count(), 1);
-  EXPECT_EQ(processor_->last_error_report().page_url, "chrome://bookmarks/add");
+  EXPECT_EQ(processor_->last_error_report().page_url, "decentr://bookmarks/add");
 }
 
 TEST_F(WebUIMainFrameObserverTest, ErrorsNotReportedInOtherFrames) {
@@ -346,9 +346,9 @@ TEST_F(WebUIMainFrameObserverTest, ErrorsNotReportedInOtherFrames) {
 TEST_F(WebUIMainFrameObserverTest, ErrorsNotReportedForNonChromeURLs) {
   NavigateToPage();
   const char16_t* const kNonChromeSourceURLs[] = {
-      u"chrome-untrusted://media-app",
+      u"decentr-untrusted://media-app",
       u"chrome-error://chromewebdata/",
-      u"chrome-extension://abc123/",
+      u"decentr-extension://abc123/",
       u"about:blank",
   };
 

@@ -221,7 +221,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionUnloadBrowserTest, CrashedTabs) {
     content::ScopedAllowRendererCrashes allow_renderer_crashes(
         active_tab->GetMainFrame()->GetProcess());
     ui_test_utils::NavigateToURLWithDisposition(
-        browser(), GURL("chrome://crash"), WindowOpenDisposition::CURRENT_TAB,
+        browser(), GURL("decentr://crash"), WindowOpenDisposition::CURRENT_TAB,
         ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP);
   }
 

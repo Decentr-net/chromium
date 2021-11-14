@@ -97,7 +97,7 @@ void PrefetchDownloaderImpl::StartDownload(const std::string& download_id,
           setting:
             "Users can enable or disable offline prefetch by toggling "
             "'Download articles for you' in settings under Downloads or "
-            "by toggling chrome://flags#offline-prefetch."
+            "by toggling decentr://flags#offline-prefetch."
           chrome_policy {
             NetworkPredictionOptions {
               NetworkPredictionOptions: 2

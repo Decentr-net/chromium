@@ -10,7 +10,7 @@
 
 class Profile;
 
-// The WebUI controller for chrome://app-service-internals.
+// The WebUI controller for decentr://app-service-internals.
 class AppServiceInternalsUI : public ui::MojoWebUIController {
  public:
   explicit AppServiceInternalsUI(content::WebUI* web_ui);

@@ -133,8 +133,8 @@ TEST_F(NavigationEntryTest, NavigationEntryURLs) {
   entry1_->SetURL(GURL("file:///foo/bar baz.txt?x=foo/bar?y=baz/boo"));
   EXPECT_EQ(u"bar baz.txt?x=foo/bar?y=baz/boo", entry1_->GetTitleForDisplay());
 
-  // For chrome-untrusted:// URLs, title is blank.
-  entry1_->SetURL(GURL("chrome-untrusted://terminal/html/terminal.html"));
+  // For decentr-untrusted:// URLs, title is blank.
+  entry1_->SetURL(GURL("decentr-untrusted://terminal/html/terminal.html"));
   EXPECT_EQ(std::u16string(), entry1_->GetTitleForDisplay());
 
   // Title affects GetTitleForDisplay

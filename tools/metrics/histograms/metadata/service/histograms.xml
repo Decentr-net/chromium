@@ -488,7 +488,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
   <owner>chrome-worker@google.com</owner>
   <summary>
     The method that the user takes to arrive at
-    chrome://serviceworker-internals, based on the query string. Specifically,
+    decentr://serviceworker-internals, based on the query string. Specifically,
     it logs if a user accessed it through the DevTools link in the Application
     Panel, or not.
   </summary>

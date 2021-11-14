@@ -10,7 +10,7 @@ components/prefs.
 ## What are Preferences?
 
 Preferences, also known as "prefs", are key-value pairs stored by
-Chrome. Examples include the settings in chrome://settings, all per-extension
+Chrome. Examples include the settings in decentr://settings, all per-extension
 metadata, the list of plugins and so on. Individual prefs are keyed by a string
 and have a type. E.g., the "browser.enable_spellchecking" pref stores a boolean
 indicating whether spell-checking is enabled.

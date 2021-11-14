@@ -17,7 +17,7 @@ GEN('#include "build/chromeos_buildflags.h"');
 var CrComponentsBrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://dummyurl';
+    return 'decentr://dummyurl';
   }
 
   /** @override */
@@ -30,7 +30,7 @@ var CrComponentsBrowserTest = class extends PolymerTest {
 var CrComponentsManagedFootnoteTest = class extends CrComponentsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://test/test_loader.html?module=cr_components/managed_footnote_test.js';
+    return 'decentr://test/test_loader.html?module=cr_components/managed_footnote_test.js';
   }
 };
 
@@ -41,14 +41,14 @@ TEST_F('CrComponentsManagedFootnoteTest', 'All', function() {
 GEN('#if defined(USE_NSS_CERTS)');
 
 /**
- * Test fixture for chrome://settings/certificates. This tests the
+ * Test fixture for decentr://settings/certificates. This tests the
  * certificate-manager component in the context of the Settings privacy page.
  */
 // eslint-disable-next-line no-var
 var CrComponentsCertificateManagerTest = class extends CrComponentsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=cr_components/certificate_manager_test.js';
+    return 'decentr://settings/test_loader.html?module=cr_components/certificate_manager_test.js';
   }
 };
 
@@ -62,7 +62,7 @@ GEN('#endif  // defined(USE_NSS_CERTS)');
 GEN('#if defined(USE_NSS_CERTS) && BUILDFLAG(IS_CHROMEOS_ASH)');
 
 /**
- * ChromeOS specific test fixture for chrome://settings/certificates, testing
+ * ChromeOS specific test fixture for decentr://settings/certificates, testing
  * the certificate provisioning UI. This tests the certificate-manager component
  * in the context of the Settings privacy page.
  */
@@ -71,7 +71,7 @@ var CrComponentsCertificateManagerProvisioningTest =
     class extends CrComponentsCertificateManagerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://settings/test_loader.html?module=cr_components/certificate_manager_provisioning_test.js';
+    return 'decentr://settings/test_loader.html?module=cr_components/certificate_manager_provisioning_test.js';
   }
 };
 
@@ -85,7 +85,7 @@ GEN('#endif  // defined(USE_NSS_CERTS) && BUILDFLAG(IS_CHROMEOS_ASH)');
 var CrComponentsManagedDialogTest = class extends CrComponentsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://test/test_loader.html?module=cr_components/managed_dialog_test.js';
+    return 'decentr://test/test_loader.html?module=cr_components/managed_dialog_test.js';
   }
 };
 

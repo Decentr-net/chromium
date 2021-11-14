@@ -7,7 +7,7 @@
 
 #include "content/public/browser/web_ui_controller.h"
 
-// The WebUI that controls chrome://webuijserror.
+// The WebUI that controls decentr://webuijserror.
 class WebUIJsErrorUI : public content::WebUIController {
  public:
   explicit WebUIJsErrorUI(content::WebUI* web_ui);

@@ -363,7 +363,7 @@ class PasswordAutofillAgent : public content::RenderFrameObserver,
 
   // Annotate |forms| and all fields in the current frame with form and field
   // signatures as HTML attributes. Used by
-  // chrome://flags/#enable-show-autofill-signatures only.
+  // decentr://flags/#enable-show-autofill-signatures only.
   void AnnotateFormsAndFieldsWithSignatures(
       blink::WebVector<blink::WebFormElement>& forms);
 

@@ -7,8 +7,8 @@
 namespace ash {
 
 const char kChromeUITelemetryExtensionHost[] = "telemetry-extension";
-const char kChromeUITelemetryExtensionURL[] = "chrome://telemetry-extension";
+const char kChromeUITelemetryExtensionURL[] = "decentr://telemetry-extension";
 const char kChromeUIUntrustedTelemetryExtensionURL[] =
-    "chrome-untrusted://telemetry-extension/";
+    "decentr-untrusted://telemetry-extension/";
 
 }  // namespace ash

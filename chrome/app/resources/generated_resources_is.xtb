@@ -1415,7 +1415,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2431027948063157455">Ekki var hægt að hlaða Google hjálparanum. Athugaðu nettenginguna og reyndu aftur.</translation>
 <translation id="243179355394256322">Fyrirtækið takmarkar skráningu tækja við notendur með heimild. Þessi notandi hefur ekki heimild til að skrá tæki. Gakktu úr skugga um að notandinn sé með heimild til að „Skrá Google Meet vélbúnað“ á notandasvæði stjórnborðs stjórnanda.</translation>
 <translation id="243275146591958220">Hætta við niðurhal</translation>
-<translation id="2433452467737464329">Bættu fyrirspurnarbreytu við vefslóðina til að endurnýja síðuna sjálfkrafa: chrome://network/?refresh=&lt;sec&gt;</translation>
+<translation id="2433452467737464329">Bættu fyrirspurnarbreytu við vefslóðina til að endurnýja síðuna sjálfkrafa: decentr://network/?refresh=&lt;sec&gt;</translation>
 <translation id="2433507940547922241">Útlit</translation>
 <translation id="2433836460518180625">Taka aðeins tæki úr lás</translation>
 <translation id="2434449159125086437">Ekki tókst að setja upp prentara. Athugaðu stillinguna og reyndu aftur.</translation>
@@ -1943,7 +1943,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2959127025785722291">Eitthvað fór úrskeiðis. Ekki var hægt að ljúka við skönnun. Reyndu aftur.</translation>
 <translation id="2959842337402130152">Ekki hægt að endurheimta vegna skorts á geymslurými. Losaðu um <ph name="SPACE_REQUIRED" /> í tækinu og reyndu aftur.</translation>
 <translation id="2960208947600937804">Villa kom upp við stillingu Linux. Hafðu samband við kerfisstjórann þinn.</translation>
-<translation id="296026337010986570">Þá er allt klappað og klárt! Skaðlegur hugbúnaður var fjarlægður. Til að kveikja aftur á viðbótum skaltu opna &lt;a href="chrome://extensions"&gt;Viðbætur&lt;/a&gt;.</translation>
+<translation id="296026337010986570">Þá er allt klappað og klárt! Skaðlegur hugbúnaður var fjarlægður. Til að kveikja aftur á viðbótum skaltu opna &lt;a href="decentr://extensions"&gt;Viðbætur&lt;/a&gt;.</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (viðbót til staðar)</translation>
 <translation id="2961210776189273067">Titill</translation>
 <translation id="2961695502793809356">Smelltu til að fara áfram, haltu inni til að sjá feril</translation>
@@ -4941,7 +4941,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="6227280783235722609">viðbót</translation>
 <translation id="6229849828796482487">Aftengja Wi-Fi net</translation>
 <translation id="6231782223312638214">Tillögur</translation>
-<translation id="6231881193380278751">Bættu fyrirspurnarbreytu við vefslóðina til að endurnýja síðuna sjálfkrafa: chrome://device-log/?refresh=&lt;sek.&gt;</translation>
+<translation id="6231881193380278751">Bættu fyrirspurnarbreytu við vefslóðina til að endurnýja síðuna sjálfkrafa: decentr://device-log/?refresh=&lt;sek.&gt;</translation>
 <translation id="6232017090690406397">Rafhlaða</translation>
 <translation id="6232116551750539448">Tengingin við <ph name="NAME" /> hefur rofnað</translation>
 <translation id="6233154960150021497">Nota rödd í stað lyklaborðs að sjálfgefnu</translation>

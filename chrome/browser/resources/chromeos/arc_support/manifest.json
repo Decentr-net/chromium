@@ -3,7 +3,7 @@
      "background": {
         "scripts": [ "background.js" ]
      },
-     "content_security_policy": "default-src 'self'; style-src 'self' chrome://resources/ 'unsafe-inline'; font-src 'self' chrome://resources/; img-src 'self' data: chrome://theme/; script-src chrome://resources/ 'self'"
+     "content_security_policy": "default-src 'self'; style-src 'self' decentr://resources/ 'unsafe-inline'; font-src 'self' decentr://resources/; img-src 'self' data: decentr://theme/; script-src decentr://resources/ 'self'"
   },
   "description": "Play Store",
   "display_in_launcher": false,
@@ -18,6 +18,6 @@
   "permissions": [ "webview",
                    "browser",
                    "nativeMessaging",
-                   "chrome://resources/" ],
+                   "decentr://resources/" ],
   "version": "0.2.0.0"
 }

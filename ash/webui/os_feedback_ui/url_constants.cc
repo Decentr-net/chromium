@@ -7,6 +7,6 @@
 namespace ash {
 
 const char kChromeUIOSFeedbackHost[] = "os-feedback";
-const char kChromeUIOSFeedbackUrl[] = "chrome://os-feedback";
+const char kChromeUIOSFeedbackUrl[] = "decentr://os-feedback";
 
 }  // namespace ash

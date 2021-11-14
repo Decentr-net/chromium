@@ -12,7 +12,7 @@ GEN('#include "content/public/test/browser_test.h"');
 var CfmNetworkSettingsBrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://cfm-network-settings/test_loader.html?module=chromeos/chromebox_for_meetings/cfm_network_settings_test.js';
+    return 'decentr://cfm-network-settings/test_loader.html?module=chromeos/chromebox_for_meetings/cfm_network_settings_test.js';
   }
 };
 

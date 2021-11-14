@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {isRTL} from 'chrome://resources/js/util.m.js';
-import {IronIconsetSvgElement} from 'chrome://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
+import {isRTL} from 'decentr://resources/js/util.m.js';
+import {IronIconsetSvgElement} from 'decentr://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
 
 import {inDarkMode} from './dark_mode_mixin.js';
 import {LocalizedString} from './data/cdd.js';
@@ -83,8 +83,8 @@ export function getSelectDropdownBackground(
   iconElement.style.fill = fillColor;
   const serializedIcon = serializer.serializeToString(iconElement);
   const uri = encodeURIComponent(serializedIcon);
-  const arrowDownPath = dark ? 'chrome://resources/images/dark/arrow_down.svg' :
-                               'chrome://resources/images/arrow_down.svg';
+  const arrowDownPath = dark ? 'decentr://resources/images/dark/arrow_down.svg' :
+                               'decentr://resources/images/arrow_down.svg';
   return `url("data:image/svg+xml;charset=utf-8,${uri}"),` +
       `url("${arrowDownPath}")`;
 }

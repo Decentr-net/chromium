@@ -26,7 +26,7 @@ content::WebUIDataSource* CreateSupportToolHTMLSource() {
 }  // namespace
 
 SupportToolUI::SupportToolUI(content::WebUI* web_ui) : WebUIController(web_ui) {
-  // Set up the chrome://support-tool/ source.
+  // Set up the decentr://support-tool/ source.
   Profile* profile = Profile::FromWebUI(web_ui);
   content::WebUIDataSource::Add(profile, CreateSupportToolHTMLSource());
 }

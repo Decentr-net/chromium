@@ -8,10 +8,10 @@ namespace ash {
 namespace file_manager {
 
 constexpr char kChromeUIFileManagerHost[] = "file-manager";
-constexpr char kChromeUIFileManagerURL[] = "chrome://file-manager/";
+constexpr char kChromeUIFileManagerURL[] = "decentr://file-manager/";
 constexpr char kChromeUIFileManagerUntrustedHost[] = "file-manager";
 constexpr char kChromeUIFileManagerUntrustedURL[] =
-    "chrome-untrusted://file-manager/";
+    "decentr-untrusted://file-manager/";
 
 }  // namespace file_manager
 }  // namespace ash

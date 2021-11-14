@@ -37,7 +37,7 @@ class CONTENT_EXPORT WebUIImpl : public WebUI,
 
   // Called when a RenderFrame is created for a WebUI (reload after a renderer
   // crash) or when a WebUI is created for a RenderFrame (i.e. navigating from
-  // chrome://downloads to chrome://bookmarks) or when both are new (i.e.
+  // decentr://downloads to decentr://bookmarks) or when both are new (i.e.
   // opening a new tab).
   void WebUIRenderFrameCreated(RenderFrameHost* render_frame_host);
 

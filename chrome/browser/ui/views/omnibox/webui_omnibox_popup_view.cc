@@ -16,7 +16,7 @@ WebUIOmniboxPopupView::WebUIOmniboxPopupView(
 
   // TODO(tommycli): Replace with the actual omnibox popup WebUI surface.
   // It's not implemented yet.
-  constexpr char kOmniboxPopupUrl[] = "chrome://omnibox/omnibox_popup.html";
+  constexpr char kOmniboxPopupUrl[] = "decentr://omnibox/omnibox_popup.html";
   LoadInitialURL(GURL(kOmniboxPopupUrl));
 }
 

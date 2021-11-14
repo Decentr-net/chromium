@@ -27,7 +27,7 @@ namespace {
 const char kExtensionFeaturesHistogramName[] =
     "Blink.UseCounter.Extensions.Features";
 
-const char kExtensionUrl[] = "chrome-extension://dummysite/";
+const char kExtensionUrl[] = "decentr-extension://dummysite/";
 
 int GetPageVisitsBucketforHistogram(const std::string& histogram_name) {
   if (histogram_name.find("CSS") == std::string::npos)
@@ -95,7 +95,7 @@ class UseCounterImplBrowserReportTest
 
 INSTANTIATE_TEST_SUITE_P(All,
                          UseCounterImplBrowserReportTest,
-                         ::testing::Values("chrome-extension://dummysite/",
+                         ::testing::Values("decentr-extension://dummysite/",
                                            "file://dummyfile",
                                            "data:;base64,",
                                            "ftp://ftp.dummy/dummy.txt",
@@ -131,7 +131,7 @@ TEST_F(UseCounterImplTest, RecordingExtensions) {
   constexpr auto item = mojom::WebFeature::kFetch;
   constexpr auto second_item = WebFeature::kFetchBodyStream;
   const std::string url = kExtensionUrl;
-  CommonSchemeRegistry::RegisterURLSchemeAsExtension("chrome-extension");
+  CommonSchemeRegistry::RegisterURLSchemeAsExtension("decentr-extension");
   UseCounterImpl::Context context = UseCounterImpl::kExtensionContext;
   int page_visits_bucket = GetPageVisitsBucketforHistogram(histogram);
 
@@ -173,7 +173,7 @@ TEST_F(UseCounterImplTest, RecordingExtensions) {
   EXPECT_TRUE(use_counter1.IsCounted(item));
   histogram_tester_.ExpectBucketCount(histogram, static_cast<int>(item), 2);
   histogram_tester_.ExpectTotalCount(histogram, 4);
-  CommonSchemeRegistry::RemoveURLSchemeAsExtensionForTest("chrome-extension");
+  CommonSchemeRegistry::RemoveURLSchemeAsExtensionForTest("decentr-extension");
 }
 
 TEST_F(UseCounterImplTest, CSSSelectorPseudoWhere) {

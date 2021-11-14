@@ -263,11 +263,11 @@ tbody.head th {
 }
 
 .check-mark {
-  background-image: url(chrome://resources/images/check_circle_green.svg);
+  background-image: url(decentr://resources/images/check_circle_green.svg);
 }
 
 .x-mark {
-  background-image: url(chrome://resources/images/cancel_red.svg);
+  background-image: url(decentr://resources/images/cancel_red.svg);
 }
 
 /* json cells */

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {DiagnosticsBrowserProxy} from 'chrome://diagnostics/diagnostics_browser_proxy.js';
+import {DiagnosticsBrowserProxy} from 'decentr://diagnostics/diagnostics_browser_proxy.js';
 
 import {assertEquals} from '../../chai_assert.js';
 import {TestBrowserProxy} from '../../test_browser_proxy.js';

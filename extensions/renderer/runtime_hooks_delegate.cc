@@ -108,7 +108,7 @@ RequestResult RuntimeHooksDelegate::GetURL(
 
   RequestResult result(RequestResult::HANDLED);
   std::string url = base::StringPrintf(
-      "chrome-extension://%s%s%s", script_context->extension()->id().c_str(),
+      "decentr-extension://%s%s%s", script_context->extension()->id().c_str(),
       !path.empty() && path[0] == '/' ? "" : "/", path.c_str());
   // GURL considers any possible path valid. Since the argument is only appended
   // as part of the path, there should be no way this could conceivably fail.

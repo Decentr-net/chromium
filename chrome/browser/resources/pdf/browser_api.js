@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 /**
  * @param {!Object} streamInfo The stream object pointing to the data contained
@@ -239,7 +239,7 @@ function createBrowserApiForPrintPreview() {
  *     current environment.
  */
 export function createBrowserApi() {
-  if (location.origin === 'chrome://print') {
+  if (location.origin === 'decentr://print') {
     return createBrowserApiForPrintPreview();
   }
 

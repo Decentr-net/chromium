@@ -11,9 +11,9 @@ import '../../prefs/prefs.js';
 import './privacy_review_description_item.js';
 import './privacy_review_fragment_shared_css.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {WebUIListenerBehavior} from 'chrome://resources/js/web_ui_listener_behavior.m.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {WebUIListenerBehavior} from 'decentr://resources/js/web_ui_listener_behavior.m.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BaseMixin, BaseMixinInterface} from '../../base_mixin.js';
 import {SyncBrowserProxy, SyncBrowserProxyImpl, SyncPrefs} from '../../people_page/sync_browser_proxy.js';

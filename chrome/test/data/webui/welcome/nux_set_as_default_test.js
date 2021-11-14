@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://welcome/set_as_default/nux_set_as_default.js';
+import 'decentr://welcome/set_as_default/nux_set_as_default.js';
 
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {NuxSetAsDefaultProxyImpl} from 'chrome://welcome/set_as_default/nux_set_as_default_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {NuxSetAsDefaultProxyImpl} from 'decentr://welcome/set_as_default/nux_set_as_default_proxy.js';
 
 import {eventToPromise} from '../test_util.js';
 

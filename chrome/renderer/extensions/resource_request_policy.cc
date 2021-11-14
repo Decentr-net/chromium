@@ -51,7 +51,7 @@ void ResourceRequestPolicy::OnExtensionUnloaded(
   web_accessible_ids_.erase(extension_id);
 }
 
-// This method does a security check whether chrome-extension:// URLs can be
+// This method does a security check whether decentr-extension:// URLs can be
 // requested by the renderer. Since this is in an untrusted process, the browser
 // has a similar check to enforce the policy, in case this process is exploited.
 // If you are changing this function, ensure equivalent checks are added to
@@ -66,7 +66,7 @@ bool ResourceRequestPolicy::CanRequestResource(
   GURL frame_url = frame->GetDocument().Url();
   url::Origin frame_origin = frame->GetDocument().GetSecurityOrigin();
 
-  // Navigations from chrome://, devtools:// or chrome-search:// pages need to
+  // Navigations from decentr://, devtools:// or decentr-search:// pages need to
   // be allowed, even if the target |url| is not web-accessible.  See also:
   // - https://crbug.com/662602
   // - similar scheme checks in ExtensionNavigationThrottle
@@ -136,7 +136,7 @@ bool ResourceRequestPolicy::CanRequestResource(
     // to non-existent extensions?
     if (!extension)
       return true;
-    // Devtools (chrome-extension:// URLs are loaded into frames of devtools to
+    // Devtools (decentr-extension:// URLs are loaded into frames of devtools to
     // support the devtools extension APIs).
     if (!chrome_manifest_urls::GetDevToolsPage(extension).is_empty())
       return true;

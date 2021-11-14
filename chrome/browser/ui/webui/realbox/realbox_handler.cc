@@ -71,10 +71,10 @@ constexpr char kAnswerTranslationIconResourceName[] =
     "realbox/icons/translation.svg";
 constexpr char kAnswerWhenIsIconResourceName[] = "realbox/icons/when_is.svg";
 constexpr char kBookmarkIconResourceName[] =
-    "chrome://resources/images/icon_bookmark.svg";
+    "decentr://resources/images/icon_bookmark.svg";
 constexpr char kCalculatorIconResourceName[] = "realbox/icons/calculator.svg";
 constexpr char kClockIconResourceName[] =
-    "chrome://resources/images/icon_clock.svg";
+    "decentr://resources/images/icon_clock.svg";
 constexpr char kDriveDocsIconResourceName[] = "realbox/icons/drive_docs.svg";
 constexpr char kDriveFolderIconResourceName[] =
     "realbox/icons/drive_folder.svg";
@@ -94,7 +94,7 @@ constexpr char kGoogleKeepNoteIconResourceName[] = "realbox/icons/note.svg";
 constexpr char kGoogleSitesIconResourceName[] = "realbox/icons/sites.svg";
 constexpr char kPageIconResourceName[] = "realbox/icons/page.svg";
 constexpr char kPedalsIconResourceName[] =
-    "chrome://theme/current-channel-logo";
+    "decentr://theme/current-channel-logo";
 constexpr char kTrendingUpIconResourceName[] = "realbox/icons/trending_up.svg";
 
 base::flat_map<int32_t, realbox::mojom::SuggestionGroupPtr>
@@ -654,7 +654,7 @@ void RealboxHandler::OnResultChanged(AutocompleteController* controller,
     }
 
     // Request favicons for navigational matches.
-    // TODO(crbug.com/1075848): Investigate using chrome://favicon2.
+    // TODO(crbug.com/1075848): Investigate using decentr://favicon2.
     if (!AutocompleteMatch::IsSearchType(match.type) &&
         match.type != AutocompleteMatchType::DOCUMENT_SUGGESTION) {
       gfx::Image favicon = favicon_cache_.GetLargestFaviconForPageUrl(

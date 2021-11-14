@@ -52,7 +52,7 @@ void LogValue(std::vector<int>* log, int value) {
 // Creates a cracked FileSystemURL for tests.
 storage::FileSystemURL CreateFileSystemURL(const std::string& mount_point_name,
                                            const base::FilePath& file_path) {
-  const std::string origin = std::string("chrome-extension://") + kExtensionId;
+  const std::string origin = std::string("decentr-extension://") + kExtensionId;
   const storage::ExternalMountPoints* const mount_points =
       storage::ExternalMountPoints::GetSystemInstance();
   return mount_points->CreateCrackedFileSystemURL(

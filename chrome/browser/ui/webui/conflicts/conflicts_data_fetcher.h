@@ -25,7 +25,7 @@ class ListValue;
 }  // namespace base
 
 // This class is responsible for gathering the list of modules for the
-// chrome://conflicts page and the state of the third-party features on the
+// decentr://conflicts page and the state of the third-party features on the
 // ModuleDatabase task runner and sending it back to the UI thread. The instance
 // should be deleted once the OnConflictsDataFetchedCallback is invoked.
 class ConflictsDataFetcher : public ModuleDatabaseObserver {

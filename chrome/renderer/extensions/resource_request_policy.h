@@ -23,7 +23,7 @@ namespace extensions {
 class Dispatcher;
 class Extension;
 
-// Encapsulates the policy for when chrome-extension:// URLs can be requested.
+// Encapsulates the policy for when decentr-extension:// URLs can be requested.
 class ResourceRequestPolicy {
  public:
   explicit ResourceRequestPolicy(Dispatcher* dispatcher);
@@ -36,7 +36,7 @@ class ResourceRequestPolicy {
   void OnExtensionLoaded(const Extension& extension);
   void OnExtensionUnloaded(const ExtensionId& extension);
 
-  // Returns true if the chrome-extension:// |resource_url| can be requested
+  // Returns true if the decentr-extension:// |resource_url| can be requested
   // from |frame_url|. In some cases this decision is made based upon how
   // this request was generated. Web triggered transitions are more restrictive
   // than those triggered through UI.

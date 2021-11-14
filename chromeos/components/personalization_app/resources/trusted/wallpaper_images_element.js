@@ -10,7 +10,7 @@
  */
 
 import './styles.js';
-import {afterNextRender, html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {afterNextRender, html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {sendCurrentWallpaperAssetId, sendImages, sendPendingWallpaperAssetId, sendVisible} from '../common/iframe_api.js';
 import {isNonEmptyArray, promisifyOnload} from '../common/utils.js';
 import {DisplayableImage, WallpaperType} from './personalization_reducers.js';

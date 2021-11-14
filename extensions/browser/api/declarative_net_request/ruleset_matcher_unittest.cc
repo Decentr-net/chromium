@@ -269,7 +269,7 @@ TEST_F(RulesetMatcherTest, RedirectToExtensionPath) {
   RequestAction expected_action = CreateRequestActionForTesting(
       RequestAction::Type::REDIRECT, *rule.id, *rule.priority, kRulesetId);
   expected_action.redirect_url =
-      GURL("chrome-extension://extensionid/path/newfile.js?query#fragment");
+      GURL("decentr-extension://extensionid/path/newfile.js?query#fragment");
 
   EXPECT_EQ(expected_action, redirect_action);
 }

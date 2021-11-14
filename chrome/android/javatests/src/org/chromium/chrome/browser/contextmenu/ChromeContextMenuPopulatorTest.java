@@ -508,7 +508,7 @@ public class ChromeContextMenuPopulatorTest {
         checkMenuOptions(expected3);
 
         // Non-http scheme should not include read later context menu item.
-        params = new ContextMenuParams(0, 0, new GURL("chrome://flags"), new GURL(LINK_URL),
+        params = new ContextMenuParams(0, 0, new GURL("decentr://flags"), new GURL(LINK_URL),
                 LINK_TEXT, GURL.emptyGURL(), GURL.emptyGURL(), "", null, false, 0, 0,
                 MenuSourceType.MENU_SOURCE_TOUCH, false);
         initializePopulator(ChromeContextMenuPopulator.ContextMenuMode.NORMAL, params);

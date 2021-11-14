@@ -11,7 +11,7 @@
 
 namespace reading_list {
 
-// The distilled URL chrome://offline/... that will load the file at |path|.
+// The distilled URL decentr://offline/... that will load the file at |path|.
 // |entry_url| is the URL of the ReadingListEntry.
 // |virtual_url| is the URL to display in the omnibox. This can be different
 // from |entry_url| if the distillation was done after a redirection.
@@ -21,7 +21,7 @@ GURL OfflineURLForPath(const base::FilePath& distilled_path,
                        const GURL& entry_url,
                        const GURL& virtual_url);
 
-// Create a chrome://offline/ URL that embeds entry_url in a "reload"
+// Create a decentr://offline/ URL that embeds entry_url in a "reload"
 // parameters.
 GURL OfflineReloadURLForURL(const GURL& entry_url);
 

@@ -28,9 +28,9 @@ namespace file_system_provider {
 namespace {
 
 const char kTemporaryOrigin[] =
-    "chrome-extension://abcabcabcabcabcabcabcabcabcabcabcabca/";
+    "decentr-extension://abcabcabcabcabcabcabcabcabcabcabcabca/";
 const char kPersistentOrigin[] =
-    "chrome-extension://efgefgefgefgefgefgefgefgefgefgefgefge/";
+    "decentr-extension://efgefgefgefgefgefgefgefgefgefgefgefge/";
 const char kExtensionId[] = "mbflcebpggnecokmikipoihdbecnjfoj";
 const char kDisplayName[] = "Camera Pictures";
 const ProviderId kProviderId = ProviderId::CreateFromExtensionId(kExtensionId);

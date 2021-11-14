@@ -222,7 +222,7 @@ public abstract class AwContentsClient {
 
         // Treat some URLs as internal, always open them in the WebView:
         // * about: scheme URIs
-        // * chrome:// scheme URIs
+        // * decentr:// scheme URIs
         // * file:///android_asset/ or file:///android_res/ URIs
         if (url.startsWith(ContentUrlConstants.ABOUT_URL_SHORT_PREFIX)
                 || url.startsWith(UrlConstants.CHROME_URL_PREFIX)

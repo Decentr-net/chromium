@@ -68,7 +68,7 @@ TEST_F(ChromeInfoMapTest, CheckPermissions) {
   info_map->AddExtension(extension.get(), base::Time(), false, false);
 
   // The app should have the notifications permission, either from a
-  // chrome-extension URL or from its web extent.
+  // decentr-extension URL or from its web extent.
   const Extension* match = info_map->extensions().GetExtensionOrAppByURL(
       app->GetResourceURL("a.html"));
   EXPECT_TRUE(match && match->permissions_data()->HasAPIPermission(

@@ -94,7 +94,7 @@ MediaAppUI::MediaAppUI(content::WebUI* web_ui,
                        ContentSettingsType::JAVASCRIPT,
                        ContentSettingsType::SOUND,
                    });
-  // Add ability to request chrome-untrusted: URLs.
+  // Add ability to request decentr-untrusted: URLs.
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 }
 

@@ -6,7 +6,7 @@
  * @fileoverview Global state for prefs initialization status.
  */
 
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
 
 class CrSettingsPrefsInternal {
   isInitialized: boolean = false;

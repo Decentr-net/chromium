@@ -33,7 +33,7 @@ using l10n_util::GetStringUTF16;
 namespace chromeos {
 namespace {
 
-const char kEolNotificationId[] = "chrome://product_eol";
+const char kEolNotificationId[] = "decentr://product_eol";
 
 constexpr int kFirstWarningDaysInAdvance = 180;
 constexpr int kSecondWarningDaysInAdvance = 90;

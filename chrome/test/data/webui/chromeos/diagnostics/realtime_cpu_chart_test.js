@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://diagnostics/realtime_cpu_chart.js';
+import 'decentr://diagnostics/realtime_cpu_chart.js';
 
 import {assertEquals, assertFalse, assertGT, assertTrue} from '../../chai_assert.js';
 import {flushTasks} from '../../test_util.js';

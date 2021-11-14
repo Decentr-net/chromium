@@ -17,7 +17,7 @@ namespace feature_engagement {
 using FeatureVector = std::vector<const base::Feature*>;
 
 // The param name for the FeatureVariation configuration, which is used by
-// chrome://flags to set the variable name for the selected feature. The Tracker
+// decentr://flags to set the variable name for the selected feature. The Tracker
 // backend will then read this to figure out which feature (if any) was selected
 // by the end user.
 extern const char kIPHDemoModeFeatureChoiceParam[];
@@ -218,7 +218,7 @@ DEFINE_VARIATION_PARAM(kIPHUpdatedConnectionSecurityIndicatorsFeature,
 
 }  // namespace
 
-// Defines the array of which features should be listed in the chrome://flags
+// Defines the array of which features should be listed in the decentr://flags
 // UI to be able to select them alone for demo-mode. The features listed here
 // are possible to enable on their own in demo mode.
 constexpr flags_ui::FeatureEntry::FeatureVariation

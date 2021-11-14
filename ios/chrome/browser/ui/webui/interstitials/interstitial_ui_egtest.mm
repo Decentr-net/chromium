@@ -21,7 +21,7 @@
 #error "This file requires ARC support."
 #endif
 
-// Test case for chrome://interstitials WebUI page.
+// Test case for decentr://interstitials WebUI page.
 @interface InterstitialWebUITestCase : ChromeTestCase {
   std::unique_ptr<url::ScopedSchemeRegistryForTests> _schemeRegistry;
 }
@@ -42,14 +42,14 @@
   [super tearDown];
 }
 
-// Tests that chrome://interstitials loads correctly.
+// Tests that decentr://interstitials loads correctly.
 - (void)testLoadInterstitialUI {
   [ChromeEarlGrey loadURL:GURL(kChromeUIIntersitialsURL)];
 
   [ChromeEarlGrey waitForWebStateContainingText:"Choose an interstitial"];
 }
 
-// Tests that chrome://interstitials/ssl loads correctly.
+// Tests that decentr://interstitials/ssl loads correctly.
 - (void)testLoadSSLInterstitialUI {
   GURL SSLInterstitialURL =
       GURL(kChromeUIIntersitialsURL).Resolve(kChromeInterstitialSslPath);
@@ -59,7 +59,7 @@
       waitForWebStateContainingText:"Your connection is not private"];
 }
 
-// Tests that chrome://interstitials/captiveportal loads correctly.
+// Tests that decentr://interstitials/captiveportal loads correctly.
 - (void)testLoadCaptivePortalInterstitialUI {
   GURL captivePortalInterstitialURL =
       GURL(kChromeUIIntersitialsURL)
@@ -69,7 +69,7 @@
   [ChromeEarlGrey waitForWebStateContainingText:"Connect to Wi-Fi"];
 }
 
-// Tests that chrome://interstitials/safe_browsing?type=malware loads correctly.
+// Tests that decentr://interstitials/safe_browsing?type=malware loads correctly.
 - (void)testLoadSafeBrowsingMalwareInterstitialUI {
   GURL safeBrowsingURL = GURL(kChromeUIIntersitialsURL)
                              .Resolve(kChromeInterstitialSafeBrowsingPath);
@@ -82,7 +82,7 @@
       waitForWebStateContainingText:"The site ahead contains malware"];
 }
 
-// Tests that chrome://interstitials/safe_browsing?type=phishing loads
+// Tests that decentr://interstitials/safe_browsing?type=phishing loads
 // correctly.
 - (void)testLoadSafeBrowsingPhishingInterstitialUI {
   GURL safeBrowsingURL = GURL(kChromeUIIntersitialsURL)
@@ -95,7 +95,7 @@
   [ChromeEarlGrey waitForWebStateContainingText:"Deceptive site ahead"];
 }
 
-// Tests that chrome://interstitials/safe_browsing?type=unwanted loads
+// Tests that decentr://interstitials/safe_browsing?type=unwanted loads
 // correctly.
 - (void)testLoadSafeBrowsingUnwantedInterstitialUI {
   GURL safeBrowsingURL = GURL(kChromeUIIntersitialsURL)
@@ -109,7 +109,7 @@
       waitForWebStateContainingText:"The site ahead contains harmful programs"];
 }
 
-// Tests that chrome://interstitials/safe_browsing?type=clientside_malware loads
+// Tests that decentr://interstitials/safe_browsing?type=clientside_malware loads
 // correctly.
 - (void)testLoadSafeBrowsingClientsideMalwareInterstitialUI {
   GURL safeBrowsingURL = GURL(kChromeUIIntersitialsURL)
@@ -123,7 +123,7 @@
       waitForWebStateContainingText:"The site ahead contains malware"];
 }
 
-// Tests that chrome://interstitials/safe_browsing?type=clientside_phishing
+// Tests that decentr://interstitials/safe_browsing?type=clientside_phishing
 // loads correctly.
 - (void)testLoadSafeBrowsingClientsidePhishingInterstitialUI {
   GURL safeBrowsingURL = GURL(kChromeUIIntersitialsURL)
@@ -136,7 +136,7 @@
   [ChromeEarlGrey waitForWebStateContainingText:"Deceptive site ahead"];
 }
 
-// Tests that chrome://interstitials/safe_browsing?type=billing loads correctly.
+// Tests that decentr://interstitials/safe_browsing?type=billing loads correctly.
 - (void)testLoadSafeBrowsingBillingInterstitialUI {
   GURL safeBrowsingURL = GURL(kChromeUIIntersitialsURL)
                              .Resolve(kChromeInterstitialSafeBrowsingPath);

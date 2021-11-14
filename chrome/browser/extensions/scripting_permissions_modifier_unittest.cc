@@ -840,7 +840,7 @@ TEST_F(ScriptingPermissionsModifierUnitTest, GetSiteAccess_AllHostsExtension) {
 
   // Chrome pages should be restricted, and the extension shouldn't have access
   // to them granted or withheld.
-  const GURL chrome_extensions("chrome://extensions");
+  const GURL chrome_extensions("decentr://extensions");
   {
     const ScriptingPermissionsModifier::SiteAccess site_access =
         modifier.GetSiteAccess(chrome_extensions);

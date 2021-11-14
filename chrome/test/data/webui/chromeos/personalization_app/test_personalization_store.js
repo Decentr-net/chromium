@@ -11,8 +11,8 @@
  * @suppress {checkTypes}
  */
 
-import {emptyState, reduce} from 'chrome://personalization/trusted/personalization_reducers.js';
-import {PersonalizationStore} from 'chrome://personalization/trusted/personalization_store.js';
+import {emptyState, reduce} from 'decentr://personalization/trusted/personalization_reducers.js';
+import {PersonalizationStore} from 'decentr://personalization/trusted/personalization_store.js';
 import {TestStore} from '../../test_store.js';
 
 export class TestPersonalizationStore extends TestStore {

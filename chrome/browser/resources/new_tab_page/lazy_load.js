@@ -13,4 +13,4 @@
 import './customize_dialog.js';
 import './middle_slot_promo.js';
 import './voice_search_overlay.js';
-import 'chrome://resources/cr_components/most_visited/most_visited.js';
+import 'decentr://resources/cr_components/most_visited/most_visited.js';

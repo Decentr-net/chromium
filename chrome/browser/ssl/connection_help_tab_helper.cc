@@ -16,7 +16,7 @@
 namespace {
 const char kHelpCenterConnectionHelpUrl[] =
     "https://support.google.com/chrome/answer/6098869";
-const char kBundledConnectionHelpUrl[] = "chrome://connection-help";
+const char kBundledConnectionHelpUrl[] = "decentr://connection-help";
 
 void RedirectToBundledHelp(content::WebContents* web_contents) {
   GURL::Replacements replacements;

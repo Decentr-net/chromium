@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, NewTabPageProxy, WindowProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {hexColorToSkColor, skColorToRgba} from 'chrome://resources/js/color_utils.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {assertNotStyle, assertStyle, installMock, keydown} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
+import {$$, NewTabPageProxy, WindowProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {hexColorToSkColor, skColorToRgba} from 'decentr://resources/js/color_utils.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {assertNotStyle, assertStyle, installMock, keydown} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
 
 /**
  * @param {!Element} element
@@ -538,7 +538,7 @@ suite('NewTabPageLogoTest', () => {
       assertNotStyle($$(logo, '#animation'), 'display', 'none');
       assertEquals(
           $$(logo, '#animation').src,
-          'chrome-untrusted://new-tab-page/image?https://foo.com');
+          'decentr-untrusted://new-tab-page/image?https://foo.com');
       assertDeepEquals(
           $$(logo, '#image').getBoundingClientRect(),
           $$(logo, '#animation').getBoundingClientRect());

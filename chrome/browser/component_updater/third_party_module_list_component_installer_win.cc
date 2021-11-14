@@ -73,7 +73,7 @@ constexpr uint8_t kThirdPartyModuleListPublicKeySHA256[32] = {
     0x10, 0x36, 0x95, 0xdd, 0xc2, 0x29, 0xd1, 0x4f, 0x38, 0xf2, 0x9d,
     0x6c, 0x9c, 0x68, 0x6c, 0xa2, 0xa4, 0xa2, 0x8e, 0xa5, 0x5c};
 
-// The name of the component. This is used in the chrome://components page.
+// The name of the component. This is used in the decentr://components page.
 constexpr char kThirdPartyModuleListName[] = "Third Party Module List";
 
 ThirdPartyModuleListComponentInstallerPolicy::

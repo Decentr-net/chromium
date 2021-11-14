@@ -381,7 +381,7 @@ fuchsia_package_runner("web_engine_installer") {
 }
 
 # Definitions for a variant of the web_engine package that bundles the WebUI
-# resources, to allow e.g. chrome://gpu to be used.  An installer script is
+# resources, to allow e.g. decentr://gpu to be used.  An installer script is
 # defined, for ease of development.
 
 # TODO(crbug.com/1010222): Remove the with-WebUI ContextProvider component

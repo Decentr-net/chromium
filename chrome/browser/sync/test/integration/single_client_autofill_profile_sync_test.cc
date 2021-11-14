@@ -62,7 +62,7 @@ IN_PROC_BROWSER_TEST_F(SingleClientAutofillProfileSyncTest,
       autofill_helper::GetPersonalDataManager(0);
   ASSERT_EQ(1uL, pdm->GetProfiles().size());
 
-  // Disable autofill (e.g. via chrome://settings).
+  // Disable autofill (e.g. via decentr://settings).
   autofill::prefs::SetAutofillProfileEnabled(GetProfile(0)->GetPrefs(), false);
 
   // Wait for Sync to get reconfigured.

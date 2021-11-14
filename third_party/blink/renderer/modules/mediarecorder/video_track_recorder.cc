@@ -358,7 +358,7 @@ void VideoTrackRecorderImpl::Encoder::RetrieveFrameOnEncodingTaskRunner(
 
     Platform::GraphicsInfo info;
     encoder_thread_context_ = CreateContextProviderOnWorkerThread(
-        attributes, &info, KURL("chrome://VideoTrackRecorderImpl"));
+        attributes, &info, KURL("decentr://VideoTrackRecorderImpl"));
 
     if (encoder_thread_context_ &&
         !encoder_thread_context_->BindToCurrentThread()) {

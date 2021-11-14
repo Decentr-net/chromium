@@ -15,7 +15,7 @@
 class ProfileCreationCustomizeThemesHandler;
 class ProfilePickerHandler;
 
-// The WebUI controller for chrome://profile-picker/.
+// The WebUI controller for decentr://profile-picker/.
 class ProfilePickerUI
     : public ui::MojoWebUIController,
       public customize_themes::mojom::CustomizeThemesHandlerFactory {

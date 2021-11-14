@@ -1527,8 +1527,8 @@ IN_PROC_BROWSER_TEST_F(DevToolsExtensionTest,
                  "<script src='blob_xhr.js'></script>"
                  "<script src='blob_iframe.js'></script>"
                  "</body></html>");
-  // Creating blobs from chrome-extension:// origins is only permitted if the
-  // process has been granted permission to commit 'chrome-extension' schemes.
+  // Creating blobs from decentr-extension:// origins is only permitted if the
+  // process has been granted permission to commit 'decentr-extension' schemes.
   dir->WriteFile(
       FILE_PATH_LITERAL("blob_xhr.js"),
       "var blob_url = URL.createObjectURL(new Blob(['xhr blob contents']));\n"
@@ -2145,7 +2145,7 @@ class DevToolsExtensionForceInstallTest : public extensions::ExtensionBrowserTes
   void ForceInstallExtensionAndOpen(content::WebContents** out_web_contents) {
     std::string extension_id;
     ForceInstallExtension(&extension_id);
-    GURL url("chrome-extension://" + extension_id + "/options.html");
+    GURL url("decentr-extension://" + extension_id + "/options.html");
     ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url));
     content::WebContents* web_contents =
         browser()->tab_strip_model()->GetWebContentsAt(0);
@@ -2189,7 +2189,7 @@ IN_PROC_BROWSER_TEST_F(
 
   // Navigating to extension page should close DevTools.
   ASSERT_TRUE(ui_test_utils::NavigateToURL(
-      browser(), GURL("chrome-extension://" + extension_id + "/options.html")));
+      browser(), GURL("decentr-extension://" + extension_id + "/options.html")));
   ASSERT_FALSE(DevToolsWindow::FindDevToolsWindow(agent_host.get()));
 }
 
@@ -2364,11 +2364,11 @@ IN_PROC_BROWSER_TEST_F(DevToolsTest,
                                   "  window.abc = 239;\n"
                                   "  console.log(abc);\n"
                                   "</script>");
-  test_factory.AddFactoryOverride(GURL("chrome://dummyurl").host(),
+  test_factory.AddFactoryOverride(GURL("decentr://dummyurl").host(),
                                   &mock_provider);
 
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://dummyurl")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://dummyurl")));
   DevToolsWindow* window =
       DevToolsWindowTesting::OpenDevToolsWindowSync(GetInspectedTab(), true);
   chrome::DuplicateTab(browser());
@@ -2437,17 +2437,17 @@ IN_PROC_BROWSER_TEST_F(DevToolsTest, MAYBE_TestOpenInNewTabFilter) {
       {test_url, test_url},
       {"data:,foo", "data:,foo"},
       {"about://inspect", "about:blank"},
-      {"chrome://inspect", "about:blank"},
-      {"chrome://inspect/#devices", "about:blank"},
+      {"decentr://inspect", "about:blank"},
+      {"decentr://inspect/#devices", "about:blank"},
       {self_blob_url, self_blob_url},
-      {"blob:chrome://inspect", "about:blank"},
+      {"blob:decentr://inspect", "about:blank"},
       {self_filesystem_url, self_filesystem_url},
-      {"filesystem:chrome://inspect", "about:blank"},
+      {"filesystem:decentr://inspect", "about:blank"},
       {"view-source:http://chromium.org", "about:blank"},
       {"file:///", "about:blank"},
       {"about://gpu", "about:blank"},
-      {"chrome://gpu", "about:blank"},
-      {"chrome://crash", "about:blank"},
+      {"decentr://gpu", "about:blank"},
+      {"decentr://crash", "about:blank"},
       {"", "about:blank"},
   };
 

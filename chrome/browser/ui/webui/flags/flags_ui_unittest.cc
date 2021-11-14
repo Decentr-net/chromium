@@ -24,12 +24,12 @@ TEST_F(FlagsUITest, IsDeprecatedUrl) {
     std::string url;
     bool is_deprecated;
   } expectations[] = {
-      {"chrome://flags", false},
-      {"chrome://flags/no/deprecated", false},
-      {"chrome://deprecated", false},
-      {"chrome://flags/deprecated", true},
-      {"chrome://flags/deprecated/", true},
-      {"chrome://flags//deprecated/yes?no", false},
+      {"decentr://flags", false},
+      {"decentr://flags/no/deprecated", false},
+      {"decentr://deprecated", false},
+      {"decentr://flags/deprecated", true},
+      {"decentr://flags/deprecated/", true},
+      {"decentr://flags//deprecated/yes?no", false},
   };
 
   for (const auto& expectation : expectations) {

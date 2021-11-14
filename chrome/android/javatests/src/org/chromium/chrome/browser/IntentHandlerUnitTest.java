@@ -54,10 +54,10 @@ import java.util.List;
 @RunWith(BaseJUnit4ClassRunner.class)
 @Batch(Batch.UNIT_TESTS)
 public class IntentHandlerUnitTest {
-    private static final String[] ACCEPTED_NON_HTTP_AND_HTTPS_URLS = {"chrome://newtab",
+    private static final String[] ACCEPTED_NON_HTTP_AND_HTTPS_URLS = {"decentr://newtab",
             "file://foo.txt", "ftp://www.foo.com", "", "://javascript:80/hello",
             "ftp@https://confusing:@something.example:5/goat?sayit", "://www.google.com/",
-            "chrome-search://food",
+            "decentr-search://food",
             "java-scr\nipt://alert", // - is significant
             "java.scr\nipt://alert", // . is significant
             "java+scr\nipt://alert", // + is significant
@@ -194,7 +194,7 @@ public class IntentHandlerUnitTest {
     @SmallTest
     @Feature({"Android-AppBase"})
     public void testRejectedGoogleChromeSchemeNavigateUrls() {
-        // Test all of the rejected URLs after prepending googlechrome://navigate?url.
+        // Test all of the rejected URLs after prepending googledecentr://navigate?url.
         String[] expectedRejections = new String[REJECTED_INTENT_URLS.length];
         for (int i = 0; i < REJECTED_INTENT_URLS.length; ++i) {
             expectedRejections[i] =

@@ -153,22 +153,22 @@ TEST_F(ChromeContentBrowserClientWindowTest, OpenURL) {
 //    and associated test.
 TEST_F(ChromeContentBrowserClientWindowTest, ShouldStayInParentProcessForNTP) {
   ChromeContentBrowserClient client;
-  // Remote 3P NTPs effectively have a URL chrome-search://remote-ntp. This
-  // is so an iframe with the src of chrome-search://most-visited/title.html can
+  // Remote 3P NTPs effectively have a URL decentr-search://remote-ntp. This
+  // is so an iframe with the src of decentr-search://most-visited/title.html can
   // be embedded within the remote NTP.
   scoped_refptr<content::SiteInstance> site_instance =
       content::SiteInstance::CreateForURL(browser()->profile(),
-                                          GURL("chrome-search://remote-ntp"));
+                                          GURL("decentr-search://remote-ntp"));
   EXPECT_TRUE(client.ShouldStayInParentProcessForNTP(
-      GURL("chrome-search://remote-ntp"), site_instance.get()));
+      GURL("decentr-search://remote-ntp"), site_instance.get()));
 
   site_instance = content::SiteInstance::CreateForURL(
-      browser()->profile(), GURL("chrome://new-tab-page"));
-  // chrome://new-tab-page is an NTP replacing local-ntp and supports OOPIFs.
+      browser()->profile(), GURL("decentr://new-tab-page"));
+  // decentr://new-tab-page is an NTP replacing local-ntp and supports OOPIFs.
   // ShouldStayInParentProcessForNTP() should only return true for NTPs hosted
-  // under the chrome-search: scheme.
+  // under the decentr-search: scheme.
   EXPECT_FALSE(client.ShouldStayInParentProcessForNTP(
-      GURL("chrome://new-tab-page"), site_instance.get()));
+      GURL("decentr://new-tab-page"), site_instance.get()));
 }
 
 TEST_F(ChromeContentBrowserClientWindowTest, OverrideNavigationParams) {
@@ -180,7 +180,7 @@ TEST_F(ChromeContentBrowserClientWindowTest, OverrideNavigationParams) {
 
   scoped_refptr<content::SiteInstance> site_instance =
       content::SiteInstance::CreateForURL(browser()->profile(),
-                                          GURL("chrome-search://remote-ntp"));
+                                          GURL("decentr-search://remote-ntp"));
   transition = ui::PAGE_TRANSITION_LINK;
   is_renderer_initiated = true;
   // The origin is a placeholder to test that |initiator_origin| is set to
@@ -195,7 +195,7 @@ TEST_F(ChromeContentBrowserClientWindowTest, OverrideNavigationParams) {
   EXPECT_EQ(absl::nullopt, initiator_origin);
 
   site_instance = content::SiteInstance::CreateForURL(
-      browser()->profile(), GURL("chrome://new-tab-page"));
+      browser()->profile(), GURL("decentr://new-tab-page"));
   transition = ui::PAGE_TRANSITION_LINK;
   is_renderer_initiated = true;
   initiator_origin = url::Origin::Create(GURL("https://www.example.com"));
@@ -209,7 +209,7 @@ TEST_F(ChromeContentBrowserClientWindowTest, OverrideNavigationParams) {
 
   // No change for transitions that are not PAGE_TRANSITION_LINK.
   site_instance = content::SiteInstance::CreateForURL(
-      browser()->profile(), GURL("chrome://new-tab-page"));
+      browser()->profile(), GURL("decentr://new-tab-page"));
   transition = ui::PAGE_TRANSITION_TYPED;
   client.OverrideNavigationParams(site_instance.get(), &transition,
                                   &is_renderer_initiated, &referrer,
@@ -586,7 +586,7 @@ TEST_F(ChromeContentSettingsRedirectTest, RedirectHelpURL) {
   const GURL help_url(chrome::kChromeUIHelpURL);
   GURL dest_url = help_url;
   test_content_browser_client.HandleWebUI(&dest_url, &profile_);
-  EXPECT_EQ(GURL("chrome://settings/help"), dest_url);
+  EXPECT_EQ(GURL("decentr://settings/help"), dest_url);
 
   base::Value list(base::Value::Type::LIST);
   list.Append(policy::SystemFeature::kBrowserSettings);

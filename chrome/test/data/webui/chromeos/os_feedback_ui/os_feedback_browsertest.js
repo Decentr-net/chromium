@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Test fixture for chrome://os-feedback.
+ * @fileoverview Test fixture for decentr://os-feedback.
  * Unifieid polymer testing suite for feedback tool.
  *
  * To run all tests in a single instance (default, faster):
@@ -26,7 +26,7 @@ GEN('#include "content/public/test/browser_test.h"');
 this.OSFeedbackBrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://os-feedback/test_loader.html?module=chromeos/' +
+    return 'decentr://os-feedback/test_loader.html?module=chromeos/' +
         'os_feedback_ui/os_feedback_unified_test.js';
   }
 

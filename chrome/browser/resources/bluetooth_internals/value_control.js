@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 /**
- * Javascript for ValueControl, served from chrome://bluetooth-internals/.
+ * Javascript for ValueControl, served from decentr://bluetooth-internals/.
  */
 
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
 
 import {connectToDevice} from './device_broker.js';
 import {Snackbar, SnackbarType} from './snackbar.js';

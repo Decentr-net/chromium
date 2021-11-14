@@ -104,8 +104,8 @@ export function getCaller() {
   const lines = error.stack.split('\n');
   if (ignoreStackLines < lines.length) {
     const caller = lines[ignoreStackLines];
-    // Strip 'chrome-extension://oobinhbdbiehknkpbpejbbpdbkdjmoco' prefix.
-    return caller.replace(/(chrome-extension:\/\/\w*)/gi, '').trim();
+    // Strip 'decentr-extension://oobinhbdbiehknkpbpejbbpdbkdjmoco' prefix.
+    return caller.replace(/(decentr-extension:\/\/\w*)/gi, '').trim();
   }
   return '';
 }

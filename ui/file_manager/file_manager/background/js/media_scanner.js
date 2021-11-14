@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {importer} from '../../common/js/importer_common.js';
 import {mediaScannerInterfaces} from '../../externs/background/media_scanner.js';

@@ -183,7 +183,7 @@ base::FilePath CreateDemoResourcesTermsPath(const base::FilePath& file_path) {
 
 // Loads bundled terms of service contents (Eula, OEM Eula, Play Store Terms).
 // The online version of terms is fetched in OOBE screen javascript. This is
-// intentional because chrome://terms runs in a privileged webui context and
+// intentional because decentr://terms runs in a privileged webui context and
 // should never load from untrusted places.
 class ChromeOSTermsHandler
     : public base::RefCountedThreadSafe<ChromeOSTermsHandler> {
@@ -549,11 +549,11 @@ std::string ChromeURLs() {
   std::sort(hosts.begin(), hosts.end());
   for (const std::string& host : hosts) {
     html +=
-        "<li><a href='chrome://" + host + "/'>chrome://" + host + "</a></li>\n";
+        "<li><a href='decentr://" + host + "/'>decentr://" + host + "</a></li>\n";
   }
 
   html +=
-      "</ul><a id=\"internals\"><h2>List of chrome://internals "
+      "</ul><a id=\"internals\"><h2>List of decentr://internals "
       "pages</h2></a>\n<ul>\n";
   std::vector<std::string> internals_paths(
       chrome::kChromeInternalsPathURLs,
@@ -561,8 +561,8 @@ std::string ChromeURLs() {
           chrome::kNumberOfChromeInternalsPathURLs);
   std::sort(internals_paths.begin(), internals_paths.end());
   for (const std::string& path : internals_paths) {
-    html += "<li><a href='chrome://internals/" + path +
-            "'>chrome://internals/" + path + "</a></li>\n";
+    html += "<li><a href='decentr://internals/" + path +
+            "'>decentr://internals/" + path + "</a></li>\n";
   }
 
   html += "</ul>\n<h2>For Debug</h2>\n"
@@ -693,7 +693,7 @@ bool AboutUIHTMLSource::ShouldAddContentSecurityPolicy() {
 std::string AboutUIHTMLSource::GetAccessControlAllowOriginForOrigin(
     const std::string& origin) {
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  // Allow chrome://oobe to load chrome://terms via XHR.
+  // Allow decentr://oobe to load decentr://terms via XHR.
   if (source_name_ == chrome::kChromeUITermsHost &&
       base::StartsWith(chrome::kChromeUIOobeURL, origin,
                        base::CompareCase::SENSITIVE)) {
@@ -708,7 +708,7 @@ AboutUI::AboutUI(content::WebUI* web_ui, const std::string& name)
   Profile* profile = Profile::FromWebUI(web_ui);
 
 #if !defined(OS_ANDROID)
-  // Set up the chrome://theme/ source.
+  // Set up the decentr://theme/ source.
   content::URLDataSource::Add(profile, std::make_unique<ThemeSource>(profile));
 #endif
 

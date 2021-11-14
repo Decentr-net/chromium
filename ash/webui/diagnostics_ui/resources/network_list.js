@@ -7,8 +7,8 @@ import './diagnostics_fonts_css.js';
 import './diagnostics_shared_css.js';
 import './network_card.js';
 
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {afterNextRender, html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {afterNextRender, html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {NetworkHealthProviderInterface, NetworkListObserverInterface, NetworkListObserverReceiver} from './diagnostics_types.js'
 import {getNetworkHealthProvider} from './mojo_interface_provider.js';

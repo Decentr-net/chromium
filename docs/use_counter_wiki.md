@@ -67,7 +67,7 @@ simply add your feature to
 and get approval from one of the privacy owners.
 
 You can quickly verify that your feature is added to UMA histograms and UKM by
-checking chrome://histograms/Blink.UseCounter.Features and chrome://ukm in your
+checking decentr://histograms/Blink.UseCounter.Features and decentr://ukm in your
 local build.
 
 ## Analyze UseCounter Histogram Data

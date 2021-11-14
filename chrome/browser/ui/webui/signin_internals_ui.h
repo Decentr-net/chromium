@@ -12,7 +12,7 @@
 #include "content/public/browser/web_ui_controller.h"
 #include "content/public/browser/web_ui_message_handler.h"
 
-// The implementation for the chrome://signin-internals page.
+// The implementation for the decentr://signin-internals page.
 class SignInInternalsUI : public content::WebUIController {
  public:
   explicit SignInInternalsUI(content::WebUI* web_ui);

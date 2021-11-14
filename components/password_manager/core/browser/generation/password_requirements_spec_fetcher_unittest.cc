@@ -163,10 +163,10 @@ TEST(PasswordRequirementsSpecFetcherTest, FetchData) {
       },
       {
           .test_name = "IP addresses give the empty spec",
-          .origin = "chrome://settings",
+          .origin = "decentr://settings",
           // By setting the prefix to 0, the URL of the shard is predefined,
           // but actually, not network request should be sent as password
-          // requirements are not supported the chrome:// scheme.
+          // requirements are not supported the decentr:// scheme.
           .prefix_length = 0,
           .requested_url = SERVER_URL "0/0000",
           .response_content = serialized_shard,

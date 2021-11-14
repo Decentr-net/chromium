@@ -21,14 +21,14 @@
 WebUIJsErrorUI::WebUIJsErrorUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
 #if !defined(OS_WIN) && !defined(OS_FUCHSIA)
-  VLOG(3) << std::boolalpha << "chrome://webuijserror loading. "
+  VLOG(3) << std::boolalpha << "decentr://webuijserror loading. "
           << "Experiment state: send javascript errors is "
           << base::FeatureList::IsEnabled(
                  features::kSendWebUIJavaScriptErrorReports)
           << " and send to prod is "
           << features::kWebUIJavaScriptErrorReportsSendToProductionParam.Get();
 #else
-  VLOG(3) << "chrome://webuijserror loading.";
+  VLOG(3) << "decentr://webuijserror loading.";
 #endif
 
   content::WebUIDataSource* source =

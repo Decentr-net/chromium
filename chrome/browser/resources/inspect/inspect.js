@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$} from 'chrome://resources/js/util.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 const MIN_VERSION_TAB_CLOSE = 25;
 const MIN_VERSION_TARGET_ID = 26;
@@ -12,7 +12,7 @@ const WEBRTC_SERIAL = 'WEBRTC';
 let HOST_CHROME_VERSION;
 
 const queryParamsObject = {};
-let browserInspector = 'chrome://tracing';
+let browserInspector = 'decentr://tracing';
 let browserInspectorTitle = 'trace';
 
 (function() {

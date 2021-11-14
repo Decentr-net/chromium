@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {assert} from 'chrome://resources/js/assert.m.js'
-// #import {isIOS} from 'chrome://resources/js/cr.m.js'
+// #import {assert} from 'decentr://resources/js/assert.m.js'
+// #import {isIOS} from 'decentr://resources/js/cr.m.js'
 // clang-format on
 
 cr.define('cr.ui', function() {

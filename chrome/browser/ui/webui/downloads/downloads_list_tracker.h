@@ -24,7 +24,7 @@ class DownloadManager;
 }
 
 // A class that tracks all downloads activity and keeps a sorted representation
-// of the downloads as chrome://downloads wants to display them.
+// of the downloads as decentr://downloads wants to display them.
 class DownloadsListTracker
     : public download::AllDownloadItemNotifier::Observer {
  public:

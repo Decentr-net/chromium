@@ -361,7 +361,7 @@ class ChromePasswordProtectionService : public PasswordProtectionService,
   void HandleResetPasswordOnInterstitial(content::WebContents* web_contents,
                                          WarningAction action);
 
-  // Determines if we should show chrome://reset-password interstitial based on
+  // Determines if we should show decentr://reset-password interstitial based on
   // the reused |password_type| and the |main_frame_url|.
   bool CanShowInterstitial(ReusedPasswordAccountType password_type,
                            const GURL& main_frame_url) override;

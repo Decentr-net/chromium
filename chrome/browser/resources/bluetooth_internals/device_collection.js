@@ -4,13 +4,13 @@
 
 /**
  * Javascript for DeviceCollection, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
 import './device.mojom-lite.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
 
 /**
  * Enum of connection status for a device.

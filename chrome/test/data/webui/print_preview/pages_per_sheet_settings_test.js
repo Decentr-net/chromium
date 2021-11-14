@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {MarginsType, PrintPreviewPagesPerSheetSettingsElement} from 'chrome://print/print_preview.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {selectOption} from 'chrome://test/print_preview/print_preview_test_utils.js';
-import {eventToPromise, fakeDataBind} from 'chrome://test/test_util.js';
+import {MarginsType, PrintPreviewPagesPerSheetSettingsElement} from 'decentr://print/print_preview.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {selectOption} from 'decentr://test/print_preview/print_preview_test_utils.js';
+import {eventToPromise, fakeDataBind} from 'decentr://test/test_util.js';
 
 suite('PagesPerSheetSettingsTest', function() {
   /** @type {?PrintPreviewPagesPerSheetSettingsElement} */

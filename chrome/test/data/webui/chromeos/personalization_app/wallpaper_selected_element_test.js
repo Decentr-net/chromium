@@ -4,10 +4,10 @@
 
 /** @fileoverview Test suite for wallpaper-selected component.  */
 
-import {ActionName} from 'chrome://personalization/trusted/personalization_actions.js';
-import {emptyState} from 'chrome://personalization/trusted/personalization_reducers.js';
-import {Paths} from 'chrome://personalization/trusted/personalization_router_element.js';
-import {mockTimeoutForTesting, WallpaperSelected} from 'chrome://personalization/trusted/wallpaper_selected_element.js';
+import {ActionName} from 'decentr://personalization/trusted/personalization_actions.js';
+import {emptyState} from 'decentr://personalization/trusted/personalization_reducers.js';
+import {Paths} from 'decentr://personalization/trusted/personalization_router_element.js';
+import {mockTimeoutForTesting, WallpaperSelected} from 'decentr://personalization/trusted/wallpaper_selected_element.js';
 import {assertDeepEquals, assertEquals, assertFalse, assertNotEquals, assertNotReached, assertTrue} from '../../chai_assert.js';
 import {flushTasks, waitAfterNextRender} from '../../test_util.js';
 import {baseSetup, initElement} from './personalization_app_test_utils.js';
@@ -104,7 +104,7 @@ export function WallpaperSelectedTest() {
 
     const img = wallpaperSelectedElement.shadowRoot.querySelector('img');
     assertEquals(
-        `chrome://image/?${wallpaperProvider.currentWallpaper.url.url}`,
+        `decentr://image/?${wallpaperProvider.currentWallpaper.url.url}`,
         img.src);
 
     const textContainerElements =
@@ -157,7 +157,7 @@ export function WallpaperSelectedTest() {
 
     const img = wallpaperSelectedElement.shadowRoot.querySelector('img');
     assertEquals(
-        'chrome://image/?https://images.googleusercontent.com/abc12', img.src);
+        'decentr://image/?https://images.googleusercontent.com/abc12', img.src);
   });
 
   test('updates image when store is updated', async () => {
@@ -170,7 +170,7 @@ export function WallpaperSelectedTest() {
 
     const img = wallpaperSelectedElement.shadowRoot.querySelector('img');
     assertEquals(
-        `chrome://image/?${wallpaperProvider.currentWallpaper.url.url}`,
+        `decentr://image/?${wallpaperProvider.currentWallpaper.url.url}`,
         img.src);
 
     personalizationStore.data.currentSelected = {
@@ -181,7 +181,7 @@ export function WallpaperSelectedTest() {
     personalizationStore.notifyObservers();
     await waitAfterNextRender(wallpaperSelectedElement);
 
-    assertEquals('chrome://image/?https://testing', img.src);
+    assertEquals('decentr://image/?https://testing', img.src);
   });
 
   test('shows placeholders when image fails to load', async () => {

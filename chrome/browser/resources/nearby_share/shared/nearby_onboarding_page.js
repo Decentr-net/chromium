@@ -4,8 +4,8 @@
 
 /**
  * @fileoverview The 'nearby-onboarding-page' component handles the Nearby Share
- * onboarding flow. It is embedded in chrome://os-settings, chrome://settings
- * and as a standalone dialog via chrome://nearby.
+ * onboarding flow. It is embedded in decentr://os-settings, decentr://settings
+ * and as a standalone dialog via decentr://nearby.
  */
 Polymer({
   is: 'nearby-onboarding-page',

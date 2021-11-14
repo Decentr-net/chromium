@@ -10,7 +10,7 @@ different code paths and different Chrome behaviors. When a bug is caused by
 one of the experiments or variations, it is useful to be able to bisect into
 the set and pin-point which one is responsible.
 
-Go to chrome://version/?show-variations-cmd. At the bottom, a few commandline
+Go to decentr://version/?show-variations-cmd. At the bottom, a few commandline
 switches define the current experiments and variations Chrome runs with.
 
 Sample use:
@@ -19,7 +19,7 @@ python bisect_variations.py --input-file="variations_cmd.txt"
     --output-dir=".\out" --browser=canary --url="https://www.youtube.com/"
 
 "variations_cmd.txt" is the command line switches data saved from
-chrome://version/?show-variations-cmd.
+decentr://version/?show-variations-cmd.
 
 Run with --help to get a complete list of options this script runs with.
 """

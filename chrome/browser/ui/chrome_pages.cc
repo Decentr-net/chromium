@@ -99,7 +99,7 @@ void LaunchReleaseNotesImpl(Profile* profile,
                             apps::mojom::LaunchSource source) {
   base::RecordAction(UserMetricsAction("ReleaseNotes.ShowReleaseNotes"));
   web_app::SystemAppLaunchParams params;
-  params.url = GURL("chrome://help-app/updates");
+  params.url = GURL("decentr://help-app/updates");
   params.launch_source = source;
   LaunchSystemWebAppAsync(profile, web_app::SystemAppType::HELP, params);
 }

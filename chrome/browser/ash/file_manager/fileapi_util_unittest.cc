@@ -288,12 +288,12 @@ TEST_P(FileManagerFileAPIUtilTest,
       {.file_name = "no-such-file.txt", .valid = false},
       {.file_name = "z.txt", .valid = true},
   };
-  CheckConvertFileDefinitionListToEntryDefinitionList("chrome-extension://abc",
+  CheckConvertFileDefinitionListToEntryDefinitionList("decentr-extension://abc",
                                                       orders);
-  CheckConvertFileDefinitionListToEntryDefinitionList("chrome-extension://abc/",
+  CheckConvertFileDefinitionListToEntryDefinitionList("decentr-extension://abc/",
                                                       orders);
   CheckConvertFileDefinitionListToEntryDefinitionList(
-      "chrome-extension://abc/efg", orders);
+      "decentr-extension://abc/efg", orders);
 }
 
 TEST_P(FileManagerFileAPIUtilTest,
@@ -303,18 +303,18 @@ TEST_P(FileManagerFileAPIUtilTest,
       {.file_name = "b.txt", .valid = false},
       {.file_name = "i-am-a-file.txt", .valid = true},
   };
-  CheckConvertFileDefinitionListToEntryDefinitionList("chrome://file-manager",
+  CheckConvertFileDefinitionListToEntryDefinitionList("decentr://file-manager",
                                                       orders);
-  CheckConvertFileDefinitionListToEntryDefinitionList("chrome://file-manager/",
+  CheckConvertFileDefinitionListToEntryDefinitionList("decentr://file-manager/",
                                                       orders);
   CheckConvertFileDefinitionListToEntryDefinitionList(
-      "chrome://file-manager/abc", orders);
+      "decentr://file-manager/abc", orders);
 }
 
 TEST_P(FileManagerFileAPIUtilTest,
        ConvertFileDefinitionListToEntryDefinitionNullContext) {
   Profile* const profile = GetProfile();
-  const GURL appURL("chrome-extension://abc/");
+  const GURL appURL("decentr-extension://abc/");
   auto temp_file_system = std::make_unique<TempFileSystem>(profile, appURL);
   ASSERT_TRUE(temp_file_system->SetUp());
   storage::FileSystemURL x_file_url =
@@ -344,7 +344,7 @@ TEST_P(FileManagerFileAPIUtilTest,
 TEST_P(FileManagerFileAPIUtilTest,
        ConvertFileDefinitionListToEntryDefinitionContextReset) {
   Profile* const profile = GetProfile();
-  const GURL appURL("chrome-extension://abc/");
+  const GURL appURL("decentr-extension://abc/");
   auto temp_file_system = std::make_unique<TempFileSystem>(profile, appURL);
   ASSERT_TRUE(temp_file_system->SetUp());
   storage::FileSystemURL x_file_url =
@@ -386,12 +386,12 @@ TEST_P(FileManagerFileAPIUtilTest, IsFileManagerURL) {
                                    .Resolve("/some/path")
                                    .Resolve("#anchor")
                                    .Resolve("?a=b")));
-  EXPECT_FALSE(IsFileManagerURL(GURL("chrome://not-file-manager")));
-  EXPECT_FALSE(IsFileManagerURL(GURL("chrome://not-file-manager/")));
+  EXPECT_FALSE(IsFileManagerURL(GURL("decentr://not-file-manager")));
+  EXPECT_FALSE(IsFileManagerURL(GURL("decentr://not-file-manager/")));
   EXPECT_FALSE(IsFileManagerURL(
-      GURL("chrome-extension://iamnotafilemanagerextensionid")));
+      GURL("decentr-extension://iamnotafilemanagerextensionid")));
   EXPECT_FALSE(IsFileManagerURL(
-      GURL("chrome-extension://iamnotafilemanagerextensionid/")));
+      GURL("decentr-extension://iamnotafilemanagerextensionid/")));
 }
 
 INSTANTIATE_TEST_SUITE_P(FilesAppMode,

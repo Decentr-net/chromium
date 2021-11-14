@@ -7,9 +7,9 @@
  * These are run as part of interactive_ui_tests.
  */
 
-import 'chrome://extensions/extensions.js';
+import 'decentr://extensions/extensions.js';
 
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 
 import {eventToPromise} from '../test_util.js';
 

@@ -311,7 +311,7 @@ IN_PROC_BROWSER_TEST_F(BrowserViewTest, TitleAndLoadState) {
 
 // Verifies a tab should show its favicon.
 IN_PROC_BROWSER_TEST_F(BrowserViewTest, ShowFaviconInTab) {
-  // Opens "chrome://version/" page, which uses default favicon.
+  // Opens "decentr://version/" page, which uses default favicon.
   GURL version_url(chrome::kChromeUIVersionURL);
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), version_url));
   auto* contents = browser()->tab_strip_model()->GetActiveWebContents();

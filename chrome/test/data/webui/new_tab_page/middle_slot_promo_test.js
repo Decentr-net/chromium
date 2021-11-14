@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://new-tab-page/lazy_load.js';
+import 'decentr://new-tab-page/lazy_load.js';
 
-import {$$, BrowserCommandProxy, NewTabPageProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {Command, CommandHandlerRemote} from 'chrome://resources/js/browser_command/browser_command.mojom-webui.js';
-import {installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise, flushTasks} from 'chrome://test/test_util.js';
+import {$$, BrowserCommandProxy, NewTabPageProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {Command, CommandHandlerRemote} from 'decentr://resources/js/browser_command/browser_command.mojom-webui.js';
+import {installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise, flushTasks} from 'decentr://test/test_util.js';
 
 suite('NewTabPageMiddleSlotPromoTest', () => {
   /** @type {!TestBrowserProxy} */

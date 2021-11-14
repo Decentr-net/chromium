@@ -469,13 +469,13 @@ allowlist, see the internal documentation:
 
 ## Testing
 
-Test your histograms using `chrome://histograms`. Make sure they're being
+Test your histograms using `decentr://histograms`. Make sure they're being
 emitted to when you expect and not emitted to at other times. Also check that
 the values emitted to are correct. Finally, for count histograms, make sure
 that buckets capture enough precision for your needs over the range.
 
-Pro tip: You can filter the set of histograms shown on `chrome://histograms` by
-specifying a prefix. For example, `chrome://histograms/Extensions.Load` shows
+Pro tip: You can filter the set of histograms shown on `decentr://histograms` by
+specifying a prefix. For example, `decentr://histograms/Extensions.Load` shows
 only histograms whose names match the pattern "Extensions.Load*".
 
 In addition to testing interactively, you can have unit tests examine the

@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {Dialog, NavigationHelper, Page} from 'chrome://extensions/extensions.js';
+import {Dialog, NavigationHelper, Page} from 'decentr://extensions/extensions.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 import {MockMethod} from '../mock_controller.m.js';
 
 window.extension_navigation_helper_tests = {};
@@ -80,15 +80,15 @@ suite(extension_navigation_helper_tests.suiteName, function() {
         const id = 'a'.repeat(32);
         const stateUrlPairs = {
           extensions: {
-            url: 'chrome://extensions/',
+            url: 'decentr://extensions/',
             state: {page: Page.LIST},
           },
           details: {
-            url: 'chrome://extensions/?id=' + id,
+            url: 'decentr://extensions/?id=' + id,
             state: {page: Page.DETAILS, extensionId: id},
           },
           options: {
-            url: 'chrome://extensions/?options=' + id,
+            url: 'decentr://extensions/?options=' + id,
             state: {
               page: Page.DETAILS,
               extensionId: id,
@@ -96,11 +96,11 @@ suite(extension_navigation_helper_tests.suiteName, function() {
             },
           },
           errors: {
-            url: 'chrome://extensions/?errors=' + id,
+            url: 'decentr://extensions/?errors=' + id,
             state: {page: Page.ERRORS, extensionId: id},
           },
           shortcuts: {
-            url: 'chrome://extensions/shortcuts',
+            url: 'decentr://extensions/shortcuts',
             state: {page: Page.SHORTCUTS},
           },
         };
@@ -126,7 +126,7 @@ suite(extension_navigation_helper_tests.suiteName, function() {
         const id1 = 'a'.repeat(32);
         const id2 = 'b'.repeat(32);
 
-        history.pushState({}, '', 'chrome://extensions/');
+        history.pushState({}, '', 'decentr://extensions/');
         expectDeepEquals({page: Page.LIST}, navigationHelper.getCurrentPage());
 
         let expectedLength = history.length;
@@ -184,17 +184,17 @@ suite(extension_navigation_helper_tests.suiteName, function() {
               removeEndSlash(newUrl || url));
         }
 
-        testIfRedirected('chrome://extensions');
-        testIfRedirected('chrome://extensions/');
-        testIfRedirected('chrome://extensions/shortcuts');
-        testIfRedirected('chrome://extensions/shortcuts/');
+        testIfRedirected('decentr://extensions');
+        testIfRedirected('decentr://extensions/');
+        testIfRedirected('decentr://extensions/shortcuts');
+        testIfRedirected('decentr://extensions/shortcuts/');
         testIfRedirected(
-            'chrome://extensions/fake-route', 'chrome://extensions');
+            'decentr://extensions/fake-route', 'decentr://extensions');
         // Test trailing slash works.
 
         // Test legacy paths
         testIfRedirected(
-            'chrome://extensions/configureCommands',
-            'chrome://extensions/shortcuts');
+            'decentr://extensions/configureCommands',
+            'decentr://extensions/shortcuts');
       });
 });

@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://welcome/welcome_app.js';
+import 'decentr://welcome/welcome_app.js';
 
-import {LandingViewProxyImpl} from 'chrome://welcome/landing_view_proxy.js';
-import {navigateTo, Routes} from 'chrome://welcome/navigation_mixin.js';
-import {NuxSetAsDefaultProxyImpl} from 'chrome://welcome/set_as_default/nux_set_as_default_proxy.js';
-import {BookmarkProxyImpl} from 'chrome://welcome/shared/bookmark_proxy.js';
-import {WelcomeBrowserProxyImpl} from 'chrome://welcome/welcome_browser_proxy.js';
+import {LandingViewProxyImpl} from 'decentr://welcome/landing_view_proxy.js';
+import {navigateTo, Routes} from 'decentr://welcome/navigation_mixin.js';
+import {NuxSetAsDefaultProxyImpl} from 'decentr://welcome/set_as_default/nux_set_as_default_proxy.js';
+import {BookmarkProxyImpl} from 'decentr://welcome/shared/bookmark_proxy.js';
+import {WelcomeBrowserProxyImpl} from 'decentr://welcome/welcome_browser_proxy.js';
 
 import {waitBeforeNextRender} from '../test_util.js';
 

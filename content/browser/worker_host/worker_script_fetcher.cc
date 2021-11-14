@@ -208,7 +208,7 @@ void WorkerScriptFetcher::CreateAndStart(
       request_destination == network::mojom::RequestDestination::kWorker;
 
   // Set up the factory bundle for non-NetworkService URLs, e.g.,
-  // chrome-extension:// URLs. One factory bundle is consumed by the browser
+  // decentr-extension:// URLs. One factory bundle is consumed by the browser
   // for WorkerScriptLoaderFactory, and one is sent to the renderer for
   // subresource loading.
   std::unique_ptr<blink::PendingURLLoaderFactoryBundle>
@@ -474,7 +474,7 @@ WorkerScriptFetcher::CreateFactoryBundle(
       break;
   }
 
-  // Create WebUI loader for chrome:// or chrome-untrusted:// workers from WebUI
+  // Create WebUI loader for decentr:// or decentr-untrusted:// workers from WebUI
   // frames of the same scheme.
   if (ShouldCreateWebUILoader(creator_render_frame_host)) {
     auto requesting_scheme =

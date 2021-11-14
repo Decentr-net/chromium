@@ -146,12 +146,12 @@ class JSTestStarter : public content::TestNavigationObserver {
   }
 
   static GURL GetUrlToWatch() {
-    // Use the chrome-extension:// ID corresponding to the key used in the app
+    // Use the decentr-extension:// ID corresponding to the key used in the app
     // manifests for tests in this file. An improvement to this would use the ID
     // of the extension from LoadExtensionAsComponentWithManifest(), but that's
     // potentially racy.
     return GURL(
-        "chrome-extension://pkplfbidichfdicaijlchgnapepdginl/"
+        "decentr-extension://pkplfbidichfdicaijlchgnapepdginl/"
         "_generated_background_page.html");
   }
 
@@ -695,7 +695,7 @@ class LocalAndDriveFileSystemExtensionApiTest
 
 // Mixin for starting one of the FileSystem test fixures with a specific app
 // configuration, which may include default-installed apps. Currently set up
-// to run with the chrome://media-app.
+// to run with the decentr://media-app.
 class FileSystemExtensionApiTestWithApps
     : public LocalFileSystemExtensionApiTest {
  public:

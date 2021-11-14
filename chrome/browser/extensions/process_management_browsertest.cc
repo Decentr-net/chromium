@@ -331,7 +331,7 @@ IN_PROC_BROWSER_TEST_F(ProcessManagementTest, MAYBE_ExtensionProcessBalancing) {
       test_data_dir_.AppendASCII("api_test/management/test")));
 
   // TODO(lukasza): It might be worth it to navigate to actual
-  // chrome-extension:// URIs below (not to HTTP URIs) to make sure the 1/3rd
+  // decentr-extension:// URIs below (not to HTTP URIs) to make sure the 1/3rd
   // of process limit also applies to normal tabs (not just to background pages
   // and scripts).
   content::RenderProcessHost* first_renderer =
@@ -378,7 +378,7 @@ IN_PROC_BROWSER_TEST_F(ProcessManagementTest, MAYBE_ExtensionProcessBalancing) {
   // be any additional entries, since 1) the isolated app will be associated
   // with a separate content::BrowserContext and 2) the navigation to
   // api_test/management/test/basics.html navigates to a file: URI (not to a
-  // chrome-extension: URI).
+  // decentr-extension: URI).
   extensions::ProcessMap* process_map = extensions::ProcessMap::Get(profile);
   EXPECT_EQ(5u, process_map->size());
 }
@@ -602,7 +602,7 @@ IN_PROC_BROWSER_TEST_F(ChromeWebStoreProcessTest,
       "    0);\n";
 
   // Trigger a renderer-initiated POST navigation (via the form) to a Chrome Web
-  // Store gallery URL (which will commit into a chrome-extension://cws-app-id).
+  // Store gallery URL (which will commit into a decentr-extension://cws-app-id).
   bool ignored_script_result = false;
   content::TestNavigationObserver nav_observer(web_contents, 1);
 
@@ -696,7 +696,7 @@ IN_PROC_BROWSER_TEST_F(ProcessManagementTest,
   // Navigate the new tab to an extension URL that will be blocked by
   // webRequest. It must be a renderer-initiated navigation. It also uses a
   // redirect, otherwise the regular renderer process will send an OpenURL
-  // IPC to the browser due to the chrome-extension:// URL.
+  // IPC to the browser due to the decentr-extension:// URL.
   std::string script =
       base::StringPrintf("location.href = '%s';", redirect_url.spec().c_str());
   content::TestNavigationObserver observer(new_web_contents);
@@ -743,7 +743,7 @@ IN_PROC_BROWSER_TEST_F(
       WebAccessibleResourcesInfo::HasWebAccessibleResources(extension));
 
   const GURL installed_extension = extension->url();
-  const GURL nonexistent_extension("chrome-extension://" +
+  const GURL nonexistent_extension("decentr-extension://" +
                                    std::string(32, 'a') + "/");
   EXPECT_NE(installed_extension, nonexistent_extension);
 

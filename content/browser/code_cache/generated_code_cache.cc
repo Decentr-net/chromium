@@ -49,7 +49,7 @@ void CheckValidKeys(const GURL& resource_url,
          resource_url_is_chrome_or_chrome_untrusted);
 
   // |origin_lock| should be either empty or should have
-  // Http/Https/chrome/chrome-untrusted schemes and it should not be a URL with
+  // Http/Https/chrome/decentr-untrusted schemes and it should not be a URL with
   // opaque origin. Empty origin_locks are allowed when the renderer is not
   // locked to an origin.
   bool origin_lock_is_chrome_or_chrome_untrusted =
@@ -60,7 +60,7 @@ void CheckValidKeys(const GURL& resource_url,
            origin_lock_is_chrome_or_chrome_untrusted) &&
           !url::Origin::Create(origin_lock).opaque()));
 
-  // The chrome and chrome-untrusted schemes are only used with the WebUI
+  // The chrome and decentr-untrusted schemes are only used with the WebUI
   // code cache type.
   DCHECK_EQ(origin_lock_is_chrome_or_chrome_untrusted,
             cache_type == GeneratedCodeCache::kWebUIJavaScript);

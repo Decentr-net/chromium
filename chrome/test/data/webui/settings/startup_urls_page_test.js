@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {EDIT_STARTUP_URL_EVENT, StartupUrlsPageBrowserProxyImpl} from 'chrome://settings/settings.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {EDIT_STARTUP_URL_EVENT, StartupUrlsPageBrowserProxyImpl} from 'decentr://settings/settings.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
 // clang-format on
 
 /** @implements {StartupUrlsPageBrowserProxy} */
@@ -263,14 +263,14 @@ suite('StartupUrlsPage', function() {
       modelIndex: 2,
       title: 'Test page 1',
       tooltip: 'test tooltip',
-      url: 'chrome://bar',
+      url: 'decentr://bar',
     };
 
     const entry2 = {
       modelIndex: 2,
       title: 'Test page 2',
       tooltip: 'test tooltip',
-      url: 'chrome://foo',
+      url: 'decentr://foo',
     };
 
     webUIListenerCallback('update-startup-pages', [entry1, entry2]);
@@ -312,7 +312,7 @@ function createSampleUrlEntry() {
     modelIndex: 2,
     title: 'Test page',
     tooltip: 'test tooltip',
-    url: 'chrome://foo',
+    url: 'decentr://foo',
   };
 }
 

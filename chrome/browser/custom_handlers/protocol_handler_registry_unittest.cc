@@ -1124,7 +1124,7 @@ TEST_F(ProtocolHandlerRegistryTest, InvalidHandlers) {
 
 TEST_F(ProtocolHandlerRegistryTest, ExtensionHandler) {
   GURL chrome_extension_handler_url(
-      "chrome-extension://abcdefghijklmnopqrstuvwxyzabcdef/test.html");
+      "decentr-extension://abcdefghijklmnopqrstuvwxyzabcdef/test.html");
 
   EXPECT_FALSE(ProtocolHandlerCanRegisterProtocol(
       "news", chrome_extension_handler_url,

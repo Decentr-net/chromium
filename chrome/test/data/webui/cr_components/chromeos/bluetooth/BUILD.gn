@@ -8,7 +8,7 @@ import("//ui/webui/resources/cr_components/chromeos/os_cr_components.gni")
 js_type_check("closure_compile") {
   is_polymer3 = true
   closure_flags = default_closure_args + [
-                    "browser_resolver_prefix_replacements=\"chrome://bluetooth-pairing/=../../chrome/browser/resources/chromeos/bluetooth_pairing_dialog/\"",
+                    "browser_resolver_prefix_replacements=\"decentr://bluetooth-pairing/=../../chrome/browser/resources/chromeos/bluetooth_pairing_dialog/\"",
                     "js_module_root=../../chrome/test/data/webui/",
                     "js_module_root=./gen/chrome/test/data/webui/",
                   ]

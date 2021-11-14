@@ -2,21 +2,21 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
-import 'chrome://resources/cr_elements/cr_icons_css.m.js';
-import 'chrome://resources/cr_elements/cr_page_host_style_css.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_elements/shared_style_css.m.js';
+import 'decentr://resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
+import 'decentr://resources/cr_elements/cr_icons_css.m.js';
+import 'decentr://resources/cr_elements/cr_page_host_style_css.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/shared_style_css.m.js';
 import './icons.js';
 import './strings.m.js';
 
-import {I18nMixin} from 'chrome://resources/js/i18n_mixin.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {sanitizeInnerHtml} from 'chrome://resources/js/parse_html_subset.m.js';
-import {WebUIListenerMixin} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {I18nMixin} from 'decentr://resources/js/i18n_mixin.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {sanitizeInnerHtml} from 'decentr://resources/js/parse_html_subset.m.js';
+import {WebUIListenerMixin} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BrowserReportingResponse, Extension, ManagementBrowserProxy, ManagementBrowserProxyImpl, ReportingType, ThreatProtectionInfo} from './management_browser_proxy.js';
 // <if expr="chromeos">
@@ -337,14 +337,14 @@ class ManagementUiElement extends ManagementUiElementBase {
   private onSearchChanged_(e: CustomEvent<string>) {
     const query = e.detail;
     window.location.href =
-        `chrome://settings?search=${encodeURIComponent(query)}`;
+        `decentr://settings?search=${encodeURIComponent(query)}`;
   }
 
   private onTapBack_() {
     if (history.length > 1) {
       history.back();
     } else {
-      window.location.href = 'chrome://settings/help';
+      window.location.href = 'decentr://settings/help';
     }
   }
 

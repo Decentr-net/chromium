@@ -16,7 +16,7 @@ class ListValue;
 
 namespace sandbox_handler {
 // This class takes care of sending the list of processes and their sandboxing
-// status to the chrome://sandbox WebUI page when it is requested.
+// status to the decentr://sandbox WebUI page when it is requested.
 class SandboxHandler : public content::WebUIMessageHandler {
  public:
   SandboxHandler();

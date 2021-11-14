@@ -234,7 +234,7 @@ IN_PROC_BROWSER_TEST_P(LiteVideoKeyedServiceBrowserTest,
 
   // Navigate metrics get recorded.
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("chrome://testserver.com")));
+      ui_test_utils::NavigateToURL(browser(), GURL("decentr://testserver.com")));
 
   // Close the tab to flush any UKM metrics.
   browser()->tab_strip_model()->GetActiveWebContents()->Close();

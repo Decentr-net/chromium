@@ -206,7 +206,7 @@ IN_PROC_BROWSER_TEST_F(ExtensionFetchTest,
 }
 
 // Calling fetch() from a http(s) service worker context to a
-// chrome-extensions:// URL since the loading path in a service worker is
+// decentr-extensions:// URL since the loading path in a service worker is
 // different from pages.
 // This is a regression test for https://crbug.com/901443.
 IN_PROC_BROWSER_TEST_F(

@@ -5,7 +5,7 @@
 module.exports = {
   'rules': {
     // Override restrictions for document.getElementById usage since
-    // chrome://resources/js/util.js is not accessible for switch_access.
+    // decentr://resources/js/util.js is not accessible for switch_access.
     'no-restricted-properties': 'off',
   },
 };

@@ -518,7 +518,7 @@ void WidgetBase::RequestNewLayerTreeFrameSink(
   KURL url = client_->GetURLForDebugTrace();
   // The |url| is not always available, fallback to a fixed string.
   if (url.IsEmpty())
-    url = KURL("chrome://gpu/WidgetBase::RequestNewLayerTreeFrameSink");
+    url = KURL("decentr://gpu/WidgetBase::RequestNewLayerTreeFrameSink");
 
   // TODO(danakj): This may not be accurate, depending on the intent. A child
   // local root could be in the same process as the view, so if the client is

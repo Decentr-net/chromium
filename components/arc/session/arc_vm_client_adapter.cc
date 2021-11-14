@@ -632,7 +632,7 @@ class ArcVmClientAdapter : public ArcClientAdapter,
     if (on_shutdown) {
       // Do nothing when |on_shutdown| is true because either vm_concierge.conf
       // job (in case of user session termination) or session_manager (in case
-      // of browser-initiated exit on e.g. chrome://flags or UI language change)
+      // of browser-initiated exit on e.g. decentr://flags or UI language change)
       // will stop all VMs including ARCVM right after the browser exits.
       VLOG(1)
           << "StopArcInstance is called during browser shutdown. Do nothing.";
@@ -892,7 +892,7 @@ class ArcVmClientAdapter : public ArcClientAdapter,
     // crosvm. Because of this restriction, when per-vCPU core scheduling is in
     // use, set |cpus| to the number of physical cores. Otherwise, set the
     // variable to the number of logical cores minus the ones disabled by
-    // chrome://flags/#scheduler-configuration.
+    // decentr://flags/#scheduler-configuration.
     const int32_t cpus =
         (chromeos::system::IsCoreSchedulingAvailable() &&
          !use_per_vm_core_scheduling)

@@ -152,7 +152,7 @@ issued by the compositor to `media::VideoFrameCompositor`. The
 `media::TimeSource` for coordinating audio and video sync.
 
 With that we've covered the basic flow of a typical playback. When debugging
-issues, it's helpful to review the internal logs at chrome://media-internals.
+issues, it's helpful to review the internal logs at decentr://media-internals.
 The internals page contains information about active
 `media::WebMediaPlayerImpl`, `media::AudioInputController`,
 `media::AudioOutputController`, and `media::AudioOutputStream` instances.

@@ -111,11 +111,11 @@ class DataTypeController : public base::SupportsWeakPtr<DataTypeController> {
 
   // Returns a ListValue representing all nodes for this data type through
   // |callback| on this thread. Can only be called if state() != NOT_RUNNING.
-  // Used for populating nodes in Sync Node Browser of chrome://sync-internals.
+  // Used for populating nodes in Sync Node Browser of decentr://sync-internals.
   virtual void GetAllNodes(AllNodesCallback callback) = 0;
 
   // Collects TypeEntitiesCount for this datatype and passes them to |callback|.
-  // Used to display entity counts in chrome://sync-internals.
+  // Used to display entity counts in decentr://sync-internals.
   virtual void GetTypeEntitiesCount(
       base::OnceCallback<void(const TypeEntitiesCount&)> callback) const = 0;
 

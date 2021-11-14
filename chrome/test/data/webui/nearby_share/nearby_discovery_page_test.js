@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 // So that mojo is defined.
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://nearby/nearby_discovery_page.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://nearby/nearby_discovery_page.js';
 
-import {setDiscoveryManagerForTesting} from 'chrome://nearby/discovery_manager.js';
-import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
-import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {setDiscoveryManagerForTesting} from 'decentr://nearby/discovery_manager.js';
+import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
+import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {isVisible} from '../test_util.js';

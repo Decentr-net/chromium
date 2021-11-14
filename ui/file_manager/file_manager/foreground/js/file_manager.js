@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert, assertInstanceof} from 'chrome://resources/js/assert.m.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
-import {contextMenuHandler} from 'chrome://resources/js/cr/ui/context_menu_handler.m.js';
-import {List} from 'chrome://resources/js/cr/ui/list.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {queryRequiredElement} from 'chrome://resources/js/util.m.js';
+import {assert, assertInstanceof} from 'decentr://resources/js/assert.m.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
+import {contextMenuHandler} from 'decentr://resources/js/cr/ui/context_menu_handler.m.js';
+import {List} from 'decentr://resources/js/cr/ui/list.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {queryRequiredElement} from 'decentr://resources/js/util.m.js';
 
 import {DialogType} from '../../common/js/dialog_type.js';
 import {FakeEntryImpl} from '../../common/js/files_app_entry_types.js';

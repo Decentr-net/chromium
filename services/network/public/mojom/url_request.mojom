@@ -175,14 +175,14 @@ struct URLRequest {
   // |isolated_world_origin| indicates the origin of the isolated world.
   // Otherwise, |isolated_world_origin| is null.
   //
-  // Example #1: XHR initiated from a content script of chrome-extension://foo
+  // Example #1: XHR initiated from a content script of decentr-extension://foo
   // that was injected into a https://example.com web frame:
   // - |request_initiator| is "https://example.com"
-  // - |isolated_world_origin| is "chrome-extension://foo"
+  // - |isolated_world_origin| is "decentr-extension://foo"
   //
   // Example #2: XHR initiated from a Chrome Extension frame (e.g. from an
   // extension background page):
-  // - |request_initiator| is "chrome-extension://foo"
+  // - |request_initiator| is "decentr-extension://foo"
   // - |isolated_world_origin| is null (this request is not associated with an
   //   isolated world)
   //

@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {createEmptyState, reduceAction, Store} from 'chrome://bookmarks/bookmarks.js';
-import {TestStore as CrUiTestStore} from 'chrome://test/test_store.js';
+import {createEmptyState, reduceAction, Store} from 'decentr://bookmarks/bookmarks.js';
+import {TestStore as CrUiTestStore} from 'decentr://test/test_store.js';
 
 export class TestStore extends CrUiTestStore {
   constructor(data) {

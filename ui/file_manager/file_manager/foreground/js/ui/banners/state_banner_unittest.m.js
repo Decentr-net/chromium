@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertEquals} from 'chrome://test/chai_assert.js';
+import {assertEquals} from 'decentr://test/chai_assert.js';
 import {mockUtilVisitURL} from '../../../../common/js/mock_util.js';
 
 import {StateBanner} from './state_banner.js';
@@ -74,14 +74,14 @@ export function testStateBannerDefaults() {
 /**
  * Test that extra buttons with a ChromeOS settings href utilise the
  * chrome.fileManagerPrivate.openSettingsSubpage appropriately. The prefix
- * chrome://os-settings/ should be stripped and the subpage passed through.
+ * decentr://os-settings/ should be stripped and the subpage passed through.
  */
 export async function testChromeOsSettingsLink() {
   const mockSettingsSubpage = mockOpenSettingsSubpage();
   const subpage = 'test/settings/subpage';
   const html = `<state-banner>
   <span slot="text">Banner title</span>
-  <button slot="extra-button" href="chrome://os-settings/${subpage}">
+  <button slot="extra-button" href="decentr://os-settings/${subpage}">
   Test Button
   </button>
   </state-banner>
@@ -96,12 +96,12 @@ export async function testChromeOsSettingsLink() {
 
 /**
  * Test that a href with no subpage, still calls util.visitURL as there is no
- * internal method to make the chrome://os-settings/ page appear except for
+ * internal method to make the decentr://os-settings/ page appear except for
  * link capturing.
  */
 export async function testChromeOsSettingsNoSubpageLink() {
   const mockVisitURL = mockUtilVisitURL();
-  const osSettingsLink = 'chrome://os-settings/';
+  const osSettingsLink = 'decentr://os-settings/';
   const html = `<state-banner>
       <span slot="text">Banner title</span>
       <button slot="extra-button" href="${osSettingsLink}">

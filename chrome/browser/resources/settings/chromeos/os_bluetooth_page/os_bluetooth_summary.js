@@ -13,8 +13,8 @@ import '//resources/cr_elements/cr_icon_button/cr_icon_button.m.js';
 
 import {I18nBehavior, I18nBehaviorInterface} from '//resources/js/i18n_behavior.m.js';
 import {html, mixinBehaviors, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {getDeviceName} from 'chrome://resources/cr_components/chromeos/bluetooth/bluetooth_utils.js';
-import {getBluetoothConfig} from 'chrome://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
+import {getDeviceName} from 'decentr://resources/cr_components/chromeos/bluetooth/bluetooth_utils.js';
+import {getBluetoothConfig} from 'decentr://resources/cr_components/chromeos/bluetooth/cros_bluetooth_config.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 import {Router} from '../../router.js';

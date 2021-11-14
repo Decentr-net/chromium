@@ -8,7 +8,7 @@
  * a link to the web store accessibility page on most platforms, and
  * a subpage with lots of other settings on Chrome OS.
  */
-import 'chrome://resources/cr_elements/cr_link_row/cr_link_row.js';
+import 'decentr://resources/cr_elements/cr_link_row/cr_link_row.js';
 import '../controls/settings_toggle_button.js';
 import '../settings_page/settings_animated_pages.js';
 import '../settings_shared_css.js';
@@ -22,8 +22,8 @@ import '../settings_page/settings_subpage.js';
 import './live_caption_section.js';
 // </if>
 
-import {WebUIListenerMixin} from 'chrome://resources/js/web_ui_listener_mixin.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {WebUIListenerMixin} from 'decentr://resources/js/web_ui_listener_mixin.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {BaseMixin} from '../base_mixin.js';
 import {SettingsToggleButtonElement} from '../controls/settings_toggle_button.js';
@@ -185,7 +185,7 @@ class SettingsA11YPageElement extends SettingsA11YPageElementBase {
 
   // <if expr="chromeos">
   private onManageSystemAccessibilityFeaturesTap_() {
-    window.location.href = 'chrome://os-settings/manageAccessibility';
+    window.location.href = 'decentr://os-settings/manageAccessibility';
   }
   // </if>
 

@@ -7,20 +7,20 @@
 // provides better context for testing.
 
 // clang-format off
-import 'chrome://settings/strings.m.js';
+import 'decentr://settings/strings.m.js';
 
-import {CaTrustEditDialogElement} from 'chrome://resources/cr_components/certificate_manager/ca_trust_edit_dialog.js';
-import {CertificateDeleteConfirmationDialogElement} from 'chrome://resources/cr_components/certificate_manager/certificate_delete_confirmation_dialog.js';
-import {CertificateListElement} from 'chrome://resources/cr_components/certificate_manager/certificate_list.js';
-import {CertificateManagerElement} from 'chrome://resources/cr_components/certificate_manager/certificate_manager.js';
-import {CertificateAction, CertificateActionEvent} from 'chrome://resources/cr_components/certificate_manager/certificate_manager_types.js';
-import {CertificatePasswordDecryptionDialogElement} from 'chrome://resources/cr_components/certificate_manager/certificate_password_decryption_dialog.js';
-import {CertificatePasswordEncryptionDialogElement} from 'chrome://resources/cr_components/certificate_manager/certificate_password_encryption_dialog.js';
-import {CertificateSubentryElement} from 'chrome://resources/cr_components/certificate_manager/certificate_subentry.js';
-import {CertificatesBrowserProxyImpl, CertificateType} from 'chrome://resources/cr_components/certificate_manager/certificates_browser_proxy.js';
-import {isChromeOS, webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {keyEventOn} from 'chrome://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CaTrustEditDialogElement} from 'decentr://resources/cr_components/certificate_manager/ca_trust_edit_dialog.js';
+import {CertificateDeleteConfirmationDialogElement} from 'decentr://resources/cr_components/certificate_manager/certificate_delete_confirmation_dialog.js';
+import {CertificateListElement} from 'decentr://resources/cr_components/certificate_manager/certificate_list.js';
+import {CertificateManagerElement} from 'decentr://resources/cr_components/certificate_manager/certificate_manager.js';
+import {CertificateAction, CertificateActionEvent} from 'decentr://resources/cr_components/certificate_manager/certificate_manager_types.js';
+import {CertificatePasswordDecryptionDialogElement} from 'decentr://resources/cr_components/certificate_manager/certificate_password_decryption_dialog.js';
+import {CertificatePasswordEncryptionDialogElement} from 'decentr://resources/cr_components/certificate_manager/certificate_password_encryption_dialog.js';
+import {CertificateSubentryElement} from 'decentr://resources/cr_components/certificate_manager/certificate_subentry.js';
+import {CertificatesBrowserProxyImpl, CertificateType} from 'decentr://resources/cr_components/certificate_manager/certificates_browser_proxy.js';
+import {isChromeOS, webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {keyEventOn} from 'decentr://resources/polymer/v3_0/iron-test-helpers/mock-interactions.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';

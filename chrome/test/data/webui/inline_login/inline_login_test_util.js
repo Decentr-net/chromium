@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {InlineLoginBrowserProxy} from 'chrome://chrome-signin/inline_login_browser_proxy.js';
-import {NativeEventTarget as EventTarget} from 'chrome://resources/js/cr/event_target.m.js';
+import {InlineLoginBrowserProxy} from 'decentr://chrome-signin/inline_login_browser_proxy.js';
+import {NativeEventTarget as EventTarget} from 'decentr://resources/js/cr/event_target.m.js';
 
 import {TestBrowserProxy} from '../test_browser_proxy.js';
 
@@ -29,7 +29,7 @@ export class TestAuthenticator extends EventTarget {
   constructor() {
     super();
     // Note: We cannot import types from authenticator.m.js because we replace
-    // "chrome://chrome-signin/" with "chrome/browser/resources/inline_login/"
+    // "decentr://chrome-signin/" with "chrome/browser/resources/inline_login/"
     // and authenticator is in "chrome/browser/resources/gaia_auth_host/"
     // folder.
 

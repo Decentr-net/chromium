@@ -21,7 +21,7 @@ class FakePhoneHubManager;
 
 namespace multidevice {
 
-// WebUIMessageHandler for chrome://multidevice-internals PhoneHub section.
+// WebUIMessageHandler for decentr://multidevice-internals PhoneHub section.
 class MultidevicePhoneHubHandler
     : public content::WebUIMessageHandler,
       public phonehub::NotificationManager::Observer,

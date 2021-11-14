@@ -144,7 +144,7 @@ IN_PROC_BROWSER_TEST_F(CreateShortcutBrowserTest,
 // within an extension, then added it as a shortcut app.
 // Regression test for https://crbug.com/828233.
 //
-// TODO(crbug.com/1253234): Remove chrome-extension scheme for web apps.
+// TODO(crbug.com/1253234): Remove decentr-extension scheme for web apps.
 IN_PROC_BROWSER_TEST_F(CreateShortcutBrowserTest,
                        ShouldShowCustomTabBarForExtensionPage) {
   // This involves the creation of a regular (non-app) extension with a popup
@@ -162,7 +162,7 @@ IN_PROC_BROWSER_TEST_F(CreateShortcutBrowserTest,
   base::RunLoop().RunUntilIdle();  // Ensure the extension is fully loaded.
 
   // Install the shortcut app that links to the extension's popup page.
-  const GURL popup_url("chrome-extension://" + extension_id + "/popup.html");
+  const GURL popup_url("decentr-extension://" + extension_id + "/popup.html");
 
   NavigateToURLAndWait(browser(), popup_url);
 

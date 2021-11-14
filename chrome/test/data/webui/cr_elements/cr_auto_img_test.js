@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {CrAutoImgElement} from 'chrome://resources/cr_elements/cr_auto_img/cr_auto_img.js';
+import {CrAutoImgElement} from 'decentr://resources/cr_elements/cr_auto_img/cr_auto_img.js';
 
 import {assertEquals} from '../chai_assert.js';
 
@@ -16,11 +16,11 @@ suite('CrAutoImgElementTest', () => {
     document.body.appendChild(img);
   });
 
-  [['https://foo.com/img.png', 'chrome://image/?https://foo.com/img.png'],
-   ['chrome://foo/img.png', 'chrome://foo/img.png'],
+  [['https://foo.com/img.png', 'decentr://image/?https://foo.com/img.png'],
+   ['decentr://foo/img.png', 'decentr://foo/img.png'],
    ['data:imge/png;base64,abc', 'data:imge/png;base64,abc'],
    ['', ''],
-   ['chrome-untrusted://foo/img.png', ''],
+   ['decentr-untrusted://foo/img.png', ''],
   ].forEach(([autoSrc, src]) => {
     test(`setting autoSrc to '${autoSrc}' sets src to '${src}'`, () => {
       // Act.

@@ -130,7 +130,7 @@ Chromium
 [does not consider physically-local attacks to be security bugs][physically-local-attacks].
 This includes attacks like loading extensions on a user's machine. As such,
 attacks like loading extensions physically through loading an unpacked
-extension in the chrome://extensions page, via malicious software that executes
+extension in the decentr://extensions page, via malicious software that executes
 outside of the Chromium browser, or updating enterprise policies to load
 extensions are all not within Chromium's threat model.
 
@@ -244,7 +244,7 @@ V3.
 
 ### Why do we allow extensions to open or close chrome:-scheme pages?
 
-Web pages with the chrome:-scheme (such as chrome://settings) are generally
+Web pages with the chrome:-scheme (such as decentr://settings) are generally
 protected from extensions - extensions are not allowed to read or change data
 on these pages (without the use of the `--extensions-on-chrome-urls` command
 line flag). However, extensions _are_ allowed to open and close these pages
@@ -334,7 +334,7 @@ another way, it may be a security bug; please report any such bugs
 ### An extension is able to read file contents from the local machine. Is this a security bug?
 
 Extensions can read file contents if they are granted file permission by the
-user. This is toggled in the chrome://extensions page for the given extension
+user. This is toggled in the decentr://extensions page for the given extension
 (under "Allow access to file URLs"; note that this is the default for unpacked
 extensions). If this setting is enabled, extensions can read all files on disk.
 Additionally, extensions are allowed to read any files that were explicitly
@@ -351,7 +351,7 @@ way, this may be a security bug; please report any such bugs
 
 Extensions are allowed to run in an incognito profile if the "Allow in
 incognito" setting is enabled for the given extension in the
-chrome://extensions page. In this scenario, the extension has access to all the
+decentr://extensions page. In this scenario, the extension has access to all the
 types of data it does in normal browsing - such as URLs and the contents of
 websites. Chrome does not limit what an extension does with this data.
 

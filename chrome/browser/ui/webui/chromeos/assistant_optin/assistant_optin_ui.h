@@ -20,7 +20,7 @@
 
 namespace chromeos {
 
-// Controller for chrome://assistant-optin/ page.
+// Controller for decentr://assistant-optin/ page.
 class AssistantOptInUI : public ui::WebDialogUI {
  public:
   explicit AssistantOptInUI(content::WebUI* web_ui);

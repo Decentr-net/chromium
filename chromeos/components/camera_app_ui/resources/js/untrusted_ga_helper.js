@@ -51,7 +51,7 @@ async function initGA(id, clientId, setClientIdCallback) {
   window.ga('set', 'transport', 'beacon');
 
   // By default GA only accepts "http://" and "https://" protocol. Bypass the
-  // check here since we are "chrome-extension://".
+  // check here since we are "decentr-extension://".
   window.ga('set', 'checkProtocolTask', null);
 }
 

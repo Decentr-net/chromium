@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {$$, chromeCartDescriptor, ChromeCartProxy} from 'chrome://new-tab-page/new_tab_page.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
-import {fakeMetricsPrivate, MetricsTracker} from 'chrome://test/new_tab_page/metrics_test_support.js';
-import {assertNotStyle, installMock} from 'chrome://test/new_tab_page/test_support.js';
-import {TestBrowserProxy} from 'chrome://test/test_browser_proxy.js';
-import {eventToPromise, flushTasks, isVisible} from 'chrome://test/test_util.js';
+import {$$, chromeCartDescriptor, ChromeCartProxy} from 'decentr://new-tab-page/new_tab_page.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
+import {fakeMetricsPrivate, MetricsTracker} from 'decentr://test/new_tab_page/metrics_test_support.js';
+import {assertNotStyle, installMock} from 'decentr://test/new_tab_page/test_support.js';
+import {TestBrowserProxy} from 'decentr://test/test_browser_proxy.js';
+import {eventToPromise, flushTasks, isVisible} from 'decentr://test/test_util.js';
 
 suite('NewTabPageModulesChromeCartModuleTest', () => {
   /** @type {!TestBrowserProxy} */
@@ -122,7 +122,7 @@ suite('NewTabPageModulesChromeCartModuleTest', () => {
       assertEquals(null, cartItems[2].querySelector('.item-count'));
       assertEquals(null, cartItems[2].querySelector('.thumbnail-list'));
       assertEquals(
-          'chrome://new-tab-page/modules/cart/icons/cart_fallback.svg',
+          'decentr://new-tab-page/modules/cart/icons/cart_fallback.svg',
           cartItems[2].querySelector('.thumbnail-fallback').src);
 
       assertEquals('https://walmart.com/', cartItems[3].href);

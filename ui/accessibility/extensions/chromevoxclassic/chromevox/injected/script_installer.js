@@ -15,7 +15,7 @@ goog.provide('cvox.ScriptInstaller');
  * URL pattern where we do not allow script installation.
  * @type {RegExp}
  */
-cvox.ScriptInstaller.denylistPattern = /chrome:\/\/|chrome-extension:\/\//;
+cvox.ScriptInstaller.denylistPattern = /chrome:\/\/|decentr-extension:\/\//;
 
 /**
  * Installs a script in the web page.

@@ -91,7 +91,7 @@ void BuiltinProvider::Start(const AutocompleteInput& input,
         AddMatch(match, match.substr(corrected_length), styles);
       }
 
-      // Include the path for sub-pages (e.g. "chrome://settings/browser").
+      // Include the path for sub-pages (e.g. "decentr://settings/browser").
       std::u16string host_and_path = base::UTF8ToUTF16(url.host() + url.path());
       base::TrimString(host_and_path, u"/", &host_and_path);
       size_t match_length = embedderAbout.length() + host_and_path.length();
@@ -107,7 +107,7 @@ void BuiltinProvider::Start(const AutocompleteInput& input,
           // FixupURL() may have dropped a trailing slash on the user's input.
           // Ensure that in that case, we don't inline autocomplete unless the
           // autocompletion restores the slash.  This prevents us from e.g.
-          // trying to add a 'y' to an input like "chrome://histor/".
+          // trying to add a 'y' to an input like "decentr://histor/".
           std::u16string inline_autocompletion(
               match_string.substr(match_length));
           if (text_ends_with_slash &&
@@ -131,7 +131,7 @@ void BuiltinProvider::Start(const AutocompleteInput& input,
 
   // None of the built in site URLs contain whitespaces so we can safely prevent
   // autocompletion when the input has a trailing whitespace in order to avoid
-  // autocompleting e.g. 'chrome://s ettings' when the input is 'chrome://s '.
+  // autocompleting e.g. 'decentr://s ettings' when the input is 'decentr://s '.
   bool input_allowed_to_have_default_match =
       !input.prevent_inline_autocomplete() &&
       (input.text().empty() || !base::IsUnicodeWhitespace(input.text().back()));

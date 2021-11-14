@@ -2,15 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-import 'chrome://resources/mojo/mojo/public/mojom/base/unguessable_token.mojom-lite.js';
-import 'chrome://resources/mojo/url/mojom/url.mojom-lite.js';
-import 'chrome://resources/mojo/url/mojom/origin.mojom-lite.js';
+import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+import 'decentr://resources/mojo/mojo/public/mojom/base/unguessable_token.mojom-lite.js';
+import 'decentr://resources/mojo/url/mojom/url.mojom-lite.js';
+import 'decentr://resources/mojo/url/mojom/origin.mojom-lite.js';
 import './media_engagement_score_details.mojom-lite.js';
 
-import {assertNotReached} from 'chrome://resources/js/assert.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {assertNotReached} from 'decentr://resources/js/assert.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 // Allow a function to be provided by tests, which will be called when
 // the page has been populated with media engagement details.

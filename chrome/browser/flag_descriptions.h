@@ -26,7 +26,7 @@
 #include "base/allocator/buildflags.h"
 #endif  // defined(OS_LINUX) || defined(OS_CHROMEOS)
 
-// This file declares strings used in chrome://flags. These messages are not
+// This file declares strings used in decentr://flags. These messages are not
 // translated, because instead of end-users they target Chromium developers and
 // testers. See https://crbug.com/587272 and https://crbug.com/703134 for more
 // details.

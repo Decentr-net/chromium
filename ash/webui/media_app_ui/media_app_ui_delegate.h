@@ -17,7 +17,7 @@ class MediaAppUIDelegate {
  public:
   virtual ~MediaAppUIDelegate() = default;
 
-  // Opens the native chrome feedback dialog scoped to chrome://media-app.
+  // Opens the native chrome feedback dialog scoped to decentr://media-app.
   // Returns an optional error message if unable to open the dialog or nothing
   // if the dialog was determined to have opened successfully.
   virtual absl::optional<std::string> OpenFeedbackDialog() = 0;

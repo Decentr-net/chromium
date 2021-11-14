@@ -689,7 +689,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to run a safety check in Chrome settings",
         "spoken_button_focus_announcement": "Run Chrome safety check button, press Enter to run a safety check in Chrome settings"
       },
-      "url": "chrome://settings/safetyCheck?activateSafetyCheck"
+      "url": "decentr://settings/safetyCheck?activateSafetyCheck"
     },
     {
       "id": 8,
@@ -779,7 +779,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage your Safe Browsing and more in Chrome settings",
         "spoken_button_focus_announcement": "Manage security settings button, press Enter to manage your Safe Browsing and more in Chrome settings"
       },
-      "url": "chrome://settings/security"
+      "url": "decentr://settings/security"
     },
     {
       "id": 9,
@@ -861,7 +861,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage your cookie preferences in Chrome settings",
         "spoken_button_focus_announcement": "Manage cookies button, press Enter to manage your cookie preferences in Chrome settings"
       },
-      "url": "chrome://settings/cookies"
+      "url": "decentr://settings/cookies"
     },
     {
       "id": 10,
@@ -946,7 +946,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to add and manage addresses in Chrome settings",
         "spoken_button_focus_announcement": "Manage addresses button, press Enter to add and manage addresses in Chrome settings"
       },
-      "url": "chrome://settings/addresses"
+      "url": "decentr://settings/addresses"
     },
     {
       "id": 11,
@@ -1014,7 +1014,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage what info you sync in Chrome settings",
         "spoken_button_focus_announcement": "Manage sync button, press Enter to manage what info you sync in Chrome settings"
       },
-      "url": "chrome://settings/syncSetup/advanced"
+      "url": "decentr://settings/syncSetup/advanced"
     },
     {
       "id": 12,
@@ -1080,7 +1080,7 @@
         "spoken_suggestion_description_suffix": "$1, press Tab then Enter to manage permissions and data stored across sites in Chrome settings",
         "spoken_button_focus_announcement": "Manage site settings button, press Enter to manage permissions and data stored across sites in Chrome settings"
       },
-      "url": "chrome://settings/content"
+      "url": "decentr://settings/content"
     },
     {
       "id": 13,
@@ -1904,7 +1904,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://dino"
+      "url": "decentr://dino"
     },
     {
       "id": 28,
@@ -2116,7 +2116,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings"
+      "url": "decentr://settings"
     },
     {
       "id": 32,
@@ -2186,7 +2186,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://downloads"
+      "url": "decentr://downloads"
     },
     {
       "id": 33,
@@ -2247,7 +2247,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://history"
+      "url": "decentr://history"
     },
     {
       "id": 34,
@@ -2413,7 +2413,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/accessibility"
+      "url": "decentr://settings/accessibility"
     },
     {
       "id": 36,
@@ -2492,7 +2492,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/fonts"
+      "url": "decentr://settings/fonts"
     },
     {
       "id": 37,
@@ -2556,7 +2556,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://new-tab-page/?customize=backgrounds"
+      "url": "decentr://new-tab-page/?customize=backgrounds"
     },
     {
       "id": 38,
@@ -2646,7 +2646,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://settings/searchEngines"
+      "url": "decentr://settings/searchEngines"
     },
     {
       "id": 39,
@@ -2723,7 +2723,7 @@
         }
       ],
       "omnibox_ui_strings": null,
-      "url": "chrome://os-settings/manageAccessibility"
+      "url": "decentr://os-settings/manageAccessibility"
     }
   ],
   "ignore_group": {

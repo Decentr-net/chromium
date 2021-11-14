@@ -55,7 +55,7 @@ class LogBuffer;
   T(Rationalization, "Rationalization: ")                                      \
   T(ProcessingServerData, "Processing server data.")
 
-// Log messages for chrome://autofill-internals.
+// Log messages for decentr://autofill-internals.
 
 #define AUTOFILL_TEMPLATE(NAME, MESSAGE) k##NAME,
 enum class LogMessage {

@@ -85,7 +85,7 @@ content::WebUIDataSource* CreateMediaAppUntrustedDataSource(
   // Allow use of SharedArrayBuffer (required by the wasm).
   source->OverrideCrossOriginOpenerPolicy("same-origin");
   source->OverrideCrossOriginEmbedderPolicy("require-corp");
-  // chrome://media-app and chrome-untrusted://media-app are different origins,
+  // decentr://media-app and decentr-untrusted://media-app are different origins,
   // so allow resources in the guest to be loaded cross-origin.
   source->OverrideCrossOriginResourcePolicy("cross-origin");
 

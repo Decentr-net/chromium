@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://welcome/google_apps/nux_google_apps.js';
+import 'decentr://welcome/google_apps/nux_google_apps.js';
 
-import {GoogleAppProxyImpl} from 'chrome://welcome/google_apps/google_app_proxy.js';
-import {GoogleAppsMetricsProxyImpl} from 'chrome://welcome/google_apps/google_apps_metrics_proxy.js';
-import {BookmarkBarManager, BookmarkProxyImpl} from 'chrome://welcome/shared/bookmark_proxy.js';
+import {GoogleAppProxyImpl} from 'decentr://welcome/google_apps/google_app_proxy.js';
+import {GoogleAppsMetricsProxyImpl} from 'decentr://welcome/google_apps/google_apps_metrics_proxy.js';
+import {BookmarkBarManager, BookmarkProxyImpl} from 'decentr://welcome/shared/bookmark_proxy.js';
 
 import {TestBookmarkProxy} from './test_bookmark_proxy.js';
 import {TestGoogleAppProxy} from './test_google_app_proxy.js';

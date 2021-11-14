@@ -516,7 +516,7 @@
 <translation id="1620510694547887537">카메라</translation>
 <translation id="1626379196197114720">뒤로-앞으로 캐시 사용 허용</translation>
 <translation id="1628974048137236820">새 탭 페이지에 카드 표시 안함</translation>
-<translation id="1630263002012156148">정책을 사용으로 설정하면 새 탭 페이지가 사용자의 홈페이지로 설정되고 기존 홈페이지 URL 위치는 무시됩니다. 정책을 사용 안함으로 설정하면 사용자의 홈페이지 URL을 chrome://newtab으로 설정하지 않는 한 홈페이지가 새 탭 페이지로 지정되지 않습니다.
+<translation id="1630263002012156148">정책을 사용으로 설정하면 새 탭 페이지가 사용자의 홈페이지로 설정되고 기존 홈페이지 URL 위치는 무시됩니다. 정책을 사용 안함으로 설정하면 사용자의 홈페이지 URL을 decentr://newtab으로 설정하지 않는 한 홈페이지가 새 탭 페이지로 지정되지 않습니다.
 
       정책을 설정하면 사용자가 <ph name="PRODUCT_NAME" />에서 홈페이지 유형을 변경할 수 없습니다. 설정하지 않으면 사용자가 새 탭 페이지를 홈페이지로 지정할지를 결정할 수 있습니다.
 
@@ -663,7 +663,7 @@
 <translation id="1798559516913615713">GPO 캐시 전체 기간</translation>
 <translation id="180130467244315277">이 정책은 관리자가 <ph name="PRODUCT_NAME" /> 설정에서 기본 언어의 순서를 구성할 수 있도록 허용합니다.
 
-      목록의 순서는 chrome://settings/languages의 '환경설정에 따른 언어 순서' 섹션의 순서와 동일하게 표시됩니다. 사용자는 정책에서 설정된 언어를 삭제하거나 순서를 변경할 수는 없지만 정책에서 설정된 언어 아래에 언어를 추가할 수는 있습니다. 다른 정책에 의해 강제되지 않는 한 사용자는 브라우저의 UI 언어 및 번역/맞춤법 검사 설정을 원하는 대로 변경할 수 있습니다.
+      목록의 순서는 decentr://settings/languages의 '환경설정에 따른 언어 순서' 섹션의 순서와 동일하게 표시됩니다. 사용자는 정책에서 설정된 언어를 삭제하거나 순서를 변경할 수는 없지만 정책에서 설정된 언어 아래에 언어를 추가할 수는 있습니다. 다른 정책에 의해 강제되지 않는 한 사용자는 브라우저의 UI 언어 및 번역/맞춤법 검사 설정을 원하는 대로 변경할 수 있습니다.
 
       정책을 설정하지 않으면 사용자가 기본 언어의 전체 목록을 변경할 수 있습니다.</translation>
 <translation id="1803646570632580723">런처에 표시되는 고정된 앱 목록</translation>
@@ -1133,7 +1133,7 @@
 <translation id="2299220924812062390">사용 설정한 플러그인 목록 지정</translation>
 <translation id="2301048990069984110">Windows, Mac, Linux에서 Chrome 앱 지원을 확장합니다.</translation>
 <translation id="2303795211377219696">신용카드 정보 자동 완성 사용</translation>
-<translation id="2304009805995145854"><ph name="PRODUCT_NAME" /> 67부터 모든 데스크톱 플랫폼에서 사이트 격리가 기본적으로 사용 설정되므로 모든 사이트가 자체 프로세스로 실행됩니다. 사이트는 url 프로토콜과 최상위 도메인 즉 eTLD+1의 조합(예: https://example.com)으로 이루어집니다. 이 정책을 사용 설정해도 동작은 변경되지 않으며, 사용자가 정책을 선택 해제할 수 없을 뿐입니다(예: chrome://flags에서 사이트 격리 사용 안함). <ph name="PRODUCT_NAME" /> 76부터 이 정책을 사용 안함으로 설정하거나 설정하지 않아도 사이트 격리는 사용 중지되지 않으며 대신 사용자가 선택 해제할 수 있습니다.
+<translation id="2304009805995145854"><ph name="PRODUCT_NAME" /> 67부터 모든 데스크톱 플랫폼에서 사이트 격리가 기본적으로 사용 설정되므로 모든 사이트가 자체 프로세스로 실행됩니다. 사이트는 url 프로토콜과 최상위 도메인 즉 eTLD+1의 조합(예: https://example.com)으로 이루어집니다. 이 정책을 사용 설정해도 동작은 변경되지 않으며, 사용자가 정책을 선택 해제할 수 없을 뿐입니다(예: decentr://flags에서 사이트 격리 사용 안함). <ph name="PRODUCT_NAME" /> 76부터 이 정책을 사용 안함으로 설정하거나 설정하지 않아도 사이트 격리는 사용 중지되지 않으며 대신 사용자가 선택 해제할 수 있습니다.
 
       사이트보다 더 세부적인 수준으로 특정 출처를 격리하려면 <ph name="ISOLATE_ORIGINS_POLICY_NAME" /> 정책을 사용하는 것이 유용할 수 있습니다(예: https://a.example.com).
 
@@ -3516,7 +3516,7 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
       사용 중지하면 사용자가 새 비밀번호를 저장할 수 없지만, 이전에 저장된 비밀번호는 계속 작동합니다.
 
       정책을 설정하면 사용자가 <ph name="PRODUCT_NAME" />에서 이를 변경할 수 없습니다. 설정하지 않으면 사용자가 비밀번호 저장을 사용 중지할 수 있습니다.</translation>
-<translation id="5239333626804545932">이 정책을 사용으로 설정하거나 설정하지 않으면 Chrome 정리도구가 시스템에 원치 않는 소프트웨어가 있는지 정기적으로 검사하여 이러한 소프트웨어가 발견될 경우 사용자에게 삭제할 것인지 묻습니다. chrome://settings에서 Chrome 정리도구를 수동으로 실행할 수도 있습니다.
+<translation id="5239333626804545932">이 정책을 사용으로 설정하거나 설정하지 않으면 Chrome 정리도구가 시스템에 원치 않는 소프트웨어가 있는지 정기적으로 검사하여 이러한 소프트웨어가 발견될 경우 사용자에게 삭제할 것인지 묻습니다. decentr://settings에서 Chrome 정리도구를 수동으로 실행할 수도 있습니다.
 
       정책을 사용 안함으로 설정하면 Chrome 정리도구가 정기적으로 검사를 하지 않으며 수동으로 실행할 수 없습니다.
 
@@ -4275,7 +4275,7 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
 
       사용자는 가져오기 대화상자를 트리거할 수 있으며 '자동 완성 양식 데이터' 체크박스가 이 정책의 값에 맞게 선택되거나 선택 해제됩니다.</translation>
 <translation id="614616930188030377">이 목록의 패턴을 요청 URL의 보안 출처와 비교합니다.
-      일치하는 항목이 확인되거나 chrome://flags/#enable-webrtc-hide-local-ips-with-mdns가 사용 중지되면 로컬 IP 주소가 WebRTC ICE 후보에 표시됩니다.
+      일치하는 항목이 확인되거나 decentr://flags/#enable-webrtc-hide-local-ips-with-mdns가 사용 중지되면 로컬 IP 주소가 WebRTC ICE 후보에 표시됩니다.
       그러지 않으면 로컬 IP 주소가 mDNS 호스트 이름으로 숨겨집니다.
       관리자가 필요로 하는 경우 이 정책은 로컬 IP의 보안 수준을 낮춥니다.</translation>
 <translation id="614662973812186053">이 정책은 Android 사용 및 진단 데이터 수집도 제어합니다.</translation>
@@ -4509,12 +4509,12 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
 <translation id="645425387487868471"><ph name="PRODUCT_NAME" /> 강제 로그인 사용</translation>
 <translation id="6455842857207956758">비밀번호 동기화 토큰의 값을 모니터링하고 비밀번호가 업데이트되어 동기화가 필요할 때 사용자가 온라인 재인증을 완료하도록 하여 여러 대의 Chrome 기기에서 SAML 비밀번호 동기화를 사용하도록 설정합니다.
 
-      SAML 사용자가 세션 중에 SAML 비밀번호를 변경할 수 있도록 허용하는 chrome://password-change 페이지를 사용합니다. 이를 통해 SAML 비밀번호 및 기기 잠금 화면 비밀번호가 지속적으로 동기화됩니다.
+      SAML 사용자가 세션 중에 SAML 비밀번호를 변경할 수 있도록 허용하는 decentr://password-change 페이지를 사용합니다. 이를 통해 SAML 비밀번호 및 기기 잠금 화면 비밀번호가 지속적으로 동기화됩니다.
 
       또한 이 정책을 통해 SAML 비밀번호가 곧 만료될 예정일 때 세션 중에 비밀번호를 변경하여 즉시 대처할 수 있도록 SAML 사용자에게 경고 알림을 표시할 수 있습니다.
       하지만 이러한 알림은 SAML 로그인 절차 중에 SAML ID 공급업체에서 기기로 비밀번호 만료 정보를 전송한 경우에만 표시됩니다.
 
-      정책을 사용 안함으로 설정하거나 설정하지 않으면 chrome://password-change에서 SAML 비밀번호를 변경할 수 없으며 SAML 비밀번호가 곧 만료되는 시점에도 알림이 표시되지 않습니다.</translation>
+      정책을 사용 안함으로 설정하거나 설정하지 않으면 decentr://password-change에서 SAML 비밀번호를 변경할 수 없으며 SAML 비밀번호가 곧 만료되는 시점에도 알림이 표시되지 않습니다.</translation>
 <translation id="6457477291648119596">Type42</translation>
 <translation id="6458361632497500815">정책을 사용으로 설정하거나 설정하지 않으면 <ph name="VIRTUAL_MACHINES_ALLOWED_POLICY_NAME" />, <ph name="CROSTINI_ALLOWED_POLICY_NAME" />, <ph name="DEVICE_UNAFFILIATED_CROSTINI_ALLOWED_POLICY_NAME" /> 정책 3개가 모두 사용으로 설정되어 있는 한 모든 사용자가 <ph name="PRODUCT_CROSTINI_NAME" />를 사용할 수 있습니다. 사용 안함으로 설정하면 제휴되지 않은 사용자는 <ph name="PRODUCT_CROSTINI_NAME" />를 사용할 수 없습니다. 사용 안함으로 변경하면 기존에 실행 중이던 컨테이너가 아닌 새로 시작되는 <ph name="PRODUCT_CROSTINI_NAME" /> 컨테이너에 정책 적용이 시작됩니다.</translation>
 <translation id="6464074037294098618">주소 자동 완성 사용</translation>
@@ -4582,7 +4582,7 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDWIFIACCESSPOINTS" />: 자동 시간대 감지를 계속 사용 설정하고, 정밀한 시간대 감지를 위해 Geolocation API 서버에 공개된 Wi-Fi 액세스 포인트 목록을 지속적으로 전송합니다.
        * <ph name="POLICY_ENUM_SYSTEMTIMEZONEAUTOMATICDETECTION_TIMEZONEAUTOMATICDETECTIONSENDALLLOCATIONINFO" />: 자동 시간대 감지를 계속 사용 설정하고, 정밀한 시간대 감지를 위해 위치 정보(예: Wi-Fi 액세스 포인트, 연결 가능한 기지국, GPS)를 지속적으로 서버에 전송합니다.
 
-      설정하지 않거나, 사용자가 결정하도록 설정하거나, None으로 설정할 경우 사용자가 chrome://settings에서 일반 컨트롤을 사용하여 자동 시간대 감지를 조정합니다.</translation>
+      설정하지 않거나, 사용자가 결정하도록 설정하거나, None으로 설정할 경우 사용자가 decentr://settings에서 일반 컨트롤을 사용하여 자동 시간대 감지를 조정합니다.</translation>
 <translation id="6532769014584932288">wake lock 허용</translation>
 <translation id="6536600139108165863">기기 종료 시 자동 재부팅</translation>
 <translation id="6539246272469751178">이 정책은 Android 앱에 아무런 영향도 미치지 않습니다. Android 앱은 언제나 기본 다운로드 디렉터리를 사용하며 <ph name="PRODUCT_OS_NAME" />에 의해 기본 다운로드 디렉터리가 아닌 디렉터리로 다운로드된 파일에 액세스할 수 없습니다.</translation>
@@ -4812,7 +4812,7 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
 
 정책을 '사용 안함'으로 설정하면 브라우저 실험 기능 아이콘이 툴바에서 삭제됩니다.
 
-      chrome://flags 및 브라우저 기능을 사용 설정/중지하는 기타 수단은 정책의 '사용' 또는 '사용 안함' 여부와 관계없이 정상적으로 작동합니다.</translation>
+      decentr://flags 및 브라우저 기능을 사용 설정/중지하는 기타 수단은 정책의 '사용' 또는 '사용 안함' 여부와 관계없이 정상적으로 작동합니다.</translation>
 <translation id="6794083666143216172">출처에서 기기 속성을 쿼리할 수 있게 합니다.</translation>
 <translation id="6795485990775913659">PIN이 없으면 인쇄만 허용</translation>
 <translation id="6800181452282128474">Quirks 서버 쿼리 안함</translation>
@@ -5492,7 +5492,7 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
       GAIA로 설정된 경우 표준 GAIA 인증 절차에 따라 로그인이 이뤄집니다.
 
       SAML_INTERSTITIAL로 설정된 경우 사용자에게 기기 등록 도메인의 SAML IdP를 통해 인증을 진행하거나 표준 GAIA 로그인 절차로 돌아가도록 안내하는 로그인 화면이 표시됩니다.</translation>
-<translation id="7554382342294940216">정책을 사용 설정하면 <ph name="PRODUCT_OS_NAME" /> 제품이 종속 포털 인증을 위해 프록시를 우회할 수 있습니다. Chrome에서 성공적인 인터넷 연결을 감지할 때까지 종속 포털 로그인 페이지에서 시작되는 이러한 인증 웹페이지는 별도의 창에서 열리며 현재 사용자에게 적용되는 모든 정책 설정 및 제한을 무시합니다. 이 정책은 정책, 확장 프로그램을 통해 프록시가 설정되었거나 사용자가 chrome://settings에서 프록시를 설정한 경우에만 적용됩니다.
+<translation id="7554382342294940216">정책을 사용 설정하면 <ph name="PRODUCT_OS_NAME" /> 제품이 종속 포털 인증을 위해 프록시를 우회할 수 있습니다. Chrome에서 성공적인 인터넷 연결을 감지할 때까지 종속 포털 로그인 페이지에서 시작되는 이러한 인증 웹페이지는 별도의 창에서 열리며 현재 사용자에게 적용되는 모든 정책 설정 및 제한을 무시합니다. 이 정책은 정책, 확장 프로그램을 통해 프록시가 설정되었거나 사용자가 decentr://settings에서 프록시를 설정한 경우에만 적용됩니다.
 
       정책을 사용 중지하거나 설정하지 않으면 모든 종속 포털 인증 페이지가 새로운 일반 브라우저 탭에 표시되며 현재 사용자의 프록시 설정을 사용합니다.</translation>
 <translation id="7566878661979235378">SAML 로그인 인증 유형</translation>
@@ -5791,7 +5791,7 @@ False로 설정하면 <ph name="PRODUCT_NAME" />에서 시스템 알림을 사�
 <translation id="7951605113561734721">기기 관리 프로토콜을 사용하여 등록해야 하는 기기 수준 클라이언트 인증서를 지정합니다.</translation>
 <translation id="7952007677054834789"><ph name="PRODUCT_NAME" />에서 시작 시 로드될 페이지, 기본 홈페이지, 기본 새 탭 페이지를 구성하고 사용자가 변경하지 못하게 합니다.
 
-      사용자의 홈페이지 설정은 홈페이지를 새 탭 페이지로 지정하거나 URL로 설정하여 홈페이지 URL을 지정하는 경우에만 완전히 잠깁니다. 홈페이지 URL을 지정하지 않으면 사용자는 'chrome://newtab'을 지정하여 홈페이지를 새 탭 페이지로 계속해서 설정할 수 있습니다.
+      사용자의 홈페이지 설정은 홈페이지를 새 탭 페이지로 지정하거나 URL로 설정하여 홈페이지 URL을 지정하는 경우에만 완전히 잠깁니다. 홈페이지 URL을 지정하지 않으면 사용자는 'decentr://newtab'을 지정하여 홈페이지를 새 탭 페이지로 계속해서 설정할 수 있습니다.
 
       '시작 시 동작'에서 'URL 목록 열기'를 선택하지 않으면 '시작 시 열리는 URL' 정책은 무시됩니다.</translation>
 <translation id="7952958573604504839">이 정책은 M48에서 지원 중단되어 <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />(으)로 대체되고, M54에서 삭제되었습니다.
@@ -6360,7 +6360,7 @@ Windows에서는 GPO를 통해 정책을 설정하는 것이 좋습니다. 하�
 
       <ph name="PRODUCT_NAME" /> 버전 92부터 이 정책이 헤드리스 모드에서도 지원됩니다.
 
-      참고: 내부 chrome://* URL을 차단하면 예기치 못한 오류가 발생할 수 있습니다.</translation>
+      참고: 내부 decentr://* URL을 차단하면 예기치 못한 오류가 발생할 수 있습니다.</translation>
 <translation id="8626826495474944836">모든 사이트에 사이트 격리 필요</translation>
 <translation id="8631434304112909927">버전 <ph name="UNTIL_VERSION" /> 이하</translation>
 <translation id="8631437968147930597"><ph name="PRODUCT_OS_NAME" /> 잠금 화면에서 허용된 메모 앱 목록</translation>
@@ -6516,7 +6516,7 @@ Windows에서는 GPO를 통해 정책을 설정하는 것이 좋습니다. 하�
 
       모든 확장 프로그램의 소스 코드는 사용자가 개발자 도구를 통해 변경 가능하며, 이 과정에서 확장 프로그램 오작동이 발생할 수 있습니다. 이 점이 우려된다면 <ph name="DEVELOPER_TOOLS_DISABLED_POLICY_NAME" /> 정책을 설정하세요.
 
-      정책의 각 목록 항목은 세미콜론(;)으로 구분된 확장 프로그램 ID 및 '업데이트' URL(선택사항)로 구성된 문자열입니다. 확장 프로그램 ID는 32자리 문자열로, 예를 들어 개발자 모드일 때 chrome://extensions에서 확인할 수 있습니다. '업데이트' URL을 지정하는 경우 업데이트 매니페스트 XML 문서(https://developer.chrome.com/extensions/autoupdate)로 연결되어야 합니다. 기본적으로 Chrome 웹 스토어의 업데이트 URL이 사용됩니다. 정책에 설정된 '업데이트' URL은 최초 설치 시에만 사용되며 향후 확장 프로그램 업데이트에서는 확장 프로그램 매니페스트에 있는 업데이트 URL이 사용됩니다.
+      정책의 각 목록 항목은 세미콜론(;)으로 구분된 확장 프로그램 ID 및 '업데이트' URL(선택사항)로 구성된 문자열입니다. 확장 프로그램 ID는 32자리 문자열로, 예를 들어 개발자 모드일 때 decentr://extensions에서 확인할 수 있습니다. '업데이트' URL을 지정하는 경우 업데이트 매니페스트 XML 문서(https://developer.chrome.com/extensions/autoupdate)로 연결되어야 합니다. 기본적으로 Chrome 웹 스토어의 업데이트 URL이 사용됩니다. 정책에 설정된 '업데이트' URL은 최초 설치 시에만 사용되며 향후 확장 프로그램 업데이트에서는 확장 프로그램 매니페스트에 있는 업데이트 URL이 사용됩니다.
 
        참고: 이 정책은 시크릿 모드에는 적용되지 않습니다. 확장 프로그램 호스팅에 관해 자세히 알아보세요(https://developer.chrome.com/extensions/hosting).</translation>
 <translation id="8827366480126575426">프로토콜 핸들러의 프로토콜입니다.</translation>
@@ -6915,7 +6915,7 @@ Windows에서는 GPO를 통해 정책을 설정하는 것이 좋습니다. 하�
 
       <ph name="PRODUCT_NAME" /> 버전 73부터 javascript://* URL을 차단할 수 있지만 이는 주소 표시줄 또는 북마크릿 등에 입력된 자바스크립트에만 영향을 줍니다. 데이터가 동적으로 로드되는 인페이지 자바스크립트 URL에는 이 정책이 적용되지 않습니다. 예를 들어, example.com/abc를 차단해도 example.com에서 XMLHTTPRequest를 사용하여 여전히 example.com/abc를 로드할 수 있습니다.
 
-      참고: 내부 chrome://* URL을 차단하면 예기치 못한 오류가 발생할 수 있습니다.</translation>
+      참고: 내부 decentr://* URL을 차단하면 예기치 못한 오류가 발생할 수 있습니다.</translation>
 <translation id="957778406002650056"><ph name="PLUGIN_VM_NAME" /> 이미지를 다운로드할 수 있는 URL입니다.</translation>
 <translation id="971677226939413180">사용자가 이미지로 인쇄 옵션을 선택할 수 없음</translation>
 <translation id="974349541138387272">원하는 DNS-over-HTTPS 리졸버의 URI 템플릿 지정</translation>

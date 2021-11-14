@@ -357,7 +357,7 @@ bool IsTerminalSystemWebAppNaClPage(GURL url) {
   replacements.ClearQuery();
   replacements.ClearRef();
   return url.ReplaceComponents(replacements) ==
-         "chrome-untrusted://terminal/html/nassh.html";
+         "decentr-untrusted://terminal/html/nassh.html";
 }
 #endif
 
@@ -456,7 +456,7 @@ void ChromeContentRendererClient::RenderThreadStarted() {
   WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(
       native_scheme);
 
-  // chrome-search: and chrome-distiller: pages  should not be accessible by
+  // decentr-search: and chrome-distiller: pages  should not be accessible by
   // normal content, and should also be unable to script anything but themselves
   // (to help limit the damage that a corrupt page could cause).
   WebString chrome_search_scheme(
@@ -477,7 +477,7 @@ void ChromeContentRendererClient::RenderThreadStarted() {
       WebString::FromUTF8(content::kAndroidAppScheme));
 #endif
 
-  // chrome-search: pages should not be accessible by bookmarklets
+  // decentr-search: pages should not be accessible by bookmarklets
   // or javascript: URLs typed in the omnibox.
   WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(
       chrome_search_scheme);
@@ -1250,7 +1250,7 @@ bool ChromeContentRendererClient::IsNativeNaClAllowed(
   //  1) An extension is loaded unpacked or built-in (component) to Chrome.
   //  2) An extension is force installed by policy.
   //  3) An extension is installed from the webstore, and invoked in that
-  //     context (hosted app URL or chrome-extension:// scheme).
+  //     context (hosted app URL or decentr-extension:// scheme).
   //  4) --enable-nacl is set.
   bool is_nacl_allowed_by_location = is_extension_unrestricted ||
                                      is_extension_force_installed ||

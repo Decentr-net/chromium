@@ -17,7 +17,7 @@ GEN('#include "content/public/test/browser_test.h"');
 class EmojiPickerBrowserTest extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://emoji-picker';
+    return 'decentr://emoji-picker';
   }
 
   /** @override */
@@ -34,7 +34,7 @@ class EmojiPickerBrowserTest extends PolymerTest {
 var EmojiPickerMainTest = class extends EmojiPickerBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://emoji-picker/test_loader.html?module=' +
+    return 'decentr://emoji-picker/test_loader.html?module=' +
         'chromeos/emoji_picker/emoji_picker_test.js';
   }
 };
@@ -48,7 +48,7 @@ TEST_F('EmojiPickerMainTest', 'All', function() {
 var EmojiPickerStoreTest = class extends EmojiPickerBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://emoji-picker/test_loader.html?module=' +
+    return 'decentr://emoji-picker/test_loader.html?module=' +
         'chromeos/emoji_picker/emoji_picker_store_test.js';
   }
 };

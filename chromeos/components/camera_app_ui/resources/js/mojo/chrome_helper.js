@@ -18,7 +18,7 @@ import {
 } from '/components/arc/mojom/camera_intent.mojom-webui.js';
 import {
   PointF,  // eslint-disable-line no-unused-vars
-} from 'chrome://resources/mojo/ui/gfx/geometry/mojom/geometry.mojom-webui.js';
+} from 'decentr://resources/mojo/ui/gfx/geometry/mojom/geometry.mojom-webui.js';
 
 import {assert} from '../chrome_util.js';
 import {reportError} from '../error.js';

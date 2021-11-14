@@ -12,7 +12,7 @@ import {MessagePipe} from './message_pipe.m.js';
 import {Message} from './message_types.js';
 
 /** A pipe through which we can send messages to the parent frame. */
-const parentMessagePipe = new MessagePipe('chrome://help-app', window.parent);
+const parentMessagePipe = new MessagePipe('decentr://help-app', window.parent);
 
 /**
  * A delegate which exposes privileged WebUI functionality to the help

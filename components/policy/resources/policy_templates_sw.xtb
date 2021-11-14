@@ -480,7 +480,7 @@ itabadilishwa na data ya hoja za utafutaji za kweli.
 
       Vipengee visivyofuata kanuni vinaweza kufafanuliwa katika sera ya URL zilizoidhinishwa. Sera hizi hazizidi vipengee 1000; vipengee vitakavyofuata vitapuuzwa.
 
-      Kumbuka kwamba haipendekezwi kuzuia URL za 'chrome://*' za ndani kwa sababu hatua hii inaweza kusababisha hitilafu zisizotarajiwa.
+      Kumbuka kwamba haipendekezwi kuzuia URL za 'decentr://*' za ndani kwa sababu hatua hii inaweza kusababisha hitilafu zisizotarajiwa.
 
       Kuanzia M73 unaweza kuzuia URL za 'javascript://*'. Hata hivyo, sera inaathiri tu JavaScript iliyoandikwa katika sehemu ya anwani (au kwa mfano, kijialamisho). Kumbuka kwamba URL za JavaScript za ndani ya ukurasa, mradi ni data iliyopakiwa kwa upekee, hazitumii sera hii. Kwa mfano ukizuia ukurasa wa 'example.com/abc', 'example.com' watumiaji bado wataweza kupakia 'example.com/abc' kupitia XMLHTTPRequest.
 
@@ -645,7 +645,7 @@ Sera hii ikiondolewa, chaguomsingi zitatumika kwa mipangilio yote.</translation>
      kuibadilisha. Kwa hivyo, thamani chaguomsingi haitumiwi tena wakati wa kuzima na kuwasha.</translation>
 <translation id="2138449619211358657">Sera hii huruhusu <ph name="PRODUCT_OS_NAME" /> kutotumia seva yoyote mbadala kwa ajili ya uthibitishaji wa ukurasa wa mwanzo.
 
-      Athari za sera hii hutumika tu ikiwa seva mbadala imewekewa mipangilio (kwa mfano, kupitia sera, na mtumiaji katika chrome://settings, au kupitia viendelezi).
+      Athari za sera hii hutumika tu ikiwa seva mbadala imewekewa mipangilio (kwa mfano, kupitia sera, na mtumiaji katika decentr://settings, au kupitia viendelezi).
 
       Ukiwasha mipangilio hii, uthibitishaji wowote wa kurasa za mwanzo (kwa mfano, kurasa zote za wavuti zinazoanzia ukurasa wa kuingia katika akaunti ya ukurasa wa mwanzo hadi <ph name="PRODUCT_NAME" /> zinatambua muunganisho wa intaneti) zitaonyeshwa kwenye dirisha tofauti zikipuuza mipangilio yote ya sera na vizuizi vya mtumiaji wa sasa.
 
@@ -666,15 +666,15 @@ Sera hii ikiondolewa, chaguomsingi zitatumika kwa mipangilio yote.</translation>
 <translation id="2170233653554726857">Washa uboreshaji wa WPAD</translation>
 <translation id="2176565653304920879">Sera hii ikiwekwa, mtiririko wa kugundua saa za eneo kiotomatiki utakuwa katika mojawapo wa njia zifuatazo kulingana na thamani ya mipangilio:
 
-      Ikiwekwa kuwa TimezoneAutomaticDetectionUsersDecide, watumiaji wataweza kudhibiti kipengee cha kugundua saa za eneo kiotomatiki kwa kutumia vidhibiti vya kawaida katika chrome://settings.
+      Ikiwekwa kuwa TimezoneAutomaticDetectionUsersDecide, watumiaji wataweza kudhibiti kipengee cha kugundua saa za eneo kiotomatiki kwa kutumia vidhibiti vya kawaida katika decentr://settings.
 
-      Ikiwekwa kuwa TimezoneAutomaticDetectionDisabled, vidhibiti vya kugundua  saa za eneo kiotomatiki katika chrome://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimezimwa wakati wote.
+      Ikiwekwa kuwa TimezoneAutomaticDetectionDisabled, vidhibiti vya kugundua  saa za eneo kiotomatiki katika decentr://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimezimwa wakati wote.
 
-      Ikiwekwa kuwa TimezoneAutomaticDetectionIPOnly, vidhibiti vya saa za eneo katika chrome://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimewashwa wakati wote. Kipengele cha kugundua saa za eneo kitatumia mbinu ya IP pekee kurekebisha suala la mahali.
+      Ikiwekwa kuwa TimezoneAutomaticDetectionIPOnly, vidhibiti vya saa za eneo katika decentr://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimewashwa wakati wote. Kipengele cha kugundua saa za eneo kitatumia mbinu ya IP pekee kurekebisha suala la mahali.
 
-      Ikiwekwa kuwa TimezoneAutomaticDetectionSendWiFiAccessPoints, vidhibiti vya saa za eneo katika chrome://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimewashwa wakati wote. Orodha ya maeneo ya kufikia WiFi yatatumwa kwenye seva ya API ya Kutambulisha Mahali Kila wakati kwa ugunduzi sahihi wa saa za eneo.
+      Ikiwekwa kuwa TimezoneAutomaticDetectionSendWiFiAccessPoints, vidhibiti vya saa za eneo katika decentr://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimewashwa wakati wote. Orodha ya maeneo ya kufikia WiFi yatatumwa kwenye seva ya API ya Kutambulisha Mahali Kila wakati kwa ugunduzi sahihi wa saa za eneo.
 
-     Ikiwekwa kuwa TimezoneAutomaticDetectionSendAllLocationInfo, vidhibiti vya saa za eneo katika chrome://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimewashwa wakati wote. Maelezo ya eneo (kama vile maeneo ya kufikia WiFi, Minara inayoweza Kupokea mtandao, GPS) yatatumwa kwenye seva kwa ugunduzi sahihi wa saa za eneo.
+     Ikiwekwa kuwa TimezoneAutomaticDetectionSendAllLocationInfo, vidhibiti vya saa za eneo katika decentr://settings vitazimwa. Kipengele cha kugundua saa za eneo kiotomatiki kitakuwa kimewashwa wakati wote. Maelezo ya eneo (kama vile maeneo ya kufikia WiFi, Minara inayoweza Kupokea mtandao, GPS) yatatumwa kwenye seva kwa ugunduzi sahihi wa saa za eneo.
 
       Sera hii isipowekwa, itaonekana kama kwamba TimezoneAutomaticDetectionUsersDecide imewekwa.
 
@@ -1227,9 +1227,9 @@ Ikiwa sera imewekwa kuwa sivyo au haijawekwa, matukio hayatarekodiwa.</translati
       Sera hii isipowekwa, au ikiwekwa kuwa sivyo, basi mipangilio ya kriptografia ya DHE katika TLS haitawashwa. La sivyo, inaweza kuwekwa kuwa ndivyo ili kuwasha mipangilio ya kriptografia ya DHE na kudumisha uoanifu na seva iliyokwisha muda. Huu ni mkakati wa muda tu na seva inapaswa kuwekwa mipangilio upya.
 
       Seva zinahimizwa kuhamia kwenye mipangilio ya kriptografia ya ECDHE. Ikiwa mipangilio hii haipatikani, hakikisha kuwa mipangilio ya kriptografia inayotumia ubadilishanaji wa kitufe cha RSA imewashwa.</translation>
-<translation id="3117706142826400449">Ikiwa sera imezimwa, itazuia Kipengele cha Kusafisha Chrome kisikague mfumo ili kubaini programu zisizotakikana na kuziondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Chrome kutoka chrome://settings/cleanup umezimwa.
+<translation id="3117706142826400449">Ikiwa sera imezimwa, itazuia Kipengele cha Kusafisha Chrome kisikague mfumo ili kubaini programu zisizotakikana na kuziondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Chrome kutoka decentr://settings/cleanup umezimwa.
 
-      Ikiwa sera imewashwa au haijawekwa, Kipengele cha Kusafisha Chrome hukagua mfumo mara kwa mara ili kubaini programu zisizotakikana na kuziondoa. Ikiwa programu yoyote itapatikana, tutamwuliza mtumiaji ikiwa angependa kuiondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Chrome kutoka chrome://settings umewashwa.
+      Ikiwa sera imewashwa au haijawekwa, Kipengele cha Kusafisha Chrome hukagua mfumo mara kwa mara ili kubaini programu zisizotakikana na kuziondoa. Ikiwa programu yoyote itapatikana, tutamwuliza mtumiaji ikiwa angependa kuiondoa. Uwezo wa kuanzisha Kipengele cha Kusafisha Chrome kutoka decentr://settings umewashwa.
 
       Sera hii inapatikana kwenye matukio ya Windows ambayo yameunganishwa kwenye kikoa cha <ph name="MS_AD_NAME" />. au matukio ya Windows 10 Pro au Enterprise yaliyojumuishwa katika usimamizi wa kifaa.</translation>
 <translation id="3152425128389603870">Fanya Eneo-kazi Lililounganishwa lipatikane na uwashe kwa chaguomsingi</translation>
@@ -1281,7 +1281,7 @@ Ikiwa sera imewekwa kuwa sivyo au haijawekwa, matukio hayatarekodiwa.</translati
       Iwapo mpangilio huu utawashwa au hutasanidiwa, watumiaji wanaweza kutumia proksi ya kuchipisha ya wingu ili kuthibitisha akaunti ya Google.
 
       Iwapo mpangilio huu utafungwa, watumiaji hawawezi kuwasha proksi, na mashine haitaruhusiwa kushiriki printa zake na <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Huwasha ukurasa katika chrome://password-change ambao huruhusu watumiaji wa SAML kubadilisha manenosiri yao ya SAML wakiwa wanatumia kifaa, hali inayohakikisha kwamba nenosiri la SAML na nenosiri la kufunga skrini ya kifaa huhifadhiwa yakiwa yamesawazishwa.
+<translation id="3312206664202507568">Huwasha ukurasa katika decentr://password-change ambao huruhusu watumiaji wa SAML kubadilisha manenosiri yao ya SAML wakiwa wanatumia kifaa, hali inayohakikisha kwamba nenosiri la SAML na nenosiri la kufunga skrini ya kifaa huhifadhiwa yakiwa yamesawazishwa.
 
       Sera hii pia huwasha arifa ambazo huonya watumiaji wa SAML ikiwa muda wa kutumia manenosiri yao ya SAML unakaribia kuisha ili waweza kushughulikia suala hili mara moja kwa kubadilisha manenosiri wanapotumia kifaa.
       Lakini, arifa hizi zitaonyeshwa tu ikiwa maelezo ya kuisha kwa muda wa kutumia nenosiri yanatumwa kwenye kifaa na mtoa huduma za kitambulisho cha SAML wakati wa utaratibu wa kuingia katika SAML.
@@ -2046,7 +2046,7 @@ Sera hii ikiwekwa kuwa sivyo au isiwekwe, kibodi itatoa amri za vitufe vya media
       Mipangilio hii, SitePerProcess, inaweza kutumika kuwazuia watumiaji wasijiondoe kwenye utendaji chaguomsingi wa kutenga tovuti zote. Kumbuka kwamba sera ya IsolateOrigins huenda pia ikatumika kutenga vyanzo laini vya ziada.
       Sera ikiwashwa, watumiaji wataweza kujiondoa kwenye utendaji chaguomsingi ambapo kila tovuti hutumia mchakato wake wenyewe.
       Mipangilio ya sera hii isipowekwa au ikizimwa, mtumiaji ataweza kujiondoa kwenye utengaji wa tovuti
-      (kwa mfano, kwa kutumia maelezo ya "Zima utengaji wa tovuti" katika chrome://flags).  Hatua ya kuweka sera hii kuwa imezimwa na/au kukosa kuiweka, haizimi kipengele cha Utengaji wa Tovuti.
+      (kwa mfano, kwa kutumia maelezo ya "Zima utengaji wa tovuti" katika decentr://flags).  Hatua ya kuweka sera hii kuwa imezimwa na/au kukosa kuiweka, haizimi kipengele cha Utengaji wa Tovuti.
       Kwenye <ph name="PRODUCT_OS_NAME" /> toleo la 76 na ya awali, inapendekezwa pia uweke sera ya kifaa ya <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> kuwa thamani sawa. Ikiwa thamani zilizobainishwa na sera hizo mbili hazilingani, ucheleweshaji unaweza kutokea wakati wa kuingia katika kipindi cha mtumiaji wakati thamani inayobainishwa na sera ya mtumiaji inatumika.
 
       KUMBUKA: Sera hii haitumiki kwenye Android. Ili uwashe SitePerProcess kwenye Android, tumia mipangilio ya sera ya SitePerProcessAndroid.
@@ -2938,7 +2938,7 @@ Thamani ya sera inapaswa kubainishwa katika milisekunde. Thamani huwekwa pamoja 
 
           Ukiwasha mipangilio hii, Ukurasa Mpya wa Kichupo hutumika wakati wote kuwa ukurasa wa kwanza na URL ya eneo la ukurasa wa kwanza hupuuzwa.
 
-          Ukizima mipangilio hii, ukurasa wa kwanza wa mtumiaji kamwe hautakuwa Ukurasa wa Kichupo Kipya, labda URL yake iwekwe iwe 'chrome://newtab'.
+          Ukizima mipangilio hii, ukurasa wa kwanza wa mtumiaji kamwe hautakuwa Ukurasa wa Kichupo Kipya, labda URL yake iwekwe iwe 'decentr://newtab'.
 
           Ukiwasha au kuzima mipangilio hii, watumiaji hawawezi kubadilisha aina yao ya ukurasa wa kwanza katika <ph name="PRODUCT_NAME" />.
 
@@ -3106,7 +3106,7 @@ Iwapo sera hii haitawekwa au orodha ni tupu miradi yote itapatikana katika <ph n
 
       Iwapo sera hii imewekwa kuwa sivyo, kiteja cha DNS kilichojumuishwa hakitawahi kutumiwa.
 
-      Iwapo sera hii itaachwa bila kuwekwa, kiteja cha DNS kilichojumuishwa kitawashwa kwa chaguomsingi kwenye MacOS, Android (wakati DNS ya Faragha au VPN zimewashwa) na ChromeOS na watumiaji wataweza kubadilisha iwapo kiteja cha DNS kilichojumuishwa kitatumika kwa kuhariri chrome://flags au kubainisha alama ya mstari wa amri.</translation>
+      Iwapo sera hii itaachwa bila kuwekwa, kiteja cha DNS kilichojumuishwa kitawashwa kwa chaguomsingi kwenye MacOS, Android (wakati DNS ya Faragha au VPN zimewashwa) na ChromeOS na watumiaji wataweza kubadilisha iwapo kiteja cha DNS kilichojumuishwa kitatumika kwa kuhariri decentr://flags au kubainisha alama ya mstari wa amri.</translation>
 <translation id="6843296367238757293">Sera hii imeacha kuendesha huduma. Unakatazwa kuitumia. Soma zaidi katika https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Sera hii iliondolewa katika <ph name="PRODUCT_NAME" /> 68, nafasi yake imechukuliwa na <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Sera hii iliacha kuendesha huduma na imeondolewa katika M66, kwa sababu ilitumika kwa jaribio la ndani pekee na ina athari za usalama.
@@ -3741,7 +3741,7 @@ Kama sera haitawekwa, kikuza skrini kitazimwa wakati skrini ya kuingia katika ak
 <translation id="7941975817681987555">Usibashiri vitendo vya mtandao kwenye muunganisho wa mtandao wowote</translation>
 <translation id="7952007677054834789">Huweka mipangilio ya kurasa kufunguka wakati kifaa kinawaka, kwenye ukurasa chaguomsingi wa mwanzo na ukurasa chaguomsingi wa kichupo kipya katika <ph name="PRODUCT_NAME" /> na huzuia watumiaji kuzibadilisha.
 
-      Mipangilio ya ukurasa wa kwanza wa mtumiaji hufungwa kabisa ukichagua ukurasa wa kwanza kuwa ukurasa mpya wa kichupo, au uuweke kuwa URL na ubainishe URL ya ukurasa wa kwanza. Iwapo hutaibainisha URL ya ukurasa wa kwanza, basi bado mtumiaji anaweza kuweka ukurasa wa kwanza kuwa ukurasa mpya wa kichupo kwa kubainisha 'chrome://newtab'.
+      Mipangilio ya ukurasa wa kwanza wa mtumiaji hufungwa kabisa ukichagua ukurasa wa kwanza kuwa ukurasa mpya wa kichupo, au uuweke kuwa URL na ubainishe URL ya ukurasa wa kwanza. Iwapo hutaibainisha URL ya ukurasa wa kwanza, basi bado mtumiaji anaweza kuweka ukurasa wa kwanza kuwa ukurasa mpya wa kichupo kwa kubainisha 'decentr://newtab'.
 
       Sera ya 'URL kufunguka wakati wa kuanza' haitekelezwi isipokuwa uchague 'Fungua orodha ya URL' katika 'Vitendo wakati wa kuanza'.</translation>
 <translation id="7952958573604504839">Sera hii haitumiki katika M48 na imeondolewa katika M54, nafasi yake imechukuliwa na <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />.

@@ -61,12 +61,12 @@ IN_PROC_BROWSER_TEST_F(ThirdPartyNTPBrowserTest, EmbeddedMostVisitedIframe) {
   EXPECT_TRUE(instant_service->IsInstantProcess(
       contents->GetMainFrame()->GetProcess()->GetID()));
 
-  // Add a chrome-search://most-visited/title.html?rid=1&fs=0 subframe and
+  // Add a decentr-search://most-visited/title.html?rid=1&fs=0 subframe and
   // verify that navigation completes successfully, with no kills.
   content::TestNavigationObserver nav_observer(contents);
   const char* kScript = R"(
       const frame = document.createElement('iframe');
-      frame.src = 'chrome-search://most-visited/title.html?rid=1&fs=0';
+      frame.src = 'decentr-search://most-visited/title.html?rid=1&fs=0';
       document.body.appendChild(frame);
   )";
   ASSERT_TRUE(content::ExecJs(contents, kScript));
@@ -79,7 +79,7 @@ IN_PROC_BROWSER_TEST_F(ThirdPartyNTPBrowserTest, EmbeddedMostVisitedIframe) {
   ASSERT_TRUE(content::ExecuteScriptAndExtractString(
       subframe, "domAutomationController.send(window.origin)",
       &subframe_origin));
-  EXPECT_EQ("chrome-search://most-visited", subframe_origin);
+  EXPECT_EQ("decentr-search://most-visited", subframe_origin);
 }
 
 // Verifies that Chrome won't spawn a separate renderer process for
@@ -110,7 +110,7 @@ IN_PROC_BROWSER_TEST_F(ThirdPartyNTPBrowserTest, ProcessPerSite) {
     ASSERT_TRUE(WaitForLoadStop(tab1));
 
     // Sanity check: the NTP should be provided by |ntp_url| and not by
-    // chrome://new-tab-page [1P WebUI NTP] or chrome://newtab [incognito].
+    // decentr://new-tab-page [1P WebUI NTP] or decentr://newtab [incognito].
     EXPECT_EQ(ntp_url, content::EvalJs(tab1, "window.location.href"));
   }
 
@@ -142,10 +142,10 @@ IN_PROC_BROWSER_TEST_F(ThirdPartyNTPBrowserTest, VerifySiteInstance) {
       browser()->tab_strip_model()->GetActiveWebContents();
 
   // Sanity check: the NTP should be provided by |ntp_url| and not by
-  // chrome://new-tab-page [1P WebUI NTP] or chrome://newtab [incognito].
+  // decentr://new-tab-page [1P WebUI NTP] or decentr://newtab [incognito].
   EXPECT_EQ(ntp_url, content::EvalJs(web_contents, "window.location.href"));
 
   // Verify that NTP committed in remote NTP SiteInstance.
-  EXPECT_EQ(GURL("chrome-search://remote-ntp/"),
+  EXPECT_EQ(GURL("decentr-search://remote-ntp/"),
             web_contents->GetMainFrame()->GetSiteInstance()->GetSiteURL());
 }

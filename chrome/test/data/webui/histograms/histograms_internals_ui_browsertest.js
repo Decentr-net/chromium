@@ -14,7 +14,7 @@ function HistogramsInternalsUIBrowserTest() {}
 HistogramsInternalsUIBrowserTest.prototype = {
   __proto__: testing.Test.prototype,
 
-  browsePreload: 'chrome://histograms',
+  browsePreload: 'decentr://histograms',
 
   isAsync: true,
 

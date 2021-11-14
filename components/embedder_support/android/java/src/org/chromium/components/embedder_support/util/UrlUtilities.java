@@ -281,11 +281,11 @@ public class UrlUtilities {
      */
     @Deprecated
     public static boolean isNTPUrl(String url) {
-        // Also handle the legacy chrome://newtab and about:newtab URLs since they will redirect to
+        // Also handle the legacy decentr://newtab and about:newtab URLs since they will redirect to
         // chrome-native://newtab natively.
         if (TextUtils.isEmpty(url)) return false;
         // We need to fixup the URL to handle about: schemes and transform them into the equivalent
-        // chrome:// scheme so that GURL parses the host correctly.
+        // decentr:// scheme so that GURL parses the host correctly.
         GURL gurl = UrlFormatter.fixupUrl(url);
         return isNTPUrl(gurl);
     }

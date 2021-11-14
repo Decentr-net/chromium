@@ -502,7 +502,7 @@
 
       Izjeme je mogoče opredeliti s pravilnikom o seznamu dovoljenih URL-jev. Ti pravilniki so omejeni na 1000 vnosov; nadaljnji vnosi bodo prezrti.
 
-      Upoštevajte, da ni priporočljivo blokirati notranjih URL-jev »chrome://*«, saj lahko to privede do nepričakovanih napak.
+      Upoštevajte, da ni priporočljivo blokirati notranjih URL-jev »decentr://*«, saj lahko to privede do nepričakovanih napak.
 
       Od različice M73 je mogoče blokirati URL-je »javascript://*« . Vendar to vpliva samo na JavaScript, vnesen v naslovni vrstici (ali na primer na priljubljene programčke). Upoštevajte, da za URL-je JavaScripta, umeščene na strani, ta pravilnik ne velja, če gre za dinamično naložene podatke. Če na primer blokirate »primer.com/abc«, bo stran »primer.com« še vedno lahko naložila »primer.com/abc« z zahtevo XMLHTTPRequest.
 
@@ -669,7 +669,7 @@
       zagonu ne uveljavi znova.</translation>
 <translation id="2138449619211358657">Ta pravilnik sistemu <ph name="PRODUCT_OS_NAME" /> omogoča obhod katerega koli strežnika proxy za preverjanje pristnosti v prestreznih portalih.
 
-      Pravilnik se uveljavi samo, če je nastavljen strežnik proxy (na primer s pravilnikom, z razširitvami ali če ga je nastavil uporabnik v »chrome://settings«).
+      Pravilnik se uveljavi samo, če je nastavljen strežnik proxy (na primer s pravilnikom, z razširitvami ali če ga je nastavil uporabnik v »decentr://settings«).
 
       Če omogočite to nastavitev, bodo morebitne strani prestreznega portala za preverjanje pristnosti (tj. vse spletne strani od strani za prijavo v prestrezni portal do trenutka, ko brskalnik <ph name="PRODUCT_NAME" /> zazna uspešno povezavo z internetom) prikazane v ločenem oknu, ki prezre vse nastavitve in omejitve pravilnika za trenutnega uporabnika.
 
@@ -690,15 +690,15 @@
 <translation id="2170233653554726857">Omogočanje optimizacije za WPAD</translation>
 <translation id="2176565653304920879">Če je ta pravilnik nastavljen, je samodejno zaznavanje časovnega pasu odvisno od vrednosti nastavitve:
 
-      Če je nastavljen na TimezoneAutomaticDetectionUsersDecide, lahko uporabniki z običajnimi kontrolniki v chrome://settings nadzirajo samodejno zaznavanje časovnega pasu.
+      Če je nastavljen na TimezoneAutomaticDetectionUsersDecide, lahko uporabniki z običajnimi kontrolniki v decentr://settings nadzirajo samodejno zaznavanje časovnega pasu.
 
-      Če je nastavljen na TimezoneAutomaticDetectionDisabled, so kontrolniki za samodejno zaznavanje časovnega pasu v chrome://settings onemogočeni. Samodejno zaznavanje časovnega pasu je vedno izklopljeno.
+      Če je nastavljen na TimezoneAutomaticDetectionDisabled, so kontrolniki za samodejno zaznavanje časovnega pasu v decentr://settings onemogočeni. Samodejno zaznavanje časovnega pasu je vedno izklopljeno.
 
-      Če je nastavljen na TimezoneAutomaticDetectionIPOnly, so kontrolniki za časovni pas v chrome://settings onemogočeni. Samodejno zaznavanje časovnega pasu je vedno vklopljeno. Pri zaznavanju časovnega pasu se za določanje lokacije uporablja samo IP.
+      Če je nastavljen na TimezoneAutomaticDetectionIPOnly, so kontrolniki za časovni pas v decentr://settings onemogočeni. Samodejno zaznavanje časovnega pasu je vedno vklopljeno. Pri zaznavanju časovnega pasu se za določanje lokacije uporablja samo IP.
 
-      Če je nastavljen na TimezoneAutomaticDetectionSendWiFiAccessPoints, so kontrolniki za časovni pas v chrome://settings onemogočeni. Samodejno zaznavanje časovnega pasu bo vedno vklopljeno. Seznam vidnih dostopnih točk Wi-Fi bo vedno poslan v strežnik API-ja za geolokacijo zaradi natančnega zaznavanja časovnega pasu.
+      Če je nastavljen na TimezoneAutomaticDetectionSendWiFiAccessPoints, so kontrolniki za časovni pas v decentr://settings onemogočeni. Samodejno zaznavanje časovnega pasu bo vedno vklopljeno. Seznam vidnih dostopnih točk Wi-Fi bo vedno poslan v strežnik API-ja za geolokacijo zaradi natančnega zaznavanja časovnega pasu.
 
-      Če je nastavljen na TimezoneAutomaticDetectionSendAllLocationInfo, so kontrolniki za časovni pas v chrome://settings onemogočeni. Samodejno zaznavanje časovnega pasu bo vedno vklopljeno. Podatki o lokaciji (na primer dostopne točke Wi-Fi, dosegljive bazne postaje, GPS) bodo poslani v strežnik zaradi natančnega zaznavanja časovnega pasu.
+      Če je nastavljen na TimezoneAutomaticDetectionSendAllLocationInfo, so kontrolniki za časovni pas v decentr://settings onemogočeni. Samodejno zaznavanje časovnega pasu bo vedno vklopljeno. Podatki o lokaciji (na primer dostopne točke Wi-Fi, dosegljive bazne postaje, GPS) bodo poslani v strežnik zaradi natančnega zaznavanja časovnega pasu.
 
       Če ta pravilnik ni nastavljen, deluje, kot da je nastavljena možnost TimezoneAutomaticDetectionUsersDecide.
 
@@ -1256,9 +1256,9 @@ napravi konfiguriran tako, da pri samodejni prijavi ni zakasnitve, naprava pa ni
       Če pravilnik ni nastavljen ali je onemogočen, šifrirne zbirke DHE v protokolu TLS ne bodo omogočene, sicer pa je lahko omogočen zaradi omogočanja šifrirnih zbirk DHE in ohranjanja združljivosti z zastarelim strežnikom. To je začasen ukrep in strežnik je treba na novo konfigurirati.
 
       Priporočamo, da začnete v strežnikih uporabljati šifrirne zbirke ECDHE. Če te niso na voljo, poskrbite, da bo omogočena šifrirna zbirka, ki uporablja izmenjavo ključev RSA.</translation>
-<translation id="3117706142826400449">Če je pravilnik onemogočen, Chromovemu čiščenju prepreči pregledovanje, ali je v sistemu neželena programska oprema, in čiščenje. Ročna sprožitev Chromovega čiščenja v nastavitvah chrome://settings/cleanup je onemogočena.
+<translation id="3117706142826400449">Če je pravilnik onemogočen, Chromovemu čiščenju prepreči pregledovanje, ali je v sistemu neželena programska oprema, in čiščenje. Ročna sprožitev Chromovega čiščenja v nastavitvah decentr://settings/cleanup je onemogočena.
 
-      Če je pravilnik omogočen ali ni nastavljen, Chromovo čiščenje redno pregleduje, ali je v sistemu neželena programska oprema, in če jo najde, uporabnik prejme poziv, ali jo želi odstraniti. Ročna sprožitev Chromovega čiščenja v nastavitvah chrome://settings je omogočena.
+      Če je pravilnik omogočen ali ni nastavljen, Chromovo čiščenje redno pregleduje, ali je v sistemu neželena programska oprema, in če jo najde, uporabnik prejme poziv, ali jo želi odstraniti. Ročna sprožitev Chromovega čiščenja v nastavitvah decentr://settings je omogočena.
 
       Ta pravilnik je na voljo samo v primerkih s sistemom Windows, ki so pridruženi v domeno <ph name="MS_AD_NAME" />, ali primerkih s sistemom Windows 10 Pro ali Enterprise, ki so včlanjeni v upravljanje naprav.</translation>
 <translation id="3152425128389603870">Naj bo enotno namizje na voljo in privzeto vklopljeno</translation>
@@ -1310,7 +1310,7 @@ napravi konfiguriran tako, da pri samodejni prijavi ni zakasnitve, naprava pa ni
       Če je ta nastavitev omogočena ali ni nastavljena, lahko uporabniki s preverjanjem pristnosti prek računa za Google omogočijo proxy za tiskanje v oblaku.
 
       Če je ta nastavitev onemogočena, uporabniki ne morejo omogočiti proxyja, računalnik pa tiskalnikov ne bo smel dati v skupno rabo s storitvijo <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Omogoča stran na chrome://password-change, ki uporabnikom prijave SAML omogoča spremembo gesel za prijavo SAML med sejo, s čimer se zagotovi, da sta geslo za prijavo SAML in geslo za zaklenjen zaslon naprave sinhronizirana.
+<translation id="3312206664202507568">Omogoča stran na decentr://password-change, ki uporabnikom prijave SAML omogoča spremembo gesel za prijavo SAML med sejo, s čimer se zagotovi, da sta geslo za prijavo SAML in geslo za zaklenjen zaslon naprave sinhronizirana.
 
       Ta pravilnik prav tako omogoča obvestila, ki uporabnike prijave SAML opozorijo, če bodo njihova gesla za prijavo SAML kmalu potekla, tako da lahko to težavo takoj odpravijo s spremembo gesla med sejo.
       Toda ta obvestila bodo prikazana samo, če podatke o poteku gesla v napravo pošlje ponudnik identitete za prijavo SAML med potekom prijave SAML.
@@ -2075,7 +2075,7 @@ Vrednost pravilnika mora vedno biti navedena v sekundah. Vrednosti so navzdol om
       To nastavitev, SitePerProcess, je mogoče uporabljati, da se uporabnikom ne dovoli onemogočanja privzetega delovanja osamitve vseh spletnih mest. Upoštevajte, da je lahko pravilnik IsolateOrigins uporaben tudi za osamitev dodatnih, podrobnejših izvorov.
       Če je pravilnik omogočen, uporabniki ne bodo mogli onemogočiti privzetega delovanja, pri katerem se vsako spletno mesto izvaja v svojem procesu.
       Če pravilnik ni konfiguriran ali je onemogočen, bo uporabnik lahko onemogočil osamitev spletnih mest
-      (lahko bo na primer uporabil vnos »Disable site isolation« (onemogoči osamitev spletnih mest) v chrome://flags).  Če nastavite, da je pravilnik onemogočen, in/ali ga ne konfigurirate, osamitve spletnih mest ne izklopite.
+      (lahko bo na primer uporabil vnos »Disable site isolation« (onemogoči osamitev spletnih mest) v decentr://flags).  Če nastavite, da je pravilnik onemogočen, in/ali ga ne konfigurirate, osamitve spletnih mest ne izklopite.
       V sistemu <ph name="PRODUCT_OS_NAME" /> različice 76 in starejših različicah je priporočljivo, da tudi pravilnik za naprave <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" /> nastavite na enako vrednost. Če se vrednosti, navedene v teh dveh pravilnikih, ne ujemajo, lahko pri vstopu v uporabniško sejo pride do zakasnitve, medtem ko se uveljavlja vrednost, ki jo določa uporabniški pravilnik.
 
       OPOMBA: ta pravilnik se ne uporablja v sistemu Android. Če želite omogočiti pravilnik SitePerProcess v Androidu, uporabite nastavitev pravilnika SitePerProcessAndroid.
@@ -2980,7 +2980,7 @@ Vrednost pravilnika mora vedno biti navedena v sekundah. Vrednosti so navzdol om
 
           Če to nastavitev omogočite, bo za domačo stran vedno uporabljen nov zavihek s povezavami, URL domače strani pa se prezre.
 
-          Če jo onemogočite, uporabnikova domača stran nikoli ne bo nov zavihek s povezavami, razen če je njen URL nastavljen na »chrome://newtab«.
+          Če jo onemogočite, uporabnikova domača stran nikoli ne bo nov zavihek s povezavami, razen če je njen URL nastavljen na »decentr://newtab«.
 
           Če to nastavitev omogočite ali onemogočite, uporabniki ne morejo spremeniti vrste domače strani v brskalniku <ph name="PRODUCT_NAME" />.
 
@@ -3152,7 +3152,7 @@ URL-ji, ki uporabljajo sheme s tega seznama, se ne bodo naložili in dostop do n
 
       Če je ta pravilnik nastavljen na »false«, vgrajeni odjemalec DNS ne bo uporabljen.
 
-      Če ta pravilnik ni nastavljen, bo vgrajeni odjemalec DNS privzeto omogočen v sistemih macOS, Android (če nista omogočena zasebni strežnik DNS in VPN) in OS Chrome, uporabniki pa bodo lahko spreminjali, ali naj se uporablja vgrajeni odjemalec DNS tako, da bodo uredili stran chrome://flags ali določili zastavico v ukazni vrstici.</translation>
+      Če ta pravilnik ni nastavljen, bo vgrajeni odjemalec DNS privzeto omogočen v sistemih macOS, Android (če nista omogočena zasebni strežnik DNS in VPN) in OS Chrome, uporabniki pa bodo lahko spreminjali, ali naj se uporablja vgrajeni odjemalec DNS tako, da bodo uredili stran decentr://flags ali določili zastavico v ukazni vrstici.</translation>
 <translation id="6843296367238757293">Ta pravilnik je zastarel. Njegovo uporabo odsvetujemo. Preberite več na https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Ta pravilnik je bil odstranjen v izdelku <ph name="PRODUCT_NAME" /> in ga je zamenjal pravilnik <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Ta pravilnik je zastarel in smo ga v M66 odstranili, ker se je uporabljal samo za interno preskušanje in predstavlja varnostno tveganje.
@@ -3793,7 +3793,7 @@ URL-ji, ki uporabljajo sheme s tega seznama, se ne bodo naložili in dostop do n
 <translation id="7941975817681987555">Ne predvidevaj omrežnih dejanj v nobeni omrežni povezavi</translation>
 <translation id="7952007677054834789">Konfigurira strani, ki se zaženejo ob zagonu, privzeto domačo stran in privzeti nov zavihek s povezavami v izdelku <ph name="PRODUCT_NAME" /> ter uporabnikom prepreči, da bi jih spreminjali.
 
-      Nastavitve domače strani uporabnika so popolnoma zaklenjene, če izberete, da je domača stran nov zavihek s povezavami, oziroma če za domačo stran nastavite URL in navedete URL domače strani. Če ne navedete URL-ja domače strani, lahko uporabnik z ukazom »chrome://newtab« še vedno nastavi, da je domača stran nov zavihek s povezavami.
+      Nastavitve domače strani uporabnika so popolnoma zaklenjene, če izberete, da je domača stran nov zavihek s povezavami, oziroma če za domačo stran nastavite URL in navedete URL domače strani. Če ne navedete URL-ja domače strani, lahko uporabnik z ukazom »decentr://newtab« še vedno nastavi, da je domača stran nov zavihek s povezavami.
 
       Pravilnik »URL-ji, ki naj se odprejo ob zagonu« je prezrt, razen če v možnosti »Dejanje ob zagonu« izberete »Odpri seznam URL-jev«.</translation>
 <translation id="7952958573604504839">Ta pravilnik je zastarel in nadomeščen s pravilnikom <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" /> v različici M48. Odstranjen je v različici M54.

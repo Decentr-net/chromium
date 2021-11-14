@@ -17,13 +17,13 @@ export const SWA_FILES_APP_HOST = 'file-manager';
  * @const {!URL}
  */
 export const LEGACY_FILES_APP_URL =
-    new URL(`chrome-extension://${LEGACY_FILES_EXTENSION_ID}`);
+    new URL(`decentr-extension://${LEGACY_FILES_EXTENSION_ID}`);
 
 /**
  * The URL of the System Web App version of File Manger.
  * @const {!URL}
  */
-export const SWA_FILES_APP_URL = new URL(`chrome://${SWA_FILES_APP_HOST}`);
+export const SWA_FILES_APP_URL = new URL(`decentr://${SWA_FILES_APP_HOST}`);
 
 /**
  * The path to the File Manager icon.

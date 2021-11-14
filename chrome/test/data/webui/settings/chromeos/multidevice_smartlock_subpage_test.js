@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {MultiDeviceFeature, MultiDeviceFeatureState, MultiDeviceBrowserProxyImpl, SmartLockSignInEnabledState, Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {MultiDeviceFeature, MultiDeviceFeatureState, MultiDeviceBrowserProxyImpl, SmartLockSignInEnabledState, Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
-// #import {assert} from 'chrome://resources/js/assert.m.js';
-// #import {eventToPromise, waitAfterNextRender} from 'chrome://test/test_util.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {assert} from 'decentr://resources/js/assert.m.js';
+// #import {eventToPromise, waitAfterNextRender} from 'decentr://test/test_util.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {TestMultideviceBrowserProxy} from './test_multidevice_browser_proxy.m.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // clang-format on
 
 suite('Multidevice', function() {

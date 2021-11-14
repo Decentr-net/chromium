@@ -5,13 +5,13 @@
 // clang-format off
 // #import {TestBrowserProxy} from '../../test_browser_proxy.js';
 // #import {assertEquals} from '../../chai_assert.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-// #import {NearbyAccountManagerBrowserProxy, NearbyAccountManagerBrowserProxyImpl, setNearbyShareSettingsForTesting, setReceiveManagerForTesting, setContactManagerForTesting, Router, routes} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {NearbyAccountManagerBrowserProxy, NearbyAccountManagerBrowserProxyImpl, setNearbyShareSettingsForTesting, setReceiveManagerForTesting, setContactManagerForTesting, Router, routes} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {FakeContactManager} from '../../nearby_share/shared/fake_nearby_contact_manager.m.js';
 // #import {FakeNearbyShareSettings} from '../../nearby_share/shared/fake_nearby_share_settings.m.js';
 // #import {FakeReceiveManager} from './fake_receive_manager.m.js'
-// #import {isVisible, waitAfterNextRender} from 'chrome://test/test_util.js';
-// #import {getDeepActiveElement} from 'chrome://resources/js/util.m.js';
+// #import {isVisible, waitAfterNextRender} from 'decentr://test/test_util.js';
+// #import {getDeepActiveElement} from 'decentr://resources/js/util.m.js';
 // clang-format on
 
 /** @implements {nearby_share.AccountManagerBrowserProxy} */

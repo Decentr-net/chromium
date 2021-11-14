@@ -88,7 +88,7 @@ ElementSelector* StartLoggingButton() {
 
 }  // namespace
 
-// Test case for chrome://inspect WebUI page.
+// Test case for decentr://inspect WebUI page.
 @interface InspectUITestCase : ChromeTestCase
 @end
 
@@ -99,7 +99,7 @@ ElementSelector* StartLoggingButton() {
   GREYAssertTrue(self.testServer->Start(), @"Server did not start.");
 }
 
-// Tests that chrome://inspect allows the user to enable and disable logging.
+// Tests that decentr://inspect allows the user to enable and disable logging.
 - (void)testStartStopLogging {
   [ChromeEarlGrey loadURL:GURL(kChromeUIInspectURL)];
 

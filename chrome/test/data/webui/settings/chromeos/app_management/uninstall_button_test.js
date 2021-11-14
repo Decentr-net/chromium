@@ -3,11 +3,11 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {AppManagementStore, FakePageHandler, updateSelectedAppId, PageType} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {AppManagementStore, FakePageHandler, updateSelectedAppId, PageType} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {setupFakeHandler, replaceStore, replaceBody, isHiddenByDomIf, isHidden} from './test_util.m.js';
-// #import {flushTasks} from 'chrome://test/test_util.js';
+// #import {flushTasks} from 'decentr://test/test_util.js';
 // clang-format on
 
 'use strict';

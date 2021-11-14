@@ -3,15 +3,15 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://multidevice-setup/strings.m.js';
-// #import 'chrome://resources/cr_components/chromeos/multidevice_setup/multidevice_setup.m.js';
+// #import 'decentr://multidevice-setup/strings.m.js';
+// #import 'decentr://resources/cr_components/chromeos/multidevice_setup/multidevice_setup.m.js';
 
 // #import {TestMultideviceSetupBrowserProxy} from './setup_succeeded_page_test.m.js';
 // #import {FakeQuickUnlockPrivate} from '../../../settings/chromeos/fake_quick_unlock_private.m.js';
-// #import {BrowserProxyImpl} from 'chrome://resources/cr_components/chromeos/multidevice_setup/multidevice_setup_browser_proxy.m.js';
-// #import {FakeMojoService} from 'chrome://resources/cr_components/chromeos/multidevice_setup/fake_mojo_service.m.js';
+// #import {BrowserProxyImpl} from 'decentr://resources/cr_components/chromeos/multidevice_setup/multidevice_setup_browser_proxy.m.js';
+// #import {FakeMojoService} from 'decentr://resources/cr_components/chromeos/multidevice_setup/fake_mojo_service.m.js';
 // #import {waitBeforeNextRender, eventToPromise} from '../../../test_util.js';
-// #import {flush, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {flush, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 /** @fileoverview Suite of integration tests for MultiDevice setup WebUI. */

@@ -49,7 +49,7 @@ class ExploreSitesService : public KeyedService {
                                base::Time end,
                                base::OnceClosure callback) = 0;
 
-  // Controls for use by chrome://explore-sites-internals.
+  // Controls for use by decentr://explore-sites-internals.
   virtual void ClearCachedCatalogsForDebugging() = 0;
   virtual void OverrideCountryCodeForDebugging(
       const std::string& country_code) = 0;

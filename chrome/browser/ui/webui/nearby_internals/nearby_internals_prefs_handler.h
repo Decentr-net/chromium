@@ -13,7 +13,7 @@ class BrowserContext;
 }  // namespace content
 
 // WebUIMessageHandler for Nearby Prefs to allow users to Clear Prefs from the
-// chrome://nearby-internals logging tab.
+// decentr://nearby-internals logging tab.
 class NearbyInternalsPrefsHandler : public content::WebUIMessageHandler {
  public:
   explicit NearbyInternalsPrefsHandler(content::BrowserContext* context);

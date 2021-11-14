@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {FocusOutlineManager} from 'chrome://resources/js/cr/ui/focus_outline_manager.m.js';
-import {TabElement} from 'chrome://tab-strip.top-chrome/tab.js';
-import {TabGroupElement} from 'chrome://tab-strip.top-chrome/tab_group.js';
-import {setScrollAnimationEnabledForTesting, TabListElement} from 'chrome://tab-strip.top-chrome/tab_list.js';
-import {PageRemote, Tab} from 'chrome://tab-strip.top-chrome/tab_strip.mojom-webui.js';
-import {TabsApiProxyImpl} from 'chrome://tab-strip.top-chrome/tabs_api_proxy.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {FocusOutlineManager} from 'decentr://resources/js/cr/ui/focus_outline_manager.m.js';
+import {TabElement} from 'decentr://tab-strip.top-chrome/tab.js';
+import {TabGroupElement} from 'decentr://tab-strip.top-chrome/tab_group.js';
+import {setScrollAnimationEnabledForTesting, TabListElement} from 'decentr://tab-strip.top-chrome/tab_list.js';
+import {PageRemote, Tab} from 'decentr://tab-strip.top-chrome/tab_strip.mojom-webui.js';
+import {TabsApiProxyImpl} from 'decentr://tab-strip.top-chrome/tabs_api_proxy.js';
 
 import {flushTasks} from '../../test_util.js';
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../chai_assert.js';

@@ -18,7 +18,7 @@ class FeedV2InternalsPageHandler;
 
 // During the interim migration to Feed, this page will be co-located with
 // snippets-internals. Once migration is complete, and snippets-internals is
-// removed, this page will be moved to chrome://feed-internals.
+// removed, this page will be moved to decentr://feed-internals.
 
 // UI controller for the Feed internals page, hooks up a concrete implementation
 // of feed_internals::mojom::PageHandler to requests for that page handler

@@ -17,7 +17,7 @@ class Location;
 namespace syncer {
 
 // Sync errors are used for debug purposes and handled internally and/or
-// exposed through Chrome's "chrome://sync-internals" internal page.
+// exposed through Chrome's "decentr://sync-internals" internal page.
 // This class is copy-friendly and thread-safe.
 class SyncError {
  public:

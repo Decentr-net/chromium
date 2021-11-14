@@ -10,7 +10,7 @@
 class Profile;
 
 // A BrowsingDataCounter that counts the number of downloads as seen on the
-// chrome://downloads page.
+// decentr://downloads page.
 class DownloadsCounter : public browsing_data::BrowsingDataCounter {
  public:
   explicit DownloadsCounter(Profile* profile);

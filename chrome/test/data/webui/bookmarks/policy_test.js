@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {BookmarksCommandManagerElement, BrowserProxy, Command, IncognitoAvailability} from 'chrome://bookmarks/bookmarks.js';
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {TestBookmarksBrowserProxy} from 'chrome://test/bookmarks/test_browser_proxy.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
+import {BookmarksCommandManagerElement, BrowserProxy, Command, IncognitoAvailability} from 'decentr://bookmarks/bookmarks.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {TestBookmarksBrowserProxy} from 'decentr://test/bookmarks/test_browser_proxy.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
 
 suite('Bookmarks policies', function() {
   let store;

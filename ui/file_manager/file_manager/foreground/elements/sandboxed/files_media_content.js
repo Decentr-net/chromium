@@ -4,7 +4,7 @@
 
 window.onload = () => {
   const FILES_APP_ORIGIN =
-      'chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj';
+      'decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj';
   let messageSource;
 
   const content = document.querySelector('#content');

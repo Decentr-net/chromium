@@ -490,7 +490,7 @@
 
       Izņēmumus var norādīt URL baltā saraksta politikā. Šajās politikās var iekļaut ne vairāk kā 1000 ierakstu; nākamie ieraksti tiks ignorēti.
 
-      Ņemiet vērā, ka nav ieteicams bloķēt iekšējos vietrāžus URL “chrome://*”, jo tādējādi var rasties neparedzētas kļūdas.
+      Ņemiet vērā, ka nav ieteicams bloķēt iekšējos vietrāžus URL “decentr://*”, jo tādējādi var rasties neparedzētas kļūdas.
 
       No M73 varat bloķēt javascript://* vietrāžus URL. Tomēr tas attiecas tikai uz adreses joslā ierakstītu JavaScript (vai, piemēram, grāmatzīmes sīklietotnēm). Ņemiet vērā, ka uz lapā ietvertajiem JavaScript vietrāžiem URL, ja tie ir dinamiski ielādēti dati, šī politika neattiecas. Piemēram, ja bloķēsiet URL example.com/abc, lapā example.com joprojām varēs ielādēt example.com/abc, izmantojot XMLHTTPRequest.
 
@@ -658,7 +658,7 @@
       restartējot ierīci.</translation>
 <translation id="2138449619211358657">Šī politika ļauj operētājsistēmai <ph name="PRODUCT_OS_NAME" /> apiet visus caurlaides lapu autentifikācijas starpniekserverus.
 
-      Šī politika ir spēkā tikai tad, ja ir konfigurēts starpniekserveris (piemēram, izmantojot politiku vai paplašinājumus, vai pats lietotājs tos izmaina lapā chrome://settings).
+      Šī politika ir spēkā tikai tad, ja ir konfigurēts starpniekserveris (piemēram, izmantojot politiku vai paplašinājumus, vai pats lietotājs tos izmaina lapā decentr://settings).
 
       Ja iespējosiet šo iestatījumu, visas caurlaides lapu autentifikācijas lapas (t.i., visas tīmekļa lapas no caurlaides lapas pierakstīšanās lapas līdz brīdim, kad pārlūkā <ph name="PRODUCT_NAME" /> būs konstatēts sekmīgi izveidots interneta savienojums) tiks parādītas atsevišķā logā, ignorējot visus pašreizējam lietotājam piemērotos politiku iestatījumus un ierobežojumus.
 
@@ -679,15 +679,15 @@
 <translation id="2170233653554726857">WPAD optimizācijas iespējošana</translation>
 <translation id="2176565653304920879">Ja šī politika ir iestatīta, atkarībā no iestatījuma vērtības būs pieejama viena no tālāk norādītajām automātiskās laika joslas noteikšanas plūsmām.
 
-      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionUsersDecide, lietotāji varēs pārvaldīt automātisko laika joslas noteikšanu, izmantojot parastās vadīklas lapā chrome://settings.
+      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionUsersDecide, lietotāji varēs pārvaldīt automātisko laika joslas noteikšanu, izmantojot parastās vadīklas lapā decentr://settings.
 
-      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionDisabled, automātiskās laika joslas noteikšanas vadīklas lapā chrome://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs izslēgta.
+      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionDisabled, automātiskās laika joslas noteikšanas vadīklas lapā decentr://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs izslēgta.
 
-      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionIPOnly, laika joslas vadīklas lapā chrome://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs ieslēgta. Laika josla vienmēr tiks noteikta tikai pēc IP metodes atrašanās vietas noteikšanai.
+      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionIPOnly, laika joslas vadīklas lapā decentr://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs ieslēgta. Laika josla vienmēr tiks noteikta tikai pēc IP metodes atrašanās vietas noteikšanai.
 
-      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionSendWiFiAccessPoints, laika joslas vadīklas lapā chrome://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs ieslēgta. Uztverto Wi-Fi piekļuves punktu saraksts vienmēr tiks nosūtīts uz ģeolokācijas API serveri precīzai laika joslas noteikšanai.
+      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionSendWiFiAccessPoints, laika joslas vadīklas lapā decentr://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs ieslēgta. Uztverto Wi-Fi piekļuves punktu saraksts vienmēr tiks nosūtīts uz ģeolokācijas API serveri precīzai laika joslas noteikšanai.
 
-      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionSendAllLocationInfo, laika joslas vadīklas lapā chrome://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs ieslēgta. Atrašanās vietas informācija (piemēram, Wi-Fi piekļuves punkti, uztverami mobilo sakaru torņi, GPS) tiks nosūtīta uz serveri precīzai laika joslas noteikšanai.
+      Ja tiks atlasīts iestatījums TimezoneAutomaticDetectionSendAllLocationInfo, laika joslas vadīklas lapā decentr://settings tiks atspējotas. Automātiskā laika joslas noteikšana vienmēr būs ieslēgta. Atrašanās vietas informācija (piemēram, Wi-Fi piekļuves punkti, uztverami mobilo sakaru torņi, GPS) tiks nosūtīta uz serveri precīzai laika joslas noteikšanai.
 
       Ja šī politika nav iestatīta, tā darbosies atbilstoši iestatījumam TimezoneAutomaticDetectionUsersDecide.
 
@@ -1245,9 +1245,9 @@
       Ja politika nav iestatīta vai ir iestatīta vērtība Nepatiesa, DHE šifra komplekti standartā TLS netiks iespējoti. Politikai var iestatīt vērtību Patiesa, lai iespējotu DHE šifra komplektus un saglabātu saderību ar novecojušu serveri. Tas ir pagaidu risinājums, un serveris ir jākonfigurē atkārtoti.
 
       Ieteicams migrēt serveru datus uz ECDHE šifra komplektiem. Ja tie nav pieejami, ir jābūt iespējotam šifra komplektam, izmantojot RSA atslēgu apmaiņu.</translation>
-<translation id="3117706142826400449">Ja šī politika ir atspējota, tiek novērsta Chrome tīrīšana (netiek pārmeklēta sistēma, lai atrastu nevēlamu programmatūru, un netiek veikta tīrīšana). Chrome tīrīšanas manuāla aktivizēšana no lapas chrome://settings/cleanup ir atspējota.
+<translation id="3117706142826400449">Ja šī politika ir atspējota, tiek novērsta Chrome tīrīšana (netiek pārmeklēta sistēma, lai atrastu nevēlamu programmatūru, un netiek veikta tīrīšana). Chrome tīrīšanas manuāla aktivizēšana no lapas decentr://settings/cleanup ir atspējota.
 
-      Ja šī politika ir iespējota vai nav iestatīta, Chrome tīrīšana periodiski pārmeklē sistēmu, lai atrastu nevēlamu programmatūru, un, ja tādu atrod, vaicā lietotājam, vai to noņemt. Chrome tīrīšanas manuāla aktivizēšana no lapas chrome://settings ir iespējota.
+      Ja šī politika ir iespējota vai nav iestatīta, Chrome tīrīšana periodiski pārmeklē sistēmu, lai atrastu nevēlamu programmatūru, un, ja tādu atrod, vaicā lietotājam, vai to noņemt. Chrome tīrīšanas manuāla aktivizēšana no lapas decentr://settings ir iespējota.
 
       Šī politika ir pieejama tikai Windows instancēs, kas ir savienotas ar <ph name="MS_AD_NAME" /> domēnu, vai Windows 10 Pro vai Enterprise instancēs, kas ir reģistrētas ierīču pārvaldībai.</translation>
 <translation id="3152425128389603870">Atļaut vienoto darbvirsmu un ieslēgt to pēc noklusējuma</translation>
@@ -1299,7 +1299,7 @@
       Ja šis iestatījums ir iespējots vai nav konfigurēts, lietotāji var iespējot mākoņdrukas starpniekserveri, autentifikācijai izmantojot savu Google kontu.
 
       Ja šis iestatījums ir atspējots, lietotāji nevarēs iespējot starpniekserveri un ierīce nevarēs koplietot tai pievienotos printerus ar <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Iespējo lapu vietnē chrome://password-change, kas ļauj SAML lietotājiem mainīt viņu SAML paroles sesijas laikā, tādējādi nodrošinot, ka SAML parole un ierīces bloķēšanas ekrāna parole tiek sinhronizētas savā starpā.
+<translation id="3312206664202507568">Iespējo lapu vietnē decentr://password-change, kas ļauj SAML lietotājiem mainīt viņu SAML paroles sesijas laikā, tādējādi nodrošinot, ka SAML parole un ierīces bloķēšanas ekrāna parole tiek sinhronizētas savā starpā.
 
       Šī politika arī iespējo paziņojumus, kas brīdina SAML lietotājus, ka to SAML paroļu derīguma termiņš drīz beigsies, lai lietotāji varētu nekavējoties rīkoties, veicot paroles maiņu sesijas laikā.
       Taču šie paziņojumi tiks parādīti tikai tad, ja SAML identitātes nodrošinātājs SAML pieteikšanās plūsmas laikā uz ierīci nosūtīs informāciju par paroles derīguma termiņu.
@@ -2057,7 +2057,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
       Šis politikas SitePerProcess iestatījums var tikt izmantots, lai neatļautu lietotājiem atteikties no noklusējuma rīcības — visu vietņu izolēšanas. Ņemiet vērā, ka politika IsolateOrigins var būt noderīga arī papildu detalizētāku vietņu izolēšanai.
       Ja politika ir iespējota, lietotāji nevarēs atteikties no noklusējuma rīcības, kad katrai vietnei tiek izpildīts atsevišķs process.
       Ja politika nav konfigurēta vai ir atspējota, lietotājs varēs atteikties no vietnes izolācijas
-      (piemēram, izmantojot ierakstu “Atspējot vietnes izolēšanu” vietnē chrome://flags).  Atspējojot politiku un/vai nekonfigurējot politiku, vietnes izolācija netiek izslēgta.
+      (piemēram, izmantojot ierakstu “Atspējot vietnes izolēšanu” vietnē decentr://flags).  Atspējojot politiku un/vai nekonfigurējot politiku, vietnes izolācija netiek izslēgta.
       Operētājsistēmas <ph name="PRODUCT_OS_NAME" /> 76. versijai un vecākām versijām šādu vērtību ieteicams iestatīt arī ierīces politikai <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" />. Ja abām politikām iestatītās vērtības nav vienādas, atverot lietotāja sesiju, var rasties aizkave, kamēr tiek piemērota lietotāja politikas vērtība.
 
       PIEZĪME. Šī politika neattiecas uz operētājsistēmu Android. Lai politiku SitePerProcess iespējotu operētājsistēmā Android, izmantojiet politikas SitePerProcessAndroid iestatījumu.
@@ -2948,7 +2948,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
 
           Ja iespējosiet šo iestatījumu, jaunas cilnes lapa vienmēr tiks izmantota kā sākumlapa un sākumlapas URL atrašanās vieta tiks ignorēta.
 
-          Ja atspējosiet šo iestatījumu, lietotāja sākumlapa nekad nebūs jaunas cilnes lapa, ja vien tai nav iestatīts URL chrome://newtab.
+          Ja atspējosiet šo iestatījumu, lietotāja sākumlapa nekad nebūs jaunas cilnes lapa, ja vien tai nav iestatīts URL decentr://newtab.
 
           Ja iespējosiet vai atspējosiet šo iestatījumu, lietotāji nevarēs mainīt sākumlapas veidu pārlūkprogrammā <ph name="PRODUCT_NAME" />.
 
@@ -3120,7 +3120,7 @@ Ja šai politikai ir iestatīta vērtība “Nepatiesa”, netiek sniegta inform
 
       Ja šai politikai ir iestatīta vērtība “false”, iebūvētais DNS klients nekad netiek izmantots.
 
-      Ja šī politika nav iestatīta, iebūvētais DNS klients tiek iespējots pēc noklusējuma sistēmā Mac OS, Android (kad nav iespējots privātais DNS vai VPN) un Chrome OS, un lietotāji var mainīt iebūvētā DNS klienta izmantošanas iestatījumu, veicot izmaiņas lapā chrome://flags vai norādot komandrindiņas karodziņu.</translation>
+      Ja šī politika nav iestatīta, iebūvētais DNS klients tiek iespējots pēc noklusējuma sistēmā Mac OS, Android (kad nav iespējots privātais DNS vai VPN) un Chrome OS, un lietotāji var mainīt iebūvētā DNS klienta izmantošanas iestatījumu, veicot izmaiņas lapā decentr://flags vai norādot komandrindiņas karodziņu.</translation>
 <translation id="6843296367238757293">Šī politika ir novecojusi. Nav ieteicams to lietot. Uzziniet vairāk šeit: https://support.google.com/chrome/a/answer/7643500.</translation>
 <translation id="684856667300805181">Šī politika tika noņemta <ph name="PRODUCT_NAME" /> 68 versijā, un to aizstāj politika <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Ar atjauninājumu M66 šai politikai tika pārtraukts atbalsts un tā tika noņemta, jo tā tika izmantota tikai iekšējai testēšanai un apdraud drošību.
@@ -3762,7 +3762,7 @@ Lietotāja fiziskās klātbūtnes noteikšanai tiek izmantota ierīces barošana
 <translation id="7941975817681987555">Neprognozēt tīkla darbības nevienā tīkla savienojumā</translation>
 <translation id="7952007677054834789">Konfigurē lapas, kas jāielādē startēšanas laikā, noklusējuma mājas lapu un noklusējuma jauno cilnes lapu pārlūkprogrammā <ph name="PRODUCT_NAME" /> un neļauj lietotājiem to mainīt.
 
-      Lietotāja sākumlapas iestatījumi ir pilnībā bloķēti tikai tad, ja sākumlapa ir iestatīta kā jaunas cilnes lapa vai kā URL un ir norādīts sākumlapas URL. Ja nav norādīts sākumlapas URL, lietotājs var iestatīt sākumlapu kā jaunas cilnes lapu, norādot adresi chrome://newtab.
+      Lietotāja sākumlapas iestatījumi ir pilnībā bloķēti tikai tad, ja sākumlapa ir iestatīta kā jaunas cilnes lapa vai kā URL un ir norādīts sākumlapas URL. Ja nav norādīts sākumlapas URL, lietotājs var iestatīt sākumlapu kā jaunas cilnes lapu, norādot adresi decentr://newtab.
 
       Politika “URL, kas jāatver startēšanas brīdī” tiek ignorēta, ja vien sadaļā “Darbība startēšanas brīdī” nav atlasīts iestatījums “Atvērt vietrāžu URL sarakstu”.</translation>
 <translation id="7952958573604504839">Šī politika ir novecojusi versijā M48 (tās vietā tiek izmantota politika <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />) un noņemta no versijas M54.

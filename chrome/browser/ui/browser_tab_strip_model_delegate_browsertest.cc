@@ -48,8 +48,8 @@ IN_PROC_BROWSER_TEST_F(BrowserTabStripModelDelegateTest, MoveTabsToNewWindow) {
   std::unique_ptr<TabStripModelDelegate> delegate =
       std::make_unique<BrowserTabStripModelDelegate>(browser());
 
-  GURL url1("chrome://version");
-  GURL url2("chrome://about");
+  GURL url1("decentr://version");
+  GURL url2("decentr://about");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url1));
 
   // Moving a tab from a single tab window to a new tab window is a no-op.
@@ -97,9 +97,9 @@ IN_PROC_BROWSER_TEST_F(BrowserTabStripModelDelegateTest,
   std::unique_ptr<TabStripModelDelegate> delegate =
       std::make_unique<BrowserTabStripModelDelegate>(browser());
 
-  GURL url1("chrome://version");
-  GURL url2("chrome://about");
-  GURL url3("chrome://terms");
+  GURL url1("decentr://version");
+  GURL url2("decentr://about");
+  GURL url3("decentr://terms");
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url1));
 
   // Moving a tab from a single tab window to a new tab window is a no-op.

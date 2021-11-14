@@ -14096,10 +14096,10 @@ Called by update_net_error_codes.py.-->
   <int value="2" label="http"/>
   <int value="3" label="https"/>
   <int value="4" label="file"/>
-  <int value="5" label="chrome-extension"/>
-  <int value="6" label="chrome-search"/>
-  <int value="7" label="chrome"/>
-  <int value="8" label="chrome-untrusted"/>
+  <int value="5" label="decentr-extension"/>
+  <int value="6" label="decentr-search"/>
+  <int value="7" label="decentr"/>
+  <int value="8" label="decentr-untrusted"/>
 </enum>
 
 <enum name="ContentSuggestionsBreakingNewsMessageAction">
@@ -57756,10 +57756,10 @@ Called by update_use_counter_css.py.-->
   <int value="9" label="blob"/>
   <int value="10" label="filesystem"/>
   <int value="11" label="chrome-native"/>
-  <int value="12" label="chrome-search"/>
+  <int value="12" label="decentr-search"/>
   <int value="13" label="chrome-distiller"/>
   <int value="14" label="chrome-devtools"/>
-  <int value="15" label="chrome-extension"/>
+  <int value="15" label="decentr-extension"/>
   <int value="16" label="view-source"/>
   <int value="17" label="externalfile"/>
 </enum>
@@ -61081,8 +61081,8 @@ Called by update_net_trust_anchors.py.-->
   <int value="3" label="https://"/>
   <int value="4" label="ftp://"/>
   <int value="5" label="file://"/>
-  <int value="6" label="chrome://"/>
-  <int value="7" label="chrome-extension://"/>
+  <int value="6" label="decentr://"/>
+  <int value="7" label="decentr-extension://"/>
   <int value="8" label="javascript://"/>
 </enum>
 
@@ -76299,7 +76299,7 @@ https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_2.7.1.pdf
 
 <enum name="SettingsSections">
   <summary>
-    A collection of sections from chrome://settings. Used for metrics about
+    A collection of sections from decentr://settings. Used for metrics about
     searching within the settings options.
   </summary>
   <int value="0" label="No Match Found"/>
@@ -88319,7 +88319,7 @@ others/histograms.xml -->
 <enum name="WebappUninstallSource">
   <int value="0" label="Unknown surface, potentially in ChromeOS"/>
   <int value="1" label="Menu item from the 3-dot menu of a WebApp window"/>
-  <int value="2" label="Context menu for a WebApp in chrome://apps"/>
+  <int value="2" label="Context menu for a WebApp in decentr://apps"/>
   <int value="3" label="Via OS Settings or Controls"/>
   <int value="4" label="Uninstalled from Sync"/>
   <int value="5" label="App management surface, currently ChromeOS-only"/>
@@ -89661,222 +89661,222 @@ Called by update_scheduler_enums.py.-->
 </enum>
 
 <enum name="WebUIUrlHashes">
-  <int value="-2103246641" label="chrome://signin-internals/"/>
-  <int value="-2061366287" label="chrome://dev-ui-loader/"/>
-  <int value="-2034706497" label="chrome://net-internals/"/>
-  <int value="-2031269077" label="chrome://signin-error/"/>
-  <int value="-2025866230" label="chrome://usb-internals/"/>
-  <int value="-2024468885" label="chrome://ntp-tiles-internals/"/>
-  <int value="-2020874093" label="chrome://lock-reauth/"/>
-  <int value="-1977692791" label="chrome://crash/"/>
-  <int value="-1949142440" label="chrome://smb-credentials-dialog/"/>
-  <int value="-1911971715" label="chrome://history/"/>
-  <int value="-1887206190" label="chrome://nfc-debug/"/>
-  <int value="-1825876526" label="chrome://delayeduithreadhang/"/>
-  <int value="-1808179141" label="chrome://password-manager-internals/"/>
-  <int value="-1777503123" label="chrome://thumb2/"/>
-  <int value="-1743341803" label="chrome://bookmarks/"/>
-  <int value="-1737358104" label="chrome://account-migration-welcome/"/>
-  <int value="-1729122580" label="chrome://chrome-urls/"/>
-  <int value="-1704400468" label="chrome://quit/"/>
-  <int value="-1700864659" label="chrome://slow/"/>
-  <int value="-1697612520" label="chrome://print-management/"/>
-  <int value="-1697077152" label="chrome://device-log/"/>
-  <int value="-1690355375" label="chrome://mobilesetup/"/>
-  <int value="-1681544613" label="chrome://print/"/>
-  <int value="-1649429396" label="chrome://chrome-signin/edu-coexistence/"/>
-  <int value="-1647734092" label="chrome://net-export/"/>
-  <int value="-1638649228" label="chrome://webapks/"/>
-  <int value="-1634933990" label="chrome://web-footer-experiment/"/>
-  <int value="-1591890659" label="chrome://syncfs-internals/"/>
-  <int value="-1493822642" label="chrome://invalidations/"/>
-  <int value="-1493762713" label="chrome://settings/cookies/"/>
-  <int value="-1475777739" label="chrome://physical-web-diagnostics/"/>
-  <int value="-1440785181" label="chrome://profile-signin-confirmation/"/>
-  <int value="-1423026122" label="chrome://md-user-manager/"/>
-  <int value="-1401057585" label="chrome://account-manager-error/"/>
-  <int value="-1398642514" label="chrome://gesture/"/>
-  <int value="-1382906531" label="chrome://managed-user-passphrase/"/>
-  <int value="-1379571130" label="chrome://newtab/"/>
-  <int value="-1378421581" label="chrome://media-router/"/>
-  <int value="-1331415629" label="chrome://os-settings/"/>
-  <int value="-1313432739" label="chrome://plugins/"/>
-  <int value="-1259871417" label="chrome://browser-switch/"/>
-  <int value="-1239015343" label="chrome://kill/"/>
-  <int value="-1224398205" label="chrome://prefs-internals/"/>
-  <int value="-1203248739" label="chrome://scanning/"/>
-  <int value="-1198437953" label="chrome://download-shelf.top-chrome/"/>
-  <int value="-1169621742" label="chrome://linux-proxy-config/"/>
-  <int value="-1137946367" label="chrome://webrt-logs/"/>
-  <int value="-1108319739" label="chrome://sync-internals/"/>
-  <int value="-1087461470" label="chrome://management/"/>
-  <int value="-1082746738" label="chrome://credits/"/>
-  <int value="-1078583150" label="chrome://view-cert-dialog/"/>
-  <int value="-1043041749" label="chrome://offline-internals/"/>
-  <int value="-986409800" label="chrome://identity-internals/"/>
-  <int value="-969979971" label="chrome://sandbox/"/>
-  <int value="-946383082" label="chrome://translate-internals/"/>
-  <int value="-940484840" label="chrome://arc-power-control/"/>
-  <int value="-936786926" label="chrome://settings/"/>
-  <int value="-907485548" label="chrome://policy-tool/"/>
-  <int value="-905972126" label="chrome://signin-email-confirmation/"/>
-  <int value="-902637811" label="chrome://appcache-internals/"/>
-  <int value="-892484505" label="chrome://sys-internals/"/>
-  <int value="-891260101" label="chrome://inspect/"/>
-  <int value="-853789543" label="chrome://bluetooth-pairing/"/>
-  <int value="-823585847" label="chrome://chrome-signin/"/>
-  <int value="-756514973" label="chrome://version/"/>
-  <int value="-753390931" label="chrome://interstitials/"/>
-  <int value="-734627230" label="chrome://extension-icon/"/>
-  <int value="-727952446" label="chrome://nacl/"/>
-  <int value="-707542503" label="chrome://choose-mobile-network/"/>
-  <int value="-672072143" label="chrome://site-engagement/"/>
-  <int value="-661305899" label="chrome://set-time/"/>
-  <int value="-652517395" label="chrome://signin-reauth/"/>
-  <int value="-644310325" label="chrome://os-credits/"/>
-  <int value="-631384656" label="chrome://assistant-optin/"/>
+  <int value="-2103246641" label="decentr://signin-internals/"/>
+  <int value="-2061366287" label="decentr://dev-ui-loader/"/>
+  <int value="-2034706497" label="decentr://net-internals/"/>
+  <int value="-2031269077" label="decentr://signin-error/"/>
+  <int value="-2025866230" label="decentr://usb-internals/"/>
+  <int value="-2024468885" label="decentr://ntp-tiles-internals/"/>
+  <int value="-2020874093" label="decentr://lock-reauth/"/>
+  <int value="-1977692791" label="decentr://crash/"/>
+  <int value="-1949142440" label="decentr://smb-credentials-dialog/"/>
+  <int value="-1911971715" label="decentr://history/"/>
+  <int value="-1887206190" label="decentr://nfc-debug/"/>
+  <int value="-1825876526" label="decentr://delayeduithreadhang/"/>
+  <int value="-1808179141" label="decentr://password-manager-internals/"/>
+  <int value="-1777503123" label="decentr://thumb2/"/>
+  <int value="-1743341803" label="decentr://bookmarks/"/>
+  <int value="-1737358104" label="decentr://account-migration-welcome/"/>
+  <int value="-1729122580" label="decentr://chrome-urls/"/>
+  <int value="-1704400468" label="decentr://quit/"/>
+  <int value="-1700864659" label="decentr://slow/"/>
+  <int value="-1697612520" label="decentr://print-management/"/>
+  <int value="-1697077152" label="decentr://device-log/"/>
+  <int value="-1690355375" label="decentr://mobilesetup/"/>
+  <int value="-1681544613" label="decentr://print/"/>
+  <int value="-1649429396" label="decentr://chrome-signin/edu-coexistence/"/>
+  <int value="-1647734092" label="decentr://net-export/"/>
+  <int value="-1638649228" label="decentr://webapks/"/>
+  <int value="-1634933990" label="decentr://web-footer-experiment/"/>
+  <int value="-1591890659" label="decentr://syncfs-internals/"/>
+  <int value="-1493822642" label="decentr://invalidations/"/>
+  <int value="-1493762713" label="decentr://settings/cookies/"/>
+  <int value="-1475777739" label="decentr://physical-web-diagnostics/"/>
+  <int value="-1440785181" label="decentr://profile-signin-confirmation/"/>
+  <int value="-1423026122" label="decentr://md-user-manager/"/>
+  <int value="-1401057585" label="decentr://account-manager-error/"/>
+  <int value="-1398642514" label="decentr://gesture/"/>
+  <int value="-1382906531" label="decentr://managed-user-passphrase/"/>
+  <int value="-1379571130" label="decentr://newtab/"/>
+  <int value="-1378421581" label="decentr://media-router/"/>
+  <int value="-1331415629" label="decentr://os-settings/"/>
+  <int value="-1313432739" label="decentr://plugins/"/>
+  <int value="-1259871417" label="decentr://browser-switch/"/>
+  <int value="-1239015343" label="decentr://kill/"/>
+  <int value="-1224398205" label="decentr://prefs-internals/"/>
+  <int value="-1203248739" label="decentr://scanning/"/>
+  <int value="-1198437953" label="decentr://download-shelf.top-chrome/"/>
+  <int value="-1169621742" label="decentr://linux-proxy-config/"/>
+  <int value="-1137946367" label="decentr://webrt-logs/"/>
+  <int value="-1108319739" label="decentr://sync-internals/"/>
+  <int value="-1087461470" label="decentr://management/"/>
+  <int value="-1082746738" label="decentr://credits/"/>
+  <int value="-1078583150" label="decentr://view-cert-dialog/"/>
+  <int value="-1043041749" label="decentr://offline-internals/"/>
+  <int value="-986409800" label="decentr://identity-internals/"/>
+  <int value="-969979971" label="decentr://sandbox/"/>
+  <int value="-946383082" label="decentr://translate-internals/"/>
+  <int value="-940484840" label="decentr://arc-power-control/"/>
+  <int value="-936786926" label="decentr://settings/"/>
+  <int value="-907485548" label="decentr://policy-tool/"/>
+  <int value="-905972126" label="decentr://signin-email-confirmation/"/>
+  <int value="-902637811" label="decentr://appcache-internals/"/>
+  <int value="-892484505" label="decentr://sys-internals/"/>
+  <int value="-891260101" label="decentr://inspect/"/>
+  <int value="-853789543" label="decentr://bluetooth-pairing/"/>
+  <int value="-823585847" label="decentr://chrome-signin/"/>
+  <int value="-756514973" label="decentr://version/"/>
+  <int value="-753390931" label="decentr://interstitials/"/>
+  <int value="-734627230" label="decentr://extension-icon/"/>
+  <int value="-727952446" label="decentr://nacl/"/>
+  <int value="-707542503" label="decentr://choose-mobile-network/"/>
+  <int value="-672072143" label="decentr://site-engagement/"/>
+  <int value="-661305899" label="decentr://set-time/"/>
+  <int value="-652517395" label="decentr://signin-reauth/"/>
+  <int value="-644310325" label="decentr://os-credits/"/>
+  <int value="-631384656" label="decentr://assistant-optin/"/>
   <int value="-624584089"
-      label="chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/ (Bookmark
+      label="decentr-extension://eemcgdkfndhakfknompkggombfjjjeno/ (Bookmark
              Manager)"/>
-  <int value="-623121238" label="chrome://arc-graphics-tracing/"/>
-  <int value="-614294009" label="chrome://crostini-credits/"/>
-  <int value="-606058756" label="chrome://accessibility/"/>
-  <int value="-566908909" label="chrome://suggestions/"/>
-  <int value="-548156607" label="chrome://feedback/"/>
-  <int value="-528306235" label="chrome://sync/"/>
-  <int value="-516792794" label="chrome://downloads/"/>
-  <int value="-512782085" label="chrome://salsa/"/>
-  <int value="-511253776" label="chrome://snippets-internals/"/>
-  <int value="-485494550" label="chrome://interventions-internals/"/>
-  <int value="-451371558" label="chrome://serviceworker-internals/"/>
-  <int value="-443189279" label="chrome://enterprise-profile-welcome/"/>
-  <int value="-394586044" label="chrome://confirm-password-change/"/>
-  <int value="-377028639" label="chrome://copresence/"/>
-  <int value="-359703631" label="chrome://slow_trace/"/>
-  <int value="-245337017" label="chrome://user-actions/"/>
-  <int value="-206925255" label="chrome://popular-sites-internals/"/>
-  <int value="-176639700" label="chrome://omnibox/"/>
-  <int value="-106823253" label="chrome://conflicts/"/>
-  <int value="-90956977" label="chrome://dns/"/>
-  <int value="-89853739" label="chrome://thumbnails/"/>
-  <int value="-88246682" label="chrome://uithreadhang/"/>
-  <int value="-68100096" label="chrome://welcome-win10/"/>
-  <int value="-42737706" label="chrome://extensions-frame/"/>
-  <int value="-12304525" label="chrome://tab-strip/"/>
-  <int value="-2353438" label="chrome://sim-unlock/"/>
-  <int value="1377205" label="chrome://history-frame/"/>
-  <int value="9727114" label="chrome://favicon/"/>
-  <int value="14651785" label="chrome://download-internals/"/>
-  <int value="34035361" label="chrome://apps/"/>
-  <int value="43923599" label="chrome://tracing/"/>
-  <int value="47779771" label="chrome://media-router-internals/"/>
-  <int value="48333657" label="chrome://about/"/>
-  <int value="58807865" label="chrome://local-state/"/>
-  <int value="84832110" label="chrome://fileicon/"/>
-  <int value="112165789" label="chrome://device-emulator/"/>
+  <int value="-623121238" label="decentr://arc-graphics-tracing/"/>
+  <int value="-614294009" label="decentr://crostini-credits/"/>
+  <int value="-606058756" label="decentr://accessibility/"/>
+  <int value="-566908909" label="decentr://suggestions/"/>
+  <int value="-548156607" label="decentr://feedback/"/>
+  <int value="-528306235" label="decentr://sync/"/>
+  <int value="-516792794" label="decentr://downloads/"/>
+  <int value="-512782085" label="decentr://salsa/"/>
+  <int value="-511253776" label="decentr://snippets-internals/"/>
+  <int value="-485494550" label="decentr://interventions-internals/"/>
+  <int value="-451371558" label="decentr://serviceworker-internals/"/>
+  <int value="-443189279" label="decentr://enterprise-profile-welcome/"/>
+  <int value="-394586044" label="decentr://confirm-password-change/"/>
+  <int value="-377028639" label="decentr://copresence/"/>
+  <int value="-359703631" label="decentr://slow_trace/"/>
+  <int value="-245337017" label="decentr://user-actions/"/>
+  <int value="-206925255" label="decentr://popular-sites-internals/"/>
+  <int value="-176639700" label="decentr://omnibox/"/>
+  <int value="-106823253" label="decentr://conflicts/"/>
+  <int value="-90956977" label="decentr://dns/"/>
+  <int value="-89853739" label="decentr://thumbnails/"/>
+  <int value="-88246682" label="decentr://uithreadhang/"/>
+  <int value="-68100096" label="decentr://welcome-win10/"/>
+  <int value="-42737706" label="decentr://extensions-frame/"/>
+  <int value="-12304525" label="decentr://tab-strip/"/>
+  <int value="-2353438" label="decentr://sim-unlock/"/>
+  <int value="1377205" label="decentr://history-frame/"/>
+  <int value="9727114" label="decentr://favicon/"/>
+  <int value="14651785" label="decentr://download-internals/"/>
+  <int value="34035361" label="decentr://apps/"/>
+  <int value="43923599" label="decentr://tracing/"/>
+  <int value="47779771" label="decentr://media-router-internals/"/>
+  <int value="48333657" label="decentr://about/"/>
+  <int value="58807865" label="decentr://local-state/"/>
+  <int value="84832110" label="decentr://fileicon/"/>
+  <int value="112165789" label="decentr://device-emulator/"/>
   <int value="114748825" label="chrome-devtools://devtools/"/>
-  <int value="164517522" label="chrome://discards/"/>
-  <int value="171659041" label="chrome://webrtc-device-provider/"/>
-  <int value="253258497" label="chrome://components/"/>
-  <int value="259900466" label="chrome://signin-dice-web-intercept/"/>
-  <int value="260253931" label="chrome://devices/"/>
-  <int value="275260142" label="chrome://eoc-internals/"/>
-  <int value="325375649" label="chrome://settings-frame/"/>
-  <int value="361250371" label="chrome://nearby/"/>
-  <int value="361621847" label="chrome://make-metro/"/>
-  <int value="399773145" label="chrome://commander/"/>
-  <int value="436626245" label="chrome://settings/content/cookies/"/>
-  <int value="454041716" label="chrome://new-tab-page-third-party/"/>
-  <int value="461287992" label="chrome://help/"/>
-  <int value="507734656" label="chrome://profile-customization/"/>
-  <int value="520299179" label="chrome://media-engagement/"/>
-  <int value="554090510" label="chrome://first-run/"/>
-  <int value="581234974" label="chrome://tcmalloc/"/>
-  <int value="584098160" label="chrome://profile-picker/"/>
-  <int value="607659257" label="chrome://cast/"/>
-  <int value="634002171" label="chrome://projector-selfie-cam/"/>
-  <int value="646837226" label="chrome://crashes/"/>
-  <int value="659389881" label="chrome://gpu/"/>
-  <int value="662045902" label="chrome://smb-share-dialog/"/>
-  <int value="689991895" label="chrome://supervised-user-internals/"/>
-  <int value="742272091" label="chrome://extensions/"/>
-  <int value="748142712" label="chrome://crostini-upgrader/"/>
-  <int value="749881882" label="chrome://webuijserror/"/>
-  <int value="754315733" label="chrome://theme/"/>
-  <int value="784140714" label="chrome://predictors/"/>
-  <int value="812624791" label="chrome://dom-distiller/"/>
-  <int value="821023334" label="chrome://screenlock-icon/"/>
-  <int value="864711974" label="chrome://emoji-picker/"/>
-  <int value="894368493" label="chrome://internet-config-dialog/"/>
-  <int value="911597664" label="chrome://multidevice-setup/"/>
-  <int value="918960088" label="chrome://instant/"/>
-  <int value="943766809" label="chrome://view-cert/"/>
-  <int value="977219287" label="chrome://memory/"/>
-  <int value="985294599" label="chrome://webrtc-logs/"/>
-  <int value="1050328415" label="chrome://diagnostics/"/>
-  <int value="1055519744" label="chrome://webrtc-internals/"/>
-  <int value="1066907868" label="chrome://physical-web/"/>
-  <int value="1109407387" label="chrome://keyboardoverlay/"/>
-  <int value="1131405887" label="chrome://taskscheduler-internals/"/>
-  <int value="1134924982" label="chrome://app-icon/"/>
-  <int value="1145000455" label="chrome://arc-overview-tracing/"/>
-  <int value="1148733422" label="chrome://restart/"/>
-  <int value="1211642987" label="chrome://voicesearch/"/>
-  <int value="1213428635" label="chrome://memory-redirect/"/>
-  <int value="1214710734" label="chrome://welcome/"/>
-  <int value="1221097359" label="chrome://constrained-test/"/>
-  <int value="1272316136" label="chrome://image/"/>
-  <int value="1281801197" label="chrome://terms/"/>
-  <int value="1286620182" label="chrome://reset-password/"/>
-  <int value="1306215264" label="chrome://activationmessage/"/>
-  <int value="1326111536" label="chrome://new-tab-page/"/>
-  <int value="1340926535" label="chrome://network/"/>
-  <int value="1354146226" label="chrome://tab-modal-confirm-dialog/"/>
-  <int value="1356087814" label="chrome://add-supervision/"/>
-  <int value="1371905827" label="chrome://flags/"/>
-  <int value="1396129399" label="chrome://flash/"/>
-  <int value="1397728473" label="chrome://crostini-installer/"/>
-  <int value="1399992914" label="chrome://java-crash/"/>
-  <int value="1403605293" label="chrome://internet-detail-dialog/"/>
-  <int value="1411665301" label="chrome://lock-network/"/>
-  <int value="1427179406" label="chrome://gcm-internals/"/>
-  <int value="1454088830" label="chrome://uber-frame/"/>
-  <int value="1457759734" label="chrome://user-manager/"/>
-  <int value="1463418339" label="chrome://proximity-auth/"/>
-  <int value="1466599095" label="chrome://oobe/"/>
-  <int value="1467342679" label="chrome://memory-internals/"/>
-  <int value="1476643520" label="chrome://internet-detail-dialog/"/>
+  <int value="164517522" label="decentr://discards/"/>
+  <int value="171659041" label="decentr://webrtc-device-provider/"/>
+  <int value="253258497" label="decentr://components/"/>
+  <int value="259900466" label="decentr://signin-dice-web-intercept/"/>
+  <int value="260253931" label="decentr://devices/"/>
+  <int value="275260142" label="decentr://eoc-internals/"/>
+  <int value="325375649" label="decentr://settings-frame/"/>
+  <int value="361250371" label="decentr://nearby/"/>
+  <int value="361621847" label="decentr://make-metro/"/>
+  <int value="399773145" label="decentr://commander/"/>
+  <int value="436626245" label="decentr://settings/content/cookies/"/>
+  <int value="454041716" label="decentr://new-tab-page-third-party/"/>
+  <int value="461287992" label="decentr://help/"/>
+  <int value="507734656" label="decentr://profile-customization/"/>
+  <int value="520299179" label="decentr://media-engagement/"/>
+  <int value="554090510" label="decentr://first-run/"/>
+  <int value="581234974" label="decentr://tcmalloc/"/>
+  <int value="584098160" label="decentr://profile-picker/"/>
+  <int value="607659257" label="decentr://cast/"/>
+  <int value="634002171" label="decentr://projector-selfie-cam/"/>
+  <int value="646837226" label="decentr://crashes/"/>
+  <int value="659389881" label="decentr://gpu/"/>
+  <int value="662045902" label="decentr://smb-share-dialog/"/>
+  <int value="689991895" label="decentr://supervised-user-internals/"/>
+  <int value="742272091" label="decentr://extensions/"/>
+  <int value="748142712" label="decentr://crostini-upgrader/"/>
+  <int value="749881882" label="decentr://webuijserror/"/>
+  <int value="754315733" label="decentr://theme/"/>
+  <int value="784140714" label="decentr://predictors/"/>
+  <int value="812624791" label="decentr://dom-distiller/"/>
+  <int value="821023334" label="decentr://screenlock-icon/"/>
+  <int value="864711974" label="decentr://emoji-picker/"/>
+  <int value="894368493" label="decentr://internet-config-dialog/"/>
+  <int value="911597664" label="decentr://multidevice-setup/"/>
+  <int value="918960088" label="decentr://instant/"/>
+  <int value="943766809" label="decentr://view-cert/"/>
+  <int value="977219287" label="decentr://memory/"/>
+  <int value="985294599" label="decentr://webrtc-logs/"/>
+  <int value="1050328415" label="decentr://diagnostics/"/>
+  <int value="1055519744" label="decentr://webrtc-internals/"/>
+  <int value="1066907868" label="decentr://physical-web/"/>
+  <int value="1109407387" label="decentr://keyboardoverlay/"/>
+  <int value="1131405887" label="decentr://taskscheduler-internals/"/>
+  <int value="1134924982" label="decentr://app-icon/"/>
+  <int value="1145000455" label="decentr://arc-overview-tracing/"/>
+  <int value="1148733422" label="decentr://restart/"/>
+  <int value="1211642987" label="decentr://voicesearch/"/>
+  <int value="1213428635" label="decentr://memory-redirect/"/>
+  <int value="1214710734" label="decentr://welcome/"/>
+  <int value="1221097359" label="decentr://constrained-test/"/>
+  <int value="1272316136" label="decentr://image/"/>
+  <int value="1281801197" label="decentr://terms/"/>
+  <int value="1286620182" label="decentr://reset-password/"/>
+  <int value="1306215264" label="decentr://activationmessage/"/>
+  <int value="1326111536" label="decentr://new-tab-page/"/>
+  <int value="1340926535" label="decentr://network/"/>
+  <int value="1354146226" label="decentr://tab-modal-confirm-dialog/"/>
+  <int value="1356087814" label="decentr://add-supervision/"/>
+  <int value="1371905827" label="decentr://flags/"/>
+  <int value="1396129399" label="decentr://flash/"/>
+  <int value="1397728473" label="decentr://crostini-installer/"/>
+  <int value="1399992914" label="decentr://java-crash/"/>
+  <int value="1403605293" label="decentr://internet-detail-dialog/"/>
+  <int value="1411665301" label="decentr://lock-network/"/>
+  <int value="1427179406" label="decentr://gcm-internals/"/>
+  <int value="1454088830" label="decentr://uber-frame/"/>
+  <int value="1457759734" label="decentr://user-manager/"/>
+  <int value="1463418339" label="decentr://proximity-auth/"/>
+  <int value="1466599095" label="decentr://oobe/"/>
+  <int value="1467342679" label="decentr://memory-internals/"/>
+  <int value="1476643520" label="decentr://internet-detail-dialog/"/>
   <int value="1506419762" label="devtools://devtools/"/>
   <int value="1531448147"
-      label="chrome://urgent-password-expiry-notification/"/>
-  <int value="1540230808" label="chrome://power/"/>
-  <int value="1554928128" label="chrome://sync-confirmation/?consent-bump"/>
-  <int value="1568301017" label="chrome://media-internals/"/>
-  <int value="1585293659" label="chrome://system/"/>
-  <int value="1603463396" label="chrome://help-frame/"/>
-  <int value="1615939424" label="chrome://chrome/"/>
-  <int value="1628875649" label="chrome://quota-internals/"/>
-  <int value="1631369147" label="chrome://domain-reliability-internals/"/>
-  <int value="1662453825" label="chrome://indexeddb-internals/"/>
-  <int value="1673299360" label="chrome://tab-search.top-chrome/"/>
-  <int value="1677735296" label="chrome://sync-confirmation/"/>
-  <int value="1687272877" label="chrome://syncresources/"/>
-  <int value="1725906496" label="chrome://imageburner/"/>
-  <int value="1765337366" label="chrome://certificate-manager/"/>
-  <int value="1776179126" label="chrome://thumb/"/>
-  <int value="1797107942" label="chrome://md-settings/"/>
-  <int value="1834776370" label="chrome://password-change/"/>
-  <int value="1887784693" label="chrome://policy/"/>
-  <int value="1926101309" label="chrome://cryptohome/"/>
-  <int value="1928106753" label="chrome://app-disabled/"/>
-  <int value="1961263039" label="chrome://profiler/"/>
-  <int value="1963964324" label="chrome://read-later.top-chrome/"/>
-  <int value="1975618905" label="chrome://app-list/"/>
-  <int value="2040878656" label="chrome://bluetooth-internals/"/>
-  <int value="2052019697" label="chrome://userimage/"/>
-  <int value="2114840772" label="chrome://drive-internals/"/>
-  <int value="2120829362" label="chrome://account-manager-welcome/"/>
-  <int value="3251925547" label="chrome://offline-internals/"/>
+      label="decentr://urgent-password-expiry-notification/"/>
+  <int value="1540230808" label="decentr://power/"/>
+  <int value="1554928128" label="decentr://sync-confirmation/?consent-bump"/>
+  <int value="1568301017" label="decentr://media-internals/"/>
+  <int value="1585293659" label="decentr://system/"/>
+  <int value="1603463396" label="decentr://help-frame/"/>
+  <int value="1615939424" label="decentr://chrome/"/>
+  <int value="1628875649" label="decentr://quota-internals/"/>
+  <int value="1631369147" label="decentr://domain-reliability-internals/"/>
+  <int value="1662453825" label="decentr://indexeddb-internals/"/>
+  <int value="1673299360" label="decentr://tab-search.top-chrome/"/>
+  <int value="1677735296" label="decentr://sync-confirmation/"/>
+  <int value="1687272877" label="decentr://syncresources/"/>
+  <int value="1725906496" label="decentr://imageburner/"/>
+  <int value="1765337366" label="decentr://certificate-manager/"/>
+  <int value="1776179126" label="decentr://thumb/"/>
+  <int value="1797107942" label="decentr://md-settings/"/>
+  <int value="1834776370" label="decentr://password-change/"/>
+  <int value="1887784693" label="decentr://policy/"/>
+  <int value="1926101309" label="decentr://cryptohome/"/>
+  <int value="1928106753" label="decentr://app-disabled/"/>
+  <int value="1961263039" label="decentr://profiler/"/>
+  <int value="1963964324" label="decentr://read-later.top-chrome/"/>
+  <int value="1975618905" label="decentr://app-list/"/>
+  <int value="2040878656" label="decentr://bluetooth-internals/"/>
+  <int value="2052019697" label="decentr://userimage/"/>
+  <int value="2114840772" label="decentr://drive-internals/"/>
+  <int value="2120829362" label="decentr://account-manager-welcome/"/>
+  <int value="3251925547" label="decentr://offline-internals/"/>
 </enum>
 
 <enum name="WebURLRequestPriority">

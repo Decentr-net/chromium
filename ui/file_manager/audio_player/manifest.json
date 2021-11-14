@@ -1,5 +1,5 @@
 {
-  // chrome-extension://cjbfomnbifhcdnihkgipgfcihmgjfhbf/
+  // decentr-extension://cjbfomnbifhcdnihkgipgfcihmgjfhbf/
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsU2jLo1oiASjXO+/+qYfgojW4Y5TCIBNFzcAdxaF78BRteygWkJqbUVyGZxtSk/RDe3NdNyQCxsyU1YfYXZQvGRNDwKw5tzGyE4dcedveipaJW174VGd3GViS0WWist3HRxfYRZvRP5E8l/4NxXB0+crfq2WolO8La25js1QkCsggQ1lC8g24NRrPnTAWZxvSD6L64R0UoVoe68HdC4mRISe9/OqjyiAfb4Ajgooq8dyzkV8AJTKRjFTmYPlcc5Ba21rXzRt22TnDh2U38m/OEvTu69cyTIxAkBjUa/2gu7N588k9XzaMhTjiolSWxBDQuLZRp8fNjO0R27jouo3FwIDAQAB",
   "manifest_version": 2,
   "name": "Audio Player",
@@ -27,8 +27,8 @@
     "fullscreen",
     "power",
     "storage",
-    "chrome://resources/",
-    "chrome://theme/"
+    "decentr://resources/",
+    "decentr://theme/"
   ],
   "file_handlers": {
     "audio": {
@@ -47,6 +47,6 @@
     "background": {
       "page": "background.html"
     },
-    "content_security_policy": "default-src 'none'; script-src 'self' blob: filesystem: chrome://resources chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj; style-src 'self' blob: filesystem: chrome://resources 'unsafe-inline'; img-src 'self' blob: filesystem: chrome://theme chrome://resources data: https://www.googledrive.com; media-src 'self' blob: filesystem:; connect-src chrome://resources ; object-src 'self' blob: filesystem:; font-src chrome://resources;"
+    "content_security_policy": "default-src 'none'; script-src 'self' blob: filesystem: decentr://resources decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj; style-src 'self' blob: filesystem: decentr://resources 'unsafe-inline'; img-src 'self' blob: filesystem: decentr://theme decentr://resources data: https://www.googledrive.com; media-src 'self' blob: filesystem:; connect-src decentr://resources ; object-src 'self' blob: filesystem:; font-src decentr://resources;"
   }
 }

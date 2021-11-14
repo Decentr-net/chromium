@@ -86,7 +86,7 @@ class MemoryTracingBrowserTest : public InProcessBrowserTest {
                                run_loop.QuitClosure())));
 
     // Create and destroy renderers while tracing is enabled.
-    GURL url2("chrome://credits");
+    GURL url2("decentr://credits");
     ui_test_utils::NavigateToURLWithDisposition(
         browser(), url2, WindowOpenDisposition::NEW_FOREGROUND_TAB,
         ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP);
@@ -95,7 +95,7 @@ class MemoryTracingBrowserTest : public InProcessBrowserTest {
     // Close the current tab.
     browser()->tab_strip_model()->CloseSelectedTabs();
 
-    GURL url3("chrome://chrome-urls");
+    GURL url3("decentr://chrome-urls");
     ui_test_utils::NavigateToURLWithDisposition(
         browser(), url3, WindowOpenDisposition::CURRENT_TAB,
         ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP);

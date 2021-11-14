@@ -193,7 +193,7 @@ class PolymerModulizerTest(unittest.TestCase):
         [
             '../../html/polymer.html',
             'import {Polymer, html} from \'//resources/polymer/v3_0/polymer/polymer_bundled.min.js\';',
-            'import {Polymer, html} from \'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js\';',
+            'import {Polymer, html} from \'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js\';',
         ],
         # Case where relative path to file in the same folder is used.
         [
@@ -214,32 +214,32 @@ class PolymerModulizerTest(unittest.TestCase):
             'import {Foo} from \'../../js/foo.m.js\';',
         ],
 
-        # chrome:// paths cases.
+        # decentr:// paths cases.
         # Case where absolute path to a Polymer UI element is used.
         [
-            'chrome://resources/polymer/v1_0/path/to/folder/foo.html',
+            'decentr://resources/polymer/v1_0/path/to/folder/foo.html',
             'import \'//resources/polymer/v3_0/path/to/folder/foo.js\';',
-            'import \'chrome://resources/polymer/v3_0/path/to/folder/foo.js\';',
+            'import \'decentr://resources/polymer/v3_0/path/to/folder/foo.js\';',
         ],
-        # Case where chrome:// path to polymer.html is used.
+        # Case where decentr:// path to polymer.html is used.
         [
-            'chrome://resources/html/polymer.html',
+            'decentr://resources/html/polymer.html',
             'import {Polymer, html} from \'//resources/polymer/v3_0/polymer/polymer_bundled.min.js\';',
-            'import {Polymer, html} from \'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js\';',
+            'import {Polymer, html} from \'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js\';',
         ],
-        # Case where chrome://resources/html/ path to something other than
+        # Case where decentr://resources/html/ path to something other than
         # polymer.html is used.
         [
-            'chrome://resources/html/bar.html',
+            'decentr://resources/html/bar.html',
             'import \'//resources/js/bar.m.js\';',
-            'import \'chrome://resources/js/bar.m.js\';',
+            'import \'decentr://resources/js/bar.m.js\';',
         ],
 
-        # chrome-extension:// paths cases.
+        # decentr-extension:// paths cases.
         [
-            'chrome-extension://path/to/folder/foo.html',
+            'decentr-extension://path/to/folder/foo.html',
             'import \'//path/to/folder/foo.m.js\';',
-            'import \'chrome-extension://path/to/folder/foo.m.js\';',
+            'import \'decentr-extension://path/to/folder/foo.m.js\';',
         ],
 
         # Scheme-relative paths cases.

@@ -9,7 +9,7 @@
 # Appends a console warning about using pre-JS module files.
 #
 # This script is intentionally very simple and is intended only to support
-# legacy UIs that are not served from a standard chrome:// URL and therefore
+# legacy UIs that are not served from a standard decentr:// URL and therefore
 # need to inline all scripts into a single HTML file. It does not, for example,
 # restore other deprecated patterns like cr.define().
 

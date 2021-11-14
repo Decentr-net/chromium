@@ -15,13 +15,13 @@ TEST(AppTimeLimitUtils, IsValidExtensionUrl) {
   EXPECT_FALSE(IsValidExtensionUrl(GURL("https://chromium.org")));
   EXPECT_FALSE(IsValidExtensionUrl(GURL("http://example.org")));
   EXPECT_TRUE(IsValidExtensionUrl(
-      GURL("chrome-extension://oafaagfgbdpldilgjjfjocjglfbolmac")));
+      GURL("decentr-extension://oafaagfgbdpldilgjjfjocjglfbolmac")));
   EXPECT_FALSE(IsValidExtensionUrl(GURL("ftp://www.chromium.org")));
-  EXPECT_FALSE(IsValidExtensionUrl(GURL("chrome://flags")));
+  EXPECT_FALSE(IsValidExtensionUrl(GURL("decentr://flags")));
   EXPECT_FALSE(IsValidExtensionUrl(GURL("about:blank")));
   EXPECT_FALSE(
       IsValidExtensionUrl(GURL("file://mhjfbmdgcfjbbpaeojofohoefgiehjai")));
-  EXPECT_FALSE(IsValidExtensionUrl(GURL("chrome://extensions")));
+  EXPECT_FALSE(IsValidExtensionUrl(GURL("decentr://extensions")));
   EXPECT_FALSE(IsValidExtensionUrl(
       GURL("filesystem:http://example.com/path/file.html")));
 }

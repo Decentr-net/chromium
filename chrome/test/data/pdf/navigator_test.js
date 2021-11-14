@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {TestBrowserProxy} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/webui/test_browser_proxy.js';
-import {NavigatorDelegate, OpenPdfParamsParser, PdfNavigator, PDFScriptingAPI, WindowOpenDisposition} from 'chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
+import {TestBrowserProxy} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/_test_resources/webui/test_browser_proxy.js';
+import {NavigatorDelegate, OpenPdfParamsParser, PdfNavigator, PDFScriptingAPI, WindowOpenDisposition} from 'decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai/pdf_viewer_wrapper.js';
 
 import {getZoomableViewport, MockDocumentDimensions, MockElement, MockSizer, MockViewportChangedCallback} from './test_util.js';
 
@@ -252,7 +252,7 @@ const tests = [
     // From non-file: to file:
     await doNavigationUrlTests(url, 'file:///bar.pdf', undefined);
 
-    await doNavigationUrlTests(url, 'chrome://version', undefined);
+    await doNavigationUrlTests(url, 'decentr://version', undefined);
 
     await doNavigationUrlTests(
         url, 'javascript:// this is not a document.pdf', undefined);

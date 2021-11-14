@@ -1,5 +1,5 @@
 {
-  // chrome-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai
+  // decentr-extension://mhjfbmdgcfjbbpaeojofohoefgiehjai
   "manifest_version": 2,
   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDN6hM0rsDYGbzQPQfOygqlRtQgKUXMfnSjhIBL7LnReAVBEd7ZmKtyN2qmSasMl4HZpMhVe2rPWVVwBDl6iyNE/Kok6E6v6V3vCLGsOpQAuuNVye/3QxzIldzG/jQAdWZiyXReRVapOhZtLjGfywCvlWq7Sl/e3sbc0vWybSDI2QIDAQAB",
   "name": "<NAME>",
@@ -8,7 +8,7 @@
   "offline_enabled": true,
   "incognito": "split",
   "permissions": [
-    "chrome://resources/",
+    "decentr://resources/",
     "contentSettings",
     "metricsPrivate",
     "resourcesPrivate",
@@ -18,6 +18,6 @@
   "mime_types": [
     "application/pdf"
   ],
-  "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: chrome://resources; object-src * blob: externalfile: file: filesystem: data:",
+  "content_security_policy": "script-src 'self' 'wasm-eval' blob: filesystem: decentr://resources; object-src * blob: externalfile: file: filesystem: data:",
   "mime_types_handler": "index.html"
 }

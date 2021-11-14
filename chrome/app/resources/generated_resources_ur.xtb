@@ -1399,7 +1399,7 @@
 <translation id="2431027948063157455">‏Google اسسٹنٹ لوڈ نہیں ہو سکا، براہ کرم اپنا نیٹ ورک کنکشن چیک کریں اور دوبارہ کوشش کریں۔</translation>
 <translation id="243179355394256322">‏آپ کی تنظیم آلہ کے اندراج کو صرف مجاز صارفین تک محدود کرتی ہے۔ یہ صارف آلات کے اندراج کیلئے مجاز نہیں ہے۔ براہ کرم یقینی بنائیں کہ صارف کے پاس منتظم کونسول کے صارفین سیکشن میں "Google Meet ہارڈویئر کا اندراج کریں" کا حق ہے جو کہ صرف منتظم کو حاصل ہوتا ہے۔</translation>
 <translation id="243275146591958220">ڈاؤن لوڈ منسوخ کریں</translation>
-<translation id="2433452467737464329">‏صفحہ کو خودکار طور پر ریفریش کرنے کیلئے URL میں ایک استفسار پیرامیٹر شامل کریں: chrome://network/?refresh=&lt;sec&gt;‎</translation>
+<translation id="2433452467737464329">‏صفحہ کو خودکار طور پر ریفریش کرنے کیلئے URL میں ایک استفسار پیرامیٹر شامل کریں: decentr://network/?refresh=&lt;sec&gt;‎</translation>
 <translation id="2433507940547922241">موجودگی</translation>
 <translation id="2433836460518180625">صرف آلہ غیر مقفل کریں</translation>
 <translation id="2434449159125086437">پرنٹر سیٹ اپ نہیں ہو سکتا۔ براہ کرم کنفیگریشن چیک کریں اور دوبارہ کوشش کریں۔</translation>
@@ -1927,7 +1927,7 @@
 <translation id="2959127025785722291">کچھ غلط ہو گیا۔ اسکیننگ مکمل نہیں ہو سکی۔ براہ کرم دوبارہ کوشش کریں۔</translation>
 <translation id="2959842337402130152">اسٹوریج کی جگہ کم ہونے کی وجہ سے بحال نہیں کیا جا سکتا۔ آلہ سے <ph name="SPACE_REQUIRED" /> خالی کریں اور دوبارہ کوشش کریں۔</translation>
 <translation id="2960208947600937804">‏Linux کنفیگر کرنے میں ایک خرابی تھی۔ اپنے منتظم سے رابطہ کریں۔</translation>
-<translation id="296026337010986570">‏ہو گیا! نقصان دہ سافٹ ویئر کو ہٹا دیا گیا۔ ایکسٹینشنز کو دوبارہ آن کرنے کے لیے، &lt;a href="chrome://extensions"&gt;ایکسٹینشنز&lt;/a&gt; ملاحظہ کریں۔</translation>
+<translation id="296026337010986570">‏ہو گیا! نقصان دہ سافٹ ویئر کو ہٹا دیا گیا۔ ایکسٹینشنز کو دوبارہ آن کرنے کے لیے، &lt;a href="decentr://extensions"&gt;ایکسٹینشنز&lt;/a&gt; ملاحظہ کریں۔</translation>
 <translation id="2961090598421146107"><ph name="CERTIFICATE_NAME" /> (ایکسٹینشن فراہم کیا گیا)</translation>
 <translation id="2961210776189273067">عنوان</translation>
 <translation id="2961695502793809356">آگے جانے کیلئے کلک کریں، سرگزشت دیکھنے کیلئے پکڑے رہیں</translation>
@@ -4927,7 +4927,7 @@
 <translation id="6227280783235722609">ایکسٹینشن</translation>
 <translation id="6229849828796482487">‏Wi-Fi نیٹ ورک کو غیر منسلک کریں</translation>
 <translation id="6231782223312638214">تجویز کردہ</translation>
-<translation id="6231881193380278751">‏صفحہ کو خودکار طور پر ریفریش کرنے کیلئے URL میں ایک استفسار پیرامیٹر شامل کریں: ‎chrome://device-log/?refresh=&lt;sec&gt;‎</translation>
+<translation id="6231881193380278751">‏صفحہ کو خودکار طور پر ریفریش کرنے کیلئے URL میں ایک استفسار پیرامیٹر شامل کریں: ‎decentr://device-log/?refresh=&lt;sec&gt;‎</translation>
 <translation id="6232017090690406397">بیٹری</translation>
 <translation id="6232116551750539448"><ph name="NAME" /> سے کنکشن ختم ہو گیا ہے</translation>
 <translation id="6233154960150021497">کی بورڈ کی بجائے بطور ڈیفالٹ آواز کا استعمال کریں</translation>

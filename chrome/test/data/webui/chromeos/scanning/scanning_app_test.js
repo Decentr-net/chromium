@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://scanning/scanning_app.js';
+import 'decentr://scanning/scanning_app.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {PromiseResolver} from 'chrome://resources/js/promise_resolver.m.js';
-import {setScanServiceForTesting} from 'chrome://scanning/mojo_interface_provider.js';
-import {MAX_NUM_SAVED_SCANNERS, ScannerArr, ScannerSetting, ScanSettings, StartMultiPageScanResponse} from 'chrome://scanning/scanning_app_types.js';
-import {tokenToString} from 'chrome://scanning/scanning_app_util.js';
-import {ScanningBrowserProxyImpl} from 'chrome://scanning/scanning_browser_proxy.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {PromiseResolver} from 'decentr://resources/js/promise_resolver.m.js';
+import {setScanServiceForTesting} from 'decentr://scanning/mojo_interface_provider.js';
+import {MAX_NUM_SAVED_SCANNERS, ScannerArr, ScannerSetting, ScanSettings, StartMultiPageScanResponse} from 'decentr://scanning/scanning_app_types.js';
+import {tokenToString} from 'decentr://scanning/scanning_app_util.js';
+import {ScanningBrowserProxyImpl} from 'decentr://scanning/scanning_browser_proxy.js';
 
 import {assertArrayEquals, assertEquals, assertFalse, assertNotEquals, assertTrue} from '../../chai_assert.js';
 import {flushTasks, isVisible, waitAfterNextRender} from '../../test_util.js';

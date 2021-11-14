@@ -799,21 +799,21 @@ TEST_F(DeepLinkUtilTest, GetAssistantUrl) {
 TEST_F(DeepLinkUtilTest, GetChromeSettingsUrl) {
   const std::map<absl::optional<std::string>, std::string> test_cases = {
       // OK: Absent/empty page.
-      {absl::nullopt, "chrome://os-settings/"},
-      {absl::optional<std::string>(std::string()), "chrome://os-settings/"},
+      {absl::nullopt, "decentr://os-settings/"},
+      {absl::optional<std::string>(std::string()), "decentr://os-settings/"},
 
       // OK: Allowed pages.
       {absl::optional<std::string>("googleAssistant"),
-       "chrome://os-settings/googleAssistant"},
+       "decentr://os-settings/googleAssistant"},
       {absl::optional<std::string>("languages"),
-       "chrome://os-settings/osLanguages/languages"},
+       "decentr://os-settings/osLanguages/languages"},
 
       // FALLBACK: Allowed pages are case sensitive.
-      {absl::optional<std::string>("GOOGLEASSISTANT"), "chrome://os-settings/"},
-      {absl::optional<std::string>("LANGUAGES"), "chrome://os-settings/"},
+      {absl::optional<std::string>("GOOGLEASSISTANT"), "decentr://os-settings/"},
+      {absl::optional<std::string>("LANGUAGES"), "decentr://os-settings/"},
 
       // FALLBACK: Any page not explicitly allowed.
-      {absl::optional<std::string>("search"), "chrome://os-settings/"}};
+      {absl::optional<std::string>("search"), "decentr://os-settings/"}};
 
   for (const auto& test_case : test_cases)
     ASSERT_EQ(test_case.second, GetChromeSettingsUrl(test_case.first));

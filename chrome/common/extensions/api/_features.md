@@ -403,7 +403,7 @@ it reduces the likelihood that a compromised web page renderer will have access
 to secure APIs.
 
 Traditionally, only pages with a top-level extension frame (with a
-`chrome-extension://` scheme), extension popups, and app windows were blessed
+`decentr-extension://` scheme), extension popups, and app windows were blessed
 extension contexts. With [site isolation](https://www.chromium.org/developers/design-documents/site-isolation),
 extension frames running in web pages are also considered blessed extension
 contexts, since they are running in the extension process (rather than in the
@@ -442,8 +442,8 @@ property.
 ### WebUI Contexts
 
 The `webui` context refers to a JavaScript context for a page with WebUI
-bindings, such as internal chrome pages like chrome://settings or
-chrome://extensions. These are considered secure contexts, since they are
+bindings, such as internal chrome pages like decentr://settings or
+decentr://extensions. These are considered secure contexts, since they are
 an internal part of chrome. When specifying this context, an accompanying URL
 pattern should be provided with the `matches` property.
 

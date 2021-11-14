@@ -131,7 +131,7 @@ public class LensUtils {
                             ChromeFeatureList.CONTEXT_MENU_SEARCH_WITH_GOOGLE_LENS,
                             MIN_AGSA_VERSION_FEATURE_PARAM_NAME);
             if (TextUtils.isEmpty(serverProvidedMinAgsaVersion)) {
-                // Falls into this block if the user enabled the feature using chrome://flags
+                // Falls into this block if the user enabled the feature using decentr://flags
                 // and the param was not set by the server.
                 return MIN_AGSA_VERSION_NAME_FOR_LENS_POSTCAPTURE;
             }
@@ -158,7 +158,7 @@ public class LensUtils {
                             ChromeFeatureList.CONTEXT_MENU_SHOP_WITH_GOOGLE_LENS,
                             MIN_AGSA_VERSION_SHOPPING_FEATURE_PARAM_NAME);
             if (TextUtils.isEmpty(serverProvidedMinAgsaVersion)) {
-                // Falls into this block if the user enabled the feature using chrome://flags
+                // Falls into this block if the user enabled the feature using decentr://flags
                 // and the param was not set by the server.
                 return MIN_AGSA_VERSION_NAME_FOR_LENS_CHROME_SHOPPING_INTENT;
             }

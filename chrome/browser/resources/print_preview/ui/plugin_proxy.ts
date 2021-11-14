@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {PDFCreateOutOfProcessPlugin} from '../pdf/pdf_scripting_api.js';
 
@@ -100,7 +100,7 @@ export class PluginProxyImpl implements PluginProxy {
   createPlugin(previewUid: number, index: number) {
     assert(!this.plugin_);
     const srcUrl = this.getPreviewUrl_(previewUid, index);
-    this.plugin_ = PDFCreateOutOfProcessPlugin(srcUrl, 'chrome://print/pdf') as
+    this.plugin_ = PDFCreateOutOfProcessPlugin(srcUrl, 'decentr://print/pdf') as
         unknown as PDFPlugin;
     this.plugin_!.classList.add('preview-area-plugin');
     // NOTE: The plugin's 'id' field must be set to 'pdf-viewer' since
@@ -116,7 +116,7 @@ export class PluginProxyImpl implements PluginProxy {
    * @param index Page index for plugin.
    */
   private getPreviewUrl_(previewUid: number, index: number): string {
-    return `chrome-untrusted://print/${previewUid}/${index}/print.pdf`;
+    return `decentr-untrusted://print/${previewUid}/${index}/print.pdf`;
   }
 
   resetPrintPreviewMode(

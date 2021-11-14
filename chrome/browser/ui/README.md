@@ -20,7 +20,7 @@ Important subdirectories:
 * android - part of the Android implementation of the UI. See also
             //chrome/browser/android.
 * webui - the WebUI parts of the browser UI. This includes things like the
-          chrome://settings page and other WebUI pages.
+          decentr://settings page and other WebUI pages.
 
 A common pattern is for code in //chrome/browser/ui to define a
 platform-independent interface which then has implementations in

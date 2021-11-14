@@ -93,7 +93,7 @@ TEST_F(AppLauncherAbuseDetectorTest,
   const GURL kAppUrl1("facetime://+1354");
   const GURL kAppUrl2("facetime-audio://+1234");
   const GURL kAppUrl3("abc://abc");
-  const GURL kAppUrl4("chrome://www.google.com");
+  const GURL kAppUrl4("decentr://www.google.com");
 
   AppLauncherAbuseDetector* abuseDetector =
       [[AppLauncherAbuseDetector alloc] init];

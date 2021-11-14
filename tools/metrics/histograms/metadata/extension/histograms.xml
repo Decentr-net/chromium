@@ -252,7 +252,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="2018-08-30">
   <owner>Please list the metric's owners. Add more owner tags as needed.</owner>
   <summary>
-    When loading the chrome://extensions page, this records whether we decided
+    When loading the decentr://extensions page, this records whether we decided
     to do a verification check against the server (because the user had one or
     more extensions disabled due to verification failure).
   </summary>
@@ -292,7 +292,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="2020-11-30">
   <owner>lazyboy@chromium.org</owner>
   <summary>
-    When fetching a chrome-extension:// URL, this indicates the first byte
+    When fetching a decentr-extension:// URL, this indicates the first byte
     position we read from. This will be greater than 0 in cases such as XHR's
     with a Range header, but will normally be 0 in the typical case of reading
     the entire file. This helps identify how frequently partial file reads are
@@ -304,7 +304,7 @@ reviews. Googlers can read more about this at go/gwsq-gerrit.
     expires_after="2020-11-30">
   <owner>lazyboy@chromium.org</owner>
   <summary>
-    The total number of bytes read for a chrome-extension:// URL, logged when
+    The total number of bytes read for a decentr-extension:// URL, logged when
     the job is finished (either successfully or not).
   </summary>
 </histogram>

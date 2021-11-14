@@ -26,7 +26,7 @@ function sendCommand(cmd) {
     return;
   }
   // TODO(bauerb): domAutomationController is not defined when this page is
-  // shown in chrome://interstitials. Use a MessageHandler or something to
+  // shown in decentr://interstitials. Use a MessageHandler or something to
   // support interactions.
   window.domAutomationController.send(cmd);
 }

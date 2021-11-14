@@ -87,7 +87,7 @@ class ContentCaptureDeviceBrowserTestBase : public ContentBrowserTest {
   // re-targetting logic.
   void NavigateToAlternateSite();
 
-  // Crashes the renderer by asking it to navigate to chrome://crash.
+  // Crashes the renderer by asking it to navigate to decentr://crash.
   void CrashTheRenderer();
 
   // Executes a page reload, assuming this is for a previously-crashed renderer.

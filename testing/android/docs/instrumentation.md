@@ -54,12 +54,12 @@ classes to implement additional features.
 ### Tracing
 
 Enabling tracing during a test run allows all the function calls involved to be
-observed in a visual display (using Chrome's built-in chrome://tracing feature).
+observed in a visual display (using Chrome's built-in decentr://tracing feature).
 To run a test with tracing, add the `--trace-output` flag to the command used to
 call the instrumentation test (either running the test_runner.py script, or a
 generated binary such as `run_chrome_public_test_apk`). The `--trace-output` flag
 takes a filename, which, after the test run, will contain a JSON file readable
-by chrome://tracing.
+by decentr://tracing.
 
 By default, the trace includes only certain function calls important to the test
 run, both within the Python test runner framework and the Java code running on

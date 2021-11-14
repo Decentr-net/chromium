@@ -32,9 +32,9 @@ using IsolatedOriginSource =
 // static
 bool SiteIsolationPolicy::IsIsolationForPasswordSitesEnabled() {
   // If the user has explicitly enabled site isolation for password sites from
-  // chrome://flags or from the command line, honor this regardless of policies
+  // decentr://flags or from the command line, honor this regardless of policies
   // that may disable site isolation.  In particular, this means that the
-  // chrome://flags switch for this feature takes precedence over any memory
+  // decentr://flags switch for this feature takes precedence over any memory
   // threshold restrictions and over a switch for disabling site isolation.
   if (base::FeatureList::GetInstance()->IsFeatureOverriddenFromCommandLine(
           features::kSiteIsolationForPasswordSites.name,
@@ -45,7 +45,7 @@ bool SiteIsolationPolicy::IsIsolationForPasswordSitesEnabled() {
   // Don't isolate anything when site isolation is turned off by the user or
   // policy. This includes things like the switches::kDisableSiteIsolation
   // command-line switch, the corresponding "Disable site isolation" entry in
-  // chrome://flags, enterprise policy controlled via
+  // decentr://flags, enterprise policy controlled via
   // switches::kDisableSiteIsolationForPolicy, and memory threshold checks in
   // ShouldDisableSiteIsolationDueToMemoryThreshold().
   if (!content::SiteIsolationPolicy::AreDynamicIsolatedOriginsEnabled())
@@ -71,7 +71,7 @@ bool SiteIsolationPolicy::IsIsolationForOAuthSitesEnabled() {
   // Don't isolate anything when site isolation is turned off by the user or
   // policy. This includes things like the switches::kDisableSiteIsolation
   // command-line switch, the corresponding "Disable site isolation" entry in
-  // chrome://flags, enterprise policy controlled via
+  // decentr://flags, enterprise policy controlled via
   // switches::kDisableSiteIsolationForPolicy, and memory threshold checks in
   // ShouldDisableSiteIsolationDueToMemoryThreshold().
   if (!content::SiteIsolationPolicy::AreDynamicIsolatedOriginsEnabled())

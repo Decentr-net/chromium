@@ -10,28 +10,28 @@
  *
  *    <settings-ui prefs="{{prefs}}"></settings-ui>
  */
-import 'chrome://resources/cr_elements/cr_drawer/cr_drawer.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
-import 'chrome://resources/cr_elements/cr_page_host_style_css.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/paper-styles/color.js';
+import 'decentr://resources/cr_elements/cr_drawer/cr_drawer.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
+import 'decentr://resources/cr_elements/cr_page_host_style_css.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/paper-styles/color.js';
 import '../icons.js';
 import '../settings_main/settings_main.js';
 import '../settings_menu/settings_menu.js';
 import '../settings_shared_css.js';
 import '../settings_vars_css.js';
 
-import {CrContainerShadowMixin, CrContainerShadowMixinInterface} from 'chrome://resources/cr_elements/cr_container_shadow_mixin.js';
-import {CrDrawerElement} from 'chrome://resources/cr_elements/cr_drawer/cr_drawer.js';
-import {CrToolbarElement} from 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import {CrToolbarSearchFieldElement} from 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
-import {FindShortcutBehavior} from 'chrome://resources/cr_elements/find_shortcut_behavior.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {listenOnce} from 'chrome://resources/js/util.m.js';
-import {Debouncer, DomIf, html, mixinBehaviors, PolymerElement, timeOut} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrContainerShadowMixin, CrContainerShadowMixinInterface} from 'decentr://resources/cr_elements/cr_container_shadow_mixin.js';
+import {CrDrawerElement} from 'decentr://resources/cr_elements/cr_drawer/cr_drawer.js';
+import {CrToolbarElement} from 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import {CrToolbarSearchFieldElement} from 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
+import {FindShortcutBehavior} from 'decentr://resources/cr_elements/find_shortcut_behavior.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {listenOnce} from 'decentr://resources/js/util.m.js';
+import {Debouncer, DomIf, html, mixinBehaviors, PolymerElement, timeOut} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {resetGlobalScrollTargetForTesting, setGlobalScrollTarget} from '../global_scroll_target_mixin.js';
 import {loadTimeData} from '../i18n_setup.js';

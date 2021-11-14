@@ -15,7 +15,7 @@ namespace storage {
 FileSystemOptions CreateIncognitoFileSystemOptions() {
   std::vector<std::string> additional_allowed_schemes;
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  additional_allowed_schemes.push_back("chrome-extension");
+  additional_allowed_schemes.push_back("decentr-extension");
 #endif
   return FileSystemOptions(FileSystemOptions::PROFILE_MODE_INCOGNITO,
                            true /* force_in_memory */,
@@ -26,7 +26,7 @@ FileSystemOptions CreateAllowFileAccessOptions() {
   std::vector<std::string> additional_allowed_schemes;
   additional_allowed_schemes.push_back("file");
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  additional_allowed_schemes.push_back("chrome-extension");
+  additional_allowed_schemes.push_back("decentr-extension");
 #endif
   return FileSystemOptions(FileSystemOptions::PROFILE_MODE_NORMAL,
                            false /* force_in_memory */,
@@ -36,7 +36,7 @@ FileSystemOptions CreateAllowFileAccessOptions() {
 FileSystemOptions CreateDisallowFileAccessOptions() {
   std::vector<std::string> additional_allowed_schemes;
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-  additional_allowed_schemes.push_back("chrome-extension");
+  additional_allowed_schemes.push_back("decentr-extension");
 #endif
   return FileSystemOptions(FileSystemOptions::PROFILE_MODE_NORMAL,
                            false /* force_in_memory */,

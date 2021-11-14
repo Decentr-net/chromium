@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Strings for the chrome://history/journeys page -->
+<!-- Strings for the decentr://history/journeys page -->
 
 <grit-part>
   <message name="IDS_HISTORY_CLUSTERS_DISABLE_MENU_ITEM_LABEL" desc="A label for the menu item to turn off the Journeys feature, which collects different search and browsing activities related to a single topic into a single place, and organizes them by topic. See glossary entry for meaning of 'Journeys'.">
@@ -12,10 +12,10 @@
   <message name="IDS_HISTORY_CLUSTERS_HEADER_TEXT" desc="Header text shown when the history items related to a given user search term are shown.">
     Based on activity related to "<ph name="SEARCH_TERM"><ex>dual kitchen range</ex>$1</ph>"
   </message>
-  <message name="IDS_HISTORY_CLUSTERS_JOURNEYS_TAB_LABEL" desc="A label for the section in Chrome History (chrome://history) where Journeys are collected and shown to the user. See glossary entry for meaning of 'Journeys'.">
+  <message name="IDS_HISTORY_CLUSTERS_JOURNEYS_TAB_LABEL" desc="A label for the section in Chrome History (decentr://history) where Journeys are collected and shown to the user. See glossary entry for meaning of 'Journeys'.">
     Journeys
   </message>
-  <message name="IDS_HISTORY_CLUSTERS_LIST_TAB_LABEL" desc="A label for the section in Chrome History (chrome://history) where a list of history items are shown to the user.">
+  <message name="IDS_HISTORY_CLUSTERS_LIST_TAB_LABEL" desc="A label for the section in Chrome History (decentr://history) where a list of history items are shown to the user.">
     List
   </message>
   <message name="IDS_HISTORY_CLUSTERS_RELATED_SEARCHES_HEADER" desc="Header text shown for the section containing search suggestions related to a group of search and browsing activities.">

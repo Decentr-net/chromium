@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ConfirmationPageElement} from 'chrome://os-feedback/confirmation_page.js';
+import {ConfirmationPageElement} from 'decentr://os-feedback/confirmation_page.js';
 
 import {assertEquals, assertTrue} from '../../chai_assert.js';
 

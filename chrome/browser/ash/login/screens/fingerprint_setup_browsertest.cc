@@ -39,7 +39,7 @@ const test::UIPath kAddAnotherFingerButton = {"fingerprint-setup",
 constexpr char kTestFingerprintDataString[] = "testFinger";
 constexpr char kAnimationUrlAttribute[] = "animationUrl";
 constexpr char kCheckmarkAnimationUrl[] =
-    "chrome://theme/IDR_FINGERPRINT_COMPLETE_TICK";
+    "decentr://theme/IDR_FINGERPRINT_COMPLETE_TICK";
 
 int kMaxAllowedFingerprints = 3;
 

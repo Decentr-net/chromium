@@ -593,7 +593,7 @@ importer.PromisingFileEntry = class {
  * @private @const {string}
  */
 importer.APP_URL_PREFIX_ =
-    'filesystem:chrome-extension://hhaomjibdihmijegdhdafkllkbggdgoj/external';
+    'filesystem:decentr-extension://hhaomjibdihmijegdhdafkllkbggdgoj/external';
 
 /**
  * Strips non-unique information from the URL. The resulting

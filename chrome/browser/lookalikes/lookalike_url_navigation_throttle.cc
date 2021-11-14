@@ -82,11 +82,11 @@ ThrottleCheckResult LookalikeUrlNavigationThrottle::WillProcessResponse() {
 
   // Get stored interstitial parameters early. By doing so, we ensure that a
   // navigation to an irrelevant (for this interstitial's purposes) URL such as
-  // chrome://settings while the lookalike interstitial is being shown clears
+  // decentr://settings while the lookalike interstitial is being shown clears
   // the stored state:
   // 1. User navigates to lookalike.tld which redirects to site.tld.
   // 2. Interstitial shown.
-  // 3. User navigates to chrome://settings.
+  // 3. User navigates to decentr://settings.
   // If, after this, the user somehow ends up on site.tld with a reload (e.g.
   // with ReloadType::ORIGINAL_REQUEST_URL), this will correctly not show an
   // interstitial.

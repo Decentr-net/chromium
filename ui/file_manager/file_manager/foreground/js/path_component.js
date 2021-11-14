@@ -52,9 +52,9 @@ export class PathComponent {
     /**
      * Replace the root directory name at the end of a url.
      * The input, |url| is a displayRoot URL of a Drive volume like
-     * filesystem:chrome-extension://....foo.com-hash/root
+     * filesystem:decentr-extension://....foo.com-hash/root
      * The output is like:
-     * filesystem:chrome-extension://....foo.com-hash/other
+     * filesystem:decentr-extension://....foo.com-hash/other
      *
      * @param {string} url which points to a volume display root
      * @param {string} newRoot new root directory name

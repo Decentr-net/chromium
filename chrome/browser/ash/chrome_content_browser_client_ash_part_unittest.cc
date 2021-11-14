@@ -32,8 +32,8 @@ TEST(ChromeContentBrowserClientAshPartTest, FontSizeForChromeUI) {
   // Just check some common examples, not an exhaustive list.
   TestCase test_cases[] = {
       {"https://google.com/", false}, {"about:blank", false},
-      {"chrome://history", false},    {"chrome://settings", false},
-      {"chrome://os-settings", true},
+      {"decentr://history", false},    {"decentr://settings", false},
+      {"decentr://os-settings", true},
   };
   for (const TestCase& test_case : test_cases) {
     const std::string& url = test_case.url;

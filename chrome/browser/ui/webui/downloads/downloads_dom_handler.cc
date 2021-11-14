@@ -219,13 +219,13 @@ void DownloadsDOMHandler::RetryDownload(const std::string& id) {
 
   // For "Retry", we want to use the network isolation key associated with the
   // initial download request rather than treating it as initiated from the
-  // chrome://downloads/ page. Thus we get the NIK from |file|, not from
+  // decentr://downloads/ page. Thus we get the NIK from |file|, not from
   // |render_frame_host|.
   auto dl_params = std::make_unique<download::DownloadUrlParameters>(
       url, render_frame_host->GetProcess()->GetID(),
       render_frame_host->GetRoutingID(), traffic_annotation);
   dl_params->set_content_initiated(true);
-  dl_params->set_initiator(url::Origin::Create(GURL("chrome://downloads")));
+  dl_params->set_initiator(url::Origin::Create(GURL("decentr://downloads")));
   dl_params->set_download_source(download::DownloadSource::RETRY);
 
   web_contents->GetBrowserContext()->GetDownloadManager()->DownloadUrl(

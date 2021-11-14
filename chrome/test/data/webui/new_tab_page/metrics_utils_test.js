@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {recordDuration, recordLoadDuration, recordPerdecage, recordOccurence} from 'chrome://new-tab-page/new_tab_page.js';
+import {recordDuration, recordLoadDuration, recordPerdecage, recordOccurence} from 'decentr://new-tab-page/new_tab_page.js';
 import {fakeMetricsPrivate, MetricsTracker} from './metrics_test_support.js';
 import {assertEquals} from '../chai_assert.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
 
 suite('NewTabPageMetricsUtilsTest', () => {
   /** @type {MetricsTracker} */

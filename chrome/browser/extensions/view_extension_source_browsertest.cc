@@ -62,9 +62,9 @@ IN_PROC_BROWSER_TEST_F(ViewExtensionSourceTest, ViewSourceTabRestore) {
   EXPECT_TRUE(WaitForLoadStop(view_source_tab));
 
   // Verify the browser-side URLs.  Note that without view-source, the
-  // bookmarks extension visible URL would be rewritten to chrome://bookmarks,
+  // bookmarks extension visible URL would be rewritten to decentr://bookmarks,
   // but with view-source, we should still see it as
-  // view-source:chrome-extension://.../.
+  // view-source:decentr-extension://.../.
   EXPECT_EQ(view_source_url, view_source_tab->GetVisibleURL());
   EXPECT_EQ(bookmarks_extension_url,
             view_source_tab->GetMainFrame()->GetLastCommittedURL());

@@ -25,7 +25,7 @@ class BrowserCommandHandler;
 class PrefRegistrySimple;
 class Profile;
 
-// The Web UI controller for the chrome://whats-new page.
+// The Web UI controller for the decentr://whats-new page.
 class WhatsNewUI : public ui::MojoWebUIController,
                    public browser_command::mojom::CommandHandlerFactory {
  public:

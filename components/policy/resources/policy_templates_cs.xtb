@@ -470,7 +470,7 @@ Pokud je toto nastavení zakázáno nebo není nakonfigurováno, firemní uživa
 
       Výjimky lze zadat v zásadě pro povolené adresy URL. Počet záznamů v těchto zásadách je omezen na 1000. Všechny další záznamy budou ignorovány.
 
-      Blokování interních adres URL „chrome://*“ nedoporučujeme, protože může vést k neočekávaným chybám.
+      Blokování interních adres URL „decentr://*“ nedoporučujeme, protože může vést k neočekávaným chybám.
 
       Od verze M73 můžete blokovat adresy URL „javascript://*“.  Toto blokování se však vztahuje pouze na JavaScript zadaný na adresním řádku (nebo například na bookmarklety). Upozorňujeme, že na javascriptové adresy URL na stránce ani na dynamicky načítaná data se tato zásada nevztahuje. Pokud například zablokujete adresu „example.com/abc“, stránka „example.com“ bude i nadále moci načíst stránku „example.com/abc“ prostřednictvím žádosti XMLHTTPRequest.
 
@@ -631,7 +631,7 @@ Tato zásada platí pro primární i pro všechny sekundární displeje.
 Pokud tato zásada není nastavena, použije se výchozí hodnota 0 a uživatel ji bude moci změnit. V tomto případě se nastavení uživatele při restartu nepřepíše.</translation>
 <translation id="2138449619211358657">Tato zásada umožňuje operačnímu systému <ph name="PRODUCT_OS_NAME" /> obejít za účelem ověření na captive portálu jakýkoliv proxy server.
 
-      Tato zásada bude použita pouze v případě, že je proxy server nakonfigurován (například pomocí zásady, uživatelským nastavením na stránce chrome://settings nebo pomocí rozšíření).
+      Tato zásada bude použita pouze v případě, že je proxy server nakonfigurován (například pomocí zásady, uživatelským nastavením na stránce decentr://settings nebo pomocí rozšíření).
 
       Pokud toto nastavení povolíte, všechny stránky ověření captive portálu (tj. všechny webové stránky počínaje přihlašovací stránkou captive portálu až do doby, dokud prohlížeč <ph name="PRODUCT_NAME" /> nezjistí úspěšné připojení k internetu) budou zobrazeny v samostatném okně ignorujícím všechna nastavení zásad a omezení aktuálního uživatele.
 
@@ -652,15 +652,15 @@ Pokud tato zásada není nastavena, použije se výchozí hodnota 0 a uživatel
 <translation id="2170233653554726857">Povolení optimalizace WPAD</translation>
 <translation id="2176565653304920879">Když je tato zásada nastavena, automatické zjištění časového pásma bude v závislosti na hodnotě nastavení probíhat jedním z následujících způsobů:
 
-      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionUsersDecide, uživatelé budou moci automatické zjišťování časového pásma ovládat pomocí běžných ovládacích prvků na stránce chrome://settings.
+      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionUsersDecide, uživatelé budou moci automatické zjišťování časového pásma ovládat pomocí běžných ovládacích prvků na stránce decentr://settings.
 
-      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionDisabled, ovládací prvky automatického zjišťování časového pásma na stránce chrome://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy vypnuto.
+      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionDisabled, ovládací prvky automatického zjišťování časového pásma na stránce decentr://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy vypnuto.
 
-      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionIPOnly, ovládací prvky časových pásem na stránce chrome://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy zapnuto. Poloha se za účelem zjištění časového pásma bude určovat pouze podle IP adresy.
+      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionIPOnly, ovládací prvky časových pásem na stránce decentr://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy zapnuto. Poloha se za účelem zjištění časového pásma bude určovat pouze podle IP adresy.
 
-      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionSendWiFiAccessPoints, ovládací prvky časových pásem na stránce chrome://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy zapnuto. Za účelem přesného určení časového pásma se vždy odešle seznam viditelných přístupových bodů Wi-Fi na server Geolocation API.
+      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionSendWiFiAccessPoints, ovládací prvky časových pásem na stránce decentr://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy zapnuto. Za účelem přesného určení časového pásma se vždy odešle seznam viditelných přístupových bodů Wi-Fi na server Geolocation API.
 
-      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionSendAllLocationInfo, ovládací prvky časových pásem na stránce chrome://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy zapnuto. Údaje o poloze (jako jsou přístupové body Wi-Fi, dostupné vysílače mobilní sítě a informace ze systému GPS) budou za účelem přesného určení časového pásma odeslány na server.
+      Je-li tato zásada nastavena na možnost TimezoneAutomaticDetectionSendAllLocationInfo, ovládací prvky časových pásem na stránce decentr://settings budou deaktivovány. Automatické zjišťování časového pásma bude vždy zapnuto. Údaje o poloze (jako jsou přístupové body Wi-Fi, dostupné vysílače mobilní sítě a informace ze systému GPS) budou za účelem přesného určení časového pásma odeslány na server.
 
       Pokud tato zásada není nastavena, bude se chovat, jako by byla nastavena na možnost TimezoneAutomaticDetectionUsersDecide.
 
@@ -1211,9 +1211,9 @@ Pokud je tato zásada zakázána nebo není nakonfigurována, funkce WebDriver n
       Pokud tato zásada není nastavena nebo je nastavena na hodnotu false, v protokolu TLS nebudou povoleny šifrovací sady DHE. Nastavením této zásady na hodnotu true je možné šifrovací sady DHE povolit a zajistit tak kompatibilitu se zastaralým serverem. Toto nastavení by však mělo být použito pouze jako dočasné nouzové opatření a server by měl být překonfigurován.
 
       Doporučujeme migrovat servery na šifrovací sady ECDHE. Pokud nejsou k dispozici, měla by být aktivována šifrovací sada s výměnou klíčů RSA.</translation>
-<translation id="3117706142826400449">Pokud je tato zásada deaktivovaná, zakazuje nástroji Chrome Cleanup vyhledávat v systému nežádoucí software a čistit jej. Ruční spuštění nástroje Chrome Cleanup ze stránky chrome://settings/cleanup je zakázáno.
+<translation id="3117706142826400449">Pokud je tato zásada deaktivovaná, zakazuje nástroji Chrome Cleanup vyhledávat v systému nežádoucí software a čistit jej. Ruční spuštění nástroje Chrome Cleanup ze stránky decentr://settings/cleanup je zakázáno.
 
-      Pokud je tato zásada aktivovaná nebo není nastavená, bude Chrome Cleanup v systému pravidelně vyhledávat nežádoucí software, a pokud nějaký najde, zeptá se uživatele, zda jej chce odstranit. Ruční spuštění nástroje Chrome Cleanup ze stránky chrome://settings je povoleno.
+      Pokud je tato zásada aktivovaná nebo není nastavená, bude Chrome Cleanup v systému pravidelně vyhledávat nežádoucí software, a pokud nějaký najde, zeptá se uživatele, zda jej chce odstranit. Ruční spuštění nástroje Chrome Cleanup ze stránky decentr://settings je povoleno.
 
       Tato zásada je k dispozici jen v instancích systému Windows, které jsou připojené k doméně <ph name="MS_AD_NAME" />, nebo v instancích systému Windows 10 Pro nebo Enterprise, které jsou zaregistrované ke správě zařízení.</translation>
 <translation id="3152425128389603870">Zapnutí a automatické aktivování jednotné plochy ve výchozím nastavení</translation>
@@ -1265,7 +1265,7 @@ Pokud je tato zásada zakázána nebo není nakonfigurována, funkce WebDriver n
       Pokud je toto nastavení aktivované nebo není nakonfigurované, mohou uživatelé proxy server pro tisk z cloudu aktivovat ověřením pomocí účtu Google.
 
       Pokud je toto nastavení deaktivováno, uživatelé proxy server nebudou moci aktivovat a počítač nebude moci sdílet připojené tiskárny se službou <ph name="CLOUD_PRINT_NAME" />.</translation>
-<translation id="3312206664202507568">Zapne stránku na adrese chrome://password-change, na které mohou uživatelé SAML měnit svá hesla SAML během relace. Zajišťuje se tím, aby heslo SAML a heslo na obrazovce uzamčení zařízení byla synchronizována.
+<translation id="3312206664202507568">Zapne stránku na adrese decentr://password-change, na které mohou uživatelé SAML měnit svá hesla SAML během relace. Zajišťuje se tím, aby heslo SAML a heslo na obrazovce uzamčení zařízení byla synchronizována.
 
       Tato zásada také povoluje oznámení, která uživatele SAML upozorňují na brzké vypršení platnosti hesel SAML. Uživatelé tak tuto záležitost mohou ihned vyřešit tím, že heslo během relace změní.
       Tato oznámení se však zobrazí pouze v případě, že poskytovatel identity SAML do zařízení během přihlašovacího procesu SAML odesílá informace o vypršení platnosti.
@@ -2011,7 +2011,7 @@ Pokud zásadu nenastavíte, <ph name="PRODUCT_NAME" /> nebude delegovat přihla�
 <translation id="4777805166623621364">
       Pomocí tohoto nastavení (SitePerProcess) lze uživatelům zakázat změnu výchozího chování, při kterém jsou všechny weby izolovány. K izolaci dalších (podrobněji určených) zdrojů může být užitečná také zásada IsolateOrigins.
       Pokud je tato zásada aktivovaná, uživatelé nebudou moci změnit výchozí chování, kdy je každý web spuštěn v samostatném procesu.
-      Pokud tato zásada není nakonfigurovaná nebo je deaktivovaná, budou uživatelé moci izolaci webů zakázat (např. pomocí možnosti Disable site isolation (Vypnout izolaci webů) na stránce chrome://flags).  Tím, že tuto zásadu deaktivujete nebo že ji nenakonfigurujete, izolaci webů nevypnete.
+      Pokud tato zásada není nakonfigurovaná nebo je deaktivovaná, budou uživatelé moci izolaci webů zakázat (např. pomocí možnosti Disable site isolation (Vypnout izolaci webů) na stránce decentr://flags).  Tím, že tuto zásadu deaktivujete nebo že ji nenakonfigurujete, izolaci webů nevypnete.
       V systému <ph name="PRODUCT_OS_NAME" /> verze 76 a dřívějších doporučujeme nastavit na stejnou hodnotu také zásadu zařízení <ph name="DEVICE_LOGIN_SCREEN_SITE_PER_PROCESS_POLICY_NAME" />. Pokud se hodnoty těchto dvou zásad neshodují, při vstupu do uživatelské relace může dojít k prodlevě způsobené používáním hodnoty zadané v zásadě pro uživatele.
 
       POZNÁMKA: Tato zásada se nevztahuje na systém Android. K aktivaci zásady SitePerProcess v systému Android použijte zásadu SitePerProcessAndroid.
@@ -2885,7 +2885,7 @@ Nastavením této zásady můžete nakonfigurovat, zda má uživatel povoleno p�
 
           Pokud toto nastavení aktivujete, jako domovská stránka se vždy použije stránka Nová karta a adresa URL domovské stránky bude ignorována.
 
-          Pokud toto nastavení deaktivujete, stránka Nová karta se jako domovská stránka uživatele použije pouze v případě, že bude adresa URL domovské stránky nastavená na „chrome://newtab“.
+          Pokud toto nastavení deaktivujete, stránka Nová karta se jako domovská stránka uživatele použije pouze v případě, že bude adresa URL domovské stránky nastavená na „decentr://newtab“.
 
           Pokud toto nastavení aktivujete nebo deaktivujete, uživatelé typ domovské stránky v prohlížeči <ph name="PRODUCT_NAME" /> nebudou moci změnit.
 
@@ -3055,7 +3055,7 @@ Pokud je tato zásada nastavená na hodnotu true, použije se integrovaný klien
 
       Pokud je tato zásada nastavená na hodnotu false, integrovaný klient DNS se nikdy nepoužije.
 
-      Pokud tato zásada není nastavená, integrovaný klient DNS bude v systémech MacOS, Android (když není zapnutá funkce Soukromé DNS ani VPN) a ChromeOS ve výchozím nastavení zapnutý a uživatelé jeho používání budou moci změnit úpravou příznaku chrome://flags nebo zadáním příznaku příkazového řádku.</translation>
+      Pokud tato zásada není nastavená, integrovaný klient DNS bude v systémech MacOS, Android (když není zapnutá funkce Soukromé DNS ani VPN) a ChromeOS ve výchozím nastavení zapnutý a uživatelé jeho používání budou moci změnit úpravou příznaku decentr://flags nebo zadáním příznaku příkazového řádku.</translation>
 <translation id="6843296367238757293">Podpora této zásady byla ukončena. Doporučujeme nepoužívat ji. Další informace najdete na stránce https://support.google.com/chrome/a/answer/7643500</translation>
 <translation id="684856667300805181">Tato zásada byla ve verzi 68 prohlížeče <ph name="PRODUCT_NAME" /> odstraněna a nahrazena zásadou <ph name="ARC_GLS_POLICY_NAME" />.</translation>
 <translation id="6856743875250214792">Tato zásada je zastaralá a ve verzi M66 byla odstraněna, protože byla používána pouze k internímu testování a představovala bezpečnostní ohrožení.
@@ -3682,7 +3682,7 @@ Tato zásada je určena k internímu použití prohlížečem <ph name="PRODUCT_
 <translation id="7941975817681987555">Nepředvídat síťové akce u žádných síťových připojení</translation>
 <translation id="7952007677054834789">Konfiguruje stránky, které se mají načíst při spuštění, výchozí domovskou stránku a výchozí stránku Nová karta v prohlížeči <ph name="PRODUCT_NAME" /> a brání uživatelům ve změně těchto nastavení.
 
-      Nastavení domovské stránky uživatele jsou zcela uzamčena pouze v případě, že jako domovskou stránku nastavíte buď stránku Nová karta, nebo adresu URL, kterou zadáte. Pokud adresu URL domovské stránky nezadáte, uživatel bude moci domovskou stránku změnit na stránku Nová karta tím, že zadá adresu „chrome://newtab“.
+      Nastavení domovské stránky uživatele jsou zcela uzamčena pouze v případě, že jako domovskou stránku nastavíte buď stránku Nová karta, nebo adresu URL, kterou zadáte. Pokud adresu URL domovské stránky nezadáte, uživatel bude moci domovskou stránku změnit na stránku Nová karta tím, že zadá adresu „decentr://newtab“.
 
       Zásada „Adresy URL otevírané při spuštění“ se projeví pouze v případě, že v části „Akce při spuštění“ zvolíte „Otevřít seznam adres URL“.</translation>
 <translation id="7952958573604504839">Ve verzi M48 byla podpora této zásady ukončena a byla nahrazena zásadou <ph name="NETWORK_PREDICTION_OPTIONS_POLICY_NAME" />, ve verzi M54 tato zásada byla odstraněna.

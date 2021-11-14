@@ -15,7 +15,7 @@ class AboutPageManifestTest : public ChromeManifestTest {};
 TEST_F(AboutPageManifestTest, AboutPageInSharedModules) {
   scoped_refptr<extensions::Extension> extension;
   extension = LoadAndExpectSuccess("shared_module_about.json");
-  EXPECT_EQ(GURL("chrome-extension://" + extension->id() + "/about.html"),
+  EXPECT_EQ(GURL("decentr-extension://" + extension->id() + "/about.html"),
             extensions::ManifestURL::GetAboutPage(extension.get()));
 
   Testcase testcases[] = {

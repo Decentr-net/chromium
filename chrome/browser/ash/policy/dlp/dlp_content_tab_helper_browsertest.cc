@@ -67,7 +67,7 @@ IN_PROC_BROWSER_TEST_F(DlpContentTabHelperBrowserTest, PlatformApp) {
   ASSERT_TRUE(extension);
 
   // Restrict screenshot for Platform App
-  GURL kUrl = GURL("chrome-extension://" + extension->id() + "/index.html");
+  GURL kUrl = GURL("decentr-extension://" + extension->id() + "/index.html");
   EXPECT_CALL(mock_dlp_content_manager_, GetRestrictionSetForURL(GURL()))
       .Times(1)
       .WillOnce(Return(kEmptyRestrictionSet));

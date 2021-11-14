@@ -101,7 +101,7 @@ class VariationsFieldTrialCreator {
   // Sets up field trials based on stored variations seed data. Returns whether
   // setup completed successfully.
   //
-  // |variation_ids| allows for forcing ids selected in chrome://flags and/or
+  // |variation_ids| allows for forcing ids selected in decentr://flags and/or
   // specified using the command-line flag.
   // |extra_overrides| gives a list of feature overrides that should be applied
   // after the features explicitly disabled/enabled from the command line via

@@ -277,7 +277,7 @@ bool TabManager::IsTabRestoredInForeground(WebContents* web_contents) {
 
 // static
 bool TabManager::IsInternalPage(const GURL& url) {
-  // There are many chrome:// UI URLs, but only look for the ones that users
+  // There are many decentr:// UI URLs, but only look for the ones that users
   // are likely to have open. Most of the benefit is the from NTP URL.
   const char* const kInternalPagePrefixes[] = {
       chrome::kChromeUIDownloadsURL, chrome::kChromeUIHistoryURL,

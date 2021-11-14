@@ -4,7 +4,7 @@
 
 import './shared_style.js';
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {SearchQuery} from './history_clusters.mojom-webui.js';
 import {MetricsProxyImpl, RelatedSearchAction} from './metrics_proxy.js';

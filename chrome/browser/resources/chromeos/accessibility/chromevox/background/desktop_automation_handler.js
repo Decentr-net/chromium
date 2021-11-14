@@ -777,7 +777,7 @@ DesktopAutomationHandler = class extends BaseAutomationHandler {
     const pos = ChromeVox.position[url];
 
     // Deny recovery for chrome urls.
-    if (pos && url.indexOf('chrome://') !== 0) {
+    if (pos && url.indexOf('decentr://') !== 0) {
       focusedRoot.hitTestWithReply(
           pos.x, pos.y, this.onHitTestResult.bind(this));
       return;

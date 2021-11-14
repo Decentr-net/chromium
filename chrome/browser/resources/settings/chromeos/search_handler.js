@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// #import 'chrome://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
-// #import 'chrome://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
+// #import 'decentr://resources/mojo/mojo/public/js/mojo_bindings_lite.js';
+// #import 'decentr://resources/mojo/mojo/public/mojom/base/string16.mojom-lite.js';
 // #import '../constants/routes.mojom-lite.js';
 // #import '../constants/setting.mojom-lite.js';
 // #import '../search/search_result_icon.mojom-lite.js';

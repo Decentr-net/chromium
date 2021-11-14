@@ -8,7 +8,7 @@
 #include "base/macros.h"
 #include "content/public/browser/web_ui_controller.h"
 
-// The WebUI for chrome://identity-internals
+// The WebUI for decentr://identity-internals
 class IdentityInternalsUI
     : public content::WebUIController {
  public:

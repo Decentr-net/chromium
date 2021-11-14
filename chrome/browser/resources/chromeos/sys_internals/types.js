@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 /**
- * @fileoverview Typedef use by chrome://sys-internals.
+ * @fileoverview Typedef use by decentr://sys-internals.
  */
 
 /**

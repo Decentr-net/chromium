@@ -41,7 +41,7 @@ LookalikeUrlBlockingPage::LookalikeUrlBlockingPage(
       security_interstitials::MetricsHelper::TOTAL_VISITS);
 
   // Creating an interstitial without showing it (e.g. from
-  // chrome://interstitials) leaks memory, so don't create it here.
+  // decentr://interstitials) leaks memory, so don't create it here.
 }
 
 LookalikeUrlBlockingPage::~LookalikeUrlBlockingPage() {

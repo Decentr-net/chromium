@@ -17,7 +17,7 @@ In other cases, you will need to specify the path to the Chrome binary with
 
 Note: when the channel is "dev", `wpt` will *automatically* enable all
 [experimental web platform features][1]
-(chrome://flags/#enable-experimental-web-platform-features) by passing
+(decentr://flags/#enable-experimental-web-platform-features) by passing
 `--enable-experimental-web-platform-features` to Chrome.
 
 If you want to enable a specific [runtime enabled feature][1], use

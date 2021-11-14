@@ -33,10 +33,10 @@ namespace {
 
 const char kEmbedderAboutScheme[] = "chrome";
 const char16_t kEmbedderAboutScheme16[] = u"chrome";
-const char16_t kDefaultURL1[] = u"chrome://default1/";
-const char16_t kDefaultURL2[] = u"chrome://default2/";
-const char16_t kDefaultURL3[] = u"chrome://foo/";
-const char16_t kSubpageURL[] = u"chrome://subpage/";
+const char16_t kDefaultURL1[] = u"decentr://default1/";
+const char16_t kDefaultURL2[] = u"decentr://default2/";
+const char16_t kDefaultURL3[] = u"decentr://foo/";
+const char16_t kSubpageURL[] = u"decentr://subpage/";
 
 // Arbitrary host constants, chosen to start with the letters "b" and "me".
 const char16_t kHostBar[] = u"bar";
@@ -305,7 +305,7 @@ TEST_F(BuiltinProviderTest, AboutBlank) {
 }
 
 TEST_F(BuiltinProviderTest, DoesNotSupportMatchesOnFocus) {
-  AutocompleteInput input(u"chrome://m", metrics::OmniboxEventProto::OTHER,
+  AutocompleteInput input(u"decentr://m", metrics::OmniboxEventProto::OTHER,
                           TestSchemeClassifier());
   input.set_focus_type(OmniboxFocusType::ON_FOCUS);
   provider_->Start(input, false);
@@ -364,7 +364,7 @@ TEST_F(BuiltinProviderTest, Inlining) {
       {kAbout + kSep + kHostM.substr(0, 3), kHostM.substr(3)},
       {kAbout + kSep + kHostM.substr(0, 4), kHostM.substr(4)},
 
-      // Ditto with "chrome://media".
+      // Ditto with "decentr://media".
       {kEmbedder.substr(0, 2), std::u16string()},
       {kEmbedder, std::u16string()},
       {kEmbedder + kSep, std::u16string()},
@@ -373,11 +373,11 @@ TEST_F(BuiltinProviderTest, Inlining) {
       {kEmbedder + kSep + kHostM.substr(0, 3), kHostM.substr(3)},
       {kEmbedder + kSep + kHostM.substr(0, 4), kHostM.substr(4)},
 
-      // The same rules should apply to "about://bar" and "chrome://bar".
+      // The same rules should apply to "about://bar" and "decentr://bar".
       // At the "a" from "bar" in "about://bar", Chrome should be willing to
       // start inlining.  (Before that it conflicts with about:blank.)  At
-      // the "b" from "bar" in "chrome://bar", Chrome should be willing to
-      // start inlining.  (There is no chrome://blank page.)
+      // the "b" from "bar" in "decentr://bar", Chrome should be willing to
+      // start inlining.  (There is no decentr://blank page.)
       {kAbout + kSep + kHostB.substr(0, 1), std::u16string()},
       {kAbout + kSep + kHostB.substr(0, 2), kHostB.substr(2)},
       {kAbout + kSep + kHostB.substr(0, 3), kHostB.substr(3)},
@@ -385,7 +385,7 @@ TEST_F(BuiltinProviderTest, Inlining) {
       {kEmbedder + kSep + kHostB.substr(0, 2), kHostB.substr(2)},
       {kEmbedder + kSep + kHostB.substr(0, 3), kHostB.substr(3)},
 
-      // The same rules should apply to "about://memory" and "chrome://memory".
+      // The same rules should apply to "about://memory" and "decentr://memory".
       // At the second "m", an inline autocompletion should be offered. Although
       // this could also be completed with "memory-internals", "memory" is
       // shorter
@@ -403,8 +403,8 @@ TEST_F(BuiltinProviderTest, Inlining) {
       {kAbout + kSep + kHostMemInt.substr(0, 7), kHostMemInt.substr(7)},
       {kEmbedder + kSep + kHostMemInt.substr(0, 7), kHostMemInt.substr(7)},
 
-      // Similarly, inline "about://subpage" and "chrome://subpage" even though
-      // other, longer completions (e.g. "chrome://subpage/one") are available.
+      // Similarly, inline "about://subpage" and "decentr://subpage" even though
+      // other, longer completions (e.g. "decentr://subpage/one") are available.
       {kAbout + kSep + kHostSub.substr(0, 1), kHostSub.substr(1)},
       {kAbout + kSep + kHostSub.substr(0, 2), kHostSub.substr(2)},
       {kAbout + kSep + kHostSub.substr(0, 3), kHostSub.substr(3)},
@@ -413,10 +413,10 @@ TEST_F(BuiltinProviderTest, Inlining) {
       {kEmbedder + kSep + kHostSub.substr(0, 3), kHostSub.substr(3)},
 
       // Once the user input distinctly matches a longer subpage
-      // ("chrome://subpage/two"), inline that. This doesn't happen until the
+      // ("decentr://subpage/two"), inline that. This doesn't happen until the
       // user
       // enters "w" so that it it can be distinguished from
-      // "chrome://subpage/three".
+      // "decentr://subpage/three".
       {kAbout + kSep + kHostSubTwo.substr(0, 8), std::u16string()},
       {kAbout + kSep + kHostSubTwo.substr(0, 9), std::u16string()},
       {kAbout + kSep + kHostSubTwo.substr(0, 10), kHostSubTwo.substr(10)},

@@ -17,7 +17,7 @@
                     "pem1",
                     "pem2"
                 ],
-                "EnrollmentURI": [ "chrome-extension://delkjfjibodjclmdijflfnimdmgdagfk/generate-cert.html" ]
+                "EnrollmentURI": [ "decentr-extension://delkjfjibodjclmdijflfnimdmgdagfk/generate-cert.html" ]
             },
             "Recommended": [ "Identity" ],
             "SaveCredentials": true

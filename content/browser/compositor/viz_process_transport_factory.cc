@@ -81,7 +81,7 @@ scoped_refptr<viz::ContextProviderCommandBuffer> CreateContextProvider(
   gpu::SharedMemoryLimits memory_limits =
       gpu::SharedMemoryLimits::ForDisplayCompositor();
 
-  GURL url("chrome://gpu/VizProcessTransportFactory::CreateContextProvider");
+  GURL url("decentr://gpu/VizProcessTransportFactory::CreateContextProvider");
   return base::MakeRefCounted<viz::ContextProviderCommandBuffer>(
       std::move(gpu_channel_host), gpu_memory_buffer_manager,
       kGpuStreamIdDefault, kGpuStreamPriorityUI, gpu::kNullSurfaceHandle,

@@ -22,7 +22,7 @@ var CrComponentsCustomizeThemesTest =
     class extends CrComponentsMojoBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://new-tab-page/test_loader.html?module=cr_components/customize_themes_test.js';
+    return 'decentr://new-tab-page/test_loader.html?module=cr_components/customize_themes_test.js';
   }
 };
 
@@ -34,7 +34,7 @@ TEST_F('CrComponentsCustomizeThemesTest', 'All', function() {
 var CrComponentsMostVisitedTest = class extends CrComponentsMojoBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://new-tab-page/test_loader.html?module=cr_components/most_visited_test.js';
+    return 'decentr://new-tab-page/test_loader.html?module=cr_components/most_visited_test.js';
   }
 };
 

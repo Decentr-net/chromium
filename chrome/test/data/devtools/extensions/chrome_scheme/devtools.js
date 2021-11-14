@@ -7,7 +7,7 @@ function output(msg) {
 }
 
 async function test() {
-  const newPageURL = 'chrome://version/';
+  const newPageURL = 'decentr://version/';
   const inspectedTabId = chrome.devtools.inspectedWindow.tabId;
   chrome.tabs.update(inspectedTabId, {url: newPageURL});
   await new Promise(resolve => chrome.tabs.onUpdated.addListener(

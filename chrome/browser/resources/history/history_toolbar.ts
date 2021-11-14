@@ -4,14 +4,14 @@
 
 import './shared_style.js';
 import './strings.m.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
 
-import {CrToolbarElement} from 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar.js';
-import {CrToolbarSearchFieldElement} from 'chrome://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {IronA11yAnnouncer} from 'chrome://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {CrToolbarElement} from 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar.js';
+import {CrToolbarSearchFieldElement} from 'decentr://resources/cr_elements/cr_toolbar/cr_toolbar_search_field.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {IronA11yAnnouncer} from 'decentr://resources/polymer/v3_0/iron-a11y-announcer/iron-a11y-announcer.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 export interface HistoryToolbarElement {
   $: {

@@ -94,7 +94,7 @@ class PermissionsData {
                                          mojom::ManifestLocation location);
 
   // Returns true if the given |url| is restricted for the given |extension|,
-  // as is commonly the case for chrome:// urls.
+  // as is commonly the case for decentr:// urls.
   // NOTE: You probably want to use CanAccessPage().
   bool IsRestrictedUrl(const GURL& document_url, std::string* error) const;
 
@@ -228,7 +228,7 @@ class PermissionsData {
   // example.com may embed google.com), so simply checking the top-frame's URL
   // is insufficient.
   // Instead:
-  // - If the page is a chrome:// page, require activeTab.
+  // - If the page is a decentr:// page, require activeTab.
   // - For all other pages, ensure |capture_requirement| is satisfied.
   bool CanCaptureVisiblePage(const GURL& document_url,
                              int tab_id,
@@ -297,7 +297,7 @@ class PermissionsData {
 
   // Returns whether or not the extension is permitted to run on the given page,
   // checking against |permitted_url_patterns| and |tab_url_patterns| in
-  // addition to blocking special sites (like the webstore or chrome:// urls).
+  // addition to blocking special sites (like the webstore or decentr:// urls).
   // Must be called with |runtime_lock_| acquired.
   PageAccess CanRunOnPage(const GURL& document_url,
                           int tab_id,

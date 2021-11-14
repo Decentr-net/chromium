@@ -42,7 +42,7 @@ ProfilePicker::AvailabilityOnStartup GetAvailabilityOnStartup() {
 }  // namespace
 
 const char ProfilePicker::kTaskManagerUrl[] =
-    "chrome://profile-picker/task-manager";
+    "decentr://profile-picker/task-manager";
 
 // static
 bool ProfilePicker::Shown() {

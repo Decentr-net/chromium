@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
-import {ArrayDataModel} from 'chrome://resources/js/cr/ui/array_data_model.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
+import {ArrayDataModel} from 'decentr://resources/js/cr/ui/array_data_model.m.js';
 
 import {CharacteristicList} from './characteristic_list.js';
 import {connectToDevice} from './device_broker.js';
@@ -14,7 +14,7 @@ import {Snackbar, SnackbarType} from './snackbar.js';
 
 /**
  * Javascript for ServiceList and ServiceListItem, served from
- *     chrome://bluetooth-internals/.
+ *     decentr://bluetooth-internals/.
  */
 
 /**

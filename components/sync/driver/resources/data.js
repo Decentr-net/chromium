@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {addWebUIListener, removeWebUIListener} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {addWebUIListener, removeWebUIListener} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 import {aboutInfo} from './about.js';
 import {getAllNodes, requestIncludeSpecificsInitialState, requestListOfTypes} from './chrome_sync.js';

@@ -213,7 +213,7 @@ const base::FeatureParam<int>
 // Note that default enabling this does not enable the Prerender2 features
 // because kSetOnlyIfOverridden is used for setting WebRuntimeFeatures'
 // Prerender2. To enable this feature, we need to force-enable this feature
-// using chrome://flags/#enable-prerender2 or --enable-features=Prerender2
+// using decentr://flags/#enable-prerender2 or --enable-features=Prerender2
 // command line or a valid Origin Trial token in the page.
 const base::Feature kPrerender2 {
   "Prerender2",

@@ -188,10 +188,10 @@ public abstract class QuickActionSearchWidgetProvider extends AppWidgetProvider 
     }
 
     /**
-     * Creates an intent to launch a new tab with chrome://dino/ URL.
+     * Creates an intent to launch a new tab with decentr://dino/ URL.
      *
      * @param context The context from which the intent is being created.
-     * @return An intent to launch a tab with a new tab with chrome://dino/ URL.
+     * @return An intent to launch a tab with a new tab with decentr://dino/ URL.
      */
     private static Intent createDinoIntent(final Context context) {
         // We concatenate the forward slash to the URL since if a Dino tab already exists, we would

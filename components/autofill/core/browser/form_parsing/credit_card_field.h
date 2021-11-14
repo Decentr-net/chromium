@@ -46,7 +46,7 @@ class CreditCardField : public FormField {
   // Returns true if |scanner| points to a field that looks like a year
   // <select> for a credit card. i.e. it contains the current year and
   // the next few years. |log_manager| is used to log any parsing details
-  // to chrome://autofill-internals
+  // to decentr://autofill-internals
   static bool LikelyCardYearSelectField(AutofillScanner* scanner,
                                         LogManager* log_manager,
                                         const LanguageCode& page_language);

@@ -165,7 +165,7 @@ Global non-const variables.
 
 ### Native resources (.pak)
 
-UI Images, chrome:// pages, UI strings, etc.
+UI Images, decentr:// pages, UI strings, etc.
 
 * **RAM:** _Clean Memory_
 * **Start-up:** Platform-dependent. None on Android. Page faults on desktop.

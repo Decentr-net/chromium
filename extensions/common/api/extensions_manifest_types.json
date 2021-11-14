@@ -96,7 +96,7 @@
             "type": "boolean"
           },
           "open_in_tab": {
-            "description": "<p>If <code>true</code>, your extension's options page will be opened in a new tab rather than embedded in <em>chrome://extensions</em>. The default is <code>false</code>, and we recommend that you don't change it.</p><p><strong>This is only useful to delay the inevitable deprecation of the old options UI!</strong> It will be removed soon, so try not to use it. It will break.</p>",
+            "description": "<p>If <code>true</code>, your extension's options page will be opened in a new tab rather than embedded in <em>decentr://extensions</em>. The default is <code>false</code>, and we recommend that you don't change it.</p><p><strong>This is only useful to delay the inevitable deprecation of the old options UI!</strong> It will be removed soon, so try not to use it. It will break.</p>",
             "optional": true,
             "type": "boolean"
           }

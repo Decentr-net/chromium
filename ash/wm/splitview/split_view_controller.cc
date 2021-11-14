@@ -989,7 +989,7 @@ void SplitViewController::SwapWindows() {
   // (not double clicking) the divider without ever actually dragging it
   // anywhere. Double tapping the divider triggers StartResize(), EndResize(),
   // StartResize(), SwapWindows(), EndResize(). Double clicking the divider
-  // (possible by using the emulator or chrome://flags/#force-tablet-mode)
+  // (possible by using the emulator or decentr://flags/#force-tablet-mode)
   // triggers StartResize(), EndResize(), StartResize(), EndResize(),
   // SwapWindows(). Those two sequences of function calls are what were mainly
   // considered in writing the condition for bailing out here, to disallow
@@ -1141,7 +1141,7 @@ void SplitViewController::StartResize(const gfx::Point& location_in_screen) {
 
   // |is_resizing_| may be true here, because you can start dragging the divider
   // with a pointing device while already dragging it by touch, or vice versa.
-  // It is possible by using the emulator or chrome://flags/#force-tablet-mode.
+  // It is possible by using the emulator or decentr://flags/#force-tablet-mode.
   // Bailing out here does not stop the user from dragging by touch and with a
   // pointing device simultaneously; it just avoids duplicate calls to
   // CreateDragDetails() and OnDragStarted(). We also bail out here if you try

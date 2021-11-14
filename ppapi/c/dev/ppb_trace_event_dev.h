@@ -90,7 +90,7 @@ struct PPB_Trace_Event_Dev_0_2 {
   PP_TraceEventTime (*Now)(void);
   /**
    * Sets the thread name of the calling thread in the tracing system so it will
-   * show up properly in chrome://tracing.
+   * show up properly in decentr://tracing.
    */
   void (*SetThreadName)(const char* thread_name);
 };

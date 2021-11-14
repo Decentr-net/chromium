@@ -4,7 +4,7 @@
 
 import './app_windows.js';
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
 
 import {openWindow} from '../../common/js/api.js';
 import {appUtil} from '../../common/js/app_util.js';

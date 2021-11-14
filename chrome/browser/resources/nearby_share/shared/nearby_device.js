@@ -6,7 +6,7 @@
  * @fileoverview The 'nearby-device' component shows details of a remote device.
  */
 
-import {CrAutoImgElement} from 'chrome://resources/cr_elements/cr_auto_img/cr_auto_img.js';
+import {CrAutoImgElement} from 'decentr://resources/cr_elements/cr_auto_img/cr_auto_img.js';
 
 Polymer({
   is: 'nearby-device',

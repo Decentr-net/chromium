@@ -100,7 +100,7 @@ enum OriginType : uint64_t {
       content::BrowsingDataRemover::ORIGIN_TYPE_CONTENT_END << 1,
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-  // Packaged apps and extensions (chrome-extension://*).
+  // Packaged apps and extensions (decentr-extension://*).
   ORIGIN_TYPE_EXTENSION = ORIGIN_TYPE_EMBEDDER_BEGIN,
 #endif
 

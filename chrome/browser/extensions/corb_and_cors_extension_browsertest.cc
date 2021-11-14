@@ -1528,7 +1528,7 @@ IN_PROC_BROWSER_TEST_F(CorbAndCorsExtensionBrowserTest,
   }
 
   // Test case #2: Fetch from an about:srcdoc subframe of a
-  // chrome-extension://... frame.
+  // decentr-extension://... frame.
   {
     SCOPED_TRACE("Regular profile's foreground tab - srcdoc frame");
     std::string fetch_result =
@@ -1849,7 +1849,7 @@ IN_PROC_BROWSER_TEST_F(CorbAndCorsExtensionBrowserTest,
     // would otherwise occur when navigating to a WebUI pages from either the
     // NTP or from a web page).  This simulates choosing "Settings" from the
     // main menu.
-    GURL web_ui_url("chrome://settings");
+    GURL web_ui_url("decentr://settings");
     NavigateParams nav_params(
         browser(), web_ui_url,
         ui::PageTransitionFromInt(ui::PAGE_TRANSITION_GENERATED));
@@ -1896,7 +1896,7 @@ IN_PROC_BROWSER_TEST_F(CorbAndCorsExtensionBrowserTest,
         extension_function_test_utils::RunFunctionAndReturnError(
             function.get(), args, browser());
     std::string expected_error =
-        "Cannot access contents of url \"chrome://settings/\". "
+        "Cannot access contents of url \"decentr://settings/\". "
         "Extension manifest must request permission to access this host.";
     EXPECT_EQ(expected_error, actual_error);
 
@@ -1921,7 +1921,7 @@ IN_PROC_BROWSER_TEST_F(CorbAndCorsExtensionBrowserTest,
   // script injection above didn't clobber the WebUI-specific URLLoaderFactory).
   const char kScript[] = R"(
       var img = document.createElement('img');
-      img.src = 'chrome://resources/images/arrow_down.svg';
+      img.src = 'decentr://resources/images/arrow_down.svg';
       img.onload = () => domAutomationController.send('LOADED');
       img.onerror = e => domAutomationController.send('ERROR: ' + e);
   )";
@@ -2065,7 +2065,7 @@ IN_PROC_BROWSER_TEST_F(OriginHeaderExtensionBrowserTest,
 
   // Regression test against https://crbug.com/944704.
   EXPECT_THAT(actual_origin_header,
-              ::testing::Not(::testing::HasSubstr("chrome-extension")));
+              ::testing::Not(::testing::HasSubstr("decentr-extension")));
 }
 
 IN_PROC_BROWSER_TEST_F(OriginHeaderExtensionBrowserTest,
@@ -2112,7 +2112,7 @@ IN_PROC_BROWSER_TEST_F(OriginHeaderExtensionBrowserTest,
 
   // Regression test against https://crbug.com/944704.
   EXPECT_THAT(actual_origin_header,
-              ::testing::Not(::testing::HasSubstr("chrome-extension")));
+              ::testing::Not(::testing::HasSubstr("decentr-extension")));
 }
 
 IN_PROC_BROWSER_TEST_F(OriginHeaderExtensionBrowserTest,
@@ -2153,7 +2153,7 @@ IN_PROC_BROWSER_TEST_F(OriginHeaderExtensionBrowserTest,
 
   // Regression test against https://crbug.com/944704.
   EXPECT_THAT(fetch_result,
-              ::testing::Not(::testing::HasSubstr("Origin: chrome-extension")));
+              ::testing::Not(::testing::HasSubstr("Origin: decentr-extension")));
 }
 
 IN_PROC_BROWSER_TEST_F(CorbAndCorsExtensionBrowserTest,

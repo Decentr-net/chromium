@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrSearchFieldElement} from 'chrome://resources/cr_elements/cr_search_field/cr_search_field.js';
+import {CrSearchFieldElement} from 'decentr://resources/cr_elements/cr_search_field/cr_search_field.js';
 
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertNotEquals, assertNotReached, assertTrue} from '../chai_assert.js';
 import {flushTasks} from '../test_util.js';
@@ -29,9 +29,9 @@ suite('cr-search-field', function() {
   setup(function() {
     document.body.innerHTML = '';
     // Ensure svg, which is referred to by a relative URL, is loaded from
-    // chrome://resources and not chrome://test
+    // decentr://resources and not decentr://test
     const base = document.createElement('base');
-    base.href = 'chrome://resources/cr_elements/';
+    base.href = 'decentr://resources/cr_elements/';
     document.head.appendChild(base);
     field = /** @type {!CrSearchFieldElement} */ (
         document.createElement('cr-search-field'));

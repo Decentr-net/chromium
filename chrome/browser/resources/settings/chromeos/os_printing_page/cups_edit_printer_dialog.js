@@ -23,7 +23,7 @@ import {OncMojo} from '//resources/cr_components/chromeos/network/onc_mojo.m.js'
 import {CrScrollableBehavior} from '//resources/cr_elements/cr_scrollable_behavior.m.js';
 import {afterNextRender, flush, html, Polymer, TemplateInstanceBase, Templatizer} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 import {recordClick, recordNavigation, recordPageBlur, recordPageFocus, recordSearch, recordSettingChange, setUserActionRecorderForTesting} from '../metrics_recorder.m.js';

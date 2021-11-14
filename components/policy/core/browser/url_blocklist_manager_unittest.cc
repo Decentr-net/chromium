@@ -476,9 +476,9 @@ TEST_F(URLBlocklistManagerTest, DefaultBlocklistExceptions) {
 
   // Internal NTP and extension URLs are not blocked by the "*":
   EXPECT_TRUE(blocklist.IsURLBlocked(GURL("http://www.google.com")));
-  EXPECT_FALSE(blocklist.IsURLBlocked(GURL("chrome-extension://xyz")));
+  EXPECT_FALSE(blocklist.IsURLBlocked(GURL("decentr-extension://xyz")));
   EXPECT_FALSE(
-      blocklist.IsURLBlocked(GURL("chrome-search://most-visited/title.html")));
+      blocklist.IsURLBlocked(GURL("decentr-search://most-visited/title.html")));
   EXPECT_FALSE(blocklist.IsURLBlocked(GURL("chrome-native://ntp")));
 #if defined(OS_IOS)
   // Ensure that the NTP is not blocked on iOS by "*".
@@ -488,21 +488,21 @@ TEST_F(URLBlocklistManagerTest, DefaultBlocklistExceptions) {
   // URLBlocklist code.
   EXPECT_FALSE(blocklist.IsURLBlocked(GURL("about:newtab")));
   EXPECT_FALSE(blocklist.IsURLBlocked(GURL("about://newtab/")));
-  EXPECT_FALSE(blocklist.IsURLBlocked(GURL("chrome://newtab")));
+  EXPECT_FALSE(blocklist.IsURLBlocked(GURL("decentr://newtab")));
 #endif
 
   // Unless they are explicitly on the blocklist:
-  blocked.Append("chrome-extension://*");
+  blocked.Append("decentr-extension://*");
   base::Value allowed(base::Value::Type::LIST);
-  allowed.Append("chrome-extension://abc");
+  allowed.Append("decentr-extension://abc");
   blocklist.Block(&base::Value::AsListValue(blocked));
   blocklist.Allow(&base::Value::AsListValue(allowed));
 
   EXPECT_TRUE(blocklist.IsURLBlocked(GURL("http://www.google.com")));
-  EXPECT_TRUE(blocklist.IsURLBlocked(GURL("chrome-extension://xyz")));
-  EXPECT_FALSE(blocklist.IsURLBlocked(GURL("chrome-extension://abc")));
+  EXPECT_TRUE(blocklist.IsURLBlocked(GURL("decentr-extension://xyz")));
+  EXPECT_FALSE(blocklist.IsURLBlocked(GURL("decentr-extension://abc")));
   EXPECT_FALSE(
-      blocklist.IsURLBlocked(GURL("chrome-search://most-visited/title.html")));
+      blocklist.IsURLBlocked(GURL("decentr-search://most-visited/title.html")));
   EXPECT_FALSE(blocklist.IsURLBlocked(GURL("chrome-native://ntp")));
 }
 
@@ -517,7 +517,7 @@ TEST_F(URLBlocklistManagerTest, BlocklistBasicCoverage) {
   EXPECT_TRUE(IsMatch("file:*", "file:///usr/local/boot.txt"));
   EXPECT_TRUE(IsMatch("https://*", "https:///abc.txt"));
   EXPECT_TRUE(IsMatch("ftp://*", "ftp://ftp.txt"));
-  EXPECT_TRUE(IsMatch("chrome://*", "chrome:policy"));
+  EXPECT_TRUE(IsMatch("decentr://*", "chrome:policy"));
   EXPECT_TRUE(IsMatch("noscheme", "http://noscheme"));
   // Filter custom schemes.
   EXPECT_TRUE(IsMatch("custom://*", "custom://example_app"));
@@ -533,7 +533,7 @@ TEST_F(URLBlocklistManagerTest, BlocklistBasicCoverage) {
 
   // Ommitting the scheme matches most standard schemes.
   EXPECT_TRUE(IsMatch("example.com", "chrome:example.com"));
-  EXPECT_TRUE(IsMatch("example.com", "chrome://example.com"));
+  EXPECT_TRUE(IsMatch("example.com", "decentr://example.com"));
   EXPECT_TRUE(IsMatch("example.com", "file://example.com/"));
   EXPECT_TRUE(IsMatch("example.com", "ftp://example.com"));
   EXPECT_TRUE(IsMatch("example.com", "http://example.com"));

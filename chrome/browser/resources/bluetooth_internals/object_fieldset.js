@@ -6,11 +6,11 @@
  * Javascript for ObjectFieldSet, a UI element for displaying the properties
  * of a given Javascript object. These properties are displayed in a fieldset
  * as a series of rows for each key-value pair.
- * Served from chrome://bluetooth-internals/.
+ * Served from decentr://bluetooth-internals/.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {define as crUiDefine} from 'chrome://resources/js/cr/ui.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {define as crUiDefine} from 'decentr://resources/js/cr/ui.m.js';
 
 /**
  * A fieldset that lists the properties of a given object. These properties

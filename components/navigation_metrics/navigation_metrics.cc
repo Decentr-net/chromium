@@ -41,10 +41,10 @@ const char* const kSchemeNames[] = {
     url::kBlobScheme,
     url::kFileSystemScheme,
     "chrome-native",
-    "chrome-search",
+    "decentr-search",
     dom_distiller::kDomDistillerScheme,
     "devtools",
-    "chrome-extension",
+    "decentr-extension",
     "view-source",
     "externalfile",
 };

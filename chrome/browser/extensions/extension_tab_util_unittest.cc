@@ -128,7 +128,7 @@ TEST(ExtensionTabUtilTest, ResolvePossiblyRelativeURL) {
             GURL("http://example.com/path"));
   EXPECT_EQ(
       ExtensionTabUtil::ResolvePossiblyRelativeURL("path", extension.get()),
-      GURL("chrome-extension://jpignaibiiemhngfjkcpokkamffknabf/path"));
+      GURL("decentr-extension://jpignaibiiemhngfjkcpokkamffknabf/path"));
   EXPECT_EQ(ExtensionTabUtil::ResolvePossiblyRelativeURL("path", nullptr),
             GURL("path"));
 }
@@ -158,7 +158,7 @@ TEST(ExtensionTabUtilTest, PrepareURLForNavigation) {
   // A kill URL should return false and set the error. There are several
   // different potential kill URLs and this just checks one of them.
   {
-    const std::string kKillURL("chrome://crash");
+    const std::string kKillURL("decentr://crash");
     std::string error;
     GURL url;
     EXPECT_FALSE(ExtensionTabUtil::PrepareURLForNavigation(

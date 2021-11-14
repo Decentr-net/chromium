@@ -3,13 +3,13 @@
 // found in the LICENSE file.
 
 /**
- * Javascript for usb_internals.html, served from chrome://usb-internals/.
+ * Javascript for usb_internals.html, served from decentr://usb-internals/.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {decorate} from 'chrome://resources/js/cr/ui.m.js';
-import {TabBox} from 'chrome://resources/js/cr/ui/tabs.js';
-import {getTrustedHTML} from 'chrome://resources/js/static_types.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {decorate} from 'decentr://resources/js/cr/ui.m.js';
+import {TabBox} from 'decentr://resources/js/cr/ui/tabs.js';
+import {getTrustedHTML} from 'decentr://resources/js/static_types.js';
 
 import {DevicesPage} from './devices_page.js';
 import {UsbInternalsPageHandler} from './usb_internals.mojom-webui.js';

@@ -7,7 +7,7 @@
  * animated and responsive background for any page that contains it.
  */
 
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /** @polymer */
 export class OnboardingBackgroundElement extends PolymerElement {

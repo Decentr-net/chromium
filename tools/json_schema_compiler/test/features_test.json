@@ -60,7 +60,7 @@
   "pi": {
     "channel": "stable",
     "contexts": ["webui_untrusted"],
-    "matches": ["chrome-untrusted://foo/*"]
+    "matches": ["decentr-untrusted://foo/*"]
   },
   "complex": [{
     "channel": "beta",

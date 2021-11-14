@@ -27,7 +27,7 @@ TEST(EventRouterTest, PopulateCrostiniEvent) {
   base::DictionaryValue ext_props;
   ext_props.SetString(
       "fileSystemRoot",
-      "filesystem:chrome-extension://extensionid/external/mountname/");
+      "filesystem:decentr-extension://extensionid/external/mountname/");
   ext_props.SetString("fileSystemName", "filesystemname");
   ext_props.SetString("fileFullPath", "/full/path");
   ext_props.SetBoolean("fileIsDirectory", true);
@@ -35,7 +35,7 @@ TEST(EventRouterTest, PopulateCrostiniEvent) {
 
   extensions::api::file_manager_private::CrostiniEvent swa_event;
   url::Origin swa_origin = url::Origin::Create(
-      GURL("chrome://file-manager/this-part-should-not-be-in?the=event"));
+      GURL("decentr://file-manager/this-part-should-not-be-in?the=event"));
   EventRouter::PopulateCrostiniEvent(
       swa_event,
       extensions::api::file_manager_private::CROSTINI_EVENT_TYPE_SHARE,
@@ -47,7 +47,7 @@ TEST(EventRouterTest, PopulateCrostiniEvent) {
   EXPECT_EQ(swa_event.entries.size(), 1u);
   base::DictionaryValue swa_props;
   swa_props.SetString("fileSystemRoot",
-                      "filesystem:chrome://file-manager/external/mountname/");
+                      "filesystem:decentr://file-manager/external/mountname/");
   swa_props.SetString("fileSystemName", "filesystemname");
   swa_props.SetString("fileFullPath", "/full/path");
   swa_props.SetBoolean("fileIsDirectory", true);

@@ -347,8 +347,8 @@ class ConnectorsServiceExemptURLsTest
 TEST_P(ConnectorsServiceExemptURLsTest, WebUI) {
   auto* service = ConnectorsServiceFactory::GetForBrowserContext(profile_);
   for (const char* url :
-       {"chrome://settings", "chrome://help-app/background",
-        "chrome://foo/bar/baz.html", "chrome://foo/bar/baz.html?param=value"}) {
+       {"decentr://settings", "decentr://help-app/background",
+        "decentr://foo/bar/baz.html", "decentr://foo/bar/baz.html?param=value"}) {
     auto settings = service->GetAnalysisSettings(GURL(url), connector());
     ASSERT_FALSE(settings.has_value());
   }
@@ -358,9 +358,9 @@ TEST_P(ConnectorsServiceExemptURLsTest, ThirdPartyExtensions) {
   auto* service = ConnectorsServiceFactory::GetForBrowserContext(profile_);
 
   for (const char* url :
-       {"chrome-extension://fake_id", "chrome-extension://fake_id/background",
-        "chrome-extension://fake_id/main.html",
-        "chrome-extension://fake_id/main.html?param=value"}) {
+       {"decentr-extension://fake_id", "decentr-extension://fake_id/background",
+        "decentr-extension://fake_id/main.html",
+        "decentr-extension://fake_id/main.html?param=value"}) {
     ASSERT_TRUE(GURL(url).is_valid());
     auto settings = service->GetAnalysisSettings(GURL(url), connector());
     ASSERT_TRUE(settings.has_value());
@@ -374,7 +374,7 @@ TEST_P(ConnectorsServiceExemptURLsTest, FirstPartyExtensions) {
   for (const std::string& suffix :
        {"/", "/background", "/main.html", "/main.html?param=value"}) {
     std::string url = base::StrCat(
-        {"chrome-extension://", extension_misc::kFilesManagerAppId, suffix});
+        {"decentr-extension://", extension_misc::kFilesManagerAppId, suffix});
     auto settings = service->GetAnalysisSettings(GURL(url), connector());
     ASSERT_FALSE(settings.has_value());
   }

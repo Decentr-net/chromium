@@ -22,7 +22,7 @@ class SettingsAppIntegrationTest : public SystemWebAppIntegrationTest {};
 
 // Test that the Settings App installs and launches correctly.
 IN_PROC_BROWSER_TEST_P(SettingsAppIntegrationTest, SettingsApp) {
-  const GURL url("chrome://os-settings");
+  const GURL url("decentr://os-settings");
   EXPECT_NO_FATAL_FAILURE(ExpectSystemWebAppValid(
       web_app::SystemAppType::SETTINGS, url, "Settings"));
 }

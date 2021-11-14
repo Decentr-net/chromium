@@ -254,7 +254,7 @@ TEST(FileManagerFileTasksTest, ChooseAndSetDefaultTask_FallbackTextApp) {
       false /* is_generic_file_handler */, false /* is_file_extension_match */);
   tasks.emplace_back(
       text_app_task, "Text", Verb::VERB_OPEN_WITH,
-      GURL("chrome://extension-icon/mmfbcljfglbokpmkimbfghdkjmjhdgbg/16/1"),
+      GURL("decentr://extension-icon/mmfbcljfglbokpmkimbfghdkjmjhdgbg/16/1"),
       false /* is_default */, false /* is_generic_file_handler */,
       false /* is_file_extension_match */);
   std::vector<extensions::EntryInfo> entries;
@@ -286,7 +286,7 @@ TEST(FileManagerFileTasksTest, ChooseAndSetDefaultTask_FallbackHtmlTextApp) {
       false /* is_generic_file_handler */, false /* is_file_extension_match */);
   tasks.emplace_back(
       text_app_task, "Text", Verb::VERB_OPEN_WITH,
-      GURL("chrome://extension-icon/mmfbcljfglbokpmkimbfghdkjmjhdgbg/16/1"),
+      GURL("decentr://extension-icon/mmfbcljfglbokpmkimbfghdkjmjhdgbg/16/1"),
       false /* is_default */, false /* is_generic_file_handler */,
       false /* is_file_extension_match */);
   std::vector<extensions::EntryInfo> entries;
@@ -311,7 +311,7 @@ TEST(FileManagerFileTasksTest, ChooseAndSetDefaultTask_FallbackAudioPlayer) {
   std::vector<FullTaskDescriptor> tasks;
   tasks.emplace_back(
       files_app_task, "Audio Player", Verb::VERB_OPEN_WITH,
-      GURL("chrome://extension-icon/cjbfomnbifhcdnihkgipgfcihmgjfhbf/32/1"),
+      GURL("decentr://extension-icon/cjbfomnbifhcdnihkgipgfcihmgjfhbf/32/1"),
       false /* is_default */, false /* is_generic_file_handler */,
       false /* is_file_extension_match */);
   std::vector<extensions::EntryInfo> entries;
@@ -338,7 +338,7 @@ TEST(FileManagerFileTasksTest, ChooseAndSetDefaultTask_FallbackOfficeEditing) {
   tasks.emplace_back(
       files_app_task, "Office Editing for Docs, Sheets & Slides",
       Verb::VERB_OPEN_WITH,
-      GURL("chrome://extension-icon/bpmcpldpdmajfigpchkicefoigmkfalc/32/1"),
+      GURL("decentr://extension-icon/bpmcpldpdmajfigpchkicefoigmkfalc/32/1"),
       false /* is_default */, false /* is_generic_file_handler */,
       false /* is_file_extension_match */);
   std::vector<extensions::EntryInfo> entries;
@@ -847,7 +847,7 @@ TEST_F(FileManagerFileTasksComplexTest, FindFileBrowserHandlerTasks) {
 
   // Find apps for a ".txt" file. Foo.app and Bar.app should be found.
   std::vector<GURL> file_urls;
-  file_urls.emplace_back("filesystem:chrome-extension://id/dir/foo.txt");
+  file_urls.emplace_back("filesystem:decentr-extension://id/dir/foo.txt");
 
   std::vector<FullTaskDescriptor> tasks;
   FindFileBrowserHandlerTasks(test_profile_.get(), file_urls, &tasks);
@@ -863,8 +863,8 @@ TEST_F(FileManagerFileTasksComplexTest, FindFileBrowserHandlerTasks) {
 
   // Find apps for ".txt" and ".html" files. Only Foo.app should be found.
   file_urls.clear();
-  file_urls.emplace_back("filesystem:chrome-extension://id/dir/foo.txt");
-  file_urls.emplace_back("filesystem:chrome-extension://id/dir/foo.html");
+  file_urls.emplace_back("filesystem:decentr-extension://id/dir/foo.txt");
+  file_urls.emplace_back("filesystem:decentr-extension://id/dir/foo.html");
   tasks.clear();
   FindFileBrowserHandlerTasks(test_profile_.get(), file_urls, &tasks);
   ASSERT_EQ(1U, tasks.size());
@@ -872,7 +872,7 @@ TEST_F(FileManagerFileTasksComplexTest, FindFileBrowserHandlerTasks) {
   EXPECT_EQ(kFooId, tasks[0].task_descriptor.app_id);
 
   // Add an ".png" file. No tasks should be found.
-  file_urls.emplace_back("filesystem:chrome-extension://id/dir/foo.png");
+  file_urls.emplace_back("filesystem:decentr-extension://id/dir/foo.png");
   tasks.clear();
   FindFileBrowserHandlerTasks(test_profile_.get(), file_urls, &tasks);
   // Confirm no tasks are found.
@@ -941,7 +941,7 @@ TEST_F(FileManagerFileTasksComplexTest, FindAllTypesOfTasks_GoogleDocument) {
   entries.emplace_back(util::GetMyFilesFolderForProfile(test_profile_.get())
                            .AppendASCII("foo.gdoc"),
                        "application/vnd.google-apps.document", false);
-  file_urls.emplace_back("filesystem:chrome-extension://id/dir/foo.gdoc");
+  file_urls.emplace_back("filesystem:decentr-extension://id/dir/foo.gdoc");
 
   std::vector<FullTaskDescriptor> tasks;
   FindAllTypesOfTasksSynchronousWrapper().Call(test_profile_.get(), entries,
@@ -1336,7 +1336,7 @@ class FileManagerFileTasksCrostiniTest
     std::string virtual_path = net::EscapeUrlEncodedData(
         util::GetDownloadsMountPointName(test_profile_.get()) + "/" + path,
         /*use_plus=*/false);
-    return GURL("filesystem:chrome-extension://id/external/" + virtual_path);
+    return GURL("filesystem:decentr-extension://id/external/" + virtual_path);
   }
 
   std::unique_ptr<crostini::CrostiniTestHelper> crostini_test_helper_;

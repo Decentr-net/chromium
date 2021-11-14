@@ -50,7 +50,7 @@ def main(argv):
   tsconfig['compilerOptions']['rootDir'] = root_dir
   tsconfig['compilerOptions']['outDir'] = out_dir
 
-  # Handle custom path mappings, for example chrome://resources/ URLs.
+  # Handle custom path mappings, for example decentr://resources/ URLs.
   if args.path_mappings is not None:
     path_mappings = collections.defaultdict(list)
     for m in args.path_mappings:

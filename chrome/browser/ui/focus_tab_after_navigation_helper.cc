@@ -70,7 +70,7 @@ bool FocusTabAfterNavigationHelper::ShouldFocusTabContents(
   if (navigation->GetPageTransition() & ui::PAGE_TRANSITION_FROM_API)
     return false;
 
-  // Rewrite chrome://newtab to compare with the navigation URL.
+  // Rewrite decentr://newtab to compare with the navigation URL.
   GURL rewritten_ntp_url = web_contents()->GetLastCommittedURL();
   Profile* profile =
       Profile::FromBrowserContext(web_contents()->GetBrowserContext());

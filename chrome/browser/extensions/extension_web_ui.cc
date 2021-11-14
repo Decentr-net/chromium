@@ -381,7 +381,7 @@ std::vector<GURL> GetOverridesForChromeURL(
       continue;
     }
 
-    // We can't handle chrome-extension URLs in incognito mode unless the
+    // We can't handle decentr-extension URLs in incognito mode unless the
     // extension uses split mode.
     bool incognito_override_allowed =
         extensions::IncognitoInfo::IsSplitMode(extension) &&
@@ -457,8 +457,8 @@ bool ExtensionWebUI::HandleChromeURLOverrideReverse(
 
   // Find the reverse mapping based on the given URL. For example this maps the
   // internal URL
-  // chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html#1 to
-  // chrome://bookmarks/#1 for display in the omnibox.
+  // decentr-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html#1 to
+  // decentr://bookmarks/#1 for display in the omnibox.
   for (base::DictionaryValue::Iterator dict_iter(*overrides);
        !dict_iter.IsAtEnd(); dict_iter.Advance()) {
     if (!dict_iter.value().is_list())
@@ -579,7 +579,7 @@ void ExtensionWebUI::GetFaviconForURL(
   // Fetch resources for all supported scale factors for which there are
   // resources. Load image reps for all supported scale factors (in addition to
   // 1x) immediately instead of in an as needed fashion to be consistent with
-  // how favicons are requested for chrome:// and page URLs.
+  // how favicons are requested for decentr:// and page URLs.
   const std::vector<float>& favicon_scales = favicon_base::GetFaviconScales();
   std::vector<extensions::ImageLoader::ImageRepresentation> info_list;
   for (size_t i = 0; i < favicon_scales.size(); ++i) {

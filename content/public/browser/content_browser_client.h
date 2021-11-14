@@ -350,7 +350,7 @@ class CONTENT_EXPORT ContentBrowserClient {
       const GURL& destination_url);
 
   // Returns true if the user intentionally initiated the navigation. This is
-  // used to determine whether we should process debug URLs like chrome://crash.
+  // used to determine whether we should process debug URLs like decentr://crash.
   // The default implementation checks whether the transition was initiated via
   // the address bar (rather than whether it was typed) to permit the pasting of
   // debug URLs.
@@ -475,8 +475,8 @@ class CONTENT_EXPORT ContentBrowserClient {
       const GURL& url);
 
   // Called when WebUI objects are created to get aggregate usage data (i.e. is
-  // chrome://downloads used more than chrome://bookmarks?). Only internal (e.g.
-  // chrome://) URLs are logged. Returns whether the URL was actually logged.
+  // decentr://downloads used more than decentr://bookmarks?). Only internal (e.g.
+  // decentr://) URLs are logged. Returns whether the URL was actually logged.
   virtual bool LogWebUIUrl(const GURL& web_ui_url);
 
   // http://crbug.com/829412

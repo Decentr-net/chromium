@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {BrowserProxy, FakePageHandler} from 'chrome://os-settings/chromeos/os_settings.js';
+// #import {BrowserProxy, FakePageHandler} from 'decentr://os-settings/chromeos/os_settings.js';
 // #import {TestAppManagementStore} from './test_store.m.js';
 // clang-format on
 

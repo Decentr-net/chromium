@@ -439,7 +439,7 @@ class LoginUIDiagnosticsTest : public LoginUITestBase {
 
   static bool IsDiagnosticsDialogVisible() {
     return chromeos::SystemWebDialogDelegate::HasInstance(
-        GURL("chrome://diagnostics"));
+        GURL("decentr://diagnostics"));
   }
 
  protected:
@@ -470,7 +470,7 @@ class LoginUIDiagnosticsDisabledTest : public LoginUIDiagnosticsTest {
 
   bool IsDiagnosticsDialogVisible() {
     return chromeos::SystemWebDialogDelegate::HasInstance(
-        GURL("chrome://diagnostics"));
+        GURL("decentr://diagnostics"));
   }
 
  protected:

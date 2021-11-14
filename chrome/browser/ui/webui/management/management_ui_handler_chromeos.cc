@@ -10,10 +10,10 @@ net::NetworkTrafficAnnotationTag GetManagementUICustomerLogoAnnotation() {
         sender: "Management UI Handler"
         description:
           "Download organization logo for visualization on the "
-          "chrome://management page."
+          "decentr://management page."
         trigger:
           "The user managed by organization that provides a company logo "
-          "in their GSuites account loads the chrome://management page."
+          "in their GSuites account loads the decentr://management page."
         data:
           "Organization uploaded image URL."
         destination: GOOGLE_OWNED_SERVICE

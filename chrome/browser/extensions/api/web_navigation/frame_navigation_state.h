@@ -83,7 +83,7 @@ class FrameNavigationState
   bool is_parsing_ = false;      // True if the frame is still parsing.
   GURL url_;                     // URL of this frame.
 
-  // If true, also allow events from chrome-extension:// URLs.
+  // If true, also allow events from decentr-extension:// URLs.
   static bool allow_extension_scheme_;
 };
 

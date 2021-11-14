@@ -93,7 +93,7 @@ public class DistillabilityServiceTest {
 
         // Navigate to a native page.
         int curCallCount = finishHelper.getCallCount();
-        mActivityTestRule.loadUrl("chrome://history/");
+        mActivityTestRule.loadUrl("decentr://history/");
         finishHelper.waitForCallback(curCallCount, 1);
         Assert.assertEquals(0, readerShownCallbackHelper.getCallCount());
 

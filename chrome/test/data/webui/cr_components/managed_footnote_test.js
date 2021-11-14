@@ -5,11 +5,11 @@
 /** @fileoverview Suite of tests for managed-footnote. */
 
 // clang-format off
-import 'chrome://resources/cr_components/managed_footnote/managed_footnote.js';
+import 'decentr://resources/cr_components/managed_footnote/managed_footnote.js';
 
-import {isChromeOS} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {isChromeOS} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
   /** @enum {string} */

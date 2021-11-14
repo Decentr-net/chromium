@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {sendWithPromise} from 'chrome://resources/js/cr.m.js';
-import {$} from 'chrome://resources/js/util.m.js';
+import {sendWithPromise} from 'decentr://resources/js/cr.m.js';
+import {$} from 'decentr://resources/js/util.m.js';
 
 // Timer for automatic update in monitoring mode.
 let fetchDiffScheduler = null;
@@ -46,8 +46,8 @@ function fetchDiff() {
  * Gets the query string from the URL.
  *
  * For example, if the URL is
- *   - "chrome://histograms/#abc" or
- *   - "chrome://histograms/abc"
+ *   - "decentr://histograms/#abc" or
+ *   - "decentr://histograms/abc"
  * then the query is "abc". The "#" format is canonical. The bare format is
  * historical. "Blink.ImageDecodeTimes.Png" is a valid histogram name but the
  * ".Png" pathname suffix can cause the bare histogram page to be served as
@@ -166,6 +166,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 /**
- * Reload histograms when the "#abc" in "chrome://histograms/#abc" changes.
+ * Reload histograms when the "#abc" in "decentr://histograms/#abc" changes.
  */
 window.onhashchange = requestHistograms;

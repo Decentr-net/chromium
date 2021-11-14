@@ -1246,7 +1246,7 @@ PrefService* PrefsUtil::FindServiceForPref(const std::string& pref_name) {
   PrefService* user_prefs = profile_->GetPrefs();
 
   // Proxy is a peculiar case: on ChromeOS, settings exist in both user
-  // prefs and local state, but chrome://settings should affect only user prefs.
+  // prefs and local state, but decentr://settings should affect only user prefs.
   // Elsewhere the proxy settings are stored in local state.
   // See http://crbug.com/157147
 

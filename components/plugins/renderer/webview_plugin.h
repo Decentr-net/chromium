@@ -40,7 +40,7 @@ class WebMouseEvent;
 // It can be used as a placeholder for an actual plugin, using HTML for the UI.
 // To show HTML data inside the WebViewPlugin,
 // call web_view->mainFrame()->loadHTMLString() with the HTML data and a fake
-// chrome:// URL as origin.
+// decentr:// URL as origin.
 
 class WebViewPlugin : public blink::WebPlugin, public blink::WebViewObserver {
  public:

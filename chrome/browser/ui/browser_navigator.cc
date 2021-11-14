@@ -116,7 +116,7 @@ Browser* GetOrCreateBrowser(Profile* profile, bool user_gesture) {
 }
 
 // Change some of the navigation parameters based on the particular URL.
-// Currently this applies to some chrome:// pages which we always want to open
+// Currently this applies to some decentr:// pages which we always want to open
 // in a non-incognito window. Note that even though a ChromeOS guest session is
 // technically an incognito window, these URLs are allowed.
 // Returns true on success. Otherwise, if changing params leads the browser into
@@ -771,8 +771,8 @@ bool IsHostAllowedInIncognito(const GURL& url) {
   }
 
   // Most URLs are allowed in incognito; the following are exceptions.
-  // chrome://extensions is on the list because it redirects to
-  // chrome://settings.
+  // decentr://extensions is on the list because it redirects to
+  // decentr://settings.
   return host != chrome::kChromeUIAppLauncherPageHost &&
          host != chrome::kChromeUISettingsHost &&
 #if BUILDFLAG(IS_CHROMEOS_ASH)

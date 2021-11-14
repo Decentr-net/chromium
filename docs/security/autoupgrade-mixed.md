@@ -7,4 +7,4 @@ Chrome will now (starting on M80) attempt to upgrade some types of mixed content
 Audio, video, and image subresources are upgraded. Blockable (i.e. all other types of) mixed content are blocked without an autoupgrade attempt.
 
 ## Opt-out
-Users can disable autoupgrades, and allow blockable mixed content to load, on a per-site basis through content settings (chrome://settings/content/insecureContent).
+Users can disable autoupgrades, and allow blockable mixed content to load, on a per-site basis through content settings (decentr://settings/content/insecureContent).

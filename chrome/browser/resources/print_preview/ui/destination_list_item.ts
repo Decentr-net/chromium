@@ -2,19 +2,19 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'chrome://resources/cr_elements/hidden_style_css.m.js';
-import 'chrome://resources/cr_elements/icons.m.js';
-import 'chrome://resources/cr_elements/shared_vars_css.m.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/cr_elements/hidden_style_css.m.js';
+import 'decentr://resources/cr_elements/icons.m.js';
+import 'decentr://resources/cr_elements/shared_vars_css.m.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
 import './icons.js';
 import './print_preview_vars_css.js';
 import '../strings.m.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {I18nBehavior} from 'chrome://resources/js/i18n_behavior.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {removeHighlights} from 'chrome://resources/js/search_highlight_utils.js';
-import {html, mixinBehaviors, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {I18nBehavior} from 'decentr://resources/js/i18n_behavior.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {removeHighlights} from 'decentr://resources/js/search_highlight_utils.js';
+import {html, mixinBehaviors, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {Destination, DestinationOrigin} from '../data/destination.js';
 // <if expr="chromeos or lacros">
@@ -127,9 +127,9 @@ export class PrintPreviewDestinationListItemElement extends
       const icon =
           this.shadowRoot!.querySelector('.extension-icon')! as HTMLElement;
       icon.style.backgroundImage = '-webkit-image-set(' +
-          'url(chrome://extension-icon/' + this.destination.extensionId +
+          'url(decentr://extension-icon/' + this.destination.extensionId +
           '/24/1) 1x,' +
-          'url(chrome://extension-icon/' + this.destination.extensionId +
+          'url(decentr://extension-icon/' + this.destination.extensionId +
           '/48/1) 2x)';
     }
   }

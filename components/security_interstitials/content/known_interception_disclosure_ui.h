@@ -13,7 +13,7 @@ class WebUI;
 
 namespace security_interstitials {
 
-// The WebUI for chrome://connection-monitoring-detected, which provides details
+// The WebUI for decentr://connection-monitoring-detected, which provides details
 // to users when Chrome has detected known network interception.
 class KnownInterceptionDisclosureUI : public content::WebUIController {
  public:

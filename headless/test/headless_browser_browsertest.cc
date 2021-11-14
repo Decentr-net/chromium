@@ -483,7 +483,7 @@ class CrashReporterTest : public HeadlessBrowserTest,
 IN_PROC_BROWSER_TEST_F(CrashReporterTest, MAYBE_GenerateMinidump) {
   content::ScopedAllowRendererCrashes scoped_allow_renderer_crashes;
 
-  // Navigates a tab to chrome://crash and checks that a minidump is generated.
+  // Navigates a tab to decentr://crash and checks that a minidump is generated.
   // Note that we only test renderer crashes here -- browser crashes need to be
   // tested with a separate harness.
   //

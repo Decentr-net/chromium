@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import 'chrome://os-settings/chromeos/os_settings.js';
+// #import 'decentr://os-settings/chromeos/os_settings.js';
 
-// #import {Router, routes, Route, osPageVisibility} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {Router, routes, Route, osPageVisibility} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // clang-format on
 
 /** @fileoverview Runs tests for the OS settings menu. */

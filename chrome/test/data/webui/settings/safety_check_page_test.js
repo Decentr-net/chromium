@@ -3,10 +3,10 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {HatsBrowserProxyImpl, LifetimeBrowserProxyImpl, MetricsBrowserProxyImpl, OpenWindowProxyImpl, PasswordCheckReferrer, PasswordManagerImpl, Router, routes, SafetyCheckBrowserProxyImpl, SafetyCheckCallbackConstants, SafetyCheckChromeCleanerStatus, SafetyCheckExtensionsStatus, SafetyCheckIconStatus, SafetyCheckInteractions, SafetyCheckParentStatus, SafetyCheckPasswordsStatus, SafetyCheckSafeBrowsingStatus, SafetyCheckUpdatesStatus, SettingsSafetyCheckChildElement, SettingsSafetyCheckExtensionsChildElement, SettingsSafetyCheckPageElement, SettingsSafetyCheckPasswordsChildElement, SettingsSafetyCheckSafeBrowsingChildElement, SettingsSafetyCheckUpdatesChildElement, TrustSafetyInteraction} from 'chrome://settings/settings.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {HatsBrowserProxyImpl, LifetimeBrowserProxyImpl, MetricsBrowserProxyImpl, OpenWindowProxyImpl, PasswordCheckReferrer, PasswordManagerImpl, Router, routes, SafetyCheckBrowserProxyImpl, SafetyCheckCallbackConstants, SafetyCheckChromeCleanerStatus, SafetyCheckExtensionsStatus, SafetyCheckIconStatus, SafetyCheckInteractions, SafetyCheckParentStatus, SafetyCheckPasswordsStatus, SafetyCheckSafeBrowsingStatus, SafetyCheckUpdatesStatus, SettingsSafetyCheckChildElement, SettingsSafetyCheckExtensionsChildElement, SettingsSafetyCheckPageElement, SettingsSafetyCheckPasswordsChildElement, SettingsSafetyCheckSafeBrowsingChildElement, SettingsSafetyCheckUpdatesChildElement, TrustSafetyInteraction} from 'decentr://settings/settings.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {TestBrowserProxy} from '../test_browser_proxy.js';
@@ -868,7 +868,7 @@ suite('SafetyCheckExtensionsChildUiTests', function() {
         await metricsBrowserProxy.whenCalled('recordAction'));
     // Ensure the browser proxy call is done.
     assertEquals(
-        'chrome://extensions', await openWindowProxy.whenCalled('openURL'));
+        'decentr://extensions', await openWindowProxy.whenCalled('openURL'));
   }
 
   test('extensionsCheckingUiTest', function() {
@@ -915,7 +915,7 @@ suite('SafetyCheckExtensionsChildUiTests', function() {
         await metricsBrowserProxy.whenCalled('recordAction'));
     // Ensure the browser proxy call is done.
     const url = await openWindowProxy.whenCalled('openURL');
-    assertEquals('chrome://extensions', url);
+    assertEquals('decentr://extensions', url);
   });
 
   test('extensionsBlocklistedOffUiTest', async function() {
@@ -933,7 +933,7 @@ suite('SafetyCheckExtensionsChildUiTests', function() {
     page.shadowRoot.querySelector('#safetyCheckChild').click();
     // Ensure the browser proxy call is done.
     const url = await openWindowProxy.whenCalled('openURL');
-    assertEquals('chrome://extensions', url);
+    assertEquals('decentr://extensions', url);
   });
 
   test('extensionsBlocklistedOnAllUserUiTest', function() {

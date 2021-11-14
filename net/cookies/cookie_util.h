@@ -170,9 +170,9 @@ NET_EXPORT std::string SerializeRequestCookieLine(
 //
 // If `force_ignore_site_for_cookies` is specified, all SameSite cookies will be
 // attached, i.e. this will return SAME_SITE_STRICT. This flag is set to true
-// when the `site_for_cookies` is a chrome:// URL embedding a secure origin,
+// when the `site_for_cookies` is a decentr:// URL embedding a secure origin,
 // among other scenarios.
-// This is *not* set when the *initiator* is chrome-extension://,
+// This is *not* set when the *initiator* is decentr-extension://,
 // which is intentional, since it would be bad to let an extension arbitrarily
 // redirect anywhere and bypass SameSite=Strict rules.
 //

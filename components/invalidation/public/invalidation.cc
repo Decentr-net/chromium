@@ -27,7 +27,7 @@ const char kPayloadKey[] = "payload";
 const int64_t kInvalidVersion = -1;
 
 // Fills base::DictionaryValue as if legacy ObjectID still would be in use.
-// Used to provide values for chrome://invalidations page.
+// Used to provide values for decentr://invalidations page.
 std::unique_ptr<base::DictionaryValue> TopicToObjectIDValue(
     const Topic& topic) {
   auto value = std::make_unique<base::DictionaryValue>();
@@ -124,7 +124,7 @@ bool Invalidation::Equals(const Invalidation& other) const {
 std::unique_ptr<base::DictionaryValue> Invalidation::ToValue() const {
   auto value = std::make_unique<base::DictionaryValue>();
   // TODO(crbug.com/1056181): ObjectID has been deprecated, but the value here
-  // used in the js counterpart (chrome://invalidations). Replace ObjectID with
+  // used in the js counterpart (decentr://invalidations). Replace ObjectID with
   // Topic here together with js counterpart update.
   value->Set(kObjectIdKey, TopicToObjectIDValue(topic_));
   if (is_unknown_version_) {

@@ -4,7 +4,7 @@
     "EAP":{
       "ClientCertPattern":{
         "EnrollmentURI":[
-          "chrome-extension://delkjfjibodjclmdijflfnimdmgdagfk/generate-cert.html"
+          "decentr-extension://delkjfjibodjclmdijflfnimdmgdagfk/generate-cert.html"
         ],
         "IssuerCARef":[
           "{58ac1967-a0e7-49e9-be68-123abc}",

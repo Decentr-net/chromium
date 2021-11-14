@@ -11,7 +11,7 @@ chrome.test.getConfig(function(config) {
     chrome.test.notifyPass();
   });
 
-  // Set nested subframes with localhost and chrome-extension content.
+  // Set nested subframes with localhost and decentr-extension content.
   document.querySelector('iframe').addEventListener('load', function(event) {
     window.frames['localhost'].frames['chrome_extension'].location =
         chrome.runtime.getURL('handler.html');

@@ -105,7 +105,7 @@ void DownloadDangerPrompt::SendSafeBrowsingDownloadReport(
     sb_service->SendSerializedDownloadReport(profile, serialized_report);
 
     // The following is to log this ClientSafeBrowsingReportRequest on any open
-    // chrome://safe-browsing pages.
+    // decentr://safe-browsing pages.
     content::GetUIThreadTaskRunner({})->PostTask(
         FROM_HERE,
         base::BindOnce(

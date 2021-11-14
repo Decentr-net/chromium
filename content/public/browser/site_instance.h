@@ -81,7 +81,7 @@ using SiteInstanceId = base::IdType32<class SiteInstanceIdTag>;
 // BrowsingInstance is always used for documents from the web.
 //
 // In each model, there are many exceptions, such as always requiring locked
-// processes for chrome:// URLs, or allowing some special cases to share
+// processes for decentr:// URLs, or allowing some special cases to share
 // processes with each other (e.g., file:// URLs).
 //
 // In terms of lifetime, each RenderFrameHost tracks the SiteInstance it is

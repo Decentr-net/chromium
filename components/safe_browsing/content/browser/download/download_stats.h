@@ -48,7 +48,7 @@ void RecordDangerousDownloadWarningShown(
     bool has_user_gesture);
 
 // Records that a download warning was bypassed from the download shelf or the
-// chrome://downloads page.
+// decentr://downloads page.
 void RecordDangerousDownloadWarningBypassed(
     download::DownloadDangerType danger_type,
     const base::FilePath& file_path,
@@ -56,7 +56,7 @@ void RecordDangerousDownloadWarningBypassed(
     bool has_user_gesture);
 
 // Records that a download was opened from the download shelf or the
-// chrome://downloads page.
+// decentr://downloads page.
 void RecordDownloadOpened(download::DownloadDangerType danger_type,
                           download::DownloadContent download_content,
                           base::Time download_opened_time,
@@ -64,7 +64,7 @@ void RecordDownloadOpened(download::DownloadDangerType danger_type,
                           bool show_download_in_folder);
 
 // Records that latency between when a download was opened (via the shelf or
-// chrome://downloads) by extension type.
+// decentr://downloads) by extension type.
 void RecordDownloadOpenedFileType(download::DownloadContent download_content,
                                   base::Time download_opened_time,
                                   base::Time download_end_time);

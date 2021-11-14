@@ -26,9 +26,9 @@ export class WelcomeBrowserProxyImpl implements WelcomeBrowserProxy {
 
   goToNewTabPage(replace?: boolean): void {
     if (replace) {
-      window.location.replace('chrome://newtab');
+      window.location.replace('decentr://newtab');
     } else {
-      window.location.assign('chrome://newtab');
+      window.location.assign('decentr://newtab');
     }
   }
 

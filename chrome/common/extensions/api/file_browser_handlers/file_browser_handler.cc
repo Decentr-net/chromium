@@ -213,7 +213,7 @@ std::unique_ptr<FileBrowserHandler> LoadFileBrowserHandler(
       }
       // The user inputs filesystem:*; we don't actually implement scheme
       // wildcards in URLPattern, so transform to what will match correctly.
-      filter.replace(0, 11, "chrome-extension://*/");
+      filter.replace(0, 11, "decentr-extension://*/");
       URLPattern pattern(URLPattern::SCHEME_EXTENSION);
       if (pattern.Parse(filter) != URLPattern::ParseResult::kSuccess) {
         *error = extensions::ErrorUtils::FormatErrorMessageUTF16(

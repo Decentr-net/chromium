@@ -148,12 +148,12 @@ IN_PROC_BROWSER_TEST_F(RenderFrameDevToolsAgentHostBrowserTest,
 }
 
 // Regression test for https://crbug.com/795694.
-// * Open chrome://dino
+// * Open decentr://dino
 // * Open DevTools
 // * Reload from DevTools must work.
 IN_PROC_BROWSER_TEST_F(RenderFrameDevToolsAgentHostBrowserTest,
                        ReloadDinoPage) {
-  // 1) Navigate to chrome://dino.
+  // 1) Navigate to decentr://dino.
   GURL dino_url(kChromeUIScheme + std::string("://") + kChromeUIDinoHost);
   EXPECT_FALSE(NavigateToURL(shell(), dino_url));
 

@@ -49,12 +49,12 @@
                 break;
             case 2:
                 alert("Test in isolated world with lax CSP");
-                testRunner.setIsolatedWorldInfo(1, 'chrome-extension://123', 'img-src *');
+                testRunner.setIsolatedWorldInfo(1, 'decentr-extension://123', 'img-src *');
                 testRunner.evaluateScriptInIsolatedWorld(1, String(eval("setImgSrc")) + "\nsetImgSrc(2);");
                 break;
             case 1:
                 alert("Test in isolated world with restrictive CSP");
-                testRunner.setIsolatedWorldInfo(1, 'chrome-extension://123', "img-src 'self'");
+                testRunner.setIsolatedWorldInfo(1, 'decentr-extension://123', "img-src 'self'");
                 testRunner.evaluateScriptInIsolatedWorld(1, String(eval("setImgSrc")) + "\nsetImgSrc(0);");
                 break;
             case 0:

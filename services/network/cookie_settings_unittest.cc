@@ -336,31 +336,31 @@ TEST_F(CookieSettingsTest, GetCookieSettingSecureOriginCookiesAllowed) {
 
   EXPECT_EQ(
       settings.GetCookieSetting(GURL("https://foo.com") /* url */,
-                                GURL("chrome://foo") /* first_party_url */,
+                                GURL("decentr://foo") /* first_party_url */,
                                 nullptr /* source */),
       CONTENT_SETTING_ALLOW);
 
   EXPECT_EQ(
-      settings.GetCookieSetting(GURL("chrome://foo") /* url */,
+      settings.GetCookieSetting(GURL("decentr://foo") /* url */,
                                 GURL("https://foo.com") /* first_party_url */,
                                 nullptr /* source */),
       CONTENT_SETTING_BLOCK);
 
   EXPECT_EQ(
       settings.GetCookieSetting(GURL("http://foo.com") /* url */,
-                                GURL("chrome://foo") /* first_party_url */,
+                                GURL("decentr://foo") /* first_party_url */,
                                 nullptr /* source */),
       CONTENT_SETTING_BLOCK);
 }
 
 TEST_F(CookieSettingsTest, GetCookieSettingWithThirdPartyCookiesAllowedScheme) {
   CookieSettings settings;
-  settings.set_third_party_cookies_allowed_schemes({"chrome-extension"});
+  settings.set_third_party_cookies_allowed_schemes({"decentr-extension"});
   settings.set_block_third_party_cookies(true);
 
   EXPECT_EQ(settings.GetCookieSetting(
                 GURL("http://foo.com") /* url */,
-                GURL("chrome-extension://foo") /* first_party_url */,
+                GURL("decentr-extension://foo") /* first_party_url */,
                 nullptr /* source */),
             CONTENT_SETTING_ALLOW);
 
@@ -371,7 +371,7 @@ TEST_F(CookieSettingsTest, GetCookieSettingWithThirdPartyCookiesAllowedScheme) {
             CONTENT_SETTING_BLOCK);
 
   EXPECT_EQ(
-      settings.GetCookieSetting(GURL("chrome-extension://foo") /* url */,
+      settings.GetCookieSetting(GURL("decentr-extension://foo") /* url */,
                                 GURL("http://foo.com") /* first_party_url */,
                                 nullptr /* source */),
       CONTENT_SETTING_BLOCK);
@@ -379,23 +379,23 @@ TEST_F(CookieSettingsTest, GetCookieSettingWithThirdPartyCookiesAllowedScheme) {
 
 TEST_F(CookieSettingsTest, GetCookieSettingMatchingSchemeCookiesAllowed) {
   CookieSettings settings;
-  settings.set_matching_scheme_cookies_allowed_schemes({"chrome-extension"});
+  settings.set_matching_scheme_cookies_allowed_schemes({"decentr-extension"});
   settings.set_block_third_party_cookies(true);
 
   EXPECT_EQ(settings.GetCookieSetting(
-                GURL("chrome-extension://bar") /* url */,
-                GURL("chrome-extension://foo") /* first_party_url */,
+                GURL("decentr-extension://bar") /* url */,
+                GURL("decentr-extension://foo") /* first_party_url */,
                 nullptr /* source */),
             CONTENT_SETTING_ALLOW);
 
   EXPECT_EQ(settings.GetCookieSetting(
                 GURL("http://foo.com") /* url */,
-                GURL("chrome-extension://foo") /* first_party_url */,
+                GURL("decentr-extension://foo") /* first_party_url */,
                 nullptr /* source */),
             CONTENT_SETTING_BLOCK);
 
   EXPECT_EQ(
-      settings.GetCookieSetting(GURL("chrome-extension://foo") /* url */,
+      settings.GetCookieSetting(GURL("decentr-extension://foo") /* url */,
                                 GURL("http://foo.com") /* first_party_url */,
                                 nullptr /* source */),
       CONTENT_SETTING_BLOCK);

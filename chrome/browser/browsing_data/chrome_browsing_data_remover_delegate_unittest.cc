@@ -2810,7 +2810,7 @@ TEST_F(ChromeBrowsingDataRemoverDelegateTest,
 TEST_F(ChromeBrowsingDataRemoverDelegateTest, OriginTypeMasks) {
   const GURL kOriginProtected("http://protected.com");
   const GURL kOriginUnprotected("http://unprotected.com");
-  const GURL kOriginExtension("chrome-extension://abcdefghijklmnopqrstuvwxyz");
+  const GURL kOriginExtension("decentr-extension://abcdefghijklmnopqrstuvwxyz");
   const GURL kOriginDevTools("devtools://abcdefghijklmnopqrstuvw");
 
   auto mock_policy = base::MakeRefCounted<MockExtensionSpecialStoragePolicy>();
@@ -2873,7 +2873,7 @@ TEST_F(ChromeBrowsingDataRemoverDelegateTest, OriginTypeMasks) {
 // If extensions are disabled, there is no policy.
 TEST_F(ChromeBrowsingDataRemoverDelegateTest, OriginTypeMasksNoPolicy) {
   const GURL kOriginStandard("http://test.com");
-  const GURL kOriginExtension("chrome-extension://abcdefghijklmnopqrstuvwxyz");
+  const GURL kOriginExtension("decentr-extension://abcdefghijklmnopqrstuvwxyz");
   const GURL kOriginDevTools("devtools://abcdefghijklmnopqrstuvw");
 
   EXPECT_TRUE(Match(kOriginStandard, kUnprotected, nullptr));

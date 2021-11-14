@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {removeBookmark, Store, StoreClient} from 'chrome://bookmarks/bookmarks.js';
-import {flush, html, Polymer} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {TestStore} from 'chrome://test/bookmarks/test_store.js';
-import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'chrome://test/bookmarks/test_util.js';
+import {removeBookmark, Store, StoreClient} from 'decentr://bookmarks/bookmarks.js';
+import {flush, html, Polymer} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {TestStore} from 'decentr://test/bookmarks/test_store.js';
+import {createFolder, createItem, getAllFoldersOpenState, replaceBody, testTree} from 'decentr://test/bookmarks/test_util.js';
 
 suite('bookmarks.Store', function() {
   let store;

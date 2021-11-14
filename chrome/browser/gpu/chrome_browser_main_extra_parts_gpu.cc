@@ -29,7 +29,7 @@ void ChromeBrowserMainExtraPartsGpu::PreCreateThreads() {
   // 1) Need to initialize in-process GpuDataManager before creating threads.
   // It's unsafe to append the gpu command line switches to the global
   // CommandLine::ForCurrentProcess object after threads are created.
-  // 2) Must be after other parts' PreCreateThreads to pick up chrome://flags.
+  // 2) Must be after other parts' PreCreateThreads to pick up decentr://flags.
   DCHECK(!content::GpuDataManager::Initialized());
   content::GpuDataManager* manager = content::GpuDataManager::GetInstance();
   if (features::IsUsingSkiaRenderer())

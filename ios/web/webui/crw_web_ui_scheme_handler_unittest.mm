@@ -241,7 +241,7 @@ TEST_F(CRWWebUISchemeManagerTest, StopTask) {
   EXPECT_FALSE(url_scheme_task.receivedError);
 }
 
-// Tests that proper mime-type is returned for a given chrome:// request.
+// Tests that proper mime-type is returned for a given decentr:// request.
 TEST_F(CRWWebUISchemeManagerTest, CheckMimetypeOfChromeScheme) {
   CRWWebUISchemeHandler* scheme_handler = CreateSchemeHandler();
   id web_view = OCMClassMock([WKWebView class]);
@@ -249,8 +249,8 @@ TEST_F(CRWWebUISchemeManagerTest, CheckMimetypeOfChromeScheme) {
 
   // Check javascript
   NSMutableURLRequest* request = [NSMutableURLRequest
-      requestWithURL:[NSURL URLWithString:@"chrome://clown/res/clown.js"]];
-  request.mainDocumentURL = [NSURL URLWithString:@"chrome://clown/"];
+      requestWithURL:[NSURL URLWithString:@"decentr://clown/res/clown.js"]];
+  request.mainDocumentURL = [NSURL URLWithString:@"decentr://clown/"];
   url_scheme_task.request = request;
   [scheme_handler webView:web_view startURLSchemeTask:url_scheme_task];
   RespondWithData(net::GURLWithNSURL(request.URL), "{}");
@@ -261,8 +261,8 @@ TEST_F(CRWWebUISchemeManagerTest, CheckMimetypeOfChromeScheme) {
 
   // Check css.
   request = [NSMutableURLRequest
-      requestWithURL:[NSURL URLWithString:@"chrome://clown/res/clown.css"]];
-  request.mainDocumentURL = [NSURL URLWithString:@"chrome://clown/"];
+      requestWithURL:[NSURL URLWithString:@"decentr://clown/res/clown.css"]];
+  request.mainDocumentURL = [NSURL URLWithString:@"decentr://clown/"];
   url_scheme_task.request = request;
   [scheme_handler webView:web_view startURLSchemeTask:url_scheme_task];
   RespondWithData(net::GURLWithNSURL(request.URL), "{}");
@@ -273,8 +273,8 @@ TEST_F(CRWWebUISchemeManagerTest, CheckMimetypeOfChromeScheme) {
 
   // Check svg.
   request = [NSMutableURLRequest
-      requestWithURL:[NSURL URLWithString:@"chrome://clown/res/clown.svg"]];
-  request.mainDocumentURL = [NSURL URLWithString:@"chrome://clown/"];
+      requestWithURL:[NSURL URLWithString:@"decentr://clown/res/clown.svg"]];
+  request.mainDocumentURL = [NSURL URLWithString:@"decentr://clown/"];
   url_scheme_task.request = request;
   [scheme_handler webView:web_view startURLSchemeTask:url_scheme_task];
   RespondWithData(net::GURLWithNSURL(request.URL), "{}");
@@ -286,8 +286,8 @@ TEST_F(CRWWebUISchemeManagerTest, CheckMimetypeOfChromeScheme) {
   // Anything else, is 'html'.
   request = [NSMutableURLRequest
       requestWithURL:[NSURL
-                         URLWithString:@"chrome://clown/res/clown.anything"]];
-  request.mainDocumentURL = [NSURL URLWithString:@"chrome://clown/"];
+                         URLWithString:@"decentr://clown/res/clown.anything"]];
+  request.mainDocumentURL = [NSURL URLWithString:@"decentr://clown/"];
   url_scheme_task.request = request;
   [scheme_handler webView:web_view startURLSchemeTask:url_scheme_task];
   RespondWithData(net::GURLWithNSURL(request.URL), "{}");

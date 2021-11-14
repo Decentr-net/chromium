@@ -111,8 +111,8 @@ class PageInfoBubbleViewDialogBrowserTest
     constexpr char kAllowAllPermissions[] = "AllowAllPermissions";
     constexpr char kBlockAllPermissions[] = "BlockAllPermissions";
 
-    const GURL internal_url("chrome://settings");
-    const GURL internal_extension_url("chrome-extension://example");
+    const GURL internal_url("decentr://settings");
+    const GURL internal_extension_url("decentr-extension://example");
     const GURL file_url("file:///Users/homedirname/folder/file.pdf");
     // Note the following two URLs are not really necessary to get the different
     // versions of Page Info to appear, but are here to indicate the type of
@@ -348,7 +348,7 @@ IN_PROC_BROWSER_TEST_P(PageInfoBubbleViewDialogBrowserTest,
   ShowAndVerifyUi();
 }
 
-// Shows the Page Info bubble for an internal page, e.g. chrome://settings.
+// Shows the Page Info bubble for an internal page, e.g. decentr://settings.
 IN_PROC_BROWSER_TEST_P(PageInfoBubbleViewDialogBrowserTest, InvokeUi_Internal) {
   ShowAndVerifyUi();
 }

@@ -75,7 +75,7 @@ OpenOperationResult FolderInMyFiles::Open(const base::FilePath& file) {
 
   // On ChromeOS, the OpenOperationResult is determined in
   // OpenFileMimeTypeAfterTasksListed() which also invokes
-  // ExecuteFileTaskForUrl(). For WebApps like chrome://media-app, that invokes
+  // ExecuteFileTaskForUrl(). For WebApps like decentr://media-app, that invokes
   // WebApps::LaunchAppWithFiles() via AppServiceProxy.
   // Depending how the mime type of |path| is determined (e.g. extension,
   // metadata sniffing), there may be a number of asynchronous steps involved

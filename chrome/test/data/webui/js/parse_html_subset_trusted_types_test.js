@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {parseHtmlSubset} from 'chrome://resources/js/parse_html_subset.m.js';
+import {parseHtmlSubset} from 'decentr://resources/js/parse_html_subset.m.js';
 import {assertNotReached} from '../chai_assert.js';
 
 suite('ParseHtmlSubsetTrustedTypesTest', function() {

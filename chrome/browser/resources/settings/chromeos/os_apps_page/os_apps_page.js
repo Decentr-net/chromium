@@ -27,7 +27,7 @@ import '../../controls/settings_dropdown_menu.js';
 
 import {I18nBehavior} from '//resources/js/i18n_behavior.m.js';
 import {afterNextRender, flush, html, Polymer, TemplateInstanceBase, Templatizer} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {assert, assertNotReached} from 'chrome://resources/js/assert.m.js';
+import {assert, assertNotReached} from 'decentr://resources/js/assert.m.js';
 
 import {loadTimeData} from '../../i18n_setup.js';
 import {Route, RouteObserverBehavior, Router} from '../../router.js';

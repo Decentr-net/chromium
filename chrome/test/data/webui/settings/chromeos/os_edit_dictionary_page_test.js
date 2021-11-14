@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-// #import {LanguagesBrowserProxyImpl} from 'chrome://os-settings/chromeos/lazy_load.js';
-// #import {CrSettingsPrefs} from 'chrome://os-settings/chromeos/os_settings.js';
-// #import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+// #import {LanguagesBrowserProxyImpl} from 'decentr://os-settings/chromeos/lazy_load.js';
+// #import {CrSettingsPrefs} from 'decentr://os-settings/chromeos/os_settings.js';
+// #import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 // #import {FakeLanguageSettingsPrivate} from './fake_language_settings_private.js';
 // #import {FakeSettingsPrivate} from '../fake_settings_private.js';
 // #import {TestLanguagesBrowserProxy} from './test_os_languages_browser_proxy.m.js';

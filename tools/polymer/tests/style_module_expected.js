@@ -3,7 +3,7 @@ import '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import './some_other_style.m.js';
 const template = document.createElement('template');
 template.innerHTML = `
-<dom-module id="cr-foo-style" assetpath="chrome://resources/">
+<dom-module id="cr-foo-style" assetpath="decentr://resources/">
   <template>
     <style include="some-other-style">
       :host {

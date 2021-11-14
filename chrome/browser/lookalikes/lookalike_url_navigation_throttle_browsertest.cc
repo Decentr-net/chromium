@@ -732,7 +732,7 @@ IN_PROC_BROWSER_TEST_P(LookalikeUrlNavigationThrottleBrowserTest,
 // Schemes other than HTTP and HTTPS should be ignored.
 IN_PROC_BROWSER_TEST_P(LookalikeUrlNavigationThrottleBrowserTest,
                        TopDomainChromeUrl_NoMatch) {
-  TestInterstitialNotShown(browser(), GURL("chrome://googlé.com"));
+  TestInterstitialNotShown(browser(), GURL("decentr://googlé.com"));
   CheckNoUkm();
 }
 
@@ -1242,7 +1242,7 @@ IN_PROC_BROWSER_TEST_P(LookalikeUrlNavigationThrottleBrowserTest,
                        Idn_SiteEngagement_IgnoreChromeUrl) {
   base::HistogramTester histograms;
   SetEngagementScore(browser(),
-                     GURL("chrome://site-not-in-top-domain-list.com"),
+                     GURL("decentr://site-not-in-top-domain-list.com"),
                      kHighEngagement);
   const GURL low_engagement_url("http://síte-not-ín-top-domaín-líst.com");
   SetEngagementScore(browser(), low_engagement_url, kLowEngagement);

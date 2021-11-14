@@ -9,14 +9,14 @@
  * wallpaper collection id to avoid refetching data unnecessarily.
  */
 
-import 'chrome://resources/polymer/v3_0/iron-list/iron-list.js';
-import 'chrome://resources/polymer/v3_0/iron-icon/iron-icon.js';
-import 'chrome://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
+import 'decentr://resources/polymer/v3_0/iron-list/iron-list.js';
+import 'decentr://resources/polymer/v3_0/iron-icon/iron-icon.js';
+import 'decentr://resources/polymer/v3_0/iron-iconset-svg/iron-iconset-svg.js';
 import './styles.js';
 import '../common/icons.js';
 import '../common/styles.js';
 import {assert} from '/assert.m.js';
-import {afterNextRender, html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {afterNextRender, html} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 import {getLoadingPlaceholderAnimationDelay} from '../common/utils.js';
 import {isSelectionEvent} from '../common/utils.js';
 import {getWallpaperProvider} from './mojo_interface_provider.js';

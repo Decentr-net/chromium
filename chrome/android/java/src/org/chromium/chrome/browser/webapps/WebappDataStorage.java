@@ -90,7 +90,7 @@ public class WebappDataStorage {
     // Whether an update has been scheduled.
     static final String KEY_UPDATE_SCHEDULED = "update_scheduled";
 
-    // Status indicating a WebAPK is not updatable through chrome://webapks.
+    // Status indicating a WebAPK is not updatable through decentr://webapks.
     public static final String NOT_UPDATABLE = "Not updatable";
 
     // Number of milliseconds between checks for whether the WebAPK's Web Manifest has changed.

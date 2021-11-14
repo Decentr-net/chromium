@@ -195,7 +195,7 @@ class ProcessDataCollector {
     int64_t proc_cpu_time_jiffies = 0;
 
     // Whether this sample represents a valid process, i.e. whether it should be
-    // displayed on the chrome://power page. This is also used to indicate
+    // displayed on the decentr://power page. This is also used to indicate
     // whether a sample of a process was successfully completed, so a process
     // that was terminated while being sampled can be properly dealt with.
     // An invalid process is a process that doesn't have a displayable name,

@@ -29,7 +29,7 @@ namespace {
 
 using ::chromeos::AuthPolicyClient;
 
-constexpr char kProfileSigninNotificationId[] = "chrome://settings/signin/";
+constexpr char kProfileSigninNotificationId[] = "decentr://settings/signin/";
 constexpr char kProfileEmail[] = "user@example.com";
 constexpr char kDisplayName[] = "DisplayName";
 constexpr char16_t kDisplayName16[] = u"DisplayName";

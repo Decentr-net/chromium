@@ -4004,7 +4004,7 @@ TEST_F(StyleEngineTest, SystemFontsObeyDefaultFontSize) {
   body->setInnerHTML("<input>");
   Element* input = GetDocument().QuerySelector("input");
 
-  // Test the standard font sizes that can be chosen in chrome://settings/
+  // Test the standard font sizes that can be chosen in decentr://settings/
   for (int fontSize : {9, 12, 16, 20, 24}) {
     GetDocument().GetSettings()->SetDefaultFontSize(fontSize);
     UpdateAllLifecyclePhases();

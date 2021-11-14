@@ -44,7 +44,7 @@ content::WebUIDataSource* CreateComponentsUIHTMLSource(Profile* profile) {
 
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources 'self' 'unsafe-eval';");
+      "script-src decentr://resources 'self' 'unsafe-eval';");
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::TrustedTypes,
       "trusted-types jstemplate parse-html-subset;");
@@ -87,7 +87,7 @@ ComponentsUI::ComponentsUI(content::WebUI* web_ui) : WebUIController(web_ui) {
   web_ui->AddMessageHandler(std::make_unique<ComponentsHandler>(
       g_browser_process->component_updater()));
 
-  // Set up the chrome://components/ source.
+  // Set up the decentr://components/ source.
   Profile* profile = Profile::FromWebUI(web_ui);
   content::WebUIDataSource::Add(profile, CreateComponentsUIHTMLSource(profile));
 }

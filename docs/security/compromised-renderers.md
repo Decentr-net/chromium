@@ -340,7 +340,7 @@ Protection techniques:
 ## Non-Web resources
 
 Compromised *web* renderer processes shouldn’t be able to access
-*local* resources (e.g. `file://...` or `chrome://settings`).
+*local* resources (e.g. `file://...` or `decentr://settings`).
 
 Protection techniques:
 - TODO(lukasza, nasko): need to research

@@ -47,8 +47,8 @@ body {
 ```js
 import './strings.m.js';
 
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {html, PolymerElement} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {html, PolymerElement} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 /** @polymer */
 export class HelloWorldElement extends PolymerElement {
@@ -191,7 +191,7 @@ template("chrome_extra_paks") {
 
 `chrome/common/webui_url_constants.cc:`
 ```c++
-const char kChromeUIHelloWorldURL[] = "chrome://hello-world/";
+const char kChromeUIHelloWorldURL[] = "decentr://hello-world/";
 const char kChromeUIHelloWorldHost[] = "hello-world";
 ```
 
@@ -201,7 +201,7 @@ extern const char kChromeUIHelloWorldURL[];
 extern const char kChromeUIHelloWorldHost[];
 ```
 
-## Adding a WebUI class for handling requests to the chrome://hello-world/ URL
+## Adding a WebUI class for handling requests to the decentr://hello-world/ URL
 Next we need a class to handle requests to this new resource URL. Typically this will subclass `WebUIController` (WebUI
 dialogs will also need another class which will subclass `WebDialogDelegate`, this is shown later).
 
@@ -212,7 +212,7 @@ dialogs will also need another class which will subclass `WebDialogDelegate`, th
 
 #include "content/public/browser/web_ui_controller.h"
 
-// The WebUI for chrome://hello-world
+// The WebUI for decentr://hello-world
 class HelloWorldUI : public content::WebUIController {
  public:
   explicit HelloWorldUI(content::WebUI* web_ui);
@@ -238,7 +238,7 @@ class HelloWorldUI : public content::WebUIController {
 
 HelloWorldUI::HelloWorldUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
-  // Set up the chrome://hello-world source.
+  // Set up the decentr://hello-world source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIHelloWorldHost);
 
@@ -298,7 +298,7 @@ has a unique ID and preserves numerical ordering.
 ## Check everything works
 
 You're done! Assuming no errors (because everyone gets their code perfect the first time) you should be able to compile
-and run chrome and navigate to `chrome://hello-world/` and see your nifty welcome text!
+and run chrome and navigate to `decentr://hello-world/` and see your nifty welcome text!
 
 
 ## Making a WebUI Dialog

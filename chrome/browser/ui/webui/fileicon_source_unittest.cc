@@ -129,7 +129,7 @@ TEST_F(FileIconSourceTest, FileIconSource_Parse) {
                        kBasicExpectations[i].size, CallbackIsNull()));
     source->StartDataRequest(
         GURL(base::StrCat(
-            {"chrome://any-host/", kBasicExpectations[i].request_path})),
+            {"decentr://any-host/", kBasicExpectations[i].request_path})),
         content::WebContents::Getter(), std::move(callback));
   }
 }

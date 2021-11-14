@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {EMOJI_PICKER_TOTAL_EMOJI_WIDTH} from 'chrome://emoji-picker/constants.js';
-import {EmojiButton} from 'chrome://emoji-picker/emoji_button.js';
-import {EmojiPicker} from 'chrome://emoji-picker/emoji_picker.js';
-import {EmojiPickerApiProxyImpl} from 'chrome://emoji-picker/emoji_picker_api_proxy.js';
-import {EmojiVariants} from 'chrome://emoji-picker/emoji_variants.js';
-import {EMOJI_DATA_LOADED, EMOJI_VARIANTS_SHOWN} from 'chrome://emoji-picker/events.js';
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {EMOJI_PICKER_TOTAL_EMOJI_WIDTH} from 'decentr://emoji-picker/constants.js';
+import {EmojiButton} from 'decentr://emoji-picker/emoji_button.js';
+import {EmojiPicker} from 'decentr://emoji-picker/emoji_picker.js';
+import {EmojiPickerApiProxyImpl} from 'decentr://emoji-picker/emoji_picker_api_proxy.js';
+import {EmojiVariants} from 'decentr://emoji-picker/emoji_variants.js';
+import {EMOJI_DATA_LOADED, EMOJI_VARIANTS_SHOWN} from 'decentr://emoji-picker/events.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
 
 import {assertEquals, assertFalse, assertGT, assertLT, assertTrue} from '../../chai_assert.js';
 

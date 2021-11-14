@@ -5,11 +5,11 @@
 /** @fileoverview Suite of tests for site-list. */
 
 // clang-format off
-import {webUIListenerCallback} from 'chrome://resources/js/cr.m.js';
-import {loadTimeData} from 'chrome://resources/js/load_time_data.m.js';
-import {flush} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {AddSiteDialogElement, ContentSetting, ContentSettingsTypes, SettingsEditExceptionDialogElement, SITE_EXCEPTION_WILDCARD, SiteListElement, SiteSettingSource, SiteSettingsPrefsBrowserProxyImpl} from 'chrome://settings/lazy_load.js';
-import {CrSettingsPrefs,Router} from 'chrome://settings/settings.js';
+import {webUIListenerCallback} from 'decentr://resources/js/cr.m.js';
+import {loadTimeData} from 'decentr://resources/js/load_time_data.m.js';
+import {flush} from 'decentr://resources/polymer/v3_0/polymer/polymer_bundled.min.js';
+import {AddSiteDialogElement, ContentSetting, ContentSettingsTypes, SettingsEditExceptionDialogElement, SITE_EXCEPTION_WILDCARD, SiteListElement, SiteSettingSource, SiteSettingsPrefsBrowserProxyImpl} from 'decentr://settings/lazy_load.js';
+import {CrSettingsPrefs,Router} from 'decentr://settings/settings.js';
 
 import {assertEquals, assertFalse, assertNotEquals, assertTrue} from '../chai_assert.js';
 import {eventToPromise, waitBeforeNextRender} from '../test_util.js';
@@ -89,7 +89,7 @@ let prefsSessionOnly;
 let prefsIncognito;
 
 /**
- * An example Javascript pref with a chrome-extension:// scheme.
+ * An example Javascript pref with a decentr-extension:// scheme.
  * @type {SiteSettingsPref}
  */
 let prefsChromeExtension;
@@ -252,7 +252,7 @@ function populateTestExceptions() {
     createContentSettingTypeToValuePair(
         ContentSettingsTypes.JAVASCRIPT,
         [createRawSiteException(
-            'chrome-extension://cfhgfbfpcbnnbibfphagcjmgjfjmojfa/', {
+            'decentr-extension://cfhgfbfpcbnnbibfphagcjmgjfjmojfa/', {
               embeddingOrigin: '',
               setting: ContentSetting.BLOCK,
             })]),
@@ -972,7 +972,7 @@ suite('SiteList', function() {
         })
         .then(function(args) {
           assertEquals(
-              'chrome-extension://cfhgfbfpcbnnbibfphagcjmgjfjmojfa/', args[0]);
+              'decentr-extension://cfhgfbfpcbnnbibfphagcjmgjfjmojfa/', args[0]);
           assertEquals('', args[1]);
           assertEquals(ContentSettingsTypes.JAVASCRIPT, args[2]);
           assertEquals(ContentSetting.ALLOW, args[3]);

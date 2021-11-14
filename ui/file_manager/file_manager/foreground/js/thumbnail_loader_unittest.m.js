@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {ImageLoaderClient} from 'chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp/image_loader_client.js';
-import {LoadImageRequest} from 'chrome-extension://pmfjbimdmchhbnneeidfognadeopoehp/load_image_request.js';
-import {assertEquals, assertTrue} from 'chrome://test/chai_assert.js';
+import {ImageLoaderClient} from 'decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp/image_loader_client.js';
+import {LoadImageRequest} from 'decentr-extension://pmfjbimdmchhbnneeidfognadeopoehp/load_image_request.js';
+import {assertEquals, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {MockEntry, MockFileSystem} from '../../common/js/mock_entry.js';
 import {reportPromise} from '../../common/js/test_error_reporting.js';

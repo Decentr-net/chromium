@@ -36,7 +36,7 @@ bool ShouldCloseTabOnExtensionUnload(const Extension* extension,
     return false;
   }
 
-  // Case 1: A "regular" extension page, e.g. chrome-extension://<id>/page.html.
+  // Case 1: A "regular" extension page, e.g. decentr-extension://<id>/page.html.
   // Note: we check the tuple or precursor tuple in order to close any
   // windows with opaque origins that were opened by extensions, and may
   // still be running code.

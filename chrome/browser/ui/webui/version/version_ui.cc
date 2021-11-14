@@ -119,7 +119,7 @@ VersionUI::VersionUI(content::WebUI* web_ui)
 #endif
 
 #if !defined(OS_ANDROID)
-  // Set up the chrome://theme/ source.
+  // Set up the decentr://theme/ source.
   content::URLDataSource::Add(profile, std::make_unique<ThemeSource>(profile));
 #endif
 

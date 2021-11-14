@@ -52,16 +52,16 @@ HelpAppUI::HelpAppUI(content::WebUI* web_ui,
       web_ui->GetWebContents()->GetBrowserContext();
   content::WebUIDataSource* host_source = CreateHostDataSource();
   content::WebUIDataSource::Add(browser_context, host_source);
-  // We need a CSP override to use the chrome-untrusted:// scheme in the host.
+  // We need a CSP override to use the decentr-untrusted:// scheme in the host.
   std::string csp =
       std::string("frame-src ") + kChromeUIHelpAppUntrustedURL + ";";
   host_source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::FrameSrc, csp);
 
-  // Add ability to request chrome-untrusted: URLs.
+  // Add ability to request decentr-untrusted: URLs.
   web_ui->AddRequestableScheme(content::kChromeUIUntrustedScheme);
 
-  // Register common permissions for chrome-untrusted:// pages.
+  // Register common permissions for decentr-untrusted:// pages.
   // TODO(https://crbug.com/1113568): Remove this after common permissions are
   // granted by default.
   auto* permissions_allowlist = WebUIAllowlist::GetOrCreate(browser_context);
@@ -81,7 +81,7 @@ HelpAppUI::HelpAppUI(content::WebUI* web_ui,
         std::string("trusted-types test-harness;"));
   }
 
-  // Register common permissions for chrome-untrusted:// pages.
+  // Register common permissions for decentr-untrusted:// pages.
   // TODO(https://crbug.com/1113568): Remove this after common permissions are
   // granted by default.
   auto* magazine_permissions_allowlist =

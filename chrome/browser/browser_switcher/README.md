@@ -66,7 +66,7 @@ instance:
 ### Debugging/Troubleshooting
 
 Enterprise admins and developers can visit the
-`chrome://browser-switch/internals` page to view the state of LBS. This page
+`decentr://browser-switch/internals` page to view the state of LBS. This page
 displays the list of rules, and lets you re-download XML sitelists immediately.
 
 ## BHO

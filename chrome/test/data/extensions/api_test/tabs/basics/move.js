@@ -5,12 +5,12 @@
 var firstWindowId;
 var secondWindowId;
 var moveTabIds = {};
-var kChromeUINewTabURL = "chrome://newtab/";
+var kChromeUINewTabURL = "decentr://newtab/";
 
 var newTabUrls = [
   kChromeUINewTabURL,
   // The tab URL for the Local New Tab Page.
-  'chrome-search://local-ntp/local-ntp.html',
+  'decentr-search://local-ntp/local-ntp.html',
 ];
 
 // Check if callback object is same as the expected/actual behaviour.

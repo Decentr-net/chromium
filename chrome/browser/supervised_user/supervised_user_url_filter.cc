@@ -64,7 +64,7 @@ bool IsSameDomain(const GURL& url1, const GURL& url2) {
 
 namespace {
 
-// URL schemes not in this list (e.g., file:// and chrome://) will always be
+// URL schemes not in this list (e.g., file:// and decentr://) will always be
 // allowed.
 const char* const kFilteredSchemes[] = {"http", "https", "ftp", "ws", "wss"};
 
@@ -265,7 +265,7 @@ SupervisedUserURLFilter::GetFilteringBehaviorForURL(
 
   *reason = supervised_user_error_page::MANUAL;
 
-  // URLs with a non-standard scheme (e.g. chrome://) are always allowed.
+  // URLs with a non-standard scheme (e.g. decentr://) are always allowed.
   if (!HasFilteredScheme(effective_url))
     return ALLOW;
 

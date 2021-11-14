@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {fakeAcceleratorConfig, fakeLayoutInfo} from 'chrome://shortcut-customization/fake_data.js';
-import {FakeShortcutProvider} from 'chrome://shortcut-customization/fake_shortcut_provider.js';
-import {AcceleratorConfig, AcceleratorConfigResult, AcceleratorKeys, AcceleratorSource, LayoutInfoList, Modifier} from 'chrome://shortcut-customization/shortcut_types.js';
+import {fakeAcceleratorConfig, fakeLayoutInfo} from 'decentr://shortcut-customization/fake_data.js';
+import {FakeShortcutProvider} from 'decentr://shortcut-customization/fake_shortcut_provider.js';
+import {AcceleratorConfig, AcceleratorConfigResult, AcceleratorKeys, AcceleratorSource, LayoutInfoList, Modifier} from 'decentr://shortcut-customization/shortcut_types.js';
 
 import {assertDeepEquals, assertEquals, assertFalse, assertTrue} from '../../chai_assert.js';
 

@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {getTrustedHTML} from 'chrome://resources/js/static_types.js';
-import {$, getRequiredElement} from 'chrome://resources/js/util.m.js';
-import {Origin} from 'chrome://resources/mojo/url/mojom/origin.mojom-webui.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {getTrustedHTML} from 'decentr://resources/js/static_types.js';
+import {$, getRequiredElement} from 'decentr://resources/js/util.m.js';
+import {Origin} from 'decentr://resources/mojo/url/mojom/origin.mojom-webui.js';
 
 import {ConversionInternalsHandler, ConversionInternalsHandlerRemote, SourceType, WebUIConversionReport, WebUIConversionReport_Status, WebUIImpression,} from './conversion_internals.mojom-webui.js';
 

@@ -62,7 +62,7 @@ bool DoesRequireModifier(const std::string& accelerator) {
 // media keys are to be considered for parsing.
 // Note: If the parsing rules here are changed, make sure to update the
 // corresponding extension_command_list.js validation, which validates the user
-// input for chrome://extensions/configureCommands.
+// input for decentr://extensions/configureCommands.
 ui::Accelerator ParseImpl(const std::string& accelerator,
                           const std::string& platform_key,
                           int index,

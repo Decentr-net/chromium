@@ -904,7 +904,7 @@ html[dir='rtl'] .daily-refresh-label {
 
 #preview-spinner,
 #current-wallpaper-spinner {
-  background: url(chrome://resources/images/throbber_medium.svg) no-repeat;
+  background: url(decentr://resources/images/throbber_medium.svg) no-repeat;
   position: absolute;
 }
 

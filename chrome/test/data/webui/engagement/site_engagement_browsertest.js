@@ -19,7 +19,7 @@ function SiteEngagementBrowserTest() {}
 SiteEngagementBrowserTest.prototype = {
   __proto__: testing.Test.prototype,
 
-  browsePreload: 'chrome://site-engagement',
+  browsePreload: 'decentr://site-engagement',
 
   isAsync: true,
 
@@ -69,7 +69,7 @@ TEST_F('SiteEngagementBrowserTest', 'All', function() {
   }
 
   setup(async function() {
-    await import('chrome://test/mojo_webui_test_support.js');
+    await import('decentr://test/mojo_webui_test_support.js');
     cells = getCells();
   });
 

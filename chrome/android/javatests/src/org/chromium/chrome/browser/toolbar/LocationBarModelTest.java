@@ -91,10 +91,10 @@ public class LocationBarModelTest {
             model.mUrl = UrlConstants.NTP_URL;
             assertDisplayAndEditText(model, "", null);
 
-            model.mUrl = "chrome://about";
-            model.mDisplayUrl = "chrome://about";
-            model.mFullUrl = "chrome://about";
-            assertDisplayAndEditText(model, "chrome://about", "chrome://about");
+            model.mUrl = "decentr://about";
+            model.mDisplayUrl = "decentr://about";
+            model.mFullUrl = "decentr://about";
+            assertDisplayAndEditText(model, "decentr://about", "decentr://about");
 
             model.mUrl = "https://www.foo.com";
             model.mDisplayUrl = "https://foo.com";

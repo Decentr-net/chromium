@@ -5,10 +5,10 @@
 import {foo} from '../project1/foo.js';
 import {baz} from '../project3/baz.js';
 
-import {bar} from 'chrome://some-other-source/legacy_file.js';
+import {bar} from 'decentr://some-other-source/legacy_file.js';
 
 // Intentionally impoting unused dependency to test the --tsconfig_base flag.
-import {num} from 'chrome://some-other-source/foo.js';
+import {num} from 'decentr://some-other-source/foo.js';
 
 function doNothing(): void {
   console.log(foo());

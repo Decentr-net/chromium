@@ -92,7 +92,7 @@ TEST_F(EolNotificationTest, TestNoNotifciationBeforeEol) {
   SetEolDateUtc("1 December 2019");
 
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 
@@ -101,7 +101,7 @@ TEST_F(EolNotificationTest, TestFirstWarningNotification) {
   SetEolDateUtc("1 December 2019");
 
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   std::u16string expected_title = u"Updates end December 2019";
@@ -115,7 +115,7 @@ TEST_F(EolNotificationTest, TestFirstWarningNotification) {
 
   SetCurrentTimeToUtc("15 August 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 
@@ -124,7 +124,7 @@ TEST_F(EolNotificationTest, TestSecondWarningNotification) {
   SetEolDateUtc("1 December 2019");
 
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   std::u16string expected_title = u"Updates end December 2019";
@@ -136,14 +136,14 @@ TEST_F(EolNotificationTest, TestSecondWarningNotification) {
 
   SetCurrentTimeToUtc("1 October 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   DismissNotification();
 
   SetCurrentTimeToUtc("15 November 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 
@@ -152,7 +152,7 @@ TEST_F(EolNotificationTest, TestFinalEolNotification) {
   SetCurrentTimeToUtc("2 December 2019");
 
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   std::u16string expected_title = u"Final software update";
@@ -166,7 +166,7 @@ TEST_F(EolNotificationTest, TestFinalEolNotification) {
 
   SetCurrentTimeToUtc("15 December 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 
@@ -174,13 +174,13 @@ TEST_F(EolNotificationTest, TestOnEolDateChangeBeforeFirstWarning) {
   SetCurrentTimeToUtc("1 January 2019");
   SetEolDateUtc("1 December 2019");
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 
   SetCurrentTimeToUtc("1 January 2019");
   SetEolDateUtc("1 November 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 
@@ -188,19 +188,19 @@ TEST_F(EolNotificationTest, TestOnEolDateChangeBeforeSecondWarning) {
   SetCurrentTimeToUtc("1 August 2019");
   SetEolDateUtc("1 December 2019");
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   // Dismiss first warning notification.
   DismissNotification();
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 
   // In practice, such a small change in date should not happen.
   SetEolDateUtc("2 December 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 }
 
@@ -208,19 +208,19 @@ TEST_F(EolNotificationTest, TestOnEolDateChangeBeforeFinalWarning) {
   SetCurrentTimeToUtc("1 November 2019");
   SetEolDateUtc("1 December 2019");
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   // Dismiss first warning notification.
   DismissNotification();
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 
   // In practice, such a small change in date should not happen.
   SetEolDateUtc("2 December 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 }
 
@@ -228,25 +228,25 @@ TEST_F(EolNotificationTest, TestOnEolDateChangedAfterFinalWarning) {
   SetEolDateUtc("1 December 2019");
   SetCurrentTimeToUtc("3 December 2019");
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   // Dismiss first warning notification.
   DismissNotification();
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 
   // Refuse to show notification as eol date is still in the past.
   SetEolDateUtc("2 December 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 
   // Show as eol date is in the future and within first warning range.
   SetEolDateUtc("4 December 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 }
 
@@ -254,7 +254,7 @@ TEST_F(EolNotificationTest, TestNotificationUpdatesProperlyWithoutDismissal) {
   SetCurrentTimeToUtc("1 August 2019");
   SetEolDateUtc("1 December 2019");
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
 
   std::u16string expected_title = u"Updates end December 2019";
@@ -267,7 +267,7 @@ TEST_F(EolNotificationTest, TestNotificationUpdatesProperlyWithoutDismissal) {
   // EOL date arrives and the user has not dismissed the notification.
   SetCurrentTimeToUtc("1 December 2019");
   CheckEolInfo();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_TRUE(notification);
   expected_title = u"Final software update";
   expected_message =
@@ -277,7 +277,7 @@ TEST_F(EolNotificationTest, TestNotificationUpdatesProperlyWithoutDismissal) {
   EXPECT_EQ(notification->message(), expected_message);
 
   DismissNotification();
-  notification = tester_->GetNotification("chrome://product_eol");
+  notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 
@@ -290,7 +290,7 @@ TEST_F(EolNotificationTest, TestBackwardsCompatibilityFinalUpdateAlreadyShown) {
   profile()->GetPrefs()->SetBoolean(prefs::kEolNotificationDismissed, true);
 
   CheckEolInfo();
-  auto notification = tester_->GetNotification("chrome://product_eol");
+  auto notification = tester_->GetNotification("decentr://product_eol");
   ASSERT_FALSE(notification);
 }
 

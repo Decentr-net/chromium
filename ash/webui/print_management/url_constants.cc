@@ -7,6 +7,6 @@
 namespace ash {
 
 const char kChromeUIPrintManagementHost[] = "print-management";
-const char kChromeUIPrintManagementAppUrl[] = "chrome://print-management";
+const char kChromeUIPrintManagementAppUrl[] = "decentr://print-management";
 
 }  // namespace ash

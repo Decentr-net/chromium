@@ -235,7 +235,7 @@ void OnTracingRequest(const std::string& path,
 TracingUI::TracingUI(WebUI* web_ui)
     : WebUIController(web_ui),
       delegate_(GetContentClient()->browser()->GetTracingDelegate()) {
-  // Set up the chrome://tracing/ source.
+  // Set up the decentr://tracing/ source.
   BrowserContext* browser_context =
       web_ui->GetWebContents()->GetBrowserContext();
 

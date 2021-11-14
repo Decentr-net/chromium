@@ -20,7 +20,7 @@ chrome.test.runTests([
   function getPopup() {
     chrome.browserAction.getPopup({}, pass(function(result) {
       chrome.test.assertTrue(
-          /chrome-extension\:\/\/[a-p]{32}\/Popup\.html/.test(result));
+          /decentr-extension\:\/\/[a-p]{32}\/Popup\.html/.test(result));
     }));
   },
 

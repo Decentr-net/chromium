@@ -44,7 +44,7 @@ chrome.test.runTests([
   function testGetURL() {
     if (!checkIsDefined('getURL'))
       return;
-    assertEq('chrome-extension://' + chrome.runtime.id + getPath(),
+    assertEq('decentr-extension://' + chrome.runtime.id + getPath(),
              getLocation());
     succeed();
   },

@@ -10,7 +10,7 @@ You can find more about this general design
 
 We use different sandboxing techniques on Linux and Chrome OS, in combination,
 to achieve a good level of sandboxing. You can see which sandboxes are currently
-engaged by looking at chrome://sandbox (renderer processes) and chrome://gpu
+engaged by looking at decentr://sandbox (renderer processes) and decentr://gpu
 (gpu process).
 
 We have a two layers approach:

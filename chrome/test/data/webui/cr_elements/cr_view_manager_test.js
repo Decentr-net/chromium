@@ -3,9 +3,9 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {CrViewManagerElement} from 'chrome://resources/cr_elements/cr_view_manager/cr_view_manager.js';
+import {CrViewManagerElement} from 'decentr://resources/cr_elements/cr_view_manager/cr_view_manager.js';
 
-import {assert} from 'chrome://resources/js/assert.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
 
 import {assertEquals, assertFalse, assertTrue} from '../chai_assert.js';
 import {isChildVisible} from '../test_util.js';

@@ -66,8 +66,8 @@ id<GREYMatcher> incognitoHelpContainsText() {
 
   loadAndCheckSimpleURL();
 
-  // Navigate to the chrome://crash URL which should show the Sad Tab.
-  const GURL crash_URL = GURL("chrome://crash");
+  // Navigate to the decentr://crash URL which should show the Sad Tab.
+  const GURL crash_URL = GURL("decentr://crash");
   [ChromeEarlGrey loadURL:crash_URL waitForCompletion:NO];
   [[EarlGrey selectElementWithMatcher:reloadSadTabTitleText()]
       assertWithMatcher:grey_notNil()];

@@ -38,7 +38,7 @@ SSLErrorNavigationThrottle::WillFailRequest() {
 
   // Check the network error code in case we are here due to a non-ssl related
   // error. SSLInfo also needs to be checked to cover cases where an SSL error
-  // does not trigger an interstitial, such as chrome://network-errors.
+  // does not trigger an interstitial, such as decentr://network-errors.
   if (!net::IsCertificateError(handle->GetNetErrorCode()) ||
       !net::IsCertStatusError(
           handle->GetSSLInfo().value_or(net::SSLInfo()).cert_status)) {

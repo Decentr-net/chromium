@@ -28,7 +28,7 @@
 
 namespace {
 
-// Class acting as a controller of the chrome://gcm-internals WebUI.
+// Class acting as a controller of the decentr://gcm-internals WebUI.
 class GcmInternalsUIMessageHandler : public content::WebUIMessageHandler {
  public:
   GcmInternalsUIMessageHandler();
@@ -173,7 +173,7 @@ void GcmInternalsUIMessageHandler::OnJavascriptDisallowed() {
 
 GCMInternalsUI::GCMInternalsUI(content::WebUI* web_ui)
     : content::WebUIController(web_ui) {
-  // Set up the chrome://gcm-internals source.
+  // Set up the decentr://gcm-internals source.
   content::WebUIDataSource* html_source =
       content::WebUIDataSource::Create(chrome::kChromeUIGCMInternalsHost);
 

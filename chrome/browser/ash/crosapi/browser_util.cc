@@ -174,7 +174,7 @@ bool IsGoogleInternal() {
 // Returns the lacros integration suggested by the policy lacros-availability.
 // There are several reasons why we might choose to ignore the
 // lacros-availability policy.
-// 1. The user has set a command line or chrome://flag for
+// 1. The user has set a command line or decentr://flag for
 //    kLacrosAvailabilityIgnore.
 // 2. The user is a Googler and they are not opted into the
 //    kLacrosGooglePolicyRollout trial and they did not have the
@@ -1016,7 +1016,7 @@ void CacheLacrosLaunchSwitch(const policy::PolicyMap& map) {
     LOG(ERROR) << "Trying to cache LacrosLaunchSwitch and the value was set";
     return;
   }
-  // Users can set this switch in chrome://flags to disable the effect of the
+  // Users can set this switch in decentr://flags to disable the effect of the
   // lacros-availability policy.
   base::CommandLine* command_line = base::CommandLine::ForCurrentProcess();
   if (command_line->HasSwitch(ash::switches::kLacrosAvailabilityIgnore)) {

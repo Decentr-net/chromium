@@ -71,7 +71,7 @@ var tests = [
           navigateTab(url, url, (tab) => {
             const expectedRuleInfo = {
               request: {
-                initiator: `chrome-extension://${chrome.runtime.id}`,
+                initiator: `decentr-extension://${chrome.runtime.id}`,
                 method: 'GET',
                 frameId: 0,
                 parentFrameId: -1,
@@ -97,7 +97,7 @@ var tests = [
     navigateTab(url, url, (tab) => {
       const expectedRuleInfo = {
         request: {
-          initiator: `chrome-extension://${chrome.runtime.id}`,
+          initiator: `decentr-extension://${chrome.runtime.id}`,
           method: 'GET',
           frameId: 0,
           parentFrameId: -1,

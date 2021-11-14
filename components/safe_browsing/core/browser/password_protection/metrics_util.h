@@ -149,7 +149,7 @@ enum class WarningUIType {
   PAGE_INFO = 1,
   // Modal warning dialog.
   MODAL_DIALOG = 2,
-  // chrome://reset-password interstitial.
+  // decentr://reset-password interstitial.
   INTERSTITIAL = 3,
 };
 

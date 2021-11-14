@@ -20,7 +20,7 @@ namespace apps {
 // content::URLDataSource::Add().
 //
 // The format for requesting an icon is as follows:
-//   chrome://app-icon/<app_id>/<icon_size>
+//   decentr://app-icon/<app_id>/<icon_size>
 //
 //   Parameters:
 //    <app_id>    = the id of the app

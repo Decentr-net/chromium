@@ -23,7 +23,7 @@ import {I18nMixin, I18nMixinInterface} from '//resources/js/i18n_mixin.js';
 import {listenOnce} from '//resources/js/util.m.js';
 import {IronResizableBehavior} from '//resources/polymer/v3_0/iron-resizable-behavior/iron-resizable-behavior.js';
 import {afterNextRender, html, mixinBehaviors, PolymerElement} from '//resources/polymer/v3_0/polymer/polymer_bundled.min.js';
-import {EventTracker} from 'chrome://resources/js/event_tracker.m.js';
+import {EventTracker} from 'decentr://resources/js/event_tracker.m.js';
 
 import {loadTimeData} from '../i18n_setup.js';
 import {Route, RouteObserverMixin, Router} from '../router.js';

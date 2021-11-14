@@ -13,13 +13,13 @@ GEN('#include "content/public/test/browser_test.h"');
 GEN('#include "build/chromeos_buildflags.h"');
 
 /**
- * Basic test fixture for the MD chrome://extensions page. Installs no
+ * Basic test fixture for the MD decentr://extensions page. Installs no
  * extensions.
  */
 const CrExtensionsBrowserTest = class extends PolymerTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions';
+    return 'decentr://extensions';
   }
 
   /** @override */
@@ -57,7 +57,7 @@ const CrExtensionsBrowserTestWithInstalledExtension =
 var CrExtensionsSidebarTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/sidebar_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/sidebar_test.js';
   }
 
   /** @override */
@@ -81,7 +81,7 @@ TEST_F('CrExtensionsSidebarTest', 'SetSelected', function() {
 var CrExtensionsToolbarTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/toolbar_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/toolbar_test.js';
   }
 
   /** @override */
@@ -126,7 +126,7 @@ GEN('#endif');
 var CrExtensionsItemsTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/item_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/item_test.js';
   }
 
   /** @override */
@@ -184,7 +184,7 @@ TEST_F('CrExtensionsItemsTest', 'RepairButton', function() {
 var CrExtensionsActivityLogTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/activity_log_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/activity_log_test.js';
   }
 };
 
@@ -199,7 +199,7 @@ TEST_F('CrExtensionsActivityLogTest', 'All', () => {
 var CrExtensionsActivityLogHistoryTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/activity_log_history_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/activity_log_history_test.js';
   }
 };
 
@@ -215,7 +215,7 @@ var CrExtensionsActivityLogHistoryItemTest =
     class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/activity_log_history_item_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/activity_log_history_item_test.js';
   }
 };
 
@@ -230,7 +230,7 @@ TEST_F('CrExtensionsActivityLogHistoryItemTest', 'All', () => {
 var CrExtensionsActivityLogStreamTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/activity_log_stream_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/activity_log_stream_test.js';
   }
 };
 
@@ -246,7 +246,7 @@ var CrExtensionsActivityLogStreamItemTest =
     class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/activity_log_stream_item_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/activity_log_stream_item_test.js';
   }
 };
 
@@ -261,7 +261,7 @@ TEST_F('CrExtensionsActivityLogStreamItemTest', 'All', () => {
 var CrExtensionsDetailViewTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/detail_view_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/detail_view_test.js';
   }
 
   /** @override */
@@ -303,7 +303,7 @@ TEST_F('CrExtensionsDetailViewTest', 'Warnings', function() {
 var CrExtensionsItemListTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/item_list_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/item_list_test.js';
   }
 
   /** @override */
@@ -335,7 +335,7 @@ TEST_F('CrExtensionsItemListTest', 'LoadTimeData', function() {
 var CrExtensionsLoadErrorTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/load_error_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/load_error_test.js';
   }
 
   /** @override */
@@ -363,7 +363,7 @@ TEST_F('CrExtensionsLoadErrorTest', 'CodeSection', function() {
 var CrExtensionsManagerUnitTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/manager_unit_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/manager_unit_test.js';
   }
 
   /** @override */
@@ -412,7 +412,7 @@ var CrExtensionsManagerUnitTestWithActivityLogFlag =
     class extends CrExtensionsManagerUnitTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/manager_unit_test_with_activity_log_flag.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/manager_unit_test_with_activity_log_flag.js';
   }
 
   /** @override */
@@ -436,7 +436,7 @@ var CrExtensionsKioskModeManagerUnitTest =
     class extends CrExtensionsManagerUnitTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/kiosk_mode_manager_unit_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/kiosk_mode_manager_unit_test.js';
   }
 };
 
@@ -450,7 +450,7 @@ var CrExtensionsManagerTestWithMultipleExtensionTypesInstalled =
     class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/manager_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/manager_test.js';
   }
 
   /** @override */
@@ -496,7 +496,7 @@ var CrExtensionsManagerTestWithIdQueryParam =
     class extends CrExtensionsBrowserTestWithInstalledExtension {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/manager_test_with_id_query_param.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/manager_test_with_id_query_param.js';
   }
 
   /** @override */
@@ -524,7 +524,7 @@ CrExtensionsManagerTestWithActivityLogFlag =
     class extends CrExtensionsManagerTestWithIdQueryParam {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/manager_test_with_activity_log_flag.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/manager_test_with_activity_log_flag.js';
   }
 
   /** @override */
@@ -549,7 +549,7 @@ TEST_F(
 var CrExtensionsShortcutTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/keyboard_shortcuts_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/keyboard_shortcuts_test.js';
   }
 
   /** @override */
@@ -581,7 +581,7 @@ TEST_F('CrExtensionsShortcutTest', 'ScopeChange', function() {
 var CrExtensionsPackDialogTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/pack_dialog_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/pack_dialog_test.js';
   }
 
   /** @override */
@@ -632,7 +632,7 @@ var CrExtensionsOptionsDialogTest = class extends CrExtensionsBrowserTest {
 
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/options_dialog_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/options_dialog_test.js';
   }
 
   /** @override */
@@ -652,7 +652,7 @@ TEST_F('CrExtensionsOptionsDialogTest', 'DISABLED_Layout', function() {
 var CrExtensionsErrorPageTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/error_page_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/error_page_test.js';
   }
 
   /** @override */
@@ -680,7 +680,7 @@ TEST_F('CrExtensionsErrorPageTest', 'ErrorSelection', function() {
 var CrExtensionsCodeSectionTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/code_section_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/code_section_test.js';
   }
 
   /** @override */
@@ -704,7 +704,7 @@ TEST_F('CrExtensionsCodeSectionTest', 'LongSource', function() {
 var CrExtensionsNavigationHelperTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/navigation_helper_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/navigation_helper_test.js';
   }
 
   /** @override */
@@ -738,7 +738,7 @@ TEST_F('CrExtensionsNavigationHelperTest', 'SupportedRoutes', function() {
 var CrExtensionsErrorConsoleTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/error_console_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/error_console_test.js';
   }
 
   /** @override */
@@ -764,7 +764,7 @@ TEST_F('CrExtensionsErrorConsoleTest', 'TestUpDownErrors', () => {
 var CrExtensionsToggleRowTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/toggle_row_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/toggle_row_test.js';
   }
 };
 
@@ -781,7 +781,7 @@ GEN('#if BUILDFLAG(IS_CHROMEOS_ASH)');
 var CrExtensionsKioskModeTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/kiosk_mode_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/kiosk_mode_test.js';
   }
 
   /** @override */
@@ -823,7 +823,7 @@ GEN('#endif');
 var CrExtensionsRuntimeHostsDialogTest = class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/runtime_hosts_dialog_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/runtime_hosts_dialog_test.js';
   }
 };
 
@@ -839,7 +839,7 @@ var CrExtensionsRuntimeHostPermissionsTest =
     class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/runtime_host_permissions_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/runtime_host_permissions_test.js';
   }
 };
 
@@ -855,7 +855,7 @@ var CrExtensionsHostPermissionsToggleListTest =
     class extends CrExtensionsBrowserTest {
   /** @override */
   get browsePreload() {
-    return 'chrome://extensions/test_loader.html?module=extensions/host_permissions_toggle_list_test.js';
+    return 'decentr://extensions/test_loader.html?module=extensions/host_permissions_toggle_list_test.js';
   }
 };
 

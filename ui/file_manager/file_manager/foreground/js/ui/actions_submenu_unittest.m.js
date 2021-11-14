@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import {assertInstanceof} from 'chrome://resources/js/assert.m.js';
-import {Menu} from 'chrome://resources/js/cr/ui/menu.m.js';
-import {assertEquals, assertFalse, assertTrue} from 'chrome://test/chai_assert.js';
+import {assertInstanceof} from 'decentr://resources/js/assert.m.js';
+import {Menu} from 'decentr://resources/js/cr/ui/menu.m.js';
+import {assertEquals, assertFalse, assertTrue} from 'decentr://test/chai_assert.js';
 
 import {util} from '../../../common/js/util.js';
 import {MockActionModel, MockActionsModel} from '../mock_actions_model.js';

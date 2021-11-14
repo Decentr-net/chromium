@@ -431,7 +431,7 @@ absl::optional<GURL> GetAssistantUrl(
 }
 
 GURL GetChromeSettingsUrl(const absl::optional<std::string>& page) {
-  static constexpr char kChromeOsSettingsUrl[] = "chrome://os-settings/";
+  static constexpr char kChromeOsSettingsUrl[] = "decentr://os-settings/";
 
   // Note that we only allow deep linking to a subset of pages. If a deep link
   // requests a page not contained in this map, we fallback gracefully to

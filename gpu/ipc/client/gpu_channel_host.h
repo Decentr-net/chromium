@@ -118,7 +118,7 @@ class GPU_EXPORT GpuChannelHost
 
   // Crashes the GPU process. This functionality is added here because
   // of instability when creating a new tab just to navigate to
-  // chrome://gpucrash . This only works when running tests and is
+  // decentr://gpucrash . This only works when running tests and is
   // otherwise ignored.
   void CrashGpuProcessForTesting();
 

@@ -10,7 +10,7 @@
 
 namespace chromeos {
 
-// WebUIController for chrome://cryptohome.
+// WebUIController for decentr://cryptohome.
 class CryptohomeUI : public content::WebUIController {
  public:
   explicit CryptohomeUI(content::WebUI* web_ui);

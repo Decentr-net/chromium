@@ -220,14 +220,14 @@ TEST(ContentSettingsPatternParserTest, ParseFilePatterns) {
 }
 
 TEST(ContentSettingsPatternParserTest, ParseChromePatterns) {
-  // The schemes chrome-extension:// and chrome-search:// are valid,
+  // The schemes decentr-extension:// and decentr-search:// are valid,
   // and chrome-not-search:// is not, because the former two are registered
   // as non-domain wildcard non-port schemes in components_test_suite.cc,
   // and the last one isn't.
   ::testing::StrictMock<MockBuilder> builder;
 
-  // Valid chrome-extension:// URL.
-  EXPECT_CALL(builder, WithScheme("chrome-extension"))
+  // Valid decentr-extension:// URL.
+  EXPECT_CALL(builder, WithScheme("decentr-extension"))
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   EXPECT_CALL(builder, WithHost("peoadpeiejnhkmpaakpnompolbglelel"))
@@ -237,11 +237,11 @@ TEST(ContentSettingsPatternParserTest, ParseChromePatterns) {
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   content_settings::PatternParser::Parse(
-      "chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/", &builder);
+      "decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/", &builder);
   ::testing::Mock::VerifyAndClear(&builder);
 
-  // Valid chrome-search:// URL.
-  EXPECT_CALL(builder, WithScheme("chrome-search"))
+  // Valid decentr-search:// URL.
+  EXPECT_CALL(builder, WithScheme("decentr-search"))
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   EXPECT_CALL(builder, WithHost("local-ntp"))
@@ -251,7 +251,7 @@ TEST(ContentSettingsPatternParserTest, ParseChromePatterns) {
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   content_settings::PatternParser::Parse(
-      "chrome-search://local-ntp/local-ntp.html", &builder);
+      "decentr-search://local-ntp/local-ntp.html", &builder);
   ::testing::Mock::VerifyAndClear(&builder);
 
   // Not a non-domain wildcard non-port scheme implies a port is parsed.
@@ -277,29 +277,29 @@ TEST(ContentSettingsPatternParserTest,
   ::testing::StrictMock<MockBuilder> builder;
 
   // Domain wildcard for scheme without domain wildcards.
-  EXPECT_CALL(builder, WithScheme("chrome-search"))
+  EXPECT_CALL(builder, WithScheme("decentr-search"))
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   EXPECT_CALL(builder, Invalid())
       .Times(1)
       .WillOnce(::testing::Return(&builder));
-  content_settings::PatternParser::Parse("chrome-search://*/local-ntp.html",
+  content_settings::PatternParser::Parse("decentr-search://*/local-ntp.html",
                                          &builder);
   ::testing::Mock::VerifyAndClear(&builder);
 
   // Domain wildcard for scheme without domain wildcards.
-  EXPECT_CALL(builder, WithScheme("chrome-search"))
+  EXPECT_CALL(builder, WithScheme("decentr-search"))
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   EXPECT_CALL(builder, Invalid())
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   content_settings::PatternParser::Parse(
-      "chrome-search://*local-ntp/local-ntp.html", &builder);
+      "decentr-search://*local-ntp/local-ntp.html", &builder);
   ::testing::Mock::VerifyAndClear(&builder);
 
   // Port for scheme without ports.
-  EXPECT_CALL(builder, WithScheme("chrome-search"))
+  EXPECT_CALL(builder, WithScheme("decentr-search"))
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   EXPECT_CALL(builder, WithHost("local-ntp"))
@@ -309,11 +309,11 @@ TEST(ContentSettingsPatternParserTest,
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   content_settings::PatternParser::Parse(
-      "chrome-search://local-ntp:65535/local-ntp.html", &builder);
+      "decentr-search://local-ntp:65535/local-ntp.html", &builder);
   ::testing::Mock::VerifyAndClear(&builder);
 
   // Port wildcard for scheme without ports.
-  EXPECT_CALL(builder, WithScheme("chrome-search"))
+  EXPECT_CALL(builder, WithScheme("decentr-search"))
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   EXPECT_CALL(builder, WithHost("local-ntp"))
@@ -323,7 +323,7 @@ TEST(ContentSettingsPatternParserTest,
       .Times(1)
       .WillOnce(::testing::Return(&builder));
   content_settings::PatternParser::Parse(
-      "chrome-search://local-ntp:*/local-ntp.html", &builder);
+      "decentr-search://local-ntp:*/local-ntp.html", &builder);
   ::testing::Mock::VerifyAndClear(&builder);
 }
 
@@ -348,14 +348,14 @@ TEST(ContentSettingsPatternParserTest, SerializePatterns) {
   EXPECT_EQ("file:///*", content_settings::PatternParser::ToString(parts));
 
   parts = ContentSettingsPattern::PatternParts();
-  parts.scheme = "chrome-search";
+  parts.scheme = "decentr-search";
   parts.host = "local-ntp";
-  EXPECT_EQ("chrome-search://local-ntp/",
+  EXPECT_EQ("decentr-search://local-ntp/",
             content_settings::PatternParser::ToString(parts));
 
   parts = ContentSettingsPattern::PatternParts();
-  parts.scheme = "chrome-extension";
+  parts.scheme = "decentr-extension";
   parts.host = "peoadpeiejnhkmpaakpnompolbglelel";
-  EXPECT_EQ("chrome-extension://peoadpeiejnhkmpaakpnompolbglelel/",
+  EXPECT_EQ("decentr-extension://peoadpeiejnhkmpaakpnompolbglelel/",
             content_settings::PatternParser::ToString(parts));
 }

@@ -29,7 +29,7 @@
 namespace ash {
 namespace {
 
-const char kNotificationId[] = "chrome://update";
+const char kNotificationId[] = "decentr://update";
 
 // Waits for the notification to be added. Needed because the controller posts a
 // task to check for slow boot request before showing the notification.

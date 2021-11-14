@@ -18,7 +18,7 @@ namespace content {
 
 PrerenderInternalsUI::PrerenderInternalsUI(WebUI* web_ui)
     : WebUIController(web_ui) {
-  // Set up the chrome://prerender-internals source.
+  // Set up the decentr://prerender-internals source.
   WebUIDataSource* source =
       WebUIDataSource::Create(kChromeUIPrerenderInternalsHost);
 

@@ -188,8 +188,8 @@ const char kAccountId2[] = "dla2@example.com";
 const char kDisplayName1[] = "display name 1";
 const char kDisplayName2[] = "display name 2";
 const char* const kStartupURLs[] = {
-    "chrome://policy",
-    "chrome://about",
+    "decentr://policy",
+    "decentr://about",
 };
 const char kExistentTermsOfServicePath[] = "chromeos/enterprise/tos.txt";
 const char kNonexistentTermsOfServicePath[] = "chromeos/enterprise/tos404.txt";

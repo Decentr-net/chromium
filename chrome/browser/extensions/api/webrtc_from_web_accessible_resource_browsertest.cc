@@ -51,7 +51,7 @@ class WebRtcFromWebAccessibleResourceTest : public ExtensionApiTest {
   }
 };
 
-// Verify that a chrome-extension:// web accessible URL can successfully access
+// Verify that a decentr-extension:// web accessible URL can successfully access
 // getUserMedia(), even if it is embedded in an insecure context.
 IN_PROC_BROWSER_TEST_F(WebRtcFromWebAccessibleResourceTest,
                        GetUserMediaInWebAccessibleResourceSuccess) {
@@ -74,7 +74,7 @@ IN_PROC_BROWSER_TEST_F(WebRtcFromWebAccessibleResourceTest,
   EXPECT_TRUE(permission_request_observer.request_shown());
 }
 
-// Verify that a chrome-extension:// web accessible URL will fail to access
+// Verify that a decentr-extension:// web accessible URL will fail to access
 // getUserMedia() if it is denied by the permission request, even if it is
 // embedded in an insecure context.
 IN_PROC_BROWSER_TEST_F(WebRtcFromWebAccessibleResourceTest,

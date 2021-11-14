@@ -8,8 +8,8 @@
  * existing stored both on the device and in the account.
  */
 
-import {assert} from 'chrome://resources/js/assert.m.js';
-import {ListPropertyUpdateBehavior} from 'chrome://resources/js/list_property_update_behavior.m.js';
+import {assert} from 'decentr://resources/js/assert.m.js';
+import {ListPropertyUpdateBehavior} from 'decentr://resources/js/list_property_update_behavior.m.js';
 
 import {MultiStorePasswordUiEntry} from './multi_store_password_ui_entry.js';
 import {PasswordManagerImpl, PasswordManagerProxy} from './password_manager_proxy.js';

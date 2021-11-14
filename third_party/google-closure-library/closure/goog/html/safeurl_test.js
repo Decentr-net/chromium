@@ -227,23 +227,23 @@ testSuite({
   testSafeUrlSanitize_sanitizeChromeExtension() {
     const extensionId = Const.from('1234567890abcdef');
     let observed = SafeUrl.sanitizeChromeExtensionUrl(
-        'chrome-extension://1234567890abcdef/foo/bar', extensionId);
+        'decentr-extension://1234567890abcdef/foo/bar', extensionId);
     assertEquals(
-        'chrome-extension://1234567890abcdef/foo/bar',
+        'decentr-extension://1234567890abcdef/foo/bar',
         SafeUrl.unwrap(observed));
 
     observed = SafeUrl.sanitizeChromeExtensionUrl(
-        'chrome-extension://1234567890abcdef/foo/bar', [extensionId]);
+        'decentr-extension://1234567890abcdef/foo/bar', [extensionId]);
     assertEquals(
-        'chrome-extension://1234567890abcdef/foo/bar',
+        'decentr-extension://1234567890abcdef/foo/bar',
         SafeUrl.unwrap(observed));
 
     observed = SafeUrl.sanitizeChromeExtensionUrl(
-        'not-a-chrome-extension://1234567890abcdef/foo/bar', extensionId);
+        'not-a-decentr-extension://1234567890abcdef/foo/bar', extensionId);
     assertEquals(SafeUrl.INNOCUOUS_STRING, SafeUrl.unwrap(observed));
 
     observed = SafeUrl.sanitizeChromeExtensionUrl(
-        'chrome-extension://fedcba0987654321/foo/bar', extensionId);
+        'decentr-extension://fedcba0987654321/foo/bar', extensionId);
     assertEquals(SafeUrl.INNOCUOUS_STRING, SafeUrl.unwrap(observed));
   },
 
@@ -270,7 +270,7 @@ testSuite({
         SafeUrl.unwrap(observed));
 
     observed = SafeUrl.sanitizeEdgeExtensionUrl(
-        'chrome-extension://1234-5678-90ab-cdef/foo/bar', extensionId);
+        'decentr-extension://1234-5678-90ab-cdef/foo/bar', extensionId);
     assertEquals(SafeUrl.INNOCUOUS_STRING, SafeUrl.unwrap(observed));
   },
 

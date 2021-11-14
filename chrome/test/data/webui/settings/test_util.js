@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // clang-format off
-import {ChooserType, ContentSetting, ContentSettingsTypes, SiteSettingSource} from 'chrome://settings/lazy_load.js';
-import {Route, Router} from 'chrome://settings/settings.js';
+import {ChooserType, ContentSetting, ContentSettingsTypes, SiteSettingSource} from 'decentr://settings/lazy_load.js';
+import {Route, Router} from 'decentr://settings/settings.js';
 // clang-format on
 
 

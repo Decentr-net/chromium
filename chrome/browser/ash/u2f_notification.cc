@@ -32,7 +32,7 @@
 namespace chromeos {
 namespace {
 
-constexpr char kU2FNotificationId[] = "chrome://u2f_notification";
+constexpr char kU2FNotificationId[] = "decentr://u2f_notification";
 constexpr char kU2FAdvisoryURL[] =
     "https://sites.google.com/a/chromium.org/dev/chromium-os/"
     "u2f-ecdsa-vulnerability";

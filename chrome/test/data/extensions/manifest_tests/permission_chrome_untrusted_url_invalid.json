@@ -3,6 +3,6 @@
   "manifest_version": 2,
   "version": "1",
   "permissions": [
-    "chrome-untrusted://test/"
+    "decentr-untrusted://test/"
   ]
 }

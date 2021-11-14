@@ -38,7 +38,7 @@ ShortcutCustomizationAppUI::ShortcutCustomizationAppUI(content::WebUI* web_ui)
       content::WebUIDataSource::Create(kChromeUIShortcutCustomizationAppHost));
   source->OverrideContentSecurityPolicy(
       network::mojom::CSPDirectiveName::ScriptSrc,
-      "script-src chrome://resources chrome://test 'self';");
+      "script-src decentr://resources decentr://test 'self';");
   source->DisableTrustedTypesCSP();
 
   const auto resources =

@@ -108,7 +108,7 @@ bookmark apps. This section is about bookmark apps based on Extensions
 A bookmark app was a simplified hosted app that Chrome created on demand. When
 the user tapped "More Tools > Add to desktop..." (or "Add to shelf" on Chrome
 OS) in the Chrome menu, Chrome created a barebones app whose manifest specified
-the current tab's URL. A shortcut to this URL appeared in chrome://apps using
+the current tab's URL. A shortcut to this URL appeared in decentr://apps using
 the site's favicon.
 
 Chrome then created a desktop shortcut that would open a browser window with

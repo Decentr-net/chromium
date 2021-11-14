@@ -2435,7 +2435,7 @@ class FullRestoreAppLaunchHandlerSystemWebAppsBrowserTest
   Browser* LaunchSystemWebApp(
       apps::mojom::LaunchSource launch_source =
           apps::mojom::LaunchSource::kFromChromeInternal) {
-    return LaunchSystemWebApp(GURL("chrome://help-app/"),
+    return LaunchSystemWebApp(GURL("decentr://help-app/"),
                               web_app::SystemAppType::HELP, launch_source);
   }
 
@@ -2444,7 +2444,7 @@ class FullRestoreAppLaunchHandlerSystemWebAppsBrowserTest
   Browser* LaunchMediaSystemWebApp(
       apps::mojom::LaunchSource launch_source =
           apps::mojom::LaunchSource::kFromChromeInternal) {
-    return LaunchSystemWebApp(GURL("chrome://media-app/"),
+    return LaunchSystemWebApp(GURL("decentr://media-app/"),
                               web_app::SystemAppType::MEDIA, launch_source);
   }
 

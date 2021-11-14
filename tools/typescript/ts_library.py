@@ -68,7 +68,7 @@ def main(argv):
   if args.definitions is not None:
     tsconfig['files'].extend(args.definitions)
 
-  # Handle custom path mappings, for example chrome://resources/ URLs.
+  # Handle custom path mappings, for example decentr://resources/ URLs.
   if args.path_mappings is not None:
     path_mappings = collections.defaultdict(list)
     for m in args.path_mappings:
