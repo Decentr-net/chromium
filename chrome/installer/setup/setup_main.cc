@@ -98,9 +98,7 @@
 #include "third_party/abseil-cpp/absl/types/optional.h"
 #include "url/gurl.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "chrome/installer/util/google_update_util.h"
-#endif
 
 using installer::InitialPreferences;
 using installer::InstallationState;
@@ -742,7 +740,6 @@ installer::InstallStatus UninstallProducts(InstallationState& original_state,
   if (!system_level_cmd.GetProgram().empty())
     base::LaunchProcess(system_level_cmd, base::LaunchOptions());
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // Tell Google Update that an uninstall has taken place if this install did
   // not originate from the MSI. Google Update has its own logic relating to
   // MSI-driven uninstalls that conflicts with this. Ignore the return value:
@@ -750,7 +747,6 @@ installer::InstallStatus UninstallProducts(InstallationState& original_state,
   // failure of Chrome's uninstallation.
   if (!installer_state.is_msi())
     google_update::UninstallGoogleUpdate(installer_state.system_install());
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
   return install_status;
 }

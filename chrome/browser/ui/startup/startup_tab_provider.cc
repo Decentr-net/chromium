@@ -377,8 +377,9 @@ StartupTabs StartupTabProviderImpl::GetPostCrashTabsForState(
 StartupTabs StartupTabProviderImpl::GetNewFeaturesTabsForState(
     bool whats_new_enabled) {
   StartupTabs tabs;
-  if (whats_new_enabled)
-    tabs.emplace_back(GURL(kCharonWelcome));
+  if (whats_new_enabled) {
+   
+  }
   return tabs;
 }
 #endif

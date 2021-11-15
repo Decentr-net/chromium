@@ -60,9 +60,7 @@
 #include "chrome/installer/util/util_constants.h"
 #include "chrome/installer/util/work_item_list.h"
 
-#if BUILDFLAG(USE_GOOGLE_UPDATE_INTEGRATION)
 #include "chrome/installer/setup/channel_override_work_item.h"
-#endif
 
 using base::ASCIIToWide;
 using base::win::RegKey;
