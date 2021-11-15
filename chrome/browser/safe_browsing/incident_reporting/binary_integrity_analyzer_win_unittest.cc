@@ -32,7 +32,7 @@ namespace {
 const wchar_t kChromeDll[] = L"chrome.dll";
 const wchar_t kChromeChildDll[] = L"chrome_child.dll";
 const wchar_t kChromeElfDll[] = L"chrome_elf.dll";
-const wchar_t kChromeExe[] = L"chrome.exe";
+const wchar_t kChromeExe[] = L"decentr.exe";
 const wchar_t kSignedBinaryDll[] = L"signed_binary.dll";
 
 // Helper function to erase the content of a binary to make sure the signature

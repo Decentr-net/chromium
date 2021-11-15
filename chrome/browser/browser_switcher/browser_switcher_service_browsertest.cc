@@ -520,7 +520,7 @@ IN_PROC_BROWSER_TEST_F(BrowserSwitcherServiceTest, WritesPrefsToCacheFile) {
   SetPolicy(&policies, policy::key::kAlternativeBrowserParameters,
             std::move(alt_params));
   SetPolicy(&policies, policy::key::kBrowserSwitcherChromePath,
-            base::Value("chrome.exe"));
+            base::Value("decentr.exe"));
   base::Value chrome_params(base::Value::Type::LIST);
   chrome_params.Append("--force-dark-mode");
   SetPolicy(&policies, policy::key::kBrowserSwitcherChromeParameters,
@@ -546,7 +546,7 @@ IN_PROC_BROWSER_TEST_F(BrowserSwitcherServiceTest, WritesPrefsToCacheFile) {
       "1\n"
       "IExplore.exe\n"
       "--bogus-flag\n"
-      "chrome.exe\n"
+      "decentr.exe\n"
       "--force-dark-mode\n"
       "1\n"
       "*://example.com/\n"

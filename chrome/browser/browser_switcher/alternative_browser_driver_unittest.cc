@@ -176,7 +176,7 @@ TEST_F(AlternativeBrowserDriverTest, GetBrowserType) {
   EXPECT_EQ(BrowserType::kOpera, actual);
 
   SetBrowserPath(
-      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+      "C:\\Program Files (x86)\\Decentr\\Application\\decentr.exe");
   actual = driver()->GetBrowserType();
   EXPECT_EQ(BrowserType::kChrome, actual);
 #endif

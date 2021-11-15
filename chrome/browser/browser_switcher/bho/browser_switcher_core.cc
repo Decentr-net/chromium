@@ -20,9 +20,9 @@
 namespace {
 
 const wchar_t kChromeKey[] =
-    L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\chrome.exe";
+    L"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\decentr.exe";
 
-const wchar_t kChromeVarName[] = L"${chrome}";
+const wchar_t kChromeVarName[] = L"${decentr}";
 const wchar_t kUrlVarName[] = L"${url}";
 
 const wchar_t kWildcardUrl[] = L"*";

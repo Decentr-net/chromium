@@ -24,7 +24,7 @@ namespace safe_browsing {
 
 std::vector<base::FilePath> GetCriticalBinariesPath() {
   static const base::FilePath::CharType* const kUnversionedFiles[] = {
-      FILE_PATH_LITERAL("chrome.exe"),
+      FILE_PATH_LITERAL("decentr.exe"),
   };
   static const base::FilePath::CharType* const kVersionedFiles[] = {
       FILE_PATH_LITERAL("chrome.dll"),

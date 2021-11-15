@@ -6,7 +6,7 @@
 #
 # Chrome Application dir entries, sorted alphabetically.
 #
-chrome.exe: %(ChromeDir)s\
+Decentr.exe: %(ChromeDir)s\
 chrome_proxy.exe: %(ChromeDir)s\
 #
 # Chrome version dir assembly manifest.

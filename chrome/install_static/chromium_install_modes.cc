@@ -14,13 +14,13 @@
 
 namespace install_static {
 
-const wchar_t kCompanyPathName[] = L"";
+const wchar_t kCompanyPathName[] = L"Decentr";
 
-const wchar_t kProductPathName[] = L"Chromium";
+const wchar_t kProductPathName[] = L"Decentr";
 
 const size_t kProductPathNameLength = _countof(kProductPathName) - 1;
 
-const char kSafeBrowsingName[] = "chromium";
+const char kSafeBrowsingName[] = "Decentr";
 
 const InstallConstants kInstallModes[] = {
     // The primary (and only) install mode for Chromium.
@@ -30,12 +30,12 @@ const InstallConstants kInstallModes[] = {
         "",              // No install switch for the primary install mode.
         L"",             // Empty install_suffix for the primary install mode.
         L"",             // No logo suffix for the primary install mode.
-        L"",          // Empty app_guid since no integraion with Google Update.
-        L"Chromium",  // A distinct base_app_name.
-        L"Chromium",  // A distinct base_app_id.
-        L"ChromiumHTM",                             // ProgID prefix.
-        L"Chromium HTML Document",                  // ProgID description.
-        L"{7D2B3E1D-D096-4594-9D8F-A6667F12E0AC}",  // Active Setup GUID.
+        L"{E6062629-CC9E-4F16-9A7B-990EF7A0DCDB}",          // Empty app_guid since no integraion with Google Update.
+        L"Decentr",  // A distinct base_app_name.
+        L"Decentr",  // A distinct base_app_id.
+        L"DecentrHTM",                             // ProgID prefix.
+        L"Decentr HTML Document",                  // ProgID description.
+        L"{E6062629-CC9E-4F16-9A7B-990EF7A0DCDB}",  // Active Setup GUID.
         L"{A2DF06F9-A21A-44A8-8A99-8B9C84F29160}",  // CommandExecuteImpl CLSID.
         {0x635EFA6F,
          0x08D6,

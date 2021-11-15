@@ -22,7 +22,7 @@
 // should also remove any flags within the flag sentinels, and the sentinels
 // themselves.
 TEST(ChromeBrowserMainWinTest, GetRestartCommand) {
-  base::FilePath chrome_path(L"chrome.exe");
+  base::FilePath chrome_path(L"decentr.exe");
   base::CommandLine simple_command_line(chrome_path);
 
   // Simple command line with just the program.
@@ -77,7 +77,7 @@ TEST(ChromeBrowserMainWinTest, GetRestartCommand) {
       experiments_command_line.HasSwitch(::switches::kFlagSwitchesBegin));
   ASSERT_EQ(
       experiments_command_line.GetCommandLineString(),
-      L"chrome.exe --enable-features=Exp2 --enable-foo --enable-sandbox-audio"
+      L"decentr.exe --enable-features=Exp2 --enable-foo --enable-sandbox-audio"
       L" --flag-switches-begin --flag-switch --flag-switches-end");
   // Check that the args and flag switches and sentinels are removed.
   restart_command_line = ChromeBrowserMainPartsWin::GetRestartCommandLine(
@@ -91,7 +91,7 @@ TEST(ChromeBrowserMainWinTest, GetRestartCommand) {
 // Test RegisterApplicationRestart to make sure there are no crashes.
 TEST(ChromeBrowserMainWinTest, RegisterRestart) {
   const base::CommandLine command_line = base::CommandLine::FromString(
-      L"chrome.exe --enable-features=Exp2 --enable-foo -- "
+      L"decentr.exe --enable-features=Exp2 --enable-foo -- "
       L"http://www.chromium.org");
   ChromeBrowserMainPartsWin::RegisterApplicationRestart(command_line);
 }
