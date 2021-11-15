@@ -76,14 +76,12 @@ bool Configuration::ParseCommandLine(const wchar_t* command_line) {
   for (int i = 1; i < argument_count_; ++i) {
     if (0 == ::lstrcmpi(args_[i], L"--system-level"))
       is_system_level_ = true;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     else if (0 == ::lstrcmpi(args_[i], L"--chrome-beta"))
       chrome_app_guid_ = google_update::kBetaAppGuid;
     else if (0 == ::lstrcmpi(args_[i], L"--chrome-dev"))
       chrome_app_guid_ = google_update::kDevAppGuid;
     else if (0 == ::lstrcmpi(args_[i], L"--chrome-sxs"))
       chrome_app_guid_ = google_update::kSxSAppGuid;
-#endif
     else if (0 == ::lstrcmpi(args_[i], L"--cleanup"))
       has_invalid_switch_ = true;
     else if (0 == ::lstrcmpi(args_[i], L"--chrome-frame"))

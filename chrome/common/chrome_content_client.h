@@ -31,12 +31,10 @@ class OriginTrialPolicyImpl;
 
 class ChromeContentClient : public content::ContentClient {
  public:
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // |kNotPresent| is a placeholder plugin location for plugins that are not
   // currently present in this installation of Chrome, but which can be fetched
   // on-demand and therefore should still appear in navigator.plugins.
   static const base::FilePath::CharType kNotPresent[];
-#endif
 
 #if BUILDFLAG(ENABLE_NACL)
   static const base::FilePath::CharType kNaClPluginFileName[];

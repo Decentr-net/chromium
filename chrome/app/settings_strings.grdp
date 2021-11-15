@@ -3524,7 +3524,7 @@
   </if>
 
   <!-- Incompatible Applications Page -->
-  <if expr="is_win and _google_chrome">
+  <if expr="is_win">
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_RESET_CARD_TITLE" desc="The title of the Incompatible Applications section of the settings.">
       Update or remove incompatible applications
     </message>

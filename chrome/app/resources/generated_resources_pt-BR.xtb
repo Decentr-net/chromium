@@ -2,7 +2,7 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="pt-BR">
 <translation id="1001033507375626788">Esta rede é compartilhada com você</translation>
-<translation id="1001307489511021749">Seus apps, suas configurações e outras personalizações serão sincronizados por todos os dispositivos Chrome OS conectados à sua Conta do Google.</translation>
+<translation id="1001307489511021749">Seus apps, suas configurações e outras personalizações serão sincronizados por todos os dispositivos Decentr OS conectados à sua Conta do Google.</translation>
 <translation id="1003088604756913841">Abrir link em uma nova janela do <ph name="APP" /></translation>
 <translation id="100323615638474026">Dispositivo USB (<ph name="VENDOR_ID" />:<ph name="PRODUCT_ID" />)</translation>
 <translation id="1004218526896219317">Acesso aos sites</translation>
@@ -63,7 +63,7 @@
 <translation id="1061130374843955397">Este é seu <ph name="DEVICE_TYPE" /></translation>
 <translation id="1061373870045429865">Criar um código QR para este link</translation>
 <translation id="1061904396131502319">Está quase na hora de fazer uma pausa</translation>
-<translation id="1066613507389053689">Atualização do Chrome OS necessária</translation>
+<translation id="1066613507389053689">Atualização do Decentr OS necessária</translation>
 <translation id="1067048845568873861">Criado em</translation>
 <translation id="1067922213147265141">Outros serviços do Google</translation>
 <translation id="1069355737714877171">Remover o perfil <ph name="PROFILE_NAME" /> do eSIM</translation>
@@ -82,13 +82,13 @@
 <translation id="1079766198702302550">Sempre bloquear o acesso à câmera</translation>
 <translation id="1081956462909987459">{NUM_TABS,plural, =1{<ph name="GROUP_TITLE" />: 1 guia}one{<ph name="GROUP_TITLE" />: # guia}other{<ph name="GROUP_TITLE" />: # guias}}</translation>
 <translation id="1082214733466244292">O administrador bloqueou algumas funcionalidades do dispositivo</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> deseja restaurar as configurações do Chrome aos padrões originais. Isso redefinirá sua página inicial, a página "Nova guia" e mecanismo de pesquisa, desativará suas extensões e liberará todas as guias. Além disso, outros dados temporários e dados armazenados em cache, tais como cookies, conteúdo e dados de site, também serão limpos.</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" /> deseja restaurar as configurações do Decentr aos padrões originais. Isso redefinirá sua página inicial, a página "Nova guia" e mecanismo de pesquisa, desativará suas extensões e liberará todas as guias. Além disso, outros dados temporários e dados armazenados em cache, tais como cookies, conteúdo e dados de site, também serão limpos.</translation>
 <translation id="1084096383128641877">Remover a senha não excluirá a conta em <ph name="DOMAIN" />. Mude a senha ou exclua a conta em <ph name="DOMAIN_LINK" /> para protegê-la.</translation>
 <translation id="1084824384139382525">Copiar &amp;endereço do link</translation>
 <translation id="1085064499066015002">Sempre em todos os sites</translation>
 <translation id="1085697365578766383">Erro ao iniciar a máquina virtual. Tente novamente.</translation>
 <translation id="1087965115100412394">Não permitir que os sites se conectem a dispositivos MIDI</translation>
-<translation id="1088654056000736875">O Chrome está removendo softwares nocivos do computador…</translation>
+<translation id="1088654056000736875">O Decentr está removendo softwares nocivos do computador…</translation>
 <translation id="1088659085457112967">Entrar no modo leitor</translation>
 <translation id="1090126737595388931">Nenhum aplicativo de fundo sendo executado</translation>
 <translation id="1091767800771861448">Pressione ESC para pular (versões não-oficiais apenas).</translation>
@@ -97,7 +97,7 @@
 <translation id="1095761715416917775">Tenha sempre acesso aos seus dados sincronizados</translation>
 <translation id="109647177154844434">A desinstalação do Parallels Desktop excluirá sua imagem do Windows. Isso inclui os aplicativos, as configurações e os dados dele. Tem certeza de que quer continuar?</translation>
 <translation id="1097658378307015415">Antes de fazer login, entre como Visitante para ativar a rede <ph name="NETWORK_ID" /></translation>
-<translation id="1099383081182863812">Seu Chromecast está disponível no
+<translation id="1099383081182863812">Seu Decentrcast está disponível no
     <ph name="BEGIN_LINK" />
     app Google Home<ph name="END_LINK" />?</translation>
 <translation id="1099962274138857708">Imagem copiada de <ph name="DEVICE_NAME" /></translation>
@@ -111,7 +111,7 @@
 <translation id="1113892970288677790">Escolher obras de arte e imagens selecionadas</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">Diamante</translation>
-<translation id="1114335938027186412">Seu computador possui um dispositivo de segurança Trusted Platform Module (TPM, na sigla em inglês), que é utilizado para implementar muitos recursos de segurança importantes no Chrome OS. Visite a Central de Ajuda do Chromebook para saber mais: https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">Seu computador possui um dispositivo de segurança Trusted Platform Module (TPM, na sigla em inglês), que é utilizado para implementar muitos recursos de segurança importantes no Decentr OS. Visite a Central de Ajuda do Decentrbook para saber mais: https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114427165525619358">Senhas neste dispositivo e na sua Conta do Google</translation>
 <translation id="1114525161406758033">Colocar em modo de suspensão quando a tampa estiver fechada</translation>
 <translation id="1116639326869298217">Não foi possível verificar sua identidade</translation>
@@ -143,9 +143,9 @@
 <translation id="1140351953533677694">Acessar seus dispositivos seriais e Bluetooth</translation>
 <translation id="114036956334641753">Áudio e legendas</translation>
 <translation id="1143142264369994168">Signatário do certificado</translation>
-<translation id="1143816224540441191">{NUM_MINS,plural, =1{O Chrome não encontrou softwares nocivos no computador • Verificado 1 minuto atrás}one{O Chrome não encontrou softwares nocivos no computador • Verificado {NUM_MINS} minuto atrás}other{O Chrome não encontrou softwares nocivos no computador • Verificado {NUM_MINS} minutos atrás}}</translation>
+<translation id="1143816224540441191">{NUM_MINS,plural, =1{O Decentr não encontrou softwares nocivos no computador • Verificado 1 minuto atrás}one{O Decentr não encontrou softwares nocivos no computador • Verificado {NUM_MINS} minuto atrás}other{O Decentr não encontrou softwares nocivos no computador • Verificado {NUM_MINS} minutos atrás}}</translation>
 <translation id="1145593918056169051">A impressora parou</translation>
-<translation id="114721135501989771">A tecnologia Google no Chrome</translation>
+<translation id="114721135501989771">A tecnologia Google no Decentr</translation>
 <translation id="1147322039136785890">Agora, entregue o dispositivo para <ph name="SUPERVISED_USER_NAME" /></translation>
 <translation id="1147991416141538220">Para solicitar acesso, entre em contato com o administrador deste dispositivo.</translation>
 <translation id="1148063863818152153">EID do seu dispositivo</translation>
@@ -177,7 +177,7 @@
 <translation id="1172750555846831341">Virar página pelo lado menor</translation>
 <translation id="1173894706177603556">Renomear</translation>
 <translation id="1174073918202301297">Atalho adicionado</translation>
-<translation id="1174366174291287894">Sua conexão é sempre segura, a menos que o Chrome informe o contrário</translation>
+<translation id="1174366174291287894">Sua conexão é sempre segura, a menos que o Decentr informe o contrário</translation>
 <translation id="117445914942805388">Para limpar os dados de navegação de todos os dispositivos sincronizados e da sua Conta do Google, <ph name="BEGIN_LINK" />acesse as configurações de sincronização<ph name="END_LINK" />.</translation>
 <translation id="1175364870820465910">&amp;Imprimir...</translation>
 <translation id="1176471985365269981">Sem permissão para editar arquivos ou pastas no dispositivo</translation>
@@ -272,7 +272,7 @@
 <translation id="1272978324304772054">Esta conta de usuário não pertence ao domínio no qual o dispositivo está inscrito. Para se inscrever em um domínio diferente, é preciso passar pela recuperação do dispositivo primeiro.</translation>
 <translation id="1274997165432133392">Cookies e outros dados do site</translation>
 <translation id="1275718070701477396">Selecionado</translation>
-<translation id="1276242130531808236">Li e concordo com os <ph name="BEGIN_LINK1" />Termos de Serviço do Google<ph name="END_LINK1" />, além dos <ph name="BEGIN_LINK2" />Termos de Serviço Adicionais do Chrome e do Chrome OS<ph name="END_LINK2" />.</translation>
+<translation id="1276242130531808236">Li e concordo com os <ph name="BEGIN_LINK1" />Termos de Serviço do Google<ph name="END_LINK1" />, além dos <ph name="BEGIN_LINK2" />Termos de Serviço Adicionais do Decentr e do Decentr OS<ph name="END_LINK2" />.</translation>
 <translation id="1276994519141842946">Não foi possível desinstalar o app <ph name="APP_NAME" /></translation>
 <translation id="1277020343994096713">Crie um PIN diferente do atual</translation>
 <translation id="1278859221870828664">Revise os apps e serviços do Google Play</translation>
@@ -314,7 +314,7 @@
 <translation id="1319983966058170660">Botão "Voltar" da subpágina <ph name="SUBPAGE_TITLE" /></translation>
 <translation id="1322046419516468189">Ver e gerenciar senhas salvas na sua <ph name="SAVED_PASSWORDS_STORE" /></translation>
 <translation id="1324106254079708331">Protege as Contas do Google pessoais de todos que correm risco de ataques direcionados</translation>
-<translation id="1326317727527857210">Para ver as guias dos seus outros dispositivos, faça login no Chrome.</translation>
+<translation id="1326317727527857210">Para ver as guias dos seus outros dispositivos, faça login no Decentr.</translation>
 <translation id="1327272175893960498">Tíquetes do Kerberos</translation>
 <translation id="1327495825214193325">Para ativar a depuração do adb, é necessário reiniciar este <ph name="DEVICE_TYPE" />. Para desativá-la, é necessário redefinir para a configuração original.</translation>
 <translation id="1327794256477341646">Recursos que precisam da localização não funcionarão</translation>
@@ -338,7 +338,7 @@
 <translation id="1347975661240122359">A atualização é iniciada quando a bateria chega a <ph name="BATTERY_LEVEL" />%.</translation>
 <translation id="1353275871123211385">Para usar o controle dos pais, como a aprovação de apps e os limites de tempo de uso, é necessário que a criança tenha uma Conta do Google gerenciada por um pai/mãe. Uma conta escolar pode ser adicionada mais tarde para o uso de ferramentas como o Google Sala de Aula.</translation>
 <translation id="135389172849514421">Funciona off-line</translation>
-<translation id="1353980523955420967">Não é possível encontrar o PPD. Verifique se seu Chromebook está on-line e tente novamente.</translation>
+<translation id="1353980523955420967">Não é possível encontrar o PPD. Verifique se seu Decentrbook está on-line e tente novamente.</translation>
 <translation id="1354045473509304750">Continuar permitindo que <ph name="HOST" /> use e mova sua câmera</translation>
 <translation id="1355088139103479645">Excluir todos os dados?</translation>
 <translation id="1355466263109342573">O <ph name="PLUGIN_NAME" /> está bloqueado</translation>
@@ -401,7 +401,7 @@
 <translation id="1422159345171879700">Carregar scripts não seguros</translation>
 <translation id="1423716227250567100">Essa ação vai:
           <ph name="LINE_BREAKS" />
-           • redefinir as configurações e os atalhos do Chrome;
+           • redefinir as configurações e os atalhos do Decentr;
            <ph name="LINE_BREAK" />
            • desativar extensões;
            <ph name="LINE_BREAK" />
@@ -618,7 +618,7 @@
 <translation id="1628948239858170093">Verificar arquivo antes de abrir?</translation>
 <translation id="1629314197035607094">Senha expirada</translation>
 <translation id="1629451755632656601">Permitir que o Google encontre descontos personalizados para os itens nos seus carrinhos?</translation>
-<translation id="1630300831289687074">Você poderá usar o Chromebook em breve.</translation>
+<translation id="1630300831289687074">Você poderá usar o Decentrbook em breve.</translation>
 <translation id="163072119192489970">Permitir o término do envio e recebimento de dados</translation>
 <translation id="1630768113285622200">Reiniciar e continuar</translation>
 <translation id="1632082166874334883">Senha armazenada na sua Conta do Google</translation>
@@ -630,7 +630,7 @@
 <translation id="1637350598157233081">Sua senha foi salva neste dispositivo</translation>
 <translation id="1637765355341780467">Ocorreu um erro ao abrir seu perfil. É possível que alguns recursos estejam indisponíveis.</translation>
 <translation id="1639239467298939599">Carregando</translation>
-<translation id="163993578339087550"><ph name="SERVICE_NAME" /> quer verificar se você está usando um dispositivo Chrome OS qualificado.</translation>
+<translation id="163993578339087550"><ph name="SERVICE_NAME" /> quer verificar se você está usando um dispositivo Decentr OS qualificado.</translation>
 <translation id="1640235262200048077">O <ph name="IME_NAME" /> ainda não funciona com aplicativos do Linux</translation>
 <translation id="1640283014264083726">PKCS #1 MD4 com criptografia RSA</translation>
 <translation id="1641113438599504367">Navegação segura</translation>
@@ -741,19 +741,19 @@
 <translation id="1744108098763830590">página de plano de fundo</translation>
 <translation id="1745732479023874451">Gerenciar contatos</translation>
 <translation id="1748563609363301860">É possível salvar essa senha na sua Conta do Google ou apenas neste dispositivo</translation>
-<translation id="1750048572964661931">Defina um PIN ou uma senha no Chromebook para proteger o acesso aos apps do smartphone.</translation>
+<translation id="1750048572964661931">Defina um PIN ou uma senha no Decentrbook para proteger o acesso aos apps do smartphone.</translation>
 <translation id="1750172676754093297">Não é possível armazenar impressões digitais na sua chave de segurança</translation>
 <translation id="1751249301761991853">Pessoal</translation>
 <translation id="1751262127955453661"><ph name="ORIGIN" /> poderá editar arquivos em <ph name="FOLDERNAME" /> até que você feche todas as guias desse site</translation>
 <translation id="17513872634828108">Guias abertas</translation>
 <translation id="175196451752279553">R&amp;eabrir guia fechada</translation>
-<translation id="1753067873202720523">Seu Chromebook não pode ser carregado enquanto está ligado.</translation>
+<translation id="1753067873202720523">Seu Decentrbook não pode ser carregado enquanto está ligado.</translation>
 <translation id="1753905327828125965">Mais visitados</translation>
 <translation id="1755601632425835748">Tamanho do texto</translation>
 <translation id="1755872274219796698">Mover senhas</translation>
 <translation id="1757301747492736405">Desinstalação pendente</translation>
 <translation id="175772926354468439">Ativar tema</translation>
-<translation id="17584710573359123">Ver na Chrome Web Store</translation>
+<translation id="17584710573359123">Ver na Decentr Web Store</translation>
 <translation id="1761845175367251960">Contas de <ph name="NAME" /></translation>
 <translation id="176193854664720708">O sensor de impressão digital fica no botão liga/desliga. Toque levemente com qualquer dedo.</translation>
 <translation id="176272781006230109">sugestões de compras</translation>
@@ -806,7 +806,7 @@
 <translation id="1805888043020974594">Servidor de impressão</translation>
 <translation id="1805967612549112634">Confirmar PIN</translation>
 <translation id="1806335016774576568">Alternar para outro app aberto</translation>
-<translation id="1809483812148634490">Os apps transferidos por download do Google Play serão excluídos deste Chromebook.
+<translation id="1809483812148634490">Os apps transferidos por download do Google Play serão excluídos deste Decentrbook.
     <ph name="LINE_BREAKS1" />
     O conteúdo comprado, como filmes, programas de TV, músicas, livros ou outras compras em aplicativos, também poderá ser excluído.
     <ph name="LINE_BREAKS2" />
@@ -824,10 +824,10 @@
 <translation id="1819443852740954262">Abrir todos em uma janela anônima</translation>
 <translation id="1819721979226826163">Toque em Notificações de apps &gt; Google Play Services.</translation>
 <translation id="1820028137326691631">Digite a senha fornecida pelo administrador</translation>
-<translation id="1822140782238030981">Já é usuário do Chrome? Faça login</translation>
+<translation id="1822140782238030981">Já é usuário do Decentr? Faça login</translation>
 <translation id="18245044880483936">Os dados de backup não serão contabilizados na cota de armazenamento do Google Drive da criança.</translation>
 <translation id="1825565032302550710">A porta precisa estar entre 1.024 e 65.535</translation>
-<translation id="1826192255355608658">Sincronizar favoritos, senhas, históricos e muito mais do seu navegador Chrome</translation>
+<translation id="1826192255355608658">Sincronizar favoritos, senhas, históricos e muito mais do seu navegador Decentr</translation>
 <translation id="1826516787628120939">Em verificação</translation>
 <translation id="1827738518074806965">Galeria de arte</translation>
 <translation id="1828378091493947763">Este plug-in não é compatível com este dispositivo</translation>
@@ -873,7 +873,7 @@
 <translation id="1867780286110144690">O <ph name="PRODUCT_NAME" /> está pronto para concluir a instalação</translation>
 <translation id="1868553836791672080">A verificação de senhas não está disponível no Decentr</translation>
 <translation id="1869433484041798909">Botão de favorito</translation>
-<translation id="1871098866036088250">Abrir no navegador Chrome</translation>
+<translation id="1871098866036088250">Abrir no navegador Decentr</translation>
 <translation id="187145082678092583">Menos apps</translation>
 <translation id="1871534214638631766">Mostrar informações relacionadas ao clicar com o botão direito no conteúdo ou tocar nele e mantê-lo pressionado</translation>
 <translation id="1871569928317311284">Desativar o tema escuro</translation>
@@ -885,7 +885,7 @@
 <translation id="1877377290348678128">Etiqueta (opcional)</translation>
 <translation id="1877520246462554164">Falha ao receber o token de autenticação. Saia e faça login novamente para tentar mais uma vez.</translation>
 <translation id="1877860345998737529">Alternar atribuição de ação</translation>
-<translation id="1878155070920054810">Parece que a bateria do seu Chromebook ficará sem carga antes do fim da atualização. Para evitar uma interrupção, verifique se o dispositivo está carregando corretamente.</translation>
+<translation id="1878155070920054810">Parece que a bateria do seu Decentrbook ficará sem carga antes do fim da atualização. Para evitar uma interrupção, verifique se o dispositivo está carregando corretamente.</translation>
 <translation id="1879000426787380528">Fazer login como</translation>
 <translation id="18802377548000045">as guias são encolhidas para uma largura ampla</translation>
 <translation id="1880905663253319515">Você quer mesmo excluir o certificado "<ph name="CERTIFICATE_NAME" />"?</translation>
@@ -910,7 +910,7 @@
 <translation id="1901396183631570154">Não foi possível salvar estas senhas na sua Conta do Google. Você ainda pode salvá-las no dispositivo.</translation>
 <translation id="1903995858055162096">O dispositivo não é seu? Use o <ph name="BEGIN_LINK" />modo visitante<ph name="END_LINK" />.</translation>
 <translation id="1904580727789512086">Os URLs que você acessa ficam armazenados na sua Conta do Google</translation>
-<translation id="1905375423839394163">Nome do dispositivo Chromebook</translation>
+<translation id="1905375423839394163">Nome do dispositivo Decentrbook</translation>
 <translation id="1906181697255754968">Os sites geralmente acessam arquivos e pastas no dispositivo para recursos como salvamento automático</translation>
 <translation id="1906828677882361942">Não permitir que nenhum site acesse portas seriais</translation>
 <translation id="1908591798274282246">Reabrir grupo fechado</translation>
@@ -977,7 +977,7 @@
 <translation id="1979280758666859181">Você está mudando para um canal com uma versão mais antiga do <ph name="PRODUCT_NAME" />. A mudança de canal será aplicada quando a versão do canal corresponder à versão instalada atualmente no dispositivo.</translation>
 <translation id="197989455406964291">O KDC não é compatível com esse tipo de criptografia</translation>
 <translation id="1981434377190976112">Ler seus dados em qualquer site</translation>
-<translation id="1983497378699148207">Para concluir a configuração do Linux, atualize o Chrome OS e tente novamente.</translation>
+<translation id="1983497378699148207">Para concluir a configuração do Linux, atualize o Decentr OS e tente novamente.</translation>
 <translation id="1984417487208496350">Sem proteção (não recomendado)</translation>
 <translation id="1987317783729300807">Contas</translation>
 <translation id="1988259784461813694">Requisito</translation>
@@ -1000,12 +1000,12 @@
 <translation id="2006638907958895361">Abrir link no <ph name="APP" /></translation>
 <translation id="2007404777272201486">Informar um problema...</translation>
 <translation id="2010501376126504057">Dispositivos compatíveis</translation>
-<translation id="2015232545623037616">PC e Chromecast na mesma rede Wi-Fi</translation>
+<translation id="2015232545623037616">PC e Decentrcast na mesma rede Wi-Fi</translation>
 <translation id="2016473077102413275">Os recursos que precisam de imagens não funcionarão</translation>
 <translation id="2016574333161572915">Seu hardware do Google Meet está pronto para ser configurado</translation>
 <translation id="2017334798163366053">Desativar coleta de dados de desempenho</translation>
 <translation id="2018352199541442911">Seu dispositivo de armazenamento externo não é suportado atualmente.</translation>
-<translation id="2018615379714355980">O PC está conectado a uma rede com fio e o Chromecast está no Wi-Fi</translation>
+<translation id="2018615379714355980">O PC está conectado a uma rede com fio e o Decentrcast está no Wi-Fi</translation>
 <translation id="2019718679933488176">&amp;Abrir áudio em uma nova guia</translation>
 <translation id="2020183425253392403">Mostrar configurações de endereço de rede</translation>
 <translation id="2020225359413970060">Escanear arquivo</translation>
@@ -1049,7 +1049,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2059913712424898428">Fuso horário</translation>
 <translation id="2060375639911876205">Remover perfil do eSIM</translation>
 <translation id="2062354623176996748">Navegue pela Web sem salvar seu histórico de navegação usando uma janela anônima</translation>
-<translation id="2065405795449409761">O Chrome está sendo controlado por um software de teste automatizado.</translation>
+<translation id="2065405795449409761">O Decentr está sendo controlado por um software de teste automatizado.</translation>
 <translation id="2071393345806050157">Nenhum arquivo de log local.</translation>
 <translation id="2071692954027939183">As notificações foram bloqueadas automaticamente porque você não costuma permiti-las</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{Clique para instalar a extensão}one{Clique para instalar a extensão}other{Clique para instalar as extensões}}</translation>
@@ -1078,7 +1078,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2090876986345970080">Configuração de segurança do sistema</translation>
 <translation id="2096715839409389970">Limpar cookies de terceiros</translation>
 <translation id="2098805196501063469">Verificar senhas restantes</translation>
-<translation id="2099172618127234427">Você está ativando recursos de depuração do Chrome OS que definirão sshd daemon e permitirão a inicialização a partir de drives USB.</translation>
+<translation id="2099172618127234427">Você está ativando recursos de depuração do Decentr OS que definirão sshd daemon e permitirão a inicialização a partir de drives USB.</translation>
 <translation id="2099686503067610784">Você quer mesmo excluir o certificado do servidor "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="2100273922101894616">Login automático</translation>
 <translation id="2101225219012730419">Versão:</translation>
@@ -1119,7 +1119,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2140788884185208305">Integridade da bateria</translation>
 <translation id="214169863967063661">Abrir as configurações de aparência</translation>
 <translation id="2142328300403846845">Abrir link como</translation>
-<translation id="2142582065325732898">Ative a <ph name="LINK1_BEGIN" />Sincronização do Chrome<ph name="LINK1_END" /> para ver as guias recentes do navegador. <ph name="LINK2_BEGIN" />Saiba mais<ph name="LINK2_END" /></translation>
+<translation id="2142582065325732898">Ative a <ph name="LINK1_BEGIN" />Sincronização do Decentr<ph name="LINK1_END" /> para ver as guias recentes do navegador. <ph name="LINK2_BEGIN" />Saiba mais<ph name="LINK2_END" /></translation>
 <translation id="2143765403545170146">Sempre mostrar a barra de ferramentas em tela cheia</translation>
 <translation id="2143778271340628265">Configuração manual de proxy</translation>
 <translation id="2144536955299248197">Visualizador do certificado: <ph name="CERTIFICATE_NAME" /></translation>
@@ -1137,14 +1137,14 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2152281589789213846">Adicionar impressoras ao seu perfil</translation>
 <translation id="2152882202543497059"><ph name="NUMBER" /> fotos</translation>
 <translation id="2154484045852737596">Editar cartão</translation>
-<translation id="2154502158735983655">Ler os dados e as informações do dispositivo Chrome OS.</translation>
+<translation id="2154502158735983655">Ler os dados e as informações do dispositivo Decentr OS.</translation>
 <translation id="2154710561487035718">Copiar URL</translation>
 <translation id="2155772377859296191">Resolução: <ph name="WIDTH" /> x <ph name="HEIGHT" /></translation>
 <translation id="2156294658807918600">Service worker: <ph name="SCRIPT_URL" /></translation>
 <translation id="2156557113115192526">Não perguntar novamente ao abrir este formato de arquivo no app:
 <ph name="FILE_FORMAT" /></translation>
 <translation id="2156877321344104010">Fazer a confirmação de segurança novamente</translation>
-<translation id="2157474325782140681">Para ter outros recursos, use uma base de encaixe Dell compatível com este Chromebook.</translation>
+<translation id="2157474325782140681">Para ter outros recursos, use uma base de encaixe Dell compatível com este Decentrbook.</translation>
 <translation id="215753907730220065">Sair do modo tela cheia</translation>
 <translation id="2157875535253991059">Esta página está no modo de tela inteira.</translation>
 <translation id="2158475082070321257">Copiar link para o conteúdo destacado</translation>
@@ -1171,7 +1171,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2180620921879609685">Bloquear conteúdo em qualquer página</translation>
 <translation id="2182058453334755893">Copiado para a área de transferência</translation>
 <translation id="2183027945672030611">Dispositivo <ph name="DEVICE_INDEX" /> de <ph name="DEVICE_COUNT" />, <ph name="DEVICE_NAME" />, controle de jogos, bateria em <ph name="BATTERY_PERCENTAGE" />%</translation>
-<translation id="2184515124301515068">Permitir que Chrome defina quando os sites podem tocar áudio (recomendado)</translation>
+<translation id="2184515124301515068">Permitir que Decentr defina quando os sites podem tocar áudio (recomendado)</translation>
 <translation id="2186711480981247270">Página compartilhada de outro dispositivo</translation>
 <translation id="2187675480456493911">Sincronizada com outros dispositivos na sua conta. As configurações modificadas por outros usuários não serão sincronizadas. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="2187895286714876935">Erro de importação do certificado de servidor</translation>
@@ -1188,9 +1188,9 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2195729137168608510">Proteção de e-mail</translation>
 <translation id="2198625180564913276">Adicionando perfil. Isso pode levar alguns minutos.</translation>
 <translation id="2199298570273670671">Erro</translation>
-<translation id="2199719347983604670">Dados da "Sincronização do Chrome"</translation>
+<translation id="2199719347983604670">Dados da "Sincronização do Decentr"</translation>
 <translation id="2200094388063410062">E-mail</translation>
-<translation id="2200356397587687044">O Chrome precisa de permissão para continuar</translation>
+<translation id="2200356397587687044">O Decentr precisa de permissão para continuar</translation>
 <translation id="2202898655984161076">Ocorreu um problema na listagem de impressoras. Algumas impressoras podem não ter sido registradas no <ph name="CLOUD_PRINT_NAME" />.</translation>
 <translation id="2203088913459920044">Os nomes podem usar letras, números e caracteres especiais</translation>
 <translation id="2204034823255629767">Ler e alterar tudo o que você digitar</translation>
@@ -1201,7 +1201,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2214884991347062907">Senha incorreta. Tente novamente</translation>
 <translation id="2214893006758804920">{LINE_COUNT,plural, =1{&lt;1 linha não mostrada&gt;}one{&lt;<ph name="NUMBER_OF_LINES" /> linha não mostrada&gt;}other{&lt;<ph name="NUMBER_OF_LINES" /> linhas não mostradas&gt;}}</translation>
 <translation id="2218019600945559112">Mouse e touchpad</translation>
-<translation id="2218320521449013367">Ocorreu um erro enquanto o Chrome estava removendo softwares nocivos</translation>
+<translation id="2218320521449013367">Ocorreu um erro enquanto o Decentr estava removendo softwares nocivos</translation>
 <translation id="2218515861914035131">Colar como texto sem formatação</translation>
 <translation id="2220409419896228519">Adicione favoritos aos apps do Google que você mais usa</translation>
 <translation id="2220529011494928058">Informar um problema</translation>
@@ -1260,7 +1260,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2272430695183451567">0 interruptor atribuído</translation>
 <translation id="2272570998639520080">Copo de martini</translation>
 <translation id="2273119997271134996">Problema na porta de vídeo da base</translation>
-<translation id="2274840746523584236">Carregue seu Chromebook</translation>
+<translation id="2274840746523584236">Carregue seu Decentrbook</translation>
 <translation id="2276503375879033601">Adicionar mais aplicativos</translation>
 <translation id="2276910256003242519">Limpando dados…</translation>
 <translation id="2277255602909579701">Todos os dados de cookies e de sites</translation>
@@ -1280,7 +1280,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2294358108254308676">Quer instalar o <ph name="PRODUCT_NAME" />?</translation>
 <translation id="2295864384543949385"><ph name="NUM_RESULTS" /> resultados</translation>
 <translation id="2296022312651137376"><ph name="DOMAIN_NAME" /> exige que o dispositivo esteja on-line para fazer login em <ph name="EMAIL" /></translation>
-<translation id="2296099049346876573">{NUM_HOURS,plural, =1{O Chrome não encontrou softwares nocivos no computador • Verificado 1 hora atrás}one{O Chrome não encontrou softwares nocivos no computador • Verificado {NUM_HOURS} hora atrás}other{O Chrome não encontrou softwares nocivos no computador • Verificado {NUM_HOURS} horas atrás}}</translation>
+<translation id="2296099049346876573">{NUM_HOURS,plural, =1{O Decentr não encontrou softwares nocivos no computador • Verificado 1 hora atrás}one{O Decentr não encontrou softwares nocivos no computador • Verificado {NUM_HOURS} hora atrás}other{O Decentr não encontrou softwares nocivos no computador • Verificado {NUM_HOURS} horas atrás}}</translation>
 <translation id="2296218178174497398">Descoberta de dispositivos</translation>
 <translation id="2297705863329999812">Pesquisar impressoras</translation>
 <translation id="2297822946037605517">Compartilhar esta página</translation>
@@ -1334,12 +1334,12 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2336228925368920074">Adicionar todas as guias aos favoritos...</translation>
 <translation id="2336376423977300504">Sempre limpar cookies quando as janelas forem fechadas</translation>
 <translation id="2336381494582898602">Powerwash</translation>
-<translation id="2337236196941929873">Pré-carrega as páginas que o Chrome acredita que você acessará. Para fazer isso, o navegador poderá usar cookies, se você os permitir, e poderá criptografar e enviar páginas pelo Google para ocultar sua identidade dos sites.</translation>
+<translation id="2337236196941929873">Pré-carrega as páginas que o Decentr acredita que você acessará. Para fazer isso, o navegador poderá usar cookies, se você os permitir, e poderá criptografar e enviar páginas pelo Google para ocultar sua identidade dos sites.</translation>
 <translation id="2340239562261172947">Não é possível fazer o download de <ph name="FILE_NAME" /> por motivos de segurança</translation>
 <translation id="2342180549977909852">A criança pode usar um número (PIN) em vez de uma senha para desbloquear este dispositivo. Para definir um PIN mais tarde, acesse Configurações.</translation>
 <translation id="2342740338116612727">Favoritos adicionados</translation>
 <translation id="2343747224442182863">Focar esta guia</translation>
-<translation id="2344032937402519675">Não foi possível se conectar ao servidor. Verifique sua conexão de rede e tente novamente. Se ainda assim tiver problemas, reinicie o Chromebook.</translation>
+<translation id="2344032937402519675">Não foi possível se conectar ao servidor. Verifique sua conexão de rede e tente novamente. Se ainda assim tiver problemas, reinicie o Decentrbook.</translation>
 <translation id="2345723121311404059">1 página para <ph name="PRINTER_NAME" /></translation>
 <translation id="2348176352564285430">App: <ph name="ARC_PROCESS_NAME" /></translation>
 <translation id="2348729153658512593"><ph name="WINDOW_TITLE" />: permissão solicitada; Pressione Ctrl + Avançar para responder</translation>
@@ -1388,7 +1388,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2391419135980381625">Fonte padrão</translation>
 <translation id="2392163307141705938">Você atingiu o limite de tempo que seu pai/mãe definiu para <ph name="IDS_SHORT_PRODUCT_NAME" />.</translation>
 <translation id="2392369802118427583">Ativar</translation>
-<translation id="2393136602862631930">Configure o <ph name="APP_NAME" /> no seu Chromebook</translation>
+<translation id="2393136602862631930">Configure o <ph name="APP_NAME" /> no seu Decentrbook</translation>
 <translation id="2395616325548404795">Seu <ph name="DEVICE_TYPE" /> foi registrado para o gerenciamento empresarial, mas as informações de localização e recurso não foram enviadas. Forneça essas informações manualmente no Admin Console do dispositivo.</translation>
 <translation id="2396783860772170191">Insira o PIN de quatro dígitos (0000-9999)</translation>
 <translation id="2398546389094871088">O Powerwash do dispositivo não removerá seus perfis de eSIM. Para remover esses perfis manualmente, acesse <ph name="LINK_BEGIN" />Configurações do celular<ph name="LINK_END" />.</translation>
@@ -1519,7 +1519,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="252219247728877310">Componente não atualizado</translation>
 <translation id="2523184218357549926">Envia URLs das páginas que você visita para o Google</translation>
 <translation id="252418934079508528">Instalar o <ph name="DEVICE_OS" /></translation>
-<translation id="252502352004572774">O Chrome está verificando o computador em busca de softwares nocivos…</translation>
+<translation id="252502352004572774">O Decentr está verificando o computador em busca de softwares nocivos…</translation>
 <translation id="2526590354069164005">Área de trabalho</translation>
 <translation id="2526619973349913024">Verificar atualizações</translation>
 <translation id="2527167509808613699">Qualquer tipo de conexão</translation>
@@ -1562,7 +1562,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2573831315551295105">Atribuir "<ph name="ACTION" />" a um interruptor</translation>
 <translation id="2575247648642144396">Este ícone ficará visível quando a extensão puder agir na página atual. Para usar essa extensão, clique no ícone ou pressione <ph name="EXTENSION_SHORTCUT" />.</translation>
 <translation id="2575441894380764255">Bloquear a exibição de anúncios invasivos ou enganosos</translation>
-<translation id="257779572837908839">Configurar como Chromebox para reuniões</translation>
+<translation id="257779572837908839">Configurar como Decentrbox para reuniões</translation>
 <translation id="2580889980133367162">Sempre permitir que <ph name="HOST" /> faça download de vários arquivos</translation>
 <translation id="258095186877893873">Longo</translation>
 <translation id="2582253231918033891"><ph name="PRODUCT_NAME" /> <ph name="PRODUCT_VERSION" /> (plataforma <ph name="PLATFORM_VERSION" />) <ph name="DEVICE_SERIAL_NUMBER" /></translation>
@@ -1582,7 +1582,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2604255671529671813">Erro de conexão da rede</translation>
 <translation id="2605668923777146443">Acesse <ph name="LINK_BEGIN" />Configurações<ph name="LINK_END" /> para ver suas opções do Better Together.</translation>
 <translation id="2606246518223360146">Vincular dados</translation>
-<translation id="2606454609872547359">Não, continuar sem o ChromeVox</translation>
+<translation id="2606454609872547359">Não, continuar sem o DecentrVox</translation>
 <translation id="2606568927909309675">Cria legendas automaticamente para áudios e vídeos em inglês. O áudio e as legendas nunca deixam o dispositivo.</translation>
 <translation id="2607101320794533334">Informações da chave pública do requerente</translation>
 <translation id="2609896558069604090">Criar atalhos...</translation>
@@ -1604,7 +1604,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2624142942574147739">Esta página está acessando sua câmera e seu microfone.</translation>
 <translation id="2626799779920242286">Tente novamente mais tarde.</translation>
 <translation id="2627424346328942291">Não foi possível compartilhar</translation>
-<translation id="2628770867680720336">É necessário redefinir este Chromebook para a configuração original para ativar a depuração do adb. <ph name="BEGIN_LINK_LEARN_MORE" />Saiba mais<ph name="END_LINK_LEARN_MORE" /></translation>
+<translation id="2628770867680720336">É necessário redefinir este Decentrbook para a configuração original para ativar a depuração do adb. <ph name="BEGIN_LINK_LEARN_MORE" />Saiba mais<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="2629227353894235473">Desenvolver apps Android</translation>
 <translation id="2630681426381349926">Conecte-se ao Wi-Fi para começar</translation>
 <translation id="2631498379019108537">Mostrar opções de entrada na estante</translation>
@@ -1635,10 +1635,10 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2659381484350128933"><ph name="FOOTNOTE_POINTER" />Os recursos variam de acordo com o dispositivo</translation>
 <translation id="2659971421398561408">Redimensionamento de disco do Crostini</translation>
 <translation id="2660779039299703961">Evento</translation>
-<translation id="266079277508604648">Não é possível conectar a impressora. Verifique se ela está ligada e conectada ao seu Chromebook por Wi-Fi ou USB.</translation>
+<translation id="266079277508604648">Não é possível conectar a impressora. Verifique se ela está ligada e conectada ao seu Decentrbook por Wi-Fi ou USB.</translation>
 <translation id="2661315027005813059">Página em cache de avanço e retorno: <ph name="BACK_FORWARD_CACHE_PAGE_URL" /></translation>
 <translation id="2661714428027871023">Navegue mais rapidamente e use menos dados com o Modo Lite. Clique para saber mais.</translation>
-<translation id="2662876636500006917">Chrome Web Store</translation>
+<translation id="2662876636500006917">Decentr Web Store</translation>
 <translation id="2663302507110284145">Idioma</translation>
 <translation id="2665394472441560184">Adicionar uma nova palavra</translation>
 <translation id="2665647207431876759">Expirado</translation>
@@ -1647,7 +1647,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2667144577800272420">Outros apps estão configurados para abrir os mesmos links que <ph name="APP_NAME" />. Esta ação impedirá que <ph name="APP_NAME_2" /> e <ph name="APP_NAME_3" /> abram links compatíveis.</translation>
 <translation id="2667463864537187133">Gerenciar a verificação ortográfica</translation>
 <translation id="2669241540496514785">Não foi possível abrir o app <ph name="APP_NAME" /></translation>
-<translation id="2670102641511624474">O app <ph name="APP_NAME" /> está compartilhando uma guia do Chrome.</translation>
+<translation id="2670102641511624474">O app <ph name="APP_NAME" /> está compartilhando uma guia do Decentr.</translation>
 <translation id="2670403088701171361">Não permitir que os sites acessem os textos e imagens da área de transferência</translation>
 <translation id="2670429602441959756">Esta página contém recursos que ainda não são compatíveis com a realidade virtual. Saindo…</translation>
 <translation id="2671451824761031126">Seus favoritos e configurações estão prontos</translation>
@@ -1687,7 +1687,7 @@ Para gerenciar as configurações dessa conta, instale o app Family Link no seu 
 <translation id="2713444072780614174">Branco</translation>
 <translation id="2714393097308983682">Google Play Store</translation>
 <translation id="2715640894224696481">Solicitação de chave de segurança</translation>
-<translation id="2715751256863167692">Esse upgrade redefine seu Chromebook e remove os dados do usuário atuais.</translation>
+<translation id="2715751256863167692">Esse upgrade redefine seu Decentrbook e remove os dados do usuário atuais.</translation>
 <translation id="271639966356700691">Pressione Ctrl + Alt + Aumentar brilho para aumentar o zoom
 e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="2716986496990888774">Esta configuração é gerenciada por um dos seus pais.</translation>
@@ -1744,7 +1744,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="2765217105034171413">Pequeno</translation>
 <translation id="2766006623206032690">Co&amp;lar e ir</translation>
 <translation id="2766161002040448006">Pedir para pai/mãe</translation>
-<translation id="2767077837043621282">Não foi possível atualizar o Chromebook. Tente novamente mais tarde.</translation>
+<translation id="2767077837043621282">Não foi possível atualizar o Decentrbook. Tente novamente mais tarde.</translation>
 <translation id="2767127727915954024"><ph name="ORIGIN" /> poderá editar <ph name="FILENAME" /> até que você feche todas as guias desse site</translation>
 <translation id="2770465223704140727">Remover da lista</translation>
 <translation id="2770690685823456775">Exportar suas senhas para outra pasta</translation>
@@ -1772,7 +1772,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="2791529110887957050">Remover Linux</translation>
 <translation id="2791952154587244007">Ocorreu um erro. Não será possível iniciar automaticamente o aplicativo de quiosque neste dispositivo.</translation>
 <translation id="2792290659606763004">Remover apps Android?</translation>
-<translation id="2792465461386711506">Ativar a Sincronização do Chrome para ver guias recentes do navegador no smartphone</translation>
+<translation id="2792465461386711506">Ativar a Sincronização do Decentr para ver guias recentes do navegador no smartphone</translation>
 <translation id="2794233252405721443">Site bloqueado</translation>
 <translation id="2794522004398861033">Conecte-se a uma rede Wi-Fi ou Ethernet para configurar o eSIM</translation>
 <translation id="2795716239552913152">Os sites geralmente usam sua localização para recursos ou informações relevantes, como notícias locais ou lojas por perto</translation>
@@ -1856,7 +1856,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="2872961005593481000">Desligar</translation>
 <translation id="2872966656309879564">Dispositivo <ph name="DEVICE_INDEX" /> de <ph name="DEVICE_COUNT" />, <ph name="DEVICE_NAME" />, computador</translation>
 <translation id="2874939134665556319">Faixa anterior</translation>
-<translation id="2875698561019555027">Páginas de erro do Chrome</translation>
+<translation id="2875698561019555027">Páginas de erro do Decentr</translation>
 <translation id="2876336351874743617">Dedo 2</translation>
 <translation id="2876369937070532032">Quando há risco de segurança, envia para o Google os URLs de algumas páginas que você visita</translation>
 <translation id="2876556152483133018">Pesquisa em sites</translation>
@@ -1895,7 +1895,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="2910318910161511225">Conecte-se a uma rede e tente novamente</translation>
 <translation id="291056154577034373">NÃO LIDAS</translation>
 <translation id="2910718431259223434">Algo deu errado. Tente novamente ou entre em contato com o proprietário ou administrador do dispositivo. Código do erro: <ph name="ERROR_CODE" />.</translation>
-<translation id="2911433807131383493">Abrir tutorial do ChromeVox</translation>
+<translation id="2911433807131383493">Abrir tutorial do DecentrVox</translation>
 <translation id="2912247081180973411">Fechar janelas</translation>
 <translation id="2913331724188855103">Permitir que os sites salvem e leiam os dados de arquivos "cookies" - que armazenam temporariamente o que você visitou na rede. (Recomendado)</translation>
 <translation id="2915102088417824677">Ver registro de atividades</translation>
@@ -2101,7 +2101,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3127156390846601284">Essa ação excluirá todos os dados armazenados no seu dispositivo para todos os sites exibidos. Quer continuar?</translation>
 <translation id="3127860049873093642">Para evitar problemas de carregamento e desempenho, use um adaptador de energia USB-C ou Dell compatível.</translation>
 <translation id="3127862849166875294">Redimensionamento do disco do Linux</translation>
-<translation id="3127882968243210659">Para abrir o Google Play, <ph name="MANAGER" /> exige que você faça backup dos seus dados e redefina este Chromebook para as configurações originais.</translation>
+<translation id="3127882968243210659">Para abrir o Google Play, <ph name="MANAGER" /> exige que você faça backup dos seus dados e redefina este Decentrbook para as configurações originais.</translation>
 <translation id="3129173833825111527">Margem esquerda</translation>
 <translation id="3129215702932019810">Erro ao abrir o aplicativo</translation>
 <translation id="3130528281680948470">Seu dispositivo será redefinido, e todas as contas de usuário final e dados locais serão removidos. Esta ação não pode ser desfeita.</translation>
@@ -2117,7 +2117,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3143515551205905069">Cancelar sincronização</translation>
 <translation id="3143754809889689516">Reproduzir do início</translation>
 <translation id="3144647712221361880">Abrir link como</translation>
-<translation id="3149510190863420837">apps do Chrome</translation>
+<translation id="3149510190863420837">apps do Decentr</translation>
 <translation id="3150693969729403281">Executar confirmação de segurança</translation>
 <translation id="3150927491400159470">Recarregamento forçado</translation>
 <translation id="315116470104423982">Dados do celular</translation>
@@ -2168,7 +2168,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3208703785962634733">Não confirmado</translation>
 <translation id="32101887417650595">Não foi possível se conectar à impressora</translation>
 <translation id="321084946921799184">Amarelo e branco</translation>
-<translation id="321356136776075234">UO do dispositivo (por exemplo, UO=Chromebooks, DC=exemplo, DC=com)</translation>
+<translation id="321356136776075234">UO do dispositivo (por exemplo, UO=Decentrbooks, DC=exemplo, DC=com)</translation>
 <translation id="3214531106883826119"><ph name="BEGIN_BOLD" />Observação<ph name="END_BOLD" />: uma voz parecida ou uma gravação pode conseguir acessar os resultados personalizados de <ph name="SUPERVISED_USER_NAME" />.</translation>
 <translation id="3216825226035747725">Os administradores do G Suite for Education determinam quais Serviços do Google os usuários poderão acessar enquanto estiverem conectados a uma conta desse produto. Isso pode incluir alguns recursos ou serviços que a criança não conseguia acessar usando essa conta supervisionada. Os administradores da escola precisam fornecer ou receber permissão para o uso dos serviços por usuários menores de idade.</translation>
 <translation id="3217843140356091325">Criar atalho?</translation>
@@ -2196,7 +2196,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3253448572569133955">Conta desconhecida</translation>
 <translation id="3254084468305910013">{COUNT,plural, =0{Nenhum problema de segurança encontrado}=1{{COUNT} problema de segurança encontrado}one{{COUNT} problema de segurança encontrado}other{{COUNT} problemas de segurança encontrados}}</translation>
 <translation id="3254516606912442756">A detecção automática de fuso horário está desativada</translation>
-<translation id="3254715652085014625">Abra o Chrome no smartphone e acesse "Configurações &gt; Senhas &gt; Usar o smartphone como chave de segurança" e siga as instruções.</translation>
+<translation id="3254715652085014625">Abra o Decentr no smartphone e acesse "Configurações &gt; Senhas &gt; Usar o smartphone como chave de segurança" e siga as instruções.</translation>
 <translation id="3255355328033513170">Todos os dados armazenados pelo <ph name="SITE_GROUP_NAME" /> e sites relacionados serão excluídos. Isso inclui cookies. Você será desconectado desses sites, inclusive nas guias abertas.</translation>
 <translation id="3259723213051400722">Tente novamente.</translation>
 <translation id="3261268979727295785">No caso de crianças mais velhas, você pode adicionar o controle dos pais depois da configuração. Veja mais informações sobre o controle dos pais no app Explorar.</translation>
@@ -2224,7 +2224,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3279092821516760512">Contatos selecionados podem compartilhar itens com você quando estão por perto. As transferências só são iniciadas depois que você as aceita.</translation>
 <translation id="3279230909244266691">O processo pode levar alguns minutos. Iniciando a máquina virtual.</translation>
 <translation id="3280237271814976245">Salvar &amp;como...</translation>
-<translation id="3280243678470289153">Ficar no Chrome</translation>
+<translation id="3280243678470289153">Ficar no Decentr</translation>
 <translation id="3281892622610078515">Arquivos e programas a serem colocados em quarentena:</translation>
 <translation id="3282210178675490297">Compartilhando uma guia com <ph name="APP_NAME" /></translation>
 <translation id="3282568296779691940">Fazer login no Decentr</translation>
@@ -2252,7 +2252,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3305661444342691068">Abrir visualização do PDF</translation>
 <translation id="3308116878371095290">Esta página foi impedida de configurar cookies.</translation>
 <translation id="3308134619352333507">Ocultar botão</translation>
-<translation id="3308681281309926497">Os sites acessados ainda terão acesso às suas informações até você fechar o Chrome</translation>
+<translation id="3308681281309926497">Os sites acessados ainda terão acesso às suas informações até você fechar o Decentr</translation>
 <translation id="3308852433423051161">Carregando o Google Assistente…</translation>
 <translation id="3309330461362844500">ID do perfil de certificado</translation>
 <translation id="3311445899360743395">Os dados associados a esse app poderão ser removidos deste dispositivo.</translation>
@@ -2265,10 +2265,10 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3320630259304269485">"Navegação segura" (proteção contra sites perigosos) e outras configurações de segurança</translation>
 <translation id="3323295311852517824">{NUM_FILES,plural, =0{Esses dados têm conteúdo confidencial ou perigoso. Remova o conteúdo e tente novamente.}=1{Esse arquivo tem conteúdo confidencial ou perigoso. Remova o conteúdo e tente novamente.}one{Esse arquivo tem conteúdo confidencial ou perigoso. Remova o conteúdo e tente novamente.}other{Esses arquivos têm conteúdo confidencial ou perigoso. Remova o conteúdo e tente novamente.}}</translation>
 <translation id="3323521181261657960">Bônus! Você ganhou mais tempo de uso</translation>
-<translation id="3323577066981719144">As mudanças que você fizer aqui serão aplicadas apenas ao navegador Chrome. Abra o navegador Chrome Lacros e acesse as configurações se quiser fazer mudanças nele.</translation>
+<translation id="3323577066981719144">As mudanças que você fizer aqui serão aplicadas apenas ao navegador Decentr. Abra o navegador Decentr Lacros e acesse as configurações se quiser fazer mudanças nele.</translation>
 <translation id="3325804108816646710">Procurando perfis disponíveis…</translation>
 <translation id="3325910708063135066">A câmera e o microfone estão desativados nas preferências do sistema do Mac</translation>
-<translation id="3327050066667856415">Os Chromebooks são desenvolvidos para serem seguros. Seu dispositivo é automaticamente protegido contra malwares, sem a necessidade de softwares extras.</translation>
+<translation id="3327050066667856415">Os Decentrbooks são desenvolvidos para serem seguros. Seu dispositivo é automaticamente protegido contra malwares, sem a necessidade de softwares extras.</translation>
 <translation id="3328489342742826322">A restauração de um backup exclui todos os aplicativos e dados da sua pasta de arquivos do Linux.</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">Informações sobre o aplicativo</translation>
@@ -2322,7 +2322,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3390741581549395454">O backup dos apps e arquivos do Linux foi concluído. O upgrade começará em breve.</translation>
 <translation id="3391512812407811893">Testes do Sandbox de privacidade</translation>
 <translation id="339178315942519818">Veja notificações dos seus apps de chat no <ph name="DEVICE_TYPE" /></translation>
-<translation id="3393554941209044235">Chrome Document Analysis</translation>
+<translation id="3393554941209044235">Decentr Document Analysis</translation>
 <translation id="3394850431319394743">Com permissão para usar identificadores para abrir conteúdo protegido</translation>
 <translation id="3396744558790608201">Clique com o botão direito do mouse e selecione "Pesquisar imagens usando o Google Lens" para pesquisar em qualquer região do site e saber mais sobre o conteúdo visual exibido enquanto você navega e faz compras na Internet.</translation>
 <translation id="3396800784455899911">Ao clicar no botão "Aceitar e concluir", você aceita o processo descrito acima para esses serviços do Google.</translation>
@@ -2358,7 +2358,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3424969259347320884">Descrever o que você estava fazendo quando a guia travou</translation>
 <translation id="3427092606871434483">Permitir (padrão)</translation>
 <translation id="3428419049384081277">Você está conectado</translation>
-<translation id="3428747202529429621">Protege você no Chrome e pode ser usado para melhorar a segurança em outros apps do Google quando sua conta está conectada</translation>
+<translation id="3428747202529429621">Protege você no Decentr e pode ser usado para melhorar a segurança em outros apps do Google quando sua conta está conectada</translation>
 <translation id="3429086384982427336">Os apps na lista abaixo nunca gerenciarão links de protocolo.</translation>
 <translation id="3429160811076349561">Os recursos de teste estão desativados</translation>
 <translation id="3429271624041785769">Idiomas de conteúdo da Web</translation>
@@ -2388,7 +2388,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="344630545793878684">Leia seus dados em uma série de websites</translation>
 <translation id="3446650212859500694">O arquivo tem conteúdo confidencial</translation>
 <translation id="3446827946208017735">Entenda e revise as configurações de privacidade mais importantes em um só lugar</translation>
-<translation id="3448086340637592206">Termos adicionais do Decentr e do Chrome OS</translation>
+<translation id="3448086340637592206">Termos adicionais do Decentr e do Decentr OS</translation>
 <translation id="3448492834076427715">Atualizar conta</translation>
 <translation id="3449393517661170867">Nova janela com guias</translation>
 <translation id="3449839693241009168">Pressione <ph name="SEARCH_KEY" /> para enviar comandos para <ph name="EXTENSION_NAME" /></translation>
@@ -2497,7 +2497,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3559533181353831840">Tempo restante: <ph name="TIME_LEFT" /></translation>
 <translation id="3560034655160545939">&amp;Verificação ortográfica</translation>
 <translation id="3562423906127931518">O processo pode levar alguns minutos. Configurando o contêiner Linux.</translation>
-<translation id="3562655211539199254">Ver guias recentes do Chrome no seu smartphone</translation>
+<translation id="3562655211539199254">Ver guias recentes do Decentr no seu smartphone</translation>
 <translation id="3563432852173030730">Não foi possível fazer o download do aplicativo Kiosk.</translation>
 <translation id="3564334271939054422">A rede Wi-Fi que você está usando (<ph name="NETWORK_ID" />) pode exigir que você visite sua página de login.</translation>
 <translation id="3564848315152754834">Chave de segurança USB</translation>
@@ -2555,7 +2555,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="362333465072914957">Esperando um certificado CA</translation>
 <translation id="3624567683873126087">Desbloquear dispositivo e fazer login na Conta do Google</translation>
 <translation id="3625481642044239431">Arquivo inválido selecionado. Tente novamente.</translation>
-<translation id="3626296069957678981">Para carregar este Chromebook, use uma bateria Dell compatível.</translation>
+<translation id="3626296069957678981">Para carregar este Decentrbook, use uma bateria Dell compatível.</translation>
 <translation id="3627320433825461852">Menos de 1 minuto restante</translation>
 <translation id="3627588569887975815">Abrir link em janela &amp;anônima</translation>
 <translation id="3627671146180677314">Hora de renovação do certificado do Netscape</translation>
@@ -2593,7 +2593,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3664511988987167893">Ícone de extensão</translation>
 <translation id="3665589677786828986">O Decentr detectou que algumas das suas configurações foram corrompidas por outro programa e as redefiniu para os padrões originais.</translation>
 <translation id="3665919494326051362">Versão atual: <ph name="CURRENT_VERSION" /></translation>
-<translation id="3668801437375206837">Para diagnosticar melhor os problemas de Bluetooth, os Googlers podem incluir outros registros de Bluetooth aos relatórios de feedback deles. Quando essa opção estiver marcada, seu relatório incluirá registros btsnoop e HCI da sua sessão atual, depois de terem sido corrigidos para remover o máximo de PII possível. O acesso a esses registros será restrito aos gerentes do grupo de produtos do Chrome OS no Listnr. Os registros serão excluídos após 90 dias.</translation>
+<translation id="3668801437375206837">Para diagnosticar melhor os problemas de Bluetooth, os Googlers podem incluir outros registros de Bluetooth aos relatórios de feedback deles. Quando essa opção estiver marcada, seu relatório incluirá registros btsnoop e HCI da sua sessão atual, depois de terem sido corrigidos para remover o máximo de PII possível. O acesso a esses registros será restrito aos gerentes do grupo de produtos do Decentr OS no Listnr. Os registros serão excluídos após 90 dias.</translation>
 <translation id="3670113805793654926">Dispositivos de qualquer fornecedor</translation>
 <translation id="3670229581627177274">Ativar Bluetooth</translation>
 <translation id="3672681487849735243">Foi detectado um erro de fábrica</translation>
@@ -2700,7 +2700,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3775432569830822555">Certificado de servidor SSL</translation>
 <translation id="3775705724665058594">Enviar para seus dispositivos</translation>
 <translation id="3776508619697147021">Os sites podem pedir para fazer o download automático de vários arquivos</translation>
-<translation id="3776796446459804932">Esta extensão viola a política da Chrome Web Store.</translation>
+<translation id="3776796446459804932">Esta extensão viola a política da Decentr Web Store.</translation>
 <translation id="3777483481409781352">Não foi possível ativar o celular</translation>
 <translation id="3777806571986431400">Extensão ativada</translation>
 <translation id="3778152852029592020">O download foi cancelado.</translation>
@@ -2720,8 +2720,8 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3789841737615482174">Instalar</translation>
 <translation id="379082410132524484">Seu cartão expirou</translation>
 <translation id="3792890930871100565">Desconectar impressoras</translation>
-<translation id="3793588272211751505">{NUM_DAYS,plural, =1{O Chrome não encontrou softwares nocivos no computador • Verificado 1 dia atrás}one{O Chrome não encontrou softwares nocivos no computador • Verificado {NUM_DAYS} dia atrás}other{O Chrome não encontrou softwares nocivos no computador • Verificado {NUM_DAYS} dias atrás}}</translation>
-<translation id="379500251094592809">Para usar o Compartilhar por proximidade, confira se os dois dispositivos estão desbloqueados, perto um do outro e com o Bluetooth ativado. Se você estiver compartilhando com um Chromebook que não está nos seus contatos, confira se a visibilidade do Compartilhar por proximidade está ativada: abra a área de status clicando no horário e ative a visibilidade. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
+<translation id="3793588272211751505">{NUM_DAYS,plural, =1{O Decentr não encontrou softwares nocivos no computador • Verificado 1 dia atrás}one{O Decentr não encontrou softwares nocivos no computador • Verificado {NUM_DAYS} dia atrás}other{O Decentr não encontrou softwares nocivos no computador • Verificado {NUM_DAYS} dias atrás}}</translation>
+<translation id="379500251094592809">Para usar o Compartilhar por proximidade, confira se os dois dispositivos estão desbloqueados, perto um do outro e com o Bluetooth ativado. Se você estiver compartilhando com um Decentrbook que não está nos seus contatos, confira se a visibilidade do Compartilhar por proximidade está ativada: abra a área de status clicando no horário e ative a visibilidade. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="379509625511193653">Desativado</translation>
 <translation id="3796648294839530037">Redes favoritas:</translation>
 <translation id="3797739167230984533">Seu <ph name="BEGIN_LINK" /><ph name="DEVICE_TYPE" /> é gerenciado<ph name="END_LINK" /> pela sua organização</translation>
@@ -2746,7 +2746,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3813296892522778813">Se você não encontrar o que está procurando, acesse a <ph name="BEGIN_LINK_CHROMIUM" />Ajuda do Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Idioma usado para traduzir páginas e nas Respostas rápidas</translation>
 <translation id="3814529970604306954">Conta escolar</translation>
-<translation id="3816118180265633665">Cores do Chrome</translation>
+<translation id="3816118180265633665">Cores do Decentr</translation>
 <translation id="3817524650114746564">Abre as configurações de proxy do computador</translation>
 <translation id="3819257035322786455">Backup</translation>
 <translation id="3819261658055281761">Falha do sistema ao armazenar um token de acesso de longo prazo à API para este dispositivo.</translation>
@@ -2796,7 +2796,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3861638017150647085">O nome de usuário "<ph name="USERNAME" />" não está disponível</translation>
 <translation id="3861977424605124250">Exibir na inicialização</translation>
 <translation id="386239283124269513">&amp;Restaurar grupo</translation>
-<translation id="3862788408946266506">O app com o atributo de manifesto "kiosk_only" precisa ser instalado no modo quiosque do Chrome OS</translation>
+<translation id="3862788408946266506">O app com o atributo de manifesto "kiosk_only" precisa ser instalado no modo quiosque do Decentr OS</translation>
 <translation id="3865414814144988605">Resolução</translation>
 <translation id="3866249974567520381">Descrição</translation>
 <translation id="3867134342671430205">Arraste ou use as teclas de seta para mover uma tela</translation>
@@ -2823,12 +2823,12 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3888550877729210209">Tomando notas com <ph name="LOCK_SCREEN_APP_NAME" /></translation>
 <translation id="3888586133700543064">Estas informações nos ajudam a entender melhor o problema com o Google Assistente. Elas ficam armazenadas por até 90 dias, com acesso restrito às equipes adequadas de feedback e engenharia.</translation>
 <translation id="3888900458694486810">Fechar a pesquisa lateral</translation>
-<translation id="3890064827463908288">Ativar a Sincronização do Chrome para usar o recurso Sincronizar Wi-Fi</translation>
+<translation id="3890064827463908288">Ativar a Sincronização do Decentr para usar o recurso Sincronizar Wi-Fi</translation>
 <translation id="3892414795099177503">Adicionar OpenVPN / L2TP…</translation>
 <translation id="389313931326656921">Atribuir interruptor para "Próxima"</translation>
 <translation id="3893295674388762059">Para limpar os dados, feche todas as janelas anônimas</translation>
 <translation id="3893536212201235195">Ler e alterar as configurações de acessibilidade</translation>
-<translation id="3893630138897523026">ChromeVox (feedback falado)</translation>
+<translation id="3893630138897523026">DecentrVox (feedback falado)</translation>
 <translation id="3893764153531140319"><ph name="DOWNLOADED_SIZE" />/<ph name="DOWNLOAD_SIZE" /></translation>
 <translation id="3894123633473837029">Incluir o histórico recente do Assistente via Sherlog. Isso pode conter sua identidade, seu local e suas informações de depuração. <ph name="BEGIN_LINK" />Saiba mais<ph name="END_LINK" /></translation>
 <translation id="3894427358181296146">Adicionar pasta</translation>
@@ -2859,7 +2859,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="3919145445993746351">Para ver suas extensões em todos os seus computadores, ative a sincronização</translation>
 <translation id="3919798653937160644">As páginas abertas nesta janela não aparecerão no histórico do navegador nem deixarão outros rastros no computador, como cookies, depois que todas as janelas de visitante forem fechadas. No entanto, todos os downloads serão preservados.</translation>
 <translation id="3920504717067627103">Diretivas de certificação</translation>
-<translation id="392089482157167418">Ativar ChromeVox (feedback falado)</translation>
+<translation id="392089482157167418">Ativar DecentrVox (feedback falado)</translation>
 <translation id="3920909973552939961">Bloquear a instalação de gerenciadores de pagamento</translation>
 <translation id="3922823422695198027">Outros apps estão configurados para abrir os mesmos links que <ph name="APP_NAME" />. Esta ação impedirá que <ph name="APP_NAME_2" />, <ph name="APP_NAME_3" /> e <ph name="APP_NAME_4" /> abram links compatíveis.</translation>
 <translation id="3923184630988645767">Uso de dados</translation>
@@ -2987,10 +2987,10 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4047726037116394521">Ir para página inicial</translation>
 <translation id="4049783682480068824">{COUNT,plural, =1{# contato não está disponível. Para usar o "Compartilhar por proximidade" com esse contato, adicione o endereço de e-mail associado à Conta do Google dele.}one{# contato não está disponível. Para usar o "Compartilhar por proximidade" com esse contato, adicione o endereço de e-mail associado à Conta do Google dele.}other{# contatos não estão disponíveis. Para usar o "Compartilhar por proximidade" com esses contatos, adicione os endereços de e-mail associados à Conta do Google deles.}}</translation>
 <translation id="4050225813016893843">Método de autenticação</translation>
-<translation id="4050534976465737778">Confirme se os dois dispositivos estão desbloqueados, perto um do outro e com o Bluetooth ativado. Se você estiver compartilhando com um Chromebook que não está nos seus contatos, ative a visibilidade do Compartilhar por proximidade na área de status. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
+<translation id="4050534976465737778">Confirme se os dois dispositivos estão desbloqueados, perto um do outro e com o Bluetooth ativado. Se você estiver compartilhando com um Decentrbook que não está nos seus contatos, ative a visibilidade do Compartilhar por proximidade na área de status. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="4052120076834320548">Minúscula</translation>
 <translation id="4054070260844648638">Visível para todos</translation>
-<translation id="4056908315660577142">Você atingiu o limite de tempo que seu pai/mãe definiu para o app <ph name="APP_NAME" /> do Chrome. Você poderá usá-lo por <ph name="TIME_LIMIT" /> amanhã.</translation>
+<translation id="4056908315660577142">Você atingiu o limite de tempo que seu pai/mãe definiu para o app <ph name="APP_NAME" /> do Decentr. Você poderá usá-lo por <ph name="TIME_LIMIT" /> amanhã.</translation>
 <translation id="4057041477816018958"><ph name="SPEED" /> - <ph name="RECEIVED_AMOUNT" /></translation>
 <translation id="4057896668975954729">Ver na Store</translation>
 <translation id="4058720513957747556">AppSocket (TCP/IP)</translation>
@@ -3033,7 +3033,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4095507791297118304">Tela principal</translation>
 <translation id="4096508467498758490">Desativar extensões no modo de desenvolvedor</translation>
 <translation id="4097406557126260163">Apps e extensões</translation>
-<translation id="409742781329613461">Dicas para o Chrome</translation>
+<translation id="409742781329613461">Dicas para o Decentr</translation>
 <translation id="4097560579602855702">Pesquisar no Google</translation>
 <translation id="4098667039111970300">Ferramentas da stylus na barra de ferramentas</translation>
 <translation id="4099060993766194518">Restaurar mecanismo de pesquisa padrão?</translation>
@@ -3087,7 +3087,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4158364720893025815">Aprovado</translation>
 <translation id="4159681666905192102">Esta é uma conta para crianças gerenciada por <ph name="CUSTODIAN_EMAIL" /> e <ph name="SECOND_CUSTODIAN_EMAIL" />.</translation>
 <translation id="4163560723127662357">Teclado desconhecido</translation>
-<translation id="4165942112764990069"><ph name="USER_EMAIL" /> não pertence a uma organização válida. Entre em contato com o administrador. Se você é um administrador, configure sua organização em g.co/ChromeEnterpriseAccount</translation>
+<translation id="4165942112764990069"><ph name="USER_EMAIL" /> não pertence a uma organização válida. Entre em contato com o administrador. Se você é um administrador, configure sua organização em g.co/DecentrEnterpriseAccount</translation>
 <translation id="4167686856635546851">Os sites geralmente usam JavaScript para exibir recursos interativos, como videogames ou formulários da Web</translation>
 <translation id="4168015872538332605">Algumas configurações pertencentes a <ph name="PRIMARY_EMAIL" /> estão sendo compartilhadas com você. Essas configurações afetam sua conta apenas quando o recurso de login múltiplo é usado.</translation>
 <translation id="4169535189173047238">Não permitir</translation>
@@ -3180,7 +3180,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="428565720843367874">O software antivírus falhou inesperadamente ao verificar este arquivo.</translation>
 <translation id="4287099557599763816">Leitor de tela</translation>
 <translation id="428715201724021596">Conectando-se ao perfil. Isso pode levar alguns minutos.</translation>
-<translation id="4287157641315808225">Sim, ativar o ChromeVox</translation>
+<translation id="4287157641315808225">Sim, ativar o DecentrVox</translation>
 <translation id="4287502603002637393">{MUTED_NOTIFICATIONS_COUNT,plural, =1{Mostrar}one{Mostrar tudo}other{Mostrar tudo}}</translation>
 <translation id="4289372044984810120">Gerencie suas contas aqui. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="4289540628985791613">Visão geral</translation>
@@ -3188,7 +3188,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4290791284969893584">Após fechar uma página, as tarefas iniciadas talvez não sejam encerradas</translation>
 <translation id="4295072614469448764">O aplicativo está disponível no seu terminal. Também pode haver um ícone no acesso rápido.</translation>
 <translation id="4295839147292213505">Você pode enviar mensagens de texto pelo computador, compartilhar sua conexão de Internet, responder a notificações de conversa e desbloquear seu <ph name="DEVICE_TYPE" /> com o smartphone.<ph name="FOOTNOTE_POINTER" /> <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
-<translation id="4295979599050707005">Faça login novamente para confirmar que sua conta <ph name="USER_EMAIL" /> pode ser usada com sites, apps e extensões no Chrome e no Google Play. Você também pode remover essa conta. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
+<translation id="4295979599050707005">Faça login novamente para confirmar que sua conta <ph name="USER_EMAIL" /> pode ser usada com sites, apps e extensões no Decentr e no Google Play. Você também pode remover essa conta. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="4297219207642690536">Reiniciar e redefinir</translation>
 <translation id="4297813521149011456">Rotação da tela</translation>
 <translation id="4299022904780065004">Nova &amp;janela anônima</translation>
@@ -3213,7 +3213,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4325237902968425115">Desinstalando <ph name="LINUX_APP_NAME" />…</translation>
 <translation id="4330191372652740264">Água com gelo</translation>
 <translation id="4330387663455830245">Nunca traduzir <ph name="LANGUAGE" /></translation>
-<translation id="4331809312908958774">Sistema operacional Chrome</translation>
+<translation id="4331809312908958774">Sistema operacional Decentr</translation>
 <translation id="4332976768901252016">Configurar o controle dos pais</translation>
 <translation id="4333854382783149454">PKCS #1 SHA-1 com criptografia RSA</translation>
 <translation id="4336434711095810371">Limpar todos os dados</translation>
@@ -3303,7 +3303,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4421932782753506458">Pelúcia</translation>
 <translation id="4423376891418188461">Restaurar configurações</translation>
 <translation id="442397852638519243"><ph name="USER_NAME" />, seu administrador solicita que você altere sua senha.</translation>
-<translation id="4426464032773610160">Para começar, confira se o interruptor USB ou Bluetooth está conectado ao Chromebook. Também é possível usar as teclas do teclado.</translation>
+<translation id="4426464032773610160">Para começar, confira se o interruptor USB ou Bluetooth está conectado ao Decentrbook. Também é possível usar as teclas do teclado.</translation>
 <translation id="4427365070557649936">Verificando código de confirmação…</translation>
 <translation id="4429163740524851942">Layout do teclado físico</translation>
 <translation id="4430019312045809116">Volume</translation>
@@ -3339,7 +3339,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4469762931504673593"><ph name="ORIGIN" /> pode editar arquivos em <ph name="FOLDERNAME" /></translation>
 <translation id="4470957202018033307">Preferências de armazenamento externo</translation>
 <translation id="4471354919263203780">Fazendo o download dos arquivos de reconhecimento de fala… <ph name="PERCENT" />%</translation>
-<translation id="447252321002412580">Ajude a melhorar os recursos e o desempenho do Chrome</translation>
+<translation id="447252321002412580">Ajude a melhorar os recursos e o desempenho do Decentr</translation>
 <translation id="4472575034687746823">Primeiros passos</translation>
 <translation id="4474155171896946103">Adicionar todas as guias aos favoritos...</translation>
 <translation id="4475552974751346499">Pesquisar downloads</translation>
@@ -3351,12 +3351,12 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4479424953165245642">Gerenciar aplicativos do quiosque</translation>
 <translation id="4479639480957787382">Ethernet</translation>
 <translation id="4479877282574735775">Configurando a máquina virtual. Isso pode levar alguns minutos.</translation>
-<translation id="4480590691557335796">O Chrome pode localizar softwares nocivos no seu computador e removê-los</translation>
+<translation id="4480590691557335796">O Decentr pode localizar softwares nocivos no seu computador e removê-los</translation>
 <translation id="4481448477173043917">Seu <ph name="DEVICE_TYPE" /> reiniciou de maneira inesperada</translation>
 <translation id="4481467543947557978">service worker</translation>
 <translation id="4481530544597605423">Dispositivos não pareados</translation>
 <translation id="4482990632723642375">Guia fechada recentemente</translation>
-<translation id="4487489714832036847">Chromebooks usam apps em vez de softwares tradicionais. Faça o download de apps de produtividade, entretenimento e muito mais.</translation>
+<translation id="4487489714832036847">Decentrbooks usam apps em vez de softwares tradicionais. Faça o download de apps de produtividade, entretenimento e muito mais.</translation>
 <translation id="4488257340342212116">Permitir o uso da câmera</translation>
 <translation id="4488502501195719518">Limpar todos os dados?</translation>
 <translation id="449126573531210296">Criptografar as senhas sincronizadas com sua Conta do Google</translation>
@@ -3364,7 +3364,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4492698018379445570">Veja o que você adicionou aos carrinhos e finalize a compra quando estiver tudo pronto</translation>
 <translation id="4493468155686877504">Recomendado (<ph name="INSTALL_SIZE" />)</translation>
 <translation id="4495419450179050807">Não mostrar esta página</translation>
-<translation id="4497145443434063861">PC e Chromecast em diferentes redes Wi-Fi (por exemplo, 2,4 GHz
+<translation id="4497145443434063861">PC e Decentrcast em diferentes redes Wi-Fi (por exemplo, 2,4 GHz
     e 5 GHz)</translation>
 <translation id="4500114933761911433">O plug-in <ph name="PLUGIN_NAME" /> falhou</translation>
 <translation id="450099669180426158">Ícone de ponto de exclamação</translation>
@@ -3409,7 +3409,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4538163005498287211">Com base no seu plano de fundo</translation>
 <translation id="4538417792467843292">Excluir palavra</translation>
 <translation id="4538792345715658285">Instalada pela política empresarial.</translation>
-<translation id="4541123282641193691">Não foi possível verificar sua conta. Tente novamente ou reinicie o Chromebook.</translation>
+<translation id="4541123282641193691">Não foi possível verificar sua conta. Tente novamente ou reinicie o Decentrbook.</translation>
 <translation id="4541662893742891060">Não é possível se conectar a esse perfil. Entre em contato com sua operadora para receber suporte técnico.</translation>
 <translation id="4541706525461326392">Removendo o perfil. Isso pode levar alguns minutos.</translation>
 <translation id="4542520061254486227">Leia seus dados em <ph name="WEBSITE_1" /> e <ph name="WEBSITE_2" /></translation>
@@ -3424,7 +3424,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4547672827276975204">Definir automaticamente</translation>
 <translation id="4549791035683739768">Sua chave de segurança não tem nenhuma impressão digital armazenada</translation>
 <translation id="4551763574344810652">Pressione <ph name="MODIFIER_KEY_DESCRIPTION" /> para desfazer</translation>
-<translation id="4553526521109675518">Será necessário reiniciar o Chromebook para mudar o idioma do dispositivo. <ph name="BEGIN_LINK_LEARN_MORE" />Saiba mais<ph name="END_LINK_LEARN_MORE" /></translation>
+<translation id="4553526521109675518">Será necessário reiniciar o Decentrbook para mudar o idioma do dispositivo. <ph name="BEGIN_LINK_LEARN_MORE" />Saiba mais<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="4554491709904933912">Arrastar imagens para pesquisar usando o <ph name="VISUAL_SEARCH_PROVIDER" /></translation>
 <translation id="4554591392113183336">A extensão externa está na mesma versão ou em uma versão anterior à existente.</translation>
 <translation id="4555769855065597957">Shadow</translation>
@@ -3451,13 +3451,13 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="457386861538956877">Mais...</translation>
 <translation id="4574741712540401491">•  <ph name="LIST_ITEM_TEXT" /></translation>
 <translation id="457564749856982089">Adicionar uma conta escolar a um perfil facilita o login como aluno em sites, extensões e apps sem desativar o controle dos pais. Isso não permite que a criança acesse favoritos, senhas e outros dados de navegação sincronizados com a conta escolar.&lt;br&gt;&lt;br&gt;
-    Se a criança usa um Chromebook na escola e você quer proporcionar a mesma experiência em casa para garantir que ela tenha acesso a todos os trabalhos escolares necessários, saia dessa conta do Family Link e faça login na conta escolar na página de contas do Chrome OS. Observação: o controle dos pais do Family Link não será aplicado.&lt;br&gt;&lt;br&gt;
-    Se a criança não usa um Chromebook na escola ou se você prefere gerenciar a experiência dela em casa usando o Family Link, clique no botão "Próxima" abaixo para adicionar uma conta escolar a esse perfil.</translation>
+    Se a criança usa um Decentrbook na escola e você quer proporcionar a mesma experiência em casa para garantir que ela tenha acesso a todos os trabalhos escolares necessários, saia dessa conta do Family Link e faça login na conta escolar na página de contas do Decentr OS. Observação: o controle dos pais do Family Link não será aplicado.&lt;br&gt;&lt;br&gt;
+    Se a criança não usa um Decentrbook na escola ou se você prefere gerenciar a experiência dela em casa usando o Family Link, clique no botão "Próxima" abaixo para adicionar uma conta escolar a esse perfil.</translation>
 <translation id="4576541033847873020">Parear dispositivo Bluetooth</translation>
 <translation id="4576763597586015380">Para continuar salvando senhas na Conta do Google, confirme sua identidade</translation>
 <translation id="4579453506923101210">Esquecer smartphone conectado</translation>
 <translation id="4579581181964204535">Não foi possível transmitir <ph name="HOST_NAME" />.</translation>
-<translation id="4579876313423027742">Para definir as notificações do navegador, acesse <ph name="LINK_BEGIN" />Configurações do navegador Chrome<ph name="LINK_END" /></translation>
+<translation id="4579876313423027742">Para definir as notificações do navegador, acesse <ph name="LINK_BEGIN" />Configurações do navegador Decentr<ph name="LINK_END" /></translation>
 <translation id="4581774856936278355">Erro ao restaurar o Linux</translation>
 <translation id="4582297591746054421">Os sites geralmente leem a área de transferência para recursos como manter a formatação do texto copiado</translation>
 <translation id="4582563038311694664">Redefinir todas as configurações</translation>
@@ -3524,7 +3524,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4651484272688821107">Não foi possível carregar o componente on-line com recursos do modo de demonstração.</translation>
 <translation id="4652935475563630866">A mudança na configuração da câmera exige que você reinicialize o Parallels Desktop. Faça isso para continuar.</translation>
 <translation id="4653405415038586100">Erro ao configurar o Linux</translation>
-<translation id="4654236001025007561">Compartilhar arquivos com Chromebooks e dispositivos Androids próximos</translation>
+<translation id="4654236001025007561">Compartilhar arquivos com Decentrbooks e dispositivos Androids próximos</translation>
 <translation id="4657914796247705218">Velocidade do TrackPoint</translation>
 <translation id="465878909996028221">Apenas os protocolos http, https e file são compatíveis com redirecionamentos do navegador.</translation>
 <translation id="4659077111144409915">Conta principal</translation>
@@ -3536,7 +3536,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4662373422909645029">O apelido não pode ter números</translation>
 <translation id="4662788913887017617">Compartilhar esse favorito com seu iPhone</translation>
 <translation id="4663373278480897665">Câmera permitida</translation>
-<translation id="4664289193573249666">Gerenciar o DNS seguro nas configurações do Chrome OS</translation>
+<translation id="4664289193573249666">Gerenciar o DNS seguro nas configurações do Decentr OS</translation>
 <translation id="4664482161435122549">Erro de exportação do PKCS #12</translation>
 <translation id="4665014895760275686">Fabricante</translation>
 <translation id="4665446389743427678">Todos os dados armazenados pelo site <ph name="SITE" /> serão excluídos.</translation>
@@ -3608,7 +3608,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4761104368405085019">Usar microfone</translation>
 <translation id="4762718786438001384">Dispositivo com espaço em disco criticamente baixo</translation>
 <translation id="4763408175235639573">Os cookies a seguir foram definidos quando você visualizou esta página</translation>
-<translation id="4765582662863429759">Permite que o Android Mensagens transmita mensagens de texto do smartphone para o Chromebook</translation>
+<translation id="4765582662863429759">Permite que o Android Mensagens transmita mensagens de texto do smartphone para o Decentrbook</translation>
 <translation id="4768332406694066911">Você tem certificados das seguintes empresas que identificam você</translation>
 <translation id="4770119228883592393">Permissão solicitada. Pressione ⌘ + Option + seta para baixo para responder</translation>
 <translation id="4773112038801431077">Fazer upgrade do Linux</translation>
@@ -3623,7 +3623,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4779136857077979611">Oniguiri</translation>
 <translation id="4779766576531456629">Renomear rede celular do eSIM</translation>
 <translation id="4780321648949301421">Salvar página como...</translation>
-<translation id="4784559565779618838">Para pesquisar em um site específico ou em uma parte do Chrome, digite os atalhos abaixo na barra de endereço e pressione a barra de espaço ou a tecla Tab.</translation>
+<translation id="4784559565779618838">Para pesquisar em um site específico ou em uma parte do Decentr, digite os atalhos abaixo na barra de endereço e pressione a barra de espaço ou a tecla Tab.</translation>
 <translation id="4785719467058219317">Você está usando uma chave de segurança que não está registrada neste site</translation>
 <translation id="478708757211772586">Use "Próxima" para avançar na tela</translation>
 <translation id="4788092183367008521">Verifique sua conexão de rede e tente novamente.</translation>
@@ -3641,7 +3641,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4804818685124855865">Desconectar</translation>
 <translation id="4804827417948292437">Abacate</translation>
 <translation id="4807098396393229769">Nome no cartão de crédito</translation>
-<translation id="4808024018088054533">O Chrome não encontrou softwares nocivos no seu computador • Verificado agora mesmo</translation>
+<translation id="4808024018088054533">O Decentr não encontrou softwares nocivos no seu computador • Verificado agora mesmo</translation>
 <translation id="4808667324955055115">Pop-ups bloqueados:</translation>
 <translation id="4809079943450490359">Instruções do administrador do dispositivo:</translation>
 <translation id="480990236307250886">Abrir a página inicial</translation>
@@ -3660,7 +3660,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="4824037980212326045">Backup e restauração do Linux</translation>
 <translation id="4824958205181053313">Cancelar sincronização?</translation>
 <translation id="4827675678516992122">Não foi possível conectar</translation>
-<translation id="4827784381479890589">Verificação ortográfica melhorada no navegador Chrome (o texto é enviado ao Google para sugestões de ortografia)</translation>
+<translation id="4827784381479890589">Verificação ortográfica melhorada no navegador Decentr (o texto é enviado ao Google para sugestões de ortografia)</translation>
 <translation id="4827904420700932487">Criar código QR para esta imagem</translation>
 <translation id="482952334869563894">Dispositivos USB do fornecedor <ph name="VENDOR_ID" /></translation>
 <translation id="4829768588131278040">Configurar PIN</translation>
@@ -3705,7 +3705,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="48704129375571883">Adicionar mais recursos</translation>
 <translation id="4870758487381879312">Digite a senha fornecida pelo administrador para receber informações de configuração</translation>
 <translation id="4870903493621965035">Nenhum dispositivo pareado</translation>
-<translation id="4871308555310586478">Não foi feita a partir da Chrome Web Store.</translation>
+<translation id="4871308555310586478">Não foi feita a partir da Decentr Web Store.</translation>
 <translation id="4871322859485617074">O PIN contém caracteres inválidos</translation>
 <translation id="4871370605780490696">Adicionar favorito</translation>
 <translation id="4871568871368204250">Desativar a sincronização</translation>
@@ -3807,7 +3807,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="496446150016900060">Sincronizar redes Wi-Fi com seu smartphone</translation>
 <translation id="4965808351167763748">Você quer mesmo configurar este dispositivo para executar o Google Meet?</translation>
 <translation id="4966972803217407697">Você está no modo de navegação anônima</translation>
-<translation id="496888482094675990">O aplicativo Arquivos fornece acesso rápido a arquivos que foram salvos no Google Drive, em armazenamento externo ou no seu dispositivo Chrome OS.</translation>
+<translation id="496888482094675990">O aplicativo Arquivos fornece acesso rápido a arquivos que foram salvos no Google Drive, em armazenamento externo ou no seu dispositivo Decentr OS.</translation>
 <translation id="4971412780836297815">Abrir quando estiver concluído</translation>
 <translation id="4971735654804503942">Proteção mais rápida e proativa contra sites, downloads e extensões perigosos. Envia um alerta de violação de senha. Requer que dados de navegação sejam enviados ao Google.</translation>
 <translation id="4972129977812092092">Editar impressora</translation>
@@ -3881,7 +3881,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="5053962746715621840">Pesquisar imagem com o Google Lens</translation>
 <translation id="5056950756634735043">Conectando ao contêiner</translation>
 <translation id="5057110919553308744">Quando você clicar na extensão</translation>
-<translation id="5057403786441168405">Gerencie suas contas conectadas. Sites, apps e extensões no Chrome e no Google Play podem usar essas contas para personalizar sua experiência, dependendo das permissões. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
+<translation id="5057403786441168405">Gerencie suas contas conectadas. Sites, apps e extensões no Decentr e no Google Play podem usar essas contas para personalizar sua experiência, dependendo das permissões. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="5059241099014281248">Restringir o login</translation>
 <translation id="5059526285558225588">Escolha o que compartilhar</translation>
 <translation id="5060332552815861872">Há 1 impressora disponível para salvar.</translation>
@@ -4005,7 +4005,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="5191094172448199359">Os PINs que você digitou não são iguais</translation>
 <translation id="5191251636205085390">Descubra e controle novas tecnologias para substituir cookies de terceiros</translation>
 <translation id="5192062846343383368">Abra o app Family Link para ver as configurações de supervisão</translation>
-<translation id="5192652123103143854">Ler informações do dispositivo Chrome OS, acessar dados do dispositivo e executar testes de diagnóstico.</translation>
+<translation id="5192652123103143854">Ler informações do dispositivo Decentr OS, acessar dados do dispositivo e executar testes de diagnóstico.</translation>
 <translation id="5193988420012215838">Copiado para a área de transferência</translation>
 <translation id="5194256020863090856">Essa ação afeta apenas janelas anônimas</translation>
 <translation id="5197255632782567636">Internet</translation>
@@ -4018,10 +4018,10 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="520568280985468584">A rede foi adicionada. Pode demorar vários minutos para que sua rede celular fique ativa.</translation>
 <translation id="5206215183583316675">Quer excluir "<ph name="CERTIFICATE_NAME" />"?</translation>
 <translation id="520621735928254154">Erro ao importar certificado</translation>
-<translation id="5206787458656075734">{COUNT,plural, =1{A senha comprometida foi modificada. Você tem # outra senha comprometida. O Chrome recomenda verificá-la imediatamente.}one{A senha comprometida foi modificada. Você tem # outra senha comprometida. O Chrome recomenda verificá-la imediatamente.}other{A senha comprometida foi modificada. Você tem # outras senhas comprometidas. O Chrome recomenda verificá-las imediatamente.}}</translation>
+<translation id="5206787458656075734">{COUNT,plural, =1{A senha comprometida foi modificada. Você tem # outra senha comprometida. O Decentr recomenda verificá-la imediatamente.}one{A senha comprometida foi modificada. Você tem # outra senha comprometida. O Decentr recomenda verificá-la imediatamente.}other{A senha comprometida foi modificada. Você tem # outras senhas comprometidas. O Decentr recomenda verificá-las imediatamente.}}</translation>
 <translation id="5207949376430453814">Destacar cursor de texto</translation>
 <translation id="5208548918290612795">Armazenando token de autenticação do <ph name="WEB_DRIVE" /></translation>
-<translation id="520902706163766447">Ative um balão pop-up na IU superior do Chrome para fazer pesquisas fora das guias abertas.</translation>
+<translation id="520902706163766447">Ative um balão pop-up na IU superior do Decentr para fazer pesquisas fora das guias abertas.</translation>
 <translation id="5209320130288484488">Nenhum dispositivo foi encontrado</translation>
 <translation id="5210365745912300556">Fechar guia</translation>
 <translation id="5213114823401215820">Reabrir grupo fechado</translation>
@@ -4092,7 +4092,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="5288678174502918605">R&amp;eabrir guia fechada</translation>
 <translation id="52895863590846877">A página não está em <ph name="LANGUAGE" /></translation>
 <translation id="52912272896845572">O arquivo de chave privada é inválido.</translation>
-<translation id="5291739252352359682">Cria legendas automaticamente para conteúdo de mídia no navegador Chrome (disponível em inglês). Os áudios e as legendas são processados localmente e nunca deixam o dispositivo.</translation>
+<translation id="5291739252352359682">Cria legendas automaticamente para conteúdo de mídia no navegador Decentr (disponível em inglês). Os áudios e as legendas são processados localmente e nunca deixam o dispositivo.</translation>
 <translation id="529175790091471945">Formatar este dispositivo</translation>
 <translation id="529296195492126134">O modo temporário não é compatível. Entre em contato com seu administrador</translation>
 <translation id="5293170712604732402">Restaurar configurações para os padrões originais</translation>
@@ -4118,7 +4118,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="5311565231560644461">Não permitir que os sites usem seus dispositivos e dados de realidade virtual</translation>
 <translation id="5315738755890845852">Chave extra: <ph name="ERROR_LINE" /></translation>
 <translation id="5317780077021120954">Salvar</translation>
-<translation id="5319359161174645648">O Google recomenda o Chrome</translation>
+<translation id="5319359161174645648">O Google recomenda o Decentr</translation>
 <translation id="5319712128756744240">Parear novo dispositivo</translation>
 <translation id="5320135788267874712">Novo nome do dispositivo</translation>
 <translation id="532043380734099846">Dispositivo <ph name="DEVICE_INDEX" /> de <ph name="DEVICE_COUNT" />, <ph name="DEVICE_NAME" />, mouse, bateria em <ph name="BATTERY_PERCENTAGE" />%</translation>
@@ -4147,7 +4147,7 @@ e Ctrl + Alt + Diminuir brilho para diminuí-lo.</translation>
 <translation id="5350293332385664455">Desativar o Google Assistente</translation>
 <translation id="535123479159372765">Texto copiado de outro dispositivo</translation>
 <translation id="5352033265844765294">Carimbo de data/hora</translation>
-<translation id="5353252989841766347">Exportar senhas do Chrome</translation>
+<translation id="5353252989841766347">Exportar senhas do Decentr</translation>
 <translation id="5354531123814675522">Dispositivo <ph name="DEVICE_INDEX" /> de <ph name="DEVICE_COUNT" />, <ph name="DEVICE_NAME" />, tablet, bateria em <ph name="BATTERY_PERCENTAGE" />%</translation>
 <translation id="5355099869024327351">Permitir que o Assistente mostre notificações</translation>
 <translation id="5355191726083956201">A Proteção reforçada está ativa</translation>
@@ -4359,7 +4359,7 @@ Você pode atribuir vários interruptores a essa ação.</translation>
 <translation id="5568069709869097550">Não consigo acessar</translation>
 <translation id="5571092938913434726">Controles globais de mídia</translation>
 <translation id="5571832155627049070">Personalize seu perfil</translation>
-<translation id="5572851009514199876">Inicie e faça login no Chrome para que ele possa verificar se você tem permissão para acessar este site.</translation>
+<translation id="5572851009514199876">Inicie e faça login no Decentr para que ele possa verificar se você tem permissão para acessar este site.</translation>
 <translation id="5575473780076478375">Extensão anônima: <ph name="EXTENSION_NAME" /></translation>
 <translation id="5575528586625653441">Ocorreu um problema com a solicitação de registro de demonstração.</translation>
 <translation id="557722062034137776">Redefinir o dispositivo não afetará suas Contas do Google ou quaisquer dados sincronizados com essas contas. No entanto, todos os arquivos salvos localmente em seu dispositivo serão excluídos.</translation>
@@ -4406,7 +4406,7 @@ Você pode atribuir vários interruptores a essa ação.</translation>
 <translation id="5618333180342767515">Isso pode demorar alguns minutos</translation>
 <translation id="56197088284879152">A conexão está congestionada para o dispositivo remoto "<ph name="DEVICE_NAME" />".</translation>
 <translation id="5619862035903135339">A captura de tela foi desativada pela política do administrador</translation>
-<translation id="5620568081365989559">A Chrome DevTools API solicita acesso total a <ph name="FOLDER_PATH" />.
+<translation id="5620568081365989559">A Decentr DevTools API solicita acesso total a <ph name="FOLDER_PATH" />.
 Não exponha nenhuma informação confidencial.</translation>
 <translation id="5620612546311710611">estatísticas de uso</translation>
 <translation id="5620655347161642930">Exportar senhas...</translation>
@@ -4416,7 +4416,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5624120631404540903">Gerenciar senhas</translation>
 <translation id="5626134646977739690">Nome:</translation>
 <translation id="5627086634964711283">Controla também qual página deve ser exibida quando você clica no botão "Página inicial".</translation>
-<translation id="5627676517703583263">Navegue com inteligência com o Chrome</translation>
+<translation id="5627676517703583263">Navegue com inteligência com o Decentr</translation>
 <translation id="5627832140542566187">Orientação da tela</translation>
 <translation id="562935524653278697">Seu administrador desativou a sincronização dos seus favoritos, histórico, senhas e outras configurações.</translation>
 <translation id="5631017369956619646">Uso da CPU</translation>
@@ -4427,7 +4427,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="563535393368633106">Perguntar antes de acessar (recomendado)</translation>
 <translation id="5636996382092289526">Para usar <ph name="NETWORK_ID" />, talvez seja necessário primeiro <ph name="LINK_START" />visitar a página de login da rede<ph name="LINK_END" />, que abrirá automaticamente em alguns segundos. Se isso não acontecer, significa que a rede não pode ser usada.</translation>
 <translation id="5637476008227280525">Ativar dados móveis</translation>
-<translation id="5638309510554459422">Encontre extensões e temas na <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /></translation>
+<translation id="5638309510554459422">Encontre extensões e temas na <ph name="BEGIN_LINK" />Decentr Web Store<ph name="END_LINK" /></translation>
 <translation id="5639549361331209298">Recarrega esta página; mantenha pressionado para ver mais opções</translation>
 <translation id="5640133431808313291">Gerenciar chaves de segurança</translation>
 <translation id="5642508497713047">Signatário de lista de certificados revogados</translation>
@@ -4474,7 +4474,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5692183275898619210">Impressão concluída</translation>
 <translation id="5695184138696833495">ADB de apps Android no Linux</translation>
 <translation id="5696143504434933566">Denunciar abuso de "<ph name="EXTENSION_NAME" />"</translation>
-<translation id="5696177755977520104">Sincronização de configurações do Chrome OS</translation>
+<translation id="5696177755977520104">Sincronização de configurações do Decentr OS</translation>
 <translation id="5696679855467848181">Arquivo PPD atual em uso: <ph name="PPD_NAME" /></translation>
 <translation id="5697832193891326782">Seletor de emojis</translation>
 <translation id="570043786759263127">Apps e serviços do Google Play</translation>
@@ -4490,7 +4490,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5705882733397021510">Voltar</translation>
 <translation id="5707185214361380026">Falha ao carregar a extensão a partir de:</translation>
 <translation id="5708171344853220004">Nome principal da Microsoft</translation>
-<translation id="5709557627224531708">Definir o Chrome como seu navegador padrão</translation>
+<translation id="5709557627224531708">Definir o Decentr como seu navegador padrão</translation>
 <translation id="5711010025974903573">Registros do serviço</translation>
 <translation id="5711983031544731014">Não foi possível realizar o desbloqueio. Insira sua senha.</translation>
 <translation id="5712153969432126546">Às vezes, os sites podem publicar PDFs, como documentos, contratos, e formulários</translation>
@@ -4535,12 +4535,12 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5766243637773654698">O arquivo <ph name="FILE_NAME" /> pode ser perigoso. Enviar ao Google para verificação? Pressione Shift + F6 para voltar à área da barra de downloads.</translation>
 <translation id="5770125698810550803">Mostrar botões de navegação</translation>
 <translation id="5771816112378578655">Configuração em andamento...</translation>
-<translation id="5772114492540073460"><ph name="PARALLELS_NAME" /> permite que você execute aplicativos do Windows® no seu Chromebook. É recomendado ter <ph name="MINIMUM_SPACE" /> de espaço livre para a instalação.</translation>
+<translation id="5772114492540073460"><ph name="PARALLELS_NAME" /> permite que você execute aplicativos do Windows® no seu Decentrbook. É recomendado ter <ph name="MINIMUM_SPACE" /> de espaço livre para a instalação.</translation>
 <translation id="5772265531560382923">{NUM_PAGES,plural, =1{Aguarde até que ela volte a responder ou saia da página.}one{Aguarde até que ela volte a responder ou saia da página.}other{Aguarde até que elas voltem a responder ou saia das páginas.}}</translation>
 <translation id="577322787686508614">A operação de leitura não é permitida em "<ph name="DEVICE_NAME" />".</translation>
 <translation id="5774295353725270860">Abrir aplicativo Arquivos</translation>
 <translation id="577624874850706961">Pesquisar cookies</translation>
-<translation id="5777468213129569553">Abra o Chrome</translation>
+<translation id="5777468213129569553">Abra o Decentr</translation>
 <translation id="5778491106820461378">Acesse <ph name="LINK_BEGIN" />Configurações<ph name="LINK_END" /> para gerenciar as Contas do Google conectadas. As permissões concedidas a sites e apps podem ser aplicadas a todas as contas. Se você não quer que sites ou apps tenham acesso às informações da sua conta, faça login no <ph name="DEVICE_TYPE" /> como visitante.</translation>
 <translation id="5780011244986845107">A pasta selecionada contém arquivos confidenciais. Tem certeza de que quer conceder acesso permanente de leitura nessa pasta ao "<ph name="APP_NAME" />"?</translation>
 <translation id="5780973441651030252">Prioridade do processo</translation>
@@ -4548,7 +4548,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5781865261247219930">Enviar comandos para <ph name="EXTENSION_NAME" /></translation>
 <translation id="5782227691023083829">Traduzindo...</translation>
 <translation id="57838592816432529">Desativar som</translation>
-<translation id="5785583009707899920">Utilitários de arquivos do Chrome</translation>
+<translation id="5785583009707899920">Utilitários de arquivos do Decentr</translation>
 <translation id="5787146423283493983">Acordo de chave</translation>
 <translation id="5787420647064736989">Nome do dispositivo</translation>
 <translation id="5788367137662787332">Ao menos uma partição no dispositivo <ph name="DEVICE_LABEL" /> não pôde ser montada.</translation>
@@ -4578,7 +4578,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5817069030404929329">Mover senhas deste dispositivo para a Conta do Google?</translation>
 <translation id="5817918615728894473">Parear</translation>
 <translation id="5821565227679781414">Criar atalho</translation>
-<translation id="5822865422567397338">Para pesquisar em um site específico ou em uma parte do Chrome, use os atalhos abaixo. Por exemplo, para pesquisar apenas no Gmail, digite "@gmail" e pressione a barra de espaço ou a tecla Tab.</translation>
+<translation id="5822865422567397338">Para pesquisar em um site específico ou em uma parte do Decentr, use os atalhos abaixo. Por exemplo, para pesquisar apenas no Gmail, digite "@gmail" e pressione a barra de espaço ou a tecla Tab.</translation>
 <translation id="5825412242012995131">Ativado (recomendado)</translation>
 <translation id="5826395379250998812">Conecte seu <ph name="DEVICE_TYPE" /> ao smartphone. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="5826993284769733527">Semitransparente</translation>
@@ -4666,14 +4666,14 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5916664084637901428">Ativado</translation>
 <translation id="59174027418879706">Ativado</translation>
 <translation id="5920543303088087579">A conexão a esta rede foi desativada pelo seu administrador</translation>
-<translation id="5920835625712313205">Gravador de imagem do sistema Chrome OS</translation>
+<translation id="5920835625712313205">Gravador de imagem do sistema Decentr OS</translation>
 <translation id="5921257443092182237">Os Serviços de localização do Google usam fontes como Wi-Fi, redes móveis e sensores para estimar a localização deste dispositivo.</translation>
 <translation id="5924047253200400718">Receber ajuda<ph name="SCANNING_STATUS" /></translation>
 <translation id="5924527146239595929">Tire uma nova foto ou escolha uma foto ou um ícone já existente.
     <ph name="LINE_BREAK" />
-    Essa imagem será exibida na tela de login e na tela de bloqueio do Chromebook.</translation>
+    Essa imagem será exibida na tela de login e na tela de bloqueio do Decentrbook.</translation>
 <translation id="5925147183566400388">Indicador de Declaração de Práticas de Certificação</translation>
-<translation id="592880897588170157">Fazer o download de arquivos PDF em vez de abri-los automaticamente no Chrome</translation>
+<translation id="592880897588170157">Fazer o download de arquivos PDF em vez de abri-los automaticamente no Decentr</translation>
 <translation id="592919310198008711">Quando eu clicar na extensão</translation>
 <translation id="5932124097031739492">O upgrade do Linux foi realizado.</translation>
 <translation id="5932224571077948991">No site, há exibição de anúncios invasivos ou enganosos</translation>
@@ -4698,7 +4698,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5946591249682680882">Código de relatório <ph name="WEBRTC_LOG_REPORT_ID" /></translation>
 <translation id="5948536763493709626">Conecte um teclado ou mouse, ou continue a configuração usando a tela touchscreen. Se você está usando dispositivos Bluetooth, confira se eles estão prontos para o pareamento.</translation>
 <translation id="5949544233750246342">Não foi possível analisar o arquivo</translation>
-<translation id="5950819593680344519">O Chrome não encontrou softwares nocivos no computador • Verificado ontem</translation>
+<translation id="5950819593680344519">O Decentr não encontrou softwares nocivos no computador • Verificado ontem</translation>
 <translation id="5951303645598168883"><ph name="ORIGIN" /> quer usar fontes locais</translation>
 <translation id="5951624318208955736">Monitor</translation>
 <translation id="5955282598396714173">Sua senha expirou. Saia e faça login novamente para alterá-la.</translation>
@@ -4731,7 +4731,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="5978277834170881274">&amp;Usar a verificação ortográfica básica</translation>
 <translation id="5979084224081478209">Verificar senhas</translation>
 <translation id="5979156418378918004">{NUM_EXTENSIONS,plural, =1{Você reativou 1 extensão possivelmente nociva}one{Você reativou {NUM_EXTENSIONS} extensão possivelmente nociva}other{Você reativou {NUM_EXTENSIONS} extensões possivelmente nocivas}}</translation>
-<translation id="5979353814339191480">Esta opção se aplica a Chromebooks com um plano de dados ou dongle de rede móvel, ou então a processos de tethering para pontos de acesso portáteis</translation>
+<translation id="5979353814339191480">Esta opção se aplica a Decentrbooks com um plano de dados ou dongle de rede móvel, ou então a processos de tethering para pontos de acesso portáteis</translation>
 <translation id="5979421442488174909">&amp;Traduzir para o <ph name="LANGUAGE" /></translation>
 <translation id="5979469435153841984">Para adicionar páginas aos favoritos, clique na estrela na barra de endereço</translation>
 <translation id="5983831175889857946">Revisão concluída.</translation>
@@ -4763,7 +4763,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6019851026059441029">Ótima (alta definição)</translation>
 <translation id="6020431688553761150">O servidor não autorizou você a acessar este recurso.</translation>
 <translation id="6022526133015258832">Abrir em tela cheia</translation>
-<translation id="6022659036123304283">Deixe o Chrome do seu jeito</translation>
+<translation id="6022659036123304283">Deixe o Decentr do seu jeito</translation>
 <translation id="6023643151125006053">Este dispositivo (SN: <ph name="SERIAL_NUMBER" />) foi bloqueado pelo administrador de <ph name="SAML_DOMAIN" />.</translation>
 <translation id="6025215716629925253">Rastreamento de pilha</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE" /> - Dispositivo USB conectado</translation>
@@ -4780,10 +4780,10 @@ Não exponha nenhuma informação confidencial.</translation>
     <ph name="BEGIN_PARAGRAPH2" />É possível desativar esse serviço desativando a configuração de localização principal no dispositivo. Nessa configuração, você também pode desativar o uso de redes móveis, Wi‑Fi e sensores de local.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="6041155700700864984">Sair da Tela inteira</translation>
 <translation id="6042308850641462728">Mais</translation>
-<translation id="6043317578411397101">O app <ph name="APP_NAME" /> está compartilhando uma guia do Chrome com <ph name="TAB_NAME" />.</translation>
+<translation id="6043317578411397101">O app <ph name="APP_NAME" /> está compartilhando uma guia do Decentr com <ph name="TAB_NAME" />.</translation>
 <translation id="604388835206766544">Falha ao analisar configuração</translation>
 <translation id="6043994281159824495">Sair agora</translation>
-<translation id="6044805581023976844">O app <ph name="APP_NAME" /> está compartilhando áudio e uma guia do Chrome com <ph name="TAB_NAME" />.</translation>
+<translation id="6044805581023976844">O app <ph name="APP_NAME" /> está compartilhando áudio e uma guia do Decentr com <ph name="TAB_NAME" />.</translation>
 <translation id="6045114302329202345">Botão do TrackPoint principal</translation>
 <translation id="6047632800149092791">A sincronização não está funcionando. Tente sair e fazer login novamente.</translation>
 <translation id="6049797270917061226">Esse arquivo pode permitir que invasores roubem suas informações pessoais.</translation>
@@ -4797,14 +4797,14 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6056710589053485679">Recarregamento normal</translation>
 <translation id="6057312498756061228">Esse arquivo é grande demais para uma verificação de segurança. É possível abrir arquivos de até 50 MB.</translation>
 <translation id="6057381398996433816">Este site foi impedido de usar sensores de luz e movimento.</translation>
-<translation id="6059276912018042191">Guias recentes do Chrome</translation>
+<translation id="6059276912018042191">Guias recentes do Decentr</translation>
 <translation id="6059652578941944813">Hierarquia de certificados</translation>
 <translation id="6061882183774845124">Enviar link para seus dispositivos</translation>
 <translation id="6063847492705284550"><ph name="BEGIN_BOLD" />Observação<ph name="END_BOLD" />: uma voz parecida ou uma gravação pode conseguir acessar os resultados personalizados de <ph name="SUPERVISED_USER_NAME" />. Para economizar bateria, você pode acessar as configurações do Google Assistente de <ph name="SUPERVISED_USER_NAME" /> e ativar o "Ok Google" apenas quando o dispositivo estiver conectado a uma fonte de energia.</translation>
 <translation id="6064217302520318294">Bloqueio de tela</translation>
 <translation id="6065289257230303064">Atributos do diretório do requerente do certificado</translation>
 <translation id="6066794465984119824">O hash da imagem não está definido</translation>
-<translation id="6069464830445383022">Sua Conta do Google é o login do seu Chromebook</translation>
+<translation id="6069464830445383022">Sua Conta do Google é o login do seu Decentrbook</translation>
 <translation id="6069671174561668781">Defina o plano de fundo</translation>
 <translation id="6071181508177083058">confirmar senha</translation>
 <translation id="6071576563962215370">Falha do sistema ao estabelecer o bloqueio de atributos do tempo de instalação do dispositivo.</translation>
@@ -4848,12 +4848,12 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6104068876731806426">Contas do Google</translation>
 <translation id="6104311680260824317">Não é possível vincular o dispositivo ao domínio. O servidor não é compatível com os tipos de criptografia especificados do Kerberos. Para ver as configurações de criptografia, acesse "Mais opções".</translation>
 <translation id="6104796831253957966">A fila da impressora está cheia</translation>
-<translation id="6105994589138235234">Sincronização do navegador Chrome</translation>
+<translation id="6105994589138235234">Sincronização do navegador Decentr</translation>
 <translation id="6111972606040028426">Ativar o Google Assistente</translation>
 <translation id="6112294629795967147">Toque para redimensionar</translation>
 <translation id="6112727384379533756">Adicionar um tíquete</translation>
 <translation id="6112931163620622315">Verifique seu smartphone</translation>
-<translation id="6113434369102685411">Defina seu mecanismo de pesquisa padrão para o navegador Chrome e o acesso rápido do <ph name="DEVICE_TYPE" /></translation>
+<translation id="6113434369102685411">Defina seu mecanismo de pesquisa padrão para o navegador Decentr e o acesso rápido do <ph name="DEVICE_TYPE" /></translation>
 <translation id="6113942107547980621">Para usar o Smart Lock, acesse o perfil de usuário principal no smartphone</translation>
 <translation id="6116921718742659598">Alterar configurações de idioma e de entrada</translation>
 <translation id="6119927814891883061">Nomear dispositivo como <ph name="DEVICE_NAME" /></translation>
@@ -4869,7 +4869,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6124698108608891449">Este site precisa de outras permissões.</translation>
 <translation id="6125479973208104919">Adicione sua conta a esse <ph name="DEVICE_TYPE" /> novamente.</translation>
 <translation id="6126601353087978360">Digite seu feedback aqui:</translation>
-<translation id="6129691635767514872">Os dados selecionados foram removidos do Chrome e dos dispositivos sincronizados. É possível que sua Conta do Google tenha outras formas de histórico de navegação, como pesquisas e atividades de outros serviços do Google em <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
+<translation id="6129691635767514872">Os dados selecionados foram removidos do Decentr e dos dispositivos sincronizados. É possível que sua Conta do Google tenha outras formas de histórico de navegação, como pesquisas e atividades de outros serviços do Google em <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
 <translation id="6129938384427316298">Comentário do certificado do Netscape</translation>
 <translation id="6129953537138746214">Espaço</translation>
 <translation id="6130692320435119637">Adicionar Wi-Fi</translation>
@@ -4879,7 +4879,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6141988275892716286">Confirmar download</translation>
 <translation id="6143186082490678276">Receber ajuda</translation>
 <translation id="6143366292569327983">Escolha o idioma da página que você gostaria de traduzir</translation>
-<translation id="6144938890088808325">Ajudar a melhorar os Chromebooks</translation>
+<translation id="6144938890088808325">Ajudar a melhorar os Decentrbooks</translation>
 <translation id="6146409560350811147">A sincronização não está funcionando. Tente fazer login novamente.</translation>
 <translation id="6147020289383635445">A visualização de impressão falhou.</translation>
 <translation id="6148576794665275391">Abrir agora</translation>
@@ -4901,7 +4901,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6163376401832887457">Configurações do Kerberos</translation>
 <translation id="6163522313638838258">Expandir tudo...</translation>
 <translation id="6165508094623778733">Saiba mais</translation>
-<translation id="6166185671393271715">Importar senhas para o Chrome</translation>
+<translation id="6166185671393271715">Importar senhas para o Decentr</translation>
 <translation id="6169040057125497443">Verifique seu microfone.</translation>
 <translation id="6169666352732958425">Não é possível transmitir a área de trabalho.</translation>
 <translation id="6170470584681422115">Sanduíche</translation>
@@ -4930,7 +4930,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6208521041562685716">Ativando dados móveis</translation>
 <translation id="6208725777148613371">Falha ao salvar no <ph name="WEB_DRIVE" />: <ph name="INTERRUPT_REASON" /></translation>
 <translation id="6209838773933913227">Atualizando componente</translation>
-<translation id="6209908325007204267">Seu dispositivo inclui um Upgrade do Chrome Enterprise, mas seu nome de usuário não está associado a uma conta corporativa. Acesse g.co/ChromeEnterpriseAccount em outro dispositivo para criar uma conta corporativa.</translation>
+<translation id="6209908325007204267">Seu dispositivo inclui um Upgrade do Decentr Enterprise, mas seu nome de usuário não está associado a uma conta corporativa. Acesse g.co/DecentrEnterpriseAccount em outro dispositivo para criar uma conta corporativa.</translation>
 <translation id="621172521139737651">{COUNT,plural, =0{Abrir tudo em &amp;um novo grupo de guias}=1{Abrir em &amp;um novo grupo de guias}one{Abrir tudo ({COUNT}) em &amp;um novo grupo de guias}other{Abrir tudo ({COUNT}) em &amp;um novo grupo de guias}}</translation>
 <translation id="6212039847102026977">Mostrar propriedades de rede avançadas</translation>
 <translation id="6212168817037875041">Desligar a tela</translation>
@@ -4953,7 +4953,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6232116551750539448">A conexão com <ph name="NAME" /> foi perdida</translation>
 <translation id="6233154960150021497">Usar voz em vez de teclado por padrão</translation>
 <translation id="6233455992368963267">A fala em <ph name="LANGUAGE" /> é enviada ao Google para processamento.</translation>
-<translation id="6234108445915742946">Os Termos de Serviço do Chrome serão atualizados em 31 de março</translation>
+<translation id="6234108445915742946">Os Termos de Serviço do Decentr serão atualizados em 31 de março</translation>
 <translation id="6234474535228214774">Instalação pendente</translation>
 <translation id="6235208551686043831">A câmera do dispositivo foi ativada. Posicione o código QR do eSIM na frente dela.</translation>
 <translation id="6237474966939441970">App de anotações com a stylus</translation>
@@ -5035,7 +5035,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="630948338437014525">recordações</translation>
 <translation id="6309510305002439352">Microfone desativado</translation>
 <translation id="6310141306111263820">Não foi possível instalar o perfil do eSIM. Para receber ajuda, entre em contato com a operadora.</translation>
-<translation id="6311220991371174222">Não foi possível iniciar o Chrome porque algo deu errado ao abrir seu perfil. Tente reiniciar o Chrome.</translation>
+<translation id="6311220991371174222">Não foi possível iniciar o Decentr porque algo deu errado ao abrir seu perfil. Tente reiniciar o Decentr.</translation>
 <translation id="6312567056350025599">{NUM_DAYS,plural, =1{A confirmação de segurança foi executada há 1 dia}one{A confirmação de segurança foi executada há {NUM_DAYS} dia}other{A confirmação de segurança foi executada há {NUM_DAYS} dias}}</translation>
 <translation id="6312638141433622592">Oferecer a opção de mostrar artigos no modo leitor, quando compatível</translation>
 <translation id="6313641880021325787">SAIR DE RV</translation>
@@ -5049,7 +5049,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6318944945640833942">Não foi possível detectar uma impressora. Insira o endereço da impressora novamente.</translation>
 <translation id="6321407676395378991">Ativar o protetor de tela</translation>
 <translation id="6322370287306604163">Desbloqueie mais rapidamente com a impressão digital</translation>
-<translation id="6322653941595359182">Enviar e receber mensagens de texto no Chromebook</translation>
+<translation id="6322653941595359182">Enviar e receber mensagens de texto no Decentrbook</translation>
 <translation id="6324916366299863871">Editar atalho</translation>
 <translation id="6325191661371220117">Desativar inicialização automática</translation>
 <translation id="6326175484149238433">Remover do Decentr</translation>
@@ -5057,10 +5057,10 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6327785803543103246">Descoberta automática do proxy da Web</translation>
 <translation id="6328378651911184878"><ph name="MANAGER" /> precisa que você atualize este <ph name="DEVICE_TYPE" /> imediatamente.</translation>
 <translation id="6331191339300272798">Tema escuro automático</translation>
-<translation id="6331566915566907158">Ajudar a melhorar os recursos e o desempenho do Chrome OS</translation>
+<translation id="6331566915566907158">Ajudar a melhorar os recursos e o desempenho do Decentr OS</translation>
 <translation id="6331818708794917058">Os sites podem pedir para se conectar a dispositivos MIDI</translation>
 <translation id="6333064448949140209">O arquivo será enviado ao Google para depuração</translation>
-<translation id="6335920438823100346">Para iniciar o Linux, <ph name="MANAGER" /> exige que você faça backup dos seus dados e redefina o Chromebook para as configurações originais.</translation>
+<translation id="6335920438823100346">Para iniciar o Linux, <ph name="MANAGER" /> exige que você faça backup dos seus dados e redefina o Decentrbook para as configurações originais.</translation>
 <translation id="6336038146639916978"><ph name="MANAGER" /> desativou a depuração do adb. O <ph name="DEVICE_TYPE" /> será redefinido em 24 horas. Faça backup dos arquivos importantes para você.</translation>
 <translation id="6338981933082930623">Todos os sites podem exibir anúncios</translation>
 <translation id="6339668969738228384">Criar um novo perfil para <ph name="USER_EMAIL_ADDRESS" /></translation>
@@ -5121,7 +5121,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6410328738210026208">Mudar de canal e executar PowerWash</translation>
 <translation id="6410390304316730527">O "Navegação segura" protege contra invasores que podem levar você a fazer algo perigoso, como instalar um software malicioso ou revelar informações pessoais como senhas, números de telefone ou cartões de crédito. Se desativá-lo, tenha cuidado ao navegar em sites desconhecidos ou com má reputação.</translation>
 <translation id="6410668567036790476">Adicionar mecanismo de pesquisa</translation>
-<translation id="6412673304250309937">Verifica se os URLs estão em uma lista de sites não seguros armazenada no Chrome. Se um site tentar roubar sua senha ou se você fizer o download de um arquivo nocivo, o Chrome também poderá enviar URLs, incluindo partes do conteúdo da página, para o "Navegação segura".</translation>
+<translation id="6412673304250309937">Verifica se os URLs estão em uma lista de sites não seguros armazenada no Decentr. Se um site tentar roubar sua senha ou se você fizer o download de um arquivo nocivo, o Decentr também poderá enviar URLs, incluindo partes do conteúdo da página, para o "Navegação segura".</translation>
 <translation id="641469293210305670">Instalar atualizações e apps</translation>
 <translation id="6414878884710400018">Abrir preferências do sistema</translation>
 <translation id="6414888972213066896">Você perguntou ao seu responsável se pode visitar este site</translation>
@@ -5137,7 +5137,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6419843101460769608">Não permitir que nenhum site acesse dispositivos Bluetooth</translation>
 <translation id="642469772702851743">Este dispositivo (SN: <ph name="SERIAL_NUMBER" />) foi bloqueado pelo proprietário.</translation>
 <translation id="6425556984042222041">Velocidade de conversão de texto em voz</translation>
-<translation id="6426200009596957090">Abrir as configurações do ChromeVox</translation>
+<translation id="6426200009596957090">Abrir as configurações do DecentrVox</translation>
 <translation id="642729974267661262">Bloquear a reprodução de sons</translation>
 <translation id="6429384232893414837">Erro de atualização</translation>
 <translation id="6430814529589430811">ASCII codificado na Base64, certificado único</translation>
@@ -5145,7 +5145,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6434104957329207050">Velocidade da verificação por ponto</translation>
 <translation id="6434309073475700221">Descartar</translation>
 <translation id="6434325376267409267">O app <ph name="APP_NAME" /> requer a atualização do dispositivo.</translation>
-<translation id="6436164536244065364">Visualizar na Chrome Web Store</translation>
+<translation id="6436164536244065364">Visualizar na Decentr Web Store</translation>
 <translation id="6436610005579237680">Para receber respostas mais personalizadas, permita que o Google Assistente acesse uma captura das informações exibidas na tela quando você fizer perguntas. Ele também poderá usar dados sobre músicas ou vídeos em reprodução.</translation>
 <translation id="6436778875248895551">A extensão <ph name="EXTENSION_NAME" /> foi bloqueada pelo administrador</translation>
 <translation id="6438234780621650381">Redefinir configurações</translation>
@@ -5233,7 +5233,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="652492607360843641">Você está conectado a uma rede <ph name="NETWORK_TYPE" />.</translation>
 <translation id="6527303717912515753">Compartilhar</translation>
 <translation id="6528179044667508675">Não perturbe</translation>
-<translation id="652948702951888897">Histórico do Chrome</translation>
+<translation id="652948702951888897">Histórico do Decentr</translation>
 <translation id="6530186581263215931">Estas configurações são aplicadas pelo administrador</translation>
 <translation id="6531282281159901044">Manter arquivo perigoso</translation>
 <translation id="6532101170117367231">Salvar no Google Drive</translation>
@@ -5302,7 +5302,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6597017209724497268">Exemplos</translation>
 <translation id="6597148444736186483">Para sair da conta principal deste dispositivo, clique no horário exibido na sua tela. No menu que aparece, clique em "Sair".</translation>
 <translation id="6597331566371766302">As seguintes extensões foram bloqueadas pelo administrador:</translation>
-<translation id="6601395831301182804">Você quer ativar o ChromeVox, o leitor de tela integrado do Chrome OS? Se for o caso, pressione a barra de espaço.</translation>
+<translation id="6601395831301182804">Você quer ativar o DecentrVox, o leitor de tela integrado do Decentr OS? Se for o caso, pressione a barra de espaço.</translation>
 <translation id="6601612474695404578">Alguns sites usam cookies de terceiros para carregar páginas. Se um site não estiver funcionando, tente permitir o uso de cookies.</translation>
 <translation id="6602937173026466876">Acessar suas impressoras</translation>
 <translation id="6602956230557165253">Use as setas para esquerda e direita para navegar.</translation>
@@ -5347,7 +5347,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="665061930738760572">Abrir em &amp;nova janela</translation>
 <translation id="6651237644330755633">Confiar neste certificado para a identificação de websites.</translation>
 <translation id="6651495917527016072">Sincronizar redes Wi-Fi com seu smartphone. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
-<translation id="665355505818177700">A integração de <ph name="MS_AD_NAME" /> ao Chrome só é compatível com plataformas x86_64. Chromebooks criados com ARM ou plataformas x86 não são compatíveis com essa funcionalidade.</translation>
+<translation id="665355505818177700">A integração de <ph name="MS_AD_NAME" /> ao Decentr só é compatível com plataformas x86_64. Decentrbooks criados com ARM ou plataformas x86 não são compatíveis com essa funcionalidade.</translation>
 <translation id="6654509035557065241">Preferir esta rede</translation>
 <translation id="6655190889273724601">Modo do desenvolvedor</translation>
 <translation id="6655458902729017087">Ocultar contas</translation>
@@ -5357,11 +5357,11 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="666099631117081440">Servidores de impressão</translation>
 <translation id="6662931079349804328">A política da empresa mudou. O botão "Experimentos" foi removido da barra de ferramentas.</translation>
 <translation id="6663190258859265334">Use a função Powerwash no <ph name="DEVICE_TYPE" /> e volte para a versão anterior.</translation>
-<translation id="6664237456442406323">Infelizmente, seu computador está configurado com um ID de hardware mal formado. Isso impede que o Chrome OS seja atualizado com as correções de segurança mais recentes e, por isso, seu computador <ph name="BEGIN_BOLD" />pode ficar vulnerável a ataques maliciosos<ph name="END_BOLD" />.</translation>
+<translation id="6664237456442406323">Infelizmente, seu computador está configurado com um ID de hardware mal formado. Isso impede que o Decentr OS seja atualizado com as correções de segurança mais recentes e, por isso, seu computador <ph name="BEGIN_BOLD" />pode ficar vulnerável a ataques maliciosos<ph name="END_BOLD" />.</translation>
 <translation id="6664774537677393800">Ocorreu um erro ao abrir seu perfil. Saia da conta e faça login novamente.</translation>
 <translation id="666731172850799929">Abrir no <ph name="APP_NAME" /></translation>
 <translation id="6670142487971298264"><ph name="APP_NAME" /> já está disponível</translation>
-<translation id="6670767097276846646">Algumas extensões podem adicionar mecanismos de pesquisa ao Chrome</translation>
+<translation id="6670767097276846646">Algumas extensões podem adicionar mecanismos de pesquisa ao Decentr</translation>
 <translation id="6671320560732140690">{COUNT,plural, =1{um endereço}one{# endereço}other{# endereços}}</translation>
 <translation id="6671497123040790595">Configurando o gerenciamento por <ph name="MANAGER" /></translation>
 <translation id="6673391612973410118"><ph name="PRINTER_MAKE_OR_MODEL" /> (USB)</translation>
@@ -5390,7 +5390,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6697492270171225480">Mostrar sugestões de páginas semelhantes quando uma página não for encontrada</translation>
 <translation id="6697690052557311665">Para compartilhar, clique com o botão direito do mouse no app Arquivos e selecione "Compartilhar com o Linux".</translation>
 <translation id="6698810901424468597">Ler e alterar seus dados em <ph name="WEBSITE_1" /> e <ph name="WEBSITE_2" /></translation>
-<translation id="6699883973579689168">Agora você pode gerenciar suas Contas do Google em um só lugar. Os acessos e permissões que você concedeu a apps, sites e extensões no Chrome e no Google Play agora podem ser aplicados a todas as suas contas conectadas. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
+<translation id="6699883973579689168">Agora você pode gerenciar suas Contas do Google em um só lugar. Os acessos e permissões que você concedeu a apps, sites e extensões no Decentr e no Google Play agora podem ser aplicados a todas as suas contas conectadas. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="6700093763382332031">Bloqueio do chip da rede celular</translation>
 <translation id="6700480081846086223">Transmitir <ph name="HOST_NAME" /></translation>
 <translation id="6701535245008341853">Não foi possível obter o perfil.</translation>
@@ -5425,7 +5425,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6740234557573873150"><ph name="FILE_NAME" /> pausado</translation>
 <translation id="6741063444351041466"><ph name="BEGIN_LINK" />Seu administrador<ph name="END_LINK" /> desativou o "Navegação segura"</translation>
 <translation id="6742339027238151589">Acessível ao script</translation>
-<translation id="6742629250739345159">Cria legendas automaticamente para conteúdo de mídia no navegador Chrome. Os áudios e as legendas são processados localmente e nunca deixam o dispositivo.</translation>
+<translation id="6742629250739345159">Cria legendas automaticamente para conteúdo de mídia no navegador Decentr. Os áudios e as legendas são processados localmente e nunca deixam o dispositivo.</translation>
 <translation id="6745592621698551453">Atualizar agora</translation>
 <translation id="6746124502594467657">Mover para baixo</translation>
 <translation id="674632704103926902">Ativar gesto de arrastar com toque</translation>
@@ -5528,7 +5528,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6843264316370513305">Depuração de rede</translation>
 <translation id="6843423766595476978">Ok Google configurado</translation>
 <translation id="6845038076637626672">Abrir maximizado</translation>
-<translation id="6845325883481699275">Ajudar a melhorar a segurança do Chrome</translation>
+<translation id="6845325883481699275">Ajudar a melhorar a segurança do Decentr</translation>
 <translation id="6846178040388691741"><ph name="EXTENSION_NAME" /> quer imprimir <ph name="FILE_NAME" /> com <ph name="PRINTER_NAME" />.</translation>
 <translation id="6847125920277401289">Liberar espaço para continuar</translation>
 <translation id="6848388270925200958">No momento, você tem alguns cartões que só podem ser usados neste dispositivo</translation>
@@ -5662,11 +5662,11 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="6985607387932385770">Impressoras</translation>
 <translation id="6988094684494323731">Iniciando o contêiner Linux</translation>
 <translation id="6988403677482707277">A guia foi movida para o começo da faixa de guias</translation>
-<translation id="6990209147952697693">Chrome clássico</translation>
+<translation id="6990209147952697693">Decentr clássico</translation>
 <translation id="6991665348624301627">Selecione um destino</translation>
 <translation id="6992554835374084304">Ativar a verificação ortográfica aprimorada</translation>
 <translation id="6993000214273684335">Guia removida do grupo sem nome: <ph name="GROUP_CONTENTS" /></translation>
-<translation id="6993050154661569036">Atualizando o navegador Chrome</translation>
+<translation id="6993050154661569036">Atualizando o navegador Decentr</translation>
 <translation id="6994069045767983299">Cores invertidas</translation>
 <translation id="6995899638241819463">Avisar se suas senhas forem expostas em uma violação de dados</translation>
 <translation id="6997642619627518301"><ph name="NAME_PH" />: registro de atividades</translation>
@@ -5676,7 +5676,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7000206553895739324"><ph name="PRINTER_NAME" /> está conectada, mas precisa ser configurada</translation>
 <translation id="7000347579424117903">Inclua a tecla Ctrl, Alt ou Pesquisa</translation>
 <translation id="7001036685275644873">Fazendo backup dos apps e arquivos do Linux</translation>
-<translation id="7002055706763150362">Para configurar o Smart Lock para Chromebook, o Google precisa confirmar que é você: digite sua senha para começar.</translation>
+<translation id="7002055706763150362">Para configurar o Smart Lock para Decentrbook, o Google precisa confirmar que é você: digite sua senha para começar.</translation>
 <translation id="7003339318920871147">Bancos de dados da web</translation>
 <translation id="7003454175711353260">{COUNT,plural, =1{{COUNT} arquivo}one{{COUNT} arquivo}other{{COUNT} arquivos}}</translation>
 <translation id="7003723821785740825">Configure uma forma mais rápida de desbloquear seu dispositivo</translation>
@@ -5758,8 +5758,8 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7077829361966535409">Houve uma falha no carregamento da página de login usando as configurações de proxy atuais. <ph name="GAIA_RELOAD_LINK_START" />Tente fazer login novamente<ph name="GAIA_RELOAD_LINK_END" /> ou use <ph name="PROXY_SETTINGS_LINK_START" />configurações de proxy<ph name="PROXY_SETTINGS_LINK_END" /> diferentes.</translation>
 <translation id="7078120482318506217">Todas as redes</translation>
 <translation id="708060913198414444">C&amp;opiar endereço do áudio</translation>
-<translation id="7085389578340536476">Permitir que o Chrome grave áudio?</translation>
-<translation id="7086672505018440886">Incluir arquivos de registros do Chrome no arquivo.</translation>
+<translation id="7085389578340536476">Permitir que o Decentr grave áudio?</translation>
+<translation id="7086672505018440886">Incluir arquivos de registros do Decentr no arquivo.</translation>
 <translation id="7088434364990739311">A atualização da verificação falhou ao iniciar (código do erro <ph name="ERROR" />).</translation>
 <translation id="7088674813905715446">O administrador pôs este dispositivo no estado de provisionamento cancelado. Para ativar a inscrição do dispositivo, solicite que o administrador o coloque no estado "Pendente".</translation>
 <translation id="7093220653036489319">Respostas rápidas</translation>
@@ -5788,7 +5788,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="711840821796638741">Mostrar favoritos gerenciados</translation>
 <translation id="711902386174337313">Ler a lista dos dispositivos nos quais você fez login</translation>
 <translation id="711985611146095797">Esta página permite gerenciar as Contas do Google conectadas. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
-<translation id="7120762240626567834">O tráfego do navegador Chrome e do Android serão bloqueados, a menos que uma VPN seja conectada</translation>
+<translation id="7120762240626567834">O tráfego do navegador Decentr e do Android serão bloqueados, a menos que uma VPN seja conectada</translation>
 <translation id="7120865473764644444">Não foi possível se conectar ao servidor de sincronização. Tentando novamente…</translation>
 <translation id="7121438501124788993">Modo de desenvolvedor</translation>
 <translation id="7121728544325372695">Traços inteligentes</translation>
@@ -5868,7 +5868,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="722055596168483966">Personalizar os serviços do Google</translation>
 <translation id="722099540765702221">Fonte de carga</translation>
 <translation id="7221869452894271364">Recarregar esta página</translation>
-<translation id="7222204278952406003">O Chrome é seu navegador padrão</translation>
+<translation id="7222204278952406003">O Decentr é seu navegador padrão</translation>
 <translation id="7222232353993864120">Endereço de e-mail</translation>
 <translation id="7225179976675429563">Tipo de rede ausente</translation>
 <translation id="7227458944009118910">Os apps listados abaixo também podem processar links de protocolo. Outros apps solicitarão permissão.</translation>
@@ -5926,7 +5926,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7273110280511444812">Conectado pela última vez em <ph name="DATE" /></translation>
 <translation id="727441411541283857"><ph name="PERCENTAGE" />% - <ph name="TIME" /> até completar a carga</translation>
 <translation id="727952162645687754">Erro no download</translation>
-<translation id="7280041992884344566">Ocorreu um erro enquanto o Chrome estava procurando softwares nocivos</translation>
+<translation id="7280041992884344566">Ocorreu um erro enquanto o Decentr estava procurando softwares nocivos</translation>
 <translation id="7280649757394340890">Configurações da conversão de texto em voz</translation>
 <translation id="7280877790564589615">Permissão solicitada</translation>
 <translation id="7282547042039404307">Suave</translation>
@@ -5947,7 +5947,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7299337219131431707">Ativar a navegação como visitante</translation>
 <translation id="7299515639584427954">Mudar o app padrão dos links compatíveis?</translation>
 <translation id="7301470816294041580">Você pode perguntar "Ok Google, que música é essa?" ou "Ok Google, o que está na minha tela?"</translation>
-<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Este aplicativo pode impedir que o Chrome funcione adequadamente.}one{Este aplicativo pode impedir que o Chrome funcione adequadamente.}other{Estes aplicativos podem impedir que o Chrome funcione adequadamente.}}</translation>
+<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Este aplicativo pode impedir que o Decentr funcione adequadamente.}one{Este aplicativo pode impedir que o Decentr funcione adequadamente.}other{Estes aplicativos podem impedir que o Decentr funcione adequadamente.}}</translation>
 <translation id="7303281435234579599">Algo deu errado ao configurar o modo de demonstração.</translation>
 <translation id="7303900363563182677">Este site foi impedido de ver textos e imagens copiados para a área de transferência</translation>
 <translation id="7304030187361489308">Alto</translation>
@@ -5962,7 +5962,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7324297612904500502">Fórum do Beta</translation>
 <translation id="7325209047678309347">Atolamento de papel</translation>
 <translation id="7326004502692201767">Configurar este <ph name="DEVICE_TYPE" /> para uma criança</translation>
-<translation id="7326025035243649350">Você quer ativar o ChromeVox, o leitor de tela integrado do Chrome OS?</translation>
+<translation id="7326025035243649350">Você quer ativar o DecentrVox, o leitor de tela integrado do Decentr OS?</translation>
 <translation id="7327989755579928735"><ph name="MANAGER" /> desativou a depuração do adb. Não será possível transferir apps por sideload depois de reiniciar o <ph name="DEVICE_TYPE" />.</translation>
 <translation id="7328119182036084494">Salvo em <ph name="WEB_DRIVE" /></translation>
 <translation id="7328867076235380839">Combinação inválida</translation>
@@ -6005,7 +6005,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7366415735885268578">Adicionar um site</translation>
 <translation id="7366909168761621528">Dados de navegação</translation>
 <translation id="7367714965999718019">Gerador de código QR</translation>
-<translation id="7367758267317684635">Você verá seu histórico do Chrome em todos os dispositivos sincronizados</translation>
+<translation id="7367758267317684635">Você verá seu histórico do Decentr em todos os dispositivos sincronizados</translation>
 <translation id="736877393389250337">Não foi possível abrir <ph name="URL" /> no <ph name="ALTERNATIVE_BROWSER_NAME" />. Entre em contato com o administrador do sistema.</translation>
 <translation id="7370592524170198497">Ethernet EAP:</translation>
 <translation id="7371006317849674875">Horário de início</translation>
@@ -6018,7 +6018,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="737728204345822099">Um registro da visita a este site poderá ser mantido na sua chave de segurança.</translation>
 <translation id="7377451353532943397">Continuar bloqueando o acesso ao sensor</translation>
 <translation id="7378611153938412599">Senhas fracas são fáceis de adivinhar. Crie senhas fortes. <ph name="BEGIN_LINK" />Veja mais dicas de segurança<ph name="END_LINK" />.</translation>
-<translation id="73786666777299047">Abrir a Chrome Web Store</translation>
+<translation id="73786666777299047">Abrir a Decentr Web Store</translation>
 <translation id="7380622428988553498">O nome do dispositivo contém caracteres inválidos</translation>
 <translation id="7380768571499464492"><ph name="PRINTER_NAME" /> atualizada</translation>
 <translation id="73843634555824551">Entradas e teclados</translation>
@@ -6080,7 +6080,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7434757724413878233">Aceleração do mouse</translation>
 <translation id="7434969625063495310">Não foi possível adicionar o servidor de impressão. Verifique a configuração do servidor e tente novamente.</translation>
 <translation id="7436921188514130341">Ah, não! Ocorreu um erro durante a renomeação.</translation>
-<translation id="7438495332316988804">O navegador padrão pode ser encontrado ao digitar "Chrome" no acesso rápido.</translation>
+<translation id="7438495332316988804">O navegador padrão pode ser encontrado ao digitar "Decentr" no acesso rápido.</translation>
 <translation id="7439519621174723623">Adicione um nome de dispositivo para continuar</translation>
 <translation id="7441736921018636843">Para mudar essa configuração, <ph name="BEGIN_LINK" />redefina a sincronização<ph name="END_LINK" /> e remova sua senha longa de sincronização</translation>
 <translation id="7441830548568730290">Outros usuários</translation>
@@ -6096,7 +6096,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7454548535253569100">Portal: <ph name="SUBFRAME_SITE" /></translation>
 <translation id="7456142309650173560">dev</translation>
 <translation id="7456847797759667638">Abrir local...</translation>
-<translation id="7457384018036134905">Gerenciar idiomas nas configurações do Chrome OS</translation>
+<translation id="7457384018036134905">Gerenciar idiomas nas configurações do Decentr OS</translation>
 <translation id="7457831169406914076">{COUNT,plural, =1{um link}one{# link}other{# links}}</translation>
 <translation id="7458168200501453431">Usa o mesmo corretor ortográfico da Pesquisa Google. O texto que você digita no navegador é enviado para o Google.</translation>
 <translation id="7458715171471938198">Restaurar apps?</translation>
@@ -6120,7 +6120,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7477748600276493962">Criar código QR para esta página</translation>
 <translation id="7477793887173910789">Controle suas músicas, seus vídeos e muito mais</translation>
 <translation id="7478485216301680444">Não foi possível instalar o aplicativo de quiosque.</translation>
-<translation id="7478623944308207463">Seus apps e suas configurações serão sincronizados em todos os dispositivos Chrome OS conectados à sua Conta do Google. Para ver as opções de sincronização do navegador, acesse as <ph name="LINK_BEGIN" />configurações do Chrome<ph name="LINK_END" />.</translation>
+<translation id="7478623944308207463">Seus apps e suas configurações serão sincronizados em todos os dispositivos Decentr OS conectados à sua Conta do Google. Para ver as opções de sincronização do navegador, acesse as <ph name="LINK_BEGIN" />configurações do Decentr<ph name="LINK_END" />.</translation>
 <translation id="7478658909253570368">Não permitir que os sites se conectem a portas seriais</translation>
 <translation id="7479221278376295180">Visão geral do uso do armazenamento</translation>
 <translation id="747981547666531654">Conectado aos dispositivos Bluetooth chamados <ph name="FIRST_DEVICE" /> e <ph name="SECOND_DEVICE" /></translation>
@@ -6182,7 +6182,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="754207240458482646">Sincronizada com outros dispositivos na sua conta. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
 <translation id="7543104066686362383">Ativar os recursos de depuração neste dispositivo <ph name="IDS_SHORT_PRODUCT_NAME" /></translation>
 <translation id="7543525346216957623">Peça para seu responsável</translation>
-<translation id="7545466883021407599">Não foi possível se conectar ao servidor. Verifique sua conexão de rede e tente novamente. Se ainda assim tiver problemas, reinicie o Chromebook. Código do erro: <ph name="ERROR_CODE" />.</translation>
+<translation id="7545466883021407599">Não foi possível se conectar ao servidor. Verifique sua conexão de rede e tente novamente. Se ainda assim tiver problemas, reinicie o Decentrbook. Código do erro: <ph name="ERROR_CODE" />.</translation>
 <translation id="7547317915858803630">Aviso: as configurações do <ph name="PRODUCT_NAME" /> são armazenadas em um disco de rede. Isso pode acarretar lentidão, falhas ou até mesmo perda de dados.</translation>
 <translation id="7548856833046333824">Margarita</translation>
 <translation id="7550830279652415241">favoritos_<ph name="DATESTAMP" />.html</translation>
@@ -6206,7 +6206,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7564847347806291057">Encerrar processo</translation>
 <translation id="756503097602602175">Acesse <ph name="LINK_BEGIN" />Configurações<ph name="LINK_END" /> para gerenciar as Contas do Google conectadas. As permissões concedidas a sites e apps podem ser aplicadas a todas as contas. Se você não quer que sites ou apps tenham acesso às informações da sua conta, faça login no <ph name="DEVICE_TYPE" /> como visitante ou navegue na Web usando uma <ph name="LINK_2_BEGIN" />janela anônima<ph name="LINK_2_END" />.</translation>
 <translation id="7566118625369982896">Gerenciar links do app Play</translation>
-<translation id="756809126120519699">Dados do Chrome apagados</translation>
+<translation id="756809126120519699">Dados do Decentr apagados</translation>
 <translation id="756876171895853918">Personalizar avatar</translation>
 <translation id="7568790562536448087">Atualização</translation>
 <translation id="7569983096843329377">Preto</translation>
@@ -6224,7 +6224,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7582582252461552277">Preferir esta rede</translation>
 <translation id="7582844466922312471">Dados móveis</translation>
 <translation id="7583948862126372804">Contagem</translation>
-<translation id="7586498138629385861">O Decentr continuará funcionando enquanto os aplicativos do Chrome estiverem abertos.</translation>
+<translation id="7586498138629385861">O Decentr continuará funcionando enquanto os aplicativos do Decentr estiverem abertos.</translation>
 <translation id="7589461650300748890">Ei, tenha cuidado.</translation>
 <translation id="7593653750169415785">Bloqueado automaticamente porque você recusou as notificações algumas vezes</translation>
 <translation id="7594725637786616550">Use a função Powerwash para redefinir seu <ph name="DEVICE_TYPE" /> para as condições de fábrica.</translation>
@@ -6266,7 +6266,7 @@ Não exponha nenhuma informação confidencial.</translation>
 <translation id="7631205654593498032">Ao conectar os dispositivos, você concorda que seu <ph name="DEVICE_TYPE" /> pode:</translation>
 <translation id="7631887513477658702">&amp;Sempre abrir arquivos deste tipo</translation>
 <translation id="7632948528260659758">Os seguintes aplicativos de quiosque tiveram falha na atualização:</translation>
-<translation id="7633724038415831385">Esta é a única vez em que você precisará esperar uma atualização. No Chromebook, as atualizações de software acontecem em segundo plano.</translation>
+<translation id="7633724038415831385">Esta é a única vez em que você precisará esperar uma atualização. No Decentrbook, as atualizações de software acontecem em segundo plano.</translation>
 <translation id="7634566076839829401">Ocorreu um erro. Tente novamente.</translation>
 <translation id="7635048370253485243">Fixada pelo administrador</translation>
 <translation id="763632859238619983">Não permitir que nenhum site instale gerenciadores de pagamento</translation>
@@ -6431,7 +6431,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7785471469930192436">Veja as instruções do seu mecanismo de pesquisa para excluir o histórico de pesquisa, se aplicável</translation>
 <translation id="7786889348652477777">&amp;Recarregar aplicativo</translation>
 <translation id="7787308148023287649">Exibir em outra tela</translation>
-<translation id="7788298548579301890">Outro programa no seu computador adicionou um app que pode alterar a forma como o Chrome funciona.
+<translation id="7788298548579301890">Outro programa no seu computador adicionou um app que pode alterar a forma como o Decentr funciona.
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -6449,7 +6449,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7799817062559422778">Modo claro</translation>
 <translation id="7800159967992492578">Ativar ou desativar a pesquisa lateral. Pesquisa lateral ativada.</translation>
 <translation id="7800518121066352902">Girar no s&amp;entido anti-horário</translation>
-<translation id="7801679634091975683">As mudanças que você fizer aqui serão aplicadas apenas ao navegador Chrome Lacros. Abra o navegador Chrome e acesse as configurações para fazer mudanças nelas.</translation>
+<translation id="7801679634091975683">As mudanças que você fizer aqui serão aplicadas apenas ao navegador Decentr Lacros. Abra o navegador Decentr e acesse as configurações para fazer mudanças nelas.</translation>
 <translation id="780301667611848630">Não</translation>
 <translation id="7804072833593604762">Guia fechada</translation>
 <translation id="7805768142964895445">Status</translation>
@@ -6463,7 +6463,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7815680994978050279">Download perigoso bloqueado</translation>
 <translation id="7817361223956157679">O teclado na tela ainda não funciona com aplicativos do Linux</translation>
 <translation id="7818135753970109980">Novo tema adicionado (<ph name="EXTENSION_NAME" />)</translation>
-<translation id="7819992334107904369">Sincronização do Chrome</translation>
+<translation id="7819992334107904369">Sincronização do Decentr</translation>
 <translation id="7820561748632634942">Atribuir mais interruptores?</translation>
 <translation id="782057141565633384">C&amp;opiar endereço do vídeo</translation>
 <translation id="7822187537422052256">Tem certeza de que quer remover esse endereço?</translation>
@@ -6473,7 +6473,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7826254698725248775">Conflito no identificador de dispositivo.</translation>
 <translation id="7826790948326204519"><ph name="BEGIN_H3" />Recursos de depuração<ph name="END_H3" />
     <ph name="BR" />
-    Você pode ativar os recursos de depuração no seu dispositivo Chrome OS para instalar e testar códigos personalizados nele. Isso permitirá:<ph name="BR" />
+    Você pode ativar os recursos de depuração no seu dispositivo Decentr OS para instalar e testar códigos personalizados nele. Isso permitirá:<ph name="BR" />
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />remover a verificação rootfs para modificar arquivos do SO;
       <ph name="LIST_ITEM" />ativar o acesso SSH ao dispositivo usando chaves de teste padrão para usar ferramentas como <ph name="BEGIN_CODE" />"cros flash"<ph name="END_CODE" /> e acessar o dispositivo;
@@ -6481,7 +6481,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
       <ph name="LIST_ITEM" />definir a senha de login da raiz do dispositivo e do sistema com um valor personalizado para realizar o SSH manualmente no dispositivo.
     <ph name="END_LIST" />
     <ph name="BR" />
-    Depois que os recursos de depuração forem ativados, a maioria deles continuará ativada mesmo depois da execução de um Powerwash ou da exclusão permanente dos dados de um dispositivo gerenciado por empresa. Para desativar totalmente todos os recursos de depuração, complete o processo de recuperação do Chrome OS (https://support.google.com/chromebook/answer/1080595).
+    Depois que os recursos de depuração forem ativados, a maioria deles continuará ativada mesmo depois da execução de um Powerwash ou da exclusão permanente dos dados de um dispositivo gerenciado por empresa. Para desativar totalmente todos os recursos de depuração, complete o processo de recuperação do Decentr OS (https://support.google.com/chromebook/answer/1080595).
     <ph name="BR" />
     <ph name="BR" />
     Para mais informações sobre os recursos de depuração, acesse:<ph name="BR" />
@@ -6502,7 +6502,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7839051173341654115">Ver/fazer backup de mídia</translation>
 <translation id="7839192898639727867">ID da chave do requerente do certificado</translation>
 <translation id="7841134249932030522">Ativar o modo escuro</translation>
-<translation id="7842692330619197998">Acesse g.co/ChromeEnterpriseAccount se precisar criar uma conta nova.</translation>
+<translation id="7842692330619197998">Acesse g.co/DecentrEnterpriseAccount se precisar criar uma conta nova.</translation>
 <translation id="784273751836026224">Desinstalar Linux</translation>
 <translation id="7843786652787044762">Fazer login no <ph name="WEB_DRIVE" /></translation>
 <translation id="7844992432319478437">Atualizando diff</translation>
@@ -6532,11 +6532,11 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7871109039747854576">Usar as teclas <ph name="COMMA" /> e <ph name="PERIOD" /> para localizar uma lista de candidatos</translation>
 <translation id="787268756490971083">Desativado</translation>
 <translation id="7872758299142009420">Excesso de grupos aninhados: <ph name="ERROR_LINE" /></translation>
-<translation id="7874257161694977650">Planos de fundo do Chrome</translation>
+<translation id="7874257161694977650">Planos de fundo do Decentr</translation>
 <translation id="7876027585589532670">Não é possível editar o atalho</translation>
 <translation id="7877451762676714207">Erro de servidor desconhecido. Tente novamente ou entre em contato com o administrador do servidor.</translation>
 <translation id="7879631849810108578">Atalho definido: <ph name="IDS_SHORT_SET_COMMAND" /></translation>
-<translation id="7880685873361171388">Quando esse recurso estiver ativado, o Chrome usará seu histórico de navegação por sete dias para determinar seu grupo ou "coorte". Os anunciantes podem selecionar anúncios para o grupo. Seu histórico de navegação é armazenado de forma particular no dispositivo. Este teste está disponível apenas em
+<translation id="7880685873361171388">Quando esse recurso estiver ativado, o Decentr usará seu histórico de navegação por sete dias para determinar seu grupo ou "coorte". Os anunciantes podem selecionar anúncios para o grupo. Seu histórico de navegação é armazenado de forma particular no dispositivo. Este teste está disponível apenas em
     <ph name="BEGIN_LINK" />algumas regiões<ph name="END_LINK" />.</translation>
 <translation id="7880823633812189969">Os dados locais serão excluídos quando você reiniciar</translation>
 <translation id="7881066108824108340">DNS</translation>
@@ -6558,7 +6558,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7898725031477653577">Sempre traduzir do</translation>
 <translation id="790040513076446191">Manipular as configurações relacionadas à privacidade</translation>
 <translation id="7901405293566323524">Phone Hub</translation>
-<translation id="7901914889562552258">Métricas de uso aprimoradas para o Chrome</translation>
+<translation id="7901914889562552258">Métricas de uso aprimoradas para o Decentr</translation>
 <translation id="7903345046358933331">A página deixou de responder. Espere até ela voltar a responder ou feche-a.</translation>
 <translation id="7903742244674067440">Você tem certificados no arquivo que identificam estas autoridades de certificação</translation>
 <translation id="7903925330883316394">Utilitário: <ph name="UTILITY_TYPE" /></translation>
@@ -6636,7 +6636,7 @@ Pressione um interruptor ou tecla atribuídos para remover a atribuição.</tran
 <translation id="7974566588408714340">Tentar novamente usando <ph name="EXTENSIONNAME" /></translation>
 <translation id="7974713334845253259">Cor padrão</translation>
 <translation id="7974936243149753750">Overscan</translation>
-<translation id="7975504106303186033">Inscreva este dispositivo Chrome Education em uma conta de ensino. Para criar uma nova conta, acesse g.co/workspace/edusignup.</translation>
+<translation id="7975504106303186033">Inscreva este dispositivo Decentr Education em uma conta de ensino. Para criar uma nova conta, acesse g.co/workspace/edusignup.</translation>
 <translation id="7978412674231730200">Chave privada</translation>
 <translation id="7978450511781612192">Isso desconectará você das suas Contas do Google. Seus favoritos, histórico, senhas e outras configurações não serão mais sincronizados.</translation>
 <translation id="7980084013673500153">Código do recurso: <ph name="ASSET_ID" /></translation>
@@ -6666,7 +6666,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8008356846765065031">Internet desconectada. Verifique sua conexão com a Internet.</translation>
 <translation id="8009225694047762179">Gerenciar senha</translation>
 <translation id="8012647001091218357">Não foi possível contatar seus pais. Tente novamente.</translation>
-<translation id="8013993649590906847">Se uma imagem não tiver uma descrição útil, o Chrome tentará fornecer uma para você. As imagens serão enviadas ao Google para a criação de descrições.</translation>
+<translation id="8013993649590906847">Se uma imagem não tiver uma descrição útil, o Decentr tentará fornecer uma para você. As imagens serão enviadas ao Google para a criação de descrições.</translation>
 <translation id="8014154204619229810">O atualizador está sendo executado no momento. Aguarde um minuto e atualize para verificar novamente.</translation>
 <translation id="8014206674403687691">Não foi possível reverter o produto <ph name="IDS_SHORT_PRODUCT_NAME" /> para a versão anteriormente instalada. Tente executar novamente o Powerwash no seu dispositivo.</translation>
 <translation id="8015163965024115122">O limite no app <ph name="IDS_SHORT_PRODUCT_NAME" /> ou <ph name="IDS_SHORT_PRODUCT_NAME" /> definido pelo seu pai/mãe chegou ao fim.</translation>
@@ -6757,7 +6757,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8096740438774030488">Suspensão na bateria</translation>
 <translation id="80974698889265265">Os PINs não correspondem</translation>
 <translation id="809792523045608178">O <ph name="IDS_SHORT_PRODUCT_NAME" /> está usando as configurações de proxy de uma extensão</translation>
-<translation id="8097959162767603171">Primeiro, o administrador precisa aceitar os Termos de Serviço na lista de dispositivos Chrome do Admin Console.</translation>
+<translation id="8097959162767603171">Primeiro, o administrador precisa aceitar os Termos de Serviço na lista de dispositivos Decentr do Admin Console.</translation>
 <translation id="8098156986344908134">Instalar o <ph name="DEVICE_OS" /> e limpar o disco rígido?</translation>
 <translation id="8098616321286360457">Conexão de rede necessária</translation>
 <translation id="810068641062493918"><ph name="LANGUAGE" /> selecionado. Pressione "Pesquisar" junto à barra de espaço para desmarcar.</translation>
@@ -6773,11 +6773,11 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8109109153262930486">Avatar padrão</translation>
 <translation id="8110489095782891123">Fazendo o download da lista de contatos…</translation>
 <translation id="8113476325385351118">Continuar impedindo que este site tenha controle total de dispositivos MIDI</translation>
-<translation id="8114199541033039755">Navegue para a tela inicial, volte e troque de app usando botões no modo tablet. Função ativada quando o ChromeVox ou os cliques automáticos estão funcionando.</translation>
+<translation id="8114199541033039755">Navegue para a tela inicial, volte e troque de app usando botões no modo tablet. Função ativada quando o DecentrVox ou os cliques automáticos estão funcionando.</translation>
 <translation id="8115139559594092084">Do seu Google Drive</translation>
 <translation id="8116972784401310538">&amp;Gerenciador de favoritos</translation>
 <translation id="8117752106453549166">O administrador está configurando o Linux. A configuração levará alguns minutos.</translation>
-<translation id="8118362518458010043">Desativada pelo Chrome. Essa extensão pode não ser segura.</translation>
+<translation id="8118362518458010043">Desativada pelo Decentr. Essa extensão pode não ser segura.</translation>
 <translation id="8118488170956489476">Seu <ph name="BEGIN_LINK" />navegador é gerenciado<ph name="END_LINK" /> pela sua organização</translation>
 <translation id="8118515372935001629">Taxa de atualização da tela</translation>
 <translation id="8118860139461251237">Gerenciar seus downloads</translation>
@@ -6822,7 +6822,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="816055135686411707">Erro nas configurações de confiança do certificado</translation>
 <translation id="8160775796528709999">Ative o recurso Legenda instantânea nas configurações para exibir legendas para seus áudios e vídeos</translation>
 <translation id="816095449251911490"><ph name="SPEED" /> - <ph name="RECEIVED_AMOUNT" />, <ph name="TIME_REMAINING" /></translation>
-<translation id="81610453212785426">Com o <ph name="BEGIN_LINK" />Sandbox de privacidade<ph name="END_LINK" />, o Chrome está desenvolvendo novas tecnologias de proteção contra mecanismos de rastreamento entre sites, preservando uma Internet livre.</translation>
+<translation id="81610453212785426">Com o <ph name="BEGIN_LINK" />Sandbox de privacidade<ph name="END_LINK" />, o Decentr está desenvolvendo novas tecnologias de proteção contra mecanismos de rastreamento entre sites, preservando uma Internet livre.</translation>
 <translation id="8161293209665121583">Modo leitor para páginas da Web</translation>
 <translation id="8162984717805647492">{NUM_TABS,plural, =1{Mover guia para uma nova janela}one{Mover guia para uma nova janela}other{Mover guias para uma nova janela}}</translation>
 <translation id="8165997195302308593">Encaminhamento de portas do Crostini</translation>
@@ -7080,7 +7080,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8457451314607652708">Importar favoritos</translation>
 <translation id="8458341576712814616">Atalho</translation>
 <translation id="8458627787104127436">Abrir todos (<ph name="URL_COUNT" />) em uma nova janela</translation>
-<translation id="8460490661223303637">Para economizar memória, o Chrome removeu parte do conteúdo</translation>
+<translation id="8460490661223303637">Para economizar memória, o Decentr removeu parte do conteúdo</translation>
 <translation id="8460932807646981183">Gerenciar mecanismos de pesquisa e pesquisas em sites</translation>
 <translation id="84613761564611563">Interface de usuário de configuração de rede solicitada. Aguarde...</translation>
 <translation id="8461914792118322307">Proxy</translation>
@@ -7118,7 +7118,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8496717697661868878">Executar este plug-in</translation>
 <translation id="8497219075884839166">Utilitários do Windows</translation>
 <translation id="8498214519255567734">Facilita olhar para a tela ou ler com pouca luz</translation>
-<translation id="8498395510292172881">Continuar lendo no Chrome</translation>
+<translation id="8498395510292172881">Continuar lendo no Decentr</translation>
 <translation id="8499083585497694743">Ativar microfone</translation>
 <translation id="8502536196501630039">Para usar apps do Google Play, primeiro você precisa restaurar seus apps. Alguns dados podem ter sido perdidos.</translation>
 <translation id="8503813439785031346">Nome de usuário</translation>
@@ -7159,7 +7159,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8546930481464505581">Personalizar barra de toque</translation>
 <translation id="8547013269961688403">Ativar lupa de tela cheia</translation>
 <translation id="85486688517848470">Mantenha pressionada a tecla "Pesquisar" para alternar o comportamento das teclas de função</translation>
-<translation id="8549316893834449916">Para fazer login no Chromebook, você usará a mesma Conta do Google usada no Gmail, Drive, YouTube e outros serviços.</translation>
+<translation id="8549316893834449916">Para fazer login no Decentrbook, você usará a mesma Conta do Google usada no Gmail, Drive, YouTube e outros serviços.</translation>
 <translation id="8551388862522347954">Licenças</translation>
 <translation id="8551588720239073785">Configurações de data e hora</translation>
 <translation id="8553342806078037065">Gerenciar outras pessoas</translation>
@@ -7212,7 +7212,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8619803522055190423">Sombra projetada</translation>
 <translation id="8619892228487928601"><ph name="CERTIFICATE_NAME" />: <ph name="ERROR" /></translation>
 <translation id="8620436878122366504">Seus responsáveis ainda não o aprovaram</translation>
-<translation id="8621866727807194849">Há um software nocivo no seu computador. O Chrome está removendo-o, restaurando suas configurações e desativando as extensões. Assim, o navegador voltará a funcionar normalmente.</translation>
+<translation id="8621866727807194849">Há um software nocivo no seu computador. O Decentr está removendo-o, restaurando suas configurações e desativando as extensões. Assim, o navegador voltará a funcionar normalmente.</translation>
 <translation id="8621979332865976405">Compartilhar toda a tela</translation>
 <translation id="8624354461147303341">Ver descontos</translation>
 <translation id="8624944202475729958"><ph name="PROFILE_NAME" />: <ph name="ERROR_DESCRIPTION" /></translation>
@@ -7229,7 +7229,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8635628933471165173">Atualizando…</translation>
 <translation id="8636284842992792762">Iniciando extensões…</translation>
 <translation id="8636500887554457830">Não permitir que os sites enviem pop-ups ou usem redirecionamentos</translation>
-<translation id="8637542770513281060">Seu computador possui um módulo de segurança, que é utilizado para implementar muitos recursos de segurança importantes no Chrome OS. Visite a Central de Ajuda do Chromebook para saber mais: https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">Seu computador possui um módulo de segurança, que é utilizado para implementar muitos recursos de segurança importantes no Decentr OS. Visite a Central de Ajuda do Decentrbook para saber mais: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">A atualização do sistema está disponível. Preparando para fazer download...</translation>
 <translation id="8639047128869322042">Procurando softwares perigosos…</translation>
 <translation id="8639635302972078117">Envie dados de uso e diagnóstico. No momento, este dispositivo está enviando automaticamente ao Google dados de diagnóstico, de uso de apps e do dispositivo. Eles não serão usados para identificar a criança e ajudarão a melhorar o sistema, a estabilidade de apps e muito mais. Alguns dados agregados também ajudarão os apps do Google e nossos parceiros, como os desenvolvedores Android. Se a configuração "Atividade na Web e de apps adicional" estiver ativada para a criança, esses dados poderão ser salvos na Conta do Google dela.</translation>
@@ -7285,7 +7285,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8678582529642151449">as guias não são encolhidas</translation>
 <translation id="8678933587484842200">Como você gostaria que este app fosse iniciado?</translation>
 <translation id="8680251145628383637">Faça login para ter acesso aos seus favoritos, histórico, senhas e outras configurações em todos os seus dispositivos. Você será conectado automaticamente aos seus serviços do Google.</translation>
-<translation id="8681614230122836773">O Chrome encontrou um software nocivo no seu computador</translation>
+<translation id="8681614230122836773">O Decentr encontrou um software nocivo no seu computador</translation>
 <translation id="8682730193597992579">A impressora <ph name="PRINTER_NAME" /> está conectada e pronta</translation>
 <translation id="8683081248374354009">Redefinir grupo</translation>
 <translation id="8683526617475118045">Quais são as vantagens</translation>
@@ -7310,7 +7310,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8712637175834984815">Entendi</translation>
 <translation id="8713570323158206935">Enviar <ph name="BEGIN_LINK1" />informações do sistema<ph name="END_LINK1" /></translation>
 <translation id="8714838604780058252">Gráficos de segundo plano</translation>
-<translation id="871515167518607670">Selecione um dispositivo. Em seguida, para ver a página, abra o Chrome no dispositivo selecionado.</translation>
+<translation id="871515167518607670">Selecione um dispositivo. Em seguida, para ver a página, abra o Decentr no dispositivo selecionado.</translation>
 <translation id="8715480913140015283">A guia em segundo plano está usando sua câmera</translation>
 <translation id="8716931980467311658">Excluir todos os aplicativos e dados do Linux da pasta de arquivos do Linux deste <ph name="DEVICE_TYPE" />?</translation>
 <translation id="8717864919010420084">Copiar link</translation>
@@ -7343,7 +7343,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8737709691285775803">Shill</translation>
 <translation id="8737914367566358838">Escolha o idioma da tradução da página</translation>
 <translation id="8737916108453753541">Os URLs são compartilhados com o Google para que possamos entender o comportamento de navegação</translation>
-<translation id="8740247629089392745">Você pode entregar este Chromebook para <ph name="SUPERVISED_USER_NAME" />. A configuração está quase concluída, então a criança poderá conhecer o dispositivo.</translation>
+<translation id="8740247629089392745">Você pode entregar este Decentrbook para <ph name="SUPERVISED_USER_NAME" />. A configuração está quase concluída, então a criança poderá conhecer o dispositivo.</translation>
 <translation id="8741944563400125534">Guia de configuração do acesso com interruptor</translation>
 <translation id="8742998548129056176">Estas são informações gerais sobre seu dispositivo e a forma como ele é usado (como nível da bateria, atividade de apps e do sistema e erros). Esses dados serão usados para melhorar o Android, e algumas informações agregadas também ajudarão os apps e parceiros do Google, como os desenvolvedores Android, a melhorar os apps e produtos deles.</translation>
 <translation id="8746654918629346731">Você já solicitou "<ph name="EXTENSION_NAME" />"</translation>
@@ -7372,7 +7372,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8762886931014513155">O <ph name="DEVICE_TYPE" /> precisa de uma atualização</translation>
 <translation id="8763927697961133303">Dispositivo USB</translation>
 <translation id="87646919272181953">Álbum do Google Fotos</translation>
-<translation id="8767621466733104912">Atualizar automaticamente o Chrome para todos os usuários</translation>
+<translation id="8767621466733104912">Atualizar automaticamente o Decentr para todos os usuários</translation>
 <translation id="8770406935328356739">Diretório raiz da extensão</translation>
 <translation id="8771300903067484968">O plano de fundo da página inicial foi redefinido para o plano de fundo padrão.</translation>
 <translation id="8773302562181397928">Salvar <ph name="PRINTER_NAME" /></translation>
@@ -7461,7 +7461,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8850251000316748990">Ver mais…</translation>
 <translation id="885246833287407341">Argumentos de função da API</translation>
 <translation id="8853586775156634952">O cartão será salvo apenas neste dispositivo</translation>
-<translation id="8855977033756560989">Esse dispositivo Chromebook Enterprise vem com o Upgrade do Chrome Enterprise Para aproveitar ao máximo os recursos corporativos, inscreva esse dispositivo com uma conta de administrador do Google.</translation>
+<translation id="8855977033756560989">Esse dispositivo Decentrbook Enterprise vem com o Upgrade do Decentr Enterprise Para aproveitar ao máximo os recursos corporativos, inscreva esse dispositivo com uma conta de administrador do Google.</translation>
 <translation id="8856028055086294840">Restaurar apps e páginas</translation>
 <translation id="885701979325669005">Armazenamento</translation>
 <translation id="8859057652521303089">Selecione o seu idioma:</translation>
@@ -7517,7 +7517,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8903263458134414071">Selecione uma conta para fazer login</translation>
 <translation id="890616557918890486">Alterar origem</translation>
 <translation id="8907787635362884532">Editor: <ph name="APP_ORIGIN" /></translation>
-<translation id="8907906903932240086">O Chrome pode verificar o computador em busca de softwares nocivos</translation>
+<translation id="8907906903932240086">O Decentr pode verificar o computador em busca de softwares nocivos</translation>
 <translation id="8909298138148012791">O app <ph name="APP_NAME" /> foi desinstalado</translation>
 <translation id="8909833622202089127">O site está rastreando seu local</translation>
 <translation id="8910222113987937043">As alterações feitas nos seus favoritos, histórico, senhas e outras configurações não serão mais sincronizadas com sua Conta do Google. No entanto, os dados já existentes permanecerão armazenados na sua conta e será possível gerenciá-los no <ph name="BEGIN_LINK" />Painel do Google<ph name="END_LINK" />.</translation>
@@ -7597,7 +7597,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="8986362086234534611">Esquecer</translation>
 <translation id="8986494364107987395">Envia estatísticas de uso e relatórios de erros ao Google automaticamente</translation>
 <translation id="8987927404178983737">Mês</translation>
-<translation id="8988879467270412492">Você quer ativar o ChromeVox, o leitor de tela integrado do Chrome OS? Se for o caso, aperte as duas teclas de volume e as mantenha pressionadas por cinco segundos.</translation>
+<translation id="8988879467270412492">Você quer ativar o DecentrVox, o leitor de tela integrado do Decentr OS? Se for o caso, aperte as duas teclas de volume e as mantenha pressionadas por cinco segundos.</translation>
 <translation id="8991520179165052608">O site pode usar seu microfone</translation>
 <translation id="899384117894244799">Remover usuário restrito</translation>
 <translation id="899403249577094719">URL base do certificado do Netscape</translation>
@@ -7747,7 +7747,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="913411432238655354">Restaurar apps na inicialização</translation>
 <translation id="9137013805542155359">Mostrar original</translation>
 <translation id="9137157311132182254">Mecanismo de pesquisa preferido</translation>
-<translation id="9137248913990643158">Inicie e faça login no Chrome antes de usar este app.</translation>
+<translation id="9137248913990643158">Inicie e faça login no Decentr antes de usar este app.</translation>
 <translation id="9137916601698928395">Abrir link como <ph name="USER" /></translation>
 <translation id="9138978632494473300">Adiciona atalhos aos seguintes lugares:</translation>
 <translation id="9139258866388561662">Faça login no <ph name="WEB_DRIVE" /> para concluir o download</translation>
@@ -7773,10 +7773,10 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />Verifique os cabos de rede, o modem e o roteador.
       <ph name="LIST_ITEM" />Reconecte-se ao Wi-Fi.
-      <ph name="LIST_ITEM" />Execute o Chrome Connectivity Diagnostics.
+      <ph name="LIST_ITEM" />Execute o Decentr Connectivity Diagnostics.
     <ph name="END_LIST" /></translation>
 <translation id="916607977885256133">Picture-in-picture</translation>
-<translation id="9166813363879986425">Suas preferências e atividades salvas estarão prontas em qualquer dispositivo Chrome OS quando você fizer login na Conta do Google. Nas Configurações, você pode escolher o que é sincronizado.</translation>
+<translation id="9166813363879986425">Suas preferências e atividades salvas estarão prontas em qualquer dispositivo Decentr OS quando você fizer login na Conta do Google. Nas Configurações, você pode escolher o que é sincronizado.</translation>
 <translation id="9167063903968449027">Mostrar Lista de leitura</translation>
 <translation id="9167450455589251456">O perfil não é compatível</translation>
 <translation id="9168436347345867845">Mais tarde</translation>
@@ -7830,7 +7830,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="93343527085570547">Acesse a <ph name="BEGIN_LINK1" />página de Ajuda Jurídica<ph name="END_LINK1" /> para solicitar alterações de conteúdo por motivos legais. Algumas informações podem ser enviadas ao Google, e elas serão usadas para resolver problemas técnicos e melhorar nossos serviços, de acordo com nossa <ph name="BEGIN_LINK2" />Política de Privacidade<ph name="END_LINK2" /> e nossos <ph name="BEGIN_LINK3" />Termos de Serviço<ph name="END_LINK3" />.</translation>
 <translation id="93393615658292258">Somente senha</translation>
 <translation id="934244546219308557">Dê um nome para este grupo</translation>
-<translation id="934503638756687833">Itens que não estão listados aqui também serão removidos, se necessário. Saiba mais sobre a &lt;a href="<ph name="URL" />"&gt;proteção contra softwares indesejados&lt;/a&gt; no artigo sobre privacidade do Chrome.</translation>
+<translation id="934503638756687833">Itens que não estão listados aqui também serão removidos, se necessário. Saiba mais sobre a &lt;a href="<ph name="URL" />"&gt;proteção contra softwares indesejados&lt;/a&gt; no artigo sobre privacidade do Decentr.</translation>
 <translation id="93480724622239549">Bug ou erro</translation>
 <translation id="935490618240037774">Seus favoritos, histórico, senhas e outras configurações serão sincronizados com sua Conta do Google para que seja possível usá-los em todos os seus dispositivos.</translation>
 <translation id="935854577147268200">O smartphone do Smart Lock mudou. Digite sua senha para atualizar o Smart Lock. Na próxima vez, o smartphone desbloqueará seu <ph name="DEVICE_TYPE" />. É possível desativar o Smart Lock nas configurações</translation>
@@ -7842,7 +7842,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="939252827960237676">Falha ao salvar a captura de tela</translation>
 <translation id="939598580284253335">Inserir senha</translation>
 <translation id="939736085109172342">Nova pasta</translation>
-<translation id="942532530371314860">O app <ph name="APP_NAME" /> está compartilhando áudio e uma guia do Chrome.</translation>
+<translation id="942532530371314860">O app <ph name="APP_NAME" /> está compartilhando áudio e uma guia do Decentr.</translation>
 <translation id="945522503751344254">Enviar comentários</translation>
 <translation id="947329552760389097">&amp;Inspecionar elementos</translation>
 <translation id="947526284350604411">Sua resposta</translation>
@@ -7854,7 +7854,7 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="957960681186851048">Este site tentou fazer o download de vários arquivos automaticamente</translation>
 <translation id="960987915827980018">Cerca de 1 hora restante</translation>
 <translation id="962802172452141067">Árvore de pastas de favoritos</translation>
-<translation id="964286338916298286">Seu administrador de TI desativou os Goodies do Chrome para seu dispositivo.</translation>
+<translation id="964286338916298286">Seu administrador de TI desativou os Goodies do Decentr para seu dispositivo.</translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Aplicativo}one{Aplicativo}other{Aplicativos}}</translation>
 <translation id="964790508619473209">Disposição da tela</translation>
 <translation id="965211523698323809">Envie e receba mensagens de texto no <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Saiba mais<ph name="LINK_END" /></translation>
@@ -7889,12 +7889,12 @@ Mantenha a sua chave de arquivo em um local seguro. Você precisará dela para c
 <translation id="988978206646512040">A senha longa não pode ficar em branco</translation>
 <translation id="992032470292211616">Extensões, aplicativos e temas podem danificar seu dispositivo. Você quer mesmo continuar?</translation>
 <translation id="992256792861109788">Rosa</translation>
-<translation id="992592832486024913">Desativar ChromeVox (feedback falado)</translation>
+<translation id="992592832486024913">Desativar DecentrVox (feedback falado)</translation>
 <translation id="992778845837390402">O backup do Linux está em andamento</translation>
 <translation id="993540765962421562">Instalação em andamento</translation>
 <translation id="994289308992179865">&amp;Repetir</translation>
 <translation id="995782501881226248">YouTube</translation>
 <translation id="996250603853062861">Estabelecendo conexão segura...</translation>
-<translation id="99731366405731005">Ative a <ph name="LINK1_BEGIN" />Sincronização do Chrome<ph name="LINK1_END" /> para usar o recurso Sincronizar Wi-Fi. <ph name="LINK2_BEGIN" />Saiba mais<ph name="LINK2_END" /></translation>
+<translation id="99731366405731005">Ative a <ph name="LINK1_BEGIN" />Sincronização do Decentr<ph name="LINK1_END" /> para usar o recurso Sincronizar Wi-Fi. <ph name="LINK2_BEGIN" />Saiba mais<ph name="LINK2_END" /></translation>
 <translation id="998747458861718449">I&amp;nspecionar</translation>
 </translationbundle>

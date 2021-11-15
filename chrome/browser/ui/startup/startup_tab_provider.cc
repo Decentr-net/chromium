@@ -376,7 +376,7 @@ StartupTabs StartupTabProviderImpl::GetNewFeaturesTabsForState(
     bool whats_new_enabled) {
   StartupTabs tabs;
   if (whats_new_enabled) {
-    tabs.emplace_back(GURL(kCharonWelcome), false);
+   
   }
   return tabs;
 }

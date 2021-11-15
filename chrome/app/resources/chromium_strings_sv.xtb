@@ -71,7 +71,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
 <translation id="3283186697780795848">Decentr-version <ph name="PRODUCT_VERSION" /> har installerats</translation>
-<translation id="328888136576916638">Googles API-nycklar saknas. Vissa funktioner i Google Decentr kommer att vara inaktiverade.</translation>
+<translation id="328888136576916638">Googles API-nycklar saknas. Vissa funktioner i Decentr kommer att vara inaktiverade.</translation>
 <translation id="3296368748942286671">Fortsätt köra bakgrundsappar när Decentr avslutas</translation>
 <translation id="331951419404882060">Det gick inte att synkronisera data med Decentr OS på grund av ett inloggningsfel.</translation>
 <translation id="3349211344363550267">Du bör varken ladda ned eller öppna den här filen</translation>
@@ -116,7 +116,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="4665829708273112819">Varning! Decentr kan inte förhindra att tillägg registrerar din webbhistorik. Om du vill inaktivera det här tillägget i inkognitoläge avmarkerar du det här alternativet.</translation>
 <translation id="4677944499843243528">Profilen verkar användas av en annan Decentr-process (<ph name="PROCESS_ID" />) på en annan dator (<ph name="HOST_NAME" />). Profilen har låsts så att den inte används på otillåtet sätt. Om du är säker på att profilen inte används i några andra processer låser du upp profilen och startar om Decentr.</translation>
 <translation id="469338717132742108">Få hjälp med Decentr OS</translation>
-<translation id="4708774505295300557">Någon har tidigare loggat in i Chrome som <ph name="ACCOUNT_EMAIL_LAST" /> på den här datorn. Skapa en ny Decentr-användare så att dina uppgifter hålls separat.</translation>
+<translation id="4708774505295300557">Någon har tidigare loggat in i Decentr som <ph name="ACCOUNT_EMAIL_LAST" /> på den här datorn. Skapa en ny Decentr-användare så att dina uppgifter hålls separat.</translation>
 <translation id="4746050847053251315">Vill du avsluta Decentr ändå?</translation>
 <translation id="4748217263233248895">En särskild säkerhetsuppdatering för Decentr installerades precis. Starta om webbläsaren nu. Flikarna återställs efteråt.</translation>
 <translation id="4750035648288509542">Uppdateringen är snart klar! Starta Decentr igen för att avsluta uppdateringen. Inkognitofönster öppnas inte igen.</translation>

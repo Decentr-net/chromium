@@ -15,9 +15,7 @@
 #include "chrome/browser/win/conflicts/module_database_observer.h"
 #include "third_party/abseil-cpp/absl/types/optional.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "chrome/browser/win/conflicts/third_party_conflicts_manager.h"
-#endif
 
 namespace base {
 class DictionaryValue;
@@ -52,11 +50,9 @@ class ConflictsDataFetcher : public ModuleDatabaseObserver {
 
   void InitializeOnModuleDatabaseTaskRunner();
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // Invoked when the ThirdPartyConflictsManager initialization state is
   // available.
   void OnManagerInitializationComplete(ThirdPartyConflictsManager::State state);
-#endif
 
   // Registers this instance to the ModuleDatabase to retrieve the list of
   // modules via the ModuleDatabaseObserver API.
@@ -75,12 +71,10 @@ class ConflictsDataFetcher : public ModuleDatabaseObserver {
 
   SEQUENCE_CHECKER(sequence_checker_);
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   absl::optional<ThirdPartyConflictsManager::State>
       third_party_conflicts_manager_state_;
 
   base::WeakPtrFactory<ConflictsDataFetcher> weak_ptr_factory_;
-#endif
 };
 
 #endif  // CHROME_BROWSER_UI_WEBUI_CONFLICTS_CONFLICTS_DATA_FETCHER_H_

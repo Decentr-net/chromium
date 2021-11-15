@@ -5338,7 +5338,7 @@ static_library("browser") {
       ]
     }
 
-    if (is_chrome_branded) {
+    #if (is_chrome_branded) {
       deps += [
         "//chrome/browser/win/conflicts:module_list_proto",
         "//chrome/chrome_elf:sha1",
@@ -5382,7 +5382,7 @@ static_library("browser") {
         "win/conflicts/uninstall_application.cc",
         "win/conflicts/uninstall_application.h",
       ]
-    }
+   # }
   } else {
     # Non - Windows.
     sources += [

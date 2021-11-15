@@ -2,7 +2,7 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-CN">
 <translation id="1001033507375626788">已与您共享该网络</translation>
-<translation id="1001307489511021749">您的应用、设置和其他自定义项会在您使用 Google 帐号登录的所有 Chrome 操作系统设备上保持同步。</translation>
+<translation id="1001307489511021749">您的应用、设置和其他自定义项会在您使用 Google 帐号登录的所有 Decentr 操作系统设备上保持同步。</translation>
 <translation id="1003088604756913841">在<ph name="APP" />的新窗口中打开链接</translation>
 <translation id="100323615638474026">USB 设备 (<ph name="VENDOR_ID" />:<ph name="PRODUCT_ID" />)</translation>
 <translation id="1004218526896219317">有权访问的网站</translation>
@@ -63,11 +63,11 @@
 <translation id="1061130374843955397">欢迎使用 <ph name="DEVICE_TYPE" /></translation>
 <translation id="1061373870045429865">为此链接创建二维码</translation>
 <translation id="1061904396131502319">快到休息时间了</translation>
-<translation id="1066613507389053689">需要更新 Chrome 操作系统</translation>
+<translation id="1066613507389053689">需要更新 Decentr 操作系统</translation>
 <translation id="1067048845568873861">创建时间</translation>
 <translation id="1067922213147265141">其他 Google 服务</translation>
 <translation id="1069355737714877171">移除名为“<ph name="PROFILE_NAME" />”的 eSIM 卡配置文件</translation>
-<translation id="1070377999570795893">您计算机上的其他程序擅自安装了一个可能会更改 Chrome 工作方式的扩展程序。
+<translation id="1070377999570795893">您计算机上的其他程序擅自安装了一个可能会更改 Decentr 工作方式的扩展程序。
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1070705170564860382">将于 <ph name="COUNTDOWN_SECONDS" /> 秒后在替代浏览器中打开</translation>
@@ -82,13 +82,13 @@
 <translation id="1079766198702302550">始终禁止使用摄像头</translation>
 <translation id="1081956462909987459">{NUM_TABS,plural, =1{<ph name="GROUP_TITLE" /> - 1 个标签页}other{<ph name="GROUP_TITLE" /> - # 个标签页}}</translation>
 <translation id="1082214733466244292">您的管理员已禁用此设备的部分功能</translation>
-<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" />要将您的 Chrome 设置恢复为原始默认设置。这不仅会重置您的主页、“打开新的标签页”页面和搜索引擎，而且还会禁用您的扩展程序并取消固定所有标签页。此外，其他临时数据和缓存的数据（例如 Cookie、内容和网站数据）也将被清除。</translation>
+<translation id="1082398631555931481"><ph name="THIRD_PARTY_TOOL_NAME" />要将您的 Decentr 设置恢复为原始默认设置。这不仅会重置您的主页、“打开新的标签页”页面和搜索引擎，而且还会禁用您的扩展程序并取消固定所有标签页。此外，其他临时数据和缓存的数据（例如 Cookie、内容和网站数据）也将被清除。</translation>
 <translation id="1084096383128641877">移除此密码不会删除您在 <ph name="DOMAIN" /> 上的帐号。如需保护您在 <ph name="DOMAIN_LINK" /> 上的帐号免遭他人盗用，请更改您的密码或删除该帐号。</translation>
 <translation id="1084824384139382525">复制链接地址(&amp;E)</translation>
 <translation id="1085064499066015002">在所有网站上始终允许</translation>
 <translation id="1085697365578766383">启动虚拟机时出错。请重试。</translation>
 <translation id="1087965115100412394">不允许网站连接到 MIDI 设备</translation>
-<translation id="1088654056000736875">Chrome 正在从您的计算机中移除有害软件…</translation>
+<translation id="1088654056000736875">Decentr 正在从您的计算机中移除有害软件…</translation>
 <translation id="1088659085457112967">进入阅读器模式</translation>
 <translation id="1090126737595388931">没有任何后台应用在运行</translation>
 <translation id="1091767800771861448">按 ESC 键可跳过更新（仅限非官方版本）。</translation>
@@ -97,7 +97,7 @@
 <translation id="1095761715416917775">确保您可以随时访问自己的同步数据</translation>
 <translation id="109647177154844434">卸载 Parallels Desktop 会删除您的 Windows 映像，包括其所有应用、设置和数据。确定要继续吗？</translation>
 <translation id="1097658378307015415">登录前，请先以访客身份进入，以便激活“<ph name="NETWORK_ID" />”网络。</translation>
-<translation id="1099383081182863812">您能在 <ph name="BEGIN_LINK" />Google Home 应用<ph name="END_LINK" />中看到自己的 Chromecast 吗？</translation>
+<translation id="1099383081182863812">您能在 <ph name="BEGIN_LINK" />Google Home 应用<ph name="END_LINK" />中看到自己的 Decentrcast 吗？</translation>
 <translation id="1099962274138857708">从“<ph name="DEVICE_NAME" />”复制的图片</translation>
 <translation id="1100504063505580045">当前图标</translation>
 <translation id="1103523840287552314">一律翻译<ph name="LANGUAGE" /></translation>
@@ -109,7 +109,7 @@
 <translation id="1113892970288677790">选择系统挑选的美术作品和图片</translation>
 <translation id="1114102982691049955"><ph name="PRINTER_MANUFACTURER" /> <ph name="PRINTER_MODEL" /> (USB)</translation>
 <translation id="1114202307280046356">菱形</translation>
-<translation id="1114335938027186412">您的计算机包含可信平台模块 (TPM) 安全装置，该装置可用于在 Chrome 操作系统中实施许多关键的安全功能。要了解详情，请访问 Chromebook 帮助中心：https://support.google.com/chromebook/?p=tpm</translation>
+<translation id="1114335938027186412">您的计算机包含可信平台模块 (TPM) 安全装置，该装置可用于在 Decentr 操作系统中实施许多关键的安全功能。要了解详情，请访问 Decentrbook 帮助中心：https://support.google.com/chromebook/?p=tpm</translation>
 <translation id="1114427165525619358">此设备上和您的 Google 帐号中都已保存的密码</translation>
 <translation id="1114525161406758033">在盖被合上之后进入休眠模式</translation>
 <translation id="1116639326869298217">无法验证您的身份</translation>
@@ -141,9 +141,9 @@
 <translation id="1140351953533677694">访问您的蓝牙和串行设备</translation>
 <translation id="114036956334641753">音频和字幕</translation>
 <translation id="1143142264369994168">证书签名人</translation>
-<translation id="1143816224540441191">{NUM_MINS,plural, =1{Chrome 在您的计算机上未发现有害软件 • 1 分钟前检查过}other{Chrome 在您的计算机上未发现有害软件 • {NUM_MINS} 分钟前检查过}}</translation>
+<translation id="1143816224540441191">{NUM_MINS,plural, =1{Decentr 在您的计算机上未发现有害软件 • 1 分钟前检查过}other{Decentr 在您的计算机上未发现有害软件 • {NUM_MINS} 分钟前检查过}}</translation>
 <translation id="1145593918056169051">打印机已停止运行</translation>
-<translation id="114721135501989771">在 Chrome 中畅享 Google 的智能技术</translation>
+<translation id="114721135501989771">在 Decentr 中畅享 Google 的智能技术</translation>
 <translation id="1147322039136785890">现在轮到<ph name="SUPERVISED_USER_NAME" />使用了</translation>
 <translation id="1147991416141538220">要申请访问权限，请与此设备的管理员联系。</translation>
 <translation id="1148063863818152153">您的设备 EID</translation>
@@ -175,7 +175,7 @@
 <translation id="1172750555846831341">短边翻转</translation>
 <translation id="1173894706177603556">重命名</translation>
 <translation id="1174073918202301297">快捷方式已添加</translation>
-<translation id="1174366174291287894">您的连接始终是安全的，除非 Chrome 另有说明</translation>
+<translation id="1174366174291287894">您的连接始终是安全的，除非 Decentr 另有说明</translation>
 <translation id="117445914942805388">要想清除您的所有已同步设备中的浏览数据以及您的 Google 帐号中的浏览数据，请<ph name="BEGIN_LINK" />访问同步设置<ph name="END_LINK" />。</translation>
 <translation id="1175364870820465910">打印(&amp;P)...</translation>
 <translation id="1176471985365269981">不得修改您设备上的文件或文件夹</translation>
@@ -269,7 +269,7 @@
 <translation id="1272978324304772054">此用户帐号不属于设备所注册的域。如果想注册其他域，那么您首先需要执行设备恢复。</translation>
 <translation id="1274997165432133392">Cookie 及其他网站数据</translation>
 <translation id="1275718070701477396">已选中</translation>
-<translation id="1276242130531808236">我已阅读并同意接受 <ph name="BEGIN_LINK1" />Google 服务条款<ph name="END_LINK1" />、<ph name="BEGIN_LINK2" />Chrome 和 Chrome 操作系统附加服务条款<ph name="END_LINK2" />。</translation>
+<translation id="1276242130531808236">我已阅读并同意接受 <ph name="BEGIN_LINK1" />Google 服务条款<ph name="END_LINK1" />、<ph name="BEGIN_LINK2" />Decentr 和 Decentr 操作系统附加服务条款<ph name="END_LINK2" />。</translation>
 <translation id="1276994519141842946">无法卸载 <ph name="APP_NAME" /></translation>
 <translation id="1277020343994096713">请创建一个与您的当前 PIN 码不同的新 PIN 码</translation>
 <translation id="1278859221870828664">查看 Google Play 应用和服务</translation>
@@ -311,7 +311,7 @@
 <translation id="1319983966058170660">“<ph name="SUBPAGE_TITLE" />”子页面上的返回按钮</translation>
 <translation id="1322046419516468189">您可以查看和管理 <ph name="SAVED_PASSWORDS_STORE" />中保存的密码</translation>
 <translation id="1324106254079708331">为所有可能会遭到定向攻击的个人 Google 帐号提供保护</translation>
-<translation id="1326317727527857210">要访问您在其他设备上的标签页，请登录 Chrome。</translation>
+<translation id="1326317727527857210">要访问您在其他设备上的标签页，请登录 Decentr。</translation>
 <translation id="1327272175893960498">Kerberos 票据</translation>
 <translation id="1327495825214193325">要启用 ADB 调试，您必须重启此<ph name="DEVICE_TYPE" />。要停用它，则必须将此设备恢复出厂设置。</translation>
 <translation id="1327794256477341646">所有需要使用您的位置信息的功能都将无法正常运行</translation>
@@ -335,7 +335,7 @@
 <translation id="1347975661240122359">当电池电量达到 <ph name="BATTERY_LEVEL" />% 时将开始更新。</translation>
 <translation id="1353275871123211385">如果您想使用家长控制功能（例如应用审批和设备使用时限），您的孩子必须有一个由家长管理的 Google 帐号。日后需要时，您还可添加学校帐号以用于访问相关工具（例如 Google 课堂）。</translation>
 <translation id="135389172849514421">可离线使用</translation>
-<translation id="1353980523955420967">找不到 PPD。请确保您的 Chromebook 已连接到网络，然后重试。</translation>
+<translation id="1353980523955420967">找不到 PPD。请确保您的 Decentrbook 已连接到网络，然后重试。</translation>
 <translation id="1354045473509304750">继续允许 <ph name="HOST" /> 使用和移动您的摄像头</translation>
 <translation id="1355088139103479645">删除所有数据？</translation>
 <translation id="1355466263109342573"><ph name="PLUGIN_NAME" /> 已被屏蔽</translation>
@@ -398,7 +398,7 @@
 <translation id="1422159345171879700">加载不安全的脚本</translation>
 <translation id="1423716227250567100">此操作将会：
           <ph name="LINE_BREAKS" />
-           • 重置 Chrome 设置和 Chrome 快捷方式
+           • 重置 Decentr 设置和 Decentr 快捷方式
            <ph name="LINE_BREAK" />
            • 停用扩展程序
            <ph name="LINE_BREAK" />
@@ -552,7 +552,7 @@
 <translation id="1582955169539260415">删除 [<ph name="FINGERPRINT_NAME" />]</translation>
 <translation id="1583127975413389276"><ph name="LANGUAGE" />内容均在本地处理，且可离线使用</translation>
 <translation id="1584990664401018068">您要使用的 Wi-Fi 网络（“<ph name="NETWORK_ID" />”）可能需要您进行身份验证。</translation>
-<translation id="1585717515139318619">您计算机上的其他程序擅自安装了一个可能会更改 Chrome 工作方式的主题背景。
+<translation id="1585717515139318619">您计算机上的其他程序擅自安装了一个可能会更改 Decentr 工作方式的主题背景。
 
 <ph name="EXTENSION_NAME" /></translation>
 <translation id="1587129667417059148">此操作会清除 <ph name="ORIGIN_NAME" /> 存储的所有数据和 Cookie</translation>
@@ -611,7 +611,7 @@
 <translation id="1628948239858170093">打开前，先扫描文件？</translation>
 <translation id="1629314197035607094">密码已过期</translation>
 <translation id="1629451755632656601">让 Google 查找您购物车中商品的个性化折扣信息？</translation>
-<translation id="1630300831289687074">您很快就能使用 Chromebook 了。</translation>
+<translation id="1630300831289687074">您很快就能使用 Decentrbook 了。</translation>
 <translation id="163072119192489970">允许完成数据收发操作</translation>
 <translation id="1630768113285622200">重启并继续</translation>
 <translation id="1632082166874334883">您的 Google 帐号中存储的密码</translation>
@@ -623,7 +623,7 @@
 <translation id="1637350598157233081">您的密码已保存到此设备上</translation>
 <translation id="1637765355341780467">打开您的个人资料时出了点问题，部分功能可能无法使用。</translation>
 <translation id="1639239467298939599">正在加载</translation>
-<translation id="163993578339087550"><ph name="SERVICE_NAME" />想检查您使用的是否为符合条件的 Chrome 操作系统设备。</translation>
+<translation id="163993578339087550"><ph name="SERVICE_NAME" />想检查您使用的是否为符合条件的 Decentr 操作系统设备。</translation>
 <translation id="1640235262200048077">Linux 应用目前不支持<ph name="IME_NAME" /></translation>
 <translation id="1640283014264083726">PKCS #1，带有 RSA 加密的 MD4</translation>
 <translation id="1641113438599504367">安全浏览</translation>
@@ -687,7 +687,7 @@
 <translation id="1704230497453185209">不允许网站播放声音</translation>
 <translation id="1704970325597567340"><ph name="DATE" />运行过安全检查</translation>
 <translation id="1706586824377653884">此图标是由管理员添加的</translation>
-<translation id="170658918174941828">除了您选择包含的上述所有信息之外，还将提交您的 Chrome 版本、操作系统版本、Cast 设置、镜像性能统计信息以及通信渠道诊断日志。该反馈用于诊断问题并帮助改进此功能。您明确提交或无意中提交的任何个人信息都将按照我们的隐私权政策受到保护。提交该反馈即表示您授权 Google 使用您提供的反馈来改进任何 Google 产品或服务。</translation>
+<translation id="170658918174941828">除了您选择包含的上述所有信息之外，还将提交您的 Decentr 版本、操作系统版本、Cast 设置、镜像性能统计信息以及通信渠道诊断日志。该反馈用于诊断问题并帮助改进此功能。您明确提交或无意中提交的任何个人信息都将按照我们的隐私权政策受到保护。提交该反馈即表示您授权 Google 使用您提供的反馈来改进任何 Google 产品或服务。</translation>
 <translation id="1708338024780164500">（无效）</translation>
 <translation id="1708713382908678956"><ph name="NAME_PH" />（ID：<ph name="ID_PH" />）</translation>
 <translation id="1709106626015023981"><ph name="WIDTH" /> x <ph name="HEIGHT" />（原生）</translation>
@@ -726,19 +726,19 @@
 <translation id="1744108098763830590">背景页</translation>
 <translation id="1745732479023874451">管理联系人</translation>
 <translation id="1748563609363301860">您可以将这个密码保存到您的 Google 帐号中，或者仅保存到此设备上</translation>
-<translation id="1750048572964661931">在此 Chromebook 上设置一个 PIN 码或密码可防止他人擅自访问您手机上的应用。</translation>
+<translation id="1750048572964661931">在此 Decentrbook 上设置一个 PIN 码或密码可防止他人擅自访问您手机上的应用。</translation>
 <translation id="1750172676754093297">您的安全密钥无法存储指纹</translation>
 <translation id="1751249301761991853">个人</translation>
 <translation id="1751262127955453661"><ph name="ORIGIN" /> 将能够修改“<ph name="FOLDERNAME" />”中的文件，除非您关闭此网站的所有标签页</translation>
 <translation id="17513872634828108">目前打开的标签页</translation>
 <translation id="175196451752279553">重新打开关闭的标签页(&amp;E)</translation>
-<translation id="1753067873202720523">您的 Chromebook 在处于打开状态时可能无法充电。</translation>
+<translation id="1753067873202720523">您的 Decentrbook 在处于打开状态时可能无法充电。</translation>
 <translation id="1753905327828125965">常去网站</translation>
 <translation id="1755601632425835748">文字大小</translation>
 <translation id="1755872274219796698">移动密码</translation>
 <translation id="1757301747492736405">待卸载</translation>
 <translation id="175772926354468439">启用主题背景</translation>
-<translation id="17584710573359123">在 Chrome 网上应用店中查看详情</translation>
+<translation id="17584710573359123">在 Decentr 网上应用店中查看详情</translation>
 <translation id="1761845175367251960"><ph name="NAME" />的帐号</translation>
 <translation id="176193854664720708">指纹传感器位于电源按钮中。请用任一根手指轻轻触摸它。</translation>
 <translation id="176272781006230109">购物建议</translation>
@@ -791,7 +791,7 @@
 <translation id="1805888043020974594">打印服务器</translation>
 <translation id="1805967612549112634">确认 PIN 码</translation>
 <translation id="1806335016774576568">切换到另一个已打开的应用</translation>
-<translation id="1809483812148634490">系统会从这台 Chromebook 中删除您从 Google Play 下载的应用。
+<translation id="1809483812148634490">系统会从这台 Decentrbook 中删除您从 Google Play 下载的应用。
     <ph name="LINE_BREAKS1" />
     可能还会删除您购买的内容，例如电影、电视节目、音乐、图书或其他应用内购商品。
     <ph name="LINE_BREAKS2" />
@@ -809,10 +809,10 @@
 <translation id="1819443852740954262">在无痕式窗口中打开全部网址</translation>
 <translation id="1819721979226826163">依次点按“应用通知”&gt;“Google Play 服务”。</translation>
 <translation id="1820028137326691631">请输入管理员提供的密码</translation>
-<translation id="1822140782238030981">已是 Chrome 用户？请登录</translation>
+<translation id="1822140782238030981">已是 Decentr 用户？请登录</translation>
 <translation id="18245044880483936">备份数据不会计入您孩子的云端硬盘存储空间配额。</translation>
 <translation id="1825565032302550710">端口必须介于 1024 到 65535 之间</translation>
-<translation id="1826192255355608658">同步您的 Chrome 浏览器书签、密码、历史记录等信息</translation>
+<translation id="1826192255355608658">同步您的 Decentr 浏览器书签、密码、历史记录等信息</translation>
 <translation id="1826516787628120939">正在检查</translation>
 <translation id="1827738518074806965">画廊</translation>
 <translation id="1828378091493947763">该插件在此设备上不受支持</translation>
@@ -857,7 +857,7 @@
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" />已准备就绪，可以进行安装。</translation>
 <translation id="1868553836791672080">此版 Decentr 无法检查密码</translation>
 <translation id="1869433484041798909">书签按钮</translation>
-<translation id="1871098866036088250">在 Chrome 浏览器中打开</translation>
+<translation id="1871098866036088250">在 Decentr 浏览器中打开</translation>
 <translation id="187145082678092583">收起部分应用</translation>
 <translation id="1871534214638631766">在您右键点击或长按内容时显示相关信息</translation>
 <translation id="1871569928317311284">关闭深色主题</translation>
@@ -869,7 +869,7 @@
 <translation id="1877377290348678128">标签（可选）</translation>
 <translation id="1877520246462554164">未能获取身份验证令牌。请退出并重新登录，然后重试。</translation>
 <translation id="1877860345998737529">指定开关操作</translation>
-<translation id="1878155070920054810">您的 Chromebook 似乎会在完成更新前耗尽电量。请确保它已在正确充电，以免更新中断。</translation>
+<translation id="1878155070920054810">您的 Decentrbook 似乎会在完成更新前耗尽电量。请确保它已在正确充电，以免更新中断。</translation>
 <translation id="1879000426787380528">登录身份</translation>
 <translation id="18802377548000045">将标签页收缩至较大宽度</translation>
 <translation id="1880905663253319515">要删除证书“<ph name="CERTIFICATE_NAME" />”吗？</translation>
@@ -891,10 +891,10 @@
 <translation id="1895658205118569222">关机</translation>
 <translation id="1900305421498694955">Google Play 中的应用可能需要获得完整的文件系统访问权限，才能在外部存储设备上读取和写入文件。任何使用外部驱动器的人员都能看到在此设备上创建的文件和文件夹。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="1901303067676059328">全选(&amp;A)</translation>
-<translation id="1901396183631570154">Chrome 无法将这些密码保存到您的 Google 帐号中，但您依然可以将它们保存在此设备上。</translation>
+<translation id="1901396183631570154">Decentr 无法将这些密码保存到您的 Google 帐号中，但您依然可以将它们保存在此设备上。</translation>
 <translation id="1903995858055162096">不是您的设备？请使用<ph name="BEGIN_LINK" />访客模式<ph name="END_LINK" />。</translation>
 <translation id="1904580727789512086">系统会将您访问的网址保存到您的 Google 帐号中</translation>
-<translation id="1905375423839394163">Chromebook 设备名称</translation>
+<translation id="1905375423839394163">Decentrbook 设备名称</translation>
 <translation id="1906181697255754968">网站通常会访问您设备上的文件和文件夹以实现某些功能（例如自动保存您的工作成果）</translation>
 <translation id="1906828677882361942">禁止任何网站访问串行端口</translation>
 <translation id="1908591798274282246">重新打开已关闭的群组</translation>
@@ -961,7 +961,7 @@
 <translation id="1979280758666859181">您正将版本更改为较旧版的 <ph name="PRODUCT_NAME" />。该版本的版本号必须与您设备上目前所安装版本的版本号相符，版本变更才会生效。</translation>
 <translation id="197989455406964291">KDC 不支持加密类型</translation>
 <translation id="1981434377190976112">读取您在所有网站上的数据</translation>
-<translation id="1983497378699148207">若要完成 Linux 设置，请更新 Chrome 操作系统并重试。</translation>
+<translation id="1983497378699148207">若要完成 Linux 设置，请更新 Decentr 操作系统并重试。</translation>
 <translation id="1984417487208496350">不保护（不建议）</translation>
 <translation id="1987317783729300807">帐号</translation>
 <translation id="1988259784461813694">要求</translation>
@@ -984,12 +984,12 @@
 <translation id="2006638907958895361">在<ph name="APP" />中打开链接</translation>
 <translation id="2007404777272201486">报告问题...</translation>
 <translation id="2010501376126504057">兼容的设备</translation>
-<translation id="2015232545623037616">PC 和 Chromecast 使用同一个 Wi-Fi 网络</translation>
+<translation id="2015232545623037616">PC 和 Decentrcast 使用同一个 Wi-Fi 网络</translation>
 <translation id="2016473077102413275">所有需要使用图片的功能都将无法正常运行</translation>
 <translation id="2016574333161572915">现在可以设置您的 Google Meet 设备了</translation>
 <translation id="2017334798163366053">停用性能数据收集</translation>
 <translation id="2018352199541442911">抱歉，系统目前不支持您的外部存储设备。</translation>
-<translation id="2018615379714355980">PC 使用有线网络，Chromecast 使用 Wi-Fi</translation>
+<translation id="2018615379714355980">PC 使用有线网络，Decentrcast 使用 Wi-Fi</translation>
 <translation id="2019718679933488176">在新标签页中打开音频(&amp;O)</translation>
 <translation id="2020183425253392403">显示网络地址设置</translation>
 <translation id="2020225359413970060">扫描文件</translation>
@@ -1016,7 +1016,7 @@
 <translation id="204497730941176055">Microsoft 证书模板名称</translation>
 <translation id="2045117674524495717">键盘快捷键助手</translation>
 <translation id="2045969484888636535">继续拦截 Cookie</translation>
-<translation id="204622017488417136">您的设备将还原到之前安装的 Chrome 版本。所有用户帐号和本地数据都将移除。此操作无法撤消。</translation>
+<translation id="204622017488417136">您的设备将还原到之前安装的 Decentr 版本。所有用户帐号和本地数据都将移除。此操作无法撤消。</translation>
 <translation id="2046702855113914483">拉面</translation>
 <translation id="2046770133657639077">显示设备 EID</translation>
 <translation id="204706822916043810">正在检查虚拟机</translation>
@@ -1033,7 +1033,7 @@
 <translation id="2059913712424898428">时区</translation>
 <translation id="2060375639911876205">移除 eSIM 卡配置文件</translation>
 <translation id="2062354623176996748">如果您使用无痕式窗口浏览网页，系统便不会保存您的浏览记录</translation>
-<translation id="2065405795449409761">Chrome 正受到自动测试软件的控制。</translation>
+<translation id="2065405795449409761">Decentr 正受到自动测试软件的控制。</translation>
 <translation id="2071393345806050157">没有本地日志文件。</translation>
 <translation id="2071692954027939183">由于您通常不允许显示通知，系统已自动屏蔽通知</translation>
 <translation id="2073148037220830746">{NUM_EXTENSIONS,plural, =1{点击即可安装该扩展程序}other{点击即可安装这些扩展程序}}</translation>
@@ -1062,7 +1062,7 @@
 <translation id="2090876986345970080">系统安全设置</translation>
 <translation id="2096715839409389970">清除第三方 Cookie</translation>
 <translation id="2098805196501063469">检查其余的密码</translation>
-<translation id="2099172618127234427">您正在启用 Chrome 操作系统调试功能，此功能将设置 sshd 守护程序并允许从 U 盘启动设备。</translation>
+<translation id="2099172618127234427">您正在启用 Decentr 操作系统调试功能，此功能将设置 sshd 守护程序并允许从 U 盘启动设备。</translation>
 <translation id="2099686503067610784">要删除服务器证书“<ph name="CERTIFICATE_NAME" />”吗？</translation>
 <translation id="2100273922101894616">自动登录</translation>
 <translation id="2101225219012730419">版本：</translation>
@@ -1103,7 +1103,7 @@
 <translation id="2140788884185208305">电池状况</translation>
 <translation id="214169863967063661">打开外观设置</translation>
 <translation id="2142328300403846845">以其他身份打开链接</translation>
-<translation id="2142582065325732898">您需要开启 <ph name="LINK1_BEGIN" />Chrome 同步<ph name="LINK1_END" />才能查看最近打开的 Chrome 标签页。<ph name="LINK2_BEGIN" />了解详情<ph name="LINK2_END" /></translation>
+<translation id="2142582065325732898">您需要开启 <ph name="LINK1_BEGIN" />Decentr 同步<ph name="LINK1_END" />才能查看最近打开的 Decentr 标签页。<ph name="LINK2_BEGIN" />了解详情<ph name="LINK2_END" /></translation>
 <translation id="2143765403545170146">在全屏模式下始终显示工具栏</translation>
 <translation id="2143778271340628265">手动配置代理</translation>
 <translation id="2144536955299248197">证书查看者：<ph name="CERTIFICATE_NAME" /></translation>
@@ -1121,14 +1121,14 @@
 <translation id="2152281589789213846">将打印机添加到您的个人资料中</translation>
 <translation id="2152882202543497059"><ph name="NUMBER" /> 张照片</translation>
 <translation id="2154484045852737596">修改支付卡</translation>
-<translation id="2154502158735983655">读取 Chrome 操作系统设备信息和设备数据。</translation>
+<translation id="2154502158735983655">读取 Decentr 操作系统设备信息和设备数据。</translation>
 <translation id="2154710561487035718">复制网址</translation>
 <translation id="2155772377859296191">有效分辨率：<ph name="WIDTH" /> x <ph name="HEIGHT" /></translation>
 <translation id="2156294658807918600">Service Worker：<ph name="SCRIPT_URL" /></translation>
 <translation id="2156557113115192526">在此应用中打开这种文件格式时不再询问：
 <ph name="FILE_FORMAT" /></translation>
 <translation id="2156877321344104010">再次运行安全检查</translation>
-<translation id="2157474325782140681">要获得更多功能，请使用由戴尔专为这款 Chromebook 设计的基座。</translation>
+<translation id="2157474325782140681">要获得更多功能，请使用由戴尔专为这款 Decentrbook 设计的基座。</translation>
 <translation id="215753907730220065">退出全屏模式</translation>
 <translation id="2157875535253991059">此网页现处于全屏模式。</translation>
 <translation id="2158475082070321257">复制指向突出显示的内容的链接</translation>
@@ -1155,7 +1155,7 @@
 <translation id="2180620921879609685">屏蔽所有页面上的内容</translation>
 <translation id="2182058453334755893">已复制到您的剪贴板</translation>
 <translation id="2183027945672030611">第 <ph name="DEVICE_INDEX" /> 部设备（共 <ph name="DEVICE_COUNT" /> 部），名称为“<ph name="DEVICE_NAME" />”，类型为游戏控制器，电池电量为 <ph name="BATTERY_PERCENTAGE" />%</translation>
-<translation id="2184515124301515068">让 Chrome 选择何时允许网站播放声音（推荐）</translation>
+<translation id="2184515124301515068">让 Decentr 选择何时允许网站播放声音（推荐）</translation>
 <translation id="2186711480981247270">收到了另一设备分享的页面</translation>
 <translation id="2187675480456493911">已与您帐号中的其他设备同步。其他用户修改的设置不会进行同步。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="2187895286714876935">服务器证书导入错误</translation>
@@ -1172,9 +1172,9 @@
 <translation id="2195729137168608510">电子邮件保护</translation>
 <translation id="2198625180564913276">正在添加配置文件。这可能需要几分钟的时间。</translation>
 <translation id="2199298570273670671">错误</translation>
-<translation id="2199719347983604670">Chrome 同步的数据</translation>
+<translation id="2199719347983604670">Decentr 同步的数据</translation>
 <translation id="2200094388063410062">电子邮件</translation>
-<translation id="2200356397587687044">Chrome 需要获得相应权限才能继续</translation>
+<translation id="2200356397587687044">Decentr 需要获得相应权限才能继续</translation>
 <translation id="2202898655984161076">列出打印机时发生问题。您的某些打印机可能尚未成功使用“<ph name="CLOUD_PRINT_NAME" />”进行注册。</translation>
 <translation id="2203088913459920044">名称可以使用字母、数字和特殊字符</translation>
 <translation id="2204034823255629767">读取和更改您输入的任何内容</translation>
@@ -1185,7 +1185,7 @@
 <translation id="2214884991347062907">密码不正确，请重试</translation>
 <translation id="2214893006758804920">{LINE_COUNT,plural, =1{&lt;有 1 行代码未显示出来&gt;}other{&lt;有 <ph name="NUMBER_OF_LINES" /> 行代码未显示出来&gt;}}</translation>
 <translation id="2218019600945559112">鼠标和触控板</translation>
-<translation id="2218320521449013367">Chrome 移除有害软件时出现错误</translation>
+<translation id="2218320521449013367">Decentr 移除有害软件时出现错误</translation>
 <translation id="2218515861914035131">粘贴为纯文本</translation>
 <translation id="2220409419896228519">为您最喜爱的 Google 应用添加书签</translation>
 <translation id="2220529011494928058">报告问题</translation>
@@ -1241,7 +1241,7 @@
 <translation id="2272430695183451567">已分配 0 个开关键</translation>
 <translation id="2272570998639520080">马天尼酒杯</translation>
 <translation id="2273119997271134996">基座视频端口出问题了</translation>
-<translation id="2274840746523584236">您的 Chromebook 需要充电</translation>
+<translation id="2274840746523584236">您的 Decentrbook 需要充电</translation>
 <translation id="2276503375879033601">添加更多应用</translation>
 <translation id="2276910256003242519">正在清除数据…</translation>
 <translation id="2277255602909579701">所有 Cookie 和网站数据</translation>
@@ -1257,11 +1257,11 @@
 <translation id="2289270750774289114">在网站想发现附近的蓝牙设备时询问您（推荐）</translation>
 <translation id="2290615375132886363">平板电脑导航按钮</translation>
 <translation id="229182044471402145">找不到符合要求的字体。</translation>
-<translation id="2292848386125228270">请以普通用户的身份启动 <ph name="PRODUCT_NAME" />。如果您出于开发目的，需要以根用户的身份运行 Chrome，请使用 --no-sandbox 标记重新运行 Chrome。</translation>
+<translation id="2292848386125228270">请以普通用户的身份启动 <ph name="PRODUCT_NAME" />。如果您出于开发目的，需要以根用户的身份运行 Decentr，请使用 --no-sandbox 标记重新运行 Decentr。</translation>
 <translation id="2294358108254308676">要安装<ph name="PRODUCT_NAME" />吗？</translation>
 <translation id="2295864384543949385"><ph name="NUM_RESULTS" /> 条结果</translation>
 <translation id="2296022312651137376"><ph name="DOMAIN_NAME" /> 禁止在该设备离线时登录 <ph name="EMAIL" /></translation>
-<translation id="2296099049346876573">{NUM_HOURS,plural, =1{Chrome 在您的计算机上未发现有害软件 • 1 小时前检查过}other{Chrome 在您的计算机上未发现有害软件 • {NUM_HOURS} 小时前检查过}}</translation>
+<translation id="2296099049346876573">{NUM_HOURS,plural, =1{Decentr 在您的计算机上未发现有害软件 • 1 小时前检查过}other{Decentr 在您的计算机上未发现有害软件 • {NUM_HOURS} 小时前检查过}}</translation>
 <translation id="2296218178174497398">设备发现</translation>
 <translation id="2297705863329999812">搜索打印机</translation>
 <translation id="2297822946037605517">分享此页</translation>
@@ -1315,12 +1315,12 @@
 <translation id="2336228925368920074">为所有标签页添加书签...</translation>
 <translation id="2336376423977300504">始终在关闭窗口时清除 Cookie</translation>
 <translation id="2336381494582898602">Powerwash</translation>
-<translation id="2337236196941929873">预加载 Chrome 认为您可能会访问的网页。为此，Chrome 可能会使用 Cookie（如果您允许使用 Cookie 的话），并通过 Google 加密和发送网页以在网站中隐藏您的身份。</translation>
+<translation id="2337236196941929873">预加载 Decentr 认为您可能会访问的网页。为此，Decentr 可能会使用 Cookie（如果您允许使用 Cookie 的话），并通过 Google 加密和发送网页以在网站中隐藏您的身份。</translation>
 <translation id="2340239562261172947">无法安全地下载“<ph name="FILE_NAME" />”</translation>
 <translation id="2342180549977909852">您的孩子可以使用数字（PIN 码）代替密码来解锁此设备。如果想等到需要时再设置 PIN 码，到时请前往“设置”。</translation>
 <translation id="2342740338116612727">书签已添加</translation>
 <translation id="2343747224442182863">聚焦此标签页</translation>
-<translation id="2344032937402519675">无法连接到服务器。请检查您的网络连接状况，然后重试。如果问题仍然存在，请尝试重启 Chromebook。</translation>
+<translation id="2344032937402519675">无法连接到服务器。请检查您的网络连接状况，然后重试。如果问题仍然存在，请尝试重启 Decentrbook。</translation>
 <translation id="2345723121311404059">“<ph name="PRINTER_NAME" />”有 1 个页面需要打印</translation>
 <translation id="2348176352564285430">应用：<ph name="ARC_PROCESS_NAME" /></translation>
 <translation id="2348729153658512593"><ph name="WINDOW_TITLE" /> - 收到了权限请求，按 Ctrl + 前进键即可回复</translation>
@@ -1369,7 +1369,7 @@
 <translation id="2391419135980381625">标准字体</translation>
 <translation id="2392163307141705938">您已达到您家长为 <ph name="IDS_SHORT_PRODUCT_NAME" /> 设定的使用时限。</translation>
 <translation id="2392369802118427583">激活</translation>
-<translation id="2393136602862631930">在 Chromebook 上设置 <ph name="APP_NAME" /></translation>
+<translation id="2393136602862631930">在 Decentrbook 上设置 <ph name="APP_NAME" /></translation>
 <translation id="2395616325548404795">您的 <ph name="DEVICE_TYPE" /> 已成功注册企业管理服务，但未能发送其资产和位置信息。请通过管理控制台为此设备手动输入这些信息。</translation>
 <translation id="2396783860772170191">输入 4 位数的 PIN 码 (0000-9999)</translation>
 <translation id="2398546389094871088">对您的设备执行 Powerwash 不会移除您的 eSIM 卡配置文件。请转到<ph name="LINK_BEGIN" />移动设置<ph name="LINK_END" />页面手动移除这些配置文件。</translation>
@@ -1500,7 +1500,7 @@
 <translation id="252219247728877310">组件未更新</translation>
 <translation id="2523184218357549926">将您所访问的网页的网址发送给 Google</translation>
 <translation id="252418934079508528">安装 <ph name="DEVICE_OS" /></translation>
-<translation id="252502352004572774">Chrome 正在检查您的计算机上是否存在有害软件…</translation>
+<translation id="252502352004572774">Decentr 正在检查您的计算机上是否存在有害软件…</translation>
 <translation id="2526590354069164005">桌面</translation>
 <translation id="2526619973349913024">检查是否有更新</translation>
 <translation id="2527167509808613699">各种连接</translation>
@@ -1543,7 +1543,7 @@
 <translation id="2573831315551295105">为“<ph name="ACTION" />”操作分配开关</translation>
 <translation id="2575247648642144396">仅当此扩展程序能够对当前网页采取操作时，该图标才会显示。要使用此扩展程序，请点击该图标或按 <ph name="EXTENSION_SHORTCUT" />。</translation>
 <translation id="2575441894380764255">不允许展示侵扰性或误导性广告</translation>
-<translation id="257779572837908839">设为 Chromebox 会易设备</translation>
+<translation id="257779572837908839">设为 Decentrbox 会易设备</translation>
 <translation id="2580889980133367162">始终允许 <ph name="HOST" /> 下载多个文件</translation>
 <translation id="258095186877893873">长</translation>
 <translation id="2582253231918033891"><ph name="PRODUCT_NAME" /> <ph name="PRODUCT_VERSION" />（平台：<ph name="PLATFORM_VERSION" />）<ph name="DEVICE_SERIAL_NUMBER" /></translation>
@@ -1563,7 +1563,7 @@
 <translation id="2604255671529671813">网络连接错误</translation>
 <translation id="2605668923777146443">转到<ph name="LINK_BEGIN" />设置<ph name="LINK_END" />即可查看您的 Better Together 选项。</translation>
 <translation id="2606246518223360146">关联数据</translation>
-<translation id="2606454609872547359">否，不启用 ChromeVox 并继续操作</translation>
+<translation id="2606454609872547359">否，不启用 DecentrVox 并继续操作</translation>
 <translation id="2606568927909309675">自动为英文版音频和视频创建字幕。音频和字幕绝不会从设备中泄露出去。</translation>
 <translation id="2607101320794533334">证书持有者的公共密钥信息</translation>
 <translation id="2609896558069604090">创建快捷方式...</translation>
@@ -1585,7 +1585,7 @@
 <translation id="2624142942574147739">此网页正在使用您的摄像头和麦克风。</translation>
 <translation id="2626799779920242286">请稍后重试。</translation>
 <translation id="2627424346328942291">无法分享</translation>
-<translation id="2628770867680720336">要启用 ADB 调试，您必须将此 Chromebook 恢复出厂设置。<ph name="BEGIN_LINK_LEARN_MORE" />了解详情<ph name="END_LINK_LEARN_MORE" /></translation>
+<translation id="2628770867680720336">要启用 ADB 调试，您必须将此 Decentrbook 恢复出厂设置。<ph name="BEGIN_LINK_LEARN_MORE" />了解详情<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="2629227353894235473">开发 Android 应用</translation>
 <translation id="2630681426381349926">连接到 Wi-Fi 才能开始</translation>
 <translation id="2631498379019108537">在任务栏中显示输入法选项</translation>
@@ -1595,7 +1595,7 @@
 <translation id="2634199532920451708">打印记录</translation>
 <translation id="2635094637295383009">Twitter</translation>
 <translation id="2635276683026132559">签名</translation>
-<translation id="2636625531157955190">Chrome 无法访问这张图片。</translation>
+<translation id="2636625531157955190">Decentr 无法访问这张图片。</translation>
 <translation id="2637400434494156704">PIN 码不正确。您还剩 1 次尝试机会。</translation>
 <translation id="2638286699381354126">更新...</translation>
 <translation id="2638662041295312666">登录帐号图片</translation>
@@ -1616,10 +1616,10 @@
 <translation id="2659381484350128933"><ph name="FOOTNOTE_POINTER" />功能因设备而异</translation>
 <translation id="2659971421398561408">调整为 Crostini 分配的磁盘空间大小</translation>
 <translation id="2660779039299703961">事件</translation>
-<translation id="266079277508604648">无法连接到打印机。请确保该打印机已开机且已通过 Wi-Fi 或 USB 连接到您的 Chromebook。</translation>
+<translation id="266079277508604648">无法连接到打印机。请确保该打印机已开机且已通过 Wi-Fi 或 USB 连接到您的 Decentrbook。</translation>
 <translation id="2661315027005813059">往返缓存版页面：<ph name="BACK_FORWARD_CACHE_PAGE_URL" /></translation>
 <translation id="2661714428027871023">在精简模式下，网页加载速度会更快且消耗的流量会更少。点击即可了解详情。</translation>
-<translation id="2662876636500006917">Chrome 网上应用店</translation>
+<translation id="2662876636500006917">Decentr 网上应用店</translation>
 <translation id="2663302507110284145">语言</translation>
 <translation id="2665394472441560184">添加新字词</translation>
 <translation id="2665647207431876759">已过期</translation>
@@ -1628,7 +1628,7 @@
 <translation id="2667144577800272420">其他应用已设为与<ph name="APP_NAME" />打开同样的链接。此操作会阻止<ph name="APP_NAME_2" />和<ph name="APP_NAME_3" />打开受支持的链接。</translation>
 <translation id="2667463864537187133">管理拼写检查</translation>
 <translation id="2669241540496514785">无法打开 <ph name="APP_NAME" /></translation>
-<translation id="2670102641511624474"><ph name="APP_NAME" /> 正在共享 Chrome 标签页。</translation>
+<translation id="2670102641511624474"><ph name="APP_NAME" /> 正在共享 Decentr 标签页。</translation>
 <translation id="2670403088701171361">不允许网站查看您剪贴板中的文字或图片</translation>
 <translation id="2670429602441959756">此网页包含尚不受虚拟现实模式支持的功能。即将退出…</translation>
 <translation id="2671451824761031126">您的书签和设置已就绪</translation>
@@ -1668,7 +1668,7 @@
 <translation id="2713444072780614174">白色</translation>
 <translation id="2714393097308983682">Google Play 商店</translation>
 <translation id="2715640894224696481">安全密钥请求</translation>
-<translation id="2715751256863167692">此项升级操作会重置您 Chromebook 的硬件并移除当前的用户数据。</translation>
+<translation id="2715751256863167692">此项升级操作会重置您 Decentrbook 的硬件并移除当前的用户数据。</translation>
 <translation id="271639966356700691">按 Ctrl+Alt+“调高亮度”键可放大，按 Ctrl+Alt+“调低亮度”键可缩小。</translation>
 <translation id="2716986496990888774">此设置由家长管理。</translation>
 <translation id="2718395828230677721">护眼模式</translation>
@@ -1724,7 +1724,7 @@
 <translation id="2765217105034171413">小</translation>
 <translation id="2766006623206032690">粘贴并转到(&amp;S)</translation>
 <translation id="2766161002040448006">询问家长的意见</translation>
-<translation id="2767077837043621282">无法更新您的 Chromebook。请稍后再试。</translation>
+<translation id="2767077837043621282">无法更新您的 Decentrbook。请稍后再试。</translation>
 <translation id="2767127727915954024"><ph name="ORIGIN" /> 将能够修改“<ph name="FILENAME" />”中的内容，除非您关闭此网站的所有标签页</translation>
 <translation id="2770465223704140727">从列表中移除</translation>
 <translation id="2770690685823456775">将您的密码导出到其他文件夹</translation>
@@ -1752,7 +1752,7 @@
 <translation id="2791529110887957050">移除 Linux</translation>
 <translation id="2791952154587244007">出现错误。自助服务终端应用在此设备上不能自动启动。</translation>
 <translation id="2792290659606763004">要移除 Android 应用吗？</translation>
-<translation id="2792465461386711506">若要查看您手机上最近打开的 Chrome 标签页，请开启 Chrome 同步</translation>
+<translation id="2792465461386711506">若要查看您手机上最近打开的 Decentr 标签页，请开启 Decentr 同步</translation>
 <translation id="2794233252405721443">网站已被屏蔽</translation>
 <translation id="2794522004398861033">请连接到 Wi-Fi 或以太网以设置 eSIM 卡</translation>
 <translation id="2795716239552913152">网站通常会使用您的位置信息以实现相关功能或提供相关信息（例如本地新闻或附近的商店）</translation>
@@ -1836,7 +1836,7 @@
 <translation id="2872961005593481000">关机</translation>
 <translation id="2872966656309879564">第 <ph name="DEVICE_INDEX" /> 部设备（共 <ph name="DEVICE_COUNT" /> 部），名称为“<ph name="DEVICE_NAME" />”，类型为计算机</translation>
 <translation id="2874939134665556319">上一首</translation>
-<translation id="2875698561019555027">（Chrome 错误页面）</translation>
+<translation id="2875698561019555027">（Decentr 错误页面）</translation>
 <translation id="2876336351874743617">手指 2</translation>
 <translation id="2876369937070532032">当您面临安全风险时，将您所访问的部分网页的网址发送给 Google</translation>
 <translation id="2876556152483133018">网站搜索</translation>
@@ -1875,7 +1875,7 @@
 <translation id="2910318910161511225">请连接到网络，然后重试</translation>
 <translation id="291056154577034373">未读</translation>
 <translation id="2910718431259223434">出了点问题。请重试，或与设备所有者/管理员联系。错误代码：<ph name="ERROR_CODE" />。</translation>
-<translation id="2911433807131383493">打开ChromeVox教程</translation>
+<translation id="2911433807131383493">打开DecentrVox教程</translation>
 <translation id="2912247081180973411">关闭所有窗口</translation>
 <translation id="2913331724188855103">允许网站保存和读取 Cookie 数据（推荐）</translation>
 <translation id="2915102088417824677">查看活动日志</translation>
@@ -2040,7 +2040,7 @@
 <translation id="3083193146044397360">已暂时屏蔽相应权限以保护您的安全</translation>
 <translation id="3083899879156272923">移动屏幕时鼠标指针始终位于屏幕中央</translation>
 <translation id="3084548735795614657">拖放以安装</translation>
-<translation id="3084771660770137092">Chrome 浏览器内存不足或因其他原因网页进程终止。要继续，请重新加载或转到其他网页。</translation>
+<translation id="3084771660770137092">Decentr 浏览器内存不足或因其他原因网页进程终止。要继续，请重新加载或转到其他网页。</translation>
 <translation id="3084958266922136097">停用屏保功能</translation>
 <translation id="3085412380278336437">该网站可能会使用您的摄像头</translation>
 <translation id="3088052000289932193">此网站正在使用 MIDI</translation>
@@ -2081,7 +2081,7 @@
 <translation id="3127156390846601284">此操作会删除所显示的全部网站在您设备上存储的所有数据。要继续吗？</translation>
 <translation id="3127860049873093642">为避免遇到充电/性能方面的问题，请使用兼容的戴尔或 USB C 型电源适配器。</translation>
 <translation id="3127862849166875294">调整为 Linux 分配的磁盘空间大小</translation>
-<translation id="3127882968243210659">根据 <ph name="MANAGER" /> 的要求，您必须先备份自己的数据并将此 Chromebook 恢复出厂设置，然后才能启动 Google Play。</translation>
+<translation id="3127882968243210659">根据 <ph name="MANAGER" /> 的要求，您必须先备份自己的数据并将此 Decentrbook 恢复出厂设置，然后才能启动 Google Play。</translation>
 <translation id="3129173833825111527">左侧页边距</translation>
 <translation id="3129215702932019810">启动此应用时出错</translation>
 <translation id="3130528281680948470">您的设备将被重置，且所有用户帐号和本地数据都将移除。此操作无法撤消。</translation>
@@ -2097,7 +2097,7 @@
 <translation id="3143515551205905069">取消同步</translation>
 <translation id="3143754809889689516">从头播放</translation>
 <translation id="3144647712221361880">以其他身份打开链接</translation>
-<translation id="3149510190863420837">Chrome 应用</translation>
+<translation id="3149510190863420837">Decentr 应用</translation>
 <translation id="3150693969729403281">立即进行安全检查</translation>
 <translation id="3150927491400159470">硬性重新加载</translation>
 <translation id="315116470104423982">移动数据</translation>
@@ -2148,7 +2148,7 @@
 <translation id="3208703785962634733">未确认</translation>
 <translation id="32101887417650595">无法连接到打印机</translation>
 <translation id="321084946921799184">黄色和白色</translation>
-<translation id="321356136776075234">设备 OU（例如 OU=Chromebooks,DC=example,DC=com）</translation>
+<translation id="321356136776075234">设备 OU（例如 OU=Decentrbooks,DC=example,DC=com）</translation>
 <translation id="3214531106883826119"><ph name="BEGIN_BOLD" />注意<ph name="END_BOLD" />：如果有人在语音上与<ph name="SUPERVISED_USER_NAME" />相似或拥有后者的语音录音，此人可能也能获取后者的个人信息相关结果。</translation>
 <translation id="3216825226035747725">G Suite 教育版管理员可决定用户在登录 G Suite 教育版帐号后能访问哪些 Google 服务。其中可能会包括您的孩子以前使用此受监管帐号时无法访问的一些功能或服务。学校管理员必须提供同意声明或征得同意，才能允许未成年人用户使用相关服务。</translation>
 <translation id="3217843140356091325">创建快捷方式？</translation>
@@ -2176,7 +2176,7 @@
 <translation id="3253448572569133955">未知帐号</translation>
 <translation id="3254084468305910013">{COUNT,plural, =0{未发现任何安全问题}=1{发现了 {COUNT} 个安全问题}other{发现了 {COUNT} 个安全问题}}</translation>
 <translation id="3254516606912442756">已停用自动检测时区的功能</translation>
-<translation id="3254715652085014625">在 Android 手机上打开 Chrome，并依次转到“设置”&gt;“密码”&gt;“使用手机作为安全密钥”，然后按照屏幕上显示的说明操作。</translation>
+<translation id="3254715652085014625">在 Android 手机上打开 Decentr，并依次转到“设置”&gt;“密码”&gt;“使用手机作为安全密钥”，然后按照屏幕上显示的说明操作。</translation>
 <translation id="3255355328033513170">即将删除 <ph name="SITE_GROUP_NAME" /> 存储的所有数据及其名下的所有网站。包括 Cookie。您将会退出这些网站（包括打开的标签页）。</translation>
 <translation id="3259723213051400722">请重试。</translation>
 <translation id="3261268979727295785">对于年龄较大的孩子，您只需完成设置，便可添加家长控制功能。您可在“探索”应用内找到与此功能相关的信息。</translation>
@@ -2204,10 +2204,10 @@
 <translation id="3279092821516760512">附近的所选联系人可与您分享内容。仅当您接受后，系统才会开始传输内容。</translation>
 <translation id="3279230909244266691">此过程可能需要几分钟的时间。正在启动虚拟机。</translation>
 <translation id="3280237271814976245">另存为(&amp;A)...</translation>
-<translation id="3280243678470289153">继续使用 Chrome</translation>
+<translation id="3280243678470289153">继续使用 Decentr</translation>
 <translation id="3281892622610078515">要隔离的文件和程序：</translation>
 <translation id="3282210178675490297">正在与 <ph name="APP_NAME" /> 分享某个标签页</translation>
-<translation id="3282568296779691940">登录 Chrome</translation>
+<translation id="3282568296779691940">登录 Decentr</translation>
 <translation id="3285322247471302225">打开新的标签页(&amp;T)</translation>
 <translation id="328571385944182268">保存您的密码？</translation>
 <translation id="3288047731229977326">以开发者模式运行的扩展程序可能会损害您的计算机。如果您不是开发者，那么，为安全起见，应停用以开发者模式运行的扩展程序。</translation>
@@ -2232,7 +2232,7 @@
 <translation id="3305661444342691068">使用预览程序打开 PDF</translation>
 <translation id="3308116878371095290">系统已禁止设置此网页的 Cookie。</translation>
 <translation id="3308134619352333507">隐藏按钮</translation>
-<translation id="3308681281309926497">在您关闭 Chrome 之前，您访问的网站仍能记住您的信息</translation>
+<translation id="3308681281309926497">在您关闭 Decentr 之前，您访问的网站仍能记住您的信息</translation>
 <translation id="3308852433423051161">正在加载 Google 助理…</translation>
 <translation id="3309330461362844500">证书 ID</translation>
 <translation id="3311445899360743395">系统可能会从此设备上移除与该应用相关的数据。</translation>
@@ -2245,10 +2245,10 @@
 <translation id="3320630259304269485">安全浏览（保护您免受危险网站的侵害）和其他安全设置</translation>
 <translation id="3323295311852517824">{NUM_FILES,plural, =0{此数据包含敏感或危险内容。请移除此内容，然后重试。}=1{这个文件包含敏感或危险内容。请移除此内容，然后重试。}other{这些文件包含敏感或危险内容。请移除此内容，然后重试。}}</translation>
 <translation id="3323521181261657960">恭喜！您获得了更多的设备使用时间</translation>
-<translation id="3323577066981719144">您在此处所做的更改仅会应用到 Chrome 浏览器。若要更改您的 Lacros Chrome 浏览器设置，请打开 Lacros Chrome 浏览器，然后转到“设置”。</translation>
+<translation id="3323577066981719144">您在此处所做的更改仅会应用到 Decentr 浏览器。若要更改您的 Lacros Decentr 浏览器设置，请打开 Lacros Decentr 浏览器，然后转到“设置”。</translation>
 <translation id="3325804108816646710">正在查找可用的配置文件…</translation>
 <translation id="3325910708063135066">已在 Mac 系统偏好设置中关闭摄像头和麦克风</translation>
-<translation id="3327050066667856415">Chromebook 旨在确保安全。您的设备会自动防范恶意软件 - 无需安装其他软件。</translation>
+<translation id="3327050066667856415">Decentrbook 旨在确保安全。您的设备会自动防范恶意软件 - 无需安装其他软件。</translation>
 <translation id="3328489342742826322">使用备份进行恢复会致使系统删除您“Linux 文件”文件夹中的现有 Linux 应用和数据。</translation>
 <translation id="3331321258768829690">(<ph name="UTCOFFSET" />) <ph name="LONGTZNAME" /> (<ph name="EXEMPLARCITY" />)</translation>
 <translation id="3331974543021145906">应用信息</translation>
@@ -2301,7 +2301,7 @@
 <translation id="3390741581549395454">已成功备份 Linux 应用和文件。即将开始升级。</translation>
 <translation id="3391512812407811893">试用隐私沙盒</translation>
 <translation id="339178315942519818">在 <ph name="DEVICE_TYPE" /> 上查看聊天应用内的通知</translation>
-<translation id="3393554941209044235">Chrome 文档分析</translation>
+<translation id="3393554941209044235">Decentr 文档分析</translation>
 <translation id="3394850431319394743">可以使用标识符来播放受保护内容</translation>
 <translation id="3396744558790608201">在网络上浏览和购物时，如果您想详细了解所看到的视觉内容，只需右键点击相应内容并选择“使用 Google 智能镜头搜索图片”，即可搜索网站的任何区域。</translation>
 <translation id="3396800784455899911">点击“接受并继续”按钮，即表示您同意上述针对这些 Google 服务的处理方式。</translation>
@@ -2337,7 +2337,7 @@
 <translation id="3424969259347320884">请说明此标签页崩溃时您在做什么</translation>
 <translation id="3427092606871434483">允许（默认）</translation>
 <translation id="3428419049384081277">您已登录！</translation>
-<translation id="3428747202529429621">保护您在 Chrome 中免受安全威胁，登录状态下还可让您更安全地使用其他 Google 应用</translation>
+<translation id="3428747202529429621">保护您在 Decentr 中免受安全威胁，登录状态下还可让您更安全地使用其他 Google 应用</translation>
 <translation id="3429086384982427336">下列应用绝不会处理协议链接。</translation>
 <translation id="3429160811076349561">试用版功能已关闭</translation>
 <translation id="3429271624041785769">网页内容语言</translation>
@@ -2367,7 +2367,7 @@
 <translation id="344630545793878684">读取您在一些网站上的数据</translation>
 <translation id="3446650212859500694">此文件包含敏感内容</translation>
 <translation id="3446827946208017735">在一处集中了解和查看最重要的隐私设置</translation>
-<translation id="3448086340637592206">Decentr 和 Chrome 操作系统附加条款</translation>
+<translation id="3448086340637592206">Decentr 和 Decentr 操作系统附加条款</translation>
 <translation id="3448492834076427715">更新帐号</translation>
 <translation id="3449393517661170867">打开新的标签页窗口</translation>
 <translation id="3449839693241009168">按 <ph name="SEARCH_KEY" /> 可向<ph name="EXTENSION_NAME" />发送命令</translation>
@@ -2463,7 +2463,7 @@
 <translation id="3547954654003013442">代理设置</translation>
 <translation id="3548162552723420559">调整屏幕颜色以与环境相称</translation>
 <translation id="3550593477037018652">断开移动网络连接</translation>
-<translation id="3550915441744863158">Chrome会自动更新，因此您使用的始终都是最新版本</translation>
+<translation id="3550915441744863158">Decentr会自动更新，因此您使用的始终都是最新版本</translation>
 <translation id="3551320343578183772">关闭标签页</translation>
 <translation id="3552097563855472344"><ph name="NETWORK_NAME" /> - <ph name="SPAN_START" /><ph name="CARRIER_NAME" /><ph name="SPAN_END" /></translation>
 <translation id="3552780134252864554">退出时清除</translation>
@@ -2476,7 +2476,7 @@
 <translation id="3559533181353831840">还需大约 <ph name="TIME_LEFT" /></translation>
 <translation id="3560034655160545939">拼写检查(&amp;S)</translation>
 <translation id="3562423906127931518">此过程可能需要几分钟的时间。正在设置 Linux 容器。</translation>
-<translation id="3562655211539199254">查看您手机中最近打开的 Chrome 标签页</translation>
+<translation id="3562655211539199254">查看您手机中最近打开的 Decentr 标签页</translation>
 <translation id="3563432852173030730">无法下载自助服务终端应用。</translation>
 <translation id="3564334271939054422">您要使用的 Wi-Fi 网络（“<ph name="NETWORK_ID" />”）可能需要您访问其登录页面。</translation>
 <translation id="3564848315152754834">USB 安全密钥</translation>
@@ -2534,7 +2534,7 @@
 <translation id="362333465072914957">正在等待 CA 颁发证书</translation>
 <translation id="3624567683873126087">解锁设备并登录 Google 帐号</translation>
 <translation id="3625481642044239431">所选的文件无效。请重试。</translation>
-<translation id="3626296069957678981">要为此 Chromebook 充电，请使用兼容的戴尔电池。</translation>
+<translation id="3626296069957678981">要为此 Decentrbook 充电，请使用兼容的戴尔电池。</translation>
 <translation id="3627320433825461852">还剩不到 1 分钟</translation>
 <translation id="3627588569887975815">在隐身窗口中打开链接(&amp;G)</translation>
 <translation id="3627671146180677314">Netscape 证书续订时间</translation>
@@ -2570,9 +2570,9 @@
 <translation id="3658871634334445293">TrackPoint 加速</translation>
 <translation id="3660234220361471169">不可信</translation>
 <translation id="3664511988987167893">扩展程序图标</translation>
-<translation id="3665589677786828986">Chrome检测到您的部分设置被其他程序篡改了，因此已将这些设置重置为原始默认设置。</translation>
+<translation id="3665589677786828986">Decentr检测到您的部分设置被其他程序篡改了，因此已将这些设置重置为原始默认设置。</translation>
 <translation id="3665919494326051362">当前版本为 <ph name="CURRENT_VERSION" /></translation>
-<translation id="3668801437375206837">为了更好地诊断蓝牙问题，Google 用户可以在反馈报告中包含其他蓝牙日志。此选项处于选中状态时，您的报告中将包含来自当前会话的 btsnoop 和 HCI 日志，这些日志经过处理，尽可能移除了个人身份信息。只有 Listnr 的 Chrome 操作系统产品组管理员可以访问这些日志。这些日志将于 90 天后被完全清除。</translation>
+<translation id="3668801437375206837">为了更好地诊断蓝牙问题，Google 用户可以在反馈报告中包含其他蓝牙日志。此选项处于选中状态时，您的报告中将包含来自当前会话的 btsnoop 和 HCI 日志，这些日志经过处理，尽可能移除了个人身份信息。只有 Listnr 的 Decentr 操作系统产品组管理员可以访问这些日志。这些日志将于 90 天后被完全清除。</translation>
 <translation id="3670113805793654926">来自任何供应商的设备</translation>
 <translation id="3670229581627177274">开启蓝牙</translation>
 <translation id="3672681487849735243">检测到出厂错误</translation>
@@ -2679,7 +2679,7 @@
 <translation id="3775432569830822555">SSL 服务器证书</translation>
 <translation id="3775705724665058594">发送到您的设备</translation>
 <translation id="3776508619697147021">网站可以请求自动下载多个文件</translation>
-<translation id="3776796446459804932">此扩展程序违反了 Chrome 网上应用店政策。</translation>
+<translation id="3776796446459804932">此扩展程序违反了 Decentr 网上应用店政策。</translation>
 <translation id="3777483481409781352">无法激活移动网络设备</translation>
 <translation id="3777806571986431400">扩展程序已启用</translation>
 <translation id="3778152852029592020">已取消下载。</translation>
@@ -2699,8 +2699,8 @@
 <translation id="3789841737615482174">安装</translation>
 <translation id="379082410132524484">您的卡已过期</translation>
 <translation id="3792890930871100565">断开打印机连接</translation>
-<translation id="3793588272211751505">{NUM_DAYS,plural, =1{Chrome 在您的计算机上未发现有害软件 • 1 天前检查过}other{Chrome 在您的计算机上未发现有害软件 • {NUM_DAYS} 天前检查过}}</translation>
-<translation id="379500251094592809">若要使用“附近分享”功能，请确保两部设备均已解锁、相距很近且均已开启蓝牙。如果您的分享对象是一部不在您通讯录中的 Chromebook，请确保已为它开启“附近分享”的高可见度模式（先选择时间，打开状态区，然后开启“附近分享”的高可见度模式）。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
+<translation id="3793588272211751505">{NUM_DAYS,plural, =1{Decentr 在您的计算机上未发现有害软件 • 1 天前检查过}other{Decentr 在您的计算机上未发现有害软件 • {NUM_DAYS} 天前检查过}}</translation>
+<translation id="379500251094592809">若要使用“附近分享”功能，请确保两部设备均已解锁、相距很近且均已开启蓝牙。如果您的分享对象是一部不在您通讯录中的 Decentrbook，请确保已为它开启“附近分享”的高可见度模式（先选择时间，打开状态区，然后开启“附近分享”的高可见度模式）。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="379509625511193653">已关闭</translation>
 <translation id="3796648294839530037">收藏的网络：</translation>
 <translation id="3797739167230984533">您的 <ph name="BEGIN_LINK" /><ph name="DEVICE_TYPE" /> 由所属组织管理<ph name="END_LINK" /></translation>
@@ -2725,7 +2725,7 @@
 <translation id="3813296892522778813">如果您找不到要查找的内容，请参阅 <ph name="BEGIN_LINK_CHROMIUM" />Decentr 帮助<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">翻译页面和快速解答时使用的语言</translation>
 <translation id="3814529970604306954">学校帐号</translation>
-<translation id="3816118180265633665">Chrome 颜色</translation>
+<translation id="3816118180265633665">Decentr 颜色</translation>
 <translation id="3817524650114746564">打开您计算机的代理设置</translation>
 <translation id="3819257035322786455">备份</translation>
 <translation id="3819261658055281761">系统未能为此设备存储长期的 API 访问令牌。</translation>
@@ -2773,9 +2773,9 @@
 <translation id="3857807444929313943">移开手指，然后再次触摸传感器</translation>
 <translation id="3858860766373142691">名称</translation>
 <translation id="3861638017150647085">用户名“<ph name="USERNAME" />”不可用</translation>
-<translation id="3861977424605124250">在 Chrome 启动时显示</translation>
+<translation id="3861977424605124250">在 Decentr 启动时显示</translation>
 <translation id="386239283124269513">恢复组(&amp;R)</translation>
-<translation id="3862788408946266506">具有“kiosk_only”这项清单属性的应用必须在 Chrome 操作系统自助服务终端模式下进行安装</translation>
+<translation id="3862788408946266506">具有“kiosk_only”这项清单属性的应用必须在 Decentr 操作系统自助服务终端模式下进行安装</translation>
 <translation id="3865414814144988605">分辨率</translation>
 <translation id="3866249974567520381">说明</translation>
 <translation id="3867134342671430205">拖动或使用箭头键来移动显示屏位置</translation>
@@ -2802,12 +2802,12 @@
 <translation id="3888550877729210209">使用“<ph name="LOCK_SCREEN_APP_NAME" />”创建记事</translation>
 <translation id="3888586133700543064">这些信息有助于我们更好地了解您所遇到的 Google 助理问题。这些信息最多会存储 90 天，且仅限相关的工程团队和反馈团队访问。</translation>
 <translation id="3888900458694486810">关闭侧边搜索</translation>
-<translation id="3890064827463908288">您需要开启 Chrome 同步才能使用 Wi-Fi 同步功能</translation>
+<translation id="3890064827463908288">您需要开启 Decentr 同步才能使用 Wi-Fi 同步功能</translation>
 <translation id="3892414795099177503">添加 OpenVPN / L2TP…</translation>
 <translation id="389313931326656921">为“下一项”操作分配开关</translation>
 <translation id="3893295674388762059">若要清除数据，请关闭所有无痕式窗口</translation>
 <translation id="3893536212201235195">读取和更改您的无障碍设置</translation>
-<translation id="3893630138897523026">ChromeVox（语音反馈）</translation>
+<translation id="3893630138897523026">DecentrVox（语音反馈）</translation>
 <translation id="3893764153531140319"><ph name="DOWNLOADED_SIZE" />/<ph name="DOWNLOAD_SIZE" /></translation>
 <translation id="3894123633473837029">通过 Sherlog 将最近的 Google 助理历史记录包含在内。这可能包括您的身份、地理位置和调试信息。<ph name="BEGIN_LINK" />了解详情<ph name="END_LINK" /></translation>
 <translation id="3894427358181296146">添加文件夹</translation>
@@ -2838,7 +2838,7 @@
 <translation id="3919145445993746351">若想在您的所有计算机上使用您的扩展程序，请开启同步功能</translation>
 <translation id="3919798653937160644">当您关闭以访客身份打开的所有窗口后，您在此窗口中查看过的网页将不会显示在浏览器历史记录中，也不会在计算机上留下其他痕迹（例如 Cookie）。不过，系统会保留您下载的所有文件。</translation>
 <translation id="3920504717067627103">证书政策</translation>
-<translation id="392089482157167418">启用 ChromeVox（语音反馈）</translation>
+<translation id="392089482157167418">启用 DecentrVox（语音反馈）</translation>
 <translation id="3920909973552939961">不允许安装付款处理程序</translation>
 <translation id="3922823422695198027">其他应用已设为与<ph name="APP_NAME" />打开同样的链接。此操作会阻止<ph name="APP_NAME_2" />、<ph name="APP_NAME_3" />和<ph name="APP_NAME_4" />打开受支持的链接。</translation>
 <translation id="3923184630988645767">流量使用</translation>
@@ -2965,10 +2965,10 @@
 <translation id="4047726037116394521">转到主屏幕</translation>
 <translation id="4049783682480068824">{COUNT,plural, =1{有 # 个联系人不可用。如需使用“附近分享”功能与这个联系人分享内容，请将其 Google 帐号所关联的电子邮件地址添加到您的通讯录中。}other{有 # 个联系人不可用。如需使用“附近分享”功能与这些联系人分享内容，请将其 Google 帐号所关联的电子邮件地址添加到您的通讯录中。}}</translation>
 <translation id="4050225813016893843">身份验证方法</translation>
-<translation id="4050534976465737778">请确保这两部设备均已解锁、相距很近且均已开启蓝牙。如果您的分享对象是一部不在您通讯录中的 Chromebook，请确保已为它开启“附近分享”的高可见度模式（先打开状态区，然后开启“附近分享”的高可见度模式）。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
+<translation id="4050534976465737778">请确保这两部设备均已解锁、相距很近且均已开启蓝牙。如果您的分享对象是一部不在您通讯录中的 Decentrbook，请确保已为它开启“附近分享”的高可见度模式（先打开状态区，然后开启“附近分享”的高可见度模式）。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="4052120076834320548">最小</translation>
 <translation id="4054070260844648638">对所有人可见</translation>
-<translation id="4056908315660577142">您已达到您家长为 Chrome 应用“<ph name="APP_NAME" />”设定的使用时限。明天可以使用 <ph name="TIME_LIMIT" />。</translation>
+<translation id="4056908315660577142">您已达到您家长为 Decentr 应用“<ph name="APP_NAME" />”设定的使用时限。明天可以使用 <ph name="TIME_LIMIT" />。</translation>
 <translation id="4057041477816018958"><ph name="SPEED" /> - <ph name="RECEIVED_AMOUNT" /></translation>
 <translation id="4057896668975954729">在应用店中查看</translation>
 <translation id="4058720513957747556">AppSocket (TCP/IP)</translation>
@@ -3011,7 +3011,7 @@
 <translation id="4095507791297118304">主显示屏</translation>
 <translation id="4096508467498758490">请停用以开发者模式运行的扩展程序</translation>
 <translation id="4097406557126260163">应用和扩展程序</translation>
-<translation id="409742781329613461">Chrome 使用提示</translation>
+<translation id="409742781329613461">Decentr 使用提示</translation>
 <translation id="4097560579602855702">在 Google 中搜索</translation>
 <translation id="4098667039111970300">在工具栏中显示触控笔工具</translation>
 <translation id="4099060993766194518">要恢复默认搜索引擎吗？</translation>
@@ -3065,7 +3065,7 @@
 <translation id="4158364720893025815">通过</translation>
 <translation id="4159681666905192102">此帐号是由 <ph name="CUSTODIAN_EMAIL" /> 和 <ph name="SECOND_CUSTODIAN_EMAIL" /> 管理的未成年人帐号。</translation>
 <translation id="4163560723127662357">未知键盘</translation>
-<translation id="4165942112764990069"><ph name="USER_EMAIL" /> 不属于任何有效的组织。请与您的管理员联系。如果您本人就是管理员，则可通过访问 g.co/ChromeEnterpriseAccount 来设置贵组织</translation>
+<translation id="4165942112764990069"><ph name="USER_EMAIL" /> 不属于任何有效的组织。请与您的管理员联系。如果您本人就是管理员，则可通过访问 g.co/DecentrEnterpriseAccount 来设置贵组织</translation>
 <translation id="4167686856635546851">网站通常会使用 JavaScript 来显示互动功能（例如视频游戏或网络表单）</translation>
 <translation id="4168015872538332605">属于<ph name="PRIMARY_EMAIL" />的部分设置现在也会用于您的帐号。仅当您使用多帐号登录时，这些设置才会影响您的帐号。</translation>
 <translation id="4169535189173047238">不允许</translation>
@@ -3158,7 +3158,7 @@
 <translation id="428565720843367874">防病毒软件在扫描此文件时意外失败。</translation>
 <translation id="4287099557599763816">屏幕阅读器</translation>
 <translation id="428715201724021596">正在连接到配置文件。这可能需要几分钟的时间。</translation>
-<translation id="4287157641315808225">是，启用 ChromeVox</translation>
+<translation id="4287157641315808225">是，启用 DecentrVox</translation>
 <translation id="4287502603002637393">{MUTED_NOTIFICATIONS_COUNT,plural, =1{显示}other{全部显示}}</translation>
 <translation id="4289372044984810120">您可在此处管理自己的帐号。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="4289540628985791613">概述</translation>
@@ -3166,7 +3166,7 @@
 <translation id="4290791284969893584">关闭网页后，您已启动的任务可能会无法完成</translation>
 <translation id="4295072614469448764">应用已可在您的终端上使用，且可能在启动器中显示图标。</translation>
 <translation id="4295839147292213505">您可通过计算机收发短信、共享互联网连接、回复对话通知以及利用手机解锁 <ph name="DEVICE_TYPE" />。<ph name="FOOTNOTE_POINTER" /> <ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
-<translation id="4295979599050707005">请重新登录，以确认您的帐号 (<ph name="USER_EMAIL" />) 可用于 Chrome 和 Google Play 中的网站、应用和扩展程序。您还可以移除此帐号。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
+<translation id="4295979599050707005">请重新登录，以确认您的帐号 (<ph name="USER_EMAIL" />) 可用于 Decentr 和 Google Play 中的网站、应用和扩展程序。您还可以移除此帐号。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="4297219207642690536">重启并重置</translation>
 <translation id="4297813521149011456">显示屏旋转</translation>
 <translation id="4299022904780065004">打开新的无痕式窗口(&amp;I)</translation>
@@ -3191,7 +3191,7 @@
 <translation id="4325237902968425115">正在卸载 <ph name="LINUX_APP_NAME" />…</translation>
 <translation id="4330191372652740264">冰水</translation>
 <translation id="4330387663455830245">一律不翻译<ph name="LANGUAGE" />内容</translation>
-<translation id="4331809312908958774">Chrome 操作系统</translation>
+<translation id="4331809312908958774">Decentr 操作系统</translation>
 <translation id="4332976768901252016">设置“家长控制”功能</translation>
 <translation id="4333854382783149454">PKCS #1，带有 RSA 加密的 SHA-1</translation>
 <translation id="4336434711095810371">清除所有数据</translation>
@@ -3281,7 +3281,7 @@
 <translation id="4421932782753506458">猫咪</translation>
 <translation id="4423376891418188461">还原设置</translation>
 <translation id="442397852638519243"><ph name="USER_NAME" />，您的管理员要求您更改密码。</translation>
-<translation id="4426464032773610160">首先，请确保您的 USB 或蓝牙开关已连接到您的 Chromebook。您还可以使用键盘按键。</translation>
+<translation id="4426464032773610160">首先，请确保您的 USB 或蓝牙开关已连接到您的 Decentrbook。您还可以使用键盘按键。</translation>
 <translation id="4427365070557649936">正在验证确认码…</translation>
 <translation id="4429163740524851942">实体键盘布局</translation>
 <translation id="4430019312045809116">音量</translation>
@@ -3317,7 +3317,7 @@
 <translation id="4469762931504673593"><ph name="ORIGIN" /> 可修改“<ph name="FOLDERNAME" />”内的文件</translation>
 <translation id="4470957202018033307">外部存储偏好设置</translation>
 <translation id="4471354919263203780">正在下载语音识别文件... <ph name="PERCENT" />%</translation>
-<translation id="447252321002412580">帮助我们改进 Chrome 的功能和性能</translation>
+<translation id="447252321002412580">帮助我们改进 Decentr 的功能和性能</translation>
 <translation id="4472575034687746823">开始使用</translation>
 <translation id="4474155171896946103">为所有标签页添加书签...</translation>
 <translation id="4475552974751346499">搜索下载内容</translation>
@@ -3329,12 +3329,12 @@
 <translation id="4479424953165245642">管理自助服务终端应用</translation>
 <translation id="4479639480957787382">以太网</translation>
 <translation id="4479877282574735775">正在配置虚拟机。这可能需要几分钟的时间。</translation>
-<translation id="4480590691557335796">Chrome 可以查找您计算机上的有害软件并将其移除</translation>
+<translation id="4480590691557335796">Decentr 可以查找您计算机上的有害软件并将其移除</translation>
 <translation id="4481448477173043917">您的 <ph name="DEVICE_TYPE" /> 意外地重启了</translation>
 <translation id="4481467543947557978">Service Worker</translation>
 <translation id="4481530544597605423">未配对的设备</translation>
 <translation id="4482990632723642375">最近关闭的标签页</translation>
-<translation id="4487489714832036847">Chromebook 使用应用代替传统软件。无论您是想提高办公效率、娱乐身心还是有其他需求，都能在这里找到合适的应用。</translation>
+<translation id="4487489714832036847">Decentrbook 使用应用代替传统软件。无论您是想提高办公效率、娱乐身心还是有其他需求，都能在这里找到合适的应用。</translation>
 <translation id="4488257340342212116">允许使用您的摄像头</translation>
 <translation id="4488502501195719518">清除所有数据？</translation>
 <translation id="449126573531210296">使用您的 Google 帐号加密已同步的密码</translation>
@@ -3342,7 +3342,7 @@
 <translation id="4492698018379445570">查看您已添加到购物车的商品，并在选定后结帐</translation>
 <translation id="4493468155686877504">建议大小 (<ph name="INSTALL_SIZE" />)</translation>
 <translation id="4495419450179050807">不要在本页上显示</translation>
-<translation id="4497145443434063861">PC 和 Chromecast 使用不同的 Wi-Fi 网络（例如分别为 2.4GHz 和 5GHz）</translation>
+<translation id="4497145443434063861">PC 和 Decentrcast 使用不同的 Wi-Fi 网络（例如分别为 2.4GHz 和 5GHz）</translation>
 <translation id="4500114933761911433">“<ph name="PLUGIN_NAME" />”崩溃了</translation>
 <translation id="450099669180426158">感叹号图标</translation>
 <translation id="4501530680793980440">确认删除</translation>
@@ -3386,7 +3386,7 @@
 <translation id="4538163005498287211">根据您所用的壁纸</translation>
 <translation id="4538417792467843292">删除字词</translation>
 <translation id="4538792345715658285">按企业政策安装。</translation>
-<translation id="4541123282641193691">无法验证您的帐号。请重试，或重新启动您的 Chromebook。</translation>
+<translation id="4541123282641193691">无法验证您的帐号。请重试，或重新启动您的 Decentrbook。</translation>
 <translation id="4541662893742891060">无法关联到此个人资料。如需技术支持，请与您的运营商联系。</translation>
 <translation id="4541706525461326392">正在移除配置文件。这可能需要几分钟的时间。</translation>
 <translation id="4542520061254486227">读取您在 <ph name="WEBSITE_1" /> 和 <ph name="WEBSITE_2" /> 上的数据</translation>
@@ -3401,7 +3401,7 @@
 <translation id="4547672827276975204">自动设置</translation>
 <translation id="4549791035683739768">您的安全密钥未存储任何指纹</translation>
 <translation id="4551763574344810652">按 <ph name="MODIFIER_KEY_DESCRIPTION" /> 即可撤消</translation>
-<translation id="4553526521109675518">您需要重启 Chromebook 才能更改设备语言。<ph name="BEGIN_LINK_LEARN_MORE" />了解详情<ph name="END_LINK_LEARN_MORE" /></translation>
+<translation id="4553526521109675518">您需要重启 Decentrbook 才能更改设备语言。<ph name="BEGIN_LINK_LEARN_MORE" />了解详情<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="4554491709904933912">在图片上拖动光标即可使用 <ph name="VISUAL_SEARCH_PROVIDER" />搜索</translation>
 <translation id="4554591392113183336">外部扩展程序的版本与现有版本相同或更低。</translation>
 <translation id="4555769855065597957">阴影</translation>
@@ -3428,13 +3428,13 @@
 <translation id="457386861538956877">更多...</translation>
 <translation id="4574741712540401491">•  <ph name="LIST_ITEM_TEXT" /></translation>
 <translation id="457564749856982089">只要您向个人资料添加一个学校帐号，孩子便能以学生身份轻松登录网站、扩展程序和应用，同时仍在家长控制下执行操作。此操作不会授权孩子访问与学校帐号同步的书签、密码或其他浏览器数据。&lt;br&gt;&lt;br&gt;
-    如果您的孩子在校时使用 Chromebook，并且您希望在家中复制同样的在校使用体验，确保孩子能够获取所有必要的学校作业，请退出此 Family Link 帐号，然后从 Chrome 操作系统帐号页面登录学校帐号（注意：Family Link 家长控制将不适用）。&lt;br&gt;&lt;br&gt;
-    如果您的孩子在校时不使用 Chromebook，或者您更愿意借助 Family Link 管理孩子的在家使用体验，请点击下方的“下一步”按钮向这份个人资料添加学校帐号。</translation>
+    如果您的孩子在校时使用 Decentrbook，并且您希望在家中复制同样的在校使用体验，确保孩子能够获取所有必要的学校作业，请退出此 Family Link 帐号，然后从 Decentr 操作系统帐号页面登录学校帐号（注意：Family Link 家长控制将不适用）。&lt;br&gt;&lt;br&gt;
+    如果您的孩子在校时不使用 Decentrbook，或者您更愿意借助 Family Link 管理孩子的在家使用体验，请点击下方的“下一步”按钮向这份个人资料添加学校帐号。</translation>
 <translation id="4576541033847873020">配对蓝牙设备</translation>
 <translation id="4576763597586015380">若要继续将密码保存在您的 Google 帐号中，请验证您的身份</translation>
 <translation id="4579453506923101210">移除已连接的手机</translation>
 <translation id="4579581181964204535">无法投射 <ph name="HOST_NAME" />。</translation>
-<translation id="4579876313423027742">若要设置浏览器通知，请转到 <ph name="LINK_BEGIN" />Chrome 浏览器设置<ph name="LINK_END" /></translation>
+<translation id="4579876313423027742">若要设置浏览器通知，请转到 <ph name="LINK_BEGIN" />Decentr 浏览器设置<ph name="LINK_END" /></translation>
 <translation id="4581774856936278355">恢复 Linux 容器时出错</translation>
 <translation id="4582297591746054421">网站通常会读取您的剪贴板内容以实现某些功能（例如保留您所复制文字的格式）</translation>
 <translation id="4582563038311694664">重置所有设置</translation>
@@ -3488,7 +3488,7 @@
 <translation id="4637189644956543313">再次使用摄像头</translation>
 <translation id="4637252186848840278">{COUNT,plural, =1{文字}other{# 段文字}}</translation>
 <translation id="4638930039313743000">启用 ADB 调试</translation>
-<translation id="4641539339823703554">Chrome无法设置系统时间。请检查下面的时间，并在必要时进行更正。</translation>
+<translation id="4641539339823703554">Decentr无法设置系统时间。请检查下面的时间，并在必要时进行更正。</translation>
 <translation id="4643612240819915418">在新标签页中打开视频(&amp;O)</translation>
 <translation id="4644205769234414680">在无痕模式下启用</translation>
 <translation id="4645676300727003670">保留(&amp;K)</translation>
@@ -3501,7 +3501,7 @@
 <translation id="4651484272688821107">无法加载包含演示模式资源的在线组件。</translation>
 <translation id="4652935475563630866">重新启动 Parallels Desktop 后，对摄像头设置做出的更改才能生效。请重新启动 Parallels Desktop 以继续。</translation>
 <translation id="4653405415038586100">配置 Linux 时出错</translation>
-<translation id="4654236001025007561">与附近的 Chromebook 和 Android 设备分享文件</translation>
+<translation id="4654236001025007561">与附近的 Decentrbook 和 Android 设备分享文件</translation>
 <translation id="4657914796247705218">TrackPoint 速度</translation>
 <translation id="465878909996028221">浏览器重定向仅支持 http、https 和文件协议。</translation>
 <translation id="4659077111144409915">主帐号</translation>
@@ -3513,7 +3513,7 @@
 <translation id="4662373422909645029">昵称不能包含数字</translation>
 <translation id="4662788913887017617">将此书签共享给您的 iPhone</translation>
 <translation id="4663373278480897665">已允许使用摄像头</translation>
-<translation id="4664289193573249666">在 Chrome 操作系统设置中管理安全 DNS</translation>
+<translation id="4664289193573249666">在 Decentr 操作系统设置中管理安全 DNS</translation>
 <translation id="4664482161435122549">PKCS #12 导出错误</translation>
 <translation id="4665014895760275686">制造商</translation>
 <translation id="4665446389743427678">即将删除 <ph name="SITE" /> 存储的所有数据。</translation>
@@ -3585,7 +3585,7 @@
 <translation id="4761104368405085019">使用您的麦克风</translation>
 <translation id="4762718786438001384">设备磁盘空间严重不足</translation>
 <translation id="4763408175235639573">以下 Cookie 是系统在您查看此网页时设置的</translation>
-<translation id="4765582662863429759">允许 Android 信息将短信从手机转送到 Chromebook</translation>
+<translation id="4765582662863429759">允许 Android 信息将短信从手机转送到 Decentrbook</translation>
 <translation id="4768332406694066911">您有以下组织发给您的身份证书</translation>
 <translation id="4770119228883592393">收到了权限请求，按 ⌘ + Option + 向下键即可回复</translation>
 <translation id="4773112038801431077">升级 Linux</translation>
@@ -3600,7 +3600,7 @@
 <translation id="4779136857077979611">饭团</translation>
 <translation id="4779766576531456629">重命名 eSIM 卡移动网络</translation>
 <translation id="4780321648949301421">页面存储为...</translation>
-<translation id="4784559565779618838">如果要在特定网站或 Chrome 的某个部分进行搜索，您可以在地址栏中输入此处的快捷字词，然后按 Tab 键或空格键。</translation>
+<translation id="4784559565779618838">如果要在特定网站或 Decentr 的某个部分进行搜索，您可以在地址栏中输入此处的快捷字词，然后按 Tab 键或空格键。</translation>
 <translation id="4785719467058219317">您使用的安全密钥尚未在此网站注册</translation>
 <translation id="478708757211772586">使用“下一项”即可在屏幕上向前移动焦点</translation>
 <translation id="4788092183367008521">请检查您的网络连接，然后重试。</translation>
@@ -3618,7 +3618,7 @@
 <translation id="4804818685124855865">断开连接</translation>
 <translation id="4804827417948292437">牛油果</translation>
 <translation id="4807098396393229769">持卡人姓名</translation>
-<translation id="4808024018088054533">Chrome 在您的计算机上未发现有害软件 • 刚刚检查过</translation>
+<translation id="4808024018088054533">Decentr 在您的计算机上未发现有害软件 • 刚刚检查过</translation>
 <translation id="4808667324955055115">已拦截弹出式窗口：</translation>
 <translation id="4809079943450490359">您的设备管理员温馨提示：</translation>
 <translation id="480990236307250886">打开主页</translation>
@@ -3637,7 +3637,7 @@
 <translation id="4824037980212326045">Linux 备份和恢复</translation>
 <translation id="4824958205181053313">取消同步？</translation>
 <translation id="4827675678516992122">无法连接</translation>
-<translation id="4827784381479890589">在 Chrome 浏览器中使用增强的“拼写检查”功能（您输入的文字会被发送给 Google 以方便其提供拼写建议）</translation>
+<translation id="4827784381479890589">在 Decentr 浏览器中使用增强的“拼写检查”功能（您输入的文字会被发送给 Google 以方便其提供拼写建议）</translation>
 <translation id="4827904420700932487">为此图片创建二维码</translation>
 <translation id="482952334869563894">由供应商 <ph name="VENDOR_ID" /> 提供的 USB 设备</translation>
 <translation id="4829768588131278040">设置 PIN 码</translation>
@@ -3682,7 +3682,7 @@
 <translation id="48704129375571883">添加其他功能</translation>
 <translation id="4870758487381879312">请输入管理员提供的密码以获取配置信息</translation>
 <translation id="4870903493621965035">没有已配对的设备</translation>
-<translation id="4871308555310586478">并非来自 Chrome 网上应用店。</translation>
+<translation id="4871308555310586478">并非来自 Decentr 网上应用店。</translation>
 <translation id="4871322859485617074">PIN 码包含无效字符</translation>
 <translation id="4871370605780490696">添加书签</translation>
 <translation id="4871568871368204250">关闭同步功能</translation>
@@ -3707,7 +3707,7 @@
 <translation id="488785315393301722">显示详细信息</translation>
 <translation id="4889450157778777235">第 <ph name="DEVICE_INDEX" /> 部设备（共 <ph name="DEVICE_COUNT" /> 部），名称为“<ph name="DEVICE_NAME" />”，类型为摄像机</translation>
 <translation id="4890773143211625964">显示高级打印机选项</translation>
-<translation id="4891089016822695758">Chrome（测试版）论坛</translation>
+<translation id="4891089016822695758">Decentr（测试版）论坛</translation>
 <translation id="4892229439761351791">此网站可能会使用蓝牙</translation>
 <translation id="489258173289528622">使用电池时的闲置操作</translation>
 <translation id="4892811427319351753">无法启用<ph name="EXTENSION_TYPE_PARAMETER" /></translation>
@@ -3784,7 +3784,7 @@
 <translation id="496446150016900060">将 Wi-Fi 网络配置同步到您的手机</translation>
 <translation id="4965808351167763748">确定要将此设备设为运行 Hangouts Meet 吗？</translation>
 <translation id="4966972803217407697">您正在使用无痕模式</translation>
-<translation id="496888482094675990">通过“文件”应用，您可以快速存取自己保存在Google云端硬盘、外部存储设备和Chrome操作系统设备上的文件。</translation>
+<translation id="496888482094675990">通过“文件”应用，您可以快速存取自己保存在Google云端硬盘、外部存储设备和Decentr操作系统设备上的文件。</translation>
 <translation id="4971412780836297815">完成后打开</translation>
 <translation id="4971735654804503942">为您提供更快速主动的保护措施，免受危险网站、下载内容或扩展程序的威胁。系统会在密码遭泄露时向您发出警告。您需要向 Google 发送浏览数据。</translation>
 <translation id="4972129977812092092">修改打印机</translation>
@@ -3858,7 +3858,7 @@
 <translation id="5053962746715621840">使用 Google 智能镜头搜索图片</translation>
 <translation id="5056950756634735043">正在连接到容器</translation>
 <translation id="5057110919553308744">当您点击此扩展程序时</translation>
-<translation id="5057403786441168405">管理您登录过的帐号。Chrome 和 Google Play 中的网站、应用和扩展程序可能会使用这些帐号为您定制专属体验，具体取决于所获权限。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
+<translation id="5057403786441168405">管理您登录过的帐号。Decentr 和 Google Play 中的网站、应用和扩展程序可能会使用这些帐号为您定制专属体验，具体取决于所获权限。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="5059241099014281248">限制登录</translation>
 <translation id="5059526285558225588">选择要分享什么</translation>
 <translation id="5060332552815861872">有 1 台可保存的打印机。</translation>
@@ -3982,7 +3982,7 @@
 <translation id="5191094172448199359">您输入的 PIN 码不一致</translation>
 <translation id="5191251636205085390">了解和掌控旨在取代第三方 Cookie 的新技术</translation>
 <translation id="5192062846343383368">打开 Family Link 应用，查看您的监管设置</translation>
-<translation id="5192652123103143854">读取 Chrome 操作系统设备信息和设备数据，并运行诊断测试。</translation>
+<translation id="5192652123103143854">读取 Decentr 操作系统设备信息和设备数据，并运行诊断测试。</translation>
 <translation id="5193988420012215838">已复制到剪贴板</translation>
 <translation id="5194256020863090856">此操作只会影响无痕式窗口</translation>
 <translation id="5197255632782567636">互联网</translation>
@@ -3995,10 +3995,10 @@
 <translation id="520568280985468584">已成功添加网络。不过，您的移动网络可能要过几分钟才可用。</translation>
 <translation id="5206215183583316675">要删除“<ph name="CERTIFICATE_NAME" />”吗？</translation>
 <translation id="520621735928254154">导入证书时出现错误</translation>
-<translation id="5206787458656075734">{COUNT,plural, =1{已成功更改这个已泄露的密码。您还有 # 个已泄露的密码。Chrome 建议您立即检查这个密码。}other{已成功更改这个已泄露的密码。您还有 # 个已泄露的密码。Chrome 建议您立即检查这些密码。}}</translation>
+<translation id="5206787458656075734">{COUNT,plural, =1{已成功更改这个已泄露的密码。您还有 # 个已泄露的密码。Decentr 建议您立即检查这个密码。}other{已成功更改这个已泄露的密码。您还有 # 个已泄露的密码。Decentr 建议您立即检查这些密码。}}</translation>
 <translation id="5207949376430453814">突出显示文本插入符号</translation>
 <translation id="5208548918290612795">存储“<ph name="WEB_DRIVE" />”身份验证令牌</translation>
-<translation id="520902706163766447">如果您启用此实验，系统将会在 Chrome 界面顶部显示弹出式气泡，供您用来在当前打开的标签页中搜索所需内容。</translation>
+<translation id="520902706163766447">如果您启用此实验，系统将会在 Decentr 界面顶部显示弹出式气泡，供您用来在当前打开的标签页中搜索所需内容。</translation>
 <translation id="5209320130288484488">未找到任何设备</translation>
 <translation id="5210365745912300556">关闭标签页</translation>
 <translation id="5213114823401215820">重新打开已关闭的群组</translation>
@@ -4042,7 +4042,7 @@
 <translation id="5258992782919386492">在此设备上安装</translation>
 <translation id="5260334392110301220">智能引号</translation>
 <translation id="5260508466980570042">抱歉，您的电子邮件地址或密码无法进行验证，请重试。</translation>
-<translation id="5261683757250193089">在 Chrome 网上应用店中打开</translation>
+<translation id="5261683757250193089">在 Decentr 网上应用店中打开</translation>
 <translation id="5262178194499261222">移除密码</translation>
 <translation id="526260164969390554">按 Ctrl+<ph name="SEARCH_KEY_NAME" />+M 可开启或关闭全屏放大镜。按 Ctrl+Alt+箭头键可在放大后的屏幕上四处移动。</translation>
 <translation id="5262784498883614021">自动连接到网络</translation>
@@ -4069,7 +4069,7 @@
 <translation id="5288678174502918605">重新打开关闭的标签页(&amp;E)</translation>
 <translation id="52895863590846877">不是<ph name="LANGUAGE" />网页</translation>
 <translation id="52912272896845572">私有密钥文件无效。</translation>
-<translation id="5291739252352359682">在 Chrome 浏览器中自动为媒体创建字幕（目前仅提供英文版）。音频和字幕的处理工作都会在设备上完成，相关数据绝不会外泄。</translation>
+<translation id="5291739252352359682">在 Decentr 浏览器中自动为媒体创建字幕（目前仅提供英文版）。音频和字幕的处理工作都会在设备上完成，相关数据绝不会外泄。</translation>
 <translation id="529175790091471945">将此设备格式化</translation>
 <translation id="529296195492126134">暂存模式不受支持。请与您的管理员联系</translation>
 <translation id="5293170712604732402">将设置还原为原始默认设置</translation>
@@ -4095,7 +4095,7 @@
 <translation id="5311565231560644461">不允许网站使用您的虚拟实境设备和数据</translation>
 <translation id="5315738755890845852">有多余的右大括号：<ph name="ERROR_LINE" /></translation>
 <translation id="5317780077021120954">保存</translation>
-<translation id="5319359161174645648">Google 推荐使用 Chrome</translation>
+<translation id="5319359161174645648">Google 推荐使用 Decentr</translation>
 <translation id="5319712128756744240">为新设备配对</translation>
 <translation id="5320135788267874712">新的设备名称</translation>
 <translation id="532043380734099846">第 <ph name="DEVICE_INDEX" /> 部设备（共 <ph name="DEVICE_COUNT" /> 部），名称为“<ph name="DEVICE_NAME" />”，类型为鼠标，电池电量为 <ph name="BATTERY_PERCENTAGE" />%</translation>
@@ -4124,7 +4124,7 @@
 <translation id="5350293332385664455">关闭 Google 助理</translation>
 <translation id="535123479159372765">从其他设备复制的文字</translation>
 <translation id="5352033265844765294">时间戳</translation>
-<translation id="5353252989841766347">从 Chrome 中导出密码</translation>
+<translation id="5353252989841766347">从 Decentr 中导出密码</translation>
 <translation id="5354531123814675522">第 <ph name="DEVICE_INDEX" /> 部设备（共 <ph name="DEVICE_COUNT" /> 部），名称为“<ph name="DEVICE_NAME" />”，类型为平板电脑，电池电量为 <ph name="BATTERY_PERCENTAGE" />%</translation>
 <translation id="5355099869024327351">允许 Google 助理向您显示通知</translation>
 <translation id="5355191726083956201">已开启增强型保护</translation>
@@ -4336,7 +4336,7 @@
 <translation id="5568069709869097550">无法登录</translation>
 <translation id="5571092938913434726">全局媒体控件</translation>
 <translation id="5571832155627049070">自定义您的个人资料</translation>
-<translation id="5572851009514199876">请启动并登录 Chrome，以便 Chrome 能够检查您是否可以访问此网站。</translation>
+<translation id="5572851009514199876">请启动并登录 Decentr，以便 Decentr 能够检查您是否可以访问此网站。</translation>
 <translation id="5575473780076478375">隐身模式下使用的应用...<ph name="EXTENSION_NAME" /></translation>
 <translation id="5575528586625653441">请求注册演示模式时出问题了。</translation>
 <translation id="557722062034137776">重置您的设备不会影响您的 Google 帐号或已同步到这些帐号的任何数据，但您的设备中本地保存的所有文件都将被删除。</translation>
@@ -4392,7 +4392,7 @@
 <translation id="5624120631404540903">管理密码</translation>
 <translation id="5626134646977739690">名字：</translation>
 <translation id="5627086634964711283">它还能够控制您点击“主页”按钮后系统显示的页面。</translation>
-<translation id="5627676517703583263">使用 Chrome 进行智能浏览</translation>
+<translation id="5627676517703583263">使用 Decentr 进行智能浏览</translation>
 <translation id="5627832140542566187">显示屏方向</translation>
 <translation id="562935524653278697">您的管理员已停止同步您的书签、历史记录、密码及其他设置。</translation>
 <translation id="5631017369956619646">CPU 使用情况</translation>
@@ -4403,7 +4403,7 @@
 <translation id="563535393368633106">使用前先询问（推荐）</translation>
 <translation id="5636996382092289526">要使用“<ph name="NETWORK_ID" />”，您可能需要先<ph name="LINK_START" />访问该网络的登录页面<ph name="LINK_END" />，该页面会在几秒钟后自动打开。如果未打开，就表示该网络无法使用。</translation>
 <translation id="5637476008227280525">移动数据开关</translation>
-<translation id="5638309510554459422">在 <ph name="BEGIN_LINK" />Chrome 网上应用店<ph name="END_LINK" />中查找扩展程序和主题背景</translation>
+<translation id="5638309510554459422">在 <ph name="BEGIN_LINK" />Decentr 网上应用店<ph name="END_LINK" />中查找扩展程序和主题背景</translation>
 <translation id="5639549361331209298">重新加载此网页，按下可查看更多选项</translation>
 <translation id="5640133431808313291">管理安全密钥</translation>
 <translation id="5642508497713047">CRL 签名人</translation>
@@ -4417,7 +4417,7 @@
 <translation id="5655296450510165335">设备注册</translation>
 <translation id="5656845498778518563">向 Google 发送反馈</translation>
 <translation id="5657156137487675418">允许所有 Cookie</translation>
-<translation id="5657667036353380798">该外部扩展程序需要安装 <ph name="MINIMUM_CHROME_VERSION" /> 或更高版本的 Chrome。</translation>
+<translation id="5657667036353380798">该外部扩展程序需要安装 <ph name="MINIMUM_CHROME_VERSION" /> 或更高版本的 Decentr。</translation>
 <translation id="5658415415603568799">为了提升安全性，Smart Lock 会在 20 小时后要求您输入您的密码。</translation>
 <translation id="5659593005791499971">电子邮件</translation>
 <translation id="5659833766619490117">无法翻译此网页</translation>
@@ -4450,7 +4450,7 @@
 <translation id="5692183275898619210">打印完成</translation>
 <translation id="5695184138696833495">Linux Android 应用 ADB</translation>
 <translation id="5696143504434933566">举报“<ph name="EXTENSION_NAME" />”的滥用行为</translation>
-<translation id="5696177755977520104">Chrome 操作系统设置同步</translation>
+<translation id="5696177755977520104">Decentr 操作系统设置同步</translation>
 <translation id="5696679855467848181">当前正在使用的 PPD 文件：<ph name="PPD_NAME" /></translation>
 <translation id="5697832193891326782">表情符号选择器</translation>
 <translation id="570043786759263127">Google Play 应用和服务</translation>
@@ -4466,7 +4466,7 @@
 <translation id="5705882733397021510">返回</translation>
 <translation id="5707185214361380026">无法加载以下来源的扩展程序：</translation>
 <translation id="5708171344853220004">Microsoft 主体名称</translation>
-<translation id="5709557627224531708">将 Chrome 设为您的默认浏览器</translation>
+<translation id="5709557627224531708">将 Decentr 设为您的默认浏览器</translation>
 <translation id="5711010025974903573">服务日志</translation>
 <translation id="5711983031544731014">无法解锁，请输入密码。</translation>
 <translation id="5712153969432126546">网站有时会发布 PDF 文件，例如文档、合同和表单</translation>
@@ -4511,12 +4511,12 @@
 <translation id="5766243637773654698"><ph name="FILE_NAME" /> 可能含有危险内容。发送给 Google 进行扫描？按 Shift+F6 可切换到“下载内容栏”区域。</translation>
 <translation id="5770125698810550803">显示导航按钮</translation>
 <translation id="5771816112378578655">正在设置...</translation>
-<translation id="5772114492540073460"><ph name="PARALLELS_NAME" /> 允许您在 Chromebook 上运行 Windows® 应用。建议您为这项安装留出 <ph name="MINIMUM_SPACE" /> 的可用空间。</translation>
+<translation id="5772114492540073460"><ph name="PARALLELS_NAME" /> 允许您在 Decentrbook 上运行 Windows® 应用。建议您为这项安装留出 <ph name="MINIMUM_SPACE" /> 的可用空间。</translation>
 <translation id="5772265531560382923">{NUM_PAGES,plural, =1{您可以等待该页面恢复响应，也可以退出该页面。}other{您可以等待这些页面恢复响应，也可以退出这些页面。}}</translation>
 <translation id="577322787686508614">禁止在“<ph name="DEVICE_NAME" />”上执行读取操作。</translation>
 <translation id="5774295353725270860">打开文件应用</translation>
 <translation id="577624874850706961">搜索 Cookie</translation>
-<translation id="5777468213129569553">打开 Chrome</translation>
+<translation id="5777468213129569553">打开 Decentr</translation>
 <translation id="5778491106820461378">您可从<ph name="LINK_BEGIN" />设置<ph name="LINK_END" />中管理已登录的 Google 帐号。您向网站和应用授予的权限可能会应用于所有帐号。如果不想让网站或应用获取您的帐号信息，您不妨以访客身份登录 <ph name="DEVICE_TYPE" />。</translation>
 <translation id="5780011244986845107">您所选的文件夹中包含敏感文件。确定要向“<ph name="APP_NAME" />”授予对此文件夹的永久读取权限吗？</translation>
 <translation id="5780973441651030252">进程优先级</translation>
@@ -4524,7 +4524,7 @@
 <translation id="5781865261247219930">向“<ph name="EXTENSION_NAME" />”发送命令</translation>
 <translation id="5782227691023083829">正在翻译...</translation>
 <translation id="57838592816432529">静音</translation>
-<translation id="5785583009707899920">Chrome 文件实用程序</translation>
+<translation id="5785583009707899920">Decentr 文件实用程序</translation>
 <translation id="5787146423283493983">密钥协议</translation>
 <translation id="5787420647064736989">设备名称</translation>
 <translation id="5788367137662787332">抱歉，“<ph name="DEVICE_LABEL" />”设备上至少有一个分区无法加载。</translation>
@@ -4535,7 +4535,7 @@
 <translation id="5794034487966529952">桌面“<ph name="DESK_TITLE" />”打开了 <ph name="NUM_BROWSERS" /> 个浏览器窗口</translation>
 <translation id="5794414402486823030">始终使用系统查看器打开</translation>
 <translation id="5794700615121138172">Linux 共享文件夹</translation>
-<translation id="5794786537412027208">退出所有Chrome应用</translation>
+<translation id="5794786537412027208">退出所有Decentr应用</translation>
 <translation id="5796485699458186843">打开新的无痕式标签页(&amp;T)</translation>
 <translation id="5797521893972859201">会清除所有历史记录，包括搜索框中的历史记录</translation>
 <translation id="5798079537501238810">网站可以安装付款处理程序</translation>
@@ -4554,7 +4554,7 @@
 <translation id="5817069030404929329">将此设备上存储的密码移至您的 Google 帐号中？</translation>
 <translation id="5817918615728894473">配对</translation>
 <translation id="5821565227679781414">创建快捷方式</translation>
-<translation id="5822865422567397338">如果要在特定网站或 Chrome 的某个部分进行搜索，您可以使用此处的快捷字词。例如，如果要仅搜索 Gmail，则输入“@gmail”，然后按 Tab 键或空格键。</translation>
+<translation id="5822865422567397338">如果要在特定网站或 Decentr 的某个部分进行搜索，您可以使用此处的快捷字词。例如，如果要仅搜索 Gmail，则输入“@gmail”，然后按 Tab 键或空格键。</translation>
 <translation id="5825412242012995131">开启（推荐）</translation>
 <translation id="5826395379250998812">请将您的 <ph name="DEVICE_TYPE" /> 连接到手机。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="5826993284769733527">半透明</translation>
@@ -4642,14 +4642,14 @@
 <translation id="5916664084637901428">启用</translation>
 <translation id="59174027418879706">已启用</translation>
 <translation id="5920543303088087579">您的管理员已禁止连接到此网络</translation>
-<translation id="5920835625712313205">Chrome 操作系统映像写入工具</translation>
+<translation id="5920835625712313205">Decentr 操作系统映像写入工具</translation>
 <translation id="5921257443092182237">Google 的位置信息服务会使用 WLAN、移动网络和传感器等来源协助估测此设备所在的位置。</translation>
 <translation id="5924047253200400718">获取帮助<ph name="SCANNING_STATUS" /></translation>
 <translation id="5924527146239595929">拍摄新照片，或者选择现有照片或图标。
     <ph name="LINE_BREAK" />
-    此图片将会显示在 Chromebook 的登录屏幕和锁定屏幕上。</translation>
+    此图片将会显示在 Decentrbook 的登录屏幕和锁定屏幕上。</translation>
 <translation id="5925147183566400388">核证作业准则 (Certification Practice Statement) 指针</translation>
-<translation id="592880897588170157">下载 PDF 文件，而不是在 Chrome 中自动打开它们</translation>
+<translation id="592880897588170157">下载 PDF 文件，而不是在 Decentr 中自动打开它们</translation>
 <translation id="592919310198008711">当我点击此扩展程序时</translation>
 <translation id="5932124097031739492">已成功升级 Linux。</translation>
 <translation id="5932224571077948991">网站展示过侵扰性或误导性广告</translation>
@@ -4674,7 +4674,7 @@
 <translation id="5946591249682680882">报告ID：<ph name="WEBRTC_LOG_REPORT_ID" /></translation>
 <translation id="5948536763493709626">您可以连接一个键盘或鼠标，也可以继续使用触摸屏进行设置。如果您使用的是蓝牙设备，请确保您的设备已准备好进行配对。</translation>
 <translation id="5949544233750246342">无法解析文件</translation>
-<translation id="5950819593680344519">Chrome 在您的计算机上未发现有害软件 • 昨天检查过</translation>
+<translation id="5950819593680344519">Decentr 在您的计算机上未发现有害软件 • 昨天检查过</translation>
 <translation id="5951303645598168883"><ph name="ORIGIN" /> 想使用本地字体</translation>
 <translation id="5951624318208955736">显示器</translation>
 <translation id="5955282598396714173">您的密码已过期。请退出并重新登录以更改密码。</translation>
@@ -4707,7 +4707,7 @@
 <translation id="5978277834170881274">使用基本拼写检查(&amp;U)</translation>
 <translation id="5979084224081478209">检查密码</translation>
 <translation id="5979156418378918004">{NUM_EXTENSIONS,plural, =1{您重新开启了 1 个可能有害的扩展程序}other{您重新开启了 {NUM_EXTENSIONS} 个可能有害的扩展程序}}</translation>
-<translation id="5979353814339191480">此选项适用于以下类型的 Chromebook：具有流量套餐或移动网络加密狗，或者已通过“网络共享”功能连接到便携式热点</translation>
+<translation id="5979353814339191480">此选项适用于以下类型的 Decentrbook：具有流量套餐或移动网络加密狗，或者已通过“网络共享”功能连接到便携式热点</translation>
 <translation id="5979421442488174909">翻成<ph name="LANGUAGE" />(&amp;T)</translation>
 <translation id="5979469435153841984">要为网页添加书签，请点击地址栏中的星形图标</translation>
 <translation id="5983831175889857946">检查完毕！</translation>
@@ -4739,7 +4739,7 @@
 <translation id="6019851026059441029">非常好 - 高清</translation>
 <translation id="6020431688553761150">服务器未授予您访问此资源的权限。</translation>
 <translation id="6022526133015258832">以全屏模式打开</translation>
-<translation id="6022659036123304283">定制您的专属 Chrome</translation>
+<translation id="6022659036123304283">定制您的专属 Decentr</translation>
 <translation id="6023643151125006053">此设备（序列号：<ph name="SERIAL_NUMBER" />）已被 <ph name="SAML_DOMAIN" /> 管理员锁定。</translation>
 <translation id="6025215716629925253">堆叠追踪</translation>
 <translation id="6026819612896463875"><ph name="WINDOW_TITLE" /> - 已连接 USB 设备</translation>
@@ -4756,10 +4756,10 @@
     <ph name="BEGIN_PARAGRAPH2" />您可以通过关闭相应设备上的主要“位置信息”设置来关闭位置信息服务。此外，您还可以在“位置信息”设置中关闭那些使用 WLAN、移动网络和传感器来获取位置信息的功能。<ph name="END_PARAGRAPH2" /></translation>
 <translation id="6041155700700864984">退出全屏</translation>
 <translation id="6042308850641462728">展开</translation>
-<translation id="6043317578411397101"><ph name="APP_NAME" /> 正在与 <ph name="TAB_NAME" /> 共享 Chrome 标签页。</translation>
+<translation id="6043317578411397101"><ph name="APP_NAME" /> 正在与 <ph name="TAB_NAME" /> 共享 Decentr 标签页。</translation>
 <translation id="604388835206766544">无法解析配置</translation>
 <translation id="6043994281159824495">立即退出</translation>
-<translation id="6044805581023976844"><ph name="APP_NAME" /> 正在与 <ph name="TAB_NAME" /> 共享 Chrome 标签页和音频。</translation>
+<translation id="6044805581023976844"><ph name="APP_NAME" /> 正在与 <ph name="TAB_NAME" /> 共享 Decentr 标签页和音频。</translation>
 <translation id="6045114302329202345">TrackPoint 主按钮</translation>
 <translation id="6047632800149092791">同步功能无法正常运行。请尝试退出帐号并重新登录。</translation>
 <translation id="6049797270917061226">攻击者可能会利用此文件窃取您的个人信息。</translation>
@@ -4773,14 +4773,14 @@
 <translation id="6056710589053485679">正常重新加载</translation>
 <translation id="6057312498756061228">这个文件太大，无法进行安全检查。您只能打开不超过 50 MB 的文件。</translation>
 <translation id="6057381398996433816">此网站已被禁止使用动态传感器和光传感器。</translation>
-<translation id="6059276912018042191">最近打开的 Chrome 标签页</translation>
+<translation id="6059276912018042191">最近打开的 Decentr 标签页</translation>
 <translation id="6059652578941944813">证书层次结构</translation>
 <translation id="6061882183774845124">将链接发送到您的设备</translation>
 <translation id="6063847492705284550"><ph name="BEGIN_BOLD" />注意<ph name="END_BOLD" />：如果有人在语音上与<ph name="SUPERVISED_USER_NAME" />相似或拥有后者的语音录音，此人可能也能获取后者的个人信息相关结果。为了省电，您可以在<ph name="SUPERVISED_USER_NAME" />的 Google 助理设置中选择让“Ok Google”指令仅在此设备已接通电源时可用。</translation>
 <translation id="6064217302520318294">屏幕锁定</translation>
 <translation id="6065289257230303064">证书主题背景目录属性</translation>
 <translation id="6066794465984119824">图片哈希未设置</translation>
-<translation id="6069464830445383022">您将使用 Google 帐号登录 Chromebook</translation>
+<translation id="6069464830445383022">您将使用 Google 帐号登录 Decentrbook</translation>
 <translation id="6069671174561668781">设置壁纸</translation>
 <translation id="6071181508177083058">确认密码</translation>
 <translation id="6071576563962215370">系统未能建立设备安装时间属性锁定。</translation>
@@ -4824,12 +4824,12 @@
 <translation id="6104068876731806426">Google 帐号</translation>
 <translation id="6104311680260824317">无法将此设备加入到该网域中。相应服务器不支持所指定的 Kerberos 加密类型。请前往“更多选项”以检查加密设置。</translation>
 <translation id="6104796831253957966">打印机队列已满</translation>
-<translation id="6105994589138235234">Chrome 浏览器同步</translation>
+<translation id="6105994589138235234">Decentr 浏览器同步</translation>
 <translation id="6111972606040028426">启用 Google 助理</translation>
 <translation id="6112294629795967147">触摸即可调整大小</translation>
 <translation id="6112727384379533756">添加票据</translation>
 <translation id="6112931163620622315">请查看您的手机</translation>
-<translation id="6113434369102685411">为 Chrome 浏览器和 <ph name="DEVICE_TYPE" /> 启动器设置默认搜索引擎</translation>
+<translation id="6113434369102685411">为 Decentr 浏览器和 <ph name="DEVICE_TYPE" /> 启动器设置默认搜索引擎</translation>
 <translation id="6113942107547980621">要使用 Smart Lock，请切换到您手机上的主要用户个人资料</translation>
 <translation id="6116921718742659598">更改语言和输入设置</translation>
 <translation id="6119927814891883061">将设备命名为“<ph name="DEVICE_NAME" />”</translation>
@@ -4845,7 +4845,7 @@
 <translation id="6124698108608891449">此网站需要更多权限。</translation>
 <translation id="6125479973208104919">抱歉，您需要再次向此 <ph name="DEVICE_TYPE" /> 添加您的帐号。</translation>
 <translation id="6126601353087978360">请在此处输入您的反馈：</translation>
-<translation id="6129691635767514872">系统已从 Chrome 和同步的设备中移除了您所选的数据。不过，您的 Google 帐号在 <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> 上可能还有其他形式的浏览记录（例如，在其他 Google 服务中的搜索记录和活动记录）。</translation>
+<translation id="6129691635767514872">系统已从 Decentr 和同步的设备中移除了您所选的数据。不过，您的 Google 帐号在 <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> 上可能还有其他形式的浏览记录（例如，在其他 Google 服务中的搜索记录和活动记录）。</translation>
 <translation id="6129938384427316298">Netscape 证书评论</translation>
 <translation id="6129953537138746214">空格</translation>
 <translation id="6130692320435119637">添加 Wi-Fi</translation>
@@ -4855,7 +4855,7 @@
 <translation id="6141988275892716286">确认下载</translation>
 <translation id="6143186082490678276">获取帮助</translation>
 <translation id="6143366292569327983">选择要翻译的网页语言</translation>
-<translation id="6144938890088808325">帮助我们改进 Chromebook</translation>
+<translation id="6144938890088808325">帮助我们改进 Decentrbook</translation>
 <translation id="6146409560350811147">同步功能无法正常运行。请尝试重新登录。</translation>
 <translation id="6147020289383635445">打印预览失败。</translation>
 <translation id="6148576794665275391">立即打开</translation>
@@ -4877,7 +4877,7 @@
 <translation id="6163376401832887457">Kerberos 设置</translation>
 <translation id="6163522313638838258">全部展开...</translation>
 <translation id="6165508094623778733">了解详情</translation>
-<translation id="6166185671393271715">将密码导入到 Chrome 中</translation>
+<translation id="6166185671393271715">将密码导入到 Decentr 中</translation>
 <translation id="6169040057125497443">请检查您的麦克风。</translation>
 <translation id="6169666352732958425">无法投射桌面。</translation>
 <translation id="6170470584681422115">三明治</translation>
@@ -4906,7 +4906,7 @@
 <translation id="6208521041562685716">正在激活移动数据</translation>
 <translation id="6208725777148613371">未能保存到“<ph name="WEB_DRIVE" />”- <ph name="INTERRUPT_REASON" /></translation>
 <translation id="6209838773933913227">正在更新组件</translation>
-<translation id="6209908325007204267">您的设备随附了一份 Chrome 企业版升级许可，但您的用户名并未与任何企业帐号关联。请先在辅助设备上前往 g.co/ChromeEnterpriseAccount 创建一个企业帐号。</translation>
+<translation id="6209908325007204267">您的设备随附了一份 Decentr 企业版升级许可，但您的用户名并未与任何企业帐号关联。请先在辅助设备上前往 g.co/DecentrEnterpriseAccount 创建一个企业帐号。</translation>
 <translation id="621172521139737651">{COUNT,plural, =0{在新标签页组中打开全部网址(&amp;N)}=1{在新标签页组中打开 1 个网址(&amp;N)}other{在新标签页组中打开全部（{COUNT} 个）网址(&amp;N)}}</translation>
 <translation id="6212039847102026977">显示高级网络属性</translation>
 <translation id="6212168817037875041">关闭显示屏</translation>
@@ -4929,7 +4929,7 @@
 <translation id="6232116551750539448">与“<ph name="NAME" />”的连接已中断</translation>
 <translation id="6233154960150021497">默认为使用语音（而非键盘）</translation>
 <translation id="6233455992368963267">系统会将<ph name="LANGUAGE" />语音发送给 Google 以供处理。</translation>
-<translation id="6234108445915742946">Chrome 的《服务条款》将于 3 月 31 日变更</translation>
+<translation id="6234108445915742946">Decentr 的《服务条款》将于 3 月 31 日变更</translation>
 <translation id="6234474535228214774">正等待安装</translation>
 <translation id="6235208551686043831">设备的摄像头已开启。请将摄像头对准您的 eSIM 卡二维码。</translation>
 <translation id="6237474966939441970">触控笔记事应用</translation>
@@ -5011,7 +5011,7 @@
 <translation id="630948338437014525">“回忆”集锦</translation>
 <translation id="6309510305002439352">麦克风已关闭</translation>
 <translation id="6310141306111263820">无法安装 eSIM 卡配置文件。如需帮助，请与您的运营商联系。</translation>
-<translation id="6311220991371174222">打开您的个人资料时出了点问题，无法启动 Chrome。请尝试重新启动 Chrome。</translation>
+<translation id="6311220991371174222">打开您的个人资料时出了点问题，无法启动 Decentr。请尝试重新启动 Decentr。</translation>
 <translation id="6312567056350025599">{NUM_DAYS,plural, =1{1 天前运行过安全检查}other{{NUM_DAYS} 天前运行过安全检查}}</translation>
 <translation id="6312638141433622592">询问是否使用阅读器模式（若支持）显示文章</translation>
 <translation id="6313641880021325787">退出虚拟实境</translation>
@@ -5025,18 +5025,18 @@
 <translation id="6318944945640833942">无法检测到打印机。请重新输入打印机地址。</translation>
 <translation id="6321407676395378991">开启屏保功能</translation>
 <translation id="6322370287306604163">指纹解锁更快捷</translation>
-<translation id="6322653941595359182">通过您的 Chromebook 收发短信</translation>
+<translation id="6322653941595359182">通过您的 Decentrbook 收发短信</translation>
 <translation id="6324916366299863871">修改快捷方式</translation>
 <translation id="6325191661371220117">停用自动启动</translation>
-<translation id="6326175484149238433">从Chrome中移除</translation>
+<translation id="6326175484149238433">从Decentr中移除</translation>
 <translation id="6326855256003666642">正在使用相应扩展程序的活动数</translation>
 <translation id="6327785803543103246">网络代理自动发现</translation>
 <translation id="6328378651911184878"><ph name="MANAGER" /> 要求您立即更新此 <ph name="DEVICE_TYPE" />。</translation>
 <translation id="6331191339300272798">自动深色主题</translation>
-<translation id="6331566915566907158">帮助改进 Chrome 操作系统的功能和性能</translation>
+<translation id="6331566915566907158">帮助改进 Decentr 操作系统的功能和性能</translation>
 <translation id="6331818708794917058">网站可以请求连接到 MIDI 设备</translation>
 <translation id="6333064448949140209">文件将发送到 Google 进行调试</translation>
-<translation id="6335920438823100346">根据 <ph name="MANAGER" /> 的要求，您必须先备份自己的数据并将此 Chromebook 恢复出厂设置，然后才能启动 Linux。</translation>
+<translation id="6335920438823100346">根据 <ph name="MANAGER" /> 的要求，您必须先备份自己的数据并将此 Decentrbook 恢复出厂设置，然后才能启动 Linux。</translation>
 <translation id="6336038146639916978"><ph name="MANAGER" /> 已停用 ADB 调试。这会导致您的 <ph name="DEVICE_TYPE" /> 在 24 小时后重置。请备份您想保留的所有文件。</translation>
 <translation id="6338981933082930623">所有网站都可以向您显示任何广告</translation>
 <translation id="6339668969738228384">为 <ph name="USER_EMAIL_ADDRESS" /> 创建新的个人资料</translation>
@@ -5097,7 +5097,7 @@
 <translation id="6410328738210026208">变更版本并执行 Powerwash</translation>
 <translation id="6410390304316730527">“安全浏览”功能可保护您免受攻击者诱骗，以防做出一些危险操作，例如安装恶意软件或泄露个人信息（如密码、电话号码或信用卡信息）。如果关闭此功能，当浏览不熟悉或信誉不佳的网站时，请一定多加小心。</translation>
 <translation id="6410668567036790476">添加搜索引擎</translation>
-<translation id="6412673304250309937">将网址与存储在 Chrome 中的不安全网站列表进行比对。如果某个网站企图窃取您的密码，或者您下载了有害的文件，Chrome 可能还会将相应网址连同少量网页内容发送给“安全浏览”功能。</translation>
+<translation id="6412673304250309937">将网址与存储在 Decentr 中的不安全网站列表进行比对。如果某个网站企图窃取您的密码，或者您下载了有害的文件，Decentr 可能还会将相应网址连同少量网页内容发送给“安全浏览”功能。</translation>
 <translation id="641469293210305670">安装更新和应用</translation>
 <translation id="6414878884710400018">打开“系统偏好设置”</translation>
 <translation id="6414888972213066896">您已向父亲/母亲发送请求，询问其是否允许您访问此网站</translation>
@@ -5113,7 +5113,7 @@
 <translation id="6419843101460769608">不允许任何网站访问蓝牙设备</translation>
 <translation id="642469772702851743">此设备（序列号：<ph name="SERIAL_NUMBER" />）已被所有者锁定。</translation>
 <translation id="6425556984042222041">文字转语音的语速</translation>
-<translation id="6426200009596957090">打开 ChromeVox 设置</translation>
+<translation id="6426200009596957090">打开 DecentrVox 设置</translation>
 <translation id="642729974267661262">不允许播放声音</translation>
 <translation id="6429384232893414837">更新错误</translation>
 <translation id="6430814529589430811">Base64 编码 ASCII，单一证书</translation>
@@ -5121,7 +5121,7 @@
 <translation id="6434104957329207050">点扫描速度</translation>
 <translation id="6434309073475700221">舍弃</translation>
 <translation id="6434325376267409267">您需要更新设备，才能使用 <ph name="APP_NAME" />。</translation>
-<translation id="6436164536244065364">在 Chrome 网上应用店中查看</translation>
+<translation id="6436164536244065364">在 Decentr 网上应用店中查看</translation>
 <translation id="6436610005579237680">如果想获得为您量身定制的回复，您不妨允许 Google 助理在您提问后使用您的屏幕上内容的屏幕截图。Google 助理可能还会使用正在播放的歌曲或视频的相关信息。</translation>
 <translation id="6436778875248895551">您的管理员已屏蔽扩展程序“<ph name="EXTENSION_NAME" />”</translation>
 <translation id="6438234780621650381">重置设置</translation>
@@ -5209,7 +5209,7 @@
 <translation id="652492607360843641">您已连接到<ph name="NETWORK_TYPE" />网络。</translation>
 <translation id="6527303717912515753">分享</translation>
 <translation id="6528179044667508675">请勿打扰</translation>
-<translation id="652948702951888897">Chrome 历史记录</translation>
+<translation id="652948702951888897">Decentr 历史记录</translation>
 <translation id="6530186581263215931">这些设置是由您的管理员强制指定的</translation>
 <translation id="6531282281159901044">保留危险文件</translation>
 <translation id="6532101170117367231">保存到 Google 云端硬盘</translation>
@@ -5278,7 +5278,7 @@
 <translation id="6597017209724497268">个样本的平均值</translation>
 <translation id="6597148444736186483">要在此设备上退出主要帐号，请点击屏幕上的时间。在随即显示的菜单中，点击“退出”。</translation>
 <translation id="6597331566371766302">您的管理员已屏蔽以下扩展程序：</translation>
-<translation id="6601395831301182804">您是想启用 ChromeVox（Chrome 操作系统的内置屏幕阅读器）吗？如果是，请按空格键。</translation>
+<translation id="6601395831301182804">您是想启用 DecentrVox（Decentr 操作系统的内置屏幕阅读器）吗？如果是，请按空格键。</translation>
 <translation id="6601612474695404578">某些网站会使用第三方 Cookie 加载网页。如果某个网站无法正常运行，您可以尝试允许使用 Cookie。</translation>
 <translation id="6602937173026466876">访问您的打印机</translation>
 <translation id="6602956230557165253">使用左右箭头键进行导航。</translation>
@@ -5323,7 +5323,7 @@
 <translation id="665061930738760572">在新窗口中打开(&amp;N)</translation>
 <translation id="6651237644330755633">信任该证书，以标识网站的身份</translation>
 <translation id="6651495917527016072">将 Wi-Fi 网络配置同步到您的手机。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
-<translation id="665355505818177700">只有 x86_64 平台才支持 Chrome <ph name="MS_AD_NAME" /> 集成功能。采用 ARM 或 x86 平台的 Chromebook 不支持此功能。</translation>
+<translation id="665355505818177700">只有 x86_64 平台才支持 Decentr <ph name="MS_AD_NAME" /> 集成功能。采用 ARM 或 x86 平台的 Decentrbook 不支持此功能。</translation>
 <translation id="6654509035557065241">设置首选网络</translation>
 <translation id="6655190889273724601">开发者模式</translation>
 <translation id="6655458902729017087">隐藏帐号</translation>
@@ -5333,11 +5333,11 @@
 <translation id="666099631117081440">打印服务器</translation>
 <translation id="6662931079349804328">企业政策已更改。实验按钮已从工具栏移除。</translation>
 <translation id="6663190258859265334">对您的 <ph name="DEVICE_TYPE" /> 执行 Powerwash 操作，使其还原到先前的版本。</translation>
-<translation id="6664237456442406323">很遗憾，您的计算机配置了格式错误的硬件 ID。这导致 Chrome 操作系统无法使用最新的安全修正程序进行更新，以致您的计算机<ph name="BEGIN_BOLD" />很容易遭到恶意攻击<ph name="END_BOLD" />。</translation>
+<translation id="6664237456442406323">很遗憾，您的计算机配置了格式错误的硬件 ID。这导致 Decentr 操作系统无法使用最新的安全修正程序进行更新，以致您的计算机<ph name="BEGIN_BOLD" />很容易遭到恶意攻击<ph name="END_BOLD" />。</translation>
 <translation id="6664774537677393800">打开您的个人资料时出了点问题。请先退出，然后重新登录。</translation>
 <translation id="666731172850799929">在 <ph name="APP_NAME" />中打开</translation>
 <translation id="6670142487971298264">现在可以使用“<ph name="APP_NAME" />”了</translation>
-<translation id="6670767097276846646">某些扩展程序可以向 Chrome 添加搜索引擎</translation>
+<translation id="6670767097276846646">某些扩展程序可以向 Decentr 添加搜索引擎</translation>
 <translation id="6671320560732140690">{COUNT,plural, =1{1 个地址}other{# 个地址}}</translation>
 <translation id="6671497123040790595">正在设置为受 <ph name="MANAGER" /> 管理</translation>
 <translation id="6673391612973410118"><ph name="PRINTER_MAKE_OR_MODEL" /> (USB)</translation>
@@ -5366,7 +5366,7 @@
 <translation id="6697492270171225480">找不到相应网页时，显示有关类似网页的建议</translation>
 <translation id="6697690052557311665">要想共享，请右键点击“文件”应用中的相应文件夹，然后选择“与 Linux 共享”。</translation>
 <translation id="6698810901424468597">读取和更改您在<ph name="WEBSITE_1" />和<ph name="WEBSITE_2" />上的数据</translation>
-<translation id="6699883973579689168">您现在可以在一个位置集中管理您的所有 Google 帐号。现在，如果您已向 Chrome 和 Google Play 中的网站、应用和扩展程序授予了访问权限和其他权限，这些权限可以应用于您的所有已登录的帐号。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
+<translation id="6699883973579689168">您现在可以在一个位置集中管理您的所有 Google 帐号。现在，如果您已向 Decentr 和 Google Play 中的网站、应用和扩展程序授予了访问权限和其他权限，这些权限可以应用于您的所有已登录的帐号。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="6700093763382332031">移动网络 SIM 卡锁定</translation>
 <translation id="6700480081846086223">投射 <ph name="HOST_NAME" /></translation>
 <translation id="6701535245008341853">无法获取个人资料。</translation>
@@ -5401,7 +5401,7 @@
 <translation id="6740234557573873150">“<ph name="FILE_NAME" />”已暂停</translation>
 <translation id="6741063444351041466"><ph name="BEGIN_LINK" />您的管理员<ph name="END_LINK" />已关闭“安全浏览”功能</translation>
 <translation id="6742339027238151589">脚本可访问</translation>
-<translation id="6742629250739345159">在 Chrome 浏览器中自动为媒体创建字幕。音频和字幕的处理工作都会在设备上完成，相关数据绝不会外泄。</translation>
+<translation id="6742629250739345159">在 Decentr 浏览器中自动为媒体创建字幕。音频和字幕的处理工作都会在设备上完成，相关数据绝不会外泄。</translation>
 <translation id="6745592621698551453">立即更新</translation>
 <translation id="6746124502594467657">下移</translation>
 <translation id="674632704103926902">启用点按拖动功能</translation>
@@ -5504,7 +5504,7 @@
 <translation id="6843264316370513305">网络调试</translation>
 <translation id="6843423766595476978">Ok Google 已设置完毕</translation>
 <translation id="6845038076637626672">以最大化模式打开</translation>
-<translation id="6845325883481699275">帮助我们改善 Chrome 安全性</translation>
+<translation id="6845325883481699275">帮助我们改善 Decentr 安全性</translation>
 <translation id="6846178040388691741">“<ph name="EXTENSION_NAME" />”想使用“<ph name="PRINTER_NAME" />”打印“<ph name="FILE_NAME" />”。</translation>
 <translation id="6847125920277401289">需要释放空间才能继续</translation>
 <translation id="6848388270925200958">此刻，您有一些卡只能在这部设备上使用</translation>
@@ -5638,11 +5638,11 @@
 <translation id="6985607387932385770">打印机</translation>
 <translation id="6988094684494323731">正在启动 Linux 容器</translation>
 <translation id="6988403677482707277">此标签页已移至标签栏的开头</translation>
-<translation id="6990209147952697693">传统版 Chrome</translation>
+<translation id="6990209147952697693">传统版 Decentr</translation>
 <translation id="6991665348624301627">选择目标打印机</translation>
 <translation id="6992554835374084304">开启增强的“拼写检查”功能</translation>
 <translation id="6993000214273684335">此标签页已从未命名的组中移除 - 该组包含<ph name="GROUP_CONTENTS" /></translation>
-<translation id="6993050154661569036">正在更新 Chrome 浏览器</translation>
+<translation id="6993050154661569036">正在更新 Decentr 浏览器</translation>
 <translation id="6994069045767983299">颜色反转</translation>
 <translation id="6995899638241819463">若密码遭遇了数据泄露，发出警告</translation>
 <translation id="6997642619627518301"><ph name="NAME_PH" /> - 活动日志</translation>
@@ -5652,7 +5652,7 @@
 <translation id="7000206553895739324">“<ph name="PRINTER_NAME" />”已建立连接但需要配置</translation>
 <translation id="7000347579424117903">必须以 Ctrl 键、Alt 键或搜索键开头</translation>
 <translation id="7001036685275644873">正在备份 Linux 应用和文件</translation>
-<translation id="7002055706763150362">要设置 Smart Lock（Chromebook 版），您需要先输入密码，因为 Google 需要确认是您本人在操作。</translation>
+<translation id="7002055706763150362">要设置 Smart Lock（Decentrbook 版），您需要先输入密码，因为 Google 需要确认是您本人在操作。</translation>
 <translation id="7003339318920871147">网络数据库</translation>
 <translation id="7003454175711353260">{COUNT,plural, =1{{COUNT} 个文件}other{{COUNT} 个文件}}</translation>
 <translation id="7003723821785740825">为您的设备设置更快速的解锁方式</translation>
@@ -5734,8 +5734,8 @@
 <translation id="7077829361966535409">使用当前代理设置无法加载登录页面。请<ph name="GAIA_RELOAD_LINK_START" />尝试重新登录<ph name="GAIA_RELOAD_LINK_END" />，或者使用不同的<ph name="PROXY_SETTINGS_LINK_START" />代理设置<ph name="PROXY_SETTINGS_LINK_END" />。</translation>
 <translation id="7078120482318506217">所有网络</translation>
 <translation id="708060913198414444">复制音频地址(&amp;O)</translation>
-<translation id="7085389578340536476">允许 Chrome 录制音频？</translation>
-<translation id="7086672505018440886">将 Chrome 日志文件添加到归档中。</translation>
+<translation id="7085389578340536476">允许 Decentr 录制音频？</translation>
+<translation id="7086672505018440886">将 Decentr 日志文件添加到归档中。</translation>
 <translation id="7088434364990739311">无法启动更新检查（错误代码为 <ph name="ERROR" />）。</translation>
 <translation id="7088674813905715446">管理员已将该设备设置为已取消配置的状态。要让该设备能够注册，请让管理员将其设置为待处理状态。</translation>
 <translation id="7093220653036489319">快速解答</translation>
@@ -5764,7 +5764,7 @@
 <translation id="711840821796638741">显示受管理的书签</translation>
 <translation id="711902386174337313">读取您登录过的设备的列表</translation>
 <translation id="711985611146095797">您可在此页面中管理您已登录的 Google 帐号。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
-<translation id="7120762240626567834">除非已连接 VPN，否则 Chrome 浏览器和 Android 流量将被屏蔽</translation>
+<translation id="7120762240626567834">除非已连接 VPN，否则 Decentr 浏览器和 Android 流量将被屏蔽</translation>
 <translation id="7120865473764644444">无法连接到同步服务器。正在重试…</translation>
 <translation id="7121438501124788993">开发者模式</translation>
 <translation id="7121728544325372695">智能破折号</translation>
@@ -5844,7 +5844,7 @@
 <translation id="722055596168483966">对 Google 服务进行个性化设置</translation>
 <translation id="722099540765702221">电源</translation>
 <translation id="7221869452894271364">重新加载此页</translation>
-<translation id="7222204278952406003">Chrome 是您的默认浏览器</translation>
+<translation id="7222204278952406003">Decentr 是您的默认浏览器</translation>
 <translation id="7222232353993864120">电子邮件地址</translation>
 <translation id="7225179976675429563">缺少网络类型</translation>
 <translation id="7227458944009118910">下列应用也能处理协议链接。其他应用会请求授权。</translation>
@@ -5902,7 +5902,7 @@
 <translation id="7273110280511444812">上次连接日期：<ph name="DATE" /></translation>
 <translation id="727441411541283857"><ph name="PERCENTAGE" />% - 还需 <ph name="TIME" />充满</translation>
 <translation id="727952162645687754">下载错误</translation>
-<translation id="7280041992884344566">Chrome 在搜索有害软件时出现错误</translation>
+<translation id="7280041992884344566">Decentr 在搜索有害软件时出现错误</translation>
 <translation id="7280649757394340890">文字转语音的语音设置</translation>
 <translation id="7280877790564589615">已请求权限</translation>
 <translation id="7282547042039404307">流畅</translation>
@@ -5923,7 +5923,7 @@
 <translation id="7299337219131431707">启用访客浏览</translation>
 <translation id="7299515639584427954">为默认应用更改受支持的链接？</translation>
 <translation id="7301470816294041580">您可以这样问：“Ok Google，这是什么歌？”或“Ok Google，我的屏幕上显示的是什么？”</translation>
-<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{这款应用可能会致使 Chrome 无法正常运行。}other{这些应用可能会致使 Chrome 无法正常运行。}}</translation>
+<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{这款应用可能会致使 Decentr 无法正常运行。}other{这些应用可能会致使 Decentr 无法正常运行。}}</translation>
 <translation id="7303281435234579599">糟糕！设置演示模式时出了点问题。</translation>
 <translation id="7303900363563182677">此网站已被阻止查看复制到剪贴板的文字和图片</translation>
 <translation id="7304030187361489308">高</translation>
@@ -5935,10 +5935,10 @@
 <translation id="7310598146671372464">未能成功登录。服务器不支持指定的 Kerberos 加密类型。请与您的管理员联系。</translation>
 <translation id="7320213904474460808">设置默认网络</translation>
 <translation id="7321545336522791733">无法连接到服务器</translation>
-<translation id="7324297612904500502">Chrome（测试版）论坛</translation>
+<translation id="7324297612904500502">Decentr（测试版）论坛</translation>
 <translation id="7325209047678309347">纸张卡住了</translation>
 <translation id="7326004502692201767">为孩子设置此 <ph name="DEVICE_TYPE" /></translation>
-<translation id="7326025035243649350">您是想启用 ChromeVox（Chrome 操作系统的内置屏幕阅读器）吗？</translation>
+<translation id="7326025035243649350">您是想启用 DecentrVox（Decentr 操作系统的内置屏幕阅读器）吗？</translation>
 <translation id="7327989755579928735"><ph name="MANAGER" /> 已停用 ADB 调试。重启 <ph name="DEVICE_TYPE" /> 后，您将无法旁加载应用。</translation>
 <translation id="7328119182036084494">已保存到“<ph name="WEB_DRIVE" />”</translation>
 <translation id="7328867076235380839">无效的组合</translation>
@@ -5981,7 +5981,7 @@
 <translation id="7366415735885268578">添加网站</translation>
 <translation id="7366909168761621528">浏览数据</translation>
 <translation id="7367714965999718019">二维码生成器</translation>
-<translation id="7367758267317684635">您会在所有已同步的设备中看到自己的 Chrome 历史记录</translation>
+<translation id="7367758267317684635">您会在所有已同步的设备中看到自己的 Decentr 历史记录</translation>
 <translation id="736877393389250337">无法在<ph name="ALTERNATIVE_BROWSER_NAME" />中打开 <ph name="URL" />。请与您的系统管理员联系。</translation>
 <translation id="7370592524170198497">以太网 EAP：</translation>
 <translation id="7371006317849674875">开始时间</translation>
@@ -5994,7 +5994,7 @@
 <translation id="737728204345822099">您对该网站的访问记录可能会保留在安全密钥上。</translation>
 <translation id="7377451353532943397">继续禁止使用传感器</translation>
 <translation id="7378611153938412599">安全系数低的密码容易被人猜到。请务必设置安全系数高的密码。<ph name="BEGIN_LINK" />查看更多安全提示<ph name="END_LINK" />。</translation>
-<translation id="73786666777299047">打开 Chrome 网上应用店</translation>
+<translation id="73786666777299047">打开 Decentr 网上应用店</translation>
 <translation id="7380622428988553498">设备名称包含无效字符</translation>
 <translation id="7380768571499464492">已更新<ph name="PRINTER_NAME" /></translation>
 <translation id="73843634555824551">输入法和键盘</translation>
@@ -6056,7 +6056,7 @@
 <translation id="7434757724413878233">鼠标加速</translation>
 <translation id="7434969625063495310">无法添加打印服务器。请检查服务器的配置，然后重试。</translation>
 <translation id="7436921188514130341">糟糕！重命名过程中出错了。</translation>
-<translation id="7438495332316988804">您可通过在启动器中输入“Chrome”来找到标准浏览器。</translation>
+<translation id="7438495332316988804">您可通过在启动器中输入“Decentr”来找到标准浏览器。</translation>
 <translation id="7439519621174723623">您必须添加设备名称才能继续操作</translation>
 <translation id="7441736921018636843">要更改此设置，请<ph name="BEGIN_LINK" />重置同步功能<ph name="END_LINK" />以移除同步密码</translation>
 <translation id="7441830548568730290">其他用户</translation>
@@ -6072,7 +6072,7 @@
 <translation id="7454548535253569100">门户网站：<ph name="SUBFRAME_SITE" /></translation>
 <translation id="7456142309650173560">开发者版本</translation>
 <translation id="7456847797759667638">打开位置...</translation>
-<translation id="7457384018036134905">在 Chrome 操作系统设置中管理语言</translation>
+<translation id="7457384018036134905">在 Decentr 操作系统设置中管理语言</translation>
 <translation id="7457831169406914076">{COUNT,plural, =1{1 个链接}other{# 个链接}}</translation>
 <translation id="7458168200501453431">使用 Google 搜索所用的拼写检查工具。您在浏览器中输入的文字会被发送给 Google。</translation>
 <translation id="7458715171471938198">还原应用？</translation>
@@ -6096,7 +6096,7 @@
 <translation id="7477748600276493962">为此页面创建二维码</translation>
 <translation id="7477793887173910789">控制您的音乐、视频等媒体内容</translation>
 <translation id="7478485216301680444">无法安装自助服务终端应用。</translation>
-<translation id="7478623944308207463">您的应用和设置会在您使用自己的 Google 帐号登录的所有 Chrome 操作系统设备上保持同步。如需了解浏览器同步选项，请转到 <ph name="LINK_BEGIN" />Chrome 设置<ph name="LINK_END" />。</translation>
+<translation id="7478623944308207463">您的应用和设置会在您使用自己的 Google 帐号登录的所有 Decentr 操作系统设备上保持同步。如需了解浏览器同步选项，请转到 <ph name="LINK_BEGIN" />Decentr 设置<ph name="LINK_END" />。</translation>
 <translation id="7478658909253570368">不允许网站连接到串行端口</translation>
 <translation id="7479221278376295180">存储空间使用情况概览</translation>
 <translation id="747981547666531654">已连接到名为“<ph name="FIRST_DEVICE" />”和“<ph name="SECOND_DEVICE" />”的蓝牙设备</translation>
@@ -6158,7 +6158,7 @@
 <translation id="754207240458482646">已与您帐号中的其他设备同步。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
 <translation id="7543104066686362383">在此<ph name="IDS_SHORT_PRODUCT_NAME" />设备上启用调试功能</translation>
 <translation id="7543525346216957623">请先征得您父亲/母亲的许可</translation>
-<translation id="7545466883021407599">无法连接到服务器。请检查您的网络连接状况，然后重试。如果问题仍然存在，请尝试重启 Chromebook。错误代码：<ph name="ERROR_CODE" />。</translation>
+<translation id="7545466883021407599">无法连接到服务器。请检查您的网络连接状况，然后重试。如果问题仍然存在，请尝试重启 Decentrbook。错误代码：<ph name="ERROR_CODE" />。</translation>
 <translation id="7547317915858803630">警告：您的 <ph name="PRODUCT_NAME" />设置存储在网络驱动器上。这可能会导致速度变慢、崩溃，甚至数据丢失。</translation>
 <translation id="7548856833046333824">酒杯</translation>
 <translation id="7550830279652415241">bookmarks_<ph name="DATESTAMP" />.html</translation>
@@ -6182,7 +6182,7 @@
 <translation id="7564847347806291057">结束进程</translation>
 <translation id="756503097602602175">您可从<ph name="LINK_BEGIN" />设置<ph name="LINK_END" />中管理已登录的 Google 帐号。您向网站和应用授予的权限可能会应用于所有帐号。如果不想让网站或应用获取您的帐号信息，您不妨以访客身份登录 <ph name="DEVICE_TYPE" />，或者在<ph name="LINK_2_BEGIN" />无痕式窗口<ph name="LINK_2_END" />中浏览网页。</translation>
 <translation id="7566118625369982896">管理 Play 应用链接</translation>
-<translation id="756809126120519699">已清除 Chrome 数据</translation>
+<translation id="756809126120519699">已清除 Decentr 数据</translation>
 <translation id="756876171895853918">自定义头像</translation>
 <translation id="7568790562536448087">更新</translation>
 <translation id="7569983096843329377">黑色</translation>
@@ -6200,7 +6200,7 @@
 <translation id="7582582252461552277">首选此网络</translation>
 <translation id="7582844466922312471">移动数据</translation>
 <translation id="7583948862126372804">计数</translation>
-<translation id="7586498138629385861">Chrome应用处于打开状态时，Chrome将持续运行。</translation>
+<translation id="7586498138629385861">Decentr应用处于打开状态时，Decentr将持续运行。</translation>
 <translation id="7589461650300748890">注意！</translation>
 <translation id="7593653750169415785">已自动阻止显示通知，因为您已多次拒绝接收通知</translation>
 <translation id="7594725637786616550">Powerwash 会将您的 <ph name="DEVICE_TYPE" /> 重置为初始状态。</translation>
@@ -6242,7 +6242,7 @@
 <translation id="7631205654593498032">连接您的设备即表示您同意 <ph name="DEVICE_TYPE" /> 执行以下操作：</translation>
 <translation id="7631887513477658702">总是打开此类文件(&amp;A)</translation>
 <translation id="7632948528260659758">以下自助服务终端应用未能成功更新：</translation>
-<translation id="7633724038415831385">只有这一次，您需要等待系统完成更新。Chromebook 上的软件更新会在后台进行。</translation>
+<translation id="7633724038415831385">只有这一次，您需要等待系统完成更新。Decentrbook 上的软件更新会在后台进行。</translation>
 <translation id="7634566076839829401">出了点问题，请重试。</translation>
 <translation id="7635048370253485243">已被您的管理员固定</translation>
 <translation id="763632859238619983">不允许任何网站安装付款处理程序</translation>
@@ -6407,7 +6407,7 @@
 <translation id="7785471469930192436">查看您所用搜索引擎的说明，了解如何删除您的搜索记录（若适用）</translation>
 <translation id="7786889348652477777">重新加载应用(&amp;R)</translation>
 <translation id="7787308148023287649">在其他屏幕上显示</translation>
-<translation id="7788298548579301890">您计算机上的其他程序擅自安装了一款可能会更改 Chrome 运作方式的应用。
+<translation id="7788298548579301890">您计算机上的其他程序擅自安装了一款可能会更改 Decentr 运作方式的应用。
 
 
 <ph name="EXTENSION_NAME" /></translation>
@@ -6425,7 +6425,7 @@
 <translation id="7799817062559422778">浅色模式</translation>
 <translation id="7800159967992492578">开启/关闭侧边搜索。已启用侧边搜索。</translation>
 <translation id="7800518121066352902">逆时针旋转(&amp;O)</translation>
-<translation id="7801679634091975683">您在此处所做的更改仅会应用到 Lacros Chrome 浏览器。若要更改您的 Chrome 浏览器设置，请打开 Chrome 浏览器，然后转到“设置”。</translation>
+<translation id="7801679634091975683">您在此处所做的更改仅会应用到 Lacros Decentr 浏览器。若要更改您的 Decentr 浏览器设置，请打开 Decentr 浏览器，然后转到“设置”。</translation>
 <translation id="780301667611848630">不用了，谢谢</translation>
 <translation id="7804072833593604762">已关闭标签页</translation>
 <translation id="7805768142964895445">状态</translation>
@@ -6439,7 +6439,7 @@
 <translation id="7815680994978050279">已屏蔽危险的下载内容</translation>
 <translation id="7817361223956157679">Linux 应用目前不支持屏幕键盘</translation>
 <translation id="7818135753970109980">已添加新主题背景（<ph name="EXTENSION_NAME" />）</translation>
-<translation id="7819992334107904369">Chrome 同步</translation>
+<translation id="7819992334107904369">Decentr 同步</translation>
 <translation id="7820561748632634942">分配更多开关？</translation>
 <translation id="782057141565633384">复制视频地址(&amp;O)</translation>
 <translation id="7822187537422052256">确定要移除此地址吗？</translation>
@@ -6449,7 +6449,7 @@
 <translation id="7826254698725248775">设备标识符冲突。</translation>
 <translation id="7826790948326204519"><ph name="BEGIN_H3" />调试功能<ph name="END_H3" />
     <ph name="BR" />
-    您可在 Chrome 操作系统设备上启用调试功能，以便在相应设备上安装并测试自定义代码。启用这些功能后，您可以：<ph name="BR" />
+    您可在 Decentr 操作系统设备上启用调试功能，以便在相应设备上安装并测试自定义代码。启用这些功能后，您可以：<ph name="BR" />
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />取消根文件系统验证，以便修改操作系统文件
       <ph name="LIST_ITEM" />允许使用标准测试密钥以 SSH 方式访问设备，以便使用 <ph name="BEGIN_CODE" />cros flash<ph name="END_CODE" /> 等工具访问设备
@@ -6457,7 +6457,7 @@
       <ph name="LIST_ITEM" />将 Dev 和系统根登录密码均设为自定义值，以便手动以 SSH 方式访问设备
     <ph name="END_LIST" />
     <ph name="BR" />
-    如果您启用了此项设置，那么即使在企业管理的设备上执行了 Powerwash 或数据擦除操作，大部分调试功能仍将保持启用状态。要完全停用所有调试功能，请执行 Chrome 操作系统恢复过程 (https://support.google.com/chromebook/answer/1080595)。
+    如果您启用了此项设置，那么即使在企业管理的设备上执行了 Powerwash 或数据擦除操作，大部分调试功能仍将保持启用状态。要完全停用所有调试功能，请执行 Decentr 操作系统恢复过程 (https://support.google.com/chromebook/answer/1080595)。
     <ph name="BR" />
     <ph name="BR" />
     如需详细了解调试功能，请访问：<ph name="BR" />
@@ -6478,7 +6478,7 @@
 <translation id="7839051173341654115">查看/备份媒体</translation>
 <translation id="7839192898639727867">证书主题背景密钥 ID</translation>
 <translation id="7841134249932030522">启用深色模式</translation>
-<translation id="7842692330619197998">如果您需要创建新帐号，请访问 g.co/ChromeEnterpriseAccount。</translation>
+<translation id="7842692330619197998">如果您需要创建新帐号，请访问 g.co/DecentrEnterpriseAccount。</translation>
 <translation id="784273751836026224">卸载 Linux</translation>
 <translation id="7843786652787044762">登录“<ph name="WEB_DRIVE" />”</translation>
 <translation id="7844992432319478437">正在更新diff</translation>
@@ -6508,11 +6508,11 @@
 <translation id="7871109039747854576">用 <ph name="COMMA" /> 键和 <ph name="PERIOD" /> 键在候选字词列表中翻页</translation>
 <translation id="787268756490971083">已关闭</translation>
 <translation id="7872758299142009420">嵌套的群组过多：<ph name="ERROR_LINE" /></translation>
-<translation id="7874257161694977650">Chrome 背景</translation>
+<translation id="7874257161694977650">Decentr 背景</translation>
 <translation id="7876027585589532670">无法修改快捷方式</translation>
 <translation id="7877451762676714207">未知服务器错误。请重试或与服务器管理员联系。</translation>
 <translation id="7879631849810108578">已成功设置快捷键：<ph name="IDS_SHORT_SET_COMMAND" /></translation>
-<translation id="7880685873361171388">如果此控件已开启且处于有效状态，Chrome 会使用您的 7 天浏览记录来确定您所在的群组或“同类群组”。广告主可为群组选择广告。您的浏览记录会私密地保留在您的设备上。这项试用版功能仅在<ph name="BEGIN_LINK" />部分区域<ph name="END_LINK" />有效。</translation>
+<translation id="7880685873361171388">如果此控件已开启且处于有效状态，Decentr 会使用您的 7 天浏览记录来确定您所在的群组或“同类群组”。广告主可为群组选择广告。您的浏览记录会私密地保留在您的设备上。这项试用版功能仅在<ph name="BEGIN_LINK" />部分区域<ph name="END_LINK" />有效。</translation>
 <translation id="7880823633812189969">系统会在您重启设备时删除本地数据</translation>
 <translation id="7881066108824108340">DNS</translation>
 <translation id="7881483672146086348">查看帐号</translation>
@@ -6533,7 +6533,7 @@
 <translation id="7898725031477653577">一律翻译</translation>
 <translation id="790040513076446191">管理隐私相关设置</translation>
 <translation id="7901405293566323524">手机中心</translation>
-<translation id="7901914889562552258">使用网页指标改进后的 Chrome</translation>
+<translation id="7901914889562552258">使用网页指标改进后的 Decentr</translation>
 <translation id="7903345046358933331">该页面已停止响应。您可以等待该页面恢复响应，也可以将其关闭。</translation>
 <translation id="7903742244674067440">您有证书可标识以下证书授权中心</translation>
 <translation id="7903925330883316394">实用程序：<ph name="UTILITY_TYPE" /></translation>
@@ -6611,7 +6611,7 @@
 <translation id="7974566588408714340">使用“<ph name="EXTENSIONNAME" />”重试</translation>
 <translation id="7974713334845253259">默认颜色</translation>
 <translation id="7974936243149753750">过扫描</translation>
-<translation id="7975504106303186033">您必须将这部 Chrome 教育版设备注册到一个教育版帐号。若要注册新帐号，请访问 g.co/workspace/edusignup。</translation>
+<translation id="7975504106303186033">您必须将这部 Decentr 教育版设备注册到一个教育版帐号。若要注册新帐号，请访问 g.co/workspace/edusignup。</translation>
 <translation id="7978412674231730200">私有密钥</translation>
 <translation id="7978450511781612192">执行此操作会使您退出 Google 帐号。您的书签、历史记录、密码及其他设置将不再保持同步。</translation>
 <translation id="7980084013673500153">资源 ID：<ph name="ASSET_ID" /></translation>
@@ -6641,7 +6641,7 @@
 <translation id="8008356846765065031">网络已断开，请检查您的互联网连接是否正常。</translation>
 <translation id="8009225694047762179">管理密码</translation>
 <translation id="8012647001091218357">我们暂时无法与您父母取得联系，请重试。</translation>
-<translation id="8013993649590906847">如果图片缺少有用的说明，则 Chrome 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Google。</translation>
+<translation id="8013993649590906847">如果图片缺少有用的说明，则 Decentr 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Google。</translation>
 <translation id="8014154204619229810">更新程序正在运行，请稍后刷新并再次查看。</translation>
 <translation id="8014206674403687691"><ph name="IDS_SHORT_PRODUCT_NAME" />无法还原到之前安装的版本。请重新尝试对您的设备执行 Powerwash 操作。</translation>
 <translation id="8015163965024115122">您对<ph name="IDS_SHORT_PRODUCT_NAME" />或<ph name="IDS_SHORT_PRODUCT_NAME" />应用的使用时长已达到您家长所设的上限。</translation>
@@ -6732,7 +6732,7 @@
 <translation id="8096740438774030488">使用电池时休眠</translation>
 <translation id="80974698889265265">两次输入的 PIN 码不一致</translation>
 <translation id="809792523045608178"><ph name="IDS_SHORT_PRODUCT_NAME" /> 使用的是由某款扩展程序指定的代理设置</translation>
-<translation id="8097959162767603171">您的管理员必须先接受管理控制台 Chrome 设备列表中的服务条款。</translation>
+<translation id="8097959162767603171">您的管理员必须先接受管理控制台 Decentr 设备列表中的服务条款。</translation>
 <translation id="8098156986344908134">安装 <ph name="DEVICE_OS" /> 并清空硬盘？</translation>
 <translation id="8098616321286360457">需要连接网络</translation>
 <translation id="810068641062493918">已选择“<ph name="LANGUAGE" />”。按搜索键 + 空格键即可取消选择。</translation>
@@ -6748,11 +6748,11 @@
 <translation id="8109109153262930486">默认头像</translation>
 <translation id="8110489095782891123">正在下载联系人列表…</translation>
 <translation id="8113476325385351118">继续禁止此网站完全控制 MIDI 设备</translation>
-<translation id="8114199541033039755">在平板电脑模式下，使用相应按钮转到主屏幕、返回以及切换应用。如果启用了 ChromeVox 或自动点击功能，系统会开启此设置。</translation>
+<translation id="8114199541033039755">在平板电脑模式下，使用相应按钮转到主屏幕、返回以及切换应用。如果启用了 DecentrVox 或自动点击功能，系统会开启此设置。</translation>
 <translation id="8115139559594092084">来自您的 Google 云端硬盘</translation>
 <translation id="8116972784401310538">书签管理器(&amp;B)</translation>
 <translation id="8117752106453549166">您的管理员正在配置 Linux。此过程将需要几分钟的时间。</translation>
-<translation id="8118362518458010043">已被 Chrome 停用。此扩展程序可能不安全。</translation>
+<translation id="8118362518458010043">已被 Decentr 停用。此扩展程序可能不安全。</translation>
 <translation id="8118488170956489476">您的<ph name="BEGIN_LINK" />浏览器由所属组织管理<ph name="END_LINK" /></translation>
 <translation id="8118515372935001629">显示屏刷新频率</translation>
 <translation id="8118860139461251237">管理您的下载内容</translation>
@@ -6797,7 +6797,7 @@
 <translation id="816055135686411707">设置证书信任时出错</translation>
 <translation id="8160775796528709999">只需在设置中启用“实时字幕”功能，即可为您的音频和视频生成字幕</translation>
 <translation id="816095449251911490"><ph name="SPEED" /> - <ph name="RECEIVED_AMOUNT" />，<ph name="TIME_REMAINING" /></translation>
-<translation id="81610453212785426">Chrome 正在通过 <ph name="BEGIN_LINK" />Privacy Sandbox<ph name="END_LINK" /> 开发新技术，以便既能保护开放网络又能使您免受跨网站跟踪。</translation>
+<translation id="81610453212785426">Decentr 正在通过 <ph name="BEGIN_LINK" />Privacy Sandbox<ph name="END_LINK" /> 开发新技术，以便既能保护开放网络又能使您免受跨网站跟踪。</translation>
 <translation id="8161293209665121583">使用阅读器模式显示网页</translation>
 <translation id="8162984717805647492">{NUM_TABS,plural, =1{将标签页移至新窗口}other{将标签页移至新窗口}}</translation>
 <translation id="8165997195302308593">Crostini 端口转发</translation>
@@ -7055,7 +7055,7 @@
 <translation id="8457451314607652708">导入书签</translation>
 <translation id="8458341576712814616">快捷字词</translation>
 <translation id="8458627787104127436">在新窗口中打开全部（<ph name="URL_COUNT" /> 个）网址</translation>
-<translation id="8460490661223303637">为节省内存，Chrome 移除了部分内容</translation>
+<translation id="8460490661223303637">为节省内存，Decentr 移除了部分内容</translation>
 <translation id="8460932807646981183">管理搜索引擎和网站搜索</translation>
 <translation id="84613761564611563">正在显示请求的网络配置界面，请稍候…</translation>
 <translation id="8461914792118322307">代理</translation>
@@ -7072,7 +7072,7 @@
 <translation id="8471959340398751476">折扣信息查找功能已关闭。您可在“自定义”菜单中开启此功能</translation>
 <translation id="8472623782143987204">硬件支持</translation>
 <translation id="8473863474539038330">地址和其他信息</translation>
-<translation id="8475313423285172237">您计算机上的其他程序添加了一个扩展程序，该扩展程序可能会改变 Chrome 的工作方式。</translation>
+<translation id="8475313423285172237">您计算机上的其他程序添加了一个扩展程序，该扩展程序可能会改变 Decentr 的工作方式。</translation>
 <translation id="8477241577829954800">被取代</translation>
 <translation id="8477384620836102176">基本信息(&amp;G)</translation>
 <translation id="8479109005219657634">第 <ph name="DEVICE_INDEX" /> 部设备（共 <ph name="DEVICE_COUNT" /> 部），名称为“<ph name="DEVICE_NAME" />”，类型为音频设备，电池电量为 <ph name="BATTERY_PERCENTAGE" />%</translation>
@@ -7093,7 +7093,7 @@
 <translation id="8496717697661868878">运行此插件</translation>
 <translation id="8497219075884839166">Windows 实用程序</translation>
 <translation id="8498214519255567734">可让您更舒适地在黯淡的光线下查看屏幕或阅读文字</translation>
-<translation id="8498395510292172881">继续在 Chrome 中阅读</translation>
+<translation id="8498395510292172881">继续在 Decentr 中阅读</translation>
 <translation id="8499083585497694743">将麦克风取消静音</translation>
 <translation id="8502536196501630039">要使用来自 Google Play 的应用，您必须先恢复自己的应用。某些数据可能已丢失。</translation>
 <translation id="8503813439785031346">用户名</translation>
@@ -7134,7 +7134,7 @@
 <translation id="8546930481464505581">自定义触摸栏</translation>
 <translation id="8547013269961688403">启用全屏放大镜</translation>
 <translation id="85486688517848470">按住搜索键可切换顶行键的行为</translation>
-<translation id="8549316893834449916">您将使用自己的 Google 帐号登录 Chromebook - 此帐号与您登录 Gmail、Google 云端硬盘、YouTube 等服务时使用的帐号相同。</translation>
+<translation id="8549316893834449916">您将使用自己的 Google 帐号登录 Decentrbook - 此帐号与您登录 Gmail、Google 云端硬盘、YouTube 等服务时使用的帐号相同。</translation>
 <translation id="8551388862522347954">许可</translation>
 <translation id="8551588720239073785">日期和时间设置</translation>
 <translation id="8553342806078037065">管理其他用户</translation>
@@ -7173,7 +7173,7 @@
 <translation id="8599681327221583254">有一项或多项政策未正确配置。请与您的管理员联系</translation>
 <translation id="8601206103050338563">TLS WWW 客户端身份验证</translation>
 <translation id="8601611099293226919">使用 Google 智能镜头搜索您的屏幕上的内容</translation>
-<translation id="8602851771975208551">您计算机上的其他程序添加了一个应用，该应用可能会改变 Chrome 的工作方式。</translation>
+<translation id="8602851771975208551">您计算机上的其他程序添加了一个应用，该应用可能会改变 Decentr 的工作方式。</translation>
 <translation id="8605428685123651449">SQLite 使用的内存</translation>
 <translation id="8608618451198398104">添加 Kerberos 票据</translation>
 <translation id="8609465669617005112">上移</translation>
@@ -7187,7 +7187,7 @@
 <translation id="8619803522055190423">阴影</translation>
 <translation id="8619892228487928601"><ph name="CERTIFICATE_NAME" />：<ph name="ERROR" /></translation>
 <translation id="8620436878122366504">您的父母尚未批准此请求</translation>
-<translation id="8621866727807194849">您的计算机上存在有害软件。Chrome 正在移除该软件、恢复您的设置并停用扩展程序。这可确保您的浏览器能够重新正常运行。</translation>
+<translation id="8621866727807194849">您的计算机上存在有害软件。Decentr 正在移除该软件、恢复您的设置并停用扩展程序。这可确保您的浏览器能够重新正常运行。</translation>
 <translation id="8621979332865976405">共享您的整个屏幕</translation>
 <translation id="8624354461147303341">获取折扣信息</translation>
 <translation id="8624944202475729958"><ph name="PROFILE_NAME" />：<ph name="ERROR_DESCRIPTION" /></translation>
@@ -7204,7 +7204,7 @@
 <translation id="8635628933471165173">正在重新加载…</translation>
 <translation id="8636284842992792762">正在初始化扩展程序…</translation>
 <translation id="8636500887554457830">不允许网站显示弹出式窗口或使用重定向</translation>
-<translation id="8637542770513281060">您的计算机包含一个安全模块，该模块可用于在 Chrome 操作系统中实施许多关键的安全功能。要了解详情，请访问 Chromebook 帮助中心：https://support.google.com/chromebook/?p=sm</translation>
+<translation id="8637542770513281060">您的计算机包含一个安全模块，该模块可用于在 Decentr 操作系统中实施许多关键的安全功能。要了解详情，请访问 Decentrbook 帮助中心：https://support.google.com/chromebook/?p=sm</translation>
 <translation id="8637688295594795546">有系统更新，开始下载...</translation>
 <translation id="8639047128869322042">正在查找有害软件…</translation>
 <translation id="8639635302972078117">发送使用情况数据和诊断数据。目前，此设备会自动向 Google 发送诊断数据、设备数据和应用使用情况数据。我们会使用这些数据提高系统和应用的稳定性，并改进其他方面，但不会利用数据辨识您孩子的身份。部分汇总数据还会对 Google 应用和合作伙伴（例如 Android 开发者）有所帮助。如果您已为孩子开启“其他网络与应用活动记录”设置，这些数据可能会被保存到其 Google 帐号中。</translation>
@@ -7235,7 +7235,7 @@
 <translation id="8662795692588422978">用户</translation>
 <translation id="8662811608048051533">会致使您从大多数网站退出。</translation>
 <translation id="8662911384982557515">将您的主页更改为：<ph name="HOME_PAGE" /></translation>
-<translation id="8662978096466608964">Chrome 无法设置壁纸。</translation>
+<translation id="8662978096466608964">Decentr 无法设置壁纸。</translation>
 <translation id="8663099077749055505">始终禁止在 <ph name="HOST" /> 上自动下载多个文件</translation>
 <translation id="8664389313780386848">查看网页源代码(&amp;V)</translation>
 <translation id="8665180165765946056">备份完成</translation>
@@ -7260,7 +7260,7 @@
 <translation id="8678582529642151449">不收缩标签页</translation>
 <translation id="8678933587484842200">您希望通过何种方式启动此应用？</translation>
 <translation id="8680251145628383637">登录后即可在您的任何设备上获取自己的书签、历史记录、密码和其他设置。此外，您还会自动登录到 Google 服务。</translation>
-<translation id="8681614230122836773">Chrome 在您的计算机上发现了有害软件</translation>
+<translation id="8681614230122836773">Decentr 在您的计算机上发现了有害软件</translation>
 <translation id="8682730193597992579"><ph name="PRINTER_NAME" /> 已连接且已准备就绪</translation>
 <translation id="8683081248374354009">重置群组</translation>
 <translation id="8683526617475118045">您会获得哪些好处</translation>
@@ -7285,7 +7285,7 @@
 <translation id="8712637175834984815">知道了</translation>
 <translation id="8713570323158206935">发送<ph name="BEGIN_LINK1" />系统信息<ph name="END_LINK1" /></translation>
 <translation id="8714838604780058252">背景图形</translation>
-<translation id="871515167518607670">请选择一部设备。然后，您便可在此设备上打开 Chrome 查看收到的页面。</translation>
+<translation id="871515167518607670">请选择一部设备。然后，您便可在此设备上打开 Decentr 查看收到的页面。</translation>
 <translation id="8715480913140015283">背景标签页正在使用您的摄像头</translation>
 <translation id="8716931980467311658">要从这部 <ph name="DEVICE_TYPE" /> 中删除您“Linux 文件”文件夹中的所有 Linux 应用和数据吗？</translation>
 <translation id="8717864919010420084">复制链接</translation>
@@ -7318,7 +7318,7 @@
 <translation id="8737709691285775803">Shill</translation>
 <translation id="8737914367566358838">选择要将网页翻译成哪种语言</translation>
 <translation id="8737916108453753541">系统会与 Google 分享相关网址以了解浏览行为</translation>
-<translation id="8740247629089392745">您可将这部 Chromebook 交给<ph name="SUPERVISED_USER_NAME" />。即将设置完毕，然后就能尽情探索了。</translation>
+<translation id="8740247629089392745">您可将这部 Decentrbook 交给<ph name="SUPERVISED_USER_NAME" />。即将设置完毕，然后就能尽情探索了。</translation>
 <translation id="8741944563400125534">开关控制设置指南</translation>
 <translation id="8742998548129056176">这是关于您的设备及其使用情况（例如电池电量、系统与应用活动以及错误）的一般信息。我们会使用这些数据来改善 Android，部分汇总信息还会有助于改善 Google 应用，并会协助我们的合作伙伴（例如 Android 开发者）改善其应用和产品。</translation>
 <translation id="8746654918629346731">您已请求安装“<ph name="EXTENSION_NAME" />”</translation>
@@ -7347,7 +7347,7 @@
 <translation id="8762886931014513155">您的 <ph name="DEVICE_TYPE" /> 需要更新</translation>
 <translation id="8763927697961133303">USB 设备</translation>
 <translation id="87646919272181953">Google 相册中的影集</translation>
-<translation id="8767621466733104912">自动为所有用户更新 Chrome</translation>
+<translation id="8767621466733104912">自动为所有用户更新 Decentr</translation>
 <translation id="8770406935328356739">扩展程序根目录</translation>
 <translation id="8771300903067484968">已将初始页背景重置为默认背景。</translation>
 <translation id="8773302562181397928">保存<ph name="PRINTER_NAME" /></translation>
@@ -7382,7 +7382,7 @@
 <translation id="8805140816472474147">请确认同步设置以开始同步。</translation>
 <translation id="8806680466228877631"><ph name="SHORTCUT" /> 可以重新打开意外关闭的标签页</translation>
 <translation id="8807632654848257479">稳定</translation>
-<translation id="8808478386290700967">Chrome 网上应用店</translation>
+<translation id="8808478386290700967">Decentr 网上应用店</translation>
 <translation id="8808686172382650546">猫</translation>
 <translation id="8809147117840417135">浅蓝绿色</translation>
 <translation id="8811862054141704416">Crostini 麦克风使用权限</translation>
@@ -7435,7 +7435,7 @@
 <translation id="8850251000316748990">查看更多…</translation>
 <translation id="885246833287407341">API 函数参数</translation>
 <translation id="8853586775156634952">此信用卡信息将仅保存到此设备上</translation>
-<translation id="8855977033756560989">该 Chromebook 企业版设备捆绑了 Chrome 企业版升级许可。要充分利用企业版功能，请使用 Google 管理控制台帐号注册该设备。</translation>
+<translation id="8855977033756560989">该 Decentrbook 企业版设备捆绑了 Decentr 企业版升级许可。要充分利用企业版功能，请使用 Google 管理控制台帐号注册该设备。</translation>
 <translation id="8856028055086294840">恢复应用和网页</translation>
 <translation id="885701979325669005">存储数据</translation>
 <translation id="8859057652521303089">选择语言：</translation>
@@ -7491,7 +7491,7 @@
 <translation id="8903263458134414071">请选择要登录的帐号</translation>
 <translation id="890616557918890486">更改来源</translation>
 <translation id="8907787635362884532">发布者：<ph name="APP_ORIGIN" /></translation>
-<translation id="8907906903932240086">Chrome 可以检查您的计算机上是否存在有害软件</translation>
+<translation id="8907906903932240086">Decentr 可以检查您的计算机上是否存在有害软件</translation>
 <translation id="8909298138148012791">已卸载 <ph name="APP_NAME" /></translation>
 <translation id="8909833622202089127">该网站正在跟踪您的位置</translation>
 <translation id="8910222113987937043">对您的书签、历史记录、密码及其他设置所做的更改将不再同步到您的 Google 帐号。但是，您的现有数据依然会存储在您的 Google 帐号中，而且您可以通过 <ph name="BEGIN_LINK" />Google 信息中心<ph name="END_LINK" />管理这些数据。</translation>
@@ -7571,13 +7571,13 @@
 <translation id="8986362086234534611">不保存</translation>
 <translation id="8986494364107987395">将使用情况统计信息和崩溃报告自动发送给 Google</translation>
 <translation id="8987927404178983737">月</translation>
-<translation id="8988879467270412492">您是想启用 ChromeVox（Chrome 操作系统的内置屏幕阅读器）吗？如果是，请同时按住两个音量键 5 秒钟。</translation>
+<translation id="8988879467270412492">您是想启用 DecentrVox（Decentr 操作系统的内置屏幕阅读器）吗？如果是，请同时按住两个音量键 5 秒钟。</translation>
 <translation id="8991520179165052608">该网站可能会使用您的麦克风</translation>
 <translation id="899384117894244799">移除受限用户</translation>
 <translation id="899403249577094719">Netscape 证书基本网址</translation>
 <translation id="8995603266996330174">由 <ph name="DOMAIN" /> 管理</translation>
 <translation id="8996526648899750015">添加帐号…</translation>
-<translation id="899657321862108550">您的“专属”Chrome 浏览器，走到哪带到哪</translation>
+<translation id="899657321862108550">您的“专属”Decentr 浏览器，走到哪带到哪</translation>
 <translation id="899676909165543803">指纹传感器就是键盘右下角的那个按键。请用任一手指轻触该按键。</translation>
 <translation id="8999560016882908256">区段语法错误：<ph name="ERROR_LINE" /></translation>
 <translation id="9003647077635673607">允许在所有网站上运行脚本</translation>
@@ -7718,10 +7718,10 @@
 <translation id="9130015405878219958">输入的模式无效。</translation>
 <translation id="9131487537093447019">向蓝牙设备发送消息，以及接收来自蓝牙设备的消息。</translation>
 <translation id="9134066738478820307">网站可以使用标识符来播放受保护内容</translation>
-<translation id="913411432238655354">在 Chrome 启动时恢复应用</translation>
+<translation id="913411432238655354">在 Decentr 启动时恢复应用</translation>
 <translation id="9137013805542155359">显示原始网页</translation>
 <translation id="9137157311132182254">首选搜索引擎</translation>
-<translation id="9137248913990643158">在使用此应用前，请先启动并登录 Chrome。</translation>
+<translation id="9137248913990643158">在使用此应用前，请先启动并登录 Decentr。</translation>
 <translation id="9137916601698928395">以 <ph name="USER" /> 身份打开链接</translation>
 <translation id="9138978632494473300">在以下位置添加快捷方式：</translation>
 <translation id="9139258866388561662">登录“<ph name="WEB_DRIVE" />”后才能完成下载</translation>
@@ -7747,10 +7747,10 @@
     <ph name="BEGIN_LIST" />
       <ph name="LIST_ITEM" />检查网线、调制解调器和路由器
       <ph name="LIST_ITEM" />重新连接到 Wi-Fi 网络
-      <ph name="LIST_ITEM" />运行 Chrome 连接诊断工具
+      <ph name="LIST_ITEM" />运行 Decentr 连接诊断工具
     <ph name="END_LIST" /></translation>
 <translation id="916607977885256133">画中画</translation>
-<translation id="9166813363879986425">无论是在哪部 Chrome 操作系统设备上，您只需登录自己的 Google 帐号，便能使用您保存的偏好设置和活动记录。您可在“设置”中选择要同步的内容。</translation>
+<translation id="9166813363879986425">无论是在哪部 Decentr 操作系统设备上，您只需登录自己的 Google 帐号，便能使用您保存的偏好设置和活动记录。您可在“设置”中选择要同步的内容。</translation>
 <translation id="9167063903968449027">显示阅读清单</translation>
 <translation id="9167450455589251456">此个人资料不受支持</translation>
 <translation id="9168436347345867845">以后再说</translation>
@@ -7759,7 +7759,7 @@
 <translation id="9170048603158555829">Thunderbolt</translation>
 <translation id="9170061643796692986">当前的公开范围设置是“所有联系人”</translation>
 <translation id="9170848237812810038">撤消(&amp;U)</translation>
-<translation id="9170884462774788842">您计算机上的其他程序添加了一个主题背景，该主题背景可能会改变 Chrome 的工作方式。</translation>
+<translation id="9170884462774788842">您计算机上的其他程序添加了一个主题背景，该主题背景可能会改变 Decentr 的工作方式。</translation>
 <translation id="917350715406657904">您已达到您家长为“<ph name="APP_NAME" />”设定的使用时限。明天可以使用 <ph name="TIME_LIMIT" />。</translation>
 <translation id="9174401638287877180">发送使用情况数据和诊断数据。自动向 Google 发送诊断数据、设备数据和应用使用情况数据，帮助改善您孩子的 Android 使用体验。我们会使用这些数据提高系统和应用的稳定性，并改进其他方面，但不会利用数据辨识您孩子的身份。部分汇总数据还会对 Google 应用和合作伙伴（例如 Android 开发者）有所帮助。如果您已为孩子开启“其他网络与应用活动记录”设置，这些数据可能会被保存到其 Google 帐号中。</translation>
 <translation id="917510707618656279">在网站想访问蓝牙设备时询问您</translation>
@@ -7804,7 +7804,7 @@
 <translation id="93343527085570547">如要依法提出内容更改请求，请前往<ph name="BEGIN_LINK1" />法律帮助页面<ph name="END_LINK1" />。系统可能会将部分帐号和系统信息发送给 Google。我们会根据<ph name="BEGIN_LINK2" />隐私权政策<ph name="END_LINK2" />和<ph name="BEGIN_LINK3" />服务条款<ph name="END_LINK3" />使用您提供的信息，以解决技术问题并改进服务。</translation>
 <translation id="93393615658292258">仅限密码</translation>
 <translation id="934244546219308557">为此组命名</translation>
-<translation id="934503638756687833">如有必要，此处未列出的内容也会被移除。请参阅 Chrome 隐私权政策白皮书，详细了解&lt;a href="<ph name="URL" />"&gt;垃圾软件防护&lt;/a&gt;。</translation>
+<translation id="934503638756687833">如有必要，此处未列出的内容也会被移除。请参阅 Decentr 隐私权政策白皮书，详细了解&lt;a href="<ph name="URL" />"&gt;垃圾软件防护&lt;/a&gt;。</translation>
 <translation id="93480724622239549">问题或错误</translation>
 <translation id="935490618240037774">您的书签、历史记录、密码及其他设置均将同步到您的 Google 帐号，以便您在自己所有的设备上使用。</translation>
 <translation id="935854577147268200">Smart Lock 所用的配对手机已更改。请输入您的密码以更新 Smart Lock。下次，您就能使用新的配对手机解锁您的 <ph name="DEVICE_TYPE" /> 了。您可在“设置”中关闭 Smart Lock。</translation>
@@ -7816,7 +7816,7 @@
 <translation id="939252827960237676">无法保存屏幕截图</translation>
 <translation id="939598580284253335">请输入密码</translation>
 <translation id="939736085109172342">新建文件夹</translation>
-<translation id="942532530371314860"><ph name="APP_NAME" /> 正在共享 Chrome 标签页和音频。</translation>
+<translation id="942532530371314860"><ph name="APP_NAME" /> 正在共享 Decentr 标签页和音频。</translation>
 <translation id="945522503751344254">发送反馈</translation>
 <translation id="947329552760389097">检查元素(&amp;I)</translation>
 <translation id="947526284350604411">您的回答</translation>
@@ -7828,7 +7828,7 @@
 <translation id="957960681186851048">此网站试图自动下载多个文件</translation>
 <translation id="960987915827980018">约剩 1 小时</translation>
 <translation id="962802172452141067">书签文件夹树</translation>
-<translation id="964286338916298286">您的 IT 管理员已禁止您的设备享用 Chrome 附赠的好礼。</translation>
+<translation id="964286338916298286">您的 IT 管理员已禁止您的设备享用 Decentr 附赠的好礼。</translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{应用}other{应用}}</translation>
 <translation id="964790508619473209">屏幕排列方式</translation>
 <translation id="965211523698323809">通过您的<ph name="DEVICE_TYPE" />收发短信。<ph name="LINK_BEGIN" />了解详情<ph name="LINK_END" /></translation>
@@ -7863,12 +7863,12 @@
 <translation id="988978206646512040">密码字段不能留空</translation>
 <translation id="992032470292211616">这些扩展程序、应用和主题背景可能会危害您的设备。确定要继续下载吗？</translation>
 <translation id="992256792861109788">粉色</translation>
-<translation id="992592832486024913">停用 ChromeVox（语音反馈）</translation>
+<translation id="992592832486024913">停用 DecentrVox（语音反馈）</translation>
 <translation id="992778845837390402">正在进行 Linux 备份</translation>
 <translation id="993540765962421562">正在安装</translation>
 <translation id="994289308992179865">循环(&amp;L)</translation>
 <translation id="995782501881226248">YouTube</translation>
 <translation id="996250603853062861">正在建立安全连接...</translation>
-<translation id="99731366405731005">您需要开启 <ph name="LINK1_BEGIN" />Chrome 同步<ph name="LINK1_END" />才能使用 Wi-Fi 同步功能。<ph name="LINK2_BEGIN" />了解详情<ph name="LINK2_END" /></translation>
+<translation id="99731366405731005">您需要开启 <ph name="LINK1_BEGIN" />Decentr 同步<ph name="LINK1_END" />才能使用 Wi-Fi 同步功能。<ph name="LINK2_BEGIN" />了解详情<ph name="LINK2_END" /></translation>
 <translation id="998747458861718449">检查(&amp;N)</translation>
 </translationbundle>

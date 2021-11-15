@@ -111,9 +111,7 @@
 #include "ui/gfx/win/crash_id_helper.h"
 #include "ui/strings/grit/app_locale_settings.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "chrome/browser/win/conflicts/third_party_conflicts_manager.h"
-#endif
 
 namespace {
 
@@ -432,11 +430,7 @@ void SetupModuleDatabase(std::unique_ptr<ModuleWatcher>* module_watcher) {
   DCHECK(module_watcher);
 
   bool third_party_blocking_policy_enabled =
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
       ModuleDatabase::IsThirdPartyBlockingPolicyEnabled();
-#else
-      false;
-#endif
 
   ModuleDatabase::GetTaskRunner()->PostTask(
       FROM_HERE, base::BindOnce(&InitializeModuleDatabase,
@@ -633,7 +627,6 @@ void ChromeBrowserMainPartsWin::ShowMissingLocaleMessageBox() {
 void ChromeBrowserMainPartsWin::PostProfileInit() {
   ChromeBrowserMainParts::PostProfileInit();
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // Explicitly disable the third-party modules blocking.
   //
   // Because the blocking code lives in chrome_elf, it is not possible to check
@@ -651,7 +644,6 @@ void ChromeBrowserMainPartsWin::PostProfileInit() {
              base::TaskShutdownBehavior::CONTINUE_ON_SHUTDOWN,
              base::MayBlock()})
             .get());
-#endif
 
   // Create the module database and hook up the in-process module watcher. This
   // needs to be done before any child processes are initialized as the

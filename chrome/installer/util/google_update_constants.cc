@@ -6,18 +6,18 @@
 
 namespace google_update {
 
-const wchar_t kChromeUpgradeCode[] = L"{8A69D345-D564-463C-AFF1-A69D9E530F96}";
+const wchar_t kChromeUpgradeCode[] = L"{E6062629-CC9E-4F16-9A7B-990EF7A0DCDB}";
 
 const wchar_t kGoogleUpdateUpgradeCode[] =
-    L"{430FD4D0-B729-4F61-AA34-91526481799D}";
+    L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
 
-const wchar_t kGoogleUpdateSetupExe[] = L"GoogleUpdateSetup.exe";
+const wchar_t kGoogleUpdateSetupExe[] = L"DecentrUpdateSetup.exe";
 
-const wchar_t kRegPathClients[] = L"Software\\Google\\Update\\Clients";
-const wchar_t kRegPathClientState[] = L"Software\\Google\\Update\\ClientState";
+const wchar_t kRegPathClients[] = L"Software\\Decentr\\Update\\Clients";
+const wchar_t kRegPathClientState[] = L"Software\\Decentr\\Update\\ClientState";
 const wchar_t kRegPathClientStateMedium[] =
-    L"Software\\Google\\Update\\ClientStateMedium";
-const wchar_t kRegPathGoogleUpdate[] = L"Software\\Google\\Update";
+    L"Software\\Decentr\\Update\\ClientStateMedium";
+const wchar_t kRegPathGoogleUpdate[] = L"Software\\Decentr\\Update";
 
 const wchar_t kRegCommandsKey[] = L"Commands";
 

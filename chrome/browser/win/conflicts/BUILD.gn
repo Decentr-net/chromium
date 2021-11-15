@@ -62,7 +62,7 @@ source_set("unit_tests") {
     "//testing/gtest",
   ]
 
-  if (is_chrome_branded) {
+  #if (is_chrome_branded) {
     sources += [
       "incompatible_applications_updater_unittest.cc",
       "installed_applications_unittest.cc",
@@ -78,10 +78,10 @@ source_set("unit_tests") {
       ":module_list_proto",
       "//chrome/chrome_elf:third_party_shared_defines",
     ]
-  }
+  #}
 }
 
-if (is_chrome_branded) {
+#if (is_chrome_branded) {
   source_set("browser_tests") {
     defines = [ "HAS_OUT_OF_PROC_TEST_RUNNER" ]
 
@@ -103,4 +103,4 @@ if (is_chrome_branded) {
       "//testing/gtest",
     ]
   }
-}
+#}

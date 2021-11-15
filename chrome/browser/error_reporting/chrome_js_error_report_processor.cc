@@ -305,17 +305,12 @@ void ChromeJsErrorReportProcessor::CheckAndUpdateRecentErrorReports(
 void ChromeJsErrorReportProcessor::Create() {
   // Google only wants error reports from official builds. Don't install a
   // processor for other builds.
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   DCHECK(JsErrorReportProcessor::Get() == nullptr)
       << "Attempted to create multiple ChromeJsErrorReportProcessors";
   VLOG(3) << "Installing ChromeJsErrorReportProcessor as JavaScript error "
              "processor";
   JsErrorReportProcessor::SetDefault(
       base::AdoptRef(new ChromeJsErrorReportProcessor));
-#else
-  VLOG(3) << "Not installing ChromeJsErrorReportProcessor as JavaScript error "
-          << "processor; not a Google Chrome build";
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
 void ChromeJsErrorReportProcessor::SendErrorReport(

@@ -11,9 +11,7 @@
 #include "build/branding_buildflags.h"
 #include "chrome/browser/win/conflicts/module_database_observer.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "base/timer/timer.h"
-#endif
 
 struct ModuleInfoData;
 struct ModuleInfoKey;
@@ -34,9 +32,7 @@ class ThirdPartyMetricsRecorder : public ModuleDatabaseObserver {
                         const ModuleInfoData& module_data) override;
   void OnModuleDatabaseIdle() override;
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   void SetHookDisabled() { hook_enabled_ = false; }
-#endif
 
  private:
   // The size of the unsigned modules crash keys.
@@ -49,7 +45,6 @@ class ThirdPartyMetricsRecorder : public ModuleDatabaseObserver {
   // a problem in practice because this class is leaked.
   void AddUnsignedModuleToCrashkeys(const std::wstring& module_basename);
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // Invoked periodically to record heartbeat metrics related to third-party
   // DLL blocking.
   void RecordHeartbeatMetrics();
@@ -65,7 +60,6 @@ class ThirdPartyMetricsRecorder : public ModuleDatabaseObserver {
   // was disabled because in-process printing was invoked.
   // See ModuleDatabase::DisableThirdPartyBlocking().
   bool hook_enabled_ = true;
-#endif
 
   // The index of the crash key that is currently being updated.
   size_t current_key_index_ = 0;

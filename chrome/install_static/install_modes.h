@@ -38,11 +38,7 @@
 //   array.
 // - NUM_INSTALL_MODES: the total number of modes (i.e., the number of items in
 //   kInstallModes.
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-#include "chrome/install_static/google_chrome_install_modes.h"
-#else
 #include "chrome/install_static/chromium_install_modes.h"
-#endif
 
 namespace install_static {
 

@@ -107,7 +107,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles et les modificat
 <translation id="4285930937574705105">Échec de l'installation suite à une erreur non spécifiée. Si Decentr est en cours d'exécution, veuillez le fermer, puis réessayer.</translation>
 <translation id="4407044323746248786">Quitter Decentr quand même?</translation>
 <translation id="4415566066719264597">Laisser Decentr s'exécuter en arrière-plan</translation>
-<translation id="4423735387467980091">Personnaliser et commander Chrome</translation>
+<translation id="4423735387467980091">Personnaliser et commander Decentr</translation>
 <translation id="452711251841752011">Bienvenue à Decentr, une nouvelle fenêtre de navigateur a été ouverte</translation>
 <translation id="4544142686420020088">La mise à jour de Decentr n'a pas été installée. Une erreur s'est produite. <ph name="BEGIN_LINK" />Découvrez comment résoudre les problèmes de mise à jour de Decentr.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Continuer avec un nouveau profil Decentr?</translation>
@@ -122,7 +122,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles et les modificat
 <translation id="4750035648288509542">La mise à jour est presque terminée! Relancez Decentr pour terminer la mise à jour. Vos fenêtres de navigation privée ne seront pas rouvertes.</translation>
 <translation id="4788777615168560705">Decentr ne peut pas vérifier vos mots de passe. Réessayez après 24 heures ou <ph name="BEGIN_LINK" />effectuez une vérification des mots de passe dans votre compte Google<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Cela fait appel au même correcteur orthographique que celui qui est utilisé dans la recherche Google. Le texte que vous tapez dans le navigateur est envoyé à Google. Vous pouvez toujours modifier ce comportement dans les paramètres.</translation>
-<translation id="4888717733111232871">Règle de trafic entrant pour Chrome afin d'autoriser le trafic mDNS.</translation>
+<translation id="4888717733111232871">Règle de trafic entrant pour Decentr afin d'autoriser le trafic mDNS.</translation>
 <translation id="4893347770495441059">Relancer &amp;Decentr pour le mettre à jour</translation>
 <translation id="4943838377383847465">Decentr fonctionne en mode arrière-plan.</translation>
 <translation id="4987820182225656817">Les invités peuvent utiliser Decentr sans rien laisser derrière eux.</translation>
@@ -202,7 +202,7 @@ Certaines fonctionnalités seront peut-être inaccessibles. Veuillez spécifier 
 <translation id="6857782730669500492">Decentr - <ph name="PAGE_TITLE" /></translation>
 <translation id="6863361426438995919">Google Pay (copiée dans Decentr)</translation>
 <translation id="6873893289264747459">Decentr a constaté que « <ph name="EXTENSION_NAME" /> » contient un logiciel malveillant</translation>
-<translation id="6893813176749746474">Chrome a été mis à jour, mais vous ne l'avez pas utilisé depuis au moins 30 jours.</translation>
+<translation id="6893813176749746474">Decentr a été mis à jour, mais vous ne l'avez pas utilisé depuis au moins 30 jours.</translation>
 <translation id="691026815377248078">Decentr nécessite l'accès au Bluetooth pour continuer l'association. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
 <translation id="6964305034639999644">Ouvrir le lien dans une fenêtre de navi&amp;gation privée Decentr</translation>
 <translation id="6978145336957848883">Les mots de passe faibles sont faciles à deviner. Vous pouvez laisser Decentr <ph name="BEGIN_LINK" />créer et mémoriser des mots de passe forts pour vous<ph name="END_LINK" />.</translation>
@@ -231,7 +231,7 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="7561906087460245826">Effacer les données également dans Decentr (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Si un paramètre ne s'affiche pas sur cette page, consultez les <ph name="LINK_BEGIN" />paramètres de Decentr OS<ph name="LINK_END" /></translation>
 <translation id="761356813943268536">Decentr utilise votre caméra et votre microphone</translation>
-<translation id="7617377681829253106">Chrome vient de s'améliorer</translation>
+<translation id="7617377681829253106">Decentr vient de s'améliorer</translation>
 <translation id="7686590090926151193">Decentr n'est pas votre navigateur par défaut</translation>
 <translation id="7689606757190482937">Synchroniser et personnaliser Decentr sur vos appareils</translation>
 <translation id="7729447699958282447">Decentr n'a pas pu synchroniser vos données, car la synchronisation n'est pas offerte pour votre nom de domaine.</translation>
@@ -260,7 +260,7 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="8550334526674375523">Ce profil professionnel est distinct de votre profil personnel.</translation>
 <translation id="8558383651099478961">Ton parent a désactivé le paramètre « Autorisations pour les sites, les applications et les extensions » dans Decentr. L'activation de ce <ph name="EXTENSION_TYPE_PARAMETER" /> n'est pas autorisée.</translation>
 <translation id="8568283329061645092">Decentr peut vérifier vos mots de passe lorsque vous vous connectez avec votre compte Google</translation>
-<translation id="8586442755830160949">© <ph name="YEAR" /> Les auteurs de Chrome. Tous droits réservés.</translation>
+<translation id="8586442755830160949">© <ph name="YEAR" /> Les auteurs de Decentr. Tous droits réservés.</translation>
 <translation id="8619360774459241877">Lancement de Decentr en cours…</translation>
 <translation id="8621669128220841554">Échec de l'installation en raison d'une erreur non spécifiée. Veuillez télécharger Decentr à nouveau.</translation>
 <translation id="8697124171261953979">Elle définit également quelle page s'affiche lorsque vous démarrez Decentr ou que vous effectuez une recherche dans l'omnibox.</translation>
@@ -286,5 +286,5 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="9214764063801632699">Système Decentr OS</translation>
 <translation id="93478295209880648">Il se peut que Decentr ne fonctionne pas correctement, car il n'est plus compatible avec Windows XP ni Windows Vista</translation>
 <translation id="965162752251293939">Qui utilise Decentr?</translation>
-<translation id="985602178874221306">Les auteurs de Chrome</translation>
+<translation id="985602178874221306">Les auteurs de Decentr</translation>
 </translationbundle>

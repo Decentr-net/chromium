@@ -3570,20 +3570,13 @@ static_library("ui") {
     ]
     libs += [ "crypt32.lib" ]
 
-    if (is_chrome_branded) {
-      sources += [
-        "webui/help/version_updater_win.cc",
-        "webui/help/version_updater_win.h",
-        "webui/settings/incompatible_applications_handler_win.cc",
-        "webui/settings/incompatible_applications_handler_win.h",
-      ]
-      deps += [ "//google_update" ]
-    } else {
-      sources += [
-        "webui/help/version_updater_basic.cc",
-        "webui/help/version_updater_basic.h",
-      ]
-    }
+    sources += [
+      "webui/help/version_updater_win.cc",
+      "webui/help/version_updater_win.h",
+      "webui/settings/incompatible_applications_handler_win.cc",
+      "webui/settings/incompatible_applications_handler_win.h",
+    ]
+    deps += [ "//google_update" ]
   } else {  # 'OS!="win"
     # The Cast Linux build sets toolkit_views to false, but many files in this
     # target include views-related files unconditionally, causing `gn check`

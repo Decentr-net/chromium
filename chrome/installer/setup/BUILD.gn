@@ -120,12 +120,12 @@ if (is_win) {
       "//ui/base:fullscreen_win",
     ]
 
-    if (is_chrome_branded) {
+    #if (is_chrome_branded) {
       sources += [
         "channel_override_work_item.cc",
         "channel_override_work_item.h",
       ]
-    }
+    #}
   }
 
   process_version_rc_template("setup_exe_version") {

@@ -202,16 +202,12 @@ void BrowserSwitcherServiceWin::LoadRulesFromPrefs() {
 base::FilePath BrowserSwitcherServiceWin::GetCacheDir() {
   if (!cache_dir_for_testing_.empty())
     return cache_dir_for_testing_;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   base::FilePath path;
   if (!base::PathService::Get(base::DIR_LOCAL_APP_DATA, &path))
     return path;
-  path = path.AppendASCII("Google");
+  path = path.AppendASCII("Decentr");
   path = path.AppendASCII("BrowserSwitcher");
   return path;
-#else
-  return base::FilePath();
-#endif
 }
 
 void BrowserSwitcherServiceWin::OnAllRulesetsParsed() {
