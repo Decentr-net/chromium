@@ -48,11 +48,7 @@ namespace {
 // The path to the external extension <id>.json files.
 // /usr/share seems like a good choice, see: http://www.pathname.com/fhs/
 const base::FilePath::CharType kFilepathSinglePrefExtensions[] =
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-    FILE_PATH_LITERAL("/usr/share/google-chrome/extensions");
-#else
-    FILE_PATH_LITERAL("/usr/share/chromium/extensions");
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
+    FILE_PATH_LITERAL("/usr/share/decentr/extensions");
 
 #endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_CHROMEOS)
 
@@ -410,9 +406,9 @@ bool PathProvider(int key, base::FilePath* result) {
 #if BUILDFLAG(IS_POSIX) && !BUILDFLAG(IS_MAC) && !BUILDFLAG(IS_OPENBSD)
     case chrome::DIR_POLICY_FILES: {
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-      cur = base::FilePath(FILE_PATH_LITERAL("/etc/opt/chrome/policies"));
+      cur = base::FilePath(FILE_PATH_LITERAL("/etc/opt/decentr/policies"));
 #else
-      cur = base::FilePath(FILE_PATH_LITERAL("/etc/chromium/policies"));
+      cur = base::FilePath(FILE_PATH_LITERAL("/etc/decentr/policies"));
 #endif
       break;
     }
@@ -445,8 +441,7 @@ bool PathProvider(int key, base::FilePath* result) {
       if (!chrome::GetGlobalApplicationSupportDirectory(&cur))
         return false;
 
-      cur = cur.Append(FILE_PATH_LITERAL("Google"))
-               .Append(FILE_PATH_LITERAL("Chrome"))
+      cur = cur.Append(FILE_PATH_LITERAL("Decentr"))
                .Append(FILE_PATH_LITERAL("External Extensions"));
       create_dir = false;
 #else
