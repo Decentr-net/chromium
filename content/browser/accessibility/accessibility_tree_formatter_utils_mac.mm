@@ -10,12 +10,17 @@
 
 using ui::AXPropertyNode;
 
+#if !defined(MAC_OS_VERSION_12_0) || \
+    MAC_OS_X_VERSION_MAX_ALLOWED < MAC_OS_VERSION_12_0
+using AXTextMarkerRangeRef = CFTypeRef;
+using AXTextMarkerRef = CFTypeRef;
+
 extern "C" {
-
-CFTypeRef AXTextMarkerRangeCopyStartMarker(CFTypeRef);
-
-CFTypeRef AXTextMarkerRangeCopyEndMarker(CFTypeRef);
+  AXTextMarkerRef AXTextMarkerRangeCopyStartMarker(AXTextMarkerRangeRef);
+  AXTextMarkerRef AXTextMarkerRangeCopyEndMarker(AXTextMarkerRangeRef);
 }  // extern "C"
+#endif
+
 
 namespace content {
 namespace a11y {
@@ -261,12 +266,10 @@ OptionalNSObject AttributeInvoker::InvokeForAXTextMarkerRange(
     const id target,
     const AXPropertyNode& property_node) const {
   if (property_node.name_or_value == "anchor")
-    return OptionalNSObject(static_cast<id>(
-        AXTextMarkerRangeCopyStartMarker(static_cast<CFTypeRef>(target))));
+    return OptionalNSObject(static_cast<id>(AXTextMarkerRangeCopyStartMarker(static_cast<AXTextMarkerRangeRef>(target))));
 
   if (property_node.name_or_value == "focus")
-    return OptionalNSObject(static_cast<id>(
-        AXTextMarkerRangeCopyEndMarker(static_cast<CFTypeRef>(target))));
+    return OptionalNSObject(static_cast<id>(AXTextMarkerRangeCopyEndMarker(static_cast<AXTextMarkerRangeRef>(target))));
 
   // Unmatched attribute. No error for a tree dump calls because the tree dump
   // sets generic property filters not depending on a node, so we can be called

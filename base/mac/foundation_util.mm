@@ -249,11 +249,7 @@ const char* BaseBundleID() {
     return base_bundle_id;
   }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  return "com.google.Chrome";
-#else
-  return "org.chromium.Chromium";
-#endif
+  return "com.decentr.Decentr";
 }
 
 void SetBaseBundleID(const char* new_base_bundle_id) {

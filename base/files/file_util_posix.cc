@@ -643,10 +643,8 @@ bool CreateTemporaryFileInDir(const FilePath& dir, FilePath* temp_file) {
 FilePath FormatTemporaryFileName(FilePath::StringPieceType identifier) {
 #if defined(OS_APPLE)
   StringPiece prefix = base::mac::BaseBundleID();
-#elif BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  StringPiece prefix = "com.google.Chrome";
 #else
-  StringPiece prefix = "org.chromium.Chromium";
+  StringPiece prefix = "com.Decentr.Decentr";
 #endif
   return FilePath(StrCat({".", prefix, ".", identifier}));
 }
