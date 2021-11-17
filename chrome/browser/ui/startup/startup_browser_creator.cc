@@ -639,6 +639,8 @@ bool StartupBrowserCreator::LaunchBrowser(
     in_synchronous_profile_launch_ = false;
   }
 
+#if defined(OS_WIN)
+
   base::FilePath extension_dir;
   if (first_run::IsChromeFirstRun() && base::PathService::Get(chrome::DIR_EXTERNAL_EXTENSIONS, &extension_dir)) 
   {
@@ -654,6 +656,7 @@ bool StartupBrowserCreator::LaunchBrowser(
         crx_installer->InstallCrx(file_to_install);
     }
 
+#endif
   profile_launch_observer.Get().AddLaunched(profile);
 
   return true;
