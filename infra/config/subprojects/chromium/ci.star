@@ -1579,12 +1579,12 @@ ci.chromium_builder(
             "archive_datas": [
                 {
                     "files": [
-                        "chrome",
+                        "decentr",
                         "chrome-wrapper",
                         "chrome_100_percent.pak",
                         "chrome_200_percent.pak",
                         "chrome_crashpad_handler",
-                        "chrome_sandbox",
+                        "decentr_sandbox",
                         "icudtl.dat",
                         "libEGL.so",
                         "libGLESv2.so",

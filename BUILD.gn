@@ -500,7 +500,7 @@ group("gn_all") {
       "//net:disk_cache_memory_test",
       "//net:quic_client",
       "//net:quic_server",
-      "//sandbox/linux:chrome_sandbox",
+      "//sandbox/linux:decentr_sandbox",
       "//sandbox/linux:sandbox_linux_unittests",
       "//testing:empty_main",
     ]
@@ -993,7 +993,7 @@ if (is_chromeos_ash) {
       "//media:media_unittests",
       "//media/capture:capture_unittests",
       "//ppapi/examples/video_decode",
-      "//sandbox/linux:chrome_sandbox",
+      "//sandbox/linux:decentr_sandbox",
       "//sandbox/linux:sandbox_linux_unittests",
       "//third_party/breakpad:minidump_stackwalk($host_toolchain)",
       "//third_party/dawn/src/tests:dawn_end2end_tests",
