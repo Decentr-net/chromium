@@ -368,9 +368,9 @@ template("linux_package") {
   channel = invoker.channel
 
   if (is_chrome_branded) {
-    package = "decentr"
+    package = "decentr-browser"
   } else {
-    package = "decentr"
+    package = "decentr-browser"
   }
 
   deb_target_name = "${target_name}_deb"

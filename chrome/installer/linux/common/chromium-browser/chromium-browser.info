@@ -6,7 +6,7 @@
 # chromium-browser packages for various platforms.
 
 # Base name of the package.
-PACKAGE="decentr"
+PACKAGE="decentr-browser"
 
 # Base name of the snap package
 SNAPNAME="decentr"
