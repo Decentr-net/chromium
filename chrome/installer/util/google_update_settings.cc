@@ -44,11 +44,7 @@ const int GoogleUpdateSettings::kCheckPeriodOverrideMinutesMax =
 
 const GoogleUpdateSettings::UpdatePolicy
     GoogleUpdateSettings::kDefaultUpdatePolicy =
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
         GoogleUpdateSettings::AUTOMATIC_UPDATES;
-#else
-        GoogleUpdateSettings::UPDATES_DISABLED;
-#endif
 
 namespace {
 
