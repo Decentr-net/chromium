@@ -286,7 +286,7 @@ TEST_F(EnterpriseReportingPrivateGetPersistentSecretFunctionTest, GetSecret) {
   ASSERT_EQ(generated_blob, result3->GetBlob());
 
   const wchar_t kDefaultRegistryPath[] =
-      L"SOFTWARE\\Google\\Endpoint Verification";
+      L"SOFTWARE\\Decentr\\Endpoint Verification";
   const wchar_t kValueName[] = L"Safe Storage";
 
   base::win::RegKey key;

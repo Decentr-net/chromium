@@ -27,13 +27,8 @@ namespace {
 // These two strings ARE indeed user facing.  But they are used to access
 // the encryption keyword.  So as to not lose encrypted data when system
 // locale changes we DO NOT LOCALIZE.
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-const char kDefaultServiceName[] = "Chrome Safe Storage";
-const char kDefaultAccountName[] = "Chrome";
-#else
-const char kDefaultServiceName[] = "Chromium Safe Storage";
-const char kDefaultAccountName[] = "Chromium";
-#endif
+const char kDefaultServiceName[] = "Decentr Safe Storage";
+const char kDefaultAccountName[] = "Decentr";
 
 // Generates a random password and adds it to the Keychain.  The added password
 // is returned from the function.  If an error occurs, an empty password is
