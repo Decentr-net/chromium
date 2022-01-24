@@ -56,8 +56,7 @@ const PrepopulatedEngine* const engines_AE[] = {
     &baidu,
     &mail_ru,
     &internet_archive,
-    &yandex_com,   
-
+    &yandex_com,
 };
 
 // Albania
@@ -758,10 +757,16 @@ const PrepopulatedEngine* const engines_IS[] = {
 // Italy
 const PrepopulatedEngine* const engines_IT[] = {
     &google,
+    &duckduckgo,
     &bing,
     &yahoo,
-    &duckduckgo,
     &ecosia,
+    &aol,
+    &ask,
+    &baidu,
+    &mail_ru,
+    &internet_archive,
+    &yandex_com,
 };
 
 // Jamaica
@@ -1124,10 +1129,16 @@ const PrepopulatedEngine* const engines_NZ[] = {
 // Oman
 const PrepopulatedEngine* const engines_OM[] = {
     &google,
+    &duckduckgo,
     &bing,
     &yahoo,
-    &duckduckgo,
+    &ecosia,
+    &aol,
     &ask,
+    &baidu,
+    &mail_ru,
+    &internet_archive,
+    &yandex_com,
 };
 
 // Panama
@@ -2013,10 +2024,26 @@ std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedEngines(
   // If there is a set of search engines in the preferences file, it overrides
   // the built-in set.
   std::vector<std::unique_ptr<TemplateURLData>> t_urls = GetPrepopulatedTemplateURLData(prefs);
-  if (t_urls.empty()) 
-  {
-    std::vector<std::unique_ptr<TemplateURLData>>  t_urls = GetPrepopulationSetFromCountryID( country_codes::GetCountryIDFromPrefs(prefs));
+  std::map<std::u16string, std::unique_ptr<TemplateURLData>> t_urls_original_map;
+  for (auto& ptr : t_urls) {
+    auto key = ptr->short_name();
+    t_urls_original_map.emplace(std::move(key), std::move(ptr));
   }
+
+  std::vector<std::unique_ptr<TemplateURLData>> t_urls_to_add = GetPrepopulationSetFromCountryID(country_codes::GetCountryIDFromPrefs(prefs));
+  for (auto& ptr : t_urls_to_add) {
+    auto key = ptr->short_name();
+    auto itr = t_urls_original_map.find(key);
+    if (itr == t_urls_original_map.end()) {
+      t_urls_original_map.emplace(std::move(key), std::move(ptr));
+    }
+  }
+
+  t_urls.clear();
+  for (auto& pair : t_urls_original_map) {
+    t_urls.emplace_back(std::move(pair.second));
+  }
+
   if (default_search_provider_index) {
     const auto itr = std::find_if(
         t_urls.begin(), t_urls.end(),
