@@ -72,7 +72,7 @@ constexpr auto kOutdatedBuildDetectorPeriod = base::Days(1);
 constexpr auto kOutdatedBuildAge = base::Days(7) * 8;
 
 constexpr bool ShouldDetectOutdatedBuilds() {
-  return true;
+  return false;
 }
 
 // Check if one of the outdated simulation switches was present on the command
