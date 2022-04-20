@@ -22,40 +22,6 @@
     <settings-animated-pages id="pages" section="appearance"
         focus-config="[[focusConfig_]]">
       <div route-path="default">
-        <div class="settings-row first" id="themeRow"
-            hidden="[[!pageVisibility.setTheme]]">
-          <cr-link-row class="first" hidden="[[!pageVisibility.setTheme]]"
-              label="$i18n{themes}" sub-label="[[themeSublabel_]]"
-              on-click="openThemeUrl_" external></cr-link-row>
-<if expr="not is_linux or chromeos_ash or chromeos_lacros">
-          <template is="dom-if" if="[[prefs.extensions.theme.id.value]]">
-            <div class="separator"></div>
-            <cr-button id="useDefault" on-click="onUseDefaultTap_">
-              $i18n{resetToDefaultTheme}
-            </cr-button>
-          </template>
-</if>
-<if expr="is_linux and not chromeos and not lacros">
-          <div class="settings-row continuation"
-              hidden="[[!showThemesSecondary_(
-                  prefs.extensions.theme.id.value, useSystemTheme_)]]"
-              id="themesSecondaryActions">
-            <div class="separator"></div>
-            <template is="dom-if" if="[[showUseClassic_(
-                prefs.extensions.theme.id.value, useSystemTheme_)]]" restamp>
-              <cr-button id="useDefault" on-click="onUseDefaultTap_">
-                $i18n{useClassicTheme}
-              </cr-button>
-            </template>
-            <template is="dom-if" if="[[showUseSystem_(
-                prefs.extensions.theme.id.value, useSystemTheme_)]]" restamp>
-              <cr-button id="useSystem" on-click="onUseSystemTap_">
-                $i18n{useSystemTheme}
-              </cr-button>
-            </template>
-          </div>
-</if>
-        </div>
         <div
             class="hr"
             hidden="[[!showHr_(
