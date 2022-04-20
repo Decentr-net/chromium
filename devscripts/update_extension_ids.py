@@ -1,5 +1,6 @@
 import os
 import os.path
+import shutil
 import sys
 
 
@@ -30,7 +31,6 @@ if len(sys.argv) != 3:
 extensions_folder_path = "../chrome/browser/resources/"
 extensions_grd_filepath = "../chrome/browser/resources/component_extension_resources.grd"
 extensions_grd_filepath_temp = "../chrome/browser/resources/component_extension_resources.grd.tmp"
-extensions_grd_filepath_bak = "../chrome/browser/resources/component_extension_resources.grd.bak"
 
 extension_folder = sys.argv[1]
 extension_id_name = sys.argv[2]
@@ -76,8 +76,5 @@ for line in grd_file:
 grd_file.close()
 grd_file_temp.close()
 
-if os.path.isfile(extensions_grd_filepath_bak):
-  os.remove(extensions_grd_filepath_bak)
-
-os.rename(extensions_grd_filepath, extensions_grd_filepath_bak)
+os.remove(extensions_grd_filepath)
 os.rename(extensions_grd_filepath_temp, extensions_grd_filepath)
