@@ -89,6 +89,7 @@ generate_grd("build_grd") {
     "untrusted/background_image.html",
     "untrusted/background_image.js",
     "untrusted/image.html",
+    "icon.svg",
     "untrusted/one_google_bar.html",
     "untrusted/one_google_bar.js",
   ]
