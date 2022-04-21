@@ -1985,15 +1985,13 @@ std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedTemplateURLData(
   if (!prefs)
     return t_urls;
 
-  const base::ListValue* list = prefs->GetList(prefs::kSearchProviderOverrides);
+  const base::Value* list = prefs->GetList(prefs::kSearchProviderOverrides);
   if (!list)
     return t_urls;
 
-  size_t num_engines = list->GetList().size();
-  for (size_t i = 0; i != num_engines; ++i) {
-    const base::DictionaryValue* engine;
-    if (list->GetDictionary(i, &engine)) {
-      auto t_url = TemplateURLDataFromOverrideDictionary(*engine);
+  for (const base::Value& engine : list->GetListDeprecated()) {
+    if (engine.is_dict()) {
+      auto t_url = TemplateURLDataFromOverrideDictionary(engine);
       if (t_url)
         t_urls.push_back(std::move(t_url));
     }
@@ -2023,27 +2021,12 @@ std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedEngines(
     size_t* default_search_provider_index) {
   // If there is a set of search engines in the preferences file, it overrides
   // the built-in set.
-  std::vector<std::unique_ptr<TemplateURLData>> t_urls = GetPrepopulatedTemplateURLData(prefs);
-  std::map<std::u16string, std::unique_ptr<TemplateURLData>> t_urls_original_map;
-  for (auto& ptr : t_urls) {
-    auto key = ptr->short_name();
-    t_urls_original_map.emplace(std::move(key), std::move(ptr));
+  std::vector<std::unique_ptr<TemplateURLData>> t_urls =
+      GetPrepopulatedTemplateURLData(prefs);
+  if (t_urls.empty()) {
+    t_urls = GetPrepopulationSetFromCountryID(
+        country_codes::GetCountryIDFromPrefs(prefs));
   }
-
-  std::vector<std::unique_ptr<TemplateURLData>> t_urls_to_add = GetPrepopulationSetFromCountryID(country_codes::GetCountryIDFromPrefs(prefs));
-  for (auto& ptr : t_urls_to_add) {
-    auto key = ptr->short_name();
-    auto itr = t_urls_original_map.find(key);
-    if (itr == t_urls_original_map.end()) {
-      t_urls_original_map.emplace(std::move(key), std::move(ptr));
-    }
-  }
-
-  t_urls.clear();
-  for (auto& pair : t_urls_original_map) {
-    t_urls.emplace_back(std::move(pair.second));
-  }
-
   if (default_search_provider_index) {
     const auto itr = std::find_if(
         t_urls.begin(), t_urls.end(),

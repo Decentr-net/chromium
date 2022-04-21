@@ -136,6 +136,7 @@ if (!is_android && !is_mac) {
     if (is_win) {
       output_name = "initialexe/Decentr"
     } else {
+      output_name = "decentr"
     }
 
     # Because the sources list varies so significantly per-platform, generally
@@ -1925,6 +1926,7 @@ if (is_linux || is_chromeos) {
 if (is_chromeos_lacros && is_official_build) {
   # This will strip chrome binary and produce chrome.debug with symbols.
   strip_binary("strip_chrome_binary") {
+    binary_input = "$root_out_dir/decentr"
     symbol_output = "$root_out_dir/decentr.debug"
     stripped_binary_output = "$root_out_dir/decentr.stripped"
     deps = [ ":chrome" ]

@@ -110,8 +110,8 @@ void AddInfoBarsIfNecessary(Browser* browser,
     if (show_bad_flags_security_warnings)
       chrome::ShowBadFlagsPrompt(web_contents);
 
-    infobars::ContentInfoBarManager* infobar_manager =
-        infobars::ContentInfoBarManager::FromWebContents(web_contents);
+    //infobars::ContentInfoBarManager* infobar_manager =
+      //  infobars::ContentInfoBarManager::FromWebContents(web_contents);
 
     /*if (!google_apis::HasAPIKeyConfigured())
       GoogleApiKeysInfoBarDelegate::Create(infobar_manager);
