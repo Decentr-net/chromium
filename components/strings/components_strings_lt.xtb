@@ -14,18 +14,12 @@
 <translation id="1028781062521375153">Žr. išsamią informaciją</translation>
 <translation id="1030706264415084469"><ph name="URL" /> prašo leidimo nuolat saugoti daug duomenų įrenginyje</translation>
 <translation id="1032854598605920125">Pasukti pagal laikrodžio rodyklę</translation>
-<translation id="1033329911862281889">Naudodami inkognito režimą netampate nematomi internete:
-        <ph name="BEGIN_LIST" />
-          <ph name="LIST_ITEM" />svetainėse ir jų naudojamose paslaugose gali būti rodomi apsilankymai;<ph name="END_LIST_ITEM" />
-          <ph name="LIST_ITEM" />darbdaviai ar mokyklos gali stebėti naršymo veiklą;<ph name="END_LIST_ITEM" />
-          <ph name="LIST_ITEM" />interneto paslaugų teikėjai gali stebėti žiniatinklio srautą.<ph name="END_LIST_ITEM" />
-        <ph name="END_LIST" /></translation>
 <translation id="1036348656032585052">Išjungti</translation>
-<translation id="1036982837258183574">Paspauskite |<ph name="ACCELERATOR" />|, kad išeitumėte iš viso ekrano režimo</translation>
 <translation id="1038106730571050514">Rodyti pasiūlymus</translation>
 <translation id="1038842779957582377">nežinomas pavadinimas</translation>
 <translation id="1041998700806130099">Užduoties lapo pranešimas</translation>
 <translation id="1048785276086539861">Kai redaguosite komentarus, bus pateikta šio dokumento vieno puslapio peržiūra</translation>
+<translation id="1049743911850919806">Inkognito</translation>
 <translation id="1050038467049342496">Uždarykite kitas programas</translation>
 <translation id="1055184225775184556">&amp;Anuliuoti pridėjimą</translation>
 <translation id="1056898198331236512">Įspėjimas</translation>
@@ -48,12 +42,12 @@
 <translation id="1103523840287552314">Visada versti <ph name="LANGUAGE" /></translation>
 <translation id="1110994991967754504"><ph name="PERMISSION_NAME" />: pasirinkite leidimą</translation>
 <translation id="1113869188872983271">&amp;Anuliuoti pertvarkymą</translation>
+<translation id="1115795617528746272"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada – „Enter“, kad uždarytumėte visus šiuo metu atidarytus inkognito langus.</translation>
 <translation id="1123753900084781868">Subtitrų realiuoju laiku funkcija dabar nepasiekiama</translation>
 <translation id="1125573121925420732">Kol atnaujinami svetainių saugos nustatymai, gali būti dažnai rodomi įspėjimai. Netrukus tai turėtų būti išspręsta.</translation>
 <translation id="112840717907525620">Gera politikos talpykla</translation>
 <translation id="1130564665089811311">Mygtukas „Versti puslapį“, paspauskite „Enter“, kad šis puslapis būtų verčiamas naudojant „Google“ vertėją</translation>
 <translation id="1131264053432022307">Nukopijuotas vaizdas</translation>
-<translation id="1142846828089312304">Blokuoti trečiųjų šalių slapukus inkognito režimu</translation>
 <translation id="1150979032973867961">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN" />; jo saugos sertifikatas nėra patikimas kompiuterio operacinei sistemai. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="1151972924205500581">Būtinas slaptažodis</translation>
 <translation id="1156303062776767266">Peržiūrite vietinį arba bendrinamą failą</translation>
@@ -70,6 +64,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1178581264944972037">Pristabdyti</translation>
 <translation id="1181037720776840403">Pašalinti</translation>
 <translation id="1186201132766001848">Patikrinti slaptažodžius</translation>
+<translation id="1195210374336998651">Eiti į programos nustatymus</translation>
 <translation id="1195558154361252544">Pranešimai automatiškai blokuojami visose svetainėse, išskyrus svetaines, kuriose leidote rodyti</translation>
 <translation id="1197088940767939838">Oranžinė</translation>
 <translation id="1201402288615127009">Kitas</translation>
@@ -88,7 +83,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="124116460088058876">Daugiau kalbų</translation>
 <translation id="1243027604378859286">Autorius:</translation>
 <translation id="1246424317317450637">Pusjuodis</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite suasmeninti pritaikomumo įrankius „Chrome“ OS nustatymuose</translation>
 <translation id="1250759482327835220">Kad kitą kartą galėtumėte greičiau atlikti mokėjimą, išsaugokite kortelę, vardą bei pavardę ir atsiskaitymo adresą „Google“ paskyroje.</translation>
 <translation id="1252799212227771492">Mygtukas „Sukurti skaičiuoklę“ – paspauskite klavišą „Enter“, jei norite greitai sukurti naują „Google“ skaičiuoklę</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (sinchronizuota)</translation>
@@ -116,7 +110,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1307966114820526988">Nebenaudojamos funkcijos</translation>
 <translation id="1308113895091915999">Yra galiojantis pasiūlymas</translation>
 <translation id="1312803275555673949">Kokie įrodymai pateikti?</translation>
-<translation id="1314311879718644478">Žr. išplėstosios realybės turinį</translation>
+<translation id="131405271941274527"><ph name="URL" /> nori siųsti ir gauti informaciją, kai paliečiate telefoną ALR įrenginyje</translation>
 <translation id="1314509827145471431">Įrišimas dešinėje</translation>
 <translation id="1318023360584041678">Išsaugota skirtukų grupėje</translation>
 <translation id="1319245136674974084">Daugiau neklausti dėl šios programos</translation>
@@ -163,10 +157,8 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1422930527989633628">Gali būti prašoma atrasti netoliese esančius „Bluetooth“ įrenginius</translation>
 <translation id="1426410128494586442">Taip</translation>
 <translation id="1428146450423315676">7 dėtuvė</translation>
-<translation id="142858679511221695">„Cloud“ naudotojas</translation>
 <translation id="1428729058023778569">Matote šį įspėjimą, nes ši svetainė nepalaiko HTTPS. <ph name="BEGIN_LEARN_MORE_LINK" />Sužinokite daugiau<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="1430915738399379752">Spausdinti</translation>
-<translation id="1432187715652018471">puslapis prašo leidimo įdiegti paslaugos doroklę.</translation>
 <translation id="1432581352905426595">Tvarkyti paieškos sistemas</translation>
 <translation id="1436185428532214179">Gali būti prašoma redaguoti failus ir aplankus jūsų įrenginyje</translation>
 <translation id="1442386063175183758">Atvartas dešinėje</translation>
@@ -182,17 +174,10 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1472675084647422956">Rodyti daugiau</translation>
 <translation id="1473183651233018052">JIS B10</translation>
 <translation id="147358896496811705">2A0</translation>
-<translation id="1475299637784133125">Ieškote naršyklės versijos? Apsilankykite adresu</translation>
 <translation id="1476595624592550506">Pakeiskite slaptažodį</translation>
 <translation id="1483493594462132177">Siųsti</translation>
 <translation id="1484290072879560759">Pasirinkti pristatymo adresą</translation>
 <translation id="1492194039220927094">Politikos gavimas:</translation>
-<translation id="149293076951187737">Kai uždarote visus „Chrome“ inkognito skirtukus, iš šio įrenginio išvaloma jūsų veikla toliau nurodytuose skirtukuose.
-          <ph name="BEGIN_LIST" />
-            <ph name="LIST_ITEM" />Naršymo veikla<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Paieškos istorija<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Formose įvesta informacija<ph name="END_LIST_ITEM" />
-          <ph name="END_LIST" /></translation>
 <translation id="1495677929897281669">Atgal į skirtuką</translation>
 <translation id="1501859676467574491">Rodyti korteles iš „Google“ paskyros</translation>
 <translation id="1507202001669085618">&lt;p&gt;Ši klaida rodoma, jei naudojate „Wi-Fi“ portalą, prie kurio reikia prisijungti, kad galėtumėte naudotis internetu.&lt;/p&gt;
@@ -220,8 +205,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1559572115229829303">&lt;p&gt;Nepavyksta užmegzti privataus ryšio su <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" />, nes įrenginio data ir laikas (<ph name="DATE_AND_TIME" />) yra netinkami.&lt;/p&gt;
 
       &lt;p&gt;Koreguokite datą ir laiką programos &lt;strong&gt;Settings&lt;/strong&gt; skiltyje &lt;strong&gt;General&lt;/strong&gt;.&lt;/p&gt;</translation>
-<translation id="1559839503761818503">Jūsų administratorius paleis jūsų įrenginį iš naujo <ph name="TIME" />, <ph name="DATE" /></translation>
-<translation id="156703335097561114">Tinklų informacija, pvz., adresai, sąsajos konfigūracija ir ryšio kokybė</translation>
 <translation id="1567040042588613346">Ši politika veikia, kaip numatyta, bet ta pati vertė yra nustatyta kitur ir ją pakeičia ši politika.</translation>
 <translation id="1569487616857761740">Įveskite galiojimo laiko pabaigos datą</translation>
 <translation id="1581080074034554886">CVC</translation>
@@ -229,13 +212,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1583429793053364125">Rodant šį tinklalapį įvyko nenumatyta klaida.</translation>
 <translation id="1586541204584340881">Kuriuos plėtinius įdiegėte</translation>
 <translation id="1588438908519853928">Įprastas</translation>
-<translation id="1589050138437146318">Įdiegti „ARCore“?</translation>
 <translation id="1592005682883173041">Prieiga prie vietinių duomenų</translation>
 <translation id="1594030484168838125">Pasirinkti</translation>
 <translation id="160851722280695521">Žaisti žaidimą „Dino Run“ naršyklėje „Decentr“</translation>
 <translation id="161042844686301425">Žydra</translation>
 <translation id="1611101756749861742">Antras ritinėlis</translation>
-<translation id="1615402009686901181">Remiantis administratoriaus politika, negalima užfiksuoti ekrano, jei matomas konfidencialus turinys</translation>
 <translation id="1620510694547887537">Kamera</translation>
 <translation id="1623104350909869708">Neleisti šiam puslapiui kurti papildomų dialogo langų</translation>
 <translation id="16338877384480380">Architecture-B</translation>
@@ -286,7 +267,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1741613555002899862">Kai „DnsOverHttpsMode“ yra „<ph name="SECURE_DNS_MODE_SECURE" />“, turi būti nurodyta ir tinkama eilutė.</translation>
 <translation id="1745880797583122200">Jūsų naršyklė tvarkoma</translation>
 <translation id="1746113442205726301">Sukti vaizdą pagal Y ašį</translation>
-<translation id="1747819498338037826">Pakeisti automatiškai</translation>
 <translation id="17513872634828108">Atidaryti skirtukai</translation>
 <translation id="1752021286346845558">8 pašto dėžutė</translation>
 <translation id="1753706481035618306">Puslapio numeris</translation>
@@ -298,7 +278,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
     antraštė netinkamai suformatuota, todėl naršyklė negali įvykdyti
     <ph name="SITE" /> užklausos. Pradinę politiką gali naudoti
     svetainių operatoriai, siekdami konfigūruoti svetainės saugą ir kitas nuosavybes.</translation>
-<translation id="1774592222195216949"><ph name="BEGIN_LINK" />Sužinokite daugiau apie inkognito režimą naršyklėje „Chromium“<ph name="END_LINK" /></translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1787142507584202372">Atidaryti skirtukai bus rodomi čia</translation>
 <translation id="1791429645902722292">Google Smart Lock</translation>
@@ -321,7 +300,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="1842969606798536927">Mokėti</translation>
 <translation id="1856713167556118146">Kas neatliekama inkognito režimu</translation>
 <translation id="1863257867908022953">Dvyliktas dėklas</translation>
-<translation id="1864927262126810325">Iš „<ph name="SOURCE_NAME" />“</translation>
 <translation id="1871208020102129563">Įgaliotasis serveris nustatytas naudoti fiksuotų įgaliotųjų serverių, o ne .pac scenarijaus URL.</translation>
 <translation id="1871284979644508959">Būtinas laukas</translation>
 <translation id="1875025161375567525">Nuotraukų dėklas</translation>
@@ -343,7 +321,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="192020519938775529">{COUNT,plural, =0{Nėra}=1{1 svetainė}one{# svetainė}few{# svetainės}many{# svetainės}other{# svetainių}}</translation>
 <translation id="1923390796829649802">Pritaikomumo nustatymų tvarkymo mygtukas; paspauskite „Enter“, kad suasmenintumėte pritaikomumo įrankius „Decentr“ OS nustatymuose.</translation>
 <translation id="1924727005275031552">Naujas</translation>
-<translation id="1927439593081478069">Mygtukas „Paleisti „Chrome“ saugos patikrą“; paspausdami „Enter“ paleiskite saugos patikrą „Chrome“ nustatymuose</translation>
 <translation id="1939175642807587452">Gali būti prašoma siųsti pranešimus</translation>
 <translation id="1945968466830820669">Galite prarasti prieigą prie organizacijos paskyros arba gali būti pavogta tapatybė. „Decentr“ rekomenduoja pakeisti slaptažodį dabar.</translation>
 <translation id="1947454675006758438">Sankabėlė viršuje dešinėje</translation>
@@ -362,19 +339,13 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2001146170449793414">{COUNT,plural, =1{ir dar 1}one{ir dar #}few{ir dar #}many{ir dar #}other{ir dar #}}</translation>
 <translation id="2003709556000175978">Nustatykite slaptažodį iš naujo dabar</translation>
 <translation id="2003775180883135320">Keturios skylės viršuje</translation>
-<<<<<<< HEAD
-<translation id="201174227998721785">Tvarkykite leidimus ir svetainėse saugomus duomenis „Chrome“ nustatymuose</translation>
-<translation id="2019607688127825327">Mygtukas „Tvarkyti pritaikomumo nustatymus“; paspauskite „Enter“, jei norite suasmeninti pritaikomumo įrankius „Chrome“ nustatymuose</translation>
-=======
 <translation id="201174227998721785">Tvarkykite leidimus ir svetainėse saugomus duomenis „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2025115093177348061">Išplėstoji realybė</translation>
 <translation id="2025186561304664664">Nustatytas automatinis įgaliotojo serverio konfigūravimas.</translation>
 <translation id="2025891858974379949">Nesaugus turinys</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK" />Patikrinti tarpinį serverį ir užkardą<ph name="END_LINK" /></translation>
 <translation id="2034971124472263449">Vis tiek išsaugoti</translation>
 <translation id="2036983605131262583">Alternatyvus ritinėlis</translation>
-<translation id="2040894699575719559">Vietovė užblokuota</translation>
 <translation id="2042213636306070719">7 dėklas</translation>
 <translation id="204357726431741734">Prisijunkite, kad galėtumėte naudoti „Google“ paskyroje išsaugotus slaptažodžius</translation>
 <translation id="2053111141626950936">Puslapiai, parašyti <ph name="LANGUAGE" />, verčiami nebus.</translation>
@@ -425,12 +396,10 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2184405333245229118">{COUNT,plural, =1{1 adresas}one{# adresas}few{# adresai}many{# adreso}other{# adresų}}</translation>
 <translation id="2187317261103489799">Aptikti (numatytoji parinktis)</translation>
 <translation id="2188375229972301266">Kelios skylės apačioje</translation>
-<translation id="2188852899391513400">Slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. Siekiant užtikrinti paskyrų saugumą, „Google“ slaptažodžių tvarkytuvė rekomenduoja pakeisti jį dabar ir patikrinti išsaugotus slaptažodžius.</translation>
 <translation id="2202020181578195191">Įveskite tinkamus galiojimo laiko pabaigos metus</translation>
 <translation id="22081806969704220">3 dėklas</translation>
 <translation id="2212735316055980242">Politika nerasta</translation>
 <translation id="2213606439339815911">Gaunami įrašai...</translation>
-<translation id="2213612003795704869">Puslapis atspausdintas</translation>
 <translation id="2215727959747642672">Failo redagavimas</translation>
 <translation id="2218879909401188352">Šiuo metu užpuolikai svetainėje <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> gali įdiegti pavojingų programų, kurios gali būti žalingos įrenginiui, atlikti nepageidaujamų veiksmų, dėl kurių padidės mobiliojo telefono sąskaita, arba pavogti asmens informaciją. <ph name="BEGIN_LEARN_MORE_LINK" />Sužinokite daugiau<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="2224337661447660594">Nėra interneto ryšio</translation>
@@ -440,7 +409,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2248949050832152960">Naudoti „WebAuthn“</translation>
 <translation id="2250931979407627383">Kraštų sukabinimas kairėje</translation>
 <translation id="225207911366869382">Pagal šią politiką ši vertė nepatvirtinta.</translation>
-<translation id="2256115617011615191">Paleisti iš naujo dabar</translation>
 <translation id="2258928405015593961">Įveskite galiojimo laiko pabaigos datą, kuri yra ateityje, ir bandykite dar kartą</translation>
 <translation id="225943865679747347">Klaidos kodas: <ph name="ERROR_CODE" /></translation>
 <translation id="2262243747453050782">HTTP klaida</translation>
@@ -468,7 +436,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2337852623177822836">Nustatymą valdo administratorius</translation>
 <translation id="2340263603246777781">Svetainė <ph name="ORIGIN" /> nori būti susieta su</translation>
 <translation id="2346319942568447007">Nukopijuotas vaizdas</translation>
-<translation id="2350796302381711542">Leisti „<ph name="HANDLER_HOSTNAME" />“ atidaryti visas <ph name="PROTOCOL" /> nuorodas vietoje „<ph name="REPLACED_HANDLER_TITLE" />“?</translation>
 <translation id="2354001756790975382">Kitos žymės</translation>
 <translation id="2354430244986887761">„Google“ saugaus naršymo technologija svetainėje <ph name="SITE" /> neseniai <ph name="BEGIN_LINK" />aptiko kenkėjiškų programų<ph name="END_LINK" />.</translation>
 <translation id="2355395290879513365">Užpuolikai galbūt galės matyti, kuriuos šios svetainės vaizdus peržiūrite, ir juos pakeis siekdami jus suklaidinti.</translation>
@@ -494,20 +461,14 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2413528052993050574">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN" />; jo saugos sertifikatas gali būti atšauktas. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="2414886740292270097">Tamsi</translation>
 <translation id="2430968933669123598">Mygtukas „Tvarkyti „Google“ paskyrą“ – paspauskite klavišą „Enter“, jei norite tvarkyti savo informaciją, privatumo ir saugos nustatymus „Google“ paskyroje</translation>
-<translation id="2436186046335138073">Leisti „<ph name="HANDLER_HOSTNAME" />“ atidaryti visas <ph name="PROTOCOL" /> nuorodas?</translation>
 <translation id="2438874542388153331">Keturios skylės dešinėje</translation>
 <translation id="2450021089947420533">Atlikti veiksmai</translation>
 <translation id="2463739503403862330">Užpildyti</translation>
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">Pasirinkti pristatymo metodą</translation>
 <translation id="2465688316154986572">Susegimas sankabėlėmis</translation>
-<<<<<<< HEAD
-<translation id="2465914000209955735">Tvarkykite failus, kuriuos atsisiuntėte naršyklėje „Chrome“</translation>
-<translation id="2466004615675155314">Rodyti informaciją iš žiniatinklio</translation>
-=======
 <translation id="2465914000209955735">Tvarkykite failus, kuriuos atsisiuntėte naršyklėje „Decentr“</translation>
 <translation id="246725142101294240"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada „Enter“, jei norite tvarkyti Saugaus naršymo ir kitus duomenis „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />Paleistas įrankis „Windows Network Diagnostics“<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">Tvarka: nuo 1 iki N</translation>
 <translation id="2470767536994572628">Kai redaguosite komentarus, bus pateikta šio dokumento vieno puslapio peržiūra arba pradinis pasukimas</translation>
@@ -528,7 +489,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2523886232349826891">Išsaugota tik šiame įrenginyje</translation>
 <translation id="2524461107774643265">Daugiau informacijos pridėjimas</translation>
 <translation id="2529899080962247600">Šiame lauke gali būti ne daugiau nei <ph name="MAX_ITEMS_LIMIT" /> įraš. Į visus kitus įrašus nebus atsižvelgiama.</translation>
-<translation id="2535585790302968248">Naršykite privačiai, atidarę naują inkognito skirtuką</translation>
 <translation id="2535659140340599600">{COUNT,plural, =1{ir dar 1}one{ir dar #}few{ir dar #}many{ir dar #}other{ir dar #}}</translation>
 <translation id="2536110899380797252">Pridėti adresą</translation>
 <translation id="2539524384386349900">Aptikti</translation>
@@ -544,7 +504,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2556876185419854533">&amp;Anuliuoti redagavimą</translation>
 <translation id="2570734079541893434">Tvarkyti nustatymus</translation>
 <translation id="257674075312929031">Grupė</translation>
-<translation id="2576880857912732701">Mygtukas „Tvarkyti saugos nustatymus“; paspauskite „Enter“, jei norite tvarkyti Saugaus naršymo ir kitus duomenis „Chrome“ nustatymuose</translation>
 <translation id="2586657967955657006">Iškarpinė</translation>
 <translation id="2587730715158995865">Nuo „<ph name="ARTICLE_PUBLISHER" />“. Skaitykite šią ir kitas istorijas (<ph name="OTHER_ARTICLE_COUNT" />).</translation>
 <translation id="2587841377698384444">Katalogo API ID:</translation>
@@ -554,14 +513,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2597378329261239068">Šis dokumentas apsaugotas slaptažodžiu. Įveskite slaptažodį.</translation>
 <translation id="2609632851001447353">Variantai</translation>
 <translation id="2610561535971892504">Spustelėkite, jei norite kopijuoti</translation>
-<translation id="2617988307566202237">„Chrome“ <ph name="BEGIN_EMPHASIS" />nesaugos<ph name="END_EMPHASIS" /> šios informacijos:
-          <ph name="BEGIN_LIST" />
-            <ph name="LIST_ITEM" />naršymo istorijos;
-            <ph name="LIST_ITEM" />slapukų ir svetainių duomenų;
-            <ph name="LIST_ITEM" />formose įvestos informacijos.
-          <ph name="END_LIST" /></translation>
 <translation id="2618023639789766142">C10 (vokas)</translation>
-<translation id="2623663032199728144">Gali prašyti naudoti informaciją apie ekranus</translation>
 <translation id="2625385379895617796">Jūsų laikrodis skuba</translation>
 <translation id="262745152991669301">Gali būti prašoma prisijungti prie USB įrenginių</translation>
 <translation id="2629325967560697240">Jei norite, kad būtų užtikrinta aukščiausio lygio „Decentr“ sauga, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />įjunkite sustiprintą apsaugą<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
@@ -594,14 +546,8 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2705137772291741111">Išsaugotos (talpykloje esančios) šios svetainės kopijos negalima skaityti.</translation>
 <translation id="2709516037105925701">Automatinis pildymas</translation>
 <translation id="2713444072780614174">Balta</translation>
-<<<<<<< HEAD
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite tvarkyti mokėjimus ir kredito kortelę „Chrome“ nustatymuose</translation>
-<translation id="271663710482723385">Jei norite išeiti iš viso ekrano režimo, paspauskite |<ph name="ACCELERATOR1" />| + |<ph name="ACCELERATOR2" />|</translation>
-=======
 <translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite tvarkyti mokėjimus ir kredito kortelę „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2721148159707890343">Užklausa sėkminga</translation>
-<translation id="2723669454293168317">Paleiskite saugos patikrą „Chrome“ nustatymuose</translation>
 <translation id="2726001110728089263">Šoninis dėklas</translation>
 <translation id="2728127805433021124">Serverio sertifikatas pasirašytas naudojant nepatikimą parašo algoritmą.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />Paleistas ryšio diagnostikos įrankis<ph name="END_LINK" /></translation>
@@ -625,15 +571,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2824775600643448204">Adreso ir paieškos juosta</translation>
 <translation id="2826760142808435982">Ryšys užšifruotas ir tapatybė nustatyta naudojant <ph name="CIPHER" />. <ph name="KX" /> naudojamas kaip pagrindinis mainų mechanizmas.</translation>
 <translation id="2835170189407361413">Valyti formą</translation>
-<translation id="2839032553903800133">Pranešimai užblokuoti</translation>
 <translation id="2839501879576190149">Ketinate apsilankyti netikroje svetainėje</translation>
 <translation id="2850739647070081192">„Invite“ (vokas)</translation>
 <translation id="2856444702002559011">Užpuolikai gali bandyti pavogti jūsų informaciją iš <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> (pvz., slaptažodžius, pranešimus ar kredito kortelių duomenis). <ph name="BEGIN_LEARN_MORE_LINK" />Sužinokite daugiau<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="2859806420264540918">Šioje svetainėje rodomi nepageidaujami arba klaidinantys skelbimai.</translation>
-<translation id="286512204874376891">Virtuali kortelė maskuoja tikrąją kortelę, kad padėtų apsaugoti jus nuo galimų apgaulių. <ph name="IDS_AUTOFILL_VIRTUAL_CARD_ENROLLMENT_LEARN_MORE_LINK_LABEL" /></translation>
 <translation id="287596039013813457">Draugiška</translation>
 <translation id="2876489322757410363">Išjungiate inkognito režimą, kad galėtumėte sumokėti naudodami išorinę programą. Tęsti?</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada „Enter“, jei norite tvarkyti Saugaus naršymo ir kitus duomenis „Chrome“ nustatymuose</translation>
 <translation id="2878197950673342043">Perlenkimas į keturias dalis</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">Lango padėties nustatymas</translation>
@@ -655,7 +598,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2930577230479659665">Apkarpymas po kiekvienos kopijos</translation>
 <translation id="2932085390869194046">Siūlyti slaptažodį...</translation>
 <translation id="2934466151127459956">Oficialus laiškas</translation>
-<translation id="2938225289965773019">Atidaryti „<ph name="PROTOCOL" />“ nuorodas</translation>
 <translation id="2941952326391522266">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN" />; jo saugos sertifikatas yra iš <ph name="DOMAIN2" />. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="2943895734390379394">Įkėlimo laikas:</translation>
 <translation id="2948083400971632585">Galite neleisti visų tarpinių serverių, jungimasis prie kurių sukonfigūruotas nustatymų puslapyje.</translation>
@@ -688,12 +630,8 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3037605927509011580">Oi!</translation>
 <translation id="3041612393474885105">Sertifikato informacija</translation>
 <translation id="3044034790304486808">Tęsti tyrimą</translation>
-<translation id="305162504811187366">„Chrome“ nuotolinio kompiuterio valdymo istorija, įskaitant laiko žymes, prieglobas ir klientų seansų ID</translation>
 <translation id="3060227939791841287">C9 (vokas)</translation>
-<<<<<<< HEAD
-=======
 <translation id="3060557858482803256"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad paleistumėte Saugos patikrą „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3061707000357573562">Pataisos paslauga</translation>
 <translation id="306573536155379004">Žaidimas prasidėjo.</translation>
 <translation id="3080254622891793721">Grafiniai elementai</translation>
@@ -701,7 +639,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3087734570205094154">Apačia</translation>
 <translation id="3095940652251934233">Ataskaita</translation>
 <translation id="3096100844101284527">Pridėti paėmimo adresą</translation>
-<translation id="3098513225387949945">Nepaisoma, nes išjungimo sąraše yra šablonas, lygus „*“, kuris atitinka politikos išjungimą.</translation>
 <translation id="3105172416063519923">Ištekliaus ID:</translation>
 <translation id="3107591622054137333"><ph name="BEGIN_LINK" />Patikrinti saugios DNS konfigūraciją<ph name="END_LINK" /></translation>
 <translation id="3108943290502734357">Vidurinis dėklas</translation>
@@ -734,14 +671,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3197136577151645743">Gali būti prašoma leisti sužinoti, kada aktyviai naudojate įrenginį</translation>
 <translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada „Enter“, jei norite tvarkyti sinchronizuojamą informaciją „Decentr“ nustatymuose</translation>
 <translation id="320323717674993345">Atšaukti mokėjimą</translation>
-<translation id="3203366800380907218">Iš žiniatinklio</translation>
 <translation id="3207960819495026254">Pažymėta</translation>
 <translation id="3209034400446768650">Puslapyje galite būti apmokestinti</translation>
 <translation id="3212581601480735796">Jūsų veikla <ph name="HOSTNAME" /> stebima</translation>
 <translation id="3215092763954878852">Nepavyko naudoti „WebAuthn“</translation>
 <translation id="3218181027817787318">Santykinis</translation>
 <translation id="3223287115535306850">Animuota programų paleidimo piktograma</translation>
-<translation id="3225347164936328585">Plojantis</translation>
 <translation id="3225919329040284222">Serveris pateikė sertifikatą, kuris neatitinka numatytų reikalavimų. Šie reikalavimai taikomi tam tikrose itin saugiose svetainėse, kad jūs būtumėte saugūs.</translation>
 <translation id="3226128629678568754">Spustelėkite įkėlimo iš naujo mygtuką, kad iš naujo pateiktumėte duomenis, reikalingus puslapiui įkelti.</translation>
 <translation id="3226387218769101247">Miniatiūros</translation>
@@ -749,19 +684,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3229041911291329567">Įrenginio ir naršyklės versijos informacija</translation>
 <translation id="323107829343500871">Įveskite „<ph name="CREDIT_CARD" />“ kortelės saugos kodą (CVC)</translation>
 <translation id="3234666976984236645">Visada aptikti svarbų turinį šioje svetainėje</translation>
-<translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite tinkinti naršyklės išvaizdą</translation>
 <translation id="3240791268468473923">Saugaus mokėjimo prisijungimo duomenų lapas, informuojantis, kad atitinkančių prisijungimo duomenų nerasta, atidarytas</translation>
-<translation id="324180406144491771">„<ph name="HOST_NAME" />“ nuorodos užblokuotos</translation>
 <translation id="3249845759089040423">Klasiška</translation>
 <translation id="3252266817569339921">Prancūzų</translation>
 <translation id="3257954757204451555">Iš kur ši informacija?</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite greitai sukurti naują „Google“ kalendoriaus įvykį</translation>
-<<<<<<< HEAD
-<translation id="3261488570342242926">Sužinokite daugiau apie virtualias korteles</translation>
-<translation id="3264837738038045344">„Chrome“ nustatymų tvarkymo mygtukas; paspauskite „Enter“, kad apsilankytumėte „Chrome“ nustatymų skiltyje.</translation>
-=======
 <translation id="3264837738038045344">„Decentr“ nustatymų tvarkymo mygtukas; paspauskite „Enter“, kad apsilankytumėte „Decentr“ nustatymų skiltyje.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3266793032086590337">Vertė (nesuderinama)</translation>
 <translation id="3268451620468152448">Atidaryti skirtukai</translation>
 <translation id="3270847123878663523">&amp;Anuliuoti pertvarkymą</translation>
@@ -773,12 +701,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3287510313208355388">Atsisiųsti prisijungus</translation>
 <translation id="3288238092761586174"><ph name="URL" /> gali reikėti imtis papildomų veiksmų, kad patvirtintų jūsų mokėjimą</translation>
 <translation id="3293642807462928945">Sužinokite daugiau apie „<ph name="POLICY_NAME" />“ politiką</translation>
-<<<<<<< HEAD
-<translation id="3295444047715739395">Peržiūrėkite ir tvarkykite slaptažodžius „Chrome“ nustatymuose</translation>
-<translation id="3303795387212510132">Leisti programai atidaryti „<ph name="PROTOCOL_SCHEME" />“ nuorodas?</translation>
-=======
 <translation id="3295444047715739395">Peržiūrėkite ir tvarkykite slaptažodžius „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3303855915957856445">Nerasta jokių paieškos rezultatų</translation>
 <translation id="3304073249511302126">„Bluetooth“ nuskaitymas</translation>
 <translation id="3308006649705061278">Organizacinis vienetas (angl. „Organizational Unit“) (OU)</translation>
@@ -788,19 +711,15 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3329013043687509092">Spalvų sodrumas</translation>
 <translation id="3333762389743153920">Negalima naudoti kaip virtualios kortelės</translation>
 <translation id="3338095232262050444">Saugi</translation>
-<translation id="3339446062576134663">„Cloud“ („Ash“)</translation>
-<translation id="3345782426586609320">Akys</translation>
+<translation id="3344575302477361573">Inkognito langų uždarymo mygtukas; paspauskite „Enter“, kad uždarytumėte visus šiuo metu atidarytus inkognito langus.</translation>
 <translation id="3355823806454867987">Pakeisti įgaliotojo serverio nustatymus...</translation>
 <translation id="3360103848165129075">Mokėjimo doroklės lapas</translation>
-<<<<<<< HEAD
-=======
 <translation id="3361596688432910856">„Decentr“ <ph name="BEGIN_EMPHASIS" />nesaugos<ph name="END_EMPHASIS" /> šios informacijos:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />naršymo istorijos;
           <ph name="LIST_ITEM" />slapukų ir svetainių duomenų;
           <ph name="LIST_ITEM" />formose įvestos informacijos.
         <ph name="END_LIST" /></translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3362968246557010467">Ši politika automatiškai nukopijuota iš nebenaudojamos politikos „<ph name="OLD_POLICY" />“. Turėtumėte naudoti šią politiką vietoj senosios.</translation>
 <translation id="3364869320075768271"><ph name="URL" /> nori naudoti jūsų virtualiosios realybės įrenginį ir duomenis</translation>
 <translation id="3366477098757335611">Peržiūrėti korteles</translation>
@@ -809,14 +728,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
       • kurti jūsų aplinkos 3D žemėlapį ir stebėti kameros padėtį;
       • naudoti kamerą.</translation>
 <translation id="337363190475750230">Teikimas nutrauktas</translation>
-<translation id="3375754925484257129">Paleisti „Chrome“ saugos patikrą</translation>
 <translation id="3377144306166885718">Serveryje naudojama pasenusios versijos TLS.</translation>
 <translation id="3377188786107721145">Politikos analizės klaida</translation>
 <translation id="3377736046129930310">Naudodami ekrano užraktą korteles patvirtinsite greičiau</translation>
 <translation id="3380365263193509176">Nežinoma klaida</translation>
 <translation id="3380864720620200369">Kliento ID:</translation>
 <translation id="3381668585148405088">Pirkinio patvirtinimas</translation>
-<translation id="3383566085871012386">Dabartinė pirmenybės tvarka</translation>
 <translation id="3387261909427947069">Mokėjimo metodai</translation>
 <translation id="3391030046425686457">Pristatymo adresas</translation>
 <translation id="3391482648489541560">failo redagavimas</translation>
@@ -851,7 +768,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3462200631372590220">Slėpti išsamią informaciją</translation>
 <translation id="3467763166455606212">Būtina nurodyti kortelės savininko vardą ir pavardę</translation>
 <translation id="3468054117417088249">Šiuo metu atidarytas „<ph name="TAB_SWITCH_SUFFIX" />“. Paspauskite skirtuką, tada „Enter“, kad perjungtumėte į atidarytą skirtuką</translation>
-<translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite uždaryti visus šiuo metu atidarytus inkognito langus</translation>
 <translation id="3479552764303398839">Ne dabar</translation>
 <translation id="3484560055331845446">Galite prarasti prieigą prie „Google“ paskyros. „Decentr“ rekomenduoja pakeisti slaptažodį dabar. Bus prašoma prisijungti.</translation>
 <translation id="3487845404393360112">4 dėklas</translation>
@@ -883,13 +799,13 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3587738293690942763">Vidurys</translation>
 <translation id="3592413004129370115">„Italian“ (vokas)</translation>
 <translation id="3595699422137460894">{NUM_DAYS,plural, =0{Grupę bet kuriuo metu galite nustatyti iš naujo. Prisijungimas prie naujos grupės užtruks maždaug dieną.}=1{Grupę bet kuriuo metu galite nustatyti iš naujo. Prisijungimas prie naujos grupės užtruks maždaug dieną.}one{Grupę bet kuriuo metu galite nustatyti iš naujo. Prisijungimas prie naujos grupės užtruks {NUM_DAYS} dieną.}few{Grupę bet kuriuo metu galite nustatyti iš naujo. Prisijungimas prie naujos grupės užtruks {NUM_DAYS} dienas.}many{Grupę bet kuriuo metu galite nustatyti iš naujo. Prisijungimas prie naujos grupės užtruks {NUM_DAYS} dienos.}other{Grupę bet kuriuo metu galite nustatyti iš naujo. Prisijungimas prie naujos grupės užtruks {NUM_DAYS} dienų.}}</translation>
+<translation id="3596012367874587041">Programos nustatymai</translation>
 <translation id="3600246354004376029">„<ph name="TITLE" />“, <ph name="DOMAIN" />, <ph name="TIME" /></translation>
 <translation id="3603507503523709">Programą užblokavo administratorius</translation>
 <translation id="3608932978122581043">Pateikti orientaciją</translation>
 <translation id="3611395257124510155">Virtuali kortelė (<ph name="CARD_IDENTIFIER" />)</translation>
 <translation id="3614103345592970299">Dydis: 2</translation>
 <translation id="361438452008624280">Sąrašo įrašas „<ph name="LANGUAGE_ID" />“: nežinoma arba nepalaikoma kalba.</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite paleisti saugos patikrą „Chrome“ nustatymuose</translation>
 <translation id="3615877443314183785">Įveskite tinkamą galiojimo laiko pabaigos datą</translation>
 <translation id="36224234498066874">Išvalyti naršymo duomenis...</translation>
 <translation id="362276910939193118">Rodyti visą istoriją</translation>
@@ -897,13 +813,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
       ją pašalinti iš sąrašo ir vėl pridėti.</translation>
 <translation id="3630699740441428070">Šio įrenginio administratoriai sukonfigūravo jūsų tinklo ryšį, per kurį gali peržiūrėti jūsų tinklo srautą, įskaitant lankomas svetaines.</translation>
 <translation id="3631244953324577188">Biometrinės sistemos</translation>
-<<<<<<< HEAD
-<translation id="3632503704576938756">Ekrano bendrinimas tęsiamas</translation>
-<translation id="3632892046558972264">Ekrano bendrinimas pristabdytas</translation>
-<translation id="3633738897356909127">Mygtukas „Atnaujinti „Chrome“, paspauskite „Enter“, kad „Chrome“ nustatymuose būtų atnaujinta naršyklė „Chrome“</translation>
-=======
 <translation id="3633738897356909127">Mygtukas „Atnaujinti „Decentr“, paspauskite „Enter“, kad „Decentr“ nustatymuose būtų atnaujinta naršyklė „Decentr“</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3634530185120165534">5 dėklas</translation>
 <translation id="3634567936866541746">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. Kad apsaugotumėte paskyras, „Decentr“ rekomenduoja patikrinti išsaugotus slaptažodžius.</translation>
 <translation id="3637662659967048211">Išsaugojimas „Google“ paskyroje</translation>
@@ -929,7 +839,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="370972442370243704">Įjungti atliktus veiksmus</translation>
 <translation id="3711895659073496551">Laikinai sustabdyti</translation>
 <translation id="3712624925041724820">Licencijos baigėsi</translation>
-<translation id="3714633008798122362">žiniatinklio kalendorius</translation>
 <translation id="3714780639079136834">Įjungti mobiliojo ryšio duomenis arba „Wi-Fi“</translation>
 <translation id="3715597595485130451">Prisijungimas prie „Wi-Fi“</translation>
 <translation id="3717027428350673159"><ph name="BEGIN_LINK" />Patikrinti tarpinio serverio, užkardos ir DNS konfigūraciją<ph name="END_LINK" /></translation>
@@ -947,13 +856,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3760561303380396507">Naudoti „Windows Hello“ vietoj CVC?</translation>
 <translation id="3761171036307311438">Kortelėje nurodytas vardas ir pavardė:</translation>
 <translation id="3761718714832595332">Slėpti būseną</translation>
+<translation id="3765032636089507299">Saugaus naršymo puslapis kuriamas.</translation>
 <translation id="3765588406864124894">9 pašto dėžutė</translation>
 <translation id="3767485424735936570">Vadovaujantis administratoriaus politika nerekomenduojama kopijuoti ir įklijuoti šio turinio sistemoje „<ph name="VM_NAME" />“</translation>
 <translation id="377451872037045164"><ph name="CREATE_GOOGLE_KEEP_NOTE_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – klavišą „Enter“, jei norite greitai sukurti naują „Google Keep“ užrašą</translation>
-<<<<<<< HEAD
-=======
 <translation id="3776257069753764304">Atsisiuntimų naršyklėje „Decentr“ tvarkymo mygtukas; paspauskite „Enter“, jei norite tvarkyti failus, kuriuos atsisiuntėte naršyklėje „Decentr“.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3778403066972421603">Ar norite išsaugoti šią kortelę „Google“ paskyroje ir šiame įrenginyje?</translation>
 <translation id="3780694243617746492">Išvesties dėklas</translation>
 <translation id="3781428340399460090">Ryškiai rausva</translation>
@@ -974,7 +881,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3827112369919217609">Absoliutus</translation>
 <translation id="3827475930221174051">Pagrįsta veikla, susijusia su „<ph name="SEARCH_TERM" />“</translation>
 <translation id="3828924085048779000">Neleidžiama naudoti tuščios slaptafrazės.</translation>
-<translation id="3831065134033923230">Išsaugotų slaptažodžių patikrinimas</translation>
 <translation id="3831915413245941253"><ph name="ENROLLMENT_DOMAIN" /> įdiegta papildomų funkcijų plėtinių. Naudojant plėtinius galima pasiekti kai kuriuos jūsų duomenis.</translation>
 <translation id="3832522519263485449">Kelios skylės kairėje</translation>
 <translation id="3835233591525155343">Įrenginio naudojimas</translation>
@@ -995,7 +901,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3906954721959377182">Planšetinis kompiuteris</translation>
 <translation id="3909477809443608991"><ph name="URL" /> nori paleisti saugomą turinį Įrenginio tapatybę patvirtins „Google“ ir įrenginį galės pasiekti ši svetainė.</translation>
 <translation id="3909695131102177774"><ph name="LABEL" /> <ph name="ERROR" /></translation>
-<translation id="3927932062596804919">Uždrausti</translation>
 <translation id="3939773374150895049">Naudoti „WebAuthn“ vietoj CVC?</translation>
 <translation id="3946209740501886391">Visada klausti šioje svetainėje</translation>
 <translation id="3947595700203588284">Gali būti prašoma prisijungti prie MIDI įrenginių</translation>
@@ -1012,20 +917,15 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3969052498612555048">Nepavyko rasti kodo? <ph name="BEGIN_LINK" />Gaukite naują kodą<ph name="END_LINK" /></translation>
 <translation id="397105322502079400">Skaičiuojama...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME" /> užblokuota.</translation>
-<<<<<<< HEAD
-<translation id="3986705137476756801">Kol kas išjungti subtitrų realiuoju laiku funkciją</translation>
-=======
 <translation id="3973357910713125165">Paleiskite „Decentr“ Saugos patikros mygtuką, paspausdami „Enter“ paleiskite Saugos patikrą „Decentr“ nustatymuose</translation>
 <translation id="3986705137476756801">Kol kas išjungti subtitrų realiuoju laiku funkciją</translation>
 <translation id="3987405730340719549">„Decentr“ nustatė, kad ši svetainė gali būti suklastota ar apgavikiška.
 
     Jei manote, kad šis pranešimas rodomas per klaidą, apsilankykite adresu https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3987940399970879459">Mažiau nei 1 MB</translation>
 <translation id="3990250421422698716">Kopijų atskyrimas</translation>
 <translation id="3996311196211510766">Svetainė <ph name="ORIGIN" /> pateikė užklausą taikyti pradinę politiką
     visoms jos užklausoms, bet šiuo metu šios politikos taikyti negalima.</translation>
-<translation id="4009243425692662128">Spausdinamų puslapių turinys siunčiamas į „Google Cloud“ arba trečiosioms šalims analizuoti. Pavyzdžiui, tekstas gali būti nuskaitytas, ar jame nėra neskelbtinų duomenų.</translation>
 <translation id="4010758435855888356">Suteikti prieigą prie saugyklos?</translation>
 <translation id="4014128326099193693">{COUNT,plural, =1{PDF dokumente yra {COUNT} puslapis}one{PDF dokumente yra {COUNT} puslapis}few{PDF dokumente yra {COUNT} puslapiai}many{PDF dokumente yra {COUNT} puslapio}other{PDF dokumente yra {COUNT} puslapių}}</translation>
 <translation id="4023431997072828269">Kadangi ši forma teikiama naudojant nesaugų ryšį, jūsų informacija bus matoma kitiems.</translation>
@@ -1047,12 +947,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4088981014127559358">1 pusė: sukti vaizdą pagal Y ašį</translation>
 <translation id="4089152113577680600">Keturioliktas dėklas</translation>
 <translation id="4098354747657067197">Ketinate apsilankyti apgaulingoje svetainėje</translation>
-<<<<<<< HEAD
-<translation id="4099048595830172239">Pagal administratoriaus politiką nerekomenduojama bendrinti ekrano su <ph name="APPLICATION_TITLE" />, kai matomas konfidencialus turinys.</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad galėtumėte tinkinti šriftų dydį ir šriftų šeimas naršyklėje „Chrome“.</translation>
-=======
 <translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad galėtumėte tinkinti šriftų dydį ir šriftų šeimas naršyklėje „Decentr“.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4101413244023615925">Tekstas ir grafiniai elementai</translation>
 <translation id="4103249731201008433">Netinkamas įrenginio serijos numeris</translation>
 <translation id="4106133539597032659">Mygtukas „Sukurti svetainę“ – paspauskite klavišą „Enter“, jei norite greitai sukurti naują svetainę „Google“ svetainėse</translation>
@@ -1064,9 +959,9 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4117700440116928470">Politikos aprėptis nepalaikoma.</translation>
 <translation id="4121428309786185360">Galiojimo laikas baigiasi</translation>
 <translation id="4123572138124678573">Trys skylės apačioje</translation>
-<translation id="4127575959421463246">Ieškote „Chrome“ OS žymų? Apsilankyti</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{Dar 1}one{Dar #}few{Dar #}many{Dar #}other{Dar #}}</translation>
 <translation id="4130226655945681476">Patikrinti tinklo laidus, modemą ir maršruto parinktuvą</translation>
+<translation id="4133224101597112888">Bendrinkite šį skirtuko mygtuką; jei norite bendrinti šį skirtuką bendrindami nuorodą, sukurdami QR kodą, perduodami ir kt., paspauskite klavišą „Enter“.</translation>
 <translation id="4134123981501319574">Sukurti dokumentą</translation>
 <translation id="413544239732274901">Sužinokite daugiau</translation>
 <translation id="4142935452406587478">10 dėklas</translation>
@@ -1093,7 +988,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
     pateikti politikos, todėl naršyklė negali vykdyti
     <ph name="SITE" /> užklausos. Pradinę politiką gali naudoti svetainių operatoriai,
     siekdami konfigūruoti svetainės saugą ir kitas nuosavybes.</translation>
-<translation id="4210602799576081649">Patvirtinimo kodas baigė galioti, pateikite užklausą dėl naujo kodo</translation>
 <translation id="421066178035138955">Naudoti virtualiosios realybės įrenginius ir duomenis</translation>
 <translation id="4214357935346142455">prisijungimo ekrano profilis</translation>
 <translation id="4215751373031079683">7 x 9 (vokas)</translation>
@@ -1117,10 +1011,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
     &lt;h4&gt;5 veiksmas: gaukite papildomos pagalbos&lt;/h4&gt;
     &lt;p&gt;Jei vis tiek rodoma klaida, susisiekite su svetainės savininku.&lt;/p&gt;</translation>
 <translation id="4226937834893929579"><ph name="BEGIN_LINK" />Pabandykite paleisti „Windows Network Diagnostics“<ph name="END_LINK" />.</translation>
-<<<<<<< HEAD
-=======
 <translation id="4229544452621580519">Paleiskite Saugos patikrą „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4230204356098880324">Gali būti prašoma naudoti ir perkelti fotoaparatą</translation>
 <translation id="4234495348042597185"><ph name="BEGIN_LINK" />Eiti į <ph name="SITE" /><ph name="END_LINK" /></translation>
 <translation id="4235360514405112390">Tinkamas</translation>
@@ -1128,7 +1019,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4250680216510889253">Ne</translation>
 <translation id="4253168017788158739">Pastaba</translation>
 <translation id="425582637250725228">Atlikti pakeitimai gali nebūti išsaugoti.</translation>
-<translation id="425869179292622354">Labiau apsaugoti naudojant virtualią kortelę?</translation>
 <translation id="4258748452823770588">Netinkamas parašas</translation>
 <translation id="4261046003697461417">Negalima rašyti komentarų apsaugotuose dokumentuose</translation>
 <translation id="4265872034478892965">Leidžia jūsų administratorius</translation>
@@ -1162,7 +1052,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4346197816712207223">Tinkamos kredito kortelės</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">Ryšys su <ph name="SITE" /> nėra saugus</translation>
-<translation id="4349365535725594680">Negalima bendrinti konfidencialaus turinio</translation>
 <translation id="4350629523305688469">Kelių funkcijų dėklas</translation>
 <translation id="4351060348582610152"><ph name="ORIGIN" /> nori nuskaityti netoliese esančius „Bluetooth“ įrenginius. Rasti šie įrenginiai:</translation>
 <translation id="4351175281479794167">Įveskite patvirtinimo kodą</translation>
@@ -1179,7 +1068,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4390472908992056574">Kraštas</translation>
 <translation id="4406883609789734330">Subtitrai realiuoju laiku</translation>
 <translation id="4406896451731180161">paieškos rezultatai</translation>
-<translation id="4407755609041463909">Ugnis</translation>
 <translation id="4408413947728134509">Slapukai <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">slapukai ir svetainės duomenys</translation>
 <translation id="4415426530740016218">Paėmimo adresas</translation>
@@ -1191,17 +1079,15 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4434045419905280838">Iššok. langai ir peradresavimai</translation>
 <translation id="4435702339979719576">Atvirukas</translation>
 <translation id="443673843213245140">Įgaliotojo serverio naudojimas neleidžiamas, bet nurodyta aiški įgaliotojo serverio konfigūracija.</translation>
-<translation id="4441832193888514600">Nepaisoma, nes politika gali būti nustatyta tik kaip debesies naudotojo politika.</translation>
 <translation id="4450893287417543264">Daugiau neberodyti</translation>
 <translation id="4451135742916150903">Gali būti prašoma prisijungti prie HID įrenginių</translation>
-<translation id="4452328064229197696">Slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. Siekiant užtikrinti paskyrų saugumą, „Google“ slaptažodžių tvarkytuvė rekomenduoja patikrinti išsaugotus slaptažodžius.</translation>
-<translation id="4455222631300069614">Pakeiskite slaptažodį dabar</translation>
 <translation id="4460315069258617173">Leidžiama, kol uždarysite šios svetainės skirtukus</translation>
 <translation id="4464826014807964867">Svetainės, kuriose yra informacijos iš jūsų organizacijos</translation>
-<translation id="447665707681730621"><ph name="BUBBLE_MESSAGE" />. <ph name="LEARN_MORE_TEXT" /></translation>
+<translation id="4465818729556336129">Šis dokumentas yra konfidencialus, todėl jūsų administratorius nerekomenduoja jo spausdinti.</translation>
 <translation id="4476953670630786061">Ši forma nesaugi. Automatinis pildymas išjungtas.</translation>
 <translation id="4477350412780666475">Kitas takelis</translation>
 <translation id="4481251927743463293">Kas atliekama inkognito režimu</translation>
+<translation id="4481394504112738036">Konfidencialus failas</translation>
 <translation id="4482953324121162758">Ši svetainė nebus verčiama.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">Šifruoti sinchronizuotus slaptažodžius naudojant „Google“ paskyrą</translation>
@@ -1241,18 +1127,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4598556348158889687">Saugyklos tvarkymas</translation>
 <translation id="4600854749408232102">C6 / C5 (vokas)</translation>
 <translation id="4606870351894164739">Įtakinga</translation>
-<<<<<<< HEAD
-<translation id="4607603470419975064">Mygtukas „Žr. „Chrome“ patarimus“ – paspauskite klavišą „Enter“, jei norite sužinoti apie „Chrome“ funkcijas</translation>
-<translation id="4607608436550361748">Žr. „Chrome“ patarimus</translation>
-<translation id="4627675673814409125">Šios politikos negalima nustatyti „Chrome“ profilio lygiu ir jos bus nepaisoma.</translation>
-=======
 <translation id="4607603470419975064">Mygtukas „Žr. „Decentr“ patarimus“ – paspauskite klavišą „Enter“, jei norite sužinoti apie „Decentr“ funkcijas</translation>
 <translation id="4607608436550361748">Žr. „Decentr“ patarimus</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4628948037717959914">Nuotrauka</translation>
 <translation id="4631649115723685955">Grynųjų grąžinimas susietas</translation>
 <translation id="4636930964841734540">Informacija</translation>
-<translation id="4638670630777875591">Inkognito režimas naršyklėje „Chromium“</translation>
 <translation id="464342062220857295">Paieškos funkcijos</translation>
 <translation id="4644670975240021822">Atvirkštine tvarka, gerąja puse į apačią</translation>
 <translation id="4646534391647090355">Eiti dabar</translation>
@@ -1273,7 +1152,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4708268264240856090">Ryšys nutrauktas</translation>
 <translation id="4712404868219726379">Windows Hello</translation>
 <translation id="4722547256916164131"><ph name="BEGIN_LINK" />Paleistas įrankis „Windows Network Diagnostics“<ph name="END_LINK" />.</translation>
-<translation id="4722735765955348426"><ph name="USERNAME" /> slaptažodis</translation>
 <translation id="4724144314178270921">Gali būti prašoma peržiūrėti tekstą ir vaizdus jūsų iškarpinėje</translation>
 <translation id="4726672564094551039">Iš naujo įkelti politiką</translation>
 <translation id="4728558894243024398">Platforma</translation>
@@ -1316,6 +1194,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4819347708020428563">Redaguoti komentarus numatytajame rodinyje?</translation>
 <translation id="4825496307559726072"><ph name="CREATE_GOOGLE_SHEET_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite greitai sukurti naują „Google“ skaičiuoklę</translation>
 <translation id="4825507807291741242">Veiksminga</translation>
+<translation id="4827402517081186284">Naudodami inkognito režimą netampate nematomi internete:
+        <ph name="BEGIN_LIST" />
+          <ph name="LIST_ITEM" />svetainės žino, kada apsilankote;<ph name="END_LIST_ITEM" />
+          <ph name="LIST_ITEM" />darbdaviai ar mokyklos gali stebėti naršymo veiklą;<ph name="END_LIST_ITEM" />
+          <ph name="LIST_ITEM" />interneto paslaugų teikėjai galistebėti žiniatinklio srautą.<ph name="END_LIST_ITEM" />
+        <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">Įjungti įspėjimus</translation>
 <translation id="4838327282952368871">Svajinga</translation>
 <translation id="4840250757394056958">Peržiūrėti „Decentr“ istoriją</translation>
@@ -1327,12 +1211,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4854362297993841467">Šis pristatymo metodas nepasiekiamas. Išbandykite kitą metodą.</translation>
 <translation id="4854853140771946034">Greitai sukurkite naują „Google Keep“ užrašą</translation>
 <translation id="485902285759009870">Patvirtinamas kodas...</translation>
-<translation id="4866506163384898554">Paspauskite |<ph name="ACCELERATOR1" />| + |<ph name="ACCELERATOR2" />, kad būtų rodomas žymeklis</translation>
 <translation id="4876188919622883022">Supaprastintas rodinys</translation>
 <translation id="4876305945144899064">Nėra naudotojo vardo</translation>
 <translation id="4877083676943085827">{COUNT,plural, =0{Nėra}=1{<ph name="EXAMPLE_DOMAIN_1" />}=2{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" />}one{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" /> <ph name="AND_MORE" />}few{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" /> <ph name="AND_MORE" />}many{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" /> <ph name="AND_MORE" />}other{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" /> <ph name="AND_MORE" />}}</translation>
 <translation id="4877422487531841831">„<ph name="TEXT" />“ paieška</translation>
 <translation id="4879491255372875719">Automatinis (numatytasis)</translation>
+<translation id="4879725228911483934">Atidaryti ir nustatyti langus ekranuose</translation>
 <translation id="4880827082731008257">Ieškoti istorijoje</translation>
 <translation id="4881695831933465202">Atidaryti</translation>
 <translation id="4885256590493466218">Mokėti naudojant <ph name="CARD_DETAIL" /> atsiskaitant</translation>
@@ -1341,7 +1225,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4895877746940133817"><ph name="TYPE_1" />, <ph name="TYPE_2" />, <ph name="TYPE_3" /></translation>
 <translation id="4900217275619098670">Devintas ritinėlis</translation>
 <translation id="4901778704868714008">Išsaugoti...</translation>
-<translation id="4905659621780993806">Jūsų administratorius automatiškai paleis jūsų įrenginį iš naujo <ph name="TIME" />, <ph name="DATE" />. Išsaugokite visus atidarytus elementus, prieš paleidžiant įrenginį iš naujo.</translation>
 <translation id="4913987521957242411">Skylė viršuje kairėje</translation>
 <translation id="4918221908152712722">Įdiekite „<ph name="APP_NAME" />“ (nereikia atsisiųsti)</translation>
 <translation id="4923459931733593730">Mokėjimas</translation>
@@ -1350,12 +1233,8 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4926340098269537727"><ph name="ACTIVE_MATCH" /> / <ph name="TOTAL_MATCHCOUNT" /></translation>
 <translation id="4929871932072157101"><ph name="KEYWORD_FOCUSED_FRIENDLY_MATCH_TEXT" />, norėdami ieškoti paspauskite skirtuką, tada – „Enter“</translation>
 <translation id="4930153903256238152">Didelė talpa</translation>
-<translation id="4940163644868678279">Inkognito režimas naršyklėje „Chrome“</translation>
 <translation id="4943872375798546930">Rezultatų nėra</translation>
-<<<<<<< HEAD
-=======
 <translation id="4946982471994930967">Pritaikomumo nustatymų tvarkymo mygtukas; paspauskite „Enter“, kad suasmenintumėte pritaikomumo įrankius „Decentr“ nustatymuose.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4950898438188848926">Skirtuko perjungimo mygtukas. Paspauskite „Enter“, kad perjungtumėte į atidarytą skirtuką „<ph name="TAB_SWITCH_FOCUSED_FRIENDLY_MATCH_TEXT" />“</translation>
 <translation id="495170559598752135">Veiksmai</translation>
 <translation id="4953689047182316270">Reaguoti į pritaikymo neįgaliesiems įvykius</translation>
@@ -1364,13 +1243,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4968522289500246572">Ši programa sukurta mobiliesiems įrenginiams, todėl jos dydis gali būti pakeistas netinkamai. Programoje gali kilti problemų arba ji gali būti paleista iš naujo.</translation>
 <translation id="4969341057194253438">Ištrinti įrašą</translation>
 <translation id="4973922308112707173">Dvi skylės viršuje</translation>
-<translation id="4976702386844183910">Paskutinį kartą lankytasi <ph name="DATE" /></translation>
 <translation id="4984088539114770594">Naudoti mikrofoną?</translation>
 <translation id="4984339528288761049">„Prc5“ (vokas)</translation>
 <translation id="4989163558385430922">Žr. viską</translation>
 <translation id="4989542687859782284">Nepasiekiama</translation>
 <translation id="4989809363548539747">Šis papildinys nepalaikomas</translation>
-<translation id="4992066212339426712">Įjungti garsą</translation>
 <translation id="4995216769782533993">Patvirtinkite saugos kodą, kad išsami kortelės informacija būtų bendrinama su šia svetaine</translation>
 <translation id="4995474875135717171">Pakeista:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad galėtumėte tvarkyti svetainių paiešką ir numatytąjį paieškos variklį.</translation>
@@ -1416,21 +1293,16 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5115216390227830982">European-Edp</translation>
 <translation id="5115232566827194440">Apribotos valdomos svečio sesijos nepaisymas</translation>
 <translation id="5115563688576182185">(64 bitų)</translation>
-<<<<<<< HEAD
-=======
 <translation id="5116898824332672776"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad suasmenintumėte pritaikomumo įrankius „Decentr“ OS nustatymuose.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5123063207673082822">Savaitgalis</translation>
 <translation id="5125394840236832993">B-Plus</translation>
 <translation id="5126510351761255129">Kortelės patvirtinimas</translation>
 <translation id="512670116361803001">Programos „<ph name="APP_NAME" />“ dydis gali būti pakeistas netinkamai. Naudokite iš anksto nustatytus lango dydžius, kad programoje nekiltų problemų.</translation>
 <translation id="5135404736266831032">Tvarkyti adresus...</translation>
-<translation id="5136841603454277753">Įveskite tinkamą kodą</translation>
 <translation id="5138014172396933048">Šiuo metu virtuali kortelė nepasiekiama. Susisiekite su savo banku.</translation>
 <translation id="5138227688689900538">Rodyti mažiau</translation>
 <translation id="5145883236150621069">Politikos atsakyme yra klaidos kodas</translation>
 <translation id="5146995429444047494"><ph name="ORIGIN" /> pranešimai užblokuoti</translation>
-<translation id="514704532284964975"><ph name="URL" /> nori peržiūrėti ir keisti informaciją NFC įrenginiuose, kurią paliečiate telefonu</translation>
 <translation id="5148809049217731050">Gerąja puse į viršų</translation>
 <translation id="515292512908731282">C4 (vokas)</translation>
 <translation id="5158275234811857234">Viršelis</translation>
@@ -1448,19 +1320,16 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="51918995459521422"><ph name="ORIGIN" /> nori atsisiųsti kelis failus</translation>
 <translation id="519422657042045905">Komentaras nepasiekiamas</translation>
 <translation id="5201306358585911203">Šiame puslapyje įterptame puslapyje nurodyta:</translation>
-<translation id="5204468114771111727">„Chrome“ aptiko, kad slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. „Google“ padėjėjas gali pakeisti jūsų slaptažodį automatiškai.</translation>
 <translation id="5205222826937269299">Būtina nurodyti pavadinimą</translation>
 <translation id="5209518306177824490">SHA-1 piršto atspaudas</translation>
 <translation id="5209670883520018268">Dvidešimtas dėklas</translation>
 <translation id="5215116848420601511">„Google Pay“ naudojami mokėjimo metodai ir adresai</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="521659676233207110">Tryliktas dėklas</translation>
-<translation id="5216942107514965959">Paskutinį kartą lankytasi šiandien</translation>
 <translation id="5222812217790122047">Būtina nurodyti el. paštą</translation>
 <translation id="5230733896359313003">Pristatymo adresas</translation>
 <translation id="5230815978613972521">B8</translation>
 <translation id="5233045608889518621">12 x 19</translation>
-<translation id="5234764350956374838">Atsisakyti</translation>
 <translation id="5250209940322997802">„Prisijungimas prie tinklo“</translation>
 <translation id="52517543715119994">Sužinokite apie „Decentr“ funkcijas</translation>
 <translation id="5251803541071282808">Debesis</translation>
@@ -1469,6 +1338,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5254958791078852567">E1</translation>
 <translation id="5255690596502591079">Vis tiek užfiksuoti</translation>
 <translation id="5266128565379329178">Įrišimas viršuje</translation>
+<translation id="5269124652893918188"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite tinkinti naršyklės išvaizdą.</translation>
 <translation id="5269225904387178860">Keturios skylės apačioje</translation>
 <translation id="5269999699920406580">Visoje sistemoje taikomas funkcijas gali nustatyti tik savininkas: <ph name="OWNER_EMAIL" /></translation>
 <translation id="5273658854610202413">Įspėjimas: ši politika nebuvo sujungta, kaip nurodyta politikoje „PolicyDictionaryMultipleSourceMergeList“, nes ji nėra žodyno politikos nuostatų, kurias galima sujungti, dalis.</translation>
@@ -1476,6 +1346,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5283044957620376778">B1</translation>
 <translation id="5284295735376057059">Dokumento ypatybės</translation>
 <translation id="528468243742722775">Baigti</translation>
+<translation id="5284909709419567258">Tinklų adresai</translation>
 <translation id="5285570108065881030">Rodyti visus išsaugotus slaptažodžius</translation>
 <translation id="5287240709317226393">Rodyti slapukus</translation>
 <translation id="5287456746628258573">Šioje svetainėje naudojama pasenusi saugos konfigūracija, todėl gali būti atskleista į šią svetainę siunčiama informacija (pvz., slaptažodžiai ar kredito kortelių numeriai).</translation>
@@ -1498,13 +1369,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5333022057423422993">„Decentr“ aptiko, kad slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. Kad galėtumėte apsaugoti paskyras, rekomenduojame patikrinti išsaugotus slaptažodžius.</translation>
 <translation id="5334013548165032829">Išsamūs sistemos žurnalai</translation>
 <translation id="5334145288572353250">Išsaugoti adresą?</translation>
-<translation id="5335920952954443287">Plakanti širdelė</translation>
 <translation id="5340250774223869109">Programa užblokuota</translation>
 <translation id="534295439873310000">ALR įrenginiai</translation>
 <translation id="5344579389779391559">Šiame puslapyje gali būti bandoma jus apmokestinti</translation>
 <translation id="5347645913823149105">Šriftų tinkinimo naršyklėje „Decentr“ mygtukas; paspauskite „Enter“, kad galėtumėte tinkinti šriftų dydį ir šriftų šeimas naršyklėje „Decentr“.</translation>
 <translation id="5355557959165512791">Negalite dabar apsilankyti svetainėje <ph name="SITE" />, nes jos sertifikatas buvo anuliuotas. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
-<translation id="5356837363448394805">Susigėdęs</translation>
 <translation id="536296301121032821">Išsaugant politikos nustatymus įvyko klaida</translation>
 <translation id="5363309033720083897">Administratorius leidžia naudoti nuoseklųjį prievadą</translation>
 <translation id="5371425731340848620">Atnaujinkite kortelę</translation>
@@ -1516,11 +1385,13 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5398772614898833570">Skelbimai užblokuoti</translation>
 <translation id="5400836586163650660">Pilka spalva</translation>
 <translation id="540969355065856584">Šiam serveriui nepavyko patvirtinti, kad jis yra <ph name="DOMAIN" />; šiuo metu jo saugos sertifikatas negalioja. Tai gali būti dėl netinkamos konfigūracijos arba dėl ryšį pertraukusio užgrobėjo.</translation>
+<translation id="541143247543991491">Debesis (visa sistema)</translation>
 <translation id="541416427766103491">4 dėtuvė</translation>
 <translation id="5421136146218899937">Išvalyti naršymo duomenis...</translation>
 <translation id="5426179911063097041">Svetainė <ph name="SITE" /> nori siųsti jums pranešimus</translation>
 <translation id="5428105026674456456">Ispanų</translation>
 <translation id="5430298929874300616">Pašalinti žymę</translation>
+<translation id="5434889539950523874"><ph name="SHARE_THIS_PAGE_FOCUSED_FRIENDLY_MATCH_TEXT" />; jei norite bendrinti šį skirtuką bendrindami nuorodą, sukurdami QR kodą, perduodami ir kt., paspauskite tabuliavimo klavišą, tada – klavišą „Enter“.</translation>
 <translation id="5439770059721715174">Schemos patvirtinimo klaida „<ph name="ERROR_PATH" />“: <ph name="ERROR" /></translation>
 <translation id="5443468954631487277">Atvirkštine tvarka, gerąja puse į viršų</translation>
 <translation id="5447765697759493033">Ši svetainė nebus verčiama</translation>
@@ -1534,7 +1405,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5478437291406423475">B6 / C4 (vokas)</translation>
 <translation id="5481076368049295676">Šiuo turiniu gali būti bandoma priversti jus įrenginyje įdiegti pavojingą programinę įrangą, kuri vagia arba ištrina jūsų informaciją. <ph name="BEGIN_LINK" />Rodyti vis tiek<ph name="END_LINK" /></translation>
 <translation id="54817484435770891">Tinkamo adreso pridėjimas</translation>
-<translation id="5485973315555778056">„Cloud“ įrenginys</translation>
 <translation id="5490432419156082418">Adresai ir dar daugiau</translation>
 <translation id="5492298309214877701">Šios svetainės URL įmonės, organizacijos ar mokyklos intranete toks pat kaip išorinės svetainės URL.
     <ph name="LINE_BREAK" />
@@ -1554,22 +1424,17 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5540224163453853">Nepavyko rasti straipsnio, dėl kurio pateikta užklausa.</translation>
 <translation id="5541086400771735334">7 pašto dėžutė</translation>
 <translation id="5541546772353173584">El. pašto adreso pridėjimas</translation>
-<<<<<<< HEAD
-=======
 <translation id="5542280138350899197">Mygtukas „Tvarkyti saugos nustatymus“; paspauskite „Enter“, jei norite tvarkyti Saugaus naršymo ir kitus duomenis „Decentr“ nustatymuose</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5545756402275714221">Jums skirti straipsniai</translation>
 <translation id="5552137475244467770">„Decentr“ periodiškai tikrina, ar jūsų slaptažodžiai nebuvo įtraukti į internete paskelbtus sąrašus. Tai atliekant, slaptažodžiai ir naudotojų vardai užšifruojami, kad niekas negalėtų jų perskaityti, įskaitant „Google“.</translation>
 <translation id="5556459405103347317">Įkelti iš naujo</translation>
 <translation id="5560088892362098740">Galiojimo laiko pabaigos data</translation>
 <translation id="55635442646131152">Dokumento eskizas</translation>
-<translation id="5565613213060953222">Atidaryti inkognito skirtuką</translation>
 <translation id="5565735124758917034">Aktyvus</translation>
 <translation id="5570825185877910964">Apsaugoti paskyrą</translation>
 <translation id="5571083550517324815">Negalima paimti šiuo adresu. Pasirinkite kitą adresą.</translation>
 <translation id="5580958916614886209">Patikrinkite galiojimo pabaigos mėnesį ir bandykite dar kartą</translation>
 <translation id="5586446728396275693">Nėra išsaugotų adresų</translation>
-<translation id="5587987780934666589">Platformos naudotojas</translation>
 <translation id="5593349413089863479">Ryšys nevisiškai saugus</translation>
 <translation id="5595485650161345191">Adreso redagavimas</translation>
 <translation id="5598944008576757369">Pasirinkti mokėjimo metodą</translation>
@@ -1624,12 +1489,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5784606427469807560">Patvirtinant kortelę kilo problema. Patikrinkite interneto ryšį ir bandykite dar kartą.</translation>
 <translation id="5785756445106461925">Be to, šiame puslapyje yra kitų nesaugių išteklių. Perduodant duomenis šiuos išteklius gali peržiūrėti kiti asmenys ir keisti atakuojanti programa, siekianti pakeisti puslapio išvaizdą.</translation>
 <translation id="5786044859038896871">Ar norite, kad būtų įvesta jūsų kredito kortelės informacija?</translation>
-<<<<<<< HEAD
-<translation id="578633867165174378">„Chrome“ aptiko, kad slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. Rekomenduojame dabar pakeisti šį slaptažodį.</translation>
-<translation id="5789643057113097023">.</translation>
-=======
 <translation id="578633867165174378">„Decentr“ aptiko, kad slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. Rekomenduojame dabar pakeisti šį slaptažodį.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5803412860119678065">Ar norite, kad būtų įvesta <ph name="CARD_DETAIL" /> informacija?</translation>
 <translation id="5804241973901381774">Leidimai</translation>
 <translation id="5810442152076338065">Ryšys su <ph name="DOMAIN" /> užšifruotas naudojant pasenusį šifravimo paketą.</translation>
@@ -1641,6 +1501,9 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5830698870816298009">vaizdo kameros naudojimas ir judinimas</translation>
 <translation id="5838278095973806738">Šioje svetainėje neturėtumėte pateikti neskelbtinos informacijos (pvz., slaptažodžių ar kredito kortelių numerių), nes ją gali pavogti užpuolikai.</translation>
 <translation id="5851548754964597211">Skirtukų sąrašas</translation>
+<translation id="5855253129151731373">Šios svetainės prieglobos serverio pavadinimas panašus į <ph name="LOOKALIKE_DOMAIN" />. Kartais užpuolėjai kurdami svetainių kopijas atlieka nedidelių, sunkiai pastebimų domeno pavadinimio pakeitimų.
+
+    Jei manote, kad šis pranešimas rodomas per klaidą, apsilankykite adresu https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="5860033963881614850">Išjungta</translation>
 <translation id="5862579898803147654">8 dėtuvė</translation>
 <translation id="5863847714970149516">Toliau pateiktame puslapyje gali būti bandoma jus apmokestinti</translation>
@@ -1650,13 +1513,13 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5869522115854928033">Išsaugoti slaptažodžiai</translation>
 <translation id="5873013647450402046">Bankas nori, kad patvirtintumėte savo tapatybę.</translation>
 <translation id="5887400589839399685">Kortelė išsaugota</translation>
-<translation id="5887687176710214216">Paskutinį kartą lankytasi vakar</translation>
 <translation id="5895138241574237353">Paleisti iš naujo</translation>
 <translation id="5895187275912066135">Išduota</translation>
 <translation id="5901630391730855834">Geltona</translation>
 <translation id="5903264686717710770">Pavadinimas:</translation>
 <translation id="5905445707201418379">Užblokuota vadovaujantis „<ph name="ORIGIN" />“ pradine politika.</translation>
 <translation id="5908541034548427511"><ph name="TYPE_1" /> (sinchronizuota)</translation>
+<translation id="5913377024445952699">Ekrano fiksavimas pristabdytas</translation>
 <translation id="59174027418879706">Įjungta</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5920262536204764679">{NUM_COOKIES,plural, =1{Naudojamas 1 slapukas}one{Naudojamas # slapukas}few{Naudojami # slapukai}many{Naudojama # slapuko}other{Naudojama # slapukų}}</translation>
@@ -1664,7 +1527,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5921639886840618607">Išsaugoti kortelę „Google“ paskyroje?</translation>
 <translation id="5922853866070715753">Beveik atlikta</translation>
 <translation id="5932224571077948991">Svetainėje rodomi nepageidaujami arba klaidinantys skelbimai</translation>
-<translation id="5938153366081463283">Pridėkite virtualią kortelę</translation>
 <translation id="5938793338444039872">Troy</translation>
 <translation id="5946937721014915347">Atidaroma „<ph name="SITE_NAME" />“…</translation>
 <translation id="5951495562196540101">Nepavyko prisiregistruoti su kliento paskyra (galima įsigyti licencijos paketą).</translation>
@@ -1686,7 +1548,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6008122969617370890">Tvarka: nuo N iki 1</translation>
 <translation id="6008256403891681546">JCB</translation>
 <translation id="6014801569448771146">Patikrinkite slaptažodžius</translation>
-<translation id="6014851866995737824">Nepaisoma, nes nėra įgalinimo ar išjungimo sąrašo.</translation>
 <translation id="6015796118275082299">Metai</translation>
 <translation id="6017514345406065928">Žalia</translation>
 <translation id="6017850046339264347">Užgrobėjai svetainėje <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> gali įdiegti klaidinančių programų, kurios apsimeta kitomis programomis, arba rinkti duomenis, naudojamus jums stebėti. <ph name="BEGIN_LEARN_MORE_LINK" />Sužinokite daugiau<ph name="END_LEARN_MORE_LINK" /></translation>
@@ -1710,7 +1571,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6051221802930200923">Šiuo metu negalite apsilankyti <ph name="SITE" />, nes svetainėje naudojamas sertifikatų prisegimas. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
 <translation id="6051898664905071243">Puslapių skaičius:</translation>
 <translation id="6052284303005792909">•</translation>
-<translation id="6052319569711353666">Slaptažodis, kurį ką tik naudojote, buvo atskleistas įvykus duomenų saugos pažeidimui. „Google“ slaptažodžių tvarkytuvė rekomenduoja pakeisti šį slaptažodį dabar.</translation>
 <translation id="6055888660316801977">Saugaus mokėjimo prisijungimo duomenų lapas, informuojantis, kad atitinkančių prisijungimo duomenų nerasta</translation>
 <translation id="6058977677006700226">Naudojate korteles visuose įrenginiuose?</translation>
 <translation id="6059925163896151826">USB įrenginiai</translation>
@@ -1719,7 +1579,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6080696365213338172">Pasiekėte turinį naudodami administratoriaus pateiktą sertifikatą. Duomenys, kuriuos pateikiate <ph name="DOMAIN" />, gali būti perimti administratoriaus.</translation>
 <translation id="6087312102907839798">Susijusios paieškos</translation>
 <translation id="6094273045989040137">Komentuoti</translation>
-<translation id="6094290315941448991">Remiantis administratoriaus politika, negalima įrašyti ekrano vaizdo, jei matomas konfidencialus turinys</translation>
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6105460996796456817">Sukurti svetainę</translation>
 <translation id="6106989379647458772">Gali būti, kad tinklalapis adresu <ph name="PAGE" /> laikinai neveikia arba yra visam laikui perkeltas nauju žiniatinklio adresu.</translation>
@@ -1729,7 +1588,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6120179357481664955">Prisiminti UPI ID?</translation>
 <translation id="6124432979022149706">Decentr Enterprise Connectors</translation>
 <translation id="6127379762771434464">Elementas pašalintas</translation>
-<translation id="6132161237766805930"><ph name="BEGIN_LINK" />Sužinokite daugiau apie inkognito režimą naršyklėje „Chrome“<ph name="END_LINK" /></translation>
 <translation id="6146055958333702838">Patikrinkite laidus ir iš naujo paleiskite maršruto parinktuvus, modemus ar kitus
         naudojamus tinklo įrenginius.</translation>
 <translation id="614940544461990577">Pabandykite atlikti toliau nurodytus veiksmus.</translation>
@@ -1742,13 +1600,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6169916984152623906">Dabar galite naršyti privačiai, o kiti šį įrenginį naudojantys žmonės nematys jūsų veiklos. Tačiau atsisiuntimai ir žymės bus išsaugoti.</translation>
 <translation id="6177128806592000436">Ryšys su šia svetaine nėra saugus</translation>
 <translation id="6180316780098470077">Pakartotinio bandymo intervalas</translation>
+<translation id="619448280891863779">Gali būti prašoma atidaryti ir įdėti langų jūsų ekranuose</translation>
 <translation id="6196640612572343990">Blokuoti trečiosios šalies slapukus</translation>
 <translation id="6203231073485539293">Patikrinkite interneto ryšį</translation>
 <translation id="6218753634732582820">Pašalinti adresą iš „Decentr“?</translation>
 <translation id="622039917539443112">Lygiagretus perlenkimas</translation>
 <translation id="6221345481584921695">„Google“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK" />aptiko kenkėjišką programą<ph name="END_LINK" /> svetainėje <ph name="SITE" />. Svetainės, kurios paprastai yra saugios, kartais užkrečiamos kenkėjiškomis programomis. Kenkėjiškas turinys gautas iš <ph name="SUBRESOURCE_HOST" />, žinomo kenkėjiškų programų platintojo.</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, jei norite suasmeninti pritaikomumo įrankius „Chrome“ nustatymuose</translation>
-<translation id="6233160458685643793">Patenkintas</translation>
 <translation id="6234122620015464377">Apkarpymas po kiekvieno dokumento</translation>
 <translation id="6240447795304464094">„Google Pay“ logotipas</translation>
 <translation id="6241121617266208201">Slėpti pasiūlymus</translation>
@@ -1764,20 +1621,14 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6272383483618007430">„Google“ naujinys</translation>
 <translation id="6276112860590028508">Čia rodomi puslapiai iš skaitymo sąrašo</translation>
 <translation id="627746635834430766">Kad kitą kartą galėtumėte greičiau atlikti mokėjimą, išsaugokite kortelę ir atsiskaitymo adresą „Google“ paskyroje.</translation>
-<translation id="6279183038361895380">Paspauskite |<ph name="ACCELERATOR" />|, kad būtų rodomas žymeklis</translation>
+<translation id="6279098320682980337">Virtualios kortelės numeris neįvestas? Spustelėkite norimą kopijuoti išsamią kortelės informaciją</translation>
 <translation id="6280223929691119688">Negalima pristatyti šiuo adresu. Pasirinkite kitą adresą.</translation>
 <translation id="6282194474023008486">Pašto kodas</translation>
-<translation id="6285507000506177184">Mygtukas „Tvarkyti atsisiuntimus naršyklėje „Chrome“; paspauskite „Enter“, jei norite tvarkyti failus, kuriuos atsisiuntėte naršyklėje „Chrome“</translation>
 <translation id="6289939620939689042">Puslapio spalva</translation>
 <translation id="6290238015253830360">Jūsų pasiūlyti straipsniai rodomi čia</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">Kortelės patvirtinimo kodas CVC:</translation>
-<<<<<<< HEAD
-<translation id="6300452962057769623">{0,plural, =0{Jūsų įrenginys dabar bus paleistas iš naujo}=1{Jūsų įrenginys bus paleistas iš naujo po vienos sekundės}one{Jūsų įrenginys bus paleistas iš naujo po # sekundės}few{Jūsų įrenginys bus paleistas iš naujo po # sekundžių}many{Jūsų įrenginys bus paleistas iš naujo po # sekundės}other{Jūsų įrenginys bus paleistas iš naujo po # sekundžių}}</translation>
-<translation id="6302269476990306341">„Google“ padėjėjas sistemoje „Chrome“ sustabdomas</translation>
-=======
 <translation id="6302269476990306341">„Google“ padėjėjas sistemoje „Decentr“ sustabdomas</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6305205051461490394"><ph name="URL" /> nepasiekiama.</translation>
 <translation id="6312113039770857350">Tinklalapis nepasiekiamas</translation>
 <translation id="63172326633386613">Tvarkyti pritaikomumo nustatymus</translation>
@@ -1788,7 +1639,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6328786501058569169">Ši svetainė yra apgaulinga</translation>
 <translation id="6337133576188860026">Atlaisvina mažiau nei <ph name="SIZE" />. Per kitą jūsų apsilankymą kai kurios svetainės gali būti įkeliamos lėčiau.</translation>
 <translation id="6337534724793800597">Filtruoti politiką pagal pavadinimą</translation>
-<translation id="6340739886198108203">Pagal administratoriaus politikos nuostatas nerekomenduojama daryti ekrano kopijų arba įrašyti, kai matomas konfidencialus turinys.</translation>
 <translation id="6349101878882523185">Įdiegti <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Nėra}=1{1 slaptažodis (skirta <ph name="DOMAIN_LIST" />, sinchronizuojama)}=2{2 slaptažodžiai (skirta <ph name="DOMAIN_LIST" />, sinchronizuojama)}one{# slaptažodis (skirta <ph name="DOMAIN_LIST" />, sinchronizuojama)}few{# slaptažodžiai (skirta <ph name="DOMAIN_LIST" />, sinchronizuojama)}many{# slaptažodžio (skirta <ph name="DOMAIN_LIST" />, sinchronizuojama)}other{# slaptažodžių (skirta <ph name="DOMAIN_LIST" />, sinchronizuojama)}}</translation>
 <translation id="6355392890578844978">Šios naršyklės netvarko įmonė ar kita organizacija. Veiklą šiame įrenginyje galima tvarkyti ne naršyklėje „Decentr“. <ph name="BEGIN_LINK" />Sužinokite daugiau<ph name="END_LINK" /></translation>
@@ -1806,7 +1656,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6390662030813198813">Engineering-E</translation>
 <translation id="6391700400718590966">Saugaus mokėjimo prisijungimo duomenų lapas, informuojantis, kad atitinkančių prisijungimo duomenų nerasta, uždarytas</translation>
 <translation id="6393956493820063117">Pagal administratoriaus politiką galimybė įklijuoti iš <ph name="ORIGIN_NAME" /> į šią vietą blokuojama</translation>
-<translation id="6398277657359595425">Garsiai verkiantis</translation>
 <translation id="6398765197997659313">Išeiti iš viso ekrano režimo</translation>
 <translation id="6401136357288658127">Ši politika nebenaudojama. Vietoj jos turėtumėte naudoti politiką „<ph name="NEW_POLICY" />“.</translation>
 <translation id="6404511346730675251">Redaguoti žymę</translation>
@@ -1820,7 +1669,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="643051589346665201">Keisti „Google“ slaptažodį</translation>
 <translation id="6433490469411711332">Kontaktinės informacijos redagavimas</translation>
 <translation id="6433595998831338502"><ph name="HOST_NAME" /> atsisakė prisijungti.</translation>
-<translation id="6438025220577812695">Pakeisti patiems</translation>
 <translation id="6440503408713884761">Nepaisoma</translation>
 <translation id="6443406338865242315">Kuriuos plėtinius ir papildinius įdiegėte</translation>
 <translation id="6446163441502663861">„Kahu“ (vokas)</translation>
@@ -1836,10 +1684,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="647261751007945333">Įrenginio politika</translation>
 <translation id="6476284679642588870">Tvarkyti mokėjimo metodus</translation>
 <translation id="6489534406876378309">Pradėti įkelti strigtis</translation>
-<<<<<<< HEAD
-=======
 <translation id="6493328574149990106"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad suasmenintumėte pritaikomumo įrankius „Decentr“ nustatymuose.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6493924760403974580">Ši programa palaiko tik šį dydį.</translation>
 <translation id="6494750904506170417">iššokantieji langai ir peradresavimai</translation>
 <translation id="6499038740797743453">Iš naujo nustatyti slaptažodį?</translation>
@@ -1854,7 +1699,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6529602333819889595">&amp;Ištrinti dar kartą</translation>
 <translation id="6545864417968258051">„Bluetooth“ nuskaitymas</translation>
 <translation id="6547208576736763147">Dvi skylės kairėje</translation>
-<translation id="6554732001434021288">Paskutinį kartą lankytasi prieš <ph name="NUM_DAYS" /> d.</translation>
 <translation id="6556866813142980365">Grąžinti</translation>
 <translation id="6569060085658103619">Peržiūrite plėtinio puslapį</translation>
 <translation id="6573200754375280815">Dvi skylės dešinėje</translation>
@@ -1869,6 +1713,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6596325263575161958">Šifravimo parinktys</translation>
 <translation id="6609880536175561541">„Prc7“ (vokas)</translation>
 <translation id="6615297766614333076">2 dėtuvė</translation>
+<translation id="6623589891453322342">failų doroklės</translation>
 <translation id="6624427990725312378">Kontaktinė informacija</translation>
 <translation id="6626291197371920147">Galiojančios kortelės numerio pridėjimas</translation>
 <translation id="6628463337424475685">„<ph name="ENGINE" />“ paieška</translation>
@@ -1886,7 +1731,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6660413144148052430">vietovė</translation>
 <translation id="6662457027866368246">Pirmas ritinėlis</translation>
 <translation id="666259744093848177">(x86_64 išversta)</translation>
-<translation id="6663846344464066639">Suglaudęs rankas</translation>
 <translation id="6665553082534466207">Trys skylės dešinėje</translation>
 <translation id="6671697161687535275">Pašalinti formos pasiūlymą iš „Decentr“?</translation>
 <translation id="6685834062052613830">Atsijunkite ir užbaikite sąranką</translation>
@@ -1896,7 +1740,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6689249931105087298">Santykinis su juodų taškų sutankinimu</translation>
 <translation id="6689271823431384964">„Decentr“ siūlo išsaugoti korteles „Google“ paskyroje, nes esate prisijungę. Šią elgseną galite pakeisti nustatymuose. Kortelės savininko vardas gaunamas iš jūsų paskyros.</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />; paspauskite tabuliavimo klavišą, tada – „Enter“, kad surastumėte savo įrenginį „Google“ paskyroje.</translation>
-<translation id="6696588630955820014">Mygtukas „Bendrinti šį skirtuką“; jei norite bendrinti šį skirtuką bendrindami nuorodą, sukurdami QR kodą, perduodami ir kt., paspauskite klavišą „Enter“</translation>
 <translation id="6698381487523150993">Sukurta:</translation>
 <translation id="6702919718839027939">Rodyti</translation>
 <translation id="6710213216561001401">Ankstesnė</translation>
@@ -1911,10 +1754,10 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="674375294223700098">Nežinoma serverio sertifikato klaida.</translation>
 <translation id="6744009308914054259">Laukdami ryšio galite apsilankyti skiltyje „Atsisiuntimai“ ir perskaityti neprisijungus pasiekiamus straipsnius.</translation>
 <translation id="6753269504797312559">Politikos vertė</translation>
-<translation id="6755241357817244406">chrome://flags</translation>
 <translation id="6757797048963528358">Įjungta įrenginio miego būsena.</translation>
 <translation id="6767985426384634228">Atnaujinti adresą?</translation>
 <translation id="6768213884286397650">„Hagaki“ (atvirukas)</translation>
+<translation id="6774185088257932239"><ph name="BEGIN_LINK" />Sužinokite daugiau<ph name="END_LINK" /> apie inkognito režimą.</translation>
 <translation id="6775759552199460396">JIS B2</translation>
 <translation id="67862343314499040">Violetinė</translation>
 <translation id="6786747875388722282">Plėtiniai</translation>
@@ -1954,12 +1797,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6934672428414710184">Šis vardas yra iš jūsų „Google“ paskyros</translation>
 <translation id="6944692733090228304">Įvedėte slaptažodį svetainėje, kurios netvarko organizacija <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" />. Kad apsaugotumėte paskyrą, nenaudokite to paties slaptažodžio kitose programose ir svetainėse.</translation>
 <translation id="6945221475159498467">Pasirinkti</translation>
-<translation id="6946722113367118030">Susimąstęs</translation>
 <translation id="6948051842255602737">Žaidimo pabaiga, jūsų rezultatas – <ph name="SCORE" />.</translation>
 <translation id="6948701128805548767">Jei norite peržiūrėti paėmimo metodus ir reikalavimus, pasirinkite adresą</translation>
 <translation id="6949872517221025916">Slaptažodžio nustatymas iš naujo</translation>
 <translation id="6950684638814147129">Klaida analizuojant JSON vertę: <ph name="ERROR" /></translation>
 <translation id="695140971690006676">Nustatyti viską iš naujo</translation>
+<translation id="6954341342296443517">Gali būti prašoma atidaryti tam tikrų tipų failus</translation>
 <translation id="6957887021205513506">Panašu, kad serverio sertifikatas yra suklastotas.</translation>
 <translation id="6958564499836457428">Tvarkyti „Google“ privatumo nustatymus „Google“ paskyroje</translation>
 <translation id="6961844873822989059">Gali būti prašoma leidimo naudoti šriftus, įdiegtus jūsų įrenginyje</translation>
@@ -1974,7 +1817,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6972629891077993081">HID įrenginiai</translation>
 <translation id="6973656660372572881">Nurodyti fiksuoti įgaliotieji serveriai ir .pac scenarijaus URL.</translation>
 <translation id="6973932557599545801">Deja, negaliu padėti, tolesnius veiksmus atlikite patys.</translation>
-<translation id="6978236010531171013">Vis tiek bendrinti</translation>
 <translation id="6979158407327259162">„Google“ diskas</translation>
 <translation id="6979440798594660689">Nutildyti (numatytasis)</translation>
 <translation id="6979983982287291980">Failai, kuriuos atsisiunčiate, siunčiami „Google Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, failai gali būti nuskaityti, ar juose nėra neskelbtinų duomenų ar kenkėjiškų programų.</translation>
@@ -1986,6 +1828,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="7012363358306927923">China UnionPay</translation>
 <translation id="7014741021609395734">Mastelio keitimo lygis</translation>
 <translation id="7016992613359344582">Šie mokesčiai gali būti vienkartiniai arba pasikartojantys ir gali būti neaiškūs.</translation>
+<translation id="7024588353896425985">Failų doroklės</translation>
 <translation id="7029809446516969842">Slaptažodžiai</translation>
 <translation id="7030436163253143341">Sertifikatas negalioja</translation>
 <translation id="7031646650991750659">Kurias „Google Play“ programas įdiegėte</translation>
@@ -2014,14 +1857,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="7111012039238467737">(tinkamas)</translation>
 <translation id="7118618213916969306">Ieškoti iškarpinės URL, <ph name="SHORT_URL" /></translation>
 <translation id="7119414471315195487">Uždarykite kitus skirtukus ir programas</translation>
-<translation id="7129355289156517987">Kai uždarote visus „Chromium“ inkognito skirtukus, iš šio įrenginio išvaloma jūsų veikia toliau nurodytuose skirtukuose.
-          <ph name="BEGIN_LIST" />
-            <ph name="LIST_ITEM" />Naršymo veikla<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Paieškos istorija<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Formose įvesta informacija<ph name="END_LIST_ITEM" />
-          <ph name="END_LIST" /></translation>
 <translation id="7129409597930077180">Negalima pristatyti šiuo adresu. Pasirinkite kitą adresą.</translation>
-<translation id="7132939140423847331">Jūsų administratorius uždraudė kopijuoti šiuos duomenis.</translation>
 <translation id="7135130955892390533">Rodyti būseną</translation>
 <translation id="7138472120740807366">Pristatymo metodas</translation>
 <translation id="7139724024395191329">Emyratas</translation>
@@ -2032,6 +1868,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="7153618581592392745">Levandų spalva</translation>
 <translation id="7156870133441232244">Serverį reikia naujovinti į 1.2 ar naujesnės versijos TLS.</translation>
 <translation id="717330890047184534">„Gaia“ ID:</translation>
+<translation id="7173920250514487165">Konfidencialaus turinio fiksavimas ekrane</translation>
 <translation id="7174545416324379297">Sujungta</translation>
 <translation id="7175401108899573750">{SHIPPING_OPTIONS,plural, =0{<ph name="SHIPPING_OPTION_PREVIEW" />}=1{<ph name="SHIPPING_OPTION_PREVIEW" /> ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" />}one{<ph name="SHIPPING_OPTION_PREVIEW" /> ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" />}few{<ph name="SHIPPING_OPTION_PREVIEW" /> ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" />}many{<ph name="SHIPPING_OPTION_PREVIEW" /> ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" />}other{<ph name="SHIPPING_OPTION_PREVIEW" /> ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" />}}</translation>
 <translation id="7179323680825933600">Išsaugoti ir užpildyti mokėjimo metodų informaciją</translation>
@@ -2042,7 +1879,6 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="7192203810768312527">Atlaisvina <ph name="SIZE" />. Per kitą jūsų apsilankymą kai kurios svetainės gali būti įkeliamos lėčiau.</translation>
 <translation id="719464814642662924">Visa</translation>
 <translation id="7201591969684833065">Administratorius gali peržiūrėti:</translation>
-<translation id="7202217080450895452"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad būtų atidarytas naujas privataus naršymo inkognito skirtukas</translation>
 <translation id="7202346780273620635">Letter-Extra</translation>
 <translation id="7210863904660874423"><ph name="HOST_NAME" /> nesilaikoma saugos standartų.</translation>
 <translation id="7210993021468939304">„Linux“ veikla sudėtiniame rodinyje; ir gali įdiegti ir paleisti „Linux“ programas sudėtiniame rodinyje</translation>
@@ -2074,7 +1910,6 @@ Papildoma išsami informacija:
 <translation id="7304562222803846232">Tvarkyti „Google“ paskyros privatumo nustatymus</translation>
 <translation id="7305756307268530424">Pradėti lėčiau</translation>
 <translation id="7308436126008021607">fono sinchronizavimas</translation>
-<translation id="7310392214323165548">Įrenginys netrukus bus paleistas iš naujo</translation>
 <translation id="7319430975418800333">A3</translation>
 <translation id="7320336641823683070">Su ryšiu susijusi pagalba</translation>
 <translation id="7323804146520582233">Slėpti skiltį „<ph name="SECTION" />“</translation>
@@ -2082,7 +1917,6 @@ Papildoma išsami informacija:
 <translation id="7334320624316649418">&amp;Pertvarkyti dar kartą</translation>
 <translation id="7335157162773372339">Gali būti prašoma naudoti fotoaparatą</translation>
 <translation id="7337248890521463931">Rodyti daugiau eilučių</translation>
-<translation id="7337418456231055214">Virtualios kortelės numeris neįvestas? Spustelėkite išsamią kortelės informaciją, kad nukopijuotumėte. <ph name="IDS_AUTOFILL_VIRTUAL_CARD_MANUAL_FALLBACK_BUBBLE_LEARN_MORE_LINK_LABEL" /></translation>
 <translation id="7337706099755338005">Nepasiekiama jūsų platformoje.</translation>
 <translation id="733923710415886693">Serverio sertifikatas nebuvo atskleistas taikant sertifikato skaidrumą.</translation>
 <translation id="734600844861828519">11 x 15</translation>
@@ -2105,12 +1939,10 @@ Papildoma išsami informacija:
 <translation id="7378627244592794276">Ne</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7386364858855961704">Netaikoma</translation>
-<translation id="7388594495505979117">{0,plural, =1{Įrenginys bus paleistas iš naujo po vienos minutės}one{Įrenginys bus paleistas iš naujo po # minutės}few{Įrenginys bus paleistas iš naujo po # minučių}many{Įrenginys bus paleistas iš naujo po # minutės}other{Įrenginys bus paleistas iš naujo po # minučių}}</translation>
 <translation id="7390545607259442187">Kortelės patvirtinimas</translation>
 <translation id="7392089738299859607">Adreso atnaujinimas</translation>
 <translation id="7399802613464275309">Saugos patikra</translation>
 <translation id="7400418766976504921">URL adresas</translation>
-<translation id="7403392780200267761">Bendrinkite šį skirtuką bendrindami nuorodą, sukurdami QR kodą, perduodami ir kt.</translation>
 <translation id="7403591733719184120">Jūsų „<ph name="DEVICE_NAME" />“ tvarkomas</translation>
 <translation id="7407424307057130981">&lt;p&gt;Ši klaida rodoma, jei „Windows“ kompiuteryje naudojate „Superfish“ programinę įrangą.&lt;/p&gt;
     &lt;p&gt;Vadovaudamiesi toliau nurodytais veiksmais laikinai išjunkite programinę įrangą, kad galėtumėte naršyti žiniatinklyje. Reikės administratoriaus teisių.&lt;/p&gt;
@@ -2142,12 +1974,6 @@ Papildoma išsami informacija:
 <translation id="7485870689360869515">Nerasta jokių duomenų.</translation>
 <translation id="7495528107193238112">Šis turinys užblokuotas. Susisiekite su svetainės savininku, kad išspręstų problemą.</translation>
 <translation id="7497998058912824456">Mygtukas „Sukurti dokumentą“ – paspauskite klavišą „Enter“, jei norite greitai sukurti naują „Google“ dokumentą</translation>
-<translation id="7506488012654002225">„Chromium“ <ph name="BEGIN_EMPHASIS" />nesaugos<ph name="END_EMPHASIS" /> šios informacijos:
-        <ph name="BEGIN_LIST" />
-          <ph name="LIST_ITEM" />naršymo istorijos;
-          <ph name="LIST_ITEM" />slapukų ir svetainių duomenų;
-          <ph name="LIST_ITEM" />formose įvestos informacijos.
-        <ph name="END_LIST" /></translation>
 <translation id="7508255263130623398">Sugrąžinto politikos įrenginio ID nenurodytas arba neatitinka dabartinio įrenginio ID</translation>
 <translation id="7508870219247277067">Avokado žalia</translation>
 <translation id="7511955381719512146">Naudojant šį „Wi-Fi“ tinklą gali būti prašoma apsilankyti <ph name="BEGIN_BOLD" /><ph name="LOGIN_URL" /><ph name="END_BOLD" />.</translation>
@@ -2180,7 +2006,6 @@ Papildoma išsami informacija:
 <translation id="7578104083680115302">Greitai mokėkite svetainėse ir programose įvairiuose įrenginiuose naudodami korteles, kurias išsaugojote „Google“.</translation>
 <translation id="7581199239021537589">2 pusė: sukti vaizdą pagal Y ašį</translation>
 <translation id="7582602800368606489">Greitai sukurkite naują „Google“ kalendoriaus įvykį</translation>
-<translation id="7591288787774558753">Bendrinti konfidencialų turinį?</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL" /> nori naudoti slapukus ir svetainės duomenis <ph name="TOP_LEVEL_URL" /></translation>
 <translation id="7592362899630581445">Serverio sertifikatas pažeidžia pavadinimų apribojimus.</translation>
 <translation id="7598391785903975535">Mažiau nei <ph name="UPPER_ESTIMATE" /></translation>
@@ -2191,7 +2016,6 @@ Papildoma išsami informacija:
 <translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad galėtumėte peržiūrėti ir valdyti slaptažodžius „Decentr“ nustatymuose</translation>
 <translation id="7616645509853975347">Administratorius įjungė „Decentr Enterprise Connectors“ jūsų naršyklėje. Naudojant šias jungtis galima pasiekti kai kuriuos jūsų duomenis.</translation>
 <translation id="7619838219691048931">Galinis lapas</translation>
-<translation id="7625242817712715120">Pagal administratoriaus politikos nuostatas nerekomenduojama spausdinti šio turinio</translation>
 <translation id="762844065391966283">Po vieną</translation>
 <translation id="7633909222644580952">Našumo duomenys ir strigčių ataskaitos</translation>
 <translation id="7637571805876720304">Pašalinti kredito kortelės informaciją iš „Decentr“?</translation>
@@ -2199,12 +2023,12 @@ Papildoma išsami informacija:
 <translation id="7638605456503525968">Nuoseklieji prievadai</translation>
 <translation id="7639968568612851608">Tamsiai pilka</translation>
 <translation id="7647206758853451655">Spausdinimo kokybė</translation>
+<translation id="7648685412377719625">Uždaryti visus šiuo metu atidarytus inkognito langus.</translation>
 <translation id="7648992873808071793">Saugoti failus šiame įrenginyje</translation>
 <translation id="7653957176542370971">Mokėjimo doroklės lapas uždarytas</translation>
 <translation id="7654909834015434372">Kai redaguosite komentarus, bus pateiktas šio dokumento pradinis pasukimas</translation>
 <translation id="765676359832457558">Slėpti išplėstinius nustatymus...</translation>
 <translation id="7658239707568436148">Atšaukti</translation>
-<translation id="7659878911471462949">Džiaugsmo ašaros</translation>
 <translation id="7662298039739062396">Nustatymas valdomas pagal plėtinį</translation>
 <translation id="7663736086183791259">Sertifikatas <ph name="CERTIFICATE_VALIDITY" /></translation>
 <translation id="7666397036351755929">Neleidžiama inkognito režimu</translation>
@@ -2277,10 +2101,12 @@ Papildoma išsami informacija:
 <translation id="7888575728750733395">Spausdinimo pateikimo tikslas</translation>
 <translation id="7894280532028510793">Jei parašyta tinkamai, <ph name="BEGIN_LINK" />pabandykite paleisti tinklo diagnostiką<ph name="END_LINK" />.</translation>
 <translation id="7904208859782148177">C3 (vokas)</translation>
+<translation id="7931318309563332511">Nežinoma</translation>
 <translation id="793209273132572360">Atnaujinti adresą?</translation>
 <translation id="7932579305932748336">Danga</translation>
 <translation id="79338296614623784">Įveskite tinkamą telefono numerį</translation>
 <translation id="7934414805353235750"><ph name="URL" /> nori leisti apsaugotą turinį. Įrenginio tapatybę patvirtins „Google“</translation>
+<translation id="7935031712718413217">Galimai suklastotas URL</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Baigia galioti <ph name="EXPIRATION_DATE_ABBR" /></translation>
 <translation id="7938958445268990899">Serverio sertifikatas dar negalioja.</translation>
@@ -2291,9 +2117,9 @@ Papildoma išsami informacija:
 <translation id="7950027195171824198">Tvarkykite slapukų nuostatas „Decentr“ nustatymuose</translation>
 <translation id="7951415247503192394">(32 bitų)</translation>
 <translation id="7953569069500808819">Kraštų sukabinimas viršuje</translation>
+<translation id="7954041596401851904">Bendrinkite šį skirtuką bendrindami nuorodą, sukurdami QR kodą, perduodami ir kt.</translation>
 <translation id="7956713633345437162">Žymės mobiliesiems</translation>
 <translation id="7961015016161918242">Niekada</translation>
-<translation id="7962467575542381659">Platformos įrenginys</translation>
 <translation id="7966803981046576691">Užduoties paskyros tipas</translation>
 <translation id="79682505114836835">Vertė „<ph name="VALUE" />“ yra netinkamas šešioliktainis spalvos kodas.</translation>
 <translation id="7968982339740310781">Žiūrėti išsamią informaciją</translation>
@@ -2301,19 +2127,13 @@ Papildoma išsami informacija:
 <translation id="7976214039405368314">Per daug užklausų</translation>
 <translation id="7977538094055660992">Išvesties įrenginys</translation>
 <translation id="7977894662897852582">Edp</translation>
-<translation id="7981260203882740562">Susieta su</translation>
 <translation id="798134797138789862">Gali būti prašoma naudoti virtualiosios realybės įrenginius ir duomenis</translation>
-<<<<<<< HEAD
-<translation id="7984945080620862648">Negalite dabar apsilankyti svetainėje <ph name="SITE" />, nes ji atsiuntė užšifruotus prisijungimo duomenis, kurių „Chrome“ negali apdoroti. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
-=======
 <translation id="7984945080620862648">Negalite dabar apsilankyti svetainėje <ph name="SITE" />, nes ji atsiuntė užšifruotus prisijungimo duomenis, kurių „Decentr“ negali apdoroti. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
 <translation id="79859296434321399">Norėdami peržiūrėti išplėstosios realybės turinį įdiekite „ARCore“</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="7986319120639858961">„<ph name="CARD_TITLE" />“ <ph name="TIME" /> <ph name="BOOKMARKED" /> „<ph name="TITLE" />“ <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">Įrišimas</translation>
 <translation id="7992044431894087211">Ekrano bendrinimas su „<ph name="APPLICATION_TITLE" />“ tęsiamas</translation>
 <translation id="7995512525968007366">Nenurodytas</translation>
-<translation id="7998269595945679889">Atidarykite inkognito skirtuką, paspauskite „Enter“, kad būtų atidarytas naujas privataus naršymo inkognito skirtukas</translation>
 <translation id="800218591365569300">Pabandykite uždaryti skirtukus arba kitas programas, kad atlaisvintumėte atminties.</translation>
 <translation id="8004582292198964060">Naršyklė</translation>
 <translation id="8012116502927253373">{NUM_CARDS,plural, =1{Ši kortelė ir jos atsiskaitymo adresas bus išsaugoti. Ją galėsite naudoti prisijungę prie <ph name="USER_EMAIL" />.}one{Šios kortelės ir jų atsiskaitymo adresai bus išsaugoti. Jas galėsite naudoti prisijungę prie <ph name="USER_EMAIL" />.}few{Šios kortelės ir jų atsiskaitymo adresai bus išsaugoti. Jas galėsite naudoti prisijungę prie <ph name="USER_EMAIL" />.}many{Šios kortelės ir jų atsiskaitymo adresai bus išsaugoti. Jas galėsite naudoti prisijungę prie <ph name="USER_EMAIL" />.}other{Šios kortelės ir jų atsiskaitymo adresai bus išsaugoti. Jas galėsite naudoti prisijungę prie <ph name="USER_EMAIL" />.}}</translation>
@@ -2350,12 +2170,10 @@ Papildoma išsami informacija:
 <translation id="809898108652741896">A6</translation>
 <translation id="8100588592594801589">Netinkamos kortelės pašalintos</translation>
 <translation id="8103161714697287722">Mokėjimo metodas</translation>
-<translation id="8103643211515685474">Vis tiek spausdinti</translation>
 <translation id="8105368624971345109">Išjungti</translation>
 <translation id="810875025413331850">Netoliese esančių įrenginių nerasta.</translation>
 <translation id="8116925261070264013">Išjungta</translation>
 <translation id="8118489163946903409">Mokėjimo metodas</translation>
-<translation id="8124639700796374294">Mygtukas „Tinkinti „Chrome“; jei norite tinkinti naršyklės išvaizdą, paspauskite klavišą „Enter“</translation>
 <translation id="8127301229239896662">„<ph name="SOFTWARE_NAME" />“ nebuvo tinkamai įdiegta kompiuteryje ar tinkle. Kreipkitės į IT administratorių, kad ši problema būtų išspręsta.</translation>
 <translation id="8131740175452115882">Patvirtinti</translation>
 <translation id="8148608574971654810">PDF versija:</translation>
@@ -2373,11 +2191,7 @@ Papildoma išsami informacija:
 <translation id="8202370299023114387">Konfliktas</translation>
 <translation id="8206978196348664717">„Prc4“ (vokas)</translation>
 <translation id="8211406090763984747">Ryšys saugus</translation>
-<<<<<<< HEAD
-<translation id="8217240300496046857">Svetainės negali naudoti slapukų, stebinčių jus žiniatinklyje. Funkcijos gali neveikti tam tikrose svetainėse.</translation>
-=======
 <translation id="8215696832828595581">Tinkinkite „Decentr“ mygtuką; jei norite tinkinti naršyklės išvaizdą, paspauskite klavišą „Enter“.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8218327578424803826">Priskirta vieta:</translation>
 <translation id="8220146938470311105">C7 / C6 (vokas)</translation>
 <translation id="8225771182978767009">Šį kompiuterį nustatęs asmuo pasirinko blokuoti šią svetainę.</translation>
@@ -2407,6 +2221,7 @@ Papildoma išsami informacija:
 <translation id="8282947398454257691">Žinoti unikalų įrenginio identifikatorių</translation>
 <translation id="8284769179630993263">Tvarkykite Saugaus naršymo ir kitus duomenis „Decentr“ nustatymuose</translation>
 <translation id="8286036467436129157">Prisijungti</translation>
+<translation id="8287501787477690853">Administratorius nerekomenduoja kurti ekrano kopijų ar įrašų dėl konfidencialaus ekrane rodomo turinio.</translation>
 <translation id="8288807391153049143">Rodyti sertifikatą</translation>
 <translation id="8289355894181816810">Jei nesate tikri, ką tai reiškia, susisiekite su tinklo administratoriumi.</translation>
 <translation id="8293206222192510085">Pridėti žymę</translation>
@@ -2418,11 +2233,6 @@ Papildoma išsami informacija:
 <translation id="830498451218851433">Perlenkimas per pusę</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">Įdiegtos programos ir kaip dažnai jos naudojamos</translation>
-<<<<<<< HEAD
-<translation id="8317207217658302555">Atnaujinti „ARCore“?</translation>
-<translation id="831997045666694187">Vakaras</translation>
-<translation id="8321476692217554900">pranešimai</translation>
-=======
 <translation id="831207732689920588">Šis puslapis įtartinas (pažymėta naršyklėje „Decentr“).</translation>
 <translation id="831997045666694187">Vakaras</translation>
 <translation id="8321476692217554900">pranešimai</translation>
@@ -2432,7 +2242,6 @@ Papildoma išsami informacija:
           <ph name="LIST_ITEM" />paieškos istoriją iš šio įrenginio;<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />formose įvestą informaciją.<ph name="END_LIST_ITEM" />
         <ph name="END_LIST" /></translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8332188693563227489">Prieiga prie <ph name="HOST_NAME" /> atmesta</translation>
 <translation id="833262891116910667">Paryškinti</translation>
 <translation id="8339163506404995330">Puslapiai, parašyti <ph name="LANGUAGE" />, verčiami nebus</translation>
@@ -2467,7 +2276,6 @@ Papildoma išsami informacija:
 <translation id="8438476240229491014">Įsiminti šį nustatymą</translation>
 <translation id="8438786541497918448">Naudoti fotoaparatą ir mikrofoną?</translation>
 <translation id="8446884382197647889">Sužinokite daugiau</translation>
-<translation id="8449836157089738489">Atidaryti viską naujoje skirtukų grupėje</translation>
 <translation id="8457125768502047971">Neribota</translation>
 <translation id="8461694314515752532">Šifruokite sinchronizuojamus duomenis taikydami savo sinchronizavimo slaptafrazę</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 kredito kortelė}one{# kredito kortelė}few{# kredito kortelės}many{# kredito kortelės}other{# kredito kortelių}}</translation>
@@ -2484,25 +2292,18 @@ Papildoma išsami informacija:
 <translation id="8507227106804027148">Komandos eilutė</translation>
 <translation id="8508648098325802031">Paieškos piktograma</translation>
 <translation id="8511402995811232419">Tvarkyti slapukus</translation>
-<<<<<<< HEAD
-<translation id="8519753333133776369">Administratorius leidžia naudoti HID įrenginį</translation>
-<translation id="8522552481199248698">„Chrome“ gali padėti apsaugoti „Google“ paskyrą ir pakeisti slaptažodį.</translation>
-<translation id="8530813470445476232">Išvalykite naršymo istoriją, slapukus, talpyklą ir kita „Chrome“ nustatymuose</translation>
-<translation id="8533619373899488139">Apsilankykite adresu &lt;strong&gt;chrome://policy&lt;/strong&gt;, kad peržiūrėtumėte užblokuotų URL sąrašą ir kitą politiką, kurią taiko sistemos administratoriaus.</translation>
-=======
 <translation id="8519478486928352883">Administratorius nerekomenduoja kurti ekrano kopijų ar įrašų dėl konfidencialaus turinio ekrane.</translation>
 <translation id="8522552481199248698">„Decentr“ gali padėti apsaugoti „Google“ paskyrą ir pakeisti slaptažodį.</translation>
 <translation id="8530813470445476232">Išvalykite naršymo istoriją, slapukus, talpyklą ir kita „Decentr“ nustatymuose</translation>
 <translation id="8533619373899488139">Apsilankykite adresu &lt;strong&gt;decentr://policy&lt;/strong&gt;, kad peržiūrėtumėte užblokuotų URL sąrašą ir kitą politiką, kurią taiko sistemos administratoriaus.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8539500321752640291">Suteikti du leidimus?</translation>
 <translation id="8541158209346794904">„Bluetooth“ įrenginys</translation>
 <translation id="8542014550340843547">Trys sankabėlės apačioje</translation>
 <translation id="8543181531796978784">Galite <ph name="BEGIN_ERROR_LINK" />pranešti apie aptikimo problemą<ph name="END_ERROR_LINK" /> arba, jei suprantate saugos riziką, galite <ph name="BEGIN_LINK" />apsilankyti šioje nesaugioje svetainėje<ph name="END_LINK" />.</translation>
-<translation id="8554010658308662631">Įkelti daugiau</translation>
 <translation id="8554912124839363479">{NUM_PERMISSIONS,plural, =1{Iš naujo nustatyti leidimą}one{Iš naujo nustatyti leidimus}few{Iš naujo nustatyti leidimus}many{Iš naujo nustatyti leidimus}other{Iš naujo nustatyti leidimus}}</translation>
 <translation id="8555010941760982128">Naudokite šį kodą atsiskaitydami</translation>
 <translation id="8557066899867184262">Kortelės saugos kodas (CVC) nurodytas kitoje kortelės pusėje.</translation>
+<translation id="8558485628462305855">Norėdami peržiūrėti išplėstosios realybės turinį atnaujinkite „ARCore“</translation>
 <translation id="8559762987265718583">Nepavyksta užmegzti privataus ryšio su <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" />, nes įrenginio data ir laikas (<ph name="DATE_AND_TIME" />) yra netinkami.</translation>
 <translation id="8564182942834072828">Atskiras dokumentas / nesugretintos kopijos</translation>
 <translation id="8564985650692024650">„Decentr“ rekomenduoja iš naujo nustatyti <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> slaptažodį, jei naudojate jį kitose svetainėse.</translation>
@@ -2519,10 +2320,10 @@ Papildoma išsami informacija:
 <translation id="8622948367223941507">Legal-Extra</translation>
 <translation id="8623885649813806493">Nėra jokių atitinkančių slaptažodžių. Rodyti visus išsaugotus slaptažodžius.</translation>
 <translation id="8625384913736129811">Išsaugoti šią kortelę šiame įrenginyje</translation>
+<translation id="8627040765059109009">Ekrano fiksavimas atnaujintas</translation>
 <translation id="865032292777205197">judesio jutikliai</translation>
 <translation id="8663226718884576429">Užsakymo suvestinė, <ph name="TOTAL_LABEL" />, daugiau informacijos</translation>
 <translation id="8666678546361132282">Anglų</translation>
-<translation id="8669306706049782872">Naudoti informaciją apie ekranus, kad būtų galima atidaryti ir įdėti langų</translation>
 <translation id="867224526087042813">Parašas</translation>
 <translation id="8676424191133491403">Be delsos</translation>
 <translation id="8680536109547170164"><ph name="QUERY" />, atsakymas, <ph name="ANSWER" /></translation>
@@ -2549,12 +2350,7 @@ Papildoma išsami informacija:
 <translation id="8731544501227493793">Mygtukas „Tvarkyti slaptažodžius“, paspauskite „Enter“, jei norite peržiūrėti ir tvarkyti slaptažodžius „Decentr“ nustatymuose</translation>
 <translation id="8734529307927223492">Jūsų „<ph name="DEVICE_TYPE" />“ tvarko <ph name="MANAGER" /></translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad būtų atidarytas naujas privataus naršymo inkognito langas</translation>
-<<<<<<< HEAD
-<translation id="8737685506611670901">Atidaryti „<ph name="PROTOCOL" />“ nuorodas vietoje „<ph name="REPLACED_HANDLER_TITLE" />“</translation>
-<translation id="8738058698779197622">Jei norite užmegzti saugų ryšį, turėsite tinkamai nustatyti laikrodį. To reikalaujama todėl, kad svetainių tapatybei įrodyti naudojami sertifikatai galioja tik tam tikrą laikotarpį. Kadangi įrenginio laikrodis nustatytas netinkamai, „Chromium“ negali tinkamai patvirtinti sertifikatų.</translation>
-=======
 <translation id="8738058698779197622">Jei norite užmegzti saugų ryšį, turėsite tinkamai nustatyti laikrodį. To reikalaujama todėl, kad svetainių tapatybei įrodyti naudojami sertifikatai galioja tik tam tikrą laikotarpį. Kadangi įrenginio laikrodis nustatytas netinkamai, „Decentr“ negali tinkamai patvirtinti sertifikatų.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8740359287975076522">Nepavyko rasti <ph name="HOST_NAME" /> &lt;abbr id="dnsDefinition"&gt;DNS adreso&lt;/abbr&gt;. Nustatoma problema.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> yra kodas, skirtas svetainei <ph name="ORIGIN" /></translation>
 <translation id="874918643257405732">Žymėti šį skirtuką</translation>
@@ -2563,7 +2359,6 @@ Papildoma išsami informacija:
 <translation id="87601671197631245">Šioje svetainėje naudojama pasenusi saugos konfigūracija, todėl gali būti atskleista į šią svetainę siunčiama informacija (pvz., slaptažodžiai, pranešimai ar kredito kortelių duomenys).</translation>
 <translation id="8761567432415473239">„Google“ saugaus naršymo funkcija neseniai <ph name="BEGIN_LINK" />rado kenkėjiškų programų<ph name="END_LINK" /> <ph name="SITE" />.</translation>
 <translation id="8763927697961133303">USB įrenginys</translation>
-<translation id="8763986294015493060">Uždaryti visus šiuo metu atidarytus inkognito langus</translation>
 <translation id="8766943070169463815">Saugaus mokėjimo prisijungimo duomenų autentifikavimo lapas atidarytas</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Ištrinti dar kartą</translation>
@@ -2571,17 +2366,14 @@ Papildoma išsami informacija:
 <translation id="8792626944327216835">mikrofonas</translation>
 <translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> įjungė „Decentr Enterprise Connectors“ jūsų naršyklėje. Naudojant šias jungtis galima pasiekti kai kuriuos jūsų duomenis.</translation>
 <translation id="8798099450830957504">Numatytasis</translation>
-<translation id="8798739476508189189">Ieškote naršyklės žymų? Apsilankyti</translation>
 <translation id="8805819170075074995">Sąrašo įrašas „<ph name="LANGUAGE_ID" />“: įrašo nepaisoma, nes jis taip pat įtrauktas į politiką „SpellcheckLanguage“.</translation>
 <translation id="8807160976559152894">Apkarpymas po kiekvieno puslapio</translation>
 <translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada – „Enter“, kad „Decentr“ nustatymuose būtų atnaujinta naršyklė „Decentr“</translation>
 <translation id="8820817407110198400">Žymės</translation>
 <translation id="882338992931677877">Neautomatinė dėtuvė</translation>
-<translation id="8834380158646307944">Mygtukas „Uždaryti inkognito langus“; paspauskite „Enter“, jei norite uždaryti visus šiuo metu atidarytus inkognito langus</translation>
 <translation id="883848425547221593">Kitos žymės</translation>
 <translation id="884264119367021077">Siuntimo adresas</translation>
 <translation id="884923133447025588">Nerasta atšaukimo mechanizmo.</translation>
-<translation id="8849262850971482943">Naudokite virtualią kortelę didesnei saugai užtikrinti</translation>
 <translation id="885730110891505394">Bendrinimas su „Google“</translation>
 <translation id="8858065207712248076">„Decentr“ rekomenduoja iš naujo nustatyti <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> slaptažodį, jei naudojate jį kitose svetainėse.</translation>
 <translation id="885906927438988819">Jei parašyta tinkamai, <ph name="BEGIN_LINK" />pabandykite paleisti „Windows“ tinklo diagnostiką<ph name="END_LINK" />.</translation>
@@ -2590,22 +2382,16 @@ Papildoma išsami informacija:
 <translation id="886872106311861689">B3</translation>
 <translation id="8870413625673593573">Neseniai uždaryta</translation>
 <translation id="8870494189203302833">Ta pačia tvarka, gerąja puse į apačią</translation>
-<translation id="8870700989640064057">Spausdinti konfidencialų failą?</translation>
 <translation id="8871553383647848643">Tinkinti naršyklės išvaizdą</translation>
 <translation id="8874824191258364635">Įveskite tinkamą kortelės numerį</translation>
-<translation id="8884537526797090108">Negalima įrašyti konfidencialaus turinio</translation>
 <translation id="8891727572606052622">Netinkamas įgaliotojo serverio režimas.</translation>
 <translation id="8894794286471754040">Pirmiau ilgasis kraštas</translation>
 <translation id="8903921497873541725">Artinti</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Pašalinkite pasiūlymo mygtuką, paspauskite „Enter“, kad pašalintumėte, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8912362522468806198">„Google“ paskyra</translation>
-<<<<<<< HEAD
-<translation id="8913778647360618320">Mygtukas „Tvarkyti mokėjimo metodus“, paspauskite „Enter“, jei norite tvarkyti mokėjimus ir kredito kortelę „Chrome“ nustatymuose</translation>
-=======
 <translation id="8913778647360618320">Mygtukas „Tvarkyti mokėjimo metodus“, paspauskite „Enter“, jei norite tvarkyti mokėjimus ir kredito kortelę „Decentr“ nustatymuose</translation>
 <translation id="8918231688545606538">Šis puslapis įtartinas</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8922013791253848639">Visada leisti skelbimus šioje svetainėje</translation>
 <translation id="892588693504540538">Skylė viršuje dešinėje</translation>
 <translation id="8931333241327730545">Ar norite išsaugoti šios kortelės informaciją „Google“ paskyroje?</translation>
@@ -2627,7 +2413,6 @@ Papildoma išsami informacija:
 <translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, paspauskite tabuliavimo klavišą, tada „Enter“, kad peržiūrėtumėte naršymo istoriją naršyklėje „Decentr“.</translation>
 <translation id="8987927404178983737">Mėnuo</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
-<translation id="8992061558343343009">Ieškote sistemos versijos? Apsilankykite adresu</translation>
 <translation id="899688752321268742"><ph name="URL" /> nori žinoti, kada aktyviai naudojate šį įrenginį</translation>
 <translation id="8996941253935762404">Pateiktoje svetainėje yra kenkėjiškų programų</translation>
 <translation id="8997023839087525404">Serveris pateikė sertifikatą, kuris nebuvo viešai atskleistas naudojant sertifikato skaidrumo politiką. Tai yra tam tikriems sertifikatams taikomas reikalavimas, siekiant užtikrinti, jog jie patikimi ir apsaugo nuo įsilaužėlių.</translation>
@@ -2636,11 +2421,9 @@ Papildoma išsami informacija:
 <translation id="9004367719664099443">Vyksta VR sesija</translation>
 <translation id="9005998258318286617">PDF dokumento įkelti nepavyko.</translation>
 <translation id="9008201768610948239">Nepaisyti</translation>
-<translation id="901834265349196618">El. paštas</translation>
 <translation id="9020200922353704812">Būtina pateikti kortelės atsiskaitymo adresą</translation>
 <translation id="9020542370529661692">Šis puslapis išverstas į <ph name="TARGET_LANGUAGE" /></translation>
 <translation id="9020742383383852663">A8</translation>
-<translation id="9021429684248523859"><ph name="SHARE_THIS_PAGE_FOCUSED_FRIENDLY_MATCH_TEXT" />; jei norite bendrinti šį skirtuką bendrindami nuorodą, sukurdami QR kodą, perduodami ir kt., paspauskite tabuliavimo klavišą, tada – klavišą „Enter“</translation>
 <translation id="9025348182339809926">(netinkamas)</translation>
 <translation id="9030265603405983977">Vienspalvis</translation>
 <translation id="9035022520814077154">Saugos klaida</translation>
@@ -2655,7 +2438,6 @@ Papildoma išsami informacija:
 <translation id="9050666287014529139">Slaptafrazė</translation>
 <translation id="9056953843249698117">Parduotuvė</translation>
 <translation id="9062620674789239642">Galbūt jis buvo perkeltas, redaguotas ar ištrintas.</translation>
-<translation id="9063800855227801443">Negalima užfiksuoti konfidencialaus turinio</translation>
 <translation id="9065203028668620118">Redaguoti</translation>
 <translation id="9065745800631924235">„<ph name="TEXT" />“ paieška istorijoje</translation>
 <translation id="9069693763241529744">Užblokuota pagal plėtinį</translation>
@@ -2676,7 +2458,6 @@ Papildoma išsami informacija:
 <translation id="9119042192571987207">Įkelta</translation>
 <translation id="9128016270925453879">Politika įkelta</translation>
 <translation id="9128870381267983090">Prisijungti prie tinklo</translation>
-<translation id="9131119348384879525">Užfiksuoti konfidencialų turinį?</translation>
 <translation id="9137013805542155359">Rodyti originalą</translation>
 <translation id="9141013498910525015">Tvarkyti adresus</translation>
 <translation id="9144951720726881238">Galiojimo data:</translation>
@@ -2685,11 +2466,9 @@ Papildoma išsami informacija:
 <translation id="9150045010208374699">Naudoti kamerą</translation>
 <translation id="9150685862434908345">Administratorius gali nuotoliniu būdu keisti naršyklės sąranką. Veiklą šiame įrenginyje taip pat galima tvarkyti ne naršyklėje „Decentr“. <ph name="BEGIN_LINK" />Sužinokite daugiau<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">Atnaujinta</translation>
-<translation id="9155211586651734179">Pridėti garso įrenginiai</translation>
 <translation id="9157595877708044936">Nustatoma...</translation>
 <translation id="9158625974267017556">C6 (vokas)</translation>
 <translation id="9164029392738894042">Tikslumo patikra</translation>
-<translation id="9164742147345933553">os://flags</translation>
 <translation id="9168814207360376865">Leisti svetainėms tikrinti, ar esate išsaugoję mokėjimo metodus</translation>
 <translation id="9169664750068251925">Visada blokuoti šioje svetainėje</translation>
 <translation id="9169931577761441333">Pridėkite „<ph name="APP_NAME" />“ prie pagrindinio ekrano</translation>

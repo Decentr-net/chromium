@@ -12,14 +12,11 @@
 <translation id="1315551408014407711">አዲሱን የDecentr መገለጫዎ ያቀናብሩት</translation>
 <translation id="1396446129537741364">Decentr የይለፍ ቃላትን ለማሳየት እየሞከረ ነው።</translation>
 <translation id="1414495520565016063">ወደ Decentr ገብተዋል!</translation>
-<translation id="151962892725702025">ማመሳሰል ለጎራዎ ስለማይገኝ Chromium OS ውሂብዎን ማመሳሰል አይችልም።</translation>
+<translation id="151962892725702025">ማመሳሰል ለጎራዎ ስለማይገኝ Decentr OS ውሂብዎን ማመሳሰል አይችልም።</translation>
 <translation id="1524282610922162960">የDecentr ትር ያጋሩ</translation>
 <translation id="1553461853655228091">Decentr የዙሪያዎ 3ል ካርታ መፍጠር እንዲችል ካሜራዎን የመድረስ ፈቃድ ያስፈልገዋል</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{አንድ ዝማኔ ለመተግበር አስተዳዳሪዎ Decentrን ዳግም እንዲያስጀምሩት ይፈልግብዎታል}=1{አንድ ዝማኔ ለመተግበር አስተዳዳሪዎ Decentrን ዳግም እንዲያስጀምሩት ይፈልግብዎታል። የእርስዎ ማንነት የማያሳውቅ መስኮት ዳግም አይከፈትም}one{አንድ ዝማኔ ለመተግበር አስተዳዳሪዎ Decentrን ዳግም እንዲያስጀምሩት ይፈልግብዎታል። የእርስዎ # ማንነት የማያሳውቁ መስኮቶች ዳግም አይከፈቱም}other{አንድ ዝማኔ ለመተግበር አስተዳዳሪዎ Decentrን ዳግም እንዲያስጀምሩት ይፈልግብዎታል። የእርስዎ # ማንነት የማያሳውቁ መስኮቶች ዳግም አይከፈቱም}}</translation>
-<translation id="1625909126243026060">በDecentr ውስጥ ቁልፍ የግላዊነት እና የደህንነት ቁጥጥሮችን ይገምግሙ</translation>
-<translation id="1632539827495546968">ይህን መለያ አንድ ጊዜ ብቻ መጠቀም ከፈለጉ በDecentr አሳሽ ውስጥ <ph name="GUEST_LINK_BEGIN" />የእንግዳ ሁነታ<ph name="GUEST_LINK_END" />ን መጠቀም ይችላሉ። ለሌላ ሰው መለያ ማከል ከፈለጉ በእርስዎ <ph name="DEVICE_TYPE" /> ላይ <ph name="LINK_BEGIN" />አዲስ ሰው ያክሉ<ph name="LINK_END" />።
-
-አስቀድመው ለድር ጣቢያዎች እና መተግበሪያዎች የሰጧቸው ፈቃዶች በዚህ መለያ ላይ ተፈጻሚ ሊሆኑ ይችላሉ። የእርስዎን Google መለያዎች በ<ph name="SETTINGS_LINK_BEGIN" />ቅንብሮች<ph name="SETTINGS_LINK_END" /> ውስጥ ማቀናበር ይችላሉ።</translation>
+<translation id="1667812772085710766">Decentrን ሲዘጉ ኩኪዎችን እና የጣቢያ ውሂብን እርስዎ ከጎበኟቸው ገጾች በራስ-ሰር ያጸዳል</translation>
 <translation id="1708666629004767631">አዲስና ደህንነቱ ይበልጥ የተጠበቀ የDecentr ስሪት አለ።</translation>
 <translation id="1774152462503052664">Decentr ጀርባ ላይ ይሂድ</translation>
 <translation id="1779356040007214683">Decentr ይበልጥ ደህንነቱ የተጠበቀ እንዲሆን ለማድረግ፣ በ<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ውስጥ ያልተጠቀሱ እና እርስዎ ሳያውቋቸው የታከሉ ሊሆኑ የሚችሉ የተወሰኑ ዝርዝሮችን አሰናክለናል።</translation>
@@ -28,31 +25,26 @@
 <translation id="1881322772814446296">በሚተዳደር መለያ እየገቡ ነው፣ እና አስተዳዳሪው በእርስዎ Decentr መገለጫ ላይ ቁጥጥር እየሰጡት ነው። እንደ እርስዎ መተግበሪያዎች፣ ዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች ያሉ የእርስዎ Decentr ውሂብ እስከ መጨረሻው ከ<ph name="USER_NAME" /> ጋር የተያያዙ ይሆናሉ። ይህን ውሂብ በGoogle የመለያዎች Dashboard አማካኝነት ሊሰርዙት ይችላሉ፣ ነገር ግን ይህን ውሂብ ከሌላ መለያ ጋር ሊያጎዳኙት አይችሉም። ነባሩ የእርስዎ Decentr ውሂብ ለይተው ለማስቀመጥም አዲስ መገለጫ እንደ አማራጭ መፍጠር ይችላሉ። <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">ይህንን በማጥፋት፣ እንደ Gmail ወደ መሰሉ የGoogle ጣቢያዎች ወደ Decentr በመለያ ሳይገቡ መግባት ይችላሉ</translation>
 <translation id="1929939181775079593">Decentr መልስ አይሰጥም። አሁን ዳግም ይጀምር?</translation>
-<translation id="1940680973325097484">ይህን መለያ አንድ ጊዜ ብቻ መጠቀም ከፈለጉ በDecentr አሳሽ ውስጥ የእንግዳ ሁነታን መጠቀም ይችላሉ። ለሌላ ሰው መለያ ማከል ከፈለጉ በእርስዎ <ph name="DEVICE_TYPE" /> ላይ <ph name="LINK_BEGIN" />አዲስ ሰው ያክሉ<ph name="LINK_END" />።
-
-አስቀድመው ለድር ጣቢያዎች እና መተግበሪያዎች የሰጧቸው ፈቃዶች በዚህ መለያ ላይ ተፈጻሚ ሊሆኑ ይችላሉ። የእርስዎን Google መለያዎች በ<ph name="SETTINGS_LINK_BEGIN" />ቅንብሮች<ph name="SETTINGS_LINK_END" /> ውስጥ ማቀናበር ይችላሉ።</translation>
 <translation id="1966382378801805537">Decentr ነባሪ አሳሹን ማወቅ ወይም ማቀናበር አልቻለም</translation>
-<translation id="1981611865800294956">&amp;Chromium OSን ለማዘመን ዳግም ያስነሱት</translation>
+<translation id="1981611865800294956">&amp;Decentr OSን ለማዘመን ዳግም ያስነሱት</translation>
 <translation id="2008474315282236005">ይሄ 1 ንጥል ከዚህ መሣሪያ ይሰርዛል። ውሂብዎን በኋላ ላይ ሰርስረው ለማውጣት እንደ <ph name="USER_EMAIL" /> ሆነው ወደ Decentr ይግቡ።</translation>
 <translation id="2020032459870799438">ሌሎች የእርስዎ ይለፍ ቃላት ከውሂብ ጥሰቶች እና ሌሎች የደህንነት ችግሮች ነጻ መሆናቸውን ለማረጋገጥ <ph name="BEGIN_LINK" />በመለያ ወደ Decentr ይግቡ<ph name="END_LINK" />።</translation>
-<translation id="2049376729098081731">በGoogle አገልግሎቶች ውስጥ ተጨማሪ ግላዊነት የተላበሱ ተሞክሮዎችን ለማግኘት የDecentr ታሪክን ለማካተት እና ላለማካተት ይምረጡ</translation>
 <translation id="2174178932569897599">Decentrን አብጅ</translation>
 <translation id="2185166961232948079">Decentr - በአውታረ መረብ ወደ መለያ መግባት - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">ኮምፒውተር የሚጋሩ ከሆኑ ጓደኛዎች እና ቤተሰብ ተለይተው ሊያስሱ እና Decentrን በሚፈልጉበት መንገድ ማዋቀር ይችላሉ።</translation>
-<translation id="2294245788148774212">ከተፈለገ፦ የምርመራ እና የአጠቃቀም ውሂብ ወደ Google በራስ-ሰር በመላክ የChromium OS ባህሪያትን እና አፈጻጸምን እንዲሻሻል ያግዙ።</translation>
-<translation id="2313870531055795960">በDecentr ላይ በተከማቹ ደህንነታቸው ያልተጠበቁ ጣቢያዎች ዝርዝር ጋር ዩአርኤሎችን ይፈትሻል። አንድ ጣቢያ የእርስዎን የይለፍ ቃል ለመስረቅ ከሞከረ ወይም ጎጂ ፋይል ሲያወርዱ Decentr እንዲሁም የገጽ ይዘት ቢትስንም ጨምሮ ዩአርኤሎችን ወደ የጥንቃቄ አሰሳ ሊልክ ይችላል።</translation>
+<translation id="2294245788148774212">ከተፈለገ፦ የምርመራ እና የአጠቃቀም ውሂብ ወደ Google በራስ-ሰር በመላክ የDecentr OS ባህሪያትን እና አፈጻጸምን እንዲሻሻል ያግዙ።</translation>
 <translation id="2343156876103232566">አንድ ቁጥር ከዚህ ወደ የእርስዎ Android ስልክ ለመላክ በሁለቱም መሣሪያዎች ላይ በመለያ ወደ Decentr ይግቡ።</translation>
 <translation id="2347108572062610441">ይህ ቅጥያ Decentrን ሲጀምሩት የሚታየውን ገጽ ቀይሮታል።</translation>
-<translation id="2359808026110333948">ቀጥል</translation>
 <translation id="2396765026452590966">ይህ «<ph name="EXTENSION_NAME" />» ቅጥያ Decentrን ሲጀምሩት የሚታየውን ገጽ ቀይሮታል።</translation>
 <translation id="2401032172288869980">Decentr ለዚህ ጣቢያ የካሜራ እና የማይክሮፎን ፈቃዶች ያስፈልጉታል</translation>
 <translation id="2483889755041906834">በDecentr ውስጥ</translation>
 <translation id="2485422356828889247">አራግፍ</translation>
-<translation id="2535480412977113886">የመለያ መግቢያ ዝርዝሮችዎ ጊዜ ያለፈባቸው ስለሆኑ Chromium OS ውሂብዎን ማመሳሰል አልቻለም።</translation>
+<translation id="2535480412977113886">የመለያ መግቢያ ዝርዝሮችዎ ጊዜ ያለፈባቸው ስለሆኑ Decentr OS ውሂብዎን ማመሳሰል አልቻለም።</translation>
 <translation id="2560420686485554789">Decentr ፋይሎችን ለማውረድ የማከማቻ መዳረሻ ያስፈልገዋል</translation>
 <translation id="2572494885440352020">Decentr አጋዥ</translation>
+<translation id="2577788541081224677">በሁሉም መሣሪያዎችዎ ላይ የእርስዎን Decentr ነገሮች ለመድረስ ስምረትን ማብራት እንዲችሉ በመለያ ይግቡ።</translation>
 <translation id="2583187216237139145">ይህን መገለጫ በሚጠቀሙበት ጊዜ የመነጨ ማንኛውም የDecentr ውሂብ (እንደ የዕልባቶች፣ ታሪክ፣ የይለፍ ቃላት እና ሌሎች ቅንብሮች መፈጠር ያለ) በስራ መገለጫ አስተዳዳሪው ሊወገድ ይችላል። <ph name="LEARN_MORE" /></translation>
-<translation id="2587578672395088481">Chromium OS ዝማኔውን ለመተግበር ዳግም መጀመር አለበት።</translation>
+<translation id="2587578672395088481">Decentr OS ዝማኔውን ለመተግበር ዳግም መጀመር አለበት።</translation>
 <translation id="2648074677641340862">በጭነት ጊዜ የስርዓተ ክወና ስህተት ተፈጥሯል። እባክዎ Decentrን እንደገና ያውርዱት።</translation>
 <translation id="2661879430930417727">መሣሪያ የሚያጋሩ ከሆኑ ጓደኛዎች እና ቤተሰብ ተለይተው ሊያስሱ እና Decentrን በሚፈልጉበት መንገድ ማዋቀር ይችላሉ</translation>
 <translation id="2711502716910134313">የDecentr ትር</translation>
@@ -61,11 +53,9 @@
 <translation id="2799223571221894425">ዳግም አስጀምር</translation>
 <translation id="2837693172913560447">ይህ አዲስ የDecentr መገለጫ ለ<ph name="USER_EMAIL_ADDRESS" /> ይፈጥራል</translation>
 <translation id="2847479871509788944">ከDecentr አስወግድ...</translation>
-<translation id="2850691299438350830">በDecentr ላይ ደህንነትዎን ይጠብቃል እና በመለያ በገቡባቸው ሌሎች የGoogle መተግበሪያዎች ላይ ደህንነትዎን ለማሻሻል ስራ ላይ ሊውል ይችላል።</translation>
 <translation id="2885378588091291677">ተግባር መሪ</translation>
 <translation id="2910007522516064972">ስለ &amp;Decentr</translation>
 <translation id="2977470724722393594">Decentr የተዘመነ ነው</translation>
-<translation id="2977506796191543575">አንድ ጣቢያ የእርስዎን የይለፍ ቃል ለመስረቅ ከሞከረ ወይም ጎጂ ፋይል ሲያወርዱ Decentr እንዲሁም የገጽ ይዘት ቢትስንም ጨምሮ ዩአርኤሎችን ወደ የጥንቃቄ አሰሳ ሊልክ ይችላል</translation>
 <translation id="2983934633046890458">Decentr የይለፍ ቃላትን ለማርትዕ እየሞከረ ነው</translation>
 <translation id="3032706164202344641">Decentr የእርስዎን የይለፍ ቃላት መፈተሽ አይችልም። ቆይተው እንደገና ይሞክሩ።</translation>
 <translation id="3032787606318309379">ወደ Decentr በማከል ላይ...</translation>
@@ -83,7 +73,7 @@
 <translation id="3283186697780795848">Decentr ስሪት <ph name="PRODUCT_VERSION" /> ተጭኗል</translation>
 <translation id="328888136576916638">የGoogle ኤ ፒ አይ ቁልፎች ይጎድላሉ። አንዳንድ የDecentr ተግባራት ይሰናከላሉ።</translation>
 <translation id="3296368748942286671">Decentr ሲዘጋ የጀርባ መተግበሪያዎች ማሂዱን ይቀጥሉ</translation>
-<translation id="331951419404882060">በመለያ ሲገባ በነበረ ስህተት ምክንያት Chromium OS ውሂብዎን ማመሳሰል አልቻለም።</translation>
+<translation id="331951419404882060">በመለያ ሲገባ በነበረ ስህተት ምክንያት Decentr OS ውሂብዎን ማመሳሰል አልቻለም።</translation>
 <translation id="3349211344363550267">Decentr ይህን ፋይል እንዳያወርዱ ወይም እንዳይከፍቱ ይመክራል</translation>
 <translation id="3350761136195634146">ይህ መለያ ያለው የDecentr መገለጫ አስቀድሞ አለ</translation>
 <translation id="3406848076815591792">ወደ ነባር የDecentr መገለጫ ይቀየር?</translation>
@@ -118,20 +108,18 @@
 <translation id="4407044323746248786">የሆነው ሆኖ ከDecentr ይወጣ?</translation>
 <translation id="4415566066719264597">Decentr በበስተጀርባ ላይ ያሂድ</translation>
 <translation id="4423735387467980091">Decentrን ያብጁ እና ይቆጣጠሩ</translation>
-<translation id="4427306783828095590">የተሻሻለ ጥበቃ ማስገር እና ተንኮል-አዘል ዌር ለማገድ የበለጠ ይሠራል</translation>
 <translation id="452711251841752011">እንኳን ወደ Decentr በደህና መጡ፤ አዲስ የአሳሽ መስኮት ተከፍቷል</translation>
 <translation id="4544142686420020088">Decentr አልተዘመነም፣ የሆነ ችግር ተፈጥሯል። <ph name="BEGIN_LINK" />የDecentr ዝማኔ ችግሮችን እና ያልተሳኩ ዝማኔዎችን ያስተካክሉ።<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">በአዲሱ የDecentr መገለጫ ውስጥ ይቀጥል?</translation>
 <translation id="4567424176335768812">እንደ <ph name="USER_EMAIL_ADDRESS" /> ሆነው ገብተዋል። አሁን የእርስዎን ዕልባቶች፣ ታሪክ እና ሌሎች ቅንብሮች በመለያ በገቡ ሁሉም መሣሪያዎችዎ ላይ መድረስ ይችላሉ።</translation>
 <translation id="459535195905078186">የDecentr መተግበሪያዎች</translation>
-<translation id="4621240073146040695">የተዘመነ ለመሆን ጥቂት ብቻ ቀርቷል! ማዘመን ለማጠናቀቅ Decentrን ዳግም ያስጀምሩት።</translation>
 <translation id="4665829708273112819">ማስጠንቀቂያ፦ Decentr ቅጥያዎች የአሰሳ ታሪክዎን እንዳይመዘግቡ መከልከል አይችልም። ይህን ቅጥያ ማንነት በማያሳውቅ ሁነት ላይ ለማሰናከል ይህን አማራጭ አይምረጡ።</translation>
-<translation id="4673151026126227699">እንዲሁም የDecentr አጠቃቀም ሪፖርቶችን ካጋሩ፣ እነዚያ ሪፖርቶች እርስዎ የሚጎበኟቸውን ዩአርኤሎች ያካትታሉ</translation>
 <translation id="4677944499843243528">መገለጫው በሌላ ኮምፒውተር (<ph name="HOST_NAME" />) ላይ በሌላ የDecentr ሂደት (<ph name="PROCESS_ID" />) የተያዘ ይመስላል። Decentr መገለጫው እንዳይበላሽ ቆልፎታል።  ሌሎች ሂደቶች ይህን መገለጫ እየተጠቀሙበት እንዳልሆኑ እርግጠኛ ከሆኑ መገለጫውን አስከፍተው Decentrን ዳግም ማስጀመር ይችላሉ።</translation>
-<translation id="469338717132742108">Chromium OS ላይ እገዛ ያግኙ</translation>
+<translation id="469338717132742108">Decentr OS ላይ እገዛ ያግኙ</translation>
 <translation id="4708774505295300557">የሆነ ሰው ከዚህ ቀደም በዚህ ኮምፒውተር ላይ እንደ <ph name="ACCOUNT_EMAIL_LAST" /> ሆነው ገብተዋል። የእርስዎን መረጃ ለይተው ለማስቀመጥ እባክዎ አዲስ የDecentr ተጠቃሚ ይፍጠሩ።</translation>
 <translation id="4746050847053251315">የሆነው ሆኖ Decentr ይቁም?</translation>
 <translation id="4748217263233248895">ለDecentr ልዩ የደህንነት ዝማኔ ተፈጻሚ ተደርጓል። አሁን ዳግም ያስጀምሩ እና የእርስዎን ትሮች ወደ ነበሩበት እንመልሳለን።</translation>
+<translation id="4750035648288509542">ሊዘመን ጥቂት ቀርቶታል! ማዘመን ለማጠናቀቅ Decentrን ዳግም ያስጀምሩት። ማንነት የማያሳውቁ መስኮቶች ዳግም አይከፈቱም።</translation>
 <translation id="4788777615168560705">Decentr የእርስዎን የይለፍ ቃላት መፈተሽ አይችልም። ከ24 ሰዓቶች በኋላ እንደገና ይሞክሩ ወይም <ph name="BEGIN_LINK" />በGoogle መለያዎ ውስጥ የይለፍ ቃላትን ይፈትሹ<ph name="END_LINK" />።</translation>
 <translation id="479167709087336770">ይህ በ Google ፍለጋ ውስጥ ጥቅም ላይ ጋር ተመሳሳይ የፊደል አራሚ ይጠቀማል። በአሳሽ ውስጥ የሚተይቡት ጽሑፍ ወደ Google ይላካል። ይህን ባህሪ ሁልጊዜ በቅንብሮች ውስጥ መለወጥ ይችላሉ።</translation>
 <translation id="4888717733111232871">Decentr ለmDNS ትራፊክ ለመፍቀድ የውስጥ ደንብ።</translation>
@@ -146,8 +134,10 @@
 <translation id="5386450000063123300">Decentrን በማዘመን ላይ (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">የDecentr በመለያ መግባትን ይፍቀዱ</translation>
 <translation id="5398878173008909840">አዲስ የDecentr ስሪት አለ።</translation>
+<translation id="5416696090975899932">አብሮገነቡ የፒዲኤፍ መመልከቻው ከጎደለ Decentr የህትመት ቅድመ-እይታውን ማሳየት አይችልም።</translation>
 <translation id="5427571867875391349">Decentr እንደ ነባሪ አሳሽዎ አድርገው ያዋቅሩት</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr ቅድመ-ይሁንታ</translation>
+<translation id="5479196819031988440">Decentr OS ይህን ገጽ መክፈት አይችልም።</translation>
 <translation id="5480860683791598150">Decentr አካባቢዎን ለዚህ ጣቢያ ለማጋራት የአካባቢዎ መዳረሻ ያስፈልገዋል</translation>
 <translation id="549669000822060376">Decentr የቅርብ ጊዜዎቹ የስርዓቱ ዝማኔዎችን እስኪጭን ድረስ እባክዎ ይጠብቁ።</translation>
 <translation id="5496810170689441661">Decentr የይለፍ ቃላትን ለማርትዕ እየሞከረ ነው። ይህንን ለመፍቀድ የWindows የይለፍ ቃልዎን ይተይቡ።</translation>
@@ -157,13 +147,13 @@
 <translation id="5653831366781983928">እባክዎ Decentr ን አህን ዳግም ያስጀምሩ</translation>
 <translation id="5698481217667032250">Decentrን በዚህ ቋንቋ አሳይ</translation>
 <translation id="5820394555380036790">Decentr ስርዓተ ክወና</translation>
-<translation id="5854740544000584380">Chromium OS እና <ph name="BEGIN_LINK_LINUX_OSS" />የLinux ግንባታ አካባቢ<ph name="END_LINK_LINUX_OSS" /> ሊሠሩ የቻሉት በተጨማሪ <ph name="BEGIN_LINK_CROS_OSS" />የክፍት ምንጭ ሶፍትዌር<ph name="END_LINK_CROS_OSS" /> ነው።</translation>
+<translation id="5854740544000584380">Decentr OS እና <ph name="BEGIN_LINK_LINUX_OSS" />የLinux ግንባታ አካባቢ<ph name="END_LINK_LINUX_OSS" /> ሊሠሩ የቻሉት በተጨማሪ <ph name="BEGIN_LINK_CROS_OSS" />የክፍት ምንጭ ሶፍትዌር<ph name="END_LINK_CROS_OSS" /> ነው።</translation>
 <translation id="5862307444128926510">ወደ Decentr እንኳን በደህና መጡ</translation>
 <translation id="5883558403894052917">Decentr እነዚህ ንጥሎች ተንኮል አዘል ዌር እንደያዙ አግኝቷል፦</translation>
 <translation id="5895138241574237353">እንደገና ጀምር</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - በአውታረ መረብ ወደ መለያ መግባት</translation>
 <translation id="5987687638152509985">ስምረትን ለመጀመር Decentrን ያዘምኑ</translation>
-<translation id="6039377483953237732">የChromium OS ስሪት</translation>
+<translation id="6039377483953237732">የDecentr OS ስሪት</translation>
 <translation id="6055895534982063517">አዲስ የDecentr ስሪት ይገኛል፣ እና ከመቼውም በበለጠ ፈጣን ሆኗል።</translation>
 <translation id="6063093106622310249">በDecentr ውስጥ &amp;ክፈት</translation>
 <translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> ወደ Decentr ታክሏል።</translation>
@@ -178,7 +168,6 @@
 <translation id="6212496753309875659">ይህ ኮምፒውተር አስቀድሞ ይበልጥ አዲስ የሆነ የDecentr ስሪት አለው። ሶፍትዌሩ የማይሰራ ከሆነ እባክዎ Decentrን ያራግፉና እንደገና ይሞክሩ።</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr አሁን ዳግም ይጀመራል}=1{Decentr በ1 ሰከንድ ውስጥ ዳግም ይጀመራል}one{Decentr በ# ሰከንዶች ውስጥ ዳግም ይጀመራል}other{Decentr በ# ሰከንዶች ውስጥ ዳግም ይጀመራል}}</translation>
 <translation id="6241367896540709610">Decentr ፋይሎችን ለማውረድ የማከማቻ መዳረሻ ፈቃድ ያስፈልገዋል</translation>
-<translation id="6245734527075554892">በDecentr ላይ በተከማቹ ደህንነታቸው ያልተጠበቁ ጣቢያዎች ዝርዝር ጋር ዩአርኤሎችን ይፈትሻል</translation>
 <translation id="6248213926982192922">Decentr ነባሪውን አሳሽ ያድርጉ።</translation>
 <translation id="6266342355635466082">Decentr ዝማኔዎችን መፈተሽ አይችልም። የበይነመረብ ግንኙነትዎን ለመፈተሽ ይሞክሩ።</translation>
 <translation id="6268381023930128611">ከDecentr ተዘግቶ ይውጣ?</translation>
@@ -190,7 +179,7 @@
 <translation id="6334986366598267305">አሁን Decentrን ከGoogle መለያዎ ጋር እና በተጋሩ ኮምፒውተሮች ላይ መጠቀም ይበልጥ ቀላል ነው።</translation>
 <translation id="6373523479360886564">እርግጠኛ ነዎት Decentrን ማራገፍ ይፈልጋሉ?</translation>
 <translation id="6403826409255603130">Decentr ድረ-ገጾችን እና መተግበሪያዎችን እጅግ በጣም ፈጣን በሆነ ፍጥነት የሚያሄድ ድር አሳሽ ነው። ፈጣን፣ የረጋ እና ለመጠቀም ቀላል ነው። Decentr ውስጥ አብሮ በተሰራላቸው የተንኮል-አዘል ሶፍትዌር እና የማስገሪያ መከላከያዎች አማካኝነት ደህንነትዎ ይበልጥ በተጠበቀ ሁኔታ ድሩን ያስሱ።</translation>
-<translation id="6434250628340475518">Chromium OS ሥርዓት</translation>
+<translation id="6434250628340475518">Decentr OS ሥርዓት</translation>
 <translation id="6455857529632101747">ወደ Decentr መገለጫዎች እንኳን በደህና መጡ</translation>
 <translation id="6457450909262716557">{SECONDS,plural, =1{Decentr በ1 ሰከንድ ውስጥ ዳግም ይጀምራል}one{Decentr በ# ሰከንዶች ውስጥ ዳግም ይጀምራል}other{Decentr በ# ሰከንዶች ውስጥ ዳግም ይጀምራል}}</translation>
 <translation id="6475912303565314141">እንዲሁም Decentrን ሲጀምሩት የሚታየውን ገጽ ይቆጣጠራል።</translation>
@@ -205,6 +194,7 @@
 <translation id="6717134281241384636">መገለጫዎ ከአዲስ የDecentr ስሪት ስለሆነ የመጣው ስራ ላይ ሊውል አይችልም።
 
 አንዳንድ ባህሪያት ላይገኙ ይችላሉ። እባክዎ የተለየ የመገለጫ አቃፊ ይግለጹ ወይም ይበልጥ አዲስ የሆነ የDecentr ስሪት ይጠቀሙ።</translation>
+<translation id="6734080038664603509">&amp;Decentrን አዘምን</translation>
 <translation id="6734291798041940871">Decentr ለሁሉም በእርስዎ ኮምፒውተር ላይ ላሉ ተጠቃሚዎች አስቀድሞ ተጭኗል።</translation>
 <translation id="673636774878526923">በሁሉም መሣሪያዎችዎ ላይ የእርስዎን Decentr ነገሮች ለመድረስ ይግቡ፣ ከዚያ ስምረትን ያብሩ።</translation>
 <translation id="6774082503108938489">የእርስዎ ወላጅ ለDecentr «የጣቢያዎች፣ መተግበሪያዎች እና ቅጥያዎች ፈቃዶች»ን አጥፍተዋል። ይህን <ph name="EXTENSION_TYPE_PARAMETER" /> ማንቃት አይፈቀድም።</translation>
@@ -222,8 +212,8 @@
 <translation id="718435575166326686">Decentr ለዚህ ጣቢያ የካሜራ ፈቃድ ያስፈልገዋል</translation>
 <translation id="7196312274710523067">Decentrን ማስጀመር አልተቻለም። እንደገና ይሞክሩ።</translation>
 <translation id="7197677400338048821">Decentr የእርስዎን የይለፍ ቃላት መፈተሽ አይችልም። ከ24 ሰዓቶች በኋላ እንደገና ይሞክሩ።</translation>
-<translation id="7218568399872925918">እርስዎ የጎበኟቸው ጣቢያዎች Decentrን እስኪዘጉ ድረስ መረጃዎን ያስታውሳሉ</translation>
 <translation id="7223968959479464213">ተግባር መሪ - Decentr</translation>
+<translation id="731644333568559921">&amp;Decentr ስርዓተ ክወናን አዘምን</translation>
 <translation id="731795002583552498">Decentrን በማዘመን ላይ...</translation>
 <translation id="7318036098707714271">የምርጫዎች ፋይልዎ የተበላሸ ወይም ልክ ያልሆነ ነው።
 
@@ -232,21 +222,17 @@ Decentr ቅንብሮችዎን ማስመለስ አልቻለም።</translation>
 <translation id="7339898014177206373">አዲሰ መስኮት</translation>
 <translation id="734373864078049451">የእርስዎ ድር፣ ዕልባቶች እና ሌሎች የDecentr ነገሮች እዚህ ይኖራሉ።</translation>
 <translation id="7349591376906416160">የእርስዎ ስርዓት አስተዳዳሪ Decentr <ph name="TARGET_URL_HOSTNAME" />ን ለመድረስ <ph name="ALTERNATIVE_BROWSER_NAME" />ን እንዲከፍት አዋቅሮታል።</translation>
-<translation id="7398989605938454041">በDecentr መገለጫዎች ሁሉንም የDecentr ነገሮችዎን መለየት ይችላሉ። ይህ በስራ እና በመዝናኛ መካከል መከፋፈልን ቀላል ያደርገዋል።</translation>
-<translation id="7448255348454382571">Chromium OSን ዳግም አስጀምር</translation>
+<translation id="7448255348454382571">Decentr OSን ዳግም አስጀምር</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr ግንባታ</translation>
 <translation id="7451052299415159299">Decentr ለዚህ ጣቢያ የእርስዎን ካሜራ ለመድረስ ፈቃድ ያስፈልገዋል</translation>
-<translation id="7467949745582939695">Decentr ዳግም ይጀመር?</translation>
 <translation id="7483335560992089831">እየሄደ ያለውን ተመሳሳዩን የDecentr ስሪት መጫን አይቻልም። እባክዎ Decentrን ይዝጉና እንደገና ይሞክሩ።</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr በ1 ደቂቃ ውስጥ ዳግም ይጀመራል}one{Decentr በ# ደቂቃዎች ውስጥ ዳግም ይጀመራል}other{Decentr በ# ደቂቃዎች ውስጥ ዳግም ይጀመራል}}</translation>
-<translation id="7549178288319965365">ስለ Chromium OS</translation>
+<translation id="7549178288319965365">ስለ Decentr OS</translation>
 <translation id="7561906087460245826">በተጨማሪ ከDecentr (<ph name="URL" />) ውሂብን አጽዳ</translation>
 <translation id="7585853947355360626">በዚህ ገጽ ላይ አንድ ቅንብር ካልታየ በእርስዎ <ph name="LINK_BEGIN" />
       የ Decentr አሳሽ ቅንብሮች<ph name="LINK_END" /> ውስጥ ይመልከቱ</translation>
-<translation id="7597596667193879455">የተሻሻለ የደህንነት አሰሳን በእርስዎ መለያ ውስጥ አብርተዋል። አሁን ለDecentr ያግኙት።</translation>
 <translation id="761356813943268536">Decentr ካሜራዎን እና ማይክሮፎንዎን እየተጠቀመ ነው።</translation>
 <translation id="7617377681829253106">Decentr አሁን ይበልጥ ተሻሽሏል</translation>
-<translation id="7682601070171973634">Decentr ጣቢያዎች ያነሰ ውሂብዎን ተጠቅመው ተመሳሳይ የአሰሳ ተሞክሮ እንዲያቀርቡ የሚያስችሏቸውን አዳዲስ ባህሪያትን እያሰሰ ነው።</translation>
 <translation id="7686590090926151193">Decentr ነባሪ አሳሽዎ አይደለም</translation>
 <translation id="7689606757190482937">በመላ መሣሪያዎችዎ ላይ Decentrን ያሳምሩ እና ግላዊነት ያላብሱ</translation>
 <translation id="7729447699958282447">ማመሳሰል ለጎራዎ ስለማይገኝ Decentr ውሂብዎን ማመሳሰል አይችልም።</translation>
@@ -256,11 +242,11 @@ Decentr ቅንብሮችዎን ማስመለስ አልቻለም።</translation>
 <translation id="7828947555739565424">ይህን መለያ ያለው አንድ የDecentr መገለጫ አስቀድሞ በዚህ መሣሪያ ላይ አለ</translation>
 <translation id="7857220146454061152">የወደፊቱን የDecentr ዝመኔዎችን ለማግኘት፣ OS X 10.11 ወይም ከዚያ በኋላ ያለው ያስፈልግዎታል። ይህ ኮምፒተር OS X 10.10 እየተጠቀመ ነው።</translation>
 <translation id="7867198900892795913">Decentr ወደ የቅርብ ጊዜው ስሪት ሊዘመን አልቻለም፣ ስለዚህ አዲስ ባህሪያት እና የደህንነት ጥገናዎች እያመለጡዎት ናቸው። Decentrን ማዘመን አለብዎት።</translation>
-<translation id="788352880609666695">የሚከተሉት መለያዎች ለዚህ Decentr መገለጫ ይገኛሉ</translation>
-<translation id="7898472181347242998">መሣሪያዎ የተዘመነ ከሆነ ለማየት ወደ <ph name="LINK_BEGIN" />የChromium OS ቅንብሮች ይሂዱ<ph name="LINK_END" /></translation>
+<translation id="7898472181347242998">መሣሪያዎ የተዘመነ ከሆነ ለማየት ወደ <ph name="LINK_BEGIN" />የDecentr OS ቅንብሮች ይሂዱ<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">እንደ <ph name="USER_EMAIL_ADDRESS" /> ሆነው ወደ Decentr ገብተዋል። እባክዎ እንደገና ለመግባት ተመሳሳዩን መለያ ይጠቀሙ።</translation>
 <translation id="7975919845073681630">ይሄ ሁለተኛ የDecentr ጭነት ነው፣ እና ነባሪ አሳሽዎ ማድረግ አይቻልም።</translation>
 <translation id="8013436988911883588">አንዴ Decentr መዳረሻ ከኖረው በኋላ ድር ጣቢያዎች እርስዎን መዳረሻ መጠየቅ ይችላሉ።</translation>
+<translation id="8045118833343856403">የሚከተሉት መለያዎች በማናቸውም የDecentr መገለጫዎች ውስጥ አልገቡም። አንድ መለያ በሌላ መገለጫ ውስጥ ለመጠቀም ከፈለጉ መጀመሪያ ያንን መገለጫ ያስወግዱት።</translation>
 <translation id="8105840573057009683">Decentr ለዚህ ጣቢያ የአካባቢ ፈቃድ ያስፈልገዋል</translation>
 <translation id="81770708095080097">ይህ ፋይል አደገኛ ስለሆነ Decentr አግዶታል።</translation>
 <translation id="8248265253516264921">አንድ ምስል ጠቃሚ መግለጫ ከሌለው Decentr ለእርስዎ አንድ ለማቅረብ ይሞክራል። ዝርዝር መግለጫዎችን ለመፍጠር፣ ምስሎች ወደ Google ይላካሉ። ይህን በማንኛውም ጊዜ በቅንብሮች ውስጥ ሊያጠፉት ይችላሉ።</translation>
@@ -269,7 +255,6 @@ Decentr ቅንብሮችዎን ማስመለስ አልቻለም።</translation>
 <translation id="8290862415967981663">ይህ ፋይል አደገኛ ሊሆን ስለሚችል Decentr አግዶታል።</translation>
 <translation id="8330519371938183845">Decentrን በመላ መሣሪያዎችዎ ላይ ለማሳመር እና ግላዊነት ለማላበስ</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> ከዚህ ቀደም Decentrን እየተጠቀመ ነበር</translation>
-<translation id="8357820681460164151">በሁሉም መሣሪያዎችዎ ላይ የእርስዎን የDecentr አሳሽ ነገሮች ለመድረስ ይግቡ፣ ከዚያ ስምረትን ያብሩ</translation>
 <translation id="8417404458978023919">{0,plural, =1{በአንድ ቀን ውስጥ Decentrን ዳግም አስጀምር}one{በ# ቀኖች ውስጥ Decentrን ዳግም አስጀምር}other{በ# ቀኖች ውስጥ Decentrን ዳግም አስጀምር}}</translation>
 <translation id="8453117565092476964">የጫኚው መዝገብ ተበላሽቷል ወይም ትክክል አይደለም። እባክዎ Decentrን እንደገና ያውርዱ።</translation>
 <translation id="8493179195440786826">Decentr ጊዜው አልፎበታል</translation>
@@ -281,10 +266,8 @@ Decentr ቅንብሮችዎን ማስመለስ አልቻለም።</translation>
 <translation id="8621669128220841554">ተለይቶ ባልታወቀ ስህተት ምክንያት ጭነት ከሽፏል። እባክዎ Decentrን እንደገና ያውርዱ።</translation>
 <translation id="8697124171261953979">እንዲሁም Decentrን ሲጀምሩት ወይም ከኦምኒቦክሱ ሆነው ሲፈልጉ የሚታየውን ገጽ ይቆጣጠራል።</translation>
 <translation id="8704119203788522458">ይሄ የእርስዎ Decentr ነው</translation>
-<translation id="8713679423359107094">ሁሉንም የDecentr መስኮቶች ሲዘጉ፣ ኩኪዎች እና የጣቢያ ውሂብ በራስሰር ይጸዳሉ</translation>
-<translation id="8796443464227412154">Decentrን ሲዘጉ <ph name="BEGIN_BOLD" />ከብዙ ጣቢያዎች ዘግተው እንዲወጡ<ph name="END_BOLD" /> ይደረጋሉ። ማስመር ጠፍቶ ከሆነ <ph name="BEGIN_BOLD" />ከGoogle አገልግሎቶች እና Decentr<ph name="END_BOLD" /> ዘግተው እንዲወጡ ይደረጋሉ።</translation>
 <translation id="8796602469536043152">Decentr ለዚህ ጣቢያ የእርስዎን ካሜራ እና ማይክሮፎን ለመድረስ ፈቃድ ያስፈልገዋል</translation>
-<translation id="8803635938069941624">የChromium OS ውል</translation>
+<translation id="8803635938069941624">የDecentr OS ውል</translation>
 <translation id="8821041990367117597">የመለያ መግቢያ ዝርዝሮችዎ ጊዜ ያለፈባቸው ስለሆኑ Decentr ውሂብዎን ማመሳሰል አልቻለም።</translation>
 <translation id="8862326446509486874">ለስርዓተ-ደረጃ ጭነት ተገቢ መብቶች የሉዎትም። ጫኚውን እንደ አስተዳዳሪ በማሄድ እንደገና ይሞክሩ።</translation>
 <translation id="8880203542552872219">እንደዚያ ከሆነ፣ ከእርስዎ አዲሱ የይለፍ ቃል ጋር እንዲዛመድ የእርስዎን በDecentr የተቀመጠ የይለፍ ቃል አርትዕ ያድርጉ።</translation>
@@ -301,9 +284,8 @@ Decentr ቅንብሮችዎን ማስመለስ አልቻለም።</translation>
 <translation id="9158494823179993217">የእርስዎ የስርዓት አስተዳዳሪ <ph name="TARGET_URL_HOSTNAME" />ን ለመድረስ Decentr ተለዋጭ አሳሽን እንዲከፍት አዋቅረውታል።</translation>
 <translation id="9185526690718004400">&amp;Decentrን ለማዘመን ዳግም ያስነሱት</translation>
 <translation id="9190841055450128916">Decentr (mDNS-In)</translation>
-<translation id="9214764063801632699">የChromium OS ሥርዓት</translation>
+<translation id="9214764063801632699">የDecentr OS ሥርዓት</translation>
 <translation id="93478295209880648">Decentr በWindows XP ወይም Windows Vista ላይ ከእንግዲህ ስለማይደገፍ በአግባቡ ላይሰራ ይችላል</translation>
 <translation id="965162752251293939">ማነው Decentrን የሚጠቀመው?</translation>
-<translation id="967427899662692980">የDecentrን ጠንካራ ደህንነት ያግኙ</translation>
 <translation id="985602178874221306">የDecentr ደራሲዎች</translation>
 </translationbundle>

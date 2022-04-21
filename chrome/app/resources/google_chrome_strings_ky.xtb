@@ -7,16 +7,6 @@
 <translation id="1065672644894730302">Жеке жөндөлөөрүңүз окулбай жатат.
 
 Айрым мүмкүнчүлүктөр иштебегендиктен, жеке жөндөөлөрдөгү өзгөрүүлөр сакталбайт.</translation>
-<<<<<<< HEAD
-<translation id="1088300314857992706"><ph name="USER_EMAIL_ADDRESS" /> мурда Chrome'ду пайдаланчу</translation>
-<translation id="110877069173485804">Бул сиздин Chrome</translation>
-<translation id="1125124144982679672">Chrome'ду ким колдонуп жатат?</translation>
-<translation id="1142745911746664600">Chrome жаңырбай жатат</translation>
-<translation id="1154147086299354128">&amp;Chrome'до ачуу</translation>
-<translation id="1182414570724401860">Chrome'дун кеңеши боюнча бул файлды жүктөп албай же ачпай эле коюңуз</translation>
-<translation id="1201241595274620956">CloudReady 2.0 шарттары</translation>
-<translation id="1278833599417554002">&amp;Chrome'ду жаңыртуу үчүн кайра иштетиңиз</translation>
-=======
 <translation id="1088300314857992706"><ph name="USER_EMAIL_ADDRESS" /> мурда Decentr'ду пайдаланчу</translation>
 <translation id="110877069173485804">Бул сиздин Decentr</translation>
 <translation id="1125124144982679672">Decentr'ду ким колдонуп жатат?</translation>
@@ -24,7 +14,6 @@
 <translation id="1154147086299354128">&amp;Decentr'до ачуу</translation>
 <translation id="1182414570724401860">Decentr'дун кеңеши боюнча бул файлды жүктөп албай же ачпай эле коюңуз</translation>
 <translation id="1278833599417554002">&amp;Decentr'ду жаңыртуу үчүн кайра иштетиңиз</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="1293325835983155583">Бул түзмөктү колдонуудан мурун, <ph name="MANAGER" /> төмөнкү Тейлөө шарттарын окуп, кабыл алууңузду талап кылат. Бул шарттар Decentr OS шарттарын кеңейтип, өзгөртүп же чектебейт.</translation>
 <translation id="1302523850133262269">Decentr эң акыркы тутум жаңыртууларын орнотуп бүткүчө күтө туруңуз.</translation>
 <translation id="137466361146087520">Decentr Бета</translation>
@@ -48,28 +37,6 @@
 <translation id="1713301662689114961">{0,plural, =1{Decentr 1 сааттан кийин кайра иштетилет}other{Decentr # сааттан кийин кайра иштетилет}}</translation>
 <translation id="1734234790201236882">Decentr бул сырсөздү Google аккаунтуңузга сактап коёт. Аны эстеп калуунун кажети жок.</translation>
 <translation id="174539241580958092">Кирүү катасынан улам, Decentr дайын-даректериңизди шайкештештире алган жок.</translation>
-<<<<<<< HEAD
-<translation id="1759842336958782510">Chrome</translation>
-<translation id="1786003790898721085">Chrome'го <ph name="TARGET_DEVICE_NAME" /> түзмөгүңүздөн кирип турганыңызды текшерип, кайра жөнөтүп көрүңүз.</translation>
-<translation id="1812689907177901597">Ушуну өчүрүү менен Gmail сыяктуу Google сайттарына Chrome'суз кире аласыз</translation>
-<translation id="1847459800604232346">CloudReady 2.0 тутумун өчүрүп күйгүзүү</translation>
-<translation id="1860536484129686729">Бул сайтта иштөө үчүн Chrome камераңызды колдонушу керек</translation>
-<translation id="1865667134297225786">Аккаунтуңуздун кирүү чоо-жайы эскирип калгандыктан, CloudReady 2.0 дайын-даректериңизди шайкештештире алган жок.</translation>
-<translation id="1873233029667955273">Decentr сиздин демейки серепчиңиз эмес</translation>
-<translation id="1874309113135274312">Decentr Бета (mDNS-In)</translation>
-<translation id="1877026089748256423">Chrome эскирип калган.</translation>
-<translation id="1887927549935943139">CloudReady 2.0 дайын-даректериңизди шайкештештире алган жок, себеби домениңизде Шайкештештирүү аракети жеткиликтүү эмес.</translation>
-<translation id="1919130412786645364">Chrome'го кирүүгө уруксат берүү</translation>
-<translation id="1938037793394697191">Google CloudReady 2.0</translation>
-<translation id="2018528049276128029">Ар бир профилде өзүнө таандык кыстармалар, таржымал, сырсөздөр жана башкалар сыяктуу Chrome маалыматы бар</translation>
-<translation id="2063848847527508675">Жаңыртууну колдонуу үчүн Chrome OS өчүрүлүп күйгүзүлүшү керек.</translation>
-<translation id="2094919256425865063">Баары бир Chrome'ду токтотосузбу?</translation>
-<translation id="2120620239521071941">Ушуну менен түзмөктөгү <ph name="ITEMS_COUNT" /> нерсе өчүрүлөт. Дайын-даректериңизди кийинчерээк чыгарып алуу үчүн Chrome'го <ph name="USER_EMAIL" /> аккаунту менен кириңиз.</translation>
-<translation id="2121284319307530122">&amp;Chrome'ду жаңыртуу үчүн кайра иштетиңиз</translation>
-<translation id="2123055963409958220"><ph name="BEGIN_LINK" />Учурдагы жөндөөлөр<ph name="END_LINK" /> жөнүндө кабар берип, Chrome'ду өркүндөтүүгө кол кабыш кылыңыз</translation>
-<translation id="2151406531797534936">Chrome'ду азыр өчүрүп күйгүзүңүз</translation>
-<translation id="2258103955319320201">Decentr серепчисиндеги файлдарды бардык түзмөктөрүңүздө колдонуу үчүн аккаунтуңузга кирип, шайкештирүүнү күйгүзүңүз</translation>
-=======
 <translation id="1759842336958782510">Decentr</translation>
 <translation id="1786003790898721085">Decentr'го <ph name="TARGET_DEVICE_NAME" /> түзмөгүңүздөн кирип турганыңызды текшерип, кайра жөнөтүп көрүңүз.</translation>
 <translation id="1812689907177901597">Ушуну өчүрүү менен Gmail сыяктуу Google сайттарына Decentr'суз кире аласыз</translation>
@@ -87,26 +54,9 @@
 <translation id="2151406531797534936">Decentr'ду азыр өчүрүп күйгүзүңүз</translation>
 <translation id="2189289170880510015">Decentr'дун эң маанилүү купуялык тандоолорун ыңгайлаштырып алыңыз</translation>
 <translation id="2246246234298806438">Камтылган PDF көрсөткүчү жок болсо, Decentr басылып чыга турган нерсени алдын ала көрсөтө албайт.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2290014774651636340">Google API ачкычтары жок. Decentr'дун айрым функциялары өчүрүлөт.</translation>
 <translation id="2290095356545025170">Decentr'ду чын эле орнотуудан чыгаргыңыз келеби?</translation>
-<translation id="2297776811548050971">CloudReady 2.0 тутуму, <ph name="BEGIN_LINK_LINUX_OSS" />Linux'ту өнүктүрүү чөйрөсү<ph name="END_LINK_LINUX_OSS" /> сыяктуу, кошумча <ph name="BEGIN_LINK_CROS_OSS" />баштапкы коду ачык программалык камсыздоонун<ph name="END_LINK_CROS_OSS" /> жардамы менен иштейт.</translation>
 <translation id="2309047409763057870">Бул Decentr'дун кошумча орнотулушу болгондуктан, аны демейки серепчиңиз катары тандай албайсыз.</translation>
-<<<<<<< HEAD
-<translation id="2345992953227471816">Chrome төмөнкү кеңейтүүлөрдө кесепеттүү программанын болгонун аныктады:</translation>
-<translation id="2348335408836342058">Бул сайтта иштөө үчүн Chrome камераңызды жана микрофонуңузду колдонушу керек</translation>
-<translation id="234869673307233423">Chrome сырсөздөрүңүздү текшере албай жатат. Кийинчерээк кайталаңыз.</translation>
-<translation id="235650106824528204">Бул профилди колдонуп жатканда Chrome'до топтолгон бардык маалыматты (түзүлгөн кыстармалар, таржымал, сырсөздөр жана башка жөндөөлөр) жумуш профилинин администратору өчүрө алат. <ph name="LEARN_MORE" /></translation>
-<translation id="2359808026110333948">Улантуу</translation>
-<translation id="2371517829376452747">Эгер жөндөө бул баракта көрүнбөсө, <ph name="LINK_BEGIN" />
-      CloudReady 2.0 жөндөөлөрүнөн<ph name="LINK_END" /> карап көрүңүз</translation>
-<translation id="2429317896000329049">Домениңизде шайкештештирүү аракети жок болгондуктан, Decentr дайын-даректериңизди шайкештештире алган жок.</translation>
-<translation id="2467438592969358367">Decentr сырсөздөрүңүздү экспорттогону жатат. Ага уруксат берүү үчүн Windows аккаунтуңуздун сырсөзүн териңиз.</translation>
-<translation id="2485422356828889247">Орнотуудан чыгаруу</translation>
-<translation id="2534507159460261402">Google Pay (Chrome'го көчүрүлдү)</translation>
-<translation id="2563121210305478421">Chrome'ду кайра иштетесизби?</translation>
-<translation id="2574930892358684005"><ph name="EXISTING_USER" /> ушул Chrome профилине мурунтан эле кирип турат. Сиз серептеген нерселерди ажыратуу максатында Chrome сиз үчүн өзүнчө профиль түзүп бере алат.</translation>
-=======
 <translation id="2345992953227471816">Decentr төмөнкү кеңейтүүлөрдө кесепеттүү программанын болгонун аныктады:</translation>
 <translation id="2348335408836342058">Бул сайтта иштөө үчүн Decentr камераңызды жана микрофонуңузду колдонушу керек</translation>
 <translation id="234869673307233423">Decentr сырсөздөрүңүздү текшере албай жатат. Кийинчерээк кайталаңыз.</translation>
@@ -117,7 +67,6 @@
 <translation id="2518751521812750372">Decentr'ду жапканыңызда, ал сиз баш баккан барактардан сайттагы маалыматты жана cookie файлдарын автоматтык түрдө тазалайт</translation>
 <translation id="2534507159460261402">Google Pay (Decentr'го көчүрүлдү)</translation>
 <translation id="2574930892358684005"><ph name="EXISTING_USER" /> ушул Decentr профилине мурунтан эле кирип турат. Сиз серептеген нерселерди ажыратуу максатында Decentr сиз үчүн өзүнчө профиль түзүп бере алат.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2580411288591421699">Учурда иштеп жаткан Decentr версиясын орнотуу мүмкүн эмес. Decentr'ду жаап, дагы бир жолу аракет кылып көрүңүз.</translation>
 <translation id="2586406160782125153">Ушуну менен бул түзмөктөн серептөө дайын-даректериңиз өчүрүлөт. Дайын-даректериңизди кийинчерээк чыгарып алуу үчүн Decentr'го <ph name="USER_EMAIL" /> аккаунту менен кириңиз.</translation>
 <translation id="2622559029861875898">Decentr жаңыртууларды текшере алган жок. Интернет байланышын текшерип көрүңүз.</translation>
@@ -136,19 +85,6 @@
 <translation id="2861074815332034794">Decentr жаңыртылууда (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="2871893339301912279">Decentr'го кирдиңиз!</translation>
 <translation id="2885378588091291677">Тапшырмаларды башкаргыч</translation>
-<<<<<<< HEAD
-<translation id="2888126860611144412">Chrome тууралуу</translation>
-<translation id="2926676257163822632">Начар сырсөздөрдү билип алуу оңой. Chrome'го <ph name="BEGIN_LINK" />сиз үчүн татаал сырсөздөрдү түзүп, эстеп калууга<ph name="END_LINK" /> уруксат бериңиз.</translation>
-<translation id="2926952073016206995">Chrome'го бул сайтта камераны колдонууга уруксат бериңиз</translation>
-<translation id="2929907241665500097">Chrome жаңырган жок. Бир жерден ката кетти. <ph name="BEGIN_LINK" />Chrome'догу жаңыртуу маселелерин оңдоңуз.<ph name="END_LINK" /></translation>
-<translation id="2954761547729364025">&amp;CloudReady 2.0 тутумун жаңыртуу үчүн кайра иштетүү</translation>
-<translation id="2969728957078202736"><ph name="PAGE_TITLE" /> – Тармакка кирүү – Chrome</translation>
-<translation id="303514781271618814">Decentr сайттар дайын-даректериңизди азыраак колдонуу менен бирдей карап чыгуу мүмкүнчүлүгүн бере турган жаңы функцияларды изилдеп жатат</translation>
-<translation id="3037838751736561277">Decentr фондук режимде.</translation>
-<translation id="3059710691562604940">Коопсуз серептөө өчүк. Decentr аны күйгүзүүнү сунуштайт.</translation>
-<translation id="3065168410429928842">Decentr өтмөгү</translation>
-<translation id="3069821012350118710">Сиз баш баккан сайттарда маалыматыңыз Decentr жабылганга чейин сакталат</translation>
-=======
 <translation id="2888126860611144412">Decentr тууралуу</translation>
 <translation id="2926676257163822632">Начар сырсөздөрдү билип алуу оңой. Decentr'го <ph name="BEGIN_LINK" />сиз үчүн татаал сырсөздөрдү түзүп, эстеп калууга<ph name="END_LINK" /> уруксат бериңиз.</translation>
 <translation id="2926952073016206995">Decentr'го бул сайтта камераны колдонууга уруксат бериңиз</translation>
@@ -157,36 +93,11 @@
 <translation id="3037838751736561277">Decentr фондук режимде.</translation>
 <translation id="3059710691562604940">Коопсуз серептөө өчүк. Decentr аны күйгүзүүнү сунуштайт.</translation>
 <translation id="3065168410429928842">Decentr өтмөгү</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3080151273017101988">Decentr жабылганда фондук колдонмолор иштей берсин</translation>
 <translation id="3089968997497233615">Decentr'дун бир кыйла жаңы, коопсуз версиясы бар.</translation>
 <translation id="3100998948628680988">Decentr профилиңиздин аталышын коюңуз</translation>
 <translation id="3114643501466072395">Башка сырсөздөрүңүздүн бекем корголгонун, ошондой эле коопсуздукка байланыштуу көйгөйлөрдү текшерүү үчүн <ph name="BEGIN_LINK" />Decentr'го кириңиз<ph name="END_LINK" />.</translation>
 <translation id="3140883423282498090">Өзгөртүүлөрүңүз Decentr кийинки жолу кайра ишке киргизилгенде күчүнө кирет.</translation>
-<<<<<<< HEAD
-<translation id="3149510190863420837">Chrome колдонмолору</translation>
-<translation id="3245429137663807393">Chrome'дун колдонулушу тууралуу кабарларды да бөлүшсөңүз, ал кабарларда сиз баш баккан URL даректери камтылат</translation>
-<translation id="3360895254066713204">Chrome Жардамчысы</translation>
-<translation id="3379938682270551431">{0,plural, =0{Chrome азыр кайра иштетилет}=1{Chrome 1 секунддан кийин кайра иштетилет}other{Chrome # секунддан кийин кайра иштетилет}}</translation>
-<translation id="3395323229510056640">Chrome OS'тон жардам алыңыз</translation>
-<translation id="3396977131400919238">Орнотулуп жатканда иш тутумунда ката кетти. Decentr'ду кайра жүктөп алыңыз.</translation>
-<translation id="3428747202529429621">Аккаунтуңузга киргенде Decentr'до жана башка Google колдонмолорунда коопсуздугуңузду коргоп турат</translation>
-<translation id="3434246496373299699">Google аккаунтуңуз менен киргенде Chrome сырсөздөрүңүздү текшерет</translation>
-<translation id="3451115285585441894">Chrome'го кошулууда…</translation>
-<translation id="345171907106878721">Өзүңүздү Chrome'го кошуңуз</translation>
-<translation id="34857402635545079">Chrome'догу дайындар да тазалансын (<ph name="URL" />)</translation>
-<translation id="3503306920980160878">Бул сайт менен бөлүшүү үчүн Chrome жайгашкан жериңиз тууралуу маалыматты алышы керек</translation>
-<translation id="3533694711092285624">Сакталган сырсөздөр жок. Сырсөздөрүңүздү сактаганда Chrome аларды текшере алат.</translation>
-<translation id="3541482654983822893">Chrome сырсөздөрүңүздү текшере албай жатат. 24 сааттан кийин кайра аракет кылыңыз.</translation>
-<translation id="3576528680708590453">Тутумуңуздун администратору Decentr'ду <ph name="TARGET_URL_HOSTNAME" /> шилтемесин кошумча серепчиде ачылгыдай кылып конфигурациялады.</translation>
-<translation id="3582634744482121096">Милдеттүү эмес: Google'га мүчүлүштүктөрдү аныктоо маалыматын жана колдонуу статистикасын автоматтык түрдө жөнөтүү менен, Decentr жана CloudReady 2.0 тутумунун функцияларын жана майнаптуулугун жакшыртууга жардам бересиз.</translation>
-<translation id="3582972582564653026">Chrome'ду бардык түзмөктөрүңүздө шайкештирип, жекелештиресиз</translation>
-<translation id="3596080736082218006">{COUNT,plural, =0{Администраторуңуз жаңыртууну колдонуу үчүн Chrome'ду кайра иштетүүнү талап кылууда}=1{Администраторуңуз жаңыртууну колдонуу үчүн Chrome'ду кайра иштетүүнү талап кылууда. Жашыруун терезеңиз кайра ачылбайт.}other{Администраторуңуз жаңыртууну колдонуу үчүн Chrome'ду кайра иштетүүнү талап кылууда. # жашыруун терезеңиз кайра ачылбайт.}}</translation>
-<translation id="3622797965165704966">Эми Google Аккаунтуңуз аркылуу жана бөлүшүлгөн компьютерлерден Chrome'до иштөө алдаганча жеңилирээк болуп калды.</translation>
-<translation id="3673813398384385993">Chrome "<ph name="EXTENSION_NAME" />" кеңейтүүсүндө кесепеттүү программанын болгонун аныктады</translation>
-<translation id="3718181793972440140">Ушуну менен түзмөктөгү 1 нерсе өчүрүлөт. Дайын-даректериңизди кийинчерээк чыгарып алуу үчүн Chrome'го <ph name="USER_EMAIL" /> аккаунту менен кириңиз.</translation>
-<translation id="3735758079232443276">"<ph name="EXTENSION_NAME" />" кеңейтүүсү Chrome иштеп баштаганда көрсөтүлө турган бетти өзгөрттү.</translation>
-=======
 <translation id="3149510190863420837">Decentr колдонмолору</translation>
 <translation id="3360895254066713204">Decentr Жардамчысы</translation>
 <translation id="3379938682270551431">{0,plural, =0{Decentr азыр кайра иштетилет}=1{Decentr 1 секунддан кийин кайра иштетилет}other{Decentr # секунддан кийин кайра иштетилет}}</translation>
@@ -207,7 +118,6 @@
 <translation id="3678552270983184277">Decentr'дун демейки жөндөөлөрү көбүнчө кишилерге ылайыктуу, бирок өзүңүзгө жараша ыңгайлаштырып алсаңыз болот</translation>
 <translation id="3718181793972440140">Ушуну менен түзмөктөгү 1 нерсе өчүрүлөт. Дайын-даректериңизди кийинчерээк чыгарып алуу үчүн Decentr'го <ph name="USER_EMAIL" /> аккаунту менен кириңиз.</translation>
 <translation id="3735758079232443276">"<ph name="EXTENSION_NAME" />" кеңейтүүсү Decentr иштеп баштаганда көрсөтүлө турган бетти өзгөрттү.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3779473566290487688">Decentr жаңыртууларын алып туруу үчүн OS X 10.11 же андан кийинки версиясын орнотушуңуз керек. Бул компьютерде OS X 10.10 версиясы колдонулууда.</translation>
 <translation id="3780814664026482060">Decentr - <ph name="PAGE_TITLE" /></translation>
 <translation id="3835168907083856002">Ушуну менен <ph name="USER_EMAIL_ADDRESS" /> үчүн жаңы Decentr профили түзүлөт</translation>
@@ -220,20 +130,11 @@
 <translation id="4110895483821904099">Жаңы Decentr профилин жөндөп алыңыз</translation>
 <translation id="4147555960264124640">Башкарылган аккаунт менен кирип, анын администраторуна Decentr профилиңизди көзөмөлдөө мүмкүнчүлүгүн берип жатасыз. Колдонмолоруңуз, кыстармалар, таржымал, сырсөздөр жана башка жөндөөлөр сыяктуу Decentr дайын-даректериңиз эми биротоло <ph name="USER_NAME" /> менен байланып калат. Бул дайындарды Google Каттоо эсептеринин Жеке кеңсеси аркылуу жок кылсаңыз болот, бирок башка аккаунтка байланыштыра албайсыз. <ph name="LEARN_MORE" /></translation>
 <translation id="4149882025268051530">Орноткуч архивди чыгара албай койду. Decentr'ду кайра жүктөп алыңыз.</translation>
-<<<<<<< HEAD
-<translation id="4191857738314598978">{0,plural, =1{Chrome 1 күндүн ичинде кайра иштетилет}other{Chrome # күндүн ичинде кайра иштетилет}}</translation>
-<translation id="4205939740494406371">Chrome сырсөздөрүңүздү текшере албай жатат. 24 сааттан кийин кайра аракет кылыңыз же <ph name="BEGIN_LINK" />Google аккаунтуңуздагы сырсөздөрдү текшериңиз<ph name="END_LINK" />.</translation>
-<translation id="4218613300505264589">CloudReady 2.0 тутуму</translation>
-<translation id="4242034826641750751">Chrome'го бул сайтта камера менен микрофонду колдонууга уруксат бериңиз</translation>
-<translation id="424864128008805179">Chrome каттоо эсебинен чыгасызбы?</translation>
-<translation id="4251615635259297716">Chrome дайын-даректериңиз бул аккаунтка байлансынбы?</translation>
-=======
 <translation id="4191857738314598978">{0,plural, =1{Decentr 1 күндүн ичинде кайра иштетилет}other{Decentr # күндүн ичинде кайра иштетилет}}</translation>
 <translation id="4205939740494406371">Decentr сырсөздөрүңүздү текшере албай жатат. 24 сааттан кийин кайра аракет кылыңыз же <ph name="BEGIN_LINK" />Google аккаунтуңуздагы сырсөздөрдү текшериңиз<ph name="END_LINK" />.</translation>
 <translation id="4242034826641750751">Decentr'го бул сайтта камера менен микрофонду колдонууга уруксат бериңиз</translation>
 <translation id="424864128008805179">Decentr каттоо эсебинен чыгасызбы?</translation>
 <translation id="4251615635259297716">Decentr дайын-даректериңиз бул аккаунтка байлансынбы?</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4281844954008187215">Тейлөө шарттары</translation>
 <translation id="4293420128516039005">Decentr'ду бардык түзмөктөрүңүздө шайкештирип, жекелештирүү үчүн аккаунтуңузга кириңиз</translation>
 <translation id="4325083532956419387">Decentr OS версиясы</translation>
@@ -243,35 +144,21 @@
 <translation id="4343195214584226067"><ph name="EXTENSION_NAME" /> Decentr'го кошулду</translation>
 <translation id="4384570495110188418">Decentr сырсөздөрүңүздү текшере албайт, анткени аккаунтуңузга кирген жоксуз</translation>
 <translation id="4407807842708586359">Decentr Иш тутуму</translation>
-<<<<<<< HEAD
-<translation id="4427306783828095590">Өркүндөтүлгөн коргоо параметри фишинг жана кесепеттүү программалардан жакшыраак коргойт</translation>
-<translation id="4450664632294415862">Chrome – Тармакка кирүү – <ph name="PAGE_TITLE" /></translation>
-<translation id="4458462641685292929">Decentr'до башка операция жүрүп жатат. Кийинчерээк дагы аракет кылып көрүңүз.</translation>
-<translation id="4480040274068703980">Chrome OS кирүү катасынан улам дайын-даректериңизди шайкештештире албай койду.</translation>
-<translation id="4521185804071812304">Кошумча: Google'га мүчүлүштүктөрдү аныктоо жана колдонуу статистикасы жөнүндө автоматтык түрдө кабарлоо менен Chrome OS'тун функцияларын жана өндүрүмдүүлүгүн өркүндөтүүгө жардам бериңиз.</translation>
-<translation id="4539063627668028557">CloudReady 2.0 версиясы</translation>
-=======
 <translation id="4450664632294415862">Decentr – Тармакка кирүү – <ph name="PAGE_TITLE" /></translation>
 <translation id="4458462641685292929">Decentr'до башка операция жүрүп жатат. Кийинчерээк дагы аракет кылып көрүңүз.</translation>
 <translation id="4480040274068703980">Decentr OS кирүү катасынан улам дайын-даректериңизди шайкештештире албай койду.</translation>
 <translation id="4521185804071812304">Кошумча: Google'га мүчүлүштүктөрдү аныктоо жана колдонуу статистикасы жөнүндө автоматтык түрдө кабарлоо менен Decentr OS'тун функцияларын жана өндүрүмдүүлүгүн өркүндөтүүгө жардам бериңиз.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4561051373932531560">Decentr'дун жардамы менен, желеден телефон номерин чыкылдатып, ага Skype аркылуу чала аласыз!</translation>
-<translation id="4562712242781620537">CloudReady 2.0 тутуму</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> катары кирдиңиз. Эми кыстармаларды, таржымалды жана башка жөндөөлөрдү бардык катталган түзмөктөрүңүздөн колдоно аласыз.</translation>
 <translation id="4571503333518166079">Decentr'дун эскертмелеринин жөндөөлөрүнө өтүү</translation>
 <translation id="459622048091363950">Decentr'го уруксат берилгенден кийин вебсайттар уруксат сурай алышат.</translation>
 <translation id="4600710005438004015">Decentr акыркы версиясына жаңыртылбай койду, андыктан жаңы функциялар менен коопсуздук оңдоолорун пайдалана албай калдыңыз.</translation>
 <translation id="4633000520311261472">Жеке маалыматыңызды коргоо үчүн, айрым Decentr кеңейтүүлөрүн өчүрүп койдук, себеби <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ичинде аларга байланыштуу маалымат жок. Демек, бул курамдык бөлүктөр тымызын орнотулган.</translation>
-<<<<<<< HEAD
-=======
 <translation id="4666328473657283332">Decentr'догу файлдарды бардык түзмөктөрүңүздө колдонуу үчүн аккаунтуңузга кирип, шайкештирүүнү күйгүзүңүз.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4728575227883772061">Күтүлбөгөн катадан орнотулбай калды. Учурда Decentr иштеп жатса, аны жаап туруп кайталап көрүңүз.</translation>
 <translation id="4754614261631455953">Decentr Canary (mDNS-In)</translation>
 <translation id="4771048833395599659">Бул файл кооптуу болушу мүмкүн, ошондуктан Decentr аны бөгөттөп койду.</translation>
 <translation id="479167709087336770">Ал Google Издөөдө колдонулган орфографияны текшерүүчү программаны колдонот. Серепчиде терилген текстти Google кызматтарына жөнөтүп турат. Бул параметрди каалаган убакта жөндөөлөргө өтүп, өзгөртүп койсоңуз болот.</translation>
-<translation id="4873783916118289636">Decentr'догу негизги купуялык жана коопсуздукту көзөмөлдөө каражаттарын карап көрүңүз</translation>
 <translation id="4891791193823137474">Decentr'го фондо иштөө мүмкүнчүлүгүн берүү</translation>
 <translation id="4895437082222824641">Шилтемени жаңы Decentr &amp;өтмөгүндө ачуу</translation>
 <translation id="4953650215774548573">Decentr'ду демейки серепчи катары коюу</translation>
@@ -284,15 +171,6 @@
 <translation id="5163087008893166964">Decentr'го кош келиңиз; серепчиде жаңы терезе ачылды</translation>
 <translation id="5170938038195470297">Профилиңиз Decentr'дун акыркы версиясынан болгондуктан, колдонулбайт.
 
-<<<<<<< HEAD
-Айрым мүмкүнчүлүктөрдү колдоно албашыңыз мүмкүн. Башка профиль каталогун көрсөтүңүз же Chrome'дун жаңыраак версиясын колдонуңуз.</translation>
-<translation id="521447420733633466">Түзмөктү бөлүшсөңүз, жакындарыңыз өзүнчө серептеп, Chrome'ду өзүлөрүнө ылайыктап жөндөп алышат</translation>
-<translation id="5251420635869119124">Коноктор Chrome'ду артында эч нерсе калтырбай колдоно алышат.</translation>
-<translation id="5307623274346663914">Жаңыртууну колдонуу үчүн CloudReady 2.0 өчүрүлүп күйгүзүлүшү керек.</translation>
-<translation id="5334487786912937552">Файлдарды жүктөп алуу үчүн Chrome'го сактагычты колдонууга уруксат бериңиз</translation>
-<translation id="5386244825306882791">Chrome'ду иштетип баштаганда же Omnibox'тон издегенде көрсөтүлө турган баракты да көзөмөлдөйт.</translation>
-<translation id="5394833366792865639">Chrome өтмөгүн бөлүшүү</translation>
-=======
 Айрым мүмкүнчүлүктөрдү колдоно албашыңыз мүмкүн. Башка профиль каталогун көрсөтүңүз же Decentr'дун жаңыраак версиясын колдонуңуз.</translation>
 <translation id="5193136243808726294">Decentr OS бул баракты ача албайт.</translation>
 <translation id="521447420733633466">Түзмөктү бөлүшсөңүз, жакындарыңыз өзүнчө серептеп, Decentr'ду өзүлөрүнө ылайыктап жөндөп алышат</translation>
@@ -301,98 +179,44 @@
 <translation id="5334487786912937552">Файлдарды жүктөп алуу үчүн Decentr'го сактагычты колдонууга уруксат бериңиз</translation>
 <translation id="5386244825306882791">Decentr'ду иштетип баштаганда же Omnibox'тон издегенде көрсөтүлө турган баракты да көзөмөлдөйт.</translation>
 <translation id="5394833366792865639">Decentr өтмөгүн бөлүшүү</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5430073640787465221">Жеке жөндөөлөр файлыңыз бузулган же жараксыз.
 
 Decentr жөндөөлөрүңүздү калыбына келтире албайт.</translation>
 <translation id="556024056938947818">Decentr сырсөздөрдү көрсөткөнгө аракет кылып жатат.</translation>
 <translation id="5566025111015594046">Decentr (mDNS-In)</translation>
-<<<<<<< HEAD
-<translation id="565744775970812598"><ph name="FILE_NAME" /> файлы кооптуу болушу мүмкүн, ошондуктан Decentr аны бөгөттөп койду.</translation>
-<translation id="5678190148303298925">{COUNT,plural, =0{Администраторуңуз бул жаңыртууну колдонуу үчүн Decentr'ду кайра иштетүүнү суранууда}=1{Администраторуңуз бул жаңыртууну колдонуу үчүн Decentr'ду кайра иштетүүнү суранууда. Жашыруун терезеңиз кайра ачылбайт.}other{Администраторуңуз бул жаңыртууну колдонуу үчүн Decentr'ду кайра иштетүүнү суранууда. # жашыруун терезеңиз кайра ачылбайт.}}</translation>
-<translation id="5685161537284117504">CloudReady 2.0 тутуму кошумча <ph name="BEGIN_LINK_CROS_OSS" />баштапкы коду ачык программалык камсыздоонун<ph name="END_LINK_CROS_OSS" /> жардамы менен, иштейт.</translation>
-=======
 <translation id="5657226924540934362">Эгер жөндөө бул баракта көрүнбөсө, <ph name="LINK_BEGIN" />
       Decentr OS жөндөөлөрүнөн<ph name="LINK_END" /> карап көрүңүз</translation>
 <translation id="565744775970812598"><ph name="FILE_NAME" /> файлы кооптуу болушу мүмкүн, ошондуктан Decentr аны бөгөттөп койду.</translation>
 <translation id="5678190148303298925">{COUNT,plural, =0{Администраторуңуз бул жаңыртууну колдонуу үчүн Decentr'ду кайра иштетүүнү суранууда}=1{Администраторуңуз бул жаңыртууну колдонуу үчүн Decentr'ду кайра иштетүүнү суранууда. Жашыруун терезеңиз кайра ачылбайт.}other{Администраторуңуз бул жаңыртууну колдонуу үчүн Decentr'ду кайра иштетүүнү суранууда. # жашыруун терезеңиз кайра ачылбайт.}}</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5686916850681061684">Decentr'ду ыңгайлаштыруу жана көзөмөлдөө. Сиздин аракетиңиз талап кылынат – чоо-жайын көрүү үчүн чыкылдатыңыз.</translation>
 <translation id="5690427481109656848">Google LLC</translation>
-<translation id="5706272942857408234">Кирүү катасынан улам, CloudReady 2.0 дайын-даректериңизди шайкештештире алган жок.</translation>
 <translation id="5715063361988620182">{SECONDS,plural, =1{Decentr 1 секунддан кийин өчүрүлүп-күйгүзүлөт}other{Decentr # секунддан кийин өчүрүлүп-күйгүзүлөт}}</translation>
-<<<<<<< HEAD
-<translation id="5736850870166430177">Эгер сайт сырсөзүңүздү уурдоого аракет кылса же кооптуу файлды жүктөп алсаңыз, Decentr URL даректерди, анын ичинде барактардагы мазмундун үлгүлөрүн Коопсуз серептөөгө жөнөтүшү мүмкүн</translation>
-<translation id="573759479754913123">Chrome OS жөнүндө</translation>
-<translation id="5756509061973259733">Бул түзмөктөгү аккаунт менен Chrome профили мурунтан эле түзүлгөн</translation>
-=======
 <translation id="573759479754913123">Decentr OS жөнүндө</translation>
 <translation id="5756509061973259733">Бул түзмөктөгү аккаунт менен Decentr профили мурунтан эле түзүлгөн</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5795887333006832406"><ph name="PAGE_TITLE" /> – Decentr Canary</translation>
 <translation id="5804318322022881572">Decentr иштетилбей койду. Кайталап көрүңүз.</translation>
 <translation id="5867197326698922595">Decentr сырсөздөрдү өзгөртүүгө аракет кылып жатат.</translation>
 <translation id="5895138241574237353">Өчүрүп күйгүзүү</translation>
-<translation id="5901850848447342934">Chrome жабылганда <ph name="BEGIN_BOLD" />көбүнчө сайттардан чыгып каласыз<ph name="END_BOLD" />. Эгер шайкештирүү өчүрүлсө, <ph name="BEGIN_BOLD" />Google кызматтары менен Chrome'дон чыгып каласыз<ph name="END_BOLD" />.</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> – Тармакка кирүү</translation>
 <translation id="5940385492829620908">Веб, кыстармалар жана башка Decentr жеке дайын-даректериңиз ушул жерде жайгашкан.</translation>
 <translation id="5941830788786076944">Decentr'ду демейки серепчи кылуу</translation>
 <translation id="6070348360322141662">Кошумча коопсуздук максатында, Decentr дайын-даректериңизди шифрлеп коёт</translation>
 <translation id="608006075545470555">Ушул серепчиге жумуш профилин кошуу</translation>
-<<<<<<< HEAD
-<translation id="608496399798299674">CloudReady 2.0</translation>
-<translation id="6113794647360055231">Chrome жаңы эле жакшыртылды</translation>
-<translation id="6145313976051292476">PDF файлдарын Chrome'до ачуу</translation>
-<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> – Decentr</translation>
-<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> – Decentr бета сынамык версиясы</translation>
-=======
 <translation id="6113794647360055231">Decentr жаңы эле жакшыртылды</translation>
 <translation id="6145313976051292476">PDF файлдарын Decentr'до ачуу</translation>
 <translation id="6169866489629082767"><ph name="PAGE_TITLE" /> – Decentr</translation>
 <translation id="6173637689840186878"><ph name="PAGE_TITLE" /> – Decentr бета сынамык версиясы</translation>
 <translation id="61852838583753520">&amp;Decentr иш тутумун жаңыртуу</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6235018212288296708">mDNS трафигине уруксат берүү үчүн, Decentr'дун кирүүчү туташуу эрежеси</translation>
 <translation id="6291089322031436445">Decentr Dev Колдонмолору</translation>
 <translation id="6291549208091401781">Decentr компьютериңиздеги бардык колдонуучулар үчүн орнотулуп коюлган.</translation>
-<<<<<<< HEAD
-<translation id="6368958679917195344">Chrome OS кошумча <ph name="BEGIN_LINK_CROS_OSS" />ачык программасы<ph name="END_LINK_CROS_OSS" /> менен иштетилди.</translation>
-<translation id="6412673304250309937">Chrome'догу кооптуу сайттардын тизмесиндеги URL даректерин текшерет. Эгер сайт сырсөзүңүздү уурдоого аракет кылса же кооптуу файлды жүктөп алсаңыз, Chrome URL даректерди, анын ичинде барактардагы мазмунду Коопсуз серептөөгө жөнөтүшү мүмкүн.</translation>
-<translation id="6418662306461808273">Учурдагы Chrome профилине которуласызбы?</translation>
-<translation id="6506909944137591434">Chrome'го айланаңыздын 3D картасын түзүү үчүн камераны колдонууга уруксат бериңиз</translation>
-=======
 <translation id="6368958679917195344">Decentr OS кошумча <ph name="BEGIN_LINK_CROS_OSS" />ачык программасы<ph name="END_LINK_CROS_OSS" /> менен иштетилди.</translation>
 <translation id="6418662306461808273">Учурдагы Decentr профилине которуласызбы?</translation>
 <translation id="6506909944137591434">Decentr'го айланаңыздын 3D картасын түзүү үчүн камераны колдонууга уруксат бериңиз</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6515495397637126556"><ph name="PAGE_TITLE" /> – Decentr Dev</translation>
 <translation id="6568793831116033768">Decentr OS тутуму</translation>
 <translation id="6676384891291319759">Интернетке кирүү</translation>
 <translation id="6679975945624592337">Decentr'го фондук режимде иштөөгө уруксат берүү</translation>
-<<<<<<< HEAD
-<translation id="6696915334902295848">Chrome'го бул сайтта микрофонду колдонууга уруксат бериңиз</translation>
-<translation id="6739177684496155661">Жаңы Chrome профилинде улантасызбы?</translation>
-<translation id="6749459139769042303">CloudReady 2.0 боюнча жардам алуу</translation>
-<translation id="6750954913813541382">Орфографиялык каталарды оңдоо үчүн Chrome серепчиде терилген текстти Google кызматтарына жөнөтүп турат</translation>
-<translation id="677276454032249905">Баары бир Chrome'дон чыгасызбы?</translation>
-<translation id="6814748008107187409">Эгер жөндөө бул баракта көрүнбөсө, <ph name="LINK_BEGIN" />
-      Chrome OS жөндөөлөрүнөн<ph name="LINK_END" /> карап көрүңүз</translation>
-<translation id="683440813066116847">mDNS трафигине мүмкүндүк берүү үчүн Decentr Canary'нин кайрылуу эрежеси.</translation>
-<translation id="6881299373831449287">Chrome жаңыртылууда</translation>
-<translation id="6885412569789873916">Chrome Бета Колдонмолору</translation>
-<translation id="6919064686744569862">Бул түзмөктү колдонуудан мурун, <ph name="MANAGER" /> төмөнкү Тейлөө шарттарын окуп, кабыл алууңузду талап кылат. Бул шарттар CloudReady 2.0 шарттарын кеңейтип, өзгөртүп же чектебейт.</translation>
-<translation id="6943584222992551122">Бул адамдын серептөө дайындары бул түзмөктөн биротоло өчүрүлөт. Дайындарды калыбына келтирүү үчүн Chrome'го <ph name="USER_EMAIL" /> аккаунту менен кириңиз.</translation>
-<translation id="6967962315388095737">mDNS трафигине уруксат берүү үчүн Decentr Beta'нын кирүүчү туташуу эрежеси.</translation>
-<translation id="6989339256997917931">Decentr жаңырды, бирок аны 30 күндөн бери колдоно элексиз</translation>
-<translation id="700644001690392105">CloudReady 2.0 жөнүндө маалымат</translation>
-<translation id="7025800014283535195">Chrome профилдерин бул жерден которо аласыз</translation>
-<translation id="7036251913954633326">Бул аккаунтту бир жолу гана колдонгону жатсаңыз, Chrome серепчисинен <ph name="GUEST_LINK_BEGIN" />Конок режимине<ph name="GUEST_LINK_END" /> өтүңүз. Эгер кимдир бирөөнүн аккаунтун кошкуңуз келсе, <ph name="DEVICE_TYPE" /> түзмөгүңүзгө <ph name="LINK_BEGIN" />жаңы кишини кошуңуз<ph name="LINK_END" />.
-
-Вебсайттарга жана колдонмолорго берилген уруксаттар ушул аккаунтка карата колдонулушу мүмкүн. Google аккаунттарыңызды <ph name="SETTINGS_LINK_BEGIN" />Жөндөөлөрдөн<ph name="SETTINGS_LINK_END" /> башкара аласыз.</translation>
-<translation id="7062128746136194023">Ата-энеңиз Chrome үчүн "Сайттарга, колдонмолорго жана кеңейтүүлөргө уруксаттарды" өчүрүп койгон. Бул <ph name="EXTENSION_TYPE_PARAMETER" /> кеңейтүүсүн кошууга болбойт.</translation>
-<translation id="7085332316435785646">Chrome таржымалын Google кызматтарын жекелештирүү үчүн колдонуп же колдонбоону тандаңыз</translation>
-<translation id="7088681679121566888">Chrome жаңыртылды</translation>
-=======
 <translation id="6696915334902295848">Decentr'го бул сайтта микрофонду колдонууга уруксат бериңиз</translation>
 <translation id="6739177684496155661">Жаңы Decentr профилинде улантасызбы?</translation>
 <translation id="6750954913813541382">Орфографиялык каталарды оңдоо үчүн Decentr серепчиде терилген текстти Google кызматтарына жөнөтүп турат</translation>
@@ -406,7 +230,6 @@ Decentr жөндөөлөрүңүздү калыбына келтире алба�
 <translation id="7025800014283535195">Decentr профилдерин бул жерден которо аласыз</translation>
 <translation id="7062128746136194023">Ата-энеңиз Decentr үчүн "Сайттарга, колдонмолорго жана кеңейтүүлөргө уруксаттарды" өчүрүп койгон. Бул <ph name="EXTENSION_TYPE_PARAMETER" /> кеңейтүүсүн кошууга болбойт.</translation>
 <translation id="7088681679121566888">Decentr жаңыртылды</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="7098166902387133879">Decentr микрофонуңузду колдонууда.</translation>
 <translation id="7106741999175697885">Тапшырмаларды башкаргыч – Decentr</translation>
 <translation id="7140653346177713799">{COUNT,plural, =0{Decentr үчүн жаңыртуу бар. Түзмөгүңүз өчүрүлүп-күйгүзүлгөндөн кийин ал колдонулуп баштайт.}=1{Decentr үчүн жаңыртуу бар. Түзмөгүңүз өчүрүлүп-күйгүзүлгөндөн кийин ал колдонулуп баштайт. Жашыруун терезеңиз кайра ачылбайт.}other{Decentr үчүн жаңыртуу бар. Түзмөгүңүз өчүрүлүп-күйгүзүлгөндөн кийин ал колдонулуп баштайт. # жашыруун терезеңиз кайра ачылбайт.}}</translation>
@@ -417,26 +240,12 @@ Decentr жөндөөлөрүңүздү калыбына келтире алба�
 <translation id="7296210096911315575">Колдонуу жана коопсуздук тууралуу маанилүү маалымат</translation>
 <translation id="7308322188646931570">Файлдарды жүктөп алуу үчүн Decentr сактагычка мүмкүнчүлүк алышы керек</translation>
 <translation id="7339898014177206373">Жаңы терезе</translation>
-<<<<<<< HEAD
-<translation id="7388770099345495132">Бул аккаунтту бир жолу гана колдонгону жатсаңыз, Chrome серепчисинен Конок режимине өтүңүз. Эгер кимдир бирөөнүн аккаунтун кошкуңуз келсе, <ph name="DEVICE_TYPE" /> түзмөгүңүзгө <ph name="LINK_BEGIN" />жаңы кишини кошуңуз<ph name="LINK_END" />.
-
-Вебсайттарга жана колдонмолорго берилген уруксаттар ушул аккаунтка карата колдонулушу мүмкүн. Google аккаунттарыңызды <ph name="SETTINGS_LINK_BEGIN" />Жөндөөлөрдөн<ph name="SETTINGS_LINK_END" /> башкара аласыз.</translation>
-<translation id="7398801000654795464">Chrome'го <ph name="USER_EMAIL_ADDRESS" /> катары кирдиңиз. Кайра кирүү үчүн ушул каттоо эсебин колдонуңуз.</translation>
-<translation id="7408085963519505752">Chrome OS шарттары</translation>
-<translation id="7419046106786626209">Chrome OS дайын-даректериңизди шайкештештире алган жок, себеби домениңизде Шайкештештирүү аракети жеткиликтүү эмес.</translation>
-<translation id="7481213027396403996">Chrome'дун эң күчтүү коопсуздук тутумун колдонуңуз</translation>
-<translation id="7486227612705979895">Дарек тилкесинде сунуштарды көрсөтүү үчүн Chrome кызматы Drive сактагычыңызды колдонот</translation>
-<translation id="7535429826459677826">Decentr Dev</translation>
-<translation id="7573289029918943991">Түзмөгүңүздүн жаңыртылганын текшерүү үчүн <ph name="LINK_BEGIN" />Chrome OS Жөндөөлөрүнө<ph name="LINK_END" /> өтүңүз</translation>
-<translation id="7580049017368059129">Түзмөгүңүздүн жаңыртылганын текшерүү үчүн <ph name="LINK_BEGIN" />CloudReady 2.0 Жөндөөлөрүнө<ph name="LINK_END" /> өтүңүз</translation>
-=======
 <translation id="7398801000654795464">Decentr'го <ph name="USER_EMAIL_ADDRESS" /> катары кирдиңиз. Кайра кирүү үчүн ушул каттоо эсебин колдонуңуз.</translation>
 <translation id="7408085963519505752">Decentr OS шарттары</translation>
 <translation id="7419046106786626209">Decentr OS дайын-даректериңизди шайкештештире алган жок, себеби домениңизде Шайкештештирүү аракети жеткиликтүү эмес.</translation>
 <translation id="7486227612705979895">Дарек тилкесинде сунуштарды көрсөтүү үчүн Decentr кызматы Drive сактагычыңызды колдонот</translation>
 <translation id="7535429826459677826">Decentr Dev</translation>
 <translation id="7573289029918943991">Түзмөгүңүздүн жаңыртылганын текшерүү үчүн <ph name="LINK_BEGIN" />Decentr OS Жөндөөлөрүнө<ph name="LINK_END" /> өтүңүз</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="7592736734348559088">Аккаунтуңуздун кирүү чоо-жайы эскирип калгандыктан, Decentr дайын-даректериңизди шайкештештире алган жок.</translation>
 <translation id="7626032353295482388">Decentr'го кош келиңиз</translation>
 <translation id="7629695634924605473">Decentr сырсөздөрүңүздү башка бирөөлөр билип алса сизге кабарлайт</translation>
@@ -444,14 +253,8 @@ Decentr жөндөөлөрүңүздү калыбына келтире алба�
 <translation id="7651907282515937834">Decentr ишкана логотиби</translation>
 <translation id="7665553140559834626">&amp;Decentr OS тутумун жаңыртуу үчүн кайра иштетиңиз</translation>
 <translation id="7747138024166251722">Орнотуучу убактылуу каталогду түзө алган жок. Дискте бош орун бар экендигин жана программаны орнотууга боло тургандыгын текшериңиз.</translation>
-<<<<<<< HEAD
-<translation id="7748512868279796735">Бул Chrome профили үчүн төмөнкү аккаунттар жеткиликтүү</translation>
-<translation id="7761834446675418963">Chrome'ду ачып, серептеп баштоо үчүн ысымыңызды киргизиңиз.</translation>
-<translation id="7777080907402804672">Эгер сүрөттөрдүн түшүндүрмөсү жок болсо, Chrome аны түшүндүрүп берүүгө аракет кылат. Түшүндүрмөлөрдү даярдоо үчүн, сүрөттөр Google'га жөнөтүлөт. Аны жөндөөлөрдөн каалаган убакта өчүрүп койсоңуз болот.</translation>
-=======
 <translation id="7761834446675418963">Decentr'ду ачып, серептеп баштоо үчүн ысымыңызды киргизиңиз.</translation>
 <translation id="7777080907402804672">Эгер сүрөттөрдүн түшүндүрмөсү жок болсо, Decentr аны түшүндүрүп берүүгө аракет кылат. Түшүндүрмөлөрдү даярдоо үчүн, сүрөттөр Google'га жөнөтүлөт. Аны жөндөөлөрдөн каалаган убакта өчүрүп койсоңуз болот.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="7781002470561365167">Decentr'дун жаңы версиясы бар.</translation>
 <translation id="778331955594035129">Decentr'го бул сайтта жайгашкан жерди колдонууга уруксат бериңиз</translation>
 <translation id="7787950393032327779">Бул профилди Decentr'догу башка процесс (<ph name="PROCESS_ID" />) (<ph name="HOST_NAME" />) компьютери аркылуу колдонуп жатат окшойт. Профиль бурмаланып кетпеши үчүн, Decentr аны кулпулап койду. Эгер бул профилди башка процесстер колдонгон жок деп ишенсеңиз, профилдин кулпусун ачып туруп Decentr'ду кайра ишке киргизсеңиз болот.</translation>
@@ -467,17 +270,13 @@ Decentr жөндөөлөрүңүздү калыбына келтире алба�
 <translation id="8008534537613507642">Decentr'ду кайра орнотуу</translation>
 <translation id="8013993649590906847">Эгер сүрөттөрдүн түшүндүрмөсү жок болсо, Decentr аны түшүндүрүп берүүгө аракет кылат. Түшүндүрмөлөрдү даярдоо үчүн, сүрөттөр Google'га жөнөтүлөт.</translation>
 <translation id="8129812357326543296">&amp;Decentr жөнүндө</translation>
-<<<<<<< HEAD
-=======
 <translation id="822971176939352383">Төмөнкү аккаунттар Decentr профилдерине кирген жок. Эгер аккаунтту башка профилде колдонгуңуз келсе, адегенде ал профилди өчүрүңүз.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8255190535488645436">Decentr камераңыз менен микрофонуңузду колдонуп жатат.</translation>
 <translation id="8286862437124483331">Decentr сырсөздөрдү көрсөткөнгө аракет кылып жатат. Ага уруксат берүү үчүн Windows сырсөзүңүздү териңиз.</translation>
 <translation id="828798499196665338">Ата-энеңиз Decentr үчүн "Сайттарга, колдонмолорго жана кеңейтүүлөргө уруксаттарды" өчүрүп койгон. Бул <ph name="EXTENSION_TYPE_PARAMETER" /> кеңейтүүсүн иштетүүгө болбойт.</translation>
 <translation id="8290100596633877290">Мына с-с-сага! Decentr кыйрады. Кайра жүктөйлүбү эми?</translation>
 <translation id="8342675569599923794">Бул файл кооптуу, ошондуктан Decentr аны бөгөттөп койду.</translation>
 <translation id="8370517070665726704">© Google LLC, <ph name="YEAR" /> Баардык укуктар корголгон.</translation>
-<translation id="8394720698884623075">Decentr'догу кооптуу сайттардын тизмесиндеги URL даректерин текшерет</translation>
 <translation id="840084489713044809">Decentr сырсөздөрүңүздү экспорттогону жатат.</translation>
 <translation id="8433638294851456451">Номерди бул жерден Android телефонуңузга жөнөтүү үчүн эки түзмөгүңүздөн тең Decentr'го кириңиз.</translation>
 <translation id="8498858610309223613">Жаңы эле Decentr үчүн өзгөчө коопсуздук жаңыртуулары орнотулду. Өтмөктөрдү калыбына келтирүү үчүн аны өчүрүп күйгүзүңүз.</translation>
@@ -485,18 +284,7 @@ Decentr жөндөөлөрүңүздү калыбына келтире алба�
 <translation id="8540666473246803645">Decentr</translation>
 <translation id="8550334526674375523">Бул жумуш профили жеке профилиңизден толугу менен ажыратылган.</translation>
 <translation id="8556340503434111824">Decentr'дун чагылгандай тездик менен иштеген жаңы версиясы бар.</translation>
-<translation id="8571790202382503603">Decentr профилдери менен Decentr'догу маалыматты өзүнчө сактай аласыз. Бул жумуш менен эс алууну бири-бири менен аралаштырбоого жардам берет.</translation>
 <translation id="8614913330719544658">Decentr жооп бербей жатат. Азыр өчүрүп кайра ишке киргизесизби?</translation>
-<<<<<<< HEAD
-<translation id="861702415419836452">Chrome айланаңыздын 3D картасын түзүү үчүн камераңызды колдонушу керек</translation>
-<translation id="8625237574518804553">{0,plural, =1{Chrome 1 мүнөттөн кийин кайра иштетилет}other{Chrome # мүнөттөн кийин кайра иштетилет}}</translation>
-<translation id="8629311577791198377">Chrome'догу бардык терезелер жабылса, cookie файлдары менен сайттагы маалымат автоматтык түрдө тазаланат</translation>
-<translation id="8641606876632989680">Chrome уурдалган сырсөз менен киргениңизде эскертет</translation>
-<translation id="8669527147644353129">Decentr Жардамчы</translation>
-<translation id="8679801911857917785">Ал ошондой эле Chrome иштеп баштаганда көрүнө турган бетти көзөмөлдөйт.</translation>
-<translation id="8686817260976772516">Chrome профилдери менен Chrome'догу маалыматты өзүнчө сактай аласыз. Досторуңуз менен үй-бүлөңүз үчүн профилдерди түзүңүз же жумуш менен эс алууну бири-бири менен аралаштырбаңыз.</translation>
-<translation id="8712767363896337380">Жаңыртылганы аз калды! Жаңыртууну аягына чыгаруу үчүн Decentr'ду кайра иштетиңиз.</translation>
-=======
 <translation id="861702415419836452">Decentr айланаңыздын 3D картасын түзүү үчүн камераңызды колдонушу керек</translation>
 <translation id="8625237574518804553">{0,plural, =1{Decentr 1 мүнөттөн кийин кайра иштетилет}other{Decentr # мүнөттөн кийин кайра иштетилет}}</translation>
 <translation id="8641606876632989680">Decentr уурдалган сырсөз менен киргениңизде эскертет</translation>
@@ -504,20 +292,13 @@ Decentr жөндөөлөрүңүздү калыбына келтире алба�
 <translation id="8679801911857917785">Ал ошондой эле Decentr иштеп баштаганда көрүнө турган бетти көзөмөлдөйт.</translation>
 <translation id="8686817260976772516">Decentr профилдери менен Decentr'догу маалыматты өзүнчө сактай аласыз. Досторуңуз менен үй-бүлөңүз үчүн профилдерди түзүңүз же жумуш менен эс алууну бири-бири менен аралаштырбаңыз.</translation>
 <translation id="870251953148363156">&amp;Decentr'ду жаңыртуу</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="873133009373065397">Decentr демейки серепчини аныктап же коё албай жатат</translation>
 <translation id="8823341990149967727">Decentr эскирип калган.</translation>
 <translation id="8834965163890861871">Decentr сырсөздөрдү өзгөртүүгө аракет кылып жатат. Ага уруксат берүү үчүн Windows сырсөзүңүздү териңиз.</translation>
 <translation id="884296878221830158">Decentr'ду иштетип баштаганда же Башкы бет баскычы чыкылдатылганда, кайсы бет көрсөтүлө тургандыгын көзөмөлдөйт.</translation>
 <translation id="8862326446509486874">Тутум деңгээлинде орнотууга тийиштүү укугуңуз жок. Орноткучту Администратор катары кайра иштетип көрүңүз.</translation>
-<<<<<<< HEAD
-<translation id="8914504000324227558">Chrome'ду кайрадан ишке киргизүү</translation>
-<translation id="8922193594870374009">Номерди <ph name="ORIGIN" /> сайтынан Android телефонуңузга жөнөтүү үчүн эки түзмөгүңүздөн тең Chrome'го кириңиз.</translation>
-<translation id="8983720963221508955">Аккаунтуңузда Өркүндөтүлгөн коопсуз серептөөнү күйгүздүңүз. Эми аны Chrome'до да иштетиңиз.</translation>
-=======
 <translation id="8914504000324227558">Decentr'ду кайрадан ишке киргизүү</translation>
 <translation id="8922193594870374009">Номерди <ph name="ORIGIN" /> сайтынан Android телефонуңузга жөнөтүү үчүн эки түзмөгүңүздөн тең Decentr'го кириңиз.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8986207147630327271">Жумуш профилин ушул серепчиге кошуп, администраторго жумуш профилин гана көзөмөлдөөгө уруксат берип жатасыз.</translation>
 <translation id="8999208279178790196">{0,plural, =0{Decentr'дун жаңы версиясы жеткиликтүү}=1{Decentr'дун жаңы версиясы жеткиликтүү}other{Decentr'дун жаңы версиясы # күндөн бери жеткиликтүү}}</translation>
 <translation id="9026991721384951619">Аккаунтуңуздун кирүү чоо-жайы эскирип калгандыктан, Decentr OS дайын-даректериңизди шайкештештире алган жок.</translation>

@@ -14,10 +14,7 @@
 <translation id="1524282610922162960">Decentr タブの共有</translation>
 <translation id="1553461853655228091">周囲の 3D マップを作成するには、Decentr にカメラの使用を許可する必要があります</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{管理者が、アップデートを適用するために Decentr を再起動するよう求めています}=1{管理者が、アップデートを適用するために Decentr を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、アップデートを適用するために Decentr を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="1625909126243026060">Decentr のプライバシーとセキュリティに関する重要な設定を確認します</translation>
-<translation id="1632539827495546968">このアカウントを 1 回だけ使用する場合は、Decentr ブラウザの<ph name="GUEST_LINK_BEGIN" />ゲストモード<ph name="GUEST_LINK_END" />を使用できます。他のユーザーのアカウントを追加する場合は、<ph name="DEVICE_TYPE" /> に<ph name="LINK_BEGIN" />新しいユーザーを追加<ph name="LINK_END" />します。
-
-これまでにウェブサイトやアプリに許可した権限がこのアカウントに適用される可能性があります。Google アカウントは [<ph name="SETTINGS_LINK_BEGIN" />設定<ph name="SETTINGS_LINK_END" />] で管理できます。</translation>
+<translation id="1667812772085710766">Decentr を終了するときに、アクセスしたページの Cookie とサイトデータが自動的に削除されます</translation>
 <translation id="1708666629004767631">Decentr がさらに安全になりました。最新バージョンをぜひお試しください。</translation>
 <translation id="1774152462503052664">Decentr をバックグラウンドで実行する</translation>
 <translation id="1779356040007214683">Decentr をより安全にご利用いただくため、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない一部の拡張機能を無効にしました。これらは知らないうちに追加された可能性があります。</translation>
@@ -26,22 +23,16 @@
 <translation id="1881322772814446296">現在、管理対象アカウントでログインしており、あなたの Decentr プロフィールを管理者が制御できる状態になっています。あなたの Decentr データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは Google アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。新しいプロフィールを作成して、既存の Decentr データを別に保管することができます。<ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">この設定を無効にすると、Decentr にログインすることなく Gmail などの Google サイトにログインできます</translation>
 <translation id="1929939181775079593">Decentr が応答しません。今すぐ再起動しますか？</translation>
-<translation id="1940680973325097484">このアカウントを 1 回だけ使用する場合は、Decentr ブラウザのゲストモードを使用できます。他のユーザーのアカウントを追加する場合は、<ph name="DEVICE_TYPE" /> に<ph name="LINK_BEGIN" />新しいユーザーを追加<ph name="LINK_END" />します。
-
-これまでにウェブサイトやアプリに許可した権限がこのアカウントに適用される可能性があります。Google アカウントは [<ph name="SETTINGS_LINK_BEGIN" />設定<ph name="SETTINGS_LINK_END" />] で管理できます。</translation>
 <translation id="1966382378801805537">Decentr では既定のブラウザを判定または設定できません</translation>
 <translation id="1981611865800294956">再起動して Decentr OS を更新(&amp;C)</translation>
 <translation id="2008474315282236005">このデバイスから 1 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Decentr にログインしてください。</translation>
 <translation id="2020032459870799438">他のパスワードにデータ侵害などセキュリティに関する問題がないかどうかを確認するには、<ph name="BEGIN_LINK" />Decentr にログイン<ph name="END_LINK" />してください。</translation>
-<translation id="2049376729098081731">Decentr の履歴を含めて、Google サービスのパーソナライズに使用するかどうかを選択してください</translation>
 <translation id="2174178932569897599">Decentr をカスタマイズ</translation>
 <translation id="2185166961232948079">Decentr - ネットワークにログイン - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">パソコンを共有している場合、友だちや家族はそれぞれ Decentr を自分専用のブラウザとして自分用の設定をして使うことができます。</translation>
 <translation id="2294245788148774212">オプション: 診断と使用状況のデータを Google に自動送信して Decentr OS の機能と動作の改善に役立てる。</translation>
-<translation id="2313870531055795960">Decentr に保存されている安全でないサイトのリストと URL を照合します。サイトがパスワードを不正に取得しようとしている場合や、ユーザーが安全でないファイルをダウンロードしようとした場合は、URL とページ コンテンツの一部をセーフ ブラウジングに送信することがあります。</translation>
 <translation id="2343156876103232566">Android スマートフォンに番号を送信するには、両方のデバイスで Decentr にログインしてください。</translation>
 <translation id="2347108572062610441">この拡張機能により、Decentr の起動時に表示されるページが変更されました。</translation>
-<translation id="2359808026110333948">続行</translation>
 <translation id="2396765026452590966">拡張機能「<ph name="EXTENSION_NAME" />」により、Decentr の起動時に表示されるページが変更されました。</translation>
 <translation id="2401032172288869980">このサイトを利用するには、Decentr でカメラとマイクの使用を許可する必要があります</translation>
 <translation id="2483889755041906834">Decentr 内</translation>
@@ -49,8 +40,10 @@
 <translation id="2535480412977113886">アカウントのログイン情報が最新ではないため、Decentr OS はデータを同期できませんでした。</translation>
 <translation id="2560420686485554789">ファイルをダウンロードするには、Decentr でストレージへのアクセスを許可する必要があります</translation>
 <translation id="2572494885440352020">Decentr Helper</translation>
+<translation id="2577788541081224677">お使いのすべてのデバイスで Decentr の設定やデータを使用するには、ログインしてください。ログインすると同期を有効にできます。</translation>
 <translation id="2583187216237139145">このプロファイルの使用中に生成された Decentr データ（ブックマーク、履歴、パスワード、他の設定など）は、仕事用プロファイルの管理者によって削除される場合があります。<ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">アップデートを適用するには Decentr OS を再起動する必要があります。</translation>
+<translation id="2614883797045469742">ほとんどの場合はデフォルトの設定を使用できますが、Decentr の用途に合わせてカスタマイズすることも可能です</translation>
 <translation id="2648074677641340862">インストール中にオペレーティング システム エラーが発生しました。Decentr をダウンロードし直してください。</translation>
 <translation id="2661879430930417727">デバイスを共有している場合でも、友だちや家族はそれぞれ Decentr を自分専用のブラウザとして自分用の設定をして使うことができます</translation>
 <translation id="2711502716910134313">Decentr タブ</translation>
@@ -59,11 +52,9 @@
 <translation id="2799223571221894425">再起動</translation>
 <translation id="2837693172913560447"><ph name="USER_EMAIL_ADDRESS" /> 用の新しい Decentr プロファイルが作成されます。</translation>
 <translation id="2847479871509788944">Decentr から削除...</translation>
-<translation id="2850691299438350830">ログイン時に、Decentr を安全に利用できるようにするほか、他の Google アプリのセキュリティ強化に使用されることがあります。</translation>
 <translation id="2885378588091291677">タスク マネージャ</translation>
 <translation id="2910007522516064972">Decentr について(&amp;C)</translation>
 <translation id="2977470724722393594">Decentr は最新版です</translation>
-<translation id="2977506796191543575">サイトがパスワードを不正に取得しようとしている場合や、ユーザーが安全でないファイルをダウンロードしようとした場合は、URL とページ コンテンツの一部をセーフ ブラウジングに送信することがあります</translation>
 <translation id="2983934633046890458">Decentr でパスワードを編集しようとしています。</translation>
 <translation id="3032706164202344641">Decentr でパスワードを確認できません。しばらくしてからもう一度お試しください。</translation>
 <translation id="3032787606318309379">Decentr に追加...</translation>
@@ -116,20 +107,18 @@
 <translation id="4407044323746248786">今すぐ Decentr を終了しますか？</translation>
 <translation id="4415566066719264597">Decentr をバックグラウンドで実行する</translation>
 <translation id="4423735387467980091">Decentr の設定</translation>
-<translation id="4427306783828095590">保護強化機能により、フィッシングを防ぎ、不正なソフトウェアをより強力にブロックします</translation>
 <translation id="452711251841752011">Decentr へようこそ。新しいブラウザ ウィンドウが開いています</translation>
 <translation id="4544142686420020088">エラーが発生したため、Decentr が更新されませんでした。<ph name="BEGIN_LINK" />Decentr の更新に関する問題を解決してください。<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">新しい Decentr プロフィールで続行しますか？</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> としてログインしています。ログインしているすべてのデバイスで、ブックマーク、履歴、その他の設定にアクセスできます。</translation>
 <translation id="459535195905078186">Decentr アプリ</translation>
-<translation id="4621240073146040695">Decentr を再起動して更新を完了してください。</translation>
 <translation id="4665829708273112819">警告: 拡張機能による閲覧履歴の記録を Decentr で停止することはできません。シークレット モードでこの拡張機能を無効にするには、このオプションの選択を解除してください。</translation>
-<translation id="4673151026126227699">Decentr の使用状況レポートを送信する場合は、アクセスした URL がこのレポートに含められます</translation>
 <translation id="4677944499843243528">プロフィールは、別のコンピュータ（<ph name="HOST_NAME" />）の別の Decentr プロセス（<ph name="PROCESS_ID" />）で使用されているようです。Decentr はプロフィールが破損しないようにプロフィールをロックしています。他のプロセスがこのプロフィールを使用していないことが確実であれば、プロフィールのロックを解除して Decentr を再起動できます。</translation>
 <translation id="469338717132742108">Decentr OS のヘルプを見る</translation>
 <translation id="4708774505295300557">前回このパソコンで別のユーザー（<ph name="ACCOUNT_EMAIL_LAST" />）が Decentr にログインしました。情報を個別に保持するには、新しい Decentr ユーザーを作成してください。</translation>
 <translation id="4746050847053251315">今すぐ Decentr を終了しますか？</translation>
 <translation id="4748217263233248895">Decentr の特別なセキュリティ アップデートが適用されました。今すぐ再起動してください。タブは復元されます。</translation>
+<translation id="4750035648288509542">アップデートが適用されました。更新を完了するには Decentr を再起動してください。再起動後、シークレット ウィンドウは自動的に開きません。</translation>
 <translation id="4788777615168560705">Decentr でパスワードを確認できません。24 時間後にもう一度お試しいただくか、<ph name="BEGIN_LINK" />Google アカウントでパスワードをご確認ください<ph name="END_LINK" />。</translation>
 <translation id="479167709087336770">Google 検索と同じスペルチェックが使用されます。ブラウザに入力したテキストは Google に送信されます。この動作はいつでも設定で変更できます。</translation>
 <translation id="4888717733111232871">mDNS トラフィックを許可する Decentr のインバウンド ルールです。</translation>
@@ -144,8 +133,10 @@
 <translation id="5386450000063123300">Decentr を更新しています（<ph name="PROGRESS_PERCENT" />）</translation>
 <translation id="538767207339317086">Decentr へのログインを許可する</translation>
 <translation id="5398878173008909840">Decentr の最新バージョンをぜひお試しください。</translation>
+<translation id="5416696090975899932">組み込みの PDF ビューアがない場合、Decentr では印刷プレビューを表示できません。</translation>
 <translation id="5427571867875391349">Decentr をデフォルト ブラウザに設定する</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
+<translation id="5479196819031988440">Decentr OS ではこのページを開けません。</translation>
 <translation id="5480860683791598150">このサイトで現在地を共有するには、Decentr で位置情報の使用を許可する必要があります</translation>
 <translation id="549669000822060376">Decentr は最新のシステム アップデートをインストールしています。しばらくお待ちください。</translation>
 <translation id="5496810170689441661">Decentr でパスワードを編集しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
@@ -176,7 +167,6 @@
 <translation id="6212496753309875659">新しいバージョンの Decentr が既にインストールされています。ソフトウェアが動作しない場合は、Decentr をアンインストールしてからもう一度お試しください。</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr は今すぐ再起動されます}=1{Decentr は 1 秒後に再起動されます}other{Decentr は # 秒後に再起動されます}}</translation>
 <translation id="6241367896540709610">ファイルをダウンロードするには、Decentr でストレージへのアクセスを許可する必要があります</translation>
-<translation id="6245734527075554892">Decentr に保存されている安全でないサイトのリストと URL を照合します</translation>
 <translation id="6248213926982192922">Decentr を既定のブラウザにする</translation>
 <translation id="6266342355635466082">Decentr がアップデートを確認できません。インターネット接続を確認してみてください。</translation>
 <translation id="6268381023930128611">Decentr からログアウトしますか？</translation>
@@ -203,6 +193,7 @@
 <translation id="6717134281241384636">バージョンが新しい Decentr のプロフィールは使用できません。
 
 一部の機能が利用できない可能性があります。別の場所のプロフィールを指定するか、新しいバージョンの Decentr をご使用ください。</translation>
+<translation id="6734080038664603509">Decentr を更新(&amp;C)</translation>
 <translation id="6734291798041940871">Decentr は既にパソコンのすべてのユーザーに対してインストールされています。</translation>
 <translation id="673636774878526923">お使いのすべてのデバイスで Decentr の設定やデータを使用するには、ログインして同期を有効にしてください。</translation>
 <translation id="6774082503108938489">保護者が Decentr の「サイト、アプリ、拡張機能の権限」をオフにしました。この <ph name="EXTENSION_TYPE_PARAMETER" /> を有効にすることはできません。</translation>
@@ -217,11 +208,12 @@
 <translation id="6990124437352146030">このサイトを利用するには、Decentr でマイクの使用を許可する必要があります</translation>
 <translation id="705851970750939768">Decentr を更新</translation>
 <translation id="7067091210845072982">画像に有効な説明が設定されていない場合に、Decentr で説明を自動的に生成できるよう Google に画像が送信されます。</translation>
+<translation id="7147279922647361552">Decentr の最も重要なプライバシー設定をカスタマイズできます</translation>
 <translation id="718435575166326686">このサイトを利用するには、Decentr でカメラの使用を許可する必要があります</translation>
 <translation id="7196312274710523067">Decentr を起動できませんでした。もう一度お試しください。</translation>
 <translation id="7197677400338048821">Decentr でパスワードを確認できません。24 時間後にもう一度お試しください。</translation>
-<translation id="7218568399872925918">Decentr を閉じるまで、アクセスしたサイトにお客様の情報が保存されます</translation>
 <translation id="7223968959479464213">タスク マネージャ - Decentr</translation>
+<translation id="731644333568559921">Decentr OS を更新(&amp;C)</translation>
 <translation id="731795002583552498">Decentr を更新しています</translation>
 <translation id="7318036098707714271">ユーザー設定ファイルが壊れているか無効です。
 
@@ -230,21 +222,17 @@
 <translation id="7339898014177206373">新しいウィンドウ</translation>
 <translation id="734373864078049451">ウェブ、ブックマーク、その他の Decentr データを好みに設定できます。</translation>
 <translation id="7349591376906416160">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに <ph name="ALTERNATIVE_BROWSER_NAME" /> を開くよう Decentr を設定しています。</translation>
-<translation id="7398989605938454041">Decentr プロフィールを使うと、Decentr のあらゆる項目や設定を個別に管理できます。これにより、仕事と遊びの使い分けが簡単になります。</translation>
 <translation id="7448255348454382571">Decentr OS を再起動してください</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
 <translation id="7451052299415159299">このサイトを利用するには、Decentr でカメラの使用を許可する必要があります</translation>
-<translation id="7467949745582939695">Decentr を再起動しますか？</translation>
 <translation id="7483335560992089831">実行中の Decentr と同じバージョンをインストールすることはできません。Decentr を閉じてからもう一度お試しください。</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr は 1 分後に再起動されます}other{Decentr は # 分後に再起動されます}}</translation>
 <translation id="7549178288319965365">Decentr OS について</translation>
 <translation id="7561906087460245826">Decentr のデータ（<ph name="URL" />）も消去する</translation>
 <translation id="7585853947355360626">このページに設定が表示されない場合は、<ph name="LINK_BEGIN" />
       Decentr OS の設定<ph name="LINK_END" />を確認してください</translation>
-<translation id="7597596667193879455">アカウントでセーフ ブラウジング保護強化機能がオンになっています。Decentr にも適用します。</translation>
 <translation id="761356813943268536">Decentr がカメラとマイクを使用しています。</translation>
 <translation id="7617377681829253106">進化する Decentr</translation>
-<translation id="7682601070171973634">Decentr では、使用されるユーザーデータの量を抑えつつ、同じようにサイトをブラウジングできる新機能をテストしています</translation>
 <translation id="7686590090926151193">Decentr はデフォルトのブラウザとして設定されていません</translation>
 <translation id="7689606757190482937">同期してカスタマイズした Decentr をどのデバイスでも使用できます</translation>
 <translation id="7729447699958282447">お使いのドメインでは同期を利用できないため、Decentr はデータを同期できませんでした。</translation>
@@ -254,11 +242,11 @@
 <translation id="7828947555739565424">このアカウントの Decentr プロファイルは、このデバイスにすでに存在します</translation>
 <translation id="7857220146454061152">今後、Decentr のアップデートを受信するには、OS X 10.11 以降が必要となります。このパソコンでは OS X 10.10 が実行されています。</translation>
 <translation id="7867198900892795913">Decentr を最新版に更新できませんでした。新しい機能とセキュリティ修正は適用されていません。</translation>
-<translation id="788352880609666695">次のアカウントはこの Decentr プロフィールでは使用できません</translation>
 <translation id="7898472181347242998">デバイスが最新の状態かどうか確認するには、<ph name="LINK_BEGIN" />Decentr OS の設定<ph name="LINK_END" />をご覧ください</translation>
 <translation id="7937630085815544518">Decentr に <ph name="USER_EMAIL_ADDRESS" /> としてログインしていました。再度ログインするには同じアカウントを使用してください。</translation>
 <translation id="7975919845073681630">この Decentr はセカンダリ インストールのため、既定のブラウザには設定できません。</translation>
 <translation id="8013436988911883588">Decentr にアクセスを許可すると、ウェブサイトからアクセスをリクエストできるようになります。</translation>
+<translation id="8045118833343856403">以下のアカウントは Decentr プロファイルにログインしていません。別のプロファイルでアカウントを使用する場合は、最初にそのプロファイルを削除してください。</translation>
 <translation id="8105840573057009683">このサイトを利用するには、Decentr で位置情報の使用を許可する必要があります</translation>
 <translation id="81770708095080097">このファイルは危険なファイルであるため、Decentr でブロックしました。</translation>
 <translation id="8248265253516264921">画像に有効な説明が設定されていない場合に、Decentr で説明を自動的に生成できるよう Google に画像が送信されます。この機能は設定でいつでも無効にできます。</translation>
@@ -267,7 +255,6 @@
 <translation id="8290862415967981663">このファイルは危険なファイルの可能性があるため、Decentr でブロックしました。</translation>
 <translation id="8330519371938183845">ログインすると、同期してカスタマイズした Decentr をどのデバイスでも使用できます</translation>
 <translation id="8340674089072921962">Decentr の前回の使用者は <ph name="USER_EMAIL_ADDRESS" /> です</translation>
-<translation id="8357820681460164151">お使いのすべてのデバイスで Decentr ブラウザの設定やデータを使用するには、ログインして同期を有効にしてください</translation>
 <translation id="8417404458978023919">{0,plural, =1{1 日以内に Decentr を再起動してください}other{# 日以内に Decentr を再起動してください}}</translation>
 <translation id="8453117565092476964">インストーラ アーカイブが壊れているか無効です。Decentr をダウンロードし直してください。</translation>
 <translation id="8493179195440786826">Decentr は古いバージョンです</translation>
@@ -279,8 +266,6 @@
 <translation id="8621669128220841554">原因不明のエラーによりインストールに失敗しました。Decentr をもう一度ダウンロードしてください。</translation>
 <translation id="8697124171261953979">この拡張機能では、Decentr の起動時、またはアドレスバーからの検索時に表示されるページも制御されます。</translation>
 <translation id="8704119203788522458">自分好みに設定</translation>
-<translation id="8713679423359107094">Decentr のウィンドウをすべて閉じると、Cookie とサイトデータは自動的に削除されます</translation>
-<translation id="8796443464227412154">Decentr を閉じると、<ph name="BEGIN_BOLD" />ほとんどのサイトからログアウト<ph name="END_BOLD" />します。同期がオフの場合は、<ph name="BEGIN_BOLD" />Google サービスと Decentr からもログアウト<ph name="END_BOLD" />します。</translation>
 <translation id="8796602469536043152">このサイトを利用するには、Decentr でカメラとマイクの使用を許可する必要があります</translation>
 <translation id="8803635938069941624">Decentr OS 利用規約</translation>
 <translation id="8821041990367117597">アカウントのログイン情報が最新ではないため、Decentr はデータを同期できませんでした。</translation>
@@ -302,6 +287,5 @@
 <translation id="9214764063801632699">Decentr OS システム</translation>
 <translation id="93478295209880648">Windows XP と Windows Vista はサポートされなくなったため、Decentr は正常に機能しない可能性があります</translation>
 <translation id="965162752251293939">Decentr はどなたが使用しますか？</translation>
-<translation id="967427899662692980">Decentr の最高のセキュリティ強度で保護</translation>
 <translation id="985602178874221306">Decentr 開発者</translation>
 </translationbundle>

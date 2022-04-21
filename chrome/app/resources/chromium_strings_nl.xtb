@@ -16,10 +16,7 @@ Sommige functies zijn wellicht niet beschikbaar en wijzigingen in voorkeuren wor
 <translation id="1524282610922162960">Een Decentr-tabblad delen</translation>
 <translation id="1553461853655228091">Decentr heeft toegangsrechten voor de camera nodig om een 3D-kaart van je omgeving te maken</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Je beheerder vereist dat je Decentr opnieuw start om een update uit te voeren.}=1{Je beheerder vereist dat je Decentr opnieuw start om een update uit te voeren. Je incognitovenster kan niet opnieuw worden geopend.}other{Je beheerder vereist dat je Decentr opnieuw start om een update uit te voeren. Je # incognitovensters kunnen niet opnieuw worden geopend.}}</translation>
-<translation id="1625909126243026060">Neem belangrijke privacy- en beveiligingsopties in Decentr door</translation>
-<translation id="1632539827495546968">Als je dit account maar één keer wilt gebruiken, kun je de <ph name="GUEST_LINK_BEGIN" />gastmodus<ph name="GUEST_LINK_END" /> gebruiken in de Decentr-browser. Als je een account voor iemand anders wilt toevoegen, kun je <ph name="LINK_BEGIN" />een nieuwe persoon toevoegen<ph name="LINK_END" /> aan je <ph name="DEVICE_TYPE" />.
-
-Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn op dit account. Je kunt je Google-accounts beheren via <ph name="SETTINGS_LINK_BEGIN" />Instellingen<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Als je Decentr sluit, wist de browser automatisch cookies en sitegegevens van de pagina's die je hebt bezocht</translation>
 <translation id="1708666629004767631">Er is een nieuwe, veiligere versie van Decentr beschikbaar.</translation>
 <translation id="1774152462503052664">Decentr laten uitvoeren op de achtergrond</translation>
 <translation id="1779356040007214683">Om Decentr veiliger te maken, hebben we een aantal extensies uitgezet die niet worden vermeld in de <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> en mogelijk zonder je medeweten zijn geïnstalleerd.</translation>
@@ -28,22 +25,16 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="1881322772814446296">Je logt in op een beheerd account waarmee de eigenaar van dat account beheer krijgt over je Decentr-profiel. Je Decentr-gegevens zoals je apps, bookmarks, geschiedenis, wachtwoorden en andere instellingen worden permanent gekoppeld aan <ph name="USER_NAME" />. Je kunt deze gegevens verwijderen via het Google Accounts Dashboard, maar je kunt deze gegevens niet koppelen aan een ander account. Je kunt een nieuw profiel maken om je bestaande Decentr-gegevens apart te houden. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Als je dit uitzet, kun je inloggen bij Google-sites zoals Gmail zonder in te loggen bij Decentr</translation>
 <translation id="1929939181775079593">Decentr reageert niet. Nu opnieuw starten?</translation>
-<translation id="1940680973325097484">Als je dit account maar één keer wilt gebruiken, kun je de gastmodus gebruiken in de Decentr-browser. Als je een account voor iemand anders wilt toevoegen, kun je <ph name="LINK_BEGIN" />een nieuwe persoon toevoegen<ph name="LINK_END" /> aan je <ph name="DEVICE_TYPE" />.
-
-Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn op dit account. Je kunt je Google-accounts beheren via <ph name="SETTINGS_LINK_BEGIN" />Instellingen<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">Decentr kan de standaardbrowser niet bepalen of instellen</translation>
 <translation id="1981611865800294956">Opnieuw opstarten om &amp;Decentr OS te updaten</translation>
 <translation id="2008474315282236005">Hiermee wordt 1 item verwijderd van dit apparaat. Als je je gegevens later wilt terughalen, log je in bij Decentr als <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Als je wilt checken of je andere wachtwoorden zijn beveiligd tegen gegevenslekken en andere beveiligingsproblemen, <ph name="BEGIN_LINK" />log je in bij Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Kies of je de Decentr-geschiedenis wilt opnemen voor meer gepersonaliseerde functies in Google-services</translation>
 <translation id="2174178932569897599">Decentr aanpassen</translation>
 <translation id="2185166961232948079">Decentr - Inloggen bij netwerk - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Als je een computer deelt, kunnen vrienden en familie afzonderlijk surfen en Decentr configureren zoals zij dat willen.</translation>
 <translation id="2294245788148774212">Optioneel: Help de functies en prestaties van Decentr OS te verbeteren door automatisch diagnostische en gebruiksgegevens naar Google te sturen.</translation>
-<translation id="2313870531055795960">Checkt URL's aan de hand van een lijst met onveilige sites die is opgeslagen in Decentr. Als een site je wachtwoord probeert te stelen of als je een schadelijk bestand downloadt, kan Decentr ook URL's, inclusief delen van de paginacontent, naar Safe Browsing sturen.</translation>
 <translation id="2343156876103232566">Als je een nummer hier vandaan naar je Android-telefoon wilt sturen, log je in bij Decentr op beide apparaten.</translation>
 <translation id="2347108572062610441">Deze extensie heeft gewijzigd welke pagina wordt getoond wanneer je Decentr start.</translation>
-<translation id="2359808026110333948">Doorgaan</translation>
 <translation id="2396765026452590966">De extensie <ph name="EXTENSION_NAME" /> heeft gewijzigd welke pagina je ziet als je Decentr start.</translation>
 <translation id="2401032172288869980">Decentr heeft camera- en microfoonrechten nodig voor deze site</translation>
 <translation id="2483889755041906834">In Decentr</translation>
@@ -51,8 +42,10 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="2535480412977113886">Decentr OS kan je gegevens niet synchroniseren omdat de inloggegevens voor je account zijn verouderd.</translation>
 <translation id="2560420686485554789">Decentr heeft toegang tot de opslag nodig om bestanden te downloaden</translation>
 <translation id="2572494885440352020">Decentr Helper</translation>
+<translation id="2577788541081224677">Als je toegang tot je Decentr-gegevens wilt, log je in zodat je synchronisatie kunt aanzetten.</translation>
 <translation id="2583187216237139145">Alle Decentr-gegevens die worden gegenereerd bij het gebruik van dit profiel (zoals bookmarks, geschiedenis, wachtwoorden en andere instellingen) kunnen worden verwijderd door de beheerder van het werkprofiel. <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Decentr OS moet opnieuw worden gestart om de update uit te voeren.</translation>
+<translation id="2614883797045469742">Voor de meeste mensen werken de standaardinstellingen, maar je kunt ze aanpassen aan de manier waarop je Decentr wilt gebruiken.</translation>
 <translation id="2648074677641340862">Er is tijdens de installatie een fout opgetreden in het besturingssysteem. Download Decentr opnieuw.</translation>
 <translation id="2661879430930417727">Als je een apparaat deelt, kunnen vrienden en familie afzonderlijk surfen en Decentr instellen zoals zij dat willen.</translation>
 <translation id="2711502716910134313">Decentr-tabblad</translation>
@@ -61,11 +54,9 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="2799223571221894425">Opnieuw starten</translation>
 <translation id="2837693172913560447">Hiermee maak je een nieuw Decentr-profiel voor <ph name="USER_EMAIL_ADDRESS" />.</translation>
 <translation id="2847479871509788944">Verwijderen uit Decentr…</translation>
-<translation id="2850691299438350830">Beschermt je op Decentr en kan worden gebruikt om de beveiliging in andere Google-apps te verbeteren als je bent ingelogd.</translation>
 <translation id="2885378588091291677">Taakbeheer</translation>
 <translation id="2910007522516064972">Over &amp;Decentr</translation>
 <translation id="2977470724722393594">Decentr is up-to-date</translation>
-<translation id="2977506796191543575">Als een site je wachtwoord probeert te stelen of als je een schadelijk bestand downloadt, kan Decentr ook URL's, inclusief delen van de paginacontent, naar Safe Browsing sturen</translation>
 <translation id="2983934633046890458">Decentr probeert wachtwoorden te bewerken.</translation>
 <translation id="3032706164202344641">Decentr kan je wachtwoorden niet checken. Probeer het later opnieuw.</translation>
 <translation id="3032787606318309379">Toevoegen aan Decentr...</translation>
@@ -118,20 +109,18 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="4407044323746248786">Decentr toch sluiten?</translation>
 <translation id="4415566066719264597">Decentr laten uitvoeren op de achtergrond</translation>
 <translation id="4423735387467980091">Decentr aanpassen en beheren</translation>
-<translation id="4427306783828095590">Geoptimaliseerde beveiliging die je nog beter beschermt tegen phishing en malware</translation>
 <translation id="452711251841752011">Welkom bij Decentr, nieuw browservenster geopend</translation>
 <translation id="4544142686420020088">Decentr is niet geüpdatet. Er is een fout opgetreden. <ph name="BEGIN_LINK" />Updateproblemen en mislukte updates voor Decentr verhelpen<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Doorgaan met een nieuw Decentr-profiel?</translation>
 <translation id="4567424176335768812">Je bent ingelogd als <ph name="USER_EMAIL_ADDRESS" />. Je hebt nu toegang tot je bookmarks, geschiedenis en andere instellingen op al je apparaten waarop je bent ingelogd.</translation>
 <translation id="459535195905078186">Decentr-apps</translation>
-<translation id="4621240073146040695">Updaten bijna voltooid. Start Decentr opnieuw op om de update te voltooien.</translation>
 <translation id="4665829708273112819">Waarschuwing: Decentr kan niet voorkomen dat extensies je browsegeschiedenis registreren. Als je deze extensie in de incognitomodus wilt uitzetten, vink je deze optie uit.</translation>
-<translation id="4673151026126227699">Als je ook Decentr-gebruiksrapporten deelt, bevatten die rapporten de URL's die je bezoekt</translation>
 <translation id="4677944499843243528">Het profiel lijkt te worden gebruikt door een ander proces in Decentr (<ph name="PROCESS_ID" />) op een andere computer (<ph name="HOST_NAME" />). Het profiel is vergrendeld zodat het niet wordt beschadigd. Als je zeker weet dat dit profiel niet door andere processen wordt gebruikt, kun je het profiel ontgrendelen en Decentr opnieuw starten.</translation>
 <translation id="469338717132742108">Hulp bij Decentr OS</translation>
 <translation id="4708774505295300557">Iemand heeft eerder bij Decentr op deze computer ingelogd als <ph name="ACCOUNT_EMAIL_LAST" />. Maak een nieuwe Decentr-gebruiker om je informatie gescheiden te houden.</translation>
 <translation id="4746050847053251315">Decentr toch sluiten?</translation>
 <translation id="4748217263233248895">Er is zojuist een speciale beveiligingsupdate voor Decentr toegepast. Start nu opnieuw op. Je tabbladen worden hersteld.</translation>
+<translation id="4750035648288509542">Bijna klaar met updaten. Start Decentr opnieuw om de update te voltooien. Incognitovensters worden niet opnieuw geopend.</translation>
 <translation id="4788777615168560705">Decentr kan je wachtwoorden niet checken. Probeer het over 24 uur opnieuw of <ph name="BEGIN_LINK" />check de wachtwoorden in je Google-account<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Hiervoor wordt dezelfde spellingcontrole gebruikt als voor Google Zoeken. Tekst die je in de browser typt, wordt naar Google gestuurd. Je kunt dit altijd wijzigen in de instellingen.</translation>
 <translation id="4888717733111232871">Inkomende regel zodat Decentr mDNS-verkeer toestaat.</translation>
@@ -146,8 +135,10 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="5386450000063123300">Decentr updaten (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Inloggen bij Decentr toestaan</translation>
 <translation id="5398878173008909840">Er is een nieuwe versie van Decentr beschikbaar.</translation>
+<translation id="5416696090975899932">Decentr kan het afdrukvoorbeeld niet bekijken wanneer de ingebouwde pdf-viewer ontbreekt.</translation>
 <translation id="5427571867875391349">Decentr instellen als je standaardbrowser</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr bèta</translation>
+<translation id="5479196819031988440">Decentr OS kan deze pagina niet openen.</translation>
 <translation id="5480860683791598150">Decentr heeft toegang tot je locatie nodig om je locatie met deze site te delen</translation>
 <translation id="549669000822060376">Wacht terwijl Decentr de nieuwste systeemupdates installeert.</translation>
 <translation id="5496810170689441661">Decentr probeert wachtwoorden te bewerken. Geef je Windows-wachtwoord op om dit toe te staan.</translation>
@@ -155,7 +146,7 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="5623402015214259806">{0,plural, =0{Er is een Decentr-update beschikbaar}=1{Er is een Decentr-update beschikbaar}other{Er is al # dagen een Decentr-update beschikbaar}}</translation>
 <translation id="5634636535844844681">Voor Decentr is Windows 7 of hoger vereist.</translation>
 <translation id="5653831366781983928">Decentr nu opnieuw opstarten</translation>
-<translation id="5698481217667032250">Decentr bekijken in deze taal</translation>
+<translation id="5698481217667032250">Decentr weergeven in deze taal</translation>
 <translation id="5820394555380036790">Decentr OS</translation>
 <translation id="5854740544000584380">Decentr OS wordt mogelijk gemaakt door aanvullende <ph name="BEGIN_LINK_CROS_OSS" />opensource-software<ph name="END_LINK_CROS_OSS" />, net als de <ph name="BEGIN_LINK_LINUX_OSS" />Linux-ontwikkelomgeving<ph name="END_LINK_LINUX_OSS" />.</translation>
 <translation id="5862307444128926510">Welkom bij Decentr</translation>
@@ -178,7 +169,6 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="6212496753309875659">Deze computer beschikt al over een recentere versie van Decentr. Als de software niet werkt, moet je Decentr verwijderen en het opnieuw proberen.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr wordt nu opnieuw gestart}=1{Decentr wordt over één seconde opnieuw gestart}other{Decentr wordt over # seconden opnieuw gestart}}</translation>
 <translation id="6241367896540709610">Decentr heeft toegang tot de opslag nodig om bestanden te downloaden</translation>
-<translation id="6245734527075554892">Checkt URL's aan de hand van een lijst met onveilige sites die is opgeslagen in Decentr</translation>
 <translation id="6248213926982192922">Decentr als standaardbrowser instellen</translation>
 <translation id="6266342355635466082">Decentr kan niet checken op updates. Check de internetverbinding.</translation>
 <translation id="6268381023930128611">Uitloggen bij Decentr?</translation>
@@ -205,6 +195,7 @@ Rechten die je al hebt gegeven aan websites en apps, kunnen van toepassing zijn 
 <translation id="6717134281241384636">Je profiel kan niet worden gebruikt, omdat dit is gemaakt in een recentere versie van Decentr.
 
 Sommige functies zijn mogelijk niet beschikbaar. Geef een andere profieldirectory op of gebruik een recentere versie van Decentr.</translation>
+<translation id="6734080038664603509">&amp;Decentr updaten</translation>
 <translation id="6734291798041940871">Decentr is al geïnstalleerd voor alle gebruikers op je computer.</translation>
 <translation id="673636774878526923">Log in en zet synchronisatie aan voor toegang tot je Decentr-gegevens op al je apparaten</translation>
 <translation id="6774082503108938489">Je ouder heeft 'Rechten voor sites, apps en extensies' uitgezet voor Decentr. Je mag deze <ph name="EXTENSION_TYPE_PARAMETER" /> niet aanzetten.</translation>
@@ -219,11 +210,12 @@ Sommige functies zijn mogelijk niet beschikbaar. Geef een andere profieldirector
 <translation id="6990124437352146030">Decentr heeft toegangsrechten voor je microfoon nodig voor deze site</translation>
 <translation id="705851970750939768">Decentr updaten</translation>
 <translation id="7067091210845072982">Als een afbeelding geen nuttige beschrijving bevat, probeert Decentr je er een te geven. Afbeeldingen worden naar Google verzonden om beschrijvingen te maken.</translation>
+<translation id="7147279922647361552">Pas enkele van de belangrijkste privacyinstellingen van Decentr aan</translation>
 <translation id="718435575166326686">Decentr heeft camerarechten nodig voor deze site</translation>
 <translation id="7196312274710523067">Kan Decentr niet starten. Probeer het opnieuw.</translation>
 <translation id="7197677400338048821">Decentr kan je wachtwoorden niet checken. Probeer het over 24 uur opnieuw.</translation>
-<translation id="7218568399872925918">Sites die je bezoekt, onthouden je informatie totdat je Decentr sluit</translation>
 <translation id="7223968959479464213">Taakbeheer - Decentr</translation>
+<translation id="731644333568559921">&amp;Decentr OS updaten</translation>
 <translation id="731795002583552498">Decentr updaten</translation>
 <translation id="7318036098707714271">Je bestand met voorkeuren is beschadigd of ongeldig.
 
@@ -232,20 +224,16 @@ Decentr kan je instellingen niet herstellen.</translation>
 <translation id="7339898014177206373">Nieuw venster</translation>
 <translation id="734373864078049451">Hier vind je internet, bookmarks en andere Decentr-instellingen.</translation>
 <translation id="7349591376906416160">Je systeembeheerder heeft Decentr geconfigureerd om <ph name="ALTERNATIVE_BROWSER_NAME" /> te openen voor toegang tot <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7398989605938454041">Met Decentr-profielen kun je alle Decentr-gegevens gescheiden houden. Zo kun je makkelijker onderscheid maken tussen werk en privé.</translation>
 <translation id="7448255348454382571">Decentr OS opnieuw opstarten</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr voor ontwikkelaars</translation>
 <translation id="7451052299415159299">Decentr heeft toegangsrechten voor je camera nodig voor deze site</translation>
-<translation id="7467949745582939695">Decentr opnieuw starten?</translation>
 <translation id="7483335560992089831">Kan niet dezelfde Decentr-versie installeren, omdat deze versie nu actief is. Sluit Decentr en probeer het opnieuw.</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr wordt over één minuut opnieuw gestart}other{Decentr wordt over # minuten opnieuw gestart}}</translation>
 <translation id="7549178288319965365">Over Decentr OS</translation>
 <translation id="7561906087460245826">Ook gegevens van Decentr wissen (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Kijk je in de <ph name="LINK_BEGIN" />Decentr OS-instellingen<ph name="LINK_END" />als je een instelling niet ziet op deze pagina.</translation>
-<translation id="7597596667193879455">Je hebt de uitgebreide versie van Safe Browsing aangezet in je account. Zet deze functie nu ook aan voor Decentr.</translation>
 <translation id="761356813943268536">Decentr gebruikt je camera en microfoon.</translation>
 <translation id="7617377681829253106">Decentr is nu nog beter</translation>
-<translation id="7682601070171973634">Decentr bevat nieuwe experimentele functies waarmee sites dezelfde browsefunctionaliteit kunnen leveren terwijl er minder van je gegevens worden gebruikt</translation>
 <translation id="7686590090926151193">Decentr is niet je standaardbrowser</translation>
 <translation id="7689606757190482937">Decentr synchroniseren en personaliseren op al je apparaten</translation>
 <translation id="7729447699958282447">Decentr kan je gegevens niet synchroniseren, omdat synchronisatie niet beschikbaar is voor je domein.</translation>
@@ -255,11 +243,11 @@ Decentr kan je instellingen niet herstellen.</translation>
 <translation id="7828947555739565424">Er bestaat op dit apparaat al een Decentr-profiel met dit account</translation>
 <translation id="7857220146454061152">Als je toekomstige Decentr-updates wilt ontvangen, heb je OS X 10.11 of hoger nodig. Deze computer gebruikt OS X 10.10.</translation>
 <translation id="7867198900892795913">Decentr kan niet worden geüpdatet naar de nieuwste versie, dus je loopt nieuwe functies en beveiligingsoplossingen mis.</translation>
-<translation id="788352880609666695">De volgende accounts zijn beschikbaar voor dit Decentr-profiel</translation>
 <translation id="7898472181347242998">Ga naar de <ph name="LINK_BEGIN" />instellingen van Decentr OS<ph name="LINK_END" /> om te kijken of je apparaat up-to-date is</translation>
 <translation id="7937630085815544518">Je bent ingelogd bij Decentr als <ph name="USER_EMAIL_ADDRESS" />. Gebruik hetzelfde account om opnieuw in te loggen.</translation>
 <translation id="7975919845073681630">Dit is een tweede installatie van Decentr en kan niet als standaardbrowser worden ingesteld.</translation>
 <translation id="8013436988911883588">Zodra Decentr toegang heeft, kunnen websites je om toegang vragen.</translation>
+<translation id="8045118833343856403">De volgende accounts zijn niet ingelogd bij Decentr-profielen. Als je een account wilt gebruiken in een ander profiel, verwijder je eerst dat profiel.</translation>
 <translation id="8105840573057009683">Decentr heeft locatierechten nodig voor deze site</translation>
 <translation id="81770708095080097">Dit bestand is gevaarlijk en is daarom door Decentr geblokkeerd.</translation>
 <translation id="8248265253516264921">Als een afbeelding geen nuttige beschrijving bevat, probeert Decentr je er een te geven. Afbeeldingen worden naar Google gestuurd om beschrijvingen te maken. Je kunt dit op elk gewenst moment uitzetten in Instellingen.</translation>
@@ -268,7 +256,6 @@ Decentr kan je instellingen niet herstellen.</translation>
 <translation id="8290862415967981663">Dit bestand kan gevaarlijk zijn en is daarom door Decentr geblokkeerd.</translation>
 <translation id="8330519371938183845">Log in om Decentr op al je apparaten te synchroniseren en te personaliseren</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> maakte eerder gebruik van Decentr</translation>
-<translation id="8357820681460164151">Log in en zet synchronisatie aan voor toegang tot je Decentr-browsergegevens op al je apparaten</translation>
 <translation id="8417404458978023919">{0,plural, =1{Start Decentr binnen een dag opnieuw}other{Start Decentr binnen # dagen opnieuw}}</translation>
 <translation id="8453117565092476964">Het archief van het installatieprogramma is beschadigd of ongeldig. Download Decentr opnieuw.</translation>
 <translation id="8493179195440786826">Decentr is verouderd</translation>
@@ -280,8 +267,6 @@ Decentr kan je instellingen niet herstellen.</translation>
 <translation id="8621669128220841554">De installatie is mislukt wegens een onbekende fout. Download Decentr opnieuw.</translation>
 <translation id="8697124171261953979">Hiermee wordt ook gecontroleerd welke pagina wordt getoond wanneer je Decentr start of vanuit de omnibox zoekt.</translation>
 <translation id="8704119203788522458">Personaliseer jouw Decentr</translation>
-<translation id="8713679423359107094">Als je alle Decentr-vensters sluit, worden de cookies en sitegegevens automatisch gewist</translation>
-<translation id="8796443464227412154">Je wordt <ph name="BEGIN_BOLD" />uitgelogd van de meeste sites<ph name="END_BOLD" /> als je Decentr sluit. Als synchronisatie uitstaat, word je ook <ph name="BEGIN_BOLD" />uitgelogd van Google-services en Decentr<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Decentr heeft toegangsrechten voor je camera en microfoon nodig voor deze site</translation>
 <translation id="8803635938069941624">Voorwaarden van Decentr OS</translation>
 <translation id="8821041990367117597">Decentr kan je gegevens niet synchroniseren, omdat de inloggegevens voor je account zijn verouderd.</translation>
@@ -303,6 +288,5 @@ Decentr kan je instellingen niet herstellen.</translation>
 <translation id="9214764063801632699">Decentr OS-systeem</translation>
 <translation id="93478295209880648">Decentr werkt mogelijk niet naar behoren omdat dit niet langer wordt ondersteund op Windows XP en Windows Vista</translation>
 <translation id="965162752251293939">Wie gebruikt Decentr?</translation>
-<translation id="967427899662692980">Gebruik het hoogste beveiligingsniveau van Decentr</translation>
 <translation id="985602178874221306">De auteurs van Decentr</translation>
 </translationbundle>

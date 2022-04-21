@@ -14,10 +14,7 @@
 <translation id="1524282610922162960">Decentri vahekaardi jagamine</translation>
 <translation id="1553461853655228091">Decentr vajab luba teie kaamerale juurdepääsemiseks, et luua teid ümbritsevast 3D-kaart</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Administraator nõuab, et käivitaksite Decentri värskenduse rakendamiseks uuesti}=1{Administraator nõuab, et käivitaksite Decentri värskenduse rakendamiseks uuesti. Teie inkognito akent ei avata uuesti.}other{Administraator nõuab, et käivitaksite Decentri värskenduse rakendamiseks uuesti. Teie # inkognito akent ei avata uuesti.}}</translation>
-<translation id="1625909126243026060">Vaadake üle Decentri peamised privaatsus- ja turvaseaded</translation>
-<translation id="1632539827495546968">Kui soovite seda kontot kasutada ainult ühe korra, võite Decentri brauseris kasutada <ph name="GUEST_LINK_BEGIN" />külalisrežiimi<ph name="GUEST_LINK_END" />. Kui soovite konto lisada kellegi teise jaoks, <ph name="LINK_BEGIN" />lisage oma seadmesse <ph name="DEVICE_TYPE" /> uus inimene<ph name="LINK_END" />.
-
-Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle konto puhul kehtida. Saate oma Google'i kontosid hallata jaotises <ph name="SETTINGS_LINK_BEGIN" />Seaded<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Kui Decentri sulgete, kustutab see automaatselt külastatud lehtede küpsisefailid ja saidi andmed</translation>
 <translation id="1708666629004767631">Saadaval on Decentri uus, turvalisem versioon.</translation>
 <translation id="1774152462503052664">Luba Decentril taustal töötada</translation>
 <translation id="1779356040007214683">Decentri turvalisemaks muutmiseks keelasime mõned laiendused, mida ei leidu veebipoes <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ja mille lisamisest te ei pruugi teadlik olla.</translation>
@@ -26,22 +23,16 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="1881322772814446296">Logite sisse hallatud kontoga ja annate selle administraatorile üle Decentri profiili juhtimise. Teie Decentri andmed, näiteks rakendused, järjehoidjad, ajalugu, paroolid ja muud seaded seotakse jäädavalt kasutajaga <ph name="USER_NAME" />. Saate need andmed kustutada Google'i kontode juhtpaneeli kaudu, kuid te ei saa neid seostada teise kontoga. Võite olemasolevate Decentr'i andmete eraldi hoidmiseks luua aga uue profiili. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Kui selle välja lülitate, saate Google'i saitidele (nt Gmaili) sisse logida ilma Decentrisse sisse logimata</translation>
 <translation id="1929939181775079593">Decentr ei reageeri. Kas soovite kohe taaskäivitada?</translation>
-<translation id="1940680973325097484">Kui soovite seda kontot kasutada ainult ühe korra, võite Decentri brauseris kasutada külalisrežiimi. Kui soovite konto lisada kellegi teise jaoks, <ph name="LINK_BEGIN" />lisage oma seadmesse <ph name="DEVICE_TYPE" /> uus inimene<ph name="LINK_END" />.
-
-Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle konto puhul kehtida. Saate oma Google'i kontosid hallata jaotises <ph name="SETTINGS_LINK_BEGIN" />Seaded<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">Decentr ei saa määrata ega seadistada vaikebrauserit</translation>
 <translation id="1981611865800294956">Taaskäivitage &amp;Decentr OS-i värskendamiseks</translation>
 <translation id="2008474315282236005">See kustutab seadmest ühe üksuse. Hiljem oma andmete toomiseks logige Decentri sisse kasutajana <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Kui soovite kontrollida, kas teie muud paroolid on andmetega seotud rikkumiste ja muude turvaprobleemide eest kaitstud, <ph name="BEGIN_LINK" />logige Decentri sisse<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Valige, kas Google'i teenustes rohkem isikupärastatud kasutuskogemuse saamiseks kaasata Decentri ajalugu</translation>
 <translation id="2174178932569897599">Decentri kohandamine</translation>
 <translation id="2185166961232948079">Decentr – võrku sisselogimine – <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Kui jagate arvutit, saavad sõbrad ja pereliikmed eraldi sirvida ning seadistada Decentri just nii, nagu neile meeldib.</translation>
 <translation id="2294245788148774212">Valikuline. Aidake Decentr OS-i funktsioone ning toimivust täiustada, saates Google'ile automaatselt diagnostika- ja kasutusandmeid.</translation>
-<translation id="2313870531055795960">Kontrollib URL-e Decentri talletatud ohtlike saitide loendi alusel. Kui sait üritab teie parooli varastada või laadite alla kahjuliku faili, võib Decentr saata URL-id ja lehe sisu osad teenusesse Google'i ohutu sirvimine.</translation>
 <translation id="2343156876103232566">Numbri saatmiseks siit Android-telefoni logige mõlemas seadmes Decentri sisse.</translation>
 <translation id="2347108572062610441">See laiendus muutis seda, milline leht kuvatakse Decentri käivitamisel.</translation>
-<translation id="2359808026110333948">Jätka</translation>
 <translation id="2396765026452590966">Laiendus „<ph name="EXTENSION_NAME" />” muutis seda, milline leht kuvatakse Decentri käivitamisel.</translation>
 <translation id="2401032172288869980">Decentr vajab selle saidi puhul kaamera ja mikrofoni kasutamise luba</translation>
 <translation id="2483889755041906834">Decentris</translation>
@@ -49,6 +40,7 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="2535480412977113886">Decentr OS ei saanud andmeid sünkroonida, sest teie konto sisselogimisandmed on aegunud.</translation>
 <translation id="2560420686485554789">Decentr vajab failide allalaadimiseks juurdepääsu salvestusruumile</translation>
 <translation id="2572494885440352020">Decentri abiline</translation>
+<translation id="2577788541081224677">Selleks et oma Decentri sisule kõigis oma seadmetes juurde pääseda, logige sisse, et saaksite sünkroonimise sisse lülitada.</translation>
 <translation id="2583187216237139145">Kõik Decentri andmed, mis luuakse selle profiili kasutamise ajal (nt järjehoidjad, ajalugu, paroolid ja muud seaded), saab tööprofiili administraator eemaldada. <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Decentr OS tuleb värskenduse rakendamiseks taaskäivitada.</translation>
 <translation id="2648074677641340862">Installimisel ilmnes operatsioonisüsteemi viga. Laadige Decentr uuesti alla.</translation>
@@ -59,11 +51,9 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="2799223571221894425">Taaskäivita</translation>
 <translation id="2837693172913560447">See loob konto <ph name="USER_EMAIL_ADDRESS" /> jaoks uue Decentri profiili.</translation>
 <translation id="2847479871509788944">Decentrist eemaldamine ...</translation>
-<translation id="2850691299438350830">Kaitseb teid Decentris ja seda võidakse kasutada teie turvalisuse suurendamiseks muudes Google'i rakendustes, kui olete sisse logitud.</translation>
 <translation id="2885378588091291677">Tegumihaldur</translation>
 <translation id="2910007522516064972">Teave &amp;Decentri kohta</translation>
 <translation id="2977470724722393594">Decentr on ajakohane</translation>
-<translation id="2977506796191543575">Kui sait üritab teie parooli varastada või laadite alla kahjuliku faili, võib Decentr saata URL-id ja lehe sisu osad teenusele Google'i ohutu sirvimine.</translation>
 <translation id="2983934633046890458">Decentr üritab paroole muuta.</translation>
 <translation id="3032706164202344641">Decentr ei saa teie paroole kontrollida. Proovige hiljem uuesti.</translation>
 <translation id="3032787606318309379">Decentri lisamine ...</translation>
@@ -116,20 +106,18 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="4407044323746248786">Kas väljuda Decentrist ikkagi?</translation>
 <translation id="4415566066719264597">Luba Decentril taustal töötada</translation>
 <translation id="4423735387467980091">Decentri kohandamine ja juhtimine</translation>
-<translation id="4427306783828095590">Täiustatud kaitse aitab andmepüüki ja pahavara paremini blokeerida</translation>
 <translation id="452711251841752011">Tere tulemast Decentri; avati uus brauseriaken</translation>
 <translation id="4544142686420020088">Decentrit ei värskendatud, midagi läks valesti. <ph name="BEGIN_LINK" />Lahendage Decentri värskendamisprobleemid ja parandage ebaõnnestunud värskendused.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Kas jätkata uuel Decentri profiilil?</translation>
 <translation id="4567424176335768812">Olete sisse logitud aadressiga <ph name="USER_EMAIL_ADDRESS" />. Nüüd on teil juurdepääs oma järjehoidjatele, ajaloole ja muudele seadetele kõigis seadmetes, kuhu olete sisse logitud.</translation>
 <translation id="459535195905078186">Decentri rakendused</translation>
-<translation id="4621240073146040695">Rakendus on peaaegu ajakohane! Värskenduse lõpuleviimiseks taaskäivitage Decentr.</translation>
 <translation id="4665829708273112819">Hoiatus. Decentr ei saa takistada laiendustel teie sirvimisajalugu salvestada. Kui soovite laienduse inkognito režiimis keelata, siis tühistage see valik.</translation>
-<translation id="4673151026126227699">Kui jagate ka Decentri kasutusaruandeid, hõlmavad need teie külastatavaid URL-e</translation>
 <translation id="4677944499843243528">Näib, et profiili kasutab Decentri muu protsess (<ph name="PROCESS_ID" />) mingis muus arvutis (<ph name="HOST_NAME" />). Decentr on profiili lukustanud, et seda ei saaks rikkuda. Kui olete kindel, et ükski muu protsess seda profiili ei kasuta, saate profiili avada ja Decentri taaskäivitada.</translation>
 <translation id="469338717132742108">Decentr OS-i puhul abi hankimine</translation>
 <translation id="4708774505295300557">Keegi on varem selles arvutis Decentri sisse loginud kasutajana <ph name="ACCOUNT_EMAIL_LAST" />. Looge uus Decentri kasutaja, et oma teave eraldi hoida.</translation>
 <translation id="4746050847053251315">Kas väljuda Decentrist ikkagi?</translation>
 <translation id="4748217263233248895">Äsja rakendati Decentri spetsiaalne turvavärskendus. Taaskäivitage brauser, misjärel teie vahelehed taastatakse.</translation>
+<translation id="4750035648288509542">Peaaegu värskendatud! Värskendamise lõpuleviimiseks taaskäivitage Decentr. Inkognito aknaid ei avata uuesti.</translation>
 <translation id="4788777615168560705">Decentr ei saa teie paroole kontrollida. Proovige uuesti 24 tunni pärast või <ph name="BEGIN_LINK" />kontrollige oma Google'i kontol paroole<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">See kasutab sama õigekirjakontrolli, mida kasutatakse Google'i otsingus. Brauseris sisestatav tekst saadetakse Google'ile. Seda käitumist saab seadetes alati muuta.</translation>
 <translation id="4888717733111232871">Sissetuleku reegel Decentrile mDNS-liikluse lubamiseks.</translation>
@@ -144,8 +132,10 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="5386450000063123300">Decentri värskendamine (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Luba Decentrisse sisselogimine</translation>
 <translation id="5398878173008909840">Decentri uus versioon on saadaval.</translation>
+<translation id="5416696090975899932">Decentr ei saa printimise eelvaadet kuvada, kui sisseehitatud PDF-vaatur puudub.</translation>
 <translation id="5427571867875391349">Määra Decentr vaikebrauseriks</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> – Decentri beetaversioon</translation>
+<translation id="5479196819031988440">Decentr OS ei saa seda lehte avada.</translation>
 <translation id="5480860683791598150">Decentr vajab juurdepääsu teie asukohale, et seda selle saidiga jagada</translation>
 <translation id="549669000822060376">Oodake, kuni Decentr installib uusimad süsteemivärskendused.</translation>
 <translation id="5496810170689441661">Decentr püüab paroole muuta. Selle lubamiseks sisestage Windowsi parool.</translation>
@@ -176,7 +166,6 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="6212496753309875659">Arvutis on juba Decentri uuem versioon. Kui tarkvara ei tööta, siis desinstallige Decentr ja proovige uuesti.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr käivitatakse kohe uuesti}=1{Decentr käivitatakse uuesti 1 sekundi pärast}other{Decentr käivitatakse uuesti # sekundi pärast}}</translation>
 <translation id="6241367896540709610">Decentr vajab failide allalaadimiseks juurdepääsu salvestusruumile</translation>
-<translation id="6245734527075554892">Kontrollib URL-e Decentri talletatud ohtlike saitide loendi alusel.</translation>
 <translation id="6248213926982192922">Määra Decentr vaikebrauseriks</translation>
 <translation id="6266342355635466082">Decentr ei saa värskendusi otsida. Kontrollige internetiühendust.</translation>
 <translation id="6268381023930128611">Kas logida Decentrist välja?</translation>
@@ -203,6 +192,7 @@ Load, mille olete juba veebisaitidele ja rakendustele andnud, võivad selle kont
 <translation id="6717134281241384636">Teie profiili ei saa kasutada, kuna see pärineb Decentri uuemast versioonist.
 
 On võimalik, et mõni funktsioon ei ole saadaval. Määrake muu profiilikataloog või kasutage Decentri uuemat versiooni.</translation>
+<translation id="6734080038664603509">Värskenda &amp;Decentri</translation>
 <translation id="6734291798041940871">Decentr on arvutisse kõigi kasutajate jaoks juba installitud.</translation>
 <translation id="673636774878526923">Selleks et oma Decentri sisule kõigis oma seadmetes juurde pääseda, logige sisse ja lülitage siis sisse sünkroonimine.</translation>
 <translation id="6774082503108938489">Sinu vanem lülitas valiku „Saitide, rakenduste ja laienduste load” Decentri puhul välja. Laienduse <ph name="EXTENSION_TYPE_PARAMETER" /> lubamine on keelatud.</translation>
@@ -220,8 +210,8 @@ On võimalik, et mõni funktsioon ei ole saadaval. Määrake muu profiilikataloo
 <translation id="718435575166326686">Decentr vajab selle saidi puhul kaamera kasutamise luba</translation>
 <translation id="7196312274710523067">Decentri ei õnnestunud käivitada. Proovige uuesti.</translation>
 <translation id="7197677400338048821">Decentr ei saa teie paroole kontrollida. Proovige uuesti 24 tunni pärast.</translation>
-<translation id="7218568399872925918">Külastatud saidid jätavad teie teabe meelde, kuni Decentri sulgete</translation>
 <translation id="7223968959479464213">Tegumihaldur – Decentr</translation>
+<translation id="731644333568559921">Värskenda &amp;Decentr OS-i</translation>
 <translation id="731795002583552498">Decentri värskendamine</translation>
 <translation id="7318036098707714271">Teie eelistuste fail on rikutud või kehtetu.
 
@@ -230,21 +220,17 @@ Decentr ei saa teie seadeid taastada.</translation>
 <translation id="7339898014177206373">Uus aken</translation>
 <translation id="734373864078049451">Siin asuvad teie veeb, järjehoidjad ja ülejäänud Decentri kraam.</translation>
 <translation id="7349591376906416160">Teie süsteemiadministraator on seadistanud Decentri avama brauseri <ph name="ALTERNATIVE_BROWSER_NAME" />, et lehele <ph name="TARGET_URL_HOSTNAME" /> juurde pääseda.</translation>
-<translation id="7398989605938454041">Decentri profiilidega saate eraldada kogu oma Decentri sisu. See muudab töö ja lõbu eraldamise lihtsamaks.</translation>
 <translation id="7448255348454382571">Decentr OS-i taaskäivitamine</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> – Decentr Dev</translation>
 <translation id="7451052299415159299">Decentr vajab selle saidi puhul luba, et teie kaamerale juurde pääseda</translation>
-<translation id="7467949745582939695">Kas käivitada Decentr uuesti?</translation>
 <translation id="7483335560992089831">Ei saa installida sama Decentri versiooni, mis praegu töötab. Sulgege Decentr ja proovige uuesti.</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr käivitatakse uuesti 1 minuti pärast}other{Decentr käivitatakse uuesti # minuti pärast}}</translation>
 <translation id="7549178288319965365">Teave Decentr OS-i kohta</translation>
 <translation id="7561906087460245826">Kustuta andmed ka Decentrist (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Kui seadet sellel lehel ei kuvata, vaadake oma <ph name="LINK_BEGIN" />
       Decentr OS-i seadeid<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Lülitasite oma kontol täiustatud ohutu sirvimise sisse. Kasutage seda ka Decentris.</translation>
 <translation id="761356813943268536">Decentr kasutab kaamerat ja mikrofoni.</translation>
 <translation id="7617377681829253106">Decentr muutus just paremaks</translation>
-<translation id="7682601070171973634">Decentr katsetab uusi funktsioone, mis võimaldaksid saitidel pakkuda väiksema andmemahu juures samasugust sirvimiskogemust</translation>
 <translation id="7686590090926151193">Decentr ei ole teie vaikebrauser</translation>
 <translation id="7689606757190482937">Sünkroonige ja isikupärastage Decentr kõigis oma seadmetes</translation>
 <translation id="7729447699958282447">Decentr ei saa teie andmeid sünkroonida, sest teie domeenil pole sünkroonimine saadaval.</translation>
@@ -254,11 +240,11 @@ Decentr ei saa teie seadeid taastada.</translation>
 <translation id="7828947555739565424">Selle kontoga Decentri profiil on selles seadmes juba olemas</translation>
 <translation id="7857220146454061152">Decentri tulevaste värskenduste saamiseks on teil vaja operatsioonisüsteemi OS X 10.11 või uuemat versiooni. See arvuti kasutab operatsioonisüsteemi OS X 10.10.</translation>
 <translation id="7867198900892795913">Decentri ei saanud uusimale versioonile värskendada, mistõttu jääte ilma uutest funktsioonidest ja turvaparandustest.</translation>
-<translation id="788352880609666695">Järgmised kontod on selle Decentri profiili jaoks saadaval</translation>
 <translation id="7898472181347242998">Kui soovite teada saada, kas teie seade on ajakohane, avage <ph name="LINK_BEGIN" />Decentr OS-i seaded<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">Olite Decentrisse sisse logitud kasutajana <ph name="USER_EMAIL_ADDRESS" />. Kasutage uuesti sisselogimiseks sama kontot.</translation>
 <translation id="7975919845073681630">See on Decentri sekundaarne install ja seda ei saa määrata vaikebrauseriks.</translation>
 <translation id="8013436988911883588">Kui annate Decentrile juurdepääsu, saavad veebisaidid küsida teilt juurdepääsuluba.</translation>
+<translation id="8045118833343856403">Järgmised kontod pole ühelegi Decentri profiilile sisse logitud. Kui soovite kasutada teisel profiilil olevat kontot, eemaldage esmalt see profiil.</translation>
 <translation id="8105840573057009683">Decentr vajab selle saidi puhul asukohale juurdepääsu luba</translation>
 <translation id="81770708095080097">Decentr blokeeris faili, kuna see on ohtlik.</translation>
 <translation id="8248265253516264921">Kui pildil puudub kasulik kirjeldus, üritab Decentr selle ise luua. Kirjelduste loomiseks saadetakse pildid Google'ile. Võite selle seadetes igal ajal välja lülitada.</translation>
@@ -267,7 +253,6 @@ Decentr ei saa teie seadeid taastada.</translation>
 <translation id="8290862415967981663">Decentr blokeeris faili, kuna see võib olla ohtlik.</translation>
 <translation id="8330519371938183845">Logige sisse, et Decentr kõigis oma seadmetes sünkroonida ja isikupärastada</translation>
 <translation id="8340674089072921962">Kasutaja <ph name="USER_EMAIL_ADDRESS" /> kasutas varem Decentri</translation>
-<translation id="8357820681460164151">Selleks et oma Decentri brauseri sisule kõigis oma seadmetes juurde pääseda, logige sisse ja lülitage siis sisse sünkroonimine</translation>
 <translation id="8417404458978023919">{0,plural, =1{Käivitage Decentr uuesti päeva jooksul}other{Käivitage Decentr uuesti # päeva jooksul}}</translation>
 <translation id="8453117565092476964">Installeri arhiiv on rikutud või kehtetu. Laadige Decentr uuesti alla.</translation>
 <translation id="8493179195440786826">Decentr on aegunud</translation>
@@ -279,8 +264,6 @@ Decentr ei saa teie seadeid taastada.</translation>
 <translation id="8621669128220841554">Installimine ebaõnnestus tundmatu vea tõttu. Laadige Decentr uuesti alla.</translation>
 <translation id="8697124171261953979">Lisaks juhib see seda, mis leht kuvatakse Decentri käivitamisel või omnikastikeses otsingu tegemisel.</translation>
 <translation id="8704119203788522458">See on teie Decentr</translation>
-<translation id="8713679423359107094">Kui sulgete kõik Decentri aknad, kustutatakse küpsised ja saidi andmed automaatselt</translation>
-<translation id="8796443464227412154">Kui Decentri sulgete, <ph name="BEGIN_BOLD" />logitakse teid enamikult saitidelt välja<ph name="END_BOLD" />. Kui sünkroonimine on välja lülitatud, <ph name="BEGIN_BOLD" />logitakse teid välja ka Google'i teenustest ja Decentrist<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Decentr vajab selle saidi puhul luba, et teie kaamerale ja mikrofonile juurde pääseda</translation>
 <translation id="8803635938069941624">Decentr OS-i tingimused</translation>
 <translation id="8821041990367117597">Decentr ei saa andmeid sünkroonida, sest teie konto sisselogimisandmed on aegunud.</translation>
@@ -302,6 +285,5 @@ Decentr ei saa teie seadeid taastada.</translation>
 <translation id="9214764063801632699">Decentr OS-i süsteem</translation>
 <translation id="93478295209880648">Decentr ei pruugi õigesti töötada, kuna seda ei toetata enam Windows XP-s ega Windows Vistas</translation>
 <translation id="965162752251293939">Kes kasutab Decentri?</translation>
-<translation id="967427899662692980">Hankige Decentri parimad turbefunktsioonid</translation>
 <translation id="985602178874221306">The Decentr Authors</translation>
 </translationbundle>

@@ -14,10 +14,7 @@
 <translation id="1524282610922162960">Decentr sekmesini paylaşın</translation>
 <translation id="1553461853655228091">Çevrenizin 3D haritasını oluşturmak için Decentr'un kameranıza erişim iznine ihtiyacı var</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Yöneticiniz bir güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı gerektiriyor}=1{Yöneticiniz bir güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı gerektiriyor. Gizli pencereniz yeniden açılmayacak.}other{Yöneticiniz bir güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı gerektiriyor. # Gizli pencereniz yeniden açılmayacak.}}</translation>
-<translation id="1625909126243026060">Decentr'daki önemli gizlilik ve güvenlik kontrollerini inceleyin</translation>
-<translation id="1632539827495546968">Bu hesabı yalnızca bir kez kullanmak istiyorsanız Decentr tarayıcıda <ph name="GUEST_LINK_BEGIN" />misafir modunu<ph name="GUEST_LINK_END" /> kullanabilirsiniz. Başka biri için hesap eklemek isterseniz <ph name="DEVICE_TYPE" /> cihazınıza <ph name="LINK_BEGIN" />yeni bir kişi ekleyin<ph name="LINK_END" />.
-
-Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olabilir. Google Hesaplarınızı <ph name="SETTINGS_LINK_BEGIN" />Ayarlar<ph name="SETTINGS_LINK_END" /> bölümünden yönetebilirsiniz.</translation>
+<translation id="1667812772085710766">Decentr'u kapattığınızda, ziyaret ettiğiniz sayfalardaki çerezler ve site verileri otomatik olarak temizlenir</translation>
 <translation id="1708666629004767631">Decentr'un kullanabileceğiniz yeni, daha güvenli bir sürümü var.</translation>
 <translation id="1774152462503052664">Decentr'un arka planda çalışmasına izin ver</translation>
 <translation id="1779356040007214683">Decentr'u daha güvenli bir hale getirmek için <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> altında listelenmeyen ve bilginiz dışında eklenmiş olabilecek bazı uzantıları devre dışı bıraktık.</translation>
@@ -26,22 +23,16 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="1881322772814446296">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Decentr profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Decentr verileriniz kalıcı olarak <ph name="USER_NAME" /> ile bağlantılandırılacaktır. Google Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. İsterseniz mevcut Decentr verilerinizi ayrı tutmak için yeni bir profil oluşturabilirsiniz. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Bu özelliği kapatarak Decentr'da oturum açmadan Gmail gibi Google sitelerinde oturum açabilirsiniz</translation>
 <translation id="1929939181775079593">Decentr yanıt vermiyor. Şimdi yeniden başlatılsın mı?</translation>
-<translation id="1940680973325097484">Bu hesabı yalnızca bir kez kullanmak istiyorsanız Decentr tarayıcıda misafir modunu kullanabilirsiniz. Başka biri için hesap eklemek isterseniz <ph name="DEVICE_TYPE" /> cihazınıza <ph name="LINK_BEGIN" />yeni bir kişi ekleyin<ph name="LINK_END" />.
-
-Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olabilir. Google Hesaplarınızı <ph name="SETTINGS_LINK_BEGIN" />Ayarlar<ph name="SETTINGS_LINK_END" /> bölümünden yönetebilirsiniz.</translation>
 <translation id="1966382378801805537">Decentr, varsayılan tarayıcıyı tespit edemiyor veya ayarlayamıyor</translation>
 <translation id="1981611865800294956">&amp;Decentr OS'i güncellemek için yeniden başlat</translation>
 <translation id="2008474315282236005">Bu işlem 1 öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Decentr'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
 <translation id="2020032459870799438">Öteki şifrelerinizin veri ihlali ve diğer güvenlik sorunlarına karşı güvende olup olmadığını kontrol etmek için <ph name="BEGIN_LINK" />Decentr'da oturum açın<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Google hizmetlerinde daha fazla kişiselleştirilmiş deneyimden faydalanmak için Decentr geçmişinin eklenip eklenmeyeceğini seçin</translation>
 <translation id="2174178932569897599">Decentr'u özelleştir</translation>
 <translation id="2185166961232948079">Decentr - Ağda Oturum Açın - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Bir bilgisayarı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve Decentr'u tam olarak istedikleri şekilde ayarlayabilir.</translation>
 <translation id="2294245788148774212">İsteğe bağlı: Teşhis ve kullanım verilerini Google'a otomatik olarak göndererek Decentr OS özelliklerini ve performansını iyileştirmeye yardımcı olun.</translation>
-<translation id="2313870531055795960">URL'leri, Decentr'da kayıtlı güvenli olmayan siteler listesine göre kontrol eder. Decentr, bir sitenin şifrenizi çalmaya çalışması veya zararlı bir dosya indirmeniz halinde de Güvenli Tarama'ya sayfa içeriğinden parçalarla birlikte URL'ler gönderebilir.</translation>
 <translation id="2343156876103232566">Buradan Android telefonunuza numara göndermek için iki cihazdan da Decentr'da oturum açın.</translation>
 <translation id="2347108572062610441">Bu uzantı, Decentr'u başlattığınızda gösterilen sayfayı değiştirdi.</translation>
-<translation id="2359808026110333948">Devam et</translation>
 <translation id="2396765026452590966">"<ph name="EXTENSION_NAME" />" uzantısı, Decentr'u başlattığınızda gösterilen sayfayı değiştirdi.</translation>
 <translation id="2401032172288869980">Bu site için Decentr'un kamera ve mikrofon izinlerine ihtiyacı var</translation>
 <translation id="2483889755041906834">Decentr'da</translation>
@@ -49,8 +40,10 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="2535480412977113886">Hesap oturum açma ayrıntılarınız güncel olmadığından Decentr OS, verilerinizi senkronize edemedi.</translation>
 <translation id="2560420686485554789">Dosya indirmek için Decentr'un depolama alanına erişmesi gerekiyor</translation>
 <translation id="2572494885440352020">Decentr Yardımcısı</translation>
+<translation id="2577788541081224677">Decentr öğelerinize tüm cihazlarınızda erişmek için oturum açarak senkronizasyonu etkinleştirebilirsiniz.</translation>
 <translation id="2583187216237139145">Bu profil kullanılırken oluşturulan tüm Decentr verileri (yer işaretleri, geçmiş, şifreler ve diğer ayarlar gibi) iş profili yöneticisi tarafından kaldırılabilir. <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Güncellemenin uygulanması için Decentr OS yeniden başlatılmalıdır.</translation>
+<translation id="2614883797045469742">Varsayılan ayarlar çoğu kullanıcı için uygundur ancak bu ayarları Decentr'u nasıl kullanmak istediğinize göre özelleştirebilirsiniz</translation>
 <translation id="2648074677641340862">Yükleme sırasında bir işletim sistemi hatası oluştu. Lütfen Decentr'u yeniden indirin.</translation>
 <translation id="2661879430930417727">Bir cihazı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve Decentr'u tam olarak istedikleri şekilde ayarlayabilirler.</translation>
 <translation id="2711502716910134313">Decentr Sekmesi</translation>
@@ -59,11 +52,9 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="2799223571221894425">Yeniden başlat</translation>
 <translation id="2837693172913560447">Bu işlem, <ph name="USER_EMAIL_ADDRESS" /> için yeni bir Decentr profili oluşturacak</translation>
 <translation id="2847479871509788944">Decentr'dan kaldır...</translation>
-<translation id="2850691299438350830">Decentr'da güvende kalmanızı sağlar ve oturum açtığınızda diğer Google uygulamalarında güvenliğinizi artırmak için kullanılabilir.</translation>
 <translation id="2885378588091291677">Görev Yöneticisi</translation>
 <translation id="2910007522516064972">&amp;Decentr hakkında</translation>
 <translation id="2977470724722393594">Decentr güncel durumda</translation>
-<translation id="2977506796191543575">Decentr, bir sitenin şifrenizi çalmaya çalışması veya zararlı bir dosya indirmeniz halinde de Güvenli Tarama'ya sayfa içeriğinden parçalarla birlikte URL'ler gönderebilir.</translation>
 <translation id="2983934633046890458">Decentr şifreleri düzenlemeye çalışıyor.</translation>
 <translation id="3032706164202344641">Decentr, şifrelerinizi kontrol edemiyor. Daha sonra tekrar deneyin.</translation>
 <translation id="3032787606318309379">Decentr'a ekleniyor ...</translation>
@@ -114,20 +105,18 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="4407044323746248786">Yine de Decentr'dan çıkılsın mı?</translation>
 <translation id="4415566066719264597">Decentr'un Arka Planda Çalışmasına İzin Ver</translation>
 <translation id="4423735387467980091">Decentr'u özelleştirin ve kontrol edin</translation>
-<translation id="4427306783828095590">Gelişmiş koruma, kimlik avını ve kötü amaçlı yazılımları engellemek için daha fazla özellik sunar</translation>
 <translation id="452711251841752011">Decentr'a hoş geldiniz; yeni tarayıcı penceresi açıldı</translation>
 <translation id="4544142686420020088">Decentr güncellenmedi. Bir sorun oluştu. <ph name="BEGIN_LINK" />Decentr güncelleme sorunlarını ve başarısız güncellemeleri düzeltin.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Yeni bir Decentr profilinde devam edilsin mi?</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> olarak oturum açtınız. Şimdi oturum açtığınız tüm cihazlarda yer işaretlerinize, geçmişinize ve diğer ayarlarınıza erişebilirsiniz.</translation>
 <translation id="459535195905078186">Decentr Uygulamaları</translation>
-<translation id="4621240073146040695">Az kaldı! Güncellemeyi tamamlamak için Decentr'u yeniden başlatın.</translation>
 <translation id="4665829708273112819">Uyarı: Decentr, uzantıların tarama geçmişinizi kaydetmesini engelleyemez. Gizli modda bu uzantıyı devre dışı bırakmak için bu seçeneğin onay işaretini kaldırın.</translation>
-<translation id="4673151026126227699">Chrome kullanım raporlarını da paylaşıyorsanız, ziyaret ettiğiniz URL'ler de bu raporlar kapsamında paylaşılır</translation>
 <translation id="4677944499843243528">Profilin başka bir bilgisayarda (<ph name="HOST_NAME" />) başka bir Decentr işlemi (<ph name="PROCESS_ID" />) tarafından kullanıldığı anlaşılıyor. Decentr, profili bozulmaması için kilitledi. Bu profili başka hiçbir işlemin kullanmadığından eminseniz profilin kilidini açabilir ve Decentr'u tekrar başlatabilirsiniz.</translation>
 <translation id="469338717132742108">Decentr OS ile ilgili yardım alın</translation>
 <translation id="4708774505295300557">Birisi daha önce bu bilgisayarda <ph name="ACCOUNT_EMAIL_LAST" /> olarak Decentr oturumu açmış. Bilgilerinizi ayrı tutmak için yeni bir Decentr kullanıcısı oluşturun.</translation>
 <translation id="4746050847053251315">Yine de Decentr'dan çıkılsın mı?</translation>
 <translation id="4748217263233248895">Decentr için özel bir güvenlik güncellemesi uygulandı. Uygulamayı hemen yeniden başlatın; açık sekmeleriniz geri yüklenir.</translation>
+<translation id="4750035648288509542">Güncel hale gelmek üzere! Güncellemenin tamamlanması için Decentr'u yeniden başlatın. Gizli pencereler yeniden açılmayacak.</translation>
 <translation id="4788777615168560705">Decentr, şifrelerinizi kontrol edemiyor. 24 saat sonra tekrar deneyin veya <ph name="BEGIN_LINK" />şifreleri Google Hesabınızda kontrol edin<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Bu işlev, Google Arama'da kullanılan yazım denetiminin aynısını kullanır. Tarayıcıda yazdığınız metin Google'a gönderilir. Bu davranışı istediğiniz zaman ayarlardan değiştirebilirsiniz.</translation>
 <translation id="4888717733111232871">Decentr'un mDNS trafiğine izin vermeyi sağlayan gelen trafik kuralı.</translation>
@@ -142,8 +131,10 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="5386450000063123300">Decentr güncelleniyor (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Decentr'da oturum açmaya izin verin</translation>
 <translation id="5398878173008909840">Decentr'un yeni bir sürümü çıktı.</translation>
+<translation id="5416696090975899932">Decentr, dahili PDF görüntüleyici yokken baskı önizlemeyi gösteremez.</translation>
 <translation id="5427571867875391349">Decentr'u varsayılan tarayıcım olarak ayarla</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
+<translation id="5479196819031988440">Decentr OS bu sayfayı açamıyor.</translation>
 <translation id="5480860683791598150">Konumunuzu bu siteyle paylaşabilmek için Decentr'un konum bilgilerinize erişmesi gerekiyor</translation>
 <translation id="549669000822060376">Decentr en son sistem güncellemelerini yüklerken lütfen bekleyin.</translation>
 <translation id="5496810170689441661">Decentr şifreleri düzenlemeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
@@ -174,7 +165,6 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="6212496753309875659">Bu bilgisayarda Decentr'un daha yeni bir sürümü de var. Yazılım çalışmıyorsa, Decentr'u kaldırın ve tekrar deneyin.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr şimdi yeniden başlatılacak}=1{Decentr 1 saniye içinde yeniden başlatılacak}other{Decentr # saniye içinde yeniden başlatılacak}}</translation>
 <translation id="6241367896540709610">Dosya indirmek için Decentr'un depolama alanına erişmesi gerekiyor</translation>
-<translation id="6245734527075554892">URL'leri, Decentr'da kayıtlı güvenli olmayan siteler listesine göre kontrol eder.</translation>
 <translation id="6248213926982192922">Decentr varsayılan tarayıcı olsun</translation>
 <translation id="6266342355635466082">Decentr güncellemeleri denetleyemiyor. İnternet bağlantınızı kontrol etmeyi deneyin.</translation>
 <translation id="6268381023930128611">Decentr oturumunu kapatıyor musunuz?</translation>
@@ -201,6 +191,7 @@ Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olab
 <translation id="6717134281241384636">Profiliniz daha yeni bir Decentr sürümünden olduğundan kullanılamıyor.
 
 Bazı özellikler kullanılamayabilir. Lütfen farklı bir profil dizini belirtin veya daha yeni bir Decentr sürümünü kullanın.</translation>
+<translation id="6734080038664603509">&amp;Decentr'u güncelle</translation>
 <translation id="6734291798041940871">Decentr zaten bilgisayarınızdaki tüm kullanıcılar için yüklendi.</translation>
 <translation id="673636774878526923">Decentr öğelerinize tüm cihazlarınızda erişmek için oturum açın ve senkronizasyonu etkinleştirin.</translation>
 <translation id="6774082503108938489">Ebeveyniniz, Decentr'a yönelik "Siteler, uygulamalar ve uzantılar için izinler"i kapattı. Bu <ph name="EXTENSION_TYPE_PARAMETER" /> uzantısının etkinleştirilmesine izin verilmiyor.</translation>
@@ -215,11 +206,12 @@ Bazı özellikler kullanılamayabilir. Lütfen farklı bir profil dizini belirti
 <translation id="6990124437352146030">Decentr'un bu sitede mikrofonunuza erişmesi için izin gerekiyor</translation>
 <translation id="705851970750939768">Decentr'u güncelle</translation>
 <translation id="7067091210845072982">Bir resmin işe yarar bir açıklaması yoksa, Decentr sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Google'a gönderilir.</translation>
+<translation id="7147279922647361552">Decentr'un en önemli gizlilik seçeneklerinden bazılarını özelleştirme</translation>
 <translation id="718435575166326686">Bu site için Decentr'un kamera iznine ihtiyacı var</translation>
 <translation id="7196312274710523067">Decentr başlatılamadı. Tekrar deneyin.</translation>
 <translation id="7197677400338048821">Decentr, şifrelerinizi kontrol edemiyor. 24 saat sonra tekrar deneyin.</translation>
-<translation id="7218568399872925918">Ziyaret ettiğiniz siteler, Decentr'u kapatana kadar bilgilerinizi hatırlar</translation>
 <translation id="7223968959479464213">Görev Yöneticisi - Decentr</translation>
+<translation id="731644333568559921">&amp;Decentr OS'i güncelle</translation>
 <translation id="731795002583552498">Decentr güncelleniyor</translation>
 <translation id="7318036098707714271">Tercihler dosyanız bozuk veya geçersiz.
 
@@ -228,21 +220,17 @@ Decentr ayarlarınızı kurtaramıyor.</translation>
 <translation id="7339898014177206373">Yeni pencere</translation>
 <translation id="734373864078049451">Web, yer işaretleri ve diğer Decentr bilgileriniz burada bulunur.</translation>
 <translation id="7349591376906416160">Sistem yöneticiniz Decentr'u <ph name="TARGET_URL_HOSTNAME" /> adresine erişmek için <ph name="ALTERNATIVE_BROWSER_NAME" /> tarayıcısını açacak şekilde yapılandırmış.</translation>
-<translation id="7398989605938454041">Decentr profilleri ile tüm Decentr öğelerinizi ayırabilirsiniz. Bu özellik, iş ile eğlenceyi daha kolay ayırmayı sağlar.</translation>
 <translation id="7448255348454382571">Decentr OS'i yeniden başlatın</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
 <translation id="7451052299415159299">Decentr'un bu sitede kameranıza erişmesi için izin gerekiyor</translation>
-<translation id="7467949745582939695">Decentr yeniden başlatılsın mı?</translation>
 <translation id="7483335560992089831">Şu anda çalışan aynı Decentr sürümünü yükleyemezsiniz. Lütfen Decentr'u kapatın ve yeniden deneyin.</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr 1 dakika içinde yeniden başlatılacak}other{Decentr # dakika içinde yeniden başlatılacak}}</translation>
 <translation id="7549178288319965365">Decentr OS hakkında</translation>
 <translation id="7561906087460245826">Decentr'daki verileri de temizle (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Bir ayar bu sayfada görünmüyorsa <ph name="LINK_BEGIN" />
       Decentr OS ayarlarınıza<ph name="LINK_END" /> bakın</translation>
-<translation id="7597596667193879455">Hesabınızda Gelişmiş Güvenli Tarama'yı etkinleştirdiniz. Artık Decentr'da kullanabilirsiniz.</translation>
 <translation id="761356813943268536">Decentr kameranızı ve mikrofonunuzu kullanıyor.</translation>
 <translation id="7617377681829253106">Decentr daha da iyi bir hale geldi</translation>
-<translation id="7682601070171973634">Decentr, sitelerin daha az veri kullanarak aynı tarama deneyimini sunmasını sağlayan yeni özellikleri keşfediyor</translation>
 <translation id="7686590090926151193">Decentr varsayılan tarayıcınız değil</translation>
 <translation id="7689606757190482937">Decentr'u cihazlarınız arasında senkronize edin ve kişiselleştirin</translation>
 <translation id="7729447699958282447">Senkronizasyon alan adınızda kullanılamadığından Decentr, verilerinizi senkronize edemedi.</translation>
@@ -252,11 +240,11 @@ Decentr ayarlarınızı kurtaramıyor.</translation>
 <translation id="7828947555739565424">Cihazda bu hesaba sahip bir Decentr profili zaten var</translation>
 <translation id="7857220146454061152">Gelecekteki Decentr güncellemelerini almak için OS X 10.11 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar OS X 10.10 kullanıyor.</translation>
 <translation id="7867198900892795913">Decentr en son sürüme güncellenemediği için yeni özellikler ve güvenlik düzeltmeleri cihazınızda bulunmuyor.</translation>
-<translation id="788352880609666695">Bu Decentr profili için aşağıdaki hesaplar kullanılabilir</translation>
 <translation id="7898472181347242998">Cihazınızın güncel olup olmadığını görmek için <ph name="LINK_BEGIN" />Decentr OS Ayarları<ph name="LINK_END" />'na gidin</translation>
 <translation id="7937630085815544518">Decentr'da <ph name="USER_EMAIL_ADDRESS" /> olarak oturum açtınız. Tekrar oturum açmak için lütfen aynı hesabı kullanın.</translation>
 <translation id="7975919845073681630">Bu, Decentr'un ikincil bir yüklemesidir ve varsayılan tarayıcınız yapılamaz.</translation>
 <translation id="8013436988911883588">Decentr erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.</translation>
+<translation id="8045118833343856403">Aşağıdaki hesaplar hiçbir Decentr profilinde oturum açmamış. Başka profildeki bir hesabı kullanmak istiyorsanız önce bu profili kaldırın.</translation>
 <translation id="8105840573057009683">Bu site için Decentr'un konum iznine ihtiyacı var</translation>
 <translation id="81770708095080097">Bu dosya tehlikeli olduğu için Decentr tarafından engellendi.</translation>
 <translation id="8248265253516264921">Bir resmin işe yarar bir açıklaması yoksa, Decentr sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Google'a gönderilir. Bu özelliği istediğiniz zaman ayarlardan kapatabilirsiniz.</translation>
@@ -265,7 +253,6 @@ Decentr ayarlarınızı kurtaramıyor.</translation>
 <translation id="8290862415967981663">Bu dosya tehlikeli olabileceği için Decentr tarafından engellendi.</translation>
 <translation id="8330519371938183845">Decentr'u cihazlarınız arasında senkronize etmek ve kişiselleştirmek için oturum açın</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> önceden Decentr kullanıyordu</translation>
-<translation id="8357820681460164151">Decentr öğelerinize tüm cihazlarınızda erişmek için oturum açın ve senkronizasyonu etkinleştirin</translation>
 <translation id="8417404458978023919">{0,plural, =1{Decentr'u bir gün içinde yeniden başlatın}other{Decentr'u # gün içinde yeniden başlatın}}</translation>
 <translation id="8453117565092476964">Yükleyici arşivi bozuk veya geçersiz. Lütfen Decentr'u yeniden indirin.</translation>
 <translation id="8493179195440786826">Decentr Sürümü Eski</translation>
@@ -277,8 +264,6 @@ Decentr ayarlarınızı kurtaramıyor.</translation>
 <translation id="8621669128220841554">Yükleme belirtilmeyen bir hata nedeniyle başarısız oldu. Lütfen Decentr'u tekrar indirin.</translation>
 <translation id="8697124171261953979">Ayrıca Decentr'u başlattığınızda veya Çok Amaçlı Adres Çubuğu'ndan arama yaptığınızda gösterilecek sayfayı da denetler.</translation>
 <translation id="8704119203788522458">Bu sizin Decentr'unuz</translation>
-<translation id="8713679423359107094">Tüm Decentr pencerelerini kapattığınızda çerezler ve site verileri otomatik olarak silinir</translation>
-<translation id="8796443464227412154">Decentr'u kapattığınızda <ph name="BEGIN_BOLD" />çoğu sitede oturumunuz kapatılır<ph name="END_BOLD" />. Senkronizasyon kapalıysa <ph name="BEGIN_BOLD" />Google hizmetleri ve Decentr oturumunuz da kapatılır<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Decentr'un bu sitede kameranıza ve mikrofonunuza erişmesi için izin gerekiyor</translation>
 <translation id="8803635938069941624">Decentr OS şartları</translation>
 <translation id="8821041990367117597">Hesap oturum açma ayrıntılarınız güncel olmadığından Decentr, verilerinizi senkronize edemedi.</translation>
@@ -300,6 +285,5 @@ Decentr ayarlarınızı kurtaramıyor.</translation>
 <translation id="9214764063801632699">Decentr OS sistemi</translation>
 <translation id="93478295209880648">Decentr artık Windows XP veya Windows Vista üzerinde desteklenmediği için doğru şekilde çalışmayabilir</translation>
 <translation id="965162752251293939">Decentr'u kim kullanıyor?</translation>
-<translation id="967427899662692980">Decentr'un en güçlü güvenlik özelliğinden faydalanın</translation>
 <translation id="985602178874221306">The Decentr Authors</translation>
 </translationbundle>

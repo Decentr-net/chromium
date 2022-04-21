@@ -16,10 +16,7 @@ Eginbide batzuk agian dira erabilgarri egongo eta hobespenei egindako aldaketak 
 <translation id="1524282610922162960">Partekatu Decentr-eko fitxa bat</translation>
 <translation id="1553461853655228091">Decentr-ek kamera atzitzeko baimena behar du, ingurunearen hiru dimentsioko mapa bat sortzeko</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Decentr berrabiaraz dezazun behar du administratzaileak, eguneratzea aplikatzeko}=1{Decentr berrabiaraz dezazun behar du administratzaileak, eguneratzea aplikatzeko. Ezkutuko moduko leihoa ez da berriro irekiko.}other{Decentr berrabiaraz dezazun behar du administratzaileak, eguneratzea aplikatzeko. Ezkutuko moduko # leihoak ez dira berriro irekiko.}}</translation>
-<translation id="1625909126243026060">Berrikusi pribatutasuna eta segurtasuna kontrolatzeko aukera garrantzitsuenak Decentr-en</translation>
-<translation id="1632539827495546968">Kontu hau behin bakarrik erabili nahi baduzu, <ph name="GUEST_LINK_BEGIN" />gonbidatu modua<ph name="GUEST_LINK_END" /> erabil dezakezu Decentr arakatzailean. Kontu bat beste norbaitentzat gehitu nahi baduzu, <ph name="LINK_BEGIN" />gehitu beste pertsona bat<ph name="LINK_END" /> <ph name="DEVICE_TYPE" /> gailuan.
-
-Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Google-ko kontuak kudeatzeko, joan <ph name="SETTINGS_LINK_BEGIN" />Ezarpenak<ph name="SETTINGS_LINK_END" /> atalera.</translation>
+<translation id="1667812772085710766">Decentr ixten duzunean, automatikoki garbitzen ditu bisitatu dituzun orrietan dauden cookieak eta webguneetako datuak</translation>
 <translation id="1708666629004767631">Decentr-en bertsio berriagoa eta seguruagoa erabilgarri dago.</translation>
 <translation id="1774152462503052664">Onartu Decentr atzeko planoan abiaraztea</translation>
 <translation id="1779356040007214683">Decentr seguruagoa izan dadin, zuk jakin gabe gehitu izan dituzten eta <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> dendan zerrendatu gabe dauden luzapen batzuk desgaitu ditugu.</translation>
@@ -28,22 +25,16 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="1881322772814446296">Kontu kudeatu batekin hasten ari zara saioa eta kontuaren administratzaileari zure Decentr profila kontrolatzeko ahalmena ematera zoaz. Decentr aplikazioan dituzun datuak, esaterako, aplikazioak, laster-markak, historia, pasahitzak eta beste ezarpen batzuk betiko lotuko zaizkio <ph name="USER_NAME" /> erabiltzaileari. Google-ko kontuetako Panelaren bidez ezabatu ahalko dituzu datu horiek, baina ezingo dituzu beste kontu batekin lotu. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Aukera hau desaktibatzen baduzu, Google-ren webguneetan saioa hasi ahalko duzu (adibidez, Gmail-en) Decentr-en saioa hasi beharrik gabe</translation>
 <translation id="1929939181775079593">Decentr-ek ez du eranzuten. Berrabiarazi nahi duzu?</translation>
-<translation id="1940680973325097484">Kontu hau behin bakarrik erabili nahi baduzu, gonbidatu modua erabil dezakezu Decentr arakatzailean. Kontu bat beste norbaitentzat gehitu nahi baduzu, <ph name="LINK_BEGIN" />gehitu beste pertsona bat<ph name="LINK_END" /> <ph name="DEVICE_TYPE" /> gailuan.
-
-Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Google-ko kontuak kudeatzeko, joan <ph name="SETTINGS_LINK_BEGIN" />Ezarpenak<ph name="SETTINGS_LINK_END" /> atalera.</translation>
 <translation id="1966382378801805537">Decentr-ek ezin du ezarri edo zehaztu arakatzaile lehenetsia</translation>
 <translation id="1981611865800294956">Abiaraz ezazu berriro &amp;Decentr OS eguneratzeko</translation>
 <translation id="2008474315282236005">Gailuko elementu bat ezabatuko da. Geroago datuak eskuratu nahi izanez gero, hasi saioa Decentr-en <ph name="USER_EMAIL" /> gisa.</translation>
 <translation id="2020032459870799438">Gainerako pasahitzak datuen isilpekotasunaren urratzeen eta beste segurtasun-arazoen aurka babestuta dauden egiaztatzeko, <ph name="BEGIN_LINK" />hasi saioa Decentr-en<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Aukeratu ea Decentr-eko historia kontuan hartu nahi duzun ala ez Google-ren zerbitzuak modu pertsonalizatuago batean erabiltzeko</translation>
 <translation id="2174178932569897599">Pertsonalizatu Decentr</translation>
 <translation id="2185166961232948079">Decentr - Hasi saioa sarean - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Ordenagailua partekatzen baduzu, lagunek eta familiako kideek euren kontuak erabilita ibil daitezke Interneten, nahi duten moduan.</translation>
-<translation id="2294245788148774212">Aukerakoa: lagundu Decentr OS sistemaren eginbideak eta funtzionamendua hobetzen Google-ri diagnostiko- eta erabilera-datuak automatikoki bidalita.</translation>
-<translation id="2313870531055795960">URLak Decentr-en gordetako webgune ez-seguruen zerrendan dauden ala ez egiaztatzen du. Webguneren bat pasahitza lapurtzen saiatzen bada, edo fitxategi kaltegarriren bat deskargatzen baduzu, baliteke Decentr-ek URLak ere bidaltzea (orriko edukiaren zati batzuk barne) Arakatze segurua eginbideari.</translation>
+<translation id="2294245788148774212">Aukerakoa: lagundu Decentr OS sistemaren eginbideak eta funtzionamendua hobetzen Google-ri diagnostikoak eta erabilera-datuak automatikoki bidalita.</translation>
 <translation id="2343156876103232566">Zenbaki bat hemendik Android-eko telefonora bidaltzeko, hasi Decentr-eko saioa bi gailuetan.</translation>
 <translation id="2347108572062610441">Luzapenak aldatu egin du Decentr abiarazten duzunean agertzen den orria.</translation>
-<translation id="2359808026110333948">Egin aurrera</translation>
 <translation id="2396765026452590966"><ph name="EXTENSION_NAME" /> luzapenak aldatu egin du Decentr abiarazten duzunean agertzen den orria.</translation>
 <translation id="2401032172288869980">Decentr-ek kamera eta mikrofonoa atzitzeko baimenak behar ditu webgune honetan</translation>
 <translation id="2483889755041906834">Decentr-en</translation>
@@ -51,6 +42,7 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="2535480412977113886">Decentr OS sistemak ezin izan ditu zure datuak sinkronizatu kontuan saioa hasteko datuak iraungi egin direlako.</translation>
 <translation id="2560420686485554789">Decentr-ek fitxategiak deskargatzearren memorian sartzeko baimena behar du</translation>
 <translation id="2572494885440352020">Decentr laguntzailea</translation>
+<translation id="2577788541081224677">Decentr-eko gauzak gailu guztietan atzitze aldera, hasi saioa sinkronizazioa aktibatzeko.</translation>
 <translation id="2583187216237139145">Laneko profilaren administratzaileak kendu egin ditzake profil hau erabiltzean sortutako Decentr-eko datuak (adibidez, sortutako laster-markak, historia, pasahitzak eta bestelako ezarpenak). <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Eguneratzea aplikatzeko, berrabiarazi egin behar da Decentr sistema eragilea.</translation>
 <translation id="2648074677641340862">Sistema-eragilean errore bat gertatu da instalatu bitartean. Deskargatu Decentr berriro.</translation>
@@ -61,11 +53,9 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="2799223571221894425">Abiarazi berriro</translation>
 <translation id="2837693172913560447">Decentr-eko beste profil bat sortuko da <ph name="USER_EMAIL_ADDRESS" /> helbiderako</translation>
 <translation id="2847479871509788944">Kendu Decentr-etik…</translation>
-<translation id="2850691299438350830">Babestuta mantentzen zaitu Decentr-en, eta segurtasuna hobetzeko erabil daiteke Google-ren beste aplikazio batzuetan saioa hasita daukazunean</translation>
 <translation id="2885378588091291677">Zereginen kudeatzailea</translation>
 <translation id="2910007522516064972">&amp;Decentr arakatzaileari buruz</translation>
 <translation id="2977470724722393594">Eguneratuta dago Decentr</translation>
-<translation id="2977506796191543575">Webguneren bat pasahitza lapurtzen saiatzen bada edo fitxategi kaltegarriren bat deskargatzen baduzu, baliteke Decentr-ek URLak ere bidaltzea (orriko edukiaren zati batzuk barne) Arakatze segurua eginbideari.</translation>
 <translation id="2983934633046890458">Pasahitzak editatzen saiatzen ari da Decentr.</translation>
 <translation id="3032706164202344641">Decentr-ek ezin ditu egiaztatu pasahitzak. Saiatu geroago.</translation>
 <translation id="3032787606318309379">Decentr-era gehitzen…</translation>
@@ -118,20 +108,18 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="4407044323746248786">Decentr-etik irten nahi duzu hala ere?</translation>
 <translation id="4415566066719264597">Onartu Decentr atzeko planoan abiaraztea</translation>
 <translation id="4423735387467980091">Pertsonalizatu eta kontrolatu Decentr</translation>
-<translation id="4427306783828095590">Babes handiagoa eskaintzen du phishingaren eta malwarearen aurka</translation>
 <translation id="452711251841752011">Ongi etorri Decentr-era; beste leiho bat ireki da arakatzailean</translation>
 <translation id="4544142686420020088">Decentr ez da eguneratu arazoren bat izan delako. <ph name="BEGIN_LINK" />Konpondu Decentr eguneratzeko arazoak eta huts egindako eguneratzeak.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Decentr-eko beste profil batean egin nahi duzu aurrera?</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> gisa hasi duzu saioa. Laster-markak, historia eta bestelako ezarpenak atzi ditzakezu saioa hasita daukaten gailu guztien bidez.</translation>
 <translation id="459535195905078186">Decentr aplikazioak</translation>
-<translation id="4621240073146040695">Ia amaitu dugu! Eguneratzen amaitzeko, berrabiarazi Decentr.</translation>
 <translation id="4665829708273112819">Abisua: Decentr-ek ezin die eragotzi luzapenei arakatze-historia erregistratzea. Ezkutuko moduan luzapen hau desgaitzeko, desautatu aukera.</translation>
-<translation id="4673151026126227699">Decentr-en erabilera-txostenak ere partekatzen badituzu, bisitatzen dituzun URLak agertuko dira txosten horietan</translation>
 <translation id="4677944499843243528">Beste Decentr prozesu bat (<ph name="PROCESS_ID" />) beste ordenagailu batean (<ph name="HOST_NAME" />) profila erabiltzen ari dela dirudi. Decentr-ek profila blokeatu du honda ez dadin. Ziur badakizu ez dela beste inongo prozesurik profila erabiltzen ari, profila desblokea dezakezu eta Decentr berrabiarazi.</translation>
 <translation id="469338717132742108">Lortu Decentr sistema eragilea erabiltzeko laguntza</translation>
 <translation id="4708774505295300557">Norbaitek <ph name="ACCOUNT_EMAIL_LAST" /> gisa hasi du saioa Decentr-en ordenagailu hau erabilita. Zure informazioa bereizita izateko, sortu beste Decentr erabiltzaile bat.</translation>
 <translation id="4746050847053251315">Decentr-etik irten nahi duzu hala ere?</translation>
 <translation id="4748217263233248895">Decentr-en segurtasun-eguneratze berezi bat aplikatu berri da. Berrabiarazi gailua, eta fitxak leheneratuko dizkizugu.</translation>
+<translation id="4750035648288509542">Ia amaitu dugu eguneratzen. Abiarazi berriro Decentr eguneratzen amaitzeko. Ezkutuko moduko leihoak ez dira berriro irekiko.</translation>
 <translation id="4788777615168560705">Decentr-ek ezin ditu egiaztatu pasahitzak. Saiatu berriro 24 ordu barru edo <ph name="BEGIN_LINK" />egiaztatu pasahitzak Google-ko kontuan<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Google Bilaketa zerbitzuan erabiltzen den ortografia-zuzentzaile bera erabiltzen da. Arakatzailean idazten duzun testua Google-ri bidaltzen zaio. Aukera horiek aldatzeko, joan ezarpenetara.</translation>
 <translation id="4888717733111232871">Decentr-ek mDNS trafikoa baimentzeko sarrerako araua.</translation>
@@ -146,8 +134,10 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="5386450000063123300">Decentr eguneratzen (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Baimendu Decentr-en saioa hastea</translation>
 <translation id="5398878173008909840">Decentr arakatzailearen bertsio berria erabilgarri dago.</translation>
+<translation id="5416696090975899932">Decentr-ek ezin du erakutsi inprimatze-aurrebista PDF dokumentuen ikustaile integratua falta bada.</translation>
 <translation id="5427571867875391349">Ezarri Decentr arakatzaile lehenetsi gisa</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
+<translation id="5479196819031988440">Decentr sistema eragileak ezin du ireki orri hau.</translation>
 <translation id="5480860683791598150">Decentr-ek zure kokapena webgune honekin partekatzeko baimena behar du</translation>
 <translation id="549669000822060376">Itxaron Decentr-ek sistemaren azken eguneratzeak instalatu arte.</translation>
 <translation id="5496810170689441661">Pasahitzak editatzen saiatzen ari da Decentr. Hori baimentzeko, idatzi Windows-eko pasahitza.</translation>
@@ -178,7 +168,6 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="6212496753309875659">Ordenagailuak Decentr arakatzailearen bertsio berriagoa du. Softwareak ez badu funtzionatzean, desinstalatu Decentr eta saiatu berriro.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Orain berrabiaraziko da Decentr}=1{1 segundo barru berrabiaraziko da Decentr}other{# segundo barru berrabiaraziko da Decentr}}</translation>
 <translation id="6241367896540709610">Decentr-ek biltegia atzitzeko baimena behar du fitxategiak deskargatu ahal izateko</translation>
-<translation id="6245734527075554892">URLak Decentr-en gordetako webgune ez-seguruen zerrendan dauden ala ez egiaztatzen du.</translation>
 <translation id="6248213926982192922">Ezarri Decentr arakatzaile lehenetsi gisa</translation>
 <translation id="6266342355635466082">Decentr-ek ezin du egiaztatu eguneratzerik dagoen. Egiaztatu Internetera konektatuta zaudela.</translation>
 <translation id="6268381023930128611">Decentr-eko saioa amaitu?</translation>
@@ -205,6 +194,7 @@ Baliteke webguneei eta aplikazioei emandako baimenak kontu honi aplikatzea. Goog
 <translation id="6717134281241384636">Ezin duzu profila erabili Decentr bertsio berriago batekoa delako.
 
 Baliteke eginbide batzuk erabilgarri ez egotea. Adierazi beste profil-direktorio bat edo erabili Decentr bertsio berriago bat.</translation>
+<translation id="6734080038664603509">Eguneratu &amp;Decentr</translation>
 <translation id="6734291798041940871">Ordenagailuko erabiltzaile guztientzat dago instalatuta Decentr.</translation>
 <translation id="673636774878526923">Decentr-eko gauzak gailu guztietan atzitzeko, hasi saioa eta aktibatu sinkronizazioa.</translation>
 <translation id="6774082503108938489">Zure gurasoak "Webguneen, aplikazioen eta luzapenen baimenak" desaktibatu ditu Decentr-en. Ezin da gaitu <ph name="EXTENSION_TYPE_PARAMETER" />.</translation>
@@ -222,8 +212,8 @@ Baliteke eginbide batzuk erabilgarri ez egotea. Adierazi beste profil-direktorio
 <translation id="718435575166326686">Decentr-ek kamera atzitzeko baimena behar du webgune honetan</translation>
 <translation id="7196312274710523067">Ezin izan da abiarazi Decentr. Saiatu berriro.</translation>
 <translation id="7197677400338048821">Decentr-ek ezin ditu egiaztatu pasahitzak. Saiatu berriro 24 ordu barru.</translation>
-<translation id="7218568399872925918">Bisitatzen dituzun webguneek zure informazioa gogoratzen dute Decentr itxi arte</translation>
 <translation id="7223968959479464213">Ataza-kudeatzailea - Decentr</translation>
+<translation id="731644333568559921">Eguneratu &amp;Decentr OS</translation>
 <translation id="731795002583552498">Decentr eguneratzen</translation>
 <translation id="7318036098707714271">Hobespenen fitxategia hondatuta dago edo ez da baliozkoa.
 
@@ -232,21 +222,17 @@ Decentr-ek ezin ditu ezarpenak berreskuratu.</translation>
 <translation id="7339898014177206373">Leiho berria</translation>
 <translation id="734373864078049451">Webguneak, laster-markak eta Decentr-eko beste gauzak hemen daude.</translation>
 <translation id="7349591376906416160">Sistemaren administratzailearen konfigurazioaren arabera, Decentr-ek <ph name="ALTERNATIVE_BROWSER_NAME" /> arakatzailea ireki behar du <ph name="TARGET_URL_HOSTNAME" /> helbidera joateko.</translation>
-<translation id="7398989605938454041">Decentr-eko profilekin, Decentr-en dituzun gauza guztiak bereiz ditzakezu. Hala, errazago edukiko dituzu bananduta gauza pertsonalak eta lanekoak.</translation>
 <translation id="7448255348454382571">Berrabiarazi Decentr OS</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
 <translation id="7451052299415159299">Decentr-ek webgune honen izenean kamera atzitzeko baimena behar du</translation>
-<translation id="7467949745582939695">Decentr berrabiarazi nahi duzu?</translation>
 <translation id="7483335560992089831">Ezin da instalatu une honetan abian den Decentr-en bertsio bera. Itxi Decentr eta saiatu berriro.</translation>
 <translation id="753534427205733210">{0,plural, =1{1 minutu barru berrabiaraziko da Decentr}other{# minutu barru berrabiaraziko da Decentr}}</translation>
 <translation id="7549178288319965365">Decentr sistema eragileari buruz</translation>
 <translation id="7561906087460245826">Halaber, garbitu Decentr-eko datuak (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Ezarpenen bat orri honetan agertzen ez bada, bila ezazu <ph name="LINK_BEGIN" />
       Decentr-en sistema eragilearen ezarpenetan.<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Arakatze seguru hobetua aktibatu duzu kontuan. Orain, eskura ezazu Decentr-erako.</translation>
 <translation id="761356813943268536">Decentr kamera eta mikrofonoa erabiltzen ari da.</translation>
 <translation id="7617377681829253106">Decentr hobetu egin dugu</translation>
-<translation id="7682601070171973634">Decentr eginbide berriak probatzen ari da; haiei esker, datu gutxiago erabilita sarea modu berean arakatzeko aukera eskainiko dute webguneek</translation>
 <translation id="7686590090926151193">Decentr ez da zure arakatzaile lehenetsia</translation>
 <translation id="7689606757190482937">Sinkronizatu eta pertsonalizatu Decentr gailu guzietan</translation>
 <translation id="7729447699958282447">Decentr-ek ezin izan dizkizu sinkronizatu datuak sinkronizazioa ez dagoelako erabilgarri zure domeinuan.</translation>
@@ -256,11 +242,11 @@ Decentr-ek ezin ditu ezarpenak berreskuratu.</translation>
 <translation id="7828947555739565424">Badago kontu honen Decentr-eko profil bat gailu honetan</translation>
 <translation id="7857220146454061152">Etorkizunean Decentr-en eguneratzeak eskuratzeko, OS X 10.11 edo bertsio berriago bat beharko duzu. Ordenagailu hau OS X 10.10 erabiltzen ari da.</translation>
 <translation id="7867198900892795913">Ezin izan da eguneratu Decentr azken bertsiora; beraz, ez dituzu erabilgarri eginbide berriak eta segurtasun-konponketak.</translation>
-<translation id="788352880609666695">Kontu hauek erabil daitezke Decentr-eko profil honekin:</translation>
 <translation id="7898472181347242998">Gailua eguneratuta dagoen ikusteko, joan <ph name="LINK_BEGIN" />Decentr OS sistemaren ezarpenetara<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">Decentr-en <ph name="USER_EMAIL_ADDRESS" /> gisa hasi duzu saioa. Saioa berriro hasteko, erabili hasiera batean erabilitako kontu bera.</translation>
 <translation id="7975919845073681630">Decentr-en bigarren mailako instalazio bat da hau; beraz, ezin duzu ezarri arakatzaile lehenetsi gisa.</translation>
 <translation id="8013436988911883588">Decentr-ek sarbidea duenean, webguneek sarbidea eskatuko dizute.</translation>
+<translation id="8045118833343856403">Kontu hauek ez dute hasi saioa Decentr-eko inongo profiletan. Beste profil bateko kontu bat erabili nahi baduzu, kendu lehenik profil hori.</translation>
 <translation id="8105840573057009683">Decentr-ek kokapena atzitzeko baimena behar du webgune honetan</translation>
 <translation id="81770708095080097">Fitxategia arriskutsua da; horregatik, blokeatu egin du Decentr-ek.</translation>
 <translation id="8248265253516264921">Irudiren batek ez badu azalpen lagungarririk, halako bat lortzen ahaleginduko da Decentr. Azalpen horiek sortzeko, irudiak Google-ri bidaltzen zaizkio. Aukera hori desaktibatu nahi baduzu, joan ezarpenetara.</translation>
@@ -269,7 +255,6 @@ Decentr-ek ezin ditu ezarpenak berreskuratu.</translation>
 <translation id="8290862415967981663">Baliteke fitxategia arriskutsua izatea; horregatik, blokeatu egin du Decentr-ek.</translation>
 <translation id="8330519371938183845">Hasi saioa Decentr gailu guztietan sinkronizatu eta pertsonalizatzeko</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> Decentr erabiltzen ari da lehendik ere</translation>
-<translation id="8357820681460164151">Decentr arakatzaileko gauzak gailu guztietan atzitzeko, hasi saioa eta aktibatu sinkronizazioa</translation>
 <translation id="8417404458978023919">{0,plural, =1{Berrabiarazi Decentr egun bateko epean}other{Berrabiarazi Decentr # eguneko epean}}</translation>
 <translation id="8453117565092476964">Instalatzailearen artxiboa hondatuta dago edo baliogabea da. Deskargatu Decentr berriro.</translation>
 <translation id="8493179195440786826">Decentr zaharkituta dago</translation>
@@ -281,8 +266,6 @@ Decentr-ek ezin ditu ezarpenak berreskuratu.</translation>
 <translation id="8621669128220841554">Instalazioak huts egin du zehaztu gabeko errore batengatik. Deskargatu Decentr berriro.</translation>
 <translation id="8697124171261953979">Decentr hasten duzunean edo Omnibox-etik bilaketak egiten dituzunean erakusten den orria ere kontrolatzen du.</translation>
 <translation id="8704119203788522458">Hau da zure Decentr arakatzailea</translation>
-<translation id="8713679423359107094">Decentr-eko leiho guztiak ixten dituzunean, automatikoki garbituko dira cookieak eta webguneetako datuak</translation>
-<translation id="8796443464227412154"><ph name="BEGIN_BOLD" />Webgune gehienen saioa amaitu egingo da<ph name="END_BOLD" /> Decentr ixtean. Sinkronizazioa desaktibatuta badago, <ph name="BEGIN_BOLD" />Google-ren zerbitzuen eta Decentr-en saioak ere amaituko<ph name="END_BOLD" /> dira.</translation>
 <translation id="8796602469536043152">Decentr-ek webgune honen izenean kamera eta mikrofonoa atzitzeko baimena behar du</translation>
 <translation id="8803635938069941624">Decentr OS sistema eragilearen baldintzak</translation>
 <translation id="8821041990367117597">Decentr-ek ezin izan ditu zure datuak sinkronizatu kontuan saioa hasteko datuak iraungi egin direlako.</translation>
@@ -304,6 +287,5 @@ Decentr-ek ezin ditu ezarpenak berreskuratu.</translation>
 <translation id="9214764063801632699">Decentr OS</translation>
 <translation id="93478295209880648">Decentr-ek agian ez du behar bezala funtzionatuko, jada ez baita bateragarria Windows XP eta Windows Vista-rekin</translation>
 <translation id="965162752251293939">Nor erabiltzen ari da Decentr?</translation>
-<translation id="967427899662692980">Lortu Decentr-en segurtasun-aukerarik sendoena</translation>
 <translation id="985602178874221306">Decentr egileak</translation>
 </translationbundle>

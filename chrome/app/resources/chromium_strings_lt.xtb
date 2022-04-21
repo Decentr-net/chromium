@@ -16,10 +16,7 @@ Kai kurios funkcijos gali būti nepasiekiamos ir nuostatų pakeitimai nebus išs
 <translation id="1524282610922162960">„Decentr“ skirtuko bendrinimas</translation>
 <translation id="1553461853655228091">„Decentr“ reikia leidimo naudoti fotoaparatą jūsų aplinkos 3D žemėlapiui kurti</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Administratorius reikalauja paleisti „Decentr“ iš naujo, kad būtų galima pritaikyti naujinį}=1{Administratorius reikalauja paleisti „Decentr“ iš naujo, kad būtų galima pritaikyti naujinį. Inkognito langas nebus atidarytas iš naujo.}one{Administratorius reikalauja paleisti „Decentr“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langas nebus atidarytas iš naujo.}few{Administratorius reikalauja paleisti „Decentr“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langai nebus atidaryti iš naujo.}many{Administratorius reikalauja paleisti „Decentr“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito lango nebus atidaryta iš naujo.}other{Administratorius reikalauja paleisti „Decentr“ iš naujo, kad būtų galima pritaikyti naujinį. # inkognito langų nebus atidaryta iš naujo.}}</translation>
-<translation id="1625909126243026060">Peržiūrėkite pagrindinius privatumo ir saugos valdiklius naršyklėje „Decentr“</translation>
-<translation id="1632539827495546968">Jei norite šią paskyrą naudoti tik vieną kartą, galite naudoti <ph name="GUEST_LINK_BEGIN" />svečio režimą<ph name="GUEST_LINK_END" /> naršyklėje „Decentr“. Jei norite pridėti paskyrą kitam asmeniui, <ph name="LINK_BEGIN" />pridėkite naują asmenį<ph name="LINK_END" /> prie „<ph name="DEVICE_TYPE" />“.
-
-Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taikomi šiai paskyrai. Galite tvarkyti „Google“ paskyras skiltyje <ph name="SETTINGS_LINK_BEGIN" />„Nustatymai“<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Kai uždarote „Decentr“, ji automatiškai išvalo slapukus ir svetainių duomenis iš puslapių, kuriuose lankėtės</translation>
 <translation id="1708666629004767631">Pasiekiama nauja, saugesnė „Decentr“ versija.</translation>
 <translation id="1774152462503052664">Paleisti „Decentr“ fone</translation>
 <translation id="1779356040007214683">Kad „Decentr“ padarytume saugesnę, išjungėme kai kuriuos plėtinius, kurių nėra „<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />“ sąraše ir kurie galėjo būti pridėti be jūsų žinios.</translation>
@@ -28,22 +25,16 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="1881322772814446296">Prisijungiate su valdoma paskyra ir leidžiate jos administratoriui valdyti jūsų „Decentr“ profilį. „Decentr“ duomenys, pvz., programos, žymės, istorija, slaptažodžiai ir kiti nustatymai, bus visam laikui susieti su <ph name="USER_NAME" />. Galėsite ištrinti šiuos duomenis naudodami „Google“ paskyrų informacijos suvestinę, bet negalėsite susieti šių duomenų su kita paskyra. Galite pasirinktinai sukurti naują profilį, kad esami „Decentr“ duomenys būtų saugomi atskirai. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Jei išjungsite šį nustatymą, prie „Google“ svetainių galėsite prisijungti kaip prie „Gmail“ neprisijungę prie „Decentr“</translation>
 <translation id="1929939181775079593">„Decentr“ neatsako. Paleisti iš naujo dabar?</translation>
-<translation id="1940680973325097484">Jei norite šią paskyrą naudoti tik vieną kartą, galite naudoti svečio režimą naršyklėje „Decentr“. Jei norite pridėti paskyrą kitam asmeniui, <ph name="LINK_BEGIN" />pridėkite naują asmenį<ph name="LINK_END" /> prie „<ph name="DEVICE_TYPE" />“.
-
-Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taikomi šiai paskyrai. Galite tvarkyti „Google“ paskyras skiltyje <ph name="SETTINGS_LINK_BEGIN" />„Nustatymai“<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">„Decentr“ nepavyko aptikti arba nustatyti numatytosios naršyklės</translation>
 <translation id="1981611865800294956">Paleisti iš naujo atnaujinant „&amp;Decentr“ OS</translation>
 <translation id="2008474315282236005">Atlikus šį veiksmą iš šio įrenginio bus ištrintas 1 elementas. Jei vėliau norėsite gauti duomenis, prisijunkite prie „Decentr“ kaip <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Jei norite patikrinti, ar kiti slaptažodžiai apsaugoti nuo duomenų saugos pažeidimų bei kitų saugos problemų, <ph name="BEGIN_LINK" />prisijunkite prie „Decentr“<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Pasirinkite, ar įtraukti „Decentr“ istoriją, kad būtų teikiamos labiau suasmenintos funkcijos „Google“ paslaugose</translation>
 <translation id="2174178932569897599">Tinkinti „Decentr“</translation>
 <translation id="2185166961232948079">„Decentr“ – prisijungimas prie tinklo – „<ph name="PAGE_TITLE" />“</translation>
 <translation id="2241627712206172106">Jei bendrinate kompiuterį, šeimos nariai ir draugai gali naršyti atskirai ir nustatyti „Decentr“ pagal savo poreikius.</translation>
 <translation id="2294245788148774212">Pasirenkama: padėkite patobulinti „Decentr“ OS funkcijas ir našumą automatiškai siųsdami diagnostikos ir naudojimo duomenis į sistemą „Google“.</translation>
-<translation id="2313870531055795960">Tikrinami URL pagal nesaugių svetainių sąrašą, saugomą naršyklėje „Decentr“. Jei svetainė bando pavogti slaptažodį ar atsisiuntėte žalingą failą, „Decentr“ taip pat gali siųsti URL, įskaitant puslapio turinio dalis, Saugaus naršymo funkcijai.</translation>
 <translation id="2343156876103232566">Jei norite iš čia į „Android“ telefoną išsiųsti numerį, prisijunkite prie „Decentr“ abiejuose įrenginiuose.</translation>
 <translation id="2347108572062610441">Šis plėtinys pakeitė, kuris puslapis rodomas paleidus „Decentr“.</translation>
-<translation id="2359808026110333948">Tęskite</translation>
 <translation id="2396765026452590966">Plėtinys „<ph name="EXTENSION_NAME" />“ pakeitė, kuris puslapis rodomas paleidus „Decentr“.</translation>
 <translation id="2401032172288869980">„Decentr“ reikalingi fotoaparato ir mikrofono leidimai šioje svetainėje</translation>
 <translation id="2483889755041906834">Naudojant „Decentr“</translation>
@@ -51,8 +42,10 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="2535480412977113886">„Decentr“ OS negali sinchronizuoti duomenų, nes paskyros išsami prisijungimo informacija yra pasenusi.</translation>
 <translation id="2560420686485554789">„Decentr“ reikia prieigos prie saugyklos, kad būtų galima atsisiųsti failus</translation>
 <translation id="2572494885440352020">„Decentr“ pagalbos priemonė</translation>
+<translation id="2577788541081224677">Jei norite pasiekti „Decentr“ duomenis visuose savo įrenginiuose, prisijunkite ir įjunkite sinchronizavimą.</translation>
 <translation id="2583187216237139145">Visus „Decentr“ duomenis, sugeneruotus naudojant šį profilį (pvz., sukurtas žymes, istoriją, slaptažodžius ir kitus nustatymus), gali pašalinti darbo profilio administratorius. <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Kad būtų galima pritaikyti naujinį, „Decentr“ OS reikia paleisti iš naujo.</translation>
+<translation id="2614883797045469742">Numatytieji nustatymai tinka daugeliui žmonių, bet galite juos tinkinti pritaikydami pagal tai, kaip norite naudoti „Decentr“</translation>
 <translation id="2648074677641340862">Diegiant įvyko operacinės sistemos klaida. Atsisiųskite „Decentr“ dar kartą.</translation>
 <translation id="2661879430930417727">Jei bendrinate įrenginį, šeimos nariai ir draugai gali naršyti atskirai ir nustatyti „Decentr“ pagal savo poreikius</translation>
 <translation id="2711502716910134313">„Decentr“ skirtukas</translation>
@@ -61,11 +54,9 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="2799223571221894425">Paleisti iš naujo</translation>
 <translation id="2837693172913560447">Bus sukurtas naujas <ph name="USER_EMAIL_ADDRESS" /> „Decentr“ profilis</translation>
 <translation id="2847479871509788944">Pašalinti iš „Decentr“...</translation>
-<translation id="2850691299438350830">Apsaugo jus naršyklėje „Decentr“ ir gali būti naudojama apsaugai kitose „Google“ programose pagerinti, kai esate prisijungę.</translation>
 <translation id="2885378588091291677">Užduočių tvarkytuvė</translation>
 <translation id="2910007522516064972">Apie &amp;„Decentr“</translation>
 <translation id="2977470724722393594">„Decentr“ naujausios versijos</translation>
-<translation id="2977506796191543575">Jei svetainė bando pavogti slaptažodį ar atsisiuntėte žalingą failą, „Decentr“ taip pat gali siųsti URL, įskaitant puslapio turinio dalis, Saugaus naršymo funkcijai</translation>
 <translation id="2983934633046890458">„Decentr“ bando redaguoti slaptažodžius.</translation>
 <translation id="3032706164202344641">„Decentr“ negali patikrinti jūsų slaptažodžių. Vėliau bandykite dar kartą.</translation>
 <translation id="3032787606318309379">Pridedama prie „Decentr“...</translation>
@@ -118,20 +109,18 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="4407044323746248786">Vis tiek išeiti iš „Decentr“?</translation>
 <translation id="4415566066719264597">„Decentr“ leidimas fone</translation>
 <translation id="4423735387467980091">Tinkinkite ir valdykite „Decentr“</translation>
-<translation id="4427306783828095590">Naudojant sustiprintą apsaugą pasitelkiama papildomų priemonių sukčiavimui ir kenkėjiškoms programoms užblokuoti</translation>
 <translation id="452711251841752011">Sveiki, tai – „Decentr“; atidarytas naujas naršyklės langas</translation>
 <translation id="4544142686420020088">Nepavyko atnaujinti „Decentr“, įvyko klaida. <ph name="BEGIN_LINK" />Pašalinkite „Decentr“ naujinimo problemas ir naujinių klaidas.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Tęsti naudojant naują „Decentr“ profilį?</translation>
 <translation id="4567424176335768812">Esate prisijungę kaip <ph name="USER_EMAIL_ADDRESS" />. Dabar galite pasiekti savo žymes, istoriją ir kitus nustatymus visuose įrenginiuose, kuriuose esate prisijungę.</translation>
 <translation id="459535195905078186">„Decentr“ programos</translation>
-<translation id="4621240073146040695">Beveik atnaujinta! Paleiskite „Decentr“ iš naujo, kad būtų užbaigtas naujinimas.</translation>
 <translation id="4665829708273112819">Įspėjimas: „Decentr“ negali neleisti plėtiniams įrašyti naršymo istorijos. Jei norite neleisti šio plėtinio inkognito režimu, atšaukite šios parinkties pasirinkimą.</translation>
-<translation id="4673151026126227699">Jei taip pat bendrinate „Decentr“ naudojimo ataskaitas, į tas ataskaitas įtraukiami URL, kuriais lankėtės</translation>
 <translation id="4677944499843243528">Atrodo, kad profilį naudoja kitas „Decentr“ procesas (<ph name="PROCESS_ID" />) kitame kompiuteryje (<ph name="HOST_NAME" />). „Decentr“ užrakino profilį, kad jis nebūtų sugadintas. Jei esate tikri, kad jokie kiti procesai nenaudoja šio profilio, galite atrakinti profilį ir iš naujo paleisti „Decentr“.</translation>
 <translation id="469338717132742108">Gaukite pagalbos dėl „Decentr“ OS</translation>
 <translation id="4708774505295300557">Kažkas anksčiau prisijungė prie „Decentr“ šiame kompiuteryje kaip <ph name="ACCOUNT_EMAIL_LAST" />. Sukurkite naują „Decentr“ naudotoją, kad apsaugotumėte savo informaciją.</translation>
 <translation id="4746050847053251315">Vis tiek išeiti iš „Decentr“?</translation>
 <translation id="4748217263233248895">Ką tik pritaikytas specialus „Decentr“ skirtas saugos naujinys. Paleiskite naršyklę iš naujo ir atkursime visus skirtukus.</translation>
+<translation id="4750035648288509542">Beveik atnaujinta! Paleiskite „Decentr“ iš naujo, kad būtų užbaigtas naujinimas. Inkognito langai nebus atidaryti iš naujo.</translation>
 <translation id="4788777615168560705">„Decentr“ negali patikrinti jūsų slaptažodžių. Bandykite dar kartą po 24 val. arba <ph name="BEGIN_LINK" />patikrinkite slaptažodžius „Google“ paskyroje<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Naudojamas tas pats rašybos tikrinimas kaip ir „Google“ paieškoje. Tekstas, kurį įvedate naršyklėje, nusiunčiamas „Google“. Šį veikimą visada galite pakeisti nustatymuose.</translation>
 <translation id="4888717733111232871">„Decentr“ skirta taisyklė, pagal kurią leidžiamas mDNS srautas.</translation>
@@ -146,8 +135,10 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="5386450000063123300">Atnaujinama „Decentr“ (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Leisti „Decentr“ prisijungti</translation>
 <translation id="5398878173008909840">Pasiekiama nauja „Decentr“ versija.</translation>
+<translation id="5416696090975899932">„Decentr“ negalima rodyti spaudinio peržiūros, jei nėra įtaisytos PDF žiūryklės.</translation>
 <translation id="5427571867875391349">Nustatyti „Decentr“ kaip numatytąją naršyklę</translation>
 <translation id="5438241569118040789">„<ph name="PAGE_TITLE" />“ – „Decentr Beta“</translation>
+<translation id="5479196819031988440">„Decentr“ OS negali atidaryti šio puslapio.</translation>
 <translation id="5480860683791598150">„Decentr“ reikia leidimo, kad galėtų naudoti jūsų vietovės informaciją ir bendrinti ją su šia svetaine</translation>
 <translation id="549669000822060376">Palaukite, kol „Decentr“ įdiegs naujausius sistemos naujinius.</translation>
 <translation id="5496810170689441661">„Decentr“ bando redaguoti slaptažodžius. Įveskite „Windows“ slaptažodį, kad tai leistumėte.</translation>
@@ -178,7 +169,6 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="6212496753309875659">Šiame kompiuteryje jau yra naujesnės versijos „Decentr“. Jei programinė įranga neveikia, pašalinkite „Decentr“ ir bandykite dar kartą.</translation>
 <translation id="6219195342503754812">{0,plural, =0{„Decentr“ bus paleista iš naujo dabar}=1{„Decentr“ bus paleista iš naujo po 1 sekundės}one{„Decentr“ bus paleista iš naujo po # sekundės}few{„Decentr“ bus paleista iš naujo po # sekundžių}many{„Decentr“ bus paleista iš naujo po # sekundės}other{„Decentr“ bus paleista iš naujo po # sekundžių}}</translation>
 <translation id="6241367896540709610">„Decentr“ reikia prieigos prie saugyklos, kad būtų galima atsisiųsti failus</translation>
-<translation id="6245734527075554892">Tikrinami URL pagal nesaugių svetainių sąrašą, saugomą naršyklėje „Decentr“</translation>
 <translation id="6248213926982192922">Padaryti „Decentr“ numatytąja naršykle</translation>
 <translation id="6266342355635466082">„Decentr“ negali tikrinti naujinių. Pabandykite patikrinti interneto ryšį.</translation>
 <translation id="6268381023930128611">Atsijungti nuo „Decentr“?</translation>
@@ -205,6 +195,7 @@ Leidimai, kuriuos jau esate suteikę svetainėms ir programoms, gali būti taiko
 <translation id="6717134281241384636">Jūsų profilis nenaudojamas, nes jis iš naujesnės versijos „Decentr“.
 
 Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalogą arba naudokite naujesnės versijos „Decentr“.</translation>
+<translation id="6734080038664603509">&amp;„Decentr“ naujinys</translation>
 <translation id="6734291798041940871">„Decentr“ jau įdiegta visiems kompiuterio naudotojams.</translation>
 <translation id="673636774878526923">Jei norite pasiekti „Decentr“ duomenis visuose savo įrenginiuose, prisijunkite ir įjunkite sinchronizavimą.</translation>
 <translation id="6774082503108938489">Jūsų tėvai išjungė svetainių, programų ir plėtinių leidimus sistemoje „Decentr“. Neleidžiama įgalinti šio <ph name="EXTENSION_TYPE_PARAMETER" />.</translation>
@@ -220,11 +211,12 @@ Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalog
 <translation id="6990124437352146030">„Decentr“ reikia leidimo, kad galėtų naudoti mikrofoną šioje svetainėje</translation>
 <translation id="705851970750939768">Atnaujinti „Decentr“</translation>
 <translation id="7067091210845072982">Jei nebus naudingo vaizdo aprašo, „Decentr“ bandys jums jį pateikti. Kad būtų galima kurti aprašus, vaizdai siunčiami į sistemą „Google“.</translation>
+<translation id="7147279922647361552">Tinkinkite svarbiausias „Decentr“ privatumo parinktis</translation>
 <translation id="718435575166326686">„Decentr“ reikalingas fotoaparato leidimas šioje svetainėje</translation>
 <translation id="7196312274710523067">Nepavyko paleisti „Decentr“. Bandykite dar kartą.</translation>
 <translation id="7197677400338048821">„Decentr“ negali patikrinti jūsų slaptažodžių. Bandykite dar kartą po 24 val.</translation>
-<translation id="7218568399872925918">Svetainės, kuriose apsilankote, prisimena jūsų informaciją, kol uždarote „Decentr“</translation>
 <translation id="7223968959479464213">Užduočių tvarkytuvė – „Decentr“</translation>
+<translation id="731644333568559921">&amp;„Decentr“ OS naujinys</translation>
 <translation id="731795002583552498">Atnaujinama „Decentr“</translation>
 <translation id="7318036098707714271">Nuostatų failas sugadintas ar netinkamas.
 
@@ -233,21 +225,17 @@ Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalog
 <translation id="7339898014177206373">Naujas langas</translation>
 <translation id="734373864078049451">Čia saugoma žiniatinklio informacija, žymės ir kiti „Decentr“ duomenys.</translation>
 <translation id="7349591376906416160">Sistemos administratorius sukonfigūravo „Decentr“ atidaryti naršyklę „<ph name="ALTERNATIVE_BROWSER_NAME" />“, norint pasiekti <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7398989605938454041">Naudodami „Decentr“ profilius galite atskirti visus savo „Decentr“ duomenis. Galėsite lengviau atskirti darbą ir pramogas.</translation>
 <translation id="7448255348454382571">„Decentr“ OS paleidimas iš naujo</translation>
 <translation id="7449453770951226939">„<ph name="PAGE_TITLE" />“ – „Decentr Dev“</translation>
 <translation id="7451052299415159299">„Decentr“ reikia leidimo, kad galėtų naudoti fotoaparatą šioje svetainėje</translation>
-<translation id="7467949745582939695">Iš naujo paleisti „Decentr“?</translation>
 <translation id="7483335560992089831">Negalima įdiegti tos pačios „Decentr“ versijos, kuri šiuo metu paleista. Uždarykite „Decentr“ ir bandykite dar kartą.</translation>
 <translation id="753534427205733210">{0,plural, =1{„Decentr“ bus paleista iš naujo po 1 minutės}one{„Decentr“ bus paleista iš naujo po # minutės}few{„Decentr“ bus paleista iš naujo po # minučių}many{„Decentr“ bus paleista iš naujo po # minutės}other{„Decentr“ bus paleista iš naujo po # minučių}}</translation>
 <translation id="7549178288319965365">Apie „Decentr“ OS</translation>
 <translation id="7561906087460245826">Taip pat išvalyti duomenis iš „Decentr“ (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Jei nustatymai šiame puslapyje nerodomi, jų ieškokite <ph name="LINK_BEGIN" />
       naršyklės „Decentr“ nustatymuose<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Įjungėte Sustiprinto saugaus naršymo funkciją paskyroje. Dabar įjunkite ją sistemoje „Decentr“.</translation>
 <translation id="761356813943268536">„Decentr“ naudoja jūsų fotoaparatą ir mikrofoną.</translation>
 <translation id="7617377681829253106">„Decentr“ dabar dar tobulesnė</translation>
-<translation id="7682601070171973634">„Decentr“ tyrinėja naujas funkcijas, leidžiančias svetainėms teikti tas pačias naršymo funkcijas, naudojant mažiau jūsų duomenų</translation>
 <translation id="7686590090926151193">„Decentr“ nėra numatytoji naršyklė</translation>
 <translation id="7689606757190482937">Sinchronizuokite ir suasmeninkite „Decentr“ skirtinguose įrenginiuose</translation>
 <translation id="7729447699958282447">„Decentr“ negali sinchronizuoti duomenų, nes jūsų domene sinchronizavimas nepasiekiamas.</translation>
@@ -257,11 +245,11 @@ Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalog
 <translation id="7828947555739565424">Šios paskyros „Decentr“ profilis jau yra šiame įrenginyje</translation>
 <translation id="7857220146454061152">Jei norite gauti būsimus „Decentr“ atnaujinimus, jums reikės 10.11 ar naujesnės „OS X“ versijos. Šiame kompiuteryje naudojama 10.10 versijos „OS X“.</translation>
 <translation id="7867198900892795913">Nepavyko atnaujinti „Decentr“ į naujausią versiją, todėl nebus pasiekiamos naujos funkcijos ir saugos pataisos.</translation>
-<translation id="788352880609666695">Toliau nurodytos paskyros pasiekiamos šiame „Decentr“ profilyje</translation>
 <translation id="7898472181347242998">Norėdami sužinoti, ar įrenginys atnaujintas, eikite į <ph name="LINK_BEGIN" />„Decentr“ OS nustatymus<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">Buvote prisijungę prie „Decentr“ kaip <ph name="USER_EMAIL_ADDRESS" />. Prisijungdami vėl naudokite tą pačią paskyrą.</translation>
 <translation id="7975919845073681630">Tai yra antrinis „Decentr“ diegimas, todėl ji negali būti nustatyta kaip numatytoji naršyklė.</translation>
 <translation id="8013436988911883588">Kai „Decentr“ galės pasiekti duomenis, svetainės taip pat galės prašyti suteikti leidimą juos pasiekti.</translation>
+<translation id="8045118833343856403">Toliau nurodytos paskyros nėra prisijungusios prie jokių „Decentr“ profilių. Jei norite naudoti paskyrą kitame profilyje, pirmiausia pašalinkite tą profilį.</translation>
 <translation id="8105840573057009683">„Decentr“ reikalingas leidimas pasiekti vietovės duomenis šioje svetainėje</translation>
 <translation id="81770708095080097">Šis failas pavojingas, todėl „Decentr“ jį užblokavo.</translation>
 <translation id="8248265253516264921">Jei nebus naudingo vaizdo aprašo, „Decentr“ bandys jums jį pateikti. Kad būtų galima kurti aprašus, vaizdai siunčiami į sistemą „Google“. Šią parinktį galite bet kada išjungti skiltyje „Nustatymai“.</translation>
@@ -270,7 +258,6 @@ Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalog
 <translation id="8290862415967981663">Šis failas gali būti pavojingas, todėl „Decentr“ jį užblokavo.</translation>
 <translation id="8330519371938183845">Prisijunkite, kad galėtumėte sinchronizuoti ir suasmeninti „Decentr“ skirtinguose įrenginiuose</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> anksčiau naudojo „Decentr“</translation>
-<translation id="8357820681460164151">Jei norite pasiekti „Decentr“ naršyklės duomenis visuose savo įrenginiuose, prisijunkite ir įjunkite sinchronizavimą</translation>
 <translation id="8417404458978023919">{0,plural, =1{„Decentr“ paleidimas iš naujo po dienos}one{„Decentr“ paleidimas iš naujo po # dienos}few{„Decentr“ paleidimas iš naujo po # dienų}many{„Decentr“ paleidimas iš naujo po # dienos}other{„Decentr“ paleidimas iš naujo po # dienų}}</translation>
 <translation id="8453117565092476964">Diegimo programos archyvas sugadintas arba negalioja. Atsisiųskite „Decentr“ dar kartą.</translation>
 <translation id="8493179195440786826">„Decentr“ versija yra pasenusi</translation>
@@ -282,8 +269,6 @@ Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalog
 <translation id="8621669128220841554">Nepavyko įdiegti dėl nenurodytos klaidos. Atsisiųskite „Decentr“ dar kartą.</translation>
 <translation id="8697124171261953979">Ji taip pat kontroliuoja, koks puslapis rodomas, kai paleidžiate „Decentr“ arba ieškote „Omnibox“.</translation>
 <translation id="8704119203788522458">Tai jūsų „Decentr“</translation>
-<translation id="8713679423359107094">Kai uždarote visus „Decentr“ langus, slapukai ir svetainių duomenys automatiškai išvalomi</translation>
-<translation id="8796443464227412154">Būsite <ph name="BEGIN_BOLD" />atjungti nuo daugumos svetainių<ph name="END_BOLD" />, kai uždarysite „Decentr“. Jei sinchronizavimas išjungtas, taip pat būsite <ph name="BEGIN_BOLD" />atjungti nuo „Google“ paslaugų ir „Decentr“<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">„Decentr“ reikia leidimo, kad galėtų naudoti fotoaparatą ir mikrofoną šioje svetainėje</translation>
 <translation id="8803635938069941624">„Decentr“ OS sąlygos</translation>
 <translation id="8821041990367117597">„Decentr“ negali sinchronizuoti jūsų duomenų, nes paskyros išsami prisijungimo informacija yra pasenusi.</translation>
@@ -305,6 +290,5 @@ Kai kurios funkcijos gali būti nepasiekiamos. Nurodykite kitą profilio katalog
 <translation id="9214764063801632699">„Decentr“ OS sistema</translation>
 <translation id="93478295209880648">„Decentr“ gali tinkamai neveikti, nes ji nebepalaikoma naudojant „Windows XP“ arba „Windows Vista“</translation>
 <translation id="965162752251293939">Kas naudoja „Decentr“?</translation>
-<translation id="967427899662692980">Patikimiausios „Decentr“ saugos užtikrinimas</translation>
 <translation id="985602178874221306">„Decentr“ autoriai</translation>
 </translationbundle>

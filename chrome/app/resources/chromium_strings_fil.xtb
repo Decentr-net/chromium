@@ -16,10 +16,7 @@ Maaaring hindi available ang ilang tampok at hindi mase-save ang mga pagbabago s
 <translation id="1524282610922162960">Magbahagi ng tab ng Decentr</translation>
 <translation id="1553461853655228091">Kailangan ng Decentr ng access sa iyong camera para gumawa ng 3D na mapa ng kapaligiran mo</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Ipinag-aatas ng iyong administrator na ilunsad mo ulit ang Decentr para mailapat ang isang update}=1{Ipinag-aatas ng iyong administrator na ilunsad mo ulit ang Decentr para mailapat ang isang update. Hindi bubukas ulit ang iyong Incognito window.}one{Ipinag-aatas ng iyong administrator na ilunsad mo ulit ang Decentr para mailapat ang isang update. Hindi bubukas ulit ang iyong # Incognito window.}other{Ipinag-aatas ng iyong administrator na ilunsad mo ulit ang Decentr para mailapat ang isang update. Hindi bubukas ulit ang iyong # na Incognito window.}}</translation>
-<translation id="1625909126243026060">Suriin ang mga pangunahing kontrol sa privacy at seguridad sa Decentr</translation>
-<translation id="1632539827495546968">Kung isang beses mo lang gustong gamitin ang account na ito, puwede mong gamitin ang <ph name="GUEST_LINK_BEGIN" />Guest mode<ph name="GUEST_LINK_END" /> sa Decentr browser. Kung gusto mong magdagdag ng account para sa ibang tao, <ph name="LINK_BEGIN" />magdagdag ng bagong tao<ph name="LINK_END" /> sa iyong <ph name="DEVICE_TYPE" />.
-
-Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga website at app. Puwede mong pamahalaan ang iyong mga Google Account sa <ph name="SETTINGS_LINK_BEGIN" />Mga Setting<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Kapag isinara mo ang Decentr, awtomatiko nitong kini-clear ang cookies at data ng site sa mga page na binisita mo</translation>
 <translation id="1708666629004767631">May available na bago at mas ligtas na bersyon ng Decentr.</translation>
 <translation id="1774152462503052664">Hayaang tumakbo ang Decentr sa background</translation>
 <translation id="1779356040007214683">Upang gawing mas ligtas ang Decentr, nag-disable kami ng ilang extension na hindi nakalista sa <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> at maaaring naidagdag nang hindi mo nalalaman.</translation>
@@ -28,22 +25,16 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="1881322772814446296">Nagsa-sign in ka gamit ang isang pinamamahalaang account at nagbibigay sa administrator nito ng kontrol sa iyong profile sa Decentr. Permanenteng mauugnay ang iyong data sa Decentr, gaya ng iyong apps, mga bookmark, kasaysayan, password, at iba pang mga setting sa <ph name="USER_NAME" />. Matatanggal mo ang data na ito sa Google Accounts Dashboard, ngunit hindi mo maiuugnay ang data na ito sa isa pang account. Maaari ka ring gumawa ng bagong profile upang ihiwalay ang iyong umiiral na data sa Decentr. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Kapag na-off ito, maaari kang mag-sign in sa mga site ng Google tulad ng Gmail nang hindi nagsa-sign in sa Decentr</translation>
 <translation id="1929939181775079593">Hindi gumagana ang Decentr. Muling ilunsad ngayon?</translation>
-<translation id="1940680973325097484">Kung isang beses mo lang gustong gamitin ang account na ito, puwede mong gamitin ang Guest mode sa Decentr browser. Kung gusto mong magdagdag ng account para sa ibang tao, <ph name="LINK_BEGIN" />magdagdag ng bagong tao<ph name="LINK_END" /> sa iyong <ph name="DEVICE_TYPE" />.
-
-Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga website at app. Puwede mong pamahalaan ang iyong mga Google Account sa <ph name="SETTINGS_LINK_BEGIN" />Mga Setting<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">Hindi matukoy o maitakda ng Decentr ang default na browser</translation>
 <translation id="1981611865800294956">Ilunsad ulit para ma-update ang Decentr OS</translation>
 <translation id="2008474315282236005">Magde-delete ito ng 1 item sa device na ito. Upang makuha ang iyong data sa ibang pagkakataon, mag-sign in sa Decentr bilang <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Para makita kung ligtas ang iyong iba pang password mula sa mga paglabag sa data at iba pang isyu sa seguridad, <ph name="BEGIN_LINK" />mag-sign in sa Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Piliin kung isasama ang history ng Decentr para sa mas naka-personalize na mga karanasan sa mga serbisyo ng Google</translation>
 <translation id="2174178932569897599">I-customize ang Decentr</translation>
 <translation id="2185166961232948079">Decentr - Pag-sign in sa Network - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Kung nagpapahiram ka ng computer, ang mga kaibigan at kapamilya ay maaaring mag-browse nang hiwalay at i-set up ang Decentr sa paraang gusto nila.</translation>
 <translation id="2294245788148774212">Opsyonal: Tumulong na pahusayin ang mga feature at performance ng Decentr OS sa pamamagitan ng awtomatikong pagpapadala sa Google ng data ng diagnostic at paggamit.</translation>
-<translation id="2313870531055795960">Sinusuri ang mga URL sa pamamagitan ng listahan ng mga hindi ligtas na site na naka-store sa Decentr. Kung susubukan ng site na nakawin ang iyong password, o kapag nag-download ka ng mapaminsalang file, posible ring magpadala ang Decentr sa Ligtas na Pag-browse ng mga URL, kabilang ang ilang content ng page.</translation>
 <translation id="2343156876103232566">Para magpadala ng numero sa iyong Android phone mula rito, mag-sign in sa Decentr sa parehong device.</translation>
 <translation id="2347108572062610441">Binago ng extension na ito ang ipinapakitang page kapag sinimulan mo ang Chronium.</translation>
-<translation id="2359808026110333948">Magpatuloy</translation>
 <translation id="2396765026452590966">Binago ng extension na "<ph name="EXTENSION_NAME" />" ang ipinapakitang page kapag sinimulan mo ang Decentr.</translation>
 <translation id="2401032172288869980">Kailangan ng Decentr ng pahintulot sa camera at mikropono para sa site na ito</translation>
 <translation id="2483889755041906834">Sa Decentr</translation>
@@ -51,6 +42,7 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="2535480412977113886">Hindi ma-sync ng Decentr OS ang iyong data dahil hindi napapanahon ang mga detalye sa pag-sign in sa iyong account.</translation>
 <translation id="2560420686485554789">Kailangan ng Decentr ang access sa storage upang maka-download ng mga file</translation>
 <translation id="2572494885440352020">Helper ng Decentr</translation>
+<translation id="2577788541081224677">Para ma-access ang iyong mga bagay sa Decentr sa lahat ng device mo, mag-sign in para ma-on mo ang pag-sync.</translation>
 <translation id="2583187216237139145">Puwedeng alisin ng administrator ng profile sa trabaho ang anumang data ng Decentr na nabuo sa panahon ng paggamit ng profile na ito (gaya ng paggawa ng mga bookmark, history, mga password, at iba pang setting). <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Kailangang ma-restart ang Decentr OS upang mailapat ang update.</translation>
 <translation id="2648074677641340862">May naganap na error sa operating system sa panahon ng pag-install. Mangyaring i-download muli ang Decentr.</translation>
@@ -61,11 +53,9 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="2799223571221894425">Ilunsad Muli</translation>
 <translation id="2837693172913560447">Gagawa ito ng bagong profile sa Decentr para sa <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="2847479871509788944">Alisin sa Decentr...</translation>
-<translation id="2850691299438350830">Pinapanatili kang ligtas sa Decentr at puwedeng gamitin para paigtingin ang iyong seguridad sa iba pang Google app kapag naka-sign in ka</translation>
 <translation id="2885378588091291677">Task Manager</translation>
 <translation id="2910007522516064972">Tungkol sa &amp;Decentr</translation>
 <translation id="2977470724722393594">Napapanahon ang Decentr</translation>
-<translation id="2977506796191543575">Kung susubukan ng site na nakawin ang iyong password, o kapag nag-download ka ng mapaminsalang file, posible ring magpadala ang Decentr sa Ligtas na Pag-browse ng mga URL, kabilang ang ilang content ng page</translation>
 <translation id="2983934633046890458">Sinusubukan ng Decentr na i-edit ang mga password.</translation>
 <translation id="3032706164202344641">Hindi masuri ng Decentr ang iyong mga password. Subukan ulit sa ibang pagkakataon.</translation>
 <translation id="3032787606318309379">Idinaragdag sa Decentr...</translation>
@@ -118,20 +108,18 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="4407044323746248786">Lumabas pa rin sa Decentr?</translation>
 <translation id="4415566066719264597">Hayaang Tumakbo ang Decentr sa Background</translation>
 <translation id="4423735387467980091">I-customize at kontrolin ang Decentr</translation>
-<translation id="4427306783828095590">Mas maraming magagawa ang pinahusay na proteksyon para mag-block ng phishing and malware</translation>
 <translation id="452711251841752011">Welcome sa Decentr; binuksan ang bagong window ng browser</translation>
 <translation id="4544142686420020088">Hindi na-update ang Decentr, nagkaproblema. <ph name="BEGIN_LINK" />Ayusin ang mga problema sa pag-update ng Decentr at ang mga hindi naisagawang pag-update dito.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Magpatuloy sa bagong profile sa Decentr?</translation>
 <translation id="4567424176335768812">Naka-sign in ka bilang <ph name="USER_EMAIL_ADDRESS" />. Maaari mo na ngayong i-access ang iyong mga bookmark, kasaysayan, at iba pang setting sa lahat ng iyong device na naka-sign in.</translation>
 <translation id="459535195905078186">Decentr Apps</translation>
-<translation id="4621240073146040695">Halos napapanahon na! Muling ilunsad ang Decentr upang tapusin ang pag-a-update.</translation>
 <translation id="4665829708273112819">Babala: Hindi mapipigilan ng Decentr ang pag-record ng mga extension sa iyong history ng pag-browse. Para i-disable ang extension na ito sa Incognito mode, i-unselect ang opsyong ito.</translation>
-<translation id="4673151026126227699">Kung magbabahagi ka rin ng mga ulat ng paggamit sa Decentr, isasama sa mga ulat na iyon ang mga URL na binibisita mo</translation>
 <translation id="4677944499843243528">Mukhang ginagamit ang profile ng iba pang proseso ng Decentr (<ph name="PROCESS_ID" />) sa iba pang computer (<ph name="HOST_NAME" />).  Ni-lock ng Decentr ang profile upang hindi ito ma-corrupt.  Kung nakakatiyak ka na walang ibang mga proseso ang gumagamit sa profile na ito, maaari mong i-unlock ang profile at ilunsad muli ang Decentr.</translation>
 <translation id="469338717132742108">Humingi ng tulong sa Decentr OS</translation>
 <translation id="4708774505295300557">May nag-sign in dati sa Decentr sa computer na ito bilang <ph name="ACCOUNT_EMAIL_LAST" />. Mangyaring gumawa ng bagong user ng Decentr upang ihiwalay ang iyong impormasyon.</translation>
 <translation id="4746050847053251315">Umalis pa rin sa Decentr?</translation>
 <translation id="4748217263233248895">Naglapat ng espesyal na update sa seguridad para sa Decentr. Mag-restart na at ire-restore namin ang iyong mga tab.</translation>
+<translation id="4750035648288509542">Malapit nang maging up to date! Ilunsad ulit ang Decentr para tapusin ang pag-update. Hindi bubukas ulit ang mga incognito window.</translation>
 <translation id="4788777615168560705">Hindi masuri ng Decentr ang iyong mga password. Subukan ulit pagkalipas ng 24 na oras o <ph name="BEGIN_LINK" />suriin ang mga password sa iyong Google Account<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Ginagamit nito ang parehong spellchecker na ginagamit sa paghahanap sa Google. Ipinapadala sa Google ang text na tina-type mo sa browser. Puwede mong baguhin ang gawing ito sa mga setting sa lahat ng oras.</translation>
 <translation id="4888717733111232871">Inbound na panuntunan para sa Decentr upang payagan ang trapiko ng mDNS.</translation>
@@ -146,8 +134,10 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="5386450000063123300">Ina-update ang Decentr (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Pagayan ang pag-sign in sa Decentr</translation>
 <translation id="5398878173008909840">May available na isang bagong bersyon ng Decentr.</translation>
+<translation id="5416696090975899932">Hindi maipapakita ng Decentr ang preview ng pag-print kapag nawawala ang built-in na PDF viewer.</translation>
 <translation id="5427571867875391349">Itakda ang Decentr bilang iyong default na browser</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
+<translation id="5479196819031988440">Hindi mabuksan ng Decentr OS ang page na ito.</translation>
 <translation id="5480860683791598150">Kailangan ng Decentr ng access sa iyong lokasyon upang maibahagi ang lokasyon mo sa site na ito</translation>
 <translation id="549669000822060376">Mangyaring maghintay habang ini-install ng Decentr ang mga pinakabagong update sa system.</translation>
 <translation id="5496810170689441661">Sinusubukan ng Decentr na i-edit ang mga password. I-type ang iyong password sa Windows para payagan ito.</translation>
@@ -178,7 +168,6 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="6212496753309875659">May mas bagong bersyon ng Decentr na ang computer na ito. Kung hindi gumagana ang software, mangyaring i-uninstall ang Decentr at subukang muli.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Muli nang ilulunsad ang Decentr ngayon}=1{Muli nang ilulunsad ang Decentr sa loob ng 1 segundo}one{Muli nang ilulunsad ang Decentr sa loob ng # segundo}other{Muli nang ilulunsad ang Decentr sa loob ng # na segundo}}</translation>
 <translation id="6241367896540709610">Kailangan ng Decentr ng pahintulot sa access sa storage para makapag-download ng mga file</translation>
-<translation id="6245734527075554892">Sinusuri ang mga URL sa pamamagitan ng listahan ng mga hindi ligtas na site na naka-store sa Decentr</translation>
 <translation id="6248213926982192922">Gawing default na browser ang Decentr</translation>
 <translation id="6266342355635466082">Hindi matingnan ng Decentr kung may mga update. Subukang tingnan ang iyong koneksyon sa internet.</translation>
 <translation id="6268381023930128611">Mag-sign out sa Decentr?</translation>
@@ -205,6 +194,7 @@ Posibleng malapat sa account na ito ang mga pahintulot na naibigay mo na sa mga 
 <translation id="6717134281241384636">Hindi maaaring gamitin ang iyong profile dahil mula ito sa isang mas bagong bersyon ng Decentr.
 
 Maaaring hindi available ang ilang tampok. Mangyaring tumukoy ng ibang direktoryo ng profile o gumamit ng mas bagong bersyon ng Decentr.</translation>
+<translation id="6734080038664603509">I-update ang &amp;Decentr</translation>
 <translation id="6734291798041940871">Naka-install na ang Decentr para sa lahat ng user sa iyong computer.</translation>
 <translation id="673636774878526923">Para ma-access ang iyong mga bagay sa Decentr sa lahat ng device mo, mag-sign in, at pagkatapos ay i-on ang pag-sync.</translation>
 <translation id="6774082503108938489">Na-off ng iyong magulang ang "Mga pahintulot para sa mga site, app, at extension" para sa Decentr. Hindi pinapayagan ang pag-enable sa <ph name="EXTENSION_TYPE_PARAMETER" /> na ito.</translation>
@@ -223,8 +213,8 @@ Maaaring hindi available ang ilang tampok. Mangyaring tumukoy ng ibang direktory
 <translation id="718435575166326686">Kailangan ng Decentr ng pahintulot sa camera para sa site na ito</translation>
 <translation id="7196312274710523067">Hindi mailunsad ang Decentr. Subukang muli.</translation>
 <translation id="7197677400338048821">Hindi masuri ng Decentr ang iyong mga password. Subukan ulit pagkalipas ng 24 na oras.</translation>
-<translation id="7218568399872925918">Naaalala ng mga site na binibisita mo ang iyong impormasyon hanggang sa isara mo ang Decentr</translation>
 <translation id="7223968959479464213">Task Manager - Decentr</translation>
+<translation id="731644333568559921">I-update ang &amp;Decentr OS</translation>
 <translation id="731795002583552498">Ina-update ang Decentr</translation>
 <translation id="7318036098707714271">Sira o di-wasto ang file ng iyong mga kagustuhan.
 
@@ -233,21 +223,17 @@ Hindi mabawi ng Decentr ang iyong mga setting.</translation>
 <translation id="7339898014177206373">Bagong window</translation>
 <translation id="734373864078049451">Makikita dito ang iyong web, mga bookmark at iba pang mga bagay-bagay sa Decentr.</translation>
 <translation id="7349591376906416160">Na-configure ng iyong system administrator ang Decentr para buksan ang <ph name="ALTERNATIVE_BROWSER_NAME" /> para ma-access ang <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7398989605938454041">Gamit ang mga profile sa Decentr, magagawa mong paghiwalayin ang lahat ng iyong bagay-bagay sa Decentr. Pinapadali nitong mapaghiwalay ang trabaho at kasiyahan.</translation>
 <translation id="7448255348454382571">I-restart ang Decentr OS</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
 <translation id="7451052299415159299">Kailangan ng Decentr ng pahintulot na i-access ang iyong camera para sa site na ito</translation>
-<translation id="7467949745582939695">Muling ilunsad ang Decentr?</translation>
 <translation id="7483335560992089831">Hindi ma-install ang parehong Bersyon ng Decentr na kasalukuyang tumatakbo. Pakisara ang Decentr at subukang muli.</translation>
 <translation id="753534427205733210">{0,plural, =1{Muling ilulunsad ang Decentr sa loob ng 1 minuto}one{Muling ilulunsad ang Decentr sa loob ng # minuto}other{Muling ilulunsad ang Decentr sa loob ng # na minuto}}</translation>
 <translation id="7549178288319965365">Tungkol sa Decentr OS</translation>
 <translation id="7561906087460245826">I-clear din ang data sa Decentr (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Kung hindi lumalabas ang isang setting sa page na ito, tingnan sa iyong <ph name="LINK_BEGIN" />
       mga setting ng Decentr OS<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Na-on mo ang Pinahusay na Ligtas na Pag-browse sa iyong account. Kunin ito ngayon para sa Decentr.</translation>
 <translation id="761356813943268536">Ginagamit ng Decentr ang iyong camera at mikropono.</translation>
 <translation id="7617377681829253106">Mas mahusay na ang Decentr</translation>
-<translation id="7682601070171973634">Nag-e-explore ang Decentr ng mga bagong feature na nagbibigay-daan sa mga site na ihatid ang parehong karanasan sa pag-browse nang hindi gaanong gumagamit ng iyong data</translation>
 <translation id="7686590090926151193">Hindi Decentr ang iyong default na browser</translation>
 <translation id="7689606757190482937">I-sync at i-personalize ang Decentr sa lahat ng iyong device</translation>
 <translation id="7729447699958282447">Hindi mai-sync ng Decentr ang iyong data dahil hindi available ang Pag-sync para sa iyong domain.</translation>
@@ -257,11 +243,11 @@ Hindi mabawi ng Decentr ang iyong mga setting.</translation>
 <translation id="7828947555739565424">Mayroon nang profile sa Decentr na gumagamit ng account na ito sa device na ito</translation>
 <translation id="7857220146454061152">Para makatanggap ng mga update sa Decentr sa hinaharap, kakailanganin mo ng OS X 10.11 o mas bago. Gumagamit ang computer na ito ng OS X 10.10.</translation>
 <translation id="7867198900892795913">Hindi ma-update ang Decentr sa pinakabagong bersyon, kaya may napapalampas kang mga bagong feature at pag-aayos sa seguridad.</translation>
-<translation id="788352880609666695">Available ang mga sumusunod na account para sa profile sa Decentr na ito</translation>
 <translation id="7898472181347242998">Para makita kung up to date ang iyong device, pumunta sa <ph name="LINK_BEGIN" />Mga Setting ng Decentr OS<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">Naka-sign in ka sa Decentr bilang <ph name="USER_EMAIL_ADDRESS" />. Pakigamit ang parehong account upang mag-sign in muli.</translation>
 <translation id="7975919845073681630">Pangalawang pag-install ito ng Decentr at hindi ito maaaring gawing iyong default na browser.</translation>
 <translation id="8013436988911883588">Kapag mayroon nang access ang Decentr, makakahingi na ang mga website ng access sa iyo.</translation>
+<translation id="8045118833343856403">Hindi naka-sign in sa anumang profile sa Decentr ang mga sumusunod na account. Kung gusto mong gumamit ng account sa ibang profile, alisin muna ang profile na iyon.</translation>
 <translation id="8105840573057009683">Kailangan ng Decentr ng pahintulot sa lokasyon para sa site na ito</translation>
 <translation id="81770708095080097">Mapanganib ang file na ito, kaya na-block ito ng Decentr.</translation>
 <translation id="8248265253516264921">Kung hindi sapat ang deskripsyon ng isang larawan, susubukan ng Decentr na ayusin ito para sa iyo. Para gumawa ng mga deskripsyon, ipinapadala ang mga larawan sa Google. Puwede mo itong i-off sa mga setting anumang oras.</translation>
@@ -270,7 +256,6 @@ Hindi mabawi ng Decentr ang iyong mga setting.</translation>
 <translation id="8290862415967981663">Maaaring mapanganib ang file na ito, kaya na-block ito ng Decentr.</translation>
 <translation id="8330519371938183845">Mag-sign in para i-sync at i-personalize ang Decentr sa lahat ng iyong device</translation>
 <translation id="8340674089072921962">Decentr ang dating ginagamit ng <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="8357820681460164151">Para ma-access ang iyong mga bagay sa Decentr browser sa lahat ng device mo, mag-sign in, pagkatapos ay i-on ang pag-sync</translation>
 <translation id="8417404458978023919">{0,plural, =1{Muling ilunsad ang Decentr sa loob ng isang araw}one{Muling ilunsad ang Decentr sa loob ng # araw}other{Muling ilunsad ang Decentr sa loob ng # na araw}}</translation>
 <translation id="8453117565092476964">Sira o di-wasto ang archive ng installer. Mangyaring i-download muli ang Decentr.</translation>
 <translation id="8493179195440786826">Luma na ang Decentr</translation>
@@ -282,8 +267,6 @@ Hindi mabawi ng Decentr ang iyong mga setting.</translation>
 <translation id="8621669128220841554">Nabigo ang pag-install dahil sa hindi natukoy na error. Mangyaring i-download muli ang Decentr.</translation>
 <translation id="8697124171261953979">Kinokontrol din nito kung anong pahina ang ipinapakita kapag sinimulan mo ang Decentr o naghanap mula sa Omnibox.</translation>
 <translation id="8704119203788522458">Ito ang iyong Decentr</translation>
-<translation id="8713679423359107094">Kapag isinara mo ang lahat ng window ng Decentr, awtomatikong maki-clear ang cookies at data ng site</translation>
-<translation id="8796443464227412154"><ph name="BEGIN_BOLD" />Masa-sign out ka sa karamihan ng mga site<ph name="END_BOLD" /> kapag isinara mo ang Decentr. Kung naka-off ang pag-sync, <ph name="BEGIN_BOLD" />masa-sign out ka sa mga serbisyo ng Google at Decentr<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Kailangan ng Decentr ng pahintulot na i-access ang iyong camera at mikropono para sa site na ito</translation>
 <translation id="8803635938069941624">Mga tuntunin ng Decentr OS</translation>
 <translation id="8821041990367117597">Hindi mai-sync ng Decentr ang iyong data dahil hindi napapanahon ang mga detalye sa pag-sign in ng iyong account.</translation>
@@ -305,6 +288,5 @@ Hindi mabawi ng Decentr ang iyong mga setting.</translation>
 <translation id="9214764063801632699">Decentr OS system</translation>
 <translation id="93478295209880648">Maaaring hindi gumana nang maayos ang Decentr dahil hindi na ito sinusuportahan sa Windows XP o Windows Vista</translation>
 <translation id="965162752251293939">Sino ang gumagamit ng Decentr?</translation>
-<translation id="967427899662692980">Kunin ang pinakamahusay na seguridad ng Decentr</translation>
 <translation id="985602178874221306">Ang Mga May-akda ng Decentr</translation>
 </translationbundle>

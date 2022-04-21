@@ -14,18 +14,12 @@
 <translation id="1028781062521375153">Voir les détails</translation>
 <translation id="1030706264415084469"><ph name="URL" /> souhaite stocker de façon permanente des données volumineuses sur votre appareil</translation>
 <translation id="1032854598605920125">Faire pivoter vers la droite</translation>
-<translation id="1033329911862281889">La navigation privée ne vous rend pas invisible sur Internet :
-        <ph name="BEGIN_LIST" />
-          <ph name="LIST_ITEM" />Les sites et les services qu'ils utilisent peuvent voir que vous les consultez<ph name="END_LIST_ITEM" />
-          <ph name="LIST_ITEM" />Votre employeur ou votre établissement scolaire peuvent connaître votre activité de navigation<ph name="END_LIST_ITEM" />
-          <ph name="LIST_ITEM" />Les fournisseurs d'accès à Internet peuvent surveiller le trafic Web<ph name="END_LIST_ITEM" />
-        <ph name="END_LIST" /></translation>
 <translation id="1036348656032585052">Désactiver</translation>
-<translation id="1036982837258183574">Appuyez sur |<ph name="ACCELERATOR" />| pour quitter le mode plein écran.</translation>
 <translation id="1038106730571050514">Afficher les suggestions</translation>
 <translation id="1038842779957582377">Nom inconnu</translation>
 <translation id="1041998700806130099">Message de la feuille de travail</translation>
 <translation id="1048785276086539861">Si vous modifiez des annotations, ce document s'affichera en mode "Vue par page"</translation>
+<translation id="1049743911850919806">Navigation privée</translation>
 <translation id="1050038467049342496">Fermez les autres applications</translation>
 <translation id="1055184225775184556">&amp;Annuler l'ajout</translation>
 <translation id="1056898198331236512">Avertissement</translation>
@@ -48,12 +42,12 @@
 <translation id="1103523840287552314">Toujours traduire les pages en <ph name="LANGUAGE" /></translation>
 <translation id="1110994991967754504">Sélectionnez une autorisation pour <ph name="PERMISSION_NAME" /></translation>
 <translation id="1113869188872983271">&amp;Annuler la réorganisation</translation>
+<translation id="1115795617528746272"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour fermer toutes les fenêtres de navigation privée actuellement ouvertes.</translation>
 <translation id="1123753900084781868">Sous-titres instantanés non disponibles pour l'instant</translation>
 <translation id="1125573121925420732">Les avertissements peuvent être fréquents en attendant que les sites Web finissent de mettre à jour leurs systèmes de sécurité. Ce problème devrait être bientôt résolu.</translation>
 <translation id="112840717907525620">Cache de la règle valide.</translation>
 <translation id="1130564665089811311">Bouton "Traduire la page" : appuyer sur Entrée pour traduire cette page avec Google Traduction</translation>
 <translation id="1131264053432022307">Image copiée</translation>
-<translation id="1142846828089312304">Bloquer les cookies tiers en mode navigation privée</translation>
 <translation id="1150979032973867961">Impossible de vérifier sur le serveur qu'il s'agit bien du domaine <ph name="DOMAIN" />, car son certificat de sécurité n'est pas considéré comme fiable par le système d'exploitation de votre ordinateur. Cela peut être dû à une mauvaise configuration ou bien à l'interception de votre connexion par un pirate informatique.</translation>
 <translation id="1151972924205500581">Veuillez saisir un mot de passe</translation>
 <translation id="1156303062776767266">Vous consultez un fichier local ou partagé</translation>
@@ -70,6 +64,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1178581264944972037">Suspendre</translation>
 <translation id="1181037720776840403">Supprimer</translation>
 <translation id="1186201132766001848">Vérifier les mots de passe</translation>
+<translation id="1195210374336998651">Accéder aux paramètres de l'appli</translation>
 <translation id="1195558154361252544">Les notifications sont bloquées automatiquement pour tous les sites, sauf ceux que vous autorisez</translation>
 <translation id="1197088940767939838">Orange</translation>
 <translation id="1201402288615127009">Suivant</translation>
@@ -88,7 +83,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="124116460088058876">Plus de langues</translation>
 <translation id="1243027604378859286">Auteur :</translation>
 <translation id="1246424317317450637">Gras</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Chrome OS</translation>
 <translation id="1250759482327835220">Pour régler vos achats plus rapidement la prochaine fois, enregistrez votre carte, votre nom et votre adresse de facturation dans votre compte Google.</translation>
 <translation id="1252799212227771492">Bouton "Créer une feuille", appuyez sur Entrée pour créer rapidement une feuille de calcul Google Sheets</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (synchronisés)</translation>
@@ -116,7 +110,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1307966114820526988">Fonctionnalités obsolètes</translation>
 <translation id="1308113895091915999">Offre disponible</translation>
 <translation id="1312803275555673949">Quelle est la preuve à l'appui ?</translation>
-<translation id="1314311879718644478">Afficher les contenus en réalité augmentée</translation>
+<translation id="131405271941274527"><ph name="URL" /> souhaite envoyer et recevoir des informations lorsque votre téléphone entre en contact avec un appareil NFC</translation>
 <translation id="1314509827145471431">Reliure à droite</translation>
 <translation id="1318023360584041678">Enregistré dans le groupe d'onglets</translation>
 <translation id="1319245136674974084">Ne plus me demander pour cette appli</translation>
@@ -163,10 +157,8 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1422930527989633628">Peut demander à détecter les appareils Bluetooth à proximité</translation>
 <translation id="1426410128494586442">Oui</translation>
 <translation id="1428146450423315676">Empileur 7</translation>
-<translation id="142858679511221695">Utilisateur du cloud</translation>
 <translation id="1428729058023778569">Vous voyez cet avertissement, car ce site n'est pas HTTPS. <ph name="BEGIN_LEARN_MORE_LINK" />En savoir plus<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="1430915738399379752">Imprimer</translation>
-<translation id="1432187715652018471">Cette page veut installer un gestionnaire de services.</translation>
 <translation id="1432581352905426595">Gérer les moteurs de recherche</translation>
 <translation id="1436185428532214179">Peut demander à modifier des fichiers et des dossiers sur votre appareil</translation>
 <translation id="1442386063175183758">Pli du volet droit</translation>
@@ -182,17 +174,10 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1472675084647422956">Plus</translation>
 <translation id="1473183651233018052">JIS B10</translation>
 <translation id="147358896496811705">2A0</translation>
-<translation id="1475299637784133125">Vous recherchez la version du navigateur ? Accédez à la page</translation>
 <translation id="1476595624592550506">Modifiez votre mot de passe</translation>
 <translation id="1483493594462132177">Envoyer</translation>
 <translation id="1484290072879560759">Sélectionner l'adresse de livraison</translation>
 <translation id="1492194039220927094">Diffusion push des règles : </translation>
-<translation id="149293076951187737">Lorsque vous fermez tous les onglets de navigation privée de Chrome, les activités effectuées dans ces onglets sont effacées de cet appareil :
-          <ph name="BEGIN_LIST" />
-            <ph name="LIST_ITEM" />Activité de navigation<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Historique des recherches<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Informations saisies dans les formulaires<ph name="END_LIST_ITEM" />
-          <ph name="END_LIST" /></translation>
 <translation id="1495677929897281669">Retour à l'onglet</translation>
 <translation id="1501859676467574491">Afficher les cartes de votre compte Google</translation>
 <translation id="1507202001669085618">&lt;p&gt;Ce message s'affiche si vous utilisez un portail Wi-Fi auquel vous devez vous connecter pour accéder à Internet.&lt;/p&gt;
@@ -220,8 +205,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1559572115229829303">&lt;p&gt;Impossible d'établir une connexion privée à <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> : la date et l'heure de votre appareil (<ph name="DATE_AND_TIME" />) sont incorrectes.&lt;/p&gt;
 
       &lt;p&gt;Veuillez ajuster la date et l'heure dans la section &lt;strong&gt;Général&lt;/strong&gt; de l'application &lt;strong&gt;Réglages&lt;/strong&gt;.&lt;/p&gt;</translation>
-<translation id="1559839503761818503">L'administrateur redémarrera votre appareil le <ph name="DATE" /> à <ph name="TIME" /></translation>
-<translation id="156703335097561114">Les informations de réseau, comme les adresses, la configuration d'interface et la qualité de la connexion</translation>
 <translation id="1567040042588613346">Cette règle fonctionne comme prévu, mais notez que la même valeur a été définie ailleurs et que cette règle la remplace.</translation>
 <translation id="1569487616857761740">Saisir la date d'expiration</translation>
 <translation id="1581080074034554886">Code CVC :</translation>
@@ -229,13 +212,11 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1583429793053364125">Une erreur s'est produite lors de l'affichage de la page Web.</translation>
 <translation id="1586541204584340881">Les extensions que vous avez installées</translation>
 <translation id="1588438908519853928">Standard</translation>
-<translation id="1589050138437146318">Installer ARCore ?</translation>
 <translation id="1592005682883173041">Accès aux données locales</translation>
 <translation id="1594030484168838125">Sélectionner</translation>
 <translation id="160851722280695521">Jouer au jeu du dino dans Decentr</translation>
 <translation id="161042844686301425">Cyan</translation>
 <translation id="1611101756749861742">2e rouleau</translation>
-<translation id="1615402009686901181">Une règle définie par l'administrateur a désactivé la capture d'écran lorsqu'un contenu confidentiel est affiché</translation>
 <translation id="1620510694547887537">Caméra</translation>
 <translation id="1623104350909869708">Empêcher cette page de générer des boîtes de dialogue supplémentaires</translation>
 <translation id="16338877384480380">Architecture-B</translation>
@@ -286,7 +267,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1741613555002899862">Cette règle doit être spécifiée avec une chaîne valide lorsque la règle DnsOverHttpsMode est définie sur <ph name="SECURE_DNS_MODE_SECURE" />.</translation>
 <translation id="1745880797583122200">Votre navigateur est géré</translation>
 <translation id="1746113442205726301">Décalage Y de l'image</translation>
-<translation id="1747819498338037826">Changer automatiquement</translation>
 <translation id="17513872634828108">Onglets ouverts</translation>
 <translation id="1752021286346845558">Boîte aux lettres 8</translation>
 <translation id="1753706481035618306">Numéro de page</translation>
@@ -298,7 +278,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
     le format de l'en-tête étant incorrect, le navigateur ne peut pas traiter
     votre requête concernant <ph name="SITE" />. Les exploitants de sites peuvent utiliser
     des règles d'origine pour en configurer la sécurité et d'autres propriétés.</translation>
-<translation id="1774592222195216949"><ph name="BEGIN_LINK" />En savoir plus sur la navigation privée dans Chromium<ph name="END_LINK" /></translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1787142507584202372">Les onglets ouverts s'affichent ici</translation>
 <translation id="1791429645902722292">Google Smart Lock</translation>
@@ -321,7 +300,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="1842969606798536927">Paiement</translation>
 <translation id="1856713167556118146">Ce que la navigation privée ne permet pas</translation>
 <translation id="1863257867908022953">Bac 12</translation>
-<translation id="1864927262126810325">Source : <ph name="SOURCE_NAME" /></translation>
 <translation id="1871208020102129563">Le proxy est configuré pour utiliser des serveurs proxy déterminés, pas une URL de script .pac.</translation>
 <translation id="1871284979644508959">Veuillez compléter ce champ.</translation>
 <translation id="1875025161375567525">Bac photo</translation>
@@ -343,7 +321,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="192020519938775529">{COUNT,plural, =0{Aucun}=1{1 site}one{# site}other{# sites}}</translation>
 <translation id="1923390796829649802">Bouton "Gérer les paramètres d'accessibilité", appuyez sur Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Decentr OS</translation>
 <translation id="1924727005275031552">Nouvelle</translation>
-<translation id="1927439593081478069">Bouton "Effectuer un contrôle de sécurité de Chrome", puis Entrée pour effectuer un contrôle de sécurité dans les paramètres de Chrome</translation>
 <translation id="1939175642807587452">Peut demander à envoyer des notifications</translation>
 <translation id="1945968466830820669">Vous risquez de perdre l'accès au compte de votre organisation ou d'être victime d'usurpation d'identité. L'équipe Decentr vous recommande de modifier votre mot de passe maintenant.</translation>
 <translation id="1947454675006758438">Agrafe en haut à droite</translation>
@@ -362,19 +339,13 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2001146170449793414">{COUNT,plural, =1{et 1 autre}one{et # autre}other{et # autres}}</translation>
 <translation id="2003709556000175978">Réinitialiser votre mot de passe maintenant</translation>
 <translation id="2003775180883135320">Quadruple perforation en haut</translation>
-<<<<<<< HEAD
-<translation id="201174227998721785">Gérez les autorisations et les données stockées sur les sites dans les paramètres Chrome</translation>
-<translation id="2019607688127825327">Bouton "Gérer les paramètres d'accessibilité", puis Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Chrome</translation>
-=======
 <translation id="201174227998721785">Gérez les autorisations et les données stockées sur les sites dans les paramètres Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2025115093177348061">Réalité augmentée</translation>
 <translation id="2025186561304664664">Le proxy est défini sur la configuration automatique.</translation>
 <translation id="2025891858974379949">Contenu non sécurisé</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK" />Vérifier le proxy et le pare-feu<ph name="END_LINK" /></translation>
 <translation id="2034971124472263449">Enregistrer quand même</translation>
 <translation id="2036983605131262583">Autre rouleau</translation>
-<translation id="2040894699575719559">Position bloquée</translation>
 <translation id="2042213636306070719">Bac 7</translation>
 <translation id="204357726431741734">Connectez-vous pour utiliser les mots de passe enregistrés dans votre compte Google</translation>
 <translation id="2053111141626950936">Les pages en <ph name="LANGUAGE" /> ne seront pas traduites.</translation>
@@ -425,12 +396,10 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2184405333245229118">{COUNT,plural, =1{1 adresse}one{# adresse}other{# adresses}}</translation>
 <translation id="2187317261103489799">Détecter (par défaut)</translation>
 <translation id="2188375229972301266">Multiple perforation en bas</translation>
-<translation id="2188852899391513400">Le mot de passe que vous venez d'utiliser a été détecté lors d'une violation de données. Pour sécuriser vos comptes, le Gestionnaire de mots de passe Google vous recommande de le modifier immédiatement, puis de vérifier vos mots de passe enregistrés.</translation>
 <translation id="2202020181578195191">Saisissez une année d'expiration valide</translation>
 <translation id="22081806969704220">Bac 3</translation>
 <translation id="2212735316055980242">Règle introuvable.</translation>
 <translation id="2213606439339815911">Obtention des entrées en cours…</translation>
-<translation id="2213612003795704869">La page est imprimée</translation>
 <translation id="2215727959747642672">Modification de fichier</translation>
 <translation id="2218879909401188352">Les pirates informatiques qui contrôlent le site <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> peuvent installer des applications dangereuses qui endommagent votre appareil, ajoutent des frais cachés à votre facture de téléphonie mobile ou dérobent vos informations personnelles. <ph name="BEGIN_LEARN_MORE_LINK" />En savoir plus<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="2224337661447660594">Aucun accès à Internet</translation>
@@ -440,7 +409,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2248949050832152960">Utiliser WebAuthn</translation>
 <translation id="2250931979407627383">Agrafage par le bord gauche</translation>
 <translation id="225207911366869382">Cette valeur n'est plus utilisée dans le cadre de cette règle.</translation>
-<translation id="2256115617011615191">Redémarrer maintenant</translation>
 <translation id="2258928405015593961">Indiquez une date d'expiration située dans le futur et réessayez</translation>
 <translation id="225943865679747347">Code d'erreur : <ph name="ERROR_CODE" /></translation>
 <translation id="2262243747453050782">Erreur HTTP.</translation>
@@ -468,7 +436,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2337852623177822836">Paramètre contrôlé par votre administrateur</translation>
 <translation id="2340263603246777781"><ph name="ORIGIN" /> tente de s'associer</translation>
 <translation id="2346319942568447007">Image copiée</translation>
-<translation id="2350796302381711542">Autoriser <ph name="HANDLER_HOSTNAME" /> à ouvrir tous les liens <ph name="PROTOCOL" /> à la place de <ph name="REPLACED_HANDLER_TITLE" /> ?</translation>
 <translation id="2354001756790975382">Autres favoris</translation>
 <translation id="2354430244986887761">La navigation sécurisée de Google a récemment <ph name="BEGIN_LINK" />détecté des applications malveillantes<ph name="END_LINK" /> sur le site <ph name="SITE" />.</translation>
 <translation id="2355395290879513365">Il se peut que des pirates informatiques puissent voir les images que vous regardez sur ce site et vous piègent en les modifiant.</translation>
@@ -494,20 +461,14 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2413528052993050574">Impossible de vérifier sur le serveur qu'il s'agit bien du domaine <ph name="DOMAIN" />. Il se peut que son certificat de sécurité ait été révoqué. Cela peut être dû à une mauvaise configuration ou bien à l'interception de votre connexion par un pirate informatique.</translation>
 <translation id="2414886740292270097">Sombre</translation>
 <translation id="2430968933669123598">Gérer le compte Google, appuyez sur Entrée pour gérer vos infos, votre vie privée et votre sécurité dans votre compte Google</translation>
-<translation id="2436186046335138073">Autoriser <ph name="HANDLER_HOSTNAME" /> à ouvrir tous les liens <ph name="PROTOCOL" /> ?</translation>
 <translation id="2438874542388153331">Quadruple perforation à droite</translation>
 <translation id="2450021089947420533">Explorations</translation>
 <translation id="2463739503403862330">Remplir</translation>
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">Sélectionner un mode d'expédition</translation>
 <translation id="2465688316154986572">Agrafer</translation>
-<<<<<<< HEAD
-<translation id="2465914000209955735">Gérez les fichiers que vous avez téléchargés dans Chrome</translation>
-<translation id="2466004615675155314">Afficher les informations du Web</translation>
-=======
 <translation id="2465914000209955735">Gérez les fichiers que vous avez téléchargés dans Decentr</translation>
 <translation id="246725142101294240"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyez sur Tabulation, puis sur Entrée pour gérer la navigation sécurisée, etc., dans les paramètres Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />Exécuter les diagnostics du réseau<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">Ordre 1 à N</translation>
 <translation id="2470767536994572628">Si vous modifiez des annotations, ce document s'affichera en mode "Vue par page", dans son orientation d'origine</translation>
@@ -528,7 +489,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2523886232349826891">Enregistrée sur cet appareil uniquement</translation>
 <translation id="2524461107774643265">Ajouter des informations</translation>
 <translation id="2529899080962247600">Ce champ ne peut pas contenir plus de <ph name="MAX_ITEMS_LIMIT" /> entrées. Les entrées supplémentaires seront ignorées.</translation>
-<translation id="2535585790302968248">Ouvrez un nouvel onglet de navigation privée pour naviguer de manière anonyme</translation>
 <translation id="2535659140340599600">{COUNT,plural, =1{et 1 autre}one{et # autre}other{et # autres}}</translation>
 <translation id="2536110899380797252">Ajouter une adresse</translation>
 <translation id="2539524384386349900">Détecter</translation>
@@ -544,7 +504,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2556876185419854533">&amp;Annuler la modification</translation>
 <translation id="2570734079541893434">Gérer les paramètres</translation>
 <translation id="257674075312929031">Groupe</translation>
-<translation id="2576880857912732701">Bouton "Gérer les paramètres de sécurité", puis Entrée pour gérer la navigation sécurisée, etc., dans les paramètres Chrome</translation>
 <translation id="2586657967955657006">Presse-papiers</translation>
 <translation id="2587730715158995865">Proposé par <ph name="ARTICLE_PUBLISHER" />. Lisez cet article et <ph name="OTHER_ARTICLE_COUNT" /> autres.</translation>
 <translation id="2587841377698384444">ID de l'API d'annuaire : </translation>
@@ -554,14 +513,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2597378329261239068">Ce document est protégé par mot de passe. Veuillez saisir ce dernier.</translation>
 <translation id="2609632851001447353">Variantes</translation>
 <translation id="2610561535971892504">Cliquer pour copier</translation>
-<translation id="2617988307566202237">Les informations suivantes <ph name="BEGIN_EMPHASIS" />ne seront pas enregistrées<ph name="END_EMPHASIS" /> dans Chrome :
-        <ph name="BEGIN_LIST" />
-          <ph name="LIST_ITEM" />Votre historique de navigation
-          <ph name="LIST_ITEM" />Les cookies et les données des sites
-          <ph name="LIST_ITEM" />Les informations saisies dans les formulaires
-        <ph name="END_LIST" /></translation>
 <translation id="2618023639789766142">C10 (enveloppe)</translation>
-<translation id="2623663032199728144">Peut demander d'utiliser les infos au sujet de vos écrans</translation>
 <translation id="2625385379895617796">Votre horloge est en avance.</translation>
 <translation id="262745152991669301">Peut demander à se connecter à des appareils USB</translation>
 <translation id="2629325967560697240">Pour bénéficier du niveau de sécurité le plus élevé de Decentr, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />activez la protection renforcée<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
@@ -594,14 +546,8 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2705137772291741111">La copie enregistrée (en cache) de ce site est illisible.</translation>
 <translation id="2709516037105925701">Saisie automatique</translation>
 <translation id="2713444072780614174">Blanc</translation>
-<<<<<<< HEAD
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyer sur Tabulation, puis sur Entrée pour gérer vos paiements et informations sur vos cartes de crédit dans les paramètres Chrome</translation>
-<translation id="271663710482723385">Appuyez sur |<ph name="ACCELERATOR1" />|+|<ph name="ACCELERATOR2" />| pour quitter le mode plein écran</translation>
-=======
 <translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyer sur Tabulation, puis sur Entrée pour gérer vos paiements et informations sur vos cartes de crédit dans les paramètres Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="2721148159707890343">Demande réussie.</translation>
-<translation id="2723669454293168317">Effectuer un contrôle de sécurité dans les paramètres de Chrome</translation>
 <translation id="2726001110728089263">Bac latéral</translation>
 <translation id="2728127805433021124">Le certificat du serveur a été signé avec un algorithme de signature faible.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />Exécuter les diagnostics de connectivité<ph name="END_LINK" /></translation>
@@ -625,15 +571,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2824775600643448204">Barre d'adresse et de recherche</translation>
 <translation id="2826760142808435982">La connexion est chiffrée et authentifiée avec la clé <ph name="CIPHER" />. La méthode d'échange de clés utilisée est <ph name="KX" />.</translation>
 <translation id="2835170189407361413">Effacer le formulaire</translation>
-<translation id="2839032553903800133">Notifications bloquées</translation>
 <translation id="2839501879576190149">Attention : faux site</translation>
 <translation id="2850739647070081192">Invite (enveloppe)</translation>
 <translation id="2856444702002559011">Des individus malveillants tentent peut-être de subtiliser vos informations personnelles sur le site <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> (mots de passe, messages ou numéros de carte de crédit, par exemple). <ph name="BEGIN_LEARN_MORE_LINK" />En savoir plus<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="2859806420264540918">Ce site affiche des annonces intrusives ou trompeuses.</translation>
-<translation id="286512204874376891">Une carte virtuelle masque votre carte réelle pour vous protéger des fraudes potentielles. <ph name="IDS_AUTOFILL_VIRTUAL_CARD_ENROLLMENT_LEARN_MORE_LINK_LABEL" /></translation>
 <translation id="287596039013813457">Amical</translation>
 <translation id="2876489322757410363">En payant via une appli externe, vous allez quitter le mode navigation privée. Voulez-vous continuer ?</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour gérer la navigation sécurisée, etc., dans les paramètres Chrome</translation>
 <translation id="2878197950673342043">Pli au format affiche</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">Positionnement des fenêtres</translation>
@@ -655,7 +598,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="2930577230479659665">Couper après chaque copie</translation>
 <translation id="2932085390869194046">Suggérer un mot de passe…</translation>
 <translation id="2934466151127459956">Government-Letter</translation>
-<translation id="2938225289965773019">Ouvrir les liens "<ph name="PROTOCOL" />"</translation>
 <translation id="2941952326391522266">Impossible de vérifier sur le serveur qu'il s'agit bien du domaine <ph name="DOMAIN" />, car son certificat de sécurité provient du domaine <ph name="DOMAIN2" />. Cela peut être dû à une mauvaise configuration ou bien à l'interception de votre connexion par un pirate informatique.</translation>
 <translation id="2943895734390379394">Heure de l'importation :</translation>
 <translation id="2948083400971632585">Vous pouvez désactiver tout proxy configuré pour une connexion à partir de la page des paramètres.</translation>
@@ -688,12 +630,8 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3037605927509011580">Aïe aïe aïe</translation>
 <translation id="3041612393474885105">Informations relatives au certificat</translation>
 <translation id="3044034790304486808">Reprendre votre recherche</translation>
-<translation id="305162504811187366">Historique du Bureau à distance Chrome, y compris les horodatages, les hôtes et les ID de sessions client</translation>
 <translation id="3060227939791841287">C9 (enveloppe)</translation>
-<<<<<<< HEAD
-=======
 <translation id="3060557858482803256"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyez sur Tabulation, puis sur Entrée pour effectuer un contrôle de sécurité dans les paramètres de Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3061707000357573562">Service d'application de correctifs</translation>
 <translation id="306573536155379004">Le jeu a commencé.</translation>
 <translation id="3080254622891793721">Image</translation>
@@ -701,7 +639,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3087734570205094154">En bas</translation>
 <translation id="3095940652251934233">Statement</translation>
 <translation id="3096100844101284527">Ajouter une adresse d'enlèvement</translation>
-<translation id="3098513225387949945">Cette règle est ignorée. Elle est considérée comme désactivée, car la liste d'interdictions contient une séquence équivalente à "*".</translation>
 <translation id="3105172416063519923">ID d'élément : </translation>
 <translation id="3107591622054137333"><ph name="BEGIN_LINK" />Vérifiez la configuration du DNS sécurisé<ph name="END_LINK" /></translation>
 <translation id="3108943290502734357">Bac intermédiaire</translation>
@@ -733,14 +670,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3197136577151645743">Peut demander à savoir quand vous utilisez activement cet appareil</translation>
 <translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyez sur Tabulation, puis sur Entrée pour gérer les infos que vous synchronisez dans les paramètres Decentr</translation>
 <translation id="320323717674993345">Annuler le paiement</translation>
-<translation id="3203366800380907218">Sur le Web</translation>
 <translation id="3207960819495026254">Favori</translation>
 <translation id="3209034400446768650">Cette page peut vous facturer de l'argent</translation>
 <translation id="3212581601480735796">Votre activité sur <ph name="HOSTNAME" /> est surveillée</translation>
 <translation id="3215092763954878852">Impossible d'utiliser WebAuthn</translation>
 <translation id="3218181027817787318">Valeur relative</translation>
 <translation id="3223287115535306850">Indicateur de lancement de l'appli</translation>
-<translation id="3225347164936328585">Applaudissements</translation>
 <translation id="3225919329040284222">Le serveur dispose d'un certificat qui ne répond pas aux exigences intégrées. Celles-ci sont incluses dans certains sites Web très sécurisés afin de vous protéger.</translation>
 <translation id="3226128629678568754">Veuillez appuyer sur le bouton d'actualisation pour renvoyer les données nécessaires au chargement de la page.</translation>
 <translation id="3226387218769101247">Vignettes</translation>
@@ -748,19 +683,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3229041911291329567">Informations sur la version de l'appareil et du navigateur</translation>
 <translation id="323107829343500871">Saisir le code CVC de la carte <ph name="CREDIT_CARD" /></translation>
 <translation id="3234666976984236645">Toujours détecter du contenu important sur ce site</translation>
-<translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour personnaliser l'apparence de votre navigateur</translation>
 <translation id="3240791268468473923">La bottom sheet indiquant qu'aucun identifiant ne correspond pour le paiement sécurisé est ouverte</translation>
-<translation id="324180406144491771">Les liens de "<ph name="HOST_NAME" />" sont bloqués</translation>
 <translation id="3249845759089040423">Tendance</translation>
 <translation id="3252266817569339921">Français</translation>
 <translation id="3257954757204451555">Qui est à l'origine de ces infos ?</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour créer rapidement un événement dans Google Agenda</translation>
-<<<<<<< HEAD
-<translation id="3261488570342242926">En savoir plus sur les cartes virtuelles</translation>
-<translation id="3264837738038045344">Bouton "Gérer les paramètres de Chrome", puis Entrée pour afficher vos paramètres Chrome</translation>
-=======
 <translation id="3264837738038045344">Bouton "Gérer les paramètres de Decentr", puis Entrée pour afficher vos paramètres Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3266793032086590337">Valeur (conflit)</translation>
 <translation id="3268451620468152448">Onglets ouverts</translation>
 <translation id="3270847123878663523">&amp;Annuler la réorganisation</translation>
@@ -772,12 +700,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3287510313208355388">Télécharger une fois connecté</translation>
 <translation id="3288238092761586174"><ph name="URL" /> devra peut-être effectuer d'autres étapes pour valider votre paiement</translation>
 <translation id="3293642807462928945">En savoir plus sur les règles <ph name="POLICY_NAME" />.</translation>
-<<<<<<< HEAD
-<translation id="3295444047715739395">Affichez et gérez vos mots de passe dans les paramètres Chrome</translation>
-<translation id="3303795387212510132">Autoriser l'appli à ouvrir des liens <ph name="PROTOCOL_SCHEME" /> ?</translation>
-=======
 <translation id="3295444047715739395">Affichez et gérez vos mots de passe dans les paramètres Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3303855915957856445">Aucun résultat de recherche n'a été trouvé.</translation>
 <translation id="3304073249511302126">Recherche Bluetooth</translation>
 <translation id="3308006649705061278">Unité d'organisation (OU)</translation>
@@ -787,19 +710,15 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3329013043687509092">Saturation</translation>
 <translation id="3333762389743153920">Non éligible pour la carte virtuelle</translation>
 <translation id="3338095232262050444">Sécurisé</translation>
-<translation id="3339446062576134663">Cloud (Ash)</translation>
-<translation id="3345782426586609320">Yeux</translation>
+<translation id="3344575302477361573">Bouton "Fermer les fenêtres de navigation privée", appuyez sur Entrée pour fermer toutes les fenêtres de navigation privée actuellement ouvertes.</translation>
 <translation id="3355823806454867987">Modifier les paramètres du proxy...</translation>
 <translation id="3360103848165129075">Feuille du gestionnaire de paiement</translation>
-<<<<<<< HEAD
-=======
 <translation id="3361596688432910856">Les informations suivantes <ph name="BEGIN_EMPHASIS" />ne seront pas enregistrées<ph name="END_EMPHASIS" /> dans Decentr :
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Votre historique de navigation
           <ph name="LIST_ITEM" />Les cookies et les données des sites
           <ph name="LIST_ITEM" />Les informations saisies dans les formulaires
         <ph name="END_LIST" /></translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3362968246557010467">Cette règle a été copiée automatiquement depuis la règle obsolète "<ph name="OLD_POLICY" />". Vous devez utiliser cette nouvelle règle à la place.</translation>
 <translation id="3364869320075768271">Le site <ph name="URL" /> souhaite utiliser vos données et votre appareil de réalité virtuelle</translation>
 <translation id="3366477098757335611">Afficher les cartes</translation>
@@ -808,14 +727,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
       • Créer un plan 3D de votre environnement et suivre la position de votre caméra
       • Utiliser votre caméra</translation>
 <translation id="337363190475750230">Révoqué</translation>
-<translation id="3375754925484257129">Effectuer un contrôle de sécurité de Chrome</translation>
 <translation id="3377144306166885718">Le serveur utilisait une version obsolète de TLS.</translation>
 <translation id="3377188786107721145">Erreur d'analyse de la règle.</translation>
 <translation id="3377736046129930310">Utiliser le verrouillage de l'écran pour confirmer les cartes plus rapidement</translation>
 <translation id="3380365263193509176">Erreur inconnue.</translation>
 <translation id="3380864720620200369">ID client : </translation>
 <translation id="3381668585148405088">Valider votre achat</translation>
-<translation id="3383566085871012386">Ordre de priorité actuel</translation>
 <translation id="3387261909427947069">Modes de paiement</translation>
 <translation id="3391030046425686457">Adresse de livraison</translation>
 <translation id="3391482648489541560">modification de fichier</translation>
@@ -850,7 +767,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3462200631372590220">Masquer les paramètres avancés</translation>
 <translation id="3467763166455606212">Nom du titulaire de la carte obligatoire</translation>
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />, actuellement ouvert, appuyez sur la touche tabulation, puis sur Entrée pour passer à l'onglet ouvert</translation>
-<translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour fermer toutes les fenêtres de navigation privée actuellement ouvertes</translation>
 <translation id="3479552764303398839">Pas maintenant</translation>
 <translation id="3484560055331845446">Vous pourriez perdre l'accès à votre compte Google. L'équipe Decentr vous recommande de modifier votre mot de passe maintenant. Vous devrez vous connecter.</translation>
 <translation id="3487845404393360112">Bac 4</translation>
@@ -882,13 +798,13 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3587738293690942763">Milieu</translation>
 <translation id="3592413004129370115">Italian (enveloppe)</translation>
 <translation id="3595699422137460894">{NUM_DAYS,plural, =0{Vous pouvez réinitialiser votre groupe à tout moment. Comptez environ une journée pour rejoindre un nouveau groupe.}=1{Vous pouvez réinitialiser votre groupe à tout moment. Comptez environ une journée pour rejoindre un nouveau groupe.}one{Vous pouvez réinitialiser votre groupe à tout moment. Comptez {NUM_DAYS} jour pour rejoindre un nouveau groupe.}other{Vous pouvez réinitialiser votre groupe à tout moment. Comptez {NUM_DAYS} jours pour rejoindre un nouveau groupe.}}</translation>
+<translation id="3596012367874587041">Paramètres de l'appli</translation>
 <translation id="3600246354004376029">"<ph name="TITLE" />", <ph name="DOMAIN" />, <ph name="TIME" /></translation>
 <translation id="3603507503523709">Application bloquée par votre administrateur</translation>
 <translation id="3608932978122581043">Orientation de l'alimentation</translation>
 <translation id="3611395257124510155">Carte virtuelle de <ph name="CARD_IDENTIFIER" /></translation>
 <translation id="3614103345592970299">Taille 2</translation>
 <translation id="361438452008624280">Entrée de la liste "<ph name="LANGUAGE_ID" />" : langue inconnue ou non compatible.</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour effectuer un contrôle de sécurité dans les paramètres de Chrome</translation>
 <translation id="3615877443314183785">Saisissez une date d'expiration valide</translation>
 <translation id="36224234498066874">Effacer les données de navigation...</translation>
 <translation id="362276910939193118">Afficher l'historique complet</translation>
@@ -896,13 +812,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
     essayez de le supprimer de la liste, puis de le rajouter.</translation>
 <translation id="3630699740441428070">Les administrateurs de cet appareil ont configuré votre connexion réseau grâce à laquelle ils ont la possibilité d'afficher le trafic de votre réseau, y compris les sites Web que vous consultez.</translation>
 <translation id="3631244953324577188">Biométrie</translation>
-<<<<<<< HEAD
-<translation id="3632503704576938756">Partage d'écran réactivé</translation>
-<translation id="3632892046558972264">Partage d'écran suspendu</translation>
-<translation id="3633738897356909127">Bouton "Mise à jour de Chrome" : appuyer sur Entrée pour mettre à jour Chrome depuis les paramètres du navigateur</translation>
-=======
 <translation id="3633738897356909127">Bouton "Mise à jour de Decentr" : appuyer sur Entrée pour mettre à jour Decentr depuis les paramètres du navigateur</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3634530185120165534">Bac 5</translation>
 <translation id="3634567936866541746">Vous venez de saisir votre mot de passe sur un site trompeur. Pour sécuriser vos comptes, Decentr vous recommande de vérifier vos mots de passe enregistrés.</translation>
 <translation id="3637662659967048211">Enregistrer dans le compte Google</translation>
@@ -928,7 +838,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="370972442370243704">Activer "Explorations"</translation>
 <translation id="3711895659073496551">Arrêter</translation>
 <translation id="3712624925041724820">Licences épuisées.</translation>
-<translation id="3714633008798122362">Agenda sur le Web</translation>
 <translation id="3714780639079136834">Activez les données mobiles ou le réseau Wi-Fi.</translation>
 <translation id="3715597595485130451">Connexion au réseau Wi-Fi</translation>
 <translation id="3717027428350673159"><ph name="BEGIN_LINK" />Vérifier les configurations du proxy, du pare-feu et du DNS<ph name="END_LINK" /></translation>
@@ -946,13 +855,11 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3760561303380396507">Utiliser Windows Hello au lieu du code CVC ?</translation>
 <translation id="3761171036307311438">Titulaire de la carte :</translation>
 <translation id="3761718714832595332">Masquer l'état</translation>
+<translation id="3765032636089507299">La page de navigation sécurisée est en cours de création.</translation>
 <translation id="3765588406864124894">Boîte aux lettres 9</translation>
 <translation id="3767485424735936570">La règle définie par l'administrateur déconseille de copier et de coller ce contenu vers <ph name="VM_NAME" /></translation>
 <translation id="377451872037045164"><ph name="CREATE_GOOGLE_KEEP_NOTE_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour créer rapidement une note dans Google Keep</translation>
-<<<<<<< HEAD
-=======
 <translation id="3776257069753764304">Bouton "Gérer les téléchargements dans Decentr", puis Entrée pour gérer les fichiers que vous avez téléchargés dans Decentr.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3778403066972421603">Voulez-vous enregistrer cette carte dans votre compte Google et sur cet appareil ?</translation>
 <translation id="3780694243617746492">Bac de sortie</translation>
 <translation id="3781428340399460090">Rose foncé</translation>
@@ -973,7 +880,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3827112369919217609">Valeur absolue</translation>
 <translation id="3827475930221174051">D'après les activités liées à "<ph name="SEARCH_TERM" />"</translation>
 <translation id="3828924085048779000">La phrase secrète est obligatoire.</translation>
-<translation id="3831065134033923230">Vérifier vos mots de passe enregistrés</translation>
 <translation id="3831915413245941253">L'administrateur du domaine <ph name="ENROLLMENT_DOMAIN" /> a installé des extensions permettant d'utiliser des fonctions supplémentaires. Ces extensions ont accès à certaines de vos données.</translation>
 <translation id="3832522519263485449">Multiple perforation à gauche</translation>
 <translation id="3835233591525155343">Savoir si vous utilisez l'appareil</translation>
@@ -994,7 +900,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3906954721959377182">Tablette</translation>
 <translation id="3909477809443608991"><ph name="URL" /> souhaite lire un contenu protégé. L'identité de votre appareil sera validée par Google et peut être accessible à ce site.</translation>
 <translation id="3909695131102177774"><ph name="LABEL" /> <ph name="ERROR" /></translation>
-<translation id="3927932062596804919">Refuser</translation>
 <translation id="3939773374150895049">Utiliser WebAuthn au lieu du code CVC ?</translation>
 <translation id="3946209740501886391">Toujours demander sur ce site</translation>
 <translation id="3947595700203588284">Peut demander à se connecter à des appareils MIDI</translation>
@@ -1011,20 +916,15 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="3969052498612555048">Vous ne retrouvez pas votre code ? <ph name="BEGIN_LINK" />En obtenir un nouveau<ph name="END_LINK" /></translation>
 <translation id="397105322502079400">Calcul en cours…</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME" /> est bloqué</translation>
-<<<<<<< HEAD
-<translation id="3986705137476756801">Désactiver les sous-titres instantanés pour le moment</translation>
-=======
 <translation id="3973357910713125165">Bouton "Effectuer un contrôle de sécurité de Decentr" : appuyez sur Entrée pour effectuer un contrôle de sécurité dans les paramètres de Decentr</translation>
 <translation id="3986705137476756801">Désactiver les sous-titres instantanés pour le moment</translation>
 <translation id="3987405730340719549">Decentr a établi que ce site pouvait être fictif ou frauduleux.
 
     Si vous pensez que ce message est affiché par erreur, veuillez consulter la page https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="3987940399970879459">Moins de 1 Mo</translation>
 <translation id="3990250421422698716">Décalage</translation>
 <translation id="3996311196211510766">Le site <ph name="ORIGIN" /> a exigé qu'une règle d'origine
     soit appliquée à toutes les requêtes qu'il reçoit. Or, cette règle n'est pas applicable actuellement.</translation>
-<translation id="4009243425692662128">Le contenu des pages que vous imprimez est envoyé à Google Cloud ou à des tiers pour être analysé, par exemple pour vérifier qu'il ne contient pas de données sensibles.</translation>
 <translation id="4010758435855888356">Autoriser l'accès à l'espace de stockage ?</translation>
 <translation id="4014128326099193693">{COUNT,plural, =1{Document PDF contenant {COUNT} page}one{Document PDF contenant {COUNT} page}other{Document PDF contenant {COUNT} pages}}</translation>
 <translation id="4023431997072828269">Comme ce formulaire est envoyé via une connexion non sécurisée, vos informations seront visibles par les autres utilisateurs.</translation>
@@ -1046,12 +946,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4088981014127559358">Décalage Y de l'image côté 1</translation>
 <translation id="4089152113577680600">Bac 14</translation>
 <translation id="4098354747657067197">Le site Web que vous allez ouvrir est trompeur</translation>
-<<<<<<< HEAD
-<translation id="4099048595830172239">Une règle de l'administrateur déconseille de partager votre écran avec <ph name="APPLICATION_TITLE" /> lorsque du contenu confidentiel est visible :</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour personnaliser la taille des polices et des polices de caractères dans Chrome</translation>
-=======
 <translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour personnaliser la taille des polices et des polices de caractères dans Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4101413244023615925">Texte et image</translation>
 <translation id="4103249731201008433">Le numéro de série de l'appareil n'est pas valide.</translation>
 <translation id="4106133539597032659">Bouton "Créer un site", appuyez sur Entrée pour créer rapidement un site dans Google Sites</translation>
@@ -1063,9 +958,9 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4117700440116928470">La portée de la règle n'est pas compatible.</translation>
 <translation id="4121428309786185360">Expire le</translation>
 <translation id="4123572138124678573">Triple perforation en bas</translation>
-<translation id="4127575959421463246">Vous recherchez les indicateurs Chrome OS ? Les consulter</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{1 autre}one{# autre}other{# autres}}</translation>
 <translation id="4130226655945681476">Vérifiez les câbles réseau, le modem et le routeur.</translation>
+<translation id="4133224101597112888">Bouton "Partager cet onglet", appuyez sur Entrée pour partager cet onglet en le castant, en créant un code QR, en partageant le lien, etc.</translation>
 <translation id="4134123981501319574">Créer un document</translation>
 <translation id="413544239732274901">En savoir plus</translation>
 <translation id="4142935452406587478">Bac 10</translation>
@@ -1092,7 +987,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
     le navigateur ne peut pas traiter votre requête
     concernant <ph name="SITE" />. Les exploitants de sites peuvent utiliser des règles d'origine
     pour en configurer la sécurité et d'autres propriétés.</translation>
-<translation id="4210602799576081649">Le code de validation a expiré. Demandez-en un autre.</translation>
 <translation id="421066178035138955">Utiliser vos données et appareils de réalité virtuelle</translation>
 <translation id="4214357935346142455">profil de l'écran de connexion</translation>
 <translation id="4215751373031079683">7x9 (enveloppe)</translation>
@@ -1116,10 +1010,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
     &lt;h4&gt;Étape 5 : Obtenez de l'aide supplémentaire&lt;/h4&gt;
     &lt;p&gt;Si le message d'erreur s'affiche toujours, contactez le propriétaire du site.&lt;/p&gt;</translation>
 <translation id="4226937834893929579"><ph name="BEGIN_LINK" />Essayez d'exécuter les diagnostics réseau<ph name="END_LINK" />.</translation>
-<<<<<<< HEAD
-=======
 <translation id="4229544452621580519">Effectuer un contrôle de sécurité dans les paramètres de Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4230204356098880324">Peut demander à utiliser et bouger votre caméra</translation>
 <translation id="4234495348042597185"><ph name="BEGIN_LINK" />Accéder au site <ph name="SITE" /><ph name="END_LINK" /></translation>
 <translation id="4235360514405112390">Valide</translation>
@@ -1127,7 +1018,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4250680216510889253">Non</translation>
 <translation id="4253168017788158739">Remarque</translation>
 <translation id="425582637250725228">Les modifications que vous avez apportées ne seront peut-être pas enregistrées.</translation>
-<translation id="425869179292622354">Renforcer la sécurité avec une carte virtuelle ?</translation>
 <translation id="4258748452823770588">Signature incorrecte.</translation>
 <translation id="4261046003697461417">Impossible d'ajouter des annotations aux documents protégés</translation>
 <translation id="4265872034478892965">Autorisé par votre administrateur</translation>
@@ -1161,7 +1051,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4346197816712207223">Cartes de crédit acceptées</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">La connexion à <ph name="SITE" /> n'est pas sécurisée</translation>
-<translation id="4349365535725594680">Impossible de partager le contenu confidentiel</translation>
 <translation id="4350629523305688469">Bac multifonction</translation>
 <translation id="4351060348582610152">Le site <ph name="ORIGIN" /> souhaite rechercher les appareils Bluetooth à proximité. Les appareils suivants ont été détectés :</translation>
 <translation id="4351175281479794167">Saisir le code de validation</translation>
@@ -1178,7 +1067,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4390472908992056574">Brim</translation>
 <translation id="4406883609789734330">Sous-titres instantanés</translation>
 <translation id="4406896451731180161">résultats de recherche</translation>
-<translation id="4407755609041463909">Feu</translation>
 <translation id="4408413947728134509">Cookies <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">cookies et infos liées aux sites</translation>
 <translation id="4415426530740016218">Adresse d'enlèvement</translation>
@@ -1190,17 +1078,15 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4434045419905280838">Pop-up et redirections</translation>
 <translation id="4435702339979719576">Carte postale)</translation>
 <translation id="443673843213245140">L'utilisation d'un proxy est désactivée, mais une configuration de proxy explicite est spécifiée.</translation>
-<translation id="4441832193888514600">Règle ignorée, car elle ne peut être définie que comme règle relative aux utilisateurs du cloud.</translation>
 <translation id="4450893287417543264">Ne plus afficher</translation>
 <translation id="4451135742916150903">Peut demander à se connecter à des périphériques HID</translation>
-<translation id="4452328064229197696">Le mot de passe que vous venez d'utiliser a été détecté lors d'une violation de données. Pour sécuriser vos comptes, le Gestionnaire de mots de passe Google vous recommande de vérifier vos mots de passe enregistrés.</translation>
-<translation id="4455222631300069614">Modifier votre mot de passe maintenant</translation>
 <translation id="4460315069258617173">Autorisée jusqu'à ce que vous fermiez les onglets pour ce site</translation>
 <translation id="4464826014807964867">Sites Web avec des infos fournies par votre organisation</translation>
-<translation id="447665707681730621"><ph name="BUBBLE_MESSAGE" />. <ph name="LEARN_MORE_TEXT" /></translation>
+<translation id="4465818729556336129">Ce document est confidentiel. Votre administrateur vous déconseille de l'imprimer.</translation>
 <translation id="4476953670630786061">Ce formulaire n'est pas sécurisé. La saisie automatique a été désactivée.</translation>
 <translation id="4477350412780666475">Titre suivant</translation>
 <translation id="4481251927743463293">Ce que permet la navigation privée</translation>
+<translation id="4481394504112738036">Fichier confidentiel</translation>
 <translation id="4482953324121162758">Ce site ne sera pas traduit.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">Chiffrer les mots de passe synchronisés avec votre compte Google</translation>
@@ -1240,24 +1126,17 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4598556348158889687">Gestion du stockage</translation>
 <translation id="4600854749408232102">C6/C5 (enveloppe)</translation>
 <translation id="4606870351894164739">Percutant</translation>
-<<<<<<< HEAD
-<translation id="4607603470419975064">Bouton "Voir les astuces Chrome", appuyez sur Entrée pour en savoir plus sur les fonctionnalités de Chrome</translation>
-<translation id="4607608436550361748">Voir les astuces Chrome</translation>
-<translation id="4627675673814409125">Cette règle sera ignorée, car elle ne peut pas être définie au niveau du profil Chrome.</translation>
-=======
 <translation id="4607603470419975064">Bouton "Voir les astuces Decentr", appuyez sur Entrée pour en savoir plus sur les fonctionnalités de Decentr</translation>
 <translation id="4607608436550361748">Voir les astuces Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4628948037717959914">Photo</translation>
 <translation id="4631649115723685955">Avec cashback</translation>
 <translation id="4636930964841734540">Infos</translation>
-<translation id="4638670630777875591">Navigation privée dans Chromium</translation>
 <translation id="464342062220857295">Rechercher des fonctionnalités</translation>
 <translation id="4644670975240021822">Ordre inverse, face vers le bas</translation>
 <translation id="4646534391647090355">Accéder</translation>
 <translation id="4652266463001779298">Non autorisée</translation>
 <translation id="4658638640878098064">Agrafe en haut à gauche</translation>
-<translation id="4660119392514473465">Vous pouvez désormais naviguer de façon privée. Les autres utilisateurs de cet appareil ne verront pas votre activité. Toutefois, les téléchargements, les favoris et les éléments de la liste de lecture seront enregistrés.</translation>
+<translation id="4660119392514473465">Vous pouvez maintenant profiter du mode navigation privée. Les autres utilisateurs de cet appareil ne verront pas votre activité. Toutefois, les téléchargements, les favoris et les éléments de la liste de lecture seront enregistrés.</translation>
 <translation id="4668929960204016307">,</translation>
 <translation id="4670064810192446073">Réalité virtuelle</translation>
 <translation id="4673460618347856347">Jeu du dino, jouer</translation>
@@ -1272,7 +1151,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4708268264240856090">Votre connexion a été interrompue</translation>
 <translation id="4712404868219726379">Windows Hello</translation>
 <translation id="4722547256916164131"><ph name="BEGIN_LINK" />Exécutez les diagnostics réseau de Windows<ph name="END_LINK" /></translation>
-<translation id="4722735765955348426">Mot de passe associé à <ph name="USERNAME" /></translation>
 <translation id="4724144314178270921">Peut demander à voir le texte et les images du presse-papiers</translation>
 <translation id="4726672564094551039">Actualiser les règles</translation>
 <translation id="4728558894243024398">Plate-forme</translation>
@@ -1315,6 +1193,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4819347708020428563">Modifier les annotations dans la vue par défaut ?</translation>
 <translation id="4825496307559726072"><ph name="CREATE_GOOGLE_SHEET_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour créer rapidement une feuille de calcul Google Sheets</translation>
 <translation id="4825507807291741242">Puissant</translation>
+<translation id="4827402517081186284">La navigation privée ne vous rend pas invisible sur Internet :
+        <ph name="BEGIN_LIST" />
+          <ph name="LIST_ITEM" />Les sites savent que vous les consultez.<ph name="END_LIST_ITEM" />
+          <ph name="LIST_ITEM" />Votre employeur ou votre établissement scolaire peuvent connaître votre activité de navigation.<ph name="END_LIST_ITEM" />
+          <ph name="LIST_ITEM" />Les fournisseurs d'accès à Internet peuvent surveiller le trafic Web.<ph name="END_LIST_ITEM" />
+        <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">Activer les avertissements</translation>
 <translation id="4838327282952368871">Rêveur</translation>
 <translation id="4840250757394056958">Afficher votre historique Decentr</translation>
@@ -1326,12 +1210,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4854362297993841467">Mode de livraison non disponible. Choisissez-en un autre.</translation>
 <translation id="4854853140771946034">Créer rapidement une note dans Google Keep</translation>
 <translation id="485902285759009870">Validation du code…</translation>
-<translation id="4866506163384898554">Appuyez sur |<ph name="ACCELERATOR1" />|+|<ph name="ACCELERATOR2" />| pour afficher le curseur</translation>
 <translation id="4876188919622883022">Vue simplifiée</translation>
 <translation id="4876305945144899064">Aucun nom d'utilisateur</translation>
 <translation id="4877083676943085827">{COUNT,plural, =0{Aucun}=1{<ph name="EXAMPLE_DOMAIN_1" />}=2{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" />}one{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" /> <ph name="AND_MORE" />}other{<ph name="EXAMPLE_DOMAIN_1" />, <ph name="EXAMPLE_DOMAIN_2" /> <ph name="AND_MORE" />}}</translation>
 <translation id="4877422487531841831">Recherche sur "<ph name="TEXT" />"</translation>
 <translation id="4879491255372875719">Automatique (par défaut)</translation>
+<translation id="4879725228911483934">Ouvrir et positionner des fenêtres sur vos écrans</translation>
 <translation id="4880827082731008257">Rechercher dans l'historique</translation>
 <translation id="4881695831933465202">Ouvrir</translation>
 <translation id="4885256590493466218">Vous paierez avec "<ph name="CARD_DETAIL" />".</translation>
@@ -1340,7 +1224,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4895877746940133817"><ph name="TYPE_1" />, <ph name="TYPE_2" />, <ph name="TYPE_3" /></translation>
 <translation id="4900217275619098670">9e rouleau</translation>
 <translation id="4901778704868714008">Enregistrer…</translation>
-<translation id="4905659621780993806">L'administrateur redémarrera votre appareil automatiquement le <ph name="DATE" /> à <ph name="TIME" />. Enregistrez tous les éléments ouverts avant que votre appareil ne redémarre.</translation>
 <translation id="4913987521957242411">Perforation en haut à gauche</translation>
 <translation id="4918221908152712722">Installer <ph name="APP_NAME" /> (aucun téléchargement requis)</translation>
 <translation id="4923459931733593730">Paiement</translation>
@@ -1349,12 +1232,8 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4926340098269537727"><ph name="ACTIVE_MATCH" />/<ph name="TOTAL_MATCHCOUNT" /></translation>
 <translation id="4929871932072157101"><ph name="KEYWORD_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis Entrée pour lancer une recherche</translation>
 <translation id="4930153903256238152">Grande capacité</translation>
-<translation id="4940163644868678279">Navigation privée dans Chrome</translation>
 <translation id="4943872375798546930">Aucun résultat</translation>
-<<<<<<< HEAD
-=======
 <translation id="4946982471994930967">Bouton "Gérer les paramètres d'accessibilité", appuyez sur Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Decentr.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="4950898438188848926">Bouton pour changer d'onglet (appuyez sur Entrée pour passer à l'onglet ouvert, <ph name="TAB_SWITCH_FOCUSED_FRIENDLY_MATCH_TEXT" />)</translation>
 <translation id="495170559598752135">Actions</translation>
 <translation id="4953689047182316270">Répondre aux événements d'accessibilité</translation>
@@ -1363,13 +1242,11 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="4968522289500246572">Cette appli est conçue pour les mobiles et ne sera peut-être pas bien redimensionnée. Elle pourrait rencontrer des problèmes ou redémarrer.</translation>
 <translation id="4969341057194253438">Supprimer l'enregistrement</translation>
 <translation id="4973922308112707173">Double perforation en haut</translation>
-<translation id="4976702386844183910">Dernière visite : <ph name="DATE" /></translation>
 <translation id="4984088539114770594">Utiliser le micro ?</translation>
 <translation id="4984339528288761049">Prc5 (enveloppe)</translation>
 <translation id="4989163558385430922">Tout afficher</translation>
 <translation id="4989542687859782284">Indisponible</translation>
 <translation id="4989809363548539747">Ce plug-in n'est pas compatible.</translation>
-<translation id="4992066212339426712">Réactiver le son</translation>
 <translation id="4995216769782533993">Confirmez le code de sécurité pour partager les informations relatives à la carte avec ce site</translation>
 <translation id="4995474875135717171">Modifié le :</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour gérer Site Search et votre moteur de recherche par défaut</translation>
@@ -1415,21 +1292,16 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5115216390227830982">European-Edp</translation>
 <translation id="5115232566827194440">Ignorer la session Invité gérée restreinte</translation>
 <translation id="5115563688576182185">(64 bits)</translation>
-<<<<<<< HEAD
-=======
 <translation id="5116898824332672776"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Decentr OS.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5123063207673082822">Week-end</translation>
 <translation id="5125394840236832993">B-Plus</translation>
 <translation id="5126510351761255129">Valider votre carte</translation>
 <translation id="512670116361803001"><ph name="APP_NAME" /> ne sera peut-être pas bien redimensionnée. Pour que l'appli fonctionne correctement, utilisez des tailles de fenêtre prédéfinies.</translation>
 <translation id="5135404736266831032">Gérer les adresses…</translation>
-<translation id="5136841603454277753">Saisissez le bon code</translation>
 <translation id="5138014172396933048">La carte virtuelle n'est pas disponible pour le moment. Veuillez contacter votre banque.</translation>
 <translation id="5138227688689900538">Afficher moins</translation>
 <translation id="5145883236150621069">Code d'erreur présent dans la réponse de la règle.</translation>
 <translation id="5146995429444047494">Les notifications sont bloquées pour <ph name="ORIGIN" /></translation>
-<translation id="514704532284964975"><ph name="URL" /> souhaite consulter et modifier des informations sur les appareils NFC que vous touchez avec votre téléphone</translation>
 <translation id="5148809049217731050">Vers le haut</translation>
 <translation id="515292512908731282">C4 (enveloppe)</translation>
 <translation id="5158275234811857234">Couverture</translation>
@@ -1447,19 +1319,16 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="51918995459521422"><ph name="ORIGIN" /> souhaite télécharger plusieurs fichiers</translation>
 <translation id="519422657042045905">Annotation indisponible</translation>
 <translation id="5201306358585911203">Une page intégrée à cette page Web indique</translation>
-<translation id="5204468114771111727">Chrome a détecté que votre dernier mot de passe utilisé a été exposé lors d'une violation de données. L'Assistant Google peut le modifier automatiquement.</translation>
 <translation id="5205222826937269299">Veuillez saisir un nom</translation>
 <translation id="5209518306177824490">Empreinte SHA-1</translation>
 <translation id="5209670883520018268">Bac 20</translation>
 <translation id="5215116848420601511">Modes de paiement et adresses utilisés dans Google Pay</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="521659676233207110">Bac 13</translation>
-<translation id="5216942107514965959">Dernière visite : aujourd'hui</translation>
 <translation id="5222812217790122047">Veuillez saisir une adresse e-mail</translation>
 <translation id="5230733896359313003">Adresse de livraison</translation>
 <translation id="5230815978613972521">B8</translation>
 <translation id="5233045608889518621">12x19</translation>
-<translation id="5234764350956374838">Ignorer</translation>
 <translation id="5250209940322997802">"Se connecter au réseau"</translation>
 <translation id="52517543715119994">En savoir plus sur les fonctionnalités de Decentr</translation>
 <translation id="5251803541071282808">Cloud</translation>
@@ -1468,6 +1337,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5254958791078852567">E1</translation>
 <translation id="5255690596502591079">Capturer quand même</translation>
 <translation id="5266128565379329178">Reliure en haut</translation>
+<translation id="5269124652893918188"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour personnaliser l'apparence de votre navigateur.</translation>
 <translation id="5269225904387178860">Quadruple perforation en bas</translation>
 <translation id="5269999699920406580">Seul le propriétaire suivant peut définir les fonctionnalités qui s'appliquent à tout le système : <ph name="OWNER_EMAIL" /></translation>
 <translation id="5273658854610202413">Avertissement : Cette règle n'a pas été fusionnée comme indiqué dans la règle PolicyDictionaryMultipleSourceMergeList, car elle ne fait pas partie des règles de dictionnaire fusionnables.</translation>
@@ -1475,6 +1345,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5283044957620376778">B1</translation>
 <translation id="5284295735376057059">Propriétés du document</translation>
 <translation id="528468243742722775">Fin</translation>
+<translation id="5284909709419567258">Adresses réseau</translation>
 <translation id="5285570108065881030">Afficher tous les mots de passe enregistrés</translation>
 <translation id="5287240709317226393">Afficher les cookies</translation>
 <translation id="5287456746628258573">La configuration de sécurité obsolète de ce site peut exposer vos informations, comme vos mots de passe ou vos numéros de carte de crédit, lorsqu'elles lui sont transmises.</translation>
@@ -1497,13 +1368,11 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5333022057423422993">Decentr a trouvé le mot de passe que vous venez d'utiliser lors d'une violation de données. Pour la sécurité de vos comptes, nous vous recommandons de vérifier immédiatement vos mots de passe enregistrés.</translation>
 <translation id="5334013548165032829">Journaux système détaillés</translation>
 <translation id="5334145288572353250">Enregistrer l'adresse ?</translation>
-<translation id="5335920952954443287">Cœur qui bat</translation>
 <translation id="5340250774223869109">Application bloquée</translation>
 <translation id="534295439873310000">Appareils NFC</translation>
 <translation id="5344579389779391559">L'accès à la page suivante peut engendrer des frais</translation>
 <translation id="5347645913823149105">Bouton "Personnaliser les polices dans Decentr", appuyez sur Entrée pour personnaliser la taille des polices et les polices de caractères dans Decentr</translation>
 <translation id="5355557959165512791">Le site <ph name="SITE" /> est actuellement inaccessible, car son certificat a été révoqué. Les erreurs réseau et les attaques sont généralement temporaires. Vous devriez donc pouvoir accéder à cette page plus tard.</translation>
-<translation id="5356837363448394805">Rougir</translation>
 <translation id="536296301121032821">Échec du stockage des paramètres de la règle.</translation>
 <translation id="5363309033720083897">Port série autorisé par votre administrateur</translation>
 <translation id="5371425731340848620">Mettre à jour la carte</translation>
@@ -1515,11 +1384,13 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5398772614898833570">Annonces bloquées</translation>
 <translation id="5400836586163650660">Gris</translation>
 <translation id="540969355065856584">Impossible de vérifier que ce serveur est bien <ph name="DOMAIN" />, car son certificat de sécurité actuel n'est pas valide. Cela peut être dû à une mauvaise configuration ou bien à l'interception de votre connexion par un pirate informatique.</translation>
+<translation id="541143247543991491">Cloud (tout le système)</translation>
 <translation id="541416427766103491">Empileur 4</translation>
 <translation id="5421136146218899937">Effacer les données de navigation...</translation>
 <translation id="5426179911063097041">"<ph name="SITE" />" souhaite vous envoyer des notifications</translation>
 <translation id="5428105026674456456">Espagnol</translation>
 <translation id="5430298929874300616">Supprimer le favori</translation>
+<translation id="5434889539950523874"><ph name="SHARE_THIS_PAGE_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour partager cet onglet en le castant, en créant un code QR, en partageant le lien, etc.</translation>
 <translation id="5439770059721715174">Erreur de validation du schéma au niveau de "<ph name="ERROR_PATH" />" : <ph name="ERROR" /></translation>
 <translation id="5443468954631487277">Ordre inverse, face vers le haut</translation>
 <translation id="5447765697759493033">Ce site ne sera pas traduit</translation>
@@ -1533,7 +1404,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5478437291406423475">B6/C4 (enveloppe)</translation>
 <translation id="5481076368049295676">Ce contenu peut essayer d'installer un logiciel dangereux sur votre appareil pour dérober ou supprimer vos informations. <ph name="BEGIN_LINK" />Je souhaite y accéder malgré tout.<ph name="END_LINK" /></translation>
 <translation id="54817484435770891">Ajouter une adresse valide</translation>
-<translation id="5485973315555778056">Machine du cloud</translation>
 <translation id="5490432419156082418">Adresses et autres</translation>
 <translation id="5492298309214877701">Ce site situé sur l'intranet de l'entreprise, de l'organisation ou de l'établissement scolaire possède la même URL qu'un site Web externe.
     <ph name="LINE_BREAK" />
@@ -1553,22 +1423,17 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5540224163453853">Impossible de trouver l'article demandé.</translation>
 <translation id="5541086400771735334">Boîte aux lettres 7</translation>
 <translation id="5541546772353173584">Ajouter une adresse e-mail</translation>
-<<<<<<< HEAD
-=======
 <translation id="5542280138350899197">Bouton "Gérer les paramètres de sécurité" : appuyez sur Entrée pour gérer la navigation sécurisée, etc., dans les paramètres Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5545756402275714221">Articles pour vous</translation>
 <translation id="5552137475244467770">Decentr vérifie régulièrement que vos mots de passe ne figurent pas dans les listes qui ont été publiées en ligne. Lors de cette opération, vos mots de passe et vos noms d'utilisateur sont chiffrés afin que personne ne puisse les consulter, y compris Google.</translation>
 <translation id="5556459405103347317">Actualiser</translation>
 <translation id="5560088892362098740">Date d'expiration</translation>
 <translation id="55635442646131152">Plan du document</translation>
-<translation id="5565613213060953222">Ouvrir un onglet de navigation privée</translation>
 <translation id="5565735124758917034">Actif</translation>
 <translation id="5570825185877910964">Protéger le compte</translation>
 <translation id="5571083550517324815">Enlèvement impossible à cette adresse. Sélectionnez-en une autre.</translation>
 <translation id="5580958916614886209">Veuillez vérifier le mois d'expiration, puis réessayer</translation>
 <translation id="5586446728396275693">Aucune adresse enregistrée</translation>
-<translation id="5587987780934666589">Utilisateur de la plate-forme</translation>
 <translation id="5593349413089863479">La connexion n'est pas totalement sécurisée</translation>
 <translation id="5595485650161345191">Modifier l'adresse</translation>
 <translation id="5598944008576757369">Sélectionner un mode de paiement</translation>
@@ -1623,12 +1488,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5784606427469807560">Un problème est survenu lors de la validation de votre carte. Vérifiez votre connexion Internet, puis réessayez.</translation>
 <translation id="5785756445106461925">De plus, cette page inclut d'autres ressources qui ne sont pas sécurisées. Ces ressources peuvent être consultées par des tiers pendant leur transfert, et modifiées par un pirate informatique dans le but de changer l'aspect de cette page.</translation>
 <translation id="5786044859038896871">Souhaitez-vous indiquer vos informations de carte de paiement ?</translation>
-<<<<<<< HEAD
-<translation id="578633867165174378">Chrome a trouvé le mot de passe que vous venez d'utiliser lors d'une violation de données. Nous vous recommandons de le modifier immédiatement.</translation>
-<translation id="5789643057113097023">.</translation>
-=======
 <translation id="578633867165174378">Decentr a trouvé le mot de passe que vous venez d'utiliser lors d'une violation de données. Nous vous recommandons de le modifier immédiatement.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="5803412860119678065">Souhaitez-vous indiquer les informations "<ph name="CARD_DETAIL" />" ?</translation>
 <translation id="5804241973901381774">Autorisations</translation>
 <translation id="5810442152076338065">Votre connexion à <ph name="DOMAIN" /> est chiffrée à l'aide d'une méthode de chiffrement obsolète.</translation>
@@ -1640,6 +1500,9 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5830698870816298009">Utiliser et bouger la caméra</translation>
 <translation id="5838278095973806738">Vous ne devriez pas saisir d'informations sensibles sur ce site (par exemple, vos mots de passe ou les informations de votre carte de paiement), car elles risquent d'être dérobées par des pirates informatiques.</translation>
 <translation id="5851548754964597211">Liste d'onglets</translation>
+<translation id="5855253129151731373">Le nom d'hôte de ce site ressemble à <ph name="LOOKALIKE_DOMAIN" />. Les pirates informatiques tentent parfois d'imiter des sites Web en modifiant le nom de domaine de façon subtile pour que le changement passe inaperçu.
+
+    Si vous pensez que ce message est affiché par erreur, veuillez consulter la page https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="5860033963881614850">Désactivé</translation>
 <translation id="5862579898803147654">Empileur 8</translation>
 <translation id="5863847714970149516">Il se peut que l'accès à la page suivante engendre des frais</translation>
@@ -1649,13 +1512,13 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5869522115854928033">Mots de passe enregistrés</translation>
 <translation id="5873013647450402046">Vous devez confirmer votre identité auprès de votre banque.</translation>
 <translation id="5887400589839399685">Carte enregistrée</translation>
-<translation id="5887687176710214216">Dernière visite : hier</translation>
 <translation id="5895138241574237353">Redémarrer</translation>
 <translation id="5895187275912066135">Émis le</translation>
 <translation id="5901630391730855834">Jaune</translation>
 <translation id="5903264686717710770">Titre :</translation>
 <translation id="5905445707201418379">Bloqué selon la règle relative à l'origine de <ph name="ORIGIN" />.</translation>
 <translation id="5908541034548427511"><ph name="TYPE_1" /> (synchronisés)</translation>
+<translation id="5913377024445952699">Capture d'écran mise en pause</translation>
 <translation id="59174027418879706">Activé</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5920262536204764679">{NUM_COOKIES,plural, =1{1 en cours d'utilisation}one{# en cours d'utilisation}other{# en cours d'utilisation}}</translation>
@@ -1663,7 +1526,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="5921639886840618607">Enregistrer la carte dans votre compte Google ?</translation>
 <translation id="5922853866070715753">Vous avez presque terminé !</translation>
 <translation id="5932224571077948991">Le site affiche des annonces intrusives ou trompeuses</translation>
-<translation id="5938153366081463283">Ajouter une carte virtuelle</translation>
 <translation id="5938793338444039872">Troy</translation>
 <translation id="5946937721014915347">Ouverture du site <ph name="SITE_NAME" />…</translation>
 <translation id="5951495562196540101">Impossible d'enregistrer votre appareil avec un compte personnel (licence associée disponible).</translation>
@@ -1685,7 +1547,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6008122969617370890">Ordre N à 1</translation>
 <translation id="6008256403891681546">JCB</translation>
 <translation id="6014801569448771146">Vérifier vos mots de passe</translation>
-<translation id="6014851866995737824">Cette règle est ignorée, car il manque la liste d'autorisations ou d'interdictions.</translation>
 <translation id="6015796118275082299">Année</translation>
 <translation id="6017514345406065928">Vert</translation>
 <translation id="6017850046339264347">Les pirates informatiques qui contrôlent le site <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> peuvent installer des applications trompeuses se faisant passer pour d'autres, ou collecter des données afin de vous surveiller. <ph name="BEGIN_LEARN_MORE_LINK" />En savoir plus<ph name="END_LEARN_MORE_LINK" /></translation>
@@ -1709,7 +1570,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6051221802930200923">Le site <ph name="SITE" /> est actuellement inaccessible, car il utilise l'épinglage des certificats. Les erreurs réseau et les attaques sont généralement temporaires. Vous devriez donc pouvoir accéder à cette page plus tard.</translation>
 <translation id="6051898664905071243">Nombre de pages :</translation>
 <translation id="6052284303005792909">•</translation>
-<translation id="6052319569711353666">Le mot de passe que vous venez d'utiliser a été détecté lors d'une violation de données. Le Gestionnaire de mots de passe Google vous recommande de le modifier immédiatement.</translation>
 <translation id="6055888660316801977">Fiche indiquant qu'aucun identifiant ne correspond pour le paiement sécurisé</translation>
 <translation id="6058977677006700226">Vous utilisez vos cartes sur tous vos appareils ?</translation>
 <translation id="6059925163896151826">Appareils USB</translation>
@@ -1718,7 +1578,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6080696365213338172">Vous avez accédé à du contenu à l'aide d'un certificat fourni par l'administrateur. Les données que vous fournissez à <ph name="DOMAIN" /> peuvent être interceptées par votre administrateur.</translation>
 <translation id="6087312102907839798">Recherches associées</translation>
 <translation id="6094273045989040137">Annoter</translation>
-<translation id="6094290315941448991">Une règle définie par l'administrateur a désactivé l'enregistrement d'écran lorsqu'un contenu confidentiel est affiché</translation>
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6105460996796456817">Créer un site</translation>
 <translation id="6106989379647458772">Il est possible que la page Web située à l'adresse <ph name="PAGE" /> soit temporairement inaccessible ou qu'elle ait été déplacée de façon permanente à une nouvelle adresse Web.</translation>
@@ -1728,7 +1587,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6120179357481664955">Souhaitez-vous mémoriser votre ID UPI ?</translation>
 <translation id="6124432979022149706">Connecteurs Decentr Enterprise</translation>
 <translation id="6127379762771434464">Élément supprimé</translation>
-<translation id="6132161237766805930"><ph name="BEGIN_LINK" />En savoir plus sur la navigation privée dans Chrome<ph name="END_LINK" /></translation>
 <translation id="6146055958333702838">Vérifiez les câbles et redémarrez votre routeur, votre modem
     ou tout autre périphérique réseau utilisé.</translation>
 <translation id="614940544461990577">Voici quelques conseils :</translation>
@@ -1741,13 +1599,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6169916984152623906">Vous pouvez désormais naviguer de façon privée. Les autres utilisateurs de cet appareil ne verront pas votre activité. Les téléchargements et les favoris seront cependant enregistrés.</translation>
 <translation id="6177128806592000436">Votre connexion à ce site n'est pas sécurisée</translation>
 <translation id="6180316780098470077">Intervalle entre les tentatives</translation>
+<translation id="619448280891863779">Peut demander à ouvrir et placer des fenêtres sur vos écrans</translation>
 <translation id="6196640612572343990">Bloquer les cookies tiers</translation>
 <translation id="6203231073485539293">Vérifiez votre connexion Internet</translation>
 <translation id="6218753634732582820">Supprimer l'adresse de Decentr ?</translation>
 <translation id="622039917539443112">Pli parallèle</translation>
 <translation id="6221345481584921695">La fonctionnalité de navigation sécurisée Google a récemment permis de <ph name="BEGIN_LINK" />détecter des logiciels malveillants<ph name="END_LINK" /> sur le site <ph name="SITE" />. Un site Web qui est normalement sans danger peut parfois être infecté par des logiciels malveillants. Le contenu en cause provient de l'hôte "<ph name="SUBRESOURCE_HOST" />", une source de logiciels malveillants connue.</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Chrome</translation>
-<translation id="6233160458685643793">Très souriant</translation>
 <translation id="6234122620015464377">Couper après chaque document</translation>
 <translation id="6240447795304464094">Logo Google Pay</translation>
 <translation id="6241121617266208201">Masquer les suggestions</translation>
@@ -1763,20 +1620,14 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6272383483618007430">Google Update</translation>
 <translation id="6276112860590028508">Les pages de votre liste de lecture s'affichent ici</translation>
 <translation id="627746635834430766">Pour régler vos achats plus rapidement la prochaine fois, enregistrez votre carte et votre adresse de facturation dans votre compte Google.</translation>
-<translation id="6279183038361895380">Appuyez sur |<ph name="ACCELERATOR" />| pour afficher le curseur.</translation>
+<translation id="6279098320682980337">Le numéro de carte virtuelle n'est pas renseigné ? Cliquez sur les informations relatives à la carte pour les copier</translation>
 <translation id="6280223929691119688">Impossible de livrer à cette adresse. Sélectionnez-en une autre.</translation>
 <translation id="6282194474023008486">Code postal</translation>
-<translation id="6285507000506177184">Bouton "Gérer les téléchargements dans Chrome", puis Entrée pour gérer les fichiers que vous avez téléchargés dans Chrome</translation>
 <translation id="6289939620939689042">Couleur de la page</translation>
 <translation id="6290238015253830360">Vos suggestions d'articles s'affichent ici</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">Cryptogramme :</translation>
-<<<<<<< HEAD
-<translation id="6300452962057769623">{0,plural, =0{Votre appareil va redémarrer maintenant}=1{Votre appareil va redémarrer dans 1 seconde}one{Votre appareil va redémarrer dans # seconde}other{Votre appareil va redémarrer dans # secondes}}</translation>
-<translation id="6302269476990306341">Arrêt de l'Assistant Google dans Chrome</translation>
-=======
 <translation id="6302269476990306341">Arrêt de l'Assistant Google dans Decentr</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6305205051461490394"><ph name="URL" /> est inaccessible.</translation>
 <translation id="6312113039770857350">Page Web non disponible</translation>
 <translation id="63172326633386613">Gérer les paramètres d'accessibilité</translation>
@@ -1787,7 +1638,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6328786501058569169">Ce site est trompeur</translation>
 <translation id="6337133576188860026">Libère moins de <ph name="SIZE" />. Le chargement de certains sites risque d'être plus lent lors de votre prochaine visite.</translation>
 <translation id="6337534724793800597">Filtrer les règles par nom</translation>
-<translation id="6340739886198108203">Une règle de l'administrateur déconseille de capturer ou d'enregistrer l'écran quand du contenu confidentiel est visible :</translation>
 <translation id="6349101878882523185">Installer <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Aucun}=1{1 mot de passe (associé à <ph name="DOMAIN_LIST" /> ; synchronisé)}=2{2 mots de passe (associés à <ph name="DOMAIN_LIST" /> ; synchronisés)}one{# mot de passe (associé à <ph name="DOMAIN_LIST" /> ; synchronisé)}other{# mots de passe (associés à <ph name="DOMAIN_LIST" /> ; synchronisés)}}</translation>
 <translation id="6355392890578844978">Ce navigateur n'est géré par aucune entreprise ni aucune autre organisation. Il se peut que l'activité sur cet appareil soit gérée en dehors de Decentr. <ph name="BEGIN_LINK" />En savoir plus<ph name="END_LINK" /></translation>
@@ -1805,7 +1655,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6390662030813198813">Engineering-E</translation>
 <translation id="6391700400718590966">La bottom sheet indiquant qu'aucun identifiant ne correspond pour le paiement sécurisé est fermée</translation>
 <translation id="6393956493820063117">Le règlement de l'administrateur bloque le collage de contenus provenant de "<ph name="ORIGIN_NAME" />" à cet endroit</translation>
-<translation id="6398277657359595425">Pleurer fort</translation>
 <translation id="6398765197997659313">Quitter le mode plein écran</translation>
 <translation id="6401136357288658127">Cette règle est obsolète. Vous devez utiliser la règle "<ph name="NEW_POLICY" />" à la place.</translation>
 <translation id="6404511346730675251">Modifier le favori</translation>
@@ -1819,7 +1668,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="643051589346665201">Changer de mot de passe Google</translation>
 <translation id="6433490469411711332">Modifier les coordonnées</translation>
 <translation id="6433595998831338502"><ph name="HOST_NAME" /> n'autorise pas la connexion.</translation>
-<translation id="6438025220577812695">Changer moi-même</translation>
 <translation id="6440503408713884761">Ignoré</translation>
 <translation id="6443406338865242315">Les extensions et les plug-ins que vous avez installés</translation>
 <translation id="6446163441502663861">Kahu (enveloppe)</translation>
@@ -1835,10 +1683,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="647261751007945333">Règles relatives aux appareils</translation>
 <translation id="6476284679642588870">Gérer les modes de paiement</translation>
 <translation id="6489534406876378309">Lancer l'importation des plantages</translation>
-<<<<<<< HEAD
-=======
 <translation id="6493328574149990106"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis Entrée pour personnaliser vos outils d'accessibilité dans les paramètres Decentr.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6493924760403974580">Cette appli n'est compatible qu'avec cette taille.</translation>
 <translation id="6494750904506170417">pop-up et redirections</translation>
 <translation id="6499038740797743453">Réinitialiser le mot de passe ?</translation>
@@ -1853,7 +1698,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6529602333819889595">&amp;Rétablir la suppression</translation>
 <translation id="6545864417968258051">Recherche Bluetooth</translation>
 <translation id="6547208576736763147">Double perforation à gauche</translation>
-<translation id="6554732001434021288">Dernière visite : il y a <ph name="NUM_DAYS" /> jours</translation>
 <translation id="6556866813142980365">Rétablir</translation>
 <translation id="6569060085658103619">Vous consultez actuellement une page d'extension</translation>
 <translation id="6573200754375280815">Double perforation à droite</translation>
@@ -1868,6 +1712,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6596325263575161958">Options de chiffrement</translation>
 <translation id="6609880536175561541">Prc7 (enveloppe)</translation>
 <translation id="6615297766614333076">Empileur 2</translation>
+<translation id="6623589891453322342">gestionnaires de fichiers</translation>
 <translation id="6624427990725312378">Coordonnées</translation>
 <translation id="6626291197371920147">Ajouter un numéro de carte valide</translation>
 <translation id="6628463337424475685">Recherche <ph name="ENGINE" /></translation>
@@ -1885,7 +1730,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6660413144148052430">position</translation>
 <translation id="6662457027866368246">1er rouleau</translation>
 <translation id="666259744093848177">(x86_64, langage traduit)</translation>
-<translation id="6663846344464066639">Mains jointes</translation>
 <translation id="6665553082534466207">Triple perforation à droite</translation>
 <translation id="6671697161687535275">Supprimer la suggestion de saisie de formulaire de Decentr ?</translation>
 <translation id="6685834062052613830">Déconnectez-vous et complétez la configuration.</translation>
@@ -1893,14 +1737,8 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6688743156324860098">Modifier…</translation>
 <translation id="6688775486821967877">La carte virtuelle n'est pas disponible pour le moment. Veuillez réessayer plus tard.</translation>
 <translation id="6689249931105087298">Valeur relative avec compression des points noirs</translation>
-<<<<<<< HEAD
-<translation id="6689271823431384964">Chrome propose d'enregistrer vos cartes dans votre compte Google, car vous êtes connecté. Vous pouvez modifier ce comportement dans les paramètres. Le nom du titulaire de la carte provient de votre compte.</translation>
-<translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour accéder à Localiser votre appareil dans le compte Google</translation>
-<translation id="6696588630955820014">Bouton "Partager cet onglet", puis Entrée pour partager cet onglet en le castant, en créant un code QR, en partageant le lien, etc.</translation>
-=======
 <translation id="6689271823431384964">Decentr propose d'enregistrer vos cartes dans votre compte Google, car vous êtes connecté. Vous pouvez modifier ce comportement dans les paramètres. Le nom du titulaire de la carte provient de votre compte.</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour accéder à Localiser votre appareil avec le compte Google</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="6698381487523150993">Créé :</translation>
 <translation id="6702919718839027939">Présenter</translation>
 <translation id="6710213216561001401">Précédent</translation>
@@ -1915,10 +1753,10 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="674375294223700098">Erreur inconnue liée au certificat du serveur.</translation>
 <translation id="6744009308914054259">En attendant d'avoir une connexion, vous pouvez consulter les téléchargements pour lire des articles hors connexion.</translation>
 <translation id="6753269504797312559">Valeur de la règle</translation>
-<translation id="6755241357817244406">chrome://flags</translation>
 <translation id="6757797048963528358">Votre appareil s'est mis en veille.</translation>
 <translation id="6767985426384634228">Modifier l'adresse ?</translation>
 <translation id="6768213884286397650">Hagaki (carte postale)</translation>
+<translation id="6774185088257932239"><ph name="BEGIN_LINK" />En savoir plus<ph name="END_LINK" /> sur la navigation privée</translation>
 <translation id="6775759552199460396">JIS B2</translation>
 <translation id="67862343314499040">Mauve</translation>
 <translation id="6786747875388722282">Extensions</translation>
@@ -1958,12 +1796,12 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6934672428414710184">Ce nom provient de votre compte Google</translation>
 <translation id="6944692733090228304">Vous avez saisi votre mot de passe sur un site qui n'est pas géré par <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" />. Pour protéger votre compte, ne réutilisez pas ce mot de passe dans d'autres applications ni sur d'autres sites.</translation>
 <translation id="6945221475159498467">Sélectionner</translation>
-<translation id="6946722113367118030">Penser</translation>
 <translation id="6948051842255602737">Partie terminée ! Votre score est de <ph name="SCORE" />.</translation>
 <translation id="6948701128805548767">Sélectionnez une adresse pour consulter les modes et conditions d'enlèvement disponibles</translation>
 <translation id="6949872517221025916">Réinitialiser le mot de passe</translation>
 <translation id="6950684638814147129">Erreur lors de l'analyse de la valeur JSON : <ph name="ERROR" /></translation>
 <translation id="695140971690006676">Tout réinitialiser</translation>
+<translation id="6954341342296443517">Peut demander à ouvrir certains types de fichiers</translation>
 <translation id="6957887021205513506">Le certificat du serveur semble être contrefait.</translation>
 <translation id="6958564499836457428">Gérez les paramètres de confidentialité Google de votre compte Google</translation>
 <translation id="6961844873822989059">Peut demander à utiliser les polices installées sur votre appareil</translation>
@@ -1978,7 +1816,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="6972629891077993081">Périphériques HID</translation>
 <translation id="6973656660372572881">Les serveurs proxy déterminés et une URL de script .pac sont spécifiés tous les deux.</translation>
 <translation id="6973932557599545801">Malheureusement, je ne peux pas vous aider. Veuillez continuer manuellement.</translation>
-<translation id="6978236010531171013">Partager quand même</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979440798594660689">Coupé (par défaut)</translation>
 <translation id="6979983982287291980">Le fichier que vous téléchargez est envoyé dans Google Cloud ou à des tiers pour y être analysé (par exemple, pour vérifier qu'il ne contient pas de données sensibles ni des logiciels malveillants).</translation>
@@ -1990,6 +1827,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="7012363358306927923">China UnionPay</translation>
 <translation id="7014741021609395734">Niveau de zoom</translation>
 <translation id="7016992613359344582">Il peut s'agir de frais uniques ou récurrents qui ne sont pas toujours clairement signalés.</translation>
+<translation id="7024588353896425985">Gestionnaires de fichiers</translation>
 <translation id="7029809446516969842">Mots de passe</translation>
 <translation id="7030436163253143341">Certificat non valide</translation>
 <translation id="7031646650991750659">Les applications Google Play que vous avez installées</translation>
@@ -2018,14 +1856,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="7111012039238467737">(Valide)</translation>
 <translation id="7118618213916969306">Rechercher l'URL du presse-papier, <ph name="SHORT_URL" /></translation>
 <translation id="7119414471315195487">Fermez les autres onglets ou programmes</translation>
-<translation id="7129355289156517987">Lorsque vous fermez tous les onglets de navigation privée de Chromium, les activités effectuées dans ces onglets sont effacées de cet appareil :
-          <ph name="BEGIN_LIST" />
-            <ph name="LIST_ITEM" />Activité de navigation<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Historique des recherches<ph name="END_LIST_ITEM" />
-            <ph name="LIST_ITEM" />Informations saisies dans les formulaires<ph name="END_LIST_ITEM" />
-          <ph name="END_LIST" /></translation>
 <translation id="7129409597930077180">Impossible d'expédier à cette adresse. Sélectionnez-en une autre.</translation>
-<translation id="7132939140423847331">Votre administrateur a interdit la copie de ces données.</translation>
 <translation id="7135130955892390533">Afficher l'état</translation>
 <translation id="7138472120740807366">Mode de livraison</translation>
 <translation id="7139724024395191329">Émirat</translation>
@@ -2036,6 +1867,7 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="7153618581592392745">Lavande</translation>
 <translation id="7156870133441232244">Le serveur doit passer à TLS 1.2 ou version ultérieure.</translation>
 <translation id="717330890047184534">Identifiant GAIA : </translation>
+<translation id="7173920250514487165">Capture d'écran de contenu confidentiel</translation>
 <translation id="7174545416324379297">Valeurs fusionnées</translation>
 <translation id="7175401108899573750">{SHIPPING_OPTIONS,plural, =0{<ph name="SHIPPING_OPTION_PREVIEW" />}=1{<ph name="SHIPPING_OPTION_PREVIEW" /> et <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> autre}one{<ph name="SHIPPING_OPTION_PREVIEW" /> et <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> autre}other{<ph name="SHIPPING_OPTION_PREVIEW" /> et <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> autres}}</translation>
 <translation id="7179323680825933600">Enregistrer et saisir les modes de paiement</translation>
@@ -2046,7 +1878,6 @@ Par défaut, ce type d'accès est bloqué par vos paramètres de confidentialit�
 <translation id="7192203810768312527">Libère <ph name="SIZE" />. Il se peut que certains sites se chargent moins vite à votre prochaine visite.</translation>
 <translation id="719464814642662924">Visa</translation>
 <translation id="7201591969684833065">Votre administrateur peut consulter les éléments suivants :</translation>
-<translation id="7202217080450895452"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyer sur Tabulation, puis sur Entrée pour ouvrir un nouvel onglet de navigation privée</translation>
 <translation id="7202346780273620635">Letter-Extra</translation>
 <translation id="7210863904660874423"><ph name="HOST_NAME" /> ne respecte pas les normes de sécurité.</translation>
 <translation id="7210993021468939304">Activité Linux dans le conteneur, et peut installer et exécuter des applications Linux dans le conteneur</translation>
@@ -2079,7 +1910,6 @@ Informations supplémentaires :
 <translation id="7304562222803846232">Gérer les paramètres de confidentialité du compte Google</translation>
 <translation id="7305756307268530424">Vitesse plus lente</translation>
 <translation id="7308436126008021607">synchronisation en arrière-plan</translation>
-<translation id="7310392214323165548">Redémarrage imminent</translation>
 <translation id="7319430975418800333">A3</translation>
 <translation id="7320336641823683070">Aide à la connexion</translation>
 <translation id="7323804146520582233">Masquer la section "<ph name="SECTION" />"</translation>
@@ -2087,7 +1917,6 @@ Informations supplémentaires :
 <translation id="7334320624316649418">&amp;Rétablir la réorganisation</translation>
 <translation id="7335157162773372339">Peut demander à utiliser votre appareil photo</translation>
 <translation id="7337248890521463931">Afficher plus de lignes</translation>
-<translation id="7337418456231055214">Le numéro de carte virtuelle n'est pas renseigné ? Cliquez sur les informations de la carte pour les copier. <ph name="IDS_AUTOFILL_VIRTUAL_CARD_MANUAL_FALLBACK_BUBBLE_LEARN_MORE_LINK_LABEL" /></translation>
 <translation id="7337706099755338005">Non disponible sur votre plate-forme</translation>
 <translation id="733923710415886693">Le certificat du serveur n'a pas été communiqué tel que le prévoient les règles de transparence des certificats.</translation>
 <translation id="734600844861828519">11x15</translation>
@@ -2110,12 +1939,10 @@ Informations supplémentaires :
 <translation id="7378627244592794276">Non</translation>
 <translation id="7378810950367401542">/</translation>
 <translation id="7386364858855961704">Non applicable</translation>
-<translation id="7388594495505979117">{0,plural, =1{Votre appareil va redémarrer dans 1 minute}one{Votre appareil va redémarrer dans # minute}other{Votre appareil va redémarrer dans # minutes}}</translation>
 <translation id="7390545607259442187">Valider la carte</translation>
 <translation id="7392089738299859607">Modifier l'adresse</translation>
 <translation id="7399802613464275309">Contrôle de sécurité</translation>
 <translation id="7400418766976504921">URL</translation>
-<translation id="7403392780200267761">Partager cet onglet en le castant, en créant un code QR, en partageant le lien, etc.</translation>
 <translation id="7403591733719184120">Votre <ph name="DEVICE_NAME" /> est géré</translation>
 <translation id="7407424307057130981">&lt;p&gt;Ce message d'erreur s'affiche si le logiciel Superfish est installé sur votre ordinateur Windows.&lt;/p&gt;
       &lt;p&gt;Suivez ces étapes pour désactiver temporairement le logiciel afin d'accéder au Web. Vous devez disposer des droits d'administrateur.&lt;/p&gt;
@@ -2147,12 +1974,6 @@ Informations supplémentaires :
 <translation id="7485870689360869515">Aucune donnée n'a été trouvée.</translation>
 <translation id="7495528107193238112">Ce contenu est bloqué. Pour résoudre le problème, contactez le propriétaire du site.</translation>
 <translation id="7497998058912824456">Bouton "Créer un document", appuyez sur Entrée pour créer rapidement un document Google Docs</translation>
-<translation id="7506488012654002225">Les informations suivantes <ph name="BEGIN_EMPHASIS" />ne seront pas enregistrées<ph name="END_EMPHASIS" /> dans Chromium :
-        <ph name="BEGIN_LIST" />
-          <ph name="LIST_ITEM" />Votre historique de navigation
-          <ph name="LIST_ITEM" />Les cookies et les données des sites
-          <ph name="LIST_ITEM" />Les informations saisies dans les formulaires
-        <ph name="END_LIST" /></translation>
 <translation id="7508255263130623398">L'ID d'appareil de la règle renvoyé est vide ou ne correspond pas à l'ID d'appareil actuel.</translation>
 <translation id="7508870219247277067">Vert avocat</translation>
 <translation id="7511955381719512146">Pour utiliser ce réseau Wi-Fi, il est possible que vous deviez vous rendre sur la page <ph name="BEGIN_BOLD" /><ph name="LOGIN_URL" /><ph name="END_BOLD" />.</translation>
@@ -2185,7 +2006,6 @@ Informations supplémentaires :
 <translation id="7578104083680115302">Payez rapidement sur des sites et dans des applications sur tous vos appareils au moyen de cartes que vous avez enregistrées sur Google.</translation>
 <translation id="7581199239021537589">Décalage Y de l'image côté 2</translation>
 <translation id="7582602800368606489">Créer rapidement un événement dans Google Agenda</translation>
-<translation id="7591288787774558753">Partager le contenu confidentiel ?</translation>
 <translation id="7591636454931265313">Le site <ph name="EMBEDDED_URL" /> souhaite utiliser les cookies et les données de site sur <ph name="TOP_LEVEL_URL" /></translation>
 <translation id="7592362899630581445">Le certificat du serveur ne respecte pas les restrictions de noms.</translation>
 <translation id="7598391785903975535">Moins de <ph name="UPPER_ESTIMATE" /></translation>
@@ -2196,7 +2016,6 @@ Informations supplémentaires :
 <translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyer sur Tabulation, puis sur Entrée pour consulter et gérer vos mots de passe dans les paramètres Decentr</translation>
 <translation id="7616645509853975347">Votre administrateur a activé ces connecteurs dans votre navigateur, lesquels ont accès à certaines de vos données.</translation>
 <translation id="7619838219691048931">Feuille de fin</translation>
-<translation id="7625242817712715120">Une règle de l'administrateur déconseille d'imprimer ce contenu</translation>
 <translation id="762844065391966283">Un à la fois</translation>
 <translation id="7633909222644580952">Données relatives aux performances et rapports d'erreur</translation>
 <translation id="7637571805876720304">Supprimer les données de carte de paiement de Decentr ?</translation>
@@ -2204,12 +2023,12 @@ Informations supplémentaires :
 <translation id="7638605456503525968">Ports série</translation>
 <translation id="7639968568612851608">Gris foncé</translation>
 <translation id="7647206758853451655">Qualité d'impression</translation>
+<translation id="7648685412377719625">Fermez toutes les fenêtres de navigation privée actuellement ouvertes.</translation>
 <translation id="7648992873808071793">Stocker les fichiers sur cet appareil</translation>
 <translation id="7653957176542370971">La feuille du gestionnaire de paiement est fermée</translation>
 <translation id="7654909834015434372">Si vous modifiez des annotations, ce document s'affichera dans son orientation d'origine</translation>
 <translation id="765676359832457558">Masquer les paramètres avancés…</translation>
 <translation id="7658239707568436148">Annuler</translation>
-<translation id="7659878911471462949">Larmes de joie</translation>
 <translation id="7662298039739062396">Paramètre contrôlé par une extension</translation>
 <translation id="7663736086183791259">Certificat <ph name="CERTIFICATE_VALIDITY" /></translation>
 <translation id="7666397036351755929">Non autorisées en navigation privée</translation>
@@ -2282,10 +2101,12 @@ Informations supplémentaires :
 <translation id="7888575728750733395">Intent de rendu d'impression</translation>
 <translation id="7894280532028510793">S'il n'y a pas d'erreur, essayez de <ph name="BEGIN_LINK" />faire un diagnostic réseau<ph name="END_LINK" />.</translation>
 <translation id="7904208859782148177">C3 (enveloppe)</translation>
+<translation id="7931318309563332511">Langue source inconnue</translation>
 <translation id="793209273132572360">Modifier l'adresse ?</translation>
 <translation id="7932579305932748336">Revêtement</translation>
 <translation id="79338296614623784">Saisissez un numéro de téléphone valide</translation>
 <translation id="7934414805353235750"><ph name="URL" /> souhaite diffuser un contenu protégé. L'identité de votre appareil sera validée par Google.</translation>
+<translation id="7935031712718413217">URL potentiellement falsifiée</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Date d'expiration : <ph name="EXPIRATION_DATE_ABBR" /></translation>
 <translation id="7938958445268990899">Le certificat du serveur n'est pas encore valide.</translation>
@@ -2296,9 +2117,9 @@ Informations supplémentaires :
 <translation id="7950027195171824198">Gérez vos préférences de cookies dans les paramètres Decentr</translation>
 <translation id="7951415247503192394">(32 bits)</translation>
 <translation id="7953569069500808819">Agrafage par le bord supérieur</translation>
+<translation id="7954041596401851904">Partager cet onglet en le castant, en créant un code QR, en partageant le lien, etc.</translation>
 <translation id="7956713633345437162">Favoris sur mobile</translation>
 <translation id="7961015016161918242">Jamais</translation>
-<translation id="7962467575542381659">Machine de la plate-forme</translation>
 <translation id="7966803981046576691">Type de compte de travail</translation>
 <translation id="79682505114836835">La couleur hexadécimale "<ph name="VALUE" />" n'est pas valide.</translation>
 <translation id="7968982339740310781">Afficher les détails</translation>
@@ -2306,19 +2127,13 @@ Informations supplémentaires :
 <translation id="7976214039405368314">Trop de demandes</translation>
 <translation id="7977538094055660992">Périphérique de sortie</translation>
 <translation id="7977894662897852582">Edp</translation>
-<translation id="7981260203882740562">Associée à</translation>
 <translation id="798134797138789862">Peut demander à utiliser des données et des appareils de réalité virtuelle</translation>
-<<<<<<< HEAD
-<translation id="7984945080620862648">Vous ne pouvez pas consulter le site <ph name="SITE" /> pour le moment, car il a envoyé des identifiants brouillés qui ne peuvent être traités par Chrome. Les erreurs réseau et les attaques sont généralement temporaires. Vous devriez donc pouvoir accéder à cette page ultérieurement.</translation>
-=======
 <translation id="7984945080620862648">Vous ne pouvez pas consulter le site <ph name="SITE" /> pour le moment, car il a envoyé des identifiants brouillés qui ne peuvent être traités par Decentr. Les erreurs réseau et les attaques sont généralement temporaires. Vous devriez donc pouvoir accéder à cette page ultérieurement.</translation>
 <translation id="79859296434321399">Pour afficher des contenus en réalité augmentée, installez ARCore</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">Reliure</translation>
 <translation id="7992044431894087211">Le partage d'écran avec <ph name="APPLICATION_TITLE" /> a repris</translation>
 <translation id="7995512525968007366">Non spécifié</translation>
-<translation id="7998269595945679889">Bouton "Ouvrir un onglet de navigation privée" : appuyer sur Entrée pour ouvrir un nouvel onglet de navigation privée</translation>
 <translation id="800218591365569300">Essayez de fermer les autres onglets ou programmes pour libérer de la mémoire.</translation>
 <translation id="8004582292198964060">Navigateur</translation>
 <translation id="8012116502927253373">{NUM_CARDS,plural, =1{Cette carte et l'adresse de facturation associée seront enregistrées. Vous pourrez vous en servir lorsque vous serez connecté à <ph name="USER_EMAIL" />.}one{Cette carte et l'adresse de facturation associée seront enregistrées. Vous pourrez vous en servir lorsque vous serez connecté à <ph name="USER_EMAIL" />.}other{Ces cartes et les adresses de facturation associées seront enregistrées. Vous pourrez vous en servir lorsque vous serez connecté à <ph name="USER_EMAIL" />.}}</translation>
@@ -2355,12 +2170,10 @@ Informations supplémentaires :
 <translation id="809898108652741896">A6</translation>
 <translation id="8100588592594801589">Les cartes non valides ont été supprimées</translation>
 <translation id="8103161714697287722">Mode de paiement</translation>
-<translation id="8103643211515685474">Imprimer quand même</translation>
 <translation id="8105368624971345109">Désactiver</translation>
 <translation id="810875025413331850">Aucun appareil à proximité n'a été trouvé.</translation>
 <translation id="8116925261070264013">Son coupé</translation>
 <translation id="8118489163946903409">Mode de paiement</translation>
-<translation id="8124639700796374294">Bouton "Personnaliser Chrome", puis Entrée pour personnaliser l'apparence de votre navigateur</translation>
 <translation id="8127301229239896662">Le logiciel "<ph name="SOFTWARE_NAME" />" n'a pas été installé correctement sur votre ordinateur ou sur votre réseau. Demandez à l'administrateur informatique de résoudre le problème.</translation>
 <translation id="8131740175452115882">Confirmer</translation>
 <translation id="8148608574971654810">Version PDF :</translation>
@@ -2378,11 +2191,7 @@ Informations supplémentaires :
 <translation id="8202370299023114387">Conflit</translation>
 <translation id="8206978196348664717">Prc4 (enveloppe)</translation>
 <translation id="8211406090763984747">La connexion est sécurisée</translation>
-<<<<<<< HEAD
-<translation id="8217240300496046857">Les sites ne peuvent pas utiliser de cookies pour suivre votre activité sur le Web. Les fonctionnalités de certains sites peuvent être bloquées.</translation>
-=======
 <translation id="8215696832828595581">Bouton "Personnaliser Decentr", appuyez sur Entrée pour personnaliser l'apparence de votre navigateur.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8218327578424803826">Position attribuée : </translation>
 <translation id="8220146938470311105">C7/C6 (enveloppe)</translation>
 <translation id="8225771182978767009">La personne qui a configuré cet ordinateur a choisi de bloquer ce site.</translation>
@@ -2412,6 +2221,7 @@ Informations supplémentaires :
 <translation id="8282947398454257691">Connaître l'identifiant unique de votre appareil</translation>
 <translation id="8284769179630993263">Gérez la navigation sécurisée, etc., dans les paramètres Decentr</translation>
 <translation id="8286036467436129157">Connexion</translation>
+<translation id="8287501787477690853">L'administrateur déconseille de capturer ou d'enregistrer l'écran en raison de la nature confidentielle du contenu.</translation>
 <translation id="8288807391153049143">Afficher le certificat</translation>
 <translation id="8289355894181816810">Contactez votre administrateur réseau si vous n'êtes pas sûr de vous.</translation>
 <translation id="8293206222192510085">Ajouter aux favoris</translation>
@@ -2423,11 +2233,6 @@ Informations supplémentaires :
 <translation id="830498451218851433">Plier en deux</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">Applications installées et leur fréquence d'utilisation</translation>
-<<<<<<< HEAD
-<translation id="8317207217658302555">Mettre à jour ARCore ?</translation>
-<translation id="831997045666694187">Soirée</translation>
-<translation id="8321476692217554900">notifications</translation>
-=======
 <translation id="831207732689920588">Cette page est suspecte (signalée par Decentr)</translation>
 <translation id="831997045666694187">Soirée</translation>
 <translation id="8321476692217554900">notifications</translation>
@@ -2437,7 +2242,6 @@ Informations supplémentaires :
           <ph name="LIST_ITEM" />l'historique de vos recherches sur cet appareil ;<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />les informations saisies dans des formulaires.<ph name="END_LIST_ITEM" />
         <ph name="END_LIST" /></translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8332188693563227489">L'accès à <ph name="HOST_NAME" /> a été refusé</translation>
 <translation id="833262891116910667">Mettre en surbrillance</translation>
 <translation id="8339163506404995330">Les pages en <ph name="LANGUAGE" /> ne seront pas traduites</translation>
@@ -2472,7 +2276,6 @@ Informations supplémentaires :
 <translation id="8438476240229491014">Mémoriser ce paramètre</translation>
 <translation id="8438786541497918448">Utiliser la caméra et le micro ?</translation>
 <translation id="8446884382197647889">En savoir plus</translation>
-<translation id="8449836157089738489">Tout ouvrir dans un nouveau groupe d'onglets</translation>
 <translation id="8457125768502047971">Indéfiniment</translation>
 <translation id="8461694314515752532">Chiffrer les données synchronisées avec votre propre phrase secrète de synchronisation</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 carte de paiement}one{# carte de paiement}other{# cartes de paiement}}</translation>
@@ -2489,25 +2292,18 @@ Informations supplémentaires :
 <translation id="8507227106804027148">Ligne de commande</translation>
 <translation id="8508648098325802031">Icône Recherche</translation>
 <translation id="8511402995811232419">Gérer les cookies</translation>
-<<<<<<< HEAD
-<translation id="8519753333133776369">Appareil HID autorisé par votre administrateur</translation>
-<translation id="8522552481199248698">Chrome peut vous aider à protéger votre compte Google et à modifier votre mot de passe.</translation>
-<translation id="8530813470445476232">Effacez votre historique de navigation, supprimez les cookies, videz le cache, et plus encore dans les paramètres Chrome</translation>
-<translation id="8533619373899488139">Pour consulter la liste des URL bloquées et des autres règles définies par votre administrateur système, rendez-vous sur &lt;strong&gt;chrome://policy&lt;/strong&gt;.</translation>
-=======
 <translation id="8519478486928352883">L'administrateur déconseille de capturer ou d'enregistrer l'écran en raison de la nature confidentielle du contenu.</translation>
 <translation id="8522552481199248698">Decentr peut vous aider à protéger votre compte Google et à modifier votre mot de passe.</translation>
 <translation id="8530813470445476232">Effacez votre historique de navigation, supprimez les cookies, videz le cache, et plus encore dans les paramètres Decentr</translation>
 <translation id="8533619373899488139">Pour consulter la liste des URL bloquées et des autres règles définies par votre administrateur système, rendez-vous sur &lt;strong&gt;decentr://policy&lt;/strong&gt;.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8539500321752640291">Accorder les deux autorisations ?</translation>
 <translation id="8541158209346794904">Appareil Bluetooth</translation>
 <translation id="8542014550340843547">Triple agrafe en bas</translation>
 <translation id="8543181531796978784">Vous pouvez <ph name="BEGIN_ERROR_LINK" />signaler un problème de détection<ph name="END_ERROR_LINK" />. Si vous avez compris les risques auxquels vous vous exposez, vous pouvez <ph name="BEGIN_LINK" />consulter ce site dangereux<ph name="END_LINK" />.</translation>
-<translation id="8554010658308662631">Plus</translation>
 <translation id="8554912124839363479">{NUM_PERMISSIONS,plural, =1{Réinitialiser l'autorisation}one{Réinitialiser l'autorisation}other{Réinitialiser les autorisations}}</translation>
 <translation id="8555010941760982128">Utilisez ce code au moment de payer</translation>
 <translation id="8557066899867184262">Le code CVC figure au recto de votre carte.</translation>
+<translation id="8558485628462305855">Pour afficher des contenus en réalité augmentée, mettez à jour ARCore</translation>
 <translation id="8559762987265718583">Impossible d'établir une connexion privée à <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> : la date et l'heure de votre appareil (<ph name="DATE_AND_TIME" />) sont incorrectes.</translation>
 <translation id="8564182942834072828">Documents séparés/Copies non assemblées</translation>
 <translation id="8564985650692024650">L'équipe Decentr vous recommande de réinitialiser votre mot de passe <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> si vous l'avez réutilisé sur d'autres sites.</translation>
@@ -2523,10 +2319,10 @@ Informations supplémentaires :
 <translation id="8622948367223941507">Legal-Extra</translation>
 <translation id="8623885649813806493">Aucun mot de passe enregistré. Afficher tous les mots de passe enregistrés.</translation>
 <translation id="8625384913736129811">Enregistrer cette carte sur cet appareil</translation>
+<translation id="8627040765059109009">Capture d'écran réactivée</translation>
 <translation id="865032292777205197">capteurs de mouvement</translation>
 <translation id="8663226718884576429">Récapitulatif de la commande, <ph name="TOTAL_LABEL" />, détails supplémentaires</translation>
 <translation id="8666678546361132282">Anglais</translation>
-<translation id="8669306706049782872">Utiliser les infos au sujet de vos écrans pour ouvrir et placer des fenêtres</translation>
 <translation id="867224526087042813">Signature</translation>
 <translation id="8676424191133491403">Sans délai</translation>
 <translation id="8680536109547170164"><ph name="QUERY" />, réponse, <ph name="ANSWER" /></translation>
@@ -2553,12 +2349,7 @@ Informations supplémentaires :
 <translation id="8731544501227493793">Bouton "Gérer les mots de passe" : appuyer sur Entrée pour consulter et gérer vos mots de passe dans les paramètres Decentr</translation>
 <translation id="8734529307927223492">Votre <ph name="DEVICE_TYPE" /> est géré par <ph name="MANAGER" /></translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyer sur Tabulation, puis sur Entrée pour ouvrir une nouvelle fenêtre de navigation privée</translation>
-<<<<<<< HEAD
-<translation id="8737685506611670901">Ouvrir les liens "<ph name="PROTOCOL" />" à la place de "<ph name="REPLACED_HANDLER_TITLE" />"</translation>
-<translation id="8738058698779197622">Afin d'établir une connexion sécurisée, votre horloge doit être réglée correctement. Les certificats permettant aux sites Web de s'identifier sont en effet valides pendant une période précise. Si l'horloge de votre appareil est incorrecte, Chromium n'est pas en mesure de vérifier la validité des certificats.</translation>
-=======
 <translation id="8738058698779197622">Afin d'établir une connexion sécurisée, votre horloge doit être réglée correctement. Les certificats permettant aux sites Web de s'identifier sont en effet valides pendant une période précise. Si l'horloge de votre appareil est incorrecte, Decentr n'est pas en mesure de vérifier la validité des certificats.</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8740359287975076522">L'&lt;abbr id="dnsDefinition"&gt;adresse DNS&lt;/abbr&gt; de <ph name="HOST_NAME" /> est introuvable. Identification du problème…</translation>
 <translation id="8742371904523228557">Votre code pour <ph name="ORIGIN" /> est <ph name="ONE_TIME_CODE" /></translation>
 <translation id="874918643257405732">Ajouter cet onglet aux favoris</translation>
@@ -2567,7 +2358,6 @@ Informations supplémentaires :
 <translation id="87601671197631245">La configuration de sécurité obsolète de ce site peut exposer vos informations, comme vos mots de passe, vos messages ou vos cartes de crédit, lorsqu'elles lui sont transmises.</translation>
 <translation id="8761567432415473239">La fonctionnalité de navigation sécurisée a récemment permis de <ph name="BEGIN_LINK" />détecter des programmes dangereux<ph name="END_LINK" /> sur le site <ph name="SITE" />.</translation>
 <translation id="8763927697961133303">Périphérique USB</translation>
-<translation id="8763986294015493060">Fermez toutes les fenêtres de navigation privée actuellement ouvertes</translation>
 <translation id="8766943070169463815">La fiche d'authentification concernant les infos de paiement sécurisé est ouverte</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Rétablir la suppression</translation>
@@ -2575,17 +2365,14 @@ Informations supplémentaires :
 <translation id="8792626944327216835">micro</translation>
 <translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> a activé ces connecteurs dans votre navigateur, lesquels ont accès à certaines de vos données.</translation>
 <translation id="8798099450830957504">Par défaut</translation>
-<translation id="8798739476508189189">Vous recherchez les indicateurs de navigateur ? Les consulter</translation>
 <translation id="8805819170075074995">Entrée de la liste "<ph name="LANGUAGE_ID" />" : entrée ignorée, car elle est aussi incluse dans la règle SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Couper après chaque page</translation>
 <translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" /> : appuyer sur Tabulation, puis Entrée pour mettre à jour Decentr depuis les paramètres du navigateur</translation>
 <translation id="8820817407110198400">Favoris</translation>
 <translation id="882338992931677877">Emplacement manuel</translation>
-<translation id="8834380158646307944">Bouton "Fermer les fenêtres de navigation privée", puis Entrée pour fermer toutes les fenêtres de navigation privée actuellement ouvertes</translation>
 <translation id="883848425547221593">Autres favoris</translation>
 <translation id="884264119367021077">Adresse de livraison</translation>
 <translation id="884923133447025588">Aucun système de révocation trouvé</translation>
-<translation id="8849262850971482943">Pour plus de sécurité, utilisez votre carte virtuelle</translation>
 <translation id="885730110891505394">Partage avec Google</translation>
 <translation id="8858065207712248076">L'équipe Decentr vous recommande de réinitialiser votre mot de passe <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> si vous l'avez réutilisé sur d'autres sites.</translation>
 <translation id="885906927438988819">S'il n'y a pas d'erreur, essayez de <ph name="BEGIN_LINK" />faire un diagnostic réseau Windows<ph name="END_LINK" />.</translation>
@@ -2594,22 +2381,16 @@ Informations supplémentaires :
 <translation id="886872106311861689">B3</translation>
 <translation id="8870413625673593573">Récemment fermés</translation>
 <translation id="8870494189203302833">Même ordre, face vers le bas</translation>
-<translation id="8870700989640064057">Imprimer le fichier confidentiel ?</translation>
 <translation id="8871553383647848643">Personnaliser l'apparence de votre navigateur</translation>
 <translation id="8874824191258364635">Saisissez un numéro de carte valide</translation>
-<translation id="8884537526797090108">Impossible d'enregistrer un contenu confidentiel</translation>
 <translation id="8891727572606052622">Mode proxy non valide.</translation>
 <translation id="8894794286471754040">Bord long en premier</translation>
 <translation id="8903921497873541725">Zoom avant</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Bouton "Supprimer la suggestion" (appuyez sur Entrée pour supprimer <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" />)</translation>
 <translation id="8912362522468806198">Compte Google</translation>
-<<<<<<< HEAD
-<translation id="8913778647360618320">Bouton "Gérer les modes de paiement" : appuyer sur Entrée pour gérer vos paiements et les informations sur vos cartes de crédit dans les paramètres Chrome</translation>
-=======
 <translation id="8913778647360618320">Bouton "Gérer les modes de paiement" : appuyer sur Entrée pour gérer vos paiements et les informations sur vos cartes de crédit dans les paramètres Decentr</translation>
 <translation id="8918231688545606538">Cette page est suspecte</translation>
->>>>>>> 13c122a0537ed (Update integration and localization)
 <translation id="8922013791253848639">Toujours autoriser les annonces sur ce site</translation>
 <translation id="892588693504540538">Perforation en haut à droite</translation>
 <translation id="8931333241327730545">Voulez-vous enregistrer cette carte dans votre compte Google ?</translation>
@@ -2631,7 +2412,6 @@ Informations supplémentaires :
 <translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, appuyez sur Tabulation, puis sur Entrée pour afficher votre historique de navigation dans Decentr</translation>
 <translation id="8987927404178983737">Mois</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
-<translation id="8992061558343343009">Vous recherchez la version du système ? Accédez à la page</translation>
 <translation id="899688752321268742"><ph name="URL" /> souhaite savoir si vous utilisez activement cet appareil</translation>
 <translation id="8996941253935762404">Le site Web que vous allez ouvrir contient des programmes dangereux</translation>
 <translation id="8997023839087525404">Le certificat présenté par le serveur n'a pas été communiqué au public. Selon les règles de transparence des certificats, certains certificats doivent obligatoirement être communiqués publiquement pour garantir qu'ils sont dignes de confiance et qu'ils protègent contre les individus malveillants.</translation>
@@ -2640,11 +2420,9 @@ Informations supplémentaires :
 <translation id="9004367719664099443">Session RV en cours</translation>
 <translation id="9005998258318286617">Échec de chargement du document PDF.</translation>
 <translation id="9008201768610948239">Ignorer</translation>
-<translation id="901834265349196618">e-mail</translation>
 <translation id="9020200922353704812">Adresse de facturation de la carte obligatoire</translation>
 <translation id="9020542370529661692">Cette page a été traduite en <ph name="TARGET_LANGUAGE" />.</translation>
 <translation id="9020742383383852663">A8</translation>
-<translation id="9021429684248523859"><ph name="SHARE_THIS_PAGE_FOCUSED_FRIENDLY_MATCH_TEXT" />, puis Tabulation, puis Entrée pour partager cet onglet en le castant, en créant un code QR, en partageant le lien, etc.</translation>
 <translation id="9025348182339809926">(Non valide)</translation>
 <translation id="9030265603405983977">Monochrome</translation>
 <translation id="9035022520814077154">Erreur liée à la sécurité</translation>
@@ -2659,7 +2437,6 @@ Informations supplémentaires :
 <translation id="9050666287014529139">Phrase secrète</translation>
 <translation id="9056953843249698117">Google Store</translation>
 <translation id="9062620674789239642">Il a peut-être été déplacé, modifié ou supprimé.</translation>
-<translation id="9063800855227801443">Impossible de capturer un contenu confidentiel</translation>
 <translation id="9065203028668620118">Modifier</translation>
 <translation id="9065745800631924235">Recherche sur "<ph name="TEXT" />" dans l'historique</translation>
 <translation id="9069693763241529744">Bloqué par une extension</translation>
@@ -2680,7 +2457,6 @@ Informations supplémentaires :
 <translation id="9119042192571987207">Importation terminée</translation>
 <translation id="9128016270925453879">Les règles sont chargées</translation>
 <translation id="9128870381267983090">Connectez-vous au réseau</translation>
-<translation id="9131119348384879525">Capturer le contenu confidentiel ?</translation>
 <translation id="9137013805542155359">Afficher l'original</translation>
 <translation id="9141013498910525015">Gérer les adresses</translation>
 <translation id="9144951720726881238">Date d'expiration :</translation>
@@ -2689,11 +2465,9 @@ Informations supplémentaires :
 <translation id="9150045010208374699">Utiliser votre caméra</translation>
 <translation id="9150685862434908345">Votre administrateur peut modifier sa configuration à distance. Il se peut que l'activité sur cet appareil soit gérée en dehors de Decentr. <ph name="BEGIN_LINK" />En savoir plus<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">Mis à jour</translation>
-<translation id="9155211586651734179">Périphériques audio connectés</translation>
 <translation id="9157595877708044936">Configuration en cours...</translation>
 <translation id="9158625974267017556">C6 (enveloppe)</translation>
 <translation id="9164029392738894042">Vérification de la précision</translation>
-<translation id="9164742147345933553">os://flags</translation>
 <translation id="9168814207360376865">Autoriser les sites à vérifier si vous avez enregistré des modes de paiement</translation>
 <translation id="9169664750068251925">Toujours bloquer sur ce site</translation>
 <translation id="9169931577761441333">Ajouter <ph name="APP_NAME" /> à l'écran d'accueil</translation>

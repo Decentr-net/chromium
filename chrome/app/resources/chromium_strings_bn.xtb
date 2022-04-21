@@ -10,14 +10,11 @@
 <translation id="1315551408014407711">আপনার নতুন Decentr প্রোফাইল সেট আপ করুন</translation>
 <translation id="1396446129537741364">Decentr পাসওয়ার্ডগুলি দেখানোর চেষ্টা করছে৷</translation>
 <translation id="1414495520565016063">আপনি Decentr এ প্রবেশ করেছেন!</translation>
-<translation id="151962892725702025">আপনার ডোমেনে সিঙ্ক উপলভ্য না থাকার কারণে Chromium OS আপনার ডেটা সিঙ্ক করতে পারেনি৷</translation>
+<translation id="151962892725702025">আপনার ডোমেনে সিঙ্ক উপলভ্য না থাকার কারণে Decentr OS আপনার ডেটা সিঙ্ক করতে পারেনি৷</translation>
 <translation id="1524282610922162960">একটি Decentr ট্যাব শেয়ার করুন</translation>
 <translation id="1553461853655228091">আপনার আশেপাশের 3D ম্যাপ তৈরি করতে এই সাইটটির জন্য Decentr-কে আপনার ক্যামেরা অ্যাক্সেস করার অনুমতি দিতে হবে</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{একটি আপডেট প্রয়োগ করতে আপনার অ্যাডমিনিস্ট্রেটর আপনাকে Decentr আবার চালু করতে বলছেন}=1{একটি আপডেট প্রয়োগ করতে আপনার অ্যাডমিনিস্ট্রেটর আপনাকে Decentr আবার চালু করতে বলছেন। আপনার ছদ্মবেশী উইন্ডো আবার খুলবে না।}one{একটি আপডেট প্রয়োগ করতে আপনার অ্যাডমিনিস্ট্রেটর আপনাকে Decentr আবার চালু করতে বলছেন। আপনার #টি ছদ্মবেশী উইন্ডো আবার খুলবে না।}other{একটি আপডেট প্রয়োগ করতে আপনার অ্যাডমিনিস্ট্রেটর আপনাকে Decentr আবার চালু করতে বলছেন। আপনার #টি ছদ্মবেশী উইন্ডো আবার খুলবে না।}}</translation>
-<translation id="1625909126243026060">Decentr-এ মূল গোপনীয়তা এবং নিরাপত্তা নিয়ন্ত্রণ পর্যালোচনা করুন</translation>
-<translation id="1632539827495546968">শুধু একবারের জন্য এই অ্যাকাউন্ট ব্যবহার করলে, আপনি Decentr ব্রাউজার থেকে <ph name="GUEST_LINK_BEGIN" />গেস্ট মোড<ph name="GUEST_LINK_END" /> ব্যবহার করতে পারবেন। অন্য কোনও ব্যক্তির জন্য অ্যাকাউন্ট যোগ করতে চাইলে, <ph name="DEVICE_TYPE" />-এ <ph name="LINK_BEGIN" />নতুন ব্যক্তিকে যোগ করুন<ph name="LINK_END" />।
-
-বিভিন্ন ওয়েবসাইট ও অ্যাপকে আপনার আগে দেওয়া অনুমতি এই অ্যাকাউন্টের ক্ষেত্রেও প্রযোজ্য হবে। <ph name="SETTINGS_LINK_BEGIN" />সেটিংস<ph name="SETTINGS_LINK_END" /> থেকে আপনার Google অ্যাকাউন্ট ম্যানেজ করতে পারবেন।</translation>
+<translation id="1667812772085710766">আপনি Decentr বন্ধ করলে, আপনি যেসব পৃষ্ঠা ভিজিট করেছেন সেগুলি থেকে অটোমেটিক কুকি ও সাইট ডেটা মুছে ফেলে</translation>
 <translation id="1708666629004767631">Decentr-এর একটি নতুন, নিরাপদ ভার্সন উপলভ্য আছে৷</translation>
 <translation id="1774152462503052664">Decentr-কে ব্যাকগ্রাউন্ডে চলতে দিন</translation>
 <translation id="1779356040007214683">Decentr কে আরও নিরাপদ করতে, আমরা কিছু এক্সটেনশান অক্ষম করেছি যা <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> এ তালিকাবদ্ধ করা হয়নি এবং হয়ত আপনাকে না জানিয়ে যোগ করা হয়েছে৷</translation>
@@ -26,31 +23,27 @@
 <translation id="1881322772814446296">আপনি একটি পরিচালিত অ্যাকাউন্টের মাধ্যমে সাইন-ইন করুন করছেন এবং এর অ্যাডমিনিস্ট্রেটরকে আপনার Decentr প্রোফাইলের উপরে নিয়ন্ত্রণ দিচ্ছেন৷ আপনার Decentr ডেটা, যেমন অ্যাপ, বুকমার্ক, ইতিহাস, পাসওয়ার্ড এবং অন্যান্য সেটিংস <ph name="USER_NAME" /> এতে স্থায়ীভাবে সম্পৃক্ত হবে৷ আপনি Google অ্যাকাউন্টগুলির ড্যাশবোর্ডের মাধ্যমে এই ডেটাগুলি মুছতে চালু হবেন, কিন্তু অন্য অ্যাকাউন্টের সাথে এই ডেটা সংশ্লিষ্ট করতে পারবেন না৷ বিকল্প হিসেবে আপনি আপনার বিদ্যমান Decentr তথ্য আলাদা রাখার জন্য একটি নতুন প্রোফাইল তৈরি করতে পারেন৷ <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">এটি বন্ধ করার মানে হল, আপনি Decentr-এ সাইন-ইন না করে Gmail এর মতো Google সাইটগুলিতে সাইন-ইন করতে পারেন</translation>
 <translation id="1929939181775079593">Decentr সাড়া দিচ্ছে না৷ আবার শুরু করবেন?</translation>
-<translation id="1940680973325097484">শুধু একবারের জন্য এই অ্যাকাউন্ট ব্যবহার করলে, আপনি Decentr ব্রাউজার থেকে 'গেস্ট মোড' ব্যবহার করতে পারবেন। অন্য কোনও ব্যক্তির জন্য অ্যাকাউন্ট যোগ করতে চাইলে, <ph name="DEVICE_TYPE" />-এ <ph name="LINK_BEGIN" />নতুন ব্যক্তিকে যোগ করুন<ph name="LINK_END" />।
-
-বিভিন্ন ওয়েবসাইট ও অ্যাপকে আপনার আগে দেওয়া অনুমতি এই অ্যাকাউন্টের ক্ষেত্রেও প্রযোজ্য হবে। <ph name="SETTINGS_LINK_BEGIN" />সেটিংস<ph name="SETTINGS_LINK_END" /> থেকে আপনার Google অ্যাকাউন্ট ম্যানেজ করতে পারবেন।</translation>
 <translation id="1966382378801805537">Decentr ডিফল্ট ব্রাউজার নির্ধারণ বা সেট করতে পারছে না</translation>
-<translation id="1981611865800294956">&amp;Chromium OS আপডেট করতে আবার লঞ্চ করুন</translation>
+<translation id="1981611865800294956">&amp;Decentr OS আপডেট করতে আবার লঞ্চ করুন</translation>
 <translation id="2008474315282236005">এটি এই ডিভাইস থেকে ১টি আইটেম মুছে দেবে। আপনার ডেটা পরে পুনরুদ্ধার করার জন্য, Decentr-এ <ph name="USER_EMAIL" /> হিসেবে সাইন-ইন করুন।</translation>
 <translation id="2020032459870799438">আপনার অন্যান্য পাসওয়ার্ড ডেটার নিরাপত্তা লঙ্ঘন এবং অন্যান্য নিরাপত্তা সংক্রান্ত সমস্যা থেকে সুরক্ষিত কিনা তা চেক করতে <ph name="BEGIN_LINK" />Decentr-এ সাইন-ইন করুন<ph name="END_LINK" />।</translation>
-<translation id="2049376729098081731">Google পরিষেবাতে আরও পছন্দমতো অভিজ্ঞতার জন্য Decentr ইতিহাস অন্তর্ভুক্ত করবেন কিনা তা বেছে নিন</translation>
 <translation id="2174178932569897599">Decentr কাস্টমাইজ করুন</translation>
 <translation id="2185166961232948079">Decentr - নেটওয়ার্ক সাইন-ইন - <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">যদি আপনি একটি কম্পিউটার শেয়ার করেন, তাহলে বন্ধু ও পরিবারের লোকজন পৃথকভাবে ব্রাউজ করতে পারবেন এবং তাদের ইচ্ছা অনুযায়ী Decentr-এর সেট-আপ করতে পারবেন৷</translation>
-<translation id="2294245788148774212">ঐচ্ছিক: ডায়াগনস্টিক ও ব্যবহারের ডেটা অটোমেটিক Google-এ পাঠিয়ে Chromium OS-এর ফিচার ও পারফরম্যান্স আরও উন্নত করে তুলতে সাহায্য করুন।</translation>
-<translation id="2313870531055795960">Decentr-এ স্টোর করা নিরাপদ নয় এমন সাইটের তালিকা থেকে সেগুলির URL গুলি পরীক্ষা করে দেখে। যদি কোনও সাইট আপনার পাসওয়ার্ড চুরি করার চেষ্টা করে বা আপনি কোনও ক্ষতিকারক ফাইল ডাউনলোড করলে, Safe Browsing-এ Decentr পৃষ্ঠার কিছু কন্টেন্ট সহ URL গুলিও হয়ত পাঠাতে পারে।</translation>
+<translation id="2294245788148774212">ঐচ্ছিক: ডায়াগনস্টিক ও ব্যবহারের ডেটা অটোমেটিক Google-এ পাঠিয়ে Decentr OS-এর ফিচার ও পারফরম্যান্স আরও উন্নত করে তুলতে সাহায্য করুন।</translation>
 <translation id="2343156876103232566">এখান থেকে আপনার Android ফোনে একটি নম্বর পাঠাতে, উভয় ডিভাইসের Decentr-এ সাইন-ইন করুন।</translation>
 <translation id="2347108572062610441">আপনি Decentr চালু করলে কোন পৃষ্ঠাটি দেখানো হবে তা এই এক্সটেনশনটি পরিবর্তন করেছে।</translation>
-<translation id="2359808026110333948">চালিয়ে যান</translation>
 <translation id="2396765026452590966">আপনি Decentr চালু করলে কোন পৃষ্ঠাটি দেখানো হবে তা "<ph name="EXTENSION_NAME" />" এক্সটেনশনটি পরিবর্তন করেছে।</translation>
 <translation id="2401032172288869980">এই সাইটের জন্য Decentr-এর ক্যামেরা ও মাইক্রোফোন অ্যাক্সেসের অনুমতি প্রয়োজন</translation>
 <translation id="2483889755041906834">Decentr এ</translation>
 <translation id="2485422356828889247">আনইনস্টল</translation>
-<translation id="2535480412977113886">আপনার অ্যাকাউন্টের সাইন-ইনের বিবরণটি পুরনো হওয়ায় Chromium OS আপনার ডেটা সিঙ্ক করতে পারেনি৷</translation>
+<translation id="2535480412977113886">আপনার অ্যাকাউন্টের সাইন-ইনের বিবরণটি পুরনো হওয়ায় Decentr OS আপনার ডেটা সিঙ্ক করতে পারেনি৷</translation>
 <translation id="2560420686485554789">ফাইল ডাউনলোড করতে Decentr-এর জন্য স্টোরেজের অ্যাক্সেস প্রয়োজন</translation>
 <translation id="2572494885440352020">Decentr সহায়ক</translation>
+<translation id="2577788541081224677">সব ডিভাইস জুড়ে Decentr-এ থাকা ডেটা অ্যাক্সেস করার জন্য সাইন-ইন করুন যাতে আপনি সিঙ্ক চালু করতে পারেন।</translation>
 <translation id="2583187216237139145">এই প্রোফাইল ব্যবহার করার সময় জেনারেট হওয়া Decentr ডেটা (যেমন বুকমার্ক, ইতিহাস, পাসওয়ার্ড ও অন্যান্য সেটিংস) অফিস প্রোফাইল অ্যাডমিনিস্ট্রেটর মুছে দিতে পারেন। <ph name="LEARN_MORE" /></translation>
-<translation id="2587578672395088481">আপডেটটি প্রয়োগ করতে Chromium OS আবার চালু করা প্রয়োজন।</translation>
+<translation id="2587578672395088481">আপডেটটি প্রয়োগ করতে Decentr OS আবার চালু করা প্রয়োজন।</translation>
+<translation id="2614883797045469742">ডিফল্ট সেটিংস বেশিরভাগ মানুষের জন্য কাজ করে, কিন্তু আপনি Decentr যেভাবে ব্যবহার করতে চান সেভাবে কাস্টমাইজ করতে পারেন</translation>
 <translation id="2648074677641340862">ইনস্টলেশনের সময় একটি অপারেটিং সিস্টেম ত্রুটি ঘটেছে৷ অনুগ্রহ করে Decentr আবার ডাউনলোড করুন৷</translation>
 <translation id="2661879430930417727">যদি আপনি কোনও ডিভাইস শেয়ার করেন, তাহলে বন্ধু ও পরিবারের লোকজন পৃথকভাবে ব্রাউজ করতে পারবেন এবং তাদের পছন্দ অনুযায়ী Decentr সেট-আপ করতে পারবেন</translation>
 <translation id="2711502716910134313">Decentr ট্যাব</translation>
@@ -59,11 +52,9 @@
 <translation id="2799223571221894425">পুনঃশুরু</translation>
 <translation id="2837693172913560447"><ph name="USER_EMAIL_ADDRESS" />-এর জন্য এটি একটি নতুন Decentr প্রোফাইল তৈরি করবে</translation>
 <translation id="2847479871509788944">Decentr থেকে সরান...</translation>
-<translation id="2850691299438350830">এটি আপনাকে Decentr-এ সাইন-ইন করা অবস্থাতে নিরাপদে রাখে এবং যদি অন্য Google অ্যাপে আপনি সাইন-ইন করে থাকেন, সেখানেও আপনার নিরাপত্তার বিষয়টি উন্নত করতে এটিকে ব্যবহার করা যেতে পারে।</translation>
 <translation id="2885378588091291677">কার্য পরিচালক</translation>
 <translation id="2910007522516064972">&amp;Decentr সম্পর্কে</translation>
 <translation id="2977470724722393594">Decentr আপ-টু-ডেট আছে</translation>
-<translation id="2977506796191543575">যদি কোনও সাইট আপনার পাসওয়ার্ড চুরি করার চেষ্টা করে বা আপনি কোনও ক্ষতিকারক ফাইল ডাউনলোড করলে, Decentr, পৃষ্ঠার কিছু কন্টেন্ট সহ URL ও হয়ত Safe Browsing-এ পাঠাতে পারে</translation>
 <translation id="2983934633046890458">Decentr আপনার পাসওয়ার্ড এডিট করার অনুমতি চাইছে।</translation>
 <translation id="3032706164202344641">Decentr আপনার পাসওয়ার্ড চেক করতে পারছে না। পরে আবার চেষ্টা করুন।</translation>
 <translation id="3032787606318309379">Decentr-এ জুড়ছে...</translation>
@@ -81,7 +72,7 @@
 <translation id="3283186697780795848">Decentr ভার্সন <ph name="PRODUCT_VERSION" /> ইনস্টল করা আছে</translation>
 <translation id="328888136576916638">Google এপিআই কীগুলি অনুপস্থিত৷ Decentr-এর কিছু বৈশিষ্ট্য নিষ্ক্রিয় হয়ে যাবে৷</translation>
 <translation id="3296368748942286671"> Decentr বন্ধ হলে পটভূমির অ্যাপ্লিকেশন চালু রাখুন</translation>
-<translation id="331951419404882060">সাইন ইনে ত্রুটির কারণে Chromium OS আপনার ডেটা সিঙ্ক করতে পারেনি৷</translation>
+<translation id="331951419404882060">সাইন ইনে ত্রুটির কারণে Decentr OS আপনার ডেটা সিঙ্ক করতে পারেনি৷</translation>
 <translation id="3349211344363550267">Decentr-এর সাজেশন, আপনি ফাইলটি ডাউনলোড করবেন না এবং এটি খুলবেন না</translation>
 <translation id="3350761136195634146">এই অ্যাকাউন্টের সাথে আগে থেকেই একটি Decentr প্রোফাইল রয়েছে</translation>
 <translation id="3406848076815591792">বর্তমান Decentr প্রোফাইলে পাল্টাতে চান?</translation>
@@ -110,26 +101,24 @@
 <translation id="421369550622382712">Decentr-এর জন্য খুব ভালো অ্যাপ্লিকেশান, গেম, এক্সটেনশন এবং থিমসমূহ আবিষ্কার করুন৷</translation>
 <translation id="4216212958613226427">Decentr UI-এ দেখানোর জন্য এই ভাষা ব্যবহার করা হয়</translation>
 <translation id="4230135487732243613">এই অ্যাকাউন্টে আপনার Decentr ডেটা লিঙ্ক করবেন?</translation>
-<translation id="4264410486868823224"><ph name="MANAGER" />-এ এই ডিভাইস ব্যবহার করার আগে আপনাকে নিম্নলিখিত পরিষেবার শর্তাবলী পড়ে নিতে হবে এবং তাতে সম্মতি দিতে হবে। এইসব শর্ত Chromium OS-এর শর্তাবলীকে সম্প্রসারণ, পরিবর্তন বা সীমাবদ্ধ করে না।</translation>
+<translation id="4264410486868823224"><ph name="MANAGER" />-এ এই ডিভাইস ব্যবহার করার আগে আপনাকে নিম্নলিখিত পরিষেবার শর্তাবলী পড়ে নিতে হবে এবং তাতে সম্মতি দিতে হবে। এইসব শর্ত Decentr OS-এর শর্তাবলীকে সম্প্রসারণ, পরিবর্তন বা সীমাবদ্ধ করে না।</translation>
 <translation id="4271805377592243930">Decentr বিষয়ে সাহায্য পান</translation>
 <translation id="4285930937574705105">অনির্দিষ্ট ত্রুটির কারণে ইনস্টলেশন ব্যর্থ৷ বর্তমানে Decentr চালু থাকলেও, দয়া করে এটি বন্ধ করুন এবং আবার চেষ্টা করুন৷</translation>
 <translation id="4407044323746248786">তা স্বত্তেও Decentr ছেড়ে যাবেন?</translation>
 <translation id="4415566066719264597">Decentr-কে ব্যাকগ্রাউন্ডে চলতে দিন</translation>
 <translation id="4423735387467980091">Decentr কাস্টমাইজ ও নিয়ন্ত্রণ করুন</translation>
-<translation id="4427306783828095590">ফিশিং ও ম্যালওয়্যার ব্লক করার ব্যাপারে উন্নত সুরক্ষা আরও সাহায্য করে</translation>
 <translation id="452711251841752011">Decentr-এ স্বাগতম; নতুন ব্রাউজার উইন্ডো খোলা হয়েছে</translation>
 <translation id="4544142686420020088">Decentr আপডেট করা যায়নি, কোনও সমস্যা হয়েছে। <ph name="BEGIN_LINK" />Decentr আপডেট করতে না পারার সমস্যা ও আপডেট করা যায়নি এমন সমস্যার সমাধান করুন।<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">এক্ষেত্রে নতুন Decentr প্রোফাইল তৈরি করতে চান?</translation>
 <translation id="4567424176335768812">আপনি <ph name="USER_EMAIL_ADDRESS" /> হিসেবে সাইন-ইন করেছেন৷ এখন আপনি আপনার সমস্ত সাইন-ইন করা ডিভাইসে আপনার বুকমার্ক, ইতিহাস এবং অন্যান্য সেটিংস অ্যাক্সেস করতে পারেন৷</translation>
 <translation id="459535195905078186">Decentr অ্যাপ্লিকেশানগুলি</translation>
-<translation id="4621240073146040695">প্রায় আপ-টু-ডেট হয়েছে! আপডেট শেষ করতে Decentr আবার চালু করুন।</translation>
 <translation id="4665829708273112819">সতর্কতা: Decentr কোনও এক্সটেনশনকে আপনার ব্রাউজিং ইতিহাস রেকর্ড করার কাজে বাধা দিতে পারে না। ছদ্মবেশী মোডে এই এক্সটেনশনটি বন্ধ করতে, আপনার বেছে নেওয়া বিকল্পগুলির মধ্যে থেকে এটিকে সরিয়ে দিন।</translation>
-<translation id="4673151026126227699">আপনি Decentr ব্যবহারের রিপোর্ট শেয়ার করলেও, আপনার দেখা URL তার মধ্যে অন্তর্ভুক্ত থাকে</translation>
 <translation id="4677944499843243528">অন্য একটি কম্পিউটারে (<ph name="HOST_NAME" />) প্রোফাইলটি অন্য Decentr প্রক্রিয়া (<ph name="PROCESS_ID" />) দ্বারা ব্যবহৃত হচ্ছে বলে মনে হচ্ছে৷ Decentr প্রোফাইলটিকে লক করেছে যাতে এটি বিকৃত না হয়ে যায়৷ যদি আপনি নিশ্চিত হন যে আর কোনো প্রক্রিয়া এই প্রোফাইলটিকে ব্যবহার করছে না, তবে আপনি প্রোফাইলটিকে আনলক করতে পারেন এবং Decentr কে পুনরায় লঞ্চ করতে পারেন৷</translation>
-<translation id="469338717132742108">Chromium OS বিষয়ে সাহায্য পান</translation>
+<translation id="469338717132742108">Decentr OS বিষয়ে সাহায্য পান</translation>
 <translation id="4708774505295300557">আগে কোনো একজন এই কম্পিউটারে <ph name="ACCOUNT_EMAIL_LAST" /> হিসাবে Decentr-এ সাইন-ইন করেছেন। আপনার তথ্য পৃথক রাখার জন্য অনুগ্রহ করে একটি Decentr ব্যবহারকারী তৈরি করুন।</translation>
 <translation id="4746050847053251315">তা স্বত্তেও Decentr বন্ধ করবেন?</translation>
 <translation id="4748217263233248895">Decentr-এর জন্য একটি বিশেষ নিরাপত্তা আপডেট এইমাত্র প্রয়োগ করা হয়েছে। এখনি রিস্টার্ট করুন এবং আপনার ট্যাব আমরা রিস্টোর করব।</translation>
+<translation id="4750035648288509542">প্রায় আপডেট হয়ে গেছে! আপডেট সম্পূর্ণ করতে Decentr আবার চালু করুন। বন্ধ করা একই ছদ্মবেশী উইন্ডো আবার খোলা যায় না।</translation>
 <translation id="4788777615168560705">Decentr আপনার পাসওয়ার্ড চেক করতে পারছে না। ২৪ ঘণ্টা পরে আবার চেষ্টা করুন বা <ph name="BEGIN_LINK" />আপনার Google অ্যাকাউন্টে পাসওয়ার্ড চেক করুন<ph name="END_LINK" />।</translation>
 <translation id="479167709087336770">এটি Google সার্চ-এ যে বানান পরীক্ষা করার টুল ব্যবহার করা হয় সেটিই ব্যবহার করে। আপনি ব্রাউজারে যে টেক্সট লেখেন, সেটি Google-এ পাঠানো হয়। সেটিংস থেকে আপনি এটি পরিবর্তন করতে পারেন।</translation>
 <translation id="4888717733111232871">mDNS ট্রাফিকের অনুমতি দিতে Decentr এর জন্য ইনবাউন্ড নিয়ম।</translation>
@@ -144,8 +133,10 @@
 <translation id="5386450000063123300">Decentr আপডেট হচ্ছে (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Decentr-এ সাইন-ইন করতে দিন</translation>
 <translation id="5398878173008909840">Decentr-এর একটি নতুন ভার্সন উপলব্ধ আছে৷</translation>
+<translation id="5416696090975899932">বিল্ট-ইন পিডিএফ ভিউয়ার অনুপস্থিত থাকলে Decentr প্রিন্ট প্রিভিউ দেখাতে পারে না৷</translation>
 <translation id="5427571867875391349">Decentr-কে আপনার ডিফল্ট ব্রাউজার হিসাবে সেট করুন</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr বিটা</translation>
+<translation id="5479196819031988440">Decentr OS এই পৃষ্ঠাটি খুলতে পারবে না।</translation>
 <translation id="5480860683791598150">এই সাইটটির সাথে আপনার লোকেশন শেয়ার করার জন্য Decentr কে আপনার লোকেশনের তথ্যে অ্যাক্সেস দিতে হবে</translation>
 <translation id="549669000822060376">Decentr যখন সিস্টেম আপডেটগুলিকে ইনস্টল করে তখন দয়া করে অপেক্ষা করুন৷</translation>
 <translation id="5496810170689441661">Decentr আপনার পাসওয়ার্ড এডিট করার অনুমতি চাইছে। অনুমতি দিতে আপনার Windows পাসওয়ার্ড টাইপ করুন।</translation>
@@ -154,14 +145,14 @@
 <translation id="5634636535844844681">Decentr এর জন্য Windows 7 বা উচ্চতর সংস্করণ প্রয়োজন।</translation>
 <translation id="5653831366781983928">এখনই Decentr রিস্টার্ট করুন</translation>
 <translation id="5698481217667032250">এই ভাষায় Decentr প্রদর্শন করুন</translation>
-<translation id="5820394555380036790">Chromium OS</translation>
-<translation id="5854740544000584380"><ph name="BEGIN_LINK_LINUX_OSS" />Linux ডেভেলপমেন্ট এনভায়রনমেন্ট<ph name="END_LINK_LINUX_OSS" />-এর ক্ষেত্রে যেমন করা হয়েছে, তেমনভাবে অতিরিক্ত <ph name="BEGIN_LINK_CROS_OSS" />ওপেন সোর্স সফ্টওয়্যার<ph name="END_LINK_CROS_OSS" />-এর মাধ্যমে Chromium OS তৈরি করা সম্ভব হয়েছে।</translation>
+<translation id="5820394555380036790">Decentr OS</translation>
+<translation id="5854740544000584380"><ph name="BEGIN_LINK_LINUX_OSS" />Linux ডেভেলপমেন্ট এনভায়রনমেন্ট<ph name="END_LINK_LINUX_OSS" />-এর ক্ষেত্রে যেমন করা হয়েছে, তেমনভাবে অতিরিক্ত <ph name="BEGIN_LINK_CROS_OSS" />ওপেন সোর্স সফ্টওয়্যার<ph name="END_LINK_CROS_OSS" />-এর মাধ্যমে Decentr OS তৈরি করা সম্ভব হয়েছে।</translation>
 <translation id="5862307444128926510">Decentr-এ স্বাগতম</translation>
 <translation id="5883558403894052917">Decentr এইসব আইটেমে ম্যালওয়্যার আছে বলে খুঁজে পেয়েছে:</translation>
 <translation id="5895138241574237353">পুনর্সূচনা</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - নেটওয়ার্ক সাইন-ইন</translation>
 <translation id="5987687638152509985">সিঙ্ক শুরু করতে Decentr আপডেট করুন</translation>
-<translation id="6039377483953237732">Chromium OS ভার্সন</translation>
+<translation id="6039377483953237732">Decentr OS ভার্সন</translation>
 <translation id="6055895534982063517">Decentr-এর একটি নতুন ভার্সন উপলভ্য আছে৷ এবং এটি আগের তুলনায় আরও দ্রুত৷</translation>
 <translation id="6063093106622310249">Decentr এ খুলুন</translation>
 <translation id="6072279588547424923">Decentr-এ <ph name="EXTENSION_NAME" /> যোগ করা হয়েছে</translation>
@@ -176,7 +167,6 @@
 <translation id="6212496753309875659">এই কম্পিউটারে ইতিমধ্যে Decentr-এর আরও একটি সাম্প্রতিক ভার্সন রয়েছে৷ যদি সফ্টওয়্যার কাজ না করে, দয়া করে Decentr আনইনস্টল করুন এবং আবার চেষ্টা করুন৷</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr এখন আবার লঞ্চ হবে}=1{Decentr ১ সেকেন্ডের মধ্যে আবার লঞ্চ হবে}one{Decentr # সেকেন্ডের মধ্যে আবার লঞ্চ হবে}other{Decentr # সেকেন্ডের মধ্যে আবার লঞ্চ হবে}}</translation>
 <translation id="6241367896540709610">ফাইল ডাউনলোড করতে Decentr-এর স্টোরেজ অ্যাক্সেসের অনুমতি প্রয়োজন</translation>
-<translation id="6245734527075554892">Decentr-এ স্টোর করা নিরাপদ নয় এমন সাইটের তালিকা থেকে সেগুলির URL পরীক্ষা করে দেখে</translation>
 <translation id="6248213926982192922">Decentr-কে ডিফল্ট ব্রাউজার করুন</translation>
 <translation id="6266342355635466082">কোনও আপডেট আছে কিনা, Decentr তা চেক করে দেখতে পারছে না। আপনার ইন্টারনেট কানেকশন চেক করে দেখে নিন।</translation>
 <translation id="6268381023930128611">Decentr থেকে সাইন-আউট করবেন?</translation>
@@ -188,7 +178,7 @@
 <translation id="6334986366598267305">এখন আপনার Google অ্যাকাউন্ট ও শেয়ার করা কম্পিউটারগুলিতে Decentr ব্যবহার করা আরো সহজ৷</translation>
 <translation id="6373523479360886564">আপনি কি Decentr আনইনস্টল করার ব্যাপারে নিশ্চিত?</translation>
 <translation id="6403826409255603130">Decentr হল একটি ওয়েব ব্রাউজার যা ওয়েব পৃষ্ঠার গতি এবং অ্যাপগুলিকে বিদ্যুৎ গতিতে সঞ্চালিত করে৷ এটা দ্রুত, স্থিতিশীল এবং সহজে ব্যবহারের যোগ্য৷ Decentr নির্মিত ম্যালওয়ার এবং ফিশিং সুরক্ষার সাহায্যে আরও সুরক্ষিত ভাবে ওয়েব ব্রাউজ করুন৷</translation>
-<translation id="6434250628340475518">Chromium OS সিস্টেম</translation>
+<translation id="6434250628340475518">Decentr OS সিস্টেম</translation>
 <translation id="6455857529632101747">Decentr প্রোফাইল-এ স্বাগতম</translation>
 <translation id="6457450909262716557">{SECONDS,plural, =1{Decentr ১ সেকেন্ডের মধ্যে রিস্টার্ট হবে}one{Decentr # সেকেন্ডের মধ্যে রিস্টার্ট হবে}other{Decentr # সেকেন্ডের মধ্যে রিস্টার্ট হবে}}</translation>
 <translation id="6475912303565314141">আপনি Decentr শুরু করলে কোন পৃষ্ঠাটি দেখানো হবে তাও এটি নিয়ন্ত্রণ করে।</translation>
@@ -201,6 +191,7 @@
 <translation id="6676384891291319759">ইন্টারনেটটি অ্যাক্সেস করুন</translation>
 <translation id="6709350901466051922">এই সাইটের জন্য Decentr-এর মাইক্রোফোন অ্যাক্সেসের অনুমতি প্রয়োজন</translation>
 <translation id="6717134281241384636">আপনার প্রোফাইলটি ব্যবহার করা যাবে না কারণ এটি একটি Decentr-এর নতুন ভার্সন৷ কিছু বিষয় অনুপলব্ধ হতে পারে৷ একটি ভিন্ন প্রোফাইল ডিরেক্টরি উল্লেখ করুন অথবা Decentr-এর একটি নতুন ভার্সন ব্যবহার করুন৷</translation>
+<translation id="6734080038664603509">&amp;Decentr আপডেট করুন</translation>
 <translation id="6734291798041940871">Decentr ইতোমধ্যে আপনার কম্পিউটারের সকল ব্যবহারকারীর জন্য ইনস্টল করা হয়েছে।</translation>
 <translation id="673636774878526923">সব ডিভাইস জুড়ে Decentr-এ থাকা ডেটা অ্যাক্সেস করতে, প্রথমে সাইন-ইন করে সিঙ্ক চালু করুন।</translation>
 <translation id="6774082503108938489">তোমার অভিভাবক Decentr-এ "সাইট, অ্যাপ ও এক্সটেনশনের অনুমতি" বন্ধ করে দিয়েছেন। এই <ph name="EXTENSION_TYPE_PARAMETER" /> চালু করার অনুমতি নেই।</translation>
@@ -216,11 +207,12 @@
 <translation id="6990124437352146030">এই সাইটটির জন্য Decentr কে আপনার মাইক্রোফোনে অ্যাক্সেস দিতে হবে</translation>
 <translation id="705851970750939768">Decentr আপডেট করুন</translation>
 <translation id="7067091210845072982">কোনও ছবিতে যদি প্রয়োজনীয় বিবরণ দেওয়া না থাকে, তাহলে Decentr আপনাকে একটি বিবরণ দেওয়ার চেষ্টা করবে। বিবরণ তৈরির জন্য, Google-এ ছবি পাঠানো হয়।</translation>
+<translation id="7147279922647361552">Decentr এর কিছু সবচেয়ে গুরুত্বপূর্ণ গোপনীয়তা বিকল্প কাস্টমাইজ করুন</translation>
 <translation id="718435575166326686">এই সাইটের জন্য Decentr-এর ক্যামেরা অ্যাক্সেসের অনুমতি প্রয়োজন</translation>
 <translation id="7196312274710523067">Decentr চালু করা যায়নি। আবার চেষ্টা করুন।</translation>
 <translation id="7197677400338048821">Decentr আপনার পাসওয়ার্ড চেক করতে পারছে না। ২৪ ঘণ্টা পরে আবার চেষ্টা করুন।</translation>
-<translation id="7218568399872925918">Decentr বন্ধ না করা পর্যন্ত আপনি যেসব সাইট ঘুরে দেখেন, সেগুলি আপনার তথ্য মনে রাখে</translation>
 <translation id="7223968959479464213">টাস্ক ম্যানেজার - Decentr</translation>
+<translation id="731644333568559921">&amp;Decentr OS আপডেট করুন</translation>
 <translation id="731795002583552498">Decentr আপডেট করা হচ্ছে</translation>
 <translation id="7318036098707714271">আপনার প্রেফারেন্স ফাইল ক্ষতিগ্রস্ত অথবা অসমর্থিত৷
 
@@ -229,21 +221,17 @@ Decentr আপনার সেটিংস পুনরুদ্ধার কর
 <translation id="7339898014177206373">নতুন উইন্ডো</translation>
 <translation id="734373864078049451">আপনার ওয়েব, বুকমার্ক এবং Decentr-এর অন্যান্য জিনিস এখানে রয়েছে৷</translation>
 <translation id="7349591376906416160"><ph name="TARGET_URL_HOSTNAME" /> অ্যাক্সেস করতে <ph name="ALTERNATIVE_BROWSER_NAME" /> ব্যবহার করার জন্য আপনার সিস্টেম অ্যাডমিনিস্ট্রেটর Decentr কনফিগার করেছে।</translation>
-<translation id="7398989605938454041">Decentr প্রোফাইল থেকে আপনার সব Decentr-এ থাকা ডেটা আলাদা করতে পারবেন। এর ফলে সহজেই অফিস এবং বিনোদনের প্রোফাইল আলাদা করা যায়।</translation>
-<translation id="7448255348454382571">Chromium OS রিস্টার্ট করুন</translation>
+<translation id="7448255348454382571">Decentr OS রিস্টার্ট করুন</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
 <translation id="7451052299415159299">এই সাইটটির জন্য Decentr কে আপনার ক্যামেরায় অ্যাক্সেস দিতে হবে</translation>
-<translation id="7467949745582939695">Decentr আবার লঞ্চ করবেন?</translation>
 <translation id="7483335560992089831">একই Decentr ভার্সন যা বর্তমানে চলমান, ইনস্টল করতে পারবেন না৷ দয়া করে Decentr বন্ধ করুন এবং আবার চেষ্টা করুন৷</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr ১ মিনিটের মধ্যে আবার লঞ্চ হবে}one{Decentr # মিনিটের মধ্যে আবার লঞ্চ হবে}other{Decentr # মিনিটের মধ্যে আবার লঞ্চ হবে}}</translation>
-<translation id="7549178288319965365">Chromium OS সম্পর্কে</translation>
+<translation id="7549178288319965365">Decentr OS সম্পর্কে</translation>
 <translation id="7561906087460245826">এর পাশাপাশি, Decentr থেকেও ডেটা সরিয়ে দিন (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">এই পৃষ্ঠাতে কোনও একটি সেটিং দেখতে না পেলে আপনার <ph name="LINK_BEGIN" />
-      Chromium OS সেটিংস<ph name="LINK_END" /> বিকল্পটি দেখুন</translation>
-<translation id="7597596667193879455">আপনার অ্যাকাউন্টে উন্নত নিরাপদ ব্রাউজিং চালু করেছেন। এখন Decentr-এ চালু করুন।</translation>
+      Decentr OS সেটিংস<ph name="LINK_END" /> বিকল্পটি দেখুন</translation>
 <translation id="761356813943268536">Decentr আপনার ক্যামেরা এবং মাইক্রোফোন ব্যবহার করছে৷</translation>
 <translation id="7617377681829253106">Decentr আরও ভাল হয়ে উঠেছে</translation>
-<translation id="7682601070171973634">Decentr নতুন ফিচার এক্সপ্লোর করছে যা সাইটগুলিকে আপনার কম ডেটা ব্যবহার করে একই ব্রাউজিং অভিজ্ঞতা প্রদান করতে দেয়</translation>
 <translation id="7686590090926151193">Decentr আপনার ডিফল্ট ব্রাউজার নয়</translation>
 <translation id="7689606757190482937">আপনার সব ডিভাইস জুড়ে Decentr সিঙ্ক করুন এবং নিজের মতো সাজিয়ে নিন</translation>
 <translation id="7729447699958282447">আপনার ডোমেনে সিঙ্ক উপলভ্য না থাকার কারণে Decentr সিঙ্ক করতে পারেনি৷</translation>
@@ -253,11 +241,11 @@ Decentr আপনার সেটিংস পুনরুদ্ধার কর
 <translation id="7828947555739565424">এই ডিভাইসে এই অ্যাকাউন্টের সাথে Decentr প্রোফাইল আগে থেকেই আছে</translation>
 <translation id="7857220146454061152">ভবিষ্যতে Decentr আপডেট পেতে হলে, আপনার কম্পিউটারে OS X 10.11 বা এর পরবর্তী যেকোনও ভার্সন থাকতে হবে। এই কম্পিউটারে OS X 10.10 ভার্সন ব্যবহার করা হচ্ছে।</translation>
 <translation id="7867198900892795913">Decentr লেটেস্ট ভার্সনে আপডেট করা যাচ্ছে না, তাই আপনি নতুন বৈশিষ্ট্য এবং সুরক্ষা সমাধানগুলি পাচ্ছেন না।</translation>
-<translation id="788352880609666695">এই Decentr প্রোফাইলের জন্য নিম্নলিখিত অ্যাকাউন্ট উপলভ্য</translation>
-<translation id="7898472181347242998">আপনার ডিভাইস আপ-টু-ডেট আছে কিনা তা দেখতে <ph name="LINK_BEGIN" />Chromium OS সেটিংস<ph name="LINK_END" /> বিকল্পে যান</translation>
+<translation id="7898472181347242998">আপনার ডিভাইস আপ-টু-ডেট আছে কিনা তা দেখতে <ph name="LINK_BEGIN" />Decentr OS সেটিংস<ph name="LINK_END" /> বিকল্পে যান</translation>
 <translation id="7937630085815544518">আপনি <ph name="USER_EMAIL_ADDRESS" /> হিসাবে Decentr-এ প্রবেশ করেছেন৷ আবার সাইন-ইন করতে একই অ্যাকাউন্ট ব্যবহার করুন৷</translation>
 <translation id="7975919845073681630">এটা Decentr এর সেকেন্ডারি ইনস্টলেশন এবং একে আপনার ডিফল্ট ব্রাউজার করা যাবে না।</translation>
 <translation id="8013436988911883588">Decentr অ্যাক্সেস পেলেই, ওয়েবসাইটগুলি আপনাকে অ্যাক্সেসের অনুরোধ করতে পারবে।</translation>
+<translation id="8045118833343856403">নিচের অ্যাকাউন্টগুলি কোনও Decentr প্রোফাইলে সাইন-ইন করা নেই। অন্য প্রোফাইলে একটি অ্যাকাউন্ট ব্যবহার করতে চাইলে, সেই প্রোফাইলটি আগে সরান।</translation>
 <translation id="8105840573057009683">এই সাইটের জন্য Decentr-এর লোকেশন অ্যাক্সেসের অনুমতি প্রয়োজন</translation>
 <translation id="81770708095080097">এই ফাইলটি বিপজ্জনক, তাই Decentr এটিকে অবরুদ্ধ করেছে।</translation>
 <translation id="8248265253516264921">কোনও ছবিতে যদি প্রয়োজনীয় বিবরণ দেওয়া না থাকে, তাহলে Decentr আপনাকে একটি বিবরণ দেওয়ার চেষ্টা করবে। বিবরণ তৈরির জন্য, Google-এ ছবি পাঠানো হয়। সেটিংসে গিয়ে আপনি যেকোনও সময়ে এটি বন্ধ করতে পারেন।</translation>
@@ -266,7 +254,6 @@ Decentr আপনার সেটিংস পুনরুদ্ধার কর
 <translation id="8290862415967981663">এই ফাইলটি বিপজ্জনক হতে পারে, তাই Decentr এটিকে অবরুদ্ধ করেছে।</translation>
 <translation id="8330519371938183845">আপনার সব ডিভাইস জুড়ে Decentr সিঙ্ক করতে এবং নিজের মতো সাজিয়ে নিতে সাইন-ইন করুন</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> পূর্বে Decentr ব্যবহার করছিলেন</translation>
-<translation id="8357820681460164151">সব ডিভাইস জুড়ে Decentr ব্রাউজারে থাকা ডেটা অ্যাক্সেস করতে, প্রথমে সাইন-ইন করে সিঙ্ক চালু করুন</translation>
 <translation id="8417404458978023919">{0,plural, =1{Decentr এক দিনের মধ্যে আবার লঞ্চ করুন}one{Decentr # দিনের মধ্যে আবার লঞ্চ করুন}other{Decentr # দিনের মধ্যে আবার লঞ্চ করুন}}</translation>
 <translation id="8453117565092476964">ইনস্টলার আর্কাইভ অবিশুদ্ধ বা ভুল৷ Decentr পুনরায় ডাউনলোড করুন৷</translation>
 <translation id="8493179195440786826">Decentr পুরানো হয়ে গেছে</translation>
@@ -278,10 +265,8 @@ Decentr আপনার সেটিংস পুনরুদ্ধার কর
 <translation id="8621669128220841554">অনির্দিষ্ট ত্রুটির কারণে ইনস্টল করা যায়নি৷ অনুগ্রহ করে Decentr আবার ডাউনলোড করুন৷</translation>
 <translation id="8697124171261953979">আপনি Decentr শুরু করলে বা Omnibox থেকে সার্চ করলে কোন পৃষ্ঠাটি দেখানো হবে তাও এটি নিয়ন্ত্রণ করে।</translation>
 <translation id="8704119203788522458">এটি হল আপনার Decentr</translation>
-<translation id="8713679423359107094">আপনি সব Decentr উইন্ডো বন্ধ করে দিলে, কুকি এবং সাইট ডেটা অটোমেটিক বন্ধ হয়ে যাবে</translation>
-<translation id="8796443464227412154">Decentr বন্ধ করে দেওয়া হলে আপনাকে <ph name="BEGIN_BOLD" />বেশিরভাগ সাইট থেকে সাইন-আউট করে<ph name="END_BOLD" /> দেওয়া হবে। সিঙ্ক করার বিকল্প বন্ধ করা থাকলে আপনার অ্যাকাউন্ট <ph name="BEGIN_BOLD" />Google পরিষেবা এবং Decentr থেকে সাইন-আউট করে<ph name="END_BOLD" /> দেওয়া হবে।</translation>
 <translation id="8796602469536043152">এই সাইটটির জন্য Decentr কে আপনার ক্যামেরা এবং মাইক্রোফোনে অ্যাক্সেস দিতে হবে</translation>
-<translation id="8803635938069941624">Chromium OS শর্তাদি</translation>
+<translation id="8803635938069941624">Decentr OS শর্তাদি</translation>
 <translation id="8821041990367117597">আপনার অ্যাকাউন্ট সাইন-ইন বিবরণ পুরনো হওয়ার কারণে Decentr তা সিঙ্ক করতে পারেনি৷</translation>
 <translation id="8862326446509486874">সিস্টেম-স্তরীয় ইনস্টলের জন্য আপনার কাছে যথাযথ অধিকারগুলি নেই৷ অ্যাডমিনিস্ট্রেটর হিসেবে আবার ইনস্টলারটি চালানোর চেষ্টা করুন৷</translation>
 <translation id="8880203542552872219">যদি তাই হয়, তাহলে Decentr-এ আপনার সেভ করা পাসওয়ার্ড এডিট করুন যাতে এটি আপনার নতুন পাসওয়ার্ডের সাথে ম্যাচ করে।</translation>
@@ -298,9 +283,8 @@ Decentr আপনার সেটিংস পুনরুদ্ধার কর
 <translation id="9158494823179993217"><ph name="TARGET_URL_HOSTNAME" /> অ্যাক্সেস করতে অন্য ব্রাউজার খোলার জন্য আপনার সিস্টেম অ্যাডমিনিস্ট্রেটর Decentr কনফিগার করেছেন।</translation>
 <translation id="9185526690718004400">&amp;Decentr আপডেট করতে আবার লঞ্চ করুন</translation>
 <translation id="9190841055450128916">Decentr (mDNS-In)</translation>
-<translation id="9214764063801632699">Chromium OS সিস্টেম</translation>
+<translation id="9214764063801632699">Decentr OS সিস্টেম</translation>
 <translation id="93478295209880648">Decentr সঠিকভাবে কাজ নাও করতে পারে কারণ এটি এখন আর Windows XP বা Windows Vista আর সমর্থিত নয়</translation>
 <translation id="965162752251293939">Decentr কে ব্যবহার করছেন?</translation>
-<translation id="967427899662692980">Decentr-এ সবচেয়ে বেশি সুরক্ষা পান</translation>
 <translation id="985602178874221306">Decentr রচয়িতা</translation>
 </translationbundle>

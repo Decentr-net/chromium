@@ -14,10 +14,7 @@
 <translation id="1524282610922162960">Chia sẻ một thẻ Decentr</translation>
 <translation id="1553461853655228091">Decentr cần có quyền sử dụng máy ảnh của bạn để tạo bản đồ 3D về các khu vực xung quanh bạn</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Quản trị viên của bạn yêu cầu bạn chạy lại Decentr để áp dụng bản cập nhật}=1{Quản trị viên của bạn yêu cầu bạn chạy lại Decentr để áp dụng bản cập nhật. Cửa sổ ẩn danh của bạn sẽ không mở lại.}other{Quản trị viên của bạn yêu cầu bạn chạy lại Decentr để áp dụng bản cập nhật. # cửa sổ ẩn danh của bạn sẽ không mở lại.}}</translation>
-<translation id="1625909126243026060">Xem các chế độ kiểm soát quan trọng đối với quyền riêng tư và tính bảo mật trong Decentr</translation>
-<translation id="1632539827495546968">Nếu chỉ muốn dùng tài khoản này một lần, thì bạn có thể sử dụng <ph name="GUEST_LINK_BEGIN" />Chế độ khách<ph name="GUEST_LINK_END" /> trên trình duyệt Decentr. Nếu bạn muốn thêm tài khoản cho người khác, hãy <ph name="LINK_BEGIN" />thêm người dùng mới<ph name="LINK_END" /> trên <ph name="DEVICE_TYPE" /> của bạn.
-
-Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp dụng cho cả tài khoản này. Bạn có thể quản lý Tài khoản Google trong phần <ph name="SETTINGS_LINK_BEGIN" />Cài đặt<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Khi bạn đóng Decentr, trình duyệt sẽ tự động xóa cookie và dữ liệu trang web khỏi các trang bạn đã truy cập</translation>
 <translation id="1708666629004767631">Hiện đã có phiên bản Decentr mới an toàn hơn.</translation>
 <translation id="1774152462503052664">Cho phép Decentr chạy dưới nền</translation>
 <translation id="1779356040007214683">Để làm cho Decentr an toàn hơn, chúng tôi đã vô hiệu hóa một số tiện ích không được liệt kê trong <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> và có thể đã được thêm mà bạn không biết.</translation>
@@ -26,22 +23,16 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="1881322772814446296">Bạn đang đăng nhập bằng tài khoản được quản lý và cấp cho quản trị viên của tài khoản quyền kiểm soát cấu hình Decentr của bạn. Dữ liệu Decentr của bạn, chẳng hạn như ứng dụng, dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ vĩnh viễn được liên kết với <ph name="USER_NAME" />. Bạn có thể xóa dữ liệu này thông qua Trang tổng quan của tài khoản Google nhưng không thể liên kết dữ liệu này với tài khoản khác. Bạn có thể tùy chọn tạo cấu hình mới để giữ cho dữ liệu Decentr hiện có của bạn riêng biệt. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Bằng việc tắt tính năng này, bạn có thể đăng nhập vào các trang web của Google, chẳng hạn như Gmail mà không cần đăng nhập vào Decentr</translation>
 <translation id="1929939181775079593">Decentr không phản hồi. Chạy lại ngay bây giờ?</translation>
-<translation id="1940680973325097484">Nếu chỉ muốn dùng tài khoản này một lần, thì bạn có thể sử dụng Chế độ khách trên trình duyệt Decentr. Nếu bạn muốn thêm tài khoản cho người khác, hãy <ph name="LINK_BEGIN" />thêm người dùng mới<ph name="LINK_END" /> trên <ph name="DEVICE_TYPE" /> của bạn.
-
-Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp dụng cho cả tài khoản này. Bạn có thể quản lý Tài khoản Google trong phần <ph name="SETTINGS_LINK_BEGIN" />Cài đặt<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">Decentr không thể xác định hoặc đặt trình duyệt mặc định</translation>
 <translation id="1981611865800294956">Chạy lại để cập nhật &amp;Decentr OS</translation>
 <translation id="2008474315282236005">Thao tác này sẽ xóa 1 mục khỏi thiết bị này. Để truy xuất dữ liệu của bạn sau, hãy đăng nhập vào Decentr dưới dạng <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Để kiểm tra xem các mật khẩu khác của bạn có bị ảnh hưởng bởi các vụ rò rỉ dữ liệu và sự cố bảo mật khác hay không, hãy <ph name="BEGIN_LINK" />đăng nhập vào Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Chọn xem có bao gồm nhật ký duyệt web trên Decentr hay không để mang lại trải nghiệm phù hợp hơn trong các dịch vụ của Google</translation>
 <translation id="2174178932569897599">Tùy chỉnh Decentr</translation>
 <translation id="2185166961232948079">Decentr – Đăng nhập vào mạng – <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Nếu bạn chia sẻ máy tính, bạn bè và gia đình có thể duyệt web một cách riêng biệt và thiết lập Decentr theo ý của họ.</translation>
 <translation id="2294245788148774212">Không bắt buộc: Giúp cải thiện hiệu suất và các tính năng của Decentr OS bằng cách tự động gửi dữ liệu sử dụng và chẩn đoán cho Google.</translation>
-<translation id="2313870531055795960">Kiểm tra đối chiếu các URL với danh sách trang web không an toàn được lưu trữ trong Decentr. Nếu một trang web cố ăn cắp mật khẩu của bạn hoặc nếu bạn tải một tệp gây hại xuống, thì Chrome cũng có thể gửi các URL đến tính năng Duyệt web an toàn, bao gồm cả các đoạn nội dung trên trang.</translation>
 <translation id="2343156876103232566">Để gửi số điện thoại từ thiết bị này đến điện thoại Android của bạn, hãy đăng nhập vào Decentr trên cả hai thiết bị.</translation>
 <translation id="2347108572062610441">Tiện ích này đã thay đổi trang nào được hiển thị khi bạn khởi động Decentr.</translation>
-<translation id="2359808026110333948">Tiếp tục</translation>
 <translation id="2396765026452590966">Tiện ích "<ph name="EXTENSION_NAME" />" đã thay đổi trang nào được hiển thị khi bạn khởi động Decentr.</translation>
 <translation id="2401032172288869980">Decentr cần có quyền truy cập máy ảnh và micrô đối với trang web này</translation>
 <translation id="2483889755041906834">Trong Decentr</translation>
@@ -49,8 +40,10 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="2535480412977113886">Decentr OS không thể đồng bộ hóa dữ liệu của bạn vì chi tiết đăng nhập tài khoản của bạn đã lỗi thời.</translation>
 <translation id="2560420686485554789">Decentr cần quyền truy cập vào bộ nhớ để tải tệp xuống</translation>
 <translation id="2572494885440352020">Trình trợ giúp của Decentr</translation>
+<translation id="2577788541081224677">Để truy cập vào nội dung của bạn trên Decentr bằng mọi thiết bị, hãy đăng nhập rồi bật tính năng đồng bộ hóa.</translation>
 <translation id="2583187216237139145">Quản trị viên hồ sơ công việc có thể xóa mọi dữ liệu trên Decentr được tạo trong quá trình sử dụng hồ sơ này (chẳng hạn như hoạt động tạo dấu trang, các trang web đã truy cập, mật khẩu và các tùy chọn cài đặt khác). <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Decentr OS cần được khởi động lại để áp dụng bản cập nhật.</translation>
+<translation id="2614883797045469742">Chế độ cài đặt mặc định phù hợp với hầu hết mọi người, nhưng bạn có thể tuỳ chỉnh các chế độ này để phù hợp với cách bạn muốn dùng Decentr</translation>
 <translation id="2648074677641340862">Đã xảy ra lỗi hệ điều hành khi cài đặt. Hãy tải xuống Decentr lại lần nữa.</translation>
 <translation id="2661879430930417727">Nếu các bạn dùng chung một thiết bị, thì bạn bè và gia đình có thể duyệt web một cách riêng biệt cũng như thiết lập Decentr theo ý muốn</translation>
 <translation id="2711502716910134313">Thẻ Decentr</translation>
@@ -59,11 +52,9 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="2799223571221894425">Chạy lại</translation>
 <translation id="2837693172913560447">Thao tác này sẽ tạo một hồ sơ mới trên Decentr cho <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="2847479871509788944">Xóa khỏi Decentr...</translation>
-<translation id="2850691299438350830">Giúp bạn an toàn trên Chrome và có thể dùng để cải thiện mức độ bảo mật cho bạn trong các ứng dụng khác của Google sau khi đăng nhập</translation>
 <translation id="2885378588091291677">Trình quản lý tác vụ</translation>
 <translation id="2910007522516064972">Giới thiệu về &amp;Decentr</translation>
 <translation id="2977470724722393594">Decentr đã được cập nhật</translation>
-<translation id="2977506796191543575">Nếu một trang web cố ăn cắp mật khẩu của bạn hoặc nếu bạn tải một tệp gây hại xuống, thì Decentr cũng có thể gửi các URL đến tính năng Duyệt web an toàn, bao gồm cả các đoạn nội dung trên trang</translation>
 <translation id="2983934633046890458">Decentr đang cố gắng chỉnh sửa mật khẩu.</translation>
 <translation id="3032706164202344641">Decentr không thể kiểm tra mật khẩu của bạn. Hãy thử lại sau.</translation>
 <translation id="3032787606318309379">Đang thêm vào Decentr...</translation>
@@ -116,20 +107,18 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="4407044323746248786">Bạn vẫn muốn thoát khỏi Decentr?</translation>
 <translation id="4415566066719264597">Cho phép Decentr chạy trong nền</translation>
 <translation id="4423735387467980091">Tùy chỉnh và điều khiển Decentr</translation>
-<translation id="4427306783828095590">Chế độ bảo vệ tăng cường giúp chặn phần mềm độc hại và hành vi lừa đảo hiệu quả hơn</translation>
 <translation id="452711251841752011">Chào mừng bạn đến với Decentr. Cửa sổ trình duyệt mới đã mở ra</translation>
 <translation id="4544142686420020088">Đã xảy ra lỗi nên Decentr chưa cập nhật được. <ph name="BEGIN_LINK" />Hãy khắc phục các vấn đề cập nhật và các bản cập nhật không thành công của Decentr.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Tiếp tục đăng nhập vào hồ sơ mới trên Decentr?</translation>
 <translation id="4567424176335768812">Bạn đã đăng nhập với tên <ph name="USER_EMAIL_ADDRESS" />. Bây giờ, bạn có thể truy cập dấu trang, lịch sử và các cài đặt khác trên tất cả những thiết bị đã đăng nhập của bạn.</translation>
 <translation id="459535195905078186">Ứng dụng Decentr</translation>
-<translation id="4621240073146040695">Gần được cập nhật! Hãy khởi chạy lại Decentr để hoàn tất cập nhật.</translation>
 <translation id="4665829708273112819">Cảnh báo: Decentr không thể ngăn các tiện ích ghi lại nhật ký duyệt web của bạn. Để tắt tiện ích này trong chế độ Ẩn danh, hãy bỏ chọn tùy chọn này.</translation>
-<translation id="4673151026126227699">Nếu bạn cũng chia sẻ báo cáo sử dụng của Decentr, thì các báo cáo đó sẽ bao gồm cả những URL bạn truy cập</translation>
 <translation id="4677944499843243528">Dường như cấu hình này đang được quy trình Decentr khác (<ph name="PROCESS_ID" />) trên máy tính khác (<ph name="HOST_NAME" />) sử dụng. Decentr đã khóa cấu hình này để cấu hình không bị lỗi. Nếu bạn chắc chắn không có quy trình nào khác đang sử dụng cấu hình này, bạn có thể mở khóa cấu hình và chạy lại Decentr.</translation>
 <translation id="469338717132742108">Nhận trợ giúp về Decentr OS</translation>
 <translation id="4708774505295300557">Ai đó trước đây đã đăng nhập vào Decentr trên máy tính này bằng <ph name="ACCOUNT_EMAIL_LAST" />. Vui lòng tạo người dùng Decentr mới để giữ riêng biệt thông tin của bạn.</translation>
 <translation id="4746050847053251315">Bạn vẫn muốn thoát khỏi Decentr?</translation>
 <translation id="4748217263233248895">Decentr vừa áp dụng một bản cập nhật bảo mật đặc biệt. Vui lòng khởi động lại ngay bây giờ và chúng tôi sẽ khôi phục các thẻ của bạn.</translation>
+<translation id="4750035648288509542">Sắp cập nhật xong rồi! Hãy chạy lại Decentr để hoàn tất quá trình cập nhật. Các cửa sổ ẩn danh sẽ không mở lại.</translation>
 <translation id="4788777615168560705">Decentr không thể kiểm tra mật khẩu của bạn. Hãy thử lại sau 24 giờ hoặc <ph name="BEGIN_LINK" />kiểm tra các mật khẩu trong Tài khoản Google của bạn<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Dịch vụ này sử dụng cùng một trình kiểm tra chính tả dùng trong Google Tìm kiếm. Thông tin bạn nhập vào trình duyệt sẽ được gửi tới Google. Bạn luôn có thể thay đổi hành động này trong phần cài đặt.</translation>
 <translation id="4888717733111232871">Quy tắc kết nối để Decentr cho phép lưu lượng truy cập mDNS.</translation>
@@ -144,8 +133,10 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="5386450000063123300">Đang cập nhật Decentr (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Cho phép đăng nhập vào Decentr</translation>
 <translation id="5398878173008909840">Hiện đã có phiên bản Decentr mới.</translation>
+<translation id="5416696090975899932">Decentr không thể hiển thị chế độ xem trước bản in khi thiếu trình xem PDF tích hợp.</translation>
 <translation id="5427571867875391349">Đặt Decentr là trình duyệt mặc định của bạn</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr phiên bản beta</translation>
+<translation id="5479196819031988440">Decentr OS không thể mở trang này.</translation>
 <translation id="5480860683791598150">Decentr cần quyền truy cập vào vị trí của bạn để chia sẻ thông tin vị trí với trang web này</translation>
 <translation id="549669000822060376">Vui lòng đợi khi Decentr cài đặt các bản cập nhật hệ thống mới nhất.</translation>
 <translation id="5496810170689441661">Decentr đang cố gắng chỉnh sửa mật khẩu. Hãy nhập mật khẩu Windows của bạn để cho phép việc này.</translation>
@@ -176,7 +167,6 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="6212496753309875659">Máy tính này đã có phiên bản Decentr mới hơn. Nếu phần mềm không hoạt động, hãy gỡ cài đặt Decentr và thử lại.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr sẽ khởi động lại ngay bây giờ}=1{Decentr sẽ khởi động lại sau 1 giây}other{Decentr sẽ khởi động lại sau # giây}}</translation>
 <translation id="6241367896540709610">Decentr cần có quyền truy cập vào bộ nhớ để tải tệp xuống</translation>
-<translation id="6245734527075554892">Kiểm tra đối chiếu các URL với danh sách trang web không an toàn được lưu trữ trong Decentr</translation>
 <translation id="6248213926982192922">Đặt Decentr làm trình duyệt mặc định</translation>
 <translation id="6266342355635466082">Decentr không thể kiểm tra các bản cập nhật. Hãy thử kiểm tra kết nối Internet.</translation>
 <translation id="6268381023930128611">Đăng xuất khỏi Decentr?</translation>
@@ -203,6 +193,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="6717134281241384636">Không thể sử dụng cấu hình của bạn do cấu hình này đến từ một phiên bản Decentr mới hơn.
 
 Một số tính năng có thể không khả dụng. Hãy chỉ định thư mục cấu hình khác hoặc sử dụng phiên bản Decentr mới hơn.</translation>
+<translation id="6734080038664603509">Cập nhật &amp;Decentr</translation>
 <translation id="6734291798041940871">Decentr đã được cài đặt cho tất cả người dùng trên máy tính của bạn.</translation>
 <translation id="673636774878526923">Để truy cập vào nội dung của bạn trên Decentr bằng mọi thiết bị, hãy đăng nhập rồi bật tính năng đồng bộ hóa.</translation>
 <translation id="6774082503108938489">Cha mẹ bạn đã tắt tùy chọn "Quyền của các trang web, ứng dụng và tiện ích" đối với Decentr. Bạn không được phép bật <ph name="EXTENSION_TYPE_PARAMETER" /> này.</translation>
@@ -218,11 +209,12 @@ Một số tính năng có thể không khả dụng. Hãy chỉ định thư m�
 <translation id="6990124437352146030">Decentr cần có quyền truy cập vào micrô của bạn cho trang web này</translation>
 <translation id="705851970750939768">Cập nhật Decentr</translation>
 <translation id="7067091210845072982">Decentr sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi đến Google.</translation>
+<translation id="7147279922647361552">Tuỳ chỉnh một số lựa chọn quan trọng nhất về quyền riêng tư của Decentr</translation>
 <translation id="718435575166326686">Decentr cần có quyền truy cập máy ảnh đối với trang web này</translation>
 <translation id="7196312274710523067">Không thể mở Decentr. Hãy thử lại.</translation>
 <translation id="7197677400338048821">Decentr không thể kiểm tra mật khẩu của bạn. Hãy thử lại sau 24 giờ.</translation>
-<translation id="7218568399872925918">Các trang web bạn truy cập ghi nhớ thông tin của bạn cho đến khi bạn đóng Decentr</translation>
 <translation id="7223968959479464213">Trình quản lý tác vụ - Decentr</translation>
+<translation id="731644333568559921">Cập nhật &amp;Decentr OS</translation>
 <translation id="731795002583552498">Đang cập nhật Decentr</translation>
 <translation id="7318036098707714271">Tệp tùy chọn của bạn bị hỏng hoặc không hợp lệ. 
 
@@ -231,21 +223,17 @@ Decentr không thể khôi phục cài đặt của bạn.</translation>
 <translation id="7339898014177206373">Cửa sổ mới</translation>
 <translation id="734373864078049451">Web, dấu trang và các nội dung khác của bạn trên Decentr đều có ở đây.</translation>
 <translation id="7349591376906416160">Quản trị viên hệ thống đã định cấu hình Decentr để mở <ph name="ALTERNATIVE_BROWSER_NAME" /> khi truy cập vào <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7398989605938454041">Với các hồ sơ trên Decentr, bạn có thể tách biệt mọi nội dung của mình khi dùng trình duyệt này. Nhờ vậy, việc phân tách nội dung công việc với nội dung giải trí sẽ trở nên dễ dàng hơn.</translation>
 <translation id="7448255348454382571">Khởi động lại Decentr OS</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr dành cho nhà phát triển</translation>
 <translation id="7451052299415159299">Decentr cần có quyền truy cập vào máy ảnh của bạn cho trang web này</translation>
-<translation id="7467949745582939695">Chạy lại Decentr?</translation>
 <translation id="7483335560992089831">Không thể cài đặt phiên bản Decentr giống với phiên bản hiện đang chạy. Hãy đóng Decentr và thử lại.</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr sẽ khởi động lại sau 1 phút}other{Decentr sẽ khởi động lại sau # phút}}</translation>
 <translation id="7549178288319965365">Giới thiệu về Decentr OS</translation>
 <translation id="7561906087460245826">Đồng thời xóa dữ liệu khỏi Decentr (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Nếu một tùy chọn cài đặt không hiển thị trên trang này, hãy tìm trong mục <ph name="LINK_BEGIN" />
       cài đặt của Decentr OS<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Bạn đã bật tính năng Duyệt web an toàn có tăng cường bảo vệ trong tài khoản. Giờ hãy sử dụng tính năng này trên Decentr.</translation>
 <translation id="761356813943268536">Decentr đang sử dụng máy ảnh và micrô của bạn.</translation>
 <translation id="7617377681829253106">Decentr được cải tiến hơn</translation>
-<translation id="7682601070171973634">Decentr đang khám phá các tính năng mới cho phép các trang web mang lại trải nghiệm duyệt web như nhau nhưng tiêu tốn ít dữ liệu hơn</translation>
 <translation id="7686590090926151193">Decentr không phải là trình duyệt mặc định của bạn</translation>
 <translation id="7689606757190482937">Đồng bộ hóa và cá nhân hóa Decentr trên các thiết bị của bạn</translation>
 <translation id="7729447699958282447">Decentr không thể đồng bộ hóa dữ liệu của bạn vì Đồng bộ hóa không khả dụng cho miền của bạn.</translation>
@@ -255,11 +243,11 @@ Decentr không thể khôi phục cài đặt của bạn.</translation>
 <translation id="7828947555739565424">Thiết bị này đã có một hồ sơ trên Decentr sử dụng tài khoản này</translation>
 <translation id="7857220146454061152">Để nhận được các bản cập nhật Decentr trong tương lai, bạn cần dùng OS X 10.11 trở lên. Máy tính này đang dùng OS X 10.10.</translation>
 <translation id="7867198900892795913">Decentr không thể cập nhật lên phiên bản mới nhất nên bạn đang bỏ lỡ các tính năng và bản vá bảo mật mới.</translation>
-<translation id="788352880609666695">Bạn có thể dùng các tài khoản sau đây cho hồ sơ này trên Decentr</translation>
 <translation id="7898472181347242998">Để kiểm tra xem thiết bị của bạn đã cập nhật hay chưa, hãy chuyển đến phần <ph name="LINK_BEGIN" />Cài đặt Decentr OS<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">Bạn đã đăng nhập vào Decentr là <ph name="USER_EMAIL_ADDRESS" />. Vui lòng sử dụng cùng tài khoản để đăng nhập lại.</translation>
 <translation id="7975919845073681630">Đây là cài đặt thứ cấp của Decentr và không thể trở thành trình duyệt mặc định của bạn.</translation>
 <translation id="8013436988911883588">Sau khi Decentr có quyền truy cập, các trang web sẽ có thể yêu cầu bạn cấp quyền truy cập.</translation>
+<translation id="8045118833343856403">Các tài khoản sau không được đăng nhập vào bất kỳ hồ sơ nào trên Decentr. Nếu bạn muốn dùng tài khoản trong một hồ sơ khác, hãy xóa hồ sơ đó trước.</translation>
 <translation id="8105840573057009683">Decentr cần có quyền truy cập thông tin vị trí đối với trang web này</translation>
 <translation id="81770708095080097">Tệp này nguy hiểm, do đó Decentr đã chặn tệp.</translation>
 <translation id="8248265253516264921">Decentr sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi đến Google. Bạn có thể tắt dịch vụ này trong phần cài đặt bất kỳ lúc nào.</translation>
@@ -268,7 +256,6 @@ Decentr không thể khôi phục cài đặt của bạn.</translation>
 <translation id="8290862415967981663">Tệp này nguy hiểm, do đó Decentr đã chặn tệp.</translation>
 <translation id="8330519371938183845">Đăng nhập để đồng bộ hóa và cá nhân hóa Decentr trên các thiết bị của bạn</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> trước đó đã sử dụng Decentr</translation>
-<translation id="8357820681460164151">Để truy cập vào nội dung của bạn trên trình duyệt Decentr bằng mọi thiết bị, hãy đăng nhập rồi bật tính năng đồng bộ hóa</translation>
 <translation id="8417404458978023919">{0,plural, =1{Khởi động lại Decentr trong vòng một ngày}other{Khởi động lại Decentr trong vòng # ngày}}</translation>
 <translation id="8453117565092476964">Tệp lưu trữ trình cài đặt bị hỏng hoặc không hợp lệ. Hãy tải xuống Decentr lại lần nữa.</translation>
 <translation id="8493179195440786826">Decentr đã lỗi thời</translation>
@@ -280,8 +267,6 @@ Decentr không thể khôi phục cài đặt của bạn.</translation>
 <translation id="8621669128220841554">Không thể cài đặt do xảy ra lỗi không xác định. Hãy tải xuống Decentr lại lần nữa.</translation>
 <translation id="8697124171261953979">Tiện ích này cũng điều khiển trang nào được hiển thị khi bạn khởi động Decentr hoặc tìm kiếm từ Thanh địa chỉ.</translation>
 <translation id="8704119203788522458">Đây là Decentr của bạn</translation>
-<translation id="8713679423359107094">Khi bạn đóng tất cả cửa sổ Decentr, thì cookie và dữ liệu trang web sẽ tự động bị xóa</translation>
-<translation id="8796443464227412154">Bạn sẽ bị <ph name="BEGIN_BOLD" />đăng xuất khỏi hầu hết các trang web<ph name="END_BOLD" /> khi bạn đóng Decentr. Nếu tính năng đồng bộ hóa đang tắt, thì bạn cũng sẽ bị <ph name="BEGIN_BOLD" />đăng xuất khỏi các dịch vụ của Google và Decentr<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Decentr cần có quyền truy cập vào máy ảnh và micrô của bạn cho trang web này</translation>
 <translation id="8803635938069941624">Điều khoản Decentr OS</translation>
 <translation id="8821041990367117597">Decentr không thể đồng bộ hóa dữ liệu của bạn vì chi tiết đăng nhập tài khoản của bạn đã cũ.</translation>
@@ -303,6 +288,5 @@ Decentr không thể khôi phục cài đặt của bạn.</translation>
 <translation id="9214764063801632699">Hệ thống Decentr OS</translation>
 <translation id="93478295209880648">Decentr có thể không hoạt động chính xác do không được hỗ trợ trên Windows XP hoặc Windows Vista nữa</translation>
 <translation id="965162752251293939">Ai đang sử dụng Decentr?</translation>
-<translation id="967427899662692980">Có được chế độ bảo mật mạnh nhất của Decentr</translation>
 <translation id="985602178874221306">Tác giả Decentr</translation>
 </translationbundle>
