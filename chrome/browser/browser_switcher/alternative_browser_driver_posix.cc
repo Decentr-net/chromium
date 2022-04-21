@@ -35,18 +35,18 @@ const char kUrlVarName[] = "${url}";
 // those platforms.
 
 #if BUILDFLAG(IS_MAC)
-const char kChromeExecutableName[] = "Google Chrome";
+const char kChromeExecutableName[] = "Decentr";
 const char kFirefoxExecutableName[] = "Firefox";
 const char kOperaExecutableName[] = "Opera";
 const char kSafariExecutableName[] = "Safari";
 const char kEdgeExecutableName[] = "Microsoft Edge";
 #else
-const char kChromeExecutableName[] = "google-chrome";
+const char kChromeExecutableName[] = "Decentr";
 const char kFirefoxExecutableName[] = "firefox";
 const char kOperaExecutableName[] = "opera";
 #endif
 
-const char kChromeVarName[] = "${chrome}";
+const char kChromeVarName[] = "${Decentr}";
 const char kFirefoxVarName[] = "${firefox}";
 const char kOperaVarName[] = "${opera}";
 #if BUILDFLAG(IS_MAC)

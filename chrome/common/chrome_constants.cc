@@ -1,4 +1,4 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+ // Copyright (c) 2012 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -12,13 +12,7 @@
 #define FPL FILE_PATH_LITERAL
 
 #if BUILDFLAG(IS_MAC)
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-#define PRODUCT_STRING "Google Chrome"
-#elif BUILDFLAG(CHROMIUM_BRANDING)
-#define PRODUCT_STRING "Chromium"
-#else
-#error Unknown branding
-#endif
+#define PRODUCT_STRING "Decentr"
 #endif  // BUILDFLAG(IS_MAC)
 
 namespace chrome {
@@ -44,9 +38,9 @@ const char kChromeVersion[] = CHROME_VERSION_STRING;
 
 #if BUILDFLAG(IS_WIN)
 const base::FilePath::CharType kBrowserProcessExecutableName[] =
-    FPL("chrome.exe");
+    FPL("Decentr.exe");
 const base::FilePath::CharType kHelperProcessExecutableName[] =
-    FPL("chrome.exe");
+    FPL("Decentr.exe");
 #elif BUILDFLAG(IS_MAC)
 const base::FilePath::CharType kBrowserProcessExecutableName[] =
     FPL(PRODUCT_STRING);
@@ -58,7 +52,7 @@ const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("chrome");
 const base::FilePath::CharType kHelperProcessExecutableName[] =
     FPL("sandboxed_process");
 #elif BUILDFLAG(IS_POSIX)
-const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("chrome");
+const base::FilePath::CharType kBrowserProcessExecutableName[] = FPL("Decentr");
 // Helper processes end up with a name of "exe" due to execing via
 // /proc/self/exe.  See bug 22703.
 const base::FilePath::CharType kHelperProcessExecutableName[] = FPL("exe");
@@ -66,20 +60,20 @@ const base::FilePath::CharType kHelperProcessExecutableName[] = FPL("exe");
 
 #if BUILDFLAG(IS_WIN)
 const base::FilePath::CharType kBrowserProcessExecutablePath[] =
-    FPL("chrome.exe");
+    FPL("Decentr.exe");
 const base::FilePath::CharType kHelperProcessExecutablePath[] =
-    FPL("chrome.exe");
+    FPL("Decentr.exe");
 #elif BUILDFLAG(IS_MAC)
 const base::FilePath::CharType kBrowserProcessExecutablePath[] =
     FPL(PRODUCT_STRING ".app/Contents/MacOS/" PRODUCT_STRING);
 const base::FilePath::CharType kHelperProcessExecutablePath[] =
     FPL(PRODUCT_STRING " Helper.app/Contents/MacOS/" PRODUCT_STRING " Helper");
 #elif BUILDFLAG(IS_ANDROID)
-const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("chrome");
-const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("chrome");
+const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("Decentr");
+const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("Decentr");
 #elif BUILDFLAG(IS_POSIX)
-const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("chrome");
-const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("chrome");
+const base::FilePath::CharType kBrowserProcessExecutablePath[] = FPL("Decentr");
+const base::FilePath::CharType kHelperProcessExecutablePath[] = FPL("Decentr");
 #endif  // OS_*
 
 #if BUILDFLAG(IS_MAC)

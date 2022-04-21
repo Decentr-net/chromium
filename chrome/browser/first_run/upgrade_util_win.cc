@@ -44,9 +44,7 @@
 #include "components/prefs/pref_service.h"
 #include "ui/base/ui_base_switches.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "google_update/google_update_idl.h"
-#endif
 
 namespace {
 
@@ -58,9 +56,6 @@ bool GetNewerChromeFile(base::FilePath* path) {
 }
 
 bool InvokeGoogleUpdateForRename() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  // This has been identified as very slow on some startups. Detailed trace
-  // events below try to shine a light on each steps. crbug.com/1252004
   TRACE_EVENT0("startup", "upgrade_util::InvokeGoogleUpdateForRename");
 
   Microsoft::WRL::ComPtr<IProcessLauncher> ipl;
@@ -114,9 +109,6 @@ bool InvokeGoogleUpdateForRename() {
   TRACE_EVENT0("startup", "InvokeGoogleUpdateForRename RENAME_SUCCESSFUL");
 
   return true;
-#else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  return false;
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
 }  // namespace

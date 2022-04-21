@@ -30,7 +30,7 @@ using base::win::RegKey;
 using installer::InstallationState;
 
 const wchar_t GoogleUpdateSettings::kPoliciesKey[] =
-    L"SOFTWARE\\Policies\\Google\\Update";
+    L"SOFTWARE\\Policies\\Decentr\\Update";
 const wchar_t GoogleUpdateSettings::kUpdatePolicyValue[] = L"UpdateDefault";
 const wchar_t GoogleUpdateSettings::kDownloadPreferencePolicyValue[] =
     L"DownloadPreference";
@@ -44,11 +44,7 @@ const int GoogleUpdateSettings::kCheckPeriodOverrideMinutesMax =
 
 const GoogleUpdateSettings::UpdatePolicy
     GoogleUpdateSettings::kDefaultUpdatePolicy =
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
         GoogleUpdateSettings::AUTOMATIC_UPDATES;
-#else
-        GoogleUpdateSettings::UPDATES_DISABLED;
-#endif
 
 namespace {
 

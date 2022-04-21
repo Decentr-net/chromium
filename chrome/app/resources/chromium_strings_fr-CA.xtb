@@ -16,10 +16,7 @@ Certaines fonctionnalités ne seront peut-être pas disponibles et les modificat
 <translation id="1524282610922162960">Partager un onglet de Decentr</translation>
 <translation id="1553461853655228091">Decentr a besoin de votre autorisation pour accéder à votre appareil photo afin de créer une carte 3D de votre environnement</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Votre administrateur exige que vous relanciez Decentr pour appliquer une mise à jour}=1{Votre administrateur exige que vous relanciez Decentr pour appliquer une mise à jour. Votre fenêtre de navigation privée ne sera pas rouverte.}one{Votre administrateur exige que vous relanciez Decentr pour appliquer une mise à jour. Votre fenêtre de navigation privée ne sera pas rouverte.}other{Votre administrateur exige que vous relanciez Decentr pour appliquer une mise à jour. Vos # fenêtres de navigation privée ne seront pas rouvertes.}}</translation>
-<translation id="1625909126243026060">Passer en revue les principaux paramètres de confidentialité et de sécurité dans Decentr</translation>
-<translation id="1632539827495546968">Si vous ne souhaitez utiliser ce compte qu'une seule fois, vous pouvez utiliser le <ph name="GUEST_LINK_BEGIN" />mode Invité<ph name="GUEST_LINK_END" /> dans le navigateur Decentr. Si vous souhaitez ajouter un compte pour quelqu'un d'autre, <ph name="LINK_BEGIN" />ajoutez une nouvelle personne<ph name="LINK_END" /> à votre <ph name="DEVICE_TYPE" />.
-
-Les autorisations que vous avez déjà accordées à des sites Web et à des applications peuvent s'appliquer à ce compte. Vous pouvez gérer vos comptes Google dans les <ph name="SETTINGS_LINK_BEGIN" />Paramètres<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Lorsque vous fermez Decentr, les témoins et les données relatives aux sites des pages visitées sont automatiquement effacés</translation>
 <translation id="1708666629004767631">Une nouvelle version de Decentr encore plus sûre est maintenant offerte.</translation>
 <translation id="1774152462503052664">Laisser Decentr fonctionner en arrière-plan</translation>
 <translation id="1779356040007214683">Afin de rendre Decentr plus sûr, nous avons désactivé certaines extensions qui ne sont pas répertoriées dans la boutique <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> et qui ont pu être ajoutées à votre insu.</translation>
@@ -28,22 +25,16 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="1881322772814446296">Vous vous connectez avec un compte géré et rendez son administrateur maître de votre profil Decentr. Vos données de Decentr, comme vos applications, vos favoris, votre historique, vos mots de passe et vos autres paramètres, vont être associées de manière permanente à <ph name="USER_NAME" />. Vous pourrez supprimer ces données à l'aide du tableau de bord des comptes Google, mais vous ne pourrez pas les associer à un autre compte. Vous pouvez également créer un nouveau profil pour maintenir vos données Decentr séparées. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">En désactivant cette option, vous pouvez vous connecter aux sites Google tels que Gmail sans vous connecter à Decentr</translation>
 <translation id="1929939181775079593">Decentr ne répond pas. Voulez-vous le relancer maintenant?</translation>
-<translation id="1940680973325097484">Si vous ne souhaitez utiliser ce compte qu'une seule fois, vous pouvez utiliser le mode Invité dans le navigateur Decentr. Si vous souhaitez ajouter un compte pour quelqu'un d'autre, <ph name="LINK_BEGIN" />ajoutez une nouvelle personne<ph name="LINK_END" /> à votre <ph name="DEVICE_TYPE" />.
-
-Les autorisations que vous avez déjà accordées à des sites Web et à des applications peuvent s'appliquer à ce compte. Vous pouvez gérer vos comptes Google dans les <ph name="SETTINGS_LINK_BEGIN" />Paramètres<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">Decentr ne parvient pas à déterminer quel est le navigateur par défaut ou à le définir</translation>
 <translation id="1981611865800294956">Relancer &amp;Decentr OS pour le mettre à jour</translation>
 <translation id="2008474315282236005">Cette action entraînera la suppression d'un élément de cet appareil. Pour récupérer vos données plus tard, connectez-vous à Decentr en tant que <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Pour vérifier si vos autres mots de passe sont en sécurité contre les violations de données et d'autres risques de sécurité, <ph name="BEGIN_LINK" />connectez-vous à Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Choisissez si vous souhaitez inclure l'historique de Decentr pour rendre vos expériences des services Google plus personnalisées</translation>
 <translation id="2174178932569897599">Personnaliser Decentr</translation>
 <translation id="2185166961232948079">Decentr – Connexion au réseau – <ph name="PAGE_TITLE" /></translation>
-<translation id="2241627712206172106">Si vous partagez un ordinateur avec vos proches, ceux-ci peuvent configurer Google Chrome comme bon leur semble et naviguer sur le Web à leur manière.</translation>
+<translation id="2241627712206172106">Si vous partagez un ordinateur avec vos proches, ceux-ci peuvent configurer Decentr comme bon leur semble et naviguer sur le Web à leur manière.</translation>
 <translation id="2294245788148774212">Facultatif : aidez-nous à améliorer les fonctionnalités et les performances de Decentr OS en envoyant automatiquement les données de diagnostic et d'utilisation à Google.</translation>
-<translation id="2313870531055795960">Il vérifie les URL en fonction d'une liste de sites non sécuritaires stockée dans Decentr. Si un site tente de voler votre mot de passe ou si vous téléchargez un fichier dangereux, Decentr peut également envoyer les URL concernées, y compris des extraits du contenu de pages, à la navigation sécurisée.</translation>
 <translation id="2343156876103232566">Pour envoyer un numéro d'ici vers votre téléphone Android, connectez-vous à Decentr sur vos deux appareils.</translation>
 <translation id="2347108572062610441">Cette extension a modifié la page qui s'affiche au démarrage de Decentr.</translation>
-<translation id="2359808026110333948">Continuer</translation>
 <translation id="2396765026452590966">L'extension « <ph name="EXTENSION_NAME" /> » a modifié la page qui s'affiche au démarrage de Decentr.</translation>
 <translation id="2401032172288869980">Decentr requiert l'autorisation d'accéder au microphone et à l'appareil photo pour ce site</translation>
 <translation id="2483889755041906834">Dans Decentr</translation>
@@ -51,6 +42,7 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="2535480412977113886">Decentr OS n'a pas pu synchroniser vos données, car vos renseignements de connexion ne sont plus à jour.</translation>
 <translation id="2560420686485554789">Decentr a besoin d'accéder au stockage pour télécharger des fichiers</translation>
 <translation id="2572494885440352020">Aide de Decentr</translation>
+<translation id="2577788541081224677">Pour accéder à vos données Decentr sur tous vos appareils, connectez-vous afin de pouvoir activer la synchronisation.</translation>
 <translation id="2583187216237139145">L'administrateur du profil professionnel peut retirer toutes les données Decentr générées durant l'utilisation de ce profil (comme la création de favoris, l'historique, les mots de passe et d'autres paramètres). <ph name="LEARN_MORE" /></translation>
 <translation id="2587578672395088481">Redémarrez Decentr OS pour appliquer la mise à jour.</translation>
 <translation id="2648074677641340862">Une erreur de système d'exploitation s'est produite pendant l'installation. Veuillez télécharger de nouveau Decentr.</translation>
@@ -61,11 +53,9 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="2799223571221894425">Redémarrer</translation>
 <translation id="2837693172913560447">Cette action créera un profil Decentr associé au compte <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="2847479871509788944">Supprimer de Decentr...</translation>
-<translation id="2850691299438350830">Il vous protège dans Decentr et peut être utilisé pour améliorer votre sécurité dans d'autres applications Google lorsque vous êtes connecté à votre compte</translation>
 <translation id="2885378588091291677">Moniteur d'activité</translation>
 <translation id="2910007522516064972">À propos de &amp;Decentr</translation>
 <translation id="2977470724722393594">Decentr est à jour</translation>
-<translation id="2977506796191543575">Si un site tente de voler votre mot de passe ou si vous téléchargez un fichier dangereux, Decentr peut également envoyer les URL concernées, y compris des extraits du contenu de pages, à la navigation sécurisée</translation>
 <translation id="2983934633046890458">Decentr essaie de modifier les mots de passe.</translation>
 <translation id="3032706164202344641">Decentr ne peut pas vérifier vos mots de passe. Réessayez plus tard.</translation>
 <translation id="3032787606318309379">Ajout à Decentr en cours...</translation>
@@ -75,7 +65,7 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="3155163173539279776">Relancer Decentr</translation>
 <translation id="3179665906251668410">Ouvrir le lien dans une fenêtre de navi&amp;gation privée Decentr</translation>
 <translation id="3185330573522821672">Personnaliser votre nouveau profil Decentr</translation>
-<translation id="3190315855212034486">Google Chrome a planté. Voulez-vous le relancer maintenant?</translation>
+<translation id="3190315855212034486">Decentr a planté. Voulez-vous le relancer maintenant?</translation>
 <translation id="3229526316128325841">Decentr veut exporter vos mots de passe.</translation>
 <translation id="3258596308407688501">Decentr ne peut pas lire et écrire dans son répertoire de données :
 
@@ -117,24 +107,22 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="4285930937574705105">Échec de l'installation suite à une erreur non spécifiée. Si Decentr est en cours d'exécution, veuillez le fermer, puis réessayer.</translation>
 <translation id="4407044323746248786">Quitter Decentr quand même?</translation>
 <translation id="4415566066719264597">Laisser Decentr s'exécuter en arrière-plan</translation>
-<translation id="4423735387467980091">Personnaliser et commander Chrome</translation>
-<translation id="4427306783828095590">La protection renforcée en fait plus pour bloquer l'hameçonnage et les logiciels nuisibles</translation>
+<translation id="4423735387467980091">Personnaliser et commander Decentr</translation>
 <translation id="452711251841752011">Bienvenue à Decentr, une nouvelle fenêtre de navigateur a été ouverte</translation>
 <translation id="4544142686420020088">La mise à jour de Decentr n'a pas été installée. Une erreur s'est produite. <ph name="BEGIN_LINK" />Découvrez comment résoudre les problèmes de mise à jour de Decentr.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Continuer avec un nouveau profil Decentr?</translation>
 <translation id="4567424176335768812">Vous êtes connecté avec l'adresse de courriel <ph name="USER_EMAIL_ADDRESS" />. Vous pouvez maintenant accéder à vos favoris, à votre historique et à vos paramètres sur tous les appareils sur lesquels vous êtes connecté.</translation>
 <translation id="459535195905078186">Applications de Decentr</translation>
-<translation id="4621240073146040695">La mise à jour est presque terminée! Il ne reste plus qu'à relancer Decentr.</translation>
 <translation id="4665829708273112819">Avertissement : Decentr ne peut pas empêcher les extensions d'enregistrer votre historique de navigation. Pour désactiver cette extension en mode de navigation privée, désélectionnez cette option.</translation>
-<translation id="4673151026126227699">Si vous partagez aussi les rapports d'utilisation de Decentr, ceux-ci incluent les URL des pages que vous visitez</translation>
 <translation id="4677944499843243528">Le profil semble être utilisé par un autre processus de Decentr (<ph name="PROCESS_ID" />) sur un autre ordinateur (<ph name="HOST_NAME" />). Decentr a verrouillé ce profil pour éviter qu'il ne soit endommagé. Si vous êtes sûr qu'aucun autre processus n'utilise ce profil, vous pouvez le déverrouiller et relancer Decentr.</translation>
 <translation id="469338717132742108">Obtenir de l'aide pour Decentr OS</translation>
 <translation id="4708774505295300557">Un utilisateur s'est récemment connecté à Decentr sur cet ordinateur en tant que <ph name="ACCOUNT_EMAIL_LAST" />. Veuillez créer un autre utilisateur Decentr pour séparer vos données.</translation>
 <translation id="4746050847053251315">Quitter Decentr quand même?</translation>
 <translation id="4748217263233248895">Une mise à jour de sécurité spéciale pour Decentr vient d'être effectuée. Redémarrez maintenant, et nous restaurerons vos onglets.</translation>
+<translation id="4750035648288509542">La mise à jour est presque terminée! Relancez Decentr pour terminer la mise à jour. Vos fenêtres de navigation privée ne seront pas rouvertes.</translation>
 <translation id="4788777615168560705">Decentr ne peut pas vérifier vos mots de passe. Réessayez après 24 heures ou <ph name="BEGIN_LINK" />effectuez une vérification des mots de passe dans votre compte Google<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Cela fait appel au même correcteur orthographique que celui qui est utilisé dans la recherche Google. Le texte que vous tapez dans le navigateur est envoyé à Google. Vous pouvez toujours modifier ce comportement dans les paramètres.</translation>
-<translation id="4888717733111232871">Règle de trafic entrant pour Chrome afin d'autoriser le trafic mDNS.</translation>
+<translation id="4888717733111232871">Règle de trafic entrant pour Decentr afin d'autoriser le trafic mDNS.</translation>
 <translation id="4893347770495441059">Relancer &amp;Decentr pour le mettre à jour</translation>
 <translation id="4943838377383847465">Decentr fonctionne en mode arrière-plan.</translation>
 <translation id="4987820182225656817">Les invités peuvent utiliser Decentr sans rien laisser derrière eux.</translation>
@@ -146,8 +134,10 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="5386450000063123300">Mise à jour de Decentr en cours (<ph name="PROGRESS_PERCENT" />)…</translation>
 <translation id="538767207339317086">Autoriser la connexion à Decentr</translation>
 <translation id="5398878173008909840">Une nouvelle version de Decentr est maintenant offerte.</translation>
+<translation id="5416696090975899932">Decentr ne peut pas afficher l'aperçu avant impression lorsque le visualiseur de documents PDF intégré n'est pas installé.</translation>
 <translation id="5427571867875391349">Faire de Decentr le navigateur par défaut</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr bêta</translation>
+<translation id="5479196819031988440">Decentr OS ne peut pas ouvrir cette page.</translation>
 <translation id="5480860683791598150">Decentr a besoin d'accéder à votre position afin de la partager avec ce site</translation>
 <translation id="549669000822060376">Veuillez patienter pendant que Decentr installe les dernières mises à jour système.</translation>
 <translation id="5496810170689441661">Decentr essaie de modifier des mots de passe. Pour autoriser cette action, entrez votre mot de passe Windows.</translation>
@@ -178,7 +168,6 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="6212496753309875659">Cet ordinateur dispose déjà d'une version plus récente de Decentr. Si le logiciel ne fonctionne pas, veuillez le désinstaller, puis réessayer.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr va redémarrer maintenant}=1{Decentr redémarrera dans 1 seconde}one{Decentr redémarrera dans # seconde}other{Decentr redémarrera dans # secondes}}</translation>
 <translation id="6241367896540709610">Decentr requiert l'autorisation d'accéder à l'espace de stockage pour télécharger des fichiers</translation>
-<translation id="6245734527075554892">Il vérifie les URL en fonction d'une liste de sites non sécuritaires stockée dans Decentr</translation>
 <translation id="6248213926982192922">Faire de Decentr le navigateur par défaut</translation>
 <translation id="6266342355635466082">Decentr ne peut pas vérifier la présence de mises à jour. Essayez de vérifier votre connexion Internet.</translation>
 <translation id="6268381023930128611">Se déconnecter de Decentr?</translation>
@@ -205,6 +194,7 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="6717134281241384636">Votre profil ne peut pas être utilisé, car il provient d'une version plus récente de Decentr.
 
 Certaines fonctionnalités seront peut-être inaccessibles. Veuillez spécifier un autre répertoire de profil ou utiliser une version plus récente de Decentr.</translation>
+<translation id="6734080038664603509">Mettre à jour &amp;Decentr</translation>
 <translation id="6734291798041940871">Decentr est déjà installé pour tous les utilisateurs sur votre ordinateur.</translation>
 <translation id="673636774878526923">Pour accéder à vos données Decentr sur tous vos appareils, connectez-vous et activez la synchronisation.</translation>
 <translation id="6774082503108938489">Ton parent a désactivé le paramètre « Autorisations pour les sites, les applications et les extensions » dans Decentr. L'activation de ce <ph name="EXTENSION_TYPE_PARAMETER" /> n'est pas autorisée.</translation>
@@ -212,7 +202,7 @@ Certaines fonctionnalités seront peut-être inaccessibles. Veuillez spécifier 
 <translation id="6857782730669500492">Decentr - <ph name="PAGE_TITLE" /></translation>
 <translation id="6863361426438995919">Google Pay (copiée dans Decentr)</translation>
 <translation id="6873893289264747459">Decentr a constaté que « <ph name="EXTENSION_NAME" /> » contient un logiciel malveillant</translation>
-<translation id="6893813176749746474">Chrome a été mis à jour, mais vous ne l'avez pas utilisé depuis au moins 30 jours.</translation>
+<translation id="6893813176749746474">Decentr a été mis à jour, mais vous ne l'avez pas utilisé depuis au moins 30 jours.</translation>
 <translation id="691026815377248078">Decentr nécessite l'accès au Bluetooth pour continuer l'association. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
 <translation id="6964305034639999644">Ouvrir le lien dans une fenêtre de navi&amp;gation privée Decentr</translation>
 <translation id="6978145336957848883">Les mots de passe faibles sont faciles à deviner. Vous pouvez laisser Decentr <ph name="BEGIN_LINK" />créer et mémoriser des mots de passe forts pour vous<ph name="END_LINK" />.</translation>
@@ -222,8 +212,8 @@ Certaines fonctionnalités seront peut-être inaccessibles. Veuillez spécifier 
 <translation id="718435575166326686">Decentr requiert l'autorisation d'accéder à l'appareil photo pour ce site</translation>
 <translation id="7196312274710523067">Impossible de lancer Decentr. Réessayez.</translation>
 <translation id="7197677400338048821">Decentr ne peut pas vérifier vos mots de passe. Réessayez dans 24 heures.</translation>
-<translation id="7218568399872925918">Les sites que vous consultez gardent vos informations en mémoire tant que vous ne fermez pas Decentr</translation>
 <translation id="7223968959479464213">Gestionnaire de tâches – Decentr</translation>
+<translation id="731644333568559921">Mise à jour de &amp;Decentr OS</translation>
 <translation id="731795002583552498">Mise à jour de Decentr en cours…</translation>
 <translation id="7318036098707714271">Votre fichier de préférences est corrompu ou invalide.
 
@@ -232,20 +222,16 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="7339898014177206373">Nouvelle fenêtre</translation>
 <translation id="734373864078049451">Votre contenu Web, vos favoris et toutes vos données de Decentr sont conservés ici.</translation>
 <translation id="7349591376906416160">Votre administrateur système a configuré Decentr de manière à ouvrir <ph name="ALTERNATIVE_BROWSER_NAME" /> pour accéder à <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7398989605938454041">Utilisez les profils Decentr pour dissocier toutes vos données Decentr. Cette façon de faire facilite la distinction entre le travail et le divertissement.</translation>
 <translation id="7448255348454382571">Redémarrer Decentr OS</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr pour les concepteurs</translation>
 <translation id="7451052299415159299">Decentr a besoin de votre autorisation pour accéder à votre appareil photo pour ce site</translation>
-<translation id="7467949745582939695">Relancer Decentr?</translation>
 <translation id="7483335560992089831">Vous ne pouvez pas installer la même version de Decentr qui est en cours d'exécution. Veuillez fermer Decentr et essayer à nouveau.</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr redémarrera dans 1 minute}one{Decentr redémarrera dans # minute}other{Decentr redémarrera dans # minutes}}</translation>
 <translation id="7549178288319965365">À propos de Decentr OS</translation>
 <translation id="7561906087460245826">Effacer les données également dans Decentr (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Si un paramètre ne s'affiche pas sur cette page, consultez les <ph name="LINK_BEGIN" />paramètres de Decentr OS<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Vous avez activé la navigation sécurisée améliorée dans votre compte. Maintenant, activez-la dans Decentr.</translation>
 <translation id="761356813943268536">Decentr utilise votre caméra et votre microphone</translation>
-<translation id="7617377681829253106">Chrome vient de s'améliorer</translation>
-<translation id="7682601070171973634">Decentr explore de nouvelles fonctionnalités qui permettent aux sites d'offrir la même expérience de navigateur tout en utilisant moins de vos données</translation>
+<translation id="7617377681829253106">Decentr vient de s'améliorer</translation>
 <translation id="7686590090926151193">Decentr n'est pas votre navigateur par défaut</translation>
 <translation id="7689606757190482937">Synchroniser et personnaliser Decentr sur vos appareils</translation>
 <translation id="7729447699958282447">Decentr n'a pas pu synchroniser vos données, car la synchronisation n'est pas offerte pour votre nom de domaine.</translation>
@@ -255,11 +241,11 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="7828947555739565424">Il existe déjà un profil Decentr associé à ce compte sur cet appareil</translation>
 <translation id="7857220146454061152">Vous devez disposer de macOS X 10.11 ou d'une version ultérieure pour recevoir les futures mises à jour de Decentr. Or, c'est la version macOS X 10.10 qui est installée sur cet ordinateur.</translation>
 <translation id="7867198900892795913">Decentr n'a pas pu installer la nouvelle version, vous ne pouvez donc pas profiter des nouvelles fonctionnalités ni des correctifs relatifs à la sécurité.</translation>
-<translation id="788352880609666695">Les comptes suivants sont accessibles pour ce profil Decentr</translation>
 <translation id="7898472181347242998">Pour voir si votre appareil est à jour, sélectionnez les <ph name="LINK_BEGIN" />paramètres de Decentr OS<ph name="LINK_END" /></translation>
 <translation id="7937630085815544518">Vous étiez connecté à Decentr en tant que <ph name="USER_EMAIL_ADDRESS" />. Veuillez utiliser le même compte pour vous reconnecter.</translation>
 <translation id="7975919845073681630">Cette installation de Decentr est secondaire. Celui-ci ne peut donc pas servir de navigateur par défaut.</translation>
 <translation id="8013436988911883588">Lorsque Decentr y aura accès, les sites Web pourront vous demander l'accès.</translation>
+<translation id="8045118833343856403">Les comptes suivants ne sont connectés à aucun profil Decentr. Si vous voulez utiliser un compte dans un autre profil, retirer d'abord ce profil.</translation>
 <translation id="8105840573057009683">Decentr requiert l'autorisation de localisation pour ce site</translation>
 <translation id="81770708095080097">Decentr a bloqué ce fichier, car il est dangereux.</translation>
 <translation id="8248265253516264921">Si une image n'est pas accompagnée d'une description utile, Decentr essaiera de vous en proposer une. Pour créer des descriptions, les images sont envoyées à Google. Vous pouvez désactiver cette option dans les paramètres à tout moment.</translation>
@@ -268,20 +254,17 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="8290862415967981663">Decentr a bloqué ce fichier, car il peut être dangereux.</translation>
 <translation id="8330519371938183845">Se connecter pour synchroniser et personnaliser Decentr sur vos appareils</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> utilisait précédemment Decentr</translation>
-<translation id="8357820681460164151">Pour accéder à vos données de navigation Decentr sur tous vos appareils, connectez-vous et activez la synchronisation</translation>
 <translation id="8417404458978023919">{0,plural, =1{Redémarrer Decentr d'ici un jour}one{Redémarrer Decentr d'ici # jour}other{Redémarrer Decentr d'ici # jours}}</translation>
 <translation id="8453117565092476964">L'archive du programme d'installation est corrompue ou n'est pas valide. Veuillez télécharger Decentr à nouveau.</translation>
 <translation id="8493179195440786826">Decentr n'est pas à jour</translation>
 <translation id="8550334526674375523">Ce profil professionnel est distinct de votre profil personnel.</translation>
 <translation id="8558383651099478961">Ton parent a désactivé le paramètre « Autorisations pour les sites, les applications et les extensions » dans Decentr. L'activation de ce <ph name="EXTENSION_TYPE_PARAMETER" /> n'est pas autorisée.</translation>
 <translation id="8568283329061645092">Decentr peut vérifier vos mots de passe lorsque vous vous connectez avec votre compte Google</translation>
-<translation id="8586442755830160949">© <ph name="YEAR" /> Les auteurs de Chrome. Tous droits réservés.</translation>
+<translation id="8586442755830160949">© <ph name="YEAR" /> Les auteurs de Decentr. Tous droits réservés.</translation>
 <translation id="8619360774459241877">Lancement de Decentr en cours…</translation>
 <translation id="8621669128220841554">Échec de l'installation en raison d'une erreur non spécifiée. Veuillez télécharger Decentr à nouveau.</translation>
 <translation id="8697124171261953979">Elle définit également quelle page s'affiche lorsque vous démarrez Decentr ou que vous effectuez une recherche dans l'omnibox.</translation>
 <translation id="8704119203788522458">Voici votre Decentr</translation>
-<translation id="8713679423359107094">Lorsque vous fermez toutes les fenêtres de Decentr, les témoins et les données relatives aux sites sont automatiquement effacés</translation>
-<translation id="8796443464227412154">Vous serez <ph name="BEGIN_BOLD" />déconnecté de la plupart des sites<ph name="END_BOLD" /> lorsque vous fermerez Decentr. Si la synchronisation est désactivée, vous serez également <ph name="BEGIN_BOLD" />déconnecté des services Google et de Decentr<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Decentr a besoin de votre autorisation pour accéder à votre appareil photo et à votre micro pour ce site</translation>
 <translation id="8803635938069941624">Conditions d'utilisation de Decentr OS</translation>
 <translation id="8821041990367117597">Decentr n'a pas pu synchroniser vos données, car vos renseignements de connexion ne sont plus à jour.</translation>
@@ -303,6 +286,5 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="9214764063801632699">Système Decentr OS</translation>
 <translation id="93478295209880648">Il se peut que Decentr ne fonctionne pas correctement, car il n'est plus compatible avec Windows XP ni Windows Vista</translation>
 <translation id="965162752251293939">Qui utilise Decentr?</translation>
-<translation id="967427899662692980">Profiter de la sécurité la plus robuste de Decentr</translation>
-<translation id="985602178874221306">Les auteurs de Chrome</translation>
+<translation id="985602178874221306">Les auteurs de Decentr</translation>
 </translationbundle>

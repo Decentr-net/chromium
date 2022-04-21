@@ -60,9 +60,7 @@
 #include "chrome/installer/util/util_constants.h"
 #include "chrome/installer/util/work_item_list.h"
 
-#if BUILDFLAG(USE_GOOGLE_UPDATE_INTEGRATION)
 #include "chrome/installer/setup/channel_override_work_item.h"
-#endif
 
 using base::ASCIIToWide;
 using base::win::RegKey;
@@ -296,7 +294,6 @@ void AddChromeWorkItems(const InstallParams& install_params,
       ->set_best_effort(true);
 }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // Adds work items to register the Elevation Service with Windows. Only for
 // system level installs.
 void AddElevationServiceWorkItems(const base::FilePath& elevation_service_path,
@@ -396,7 +393,6 @@ void AddEnterpriseDeviceTrustWorkItems(const InstallerState& installer_state,
   cmd.AddWorkItems(root_key, cmd_key, install_list);
 }
 
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 }  // namespace
 
@@ -811,12 +807,10 @@ void AddInstallWorkItems(const InstallParams& install_params,
   AddActiveSetupWorkItems(installer_state, new_version, install_list);
 
   AddOsUpgradeWorkItems(installer_state, setup_path, new_version, install_list);
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   AddEnterpriseEnrollmentWorkItems(installer_state, setup_path, new_version,
                                    install_list);
   AddEnterpriseDeviceTrustWorkItems(installer_state, setup_path, new_version,
                                     install_list);
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING
   AddFirewallRulesWorkItems(installer_state, !current_version.IsValid(),
                             install_list);
 
@@ -826,12 +820,10 @@ void AddInstallWorkItems(const InstallParams& install_params,
       installer_state.root_key(),
       GetNotificationHelperPath(target_path, new_version), install_list);
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   if (installer_state.system_install()) {
     AddElevationServiceWorkItems(
         GetElevationServicePath(target_path, new_version), install_list);
   }
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING
 
   AddUpdateDowngradeVersionItem(installer_state.root_key(), current_version,
                                 new_version, install_list);

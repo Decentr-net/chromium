@@ -133,6 +133,26 @@
       "id": 1
     },
 
+    "aol": {
+      "name": "AOL",
+      "keyword": "aol.com",
+      "favicon_url": "http://search.aol.com/favicon.ico",
+      "search_url": "http://search.aol.com/aol/search?query={searchTerms}",
+      "suggest_url": "http://autocomplete.search.aol.com/autocomplete/get?output=json&it=&q={searchTerms}",
+      "type": "SEARCH_ENGINE_AOL",
+      "id": 35
+    },
+
+    "ask": {
+      "name": "Ask",
+      "keyword": "ask.com",
+      "favicon_url": "http://sp.ask.com/sh/i/a16/favicon/favicon.ico",
+      "search_url": "http://www.ask.com/web?q={searchTerms}",
+      "suggest_url": "http://ss.ask.com/query?q={searchTerms}&li=ff",
+      "type": "SEARCH_ENGINE_ASK",
+      "id": 4
+    },
+
     "mail_ru": {
       "name": "@MAIL.RU",
       "keyword": "mail.ru",
@@ -888,6 +908,16 @@
       "type": "SEARCH_ENGINE_INFO_COM",
       "id": 97
     },
+
+    "internet_archive": {
+      "name": "InternetArchive",
+      "keyword": "web.archive.org",
+      "favicon_url": "https://web.archive.org/_static/images/archive.ico",
+      "search_url": "https://web.archive.org/web/*/{searchTerms}",
+      "type": "SEARCH_ENGINE_INTERNET_ARCHIVE",
+      "id": 87
+    },
+
 
     "libero": {
       "name": "Libero",

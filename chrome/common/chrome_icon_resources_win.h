@@ -15,7 +15,6 @@ enum {
   // The main application icon is always index 0.
   kApplicationIndex = 0,
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // Legacy indices that are no longer used.
   kApplication2Index = 1,
   kApplication3Index = 2,
@@ -38,13 +37,6 @@ enum {
 
   // The Chrome Beta application icon.
   kBetaApplicationIndex = 9,
-#else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  // The Chromium App Launcher icon.
-  kAppLauncherIndex = 1,
-
-  // The Chromium incognito icon.
-  kIncognitoIndex = 2,
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 };
 
 }  // namespace icon_resources

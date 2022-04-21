@@ -13,7 +13,7 @@
 namespace {
 
 constexpr base::FilePath::CharType kChromeExecutable[] =
-    FILE_PATH_LITERAL("chrome.exe");
+    FILE_PATH_LITERAL("decentr.exe");
 
 constexpr base::FilePath::CharType kChromeProxyExecutable[] =
     FILE_PATH_LITERAL("chrome_proxy.exe");

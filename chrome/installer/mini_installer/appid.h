@@ -12,11 +12,9 @@ namespace google_update {
 
 extern const wchar_t kAppGuid[];
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 extern const wchar_t kBetaAppGuid[];
 extern const wchar_t kDevAppGuid[];
 extern const wchar_t kSxSAppGuid[];
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 }  // namespace google_update
 

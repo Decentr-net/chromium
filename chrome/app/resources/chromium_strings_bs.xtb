@@ -12,14 +12,11 @@ Neke funkcije možda neće biti dostupne i promjene postavki se neće sačuvati.
 <translation id="1315551408014407711">Postavite novi Decentr profil</translation>
 <translation id="1396446129537741364">Decentr pokušava prikazati lozinke.</translation>
 <translation id="1414495520565016063">Prijavili ste se u Decentr!</translation>
-<translation id="151962892725702025">Chromium OS nije mogao sinhronizirati podatke zato što sinhronizacija nije dostupna u vašoj domeni.</translation>
+<translation id="151962892725702025">Decentr OS nije mogao sinhronizirati podatke zato što sinhronizacija nije dostupna u vašoj domeni.</translation>
 <translation id="1524282610922162960">Dijelite Decentr karticu</translation>
 <translation id="1553461853655228091">Decentru je potrebno odobrenje da pristupi kameri radi kreiranja 3D mape vašeg okruženja</translation>
 <translation id="1607715478322902680">{COUNT,plural, =0{Administrator traži da ponovo pokrenete Decentr radi primjene ažuriranja}=1{Administrator traži da ponovo pokrenete Decentr radi primjene ažuriranja. Vaš anonimni prozor se neće ponovo otvoriti.}one{Administrator traži da ponovo pokrenete Decentr radi primjene ažuriranja. Vaš # anonimni prozor se neće ponovo otvoriti.}few{Administrator traži da ponovo pokrenete Decentr radi primjene ažuriranja. Vaša # anonimna prozora se neće ponovo otvoriti.}other{Administrator traži da ponovo pokrenete Decentr radi primjene ažuriranja. Vaših # anonimnih prozora se neće ponovo otvoriti.}}</translation>
-<translation id="1625909126243026060">Pregledajte ključne kontrole privatnosti i sigurnosti na Decentru</translation>
-<translation id="1632539827495546968">Ako želite koristiti ovaj račun samo jednom, možete koristiti <ph name="GUEST_LINK_BEGIN" />Način rada za gosta<ph name="GUEST_LINK_END" /> u pregledniku Decentr. Ako želite dodati račun za nekog drugog, <ph name="LINK_BEGIN" />dodajte novu osobu<ph name="LINK_END" /> na uređaj <ph name="DEVICE_TYPE" />.
-
-Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati na ovaj račun. Google računima možete upravljati u <ph name="SETTINGS_LINK_BEGIN" />Postavkama<ph name="SETTINGS_LINK_END" />.</translation>
+<translation id="1667812772085710766">Kada zatvorite Decentr, on automatski briše kolačiće i podatke web lokacije za stranice koje ste posjetili</translation>
 <translation id="1708666629004767631">Dostupna je novija i sigurnija verzija Decentra.</translation>
 <translation id="1774152462503052664">Decentr može raditi u pozadini</translation>
 <translation id="1779356040007214683">Kako bismo Decentr učinili sigurnijim, onemogućili smo neka proširenja koja nisu navedena u trgovini <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i možda su dodana bez vašeg znanja.</translation>
@@ -28,22 +25,16 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="1881322772814446296">Prijavljujete se s upravljanim računom i dajete njegovom administratoru kontrolu nad svojim Decentr profilom. Vaši podaci iz Decentra kao što su vaše aplikacije, oznake, historija, lozinke i druge postavke će biti trajno vezani za korisnika <ph name="USER_NAME" />. Moći ćete izbrisati ove podatke na kontrolnoj tabli Google računa, ali nećete moći povezati ove podatke s drugim računom. Opcionalno možete kreirati novi profil da odvojite postojeće podatke iz Decentra. <ph name="LEARN_MORE" /></translation>
 <translation id="1911763535808217981">Isključivanjem ove postavke, možete se prijaviti na Googleove web lokacije poput Gmaila bez prijave na Decentr</translation>
 <translation id="1929939181775079593">Decentr ne reagira. Ponovo pokrenuti sada?</translation>
-<translation id="1940680973325097484">Ako želite koristiti ovaj račun samo jednom, možete koristiti Način rada za gosta u pregledniku Decentr. Ako želite dodati račun za nekog drugog, <ph name="LINK_BEGIN" />dodajte novu osobu<ph name="LINK_END" /> na uređaj <ph name="DEVICE_TYPE" />.
-
-Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati na ovaj račun. Google računima možete upravljati u <ph name="SETTINGS_LINK_BEGIN" />Postavkama<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="1966382378801805537">Decentr ne može utvrditi niti postaviti zadani preglednik</translation>
-<translation id="1981611865800294956">Ponovo pokrenite da ažurirate &amp;Chromium OS</translation>
+<translation id="1981611865800294956">Ponovo pokrenite da ažurirate &amp;Decentr OS</translation>
 <translation id="2008474315282236005">Ovim će se izbrisati jedna stavka s uređaja. Za preuzimanje podataka kasnije, prijavite se u Decentr kao <ph name="USER_EMAIL" />.</translation>
 <translation id="2020032459870799438">Da provjerite jesu li vaše ostale lozinke zaštićene od narušavanja podataka i drugih sigurnosnih problema, <ph name="BEGIN_LINK" />prijavite se u Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Odaberite želite li uključiti historiju Decentra da dodatno personalizirate iskustva na Googleovim uslugama</translation>
 <translation id="2174178932569897599">Prilagodite Decentr</translation>
 <translation id="2185166961232948079">Decentr – prijava na mrežu – <ph name="PAGE_TITLE" /></translation>
 <translation id="2241627712206172106">Ako dijelite računar, prijatelji i porodica mogu odvojeno pretraživati i postaviti Decentr na način koji njima odgovara.</translation>
 <translation id="2294245788148774212">Nije obavezno: Pomozite nam da poboljšamo funkcije i performanse Decentr OS-a automatskim slanjem podataka o dijagnostici i korištenju Googleu.</translation>
-<translation id="2313870531055795960">Provjerava URL-ove s listom nesigurnih web lokacija pohranjenih u Decentru. Ako web lokacija pokuša ukrasti vašu lozinku ili kada preuzimate štetan fajl, Decentr može slati i URL-ove, uključujući dijelove sadržaja stranice, u Sigurno pregledanje.</translation>
 <translation id="2343156876103232566">Da pošaljete broj s ovog uređaja na svoj Android telefon, prijavite se u Decentr na oba uređaja.</translation>
 <translation id="2347108572062610441">Ova ekstenzija je promijenila stranicu koja se prikazuje prilikom pokretanja Decentra.</translation>
-<translation id="2359808026110333948">Nastavi</translation>
 <translation id="2396765026452590966">Ekstenzija "<ph name="EXTENSION_NAME" />" je promijenila stranicu koja se prikazuje prilikom pokretanja Decentra.</translation>
 <translation id="2401032172288869980">Decentru su za ovu web lokaciju potrebna odobrenja za kameru i mikrofon</translation>
 <translation id="2483889755041906834">U Decentru</translation>
@@ -51,8 +42,10 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="2535480412977113886">OS Decentr nije mogao sinkronizirati podatke vašeg računa jer su pojedinosti prijave na račun zastarjele.</translation>
 <translation id="2560420686485554789">Decentr treba pristup pohrani zbog preuzimanja fajlova</translation>
 <translation id="2572494885440352020">Decentr pomagač</translation>
+<translation id="2577788541081224677">Prijavite se da možete uključiti sinhronizaciju i pristupiti svojim Decentr stvarima na svim svojim uređajima.</translation>
 <translation id="2583187216237139145">Administrator radnog profila može ukloniti bilo koje podatke Decentra koji se generiraju tokom korištenja ovog profila (naprimjer kreiranje oznaka, historije, lozinki i drugih postavki). <ph name="LEARN_MORE" /></translation>
-<translation id="2587578672395088481">Chromium OS treba ponovo pokrenuti kako bi se primijenilo ažuriranje.</translation>
+<translation id="2587578672395088481">Decentr OS treba ponovo pokrenuti kako bi se primijenilo ažuriranje.</translation>
+<translation id="2614883797045469742">Zadane postavke odgovaraju većini korisnika, ali ih možete prilagoditi načinu na koji volite koristiti Decentr</translation>
 <translation id="2648074677641340862">Tokom instaliranja se pojavila greška operativnog sistema. Ponovo preuzmite Decentr.</translation>
 <translation id="2661879430930417727">Ako dijelite uređaj, prijatelji i porodica mogu odvojeno pregledati i postavljati Decentr na način koji njima odgovara</translation>
 <translation id="2711502716910134313">Kartica Decentra</translation>
@@ -61,11 +54,9 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="2799223571221894425">Ponovo pokreni</translation>
 <translation id="2837693172913560447">Ovim će se kreirati novi Decentr profil za korisnika <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="2847479871509788944">Ukloni iz Decentra...</translation>
-<translation id="2850691299438350830">Štiti vas na Decentru i može se koristiti da poboljša vašu sigurnost u drugim Googleovim aplikacijama kada ste prijavljeni.</translation>
 <translation id="2885378588091291677">Upravitelj zadataka</translation>
 <translation id="2910007522516064972">O &amp;Decentru</translation>
 <translation id="2977470724722393594">Decentr je ažuriran</translation>
-<translation id="2977506796191543575">Ako web lokacija pokuša ukrasti vašu lozinku ili kada preuzimate štetan fajl, Decentr može slati i URL-ove, uključujući dijelove sadržaja stranice, u Sigurno pregledanje</translation>
 <translation id="2983934633046890458">Decentr pokušava urediti lozinke.</translation>
 <translation id="3032706164202344641">Decentr ne može provjeravati vaše lozinke. Pokušajte ponovo kasnije.</translation>
 <translation id="3032787606318309379">Dodavanje u Decentr…</translation>
@@ -83,7 +74,7 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="3283186697780795848">Verzija Decentra <ph name="PRODUCT_VERSION" /> je instalirana</translation>
 <translation id="328888136576916638">Nedostaju ključevi za Google API. Neke funkcionalnosti Decentra će se onemogućiti.</translation>
 <translation id="3296368748942286671">Ostavi aplikacije da rade u pozadini kada se zatvori Decentr</translation>
-<translation id="331951419404882060">Chromium OS nije sinhronizirao vaše podatke zbog greške prilikom prijave.</translation>
+<translation id="331951419404882060">Decentr OS nije sinhronizirao vaše podatke zbog greške prilikom prijave.</translation>
 <translation id="3349211344363550267">Decentr preporučuje da ne preuzimate niti otvarate ovaj fajl</translation>
 <translation id="3350761136195634146">Decentr profil s ovim računom već postoji</translation>
 <translation id="3406848076815591792">Želite li se prebaciti na Decentr profil?</translation>
@@ -112,26 +103,24 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="421369550622382712">Otkrijte odlične aplikacije, igre, ekstenzije i teme za Decentr.</translation>
 <translation id="4216212958613226427">Ovaj jezik se koristi za prikaz korisničkog interfejsa Decentra</translation>
 <translation id="4230135487732243613">Povezati vaše podatke iz Decentra s ovim računom?</translation>
-<translation id="4264410486868823224"><ph name="MANAGER" /> zahtijeva da prije korištenja uređaja pročitate i prihvatite sljedeće Uslove korištenja usluge. Ovi uslovi ne predstavljaju dodatak, izmjenu ili ograničenje uslova za Chromium OS.</translation>
+<translation id="4264410486868823224"><ph name="MANAGER" /> zahtijeva da prije korištenja uređaja pročitate i prihvatite sljedeće Uslove korištenja usluge. Ovi uslovi ne predstavljaju dodatak, izmjenu ili ograničenje uslova za Decentr OS.</translation>
 <translation id="4271805377592243930">Potražite pomoć s Decentrom</translation>
 <translation id="4285930937574705105">Instalacija nije uspjela zbog neodređene greške. Ako je Decentr trenutno pokrenut, zatvorite ga i pokušajte ponovo.</translation>
 <translation id="4407044323746248786">Želite li ipak zatvoriti Decentr?</translation>
 <translation id="4415566066719264597">Neka Decentr radi u pozadini</translation>
 <translation id="4423735387467980091">Prilagodite Decentr i upravljajte njime</translation>
-<translation id="4427306783828095590">Poboljšana zaštita vas još bolje čuva od krađe identiteta i zlonamjernog softvera</translation>
 <translation id="452711251841752011">Dobro došli u Decentr. Otvoren je novi prozor preglednika</translation>
 <translation id="4544142686420020088">Ažuriranje Decentra nije uspjelo. Nešto nije uredu. <ph name="BEGIN_LINK" />Ispravite probleme s ažuriranjem Decentra i neuspjela ažuriranja.<ph name="END_LINK" /></translation>
 <translation id="454579500955453258">Želite li nastaviti na novom Decentr profilu?</translation>
 <translation id="4567424176335768812">Prijavljeni ste kao <ph name="USER_EMAIL_ADDRESS" />. Sada možete pristupiti svojim oznakama, povijesti i drugim postavkama na svim uređajima na kojima se prijavljujete.</translation>
 <translation id="459535195905078186">Decentr aplikacije</translation>
-<translation id="4621240073146040695">Još malo pa je ažurirano! Ponovo pokrenite Decentr da završite ažuriranje.</translation>
 <translation id="4665829708273112819">Upozorenje: Decentr ne može spriječiti da ekstenzije snimaju vašu historiju pregledanja. Da onemogućite ovu ekstenziju u anonimnom načinu rada, poništite odabir ove opcije.</translation>
-<translation id="4673151026126227699">Ako dijelite i izvještaje o korištenju Decentra, ti izvještaji uključuju URL-ove koje posjećujete</translation>
 <translation id="4677944499843243528">Izgleda da drugi Decentr proces (<ph name="PROCESS_ID" />) na drugom računaru (<ph name="HOST_NAME" />) koristi profil. Decentr je zaključao profil da se ne ošteti. Ako ste sigurni da nijedan drugi proces ne koristi ovaj profil, možete ga otključati i ponovo pokrenuti Decentr.</translation>
-<translation id="469338717132742108">Primite pomoć za Chromium OS</translation>
+<translation id="469338717132742108">Primite pomoć za Decentr OS</translation>
 <translation id="4708774505295300557">Neko se prethodno prijavio na Decentr s ovog računara kao <ph name="ACCOUNT_EMAIL_LAST" />. Kreirajte novog korisnika za Decentr da odvojite svoje informacije.</translation>
 <translation id="4746050847053251315">Ipak napustiti Decentr?</translation>
 <translation id="4748217263233248895">Upravo je primijenjeno posebno sigurnosno ažuriranje za Decentr. Ponovo pokrenite sustav i vratit ćemo vaše kartice.</translation>
+<translation id="4750035648288509542">Još malo pa je ažurirano! Ponovo pokrenite Decentr da završite ažuriranje. Anonimni prozori se neće ponovo otvoriti.</translation>
 <translation id="4788777615168560705">Decentr ne može provjeravati vaše lozinke. Pokušajte ponovo za 24 sata ili <ph name="BEGIN_LINK" />provjerite lozinke na Google računu<ph name="END_LINK" />.</translation>
 <translation id="479167709087336770">Ova usluga koristi isti alat za provjeru pravopisa koji se koristi u Google Pretraživanju. Tekst koji pišete u pregledniku šalje se Googleu. Ovo ponašanje možete uvijek promijeniti u postavkama.</translation>
 <translation id="4888717733111232871">Ulazno pravilo kako bi Decentr dopustio mDNS promet.</translation>
@@ -146,8 +135,10 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="5386450000063123300">Ažuriranje Decentra (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Dozvoli prijavljivanje u Decentr</translation>
 <translation id="5398878173008909840">Dostupna je nova verzija Decentra.</translation>
+<translation id="5416696090975899932">Decentr ne može prikazati pregled prije štampanja dok nedostaje ugrađeni preglednik za PDF.</translation>
 <translation id="5427571867875391349">Postavite Decentr kao zadani preglednik</translation>
 <translation id="5438241569118040789"><ph name="PAGE_TITLE" /> – Decentr Beta</translation>
+<translation id="5479196819031988440">Decentr OS ne može otvoriti ovu stranicu.</translation>
 <translation id="5480860683791598150">Decentru treba pristup vašoj lokaciji da bi je dijelio s ovom web lokacijom</translation>
 <translation id="549669000822060376">Sačekajte dok Decentr instalira najnovija ažuriranja sistema.</translation>
 <translation id="5496810170689441661">Decentr pokušava urediti lozinke. Unesite Windows lozinku da ovo omogućite.</translation>
@@ -156,8 +147,8 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="5634636535844844681">Za Decentr je potreban Windows 7 ili noviji operativni sistem.</translation>
 <translation id="5653831366781983928">Ponovo pokrenite Decentr sada</translation>
 <translation id="5698481217667032250">Prikaži Decentr na ovom jeziku.</translation>
-<translation id="5820394555380036790">Chromium OS</translation>
-<translation id="5854740544000584380">Chromium OS je moguć zahvaljujući dodatnom <ph name="BEGIN_LINK_CROS_OSS" />softveru otvorenog koda<ph name="END_LINK_CROS_OSS" />, isto kao i <ph name="BEGIN_LINK_LINUX_OSS" />Linuxovo okruženje za razvoj<ph name="END_LINK_LINUX_OSS" />.</translation>
+<translation id="5820394555380036790">Decentr OS</translation>
+<translation id="5854740544000584380">Decentr OS je moguć zahvaljujući dodatnom <ph name="BEGIN_LINK_CROS_OSS" />softveru otvorenog koda<ph name="END_LINK_CROS_OSS" />, isto kao i <ph name="BEGIN_LINK_LINUX_OSS" />Linuxovo okruženje za razvoj<ph name="END_LINK_LINUX_OSS" />.</translation>
 <translation id="5862307444128926510">Dobro došli u Decentr</translation>
 <translation id="5883558403894052917">Decentr je otkrio da ove stavke sadržavaju zlonamjerni softver:</translation>
 <translation id="5895138241574237353">Ponovo pokreni</translation>
@@ -178,7 +169,6 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="6212496753309875659">Na ovom računaru se već nalazi novija verzija Decentra. Ako softver ne funkcionira, deinstalirajte Decentr i pokušajte ponovo.</translation>
 <translation id="6219195342503754812">{0,plural, =0{Decentr će se sada ponovo pokrenuti}=1{Decentr će se ponovo pokrenuti za 1 sekundu}one{Decentr će se ponovo pokrenuti za # sekundu}few{Decentr će se ponovo pokrenuti za # sekunde}other{Decentr će se ponovo pokrenuti za # sekundi}}</translation>
 <translation id="6241367896540709610">Decentru je potrebno odobrenje za pristup pohrani radi preuzimanja fajlova</translation>
-<translation id="6245734527075554892">Provjerava URL-ove s listom nesigurnih web lokacija pohranjenih u Decentru</translation>
 <translation id="6248213926982192922">Postavi Decentr kao zadani preglednik</translation>
 <translation id="6266342355635466082">Decentr ne može provjeravati ima li ažuriranja. Predlažemo da provjerite internetsku vezu.</translation>
 <translation id="6268381023930128611">Odjaviti se iz Decentra?</translation>
@@ -190,7 +180,7 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="6334986366598267305">Sada je lakše koristiti Decentr s vašim Google računom i na dijeljenim računarima.</translation>
 <translation id="6373523479360886564">Jeste li sigurni da želite deinstalirati Decentr?</translation>
 <translation id="6403826409255603130">Decentr je novi preglednik koji pokreće web stranice i aplikacije brzinom svjetlosti. On je brz, stabilan i jednostavan za upotrebu. Krećite se internetom u sigurnijem okruženju, zaštićeni od zlonamjernih softvera i krađe identiteta zahvaljujući elementima koji su ugrađeni u Decentr.</translation>
-<translation id="6434250628340475518">Sistem Chromium OS</translation>
+<translation id="6434250628340475518">Sistem Decentr OS</translation>
 <translation id="6455857529632101747">Dobro došli u Decentr profile</translation>
 <translation id="6457450909262716557">{SECONDS,plural, =1{Decentr će se ponovo pokrenuti za 1 sekundu}one{Decentr će se ponovo pokrenuti za # sekundu}few{Decentr će se ponovo pokrenuti za # sekunde}other{Decentr će se ponovo pokrenuti za # sekundi}}</translation>
 <translation id="6475912303565314141">Također kontrolira koja stranica se prikazuje kada pokrenete Decentr.</translation>
@@ -205,6 +195,7 @@ Odobrenja koja ste već dali web lokacijama i aplikacijama se mogu primjenjivati
 <translation id="6717134281241384636">Ne možete koristiti profil jer pripada novijoj verziji Decentra.
 
 Moguće je da neke funkcije neće biti dostupne. Odredite drugi direktorij profila ili koristite noviju verziju Decentra.</translation>
+<translation id="6734080038664603509">Ažuriraj &amp;Decentr</translation>
 <translation id="6734291798041940871">Decentr je već instaliran za sve korisnike na računaru.</translation>
 <translation id="673636774878526923">Prijavite se, a zatim uključite sinhronizaciju da pristupite svojim Decentr stvarima na svim svojim uređajima.</translation>
 <translation id="6774082503108938489">Tvoj roditelj je isključio "Odobrenja za web lokacije, aplikacije i ekstenzije" za Decentr. Omogućavanje ove stavke (<ph name="EXTENSION_TYPE_PARAMETER" />) nije dozvoljeno.</translation>
@@ -220,11 +211,12 @@ uparivanjem. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" />
 <translation id="6990124437352146030">Decentr treba dopuštenje za pristup mikrofonu za ovu web-lokaciju</translation>
 <translation id="705851970750939768">Ažuriraj Decentr</translation>
 <translation id="7067091210845072982">Ako slika ne sadrži koristan opis, Decentr će ga pokušati pružiti. Slike se šalju Googleu radi kreiranja opisa.</translation>
+<translation id="7147279922647361552">Prilagodite neke od najvažnijih odabira privatnosti Decentra</translation>
 <translation id="718435575166326686">Decentru je za ovu web lokaciju potrebno odobrenje za kameru</translation>
 <translation id="7196312274710523067">Pokretanje Decentra nije uspjelo. Pokušajte ponovo.</translation>
 <translation id="7197677400338048821">Decentr ne može provjeravati vaše lozinke. Pokušajte ponovo za 24 sata.</translation>
-<translation id="7218568399872925918">Web lokacije koje posjetite pamte vaše podatke dok ne zatvorite Decentr</translation>
 <translation id="7223968959479464213">Upravitelj zadataka za Decentr</translation>
+<translation id="731644333568559921">Ažuriraj &amp;Decentr OS</translation>
 <translation id="731795002583552498">Ažuriranje Decentra</translation>
 <translation id="7318036098707714271">Vaš fajl s postavkama je oštećen ili nevažeći.
 
@@ -233,21 +225,17 @@ Decentr ne može vratiti vaše postavke.</translation>
 <translation id="7339898014177206373">Novi prozor</translation>
 <translation id="734373864078049451">Vaš web, oznake i ostali sadržaji s Decentra se nalaze ovdje.</translation>
 <translation id="7349591376906416160">Administrator sistema je konfigurirao Decentr da otvori preglednik <ph name="ALTERNATIVE_BROWSER_NAME" /> radi pristupa web lokaciji <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="7398989605938454041">S Decentr profilima možete odvojiti sve svoje Decentr stvari. Tako ćete lakše razdvojiti posao i zabavu.</translation>
-<translation id="7448255348454382571">Ponovo pokrenite Chromium OS</translation>
+<translation id="7448255348454382571">Ponovo pokrenite Decentr OS</translation>
 <translation id="7449453770951226939"><ph name="PAGE_TITLE" /> – Decentr Dev</translation>
 <translation id="7451052299415159299">Decentru treba odobrenje za pristup vašoj kameri na ovoj web lokaciji</translation>
-<translation id="7467949745582939695">Ponovo pokrenuti Decentr?</translation>
 <translation id="7483335560992089831">Nije moguće instalirati istu verziju Decentra koja je trenutno pokrenuta. Zatvorite Decentr i pokušajte ponovo.</translation>
 <translation id="753534427205733210">{0,plural, =1{Decentr će se ponovo pokrenuti za 1 minutu}one{Decentr će se ponovo pokrenuti za # minutu}few{Decentr će se ponovo pokrenuti za # minuta}other{Decentr će se ponovo pokrenuti za # minuta}}</translation>
 <translation id="7549178288319965365">O operativnom sistemu Decentr</translation>
 <translation id="7561906087460245826">Obriši i podatke iz Decentra (<ph name="URL" />)</translation>
 <translation id="7585853947355360626">Ako se postavka ne prikazuje na ovoj stranici, pogledajte u <ph name="LINK_BEGIN" />
-    postavkama Chromium OS-a<ph name="LINK_END" /></translation>
-<translation id="7597596667193879455">Uključili ste poboljšano Sigurno pregledanje na svom računu. Sada ga omogućite za Decentr.</translation>
+    postavkama Decentr OS-a<ph name="LINK_END" /></translation>
 <translation id="761356813943268536">Decentr koristi vašu kameru i mikrofon.</translation>
 <translation id="7617377681829253106">Decentr je sada još bolji</translation>
-<translation id="7682601070171973634">Decentr istražuje nove funkcije koje dozvoljavaju web lokacijama da pružaju isto iskustvo pregledanja korištenjem manje količine vaših podataka</translation>
 <translation id="7686590090926151193">Decentr nije vaš zadani preglednik</translation>
 <translation id="7689606757190482937">Sinhronizirajte i personalizirajte Decentr na svim uređajima</translation>
 <translation id="7729447699958282447">Decentr nije mogao sinhronizirati podatke zato što sinhronizacija nije dostupna u vašoj domeni.</translation>
@@ -257,20 +245,19 @@ Decentr ne može vratiti vaše postavke.</translation>
 <translation id="7828947555739565424">Decentr profil s ovim računom već postoji na ovom uređaju</translation>
 <translation id="7857220146454061152">Da primate buduća ažuriranja za Decentr, trebat će vam OS X 10.11 ili novija verzija. Ovaj računar koristi OS X 10.10.</translation>
 <translation id="7867198900892795913">Decentr nije ažuriran na najnoviju verziju tako da propuštate prednosti novih funkcija i ispravke sigurnosnih propusta.</translation>
-<translation id="788352880609666695">Sljedeći računi su dostupni za ovaj Decentr profil</translation>
-<translation id="7898472181347242998">Da vidite je li vaš uređaj ažuriran, idite u <ph name="LINK_BEGIN" />Postavke Chromium OS-a<ph name="LINK_END" /></translation>
-<translation id="7937630085815544518">Bili ste prijavljeni na Chrome kao <ph name="USER_EMAIL_ADDRESS" />. Koristite isti račun da se ponovo prijavite.</translation>
+<translation id="7898472181347242998">Da vidite je li vaš uređaj ažuriran, idite u <ph name="LINK_BEGIN" />Postavke Decentr OS-a<ph name="LINK_END" /></translation>
+<translation id="7937630085815544518">Bili ste prijavljeni na Decentr kao <ph name="USER_EMAIL_ADDRESS" />. Koristite isti račun da se ponovo prijavite.</translation>
 <translation id="7975919845073681630">Ovo je sekundarno instaliranje Decentra i stoga on ne može biti vaš zadani preglednik.</translation>
 <translation id="8013436988911883588">Kada Decentr dobije pristup, web lokacije će vam moći zatražiti pristup.</translation>
+<translation id="8045118833343856403">Sljedeći računi nisu prijavljeni na Decentr profile. Ako želite koristiti račun na drugom profilu, prvo uklonite taj profil.</translation>
 <translation id="8105840573057009683">Decentru je za ovu web lokaciju potrebno odobrenje za lokaciju</translation>
 <translation id="81770708095080097">Ovaj fajl je opasan pa ga je Decentr blokirao.</translation>
 <translation id="8248265253516264921">Ako slika ne sadrži koristan opis, Decentr će ga pokušati pružiti. Slike se šalju Googleu radi kreiranja opisa. To možete isključiti u postavkama kad god želite.</translation>
 <translation id="8266560134891435528">Decentr ne može provjeravati vaše lozinke jer niste prijavljeni</translation>
 <translation id="8276522524898344151">Decentr pokušava kopirati lozinke.</translation>
 <translation id="8290862415967981663">Ovaj fajl može biti opasan i zato ga je Decentr blokirao.</translation>
-<translation id="8330519371938183845">Prijavite se da sinhronizirate i personalizirate Chrome na svim svojim uređajima</translation>
+<translation id="8330519371938183845">Prijavite se da sinhronizirate i personalizirate Decentr na svim svojim uređajima</translation>
 <translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> je prethodno koristio/la Decentr</translation>
-<translation id="8357820681460164151">Prijavite se, a zatim uključite sinhronizaciju da pristupite svojim stvarima s Decentr preglednika na svim svojim uređajima</translation>
 <translation id="8417404458978023919">{0,plural, =1{Ponovo pokreni Decentr u roku od jednog dana}one{Ponovo pokreni Decentr u roku od # dana}few{Ponovo pokreni Decentr u roku od # dana}other{Ponovo pokreni Decentr u roku od # dana}}</translation>
 <translation id="8453117565092476964">Arhiva alata za instaliranje je oštećena ili nevažeća. Ponovo preuzmite Decentr.</translation>
 <translation id="8493179195440786826">Decentr nije ažuriran</translation>
@@ -282,17 +269,15 @@ Decentr ne može vratiti vaše postavke.</translation>
 <translation id="8621669128220841554">Instalacija nije uspjela zbog neodređene greške. Ponovo preuzmite Decentr.</translation>
 <translation id="8697124171261953979">Također kontrolira koja stranica će se prikazati kada pokrenete Decentr ili budete pretraživali iz višenamjenskog okvira.</translation>
 <translation id="8704119203788522458">Ovo je vaš Decentr</translation>
-<translation id="8713679423359107094">Kada zatvorite sve prozore Decentra, kolačići i podaci web lokacija se automatski brišu</translation>
-<translation id="8796443464227412154"><ph name="BEGIN_BOLD" />Odjavit ćete se s većine web lokacija<ph name="END_BOLD" /> kada zatvorite Decentr. Ako je sinhronizacija isključena, također ćete se <ph name="BEGIN_BOLD" />odjaviti s Googleovih usluga i Decentra<ph name="END_BOLD" />.</translation>
 <translation id="8796602469536043152">Decentr traži odobrenje za pristup vašoj kameri i mikrofonu na ovoj web lokaciji</translation>
-<translation id="8803635938069941624">Uslovi korištenja Chromium OS-a</translation>
+<translation id="8803635938069941624">Uslovi korištenja Decentr OS-a</translation>
 <translation id="8821041990367117597">Decentr nije mogao sinkronizirati podatke vašeg računa jer su pojedinosti prijave na račun zastarjele.</translation>
 <translation id="8862326446509486874">Nemate odgovarajuća prava za instalaciju na nivou sistema. Pokušajte ponovo pokrenuti instalaciju kao administrator.</translation>
 <translation id="8880203542552872219">Ako jeste, uredite sačuvanu lozinku u Decentru da se podudara s novom lozinkom.</translation>
 <translation id="8897323336392112261">Također kontrolira koja stranica se prikazuje kada pokrenete Decentr ili kada kliknete na dugme Početna stranica.</translation>
 <translation id="8907580949721785412">Decentr pokušava prikazati lozinke. Upišite Windows lozinku da ovo omogućite.</translation>
 <translation id="8941642502866065432">Nije moguće ažurirati Decentr</translation>
-<translation id="8974095189086268230">Chromium OS omogućava dodatni <ph name="BEGIN_LINK_CROS_OSS" />softver otvorenog koda<ph name="END_LINK_CROS_OSS" />.</translation>
+<translation id="8974095189086268230">Decentr OS omogućava dodatni <ph name="BEGIN_LINK_CROS_OSS" />softver otvorenog koda<ph name="END_LINK_CROS_OSS" />.</translation>
 <translation id="8986207147630327271">Dodajete radni profil na ovaj preglednik i dajte administratoru kontrolu samo nad radnim profilom.</translation>
 <translation id="9019929317751753759">Kako bi Decentr bio sigurniji, onemogućili smo sljedeću ekstenziju koja nije navedena na stranici <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i koja je dodana bez vašeg znanja.</translation>
 <translation id="9089354809943900324">Decentr nije ažuriran</translation>
@@ -302,9 +287,8 @@ Decentr ne može vratiti vaše postavke.</translation>
 <translation id="9158494823179993217">Vaš administrator sistema je konfigurirao Decentr da otvori alternativni preglednik za pristup URL-u<ph name="TARGET_URL_HOSTNAME" />.</translation>
 <translation id="9185526690718004400">Ponovo pokrenite da ažurirate &amp;Decentr</translation>
 <translation id="9190841055450128916">Decentr (mDNS-In)</translation>
-<translation id="9214764063801632699">Sistem Chromium OS</translation>
+<translation id="9214764063801632699">Sistem Decentr OS</translation>
 <translation id="93478295209880648">Decentr možda neće ispravno raditi jer više nije podržan na sistemima Windows XP ili Windows Vista</translation>
 <translation id="965162752251293939">Ko koristi Decentr?</translation>
-<translation id="967427899662692980">Odaberite maksimalnu sigurnost koju nudi Decentr</translation>
 <translation id="985602178874221306">Autori Decentra</translation>
 </translationbundle>

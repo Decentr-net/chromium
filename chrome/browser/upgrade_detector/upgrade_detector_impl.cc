@@ -72,11 +72,7 @@ constexpr auto kOutdatedBuildDetectorPeriod = base::Days(1);
 constexpr auto kOutdatedBuildAge = base::Days(7) * 8;
 
 constexpr bool ShouldDetectOutdatedBuilds() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  return true;
-#else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
   return false;
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
 // Check if one of the outdated simulation switches was present on the command

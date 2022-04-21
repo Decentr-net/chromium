@@ -44,7 +44,7 @@ STRING_IDS = [
 
 MODE_SPECIFIC_STRINGS = {
   'IDS_APP_SHORTCUTS_SUBDIR_NAME': {
-    'google_chrome': [
+    'decentr': [
       'IDS_APP_SHORTCUTS_SUBDIR_NAME',
       'IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA',
       'IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV',
@@ -55,7 +55,7 @@ MODE_SPECIFIC_STRINGS = {
     ],
   },
   'IDS_INBOUND_MDNS_RULE_DESCRIPTION': {
-    'google_chrome': [
+    'decentr': [
       'IDS_INBOUND_MDNS_RULE_DESCRIPTION',
       'IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA',
       'IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV',
@@ -66,7 +66,7 @@ MODE_SPECIFIC_STRINGS = {
     ],
   },
   'IDS_INBOUND_MDNS_RULE_NAME': {
-    'google_chrome': [
+    'decentr': [
       'IDS_INBOUND_MDNS_RULE_NAME',
       'IDS_INBOUND_MDNS_RULE_NAME_BETA',
       'IDS_INBOUND_MDNS_RULE_NAME_DEV',
@@ -81,7 +81,7 @@ MODE_SPECIFIC_STRINGS = {
   # place where this mapping matters), it is only used for mode-specific strings
   # such as the name of Chrome's shortcut.
   'IDS_PRODUCT_NAME': {
-    'google_chrome': [
+    'decentr': [
       'IDS_PRODUCT_NAME',
       'IDS_SHORTCUT_NAME_BETA',
       'IDS_SHORTCUT_NAME_DEV',

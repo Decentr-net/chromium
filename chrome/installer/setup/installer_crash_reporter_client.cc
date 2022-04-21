@@ -103,11 +103,7 @@ bool InstallerCrashReporterClient::IsRunningUnattended() {
 }
 
 bool InstallerCrashReporterClient::GetCollectStatsConsent() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   return GoogleUpdateSettings::GetCollectStatsConsent();
-#else
-  return false;
-#endif
 }
 
 bool InstallerCrashReporterClient::GetCollectStatsInSample() {
