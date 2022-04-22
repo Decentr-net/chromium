@@ -7,6 +7,8 @@
 #include "base/check.h"
 #include "base/feature_list.h"
 #include "base/metrics/histogram_macros.h"
+#include "base/strings/string_util.h"
+#include "base/strings/utf_string_conversions.h"
 #include "build/build_config.h"
 #include "chrome/browser/accuracy_tips/accuracy_service_factory.h"
 #include "chrome/browser/autocomplete/autocomplete_classifier_factory.h"
@@ -66,9 +68,13 @@ std::u16string
 ChromeLocationBarModelDelegate::FormattedStringWithEquivalentMeaning(
     const GURL& url,
     const std::u16string& formatted_url) const {
-  return AutocompleteInput::FormattedStringWithEquivalentMeaning(
-      url, formatted_url, ChromeAutocompleteSchemeClassifier(GetProfile()),
-      nullptr);
+  std::u16string new_formatted_url = AutocompleteInput::FormattedStringWithEquivalentMeaning(url, formatted_url, ChromeAutocompleteSchemeClassifier(GetProfile()), nullptr);
+  
+  if (url.SchemeIs("chrome"))
+  { 
+      base::ReplaceFirstSubstringAfterOffset(&new_formatted_url, 0, u"chrome://", u"decentr://");
+  }
+  return new_formatted_url;
 }
 
 bool ChromeLocationBarModelDelegate::GetURL(GURL* url) const {

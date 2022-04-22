@@ -23,6 +23,13 @@
 bool HandleChromeAboutAndChromeSyncRewrite(
     GURL* url,
     content::BrowserContext* browser_context) {
+
+  if (url->SchemeIs(content::kDecentrUIScheme)) {
+    GURL::Replacements replacements;
+    replacements.SetSchemeStr(content::kChromeUIScheme);
+    *url = url->ReplaceComponents(replacements);
+  }
+
   // Check that about: URLs are either
   // 1) fixed up to chrome: (by url_formatter::FixupURL applied to
   //    browser-initiated navigations)
@@ -34,6 +41,7 @@ bool HandleChromeAboutAndChromeSyncRewrite(
 
   // Only handle chrome: URLs.
   if (!url->SchemeIs(content::kChromeUIScheme))
+
     return false;
 
   std::string host(url->host());

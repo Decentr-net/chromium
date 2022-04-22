@@ -92,6 +92,25 @@ class BrowserNavigatorWebContentsAdoption {
   }
 };
 
+
+namespace {
+
+
+void UpdateBraveScheme(NavigateParams* params) {
+  if (params->url.SchemeIs(content::kDecentrUIScheme)) {
+    GURL::Replacements replacements;
+    replacements.SetSchemeStr(content::kChromeUIScheme);
+    params->url = params->url.ReplaceComponents(replacements);
+  }
+}
+
+
+}  // namespace
+
+#define BRAVE_ADJUST_NAVIGATE_PARAMS_FOR_URL           \
+  UpdateBraveScheme(params);                           
+
+
 namespace {
 
 // Returns true if |params.browser| exists and can open a new tab for
@@ -531,6 +550,7 @@ base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
     // Block any navigation requests in locked fullscreen mode.
     return nullptr;
   }
+  BRAVE_ADJUST_NAVIGATE_PARAMS_FOR_URL
 
   // Open System Apps in their standalone window if necessary.
   // TODO(crbug.com/1096345): Remove this code after we integrate with intent
@@ -822,7 +842,8 @@ base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
 bool IsHostAllowedInIncognito(const GURL& url) {
   std::string scheme = url.scheme();
   base::StringPiece host = url.host_piece();
-  if (scheme != content::kChromeUIScheme)
+  
+  if (scheme != content::kChromeUIScheme && scheme != content::kDecentrUIScheme)
     return true;
 
   if (host == chrome::kChromeUIChromeSigninHost) {

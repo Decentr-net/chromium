@@ -38,6 +38,8 @@ class AboutUIHTMLSource : public content::URLDataSource {
       const std::string& origin) override;
 
   // Send the response data.
+  void NotUsed() {}                    
+  std::string ChromeURLs() const; 
   void FinishDataRequest(const std::string& html,
                          content::URLDataSource::GotDataCallback callback);
 

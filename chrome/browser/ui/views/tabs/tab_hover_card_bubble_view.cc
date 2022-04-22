@@ -64,6 +64,7 @@
 #include "ui/views/style/typography.h"
 #include "ui/views/view_class_properties.h"
 #include "ui/views/widget/widget.h"
+#include "content/public/common/url_constants.h"
 
 #if BUILDFLAG(IS_WIN)
 #include "ui/base/win/shell.h"
@@ -949,6 +950,23 @@ void TabHoverCardBubbleView::UpdateCardContent(const Tab* tab) {
       }
       thumbnail_view_->SetRoundedCorners(corners, corner_radius_.value_or(0));
     }
+  }
+  BraveUpdateCardContent(tab);
+}
+
+void TabHoverCardBubbleView::BraveUpdateCardContent(const Tab* tab){
+  const std::u16string& domain = domain_label_->GetText();
+  const std::u16string kChromeUISchemeU16 =
+      base::ASCIIToUTF16(content::kChromeUIScheme);
+  // Replace chrome:// with brave://. Since this is purely in the UI we can
+  // just do a sub-string replacement instead of parsing into GURL.
+  if (base::StartsWith(domain, kChromeUISchemeU16,
+                       base::CompareCase::INSENSITIVE_ASCII)) {
+    std::u16string new_domain = domain;
+    base::ReplaceFirstSubstringAfterOffset(
+        &new_domain, 0ul, kChromeUISchemeU16,
+        base::ASCIIToUTF16(content::kDecentrUIScheme));
+    domain_label_->SetText(new_domain, /*is_filename*/ false);
   }
 }
 

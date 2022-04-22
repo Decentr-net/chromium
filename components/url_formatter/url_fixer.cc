@@ -37,6 +37,7 @@ namespace {
 
 // Hardcode these constants to avoid dependences on //chrome and //content.
 const char kChromeUIScheme[] = "chrome";
+//const char kDecentrUIScheme[] = "decentr";
 const char kDevToolsScheme[] = "devtools";
 const char kChromeUIDefaultHost[] = "version";
 const char kViewSourceScheme[] = "view-source";

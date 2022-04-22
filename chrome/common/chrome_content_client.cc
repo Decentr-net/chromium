@@ -333,6 +333,11 @@ void ChromeContentClient::AddAdditionalSchemes(Schemes* schemes) {
 #if BUILDFLAG(IS_ANDROID)
   schemes->local_schemes.push_back(url::kContentScheme);
 #endif
+  schemes->standard_schemes.push_back(content::kDecentrUIScheme);
+  schemes->secure_schemes.push_back(content::kDecentrUIScheme);
+  schemes->cors_enabled_schemes.push_back(content::kDecentrUIScheme);
+  schemes->savable_schemes.push_back(content::kDecentrUIScheme);
+
 }
 
 std::u16string ChromeContentClient::GetLocalizedString(int message_id) {
