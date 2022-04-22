@@ -1,6 +1,6 @@
 {
   "feed_page": {
-    "no_posts": "There is no activity last 24 hours",
+    "no_posts": "There hasn't been any activity for the last 24 hours",
     "top_posts": "Top posts"
   },
   "hub_adv_statistics": {
@@ -29,12 +29,10 @@
   "hub_header_stats_meta": {
     "dec": "DEC",
     "estimated_balance": "In progress: {{estimatedBalance}} PDV",
-    "pdv": "My PDV",
-    "short_view": "short view",
-    "show_details": "show details"
+    "pdv": "My PDV"
   },
   "hub_my_posts_page": {
-    "no_posts": "You have no posts created"
+    "no_posts": "You haven't created any posts"
   },
   "hub_navigation": {
     "latest_posts": "Latest Posts"
@@ -49,6 +47,12 @@
   "hub_infinite_posts_container": {
     "load_more_posts": "Load more posts",
     "loading_more_posts": "Loading more posts"
+  },
+  "hub_post_card": {
+    "link": {
+      "copy": "Copy post url",
+      "copy_notification": "Post url copied"
+    }
   },
   "hub_post_editor": {
     "category": {
@@ -74,14 +78,14 @@
       "errors": {
         "maxBytes": "The text limit reached",
         "maxImages": "The maximum count of images is {{max}}",
-        "minHtmlTextLength": "The text is too short, please, enter at least {{min}} characters",
+        "minHtmlTextLength": "The text is too short, please enter at least {{min}} characters",
         "required": "Text is required"
       },
       "placeholder": "Start your post with..."
     },
     "title": {
       "errors": {
-        "minlength": "The title is too short, please, enter at least {{requiredLength}} characters",
+        "minlength": "The title is too short, please enter at least {{requiredLength}} characters",
         "maxlength": "The maximum length of title is {{requiredLength}} characters",
         "required": "Title is required"
       },
@@ -103,11 +107,7 @@
     "cancel": "Cancel",
     "delete": "Delete",
     "delete_post": "Delete post",
-    "remove_post_title": "Remove post",
     "will_be_deleted": "Post will be deleted permanently and you won’t be able to recover it."
-  },
-  "hub_post_card": {
-    "remove_post": "Remove post"
   },
   "hub_profile_card": {
     "unknown_author": "Unknown author",
@@ -120,7 +120,7 @@
     "posted": "dposted"
   },
   "hub_following_page": {
-    "no_posts": "You didn't follow anyone or those you follow didn't create posts"
+    "no_posts": "You don't follow anyone, or those you follow haven't posted."
   },
   "hub_post_pdv": {
     "label": "PDV"
@@ -130,7 +130,16 @@
     "post_statistics": {
       "from": "from",
       "pdv": "Post PDV"
+    },
+    "link": {
+      "copy": "Copy post url",
+      "copy_notification": "Post url copied"
     }
+  },
+  "hub_posts_pdv_filter": {
+    "positive": "Positive PDV",
+    "positive_neutral": "Positive & Neutral",
+    "all": "All posts"
   },
   "hub_posts_page": {
     "no_posts": "There are no posts created",
@@ -174,7 +183,7 @@
     "delete": {
       "success": "Post has been removed successfully"
     },
-    "not_exists": "Current post is no longer available, because it breaks Decentr policy"
+    "not_exists": "Post removed due to breach of Decentr post policy."
   },
   "posts": {
     "new": "New post",

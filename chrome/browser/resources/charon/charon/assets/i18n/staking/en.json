@@ -43,23 +43,32 @@
       "website": "Website"
     },
     "delegated": "Delegated:",
-    "jailed": "This validator is currently being jailed!",
-    "title": "Validator details"
+    "jailed": "This validator is currently jailed!",
+    "title": "Validator details",
+    "unbonding_delegations": "Unbonding delegations will be completed {{ completionTime }}"
   },
   "validators_page": {
     "reward": "Reward",
     "show_only_active": "Only active validators",
     "title": "Validators",
+    "validators_rewards": "Validator's rewards",
     "withdraw": "Withdraw"
+  },
+  "validator_status": {
+    "1": "Unbonded",
+    "2": "Unbonding",
+    "3": "Bonded"
   },
   "validators_table": {
     "commission": "Commission",
     "delegated": "Delegated",
-    "jailed": "jailed",
+    "jailed": "Jailed",
+    "my_validator": "My validator",
     "operator_address": "Operator address",
     "status": "Status",
     "validator": "Validator",
-    "voting_power": "Voting power"
+    "voting_power": "Voting power",
+    "unbonding_delegations": "All unbonding delegations will be completed {{ completionTime }}"
   },
   "redelegate_page": {
     "actions": {
@@ -69,10 +78,10 @@
     "extended_errors": {
       "in_progress": {
         "title": "Redelegation to the source validator already in progress",
-        "text": "First redelegations to the source validator must complete before next redelegation.\nRedelegation will be available after:"
+        "text": "Redelegations to the source validator must complete before next redelegation.\nRedelegation will be available after:"
       },
       "limit": {
-        "title": "Limit of simultaneous redelegations is reached",
+        "title": "Limit of simultaneous redelegations has been reached",
         "text": "At least one redelegation to destination validator must complete before next redelegation.\nRedelegation will be available after:"
       }
     },
@@ -80,7 +89,7 @@
       "amount": {
         "errors": {
           "insufficient": "Insufficient funds",
-          "insufficientBalance": "Insufficient funds to pay fee",
+          "insufficientBalance": "Insufficient funds to pay the fee",
           "min": "Minimum value is {{ min }}",
           "pattern": "Incorrect amount format",
           "required": "Amount is required"
@@ -91,7 +100,7 @@
       },
       "to_validator": {
         "errors": {
-          "isValidator": "Please, choose a validator",
+          "isValidator": "Please choose a validator",
           "required": "Validator is required"
         },
         "commission": "Withdrawal commission",
@@ -111,7 +120,7 @@
     },
     "extended_errors": {
       "limit": {
-        "title": "Limit of simultaneous undelegations is reached",
+        "title": "Limit of simultaneous undelegations has been reached",
         "text": "At least one undelegation from this validator must complete before next undelegation.\nUndelegation will be available after:"
       }
     },
@@ -119,7 +128,7 @@
       "amount": {
         "errors": {
           "insufficient": "Insufficient funds",
-          "insufficientBalance": "Insufficient funds to pay fee",
+          "insufficientBalance": "Insufficient funds to pay the fee",
           "min": "Minimum value is {{ min }}",
           "pattern": "Incorrect amount format",
           "required": "Amount is required"
@@ -158,7 +167,27 @@
   },
   "withdraw_delegator_table": {
     "delegated": "Delegated",
-    "jailed": "jailed",
+    "jailed": "Jailed",
+    "no_rewards": "You haven't received any rewards yet",
+    "reward": "Reward",
+    "validator": "Validator"
+  },
+  "withdraw_validator_page": {
+    "actions": {
+      "withdraw": "Withdraw",
+      "withdraw_low_amount_hint": "Amount is too low to withdraw"
+    },
+    "fee": "Fee",
+    "notification": {
+      "success": "{{ amount }} {{ currencySymbol }} successfully withdrawn"
+    },
+    "title": "Withdraw validator's rewards",
+    "withdraw": "Withdraw"
+  },
+  "withdraw_validator_table": {
+    "delegated": "Delegated",
+    "jailed": "Jailed",
+    "no_rewards": "You haven't received any rewards yet",
     "reward": "Reward",
     "validator": "Validator"
   }

@@ -7,7 +7,7 @@
   },
   "assets_page": {
     "add_token": "Add token",
-    "no_transactions": "You have no transactions for selected token",
+    "no_transactions": "You have no transactions for the selected token",
     "send": "Send",
     "tokens": "Tokens",
     "transactions": "Transactions"
@@ -15,7 +15,12 @@
   "pdv_rate": {
     "estimated_balance": "In progress: {{estimatedBalance}} PDV",
     "no_pdv_rate": "You have no PDV Rate data",
-    "not_enough_pdv_rate": "Not enough data for the chart"
+    "not_enough_pdv_rate": "Not enough data for the chart",
+    "rewards": {
+      "time": "The PDV rewards will be given out at",
+      "pdv_reward": "PDV rewards",
+      "view_log": "View PDV rewards log"
+    }
   },
   "portal_navigation": {
     "activity": "Activity",
@@ -28,16 +33,36 @@
     "copy_wallet_address": "Copy wallet address",
     "wallet_address_copied": "The wallet address was copied successfully"
   },
+  "rewards_history": {
+    "actions": {
+      "close": "Close"
+    },
+    "table": {
+      "amount": "Amount",
+      "height": "Height",
+      "rewards_no_data": "You don't have rewards data yet.",
+      "title": "PDV rewards log",
+      "usd": "Amount, USD"
+    }
+  },
   "token_transactions_table": {
+    "composite_transaction": "Composite transaction",
+    "composite_tx": "Composite tx",
     "copy_tx": "Copy transaction hash",
+    "delegated": "Delegated",
     "fee": "Fee",
     "from": "From",
+    "height": "Height",
     "memo": "Memo",
     "open_link": "View on dExplorer",
     "received": "Received",
     "sent": "Sent",
+    "show_date_time": "Show date & time",
     "to": "To",
-    "wallet_address_copied": "The transaction hash was copied successfully"
+    "undelegated": "Undelegated",
+    "wallet_address_copied": "The transaction hash was copied successfully",
+    "withdraw": "Withdraw rewards",
+    "withdraw_validator": "Withdraw validator's rewards"
   },
   "transfer_page": {
     "cancel": "Cancel",
@@ -75,11 +100,11 @@
     "browse_securely_from": "Browse securely from",
     "browsing_securely_from": "Browsing securely from",
     "connection": {
-      "secured": "Your connection is secured!",
-      "insecure": "Now you browsing insecurely"
+      "secured": "Your connection is now secured.",
+      "insecure": "Your browsing is insecure."
     },
-    "firefox_hint": "To be able to enable proxy: open Firefox's extension settings and allow \"Run in Private Windows\".",
-    "unknown_browser": "We can't recognize your browser. Be sure you use Chrome or Firefox.",
+    "firefox_hint": "To be able to enable the proxy: open Firefox's extension settings and allow \"Run in Private Windows\".",
+    "unknown_browser": "We don't recognize your browser. Be sure you use Chrome or Firefox.",
     "status": {
       "off": "Off",
       "on": "On"

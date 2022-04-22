@@ -13,7 +13,7 @@
 <div id="warningSign"><a class="fa-icon" href="https://github.com/gorhill/uBlock/wiki/Strict-blocking" target="_blank" rel="noopener noreferrer">exclamation-triangle</a></div>
 
 <div>
-    <p data-i18n="docblockedPrompt1"></p>
+    <p>dBlock has prevented the following page from loading:</p>
     <div id="theURL" class="collapsed">
         <p class="code"><span></span><span><span class="fa-icon">zoom-in</span><span class="fa-icon">zoom-out</span></span></p>
         <ul id="parsed"></ul>
@@ -21,21 +21,21 @@
 </div>
 
 <div>
-    <p data-i18n="docblockedPrompt2"></p>
+    <p>Because of the following filter:</p>
     <p id="why" class="code"></p>
-    <p id="whyex" style="display: none;"><span data-i18n="docblockedFoundIn"></span> <span></span></p>
+    <p id="whyex" style="display: none;"><span>Found in:</span> <span></span></p>
     </div>
 
 <div>
-    <button id="back" class="preferred" data-i18n="docblockedBack" type="button"></button>
-    <button id="bye" class="preferred" data-i18n="docblockedClose" type="button"></button>
+    <button id="back" class="preferred" type="button">Go back</button>
+    <button id="bye" class="preferred" type="button">Close this window</button>
 </div>
 
 <div>
+    <p>Disable strict blocking for:</p>
     <p id="proceed"></p>
     <p class="proceedButtons">
-        <button id="proceedTemporary" data-i18n="docblockedDisableTemporary" type="button"></button>
-        <button id="proceedPermanent" data-i18n="docblockedDisablePermanent" type="button"></button>
+        <button id="proceedTemporary" type="button">Unblock temporarily</button>
     </p>
 </div>
 
@@ -60,7 +60,6 @@
 <script src="js/vapi-common.js"></script>
 <script src="js/vapi-client.js"></script>
 <script src="js/udom.js"></script>
-<script src="js/i18n.js"></script>
 <script src="js/document-blocked.js"></script>
 </body>
 </html>

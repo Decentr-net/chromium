@@ -1,10 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Charon",
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtkSEFjteWvhxiavWVoU6Mk3KDfPpJbBpQbVedqq0OMBzZBhMAek9pE1v++jL79v3GX/dhw9R2o5dpBHE6nl/Wp0GoGI+y2AVKdH3oToiZ37+/tBfeSbHoHQg7Arloje4p7073V3wQaOt+Rf3W8u860+trteWdupWl17uzqjytBWGDgsQUEGwsnDkwH8W5hRM7xXsuT34jveDCGnq67olHkTdXjyqWY3MWH6jJFtQQJ9BTvEbfYYsSnA76CjQUhs9DYIgJlWQnA7OQwEdVTKvCKpnqf5QM2IGxjGdMMfdVh66e/Ck06Sy8YiR15mH/pPNOZg143wBEcDNK2R83Htr1QIDAQAB",
   "description": "Charon Browser Extension",
   "author": "Decentr",
-  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "content_security_policy": "script-src 'self' 'wasm-eval' https://ssl.google-analytics.com https://beacon-v2.helpscout.net; object-src 'self'",
   "icons": {
     "16": "assets/icons/16.png",
     "32": "assets/icons/32.png",
@@ -28,13 +27,10 @@
     "clipboardWrite",
     "contextMenus",
     "cookies",
-    "proxy",
+    "management",
     "storage",
     "tabs",
-    "unlimitedStorage",
-    "<all_urls>",
-    "webRequest",
-    "webRequestBlocking"
+    "unlimitedStorage"
   ],
   "content_scripts": [
     {
@@ -48,6 +44,15 @@
       ],
       "run_at": "document_start",
       "all_frames": true
+    },
+    {
+      "js": [
+        "scripts/content-api-script.js"
+      ],
+      "matches": [
+        "*://*.decentr.net/*"
+      ],
+      "run_at": "document_start"
     }
   ],
   "background": {
@@ -56,5 +61,6 @@
     ]
   },
   "minimum_chrome_version": "58",
-  "version": "3.4.0"
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtkSEFjteWvhxiavWVoU6Mk3KDfPpJbBpQbVedqq0OMBzZBhMAek9pE1v++jL79v3GX/dhw9R2o5dpBHE6nl/Wp0GoGI+y2AVKdH3oToiZ37+/tBfeSbHoHQg7Arloje4p7073V3wQaOt+Rf3W8u860+trteWdupWl17uzqjytBWGDgsQUEGwsnDkwH8W5hRM7xXsuT34jveDCGnq67olHkTdXjyqWY3MWH6jJFtQQJ9BTvEbfYYsSnA76CjQUhs9DYIgJlWQnA7OQwEdVTKvCKpnqf5QM2IGxjGdMMfdVh66e/Ck06Sy8YiR15mH/pPNOZg143wBEcDNK2R83Htr1QIDAQAB",
+  "version": "4.2.0"
 }

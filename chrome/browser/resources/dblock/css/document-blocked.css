@@ -120,7 +120,6 @@ body[dir="rtl"] #theURL > p > span:last-of-type {
     flex-direction: column;
     }
 .proceedButtons > button {
-    margin-inline-end: var(--default-gap);
     margin-block-end: var(--default-gap-xsmall);
     }
 

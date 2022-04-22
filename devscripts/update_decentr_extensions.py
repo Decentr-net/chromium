@@ -1,24 +1,24 @@
 import os
- import os.path
- import shutil
- import sys
+import os.path
+import shutil
+import sys
 
 
- extensions_grd_filepath = "../chrome/browser/resources/component_extension_resources.grd"
- extensions_grd_filepath_bak = "../chrome/browser/resources/component_extension_resources.grd.bak"
+extensions_grd_filepath = "../chrome/browser/resources/component_extension_resources.grd"
+extensions_grd_filepath_bak = "../chrome/browser/resources/component_extension_resources.grd.bak"
 
- if os.path.isfile(extensions_grd_filepath_bak):
-   os.remove(extensions_grd_filepath_bak)
- shutil.copy2(extensions_grd_filepath, extensions_grd_filepath_bak)
+if os.path.isfile(extensions_grd_filepath_bak):
+  os.remove(extensions_grd_filepath_bak)
+shutil.copy2(extensions_grd_filepath, extensions_grd_filepath_bak)
 
 
- sys.argv = ['update_extension_ids.py', 'charon', 'IDR_CHARON']
- exec(open("./update_extension_ids.py").read())
+sys.argv = ['update_extension_ids.py', 'charon', 'IDR_CHARON']
+exec(open("./update_extension_ids.py").read())
 
 sys.argv = ['update_extension_ids.py', 'dvpn', 'IDR_DVPN']
 exec(open("./update_extension_ids.py").read())
 
- sys.argv = ['update_extension_ids.py', 'dblock', 'IDR_DBLOCK']
- exec(open("./update_extension_ids.py").read())
+sys.argv = ['update_extension_ids.py', 'dblock', 'IDR_DBLOCK']
+exec(open("./update_extension_ids.py").read())
 
- print("SUCCESS")
+print("SUCCESS")

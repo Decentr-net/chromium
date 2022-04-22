@@ -1,6 +1,5 @@
 import os
 import os.path
-import shutil
 import sys
 
 
@@ -59,7 +58,7 @@ for line in grd_file:
         filepath = filepath.replace('\\', '/')
     
         # Getting rid of unnecessary relative path part.
-        filepath = filepath.removeprefix("../chrome/browser/resources/")
+        #filepath = filepath.removeprefix("../chrome/browser/resources/")
         
         # Transforming to a necessary result.
         next_id_string = str(next_id)
