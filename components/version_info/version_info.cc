@@ -19,7 +19,7 @@ namespace version_info {
 
 const std::string& GetProductNameAndVersionForUserAgent() {
   static const base::NoDestructor<std::string> product_and_version(
-      "Chrome/" + GetVersionNumber());
+      "Chrome/" + GetVersionNumber() + " Decentr");
   return *product_and_version;
 }
 
