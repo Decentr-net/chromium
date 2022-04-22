@@ -31,7 +31,6 @@
 
 const char KeyStorageLinux::kFolderName[] = "Decentr Keys";
 const char KeyStorageLinux::kKey[] = "Decentr Safe Storage";
-#endif
 
 namespace {
 
