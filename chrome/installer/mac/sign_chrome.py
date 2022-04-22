@@ -47,9 +47,9 @@ def create_config(config_args, development):
                 # spctl assessment so don't do it.
                 return False
 
-            @property
-            def inject_get_task_allow_entitlement(self):
-                return True
+            #@property
+            #def inject_get_task_allow_entitlement(self):
+             #   return True
 
         config_class = DevelopmentCodeSignConfig
 
