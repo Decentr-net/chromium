@@ -138,7 +138,9 @@ const µBlock = (( ) => { // jshint ignore:line
             'vivaldi-scheme',
             'wyciwyg-scheme',   // Firefox's "What-You-Cache-Is-What-You-Get"
             'decentr.net',
-            'decentr.xyz'
+            'decentr.xyz',
+            'ping.pub',
+            'osmosis.zone',
         ],
 
         localSettings: {
