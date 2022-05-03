@@ -13,6 +13,7 @@ import("//build/util/lastchange.gni")
 import("//build/util/process_version.gni")
 import("//build/util/version.gni")
 import("//components/nacl/features.gni")
+import("//components/optimization_guide/features.gni")
 import("//third_party/angle/gni/angle.gni")
 import("//third_party/widevine/cdm/widevine.gni")
 import("//ui/gl/features.gni")
@@ -183,6 +184,73 @@ strip_binary("strip_chrome_binary") {
   deps = [ "//chrome" ]
 }
 
+strip_binary("strip_chrome_crashpad_handler") {
+  binary_input = "$root_out_dir/chrome_crashpad_handler"
+  deps = [ "//components/crash/core/app:chrome_crashpad_handler" ]
+}
+
+strip_binary("strip_chrome_crashpad_handler") {
+  binary_input = "$root_out_dir/chrome_crashpad_handler"
+  deps = [ "//components/crash/core/app:chrome_crashpad_handler" ]
+}
+
+strip_binary("strip_decentr_sandbox") {
+  binary_input = "$root_out_dir/decentr_sandbox"
+  deps = [ "//sandbox/linux:decentr_sandbox" ]
+}
+
+strip_binary("strip_libEGL_shlib") {
+  binary_input = "$root_out_dir/libEGL.so"
+  deps = [ "//third_party/angle:libEGL" ]
+}
+
+strip_binary("strip_libGLESv2_shlib") {
+  binary_input = "$root_out_dir/libGLESv2.so"
+  deps = [ "//third_party/angle:libGLESv2" ]
+}
+
+strip_binary("strip_libvulkan_shlib") {
+  binary_input = "$root_out_dir/libvulkan.so.1"
+  deps = [ "//third_party/vulkan-deps/vulkan-loader/src:libvulkan" ]
+}
+
+strip_binary("strip_swiftshader_libEGL_shlib") {
+  binary_input = "$root_out_dir/swiftshader/libEGL.so"
+  deps = [ "//third_party/swiftshader/src/OpenGL/libEGL:swiftshader_libEGL" ]
+}
+
+strip_binary("strip_swiftshader_libGLESv2_shlib") {
+  binary_input = "$root_out_dir/swiftshader/libGLESv2.so"
+  deps =
+      [ "//third_party/swiftshader/src/OpenGL/libGLESv2:swiftshader_libGLESv2" ]
+}
+
+strip_binary("strip_libvk_swiftshader.shlib") {
+  binary_input = "$root_out_dir/libvk_swiftshader.so"
+  deps = [ "//third_party/swiftshader/src/Vulkan:swiftshader_libvulkan" ]
+}
+
+if (enable_nacl) {
+  strip_binary("strip_nacl_helper") {
+    binary_input = "$root_out_dir/nacl_helper"
+    deps = [ "//components/nacl/loader:nacl_helper" ]
+  }
+
+  strip_binary("strip_nacl_helper_bootstrap") {
+    binary_input = "$root_out_dir/nacl_helper_bootstrap"
+    deps = [ "//native_client/src/trusted/service_runtime/linux:bootstrap" ]
+  }
+}
+
+if (build_with_internal_optimization_guide) {
+  strip_binary("strip_optimization_guide") {
+    binary_input = "$root_out_dir/liboptimization_guide_internal.so"
+    deps = [
+      "//components/optimization_guide/internal:optimization_guide_internal",
+    ]
+  }
+}
+
 # This target builds all "normal" Linux installers.  You must set
 # is_component_build=false before building this target.
 group("linux") {
@@ -318,6 +386,8 @@ group("installer_deps") {
     ":deb_packaging_files",
     ":save_build_info",
     ":strip_chrome_binary",
+    ":strip_chrome_crashpad_handler",
+    ":strip_decentr_sandbox",
     ":theme_files",
     "//chrome",
     "//chrome:packed_resources",
@@ -328,7 +398,8 @@ group("installer_deps") {
   if (enable_nacl) {
     public_deps += [
       "//components/nacl/loader:nacl_helper",
-
+      ":strip_nacl_helper",
+      ":strip_nacl_helper_bootstrap",
       # These are data_deps of nacl_helper, but that is not enough,
       # as explained above.
       "//native_client/src/trusted/service_runtime/linux:bootstrap",
@@ -340,15 +411,23 @@ group("installer_deps") {
   }
   if (use_egl) {
     public_deps += [
+      ":strip_libEGL_shlib",
+      ":strip_libGLESv2_shlib",
       "//third_party/angle:libEGL",
       "//third_party/angle:libGLESv2",
     ]
     if (angle_shared_libvulkan && !is_chromeos) {
-      public_deps += [ "//third_party/vulkan-deps/vulkan-loader/src:libvulkan" ]
+      public_deps += [
+        ":strip_libvulkan_shlib",
+        "//third_party/vulkan-deps/vulkan-loader/src:libvulkan",
+      ]
     }
   }
   if (enable_swiftshader) {
     public_deps += [
+      ":strip_libvk_swiftshader.shlib",
+      ":strip_swiftshader_libEGL_shlib",
+      ":strip_swiftshader_libGLESv2_shlib",
       ":swiftshader_libs",
       "//third_party/swiftshader/src/Vulkan:icd_file",
       "//third_party/swiftshader/src/Vulkan:swiftshader_libvulkan",
