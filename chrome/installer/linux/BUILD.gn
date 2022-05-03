@@ -189,11 +189,6 @@ strip_binary("strip_chrome_crashpad_handler") {
   deps = [ "//components/crash/core/app:chrome_crashpad_handler" ]
 }
 
-strip_binary("strip_chrome_crashpad_handler") {
-  binary_input = "$root_out_dir/chrome_crashpad_handler"
-  deps = [ "//components/crash/core/app:chrome_crashpad_handler" ]
-}
-
 strip_binary("strip_decentr_sandbox") {
   binary_input = "$root_out_dir/decentr_sandbox"
   deps = [ "//sandbox/linux:decentr_sandbox" ]
