@@ -291,11 +291,9 @@ color_utils::HSL ThemeProperties::GetDefaultTint(int id,
 SkColor ThemeProperties::GetDefaultColor(int id,
                                          bool incognito,
                                          bool dark_mode) {
-  if (incognito) {
     absl::optional<SkColor> incognito_color = GetIncognitoColor(id);
     if (incognito_color.has_value())
       return incognito_color.value();
-  }
   
   absl::optional<SkColor> dark_mode_color = GetDarkModeColor(id);
   if (dark_mode_color.has_value())
