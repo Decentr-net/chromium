@@ -152,7 +152,7 @@ absl::optional<SkColor> GetIncognitoColor(int id) {
     case ThemeProperties::COLOR_NTP_BACKGROUND:
     case ThemeProperties::COLOR_TAB_BACKGROUND_ACTIVE_FRAME_ACTIVE:
     case ThemeProperties::COLOR_TAB_BACKGROUND_ACTIVE_FRAME_INACTIVE:
-      return SkColorSetRGB(0x35, 0x36, 0x3A);
+      return SkColorSetRGB(0x35, 0x36, 0x3A);;
     case ThemeProperties::COLOR_HOVER_CARD_NO_PREVIEW_FOREGROUND:
       return gfx::kGoogleGrey700;
     case ThemeProperties::COLOR_HOVER_CARD_NO_PREVIEW_BACKGROUND:
@@ -291,13 +291,13 @@ color_utils::HSL ThemeProperties::GetDefaultTint(int id,
 SkColor ThemeProperties::GetDefaultColor(int id,
                                          bool incognito,
                                          bool dark_mode) {
-    absl::optional<SkColor> incognito_color = GetIncognitoColor(id);
+  if(incognito)
+  {absl::optional<SkColor> incognito_color = GetIncognitoColor(id);
     if (incognito_color.has_value())
       return incognito_color.value();
-  
-  absl::optional<SkColor> dark_mode_color = GetDarkModeColor(id);
-  if (dark_mode_color.has_value())
+  }
+    absl::optional<SkColor> dark_mode_color = GetDarkModeColor(id);
+    if (dark_mode_color.has_value())
     return dark_mode_color.value();
-  
   return GetLightModeColor(id);
 }

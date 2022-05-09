@@ -31,14 +31,15 @@
 namespace {
 
 bool IsDarkMode() {
+  /*
   if (@available(macOS 10.14, *)) {
     NSAppearanceName appearance =
         [[NSApp effectiveAppearance] bestMatchFromAppearancesWithNames:@[
           NSAppearanceNameAqua, NSAppearanceNameDarkAqua
         ]];
     return [appearance isEqual:NSAppearanceNameDarkAqua];
-  }
-  return false;
+  }*/
+  return true;
 }
 
 bool IsHighContrast() {
