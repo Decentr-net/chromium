@@ -344,7 +344,7 @@ std::string BuildUserAgentFromOSAndProduct(const std::string& os_info,
   // compatible with Safari, we hope!!
   std::string user_agent;
   base::StringAppendF(&user_agent,
-                      "Mozilla/5.0 (%s) AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Mozilla/5.0 (%s) Decentr AppleWebKit/537.36 (KHTML, like Gecko) "
                       "%s Safari/537.36",
                       os_info.c_str(), product.c_str());
   return user_agent;
