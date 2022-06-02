@@ -1,0 +1,21 @@
+[
+    {
+      "namespace": "decentr",
+      "description": "none",
+      "functions": [
+        {
+          "name": "get",
+          "description": "get",
+          "type": "function",
+          "parameters": [
+            {
+              "name": "name",
+              "type": "string",
+              "description": "name"
+            }
+          ]
+        }
+      ]
+    }
+]
+  

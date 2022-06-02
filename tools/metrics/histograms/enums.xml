@@ -31761,6 +31761,7 @@ Called by update_extension_histograms.py.-->
   <int value="1626" label="AUTOFILLPRIVATE_ADDVIRTUALCARD"/>
   <int value="1627" label="AUTOFILLPRIVATE_REMOVEVIRTUALCARD"/>
   <int value="1628" label="FILEMANAGERPRIVATE_LISTMOUNTABLEGUESTS"/>
+  <int value="1629" label="DECENTR_GET"/>
 </enum>
 
 <enum name="ExtensionIconState">
@@ -32388,6 +32389,7 @@ Called by update_extension_permission.py.-->
   <int value="235" label="kSpeechRecognitionPrivate"/>
   <int value="236" label="kChromeOSDiagnostics"/>
   <int value="237" label="kChromeOSTelemetrySerialNumber"/>
+  <int value="238" label="kDecentr"/>
 </enum>
 
 <enum name="ExtensionPointEnableState">
