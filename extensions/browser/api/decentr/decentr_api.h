@@ -6,7 +6,8 @@
 #include "extensions/browser/extension_function.h"
 
 namespace extensions {
-
+namespace api {
+  
 class DecentrGetFunction
     : public ExtensionFunction {
  public:
@@ -17,6 +18,19 @@ class DecentrGetFunction
 
   ResponseAction Run() override;
 };
+
+class DecentrSetFunction
+  : public ExtensionFunction {
+ public:
+  DECLARE_EXTENSION_FUNCTION("decentr.set", DECENTR_SET)
+
+ protected:
+  ~DecentrSetFunction() override {}
+
+  ResponseAction Run() override;
+};
+
+}  // namespace api
 }  // namespace extensions
 
 #endif  // EXTENSIONS_API_DECENTR_DECENTR_API_H_

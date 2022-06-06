@@ -1690,6 +1690,7 @@ enum HistogramValue {
   AUTOFILLPRIVATE_REMOVEVIRTUALCARD = 1627,
   FILEMANAGERPRIVATE_LISTMOUNTABLEGUESTS = 1628,
   DECENTR_GET = 1629,
+  DECENTR_SET = 1630,
   // Last entry: Add new entries above, then run:
   // tools/metrics/histograms/update_extension_histograms.py
   ENUM_BOUNDARY

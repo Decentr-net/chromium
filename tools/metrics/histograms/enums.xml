@@ -31762,6 +31762,7 @@ Called by update_extension_histograms.py.-->
   <int value="1627" label="AUTOFILLPRIVATE_REMOVEVIRTUALCARD"/>
   <int value="1628" label="FILEMANAGERPRIVATE_LISTMOUNTABLEGUESTS"/>
   <int value="1629" label="DECENTR_GET"/>
+  <int value="1630" label="DECENTR_SET"/>
 </enum>
 
 <enum name="ExtensionIconState">
