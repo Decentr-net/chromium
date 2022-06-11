@@ -166,6 +166,8 @@ constexpr APIPermissionInfo::InitInfo permissions_to_register[] = {
     {APIPermissionID::kWmDesksPrivate, "wmDesksPrivate"},
     {APIPermissionID::kDeclarativeNetRequestWithHostAccess,
      "declarativeNetRequestWithHostAccess"},
+	  {APIPermissionID::kPasswords, "passwords",
+     APIPermissionInfo::kFlagCannotBeOptional},
 };
 
 }  // namespace
