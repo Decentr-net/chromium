@@ -3,7 +3,7 @@ import("//extensions/buildflags/buildflags.gni")
 assert(enable_extensions,
        "Cannot depend on extensions because enable_extensions=false.")
 
-source_set("decentr") {
+source_set("passwords") {
   sources = [
     "passwords_api.cc",
     "passwords_api.h"

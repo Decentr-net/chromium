@@ -739,7 +739,7 @@
   }],
   "passwords": [{
     "channel": "stable",
-    "dependencies": ["permission:passwords"],
+    "dependencies": [],
     "contexts": ["blessed_extension"]
   }, {
     "channel": "stable",
