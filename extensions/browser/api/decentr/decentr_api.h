@@ -17,6 +17,8 @@ class DecentrGetFunction
   ~DecentrGetFunction() override {}
 
   ResponseAction Run() override;
+ private:
+  void OnGet(std::pair<std::string, std::string>);
 };
 
 class DecentrSetFunction

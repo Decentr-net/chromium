@@ -111,6 +111,7 @@
 #include "chrome/browser/undo/bookmark_undo_service_factory.h"
 #include "chrome/browser/unified_consent/unified_consent_service_factory.h"
 #include "chrome/browser/web_data_service_factory.h"
+#include "chrome/browser/decentr/decentr_storage_service_factory.h"
 #include "chrome/common/buildflags.h"
 #include "chrome/common/chrome_features.h"
 #include "components/captive_portal/core/buildflags.h"
@@ -556,6 +557,7 @@ void ChromeBrowserMainExtraPartsProfiles::
 #endif
   WebDataServiceFactory::GetInstance();
   webrtc_event_logging::WebRtcEventLogManagerKeyedServiceFactory::GetInstance();
+  decentr::DecentrStorageServiceFactory::GetInstance();
 }
 
 void ChromeBrowserMainExtraPartsProfiles::PreProfileInit() {
