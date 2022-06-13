@@ -7,6 +7,8 @@
 #include "chrome/browser/password_manager/password_store_factory.h"
 #include "components/password_manager/core/browser/ui/saved_passwords_presenter.h"
 #include "components/keyed_service/core/service_access_type.h"
+#include "components/password_manager/core/browser/form_parsing/form_parser.h"
+#include "components/password_manager/core/browser/password_manager_util.h"
 
 namespace extensions {
 namespace api {
@@ -41,11 +43,8 @@ ExtensionFunction::ResponseAction PasswordsAddFunction::Run() {
   password_manager::PasswordForm password_form;
   password_form.username_value = username_value;
   password_form.password_value = password_value;
-  password_form.url = GURL("https://account.mail.ru/login/");
-  password_form.action = GURL("https://auth.mail.ru/cgi-bin/auth");
-  password_form.signon_realm = "https://account.mail.ru/";
-  password_form.username_element = u"username";
-  password_form.password_element = u"password";
+  password_form.url = password_manager_util::StripAuthAndParams(password_manager_util::ConstructGURLWithScheme(params->data.url));
+  password_form.signon_realm = password_manager::GetSignonRealm(password_form.url);
   spp.AddPassword(password_form);
     
   return RespondNow(NoArguments());
