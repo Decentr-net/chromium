@@ -3,18 +3,18 @@
     "namespace": "decentr",
     "description": "Decentr local storage",
     "events": [
-    {
-      "name": "onChanged",
-      "type": "function",
-      "description": "Fired when data is changed",
-      "parameters": [
       {
-        "name": "key",
-        "type": "string",
-        "description": "Changed key"
+        "name": "onChanged",
+        "type": "function",
+        "description": "Fired when data is changed",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "string",
+            "description": "Changed key"
+          }
+        ]
       }
-      ]
-    }
     ],
     "functions": [
       {
@@ -28,19 +28,19 @@
             "description": "key"
           },
           {
-            "name":"callback",
+            "name": "callback",
             "type": "function",
             "parameters": [
               {
                 "name": "data",
-                "type":"object",
+                "type": "object",
                 "properties": {
                   "key": {
-                    "type":"string"
+                    "type": "string"
                   },
                   "value": {
                     "type": "string"
-                  }     
+                  }
                 }
               }
             ]
@@ -50,18 +50,18 @@
       {
         "name": "set",
         "description": "Set value by key",
-        "type":"function",
-        "parameters":[
+        "type": "function",
+        "parameters": [
           {
             "name": "data",
             "type": "object",
             "properties": {
               "key": {
-                "type":"string"
+                "type": "string"
               },
               "value": {
                 "type": "string"
-              }   
+              }
             }
           }
         ]
@@ -69,4 +69,3 @@
     ]
   }
 ]
-  

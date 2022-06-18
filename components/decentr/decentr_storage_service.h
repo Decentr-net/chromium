@@ -10,7 +10,7 @@
 #include "sql/statement.h"
 
 namespace decentr {
-
+  
 class DecentrStorageService : public KeyedService {
  public:
   explicit DecentrStorageService(const base::FilePath& db_path) {
