@@ -1,8 +1,7 @@
 #include "extensions/browser/api/passwords/passwords_api.h"
-#include "out/release/gen/extensions/common/api/passwords.h"
+#include "extensions/browser/api/passwords/passwords.h"
+//#include "out/release/gen/extensions/common/api/passwords.h"
 #include <memory>
-#include <codecvt>
-#include <locale>
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/password_manager/password_store_factory.h"
 #include "components/password_manager/core/browser/ui/saved_passwords_presenter.h"
@@ -34,20 +33,18 @@ ExtensionFunction::ResponseAction PasswordsAddFunction::Run() {
   password_manager::SavedPasswordsPresenter spp(store);
   spp.Init();
  
-  std::wstring_convert<std::codecvt_utf8_utf16<char16_t>, char16_t> convert;
-  std::string password = params->data.password;
-  std::u16string password_value = convert.from_bytes(password);
-  std::string username = params->data.username;
-  std::u16string username_value = convert.from_bytes(username);
-
   password_manager::PasswordForm password_form;
-  password_form.username_value = username_value;
-  password_form.password_value = password_value;
+  password_form.username_value = base::UTF8ToUTF16(params->data.username);
+  password_form.password_value = base::UTF8ToUTF16(params->data.password);
   password_form.url = password_manager_util::StripAuthAndParams(password_manager_util::ConstructGURLWithScheme(params->data.url));
   password_form.signon_realm = password_manager::GetSignonRealm(password_form.url);
-  spp.AddPassword(password_form);
-    
-  return RespondNow(NoArguments());
+  password_form.type = password_manager::PasswordForm::Type::kManuallyAdded;
+  bool success = spp.AddPassword(password_form);
+  if (success)
+    return RespondNow(
+        OneArgument(base::Value("Password is added successfully.")));
+  else
+    return RespondNow(OneArgument(base::Value("Incorrect parametrs!")));
   
 }
 
