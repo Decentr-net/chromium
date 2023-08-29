@@ -1,0 +1,34 @@
+2023-08-28 17:35:54.954 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/8A024DC5-ABF1-4F1A-BA8E-B5BB8A9E6BF6/Library/Caches/Logs/sync.20230828T173554-0500.log
+2023-08-28 17:35:54.955 [Info] [RollingFileLogger.swift:46] newLogWithDate(_:) > Created file destination for logger with root: sync and timestamp: 2023-08-28 22:35:54 +0000
+2023-08-28 17:35:54.959 [Debug] [Profile.swift:261] init(localName:syncDelegate:clear:) > Initing profile profile on thread <_NSMainThread: 0x28253c1c0>{number = 1, name = main}.
+2023-08-28 17:35:54.961 [Info] [BrowserSchema.swift:159] init() > SQLite version: 3.31.0 (3031000).
+2023-08-28 17:35:54.961 [Debug] [BrowserDB.swift:23] init(filename:schema:files:) > Initializing BrowserDB: browser.db.
+2023-08-28 17:35:54.962 [Debug] [BrowserDB.swift:23] init(filename:schema:files:) > Initializing BrowserDB: ReadingList.db.
+2023-08-28 17:35:54.966 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][rc_log_ffi::ios] rc_log adapter initialized!
+2023-08-28 17:35:54.974 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] fetching experiments
+2023-08-28 17:35:54.977 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus::persistence] Already at version 2, no upgrade needed
+2023-08-28 17:35:54.980 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] updating experiment list
+2023-08-28 17:35:54.981 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] [Nimbus] Retrieved date from Context: 2023-08-28 11:29:43 UTC
+2023-08-28 17:35:54.981 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] [Nimbus] Installation Date: 2023-08-28 11:29:43 UTC
+2023-08-28 17:35:54.981 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] [Nimbus] Update Date: 2023-08-28 12:59:07.685571 UTC
+2023-08-28 17:35:54.981 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] [Nimbus] Days since install: 0
+2023-08-28 17:35:54.981 [Info] [Profile.swift:309] init(localName:syncDelegate:clear:) > [RUST][nimbus] [Nimbus] Days since update: 0
+2023-08-28 17:35:55.501 [Debug] [Profile.swift:366] _reopen() > Reopening profile.
+2023-08-28 17:35:55.533 [Warning] [Profile.swift:311] init(localName:syncDelegate:clear:) > [RUST][logins::schema] user_version: 1
+2023-08-28 17:35:55.566 [Debug] [SwiftData.swift:456] init(filename:flags:schema:files:) > Opening connection to /private/var/mobile/Containers/Shared/AppGroup/F63D8952-E124-4C9B-8E89-0DC2B68DCE33/profile.profile/browser.db.
+2023-08-28 17:35:55.570 [Info] [SwiftData.swift:617] prepareCleartext() > Enabling WAL mode.
+2023-08-28 17:35:55.577 [Debug] [SwiftData.swift:724] prepareSchema() > Schema BROWSER already exists at version 40. Skipping additional schema preparation.
+2023-08-28 17:35:55.577 [Debug] [SwiftData.swift:496] init(filename:flags:schema:files:) > Database successfully created or updated.
+2023-08-28 17:35:58.251 [Error] [Profile.swift:314] init(localName:syncDelegate:clear:) > [RUST][places::error] URL parse error: relative URL without a base
+2023-08-28 17:35:59.550 [Error] [Profile.swift:314] init(localName:syncDelegate:clear:) > [RUST][places::error] URL parse error: relative URL without a base
+2023-08-28 17:36:00.680 [Debug] [SwiftData.swift:456] init(filename:flags:schema:files:) > Opening connection to /private/var/mobile/Containers/Shared/AppGroup/F63D8952-E124-4C9B-8E89-0DC2B68DCE33/profile.profile/browser.db.
+2023-08-28 17:36:00.681 [Info] [SwiftData.swift:617] prepareCleartext() > Enabling WAL mode.
+2023-08-28 17:36:00.685 [Debug] [SwiftData.swift:710] prepareSchema() > Skipping schema (BROWSER) preparation for read-only connection.
+2023-08-28 17:36:00.686 [Debug] [SwiftData.swift:496] init(filename:flags:schema:files:) > Database successfully created or updated.
+2023-08-28 17:37:28.455 [Debug] [Profile.swift:379] _shutdown() > Shutting down profile.
+2023-08-28 17:37:28.455 [Debug] [SwiftData.swift:548] deinit > deinit: closing connection on thread <_NSMainThread: 0x28253c1c0>{number = 1, name = main}.
+2023-08-28 17:37:28.456 [Debug] [SwiftData.swift:986] closeCustomConnection(immediately:) > Closing custom connection for /private/var/mobile/Containers/Shared/AppGroup/F63D8952-E124-4C9B-8E89-0DC2B68DCE33/profile.profile/browser.db on <_NSMainThread: 0x28253c1c0>{number = 1, name = main}.
+2023-08-28 17:37:28.456 [Debug] [SwiftData.swift:1018] closeCustomConnection(immediately:) > Closed /private/var/mobile/Containers/Shared/AppGroup/F63D8952-E124-4C9B-8E89-0DC2B68DCE33/profile.profile/browser.db.
+2023-08-28 17:37:28.457 [Debug] [SwiftData.swift:548] deinit > deinit: closing connection on thread <_NSMainThread: 0x28253c1c0>{number = 1, name = main}.
+2023-08-28 17:37:28.457 [Debug] [SwiftData.swift:986] closeCustomConnection(immediately:) > Closing custom connection for /private/var/mobile/Containers/Shared/AppGroup/F63D8952-E124-4C9B-8E89-0DC2B68DCE33/profile.profile/browser.db on <_NSMainThread: 0x28253c1c0>{number = 1, name = main}.
+2023-08-28 17:37:28.457 [Debug] [SwiftData.swift:1018] closeCustomConnection(immediately:) > Closed /private/var/mobile/Containers/Shared/AppGroup/F63D8952-E124-4C9B-8E89-0DC2B68DCE33/profile.profile/browser.db.
