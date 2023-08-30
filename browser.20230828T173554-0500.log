@@ -1,0 +1,29 @@
+2023-08-28 17:35:54.957 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/8A024DC5-ABF1-4F1A-BA8E-B5BB8A9E6BF6/Library/Caches/Logs/browser.20230828T173554-0500.log
+2023-08-28 17:35:54.957 [Info] [RollingFileLogger.swift:46] newLogWithDate(_:) > Created file destination for logger with root: browser and timestamp: 2023-08-28 22:35:54 +0000
+2023-08-28 17:35:54.970 [Error] [Experiments.swift:105] Experiments > No Nimbus URL found in Info.plist
+2023-08-28 17:35:54.970 [Info] [AppDelegate+Experiments.swift:33] initializeExperiments() > Nimbus: Loading from experiments from bundle, with no URL
+2023-08-28 17:35:54.973 [Info] [Experiments.swift:178] Experiments > Nimbus is now available!
+2023-08-28 17:35:54.973 [Info] [Experiments.swift:218] intialize(_:) > Nimbus is initializing!
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-BoldItalic.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-Medium.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-SemiBold.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-Italic.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-Bold.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-Book.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-Light.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-UltraLight.ttf'
+2023-08-28 17:35:54.975 [Warning] [WebServer.swift:75] registerMainBundleResourcesOfType(_:module:) > Unable to locate resource at path: '/private/var/containers/Bundle/Application/97BAE788-F7CE-4E1E-BC5A-DFE3C279F103/Decentr Browser.app/FiraSans-Regular.ttf'
+2023-08-28 17:35:55.026 [Info] [AppDelegate.swift:158] startApplication(_:withLaunchOptions:) > startApplication end
+2023-08-28 17:35:55.037 [Debug] [AdjustHelper.swift:46] getConfig() > Adjust - Not enabling Adjust; Not configured in Info.plist
+2023-08-28 17:35:55.454 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 3446
+2023-08-28 17:35:56.554 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4023
+2023-08-28 17:35:58.209 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4023
+2023-08-28 17:35:58.251 [Debug] [SentryIntegration.swift:193] printMessage(message:extra:) > Sentry: [RUST][places::error] URL parse error: relative URL without a base 
+2023-08-28 17:35:59.549 [Debug] [SentryIntegration.swift:193] printMessage(message:extra:) > Sentry: [RUST][places::error] URL parse error: relative URL without a base 
+2023-08-28 17:35:59.659 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4010
+2023-08-28 17:36:00.334 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4432
+2023-08-28 17:36:40.282 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4406
+2023-08-28 17:36:40.469 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4463
+2023-08-28 17:36:40.752 [Info] [ReaderMode.swift:324] handleReaderContentParsed(_:) > ReaderMode: Readability result available!
+2023-08-28 17:36:41.277 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4463
+2023-08-28 17:37:28.574 [Debug] [TabManagerStore.swift:107] preserveTabs(_:selectedTab:writeCompletion:) > PreserveTabs write ok: true, bytes: 4463

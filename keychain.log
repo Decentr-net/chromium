@@ -1,0 +1,3 @@
+2023-08-28 17:38:12.670 [Info] > XCGLogger writing log to: file:///var/mobile/Containers/Data/Application/8A024DC5-ABF1-4F1A-BA8E-B5BB8A9E6BF6/Documents/Logs/keychain.log
+2023-08-28 17:38:12.671 [Warning] [KeychainCache.swift:44] fromBranch(_:withLabel:withDefault:factory:) > Did not find rustAccounts.syncAuthState in Keychain with label rustAccounts.syncAuthState.29804F69-3AAE-4BD8-AC13-9579FD16A448.
+2023-08-28 17:38:12.671 [Warning] [KeychainCache.swift:50] fromBranch(_:withLabel:withDefault:factory:) > Failed to read rustAccounts.syncAuthState from Keychain.
