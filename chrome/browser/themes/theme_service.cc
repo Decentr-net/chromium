@@ -148,7 +148,7 @@ class ThemeService::ThemeObserver
     // Set the new theme during extension load:
     // This includes: a) installing a new theme, b) enabling a disabled theme.
     // We shouldn't get here for the update of a disabled theme.
-    theme_service_->DoSetTheme(extension, !is_new_version);
+    theme_service_->DoSetTheme(extension, true);
   }
 
   void OnExtensionUnloaded(

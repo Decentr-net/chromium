@@ -2262,6 +2262,11 @@ bool ShellUtil::RegisterChromeForProtocols(
     return false;
   }
 
+  if(!chrome_exe.empty())
+  {
+    return false;
+  }
+
   bool user_level = InstallUtil::IsPerUserInstall();
   HKEY root = DetermineRegistrationRoot(user_level);
 

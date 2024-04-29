@@ -500,11 +500,6 @@ void BuildProfileTitleAndSubtitle(Browser* browser,
         views::style::STYLE_HEADLINE_4));
   }
 
-  if (!subtitle.empty()) {
-    profile_titles_container->AddChildView(std::make_unique<views::Label>(
-        subtitle, views::style::CONTEXT_LABEL, views::style::STYLE_BODY_3));
-  }
-
   if (base::FeatureList::IsEnabled(features::kEnterpriseProfileBadging) &&
       !management_label.empty()) {
     auto link = std::make_unique<views::Link>(management_label,

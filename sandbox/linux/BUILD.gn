@@ -288,7 +288,7 @@ if (is_android) {
 
 if (is_linux || is_chromeos) {
   # The setuid sandbox for Linux.
-  executable("chrome_sandbox") {
+  executable("decentr_sandbox") {
     sources = [
       "suid/common/sandbox.h",
       "suid/common/suid_unsafe_environment_variables.h",

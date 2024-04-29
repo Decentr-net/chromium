@@ -31,11 +31,7 @@
 namespace {
 
 bool IsDarkMode() {
-  NSAppearanceName appearance =
-      [NSApp.effectiveAppearance bestMatchFromAppearancesWithNames:@[
-        NSAppearanceNameAqua, NSAppearanceNameDarkAqua
-      ]];
-  return [appearance isEqual:NSAppearanceNameDarkAqua];
+  return true;
 }
 
 bool PrefersReducedTransparency() {

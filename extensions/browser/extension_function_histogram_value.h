@@ -1951,6 +1951,8 @@ enum HistogramValue {
   WEBSTOREPRIVATE_GETMV2DEPRECATIONSTATUS = 1889,
   PERMISSIONS_ADDSITEACCESSREQUEST = 1890,
   PERMISSIONS_REMOVESITEACCESSREQUEST = 1891,
+  DECENTR_GET = 1892,
+  DECENTR_SET = 1893,
   // Last entry: Add new entries above, then run:
   // tools/metrics/histograms/update_extension_histograms.py
   ENUM_BOUNDARY

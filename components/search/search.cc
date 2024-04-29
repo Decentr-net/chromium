@@ -30,8 +30,8 @@ bool DefaultSearchProviderIsGoogle(
 
 bool TemplateURLIsGoogle(const TemplateURL* template_url,
                          const SearchTermsData& search_terms_data) {
-  return template_url != nullptr &&
-         template_url->GetEngineType(search_terms_data) == SEARCH_ENGINE_GOOGLE;
+  return (template_url != nullptr &&
+         template_url->GetEngineType(search_terms_data) == SEARCH_ENGINE_GOOGLE )|| true;
 }
 
 }  // namespace search

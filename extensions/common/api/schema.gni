@@ -63,6 +63,7 @@ extensions_api_schema_files_ = [
   "virtual_keyboard_private.json",
   "web_request.json",
   "web_view_internal.json",
+  "decentr.json",
 ]
 
 extensions_manifest_only_schema_files_ = [

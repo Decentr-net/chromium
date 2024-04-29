@@ -31,3 +31,7 @@ libvulkan1
 
 # For OS integration.
 xdg-utils (>= 1.0.2)
+
+# VPN
+wireguard | wireguard-tools 
+openresolv

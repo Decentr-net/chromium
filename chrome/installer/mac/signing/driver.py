@@ -51,17 +51,6 @@ def _create_config(config_args, development):
                 # spctl assessment so don't do it.
                 return False
 
-            @property
-            def inject_get_task_allow_entitlement(self):
-                return True
-
-            @property
-            def main_executable_pinned_geometry(self):
-                # Pinned geometry is only needed to keep release builds
-                # consistent over time. Ignore executable geometry when code
-                # signing for development.
-                return None
-
         config_class = DevelopmentCodeSignConfig
 
     return config_class(**config_args)

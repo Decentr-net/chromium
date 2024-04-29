@@ -35,47 +35,8 @@
     <settings-animated-pages id="pages" section="appearance"
         focus-config="[[focusConfig_]]">
       <div route-path="default">
-        <div class="settings-row first" id="themeRow"
-            hidden="[[!pageVisibility.setTheme]]">
-          <cr-link-row class="first" hidden="[[!pageVisibility.setTheme]]"
-              label="$i18n{themes}" sub-label="[[themeSublabel_]]"
-              on-click="openThemeUrl_" external></cr-link-row>
-<if expr="not is_linux">
-          <template is="dom-if" if="[[prefs.extensions.theme.id.value]]">
-            <div class="separator"></div>
-            <cr-button id="useDefault" on-click="onUseDefaultClick_">
-              $i18n{resetToDefaultTheme}
-            </cr-button>
-          </template>
-</if>
-<if expr="is_linux">
-          <div class="settings-row continuation"
-              hidden="[[!showThemesSecondary_(
-                  prefs.extensions.theme.id.value, systemTheme_)]]"
-              id="themesSecondaryActions">
-            <div class="separator"></div>
-            <template is="dom-if" if="[[showUseClassic_(
-                prefs.extensions.theme.id.value, systemTheme_)]]" restamp>
-              <cr-button id="useDefault" on-click="onUseDefaultClick_">
-                $i18n{useClassicTheme}
-              </cr-button>
-            </template>
-            <template is="dom-if" if="[[showUseGtk_(
-                prefs.extensions.theme.id.value, systemTheme_)]]" restamp>
-              <cr-button id="useGtk" on-click="onUseGtkClick_">
-                $i18n{useGtkTheme}
-              </cr-button>
-            </template>
-            <template is="dom-if" if="[[showUseQt_(
-                prefs.extensions.theme.id.value, systemTheme_)]]" restamp>
-              <cr-button id="useQt" on-click="onUseQtClick_">
-                $i18n{useQtTheme}
-              </cr-button>
-            </template>
-          </div>
-</if>
-        </div>
-        <div id="colorSchemeModeRow" class="cr-row">
+        <div id="colorSchemeModeRow" class="cr-row"
+            hidden$="[[!showColorSchemeMode_]]">
           <div id="colorSchemeModeLabel" class="flex cr-padded-text"
               aria-hidden="true">
             $i18n{colorSchemeMode}
