@@ -63,6 +63,7 @@
 #include "ui/views/style/typography.h"
 #include "ui/views/view_class_properties.h"
 #include "ui/views/widget/widget.h"
+#include "content/public/common/url_constants.h"
 
 namespace {
 
@@ -576,7 +577,25 @@ void TabHoverCardBubbleView::UpdateCardContent(const Tab* tab) {
     // We only clip the corners of the fade image when there isn't a footer.
     thumbnail_view_->SetRoundedCorners(!show_footer, corner_radius_);
   }
+  DecentrUpdateCardContent(tab);
 }
+
+void TabHoverCardBubbleView::DecentrUpdateCardContent(const Tab* tab){
+  const std::u16string& domain = domain_label_->GetText();
+  const std::u16string kChromeUISchemeU16 =
+      base::ASCIIToUTF16(content::kChromeUIScheme);
+  // Replace chrome:// with decetnr://. Since this is purely in the UI we can
+  // just do a sub-string replacement instead of parsing into GURL.
+  if (base::StartsWith(domain, kChromeUISchemeU16,
+                       base::CompareCase::INSENSITIVE_ASCII)) {
+    std::u16string new_domain = domain;
+    base::ReplaceFirstSubstringAfterOffset(
+        &new_domain, 0ul, kChromeUISchemeU16,
+        base::ASCIIToUTF16(content::kDecentrUIScheme));
+    domain_label_->SetData({new_domain, /*is_filename*/ false});
+  }
+}
+
 
 void TabHoverCardBubbleView::SetTextFade(double percent) {
   title_label_->SetFade(percent);

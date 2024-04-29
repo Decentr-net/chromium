@@ -608,12 +608,12 @@ export class AppElement extends AppElementBase {
   }
 
   private onOpenVoiceSearch_() {
-    this.showVoiceSearchOverlay_ = true;
+    this.showVoiceSearchOverlay_ = false;
     recordVoiceAction(VoiceAction.ACTIVATE_SEARCH_BOX);
   }
 
   private onOpenLensSearch_() {
-    this.showLensUploadDialog_ = true;
+    this.showLensUploadDialog_ = false;
   }
 
   private onCloseLensSearch_() {
@@ -676,7 +676,7 @@ export class AppElement extends AppElementBase {
     ctrlKeyPressed = ctrlKeyPressed || e.metaKey;
     // </if>
     if (ctrlKeyPressed && e.code === 'Period' && e.shiftKey) {
-      this.showVoiceSearchOverlay_ = true;
+      this.showVoiceSearchOverlay_ = false;
       recordVoiceAction(VoiceAction.ACTIVATE_KEYBOARD);
     }
   }

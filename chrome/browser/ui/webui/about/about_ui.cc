@@ -55,6 +55,9 @@
 #include "ui/base/resource/resource_bundle.h"
 #include "ui/base/webui/web_ui_util.h"
 #include "url/gurl.h"
+#include "base/containers/contains.h"
+#include "base/strings/string_split.h"
+#include "third_party/re2/src/re2/re2.h"
 
 #if !BUILDFLAG(IS_ANDROID)
 #include "chrome/browser/ui/webui/theme_source.h"
@@ -633,7 +636,7 @@ void AboutUIHTMLSource::StartDataRequest(
   std::string response;
   // Add your data source here, in alphabetical order.
   if (source_name_ == chrome::kChromeUIChromeURLsHost) {
-    response = ChromeURLs(profile_);
+    response = ChromeURLs();
   } else if (source_name_ == chrome::kChromeUICreditsHost) {
     int idr = IDR_ABOUT_UI_CREDITS_HTML;
     if (path == kCreditsJsPath)
@@ -738,6 +741,46 @@ AboutUI::AboutUI(content::WebUI* web_ui, const std::string& host)
 
   content::URLDataSource::Add(
       profile, std::make_unique<AboutUIHTMLSource>(host, profile));
+}
+
+std::string AboutUIHTMLSource::ChromeURLs() const {
+  std::string chrome_urls = ::ChromeURLs(profile_);
+  // Replace Chrome -> Decentr.
+  const std::string chrome_header = "Chrome URLs";
+  const std::string brave_header = "Decentr URLs";
+  const std::string chrome_pages_header = "List of Chrome URLs";
+  const std::string brave_pages_header = "List of Decentr URLs";
+  const std::string chrome_internal_pages_header =
+      "List of chrome://internals pages";
+  const std::string brave_internal_pages_header =
+      "List of Decentr://internals pages";
+  const std::string chrome_url_list = ">chrome://";
+  const std::string brave_url_list = ">Decentr://";
+  RE2::GlobalReplace(&chrome_urls, chrome_header, brave_header);
+  RE2::GlobalReplace(&chrome_urls, chrome_pages_header, brave_pages_header);
+  RE2::GlobalReplace(&chrome_urls, chrome_internal_pages_header,
+                     brave_internal_pages_header);
+  RE2::GlobalReplace(&chrome_urls, chrome_url_list, brave_url_list);
+  // Remove some URLs.
+  auto html_lines = base::SplitStringPiece(
+      chrome_urls, "\n", base::KEEP_WHITESPACE, base::SPLIT_WANT_ALL);
+  const base::flat_set<base::StringPiece> kURLsToRemove{
+      "Decentr://memories",
+  };
+  // URLs in html should be sorted so it's okay to iterate over sorted
+  // kURLsToRemove.
+  auto html_line_it = html_lines.begin();
+  auto url_to_remove_it = kURLsToRemove.begin();
+  while (html_line_it != html_lines.end() &&
+         url_to_remove_it != kURLsToRemove.end()) {
+    if (base::Contains(*html_line_it, *url_to_remove_it)) {
+      html_line_it = html_lines.erase(html_line_it);
+      ++url_to_remove_it;
+    } else {
+      ++html_line_it;
+    }
+  }
+  return base::JoinString(html_lines, "\n");
 }
 
 #if BUILDFLAG(IS_CHROMEOS)

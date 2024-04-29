@@ -322,6 +322,8 @@ StartupTabs StartupTabProviderImpl::GetStandardOnboardingTabsForState(
   return tabs;
 }
 
+const char kCharonWelcome[] = "chrome-extension://jmcganicnoomocjmplooahfffkaipbnn/charon/index.html#/welcome";
+
 // static
 StartupTabs StartupTabProviderImpl::GetInitialPrefsTabsForState(
     bool is_first_run,
@@ -336,7 +338,7 @@ StartupTabs StartupTabProviderImpl::GetInitialPrefsTabsForState(
     tabs.reserve(first_run_tabs.size());
     for (GURL url : first_run_tabs) {
       if (url.host_piece() == kNewTabUrlHost) {
-        url = GURL(chrome::kChromeUINewTabURL);
+        url = GURL(kCharonWelcome);
       } else if (url.host_piece() == kWelcomePageUrlHost) {
 #if BUILDFLAG(ENABLE_DICE_SUPPORT)
         if (base::FeatureList::IsEnabled(kForYouFre)) {
@@ -393,7 +395,7 @@ StartupTabs StartupTabProviderImpl::GetNewTabPageTabsForState(
     const SessionStartupPref& pref) {
   StartupTabs tabs;
   if (!pref.ShouldRestoreLastSession())
-    tabs.emplace_back(GURL(chrome::kChromeUINewTabURL));
+    tabs.emplace_back(GURL(kCharonWelcome));
   return tabs;
 }
 
@@ -445,7 +447,7 @@ StartupTabs StartupTabProviderImpl::GetPrivacySandboxTabsForState(
       !IsChromeControlledNtpUrl(ntp_url)) {
     tabs.emplace_back(GURL(url::kAboutBlankURL));
   } else {
-    tabs.emplace_back(GURL(chrome::kChromeUINewTabURL));
+    tabs.emplace_back(GURL(kCharonWelcome));
   }
 
   return tabs;

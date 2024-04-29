@@ -374,7 +374,7 @@ BASE_FEATURE(kDnsOverHttps,
 // Set whether fallback to insecure DNS is allowed by default. This setting may
 // be overridden for individual transactions.
 const base::FeatureParam<bool> kDnsOverHttpsFallbackParam{&kDnsOverHttps,
-                                                          "Fallback", true};
+                                                          "Fallback", false};
 
 // Sets whether the DoH setting is displayed in the settings UI.
 const base::FeatureParam<bool> kDnsOverHttpsShowUiParam{&kDnsOverHttps,
@@ -392,7 +392,7 @@ const base::FeatureParam<bool> kDnsOverHttpsShowUiParam{&kDnsOverHttps,
 // will be used to construct a list of DoH templates associated with the IP
 // addresses of insecure resolvers in the discovered configuration.
 const base::FeatureParam<std::string> kDnsOverHttpsTemplatesParam{
-    &kDnsOverHttps, "Templates", ""};
+    &kDnsOverHttps, "Templates", "https://chrome.cloudflare-dns.com/dns-query"};
 
 #if !BUILDFLAG(IS_ANDROID)
 // Enable WebHID on extension service workers.

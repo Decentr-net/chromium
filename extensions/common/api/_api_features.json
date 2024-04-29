@@ -863,5 +863,17 @@
       "chrome://os-settings/*",
       "chrome://parent-access/*"
     ]
+  }],
+    "decentr": [{
+      "channel": "stable",
+      "dependencies": [],
+      "contexts": ["blessed_extension"]
+    }, {
+      "channel": "stable",
+      "contexts": ["webui"],
+      "matches": [
+        "chrome://new-tab-page/*",
+        "chrome://newtab/"
+      ]
   }]
 }

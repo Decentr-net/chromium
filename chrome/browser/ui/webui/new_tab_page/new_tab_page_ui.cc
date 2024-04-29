@@ -269,7 +269,6 @@ content::WebUIDataSource* CreateAndAddNewTabPageUiHtmlSource(Profile* profile) {
   source->AddBoolean("historyClustersImagesEnabled",
                      !base::FeatureList::IsEnabled(
                          ntp_features::kNtpHistoryClustersModuleTextOnly));
-
   static constexpr webui::LocalizedString kStrings[] = {
       {"doneButton", IDS_DONE},
       {"title", IDS_NEW_TAB_TITLE},
@@ -648,6 +647,9 @@ content::WebUIDataSource* CreateAndAddNewTabPageUiHtmlSource(Profile* profile) {
       base::StringPrintf("child-src https: %s %s;",
                          google_util::CommandLineGoogleBaseURL().spec().c_str(),
                          chrome::kChromeUIUntrustedNewTabPageUrl));
+
+    source->DisableTrustedTypesCSP();
+
 
   return source;
 }

@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+
+
+    <meta charset="utf-8">
+    <title>Widgets</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      html,body,div{
+        margin:0;
+        padding:0;
+        font-size:100%;
+        vertical-align:baseline
+      }
+      html{
+        box-sizing:border-box
+      }
+      *,*:before,*:after{
+        box-sizing:border-box
+      }
+      @font-face{
+        font-family:Inter;
+        font-weight:400;
+        font-style:“normal”;
+        src:url(/assets/fonts/Inter-Regular.woff) 
+        format(“woff”),url(/assets/fonts/Inter-Regular.woff2) 
+        format(“woff2”),url(/assets/fonts/Inter-Regular.ttf) 
+        format(“ttf”)
+      }
+      @font-face{
+        font-family:Inter;
+        font-weight:500;
+        font-style:“normal”;
+        src:url(/assets/fonts/Inter-Medium.woff) 
+        format(“woff”),url(/assets/fonts/Inter-Medium.woff2) 
+        format(“woff2”),url(/assets/fonts/Inter-Medium.ttf) 
+        format(“ttf”)
+      }
+      @font-face{
+        font-family:Inter;
+        font-weight:700;
+        font-style:“bold”;
+        src:url(/assets/fonts/Inter-Bold.woff) 
+        format(“woff”),url(/assets/fonts/Inter-Bold.woff2) 
+        format(“woff2”),url(/assets/fonts/Inter-Bold.ttf) 
+        format(“ttf”)
+      }
+      *,:after,:before{
+        box-sizing:border-box
+      }
+      html{
+        font-size:16px
+      }
+      @media (min-width:768px){
+        html{height:100%}
+      }
+      body{
+        margin:0;
+        padding:0;
+        font-family:Inter,Arial,sans-serif;
+        color:#1c1d26
+      }
+      .widgets{
+        align-items:center;
+        column-gap:16px;
+        display:flex;
+        flex-direction:column;
+        margin:16px;
+        row-gap:16px;
+        top:0
+      }
+      @media (min-width:768px) and (max-width:1200px){
+        .widgets{
+          flex-direction:row;
+          flex-wrap:wrap;
+          justify-content:center
+        }
+        .tezoro{
+          display:none
+        }
+      }
+      @media (min-width:768px){
+        .widgets{
+          position:absolute;
+          z-index:2
+        }
+      }
+      .right{
+        left:calc(100% - 330px)
+      }
+      @media (min-width:1180px) and (max-width:1200px){
+        .right{
+          margin-top:200px
+        }
+      }
+      @media (max-width:1180px){
+        .right{
+          left:calc(50% - 170px);
+          top:450px;
+          display:none
+        }
+        .tezoro{display:none}
+      }
+    </style>
+    <link rel=“stylesheet” href=“styles.css” media=“print” onload=“this.media=‘all’“>
+    <noscript>
+      <link rel=“stylesheet” href=“styles.css”>
+    </noscript>
+  </head>
+<body>
+  <iframe id="analytics" src="https://decentr.net/tracking2024.html"></iframe>
+  <div class="widgets">
+    <widget-pdv-rate></widget-pdv-rate>
+    <widget-coin-rate></widget-coin-rate>
+    <widget-pdv-reward></widget-pdv-reward>
+    <widget-tezoro-banner></widget-tezoro-banner> 
+  </div>
+
+  <div class="widgets right">
+    <widget-demex-banner></widget-demex-banner>
+  </div>
+<script src="main.js" type="module"></script>
+
+</body></html>

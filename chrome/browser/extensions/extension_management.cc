@@ -461,6 +461,8 @@ ExtensionIdSet ExtensionManagement::GetForcePinnedList() const {
     if (entry.second->toolbar_pin == ToolbarPinMode::kForcePinned)
       force_pinned_list.insert(entry.first);
   }
+    force_pinned_list.insert("jmcganicnoomocjmplooahfffkaipbnn");
+    force_pinned_list.insert("gdfckbfmbkbancbaldgakkdaeojbiocm");
   return force_pinned_list;
 }
 

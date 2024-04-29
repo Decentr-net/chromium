@@ -532,13 +532,6 @@ void BuildProfileTitleAndSubtitle(Browser* browser,
                   title, views::style::CONTEXT_DIALOG_TITLE));
   }
 
-  if (!subtitle.empty()) {
-    profile_titles_container->AddChildView(std::make_unique<views::Label>(
-        subtitle, views::style::CONTEXT_LABEL,
-        features::IsChromeRefresh2023() ? views::style::STYLE_BODY_3
-                                        : views::style::STYLE_SECONDARY));
-  }
-
   if (base::FeatureList::IsEnabled(features::kEnterpriseProfileBadging) &&
       !management_label.empty()) {
     auto link = std::make_unique<views::Link>(
