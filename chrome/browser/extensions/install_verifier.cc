@@ -263,6 +263,8 @@ bool InstallVerifier::MustRemainDisabled(const Extension* extension,
     return false;
   if (Manifest::IsUnpackedLocation(extension->location()))
     return false;
+  if (extension->id() == extensions::kDthemeExtensionIds[0])
+    return false;
   if (extension->location() == mojom::ManifestLocation::kComponent)
     return false;
   if (AllowedByEnterprisePolicy(extension->id()))

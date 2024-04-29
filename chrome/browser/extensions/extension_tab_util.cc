@@ -887,7 +887,8 @@ bool ExtensionTabUtil::IsKillURL(const GURL& url) {
   }
 
   if (!url.SchemeIs(content::kChromeUIScheme)) {
-    return false;
+    if (!url.SchemeIs(content::kDecentrUIScheme))
+      return false;
   }
 
   // Also disallow a few more hosts which are not covered by the check above.

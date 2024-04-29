@@ -6,28 +6,31 @@
 # chromium-browser packages for various platforms.
 
 # Base name of the package.
-PACKAGE="chromium-browser"
+PACKAGE="decentr-browser"
+
+# Base name of the snap package
+SNAPNAME="decentr"
 
 # Filename of the main executable (for generating launcher scripts, etc.)
-PROGNAME=chrome
+PROGNAME=decentr
 
 # Base directory for package installation.
-INSTALLDIR=/opt/chromium.org/chromium
+INSTALLDIR=/opt/decentr.org/decentr
 
 # Directory for device policy enrollments.
-ENROLLMENTDIR=/etc/chromium/policies/enrollment
+ENROLLMENTDIR=/etc/decentr/policies/enrollment
 
 # Display string for desktop menu/icon.
-MENUNAME="Chromium Web Browser"
+MENUNAME="Decentr"
 
 # Brief package description.
-SHORTDESC="The web browser from Chromium.org"
+SHORTDESC="The web browser from Decentr.net"
 
 # Detailed package description.
-FULLDESC="Chromium is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
+FULLDESC="Decentr is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
 
 # Package maintainer information.
 # TODO(mmoss) Setup a mailbox for this address
-MAINTNAME="Chromium Linux Team"
-MAINTMAIL="chromium-linux-packager@chromium.org"
-PRODUCTURL="http://www.chromium.org/"
+MAINTNAME="decentr Linux Team"
+MAINTMAIL="linux-packager@decentr.net"
+PRODUCTURL="http://www.decentr.net/"

@@ -1,0 +1,12 @@
+remoting_sources = [
+  "com.decentr.wireguard",
+  "com.decentr.wireguard.json",
+]
+
+remoting_out_dir = "NativeMessagingHosts"
+
+copy("component") {
+  sources = remoting_sources
+
+  outputs = [ "$root_out_dir/$remoting_out_dir/{{source_file_part}}" ]
+}

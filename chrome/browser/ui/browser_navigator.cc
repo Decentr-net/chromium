@@ -98,6 +98,18 @@ class BrowserNavigatorWebContentsAdoption {
 };
 
 namespace {
+void UpdateDecentrScheme(NavigateParams* params) {
+  if (params->url.SchemeIs(content::kDecentrUIScheme)) {
+    GURL::Replacements replacements;
+    replacements.SetSchemeStr(content::kChromeUIScheme);
+    params->url = params->url.ReplaceComponents(replacements);
+  }
+}
+}  // namespace
+#define DECENTR_ADJUST_NAVIGATE_PARAMS_FOR_URL           \
+  UpdateDecentrScheme(params);  
+
+namespace {
 
 // Returns true if |params.browser| exists and can open a new tab for
 // |params.url|. Not all browsers support multiple tabs, such as app frames and
@@ -609,6 +621,8 @@ base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
     return nullptr;
   }
 
+  DECENTR_ADJUST_NAVIGATE_PARAMS_FOR_URL
+
   // Open System Apps in their standalone window if necessary.
   // TODO(crbug.com/40136163): Remove this code after we integrate with intent
   // handling.
@@ -974,7 +988,7 @@ base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
 bool IsHostAllowedInIncognito(const GURL& url) {
   std::string scheme = url.scheme();
   std::string_view host = url.host_piece();
-  if (scheme != content::kChromeUIScheme) {
+  if (scheme != content::kChromeUIScheme && scheme != content::kDecentrUIScheme) {
     return true;
   }
 

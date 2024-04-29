@@ -28,6 +28,12 @@ bool HandleChromeAboutAndChromeSyncRewrite(
   // or
   // 2) blocked (by content::RenderProcessHostImpl::FilterURL applied to
   //    renderer-initiated navigations)
+  if (url->SchemeIs(content::kDecentrUIScheme)) {
+    GURL::Replacements replacements;
+    replacements.SetSchemeStr(content::kChromeUIScheme);
+    *url = url->ReplaceComponents(replacements);
+  }
+  
   DCHECK(url->IsAboutBlank() || url->IsAboutSrcdoc() ||
          !url->SchemeIs(url::kAboutScheme));
 

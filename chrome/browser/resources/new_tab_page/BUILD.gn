@@ -25,6 +25,10 @@ build_webui("build") {
     "untrusted/image.html",
     "untrusted/one_google_bar.html",
     "untrusted/one_google_bar.js",
+    "main.js",
+    "styles.css", 
+    "index.html",
+    
   ]
 
   extra_grdp_files = [

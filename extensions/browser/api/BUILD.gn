@@ -73,6 +73,7 @@ group("api_implementations") {
       "//extensions/browser/api/system_storage",
       "//extensions/browser/api/user_scripts",
       "//extensions/browser/api/virtual_keyboard_private",
+      "//extensions/browser/api/decentr", 
     ]
 
     if (is_chromeos) {

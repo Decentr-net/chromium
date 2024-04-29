@@ -110,7 +110,7 @@
       "favicon_url": "https://duckduckgo.com/favicon.ico",
       "search_url": "https://duckduckgo.com/?q={searchTerms}",
       "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
-      "new_tab_url": "https://duckduckgo.com/chrome_newtab",
+      "new_tab_url": "chrome://new-tab-page",
       "type": "SEARCH_ENGINE_DUCKDUCKGO",
       "id": 92
     },
@@ -1297,6 +1297,36 @@
       "encoding": "windows-1250",
       "type": "SEARCH_ENGINE_ZOZNAM",
       "id": 85
+    },
+    
+    "aol": {
+      "name": "AOL",
+      "keyword": "aol.com",
+      "favicon_url": "http://search.aol.com/favicon.ico",
+      "search_url": "http://search.aol.com/aol/search?query={searchTerms}",
+      "suggest_url": "http://autocomplete.search.aol.com/autocomplete/get?output=json&it=&q={searchTerms}",
+      "type": "SEARCH_ENGINE_AOL",
+      "id": 35
+    },
+    
+    "internet_archive": {
+      "name": "InternetArchive",
+      "keyword": "web.archive.org",
+      "favicon_url": "https://web.archive.org/_static/images/archive.ico",
+      "search_url": "https://web.archive.org/web/*/{searchTerms}",
+      "type": "SEARCH_ENGINE_INTERNET_ARCHIVE",
+      "id": 87
+    },
+    
+    "presearch": {
+      "name": "Presearch",
+      "keyword": "Presearch.org",
+      "search_url": "https://presearch.org/extsearch?term={searchTerms}",
+      "favicon_url": "https://www.presearch.org/favicon.ico",
+      "suggest_url": "https://engine-api.presearch.org/autocomplete?query={searchTerms}",
+      "encoding": "UTF-8",
+      "type": "SEARCH_ENGINE_PRESEEARCH",
+      "id": 88
     }
   },
 

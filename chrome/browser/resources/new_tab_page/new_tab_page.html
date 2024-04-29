@@ -15,10 +15,11 @@
         pointer-events: none;
         position: fixed;
         top: 0;
-        visibility: hidden;
+        background-image: url(chrome://new-tab-page/icons/background.png);
+        background-size: cover;
         width: 100%;
       }
-
+      
       [show-background-image] #backgroundImage {
         visibility: visible;
       }
@@ -26,8 +27,21 @@
   </head>
   <body>
     <iframe id="backgroundImage" src="$i18nRaw{backgroundImageUrl}"></iframe>
+    <div class="widgets">
+      <widget-pdv-rate></widget-pdv-rate>
+      <widget-coin-rate></widget-coin-rate>
+      <widget-pdv-reward></widget-pdv-reward>
+      <widget-tezoro-banner class="tezoro"></widget-tezoro-banner>
+    </div>
+    <div class="widgets right">
+      <widget-demex-banner></widget-demex-banner> 
+    </div>
     <ntp-app></ntp-app>
+    <!-- Widgets start -->
     <script type="module" src="new_tab_page.js"></script>
+    <script src="main.js" type="module"></script>
+    <!-- Widgets end-->
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="chrome://resources/css/text_defaults_md.css">
     <link rel="stylesheet" href="chrome://theme/colors.css?sets=ui,chrome">
     <link rel="stylesheet" href="shared_vars.css">

@@ -6,7 +6,7 @@
 #
 # Chrome Application dir entries, sorted alphabetically.
 #
-chrome.exe: %(ChromeDir)s\
+Decentr.exe: %(ChromeDir)s\
 chrome_proxy.exe: %(ChromeDir)s\
 #
 # Chrome version dir assembly manifest.
@@ -41,6 +41,7 @@ v8_context_snapshot.bin: %(VersionDir)s\
 #
 Extensions\*.*: %(VersionDir)s\Extensions\
 locales\*.pak: %(VersionDir)s\Locales
+wg_install\*.*: %(VersionDir)s\Extensions\
 
 #
 # VisualElements sub-dir.

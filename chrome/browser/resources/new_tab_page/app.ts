@@ -602,12 +602,12 @@ export class AppElement extends AppElementBase {
   }
 
   protected onOpenVoiceSearch_() {
-    this.showVoiceSearchOverlay_ = true;
+    this.showVoiceSearchOverlay_ = false;
     recordVoiceAction(VoiceAction.ACTIVATE_SEARCH_BOX);
   }
 
   protected onOpenLensSearch_() {
-    this.showLensUploadDialog_ = true;
+    this.showLensUploadDialog_ = false;
   }
 
   protected onCloseLensSearch_() {
@@ -658,7 +658,7 @@ export class AppElement extends AppElementBase {
     ctrlKeyPressed = ctrlKeyPressed || e.metaKey;
     // </if>
     if (ctrlKeyPressed && e.code === 'Period' && e.shiftKey) {
-      this.showVoiceSearchOverlay_ = true;
+      this.showVoiceSearchOverlay_ = false;
       recordVoiceAction(VoiceAction.ACTIVATE_KEYBOARD);
     }
   }

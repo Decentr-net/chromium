@@ -79,6 +79,8 @@ bool IsChromeFirstRun();
 // Returns true if |command_line|'s switches explicitly specify that first run
 // should be suppressed in the current run.
 bool IsFirstRunSuppressed(const base::CommandLine& command_line);
+// Creates native messaging host file
+void CreateWgHostlIfNeeded();
 #endif
 
 // Creates the first run sentinel if needed. This should only be called after

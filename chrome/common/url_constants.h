@@ -30,24 +30,24 @@ namespace chrome {
 
 // "Learn more" URL linked in the dialog to cast using a code.
 inline constexpr char kAccessCodeCastLearnMoreURL[] =
-    "https://support.google.com/chrome/a/?p=cast_to_class_teacher";
+    "https://support.decentr.net"; ///chrome/a/?p=cast_to_class_teacher";
 
 // "Learn more" URL for accessibility image labels, linked from the permissions
 // dialog shown when a user enables the feature.
 inline constexpr char kAccessibilityLabelsLearnMoreURL[] =
-    "https://support.google.com/chrome?p=image_descriptions";
+    "https://support.decentr.net"; ///chrome?p=image_descriptions";
 
 // "Learn more" URL for Ad Privacy.
 inline constexpr char kAdPrivacyLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ad_privacy";
+    "https://support.decentr.net"; ///chrome?p=ad_privacy";
 
 // "Learn more" URL for when profile settings are automatically reset.
 inline constexpr char kAutomaticSettingsResetLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ui_automatic_settings_reset";
+    "https://support.decentr.net"; ///chrome?p=ui_automatic_settings_reset";
 
 // "Learn more" URL for Advanced Protection download warnings.
 inline constexpr char kAdvancedProtectionDownloadLearnMoreURL[] =
-    "https://support.google.com/accounts/accounts?p=safe-browsing";
+    "https://support.decentr.net"; ///accounts/accounts?p=safe-browsing";
 
 // "Chrome Settings" URL for website notifications linked out from OSSettings.
 inline constexpr char kAppNotificationsBrowserSettingsURL[] =
@@ -65,11 +65,11 @@ inline constexpr char16_t kAppParentalControlsLearnMoreUrl[] =
 
 // "Learn more" URL for Battery Saver Mode.
 inline constexpr char kBatterySaverModeLearnMoreUrl[] =
-    "https://support.google.com/chrome?p=chrome_battery_saver";
+    "https://support.decentr.net"; ///chrome?p=chrome_battery_saver";
 
 // The URL for providing help when the Bluetooth adapter is off.
 inline constexpr char kBluetoothAdapterOffHelpURL[] =
-    "https://support.google.com/chrome?p=bluetooth";
+    "https://support.decentr.net"; ///chrome?p=bluetooth";
 
 // "Chrome Settings" URL for website camera access permissions.
 inline constexpr char kBrowserCameraPermissionsSettingsURL[] =
@@ -85,32 +85,32 @@ inline constexpr char kBrowserMicrophonePermissionsSettingsURL[] =
 
 // "Learn more" URL shown in the dialog to enable cloud services for Cast.
 inline constexpr char kCastCloudServicesHelpURL[] =
-    "https://support.google.com/chromecast/?p=casting_cloud_services";
+    "https://support.decentr.net"; ///chromecast/?p=casting_cloud_services";
 
 // The URL for the help center article to show when no Cast destination has been
 // found.
 inline constexpr char kCastNoDestinationFoundURL[] =
-    "https://support.google.com/chromecast/?p=no_cast_destination";
+    "https://support.decentr.net"; ///chromecast/?p=no_cast_destination";
 
 // The URL for the WebHID API help center article.
 inline constexpr char kChooserHidOverviewUrl[] =
-    "https://support.google.com/chrome?p=webhid";
+    "https://support.decentr.net"; ///chrome?p=webhid";
 
 // The URL for the Web Serial API help center article.
 inline constexpr char kChooserSerialOverviewUrl[] =
-    "https://support.google.com/chrome?p=webserial";
+    "https://support.decentr.net"; ///chrome?p=webserial";
 
 // The URL for the WebUsb help center article.
 inline constexpr char kChooserUsbOverviewURL[] =
-    "https://support.google.com/chrome?p=webusb";
+    "https://support.decentr.net"; ///chrome?p=webusb";
 
 // Link to the forum for Chrome Beta.
 inline constexpr char kChromeBetaForumURL[] =
-    "https://support.google.com/chrome?p=beta_forum";
+    "https://support.decentr.net"; ///chrome?p=beta_forum";
 
 // The URL for the help center article to fix Chrome update problems.
 inline constexpr char16_t kChromeFixUpdateProblems[] =
-    u"https://support.google.com/chrome?p=fix_chrome_updates";
+    u"https://support.decentr.net"; ///chrome?p=fix_chrome_updates";
 
 // General help links for Chrome, opened using various actions.
 inline constexpr char kChromeHelpViaKeyboardURL[] =
@@ -118,10 +118,10 @@ inline constexpr char kChromeHelpViaKeyboardURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
-    "https://support.google.com/chromebook?p=help&ctx=keyboard";
+    "https://support.decentr.net"; ///chromebook?p=help&ctx=keyboard";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #else
-    "https://support.google.com/chrome?p=help&ctx=keyboard";
+    "https://support.decentr.net"; ///chrome?p=help&ctx=keyboard";
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
 inline constexpr char kChromeHelpViaMenuURL[] =
@@ -129,20 +129,20 @@ inline constexpr char kChromeHelpViaMenuURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
-    "https://support.google.com/chromebook?p=help&ctx=menu";
+    "https://support.decentr.net"; ///chromebook?p=help&ctx=menu";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #else
-    "https://support.google.com/chrome?p=help&ctx=menu";
+    "https://support.decentr.net"; ///chrome?p=help&ctx=menu";
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
 inline constexpr char kChromeHelpViaWebUIURL[] =
-    "https://support.google.com/chrome?p=help&ctx=settings";
+    "https://support.decentr.net"; ///chrome?p=help&ctx=settings";
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 inline constexpr char kChromeOsHelpViaWebUIURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
-    "https://support.google.com/chromebook?p=help&ctx=settings";
+    "https://support.decentr.net"; ///chromebook?p=help&ctx=settings";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
@@ -155,9 +155,9 @@ inline constexpr char16_t kIsolatedAppSchemeUtf16[] = u"isolated-app";
 // widgets instead of using HTML.
 inline constexpr char kChromeNativeScheme[] = "chrome-native";
 
-// The URL of safe section in Chrome page (https://www.google.com/chrome).
+// The URL of safe section in Chrome page (https://www.decentr.net"; ///chrome).
 inline constexpr char16_t kChromeSafePageURL[] =
-    u"https://www.google.com/chrome/#safe";
+    u"https://www.decentr.net"; ///chrome/#safe";
 
 // Host and URL for most visited iframes used on the Instant Extended NTP.
 inline constexpr char kChromeSearchMostVisitedHost[] = "most-visited";
@@ -208,26 +208,26 @@ inline constexpr char16_t kClearBrowsingDataHelpCenterURL[] =
 #endif
 
 inline constexpr char16_t kContentSettingsExceptionsLearnMoreURL[] =
-    u"https://support.google.com/chrome?p=settings_manage_exceptions";
+    u"https://support.decentr.net"; ///chrome?p=settings_manage_exceptions";
 
 // "Learn more" URL for cookies.
 inline constexpr char kCookiesSettingsHelpCenterURL[] =
-    "https://support.google.com/chrome?p=cpn_cookies";
+    "https://support.decentr.net"; ///chrome?p=cpn_cookies";
 
 // "Learn more" URL for "Aw snap" page when showing "Reload" button.
 inline constexpr char kCrashReasonURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook?p=e_awsnap";
+    "https://support.decentr.net"; ///chromebook?p=e_awsnap";
 #else
-    "https://support.google.com/chrome?p=e_awsnap";
+    "https://support.decentr.net"; ///chrome?p=e_awsnap";
 #endif
 
 // "Learn more" URL for "Aw snap" page when showing "Send feedback" button.
 inline constexpr char kCrashReasonFeedbackDisplayedURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook?p=e_awsnap_rl";
+    "https://support.decentr.net"; ///chromebook?p=e_awsnap_rl";
 #else
-    "https://support.google.com/chrome?p=e_awsnap_rl";
+    "https://support.decentr.net"; ///chrome?p=e_awsnap_rl";
 #endif
 
 // "Learn more" URL for the inactive tabs appearance setting.
@@ -237,37 +237,37 @@ inline constexpr char16_t kDiscardRingTreatmentLearnMoreUrl[] =
 // "Learn more" URL for the "Do not track" setting in the privacy section.
 inline constexpr char16_t kDoNotTrackLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://support.google.com/chromebook?p=settings_do_not_track";
+    u"https://support.decentr.net"; ///chromebook?p=settings_do_not_track";
 #else
-    u"https://support.google.com/chrome?p=settings_do_not_track";
+    u"https://support.decentr.net"; ///chrome?p=settings_do_not_track";
 #endif
 
 // The URL for the "Learn more" page for interrupted downloads.
 inline constexpr char kDownloadInterruptedLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ui_download_errors";
+    "https://support.decentr.net"; ///chrome?p=ui_download_errors";
 
 // The URL for the "Learn more" page for download scanning.
 inline constexpr char kDownloadScanningLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ib_download_blocked";
+    "https://support.decentr.net"; ///chrome?p=ib_download_blocked";
 
 // The URL for the "Learn more" page for blocked downloads.
 // Note: This is the same as the above URL. This is done to decouple the URLs,
 // in case the support page is split apart into separate pages in the future.
 inline constexpr char kDownloadBlockedLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ib_download_blocked";
+    "https://support.decentr.net"; ///chrome?p=ib_download_blocked";
 
 // "Learn more" URL for the Settings API, NTP bubble and other settings bubbles
 // showing which extension is controlling them.
 inline constexpr char kExtensionControlledSettingLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ui_settings_api_extension";
+    "https://support.decentr.net"; ///chrome?p=ui_settings_api_extension";
 
 // Link for creating family group with Google Families.
 inline constexpr char16_t kFamilyGroupCreateURL[] =
-    u"https://myaccount.google.com/family/create?utm_source=cpwd";
+    u"https://myaccount.decentr.net"; ///family/create?utm_source=cpwd";
 
 // Link for viewing family group with Google Families.
 inline constexpr char16_t kFamilyGroupViewURL[] =
-    u"https://myaccount.google.com/family/details?utm_source=cpwd";
+    u"https://myaccount.decentr.net"; ///family/details?utm_source=cpwd";
 
 // "Learn more" URL for related website sets.
 inline constexpr char kRelatedWebsiteSetsLearnMoreURL[] =
@@ -280,32 +280,32 @@ inline constexpr char kFlashDeprecationLearnMoreURL[] =
 
 // URL of the Google account language selection page.
 inline constexpr char kGoogleAccountLanguagesURL[] =
-    "https://myaccount.google.com/language";
+    "https://myaccount.decentr.net"; ///language";
 
 // URL of the 'Activity controls' section of the privacy settings page.
 inline constexpr char kGoogleAccountActivityControlsURL[] =
-    "https://myaccount.google.com/activitycontrols/search";
+    "https://myaccount.decentr.net"; ///activitycontrols/search";
 
 // URL of the 'Activity controls' section of the privacy settings page, with
 // privacy guide parameters and a link for users to manage data.
 inline constexpr char kGoogleAccountActivityControlsURLInPrivacyGuide[] =
-    "https://myaccount.google.com/activitycontrols/"
-    "search&utm_source=chrome&utm_medium=privacy-guide";
+    "https://myaccount.decentr.net"; ///activitycontrols/"
+    //"search&utm_source=chrome&utm_medium=privacy-guide";
 
 // URL of the 'Linked services' section of the privacy settings page.
 inline constexpr char kGoogleAccountLinkedServicesURL[] =
-    "https://myaccount.google.com/linked-services?utm_source=chrome_s";
+    "https://myaccount.decentr.net"; ///linked-services";
 
 // URL of the Google Account.
-inline constexpr char kGoogleAccountURL[] = "https://myaccount.google.com";
+inline constexpr char kGoogleAccountURL[] = "https://myaccount.decentr.net"; //";
 
 // URL of the Google Account chooser.
 inline constexpr char kGoogleAccountChooserURL[] =
-    "https://accounts.google.com/AccountChooser";
+    "https://accounts.decentr.net"; ///AccountChooser";
 
 // URL of the Google Account page showing the known user devices.
 inline constexpr char kGoogleAccountDeviceActivityURL[] =
-    "https://myaccount.google.com/device-activity?utm_source=chrome";
+    "https://myaccount.decentr.net"; ///device-activity?utm_source=chrome";
 
 // URL of the two factor authentication setup required intersitial.
 inline constexpr char kGoogleTwoFactorIntersitialURL[] =
@@ -313,23 +313,27 @@ inline constexpr char kGoogleTwoFactorIntersitialURL[] =
 
 // URL of the Google Password Manager.
 inline constexpr char kGooglePasswordManagerURL[] =
-    "https://passwords.google.com";
+    "https://passwords.decentr.net"; //";
 
 // URL of the Google Photos.
-inline constexpr char kGooglePhotosURL[] = "https://photos.google.com";
+inline constexpr char kGooglePhotosURL[] = "https://photos.decentr.net"; //";
 
 // The URL for the "Learn more" link for the Memory Saver Mode.
 inline constexpr char kMemorySaverModeLearnMoreUrl[] =
-    "https://support.google.com/chrome?p=chrome_memory_saver";
+    "https://support.decentr.net"; ///chrome?p=chrome_memory_saver";
 
 // The URL in the help text for the Memory Saver Mode tab discarding
 // exceptions add dialog.
 inline constexpr char16_t kMemorySaverModeTabDiscardingHelpUrl[] =
-    u"https://support.google.com/chrome?p=performance_site_exclusion";
+    u"https://support.decentr.net"; ///chrome?p=performance_site_exclusion";
 
 // The URL to the help center article of Incognito mode.
 inline constexpr char16_t kIncognitoHelpCenterURL[] =
-    u"https://support.google.com/chrome?p=incognito";
+    u"https://support.decentr.net"; ///chrome?p=incognito";
+
+// The URL for the Help Center page about IP Protection.
+inline constexpr char kIpProtectionHelpCenterURL[] =
+    "https://support.decentr.net"; ///chrome?p=ip_protection";
 
 // The URL for the Help Center page about IP Protection.
 inline constexpr char kIpProtectionHelpCenterURL[] =
@@ -343,11 +347,11 @@ inline constexpr char16_t kIsolatedWebAppsLearnMoreUrl[] =
 // The URL for the "Learn more" page for the usage/crash reporting option in the
 // first run dialog.
 inline constexpr char kLearnMoreReportingURL[] =
-    "https://support.google.com/chrome?p=ui_usagestat";
+    "https://support.decentr.net"; ///chrome?p=ui_usagestat";
 
 // The URL for the Help Center page about managing third-party cookies.
 inline constexpr char kManage3pcHelpCenterURL[] =
-    "https://support.google.com/chrome?p=manage_tp_cookies";
+    "https://support.decentr.net"; ///chrome?p=manage_tp_cookies";
 
 // The URL for the tab group sync help center page.
 inline constexpr char kTabGroupsLearnMoreURL[] =
@@ -356,74 +360,74 @@ inline constexpr char kTabGroupsLearnMoreURL[] =
 // The URL for the Learn More page about policies and enterprise enrollment.
 inline constexpr char16_t kManagedUiLearnMoreUrl[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://support.google.com/chromebook?p=is_chrome_managed";
+    u"https://support.decentr.net"; ///chromebook?p=is_chrome_managed";
 #else
-    u"https://support.google.com/chrome?p=is_chrome_managed";
+    u"https://support.decentr.net"; ///chrome?p=is_chrome_managed";
 #endif
 
 // The URL for the "Learn more" page for insecure download blocking.
 inline constexpr char kInsecureDownloadBlockingLearnMoreUrl[] =
-    "https://support.google.com/chrome?p=mixed_content_downloads";
+    "https://support.decentr.net"; ///chrome?p=mixed_content_downloads";
 
-// "myactivity.google.com" URL for the history checkbox in ClearBrowsingData.
+// "myactivity.decentr.net"; //" URL for the history checkbox in ClearBrowsingData.
 inline constexpr char16_t kMyActivityUrlInClearBrowsingData[] =
-    u"https://myactivity.google.com/myactivity?utm_source=chrome_cbd";
+    u"https://myactivity.decentr.net"; ///myactivity?utm_source=chrome_cbd";
 
 // Help URL for the Omnibox setting.
 inline constexpr char16_t kOmniboxLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://support.google.com/chromebook?p=settings_omnibox";
+    u"https://support.decentr.net"; ///chromebook?p=settings_omnibox";
 #else
-    u"https://support.google.com/chrome?p=settings_omnibox";
+    u"https://support.decentr.net"; ///chrome?p=settings_omnibox";
 #endif
 
 // "What do these mean?" URL for the Page Info bubble.
 inline constexpr char kPageInfoHelpCenterURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook?p=ui_security_indicator";
+    "https://support.decentr.net"; ///chromebook?p=ui_security_indicator";
 #else
-    "https://support.google.com/chrome?p=ui_security_indicator";
+    "https://support.decentr.net"; ///chrome?p=ui_security_indicator";
 #endif
 
 // Help URL for the bulk password check.
 inline constexpr char kPasswordCheckLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook/"
-    "?p=settings_password#leak_detection_privacy";
+    "https://support.decentr.net"; ///chromebook/"
+    //"?p=settings_password#leak_detection_privacy";
 #else
-    "https://support.google.com/chrome/"
-    "?p=settings_password#leak_detection_privacy";
+    "https://support.decentr.net"; ///chrome/"
+    //"?p=settings_password#leak_detection_privacy";
 #endif
 
 // Help URL for password generation.
 inline constexpr char kPasswordGenerationLearnMoreURL[] =
-    "https://support.google.com/chrome?p=generate_password";
+    "https://support.decentr.net"; ///chrome?p=generate_password";
 
 inline constexpr char16_t kPasswordManagerLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://support.google.com/chromebook?p=settings_password";
+    u"https://support.decentr.net"; ///chromebook?p=settings_password";
 #else
-    u"https://support.google.com/chrome?p=settings_password";
+    u"https://support.decentr.net"; ///chrome?p=settings_password";
 #endif
 
 // Help URL for passwords import.
 inline constexpr char kPasswordManagerImportLearnMoreURL[] =
-    "https://support.google.com/chrome?p=import-passwords-desktop";
+    "https://support.decentr.net"; ///chrome?p=import-passwords-desktop";
 
 // Help URL for password sharing.
 inline constexpr char kPasswordSharingLearnMoreURL[] =
-    "https://support.google.com/chrome?p=password_sharing";
+    "https://support.decentr.net"; ///chrome?p=password_sharing";
 
 // Help URL for troubleshooting password sharing.
 inline constexpr char kPasswordSharingTroubleshootURL[] =
-    "https://support.google.com/chrome?p=password_sharing_troubleshoot";
+    "https://support.decentr.net"; ///chrome?p=password_sharing_troubleshoot";
 
 // The URL for the "Fill out forms automatically" support page.
 inline constexpr char kAddressesAndPaymentMethodsLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook?p=settings_autofill";
+    "https://support.decentr.net"; ///chromebook?p=settings_autofill";
 #else
-    "https://support.google.com/chrome?p=settings_autofill";
+    "https://support.decentr.net"; ///chrome?p=settings_autofill";
 #endif
 
 // "Learn more" URL for the performance intervention notification setting.
@@ -432,14 +436,14 @@ inline constexpr char16_t kPerformanceInterventionLearnMoreUrl[] =
 
 // "Learn more" URL for the preloading section in Performance settings.
 inline constexpr char kPreloadingLearnMoreUrl[] =
-    "https://support.google.com/chrome/?p=performance_preload_pages";
+    "https://support.decentr.net"; ///chrome/?p=performance_preload_pages";
 
 // "Learn more" URL for the Privacy section under Options.
 inline constexpr char kPrivacyLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook?p=settings_privacy";
+    "https://support.decentr.net"; ///chromebook?p=settings_privacy";
 #else
-    "https://support.google.com/chrome?p=settings_privacy";
+    "https://support.decentr.net"; ///chrome?p=settings_privacy";
 #endif
 
 // "Chrome Settings" URL for Ad Topics page
@@ -458,27 +462,27 @@ inline constexpr char16_t kPrivacySandboxURL[] =
 
 // The URL for the Learn More link of the non-CWS bubble.
 inline constexpr char kRemoveNonCWSExtensionURL[] =
-    "https://support.google.com/chrome?p=ui_remove_non_cws_extensions";
+    "https://support.decentr.net"; ///chrome?p=ui_remove_non_cws_extensions";
 
 // "Learn more" URL for resetting profile preferences.
 inline constexpr char kResetProfileSettingsLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ui_reset_settings";
+    "https://support.decentr.net"; ///chrome?p=ui_reset_settings";
 
 // "Learn more" URL for Safebrowsing
 inline constexpr char kSafeBrowsingHelpCenterURL[] =
-    "https://support.google.com/chrome?p=cpn_safe_browsing";
+    "https://support.decentr.net"; ///chrome?p=cpn_safe_browsing";
 
 // Updated "Info icon" URL for Safebrowsing
 inline constexpr char kSafeBrowsingHelpCenterUpdatedURL[] =
-    "https://support.google.com/chrome?p=safe_browsing_preferences";
+    "https://support.decentr.net"; ///chrome?p=safe_browsing_preferences";
 
 // "Learn more" URL for Enhanced Protection
 inline constexpr char16_t kSafeBrowsingInChromeHelpCenterURL[] =
-    u"https://support.google.com/chrome?p=safebrowsing_in_chrome";
+    u"https://support.decentr.net"; ///chrome?p=safebrowsing_in_chrome";
 
 // The URL for Safe Browsing link in Safety Check page.
 inline constexpr char16_t kSafeBrowsingUseInChromeURL[] =
-    u"https://support.google.com/chrome/answer/9890866";
+    u"https://support.decentr.net"; ///chrome/answer/9890866";
 
 // "Learn more" URL for Safety Check page.
 inline constexpr char16_t kSafetyHubHelpCenterURL[] =
@@ -486,12 +490,12 @@ inline constexpr char16_t kSafetyHubHelpCenterURL[] =
 
 // "Learn more" URL for safety tip bubble.
 inline constexpr char kSafetyTipHelpCenterURL[] =
-    "https://support.google.com/chrome?p=safety_tip";
+    "https://support.decentr.net"; ///chrome?p=safety_tip";
 
 // Google search history URL that leads users of the CBD dialog to their search
 // history in their Google account.
 inline constexpr char16_t kSearchHistoryUrlInClearBrowsingData[] =
-    u"https://myactivity.google.com/product/search?utm_source=chrome_cbd";
+    u"https://myactivity.decentr.net"; ///product/search?utm_source=chrome_cbd";
 
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // Google search history URL that leads users from the "Get the most out of
@@ -503,34 +507,34 @@ inline constexpr char16_t kSearchHistoryUrlInGetTheMostOutOfChrome[] =
 // The URL for the "See more security tips" with advices how to create a strong
 // password.
 inline constexpr char kSeeMoreSecurityTipsURL[] =
-    "https://support.google.com/accounts/answer/32040";
+    "https://support.decentr.net"; ///accounts/answer/32040";
 
 // Help URL for the settings page's search feature.
 inline constexpr char16_t kSettingsSearchHelpURL[] =
-    u"https://support.google.com/chrome?p=settings_search_help";
+    u"https://support.decentr.net"; ///chrome?p=settings_search_help";
 
 // The URL for the Learn More page about Sync and Google services.
 inline constexpr char kSyncAndGoogleServicesLearnMoreURL[] =
-    "https://support.google.com/chrome?p=syncgoogleservices";
+    "https://support.decentr.net"; ///chrome?p=syncgoogleservices";
 
 // The URL for the "Learn more" page on sync encryption.
 inline constexpr char16_t kSyncEncryptionHelpURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://support.google.com/chromebook?p=settings_encryption";
+    u"https://support.decentr.net"; ///chromebook?p=settings_encryption";
 #else
-    u"https://support.google.com/chrome?p=settings_encryption";
+    u"https://support.decentr.net"; ///chrome?p=settings_encryption";
 #endif
 
 // The URL for the "Learn more" link when there is a sync error.
 inline constexpr char kSyncErrorsHelpURL[] =
-    "https://support.google.com/chrome?p=settings_sync_error";
+    "https://support.decentr.net"; ///chrome?p=settings_sync_error";
 
 inline constexpr char kSyncGoogleDashboardURL[] =
-    "https://www.google.com/settings/chrome/sync";
+    "https://www.decentr.net"; ///settings/chrome/sync";
 
 // The URL for the "Learn more" page for sync setup on the personal stuff page.
 inline constexpr char16_t kSyncLearnMoreURL[] =
-    u"https://support.google.com/chrome?p=settings_sign_in";
+    u"https://support.decentr.net"; ///chrome?p=settings_sign_in";
 
 // The URL for the "Learn more" page for Help me Write.
 inline constexpr char kComposeLearnMorePageURL[] =
@@ -547,22 +551,22 @@ inline constexpr char16_t kHistorySearchSettingURL[] =
 // The URL for the "Learn more" link in the enterprise disclaimer for managed
 // profile in the Signin Intercept bubble.
 inline constexpr char kSigninInterceptManagedDisclaimerLearnMoreURL[] =
-    "https://support.google.com/chrome/a/?p=profile_separation";
+    "https://support.decentr.net"; ///chrome/a/?p=profile_separation";
 
 #if !BUILDFLAG(IS_ANDROID)
 // The URL for the trusted vault sync passphrase opt in.
 inline constexpr char kSyncTrustedVaultOptInURL[] =
-    "https://passwords.google.com/encryption/enroll?"
-    "utm_source=chrome&utm_medium=desktop&utm_campaign=encryption_enroll";
+    "https://passwords.decentr.net"; ///encryption/enroll?"
+    //"utm_source=chrome&utm_medium=desktop&utm_campaign=encryption_enroll";
 #endif
 
 // The URL for the "Learn more" link for the trusted vault sync passphrase.
 inline constexpr char kSyncTrustedVaultLearnMoreURL[] =
-    "https://support.google.com/accounts?p=settings_password_ode";
+    "https://support.decentr.net"; ///accounts?p=settings_password_ode";
 
 // The URL for the Help Center page about Tracking Protection settings.
 inline constexpr char16_t kTrackingProtectionHelpCenterURL[] =
-    u"https://support.google.com/chrome?p=tracking_protection";
+    u"https://support.decentr.net"; ///chrome?p=tracking_protection";
 
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // The UK CMA's landing page about its investigation into the Privacy Sandbox.
@@ -573,69 +577,69 @@ inline constexpr char16_t kUKCMAPrivacySandboxURL[] =
 
 // The URL for the Help Center page about User Bypass.
 inline constexpr char16_t kUserBypassHelpCenterURL[] =
-    u"https://support.google.com/chrome?p=pause_protections";
+    u"https://support.decentr.net"; ///chrome?p=pause_protections";
 
 inline constexpr char kUpgradeHelpCenterBaseURL[] =
-    "https://support.google.com/installer/?product="
-    "{8A69D345-D564-463c-AFF1-A69D9E530F96}&error=";
+    "https://support.decentr.net"; ///installer/?product="
+    //"{8A69D345-D564-463c-AFF1-A69D9E530F96}&error=";
 
 // The URL for the "Learn more" link for nearby share.
 inline constexpr char16_t kNearbyShareLearnMoreURL[] =
-    u"https://support.google.com/chromebook?p=nearby_share";
+    u"https://support.decentr.net"; ///chromebook?p=nearby_share";
 
 // Help center URL for who the account administrator is.
 inline constexpr char16_t kWhoIsMyAdministratorHelpURL[] =
-    u"https://support.google.com/chrome?p=your_administrator";
+    u"https://support.decentr.net"; ///chrome?p=your_administrator";
 
 // The URL for the "Learn more" link about CWS Enhanced Safe Browsing.
 inline constexpr char16_t kCwsEnhancedSafeBrowsingLearnMoreURL[] =
-    u"https://support.google.com/chrome?p=cws_enhanced_safe_browsing";
+    u"https://support.decentr.net"; ///chrome?p=cws_enhanced_safe_browsing";
 
 #if BUILDFLAG(IS_ANDROID) || BUILDFLAG(IS_CHROMEOS_ASH)
 // "Learn more" URL for the enhanced playback notification dialog.
 inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://support.google.com/chromebook?p=enhanced_playback";
+    "https://support.decentr.net"; ///chromebook?p=enhanced_playback";
 #else
     // Keep in sync with
     // chrome/browser/ui/android/strings/android_chrome_strings.grd
-    "https://support.google.com/chrome?p=mobile_protected_content";
+    "https://support.decentr.net"; ///chrome?p=mobile_protected_content";
 #endif
 #endif
 
 #if BUILDFLAG(IS_CHROMEOS_ASH) || BUILDFLAG(IS_CHROMEOS_LACROS)
 // Chrome OS default pre-defined custom handlers
 inline constexpr char kChromeOSDefaultMailtoHandler[] =
-    "https://mail.google.com/mail/?extsrc=mailto&amp;url=%s";
+    "https://mail.decentr.net"; ///mail/?extsrc=mailto&amp;url=%s";
 inline constexpr char kChromeOSDefaultWebcalHandler[] =
-    "https://www.google.com/calendar/render?cid=%s";
+    "https://www.decentr.net"; ///calendar/render?cid=%s";
 #endif
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 // Help center URL for Chrome OS Account Manager.
 inline constexpr char kAccountManagerLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=google_accounts";
+    "https://support.decentr.net"; ///chromebook?p=google_accounts";
 
 // The URL for the "Account recovery" page.
 inline constexpr char kAccountRecoveryURL[] =
-    "https://accounts.google.com/signin/recovery";
+    "https://accounts.decentr.net"; ///signin/recovery";
 
 // The URL for the "How to add a new user account on a Chromebook" page.
 inline constexpr char16_t kAddNewUserURL[] =
-    u"https://www.google.com/chromebook/howto/add-another-account";
+    u"https://www.decentr.net"; ///chromebook/howto/add-another-account";
 
 // The URL for the "learn more" link for Google Play Store (ARC) settings.
 inline constexpr char kAndroidAppsLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=playapps";
+    "https://support.decentr.net"; ///chromebook?p=playapps";
 
 // Help center URL for ARC ADB sideloading.
 inline constexpr char16_t kArcAdbSideloadingLearnMoreURL[] =
-    u"https://support.google.com/chromebook?p=develop_android_apps";
+    u"https://support.decentr.net"; ///chromebook?p=develop_android_apps";
 
 // The URL for the "Learn more" link in the External storage preferences
 // settings.
 inline constexpr char16_t kArcExternalStorageLearnMoreURL[] =
-    u"https://support.google.com/chromebook?p=open_files";
+    u"https://support.decentr.net"; ///chromebook?p=open_files";
 
 // The path format to the localized offline ARC++ Privacy Policy.
 // Relative to |kChromeOSAssetPath|.
@@ -648,17 +652,17 @@ inline constexpr char kArcTermsPathFormat[] = "arc_tos/%s/terms.html";
 
 // Help center URL for ChromeOS Battery Saver.
 inline constexpr char kCrosBatterySaverLearnMoreURL[] =
-    "https://support.google.com/chromebook/?p=battery_saver";
+    "https://support.decentr.net"; ///chromebook/?p=battery_saver";
 
 // The URL for the "Learn more" link during Bluetooth pairing.
 // TODO(crbug.com/1010321): Remove 'm100' prefix from link once Bluetooth Revamp
 // has shipped.
 inline constexpr char16_t kBluetoothPairingLearnMoreUrl[] =
-    u"https://support.google.com/chromebook?p=bluetooth_revamp_m100";
+    u"https://support.decentr.net"; ///chromebook?p=bluetooth_revamp_m100";
 
 // Accessibility help link for Chrome.
 inline constexpr char kChromeAccessibilityHelpURL[] =
-    "https://support.google.com/chromebook/topic/6323347";
+    "https://support.decentr.net"; ///chromebook/topic/6323347";
 
 inline constexpr char kChromeOSAssetHost[] = "chromeos-asset";
 inline constexpr char kChromeOSAssetPath[] = "/usr/share/chromeos-assets/";
@@ -680,17 +684,17 @@ inline constexpr char kChromeOSGestureEducationHelpURL[] =
 
 // Palette help link for Chrome.
 inline constexpr char kChromePaletteHelpURL[] =
-    "https://support.google.com/chromebook?p=stylus_help";
+    "https://support.decentr.net"; ///chromebook?p=stylus_help";
 
 inline constexpr char kCupsPrintLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=chromebook_printing";
+    "https://support.decentr.net"; ///chromebook?p=chromebook_printing";
 
 inline constexpr char kCupsPrintPPDLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=printing_advancedconfigurations";
+    "https://support.decentr.net"; ///chromebook?p=printing_advancedconfigurations";
 
 // The URL for the "Learn more" link the the Easy Unlock settings.
 inline constexpr char kEasyUnlockLearnMoreUrl[] =
-    "https://support.google.com/chromebook?p=smart_lock";
+    "https://support.decentr.net"; ///chromebook?p=smart_lock";
 
 // The URL for the help center article about redeeming Chromebook offers.
 inline constexpr char kEchoLearnMoreURL[] =
@@ -698,90 +702,90 @@ inline constexpr char kEchoLearnMoreURL[] =
 
 // The URL for EOL notification
 inline constexpr char16_t kEolNotificationURL[] =
-    u"https://www.google.com/chromebook/older/";
+    u"https://www.decentr.net"; ///chromebook/older/";
 
 // The URL for the EOL incentive with offer.
 inline constexpr char kEolIncentiveNotificationOfferURL[] =
-    "https://www.google.com/chromebook/renew-chromebook-offer";
+    "https://www.decentr.net"; ///chromebook/renew-chromebook-offer";
 
 // The URL for the EOL incentive with no offer.
 inline constexpr char kEolIncentiveNotificationNoOfferURL[] =
-    "https://www.google.com/chromebook/renew-chromebook";
+    "https://www.decentr.net"; ///chromebook/renew-chromebook";
 
 // The URL for Auto Update Policy.
 inline constexpr char16_t kAutoUpdatePolicyURL[] =
-    u"https://support.google.com/chrome/a?p=auto-update-policy";
+    u"https://support.decentr.net"; ///chrome/a?p=auto-update-policy";
 
 // The URL for providing more information about Google nameservers.
 inline constexpr char kGoogleNameserversLearnMoreURL[] =
-    "https://developers.google.com/speed/public-dns";
+    "https://developers.decentr.net"; ///speed/public-dns";
 
 // The URL for the "learn more" link for Instant Tethering.
 inline constexpr char kInstantTetheringLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=instant_tethering";
+    "https://support.decentr.net"; ///chromebook?p=instant_tethering";
 
 // The URL for the "learn more" link for Chromebook hotspot.
 inline constexpr char kChromebookHotspotLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=chromebook_hotspot";
+    "https://support.decentr.net"; ///chromebook?p=chromebook_hotspot";
 
 // The URL for the "learn more" link for cellular carrier lock.
 // TODO(b/293463820): Replace the link with carrier lock link once ready.
 inline constexpr char kCellularCarrierLockLearnMoreURL[] =
-    "https://support.google.com/chromebook";
+    "https://support.decentr.net"; ///chromebook";
 
 // The URL for the "Learn more" link for Kerberos accounts.
 inline constexpr char kKerberosAccountsLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=kerberos_accounts";
+    "https://support.decentr.net"; ///chromebook?p=kerberos_accounts";
 
 // The URL for the "Learn more" link in the language settings.
 inline constexpr char16_t kLanguageSettingsLearnMoreUrl[] =
-    u"https://support.google.com/chromebook?p=order_languages";
+    u"https://support.decentr.net"; ///chromebook?p=order_languages";
 
 // The URL for the "Learn more" link in language settings regarding language
 // packs.
 inline constexpr char16_t kLanguagePacksLearnMoreURL[] =
-    u"https://support.google.com/chromebook?p=language_packs";
+    u"https://support.decentr.net"; ///chromebook?p=language_packs";
 
 // The URL for the Learn More page about enterprise enrolled devices.
 inline constexpr char kLearnMoreEnterpriseURL[] =
-    "https://support.google.com/chromebook?p=managed";
+    "https://support.decentr.net"; ///chromebook?p=managed";
 
 // The URL for the Learn More page about Linux for Chromebooks.
 inline constexpr char kLinuxAppsLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=chromebook_linuxapps";
+    "https://support.decentr.net"; ///chromebook?p=chromebook_linuxapps";
 
 // The URL for the "Learn more" link for natural scrolling on ChromeOS.
 inline constexpr char kNaturalScrollHelpURL[] =
-    "https://support.google.com/chromebook?p=simple_scrolling";
+    "https://support.decentr.net"; ///chromebook?p=simple_scrolling";
 
 // The URL for the "Learn more" link for scrolling acceleration on ChromeOS.
 // TODO(zhangwenyu): Update link once confirmed.
 inline constexpr char kControlledScrollingHelpURL[] =
-    "https://support.google.com/chromebook?p=simple_scrolling";
+    "https://support.decentr.net"; ///chromebook?p=simple_scrolling";
 
 // The URL for the "Learn more" link for touchpad haptic feedback on Chrome OS.
 inline constexpr char kHapticFeedbackHelpURL[] =
-    "https://support.google.com/chromebook?p=haptic_feedback_m100";
+    "https://support.decentr.net"; ///chromebook?p=haptic_feedback_m100";
 
 // The URL path to offline OEM EULA.
 inline constexpr char kOemEulaURLPath[] = "oem";
 
 inline constexpr char kOrcaSuggestionLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=copyeditor";
+    "https://support.decentr.net"; ///chromebook?p=copyeditor";
 
 // Help URL for the OS settings page's search feature.
 inline constexpr char kOsSettingsSearchHelpURL[] =
-    "https://support.google.com/chromebook?p=settings_search_help";
+    "https://support.decentr.net"; ///chromebook?p=settings_search_help";
 
 // The URL for the "Learn more" link in the peripheral data access protection
 // settings.
 inline constexpr char kPeripheralDataAccessHelpURL[] =
-    "https://support.google.com/chromebook?p=connect_thblt_usb4_accy";
+    "https://support.decentr.net"; ///chromebook?p=connect_thblt_usb4_accy";
 
 // The URL for the "Learn more" link for Enhanced network voices in Chrome OS
 // settings for Select-to-speak.
 inline constexpr char kSelectToSpeakLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=select_to_speak";
+    "https://support.decentr.net"; ///chromebook?p=select_to_speak";
 
 // The URL path to offline ARC++ Terms of Service.
 inline constexpr char kArcTermsURLPath[] = "arc/terms";
@@ -791,11 +795,11 @@ inline constexpr char kArcPrivacyPolicyURLPath[] = "arc/privacy_policy";
 
 // The URL path to Online Google EULA.
 inline constexpr char kGoogleEulaOnlineURLPath[] =
-    "https://policies.google.com/terms/embedded?hl=%s";
+    "https://policies.decentr.net"; ///terms/embedded?hl=%s";
 
 // The URL path to Online Chrome and Chrome OS terms of service.
 inline constexpr char kCrosEulaOnlineURLPath[] =
-    "https://www.google.com/intl/%s/chrome/terms/";
+    "https://www.decentr.net"; ///intl/%s/chrome/terms/";
 
 // The URL path to online ARC++ terms of service.
 inline constexpr char kArcTosOnlineURLPath[] =
@@ -803,41 +807,41 @@ inline constexpr char kArcTosOnlineURLPath[] =
 
 // The URL path to online privacy policy.
 inline constexpr char kPrivacyPolicyOnlineURLPath[] =
-    "https://policies.google.com/privacy/embedded";
+    "https://policies.decentr.net"; ///privacy/embedded";
 
 // The URL for the "learn more" link for TPM firmware update.
 inline constexpr char kTPMFirmwareUpdateLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=tpm_update";
+    "https://support.decentr.net"; ///chromebook?p=tpm_update";
 
 // The URL for the "Learn more" page for the time zone settings page.
 inline constexpr char kTimeZoneSettingsLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=chromebook_timezone&hl=%s";
+    "https://support.decentr.net"; ///chromebook?p=chromebook_timezone&hl=%s";
 
 // The URL for the "Learn more" page for screen privacy protections.
 inline constexpr char kSmartPrivacySettingsLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=screen_privacy_m100";
+    "https://support.decentr.net"; ///chromebook?p=screen_privacy_m100";
 
 // The URL for the "Learn more" page for the network file shares settings page.
 inline constexpr char kSmbSharesLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=network_file_shares";
+    "https://support.decentr.net"; ///chromebook?p=network_file_shares";
 
 // The URL for the "Learn more" page when the user tries to clean up their
 // Google Drive offline storage in the OS settings page.
 inline constexpr char kGoogleDriveCleanUpStorageLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=cleanup_offline_files";
+    "https://support.decentr.net"; ///chromebook?p=cleanup_offline_files";
 
 inline constexpr char kGoogleDriveOfflineLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=my_drive_cbx";
+    "https://support.decentr.net"; ///chromebook?p=my_drive_cbx";
 
 // The URL for the "Learn more" page for Speak-on-mute Detection in the privacy
 // hub page.
 inline constexpr char kSpeakOnMuteDetectionLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=mic-mute";
+    "https://support.decentr.net"; ///chromebook?p=mic-mute";
 
 // The URL for the "Learn more" page for the geolocation area in the privacy
 // hub page.
 inline constexpr char kPrivacyHubGeolocationLearnMoreURL[] =
-    "https://support.google.com/chromebook/?p=manage_your_location";
+    "https://support.decentr.net"; ///chromebook/?p=manage_your_location";
 
 // The URL for the "Learn more" page for the Location Accuracy setting under the
 // privacy hub location subpage.
@@ -846,7 +850,7 @@ inline constexpr char16_t kPrivacyHubGeolocationAccuracyLearnMoreURL[] =
 
 // The URL for the "Learn more" page for Suggested Content in the privacy page.
 inline constexpr char kSuggestedContentLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=explorecontent";
+    "https://support.decentr.net"; ///chromebook?p=explorecontent";
 
 // The URL to a support article with more information about gestures available
 // in tablet mode on Chrome OS (gesture to go to home screen, overview, or to go
@@ -854,32 +858,32 @@ inline constexpr char kSuggestedContentLearnMoreURL[] =
 // navigation buttons in tablet mode (the buttons are hidden by default in
 // favour of the gestures in question).
 inline constexpr char kTabletModeGesturesLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=tablet_mode_gestures";
+    "https://support.decentr.net"; ///chromebook?p=tablet_mode_gestures";
 
 // The URL for the help center article about Wi-Fi sync.
 inline constexpr char kWifiSyncLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=wifisync";
+    "https://support.decentr.net"; ///chromebook?p=wifisync";
 
 // The URL for the help center article about hidden Wi-Fi networks.
 inline constexpr char kWifiHiddenNetworkURL[] =
-    "https://support.google.com/chromebook?p=hidden_networks";
+    "https://support.decentr.net"; ///chromebook?p=hidden_networks";
 
 // The URL for the help center article about Passpoint.
 inline constexpr char kWifiPasspointURL[] =
-    "https://support.google.com/chromebook?p=wifi_passpoint";
+    "https://support.decentr.net"; ///chromebook?p=wifi_passpoint";
 
 // The URL for contacts management in Nearby Share feature.
 inline constexpr char16_t kNearbyShareManageContactsURL[] =
-    u"https://contacts.google.com";
+    u"https://contacts.decentr.net"; //";
 
 // The URL for the help center article about fingerprint on Chrome OS devices.
 inline constexpr char kFingerprintLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=chromebook_fingerprint";
+    "https://support.decentr.net"; ///chromebook?p=chromebook_fingerprint";
 
 // The URL for the help center article about local data recovery on Chrome OS
 // devices.
 inline constexpr char kRecoveryLearnMoreURL[] =
-    "https://support.google.com/chrome?p=local_data_recovery";
+    "https://support.decentr.net"; ///chrome?p=local_data_recovery";
 
 // The URL for the learn more link about extended automatic updates for
 // ChromeOS devices.
@@ -894,11 +898,11 @@ inline constexpr char kYoutubeMusicPremiumURL[] =
 #if BUILDFLAG(IS_MAC)
 // "Learn more" URL for the enterprise sign-in confirmation dialog.
 inline constexpr char kChromeEnterpriseSignInLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=is_chrome_managed";
+    "https://support.decentr.net"; ///chromebook?p=is_chrome_managed";
 
 // The URL for the "learn more" link on the macOS version obsolescence infobar.
 inline constexpr char kMacOsObsoleteURL[] =
-    "https://support.google.com/chrome?p=unsupported_mac";
+    "https://support.decentr.net"; ///chrome?p=unsupported_mac";
 #endif
 
 #if BUILDFLAG(IS_WIN)
@@ -909,33 +913,33 @@ inline constexpr char kWindowsXPVistaDeprecationURL[] =
 
 // The URL for the Windows 7/8.1 deprecation help center article.
 inline constexpr char kWindows78DeprecationURL[] =
-    "https://support.google.com/chrome?p=unsupported_windows";
+    "https://support.decentr.net"; ///chrome?p=unsupported_windows";
 #endif
 
 // "Learn more" URL for the one click signin infobar.
 inline constexpr char kChromeSyncLearnMoreURL[] =
-    "https://support.google.com/chrome?p=chrome_sync";
+    "https://support.decentr.net"; ///chrome?p=chrome_sync";
 
 #if BUILDFLAG(ENABLE_PLUGINS)
 // The URL for the "Learn more" page for the outdated plugin infobar.
 inline constexpr char kOutdatedPluginLearnMoreURL[] =
-    "https://support.google.com/chrome?p=ib_outdated_plugin";
+    "https://support.decentr.net"; ///chrome?p=ib_outdated_plugin";
 #endif
 
 // "Learn more" URL for the phone hub notifications and apps access setup.
 // TODO (b/184137843): Use real link to phone hub notifications and apps access.
 inline constexpr char kPhoneHubPermissionLearnMoreURL[] =
-    "https://support.google.com/chromebook?p=multidevice";
+    "https://support.decentr.net"; ///chromebook?p=multidevice";
 
 #if BUILDFLAG(IS_WIN) || BUILDFLAG(IS_MAC) || BUILDFLAG(IS_LINUX)
 // "Learn more" URL for the chrome apps deprecation dialog.
 inline constexpr char kChromeAppsDeprecationLearnMoreURL[] =
-    "https://support.google.com/chrome?p=chrome_app_deprecation";
+    "https://support.decentr.net"; ///chrome?p=chrome_app_deprecation";
 #endif
 
 #if BUILDFLAG(CHROME_ROOT_STORE_SUPPORTED)
 inline constexpr char kChromeRootStoreSettingsHelpCenterURL[] =
-    "https://support.google.com/chrome?p=root_store";
+    "https://support.decentr.net"; ///chrome?p=root_store";
 #endif
 
 // Please do not append entries here. See the comments at the top of the file.
