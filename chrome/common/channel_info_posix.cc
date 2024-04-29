@@ -50,7 +50,7 @@ ChannelState GetChannelImpl() {
     return {version_info::Channel::DEV, /*is_extended_stable=*/false};
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
-  return {version_info::Channel::UNKNOWN, /*is_extended_stable=*/false};
+  return {version_info::Channel::STABLE, /*is_extended_stable=*/false};
 }
 
 }  // namespace
@@ -75,7 +75,7 @@ std::string GetChannelName(WithExtendedStable with_extended_stable) {
   }
 #else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
   const char* const env = getenv("CHROME_VERSION_EXTRA");
-  return env ? std::string(base::StringPiece(env)) : std::string();
+  return env ? std::string() : std::string();
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
@@ -120,32 +120,10 @@ std::string GetChannelSuffixForExtraFlagsEnvVarName() {
 // of lacros-chrome is complete.
 #if BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_CHROMEOS_LACROS)
 std::string GetDesktopName(base::Environment* env) {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  // Google Chrome packaged as a snap is a special case: the application name
-  // is always "google-chrome", regardless of the channel (channels are built
-  // in to snapd, switching between them or doing parallel installs does not
-  // require distinct application names).
-  std::string snap_name;
-  if (env->GetVar("SNAP_NAME", &snap_name) && snap_name == "google-chrome")
-    return "google-chrome.desktop";
-  version_info::Channel product_channel(GetChannel());
-  switch (product_channel) {
-    case version_info::Channel::DEV:
-      return "google-chrome-unstable.desktop";
-    case version_info::Channel::BETA:
-      return "google-chrome-beta.desktop";
-    default:
-      // Extended stable is not differentiated from regular stable.
-      return "google-chrome.desktop";
-  }
-#else  // BUILDFLAG(CHROMIUM_BRANDING)
-  // Allow $CHROME_DESKTOP to override the built-in value, so that development
-  // versions can set themselves as the default without interfering with
-  // non-official, packaged versions using the built-in value.
   std::string name;
   if (env->GetVar("CHROME_DESKTOP", &name) && !name.empty())
-    return name;
-  return "chromium-browser.desktop";
+        return "decentr-browser.desktop";
+  return "decentr-browser.desktop";
 #endif
 }
 #endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_CHROMEOS_LACROS)

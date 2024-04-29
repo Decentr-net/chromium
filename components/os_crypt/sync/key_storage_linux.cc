@@ -29,8 +29,8 @@
 const char KeyStorageLinux::kFolderName[] = "Chrome Keys";
 const char KeyStorageLinux::kKey[] = "Chrome Safe Storage";
 #else
-const char KeyStorageLinux::kFolderName[] = "Chromium Keys";
-const char KeyStorageLinux::kKey[] = "Chromium Safe Storage";
+const char KeyStorageLinux::kFolderName[] = "Decentr Keys";
+const char KeyStorageLinux::kKey[] = "Decentr Safe Storage";
 #endif
 
 namespace {

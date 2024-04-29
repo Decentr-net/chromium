@@ -752,6 +752,7 @@ Called by update_extension_histograms.py.-->
   <int value="554"
       label="ACCESSIBILITY_PRIVATE_ON_SELECT_TO_SPEAK_FOCUS_CHANGED"/>
   <int value="555" label="TTS_ON_VOICES_CHANGED"/>
+  <int value="556" label="DECENTR_ON_CHANGED"/>
 </enum>
 
 <enum name="ExtensionForceInstalledPreInstalledDeprecatedSite">
@@ -2723,6 +2724,8 @@ Called by update_extension_histograms.py.-->
   <int value="1871"
       label="ODFSCONFIGPRIVATE_ISFILESYSTEMPROVIDERCLOUDFILESYSTEMENABLED"/>
   <int value="1872" label="PDFVIEWERPRIVATE_SETPDFDOCUMENTTITLE"/>
+  <int value="1873" label="DECENTR_GET"/>
+  <int value="1874" label="DECENTR_SET"/>
 </enum>
 
 <enum name="ExtensionInstallationCrxInstallError">
@@ -3099,6 +3102,7 @@ Called by update_extension_permission.py.-->
   <int value="255" label="kEnterpriseKioskInput"/>
   <int value="256" label="kOdfsConfigPrivate"/>
   <int value="257" label="kChromeOSManagementAudio"/>
+  <int value="258" label="kDecentr"/>
 </enum>
 
 <enum name="ExtensionPolicyReinstallReason">

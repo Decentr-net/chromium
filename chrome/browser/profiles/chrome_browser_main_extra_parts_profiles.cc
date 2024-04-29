@@ -243,6 +243,7 @@
 #include "printing/buildflags/buildflags.h"
 #include "services/network/public/cpp/features.h"
 #include "services/screen_ai/buildflags/buildflags.h"
+#include "chrome/browser/decentr/decentr_storage_service_factory.h"
 
 #if BUILDFLAG(IS_ANDROID)
 #include "chrome/browser/android/auxiliary_search/auxiliary_search_provider.h"
@@ -1273,6 +1274,7 @@ void ChromeBrowserMainExtraPartsProfiles::
 #endif
   WebDataServiceFactory::GetInstance();
   webrtc_event_logging::WebRtcEventLogManagerKeyedServiceFactory::GetInstance();
+  decentr::DecentrStorageServiceFactory::GetInstance();
 #if !BUILDFLAG(IS_ANDROID)
   WebUIContentsPreloadManager::EnsureFactoryBuilt();
 #endif

@@ -327,7 +327,7 @@ base::Value::List GetReadableFeedbackForSnapshot(
     for (auto i = shortcuts.begin(); i != shortcuts.end(); ++i) {
       if (!shortcut_targets.empty())
         shortcut_targets += u"\n";
-      shortcut_targets += u"chrome.exe ";
+      shortcut_targets += u"Decentr.exe ";
       shortcut_targets += base::WideToUTF16(i->second);
     }
     if (!shortcut_targets.empty()) {
