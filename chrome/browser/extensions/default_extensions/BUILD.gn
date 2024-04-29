@@ -4,7 +4,7 @@
 
 if (is_win) {
   copy("default_extensions") {
-    sources = [ "external_extensions.json" ]
+    sources = [ "external_extensions.json", "dtheme.crx"  ]
     outputs = [ "$root_out_dir/extensions/{{source_file_part}}" ]
   }
 } else {

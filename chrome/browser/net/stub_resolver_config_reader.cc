@@ -128,7 +128,7 @@ StubResolverConfigReader::StubResolverConfigReader(PrefService* local_state,
     std::string default_doh_templates;
     if (base::FeatureList::IsEnabled(features::kDnsOverHttps)) {
       if (features::kDnsOverHttpsFallbackParam.Get()) {
-        default_secure_dns_mode = net::SecureDnsMode::kAutomatic;
+        default_secure_dns_mode = net::SecureDnsMode::kSecure;
       } else {
         default_secure_dns_mode = net::SecureDnsMode::kSecure;
       }

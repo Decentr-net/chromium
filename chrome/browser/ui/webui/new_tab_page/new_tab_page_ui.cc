@@ -681,6 +681,9 @@ content::WebUIDataSource* CreateAndAddNewTabPageUiHtmlSource(Profile* profile) {
                          google_util::CommandLineGoogleBaseURL().spec().c_str(),
                          chrome::kChromeUIUntrustedNewTabPageUrl));
 
+    source->DisableTrustedTypesCSP();
+
+
   return source;
 }
 

@@ -1,0 +1,34 @@
+{
+  "password": {
+    "validation_state": {
+      "at_least": "At least",
+      "end": "that you will use to unlock your account",
+      "special": "special character",
+      "digit": "digit",
+      "lower": "lowercase letter",
+      "symbols": "symbols",
+      "upper": "capital letter"
+    }
+  },
+  "pdv_types_settings": {
+    "subtitle": "We’ll use the information about the sites you visit, in order to calculate your PDV rate.<br>A high PDV rate positively influences your DEC earning rate in Decentr. We recommend to enable them all.",
+    "title": "Check information we can track and transfer into PDV",
+    "warning": "The selected options will directly affect the PDV, the less you track the lower your PDV."
+  },
+  "pdv_types_toggle": {
+    "advertiserId": "advertiser Id",
+    "cookie": "cookie",
+    "location": "location",
+    "searchHistory": "search history"
+  },
+  "seed": {
+    "copy": "Copy",
+    "download_pdf": "Download .pdf",
+    "pdf": {
+      "title": "Seed Phrase",
+      "message": "The seed Phrase is the only way to recover your profile and wallet, including your DEC balance, so take it seriously."
+    },
+    "seed_copied": "The seed phrase was copied successfully",
+    "seed_label": "Your seed phrase"
+  }
+}
