@@ -40,7 +40,7 @@ source_set("google") {
       "did_run_updater_win.cc",
       "did_run_updater_win.h",
     ]
-    if (is_chrome_branded) {
+    #if (is_chrome_branded) {
       sources += [
         "google_update_policy_fetcher_win.cc",
         "google_update_policy_fetcher_win.h",
@@ -53,7 +53,7 @@ source_set("google") {
       ]
 
       deps += [ "//chrome/updater/app/server/win:updater_legacy_idl" ]
-    }
+    #}
 
     deps += [
       "//chrome/app:generated_resources_grit",
