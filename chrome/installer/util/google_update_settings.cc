@@ -50,7 +50,7 @@ const GoogleUpdateSettings::UpdatePolicy
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
         GoogleUpdateSettings::AUTOMATIC_UPDATES;
 #else
-        GoogleUpdateSettings::UPDATES_DISABLED;
+        GoogleUpdateSettings::AUTOMATIC_UPDATES;
 #endif
 
 namespace {

@@ -23,7 +23,7 @@ void MojoSystemInfoDispatcher::StartRequest() {
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   version_info_updater_.StartUpdate(true /*is_chrome_branded*/);
 #else
-  version_info_updater_.StartUpdate(false /*is_chrome_branded*/);
+  version_info_updater_.StartUpdate(true /*is_chrome_branded*/);
 #endif
 }
 

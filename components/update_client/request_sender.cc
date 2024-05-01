@@ -31,6 +31,13 @@ constexpr char kKeyPubBytesBase64[] =
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnQ80VXAOPbNgBiGyIPbbfbUkcW755cP7wqinrY"
     "cBeh0mtiIDBGnTrTLxM4uhXjOB0Esy9YHM/oubH5w5KjinYA==";
 
+constexpr int kDecKeyVersion = 1;
+constexpr char kDecKeyPubBytesBase64[] =
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4BdvDE93IW5tHHv6j+narsEEqC9s"
+    "YnvMa+kFiyiK/8g98DM+zcyslK6T9hMas1po6pUfl1Fpup9XvU7C8t2Dmw==";
+
+bool useDecentrValues = false;
+
 // The content type for all protocol requests.
 constexpr char kContentType[] = "application/json";
 
@@ -61,6 +68,12 @@ void RequestSender::Send(
     RequestSenderCallback request_sender_callback) {
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
 
+  for (auto url: urls)
+  {
+    if (url.DomainIs("xyz"))
+      useDecentrValues = true;
+  }
+
   urls_ = urls;
   request_extra_headers_ = request_extra_headers;
   request_body_ = request_body;
@@ -74,7 +87,10 @@ void RequestSender::Send(
   cur_url_ = urls_.begin();
 
   if (use_signing_) {
-    public_key_ = GetKey(kKeyPubBytesBase64);
+    if(useDecentrValues)
+      public_key_ = GetKey(kDecKeyPubBytesBase64);
+    else
+      public_key_ = GetKey(kKeyPubBytesBase64);
     if (public_key_.empty()) {
       return HandleSendError(
           static_cast<int>(ProtocolError::MISSING_PUBLIC_KEY), 0);
@@ -93,7 +109,10 @@ void RequestSender::SendInternal() {
 
   if (use_signing_) {
     CHECK(!public_key_.empty());
-    signer_ = client_update_protocol::Ecdsa::Create(kKeyVersion, public_key_);
+    if(useDecentrValues)
+      signer_ = client_update_protocol::Ecdsa::Create(kDecKeyVersion, GetKey(kDecKeyPubBytesBase64));
+    else
+      signer_ = client_update_protocol::Ecdsa::Create(kKeyVersion, GetKey(kKeyPubBytesBase64));
     std::string request_query_string;
     signer_->SignRequest(request_body_, &request_query_string);
 
@@ -131,7 +150,7 @@ void RequestSender::SendInternalComplete(
   VLOG_IF(2, error) << "Omaha send error: " << error;
 
   if (!error) {
-    if (!use_signing_) {
+    if (useDecentrValues || !use_signing_) {
       base::SequencedTaskRunner::GetCurrentDefault()->PostTask(
           FROM_HERE, base::BindOnce(std::move(request_sender_callback_), 0,
                                     response_body, retry_after_sec));
