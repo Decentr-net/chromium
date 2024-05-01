@@ -590,6 +590,7 @@ void ComponentLoader::AddDefaultComponentExtensionsWithBackgroundPages(
   Add(IDR_CHARON_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("charon")));
   Add(IDR_COSMOS_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("cosmos")));
   Add(IDR_OWALET_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("owallet")));
+  Add(IDR_XDEFI_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("XDEFI")));
 }
 
 void ComponentLoader::

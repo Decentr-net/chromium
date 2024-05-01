@@ -1,0 +1,87 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+  "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsRye6tLMbm5o5zavMBOFD5wcWv0Tp4lSkSZT0gQ0fdYZjz+s7z621nUVEv/1/Xpms6cwZ83IgsRvGIn0g3i2rxm7obEp2BM1tpbB8iys2iVxqiKPKcNRZNh/FlyD6hBevrF3O6KW1SmXvFXXH0JuDDaJk6x9xqcunl1+R8AgPOzq8NJJyrwRQwEm4SmtOKKnIzoEITuxRPjnP7fslA1UFvJfndNZuwT9R1A7/1JSXReC3NQu8lCG0l56GRhiAr883tLLWWU4NOBfZA4Tt5FNki/1aYetAyYsXa47jpsie8IL8SqyzUKnHlFk3wfeby/+DNipp9fFq8xnr4HvwXEvkQIDAQAB",
+  "manifest_version": 2,
+  "name": "XDEFI Wallet",
+  "version": "29.0.3",
+  "icons": {
+    "16": "assets/images/icons/white-bg/icon-16.png",
+    "32": "assets/images/icons/white-bg/icon-32.png",
+    "48": "assets/images/icons/white-bg/icon-48.png",
+    "128": "assets/images/icons/white-bg/icon-128.png"
+  },
+  "description": "Multichain wallet that displays all assets and NFTs on 200+ networks.",
+  "homepage_url": "https://xdefi.io",
+  "short_name": "XDEFI",
+  "permissions": [
+    "unlimitedStorage",
+    "alarms",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "__chrome|firefox__author": "xDeFi Technologies Ltd",
+  "__opera__developer": {
+    "name": "xDeFi Technologies Ltd"
+  },
+  "__firefox__applications": {
+    "gecko": {
+      "id": "{754FB1AD-CC3B-4856-B6A0-8888F8CA9D17}"
+    }
+  },
+  "__chrome__minimum_chrome_version": "49",
+  "__opera__minimum_opera_version": "36",
+  "browser_action": {
+    "default_popup": "app.html?popup=true",
+    "default_icon": {
+      "16": "assets/images/icons/white-bg/icon-16.png",
+      "32": "assets/images/icons/white-bg/icon-32.png",
+      "48": "assets/images/icons/white-bg/icon-48.png",
+      "128": "assets/images/icons/white-bg/icon-128.png"
+    },
+    "default_title": "XDEFI",
+    "__chrome|opera__chrome_style": false,
+    "__firefox__browser_style": false
+  },
+  "__chrome|opera__options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true,
+    "__chrome__chrome_style": false
+  },
+  "background": {
+    "scripts": [
+      "js/background.bundle.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "file://*/*"
+      ],
+      "js": [
+        "js/contentScript.bundle.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    "js/inPage.bundle.js"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U",
+        "windows": "Ctrl+Shift+U",
+        "mac": "Command+Shift+U",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+U"
+      },
+      "description": "Open Extensions Tab"
+    }
+  }
+}

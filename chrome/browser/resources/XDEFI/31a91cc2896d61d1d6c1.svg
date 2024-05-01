@@ -1,0 +1,52 @@
+<svg width="156" height="180" viewBox="0 0 156 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_41167_389601)">
+<rect x="26.1617" y="43.8087" width="96.6177" height="99.4412" rx="14.25" stroke="#2E3133" stroke-width="1.5"/>
+<path d="M26.1617 22.4118C26.1617 30.2818 32.5417 36.6617 40.4117 36.6617H108.529C116.399 36.6617 122.779 30.2818 122.779 22.4117V12.0441H26.1617V22.4118Z" stroke="url(#paint0_linear_41167_389601)" stroke-width="1.5"/>
+<path d="M144.176 81.2206C136.306 81.2206 129.926 87.6005 129.926 95.4706L129.926 126.176C129.926 134.047 136.306 140.426 144.176 140.426L154.544 140.426L154.544 81.2206L144.176 81.2206Z" stroke="url(#paint1_linear_41167_389601)" stroke-width="1.5"/>
+<path d="M26.1617 164.647C26.1617 156.777 32.5417 150.397 40.4117 150.397H64.0588C71.9289 150.397 78.3088 156.777 78.3088 164.647V167.956H26.1617V164.647Z" stroke="url(#paint2_linear_41167_389601)" stroke-width="1.5"/>
+<path d="M4.76472 43.8087C12.6348 43.8087 19.0147 50.1887 19.0147 58.0587L19.0147 81.7058C19.0147 89.5758 12.6348 95.9558 4.76471 95.9558L1.45588 95.9558L1.45589 43.8087L4.76472 43.8087Z" stroke="url(#paint3_linear_41167_389601)" stroke-width="1.5"/>
+<g filter="url(#filter0_d_41167_389601)">
+<circle cx="50.1176" cy="43.7646" r="2.11765" fill="#6BAEFF"/>
+</g>
+<ellipse cx="25.7647" cy="114" rx="1.76471" ry="1.76471" fill="#2E3133"/>
+<ellipse cx="19.4117" cy="58.2353" rx="1.76471" ry="1.76471" fill="#2E3133"/>
+<ellipse cx="121.059" cy="32.8234" rx="1.76471" ry="1.76471" fill="#2E3133"/>
+<ellipse cx="129.529" cy="95.647" rx="1.76471" ry="1.76471" fill="#2E3133"/>
+<rect x="31.0588" y="48.7058" width="86.8235" height="26.1176" rx="8" fill="#4B4F52"/>
+<rect x="31.5588" y="80.9706" width="85.8235" height="25.1176" rx="7.5" stroke="#4B4F52" stroke-dasharray="2 2"/>
+<rect x="31.0588" y="112.235" width="86.8235" height="26.1176" rx="8" fill="#4476F2"/>
+<path d="M50.7794 61.7647C50.7794 65.4439 47.7968 68.4264 44.1176 68.4264C40.4384 68.4264 37.4559 65.4439 37.4559 61.7647C37.4559 58.0855 40.4384 55.1029 44.1176 55.1029C47.7968 55.1029 50.7794 58.0855 50.7794 61.7647Z" stroke="white" stroke-width="1.5"/>
+</g>
+<defs>
+<filter id="filter0_d_41167_389601" x="35" y="28.647" width="30.2353" height="30.2354" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_41167_389601"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.619608 0 0 0 0 0.792157 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_41167_389601"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_41167_389601" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_41167_389601" x1="74.8235" y1="37.4117" x2="74.8235" y2="11.2941" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4B4F52"/>
+<stop offset="1" stop-color="#2E3133" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_41167_389601" x1="129.176" y1="111.042" x2="155.294" y2="111.042" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E3133"/>
+<stop offset="1" stop-color="#2E3133" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear_41167_389601" x1="52.4282" y1="149.647" x2="52.4283" y2="168.706" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4B4F52"/>
+<stop offset="1" stop-color="#2E3133" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear_41167_389601" x1="19.7647" y1="70.0752" x2="0.705884" y2="70.0752" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2E3133"/>
+<stop offset="1" stop-color="#2E3133" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_41167_389601">
+<rect width="154.588" height="180" fill="white" transform="translate(0.705872)"/>
+</clipPath>
+</defs>
+</svg>

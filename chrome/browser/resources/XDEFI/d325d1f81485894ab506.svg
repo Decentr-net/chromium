@@ -1,0 +1,21 @@
+<svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_3742_107769)">
+        <rect width="400" height="600" fill="#1C1E1F"/>
+        <rect x="207" y="433" width="48" height="48" rx="4" fill="#2B2B2B"/>
+        <rect x="207" y="497" width="48" height="48" rx="4" fill="#2B2B2B"/>
+        <rect x="207" y="561" width="48" height="48" rx="4" fill="#2B2B2B"/>
+        <rect x="270" y="416" width="32" height="32" rx="4" fill="#2B2B2B"/>
+        <rect x="270" y="458.667" width="32" height="32" rx="4" fill="#2B2B2B"/>
+        <rect x="270" y="501.333" width="32" height="32" rx="4" fill="#2B2B2B"/>
+        <rect x="312" y="399" width="24" height="24" rx="4" fill="#2B2B2B"/>
+        <rect x="312" y="431" width="24" height="24" rx="4" fill="#2B2B2B"/>
+        <rect x="312" y="463" width="24" height="24" rx="4" fill="#2B2B2B"/>
+        <circle cx="97.5" cy="574.5" r="74.5" fill="#2B2B2B"/>
+        <rect x="302" y="603.02" width="161.249" height="161.249" rx="16" transform="rotate(-45 302 603.02)" fill="#2B2B2B"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_3742_107769">
+            <rect width="400" height="600" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
