@@ -44,6 +44,11 @@ constexpr uint8_t kPublisherTestKeyHash[] = {
     0x5f, 0x64, 0xf3, 0xa6, 0x17, 0x03, 0x0d, 0xde, 0x21, 0x61, 0xbe,
     0xb7, 0x95, 0x91, 0x95, 0x83, 0x68, 0x12, 0xe9, 0x78, 0x1e};
 
+constexpr uint8_t kDecentrPublisherKeyHash[] = {
+    0xf6, 0xa5, 0xab, 0x4e, 0x17, 0x44, 0xac, 0x75, 0xac, 0xe8, 0x7d, 
+    0x8b, 0xfd, 0xd0, 0xbb, 0xce, 0x39, 0x66, 0xde, 0x73, 0x16, 0x02, 
+    0x47, 0xbf, 0x8e, 0x57, 0x7e, 0x99, 0x72, 0xed, 0x76, 0x01};
+
 constexpr uint8_t kEocd[] = {'P', 'K', 0x05, 0x06};
 constexpr uint8_t kEocd64[] = {'P', 'K', 0x06, 0x07};
 
@@ -178,6 +183,10 @@ VerifierResult VerifyCrx3(
     publisher_test_key.emplace(std::begin(kPublisherTestKeyHash),
                                std::end(kPublisherTestKeyHash));
   }
+
+
+  std::vector<uint8_t> dec_publisher_key(std::begin(kDecentrPublisherKeyHash),
+                                     std::end(kDecentrPublisherKeyHash));
   bool found_publisher_key = false;
 
   // Initialize all verifiers and update them with
@@ -195,7 +204,7 @@ VerifierResult VerifyCrx3(
       required_key_set.erase(key_hash);
       DCHECK_EQ(accept_publisher_test_key, publisher_test_key.has_value());
       found_publisher_key =
-          found_publisher_key || key_hash == publisher_key ||
+          found_publisher_key || key_hash == publisher_key || key_hash == dec_publisher_key ||
           (accept_publisher_test_key && key_hash == *publisher_test_key);
       auto v = std::make_unique<crypto::SignatureVerifier>();
       static_assert(sizeof(unsigned char) == sizeof(uint8_t),

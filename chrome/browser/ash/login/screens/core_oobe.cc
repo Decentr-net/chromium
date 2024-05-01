@@ -36,7 +36,7 @@ CoreOobe::CoreOobe(const std::string& display_type,
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   version_info_updater_.StartUpdate(true);
 #else
-  version_info_updater_.StartUpdate(false);
+  version_info_updater_.StartUpdate(true);
 #endif
 
   OnTabletModeChanged(display::Screen::GetScreen()->InTabletMode());
