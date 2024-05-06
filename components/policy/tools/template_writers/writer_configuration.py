@@ -26,24 +26,24 @@ def GetConfigurationForBuild(defines):
   # 'messages' in policy_templates.json.
   if '_chromium' in defines:
     config = {
-        'build': 'chromium',
-        'app_name': 'Chromium',
+        'build': 'decentr',
+        'app_name': 'Decentr',
         'doc_url': 'https://chromeenterprise.google/policies/',
-        'frame_name': 'Chromium Frame',
+        'frame_name': 'decentr Frame',
         'os_name': 'ChromiumOS',
-        'webview_name': 'Chromium WebView',
+        'webview_name': 'Decentr WebView',
         'win_config': {
             'win': {
-                'reg_mandatory_key_name': 'Software\\Policies\\Chromium',
+                'reg_mandatory_key_name': 'Software\\Policies\\Decentr',
                 'reg_recommended_key_name':
-                'Software\\Policies\\Chromium\\Recommended',
-                'mandatory_category_path': ['chromium'],
-                'recommended_category_path': ['chromium_recommended'],
+                'Software\\Policies\\Decentr\\Recommended',
+                'mandatory_category_path': ['decentr'],
+                'recommended_category_path': ['decentr_recommended'],
                 'category_path_strings': {
-                    'chromium': 'Chromium',
-                    'chromium_recommended': 'Chromium - {doc_recommended}',
+                    'chromium': 'Decentr',
+                    'chromium_recommended': 'Decentr - {doc_recommended}',
                 },
-                'namespace': 'Chromium.Policies.Chromium',
+                'namespace': 'Decentr.Policies.Decentr',
             },
             'chrome_os': {
                 'reg_mandatory_key_name': 'Software\\Policies\\ChromiumOS',
@@ -58,14 +58,14 @@ def GetConfigurationForBuild(defines):
                 'namespace': 'Chromium.Policies.ChromiumOS'
             },
         },
-        'admx_prefix': 'chromium',
-        'linux_policy_path': '/etc/chromium/policies/',
-        'bundle_id': 'org.chromium',
+        'admx_prefix': 'decentr',
+        'linux_policy_path': '/etc/decentr/policies/',
+        'bundle_id': 'com.decentr',
     }
   elif '_google_chrome' in defines or '_is_chrome_for_testing_branded' in defines:
     if '_google_chrome' in defines:
-      linux_policy_path = '/etc/opt/chrome/policies/'
-      win_policy_path = 'Software\\Policies\\Google\\Chrome'
+      linux_policy_path = '/etc/opt/decentr/policies/'
+      win_policy_path = 'Software\\Policies\\Decentr'
     else:
       linux_policy_path = '/etc/opt/chrome_for_testing/policies/'
       win_policy_path = 'Software\\Policies\\Google\\Chrome for Testing'

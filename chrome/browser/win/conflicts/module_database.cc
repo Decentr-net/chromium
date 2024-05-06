@@ -17,7 +17,6 @@
 #include "content/public/browser/browser_task_traits.h"
 #include "content/public/browser/browser_thread.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "base/feature_list.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/win/conflicts/incompatible_applications_updater.h"
@@ -28,13 +27,11 @@
 #include "components/prefs/pref_change_registrar.h"
 #include "components/prefs/pref_registry_simple.h"
 #include "components/prefs/pref_service.h"
-#endif
 
 namespace {
 
 ModuleDatabase* g_module_database = nullptr;
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // Callback for the pref change registrar. Is invoked when the
 // ThirdPartyBlockingEnabled policy is modified. Notifies the ModuleDatabase if
 // the policy was disabled.
@@ -67,7 +64,6 @@ void InitPrefChangeRegistrarOnUIThread(
       base::BindRepeating(&OnThirdPartyBlockingPolicyChanged,
                           pref_change_registrar));
 }
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 }  // namespace
 
@@ -82,9 +78,7 @@ ModuleDatabase::ModuleDatabase(bool third_party_blocking_policy_enabled)
       has_started_processing_(false),
       shell_extensions_enumerated_(false),
       ime_enumerated_(false),
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
       pref_change_registrar_(nullptr, base::OnTaskRunnerDeleter(nullptr)),
-#endif
       // ModuleDatabase owns |module_inspector_|, so it is safe to use
       // base::Unretained().
       module_inspector_(base::BindRepeating(&ModuleDatabase::OnModuleInspected,
@@ -92,10 +86,8 @@ ModuleDatabase::ModuleDatabase(bool third_party_blocking_policy_enabled)
   AddObserver(&module_inspector_);
   AddObserver(&third_party_metrics_);
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   MaybeInitializeThirdPartyConflictsManager(
       third_party_blocking_policy_enabled);
-#endif
 }
 
 ModuleDatabase::~ModuleDatabase() {
@@ -130,13 +122,11 @@ void ModuleDatabase::SetInstance(
 }
 
 void ModuleDatabase::StartDrainingModuleLoadAttemptsLog() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // ModuleDatabase owns |module_load_attempt_log_listener_|, so it is safe to
   // use base::Unretained().
   module_load_attempt_log_listener_ =
       std::make_unique<ModuleLoadAttemptLogListener>(base::BindRepeating(
           &ModuleDatabase::OnModuleBlocked, base::Unretained(this)));
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
 bool ModuleDatabase::IsIdle() {
@@ -296,7 +286,6 @@ void ModuleDatabase::StartInspection() {
   module_inspector_.StartInspection();
 }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // static
 ModuleDatabase* ModuleDatabase::GetInstanceForTesting(
     std::unique_ptr<InstalledApplications> installed_applications) {
@@ -344,7 +333,6 @@ void ModuleDatabase::OnThirdPartyBlockingPolicyDisabled() {
   // point in keeping it around.
   pref_change_registrar_ = nullptr;
 }
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 bool ModuleDatabase::FindOrCreateModuleInfo(
     const base::FilePath& module_path,
@@ -420,7 +408,6 @@ void ModuleDatabase::NotifyLoadedModules(ModuleDatabaseObserver* observer) {
   }
 }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 void ModuleDatabase::OnThirdPartyBlockingDisabled() {
   third_party_metrics_.SetHookDisabled();
 
@@ -457,4 +444,3 @@ void ModuleDatabase::MaybeInitializeThirdPartyConflictsManager(
                        base::Unretained(pref_change_registrar_.get())));
   }
 }
-#endif

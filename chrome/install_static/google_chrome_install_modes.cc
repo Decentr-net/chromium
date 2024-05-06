@@ -32,7 +32,8 @@ const InstallConstants kInstallModes[] = {
         .install_suffix =
             L"",  // Empty install_suffix for the primary install mode.
         .logo_suffix = L"",  // No logo suffix for the primary install mode.
-        .app_guid = L"{8A69D345-D564-463c-AFF1-A69D9E530F96}",
+        //.app_guid = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",
+        .app_guid = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcd0}",
         .base_app_name = L"Google Chrome",        // A distinct base_app_name.
         .base_app_id = L"Chrome",                 // A distinct base_app_id.
         .browser_prog_id_prefix = L"ChromeHTML",  // Browser ProgID prefix.
@@ -42,7 +43,8 @@ const InstallConstants kInstallModes[] = {
         .pdf_prog_id_description =
             L"Chrome PDF Document",  // PDF ProgID description.
         .active_setup_guid =
-            L"{8A69D345-D564-463c-AFF1-A69D9E530F96}",  // Active Setup GUID.
+            //L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}}",  // Active Setup GUID.
+            L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcd0}}",  // Active Setup GUID.
         .legacy_command_execute_clsid =
             L"{5C65F4B0-3651-4514-B207-D10CB699B14B}",  // CommandExecuteImpl
                                                         // CLSID.

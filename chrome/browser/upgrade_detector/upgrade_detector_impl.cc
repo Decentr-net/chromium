@@ -83,7 +83,6 @@ bool ShouldDetectOutdatedBuilds() {
   // Outdated build detection is not relevant on ChromeOS platforms where
   // updates are handled differently than on other desktop platforms.
   return false;
-#endif
 }
 
 // Check if one of the outdated simulation switches was present on the command
@@ -471,7 +470,6 @@ void UpgradeDetectorImpl::Init() {
     variations_service->AddObserver(this);
   }
 
-#if BUILDFLAG(ENABLE_UPDATE_NOTIFICATIONS)
   // Start checking for outdated builds sometime after startup completes.
   content::GetUIThreadTaskRunner({base::TaskPriority::BEST_EFFORT})
       ->PostTask(
@@ -482,7 +480,6 @@ void UpgradeDetectorImpl::Init() {
   auto* const build_state = g_browser_process->GetBuildState();
   build_state->AddObserver(this);
   installed_version_poller_.emplace(build_state);
-#endif  // BUILDFLAG(ENABLE_UPDATE_NOTIFICATIONS)
 }
 
 void UpgradeDetectorImpl::Shutdown() {

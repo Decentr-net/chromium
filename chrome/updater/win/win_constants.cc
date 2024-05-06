@@ -6,12 +6,13 @@
 
 namespace updater {
 
-const wchar_t kLegacyGoogleUpdateAppID[] = L"" LEGACY_GOOGLE_UPDATE_APPID;
+const wchar_t kLegacyGoogleUpdateAppID[] = L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591676}";
+//const wchar_t kLegacyGoogleUpdateAppID[] = L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
 
 const wchar_t kGoogleUpdate3WebSystemClassProgId[] =
-    COMPANY_SHORTNAME_STRING L"Update.Update3WebMachine";
+    L"GoogleUpdate.Update3WebMachine";
 const wchar_t kGoogleUpdate3WebUserClassProgId[] =
-    COMPANY_SHORTNAME_STRING L"Update.Update3WebUser";
+    L"GoogleUpdate.Update3WebUser";
 
 const wchar_t kGlobalPrefix[] = L"Global\\G";
 
@@ -83,9 +84,9 @@ const wchar_t kRegValueDmToken[] = L"dmtoken";
 const wchar_t kWindowsServiceName[] = L"Service";
 const wchar_t kWindowsInternalServiceName[] = L"InternalService";
 
-const wchar_t kShutdownEvent[] = L"{A0C1F415-D2CE-4ddc-9B48-14E56FD55162}";
+const wchar_t kShutdownEvent[] = L"{a3ae06b5-0784-4ea3-b35b-a023a475f356}";
 
-const wchar_t kLegacyExeName[] = COMPANY_SHORTNAME_STRING L"Update.exe";
+const wchar_t kLegacyExeName[] = L"DecentrUpdate.exe";
 
 const wchar_t kLegacyServiceNamePrefix[] = L"" LEGACY_SERVICE_NAME_PREFIX;
 
