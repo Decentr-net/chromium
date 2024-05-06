@@ -67,7 +67,7 @@ class POLICY_EXPORT PolicyConversionsClient {
   // values. Enabled by default.
   void EnableShowMachineValues(bool enabled);
 
-#if BUILDFLAG(IS_WIN) && BUILDFLAG(GOOGLE_CHROME_BRANDING)
+#if BUILDFLAG(IS_WIN)
   base::Value::Dict ConvertUpdaterPolicies(
       PolicyMap updater_policies,
       std::optional<PolicyConversions::PolicyToSchemaMap>

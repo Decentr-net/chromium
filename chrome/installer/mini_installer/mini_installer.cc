@@ -66,7 +66,6 @@ void DeleteWithRetryAndMetrics(const wchar_t* path, int& max_delete_attempts) {
 // TODO(grt): Frame this in terms of whether or not the brand supports
 // integration with Omaha, where Google Update is the Google-specific fork of
 // the open-source Omaha project.
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // Opens the Google Update ClientState key for the current install mode.
 bool OpenInstallStateKey(const Configuration& configuration, RegKey* key) {
   const HKEY root_key =
@@ -176,7 +175,6 @@ void SetInstallerFlags(const Configuration& configuration) {
     }
   }
 }
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 // Gets the setup.exe path from Registry by looking at the value of Uninstall
 // string.  |size| is measured in wchar_t units.
@@ -918,7 +916,6 @@ ProcessExitResult WMain(HMODULE module) {
                          max_delete_attempts);
   }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   if (exit_code.IsSuccess()) {
     // Send up a signal in ExtraCode1 upon successful install indicating the
     // maximum number of retries needed to delete a file or directory by
@@ -930,7 +927,6 @@ ProcessExitResult WMain(HMODULE module) {
   } else {
     WriteInstallResults(configuration, exit_code);
   }
-#endif
 
   return exit_code;
 }
