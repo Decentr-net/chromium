@@ -6,12 +6,10 @@
 
 namespace google_update {
 
-const wchar_t kChromeUpgradeCode[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcd0}";
-//const wchar_t kChromeUpgradeCode[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
+const wchar_t kChromeUpgradeCode[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
 
 const wchar_t kGoogleUpdateUpgradeCode[] =
-    //L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
-    L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591676}";
+    L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
 
 const wchar_t kGoogleUpdateSetupExe[] = L"DecentrUpdateSetup.exe";
 

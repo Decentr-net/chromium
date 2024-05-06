@@ -24,8 +24,7 @@ const wchar_t kUpdateClientStateRegKey[] =
 const wchar_t kUpdateClientsRegKey[] = L"Software\\Decentr\\Update\\Clients";
 
 // Copied from google_chrome_install_modes.cc.
-//const wchar_t kBrowserAppGuid[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
-const wchar_t kBrowserAppGuid[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcd0}";
+const wchar_t kBrowserAppGuid[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
 const wchar_t kSxSBrowserAppGuid[] = L"{4ea16ac7-fd5a-47c3-875b-dbf4a2008c20}";
 
 // Copied from util_constants.cc.

@@ -33,8 +33,7 @@ const InstallConstants kInstallModes[] = {
             L"",  // Empty install_suffix for the primary install mode.
         .logo_suffix = L"",  // No logo suffix for the primary install mode.
         .app_guid =
-            L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcd0}",  // Empty app_guid since no integration with Google Update.
-            //L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",  // Empty app_guid since no integration with Google Update.
+            L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",  // Empty app_guid since no integration with Google Update.
         .base_app_name = L"Decentr",              // A distinct base_app_name.
         .base_app_id = L"Decentr",                // A distinct base_app_id.
         .browser_prog_id_prefix = L"DecentrHTM",  // Browser ProgID prefix.
@@ -44,8 +43,7 @@ const InstallConstants kInstallModes[] = {
         .pdf_prog_id_description =
             L"Decentr PDF Document",  // PDF ProgID description.
         .active_setup_guid =
-            L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcd0}",  // Active Setup GUID.
-            //L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",  // Active Setup GUID.
+            L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",  // Active Setup GUID.
         .legacy_command_execute_clsid =
             L"{A2DF06F9-A21A-44A8-8A99-8B9C84F29160}",  // CommandExecuteImpl
                                                         // CLSID.
