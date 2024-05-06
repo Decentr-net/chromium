@@ -126,7 +126,6 @@ std::string GetDesktopName(base::Environment* env) {
   return "decentr-browser.desktop";
 #endif
 }
-#endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_CHROMEOS_LACROS)
 
 version_info::Channel GetChannel() {
   return GetChannelImpl().channel;
