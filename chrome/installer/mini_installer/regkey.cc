@@ -94,10 +94,8 @@ LONG OpenClientsKey(HKEY root_key,
   StackString<MAX_PATH> clients_key;
   if (!clients_key.assign(kClientsKeyBase))
     return ERROR_BUFFER_OVERFLOW;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   if (!clients_key.append(app_guid))
     return ERROR_BUFFER_OVERFLOW;
-#endif
   return key->Open(root_key, clients_key.get(), access | KEY_WOW64_32KEY);
 }
 
@@ -109,10 +107,8 @@ LONG OpenClientStateKey(HKEY root_key,
   StackString<MAX_PATH> client_state_key;
   if (!client_state_key.assign(kClientStateKeyBase))
     return ERROR_BUFFER_OVERFLOW;
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   if (!client_state_key.append(app_guid))
     return ERROR_BUFFER_OVERFLOW;
-#endif
   return key->Open(root_key, client_state_key.get(), access | KEY_WOW64_32KEY);
 }
 

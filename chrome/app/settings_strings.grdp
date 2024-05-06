@@ -4227,7 +4227,6 @@
   </if>
 
   <!-- Incompatible Applications Page -->
-  <if expr="is_win and _google_chrome">
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_RESET_CARD_TITLE" desc="The title of the Incompatible Applications section of the settings.">
       Update or remove incompatible applications
     </message>
@@ -4258,7 +4257,6 @@
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_DONE" desc="This message is displayed when the Incompatible Applications section is empty. This is possible when the user starts interacting with the section and update/remove the applications in the list.">
       Done! No incompatible applications found.
     </message>
-  </if>
 
   <message name="IDS_PAGE_NOT_AVAILABLE_FOR_GUEST_HEADING" desc="This is the heading for the page not available for guest.">
     <ph name="PAGE_NAME">$1<ex>Bookmarks</ex></ph> is not available to Guest users.

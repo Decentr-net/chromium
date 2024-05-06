@@ -6360,7 +6360,6 @@ static_library("browser") {
 
     all_dependent_configs = [ ":browser_win_linker_flags" ]
 
-    if (is_chrome_branded) {
       deps += [
         "//chrome/chrome_elf:sha1",
         "//chrome/chrome_elf:third_party_shared_defines",
@@ -6397,7 +6396,6 @@ static_library("browser") {
         "win/conflicts/uninstall_application.cc",
         "win/conflicts/uninstall_application.h",
       ]
-    }
   } else {
     # Non - Windows.
     sources += [

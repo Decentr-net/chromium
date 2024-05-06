@@ -58,9 +58,7 @@
 #include "third_party/abseil-cpp/absl/cleanup/cleanup.h"
 #include "ui/base/ui_base_switches.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "chrome/updater/app/server/win/updater_legacy_idl.h"
-#endif
 
 namespace {
 
@@ -211,7 +209,6 @@ Microsoft::WRL::ComPtr<IUnknown> CreateProcessLauncher() {
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 bool InvokeGoogleUpdateForRename() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // This has been identified as very slow on some startups. Detailed trace
   // events below try to shine a light on each steps. crbug.com/1252004
   TRACE_EVENT0("startup", "upgrade_util::InvokeGoogleUpdateForRename");
@@ -275,9 +272,6 @@ bool InvokeGoogleUpdateForRename() {
   TRACE_EVENT0("startup", "InvokeGoogleUpdateForRename RENAME_SUCCESSFUL");
 
   return true;
-#else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  return false;
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
 }  // namespace

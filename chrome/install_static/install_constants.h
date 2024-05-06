@@ -19,7 +19,6 @@ namespace install_static {
 
 // Identifies different strategies for determining an update channel.
 enum class ChannelStrategy {
-#if BUILDFLAG(USE_GOOGLE_UPDATE_INTEGRATION)
   // The default update channel may be overridden by an explicit value. The
   // installer gets this value on the command line (--channel=name), whereas the
   // browser gets this value from the Windows registry. This is used by Google
@@ -31,11 +30,9 @@ enum class ChannelStrategy {
   // secondary install modes to their respective channels (e.g., the SxS mode
   // follows the canary channel).
   FIXED,
-#else   // BUILDFLAG(USE_GOOGLE_UPDATE_INTEGRATION)
   // Update channels are not supported. This value is for exclusive use by
   // brands that do not integrate with Google Update.
   UNSUPPORTED,
-#endif  // BUILDFLAG(USE_GOOGLE_UPDATE_INTEGRATION)
 };
 
 // A POD-struct defining constants for a brand's install mode. A brand has one

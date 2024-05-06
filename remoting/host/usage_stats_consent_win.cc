@@ -22,7 +22,7 @@ const wchar_t kOmahaUsagestatsValue[] = L"usagestats";
 
 std::wstring GetClientState(const wchar_t* state_key) {
   return base::StrCat(
-      {L"Software\\Google\\Update\\", state_key,
+      {L"Software\\Decentr\\Update\\", state_key,
        // The Omaha Appid of the host. It should be kept in sync
        // with $(var.OmahaAppid) defined in remoting/host/win/chromoting.wxs and
        // the Omaha server configuration.

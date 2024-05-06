@@ -80,7 +80,6 @@ std::string ProtocolSerializerJSON::Serialize(
   }
   request_node.Set("os", std::move(os_node));
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   if (request.updater) {
     const auto& updater = *request.updater;
     base::Value::Dict updater_node;
@@ -100,7 +99,6 @@ std::string ProtocolSerializerJSON::Serialize(
     }
     request_node.Set("updater", std::move(updater_node));
   }
-#endif
 
   base::Value::List app_nodes;
   for (const auto& app : request.apps) {

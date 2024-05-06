@@ -3059,7 +3059,7 @@ EXTERN_C const IID IID_ICurrentState;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("247954F9-9EDC-4E68-8CC3-150C2B89EADF")
+    MIDL_INTERFACE("6db98774-99ec-4808-b392-8f60f1096fbc")
     ICurrentState : public IDispatch
     {
     public:
@@ -3605,7 +3605,7 @@ EXTERN_C const IID IID_IPolicyStatus;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("F63F6F8B-ACD5-413C-A44B-0409136D26CB")
+    MIDL_INTERFACE("c4de041b-c1a6-49e3-b822-4ac964dc780f")
     IPolicyStatus : public IDispatch
     {
     public:
@@ -4027,7 +4027,7 @@ EXTERN_C const IID IID_IPolicyStatus2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("34527502-D3DB-4205-A69B-789B27EE0414")
+    MIDL_INTERFACE("152477dd-1062-4e57-ba29-271565e2a2bf")
     IPolicyStatus2 : public IDispatch
     {
     public:
@@ -4340,7 +4340,7 @@ EXTERN_C const IID IID_IGoogleUpdate3Web;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("494B20CF-282E-4BDD-9F5D-B70CB09D351E")
+    MIDL_INTERFACE("2188ef30-278b-4617-8039-4df5d621ed47")
     IGoogleUpdate3Web : public IDispatch
     {
     public:
@@ -4562,7 +4562,7 @@ EXTERN_C const IID IID_IAppBundleWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("DD42475D-6D46-496a-924E-BD5630B4CBBA")
+    MIDL_INTERFACE("af6f136d-5973-4de4-a6e2-697d5b33cd17")
     IAppBundleWeb : public IDispatch
     {
     public:
@@ -4870,7 +4870,7 @@ EXTERN_C const IID IID_IAppWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("18D0F672-18B4-48e6-AD36-6E6BF01DBBC4")
+    MIDL_INTERFACE("8f879527-a89f-40e4-bc84-f1ea57ec0884")
     IAppWeb : public IDispatch
     {
     public:
@@ -5103,7 +5103,7 @@ EXTERN_C const IID IID_IAppCommandWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("8476CE12-AE1F-4198-805C-BA0F9B783F57")
+    MIDL_INTERFACE("56551759-8200-4a85-a8e0-ace39e9ccf14")
     IAppCommandWeb : public IDispatch
     {
     public:
@@ -5290,7 +5290,7 @@ EXTERN_C const IID IID_IAppVersionWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("0CD01D1E-4A1C-489d-93B9-9B6672877C57")
+    MIDL_INTERFACE("56551759-8200-4a85-a8e0-ace39e9ccf14")
     IAppVersionWeb : public IDispatch
     {
     public:
@@ -5910,7 +5910,7 @@ EXTERN_C const IID IID_IProcessLauncher2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("D106AB5F-A70E-400E-A21B-96208C1D8DBB")
+    MIDL_INTERFACE("7902c919-c2a4-4e7c-aabc-fcf2c9af3c74")
     IProcessLauncher2 : public IProcessLauncher
     {
     public:
@@ -6668,7 +6668,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("22181302-A8A6-4f84-A541-E5CBFC70CC43")
+class DECLSPEC_UUID("6d1e4dbb-1821-4505-be78-c9489ce711ce")
 GoogleUpdate3WebUserClass;
 #endif
 
@@ -6676,7 +6676,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("8A1D4361-2C08-4700-A351-3EAA9CBFF5E4")
+class DECLSPEC_UUID("88f09f15-24eb-4ca1-8659-720e291636d3")
 GoogleUpdate3WebMachineClass;
 #endif
 
@@ -6684,7 +6684,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebServiceClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("534F5323-3569-4f42-919D-1E1CF93E5BF6")
+class DECLSPEC_UUID("28d07c9b-1175-4ba4-a005-9440b69b7a41")
 GoogleUpdate3WebServiceClass;
 #endif
 
@@ -6756,7 +6756,7 @@ EXTERN_C const CLSID CLSID_PolicyStatusUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("6DDCE70D-A4AE-4E97-908C-BE7B2DB750AD")
+class DECLSPEC_UUID("b9410c8d-6c42-461f-95c2-0c920e8c63db")
 PolicyStatusUserClass;
 #endif
 
@@ -6764,7 +6764,7 @@ EXTERN_C const CLSID CLSID_PolicyStatusMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("521FDB42-7130-4806-822A-FC5163FAD983")
+class DECLSPEC_UUID("3b3ce4f3-17fb-4e7e-9ee9-87d2758cd885")
 PolicyStatusMachineClass;
 #endif
 
@@ -6804,7 +6804,7 @@ EXTERN_C const CLSID CLSID_ProcessLauncherClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("ABC01078-F197-4b0b-ADBC-CFE684B39C82")
+class DECLSPEC_UUID("30ec2bb6-1281-47b9-abd6-52cec03baf8e")
 ProcessLauncherClass;
 #endif
 

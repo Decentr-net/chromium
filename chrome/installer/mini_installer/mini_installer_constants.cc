@@ -58,34 +58,14 @@ const wchar_t kUninstallArgumentsRegistryValue[] = L"UninstallArguments";
 const wchar_t kUninstallRegistryValue[] = L"UninstallString";
 
 // Registry key paths.
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // The path to the key containing each app's Clients registry key. The trailing
 // slash is required.
-const wchar_t kClientsKeyBase[] = L"Software\\Google\\Update\\Clients\\";
+const wchar_t kClientsKeyBase[] = L"Software\\Decentr\\Update\\Clients\\";
 // The path to the key containing each app's Client State registry key. The
 // trailing slash is required.
 const wchar_t kClientStateKeyBase[] =
-    L"Software\\Google\\Update\\ClientState\\";
+    L"Software\\Decentr\\Update\\ClientState\\";
 // The path to the key in which kCleanupRegistryValue is found.
-const wchar_t kCleanupRegistryKey[] = L"Software\\Google";
-#elif BUILDFLAG(GOOGLE_CHROME_FOR_TESTING_BRANDING)
-// The path to the key containing each app's Clients registry key.
-// No trailing slash on this one because the app's GUID is not appended.
-const wchar_t kClientsKeyBase[] = L"Software\\Chrome for Testing";
-// The path to the key containing each app's Client State registry key.
-// No trailing slash on this one because the app's GUID is not appended.
-const wchar_t kClientStateKeyBase[] = L"Software\\Chrome for Testing";
-// The path to the key in which kCleanupRegistryValue is found.
-const wchar_t kCleanupRegistryKey[] = L"Software\\Chrome for Testing";
-#else
-// The path to the key containing each app's Clients registry key.
-// No trailing slash on this one because the app's GUID is not appended.
-const wchar_t kClientsKeyBase[] = L"Software\\Chromium";
-// The path to the key containing each app's Client State registry key.
-// No trailing slash on this one because the app's GUID is not appended.
-const wchar_t kClientStateKeyBase[] = L"Software\\Chromium";
-// The path to the key in which kCleanupRegistryValue is found.
-const wchar_t kCleanupRegistryKey[] = L"Software\\Chromium";
-#endif
+const wchar_t kCleanupRegistryKey[] = L"Software\\Decentr";
 
 }  // namespace mini_installer

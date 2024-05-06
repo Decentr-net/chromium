@@ -628,7 +628,6 @@ void GetExecutableVersionDetails(const std::wstring& exe_path,
 }
 
 version_info::Channel GetChromeChannel() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   std::wstring channel_name(
       GetChromeChannelName(/*with_extended_stable=*/false));
   if (channel_name.empty()) {
@@ -643,8 +642,6 @@ version_info::Channel GetChromeChannel() {
   if (channel_name == L"canary") {
     return version_info::Channel::CANARY;
   }
-#endif
-
   return version_info::Channel::UNKNOWN;
 }
 

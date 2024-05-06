@@ -12,8 +12,8 @@ import "ocidl.idl";
 BEGIN_INTERFACE(
   {
     "uuid": {
-      "user":"PLACEHOLDER-GUID-C3485D9F-C684-4C43-B85B-E339EA395C29",
-      "system":"PLACEHOLDER-GUID-EA6FDC05-CDC5-4EA4-AB41-CCBD1040A2B5"
+      "user":"PLACEHOLDER-GUID-05a0ad46-45f4-4418-ae74-5d02a8d589fb",
+      "system":"PLACEHOLDER-GUID-3a4af098-4de8-4b08-9f7b-1f448672ff57"
     },
     "tokensToSuffix": ["IUpdateState"],
     "addToLibrary": ["user", "system"]
@@ -22,7 +22,7 @@ BEGIN_INTERFACE(
 [
   object,
   oleautomation,
-  uuid(PLACEHOLDER-GUID-46ACF70B-AC13-406D-B53B-B2C4BF091FF6),
+  uuid(PLACEHOLDER-GUID-561c4cda-67b4-4f07-8034-57686c169a85),
   helpstring("IUpdateState Interface"),
   pointer_default(unique)
 ]
@@ -44,8 +44,8 @@ END_INTERFACE
 BEGIN_INTERFACE(
   {
     "uuid": {
-      "user":"PLACEHOLDER-GUID-9AD1A645-5A4B-4D36-BC21-F0059482E6EA",
-      "system":"PLACEHOLDER-GUID-E2BD9A6B-0A19-4C89-AE8B-B7E9E51D9A07"
+      "user":"PLACEHOLDER-GUID-4c51462d-633c-4aba-8992-f6aa96be2811",
+      "system":"PLACEHOLDER-GUID-6e558213-32b7-43aa-b264-b43742b89775"
     },
     "tokensToSuffix": ["ICompleteStatus"],
     "addToLibrary": ["user", "system"]
@@ -54,7 +54,7 @@ BEGIN_INTERFACE(
 [
   object,
   oleautomation,
-  uuid(PLACEHOLDER-GUID-2FCD14AF-B645-4351-8359-E80A0E202A0B),
+  uuid(PLACEHOLDER-GUID-05e1af35-4049-4e5f-899d-a5d2a2004584),
   helpstring("ICompleteStatus Interface"),
   pointer_default(unique)
 ]
@@ -67,8 +67,8 @@ END_INTERFACE
 BEGIN_INTERFACE(
   {
     "uuid": {
-      "user":"PLACEHOLDER-GUID-B54493A0-65B7-408C-B650-06265D2182AC",
-      "system":"PLACEHOLDER-GUID-057B500A-4BA2-496A-B1CD-C5DED3CCC61B"
+      "user":"PLACEHOLDER-GUID-c8f78e13-fc5e-4d6b-aa77-4d5ba9814a5a",
+      "system":"PLACEHOLDER-GUID-ba95a33a-f4af-42cc-817a-c1af234cda6f"
     },
     "tokensToSuffix": ["IUpdaterObserver", "IUpdateState", "ICompleteStatus"],
     "addToLibrary": ["user", "system"]
@@ -77,7 +77,7 @@ BEGIN_INTERFACE(
 [
   object,
   oleautomation,
-  uuid(PLACEHOLDER-GUID-7B416CFD-4216-4FD6-BD83-7C586054676E),
+  uuid(PLACEHOLDER-GUID-b821c062-7b0d-4752-bd8c-09a57482d354),
   helpstring("IUpdaterObserver Interface"),
   pointer_default(unique)
 ]
@@ -90,8 +90,8 @@ END_INTERFACE
 BEGIN_INTERFACE(
   {
     "uuid": {
-      "user":"PLACEHOLDER-GUID-34ADC89D-552B-4102-8AE5-D613A691335B",
-      "system":"PLACEHOLDER-GUID-F0D6763A-0182-4136-B1FA-508E334CFFC1"
+      "user":"PLACEHOLDER-GUID-213bcdb7-f6e5-4852-852b-2a3daed80125",
+      "system":"PLACEHOLDER-GUID-3a3c8f26-bad0-40ad-8dd9-e25377552d65"
     },
     "tokensToSuffix": ["IUpdaterCallback"],
     "addToLibrary": ["user", "system"]
@@ -100,7 +100,7 @@ BEGIN_INTERFACE(
 [
   object,
   oleautomation,
-  uuid(PLACEHOLDER-GUID-8BAB6F84-AD67-4819-B846-CC890880FD3B),
+  uuid(PLACEHOLDER-GUID-fc220576-3e97-482c-89ad-3df31fcf9bce),
   helpstring("IUpdaterCallback Interface"),
   pointer_default(unique)
 ]
@@ -161,8 +161,8 @@ END_INTERFACE
 BEGIN_INTERFACE(
   {
     "uuid": {
-      "user":"PLACEHOLDER-GUID-02AFCB67-0899-4676-91A9-67D92B3B7918",
-      "system":"PLACEHOLDER-GUID-FCE335F3-A55C-496E-814F-85971C9FA6F1"
+      "user":"PLACEHOLDER-GUID-4808f7ec-9328-460c-bf5c-205f535d9083",
+      "system":"PLACEHOLDER-GUID-f3b9c0b6-f616-4594-8d2b-cb94ce5d0609"
     },
     "tokensToSuffix": ["IUpdater", "IUpdaterCallback",
                        "IUpdaterAppStatesCallback", "IUpdaterObserver"],
@@ -172,7 +172,7 @@ BEGIN_INTERFACE(
 [
   object,
   oleautomation,
-  uuid(PLACEHOLDER-GUID-63B8FFB1-5314-48C9-9C57-93EC8BC6184B),
+  uuid(PLACEHOLDER-GUID-e4978a53-2b98-415b-9cd9-5f8ffcf2cd8d),
   helpstring("IUpdater Interface"),
   pointer_default(unique)
 ]
@@ -220,7 +220,7 @@ interface IUpdater : IUnknown {
 END_INTERFACE
 
 [
-  uuid(PLACEHOLDER-GUID-69464FF0-D9EC-4037-A35F-8AE4358106CC),
+  uuid(PLACEHOLDER-GUID-cabd1cfd-2c5f-46a1-8105-564b3a6563ec),
   version(1.0),
   helpstring("Chromium Updater type library")
 ]
@@ -228,7 +228,7 @@ library UpdaterLib {
   importlib("stdole2.tlb");
 
   [
-    uuid(PLACEHOLDER-GUID-158428a4-6014-4978-83ba-9fad0dabe791),
+    uuid(PLACEHOLDER-GUID-b08f92a7-0f66-4788-ade2-12e3ee767337),
     helpstring("Updater Class for per-user applications")
   ]
   coclass UpdaterUserClass
@@ -237,7 +237,7 @@ library UpdaterLib {
   }
 
   [
-    uuid(PLACEHOLDER-GUID-415FD747-D79E-42D7-93AC-1BA6E5FD4E93),
+    uuid(PLACEHOLDER-GUID-9efa113e-960e-415d-9368-8111cf6887a4),
     helpstring("Updater Class for per-system applications")
   ]
   coclass UpdaterSystemClass

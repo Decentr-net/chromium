@@ -3059,7 +3059,7 @@ EXTERN_C const IID IID_ICurrentState;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("247954F9-9EDC-4E68-8CC3-150C2B89EADF")
+    MIDL_INTERFACE("6db98774-99ec-4808-b392-8f60f1096fbc")
     ICurrentState : public IDispatch
     {
     public:
@@ -3845,7 +3845,7 @@ EXTERN_C const IID IID_IPolicyStatusValue;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("27634814-8E41-4C35-8577-980134A96544")
+    MIDL_INTERFACE("d93caa32-843f-4b1f-b305-ba655227a8f7")
     IPolicyStatusValue : public IDispatch
     {
     public:
@@ -4027,7 +4027,7 @@ EXTERN_C const IID IID_IPolicyStatus2;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("34527502-D3DB-4205-A69B-789B27EE0414")
+    MIDL_INTERFACE("152477dd-1062-4e57-ba29-271565e2a2bf")
     IPolicyStatus2 : public IDispatch
     {
     public:
@@ -5290,7 +5290,7 @@ EXTERN_C const IID IID_IAppVersionWeb;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("0CD01D1E-4A1C-489d-93B9-9B6672877C57")
+    MIDL_INTERFACE("56551759-8200-4a85-a8e0-ace39e9ccf14")
     IAppVersionWeb : public IDispatch
     {
     public:
@@ -5796,7 +5796,7 @@ EXTERN_C const IID IID_IProcessLauncher;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("128C2DA6-2BC0-44c0-B3F6-4EC22E647964")
+    MIDL_INTERFACE("dcaa7bb1-fff1-4684-9227-8baa3a131f4d")
     IProcessLauncher : public IUnknown
     {
     public:
@@ -6668,7 +6668,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("22181302-A8A6-4f84-A541-E5CBFC70CC43")
+class DECLSPEC_UUID("6d1e4dbb-1821-4505-be78-c9489ce711ce")
 GoogleUpdate3WebUserClass;
 #endif
 
@@ -6676,7 +6676,7 @@ EXTERN_C const CLSID CLSID_GoogleUpdate3WebMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("8A1D4361-2C08-4700-A351-3EAA9CBFF5E4")
+class DECLSPEC_UUID("88f09f15-24eb-4ca1-8659-720e291636d3")
 GoogleUpdate3WebMachineClass;
 #endif
 
@@ -6756,7 +6756,7 @@ EXTERN_C const CLSID CLSID_PolicyStatusUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("6DDCE70D-A4AE-4E97-908C-BE7B2DB750AD")
+class DECLSPEC_UUID("b9410c8d-6c42-461f-95c2-0c920e8c63db")
 PolicyStatusUserClass;
 #endif
 
@@ -6764,7 +6764,7 @@ EXTERN_C const CLSID CLSID_PolicyStatusMachineClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("521FDB42-7130-4806-822A-FC5163FAD983")
+class DECLSPEC_UUID("3b3ce4f3-17fb-4e7e-9ee9-87d2758cd885")
 PolicyStatusMachineClass;
 #endif
 

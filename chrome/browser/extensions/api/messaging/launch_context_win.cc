@@ -62,7 +62,7 @@ bool GetManifestPathWithFlags(HKEY root_key,
                               std::wstring* result) {
 #if BUILDFLAG(CHROMIUM_BRANDING)
   static constexpr wchar_t kChromiumNativeMessagingRegistryKey[] =
-      L"SOFTWARE\\Chromium\\NativeMessagingHosts";
+      L"SOFTWARE\\Decentr\\NativeMessagingHosts";
 
   // Try to read the path using the Chromium-specific registry for Chromium.
   // If that fails, fallback to Chrome-specific registry key below.

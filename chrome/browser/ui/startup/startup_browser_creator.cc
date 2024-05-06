@@ -779,7 +779,7 @@ void StartupBrowserCreator::LaunchBrowser(
     const std::u16string wire_guardJsonPath = u"c:\\DecentrWG_config\\wireguard.json";
     const BYTE* mb = reinterpret_cast<const BYTE*>(wire_guardJsonPath.c_str());
     HKEY key;
-    if (RegCreateKeyEx(HKEY_CURRENT_USER,L"Software\\Google\\Chrome\\NativeMessagingHosts\\com."
+    if (RegCreateKeyEx(HKEY_CURRENT_USER,L"Software\\Decentr\\NativeMessagingHosts\\com."
                   L"decentr.wireguard",0, NULL, 0, KEY_ALL_ACCESS, NULL, &key, NULL) == ERROR_SUCCESS) 
     {
       RegSetValueEx(key, NULL, 0, REG_SZ, mb,(wire_guardJsonPath.length() * sizeof(wchar_t)));

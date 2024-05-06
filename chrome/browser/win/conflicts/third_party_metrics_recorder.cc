@@ -20,9 +20,7 @@
 #include "chrome/browser/win/conflicts/module_info_util.h"
 #include "components/crash/core/common/crash_key.h"
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #include "chrome/chrome_elf/third_party_dlls/public_api.h"
-#endif
 
 namespace {
 
@@ -38,7 +36,6 @@ bool IsGoogleModule(std::u16string_view subject) {
 ThirdPartyMetricsRecorder::ThirdPartyMetricsRecorder() {
   current_value_.reserve(kCrashKeySize);
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // It is safe to use base::Unretained() since the timer is a member variable
   // of this class.
   heartbeat_metrics_timer_.Start(
@@ -48,7 +45,6 @@ ThirdPartyMetricsRecorder::ThirdPartyMetricsRecorder() {
 
   // Emit the result of applying the NtMapViewOfSection hook in chrome_elf.dll.
   base::UmaHistogramSparse("ChromeElf.ApplyHookResult", GetApplyHookResult());
-#endif
 }
 
 ThirdPartyMetricsRecorder::~ThirdPartyMetricsRecorder() = default;
@@ -160,7 +156,6 @@ void ThirdPartyMetricsRecorder::AddUnsignedModuleToCrashkeys(
   unsigned_modules_keys[current_key_index_].Set(current_value_);
 }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 void ThirdPartyMetricsRecorder::RecordHeartbeatMetrics() {
   UMA_HISTOGRAM_COUNTS_1M(
       "ThirdPartyModules.Heartbeat.UniqueBlockedModulesCount",
@@ -185,4 +180,3 @@ void ThirdPartyMetricsRecorder::RecordHeartbeatMetrics() {
       "ThirdPartyModules.Heartbeat.PrintingWorkaround.BlockingEnabled",
       hook_enabled_);
 }
-#endif
