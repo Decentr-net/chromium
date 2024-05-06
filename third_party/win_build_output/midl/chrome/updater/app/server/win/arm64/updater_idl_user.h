@@ -251,7 +251,7 @@ EXTERN_C const IID IID_IUpdateState;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("46ACF70B-AC13-406D-B53B-B2C4BF091FF6")
+    MIDL_INTERFACE("561c4cda-67b4-4f07-8034-57686c169a85")
     IUpdateState : public IUnknown
     {
     public:
@@ -445,7 +445,7 @@ EXTERN_C const IID IID_IUpdateStateUser;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("C3485D9F-C684-4C43-B85B-E339EA395C29")
+    MIDL_INTERFACE("05a0ad46-45f4-4418-ae74-5d02a8d589fb")
     IUpdateStateUser : public IUnknown
     {
     public:
@@ -829,7 +829,7 @@ EXTERN_C const IID IID_IUpdaterObserver;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("7B416CFD-4216-4FD6-BD83-7C586054676E")
+    MIDL_INTERFACE("b821c062-7b0d-4752-bd8c-09a57482d354")
     IUpdaterObserver : public IUnknown
     {
     public:
@@ -924,7 +924,7 @@ EXTERN_C const IID IID_IUpdaterObserverUser;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("B54493A0-65B7-408C-B650-06265D2182AC")
+    MIDL_INTERFACE("c8f78e13-fc5e-4d6b-aa77-4d5ba9814a5a")
     IUpdaterObserverUser : public IUnknown
     {
     public:
@@ -1019,7 +1019,7 @@ EXTERN_C const IID IID_IUpdaterCallback;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("8BAB6F84-AD67-4819-B846-CC890880FD3B")
+    MIDL_INTERFACE("fc220576-3e97-482c-89ad-3df31fcf9bce")
     IUpdaterCallback : public IUnknown
     {
     public:
@@ -1103,7 +1103,7 @@ EXTERN_C const IID IID_IUpdaterCallbackUser;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("34ADC89D-552B-4102-8AE5-D613A691335B")
+    MIDL_INTERFACE("213bcdb7-f6e5-4852-852b-2a3daed80125")
     IUpdaterCallbackUser : public IUnknown
     {
     public:
@@ -1989,7 +1989,7 @@ EXTERN_C const IID IID_IUpdaterUser;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("02AFCB67-0899-4676-91A9-67D92B3B7918")
+    MIDL_INTERFACE("4808f7ec-9328-460c-bf5c-205f535d9083")
     IUpdaterUser : public IUnknown
     {
     public:
@@ -2248,7 +2248,7 @@ EXTERN_C const CLSID CLSID_UpdaterUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("158428a4-6014-4978-83ba-9fad0dabe791")
+class DECLSPEC_UUID("b08f92a7-0f66-4788-ade2-12e3ee767337")
 UpdaterUserClass;
 #endif
 

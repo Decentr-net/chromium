@@ -51,9 +51,9 @@ const wchar_t kDesktopFullName[] = L"WinSta0\\Winlogon";
 const wchar_t kGcpwUpdateClientGuid[] = GCPW_UPDATE_CLIENT_GUID;
 
 const wchar_t kRegUpdaterClientStateAppPath[] =
-    L"SOFTWARE\\Google\\Update\\ClientState\\" GCPW_UPDATE_CLIENT_GUID;
+    L"SOFTWARE\\Decentr\\Update\\ClientState\\" GCPW_UPDATE_CLIENT_GUID;
 const wchar_t kRegUpdaterClientsAppPath[] =
-    L"SOFTWARE\\Google\\Update\\Clients\\" GCPW_UPDATE_CLIENT_GUID;
+    L"SOFTWARE\\Decentr\\Update\\Clients\\" GCPW_UPDATE_CLIENT_GUID;
 const wchar_t kRegUninstallStringField[] = L"UninstallString";
 const wchar_t kRegUninstallArgumentsField[] = L"UninstallArguments";
 const wchar_t kRegUsageStatsName[] = L"usagestats";
@@ -75,7 +75,7 @@ const wchar_t kRegDisplayVersion[] = L"DisplayVersion";
 const wchar_t kRegInstallDate[] = L"InstallDate";
 const wchar_t kRegVersionMajor[] = L"VersionMajor";
 const wchar_t kRegVersionMinor[] = L"VersionMinor";
-const wchar_t kRegPublisher[] = L"Google LLC";
+const wchar_t kRegPublisher[] = L"Decentr LLC";
 
 // Chrome is being opened to show the credential provider logon page.  This
 // page is always shown in incognito mode.
@@ -121,9 +121,9 @@ const wchar_t kAllowImportWhenPrimaryAccountExists[] =
     L"allow_import_when_primary_exists";
 
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-const wchar_t kRegHkcuAccountsPath[] = L"Software\\Google\\Accounts";
+const wchar_t kRegHkcuAccountsPath[] = L"Software\\Decentr\\Accounts";
 #else
-const wchar_t kRegHkcuAccountsPath[] = L"Software\\Chromium\\Accounts";
+const wchar_t kRegHkcuAccountsPath[] = L"Software\\Decentr\\Accounts";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 }  // namespace credential_provider

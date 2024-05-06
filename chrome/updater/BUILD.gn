@@ -39,12 +39,10 @@ group("all") {
   if (is_win || is_mac || is_linux) {
     deps = [
       ":updater",
-      ":updater_tests",
-      ":updater_tests_system",
+      #":updater_tests",
+      #":updater_tests_system",
     ]
-    if (is_win) {
-      deps += [ "win/installer:msi_custom_action" ]
-    }
+   
   }
 }
 

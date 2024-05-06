@@ -530,7 +530,6 @@ GoogleUpdateSettings::UpdatePolicy GoogleUpdateSettings::GetAppUpdatePolicy(
 
 // static
 bool GoogleUpdateSettings::AreAutoupdatesEnabled() {
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   // Check the auto-update check period override. If it is 0 or exceeds the
   // maximum timeout, then for all intents and purposes auto updates are
   // disabled.
@@ -547,10 +546,6 @@ bool GoogleUpdateSettings::AreAutoupdatesEnabled() {
   UpdatePolicy app_policy =
       GetAppUpdatePolicy(install_static::GetAppGuid(), nullptr);
   return app_policy == AUTOMATIC_UPDATES || app_policy == AUTO_UPDATES_ONLY;
-#else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
-  // Chromium does not auto update.
-  return false;
-#endif  // !BUILDFLAG(GOOGLE_CHROME_BRANDING)
 }
 
 // static
