@@ -19,6 +19,11 @@ a[is=action-link] {
   user-select: none;
 }
 
+#searchExplanation a,
+#sub-label-text-with-link a {
+  display: none;
+}
+
 /* Use <h2> as the "sub-header" mentioned in the UX design docs. */
 h2 {
   align-items: center;

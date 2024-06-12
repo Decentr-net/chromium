@@ -100,4 +100,23 @@ class CustomThemeSupplier
   extensions::ExtensionId extension_id_;
 };
 
+class TomiNetWindowThemeSupplier: public CustomThemeSupplier {
+  public:
+  explicit TomiNetWindowThemeSupplier(bool tomi_net);
+
+  TomiNetWindowThemeSupplier(const TomiNetWindowThemeSupplier&) =
+      delete;
+  TomiNetWindowThemeSupplier& operator=(
+      const TomiNetWindowThemeSupplier&) = delete;
+
+ protected:
+  ~TomiNetWindowThemeSupplier() override;
+  bool GetColor(int id, SkColor* color) const override;
+  void AddColorMixers(ui::ColorProvider* provider,
+                      const ui::ColorProviderKey& key) const override;
+
+  // false if this is for tor window.
+  bool tomi_net_ = true;
+};
+
 #endif  // CHROME_BROWSER_THEMES_CUSTOM_THEME_SUPPLIER_H_

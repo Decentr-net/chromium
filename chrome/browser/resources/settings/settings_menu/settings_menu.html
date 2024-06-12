@@ -28,6 +28,7 @@
         border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         margin-bottom: 8px;
         margin-top: 8px;
+        cursor: default;
       }
 
       @media (prefers-color-scheme: dark) {
@@ -162,6 +163,18 @@
           <div class="cr-icon icon-external"></div>
           <cr-ripple></cr-ripple>
         </a>
+        <a role="menuitem" id="extensionsLink" class="cr-nav-menu-item"
+        href="chrome://history" target="_blank"
+        
+        on-click="onExtensionsLinkClick_"
+        title="$i18n{extensionsLinkTooltip}">
+      <iron-icon icon="cr:schedule"></iron-icon>
+      <span>$i18n{historyMenuItem}</span>
+      <div class="cr-icon icon-external"></div>
+      <paper-ripple></paper-ripple>
+    </a>
+    <div hidden="[[!pageVisibility.advancedSettings]]"
+        class="menu-separator"></div>
         <a role="menuitem" id="about-menu" href="/help"
             class="cr-nav-menu-item">
           <iron-icon icon="cr:chrome-product"></iron-icon>

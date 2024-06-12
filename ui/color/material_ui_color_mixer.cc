@@ -79,8 +79,8 @@ void AddMaterialUiColorMixer(ColorProvider* provider,
   mixer[kColorComboboxInkDropRipple] = {kColorSysStateRippleNeutralOnSubtle};
   mixer[kColorFocusableBorderFocused] = {kColorSysStateFocusRing};
   mixer[kColorFocusableBorderUnfocused] = {kColorSysOutline};
-  mixer[kColorFrameActive] = {kColorSysHeader};
-  mixer[kColorFrameActiveUnthemed] = {kColorSysHeader};
+  mixer[kColorFrameActive] = {SkColorSetRGB(0x0C, 0x0C, 0x17)};
+  mixer[kColorFrameActiveUnthemed] = {SkColorSetRGB(0x0C, 0x0C, 0x17)};
   mixer[kColorFrameCaptionButtonUnfocused] = {dark_mode ? kColorRefSecondary100
                                                         : kColorRefSecondary0};
   mixer[kColorFrameInactive] = {kColorSysHeaderInactive};

@@ -25,7 +25,7 @@ void AddCoreDefaultColorMixer(ColorProvider* provider,
   DVLOG(2) << "Adding CoreDefaultColorMixer to ColorProvider for "
            << (dark_mode ? "Dark" : "Light") << " window.";
   ColorMixer& mixer = provider->AddMixer();
-  mixer[kColorAccent] = {dark_mode ? gfx::kGoogleBlue300 : gfx::kGoogleBlue600};
+  mixer[kColorAccent] = {SkColorSetRGB(255, 0, 131)};
   // 4.5 and 7.0 approximate the default light and dark theme contrasts of
   // accent-against-primary-background.
   mixer[kColorAccentWithGuaranteedContrastAtopPrimaryBackground] =

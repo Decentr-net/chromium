@@ -210,7 +210,7 @@ LocationBarView::LocationBarView(Browser* browser,
                  !v->GetOmniboxPopupView()->IsOpen();
         }));
     views::FocusRing::Get(this)->SetOutsetFocusRingDisabled(true);
-    views::InstallPillHighlightPathGenerator(this);
+    views::InstallRectHighlightPathGenerator(this);
 
 #if BUILDFLAG(OS_LEVEL_GEOLOCATION_PERMISSION_SUPPORTED)
     if (features::IsOsLevelGeolocationPermissionSupportEnabled()) {
@@ -438,8 +438,11 @@ bool LocationBarView::IsInitialized() const {
 }
 
 int LocationBarView::GetBorderRadius() const {
+    return 2;
+  #if 0
   return ChromeLayoutProvider::Get()->GetCornerRadiusMetric(
       views::Emphasis::kMaximum, size());
+  #endif
 }
 
 std::unique_ptr<views::Background> LocationBarView::CreateRoundRectBackground(

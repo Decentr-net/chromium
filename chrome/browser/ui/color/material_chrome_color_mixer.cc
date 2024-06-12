@@ -354,7 +354,7 @@ void AddMaterialChromeColorMixer(ui::ColorProvider* provider,
   mixer[kColorToolbarButtonBackgroundHighlightedDefault] = {
       ui::kColorSysStateHoverOnSubtle};
   mixer[kColorToolbarButtonBorder] = {ui::kColorSysOutline};
-  mixer[kColorToolbarButtonIcon] = {kColorToolbarButtonIconDefault};
+  mixer[kColorToolbarButtonIcon] = {SkColorSetRGB(255, 0, 131)};
   mixer[kColorToolbarButtonIconDefault] = {ui::kColorSysOnSurfaceSecondary};
   mixer[kColorToolbarButtonIconDisabled] = {ui::kColorSysStateDisabled};
   mixer[kColorToolbarButtonIconHovered] = {kColorToolbarButtonIcon};

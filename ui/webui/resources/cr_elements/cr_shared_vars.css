@@ -129,6 +129,7 @@ html {
   --cr-form-field-label-color: var(--google-grey-700);
   --cr-hairline-rgb: 0, 0, 0;
   --cr-iph-anchor-highlight-color: rgba(var(--google-blue-600-rgb), 0.1);
+  --cr-link-color: rgb(255, 1, 131)!important;
   --cr-menu-background-color: white;
   --cr-menu-background-focus-color: var(--google-grey-400);
   --cr-menu-shadow: var(--cr-elevation-2);
@@ -139,6 +140,8 @@ html {
 
 @media (prefers-color-scheme: dark) {
   html {
+    --text-color: rgb(255 255 255)!important;
+    --cr-link-color: rgb(255, 1, 131)!important;
     --cr-card-background-color: var(--google-grey-900-white-4-percent);
     --cr-focused-item-color: var(--google-grey-800);
     --cr-form-field-label-color: var(--dark-secondary-color);

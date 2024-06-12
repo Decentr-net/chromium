@@ -12,9 +12,7 @@
 
 /* Common radio-button styling for Material Design WebUI. */
       :host {
-        --cr-radio-button-checked-color:
-            var(--color-radio-button-foreground-checked,
-                var(--cr-fallback-color-primary));
+        --cr-radio-button-checked-color: var(--cr-link-color)!important ;
         --cr-radio-button-checked-ripple-color:
             var(--cr-active-background-color);
         --cr-radio-button-ink-size: 32px;
@@ -36,7 +34,7 @@
 
       @media (prefers-color-scheme: dark) {
         :host {
-          --cr-radio-button-checked-color: var(--google-blue-300);
+          --cr-radio-button-checked-color: var(--cr-link-color)!important ;
           --cr-radio-button-checked-ripple-color:
               rgba(var(--google-blue-300-rgb), .4);
           --cr-radio-button-unchecked-color: var(--google-grey-500);

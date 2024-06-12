@@ -50,12 +50,14 @@ bool IsPathUsable(const SkPath& path) {
 }
 
 SkColor GetPaintColor(FocusRing* focus_ring, bool valid) {
-  const auto* cp = focus_ring->GetColorProvider();
+  auto* cp = focus_ring->GetColorProvider();
+  if(cp)
+    cp = NULL;
+
   if (!valid)
-    return cp->GetColor(ui::kColorAlertHighSeverity);
-  if (auto color_id = focus_ring->GetColorId(); color_id.has_value())
-    return cp->GetColor(color_id.value());
-  return GetCascadingAccentColor(focus_ring);
+    return SkColorSetRGB(0xf4, 0x34, 0x05);
+  else
+    return SkColorSetRGB(172, 0, 88);
 }
 
 double GetCornerRadius(float halo_thickness) {
@@ -260,7 +262,7 @@ void FocusRing::OnPaint(gfx::Canvas* canvas) {
       // Draw with full stroke width + 2x outline thickness to effectively paint
       // the outline thickness on both sides of the FocusRing.
       paint.setStrokeWidth(halo_thickness_ + 2 * kOutlineThickness);
-      paint.setColor(GetCascadingBackgroundColor(this));
+      paint.setColor(GetPaintColor(this, !invalid_));
       canvas->sk_canvas()->drawRRect(ring_rect, paint);
     }
   }

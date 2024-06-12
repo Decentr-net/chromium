@@ -7,6 +7,7 @@
 
 #include "third_party/skia/include/core/SkColor.h"
 #include "ui/color/color_provider_key.h"
+#include "third_party/skia/include/core/SkColor.h"
 
 namespace ui {
 class ColorProvider;
@@ -16,5 +17,11 @@ class ColorProvider;
 // chrome/ colors before taking into account any custom themes.
 void AddChromeColorMixer(ui::ColorProvider* provider,
                          const ui::ColorProviderKey& key);
+
+void AddTdnsThemeColorMixer(ui::ColorProvider* provider,
+                           const ui::ColorProviderKey& key);       
+
+     
+constexpr SkAlpha kBraveDisabledControlAlpha = 0x66;  // 40%     
 
 #endif  // CHROME_BROWSER_UI_COLOR_CHROME_COLOR_MIXER_H_

@@ -36,8 +36,7 @@ void AddGtkNativeColorMixer(ui::ColorProvider* provider,
   const SkColor primary_bg = GetBgColor("");
   const SkColor button_bg_disabled = GetBgColor("button.text-button:disabled");
   const SkColor button_border = GetBorderColor("button");
-  const SkColor frame_color =
-      SkColorSetA(GetBgColor(header_selector), SK_AlphaOPAQUE);
+  const SkColor frame_color = SkColorSetRGB(0x0C, 0x0C, 0x17);
   const SkColor frame_color_inactive =
       SkColorSetA(GetBgColor(header_selector_inactive), SK_AlphaOPAQUE);
   const SkColor label_fg = GetFgColor("label");

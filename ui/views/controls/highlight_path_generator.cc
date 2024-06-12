@@ -88,9 +88,9 @@ CircleHighlightPathGenerator::CircleHighlightPathGenerator(
 std::optional<gfx::RRectF> CircleHighlightPathGenerator::GetRoundRect(
     const gfx::RectF& rect) {
   gfx::RectF bounds = rect;
-  const float corner_radius = std::min(bounds.width(), bounds.height()) / 2.f;
-  bounds.ClampToCenteredSize(
-      gfx::SizeF(corner_radius * 2.f, corner_radius * 2.f));
+  const float corner_radius = 2 + (0 * std::min(bounds.width(), bounds.height()) / 2.f);
+  //bounds.ClampToCenteredSize(
+      //gfx::SizeF(corner_radius * 2.f, corner_radius * 2.f));
   return gfx::RRectF(bounds, corner_radius);
 }
 
