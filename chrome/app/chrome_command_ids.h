@@ -35,6 +35,7 @@
 
 // Window management commands
 #define IDC_NEW_WINDOW                  34000
+#define IDC_CONTENT_CONTEXT_TDNS        33999
 #define IDC_NEW_INCOGNITO_WINDOW        34001
 #define IDC_CLOSE_WINDOW                34012
 #define IDC_ALWAYS_ON_TOP               34013

@@ -215,6 +215,7 @@ class Browser : public TabStripModelObserver,
   // The default value for a browser's `restore_id` param.
   static constexpr int kDefaultRestoreId = 0;
 
+  bool tomiNet = false;
   // Callback that receives the result of a user being warned about closing a
   // browser window (for example, if closing the window would interrupt a
   // download). The parameter is whether the close should proceed.

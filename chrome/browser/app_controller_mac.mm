@@ -1421,6 +1421,7 @@ class AppControllerNativeThemeObserver : public ui::NativeThemeObserver {
         // Browser-level items that open in new windows: allow the user to open
         // a new window even if there's a window-modal dialog.
         case IDC_NEW_WINDOW:
+        case IDC_CONTENT_CONTEXT_TDNS:
           enable = canOpenNewBrowser;
           break;
         case IDC_TASK_MANAGER:

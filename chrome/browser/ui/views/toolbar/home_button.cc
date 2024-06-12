@@ -188,3 +188,22 @@ void HomeButton::UpdateHomePage(
 
 BEGIN_METADATA(HomeButton)
 END_METADATA
+
+
+// TDNS Button
+
+TdnsButton::TdnsButton(PressedCallback callback, PrefService* prefs)
+    : ToolbarButton(std::move(callback)),
+      prefs_(prefs) {
+  SetTriggerableEventFlags(ui::EF_LEFT_MOUSE_BUTTON);
+  SetVectorIcon(kProductIcon);
+  SetTooltipText(l10n_util::GetStringUTF16(IDS_TOOLTIP_TDNS));
+  SetAccessibleName(l10n_util::GetStringUTF16(IDS_ACCNAME_HOME));
+  SetID(VIEW_ID_TDNS_BUTTON);
+  SizeToPreferredSize();
+}
+
+TdnsButton::~TdnsButton() = default;
+
+BEGIN_METADATA(TdnsButton)
+END_METADATA

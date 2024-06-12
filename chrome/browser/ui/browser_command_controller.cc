@@ -330,7 +330,7 @@ bool BrowserCommandController::IsReservedCommandOrKey(
   return command_id == IDC_CLOSE_TAB || command_id == IDC_CLOSE_WINDOW ||
          command_id == IDC_NEW_INCOGNITO_WINDOW || command_id == IDC_NEW_TAB ||
          command_id == IDC_NEW_WINDOW || command_id == IDC_RESTORE_TAB ||
-         command_id == IDC_SELECT_NEXT_TAB ||
+         command_id == IDC_SELECT_NEXT_TAB || //command_id == IDC_CONTENT_CONTEXT_TDNS ||
          command_id == IDC_SELECT_PREVIOUS_TAB || command_id == IDC_EXIT;
 }
 
@@ -468,6 +468,9 @@ bool BrowserCommandController::ExecuteCommandWithDisposition(
     case IDC_NEW_WINDOW:
       NewWindow(browser_);
       break;
+    case IDC_CONTENT_CONTEXT_TDNS:
+      TDNSWIndow(browser_);
+      break;
     case IDC_NEW_INCOGNITO_WINDOW:
       NewIncognitoWindow(profile());
       break;
@@ -480,7 +483,7 @@ bool BrowserCommandController::ExecuteCommandWithDisposition(
       break;
     }
     case IDC_NEW_TAB_TO_RIGHT: {
-      NewTabToRight(browser_);
+      NewTab(browser_);
       break;
     }
     case IDC_CLOSE_TAB:
@@ -1236,6 +1239,7 @@ void BrowserCommandController::InitCommandState() {
   if (is_locked_fullscreen_)
     return;
 
+
   // Navigation commands
   const bool can_reload = CanReload(browser_);
   command_updater_.UpdateCommandEnabled(IDC_RELOAD, can_reload);
@@ -1243,6 +1247,7 @@ void BrowserCommandController::InitCommandState() {
   command_updater_.UpdateCommandEnabled(IDC_RELOAD_CLEARING_CACHE, can_reload);
 
   // Window management commands
+  command_updater_.UpdateCommandEnabled(IDC_CONTENT_CONTEXT_TDNS,true);
   command_updater_.UpdateCommandEnabled(IDC_CLOSE_WINDOW, true);
   command_updater_.UpdateCommandEnabled(
       IDC_NEW_TAB, !browser_->app_controller() ||
@@ -1500,7 +1505,7 @@ void BrowserCommandController::UpdateSharedCommandsForIncognitoAvailability(
       IDC_NEW_INCOGNITO_WINDOW,
       incognito_availability != policy::IncognitoModeAvailability::kDisabled &&
           !profile->IsGuestSession());
-
+  
   const bool forced_incognito =
       incognito_availability == policy::IncognitoModeAvailability::kForced;
   const bool is_guest = profile->IsGuestSession();

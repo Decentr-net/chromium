@@ -65,4 +65,20 @@ END_VIEW_BUILDER
 
 DEFINE_VIEW_BUILDER(/* no export */, HomeButton)
 
+class TdnsButton : public ToolbarButton {
+  METADATA_HEADER(TdnsButton,ToolbarButton)
+ public:
+
+  explicit TdnsButton(PressedCallback callback = PressedCallback(),
+                      PrefService* prefs = nullptr);
+  TdnsButton(const TdnsButton&) = delete;
+  TdnsButton& operator=(const TdnsButton&) = delete;
+  ~TdnsButton() override;
+
+  // ToolbarButton:
+ private:
+  const raw_ptr<PrefService> prefs_;
+  base::WeakPtrFactory<TdnsButton> weak_ptr_factory_{this};
+};
+
 #endif  // CHROME_BROWSER_UI_VIEWS_TOOLBAR_HOME_BUTTON_H_

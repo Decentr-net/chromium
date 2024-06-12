@@ -176,6 +176,7 @@ auto& GetViewCommandMap() {
       {{VIEW_ID_BACK_BUTTON, IDC_BACK},
        {VIEW_ID_FORWARD_BUTTON, IDC_FORWARD},
        {VIEW_ID_HOME_BUTTON, IDC_HOME},
+       {VIEW_ID_TDNS_BUTTON, IDC_CONTENT_CONTEXT_TDNS},
        {VIEW_ID_RELOAD_BUTTON, IDC_RELOAD},
        {VIEW_ID_AVATAR_BUTTON, IDC_SHOW_AVATAR_MENU}});
   return kViewCommandMap;
@@ -358,6 +359,9 @@ void ToolbarView::Init() {
   std::unique_ptr<HomeButton> home = std::make_unique<HomeButton>(
       base::BindRepeating(callback, browser_, IDC_HOME), prefs);
 
+  std::unique_ptr<TdnsButton> tdns = std::make_unique<TdnsButton>(
+      base::BindRepeating(callback, browser_, IDC_CONTENT_CONTEXT_TDNS), prefs);
+
   std::unique_ptr<ExtensionsToolbarContainer> extensions_container;
   std::unique_ptr<views::View> toolbar_divider;
 
@@ -394,6 +398,8 @@ void ToolbarView::Init() {
   home_ = container_view_->AddChildView(std::move(home));
 
   location_bar_ = container_view_->AddChildView(std::move(location_bar));
+
+  tdns_ = container_view_->AddChildView(std::move(tdns));
 
   if (extensions_container) {
     extensions_container_ =
@@ -477,7 +483,7 @@ void ToolbarView::Init() {
 
   avatar_ = container_view_->AddChildView(
       std::make_unique<AvatarToolbarButton>(browser_view_));
-  bool show_avatar_toolbar_button = true;
+  bool show_avatar_toolbar_button = false;
 #if BUILDFLAG(IS_CHROMEOS_ASH)
   // ChromeOS only badges Incognito, Guest, and captive portal signin icons in
   // the browser window.
@@ -551,11 +557,13 @@ void ToolbarView::Init() {
                           base::Unretained(this)));
 
   home_->SetVisible(show_home_button_.GetValue());
+  tdns_->SetVisible(true);
+
 
   InitLayout();
 
-  for (auto* button : std::array<views::Button*, 5>{back_, forward_, reload_,
-                                                    home_, avatar_}) {
+  for (auto* button : std::array<views::Button*, 6>{back_, forward_, reload_,
+                                                    home_, tdns_, avatar_}) {
     if (button)
       button->set_tag(GetViewCommandMap().at(button->GetID()));
   }

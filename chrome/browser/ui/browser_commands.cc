@@ -185,6 +185,10 @@
 #include "ui/webui/resources/cr_components/commerce/shopping_service.mojom.h"
 #include "url/gurl.h"
 #include "url/url_constants.h"
+#include "chrome/browser/ui/views/frame/browser_view.h"
+#include "chrome/browser/ui/views/toolbar/toolbar_view.h"
+#include "chrome/browser/ui/views/omnibox/omnibox_view_views.h"
+#include "components/omnibox/browser/omnibox_edit_model.h"
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
 #include "chrome/browser/ui/extensions/app_launch_params.h"
@@ -636,6 +640,41 @@ Browser* OpenEmptyWindow(Profile* profile,
   return browser;
 }
 
+//TDNS
+void TDNSWIndow(Browser* browser) {
+  Profile* const profile = browser->profile();
+  NewTDNSWindow(profile->GetOriginalProfile());
+}
+
+void NewTDNSWindow(Profile* profile) {
+  
+  base::RecordAction(UserMetricsAction("NewWindow"));
+    SessionService* session_service =
+        SessionServiceFactory::GetForProfileForSessionRestore(
+            profile->GetOriginalProfile());
+    if (!session_service ||
+        !session_service->RestoreIfNecessary(StartupTabs(),
+                                             /* restore_apps */ false)) {
+      OpenTdnsInNewWindow(profile->GetOriginalProfile());
+    }
+  
+}
+
+Browser* OpenTdnsInNewWindow(Profile* profile) {
+  if (Browser::GetCreationStatusForProfile(profile) !=
+      Browser::CreationStatus::kOk) {
+    return nullptr;
+  }
+  Browser::CreateParams params =
+      Browser::CreateParams(Browser::TYPE_NORMAL, profile, true);
+  Browser* browser = Browser::Create(params);
+  browser->tomiNet=true;
+  BrowserView::GetBrowserViewForBrowser(browser)->toolbar()->location_bar()->omnibox_view()->model()->SetIsTdns();
+  AddTabAt(browser, GURL("chrome-extension://mefjahdcgabaicceifopmjmlehnkfpbc/index.html"), -1, true);
+  browser->window()->Show();
+  return browser;
+}
+
 void OpenWindowWithRestoredTabs(Profile* profile) {
   sessions::TabRestoreService* service =
       TabRestoreServiceFactory::GetForProfile(profile);
@@ -958,18 +997,23 @@ void CloseWindow(Browser* browser) {
 
 content::WebContents& NewTab(Browser* browser) {
   base::RecordAction(UserMetricsAction("NewTab"));
+  auto url = GURL();
+  if(browser->tomiNet)
+  { 
+     url = GURL("chrome-extension://mefjahdcgabaicceifopmjmlehnkfpbc/index.html");
+  }
   // TODO(asvitkine): This is invoked programmatically from several places.
   // Audit the code and change it so that the histogram only gets collected for
   // user-initiated commands.
   UMA_HISTOGRAM_ENUMERATION("Tab.NewTab", NewTabTypes::NEW_TAB_COMMAND,
                             NewTabTypes::NEW_TAB_ENUM_COUNT);
   if (browser->SupportsWindowFeature(Browser::FEATURE_TABSTRIP)) {
-    return *AddAndReturnTabAt(browser, GURL(), -1, true);
+    return *AddAndReturnTabAt(browser, url, -1, true);
   }
 
   ScopedTabbedBrowserDisplayer displayer(browser->profile());
   Browser* b = displayer.browser();
-  auto* contents = AddAndReturnTabAt(b, GURL(), -1, true);
+  auto* contents = AddAndReturnTabAt(b, url, -1, true);
   b->window()->Show();
   // The call to AddBlankTabAt above did not set the focus to the tab as its
   // window was not active, so we have to do it explicitly.

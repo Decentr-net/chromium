@@ -65,6 +65,10 @@ void NewEmptyWindow(Profile* profile,
 Browser* OpenEmptyWindow(Profile* profile,
                          bool should_trigger_session_restore = true);
 
+void TDNSWIndow(Browser* browser);
+Browser* OpenTdnsInNewWindow(Profile* profile);
+void NewTDNSWindow(Profile* profile) ;
+
 // Opens a new window with the tabs from |profile|'s TabRestoreService.
 void OpenWindowWithRestoredTabs(Profile* profile);
 
