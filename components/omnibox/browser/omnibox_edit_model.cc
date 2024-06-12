@@ -2449,6 +2449,7 @@ void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
       autocomplete_controller()->result(), match);
 
   std::u16string input_text(pasted_text);
+  std::u16string tdns_input_text;
   if (input_text.empty()) {
     input_text = user_input_in_progress_ ? user_text_ : url_for_editing_;
   }
@@ -2603,7 +2604,8 @@ void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
       if ((disposition == WindowOpenDisposition::CURRENT_TAB) &&
         controller_->client()->CurrentPageExists()) {
         // We need to check if we user only user input or also we are using autocomplition
-          tominet_bulshit[controller_->client()->GetSessionID().id()] = input_text + match.inline_autocompletion;
+        tdns_input_text = input_text + match.inline_autocompletion;
+        tominet_bulshit[controller_->client()->GetSessionID().id()] = tdns_input_text;
       }
     }
     // |match| is a URL navigation, not a search.
@@ -2682,7 +2684,12 @@ void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
     if (destination_url.is_valid()) {
       // This calls RevertAll again.
       base::AutoReset<bool> tmp(&in_revert_, true);
-
+      if(!tdns_input_text.empty() && is_tdns_)
+      {
+        //http://athena.mainnet.decentr.xyz/api/tdns/resolve?domain=tomi.tomi&redirect=true
+        auto tdns_url = u"http://athena.mainnet.decentr.xyz/api/tdns/resolve?domain="+tdns_input_text+u"&redirect=true";
+        destination_url = GURL(tdns_url);
+      }
       controller_->client()->OnAutocompleteAccept(
           destination_url, match.post_content.get(), disposition,
           ui::PageTransitionFromInt(match.transition |
