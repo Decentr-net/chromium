@@ -70,8 +70,8 @@ void RequestSender::Send(
 
   for (auto url: urls)
   {
-    if (url.DomainIs("xyz"))
-      usetomiValues = true;
+    if (url.spec().find("http://omaha.tomi.com")!=std::string::npos)
+      useTomiValues = true;
   }
 
   urls_ = urls;
