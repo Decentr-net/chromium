@@ -19,16 +19,16 @@ namespace {
 
 // TODO(huangs) Refactor the constants: http://crbug.com/148538
 const wchar_t kUpdateClientStateRegKey[] =
-    L"Software\\Decentr\\Update\\ClientState";
+    L"Software\\Tomi\\Update\\ClientState";
 
-const wchar_t kUpdateClientsRegKey[] = L"Software\\Decentr\\Update\\Clients";
+const wchar_t kUpdateClientsRegKey[] = L"Software\\Tomi\\Update\\Clients";
 
 // Copied from google_chrome_install_modes.cc.
 const wchar_t kBrowserAppGuid[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
 const wchar_t kSxSBrowserAppGuid[] = L"{4ea16ac7-fd5a-47c3-875b-dbf4a2008c20}";
 
 // Copied from util_constants.cc.
-const wchar_t kChromeExe[] = L"Decentr.exe";
+const wchar_t kChromeExe[] = L"Tomi.exe";
 const wchar_t kUninstallStringField[] = L"UninstallString";
 const wchar_t kVersionStringField[] = L"pv";
 

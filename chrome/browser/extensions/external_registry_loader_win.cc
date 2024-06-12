@@ -32,7 +32,7 @@ using content::BrowserThread;
 namespace {
 
 // The Registry subkey that contains information about external extensions.
-const wchar_t kRegistryExtensions[] = L"Software\\Decentr\\Extensions";
+const wchar_t kRegistryExtensions[] = L"Software\\Tomi\\Extensions";
 
 // Registry value of the key that defines the installation parameter.
 const wchar_t kRegistryExtensionInstallParam[] = L"install_parameter";

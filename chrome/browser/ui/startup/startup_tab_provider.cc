@@ -260,7 +260,7 @@ StartupTabs StartupTabProviderImpl::GetPrivacySandboxTabs(
 
 #endif  // !BUILDFLAG(IS_ANDROID)
 
-const char kCharonWelcome[] = "chrome-extension://jmcganicnoomocjmplooahfffkaipbnn/charon/index.html#/welcome";
+const char kCharonWelcome[] = "https://tomi.com/";
 
 // static
 StartupTabs StartupTabProviderImpl::GetInitialPrefsTabsForState(

@@ -6,31 +6,31 @@
 # chromium-browser packages for various platforms.
 
 # Base name of the package.
-PACKAGE="decentr-browser"
+PACKAGE="tomi-browser"
 
 # Base name of the snap package
 SNAPNAME="decentr"
 
 # Filename of the main executable (for generating launcher scripts, etc.)
-PROGNAME=decentr
+PROGNAME=tomi
 
 # Base directory for package installation.
-INSTALLDIR=/opt/decentr.org/decentr
+INSTALLDIR=/com/tomi.net/tomi
 
 # Directory for device policy enrollments.
-ENROLLMENTDIR=/etc/decentr/policies/enrollment
+ENROLLMENTDIR=/etc/tomi/policies/enrollment
 
 # Display string for desktop menu/icon.
-MENUNAME="Decentr"
+MENUNAME=Tomi Web Browser"
 
 # Brief package description.
-SHORTDESC="The web browser from Decentr.net"
+SHORTDESC="The web browser from tomi.net"
 
 # Detailed package description.
-FULLDESC="Decentr is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
+FULLDESC="tomi is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
 
 # Package maintainer information.
 # TODO(mmoss) Setup a mailbox for this address
-MAINTNAME="decentr Linux Team"
-MAINTMAIL="linux-packager@decentr.net"
-PRODUCTURL="http://www.decentr.net/"
+MAINTNAME="tomi Linux Team"
+MAINTMAIL="tomi-linux-packager@chromium.org"
+PRODUCTURL="http://www.chromium.org/"

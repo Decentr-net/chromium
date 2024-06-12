@@ -26,12 +26,9 @@ generate_grd("build_grdp") {
     "share_unfilled.svg",
     "sparkle.svg",
     "twitter.svg",
-    "background.png",
-    "logo.png",
-    "presearch-logo.svg",
-    "decentr-logo.svg",
-    "demex.png",
-    "tezoro.png",
+    "upload.svg",
+    "tomi_background.png",
+    "tomi_logo.png",
   ]
   input_files_base_dir = rebase_path(".", "//")
   resource_path_prefix = "icons"

@@ -57,9 +57,9 @@ namespace {
 // /usr/share seems like a good choice, see: http://www.pathname.com/fhs/
 const base::FilePath::CharType kFilepathSinglePrefExtensions[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-    FILE_PATH_LITERAL("/usr/share/decentr/extensions");
+    FILE_PATH_LITERAL("/usr/share/tomi/extensions");
 #else
-    FILE_PATH_LITERAL("/usr/share/decentr/extensions");
+    FILE_PATH_LITERAL("/usr/share/tomi/extensions");
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 #endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_CHROMEOS)
@@ -573,7 +573,7 @@ bool PathProvider(int key, base::FilePath* result) {
         return false;
       }
 
-      cur = cur.Append(FILE_PATH_LITERAL("Decentr"))
+      cur = cur.Append(FILE_PATH_LITERAL("Tomi"))
                 .Append(FILE_PATH_LITERAL("External Extensions"));
 #else
       if (!base::PathService::Get(base::DIR_MODULE, &cur)) {
@@ -603,18 +603,18 @@ bool PathProvider(int key, base::FilePath* result) {
 #if BUILDFLAG(IS_MAC)
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
       cur = base::FilePath(
-          FILE_PATH_LITERAL("/Library/decentr/NativeMessagingHosts"));
+          FILE_PATH_LITERAL("/Library/tomi/NativeMessagingHosts"));
 #else
       cur = base::FilePath(FILE_PATH_LITERAL(
-          "/Library/Application Support/decentr/NativeMessagingHosts"));
+          "/Library/Application Support/tomi/NativeMessagingHosts"));
 #endif
 #else  // BUILDFLAG(IS_MAC)
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
       cur = base::FilePath(
-          FILE_PATH_LITERAL("/etc/opt/decentr/native-messaging-hosts"));
+          FILE_PATH_LITERAL("/etc/opt/tomi/native-messaging-hosts"));
 #else
       cur = base::FilePath(
-          FILE_PATH_LITERAL("/etc/decentr/native-messaging-hosts"));
+          FILE_PATH_LITERAL("/etc/tomi/native-messaging-hosts"));
 #endif
 #endif  // !BUILDFLAG(IS_MAC)
       break;

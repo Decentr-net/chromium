@@ -825,7 +825,7 @@ FilePath FormatTemporaryFileName(FilePath::StringPieceType identifier) {
 #elif BUILDFLAG(GOOGLE_CHROME_BRANDING)
   std::string_view prefix = "com.google.Chrome";
 #else
-  std::string_view prefix = "com.Decentr.Decentr";
+  StringPiece prefix = "com.Tomi.Tomi";
 #endif
   return FilePath(StrCat({".", prefix, ".", identifier}));
 }

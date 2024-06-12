@@ -26,10 +26,10 @@ def GetConfigurationForBuild(defines):
   # 'messages' in policy_templates.json.
   if '_chromium' in defines:
     config = {
-        'build': 'decentr',
+        'build': 'tomi',
         'app_name': 'tomi',
         'doc_url': 'https://chromeenterprise.google/policies/',
-        'frame_name': 'decentr Frame',
+        'frame_name': 'tomi Frame',
         'os_name': 'ChromiumOS',
         'webview_name': 'tomi WebView',
         'win_config': {
@@ -37,8 +37,8 @@ def GetConfigurationForBuild(defines):
                 'reg_mandatory_key_name': 'Software\\Policies\\tomi',
                 'reg_recommended_key_name':
                 'Software\\Policies\\tomi\\Recommended',
-                'mandatory_category_path': ['decentr'],
-                'recommended_category_path': ['decentr_recommended'],
+                'mandatory_category_path': ['tomi'],
+                'recommended_category_path': ['tomi_recommended'],
                 'category_path_strings': {
                     'chromium': 'tomi',
                     'chromium_recommended': 'tomi - {doc_recommended}',
@@ -58,13 +58,13 @@ def GetConfigurationForBuild(defines):
                 'namespace': 'Chromium.Policies.ChromiumOS'
             },
         },
-        'admx_prefix': 'decentr',
-        'linux_policy_path': '/etc/decentr/policies/',
-        'bundle_id': 'com.decentr',
+        'admx_prefix': 'tomi',
+        'linux_policy_path': '/etc/tomi/policies/',
+        'bundle_id': 'com.tomi',
     }
   elif '_google_chrome' in defines or '_is_chrome_for_testing_branded' in defines:
     if '_google_chrome' in defines:
-      linux_policy_path = '/etc/opt/decentr/policies/'
+      linux_policy_path = '/etc/opt/tomi/policies/'
       win_policy_path = 'Software\\Policies\\tomi'
     else:
       linux_policy_path = '/etc/opt/chrome_for_testing/policies/'

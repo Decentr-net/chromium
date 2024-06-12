@@ -64,7 +64,7 @@ ChromeLocationBarModelDelegate::FormattedStringWithEquivalentMeaning(
   
   if (url.SchemeIs("chrome"))
   { 
-      base::ReplaceFirstSubstringAfterOffset(&new_formatted_url, 0, u"chrome://", u"decentr://");
+      base::ReplaceFirstSubstringAfterOffset(&new_formatted_url, 0, u"chrome://", u"tomi://");
   }
   return new_formatted_url;
 }

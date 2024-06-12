@@ -31,10 +31,10 @@ declare_args() {
 assert(is_linux)
 
 packaging_files_executables = [
-  "$root_out_dir/decentr",
+  "$root_out_dir/tomi",
   "$root_out_dir/chrome_crashpad_handler",
   "$root_out_dir/chrome_management_service",
-  "$root_out_dir/decentr_sandbox",
+  "$root_out_dir/tomi_sandbox",
 ]
 
 packaging_files_shlibs = [
@@ -162,7 +162,7 @@ action("merge_rpm_dependencies") {
 }
 
 strip_binary("strip_chrome_binary") {
-  binary_input = "$root_out_dir/decentr"
+  binary_input = "$root_out_dir/tomi"
   deps = [ "//chrome" ]
 }
 
@@ -177,8 +177,8 @@ strip_binary("strip_chrome_management_service") {
 }
 
 strip_binary("strip_chrome_sandbox") {
-  binary_input = "$root_out_dir/decentr_sandbox"
-  deps = [ "//sandbox/linux:decentr_sandbox" ]
+  binary_input = "$root_out_dir/tomi_sandbox"
+  deps = [ "//sandbox/linux:tomi_sandbox" ]
 }
 
 strip_binary("strip_libEGL_shlib") {
@@ -379,7 +379,7 @@ group("installer_deps") {
     "//chrome/browser/resources/media/mei_preload:component",
     "//components/crash/core/app:chrome_crashpad_handler",
     "//components/privacy_sandbox/privacy_sandbox_attestations/preload:component",
-    "//sandbox/linux:decentr_sandbox",
+    "//sandbox/linux:tomi_sandbox",
     "//third_party/angle:libEGL",
     "//third_party/angle:libGLESv2",
     "//chrome/browser/resources/remoting:component",
@@ -434,7 +434,7 @@ template("linux_package") {
   if (is_chrome_branded) {
     package = "google-chrome"
   } else {
-    package = "decentr-browser"
+    package = "tomi-browser"
   }
 
   deb_target_name = "${target_name}_deb"

@@ -562,10 +562,10 @@ void TabHoverCardBubbleView::UpdateCardContent(const Tab* tab) {
     // We only clip the corners of the fade image when there isn't a footer.
     thumbnail_view_->SetRoundedCorners(!show_footer, corner_radius_);
   }
-  DecentrUpdateCardContent(tab);
+  TomiUpdateCardContent(tab);
 }
 
-void TabHoverCardBubbleView::DecentrUpdateCardContent(const Tab* tab){
+void TabHoverCardBubbleView::TomiUpdateCardContent(const Tab* tab){
   const std::u16string& domain = domain_label_->GetText();
   const std::u16string kChromeUISchemeU16 =u"chrome";
   // Replace chrome:// with decetnr://. Since this is purely in the UI we can
@@ -575,7 +575,7 @@ void TabHoverCardBubbleView::DecentrUpdateCardContent(const Tab* tab){
     std::u16string new_domain = domain;
     base::ReplaceFirstSubstringAfterOffset(
         &new_domain, 0ul, kChromeUISchemeU16,
-        u"decentr");
+        u"tomi");
     domain_label_->SetData({new_domain, /*is_filename*/ false});
   }
 }

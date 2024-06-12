@@ -123,30 +123,6 @@ def get_parts(config):
                 options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
                 sign_with_identifier=True,
                 verify_options=verify_options),
-        'wg':
-            CodeSignedProduct(
-                '{.framework_dir}/Helpers/wg'.format(config),
-                'wg',
-                options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
-                verify_options=verify_options),
-        'wireguard-go':
-            CodeSignedProduct(
-                '{.framework_dir}/Helpers/wireguard-go'.format(config),
-                'wireguard-go',
-                options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
-                verify_options=verify_options),
-        'wg-quick':
-            CodeSignedProduct(
-                '{.framework_dir}/Helpers/wg-quick'.format(config),
-                'wg-quick',
-                options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
-                verify_options=verify_options),
-        'bash':
-            CodeSignedProduct(
-                '{.framework_dir}/Helpers/bash'.format(config),
-                'bash',
-                options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
-                verify_options=verify_options),
     }
 
     if config.enable_updater:
@@ -232,7 +208,7 @@ def sign_chrome(paths, config, sign_framework=False):
         # signing the Current version.
         # https://developer.apple.com/library/content/technotes/tn2206/_index.html#//apple_ref/doc/uid/DTS40007919-CH1-TNTAG13
         for name, part in parts.items():
-            if name in ('app', 'framework', 'privileged-helper', 'wg_host'):
+            if name in ('app', 'framework', 'privileged-helper'):
                 continue
             signing.sign_part(paths, config, part)
 

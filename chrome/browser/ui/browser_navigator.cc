@@ -98,7 +98,7 @@ class BrowserNavigatorWebContentsAdoption {
 };
 
 namespace {
-void UpdateDecentrScheme(NavigateParams* params) {
+void UpdateTomiScheme(NavigateParams* params) {
   if (params->url.SchemeIs(content::kTomiUIScheme)) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);
@@ -106,8 +106,8 @@ void UpdateDecentrScheme(NavigateParams* params) {
   }
 }
 }  // namespace
-#define DECENTR_ADJUST_NAVIGATE_PARAMS_FOR_URL           \
-  UpdateDecentrScheme(params);  
+#define TOMI_ADJUST_NAVIGATE_PARAMS_FOR_URL           \
+  UpdateTomiScheme(params);  
 
 namespace {
 
@@ -621,7 +621,7 @@ base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
     return nullptr;
   }
 
-  DECENTR_ADJUST_NAVIGATE_PARAMS_FOR_URL
+  TOMI_ADJUST_NAVIGATE_PARAMS_FOR_URL
 
   // Open System Apps in their standalone window if necessary.
   // TODO(crbug.com/40136163): Remove this code after we integrate with intent

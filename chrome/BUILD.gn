@@ -81,10 +81,10 @@ if (is_win) {
 
     # See comment in chrome_dll.gypi in the hardlink_to_output
     # target for why this cannot be 'initial' like the DLL.
-    inputs = [ "$root_out_dir/initialexe/Decentr.exe" ]
+    inputs = [ "$root_out_dir/initialexe/Tomi.exe" ]
     outputs = [
-      "$root_out_dir/Decentr.exe",
-      "$root_out_dir/Decentr.exe.pdb",
+      "$root_out_dir/Tomi.exe",
+      "$root_out_dir/Tomi.exe.pdb",
     ]
     args = [
       "-i",
@@ -151,9 +151,9 @@ if (!is_android && !is_mac) {
       configs -= [ "//build/config/compiler:thinlto_optimize_default" ]
       configs += [ "//build/config/compiler:thinlto_optimize_max" ]
       if (is_win) {
-        output_name = "initialexe/Decentr"
+        output_name = "initialexe/Tomi"
       } else {
-        output_name = "decentr"
+        output_name = "tomi"
       }
 
       # Because the sources list varies so significantly per-platform, generally
@@ -921,25 +921,6 @@ if (is_win) {
       "$root_out_dir/chrome_crashpad_handler",
       "$root_out_dir/web_app_shortcut_copier",
     ]
-
-    if (current_cpu == "arm64") 
-    {
-      sources += [
-        "wg/wg_arm/wg_host",
-        "wg/wg_arm/wg",
-        "wg/wg_arm/wg-quick",
-        "wg/wg_arm/wireguard-go",
-        "wg/wg_arm/bash",
-      ]
-    }else{
-      sources += [
-        "wg/wg_86/wg_host",
-        "wg/wg_86/wg",
-        "wg/wg_86/wg-quick",
-        "wg/wg_86/wireguard-go",
-        "wg/wg_86/bash",
-      ]
-    }
 
     outputs = [ "{{bundle_contents_dir}}/Helpers/{{source_file_part}}" ]
 
@@ -1765,7 +1746,7 @@ if (is_linux || is_chromeos) {
       }
     }
     extract_symbols("chrome_symbols") {
-      binary = "$root_out_dir/decentr"
+      binary = "$root_out_dir/Tomi"
 
       if (current_cpu == "x86") {
         # GYP used "ia32" so keep that naming for back-compat.
@@ -1901,9 +1882,9 @@ if (is_chromeos_lacros && is_official_build) {
 
   # This will strip chrome binary and produce chrome.debug with symbols.
   strip_binary("strip_chrome_binary") {
-    binary_input = "$root_out_dir/decentr"
-    symbol_output = "$root_out_dir/decentr.debug"
-    stripped_binary_output = "$root_out_dir/decentr.stripped"
+    binary_input = "$root_out_dir/tomi"
+    symbol_output = "$root_out_dir/tomi.debug"
+    stripped_binary_output = "$root_out_dir/tomi.stripped"
     deps = [ ":chrome" ]
   }
   strip_binary("strip_chrome_crashpad_handler") {

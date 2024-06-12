@@ -7,7 +7,7 @@
 BUILDTYPE="${BUILDTYPE:-Debug}"
 CHROME_SRC_DIR="${CHROME_SRC_DIR:-$(dirname -- $(readlink -fn -- "$0"))/..}"
 CHROME_OUT_DIR="${CHROME_SRC_DIR}/${CHROMIUM_OUT_DIR:-out}/${BUILDTYPE}"
-CHROME_SANDBOX_BUILD_PATH="${CHROME_OUT_DIR}/decentr_sandbox"
+CHROME_SANDBOX_BUILD_PATH="${CHROME_OUT_DIR}/tomi_sandbox"
 CHROME_SANDBOX_INST_PATH="/usr/local/sbin/chrome-devel-sandbox"
 CHROME_SANDBOX_INST_DIR=$(dirname -- "$CHROME_SANDBOX_INST_PATH")
 

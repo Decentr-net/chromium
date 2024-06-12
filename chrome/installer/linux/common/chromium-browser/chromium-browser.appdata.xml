@@ -1,24 +1,24 @@
 <!-- Copyright 2017 The Chromium Authors -->
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>decentr-browser.desktop</id>
-  <update_contact>decentr-dev@decentr.org</update_contact>
+  <id>tomi-browser.desktop</id>
+  <update_contact>tomi-dev@tomi.org</update_contact>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)</project_license>
-  <name>decentr Web Browser</name>
-  <summary>The web browser from decentr project</summary>
+  <name>tomi Web Browser</name>
+  <summary>The web browser from tomi project</summary>
   <description>
     <p>
-    decentr is an open-source browser project that aims to build a safer, faster,
+    tomi is an open-source browser project that aims to build a safer, faster,
     and more stable way to experience the web.
     </p>
     <p>
-    decentr supports Vorbis, Theora, WebM and HTML5 audio and video standards, but
+    tomi supports Vorbis, Theora, WebM and HTML5 audio and video standards, but
     does not include the non-free AAC, H.264, MP3 or Adobe Flash code that is found
     in Chrome.
     </p>
   </description>
-  <url type="homepage">https://www.decentr.org/Home</url>
+  <url type="homepage">https://www.tomi.org/Home</url>
   <screenshots>
     <screenshot type="default">
       <image>https://www.gstatic.com/chrome/appstream/chrome-2.png</image>
@@ -26,7 +26,7 @@
     </screenshot>
   </screenshots>
   <translation/>
-  <developer_name>The decentr Authors</developer_name>
+  <developer_name>The tomi Authors</developer_name>
   <url type="bugtracker">https://www.chromium.org/for-testers/bug-reporting-guidelines</url>
   <url type="help">https://chromium.googlesource.com/chromium/src/+/main/docs/linux/debugging.md</url>
 </component>

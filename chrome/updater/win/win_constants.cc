@@ -85,7 +85,7 @@ const wchar_t kWindowsInternalServiceName[] = L"InternalService";
 
 const wchar_t kShutdownEvent[] = L"{a3ae06b5-0784-4ea3-b35b-a023a475f356}";
 
-const wchar_t kLegacyExeName[] = L"DecentrUpdate.exe";
+const wchar_t kLegacyExeName[] = L"TomiUpdate.exe";
 
 const wchar_t kLegacyServiceNamePrefix[] = L"" LEGACY_SERVICE_NAME_PREFIX;
 
