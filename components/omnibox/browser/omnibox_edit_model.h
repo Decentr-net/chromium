@@ -455,7 +455,16 @@ class OmniboxEditModel {
   void OnNavigationLikely(
       size_t line,
       omnibox::mojom::NavigationPredictor navigation_predictor);
+  
+  void JustUpdateText(std::u16string text){
+    tomi_display_text_ = text;
+    ResetDisplayTexts();
+  }
 
+  void SetIsTdns ()
+  {
+    is_tdns_ = true;
+  }
   // This calls `OpenMatch` directly for the few remaining `OmniboxEditModel`
   // test cases that require explicit control over match content. For new
   // tests, and for non-test code, use `OpenSelection`.
@@ -630,6 +639,10 @@ class OmniboxEditModel {
   //
   // This should not be considered suitable for editing.
   std::u16string display_text_;
+  std::u16string tomi_display_text_;
+  // a map for what user inputed and what should be shown
+  std::map<int32_t,std::u16string> tominet_bulshit;
+  bool is_tdns_;
 
   // The initial text representing the current URL suitable for editing.
   // This should fully represent the current URL without any meaning-changing
