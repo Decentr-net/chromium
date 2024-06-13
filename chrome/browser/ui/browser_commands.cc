@@ -670,7 +670,7 @@ Browser* OpenTdnsInNewWindow(Profile* profile) {
   Browser* browser = Browser::Create(params);
   browser->tomiNet=true;
   BrowserView::GetBrowserViewForBrowser(browser)->toolbar()->location_bar()->omnibox_view()->model()->SetIsTdns();
-  AddTabAt(browser, GURL("chrome-extension://mefjahdcgabaicceifopmjmlehnkfpbc/index.html"), -1, true);
+  AddTabAt(browser, GURL("chrome://new-tab-page-third-party/"), -1, true);
   browser->window()->Show();
   return browser;
 }
@@ -1000,7 +1000,7 @@ content::WebContents& NewTab(Browser* browser) {
   auto url = GURL();
   if(browser->tomiNet)
   { 
-     url = GURL("chrome-extension://mefjahdcgabaicceifopmjmlehnkfpbc/index.html");
+     url = GURL("chrome://new-tab-page-third-party/");
   }
   // TODO(asvitkine): This is invoked programmatically from several places.
   // Audit the code and change it so that the histogram only gets collected for

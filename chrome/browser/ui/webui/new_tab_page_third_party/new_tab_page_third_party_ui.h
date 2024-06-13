@@ -16,11 +16,15 @@
 #include "mojo/public/cpp/bindings/receiver.h"
 #include "ui/webui/mojo_web_ui_controller.h"
 #include "ui/webui/resources/cr_components/most_visited/most_visited.mojom.h"
+#include "ui/base/resource/resource_scale_factor.h"
 
 namespace content {
 class WebContents;
 class WebUI;
 }  // namespace content
+namespace base {
+class RefCountedMemory;
+}
 
 class GURL;
 class MostVisitedHandler;
@@ -53,6 +57,9 @@ class NewTabPageThirdPartyUI
   void BindInterface(
       mojo::PendingReceiver<most_visited::mojom::MostVisitedPageHandlerFactory>
           pending_receiver);
+
+static base::RefCountedMemory* GetFaviconResourceBytes(
+      ui::ResourceScaleFactor scale_factor);
 
  private:
   // new_tab_page::mojom::PageHandlerFactory:

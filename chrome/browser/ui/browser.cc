@@ -2103,7 +2103,9 @@ bool Browser::ShouldFocusLocationBarByDefault(WebContents* source) {
     if ((url.SchemeIs(content::kChromeUIScheme) &&
          url.host_piece() == chrome::kChromeUINewTabHost) ||
         (virtual_url.SchemeIs(content::kChromeUIScheme) &&
-         virtual_url.host_piece() == chrome::kChromeUINewTabHost)) {
+         virtual_url.host_piece() == chrome::kChromeUINewTabHost)
+         || (url.SchemeIs(content::kChromeUIScheme) &&
+         url.host_piece() == chrome::kChromeUINewTabPageThirdPartyHost)) {
       return true;
     }
   }

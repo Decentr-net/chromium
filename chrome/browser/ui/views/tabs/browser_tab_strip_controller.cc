@@ -510,7 +510,7 @@ void BrowserTabStripController::CreateNewTab() {
   auto url = GURL();
   if(browser_view_->browser()->tomiNet)
   { 
-     url = GURL("chrome-extension://mefjahdcgabaicceifopmjmlehnkfpbc/index.html");
+     url = GURL("chrome://new-tab-page-third-party/");
   }
 
   model_->delegate()->AddTabAt(url, -1, true);

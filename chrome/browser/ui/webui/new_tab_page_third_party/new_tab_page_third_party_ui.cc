@@ -44,6 +44,7 @@
 #include "ui/gfx/color_utils.h"
 #include "ui/resources/grit/webui_resources.h"
 #include "url/url_util.h"
+#include "ui/base/resource/resource_bundle.h"
 
 using content::BrowserContext;
 using content::WebContents;
@@ -139,6 +140,8 @@ void CreateAndAddNewTabPageThirdPartyUiHtmlSource(Profile* profile,
   source->AddString("shortcutAlreadyExists", "");
   source->AddString("urlField", "");
 
+
+
   webui::SetupWebUIDataSource(
       source,
       base::make_span(kNewTabPageThirdPartyResources,
@@ -215,4 +218,12 @@ void NewTabPageThirdPartyUI::CreatePageHandler(
       web_contents_, GURL(chrome::kChromeUINewTabPageThirdPartyURL),
       navigation_start_time_);
   most_visited_page_handler_->EnableCustomLinks(false);
+}
+
+// static
+base::RefCountedMemory* NewTabPageThirdPartyUI::GetFaviconResourceBytes(
+    ui::ResourceScaleFactor scale_factor) {
+  return static_cast<base::RefCountedMemory*>(
+      ui::ResourceBundle::GetSharedInstance().LoadDataResourceBytesForScale(
+          IDR_NTP_FAVICON, scale_factor));
 }

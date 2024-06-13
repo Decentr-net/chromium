@@ -117,8 +117,10 @@ bool ChromeLocationBarModelDelegate::ShouldDisplayURL() const {
     return true;
 
   const auto is_ntp = [](const GURL& url) {
-    return url.SchemeIs(content::kChromeUIScheme) &&
-           url.host() == chrome::kChromeUINewTabHost;
+    return (url.SchemeIs(content::kChromeUIScheme) &&
+           url.host() == chrome::kChromeUINewTabHost)||
+           (url.SchemeIs(content::kChromeUIScheme) &&
+           url.host() == chrome::kChromeUINewTabPageThirdPartyHost);
   };
 
   GURL url = entry->GetURL();
@@ -220,12 +222,16 @@ bool ChromeLocationBarModelDelegate::IsNewTabPage() const {
     return false;
 
   GURL ntp_url(chrome::kChromeUINewTabPageURL);
-  return ntp_url.scheme_piece() == entry->GetURL().scheme_piece() &&
-         ntp_url.host_piece() == entry->GetURL().host_piece();
+  GURL ntp2_url(chrome::kChromeUINewTabPageThirdPartyURL);
+
+  return (ntp_url.scheme_piece() == entry->GetURL().scheme_piece() &&
+         ntp_url.host_piece() == entry->GetURL().host_piece()) || 
+         (ntp2_url.scheme_piece() == entry->GetURL().scheme_piece() &&
+         ntp2_url.host_piece() == entry->GetURL().host_piece());
 }
 
 bool ChromeLocationBarModelDelegate::IsNewTabPageURL(const GURL& url) const {
-  return url.spec() == chrome::kChromeUINewTabURL;
+  return url.spec() == chrome::kChromeUINewTabURL ||  url.spec() == chrome::kChromeUINewTabPageThirdPartyURL ;
 }
 
 bool ChromeLocationBarModelDelegate::IsHomePage(const GURL& url) const {
