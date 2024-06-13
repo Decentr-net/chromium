@@ -5,6 +5,9 @@
 # This file provides common configuration information for building
 # chromium-browser packages for various platforms.
 
+# Base name of the snap package
+SNAPNAME="tomi"
+
 # Base name of the package.
 PACKAGE="tomi-browser"
 
@@ -15,19 +18,19 @@ SNAPNAME="decentr"
 PROGNAME=tomi
 
 # Base directory for package installation.
-INSTALLDIR=/com/tomi.net/tomi
+INSTALLDIR=/opt/tomi.net/tomi
 
 # Directory for device policy enrollments.
 ENROLLMENTDIR=/etc/tomi/policies/enrollment
 
 # Display string for desktop menu/icon.
-MENUNAME=Tomi Web Browser"
+MENUNAME="Tomi Web Browser"
 
 # Brief package description.
 SHORTDESC="The web browser from tomi.net"
 
 # Detailed package description.
-FULLDESC="tomi is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
+FULLDESC="Tomi is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
 
 # Package maintainer information.
 # TODO(mmoss) Setup a mailbox for this address
