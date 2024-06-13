@@ -87,7 +87,7 @@
     <include name="IDR_TBLOCK_008" file="tblock/1p-filters.html" type="BINDATA" />
     <include name="IDR_TBLOCK_009" file="tblock/managed_storage.json" type="BINDATA" />
     <include name="IDR_TBLOCK_010" file="tblock/dashboard.html" type="BINDATA" />
-    <include name="IDR_TBLOCK_011" file="tblock/3p-filters.html" type="BINDATA" /> 
+    <include name="IDR_TBLOCK_011" file="tblock/3p-filters.html" type="BINDATA" />
     <include name="IDR_TBLOCK_012" file="tblock/cloud-ui.html" type="BINDATA" />
     <include name="IDR_TBLOCK_013" file="tblock/asset-viewer.html" type="BINDATA" />
     <include name="IDR_TBLOCK_014" file="tblock/whitelist.html" type="BINDATA" />

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html id="uBO-popup-panel">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/themes/default.css">
+<link rel="stylesheet" href="css/common.css" type="text/css">
+<link rel="stylesheet" href="css/fa-icons.css" type="text/css">
+<link rel="stylesheet" href="css/popup-fenix.css" type="text/css">
+<title data-i18n="extName"></title>
+</head>
+
+<body class="loading" data-more="a b c d">
+<div id="panes">
+    <div id="main">
+        <div id="sticky">
+            <div id="header">
+                <div class="header__logo"></div>
+                <div class="header__title">
+                    tomi Adblock
+                </div>
+            </div>
+
+            <div id="stickyTools">
+                <div class="rulesetTools">
+                    <span id="saveRules" class="fa-icon" data-i18n-title="popupTipSaveRules">lock</span>
+                    <span id="revertRules" class="fa-icon" data-i18n-title="popupTipRevertRules">eraser</span>
+                </div>
+                <div class="switch-container">
+                    <div id="switch" role="button" aria-label tabindex="0" title>
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2234_4167)">
+                                <path d="M1.55405 17.7897C1.11314 13.0438 3.14013 8.74482 6.50212 6.01359C7.81263 4.94804 9.77226 5.86049 9.77226 7.54455C9.77226 8.16306 9.47832 8.73258 9.00066 9.11838C6.61848 11.0596 5.1855 14.1216 5.53456 17.5019C5.98772 21.905 9.51506 25.4691 13.912 25.959C19.65 26.602 24.5246 22.1071 24.5246 16.4976C24.5246 13.5214 23.1467 10.8576 20.9973 9.11226C20.5196 8.72645 20.2318 8.15693 20.2318 7.54455C20.2318 5.87886 22.1608 4.93579 23.4591 5.97685C26.5332 8.457 28.5051 12.2477 28.5051 16.4976C28.5051 24.2688 21.9036 30.5335 14.01 29.964C7.48194 29.5047 2.16032 24.3055 1.55405 17.7897ZM14.9959 -3.05176e-05C13.8936 -3.05176e-05 13.0057 0.894051 13.0057 1.99022V11.1576C13.0057 12.2599 13.8997 13.1479 14.9959 13.1479C16.0921 13.1479 16.9862 12.2538 16.9862 11.1576V1.99022C16.9862 0.894051 16.0982 -3.05176e-05 14.9959 -3.05176e-05Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2234_4167">
+                                    <rect width="30" height="30" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div id="status">
+                        <div class="status__on">
+                            <div class="status__title">ON</div>
+                            <div class="status__hint">All annoying ads are blocked!</div>
+                        </div>
+
+                        <div class="status__off">
+                            <div class="status__title">OFF</div>
+                            <div class="status__hint">You're seeing tons of annoying ads.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="refresh-container">
+                    <div class="rulesetTools">
+                      <span id="empty-id-1"></span>
+<!--                        <span id="refresh">-->
+<!--                           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                            <mask id="mask-refresh" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">-->
+<!--                              <path d="M0 12H6V14H0V24H24V12H18V10H24V0H0V12Z" fill="white"/>-->
+<!--                            </mask>-->
+<!--                            <g mask="url(#mask-refresh)">-->
+<!--                              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z" fill="#929297"/>-->
+<!--                              <path d="M14 10H21V3L14 10Z" fill="#929297"/>-->
+<!--                              <path d="M10 14H3V21L10 14Z" fill="#929297"/>-->
+<!--                            </g>-->
+<!--                            </svg>-->
+<!--                        </span>-->
+                    </div>
+                </div>
+            </div>
+            <div id="hostname"><span></span>&shy;<span></span></div>
+        </div>
+        <div id="extraTools" class="toolRibbon" data-more="d">
+            <hr data-more="d">
+            <span id="no-popups" class="hnSwitch tool enabled" role="button" aria-label tabindex="0" title><span class="fa-icon fa-icon-badged">ph-popups<svg class="nope" viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span><span class="caption" data-i18n="popupNoPopups_v2"></span></span>
+            <span id="no-large-media" class="hnSwitch tool enabled" role="button" aria-label tabindex="0" title><span class="fa-icon fa-icon-badged">film<svg class="nope" viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span><span class="caption" data-i18n="popupNoLargeMedia_v2"></span></span>
+            <span id="no-cosmetic-filtering" class="hnSwitch tool enabled" role="button" aria-label tabindex="0" title><span class="fa-icon fa-icon-badged">eye-slash<svg class="nope" viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span><span class="caption" data-i18n="popupNoCosmeticFiltering_v2"></span></span>
+            <span id="no-remote-fonts" class="hnSwitch tool enabled" role="button" aria-label tabindex="0" title><span class="fa-icon fa-icon-badged">ph-readermode-text-size<svg class="nope" viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span><span class="caption" data-i18n="popupNoRemoteFonts_v2"></span></span>
+            <span id="no-scripting" class="hnSwitch tool enabled" role="button" aria-label tabindex="0" title><span class="fa-icon fa-icon-badged">code<svg class="nope" viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span><span class="caption" data-i18n="popupNoScripting_v2"></span></span>
+        </div>
+
+        <div class="divider"></div>
+
+        <div id="basicStatsContainer">
+
+            <div class="basic-stats__row">
+                <div class="basic-stats__block">
+                    <span class="basic-stats__label">Blocked on this page</span>
+                    <span class="basic-stats__label-hidden" data-i18n="popupBlockedOnThisPage_v2"></span>
+                    <span class="basic-stats__value"></span>
+                </div>
+
+                <div class="divider mod-vertical"></div>
+
+                <div class="basic-stats__block">
+                    <span class="basic-stats__label">Blocked since install</span>
+                    <span class="basic-stats__label-hidden" data-i18n="popupBlockedSinceInstall_v2"></span>
+                    <span class="basic-stats__value"></span>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="basic-stats__row">
+                <div class="basic-stats__block">
+                    <span class="basic-stats__label">Domains connected</span>
+                    <span class="basic-stats__label-hidden" data-i18n="popupDomainsConnected_v2"></span>
+                    <span class="basic-stats__value"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider" id="refreshDivider"></div>
+
+        <div id="refresh" role="button">
+<!--            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                <mask id="mask-refresh" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">-->
+<!--                  <path d="M0 12H6V14H0V24H24V12H18V10H24V0H0V12Z" fill="white"/>-->
+<!--                </mask>-->
+<!--                <g mask="url(#mask-refresh)">-->
+<!--                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19C15.866 19 19 15.866 19 12C19 8.13401 15.866 5 12 5ZM3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12Z" fill="#1C1D26"/>-->
+<!--                  <path d="M14 10H21V3L14 10Z" fill="#1C1D26"/>-->
+<!--                  <path d="M10 14H3V21L10 14Z" fill="#1C1D26"/>-->
+<!--                </g>-->
+<!--            </svg>-->
+
+            <span class="refresh__label">Refresh settings</span>
+        </div>
+
+        <div id="refreshHint">Will refresh Adblock setting for the current page</div>
+
+<!--        <div id="basicStats">-->
+<!--            <span data-i18n="popupBlockedOnThisPage_v2"></span><span></span>-->
+<!--            <span data-i18n="popupDomainsConnected_v2"></span><span></span>-->
+<!--            <span data-i18n="popupBlockedSinceInstall_v2" ></span><span ></span>-->
+<!--        </div>-->
+        <div id="basicTools" class="toolRibbon" data-more="c" >
+            <hr data-more="c">
+            <span id="gotoZap" class="fa-icon tool" data-i18n-title="popupTipZapper">bolt<span class="caption" data-i18n="popupTipZapper"></span></span>
+            <span id="gotoPick" class="fa-icon tool" data-i18n-title="popupTipPicker">eye-dropper<span class="caption" data-i18n="popupTipPicker"></span></span>
+            <a href="logger-ui.html#_" class="fa-icon tool enabled" target="uBOLogger" tabindex="0" data-i18n-title="popupTipLog">list-alt<span class="caption" data-i18n="popupTipLog"></span></a>
+            <a href="dashboard.html" class="fa-icon tool enabled" target="uBODashboard" tabindex="0" data-i18n-title="popupTipDashboard">cogs<span class="caption" data-i18n="popupTipDashboard"></span></a>
+        </div>
+        <div class="itemRibbon" data-more="f">
+            <hr data-more="f">
+            <span data-i18n="popupVersion"></span><span id="version"></span>
+        </div>
+        <!--
+        <hr>
+        <div id="moreOrLess">
+            <span id="moreButton">
+                <span data-i18n="popupMoreButton_v2"></span>&emsp;<span class="fa-icon">angle-up</span>
+            </span>
+            <span id="lessButton">
+                <span class="fa-icon">angle-up</span>&emsp;<span data-i18n="popupLessButton_v2"></span>
+            </span>
+        </div>
+    -->
+    </div>
+    <div id="firewall" data-more="e">
+        <div data-des="*" data-type="*"><span data-i18n="popupAnyRulePrompt"></span><span data-src="/" data-i18n-title="popupTipGlobalRules"> </span><span data-src="." data-i18n-title="popupTipLocalRules"> </span></div>
+        <div data-des="*" data-type="image"><span data-i18n="popupImageRulePrompt"></span><span data-src="/"> </span><span data-src="."> </span></div>
+        <div data-des="*" data-type="3p"><span data-i18n="popup3pAnyRulePrompt"></span><span data-src="/"> </span><span data-src="."> </span></div>
+        <div data-des="*" data-type="inline-script"><span data-i18n="popupInlineScriptRulePrompt"></span><span data-src="/"> </span><span data-src="."> </span></div>
+        <div data-des="*" data-type="1p-script"><span data-i18n="popup1pScriptRulePrompt"></span><span data-src="/"> </span><span data-src="."> </span></div>
+        <div data-des="*" data-type="3p-script"><span><span class="filter" title="&#x2191;: Emphasize rows which have 3rd-party scripts&#x0A;&#x2193;: De-emphasize rows which have 3rd-party scripts"></span><span data-i18n="popup3pScriptRulePrompt"></span></span><span data-src="/"> </span><span data-src="."> </span></div>
+        <div data-des="*" data-type="3p-frame"><span><span class="filter" title="&#x2191;: Emphasize rows which have 3rd-party frames&#x0A;&#x2193;: De-emphasize rows which have 3rd-party frames"></span><span data-i18n="popup3pFrameRulePrompt"></span></span><span data-src="/"> </span><span data-src="."> </span></div>
+    </div>
+</div>
+
+<div id="templates" style="display: none">
+    <div data-des="" data-type="*"><span><span></span><sub></sub></span><span data-src="/"></span><span data-src="."></span></div>
+    <div id="actionSelector"><span id="dynaAllow"></span><span id="dynaNoop"></span><span id="dynaBlock"></span><span id="dynaCounts"></span></div>
+    <div id="hotspotTip"></div>
+    <div id="tooltip"></div>
+</div>
+
+<script src="js/fa-icons.js"></script>
+<script src="lib/punycode.js"></script>
+<script src="js/vapi.js"></script>
+<script src="js/vapi-common.js"></script>
+<script src="js/vapi-client.js"></script>
+<script src="js/udom.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/popup-fenix.js"></script>
+
+</body>
+
+</html>
