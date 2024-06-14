@@ -502,7 +502,7 @@ EXTERN_C const CLSID CLSID_UpdaterInternalUserClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("1F87FE2F-D6A9-4711-9D11-8187705F8457")
+class DECLSPEC_UUID("e4d1bba3-9ea7-4d40-8e71-4be4d7bfc633")
 UpdaterInternalUserClass;
 #endif
 

@@ -393,31 +393,31 @@ static const updater_internal_idl_user_MIDL_TYPE_FORMAT_STRING updater_internal_
 /*  2 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/*  4 */	NdrFcLong( 0xd272c794 ),	/* -764229740 */
-/*  8 */	NdrFcShort( 0x2ace ),	/* 10958 */
-/* 10 */	NdrFcShort( 0x4584 ),	/* 17796 */
-/* 12 */	0xb9,		/* 185 */
-			0x93,		/* 147 */
-/* 14 */	0x3b,		/* 59 */
-			0x90,		/* 144 */
-/* 16 */	0xc6,		/* 198 */
-			0x22,		/* 34 */
-/* 18 */	0xbe,		/* 190 */
-			0x65,		/* 101 */
+/*  4 */	NdrFcLong( 0x894794fb ),	/* -1991797509 */
+/*  8 */	NdrFcShort( 0x535e ),	/* 21342 */
+/* 10 */	NdrFcShort( 0x4b6b ),	/* 19307 */
+/* 12 */	0x8d,		/* 141 */
+			0x0,		/* 0 */
+/* 14 */	0xe5,		/* 229 */
+			0x8f,		/* 143 */
+/* 16 */	0x41,		/* 65 */
+			0xa7,		/* 167 */
+/* 18 */	0x2c,		/* 44 */
+			0x95,		/* 149 */
 /* 20 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 22 */	NdrFcLong( 0x618d9b82 ),	/* 1636670338 */
-/* 26 */	NdrFcShort( 0x9f51 ),	/* -24751 */
-/* 28 */	NdrFcShort( 0x4490 ),	/* 17552 */
-/* 30 */	0xaf,		/* 175 */
-			0x24,		/* 36 */
-/* 32 */	0xbb,		/* 187 */
-			0x80,		/* 128 */
-/* 34 */	0x48,		/* 72 */
-			0x9e,		/* 158 */
-/* 36 */	0x15,		/* 21 */
-			0x37,		/* 55 */
+/* 22 */	NdrFcLong( 0xc4f09781 ),	/* -990865535 */
+/* 26 */	NdrFcShort( 0x44f ),	/* 1103 */
+/* 28 */	NdrFcShort( 0x4870 ),	/* 18544 */
+/* 30 */	0x9b,		/* 155 */
+			0xa6,		/* 166 */
+/* 32 */	0xb7,		/* 183 */
+			0x2b,		/* 43 */
+/* 34 */	0xa6,		/* 166 */
+			0x27,		/* 39 */
+/* 36 */	0xdc,		/* 220 */
+			0x3a,		/* 58 */
 
 			0x0
         }
@@ -429,7 +429,7 @@ static const updater_internal_idl_user_MIDL_TYPE_FORMAT_STRING updater_internal_
 
 
 /* Object interface: IUpdaterInternalCallback, ver. 0.0,
-   GUID={0xD272C794,0x2ACE,0x4584,{0xB9,0x93,0x3B,0x90,0xC6,0x22,0xBE,0x65}} */
+   GUID={0x894794fb,0x535e,0x4b6b,{0x8d,0x00,0xe5,0x8f,0x41,0xa7,0x2c,0x95}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterInternalCallback_FormatStringOffsetTable[] =
@@ -479,7 +479,7 @@ const CInterfaceStubVtbl _IUpdaterInternalCallbackStubVtbl =
 
 
 /* Object interface: IUpdaterInternalCallbackUser, ver. 0.0,
-   GUID={0x618D9B82,0x9F51,0x4490,{0xAF,0x24,0xBB,0x80,0x48,0x9E,0x15,0x37}} */
+   GUID={0xc4f09781,0x044f,0x4870,{0x9b,0xa6,0xb7,0x2b,0xa6,0x27,0xdc,0x3a}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterInternalCallbackUser_FormatStringOffsetTable[] =
@@ -529,7 +529,7 @@ const CInterfaceStubVtbl _IUpdaterInternalCallbackUserStubVtbl =
 
 
 /* Object interface: IUpdaterInternal, ver. 0.0,
-   GUID={0x526DA036,0x9BD3,0x4697,{0x86,0x5A,0xDA,0x12,0xD3,0x7D,0xFF,0xCA}} */
+   GUID={0x1947672a,0xe51d,0x4d50,{0xbf,0x1d,0xf3,0x2d,0x85,0x0b,0x94,0xc1}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterInternal_FormatStringOffsetTable[] =
@@ -581,7 +581,7 @@ const CInterfaceStubVtbl _IUpdaterInternalStubVtbl =
 
 
 /* Object interface: IUpdaterInternalUser, ver. 0.0,
-   GUID={0xC82AFDA3,0xCA76,0x46EE,{0x96,0xE9,0x47,0x47,0x17,0xBF,0xA7,0xBA}} */
+   GUID={0xcc5ed350,0x079e,0x4789,{0x91,0xd4,0xf8,0x3c,0xe0,0xc8,0x7b,0xce}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterInternalUser_FormatStringOffsetTable[] =
@@ -664,27 +664,27 @@ static const MIDL_STUB_DESC Object_StubDesc =
 const CInterfaceProxyVtbl * const _updater_internal_idl_user_ProxyVtblList[] = 
 {
     ( CInterfaceProxyVtbl *) &_IUpdaterInternalProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterInternalUserProxyVtbl,
     ( CInterfaceProxyVtbl *) &_IUpdaterInternalCallbackUserProxyVtbl,
     ( CInterfaceProxyVtbl *) &_IUpdaterInternalCallbackProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterInternalUserProxyVtbl,
     0
 };
 
 const CInterfaceStubVtbl * const _updater_internal_idl_user_StubVtblList[] = 
 {
     ( CInterfaceStubVtbl *) &_IUpdaterInternalStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterInternalUserStubVtbl,
     ( CInterfaceStubVtbl *) &_IUpdaterInternalCallbackUserStubVtbl,
     ( CInterfaceStubVtbl *) &_IUpdaterInternalCallbackStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterInternalUserStubVtbl,
     0
 };
 
 PCInterfaceName const _updater_internal_idl_user_InterfaceNamesList[] = 
 {
     "IUpdaterInternal",
+    "IUpdaterInternalUser",
     "IUpdaterInternalCallbackUser",
     "IUpdaterInternalCallback",
-    "IUpdaterInternalUser",
     0
 };
 

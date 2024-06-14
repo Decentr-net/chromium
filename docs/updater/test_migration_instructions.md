@@ -28,7 +28,7 @@ sudo /Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/H
 ```
 
 On Windows, and with a per-user Omaha 3, use `regedit.exe` to open the key
-`HKEY_CURRENT_USER\SOFTWARE\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}\cohort`
+`HKEY_CURRENT_USER\SOFTWARE\Google\Update\ClientState\{e249a987-9d3b-42a1-bfd7-731d76101da7}\cohort`
 and set the value of `hint` (`REG_SZ`) to `chromium-updater-opt-in`. Then,
 delete the `LastChecked` value from `HKEY_CURRENT_USER\SOFTWARE\Google\Update`.
 Then, run `taskschd.msc`, click `Task Scheduler Library`, and run a
@@ -37,7 +37,7 @@ Then, run `taskschd.msc`, click `Task Scheduler Library`, and run a
 from an the command prompt (non-admin).
 
 On Windows, and with a system-wide Omaha 3, use `regedit.exe` to open the key
-`HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}\cohort`
+`HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google\Update\ClientState\{e249a987-9d3b-42a1-bfd7-731d76101da7}\cohort`
 and set the value of `hint` (`REG_SZ`) to `chromium-updater-opt-in`. Then,
 delete the `LastChecked` value from `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google\Update`.
 Then, run `taskschd.msc`, click `Task Scheduler Library`, and run a
@@ -85,11 +85,11 @@ On macOS, and with a system-wide updater, run:
 `sudo /Library/Application\ Support/Google/GoogleUpdater/*/GoogleUpdater.app/Contents/MacOS/GoogleUpdater --uninstall --system && sudo rm -rf /Library/Google/GoogleSoftwareUpdate`
 
 On Windows, and with a per-user updater, run `%LOCALAPPDATA%\Google\GoogleUpdater\*\updater.exe --uninstall`, then use `regedit.exe` to open the key
-`HKEY_CURRENT_USER\SOFTWARE\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}\cohort`
+`HKEY_CURRENT_USER\SOFTWARE\Google\Update\ClientState\{e249a987-9d3b-42a1-bfd7-731d76101da7}\cohort`
 and set the value of `hint` (`REG_SZ`) to `` (empty string).
 
 On Windows, and with a system-wide updater, from a command prompt running as admin, run `%PROGRAMFILES(X86)%\Google\GoogleUpdater\*\updater.exe --uninstall --system`, then use `regedit.exe` to open the key
-`HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google\Update\ClientState\{430FD4D0-B729-4F61-AA34-91526481799D}\cohort`
+`HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Google\Update\ClientState\{e249a987-9d3b-42a1-bfd7-731d76101da7}\cohort`
 and set the value of `hint` (`REG_SZ`) to `` (empty string).
 
 Then, remove or reinstall any software that uses Keystone or Omaha 3 to update.

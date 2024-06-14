@@ -6,10 +6,12 @@
 
 namespace google_update {
 
-const wchar_t kChromeUpgradeCode[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
+const wchar_t kChromeUpgradeCode[] = L"{759b2ea9-21e7-45db-a478-131501fa12f4}";
+//const wchar_t kChromeUpgradeCode[] = L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
 
 const wchar_t kGoogleUpdateUpgradeCode[] =
-    L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
+    //L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
+    L"{18217356-b676-4b3b-93ba-641fabf142c7}";
 
 const wchar_t kGoogleUpdateSetupExe[] = L"TomiUpdateSetup.exe";
 

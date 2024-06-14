@@ -639,7 +639,7 @@ EXTERN_C const IID IID_ICompleteStatus;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("2FCD14AF-B645-4351-8359-E80A0E202A0B")
+    MIDL_INTERFACE("05e1af35-4049-4e5f-899d-a5d2a2004584")
     ICompleteStatus : public IUnknown
     {
     public:
@@ -734,7 +734,7 @@ EXTERN_C const IID IID_ICompleteStatusUser;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("9AD1A645-5A4B-4D36-BC21-F0059482E6EA")
+    MIDL_INTERFACE("4c51462d-633c-4aba-8992-f6aa96be2811")
     ICompleteStatusUser : public IUnknown
     {
     public:
@@ -1741,7 +1741,7 @@ EXTERN_C const IID IID_IUpdater;
 
 #if defined(__cplusplus) && !defined(CINTERFACE)
     
-    MIDL_INTERFACE("63B8FFB1-5314-48C9-9C57-93EC8BC6184B")
+    MIDL_INTERFACE("e4978a53-2b98-415b-9cd9-5f8ffcf2cd8d")
     IUpdater : public IUnknown
     {
     public:
@@ -2256,7 +2256,7 @@ EXTERN_C const CLSID CLSID_UpdaterSystemClass;
 
 #ifdef __cplusplus
 
-class DECLSPEC_UUID("415FD747-D79E-42D7-93AC-1BA6E5FD4E93")
+class DECLSPEC_UUID("9efa113e-960e-415d-9368-8111cf6887a4")
 UpdaterSystemClass;
 #endif
 #endif /* __UpdaterLib_LIBRARY_DEFINED__ */

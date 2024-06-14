@@ -24,7 +24,8 @@ const wchar_t kGoogleUpdatePoliciesKey[] =
 const wchar_t kCheckPeriodOverrideMinutes[] = L"AutoUpdateCheckPeriodMinutes";
 const wchar_t kUpdatePolicyValue[] = L"UpdateDefault";
 const wchar_t kChromeUpdatePolicyOverride[] =
-    L"Update{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
+    //L"Update{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}";
+    L"Update{759b2ea9-21e7-45db-a478-131501fa12f4}";
 
 // Don't allow update periods longer than six weeks (Chrome release cadence).
 const int kCheckPeriodOverrideMinutesMax = 60 * 24 * 7 * 6;
@@ -33,7 +34,7 @@ const int kCheckPeriodOverrideMinutesMax = 60 * 24 * 7 * 6;
 const wchar_t kRegPathGoogleUpdate[] = L"Software\\Tomi\\Update";
 const wchar_t kRegPathClientsGoogleUpdate[] =
     L"Software\\Tomi\\Update\\Clients\\"
-    L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591676}";
+    L"{18217356-b676-4b3b-93ba-641fabf142c7}";
     //L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
 const wchar_t kRegValueGoogleUpdatePv[] = L"pv";
 const wchar_t kRegValueLastStartedAU[] = L"LastStartedAU";

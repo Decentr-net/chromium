@@ -77,7 +77,7 @@ template("midl_user_system_idl") {
 
 # These GUIDs must depend on branding only.
 branding_only_placeholder_guids = [
-  "PLACEHOLDER-GUID-cabd1cfd-2c5f-46a1-8105-564b3a6563ec",  # UpdaterLib
+  "PLACEHOLDER-GUID-8b10c18e-130b-49ec-a615-6dae002ef7fa",  # UpdaterLib
 
   "PLACEHOLDER-GUID-b08f92a7-0f66-4788-ade2-12e3ee767337",  # UpdaterUserClass
   "PLACEHOLDER-GUID-9efa113e-960e-415d-9368-8111cf6887a4",  # UpdaterSystemClass

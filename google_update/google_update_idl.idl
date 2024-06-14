@@ -408,7 +408,7 @@ interface IPackage : IDispatch {
 [
   object,
   dual,
-  uuid(6db98774-99ec-4808-b392-8f60f1096fbc),
+  uuid(3751f241-2040-44ad-9a43-73511b43a5d9),
   helpstring("ICurrentState Interface"),
   pointer_default(unique)
 ]
@@ -527,7 +527,7 @@ interface ICredentialDialog : IUnknown {
 [
   object,
   dual,
-  uuid(c4de041b-c1a6-49e3-b822-4ac964dc780f),
+  uuid(8762545d-5c42-44ee-a9a2-c5ca5e7ef463),
   helpstring("IPolicyStatus Interface"),
   pointer_default(unique)
 ]
@@ -609,7 +609,7 @@ interface IPolicyStatus : IDispatch {
 [
   object,
   dual,
-  uuid(d93caa32-843f-4b1f-b305-ba655227a8f7),
+  uuid(f9e2de38-a2c4-4a00-b072-983f1d385494),
   helpstring("IPolicyStatusValue Interface"),
   pointer_default(unique)
 ]
@@ -633,7 +633,7 @@ interface IPolicyStatusValue : IDispatch {
 [
   object,
   dual,
-  uuid(152477dd-1062-4e57-ba29-271565e2a2bf),
+  uuid(bea5ab38-aee5-4708-bf1e-9a338bb706ca),
   helpstring("IPolicyStatus2 Interface"),
   pointer_default(unique)
 ]
@@ -734,7 +734,7 @@ interface IPolicyStatus2 : IDispatch {
 [
   object,
   dual,
-  uuid(ed8d273d-59db-4969-a621-252115a2cf8f),
+  uuid(91bb172f-b84f-4662-9948-5dce65a4423a),
   helpstring("IPolicyStatus3 Interface"),
   pointer_default(unique)
 ]
@@ -754,7 +754,7 @@ interface IPolicyStatus3 : IPolicyStatus2 {
 [
   object,
   dual,
-  uuid(2188ef30-278b-4617-8039-4df5d621ed47),
+  uuid(b8b6e59a-17a2-4c7d-bf40-2e04443684b6),
   helpstring("IGoogleUpdate3Web Interface"),
   pointer_default(unique),
 ]
@@ -775,7 +775,7 @@ interface IGoogleUpdate3WebSecurity : IUnknown {
 [
   object,
   dual,
-  uuid(af6f136d-5973-4de4-a6e2-697d5b33cd17),
+  uuid(a52e87d9-ffed-4f3c-b845-a4bc785a4b5a),
   helpstring("IAppBundleWeb Interface"),
   pointer_default(unique),
 ]
@@ -814,7 +814,7 @@ interface IAppBundleWeb : IDispatch {
 [
   object,
   dual,
-  uuid(8f879527-a89f-40e4-bc84-f1ea57ec0884),
+  uuid(f4133240-83f3-42d1-8155-5ace2956d772),
   helpstring("IAppWeb Interface"),
   pointer_default(unique),
 ]
@@ -843,7 +843,7 @@ interface IAppWeb : IDispatch {
 [
   object,
   dual,
-  uuid(56551759-8200-4a85-a8e0-ace39e9ccf14),
+  uuid(4de5a51d-a2c8-4328-818b-e90133392316),
   helpstring("IAppCommandWeb Interface"),
   pointer_default(unique)
 ]
@@ -866,7 +866,7 @@ interface IAppCommandWeb : IDispatch {
 [
   object,
   dual,
-  uuid(02eee879-e42b-46e9-bbb4-e92cbe5b6f40),
+  uuid(389906fe-1dcc-42b4-a2fb-298de1c26cde),
   helpstring("IAppVersionWeb Interface"),
   pointer_default(unique)
 ]
@@ -948,7 +948,7 @@ interface IBrowserHttpRequest2 : IUnknown {
 [
   object,
   oleautomation,
-  uuid(dcaa7bb1-fff1-4684-9227-8baa3a131f4d),
+  uuid(5d46cda8-d57d-4d56-8218-dfff01d42fe8),
   helpstring("Google Update IProcessLauncher Interface"),
   pointer_default(unique)
 ]
@@ -974,7 +974,7 @@ interface IProcessLauncher : IUnknown {
 [
   object,
   oleautomation,
-  uuid(7902c919-c2a4-4e7c-aabc-fcf2c9af3c74),
+  uuid(546c5da1-e0d0-4e42-8394-e52113cce35c),
   helpstring("Google Update IProcessLauncher2 Interface"),
   pointer_default(unique)
 ]
@@ -1163,7 +1163,7 @@ library GoogleUpdate3Lib {
   }
 
   [
-    uuid(6d1e4dbb-1821-4505-be78-c9489ce711ce),
+    uuid(e23abf2b-e374-410d-a063-b7ea81f9efbd),
     helpstring("GoogleUpdate3Web for user applications")
   ]
   coclass GoogleUpdate3WebUserClass {
@@ -1171,7 +1171,7 @@ library GoogleUpdate3Lib {
   }
 
   [
-    uuid(88f09f15-24eb-4ca1-8659-720e291636d3),
+    uuid(67f89642-f891-4e14-b164-874dc5917636),
     helpstring("Pass-through broker for the GoogleUpdate3WebServiceClass")
   ]
   coclass GoogleUpdate3WebMachineClass {
@@ -1179,7 +1179,7 @@ library GoogleUpdate3Lib {
   }
 
   [
-    uuid(28d07c9b-1175-4ba4-a005-9440b69b7a41),
+    uuid(12e7e3e7-87d4-4f18-a55d-cc5572ff697c),
     helpstring("GoogleUpdate3Web")
   ]
   coclass GoogleUpdate3WebServiceClass {
@@ -1251,7 +1251,7 @@ library GoogleUpdate3Lib {
   }
 
   [
-    uuid(b9410c8d-6c42-461f-95c2-0c920e8c63db),
+    uuid(2e589042-b81a-4177-975a-95a7de516538),
     helpstring("Policy Status for per-user applications.")
   ]
   coclass PolicyStatusUserClass {
@@ -1259,7 +1259,7 @@ library GoogleUpdate3Lib {
   }
 
   [
-    uuid(3b3ce4f3-17fb-4e7e-9ee9-87d2758cd885),
+    uuid(1492f8f7-619e-4596-8712-f1977ff8322b),
     helpstring("Policy Status pass-through broker for machine applications.")
   ]
   coclass PolicyStatusMachineClass {
@@ -1301,7 +1301,7 @@ library GoogleUpdate3Lib {
   // BEGIN Legacy google_update_idl coclasses.
 
   [
-    uuid(30ec2bb6-1281-47b9-abd6-52cec03baf8e),
+    uuid(c02702a2-26d6-4cb8-919c-ff4c54c8b514),
     helpstring("ProcessLauncherClass Class")
   ]
   coclass ProcessLauncherClass {

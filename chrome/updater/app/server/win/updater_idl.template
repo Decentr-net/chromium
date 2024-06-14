@@ -220,7 +220,7 @@ interface IUpdater : IUnknown {
 END_INTERFACE
 
 [
-  uuid(PLACEHOLDER-GUID-cabd1cfd-2c5f-46a1-8105-564b3a6563ec),
+  uuid(PLACEHOLDER-GUID-8b10c18e-130b-49ec-a615-6dae002ef7fa),
   version(1.0),
   helpstring("Chromium Updater type library")
 ]

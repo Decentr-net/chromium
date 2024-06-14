@@ -440,8 +440,8 @@ Some of these actions accept parameters:
 #### Omaha Shims
 On Windows, the updater replaces Omaha's files with a copy of the updater, and
 keeps the Omaha registry entries
-(`CLIENTS/{430FD4D0-B729-4F61-AA34-91526481799D}` and
-`CLIENTSTATE/{430FD4D0-B729-4F61-AA34-91526481799D}`) up-to-date with the
+(`CLIENTS/{e249a987-9d3b-42a1-bfd7-731d76101da7}` and
+`CLIENTSTATE/{e249a987-9d3b-42a1-bfd7-731d76101da7}`) up-to-date with the
 latest `pv` value. Additionally, the updater replaces the Omaha uninstall
 command line with its own.
 

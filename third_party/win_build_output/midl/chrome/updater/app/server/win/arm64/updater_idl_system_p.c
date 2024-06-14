@@ -46,7 +46,7 @@
 
 #include "updater_idl_system.h"
 
-#define TYPE_FORMAT_STRING_SIZE   1199                              
+#define TYPE_FORMAT_STRING_SIZE   1235                              
 #define PROC_FORMAT_STRING_SIZE   2137                              
 #define EXPR_FORMAT_STRING_SIZE   1                                 
 #define TRANSMIT_AS_TABLE_SIZE    0            
@@ -1309,7 +1309,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 912 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 914 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 916 */	NdrFcShort( 0x434 ),	/* Type Offset=1076 */
+/* 916 */	NdrFcShort( 0x458 ),	/* Type Offset=1112 */
 
 	/* Return value */
 
@@ -1391,7 +1391,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 996 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 998 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1000 */	NdrFcShort( 0x43e ),	/* Type Offset=1086 */
+/* 1000 */	NdrFcShort( 0x462 ),	/* Type Offset=1122 */
 
 	/* Return value */
 
@@ -1432,43 +1432,43 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1044 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1046 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1048 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1048 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_code */
 
 /* 1050 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1052 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1054 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1054 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_path */
 
 /* 1056 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1058 */	NdrFcShort( 0x18 ),	/* ARM64 Stack size/offset = 24 */
-/* 1060 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1060 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter tag */
 
 /* 1062 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1064 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1066 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1066 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter version */
 
 /* 1068 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1070 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1072 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1072 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter existence_checker_path */
 
 /* 1074 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1076 */	NdrFcShort( 0x30 ),	/* ARM64 Stack size/offset = 48 */
-/* 1078 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1078 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter callback */
 
 /* 1080 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1082 */	NdrFcShort( 0x38 ),	/* ARM64 Stack size/offset = 56 */
-/* 1084 */	NdrFcShort( 0x43e ),	/* Type Offset=1086 */
+/* 1084 */	NdrFcShort( 0x462 ),	/* Type Offset=1122 */
 
 	/* Return value */
 
@@ -1503,7 +1503,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1122 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1124 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1126 */	NdrFcShort( 0x43e ),	/* Type Offset=1086 */
+/* 1126 */	NdrFcShort( 0x462 ),	/* Type Offset=1122 */
 
 	/* Return value */
 
@@ -1540,7 +1540,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1166 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1168 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1170 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1170 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter priority */
 
@@ -1560,7 +1560,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1184 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1186 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1188 */	NdrFcShort( 0x454 ),	/* Type Offset=1108 */
+/* 1188 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
 
 	/* Return value */
 
@@ -1599,13 +1599,13 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1230 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1232 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1234 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1234 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_data_index */
 
 /* 1236 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1238 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1240 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1240 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter priority */
 
@@ -1625,7 +1625,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1254 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1256 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1258 */	NdrFcShort( 0x454 ),	/* Type Offset=1108 */
+/* 1258 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
 
 	/* Return value */
 
@@ -1660,7 +1660,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1296 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1298 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1300 */	NdrFcShort( 0x454 ),	/* Type Offset=1108 */
+/* 1300 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
 
 	/* Return value */
 
@@ -1703,49 +1703,49 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1346 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1348 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1350 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1350 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_code */
 
 /* 1352 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1354 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1356 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1356 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_path */
 
 /* 1358 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1360 */	NdrFcShort( 0x18 ),	/* ARM64 Stack size/offset = 24 */
-/* 1362 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1362 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter tag */
 
 /* 1364 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1366 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1368 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1368 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter version */
 
 /* 1370 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1372 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1374 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1374 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter existence_checker_path */
 
 /* 1376 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1378 */	NdrFcShort( 0x30 ),	/* ARM64 Stack size/offset = 48 */
-/* 1380 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1380 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter client_install_data */
 
 /* 1382 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1384 */	NdrFcShort( 0x38 ),	/* ARM64 Stack size/offset = 56 */
-/* 1386 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1386 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_data_index */
 
 /* 1388 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1390 */	NdrFcShort( 0x40 ),	/* ARM64 Stack size/offset = 64 */
-/* 1392 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1392 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter priority */
 
@@ -1758,7 +1758,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1400 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1402 */	NdrFcShort( 0x50 ),	/* ARM64 Stack size/offset = 80 */
-/* 1404 */	NdrFcShort( 0x454 ),	/* Type Offset=1108 */
+/* 1404 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
 
 	/* Return value */
 
@@ -1799,7 +1799,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1442 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1444 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1446 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1446 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Return value */
 
@@ -1841,37 +1841,37 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1488 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1490 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1492 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1492 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter installer_path */
 
 /* 1494 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1496 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1498 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1498 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_args */
 
 /* 1500 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1502 */	NdrFcShort( 0x18 ),	/* ARM64 Stack size/offset = 24 */
-/* 1504 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1504 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_data */
 
 /* 1506 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1508 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1510 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1510 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_settings */
 
 /* 1512 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1514 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1516 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1516 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter observer */
 
 /* 1518 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1520 */	NdrFcShort( 0x30 ),	/* ARM64 Stack size/offset = 48 */
-/* 1522 */	NdrFcShort( 0x454 ),	/* Type Offset=1108 */
+/* 1522 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
 
 	/* Return value */
 
@@ -1906,7 +1906,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1560 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1562 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1564 */	NdrFcShort( 0x466 ),	/* Type Offset=1126 */
+/* 1564 */	NdrFcShort( 0x48a ),	/* Type Offset=1162 */
 
 	/* Return value */
 
@@ -1941,7 +1941,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1602 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1604 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1606 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
+/* 1606 */	NdrFcShort( 0x49c ),	/* Type Offset=1180 */
 
 	/* Return value */
 
@@ -1982,43 +1982,43 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1650 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1652 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1654 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1654 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_code */
 
 /* 1656 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1658 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1660 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1660 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_path */
 
 /* 1662 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1664 */	NdrFcShort( 0x18 ),	/* ARM64 Stack size/offset = 24 */
-/* 1666 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1666 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter tag */
 
 /* 1668 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1670 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1672 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1672 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter version */
 
 /* 1674 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1676 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1678 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1678 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter existence_checker_path */
 
 /* 1680 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1682 */	NdrFcShort( 0x30 ),	/* ARM64 Stack size/offset = 48 */
-/* 1684 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1684 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter callback */
 
 /* 1686 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1688 */	NdrFcShort( 0x38 ),	/* ARM64 Stack size/offset = 56 */
-/* 1690 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
+/* 1690 */	NdrFcShort( 0x49c ),	/* Type Offset=1180 */
 
 	/* Return value */
 
@@ -2053,7 +2053,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1728 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1730 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1732 */	NdrFcShort( 0x478 ),	/* Type Offset=1144 */
+/* 1732 */	NdrFcShort( 0x49c ),	/* Type Offset=1180 */
 
 	/* Return value */
 
@@ -2090,7 +2090,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1772 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1774 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1776 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1776 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter priority */
 
@@ -2110,7 +2110,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1790 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1792 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1794 */	NdrFcShort( 0x48a ),	/* Type Offset=1162 */
+/* 1794 */	NdrFcShort( 0x4ae ),	/* Type Offset=1198 */
 
 	/* Return value */
 
@@ -2149,13 +2149,13 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1836 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1838 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1840 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1840 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_data_index */
 
 /* 1842 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1844 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1846 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1846 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter priority */
 
@@ -2175,7 +2175,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1860 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1862 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1864 */	NdrFcShort( 0x48a ),	/* Type Offset=1162 */
+/* 1864 */	NdrFcShort( 0x4ae ),	/* Type Offset=1198 */
 
 	/* Return value */
 
@@ -2210,7 +2210,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1902 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 1904 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1906 */	NdrFcShort( 0x48a ),	/* Type Offset=1162 */
+/* 1906 */	NdrFcShort( 0x4ae ),	/* Type Offset=1198 */
 
 	/* Return value */
 
@@ -2253,49 +2253,49 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 1952 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1954 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 1956 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1956 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_code */
 
 /* 1958 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1960 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 1962 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1962 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter brand_path */
 
 /* 1964 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1966 */	NdrFcShort( 0x18 ),	/* ARM64 Stack size/offset = 24 */
-/* 1968 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1968 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter tag */
 
 /* 1970 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1972 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 1974 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1974 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter version */
 
 /* 1976 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1978 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 1980 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1980 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter existence_checker_path */
 
 /* 1982 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1984 */	NdrFcShort( 0x30 ),	/* ARM64 Stack size/offset = 48 */
-/* 1986 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1986 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter client_install_data */
 
 /* 1988 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1990 */	NdrFcShort( 0x38 ),	/* ARM64 Stack size/offset = 56 */
-/* 1992 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1992 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_data_index */
 
 /* 1994 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 1996 */	NdrFcShort( 0x40 ),	/* ARM64 Stack size/offset = 64 */
-/* 1998 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 1998 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter priority */
 
@@ -2308,7 +2308,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 2006 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 2008 */	NdrFcShort( 0x50 ),	/* ARM64 Stack size/offset = 80 */
-/* 2010 */	NdrFcShort( 0x48a ),	/* Type Offset=1162 */
+/* 2010 */	NdrFcShort( 0x4ae ),	/* Type Offset=1198 */
 
 	/* Return value */
 
@@ -2347,37 +2347,37 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 2052 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 2054 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 2056 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 2056 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter installer_path */
 
 /* 2058 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 2060 */	NdrFcShort( 0x10 ),	/* ARM64 Stack size/offset = 16 */
-/* 2062 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 2062 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_args */
 
 /* 2064 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 2066 */	NdrFcShort( 0x18 ),	/* ARM64 Stack size/offset = 24 */
-/* 2068 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 2068 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_data */
 
 /* 2070 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 2072 */	NdrFcShort( 0x20 ),	/* ARM64 Stack size/offset = 32 */
-/* 2074 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 2074 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter install_settings */
 
 /* 2076 */	NdrFcShort( 0x10b ),	/* Flags:  must size, must free, in, simple ref, */
 /* 2078 */	NdrFcShort( 0x28 ),	/* ARM64 Stack size/offset = 40 */
-/* 2080 */	NdrFcShort( 0x452 ),	/* Type Offset=1106 */
+/* 2080 */	NdrFcShort( 0x476 ),	/* Type Offset=1142 */
 
 	/* Parameter observer */
 
 /* 2082 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 2084 */	NdrFcShort( 0x30 ),	/* ARM64 Stack size/offset = 48 */
-/* 2086 */	NdrFcShort( 0x48a ),	/* Type Offset=1162 */
+/* 2086 */	NdrFcShort( 0x4ae ),	/* Type Offset=1198 */
 
 	/* Return value */
 
@@ -2412,7 +2412,7 @@ static const updater_idl_system_MIDL_PROC_FORMAT_STRING updater_idl_system__MIDL
 
 /* 2124 */	NdrFcShort( 0xb ),	/* Flags:  must size, must free, in, */
 /* 2126 */	NdrFcShort( 0x8 ),	/* ARM64 Stack size/offset = 8 */
-/* 2128 */	NdrFcShort( 0x49c ),	/* Type Offset=1180 */
+/* 2128 */	NdrFcShort( 0x4c0 ),	/* Type Offset=1216 */
 
 	/* Return value */
 
@@ -2472,65 +2472,65 @@ static const updater_idl_system_MIDL_TYPE_FORMAT_STRING updater_idl_system__MIDL
 /* 50 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 52 */	NdrFcLong( 0x46acf70b ),	/* 1185740555 */
-/* 56 */	NdrFcShort( 0xac13 ),	/* -21485 */
-/* 58 */	NdrFcShort( 0x406d ),	/* 16493 */
-/* 60 */	0xb5,		/* 181 */
-			0x3b,		/* 59 */
-/* 62 */	0xb2,		/* 178 */
-			0xc4,		/* 196 */
-/* 64 */	0xbf,		/* 191 */
-			0x9,		/* 9 */
-/* 66 */	0x1f,		/* 31 */
-			0xf6,		/* 246 */
+/* 52 */	NdrFcLong( 0xe59cfbd8 ),	/* -442696744 */
+/* 56 */	NdrFcShort( 0xff1a ),	/* -230 */
+/* 58 */	NdrFcShort( 0x5b7a ),	/* 23418 */
+/* 60 */	0x9e,		/* 158 */
+			0xb,		/* 11 */
+/* 62 */	0x33,		/* 51 */
+			0xa3,		/* 163 */
+/* 64 */	0xaa,		/* 170 */
+			0x7d,		/* 125 */
+/* 66 */	0x13,		/* 19 */
+			0x8e,		/* 142 */
 /* 68 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 70 */	NdrFcLong( 0x2fcd14af ),	/* 801969327 */
-/* 74 */	NdrFcShort( 0xb645 ),	/* -18875 */
-/* 76 */	NdrFcShort( 0x4351 ),	/* 17233 */
-/* 78 */	0x83,		/* 131 */
-			0x59,		/* 89 */
-/* 80 */	0xe8,		/* 232 */
-			0xa,		/* 10 */
-/* 82 */	0xe,		/* 14 */
-			0x20,		/* 32 */
-/* 84 */	0x2a,		/* 42 */
-			0xb,		/* 11 */
+/* 70 */	NdrFcLong( 0x42e19987 ),	/* 1122081159 */
+/* 74 */	NdrFcShort( 0xf5ec ),	/* -2580 */
+/* 76 */	NdrFcShort( 0x5180 ),	/* 20864 */
+/* 78 */	0x9a,		/* 154 */
+			0xc6,		/* 198 */
+/* 80 */	0x4d,		/* 77 */
+			0x9f,		/* 159 */
+/* 82 */	0x22,		/* 34 */
+			0x48,		/* 72 */
+/* 84 */	0x7a,		/* 122 */
+			0x50,		/* 80 */
 /* 86 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 88 */	NdrFcLong( 0xea6fdc05 ),	/* -361767931 */
-/* 92 */	NdrFcShort( 0xcdc5 ),	/* -12859 */
-/* 94 */	NdrFcShort( 0x4ea4 ),	/* 20132 */
-/* 96 */	0xab,		/* 171 */
-			0x41,		/* 65 */
-/* 98 */	0xcc,		/* 204 */
-			0xbd,		/* 189 */
-/* 100 */	0x10,		/* 16 */
-			0x40,		/* 64 */
-/* 102 */	0xa2,		/* 162 */
-			0xb5,		/* 181 */
+/* 88 */	NdrFcLong( 0x799f87b8 ),	/* 2040498104 */
+/* 92 */	NdrFcShort( 0x8700 ),	/* -30976 */
+/* 94 */	NdrFcShort( 0x5040 ),	/* 20544 */
+/* 96 */	0x85,		/* 133 */
+			0x4d,		/* 77 */
+/* 98 */	0x4a,		/* 74 */
+			0xac,		/* 172 */
+/* 100 */	0xf7,		/* 247 */
+			0xff,		/* 255 */
+/* 102 */	0x9c,		/* 156 */
+			0xaa,		/* 170 */
 /* 104 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 106 */	NdrFcLong( 0xe2bd9a6b ),	/* -490890645 */
-/* 110 */	NdrFcShort( 0xa19 ),	/* 2585 */
-/* 112 */	NdrFcShort( 0x4c89 ),	/* 19593 */
-/* 114 */	0xae,		/* 174 */
-			0x8b,		/* 139 */
-/* 116 */	0xb7,		/* 183 */
-			0xe9,		/* 233 */
-/* 118 */	0xe5,		/* 229 */
-			0x1d,		/* 29 */
-/* 120 */	0x9a,		/* 154 */
-			0x7,		/* 7 */
+/* 106 */	NdrFcLong( 0xeaf07612 ),	/* -353339886 */
+/* 110 */	NdrFcShort( 0xbb0d ),	/* -17651 */
+/* 112 */	NdrFcShort( 0x5fe8 ),	/* 24552 */
+/* 114 */	0xbd,		/* 189 */
+			0xe6,		/* 230 */
+/* 116 */	0x4d,		/* 77 */
+			0xd2,		/* 210 */
+/* 118 */	0x11,		/* 17 */
+			0x47,		/* 71 */
+/* 120 */	0xc5,		/* 197 */
+			0xd4,		/* 212 */
 /* 122 */	
 			0x11, 0x0,	/* FC_RP */
-/* 124 */	NdrFcShort( 0x3b8 ),	/* Offset= 952 (1076) */
+/* 124 */	NdrFcShort( 0x3dc ),	/* Offset= 988 (1112) */
 /* 126 */	
 			0x12, 0x0,	/* FC_UP */
-/* 128 */	NdrFcShort( 0x3a0 ),	/* Offset= 928 (1056) */
+/* 128 */	NdrFcShort( 0x3c4 ),	/* Offset= 964 (1092) */
 /* 130 */	
 			0x2b,		/* FC_NON_ENCAPSULATED_UNION */
 			0x9,		/* FC_ULONG */
@@ -2570,39 +2570,39 @@ static const updater_idl_system_MIDL_TYPE_FORMAT_STRING updater_idl_system__MIDL
 /* 222 */	NdrFcLong( 0x2000 ),	/* 8192 */
 /* 226 */	NdrFcShort( 0xf8 ),	/* Offset= 248 (474) */
 /* 228 */	NdrFcLong( 0x24 ),	/* 36 */
-/* 232 */	NdrFcShort( 0x2ee ),	/* Offset= 750 (982) */
+/* 232 */	NdrFcShort( 0x312 ),	/* Offset= 786 (1018) */
 /* 234 */	NdrFcLong( 0x4024 ),	/* 16420 */
-/* 238 */	NdrFcShort( 0x2e8 ),	/* Offset= 744 (982) */
+/* 238 */	NdrFcShort( 0x30c ),	/* Offset= 780 (1018) */
 /* 240 */	NdrFcLong( 0x4011 ),	/* 16401 */
-/* 244 */	NdrFcShort( 0x2e6 ),	/* Offset= 742 (986) */
+/* 244 */	NdrFcShort( 0x30a ),	/* Offset= 778 (1022) */
 /* 246 */	NdrFcLong( 0x4002 ),	/* 16386 */
-/* 250 */	NdrFcShort( 0x2e4 ),	/* Offset= 740 (990) */
+/* 250 */	NdrFcShort( 0x308 ),	/* Offset= 776 (1026) */
 /* 252 */	NdrFcLong( 0x4003 ),	/* 16387 */
-/* 256 */	NdrFcShort( 0x2e2 ),	/* Offset= 738 (994) */
+/* 256 */	NdrFcShort( 0x306 ),	/* Offset= 774 (1030) */
 /* 258 */	NdrFcLong( 0x4014 ),	/* 16404 */
-/* 262 */	NdrFcShort( 0x2e0 ),	/* Offset= 736 (998) */
+/* 262 */	NdrFcShort( 0x304 ),	/* Offset= 772 (1034) */
 /* 264 */	NdrFcLong( 0x4004 ),	/* 16388 */
-/* 268 */	NdrFcShort( 0x2de ),	/* Offset= 734 (1002) */
+/* 268 */	NdrFcShort( 0x302 ),	/* Offset= 770 (1038) */
 /* 270 */	NdrFcLong( 0x4005 ),	/* 16389 */
-/* 274 */	NdrFcShort( 0x2dc ),	/* Offset= 732 (1006) */
+/* 274 */	NdrFcShort( 0x300 ),	/* Offset= 768 (1042) */
 /* 276 */	NdrFcLong( 0x400b ),	/* 16395 */
-/* 280 */	NdrFcShort( 0x2c6 ),	/* Offset= 710 (990) */
+/* 280 */	NdrFcShort( 0x2ea ),	/* Offset= 746 (1026) */
 /* 282 */	NdrFcLong( 0x400a ),	/* 16394 */
-/* 286 */	NdrFcShort( 0x2c4 ),	/* Offset= 708 (994) */
+/* 286 */	NdrFcShort( 0x2e8 ),	/* Offset= 744 (1030) */
 /* 288 */	NdrFcLong( 0x4006 ),	/* 16390 */
-/* 292 */	NdrFcShort( 0x2ce ),	/* Offset= 718 (1010) */
+/* 292 */	NdrFcShort( 0x2f2 ),	/* Offset= 754 (1046) */
 /* 294 */	NdrFcLong( 0x4007 ),	/* 16391 */
-/* 298 */	NdrFcShort( 0x2c4 ),	/* Offset= 708 (1006) */
+/* 298 */	NdrFcShort( 0x2e8 ),	/* Offset= 744 (1042) */
 /* 300 */	NdrFcLong( 0x4008 ),	/* 16392 */
-/* 304 */	NdrFcShort( 0x2c6 ),	/* Offset= 710 (1014) */
+/* 304 */	NdrFcShort( 0x2ea ),	/* Offset= 746 (1050) */
 /* 306 */	NdrFcLong( 0x400d ),	/* 16397 */
-/* 310 */	NdrFcShort( 0x2c4 ),	/* Offset= 708 (1018) */
+/* 310 */	NdrFcShort( 0x2e8 ),	/* Offset= 744 (1054) */
 /* 312 */	NdrFcLong( 0x4009 ),	/* 16393 */
-/* 316 */	NdrFcShort( 0x2c2 ),	/* Offset= 706 (1022) */
+/* 316 */	NdrFcShort( 0x2e6 ),	/* Offset= 742 (1058) */
 /* 318 */	NdrFcLong( 0x6000 ),	/* 24576 */
-/* 322 */	NdrFcShort( 0x2c0 ),	/* Offset= 704 (1026) */
+/* 322 */	NdrFcShort( 0x2e4 ),	/* Offset= 740 (1062) */
 /* 324 */	NdrFcLong( 0x400c ),	/* 16396 */
-/* 328 */	NdrFcShort( 0x2be ),	/* Offset= 702 (1030) */
+/* 328 */	NdrFcShort( 0x2e2 ),	/* Offset= 738 (1066) */
 /* 330 */	NdrFcLong( 0x10 ),	/* 16 */
 /* 334 */	NdrFcShort( 0x8002 ),	/* Simple arm type: FC_CHAR */
 /* 336 */	NdrFcLong( 0x12 ),	/* 18 */
@@ -2616,21 +2616,21 @@ static const updater_idl_system_MIDL_TYPE_FORMAT_STRING updater_idl_system__MIDL
 /* 360 */	NdrFcLong( 0x17 ),	/* 23 */
 /* 364 */	NdrFcShort( 0x8008 ),	/* Simple arm type: FC_LONG */
 /* 366 */	NdrFcLong( 0xe ),	/* 14 */
-/* 370 */	NdrFcShort( 0x29c ),	/* Offset= 668 (1038) */
+/* 370 */	NdrFcShort( 0x2c0 ),	/* Offset= 704 (1074) */
 /* 372 */	NdrFcLong( 0x400e ),	/* 16398 */
-/* 376 */	NdrFcShort( 0x2a0 ),	/* Offset= 672 (1048) */
+/* 376 */	NdrFcShort( 0x2c4 ),	/* Offset= 708 (1084) */
 /* 378 */	NdrFcLong( 0x4010 ),	/* 16400 */
-/* 382 */	NdrFcShort( 0x29e ),	/* Offset= 670 (1052) */
+/* 382 */	NdrFcShort( 0x2c2 ),	/* Offset= 706 (1088) */
 /* 384 */	NdrFcLong( 0x4012 ),	/* 16402 */
-/* 388 */	NdrFcShort( 0x25a ),	/* Offset= 602 (990) */
+/* 388 */	NdrFcShort( 0x27e ),	/* Offset= 638 (1026) */
 /* 390 */	NdrFcLong( 0x4013 ),	/* 16403 */
-/* 394 */	NdrFcShort( 0x258 ),	/* Offset= 600 (994) */
+/* 394 */	NdrFcShort( 0x27c ),	/* Offset= 636 (1030) */
 /* 396 */	NdrFcLong( 0x4015 ),	/* 16405 */
-/* 400 */	NdrFcShort( 0x256 ),	/* Offset= 598 (998) */
+/* 400 */	NdrFcShort( 0x27a ),	/* Offset= 634 (1034) */
 /* 402 */	NdrFcLong( 0x4016 ),	/* 16406 */
-/* 406 */	NdrFcShort( 0x24c ),	/* Offset= 588 (994) */
+/* 406 */	NdrFcShort( 0x270 ),	/* Offset= 624 (1030) */
 /* 408 */	NdrFcLong( 0x4017 ),	/* 16407 */
-/* 412 */	NdrFcShort( 0x246 ),	/* Offset= 582 (994) */
+/* 412 */	NdrFcShort( 0x26a ),	/* Offset= 618 (1030) */
 /* 414 */	NdrFcLong( 0x0 ),	/* 0 */
 /* 418 */	NdrFcShort( 0x0 ),	/* Offset= 0 (418) */
 /* 420 */	NdrFcLong( 0x1 ),	/* 1 */
@@ -2678,7 +2678,7 @@ static const updater_idl_system_MIDL_TYPE_FORMAT_STRING updater_idl_system__MIDL
 /* 476 */	NdrFcShort( 0x2 ),	/* Offset= 2 (478) */
 /* 478 */	
 			0x12, 0x0,	/* FC_UP */
-/* 480 */	NdrFcShort( 0x1e4 ),	/* Offset= 484 (964) */
+/* 480 */	NdrFcShort( 0x208 ),	/* Offset= 520 (1000) */
 /* 482 */	
 			0x2a,		/* FC_ENCAPSULATED_UNION */
 			0x89,		/* 137 */
@@ -2687,23 +2687,23 @@ static const updater_idl_system_MIDL_TYPE_FORMAT_STRING updater_idl_system__MIDL
 /* 488 */	NdrFcLong( 0x8 ),	/* 8 */
 /* 492 */	NdrFcShort( 0x50 ),	/* Offset= 80 (572) */
 /* 494 */	NdrFcLong( 0xd ),	/* 13 */
-/* 498 */	NdrFcShort( 0x70 ),	/* Offset= 112 (610) */
+/* 498 */	NdrFcShort( 0x82 ),	/* Offset= 130 (628) */
 /* 500 */	NdrFcLong( 0x9 ),	/* 9 */
-/* 504 */	NdrFcShort( 0x90 ),	/* Offset= 144 (648) */
+/* 504 */	NdrFcShort( 0xb4 ),	/* Offset= 180 (684) */
 /* 506 */	NdrFcLong( 0xc ),	/* 12 */
-/* 510 */	NdrFcShort( 0xb0 ),	/* Offset= 176 (686) */
+/* 510 */	NdrFcShort( 0xd4 ),	/* Offset= 212 (722) */
 /* 512 */	NdrFcLong( 0x24 ),	/* 36 */
-/* 516 */	NdrFcShort( 0x102 ),	/* Offset= 258 (774) */
+/* 516 */	NdrFcShort( 0x126 ),	/* Offset= 294 (810) */
 /* 518 */	NdrFcLong( 0x800d ),	/* 32781 */
-/* 522 */	NdrFcShort( 0x11e ),	/* Offset= 286 (808) */
+/* 522 */	NdrFcShort( 0x142 ),	/* Offset= 322 (844) */
 /* 524 */	NdrFcLong( 0x10 ),	/* 16 */
-/* 528 */	NdrFcShort( 0x138 ),	/* Offset= 312 (840) */
+/* 528 */	NdrFcShort( 0x15c ),	/* Offset= 348 (876) */
 /* 530 */	NdrFcLong( 0x2 ),	/* 2 */
-/* 534 */	NdrFcShort( 0x14e ),	/* Offset= 334 (868) */
+/* 534 */	NdrFcShort( 0x172 ),	/* Offset= 370 (904) */
 /* 536 */	NdrFcLong( 0x3 ),	/* 3 */
-/* 540 */	NdrFcShort( 0x164 ),	/* Offset= 356 (896) */
+/* 540 */	NdrFcShort( 0x188 ),	/* Offset= 392 (932) */
 /* 542 */	NdrFcLong( 0x14 ),	/* 20 */
-/* 546 */	NdrFcShort( 0x17a ),	/* Offset= 378 (924) */
+/* 546 */	NdrFcShort( 0x19e ),	/* Offset= 414 (960) */
 /* 548 */	NdrFcShort( 0xffff ),	/* Offset= -1 (547) */
 /* 550 */	
 			0x21,		/* FC_BOGUS_ARRAY */
@@ -2734,495 +2734,523 @@ static const updater_idl_system_MIDL_TYPE_FORMAT_STRING updater_idl_system__MIDL
 			0x11, 0x0,	/* FC_RP */
 /* 586 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (550) */
 /* 588 */	
-			0x21,		/* FC_BOGUS_ARRAY */
-			0x3,		/* 3 */
-/* 590 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 592 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
-			0x0,		/*  */
-/* 594 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 596 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 598 */	NdrFcLong( 0xffffffff ),	/* -1 */
-/* 602 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
-/* 604 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
-			0x0,		/* 0 */
-/* 606 */	NdrFcShort( 0xff58 ),	/* Offset= -168 (438) */
-/* 608 */	0x5c,		/* FC_PAD */
-			0x5b,		/* FC_END */
-/* 610 */	
-			0x1a,		/* FC_BOGUS_STRUCT */
-			0x3,		/* 3 */
-/* 612 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 614 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 616 */	NdrFcShort( 0x6 ),	/* Offset= 6 (622) */
-/* 618 */	0x8,		/* FC_LONG */
-			0x40,		/* FC_STRUCTPAD4 */
-/* 620 */	0x36,		/* FC_POINTER */
-			0x5b,		/* FC_END */
-/* 622 */	
-			0x11, 0x0,	/* FC_RP */
-/* 624 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (588) */
-/* 626 */	
-			0x21,		/* FC_BOGUS_ARRAY */
-			0x3,		/* 3 */
-/* 628 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 630 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
-			0x0,		/*  */
-/* 632 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 634 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 636 */	NdrFcLong( 0xffffffff ),	/* -1 */
-/* 640 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
-/* 642 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
-			0x0,		/* 0 */
-/* 644 */	NdrFcShort( 0xff44 ),	/* Offset= -188 (456) */
-/* 646 */	0x5c,		/* FC_PAD */
-			0x5b,		/* FC_END */
-/* 648 */	
-			0x1a,		/* FC_BOGUS_STRUCT */
-			0x3,		/* 3 */
-/* 650 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 652 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 654 */	NdrFcShort( 0x6 ),	/* Offset= 6 (660) */
-/* 656 */	0x8,		/* FC_LONG */
-			0x40,		/* FC_STRUCTPAD4 */
-/* 658 */	0x36,		/* FC_POINTER */
-			0x5b,		/* FC_END */
-/* 660 */	
-			0x11, 0x0,	/* FC_RP */
-/* 662 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (626) */
-/* 664 */	
-			0x21,		/* FC_BOGUS_ARRAY */
-			0x3,		/* 3 */
-/* 666 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 668 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
-			0x0,		/*  */
-/* 670 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 672 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 674 */	NdrFcLong( 0xffffffff ),	/* -1 */
-/* 678 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
-/* 680 */	
-			0x12, 0x0,	/* FC_UP */
-/* 682 */	NdrFcShort( 0x176 ),	/* Offset= 374 (1056) */
-/* 684 */	0x5c,		/* FC_PAD */
-			0x5b,		/* FC_END */
-/* 686 */	
-			0x1a,		/* FC_BOGUS_STRUCT */
-			0x3,		/* 3 */
-/* 688 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 690 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 692 */	NdrFcShort( 0x6 ),	/* Offset= 6 (698) */
-/* 694 */	0x8,		/* FC_LONG */
-			0x40,		/* FC_STRUCTPAD4 */
-/* 696 */	0x36,		/* FC_POINTER */
-			0x5b,		/* FC_END */
-/* 698 */	
-			0x11, 0x0,	/* FC_RP */
-/* 700 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (664) */
-/* 702 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 704 */	NdrFcLong( 0x2f ),	/* 47 */
-/* 708 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 710 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 712 */	0xc0,		/* 192 */
+/* 590 */	NdrFcLong( 0x0 ),	/* 0 */
+/* 594 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 596 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 598 */	0xc0,		/* 192 */
 			0x0,		/* 0 */
-/* 714 */	0x0,		/* 0 */
+/* 600 */	0x0,		/* 0 */
 			0x0,		/* 0 */
-/* 716 */	0x0,		/* 0 */
+/* 602 */	0x0,		/* 0 */
 			0x0,		/* 0 */
-/* 718 */	0x0,		/* 0 */
+/* 604 */	0x0,		/* 0 */
 			0x46,		/* 70 */
-/* 720 */	
-			0x1b,		/* FC_CARRAY */
-			0x0,		/* 0 */
-/* 722 */	NdrFcShort( 0x1 ),	/* 1 */
-/* 724 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
-			0x0,		/*  */
-/* 726 */	NdrFcShort( 0x4 ),	/* 4 */
-/* 728 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 730 */	0x1,		/* FC_BYTE */
-			0x5b,		/* FC_END */
-/* 732 */	
-			0x1a,		/* FC_BOGUS_STRUCT */
-			0x3,		/* 3 */
-/* 734 */	NdrFcShort( 0x18 ),	/* 24 */
-/* 736 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 738 */	NdrFcShort( 0xa ),	/* Offset= 10 (748) */
-/* 740 */	0x8,		/* FC_LONG */
-			0x8,		/* FC_LONG */
-/* 742 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
-			0x0,		/* 0 */
-/* 744 */	NdrFcShort( 0xffd6 ),	/* Offset= -42 (702) */
-/* 746 */	0x36,		/* FC_POINTER */
-			0x5b,		/* FC_END */
-/* 748 */	
-			0x12, 0x0,	/* FC_UP */
-/* 750 */	NdrFcShort( 0xffe2 ),	/* Offset= -30 (720) */
-/* 752 */	
+/* 606 */	
 			0x21,		/* FC_BOGUS_ARRAY */
 			0x3,		/* 3 */
-/* 754 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 756 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+/* 608 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 610 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
 			0x0,		/*  */
-/* 758 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 760 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 762 */	NdrFcLong( 0xffffffff ),	/* -1 */
-/* 766 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
-/* 768 */	
-			0x12, 0x0,	/* FC_UP */
-/* 770 */	NdrFcShort( 0xffda ),	/* Offset= -38 (732) */
-/* 772 */	0x5c,		/* FC_PAD */
+/* 612 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 614 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 616 */	NdrFcLong( 0xffffffff ),	/* -1 */
+/* 620 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
+/* 622 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
+			0x0,		/* 0 */
+/* 624 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (588) */
+/* 626 */	0x5c,		/* FC_PAD */
 			0x5b,		/* FC_END */
-/* 774 */	
+/* 628 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x3,		/* 3 */
-/* 776 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 778 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 780 */	NdrFcShort( 0x6 ),	/* Offset= 6 (786) */
-/* 782 */	0x8,		/* FC_LONG */
+/* 630 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 632 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 634 */	NdrFcShort( 0x6 ),	/* Offset= 6 (640) */
+/* 636 */	0x8,		/* FC_LONG */
 			0x40,		/* FC_STRUCTPAD4 */
-/* 784 */	0x36,		/* FC_POINTER */
+/* 638 */	0x36,		/* FC_POINTER */
 			0x5b,		/* FC_END */
-/* 786 */	
+/* 640 */	
 			0x11, 0x0,	/* FC_RP */
-/* 788 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (752) */
-/* 790 */	
+/* 642 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (606) */
+/* 644 */	
+			0x2f,		/* FC_IP */
+			0x5a,		/* FC_CONSTANT_IID */
+/* 646 */	NdrFcLong( 0x20400 ),	/* 132096 */
+/* 650 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 652 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 654 */	0xc0,		/* 192 */
+			0x0,		/* 0 */
+/* 656 */	0x0,		/* 0 */
+			0x0,		/* 0 */
+/* 658 */	0x0,		/* 0 */
+			0x0,		/* 0 */
+/* 660 */	0x0,		/* 0 */
+			0x46,		/* 70 */
+/* 662 */	
+			0x21,		/* FC_BOGUS_ARRAY */
+			0x3,		/* 3 */
+/* 664 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 666 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+			0x0,		/*  */
+/* 668 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 670 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 672 */	NdrFcLong( 0xffffffff ),	/* -1 */
+/* 676 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
+/* 678 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
+			0x0,		/* 0 */
+/* 680 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (644) */
+/* 682 */	0x5c,		/* FC_PAD */
+			0x5b,		/* FC_END */
+/* 684 */	
+			0x1a,		/* FC_BOGUS_STRUCT */
+			0x3,		/* 3 */
+/* 686 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 688 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 690 */	NdrFcShort( 0x6 ),	/* Offset= 6 (696) */
+/* 692 */	0x8,		/* FC_LONG */
+			0x40,		/* FC_STRUCTPAD4 */
+/* 694 */	0x36,		/* FC_POINTER */
+			0x5b,		/* FC_END */
+/* 696 */	
+			0x11, 0x0,	/* FC_RP */
+/* 698 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (662) */
+/* 700 */	
+			0x21,		/* FC_BOGUS_ARRAY */
+			0x3,		/* 3 */
+/* 702 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 704 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+			0x0,		/*  */
+/* 706 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 708 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 710 */	NdrFcLong( 0xffffffff ),	/* -1 */
+/* 714 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
+/* 716 */	
+			0x12, 0x0,	/* FC_UP */
+/* 718 */	NdrFcShort( 0x176 ),	/* Offset= 374 (1092) */
+/* 720 */	0x5c,		/* FC_PAD */
+			0x5b,		/* FC_END */
+/* 722 */	
+			0x1a,		/* FC_BOGUS_STRUCT */
+			0x3,		/* 3 */
+/* 724 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 726 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 728 */	NdrFcShort( 0x6 ),	/* Offset= 6 (734) */
+/* 730 */	0x8,		/* FC_LONG */
+			0x40,		/* FC_STRUCTPAD4 */
+/* 732 */	0x36,		/* FC_POINTER */
+			0x5b,		/* FC_END */
+/* 734 */	
+			0x11, 0x0,	/* FC_RP */
+/* 736 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (700) */
+/* 738 */	
+			0x2f,		/* FC_IP */
+			0x5a,		/* FC_CONSTANT_IID */
+/* 740 */	NdrFcLong( 0x2f ),	/* 47 */
+/* 744 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 746 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 748 */	0xc0,		/* 192 */
+			0x0,		/* 0 */
+/* 750 */	0x0,		/* 0 */
+			0x0,		/* 0 */
+/* 752 */	0x0,		/* 0 */
+			0x0,		/* 0 */
+/* 754 */	0x0,		/* 0 */
+			0x46,		/* 70 */
+/* 756 */	
+			0x1b,		/* FC_CARRAY */
+			0x0,		/* 0 */
+/* 758 */	NdrFcShort( 0x1 ),	/* 1 */
+/* 760 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+			0x0,		/*  */
+/* 762 */	NdrFcShort( 0x4 ),	/* 4 */
+/* 764 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 766 */	0x1,		/* FC_BYTE */
+			0x5b,		/* FC_END */
+/* 768 */	
+			0x1a,		/* FC_BOGUS_STRUCT */
+			0x3,		/* 3 */
+/* 770 */	NdrFcShort( 0x18 ),	/* 24 */
+/* 772 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 774 */	NdrFcShort( 0xa ),	/* Offset= 10 (784) */
+/* 776 */	0x8,		/* FC_LONG */
+			0x8,		/* FC_LONG */
+/* 778 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
+			0x0,		/* 0 */
+/* 780 */	NdrFcShort( 0xffd6 ),	/* Offset= -42 (738) */
+/* 782 */	0x36,		/* FC_POINTER */
+			0x5b,		/* FC_END */
+/* 784 */	
+			0x12, 0x0,	/* FC_UP */
+/* 786 */	NdrFcShort( 0xffe2 ),	/* Offset= -30 (756) */
+/* 788 */	
+			0x21,		/* FC_BOGUS_ARRAY */
+			0x3,		/* 3 */
+/* 790 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 792 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+			0x0,		/*  */
+/* 794 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 796 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 798 */	NdrFcLong( 0xffffffff ),	/* -1 */
+/* 802 */	NdrFcShort( 0x0 ),	/* Corr flags:  */
+/* 804 */	
+			0x12, 0x0,	/* FC_UP */
+/* 806 */	NdrFcShort( 0xffda ),	/* Offset= -38 (768) */
+/* 808 */	0x5c,		/* FC_PAD */
+			0x5b,		/* FC_END */
+/* 810 */	
+			0x1a,		/* FC_BOGUS_STRUCT */
+			0x3,		/* 3 */
+/* 812 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 814 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 816 */	NdrFcShort( 0x6 ),	/* Offset= 6 (822) */
+/* 818 */	0x8,		/* FC_LONG */
+			0x40,		/* FC_STRUCTPAD4 */
+/* 820 */	0x36,		/* FC_POINTER */
+			0x5b,		/* FC_END */
+/* 822 */	
+			0x11, 0x0,	/* FC_RP */
+/* 824 */	NdrFcShort( 0xffdc ),	/* Offset= -36 (788) */
+/* 826 */	
 			0x1d,		/* FC_SMFARRAY */
 			0x0,		/* 0 */
-/* 792 */	NdrFcShort( 0x8 ),	/* 8 */
-/* 794 */	0x1,		/* FC_BYTE */
+/* 828 */	NdrFcShort( 0x8 ),	/* 8 */
+/* 830 */	0x1,		/* FC_BYTE */
 			0x5b,		/* FC_END */
-/* 796 */	
+/* 832 */	
 			0x15,		/* FC_STRUCT */
 			0x3,		/* 3 */
-/* 798 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 800 */	0x8,		/* FC_LONG */
+/* 834 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 836 */	0x8,		/* FC_LONG */
 			0x6,		/* FC_SHORT */
-/* 802 */	0x6,		/* FC_SHORT */
+/* 838 */	0x6,		/* FC_SHORT */
 			0x4c,		/* FC_EMBEDDED_COMPLEX */
-/* 804 */	0x0,		/* 0 */
-			NdrFcShort( 0xfff1 ),	/* Offset= -15 (790) */
+/* 840 */	0x0,		/* 0 */
+			NdrFcShort( 0xfff1 ),	/* Offset= -15 (826) */
 			0x5b,		/* FC_END */
-/* 808 */	
+/* 844 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x3,		/* 3 */
-/* 810 */	NdrFcShort( 0x20 ),	/* 32 */
-/* 812 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 814 */	NdrFcShort( 0xa ),	/* Offset= 10 (824) */
-/* 816 */	0x8,		/* FC_LONG */
+/* 846 */	NdrFcShort( 0x20 ),	/* 32 */
+/* 848 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 850 */	NdrFcShort( 0xa ),	/* Offset= 10 (860) */
+/* 852 */	0x8,		/* FC_LONG */
 			0x40,		/* FC_STRUCTPAD4 */
-/* 818 */	0x36,		/* FC_POINTER */
+/* 854 */	0x36,		/* FC_POINTER */
 			0x4c,		/* FC_EMBEDDED_COMPLEX */
-/* 820 */	0x0,		/* 0 */
-			NdrFcShort( 0xffe7 ),	/* Offset= -25 (796) */
+/* 856 */	0x0,		/* 0 */
+			NdrFcShort( 0xffe7 ),	/* Offset= -25 (832) */
 			0x5b,		/* FC_END */
-/* 824 */	
+/* 860 */	
 			0x11, 0x0,	/* FC_RP */
-/* 826 */	NdrFcShort( 0xff12 ),	/* Offset= -238 (588) */
-/* 828 */	
+/* 862 */	NdrFcShort( 0xff00 ),	/* Offset= -256 (606) */
+/* 864 */	
 			0x1b,		/* FC_CARRAY */
 			0x0,		/* 0 */
-/* 830 */	NdrFcShort( 0x1 ),	/* 1 */
-/* 832 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+/* 866 */	NdrFcShort( 0x1 ),	/* 1 */
+/* 868 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
 			0x0,		/*  */
-/* 834 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 836 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 838 */	0x1,		/* FC_BYTE */
+/* 870 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 872 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 874 */	0x1,		/* FC_BYTE */
 			0x5b,		/* FC_END */
-/* 840 */	
+/* 876 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x3,		/* 3 */
-/* 842 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 844 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 846 */	NdrFcShort( 0x6 ),	/* Offset= 6 (852) */
-/* 848 */	0x8,		/* FC_LONG */
+/* 878 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 880 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 882 */	NdrFcShort( 0x6 ),	/* Offset= 6 (888) */
+/* 884 */	0x8,		/* FC_LONG */
 			0x40,		/* FC_STRUCTPAD4 */
-/* 850 */	0x36,		/* FC_POINTER */
+/* 886 */	0x36,		/* FC_POINTER */
 			0x5b,		/* FC_END */
-/* 852 */	
+/* 888 */	
 			0x12, 0x0,	/* FC_UP */
-/* 854 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (828) */
-/* 856 */	
+/* 890 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (864) */
+/* 892 */	
 			0x1b,		/* FC_CARRAY */
 			0x1,		/* 1 */
-/* 858 */	NdrFcShort( 0x2 ),	/* 2 */
-/* 860 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+/* 894 */	NdrFcShort( 0x2 ),	/* 2 */
+/* 896 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
 			0x0,		/*  */
-/* 862 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 864 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 866 */	0x6,		/* FC_SHORT */
+/* 898 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 900 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 902 */	0x6,		/* FC_SHORT */
 			0x5b,		/* FC_END */
-/* 868 */	
+/* 904 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x3,		/* 3 */
-/* 870 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 872 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 874 */	NdrFcShort( 0x6 ),	/* Offset= 6 (880) */
-/* 876 */	0x8,		/* FC_LONG */
+/* 906 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 908 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 910 */	NdrFcShort( 0x6 ),	/* Offset= 6 (916) */
+/* 912 */	0x8,		/* FC_LONG */
 			0x40,		/* FC_STRUCTPAD4 */
-/* 878 */	0x36,		/* FC_POINTER */
+/* 914 */	0x36,		/* FC_POINTER */
 			0x5b,		/* FC_END */
-/* 880 */	
+/* 916 */	
 			0x12, 0x0,	/* FC_UP */
-/* 882 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (856) */
-/* 884 */	
+/* 918 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (892) */
+/* 920 */	
 			0x1b,		/* FC_CARRAY */
 			0x3,		/* 3 */
-/* 886 */	NdrFcShort( 0x4 ),	/* 4 */
-/* 888 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
+/* 922 */	NdrFcShort( 0x4 ),	/* 4 */
+/* 924 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
 			0x0,		/*  */
-/* 890 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 892 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 894 */	0x8,		/* FC_LONG */
+/* 926 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 928 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 930 */	0x8,		/* FC_LONG */
 			0x5b,		/* FC_END */
-/* 896 */	
+/* 932 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x3,		/* 3 */
-/* 898 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 900 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 902 */	NdrFcShort( 0x6 ),	/* Offset= 6 (908) */
-/* 904 */	0x8,		/* FC_LONG */
+/* 934 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 936 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 938 */	NdrFcShort( 0x6 ),	/* Offset= 6 (944) */
+/* 940 */	0x8,		/* FC_LONG */
 			0x40,		/* FC_STRUCTPAD4 */
-/* 906 */	0x36,		/* FC_POINTER */
+/* 942 */	0x36,		/* FC_POINTER */
 			0x5b,		/* FC_END */
-/* 908 */	
+/* 944 */	
 			0x12, 0x0,	/* FC_UP */
-/* 910 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (884) */
-/* 912 */	
-			0x1b,		/* FC_CARRAY */
-			0x7,		/* 7 */
-/* 914 */	NdrFcShort( 0x8 ),	/* 8 */
-/* 916 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
-			0x0,		/*  */
-/* 918 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 920 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 922 */	0xb,		/* FC_HYPER */
-			0x5b,		/* FC_END */
-/* 924 */	
-			0x1a,		/* FC_BOGUS_STRUCT */
-			0x3,		/* 3 */
-/* 926 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 928 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 930 */	NdrFcShort( 0x6 ),	/* Offset= 6 (936) */
-/* 932 */	0x8,		/* FC_LONG */
-			0x40,		/* FC_STRUCTPAD4 */
-/* 934 */	0x36,		/* FC_POINTER */
-			0x5b,		/* FC_END */
-/* 936 */	
-			0x12, 0x0,	/* FC_UP */
-/* 938 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (912) */
-/* 940 */	
-			0x15,		/* FC_STRUCT */
-			0x3,		/* 3 */
-/* 942 */	NdrFcShort( 0x8 ),	/* 8 */
-/* 944 */	0x8,		/* FC_LONG */
-			0x8,		/* FC_LONG */
-/* 946 */	0x5c,		/* FC_PAD */
-			0x5b,		/* FC_END */
+/* 946 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (920) */
 /* 948 */	
 			0x1b,		/* FC_CARRAY */
-			0x3,		/* 3 */
+			0x7,		/* 7 */
 /* 950 */	NdrFcShort( 0x8 ),	/* 8 */
-/* 952 */	0x7,		/* Corr desc: FC_USHORT */
+/* 952 */	0x19,		/* Corr desc:  field pointer, FC_ULONG */
 			0x0,		/*  */
-/* 954 */	NdrFcShort( 0xffc8 ),	/* -56 */
+/* 954 */	NdrFcShort( 0x0 ),	/* 0 */
 /* 956 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
-/* 958 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
-			0x0,		/* 0 */
-/* 960 */	NdrFcShort( 0xffec ),	/* Offset= -20 (940) */
-/* 962 */	0x5c,		/* FC_PAD */
+/* 958 */	0xb,		/* FC_HYPER */
 			0x5b,		/* FC_END */
-/* 964 */	
+/* 960 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x3,		/* 3 */
-/* 966 */	NdrFcShort( 0x38 ),	/* 56 */
-/* 968 */	NdrFcShort( 0xffec ),	/* Offset= -20 (948) */
-/* 970 */	NdrFcShort( 0x0 ),	/* Offset= 0 (970) */
-/* 972 */	0x6,		/* FC_SHORT */
-			0x6,		/* FC_SHORT */
-/* 974 */	0x8,		/* FC_LONG */
-			0x8,		/* FC_LONG */
-/* 976 */	0x40,		/* FC_STRUCTPAD4 */
-			0x4c,		/* FC_EMBEDDED_COMPLEX */
-/* 978 */	0x0,		/* 0 */
-			NdrFcShort( 0xfe0f ),	/* Offset= -497 (482) */
+/* 962 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 964 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 966 */	NdrFcShort( 0x6 ),	/* Offset= 6 (972) */
+/* 968 */	0x8,		/* FC_LONG */
+			0x40,		/* FC_STRUCTPAD4 */
+/* 970 */	0x36,		/* FC_POINTER */
 			0x5b,		/* FC_END */
-/* 982 */	
+/* 972 */	
 			0x12, 0x0,	/* FC_UP */
-/* 984 */	NdrFcShort( 0xff04 ),	/* Offset= -252 (732) */
-/* 986 */	
-			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 988 */	0x1,		/* FC_BYTE */
-			0x5c,		/* FC_PAD */
-/* 990 */	
-			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 992 */	0x6,		/* FC_SHORT */
-			0x5c,		/* FC_PAD */
-/* 994 */	
-			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 996 */	0x8,		/* FC_LONG */
-			0x5c,		/* FC_PAD */
-/* 998 */	
-			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 1000 */	0xb,		/* FC_HYPER */
-			0x5c,		/* FC_PAD */
-/* 1002 */	
-			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 1004 */	0xa,		/* FC_FLOAT */
-			0x5c,		/* FC_PAD */
-/* 1006 */	
-			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 1008 */	0xc,		/* FC_DOUBLE */
-			0x5c,		/* FC_PAD */
-/* 1010 */	
-			0x12, 0x0,	/* FC_UP */
-/* 1012 */	NdrFcShort( 0xfdb8 ),	/* Offset= -584 (428) */
-/* 1014 */	
-			0x12, 0x10,	/* FC_UP [pointer_deref] */
-/* 1016 */	NdrFcShort( 0xfdba ),	/* Offset= -582 (434) */
+/* 974 */	NdrFcShort( 0xffe6 ),	/* Offset= -26 (948) */
+/* 976 */	
+			0x15,		/* FC_STRUCT */
+			0x3,		/* 3 */
+/* 978 */	NdrFcShort( 0x8 ),	/* 8 */
+/* 980 */	0x8,		/* FC_LONG */
+			0x8,		/* FC_LONG */
+/* 982 */	0x5c,		/* FC_PAD */
+			0x5b,		/* FC_END */
+/* 984 */	
+			0x1b,		/* FC_CARRAY */
+			0x3,		/* 3 */
+/* 986 */	NdrFcShort( 0x8 ),	/* 8 */
+/* 988 */	0x7,		/* Corr desc: FC_USHORT */
+			0x0,		/*  */
+/* 990 */	NdrFcShort( 0xffc8 ),	/* -56 */
+/* 992 */	NdrFcShort( 0x1 ),	/* Corr flags:  early, */
+/* 994 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
+			0x0,		/* 0 */
+/* 996 */	NdrFcShort( 0xffec ),	/* Offset= -20 (976) */
+/* 998 */	0x5c,		/* FC_PAD */
+			0x5b,		/* FC_END */
+/* 1000 */	
+			0x1a,		/* FC_BOGUS_STRUCT */
+			0x3,		/* 3 */
+/* 1002 */	NdrFcShort( 0x38 ),	/* 56 */
+/* 1004 */	NdrFcShort( 0xffec ),	/* Offset= -20 (984) */
+/* 1006 */	NdrFcShort( 0x0 ),	/* Offset= 0 (1006) */
+/* 1008 */	0x6,		/* FC_SHORT */
+			0x6,		/* FC_SHORT */
+/* 1010 */	0x8,		/* FC_LONG */
+			0x8,		/* FC_LONG */
+/* 1012 */	0x40,		/* FC_STRUCTPAD4 */
+			0x4c,		/* FC_EMBEDDED_COMPLEX */
+/* 1014 */	0x0,		/* 0 */
+			NdrFcShort( 0xfdeb ),	/* Offset= -533 (482) */
+			0x5b,		/* FC_END */
 /* 1018 */	
-			0x12, 0x10,	/* FC_UP [pointer_deref] */
-/* 1020 */	NdrFcShort( 0xfdba ),	/* Offset= -582 (438) */
-/* 1022 */	
-			0x12, 0x10,	/* FC_UP [pointer_deref] */
-/* 1024 */	NdrFcShort( 0xfdc8 ),	/* Offset= -568 (456) */
-/* 1026 */	
-			0x12, 0x10,	/* FC_UP [pointer_deref] */
-/* 1028 */	NdrFcShort( 0xfdd6 ),	/* Offset= -554 (474) */
-/* 1030 */	
-			0x12, 0x10,	/* FC_UP [pointer_deref] */
-/* 1032 */	NdrFcShort( 0x2 ),	/* Offset= 2 (1034) */
-/* 1034 */	
 			0x12, 0x0,	/* FC_UP */
-/* 1036 */	NdrFcShort( 0x14 ),	/* Offset= 20 (1056) */
+/* 1020 */	NdrFcShort( 0xff04 ),	/* Offset= -252 (768) */
+/* 1022 */	
+			0x12, 0x8,	/* FC_UP [simple_pointer] */
+/* 1024 */	0x1,		/* FC_BYTE */
+			0x5c,		/* FC_PAD */
+/* 1026 */	
+			0x12, 0x8,	/* FC_UP [simple_pointer] */
+/* 1028 */	0x6,		/* FC_SHORT */
+			0x5c,		/* FC_PAD */
+/* 1030 */	
+			0x12, 0x8,	/* FC_UP [simple_pointer] */
+/* 1032 */	0x8,		/* FC_LONG */
+			0x5c,		/* FC_PAD */
+/* 1034 */	
+			0x12, 0x8,	/* FC_UP [simple_pointer] */
+/* 1036 */	0xb,		/* FC_HYPER */
+			0x5c,		/* FC_PAD */
 /* 1038 */	
+			0x12, 0x8,	/* FC_UP [simple_pointer] */
+/* 1040 */	0xa,		/* FC_FLOAT */
+			0x5c,		/* FC_PAD */
+/* 1042 */	
+			0x12, 0x8,	/* FC_UP [simple_pointer] */
+/* 1044 */	0xc,		/* FC_DOUBLE */
+			0x5c,		/* FC_PAD */
+/* 1046 */	
+			0x12, 0x0,	/* FC_UP */
+/* 1048 */	NdrFcShort( 0xfd94 ),	/* Offset= -620 (428) */
+/* 1050 */	
+			0x12, 0x10,	/* FC_UP [pointer_deref] */
+/* 1052 */	NdrFcShort( 0xfd96 ),	/* Offset= -618 (434) */
+/* 1054 */	
+			0x12, 0x10,	/* FC_UP [pointer_deref] */
+/* 1056 */	NdrFcShort( 0xfe2c ),	/* Offset= -468 (588) */
+/* 1058 */	
+			0x12, 0x10,	/* FC_UP [pointer_deref] */
+/* 1060 */	NdrFcShort( 0xfe60 ),	/* Offset= -416 (644) */
+/* 1062 */	
+			0x12, 0x10,	/* FC_UP [pointer_deref] */
+/* 1064 */	NdrFcShort( 0xfdb2 ),	/* Offset= -590 (474) */
+/* 1066 */	
+			0x12, 0x10,	/* FC_UP [pointer_deref] */
+/* 1068 */	NdrFcShort( 0x2 ),	/* Offset= 2 (1070) */
+/* 1070 */	
+			0x12, 0x0,	/* FC_UP */
+/* 1072 */	NdrFcShort( 0x14 ),	/* Offset= 20 (1092) */
+/* 1074 */	
 			0x15,		/* FC_STRUCT */
 			0x7,		/* 7 */
-/* 1040 */	NdrFcShort( 0x10 ),	/* 16 */
-/* 1042 */	0x6,		/* FC_SHORT */
+/* 1076 */	NdrFcShort( 0x10 ),	/* 16 */
+/* 1078 */	0x6,		/* FC_SHORT */
 			0x1,		/* FC_BYTE */
-/* 1044 */	0x1,		/* FC_BYTE */
+/* 1080 */	0x1,		/* FC_BYTE */
 			0x8,		/* FC_LONG */
-/* 1046 */	0xb,		/* FC_HYPER */
+/* 1082 */	0xb,		/* FC_HYPER */
 			0x5b,		/* FC_END */
-/* 1048 */	
+/* 1084 */	
 			0x12, 0x0,	/* FC_UP */
-/* 1050 */	NdrFcShort( 0xfff4 ),	/* Offset= -12 (1038) */
-/* 1052 */	
+/* 1086 */	NdrFcShort( 0xfff4 ),	/* Offset= -12 (1074) */
+/* 1088 */	
 			0x12, 0x8,	/* FC_UP [simple_pointer] */
-/* 1054 */	0x2,		/* FC_CHAR */
+/* 1090 */	0x2,		/* FC_CHAR */
 			0x5c,		/* FC_PAD */
-/* 1056 */	
+/* 1092 */	
 			0x1a,		/* FC_BOGUS_STRUCT */
 			0x7,		/* 7 */
-/* 1058 */	NdrFcShort( 0x20 ),	/* 32 */
-/* 1060 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 1062 */	NdrFcShort( 0x0 ),	/* Offset= 0 (1062) */
-/* 1064 */	0x8,		/* FC_LONG */
+/* 1094 */	NdrFcShort( 0x20 ),	/* 32 */
+/* 1096 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 1098 */	NdrFcShort( 0x0 ),	/* Offset= 0 (1098) */
+/* 1100 */	0x8,		/* FC_LONG */
 			0x8,		/* FC_LONG */
-/* 1066 */	0x6,		/* FC_SHORT */
+/* 1102 */	0x6,		/* FC_SHORT */
 			0x6,		/* FC_SHORT */
-/* 1068 */	0x6,		/* FC_SHORT */
+/* 1104 */	0x6,		/* FC_SHORT */
 			0x6,		/* FC_SHORT */
-/* 1070 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
+/* 1106 */	0x4c,		/* FC_EMBEDDED_COMPLEX */
 			0x0,		/* 0 */
-/* 1072 */	NdrFcShort( 0xfc52 ),	/* Offset= -942 (130) */
-/* 1074 */	0x5c,		/* FC_PAD */
+/* 1108 */	NdrFcShort( 0xfc2e ),	/* Offset= -978 (130) */
+/* 1110 */	0x5c,		/* FC_PAD */
 			0x5b,		/* FC_END */
-/* 1076 */	0xb4,		/* FC_USER_MARSHAL */
+/* 1112 */	0xb4,		/* FC_USER_MARSHAL */
 			0x83,		/* 131 */
-/* 1078 */	NdrFcShort( 0x1 ),	/* 1 */
-/* 1080 */	NdrFcShort( 0x18 ),	/* 24 */
-/* 1082 */	NdrFcShort( 0x0 ),	/* 0 */
-/* 1084 */	NdrFcShort( 0xfc42 ),	/* Offset= -958 (126) */
-/* 1086 */	
+/* 1114 */	NdrFcShort( 0x1 ),	/* 1 */
+/* 1116 */	NdrFcShort( 0x18 ),	/* 24 */
+/* 1118 */	NdrFcShort( 0x0 ),	/* 0 */
+/* 1120 */	NdrFcShort( 0xfc1e ),	/* Offset= -994 (126) */
+/* 1122 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 1088 */	NdrFcLong( 0x8bab6f84 ),	/* -1951699068 */
-/* 1092 */	NdrFcShort( 0xad67 ),	/* -21145 */
-/* 1094 */	NdrFcShort( 0x4819 ),	/* 18457 */
-/* 1096 */	0xb8,		/* 184 */
-			0x46,		/* 70 */
-/* 1098 */	0xcc,		/* 204 */
-			0x89,		/* 137 */
-/* 1100 */	0x8,		/* 8 */
-			0x80,		/* 128 */
-/* 1102 */	0xfd,		/* 253 */
-			0x3b,		/* 59 */
-/* 1104 */	
+/* 1124 */	NdrFcLong( 0x546e4528 ),	/* 1416512808 */
+/* 1128 */	NdrFcShort( 0xbe16 ),	/* -16874 */
+/* 1130 */	NdrFcShort( 0x50b4 ),	/* 20660 */
+/* 1132 */	0x87,		/* 135 */
+			0x3a,		/* 58 */
+/* 1134 */	0xd8,		/* 216 */
+			0x78,		/* 120 */
+/* 1136 */	0xfb,		/* 251 */
+			0xcb,		/* 203 */
+/* 1138 */	0x7a,		/* 122 */
+			0x7b,		/* 123 */
+/* 1140 */	
 			0x11, 0x8,	/* FC_RP [simple_pointer] */
-/* 1106 */	
+/* 1142 */	
 			0x25,		/* FC_C_WSTRING */
 			0x5c,		/* FC_PAD */
-/* 1108 */	
-			0x2f,		/* FC_IP */
-			0x5a,		/* FC_CONSTANT_IID */
-/* 1110 */	NdrFcLong( 0x7b416cfd ),	/* 2067885309 */
-/* 1114 */	NdrFcShort( 0x4216 ),	/* 16918 */
-/* 1116 */	NdrFcShort( 0x4fd6 ),	/* 20438 */
-/* 1118 */	0xbd,		/* 189 */
-			0x83,		/* 131 */
-/* 1120 */	0x7c,		/* 124 */
-			0x58,		/* 88 */
-/* 1122 */	0x60,		/* 96 */
-			0x54,		/* 84 */
-/* 1124 */	0x67,		/* 103 */
-			0x6e,		/* 110 */
-/* 1126 */	
-			0x2f,		/* FC_IP */
-			0x5a,		/* FC_CONSTANT_IID */
-/* 1128 */	NdrFcLong( 0xefe903c0 ),	/* -269941824 */
-/* 1132 */	NdrFcShort( 0xe820 ),	/* -6112 */
-/* 1134 */	NdrFcShort( 0x4136 ),	/* 16694 */
-/* 1136 */	0x9f,		/* 159 */
-			0xae,		/* 174 */
-/* 1138 */	0xfd,		/* 253 */
-			0xcd,		/* 205 */
-/* 1140 */	0x7f,		/* 127 */
-			0x25,		/* 37 */
-/* 1142 */	0x63,		/* 99 */
-			0x2,		/* 2 */
 /* 1144 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 1146 */	NdrFcLong( 0xf0d6763a ),	/* -254380486 */
-/* 1150 */	NdrFcShort( 0x182 ),	/* 386 */
-/* 1152 */	NdrFcShort( 0x4136 ),	/* 16694 */
-/* 1154 */	0xb1,		/* 177 */
-			0xfa,		/* 250 */
-/* 1156 */	0x50,		/* 80 */
-			0x8e,		/* 142 */
-/* 1158 */	0x33,		/* 51 */
-			0x4c,		/* 76 */
-/* 1160 */	0xff,		/* 255 */
-			0xc1,		/* 193 */
+/* 1146 */	NdrFcLong( 0xc49fb33c ),	/* -996166852 */
+/* 1150 */	NdrFcShort( 0x6c2c ),	/* 27692 */
+/* 1152 */	NdrFcShort( 0x5b7f ),	/* 23423 */
+/* 1154 */	0x80,		/* 128 */
+			0xd4,		/* 212 */
+/* 1156 */	0xcb,		/* 203 */
+			0x3e,		/* 62 */
+/* 1158 */	0x36,		/* 54 */
+			0xd2,		/* 210 */
+/* 1160 */	0x5f,		/* 95 */
+			0x54,		/* 84 */
 /* 1162 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 1164 */	NdrFcLong( 0x57b500a ),	/* 91967498 */
-/* 1168 */	NdrFcShort( 0x4ba2 ),	/* 19362 */
-/* 1170 */	NdrFcShort( 0x496a ),	/* 18794 */
-/* 1172 */	0xb1,		/* 177 */
-			0xcd,		/* 205 */
-/* 1174 */	0xc5,		/* 197 */
-			0xde,		/* 222 */
-/* 1176 */	0xd3,		/* 211 */
-			0xcc,		/* 204 */
-/* 1178 */	0xc6,		/* 198 */
-			0x1b,		/* 27 */
+/* 1164 */	NdrFcLong( 0x4730cdd1 ),	/* 1194380753 */
+/* 1168 */	NdrFcShort( 0x2adb ),	/* 10971 */
+/* 1170 */	NdrFcShort( 0x5a15 ),	/* 23061 */
+/* 1172 */	0xb5,		/* 181 */
+			0x12,		/* 18 */
+/* 1174 */	0x6b,		/* 107 */
+			0xb,		/* 11 */
+/* 1176 */	0xb,		/* 11 */
+			0x4d,		/* 77 */
+/* 1178 */	0x76,		/* 118 */
+			0x45,		/* 69 */
 /* 1180 */	
 			0x2f,		/* FC_IP */
 			0x5a,		/* FC_CONSTANT_IID */
-/* 1182 */	NdrFcLong( 0x2cb8867e ),	/* 750290558 */
-/* 1186 */	NdrFcShort( 0x495e ),	/* 18782 */
-/* 1188 */	NdrFcShort( 0x459f ),	/* 17823 */
-/* 1190 */	0xb1,		/* 177 */
-			0xb6,		/* 182 */
-/* 1192 */	0x2d,		/* 45 */
-			0xd7,		/* 215 */
-/* 1194 */	0xff,		/* 255 */
-			0xdb,		/* 219 */
-/* 1196 */	0xd4,		/* 212 */
-			0x62,		/* 98 */
+/* 1182 */	NdrFcLong( 0xa136c070 ),	/* -1590247312 */
+/* 1186 */	NdrFcShort( 0x54ff ),	/* 21759 */
+/* 1188 */	NdrFcShort( 0x59db ),	/* 23003 */
+/* 1190 */	0xa0,		/* 160 */
+			0xc2,		/* 194 */
+/* 1192 */	0xb2,		/* 178 */
+			0x70,		/* 112 */
+/* 1194 */	0x4a,		/* 74 */
+			0x1c,		/* 28 */
+/* 1196 */	0x3a,		/* 58 */
+			0x7e,		/* 126 */
+/* 1198 */	
+			0x2f,		/* FC_IP */
+			0x5a,		/* FC_CONSTANT_IID */
+/* 1200 */	NdrFcLong( 0x3a3391c0 ),	/* 976458176 */
+/* 1204 */	NdrFcShort( 0x483d ),	/* 18493 */
+/* 1206 */	NdrFcShort( 0x5976 ),	/* 22902 */
+/* 1208 */	0xbc,		/* 188 */
+			0x5f,		/* 95 */
+/* 1210 */	0x45,		/* 69 */
+			0x3d,		/* 61 */
+/* 1212 */	0xfb,		/* 251 */
+			0xf,		/* 15 */
+/* 1214 */	0xb9,		/* 185 */
+			0x2,		/* 2 */
+/* 1216 */	
+			0x2f,		/* FC_IP */
+			0x5a,		/* FC_CONSTANT_IID */
+/* 1218 */	NdrFcLong( 0x6baa7411 ),	/* 1806332945 */
+/* 1222 */	NdrFcShort( 0x9656 ),	/* -27050 */
+/* 1224 */	NdrFcShort( 0x5136 ),	/* 20790 */
+/* 1226 */	0x92,		/* 146 */
+			0x43,		/* 67 */
+/* 1228 */	0x79,		/* 121 */
+			0xca,		/* 202 */
+/* 1230 */	0x35,		/* 53 */
+			0x56,		/* 86 */
+/* 1232 */	0xf8,		/* 248 */
+			0xad,		/* 173 */
 
 			0x0
         }
@@ -3260,7 +3288,7 @@ static const USER_MARSHAL_ROUTINE_QUADRUPLE UserMarshalRoutines[ WIRE_MARSHAL_TA
 
 
 /* Object interface: IUpdateState, ver. 0.0,
-   GUID={0x46ACF70B,0xAC13,0x406D,{0xB5,0x3B,0xB2,0xC4,0xBF,0x09,0x1F,0xF6}} */
+   GUID={0xE59CFBD8,0xFF1A,0x5B7A,{0x9E,0x0B,0x33,0xA3,0xAA,0x7D,0x13,0x8E}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdateState_FormatStringOffsetTable[] =
@@ -3330,7 +3358,7 @@ const CInterfaceStubVtbl _IUpdateStateStubVtbl =
 
 
 /* Object interface: IUpdateStateSystem, ver. 0.0,
-   GUID={0xEA6FDC05,0xCDC5,0x4EA4,{0xAB,0x41,0xCC,0xBD,0x10,0x40,0xA2,0xB5}} */
+   GUID={0x799F87B8,0x8700,0x5040,{0x85,0x4D,0x4A,0xAC,0xF7,0xFF,0x9C,0xAA}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdateStateSystem_FormatStringOffsetTable[] =
@@ -3400,7 +3428,7 @@ const CInterfaceStubVtbl _IUpdateStateSystemStubVtbl =
 
 
 /* Object interface: ICompleteStatus, ver. 0.0,
-   GUID={0x2FCD14AF,0xB645,0x4351,{0x83,0x59,0xE8,0x0A,0x0E,0x20,0x2A,0x0B}} */
+   GUID={0x42E19987,0xF5EC,0x5180,{0x9A,0xC6,0x4D,0x9F,0x22,0x48,0x7A,0x50}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short ICompleteStatus_FormatStringOffsetTable[] =
@@ -3452,7 +3480,7 @@ const CInterfaceStubVtbl _ICompleteStatusStubVtbl =
 
 
 /* Object interface: ICompleteStatusSystem, ver. 0.0,
-   GUID={0xE2BD9A6B,0x0A19,0x4C89,{0xAE,0x8B,0xB7,0xE9,0xE5,0x1D,0x9A,0x07}} */
+   GUID={0xEAF07612,0xBB0D,0x5FE8,{0xBD,0xE6,0x4D,0xD2,0x11,0x47,0xC5,0xD4}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short ICompleteStatusSystem_FormatStringOffsetTable[] =
@@ -3504,7 +3532,7 @@ const CInterfaceStubVtbl _ICompleteStatusSystemStubVtbl =
 
 
 /* Object interface: IUpdaterObserver, ver. 0.0,
-   GUID={0x7B416CFD,0x4216,0x4FD6,{0xBD,0x83,0x7C,0x58,0x60,0x54,0x67,0x6E}} */
+   GUID={0xC49FB33C,0x6C2C,0x5B7F,{0x80,0xD4,0xCB,0x3E,0x36,0xD2,0x5F,0x54}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterObserver_FormatStringOffsetTable[] =
@@ -3556,7 +3584,7 @@ const CInterfaceStubVtbl _IUpdaterObserverStubVtbl =
 
 
 /* Object interface: IUpdaterObserverSystem, ver. 0.0,
-   GUID={0x057B500A,0x4BA2,0x496A,{0xB1,0xCD,0xC5,0xDE,0xD3,0xCC,0xC6,0x1B}} */
+   GUID={0x3A3391C0,0x483D,0x5976,{0xBC,0x5F,0x45,0x3D,0xFB,0x0F,0xB9,0x02}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterObserverSystem_FormatStringOffsetTable[] =
@@ -3608,7 +3636,7 @@ const CInterfaceStubVtbl _IUpdaterObserverSystemStubVtbl =
 
 
 /* Object interface: IUpdaterCallback, ver. 0.0,
-   GUID={0x8BAB6F84,0xAD67,0x4819,{0xB8,0x46,0xCC,0x89,0x08,0x80,0xFD,0x3B}} */
+   GUID={0x546E4528,0xBE16,0x50B4,{0x87,0x3A,0xD8,0x78,0xFB,0xCB,0x7A,0x7B}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterCallback_FormatStringOffsetTable[] =
@@ -3658,7 +3686,7 @@ const CInterfaceStubVtbl _IUpdaterCallbackStubVtbl =
 
 
 /* Object interface: IUpdaterCallbackSystem, ver. 0.0,
-   GUID={0xF0D6763A,0x0182,0x4136,{0xB1,0xFA,0x50,0x8E,0x33,0x4C,0xFF,0xC1}} */
+   GUID={0xA136C070,0x54FF,0x59DB,{0xA0,0xC2,0xB2,0x70,0x4A,0x1C,0x3A,0x7E}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterCallbackSystem_FormatStringOffsetTable[] =
@@ -3712,7 +3740,7 @@ const CInterfaceStubVtbl _IUpdaterCallbackSystemStubVtbl =
 
 
 /* Object interface: IUpdaterAppState, ver. 0.0,
-   GUID={0xA22AFC54,0x2DEF,0x4578,{0x91,0x87,0xDB,0x3B,0x24,0x38,0x10,0x90}} */
+   GUID={0x7713C352,0xBA41,0x509E,{0xAB,0x66,0x6D,0x29,0xEE,0x26,0x49,0x4F}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterAppState_FormatStringOffsetTable[] =
@@ -3795,7 +3823,7 @@ CInterfaceStubVtbl _IUpdaterAppStateStubVtbl =
 
 
 /* Object interface: IUpdaterAppStateSystem, ver. 0.0,
-   GUID={0x92631531,0x8044,0x46F4,{0xB6,0x45,0xCD,0xFB,0xCC,0xC7,0xFA,0x3B}} */
+   GUID={0xE3836A31,0xEB2E,0x55C6,{0xB0,0x32,0x37,0xEB,0xC2,0x45,0xD4,0x0D}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterAppStateSystem_FormatStringOffsetTable[] =
@@ -3878,7 +3906,7 @@ CInterfaceStubVtbl _IUpdaterAppStateSystemStubVtbl =
 
 
 /* Object interface: IUpdaterAppStatesCallback, ver. 0.0,
-   GUID={0xEFE903C0,0xE820,0x4136,{0x9F,0xAE,0xFD,0xCD,0x7F,0x25,0x63,0x02}} */
+   GUID={0x4730CDD1,0x2ADB,0x5A15,{0xB5,0x12,0x6B,0x0B,0x0B,0x4D,0x76,0x45}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterAppStatesCallback_FormatStringOffsetTable[] =
@@ -3928,7 +3956,7 @@ const CInterfaceStubVtbl _IUpdaterAppStatesCallbackStubVtbl =
 
 
 /* Object interface: IUpdaterAppStatesCallbackSystem, ver. 0.0,
-   GUID={0x2CB8867E,0x495E,0x459F,{0xB1,0xB6,0x2D,0xD7,0xFF,0xDB,0xD4,0x62}} */
+   GUID={0x6BAA7411,0x9656,0x5136,{0x92,0x43,0x79,0xCA,0x35,0x56,0xF8,0xAD}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterAppStatesCallbackSystem_FormatStringOffsetTable[] =
@@ -3978,7 +4006,7 @@ const CInterfaceStubVtbl _IUpdaterAppStatesCallbackSystemStubVtbl =
 
 
 /* Object interface: IUpdater, ver. 0.0,
-   GUID={0x63B8FFB1,0x5314,0x48C9,{0x9C,0x57,0x93,0xEC,0x8B,0xC6,0x18,0x4B}} */
+   GUID={0xF3F43F12,0xB583,0x5597,{0x9C,0xB6,0x0F,0xA3,0xC0,0x52,0xCE,0x49}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdater_FormatStringOffsetTable[] =
@@ -4048,7 +4076,7 @@ const CInterfaceStubVtbl _IUpdaterStubVtbl =
 
 
 /* Object interface: IUpdaterSystem, ver. 0.0,
-   GUID={0xFCE335F3,0xA55C,0x496E,{0x81,0x4F,0x85,0x97,0x1C,0x9F,0xA6,0xF1}} */
+   GUID={0xFD517C96,0x0E95,0x5DAB,{0x92,0xE7,0x57,0x7F,0x53,0xA8,0x19,0x2F}} */
 
 #pragma code_seg(".orpc")
 static const unsigned short IUpdaterSystem_FormatStringOffsetTable[] =
@@ -4148,58 +4176,58 @@ static const MIDL_STUB_DESC Object_StubDesc =
 
 const CInterfaceProxyVtbl * const _updater_idl_system_ProxyVtblList[] = 
 {
+    ( CInterfaceProxyVtbl *) &_IUpdaterAppStatesCallbackSystemProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_ICompleteStatusSystemProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterCallbackProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterAppStateSystemProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterObserverProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterAppStateProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterCallbackSystemProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_ICompleteStatusProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdaterSystemProxyVtbl,
     ( CInterfaceProxyVtbl *) &_IUpdateStateSystemProxyVtbl,
     ( CInterfaceProxyVtbl *) &_IUpdaterObserverSystemProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdateStateProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterAppStateSystemProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterCallbackSystemProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterAppStateProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_ICompleteStatusSystemProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterAppStatesCallbackSystemProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterCallbackProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_ICompleteStatusProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterProxyVtbl,
     ( CInterfaceProxyVtbl *) &_IUpdaterAppStatesCallbackProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterSystemProxyVtbl,
-    ( CInterfaceProxyVtbl *) &_IUpdaterObserverProxyVtbl,
+    ( CInterfaceProxyVtbl *) &_IUpdateStateProxyVtbl,
     0
 };
 
 const CInterfaceStubVtbl * const _updater_idl_system_StubVtblList[] = 
 {
+    ( CInterfaceStubVtbl *) &_IUpdaterAppStatesCallbackSystemStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterStubVtbl,
+    ( CInterfaceStubVtbl *) &_ICompleteStatusSystemStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterCallbackStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterAppStateSystemStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterObserverStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterAppStateStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterCallbackSystemStubVtbl,
+    ( CInterfaceStubVtbl *) &_ICompleteStatusStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdaterSystemStubVtbl,
     ( CInterfaceStubVtbl *) &_IUpdateStateSystemStubVtbl,
     ( CInterfaceStubVtbl *) &_IUpdaterObserverSystemStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdateStateStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterAppStateSystemStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterCallbackSystemStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterAppStateStubVtbl,
-    ( CInterfaceStubVtbl *) &_ICompleteStatusSystemStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterAppStatesCallbackSystemStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterCallbackStubVtbl,
-    ( CInterfaceStubVtbl *) &_ICompleteStatusStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterStubVtbl,
     ( CInterfaceStubVtbl *) &_IUpdaterAppStatesCallbackStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterSystemStubVtbl,
-    ( CInterfaceStubVtbl *) &_IUpdaterObserverStubVtbl,
+    ( CInterfaceStubVtbl *) &_IUpdateStateStubVtbl,
     0
 };
 
 PCInterfaceName const _updater_idl_system_InterfaceNamesList[] = 
 {
+    "IUpdaterAppStatesCallbackSystem",
+    "IUpdater",
+    "ICompleteStatusSystem",
+    "IUpdaterCallback",
+    "IUpdaterAppStateSystem",
+    "IUpdaterObserver",
+    "IUpdaterAppState",
+    "IUpdaterCallbackSystem",
+    "ICompleteStatus",
+    "IUpdaterSystem",
     "IUpdateStateSystem",
     "IUpdaterObserverSystem",
-    "IUpdateState",
-    "IUpdaterAppStateSystem",
-    "IUpdaterCallbackSystem",
-    "IUpdaterAppState",
-    "ICompleteStatusSystem",
-    "IUpdaterAppStatesCallbackSystem",
-    "IUpdaterCallback",
-    "ICompleteStatus",
-    "IUpdater",
     "IUpdaterAppStatesCallback",
-    "IUpdaterSystem",
-    "IUpdaterObserver",
+    "IUpdateState",
     0
 };
 
@@ -4208,10 +4236,10 @@ const IID *  const _updater_idl_system_BaseIIDList[] =
     0,
     0,
     0,
-    &IID_IDispatch,
     0,
     &IID_IDispatch,
     0,
+    &IID_IDispatch,
     0,
     0,
     0,

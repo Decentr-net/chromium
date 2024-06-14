@@ -6,7 +6,8 @@
 
 namespace updater {
 
-const wchar_t kLegacyGoogleUpdateAppID[] = L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
+const wchar_t kLegacyGoogleUpdateAppID[] = L"{18217356-b676-4b3b-93ba-641fabf142c7}";
+//const wchar_t kLegacyGoogleUpdateAppID[] = L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
 
 const wchar_t kGoogleUpdate3WebSystemClassProgId[] =
     L"GoogleUpdate.Update3WebMachine";
