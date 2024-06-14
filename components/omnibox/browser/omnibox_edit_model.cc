@@ -2566,6 +2566,18 @@ void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
       IDNA2008DeviationCharacter::kNone;
   TemplateURLService* service = controller_->client()->GetTemplateURLService();
   TemplateURL* template_url = match.GetTemplateURL(service, false);
+
+  if(is_tdns_)
+  {
+    if ((disposition == WindowOpenDisposition::CURRENT_TAB) &&
+      controller_->client()->CurrentPageExists()) 
+    {
+      // We need to check if we usr only user input or also we are using autocomplition
+      tdns_input_text = input_text + match.inline_autocompletion;
+      tominet_bulshit[controller_->client()->GetSessionID().id()] = tdns_input_text;
+    }
+  }
+
   if (template_url) {
     if (ui::PageTransitionTypeIncludingQualifiersIs(
             match.transition, ui::PAGE_TRANSITION_KEYWORD)) {
@@ -2599,15 +2611,7 @@ void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
 
     AutocompleteMatch::LogSearchEngineUsed(match, service);
   } else {
-    if(is_tdns_)
-    {
-      if ((disposition == WindowOpenDisposition::CURRENT_TAB) &&
-        controller_->client()->CurrentPageExists()) {
-        // We need to check if we user only user input or also we are using autocomplition
-        tdns_input_text = input_text + match.inline_autocompletion;
-        tominet_bulshit[controller_->client()->GetSessionID().id()] = tdns_input_text;
-      }
-    }
+    
     // |match| is a URL navigation, not a search.
     // For logging the below histogram, only record uses that depend on the
     // omnibox suggestion system, i.e., TYPED navigations.  That is, exclude
