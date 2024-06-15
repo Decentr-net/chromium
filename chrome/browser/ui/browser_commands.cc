@@ -643,7 +643,14 @@ Browser* OpenEmptyWindow(Profile* profile,
 //TDNS
 void TDNSWIndow(Browser* browser) {
   Profile* const profile = browser->profile();
-  NewTDNSWindow(profile->GetOriginalProfile());
+  if(browser->tomiNet==true)
+  {
+    NewWindow(browser);
+  }
+  else
+  {
+    NewTDNSWindow(profile->GetOriginalProfile());
+  }
 }
 
 void NewTDNSWindow(Profile* profile) {
