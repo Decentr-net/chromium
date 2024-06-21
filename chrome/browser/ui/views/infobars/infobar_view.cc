@@ -211,7 +211,7 @@ void InfoBarView::OnThemeChanged() {
   SetBackground(views::CreateSolidBackground(background_color));
 
   const SkColor text_color = cp->GetColor(kColorInfoBarForeground);
-  const SkColor icon_color = cp->GetColor(kColorInfoBarButtonIcon);
+  const SkColor icon_color = {SkColorSetRGB(172, 0, 88)};
   const SkColor icon_disabled_color =
       cp->GetColor(kColorInfoBarButtonIconDisabled);
   if (close_button_) {

@@ -4,9 +4,10 @@
 
 html {
   background-attachment: fixed;
-  background-color: $i18n{colorBackground};
   background-position: $i18n{backgroundPosition};
   background-repeat: $i18n{backgroundTiling};
+  
+  background-image: url(chrome://new-tab-page/icons/tomi_background.png);
   height: 100%;
   overflow: auto;
 }

@@ -12,21 +12,26 @@
 
 :host {
   --cr-button-background-color: transparent;
+   --bg-action:  #ff0183!important;
   --cr-button-border-color:  var(--color-button-border,
       var(--cr-fallback-color-tonal-outline));
   --cr-button-text-color: var(--color-button-foreground,
       var(--cr-fallback-color-primary));
   --cr-button-ripple-opacity: 1;
   --cr-button-ripple-color: var(--cr-active-background-color);
-
+  --ink-color-action: white;
   --cr-button-disabled-background-color: transparent;
   --cr-button-disabled-border-color: var(--color-button-border-disabled,
       var(--cr-fallback-color-disabled-background));
   --cr-button-disabled-text-color: var(--color-button-foreground-disabled,
       var(--cr-fallback-color-disabled-foreground));
+        --text-color-action: white;
+  --text-color: white;
 }
 
 :host(.action-button) {
+--active-bg: black linear-gradient(rgba(255, 255, 255, .06),
+                                       rgba(255, 255, 255, .06));
   --cr-button-background-color: var(--color-button-background-prominent,
       var(--cr-fallback-color-primary));
   --cr-button-text-color: var(--color-button-foreground-prominent,

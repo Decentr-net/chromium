@@ -65,6 +65,7 @@
           <include name="IDR_ACCOUNT_MANAGER_WELCOME_2X_PNG" file="resources\chromeos\account_manager\account_manager_welcome_2x.png" type="BINDATA" />
           <include name="IDR_ACCOUNT_MANAGER_WELCOME_GOOGLE_LOGO_SVG" file="resources\chromeos\googleg.svg" type="BINDATA" />
         </if>
+        <include name="incognito_bckgrnd" file="resources\new_tab_page_incognito_guest\background.png" type="BINDATA" />
 
         <include name="IDR_CROSTINI_INSTALLER_INDEX_HTML" file="resources\chromeos\crostini_installer\index.html" type="BINDATA" />
         <include name="IDR_CROSTINI_INSTALLER_APP_JS" file="resources\chromeos\crostini_installer\app.js" type="BINDATA" />

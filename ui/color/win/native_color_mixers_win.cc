@@ -22,7 +22,7 @@ namespace ui {
 // contrast colors.
 void AddHighContrastSysColors(ColorMixer& mixer) {
   // Primary.
-  mixer[kColorSysPrimary] = {kColorNativeWindow};
+  mixer[kColorSysPrimary] = {SkColorSetRGB(172, 0, 88)};
   mixer[kColorSysOnPrimary] = {kColorNativeWindowText};
   mixer[kColorSysPrimaryContainer] = {kColorNativeBtnFace};
   mixer[kColorSysOnPrimaryContainer] = {kColorNativeBtnText};

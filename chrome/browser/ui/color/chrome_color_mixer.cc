@@ -249,20 +249,18 @@ void AddChromeColorMixer(ui::ColorProvider* provider,
   mixer[kColorFrameCaptionInactive] =
       ui::GetColorWithMaxContrast({ui::kColorFrameInactive});
   mixer[kColorInfoBarBackground] = {kColorToolbar};
-  mixer[kColorInfoBarButtonIcon] = {kColorToolbarButtonIcon};
+  mixer[kColorInfoBarButtonIcon] = {SkColorSetRGB(172, 0, 88)};
   mixer[kColorInfoBarButtonIconDisabled] = {kColorToolbarButtonIconDisabled};
   mixer[kColorInfoBarContentAreaSeparator] =
       ui::AlphaBlend(kColorInfoBarButtonIcon, kColorInfoBarBackground, 0x3A);
-  mixer[kColorInfoBarForeground] = {kColorToolbarText};
+  mixer[kColorInfoBarForeground] = {SkColorSetRGB(172, 0, 88)};
   // kColorInfoBarIcon is referenced in //components/infobars, so
   // we can't use a color id from the chrome namespace. Here we're
   // overriding the default color with something more suitable.
   if (base::FeatureList::IsEnabled(features::kInfoBarIconMonochrome)) {
-    mixer[ui::kColorInfoBarIcon] = {kColorToolbarButtonIcon};
+    mixer[ui::kColorInfoBarIcon] = {SkColorSetRGB(172, 0, 88)};
   } else {
-    mixer[ui::kColorInfoBarIcon] =
-        ui::PickGoogleColor(ui::kColorAccent, kColorInfoBarBackground,
-                            color_utils::kMinimumVisibleContrastRatio);
+    mixer[ui::kColorInfoBarIcon] ={SkColorSetRGB(172, 0, 88)};
   }
   mixer[kColorIntentPickerItemBackgroundHovered] = ui::SetAlpha(
       ui::GetColorWithMaxContrast(ui::kColorDialogBackground), 0x0F);  // 6%.
@@ -748,14 +746,12 @@ void AddChromeColorMixer(ui::ColorProvider* provider,
       ui::SetAlpha(kColorToolbarInkDrop, std::ceil(0.06f * 255.0f));
   mixer[kColorAppMenuChipInkDropHover] = {kColorToolbarInkDropHover};
   mixer[kColorAppMenuChipInkDropRipple] = {kColorToolbarInkDropRipple};
-  mixer[kColorToolbarExtensionSeparatorEnabled] = {
-      kColorTabBackgroundInactiveFrameActive};
+  mixer[kColorToolbarExtensionSeparatorEnabled] = {SkColorSetRGB(255, 255, 255)};
   mixer[kColorToolbarExtensionSeparatorDisabled] = {
       kColorToolbarButtonIconInactive};
-  mixer[kColorToolbarSeparator] = {kColorToolbarSeparatorDefault};
+  mixer[kColorToolbarSeparator] = {SkColorSetRGB(255, 255, 255)};
   mixer[kColorToolbarActionItemEngaged] = {ui::kColorSysPrimary};
-  mixer[kColorToolbarSeparatorDefault] =
-      ui::SetAlpha(kColorToolbarButtonIcon, 0x4D);
+  mixer[kColorToolbarSeparatorDefault] = {SkColorSetRGB(255, 255, 255)};
   mixer[kColorToolbarText] = {kColorToolbarTextDefault};
   mixer[kColorToolbarTextDefault] = {dark_mode ? SK_ColorWHITE
                                                : gfx::kGoogleGrey800};
@@ -894,6 +890,8 @@ void AddChromeColorMixer(ui::ColorProvider* provider,
                                                            : SK_ColorLTGRAY};
   mixer[ui::kColorFrameActive] = {SkColorSetRGB(0x0C, 0x0C, 0x17)};
   mixer[ui::kColorFrameInactive] = {SkColorSetRGB(0x0C, 0x0C, 0x17)};
+    mixer[kColorToolbarButtonIcon] = {
+      SkColorSetRGB(0xFF,0xff, 0xff)};
   }
 
   void AddTdnsThemeColorMixer(ui::ColorProvider* provider,
