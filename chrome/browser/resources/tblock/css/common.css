@@ -95,8 +95,23 @@
 
 /* Common uBO styles */
 body {
-    background-color: #171717;
-    border: 0;
+    min-height: 392px;
+    border: 2px solid #FF0083;
+    background-image: linear-gradient(
+            180deg,
+            hsl(0deg 0% 7%) 10%,
+            hsl(0deg 0% 9%) 34%,
+            hsl(0deg 0% 11%) 43%,
+            hsl(0deg 0% 12%) 51%,
+            hsl(0deg 0% 14%) 56%,
+            hsl(0deg 0% 15%) 61%,
+            hsl(0deg 0% 16%) 66%,
+            hsl(0deg 0% 17%) 71%,
+            hsl(0deg 0% 18%) 76%,
+            hsl(0deg 0% 19%) 81%,
+            hsl(0deg 0% 20%) 88%,
+            hsl(0deg 0% 21%) 100%
+    );
     box-sizing: border-box;
     color: var(--default-ink);
     fill: var(--default-ink);

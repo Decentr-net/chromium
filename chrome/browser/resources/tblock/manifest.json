@@ -86,6 +86,7 @@
   },
   "version": "1.0.3",
   "web_accessible_resources": [
-    "/web_accessible_resources/*"
+    "/web_accessible_resources/*",
+    "/img/*"
   ]
 }
