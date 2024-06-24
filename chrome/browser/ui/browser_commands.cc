@@ -189,6 +189,7 @@
 #include "chrome/browser/ui/views/toolbar/toolbar_view.h"
 #include "chrome/browser/ui/views/omnibox/omnibox_view_views.h"
 #include "components/omnibox/browser/omnibox_edit_model.h"
+#include "chrome/browser/ui/browser_location_bar_model_delegate.h"
 
 #if BUILDFLAG(ENABLE_EXTENSIONS)
 #include "chrome/browser/ui/extensions/app_launch_params.h"
@@ -677,6 +678,7 @@ Browser* OpenTdnsInNewWindow(Profile* profile) {
   Browser* browser = Browser::Create(params);
   browser->tomiNet=true;
   BrowserView::GetBrowserViewForBrowser(browser)->toolbar()->location_bar()->omnibox_view()->model()->SetIsTdns();
+  browser->location_bar_model_delegate_->istomiNet_=true;
   AddTabAt(browser, GURL("chrome://new-tab-page-third-party/"), -1, true);
   browser->window()->Show();
   return browser;

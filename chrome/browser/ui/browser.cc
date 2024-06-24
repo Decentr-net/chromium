@@ -533,7 +533,10 @@ Browser* Browser::Create(const CreateParams& params) {
 }
 
 Browser::Browser(const CreateParams& params)
-    : create_params_(params),
+    : location_bar_model_delegate_(new BrowserLocationBarModelDelegate(this)),
+    create_params_(params),
+      
+
       type_(params.type),
       profile_(params.profile),
       window_(nullptr),
@@ -561,7 +564,6 @@ Browser::Browser(const CreateParams& params)
       unload_controller_(this),
       content_setting_bubble_model_delegate_(
           new BrowserContentSettingBubbleModelDelegate(this)),
-      location_bar_model_delegate_(new BrowserLocationBarModelDelegate(this)),
       location_bar_model_(std::make_unique<LocationBarModelImpl>(
           location_bar_model_delegate_.get(),
           content::kMaxURLDisplayChars)),

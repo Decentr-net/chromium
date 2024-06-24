@@ -1743,7 +1743,7 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
   DeviceOAuth2TokenStoreDesktop::RegisterPrefs(registry);
 #endif
 
-registry->RegisterBooleanPref("extensions.webstore.installed", false);
+  registry->RegisterBooleanPref("tomiPay.webstore.installed", false);
 
 #if !BUILDFLAG(IS_ANDROID)
   screen_ai::RegisterLocalStatePrefs(registry);

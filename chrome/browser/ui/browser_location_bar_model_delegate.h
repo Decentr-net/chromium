@@ -22,10 +22,10 @@ class BrowserLocationBarModelDelegate : public ChromeLocationBarModelDelegate {
       const BrowserLocationBarModelDelegate&) = delete;
 
   ~BrowserLocationBarModelDelegate() override;
-
+  const gfx::VectorIcon* GetVectorIconOverride() const override;
   // ChromeLocationBarModelDelegate:
   content::WebContents* GetActiveWebContents() const override;
-
+  bool istomiNet_;
  private:
   const raw_ptr<Browser> browser_;
 };

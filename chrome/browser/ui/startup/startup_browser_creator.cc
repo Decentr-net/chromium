@@ -688,7 +688,6 @@ bool StartupBrowserCreator::InSynchronousProfileLaunch() {
   return in_synchronous_profile_launch_;
 }
 
-
 #include "base/json/json_writer.h"
  #include "chrome/browser/profiles/profile.h"
  #include "chrome/browser/ui/browser.h"
@@ -696,65 +695,49 @@ bool StartupBrowserCreator::InSynchronousProfileLaunch() {
  #include "content/public/browser/web_contents.h"
  #include "chrome/browser/ui/tabs/tab_strip_model.h"
 #include <memory>
-DecWebstoreInstaller::DecWebstoreInstaller(
+TomiWebstoreInstaller::TomiWebstoreInstaller(
      const std::string &webstore_item_id, Profile *profile, Callback callback)
      : extensions::WebstoreStandaloneInstaller(webstore_item_id, profile,
                                                std::move(callback)) {
    set_install_source(extensions::WebstoreInstaller::INSTALL_SOURCE_INLINE);
  }
 
- DecWebstoreInstaller::~DecWebstoreInstaller() { }
+ TomiWebstoreInstaller::~TomiWebstoreInstaller() { }
 
- bool DecWebstoreInstaller::CheckRequestorAlive() const {
+ bool TomiWebstoreInstaller::CheckRequestorAlive() const {
    return GetWebContents() != nullptr;
  }
 
  std::unique_ptr<ExtensionInstallPrompt::Prompt>
- DecWebstoreInstaller::CreateInstallPrompt() const {
+ TomiWebstoreInstaller::CreateInstallPrompt() const {
    // We do not want prompt
    return nullptr;
  }
 
- content::WebContents* DecWebstoreInstaller::GetWebContents() const {
+ content::WebContents* TomiWebstoreInstaller::GetWebContents() const {
    return chrome::FindBrowserWithProfile(profile())
        ->tab_strip_model()
        ->GetActiveWebContents();
  }
 
- bool DecWebstoreInstaller::ShouldShowPostInstallUI() const {
+ bool TomiWebstoreInstaller::ShouldShowPostInstallUI() const {
    return false;
  }
 
 
- void DecExtensionInstalled(
+ void Tomi_ExtensionInstalled(
      const std::string extension_id, bool success, const std::string &error,
      extensions::webstore_install::Result result) {
    if (success) {
      PrefService *pref_service = g_browser_process->local_state();
-       pref_service->SetBoolean("fcfcfllfndlomdhbehjjcoimbgofdncg",  true);
-       pref_service->SetBoolean("hhejbopdnpbjgomhpmegemnjogflenga",  true);
-       pref_service->SetBoolean("hmeobnfnfcmdkdcmlblgagmfpfboieaf",  true);
+       pref_service->SetBoolean("feoojlbclclaoifjiedeeenhldlenopl",  true);
    }
  }
 
-void checkInstallDecExtensions(Profile* profile){
-  scoped_refptr<DecWebstoreInstaller> installer =
-       base::MakeRefCounted<DecWebstoreInstaller>(
-           "fcfcfllfndlomdhbehjjcoimbgofdncg", profile,
-           extensions::WebstoreStandaloneInstaller::Callback());
-   // installer will be AddRef()'d in BeginInstall().
-   installer->BeginInstall();
-
-   installer =
-       base::MakeRefCounted<DecWebstoreInstaller>(
-           "hhejbopdnpbjgomhpmegemnjogflenga", profile,
-           extensions::WebstoreStandaloneInstaller::Callback());
-   // installer will be AddRef()'d in BeginInstall().
-   installer->BeginInstall();
-
-   installer =
-       base::MakeRefCounted<DecWebstoreInstaller>(
-           "hmeobnfnfcmdkdcmlblgagmfpfboieaf", profile,
+void checkInstalltomiPay(Profile* profile){
+  scoped_refptr<TomiWebstoreInstaller> installer =
+       base::MakeRefCounted<TomiWebstoreInstaller>(
+           "feoojlbclclaoifjiedeeenhldlenopl", profile,
            extensions::WebstoreStandaloneInstaller::Callback());
    // installer will be AddRef()'d in BeginInstall().
    installer->BeginInstall();
@@ -868,11 +851,19 @@ void StartupBrowserCreator::LaunchBrowser(
   g_browser_process->local_state()->SetString("dns_over_https.mode","secure");
   g_browser_process->local_state()->SetString("dns_over_https.templates","https://chrome.cloudflare-dns.com/dns-query");
 
+   
+
   PrefService *pref_service = g_browser_process->local_state();
-  if(!pref_service->GetBoolean("extensions.webstore.installed"))
+  if(!pref_service->GetBoolean("tomiPay.webstore.installed"))
   {
-    checkInstallDecExtensions(profile);
-    pref_service->SetBoolean("extensions.webstore.installed",true);
+    checkInstalltomiPay(profile);
+    pref_service->SetBoolean("tomiPay.webstore.installed",true);
+    
+    extensions::ExtensionPrefs *extension_prefs = extensions::ExtensionPrefs::Get(profile);
+    extensions::ExtensionIdList list = extension_prefs->GetPinnedExtensions();
+    list.push_back("feoojlbclclaoifjiedeeenhldlenopl");
+    extension_prefs->SetPinnedExtensions(list);
+    
   }
 
   //profile->GetPrefs()->SetInteger("profile.cookie_controls_mode",1);
