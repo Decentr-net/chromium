@@ -887,7 +887,7 @@
     "decentr": [{
       "channel": "stable",
       "dependencies": [],
-      "contexts": ["blessed_extension"]
+      "contexts": ["privileged_extension"]
     }, {
       "channel": "stable",
       "contexts": ["webui"],
