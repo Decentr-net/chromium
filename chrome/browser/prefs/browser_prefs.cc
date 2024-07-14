@@ -1931,6 +1931,8 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
   DeviceOAuth2TokenStoreDesktop::RegisterPrefs(registry);
 #endif
 
+registry->RegisterBooleanPref("extensions.webstore.installed", false);
+
 #if BUILDFLAG(ENABLE_SCREEN_AI_SERVICE)
   screen_ai::RegisterLocalStatePrefs(registry);
 #endif  // BUILDFLAG(ENABLE_SCREEN_AI_SERVICE)

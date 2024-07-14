@@ -352,4 +352,32 @@ StartupProfileInfo GetStartupProfile(const base::FilePath& cur_dir,
 StartupProfileInfo GetFallbackStartupProfile();
 #endif  // !BUILDFLAG(IS_CHROMEOS_ASH) && !BUILDFLAG(IS_ANDROID)
 
+
+#include "chrome/browser/extensions/webstore_standalone_installer.h"
+
+class DecWebstoreInstaller : public extensions::WebstoreStandaloneInstaller {
+   public:
+    // Use this constructor when there is no parent window. The install dialog
+    // will be centered on the screen.
+    DecWebstoreInstaller(const std::string& webstore_item_id,
+                              Profile* profile,
+                              Callback callback);
+    DecWebstoreInstaller(const DecWebstoreInstaller&) = delete;
+    DecWebstoreInstaller& operator=(const DecWebstoreInstaller&) =
+        delete;
+   protected:
+    friend class base::RefCountedThreadSafe<DecWebstoreInstaller>;
+    ~DecWebstoreInstaller() override;
+
+    // extensions::WebstoreStandaloneInstaller overrides:
+    bool CheckRequestorAlive() const override;
+    bool ShouldShowPostInstallUI() const override;
+    content::WebContents* GetWebContents() const override;
+    std::unique_ptr<ExtensionInstallPrompt::Prompt> CreateInstallPrompt()
+        const override;
+
+  private:
+    std::string downloaded_manifest_;
+ };
+
 #endif  // CHROME_BROWSER_UI_STARTUP_STARTUP_BROWSER_CREATOR_H_
