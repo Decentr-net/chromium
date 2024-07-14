@@ -94,8 +94,8 @@ bool IsComponentExtensionAllowlisted(int manifest_resource_id) {
 #endif
     case IDR_CHARON_MANIFEST:
     case IDR_DBLOCK_MANIFEST:
-    case IDR_COSMOS_MANIFEST:
-    case IDR_OWALET_MANIFEST:
+    //case IDR_COSMOS_MANIFEST:
+    //case IDR_OWALET_MANIFEST:
     case IDR_NETWORK_SPEECH_SYNTHESIS_MANIFEST:
     case IDR_READING_MODE_GDOCS_HELPER_MANIFEST:
     case IDR_WEBSTORE_MANIFEST:
