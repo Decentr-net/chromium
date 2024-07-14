@@ -52,4 +52,8 @@
   <structure type="chrome_scaled_image" name="IDR_YAHOO_COM_PNG" file="search_engine_choice/yahoo_com.png" />
   <structure type="chrome_scaled_image" name="IDR_YAHOO_CO_JP_PNG" file="search_engine_choice/yahoo_com.png" />
   <structure type="chrome_scaled_image" name="IDR_YOU_COM_PNG" file="search_engine_choice/you_com.png" />
+  <structure type="chrome_scaled_image" name="IDR_PRESEARCH_ORG_PNG" file="search_engine_choice/duckduckgo_com.png" />
+  <structure type="chrome_scaled_image" name="IDR_AOL_COM_PNG" file="search_engine_choice/duckduckgo_com.png" />
+  <structure type="chrome_scaled_image" name="IDR_ASK_COM_PNG" file="search_engine_choice/duckduckgo_com.png" />
+  <structure type="chrome_scaled_image" name="IDR_WEB_ARCHIVE_ORG_PNG" file="search_engine_choice/duckduckgo_com.png" />
 </grit-part>
