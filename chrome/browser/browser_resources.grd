@@ -234,8 +234,6 @@
       <include name="IDR_WEBSTORE_MANIFEST" file="resources\webstore_app\manifest.json" type="BINDATA" />
       <include name="IDR_CHARON_MANIFEST" file="resources\charon\manifest.json" type="BINDATA" />
       <include name="IDR_DBLOCK_MANIFEST" file="resources\dblock\manifest.json" type="BINDATA" />
-      <include name="IDR_COSMOS_MANIFEST" file="resources\cosmos\manifest.json" type="BINDATA" />
-      <include name="IDR_OWALET_MANIFEST" file="resources\owallet\manifest.json" type="BINDATA" />
       <if expr="is_chromeos">
         <!-- Contact Center Insights extension, enabled on managed ChromeOS devices -->
         <include name="IDR_CONTACT_CENTER_INSIGHTS_MANIFEST" file="resources\chromeos\contact_center_insights\manifest.json" type="BINDATA" />
