@@ -288,16 +288,6 @@ void ModuleDatabase::StartInspection() {
 }
 
 // static
-ModuleDatabase* ModuleDatabase::GetInstanceForTesting(
-    std::unique_ptr<InstalledApplications> installed_applications) {
-  CHECK(g_module_database->third_party_conflicts_manager_);
-  g_module_database->third_party_conflicts_manager_
-      ->SetInstalledApplicationsForTesting(  // IN-TEST
-          std::move(installed_applications));
-  return GetInstance();
-}
-
-// static
 void ModuleDatabase::RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
   // Register the pref used to disable the Incompatible Applications warning and
   // the blocking of third-party modules using group policy. Enabled by default.

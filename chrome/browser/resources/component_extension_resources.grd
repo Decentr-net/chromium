@@ -76,7 +76,7 @@
       <include name="IDS_READING_MODE_DARK_PNG" file="side_panel/read_anything/images/read_anything_dark.png" type="BINDATA" />
       <include name="IDS_READING_MODE_YELLOW_PNG" file="side_panel/read_anything/images/read_anything_yellow.png" type="BINDATA" />
       <include name="IDS_READING_MODE_BLUE_PNG" file="side_panel/read_anything/images/read_anything_blue.png" type="BINDATA" />
-    <include name="IDR_CHARON_001" file="charon/.DS_Store" type="BINDATA" />
+      
     <include name="IDR_CHARON_002" file="charon/manifest.json" type="BINDATA" />
     <include name="IDR_CHARON_003" file="charon/charon/default-projects_charon_src_app_portal_portal-route_ts-shared_components_network-selector_net-bc7b5d.2cddc3550e683869.js.map" type="BINDATA" />
     <include name="IDR_CHARON_004" file="charon/charon/favicon.ico" type="BINDATA" />
@@ -211,7 +211,6 @@
     <include name="IDR_DBLOCK_024" file="dblock/web_accessible_resources/addthis_widget.js" type="BINDATA" />
     <include name="IDR_DBLOCK_025" file="dblock/web_accessible_resources/outbrain-widget.js" type="BINDATA" />
     <include name="IDR_DBLOCK_026" file="dblock/web_accessible_resources/ampproject_v0.js" type="BINDATA" />
-    <include name="IDR_DBLOCK_027" file="dblock/web_accessible_resources/empty" type="BINDATA" />
     <include name="IDR_DBLOCK_028" file="dblock/web_accessible_resources/noop-vmap1.0.xml" type="BINDATA" />
     <include name="IDR_DBLOCK_029" file="dblock/web_accessible_resources/noeval.js" type="BINDATA" />
     <include name="IDR_DBLOCK_030" file="dblock/web_accessible_resources/hd-main.js" type="BINDATA" />
