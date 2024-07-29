@@ -1,0 +1,128 @@
+{
+  "qr_login_dialog": {
+    "close": "Close",
+    "help": "Want help to get started?",
+    "step1": "Open Decentr browser on your phone",
+    "step2": "Tap \"Sign in as an existing user\"",
+    "step3": "Scan QR code you can see on the left",
+    "step3_hint": "You'll be logged in without using seed phrase.",
+    "title": "To start using Decentr browser"
+  },
+  "edit_profile_page": {
+    "back": "Cancel",
+    "submit": "Save",
+    "password": {
+      "title": "Set new password"
+    },
+    "old_password": {
+      "label": "Old password"
+    },
+    "title": "User settings",
+    "toastr": {
+      "errors": {
+        "429": "Too many requests. Try again later"
+      },
+      "successful_update": "User was successfully updated"
+    }
+  },
+  "lock_delay_settings": {
+    "select": {
+      "label": "Autolock automatically in",
+      "values": {
+        "10m": "10 minutes",
+        "1h": "1 hour",
+        "24h": "24 hours",
+        "48h": "48 hours",
+        "never": "Never"
+      }
+    },
+    "subtitle": "If you don’t open the extension at least once during the selected period, you will have to enter a password.",
+    "title": "Autolock"
+  },
+  "referral_bonus_milestones": {
+    "dec_bonus": "DEC bonus"
+  },
+  "referral_reward_milestones": {
+    "dec_rewards": "DEC"
+  },
+  "referral_stats": {
+    "bonus_milestones": {
+      "header": "Additional bonuses for round invitee sums",
+      "subheader": "There are some milestones that will let you get additional bonuses... just check below, they're worth it."
+    },
+    "copy_invite_link": "Copy invite link",
+    "header": "Referral",
+    "link_copied": "Invite link copied",
+    "time_options": {
+      "last30Days": "30 days",
+      "total": "All time"
+    },
+    "rewards_days": "Rewards are accrued after {{days}} days.",
+    "reward_milestones": {
+      "header": "The more you give – the more you get",
+      "subheader": "The more users you invite — the more DEC you’ll get as a reward. Reward sum depends on total amount of users who have been invited from you and passed all 3 steps to get on board."
+    },
+    "stats": {
+      "dec_received": "{{received}} DEC received",
+      "installed": "Installed Decentr browser",
+      "rewards": "Rewards received",
+      "signed_up": "Signed up via invite link",
+      "reward_for_referral": "You’ll receive <strong>+{{reward}} DEC</strong> for each referral after they will complete all steps."
+    },
+    "steps": "Invite your friends with a link and <strong>get referral reward after they will do 3 easy steps</strong>: sign up, install Decentr browser and earn {{uPDVToEarn}} uPDV."
+  },
+  "restore_seed_dialog": {
+    "close": "Close",
+    "form": {
+      "password": {
+        "errors": {
+          "required": "Password required",
+          "invalid": "Invalid password"
+        },
+        "placeholder": "Password"
+      }
+    },
+    "restore": "Restore",
+    "title": "Restore seed phrase using your password"
+  },
+  "settings_page": {
+    "title": "Account settings"
+  },
+  "user_page": {
+    "charon_version": "Charon version:",
+    "copy_wallet_address": "Copy wallet address",
+    "delegate": "Delegate",
+    "send": "Send",
+    "topup": "Top Up",
+    "wallet_address_copied": "The wallet address was copied successfully",
+    "your_wallet": "Your wallet"
+  },
+  "user_menu_page": {
+    "banned": {
+      "label": "Banned",
+      "tooltip": "You are banned. Please contact the Decentr support team t.me/DecentrNet"
+    },
+    "coming_soon": "coming soon",
+    "link_device": "Connect mobile app",
+    "link_device_hint": "Scan QR code to login on your mobile browser.",
+    "link_keplr": "Connect Keplr",
+    "link_keplr_hint": "You'll be able to use Decentr network in Keplr extension.",
+    "delete": "Delete account",
+    "delete_hint": "We’ll clean all the cookies and other information connected with your account.\nYou’ll be able to recover your account with seed phrase.",
+    "delete_confirmation": {
+      "cancel": "Cancel",
+      "confirm": "Delete",
+      "content": "You’ll lose your account information, PDV rate, and cookies and won't be able to restore it. The only thing you can restore with the seed phrase is the account name.",
+      "title": "Delete your account?"
+    },
+    "edit": "Edit account information",
+    "import": "Import account",
+    "lock": "Lock account",
+    "lock_hint": "You’ll be able to unlock your account using your password.",
+    "night_theme": "Night theme",
+    "night_theme_hint": "Customize how Decentr will look on your devices.",
+    "restore_seed": "Restore seed phrase",
+    "restore_seed_hint": "Restore seed phrase using your password.",
+    "settings": "Settings"
+  }
+}

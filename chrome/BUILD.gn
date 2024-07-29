@@ -922,6 +922,25 @@ if (is_win) {
       "$root_out_dir/web_app_shortcut_copier",
     ]
 
+    if (current_cpu == "arm64") 
+    {
+      sources += [
+        "wg/wg_arm/wg_host",
+        "wg/wg_arm/wg",
+        "wg/wg_arm/wg-quick",
+        "wg/wg_arm/wireguard-go",
+        "wg/wg_arm/bash",
+      ]
+    }else{
+      sources += [
+        "wg/wg_86/wg_host",
+        "wg/wg_86/wg",
+        "wg/wg_86/wg-quick",
+        "wg/wg_86/wireguard-go",
+        "wg/wg_86/bash",
+      ]
+    }
+
     outputs = [ "{{bundle_contents_dir}}/Helpers/{{source_file_part}}" ]
 
     public_deps = [

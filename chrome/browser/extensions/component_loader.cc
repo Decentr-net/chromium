@@ -601,6 +601,7 @@ void ComponentLoader::AddDefaultComponentExtensionsWithBackgroundPages(
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
   //Add(IDR_TDNS_MANIFEST,      base::FilePath(FILE_PATH_LITERAL("tdns")));
   Add(IDR_TBLOCK_MANIFEST,    base::FilePath(FILE_PATH_LITERAL("tblock")));
+  Add(IDR_TVPN_MANIFEST,    base::FilePath(FILE_PATH_LITERAL("tvpn")));
 }
 
 void ComponentLoader::

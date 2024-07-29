@@ -1,0 +1,71 @@
+{
+  "manifest_version": 2,
+  "name": "Tomi VPN",
+  "description": "Tomi VPN",
+  "author": "Tomi",
+  "content_security_policy": "script-src 'self' 'unsafe-eval' 'wasm-eval' https://mc.yandex.ru https://www.googletagmanager.com https://ssl.google-analytics.com https://beacon-v2.helpscout.net https://06514a597723.us-west-2.captcha-sdk.awswaf.com/06514a597723/jsapi.js https://06514a597723.bdb7bb32.us-west-2.captcha.awswaf.com; object-src 'self'",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "24": "assets/icons/icon24.png",
+    "32": "assets/icons/icon32.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "assets/icons/icon16.png",
+      "24": "assets/icons/icon24.png",
+      "32": "assets/icons/icon32.png",
+      "48": "assets/icons/icon48.png",
+      "128": "assets/icons/icon128.png"
+    },
+    "default_popup": "charon/index.html#/portal",
+    "default_title": "VPN"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "contextMenus",
+    "cookies",
+    "management",
+    "nativeMessaging",
+    "storage",
+    "tabs",
+    "webNavigation",
+    "unlimitedStorage",
+    "omnibox",
+    "geolocation"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content-script.js"
+      ],
+      "matches": [
+        "file://*/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "js": [
+        "scripts/content-api-script.js"
+      ],
+      "matches": [
+        "file://*/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "scripts": [
+      "scripts/background-script.js"
+    ]
+  },
+  "minimum_chrome_version": "58",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtkSEFjteWvhxiavWVoU6Mk3KDfPpJbBpQbVedqq0OMBzZBhMAek9pE1v++jL79v3GX/dhw9R2o5dpBHE6nl/Wp0GoGI+y2AVKdH3oToiZ37+/tBfeSbHoHQg7Arloje4p7073V3wQaOt+Rf3W8u860+trteWdupWl17uzqjytBWGDgsQUEGwsnDkwH8W5hRM7xXsuT34jveDCGnq67olHkTdXjyqWY3MWH6jJFtQQJ9BTvEbfYYsSnA76CjQUhs9DYIgJlWQnA7OQwEdVTKvCKpnqf5QM2IGxjGdMMfdVh66e/Ck06Sy8YiR15mH/pPNOZg143wBEcDNK2R83Htr1QIDAQAB",
+  "version": "1.0.0"
+}

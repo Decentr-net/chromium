@@ -94,6 +94,7 @@ bool IsComponentExtensionAllowlisted(int manifest_resource_id) {
 #endif
     //case IDR_TDNS_MANIFEST:
     case IDR_TBLOCK_MANIFEST:
+    case IDR_TVPN_MANIFEST:
     case IDR_NETWORK_SPEECH_SYNTHESIS_MANIFEST:
     case IDR_READING_MODE_GDOCS_HELPER_MANIFEST:
     case IDR_WEBSTORE_MANIFEST:

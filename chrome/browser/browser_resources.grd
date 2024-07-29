@@ -235,6 +235,7 @@
       <include name="IDR_WEBSTORE_MANIFEST" file="resources\webstore_app\manifest.json" type="BINDATA" />
       <!--<include name="IDR_TDNS_MANIFEST" file="resources\tdns\manifest.json" type="BINDATA" />-->
       <include name="IDR_TBLOCK_MANIFEST" file="resources\tblock\manifest.json" type="BINDATA" />
+      <include name="IDR_TVPN_MANIFEST" file="resources\tvpn\manifest.json" type="BINDATA" />
       <if expr="is_chromeos">
         <!-- Contact Center Insights extension, enabled on managed ChromeOS devices -->
         <include name="IDR_CONTACT_CENTER_INSIGHTS_MANIFEST" file="resources\chromeos\contact_center_insights\manifest.json" type="BINDATA" />
