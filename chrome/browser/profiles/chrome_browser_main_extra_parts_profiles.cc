@@ -1310,9 +1310,6 @@ void ChromeBrowserMainExtraPartsProfiles::
   WebDataServiceFactory::GetInstance();
   webrtc_event_logging::WebRtcEventLogManagerKeyedServiceFactory::GetInstance();
   decentr::DecentrStorageServiceFactory::GetInstance();
-#if !BUILDFLAG(IS_ANDROID)
-  WebUIContentsPreloadManager::EnsureFactoryBuilt();
-#endif
 }
 
 void ChromeBrowserMainExtraPartsProfiles::PreProfileInit() {
