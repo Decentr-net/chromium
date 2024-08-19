@@ -921,7 +921,7 @@
 <translation id="1651008383952180276">باید همان گذرعبارت را دو بار وارد کنید</translation>
 <translation id="1651609627703324721">این برگه محتوای واقعیت مجازی را به هدست ارائه می‌دهد</translation>
 <translation id="1652326691684645429">فعال کردن «هم‌رسانی با اطراف»</translation>
-<translation id="1652862280638399816">‏برای استفاده از «مدیر گذرواژه» با macOS Keychain، برنامه Chromium را مجدداً راه‌اندازی کنید و دسترسی به Keychain را مجاز کنید. پس‌از راه‌اندازی مجدد، برگه‌هایتان دوباره باز می‌شوند.</translation>
+<translation id="1652862280638399816">‏برای استفاده از «مدیر گذرواژه» با macOS Keychain، برنامه Decentr را مجدداً راه‌اندازی کنید و دسترسی به Keychain را مجاز کنید. پس‌از راه‌اندازی مجدد، برگه‌هایتان دوباره باز می‌شوند.</translation>
 <translation id="1653958716132599769">برگه‌های مرتبط با گروه</translation>
 <translation id="1654580009054503925">مجاز به نمایش درخواست‌ها نیست</translation>
 <translation id="1654713139320245449">مقصدی برای پخش محتوا پیدا نشد. راهنمایی می‌خواهید؟</translation>
@@ -1212,7 +1212,7 @@
 <translation id="186594096341696655">کاهش نرخ</translation>
 <translation id="186612162884103683">«<ph name="EXTENSION" />» می‌تواند تصاویر، ویدئوها و فایل‌های صوتی را از مکان‌های انتخاب شده  بخوانید یا بنویسید.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> آماده تکمیل نصب است</translation>
-<translation id="1868553836791672080">‏بررسی گذرواژه در Chromium دردسترس نیست</translation>
+<translation id="1868553836791672080">‏بررسی گذرواژه در Decentr دردسترس نیست</translation>
 <translation id="1868617395637139709">‏از مکان برای سرویس‌ها و برنامه‌های Android استفاده کنید.</translation>
 <translation id="1869433484041798909">دکمه نشانک‌گذاری</translation>
 <translation id="1871098866036088250">‏باز کردن در مرورگر Chrome</translation>
@@ -1941,7 +1941,7 @@
 <translation id="2391805183137601570">‏باز کردن Steam</translation>
 <translation id="2392369802118427583">فعالسازی</translation>
 <translation id="2393136602862631930">‏راه‌اندازی <ph name="APP_NAME" /> در Chromebook</translation>
-<translation id="2393313392064891208">‏محتوای «شرایط Google ChromeOS Flex»</translation>
+<translation id="2393313392064891208">‏محتوای «شرایط DecentrOS Flex»</translation>
 <translation id="2395616325548404795"><ph name="DEVICE_TYPE" /> شما باموفقیت برای مدیریت شرکت ثبت شد اما نتوانست اطلاعات مکان و دارایی‌اش را ارسال کند. لطفاً این اطلاعات را به‌صورت دستی از کنسول سرپرستتان برای این دستگاه وارد کنید.</translation>
 <translation id="2396783860772170191">پین ۴ رقمی را وارد کنید (۹۹۹۹-۰۰۰۰)</translation>
 <translation id="2398546389094871088">‏پس‌از Powerwash دستگاه، نمایه‌های سیم‌کارت داخلی برداشته نخواهد شد. برای برداشتن دستی این نمایه‌ها، به <ph name="LINK_BEGIN" />تنظیمات تلفن همراه<ph name="LINK_END" /> بروید.</translation>
@@ -2003,7 +2003,7 @@
 <translation id="2434449159125086437">چاپگر راه‌اندازی نشد لطفاً پیکربندی را بررسی کنید و دوباره امتحان کنید.</translation>
 <translation id="2434758125294431199">انتخاب افرادی که می‌توانند با شما هم‌رسانی انجام دهند</translation>
 <translation id="2434915728183570229">اکنون می‌توانید برنامه‌های تلفنتان را مشاهده کنید</translation>
-<translation id="2435137177546457207">‏شرایط تکمیلی Google Chrome و ChromeOS Flex</translation>
+<translation id="2435137177546457207">‏شرایط تکمیلی Decentr و ChromeOS Flex</translation>
 <translation id="2435248616906486374">شبکه قطع شد</translation>
 <translation id="2435457462613246316">نمایش گذرواژه</translation>
 <translation id="2436385001956947090">کپی کردن پیوند</translation>
@@ -2992,7 +2992,7 @@
 <translation id="3151539355209957474">زمان شروع</translation>
 <translation id="3151786313568798007">جهت‌‌</translation>
 <translation id="3152356229013609796">مشاهده، رد کردن، و پاسخ دادن به اعلان‌های تلفن</translation>
-<translation id="3155163173539279776">‏اجرای مجدد Chromium</translation>
+<translation id="3155163173539279776">‏اجرای مجدد Decentr</translation>
 <translation id="3157387275655328056">افزودن به فهرست خواندن</translation>
 <translation id="3157931365184549694">بازیابی</translation>
 <translation id="3158033540161634471">ثبت اثرانگشت</translation>
@@ -3874,7 +3874,7 @@
 <translation id="3798632811625902122">دستگاه بلوتوث <ph name="DEVICE" /> برای مرتبط‌سازی به اجازه نیاز دارد.</translation>
 <translation id="3798670284305777884">بلندگو (داخلی)</translation>
 <translation id="3799128412641261490">تنظیمات دسترسی کلیدی</translation>
-<translation id="3800828618615365228">‏شرایط تکمیلی Google Chrome و ChromeOS</translation>
+<translation id="3800828618615365228">‏شرایط تکمیلی Decentr و ChromeOS</translation>
 <translation id="3800898876950197674">برای مجاز کردن این افزونه، گذرواژه‌تان را وارد کنید.</translation>
 <translation id="3802486193901166966">این افزونه به اجازه خاصی نیاز ندارد و هیچ‌گونه دسترسی اضافی به سایت ندارد</translation>
 <translation id="380329542618494757">نام</translation>
@@ -3896,7 +3896,7 @@
 <translation id="3810973564298564668">مدیریت</translation>
 <translation id="381202950560906753">افزودن دستگاه دیگر</translation>
 <translation id="3812525830114410218">گواهی نادرست</translation>
-<translation id="3813296892522778813">‏اگر نمی‌توانید چیزی را که می‌خواهید پیدا کنید،‌ به <ph name="BEGIN_LINK_CHROMIUM" />راهنمای Google Chrome‏<ph name="END_LINK_CHROMIUM" /> بروید</translation>
+<translation id="3813296892522778813">‏اگر نمی‌توانید چیزی را که می‌خواهید پیدا کنید،‌ به <ph name="BEGIN_LINK_CHROMIUM" />راهنمای Decentr‏<ph name="END_LINK_CHROMIUM" /> بروید</translation>
 <translation id="3813358687923336574">زبان استفاده‌شده برای ترجمه صفحات و «پاسخ‌های سریع»</translation>
 <translation id="3813458570141926987">‏فهرست موضوعاتی که Chrome براساس سابقه مرور اخیر شما برآورد کرده است</translation>
 <translation id="3814529970604306954">حساب محل تحصیل</translation>
@@ -4339,7 +4339,7 @@
 <translation id="4132969033912447558">ازسرگیری <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">برای تغییر دادن گذرواژه، برنامه را باز کنید</translation>
 <translation id="4134838386867070505">مرحله ۱ از ۴: شرح مشکل</translation>
-<translation id="4135746311382563554">‏شرایط خدمات تکمیلی Google Chrome و ChromeOS</translation>
+<translation id="4135746311382563554">‏شرایط خدمات تکمیلی Decentr و ChromeOS</translation>
 <translation id="4136203100490971508">«نور شب» هنگام طلوع آفتاب به‌طور خودکار خاموش می‌شود</translation>
 <translation id="41365691917097717">‏با ادامه دادن، اشکال‌زدایی ADB (پل اشکال‌زدایی Android) برای ایجاد و آزمایش برنامه‌های Android فعال می‌شود. توجه داشته باشید که این کنش نصب برنامه‌های Android را که Google تأیید نکرده است مجاز می‌کند و برای غیرفعال شدن به بازنشانی کارخانه‌ای نیاز دارد.</translation>
 <translation id="4137923333452716643">نوشتاری را که می‌خواهید در «حالت مطالعه» باز شود برجسته کنید</translation>
@@ -5362,7 +5362,7 @@
 <translation id="4918134162946436591">نمایش همپوشانی خوانایاری</translation>
 <translation id="4918762404810341788">کپی و باز کردن</translation>
 <translation id="4921348630401250116">نوشتار به گفتار</translation>
-<translation id="4922104989726031751">‏برای استفاده از «مدیر گذرواژه» در سیستم‌عامل خود، برنامه Chromium را مجدداً راه‌اندازی کنید و دسترسی به مدیر گذرواژه رایانه‌تان را مجاز کنید. پس‌از راه‌اندازی مجدد، برگه‌هایتان دوباره باز می‌شوند.</translation>
+<translation id="4922104989726031751">‏برای استفاده از «مدیر گذرواژه» در سیستم‌عامل خود، برنامه Decentr را مجدداً راه‌اندازی کنید و دسترسی به مدیر گذرواژه رایانه‌تان را مجاز کنید. پس‌از راه‌اندازی مجدد، برگه‌هایتان دوباره باز می‌شوند.</translation>
 <translation id="492299503953721473">‏حذف برنامه‌های Android</translation>
 <translation id="492363500327720082">درحال حذف نصب <ph name="APP_NAME" />...</translation>
 <translation id="4923977675318667854">نمایش گروه‌های برگه</translation>
@@ -7204,7 +7204,7 @@
 <translation id="6314819609899340042">ویژگی‌های رفع اشکال را با موفقیت در این دستگاه <ph name="IDS_SHORT_PRODUCT_NAME" /> فعال کردید.</translation>
 <translation id="6315170314923504164">صدا</translation>
 <translation id="6315493146179903667">آوردن همه به جلو</translation>
-<translation id="6316432269411143858">‏محتوای «شرایط Google ChromeOS»</translation>
+<translation id="6316432269411143858">‏محتوای «شرایط DecentrOS»</translation>
 <translation id="6317369057005134371">در انتظار پنجره برنامه ...</translation>
 <translation id="6318125393809743217">‏فایل policies.json به‌همراه پیکربندی‌های خط‌مشی اضافه شود.</translation>
 <translation id="6318407754858604988">بارگیری شروع شد</translation>
@@ -7436,7 +7436,7 @@
 <translation id="6511607461419653612">‏Chromebook را بازراه‌اندازی کنید و دوباره امتحان کنید</translation>
 <translation id="6511827214781912955">توصیه می‌کنیم <ph name="FILENAME" /> را حذف کنید تا افراد دیگری که از این دستگاه استفاده می‌کنند نتوانند گذرواژه‌هایتان را ببینند</translation>
 <translation id="6512759338201777379">تصویر تولیدشده <ph name="INDEX" /> از <ph name="SUBJECT" />، با حال‌وهوای <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">‏اگر به شبکه دیگری وصل نباشید Google Chrome از داده‌های تلفن همراه استفاده خواهد کرد.</translation>
+<translation id="6513247462497316522">‏اگر به شبکه دیگری وصل نباشید Decentr از داده‌های تلفن همراه استفاده خواهد کرد.</translation>
 <translation id="6514010653036109809">دستگاه دردسترس:</translation>
 <translation id="6517227424170598783">میان‌بر «<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />» برداشته شود؟</translation>
 <translation id="6517382055541687102">دستگاه انتخاب‌شده به <ph name="DEVICE_NAME" /> تغییر کرد</translation>
@@ -8321,7 +8321,7 @@
 <translation id="7180611975245234373">بازآوری</translation>
 <translation id="7180865173735832675">سفارشی کردن</translation>
 <translation id="7181117767881540376">&amp;پنهان کردن نوار نشانک‌ها</translation>
-<translation id="7181329571386134105">‏برای اینکه <ph name="CHILD_NAME" /> بعداً بتواند افزونه‌ها را بدون تأیید شما نصب کند، برنامه Family Link را در دستگاهتان باز کنید و تنظیمات Google Chrome ‏<ph name="CHILD_NAME" /> را به‌روز کنید.</translation>
+<translation id="7181329571386134105">‏برای اینکه <ph name="CHILD_NAME" /> بعداً بتواند افزونه‌ها را بدون تأیید شما نصب کند، برنامه Family Link را در دستگاهتان باز کنید و تنظیمات Decentr ‏<ph name="CHILD_NAME" /> را به‌روز کنید.</translation>
 <translation id="7182051712900867547">استفاده از حسابی دیگر</translation>
 <translation id="7182063559013288142">نقطه اتصال فوری</translation>
 <translation id="7182791023900310535">انتقال گذرواژه</translation>
@@ -10213,7 +10213,7 @@
 <translation id="855604308879080518">‏به برنامه‌های Android اجازه دهید به دستگاه‌های USB در این Chromebook دسترسی داشته باشند. هربار دستگاه USB را وصل کنید، اجازه درخواست خواهد شد. هرکدام از برنامه‌های Android به‌صورت جداگانه اجازه‌های جانبی درخواست خواهند کرد.</translation>
 <translation id="8557022314818157177">کلید ایمنی را تازمانی‌که اثرانگشت ثبت شود، لمس کنید</translation>
 <translation id="8557100046150195444">‏برای ادامه دادن، از Touch ID استفاده کنید</translation>
-<translation id="8557180006508471423">‏روشن کردن «Google Chrome» در خدمات مکان در Mac</translation>
+<translation id="8557180006508471423">‏روشن کردن «Decentr» در خدمات مکان در Mac</translation>
 <translation id="8557856025359704738">بارگیری بعدی در تاریخ <ph name="NEXT_DATE_DOWNLOAD" /> انجام می‌شود.</translation>
 <translation id="8558281414737757274">‏گذرواژه «حساب Google»</translation>
 <translation id="8559858985063901027">گذرکلیدها</translation>

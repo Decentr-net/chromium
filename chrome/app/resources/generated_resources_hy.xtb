@@ -924,7 +924,7 @@
 <translation id="1651008383952180276">Դուք պետք է երկու անգամ մուտքագրեք միևնույն անցաբառը</translation>
 <translation id="1651609627703324721">Այս ներդիրը VR բովանդակություն է հեռարձակում ակնոցին</translation>
 <translation id="1652326691684645429">Միացնել մոտակա սարքերի հետ փոխանակումը</translation>
-<translation id="1652862280638399816">Google գաղտնաբառերի կառավարիչը macOS Keychain-ի միջոցով օգտագործելու համար վերագործարկեք Chromium-ը և թույլատրեք Keychain-ի օգտագործումը։ Ձեր ներդիրները կբացվեն վերագործարկումից հետո։</translation>
+<translation id="1652862280638399816">Google գաղտնաբառերի կառավարիչը macOS Keychain-ի միջոցով օգտագործելու համար վերագործարկեք Decentr-ը և թույլատրեք Keychain-ի օգտագործումը։ Ձեր ներդիրները կբացվեն վերագործարկումից հետո։</translation>
 <translation id="1653958716132599769">Խմբավորել առնչվող ներդիրները</translation>
 <translation id="1654580009054503925">Կայքերին չի թույլատրվում հարցումներ ցուցադրել</translation>
 <translation id="1654713139320245449">Հեռարձակման համար սարքեր չեն գտնվել։ Օգնության կարի՞ք ունեք։</translation>
@@ -1207,7 +1207,7 @@
 <translation id="186594096341696655">Նվազեցնել հաճախականությունը</translation>
 <translation id="186612162884103683">«<ph name="EXTENSION" />» ընդլայնումը կարող է նշված պանակներում կարդալ և գրել պատկերները, տեսանյութերը և ձայնային ֆայլերը:</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" />-ը պատրաստ է ավարտել տեղադրումը</translation>
-<translation id="1868553836791672080">Գաղտնաբառերի ստուգումը հասանելի չէ Chromium-ում</translation>
+<translation id="1868553836791672080">Գաղտնաբառերի ստուգումը հասանելի չէ Decentr-ում</translation>
 <translation id="1868617395637139709">Որոշել տեղադրությունը Android-ի հավելվածներից և ծառայություններից օգտվելիս</translation>
 <translation id="1869433484041798909">Էջանշման կոճակ</translation>
 <translation id="1871098866036088250">Բացել Chrome դիտարկիչում</translation>
@@ -1933,7 +1933,7 @@
 <translation id="2391805183137601570">Բացել Steam-ը</translation>
 <translation id="2392369802118427583">Ակտիվացնել</translation>
 <translation id="2393136602862631930">Տեղադրեք <ph name="APP_NAME" /> հավելվածը ձեր Chromebook սարքում</translation>
-<translation id="2393313392064891208">Google ChromeOS Flex-ի օգտագործման պայմանների ամբողջական տեքստը</translation>
+<translation id="2393313392064891208">DecentrOS Flex-ի օգտագործման պայմանների ամբողջական տեքստը</translation>
 <translation id="2395616325548404795"><ph name="DEVICE_TYPE" /> սարքը բարեհաջող գրանցվել է ձեռնարկության կողմից կառավարման համար, սակայն չի հաջողվել ուղարկել սարքի տվյալներն և տեղադրությունը: Ձեռքով մուտքագրեք սարքի տեղեկությունները Admin console-ում:</translation>
 <translation id="2396783860772170191">Մուտքագրեք քառանիշ կոդը (0000-9999)</translation>
 <translation id="2398546389094871088">Powerwash գործառույթն օգտագործելու դեպքում eSIM-ի պրոֆիլները չեն հեռացվում։ Դա հնարավոր է անել ձեռքով <ph name="LINK_BEGIN" />շարժական սարքերի համար կարգավորումներում<ph name="LINK_END" />։</translation>
@@ -1995,7 +1995,7 @@
 <translation id="2434449159125086437">Չհաջողվեց կարգավորել տպիչը: Ստուգեք կարգավորումները և նորից փորձեք:</translation>
 <translation id="2434758125294431199">Նշեք, թե ով կարող է կիսվել ձեզ հետ ֆայլերով</translation>
 <translation id="2434915728183570229">Այժմ դուք կարող եք դիտել ձեր հեռախոսի հավելվածները</translation>
-<translation id="2435137177546457207">Google Chrome-ի և ChromeOS Flex-ի լրացուցիչ պայմաններ</translation>
+<translation id="2435137177546457207">Decentr-ի և ChromeOS Flex-ի լրացուցիչ պայմաններ</translation>
 <translation id="2435248616906486374">Ցանցն անջատված է</translation>
 <translation id="2435457462613246316">Ցույց տալ գաղտնաբառը</translation>
 <translation id="2436385001956947090">Պատճենել &amp;հղումը</translation>
@@ -2982,7 +2982,7 @@
 <translation id="3151539355209957474">Մեկնարկի ժամը</translation>
 <translation id="3151786313568798007">Էկրանի դիրքը</translation>
 <translation id="3152356229013609796">Դիտեք և անտեսեք հեռախոսի ծանուցումները, ինչպես նաև պատասխանեք դրանց</translation>
-<translation id="3155163173539279776">Chromium-ի վերագործարկում</translation>
+<translation id="3155163173539279776">Decentr-ի վերագործարկում</translation>
 <translation id="3157387275655328056">Ավելացնել ընթերցանության ցանկում</translation>
 <translation id="3157931365184549694">Վերականգնել</translation>
 <translation id="3158033540161634471">Մատնահետքի կարգավորում</translation>
@@ -3862,7 +3862,7 @@
 <translation id="3798632811625902122">«<ph name="DEVICE" />» Bluetooth սարքը զուգակցման թույլտվություն է խնդրում։</translation>
 <translation id="3798670284305777884">Բարձրախոս (ներքին)</translation>
 <translation id="3799128412641261490">Switch Access-ի կարգավորումներ</translation>
-<translation id="3800828618615365228">Google Chrome-ի և ChromeOS-ի լրացուցիչ պայմաններ</translation>
+<translation id="3800828618615365228">Decentr-ի և ChromeOS-ի լրացուցիչ պայմաններ</translation>
 <translation id="3800898876950197674">Ընդլայնումը թույլատրելու համար մուտքագրեք ձեր գաղտնաբառը։</translation>
 <translation id="3802486193901166966">Այս ընդլայնումը հատուկ թույլտվություն չի պահանջում և չունի կայքերի լրացուցիչ հասանելիություն</translation>
 <translation id="380329542618494757">Անուն</translation>
@@ -3884,7 +3884,7 @@
 <translation id="3810973564298564668">Կառավարել</translation>
 <translation id="381202950560906753">Նոր մատնահետք</translation>
 <translation id="3812525830114410218">Սխալ վկայական</translation>
-<translation id="3813296892522778813">Եթե չեք գտնում ձեր ուզածը, այցելեք <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome-ի օգնության էջ<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Եթե չեք գտնում ձեր ուզածը, այցելեք <ph name="BEGIN_LINK_CHROMIUM" />Decentr-ի օգնության էջ<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Էջերի թարգմանության և արագ պատասխանների համար օգտագործվող լեզուն</translation>
 <translation id="3813458570141926987">Թեմաները, որոնք որոշվել են Chrome-ի կողմից ձեր վերջին այցելությունների պատմության հիման վրա</translation>
 <translation id="3814529970604306954">Ուսումնական հաշիվ</translation>
@@ -4327,7 +4327,7 @@
 <translation id="4132969033912447558">Վերսկսել <ph name="FILE_NAME" /> ֆայլի ներբեռնումը</translation>
 <translation id="4133076602192971179">Գաղտնաբառը փոխելու համար բացեք հավելվածը</translation>
 <translation id="4134838386867070505">Քայլ 1/4․ Նկարագրեք խնդիրը</translation>
-<translation id="4135746311382563554">Google Chrome-ի և ChromeOS-ի օգտագործման լրացուցիչ պայմաններ</translation>
+<translation id="4135746311382563554">Decentr-ի և ChromeOS-ի օգտագործման լրացուցիչ պայմաններ</translation>
 <translation id="4136203100490971508">Լույսը բացվելուն պես գիշերային ռեժիմը ավտոմատ կանջատվի</translation>
 <translation id="41365691917097717">Եթե շարունակեք, ADB վրիպազերծումը կմիանա և Android-ի համար հավելվածներ կստեղծվեն ու կփորձարկվեն: Նկատի ունեցեք, որ այս գործողությունը թույլ է տալիս այն Android հավելվածների տեղադրումը, որոնք չեն ստուգվել Google-ի կողմից։ Դրա համար անհրաժեշտ է վերականգնել սարքի գործարանային կարգավորումները։</translation>
 <translation id="4137923333452716643">Ընդգծեք տեքստը, որն ուզում եք բացել ընթերցման ռեժիմում</translation>
@@ -5351,7 +5351,7 @@
 <translation id="4918134162946436591">Ցույց տալ հուշումի վրադրումը</translation>
 <translation id="4918762404810341788">Պատճենել և բացել</translation>
 <translation id="4921348630401250116">Տեքստի հնչեցում</translation>
-<translation id="4922104989726031751">Գաղտնաբառերի կառավարիչը ձեր օպերացիոն համակարգով օգտագործելու համար վերագործարկեք Chromium-ը և թույլատրեք օգտագործել ձեր համակարգչի գաղտնաբառերի կառավարիչը։ Ձեր ներդիրները կբացվեն վերագործարկումից հետո։</translation>
+<translation id="4922104989726031751">Գաղտնաբառերի կառավարիչը ձեր օպերացիոն համակարգով օգտագործելու համար վերագործարկեք Decentr-ը և թույլատրեք օգտագործել ձեր համակարգչի գաղտնաբառերի կառավարիչը։ Ձեր ներդիրները կբացվեն վերագործարկումից հետո։</translation>
 <translation id="492299503953721473">Հեռացնել Android հավելվածները</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" /> հավելվածը հեռացվում է…</translation>
 <translation id="4923977675318667854">Ցուցադրել ներդիրների խմբերը</translation>
@@ -7189,7 +7189,7 @@
 <translation id="6314819609899340042"><ph name="IDS_SHORT_PRODUCT_NAME" /> սարքի վրիպազերծման գործառույթները բարեհաջող միացվել են:</translation>
 <translation id="6315170314923504164">Ձայնային</translation>
 <translation id="6315493146179903667">Bring All to Front</translation>
-<translation id="6316432269411143858">Google ChromeOS-ի օգտագործման պայմանների ամբողջական տեքստը</translation>
+<translation id="6316432269411143858">DecentrOS-ի օգտագործման պայմանների ամբողջական տեքստը</translation>
 <translation id="6317369057005134371">Հավելվածի գործարկում…</translation>
 <translation id="6318125393809743217">Ներառել policies.json ֆայլը կանոնների կարգավորումների հետ։</translation>
 <translation id="6318407754858604988">Ներբեռնումը սկսվեց</translation>
@@ -7421,7 +7421,7 @@
 <translation id="6511607461419653612">Վերագործարկեք Chromebook-ը և նորից փորձեք</translation>
 <translation id="6511827214781912955">Խորհուրդ ենք տալիս ջնջել <ph name="FILENAME" /> ֆայլը, որպեսզի այս սարքի մյուս օգտատերերը չկարողանան տեսնել ձեր գաղտնաբառերը</translation>
 <translation id="6512759338201777379">Գեներացված պատկեր <ph name="INDEX" />՝ <ph name="SUBJECT" /> թեմայով, <ph name="MOOD" /> տրամադրությամբ։</translation>
-<translation id="6513247462497316522">Եթե կապակցված չեք այլ ցանցի, Google Chrome-ը կօգտագործի տվյալների փոխանցման բջջային ցանցը:</translation>
+<translation id="6513247462497316522">Եթե կապակցված չեք այլ ցանցի, Decentr-ը կօգտագործի տվյալների փոխանցման բջջային ցանցը:</translation>
 <translation id="6514010653036109809">Հասանելի սարք՝</translation>
 <translation id="6517227424170598783">Հեռացնե՞լ «<ph name="SHORTCUT_NAME" /> — <ph name="APP_NAME" />» դյուրանցումը</translation>
 <translation id="6517382055541687102">Ընտրված սարքը փոխվեց հետևյալի՝ <ph name="DEVICE_NAME" /></translation>
@@ -8305,7 +8305,7 @@
 <translation id="7180611975245234373">Թարմացնել</translation>
 <translation id="7180865173735832675">Հարմարեցնել</translation>
 <translation id="7181117767881540376">&amp;Թաքցնել էջանիշների գոտին</translation>
-<translation id="7181329571386134105">Որպեսզի <ph name="CHILD_NAME" />-ին թույլ տաք հետագայում տեղադրել ընդլայնումներ առանց ձեր կողմից հաստատման, ձեր սարքում բացեք Family Link հավելվածը և թարմացրեք <ph name="CHILD_NAME" />-ի Google Chrome-ի կարգավորումները։</translation>
+<translation id="7181329571386134105">Որպեսզի <ph name="CHILD_NAME" />-ին թույլ տաք հետագայում տեղադրել ընդլայնումներ առանց ձեր կողմից հաստատման, ձեր սարքում բացեք Family Link հավելվածը և թարմացրեք <ph name="CHILD_NAME" />-ի Decentr-ի կարգավորումները։</translation>
 <translation id="7182051712900867547">Օգտագործել այլ հաշիվ</translation>
 <translation id="7182063559013288142">Ակնթարթային թեժ կետ</translation>
 <translation id="7182791023900310535">Գաղտնաբառի տեղափոխում</translation>
@@ -10196,7 +10196,7 @@
 <translation id="855604308879080518">Android հավելվածներին հասանելի դարձրեք USB սարքերն այս Chromebook-ում։ Թույլտվության հարցումը կարվի ամեն անգամ, երբ դուք USB սարք միացնեք։ Առանձին Android հավելվածներ կհայցեն լրացուցիչ թույլտվություններ։</translation>
 <translation id="8557022314818157177">Հպեք անվտանգության բանալուն և պահեք, մինչև ձեր մատնահետքն ավելացվի:</translation>
 <translation id="8557100046150195444">Շարունակելու համար օգտագործեք Touch ID</translation>
-<translation id="8557180006508471423">Միացրեք «Google Chrome»-ը ձեր Mac համակարգչի տեղորոշման ծառայություններում</translation>
+<translation id="8557180006508471423">Միացրեք «Decentr»-ը ձեր Mac համակարգչի տեղորոշման ծառայություններում</translation>
 <translation id="8557856025359704738">Հաջորդ ներբեռնումը կլինի հետևյալ ամսաթվին՝ <ph name="NEXT_DATE_DOWNLOAD" />։</translation>
 <translation id="8558281414737757274">Google հաշվի գաղտնաբառ</translation>
 <translation id="8559858985063901027">Մուտքի բանալիներ</translation>

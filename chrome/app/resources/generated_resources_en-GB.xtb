@@ -923,7 +923,7 @@ Permissions that you've already given to apps may apply to this account. You can
 <translation id="1651008383952180276">You must enter the same passphrase twice</translation>
 <translation id="1651609627703324721">This tab is presenting VR content to a headset</translation>
 <translation id="1652326691684645429">Enable Nearby Share</translation>
-<translation id="1652862280638399816">To use Password Manager with macOS Keychain, relaunch Chromium and allow Keychain access. Your tabs will reopen after relaunching.</translation>
+<translation id="1652862280638399816">To use Password Manager with macOS Keychain, relaunch Decentr and allow Keychain access. Your tabs will reopen after relaunching.</translation>
 <translation id="1653958716132599769">Group related tabs</translation>
 <translation id="1654580009054503925">Not allowed to show requests</translation>
 <translation id="1654713139320245449">No cast destinations found. Need any help?</translation>
@@ -1215,7 +1215,7 @@ Permissions that you've already given to apps may apply to this account. You can
 <translation id="186594096341696655">Decrease rate</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" can read and write images, video and sound files in the ticked locations.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> is ready to complete your installation</translation>
-<translation id="1868553836791672080">Password check is not available in Chromium</translation>
+<translation id="1868553836791672080">Password check is not available in Decentr</translation>
 <translation id="1868617395637139709">Use location for Android apps and services.</translation>
 <translation id="1869433484041798909">Bookmark button</translation>
 <translation id="1871098866036088250">Open in Chrome browser</translation>
@@ -1944,7 +1944,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="2391805183137601570">Open Steam</translation>
 <translation id="2392369802118427583">Activate</translation>
 <translation id="2393136602862631930">Set up <ph name="APP_NAME" /> on your Chromebook</translation>
-<translation id="2393313392064891208">Google Chrome OS Flex terms contents</translation>
+<translation id="2393313392064891208">Decentr OS Flex terms contents</translation>
 <translation id="2395616325548404795">Your <ph name="DEVICE_TYPE" /> has successfully been enrolled for enterprise management, but failed to send its asset and location information. Please manually enter this information from your Admin console for this device.</translation>
 <translation id="2396783860772170191">Enter 4-digit pin (0000-9999)</translation>
 <translation id="2398546389094871088">Powerwashing your device won't remove your eSIM profiles. Go to <ph name="LINK_BEGIN" />Mobile settings<ph name="LINK_END" /> to manually remove these profiles.</translation>
@@ -2006,7 +2006,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="2434449159125086437">Unable to set up printer. Please check configuration and try again.</translation>
 <translation id="2434758125294431199">Select who can share with you</translation>
 <translation id="2434915728183570229">You can now view your phone's apps</translation>
-<translation id="2435137177546457207">Google Chrome and Chrome OS Flex additional terms</translation>
+<translation id="2435137177546457207">Decentr and Chrome OS Flex additional terms</translation>
 <translation id="2435248616906486374">Network disconnected</translation>
 <translation id="2435457462613246316">Show password</translation>
 <translation id="2436385001956947090">Copy &amp;link</translation>
@@ -2995,7 +2995,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="3151539355209957474">Start Time</translation>
 <translation id="3151786313568798007">Orientation</translation>
 <translation id="3152356229013609796">View, dismiss and reply to your phone's notifications</translation>
-<translation id="3155163173539279776">Relaunch Chromium</translation>
+<translation id="3155163173539279776">Relaunch Decentr</translation>
 <translation id="3157387275655328056">Add to reading list</translation>
 <translation id="3157931365184549694">Restore</translation>
 <translation id="3158033540161634471">Set up your fingerprint</translation>
@@ -3877,7 +3877,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="3798632811625902122">Bluetooth device <ph name="DEVICE" /> would like permission to pair.</translation>
 <translation id="3798670284305777884">Speaker (internal)</translation>
 <translation id="3799128412641261490">Switch Access settings</translation>
-<translation id="3800828618615365228">Google Chrome and Chrome OS additional terms</translation>
+<translation id="3800828618615365228">Decentr and Chrome OS additional terms</translation>
 <translation id="3800898876950197674">To allow this extension, enter your password.</translation>
 <translation id="3802486193901166966">This extension requires no special permissions and has no additional site access</translation>
 <translation id="380329542618494757">Name</translation>
@@ -3899,7 +3899,7 @@ You can manage this account’s settings by installing the Family Link app on yo
 <translation id="3810973564298564668">Manage</translation>
 <translation id="381202950560906753">Add another</translation>
 <translation id="3812525830114410218">Bad certificate</translation>
-<translation id="3813296892522778813">Go to <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome help<ph name="END_LINK_CHROMIUM" /> if you can't find what you're looking for</translation>
+<translation id="3813296892522778813">Go to <ph name="BEGIN_LINK_CHROMIUM" />Decentr help<ph name="END_LINK_CHROMIUM" /> if you can't find what you're looking for</translation>
 <translation id="3813358687923336574">Language used for translating pages and Quick Answers</translation>
 <translation id="3813458570141926987">List of topics estimated by Chrome based on your recent browsing history</translation>
 <translation id="3814529970604306954">School account</translation>
@@ -4342,7 +4342,7 @@ This can include information about installed software, files, your browser and t
 <translation id="4132969033912447558">Resume <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">Open the app to change your password</translation>
 <translation id="4134838386867070505">Step 1 of 4: Describe the issue</translation>
-<translation id="4135746311382563554">Google Chrome and ChromeOS additional Terms of Service</translation>
+<translation id="4135746311382563554">Decentr and ChromeOS additional Terms of Service</translation>
 <translation id="4136203100490971508">Night Light will turn off automatically at sunrise</translation>
 <translation id="41365691917097717">Continuing will enable ADB debugging for creating and testing Android apps. Note that this action allows installation of Android apps that haven't been verified by Google, and requires a factory reset to disable.</translation>
 <translation id="4137923333452716643">Highlight the text that you want to open in reading mode</translation>
@@ -5365,7 +5365,7 @@ Use Ctrl + Alt + Brightness down to zoom out.</translation>
 <translation id="4918134162946436591">Show hint overlay</translation>
 <translation id="4918762404810341788">Copy and open</translation>
 <translation id="4921348630401250116">Text-to-speech</translation>
-<translation id="4922104989726031751">To use Password Manager with your operating system, relaunch Chromium and allow access to your computer's password manager. Your tabs will reopen after relaunching.</translation>
+<translation id="4922104989726031751">To use Password Manager with your operating system, relaunch Decentr and allow access to your computer's password manager. Your tabs will reopen after relaunching.</translation>
 <translation id="492299503953721473">Remove Android apps</translation>
 <translation id="492363500327720082">Uninstalling <ph name="APP_NAME" />…</translation>
 <translation id="4923977675318667854">Show tab groups</translation>
@@ -7207,7 +7207,7 @@ Permissions that you've already given to websites and apps may apply to this acc
 <translation id="6314819609899340042">You have successfully enabled debugging features on this <ph name="IDS_SHORT_PRODUCT_NAME" /> device.</translation>
 <translation id="6315170314923504164">Voice</translation>
 <translation id="6315493146179903667">Bring All to Front</translation>
-<translation id="6316432269411143858">Google Chrome OS terms contents</translation>
+<translation id="6316432269411143858">Decentr OS terms contents</translation>
 <translation id="6317369057005134371">Waiting for application window...</translation>
 <translation id="6318125393809743217">Include a policies.json file with policy configurations.</translation>
 <translation id="6318407754858604988">Download started</translation>
@@ -7439,7 +7439,7 @@ Permissions that you've already given to websites and apps may apply to this acc
 <translation id="6511607461419653612">Restart your Chromebook and try again</translation>
 <translation id="6511827214781912955">Consider deleting <ph name="FILENAME" />, so that others who use this device can't see your passwords</translation>
 <translation id="6512759338201777379">Generated image <ph name="INDEX" /> of <ph name="SUBJECT" />, with <ph name="MOOD" /> mood.</translation>
-<translation id="6513247462497316522">Google Chrome will use mobile data if you're not connected to another network.</translation>
+<translation id="6513247462497316522">Decentr will use mobile data if you're not connected to another network.</translation>
 <translation id="6514010653036109809">Available device:</translation>
 <translation id="6517227424170598783">Remove '<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />' shortcut?</translation>
 <translation id="6517382055541687102">The selected device changed to <ph name="DEVICE_NAME" /></translation>
@@ -8322,7 +8322,7 @@ You have # more compromised passwords. Google Password Manager recommends checki
 <translation id="7180611975245234373">Refresh</translation>
 <translation id="7180865173735832675">Customise</translation>
 <translation id="7181117767881540376">Hide bookmarks bar</translation>
-<translation id="7181329571386134105">To allow <ph name="CHILD_NAME" /> to install future extensions without your approval, open the Family Link app on your device and update <ph name="CHILD_NAME" />’s Google Chrome settings.</translation>
+<translation id="7181329571386134105">To allow <ph name="CHILD_NAME" /> to install future extensions without your approval, open the Family Link app on your device and update <ph name="CHILD_NAME" />’s Decentr settings.</translation>
 <translation id="7182051712900867547">Use a different account</translation>
 <translation id="7182063559013288142">Instant hotspot</translation>
 <translation id="7182791023900310535">Move your password</translation>
@@ -10215,7 +10215,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="855604308879080518">Let Android apps access USB devices on this Chromebook. Permission will be requested each time that you plug in a USB device. Individual Android apps will ask for additional permissions.</translation>
 <translation id="8557022314818157177">Keep touching your security key until your fingerprint is captured</translation>
 <translation id="8557100046150195444">Touch ID to continue</translation>
-<translation id="8557180006508471423">Turn on 'Google Chrome' in Location Services on your Mac</translation>
+<translation id="8557180006508471423">Turn on 'Decentr' in Location Services on your Mac</translation>
 <translation id="8557856025359704738">Next download is at <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Google Account password</translation>
 <translation id="8559858985063901027">Passkeys</translation>

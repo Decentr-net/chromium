@@ -925,7 +925,7 @@
 <translation id="1651008383952180276">يجب إدخال عبارة المرور نفسها مرتين</translation>
 <translation id="1651609627703324721">تعرض علامة التبويب هذه محتوى واقع افتراضي على سماعة رأس.</translation>
 <translation id="1652326691684645429">تفعيل ميزة "المشاركة عن قرب"</translation>
-<translation id="1652862280638399816">‏لاستخدام "مدير كلمات المرور" مع تطبيق macOS Keychain، يُرجى إعادة تشغيل Chromium والسماح بالوصول إلى التطبيق. وستتم إعادة فتح علامات التبويب بعد إعادة التشغيل.</translation>
+<translation id="1652862280638399816">‏لاستخدام "مدير كلمات المرور" مع تطبيق macOS Keychain، يُرجى إعادة تشغيل Decentr والسماح بالوصول إلى التطبيق. وستتم إعادة فتح علامات التبويب بعد إعادة التشغيل.</translation>
 <translation id="1653958716132599769">تجميع علامات التبويب ذات الصلة</translation>
 <translation id="1654580009054503925">غير مسموح للإضافة بعرض الطلبات</translation>
 <translation id="1654713139320245449">لم يتم العثور على وجهات بثّ. هل تحتاج إلى مساعدة؟</translation>
@@ -1209,7 +1209,7 @@
 <translation id="186594096341696655">خفض المعدَّل</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" يمكنها قراءة ملفات الصور والفيديو والصوت وكتابتها في المواقع المحددة.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> جاهز لإكمال عملية التثبيت</translation>
-<translation id="1868553836791672080">‏لا تتوفّر ميزة "التحقُّق من كلمة المرور" في Chromium.</translation>
+<translation id="1868553836791672080">‏لا تتوفّر ميزة "التحقُّق من كلمة المرور" في Decentr.</translation>
 <translation id="1868617395637139709">‏استخدام الموقع الجغرافي لتطبيقات وخدمات Android</translation>
 <translation id="1869433484041798909">زر وضع إشارة مرجعية</translation>
 <translation id="1871098866036088250">‏فتح في متصفّح Chrome</translation>
@@ -1998,7 +1998,7 @@
 <translation id="2434449159125086437">تعذّر إعداد الطابعة. يُرجى التحقّق من الإعداد وإعادة المحاولة.</translation>
 <translation id="2434758125294431199">اختَر من يمكنه مشاركة الملفات مع جهازك.</translation>
 <translation id="2434915728183570229">يمكنك الآن الاطّلاع على تطبيقات هاتفك</translation>
-<translation id="2435137177546457207">‏الأحكام الإضافية لكلٍّ من متصفِّح Google Chrome ونظام التشغيل ChromeOS Flex</translation>
+<translation id="2435137177546457207">‏الأحكام الإضافية لكلٍّ من متصفِّح Decentr ونظام التشغيل ChromeOS Flex</translation>
 <translation id="2435248616906486374">تم قطع الاتصال بالشبكة</translation>
 <translation id="2435457462613246316">عرض كلمة المرور</translation>
 <translation id="2436385001956947090">نسخ &amp;الرابط</translation>
@@ -2987,7 +2987,7 @@
 <translation id="3151539355209957474">وقت البدء</translation>
 <translation id="3151786313568798007">الاتجاه</translation>
 <translation id="3152356229013609796">عرض إشعارات هاتفك وإغلاقها والردّ عليها</translation>
-<translation id="3155163173539279776">‏إعادة تشغيل Chromium</translation>
+<translation id="3155163173539279776">‏إعادة تشغيل Decentr</translation>
 <translation id="3157387275655328056">الإضافة إلى قائمة القراءة</translation>
 <translation id="3157931365184549694">استعادة</translation>
 <translation id="3158033540161634471">إعداد بصمة الإصبع</translation>
@@ -3829,7 +3829,7 @@
 <translation id="3771290962915251154">لقد تم إيقاف هذا الإعداد بسبب تفعيل "أدوات رقابة الأهل".</translation>
 <translation id="3771294271822695279">ملفات فيديو</translation>
 <translation id="3771851622616482156">سيتم تسجيل خروجك من هذا الموقع الإلكتروني، بما في ذلك المواقع الإلكترونية في علامات التبويب المفتوحة.</translation>
-<translation id="3772046291955677288">‏لقد قرأت <ph name="BEGIN_LINK1" />بنود خدمة Google<ph name="END_LINK1" /> و<ph name="BEGIN_LINK2" />بنود الخدمة الإضافية لكلٍّ من متصفّح Google Chrome ونظام التشغيل Chrome<ph name="END_LINK2" /> وأوافق عليها.</translation>
+<translation id="3772046291955677288">‏لقد قرأت <ph name="BEGIN_LINK1" />بنود خدمة Google<ph name="END_LINK1" /> و<ph name="BEGIN_LINK2" />بنود الخدمة الإضافية لكلٍّ من متصفّح Decentr ونظام التشغيل Chrome<ph name="END_LINK2" /> وأوافق عليها.</translation>
 <translation id="3774059845329307709">رقم تسلسلي</translation>
 <translation id="3774166835015494435">الصور والإشعارات الحديثة</translation>
 <translation id="3775432569830822555">‏شهادة خادم بروتوكول SSL (طبقة المقابس الآمنة)</translation>
@@ -3870,7 +3870,7 @@
 <translation id="3798632811625902122">يطلب جهاز البلوتوث "<ph name="DEVICE" />" الحصول على إذن للإقران.</translation>
 <translation id="3798670284305777884">سماعة (داخلية)</translation>
 <translation id="3799128412641261490">إعدادات "الوصول عبر مفتاح تحكّم"</translation>
-<translation id="3800828618615365228">‏بنود الخدمة الإضافية لكلٍّ من متصفّح Google Chrome ونظام التشغيل Chrome</translation>
+<translation id="3800828618615365228">‏بنود الخدمة الإضافية لكلٍّ من متصفّح Decentr ونظام التشغيل Chrome</translation>
 <translation id="3800898876950197674">للسماح بهذه الإضافة، يجب إدخال كلمة المرور.</translation>
 <translation id="3802486193901166966">لا تتطلّب هذه الإضافة أذونات خاصة ولا تمتلك أذونات إضافية للوصول إلى المواقع الإلكترونية.</translation>
 <translation id="380329542618494757">الاسم</translation>
@@ -3892,7 +3892,7 @@
 <translation id="3810973564298564668">إدارة</translation>
 <translation id="381202950560906753">إضافة بصمة إصبع أخرى</translation>
 <translation id="3812525830114410218">شهادة سيئة</translation>
-<translation id="3813296892522778813">‏يمكنك الانتقال إلى <ph name="BEGIN_LINK_CHROMIUM" />مساعدة Google Chrome<ph name="END_LINK_CHROMIUM" /> إذا لم تتمكن من العثور عما تبحث عنه</translation>
+<translation id="3813296892522778813">‏يمكنك الانتقال إلى <ph name="BEGIN_LINK_CHROMIUM" />مساعدة Decentr<ph name="END_LINK_CHROMIUM" /> إذا لم تتمكن من العثور عما تبحث عنه</translation>
 <translation id="3813358687923336574">اللغة المستخدمة لترجمة الصفحات وميزة "معلومات سريعة"</translation>
 <translation id="3813458570141926987">‏تضم هذه القائمة المواضيع التي استنتَج Chrome اهتمامك بها استنادًا إلى سجلّ التصفُّح الأخير.</translation>
 <translation id="3814529970604306954">حساب المؤسسة التعليمية</translation>
@@ -3922,7 +3922,7 @@
 <translation id="3826440694796503677">‏لقد أوقف المشرف إمكانية إضافة المزيد من حسابات Google.</translation>
 <translation id="3827774300009121996">&amp;ملء الشاشة</translation>
 <translation id="3828029223314399057">بحث في الإشارات المرجعية</translation>
-<translation id="3828953470056652895">‏لقد قرأت <ph name="BEGIN_LINK1" />بنود خدمة Google<ph name="END_LINK1" /> و<ph name="BEGIN_LINK2" />بنود الخدمة الإضافية لكلٍّ من متصفّح Google Chrome ونظام التشغيل Chrome<ph name="END_LINK2" /> و<ph name="BEGIN_LINK3" />بنود خدمة Google Play<ph name="END_LINK3" /> وأوافق عليها.</translation>
+<translation id="3828953470056652895">‏لقد قرأت <ph name="BEGIN_LINK1" />بنود خدمة Google<ph name="END_LINK1" /> و<ph name="BEGIN_LINK2" />بنود الخدمة الإضافية لكلٍّ من متصفّح Decentr ونظام التشغيل Chrome<ph name="END_LINK2" /> و<ph name="BEGIN_LINK3" />بنود خدمة Google Play<ph name="END_LINK3" /> وأوافق عليها.</translation>
 <translation id="3829530269338026191">"<ph name="WINDOW_TITLE" />" - استخدام مرتفع للذاكرة - <ph name="MEMORY_VALUE" /></translation>
 <translation id="3829765597456725595">‏خادم مشاركة الملفات عبر بروتوكول SMB</translation>
 <translation id="3830470485672984938">استخدام مفتاح مرور آخر</translation>
@@ -4332,7 +4332,7 @@
 <translation id="4132969033912447558">استئناف تنزيل "<ph name="FILE_NAME" />"</translation>
 <translation id="4133076602192971179">فتح التطبيق لتغيير كلمة المرور</translation>
 <translation id="4134838386867070505">الخطوة 1 من 4: وصف المشكلة</translation>
-<translation id="4135746311382563554">‏بنود الخدمة الإضافية لكلٍ من متصفِّح Google Chrome ونظام التشغيل Chrome</translation>
+<translation id="4135746311382563554">‏بنود الخدمة الإضافية لكلٍ من متصفِّح Decentr ونظام التشغيل Chrome</translation>
 <translation id="4136203100490971508">سيتم إيقاف الإضاءة الليلية تلقائيًا عند شروق الشمس.</translation>
 <translation id="41365691917097717">‏ستؤدي المواصلة إلى تفعيل خيار "تصحيح الأخطاء عبر ADB" لإنشاء تطبيقات Android واختبارها. ويُرجى ملاحظة أن هذا الإجراء يتيح تثبيت تطبيقات Android لم تتحقَّق منها Google، ويتطلب أيضًا إعادة ضبط على الإعدادات الأصلية لإيقافه.</translation>
 <translation id="4137923333452716643">يجب تمييز النص الذي تريد عرضه في "وضع القراءة"</translation>
@@ -5355,7 +5355,7 @@
 <translation id="4918134162946436591">عرض تراكب التعديلات</translation>
 <translation id="4918762404810341788">النسخ والفتح</translation>
 <translation id="4921348630401250116">تحويل النص إلى كلام</translation>
-<translation id="4922104989726031751">‏لاستخدام "مدير كلمات المرور" مع نظام التشغيل، يُرجى إعادة تشغيل Chromium والسماح بالوصول إلى مدير كلمات المرور على جهاز الكمبيوتر. ستتم إعادة فتح علامات التبويب بعد إعادة التشغيل.</translation>
+<translation id="4922104989726031751">‏لاستخدام "مدير كلمات المرور" مع نظام التشغيل، يُرجى إعادة تشغيل Decentr والسماح بالوصول إلى مدير كلمات المرور على جهاز الكمبيوتر. ستتم إعادة فتح علامات التبويب بعد إعادة التشغيل.</translation>
 <translation id="492299503953721473">‏إزالة تطبيقات Android</translation>
 <translation id="492363500327720082">جارٍ إلغاء تثبيت <ph name="APP_NAME" />...</translation>
 <translation id="4923977675318667854">عرض مجموعات علامات التبويب</translation>
@@ -7429,7 +7429,7 @@
 <translation id="6511607461419653612">‏يُرجى إعادة تشغيل جهاز Chromebook وإعادة المحاولة.</translation>
 <translation id="6511827214781912955">ننصحك بحذف الملف "<ph name="FILENAME" />"، حتى لا يتمكّن مستخدمو هذا الجهاز الآخرون من الاطّلاع على كلمات مرورك.</translation>
 <translation id="6512759338201777379">تم إنشاء الصورة رقم <ph name="INDEX" /> بالعنوان "<ph name="SUBJECT" />" والحالة "<ph name="MOOD" />".</translation>
-<translation id="6513247462497316522">‏سيستخدم Google Chrome بيانات الجوال إذا لم تكن متصلاً بشبكة أخرى.</translation>
+<translation id="6513247462497316522">‏سيستخدم Decentr بيانات الجوال إذا لم تكن متصلاً بشبكة أخرى.</translation>
 <translation id="6514010653036109809">الجهاز المتاح:</translation>
 <translation id="6517227424170598783">هل تريد إزالة الاختصار "<ph name="SHORTCUT_NAME" /> - ‏<ph name="APP_NAME" />"؟</translation>
 <translation id="6517382055541687102">تم تغيير الجهاز المحدَّد إلى "<ph name="DEVICE_NAME" />"</translation>
@@ -8321,7 +8321,7 @@
 <translation id="7180611975245234373">إعادة التحميل</translation>
 <translation id="7180865173735832675">تخصيص</translation>
 <translation id="7181117767881540376">إخفاء شريط الإشارات</translation>
-<translation id="7181329571386134105">‏للسماح لـ "<ph name="CHILD_NAME" />" بتثبيت الإضافات المستقبلية بدون موافقتك، افتح تطبيق Family Link على جهازك وعدِّل إعدادات Google Chrome الخاصة بـ "<ph name="CHILD_NAME" />".</translation>
+<translation id="7181329571386134105">‏للسماح لـ "<ph name="CHILD_NAME" />" بتثبيت الإضافات المستقبلية بدون موافقتك، افتح تطبيق Family Link على جهازك وعدِّل إعدادات Decentr الخاصة بـ "<ph name="CHILD_NAME" />".</translation>
 <translation id="7182051712900867547">استخدام حساب مختلف</translation>
 <translation id="7182063559013288142">نقطة اتصال فورية</translation>
 <translation id="7182791023900310535">نقل كلمة المرور الخاصة بك</translation>
@@ -10214,7 +10214,7 @@
 <translation id="855604308879080518">‏يسمح هذا الإعداد لتطبيقات Android بالوصول إلى أجهزة USB على جهاز Chromebook هذا. سيتم طلب إذن الوصول إلى أجهزة USB في كل مرة توصِّل فيها جهاز USB. ستطلب تطبيقات Android كلٌ على حدة الحصول على أذونات إضافية.</translation>
 <translation id="8557022314818157177">يُرجى الاستمرار في لمس مفتاح الأمان إلى أن يتم حِفظ بصمة الإصبع.</translation>
 <translation id="8557100046150195444">استخدِم بصمة الإصبع للمتابعة</translation>
-<translation id="8557180006508471423">‏تفعيل "Google Chrome" في "خدمات الموقع الجغرافي" على جهاز يعمل بنظام التشغيل Mac</translation>
+<translation id="8557180006508471423">‏تفعيل "Decentr" في "خدمات الموقع الجغرافي" على جهاز يعمل بنظام التشغيل Mac</translation>
 <translation id="8557856025359704738">سيتم إجراء عملية التنزيل التالية في <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">‏كلمة مرور الحساب على Google</translation>
 <translation id="8559858985063901027">مفاتيح المرور</translation>

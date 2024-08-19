@@ -923,7 +923,7 @@
 <translation id="1651008383952180276">Бир купуя сөз айкашын эки жолу киргизишиңиз керек</translation>
 <translation id="1651609627703324721">Бул өтмөктө VR режиминдеги материалдар гарнитурага өткөрүлөт</translation>
 <translation id="1652326691684645429">Nearby Share функциясын иштетүү</translation>
-<translation id="1652862280638399816">Сырсөздөрдү башкаргычты macOS Keychain менен колдонуу үчүн Chromium'ду кайра иштетип, Keychain'ге мүмкүнчүлүк бериңиз. Кайра иштеткенден кийин өтмөктөрүңүз кайрадан ачылат.</translation>
+<translation id="1652862280638399816">Сырсөздөрдү башкаргычты macOS Keychain менен колдонуу үчүн Decentr'ду кайра иштетип, Keychain'ге мүмкүнчүлүк бериңиз. Кайра иштеткенден кийин өтмөктөрүңүз кайрадан ачылат.</translation>
 <translation id="1653958716132599769">Топко байланыштуу өтмөктөр</translation>
 <translation id="1654580009054503925">Сурамдарды көрсөтүүгө тыюу салынды</translation>
 <translation id="1654713139320245449">Тармакта бир да түзмөк жок. Жардам керекпи?</translation>
@@ -1215,7 +1215,7 @@
 <translation id="186594096341696655">Көрсөткүчтү азайтуу</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" белгиленген жерлердеги сүрөттөрдү, видеону жана үн файлдарын жазып жана окуй алат.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> орнотууңузду бүтүргөнгө даяр</translation>
-<translation id="1868553836791672080">Chromium'да сырсөздү текшерүүгө болбойт</translation>
+<translation id="1868553836791672080">Decentr'да сырсөздү текшерүүгө болбойт</translation>
 <translation id="1868617395637139709">Android колдонмолору жана кызматтарынын жайгашкан жерди аныктоо функциясын колдонуу.</translation>
 <translation id="1869433484041798909">Кыстарма баскычы</translation>
 <translation id="1871098866036088250">Chrome серепчисинде ачуу</translation>
@@ -2006,7 +2006,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="2434449159125086437">Принтер жөндөлгөн жок. Анын конфигурациясын текшерип, кайталап көрүңүз.</translation>
 <translation id="2434758125294431199">Сиз менен ким бөлүшө аларын тандаңыз</translation>
 <translation id="2434915728183570229">Телефонуңуздагы колдонмолорду көрө аласыз</translation>
-<translation id="2435137177546457207">Google Chrome жана ChromeOS Flex'тин кошумча шарттары</translation>
+<translation id="2435137177546457207">Decentr жана ChromeOS Flex'тин кошумча шарттары</translation>
 <translation id="2435248616906486374">Тармак ажыратылды</translation>
 <translation id="2435457462613246316">Сырсөздү көрсөтүү</translation>
 <translation id="2436385001956947090">&amp;Шилтемени көчүрүү</translation>
@@ -2995,7 +2995,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="3151539355209957474">Баштоо убакыты</translation>
 <translation id="3151786313568798007">Багыты</translation>
 <translation id="3152356229013609796">Телефонуңуздагы билдирмелерди көрүп, четке кагып жана жооп бересиз</translation>
-<translation id="3155163173539279776">Chromium'ду кайра ишке киргизүү</translation>
+<translation id="3155163173539279776">Decentr'ду кайра ишке киргизүү</translation>
 <translation id="3157387275655328056">Окуу тизмесине кошуу</translation>
 <translation id="3157931365184549694">Калыбына келтирүү</translation>
 <translation id="3158033540161634471">Манжа изин кошуу</translation>
@@ -3877,7 +3877,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="3798632811625902122"><ph name="DEVICE" /> Bluetooth түзмөгү жупташуу үчүн уруксат сурап жатат.</translation>
 <translation id="3798670284305777884">Катуу сүйлөткүч (ички)</translation>
 <translation id="3799128412641261490">Switch Access параметрлери</translation>
-<translation id="3800828618615365228">Google Chrome жана ChromeOS'тун кошумча шарттары</translation>
+<translation id="3800828618615365228">Decentr жана ChromeOS'тун кошумча шарттары</translation>
 <translation id="3800898876950197674">Бул кеңейтүүгө уруксат берүү үчүн сырсөзүңүздү териңиз.</translation>
 <translation id="3802486193901166966">Бул кеңейтүү атайын уруксаттарды талап кылбайт жана кошумча сайтка кирүүнүн кереги жок</translation>
 <translation id="380329542618494757">Ата-жөнү</translation>
@@ -3899,7 +3899,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="3810973564298564668">Башкаруу</translation>
 <translation id="381202950560906753">Дагы бирди кошуу</translation>
 <translation id="3812525830114410218">Начар тастыктама</translation>
-<translation id="3813296892522778813">Эгер издегениңизди таппай жатсаңыз, <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome жардам<ph name="END_LINK_CHROMIUM" /> бөлүмүнө өтүңүз</translation>
+<translation id="3813296892522778813">Эгер издегениңизди таппай жатсаңыз, <ph name="BEGIN_LINK_CHROMIUM" />Decentr жардам<ph name="END_LINK_CHROMIUM" /> бөлүмүнө өтүңүз</translation>
 <translation id="3813358687923336574">Которуу үчүн колдонулган тил жана Ыкчам жооптор</translation>
 <translation id="3813458570141926987">Chrome'дун баамында акыркы көрүлгөн вебсайттардын негизинде аныкталган темалардын тизмеси</translation>
 <translation id="3814529970604306954">Мектеп аккаунту</translation>
@@ -4342,7 +4342,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="4132969033912447558"><ph name="FILE_NAME" /> файлын жүктөөнү улантуу</translation>
 <translation id="4133076602192971179">Колдонмону ачып, сырсөзүңүздү өзгөртүңүз</translation>
 <translation id="4134838386867070505">4 кадамдын ичинен 1-кадам: Көйгөйдү түшүндүрүп бериңиз</translation>
-<translation id="4135746311382563554">Google Chrome менен ChromeOS'тун Кошумча тейлөө шарттары</translation>
+<translation id="4135746311382563554">Decentr менен ChromeOS'тун Кошумча тейлөө шарттары</translation>
 <translation id="4136203100490971508">Түнкү режим күн чыкканда автоматтык түрдө өчөт</translation>
 <translation id="41365691917097717">Улантсаңыз, ADB Android колдонмолорун түзүп, аларды сыноодогу мүчүлүштүктөрдү оңдоону иштетет. Бул аракет Google тарабынан текшерилбеген Android колдонмолорун орнотууга уруксат берет. Аларды өчүрүү үчүн түзмөктү баштапкы абалга кайтаруу керек болот.</translation>
 <translation id="4137923333452716643">Окуу режиминде ачкыңыз келген текстти бөлүп көрсөтүңүз</translation>
@@ -5365,7 +5365,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="4918134162946436591">Кеңешти үстүнө коюп көрсөтүү</translation>
 <translation id="4918762404810341788">Көчүрүү жана ачуу</translation>
 <translation id="4921348630401250116">Кеп синтезатору</translation>
-<translation id="4922104989726031751">Сырсөздөрдү башкаргычты операциялык тутумуңуз менен колдонуу үчүн Chromium'ду кайра иштетип, компьютериңиздеги сырсөздөрдү башкаргычка кирүүгө уруксат бериңиз. Кайра иштеткенден кийин өтмөктөрүңүз кайрадан ачылат.</translation>
+<translation id="4922104989726031751">Сырсөздөрдү башкаргычты операциялык тутумуңуз менен колдонуу үчүн Decentr'ду кайра иштетип, компьютериңиздеги сырсөздөрдү башкаргычка кирүүгө уруксат бериңиз. Кайра иштеткенден кийин өтмөктөрүңүз кайрадан ачылат.</translation>
 <translation id="492299503953721473">Android колдонмолорун алып салуу</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" /> чыгарылууда…</translation>
 <translation id="4923977675318667854">Өтмөктөр тобун көрсөтүү</translation>
@@ -7207,7 +7207,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="6314819609899340042">Бул <ph name="IDS_SHORT_PRODUCT_NAME" /> түзмөктөгү мүчүлүштүктөрдү таап оңдоо өзгөчөлүктөрүн ийгиликтүү иштеттиңиз.</translation>
 <translation id="6315170314923504164">Үн</translation>
 <translation id="6315493146179903667">Баарын алдыга чыгаруу</translation>
-<translation id="6316432269411143858">Google ChromeOS шарттарынын мазмуну</translation>
+<translation id="6316432269411143858">DecentrOS шарттарынын мазмуну</translation>
 <translation id="6317369057005134371">Колдонмонун терезеси күтүлүүдө…</translation>
 <translation id="6318125393809743217">Саясаттын конфигурацияларында policies.json файлы камтылсын.</translation>
 <translation id="6318407754858604988">Жүктөп алуу башталды</translation>
@@ -7439,7 +7439,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="6511607461419653612">Chromebook'ту өчүрүп күйгүзүп, кайталап көрүңүз</translation>
 <translation id="6511827214781912955">Бул түзмөктү колдонгон башка колдонуучулар сырсөздөрүңүздү көрүп албашы үчүн, <ph name="FILENAME" /> файлын өчүрүү сунушталат</translation>
 <translation id="6512759338201777379"><ph name="SUBJECT" /> ичинен түзүлгөн сүрөт: <ph name="INDEX" />, маанай: <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">Башка тармакка туташып турбасаңыз, Google Chrome мобилдик дайындарды колдонот.</translation>
+<translation id="6513247462497316522">Башка тармакка туташып турбасаңыз, Decentr мобилдик дайындарды колдонот.</translation>
 <translation id="6514010653036109809">Жеткиликтүү түзмөк:</translation>
 <translation id="6517227424170598783">"<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />" ыкчам баскычы өчүрүлсүнбү?</translation>
 <translation id="6517382055541687102">Тандалган түзмөк төмөнкүгө <ph name="DEVICE_NAME" /> өзгөртүлдү</translation>
@@ -8321,7 +8321,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="7180611975245234373">Жаңылоо</translation>
 <translation id="7180865173735832675">Өзгөчөлөштүрүү</translation>
 <translation id="7181117767881540376">&amp;Кыстармалар тилкесин жашыруу</translation>
-<translation id="7181329571386134105"><ph name="CHILD_NAME" /> уруксатыңызды сурабастан кеңейтүүлөрдү орнотуп алышы үчүн түзмөгүңүздө Family Link колдонмосун ачып, <ph name="CHILD_NAME" /> үчүн Google Chrome параметрлерин жаңыртыңыз.</translation>
+<translation id="7181329571386134105"><ph name="CHILD_NAME" /> уруксатыңызды сурабастан кеңейтүүлөрдү орнотуп алышы үчүн түзмөгүңүздө Family Link колдонмосун ачып, <ph name="CHILD_NAME" /> үчүн Decentr параметрлерин жаңыртыңыз.</translation>
 <translation id="7182051712900867547">Башка аккаунтту колдонуу</translation>
 <translation id="7182063559013288142">Ыкчам хотспот</translation>
 <translation id="7182791023900310535">Сырсөздү жылдыруу</translation>
@@ -9660,7 +9660,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="8146177459103116374">Эгер бул түзмөктө буга чейин катталган болсоңуз, <ph name="LINK2_START" />учурдагы колдонуучу катары кире<ph name="LINK2_END" /> аласыз.</translation>
 <translation id="8146287226035613638">Тандаган тилдериңизди кошуп жана иреттеңиз. Мүмкүн болгон учурда вебсайттар ошол тилдерде көрүнөт. Бул параметрлер серепчиңиздин параметрлери менен шайкештирилет. <ph name="BEGIN_LINK_LEARN_MORE" />Кеңири маалымат<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="8146793085009540321">Аккаунтка кирүү ишке ашкан жок. Администраторуңузга кайрылып же кайра аракет кылып көрүңүз.</translation>
-<translation id="8147346945017130012">Google'га мүчүлүштүктөрдү аныктоо, колдонуу статистикасы, ошондой эле ката жөнүндө автоматтык түрдө кабарлоо менен, Chrome жана Chromium OS'тун функцияларын жана майнаптуулугун жакшыртууга жардам бересиз.</translation>
+<translation id="8147346945017130012">Google'га мүчүлүштүктөрдү аныктоо, колдонуу статистикасы, ошондой эле ката жөнүндө автоматтык түрдө кабарлоо менен, Chrome жана Decentr OS'тун функцияларын жана майнаптуулугун жакшыртууга жардам бересиз.</translation>
 <translation id="8147900440966275470"><ph name="NUM" /> өтмөк табылды</translation>
 <translation id="814870937590541483">Google Drive файлдары боюнча башка аракеттер</translation>
 <translation id="8148760431881541277">Кирүүнү чектөө</translation>
@@ -10213,7 +10213,7 @@ Family Link колдонмосун түзмөгүңүзгө орнотуп, бу
 <translation id="855604308879080518">Android колдонмолоруна бул Chromebook'тагы USB түзмөктөрүнө кирүүгө уруксат бериңиз. USB түзмөгүн туташтырган сайын уруксат суралат. Жеке Android колдонмолору кошумча уруксаттарды сурайт.</translation>
 <translation id="8557022314818157177">Манжаңыздын изин тартуу үчүн коопсуздук ачкычына бир нече жолу тийиңиз</translation>
 <translation id="8557100046150195444">Улантуу үчүн Touch ID</translation>
-<translation id="8557180006508471423">Mac түзмөгүңүздөгү Жайгашкан жерди аныктоо кызматтарында "Google Chrome'ду" күйгүзүңүз</translation>
+<translation id="8557180006508471423">Mac түзмөгүңүздөгү Жайгашкан жерди аныктоо кызматтарында "Decentr'ду" күйгүзүңүз</translation>
 <translation id="8557856025359704738">Кийинки жолу <ph name="NEXT_DATE_DOWNLOAD" /> жүктөлүп алынат.</translation>
 <translation id="8558281414737757274">Google аккаунтунун сырсөзү</translation>
 <translation id="8559858985063901027">Киргизүүчү ачкычтар</translation>

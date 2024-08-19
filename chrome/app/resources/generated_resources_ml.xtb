@@ -919,7 +919,7 @@
 <translation id="1651008383952180276">ഒരേ പാസ്ഫ്രെയ്‌സ് തന്നെ നിങ്ങള്‍ രണ്ടുതവണ നല്‍കേണ്ടതുണ്ട്</translation>
 <translation id="1651609627703324721">ഈ ടാബ് ഒരു ഹെഡ്‌സെറ്റിലേക്ക് VR ഉള്ളടക്കം അവതരിപ്പിക്കുന്നു</translation>
 <translation id="1652326691684645429">സമീപമുള്ള പങ്കിടൽ പ്രവർത്തനക്ഷമമാക്കുക</translation>
-<translation id="1652862280638399816">macOS Keychain-ന് ഒപ്പം Password Manager ഉപയോഗിക്കുന്നതിന്, Chromium വീണ്ടും ആരംഭിച്ച് Keychain ആക്‌സസ് അനുവദിക്കുക. വീണ്ടും ആരംഭിച്ചുകഴിഞ്ഞാൽ നിങ്ങളുടെ ടാബുകൾ വീണ്ടും തുറക്കും.</translation>
+<translation id="1652862280638399816">macOS Keychain-ന് ഒപ്പം Password Manager ഉപയോഗിക്കുന്നതിന്, Decentr വീണ്ടും ആരംഭിച്ച് Keychain ആക്‌സസ് അനുവദിക്കുക. വീണ്ടും ആരംഭിച്ചുകഴിഞ്ഞാൽ നിങ്ങളുടെ ടാബുകൾ വീണ്ടും തുറക്കും.</translation>
 <translation id="1653958716132599769">ഗ്രൂപ്പുമായി ബന്ധപ്പെട്ട ടാബുകൾ</translation>
 <translation id="1654580009054503925">അഭ്യർത്ഥനകൾ കാണിക്കാൻ അനുവാദമില്ല</translation>
 <translation id="1654713139320245449">കാസ്റ്റ് ചെയ്യാനുള്ള ലക്ഷ്യസ്ഥാനങ്ങളൊന്നും കണ്ടെത്തിയില്ല. സഹായം ആവശ്യമാണോ?</translation>
@@ -1202,7 +1202,7 @@
 <translation id="186594096341696655">റേറ്റ് കുറയ്ക്കുക</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" എന്നതിന് ചെക്ക് ചെയ്ത ലൊക്കേഷനുകളിൽ ചിത്രങ്ങളും വീഡിയോകളും ശബ്‌ദ ഫയലുകളും റീഡ് ചെയ്യാനും റൈറ്റ് ചെയ്യാനുമാകും.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> നിങ്ങളുടെ ഇന്‍‌സ്റ്റാളേഷന്‍ പൂര്‍ത്തിയാക്കുന്നതിന് തയ്യാറാണ്</translation>
-<translation id="1868553836791672080">പാസ്‌വേഡ് പരിശോധന Chromium-ൽ ലഭ്യമല്ല</translation>
+<translation id="1868553836791672080">പാസ്‌വേഡ് പരിശോധന Decentr-ൽ ലഭ്യമല്ല</translation>
 <translation id="1868617395637139709">Android ആപ്പുകൾക്കും സേവനങ്ങൾക്കും ലൊക്കേഷൻ ഉപയോഗിക്കുക.</translation>
 <translation id="1869433484041798909">ബുക്ക്‌മാർക്ക് ബട്ടൺ</translation>
 <translation id="1871098866036088250">Chrome ബ്രൗസറിൽ തുറക്കുക</translation>
@@ -1928,7 +1928,7 @@
 <translation id="2391805183137601570">Steam തുറക്കുക</translation>
 <translation id="2392369802118427583">സജീവമാക്കുക</translation>
 <translation id="2393136602862631930">നിങ്ങളുടെ Chromebook-ൽ <ph name="APP_NAME" /> സജ്ജീകരിക്കുക</translation>
-<translation id="2393313392064891208">Google ChromeOS Flex നിബന്ധനകളുടെ ഉള്ളടക്കം</translation>
+<translation id="2393313392064891208">DecentrOS Flex നിബന്ധനകളുടെ ഉള്ളടക്കം</translation>
 <translation id="2395616325548404795">എന്റർപ്രൈസ് മാനേജ്‌മെന്റിന് വേണ്ടി നിങ്ങളുടെ <ph name="DEVICE_TYPE" /> എൻറോൾ ചെയ്‌തെങ്കിലും അതിന്റെ അസറ്റും ലൊക്കേഷൻ വിവരങ്ങളും അയയ്‌ക്കാനായില്ല. ഈ ഉപകരണത്തിനുവേണ്ടി നിങ്ങളുടെ അഡ്‍മിൻ കൺസോളിൽ നിന്ന് ഈ വിവരങ്ങൾ നേരിട്ട് നൽകുക.</translation>
 <translation id="2396783860772170191">4 അക്ക പിൻ നൽകുക (0000-9999)</translation>
 <translation id="2398546389094871088">ഉപകരണം Powerwash ചെയ്യുന്നത് നിങ്ങളുടെ ഇ-സിം പ്രൊഫൈലുകൾ നീക്കം ചെയ്യില്ല. ഈ പ്രൊഫൈലുകൾ നീക്കം ചെയ്യാൻ നേരിട്ട് <ph name="LINK_BEGIN" />മൊബൈൽ ക്രമീകരണത്തിലേക്ക്<ph name="LINK_END" /> പോകുക.</translation>
@@ -1990,7 +1990,7 @@
 <translation id="2434449159125086437">പ്രിന്റർ സജ്ജീകരിക്കാനാവുന്നില്ല. കോൺഫിഗറേഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക.</translation>
 <translation id="2434758125294431199">നിങ്ങളുമായി പങ്കിടാൻ ആർക്കെല്ലാം കഴിയുമെന്നത് തിരഞ്ഞെടുക്കുക</translation>
 <translation id="2434915728183570229">നിങ്ങളുടെ ഫോണിലെ ആപ്പുകൾ ഇപ്പോൾ കാണാനാകും</translation>
-<translation id="2435137177546457207">Google Chrome, ChromeOS Flex അധിക നിബന്ധനകൾ</translation>
+<translation id="2435137177546457207">Decentr, ChromeOS Flex അധിക നിബന്ധനകൾ</translation>
 <translation id="2435248616906486374">നെറ്റ്‌വർക്ക് വിച്‌ഛേദിച്ചു</translation>
 <translation id="2435457462613246316">പാസ്‌വേഡ് കാണിക്കുക</translation>
 <translation id="2436385001956947090">ലിങ്ക് &amp;പകർത്തുക</translation>
@@ -2979,7 +2979,7 @@
 <translation id="3151539355209957474">ആരംഭിക്കുന്ന സമയം</translation>
 <translation id="3151786313568798007">ഓറിയന്റേഷൻ</translation>
 <translation id="3152356229013609796">നിങ്ങളുടെ ഫോണിലെ അറിയിപ്പുകൾ കാണുക, ഡിസ്‌മിസ് ചെയ്യുക, മറുപടി നൽകുക</translation>
-<translation id="3155163173539279776">Chromium വീണ്ടും സമാരംഭിക്കുക</translation>
+<translation id="3155163173539279776">Decentr വീണ്ടും സമാരംഭിക്കുക</translation>
 <translation id="3157387275655328056">വായന ലിസ്റ്റിൽ ചേർക്കുക</translation>
 <translation id="3157931365184549694">പുനഃസ്ഥാപിക്കുക</translation>
 <translation id="3158033540161634471">നിങ്ങളുടെ ഫിംഗർപ്രിന്റ് സജ്ജമാക്കുക</translation>
@@ -3861,7 +3861,7 @@
 <translation id="3798632811625902122"><ph name="DEVICE" /> എന്ന Bluetooth ഉപകരണം ജോടിയാക്കാനുള്ള അനുമതി ആവശ്യപ്പെടുന്നു.</translation>
 <translation id="3798670284305777884">സ്‌പീക്കർ (ഇന്റേണൽ)</translation>
 <translation id="3799128412641261490">സ്വിച്ച് ആക്‌സസ് ക്രമീകരണം</translation>
-<translation id="3800828618615365228">Google Chrome, ChromeOS അധിക നിബന്ധനകൾ</translation>
+<translation id="3800828618615365228">Decentr, ChromeOS അധിക നിബന്ധനകൾ</translation>
 <translation id="3800898876950197674">ഈ വിപുലീകരണം അനുവദിക്കാൻ, നിങ്ങളുടെ പാസ്‍വേഡ് നൽകുക.</translation>
 <translation id="3802486193901166966">ഈ വിപുലീകരണത്തിന് പ്രത്യേക അനുമതികളൊന്നും ആവശ്യമില്ല, അധിക സൈറ്റ് ആക്‌സസുമില്ല</translation>
 <translation id="380329542618494757">പേര്</translation>
@@ -3883,7 +3883,7 @@
 <translation id="3810973564298564668">നിയന്ത്രിക്കൂ</translation>
 <translation id="381202950560906753">മറ്റൊന്ന് ചേർക്കുക</translation>
 <translation id="3812525830114410218">മോശം സർട്ടിഫിക്കറ്റ്</translation>
-<translation id="3813296892522778813">നിങ്ങൾ തിരയുന്നത് കണ്ടില്ലെങ്കിൽ, <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome സഹായത്തിൽ<ph name="END_LINK_CHROMIUM" /> പോകുക</translation>
+<translation id="3813296892522778813">നിങ്ങൾ തിരയുന്നത് കണ്ടില്ലെങ്കിൽ, <ph name="BEGIN_LINK_CHROMIUM" />Decentr സഹായത്തിൽ<ph name="END_LINK_CHROMIUM" /> പോകുക</translation>
 <translation id="3813358687923336574">പേജുകൾ വിവർത്തനം ചെയ്യാനും വേഗത്തിലുള്ള ഉത്തരങ്ങൾക്കും ഉപയോഗിക്കുന്ന ഭാഷ</translation>
 <translation id="3813458570141926987">നിങ്ങളുടെ സമീപകാല ബ്രൗസിംഗ് ചരിത്രത്തെ അടിസ്ഥാനമാക്കി Chrome നിർണ്ണയിച്ച വിഷയങ്ങളുടെ ലിസ്റ്റ്</translation>
 <translation id="3814529970604306954">സ്‌കൂൾ അക്കൗണ്ട്</translation>
@@ -4325,7 +4325,7 @@
 <translation id="4132969033912447558"><ph name="FILE_NAME" /> പുനരാരംഭിക്കുക</translation>
 <translation id="4133076602192971179">നിങ്ങളുടെ പാസ്‌വേഡ് മാറ്റാൻ ആപ്പ് തുറക്കുക</translation>
 <translation id="4134838386867070505">4-ൽ 1-ാമത്തെ ഘട്ടം: പ്രശ്നം വിവരിക്കുക</translation>
-<translation id="4135746311382563554">Google Chrome, ChromeOS അധിക സേവന നിബന്ധനകൾ</translation>
+<translation id="4135746311382563554">Decentr, ChromeOS അധിക സേവന നിബന്ധനകൾ</translation>
 <translation id="4136203100490971508">സൂര്യോദയ സമയത്ത് നൈറ്റ് ലൈറ്റ് സ്വയമേവ ഓഫാകും</translation>
 <translation id="41365691917097717">തുടരുന്നത്, Android ആപ്പുകൾ സൃഷ്‌ടിക്കാനും പരിശോധിക്കാനും ADB ഡീബഗ് ചെയ്യലിനെ പ്രവർത്തനക്ഷമമാക്കും. Google പരിശോധിച്ചുറപ്പിച്ചിട്ടില്ലാത്ത Android ആപ്പുകൾ ഇൻസ്റ്റാൾ ചെയ്യാൻ ഈ പ്രവൃത്തി അനുവദിക്കുമെന്നതും ഇത് പ്രവർത്തനരഹിതമാക്കാൻ ഫാക്ടറി റീസെറ്റ് ചെയ്യേണ്ടി വരുമെന്നതും ശ്രദ്ധിക്കുക.</translation>
 <translation id="4137923333452716643">റീഡിംഗ് മോഡിൽ തുറക്കണമെന്നുള്ള ടെക്സ്റ്റ് ഹൈലൈറ്റ് ചെയ്യുക</translation>
@@ -5348,7 +5348,7 @@
 <translation id="4918134162946436591">സൂചനയുമായി ബന്ധപ്പെട്ട ഓവർലേ കാണിക്കുക</translation>
 <translation id="4918762404810341788">പകർത്തുക, തുറക്കുക</translation>
 <translation id="4921348630401250116">ടെക്‌സ്‌റ്റ് ടു സ്‌പീച്ച്</translation>
-<translation id="4922104989726031751">നിങ്ങളുടെ ഓപ്പറേറ്റിംഗ് സിസ്റ്റത്തിനൊപ്പം Google Password Manager ഉപയോഗിക്കാൻ, Chromium വീണ്ടും ആരംഭിച്ച് നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ Password Manager-ലേക്ക് ആക്‌സസ് നൽകുക. വീണ്ടും ആരംഭിച്ച് കഴിഞ്ഞാൽ നിങ്ങളുടെ ടാബുകൾ വീണ്ടും തുറക്കും.</translation>
+<translation id="4922104989726031751">നിങ്ങളുടെ ഓപ്പറേറ്റിംഗ് സിസ്റ്റത്തിനൊപ്പം Google Password Manager ഉപയോഗിക്കാൻ, Decentr വീണ്ടും ആരംഭിച്ച് നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ Password Manager-ലേക്ക് ആക്‌സസ് നൽകുക. വീണ്ടും ആരംഭിച്ച് കഴിഞ്ഞാൽ നിങ്ങളുടെ ടാബുകൾ വീണ്ടും തുറക്കും.</translation>
 <translation id="492299503953721473">Android ആപ്പുകൾ നീക്കംചെയ്യുക</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" /> അണ്‍‌ഇന്‍സ്‌റ്റാള്‍ ചെയ്യുന്നു...</translation>
 <translation id="4923977675318667854">ടാബ് ഗ്രൂപ്പുകൾ കാണിക്കുക</translation>
@@ -7191,7 +7191,7 @@
 <translation id="6314819609899340042">നിങ്ങൾ ഈ <ph name="IDS_SHORT_PRODUCT_NAME" /> ഉപകരണത്തിലെ ഡീബഗ് ചെയ്യൽ ഫീച്ചറുകൾ പ്രവർത്തനക്ഷമമാക്കി.</translation>
 <translation id="6315170314923504164">വോയ്സ്</translation>
 <translation id="6315493146179903667">എല്ലാം മുന്നിലേക്ക് കൊണ്ടുവരുക</translation>
-<translation id="6316432269411143858">Google ChromeOS നിബന്ധനകളുടെ ഉള്ളടക്കം</translation>
+<translation id="6316432269411143858">DecentrOS നിബന്ധനകളുടെ ഉള്ളടക്കം</translation>
 <translation id="6317369057005134371">ആപ്പ് വിൻഡോയ്‌ക്കായി കാത്തിരിക്കുന്നു...</translation>
 <translation id="6318125393809743217">നയ കോൺഫിഗറേഷനുകളുള്ള policies.json ഫയൽ ഉൾപ്പെടുത്തുക.</translation>
 <translation id="6318407754858604988">ഡൗൺലോഡ് ആരംഭിച്ചു</translation>
@@ -7423,7 +7423,7 @@
 <translation id="6511607461419653612">നിങ്ങളുടെ Chromebook റീസ്‌റ്റാർട്ട് ചെയ്‌ത് വീണ്ടും ശ്രമിക്കുക</translation>
 <translation id="6511827214781912955">ഈ ഉപകരണം ഉപയോഗിക്കുന്ന മറ്റ് ആളുകൾ നിങ്ങളുടെ പാസ്‌വേഡുകൾ കാണുന്നത് തടയാൻ <ph name="FILENAME" /> ഇല്ലാതാക്കുന്നത് പരിഗണിക്കുക</translation>
 <translation id="6512759338201777379"><ph name="MOOD" /> മൂഡിൽ <ph name="SUBJECT" /> എന്ന വിഷയവുമായി ബന്ധപ്പെട്ട <ph name="INDEX" />-ാമത്തെ ചിത്രം സൃഷ്ടിച്ചു.</translation>
-<translation id="6513247462497316522">മറ്റൊരു നെറ്റ്‌വർക്കിൽ കണക്‌റ്റ് ചെയ്‌തിട്ടില്ലെങ്കിൽ Google Chrome മൊബൈൽ ഡാറ്റ ഉപയോഗിക്കും.</translation>
+<translation id="6513247462497316522">മറ്റൊരു നെറ്റ്‌വർക്കിൽ കണക്‌റ്റ് ചെയ്‌തിട്ടില്ലെങ്കിൽ Decentr മൊബൈൽ ഡാറ്റ ഉപയോഗിക്കും.</translation>
 <translation id="6514010653036109809">ലഭ്യമായ ഉപകരണം:</translation>
 <translation id="6517227424170598783">"<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />" കുറുക്കുവഴി നീക്കം ചെയ്യണോ?</translation>
 <translation id="6517382055541687102">തിരഞ്ഞെടുത്ത ഉപകരണം <ph name="DEVICE_NAME" /> ആക്കി മാറ്റി</translation>
@@ -8306,7 +8306,7 @@
 <translation id="7180611975245234373">റീഫ്രഷ് ചെയ്യുക</translation>
 <translation id="7180865173735832675">ഇച്ഛാനുസൃതമാക്കുക</translation>
 <translation id="7181117767881540376">&amp;ബുക്ക്‌മാർക്ക് ബാർ മറയ്ക്കുക</translation>
-<translation id="7181329571386134105">നിങ്ങളുടെ അനുമതിയില്ലാതെ ഭാവിയിൽ വിപുലീകരണങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്യാൻ <ph name="CHILD_NAME" /> എന്ന കുട്ടിയെ അനുവദിക്കുന്നതിന്, നിങ്ങളുടെ ഉപകരണത്തിൽ Family Link ആപ്പ് തുറന്ന ശേഷം <ph name="CHILD_NAME" /> എന്ന കുട്ടിയുടെ Google Chrome ക്രമീകരണം അപ്ഡേറ്റ് ചെയ്യുക.</translation>
+<translation id="7181329571386134105">നിങ്ങളുടെ അനുമതിയില്ലാതെ ഭാവിയിൽ വിപുലീകരണങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്യാൻ <ph name="CHILD_NAME" /> എന്ന കുട്ടിയെ അനുവദിക്കുന്നതിന്, നിങ്ങളുടെ ഉപകരണത്തിൽ Family Link ആപ്പ് തുറന്ന ശേഷം <ph name="CHILD_NAME" /> എന്ന കുട്ടിയുടെ Decentr ക്രമീകരണം അപ്ഡേറ്റ് ചെയ്യുക.</translation>
 <translation id="7182051712900867547">മറ്റൊരു അക്കൗണ്ട് ഉപയോഗിക്കുക</translation>
 <translation id="7182063559013288142">തൽക്ഷണ ഹോട്ട്സ്പോട്ട്</translation>
 <translation id="7182791023900310535">നിങ്ങളുടെ പാസ്‍വേഡ് നീക്കുക</translation>
@@ -10198,7 +10198,7 @@
 <translation id="855604308879080518">ഈ Chromebook-ലെ USB ഉപകരണങ്ങൾ ആക്‌സസ് ചെയ്യാൻ Android ആപ്പുകളെ അനുവദിക്കുക. ഒരു USB ഉപകരണം നിങ്ങൾ ഓരോ തവണ പ്ലഗ്-ഇൻ ചെയ്യുമ്പോഴും അനുമതി ആവശ്യപ്പെടും. വ്യക്തിഗത Android ആപ്പുകൾ കൂടുതൽ അനുമതികൾ ആവശ്യപ്പെടും.</translation>
 <translation id="8557022314818157177">നിങ്ങളുടെ ഫിംഗർപ്രിന്റ് ചേർക്കുന്നത് വരെ സുരക്ഷാ കീയിൽ സ്പർശിക്കുന്നത് തുടരുക</translation>
 <translation id="8557100046150195444">തുടരാൻ ടച്ച് ഐഡി ഉപയോഗിക്കുക</translation>
-<translation id="8557180006508471423">നിങ്ങളുടെ Mac-ലെ ലൊക്കേഷൻ സേവനങ്ങളിൽ "Google Chrome" ഓണാക്കുക</translation>
+<translation id="8557180006508471423">നിങ്ങളുടെ Mac-ലെ ലൊക്കേഷൻ സേവനങ്ങളിൽ "Decentr" ഓണാക്കുക</translation>
 <translation id="8557856025359704738"><ph name="NEXT_DATE_DOWNLOAD" />-നാണ് അടുത്ത ഡൗൺലോഡ്.</translation>
 <translation id="8558281414737757274">Google Account പാസ്‌വേഡ്</translation>
 <translation id="8559858985063901027">പാസ്‌കീകൾ</translation>

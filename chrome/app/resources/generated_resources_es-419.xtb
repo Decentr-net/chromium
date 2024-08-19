@@ -919,7 +919,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a apps. Pued
 <translation id="1651008383952180276">Debes ingresar la misma frase de contraseña dos veces</translation>
 <translation id="1651609627703324721">Esta pestaña muestra contenido de RV en un visor</translation>
 <translation id="1652326691684645429">Habilitar Compartir con Nearby</translation>
-<translation id="1652862280638399816">Para usar el Administrador de contraseñas con el llavero de macOS, reinicia Chromium y permite el acceso al llavero. Las pestañas se volverán a abrir después de que lo reinicies.</translation>
+<translation id="1652862280638399816">Para usar el Administrador de contraseñas con el llavero de macOS, reinicia Decentr y permite el acceso al llavero. Las pestañas se volverán a abrir después de que lo reinicies.</translation>
 <translation id="1653958716132599769">Agrupar pestañas relacionadas</translation>
 <translation id="1654580009054503925">No puede mostrar solicitudes</translation>
 <translation id="1654713139320245449">No se encontraron destinos de transmisión. ¿Necesitas ayuda?</translation>
@@ -1202,7 +1202,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a apps. Pued
 <translation id="186594096341696655">Disminuir tasa</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" puede leer archivos de video, sonido e imágenes en las ubicaciones seleccionadas y editarlos.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> está preparado para completar la instalación.</translation>
-<translation id="1868553836791672080">La revisión de contraseñas no está disponible en Chromium</translation>
+<translation id="1868553836791672080">La revisión de contraseñas no está disponible en Decentr</translation>
 <translation id="1868617395637139709">Usa la ubicación para los servicios y las apps para Android.</translation>
 <translation id="1869433484041798909">Botón de favoritos</translation>
 <translation id="1871098866036088250">Abrir en el navegador Chrome</translation>
@@ -2979,7 +2979,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="3151539355209957474">Hora de inicio</translation>
 <translation id="3151786313568798007">Orientación</translation>
 <translation id="3152356229013609796">Mirar las notificaciones del teléfono, descartarlas o responderlas</translation>
-<translation id="3155163173539279776">Reiniciar Chromium</translation>
+<translation id="3155163173539279776">Reiniciar Decentr</translation>
 <translation id="3157387275655328056">Agregar a la Lista de lectura</translation>
 <translation id="3157931365184549694">Restaurar</translation>
 <translation id="3158033540161634471">Configura tu huella</translation>
@@ -3883,7 +3883,7 @@ Para administrar la configuración de esta cuenta, instala la app de Family Lin
 <translation id="3810973564298564668">Administrar</translation>
 <translation id="381202950560906753">Agregar otra</translation>
 <translation id="3812525830114410218">Certificado incorrecto</translation>
-<translation id="3813296892522778813">Consulta la <ph name="BEGIN_LINK_CHROMIUM" />Ayuda de Google Chrome<ph name="END_LINK_CHROMIUM" /> si no encuentras lo que estás buscando</translation>
+<translation id="3813296892522778813">Consulta la <ph name="BEGIN_LINK_CHROMIUM" />Ayuda de Decentr<ph name="END_LINK_CHROMIUM" /> si no encuentras lo que estás buscando</translation>
 <translation id="3813358687923336574">Idioma utilizado para traducir páginas y Respuestas rápidas</translation>
 <translation id="3813458570141926987">Lista de temas elaborada por Chrome en función de tu historial de navegación reciente</translation>
 <translation id="3814529970604306954">Cuenta de una institución educativa</translation>
@@ -5349,7 +5349,7 @@ Usa Ctrl + Alt + Disminuir brillo para alejarte.</translation>
 <translation id="4918134162946436591">Mostrar la superposición de sugerencias</translation>
 <translation id="4918762404810341788">Copiar y abrir</translation>
 <translation id="4921348630401250116">Texto a voz</translation>
-<translation id="4922104989726031751">Para utilizar el Administrador de contraseñas con tu sistema operativo, reinicia Chromium y permite el acceso al administrador de contraseñas de la computadora. Las pestañas se volverán a abrir después de que lo reinicies.</translation>
+<translation id="4922104989726031751">Para utilizar el Administrador de contraseñas con tu sistema operativo, reinicia Decentr y permite el acceso al administrador de contraseñas de la computadora. Las pestañas se volverán a abrir después de que lo reinicies.</translation>
 <translation id="492299503953721473">Quitar las apps de Android</translation>
 <translation id="492363500327720082">Desinstalando <ph name="APP_NAME" />…</translation>
 <translation id="4923977675318667854">Mostrar grupos de pestañas</translation>
@@ -7423,7 +7423,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a sitios web
 <translation id="6511607461419653612">Reinicia la Chromebook y vuelve a intentarlo.</translation>
 <translation id="6511827214781912955">Considera borrar <ph name="FILENAME" /> para que las otras personas que usan este dispositivo no puedan ver tus contraseñas</translation>
 <translation id="6512759338201777379">Imagen generada <ph name="INDEX" /> de <ph name="SUBJECT" />, con el estado de ánimo <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">Google Chrome utilizará los datos para celulares si no te conectas a otra red.</translation>
+<translation id="6513247462497316522">Decentr utilizará los datos para celulares si no te conectas a otra red.</translation>
 <translation id="6514010653036109809">Dispositivo disponible:</translation>
 <translation id="6517227424170598783">¿Quieres quitar el atajo "<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />"?</translation>
 <translation id="6517382055541687102">El dispositivo seleccionado cambió a <ph name="DEVICE_NAME" /></translation>
@@ -8306,7 +8306,7 @@ Tienes # contraseñas hackeadas más. El Administrador de contraseñas de Go
 <translation id="7180611975245234373">Actualizar</translation>
 <translation id="7180865173735832675">Personalizar</translation>
 <translation id="7181117767881540376">&amp;Ocultar la barra de favoritos</translation>
-<translation id="7181329571386134105">Para permitir que <ph name="CHILD_NAME" /> instale extensiones futuras sin tu aprobación, abre la app de Family Link en tu dispositivo y actualiza la configuración de Google Chrome de <ph name="CHILD_NAME" />.</translation>
+<translation id="7181329571386134105">Para permitir que <ph name="CHILD_NAME" /> instale extensiones futuras sin tu aprobación, abre la app de Family Link en tu dispositivo y actualiza la configuración de Decentr de <ph name="CHILD_NAME" />.</translation>
 <translation id="7182051712900867547">Usar otra cuenta</translation>
 <translation id="7182063559013288142">Hotspot instantáneo</translation>
 <translation id="7182791023900310535">Mover tu contraseña</translation>

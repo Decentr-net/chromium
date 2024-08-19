@@ -924,7 +924,7 @@
 <translation id="1651008383952180276">Необходимо дважды ввести одну кодовую фразу</translation>
 <translation id="1651609627703324721">VR-контент с этой вкладки сейчас транслируется на очки</translation>
 <translation id="1652326691684645429">Включить Обмен с окружением</translation>
-<translation id="1652862280638399816">Чтобы использовать Менеджер паролей со Связкой ключей macOS, перезапустите Chromium и предоставьте доступ к Связке ключей. После перезапуска вкладки будут снова открыты.</translation>
+<translation id="1652862280638399816">Чтобы использовать Менеджер паролей со Связкой ключей macOS, перезапустите Decentr и предоставьте доступ к Связке ключей. После перезапуска вкладки будут снова открыты.</translation>
 <translation id="1653958716132599769">Объединить связанные вкладки в группу</translation>
 <translation id="1654580009054503925">Сайтам запрещено показывать запросы</translation>
 <translation id="1654713139320245449">Нет устройств, на которые можно транслировать контент. Нужна помощь?</translation>
@@ -1207,7 +1207,7 @@
 <translation id="186594096341696655">Снизить частоту</translation>
 <translation id="186612162884103683">Расширению "<ph name="EXTENSION" />" будет предоставлен доступ для чтения и записи к изображениям, видео- и аудиофайлам в отмеченных папках.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> готов к завершению установки.</translation>
-<translation id="1868553836791672080">В Chromium недоступна проверка паролей.</translation>
+<translation id="1868553836791672080">В Decentr недоступна проверка паролей.</translation>
 <translation id="1868617395637139709">Определение местоположения при использовании приложений и сервисов Android.</translation>
 <translation id="1869433484041798909">Кнопка добавления в закладки</translation>
 <translation id="1871098866036088250">Открывать в браузере Chrome</translation>
@@ -1467,7 +1467,7 @@
 <translation id="2051555741181591333">Автоматически выключать точку доступа</translation>
 <translation id="2051669996101374349">По возможности будет использоваться протокол HTTPS. Если сайт его не поддерживает, браузер покажет предупреждение, прежде чем загрузить страницу. Вы не можете изменить этот параметр, поскольку у вас включена Дополнительная защита.</translation>
 <translation id="2052572566310583903">Установлено на другом вашем устройстве</translation>
-<translation id="2053105195397337973">Chromium стремится найти способы ограничить отслеживание, предоставляя сайтам возможность бороться со спамом и мошенничеством.</translation>
+<translation id="2053105195397337973">Decentr стремится найти способы ограничить отслеживание, предоставляя сайтам возможность бороться со спамом и мошенничеством.</translation>
 <translation id="2053312383184521053">Данные о состоянии бездействия</translation>
 <translation id="205560151218727633">Логотип Google Ассистента</translation>
 <translation id="2058456167109518507">Обнаружено устройство</translation>
@@ -1933,7 +1933,7 @@
 <translation id="2391805183137601570">Открыть Steam</translation>
 <translation id="2392369802118427583">Активировать</translation>
 <translation id="2393136602862631930">Установка <ph name="APP_NAME" /> на Chromebook</translation>
-<translation id="2393313392064891208">Текст Условий использования Google Chrome OS Flex</translation>
+<translation id="2393313392064891208">Текст Условий использования Decentr OS Flex</translation>
 <translation id="2395616325548404795">Устройство <ph name="DEVICE_TYPE" /> зарегистрировано в организации, но при передаче данных об объекте и местоположении произошла ошибка. Введите эту информацию вручную в консоли администратора.</translation>
 <translation id="2396783860772170191">Введите четырехзначный PIN-код (0000–9999)</translation>
 <translation id="2398546389094871088">При использовании функции Powerwash профили eSIM не удаляются. Это можно сделать вручную в разделе <ph name="LINK_BEGIN" />настроек для мобильных устройств<ph name="LINK_END" />.</translation>
@@ -1995,7 +1995,7 @@
 <translation id="2434449159125086437">Не удалось настроить принтер. Проверьте конфигурацию и повторите попытку.</translation>
 <translation id="2434758125294431199">Укажите, кто может делиться файлами и ссылками с вами</translation>
 <translation id="2434915728183570229">Теперь вы можете просматривать приложения с телефона</translation>
-<translation id="2435137177546457207">Дополнительные условия использования Google Chrome и Chrome OS Flex</translation>
+<translation id="2435137177546457207">Дополнительные условия использования Decentr и Chrome OS Flex</translation>
 <translation id="2435248616906486374">Подключение отсутствует</translation>
 <translation id="2435457462613246316">Показать пароль</translation>
 <translation id="2436385001956947090">&amp;Копировать ссылку</translation>
@@ -2984,7 +2984,7 @@
 <translation id="3151539355209957474">Время начала</translation>
 <translation id="3151786313568798007">Ориентация</translation>
 <translation id="3152356229013609796">Просматривать и скрывать уведомления с телефона, а также отвечать на них</translation>
-<translation id="3155163173539279776">Перезапустить Chromium</translation>
+<translation id="3155163173539279776">Перезапустить Decentr</translation>
 <translation id="3157387275655328056">Добавить в список для чтения</translation>
 <translation id="3157931365184549694">Восстановить</translation>
 <translation id="3158033540161634471">Добавьте отпечаток пальца</translation>
@@ -3866,7 +3866,7 @@
 <translation id="3798632811625902122">Устройству <ph name="DEVICE" /> требуется разрешение на подключение через Bluetooth.</translation>
 <translation id="3798670284305777884">Динамик (встроенный)</translation>
 <translation id="3799128412641261490">Настройки функции Switch Access</translation>
-<translation id="3800828618615365228">Дополнительные условия использования Google Chrome и Chrome OS</translation>
+<translation id="3800828618615365228">Дополнительные условия использования Decentr и Chrome OS</translation>
 <translation id="3800898876950197674">Чтобы разрешить установку расширения, введите пароль.</translation>
 <translation id="3802486193901166966">Расширению не требуются особые разрешения и у него нет дополнительного доступа к сайтам</translation>
 <translation id="380329542618494757">Имя</translation>
@@ -5354,7 +5354,7 @@
 <translation id="4918134162946436591">Показать оверлей подсказки</translation>
 <translation id="4918762404810341788">Скопировать и открыть</translation>
 <translation id="4921348630401250116">Озвучивание текста</translation>
-<translation id="4922104989726031751">Чтобы использовать Менеджер паролей с вашей операционной системой, перезапустите Chromium и предоставьте доступ к менеджеру паролей на компьютере. После перезапуска вкладки будут снова открыты.</translation>
+<translation id="4922104989726031751">Чтобы использовать Менеджер паролей с вашей операционной системой, перезапустите Decentr и предоставьте доступ к менеджеру паролей на компьютере. После перезапуска вкладки будут снова открыты.</translation>
 <translation id="492299503953721473">Удалить приложения для Android</translation>
 <translation id="492363500327720082">Удаление <ph name="APP_NAME" />…</translation>
 <translation id="4923977675318667854">Показывать группы вкладок</translation>
@@ -6392,7 +6392,7 @@
 <translation id="5705882733397021510">Назад</translation>
 <translation id="5707185214361380026">Не удалось загрузить расширение из:</translation>
 <translation id="5708171344853220004">Имя участника Microsoft</translation>
-<translation id="5709557627224531708">Сделайте Google Chrome браузером по умолчанию</translation>
+<translation id="5709557627224531708">Сделайте Decentr браузером по умолчанию</translation>
 <translation id="5711010025974903573">Служебные журналы</translation>
 <translation id="5711983031544731014">Невозможно разблокировать. Введите пароль.</translation>
 <translation id="5712153969432126546">Иногда на сайтах публикуются файлы в формате PDF, например документы, договоры или формы.</translation>
@@ -7196,7 +7196,7 @@
 <translation id="6314819609899340042">Функции отладки на устройстве <ph name="IDS_SHORT_PRODUCT_NAME" /> включены.</translation>
 <translation id="6315170314923504164">Микрофон</translation>
 <translation id="6315493146179903667">Переместить все на передний план</translation>
-<translation id="6316432269411143858">Полный текст Условий использования Google Chrome OS</translation>
+<translation id="6316432269411143858">Полный текст Условий использования Decentr OS</translation>
 <translation id="6317369057005134371">Запуск приложения…</translation>
 <translation id="6318125393809743217">Включить файл policies.json в правила</translation>
 <translation id="6318407754858604988">Скачивание началось</translation>
@@ -7428,7 +7428,7 @@
 <translation id="6511607461419653612">Перезапустите Chromebook и повторите попытку.</translation>
 <translation id="6511827214781912955">Рекомендуем удалить файл <ph name="FILENAME" />, чтобы другие пользователи, которые работают с этим устройством, не могли видеть ваши пароли.</translation>
 <translation id="6512759338201777379">Сгенерированное изображение: <ph name="INDEX" />. Объект: <ph name="SUBJECT" />. Настроение: <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">При отсутствии подключения к другой сети Google Chrome будет использовать мобильную сеть передачи данных.</translation>
+<translation id="6513247462497316522">При отсутствии подключения к другой сети Decentr будет использовать мобильную сеть передачи данных.</translation>
 <translation id="6514010653036109809">Доступное устройство:</translation>
 <translation id="6517227424170598783">Удалить ярлык "<ph name="SHORTCUT_NAME" /> – <ph name="APP_NAME" />"?</translation>
 <translation id="6517382055541687102">Выбранное устройство заменено. Вместо него используется устройство "<ph name="DEVICE_NAME" />".</translation>
@@ -8317,7 +8317,7 @@
 <translation id="7180611975245234373">Обновить</translation>
 <translation id="7180865173735832675">Настроить</translation>
 <translation id="7181117767881540376">Скрыть панель закладок</translation>
-<translation id="7181329571386134105"><ph name="CHILD_NAME" /> сможет самостоятельно устанавливать расширения, если вы измените настройки Google Chrome для пользователя <ph name="CHILD_NAME" />. Это можно сделать на вашем устройстве в приложении Family Link.</translation>
+<translation id="7181329571386134105"><ph name="CHILD_NAME" /> сможет самостоятельно устанавливать расширения, если вы измените настройки Decentr для пользователя <ph name="CHILD_NAME" />. Это можно сделать на вашем устройстве в приложении Family Link.</translation>
 <translation id="7182051712900867547">Использовать другой аккаунт</translation>
 <translation id="7182063559013288142">Мгновенная точка доступа</translation>
 <translation id="7182791023900310535">Перенести пароль</translation>
@@ -8470,7 +8470,7 @@
 <translation id="7299515639584427954">Изменить приложение по умолчанию для поддерживаемых ссылок?</translation>
 <translation id="7299588179200441056"><ph name="URL" /> – <ph name="FOLDER" /></translation>
 <translation id="7301812050652048720">Ключ доступа удален.</translation>
-<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Это приложение может помешать работе Google Chrome.}one{Эти приложения могут помешать работе Google Chrome.}few{Эти приложения могут помешать работе Google Chrome.}many{Эти приложения могут помешать работе Google Chrome.}other{Эти приложения могут помешать работе Google Chrome.}}</translation>
+<translation id="730289542559375723">{NUM_APPLICATIONS,plural, =1{Это приложение может помешать работе Decentr.}one{Эти приложения могут помешать работе Decentr.}few{Эти приложения могут помешать работе Decentr.}many{Эти приложения могут помешать работе Decentr.}other{Эти приложения могут помешать работе Decentr.}}</translation>
 <translation id="7303281435234579599">Не удалось настроить демонстрационный режим.</translation>
 <translation id="7303900363563182677">У этого сайта нет доступа к тексту и изображениям, скопированным в буфер обмена</translation>
 <translation id="7304030187361489308">Высокий</translation>
@@ -10209,7 +10209,7 @@
 <translation id="855604308879080518">Приложения Android смогут получать доступ к USB-устройствам на этом Chromebook. Разрешение нужно будет предоставлять при каждом подключении USB-устройства. Некоторым приложениям для Android понадобятся дополнительные разрешения.</translation>
 <translation id="8557022314818157177">Продолжайте прикасаться к сканеру отпечатков пальцев на электронном ключе, пока отпечаток не будет сохранен.</translation>
 <translation id="8557100046150195444">Чтобы продолжить, используйте Touch ID</translation>
-<translation id="8557180006508471423">Включите Google Chrome в службах геолокации на устройстве Mac</translation>
+<translation id="8557180006508471423">Включите Decentr в службах геолокации на устройстве Mac</translation>
 <translation id="8557856025359704738">Следующее скачивание запланировано <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Пароль аккаунта Google</translation>
 <translation id="8559858985063901027">Ключи доступа</translation>

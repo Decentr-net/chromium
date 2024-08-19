@@ -919,7 +919,7 @@
 <translation id="1651008383952180276">Та нэвтрэх үгээ хоёр удаа зөв оруулах шаардлагатай</translation>
 <translation id="1651609627703324721">Энэ таб чихэвчид VR контент үзүүлж байна</translation>
 <translation id="1652326691684645429">Ойролцоо хуваалцах онцлогийг идэвхжүүлэх</translation>
-<translation id="1652862280638399816">Нууц үгний менежерийг macOS Keychain-тэй ашиглахын тулд Chromium-г дахин ачаалж, Keychain-н хандалтыг зөвшөөрнө үү. Дахин ачаалсны дараа таны табуудыг дахин нээнэ.</translation>
+<translation id="1652862280638399816">Нууц үгний менежерийг macOS Keychain-тэй ашиглахын тулд Decentr-г дахин ачаалж, Keychain-н хандалтыг зөвшөөрнө үү. Дахин ачаалсны дараа таны табуудыг дахин нээнэ.</translation>
 <translation id="1653958716132599769">Холбоотой табуудыг бүлэглэх</translation>
 <translation id="1654580009054503925">Хүсэлтүүдийг харуулахыг зөвшөөрөөгүй</translation>
 <translation id="1654713139320245449">Дамжуулах хаяг олдсонгүй. Тусламж хэрэгтэй юу?</translation>
@@ -1211,7 +1211,7 @@
 <translation id="186594096341696655">Хурдыг бууруулах</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" нь шалгагдсан байршлуудад зураг, видео, дууны файлуудыг уншиж, бичиж чадна.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> нь таны суулгалтыг бүрэн дуусгахад бэлэн байна.</translation>
-<translation id="1868553836791672080">Chromium дээр нууц үг шалгах боломжгүй</translation>
+<translation id="1868553836791672080">Decentr дээр нууц үг шалгах боломжгүй</translation>
 <translation id="1868617395637139709">Байршлыг Android аппууд болон үйлчилгээнүүдэд ашиглана уу.</translation>
 <translation id="1869433484041798909">Хавчуурганы товчлуур</translation>
 <translation id="1871098866036088250">Chrome хөтөч дээр нээх</translation>
@@ -1940,7 +1940,7 @@
 <translation id="2391805183137601570">Steam-г нээх</translation>
 <translation id="2392369802118427583">Идэвхжүүлэх</translation>
 <translation id="2393136602862631930"><ph name="APP_NAME" />-г Chromebook дээрээ тохируулна уу</translation>
-<translation id="2393313392064891208">Google ChromeOS Flex-н нөхцөлийн агуулга</translation>
+<translation id="2393313392064891208">DecentrOS Flex-н нөхцөлийн агуулга</translation>
 <translation id="2395616325548404795">Таны <ph name="DEVICE_TYPE" />-г байгууллагын удирдлагад амжилттай бүртгэсэн хэдий ч үүний өмч болон байршлын мэдээллийг илгээж чадсангүй. Энэ мэдээллийг админ консолоосоо төхөөрөмжид гараар оруулна уу.</translation>
 <translation id="2396783860772170191">4 оронтой пинг (0000-9999) оруулна уу</translation>
 <translation id="2398546389094871088">Төхөөрөмжөө Powerwash хийх нь таны eSIM профайлуудыг хасахгүй. Эдгээр профайлыг гар аргаар хасахын тулд <ph name="LINK_BEGIN" />Мобайл тохиргоо<ph name="LINK_END" /> руу очно уу.</translation>
@@ -2002,7 +2002,7 @@
 <translation id="2434449159125086437">Хэвлэгчийг тохируулах боломжгүй байна. Тохируулгыг шалгаад дахин оролдоно уу.</translation>
 <translation id="2434758125294431199">Хэн тантай хуваалцах боломжтойг сонгох</translation>
 <translation id="2434915728183570229">Та одоо утасныхаа аппуудыг харах боломжтой</translation>
-<translation id="2435137177546457207">Google Chrome болон ChromeOS Flex-н нэмэлт нөхцөл</translation>
+<translation id="2435137177546457207">Decentr болон ChromeOS Flex-н нэмэлт нөхцөл</translation>
 <translation id="2435248616906486374">Сүлжээ тасарсан байна</translation>
 <translation id="2435457462613246316">Нууц үг харуулах</translation>
 <translation id="2436385001956947090">&amp;Холбоосыг хуулах</translation>
@@ -2991,7 +2991,7 @@
 <translation id="3151539355209957474">Эхлэх цаг</translation>
 <translation id="3151786313568798007">Чиглэл</translation>
 <translation id="3152356229013609796">Утасныхaa мэдэгдлүүдийг харж, хааж мөн тэдгээрт хариу бичнэ үү</translation>
-<translation id="3155163173539279776">Chromium-г дахин эхлүүлэх</translation>
+<translation id="3155163173539279776">Decentr-г дахин эхлүүлэх</translation>
 <translation id="3157387275655328056">Унших жагсаалтад нэмэх</translation>
 <translation id="3157931365184549694">Дахин сэргээх</translation>
 <translation id="3158033540161634471">Хурууны хээгээ тохируулах</translation>
@@ -3873,7 +3873,7 @@
 <translation id="3798632811625902122"><ph name="DEVICE" /> Bluetooth төхөөрөмж хослуулах зөвшөөрөл хүсэж байна.</translation>
 <translation id="3798670284305777884">Чанга яригч (дотоод)</translation>
 <translation id="3799128412641261490">Сэлгүүрийн тохиргоо</translation>
-<translation id="3800828618615365228">Google Chrome болон ChromeOS-н нэмэлт нөхцөл</translation>
+<translation id="3800828618615365228">Decentr болон ChromeOS-н нэмэлт нөхцөл</translation>
 <translation id="3800898876950197674">Энэ өргөтгөлийг зөвшөөрөхийн тулд нууц үгээ оруулна уу.</translation>
 <translation id="3802486193901166966">Энэ өргөтгөлд ямар ч тусгай зөвшөөрөл шаардлагагүй бөгөөд сайтын нэмэлт хандалт байхгүй</translation>
 <translation id="380329542618494757">Нэр</translation>
@@ -3895,7 +3895,7 @@
 <translation id="3810973564298564668">удирдах</translation>
 <translation id="381202950560906753">Өөрийг нэмэх</translation>
 <translation id="3812525830114410218">Муу сертификат</translation>
-<translation id="3813296892522778813">Хэрэв та хайж байгаа зүйлээ олохгүй байвал <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome тусламж<ph name="END_LINK_CHROMIUM" /> хэсэгт очно уу</translation>
+<translation id="3813296892522778813">Хэрэв та хайж байгаа зүйлээ олохгүй байвал <ph name="BEGIN_LINK_CHROMIUM" />Decentr тусламж<ph name="END_LINK_CHROMIUM" /> хэсэгт очно уу</translation>
 <translation id="3813358687923336574">Хуудсыг орчуулах болон Шуурхай хариултад ашигласан хэл</translation>
 <translation id="3813458570141926987">Таны саяхны хөтчийн түүх дээр үндэслэн Chrome-с тооцоолсон сэдвүүдийн жагсаалт</translation>
 <translation id="3814529970604306954">Сургуулийн бүртгэл</translation>
@@ -4337,7 +4337,7 @@
 <translation id="4132969033912447558"><ph name="FILE_NAME" />-г үргэлжлүүлэх</translation>
 <translation id="4133076602192971179">Нууц үгээ өөрчлөхийн тулд аппыг нээнэ үү</translation>
 <translation id="4134838386867070505">4-ийн 1-р алхам: Асуудлыг тайлбарлах</translation>
-<translation id="4135746311382563554">Google Chrome болон ChromeOS-н үйлчилгээний нэмэлт нөхцөл</translation>
+<translation id="4135746311382563554">Decentr болон ChromeOS-н үйлчилгээний нэмэлт нөхцөл</translation>
 <translation id="4136203100490971508">Нар мандахад шөнийн гэрэл автоматаар унтарна</translation>
 <translation id="41365691917097717">Үргэлжлүүлснээр Андройд апп үүсгэх болон туршихад зориулж ADB алдаа засахыг идэвхжүүлнэ. Энэ үйлдэл нь Google-н баталгаажуулаагүй Андройд аппыг суулгахыг зөвшөөрөх бөгөөд идэвхгүй болгоход үйлдвэрийн тохиргоонд шинэчлэх шаардлагатай.</translation>
 <translation id="4137923333452716643">Та уншлагын горимд нээхийг хүсэж буй текстээ тодруулна уу</translation>
@@ -5360,7 +5360,7 @@
 <translation id="4918134162946436591">Давхарлах зааврыг харуулах</translation>
 <translation id="4918762404810341788">Хуулаад, нээх</translation>
 <translation id="4921348630401250116">Бичвэрийг ярианд хувиргах</translation>
-<translation id="4922104989726031751">Үйлдлийн системээрээ Нууц үгний менежерийг ашиглахын тулд Chromium-г дахин ачаалж, компьютерынхоо нууц үгний менежерт хандахыг зөвшөөрнө үү. Дахин ачаалсны дараа таны табуудыг дахин нээнэ.</translation>
+<translation id="4922104989726031751">Үйлдлийн системээрээ Нууц үгний менежерийг ашиглахын тулд Decentr-г дахин ачаалж, компьютерынхоо нууц үгний менежерт хандахыг зөвшөөрнө үү. Дахин ачаалсны дараа таны табуудыг дахин нээнэ.</translation>
 <translation id="492299503953721473">Андройд апп-г устгах</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" />-г устгаж байна...</translation>
 <translation id="4923977675318667854">Табын бүлгүүдийг харуулах</translation>
@@ -7202,7 +7202,7 @@
 <translation id="6314819609899340042">Та <ph name="IDS_SHORT_PRODUCT_NAME" /> төхөөрөмжинд алдаа засах тохиргоог амжилттай тохируулсан байна.</translation>
 <translation id="6315170314923504164">Дуу хоолой</translation>
 <translation id="6315493146179903667">Бүгдийг урд талд гаргах</translation>
-<translation id="6316432269411143858">Google ChromeOS-н нөхцөлийн агуулга</translation>
+<translation id="6316432269411143858">DecentrOS-н нөхцөлийн агуулга</translation>
 <translation id="6317369057005134371">Аппликейшний цонхыг хүлээж байна...</translation>
 <translation id="6318125393809743217">Бодлогын тохируулгатай policies.json файлыг багтаана.</translation>
 <translation id="6318407754858604988">Таталтыг эхлүүлсэн</translation>
@@ -7434,7 +7434,7 @@
 <translation id="6511607461419653612">Chromebook-ээ дахин эхлүүлээд дахин оролдоно уу</translation>
 <translation id="6511827214781912955"><ph name="FILENAME" />-г устгах талаар бодож үзээрэй. Ингэснээр энэ төхөөрөмжийг ашигладаг бусад хүн таны нууц үгийг харах боломжгүй болно</translation>
 <translation id="6512759338201777379"><ph name="MOOD" /> сэтгэл санааны байдалтай, <ph name="SUBJECT" />-н сэдэвтэй үүсгэсэн <ph name="INDEX" />-р зураг.</translation>
-<translation id="6513247462497316522">Хэрэв та өөр сүлжээнд холбогдоогүй байгаа тохиолдолд Google Chrome нь таны гар утасны дата эрхийг ашиглах болно.</translation>
+<translation id="6513247462497316522">Хэрэв та өөр сүлжээнд холбогдоогүй байгаа тохиолдолд Decentr нь таны гар утасны дата эрхийг ашиглах болно.</translation>
 <translation id="6514010653036109809">Боломжтой төхөөрөмж:</translation>
 <translation id="6517227424170598783">"<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />" товчлолыг хасах уу?</translation>
 <translation id="6517382055541687102">Сонгосон төхөөрөмжийг <ph name="DEVICE_NAME" /> болгож өөрчилсөн</translation>
@@ -8316,7 +8316,7 @@
 <translation id="7180611975245234373">Дахин сэргээх</translation>
 <translation id="7180865173735832675">Хүссэнээр өөрчлөх</translation>
 <translation id="7181117767881540376">&amp;Хавчуургын хэсгийг нуух</translation>
-<translation id="7181329571386134105"><ph name="CHILD_NAME" />-д ирээдүйн өргөтгөлүүдийг таны зөвшөөрөлгүйгээр суулгахыг зөвшөөрөхийн тулд төхөөрөмж дээрээ Family Link аппыг нээгээд, <ph name="CHILD_NAME" />-н Google Chrome-н тохиргоог шинэчилнэ үү.</translation>
+<translation id="7181329571386134105"><ph name="CHILD_NAME" />-д ирээдүйн өргөтгөлүүдийг таны зөвшөөрөлгүйгээр суулгахыг зөвшөөрөхийн тулд төхөөрөмж дээрээ Family Link аппыг нээгээд, <ph name="CHILD_NAME" />-н Decentr-н тохиргоог шинэчилнэ үү.</translation>
 <translation id="7182051712900867547">Өөр бүртгэл ашиглах</translation>
 <translation id="7182063559013288142">Шуурхай сүлжээний цэг</translation>
 <translation id="7182791023900310535">Нууц үгээ зөөх</translation>
@@ -10206,7 +10206,7 @@
 <translation id="855604308879080518">Энэ Chromebook дээр Android аппуудад USB төхөөрөмжид хандахыг зөвшөөрнө үү. Таныг USB төхөөрөмж залгах бүрд зөвшөөрөл хүснэ. Бие даасан Android аппууд нэмэлт зөвшөөрөл хүснэ.</translation>
 <translation id="8557022314818157177">Хурууны хээг автал аюулгүй байдлын түлхүүр дээрээ үргэлжлүүлэн хүрнэ үү</translation>
 <translation id="8557100046150195444">Үргэлжлүүлэхийн тулд хүрэлтийн ID оруулна уу</translation>
-<translation id="8557180006508471423">Mac дээрх Байршлын үйлчилгээндээ "Google Chrome"-г асаана уу</translation>
+<translation id="8557180006508471423">Mac дээрх Байршлын үйлчилгээндээ "Decentr"-г асаана уу</translation>
 <translation id="8557856025359704738">Дараагийн татан авалтыг <ph name="NEXT_DATE_DOWNLOAD" />-д хийнэ.</translation>
 <translation id="8558281414737757274">Google Бүртгэлийн нууц үг</translation>
 <translation id="8559858985063901027">Нууц үгнүүд</translation>

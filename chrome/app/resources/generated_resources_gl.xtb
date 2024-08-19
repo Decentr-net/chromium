@@ -921,7 +921,7 @@ Pode que se lle apliquen a esta conta os permisos que xa lles concedeses ás apl
 <translation id="1651008383952180276">Debes introducir a mesma frase de acceso dúas veces</translation>
 <translation id="1651609627703324721">Esta pestana está mostrando contido de RV nun visor</translation>
 <translation id="1652326691684645429">Activar Compartir por Nearby</translation>
-<translation id="1652862280638399816">Para poder usar o xestor de contrasinais con MacOS Keychain, reinicia Chromium e dálle acceso a Keychain. Despois do reinicio volverán abrirse as pestanas.</translation>
+<translation id="1652862280638399816">Para poder usar o xestor de contrasinais con MacOS Keychain, reinicia Decentr e dálle acceso a Keychain. Despois do reinicio volverán abrirse as pestanas.</translation>
 <translation id="1653958716132599769">Agrupar pestanas relacionadas</translation>
 <translation id="1654580009054503925">Non se permite mostrar solicitudes</translation>
 <translation id="1654713139320245449">Non se encontrou ningún dispositivo receptor de emisión. Precisas axuda?</translation>
@@ -1204,7 +1204,7 @@ Pode que se lle apliquen a esta conta os permisos que xa lles concedeses ás apl
 <translation id="186594096341696655">Reducir velocidade</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" pode ler e escribir en ficheiros de son, vídeo e imaxes nas localizacións seleccionadas.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> está preparado para completar a instalación</translation>
-<translation id="1868553836791672080">A comprobación de contrasinais non está dispoñible en Chromium.</translation>
+<translation id="1868553836791672080">A comprobación de contrasinais non está dispoñible en Decentr.</translation>
 <translation id="1868617395637139709">Utilizar a localización para as aplicacións e os servizos de Android.</translation>
 <translation id="1869433484041798909">Botón de marcador</translation>
 <translation id="1871098866036088250">Abrir no navegador Chrome</translation>
@@ -1930,7 +1930,7 @@ Se máis tarde decides que prefires que o teu fillo ou filla non utilice Voice M
 <translation id="2391805183137601570">Abrir Steam</translation>
 <translation id="2392369802118427583">Activar</translation>
 <translation id="2393136602862631930">Instala a aplicación <ph name="APP_NAME" /> no teu Chromebook</translation>
-<translation id="2393313392064891208">Contido das condicións de Google Chrome OS Flex</translation>
+<translation id="2393313392064891208">Contido das condicións de Decentr OS Flex</translation>
 <translation id="2395616325548404795">O teu <ph name="DEVICE_TYPE" /> inscribiuse correctamente para a xestión de empresas, pero non enviou a súa información de recursos e localización. Introduce manualmente esta información desde a consola de administración para este dispositivo.</translation>
 <translation id="2396783860772170191">Introduce o PIN de 4 díxitos (0000-9999)</translation>
 <translation id="2398546389094871088">Os perfís de eSIM non se quitarán ao executar a función Powerwash do dispositivo. Para quitalos de xeito manual, vai a <ph name="LINK_BEGIN" />Configuración para móbiles<ph name="LINK_END" />.</translation>
@@ -1992,7 +1992,7 @@ Se máis tarde decides que prefires que o teu fillo ou filla non utilice Voice M
 <translation id="2434449159125086437">Non se puido configurar a impresora. Comproba a configuración e téntao de novo.</translation>
 <translation id="2434758125294431199">Selecciona quen pode compartir contido contigo</translation>
 <translation id="2434915728183570229">Xa podes acceder ás aplicacións do teu teléfono</translation>
-<translation id="2435137177546457207">Condicións adicionais de Google Chrome e Chrome OS Flex</translation>
+<translation id="2435137177546457207">Condicións adicionais de Decentr e Chrome OS Flex</translation>
 <translation id="2435248616906486374">Rede desconectada</translation>
 <translation id="2435457462613246316">Mostrar contrasinal</translation>
 <translation id="2436385001956947090">Copiar &amp;ligazón</translation>
@@ -2981,7 +2981,7 @@ Podes xestionar a configuración desde o menú da tarxeta ou ver máis opcións 
 <translation id="3151539355209957474">Hora de inicio</translation>
 <translation id="3151786313568798007">Orientación</translation>
 <translation id="3152356229013609796">Consulta as notificacións do teu teléfono, ignóraas ou respóndeas</translation>
-<translation id="3155163173539279776">Reiniciar Chromium</translation>
+<translation id="3155163173539279776">Reiniciar Decentr</translation>
 <translation id="3157387275655328056">Engadir á lista de lectura</translation>
 <translation id="3157931365184549694">Restaurar</translation>
 <translation id="3158033540161634471">Configurar a túa impresión dixital</translation>
@@ -3866,7 +3866,7 @@ https://allthings.how/content/images/wordpress/2023/02/allthings.how-how-to-make
 <translation id="3798632811625902122">O dispositivo Bluetooth <ph name="DEVICE" /> solicita permiso para vincularse.</translation>
 <translation id="3798670284305777884">Altofalante (interno)</translation>
 <translation id="3799128412641261490">Configuración do acceso con interruptores</translation>
-<translation id="3800828618615365228">Condicións adicionais de Google Chrome e ChromeOS</translation>
+<translation id="3800828618615365228">Condicións adicionais de Decentr e ChromeOS</translation>
 <translation id="3800898876950197674">Para permitir esta extensión, pon o teu contrasinal.</translation>
 <translation id="3802486193901166966">Esta extensión non necesita permisos especiais e non ten ningún acceso adicional a sitios</translation>
 <translation id="380329542618494757">Nome</translation>
@@ -3888,7 +3888,7 @@ https://allthings.how/content/images/wordpress/2023/02/allthings.how-how-to-make
 <translation id="3810973564298564668">Xestionar</translation>
 <translation id="381202950560906753">Engadir outra</translation>
 <translation id="3812525830114410218">Certificado incorrecto</translation>
-<translation id="3813296892522778813">Accede á <ph name="BEGIN_LINK_CHROMIUM" />axuda de Google Chrome<ph name="END_LINK_CHROMIUM" /> se non atopas o que buscas.</translation>
+<translation id="3813296892522778813">Accede á <ph name="BEGIN_LINK_CHROMIUM" />axuda de Decentr<ph name="END_LINK_CHROMIUM" /> se non atopas o que buscas.</translation>
 <translation id="3813358687923336574">Idioma usado para a tradución das páxinas e para a función Respostas rápidas</translation>
 <translation id="3813458570141926987">Lista de temas que Chrome estima en función do teu historial de navegación recente</translation>
 <translation id="3814529970604306954">Conta do centro educativo</translation>
@@ -5354,7 +5354,7 @@ Se queres afastala, usa Control + Alt + Reducir brillo.</translation>
 <translation id="4918134162946436591">Mostrar superposición de suxestións</translation>
 <translation id="4918762404810341788">Copiar e abrir</translation>
 <translation id="4921348630401250116">Conversión de texto a voz</translation>
-<translation id="4922104989726031751">Para poder usar o xestor de contrasinais co teu sistema operativo, reinicia Chromium e permite o acceso ao xestor de contrasinais do teu ordenador. Despois do reinicio volverán abrirse as pestanas.</translation>
+<translation id="4922104989726031751">Para poder usar o xestor de contrasinais co teu sistema operativo, reinicia Decentr e permite o acceso ao xestor de contrasinais do teu ordenador. Despois do reinicio volverán abrirse as pestanas.</translation>
 <translation id="492299503953721473">Eliminar aplicacións para Android</translation>
 <translation id="492363500327720082">Desinstalando <ph name="APP_NAME" />…</translation>
 <translation id="4923977675318667854">Mostrar grupos de pestanas</translation>
@@ -7193,7 +7193,7 @@ Podes xestionar a configuración desde o menú da tarxeta ou ver máis opcións 
 <translation id="6314819609899340042">Activaches correctamente funcións de depuración neste dispositivo <ph name="IDS_SHORT_PRODUCT_NAME" />.</translation>
 <translation id="6315170314923504164">Voz</translation>
 <translation id="6315493146179903667">Traer todo para a parte frontal</translation>
-<translation id="6316432269411143858">Contido das condicións de Google Chrome OS</translation>
+<translation id="6316432269411143858">Contido das condicións de Decentr OS</translation>
 <translation id="6317369057005134371">Agardando pola ventá da aplicación...</translation>
 <translation id="6318125393809743217">Inclúe un ficheiro policies.json coas configuracións das políticas.</translation>
 <translation id="6318407754858604988">Iniciouse a descarga</translation>
@@ -7425,7 +7425,7 @@ Podes xestionar a configuración desde o menú da tarxeta ou ver máis opcións 
 <translation id="6511607461419653612">Reinicia o Chromebook e téntao de novo</translation>
 <translation id="6511827214781912955">Considera a posibilidade de eliminar <ph name="FILENAME" />, de modo que outras persoas que usen este dispositivo non vexan os teus contrasinais</translation>
 <translation id="6512759338201777379">Imaxe xerada <ph name="INDEX" /> de <ph name="SUBJECT" />. Estado de ánimo: <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">Google Chrome utilizará datos móbiles se non estás conectado a outra rede.</translation>
+<translation id="6513247462497316522">Decentr utilizará datos móbiles se non estás conectado a outra rede.</translation>
 <translation id="6514010653036109809">Dispositivo dispoñible:</translation>
 <translation id="6517227424170598783">Queres quitar o atallo <ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />?</translation>
 <translation id="6517382055541687102">O dispositivo seleccionado pasou a ser <ph name="DEVICE_NAME" /></translation>
@@ -8307,7 +8307,7 @@ Podes xestionar a configuración desde o menú da tarxeta ou ver máis opcións 
 <translation id="7180611975245234373">Actualizar</translation>
 <translation id="7180865173735832675">Personalizar</translation>
 <translation id="7181117767881540376">Ocultar barra de marcadores</translation>
-<translation id="7181329571386134105">Para permitir que <ph name="CHILD_NAME" /> instale as próximas extensións sen a túa aprobación, abre a aplicación Family Link no teu dispositivo e actualiza a configuración de Google Chrome de <ph name="CHILD_NAME" />.</translation>
+<translation id="7181329571386134105">Para permitir que <ph name="CHILD_NAME" /> instale as próximas extensións sen a túa aprobación, abre a aplicación Family Link no teu dispositivo e actualiza a configuración de Decentr de <ph name="CHILD_NAME" />.</translation>
 <translation id="7182051712900867547">Usar unha conta distinta</translation>
 <translation id="7182063559013288142">Zona wifi instantánea</translation>
 <translation id="7182791023900310535">Mover o teu contrasinal</translation>
@@ -10199,7 +10199,7 @@ Mantén o ficheiro de clave nun lugar seguro, xa que o precisarás para crear no
 <translation id="855604308879080518">Permite que as aplicacións para Android accedan a dispositivos USB neste Chromebook. Pediráseche permiso cada vez que conectes un dispositivo USB. As distintas aplicacións para Android solicitarán outros permisos adicionais.</translation>
 <translation id="8557022314818157177">Sigue tocando a chave de seguranza ata que se capture a túa impresión dixital</translation>
 <translation id="8557100046150195444">Usar Touch ID para continuar</translation>
-<translation id="8557180006508471423">No Mac, vai a Location Services (Servizos de localización) e activa Google Chrome</translation>
+<translation id="8557180006508471423">No Mac, vai a Location Services (Servizos de localización) e activa Decentr</translation>
 <translation id="8557856025359704738">A seguinte descarga terá lugar neste momento: <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Contrasinal da Conta de Google</translation>
 <translation id="8559858985063901027">Claves de acceso</translation>

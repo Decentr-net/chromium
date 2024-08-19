@@ -919,7 +919,7 @@
 <translation id="1651008383952180276">तपाईंले अनिवार्य रूपले उही पासफ्रेज दुई पटक प्रविष्ट गर्नुपर्छ</translation>
 <translation id="1651609627703324721">यो ट्याबले हेडसेटमा VR सामग्री प्रस्तुत गर्दै छ</translation>
 <translation id="1652326691684645429">नजिकैका डिभाइससँग सेयर गर्ने सुविधा सक्षम पार्नुहोस्</translation>
-<translation id="1652862280638399816">macOS Keychain का सहायताले पासवर्ड म्यानेजर प्रयोग गर्न Chromium रिलन्च गर्नुहोस् र Keychain प्रयोग गर्ने अनुमति दिनुहोस्। रिलन्च गरेपछि तपाईंका ट्याबहरू फेरि खुल्ने छन्।</translation>
+<translation id="1652862280638399816">macOS Keychain का सहायताले पासवर्ड म्यानेजर प्रयोग गर्न Decentr रिलन्च गर्नुहोस् र Keychain प्रयोग गर्ने अनुमति दिनुहोस्। रिलन्च गरेपछि तपाईंका ट्याबहरू फेरि खुल्ने छन्।</translation>
 <translation id="1653958716132599769">सम्बन्धित ट्याबहरू समूहबद्ध गर्नुहोस्</translation>
 <translation id="1654580009054503925">अनुरोधहरू देखाउने अनुमति दिइएको छैन</translation>
 <translation id="1654713139320245449">कास्ट गर्ने कुनै पनि गन्तव्य फेला परेन। मद्दत चाहिन्छ?</translation>
@@ -1202,7 +1202,7 @@
 <translation id="186594096341696655">रेट घटाउनुहोस्</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" ले जाँच गरिएका स्थानहरूमा रहेका फोटो, भिडियो, र ध्वनि फाइलहरू पढ्न र लेख्न सक्छ।</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> ले तपाइँको स्थापना पूर्ण गर्न तैयार छ</translation>
-<translation id="1868553836791672080">Chromium मा पासवर्ड जाँच गर्ने सुविधा उपलब्ध छैन</translation>
+<translation id="1868553836791672080">Decentr मा पासवर्ड जाँच गर्ने सुविधा उपलब्ध छैन</translation>
 <translation id="1868617395637139709">Android का एप तथा सेवाहरूका हकमा लोकेसन प्रयोग गर्नुहोस्।</translation>
 <translation id="1869433484041798909">बुकमार्क बटन</translation>
 <translation id="1871098866036088250">Chrome ब्राउजरमा खोलियोस्</translation>
@@ -1928,7 +1928,7 @@
 <translation id="2391805183137601570">Steam खोल्नुहोस्</translation>
 <translation id="2392369802118427583">सक्रिय</translation>
 <translation id="2393136602862631930">आफ्नो Chromebook मा <ph name="APP_NAME" /> सेटअप गर्नुहोस्</translation>
-<translation id="2393313392064891208">Google ChromeOS Flex का सर्तहरूमा भएको सामग्री</translation>
+<translation id="2393313392064891208">DecentrOS Flex का सर्तहरूमा भएको सामग्री</translation>
 <translation id="2395616325548404795">तपाईँको <ph name="DEVICE_TYPE" /> लाई सफलतापूर्वक इन्टरप्राइज व्यवस्थापनमा दर्ता गरिएको छ तर यसको सम्पत्ति र स्थान जानकारी पठाउन सकिएन। कृपया यस यन्त्रको तपाईँको प्रशासकीय कन्सोलबाट यो जानकारी म्यानुअल तरिकाले प्रविष्टि गर्नुहोस्।</translation>
 <translation id="2396783860772170191">चार अङ्कको पिन (००००-९९९९) प्रविष्टि गर्नुहोस्</translation>
 <translation id="2398546389094871088">तपाईंले आफ्नो डिभाइस पावरवास गर्नुभयो भने तपाईंका eSIM प्रोफाइलहरू हट्ने छैनन्। यी प्रोफाइलहरू म्यानुअल रूपमा हटाउन <ph name="LINK_BEGIN" />मोबाइल सेटिङ<ph name="LINK_END" />मा जानुहोस्।</translation>
@@ -1990,7 +1990,7 @@
 <translation id="2434449159125086437">प्रिन्टर सेटअप गर्न सकिएन। कृपया कन्फिगुरेसनको जाँच गरी फेरि प्रयास गर्नुहोस्।</translation>
 <translation id="2434758125294431199">तपाईंसँग कसले सेयर गर्न सक्छन् भन्ने कुरा चयन गर्नुहोस्</translation>
 <translation id="2434915728183570229">तपाईं अब आफ्नो फोनका एपहरू हेर्न सक्नुहुन्छ</translation>
-<translation id="2435137177546457207">Google Chrome र ChromeOS Flex का अतिरिक्त सर्तहरू</translation>
+<translation id="2435137177546457207">Decentr र ChromeOS Flex का अतिरिक्त सर्तहरू</translation>
 <translation id="2435248616906486374">सञ्जाल डिस्कनेक्ट गरिएको छ</translation>
 <translation id="2435457462613246316">पासवर्ड देखाउनुहोस्</translation>
 <translation id="2436385001956947090">लिंक कपी गर्नुहोस्</translation>
@@ -2910,7 +2910,7 @@
 <translation id="3090871774332213558">"<ph name="DEVICE_NAME" />" जोडि मिलाईयो</translation>
 <translation id="3093714882666365141">साइटहरूलाई भुक्तानी ह्यान्ड्लर इन्स्टल गर्ने अनुमति नदिनुहोस्</translation>
 <translation id="3094080575472025333">एपहरू ब्लक गर्नुहोस्</translation>
-<translation id="3094141017404513551">तपाईंले नयाँ Chromium प्रोफाइल प्रयोग गर्नुभयो भने तपाईंको ब्राउजिङ इतिहास र <ph name="EXISTING_USER" /> को ब्राउजिङ इतिहास छुट्टाछुट्टै सेभ गरिने छ</translation>
+<translation id="3094141017404513551">तपाईंले नयाँ Decentr प्रोफाइल प्रयोग गर्नुभयो भने तपाईंको ब्राउजिङ इतिहास र <ph name="EXISTING_USER" /> को ब्राउजिङ इतिहास छुट्टाछुट्टै सेभ गरिने छ</translation>
 <translation id="3094223846531205616">{COUNT,plural, =0{आज म्याद सकिन्छ}=1{भोलि म्याद सकिन्छ}other{# दिनमा म्याद सकिन्छ}}</translation>
 <translation id="3094521107841754472">मूल्य <ph name="PREVIOUS_PRICE" /> बाट परिवर्तन भई <ph name="CURRENT_PRICE" /> भएको छ।</translation>
 <translation id="3095871294753148861">बुकमार्क, पासवर्ड र ब्राउजरसम्बन्धी अन्य डेटा प्राथमिक खातामा सिंक गरिन्छन्।</translation>
@@ -2980,7 +2980,7 @@
 <translation id="3151539355209957474">सुरु हुने समय</translation>
 <translation id="3151786313568798007">अभिमुखीकरण</translation>
 <translation id="3152356229013609796">आफ्नो फोनमा प्राप्त भएका सूचनाहरू हेर्नुहोस् र हटाउनुहोस्। साथै, ती सूचनाको जवाफ दिनुहोस्</translation>
-<translation id="3155163173539279776">Chromium पुनः सुरु गर्नुहोस्</translation>
+<translation id="3155163173539279776">Decentr पुनः सुरु गर्नुहोस्</translation>
 <translation id="3157387275655328056">पाठ्य सूचीमा थप्नुहोस्</translation>
 <translation id="3157931365184549694">पुन: भण्डारण</translation>
 <translation id="3158033540161634471">आफ्नो फिंगरप्रिन्ट सेटअप गर्नुहोस्</translation>
@@ -3860,7 +3860,7 @@
 <translation id="3798632811625902122">ब्लुटुथ डिभाइस <ph name="DEVICE" /> ले कनेक्ट गर्ने अनुमति माग्दै छ।</translation>
 <translation id="3798670284305777884">स्पिकर (आन्तरिक)</translation>
 <translation id="3799128412641261490">स्विचमार्फत पहुँच राख्ने सुविधासम्बन्धी सेटिङ</translation>
-<translation id="3800828618615365228">Google Chrome र ChromeOS का अतिरिक्त सर्तहरू</translation>
+<translation id="3800828618615365228">Decentr र ChromeOS का अतिरिक्त सर्तहरू</translation>
 <translation id="3800898876950197674">यो एक्स्टेन्सनलाई अनुमति दिन पासवर्ड हाल्नुहोस्।</translation>
 <translation id="3802486193901166966">यो एक्स्टेन्सनलाई कुनै विशेष अनुमति दिनु पर्दैन र यसलाई साइटसम्बन्धी थप अनुमति दिइएको छैन</translation>
 <translation id="380329542618494757">नाम</translation>
@@ -3882,7 +3882,7 @@
 <translation id="3810973564298564668">व्यवस्थित गर्नुहोस्</translation>
 <translation id="381202950560906753">अर्को थप्नुहोस्</translation>
 <translation id="3812525830114410218">खराब प्रमाणपत्र</translation>
-<translation id="3813296892522778813">आफूले खोजी गरेका वस्तुहरू भेट्टाउनु भएन भने <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome सम्बन्धी मद्दत<ph name="END_LINK_CHROMIUM" /> मा जानुहोस्</translation>
+<translation id="3813296892522778813">आफूले खोजी गरेका वस्तुहरू भेट्टाउनु भएन भने <ph name="BEGIN_LINK_CHROMIUM" />Decentr सम्बन्धी मद्दत<ph name="END_LINK_CHROMIUM" /> मा जानुहोस्</translation>
 <translation id="3813358687923336574">पेज अनुवाद गर्न र द्रुत जवाफ देखाउन प्रयोग गरिने भाषा</translation>
 <translation id="3813458570141926987">तपाईंको हालसालैको ब्राउजिङ हिस्ट्रीका आधारमा Chrome ले अनुमान गरेका विषयहरूको सूची</translation>
 <translation id="3814529970604306954">विद्यालयको खाता</translation>
@@ -4324,7 +4324,7 @@
 <translation id="4132969033912447558"><ph name="FILE_NAME" /> डाउनलोड गर्ने कार्य सुचारु गर्नुहोस्</translation>
 <translation id="4133076602192971179">आफ्नो पासवर्ड बदल्न उक्त एप खोल्नुहोस्</translation>
 <translation id="4134838386867070505">चरण ४ मध्ये १: त्रुटिका बारेमा वर्णन गर्नुहोस्</translation>
-<translation id="4135746311382563554">Google Chrome र ChromeOS का सेवाका अतिरिक्त सर्तहरू</translation>
+<translation id="4135746311382563554">Decentr र ChromeOS का सेवाका अतिरिक्त सर्तहरू</translation>
 <translation id="4136203100490971508">रात्रि प्रकाश सूर्योदयको बेला स्वतः निष्क्रिय हुने छ</translation>
 <translation id="41365691917097717">जारी राख्नुले Android एपहरू सिर्जना गर्न र तिनको परीक्षण गर्ने प्रयोजनका लागि ADB डिबग प्रक्रिया सक्षम पार्ने छ। यस कारबाहीले Google ले प्रमाणीकरण नगरेका Android एपहरू इन्स्टल गर्ने अनुमति दिन्छ र यसलाई असक्षम पार्न फ्याक्ट्री रिसेट गर्नु पर्ने हुन्छ भन्ने कुरामा ध्यान दिनुहोस्।</translation>
 <translation id="4137923333452716643">आफूले रिडिङ मोडमा खोल्न चाहेको टेक्स्ट हाइलाइट गर्नुहोस्</translation>
@@ -5347,7 +5347,7 @@
 <translation id="4918134162946436591">हिन्ट ओभरले देखाउनुहोस्</translation>
 <translation id="4918762404810341788">कपी गर्नुहोस् र खोल्नुहोस्</translation>
 <translation id="4921348630401250116">टेक्स्ट-टू-स्पिच</translation>
-<translation id="4922104989726031751">अपरेटिङ सिस्टममा पासवर्ड म्यानेजर प्रयोग गर्न Chromium रिलन्च गर्नुहोस् र कम्प्युटरको पासवर्ड म्यानेजर प्रयोग गर्ने अनुमति दिनुहोस्। रिलन्च गरेपछि तपाईंका ट्याबहरू फेरि खुल्ने छन्।</translation>
+<translation id="4922104989726031751">अपरेटिङ सिस्टममा पासवर्ड म्यानेजर प्रयोग गर्न Decentr रिलन्च गर्नुहोस् र कम्प्युटरको पासवर्ड म्यानेजर प्रयोग गर्ने अनुमति दिनुहोस्। रिलन्च गरेपछि तपाईंका ट्याबहरू फेरि खुल्ने छन्।</translation>
 <translation id="492299503953721473">Android एपहरूलाई हटाउनुहोस्</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" /> अनइन्स्टल गर्दै...</translation>
 <translation id="4923977675318667854">ट्याब समूहहरू देखाउनुहोस्</translation>
@@ -5927,7 +5927,7 @@
 <translation id="5370819323174483825">पुन: लोड गर्नुहोस्</translation>
 <translation id="5372529912055771682">आपूर्ति गरिएएको नामांकन मोडलाई यो संस्करणको अपरेटिङ सिस्टमले समर्थन गर्दैन।  कृपया तपाईंले सबैभन्दा नयाँ संस्करण चलाईरहनुभएको छ भनि सुनिश्चित गर्नुहोस् र पुन: प्रयास गर्नुहोस्।</translation>
 <translation id="5372579129492968947">एक्स्टेन्सन अनपिन गर्नुहोस्</translation>
-<translation id="5372632722660566343">कुनै खातामा साइन इन नगरिकनै Chromium चलाउनुहोस्</translation>
+<translation id="5372632722660566343">कुनै खातामा साइन इन नगरिकनै Decentr चलाउनुहोस्</translation>
 <translation id="5375318608039113175">नजिकैका डिभाइससँग सेयर गर्ने सुविधा प्रयोग गरी कन्ट्याक्टमा भएका यी मान्छेहरूसँग सेयर गर्न आफ्नो कन्ट्याक्टमा उनीहरूको Google खातामा लिंक गरिएको इमेल ठेगाना हाल्नुहोस्।</translation>
 <translation id="5375577102295339548">साइटहरूले तपाईं बट होइन भन्ने कुरा पुष्टि गर्न सक्छन्</translation>
 <translation id="5376094717770783089">यसले साइटसम्बन्धी अनुमति माग्छ</translation>
@@ -7188,7 +7188,7 @@
 <translation id="6314819609899340042">तपाईंले सफलतापूर्वक यस <ph name="IDS_SHORT_PRODUCT_NAME" /> उपकरणमा डिबग सुविधाहरू सक्षम गर्नुभयो।</translation>
 <translation id="6315170314923504164">भ्वाइस</translation>
 <translation id="6315493146179903667">सबैलाई अगाडि ल्याउनुहोस्</translation>
-<translation id="6316432269411143858">Google ChromeOS का सर्तहरूमा भएको सामग्री</translation>
+<translation id="6316432269411143858">DecentrOS का सर्तहरूमा भएको सामग्री</translation>
 <translation id="6317369057005134371">एप सन्झ्याल प्रतिक्षा गर्दै...</translation>
 <translation id="6318125393809743217">पोलिसी कन्फिगुरेसनका साथमा policies.json फाइल समावेश गर्नुहोस्।</translation>
 <translation id="6318407754858604988">डाउनलोड सुरु भयो</translation>
@@ -7420,7 +7420,7 @@
 <translation id="6511607461419653612">आफ्नो Chromebook रिस्टार्ट गर्नुहोस् र फेरि प्रयास गर्नुहोस्</translation>
 <translation id="6511827214781912955">यो डिभाइस प्रयोग गर्ने अरू मान्छेले तपाईंका पासवर्ड देख्न नसकून भन्नाका लागि <ph name="FILENAME" /> मेटाउनुहोस्</translation>
 <translation id="6512759338201777379"><ph name="MOOD" /> भएको <ph name="SUBJECT" /> को सिर्जना गरिएको फोटो <ph name="INDEX" />।</translation>
-<translation id="6513247462497316522">यदि तपाइँ अर्को सञ्जालमा जडित हुनुहुन्न भने Google Chrome ले मोबाइल लगत प्रयोग गर्ने छ।</translation>
+<translation id="6513247462497316522">यदि तपाइँ अर्को सञ्जालमा जडित हुनुहुन्न भने Decentr ले मोबाइल लगत प्रयोग गर्ने छ।</translation>
 <translation id="6514010653036109809">उपलब्ध यन्त्र:</translation>
 <translation id="6517227424170598783">"<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />" सर्टकट हटाउने हो?</translation>
 <translation id="6517382055541687102">चयन गरिएको डिभाइस परिवर्तन गरी <ph name="DEVICE_NAME" /> बनाइयो</translation>
@@ -8302,7 +8302,7 @@
 <translation id="7180611975245234373">ताजा गर्नुहोस्</translation>
 <translation id="7180865173735832675">कस्टमाइज गर्नुहोस्</translation>
 <translation id="7181117767881540376">बुकमार्क बार लुकाउनुहोस्</translation>
-<translation id="7181329571386134105"><ph name="CHILD_NAME" /> लाई तपाईंको अनुमतिविनै भविष्यका एक्स्टेन्सनहरू इन्स्टल गर्ने अनुमति दिन आफ्नो डिभाइसमा Family Link एप खोल्नुहोस् र <ph name="CHILD_NAME" /> का Google Chrome सेटिङ अपडेट गर्नुहोस्।</translation>
+<translation id="7181329571386134105"><ph name="CHILD_NAME" /> लाई तपाईंको अनुमतिविनै भविष्यका एक्स्टेन्सनहरू इन्स्टल गर्ने अनुमति दिन आफ्नो डिभाइसमा Family Link एप खोल्नुहोस् र <ph name="CHILD_NAME" /> का Decentr सेटिङ अपडेट गर्नुहोस्।</translation>
 <translation id="7182051712900867547">कुनै अर्को खाता प्रयोग गर्नुहोस्</translation>
 <translation id="7182063559013288142">इन्स्टेन्ट हटस्पट</translation>
 <translation id="7182791023900310535">आफ्नो पासवर्ड खातामा सार्नुहोस्</translation>
@@ -10194,7 +10194,7 @@
 <translation id="855604308879080518">Android एपहरूलाई यो Chromebook मा भएका USB डिभाइसहरू प्रयोग गर्न दिनुहोस्। तपाईंले हरेक पटक कुनै USB डिभाइस छिराउँदा तपाईंसँग अनुमति मागिने छ। प्रत्येक Android एपहरूले अतिरिक्त अनुमति माग्ने छन्।</translation>
 <translation id="8557022314818157177">तपाईंको फिंगरप्रिन्ट नथपिँदासम्म आफ्नो सुरक्षा साँचोमा छोइरहनुहोस्</translation>
 <translation id="8557100046150195444">साइन इन गर्न टच ID प्रयोग गर्नुहोस्</translation>
-<translation id="8557180006508471423">Mac को लोकेसन सेवाहरूमा गई "Google Chrome" अन गर्नुहोस्</translation>
+<translation id="8557180006508471423">Mac को लोकेसन सेवाहरूमा गई "Decentr" अन गर्नुहोस्</translation>
 <translation id="8557856025359704738">अब <ph name="NEXT_DATE_DOWNLOAD" /> मा डाउनलोड गरिने छ।</translation>
 <translation id="8558281414737757274">Google खाताको पासवर्ड</translation>
 <translation id="8559858985063901027">पासकीहरू</translation>

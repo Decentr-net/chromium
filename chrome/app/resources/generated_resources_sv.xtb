@@ -923,7 +923,7 @@ Behörigheter som du redan har gett appar kan gälla för det här kontot. Du ka
 <translation id="1651008383952180276">Du måste ange samma lösenfras två gånger</translation>
 <translation id="1651609627703324721">På den här fliken visas VR-innehåll för en kikare</translation>
 <translation id="1652326691684645429">Aktivera Närdelning</translation>
-<translation id="1652862280638399816">Om du vill använda Lösenordshantering med en macOS-nyckelring ska du starta om Chromium och tillåta åtkomst till nyckelringen. Flikarna öppnas igen när du har startat om enheten.</translation>
+<translation id="1652862280638399816">Om du vill använda Lösenordshantering med en macOS-nyckelring ska du starta om Decentr och tillåta åtkomst till nyckelringen. Flikarna öppnas igen när du har startat om enheten.</translation>
 <translation id="1653958716132599769">Gruppera relaterade flikar</translation>
 <translation id="1654580009054503925">Får inte visa begäranden</translation>
 <translation id="1654713139320245449">Inga Cast-destinationer hittades. Behöver du hjälp?</translation>
@@ -1215,7 +1215,7 @@ Behörigheter som du redan har gett appar kan gälla för det här kontot. Du ka
 <translation id="186594096341696655">Minska hastighet</translation>
 <translation id="186612162884103683"><ph name="EXTENSION" /> kan läsa och skriva bilder, video och ljudfiler på de markerade platserna.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> kan nu slutföra installationen</translation>
-<translation id="1868553836791672080">Kontroll av lösenord är inte tillgängligt i Chromium</translation>
+<translation id="1868553836791672080">Kontroll av lösenord är inte tillgängligt i Decentr</translation>
 <translation id="1868617395637139709">Använd plats för Android-appar och Android-tjänster.</translation>
 <translation id="1869433484041798909">Knappen Bokmärke</translation>
 <translation id="1871098866036088250">Öppna i Chrome-webbläsaren</translation>
@@ -1944,7 +1944,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="2391805183137601570">Öppna Steam</translation>
 <translation id="2392369802118427583">Aktivera</translation>
 <translation id="2393136602862631930">Konfigurera <ph name="APP_NAME" /> på Chromebook</translation>
-<translation id="2393313392064891208">Användarvillkor för Google ChromeOS Flex</translation>
+<translation id="2393313392064891208">Användarvillkor för DecentrOS Flex</translation>
 <translation id="2395616325548404795"><ph name="DEVICE_TYPE" /> har registrerats för företagshantering, men har inte skickat tillgångs- och platsinformation. Ange informationen manuellt i administratörskonsolen för enheten.</translation>
 <translation id="2396783860772170191">Ange den fyrsiffriga pinkoden (0000–9999)</translation>
 <translation id="2398546389094871088">eSIM-profilerna tas inte bort vid en powerwash. Öppna <ph name="LINK_BEGIN" />Inställningar för mobil enhet<ph name="LINK_END" /> och ta bort profilerna manuellt.</translation>
@@ -2006,7 +2006,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="2434449159125086437">Det gick inte att konfigurera skrivaren. Kontrollera konfigurationen och försök igen.</translation>
 <translation id="2434758125294431199">Välj vem som kan dela med dig</translation>
 <translation id="2434915728183570229">Nu kan du se telefonens appar</translation>
-<translation id="2435137177546457207">Ytterligare villkor för Google Chrome och ChromeOS Flex</translation>
+<translation id="2435137177546457207">Ytterligare villkor för Decentr och ChromeOS Flex</translation>
 <translation id="2435248616906486374">Anslutningen till nätverket har avbrutits</translation>
 <translation id="2435457462613246316">Visa lösenord</translation>
 <translation id="2436385001956947090">Kopiera &amp;länk</translation>
@@ -2995,7 +2995,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="3151539355209957474">Starttid</translation>
 <translation id="3151786313568798007">Orientering</translation>
 <translation id="3152356229013609796">Visa, ignorera eller svara på aviseringar från telefonen</translation>
-<translation id="3155163173539279776">Starta om Chromium</translation>
+<translation id="3155163173539279776">Starta om Decentr</translation>
 <translation id="3157387275655328056">Lägg till i läslistan</translation>
 <translation id="3157931365184549694">Återställ</translation>
 <translation id="3158033540161634471">Konfigurera fingeravtryck</translation>
@@ -3877,7 +3877,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="3798632811625902122">Bluetooth-enheten <ph name="DEVICE" /> vill ha behörighet att parkoppla.</translation>
 <translation id="3798670284305777884">Högtalare (inbyggd)</translation>
 <translation id="3799128412641261490">Inställningar för brytarstyrning</translation>
-<translation id="3800828618615365228">Ytterligare villkor för Google Chrome och ChromeOS</translation>
+<translation id="3800828618615365228">Ytterligare villkor för Decentr och ChromeOS</translation>
 <translation id="3800898876950197674">Ange ditt lösenord om du vill tillåta tillägget.</translation>
 <translation id="3802486193901166966">Det här tillägget kräver inga särskilda behörigheter och har ingen extra webbplatsåtkomst.</translation>
 <translation id="380329542618494757">Namn</translation>
@@ -3899,7 +3899,7 @@ Du kan hantera inställningarna för det här kontot genom att installera Family
 <translation id="3810973564298564668">Hantera</translation>
 <translation id="381202950560906753">Lägg till ett till</translation>
 <translation id="3812525830114410218">Dåligt certifikat</translation>
-<translation id="3813296892522778813">Öppna <ph name="BEGIN_LINK_CHROMIUM" />Hjälp för Google Chrome<ph name="END_LINK_CHROMIUM" /> om du inte hittar vad du letar efter.</translation>
+<translation id="3813296892522778813">Öppna <ph name="BEGIN_LINK_CHROMIUM" />Hjälp för Decentr<ph name="END_LINK_CHROMIUM" /> om du inte hittar vad du letar efter.</translation>
 <translation id="3813358687923336574">Språk som används för att översätta sidor och Snabbinfo</translation>
 <translation id="3813458570141926987">En lista över ämnen som Chrome tror du gillar utifrån din senaste webbhistorik</translation>
 <translation id="3814529970604306954">Skolkonto</translation>
@@ -3929,7 +3929,7 @@ Detta kan omfatta information om installerad mjukvara, filer, webbläsaren och e
 <translation id="3826440694796503677">Administratören har inaktiverat möjligheten att lägga till fler Google-konton</translation>
 <translation id="3827774300009121996">&amp;Helskärm</translation>
 <translation id="3828029223314399057">Sök bland bokmärken</translation>
-<translation id="3828953470056652895">Jag har läst och godkänner <ph name="BEGIN_LINK1" />Googles användarvillkor<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />de ytterligare användarvillkoren för Google Chrome och ChromeOS<ph name="END_LINK2" /> samt <ph name="BEGIN_LINK3" />användarvillkoren för Play<ph name="END_LINK3" />.</translation>
+<translation id="3828953470056652895">Jag har läst och godkänner <ph name="BEGIN_LINK1" />Googles användarvillkor<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />de ytterligare användarvillkoren för Decentr och ChromeOS<ph name="END_LINK2" /> samt <ph name="BEGIN_LINK3" />användarvillkoren för Play<ph name="END_LINK3" />.</translation>
 <translation id="3829530269338026191"><ph name="WINDOW_TITLE" /> – Hög minnesanvändning – <ph name="MEMORY_VALUE" /></translation>
 <translation id="3829765597456725595">SMB-filresurs</translation>
 <translation id="3830470485672984938">Använd en annan nyckel</translation>
@@ -4342,7 +4342,7 @@ Detta kan omfatta information om installerad mjukvara, filer, webbläsaren och e
 <translation id="4132969033912447558">Återuppta <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">Öppna appen och ändra lösenordet</translation>
 <translation id="4134838386867070505">Steg 1 av 4: Beskriv problemet</translation>
-<translation id="4135746311382563554">Ytterligare användarvillkor för Google Chrome och ChromeOS</translation>
+<translation id="4135746311382563554">Ytterligare användarvillkor för Decentr och ChromeOS</translation>
 <translation id="4136203100490971508">Nattljuset släcks automatiskt vid soluppgången</translation>
 <translation id="41365691917097717">Om du fortsätter aktiveras felsökning med ADB för Android-appar som du skapar och testar. Observera att den här åtgärden tillåter att Android-appar som inte har verifierats av Google installeras. Du måste återställa enheten till standardinställningarna för att inaktivera detta.</translation>
 <translation id="4137923333452716643">Markera texten som du vill öppna i läsläget</translation>
@@ -5365,7 +5365,7 @@ Zooma ut med Ctrl + Alt + Minska ljusstyrkan.</translation>
 <translation id="4918134162946436591">Visa överlägg med tangentmappningar</translation>
 <translation id="4918762404810341788">Kopiera och öppna</translation>
 <translation id="4921348630401250116">Text till tal</translation>
-<translation id="4922104989726031751">Om du vill använda Lösenordshantering med operativsystemet ska du starta om Chromium och tillåta åtkomst till datorns lösenordshanterare. Flikarna öppnas igen när du har startat om enheten.</translation>
+<translation id="4922104989726031751">Om du vill använda Lösenordshantering med operativsystemet ska du starta om Decentr och tillåta åtkomst till datorns lösenordshanterare. Flikarna öppnas igen när du har startat om enheten.</translation>
 <translation id="492299503953721473">Ta bort Android-appar</translation>
 <translation id="492363500327720082">Avinstallerar <ph name="APP_NAME" /> …</translation>
 <translation id="4923977675318667854">Visa flikgrupper</translation>
@@ -7207,7 +7207,7 @@ Behörigheter som du redan har gett webbplatser och appar kan gälla för det h�
 <translation id="6314819609899340042">Du har aktiverat felsökningsfunktioner på den här <ph name="IDS_SHORT_PRODUCT_NAME" />-enheten.</translation>
 <translation id="6315170314923504164">Mikrofon</translation>
 <translation id="6315493146179903667">Flytta fram alla</translation>
-<translation id="6316432269411143858">Innehåll i villkor för Google ChromeOS</translation>
+<translation id="6316432269411143858">Innehåll i villkor för DecentrOS</translation>
 <translation id="6317369057005134371">Väntar på appfönstret ...</translation>
 <translation id="6318125393809743217">Ta med filen policies.json med principkonfigurationer.</translation>
 <translation id="6318407754858604988">Nedladdning påbörjad</translation>
@@ -7439,7 +7439,7 @@ Behörigheter som du redan har gett webbplatser och appar kan gälla för det h�
 <translation id="6511607461419653612">Starta om Chromebook och försök igen</translation>
 <translation id="6511827214781912955">Det kan vara bra att radera <ph name="FILENAME" /> så att andra som använder enheten inte kan se lösenorden</translation>
 <translation id="6512759338201777379">Genererad bild <ph name="INDEX" /> på <ph name="SUBJECT" /> med <ph name="MOOD" />-stämning.</translation>
-<translation id="6513247462497316522">Google Chrome kommer att använda mobila data om du inte är ansluten till ett annat nätverk.</translation>
+<translation id="6513247462497316522">Decentr kommer att använda mobila data om du inte är ansluten till ett annat nätverk.</translation>
 <translation id="6514010653036109809">Tillgänglig enhet:</translation>
 <translation id="6517227424170598783">Vill du ta bort genvägen <ph name="SHORTCUT_NAME" /> – <ph name="APP_NAME" />?</translation>
 <translation id="6517382055541687102">Den valda enheten har ändrats till <ph name="DEVICE_NAME" /></translation>
@@ -7747,7 +7747,7 @@ Det finns # utsatta lösenord till. Du rekommenderas av Google Lösenordshanteri
 <translation id="6746124502594467657">Flytta ned</translation>
 <translation id="674632704103926902">Aktivera "tryck och dra"</translation>
 <translation id="67465227497040338">Visa lösenord för <ph name="DOMAIN" /></translation>
-<translation id="6748980958975836188">Jag har läst och godkänner <ph name="BEGIN_LINK1" />Googles användarvillkor<ph name="END_LINK1" /> samt <ph name="BEGIN_LINK2" />de ytterligare användarvillkoren för Google Chrome och ChromeOS<ph name="END_LINK2" />.</translation>
+<translation id="6748980958975836188">Jag har läst och godkänner <ph name="BEGIN_LINK1" />Googles användarvillkor<ph name="END_LINK1" /> samt <ph name="BEGIN_LINK2" />de ytterligare användarvillkoren för Decentr och ChromeOS<ph name="END_LINK2" />.</translation>
 <translation id="6749473226660745022">Foton</translation>
 <translation id="6750757184909117990">Inaktivera mobilnätverk</translation>
 <translation id="6751344591405861699"><ph name="WINDOW_TITLE" /> (Inkognito)</translation>
@@ -8322,7 +8322,7 @@ Det finns # utsatta lösenord till. Du rekommenderas av Google Lösenordshanteri
 <translation id="7180611975245234373">Uppdatera</translation>
 <translation id="7180865173735832675">Anpassa</translation>
 <translation id="7181117767881540376">Dölj bokmärkesfältet</translation>
-<translation id="7181329571386134105">Om du vill tillåta att <ph name="CHILD_NAME" /> installerar framtida tillägg utan ditt godkännande ska du öppna Family Link-appen på din enhet och uppdatera Google Chrome-inställningarna för <ph name="CHILD_NAME" />.</translation>
+<translation id="7181329571386134105">Om du vill tillåta att <ph name="CHILD_NAME" /> installerar framtida tillägg utan ditt godkännande ska du öppna Family Link-appen på din enhet och uppdatera Decentr-inställningarna för <ph name="CHILD_NAME" />.</translation>
 <translation id="7182051712900867547">Använd ett annat konto</translation>
 <translation id="7182063559013288142">Snabb surfzon</translation>
 <translation id="7182791023900310535">Flytta lösenordet</translation>
@@ -10215,7 +10215,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="855604308879080518">Ge Android-appar åtkomst till USB-enheter på denna Chromebook. Du blir ombedd att ge behörighet varje gång du kopplar in en USB-enhet. Enskilda Android-appar kan begära ytterligare behörighet.</translation>
 <translation id="8557022314818157177">Fortsätt att trycka på säkerhetsnyckeln tills fingeravtrycket registreras</translation>
 <translation id="8557100046150195444">Använd Touch ID för att fortsätta</translation>
-<translation id="8557180006508471423">Aktivera Google Chrome under Platstjänster på Mac-datorn.</translation>
+<translation id="8557180006508471423">Aktivera Decentr under Platstjänster på Mac-datorn.</translation>
 <translation id="8557856025359704738">Nästa nedladdning: <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Lösenord för Google-konto</translation>
 <translation id="8559858985063901027">Nycklar</translation>

@@ -925,7 +925,7 @@
 <translation id="1651008383952180276">Вам трэба двойчы ўвесці аднолькавую фразу-пароль</translation>
 <translation id="1651609627703324721">Гэта ўкладка паказвае VR-змесціва на гарнітуры</translation>
 <translation id="1652326691684645429">Уключыць функцыю "Абагульванне паблізу"</translation>
-<translation id="1652862280638399816">Каб выкарыстоўваць Менеджар пароляў са звязкам ключоў macOS, перазапусціце Chromium і дайце адпаведны доступ. Пасля перазапуску ўкладкі будуць адкрыты паўторна.</translation>
+<translation id="1652862280638399816">Каб выкарыстоўваць Менеджар пароляў са звязкам ключоў macOS, перазапусціце Decentr і дайце адпаведны доступ. Пасля перазапуску ўкладкі будуць адкрыты паўторна.</translation>
 <translation id="1653958716132599769">Згрупаваць звязаныя ўкладкі</translation>
 <translation id="1654580009054503925">Пашырэнню не дазволена паказваць запыты</translation>
 <translation id="1654713139320245449">Аб’екты прызначэння для трансляцыі не знойдзены. Патрабуецца дапамога?</translation>
@@ -1208,7 +1208,7 @@
 <translation id="186594096341696655">Паменшыць частату</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" можа адкрываць і захоўваць відарысы, відэа- і аўдыяфайлы ў выбраных папках.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> гатовы завяршыць усталяванне</translation>
-<translation id="1868553836791672080">Праверка пароляў у браўзеры Chromium недаступная</translation>
+<translation id="1868553836791672080">Праверка пароляў у браўзеры Decentr недаступная</translation>
 <translation id="1868617395637139709">Выкарыстанне месцазнаходжання для забеспячэння работы сэрвісаў і праграм для Android.</translation>
 <translation id="1869433484041798909">Кнопка закладкі</translation>
 <translation id="1871098866036088250">Адкрываць у браўзеры Chrome</translation>
@@ -1932,7 +1932,7 @@
 <translation id="2391805183137601570">Адкрыць Steam</translation>
 <translation id="2392369802118427583">Уключыць</translation>
 <translation id="2393136602862631930">Усталюйце <ph name="APP_NAME" /> на свой Chromebook</translation>
-<translation id="2393313392064891208">Змест умоў выкарыстання АС Google Chrome OS Flex</translation>
+<translation id="2393313392064891208">Змест умоў выкарыстання АС Decentr OS Flex</translation>
 <translation id="2395616325548404795">Ваша прылада <ph name="DEVICE_TYPE" /> паспяхова зарэгістравана для карпаратыўнага кіравання, але не адправіла інфармацыю аб аб’екце ўласнасці і месцазнаходжанні. Увядзіце гэту інфармацыю пра прыладу ўручную на кансолі адміністратара.</translation>
 <translation id="2396783860772170191">Увядзіце 4-значны PIN-код (0000–9999)</translation>
 <translation id="2398546389094871088">Пры выкарыстанні функцыі Powerwash для скіду налад профілі eSIM-карты не выдаляюцца. Іх можна выдаліць уручную ў <ph name="LINK_BEGIN" />наладах мабільнай прылады<ph name="LINK_END" />.</translation>
@@ -1994,7 +1994,7 @@
 <translation id="2434449159125086437">Не ўдаецца наладзіць прынтар. Праверце параметры канфігурацыі і паўтарыце спробу.</translation>
 <translation id="2434758125294431199">Выберыце, хто можа ажыццяўляць абагульванне з вамі</translation>
 <translation id="2434915728183570229">Цяпер вы можаце праглядаць нядаўнія праграмы з тэлефона</translation>
-<translation id="2435137177546457207">Дадатковыя ўмовы Google Chrome і Chrome OS Flex</translation>
+<translation id="2435137177546457207">Дадатковыя ўмовы Decentr і Chrome OS Flex</translation>
 <translation id="2435248616906486374">Сетка адключана</translation>
 <translation id="2435457462613246316">Паказаць пароль</translation>
 <translation id="2436385001956947090">Капіраваць &amp;спасылку</translation>
@@ -2983,7 +2983,7 @@
 <translation id="3151539355209957474">Час пачатку</translation>
 <translation id="3151786313568798007">Арыентацыя</translation>
 <translation id="3152356229013609796">Праглядайце і закрывайце апавяшчэнні з тэлефона або адказвайце на іх</translation>
-<translation id="3155163173539279776">Перазапусціць Chromium</translation>
+<translation id="3155163173539279776">Перазапусціць Decentr</translation>
 <translation id="3157387275655328056">Дадаць у спіс чытання</translation>
 <translation id="3157931365184549694">Аднавіць</translation>
 <translation id="3158033540161634471">Наладжванне адбітка пальца</translation>
@@ -3822,7 +3822,7 @@
 <translation id="3771290962915251154">Гэта налада выключана, бо ўключаны бацькоўскі кантроль</translation>
 <translation id="3771294271822695279">Відэафайлы</translation>
 <translation id="3771851622616482156">Будзе выкананы выхад з гэтага сайта, у тым ліку на адкрытых укладках</translation>
-<translation id="3772046291955677288">Мною былі прачытаны <ph name="BEGIN_LINK1" />Умовы выкарыстання Google<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Дадатковыя ўмовы выкарыстання Google Chrome і Chrome OS<ph name="END_LINK2" />, і я згаджаюся з імі.</translation>
+<translation id="3772046291955677288">Мною былі прачытаны <ph name="BEGIN_LINK1" />Умовы выкарыстання Google<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Дадатковыя ўмовы выкарыстання Decentr і Chrome OS<ph name="END_LINK2" />, і я згаджаюся з імі.</translation>
 <translation id="3774059845329307709">Серыйны нумар</translation>
 <translation id="3774166835015494435">Нядаўнія фота і апавяшчэнні</translation>
 <translation id="3775432569830822555">Сертыфікат сервера SSL</translation>
@@ -3863,7 +3863,7 @@
 <translation id="3798632811625902122">Прылада з Bluetooth "<ph name="DEVICE" />" запытвае дазвол на спалучэнне.</translation>
 <translation id="3798670284305777884">Дынамік (унутраны)</translation>
 <translation id="3799128412641261490">Налады доступу праз пераключальнікі</translation>
-<translation id="3800828618615365228">Дадатковыя ўмовы Google Chrome і Chrome OS</translation>
+<translation id="3800828618615365228">Дадатковыя ўмовы Decentr і Chrome OS</translation>
 <translation id="3800898876950197674">Каб дазволіць выкарыстоўваць гэта пашырэнне, увядзіце пароль.</translation>
 <translation id="3802486193901166966">Пашырэнне не патрабуе спецыяльных дазволаў, і ў яго няма дадатковага доступу да сайтаў</translation>
 <translation id="380329542618494757">Імя</translation>
@@ -3885,7 +3885,7 @@
 <translation id="3810973564298564668">Кіраваць</translation>
 <translation id="381202950560906753">Дадаць яшчэ</translation>
 <translation id="3812525830114410218">Недапушчальны сертыфікат</translation>
-<translation id="3813296892522778813">Калі вы не знайшлі тое, што шукалі, адкрыйце<ph name="BEGIN_LINK_CHROMIUM" />Даведку Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Калі вы не знайшлі тое, што шукалі, адкрыйце<ph name="BEGIN_LINK_CHROMIUM" />Даведку Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Мова для перакладу старонак і для Хуткіх адказаў</translation>
 <translation id="3813458570141926987">Спіс тэм, падабраных браўзерам Chrome на падставе нядаўняй гісторыі прагляду вамі сайтаў</translation>
 <translation id="3814529970604306954">Навучальны ўліковы запіс</translation>
@@ -3915,7 +3915,7 @@
 <translation id="3826440694796503677">Адміністратар выключыў дадаванне іншых Уліковых запісаў Google</translation>
 <translation id="3827774300009121996">&amp;Поўнаэкранны рэжым</translation>
 <translation id="3828029223314399057">Шукаць у закладках</translation>
-<translation id="3828953470056652895">Мною былі прачытаны <ph name="BEGIN_LINK1" />Умовы выкарыстання Google<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />Дадатковыя ўмовы выкарыстання Google Chrome і Chrome OS<ph name="END_LINK2" /> і <ph name="BEGIN_LINK3" />Умовы выкарыстання Play<ph name="END_LINK3" />, і я згаджаюся з імі.</translation>
+<translation id="3828953470056652895">Мною былі прачытаны <ph name="BEGIN_LINK1" />Умовы выкарыстання Google<ph name="END_LINK1" />, <ph name="BEGIN_LINK2" />Дадатковыя ўмовы выкарыстання Decentr і Chrome OS<ph name="END_LINK2" /> і <ph name="BEGIN_LINK3" />Умовы выкарыстання Play<ph name="END_LINK3" />, і я згаджаюся з імі.</translation>
 <translation id="3829530269338026191"><ph name="WINDOW_TITLE" /> – Выкарыстоўваецца шмат памяці: <ph name="MEMORY_VALUE" /></translation>
 <translation id="3829765597456725595">Абагульванне файлаў праз SMB</translation>
 <translation id="3830470485672984938">Выкарыстаць іншы ключ доступу</translation>
@@ -4328,7 +4328,7 @@
 <translation id="4132969033912447558">Узнавіць спампоўванне файла "<ph name="FILE_NAME" />"</translation>
 <translation id="4133076602192971179">Каб змяніць пароль, адкрыйце праграму</translation>
 <translation id="4134838386867070505">Крок 1 з 4. Апішыце праблему</translation>
-<translation id="4135746311382563554">Дадатковыя ўмовы выкарыстання Google Chrome і Chrome OS</translation>
+<translation id="4135746311382563554">Дадатковыя ўмовы выкарыстання Decentr і Chrome OS</translation>
 <translation id="4136203100490971508">Начная падсветка выключыцца аўтаматычна пасля ўзыходу сонца</translation>
 <translation id="41365691917097717">Калі працягнуць, будзе ўключана адладка ADB для стварэння і тэсціравання праграм для Android. Звярніце ўвагу, што, уключыўшы ADB, вы дазваляеце ўсталёўваць праграмы для Android, якія не былі спраўджаны Google, а для выключэння ADB патрабуецца скід налад да заводскіх значэнняў.</translation>
 <translation id="4137923333452716643">Вылучыце тэкст, які неабходна адкрыць у рэжыме чытання</translation>
@@ -5351,7 +5351,7 @@
 <translation id="4918134162946436591">Паказваць падказкі</translation>
 <translation id="4918762404810341788">Капіраваць і адкрыць</translation>
 <translation id="4921348630401250116">Сінтэз маўлення</translation>
-<translation id="4922104989726031751">Каб выкарыстоўваць Менеджар пароляў з вашай аперацыйнай сістэмай, перазапусціце Chromium і дайце доступ да менеджара пароляў на вашым камп’ютары. Пасля перазапуску ўкладкі будуць адкрыты паўторна.</translation>
+<translation id="4922104989726031751">Каб выкарыстоўваць Менеджар пароляў з вашай аперацыйнай сістэмай, перазапусціце Decentr і дайце доступ да менеджара пароляў на вашым камп’ютары. Пасля перазапуску ўкладкі будуць адкрыты паўторна.</translation>
 <translation id="492299503953721473">Выдаліць праграмы Android</translation>
 <translation id="492363500327720082">Ідзе выдаленне праграмы <ph name="APP_NAME" />...</translation>
 <translation id="4923977675318667854">Паказваць групы ўкладак</translation>
@@ -7192,7 +7192,7 @@
 <translation id="6314819609899340042">Функцыі адладкі на гэтай прыладзе <ph name="IDS_SHORT_PRODUCT_NAME" /> уключаны.</translation>
 <translation id="6315170314923504164">Галасавы ўвод</translation>
 <translation id="6315493146179903667">Усё на пярэдні план</translation>
-<translation id="6316432269411143858">Тэкст Умоў выкарыстання Google Chrome OS</translation>
+<translation id="6316432269411143858">Тэкст Умоў выкарыстання Decentr OS</translation>
 <translation id="6317369057005134371">Чакаецца акно праграмы...</translation>
 <translation id="6318125393809743217">Уключыць файл policies.json з канфігурацыямі палітык.</translation>
 <translation id="6318407754858604988">Спампоўванне пачалося</translation>
@@ -7424,7 +7424,7 @@
 <translation id="6511607461419653612">Перазапусціце Chromebook і паўтарыце спробу</translation>
 <translation id="6511827214781912955">Рэкамендуем выдаліць файл "<ph name="FILENAME" />", каб іншыя карыстальнікі прылады не змаглі пабачыць вашы паролі</translation>
 <translation id="6512759338201777379">Згенерыраваны відарыс <ph name="INDEX" />, тэма: <ph name="SUBJECT" />, настрой: <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">Google Chrome будзе выкарыстоўваць мабільную перадачу даных, калі вы не падключаны да іншай сеткі.</translation>
+<translation id="6513247462497316522">Decentr будзе выкарыстоўваць мабільную перадачу даных, калі вы не падключаны да іншай сеткі.</translation>
 <translation id="6514010653036109809">Даступная прылада:</translation>
 <translation id="6517227424170598783">Выдаліць ярлык "<ph name="SHORTCUT_NAME" /> – <ph name="APP_NAME" />"?</translation>
 <translation id="6517382055541687102">Выбраная прылада заменена на наступную: <ph name="DEVICE_NAME" /></translation>
@@ -7738,7 +7738,7 @@
 <translation id="6746124502594467657">Перамясціць ніжэй</translation>
 <translation id="674632704103926902">Уключыць перацягванне дотыкам</translation>
 <translation id="67465227497040338">Паказаць пароль для <ph name="DOMAIN" /></translation>
-<translation id="6748980958975836188">Мною былі прачытаны <ph name="BEGIN_LINK1" />Умовы выкарыстання Google<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Дадатковыя ўмовы выкарыстання Google Chrome і Chrome OS<ph name="END_LINK2" />, і я згаджаюся з імі.</translation>
+<translation id="6748980958975836188">Мною былі прачытаны <ph name="BEGIN_LINK1" />Умовы выкарыстання Google<ph name="END_LINK1" /> і <ph name="BEGIN_LINK2" />Дадатковыя ўмовы выкарыстання Decentr і Chrome OS<ph name="END_LINK2" />, і я згаджаюся з імі.</translation>
 <translation id="6749473226660745022">Фота</translation>
 <translation id="6750757184909117990">Выключыць сотавую сетку</translation>
 <translation id="6751344591405861699"><ph name="WINDOW_TITLE" /> (інкогніта)</translation>
@@ -8312,7 +8312,7 @@
 <translation id="7180611975245234373">Абнавіць</translation>
 <translation id="7180865173735832675">Наладзіць</translation>
 <translation id="7181117767881540376">&amp;Схаваць панэль закладак</translation>
-<translation id="7181329571386134105"><ph name="CHILD_NAME" /> зможа ўсталёўваць пашырэнні без вашага ўхвалення, калі змяніць налады Google Chrome для карыстальніка <ph name="CHILD_NAME" />. Зрабіць гэта можна на прыладзе ў праграме Family Link.</translation>
+<translation id="7181329571386134105"><ph name="CHILD_NAME" /> зможа ўсталёўваць пашырэнні без вашага ўхвалення, калі змяніць налады Decentr для карыстальніка <ph name="CHILD_NAME" />. Зрабіць гэта можна на прыладзе ў праграме Family Link.</translation>
 <translation id="7182051712900867547">Выкарыстаць іншы ўліковы запіс</translation>
 <translation id="7182063559013288142">Імгненны хот-спот</translation>
 <translation id="7182791023900310535">Перамясціце пароль</translation>
@@ -10204,7 +10204,7 @@
 <translation id="855604308879080518">Дайце праграмам Android доступ да прылад USB на гэтай прыладзе Chromebook. Запыт дазволу будзе з’яўляцца пры кожным падключэнні прылады USB. Асобныя праграмы Android будуць запытваць дадатковыя дазволы.</translation>
 <translation id="8557022314818157177">Каб дадаць адбітак пальца, націскайце на ключ бяспекі</translation>
 <translation id="8557100046150195444">Каб працягнуць, увайдзіце з дапамогай Touch ID</translation>
-<translation id="8557180006508471423">Уключыце параметр "Google Chrome" у раздзеле Location Services ("Службы геалакацыі") на камп’ютары Mac</translation>
+<translation id="8557180006508471423">Уключыце параметр "Decentr" у раздзеле Location Services ("Службы геалакацыі") на камп’ютары Mac</translation>
 <translation id="8557856025359704738">Наступнае спампоўванне: <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Пароль Уліковага запісу Google</translation>
 <translation id="8559858985063901027">Ключы доступу</translation>

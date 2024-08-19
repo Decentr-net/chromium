@@ -921,7 +921,7 @@
 <translation id="1651008383952180276">同じパスフレーズを 2 回入力する必要があります</translation>
 <translation id="1651609627703324721">このタブはヘッドセットに VR コンテンツを配信しています</translation>
 <translation id="1652326691684645429">ニアバイシェアを有効にする</translation>
-<translation id="1652862280638399816">macOS キーチェーンでパスワード マネージャーを使用するには、Chromium を再起動してキーチェーンへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
+<translation id="1652862280638399816">macOS キーチェーンでパスワード マネージャーを使用するには、Decentr を再起動してキーチェーンへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
 <translation id="1653958716132599769">関連するタブをグループ化</translation>
 <translation id="1654580009054503925">リクエストの表示を許可しないウェブサイト</translation>
 <translation id="1654713139320245449">キャスト先が見つかりません。サポートが必要ですか？</translation>
@@ -1202,7 +1202,7 @@
 <translation id="186594096341696655">レートを減らす</translation>
 <translation id="186612162884103683">「<ph name="EXTENSION" />」はチェックした場所にある画像、動画、音声の各ファイルの読み込みと書き込みが可能です。</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> をインストールする準備ができました</translation>
-<translation id="1868553836791672080">Chromium では、パスワード確認をご利用いただけません</translation>
+<translation id="1868553836791672080">Decentr では、パスワード確認をご利用いただけません</translation>
 <translation id="1868617395637139709">位置情報を Android のアプリとサービスで使用します。</translation>
 <translation id="1869433484041798909">ブックマーク ボタン</translation>
 <translation id="1871098866036088250">Chrome ブラウザで開く</translation>
@@ -1926,7 +1926,7 @@
 <translation id="2391805183137601570">Steam を開く</translation>
 <translation id="2392369802118427583">有効にする</translation>
 <translation id="2393136602862631930">Chromebook で <ph name="APP_NAME" /> を設定</translation>
-<translation id="2393313392064891208">Google ChromeOS Flex 利用規約コンテンツ</translation>
+<translation id="2393313392064891208">DecentrOS Flex 利用規約コンテンツ</translation>
 <translation id="2395616325548404795">この <ph name="DEVICE_TYPE" /> は組織の管理対象として登録されましたが、アセットと位置情報を送信できませんでした。このデバイスの管理コンソールで、この情報を手動で入力してください。</translation>
 <translation id="2396783860772170191">4 桁の PIN（0000～9999）を入力してください</translation>
 <translation id="2398546389094871088">デバイスで Powerwash を実行しても eSIM プロファイルは削除されません。[<ph name="LINK_BEGIN" />モバイル設定<ph name="LINK_END" />] で次のプロファイルを手動で削除してください。</translation>
@@ -1988,7 +1988,7 @@
 <translation id="2434449159125086437">プリンタをセットアップできません。設定を確認してもう一度お試しください。</translation>
 <translation id="2434758125294431199">あなたとファイルを共有できる相手を選択してください</translation>
 <translation id="2434915728183570229">スマートフォンのアプリを表示できるようになりました</translation>
-<translation id="2435137177546457207">Google Chrome および ChromeOS Flex 追加利用規約</translation>
+<translation id="2435137177546457207">Decentr および ChromeOS Flex 追加利用規約</translation>
 <translation id="2435248616906486374">ネットワークが切断されました</translation>
 <translation id="2435457462613246316">パスワードを表示</translation>
 <translation id="2436385001956947090">リンクをコピー(&amp;L)</translation>
@@ -2976,7 +2976,7 @@
 <translation id="3151539355209957474">開始時間</translation>
 <translation id="3151786313568798007">向き</translation>
 <translation id="3152356229013609796">スマートフォンの通知を確認する、閉じる、返信するなどの操作を行います</translation>
-<translation id="3155163173539279776">Chromium を再起動します</translation>
+<translation id="3155163173539279776">Decentr を再起動します</translation>
 <translation id="3157387275655328056">リーディング リストに追加</translation>
 <translation id="3157931365184549694">復元</translation>
 <translation id="3158033540161634471">指紋の設定</translation>
@@ -3855,7 +3855,7 @@
 <translation id="3798632811625902122">Bluetooth デバイス <ph name="DEVICE" /> がペア設定の権限をリクエストしています。</translation>
 <translation id="3798670284305777884">スピーカー（内蔵）</translation>
 <translation id="3799128412641261490">スイッチ アクセスの設定</translation>
-<translation id="3800828618615365228">Google Chrome および Chrome OS 追加利用規約</translation>
+<translation id="3800828618615365228">Decentr および Chrome OS 追加利用規約</translation>
 <translation id="3800898876950197674">この拡張機能を許可するには、パスワードを入力してください。</translation>
 <translation id="3802486193901166966">この拡張機能では、特別な権限は必要なく、追加のサイトアクセスは行われません</translation>
 <translation id="380329542618494757">名前</translation>
@@ -3877,7 +3877,7 @@
 <translation id="3810973564298564668">管理</translation>
 <translation id="381202950560906753">別の指紋を登録</translation>
 <translation id="3812525830114410218">不適切な証明書</translation>
-<translation id="3813296892522778813">探しているものが見つからない場合は、<ph name="BEGIN_LINK_CHROMIUM" />Google Chrome のヘルプ<ph name="END_LINK_CHROMIUM" />をご覧ください。</translation>
+<translation id="3813296892522778813">探しているものが見つからない場合は、<ph name="BEGIN_LINK_CHROMIUM" />Decentr のヘルプ<ph name="END_LINK_CHROMIUM" />をご覧ください。</translation>
 <translation id="3813358687923336574">ページの翻訳とクイック アンサーに使用する言語</translation>
 <translation id="3813458570141926987">最近の閲覧履歴に基づき Chrome で抽出されたトピックのリスト</translation>
 <translation id="3814529970604306954">学校用アカウント</translation>
@@ -4320,7 +4320,7 @@
 <translation id="4132969033912447558"><ph name="FILE_NAME" /> を再開</translation>
 <translation id="4133076602192971179">アプリを開いてパスワードを変更</translation>
 <translation id="4134838386867070505">ステップ 1/4: 問題の内容を入力</translation>
-<translation id="4135746311382563554">Google Chrome および Chrome OS 追加利用規約</translation>
+<translation id="4135746311382563554">Decentr および Chrome OS 追加利用規約</translation>
 <translation id="4136203100490971508">夜間モードは日の出時刻に自動的にオフになります</translation>
 <translation id="41365691917097717">続行すると、ADB デバッグによる Android アプリの作成とテストが可能になります。この操作を行うと、Google が確認していない Android アプリのインストールが許可されます。無効にする場合は、出荷時の設定へのリセットが必要になります。</translation>
 <translation id="4137923333452716643">リーディング モードで表示するテキストを選択</translation>
@@ -5341,7 +5341,7 @@
 <translation id="4918134162946436591">ヒントをオーバーレイ表示する</translation>
 <translation id="4918762404810341788">コピーして開く</translation>
 <translation id="4921348630401250116">テキスト読み上げ</translation>
-<translation id="4922104989726031751">お使いのオペレーティング システムでパスワード マネージャーを使用するには、Chromium を再起動してパソコンのパスワード マネージャーへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
+<translation id="4922104989726031751">お使いのオペレーティング システムでパスワード マネージャーを使用するには、Decentr を再起動してパソコンのパスワード マネージャーへのアクセスを許可してください。再起動すると、タブが再度開きます。</translation>
 <translation id="492299503953721473">Android アプリを削除</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" /> をアンインストールしています...</translation>
 <translation id="4923977675318667854">タブグループを表示</translation>
@@ -7180,7 +7180,7 @@
 <translation id="6314819609899340042">この <ph name="IDS_SHORT_PRODUCT_NAME" /> デバイスでデバッグ機能が有効になりました。</translation>
 <translation id="6315170314923504164">音声</translation>
 <translation id="6315493146179903667">すべてを手前に移動</translation>
-<translation id="6316432269411143858">Google Chrome OS 利用規約コンテンツ</translation>
+<translation id="6316432269411143858">Decentr OS 利用規約コンテンツ</translation>
 <translation id="6317369057005134371">アプリケーション ウィンドウを待機しています...</translation>
 <translation id="6318125393809743217">ポリシー設定の policies.json ファイルを含める。</translation>
 <translation id="6318407754858604988">ダウンロードを開始しました</translation>
@@ -7412,7 +7412,7 @@
 <translation id="6511607461419653612">Chromebook を再起動してから、もう一度お試しください</translation>
 <translation id="6511827214781912955"><ph name="FILENAME" /> を削除して、このデバイスを使用する他のユーザーがパスワードを確認できないようにすることを検討してください</translation>
 <translation id="6512759338201777379">生成画像 <ph name="INDEX" />/<ph name="SUBJECT" />、ムード: <ph name="MOOD" />。</translation>
-<translation id="6513247462497316522">他のネットワークに接続していない場合、Google Chrome はモバイル データを使用します。</translation>
+<translation id="6513247462497316522">他のネットワークに接続していない場合、Decentr はモバイル データを使用します。</translation>
 <translation id="6514010653036109809">接続可能なデバイス:</translation>
 <translation id="6517227424170598783">「<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />」のショートカットを削除しますか？</translation>
 <translation id="6517382055541687102">選択デバイスが <ph name="DEVICE_NAME" /> に変更されました</translation>
@@ -8293,7 +8293,7 @@
 <translation id="7180611975245234373">更新</translation>
 <translation id="7180865173735832675">カスタマイズ</translation>
 <translation id="7181117767881540376">ブックマーク バーを非表示(&amp;H)</translation>
-<translation id="7181329571386134105">今後、保護者の承認を得ずに <ph name="CHILD_NAME" /> さんが拡張機能をインストールできるようにするには、保護者のデバイスでファミリー リンク アプリを開いて、<ph name="CHILD_NAME" /> さんの Google Chrome の設定を更新してください。</translation>
+<translation id="7181329571386134105">今後、保護者の承認を得ずに <ph name="CHILD_NAME" /> さんが拡張機能をインストールできるようにするには、保護者のデバイスでファミリー リンク アプリを開いて、<ph name="CHILD_NAME" /> さんの Decentr の設定を更新してください。</translation>
 <translation id="7182051712900867547">別のアカウントを使用</translation>
 <translation id="7182063559013288142">インスタント アクセス ポイント</translation>
 <translation id="7182791023900310535">パスワードを移動</translation>
@@ -10184,7 +10184,7 @@
 <translation id="855604308879080518">この Chromebook で Android アプリから USB デバイスへのアクセスを許可します。USB デバイスを接続するたびに許可するよう要求されます。一部の Android アプリでは、他の権限も許可するよう要求される場合があります。</translation>
 <translation id="8557022314818157177">指紋の登録が完了するまで、セキュリティ キーをタッチし続けてください</translation>
 <translation id="8557100046150195444">Touch ID で続行する</translation>
-<translation id="8557180006508471423">Mac の位置情報サービスで「Google Chrome」をオンにしてください</translation>
+<translation id="8557180006508471423">Mac の位置情報サービスで「Decentr」をオンにしてください</translation>
 <translation id="8557856025359704738">次回のダウンロードは <ph name="NEXT_DATE_DOWNLOAD" /> に行われます。</translation>
 <translation id="8558281414737757274">Google アカウントのパスワード</translation>
 <translation id="8559858985063901027">パスキー</translation>

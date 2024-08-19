@@ -924,7 +924,7 @@ Heimildir sem þú hefur þegar veitt forritum kunna að gilda á þessum reikni
 <translation id="1651008383952180276">Þú verður að slá sama aðgangsorðið inn tvisvar</translation>
 <translation id="1651609627703324721">Þessi flipi sýnir sýndarveruleikaefni í höfuðtólum</translation>
 <translation id="1652326691684645429">Kveikja á Nærdeilingu</translation>
-<translation id="1652862280638399816">Til að nota Aðgangsorðastjórnun með macOS Keychain skaltu endurræsa Chromium og veita Keychain aðgang. Fliparnir þínir opnast aftur eftir endurræsingu.</translation>
+<translation id="1652862280638399816">Til að nota Aðgangsorðastjórnun með macOS Keychain skaltu endurræsa Decentr og veita Keychain aðgang. Fliparnir þínir opnast aftur eftir endurræsingu.</translation>
 <translation id="1653958716132599769">Flokka tengda flipa saman</translation>
 <translation id="1654580009054503925">Má ekki sýna beiðnir</translation>
 <translation id="1654713139320245449">Engir áfangastaðir fundust fyrir vörpun. Þarftu aðstoð?</translation>
@@ -1216,7 +1216,7 @@ Heimildir sem þú hefur þegar veitt forritum kunna að gilda á þessum reikni
 <translation id="186594096341696655">Draga úr tíðni</translation>
 <translation id="186612162884103683">„<ph name="EXTENSION" />“ getur lesið og skrifað myndir, myndskeið og hljóðskrár á stöðunum sem merkt er við.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> er tilbúið til að ljúka uppsetningunni</translation>
-<translation id="1868553836791672080">Ekki er hægt að athuga aðgangsorð í Chromium</translation>
+<translation id="1868553836791672080">Ekki er hægt að athuga aðgangsorð í Decentr</translation>
 <translation id="1868617395637139709">Nota staðsetningu fyrir Android forrit og þjónustur.</translation>
 <translation id="1869433484041798909">Bókamerkishnappur</translation>
 <translation id="1871098866036088250">Opna í Chrome vafra</translation>
@@ -1945,7 +1945,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2391805183137601570">Opna Steam</translation>
 <translation id="2392369802118427583">Virkja</translation>
 <translation id="2393136602862631930">Settu <ph name="APP_NAME" /> upp í Chromebook</translation>
-<translation id="2393313392064891208">Efni skilmála Google ChromeOS Flex</translation>
+<translation id="2393313392064891208">Efni skilmála DecentrOS Flex</translation>
 <translation id="2395616325548404795"><ph name="DEVICE_TYPE" /> var skráð í umsjón fyrirtækis en sendi ekki eignar- og staðsetningarupplýsingar sínar. Sláðu þessar upplýsingar inn handvirkt á Admin console fyrir þetta tæki.</translation>
 <translation id="2396783860772170191">Færðu inn 4 stafa PIN-númer (0000-9999)</translation>
 <translation id="2398546389094871088">Djúphreinsun tækisins fjarlægir ekki eSIM-prófílana þína. Opnaðu <ph name="LINK_BEGIN" />Farsímastillingar<ph name="LINK_END" /> til að fjarlægja þessa prófíla handvirkt.</translation>
@@ -2007,7 +2007,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="2434449159125086437">Ekki tókst að setja upp prentara. Athugaðu stillinguna og reyndu aftur.</translation>
 <translation id="2434758125294431199">Veldu hver getur deilt efni með þér</translation>
 <translation id="2434915728183570229">Nú geturðu séð forrit símans</translation>
-<translation id="2435137177546457207">Viðbótarskilmálar Google Chrome og ChromeOs Flex</translation>
+<translation id="2435137177546457207">Viðbótarskilmálar Decentr og ChromeOs Flex</translation>
 <translation id="2435248616906486374">Nettenging slitnaði</translation>
 <translation id="2435457462613246316">Sýna aðgangsorð</translation>
 <translation id="2436385001956947090">Afrita tengil</translation>
@@ -2996,7 +2996,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3151539355209957474">Upphafstími</translation>
 <translation id="3151786313568798007">Stefna</translation>
 <translation id="3152356229013609796">Skoðaðu, hunsaðu og svaraðu tilkynningum símans</translation>
-<translation id="3155163173539279776">Endurræsa Chromium</translation>
+<translation id="3155163173539279776">Endurræsa Decentr</translation>
 <translation id="3157387275655328056">Bæta við leslista</translation>
 <translation id="3157931365184549694">Endurheimta</translation>
 <translation id="3158033540161634471">Skráðu fingrafarið þitt</translation>
@@ -3878,7 +3878,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3798632811625902122">Bluetooth-tækið <ph name="DEVICE" /> biður um heimild til að parast.</translation>
 <translation id="3798670284305777884">Hátalari (innbyggður)</translation>
 <translation id="3799128412641261490">Stillingar rofaaðgangs</translation>
-<translation id="3800828618615365228">Viðbótarskilmálar Google Chrome og ChromeOS</translation>
+<translation id="3800828618615365228">Viðbótarskilmálar Decentr og ChromeOS</translation>
 <translation id="3800898876950197674">Sláðu inn aðgangsorðið þitt til að leyfa þessa viðbót.</translation>
 <translation id="3802486193901166966">Þessi viðbót þarf engar sérstakar heimildir og hún hefur engan viðbótaraðgang að vefsvæðum</translation>
 <translation id="380329542618494757">Nafn</translation>
@@ -3900,7 +3900,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="3810973564298564668">Stjórna</translation>
 <translation id="381202950560906753">Bæta öðru við</translation>
 <translation id="3812525830114410218">Ógilt vottorð</translation>
-<translation id="3813296892522778813">Opnaðu <ph name="BEGIN_LINK_CHROMIUM" />aðstoð Google Chrome<ph name="END_LINK_CHROMIUM" /> ef þú finnur ekki það sem þú leitar að.</translation>
+<translation id="3813296892522778813">Opnaðu <ph name="BEGIN_LINK_CHROMIUM" />aðstoð Decentr<ph name="END_LINK_CHROMIUM" /> ef þú finnur ekki það sem þú leitar að.</translation>
 <translation id="3813358687923336574">Tungumál notað til að þýða síður og skjót svör</translation>
 <translation id="3813458570141926987">Listi yfir umfjöllunarefni sem Chrome hefur áætlað út frá nýlegum vafraferli</translation>
 <translation id="3814529970604306954">Skólareikningur</translation>
@@ -4343,7 +4343,7 @@ Annars skaltu skrá þig út núna svo breytingarnar á þessum reikningi taki g
 <translation id="4132969033912447558">Halda áfram í <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">Opnaðu forritið til að breyta aðgangsorðinu þínu</translation>
 <translation id="4134838386867070505">Skref 1 af 4: Lýstu vandamálinu</translation>
-<translation id="4135746311382563554">Viðbótarþjónustuskilmálar Google Chrome og Chrome OS</translation>
+<translation id="4135746311382563554">Viðbótarþjónustuskilmálar Decentr og Chrome OS</translation>
 <translation id="4136203100490971508">Slekkur sjálfkrafa á næturljósi við sólsetur</translation>
 <translation id="41365691917097717">Ef þú heldur áfram kveikir þú á ADB-villuleit til að búa til og prófa Android forrit. Hafðu í huga að þessi aðgerð gerir þér kleift að setja upp Android forrit sem eru ekki staðfest af Google. Núllstilla þarf tækið til að slökkva á þessu.</translation>
 <translation id="4137923333452716643">Yfirstrikaðu textann sem þú vilt að opnist í lesstillingu</translation>
@@ -5366,7 +5366,7 @@ Notaðu Ctrl + Alt + minnka birtustig til að minnka aðdrátt.</translation>
 <translation id="4918134162946436591">Sýna yfirlögn stýringa</translation>
 <translation id="4918762404810341788">Afrita og opna</translation>
 <translation id="4921348630401250116">Upplestur</translation>
-<translation id="4922104989726031751">Til að nota Aðgangsorðastjórnun með stýrikerfinu þínu skaltu endurræsa Chromium og veita aðgang að aðgangsorðastjórnun tölvunnar. Fliparnir þínir opnast aftur eftir endurræsingu.</translation>
+<translation id="4922104989726031751">Til að nota Aðgangsorðastjórnun með stýrikerfinu þínu skaltu endurræsa Decentr og veita aðgang að aðgangsorðastjórnun tölvunnar. Fliparnir þínir opnast aftur eftir endurræsingu.</translation>
 <translation id="492299503953721473">Fjarlægja Android forrit</translation>
 <translation id="492363500327720082">Fjarlægir <ph name="APP_NAME" />...</translation>
 <translation id="4923977675318667854">Sýna flipahópa</translation>
@@ -7208,7 +7208,7 @@ Heimildir sem þú hefur þegar veitt vefsvæðum og forritum kunna að gilda á
 <translation id="6314819609899340042">Þú hefur gert eiginleika villuleitar virka í þessu <ph name="IDS_SHORT_PRODUCT_NAME" /> tæki.</translation>
 <translation id="6315170314923504164">Tal</translation>
 <translation id="6315493146179903667">Færa allt fram</translation>
-<translation id="6316432269411143858">Innihald skilmála Google ChromeOS</translation>
+<translation id="6316432269411143858">Innihald skilmála DecentrOS</translation>
 <translation id="6317369057005134371">Bíður eftir glugga forrits...</translation>
 <translation id="6318125393809743217">Hafa policies.json skrá með reglustillingum með.</translation>
 <translation id="6318407754858604988">Niðurhal hafið</translation>
@@ -7440,7 +7440,7 @@ Heimildir sem þú hefur þegar veitt vefsvæðum og forritum kunna að gilda á
 <translation id="6511607461419653612">Endurræstu Chromebook og reyndu aftur</translation>
 <translation id="6511827214781912955">Íhugaðu að eyða <ph name="FILENAME" /> til að aðrir notendur tækisins geti ekki skoðað aðgangsorðin þín</translation>
 <translation id="6512759338201777379">Tilbúin mynd <ph name="INDEX" /> af <ph name="SUBJECT" /> með <ph name="MOOD" />-stemningu.</translation>
-<translation id="6513247462497316522">Google Chrome notar farsímagögn ef þú ert ekki með tengingu við annað net.</translation>
+<translation id="6513247462497316522">Decentr notar farsímagögn ef þú ert ekki með tengingu við annað net.</translation>
 <translation id="6514010653036109809">Tiltækt tæki:</translation>
 <translation id="6517227424170598783">Fjarlægja flýtileiðina „<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />“?</translation>
 <translation id="6517382055541687102">Valið tæki breyttist í <ph name="DEVICE_NAME" /></translation>
@@ -8324,7 +8324,7 @@ Heimildir sem þú hefur þegar veitt vefsvæðum og forritum kunna að gilda á
 <translation id="7180611975245234373">Endurnýja</translation>
 <translation id="7180865173735832675">Sérsníða</translation>
 <translation id="7181117767881540376">Fela bókamerkjastiku</translation>
-<translation id="7181329571386134105">Til að leyfa að <ph name="CHILD_NAME" /> geti sett upp viðbætur seinna meir án þíns samþykkis skaltu opna Family Link-forritið í tækinu þínu og uppfæra Google Chrome-stillingar sem <ph name="CHILD_NAME" /> hefur aðgang að.</translation>
+<translation id="7181329571386134105">Til að leyfa að <ph name="CHILD_NAME" /> geti sett upp viðbætur seinna meir án þíns samþykkis skaltu opna Family Link-forritið í tækinu þínu og uppfæra Decentr-stillingar sem <ph name="CHILD_NAME" /> hefur aðgang að.</translation>
 <translation id="7182051712900867547">Nota annan reikning</translation>
 <translation id="7182063559013288142">Heitur reitur í skyndi</translation>
 <translation id="7182791023900310535">Færðu aðgangsorðið</translation>
@@ -10216,7 +10216,7 @@ Geymdu lykilskrána á öruggum stað. Þú þarft hana til að búa til nýjar 
 <translation id="855604308879080518">Veita Android forritum aðgang að USB-tækjum í þessari Chromebook. Beðið verður um heimild í hvert sinn sem þú stingur USB-tæki í samband. Hvert og eitt Android forrit mun biðja um viðbótarheimildir.</translation>
 <translation id="8557022314818157177">Haltu áfram að ýta á öryggislykilinn þinn þangað til fingrafarið greinist</translation>
 <translation id="8557100046150195444">Snertiauðkenni til að halda áfram</translation>
-<translation id="8557180006508471423">Kveiktu á „Google Chrome“ í staðsetningarþjónustum Mac-tölvunnar</translation>
+<translation id="8557180006508471423">Kveiktu á „Decentr“ í staðsetningarþjónustum Mac-tölvunnar</translation>
 <translation id="8557856025359704738">Næst verður hlaðið niður <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Aðgangsorð Google-reiknings</translation>
 <translation id="8559858985063901027">Aðgangslyklar</translation>

@@ -926,7 +926,7 @@ Mae'n bosib y bydd caniatadau rydych eisoes wedi'u rhoi i apiau yn berthnasol i'
 <translation id="1651008383952180276">Rhaid i chi nodi'r un cyfrinymadrodd ddwywaith</translation>
 <translation id="1651609627703324721">Mae'r tab hwn yn cyflwyno cynnwys VR i glustffonau</translation>
 <translation id="1652326691684645429">Galluogi Rhannu Gerllaw</translation>
-<translation id="1652862280638399816">I ddefnyddio'r Rheolwr Cyfrineiriau gyda macOS Keychain, ail-lansiwch Chromium a chaniatewch fynediad Keychain. Bydd eich tabiau yn ailagor ar ôl ail-lansio.</translation>
+<translation id="1652862280638399816">I ddefnyddio'r Rheolwr Cyfrineiriau gyda macOS Keychain, ail-lansiwch Decentr a chaniatewch fynediad Keychain. Bydd eich tabiau yn ailagor ar ôl ail-lansio.</translation>
 <translation id="1653958716132599769">Grwpio tabiau cysylltiedig</translation>
 <translation id="1654580009054503925">Ni chaniateir dangos ceisiadau</translation>
 <translation id="1654713139320245449">Ni chanfuwyd unrhyw gyrchfannau castio. Angen help?</translation>
@@ -1218,7 +1218,7 @@ Mae'n bosib y bydd caniatadau rydych eisoes wedi'u rhoi i apiau yn berthnasol i'
 <translation id="186594096341696655">Gostwng y gyfradd</translation>
 <translation id="186612162884103683">Gall <ph name="EXTENSION" /> ddarllen ac ysgrifennu lluniau, fideos a ffeiliau sain yn y lleoliadau sydd wedi'u ticio.</translation>
 <translation id="1867780286110144690">Mae <ph name="PRODUCT_NAME" /> yn barod i gwblhau eich gosodiad</translation>
-<translation id="1868553836791672080">Nid yw gwiriad cyfrinair ar gael yn Chromium</translation>
+<translation id="1868553836791672080">Nid yw gwiriad cyfrinair ar gael yn Decentr</translation>
 <translation id="1868617395637139709">Defnyddio lleoliad ar gyfer apiau a gwasanaethau Android.</translation>
 <translation id="1869433484041798909">Botwm nod tudalen</translation>
 <translation id="1871098866036088250">Agor mewn porwr Chrome</translation>
@@ -1947,7 +1947,7 @@ Mae Voice Match yn helpu Google Assistant i adnabod llais <ph name="SUPERVISED_U
 <translation id="2391805183137601570">Agor Steam</translation>
 <translation id="2392369802118427583">Gweithredu</translation>
 <translation id="2393136602862631930">Gosodwch <ph name="APP_NAME" /> ar eich Chromebook</translation>
-<translation id="2393313392064891208">Cynnwys Telerau Google ChromeOS Flex</translation>
+<translation id="2393313392064891208">Cynnwys Telerau DecentrOS Flex</translation>
 <translation id="2395616325548404795">Mae eich <ph name="DEVICE_TYPE" /> wedi'i gofrestru'n llwyddiannus ar gyfer rheoli busnes, ond methodd ag anfon gwybodaeth am ei ased a lleoliad. Rhowch y wybodaeth hon â llaw o'ch panel gweinyddwr ar gyfer y ddyfais hon.</translation>
 <translation id="2396783860772170191">Rhowch PIN 4 digid (0000-9999)</translation>
 <translation id="2398546389094871088">Ni fydd defnyddio Powerwash ar eich dyfais yn tynnu'ch proffiliau eSIM. Ewch i'r <ph name="LINK_BEGIN" />Gosodiadau Symudol<ph name="LINK_END" /> i dynnu'r proffiliau hyn yn bwrpasol.</translation>
@@ -2009,7 +2009,7 @@ Mae Voice Match yn helpu Google Assistant i adnabod llais <ph name="SUPERVISED_U
 <translation id="2434449159125086437">Dim modd gosod yr argraffydd. Gwiriwch y ffurfweddiad a rhowch gynnig arall arni.</translation>
 <translation id="2434758125294431199">Dewiswch pwy all rannu gyda chi</translation>
 <translation id="2434915728183570229">Gallwch bellach weld apiau eich ffôn</translation>
-<translation id="2435137177546457207">Telerau Ychwanegol Google Chrome a ChromeOS Flex</translation>
+<translation id="2435137177546457207">Telerau Ychwanegol Decentr a ChromeOS Flex</translation>
 <translation id="2435248616906486374">Mae'r rhwydwaith wedi'i ddatgysylltu</translation>
 <translation id="2435457462613246316">Dangos y cyfrinair</translation>
 <translation id="2436385001956947090">Copïo &amp;dolen</translation>
@@ -2998,7 +2998,7 @@ Mae <ph name="DOMAIN" /> yn gofyn i chi gadw'ch cerdyn smart wedi'i fewnosod.</t
 <translation id="3151539355209957474">Amser dechrau</translation>
 <translation id="3151786313568798007">Gogwydd</translation>
 <translation id="3152356229013609796">Gweld, gwrthod, ac ymateb i hysbysebion eich ffôn</translation>
-<translation id="3155163173539279776">Ail-lansio Chromium</translation>
+<translation id="3155163173539279776">Ail-lansio Decentr</translation>
 <translation id="3157387275655328056">Ychwanegu at y Rhestr Ddarllen</translation>
 <translation id="3157931365184549694">Adfer</translation>
 <translation id="3158033540161634471">Gosod eich ôl bys</translation>
@@ -3880,7 +3880,7 @@ Mae <ph name="DOMAIN" /> yn gofyn i chi gadw'ch cerdyn smart wedi'i fewnosod.</t
 <translation id="3798632811625902122">Hoffai'r ddyfais Bluetooth <ph name="DEVICE" /> gael caniatâd i baru.</translation>
 <translation id="3798670284305777884">Seinydd (mewnol)</translation>
 <translation id="3799128412641261490">Gosodiadau switsh mynediad</translation>
-<translation id="3800828618615365228">Telerau Ychwanegol Google Chrome a ChromeOS</translation>
+<translation id="3800828618615365228">Telerau Ychwanegol Decentr a ChromeOS</translation>
 <translation id="3800898876950197674">I ganiatáu'r estyniad hwn, rhowch eich cyfrinair.</translation>
 <translation id="3802486193901166966">Nid oes angen caniatadau arbennig ar gyfer yr estyniad hwn ac nid oes ganddo fynediad ychwanegol at y wefan</translation>
 <translation id="380329542618494757">Enw</translation>
@@ -3902,7 +3902,7 @@ Mae <ph name="DOMAIN" /> yn gofyn i chi gadw'ch cerdyn smart wedi'i fewnosod.</t
 <translation id="3810973564298564668">Rheoli</translation>
 <translation id="381202950560906753">Ychwanegu un arall</translation>
 <translation id="3812525830114410218">Tystysgrif wael</translation>
-<translation id="3813296892522778813">Ewch i <ph name="BEGIN_LINK_CHROMIUM" />Help Google Chrome<ph name="END_LINK_CHROMIUM" /> os na allwch ddod o hyd i'r hyn rydych yn chwilio amdano</translation>
+<translation id="3813296892522778813">Ewch i <ph name="BEGIN_LINK_CHROMIUM" />Help Decentr<ph name="END_LINK_CHROMIUM" /> os na allwch ddod o hyd i'r hyn rydych yn chwilio amdano</translation>
 <translation id="3813358687923336574">Yr iaith a ddefnyddir ar gyfer cyfieithu tudalennau ac Atebion cyflym</translation>
 <translation id="3813458570141926987">Rhestr o bynciau a amcangyfrifwyd gan Chrome yn seiliedig ar eich hanes pori diweddar</translation>
 <translation id="3814529970604306954">Cyfrif Ysgol</translation>
@@ -4345,7 +4345,7 @@ Gall hyn gynnwys gwybodaeth am feddalwedd sydd wedi'i gosod, ffeiliau, eich porw
 <translation id="4132969033912447558">Ailddechrau <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">Agorwch yr ap i newid eich cyfrinair</translation>
 <translation id="4134838386867070505">Cam 1 o 4: Disgrifiwch y broblem</translation>
-<translation id="4135746311382563554">Telerau Gwasanaeth ychwanegol Google Chrome a Chrome OS</translation>
+<translation id="4135746311382563554">Telerau Gwasanaeth ychwanegol Decentr a Chrome OS</translation>
 <translation id="4136203100490971508">Bydd Golau Nos yn diffodd yn awtomatig wrth i'r haul godi</translation>
 <translation id="41365691917097717">Bydd parhau yn galluogi dadfygio ADB ar gyfer creu a phrofi apiau Android. Sylwer bod y weithred hon yn caniatáu gosod apiau Android nad ydynt wedi'u dilysu gan Google, ac mae angen ailosod i'r gosodiadau ffatri i'w hanalluogi.</translation>
 <translation id="4137923333452716643">Uwcholeuwch y testun rydych chi am ei agor yn y modd darllen</translation>
@@ -5368,7 +5368,7 @@ Defnyddiwch Ctrl + Alt + Lleihau disgleirdeb i bellhau.</translation>
 <translation id="4918134162946436591">Dangos y droshaen awgrymiadau</translation>
 <translation id="4918762404810341788">Copïo ac agor</translation>
 <translation id="4921348630401250116">Testun i Leferydd</translation>
-<translation id="4922104989726031751">I ddefnyddio Rheolwr Cyfrineiriau gyda'ch system weithredu, ail-lansiwch Chromium a chaniatáu mynediad at reolwr cyfrineiriau eich cyfrifiadur. Bydd eich tabiau yn ailagor ar ôl ail-lansio.</translation>
+<translation id="4922104989726031751">I ddefnyddio Rheolwr Cyfrineiriau gyda'ch system weithredu, ail-lansiwch Decentr a chaniatáu mynediad at reolwr cyfrineiriau eich cyfrifiadur. Bydd eich tabiau yn ailagor ar ôl ail-lansio.</translation>
 <translation id="492299503953721473">Tynnu apiau Android</translation>
 <translation id="492363500327720082">Wrthi’n dadosod <ph name="APP_NAME" />...</translation>
 <translation id="4923977675318667854">Dangos Grwpiau Tab</translation>
@@ -7210,7 +7210,7 @@ Mae <ph name="DOMAIN" /> yn gofyn i chi gadw'ch cerdyn smart wedi'i fewnosod.</t
 <translation id="6314819609899340042">Rydych wedi galluogi nodweddion dadfygio ar y ddyfais <ph name="IDS_SHORT_PRODUCT_NAME" /> hon yn llwyddiannus.</translation>
 <translation id="6315170314923504164">Llais</translation>
 <translation id="6315493146179903667">Dod â Phob Un i'r Blaen</translation>
-<translation id="6316432269411143858">Cynnwys Telerau Google ChromeOS</translation>
+<translation id="6316432269411143858">Cynnwys Telerau DecentrOS</translation>
 <translation id="6317369057005134371">Wrthi'n aros am ffenestr yr ap...</translation>
 <translation id="6318125393809743217">Cynhwyswch ffeil policies.json gyda ffurfweddiadau polisi.</translation>
 <translation id="6318407754858604988">Wedi dechrau lawrlwytho</translation>
@@ -7442,7 +7442,7 @@ Mae <ph name="DOMAIN" /> yn gofyn i chi gadw'ch cerdyn smart wedi'i fewnosod.</t
 <translation id="6511607461419653612">Ailgychwynnwch eich Chromebook a rhowch gynnig arall arni</translation>
 <translation id="6511827214781912955">Ystyriwch ddileu <ph name="FILENAME" />, fel na all eraill sy'n defnyddio'r ddyfais hon weld eich cyfrineiriau</translation>
 <translation id="6512759338201777379">Llun wedi'i gynhyrchu <ph name="INDEX" /> o <ph name="SUBJECT" />, gyda hwyl <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">Bydd Google Chrome yn defnyddio data symudol os nad ydych wedi'ch cysylltu â rhwydwaith arall.</translation>
+<translation id="6513247462497316522">Bydd Decentr yn defnyddio data symudol os nad ydych wedi'ch cysylltu â rhwydwaith arall.</translation>
 <translation id="6514010653036109809">Dyfais sydd ar gael:</translation>
 <translation id="6517227424170598783">Tynnu llwybr byr "<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />"?</translation>
 <translation id="6517382055541687102">Newidiodd y ddyfais a ddewiswyd i <ph name="DEVICE_NAME" /></translation>
@@ -8332,7 +8332,7 @@ Mae gennych # cyfrinair arall sydd wedi'u darganfod. Mae Rheolwr Cyfrineiriau Go
 <translation id="7180611975245234373">Ail-lwytho</translation>
 <translation id="7180865173735832675">Personoleiddio</translation>
 <translation id="7181117767881540376">&amp;Cuddio'r bar nodau tudalen</translation>
-<translation id="7181329571386134105">Er mwyn caniatáu i <ph name="CHILD_NAME" /> osod estyniadau yn y dyfodol heb eich cymeradwyaeth, agorwch yr ap Family Link ar eich dyfais a diweddarwch osodiadau Google Chrome <ph name="CHILD_NAME" />.</translation>
+<translation id="7181329571386134105">Er mwyn caniatáu i <ph name="CHILD_NAME" /> osod estyniadau yn y dyfodol heb eich cymeradwyaeth, agorwch yr ap Family Link ar eich dyfais a diweddarwch osodiadau Decentr <ph name="CHILD_NAME" />.</translation>
 <translation id="7182051712900867547">Defnyddio cyfrif gwahanol</translation>
 <translation id="7182063559013288142">Poethfan sydyn</translation>
 <translation id="7182791023900310535">Symud eich cyfrinair</translation>
@@ -10224,7 +10224,7 @@ Cadwch eich ffeil allwedd mewn man diogel. Bydd ei hangen arnoch i greu fersiyna
 <translation id="855604308879080518">Gadewch i apiau Android gyrchu dyfeisiau USB ar y Chromebook hwn. Gofynnir am ganiatâd bob tro y byddwch yn plygio dyfais USB i mewn. Bydd apiau Android unigol yn gofyn am ganiatâd ychwanegol.</translation>
 <translation id="8557022314818157177">Parhewch i gyffwrdd â'ch allwedd ddiogelwch nes bod eich olion bysedd wedi'i dynnu</translation>
 <translation id="8557100046150195444">Touch ID i barhau</translation>
-<translation id="8557180006508471423">Trowch "Google Chrome" ymlaen yn y Gwasanaethau Lleoliad ar eich Mac</translation>
+<translation id="8557180006508471423">Trowch "Decentr" ymlaen yn y Gwasanaethau Lleoliad ar eich Mac</translation>
 <translation id="8557856025359704738">Mae'r lawrlwythiad nesaf am <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Cyfrinair Cyfrif Google</translation>
 <translation id="8559858985063901027">Codau pas</translation>

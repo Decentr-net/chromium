@@ -922,7 +922,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1651008383952180276">Has d'escriure la mateixa frase de contrasenya dues vegades</translation>
 <translation id="1651609627703324721">Aquesta pestanya està mostrant contingut de realitat virtual en un visor</translation>
 <translation id="1652326691684645429">Activa Compartició Nearby</translation>
-<translation id="1652862280638399816">Per utilitzar el gestor de contrasenyes amb el clauer de macOS, reinicia Chromium i permet l'accés al clauer. Les pestanyes es tornaran a obrir després de reiniciar.</translation>
+<translation id="1652862280638399816">Per utilitzar el gestor de contrasenyes amb el clauer de macOS, reinicia Decentr i permet l'accés al clauer. Les pestanyes es tornaran a obrir després de reiniciar.</translation>
 <translation id="1653958716132599769">Agrupa les pestanyes relacionades</translation>
 <translation id="1654580009054503925">Sense permís per mostrar sol·licituds</translation>
 <translation id="1654713139320245449">No s'han trobat destinacions d'emissió. Necessites ajuda?</translation>
@@ -1205,7 +1205,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="186594096341696655">Disminueix la velocitat</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" pot llegir imatges, vídeos i fitxers d'àudio de les ubicacions marcades, així com escriure-hi.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> està llest per completar la instal·lació</translation>
-<translation id="1868553836791672080">La comprovació de contrasenyes no està disponible a Chromium</translation>
+<translation id="1868553836791672080">La comprovació de contrasenyes no està disponible a Decentr</translation>
 <translation id="1868617395637139709">Utilitza la ubicació per a les aplicacions i els serveis d'Android.</translation>
 <translation id="1869433484041798909">Botó d'adreça d'interès</translation>
 <translation id="1871098866036088250">Obre al navegador Chrome</translation>
@@ -1931,7 +1931,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2391805183137601570">Obre Steam</translation>
 <translation id="2392369802118427583">Activa</translation>
 <translation id="2393136602862631930">Configura <ph name="APP_NAME" /> al Chromebook</translation>
-<translation id="2393313392064891208">Contingut de les condicions de Google ChromeOS Flex</translation>
+<translation id="2393313392064891208">Contingut de les condicions de DecentrOS Flex</translation>
 <translation id="2395616325548404795">El teu dispositiu <ph name="DEVICE_TYPE" /> s'ha inscrit correctament a la gestió empresarial, però no ha pogut enviar la informació d'elements i d'ubicació. Introdueix aquesta informació manualment a la consola d'administració del dispositiu.</translation>
 <translation id="2396783860772170191">Introdueix un PIN de 4 dígits (0000-9999)</translation>
 <translation id="2398546389094871088">En executar la funció Powerwash al dispositiu, no se suprimiran els teus perfils eSIM. Ves a <ph name="LINK_BEGIN" />Configuració de l'accés mòbil<ph name="LINK_END" /> per suprimir manualment aquests perfils.</translation>
@@ -1993,7 +1993,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2434449159125086437">La impressora no es pot configurar. Comprova'n la configuració i torna-ho a provar.</translation>
 <translation id="2434758125294431199">Selecciona qui pot compartir contingut amb tu</translation>
 <translation id="2434915728183570229">Ara pots consultar les aplicacions del telèfon</translation>
-<translation id="2435137177546457207">Condicions addicionals de Google Chrome i ChromeOS Flex</translation>
+<translation id="2435137177546457207">Condicions addicionals de Decentr i ChromeOS Flex</translation>
 <translation id="2435248616906486374">S'ha desconnectat la xarxa</translation>
 <translation id="2435457462613246316">Mostra la contrasenya</translation>
 <translation id="2436385001956947090">Copia l'&amp;enllaç</translation>
@@ -2982,7 +2982,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3151539355209957474">Hora d'inici</translation>
 <translation id="3151786313568798007">Orientació</translation>
 <translation id="3152356229013609796">Consulta les notificacions del telèfon, ignora-les o respon-hi</translation>
-<translation id="3155163173539279776">Torna a iniciar Chromium</translation>
+<translation id="3155163173539279776">Torna a iniciar Decentr</translation>
 <translation id="3157387275655328056">Afegeix a la llista de lectura</translation>
 <translation id="3157931365184549694">Restaura</translation>
 <translation id="3158033540161634471">Configura l'empremta digital</translation>
@@ -3862,7 +3862,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3798632811625902122">El dispositiu Bluetooth <ph name="DEVICE" /> sol·licita permís per vincular-se.</translation>
 <translation id="3798670284305777884">Altaveu (intern)</translation>
 <translation id="3799128412641261490">Configuració d'Accés amb interruptors</translation>
-<translation id="3800828618615365228">Condicions addicionals de Google Chrome i Chrome OS</translation>
+<translation id="3800828618615365228">Condicions addicionals de Decentr i Chrome OS</translation>
 <translation id="3800898876950197674">Per permetre aquesta extensió, introdueix la contrasenya.</translation>
 <translation id="3802486193901166966">Aquesta extensió no requereix cap permís especial i no té accés a cap lloc web addicional</translation>
 <translation id="380329542618494757">Nom</translation>
@@ -3884,7 +3884,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3810973564298564668">Gestiona</translation>
 <translation id="381202950560906753">Afegeix-ne una altra</translation>
 <translation id="3812525830114410218">Certificat incorrecte</translation>
-<translation id="3813296892522778813">Si no trobes el que busques, ves a l'<ph name="BEGIN_LINK_CHROMIUM" />ajuda de Google Chrome<ph name="END_LINK_CHROMIUM" /></translation>
+<translation id="3813296892522778813">Si no trobes el que busques, ves a l'<ph name="BEGIN_LINK_CHROMIUM" />ajuda de Decentr<ph name="END_LINK_CHROMIUM" /></translation>
 <translation id="3813358687923336574">Idioma utilitzat per traduir pàgines i per a les Respostes ràpides</translation>
 <translation id="3813458570141926987">Llista de temes estimats per Chrome en funció del teu historial de navegació recent</translation>
 <translation id="3814529970604306954">Compte de centre educatiu</translation>
@@ -4326,7 +4326,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4132969033912447558">Reprèn <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">Obre l'aplicació per canviar la contrasenya</translation>
 <translation id="4134838386867070505">Pas 1 de 4: descriu el problema</translation>
-<translation id="4135746311382563554">Condicions del servei addicionals de Google Chrome i Chrome OS</translation>
+<translation id="4135746311382563554">Condicions del servei addicionals de Decentr i Chrome OS</translation>
 <translation id="4136203100490971508">La funció Llum nocturna es desactivarà automàticament a l'alba</translation>
 <translation id="41365691917097717">Si continues, s'activarà la depuració d'ADB per crear i provar les aplicacions d'Android. Tingues en compte que aquesta acció permet instal·lar aplicacions d'Android que Google no ha verificat. Per desactivar ADB, hauràs de restablir les dades de fàbrica del dispositiu.</translation>
 <translation id="4137923333452716643">Marca el text que vols que s'obri en mode de lectura</translation>
@@ -5349,7 +5349,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="4918134162946436591">Mostra la superposició de suggeriments</translation>
 <translation id="4918762404810341788">Copia i obre</translation>
 <translation id="4921348630401250116">Text a parla</translation>
-<translation id="4922104989726031751">Per utilitzar el gestor de contrasenyes amb el teu sistema operatiu, reinicia Chromium i permet l'accés al gestor de contrasenyes de l'ordinador. Les pestanyes es tornaran a obrir després de reiniciar.</translation>
+<translation id="4922104989726031751">Per utilitzar el gestor de contrasenyes amb el teu sistema operatiu, reinicia Decentr i permet l'accés al gestor de contrasenyes de l'ordinador. Les pestanyes es tornaran a obrir després de reiniciar.</translation>
 <translation id="492299503953721473">Suprimeix les aplicacions per a Android</translation>
 <translation id="492363500327720082">S'està desinstal·lant <ph name="APP_NAME" />...</translation>
 <translation id="4923977675318667854">Mostra els grups de pestanyes</translation>
@@ -7189,7 +7189,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6314819609899340042">Heu activat correctament les funcions de depuració en aquest dispositiu <ph name="IDS_SHORT_PRODUCT_NAME" />.</translation>
 <translation id="6315170314923504164">Veu</translation>
 <translation id="6315493146179903667">Porta-ho tot al davant</translation>
-<translation id="6316432269411143858">Contingut de les condicions de Google Chrome OS</translation>
+<translation id="6316432269411143858">Contingut de les condicions de Decentr OS</translation>
 <translation id="6317369057005134371">S'està esperant la finestra de l'aplicació...</translation>
 <translation id="6318125393809743217">Inclou un fitxer policies.json amb les configuracions de la política.</translation>
 <translation id="6318407754858604988">S'ha iniciat la baixada</translation>
@@ -7421,7 +7421,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6511607461419653612">Reinicia el Chromebook i torna-ho a provar</translation>
 <translation id="6511827214781912955">Et recomanem que suprimeixis <ph name="FILENAME" /> perquè els altres usuaris que utilitzen aquest dispositiu no puguin veure les teves contrasenyes.</translation>
 <translation id="6512759338201777379">Imatge generada <ph name="INDEX" /> de <ph name="SUBJECT" />, amb un estat d'ànim <ph name="MOOD" />.</translation>
-<translation id="6513247462497316522">Google Chrome utilitzarà dades mòbils si no esteu connectat a una altra xarxa.</translation>
+<translation id="6513247462497316522">Decentr utilitzarà dades mòbils si no esteu connectat a una altra xarxa.</translation>
 <translation id="6514010653036109809">Dispositiu disponible:</translation>
 <translation id="6517227424170598783">Vols suprimir la drecera <ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />?</translation>
 <translation id="6517382055541687102">El dispositiu seleccionat ha canviat a <ph name="DEVICE_NAME" /></translation>
@@ -8304,7 +8304,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="7180611975245234373">Actualitza</translation>
 <translation id="7180865173735832675">Personalitza</translation>
 <translation id="7181117767881540376">Amaga la barra d'adreces d'interès</translation>
-<translation id="7181329571386134105">Per permetre que <ph name="CHILD_NAME" /> instal·li extensions sense la teva aprovació en un futur, obre l'aplicació Family Link al teu dispositiu i actualitza la configuració de Google Chrome per a <ph name="CHILD_NAME" />.</translation>
+<translation id="7181329571386134105">Per permetre que <ph name="CHILD_NAME" /> instal·li extensions sense la teva aprovació en un futur, obre l'aplicació Family Link al teu dispositiu i actualitza la configuració de Decentr per a <ph name="CHILD_NAME" />.</translation>
 <translation id="7182051712900867547">Utilitza un altre compte</translation>
 <translation id="7182063559013288142">Punt d'accés Wi‑Fi instantani</translation>
 <translation id="7182791023900310535">Mou la contrasenya</translation>
@@ -10198,7 +10198,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="855604308879080518">Permet que les aplicacions d'Android accedeixin als dispositius USB en aquest Chromebook. El permís se sol·licitarà cada cop que endollis un dispositiu USB. Cada aplicació d'Android demanarà permisos addicionals.</translation>
 <translation id="8557022314818157177">Continua tocant la clau de seguretat fins que es capturi l'empremta digital</translation>
 <translation id="8557100046150195444">Utilitza Touch ID per continuar</translation>
-<translation id="8557180006508471423">Activa Google Chrome als serveis d'ubicació del Mac.</translation>
+<translation id="8557180006508471423">Activa Decentr als serveis d'ubicació del Mac.</translation>
 <translation id="8557856025359704738">La baixada següent serà a les <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Contrasenya del Compte de Google</translation>
 <translation id="8559858985063901027">Claus d'accés</translation>

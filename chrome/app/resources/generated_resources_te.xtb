@@ -923,7 +923,7 @@
 <translation id="1651008383952180276">మీరు తప్పనిసరిగా ఒకే రహస్య పదబంధాన్ని రెండుసార్లు నమోదు చేయాలి</translation>
 <translation id="1651609627703324721">ఈ ట్యాబ్ హెడ్‌సెట్‌కు VR కంటెంట్‌ని ప్రదర్శిస్తోంది</translation>
 <translation id="1652326691684645429">సమీప షేరింగ్‌ను ఎనేబుల్ చేయండి</translation>
-<translation id="1652862280638399816">MacOS కీచెయిన్‌తో Password Managerను ఉపయోగించడానికి, Chromiumని రీ-లాంచ్ చేసి, కీచెయిన్ యాక్సెస్‌ను అనుమతించండి. మీ ట్యాబ్‌లు రీ-లాంచ్ చేసిన తర్వాత మళ్లీ తెరవబడతాయి.</translation>
+<translation id="1652862280638399816">MacOS కీచెయిన్‌తో Password Managerను ఉపయోగించడానికి, Decentrని రీ-లాంచ్ చేసి, కీచెయిన్ యాక్సెస్‌ను అనుమతించండి. మీ ట్యాబ్‌లు రీ-లాంచ్ చేసిన తర్వాత మళ్లీ తెరవబడతాయి.</translation>
 <translation id="1653958716132599769">గ్రూప్ సంబంధిత ట్యాబ్‌లు</translation>
 <translation id="1654580009054503925">రిక్వెస్ట్‌లను చూపించడానికి అనుమతించబడలేదు</translation>
 <translation id="1654713139320245449">ప్రసార గమ్యస్థానాలు ఏవీ కనుగొనబడలేదు. సహాయం కావాలా?</translation>
@@ -1213,7 +1213,7 @@
 <translation id="186594096341696655">రేటు తగ్గించండి</translation>
 <translation id="186612162884103683">తనిఖీ చేయబడిన స్థానాల్లో "<ph name="EXTENSION" />" చిత్రాలను, వీడియోను మరియు సౌండ్ ఫైల్స్‌ను చదవగలదు మరియు రాయ‌గ‌ల‌దు.</translation>
 <translation id="1867780286110144690">మీ వ్యవస్థాపనను పూర్తి చేయడానికి <ph name="PRODUCT_NAME" /> సిద్ధంగా ఉంది</translation>
-<translation id="1868553836791672080">Chromiumలో పాస్‌వర్డ్ తనిఖీ ఫీచర్ అందుబాటులో లేదు</translation>
+<translation id="1868553836791672080">Decentrలో పాస్‌వర్డ్ తనిఖీ ఫీచర్ అందుబాటులో లేదు</translation>
 <translation id="1868617395637139709">Android యాప్‌లు, సర్వీస్‌లకు లొకేషన్‌ను ఉపయోగించండి.</translation>
 <translation id="1869433484041798909">బుక్‌మార్క్ బటన్</translation>
 <translation id="1871098866036088250">Chrome browserలో తెరవండి</translation>
@@ -1942,7 +1942,7 @@
 <translation id="2391805183137601570">Steamను తెరవండి</translation>
 <translation id="2392369802118427583">యాక్టివేట్ చేయండి</translation>
 <translation id="2393136602862631930">మీ Chromebookలో <ph name="APP_NAME" />ను సెటప్ చేయండి</translation>
-<translation id="2393313392064891208">Google ChromeOS Flex నియమాల కంటెంట్‌లు</translation>
+<translation id="2393313392064891208">DecentrOS Flex నియమాల కంటెంట్‌లు</translation>
 <translation id="2395616325548404795">మీ <ph name="DEVICE_TYPE" /> ఎంటర్‌ప్రైజ్ నిర్వహణ కోసం విజయవంతంగా నమోదు చేయబడింది, కానీ దాని లక్షణ మరియు స్థాన సమాచారాన్ని పంపడంలో విఫలమైంది. దయచేసి ఈ పరికరం కోసం ఈ సమాచారాన్ని మీ నిర్వాహక కన్సోల్ నుండి మాన్యువల్‌గా నమోదు చేయండి.</translation>
 <translation id="2396783860772170191">4 అంకెల పిన్ (0000-9999) నమోదు చేయండి</translation>
 <translation id="2398546389094871088">మీ పరికరాన్ని పవర్‌వాష్ చేయడం ద్వారా మీ eSIM ప్రొఫైళ్లు తీసివేయబడవు. ఈ ప్రొఫైళ్లను మాన్యువల్‌గా తీసివేయడానికి <ph name="LINK_BEGIN" />మొబైల్ సెట్టింగ్‌ల<ph name="LINK_END" />కు వెళ్ళండి.</translation>
@@ -2004,7 +2004,7 @@
 <translation id="2434449159125086437">ప్రింటర్‌ను సెటప్ చేయలేకపోయింది. దయచేసి కాన్ఫిగరేషన్‌ను సరిచూసుకుని, ఆపై మళ్లీ ట్రై చేయండి.</translation>
 <translation id="2434758125294431199">మీతో ఎవరు షేర్ చేయవచ్చో ఎంచుకోండి</translation>
 <translation id="2434915728183570229">మీరు ఇప్పుడు మీ ఫోన్ యాప్‌లను చూడవచ్చు</translation>
-<translation id="2435137177546457207">Google Chrome, ChromeOS Flexల అదనపు నియమాలు</translation>
+<translation id="2435137177546457207">Decentr, ChromeOS Flexల అదనపు నియమాలు</translation>
 <translation id="2435248616906486374">నెట్‌వర్క్ డిస్‌కనెక్ట్ అయింది</translation>
 <translation id="2435457462613246316">పాస్‌వర్డ్‌ను చూపించు</translation>
 <translation id="2436385001956947090">లింక్‌ను కాపీ చేయండి</translation>
@@ -2993,7 +2993,7 @@
 <translation id="3151539355209957474">ప్రారంభ సమయం</translation>
 <translation id="3151786313568798007">దృగ్విన్యాసం</translation>
 <translation id="3152356229013609796">మీ ఫోన్ నోటిఫికేషన్‌లను చూడడం, విస్మరించడం, వాటికి రిప్లయి ఇవ్వడం చేయగలదు</translation>
-<translation id="3155163173539279776">Chromiumను పునఃప్రారంభించండి</translation>
+<translation id="3155163173539279776">Decentrను పునఃప్రారంభించండి</translation>
 <translation id="3157387275655328056">పఠన లిస్ట్‌కు జోడించండి</translation>
 <translation id="3157931365184549694">పునరుద్ధరించు</translation>
 <translation id="3158033540161634471">మీ వేలిముద్రను సెటప్ చేయండి</translation>
@@ -3875,7 +3875,7 @@
 <translation id="3798632811625902122">బ్లూటూత్ పరికరం <ph name="DEVICE" />‌ను పెయిర్ చేయడానికి అనుమతి కావాలి.</translation>
 <translation id="3798670284305777884">స్పీకర్ (అంతర్గతం)</translation>
 <translation id="3799128412641261490">స్విచ్ యాక్సెస్ సెట్టింగ్‌లు</translation>
-<translation id="3800828618615365228">Google Chrome, ChromeOS అదనపు నియమాలు</translation>
+<translation id="3800828618615365228">Decentr, ChromeOS అదనపు నియమాలు</translation>
 <translation id="3800898876950197674">ఈ ఎక్స్‌టెన్షన్‌ను అనుమతించడానికి, మీ పాస్‌వర్డ్‌ను ఎంటర్ చేయండి.</translation>
 <translation id="3802486193901166966">ఈ ఎక్స్‌టెన్షన్‌కు ప్రత్యేక అనుమతులు ఏవీ అవసరం లేదు, అలాగే అదనపు సైట్ యాక్సెస్ కూడా లేదు</translation>
 <translation id="380329542618494757">పేరు</translation>
@@ -3897,7 +3897,7 @@
 <translation id="3810973564298564668">మేనేజ్ చేయండి</translation>
 <translation id="381202950560906753">మరొక దానిని జోడించండి</translation>
 <translation id="3812525830114410218">ప్రమాణపత్రం చెల్లదు</translation>
-<translation id="3813296892522778813">మీరు వెతుకుతున్నది మీకు కనిపించకపోతే <ph name="BEGIN_LINK_CHROMIUM" />Google Chrome సహాయం<ph name="END_LINK_CHROMIUM" />కు వెళ్లండి</translation>
+<translation id="3813296892522778813">మీరు వెతుకుతున్నది మీకు కనిపించకపోతే <ph name="BEGIN_LINK_CHROMIUM" />Decentr సహాయం<ph name="END_LINK_CHROMIUM" />కు వెళ్లండి</translation>
 <translation id="3813358687923336574">పేజీలను అనువాదం చేయడానికి, త్వరిత సమాధానాల కోసం ఉపయోగించిన భాష</translation>
 <translation id="3813458570141926987">మీ ఇటీవలి బ్రౌజింగ్ హిస్టరీ ఆధారంగా Chrome అంచనా వేసిన టాపిక్‌ల యొక్క లిస్ట్</translation>
 <translation id="3814529970604306954">పాఠశాల ఖాతా</translation>
@@ -4340,7 +4340,7 @@
 <translation id="4132969033912447558"><ph name="FILE_NAME" />‌ను కొనసాగించండి</translation>
 <translation id="4133076602192971179">మీ పాస్‌వర్డ్‌ను మార్చడానికి యాప్‌ను తెరవండి</translation>
 <translation id="4134838386867070505">నాలుగు దశల్లో మొదటిది: సమస్యను వివరించండి</translation>
-<translation id="4135746311382563554">Google Chrome, ChromeOS అదనపు సర్వీసు నిబంధనలు</translation>
+<translation id="4135746311382563554">Decentr, ChromeOS అదనపు సర్వీసు నిబంధనలు</translation>
 <translation id="4136203100490971508">సూర్యోదయ సమయానికి రాత్రి కాంతి ఆటోమేటిక్‌గా ఆఫ్ అవుతుంది</translation>
 <translation id="41365691917097717">దీనిని కొనసాగించడం వలన Android యాప్‌లను రూపొందించడానికి, పరీక్షించడానికి ADB డీబగ్గింగ్ ఎనేబుల్ అవుతుంది. ఈ చర్య వలన Google ద్వారా ధృవీకరించబడని Android యాప్‌ల ఇన్‌స్టాలేషన్ అనుమతించబడుతుందని, దీనిని డిజేబుల్ చేయడానికి ఫ్యాక్టరీ రీసెట్ చేయాల్సి ఉంటుందని గుర్తుంచుకోండి.</translation>
 <translation id="4137923333452716643">మీరు రీడింగ్ మోడ్‌లో తెరవాలనుకుంటున్న టెక్స్ట్‌ను హైలైట్ చేయండి</translation>
@@ -5363,7 +5363,7 @@
 <translation id="4918134162946436591">సూచించే ఓవర్‌లేను చూపించు</translation>
 <translation id="4918762404810341788">కాపీ చేయండి, తెరవండి</translation>
 <translation id="4921348630401250116">టెక్స్ట్-టు-స్పీచ్</translation>
-<translation id="4922104989726031751">మీ ఆపరేటింగ్ సిస్టమ్‌తో Password Managerను ఉపయోగించడానికి, Chromiumను రీ-లాంచ్ చేసి, మీ కంప్యూటర్ పాస్‌వర్డ్ మేనేజర్‌కు యాక్సెస్‌ను అనుమతించండి. మీ ట్యాబ్‌లు రీ-లాంచ్ చేసిన తర్వాత మళ్లీ తెరవబడతాయి.</translation>
+<translation id="4922104989726031751">మీ ఆపరేటింగ్ సిస్టమ్‌తో Password Managerను ఉపయోగించడానికి, Decentrను రీ-లాంచ్ చేసి, మీ కంప్యూటర్ పాస్‌వర్డ్ మేనేజర్‌కు యాక్సెస్‌ను అనుమతించండి. మీ ట్యాబ్‌లు రీ-లాంచ్ చేసిన తర్వాత మళ్లీ తెరవబడతాయి.</translation>
 <translation id="492299503953721473">Android యాప్‌లను తీసివేయండి</translation>
 <translation id="492363500327720082"><ph name="APP_NAME" />ను అన్ఇన్‌స్టాల్ చేస్తోంది...</translation>
 <translation id="4923977675318667854">ట్యాబ్ గ్రూప్‌లను చూడండి</translation>
@@ -7204,7 +7204,7 @@
 <translation id="6314819609899340042">మీరు ఈ <ph name="IDS_SHORT_PRODUCT_NAME" /> పరికరంలో డీబగ్గింగ్ ఫీచ‌ర్‌లను విజయవంతంగా ప్రారంభించారు.</translation>
 <translation id="6315170314923504164">Voice</translation>
 <translation id="6315493146179903667">అన్నీ ముందుకు తీసుకెళ్లు</translation>
-<translation id="6316432269411143858">Google ChromeOS నియమాల కంటెంట్‌లు</translation>
+<translation id="6316432269411143858">DecentrOS నియమాల కంటెంట్‌లు</translation>
 <translation id="6317369057005134371">అప్లికేషన్ విండో కోసం వేచి ఉంది...</translation>
 <translation id="6318125393809743217">పాలసీ కాన్ఫిగరేషన్‌లతో కూడిన policies.json ఫైల్‌ను కలిగి ఉంది.</translation>
 <translation id="6318407754858604988">డౌన్‌లోడ్ ప్రారంభించబడింది</translation>
@@ -7436,7 +7436,7 @@
 <translation id="6511607461419653612">మీ Chromebookను రీస్టార్ట్ చేసి, మళ్ళీ ట్రై చేయండి</translation>
 <translation id="6511827214781912955"><ph name="FILENAME" />‌ను తొలగించడం గురించి ఆలోచించండి, తద్వారా ఈ పరికరాన్ని ఉపయోగించే ఇతర వ్యక్తులు మీ పాస్‌వర్డ్‌లను చూడలేరు</translation>
 <translation id="6512759338201777379"><ph name="SUBJECT" />‌కు సంబంధించి, <ph name="MOOD" /> మూడ్‌తో <ph name="INDEX" />వ ఇమేజ్ జెనరేట్ చేయబడింది.</translation>
-<translation id="6513247462497316522">మీరు మరొక నెట్‌వర్క్‌కు కనెక్ట్ అయ్యి ఉండకపోతే, Google Chrome మొబైల్ డేటాను ఉపయోగిస్తుంది.</translation>
+<translation id="6513247462497316522">మీరు మరొక నెట్‌వర్క్‌కు కనెక్ట్ అయ్యి ఉండకపోతే, Decentr మొబైల్ డేటాను ఉపయోగిస్తుంది.</translation>
 <translation id="6514010653036109809">అందుబాటులో ఉన్న పరికరం:</translation>
 <translation id="6517227424170598783">"<ph name="SHORTCUT_NAME" /> - <ph name="APP_NAME" />" షార్ట్‌కట్‌ను తీసివేయాలా?</translation>
 <translation id="6517382055541687102">ఎంచుకున్న పరికరం <ph name="DEVICE_NAME" />‌కి మార్చబడింది</translation>
@@ -8319,7 +8319,7 @@
 <translation id="7180611975245234373">రిఫ్రెష్ చేయండి</translation>
 <translation id="7180865173735832675">అనుకూలంగా మార్చండి</translation>
 <translation id="7181117767881540376">&amp;బుక్‌మార్క్‌ల బార్‌ను దాచండి</translation>
-<translation id="7181329571386134105">మీ ఆమోదం లేకుండానే భవిష్యత్తులో ఎక్స్‌టెన్షన్‌లను ఇన్‌స్టాల్ చేయడానికి <ph name="CHILD_NAME" />‌ను అనుమతించడానికి, మీ పరికరంలో Family Link యాప్‌ను తెరిచి, <ph name="CHILD_NAME" /> Google Chrome సెట్టింగ్‌లను అప్‌డేట్ చేయండి.</translation>
+<translation id="7181329571386134105">మీ ఆమోదం లేకుండానే భవిష్యత్తులో ఎక్స్‌టెన్షన్‌లను ఇన్‌స్టాల్ చేయడానికి <ph name="CHILD_NAME" />‌ను అనుమతించడానికి, మీ పరికరంలో Family Link యాప్‌ను తెరిచి, <ph name="CHILD_NAME" /> Decentr సెట్టింగ్‌లను అప్‌డేట్ చేయండి.</translation>
 <translation id="7182051712900867547">వేరొక ఖాతాను ఉపయోగించండి</translation>
 <translation id="7182063559013288142">ఇన్‌స్టంట్ హాట్‌స్పాట్</translation>
 <translation id="7182791023900310535">మీ పాస్‌వర్డ్‌ను తరలించండి</translation>
@@ -10208,7 +10208,7 @@
 <translation id="855604308879080518">ఈ Chromebookలోని USB పరికరాలను యాక్సెస్ చేయడానికి Android యాప్‌లకు అనుమతినివ్వండి. మీరు USB పరికరాన్ని ప్లగ్-ఇన్ చేసిన ప్రతిసారి అనుమతి కోసం రిక్వెస్ట్ పంపబడుతుంది. ఒక్కో Android యాప్ అదనపు అనుమతుల కోసం అడుగుతుంది.</translation>
 <translation id="8557022314818157177">మీ వేలిముద్ర క్యాప్చర్ అయ్యేవరకు, మీ సెక్యూరిటీ కీని తాకుతూ ఉండండి</translation>
 <translation id="8557100046150195444">కొనసాగించడానికి టచ్ IDని ఉపయోగించండి</translation>
-<translation id="8557180006508471423">మీ Macలో లొకేషన్ సర్వీస్‌లలో "Google Chrome"ను ఆన్ చేయండి</translation>
+<translation id="8557180006508471423">మీ Macలో లొకేషన్ సర్వీస్‌లలో "Decentr"ను ఆన్ చేయండి</translation>
 <translation id="8557856025359704738">తర్వాతి డౌన్‌లోడ్ <ph name="NEXT_DATE_DOWNLOAD" />న జరుగుతుంది.</translation>
 <translation id="8558281414737757274">Google ఖాతా పాస్‌వర్డ్</translation>
 <translation id="8559858985063901027">పాస్-కీలు</translation>

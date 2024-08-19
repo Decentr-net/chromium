@@ -924,7 +924,7 @@ De tilladelser, du har givet til apps, gælder muligvis for denne konto. Du kan 
 <translation id="1651008383952180276">Du skal angive den samme adgangssætning to gange</translation>
 <translation id="1651609627703324721">Denne fane viser VR-indhold til et headset</translation>
 <translation id="1652326691684645429">Slå Deling tæt på til</translation>
-<translation id="1652862280638399816">Hvis du vil bruge Adgangs­kode­admin­istrator sammen med macOS-nøgleringen, skal du genstarte Chromium og give adgang til nøgleringen. Dine faner åbnes igen, når du har genstartet.</translation>
+<translation id="1652862280638399816">Hvis du vil bruge Adgangs­kode­admin­istrator sammen med macOS-nøgleringen, skal du genstarte Decentr og give adgang til nøgleringen. Dine faner åbnes igen, når du har genstartet.</translation>
 <translation id="1653958716132599769">Gruppér relaterede faner</translation>
 <translation id="1654580009054503925">Har ikke tilladelse til at vise anmodninger</translation>
 <translation id="1654713139320245449">Der blev ikke fundet nogen steder til casting. Har du brug for hjælp?</translation>
@@ -1216,7 +1216,7 @@ De tilladelser, du har givet til apps, gælder muligvis for denne konto. Du kan 
 <translation id="186594096341696655">Reducer frekvens</translation>
 <translation id="186612162884103683">"<ph name="EXTENSION" />" har læse- og skriverettigheder til billed-, video- og lydfiler på de markerede placeringer.</translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME" /> er klar til at færdiggøre din installation</translation>
-<translation id="1868553836791672080">Kontrol af adgangskode er ikke tilgængelig i Chromium</translation>
+<translation id="1868553836791672080">Kontrol af adgangskode er ikke tilgængelig i Decentr</translation>
 <translation id="1868617395637139709">Brug lokation i Android-apps og -tjenester.</translation>
 <translation id="1869433484041798909">Knappen Bogmærke</translation>
 <translation id="1871098866036088250">Åbn i Chrome-browseren</translation>
@@ -1945,7 +1945,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="2391805183137601570">Åbn Steam</translation>
 <translation id="2392369802118427583">Aktivér</translation>
 <translation id="2393136602862631930">Konfigurer <ph name="APP_NAME" /> på din Chromebook</translation>
-<translation id="2393313392064891208">Indhold i vilkårene for Google ChromeOS Flex</translation>
+<translation id="2393313392064891208">Indhold i vilkårene for DecentrOS Flex</translation>
 <translation id="2395616325548404795">Din <ph name="DEVICE_TYPE" /> er tilmeldt virksomhedsadministration, men den har ikke tilsendt oplysninger om aktiver og placering. Angiv disse oplysninger manuelt i administrationskonsollen for denne enhed.</translation>
 <translation id="2396783860772170191">Angiv den firecifrede pinkode (0000-9999)</translation>
 <translation id="2398546389094871088">Dine eSIM-profiler fjernes ikke, når du udfører en powerwash på din enhed. Gå til <ph name="LINK_BEGIN" />Mobilindstillinger<ph name="LINK_END" /> for at fjerne disse profiler manuelt.</translation>
@@ -2007,7 +2007,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="2434449159125086437">Printeren kunne ikke konfigureres. Tjek konfigurationen, og prøv igen.</translation>
 <translation id="2434758125294431199">Vælg, hvem der kan dele med dig</translation>
 <translation id="2434915728183570229">Du kan nu se din telefons apps</translation>
-<translation id="2435137177546457207">Yderligere vilkår for Google Chrome og ChromeOS Flex</translation>
+<translation id="2435137177546457207">Yderligere vilkår for Decentr og ChromeOS Flex</translation>
 <translation id="2435248616906486374">Forbindelsen til netværket blev afbrudt</translation>
 <translation id="2435457462613246316">Vis adgangskode</translation>
 <translation id="2436385001956947090">Kopiér &amp;link</translation>
@@ -2996,7 +2996,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="3151539355209957474">Starttidspunkt</translation>
 <translation id="3151786313568798007">Retning</translation>
 <translation id="3152356229013609796">Se, afvis og reager på notifikationer fra din telefon</translation>
-<translation id="3155163173539279776">Genstart Chromium</translation>
+<translation id="3155163173539279776">Genstart Decentr</translation>
 <translation id="3157387275655328056">Føj til læseliste</translation>
 <translation id="3157931365184549694">Gendan</translation>
 <translation id="3158033540161634471">Konfigurer dit fingeraftryk</translation>
@@ -3878,7 +3878,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="3798632811625902122">Bluetooth-enheden <ph name="DEVICE" /> vil gerne have parringstilladelse.</translation>
 <translation id="3798670284305777884">Højttaler (indbygget)</translation>
 <translation id="3799128412641261490">Indstillinger for kontaktadgang</translation>
-<translation id="3800828618615365228">Yderligere vilkår for Google Chrome og ChromeOS</translation>
+<translation id="3800828618615365228">Yderligere vilkår for Decentr og ChromeOS</translation>
 <translation id="3800898876950197674">Angiv din adgangskode for at tillade denne udvidelse.</translation>
 <translation id="3802486193901166966">Denne udvidelse kræver ikke nogen særlige tilladelser og har ingen yderligere adgang til websites</translation>
 <translation id="380329542618494757">Navn</translation>
@@ -3900,7 +3900,7 @@ Du kan administrere indstillingerne for denne konto ved at installere Family Lin
 <translation id="3810973564298564668">Administrer</translation>
 <translation id="381202950560906753">Tilføj endnu et</translation>
 <translation id="3812525830114410218">Ugyldigt certifikat</translation>
-<translation id="3813296892522778813">Gå til <ph name="BEGIN_LINK_CHROMIUM" />Hjælp til Google Chrome<ph name="END_LINK_CHROMIUM" />, hvis du ikke kan finde det, du leder efter.</translation>
+<translation id="3813296892522778813">Gå til <ph name="BEGIN_LINK_CHROMIUM" />Hjælp til Decentr<ph name="END_LINK_CHROMIUM" />, hvis du ikke kan finde det, du leder efter.</translation>
 <translation id="3813358687923336574">Sprog, der bruges til oversættelse af sider og Hurtig info</translation>
 <translation id="3813458570141926987">Liste over emner, der er estimeret af Chrome baseret på din seneste browserhistorik</translation>
 <translation id="3814529970604306954">Skolekonto</translation>
@@ -4343,7 +4343,7 @@ Dette kan omfatte oplysninger om installeret software, filer, din browser og enh
 <translation id="4132969033912447558">Genoptag <ph name="FILE_NAME" /></translation>
 <translation id="4133076602192971179">Åbn appen for at ændre din adgangskode</translation>
 <translation id="4134838386867070505">Trin 1 af 4: Beskriv problemet</translation>
-<translation id="4135746311382563554">Yderligere servicevilkår for Google Chrome og ChromeOS</translation>
+<translation id="4135746311382563554">Yderligere servicevilkår for Decentr og ChromeOS</translation>
 <translation id="4136203100490971508">Nattelys slukkes automatisk ved solopgang</translation>
 <translation id="41365691917097717">Hvis du fortsætter, aktiveres ADB-fejlretning til oprettelse og test af Android-apps. Bemærk! Denne handling tillader, at Android-apps, der ikke er blevet verificeret af Google, kan installeres. Du skal gendanne fabriksindstillingerne for at deaktivere dette.</translation>
 <translation id="4137923333452716643">Fremhæv den tekst, du vil åbne i læsetilstand</translation>
@@ -5366,7 +5366,7 @@ Brug Ctrl+Alt+Lysstyrke ned for at zoome ud.</translation>
 <translation id="4918134162946436591">Vis overlejring med hint</translation>
 <translation id="4918762404810341788">Kopiér og åbn</translation>
 <translation id="4921348630401250116">Oplæsning</translation>
-<translation id="4922104989726031751">Hvis du vil bruge Adgangs­kode­admin­istrator sammen med dit operativsystem, skal du genstarte Chromium og give adgang til Adgangs­kode­admin­istrator på din computer. Dine faner åbnes igen, når du har genstartet.</translation>
+<translation id="4922104989726031751">Hvis du vil bruge Adgangs­kode­admin­istrator sammen med dit operativsystem, skal du genstarte Decentr og give adgang til Adgangs­kode­admin­istrator på din computer. Dine faner åbnes igen, når du har genstartet.</translation>
 <translation id="492299503953721473">Fjern Android-apps</translation>
 <translation id="492363500327720082">Afinstallerer <ph name="APP_NAME" />…</translation>
 <translation id="4923977675318667854">Vis fanegrupper</translation>
@@ -7208,7 +7208,7 @@ De tilladelser, du har givet til websites og apps, gælder muligvis for denne ko
 <translation id="6314819609899340042">Du har aktiveret fejlretningsfunktioner på denne <ph name="IDS_SHORT_PRODUCT_NAME" />-enhed.</translation>
 <translation id="6315170314923504164">Stemme</translation>
 <translation id="6315493146179903667">Læg alle forrest</translation>
-<translation id="6316432269411143858">Indholdet i vilkårene for Google ChromeOS</translation>
+<translation id="6316432269411143858">Indholdet i vilkårene for DecentrOS</translation>
 <translation id="6317369057005134371">Venter på applikationsvindue...</translation>
 <translation id="6318125393809743217">Medtag en policies.json-fil med politikkonfigurationer.</translation>
 <translation id="6318407754858604988">Downloaden er i gang</translation>
@@ -7440,7 +7440,7 @@ De tilladelser, du har givet til websites og apps, gælder muligvis for denne ko
 <translation id="6511607461419653612">Genstart din Chromebook, og prøv igen</translation>
 <translation id="6511827214781912955">Du bør overveje at slette <ph name="FILENAME" />, så andre, der bruger denne enhed, ikke kan se dine adgangskoder</translation>
 <translation id="6512759338201777379">Billede <ph name="INDEX" /> af <ph name="SUBJECT" /> med stemningen <ph name="MOOD" /> er genereret.</translation>
-<translation id="6513247462497316522">Google Chrome anvender mobildata, hvis du ikke har forbindelse til et andet netværk.</translation>
+<translation id="6513247462497316522">Decentr anvender mobildata, hvis du ikke har forbindelse til et andet netværk.</translation>
 <translation id="6514010653036109809">Tilgængelig enhed:</translation>
 <translation id="6517227424170598783">Vil du fjerne genvejen "<ph name="SHORTCUT_NAME" /> – <ph name="APP_NAME" />"?</translation>
 <translation id="6517382055541687102">Den valgte enhed er ændret til <ph name="DEVICE_NAME" /></translation>
@@ -8325,7 +8325,7 @@ Du har # andre kompromitterede adgangskoder. Google Adgangs­kode­admin­istrat
 <translation id="7180611975245234373">Opdater</translation>
 <translation id="7180865173735832675">Tilpas</translation>
 <translation id="7181117767881540376">Skjul bogmærkelinjen</translation>
-<translation id="7181329571386134105">Hvis du vil give <ph name="CHILD_NAME" /> tilladelse til at installere fremtidige udvidelser uden din godkendelse, skal du åbne Family Link-appen på din enhed og opdatere Google Chrome-indstillingerne for <ph name="CHILD_NAME" />.</translation>
+<translation id="7181329571386134105">Hvis du vil give <ph name="CHILD_NAME" /> tilladelse til at installere fremtidige udvidelser uden din godkendelse, skal du åbne Family Link-appen på din enhed og opdatere Decentr-indstillingerne for <ph name="CHILD_NAME" />.</translation>
 <translation id="7182051712900867547">Brug en anden konto</translation>
 <translation id="7182063559013288142">Automatisk hotspot</translation>
 <translation id="7182791023900310535">Flyt din adgangskode</translation>
@@ -10217,7 +10217,7 @@ Opbevar din nøglefil på et sikkert sted. Du skal bruge den til at oprette nye 
 <translation id="855604308879080518">Giv Android-apps adgangstilladelse til USB-enheder på denne Chromebook. Der anmodes om tilladelsen, hver gang du tilslutter en USB-enhed. Individuelle Android-apps anmoder om yderligere tilladelser.</translation>
 <translation id="8557022314818157177">Bliv ved med at røre din sikkerhedsnøgle, indtil dit fingeraftryk er registreret</translation>
 <translation id="8557100046150195444">Brug Touch ID for at fortsætte</translation>
-<translation id="8557180006508471423">Aktivér "Google Chrome" i Lokationstjenester på din Mac</translation>
+<translation id="8557180006508471423">Aktivér "Decentr" i Lokationstjenester på din Mac</translation>
 <translation id="8557856025359704738">Næste download finder sted <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
 <translation id="8558281414737757274">Adgangskode til Google-konto</translation>
 <translation id="8559858985063901027">Adgangskoder</translation>
