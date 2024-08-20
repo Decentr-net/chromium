@@ -40,7 +40,7 @@
 <translation id="1026822031284433028">Carica immagine</translation>
 <translation id="1026959648338730078">Windows Hello o token di sicurezza esterno</translation>
 <translation id="1028700151766901954">Motivo: LBS rimane in <ph name="DEFAULT_OPEN_BROWSER" /> per impostazione predefinita.</translation>
-<translation id="1028823395684328817">Verifica la tua identità per continuare a usare le password e altri dati nel tuo Account Google</translation>
+<translation id="1028823395684328817">Verifica la tua identità per continuare a usare le password e altri dati nel tuo Account Decentr</translation>
 <translation id="102916930470544692">Passkey</translation>
 <translation id="1029317248976101138">Zoom</translation>
 <translation id="1029526375103058355">Tocco per fare clic</translation>
@@ -95,8 +95,8 @@
 <translation id="1062407476771304334">Sostituisci</translation>
 <translation id="1062628064301375934">Aiutaci a rendere il web più privato</translation>
 <translation id="1066964438793906105">Verifica la presenza di malware</translation>
-<translation id="1067661089446014701">Per maggiore sicurezza, puoi criptare le password sul dispositivo prima che vengano salvate nel tuo Account Google</translation>
-<translation id="1067922213147265141">Altri servizi Google</translation>
+<translation id="1067661089446014701">Per maggiore sicurezza, puoi criptare le password sul dispositivo prima che vengano salvate nel tuo Account Decentr</translation>
+<translation id="1067922213147265141">Altri servizi Decentr</translation>
 <translation id="106814709658156573">Per configurare l'impronta, chiedi a tuo figlio di toccare il sensore di impronte digitali nell'angolo in basso a sinistra della tastiera. I dati relativi all'impronta di tuo figlio vengono memorizzati in modo sicuro e non possono essere trasferiti in alcun modo da questo <ph name="DEVICE_TYPE" />.</translation>
 <translation id="106855837688344862">Eventi touch</translation>
 <translation id="1069104208554708737">La passkey verrà salvata solo su questo dispositivo</translation>
@@ -136,7 +136,7 @@ Controlla le password in qualsiasi momento in <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1085064499066015002">Sempre su tutti i siti</translation>
 <translation id="1085697365578766383">Errore durante l'avvio della macchina virtuale. Riprova.</translation>
 <translation id="1086486568852410168">Cerca con Google Lens</translation>
-<translation id="1088490543924960890">Inizia a salvare le passkey con Gestore delle password di Google</translation>
+<translation id="1088490543924960890">Inizia a salvare le passkey con Gestore delle password di Decentr</translation>
 <translation id="1090126737595388931">Nessuna applicazione in esecuzione in background</translation>
 <translation id="1090541560108055381">Prima di eseguire l'accoppiamento, assicurati che questo codice sia lo stesso su entrambi i dispositivi</translation>
 <translation id="1091767800771861448">Premi ESC per saltare (solo build non ufficiali).</translation>
@@ -212,10 +212,10 @@ Controlla le password in qualsiasi momento in <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1150565364351027703">Occhiali da sole</translation>
 <translation id="1151917987301063366">Consenti sempre a <ph name="HOST" /> di accedere ai sensori</translation>
 <translation id="1152346050262092795">Inserisci di nuovo la password per verificare il tuo account.</translation>
-<translation id="1153636665119721804">Programma di protezione avanzata di Google</translation>
+<translation id="1153636665119721804">Programma di protezione avanzata di Decentr</translation>
 <translation id="1155545602507378023">No, solo questo dispositivo</translation>
 <translation id="1155816283571436363">Connessione al telefono in corso</translation>
-<translation id="1157952955648710254">Chiudi il riquadro laterale della Ricerca Google</translation>
+<translation id="1157952955648710254">Chiudi il riquadro laterale della Ricerca Decentr</translation>
 <translation id="1158080958325422608">Usa lettere maiuscole</translation>
 <translation id="1158238185437008462">Visualizza ricordi</translation>
 <translation id="1159879754517035595">Gestisci le impostazioni delle estensioni</translation>
@@ -228,7 +228,7 @@ Controlla le password in qualsiasi momento in <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="1164891049599601209">Inserita in un sito ingannevole</translation>
 <translation id="1165039591588034296">Errore</translation>
 <translation id="1166212789817575481">Chiudi schede a destra</translation>
-<translation id="1166457390969131095">Usa e salva password e passkey del tuo Account Google</translation>
+<translation id="1166457390969131095">Usa e salva password e passkey del tuo Account Decentr</translation>
 <translation id="1166583374608765787">Controlla l'aggiornamento del nome</translation>
 <translation id="1166596238782048887"><ph name="TAB_TITLE" /> appartiene alla scrivania <ph name="DESK_TITLE" /></translation>
 <translation id="1167262726334064738">Prova una nuova password</translation>
@@ -467,7 +467,7 @@ Controlla le password in qualsiasi momento in <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="13392265090583506">Impostazioni di accessibilità</translation>
 <translation id="1340527397989195812">Importa elementi multimediali dal dispositivo utilizzando l'app File.</translation>
 <translation id="1341701348342335220">Ottimo lavoro.</translation>
-<translation id="1342886103232377846">Per controllare la presenza di password compromesse, vai a Gestore delle password di Google</translation>
+<translation id="1342886103232377846">Per controllare la presenza di password compromesse, vai a Gestore delle password di Decentr</translation>
 <translation id="1343865611738742294">Concedi alle app Linux l'autorizzazione ad accedere ai dispositivi USB. Dopo la rimozione di un dispositivo USB, Linux non manterrà memorizzato il dispositivo.</translation>
 <translation id="1343920184519992513">Continua dal punto in cui avevi interrotto e apri un insieme di pagine specifiche</translation>
 <translation id="1344141078024003905">Stai trasmettendo lo schermo. Puoi mettere in pausa la trasmissione dello schermo o interromperla in qualsiasi momento.</translation>
@@ -498,7 +498,7 @@ Controlla le password in qualsiasi momento in <ph name="GOOGLE_PASSWORD_MANAGER"
 <translation id="136522805455656552">Per proteggere il tuo dispositivo, dovresti eseguire e installare solo software provenienti da fonti e sviluppatori attendibili. <ph name="LEARN_MORE" /></translation>
 <translation id="1367817137674340530"><ph name="COUNT" /> immagini generate</translation>
 <translation id="1368603372088757436">Linux non è supportato su <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Scopri di più<ph name="LINK_END" /></translation>
-<translation id="1370249617397887619">Per usarle sugli altri tuoi dispositivi, salvale nel tuo Account Google</translation>
+<translation id="1370249617397887619">Per usarle sugli altri tuoi dispositivi, salvale nel tuo Account Decentr</translation>
 <translation id="1370384480654163477">Visualizzare e modificare i file dall'ultima visita al sito:</translation>
 <translation id="1372841398847029212">Sincronizza con il tuo account</translation>
 <translation id="1373176046406139583">L'impostazione Visibilità del dispositivo ti consente di stabilire chi può condividere file con te mentre il tuo schermo è sbloccato. <ph name="LINK_BEGIN" />Scopri di più<ph name="LINK_END" /></translation>
@@ -703,7 +703,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse all
 <translation id="1515163294334130951">Avvia</translation>
 <translation id="1517467582299994451">Per trasmettere con un codice, attiva le impostazioni di sincronizzazione del browser Chrome</translation>
 <translation id="1521442365706402292">Gestisci certificati</translation>
-<translation id="1521655867290435174">Fogli Google</translation>
+<translation id="1521655867290435174">Fogli Decentr</translation>
 <translation id="1521774566618522728">Attivo oggi</translation>
 <translation id="1521933835545997395">Connessione a smartphone Android attiva</translation>
 <translation id="1523279371236772909">Visualizzato nell'ultimo mese</translation>
@@ -885,7 +885,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse all
 <translation id="1632293440289326475">Attiva il Risparmio energetico per prolungare la durata della batteria</translation>
 <translation id="1632756664321977232">Strumento Ritaglia</translation>
 <translation id="163309982320328737">La larghezza caratteri iniziale è piena</translation>
-<translation id="1633947793238301227">Disabilitare l'Assistente Google</translation>
+<translation id="1633947793238301227">Disabilitare l'Assistente Decentr</translation>
 <translation id="1634224622052500893">Rete Wi-Fi trovata</translation>
 <translation id="1634783886312010422">Hai già modificato questa password su <ph name="WEBSITE" />?</translation>
 <translation id="1636212173818785548">OK</translation>
@@ -1037,7 +1037,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse all
 <translation id="1748563609363301860">Puoi salvare questa password nel tuo Account Google o solo su questo dispositivo</translation>
 <translation id="1749733017156547309">È necessaria una password.</translation>
 <translation id="1750172676754093297">Questo token di sicurezza non supporta la memorizzazione di impronte</translation>
-<translation id="1750238553597293878">Continua a usare le password nel tuo Account Google</translation>
+<translation id="1750238553597293878">Continua a usare le password nel tuo Account Decentr</translation>
 <translation id="1751262127955453661"><ph name="ORIGIN" /> potrà modificare i file nella cartella <ph name="FOLDERNAME" /> fino alla chiusura di tutte le schede di questo sito</translation>
 <translation id="17513872634828108">Schede aperte</translation>
 <translation id="175196451752279553">R&amp;iapri scheda chiusa</translation>
@@ -1109,7 +1109,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse all
 <translation id="1802687198411089702">La pagina non risponde. Puoi aspettare oppure chiuderla.</translation>
 <translation id="1803531841600994172">Lingua in cui tradurre</translation>
 <translation id="1803545009660609783">Reimposta</translation>
-<translation id="1804195280859010019">Troverai altri suggerimenti o informazioni utili in funzionalità come il riquadro laterale della Ricerca Google</translation>
+<translation id="1804195280859010019">Troverai altri suggerimenti o informazioni utili in funzionalità come il riquadro laterale della Ricerca Decentr</translation>
 <translation id="1805738995123446102">Una scheda in secondo piano sta usando il microfono</translation>
 <translation id="1805822111539868586">Esamina visualizzazioni</translation>
 <translation id="1805888043020974594">Server di stampa</translation>
@@ -1255,7 +1255,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse all
 <translation id="1901213235765457754">Chiedi all'amministratore di aggiornare questa app</translation>
 <translation id="1901303067676059328">Seleziona &amp;tutto</translation>
 <translation id="1901760057081700494">Il fuso orario è attualmente impostato su <ph name="TIME_ZONE_ENTRY" />. Per aggiornare automaticamente il fuso orario, <ph name="BEGIN_LINK" />attiva l'accesso alla posizione del sistema<ph name="END_LINK" />.</translation>
-<translation id="1904580727789512086">Gli URL che visiti vengono salvati nel tuo Account Google</translation>
+<translation id="1904580727789512086">Gli URL che visiti vengono salvati nel tuo Account Decentr</translation>
 <translation id="1906181697255754968">In genere, i siti accedono a file e cartelle sul tuo dispositivo per funzionalità come il salvataggio automatico del tuo lavoro</translation>
 <translation id="1906488504371069394">Scopri altri temi ed estensioni sul <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /></translation>
 <translation id="1907044622262489040">Digita con la tua voce. Utilizza il tasto per la ricerca + D, quindi inizia a parlare.</translation>
@@ -1467,7 +1467,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2052572566310583903">Installata su altri dispositivi</translation>
 <translation id="2053105195397337973">Stiamo esaminando dei metodi per limitare il monitoraggio e consentire ai siti di contrastare spam negli annunci e attività fraudolente.</translation>
 <translation id="2053312383184521053">Dati sullo stato di inattività</translation>
-<translation id="205560151218727633">Logo dell'Assistente Google</translation>
+<translation id="205560151218727633">Logo dell'Assistente Decentr</translation>
 <translation id="2058456167109518507">Dispositivo rilevato</translation>
 <translation id="2058581283817163201">Verifica con questo telefono</translation>
 <translation id="2059913712424898428">Fuso orario</translation>
@@ -1664,7 +1664,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2200781749203116929">Log di sistema ChromeOS</translation>
 <translation id="2203088913459920044">Il nome può contenere lettere, numeri e caratteri speciali</translation>
 <translation id="220321590587754225">Impossibile connettersi. Riprova.</translation>
-<translation id="2203903197029773650"><ph name="BRAND" /> può controllare le tue password quando accedi con il tuo Account Google</translation>
+<translation id="2203903197029773650"><ph name="BRAND" /> può controllare le tue password quando accedi con il tuo Account Decentr</translation>
 <translation id="2204020417499639567">Campo dell'indirizzo email compilato.</translation>
 <translation id="2204034823255629767">Lettura e modifica del testo digitato</translation>
 <translation id="2204168219363024184">Per creare questa passkey con il Gestore delle password di Google, verifica la tua identità</translation>
@@ -1705,7 +1705,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2233502537820838181">Ulteriori infor&amp;mazioni</translation>
 <translation id="223356358902285214">Attività web e app</translation>
 <translation id="2234827758954819389">Guida alla privacy</translation>
-<translation id="2234876718134438132">Sincronizzazione e servizi Google</translation>
+<translation id="2234876718134438132">Sincronizzazione e servizi Decentr</translation>
 <translation id="2235344399760031203">I cookie di terze parti sono bloccati</translation>
 <translation id="2236949375853147973">Le mie attività</translation>
 <translation id="2238379619048995541">Dati sullo stato di frequenza</translation>
@@ -2188,7 +2188,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2561211427862644160">Qui puoi vedere tutti i tuoi preferiti</translation>
 <translation id="2564520396658920462">L'esecuzione di JavaScript tramite AppleScript è disattivata. Per attivarla, vai alla barra dei menu, apri Visualizza &gt; Sviluppatore &gt; Consenti JavaScript da Apple Events. Per ulteriori informazioni, visita la pagina all'indirizzo https://support.google.com/chrome/?p=applescript</translation>
 <translation id="2564653188463346023">Controllo ortografico avanzato</translation>
-<translation id="256481480019204378">ID Account Google</translation>
+<translation id="256481480019204378">ID Account Decentr</translation>
 <translation id="256517381556987641">Sincronizzazione file ha rilevato <ph name="ITEMS_FOUND" /> file finora e sta ancora controllando lo spazio di archiviazione. Prova a riattivare Sincronizzazione file tra qualche minuto.</translation>
 <translation id="2565214867520763227">Attiva lo screen reader</translation>
 <translation id="2568694057933302218">In modalità di navigazione in incognito, i siti non possono utilizzare i cookie per conoscere la tua attività di navigazione sui siti. La tua attività di navigazione non viene usata, ad esempio, per personalizzare gli annunci. Le funzionalità su alcuni siti potrebbero non essere disponibili.</translation>
@@ -2260,7 +2260,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2620245777360407679">Dispositivi attualmente connessi all'hotspot</translation>
 <translation id="2620436844016719705">Sistema</translation>
 <translation id="2620900772667816510">Super risoluzione Bluetooth</translation>
-<translation id="262154978979441594">Imposta il modello vocale dell'Assistente Google</translation>
+<translation id="262154978979441594">Imposta il modello vocale dell'Assistente Decentr</translation>
 <translation id="2622280935687585828">Rimuovi <ph name="SITE_NAME" /> dai siti disattivati</translation>
 <translation id="26224892172169984">Non consentire ad alcun sito di gestire i protocolli</translation>
 <translation id="262373406453641243">Colemak</translation>
@@ -2344,7 +2344,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2683638487103917598">Cartella ordinata</translation>
 <translation id="2684004000387153598">Per continuare, fai clic su OK, quindi fai clic su Aggiungi persona per creare un nuovo profilo per il tuo indirizzo email.</translation>
 <translation id="2685193395980129388">Autorizzazione consentita: <ph name="PERMISSION_DETAILS" /></translation>
-<translation id="2687407218262674387">Termini di servizio di Google</translation>
+<translation id="2687407218262674387">Termini di servizio di Decentr</translation>
 <translation id="2687621393791886981">Ricordamelo più tardi</translation>
 <translation id="2688196195245426394">Errore durante la registrazione del dispositivo con il server. <ph name="CLIENT_ERROR" />.</translation>
 <translation id="2688734475209947648">Non dovrai ricordare questa password perché verrà salvata in Gestore delle password di Google per <ph name="ACCOUNT" />.</translation>
@@ -2556,7 +2556,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2828375943530438449">Indietro dalla pagina di accesso</translation>
 <translation id="2828650939514476812">Collegati alla rete Wi-Fi</translation>
 <translation id="2828833307884755422"><ph name="MEMORY_SAVINGS" /> di spazio liberato</translation>
-<translation id="2830528677948328648">Gestisci il tuo Account &amp;Google</translation>
+<translation id="2830528677948328648">Gestisci il tuo Account &amp;Decentr</translation>
 <translation id="2831430281393059038">Il dispositivo è supportato</translation>
 <translation id="2832124733806557606">Tuo figlio può usare il PIN per accedere al dispositivo o per sbloccarlo.</translation>
 <translation id="2835177225987815960">Se ripeti la configurazione della scansione, tutte le assegnazioni verranno reimpostate, compresi eventuali sensori assegnati e le preferenze di velocità per la scansione automatica.</translation>
@@ -2642,7 +2642,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2891922230654533301">Vuoi usare il tuo dispositivo per accedere al sito <ph name="APP_NAME" />?</translation>
 <translation id="2893013536106749396">Scegli le schede che ti daranno aggiornamenti sui tuoi interessi</translation>
 <translation id="2893168226686371498">Browser predefinito</translation>
-<translation id="2893180576842394309">Google può utilizzare la tua cronologia per personalizzare la Ricerca e altri servizi Google</translation>
+<translation id="2893180576842394309">Google può utilizzare la tua cronologia per personalizzare la Ricerca e altri servizi Decentr</translation>
 <translation id="2893701697603065178">Ambiente di sviluppo gestito</translation>
 <translation id="2894757982205307093">Nuova scheda nel gruppo</translation>
 <translation id="2895730582088342039">Salva, condividi e trasmetti</translation>
@@ -2740,7 +2740,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2967926928600500959">Gli URL corrispondenti a queste regole dovranno essere aperti in un browser specifico.</translation>
 <translation id="2969411787010981955">I dati sono stati esportati nella posizione selezionata</translation>
 <translation id="2970766364519518369">I contatti selezionati possono condividere contenuti con te quando si trovano nelle vicinanze. Ti verrà chiesto di approvare queste richieste. Non dovrai approvare la condivisione tra i dispositivi su cui è stato eseguito l'accesso a <ph name="USER_EMAIL" />.</translation>
-<translation id="2970982365449313350">Chrome con questo Account Google</translation>
+<translation id="2970982365449313350">Chrome con questo Account Decentr</translation>
 <translation id="2972557485845626008">Firmware</translation>
 <translation id="2972581237482394796">&amp;Ripeti</translation>
 <translation id="2973324205039581528">Disattiva l'audio del sito</translation>
@@ -2768,7 +2768,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="2989474696604907455">non collegato</translation>
 <translation id="2989786307324390836">Binario codificato DER, singolo certificato</translation>
 <translation id="2989805286512600854">Apri in un'altra scheda</translation>
-<translation id="2990313168615879645">Aggiungi Account Google</translation>
+<translation id="2990313168615879645">Aggiungi Account Decentr</translation>
 <translation id="2990375978470734995">Per applicare questa modifica, ricollega gli accessori esterni.</translation>
 <translation id="2990583317361835189">Non consentire ai siti di usare i sensori di movimento</translation>
 <translation id="2991182900092497283">Inserisci un motivo per voler incollare questi dati:</translation>
@@ -2941,7 +2941,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
  &lt;ul&gt;
  &lt;li&gt;Garantire la tua sicurezza durante la navigazione&lt;/li&gt;
  &lt;li&gt;Supportare un florido ecosistema che mantiene il web sicuro e aperto, rapido e gratuito&lt;/li&gt;&lt;/ul&gt;</translation>
-<translation id="3115743155098198207">Gestisci la lingua dell'Account Google</translation>
+<translation id="3115743155098198207">Gestisci la lingua dell'Account Decentr</translation>
 <translation id="3117362587799608430">Il dock non è del tutto compatibile</translation>
 <translation id="3117791853215125017">{COUNT,plural, =1{Impossibile inviare <ph name="ATTACHMENTS" /> al dispositivo <ph name="DEVICE_NAME" />}other{Impossibile inviare <ph name="ATTACHMENTS" /> al dispositivo <ph name="DEVICE_NAME" />}}</translation>
 <translation id="3118319026408854581">Guida di <ph name="PRODUCT_NAME" /></translation>
@@ -3138,7 +3138,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3275778913554317645">Apri come finestra</translation>
 <translation id="3277214528693754078">Naviga con il cursore di testo (navigazione con cursore)</translation>
 <translation id="3277594800340743211">Ombra grande</translation>
-<translation id="3277784185056747463">Password del dispositivo o password dell'Account Google</translation>
+<translation id="3277784185056747463">Password del dispositivo o password dell'Account Decentr</translation>
 <translation id="3278001907972365362">I tuoi Account Google richiedono la tua attenzione</translation>
 <translation id="3279092821516760512">I contatti selezionati possono condividere contenuti con te quando sono nelle vicinanze. I trasferimenti non inizieranno finché non accetti.</translation>
 <translation id="3279230909244266691">Questa procedura potrebbe richiedere alcuni minuti. Avvio della macchina virtuale in corso.</translation>
@@ -3165,7 +3165,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3295241308788901889">Trasmissione di una scheda in corso…</translation>
 <translation id="3297105622164376095">Autorizzati a mostrare richieste di accesso di terze parti</translation>
 <translation id="3297462367919448805">Questo dispositivo non riceve più aggiornamenti software e della sicurezza automatici, ma puoi attivare gli aggiornamenti della sicurezza estesi.</translation>
-<translation id="3297536526040732495">Se hai eseguito l'accesso, collega temporaneamente questi dati al tuo Account Google per proteggerti nelle app Google</translation>
+<translation id="3297536526040732495">Se hai eseguito l'accesso, collega temporaneamente questi dati al tuo Account Google per proteggerti nelle app Decentr</translation>
 <translation id="329838636886466101">Ripara</translation>
 <translation id="3298789223962368867">L'URL inserito non è valido.</translation>
 <translation id="32991397311664836">Dispositivi:</translation>
@@ -3355,7 +3355,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3443754338602062261">Hai già le password per questi account in <ph name="BRAND" />. Se scegli di importare una delle password seguenti, quella esistente sostituirà quella esistente.</translation>
 <translation id="344449859752187052">Cookie di terze parti bloccati</translation>
 <translation id="3444726579402183581"><ph name="ORIGIN" /> potrà visualizzare <ph name="FILENAME" /></translation>
-<translation id="3445047461171030979">Risposte rapide dell'Assistente Google</translation>
+<translation id="3445047461171030979">Risposte rapide dell'Assistente Decentr</translation>
 <translation id="3445288400492335833"><ph name="MINUTES" /> min</translation>
 <translation id="344537926140058498">La tua organizzazione ha bloccato questo file perché include contenuti sensibili o pericolosi. Chiedi al proprietario di risolvere il problema.</translation>
 <translation id="3445925074670675829">Dispositivo USB-C</translation>
@@ -3420,7 +3420,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3493486281776271508">È necessaria una connessione a Internet</translation>
 <translation id="3493881266323043047">Validità</translation>
 <translation id="3495496470825196617">Inattività durante la ricarica</translation>
-<translation id="3495660573538963482">Impostazioni dell'Assistente Google</translation>
+<translation id="3495660573538963482">Impostazioni dell'Assistente Decentr</translation>
 <translation id="3495675993466884458">L'amministratore di sistema ha consentito a <ph name="APP_ORIGIN" /> di registrare il tuo schermo</translation>
 <translation id="3496213124478423963">Riduci</translation>
 <translation id="3496238553815913323"><ph name="LANGUAGE" /> (lingua non selezionata)</translation>
@@ -3594,7 +3594,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="362266093274784978">{COUNT,plural, =1{un'app}other{# app}}</translation>
 <translation id="362333465072914957">In attesa dell'emissione del certificato da parte della CA</translation>
 <translation id="3623598555687153298">Questa operazione comporterà l'eliminazione di <ph name="TOTAL_USAGE" /> di dati memorizzati dai siti visualizzati</translation>
-<translation id="3624567683873126087">Sblocca il dispositivo e accedi all'Account Google</translation>
+<translation id="3624567683873126087">Sblocca il dispositivo e accedi all'Account Decentr</translation>
 <translation id="3624583033347146597">Scegli le preferenze relative ai cookie di terze parti</translation>
 <translation id="3625481642044239431">File non valido selezionato. Riprova.</translation>
 <translation id="3626296069957678981">Per ricaricare questo Chromebook devi usare una batteria Dell compatibile.</translation>
@@ -3608,7 +3608,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3630995161997703415">Aggiungi questo sito alla barra delle app per usarlo in qualsiasi momento</translation>
 <translation id="3634652306074934350">Richiesta di autorizzazione scaduta</translation>
 <translation id="3635199270495525546">TPM (Trusted Platform Module) rilevato</translation>
-<translation id="3635353578505343390">Invia feedback a Google</translation>
+<translation id="3635353578505343390">Invia feedback a Decentr</translation>
 <translation id="3635960017746711110">Preferenze USB su Crostini</translation>
 <translation id="3636766455281737684"><ph name="PERCENTAGE" />% - <ph name="TIME" /> rimanenti</translation>
 <translation id="3636940436873918441">Lingue preferite</translation>
@@ -3736,7 +3736,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3719826155360621982">Home page</translation>
 <translation id="3720543739123045680">Altre schede condividono un processo con questa scheda, questo potrebbe comportare un'esperienza DevTools imprevista.</translation>
 <translation id="372062398998492895">CUPS</translation>
-<translation id="3721119614952978349">Tu e Google</translation>
+<translation id="3721119614952978349">Tu e Decentr</translation>
 <translation id="3721178866505920080">Maggiori informazioni sull'attivazione del precaricamento esteso</translation>
 <translation id="3722108462506185496">Errore durante l'avvio del servizio macchina virtuale. Riprova.</translation>
 <translation id="3722624153992426516">È stata ricevuta l'istruzione <ph name="IMPORT_CERTIFICATE__INSTRUCTION_NAME" /></translation>
@@ -3761,7 +3761,7 @@ Puoi gestire le impostazioni dell'account installando l'app Family Link su quest
 <translation id="3732108843630241049">Questo dispositivo non riceve più aggiornamenti software automatici. Attiva gli aggiornamenti della sicurezza estesi per mantenere sicurezza, stabilità e prestazioni. Alcune funzionalità saranno limitate. <ph name="LINK_BEGIN" />Scopri di più<ph name="LINK_END" /></translation>
 <translation id="3732414796052961578">Continua come <ph name="ACCOUNT_NAME" /></translation>
 <translation id="3732530910372558017">Il PIN deve contenere massimo 63 caratteri</translation>
-<translation id="3732857534841813090">Informazioni correlate dell'Assistente Google</translation>
+<translation id="3732857534841813090">Informazioni correlate dell'Assistente Decentr</translation>
 <translation id="3733296813637058299">Le app verranno installate automaticamente. Puoi trovare altre app per il tuo dispositivo <ph name="DEVICE_TYPE" /> nel Play Store.</translation>
 <translation id="3735039640698208086">Durante la riproduzione audio...</translation>
 <translation id="3735740477244556633">Ordina per</translation>
@@ -3912,7 +3912,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="3825635794653163640">Mostra il punto sull'icona dell'app per gli avvisi relativi alle app</translation>
 <translation id="3826071569074535339">Possono utilizzare i sensori di movimento</translation>
 <translation id="3826086052025847742">Log ChromeOS Flex</translation>
-<translation id="3826440694796503677">L'amministratore ha disabilitato l'aggiunta di altri Account Google</translation>
+<translation id="3826440694796503677">L'amministratore ha disabilitato l'aggiunta di altri Account Decentr</translation>
 <translation id="3827774300009121996">&amp;Schermo intero</translation>
 <translation id="3828029223314399057">Cerca tra i preferiti</translation>
 <translation id="3828953470056652895">Ho letto e accetto i <ph name="BEGIN_LINK1" />Termini di servizio di Google<ph name="END_LINK1" />, i <ph name="BEGIN_LINK2" />Termini di servizio aggiuntivi di Chrome e ChromeOS<ph name="END_LINK2" /> e i <ph name="BEGIN_LINK3" />Termini di servizio di Google Play<ph name="END_LINK3" />.</translation>
@@ -3970,7 +3970,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="3873315167136380065">Per attivare questa funzione, <ph name="BEGIN_LINK" />reimposta la sincronizzazione<ph name="END_LINK" /> per rimuovere la passphrase di sincronizzazione</translation>
 <translation id="3873423927483480833">Mostra i codici PIN</translation>
 <translation id="3873915545594852654">Si è verificato un problema con ARC++.</translation>
-<translation id="3874164307099183178">Attivare l'Assistente Google</translation>
+<translation id="3874164307099183178">Attivare l'Assistente Decentr</translation>
 <translation id="3875511946736639169">Attiva le immagini</translation>
 <translation id="3875815154304214043">L'app <ph name="APP_NAME" /> è stata impostata in modo da essere aperta in una nuova scheda del browser; anche i link supportati verranno aperti nel browser. <ph name="BEGIN_LINK_LEARN_MORE" />Scopri di più<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="3876219572815410515">Finestre ridimensionate in alto</translation>
@@ -4270,7 +4270,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4093865285251893588">Immagine profilo</translation>
 <translation id="4093955363990068916">File locale:</translation>
 <translation id="4094647278880271855">Stai utilizzando una variabile di ambiente non supportata: <ph name="BAD_VAR" />. Sicurezza e stabilità ne risentiranno.</translation>
-<translation id="4095246243698959793">Per sincronizzare e usare le passkey di Google</translation>
+<translation id="4095246243698959793">Per sincronizzare e usare le passkey di Decentr</translation>
 <translation id="4095264805865317199">Apri UI di attivazione rete mobile</translation>
 <translation id="4095425503313512126">La navigazione e la ricerca sono più veloci</translation>
 <translation id="4095483462103784441">Crea un nuovo gruppo di schede</translation>
@@ -4279,7 +4279,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4096797685681362305">Visualizzato nell'ultima settimana</translation>
 <translation id="4097406557126260163">App ed estensioni</translation>
 <translation id="409742781329613461">Suggerimenti per Chrome</translation>
-<translation id="4097560579602855702">Cerca su Google</translation>
+<translation id="4097560579602855702">Cerca su Decentr</translation>
 <translation id="4098667039111970300">Strumenti stilo nella barra degli strumenti</translation>
 <translation id="4099874310852108874">Si è verificato un errore di rete.</translation>
 <translation id="4100020874626534113">Consenti l'assegnazione diacritica flessibile. Ad esempio, puoi digitare "anh" o "asnh" per ottenere "ánh".</translation>
@@ -4592,7 +4592,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4348766275249686434">Raccogli errori</translation>
 <translation id="4349828822184870497">Utili</translation>
 <translation id="4350230709416545141">Impedisci sempre al sito <ph name="HOST" /> di accedere alla tua posizione</translation>
-<translation id="4350782034419308508">Ok Google</translation>
+<translation id="4350782034419308508">Ok Decentr</translation>
 <translation id="435185728237714178">Vai all'app "<ph name="APP_NAME" />" per gestire le app installate e riprodotte in streaming</translation>
 <translation id="4354073718307267720">Chiedi conferma quando un sito vuole creare una mappa 3D dell'ambiente circostante o monitorare la posizione della fotocamera</translation>
 <translation id="4354344420232759511">Qui verranno visualizzati i siti visitati</translation>
@@ -4691,7 +4691,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4414242853388122273">Errore durante la rimozione di <ph name="VM_NAME" />. Riprova.</translation>
 <translation id="4415213869328311284">Puoi iniziare a utilizzare il tuo <ph name="DEVICE_TYPE" />.</translation>
 <translation id="4415245286584082850">Nessun dispositivo trovato. Apri un articolo del Centro assistenza in una nuova scheda.</translation>
-<translation id="4415276339145661267">Gestisci il tuo Account Google</translation>
+<translation id="4415276339145661267">Gestisci il tuo Account Decentr</translation>
 <translation id="4415748029120993980">Curva ellittica SECG secp384r1 (anche nota come NIST P-384)</translation>
 <translation id="4415815425191869676">Mantieni questi siti sempre attivi</translation>
 <translation id="4416582610654027550">Digita un URL valido</translation>
@@ -4776,7 +4776,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4490086832405043258">Usa le impostazioni del proxy di ChromeOS per questo profilo.</translation>
 <translation id="4490798467014431984">Le estensioni non sono consentite su questo sito</translation>
 <translation id="449102748655090594">Raggruppamento delle schede in corso…</translation>
-<translation id="449126573531210296">Cripta le password sincronizzate con il tuo Account Google</translation>
+<translation id="449126573531210296">Cripta le password sincronizzate con il tuo Account Decentr</translation>
 <translation id="4492265221907525667">Accedi per utilizzare questa nuova funzionalità sperimentale.</translation>
 <translation id="449232563137139956">In genere, i siti mostrano immagini per fornire un'illustrazione come foto per negozi online o articoli di notizie</translation>
 <translation id="4492698018379445570">Trova gli articoli aggiunti ai carrelli degli acquisti ed esegui il pagamento quando vuoi procedere</translation>
@@ -4801,7 +4801,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4508332912150723117">Nome utente <ph name="USER_EMAIL" />. Visualizza dettagli</translation>
 <translation id="450867954911715010">Impostazioni di accessibilità</translation>
 <translation id="4508765956121923607">Visualizza s&amp;orgente</translation>
-<translation id="4509277363725254222">Quando condividi una copia del tuo <ph name="BEGIN_BOLD_USERNAME" />nome utente<ph name="END_BOLD_USERNAME" /> e della tua <ph name="BEGIN_BOLD_PASSWORD" />password<ph name="END_BOLD_PASSWORD" />, il membro del tuo gruppo Famiglia può inserirli utilizzando Gestore delle password di Google</translation>
+<translation id="4509277363725254222">Quando condividi una copia del tuo <ph name="BEGIN_BOLD_USERNAME" />nome utente<ph name="END_BOLD_USERNAME" /> e della tua <ph name="BEGIN_BOLD_PASSWORD" />password<ph name="END_BOLD_PASSWORD" />, il membro del tuo gruppo Famiglia può inserirli utilizzando Gestore delle password di Decentr</translation>
 <translation id="4509421746503122514">Riavvia per aggiornare</translation>
 <translation id="4509741852167209430">Vengono condivisi tipi di dati limitati tra i siti per misurare il rendimento dei loro annunci, ad esempio se hai effettuato un acquisto dopo aver visitato un sito</translation>
 <translation id="4510195992002502722">Impossibile inviare il feedback. Nuovo tentativo in corso…</translation>
@@ -4851,7 +4851,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4545759655004063573">Impossibile salvare a causa dell'insufficienza di autorizzazioni. Salva in un'altra posizione.</translation>
 <translation id="4546345569117159016">Tasto destro</translation>
 <translation id="4546509872654834602"><ph name="SUPERVISED_USER_NAME" /> vuole utilizzare questa estensione:</translation>
-<translation id="4546692474302123343">Input vocale dell'Assistente Google</translation>
+<translation id="4546692474302123343">Input vocale dell'Assistente Decentr</translation>
 <translation id="4547659257713117923">Nessuna scheda di altri dispositivi</translation>
 <translation id="4547672827276975204">Imposta automaticamente</translation>
 <translation id="4549791035683739768">Nel token di sicurezza non sono archiviate impronte</translation>
@@ -4896,7 +4896,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4574741712540401491">•  <ph name="LIST_ITEM_TEXT" /></translation>
 <translation id="4575614183318795561">Configura la funzionalità <ph name="FEATURE_NAME" /></translation>
 <translation id="4576541033847873020">Accoppia dispositivo Bluetooth</translation>
-<translation id="4576763597586015380">Verifica la tua identità per continuare a salvare le password nel tuo Account Google</translation>
+<translation id="4576763597586015380">Verifica la tua identità per continuare a salvare le password nel tuo Account Decentr</translation>
 <translation id="4576965832613128988"><ph name="WINDOW_TITLE" /> - Scheda non attiva</translation>
 <translation id="4577995939477504370">Le app e i siti web che dispongono dell'autorizzazione di accesso al microfono, nonché i servizi di sistema, possono usare il microfono</translation>
 <translation id="4579453506923101210">Eliminare un telefono connesso</translation>
@@ -5031,7 +5031,7 @@ Potrebbero essere incluse informazioni su software installati, file, browser e s
 <translation id="4676595058027112862">Phone Hub, scopri di più</translation>
 <translation id="4676616966096505747">Alcuni dati non sono ancora salvati nel tuo account</translation>
 <translation id="4677772697204437347">Memoria GPU</translation>
-<translation id="467809019005607715">Presentazioni Google</translation>
+<translation id="467809019005607715">Presentazioni Decentr</translation>
 <translation id="4678848110205818817">Carta di credito/debito</translation>
 <translation id="4680105648806843642">L'audio è stato disattivato in questa pagina</translation>
 <translation id="4680112532510845139">Trascina un'immagine qui</translation>
@@ -5202,7 +5202,7 @@ Premi Ctrl + Alt + Diminuisci luminosità per diminuire lo zoom.</translation>
 <translation id="481689174647911539">Questo file potrebbe essere un virus o un malware.<ph name="LINE_BREAK" />Puoi inviarlo a Google Navigazione sicura per controllare se non è sicuro. In genere l'analisi richiede alcuni secondi.</translation>
 <translation id="4816900689218414104">Crea una passkey su un telefono o tablet</translation>
 <translation id="4819323978093861656">{0,plural, =0{Chiusura in corso ora}=1{Chiusura tra 1 secondo}other{Chiusura tra # secondi}}</translation>
-<translation id="4819607494758673676">Notifiche dell'Assistente Google</translation>
+<translation id="4819607494758673676">Notifiche dell'Assistente Decentr</translation>
 <translation id="4819818293886748542">Ottieni un link a Strumento di assistenza</translation>
 <translation id="4820082996741546682">Autorizzati a bloccare la tastiera</translation>
 <translation id="4820236583224459650">Imposta come richiesta attiva</translation>
@@ -5242,7 +5242,7 @@ Premi Ctrl + Alt + Diminuisci luminosità per diminuire lo zoom.</translation>
 <translation id="4846628405149428620">Seleziona la posizione in cui questo sito può salvare le modifiche</translation>
 <translation id="4846680374085650406">Stai seguendo il consiglio dell'amministratore per questa impostazione.</translation>
 <translation id="4847242508757499006">Scegli "Riprova" oppure seleziona "Apri nell'editor di base" per utilizzare opzioni di visualizzazione e modifica limitate.</translation>
-<translation id="4848191975108266266">Hotword "Ok Google" dell'Assistente Google</translation>
+<translation id="4848191975108266266">Hotword "Ok Google" dell'Assistente Decentr</translation>
 <translation id="4849286518551984791">Coordinated Universal Time (UTC/GMT)</translation>
 <translation id="4849517651082200438">Non installare</translation>
 <translation id="485053257961878904">Impossibile configurare la sincronizzazione delle notifiche</translation>
@@ -5474,7 +5474,7 @@ Premi Ctrl + Alt + Diminuisci luminosità per diminuire lo zoom.</translation>
 <translation id="5021750053540820849">Non ancora aggiornato</translation>
 <translation id="5022206631034207923">Schermata di blocco e controlli</translation>
 <translation id="5024511550058813796">La tua cronologia sarà disponibile su tutti i dispositivi sincronizzati, quindi potrai continuare ciò che stavi facendo</translation>
-<translation id="5026492829171796515">Accedi per aggiungere un Account Google</translation>
+<translation id="5026492829171796515">Accedi per aggiungere un Account Decentr</translation>
 <translation id="5026806129670917316">Attiva Wi-Fi</translation>
 <translation id="5026874946691314267">Non visualizzare più</translation>
 <translation id="5027550639139316293">Certificato email</translation>
@@ -5791,7 +5791,7 @@ Premi Ctrl + Alt + Diminuisci luminosità per diminuire lo zoom.</translation>
 <translation id="5261619498868361045">È necessario specificare il nome del contenitore.</translation>
 <translation id="5261683757250193089">Apri nel Web Store</translation>
 <translation id="5261799091118902550">Questo file potrebbe essere un virus o un malware. Puoi inviarlo a Google per verificare se non è sicuro.</translation>
-<translation id="5262334727506665688">Continua a salvare le password nel tuo Account Google</translation>
+<translation id="5262334727506665688">Continua a salvare le password nel tuo Account Decentr</translation>
 <translation id="5262784498883614021">Collegati automaticamente alla rete</translation>
 <translation id="5263656105659419083">Per tornare facilmente al riquadro laterale, fai clic su Fissa in alto a destra</translation>
 <translation id="5264148714798105376">L'operazione potrebbe richiedere un minuto circa.</translation>
@@ -5836,7 +5836,7 @@ Premi Ctrl + Alt + Diminuisci luminosità per diminuire lo zoom.</translation>
 <translation id="529296195492126134">La modalità temporanea non è supportata. Contatta l'amministratore.</translation>
 <translation id="5293043095535566171">Attivare l'accesso alla posizione?</translation>
 <translation id="5293170712604732402">Ripristina le impostazioni predefinite originali</translation>
-<translation id="5294068591166433464">Se un sito cerca di rubare la tua password o se scarichi un file dannoso, Chrome potrebbe anche inviare gli URL, inclusi frammenti dei contenuti delle pagine, a Google</translation>
+<translation id="5294068591166433464">Se un sito cerca di rubare la tua password o se scarichi un file dannoso, Chrome potrebbe anche inviare gli URL, inclusi frammenti dei contenuti delle pagine, a Decentr</translation>
 <translation id="5294097441441645251">Deve iniziare con un carattere minuscolo o un trattino basso</translation>
 <translation id="5294618183559481278">Il tuo dispositivo <ph name="DEVICE_TYPE" /> usa un sensore incorporato per rilevare la presenza di persone davanti allo schermo. Tutti i dati vengono subito elaborati sul dispositivo e poi eliminati. I dati del sensore non vengono mai inviati a Google. <ph name="LINK_BEGIN" />Scopri di più<ph name="LINK_END" /></translation>
 <translation id="5295188371713072404">Le estensioni possono richiedere l'accesso a questo sito</translation>
@@ -5903,7 +5903,7 @@ Premi Ctrl + Alt + Diminuisci luminosità per diminuire lo zoom.</translation>
 <translation id="534449933710420173">Cartella senza nome</translation>
 <translation id="5345916423802287046">Avvia app all'accesso</translation>
 <translation id="5347920333985823270">Chrome supporta un web gratuito</translation>
-<translation id="5350293332385664455">Disattivare l'Assistente Google</translation>
+<translation id="5350293332385664455">Disattivare l'Assistente Decentr</translation>
 <translation id="535123479159372765">Testo copiato da un altro dispositivo</translation>
 <translation id="5352033265844765294">Timestamp</translation>
 <translation id="5352257124367865087">Gestisci le autorizzazioni del sito</translation>
@@ -5974,7 +5974,7 @@ Puoi assegnare più sensori a questa azione.</translation>
 <translation id="5406844893187365798">Digitazione flessibile</translation>
 <translation id="5407167491482639988">Incomprensibile</translation>
 <translation id="5408750356094797285">Zoom: <ph name="PERCENT" /></translation>
-<translation id="5409044712155737325">Dal tuo Account Google</translation>
+<translation id="5409044712155737325">Dal tuo Account Decentr</translation>
 <translation id="5410889048775606433">Fucsia</translation>
 <translation id="5411022484772257615">Impossibile completare la registrazione per uso scolastico</translation>
 <translation id="5411856344659127989">Se vuoi aggiungere un account per qualcun altro, <ph name="LINK_BEGIN" />aggiungi una nuova persona<ph name="LINK_END" /> a <ph name="DEVICE_TYPE" />.
@@ -6129,7 +6129,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="5507756662695126555">Non ripudio</translation>
 <translation id="5509693895992845810">S&amp;alva con nome...</translation>
 <translation id="5509914365760201064">Rilasciato da: <ph name="CERTIFICATE_AUTHORITY" /></translation>
-<translation id="5510775624736435856">Scarica le descrizioni delle immagini da Google</translation>
+<translation id="5510775624736435856">Scarica le descrizioni delle immagini da Decentr</translation>
 <translation id="5511379779384092781">Molto bassa</translation>
 <translation id="5511823366942919280">Vuoi configurare questo dispositivo come dispositivo "Shark"?</translation>
 <translation id="5512739112435045339">Libera spazio sul dispositivo. Poi prova a eseguire nuovamente il download</translation>
@@ -6161,7 +6161,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="5533001281916885985"><ph name="SITE_NAME" /> vorrebbe</translation>
 <translation id="5533343601674003130">Servizio PDF</translation>
 <translation id="5537725057119320332">Trasmetti</translation>
-<translation id="5539070192556911367">Impossibile accedere a Google</translation>
+<translation id="5539070192556911367">Impossibile accedere a Decentr</translation>
 <translation id="5541694225089836610">Azione disattivata dall'amministratore</translation>
 <translation id="5542132724887566711">Profilo</translation>
 <translation id="5542750926112347543">Cookie provenienti da <ph name="DOMAIN" /> bloccati</translation>
@@ -6324,7 +6324,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="565515993087783098">Se elimini questa rete, rimuoverai anche l'abbonamento Passpoint e le reti associate.</translation>
 <translation id="5655296450510165335">Registrazione dei dispositivi</translation>
 <translation id="5655823808357523308">Regola la modalità di visualizzazione dei colori sullo schermo</translation>
-<translation id="5656845498778518563">Invia feedback a Google</translation>
+<translation id="5656845498778518563">Invia feedback a Decentr</translation>
 <translation id="5657667036353380798">Per poter installare l'estensione esterna occorre la versione di Chrome <ph name="MINIMUM_CHROME_VERSION" /> o successiva.</translation>
 <translation id="565899488479822148">Installazione dell'ultimo aggiornamento in corso…</translation>
 <translation id="5659593005791499971">Email</translation>
@@ -6442,7 +6442,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="5759397201362801675">Scegli uno stato d'animo</translation>
 <translation id="5759728514498647443">I documenti inviati alla stampante tramite <ph name="APP_NAME" /> possono essere letti da <ph name="APP_NAME" />.</translation>
 <translation id="5760318332127300368">Elimina anche i dati di navigazione (<ph name="URL" />) che potrebbero farti uscire dall'account su Google.com. <ph name="LEARN_MORE" /></translation>
-<translation id="5762787084360227629">Inserisci i dati dell'Account Google</translation>
+<translation id="5762787084360227629">Inserisci i dati dell'Account Decentr</translation>
 <translation id="5763751966069581670">Nessun dispositivo USB trovato</translation>
 <translation id="5764483294734785780">Sal&amp;va audio come...</translation>
 <translation id="57646104491463491">Data ultima modifica</translation>
@@ -6636,7 +6636,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="5896436821193322561">Non consentire</translation>
 <translation id="5899860758576822363">Riproduci con volume più basso durante la lettura vocale di ChromeVox</translation>
 <translation id="5900243355162006650">Configurazione tethering:</translation>
-<translation id="5900302528761731119">Foto profilo Google</translation>
+<translation id="5900302528761731119">Foto profilo Decentr</translation>
 <translation id="590036993063074298">Informazioni sulla qualità del mirroring</translation>
 <translation id="5901069264981746702">I dati relativi alle tue impronte vengono memorizzati in modo sicuro e non possono essere trasferiti in alcun modo dal tuo <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Scopri di più<ph name="LINK_END" /></translation>
 <translation id="5901089233978050985">Passa alla scheda in fase di acquisizione</translation>
@@ -6849,12 +6849,12 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="6064764629679333574">Migliora la qualità del suono del microfono Bluetooth aumentando la risoluzione dell'audio da bassa risoluzione ad alta risoluzione.</translation>
 <translation id="6065289257230303064">Attributi directory soggetto certificato</translation>
 <translation id="6066794465984119824">L'hash dell'immagine non è impostato</translation>
-<translation id="6069464830445383022">Accedi al Chromebook con il tuo Account Google</translation>
+<translation id="6069464830445383022">Accedi al Chromebook con il tuo Account Decentr</translation>
 <translation id="6069500411969514374">Lavoro</translation>
 <translation id="6071181508177083058">conferma password</translation>
 <translation id="6071576563962215370">Il sistema non è riuscito a stabilire il blocco degli attributi installation-time del dispositivo.</translation>
 <translation id="6071938745001252305"><ph name="MEMORY_VALUE" /> di memoria salvata</translation>
-<translation id="6071995715087444295">Per controllare la presenza di password compromesse, accedi al tuo Account Google</translation>
+<translation id="6071995715087444295">Per controllare la presenza di password compromesse, accedi al tuo Account Decentr</translation>
 <translation id="6072442788591997866">L'app <ph name="APP_NAME" /> non è consentita su questo dispositivo. Contatta l'amministratore. Codice di errore: <ph name="ERROR_CODE" />.</translation>
 <translation id="6073292342939316679">riduci la luminosità della tastiera</translation>
 <translation id="6073451960410192870">Interrompi registrazione</translation>
@@ -6900,7 +6900,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="6102043788063419338">Questo file è stato bloccato dalla protezione avanzata.</translation>
 <translation id="6103681770816982672">Avviso. Stai per passare al canale per gli sviluppatori</translation>
 <translation id="610395411842312282">Raggruppa due finestre affiancate</translation>
-<translation id="6104068876731806426">Account Google</translation>
+<translation id="6104068876731806426">Account Decentr</translation>
 <translation id="6104667115274478616">Gestisci le impostazioni audio di ChromeOS</translation>
 <translation id="6104796831253957966">La coda della stampante è piena</translation>
 <translation id="610487644502954950">Riquadro laterale sbloccato</translation>
@@ -6908,7 +6908,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="6106167152849320869">Se hai anche scelto di inviare dati diagnostici e sull'utilizzo nel passaggio precedente, questi dati verranno raccolti per le app installate.</translation>
 <translation id="6108952804512516814">Crea con l'AI</translation>
 <translation id="6111718295497931251">Rimuovi l'accesso a Google Drive</translation>
-<translation id="6111972606040028426">Abilitare l'Assistente Google</translation>
+<translation id="6111972606040028426">Abilitare l'Assistente Decentr</translation>
 <translation id="6112727384379533756">Aggiungi una richiesta</translation>
 <translation id="6112931163620622315">Controlla il tuo telefono</translation>
 <translation id="6113434369102685411">Imposta il tuo motore di ricerca predefinito per il browser Chrome e Avvio app di <ph name="DEVICE_TYPE" /></translation>
@@ -7097,7 +7097,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="6244245036423700521">Importa file ONC</translation>
 <translation id="6245523954602476652">Puoi accedervi su Gestore delle password di Google.</translation>
 <translation id="6246790815526961700">Carica dal dispositivo</translation>
-<translation id="6247557882553405851">Gestore delle password di Google</translation>
+<translation id="6247557882553405851">Gestore delle password di Decentr</translation>
 <translation id="6247620186971210352">Nessuna app trovata</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE" />%</translation>
 <translation id="6247802389331535091">Sistema: <ph name="ARC_PROCESS_NAME" /></translation>
@@ -7308,7 +7308,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="6415900369006735853">Connettiti a Internet tramite il telefono</translation>
 <translation id="6416743254476733475">Consenti o blocca sul tuo computer.</translation>
 <translation id="6416856063840710198">Per migliorare la tua visita, i siti spesso salvano la tua attività, solitamente sul tuo dispositivo. <ph name="SETTINGS" /></translation>
-<translation id="6417265370957905582">Assistente Google</translation>
+<translation id="6417265370957905582">Assistente Decentr</translation>
 <translation id="6417468503703810114">Comportamento predefinito</translation>
 <translation id="6418160186546245112">Ripristino della versione precedente installata di <ph name="IDS_SHORT_PRODUCT_NAME" /></translation>
 <translation id="641817663353603351">pagina su</translation>
@@ -7436,7 +7436,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
         <ph name="FILE_INFO" />
         <ph name="EVENT_NAME" /></translation>
 <translation id="6519689855001245063">Verifica dell'idoneità in corso…</translation>
-<translation id="6520087076882753524">Puoi visualizzare e gestire le password salvate in Gestore delle password di Google</translation>
+<translation id="6520087076882753524">Puoi visualizzare e gestire le password salvate in Gestore delle password di Decentr</translation>
 <translation id="6520876759015997832">Risultato di ricerca <ph name="LIST_POSITION" /> di <ph name="LIST_SIZE" />: <ph name="SEARCH_RESULT_TEXT" />. Premi Invio per andare alla sezione.</translation>
 <translation id="6521214596282732365">In genere i siti utilizzano i tuoi caratteri, così puoi creare contenuti ad alta fedeltà con strumenti di grafica e design online</translation>
 <translation id="6523574494641144162">Gestore delle password di Google non ha potuto salvare queste password nel tuo Account Google. Puoi salvarle su questo dispositivo.</translation>
@@ -7476,7 +7476,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="6547854317475115430"><ph name="BEGIN_PARAGRAPH1" />Il servizio di geolocalizzazione di Google utilizza fonti quali le reti Wi-Fi e mobili o i sensori per stabilire la posizione approssimativa del dispositivo.<ph name="END_PARAGRAPH1" />
     <ph name="BEGIN_PARAGRAPH2" />Puoi disattivare la posizione del dispositivo in qualsiasi momento tramite Impostazioni &gt; App &gt; Google Play Store &gt; Gestisci le preferenze Android &gt; Sicurezza e posizione &gt; Posizione. Puoi anche disattivare l'uso delle reti Wi-Fi e mobili e dei sensori per la posizione del dispositivo Android disabilitando "Precisione della geolocalizzazione di Google" nello stesso menu.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="654871471440386944">Attivare navigazione con cursore?</translation>
-<translation id="6548945820758901244">Apri il riquadro laterale della Ricerca Google</translation>
+<translation id="6548945820758901244">Apri il riquadro laterale della Ricerca Decentr</translation>
 <translation id="6549038875972762904">Ripeti configurazione</translation>
 <translation id="6550675742724504774">Opzioni</translation>
 <translation id="6550790536557204077">Il tuo <ph name="BEGIN_LINK" />profilo è gestito<ph name="END_LINK" /> da <ph name="MANAGER" /></translation>
@@ -7658,7 +7658,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="6686490380836145850">Chiudi schede a destra</translation>
 <translation id="6686665106869989887">Scheda spostata a destra</translation>
 <translation id="6686817083349815241">Salva la password</translation>
-<translation id="6687008241368170505">Cambia il PIN del Gestore delle password di Google</translation>
+<translation id="6687008241368170505">Cambia il PIN del Gestore delle password di Decentr</translation>
 <translation id="6687079240787935001">Nascondi <ph name="MODULE_TITLE" /></translation>
 <translation id="6689714331348768690">Fai venire al computer <ph name="SUPERVISED_USER_NAME" />. Tuo figlio leggerà alcune frasi sullo schermo per creare il suo modello vocale.
     <ph name="BR" />
@@ -7747,7 +7747,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="6762861159308991328">Puoi modificare la modalità di apertura dei link nelle Impostazioni app</translation>
 <translation id="6764633064754857889">Link anteprima</translation>
 <translation id="676560328519657314">I tuoi metodi di pagamento in Google Pay</translation>
-<translation id="6766488013065406604">Vai a Gestore delle password di Google</translation>
+<translation id="6766488013065406604">Vai a Gestore delle password di Decentr</translation>
 <translation id="6767566652486411142">Seleziona un'altra lingua…</translation>
 <translation id="6768034047581882264">Non possono mostrare contenuti non sicuri</translation>
 <translation id="6769902329858794251"><ph name="BEGIN_PARAGRAPH1" />Per garantire un'esperienza ottimale, <ph name="DEVICE_OS" /> raccoglie i dati relativi all'hardware dei dispositivi e li condivide con Google per stabilire quali aggiornamenti devono essere recapitati. Se vuoi, puoi consentire a Google di usare questi dati per ulteriori scopi quali il supporto e i miglioramenti dell'assistenza e dell'esperienza relative a <ph name="DEVICE_OS" />.<ph name="END_PARAGRAPH1" />
@@ -7815,7 +7815,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="6805647936811177813">Accedi a <ph name="TOKEN_NAME" /> per importare il certificato client da <ph name="HOST_NAME" />.</translation>
 <translation id="680572642341004180">Attiva monitoraggio RLZ su <ph name="SHORT_PRODUCT_OS_NAME" />.</translation>
 <translation id="6806089545527108739">Non consentire, ma chiedi in seguito</translation>
-<translation id="680644983456221885">Protezione proattiva in tempo reale da estensioni, siti e download pericolosi in base ai tuoi dati di navigazione inviati a Google</translation>
+<translation id="680644983456221885">Protezione proattiva in tempo reale da estensioni, siti e download pericolosi in base ai tuoi dati di navigazione inviati a Decentr</translation>
 <translation id="6808039367995747522">Per continuare, inserisci e tocca il token di sicurezza</translation>
 <translation id="6808166974213191158">ChromeOS Flex System Image Writer</translation>
 <translation id="6808193438228982088">Volpe</translation>
@@ -7861,13 +7861,13 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="6828182567531805778">Inserisci la tua passphrase per sincronizzare i dati</translation>
 <translation id="682871081149631693">Correzione rapida</translation>
 <translation id="6828860976882136098">Impostazione degli aggiornamenti automatici per tutti gli utenti non riuscita (errore di esecuzione preliminare: <ph name="ERROR_NUMBER" />)</translation>
-<translation id="682971198310367122">Norme sulla privacy di Google</translation>
+<translation id="682971198310367122">Norme sulla privacy di Decentr</translation>
 <translation id="6831043979455480757">Traduci</translation>
 <translation id="6832218595502288407">Allinea a sinistra</translation>
 <translation id="6833479554815567477">Scheda spostata dal gruppo <ph name="GROUP_NAME" /> - <ph name="GROUP_CONTENTS" /></translation>
 <translation id="6833753236242482566">Bilanciato (consigliato)</translation>
 <translation id="6835762382653651563">Connettiti a Internet per aggiornare il tuo <ph name="DEVICE_TYPE" />.</translation>
-<translation id="683630338945552556">Usa e salva le password nel tuo Account Google</translation>
+<translation id="683630338945552556">Usa e salva le password nel tuo Account Decentr</translation>
 <translation id="6839225236531462745">Errore di eliminazione del certificato</translation>
 <translation id="6839916869147598086">L'accesso è stato modificato</translation>
 <translation id="6840155290835956714">Chiedi prima di inviare</translation>
@@ -7986,7 +7986,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="6925127338315966709">Stai per aggiungere un profilo gestito a questo browser. L'amministratore ha il controllo del profilo e può accedere ai relativi dati. I preferiti, la cronologia, le password e altre impostazioni possono essere sincronizzati con il tuo account e gestiti dall'amministratore.</translation>
 <translation id="6928650056523249512">Rimuovi automaticamente le autorizzazioni dei siti inutilizzati</translation>
 <translation id="6929126689972602640">La funzionalità Controllo genitori non è supportata per gli account della scuola. Per aggiungere un account della scuola e accedere a Google Classroom e ad altri siti web per svolgere i compiti a casa, accedi prima con l'account personale del bambino. Puoi aggiungere l'account della scuola in un secondo momento nelle impostazioni.</translation>
-<translation id="6929760895658557216">Ok Google</translation>
+<translation id="6929760895658557216">Ok Decentr</translation>
 <translation id="6930161297841867798">{NUM_EXTENSIONS,plural, =1{Un'estensione è stata rifiutata}other{# estensioni sono state rifiutate}}</translation>
 <translation id="6931690462168617033">Intensità clic</translation>
 <translation id="6933321725007230600">Attiva la &amp;sincronizzazione…</translation>
@@ -8068,7 +8068,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="6985607387932385770">Stampanti</translation>
 <translation id="6988094684494323731">Avvio del container Linux</translation>
 <translation id="6988403677482707277">Scheda spostata all'inizio della tabstrip</translation>
-<translation id="6988572888918530647">Gestisci il tuo Account Google</translation>
+<translation id="6988572888918530647">Gestisci il tuo Account Decentr</translation>
 <translation id="6989274756151920076">Resta qui</translation>
 <translation id="6991665348624301627">Seleziona una destinazione</translation>
 <translation id="6991926986715044139">Mostra sempre la scorciatoia di Google Lens</translation>
@@ -8313,7 +8313,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="718512729823942418">Nessun microfono disponibile</translation>
 <translation id="7186088072322679094">Mantieni in barra degli strumenti</translation>
 <translation id="7186303001964993981"><ph name="ORIGIN" /> non può aprire questa cartella perché contiene file di sistema</translation>
-<translation id="7186568385131859684">Controlla il modo in cui la cronologia di navigazione viene utilizzata con gli altri dati sui servizi Google</translation>
+<translation id="7186568385131859684">Controlla il modo in cui la cronologia di navigazione viene utilizzata con gli altri dati sui servizi Decentr</translation>
 <translation id="7188508872042490670">Dati dei siti sul dispositivo</translation>
 <translation id="7189234443051076392">Assicurati di avere spazio sufficiente sul dispositivo</translation>
 <translation id="7189451821249468368">Non disponi di licenze Upgrade sufficienti per registrare questo dispositivo. Contatta l'ufficio vendite per acquistarne altre. Se ritieni che questo messaggio sia stato visualizzato per sbaglio, contatta l'assistenza.</translation>
@@ -8656,7 +8656,7 @@ Hai altre # password compromesse. Gestore delle password di Google consiglia di 
 <translation id="7441830548568730290">Altri utenti</translation>
 <translation id="744341768939279100">Crea un nuovo profilo</translation>
 <translation id="744366959743242014">Caricamento dei dati in corso. L'operazione potrebbe richiedere alcuni secondi.</translation>
-<translation id="7443806024147773267">Puoi avere a disposizione le tue password ogni volta che accedi al tuo Account Google</translation>
+<translation id="7443806024147773267">Puoi avere a disposizione le tue password ogni volta che accedi al tuo Account Decentr</translation>
 <translation id="7444176988908839653">{COUNT,plural, =0{I cookie verranno nuovamente bloccati oggi}=1{I cookie verranno nuovamente bloccati domani}other{# giorni al nuovo blocco dei cookie}}</translation>
 <translation id="7444970023873202833">Esplora altri ricordi in Google Foto</translation>
 <translation id="7444983668544353857">Disabilita <ph name="NETWORKDEVICE" /></translation>
@@ -9092,7 +9092,7 @@ Premi un sensore o un tasto assegnato per rimuovere l'assegnazione.</translation
 <translation id="7764225426217299476">Aggiungi indirizzo</translation>
 <translation id="7764256770584298012"><ph name="DOWNLOAD_RECEIVED" /> da <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="7764527477537408401">Apri il gruppo in una nuova finestra</translation>
-<translation id="7764909446494215916">Gestisci il tuo Account &amp;Google</translation>
+<translation id="7764909446494215916">Gestisci il tuo Account &amp;Decentr</translation>
 <translation id="7765158879357617694">Sposta</translation>
 <translation id="7765507180157272835">Bluetooth e Wi-Fi necessari</translation>
 <translation id="7766082757934713382">Contribuisce a ridurre l'utilizzo dei dati di rete mettendo in pausa gli aggiornamenti automatici di sistema e delle app</translation>
@@ -9124,7 +9124,7 @@ Premi un sensore o un tasto assegnato per rimuovere l'assegnazione.</translation
 <translation id="7777624210360383048">Scorciatoia <ph name="SHORTCUT" /> per <ph name="EXTENSION_NAME" /></translation>
 <translation id="7779840061887151693">Display</translation>
 <translation id="7781335840981796660">Tutti gli account utente e i dati locali verranno rimossi.</translation>
-<translation id="7782102568078991263">Nessun altro suggerimento da Google</translation>
+<translation id="7782102568078991263">Nessun altro suggerimento da Decentr</translation>
 <translation id="7782717250816686129">Archivia i dati persistenti nella schermata di accesso e inserisci le credenziali nella sessione.</translation>
 <translation id="778330624322499012">Impossibile caricare <ph name="PLUGIN_NAME" /></translation>
 <translation id="7784067724422331729">Le impostazioni di sicurezza del computer hanno bloccato questo file.</translation>
@@ -9240,7 +9240,7 @@ Premi un sensore o un tasto assegnato per rimuovere l'assegnazione.</translation
 <translation id="7859560813397128941">Rimuovi estensione <ph name="EXTENSION_NAME" /></translation>
 <translation id="786073089922909430">Servizio: <ph name="ARC_PROCESS_NAME" /></translation>
 <translation id="7861215335140947162">&amp;Download</translation>
-<translation id="7861846108263890455">Lingua dell'Account Google</translation>
+<translation id="7861846108263890455">Lingua dell'Account Decentr</translation>
 <translation id="7864114920800968141">Tra <ph name="NUM_MIN" /> min</translation>
 <translation id="7864539943188674973">Disattiva Bluetooth</translation>
 <translation id="7864825798076155402">Salvare nel tuo Account Google?</translation>
@@ -9492,7 +9492,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8041089156583427627">Invia feedback</translation>
 <translation id="8041267120753677077">Trasmetti in streaming le app del tuo telefono</translation>
 <translation id="8042142357103597104">Opacità testo</translation>
-<translation id="8042331986490021244">Le tue password vengono criptate sul dispositivo prima di essere salvate in Gestore delle password di Google</translation>
+<translation id="8042331986490021244">Le tue password vengono criptate sul dispositivo prima di essere salvate in Gestore delle password di Decentr</translation>
 <translation id="8044262338717486897"><ph name="LINUX_APP_NAME" /> non risponde.</translation>
 <translation id="8044899503464538266">Lento</translation>
 <translation id="8045253504249021590">La sincronizzazione è stata interrotta tramite Google Dashboard.</translation>
@@ -9549,7 +9549,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="80790299200510644">Ricerca immagini</translation>
 <translation id="80798452873915119">I siti possono chiedere di gestire le finestre su tutti i tuoi schermi</translation>
 <translation id="8080028325999236607">Chiudi tutte le schede</translation>
-<translation id="808089508890593134">Google</translation>
+<translation id="808089508890593134">Decentr</translation>
 <translation id="8081623398548615289">La sessione è gestita da <ph name="MANAGER_NAME" />. Gli amministratori possono eliminare il tuo profilo e monitorare il tuo traffico di rete.</translation>
 <translation id="8081989000209387414">Disattivare il debug ADB?</translation>
 <translation id="8082106343289440791">Vuoi eseguire l'accoppiamento con "<ph name="DEVICE_NAME" />"?</translation>
@@ -9564,7 +9564,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8086610718778464681">Impossibile eseguire il backup delle app e dei file di Linux</translation>
 <translation id="80866457114322936">{NUM_FILES,plural, =1{Questo file è criptato. Chiedi al proprietario di decriptarlo.}other{Alcuni di questi file sono criptati. Chiedi al proprietario di decriptarli.}}</translation>
 <translation id="808894953321890993">Cambia password</translation>
-<translation id="8089547136368562137">È protetta dal meglio di Google</translation>
+<translation id="8089547136368562137">È protetta dal meglio di Decentr</translation>
 <translation id="8090234456044969073">Lettura di un elenco di siti web più visitati</translation>
 <translation id="8090513782447872344">Puoi tornare a consultarla in qualsiasi momento</translation>
 <translation id="8090579562279016251">Riduce le prestazioni, ma rende V8 più resistente agli attacchi</translation>
@@ -9699,7 +9699,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8186609076106987817">Impossibile trovare il file sul server.</translation>
 <translation id="8188389033983459049">Controlla le impostazioni sul dispositivo e attivalo per continuare</translation>
 <translation id="8188742492803591566">Inserisci il codice di accesso mostrato su Chromecast o sulla TV per iniziare a trasmettere il tuo schermo.</translation>
-<translation id="8189257540098107776">Impossibile raggiungere Gestore delle password di Google</translation>
+<translation id="8189257540098107776">Impossibile raggiungere Gestore delle password di Decentr</translation>
 <translation id="8189306097519446565">Account della scuola</translation>
 <translation id="8189750580333936930">Privacy Sandbox</translation>
 <translation id="8191230140820435481">Gestire applicazioni, estensioni e temi</translation>
@@ -9852,7 +9852,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8295450130892483256">Installa Microsoft 365</translation>
 <translation id="8297292446125062288">Impostazioni HID</translation>
 <translation id="8298429963694909221">Puoi ora ricevere le notifiche del telefono sul tuo dispositivo <ph name="DEVICE_TYPE" />. Se ignori le notifiche sul tuo dispositivo <ph name="DEVICE_TYPE" />, verranno ignorate anche sul telefono. Assicurati che il tuo telefono sia nelle vicinanze, nonché che il Bluetooth e il Wi-Fi siano attivi.</translation>
-<translation id="829923460755755423">Aggiungi una scorciatoia a Gestore delle password di Google</translation>
+<translation id="829923460755755423">Aggiungi una scorciatoia a Gestore delle password di Decentr</translation>
 <translation id="8299319456683969623">Al momento sei offline.</translation>
 <translation id="829937697336000302">Aumenta la produttività</translation>
 <translation id="8299951061833867575">Wi-Fi, dati mobili</translation>
@@ -9935,7 +9935,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8357388086258943206">Errore durante l'installazione di Linux</translation>
 <translation id="8358685469073206162">Ripristinare le pagine?</translation>
 <translation id="8358912028636606457">La trasmissione dell'audio della scheda non è supportata su questo dispositivo.</translation>
-<translation id="835951711479681002">Salva nel tuo Account Google</translation>
+<translation id="835951711479681002">Salva nel tuo Account Decentr</translation>
 <translation id="8360140320636871023">Personalizza il tema del tuo display</translation>
 <translation id="8360267485906769442">Pulsante Invia feedback</translation>
 <translation id="8362914115861174987">Traduci in</translation>
@@ -9957,7 +9957,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8376451933628734023">Se questa app web sta cercando di farti credere che si tratta di un'app diversa, disinstallala.</translation>
 <translation id="8376532149031784008">Ricaricamento di <ph name="DOMAIN" /> in corso…</translation>
 <translation id="8376610503048439696">Le estensioni installate dall'amministratore possono comunque leggere e modificare questo sito</translation>
-<translation id="8376752431516546391">Riquadro laterale della Ricerca Google</translation>
+<translation id="8376752431516546391">Riquadro laterale della Ricerca Decentr</translation>
 <translation id="8377625247046155446">La passkey verrà salvata solo su questo dispositivo. Rimarrà su questo dispositivo dopo la chiusura di tutte le finestre di navigazione in incognito.</translation>
 <translation id="8378714024927312812">Gestito dalla tua organizzazione</translation>
 <translation id="8379988659465232385">È obbligatorio inserire il nome</translation>
@@ -10151,7 +10151,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8523493869875972733">Mantieni le modifiche</translation>
 <translation id="8523849605371521713">Aggiunta in base alle norme</translation>
 <translation id="8524594273111932386">Ricerca + Freccia giù</translation>
-<translation id="8524783101666974011">Salva carte nel tuo Account Google</translation>
+<translation id="8524783101666974011">Salva carte nel tuo Account Decentr</translation>
 <translation id="8524817717332153865">La fotocamera e il microfono sono disattivati nelle Impostazioni di sistema del Mac</translation>
 <translation id="8524841856047224176">Personalizza gli sfondi della fotocamera per le videochiamate e molto altro</translation>
 <translation id="8525306231823319788">Schermo intero</translation>
@@ -10200,7 +10200,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8557100046150195444">Usa Touch ID per continuare</translation>
 <translation id="8557180006508471423">Attiva "Decentr" in Servizi di localizzazione sul Mac</translation>
 <translation id="8557856025359704738">Prossimo download: <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
-<translation id="8558281414737757274">Password dell'Account Google</translation>
+<translation id="8558281414737757274">Password dell'Account Decentr</translation>
 <translation id="8559858985063901027">Passkey</translation>
 <translation id="8559961053328923750">Chrome limita la quantità totale di dati che i siti possono condividere tramite il browser per misurare il rendimento dell'annuncio</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Apri tutti in &amp;un'altra finestra}=1{Apri in &amp;un'altra finestra}other{Apri tutti ({COUNT}) in &amp;un'altra finestra}}</translation>
@@ -10454,7 +10454,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8737914367566358838">Scegli la lingua in cui tradurre la pagina</translation>
 <translation id="8737966899544698733">Precisione della posizione (solo Android)</translation>
 <translation id="8738418093147087440">Cerca per paesi, lingua o nomi di input</translation>
-<translation id="8740086188450289493">Usa la password del tuo Account Google</translation>
+<translation id="8740086188450289493">Usa la password del tuo Account Decentr</translation>
 <translation id="8740247629089392745">Puoi consegnare il Chromebook a <ph name="SUPERVISED_USER_NAME" />. La configurazione è quasi completa, a breve sarà possibile utilizzare il dispositivo.</translation>
 <translation id="8740672167979365981">Aggiornamento di ChromeOS Flex richiesto</translation>
 <translation id="8741944563400125534">Guida alla configurazione di Switch Access</translation>
@@ -10507,7 +10507,7 @@ Conserva il file di chiave in un luogo sicuro. Ti servirà per creare nuove vers
 <translation id="8777628254805677039">password root</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8779944680596936487">I siti possono utilizzare i cookie solo per visualizzare la tua attività di navigazione su se stessi</translation>
-<translation id="8780123805589053431">Scarica le descrizioni delle immagini da Google</translation>
+<translation id="8780123805589053431">Scarica le descrizioni delle immagini da Decentr</translation>
 <translation id="8780443667474968681">La ricerca vocale è stata disattivata.</translation>
 <translation id="8781834595282316166">Nuova scheda nel gruppo</translation>
 <translation id="8781980678064919987">Spegni alla chiusura del coperchio</translation>
@@ -11072,7 +11072,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="9180380851667544951">Il sito può condividere lo schermo</translation>
 <translation id="9180847522826713506">Per visualizzare la password o aggiungere una nota, fai clic sull'icona della chiave</translation>
 <translation id="9182556968660520230">Non consentire ai siti di riprodurre contenuti protetti</translation>
-<translation id="9183302530794969518">Documenti Google</translation>
+<translation id="9183302530794969518">Documenti Decentr</translation>
 <translation id="918352324374649435">{COUNT,plural, =1{App}other{# app}}</translation>
 <translation id="9186963452600581158">Accedi con l'Account Google di un bambino</translation>
 <translation id="9187967020623675250">I tasti non corrispondono. Premi un tasto qualsiasi per <ph name="RESPONSE" />.</translation>

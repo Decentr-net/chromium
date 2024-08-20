@@ -60,7 +60,7 @@ As autorizações que já concedeu aos Websites e apps podem aplicar-se a esta c
 <translation id="2008474315282236005">Esta ação elimina 1 item deste dispositivo. Para recuperar os dados mais tarde, inicie sessão no Decentr como <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Falha ao instalar. Tente novamente.</translation>
 <translation id="2020032459870799438">Para verificar se as suas outras palavras-passe estão protegidas contra violação de dados e outros problemas de segurança, <ph name="BEGIN_LINK" />inicie sessão no Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Escolha se quer incluir o histórico do Decentr para obter mais experiências personalizadas nos serviços Google</translation>
+<translation id="2049376729098081731">Escolha se quer incluir o histórico do Decentr para obter mais experiências personalizadas nos serviços Decentr</translation>
 <translation id="2065461321550902389">Para guardar e usar as palavras-passe e muito mais em todos os seus dispositivos, inicie sessão no Decentr. Esta palavra-passe é guardada na sua Conta Google depois de iniciar sessão.</translation>
 <translation id="2086476982681781442">O Decentr bloqueou esta transferência porque o ficheiro é fraudulento e pode fazer alterações inesperadas ao seu dispositivo</translation>
 <translation id="2088953378266246249">Informações sobre como o Decentr gere os respetivos certificados de raiz</translation>
@@ -121,7 +121,7 @@ As autorizações que já concedeu aos Websites e apps podem aplicar-se a esta c
 <translation id="3032787606318309379">A adicionar ao Decentr...</translation>
 <translation id="3038232873781883849">A aguardar a instalação…</translation>
 <translation id="3068187312562070417">Outros perfis do Decentr</translation>
-<translation id="3068515742935458733">Ajudar a melhorar o Decentr ao enviar relatórios de falhas e <ph name="UMA_LINK" /> à Google</translation>
+<translation id="3068515742935458733">Ajudar a melhorar o Decentr ao enviar relatórios de falhas e <ph name="UMA_LINK" /> à Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Uma ou mais extensões do Decentr estavam a aceder a 1 dispositivo USB}=1{Uma ou mais extensões do Decentr estão a aceder a 1 dispositivo USB}other{Uma ou mais extensões do Decentr estão a aceder a # dispositivos USB}}</translation>
 <translation id="3101560983689755071">O seu histórico de navegação afeta os anúncios que vê e os interesses, conforme estimados abaixo. Para proteger a sua privacidade, o Decentr elimina automaticamente os seus interesses todos os meses. Os interesses podem ser atualizados, a menos que os remova.</translation>
 <translation id="3103660991484857065">Houve uma falha no programa de instalação ao descompactar o arquivo. Descarregue novamente o Decentr.</translation>
@@ -495,7 +495,7 @@ O Decentr não consegue recuperar as suas definições.</translation>
 <translation id="9019929317751753759">Para tornar o Decentr mais seguro, desativámos a seguinte extensão, que não está listada na <ph name="IDS_EXTENSION_WEB_STORE_TITLE" />, e é possível que tenha sido adicionada sem o seu conhecimento.</translation>
 <translation id="9022552996538154597">Iniciar sessão no Decentr</translation>
 <translation id="904366664621834601">O Decentr bloqueou esta transferência porque o ficheiro de arquivo inclui outros ficheiros que podem ocultar software malicioso</translation>
-<translation id="9062666675513499497">Inicie sessão no Decentr quando inicia sessão noutros serviços Google</translation>
+<translation id="9062666675513499497">Inicie sessão no Decentr quando inicia sessão noutros serviços Decentr</translation>
 <translation id="907832235989677238">Inicie sessão no Decentr. Se quiser iniciar sessão numa conta apenas uma vez, pode <ph name="GUEST_LINK_BEGIN" />usar o dispositivo como convidado<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">O Decentr foi fechado automaticamente</translation>
 <translation id="9089354809943900324">O Decentr está desatualizado</translation>

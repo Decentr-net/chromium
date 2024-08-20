@@ -60,7 +60,7 @@ A questo account potrebbero essere applicate le autorizzazioni già concesse a s
 <translation id="2008474315282236005">Verrà eliminato 1 elemento da questo dispositivo. Per recuperare i dati in un secondo momento, accedi a Decentr come <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Installazione non riuscita. Riprova.</translation>
 <translation id="2020032459870799438">Per controllare che le tue altre password siano protette da violazioni dei dati e altri problemi di sicurezza, <ph name="BEGIN_LINK" />accedi a Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Scegli se includere la cronologia di Decentr per esperienze ancora più personalizzate nei servizi Google</translation>
+<translation id="2049376729098081731">Scegli se includere la cronologia di Decentr per esperienze ancora più personalizzate nei servizi Decentr</translation>
 <translation id="2065461321550902389">Accedi a Decentr per salvare e usare le tue password e altri dati su tutti i tuoi dispositivi. Questa password verrà salvata nel tuo Account Google dopo l'accesso.</translation>
 <translation id="2086476982681781442">Decentr ha bloccato questo download perché il file è ingannevole e potrebbe apportare modifiche impreviste al tuo dispositivo</translation>
 <translation id="2088953378266246249">Informazioni su come Decentr gestisce i suoi certificati radice</translation>
@@ -468,7 +468,7 @@ Decentr non è in grado di recuperare le impostazioni.</translation>
 <translation id="8522801943730206384">Decentr può controllare le password quando le salvi</translation>
 <translation id="8550334526674375523">Questo profilo di lavoro è completamente separato dal tuo profilo personale.</translation>
 <translation id="8555465886620020932">Errore del servizio: <ph name="SERVICE_ERROR" /></translation>
-<translation id="8568283329061645092">Decentr può controllare le tue password quando accedi con il tuo Account Google</translation>
+<translation id="8568283329061645092">Decentr può controllare le tue password quando accedi con il tuo Account Decentr</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> The Decentr Authors. Tutti i diritti riservati.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Come utilizziamo questi dati:<ph name="END_BOLD" /> i siti possono memorizzare su Decentr informazioni relative ai tuoi interessi. Ad esempio, se visiti un sito per acquistare scarpe per una maratona, il sito potrebbe definire come tuo interesse le maratone. Se in un secondo momento visiti un altro sito per registrarti a una gara, il sito può mostrarti un annuncio relativo a scarpe da corsa in base ai tuoi interessi.</translation>
 <translation id="8619360774459241877">Avvio di Decentr...</translation>
@@ -494,7 +494,7 @@ Decentr non è in grado di recuperare le impostazioni.</translation>
 <translation id="9019929317751753759">Per rendere Decentr più sicuro, abbiamo disattivato la seguente estensione non presente nel <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> che potrebbe essere stata aggiunta a tua insaputa.</translation>
 <translation id="9022552996538154597">Accedi a Decentr</translation>
 <translation id="904366664621834601">Decentr ha bloccato questo download perché il file di archivio include altri file che potrebbero nascondere malware</translation>
-<translation id="9062666675513499497">Accedi a Decentr quando accedi ad altri servizi Google</translation>
+<translation id="9062666675513499497">Accedi a Decentr quando accedi ad altri servizi Decentr</translation>
 <translation id="907832235989677238">Accedi a Decentr. Se vuoi accedere con un account una sola volta, puoi <ph name="GUEST_LINK_BEGIN" />utilizzare il dispositivo come ospite<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr è stato chiuso automaticamente</translation>
 <translation id="9089354809943900324">Decentr non è aggiornato</translation>

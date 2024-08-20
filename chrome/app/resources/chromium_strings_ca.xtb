@@ -60,7 +60,7 @@
 <translation id="2008474315282236005">Amb aquesta acció, se suprimirà 1 element d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a Decentr com a <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">La instal·lació ha fallat. Torna-ho a provar.</translation>
 <translation id="2020032459870799438">Per comprovar si les teves altres contrasenyes estan protegides contra violacions de les dades i contra altres problemes de seguretat, <ph name="BEGIN_LINK" />inicia la sessió a Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Tria si vols incloure l'historial de Decentr per obtenir experiències més personalitzades als serveis de Google</translation>
+<translation id="2049376729098081731">Tria si vols incloure l'historial de Decentr per obtenir experiències més personalitzades als serveis de Decentr</translation>
 <translation id="2065461321550902389">Per desar i utilitzar les contrasenyes i altres elements en tots els teus dispositius, inicia la sessió a Decentr. Aquesta contrasenya es desarà al teu Compte de Google després d'iniciar-hi la sessió.</translation>
 <translation id="2086476982681781442">Decentr ha bloquejat aquesta baixada perquè el fitxer és enganyós i és possible que faci canvis inesperats al dispositiu</translation>
 <translation id="2088953378266246249">Informació sobre com gestiona Decentr els seus certificats arrel</translation>
@@ -469,7 +469,7 @@ Decentr no pot recuperar la configuració.</translation>
 <translation id="8522801943730206384">Decentr pot comprovar les teves contrasenyes quan les deses</translation>
 <translation id="8550334526674375523">Aquest perfil de treball és completament independent del teu perfil personal.</translation>
 <translation id="8555465886620020932">Error de servei: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr pot comprovar les teves contrasenyes quan inicies la sessió amb el Compte de Google</translation>
+<translation id="8568283329061645092">Decentr pot comprovar les teves contrasenyes quan inicies la sessió amb el Compte de Decentr</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> Els autors de Decentr. Tots els drets reservats.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Com utilitzem aquestes dades<ph name="END_BOLD" />: els llocs web poden emmagatzemar informació a Decentr sobre els teus interessos. Per exemple, si visites un lloc web per comprar sabatilles per a una marató, és possible que el lloc web defineixi que t'interessa córrer maratons. Més endavant, si visites un altre lloc web per inscriure't a una cursa, aquest altre lloc web et pot mostrar un anunci de sabatilles de curses basant-se en els teus interessos.</translation>
 <translation id="8619360774459241877">S'està iniciant Decentr...</translation>
@@ -495,7 +495,7 @@ Decentr no pot recuperar la configuració.</translation>
 <translation id="9019929317751753759">Per tal que Decentr sigui més segur, hem desactivat algunes de les extensions que no figuren a <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i que és possible que s'hagin afegit sense que ho sapigueu.</translation>
 <translation id="9022552996538154597">Inicia la sessió a Decentr</translation>
 <translation id="904366664621834601">Decentr ha bloquejat aquesta baixada perquè el fitxer d'arxiu inclou altres fitxers que poden amagar programari maliciós</translation>
-<translation id="9062666675513499497">Inicia la sessió a Decentr quan iniciïs la sessió en altres serveis de Google</translation>
+<translation id="9062666675513499497">Inicia la sessió a Decentr quan iniciïs la sessió en altres serveis de Decentr</translation>
 <translation id="907832235989677238">Inicia la sessió a Decentr. Si vols iniciar la sessió en un compte només una vegada, pots <ph name="GUEST_LINK_BEGIN" />utilitzar el dispositiu com a convidat<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr s'ha tancat automàticament</translation>
 <translation id="9089354809943900324">Decentr no està actualitzat</translation>

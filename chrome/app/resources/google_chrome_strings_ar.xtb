@@ -118,7 +118,7 @@
 <translation id="2645435784669275700">ChromeOS</translation>
 <translation id="2649768380733403658">‏يتحقّق Chrome بانتظام من استخدام الإعدادات الأكثر أمانًا في متصفِّحك. وسنُعلمك في حال كان عليك اتخاذ إجراء.</translation>
 <translation id="2652691236519827073">‏فتح الرابط في علامة تبويب جديدة في Chrome</translation>
-<translation id="2665296953892887393">‏يمكنك المساعدة في تحسين Decentr عن طريق إرسال تقارير الأعطال و<ph name="UMA_LINK" /> إلى Google</translation>
+<translation id="2665296953892887393">‏يمكنك المساعدة في تحسين Decentr عن طريق إرسال تقارير الأعطال و<ph name="UMA_LINK" /> إلى Decentr</translation>
 <translation id="2681444469812712297">‏افتح <ph name="URL" /> في علامة تبويب جديدة في Decentr.</translation>
 <translation id="2738871930057338499">‏تعذر الاتصال بالإنترنت. بروتوكول HTTP 403 محظور. يُرجى التحقق من إعدادات الخادم الوكيل.</translation>
 <translation id="2742320827292110288">‏تحذير: لا يستطيع Decentr منع الإضافات من تسجيل سجل التصفُّح الخاص بك. لإيقاف هذه الإضافة في وضع التصفُّح المتخفي، يجب إلغاء تحديد هذا الخيار.</translation>
@@ -203,7 +203,7 @@
 <translation id="3744202345691150878">‏الحصول على مساعدة بشأن نظام التشغيل Chrome</translation>
 <translation id="3780814664026482060">Chrome - <ph name="PAGE_TITLE" /></translation>
 <translation id="3785324443014631273">‏تعذَّر على ChromeOS Flex مزامنة البيانات بسبب حدوث خطأ أثناء تسجيل الدخول.</translation>
-<translation id="3795971588916395511">‏نظام التشغيل Chrome من Google</translation>
+<translation id="3795971588916395511">‏نظام التشغيل Chrome من Decentr</translation>
 <translation id="3809772425479558446">‏يتطلّب Decentr نظام التشغيل Windows 10 أو إصدارًا أحدث.</translation>
 <translation id="3835168907083856002">‏سيؤدي هذا الإجراء إلى إنشاء ملف شخصي جديد على Chrome لحساب <ph name="USER_EMAIL_ADDRESS" />.</translation>
 <translation id="386202838227397562">‏يُرجى إغلاق كل نوافذ Decentr وإعادة المحاولة.</translation>
@@ -356,7 +356,7 @@
 <translation id="621585339844629864">‏لمشاركة شاشتك، يجب السماح بتسجيل الشاشة في Chrome ضمن "إعدادات النظام المفضّلة".</translation>
 <translation id="6235018212288296708">‏قاعدة الوارد إلى Decentr للسماح بحركة مرور mDNS.</translation>
 <translation id="624230925347970731">‏سيتم إغلاق متصفِّح Chrome قريبًا</translation>
-<translation id="6247557882553405851">‏مدير كلمات المرور في Google</translation>
+<translation id="6247557882553405851">‏مدير كلمات المرور في Decentr</translation>
 <translation id="6251759518630934363">‏ستتلقّى تحذيرات بشأن المواقع الإلكترونية الخطيرة، بما فيها المواقع الإلكترونية التي لم يتعرّف عليها محرك بحث Google، من خلال تحليل قدر أكبر من البيانات الواردة من مواقع إلكترونية، مقارنةً بالحماية العادية. يمكنك اختيار تخطّي تحذيرات Chrome.</translation>
 <translation id="6277547788421725101">‏أوقفَ أحد والدَيك "أذونات المواقع الإلكترونية والتطبيقات والإضافات" لمتصفِّح Chrome.</translation>
 <translation id="627882678981830918">‏يمكنك تخصيص Chrome والتحكّم فيه وضبطه كمتصفِّح تلقائي.</translation>
@@ -443,7 +443,7 @@
 <translation id="7535429826459677826">‏إصدار مطوري البرامج من Decentr</translation>
 <translation id="7572537927358445944">‏غير مفعَّلة • لا يمكن لمتصفّح Chrome التحقّق من مصدر هذه الإضافة</translation>
 <translation id="7583399374488819119">أداة تثبيت <ph name="COMPANY_NAME" /></translation>
-<translation id="7606334485649076285">‏نظام التشغيل ChromeOS Flex من Google</translation>
+<translation id="7606334485649076285">‏نظام التشغيل ChromeOS Flex من Decentr</translation>
 <translation id="7626032353295482388">‏مرحبًا بك في Chrome‏</translation>
 <translation id="7626072681686626474">‏يشترط <ph name="MANAGER" /> قراءة بنود الخدمة التالية وقبولها قبل استخدام هذا الجهاز، مع العلم بأنّ هذه البنود لا توسِّع نطاق بنود نظام التشغيل Chrome من Google ولا تعدِّلها ولا تفرض قيودًا عليها.</translation>
 <translation id="7629695634924605473">‏يتم إعلامك من خلال Chrome في حال تم اختراق كلمات المرور في أي وقت.</translation>
@@ -518,7 +518,7 @@
 <translation id="8428213095426709021">الإعدادات</translation>
 <translation id="8433638294851456451">‏لإرسال رقم من هذا الجهاز إلى جهازك الذي يعمل بنظام التشغيل Android، يُرجى تسجيل الدخول إلى متصفِّح Chrome على الجهازَين.</translation>
 <translation id="8451192282033883849">‏تتم إدارة حسابك من خلال <ph name="MANAGER_NAME" />. وبإمكان المشرف الاطّلاع على الملف الشخصي لمتصفّح Chrome وتعديل بياناته، مثل الإشارات المرجعية والسجلّ وكلمات المرور.</translation>
-<translation id="8496177819998570653">‏مدير كلمات المرور في Google</translation>
+<translation id="8496177819998570653">‏مدير كلمات المرور في Decentr</translation>
 <translation id="8498858610309223613">‏تم للتو تطبيق تحديث أمان خاص لمتصفِّح Decentr. ويمكنك الآن إعادة التشغيل وستتم استعادة علامات التبويب.</translation>
 <translation id="8516431725144212809">‏اهتماماتك حسب تقدير Chrome</translation>
 <translation id="8521348052903287641">‏قاعدة الوارد إلى إصدار مطوري البرامج من Decentr للسماح بحركة مرور mDNS.</translation>

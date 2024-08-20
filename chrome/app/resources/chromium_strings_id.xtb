@@ -60,7 +60,7 @@ Izin yang telah Anda berikan ke situs dan aplikasi dapat berlaku untuk akun ini.
 <translation id="2008474315282236005">Tindakan ini akan menghapus 1 item dari perangkat. Untuk mengambil data nanti, login ke Decentr sebagai <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Gagal menginstal. Coba lagi.</translation>
 <translation id="2020032459870799438">Untuk memeriksa apakah sandi Anda yang lain aman dari pelanggaran data dan masalah keamanan lainnya, <ph name="BEGIN_LINK" />login ke Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Pilih apakah akan menyertakan histori Decentr untuk mendapatkan pengalaman yang lebih dipersonalisasi di layanan Google</translation>
+<translation id="2049376729098081731">Pilih apakah akan menyertakan histori Decentr untuk mendapatkan pengalaman yang lebih dipersonalisasi di layanan Decentr</translation>
 <translation id="2065461321550902389">Untuk menyimpan dan menggunakan sandi dan lainnya di semua perangkat Anda, login ke Decentr. Sandi ini akan disimpan di Akun Google Anda setelah Anda login.</translation>
 <translation id="2086476982681781442">Decentr memblokir download ini karena file tersebut menipu dan dapat menyebabkan perubahan tidak terduga di perangkat Anda</translation>
 <translation id="2088953378266246249">Informasi tentang cara Decentr mengelola root certificate-nya</translation>
@@ -121,7 +121,7 @@ Izin yang telah Anda berikan ke situs dan aplikasi dapat berlaku untuk akun ini.
 <translation id="3032787606318309379">Menambahkan Decentr...</translation>
 <translation id="3038232873781883849">Menunggu untuk menginstal...</translation>
 <translation id="3068187312562070417">Profil Decentr lainnya</translation>
-<translation id="3068515742935458733">Bantu Decentr menjadi lebih baik dengan mengirim laporan kerusakan dan <ph name="UMA_LINK" /> ke Google</translation>
+<translation id="3068515742935458733">Bantu Decentr menjadi lebih baik dengan mengirim laporan kerusakan dan <ph name="UMA_LINK" /> ke Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Tidak ada perangkat USB yang diakses oleh ekstensi Decentr}=1{1 perangkat USB sedang diakses oleh satu atau beberapa ekstensi Decentr}other{# perangkat USB sedang diakses oleh satu atau beberapa ekstensi Decentr}}</translation>
 <translation id="3101560983689755071">Histori penjelajahan Anda memengaruhi iklan yang Anda lihat dan minat yang diperkirakan di bawah. Untuk melindungi privasi Anda, Decentr otomatis menghapus minat Anda secara berkala setiap bulan. Minat dapat diperbarui kecuali jika Anda menghapusnya.</translation>
 <translation id="3103660991484857065">Pemasang gagal membatalkan kompresi arsip. Download Decentr lagi.</translation>
@@ -345,7 +345,7 @@ Izin yang telah Anda berikan ke situs dan aplikasi dapat berlaku untuk akun ini.
 <translation id="6542839706527980775">Setiap profil memiliki info Decentr tersendiri, seperti bookmark, histori, sandi, dan lainnya</translation>
 <translation id="6563921047760808519">Pelajari lebih lanjut <ph name="BEGIN_LINK" />cara Decentr menjaga privasi data Anda<ph name="END_LINK" /></translation>
 <translation id="656935081669708576">Anda dapat beralih untuk melihat sandi dari profil Decentr lainnya</translation>
-<translation id="6570579332384693436">Untuk memperbaiki kesalahan ejaan, Decentr mengirimkan teks yang Anda ketik di kolom teks ke Google</translation>
+<translation id="6570579332384693436">Untuk memperbaiki kesalahan ejaan, Decentr mengirimkan teks yang Anda ketik di kolom teks ke Decentr</translation>
 <translation id="6598877126913850652">Buka setelan notifikasi Decentr</translation>
 <translation id="6613594504749178791">Perubahan Anda akan berlaku saat berikutnya Anda membuka Decentr.</translation>
 <translation id="665732753414869868">Decentr memerlukan izin kamera untuk membuat peta 3D area sekitar Anda</translation>
@@ -469,7 +469,7 @@ Decentr tidak dapat memulihkan setelan Anda.</translation>
 <translation id="8522801943730206384">Decentr dapat memeriksa sandi jika Anda menyimpannya</translation>
 <translation id="8550334526674375523">Profil kerja ini sama sekali terpisah dari profil pribadi Anda.</translation>
 <translation id="8555465886620020932">Error layanan: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr dapat memeriksa sandi saat Anda login dengan Akun Google</translation>
+<translation id="8568283329061645092">Decentr dapat memeriksa sandi saat Anda login dengan Akun Decentr</translation>
 <translation id="8586442755830160949">Hak Cipta <ph name="YEAR" /> Pengarang Decentr. Semua hak dilindungi undang-undang.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Cara kami menggunakan data ini:<ph name="END_BOLD" /> Situs dapat menyimpan informasi tentang minat Anda ke Decentr. Misalnya, jika Anda mengunjungi suatu situs untuk membeli sepatu maraton, situs tersebut dapat menetapkan minat Anda sebagai lari maraton. Kemudian, jika Anda mengunjungi situs lain untuk mendaftar lomba lari, situs tersebut dapat menampilkan iklan sepatu lari berdasarkan minat Anda.</translation>
 <translation id="8619360774459241877">Meluncurkan Decentr...</translation>

@@ -51,7 +51,7 @@ Huenda ruhusa ambazo tayari umezipa tovuti na programu zikatumika kwenye akaunti
 <translation id="185970820835152459">Unaweza kudhibiti Akaunti zako za Google ulizotumia kuingia katika tovuti na programu. Akaunti zako za Google hutumiwa kwenye kivinjari cha Decentr, Duka la Google Play, Gmail na kwingineko. Iwapo ungependa kuweka akaunti ya mtu mwingine, kama vile mwanafamilia, ongeza mtu mpya kwenye <ph name="DEVICE_TYPE" /> yako badala yake. <ph name="LINK_BEGIN" />Pata maelezo zaidi<ph name="LINK_END" /></translation>
 <translation id="1863308913976887472">Tovuti zinaweza kuhifadhi maelezo kuhusu mambo yanayokuvutia kwa kutumia Decentr. Kwa mfano, iwapo utatembelea tovuti ili kununua viatu kwa ajili ya kukimbia mbio za marathoni, tovuti hiyo huenda ikatambua kuwa moja ya mambo yanayokuvutia ni kukimbia mbio za marathoni. Baadaye, iwapo utatembelea tovuti tofauti ili kujisajili kwa ajili ya mbio, tovuti hiyo huenda ikakuonyesha tangazo la viatu vya kukimbilia kulingana na mambo yanayokuvutia.</translation>
 <translation id="1881322772814446296">Unaingia katika akaunti ukitumia akaunti inayodhibitiwa na kumpa msimamizi wa akaunti hiyo udhibiti wa wasifu wako kwenye Decentr. Data yako ya Decentr, kama vile programu zako, alamisho, historia, manenosiri, na mipangilio nyingine itahusishwa na<ph name="USER_NAME" /> kabisa. Utaweza kufuta data hii kupitia Dashibodi ya Akaunti za Google, lakini hutaweza  kuunganisha data hii na akaunti nyingine. Unaweza kwa hiari kuunda wasifu mpya ili kuweka data yako ya Decentr iliyo kando. <ph name="LEARN_MORE" /></translation>
-<translation id="1903204122890929795">Ili utumie kiendelezi hiki ukitumia <ph name="USER_EMAIL_ADDRESS" />, ingia katika Chrome.\nPia utaweza kutumia na kuhifadhi manenosiri yako na zaidi kwenye Akaunti yako ya Google</translation>
+<translation id="1903204122890929795">Ili utumie kiendelezi hiki ukitumia <ph name="USER_EMAIL_ADDRESS" />, ingia katika Chrome.\nPia utaweza kutumia na kuhifadhi manenosiri yako na zaidi kwenye Akaunti yako ya Decentr</translation>
 <translation id="1906696617298807388">Unapoandika kwenye sehemu ya anwani au kisanduku cha kutafutia, Decentr hutuma unachokiandika kwenda kwenye Hifadhi ya Google ili upate mapendekezo ya kipengee. Kipengele hiki huwa kimezimwa katika Hali fiche.</translation>
 <translation id="1911763535808217981">Kwa kuzima kipengele hiki, unaweza kuingia katika tovuti za Google kama vile Gmail bila kuingia katika akaunti ya Decentr</translation>
 <translation id="1929939181775079593">Decentr haiamiliki. Zindua upya sasa?</translation>
@@ -62,7 +62,7 @@ Huenda ruhusa ambazo tayari umezipa tovuti na programu zikatumika kwenye akaunti
 <translation id="2008474315282236005">Hatua hii itafuta kipengee 1 kwenye kifaa hiki. Ili urejeshe data yako baadaye, ingia katika Decentr ukitumia <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Imeshindwa kusakinisha. Tafadhali jaribu tena.</translation>
 <translation id="2020032459870799438">Ili uangalie kama manenosiri yako mengine ni salama dhidi ya ufichuzi haramu wa data na matatizo mengine ya usalama, <ph name="BEGIN_LINK" />ingia katika akaunti kwenye Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Chagua iwapo ungependa kujumuisha historia kwenye Decentr ili upate hali ya utumiaji inayokufaa zaidi katika huduma za Google</translation>
+<translation id="2049376729098081731">Chagua iwapo ungependa kujumuisha historia kwenye Decentr ili upate hali ya utumiaji inayokufaa zaidi katika huduma za Decentr</translation>
 <translation id="2065461321550902389">Ili uhifadhi na utumie manenosiri na zaidi kwenye vifaa vyote, ingia katika akaunti kwenye Decentr. Ukishaingia katika akaunti, nenosiri hili litahifadhiwa kwenye Akaunti yako ya Google.</translation>
 <translation id="2086476982681781442">Decentr imezuia upakuaji huu kwa sababu faili inapotosha na huenda ikafanya mabadiliko yasiyotarajiwa kwenye kifaa chako</translation>
 <translation id="2088953378266246249">Maelezo kuhusu jinsi Decentr inavyodhibiti vyeti vyake vya msingi</translation>
@@ -123,7 +123,7 @@ Huenda ruhusa ambazo tayari umezipa tovuti na programu zikatumika kwenye akaunti
 <translation id="3032787606318309379">Inaongeza kwenye Decentr...</translation>
 <translation id="3038232873781883849">Inasubiri kusakinisha...</translation>
 <translation id="3068187312562070417">Wasifu nyingine za Decentr</translation>
-<translation id="3068515742935458733">Saidia kuboresha Decentr kwa kutuma ripoti za kuacha kufanya kazi na <ph name="UMA_LINK" /> kwenda Google</translation>
+<translation id="3068515742935458733">Saidia kuboresha Decentr kwa kutuma ripoti za kuacha kufanya kazi na <ph name="UMA_LINK" /> kwenda Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Kiendelezi kimoja au zaidi cha Decentr kilikuwa kinafikia kifaa 1 cha USB}=1{Kiendelezi kimoja au zaidi cha Decentr kinafikia kifaa 1 cha USB}other{Kiendelezi kimoja au zaidi cha Decentr kinafikia vifaa # vya USB}}</translation>
 <translation id="3101560983689755071">Historia yako ya kuvinjari huathiri matangazo unayoyaona na mambo yanayokuvutia kama inavyokadiriwa hapa chini. Ili kulinda faragha yako, Decentr inafuta mambo yako yanayokuvutia kadiri unavyoendelea kutumia kila mwezi. Mambo yanayokuvutia yanaweza kuonyeshwa upya isipokuwa ukiyaondoa.</translation>
 <translation id="3103660991484857065">Kisakinishi kilishindwa kufinyuza kumbukumbu. Tafadhali pakua Decentr tena.</translation>
@@ -347,7 +347,7 @@ Huenda ruhusa ambazo tayari umezipa tovuti na programu zikatumika kwenye akaunti
 <translation id="6542839706527980775">Kila wasifu una maelezo yake ya Decentr kama vile alamisho, historia, manenosiri na mengine</translation>
 <translation id="6563921047760808519">Pata maelezo zaidi kuhusu <ph name="BEGIN_LINK" />jinsi Decentr inavyoweka data yako kuwa ya faragha<ph name="END_LINK" /></translation>
 <translation id="656935081669708576">Unaweza kubadilisha ili uone manenosiri kwenye wasifu mwingine wa Decentr</translation>
-<translation id="6570579332384693436">Ili kurekebisha makosa ya tahajia, Decentr hutuma maandishi unayoandika kwenye sehemu za maandishi kwa Google</translation>
+<translation id="6570579332384693436">Ili kurekebisha makosa ya tahajia, Decentr hutuma maandishi unayoandika kwenye sehemu za maandishi kwa Decentr</translation>
 <translation id="6598877126913850652">Nenda kwenye mipangilio ya arifa ya Decentr</translation>
 <translation id="6613594504749178791">Mabadiliko yako yataanza kufanya kazi wakati ujao utakapozindua upya Decentr.</translation>
 <translation id="665732753414869868">Decentr inahitaji ruhusa ya kufikia kamera ili iunde ramani ya 3D ya mazingira yako</translation>
@@ -471,7 +471,7 @@ Decentr haiwezi kufufua mipangilio yako.</translation>
 <translation id="8522801943730206384">Decentr inaweza kukagua manenosiri yako unapoyahifadhi</translation>
 <translation id="8550334526674375523">Wasifu huu wa kazini ni tofauti kabisa na wasifu wako wa binafsi.</translation>
 <translation id="8555465886620020932">Hitilafu ya huduma: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr inaweza kukagua manenosiri unapoingia ukitumia Akaunti yako ya Google</translation>
+<translation id="8568283329061645092">Decentr inaweza kukagua manenosiri unapoingia ukitumia Akaunti yako ya Decentr</translation>
 <translation id="8586442755830160949">Hakimiliki <ph name="YEAR" /> Wasanidi wa Decentr. Haki zote zimehifadhiwa.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Jinsi tunavyotumia data hii:<ph name="END_BOLD" /> Tovuti zinaweza kuhifadhi maelezo kuhusu mambo yanayokuvutia kwa kutumia Decentr. Kwa mfano, iwapo utatembelea tovuti ili kununua viatu kwa ajili ya kukimbia mbio za marathoni, tovuti hiyo huenda ikatambua kuwa moja ya mambo yanayokuvutia ni kukimbia mbio za marathoni. Baadaye, iwapo utatembelea tovuti tofauti ili kujisajili kwa ajili ya mbio, tovuti hiyo huenda ikakuonyesha tangazo la viatu vya kukimbilia kulingana na mambo yanayokuvutia.</translation>
 <translation id="8619360774459241877">Inaanzisha Decentr...</translation>
@@ -497,7 +497,7 @@ Decentr haiwezi kufufua mipangilio yako.</translation>
 <translation id="9019929317751753759">Ili kufanya Decentr salama zaidi, tumezima kiendelezi kinachofuata ambacho hakijaorodheshwa katika <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> na huenda kimeongezwa bila ridhaa yako.</translation>
 <translation id="9022552996538154597">Ingia kwenye Decentr</translation>
 <translation id="904366664621834601">Decentr imezuia upakuaji huu kwa sababu faili iliyo kwenye kumbukumbu inajumuisha faili nyingine ambazo huenda zimeficha programu hasidi</translation>
-<translation id="9062666675513499497">Ingia katika akaunti kwenye Decentr unapoingia katika akaunti za huduma nyingine za Google</translation>
+<translation id="9062666675513499497">Ingia katika akaunti kwenye Decentr unapoingia katika akaunti za huduma nyingine za Decentr</translation>
 <translation id="907832235989677238">Ingia katika akaunti kwenye Decentr. Iwapo ungependa kuingia katika akaunti mara moja tu, unaweza <ph name="GUEST_LINK_BEGIN" />kutumia kifaa kama mgeni<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr ilifungwa kiotomatiki</translation>
 <translation id="9089354809943900324">Decentr imepitwa na wakati</translation>

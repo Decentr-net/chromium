@@ -40,7 +40,7 @@
 <translation id="1026822031284433028">Încarcă imaginea</translation>
 <translation id="1026959648338730078">Windows Hello sau cheie de securitate externă</translation>
 <translation id="1028700151766901954">Motivul: CBV rămâne în <ph name="DEFAULT_OPEN_BROWSER" /> în mod prestabilit.</translation>
-<translation id="1028823395684328817">Confirmă-ți identitatea pentru a folosi în continuare parolele și alte date din Contul Google</translation>
+<translation id="1028823395684328817">Confirmă-ți identitatea pentru a folosi în continuare parolele și alte date din Contul Decentr</translation>
 <translation id="102916930470544692">Cheie de acces</translation>
 <translation id="1029317248976101138">Zoom</translation>
 <translation id="1029526375103058355">Atinge pentru clic</translation>
@@ -95,8 +95,8 @@
 <translation id="1062407476771304334">Înlocuiți</translation>
 <translation id="1062628064301375934">Ajută-ne să creăm un web mai privat</translation>
 <translation id="1066964438793906105">Scanează pentru a detecta programele malware</translation>
-<translation id="1067661089446014701">Pentru siguranță suplimentară, criptează parolele pe dispozitiv înainte să se salveze în Contul Google</translation>
-<translation id="1067922213147265141">Alte servicii Google</translation>
+<translation id="1067661089446014701">Pentru siguranță suplimentară, criptează parolele pe dispozitiv înainte să se salveze în Contul Decentr</translation>
+<translation id="1067922213147265141">Alte servicii Decentr</translation>
 <translation id="106814709658156573">Pentru a configura amprenta, solicită-i copilului tău să atingă senzorul de amprentă în colțul din stânga jos al tastaturii. Datele privind amprentele copilului sunt stocate în siguranță și nu părăsesc niciodată dispozitivul <ph name="DEVICE_TYPE" />.</translation>
 <translation id="106855837688344862">Evenimente de contact</translation>
 <translation id="1069104208554708737">Cheia de acces va fi salvată numai pe acest dispozitiv</translation>
@@ -136,7 +136,7 @@ Verifică parolele oricând în <ph name="GOOGLE_PASSWORD_MANAGER" />.</translat
 <translation id="1085064499066015002">Întotdeauna pe toate site-urile</translation>
 <translation id="1085697365578766383">A apărut o eroare la pornirea mașinii virtuale. Încearcă din nou.</translation>
 <translation id="1086486568852410168">Caută cu Google Lens</translation>
-<translation id="1088490543924960890">Începe să salvezi chei de acces cu Managerul de parole Google</translation>
+<translation id="1088490543924960890">Începe să salvezi chei de acces cu Managerul de parole Decentr</translation>
 <translation id="1090126737595388931">Nu rulează aplicații în fundal</translation>
 <translation id="1090541560108055381">Înainte de asociere, asigură-te că apare același cod pe ambele dispozitive</translation>
 <translation id="1091767800771861448">Apăsați pe ESCAPE pentru a ignora (numai versiunile neoficiale).</translation>
@@ -212,10 +212,10 @@ Verifică parolele oricând în <ph name="GOOGLE_PASSWORD_MANAGER" />.</translat
 <translation id="1150565364351027703">Ochelari de soare</translation>
 <translation id="1151917987301063366">Permite întotdeauna accesul <ph name="HOST" /> la senzori</translation>
 <translation id="1152346050262092795">Introdu din nou parola pentru a confirma contul.</translation>
-<translation id="1153636665119721804">Programul Protecție avansată Google</translation>
+<translation id="1153636665119721804">Programul Protecție avansată Decentr</translation>
 <translation id="1155545602507378023">Nu, numai pe acest dispozitiv</translation>
 <translation id="1155816283571436363">Se conectează la telefon</translation>
-<translation id="1157952955648710254">Închide panoul lateral Căutare Google</translation>
+<translation id="1157952955648710254">Închide panoul lateral Căutare Decentr</translation>
 <translation id="1158080958325422608">Schimbă în majuscule</translation>
 <translation id="1158238185437008462">Vezi amintirile</translation>
 <translation id="1159879754517035595">Gestionează setările pentru extensii</translation>
@@ -228,7 +228,7 @@ Verifică parolele oricând în <ph name="GOOGLE_PASSWORD_MANAGER" />.</translat
 <translation id="1164891049599601209">A fost introdusă pe un site înșelător</translation>
 <translation id="1165039591588034296">Eroare</translation>
 <translation id="1166212789817575481">Închide filele de la dreapta</translation>
-<translation id="1166457390969131095">Folosește și salvează parole și chei de acces din Contul Google</translation>
+<translation id="1166457390969131095">Folosește și salvează parole și chei de acces din Contul Decentr</translation>
 <translation id="1166583374608765787">Examinează actualizarea numelui</translation>
 <translation id="1166596238782048887"><ph name="TAB_TITLE" /> aparține desktopului <ph name="DESK_TITLE" /></translation>
 <translation id="1167262726334064738">Încearcă o nouă parolă</translation>
@@ -438,7 +438,7 @@ Verifică parolele oricând în <ph name="GOOGLE_PASSWORD_MANAGER" />.</translat
 <translation id="1313405956111467313">Configurare automată pentru proxy</translation>
 <translation id="131364520783682672">Caps Lock</translation>
 <translation id="1313660246522271310">Te vei deconecta de la toate site-urile, inclusiv din filele deschise</translation>
-<translation id="1313705515580255288">Marcajele, istoricul și alte setări vor fi sincronizate cu Contul Google</translation>
+<translation id="1313705515580255288">Marcajele, istoricul și alte setări vor fi sincronizate cu Contul Decentr</translation>
 <translation id="1315184295353569363">Anulează salvarea grupului</translation>
 <translation id="1316136264406804862">Se caută...</translation>
 <translation id="1316248800168909509">Nu s-a putut conecta la <ph name="DEVICE" />. Încearcă din nou.</translation>
@@ -468,7 +468,7 @@ Verifică parolele oricând în <ph name="GOOGLE_PASSWORD_MANAGER" />.</translat
 <translation id="13392265090583506">A11y</translation>
 <translation id="1340527397989195812">Fă backup conținutului media de pe dispozitiv folosind aplicația Fișiere.</translation>
 <translation id="1341701348342335220">Bravo!</translation>
-<translation id="1342886103232377846">Pentru a verifica dacă există parole compromise, accesează Managerul de parole Google</translation>
+<translation id="1342886103232377846">Pentru a verifica dacă există parole compromise, accesează Managerul de parole Decentr</translation>
 <translation id="1343865611738742294">Permite aplicațiilor Linux să acceseze dispozitivele USB. Linux nu va păstra un dispozitiv USB după ce este eliminat.</translation>
 <translation id="1343920184519992513">Continuă de unde ai rămas și deschide un anumit set de pagini</translation>
 <translation id="1344141078024003905">Proiectezi ecranul. Poți să întrerupi sau să oprești oricând proiectarea ecranului.</translation>
@@ -499,7 +499,7 @@ Verifică parolele oricând în <ph name="GOOGLE_PASSWORD_MANAGER" />.</translat
 <translation id="136522805455656552">Pentru a păstra dispozitivul securizat, trebuie să rulezi și să instalezi software numai de la surse și dezvoltatori de încredere. <ph name="LEARN_MORE" /></translation>
 <translation id="1367817137674340530">S-au generat <ph name="COUNT" /> imagini</translation>
 <translation id="1368603372088757436">Linux nu este acceptat pe <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Află mai multe<ph name="LINK_END" /></translation>
-<translation id="1370249617397887619">Pentru a le folosi pe celelalte dispozitive, salvează-le în Contul Google</translation>
+<translation id="1370249617397887619">Pentru a le folosi pe celelalte dispozitive, salvează-le în Contul Decentr</translation>
 <translation id="1370384480654163477">Vezi și editează fișierele de la ultima accesare a acestui site:</translation>
 <translation id="1372841398847029212">Sincronizează cu contul tău</translation>
 <translation id="1373176046406139583">Vizibilitatea dispozitivului controlează cine îți poate trimite conținut atunci când ecranul este deblocat. <ph name="LINK_BEGIN" />Află mai multe<ph name="LINK_END" /></translation>
@@ -704,7 +704,7 @@ Permisiunile pe care le-ai acordat deja aplicațiilor se pot aplica acestui cont
 <translation id="1515163294334130951">Lansați</translation>
 <translation id="1517467582299994451">Ca să proiectezi folosind un cod, activează setările de sincronizare a browserului Chrome</translation>
 <translation id="1521442365706402292">Gestionează certificatele</translation>
-<translation id="1521655867290435174">Foi de calcul Google</translation>
+<translation id="1521655867290435174">Foi de calcul Decentr</translation>
 <translation id="1521774566618522728">Activ astăzi</translation>
 <translation id="1521933835545997395">Conectat la telefonul Android</translation>
 <translation id="1523279371236772909">Afișat în ultima lună</translation>
@@ -771,7 +771,7 @@ Permisiunile pe care le-ai acordat deja aplicațiilor se pot aplica acestui cont
 <translation id="1567579616025300478">Acest site nu are permisiunea de a salva date pe dispozitiv.</translation>
 <translation id="156793199942386351">Tasta <ph name="CURRENTKEY" /> a fost deja asociată acțiunii „<ph name="ACTION" />”. Apasă pe orice tastă pentru <ph name="RESPONSE" />.</translation>
 <translation id="1567993339577891801">Consolă JavaScript</translation>
-<translation id="1569466257325986920">Data viitoare când parola Contului Google se schimbă, datele locale se vor recupera automat după ce te conectezi la Contul Google</translation>
+<translation id="1569466257325986920">Data viitoare când parola Contului Google se schimbă, datele locale se vor recupera automat după ce te conectezi la Contul Decentr</translation>
 <translation id="1570235441606255261">Program de instalare Steam</translation>
 <translation id="1570604804919108255">Activează sunetul notificărilor</translation>
 <translation id="1570990174567554976">S-a creat dosarul de marcaje <ph name="BOOKMARK_TITLE" />.</translation>
@@ -886,7 +886,7 @@ Permisiunile pe care le-ai acordat deja aplicațiilor se pot aplica acestui cont
 <translation id="1632293440289326475">Activează Economisirea bateriei pentru a mări autonomia</translation>
 <translation id="1632756664321977232">Instrument pentru decupare</translation>
 <translation id="163309982320328737">Lățimea caracterelor inițiale trebuie să fie completă</translation>
-<translation id="1633947793238301227">Dezactivează Asistentul Google</translation>
+<translation id="1633947793238301227">Dezactivează Asistentul Decentr</translation>
 <translation id="1634224622052500893">S-a găsit rețeaua Wi-Fi</translation>
 <translation id="1634783886312010422">Ai schimbat deja parola pe <ph name="WEBSITE" />?</translation>
 <translation id="1636212173818785548">OK</translation>
@@ -1038,7 +1038,7 @@ Permisiunile pe care le-ai acordat deja aplicațiilor se pot aplica acestui cont
 <translation id="1748563609363301860">Poți salva parola în Contul Google sau numai pe acest dispozitiv</translation>
 <translation id="1749733017156547309">Este necesară o parolă</translation>
 <translation id="1750172676754093297">Cheia ta de securitate nu poate stoca amprente digitale</translation>
-<translation id="1750238553597293878">Folosește în continuare parolele din Contul Google</translation>
+<translation id="1750238553597293878">Folosește în continuare parolele din Contul Decentr</translation>
 <translation id="1751262127955453661"><ph name="ORIGIN" /> va putea edita fișierele din <ph name="FOLDERNAME" /> până când închizi toate filele pentru acest site</translation>
 <translation id="17513872634828108">File deschise</translation>
 <translation id="175196451752279553">R&amp;edeschide fila închisă</translation>
@@ -1110,7 +1110,7 @@ Permisiunile pe care le-ai acordat deja aplicațiilor se pot aplica acestui cont
 <translation id="1802687198411089702">Pagina nu răspunde. Poți aștepta să răspundă sau o poți închide.</translation>
 <translation id="1803531841600994172">Limba în care se traduce</translation>
 <translation id="1803545009660609783">Resetează</translation>
-<translation id="1804195280859010019">Vei vedea informații sau sugestii mai utile în funcții precum panoul lateral Căutare Google</translation>
+<translation id="1804195280859010019">Vei vedea informații sau sugestii mai utile în funcții precum panoul lateral Căutare Decentr</translation>
 <translation id="1805738995123446102">O filă din fundal folosește microfonul</translation>
 <translation id="1805822111539868586">Inspectează afișările</translation>
 <translation id="1805888043020974594">Server de imprimare</translation>
@@ -1256,7 +1256,7 @@ Permisiunile pe care le-ai acordat deja aplicațiilor se pot aplica acestui cont
 <translation id="1901213235765457754">Solicită-i administratorului să actualizeze aplicația</translation>
 <translation id="1901303067676059328">Select&amp;ează tot</translation>
 <translation id="1901760057081700494">Fusul orar este setat momentan la <ph name="TIME_ZONE_ENTRY" />. Pentru a actualiza automat fusul orar, <ph name="BEGIN_LINK" />activează accesul la locație al sistemului<ph name="END_LINK" />.</translation>
-<translation id="1904580727789512086">Adresele URL pe care le accesezi sunt salvate în Contul Google</translation>
+<translation id="1904580727789512086">Adresele URL pe care le accesezi sunt salvate în Contul Decentr</translation>
 <translation id="1906181697255754968">Site-urile accesează de obicei fișiere și dosare de pe dispozitiv pentru funcții cum ar fi salvarea automată a ceea ce ai lucrat</translation>
 <translation id="1906488504371069394">Descoperă mai multe extensii și teme în <ph name="BEGIN_LINK" />Magazinul web Chrome<ph name="END_LINK" /></translation>
 <translation id="1907044622262489040">Introdu text folosind vocea. Folosește tasta de căutare + D, apoi începe să vorbești.</translation>
@@ -1468,7 +1468,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2052572566310583903">Instalată pe celelalte dispozitive</translation>
 <translation id="2053105195397337973">Explorăm noi moduri de a restricționa urmărirea, permițând totodată site-urilor să prevină spamul cu anunțuri și frauda.</translation>
 <translation id="2053312383184521053">Date pentru starea inactivă</translation>
-<translation id="205560151218727633">Sigla Asistentului Google</translation>
+<translation id="205560151218727633">Sigla Asistentului Decentr</translation>
 <translation id="2058456167109518507">S-a detectat un dispozitiv</translation>
 <translation id="2058581283817163201">Confirmă folosind acest telefon</translation>
 <translation id="2059913712424898428">Fus orar</translation>
@@ -1665,7 +1665,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2200781749203116929">Jurnale de sistem ChromeOS</translation>
 <translation id="2203088913459920044">Numele poate să conțină litere, cifre și caractere speciale</translation>
 <translation id="220321590587754225">Nu s-a putut conecta. Încearcă din nou.</translation>
-<translation id="2203903197029773650"><ph name="BRAND" /> poate să îți verifice parolele atunci când te conectezi folosind Contul Google</translation>
+<translation id="2203903197029773650"><ph name="BRAND" /> poate să îți verifice parolele atunci când te conectezi folosind Contul Decentr</translation>
 <translation id="2204020417499639567">Adresa de e-mail a fost completată.</translation>
 <translation id="2204034823255629767">Citește și modifică orice date introduse</translation>
 <translation id="2204168219363024184">Ca să creezi cheia de acces cu Managerul de parole Google, confirmă-ți identitatea</translation>
@@ -1706,7 +1706,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2233502537820838181">&amp;Mai multe informații</translation>
 <translation id="223356358902285214">Activitatea de pe web și din aplicații</translation>
 <translation id="2234827758954819389">Ghid privind confidențialitatea</translation>
-<translation id="2234876718134438132">Sincronizarea și serviciile Google</translation>
+<translation id="2234876718134438132">Sincronizarea și serviciile Decentr</translation>
 <translation id="2235344399760031203">Cookie-urile terță parte sunt blocate</translation>
 <translation id="2236949375853147973">Activitatea mea</translation>
 <translation id="2238379619048995541">Date pentru starea activă</translation>
@@ -2189,7 +2189,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2561211427862644160">Vezi toate marcajele aici</translation>
 <translation id="2564520396658920462">Rularea JavaScript prin AppleScript este dezactivată. Pentru a o activa, din bara de meniu, accesează Vizualizare &gt; Dezvoltator &gt; Permite JavaScript de la Apple Events. Pentru mai multe informații: https://support.google.com/chrome/?p=applescript</translation>
 <translation id="2564653188463346023">Verificarea îmbunătățită a ortografiei</translation>
-<translation id="256481480019204378">Codul Contului Google</translation>
+<translation id="256481480019204378">Codul Contului Decentr</translation>
 <translation id="256517381556987641">Sincronizarea fișierelor a găsit <ph name="ITEMS_FOUND" /> fișiere până acum și încă verifică spațiul de stocare. Încearcă din nou să activezi Sincronizarea fișierelor peste câteva minute.</translation>
 <translation id="2565214867520763227">Activează cititorul de ecran</translation>
 <translation id="2568694057933302218">În modul incognito, site-urile nu pot folosi cookie-uri pentru a-ți vedea activitatea de navigare de pe site-uri. Activitatea ta de navigare nu este folosită pentru acțiuni precum personalizarea anunțurilor. Este posibil ca funcțiile de pe anumite site-uri să nu ruleze.</translation>
@@ -2261,7 +2261,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2620245777360407679">Dispozitive conectate la hotspot</translation>
 <translation id="2620436844016719705">Sistem</translation>
 <translation id="2620900772667816510">Super-rezoluție Bluetooth</translation>
-<translation id="262154978979441594">Creează un model vocal pentru Asistentul Google</translation>
+<translation id="262154978979441594">Creează un model vocal pentru Asistentul Decentr</translation>
 <translation id="2622280935687585828">Elimină <ph name="SITE_NAME" /> din site-urile dezactivate</translation>
 <translation id="26224892172169984">Nu permite site-urilor să gestioneze protocoale</translation>
 <translation id="262373406453641243">Colemak</translation>
@@ -2345,7 +2345,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2683638487103917598">Dosar sortat</translation>
 <translation id="2684004000387153598">Pentru a continua, dă clic pe OK, apoi pe Adaugă o persoană pentru a crea un profil nou pentru adresa de e-mail.</translation>
 <translation id="2685193395980129388">Se permite – <ph name="PERMISSION_DETAILS" /></translation>
-<translation id="2687407218262674387">Termenii și condițiile Google</translation>
+<translation id="2687407218262674387">Termenii și condițiile Decentr</translation>
 <translation id="2687621393791886981">Întreabă-mă mai târziu</translation>
 <translation id="2688196195245426394">Eroare la înregistrarea gadgetului pe server: <ph name="CLIENT_ERROR" />.</translation>
 <translation id="2688734475209947648">Nu va trebui să reții parola. Ea se va salva în Managerul de parole Google pentru <ph name="ACCOUNT" />.</translation>
@@ -2557,7 +2557,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2828375943530438449">Înapoi de la Conectează-te</translation>
 <translation id="2828650939514476812">Conectează-te la o rețea Wi-Fi</translation>
 <translation id="2828833307884755422">Memorie eliberată: <ph name="MEMORY_SAVINGS" /></translation>
-<translation id="2830528677948328648">Gestionează-ți Contul &amp;Google</translation>
+<translation id="2830528677948328648">Gestionează-ți Contul &amp;Decentr</translation>
 <translation id="2831430281393059038">Dispozitivul este compatibil</translation>
 <translation id="2832124733806557606">Copilul tău poate folosi un cod PIN pentru a se conecta sau a debloca dispozitivul.</translation>
 <translation id="2835177225987815960">Configurația actuală de scanare va fi resetată, inclusiv comutatoarele atribuite și setările pentru viteza de scanare automată.</translation>
@@ -2643,7 +2643,7 @@ Poți gestiona setările contului dacă instalezi aplicația Family Link pe disp
 <translation id="2891922230654533301">Folosești dispozitivul pentru a te conecta la <ph name="APP_NAME" />?</translation>
 <translation id="2893013536106749396">Alege carduri care te țin la curent cu lucrurile importante pentru tine</translation>
 <translation id="2893168226686371498">Browserul prestabilit</translation>
-<translation id="2893180576842394309">Google poate folosi istoricul pentru a personaliza Căutarea și alte servicii Google</translation>
+<translation id="2893180576842394309">Google poate folosi istoricul pentru a personaliza Căutarea și alte servicii Decentr</translation>
 <translation id="2893701697603065178">Mediu de dezvoltare gestionat</translation>
 <translation id="2894757982205307093">Filă nouă în grup</translation>
 <translation id="2895730582088342039">Salvează, trimite și proiectează</translation>
@@ -2741,7 +2741,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="2967926928600500959">Adresele URL care corespund acestor reguli vor fi forțate să se deschisă într-un anumit browser.</translation>
 <translation id="2969411787010981955">Datele au fost exportate în locația selectată</translation>
 <translation id="2970766364519518369">Persoanele de contact selectate îți pot permite accesul când sunt în apropiere. Ți se va solicita să accepți aceste solicitări. Nu va fi nevoie să aprobi permiterea accesului între dispozitive la care te-ai conectat cu <ph name="USER_EMAIL" />.</translation>
-<translation id="2970982365449313350">Chrome cu acest Cont Google</translation>
+<translation id="2970982365449313350">Chrome cu acest Cont Decentr</translation>
 <translation id="2972557485845626008">Firmware</translation>
 <translation id="2972581237482394796">&amp;Repetă</translation>
 <translation id="2973324205039581528">Dezactivează sunetul pentru site</translation>
@@ -2769,7 +2769,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="2989474696604907455">neconectat</translation>
 <translation id="2989786307324390836">Certificat unic, sub formă de fișier binar cu codificarea DER</translation>
 <translation id="2989805286512600854">Deschide într-o filă nouă</translation>
-<translation id="2990313168615879645">Adaugă Contul Google</translation>
+<translation id="2990313168615879645">Adaugă Contul Decentr</translation>
 <translation id="2990375978470734995">Pentru ca modificarea să se aplice, reconectează accesoriile externe.</translation>
 <translation id="2990583317361835189">Nu permite site-urilor să folosească senzori de mișcare</translation>
 <translation id="2991182900092497283">Introdu un motiv pentru inserarea acestor date:</translation>
@@ -2943,7 +2943,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
         &lt;li&gt;te protejăm în timp ce navighezi;&lt;/li&gt;
         &lt;li&gt;susținem un ecosistem înfloritor, care menține internetul sigur și deschis, rapid și gratuit&lt;/li&gt;
       &lt;/ul&gt;</translation>
-<translation id="3115743155098198207">Gestionează limba Contului Google</translation>
+<translation id="3115743155098198207">Gestionează limba Contului Decentr</translation>
 <translation id="3117362587799608430">Dispozitivul de andocare nu este compatibil în totalitate</translation>
 <translation id="3117791853215125017">{COUNT,plural, =1{Nu s-a trimis <ph name="ATTACHMENTS" /> către <ph name="DEVICE_NAME" />}few{Nu s-au trimis <ph name="ATTACHMENTS" /> către <ph name="DEVICE_NAME" />}other{Nu s-au trimis <ph name="ATTACHMENTS" /> către <ph name="DEVICE_NAME" />}}</translation>
 <translation id="3118319026408854581">Ajutor <ph name="PRODUCT_NAME" /></translation>
@@ -3139,7 +3139,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3275778913554317645">Deschide ca fereastră</translation>
 <translation id="3277214528693754078">Navighează folosind cursorul de text (navigare cu tastatura)</translation>
 <translation id="3277594800340743211">Umbră mare</translation>
-<translation id="3277784185056747463">Parola dispozitivului sau parola Contului Google</translation>
+<translation id="3277784185056747463">Parola dispozitivului sau parola Contului Decentr</translation>
 <translation id="3278001907972365362">Trebuie să te ocupi de Conturile Google.</translation>
 <translation id="3279092821516760512">Persoanele de contact selectate îți pot trimite fișiere când sunt în apropiere. Transferurile nu vor începe până când nu accepți.</translation>
 <translation id="3279230909244266691">Poate dura câteva minute. Se pornește mașina virtuală.</translation>
@@ -3166,7 +3166,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3295241308788901889">Proiectarea unei file</translation>
 <translation id="3297105622164376095">Au permisiunea de a afișa solicitări de conectare prin terți</translation>
 <translation id="3297462367919448805">Acest dispozitiv nu mai primește actualizări automate de software și de securitate, dar poți activa actualizările extinse de securitate.</translation>
-<translation id="3297536526040732495">Conectează temporar aceste date la Contul tău Google dacă te-ai conectat, pentru a te proteja în aplicațiile Google</translation>
+<translation id="3297536526040732495">Conectează temporar aceste date la Contul tău Google dacă te-ai conectat, pentru a te proteja în aplicațiile Decentr</translation>
 <translation id="329838636886466101">Repară</translation>
 <translation id="3298789223962368867">A fost introdusă o adresă URL nevalidă.</translation>
 <translation id="32991397311664836">Dispozitive:</translation>
@@ -3356,7 +3356,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3443754338602062261">Ai deja parole pentru aceste conturi în <ph name="BRAND" />. Dacă alegi să imporți una dintre parolele de mai jos, aceasta o va înlocui pe cea existentă.</translation>
 <translation id="344449859752187052">Cookie-urile terță parte au fost blocate</translation>
 <translation id="3444726579402183581"><ph name="ORIGIN" /> va putea să vadă <ph name="FILENAME" /></translation>
-<translation id="3445047461171030979">Răspunsuri rapide de la Asistentul Google</translation>
+<translation id="3445047461171030979">Răspunsuri rapide de la Asistentul Decentr</translation>
 <translation id="3445288400492335833"><ph name="MINUTES" /> min.</translation>
 <translation id="344537926140058498">Organizația ta a blocat fișierul, deoarece include conținut sensibil sau periculos. Solicită-i proprietarului să îl remedieze.</translation>
 <translation id="3445925074670675829">Dispozitiv USB-C</translation>
@@ -3421,7 +3421,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3493486281776271508">Este necesară o conexiune la internet</translation>
 <translation id="3493881266323043047">Validitate</translation>
 <translation id="3495496470825196617">Inactivitate în timpul încărcării</translation>
-<translation id="3495660573538963482">Setări Asistent Google</translation>
+<translation id="3495660573538963482">Setări Asistent Decentr</translation>
 <translation id="3495675993466884458">Administratorul sistemului a permis aplicației <ph name="APP_ORIGIN" /> să îți înregistreze ecranul</translation>
 <translation id="3496213124478423963">Micșorează</translation>
 <translation id="3496238553815913323"><ph name="LANGUAGE" /> (neselectată)</translation>
@@ -3595,7 +3595,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="362266093274784978">{COUNT,plural, =1{o aplicație}few{# aplicații}other{# de aplicații}}</translation>
 <translation id="362333465072914957">Se așteaptă emiterea unui certificat de către CA</translation>
 <translation id="3623598555687153298">Astfel, se vor șterge <ph name="TOTAL_USAGE" /> din datele stocate de site-urile afișate</translation>
-<translation id="3624567683873126087">Deblochează dispozitivul și conectează-te la Contul Google</translation>
+<translation id="3624567683873126087">Deblochează dispozitivul și conectează-te la Contul Decentr</translation>
 <translation id="3624583033347146597">Alege preferințele privind cookie-urile terță parte</translation>
 <translation id="3625481642044239431">A fost selectat un fișier nevalid. Încearcă din nou.</translation>
 <translation id="3626296069957678981">Pentru a încărca Chromebookul, folosește o baterie Dell compatibilă.</translation>
@@ -3609,7 +3609,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3630995161997703415">Adaugă acest site pe raft pentru a-l folosi oricând</translation>
 <translation id="3634652306074934350">Solicitarea permisiunii a expirat</translation>
 <translation id="3635199270495525546">S-a detectat un Trusted Platform Module (TPM)</translation>
-<translation id="3635353578505343390">Trimite feedback la Google</translation>
+<translation id="3635353578505343390">Trimite feedback la Decentr</translation>
 <translation id="3635960017746711110">Preferințe USB în Crostini</translation>
 <translation id="3636766455281737684"><ph name="PERCENTAGE" />% – Timp rămas: <ph name="TIME" /></translation>
 <translation id="3636940436873918441">Limbi preferate</translation>
@@ -3737,7 +3737,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3719826155360621982">Pagina de pornire</translation>
 <translation id="3720543739123045680">Alte file folosesc un proces în comun cu această filă, ceea ce poate duce la o experiență DevTools neașteptată.</translation>
 <translation id="372062398998492895">CUPS</translation>
-<translation id="3721119614952978349">Tu și Google</translation>
+<translation id="3721119614952978349">Tu și Decentr</translation>
 <translation id="3721178866505920080">Mai multe informații despre activarea preîncărcării extinse</translation>
 <translation id="3722108462506185496">A apărut o eroare la pornirea serviciului mașinii virtuale. Încearcă din nou.</translation>
 <translation id="3722624153992426516">S-a primit instrucțiunea <ph name="IMPORT_CERTIFICATE__INSTRUCTION_NAME" /></translation>
@@ -3762,7 +3762,7 @@ Mesaj de la server: <ph name="SERVER_MSG" /></translation>
 <translation id="3732108843630241049">Acest dispozitiv nu mai primește actualizări automate de software. Activează actualizările de securitate extinse pentru securitate, stabilitate și performanță continue. Unele funcții vor fi limitate. <ph name="LINK_BEGIN" />Află mai multe<ph name="LINK_END" /></translation>
 <translation id="3732414796052961578">Continuă ca <ph name="ACCOUNT_NAME" /></translation>
 <translation id="3732530910372558017">Codul PIN trebuie să aibă maximum 63 de caractere</translation>
-<translation id="3732857534841813090">Informații despre Asistentul Google</translation>
+<translation id="3732857534841813090">Informații despre Asistentul Decentr</translation>
 <translation id="3733296813637058299">Vom instala aceste aplicații pentru tine. Poți găsi mai multe aplicații pentru <ph name="DEVICE_TYPE" /> în Magazinul Play.</translation>
 <translation id="3735039640698208086">Când se redă conținut audio...</translation>
 <translation id="3735740477244556633">Sortează după</translation>
@@ -3913,7 +3913,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="3825635794653163640">Afișează punctul pe pictograma aplicației pentru alertele de la aplicație</translation>
 <translation id="3826071569074535339">Au permisiunea de a folosi senzorii de mișcare</translation>
 <translation id="3826086052025847742">Jurnale ChromeOS Flex</translation>
-<translation id="3826440694796503677">Administratorul a dezactivat adăugarea mai multor Conturi Google</translation>
+<translation id="3826440694796503677">Administratorul a dezactivat adăugarea mai multor Conturi Decentr</translation>
 <translation id="3827774300009121996">&amp;Ecran complet</translation>
 <translation id="3828029223314399057">Căutați în marcaje</translation>
 <translation id="3828953470056652895">Am citit și sunt de acord cu <ph name="BEGIN_LINK1" />Termenii și condițiile Google<ph name="END_LINK1" /> și cu <ph name="BEGIN_LINK2" />Termenii și condițiile suplimentare pentru Chrome și sistemul de operare Chrome<ph name="END_LINK2" /> și <ph name="BEGIN_LINK3" />Termenii și condițiile Google Play<ph name="END_LINK3" />.</translation>
@@ -3971,7 +3971,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="3873315167136380065">Ca să activezi această opțiune, <ph name="BEGIN_LINK" />resetează sincronizarea<ph name="END_LINK" /> pentru a elimina expresia de acces pentru sincronizare</translation>
 <translation id="3873423927483480833">Afișează codurile PIN</translation>
 <translation id="3873915545594852654">A apărut o eroare la ARC++.</translation>
-<translation id="3874164307099183178">Activează Asistentul Google</translation>
+<translation id="3874164307099183178">Activează Asistentul Decentr</translation>
 <translation id="3875511946736639169">Activează imaginile</translation>
 <translation id="3875815154304214043"><ph name="APP_NAME" /> este setată să se deschidă într-o nouă filă de browser. Linkurile acceptate se vor deschide tot în browser. <ph name="BEGIN_LINK_LEARN_MORE" />Află mai multe<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="3876219572815410515">Ferestrele au fost redimensionate în partea de sus</translation>
@@ -4271,7 +4271,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4093865285251893588">Imagine de profil</translation>
 <translation id="4093955363990068916">Fișier local:</translation>
 <translation id="4094647278880271855">Folosești o variabilă de mediu neacceptată: <ph name="BAD_VAR" />. Stabilitatea și securitatea vor avea de suferit.</translation>
-<translation id="4095246243698959793">Pentru a sincroniza și a folosi chei de acces de la Google</translation>
+<translation id="4095246243698959793">Pentru a sincroniza și a folosi chei de acces de la Decentr</translation>
 <translation id="4095264805865317199">Deschide IU pentru activarea celulară</translation>
 <translation id="4095425503313512126">Navigarea și căutarea sunt mai rapide</translation>
 <translation id="4095483462103784441">Creează un nou grup de file</translation>
@@ -4280,7 +4280,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4096797685681362305">Afișat în ultima săptămână</translation>
 <translation id="4097406557126260163">Aplicații și extensii</translation>
 <translation id="409742781329613461">Sfaturi pentru Chrome</translation>
-<translation id="4097560579602855702">Caută pe Google</translation>
+<translation id="4097560579602855702">Caută pe Decentr</translation>
 <translation id="4098667039111970300">Instrumentele pentru creion din bara de instrumente</translation>
 <translation id="4099874310852108874">A apărut o eroare de rețea.</translation>
 <translation id="4100020874626534113">Permite atribuirea diacritică flexibilă. De exemplu, poți introduce „anhs” sau „asnh” pentru a obține „ánh”.</translation>
@@ -4593,7 +4593,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4348766275249686434">Culege erorile</translation>
 <translation id="4349828822184870497">Utile</translation>
 <translation id="4350230709416545141">Blochează întotdeauna accesul <ph name="HOST" /> la locație</translation>
-<translation id="4350782034419308508">Ok Google</translation>
+<translation id="4350782034419308508">Ok Decentr</translation>
 <translation id="435185728237714178">Accesează aplicația <ph name="APP_NAME" /> pentru a gestiona aplicațiile instalate și redate în stream</translation>
 <translation id="4354073718307267720">Anunță-mă dacă un site vrea să creeze o hartă 3D a lucrurilor din jur sau să urmărească poziția camerei video</translation>
 <translation id="4354344420232759511">Site-urile pe care le accesezi apar aici</translation>
@@ -4692,7 +4692,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4414242853388122273">Eroare la eliminarea <ph name="VM_NAME" />. Încearcă din nou.</translation>
 <translation id="4415213869328311284"><ph name="DEVICE_TYPE" /> este gata de utilizare.</translation>
 <translation id="4415245286584082850">Nu s-au găsit dispozitive. Deschide într-o nouă filă un articol din centrul de ajutor.</translation>
-<translation id="4415276339145661267">Gestionează-ți Contul Google</translation>
+<translation id="4415276339145661267">Gestionează-ți Contul Decentr</translation>
 <translation id="4415748029120993980">Curbură eliptică SECG secp384r1 (cunoscută și sub numele de NIST P-384)</translation>
 <translation id="4415815425191869676">Menține întotdeauna active aceste site-uri</translation>
 <translation id="4416582610654027550">Introdu o adresă URL validă</translation>
@@ -4777,7 +4777,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4490086832405043258">Folosește setările proxy din sistemul de operare Chrome pentru acest profil.</translation>
 <translation id="4490798467014431984">Extensiile nu sunt permise pe acest site</translation>
 <translation id="449102748655090594">Se grupează filele…</translation>
-<translation id="449126573531210296">Criptează parolele sincronizate folosind Contul Google</translation>
+<translation id="449126573531210296">Criptează parolele sincronizate folosind Contul Decentr</translation>
 <translation id="4492265221907525667">Pentru a folosi noua funcție experimentală, conectează-te.</translation>
 <translation id="449232563137139956">Site-urile afișează de obicei imagini pentru ilustrare, de exemplu, fotografii pentru magazine online sau articole de știri</translation>
 <translation id="4492698018379445570">Vezi ce ai adăugat în coșurile de cumpărături și finalizează achiziția când ești gata</translation>
@@ -4802,7 +4802,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4508332912150723117">nume de utilizator <ph name="USER_EMAIL" />. Vezi detaliile</translation>
 <translation id="450867954911715010">Setări de accesibilitate</translation>
 <translation id="4508765956121923607">Afișează s&amp;ursa</translation>
-<translation id="4509277363725254222">Când permiți accesul la o copie a <ph name="BEGIN_BOLD_USERNAME" />numelui de utilizator<ph name="END_BOLD_USERNAME" /> și a <ph name="BEGIN_BOLD_PASSWORD" />parolei<ph name="END_BOLD_PASSWORD" />, membrul familiei tale le poate completa folosind Managerul de parole Google</translation>
+<translation id="4509277363725254222">Când permiți accesul la o copie a <ph name="BEGIN_BOLD_USERNAME" />numelui de utilizator<ph name="END_BOLD_USERNAME" /> și a <ph name="BEGIN_BOLD_PASSWORD" />parolei<ph name="END_BOLD_PASSWORD" />, membrul familiei tale le poate completa folosind Managerul de parole Decentr</translation>
 <translation id="4509421746503122514">Relansează pentru a actualiza</translation>
 <translation id="4509741852167209430">Sunt trimise tipuri de date limitate între site-uri pentru a măsura performanța anunțurilor asociate, de exemplu, dacă ai făcut o achiziție după ce ai accesat un site</translation>
 <translation id="4510195992002502722">Feedbackul nu a putut fi trimis. Se reîncearcă...</translation>
@@ -4852,7 +4852,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4545759655004063573">Nu se poate salva din cauza permisiunilor insuficiente. Salvați în altă locație.</translation>
 <translation id="4546345569117159016">Butonul drept</translation>
 <translation id="4546509872654834602"><ph name="SUPERVISED_USER_NAME" /> dorește să folosească această extensie:</translation>
-<translation id="4546692474302123343">Intrare vocală în Asistentul Google</translation>
+<translation id="4546692474302123343">Intrare vocală în Asistentul Decentr</translation>
 <translation id="4547659257713117923">Nu există file de pe alte dispozitive</translation>
 <translation id="4547672827276975204">Setează în mod automat</translation>
 <translation id="4549791035683739768">Cheia de securitate nu are amprente stocate.</translation>
@@ -5032,7 +5032,7 @@ Aici pot fi incluse informații despre software-ul instalat, fișiere, browser �
 <translation id="4676595058027112862">Phone Hub, Află mai multe</translation>
 <translation id="4676616966096505747">Anumite date nu au fost salvate încă în cont</translation>
 <translation id="4677772697204437347">Memorie GPU</translation>
-<translation id="467809019005607715">Prezentări Google</translation>
+<translation id="467809019005607715">Prezentări Decentr</translation>
 <translation id="4678848110205818817">Card de credit / debit</translation>
 <translation id="4680105648806843642">Sunetul a fost dezactivat pe această pagină</translation>
 <translation id="4680112532510845139">Plasează o imagine aici</translation>
@@ -5203,7 +5203,7 @@ Folosește Ctrl + Alt + tasta de reducere a luminozității pentru a micșora.</
 <translation id="481689174647911539">Fișierul poate fi un virus sau un program malware.<ph name="LINE_BREAK" />Poți să-l trimiți la Navigarea sigură Google pentru a verifica dacă este nesigur. De obicei, verificările durează câteva secunde.</translation>
 <translation id="4816900689218414104">Creează o cheie de acces pe telefon sau pe tabletă</translation>
 <translation id="4819323978093861656">{0,plural, =0{Se închide.}=1{Se închide în o secundă}few{Se închide în # secunde}other{Se închide în # de secunde}}</translation>
-<translation id="4819607494758673676">Notificări privind Asistentul Google</translation>
+<translation id="4819607494758673676">Notificări privind Asistentul Decentr</translation>
 <translation id="4819818293886748542">Obține linkul către Instrumentul de asistență</translation>
 <translation id="4820082996741546682">Au permisiunea de a bloca tastatura</translation>
 <translation id="4820236583224459650">Setează ca tichet activ</translation>
@@ -5243,7 +5243,7 @@ Folosește Ctrl + Alt + tasta de reducere a luminozității pentru a micșora.</
 <translation id="4846628405149428620">Selectează unde poate salva modificările acest site</translation>
 <translation id="4846680374085650406">Urmați recomandarea administratorului pentru această setare.</translation>
 <translation id="4847242508757499006">Alege Încearcă din nou sau Deschide în editorul de bază pentru a folosi opțiunile de afișare și editare limitate.</translation>
-<translation id="4848191975108266266">„Ok Google” pentru Asistentul Google</translation>
+<translation id="4848191975108266266">„Ok Google” pentru Asistentul Decentr</translation>
 <translation id="4849286518551984791">Timpul universal coordonat (UTC/GMT)</translation>
 <translation id="4849517651082200438">Nu instala</translation>
 <translation id="485053257961878904">Sincronizarea notificărilor nu a putut fi configurată</translation>
@@ -5475,7 +5475,7 @@ Folosește Ctrl + Alt + tasta de reducere a luminozității pentru a micșora.</
 <translation id="5021750053540820849">Nu s-a actualizat încă</translation>
 <translation id="5022206631034207923">Ecran de blocare, comenzi</translation>
 <translation id="5024511550058813796">Istoricul apare pe toate dispozitivele tale sincronizate. Astfel, poți continua ceea ce făceai</translation>
-<translation id="5026492829171796515">Conectează-te pentru a adăuga un cont Google</translation>
+<translation id="5026492829171796515">Conectează-te pentru a adăuga un cont Decentr</translation>
 <translation id="5026806129670917316">Activează conexiunea Wi-Fi</translation>
 <translation id="5026874946691314267">Nu mai afișați acest mesaj din nou</translation>
 <translation id="5027550639139316293">Certificat pentru e-mail</translation>
@@ -5792,7 +5792,7 @@ Folosește Ctrl + Alt + tasta de reducere a luminozității pentru a micșora.</
 <translation id="5261619498868361045">Numele containerului trebuie completat.</translation>
 <translation id="5261683757250193089">Deschide în Magazinul web</translation>
 <translation id="5261799091118902550">Fișierul poate fi un virus sau un program malware. Poți să îl trimiți la Google pentru a verifica dacă este nesigur.</translation>
-<translation id="5262334727506665688">Salvează în continuare parolele în Contul Google</translation>
+<translation id="5262334727506665688">Salvează în continuare parolele în Contul Decentr</translation>
 <translation id="5262784498883614021">Conectează-te automat la rețea</translation>
 <translation id="5263656105659419083">Pentru a reveni cu ușurință la panoul lateral, dă clic pe Fixează în dreapta sus</translation>
 <translation id="5264148714798105376">Poate dura câteva minute.</translation>
@@ -5836,7 +5836,7 @@ Folosește Ctrl + Alt + tasta de reducere a luminozității pentru a micșora.</
 <translation id="529296195492126134">Modul efemer nu este acceptat. Contactează administratorul.</translation>
 <translation id="5293043095535566171">Activezi accesul la locație?</translation>
 <translation id="5293170712604732402">Restabilește setările la valorile inițiale</translation>
-<translation id="5294068591166433464">Dacă un site încearcă să îți fure parola sau descarci un fișier dăunător, Chrome poate să trimită adresele URL, inclusiv fragmente din conținutul paginilor, către Google</translation>
+<translation id="5294068591166433464">Dacă un site încearcă să îți fure parola sau descarci un fișier dăunător, Chrome poate să trimită adresele URL, inclusiv fragmente din conținutul paginilor, către Decentr</translation>
 <translation id="5294097441441645251">Trebuie să înceapă cu literă mică sau cu un caracter de subliniere</translation>
 <translation id="5294618183559481278"><ph name="DEVICE_TYPE" /> folosește un senzor încorporat pentru a detecta persoanele din fața dispozitivului. Toate datele sunt prelucrate imediat pe dispozitiv, apoi sunt șterse. Datele de la senzor nu sunt trimise niciodată la Google. <ph name="LINK_BEGIN" />Află mai multe<ph name="LINK_END" /></translation>
 <translation id="5295188371713072404">Extensiile pot solicita acces la acest site</translation>
@@ -5903,7 +5903,7 @@ Folosește Ctrl + Alt + tasta de reducere a luminozității pentru a micșora.</
 <translation id="534449933710420173">Dosar fără nume</translation>
 <translation id="5345916423802287046">Pornește aplicația când te conectezi</translation>
 <translation id="5347920333985823270">Chrome susține un web gratuit</translation>
-<translation id="5350293332385664455">Dezactivează Asistentul Google</translation>
+<translation id="5350293332385664455">Dezactivează Asistentul Decentr</translation>
 <translation id="535123479159372765">Text copiat de pe alt dispozitiv</translation>
 <translation id="5352033265844765294">Marcare temporală</translation>
 <translation id="5352257124367865087">Gestionează permisiunile site-urilor</translation>
@@ -5974,7 +5974,7 @@ Poți atribui mai multe comutatoare acestei acțiuni.</translation>
 <translation id="5406844893187365798">Introducere flexibilă a textului</translation>
 <translation id="5407167491482639988">Neinteligibilă</translation>
 <translation id="5408750356094797285">Zoom: <ph name="PERCENT" /></translation>
-<translation id="5409044712155737325">Din Contul Google</translation>
+<translation id="5409044712155737325">Din Contul Decentr</translation>
 <translation id="5410889048775606433">Fucsia</translation>
 <translation id="5411022484772257615">Nu am putut finaliza înscrierea la școală</translation>
 <translation id="5411856344659127989">Dacă vrei să adaugi un cont pentru altcineva, <ph name="LINK_BEGIN" />adaugă o nouă persoană<ph name="LINK_END" /> pe <ph name="DEVICE_TYPE" />.
@@ -6129,7 +6129,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="5507756662695126555">Non-repudiere</translation>
 <translation id="5509693895992845810">Salvează c&amp;a...</translation>
 <translation id="5509914365760201064">Emitent: <ph name="CERTIFICATE_AUTHORITY" /></translation>
-<translation id="5510775624736435856">Descarcă descrierile imaginii de la Google</translation>
+<translation id="5510775624736435856">Descarcă descrierile imaginii de la Decentr</translation>
 <translation id="5511379779384092781">Foarte mică</translation>
 <translation id="5511823366942919280">Sigur dorești să configurezi acest dispozitiv drept „Rechin”?</translation>
 <translation id="5512739112435045339">Eliberează spațiu pe dispozitiv. Apoi încearcă din nou să descarci</translation>
@@ -6161,7 +6161,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="5533001281916885985"><ph name="SITE_NAME" /> dorește să</translation>
 <translation id="5533343601674003130">Serviciu PDF</translation>
 <translation id="5537725057119320332">Proiectează</translation>
-<translation id="5539070192556911367">Nu se poate accesa Google</translation>
+<translation id="5539070192556911367">Nu se poate accesa Decentr</translation>
 <translation id="5541694225089836610">Acțiunea este dezactivată de administrator</translation>
 <translation id="5542132724887566711">Profil</translation>
 <translation id="5542750926112347543">Cookie-urile de la <ph name="DOMAIN" /> au fost blocate</translation>
@@ -6326,7 +6326,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="565515993087783098">Dacă elimini această rețea, vei elimina și abonamentul Passpoint și rețelele asociate.</translation>
 <translation id="5655296450510165335">Înregistrarea dispozitivului</translation>
 <translation id="5655823808357523308">Ajustează modul în care se afișează culorile pe ecran</translation>
-<translation id="5656845498778518563">Trimite feedback la Google</translation>
+<translation id="5656845498778518563">Trimite feedback la Decentr</translation>
 <translation id="5657667036353380798">Extensia externă necesită instalarea versiunii Chrome <ph name="MINIMUM_CHROME_VERSION" /> sau a unei versiuni superioare.</translation>
 <translation id="565899488479822148">Se instalează cea mai recentă actualizare</translation>
 <translation id="5659593005791499971">Adresă de e-mail</translation>
@@ -6444,7 +6444,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="5759397201362801675">Alege o stare de spirit</translation>
 <translation id="5759728514498647443">Documentele pe care le trimiți prin <ph name="APP_NAME" /> pentru a fi printate pot fi citite de <ph name="APP_NAME" />.</translation>
 <translation id="5760318332127300368">Șterge și datele de navigare (<ph name="URL" />), acțiune care te poate deconecta de la Google.com. <ph name="LEARN_MORE" /></translation>
-<translation id="5762787084360227629">Introdu informații despre Contul Google</translation>
+<translation id="5762787084360227629">Introdu informații despre Contul Decentr</translation>
 <translation id="5763751966069581670">Nu s-au găsit dispozitive USB</translation>
 <translation id="5764483294734785780">Sal&amp;vează conținutul audio ca...</translation>
 <translation id="57646104491463491">Data modificării</translation>
@@ -6599,7 +6599,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="5864754048328252126">Măsura pentru inactivitate în timpul încărcării</translation>
 <translation id="5865508026715185451">Aplicația <ph name="APP_NAME" /> se va întrerupe în curând</translation>
 <translation id="586567932979200359">Rulează <ph name="PRODUCT_NAME" /> din imaginea sa de pe disc. Instalarea sa pe computer îți permite să îl rulezi fără imaginea de pe disc și asigură actualizarea acestuia.</translation>
-<translation id="5865733239029070421">Trimite automat statistici de utilizare și rapoarte de blocare la Google</translation>
+<translation id="5865733239029070421">Trimite automat statistici de utilizare și rapoarte de blocare la Decentr</translation>
 <translation id="5868434909835797817">Microfonul dispozitivului este dezactivat</translation>
 <translation id="5868479397518301468">Conectarea a expirat</translation>
 <translation id="5868822853313956582">Folosește culorile dispozitivului</translation>
@@ -6638,7 +6638,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="5896436821193322561">Nu permite</translation>
 <translation id="5899860758576822363">Redă la un volum redus când ChromeVox vorbește</translation>
 <translation id="5900243355162006650">Configurarea tetheringului:</translation>
-<translation id="5900302528761731119">Fotografie de profil Google</translation>
+<translation id="5900302528761731119">Fotografie de profil Decentr</translation>
 <translation id="590036993063074298">Detalii privind calitatea oglindirii</translation>
 <translation id="5901069264981746702">Datele privind amprentele sunt stocate în siguranță și nu părăsesc niciodată dispozitivul <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Află mai multe<ph name="LINK_END" /></translation>
 <translation id="5901089233978050985">Comută la capturarea filei</translation>
@@ -6857,7 +6857,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6071181508177083058">confirmă parola</translation>
 <translation id="6071576563962215370">Sistemul nu a blocat atributele necesare în momentul instalării dispozitivului.</translation>
 <translation id="6071938745001252305">Ai economisit <ph name="MEMORY_VALUE" /> de memorie</translation>
-<translation id="6071995715087444295">Pentru a verifica dacă există parole compromise, conectează-te la Contul Google</translation>
+<translation id="6071995715087444295">Pentru a verifica dacă există parole compromise, conectează-te la Contul Decentr</translation>
 <translation id="6072442788591997866"><ph name="APP_NAME" /> nu este permis pe acest dispozitiv. Contactează administratorul. Cod de eroare: <ph name="ERROR_CODE" />.</translation>
 <translation id="6073292342939316679">redu luminozitatea tastaturii</translation>
 <translation id="6073451960410192870">Oprește înregistrarea</translation>
@@ -6903,7 +6903,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6102043788063419338">Acest fișier a fost blocat de Protecția avansată.</translation>
 <translation id="6103681770816982672">Avertisment: comutați la canalul pentru dezvoltatori</translation>
 <translation id="610395411842312282">Grupează două ferestre cu afișare alăturată</translation>
-<translation id="6104068876731806426">Conturi Google</translation>
+<translation id="6104068876731806426">Conturi Decentr</translation>
 <translation id="6104667115274478616">Gestionează setările audio pentru ChromeOS</translation>
 <translation id="6104796831253957966">Coada imprimantei este plină</translation>
 <translation id="610487644502954950">S-a anulat fixarea panoului lateral</translation>
@@ -6911,7 +6911,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6106167152849320869">Dacă la pasul anterior ai ales și să trimiți date de diagnosticare și de utilizare, aceste date vor fi colectate pentru aplicațiile instalate.</translation>
 <translation id="6108952804512516814">Creează cu AI</translation>
 <translation id="6111718295497931251">Elimină accesul la Google Drive</translation>
-<translation id="6111972606040028426">Activează Asistentul Google</translation>
+<translation id="6111972606040028426">Activează Asistentul Decentr</translation>
 <translation id="6112727384379533756">Adaugă un tichet</translation>
 <translation id="6112931163620622315">Verifică pe telefon</translation>
 <translation id="6113434369102685411">Setează motorul de căutare prestabilit pentru browserul Chrome și lansatorul pentru <ph name="DEVICE_TYPE" /></translation>
@@ -7100,7 +7100,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6244245036423700521">Importă fișierul ONC</translation>
 <translation id="6245523954602476652">Îl poți accesa în Managerul de parole Google.</translation>
 <translation id="6246790815526961700">Încarcă de pe dispozitiv</translation>
-<translation id="6247557882553405851">Manager de parole Google</translation>
+<translation id="6247557882553405851">Manager de parole Decentr</translation>
 <translation id="6247620186971210352">Nu s-au găsit aplicații</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE" /> %</translation>
 <translation id="6247802389331535091">Sistem: <ph name="ARC_PROCESS_NAME" /></translation>
@@ -7311,7 +7311,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6415900369006735853">Conectează-te la internet folosind telefonul</translation>
 <translation id="6416743254476733475">Permite sau blochează pe computer.</translation>
 <translation id="6416856063840710198">Pentru a-ți îmbunătăți vizita, site-urile îți salvează adesea activitatea pe dispozitiv. <ph name="SETTINGS" /></translation>
-<translation id="6417265370957905582">Asistent Google</translation>
+<translation id="6417265370957905582">Asistent Decentr</translation>
 <translation id="6417468503703810114">Comportament prestabilit</translation>
 <translation id="6418160186546245112">Se revine la versiunea <ph name="IDS_SHORT_PRODUCT_NAME" /> instalată anterior</translation>
 <translation id="641817663353603351">o pagină mai sus</translation>
@@ -7439,7 +7439,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
         <ph name="FILE_INFO" />
         <ph name="EVENT_NAME" /></translation>
 <translation id="6519689855001245063">Se verifică eligibilitatea</translation>
-<translation id="6520087076882753524">Poți să vezi și să gestionezi parolele salvate în Manager de parole Google</translation>
+<translation id="6520087076882753524">Poți să vezi și să gestionezi parolele salvate în Manager de parole Decentr</translation>
 <translation id="6520876759015997832">Rezultatul căutării <ph name="LIST_POSITION" /> din <ph name="LIST_SIZE" />: <ph name="SEARCH_RESULT_TEXT" />. Apasă pe Enter pentru a naviga la secțiune.</translation>
 <translation id="6521214596282732365">Site-urile folosesc de obicei fonturile tale ca să poți crea conținut de înaltă fidelitate cu instrumente online de design și grafică</translation>
 <translation id="6523574494641144162">Managerul de parole Google nu a putut salva parolele în Contul Google. Le poți salva pe acest dispozitiv.</translation>
@@ -7479,7 +7479,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="6547854317475115430"><ph name="BEGIN_PARAGRAPH1" />Serviciul de localizare Google folosește surse precum rețelele Wi-Fi, rețelele mobile și senzorii pentru a estima locația dispozitivului.<ph name="END_PARAGRAPH1" />
     <ph name="BEGIN_PARAGRAPH2" />Poți dezactiva oricând locația Android pe acest dispozitiv accesând Setări &gt; Aplicații &gt; Magazin Google Play &gt; Gestionează preferințele Android &gt; Securitate și locație &gt; Locație. În plus, poți dezactiva folosirea conexiunii Wi-Fi, a rețelelor mobile și a senzorilor pentru locația Android dezactivând „Precizia locației în Google” în același meniu.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="654871471440386944">Activezi navigarea cu tastatura?</translation>
-<translation id="6548945820758901244">Deschide panoul lateral Căutare Google</translation>
+<translation id="6548945820758901244">Deschide panoul lateral Căutare Decentr</translation>
 <translation id="6549038875972762904">Repetă configurarea</translation>
 <translation id="6550675742724504774">Opțiuni</translation>
 <translation id="6550790536557204077"><ph name="BEGIN_LINK" />Profilul este gestionat<ph name="END_LINK" /> de <ph name="MANAGER" /></translation>
@@ -7663,7 +7663,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="6686490380836145850">Închide filele de la dreapta</translation>
 <translation id="6686665106869989887">Fila a fost mutată spre dreapta</translation>
 <translation id="6686817083349815241">Salvați parola</translation>
-<translation id="6687008241368170505">Schimbă codul PIN pentru Managerul de parole Google</translation>
+<translation id="6687008241368170505">Schimbă codul PIN pentru Managerul de parole Decentr</translation>
 <translation id="6687079240787935001">Ascunde <ph name="MODULE_TITLE" /></translation>
 <translation id="6689714331348768690">Solicită-i lui <ph name="SUPERVISED_USER_NAME" /> să vină la computer. Copilul tău va citi câteva expresii de pe acest ecran pentru crearea propriului model vocal.
     <ph name="BR" />
@@ -7752,7 +7752,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="6762861159308991328">Poți schimba modul în care se deschid linkurile din setările aplicației</translation>
 <translation id="6764633064754857889">Link de previzualizare</translation>
 <translation id="676560328519657314">Metodele tale de plată din Google Pay</translation>
-<translation id="6766488013065406604">Accesează Managerul de parole Google</translation>
+<translation id="6766488013065406604">Accesează Managerul de parole Decentr</translation>
 <translation id="6767566652486411142">Alege altă limbă...</translation>
 <translation id="6768034047581882264">Nu au permisiunea de a afișa conținut nesigur</translation>
 <translation id="6769902329858794251"><ph name="BEGIN_PARAGRAPH1" />Pentru a asigura o experiență optimă, <ph name="DEVICE_OS" /> colectează date despre hardware de la dispozitive și le trimite la Google pentru a stabili ce actualizări vor fi livrate. Opțional, poți permite ca Google să folosească aceste date și în alte scopuri, cum ar fi asistență și îmbunătățiri ale experienței și serviciului <ph name="DEVICE_OS" />.<ph name="END_PARAGRAPH1" />
@@ -7820,7 +7820,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="6805647936811177813">Conectează-te la <ph name="TOKEN_NAME" /> pentru a importa certificatul client din <ph name="HOST_NAME" />.</translation>
 <translation id="680572642341004180">Activați urmărirea RLZ pentru <ph name="SHORT_PRODUCT_OS_NAME" />.</translation>
 <translation id="6806089545527108739">Nu permite, dar întreabă mai târziu</translation>
-<translation id="680644983456221885">Protecție proactivă în timp real împotriva site-urilor, descărcărilor și extensiilor periculoase, pe baza datelor de navigare trimise la Google</translation>
+<translation id="680644983456221885">Protecție proactivă în timp real împotriva site-urilor, descărcărilor și extensiilor periculoase, pe baza datelor de navigare trimise la Decentr</translation>
 <translation id="6808039367995747522">Ca să continui, introdu și atinge cheia de securitate</translation>
 <translation id="6808166974213191158">Instrument de scriere a imaginilor de sistem pentru sistemul de operare Chrome Flex</translation>
 <translation id="6808193438228982088">Vulpe</translation>
@@ -7866,13 +7866,13 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="6828182567531805778">Introdu expresia de acces pentru a sincroniza datele</translation>
 <translation id="682871081149631693">QuickFix</translation>
 <translation id="6828860976882136098">Actualizările automate nu au putut fi configurate pentru toți utilizatorii (eroare la executarea testării pe dispozitiv: <ph name="ERROR_NUMBER" />)</translation>
-<translation id="682971198310367122">Politica de confidențialitate Google</translation>
+<translation id="682971198310367122">Politica de confidențialitate Decentr</translation>
 <translation id="6831043979455480757">Tradu</translation>
 <translation id="6832218595502288407">Aliniază la stânga</translation>
 <translation id="6833479554815567477">Fila a fost eliminată din grupul <ph name="GROUP_NAME" /> – <ph name="GROUP_CONTENTS" /></translation>
 <translation id="6833753236242482566">Echilibrată (recomandat)</translation>
 <translation id="6835762382653651563">Accesează internetul pentru a actualiza dispozitivul <ph name="DEVICE_TYPE" />.</translation>
-<translation id="683630338945552556">Folosește și salvează parole în Contul Google</translation>
+<translation id="683630338945552556">Folosește și salvează parole în Contul Decentr</translation>
 <translation id="6839225236531462745">Eroare de ștergere a certificatului</translation>
 <translation id="6839916869147598086">Conectarea a fost schimbată</translation>
 <translation id="6840155290835956714">Întreabă înainte de a trimite</translation>
@@ -7991,7 +7991,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="6925127338315966709">Adaugi un profil gestionat în acest browser. Administratorul deține controlul asupra profilului și poate accesa datele asociate. Marcajele, istoricul, parolele și alte setări pot fi sincronizate cu contul tău și gestionate de administrator.</translation>
 <translation id="6928650056523249512">Eliminarea automată a permisiunilor de pe site-urile nefolosite</translation>
 <translation id="6929126689972602640">Controlul parental nu este acceptat pentru conturile de la școală. Ca să adaugi un cont de la școală cu care să accesezi Google Classroom și alte site-uri pentru teme pentru acasă, mai întâi conectează-te cu contul personal al copilului. Poți adăuga contul de la școală mai târziu în timpul configurării.</translation>
-<translation id="6929760895658557216">Ok Google</translation>
+<translation id="6929760895658557216">Ok Decentr</translation>
 <translation id="6930161297841867798">{NUM_EXTENSIONS,plural, =1{O extensie a fost respinsă}few{# extensii au fost respinse}other{# de extensii au fost respinse}}</translation>
 <translation id="6931690462168617033">Sensibilitatea la clic</translation>
 <translation id="6933321725007230600">Activează &amp;sincronizarea...</translation>
@@ -8073,7 +8073,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="6985607387932385770">Imprimante</translation>
 <translation id="6988094684494323731">Se pornește containerul Linux</translation>
 <translation id="6988403677482707277">Fila a fost mutată la începutul barei cu file</translation>
-<translation id="6988572888918530647">Gestionează-ți Contul Google</translation>
+<translation id="6988572888918530647">Gestionează-ți Contul Decentr</translation>
 <translation id="6989274756151920076">Rămâi aici</translation>
 <translation id="6991665348624301627">Selectați o destinație</translation>
 <translation id="6991926986715044139">Afișează întotdeauna comanda rapidă Google Lens</translation>
@@ -8318,7 +8318,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="718512729823942418">Niciun microfon disponibil</translation>
 <translation id="7186088072322679094">Păstrează în bara de instrumente</translation>
 <translation id="7186303001964993981"><ph name="ORIGIN" /> nu poate deschide acest dosar, deoarece conține fișiere de sistem</translation>
-<translation id="7186568385131859684">Alege modul în care se folosește istoricul de navigare împreună cu celelalte date ale tale din serviciile Google</translation>
+<translation id="7186568385131859684">Alege modul în care se folosește istoricul de navigare împreună cu celelalte date ale tale din serviciile Decentr</translation>
 <translation id="7188508872042490670">Date privind site-urile pe dispozitiv</translation>
 <translation id="7189234443051076392">Asigură-te că există spațiu suficient pe dispozitiv</translation>
 <translation id="7189451821249468368">Nu deții suficiente upgrade-uri pentru a înscrie acest dispozitiv. Contactează departamentul de vânzări pentru a achiziționa upgrade-uri suplimentare. În cazul în care consideri că acest mesaj este afișat din greșeală, contactează serviciul de asistență.</translation>
@@ -8661,7 +8661,7 @@ Mai ai # de parole compromise. Managerul de parole Google recomandă să verific
 <translation id="7441830548568730290">Alți utilizatori</translation>
 <translation id="744341768939279100">Creați un profil nou</translation>
 <translation id="744366959743242014">Se încarcă datele. Procesul poate dura câteva secunde.</translation>
-<translation id="7443806024147773267">Accesează-ți parolele oricând te conectezi la Contul Google</translation>
+<translation id="7443806024147773267">Accesează-ți parolele oricând te conectezi la Contul Decentr</translation>
 <translation id="7444176988908839653">{COUNT,plural, =0{Cookie-urile vor fi blocate din nou astăzi}=1{Cookie-urile vor fi blocate din nou mâine}few{# zile până când cookie-urile vor fi blocate din nou}other{# de zile până când cookie-urile vor fi blocate din nou}}</translation>
 <translation id="7444970023873202833">Explorează mai multe amintiri în Google Foto</translation>
 <translation id="7444983668544353857">Dezactivează <ph name="NETWORKDEVICE" /></translation>
@@ -9097,7 +9097,7 @@ Apasă un comutator sau o tastă atribuită pentru a elimina atribuirea</transla
 <translation id="7764225426217299476">Adaugă o adresă</translation>
 <translation id="7764256770584298012"><ph name="DOWNLOAD_RECEIVED" /> de la <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="7764527477537408401">Deschide grupul într-o fereastră nouă</translation>
-<translation id="7764909446494215916">Gestionează-ți Contul &amp;Google</translation>
+<translation id="7764909446494215916">Gestionează-ți Contul &amp;Decentr</translation>
 <translation id="7765158879357617694">Mută</translation>
 <translation id="7765507180157272835">Necesită Bluetooth și Wi-Fi</translation>
 <translation id="7766082757934713382">Reduce utilizarea datelor din rețea prin întreruperea actualizărilor automate ale aplicațiilor și sistemului</translation>
@@ -9129,7 +9129,7 @@ Apasă un comutator sau o tastă atribuită pentru a elimina atribuirea</transla
 <translation id="7777624210360383048">Comanda rapidă <ph name="SHORTCUT" /> pentru <ph name="EXTENSION_NAME" /></translation>
 <translation id="7779840061887151693">ecran</translation>
 <translation id="7781335840981796660">Toate conturile de utilizator și datele locale vor fi eliminate.</translation>
-<translation id="7782102568078991263">Nu mai există sugestii de la Google</translation>
+<translation id="7782102568078991263">Nu mai există sugestii de la Decentr</translation>
 <translation id="7782717250816686129">Stochează datele persistente pe ecranul de conectare și introdu datele de conectare în sesiune.</translation>
 <translation id="778330624322499012"><ph name="PLUGIN_NAME" /> nu s-a putut încărca</translation>
 <translation id="7784067724422331729">Setările de securitate de pe computer au blocat acest fișier.</translation>
@@ -9245,7 +9245,7 @@ Apasă un comutator sau o tastă atribuită pentru a elimina atribuirea</transla
 <translation id="7859560813397128941">Elimină extensia <ph name="EXTENSION_NAME" /></translation>
 <translation id="786073089922909430">Serviciu: <ph name="ARC_PROCESS_NAME" /></translation>
 <translation id="7861215335140947162">&amp;Descărcări</translation>
-<translation id="7861846108263890455">Limba Contului Google</translation>
+<translation id="7861846108263890455">Limba Contului Decentr</translation>
 <translation id="7864114920800968141">În <ph name="NUM_MIN" /> min.</translation>
 <translation id="7864539943188674973">Dezactivați Bluetooth</translation>
 <translation id="7864825798076155402">Salvezi în Contul Google?</translation>
@@ -9497,7 +9497,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8041089156583427627">Trimiteți feedback</translation>
 <translation id="8041267120753677077">Redă în stream aplicațiile telefonului</translation>
 <translation id="8042142357103597104">Opacitatea textului</translation>
-<translation id="8042331986490021244">Parolele tale sunt criptate pe dispozitiv înainte să se salveze în Managerul de parole Google</translation>
+<translation id="8042331986490021244">Parolele tale sunt criptate pe dispozitiv înainte să se salveze în Managerul de parole Decentr</translation>
 <translation id="8044262338717486897"><ph name="LINUX_APP_NAME" /> nu răspunde.</translation>
 <translation id="8044899503464538266">Lent</translation>
 <translation id="8045253504249021590">Sincronizarea a fost oprită prin Tabloul de bord Google.</translation>
@@ -9554,7 +9554,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="80790299200510644">Căutare de imagini</translation>
 <translation id="80798452873915119">Site-urile pot solicita permisiunea de a gestiona ferestre pe toate ecranele</translation>
 <translation id="8080028325999236607">Închide filele</translation>
-<translation id="808089508890593134">Google</translation>
+<translation id="808089508890593134">Decentr</translation>
 <translation id="8081623398548615289">Sesiunea este gestionată de <ph name="MANAGER_NAME" />. Administratorii pot să-ți șteargă profilul și să monitorizeze traficul de rețea.</translation>
 <translation id="8081989000209387414">Dezactivezi remedierea erorilor prin ADB?</translation>
 <translation id="8082106343289440791">Asociezi cu „<ph name="DEVICE_NAME" />”?</translation>
@@ -9569,7 +9569,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8086610718778464681">Nu se poate face backup pentru aplicațiile și fișierele Linux</translation>
 <translation id="80866457114322936">{NUM_FILES,plural, =1{Fișierul este criptat. Solicită-i proprietarului să îl decripteze.}few{Unele dintre aceste fișiere sunt criptate. Solicită-i proprietarului să le decripteze.}other{Unele dintre aceste fișiere sunt criptate. Solicită-i proprietarului să le decripteze.}}</translation>
 <translation id="808894953321890993">Schimbă parola</translation>
-<translation id="8089547136368562137">Este protejată de cele mai bune tehnologii Google</translation>
+<translation id="8089547136368562137">Este protejată de cele mai bune tehnologii Decentr</translation>
 <translation id="8090234456044969073">Citește o listă a site-urilor vizitate cel mai frecvent</translation>
 <translation id="8090513782447872344">Poți reveni oricând pentru a consulta din nou informațiile</translation>
 <translation id="8090579562279016251">Reduce performanța, dar face motorul V8 mai rezistent la atacuri</translation>
@@ -9704,7 +9704,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8186609076106987817">Serverul nu a putut găsi fișierul.</translation>
 <translation id="8188389033983459049">Verifică setările dispozitivului și activează-l pentru a continua</translation>
 <translation id="8188742492803591566">Introdu codul de acces afișat pe Chromecast sau pe televizor pentru a începe să proiectezi ecranul.</translation>
-<translation id="8189257540098107776">Nu se poate accesa Managerul de parole Google</translation>
+<translation id="8189257540098107776">Nu se poate accesa Managerul de parole Decentr</translation>
 <translation id="8189306097519446565">Conturi de la școală</translation>
 <translation id="8189750580333936930">Privacy Sandbox</translation>
 <translation id="8191230140820435481">Gestionează aplicațiile, extensiile și temele dvs.</translation>
@@ -9857,7 +9857,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8295450130892483256">Instalează Microsoft 365</translation>
 <translation id="8297292446125062288">Setări pentru HID</translation>
 <translation id="8298429963694909221">Acum poți primi notificări de pe telefon pe dispozitivul <ph name="DEVICE_TYPE" />. Dacă închizi notificările pe <ph name="DEVICE_TYPE" />, le vei închide și pe telefon. Asigură-te că telefonul este în apropiere, cu Bluetooth și Wi-Fi activate.</translation>
-<translation id="829923460755755423">Adaugă o comandă rapidă către Managerul de parole Google</translation>
+<translation id="829923460755755423">Adaugă o comandă rapidă către Managerul de parole Decentr</translation>
 <translation id="8299319456683969623">În prezent, sunteți în modul offline.</translation>
 <translation id="829937697336000302">Crește-ți productivitatea</translation>
 <translation id="8299951061833867575">Wi-Fi, date mobile</translation>
@@ -9940,7 +9940,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8357388086258943206">A apărut o eroare la instalarea Linux</translation>
 <translation id="8358685469073206162">Restabiliți paginile?</translation>
 <translation id="8358912028636606457">Proiecția conținutului audio din filă nu este acceptată pe acest dispozitiv.</translation>
-<translation id="835951711479681002">Salvează în Contul Google</translation>
+<translation id="835951711479681002">Salvează în Contul Decentr</translation>
 <translation id="8360140320636871023">Personalizează tema ecranului</translation>
 <translation id="8360267485906769442">Butonul Trimite feedback</translation>
 <translation id="8362914115861174987">Tradu în</translation>
@@ -9962,7 +9962,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8376451933628734023">Dacă aplicația web încearcă să te facă să crezi că este o altă aplicație, dezinstaleaz-o.</translation>
 <translation id="8376532149031784008">Se reîncarcă <ph name="DOMAIN" />...</translation>
 <translation id="8376610503048439696">Extensiile instalate de administrator pot în continuare să citească și să modifice acest site</translation>
-<translation id="8376752431516546391">Panoul lateral Căutare Google</translation>
+<translation id="8376752431516546391">Panoul lateral Căutare Decentr</translation>
 <translation id="8377625247046155446">Cheia de acces va fi salvată numai pe acest dispozitiv. Va rămâne pe acest dispozitiv după ce închizi toate ferestrele incognito.</translation>
 <translation id="8378714024927312812">Gestionat de organizația ta</translation>
 <translation id="8379988659465232385">Numele trebuie completat</translation>
@@ -10156,7 +10156,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8523493869875972733">Păstrează modificările</translation>
 <translation id="8523849605371521713">Adăugată de politică</translation>
 <translation id="8524594273111932386">tasta de căutare + săgeată în jos</translation>
-<translation id="8524783101666974011">Salvează carduri în Contul tău Google</translation>
+<translation id="8524783101666974011">Salvează carduri în Contul tău Decentr</translation>
 <translation id="8524817717332153865">Camera foto și microfonul sunt dezactivate în Setările de sistem pentru Mac</translation>
 <translation id="8524841856047224176">Personalizează fundalurile camerei pentru apeluri video și altele</translation>
 <translation id="8525306231823319788">Ecran complet</translation>
@@ -10205,7 +10205,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8557100046150195444">Folosește Touch ID pentru a continua</translation>
 <translation id="8557180006508471423">Activează Decentr în Servicii de localizare pe Mac</translation>
 <translation id="8557856025359704738">Următoarea descărcare este pe <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
-<translation id="8558281414737757274">Parola Contului Google</translation>
+<translation id="8558281414737757274">Parola Contului Decentr</translation>
 <translation id="8559858985063901027">Cheile de acces</translation>
 <translation id="8559961053328923750">Chrome limitează volumul total de date pe care site-urile îl pot trimite prin browser pentru a cuantifica performanța anunțurilor</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Deschide-le pe toate într-o fereastră &amp;nouă}=1{Deschide într-o fereastră &amp;nouă}few{Deschide-le pe toate ({COUNT}) într-o fereastră &amp;nouă}other{Deschide-le pe toate ({COUNT}) într-o fereastră &amp;nouă}}</translation>
@@ -10459,7 +10459,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8737914367566358838">Alege limba în care vrei să traduci pagina</translation>
 <translation id="8737966899544698733">Precizia locației (numai pentru Android)</translation>
 <translation id="8738418093147087440">Caută după țară, limbă sau numele metodei de introducere a textului</translation>
-<translation id="8740086188450289493">Folosește parola Contului Google</translation>
+<translation id="8740086188450289493">Folosește parola Contului Decentr</translation>
 <translation id="8740247629089392745">Poți să îi dai Chromebookul utilizatorului <ph name="SUPERVISED_USER_NAME" />. Configurarea este aproape gata, apoi conținutul va putea fi explorat.</translation>
 <translation id="8740672167979365981">Este necesară actualizarea sistemului de operare Chrome Flex</translation>
 <translation id="8741944563400125534">Ghid de configurare pentru acces prin comutare</translation>
@@ -10513,7 +10513,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8777628254805677039">parola directorului rădăcină</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8779944680596936487">Site-urile pot folosi cookie-uri numai pentru a-ți vedea activitatea de navigare pe site-ul respectiv</translation>
-<translation id="8780123805589053431">Descarcă descrierile imaginii de la Google</translation>
+<translation id="8780123805589053431">Descarcă descrierile imaginii de la Decentr</translation>
 <translation id="8780443667474968681">Căutarea vocală a fost dezactivată.</translation>
 <translation id="8781834595282316166">Filă nouă în grup</translation>
 <translation id="8781980678064919987">Când capacul este închis: oprire</translation>
@@ -10690,7 +10690,7 @@ Păstrează fișierul cu cheia într-un loc sigur. Acesta va fi necesar la crear
 <translation id="8909833622202089127">Site-ul îți urmărește locația</translation>
 <translation id="8910222113987937043">Modificările marcajelor, istoricului, parolelor sau ale altor setări nu vor mai fi sincronizate cu Contul Google. Totuși, datele existente vor rămâne stocate în Contul Google și pot fi gestionate din <ph name="BEGIN_LINK" />Tabloul de bord Google<ph name="END_LINK" />.</translation>
 <translation id="8910987510378294980">Ascunde lista de dispozitive</translation>
-<translation id="8912362522468806198">Contul Google</translation>
+<translation id="8912362522468806198">Contul Decentr</translation>
 <translation id="8912810933860534797">Activează scanarea automată</translation>
 <translation id="8914504000324227558">Relansați Chrome</translation>
 <translation id="8915307125957890427">Dă clic dreapta pe o filă și selectează Adaugă fila într-un grup, apoi selectează Grup nou</translation>
@@ -11078,7 +11078,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="9180380851667544951">Site-ul poate permite accesul la ecranul tău</translation>
 <translation id="9180847522826713506">Pentru a vedea parola sau pentru a adăuga o notă despre ea, dă clic pe pictograma cheie</translation>
 <translation id="9182556968660520230">Nu permite site-urilor să redea conținut protejat</translation>
-<translation id="9183302530794969518">Documente Google</translation>
+<translation id="9183302530794969518">Documente Decentr</translation>
 <translation id="918352324374649435">{COUNT,plural, =1{Aplicație}few{# aplicații}other{# de aplicații}}</translation>
 <translation id="9186963452600581158">Conectează-te cu Contul Google al unui copil</translation>
 <translation id="9187967020623675250">Tastele nu corespund. Apasă pe orice tastă pentru <ph name="RESPONSE" />.</translation>

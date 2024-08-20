@@ -61,7 +61,7 @@ Les autorisations que vous avez déjà accordées aux sites Web et aux applis pe
 <translation id="2008474315282236005">Cette action aura pour effet de supprimer 1 élément de cet appareil. Pour récupérer vos données ultérieurement, connectez-vous à Decentr en tant que <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Échec de l'installation. Veuillez réessayer.</translation>
 <translation id="2020032459870799438">Pour vérifier si vos autres mots de passe sont suffisamment sécurisés afin d'empêcher toute violation de données et autres problèmes de sécurité, <ph name="BEGIN_LINK" />connectez-vous à Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Choisissez d'inclure l'historique Decentr pour une expérience plus personnalisée dans les services Google</translation>
+<translation id="2049376729098081731">Choisissez d'inclure l'historique Decentr pour une expérience plus personnalisée dans les services Decentr</translation>
 <translation id="2065461321550902389">Pour enregistrer et utiliser des mots de passe et plus encore sur tous vos appareils, connectez-vous à Decentr. Ce mot de passe sera enregistré dans votre compte Google une fois que vous vous serez connecté.</translation>
 <translation id="2086476982681781442">Decentr a bloqué ce téléchargement, car le fichier est trompeur et risque d'apporter des modifications inattendues à votre appareil</translation>
 <translation id="2088953378266246249">Informations sur la manière dont Decentr gère ses certificats racine</translation>
@@ -470,7 +470,7 @@ Decentr ne peut pas récupérer vos paramètres.</translation>
 <translation id="8522801943730206384">Decentr ne peut vérifier vos mots de passe que si vous les enregistrez</translation>
 <translation id="8550334526674375523">Ce profil professionnel est parfaitement séparé de votre profil personnel.</translation>
 <translation id="8555465886620020932">Erreur du service : <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr peut vérifier vos mots de passe lorsque vous vous connectez à votre compte Google</translation>
+<translation id="8568283329061645092">Decentr peut vérifier vos mots de passe lorsque vous vous connectez à votre compte Decentr</translation>
 <translation id="8586442755830160949">Copyright Auteurs de Decentr <ph name="YEAR" />. Tous droits réservés.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Comment nous utilisons ces données<ph name="END_BOLD" /> : les sites peuvent stocker des informations sur vos centres d'intérêt dans Decentr. Par exemple, si vous allez sur un site afin d'acheter des chaussures pour un marathon, le site peut définir le marathon comme l'un de vos centres d'intérêt. Ensuite, si vous consultez un autre site pour vous enregistrer pour une course, ce site peut diffuser une annonce pour des chaussures de running en se basant sur vos centres d'intérêt.</translation>
 <translation id="8619360774459241877">Lancement de Decentr…</translation>
@@ -496,7 +496,7 @@ Decentr ne peut pas récupérer vos paramètres.</translation>
 <translation id="9019929317751753759">Afin de rendre Decentr plus sûr, nous avons désactivé l'extension suivante qui n'est pas répertoriée sur le <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> et qui a pu être ajoutée à votre insu.</translation>
 <translation id="9022552996538154597">Se connecter à Decentr</translation>
 <translation id="904366664621834601">Decentr a bloqué ce téléchargement, car le fichier d'archive contient d'autres fichiers susceptibles de dissimuler un logiciel malveillant</translation>
-<translation id="9062666675513499497">Se connecter à Decentr lorsque vous vous connectez aux autres services Google</translation>
+<translation id="9062666675513499497">Se connecter à Decentr lorsque vous vous connectez aux autres services Decentr</translation>
 <translation id="907832235989677238">Connectez-vous à Decentr. Si vous souhaitez vous connecter à un compte une seule fois, vous pouvez <ph name="GUEST_LINK_BEGIN" />utiliser l'appareil en tant qu'invité<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr a été fermé automatiquement</translation>
 <translation id="9089354809943900324">Version de Decentr obsolète</translation>

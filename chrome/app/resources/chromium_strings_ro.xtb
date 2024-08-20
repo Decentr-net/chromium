@@ -60,7 +60,7 @@ Permisiunile pe care le-ai acordat deja site-urilor și aplicațiilor se pot apl
 <translation id="2008474315282236005">Astfel, se va șterge 1 element de pe acest dispozitiv. Pentru a recupera datele mai târziu, conectează-te la Decentr ca <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Nu s-a instalat. Încearcă din nou.</translation>
 <translation id="2020032459870799438">Ca să verifici dacă celelalte parole sunt protejate împotriva încălcării securității datelor și a altor probleme de securitate, <ph name="BEGIN_LINK" />conectează-te la Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Alege dacă se include istoricul Decentr pentru experiențe mai personalizate în serviciile Google</translation>
+<translation id="2049376729098081731">Alege dacă se include istoricul Decentr pentru experiențe mai personalizate în serviciile Decentr</translation>
 <translation id="2065461321550902389">Pentru a salva și a folosi parolele și altele pe toate dispozitivele, conectează-te la Decentr. Parola se va salva în Contul Google după ce te conectezi.</translation>
 <translation id="2086476982681781442">Decentr a blocat descărcarea, deoarece fișierul este înșelător și poate face modificări neașteptate pe dispozitiv</translation>
 <translation id="2088953378266246249">Informații despre modul în care Decentr gestionează certificatele rădăcină</translation>
@@ -468,7 +468,7 @@ Decentr nu poate recupera setările.</translation>
 <translation id="8522801943730206384">Decentr îți poate verifica parolele dacă le salvezi</translation>
 <translation id="8550334526674375523">Acest profil de serviciu este complet separat de profilul tău personal.</translation>
 <translation id="8555465886620020932">Eroare de serviciu: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr poate să îți verifice parolele atunci când te conectezi folosind Contul Google</translation>
+<translation id="8568283329061645092">Decentr poate să îți verifice parolele atunci când te conectezi folosind Contul Decentr</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> The Decentr Authors. Toate drepturile rezervate.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Cum folosim aceste date:<ph name="END_BOLD" /> site-urile pot stoca informații în Decentr despre interesele tale. De exemplu, dacă accesezi un site ca să cumperi pantofi pentru un maraton, site-ul poate defini interesul tău drept maraton. Mai târziu, dacă accesezi alt site ca să te înscrii într-o cursă, acel site îți poate afișa un anunț pentru pantofi de alergare pe baza intereselor tale.</translation>
 <translation id="8619360774459241877">Se lansează Decentr...</translation>
@@ -494,7 +494,7 @@ Decentr nu poate recupera setările.</translation>
 <translation id="9019929317751753759">Pentru mai multă siguranță în Decentr, am dezactivat următoarea extensie care nu este inclusă în <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> și care este posibil să fi fost adăugată fără știrea ta.</translation>
 <translation id="9022552996538154597">Conectați-vă la Decentr</translation>
 <translation id="904366664621834601">Decentr a blocat descărcarea deoarece fișierul arhivă include alte fișiere care pot ascunde programe malware</translation>
-<translation id="9062666675513499497">Conectează-te la Decentr când te conectezi la alte servicii Google</translation>
+<translation id="9062666675513499497">Conectează-te la Decentr când te conectezi la alte servicii Decentr</translation>
 <translation id="907832235989677238">Conectează-te la Decentr. Dacă vrei să te conectezi o singură dată la un cont, poți să <ph name="GUEST_LINK_BEGIN" />folosești dispozitivul ca invitat<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr s-a închis automat</translation>
 <translation id="9089354809943900324">Decentr nu este actualizat</translation>

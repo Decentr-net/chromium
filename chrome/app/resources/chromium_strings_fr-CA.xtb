@@ -347,7 +347,7 @@ Les autorisations que vous avez déjà accordées à des sites Web et à des app
 <translation id="6542839706527980775">Chaque profil Decentr contient ses propres données, comme les favoris, l'historique, les mots de passe, etc.</translation>
 <translation id="6563921047760808519">En savoir plus sur la <ph name="BEGIN_LINK" />manière dont Decentr préserve la confidentialité de vos données<ph name="END_LINK" /></translation>
 <translation id="656935081669708576">Vous pouvez passer à un autre profil Decentr pour voir les mots de passe</translation>
-<translation id="6570579332384693436">Pour corriger les fautes d'orthographe, Decentr envoie le texte que vous entrez dans des zones de texte à Google</translation>
+<translation id="6570579332384693436">Pour corriger les fautes d'orthographe, Decentr envoie le texte que vous entrez dans des zones de texte à Decentr</translation>
 <translation id="6598877126913850652">Accéder aux paramètres de notification Decentr</translation>
 <translation id="6613594504749178791">Vos modifications seront prises en compte au prochain redémarrage de Decentr.</translation>
 <translation id="665732753414869868">Decentr requiert l'autorisation d'accéder à l'appareil photo pour créer une carte 3D de votre environnement</translation>
@@ -470,7 +470,7 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="8522801943730206384">Decentr peut vérifier vos mots de passe lorsque vous les enregistrez</translation>
 <translation id="8550334526674375523">Ce profil professionnel est distinct de votre profil personnel.</translation>
 <translation id="8555465886620020932">Erreur liée au service : <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr peut vérifier vos mots de passe lorsque vous vous connectez avec votre compte Google</translation>
+<translation id="8568283329061645092">Decentr peut vérifier vos mots de passe lorsque vous vous connectez avec votre compte Decentr</translation>
 <translation id="8586442755830160949">© <ph name="YEAR" /> Les auteurs de Chrome. Tous droits réservés.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Comment nous utilisons ces données :<ph name="END_BOLD" /> les sites peuvent stocker des renseignements sur vos centres d'intérêt dans Decentr. Par exemple, si vous visitez un site pour acheter des chaussures pour un marathon, le site pourrait définir votre centre d'intérêt comme la course de marathons. Ultérieurement, si vous visitez un autre site pour vous inscrire à une course, celui-ci peut vous montrer une annonce pour des chaussures de course en fonction de vos centres d'intérêt.</translation>
 <translation id="8619360774459241877">Lancement de Decentr en cours…</translation>
@@ -496,7 +496,7 @@ Decentr est incapable de récupérer vos paramètres.</translation>
 <translation id="9019929317751753759">Afin de rendre Decentr plus sûr, nous avons désactivé l'extension suivante qui n'est pas répertoriée dans <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> et a pu être ajoutée à votre insu.</translation>
 <translation id="9022552996538154597">Connexion à Decentr</translation>
 <translation id="904366664621834601">Decentr a bloqué ce téléchargement, car le fichier d'archive comprend d'autres fichiers qui pourraient cacher des logiciels malveillants</translation>
-<translation id="9062666675513499497">Vous connecter à Decentr lorsque vous vous connectez à d'autres services Google</translation>
+<translation id="9062666675513499497">Vous connecter à Decentr lorsque vous vous connectez à d'autres services Decentr</translation>
 <translation id="907832235989677238">Connectez-vous à Decentr. Si vous ne souhaitez vous connecter qu'une seule fois à un compte, vous pouvez <ph name="GUEST_LINK_BEGIN" />utiliser l'appareil en tant qu'invité<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr a été automatiquement fermé</translation>
 <translation id="9089354809943900324">Decentr n'est pas à jour</translation>

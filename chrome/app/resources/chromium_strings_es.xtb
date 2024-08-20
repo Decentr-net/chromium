@@ -62,7 +62,7 @@ Los permisos que hayas dado a sitios web y aplicaciones se pueden aplicar a esta
 <translation id="2008474315282236005">Se eliminará un elemento de este dispositivo. Para recuperar tus datos en otro momento, inicia sesión en Decentr como <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">No se ha podido realizar la instalación. Vuelve a intentarlo.</translation>
 <translation id="2020032459870799438">Para comprobar si tus otras contraseñas han sufrido quiebras de seguridad de datos u otros problemas de seguridad, <ph name="BEGIN_LINK" />inicia sesión en Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Indica si quieres incluir el historial de Decentr para ofrecer una experiencia más personalizada de los servicios de Google</translation>
+<translation id="2049376729098081731">Indica si quieres incluir el historial de Decentr para ofrecer una experiencia más personalizada de los servicios de Decentr</translation>
 <translation id="2065461321550902389">Para guardar, usar contraseñas y realizar otras acciones en todos tus dispositivos, inicia sesión en Decentr. Esta contraseña se guardará en tu cuenta de Google cuando inicies sesión.</translation>
 <translation id="2086476982681781442">Decentr ha bloqueado esta descarga porque el archivo es engañoso y podría hacer cambios inesperados en tu dispositivo</translation>
 <translation id="2088953378266246249">Información sobre cómo gestiona Decentr sus certificados raíz</translation>
@@ -123,7 +123,7 @@ Los permisos que hayas dado a sitios web y aplicaciones se pueden aplicar a esta
 <translation id="3032787606318309379">Añadiendo a Decentr...</translation>
 <translation id="3038232873781883849">Esperando para instalar...</translation>
 <translation id="3068187312562070417">Otros perfiles de Decentr</translation>
-<translation id="3068515742935458733">Ayudar a mejorar Decentr enviando informes sobre fallos y <ph name="UMA_LINK" /> a Google</translation>
+<translation id="3068515742935458733">Ayudar a mejorar Decentr enviando informes sobre fallos y <ph name="UMA_LINK" /> a Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Una o varias extensiones de Decentr estaban accediendo a 1 dispositivo USB}=1{Una o varias extensiones de Decentr están accediendo a 1 dispositivo USB}other{Una o varias extensiones de Decentr están accediendo a # dispositivos USB}}</translation>
 <translation id="3101560983689755071">Tu historial de navegación influye en los anuncios que ves y en los intereses que se estiman abajo. Para proteger tu privacidad, Decentr elimina automáticamente tus intereses cada mes. Los intereses se actualizan a menos que los elimines.</translation>
 <translation id="3103660991484857065">El programa de instalación no ha podido descomprimir el archivo. Vuelve a descargar Decentr.</translation>
@@ -471,7 +471,7 @@ Decentr no puede recuperar tu configuración.</translation>
 <translation id="8522801943730206384">Decentr puede comprobar tus contraseñas si las guardas</translation>
 <translation id="8550334526674375523">Este perfil de trabajo es completamente independiente de tu perfil personal.</translation>
 <translation id="8555465886620020932">Error del servicio: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr puede comprobar tus contraseñas si inicias sesión con tu cuenta de Google</translation>
+<translation id="8568283329061645092">Decentr puede comprobar tus contraseñas si inicias sesión con tu cuenta de Decentr</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> Los creadores de Decentr. Todos los derechos reservados.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Cómo usamos estos datos:<ph name="END_BOLD" /> los sitios pueden almacenar información con Decentr sobre tus intereses. Por ejemplo, si visitas un sitio para comprar zapatillas para una maratón, es posible que el sitio considere que te interesa correr maratones. Si más tarde visitas un sitio diferente para registrarte en una carrera, ese sitio puede mostrarte un anuncio de zapatillas de correr basándose en tus intereses.</translation>
 <translation id="8619360774459241877">Iniciando Decentr...</translation>
@@ -497,7 +497,7 @@ Decentr no puede recuperar tu configuración.</translation>
 <translation id="9019929317751753759">Para aumentar la seguridad de Decentr, hemos inhabilitado la siguiente extensión que no figura en <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> y que puede haberse añadido sin tu conocimiento.</translation>
 <translation id="9022552996538154597">Iniciar sesión en Decentr</translation>
 <translation id="904366664621834601">Decentr ha bloqueado esta descarga porque el archivo incluye otros archivos que pueden ocultar malware</translation>
-<translation id="9062666675513499497">Iniciar sesión en Decentr al iniciar sesión en otros servicios de Google</translation>
+<translation id="9062666675513499497">Iniciar sesión en Decentr al iniciar sesión en otros servicios de Decentr</translation>
 <translation id="907832235989677238">Inicia sesión en Decentr. Si quieres iniciar sesión en una cuenta solo una vez, puedes <ph name="GUEST_LINK_BEGIN" />usar el dispositivo como invitado<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr se ha cerrado automáticamente</translation>
 <translation id="9089354809943900324">Decentr no está actualizado</translation>

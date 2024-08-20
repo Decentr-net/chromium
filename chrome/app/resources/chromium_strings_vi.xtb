@@ -60,7 +60,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="2008474315282236005">Thao tác này sẽ xóa 1 mục khỏi thiết bị này. Để truy xuất dữ liệu của bạn sau, hãy đăng nhập vào Decentr dưới dạng <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Không cài đặt được. Vui lòng thử lại.</translation>
 <translation id="2020032459870799438">Để kiểm tra xem các mật khẩu khác của bạn có bị ảnh hưởng bởi các vụ rò rỉ dữ liệu và sự cố bảo mật khác hay không, hãy <ph name="BEGIN_LINK" />đăng nhập vào Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Chọn xem có bao gồm nhật ký duyệt web trên Decentr hay không để mang lại trải nghiệm phù hợp hơn trong các dịch vụ của Google</translation>
+<translation id="2049376729098081731">Chọn xem có bao gồm nhật ký duyệt web trên Decentr hay không để mang lại trải nghiệm phù hợp hơn trong các dịch vụ của Decentr</translation>
 <translation id="2065461321550902389">Để lưu và sử dụng mật khẩu cũng như các dữ liệu khác trên mọi thiết bị của bạn, hãy đăng nhập vào Decentr. Mật khẩu này sẽ được lưu trong Tài khoản Google của bạn sau khi bạn đăng nhập.</translation>
 <translation id="2086476982681781442">Decentr đã chặn tệp tải xuống này vì tệp này chứa nội dung lừa đảo và có thể thực hiện các thay đổi không mong muốn đối với thiết bị của bạn</translation>
 <translation id="2088953378266246249">Thông tin về cách Decentr quản lý các chứng chỉ gốc của Decentr</translation>
@@ -121,7 +121,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="3032787606318309379">Đang thêm vào Decentr...</translation>
 <translation id="3038232873781883849">Đang chờ cài đặt...</translation>
 <translation id="3068187312562070417">Các hồ sơ khác trên Decentr</translation>
-<translation id="3068515742935458733">Giúp cải thiện Decentr bằng cách gửi báo cáo sự cố và <ph name="UMA_LINK" /> tới Google</translation>
+<translation id="3068515742935458733">Giúp cải thiện Decentr bằng cách gửi báo cáo sự cố và <ph name="UMA_LINK" /> tới Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Một hoặc nhiều tiện ích Decentr đã truy cập vào 1 thiết bị USB}=1{Một hoặc nhiều tiện ích Decentr đang truy cập vào 1 thiết bị USB}other{Một hoặc nhiều tiện ích Decentr đang truy cập vào # thiết bị USB}}</translation>
 <translation id="3101560983689755071">Nhật ký duyệt web của bạn ảnh hưởng tới quảng cáo mà bạn thấy cũng như mối quan tâm được ước đoán như dưới đây. Để bảo vệ quyền riêng tư của bạn, Decentr tự động xoá thông tin về các mối quan tâm của bạn theo chu kỳ luân phiên mỗi tháng. Các mối quan tâm sẽ được làm mới trừ phi bạn xoá chúng.</translation>
 <translation id="3103660991484857065">Trình cài đặt không thể giải nén tệp lưu trữ. Hãy tải xuống Decentr lại lần nữa.</translation>
@@ -495,7 +495,7 @@ Decentr không thể khôi phục cài đặt của bạn.</translation>
 <translation id="9019929317751753759">Để làm cho Decentr an toàn hơn, chúng tôi đã vô hiệu hóa tiện ích không được liệt kê trong <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> và có thể đã được thêm mà bạn không biết.</translation>
 <translation id="9022552996538154597">Đăng nhập vào Decentr</translation>
 <translation id="904366664621834601">Decentr đã chặn tệp tải xuống này vì tệp lưu trữ gồm các tệp khác có thể ẩn chứa phần mềm độc hại</translation>
-<translation id="9062666675513499497">Đăng nhập vào Decentr khi bạn đăng nhập vào các dịch vụ khác của Google</translation>
+<translation id="9062666675513499497">Đăng nhập vào Decentr khi bạn đăng nhập vào các dịch vụ khác của Decentr</translation>
 <translation id="907832235989677238">Đăng nhập vào Decentr. Nếu chỉ muốn đăng nhập vào tài khoản một lần, bạn có thể <ph name="GUEST_LINK_BEGIN" />dùng thiết bị với tư cách khách<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr đã tự động đóng</translation>
 <translation id="9089354809943900324">Decentr đã lỗi thời</translation>

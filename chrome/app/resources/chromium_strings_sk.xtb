@@ -44,7 +44,7 @@ Povolenia, ktoré ste už udelili webom a aplikáciám, sa môžu vzťahovať n
 <translation id="1749104137266986751">Keď HTTPS nie je k dispozícii, Decentr bude bez upozornenia používať nezabezpečené pripojenie</translation>
 <translation id="1774152462503052664">Povoliť prehliadaču Decentr spustenie na pozadí</translation>
 <translation id="1779356040007214683">Z dôvodu vyššej bezpečnosti prehliadača Decentr sme zakázali niektoré rozšírenia, ktoré nedodáva <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> a mohli byť pridané bez vášho vedomia.</translation>
-<translation id="1804128559285178512">Kým máte aktívne prihlásenie, môžete v prehliadači Decentr používať svoje heslá a ďalšie položky zo svojho účtu Google</translation>
+<translation id="1804128559285178512">Kým máte aktívne prihlásenie, môžete v prehliadači Decentr používať svoje heslá a ďalšie položky zo svojho účtu Decentr</translation>
 <translation id="1808667845054772817">Preinštalovať prehliadač Decentr</translation>
 <translation id="1820835682567584003">Decentr sa pokúša <ph name="AUTHENTICATION_PURPOSE" /></translation>
 <translation id="18552579716432081">Ak chcete odstrániť dáta prehliadania iba z tohto zariadenia a vo svojom účte Google ich ponechať, <ph name="BEGIN_LINK" />odhláste sa z prehliadača Decentr<ph name="END_LINK" />.</translation>
@@ -123,7 +123,7 @@ Povolenia, ktoré ste už udelili webom a aplikáciám, sa môžu vzťahovať n
 <translation id="3032787606318309379">Pridáva sa do prehliadača Decentr...</translation>
 <translation id="3038232873781883849">Čaká sa na inštaláciu…</translation>
 <translation id="3068187312562070417">Ďalšie profily prehliadača Decentr</translation>
-<translation id="3068515742935458733">Pomôcť zlepšiť prehliadač Decentr odosielaním správ o zlyhaní a <ph name="UMA_LINK" /> spoločnosti Google</translation>
+<translation id="3068515742935458733">Pomôcť zlepšiť prehliadač Decentr odosielaním správ o zlyhaní a <ph name="UMA_LINK" /> spoločnosti Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{K 1 zariadeniu USB malo prístup jedno alebo viac rozšírení pre prehliadač Decentr}=1{K 1 zariadeniu USB má prístup jedno alebo viac rozšírení pre prehliadač Decentr}few{K # zariadeniam USB má prístup jedno alebo viacero rozšírení pre prehliadač Decentr}many{# USB devices are being accessed by one or more Decentr extensions}other{K # zariadeniam USB má prístup jedno alebo viacero rozšírení pre prehliadač Decentr}}</translation>
 <translation id="3101560983689755071">Vaša história prehliadania ovplyvňuje zobrazované reklamy a záujmy, ktoré sú odhadnuté nižšie. Decentr priebežne automaticky odstraňuje vaše záujmy každý mesiac, aby tak chránil vaše súkromie. Záujmy sa môžu obnoviť, pokiaľ ich neodstránite.</translation>
 <translation id="3103660991484857065">Inštalačný program pri dekomprimácii archívu zlyhal. Stiahnite prehliadač Decentr znova.</translation>

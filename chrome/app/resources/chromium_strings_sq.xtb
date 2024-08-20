@@ -62,7 +62,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="2008474315282236005">Kjo do të fshijë 1 artikull nga kjo pajisje. Për t'i marrë më vonë të dhënat, identifikohu te Decentr si <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Instalimi nuk u krye. Provo përsëri.</translation>
 <translation id="2020032459870799438">Për të kontrolluar nëse fjalëkalimet e tjera janë të sigurta nga nxjerrjet e paautorizuara të të dhënave dhe probleme të tjera të sigurisë, <ph name="BEGIN_LINK" />identifikohu në Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Zgjidh nëse do ta përfshish historikun e Decentr për përvoja më të personalizuara në shërbimet e Google</translation>
+<translation id="2049376729098081731">Zgjidh nëse do ta përfshish historikun e Decentr për përvoja më të personalizuara në shërbimet e Decentr</translation>
 <translation id="2065461321550902389">Për të ruajtur dhe përdorur fjalëkalimet etj. në të gjitha pajisjet e tua, identifikohu në Decentr. Ky fjalëkalim do të ruhet në "Llogarinë tënde të Google" pasi të identifikohesh.</translation>
 <translation id="2086476982681781442">Decentr e bllokoi këtë shkarkim sepse skedari është mashtrues dhe mund të bëjë ndryshime të papritura në pajisjen tënde</translation>
 <translation id="2088953378266246249">Informacione rreth mënyrës se si i menaxhon Decentr certifikatat e veta rrënjë</translation>
@@ -361,7 +361,7 @@ Lejet që u ke dhënë sajteve të uebit dhe aplikacioneve mund të zbatohen pë
 <translation id="6717134281241384636">Profili yt nuk mund të përdoret sepse është nga një version më i ri i Decentr.
 
 Disa funksione mund të mos ofrohen. Specifiko një direktori tjetër profili ose përdor një version më të ri të Decentr.</translation>
-<translation id="6729124504294600478">Për të marrë personalizimin dhe veçoritë e tjera, përfshi Decentr në "Aktivitetin e uebit dhe të aplikacioneve" dhe në shërbimet e lidhura të Google</translation>
+<translation id="6729124504294600478">Për të marrë personalizimin dhe veçoritë e tjera, përfshi Decentr në "Aktivitetin e uebit dhe të aplikacioneve" dhe në shërbimet e lidhura të Decentr</translation>
 <translation id="6734291798041940871">Decentr është i instaluar tashmë për të gjithë përdoruesit në kompjuterin tënd.</translation>
 <translation id="673636774878526923">Për t'u qasur te gjërat e Decentr nëpër të gjitha pajisjet, identifikohu dhe më pas aktivizo sinkronizimin.</translation>
 <translation id="674245979920622322">Nuk ke vizituar së fundi. Decentr ka hequr lejet (<ph name="PERMISSION_1" />, <ph name="PERMISSION_2" />, dhe <ph name="COUNT" /> të tjera)</translation>
@@ -496,7 +496,7 @@ Decentr nuk është në gjendje të rikuperojë cilësimet e tua.</translation>
 <translation id="9019929317751753759">Për ta bërë më të sigurt Decentr, çaktivizuam shtesën e mëposhtme që nuk është e listuar në <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> dhe që mund të jetë shtuar pa dijeninë tënde.</translation>
 <translation id="9022552996538154597">Identifikohu në Decentr</translation>
 <translation id="904366664621834601">Decentr e bllokoi këtë shkarkim sepse skedari i arkivit përfshin skedarë të tjerë që mund të fshehin softuer keqdashës</translation>
-<translation id="9062666675513499497">Identifikohu në Decentr kur identifikohesh në shërbimet e tjera të Google</translation>
+<translation id="9062666675513499497">Identifikohu në Decentr kur identifikohesh në shërbimet e tjera të Decentr</translation>
 <translation id="907832235989677238">Identifikohu në Decentr. Nëse dëshiron të identifikohesh në një llogari vetëm një herë, mund <ph name="GUEST_LINK_BEGIN" />ta përdorësh pajisjen si vizitor<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr u mbyll automatikisht</translation>
 <translation id="9089354809943900324">Decentr nuk është i përditësuar</translation>

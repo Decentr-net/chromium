@@ -95,8 +95,8 @@
 <translation id="1062407476771304334">Substitueix</translation>
 <translation id="1062628064301375934">Ajuda'ns a crear un web més privat</translation>
 <translation id="1066964438793906105">Cerca programari maliciós</translation>
-<translation id="1067661089446014701">Per augmentar la seguretat, pots encriptar les contrasenyes al dispositiu abans que es desin al teu Compte de Google</translation>
-<translation id="1067922213147265141">Altres serveis de Google</translation>
+<translation id="1067661089446014701">Per augmentar la seguretat, pots encriptar les contrasenyes al dispositiu abans que es desin al teu Compte de Decentr</translation>
+<translation id="1067922213147265141">Altres serveis de Decentr</translation>
 <translation id="106814709658156573">Per configurar una empremta digital, fes que el teu fill o filla toqui el sensor d'empremtes digitals que hi ha a l'extrem inferior esquerre del teclat. Les dades de la seva empremta digital s'emmagatzemen de manera segura i no surten mai del <ph name="DEVICE_TYPE" />.</translation>
 <translation id="106855837688344862">Esdeveniments tàctils</translation>
 <translation id="1069104208554708737">Aquesta clau d'accés només es desarà en aquest dispositiu</translation>
@@ -136,7 +136,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1085064499066015002">Sempre en tots els llocs web</translation>
 <translation id="1085697365578766383">S'ha produït un error en iniciar la màquina virtual. Torna-ho a provar.</translation>
 <translation id="1086486568852410168">Cerca amb Google Lens</translation>
-<translation id="1088490543924960890">Comença a desar claus d'accés amb el gestor de contrasenyes de Google</translation>
+<translation id="1088490543924960890">Comença a desar claus d'accés amb el gestor de contrasenyes de Decentr</translation>
 <translation id="1090126737595388931">No hi cap aplicació en execució en segon pla</translation>
 <translation id="1090541560108055381">Abans de fer la vinculació, comprova que aquest codi sigui el mateix en els dos dispositius</translation>
 <translation id="1091767800771861448">Premeu ESCAPE per ometre (només compilacions no oficials).</translation>
@@ -212,10 +212,10 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1150565364351027703">Ulleres de sol</translation>
 <translation id="1151917987301063366">Permet sempre que <ph name="HOST" /> accedeixi als sensors</translation>
 <translation id="1152346050262092795">Torna a introduir la contrasenya per verificar el compte.</translation>
-<translation id="1153636665119721804">Programa Protecció avançada de Google</translation>
+<translation id="1153636665119721804">Programa Protecció avançada de Decentr</translation>
 <translation id="1155545602507378023">No, només aquest dispositiu</translation>
 <translation id="1155816283571436363">S'està connectant al telèfon</translation>
-<translation id="1157952955648710254">Tanca el tauler lateral de la Cerca de Google</translation>
+<translation id="1157952955648710254">Tanca el tauler lateral de la Cerca de Decentr</translation>
 <translation id="1158080958325422608">Canvia a majúscules</translation>
 <translation id="1158238185437008462">Consulta els records</translation>
 <translation id="1159879754517035595">Gestiona la configuració de l'extensió</translation>
@@ -228,7 +228,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1164891049599601209">S'ha introduït en un lloc web enganyós</translation>
 <translation id="1165039591588034296">Error</translation>
 <translation id="1166212789817575481">Tanca les pestanyes de la dreta</translation>
-<translation id="1166457390969131095">Utilitza i desa contrasenyes i claus d'accés al teu Compte de Google</translation>
+<translation id="1166457390969131095">Utilitza i desa contrasenyes i claus d'accés al teu Compte de Decentr</translation>
 <translation id="1166583374608765787">Revisa l'actualització del nom</translation>
 <translation id="1166596238782048887"><ph name="TAB_TITLE" /> pertany a l'escriptori <ph name="DESK_TITLE" /></translation>
 <translation id="1167262726334064738">Prova d'utilitzar una contrasenya nova</translation>
@@ -437,7 +437,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1313405956111467313">Configuració automàtica del servidor intermediari</translation>
 <translation id="131364520783682672">Bloq Maj</translation>
 <translation id="1313660246522271310">Se't tancarà la sessió de tots els llocs web, també de les pestanyes obertes</translation>
-<translation id="1313705515580255288">Se sincronitzaran les adreces d'interès, l'historial i la configuració amb el vostre compte de Google</translation>
+<translation id="1313705515580255288">Se sincronitzaran les adreces d'interès, l'historial i la configuració amb el vostre compte de Decentr</translation>
 <translation id="1315184295353569363">Deixa de desar el grup</translation>
 <translation id="1316136264406804862">S'està cercant...</translation>
 <translation id="1316248800168909509">No s'ha pogut connectar a <ph name="DEVICE" />. Torna-ho a provar.</translation>
@@ -467,7 +467,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="13392265090583506">Accessibilitat</translation>
 <translation id="1340527397989195812">Feu una còpia de seguretat dels fitxers multimèdia del dispositiu mitjançant l'aplicació Fitxers.</translation>
 <translation id="1341701348342335220">Ben fet!</translation>
-<translation id="1342886103232377846">Per comprovar si hi ha contrasenyes en perill, ves al gestor de contrasenyes de Google</translation>
+<translation id="1342886103232377846">Per comprovar si hi ha contrasenyes en perill, ves al gestor de contrasenyes de Decentr</translation>
 <translation id="1343865611738742294">Concedeix permís a les aplicacions de Linux per accedir als dispositius USB. Linux no recordarà els dispositius USB després d'extreure'ls.</translation>
 <translation id="1343920184519992513">Continua des d'on ho vas deixar i obre un conjunt de pàgines específic</translation>
 <translation id="1344141078024003905">Estàs emetent la teva pantalla. Pots posar en pausa o aturar l'emissió de la pantalla en qualsevol moment.</translation>
@@ -498,7 +498,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="136522805455656552">Per protegir el dispositiu, et recomanem que només executis i instal·lis programari de fonts i desenvolupadors de confiança. <ph name="LEARN_MORE" />.</translation>
 <translation id="1367817137674340530">S'han generat <ph name="COUNT" /> imatges</translation>
 <translation id="1368603372088757436">Linux no s'admet al teu <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Més informació<ph name="LINK_END" /></translation>
-<translation id="1370249617397887619">Per utilitzar-les als altres dispositius que fas servir, desa-les al teu Compte de Google</translation>
+<translation id="1370249617397887619">Per utilitzar-les als altres dispositius que fas servir, desa-les al teu Compte de Decentr</translation>
 <translation id="1370384480654163477">Consulta i edita els fitxers de la darrera vegada que vas visitar aquest lloc web:</translation>
 <translation id="1372841398847029212">Sincronitza amb el meu compte</translation>
 <translation id="1373176046406139583">La visibilitat del dispositiu determina qui pot compartir contingut amb tu quan tens la pantalla desbloquejada. <ph name="LINK_BEGIN" />Més informació<ph name="LINK_END" /></translation>
@@ -703,7 +703,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1515163294334130951">Inicia</translation>
 <translation id="1517467582299994451">Per emetre contingut amb un codi, activa la configuració de sincronització del navegador Chrome</translation>
 <translation id="1521442365706402292">Administra certificats</translation>
-<translation id="1521655867290435174">Fulls de càlcul de Google</translation>
+<translation id="1521655867290435174">Fulls de càlcul de Decentr</translation>
 <translation id="1521774566618522728">Actiu avui</translation>
 <translation id="1521933835545997395">Connectat al telèfon Android</translation>
 <translation id="1523279371236772909">S'ha vist el darrer mes</translation>
@@ -885,7 +885,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1632293440289326475">Activa Estalvi d'energia per allargar la durada de la bateria</translation>
 <translation id="1632756664321977232">Eina de retallada</translation>
 <translation id="163309982320328737">L'amplada inicial dels caràcters és completa</translation>
-<translation id="1633947793238301227">Desactiva l'Assistent de Google</translation>
+<translation id="1633947793238301227">Desactiva l'Assistent de Decentr</translation>
 <translation id="1634224622052500893">S'ha trobat una xarxa Wi‑Fi</translation>
 <translation id="1634783886312010422">Ja has canviat aquesta contrasenya a <ph name="WEBSITE" />?</translation>
 <translation id="1636212173818785548">D'acord</translation>
@@ -1037,7 +1037,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1748563609363301860">Pots desar aquesta contrasenya al teu Compte de Google o només en aquest dispositiu</translation>
 <translation id="1749733017156547309">Has d'introduir una contrasenya</translation>
 <translation id="1750172676754093297">La teva clau de seguretat no pot emmagatzemar empremtes digitals</translation>
-<translation id="1750238553597293878">Continua utilitzant les contrasenyes al teu Compte de Google</translation>
+<translation id="1750238553597293878">Continua utilitzant les contrasenyes al teu Compte de Decentr</translation>
 <translation id="1751262127955453661"><ph name="ORIGIN" /> podrà editar els fitxers de la carpeta <ph name="FOLDERNAME" /> mentre no tanquis totes les pestanyes d'aquest lloc web.</translation>
 <translation id="17513872634828108">Pestanyes obertes</translation>
 <translation id="175196451752279553">T&amp;orna a obrir la pestanya tancada</translation>
@@ -1109,7 +1109,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1802687198411089702">La pàgina no respon. Pots esperar que respongui o pots sortir-ne.</translation>
 <translation id="1803531841600994172">Idioma d'arribada de la traducció</translation>
 <translation id="1803545009660609783">Torna a entrenar</translation>
-<translation id="1804195280859010019">Veuràs informació o suggeriments més útils en funcions com el tauler lateral de la Cerca de Google</translation>
+<translation id="1804195280859010019">Veuràs informació o suggeriments més útils en funcions com el tauler lateral de la Cerca de Decentr</translation>
 <translation id="1805738995123446102">Una pestanya de fons està utilitzant el micròfon</translation>
 <translation id="1805822111539868586">Inspecciona les visualitzacions</translation>
 <translation id="1805888043020974594">Servidor d'impressió</translation>
@@ -1255,7 +1255,7 @@ Comprova les contrasenyes sempre que vulguis al <ph name="GOOGLE_PASSWORD_MANAGE
 <translation id="1901213235765457754">Demana a l'administrador que actualitzi aquesta aplicació</translation>
 <translation id="1901303067676059328">Selecciona-ho &amp;tot</translation>
 <translation id="1901760057081700494">Actualment, la zona horària està establerta en <ph name="TIME_ZONE_ENTRY" />. Per actualitzar automàticament la zona horària, <ph name="BEGIN_LINK" />activa l'accés a la ubicació del sistema<ph name="END_LINK" />.</translation>
-<translation id="1904580727789512086">Els URL que visites es desen al teu Compte de Google</translation>
+<translation id="1904580727789512086">Els URL que visites es desen al teu Compte de Decentr</translation>
 <translation id="1906181697255754968">Els llocs web solen accedir als fitxers i a les carpetes del dispositiu per a funcions com ara desar automàticament la teva feina</translation>
 <translation id="1906488504371069394">Descobreix més extensions i temes a <ph name="BEGIN_LINK" />Chrome Web Store<ph name="END_LINK" /></translation>
 <translation id="1907044622262489040">Escriu amb la veu. Fes servir Cerca+D i, tot seguit, comença a parlar.</translation>
@@ -1467,7 +1467,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2052572566310583903">Instal·lada als altres dispositius teus</translation>
 <translation id="2053105195397337973">Estem explorant maneres de restringir el seguiment i de, alhora, permetre que els llocs web aturin el frau i el contingut brossa publicitari.</translation>
 <translation id="2053312383184521053">Dades de l'estat d'inactivitat</translation>
-<translation id="205560151218727633">Logotip de l'Assistent de Google</translation>
+<translation id="205560151218727633">Logotip de l'Assistent de Decentr</translation>
 <translation id="2058456167109518507">S'ha detectat un dispositiu</translation>
 <translation id="2058581283817163201">Verifica l'accés amb aquest telèfon</translation>
 <translation id="2059913712424898428">Zona horària</translation>
@@ -1664,7 +1664,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2200781749203116929">Registres del sistema de ChromeOS</translation>
 <translation id="2203088913459920044">El nom pot incloure lletres, números i caràcters especials</translation>
 <translation id="220321590587754225">No s'ha pogut connectar. Torna-ho a provar.</translation>
-<translation id="2203903197029773650"><ph name="BRAND" /> pot comprovar les teves contrasenyes quan inicies la sessió amb el Compte de Google</translation>
+<translation id="2203903197029773650"><ph name="BRAND" /> pot comprovar les teves contrasenyes quan inicies la sessió amb el Compte de Decentr</translation>
 <translation id="2204020417499639567">S'ha emplenat l'adreça electrònica.</translation>
 <translation id="2204034823255629767">Llegir i canviar tot el que s'escrigui</translation>
 <translation id="2204168219363024184">Per crear aquesta clau d'accés amb el gestor de contrasenyes de Google, verifica la teva identitat</translation>
@@ -1705,7 +1705,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2233502537820838181">&amp;Més informació</translation>
 <translation id="223356358902285214">Activitat al web i en aplicacions</translation>
 <translation id="2234827758954819389">Guia de privadesa</translation>
-<translation id="2234876718134438132">Sincronització i serveis de Google</translation>
+<translation id="2234876718134438132">Sincronització i serveis de Decentr</translation>
 <translation id="2235344399760031203">Les galetes de tercers estan bloquejades</translation>
 <translation id="2236949375853147973">La meva activitat</translation>
 <translation id="2238379619048995541">Dades de l'estat de freqüència</translation>
@@ -2188,7 +2188,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2561211427862644160">Consulta totes les teves adreces d'interès aquí</translation>
 <translation id="2564520396658920462">L'execució de JavaScript amb AppleScript està desactivada. Per activar-la, ves a la barra de menú i selecciona Visualitza &gt; Desenvolupador &gt; Permet JavaScript des d'Apple Events. Per obtenir més informació, consulta: https://support.google.com/chrome/?p=applescript.</translation>
 <translation id="2564653188463346023">Corrector ortogràfic millorat</translation>
-<translation id="256481480019204378">Identificador del Compte de Google</translation>
+<translation id="256481480019204378">Identificador del Compte de Decentr</translation>
 <translation id="256517381556987641">La sincronització de fitxers ha trobat <ph name="ITEMS_FOUND" /> fitxers fins ara i encara està comprovant l'espai d'emmagatzematge. Prova de tornar a activar la sincronització de fitxers d'aquí a uns quants minuts.</translation>
 <translation id="2565214867520763227">Activa el lector de pantalla</translation>
 <translation id="2568694057933302218">En mode d'incògnit, els llocs web no poden fer servir les galetes per veure la teva activitat de navegació en diferents llocs web. L'activitat de navegació no s'utilitza, per exemple, per personalitzar anuncis. És possible que les funcions d'alguns llocs web no estiguin operatives.</translation>
@@ -2260,7 +2260,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2620245777360407679">Dispositius connectats actualment al punt d'accés Wi‐Fi</translation>
 <translation id="2620436844016719705">Sistema</translation>
 <translation id="2620900772667816510">Superresolució Bluetooth</translation>
-<translation id="262154978979441594">Entrena el model de veu de l'Assistent de Google</translation>
+<translation id="262154978979441594">Entrena el model de veu de l'Assistent de Decentr</translation>
 <translation id="2622280935687585828">Suprimeix <ph name="SITE_NAME" /> dels llocs web desactivats</translation>
 <translation id="26224892172169984">No permetis que cap lloc web gestioni els protocols</translation>
 <translation id="262373406453641243">Colemak</translation>
@@ -2344,7 +2344,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2683638487103917598">Carpeta ordenada</translation>
 <translation id="2684004000387153598">Per continuar, fes clic a D'acord i, a continuació, a Afegeix una persona per crear un perfil per a la teva adreça electrònica.</translation>
 <translation id="2685193395980129388">Permisos concedits – <ph name="PERMISSION_DETAILS" /></translation>
-<translation id="2687407218262674387">Condicions del servei de Google</translation>
+<translation id="2687407218262674387">Condicions del servei de Decentr</translation>
 <translation id="2687621393791886981">Pregunta-m'ho més tard</translation>
 <translation id="2688196195245426394">S'ha produït un error en registrar el dispositiu amb el servidor: <ph name="CLIENT_ERROR" />.</translation>
 <translation id="2688734475209947648">No caldrà que recordis aquesta contrasenya. Es desarà al gestor de contrasenyes de Google per a <ph name="ACCOUNT" />.</translation>
@@ -2556,7 +2556,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2828375943530438449">Enrere des de la pàgina d'inici de sessió</translation>
 <translation id="2828650939514476812">Connectar a una xarxa Wi-Fi</translation>
 <translation id="2828833307884755422"><ph name="MEMORY_SAVINGS" /> alliberats</translation>
-<translation id="2830528677948328648">Gestiona el teu &amp;Compte de Google</translation>
+<translation id="2830528677948328648">Gestiona el teu &amp;Compte de Decentr</translation>
 <translation id="2831430281393059038">El dispositiu s'admet</translation>
 <translation id="2832124733806557606">El teu fill pot utilitzar un PIN per iniciar la sessió o desbloquejar el dispositiu.</translation>
 <translation id="2835177225987815960">Es restablirà la teva configuració actual de cerca, la qual inclou tots els interruptors assignats i les preferències de velocitat per a la cerca automàtica.</translation>
@@ -2642,7 +2642,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2891922230654533301">Vols utilitzar el teu dispositiu per iniciar la sessió a <ph name="APP_NAME" />?</translation>
 <translation id="2893013536106749396">Tria targetes que et mantinguin al dia de les coses que t'importen</translation>
 <translation id="2893168226686371498">Navegador predeterminat</translation>
-<translation id="2893180576842394309">És possible que Google utilitzi el teu historial per personalitzar la Cerca i altres serveis de Google</translation>
+<translation id="2893180576842394309">És possible que Google utilitzi el teu historial per personalitzar la Cerca i altres serveis de Decentr</translation>
 <translation id="2893701697603065178">Entorn de desenvolupament gestionat</translation>
 <translation id="2894757982205307093">Pestanya nova al grup</translation>
 <translation id="2895730582088342039">Desa, comparteix i emet</translation>
@@ -2740,7 +2740,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2967926928600500959">Es forçarà l'obertura en un navegador específic dels URL que compleixin aquestes regles.</translation>
 <translation id="2969411787010981955">Les dades s'han exportat a la ubicació seleccionada</translation>
 <translation id="2970766364519518369">Determinats contactes poden compartir contingut amb tu quan siguin a prop. Se't demanarà que aprovis aquestes sol·licituds. No hauràs d'aprovar les sol·licituds de compartició entre dispositius amb la sessió iniciada a <ph name="USER_EMAIL" />.</translation>
-<translation id="2970982365449313350">Chrome amb aquest Compte de Google</translation>
+<translation id="2970982365449313350">Chrome amb aquest Compte de Decentr</translation>
 <translation id="2972557485845626008">Microprogramari</translation>
 <translation id="2972581237482394796">&amp;Refés</translation>
 <translation id="2973324205039581528">Silencia el lloc web</translation>
@@ -2768,7 +2768,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="2989474696604907455">no connectat</translation>
 <translation id="2989786307324390836">Binari codificat amb DER, certificat únic</translation>
 <translation id="2989805286512600854">Obre en una pestanya nova</translation>
-<translation id="2990313168615879645">Afegeix un Compte de Google</translation>
+<translation id="2990313168615879645">Afegeix un Compte de Decentr</translation>
 <translation id="2990375978470734995">Perquè aquest canvi tingui efecte, torna a connectar els accessoris externs.</translation>
 <translation id="2990583317361835189">No permetis que els llocs web utilitzin sensors de moviment</translation>
 <translation id="2991182900092497283">Introdueix un motiu per enganxar aquestes dades:</translation>
@@ -2942,7 +2942,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
         &lt;li&gt;Protegir-te mentre navegues.&lt;/li&gt;
         &lt;li&gt;Fomentar un ecosistema pròsper que mantingui el web segur, obert, ràpid i gratuït.&lt;/li&gt;
       &lt;/ul&gt;</translation>
-<translation id="3115743155098198207">Gestiona l'idioma del Compte de Google</translation>
+<translation id="3115743155098198207">Gestiona l'idioma del Compte de Decentr</translation>
 <translation id="3117362587799608430">La base no és totalment compatible</translation>
 <translation id="3117791853215125017">{COUNT,plural, =1{No s'ha pogut enviar el contingut següent al dispositiu <ph name="DEVICE_NAME" />: <ph name="ATTACHMENTS" />}other{No s'ha pogut enviar el contingut següent al dispositiu <ph name="DEVICE_NAME" />: <ph name="ATTACHMENTS" />}}</translation>
 <translation id="3118319026408854581">Ajuda de <ph name="PRODUCT_NAME" /></translation>
@@ -3137,7 +3137,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3275778913554317645">Obre com a finestra</translation>
 <translation id="3277214528693754078">Navega amb un cursor de text (navegació amb cursor de text)</translation>
 <translation id="3277594800340743211">Ombra gran</translation>
-<translation id="3277784185056747463">Contrasenya del dispositiu o del Compte de Google</translation>
+<translation id="3277784185056747463">Contrasenya del dispositiu o del Compte de Decentr</translation>
 <translation id="3278001907972365362">Els teus Comptes de Google requereixen atenció</translation>
 <translation id="3279092821516760512">Els contactes seleccionats poden compartir contingut amb tu quan siguis a prop. Les transferències no començaran fins que no les acceptis.</translation>
 <translation id="3279230909244266691">Aquest procés pot tardar uns quants minuts. S'està iniciant la màquina virtual.</translation>
@@ -3164,7 +3164,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3295241308788901889">S'està emetent una pestanya</translation>
 <translation id="3297105622164376095">Es poden mostrar sol·licituds d'inici de sessió de tercers</translation>
 <translation id="3297462367919448805">Aquest dispositiu ja no rep actualitzacions de programari i de seguretat automàtiques, però pots activar actualitzacions de seguretat ampliades.</translation>
-<translation id="3297536526040732495">Enllaça temporalment aquestes dades al teu Compte de Google quan tens la sessió iniciada per protegir-te en totes les aplicacions de Google</translation>
+<translation id="3297536526040732495">Enllaça temporalment aquestes dades al teu Compte de Google quan tens la sessió iniciada per protegir-te en totes les aplicacions de Decentr</translation>
 <translation id="329838636886466101">Repara</translation>
 <translation id="3298789223962368867">Heu introduït un URL no vàlid.</translation>
 <translation id="32991397311664836">Dispositius:</translation>
@@ -3354,7 +3354,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3443754338602062261">Ja tens contrasenyes per a aquests comptes al teu <ph name="BRAND" />. Si decideixes importar una de les contrasenyes següents, substituirà l'existent.</translation>
 <translation id="344449859752187052">Galetes de tercers bloquejades</translation>
 <translation id="3444726579402183581"><ph name="ORIGIN" /> podrà veure <ph name="FILENAME" /></translation>
-<translation id="3445047461171030979">Respostes ràpides de l'Assistent de Google</translation>
+<translation id="3445047461171030979">Respostes ràpides de l'Assistent de Decentr</translation>
 <translation id="3445288400492335833"><ph name="MINUTES" /> min</translation>
 <translation id="344537926140058498">La teva organització ha bloquejat aquest fitxer perquè inclou contingut sensible o perillós. Demana al propietari que el corregeixi.</translation>
 <translation id="3445925074670675829">Dispositiu USB-C</translation>
@@ -3419,7 +3419,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3493486281776271508">Cal tenir connexió a Internet</translation>
 <translation id="3493881266323043047">Validesa</translation>
 <translation id="3495496470825196617">Inactiu mentre es carrega</translation>
-<translation id="3495660573538963482">Configuració de l'Assistent de Google</translation>
+<translation id="3495660573538963482">Configuració de l'Assistent de Decentr</translation>
 <translation id="3495675993466884458">L'administrador del sistema ha permès que <ph name="APP_ORIGIN" /> gravi la teva pantalla</translation>
 <translation id="3496213124478423963">Redueix</translation>
 <translation id="3496238553815913323"><ph name="LANGUAGE" /> (no seleccionat)</translation>
@@ -3593,7 +3593,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="362266093274784978">{COUNT,plural, =1{1 aplicació}other{# aplicacions}}</translation>
 <translation id="362333465072914957">S'està esperant que l'entitat emissora de certificats n'emeti un</translation>
 <translation id="3623598555687153298">Amb aquesta acció se suprimiran dades emmagatzemades pels llocs web mostrats (<ph name="TOTAL_USAGE" />)</translation>
-<translation id="3624567683873126087">Desbloqueja el dispositiu i inicia la sessió al Compte de Google</translation>
+<translation id="3624567683873126087">Desbloqueja el dispositiu i inicia la sessió al Compte de Decentr</translation>
 <translation id="3624583033347146597">Tria les teves preferències de galetes de tercers</translation>
 <translation id="3625481642044239431">S'ha seleccionat un fitxer no vàlid. Torna-ho a provar.</translation>
 <translation id="3626296069957678981">Per carregar aquest Chromebook, fes servir una bateria de Dell compatible.</translation>
@@ -3607,7 +3607,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3630995161997703415">Afegeix aquest lloc web al teu prestatge per utilitzar-lo en qualsevol moment</translation>
 <translation id="3634652306074934350">La sol·licitud de permís ha caducat</translation>
 <translation id="3635199270495525546">S'ha detectat un mòdul de plataforma de confiança (TPM)</translation>
-<translation id="3635353578505343390">Envia suggeriments a Google</translation>
+<translation id="3635353578505343390">Envia suggeriments a Decentr</translation>
 <translation id="3635960017746711110">Preferències d'USB de Crostini</translation>
 <translation id="3636766455281737684"><ph name="PERCENTAGE" />% - Temps restant: <ph name="TIME" /></translation>
 <translation id="3636940436873918441">Idiomes preferits</translation>
@@ -3735,7 +3735,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3719826155360621982">Pàgina d'inici</translation>
 <translation id="3720543739123045680">Altres pestanyes comparteixen un procés amb aquesta pestanya, cosa que pot provocar una experiència inesperada amb DevTools.</translation>
 <translation id="372062398998492895">CUPS</translation>
-<translation id="3721119614952978349">Tu i Google</translation>
+<translation id="3721119614952978349">Tu i Decentr</translation>
 <translation id="3721178866505920080">Més informació sobre com es pot activar la precàrrega ampliada</translation>
 <translation id="3722108462506185496">S'ha produït un error en iniciar el servei de màquina virtual. Torna-ho a provar.</translation>
 <translation id="3722624153992426516">S'ha rebut la instrucció <ph name="IMPORT_CERTIFICATE__INSTRUCTION_NAME" /></translation>
@@ -3760,7 +3760,7 @@ Pots gestionar la configuració d'aquest compte instal·lant l'aplicació Family
 <translation id="3732108843630241049">Aquest dispositiu ja no rep actualitzacions de programari automàtiques. Activa les actualitzacions de seguretat ampliades per mantenir la seguretat, l'estabilitat i el rendiment. Una part de la funcionalitat estarà limitada. <ph name="LINK_BEGIN" />Més informació<ph name="LINK_END" /></translation>
 <translation id="3732414796052961578">Continua com a <ph name="ACCOUNT_NAME" /></translation>
 <translation id="3732530910372558017">El PIN pot tenir com a màxim 63 caràcters</translation>
-<translation id="3732857534841813090">Informació relacionada amb l'Assistent de Google</translation>
+<translation id="3732857534841813090">Informació relacionada amb l'Assistent de Decentr</translation>
 <translation id="3733296813637058299">T'instal·larem aquestes aplicacions. Pots trobar més aplicacions per al teu <ph name="DEVICE_TYPE" /> a Play Store.</translation>
 <translation id="3735039640698208086">En reproduir àudio…</translation>
 <translation id="3735740477244556633">Ordena per</translation>
@@ -3911,7 +3911,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="3825635794653163640">Mostra el punt a la icona de l'aplicació per a les alertes d'aplicacions</translation>
 <translation id="3826071569074535339">Amb permís per utilitzar sensors de moviment</translation>
 <translation id="3826086052025847742">Registres de ChromeOS Flex</translation>
-<translation id="3826440694796503677">El teu administrador ha desactivat l'opció d'afegir més Comptes de Google</translation>
+<translation id="3826440694796503677">El teu administrador ha desactivat l'opció d'afegir més Comptes de Decentr</translation>
 <translation id="3827774300009121996">&amp;Pantalla completa</translation>
 <translation id="3828029223314399057">Cerca adreces d'interès</translation>
 <translation id="3828953470056652895">He llegit i accepto les <ph name="BEGIN_LINK1" />condicions del servei de Google<ph name="END_LINK1" />, les <ph name="BEGIN_LINK2" />condicions del servei addicionals de Chrome i Chrome OS<ph name="END_LINK2" /> i les <ph name="BEGIN_LINK3" />condicions del servei de Play<ph name="END_LINK3" />.</translation>
@@ -3969,7 +3969,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="3873315167136380065">Si vols activar aquesta opció, <ph name="BEGIN_LINK" />restableix la sincronització<ph name="END_LINK" /> per suprimir la frase de contrasenya de sincronització</translation>
 <translation id="3873423927483480833">Mostra els PIN</translation>
 <translation id="3873915545594852654">S'ha produït un problema amb ARC++.</translation>
-<translation id="3874164307099183178">Activa l'Assistent de Google</translation>
+<translation id="3874164307099183178">Activa l'Assistent de Decentr</translation>
 <translation id="3875511946736639169">Activa les imatges</translation>
 <translation id="3875815154304214043"><ph name="APP_NAME" /> s'ha configurat per obrir-se en una pestanya nova del navegador. Els enllaços compatibles també s'obriran al navegador. <ph name="BEGIN_LINK_LEARN_MORE" />Més informació<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="3876219572815410515">Mida de les finestres modificada per la part superior</translation>
@@ -4268,7 +4268,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4093865285251893588">Imatge de perfil</translation>
 <translation id="4093955363990068916">Fitxer local:</translation>
 <translation id="4094647278880271855">Utilitzes una variable d'entorn que no és compatible: <ph name="BAD_VAR" />. L'estabilitat i la seguretat quedaran afectades.</translation>
-<translation id="4095246243698959793">Per sincronitzar i utilitzar claus d'accés de Google</translation>
+<translation id="4095246243698959793">Per sincronitzar i utilitzar claus d'accés de Decentr</translation>
 <translation id="4095264805865317199">Obre la IU d'activació de la xarxa mòbil</translation>
 <translation id="4095425503313512126">Navegar i fer cerques és més ràpid</translation>
 <translation id="4095483462103784441">Crea un grup de pestanyes nou</translation>
@@ -4277,7 +4277,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4096797685681362305">S'ha vist la darrera setmana</translation>
 <translation id="4097406557126260163">Aplicacions i extensions</translation>
 <translation id="409742781329613461">Consells per utilitzar Chrome</translation>
-<translation id="4097560579602855702">Cerca a Google</translation>
+<translation id="4097560579602855702">Cerca a Decentr</translation>
 <translation id="4098667039111970300">Eines del llapis òptic a la barra d'eines</translation>
 <translation id="4099874310852108874">S'ha produït un error de la xarxa.</translation>
 <translation id="4100020874626534113">Permet l'assignació diacrítica flexible. Per exemple, pots escriure "anhs" o "asnh" per obtenir "ánh".</translation>
@@ -4590,7 +4590,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4348766275249686434">Recopila els errors</translation>
 <translation id="4349828822184870497">És útil</translation>
 <translation id="4350230709416545141">Impedeix sempre que <ph name="HOST" /> accedeixi a la meva ubicació</translation>
-<translation id="4350782034419308508">Ok Google</translation>
+<translation id="4350782034419308508">Ok Decentr</translation>
 <translation id="435185728237714178">Ves a l'aplicació <ph name="APP_NAME" /> per gestionar les aplicacions instal·lades i reproduïdes en continu</translation>
 <translation id="4354073718307267720">Pregunta'm quan un lloc web vulgui crear un mapa en 3D del meu entorn o fer un seguiment de la posició de la càmera</translation>
 <translation id="4354344420232759511">Els llocs web que visitis es mostraran aquí</translation>
@@ -4689,7 +4689,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4414242853388122273">S'ha produït un error en suprimir <ph name="VM_NAME" />. Torna-ho a provar.</translation>
 <translation id="4415213869328311284">Ja pots començar a utilitzar <ph name="DEVICE_TYPE" />.</translation>
 <translation id="4415245286584082850">No s'ha trobat cap dispositiu. Obre un article del centre d'ajuda en una pestanya nova.</translation>
-<translation id="4415276339145661267">Gestiona el teu Compte de Google</translation>
+<translation id="4415276339145661267">Gestiona el teu Compte de Decentr</translation>
 <translation id="4415748029120993980">Corba el·líptica secp384r1 d'SECG (també coneguda com a NIST P-384)</translation>
 <translation id="4415815425191869676">Mantén aquests llocs web sempre actius</translation>
 <translation id="4416582610654027550">Escriu un URL vàlid</translation>
@@ -4774,7 +4774,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4490086832405043258">Utilitza la configuració del servidor intermediari de Chrome OS per a aquest perfil.</translation>
 <translation id="4490798467014431984">Les extensions no es permeten en aquest lloc web</translation>
 <translation id="449102748655090594">S'estan agrupant les pestanyes…</translation>
-<translation id="449126573531210296">Encripta contrasenyes sincronitzades amb el teu Compte de Google</translation>
+<translation id="449126573531210296">Encripta contrasenyes sincronitzades amb el teu Compte de Decentr</translation>
 <translation id="4492265221907525667">Per tal d'utilitzar aquesta nova funció experimental, inicia la sessió.</translation>
 <translation id="449232563137139956">Els llocs web solen mostrar imatges per il·lustrar el contingut, com ara fotos a les botigues en línia o als articles de notícies</translation>
 <translation id="4492698018379445570">Troba el que has afegit als carretons de compra i paga estiguis a punt</translation>
@@ -4849,7 +4849,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4545759655004063573">No es pot desar perquè no hi ha prou permisos. Deseu-ho en un altre lloc.</translation>
 <translation id="4546345569117159016">Botó dret</translation>
 <translation id="4546509872654834602"><ph name="SUPERVISED_USER_NAME" /> vol utilitzar aquesta extensió:</translation>
-<translation id="4546692474302123343">Entrada de veu de l'Assistent de Google</translation>
+<translation id="4546692474302123343">Entrada de veu de l'Assistent de Decentr</translation>
 <translation id="4547659257713117923">Cap pestanya d'altres dispositius</translation>
 <translation id="4547672827276975204">Defineix automàticament</translation>
 <translation id="4549791035683739768">La clau de seguretat no té empremtes digitals emmagatzemades</translation>
@@ -5029,7 +5029,7 @@ que pot incloure dades del programari instal·lat, de fitxers, del navegador i d
 <translation id="4676595058027112862">El meu telèfon, Més informació</translation>
 <translation id="4676616966096505747">Algunes dades encara no s'han desat al teu compte</translation>
 <translation id="4677772697204437347">Memòria de la GPU</translation>
-<translation id="467809019005607715">Presentacions de Google</translation>
+<translation id="467809019005607715">Presentacions de Decentr</translation>
 <translation id="4678848110205818817">Targeta de crèdit/dèbit</translation>
 <translation id="4680105648806843642">El so s'ha silenciat en aquesta pàgina</translation>
 <translation id="4680112532510845139">Arrossega una imatge aquí</translation>
@@ -5200,7 +5200,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="481689174647911539">Aquest fitxer pot ser un virus o programari maliciós.<ph name="LINE_BREAK" />Pots enviar-lo a Navegació segura de Google per comprovar si no és segur. Les anàlisis solen tardar uns quants segons.</translation>
 <translation id="4816900689218414104">Crea una clau d'accés en un telèfon o una tauleta</translation>
 <translation id="4819323978093861656">{0,plural, =0{S'està tancant ara.}=1{Es tancarà d'aquí a 1 segon}other{Es tancarà d'aquí a # segons}}</translation>
-<translation id="4819607494758673676">Notificacions de l'Assistent de Google</translation>
+<translation id="4819607494758673676">Notificacions de l'Assistent de Decentr</translation>
 <translation id="4819818293886748542">Obtén un enllaç a l'eina d'assistència</translation>
 <translation id="4820082996741546682">Amb permís per bloquejar el teclat</translation>
 <translation id="4820236583224459650">Estableix com a tiquet actiu</translation>
@@ -5240,7 +5240,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="4846628405149428620">Selecciona on pot desar els canvis aquest lloc web</translation>
 <translation id="4846680374085650406">Esteu seguint la recomanació de l'administració per a aquesta configuració.</translation>
 <translation id="4847242508757499006">Tria Torna-ho a provar. Per utilitzar opcions de visualització i d'edició limitades, tria Obre a l'editor bàsic.</translation>
-<translation id="4848191975108266266">"Ok Google" de l'Assistent de Google</translation>
+<translation id="4848191975108266266">"Ok Google" de l'Assistent de Decentr</translation>
 <translation id="4849286518551984791">Temps universal coordinat (UTC/GMT)</translation>
 <translation id="4849517651082200438">No instal·lis</translation>
 <translation id="485053257961878904">No s'ha pogut configurar la sincronització de notificacions</translation>
@@ -5472,7 +5472,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="5021750053540820849">Encara no s'ha actualitzat</translation>
 <translation id="5022206631034207923">Pantalla de bloqueig, controls</translation>
 <translation id="5024511550058813796">Tindràs l'historial en tots els dispositius sincronitzats perquè puguis continuar el que estaves fent</translation>
-<translation id="5026492829171796515">Inicia la sessió per afegir un Compte de Google</translation>
+<translation id="5026492829171796515">Inicia la sessió per afegir un Compte de Decentr</translation>
 <translation id="5026806129670917316">Activa la Wi-Fi</translation>
 <translation id="5026874946691314267">No tornis a mostrar aquest missatge</translation>
 <translation id="5027550639139316293">Certificat de correu electrònic</translation>
@@ -5790,7 +5790,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="5261619498868361045">El nom del contenidor no pot estar buit.</translation>
 <translation id="5261683757250193089">Obre a Web Store</translation>
 <translation id="5261799091118902550">Aquest fitxer pot ser un virus o programari maliciós. Pots enviar-lo a Google per comprovar si no és segur.</translation>
-<translation id="5262334727506665688">Continua desant les contrasenyes al teu Compte de Google</translation>
+<translation id="5262334727506665688">Continua desant les contrasenyes al teu Compte de Decentr</translation>
 <translation id="5262784498883614021">Connecta a la xarxa automàticament</translation>
 <translation id="5263656105659419083">Per tornar fàcilment al tauler lateral, a la part superior dreta, fes clic a Fixa</translation>
 <translation id="5264148714798105376">Aquesta acció pot tardar més o menys un minut.</translation>
@@ -5901,7 +5901,7 @@ Fes servir Ctrl+Alt+disminueix la brillantor per reduir.</translation>
 <translation id="534449933710420173">Carpeta sense nom</translation>
 <translation id="5345916423802287046">Obre l'aplicació en iniciar la sessió</translation>
 <translation id="5347920333985823270">Chrome permet un web gratuït</translation>
-<translation id="5350293332385664455">Desactiva l'Assistent de Google</translation>
+<translation id="5350293332385664455">Desactiva l'Assistent de Decentr</translation>
 <translation id="535123479159372765">Text copiat des d'un altre dispositiu</translation>
 <translation id="5352033265844765294">Indicació de data i hora</translation>
 <translation id="5352257124367865087">Gestiona els permisos dels llocs web</translation>
@@ -5972,7 +5972,7 @@ Pots assignar diferents interruptors a aquesta acció.</translation>
 <translation id="5406844893187365798">Escriptura flexible</translation>
 <translation id="5407167491482639988">Inintel·ligible</translation>
 <translation id="5408750356094797285">Zoom: <ph name="PERCENT" /></translation>
-<translation id="5409044712155737325">Del teu Compte de Google</translation>
+<translation id="5409044712155737325">Del teu Compte de Decentr</translation>
 <translation id="5410889048775606433">Fúcsia</translation>
 <translation id="5411022484772257615">No s'ha pogut completar la inscripció al centre educatiu</translation>
 <translation id="5411856344659127989">Si vols afegir un compte per a algú altre, <ph name="LINK_BEGIN" />afegeix una persona nova<ph name="LINK_END" /> al teu <ph name="DEVICE_TYPE" />.
@@ -6127,7 +6127,7 @@ Pots assignar diferents interruptors a aquesta acció.</translation>
 <translation id="5507756662695126555">No repudiació</translation>
 <translation id="5509693895992845810">Desa &amp;com a...</translation>
 <translation id="5509914365760201064">Emissor: <ph name="CERTIFICATE_AUTHORITY" /></translation>
-<translation id="5510775624736435856">Obtén descripcions d'imatges de Google</translation>
+<translation id="5510775624736435856">Obtén descripcions d'imatges de Decentr</translation>
 <translation id="5511379779384092781">Molt petit</translation>
 <translation id="5511823366942919280">Confirmes que vols configurar aquest dispositiu com a "Tauró"?</translation>
 <translation id="5512739112435045339">Allibera espai al dispositiu. A continuació, torna a provar de baixar el fitxer.</translation>
@@ -6159,7 +6159,7 @@ Pots assignar diferents interruptors a aquesta acció.</translation>
 <translation id="5533001281916885985"><ph name="SITE_NAME" /> vol</translation>
 <translation id="5533343601674003130">Servei de PDF</translation>
 <translation id="5537725057119320332">Emet</translation>
-<translation id="5539070192556911367">No es pot accedir a Google</translation>
+<translation id="5539070192556911367">No es pot accedir a Decentr</translation>
 <translation id="5541694225089836610">L'administrador ha desactivat l'acció</translation>
 <translation id="5542132724887566711">Perfil</translation>
 <translation id="5542750926112347543">S'han bloquejat les galetes del domini <ph name="DOMAIN" /></translation>
@@ -6323,7 +6323,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="565515993087783098">Si oblides aquesta xarxa, també suprimiràs la subscripció a Passpoint i les xarxes que hi estan associades.</translation>
 <translation id="5655296450510165335">Inscripció de dispositius</translation>
 <translation id="5655823808357523308">Ajusta com es mostren els colors a la pantalla</translation>
-<translation id="5656845498778518563">Envia suggeriments a Google</translation>
+<translation id="5656845498778518563">Envia suggeriments a Decentr</translation>
 <translation id="5657667036353380798">L'extensió externa requereix que tingueu instal·lada la versió de Chrome <ph name="MINIMUM_CHROME_VERSION" /> o una de posterior.</translation>
 <translation id="565899488479822148">S'està instal·lant la darrera actualització</translation>
 <translation id="5659593005791499971">Adreça electrònica</translation>
@@ -6441,7 +6441,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="5759397201362801675">Tria un estat d'ànim</translation>
 <translation id="5759728514498647443"><ph name="APP_NAME" /> pot llegir els documents que envieu a la impressora mitjançant <ph name="APP_NAME" />.</translation>
 <translation id="5760318332127300368">Suprimeix també les dades de navegació (<ph name="URL" />). Pot ser que, en fer-ho, se't tanqui la sessió de Google.com. <ph name="LEARN_MORE" /></translation>
-<translation id="5762787084360227629">Introdueix la informació del Compte de Google</translation>
+<translation id="5762787084360227629">Introdueix la informació del Compte de Decentr</translation>
 <translation id="5763751966069581670">No s'ha trobat cap dispositiu USB</translation>
 <translation id="5764483294734785780">De&amp;sa l'àudio com a...</translation>
 <translation id="57646104491463491">Data de modificació</translation>
@@ -6635,7 +6635,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="5896436821193322561">No permetis</translation>
 <translation id="5899860758576822363">Reprodueix a un volum més baix quan ChromeVox parli</translation>
 <translation id="5900243355162006650">Configuració de la compartició de xarxa:</translation>
-<translation id="5900302528761731119">Foto del perfil de Google</translation>
+<translation id="5900302528761731119">Foto del perfil de Decentr</translation>
 <translation id="590036993063074298">Informació sobre la qualitat de la duplicació</translation>
 <translation id="5901069264981746702">Les dades de l'empremta digital s'emmagatzemen de manera segura i no surten mai del <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Més informació<ph name="LINK_END" /></translation>
 <translation id="5901089233978050985">Canvia a la pestanya en procés de captura</translation>
@@ -6650,7 +6650,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="5909379458939060601">Vols suprimir aquest perfil i les dades de navegació?</translation>
 <translation id="5910363049092958439">De&amp;sa la imatge com a...</translation>
 <translation id="5910726859585389579"><ph name="DEVICE_TYPE" /> no té connexió</translation>
-<translation id="5911030830365207728">Traductor de Google</translation>
+<translation id="5911030830365207728">Traductor de Decentr</translation>
 <translation id="5911497236110691522">Per canviar al mètode d'introducció de text següent, prem <ph name="KEY_CODES" /></translation>
 <translation id="5911533659001334206">Visualitzador de dreceres</translation>
 <translation id="5911545422157959623">Les adreces d'interès no estan disponibles en mode de convidat</translation>
@@ -6853,7 +6853,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6071181508177083058">confirmeu la contrasenya</translation>
 <translation id="6071576563962215370">El sistema no ha pogut establir el bloqueig dels atributs de temps d'instal·lació del dispositiu.</translation>
 <translation id="6071938745001252305"><ph name="MEMORY_VALUE" /> de memòria estalviada</translation>
-<translation id="6071995715087444295">Per comprovar si hi ha contrasenyes en perill, inicia la sessió al teu Compte de Google</translation>
+<translation id="6071995715087444295">Per comprovar si hi ha contrasenyes en perill, inicia la sessió al teu Compte de Decentr</translation>
 <translation id="6072442788591997866">No es permet <ph name="APP_NAME" /> en aquest dispositiu. Contacta amb l'administrador. Codi d'error: <ph name="ERROR_CODE" />.</translation>
 <translation id="6073292342939316679">disminueix la brillantor del teclat</translation>
 <translation id="6073451960410192870">Atura la gravació</translation>
@@ -6899,7 +6899,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6102043788063419338">La Protecció avançada ha bloquejat aquest fitxer.</translation>
 <translation id="6103681770816982672">Advertiment: esteu canviant al canal per a desenvolupadors</translation>
 <translation id="610395411842312282">Agrupa dues finestres l'una al costat de l'altra</translation>
-<translation id="6104068876731806426">Comptes de Google</translation>
+<translation id="6104068876731806426">Comptes de Decentr</translation>
 <translation id="6104667115274478616">Gestiona la configuració d'àudio de ChromeOS</translation>
 <translation id="6104796831253957966">La impressora té la cua plena</translation>
 <translation id="610487644502954950">S'ha deixat de fixar el tauler lateral</translation>
@@ -6907,7 +6907,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6106167152849320869">Si també has decidit enviar dades de diagnòstic i d'ús al pas anterior, es recolliran per a les aplicacions instal·lades.</translation>
 <translation id="6108952804512516814">Crea amb IA</translation>
 <translation id="6111718295497931251">Suprimeix l'accés a Google Drive</translation>
-<translation id="6111972606040028426">Activa l'Assistent de Google</translation>
+<translation id="6111972606040028426">Activa l'Assistent de Decentr</translation>
 <translation id="6112727384379533756">Afegeix un tiquet</translation>
 <translation id="6112931163620622315">Comprova el telèfon</translation>
 <translation id="6113434369102685411">Defineix el motor de cerca predeterminat per al navegador Chrome i el menú d'aplicacions de <ph name="DEVICE_TYPE" /></translation>
@@ -7096,7 +7096,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6244245036423700521">Importa un fitxer ONC</translation>
 <translation id="6245523954602476652">Pots accedir-hi des del gestor de contrasenyes de Google.</translation>
 <translation id="6246790815526961700">Penja des del dispositiu</translation>
-<translation id="6247557882553405851">Gestor de contrasenyes de Google</translation>
+<translation id="6247557882553405851">Gestor de contrasenyes de Decentr</translation>
 <translation id="6247620186971210352">No s'ha trobat cap aplicació</translation>
 <translation id="6247708409970142803"><ph name="PERCENTAGE" />%</translation>
 <translation id="6247802389331535091">Sistema: <ph name="ARC_PROCESS_NAME" /></translation>
@@ -7307,7 +7307,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6415900369006735853">Connecta't a Internet a través del telèfon</translation>
 <translation id="6416743254476733475">Permet o bloqueja a l'ordinador.</translation>
 <translation id="6416856063840710198">Per millorar la teva visita, els llocs web solen desar la teva activitat, sovint al teu dispositiu. <ph name="SETTINGS" /></translation>
-<translation id="6417265370957905582">Assistent de Google</translation>
+<translation id="6417265370957905582">Assistent de Decentr</translation>
 <translation id="6417468503703810114">Comportament predeterminat</translation>
 <translation id="6418160186546245112">S'està tornant a la versió de <ph name="IDS_SHORT_PRODUCT_NAME" /> instal·lada anteriorment.</translation>
 <translation id="641817663353603351">Re Pàg</translation>
@@ -7453,7 +7453,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6532206849875187177">Seguretat i inici de sessió</translation>
 <translation id="6532527800157340614">L'inici de sessió ha fallat perquè no s'ha pogut recuperar el testimoni d'accés. Comprova la connexió de xarxa i torna-ho a provar.</translation>
 <translation id="6532663472409656417">Inscrit en una empresa</translation>
-<translation id="6533315466883598769">Utilitza el Traductor de Google</translation>
+<translation id="6533315466883598769">Utilitza el Traductor de Decentr</translation>
 <translation id="65334502113648172">Prem les tecles de fletxa per reduir o ampliar l'àrea de visualització. Per moure l'àrea de visualització, prem Maj i +. Després, fes servir les tecles de fletxa.</translation>
 <translation id="6535331821390304775">Permet sempre que <ph name="ORIGIN" /> obri els enllaços d'aquest tipus a l'aplicació associada</translation>
 <translation id="653659894138286600">Escaneja documents i imatges</translation>
@@ -7475,7 +7475,7 @@ Assegureu-vos que no es pugui accedir a informació sensible.</translation>
 <translation id="6547854317475115430"><ph name="BEGIN_PARAGRAPH1" />El servei d'ubicació de Google utilitza fonts com ara sensors, xarxes mòbils i Wi-Fi per estimar la ubicació del dispositiu.<ph name="END_PARAGRAPH1" />
     <ph name="BEGIN_PARAGRAPH2" />Pots desactivar la ubicació d'Android del teu dispositiu en qualsevol moment anant a Configuració &gt; Aplicacions &gt; Google Play Store &gt; Gestiona les preferències d'Android &gt; Seguretat i ubicació &gt; Ubicació. També pots desactivar l'ús de sensors, xarxes mòbils i Wi-Fi per a la ubicació d'Android desactivant "Precisió d'ubicació de Google" al mateix menú.<ph name="END_PARAGRAPH2" /></translation>
 <translation id="654871471440386944">Vols activar la navegació amb cursor de text?</translation>
-<translation id="6548945820758901244">Obre el tauler lateral de la Cerca de Google</translation>
+<translation id="6548945820758901244">Obre el tauler lateral de la Cerca de Decentr</translation>
 <translation id="6549038875972762904">Refés la configuració</translation>
 <translation id="6550675742724504774">Opcions</translation>
 <translation id="6550790536557204077"><ph name="MANAGER" /> <ph name="BEGIN_LINK" />gestiona el teu perfil<ph name="END_LINK" /></translation>
@@ -7657,7 +7657,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="6686490380836145850">Tanca les pestanyes de la dreta</translation>
 <translation id="6686665106869989887">La pestanya s'ha mogut cap a la dreta</translation>
 <translation id="6686817083349815241">Desa la contrasenya</translation>
-<translation id="6687008241368170505">Canvia el PIN del gestor de contrasenyes de Google</translation>
+<translation id="6687008241368170505">Canvia el PIN del gestor de contrasenyes de Decentr</translation>
 <translation id="6687079240787935001">Amaga <ph name="MODULE_TITLE" /></translation>
 <translation id="6689714331348768690">Demana a <ph name="SUPERVISED_USER_NAME" /> que vingui a l'ordinador. El teu fill haurà de llegir unes quantes frases en aquesta pantalla per crear el seu model de veu.
     <ph name="BR" />
@@ -7746,7 +7746,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="6762861159308991328">Pots canviar la manera com s'obren els enllaços a la configuració de l'aplicació</translation>
 <translation id="6764633064754857889">Previsualitza l'enllaç</translation>
 <translation id="676560328519657314">Les teves formes de pagament a Google Pay</translation>
-<translation id="6766488013065406604">Ves al gestor de contrasenyes de Google</translation>
+<translation id="6766488013065406604">Ves al gestor de contrasenyes de Decentr</translation>
 <translation id="6767566652486411142">Tria un altre idioma...</translation>
 <translation id="6768034047581882264">Sense permís per mostrar contingut no segur</translation>
 <translation id="6769902329858794251"><ph name="BEGIN_PARAGRAPH1" />Per oferir la millor experiència possible, <ph name="DEVICE_OS" /> recull dades de maquinari dels dispositius i les comparteix amb Google per determinar quines actualitzacions cal fer. De manera opcional, pots permetre que Google utilitzi aquestes dades per a finalitats addicionals, com ara oferir assistència i millores a l'experiència i el servei de <ph name="DEVICE_OS" />.<ph name="END_PARAGRAPH1" />
@@ -7814,7 +7814,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="6805647936811177813">Inicieu la sessió a <ph name="TOKEN_NAME" /> per importar el certificat de client de <ph name="HOST_NAME" />.</translation>
 <translation id="680572642341004180">Activa el seguiment RLZ a <ph name="SHORT_PRODUCT_OS_NAME" />.</translation>
 <translation id="6806089545527108739">No permetis, però pregunta més tard</translation>
-<translation id="680644983456221885">Protecció proactiva en temps real contra baixades, extensions i llocs web perillosos basada en les teves dades de navegació enviades a Google</translation>
+<translation id="680644983456221885">Protecció proactiva en temps real contra baixades, extensions i llocs web perillosos basada en les teves dades de navegació enviades a Decentr</translation>
 <translation id="6808039367995747522">Per continuar, insereix i toca la clau de seguretat</translation>
 <translation id="6808166974213191158">Escriptor d'imatges del sistema ChromeOS Flex</translation>
 <translation id="6808193438228982088">Guineu</translation>
@@ -7860,13 +7860,13 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="6828182567531805778">Introdueix la teva frase de contrasenya per sincronitzar les dades</translation>
 <translation id="682871081149631693">QuickFix</translation>
 <translation id="6828860976882136098">No s'han pogut configurar actualitzacions automàtiques per a tots els usuaris (error de comprovació preliminar: <ph name="ERROR_NUMBER" />)</translation>
-<translation id="682971198310367122">Política de privadesa de Google</translation>
+<translation id="682971198310367122">Política de privadesa de Decentr</translation>
 <translation id="6831043979455480757">Tradueix</translation>
 <translation id="6832218595502288407">Alinea a l'esquerra</translation>
 <translation id="6833479554815567477">La pestanya s'ha suprimit del grup <ph name="GROUP_NAME" />: <ph name="GROUP_CONTENTS" /></translation>
 <translation id="6833753236242482566">Equilibrat (opció recomanada)</translation>
 <translation id="6835762382653651563">Connecteu-vos a Internet per actualitzar el dispositiu <ph name="DEVICE_TYPE" />.</translation>
-<translation id="683630338945552556">Utilitza i desa contrasenyes al teu Compte de Google</translation>
+<translation id="683630338945552556">Utilitza i desa contrasenyes al teu Compte de Decentr</translation>
 <translation id="6839225236531462745">Error de supressió del certificat</translation>
 <translation id="6839916869147598086">L'inici de sessió ha canviat</translation>
 <translation id="6840155290835956714">Pregunta abans d'enviar</translation>
@@ -7985,7 +7985,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="6925127338315966709">Estàs afegint un perfil gestionat a aquest navegador. El teu administrador té control sobre el perfil i pot accedir a les dades associades. Les adreces d'interès, l'historial, les contrasenyes i altres opcions de configuració es poden sincronitzar amb el teu compte i el teu administrador els pot gestionar.</translation>
 <translation id="6928650056523249512">Suprimeix automàticament els permisos dels llocs web no utilitzats</translation>
 <translation id="6929126689972602640">Els controls parentals no s'admeten als comptes de centres educatius. Si vols afegir un compte de centre educatiu per accedir a Google Classroom i a altres llocs web on fer el treball escolar a casa, inicia primer la sessió amb el compte personal del nen. Pots afegir el compte de centre educatiu més endavant a la configuració.</translation>
-<translation id="6929760895658557216">Ok Google</translation>
+<translation id="6929760895658557216">Ok Decentr</translation>
 <translation id="6930161297841867798">{NUM_EXTENSIONS,plural, =1{S'ha rebutjat una extensió}other{S'han rebutjat # extensions}}</translation>
 <translation id="6931690462168617033">Intensitat de clic</translation>
 <translation id="6933321725007230600">Activa la &amp;sincronització...</translation>
@@ -8067,7 +8067,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="6985607387932385770">Impressores</translation>
 <translation id="6988094684494323731">S'està iniciant el contenidor de Linux</translation>
 <translation id="6988403677482707277">La pestanya s'ha mogut a l'inici de la barra de pestanyes</translation>
-<translation id="6988572888918530647">Gestiona el teu Compte de Google</translation>
+<translation id="6988572888918530647">Gestiona el teu Compte de Decentr</translation>
 <translation id="6989274756151920076">Continua aquí</translation>
 <translation id="6991665348624301627">Selecció d'una destinació</translation>
 <translation id="6991926986715044139">Mostra sempre la drecera de Google Lens</translation>
@@ -8312,7 +8312,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="718512729823942418">No hi ha cap micròfon disponible</translation>
 <translation id="7186088072322679094">Conserva a la barra d'eines</translation>
 <translation id="7186303001964993981"><ph name="ORIGIN" /> no pot obrir aquesta carpeta perquè conté fitxers del sistema</translation>
-<translation id="7186568385131859684">Controla com s'utilitza l'historial de navegació amb les teves altres dades als serveis de Google</translation>
+<translation id="7186568385131859684">Controla com s'utilitza l'historial de navegació amb les teves altres dades als serveis de Decentr</translation>
 <translation id="7188508872042490670">Dades dels llocs web al dispositiu</translation>
 <translation id="7189234443051076392">Comprova que hi hagi prou espai al dispositiu</translation>
 <translation id="7189451821249468368">No tens prou actualitzacions per inscriure aquest dispositiu. Contacta amb l'equip de vendes per comprar-ne més. Si creus que veus aquest missatge per error, posa't en contacte amb el servei d'assistència.</translation>
@@ -8502,7 +8502,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="7339898014177206373">Finestra nova</translation>
 <translation id="7340179705876485790">Per tornar enrere més d'una pàgina, fes clic i mantén premut el botó Enrere.</translation>
 <translation id="7340650977506865820">El lloc web està compartint la pantalla</translation>
-<translation id="7340757554212515731">Envia automàticament informes d'error i dades de diagnòstic i d'ús a Google</translation>
+<translation id="7340757554212515731">Envia automàticament informes d'error i dades de diagnòstic i d'ús a Decentr</translation>
 <translation id="734088800888587319">Mètriques de la xarxa</translation>
 <translation id="7341834142292923918">Vol accedir a aquest lloc web</translation>
 <translation id="7343372807593926528">Descriu el problema abans d'enviar suggeriments.</translation>
@@ -8655,7 +8655,7 @@ Tens # contrasenyes més en perill. El gestor de contrasenyes de Google recomana
 <translation id="7441830548568730290">Altres usuaris</translation>
 <translation id="744341768939279100">Crea un perfil</translation>
 <translation id="744366959743242014">S'estan carregant les dades. Aquest procés pot tardar uns quants segons.</translation>
-<translation id="7443806024147773267">Accedeix a les contrasenyes sempre que tinguis la sessió iniciada al Compte de Google</translation>
+<translation id="7443806024147773267">Accedeix a les contrasenyes sempre que tinguis la sessió iniciada al Compte de Decentr</translation>
 <translation id="7444176988908839653">{COUNT,plural, =0{Les galetes es tornaran a bloquejar avui}=1{Les galetes es tornaran a bloquejar demà}other{# dies perquè es tornin a bloquejar les galetes}}</translation>
 <translation id="7444970023873202833">Explora més records teus a Google Fotos</translation>
 <translation id="7444983668544353857">Desactiva <ph name="NETWORKDEVICE" /></translation>
@@ -9091,7 +9091,7 @@ Prem un interruptor o una tecla assignats per suprimir una assignació.</transla
 <translation id="7764225426217299476">Afegeix una adreça</translation>
 <translation id="7764256770584298012"><ph name="DOWNLOAD_RECEIVED" /> del domini <ph name="DOWNLOAD_DOMAIN" /></translation>
 <translation id="7764527477537408401">Obre el grup en una finestra nova</translation>
-<translation id="7764909446494215916">Gestiona el teu &amp;Compte de Google</translation>
+<translation id="7764909446494215916">Gestiona el teu &amp;Compte de Decentr</translation>
 <translation id="7765158879357617694">Mou</translation>
 <translation id="7765507180157272835">Es necessita Bluetooth i Wi‑Fi</translation>
 <translation id="7766082757934713382">Ajuda a reduir l'ús de dades de la xarxa en posar en pausa les actualitzacions automàtiques d'aplicacions i del sistema</translation>
@@ -9123,7 +9123,7 @@ Prem un interruptor o una tecla assignats per suprimir una assignació.</transla
 <translation id="7777624210360383048">Drecera <ph name="SHORTCUT" /> per a <ph name="EXTENSION_NAME" /></translation>
 <translation id="7779840061887151693">pantalla</translation>
 <translation id="7781335840981796660">Se suprimiran tots els comptes d'usuari i totes les dades locals.</translation>
-<translation id="7782102568078991263">Cap suggeriment més de Google</translation>
+<translation id="7782102568078991263">Cap suggeriment més de Decentr</translation>
 <translation id="7782717250816686129">Emmagatzema les dades permanents a la pàgina d'inici de sessió i insereix les credencials per iniciar la sessió.</translation>
 <translation id="778330624322499012">No s'ha pogut carregar <ph name="PLUGIN_NAME" /></translation>
 <translation id="7784067724422331729">La configuració de seguretat del vostre ordinador ha bloquejat aquest fitxer.</translation>
@@ -9239,7 +9239,7 @@ Prem un interruptor o una tecla assignats per suprimir una assignació.</transla
 <translation id="7859560813397128941">Suprimeix l'extensió <ph name="EXTENSION_NAME" /></translation>
 <translation id="786073089922909430">Servei: <ph name="ARC_PROCESS_NAME" /></translation>
 <translation id="7861215335140947162">&amp;Baixades</translation>
-<translation id="7861846108263890455">Idioma del Compte de Google</translation>
+<translation id="7861846108263890455">Idioma del Compte de Decentr</translation>
 <translation id="7864114920800968141">D'aquí a <ph name="NUM_MIN" /> min</translation>
 <translation id="7864539943188674973">Desactiva el Bluetooth</translation>
 <translation id="7864825798076155402">Vols que es desi al teu Compte de Google?</translation>
@@ -9491,7 +9491,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8041089156583427627">Envia suggeriments</translation>
 <translation id="8041267120753677077">Reprodueix en continu aplicacions del telèfon</translation>
 <translation id="8042142357103597104">Opacitat del text</translation>
-<translation id="8042331986490021244">Les contrasenyes s'encripten al dispositiu abans de desar-les al gestor de contrasenyes de Google</translation>
+<translation id="8042331986490021244">Les contrasenyes s'encripten al dispositiu abans de desar-les al gestor de contrasenyes de Decentr</translation>
 <translation id="8044262338717486897"><ph name="LINUX_APP_NAME" /> no respon.</translation>
 <translation id="8044899503464538266">Lenta</translation>
 <translation id="8045253504249021590">La sincronització s'ha aturat a través del Tauler de control de Google.</translation>
@@ -9548,7 +9548,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="80790299200510644">Cerca d'imatges</translation>
 <translation id="80798452873915119">Els llocs web poden demanar permís per gestionar finestres en totes les pantalles</translation>
 <translation id="8080028325999236607">Tanca totes les pestanyes</translation>
-<translation id="808089508890593134">Google</translation>
+<translation id="808089508890593134">Decentr</translation>
 <translation id="8081623398548615289">La sessió està gestionada per <ph name="MANAGER_NAME" />. Els administradors poden suprimir el teu perfil i també monitorar el teu trànsit de xarxa.</translation>
 <translation id="8081989000209387414">Vols desactivar la depuració d'ADB?</translation>
 <translation id="8082106343289440791">El vols vincular amb "<ph name="DEVICE_NAME" />"?</translation>
@@ -9563,7 +9563,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8086610718778464681">No es pot crear una còpia de seguretat de les aplicacions i dels fitxers de Linux</translation>
 <translation id="80866457114322936">{NUM_FILES,plural, =1{Aquest fitxer està encriptat. Demana al propietari que el desencripti.}other{Alguns d'aquests fitxers estan encriptats. Demana al propietari que els desencripti.}}</translation>
 <translation id="808894953321890993">Canvia la contrasenya</translation>
-<translation id="8089547136368562137">Està protegida per la millor tecnologia de Google</translation>
+<translation id="8089547136368562137">Està protegida per la millor tecnologia de Decentr</translation>
 <translation id="8090234456044969073">Llegir una llista dels llocs web més visitats</translation>
 <translation id="8090513782447872344">Pots tornar-hi en qualsevol moment per donar-hi una altra ullada</translation>
 <translation id="8090579562279016251">Redueix el rendiment, però fa que V8 sigui més resistent als atacs</translation>
@@ -9698,7 +9698,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8186609076106987817">El servidor no ha pogut trobar el fitxer.</translation>
 <translation id="8188389033983459049">Comprova la configuració del dispositiu i activa'l per continuar</translation>
 <translation id="8188742492803591566">Introdueix el codi d'accés que es mostra al Chromecast o al televisor per començar a emetre a la pantalla.</translation>
-<translation id="8189257540098107776">No es pot accedir al gestor de contrasenyes de Google</translation>
+<translation id="8189257540098107776">No es pot accedir al gestor de contrasenyes de Decentr</translation>
 <translation id="8189306097519446565">Comptes de centre educatiu</translation>
 <translation id="8189750580333936930">Privacy Sandbox</translation>
 <translation id="8191230140820435481">Gestionar les aplicacions, les extensions i els temes</translation>
@@ -9851,7 +9851,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8295450130892483256">Instal·la Microsoft 365</translation>
 <translation id="8297292446125062288">Configuració d'HID</translation>
 <translation id="8298429963694909221">Ara pots rebre les notificacions del telèfon al teu <ph name="DEVICE_TYPE" />. Si ignores les notificacions al <ph name="DEVICE_TYPE" />, també s'ignoraran al telèfon. Comprova que el telèfon sigui a prop teu i que tingui el Bluetooth i la Wi‑Fi activats.</translation>
-<translation id="829923460755755423">Afegeix una drecera al gestor de contrasenyes de Google</translation>
+<translation id="829923460755755423">Afegeix una drecera al gestor de contrasenyes de Decentr</translation>
 <translation id="8299319456683969623">En aquests moments no tens connexió.
 </translation>
 <translation id="829937697336000302">Augmenta la productivitat</translation>
@@ -9935,7 +9935,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8357388086258943206">S'ha produït un error en instal·lar Linux</translation>
 <translation id="8358685469073206162">Voleu restaurar les pàgines?</translation>
 <translation id="8358912028636606457">L'emissió d'àudio de la pestanya no és compatible amb aquest dispositiu.</translation>
-<translation id="835951711479681002">Desa-la al teu Compte de Google</translation>
+<translation id="835951711479681002">Desa-la al teu Compte de Decentr</translation>
 <translation id="8360140320636871023">Personalitza el teu tema de visualització</translation>
 <translation id="8360267485906769442">Botó Envia suggeriments</translation>
 <translation id="8362914115861174987">Tradueix a</translation>
@@ -9957,7 +9957,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8376451933628734023">Si aquesta aplicació web està provant d'enganyar-te perquè pensis que és una altra aplicació, desinstal·la-la.</translation>
 <translation id="8376532149031784008">S'està tornant a carregar <ph name="DOMAIN" />...</translation>
 <translation id="8376610503048439696">Les extensions instal·lades per l'administrador poden continuar llegint i canviant aquest lloc web</translation>
-<translation id="8376752431516546391">Tauler lateral de la Cerca de Google</translation>
+<translation id="8376752431516546391">Tauler lateral de la Cerca de Decentr</translation>
 <translation id="8377625247046155446">Aquesta clau d'accés només es desarà en aquest dispositiu. S'hi conservarà després que tanquis totes les finestres d'incògnit.</translation>
 <translation id="8378714024927312812">Gestionat per la teva organització</translation>
 <translation id="8379988659465232385">El nom no pot ser buit</translation>
@@ -10151,7 +10151,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8523493869875972733">Mantén els canvis</translation>
 <translation id="8523849605371521713">Afegida per la política</translation>
 <translation id="8524594273111932386">Cerca+fletxa avall</translation>
-<translation id="8524783101666974011">Desa targetes al Compte de Google</translation>
+<translation id="8524783101666974011">Desa targetes al Compte de Decentr</translation>
 <translation id="8524817717332153865">La càmera i el micròfon estan desactivats a la configuració del sistema de Mac</translation>
 <translation id="8524841856047224176">Personalitza els fons de la càmera per a videotrucades i més</translation>
 <translation id="8525306231823319788">Pantalla completa</translation>
@@ -10200,7 +10200,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8557100046150195444">Utilitza Touch ID per continuar</translation>
 <translation id="8557180006508471423">Activa Decentr als serveis d'ubicació del Mac.</translation>
 <translation id="8557856025359704738">La baixada següent serà a les <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
-<translation id="8558281414737757274">Contrasenya del Compte de Google</translation>
+<translation id="8558281414737757274">Contrasenya del Compte de Decentr</translation>
 <translation id="8559858985063901027">Claus d'accés</translation>
 <translation id="8559961053328923750">Chrome limita la quantitat total de dades que els llocs web poden compartir a través del navegador per mesurar el rendiment dels anuncis</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Obre-les totes en una finestra &amp;nova}=1{Obre en una finestra &amp;nova}other{Obre-les totes ({COUNT}) en una finestra &amp;nova}}</translation>
@@ -10454,7 +10454,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8737914367566358838">Tria l'idioma al qual vulguis traduir la pàgina</translation>
 <translation id="8737966899544698733">Precisió de la ubicació (només per a Android)</translation>
 <translation id="8738418093147087440">Cerca per països, idiomes o noms d'entrada</translation>
-<translation id="8740086188450289493">Utilitza la contrasenya del Compte de Google</translation>
+<translation id="8740086188450289493">Utilitza la contrasenya del Compte de Decentr</translation>
 <translation id="8740247629089392745">Pots donar aquest Chromebook a <ph name="SUPERVISED_USER_NAME" />. Ja queda poc per finalitzar la configuració. És hora d'explorar.</translation>
 <translation id="8740672167979365981">Cal actualitzar ChromeOS Flex</translation>
 <translation id="8741944563400125534">Guia de configuració d'accés amb interruptors</translation>
@@ -10507,7 +10507,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8777628254805677039">contrasenya arrel</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8779944680596936487">Els llocs web només poden fer servir les galetes per veure la teva activitat de navegació en aquests mateixos llocs web</translation>
-<translation id="8780123805589053431">Obtén descripcions d'imatges de Google</translation>
+<translation id="8780123805589053431">Obtén descripcions d'imatges de Decentr</translation>
 <translation id="8780443667474968681">La cerca per veu s'ha desactivat.</translation>
 <translation id="8781834595282316166">Pestanya nova al grup</translation>
 <translation id="8781980678064919987">Apaga quan es tanqui la tapa</translation>
@@ -10684,7 +10684,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8909833622202089127">El lloc web està fent un seguiment de la teva ubicació</translation>
 <translation id="8910222113987937043">Els canvis que es facin a les adreces d'interès, l'historial, les contrasenyes i altres opcions de configuració es deixaran de sincronitzar amb el Compte de Google. No obstant això, les dades actuals hi continuaran emmagatzemades i es podran gestionar al <ph name="BEGIN_LINK" />Tauler de control de Google<ph name="END_LINK" />.</translation>
 <translation id="8910987510378294980">Amaga la llista de dispositius</translation>
-<translation id="8912362522468806198">Compte de Google</translation>
+<translation id="8912362522468806198">Compte de Decentr</translation>
 <translation id="8912810933860534797">Activa la cerca automàtica</translation>
 <translation id="8914504000324227558">Torna a iniciar Chrome</translation>
 <translation id="8915307125957890427">Fes clic amb el botó dret en una pestanya i selecciona Afegeix una pestanya al grup. A continuació, selecciona Grup nou.</translation>
@@ -10790,7 +10790,7 @@ Deseu el fitxer de clau en una ubicació segura. El necessitareu per crear versi
 <translation id="8985661493893822002">Connecta't a Internet per iniciar la sessió a <ph name="DEVICE_TYPE" />.</translation>
 <translation id="8985661571449404298">S'ha baixat el fitxer no segur</translation>
 <translation id="8986362086234534611">Oblida</translation>
-<translation id="8986494364107987395">Envia automàticament estadístiques d'ús i informes d'error a Google</translation>
+<translation id="8986494364107987395">Envia automàticament estadístiques d'ús i informes d'error a Decentr</translation>
 <translation id="8987305927843254629">Cada persona pot personalitzar la seva experiència i mantenir la privadesa de les dades.</translation>
 <translation id="8987321822984361516">Navegador gestionat per una organització; perfil gestionat per <ph name="PROFILE_DOMAIN" /></translation>
 <translation id="8987927404178983737">Mes</translation>
@@ -11072,7 +11072,7 @@ Obtén informació sobre les dades que Google recull i sobre el motiu pel qual h
 <translation id="9180380851667544951">El lloc web pot compartir la pantalla</translation>
 <translation id="9180847522826713506">Per veure la contrasenya o afegir-hi una nota, fes clic a la icona de la clau</translation>
 <translation id="9182556968660520230">No permetis que els llocs web reprodueixin contingut protegit</translation>
-<translation id="9183302530794969518">Documents de Google</translation>
+<translation id="9183302530794969518">Documents de Decentr</translation>
 <translation id="918352324374649435">{COUNT,plural, =1{Aplicació}other{# aplicacions}}</translation>
 <translation id="9186963452600581158">Inicia la sessió amb el Compte de Google d'un nen</translation>
 <translation id="9187967020623675250">Les tecles no coincideixen. Prem qualsevol tecla per <ph name="RESPONSE" />.</translation>

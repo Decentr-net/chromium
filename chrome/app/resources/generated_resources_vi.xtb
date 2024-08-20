@@ -95,8 +95,8 @@
 <translation id="1062407476771304334">Thay thế</translation>
 <translation id="1062628064301375934">Giúp chúng tôi xây dựng một môi trường web riêng tư hơn</translation>
 <translation id="1066964438793906105">Quét tìm phần mềm độc hại</translation>
-<translation id="1067661089446014701">Để tăng mức độ an toàn, bạn có thể mã hoá mật khẩu trên thiết bị trước khi lưu vào Tài khoản Google</translation>
-<translation id="1067922213147265141">Các dịch vụ khác của Google</translation>
+<translation id="1067661089446014701">Để tăng mức độ an toàn, bạn có thể mã hoá mật khẩu trên thiết bị trước khi lưu vào Tài khoản Decentr</translation>
+<translation id="1067922213147265141">Các dịch vụ khác của Decentr</translation>
 <translation id="106814709658156573">Để thiết lập vân tay, con bạn cần chạm vào cảm biến vân tay ở góc dưới bên trái bàn phím. Dữ liệu vân tay của con bạn được lưu trữ an toàn và chỉ có trên <ph name="DEVICE_TYPE" /> này.</translation>
 <translation id="106855837688344862">Sự kiện chạm</translation>
 <translation id="1069104208554708737">Khoá truy cập này sẽ chỉ được lưu trên thiết bị này</translation>
@@ -136,7 +136,7 @@ Bạn có thể kiểm tra mật khẩu bất cứ lúc nào trong <ph name="GOO
 <translation id="1085064499066015002">Cho phép trên tất cả trang web</translation>
 <translation id="1085697365578766383">Lỗi khi khởi động máy ảo. Vui lòng thử lại.</translation>
 <translation id="1086486568852410168">Tìm kiếm bằng Google Ống kính</translation>
-<translation id="1088490543924960890">Bắt đầu lưu khoá truy cập bằng Trình quản lý mật khẩu của Google</translation>
+<translation id="1088490543924960890">Bắt đầu lưu khoá truy cập bằng Trình quản lý mật khẩu của Decentr</translation>
 <translation id="1090126737595388931">Không có ứng dụng nền nào đang chạy</translation>
 <translation id="1090541560108055381">Trước khi ghép nối, hãy đảm bảo mã này giống nhau trên cả hai thiết bị</translation>
 <translation id="1091767800771861448">Nhấn ESCAPE để bỏ qua (Chỉ phiên bản không chính thức).</translation>
@@ -212,7 +212,7 @@ Bạn có thể kiểm tra mật khẩu bất cứ lúc nào trong <ph name="GOO
 <translation id="1150565364351027703">Kính mát</translation>
 <translation id="1151917987301063366">Luôn cho phép <ph name="HOST" /> sử dụng các cảm biến của thiết bị</translation>
 <translation id="1152346050262092795">Nhập lại mật khẩu để xác minh tài khoản của bạn.</translation>
-<translation id="1153636665119721804">Chương trình Bảo vệ nâng cao của Google</translation>
+<translation id="1153636665119721804">Chương trình Bảo vệ nâng cao của Decentr</translation>
 <translation id="1155545602507378023">Không, chỉ thiết bị này</translation>
 <translation id="1155816283571436363">Đang kết nối với điện thoại của bạn</translation>
 <translation id="1157952955648710254">Đóng bảng điều khiển bên của Google Tìm kiếm</translation>
@@ -410,7 +410,7 @@ Bạn có thể kiểm tra mật khẩu bất cứ lúc nào trong <ph name="GOO
 <translation id="1293556467332435079">Tệp</translation>
 <translation id="1294807885394205587">Quá trình này có thể mất vài phút. Đang khởi động dịch vụ quản lý vùng chứa.</translation>
 <translation id="12951065153783848">Tài khoản của bạn do tổ chức bạn quản lý</translation>
-<translation id="1296410481664942178">Không hiển thị Lịch Google</translation>
+<translation id="1296410481664942178">Không hiển thị Lịch Decentr</translation>
 <translation id="1296911687402551044">Ghim thẻ đã chọn</translation>
 <translation id="1297175357211070620">Máy in đích</translation>
 <translation id="129770436432446029">Gửi ý kiến phản hồi về <ph name="EXPERIMENT_NAME" /></translation>
@@ -467,7 +467,7 @@ Bạn có thể kiểm tra mật khẩu bất cứ lúc nào trong <ph name="GOO
 <translation id="13392265090583506">A11y</translation>
 <translation id="1340527397989195812">Sao lưu phương tiện từ thiết bị bằng ứng dụng Tệp.</translation>
 <translation id="1341701348342335220">Đã hoàn tất thành công!</translation>
-<translation id="1342886103232377846">Để kiểm tra xem có mật khẩu nào bị lộ không, hãy truy cập vào Trình quản lý mật khẩu của Google</translation>
+<translation id="1342886103232377846">Để kiểm tra xem có mật khẩu nào bị lộ không, hãy truy cập vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="1343865611738742294">Cấp cho các ứng dụng Linux quyền truy cập vào thiết bị USB. Linux sẽ không nhớ thiết bị USB sau khi bạn rút thiết bị ra.</translation>
 <translation id="1343920184519992513">Tiếp tục từ nơi bạn đang xem dở và mở một nhóm trang cụ thể</translation>
 <translation id="1344141078024003905">Bạn đang truyền màn hình của mình. Bạn có thể tạm dừng hoặc ngừng truyền bất cứ lúc nào.</translation>
@@ -771,7 +771,7 @@ Các quyền bạn từng cấp cho ứng dụng có thể áp dụng cho cả t
 <translation id="1567579616025300478">Trang web này không được phép lưu dữ liệu trên thiết bị của bạn.</translation>
 <translation id="156793199942386351">Phím "<ph name="CURRENTKEY" />" đã được gán cho thao tác "<ph name="ACTION" />". Hãy nhấn phím bất kỳ để <ph name="RESPONSE" />.</translation>
 <translation id="1567993339577891801">Bảng điều khiển JavaScript</translation>
-<translation id="1569466257325986920">Lần tới khi bạn thay đổi mật khẩu Tài khoản Google, dữ liệu cục bộ của bạn sẽ tự động được khôi phục sau khi bạn đăng nhập vào Tài khoản Google</translation>
+<translation id="1569466257325986920">Lần tới khi bạn thay đổi mật khẩu Tài khoản Google, dữ liệu cục bộ của bạn sẽ tự động được khôi phục sau khi bạn đăng nhập vào Tài khoản Decentr</translation>
 <translation id="1570235441606255261">Trình cài đặt Steam</translation>
 <translation id="1570604804919108255">Hiển thị thông báo</translation>
 <translation id="1570990174567554976">Đã tạo thư mục dấu trang "<ph name="BOOKMARK_TITLE" />".</translation>
@@ -886,7 +886,7 @@ Các quyền bạn từng cấp cho ứng dụng có thể áp dụng cho cả t
 <translation id="1632293440289326475">Bật Trình tiết kiệm pin để kéo dài thời lượng pin</translation>
 <translation id="1632756664321977232">Công cụ cắt</translation>
 <translation id="163309982320328737">Độ rộng ký tự ban đầu là Đầy đủ</translation>
-<translation id="1633947793238301227">Tắt Trợ lý Google</translation>
+<translation id="1633947793238301227">Tắt Trợ lý Decentr</translation>
 <translation id="1634224622052500893">Đã tìm thấy mạng Wi-Fi</translation>
 <translation id="1634783886312010422">Bạn đã thay đổi mật khẩu này trên trang <ph name="WEBSITE" />?</translation>
 <translation id="1636212173818785548">OK</translation>
@@ -1046,7 +1046,7 @@ Các quyền bạn từng cấp cho ứng dụng có thể áp dụng cho cả t
 <translation id="1748563609363301860">Bạn có thể lưu mật khẩu này trong Tài khoản Google của mình hoặc chỉ trên thiết bị này</translation>
 <translation id="1749733017156547309">Cần nhập mật khẩu</translation>
 <translation id="1750172676754093297">Khóa bảo mật của bạn không thể lưu trữ vân tay số</translation>
-<translation id="1750238553597293878">Tiếp tục sử dụng mật khẩu trong Tài khoản Google</translation>
+<translation id="1750238553597293878">Tiếp tục sử dụng mật khẩu trong Tài khoản Decentr</translation>
 <translation id="1751262127955453661"><ph name="ORIGIN" /> sẽ có thể chỉnh sửa các tệp trong <ph name="FOLDERNAME" /> cho đến khi bạn đóng tất cả các thẻ cho trang web này</translation>
 <translation id="17513872634828108">Thẻ đang mở</translation>
 <translation id="175196451752279553">&amp;Mở lại thẻ đã đóng</translation>
@@ -1245,7 +1245,7 @@ Các quyền bạn từng cấp cho ứng dụng có thể áp dụng cho cả t
 <translation id="1884340228047885921">Tùy chọn hiển thị hiện tại là một số người liên hệ</translation>
 <translation id="1884705339276589024">Thay đổi dung lượng ổ đĩa Linux</translation>
 <translation id="1885066963699478692">Các tệp XML được dùng để đặt giá trị cho chính sách.</translation>
-<translation id="1885089541024391265">Lịch Google</translation>
+<translation id="1885089541024391265">Lịch Decentr</translation>
 <translation id="1885106732301550621">Dung lượng ổ đĩa</translation>
 <translation id="1886996562706621347">Cho phép các trang web yêu cầu trở thành trình xử lý mặc định cho giao thức (nên chọn)</translation>
 <translation id="1887210448491286312">Dừng truyền thẻ tới <ph name="DEVICE_NAME" /></translation>
@@ -1477,7 +1477,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2052572566310583903">Đã cài đặt trên các thiết bị khác của bạn</translation>
 <translation id="2053105195397337973">Chúng tôi đang nghiên cứu các cách để hạn chế hoạt động theo dõi, đồng thời giúp các trang web ngăn chặn hành vi lừa đảo và quảng cáo không liên quan.</translation>
 <translation id="2053312383184521053">Dữ liệu ở trạng thái không hoạt động</translation>
-<translation id="205560151218727633">Biểu trưng Trợ lý Google</translation>
+<translation id="205560151218727633">Biểu trưng Trợ lý Decentr</translation>
 <translation id="2058456167109518507">Đã phát hiện thiết bị</translation>
 <translation id="2058581283817163201">Xác minh bằng điện thoại này</translation>
 <translation id="2059913712424898428">Múi giờ</translation>
@@ -1715,7 +1715,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2233502537820838181">&amp;Thông tin khác</translation>
 <translation id="223356358902285214">Hoạt động trên web và ứng dụng</translation>
 <translation id="2234827758954819389">Hướng dẫn về quyền riêng tư</translation>
-<translation id="2234876718134438132">Đồng bộ hoá và các dịch vụ của Google</translation>
+<translation id="2234876718134438132">Đồng bộ hoá và các dịch vụ của Decentr</translation>
 <translation id="2235344399760031203">Đã chặn các cookie bên thứ ba</translation>
 <translation id="2236949375853147973">Hoạt động của tôi</translation>
 <translation id="2238379619048995541">Dữ liệu trạng thái tần suất</translation>
@@ -2201,7 +2201,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2561211427862644160">Xem tất cả dấu trang của bạn ở đây</translation>
 <translation id="2564520396658920462">Tùy chọn thực thi JavaScript qua AppleScript đã bị tắt. Để bật tùy chọn này, từ thanh menu, hãy chuyển đến Xem&gt; Nhà phát triển &gt; Cho phép JavaScript từ Apple Events. Để biết thêm thông tin, hãy truy cập vào https://support.google.com/chrome/?p=applescript</translation>
 <translation id="2564653188463346023">Cải thiện khả năng kiểm tra chính trả</translation>
-<translation id="256481480019204378">Mã Tài khoản Google</translation>
+<translation id="256481480019204378">Mã Tài khoản Decentr</translation>
 <translation id="256517381556987641">Cho đến giờ, tính năng đồng bộ hoá tệp đã tìm thấy <ph name="ITEMS_FOUND" /> tệp và vẫn đang kiểm tra dung lượng lưu trữ. Hãy thử bật lại tính năng Đồng bộ hoá tệp sau vài phút nữa.</translation>
 <translation id="2565214867520763227">Bật trình đọc màn hình</translation>
 <translation id="2568694057933302218">Ở chế độ Ẩn danh, các trang web không thể dùng cookie để xem hoạt động duyệt web của bạn trên nhiều trang web. Thông tin về hoạt động duyệt web của bạn không được dùng cho các mục đích như cá nhân hoá quảng cáo. Các tính năng của một số trang web có thể không hoạt động.</translation>
@@ -2273,7 +2273,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2620245777360407679">Thiết bị hiện kết nối với điểm phát sóng</translation>
 <translation id="2620436844016719705">Hệ thống</translation>
 <translation id="2620900772667816510">Bluetooth có độ phân giải siêu cao</translation>
-<translation id="262154978979441594">Đào tạo mẫu giọng nói cho Trợ lý Google</translation>
+<translation id="262154978979441594">Đào tạo mẫu giọng nói cho Trợ lý Decentr</translation>
 <translation id="2622280935687585828">Xoá <ph name="SITE_NAME" /> khỏi các trang web bị vô hiệu hoá</translation>
 <translation id="26224892172169984">Không cho phép bất kỳ trang web nào xử lý giao thức</translation>
 <translation id="262373406453641243">Colemak</translation>
@@ -2357,7 +2357,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2683638487103917598">Đẵ sắp xếp thư mục</translation>
 <translation id="2684004000387153598">Để tiếp tục, hãy nhấp vào OK, sau đó nhấp vào Thêm người để tạo hồ sơ mới cho địa chỉ email của bạn.</translation>
 <translation id="2685193395980129388">Được phép – <ph name="PERMISSION_DETAILS" /></translation>
-<translation id="2687407218262674387">Điều khoản dịch vụ của Google</translation>
+<translation id="2687407218262674387">Điều khoản dịch vụ của Decentr</translation>
 <translation id="2687621393791886981">Hỏi tôi sau</translation>
 <translation id="2688196195245426394">Lỗi khi đăng ký thiết bị với máy chủ: <ph name="CLIENT_ERROR" />.</translation>
 <translation id="2688734475209947648">Bạn không cần nhớ mật khẩu này. Mật khẩu này sẽ được lưu vào Trình quản lý mật khẩu của Google cho <ph name="ACCOUNT" />.</translation>
@@ -2588,7 +2588,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2843698124892775282">Đã giải phóng <ph name="MEMORY_SAVINGS" /></translation>
 <translation id="2844169650293029770">Thiết bị USB-C (cổng phía trước, bên trái)</translation>
 <translation id="2844809857160214557">Xem và quản lý các lệnh in</translation>
-<translation id="2845276301195220700">Các thao tác khác cho Lịch Google</translation>
+<translation id="2845276301195220700">Các thao tác khác cho Lịch Decentr</translation>
 <translation id="2845382757467349449">Luôn Hiển thị Thanh Dấu trang</translation>
 <translation id="2845751331501453107">Khi bạn duyệt web, thì chế độ cài đặt này, <ph name="BEGIN_LINK1" />Quảng cáo do trang web đề xuất<ph name="LINK_END1" />, <ph name="BEGIN_LINK2" />chế độ cài đặt cookie<ph name="LINK_END2" /> và khả năng cá nhân hoá quảng cáo của trang web bạn đang xem sẽ quyết định liệu quảng cáo bạn thấy có được cá nhân hoá không</translation>
 <translation id="284581348330507117">Tạo mật khẩu khác biệt</translation>
@@ -2781,7 +2781,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="2989474696604907455">chưa được đính kèm</translation>
 <translation id="2989786307324390836">DER-mã hóa nhị phân, chứng chỉ đơn</translation>
 <translation id="2989805286512600854">Mở trong thẻ mới</translation>
-<translation id="2990313168615879645">Thêm Tài khoản Google</translation>
+<translation id="2990313168615879645">Thêm Tài khoản Decentr</translation>
 <translation id="2990375978470734995">Để sự thay đổi này có hiệu lực, hãy kết nối lại các phụ kiện bên ngoài.</translation>
 <translation id="2990583317361835189">Không cho phép trang web sử dụng cảm biến chuyển động</translation>
 <translation id="2991182900092497283">Vui lòng nhập lý do bạn dán dữ liệu này:</translation>
@@ -2955,7 +2955,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
         &lt;li&gt;Bảo vệ bạn khi bạn duyệt web và&lt;/li&gt;
         &lt;li&gt;Hỗ trợ một hệ sinh thái phát triển vững mạnh, đem lại trải nghiệm web an toàn, rộng mở, nhanh chóng và miễn phí&lt;/li&gt;
       &lt;/ul&gt;</translation>
-<translation id="3115743155098198207">Quản lý ngôn ngữ trong Tài khoản Google</translation>
+<translation id="3115743155098198207">Quản lý ngôn ngữ trong Tài khoản Decentr</translation>
 <translation id="3117362587799608430">Đế sạc không hoàn toàn tương thích</translation>
 <translation id="3117791853215125017">{COUNT,plural, =1{Không gửi được <ph name="ATTACHMENTS" /> tới thiết bị <ph name="DEVICE_NAME" />}other{Không gửi được <ph name="ATTACHMENTS" /> tới thiết bị <ph name="DEVICE_NAME" />}}</translation>
 <translation id="3118319026408854581">Trợ giúp <ph name="PRODUCT_NAME" /></translation>
@@ -3152,7 +3152,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3275778913554317645">Mở dưới dạng cửa sổ</translation>
 <translation id="3277214528693754078">Di chuyển bằng con trỏ văn bản (duyệt web bằng con nháy)</translation>
 <translation id="3277594800340743211">Bóng lớn</translation>
-<translation id="3277784185056747463">Mật khẩu thiết bị hoặc mật khẩu của Tài khoản Google</translation>
+<translation id="3277784185056747463">Mật khẩu thiết bị hoặc mật khẩu của Tài khoản Decentr</translation>
 <translation id="3278001907972365362">Bạn cần chú ý đến Tài khoản Google của mình</translation>
 <translation id="3279092821516760512">Những người liên hệ mà bạn đã chọn có thể chia sẻ với bạn khi họ ở gần. Quá trình truyền tệp sẽ bắt đầu khi bạn chấp nhận.</translation>
 <translation id="3279230909244266691">Quá trình này có thể mất vài phút. Đang khởi động máy ảo.</translation>
@@ -3179,7 +3179,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3295241308788901889">Truyền thẻ</translation>
 <translation id="3297105622164376095">Được phép đưa ra lời nhắc đăng nhập qua bên thứ ba</translation>
 <translation id="3297462367919448805">Thiết bị này không còn nhận được bản cập nhật bảo mật và bản cập nhật phần mềm tự động. Tuy nhiên, bạn có thể bật tính năng cập nhật bảo mật mở rộng.</translation>
-<translation id="3297536526040732495">Tạm thời liên kết dữ liệu này với Tài khoản Google của bạn sau khi bạn đăng nhập để bảo vệ bạn trên các ứng dụng Google</translation>
+<translation id="3297536526040732495">Tạm thời liên kết dữ liệu này với Tài khoản Google của bạn sau khi bạn đăng nhập để bảo vệ bạn trên các ứng dụng Decentr</translation>
 <translation id="329838636886466101">Sửa</translation>
 <translation id="3298789223962368867">URL không hợp lệ được nhập.</translation>
 <translation id="32991397311664836">Thiết bị:</translation>
@@ -3369,7 +3369,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3443754338602062261">Bạn đã có mật khẩu cho các tài khoản này trong <ph name="BRAND" />. Nếu bạn chọn nhập một trong các mật khẩu dưới đây, mật khẩu đó sẽ thay thế mật khẩu hiện tại.</translation>
 <translation id="344449859752187052">Đã chặn cookie của bên thứ ba</translation>
 <translation id="3444726579402183581"><ph name="ORIGIN" /> sẽ xem được <ph name="FILENAME" /></translation>
-<translation id="3445047461171030979">Các câu trả lời nhanh của Trợ lý Google</translation>
+<translation id="3445047461171030979">Các câu trả lời nhanh của Trợ lý Decentr</translation>
 <translation id="3445288400492335833"><ph name="MINUTES" /> phút</translation>
 <translation id="344537926140058498">Tổ chức của bạn đã chặn tệp này vì tệp có nội dung nhạy cảm hoặc nguy hiểm. Hãy yêu cầu chủ sở hữu tệp khắc phục vấn đề.</translation>
 <translation id="3445925074670675829">Thiết bị USB-C</translation>
@@ -3434,7 +3434,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3493486281776271508">Cần có kết nối Internet</translation>
 <translation id="3493881266323043047">Hiệu lực</translation>
 <translation id="3495496470825196617">Chế độ rảnh khi sạc pin</translation>
-<translation id="3495660573538963482">Cài đặt Trợ lý Google</translation>
+<translation id="3495660573538963482">Cài đặt Trợ lý Decentr</translation>
 <translation id="3495675993466884458">Quản trị viên hệ thống đã cho phép <ph name="APP_ORIGIN" /> ghi màn hình của bạn</translation>
 <translation id="3496213124478423963">Thu Nhỏ</translation>
 <translation id="3496238553815913323"><ph name="LANGUAGE" /> (chưa chọn)</translation>
@@ -3608,7 +3608,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="362266093274784978">{COUNT,plural, =1{một ứng dụng}other{# ứng dụng}}</translation>
 <translation id="362333465072914957">Đang đợi tổ chức phát hành chứng chỉ (CA) cấp chứng chỉ</translation>
 <translation id="3623598555687153298">Thao tác này sẽ xoá <ph name="TOTAL_USAGE" /> dữ liệu do các trang web hiển thị lưu trữ</translation>
-<translation id="3624567683873126087">Mở khóa thiết bị và đăng nhập vào Tài khoản Google</translation>
+<translation id="3624567683873126087">Mở khóa thiết bị và đăng nhập vào Tài khoản Decentr</translation>
 <translation id="3624583033347146597">Chọn chế độ ưu tiên về cookie bên thứ ba</translation>
 <translation id="3625481642044239431">Bạn đã chọn tệp không hợp lệ. Hãy thử lại.</translation>
 <translation id="3626296069957678981">Để sạc pin cho Chromebook này, hãy dùng một pin Dell tương thích.</translation>
@@ -3622,7 +3622,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3630995161997703415">Thêm trang web này vào giá của bạn để sử dụng bất cứ lúc nào</translation>
 <translation id="3634652306074934350">Yêu cầu cấp quyền đã hết hạn</translation>
 <translation id="3635199270495525546">Đã phát hiện Mô-đun nền tảng đáng tin cậy (TPM)</translation>
-<translation id="3635353578505343390">Gửi ý kiến phản hồi cho Google</translation>
+<translation id="3635353578505343390">Gửi ý kiến phản hồi cho Decentr</translation>
 <translation id="3635960017746711110">Các tùy chọn USB trong Crostini</translation>
 <translation id="3636766455281737684"><ph name="PERCENTAGE" />% - còn lại <ph name="TIME" /></translation>
 <translation id="3636940436873918441">Ngôn ngữ ưu tiên</translation>
@@ -3750,7 +3750,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3719826155360621982">Trang chủ</translation>
 <translation id="3720543739123045680">Các thẻ khác sẽ dùng chung quy trình với thẻ này. Việc này có thể khiến Công cụ cho nhà phát triển hoạt động không đúng cách.</translation>
 <translation id="372062398998492895">CUPS</translation>
-<translation id="3721119614952978349">Bạn và Google</translation>
+<translation id="3721119614952978349">Bạn và Decentr</translation>
 <translation id="3721178866505920080">Thông tin bổ sung về cách bật tính năng tải trước mở rộng</translation>
 <translation id="3722108462506185496">Lỗi khi khởi động dịch vụ máy ảo. Vui lòng thử lại.</translation>
 <translation id="3722624153992426516">Đã nhận được hướng dẫn <ph name="IMPORT_CERTIFICATE__INSTRUCTION_NAME" /></translation>
@@ -3775,7 +3775,7 @@ Bạn có thể quản lý các tùy chọn cài đặt của tài khoản này 
 <translation id="3732108843630241049">Thiết bị này không còn nhận được bản cập nhật phần mềm tự động. Bật tính năng cập nhật bảo mật mở rộng để duy trì tính bảo mật, độ ổn định và hiệu suất. Một số chức năng sẽ bị hạn chế. <ph name="LINK_BEGIN" />Tìm hiểu thêm<ph name="LINK_END" /></translation>
 <translation id="3732414796052961578">Tiếp tục bằng tài khoản <ph name="ACCOUNT_NAME" /></translation>
 <translation id="3732530910372558017">Mã PIN chỉ được dài tối đa 63 ký tự</translation>
-<translation id="3732857534841813090">Thông tin liên quan đến Trợ lý Google</translation>
+<translation id="3732857534841813090">Thông tin liên quan đến Trợ lý Decentr</translation>
 <translation id="3733296813637058299">Chúng tôi sẽ cài đặt các ứng dụng đó cho bạn. Bạn có thể tìm thêm ứng dụng cho <ph name="DEVICE_TYPE" /> của mình trong Cửa hàng Play.</translation>
 <translation id="3735039640698208086">Khi phát âm thanh...</translation>
 <translation id="3735740477244556633">Sắp xếp theo</translation>
@@ -3984,7 +3984,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="3873315167136380065">Để bật tính năng này, hãy <ph name="BEGIN_LINK" />đặt lại tính năng đồng bộ hóa<ph name="END_LINK" /> để xóa cụm mật khẩu đồng bộ hóa của bạn</translation>
 <translation id="3873423927483480833">Hiển thị mã PIN</translation>
 <translation id="3873915545594852654">Đã xảy ra lỗi với ARC++.</translation>
-<translation id="3874164307099183178">Bật Trợ lý Google</translation>
+<translation id="3874164307099183178">Bật Trợ lý Decentr</translation>
 <translation id="3875511946736639169">Hiển thị hình ảnh</translation>
 <translation id="3875815154304214043"><ph name="APP_NAME" /> được thiết lập để mở trong một thẻ trình duyệt mới. Các đường liên kết được hỗ trợ cũng sẽ mở ra trong trình duyệt đó. <ph name="BEGIN_LINK_LEARN_MORE" />Tìm hiểu thêm<ph name="END_LINK_LEARN_MORE" /></translation>
 <translation id="3876219572815410515">Đã đổi kích thước cửa sổ về phía trên cùng</translation>
@@ -4284,7 +4284,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="4093865285251893588">Ảnh hồ sơ</translation>
 <translation id="4093955363990068916">Tệp cục bộ:</translation>
 <translation id="4094647278880271855">Bạn đang dùng một biến môi trường chưa được hỗ trợ: <ph name="BAD_VAR" />. Do đó, tính ổn định và độ bảo mật sẽ bị ảnh hưởng.</translation>
-<translation id="4095246243698959793">Để đồng bộ hoá và sử dụng khoá truy cập từ Google</translation>
+<translation id="4095246243698959793">Để đồng bộ hoá và sử dụng khoá truy cập từ Decentr</translation>
 <translation id="4095264805865317199">Mở giao diện kích hoạt mạng di động</translation>
 <translation id="4095425503313512126">Duyệt web và tìm kiếm nhanh hơn</translation>
 <translation id="4095483462103784441">Tạo nhóm thẻ mới</translation>
@@ -4293,7 +4293,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="4096797685681362305">Từng xem trong tuần trước</translation>
 <translation id="4097406557126260163">Ứng dụng và tiện ích</translation>
 <translation id="409742781329613461">Mẹo dành cho Chrome</translation>
-<translation id="4097560579602855702">Tìm kiếm trên Google</translation>
+<translation id="4097560579602855702">Tìm kiếm trên Decentr</translation>
 <translation id="4098667039111970300">Công cụ bút cảm ứng trên thanh công cụ</translation>
 <translation id="4099874310852108874">Đã xảy ra lỗi mạng.</translation>
 <translation id="4100020874626534113">Cho phép gán dấu linh hoạt. Ví dụ: Bạn có thể nhập "anhs" hoặc "asnh" để gõ "ánh".</translation>
@@ -4606,7 +4606,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="4348766275249686434">Thu thập lỗi</translation>
 <translation id="4349828822184870497">Hữu ích</translation>
 <translation id="4350230709416545141">Luôn chặn không cho <ph name="HOST" /> truy cập thông tin vị trí của bạn</translation>
-<translation id="4350782034419308508">Ok Google</translation>
+<translation id="4350782034419308508">Ok Decentr</translation>
 <translation id="435185728237714178">Chuyển đến ứng dụng "<ph name="APP_NAME" />" để quản lý các ứng dụng đã cài đặt và ứng dụng được truyền trực tuyến</translation>
 <translation id="4354073718307267720">Hỏi khi một trang web muốn tạo bản đồ 3D về các khu vực xung quanh bạn hoặc theo dõi thông tin vị trí của máy ảnh</translation>
 <translation id="4354344420232759511">Các trang web bạn truy cập sẽ xuất hiện ở đây</translation>
@@ -4815,7 +4815,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="4508332912150723117">tên người dùng <ph name="USER_EMAIL" />. Xem chi tiết</translation>
 <translation id="450867954911715010">Cài đặt trợ năng</translation>
 <translation id="4508765956121923607">Xem &amp;Nguồn</translation>
-<translation id="4509277363725254222">Khi bạn chia sẻ bản sao <ph name="BEGIN_BOLD_USERNAME" />tên người dùng<ph name="END_BOLD_USERNAME" /> và <ph name="BEGIN_BOLD_PASSWORD" />mật khẩu<ph name="END_BOLD_PASSWORD" /> của mình, thành viên gia đình bạn có thể điền các thông tin này bằng Trình quản lý mật khẩu của Google</translation>
+<translation id="4509277363725254222">Khi bạn chia sẻ bản sao <ph name="BEGIN_BOLD_USERNAME" />tên người dùng<ph name="END_BOLD_USERNAME" /> và <ph name="BEGIN_BOLD_PASSWORD" />mật khẩu<ph name="END_BOLD_PASSWORD" /> của mình, thành viên gia đình bạn có thể điền các thông tin này bằng Trình quản lý mật khẩu của Decentr</translation>
 <translation id="4509421746503122514">Chạy lại để cập nhật</translation>
 <translation id="4509741852167209430">Chỉ có một số loại dữ liệu được chia sẻ giữa các trang web để đo lường hiệu suất của quảng cáo mà các trang web đó hiển thị, chẳng hạn như dữ liệu cho biết bạn có mua hàng sau khi truy cập một trang web hay không</translation>
 <translation id="4510195992002502722">Không gửi được ý kiến phản hồi. Đang thử lại...</translation>
@@ -4865,7 +4865,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="4545759655004063573">Không thể lưu do không đủ quyền. Hãy lưu vào một vị trí khác.</translation>
 <translation id="4546345569117159016">Nút chuột phải</translation>
 <translation id="4546509872654834602"><ph name="SUPERVISED_USER_NAME" /> muốn sử dụng tiện ích này:</translation>
-<translation id="4546692474302123343">Tính năng nhập bằng giọng nói của Trợ lý Google</translation>
+<translation id="4546692474302123343">Tính năng nhập bằng giọng nói của Trợ lý Decentr</translation>
 <translation id="4547659257713117923">Không có thẻ nào từ thiết bị khác</translation>
 <translation id="4547672827276975204">Tự động đặt</translation>
 <translation id="4549791035683739768">Khóa bảo mật của bạn chưa lưu trữ vân tay nào</translation>
@@ -4910,7 +4910,7 @@ Thông tin này có thể bao gồm thông tin về phần mềm đã cài đặ
 <translation id="4574741712540401491">•  <ph name="LIST_ITEM_TEXT" /></translation>
 <translation id="4575614183318795561">Thiết lập <ph name="FEATURE_NAME" /></translation>
 <translation id="4576541033847873020">Ghép nối thiết bị Bluetooth</translation>
-<translation id="4576763597586015380">Hãy xác minh danh tính của bạn để tiếp tục lưu mật khẩu trong Tài khoản Google</translation>
+<translation id="4576763597586015380">Hãy xác minh danh tính của bạn để tiếp tục lưu mật khẩu trong Tài khoản Decentr</translation>
 <translation id="4576965832613128988"><ph name="WINDOW_TITLE" /> – Thẻ không hoạt động</translation>
 <translation id="4577995939477504370">Các ứng dụng và trang web có quyền truy cập micrô cũng như các dịch vụ của hệ thống có thể sử dụng micrô</translation>
 <translation id="4579453506923101210">Xóa điện thoại đã kết nối</translation>
@@ -5216,7 +5216,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="481689174647911539">Tệp này có thể là virus hoặc phần mềm độc hại.<ph name="LINE_BREAK" />Bạn có thể gửi tệp tới tính năng Duyệt web An toàn của Google để kiểm tra xem tệp có an toàn hay không. Quá trình quét thường mất vài giây.</translation>
 <translation id="4816900689218414104">Tạo một khoá đăng nhập trên điện thoại hoặc máy tính bảng</translation>
 <translation id="4819323978093861656">{0,plural, =0{Sẽ đóng ngay bây giờ.}=1{Sẽ đóng sau 1 giây}other{Sẽ đóng sau # giây}}</translation>
-<translation id="4819607494758673676">Thông báo của Trợ lý Google</translation>
+<translation id="4819607494758673676">Thông báo của Trợ lý Decentr</translation>
 <translation id="4819818293886748542">Nhận đường liên kết đến Công cụ hỗ trợ</translation>
 <translation id="4820082996741546682">Được phép khoá bàn phím</translation>
 <translation id="4820236583224459650">Đặt làm phiếu đang hoạt động</translation>
@@ -5256,7 +5256,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="4846628405149428620">Chọn phạm vi mà trang web này có thể lưu các thay đổi</translation>
 <translation id="4846680374085650406">Bạn đang theo khuyến cáo của quản trị viên về cài đặt này.</translation>
 <translation id="4847242508757499006">Chọn "Thử lại" hoặc chọn "Mở trong trình chỉnh sửa cơ bản" để sử dụng các tuỳ chọn xem và chỉnh sửa hạn chế.</translation>
-<translation id="4848191975108266266">Lệnh "Ok Google" của Trợ lý Google</translation>
+<translation id="4848191975108266266">Lệnh "Ok Google" của Trợ lý Decentr</translation>
 <translation id="4849286518551984791">Giờ phối hợp quốc tế (UTC/GMT)</translation>
 <translation id="4849517651082200438">Không cài đặt</translation>
 <translation id="485053257961878904">Không thể thiết lập tính năng đồng bộ hóa thông báo</translation>
@@ -5488,7 +5488,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="5021750053540820849">Chưa cập nhật</translation>
 <translation id="5022206631034207923">Màn hình khoá, chế độ điều khiển</translation>
 <translation id="5024511550058813796">Bạn sẽ thấy nhật ký duyệt web trên tất cả thiết bị đã đồng bộ hoá, nhờ vậy bạn có thể tiếp tục những việc bạn đang làm</translation>
-<translation id="5026492829171796515">Đăng nhập để thêm Tài khoản Google</translation>
+<translation id="5026492829171796515">Đăng nhập để thêm Tài khoản Decentr</translation>
 <translation id="5026806129670917316">Bật Wi-Fi</translation>
 <translation id="5026874946691314267">Không hiện lại thông báo này</translation>
 <translation id="5027550639139316293">Chứng chỉ Email</translation>
@@ -5696,7 +5696,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="5177549709747445269">Bạn đang sử dụng dữ liệu di động</translation>
 <translation id="5178667623289523808">Tìm Trước</translation>
 <translation id="5181140330217080051">Đang tải xuống</translation>
-<translation id="5181172023548002891">Lưu mật khẩu của <ph name="ACCOUNT" /> vào Trình quản lý mật khẩu của Google</translation>
+<translation id="5181172023548002891">Lưu mật khẩu của <ph name="ACCOUNT" /> vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="5181551096188687373">Mật khẩu này chỉ được lưu trên thiết bị này. Để sử dụng mật khẩu này trên các thiết bị khác, hãy lưu mật khẩu vào Tài khoản Google <ph name="USER_EMAIL" /> của bạn.</translation>
 <translation id="5183344263225877832">Đặt lại tất cả các quyền của thiết bị HID?</translation>
 <translation id="5184063094292164363">Bảng điều khiển &amp;JavaScript</translation>
@@ -5805,7 +5805,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="5261619498868361045">Không được để trống tên vùng chứa.</translation>
 <translation id="5261683757250193089">Mở trong Cửa hàng trực tuyến</translation>
 <translation id="5261799091118902550">Tệp này có thể là virus hoặc phần mềm độc hại. Bạn có thể gửi tệp này cho Google để kiểm tra xem tệp có an toàn hay không.</translation>
-<translation id="5262334727506665688">Tiếp tục lưu mật khẩu trong Tài khoản Google</translation>
+<translation id="5262334727506665688">Tiếp tục lưu mật khẩu trong Tài khoản Decentr</translation>
 <translation id="5262784498883614021">Tự động kết nối mạng</translation>
 <translation id="5263656105659419083">Để dễ dàng quay lại bảng điều khiển bên, hãy nhấp vào Ghim ở trên cùng bên phải</translation>
 <translation id="5264148714798105376">Quá trình này có thể mất một vài phút.</translation>
@@ -5850,7 +5850,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="529296195492126134">Chế độ tạm thời không được hỗ trợ. Vui lòng liên hệ với quản trị viên của bạn</translation>
 <translation id="5293043095535566171">Bật quyền truy cập thông tin vị trí?</translation>
 <translation id="5293170712604732402">Khôi phục cài đặt về mặc định ban đầu</translation>
-<translation id="5294068591166433464">Nếu một trang web tìm cách đánh cắp mật khẩu của bạn hoặc nếu bạn tải một tệp gây hại xuống, thì Chrome cũng có thể gửi các URL (bao gồm cả các đoạn nội dung trên trang) cho Google</translation>
+<translation id="5294068591166433464">Nếu một trang web tìm cách đánh cắp mật khẩu của bạn hoặc nếu bạn tải một tệp gây hại xuống, thì Chrome cũng có thể gửi các URL (bao gồm cả các đoạn nội dung trên trang) cho Decentr</translation>
 <translation id="5294097441441645251">Phải bắt đầu bằng ký tự viết thường hoặc dấu gạch dưới</translation>
 <translation id="5294618183559481278"><ph name="DEVICE_TYPE" /> của bạn dùng một cảm biến tích hợp sẵn để phát hiện người ở đối diện thiết bị. Mọi dữ liệu đều được xử lý ngay trên thiết bị và sau đó sẽ được xoá. Dữ liệu cảm biến không bao giờ được gửi cho Google. <ph name="LINK_BEGIN" />Tìm hiểu thêm<ph name="LINK_END" /></translation>
 <translation id="5295188371713072404">Tiện ích có thể yêu cầu quyền truy cập vào trang web này</translation>
@@ -5917,7 +5917,7 @@ Nhấn tổ hợp phím Ctrl + Alt + Giảm độ sáng để thu nhỏ.</transl
 <translation id="534449933710420173">Thư mục chưa đặt tên</translation>
 <translation id="5345916423802287046">Mở ứng dụng khi bạn đăng nhập</translation>
 <translation id="5347920333985823270">Chrome hỗ trợ môi trường web miễn phí</translation>
-<translation id="5350293332385664455">Tắt Trợ lý Google</translation>
+<translation id="5350293332385664455">Tắt Trợ lý Decentr</translation>
 <translation id="535123479159372765">Văn bản được sao chép từ thiết bị khác</translation>
 <translation id="5352033265844765294">Dấu Thời gian</translation>
 <translation id="5352257124367865087">Quản lý quyền của trang web</translation>
@@ -6143,7 +6143,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="5507756662695126555">Không tuân thủ</translation>
 <translation id="5509693895992845810">Lưu &amp;Dưới dạng...</translation>
 <translation id="5509914365760201064">Nhà cung cấp: <ph name="CERTIFICATE_AUTHORITY" /></translation>
-<translation id="5510775624736435856">Lấy nội dung mô tả hình ảnh từ Google</translation>
+<translation id="5510775624736435856">Lấy nội dung mô tả hình ảnh từ Decentr</translation>
 <translation id="5511379779384092781">Quá nhỏ</translation>
 <translation id="5511823366942919280">Bạn có chắc chắn muốn thiết lập thiết bị này là "Shark" không?</translation>
 <translation id="5512739112435045339">Hãy giải phóng dung lượng trên thiết bị. Sau đó hãy thử tải xuống lại</translation>
@@ -6175,7 +6175,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="5533001281916885985"><ph name="SITE_NAME" /> muốn</translation>
 <translation id="5533343601674003130">Dịch vụ PDF</translation>
 <translation id="5537725057119320332">Truyền</translation>
-<translation id="5539070192556911367">Không thể kết nối với Google</translation>
+<translation id="5539070192556911367">Không thể kết nối với Decentr</translation>
 <translation id="5541694225089836610">Quản trị viên đã vô hiệu hóa thao tác này</translation>
 <translation id="5542132724887566711">Tiểu sử</translation>
 <translation id="5542750926112347543">Đã chặn cookie từ <ph name="DOMAIN" /></translation>
@@ -6340,7 +6340,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="565515993087783098">Khi xoá mạng này, bạn cũng sẽ xoá gói thuê bao Passpoint và các mạng liên kết.</translation>
 <translation id="5655296450510165335">Đăng ký thiết bị</translation>
 <translation id="5655823808357523308">Điều chỉnh cách các màu xuất hiện trên màn hình</translation>
-<translation id="5656845498778518563">Gửi ý kiến phản hồi cho Google</translation>
+<translation id="5656845498778518563">Gửi ý kiến phản hồi cho Decentr</translation>
 <translation id="5657667036353380798">Tiện ích bên ngoài yêu cầu cài đặt phiên bản phiên bản Chrome <ph name="MINIMUM_CHROME_VERSION" /> trở lên.</translation>
 <translation id="565899488479822148">Đang cài đặt bản cập nhật mới nhất</translation>
 <translation id="5659593005791499971">Email</translation>
@@ -6458,7 +6458,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="5759397201362801675">Chọn tâm trạng</translation>
 <translation id="5759728514498647443">Tài liệu bạn gửi để in qua <ph name="APP_NAME" /> có thể đọc được bằng <ph name="APP_NAME" />.</translation>
 <translation id="5760318332127300368">Xoá cả dữ liệu duyệt web (<ph name="URL" />), việc này có thể khiến bạn bị đăng xuất khỏi Google.com. <ph name="LEARN_MORE" /></translation>
-<translation id="5762787084360227629">Nhập thông tin về Tài khoản Google</translation>
+<translation id="5762787084360227629">Nhập thông tin về Tài khoản Decentr</translation>
 <translation id="5763751966069581670">Không tìm thấy thiết bị USB nào</translation>
 <translation id="5764483294734785780">Lư&amp;u âm thanh thành...</translation>
 <translation id="57646104491463491">Ngày Sửa đổi</translation>
@@ -6613,7 +6613,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="5864754048328252126">Trạng thái không hoạt động trong khi sạc</translation>
 <translation id="5865508026715185451"><ph name="APP_NAME" /> sắp tạm dừng</translation>
 <translation id="586567932979200359">Bạn đang chạy <ph name="PRODUCT_NAME" /> từ hình ảnh đĩa của nó. Cài đặt trình duyệt này trên máy tính cho phép bạn chạy trình duyệt mà không cần có hình ảnh đĩa và đảm bảo trình duyệt sẽ được cập nhật.</translation>
-<translation id="5865733239029070421">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho Google</translation>
+<translation id="5865733239029070421">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho Decentr</translation>
 <translation id="5868434909835797817">Micrô trên thiết bị của bạn đang tắt</translation>
 <translation id="5868479397518301468">Đã hết thời gian đăng nhập</translation>
 <translation id="5868822853313956582">Áp dụng theo màu sắc của thiết bị</translation>
@@ -6652,7 +6652,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="5896436821193322561">Không cho phép</translation>
 <translation id="5899860758576822363">Phát ở âm lượng thấp hơn khi ChromeVox đang nói</translation>
 <translation id="5900243355162006650">Cấu hình chia sẻ Internet:</translation>
-<translation id="5900302528761731119">Ảnh hồ sơ trên Google</translation>
+<translation id="5900302528761731119">Ảnh hồ sơ trên Decentr</translation>
 <translation id="590036993063074298">Thông tin chi tiết về chất lượng phản chiếu</translation>
 <translation id="5901069264981746702">Dữ liệu vân tay được lưu trữ an toàn và chỉ có trên <ph name="DEVICE_TYPE" /> của bạn. <ph name="LINK_BEGIN" />Tìm hiểu thêm<ph name="LINK_END" /></translation>
 <translation id="5901089233978050985">Chuyển sang thẻ phát nội dung ghi hình</translation>
@@ -6917,7 +6917,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="6102043788063419338">Chương trình Bảo vệ nâng cao đã chặn tệp này.</translation>
 <translation id="6103681770816982672">Cảnh báo: bạn đang chuyển sang kênh nhà phát triển</translation>
 <translation id="610395411842312282">Xếp hai cửa sổ cạnh nhau vào một nhóm</translation>
-<translation id="6104068876731806426">Tài khoản Google</translation>
+<translation id="6104068876731806426">Tài khoản Decentr</translation>
 <translation id="6104667115274478616">Quản lý chế độ cài đặt âm thanh của ChromeOS</translation>
 <translation id="6104796831253957966">Hàng đợi của máy in đã đầy</translation>
 <translation id="610487644502954950">Đã bỏ ghim bảng điều khiển bên</translation>
@@ -6925,7 +6925,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="6106167152849320869">Nếu bạn cũng chọn gửi dữ liệu sử dụng và chẩn đoán ở bước trước, thì dữ liệu này sẽ được thu thập đối với các ứng dụng đã cài đặt.</translation>
 <translation id="6108952804512516814">Tạo bằng AI</translation>
 <translation id="6111718295497931251">Xoá quyền truy cập vào Google Drive</translation>
-<translation id="6111972606040028426">Bật Trợ lý Google</translation>
+<translation id="6111972606040028426">Bật Trợ lý Decentr</translation>
 <translation id="6112727384379533756">Thêm phiếu</translation>
 <translation id="6112931163620622315">Kiểm tra điện thoại của bạn</translation>
 <translation id="6113434369102685411">Thiết lập công cụ tìm kiếm mặc định cho trình duyệt Chrome và Trình chạy trên <ph name="DEVICE_TYPE" /></translation>
@@ -7325,7 +7325,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="6415900369006735853">Kết nối Internet qua điện thoại</translation>
 <translation id="6416743254476733475">Hãy cho phép hoặc chặn trên máy tính của bạn.</translation>
 <translation id="6416856063840710198">Để cải thiện trải nghiệm truy cập, các trang web thường lưu hoạt động của bạn vào thiết bị. <ph name="SETTINGS" /></translation>
-<translation id="6417265370957905582">Trợ lý Google</translation>
+<translation id="6417265370957905582">Trợ lý Decentr</translation>
 <translation id="6417468503703810114">Chế độ mặc định</translation>
 <translation id="6418160186546245112">Hoàn nguyên về phiên bản được cài đặt trước của <ph name="IDS_SHORT_PRODUCT_NAME" /></translation>
 <translation id="641817663353603351">page up</translation>
@@ -7453,7 +7453,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
         <ph name="FILE_INFO" />
         <ph name="EVENT_NAME" /></translation>
 <translation id="6519689855001245063">Đang kiểm tra tính đủ điều kiện</translation>
-<translation id="6520087076882753524">Bạn có thể xem và quản lý mật khẩu đã lưu trong Trình quản lý mật khẩu của Google</translation>
+<translation id="6520087076882753524">Bạn có thể xem và quản lý mật khẩu đã lưu trong Trình quản lý mật khẩu của Decentr</translation>
 <translation id="6520876759015997832">Kết quả tìm kiếm <ph name="LIST_POSITION" />/<ph name="LIST_SIZE" />: <ph name="SEARCH_RESULT_TEXT" />. Hãy nhấn phím Enter để chuyển tới phần đó.</translation>
 <translation id="6521214596282732365">Trang web thường sử dụng phông chữ của bạn để hỗ trợ bạn tạo nội dung có độ chân thực cao bằng những công cụ đồ họa và thiết kế trực tuyến</translation>
 <translation id="6523574494641144162">Trình quản lý mật khẩu không lưu được những mật khẩu này vào Tài khoản Google của bạn. Bạn có thể lưu những mật khẩu này vào thiết bị này.</translation>
@@ -7675,7 +7675,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="6686490380836145850">Đóng các thẻ bên phải</translation>
 <translation id="6686665106869989887">Đã di chuyển thẻ sang phải</translation>
 <translation id="6686817083349815241">Lưu mật khẩu của bạn</translation>
-<translation id="6687008241368170505">Thay đổi mã PIN của Trình quản lý mật khẩu của Google</translation>
+<translation id="6687008241368170505">Thay đổi mã PIN của Trình quản lý mật khẩu của Decentr</translation>
 <translation id="6687079240787935001">Ẩn <ph name="MODULE_TITLE" /></translation>
 <translation id="6689714331348768690">Yêu cầu <ph name="SUPERVISED_USER_NAME" /> đến bên máy tính. Con bạn sẽ đọc một vài cụm từ trên màn hình này để tạo ra mẫu giọng nói của con bạn.
     <ph name="BR" />
@@ -7764,7 +7764,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="6762861159308991328">Bạn có thể thay đổi cách mở đường liên kết trong phần Cài đặt ứng dụng</translation>
 <translation id="6764633064754857889">Xem trước đường liên kết</translation>
 <translation id="676560328519657314">Phương thức thanh toán của bạn trong Google Pay</translation>
-<translation id="6766488013065406604">Truy cập vào Trình quản lý mật khẩu của Google</translation>
+<translation id="6766488013065406604">Truy cập vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="6767566652486411142">Chọn ngôn ngữ khác...</translation>
 <translation id="6768034047581882264">Không được phép hiển thị nội dung không an toàn</translation>
 <translation id="6769902329858794251"><ph name="BEGIN_PARAGRAPH1" />Để mang lại trải nghiệm tốt nhất, <ph name="DEVICE_OS" /> sẽ thu thập dữ liệu phần cứng của thiết bị rồi chia sẻ dữ liệu đó cho Google để xác định xem nên phân phối bản cập nhật nào. Bạn có thể tuỳ ý cho phép Google dùng dữ liệu này cho các mục đích khác như hỗ trợ và cải thiện trải nghiệm cũng như chất lượng dịch vụ của <ph name="DEVICE_OS" />.<ph name="END_PARAGRAPH1" />
@@ -7832,7 +7832,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="6805647936811177813">Vui lòng đăng nhập vào <ph name="TOKEN_NAME" /> để nhập chứng chỉ ứng dụng khách từ <ph name="HOST_NAME" />.</translation>
 <translation id="680572642341004180">Bật theo dõi RLZ trên <ph name="SHORT_PRODUCT_OS_NAME" />.</translation>
 <translation id="6806089545527108739">Không cho phép nhưng có thể hỏi sau</translation>
-<translation id="680644983456221885">Khả năng bảo vệ chủ động theo thời gian thực trước các trang web, nội dung tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới Google</translation>
+<translation id="680644983456221885">Khả năng bảo vệ chủ động theo thời gian thực trước các trang web, nội dung tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới Decentr</translation>
 <translation id="6808039367995747522">Để tiếp tục, hãy cắm rồi chạm vào khóa bảo mật của bạn</translation>
 <translation id="6808166974213191158">Trình ghi ảnh hệ thống ChromeOS Flex</translation>
 <translation id="6808193438228982088">Cáo</translation>
@@ -7878,7 +7878,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="6828182567531805778">Nhập cụm mật khẩu để đồng bộ hóa dữ liệu</translation>
 <translation id="682871081149631693">QuickFix</translation>
 <translation id="6828860976882136098">Không thiết lập được cập nhật tự động cho tất cả người dùng (lỗi thực thi kiểm tra <ph name="ERROR_NUMBER" />)</translation>
-<translation id="682971198310367122">Chính sách quyền riêng tư của Google</translation>
+<translation id="682971198310367122">Chính sách quyền riêng tư của Decentr</translation>
 <translation id="6831043979455480757">Dịch</translation>
 <translation id="6832218595502288407">Căn trái</translation>
 <translation id="6833479554815567477">Đã di chuyển thẻ khỏi nhóm <ph name="GROUP_NAME" /> – <ph name="GROUP_CONTENTS" /></translation>
@@ -7896,7 +7896,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="6842749380892715807">Lần tải danh sách trang web XML gần nhất: <ph name="LAST_DATE_DOWNLOAD" />.</translation>
 <translation id="6842868554183332230">Trang web thường phát hiện khi bạn đang dùng thiết bị để đặt tình trạng rảnh/bận của bạn trên ứng dụng trò chuyện</translation>
 <translation id="6843264316370513305">Gỡ lỗi mạng</translation>
-<translation id="6843423766595476978">Đã thiết lập xong Ok Google</translation>
+<translation id="6843423766595476978">Đã thiết lập xong Ok Decentr</translation>
 <translation id="6843725295806269523">tắt tiếng</translation>
 <translation id="6844548824283407900">AES-256</translation>
 <translation id="6845038076637626672">Mở ở dạng phóng to</translation>
@@ -8005,7 +8005,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="6925127338315966709">Bạn đang thêm một hồ sơ được quản lý vào trình duyệt này. Quản trị viên của bạn có quyền kiểm soát hồ sơ đó và có thể truy cập vào dữ liệu của hồ sơ. Các dấu trang, danh sách trang web đã truy cập, mật khẩu, cũng như các chế độ cài đặt khác có thể được đồng bộ hóa với tài khoản và được quản trị viên của bạn quản lý.</translation>
 <translation id="6928650056523249512">Tự động loại bỏ quyền của các trang web bạn không dùng đến</translation>
 <translation id="6929126689972602640">Tài khoản trường học không hỗ trợ các quyền kiểm soát của cha mẹ. Nếu bạn muốn thêm một tài khoản trường học để truy cập vào Google Lớp học và các trang web khác để làm bài tập ở nhà, trước tiên, hãy đăng nhập bằng tài khoản cá nhân của trẻ. Bạn có thể thêm tài khoản trường học sau này trong phần cài đặt.</translation>
-<translation id="6929760895658557216">Ok Google</translation>
+<translation id="6929760895658557216">Ok Decentr</translation>
 <translation id="6930161297841867798">{NUM_EXTENSIONS,plural, =1{1 tiện ích đã bị từ chối}other{# tiện ích đã bị từ chối}}</translation>
 <translation id="6931690462168617033">Độ mạnh của thao tác nhấp</translation>
 <translation id="6933321725007230600">Bật tính năng &amp;đồng bộ hoá...</translation>
@@ -8332,7 +8332,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="718512729823942418">Không có micrô</translation>
 <translation id="7186088072322679094">Giữ trong thanh công cụ</translation>
 <translation id="7186303001964993981"><ph name="ORIGIN" /> không thể mở thư mục này vì thư mục này chứa tệp hệ thống</translation>
-<translation id="7186568385131859684">Kiểm soát cách Google sử dụng nhật ký duyệt web cùng với các dữ liệu khác của bạn trên các dịch vụ của Google</translation>
+<translation id="7186568385131859684">Kiểm soát cách Google sử dụng nhật ký duyệt web cùng với các dữ liệu khác của bạn trên các dịch vụ của Decentr</translation>
 <translation id="7188508872042490670">Dữ liệu trang web trên thiết bị</translation>
 <translation id="7189234443051076392">Hãy đảm bảo thiết bị của bạn có đủ dung lượng</translation>
 <translation id="7189451821249468368">Bạn không có đủ bản nâng cấp để đăng ký thiết bị này. Vui lòng liên hệ với bộ phận bán hàng để mua thêm. Nếu bạn nhận được thư này do nhầm lẫn, vui lòng liên hệ với nhóm hỗ trợ.</translation>
@@ -8522,7 +8522,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="7339898014177206373">Cửa sổ mới</translation>
 <translation id="7340179705876485790">Để quay lại nhiều trang, hãy nhấp và giữ nút Quay lại.</translation>
 <translation id="7340650977506865820">Trang web đang chia sẻ màn hình của bạn</translation>
-<translation id="7340757554212515731">Tự động gửi báo cáo sự cố cũng như thông tin chẩn đoán và dữ liệu sử dụng cho Google</translation>
+<translation id="7340757554212515731">Tự động gửi báo cáo sự cố cũng như thông tin chẩn đoán và dữ liệu sử dụng cho Decentr</translation>
 <translation id="734088800888587319">Chỉ số mạng</translation>
 <translation id="7341834142292923918">Muốn truy cập vào trang web này</translation>
 <translation id="7343372807593926528">Vui lòng mô tả sự cố trước khi gửi ý kiến phản hồi.</translation>
@@ -8979,7 +8979,7 @@ Bạn còn # mật khẩu bị lộ nữa. Trình quản lý mật khẩu của 
 <translation id="7666531788977935712">Nút Tiếp tục đã được kích hoạt</translation>
 <translation id="7668002322287525834">{NUM_WEEKS,plural, =1{Trả lại thiết bị <ph name="DEVICE_TYPE" /> trong vòng {NUM_WEEKS} tuần}other{Trả lại thiết bị <ph name="DEVICE_TYPE" /> trong vòng {NUM_WEEKS} tuần}}</translation>
 <translation id="7668205084604701639">Cài đặt tệp Office</translation>
-<translation id="7668423670802040666">Cập nhật mật khẩu của <ph name="ACCOUNT" /> trong Trình quản lý mật khẩu của Google</translation>
+<translation id="7668423670802040666">Cập nhật mật khẩu của <ph name="ACCOUNT" /> trong Trình quản lý mật khẩu của Decentr</translation>
 <translation id="7668648754769651616">Bộ tính năng hỗ trợ tiếp cận giúp thiết bị của bạn dễ sử dụng hơn. Để truy cập phần Cài đặt nhanh, hãy chọn vùng báo thời gian ở cuối màn hình.</translation>
 <translation id="7669620291129890197">Hiển thị với các thiết bị của bạn</translation>
 <translation id="7669825497510425694">{NUM_ATTEMPTS,plural, =1{Mã PIN không chính xác. Bạn còn một lần thử.}other{Mã PIN không chính xác. Bạn còn # lần thử.}}</translation>
@@ -9143,7 +9143,7 @@ Nhấn một công tắc hoặc phím đã gán để xóa.</translation>
 <translation id="7777624210360383048">Lối tắt <ph name="SHORTCUT" /> cho <ph name="EXTENSION_NAME" /></translation>
 <translation id="7779840061887151693">màn hình</translation>
 <translation id="7781335840981796660">Tất cả tài khoản người dùng và dữ liệu trên máy đều sẽ bị xóa.</translation>
-<translation id="7782102568078991263">Không có đề xuất nào khác từ Google</translation>
+<translation id="7782102568078991263">Không có đề xuất nào khác từ Decentr</translation>
 <translation id="7782717250816686129">Lưu trữ dữ liệu liên tục trên màn hình đăng nhập và đưa thông tin xác thực vào phiên.</translation>
 <translation id="778330624322499012">Không thể tải <ph name="PLUGIN_NAME" /></translation>
 <translation id="7784067724422331729">Cài đặt bảo mật trên máy tính của bạn đã chặn tệp này.</translation>
@@ -9192,7 +9192,7 @@ Nhấn một công tắc hoặc phím đã gán để xóa.</translation>
 <translation id="7810202088502699111">Cửa sổ bật lên đã bị chặn trên trang này.</translation>
 <translation id="7810367892333449285">Nội dung bạn nhập phải có định dạng <ph name="LPA_0" />$<ph name="LPA_1" />SM-DP+ địa chỉ<ph name="LPA_2" />$<ph name="LPA_3" />mã nhận dạng để so khớp (không bắt buộc)<ph name="LPA_4" /></translation>
 <translation id="7811263553491007091">Hãy thử lại hoặc chọn một trong những giao diện đã tạo ở bên dưới.</translation>
-<translation id="7812170317334653156">Đã ẩn Lịch Google</translation>
+<translation id="7812170317334653156">Đã ẩn Lịch Decentr</translation>
 <translation id="7814090115158024843">Không bao giờ đề xuất hỗ trợ viết trên các trang web này</translation>
 <translation id="7814458197256864873">Sao &amp;chép</translation>
 <translation id="7814857791038398352">Microsoft OneDrive</translation>
@@ -9251,7 +9251,7 @@ Nhấn một công tắc hoặc phím đã gán để xóa.</translation>
 <translation id="7853747251428735">Côn&amp;g cụ khác</translation>
 <translation id="7853999103056713222">Sử dụng mật khẩu an toàn hơn</translation>
 <translation id="7855678561139483478">Di chuyển thẻ sang cửa sổ mới</translation>
-<translation id="7856117067008941054">Ẩn Lịch Google</translation>
+<translation id="7856117067008941054">Ẩn Lịch Decentr</translation>
 <translation id="7857004848504343806">Máy tính của bạn chứa một mô-đun bảo mật dùng để triển khai nhiều tính năng bảo mật thiết yếu trong ChromeOS Flex. Hãy truy cập Trung tâm trợ giúp của Chromebook để tìm hiểu thêm: https://support.google.com/chromebook/?p=sm</translation>
 <translation id="7857093393627376423">Đề xuất văn bản</translation>
 <translation id="7858120906780498731">Thiết bị đầu vào đã kết nối với ChromeOS</translation>
@@ -9259,7 +9259,7 @@ Nhấn một công tắc hoặc phím đã gán để xóa.</translation>
 <translation id="7859560813397128941">Xoá tiện ích <ph name="EXTENSION_NAME" /></translation>
 <translation id="786073089922909430">Dịch vụ: <ph name="ARC_PROCESS_NAME" /></translation>
 <translation id="7861215335140947162">&amp;Tệp đã tải xuống</translation>
-<translation id="7861846108263890455">Ngôn ngữ trong Tài khoản Google</translation>
+<translation id="7861846108263890455">Ngôn ngữ trong Tài khoản Decentr</translation>
 <translation id="7864114920800968141"><ph name="NUM_MIN" /> phút nữa</translation>
 <translation id="7864539943188674973">Tắt bluetooth</translation>
 <translation id="7864825798076155402">Lưu vào Tài khoản Google của bạn?</translation>
@@ -9511,7 +9511,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8041089156583427627">Gửi ý kiến phản hồi</translation>
 <translation id="8041267120753677077">Truyền trực tiếp ứng dụng trên điện thoại</translation>
 <translation id="8042142357103597104">Độ mờ văn bản</translation>
-<translation id="8042331986490021244">Mật khẩu của bạn được mã hoá trên thiết bị trước khi lưu vào Trình quản lý mật khẩu của Google</translation>
+<translation id="8042331986490021244">Mật khẩu của bạn được mã hoá trên thiết bị trước khi lưu vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="8044262338717486897"><ph name="LINUX_APP_NAME" /> không phản hồi.</translation>
 <translation id="8044899503464538266">Chậm</translation>
 <translation id="8045253504249021590">Đã ngừng đồng bộ hóa qua Trang tổng quan của Google.</translation>
@@ -9568,7 +9568,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="80790299200510644">Tìm kiếm hình ảnh</translation>
 <translation id="80798452873915119">Các trang web có thể yêu cầu quản lý các cửa sổ trên tất cả màn hình của bạn</translation>
 <translation id="8080028325999236607">Đóng tất cả các thẻ</translation>
-<translation id="808089508890593134">Google</translation>
+<translation id="808089508890593134">Decentr</translation>
 <translation id="8081623398548615289">Phiên của bạn chịu sự quản lý của <ph name="MANAGER_NAME" />. Quản trị viên có thể xoá hồ sơ của bạn cũng như giám sát lưu lượng truy cập mạng của bạn.</translation>
 <translation id="8081989000209387414">Tắt tùy chọn gỡ lỗi ADB?</translation>
 <translation id="8082106343289440791">Ghép nối với "<ph name="DEVICE_NAME" />"?</translation>
@@ -9583,7 +9583,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8086610718778464681">Không thể sao lưu tệp và ứng dụng Linux.</translation>
 <translation id="80866457114322936">{NUM_FILES,plural, =1{Tệp này đã được mã hóa. Hãy yêu cầu chủ sở hữu tệp giải mã.}other{Một số tệp trong số này đã được mã hóa. Hãy yêu cầu chủ sở hữu tệp giải mã.}}</translation>
 <translation id="808894953321890993">Đổi mật khẩu</translation>
-<translation id="8089547136368562137">Mật khẩu được bảo vệ bằng những công nghệ tốt nhất của Google</translation>
+<translation id="8089547136368562137">Mật khẩu được bảo vệ bằng những công nghệ tốt nhất của Decentr</translation>
 <translation id="8090234456044969073">Đọc danh sách trang web được truy cập thường xuyên nhất của bạn</translation>
 <translation id="8090513782447872344">Bạn có thể xem lại hướng dẫn vào bất cứ lúc nào</translation>
 <translation id="8090579562279016251">Làm giảm hiệu suất nhưng giúp V8 tăng khả năng chống lại các cuộc tấn công</translation>
@@ -9718,7 +9718,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8186609076106987817">Máy chủ không thể tìm thấy tệp.</translation>
 <translation id="8188389033983459049">Kiểm tra mục cài đặt thiết bị và bật Bluetooth để tiếp tục</translation>
 <translation id="8188742492803591566">Nhập mã truy cập xuất hiện trên Chromecast hoặc TV để bắt đầu truyền tới màn hình.</translation>
-<translation id="8189257540098107776">Không thể kết nối với Trình quản lý mật khẩu của Google</translation>
+<translation id="8189257540098107776">Không thể kết nối với Trình quản lý mật khẩu của Decentr</translation>
 <translation id="8189306097519446565">Tài khoản trường học</translation>
 <translation id="8189750580333936930">Hộp cát về quyền riêng tư</translation>
 <translation id="8191230140820435481">Quản lý ứng dụng, tiện ích và chủ đề của bạn</translation>
@@ -9871,7 +9871,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8295450130892483256">Cài đặt Microsoft 365</translation>
 <translation id="8297292446125062288">Cài đặt HID</translation>
 <translation id="8298429963694909221">Bạn hiện có thể nhận thông báo của điện thoại trên <ph name="DEVICE_TYPE" />. Nếu bạn đóng thông báo trên <ph name="DEVICE_TYPE" />, thông báo trên điện thoại cũng sẽ bị đóng. Hãy đảm bảo điện thoại của bạn đang ở gần, đồng thời đã bật Bluetooth và Wi-Fi.</translation>
-<translation id="829923460755755423">Thêm lối tắt vào Trình quản lý mật khẩu của Google</translation>
+<translation id="829923460755755423">Thêm lối tắt vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="8299319456683969623">Bạn hiện đang ngoại tuyến.</translation>
 <translation id="829937697336000302">Tăng năng suất</translation>
 <translation id="8299951061833867575">Wi-Fi, dữ liệu di động</translation>
@@ -9954,7 +9954,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8357388086258943206">Lỗi khi cài đặt Linux</translation>
 <translation id="8358685469073206162">Bạn có muốn khôi phục trang không?</translation>
 <translation id="8358912028636606457">Thiết bị này không hỗ trợ truyền âm thanh của thẻ.</translation>
-<translation id="835951711479681002">Lưu trong Tài khoản Google</translation>
+<translation id="835951711479681002">Lưu trong Tài khoản Decentr</translation>
 <translation id="8360140320636871023">Cá nhân hoá giao diện hiển thị</translation>
 <translation id="8360267485906769442">Nút gửi phản hồi</translation>
 <translation id="8362914115861174987">Dịch sang</translation>
@@ -10170,7 +10170,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8523493869875972733">Lưu thay đổi</translation>
 <translation id="8523849605371521713">Được thêm bởi chính sách</translation>
 <translation id="8524594273111932386">tìm kiếm + mũi tên xuống</translation>
-<translation id="8524783101666974011">Lưu thẻ vào Tài khoản Google</translation>
+<translation id="8524783101666974011">Lưu thẻ vào Tài khoản Decentr</translation>
 <translation id="8524817717332153865">Camera và micrô hiện đang tắt trong phần System Settings (Cài đặt hệ thống) trên máy Mac</translation>
 <translation id="8524841856047224176">Cá nhân hoá nền camera cho các cuộc gọi video và nhiều tính năng khác</translation>
 <translation id="8525306231823319788">Toàn màn hình</translation>
@@ -10219,7 +10219,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8557100046150195444">Dùng Touch ID để tiếp tục</translation>
 <translation id="8557180006508471423">Hãy bật "Decentr" trong mục cài đặt Dịch vụ vị trí (Location Services) trên máy Mac của bạn</translation>
 <translation id="8557856025359704738">Lượt tải xuống tiếp theo bắt đầu vào <ph name="NEXT_DATE_DOWNLOAD" />.</translation>
-<translation id="8558281414737757274">Mật khẩu của Tài khoản Google</translation>
+<translation id="8558281414737757274">Mật khẩu của Tài khoản Decentr</translation>
 <translation id="8559858985063901027">Khoá truy cập</translation>
 <translation id="8559961053328923750">Chrome giới hạn tổng lượng dữ liệu mà các trang web có thể chia sẻ thông qua trình duyệt để đo lường hiệu suất quảng cáo</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Mở tất cả trong cửa sổ &amp;mới}=1{Mở trong cửa sổ &amp;mới}other{Mở tất cả ({COUNT}) trong cửa sổ &amp;mới}}</translation>
@@ -10473,7 +10473,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8737914367566358838">Chọn ngôn ngữ mà trang sẽ được dịch sang</translation>
 <translation id="8737966899544698733">Độ chính xác của vị trí (chỉ dành cho Android)</translation>
 <translation id="8738418093147087440">Tìm kiếm theo quốc gia, ngôn ngữ hoặc tên phương thức nhập</translation>
-<translation id="8740086188450289493">Dùng mật khẩu của Tài khoản Google</translation>
+<translation id="8740086188450289493">Dùng mật khẩu của Tài khoản Decentr</translation>
 <translation id="8740247629089392745">Bạn có thể đưa lại Chromebook này cho <ph name="SUPERVISED_USER_NAME" />. Sắp thiết lập xong. Hãy chuẩn bị khám phá.</translation>
 <translation id="8740672167979365981">Cần cập nhật ChromeOS Flex</translation>
 <translation id="8741944563400125534">Hướng dẫn thiết lập tính năng Tiếp cận bằng công tắc</translation>
@@ -10526,7 +10526,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8777628254805677039">mật khẩu gốc</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8779944680596936487">Các trang web chỉ có thể dùng cookie để xem hoạt động duyệt web của bạn trên trang web của chính họ</translation>
-<translation id="8780123805589053431">Lấy nội dung mô tả hình ảnh từ Google</translation>
+<translation id="8780123805589053431">Lấy nội dung mô tả hình ảnh từ Decentr</translation>
 <translation id="8780443667474968681">Tính năng tìm kiếm bằng giọng nói đã bị tắt.</translation>
 <translation id="8781834595282316166">Thẻ mới trong nhóm</translation>
 <translation id="8781980678064919987">Tắt máy khi đóng nắp</translation>
@@ -10703,7 +10703,7 @@ Giữ tệp khóa của bạn ở nơi an toàn. Bạn sẽ cần tệp khóa đ
 <translation id="8909833622202089127">Trang web đang theo dõi vị trí của bạn</translation>
 <translation id="8910222113987937043">Các thay đổi đối với dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ không được đồng bộ hóa với Tài khoản Google của bạn nữa. Tuy nhiên, dữ liệu hiện có của bạn sẽ vẫn được lưu trữ trong Tài khoản Google và có thể được quản lý trên <ph name="BEGIN_LINK" />Trang tổng quan Google<ph name="END_LINK" />.</translation>
 <translation id="8910987510378294980">Ẩn danh sách thiết bị</translation>
-<translation id="8912362522468806198">Tài khoản Google</translation>
+<translation id="8912362522468806198">Tài khoản Decentr</translation>
 <translation id="8912810933860534797">Bật tính năng tự động quét</translation>
 <translation id="8914504000324227558">Chạy lại Chrome</translation>
 <translation id="8915307125957890427">Nhấp chuột phải vào một thẻ rồi chọn "Thêm thẻ vào nhóm", sau đó chọn "Nhóm mới"</translation>
@@ -10809,7 +10809,7 @@ Các quyền bạn từng cấp cho trang web và ứng dụng có thể áp d�
 <translation id="8985661493893822002">Vui lòng kết nối Internet để đăng nhập vào <ph name="DEVICE_TYPE" /> của bạn.</translation>
 <translation id="8985661571449404298">Đã tải xuống một tệp không an toàn</translation>
 <translation id="8986362086234534611">Quên</translation>
-<translation id="8986494364107987395">Tự động gửi số liệu thống kê về việc sử dụng và báo cáo sự cố cho Google</translation>
+<translation id="8986494364107987395">Tự động gửi số liệu thống kê về việc sử dụng và báo cáo sự cố cho Decentr</translation>
 <translation id="8987305927843254629">Mỗi người đều có thể cá nhân hoá trải nghiệm của mình và bảo mật dữ liệu.</translation>
 <translation id="8987321822984361516">Trình duyệt do một tổ chức quản lý, hồ sơ do <ph name="PROFILE_DOMAIN" /> quản lý</translation>
 <translation id="8987927404178983737">Tháng</translation>

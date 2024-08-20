@@ -123,7 +123,7 @@ Permissions that you've already given to websites and apps may apply to this acc
 <translation id="3032787606318309379">Adding to Decentr ...</translation>
 <translation id="3038232873781883849">Waiting to install…</translation>
 <translation id="3068187312562070417">Other Decentr profiles</translation>
-<translation id="3068515742935458733">Help make Decentr better by sending crash reports and <ph name="UMA_LINK" /> to Google</translation>
+<translation id="3068515742935458733">Help make Decentr better by sending crash reports and <ph name="UMA_LINK" /> to Decentr</translation>
 <translation id="3079753320517721795">{NUM_DEVICES,plural, =0{1 USB device was being accessed by one or more Decentr extensions}=1{1 USB device is being accessed by one or more Decentr extensions}other{# USB devices are being accessed by one or more Decentr extensions}}</translation>
 <translation id="3101560983689755071">Your browsing history affects the ads that you see and the interests as estimated below. To protect your privacy, Decentr auto-deletes your interests on a rolling basis each month. Interests can refresh unless you remove them.</translation>
 <translation id="3103660991484857065">The installer failed to uncompress archive. Please download Decentr again.</translation>
@@ -347,7 +347,7 @@ Permissions that you've already given to websites and apps may apply to this acc
 <translation id="6542839706527980775">Each profile holds its own Decentr info, like bookmarks, history, passwords and more</translation>
 <translation id="6563921047760808519">Learn more about <ph name="BEGIN_LINK" />how Decentr keeps your data private<ph name="END_LINK" /></translation>
 <translation id="656935081669708576">You can switch to see passwords from another Decentr profile</translation>
-<translation id="6570579332384693436">To fix spelling errors, Decentr sends the text that you type in text fields to Google</translation>
+<translation id="6570579332384693436">To fix spelling errors, Decentr sends the text that you type in text fields to Decentr</translation>
 <translation id="6598877126913850652">Go to Decentr notification settings</translation>
 <translation id="6613594504749178791">Your changes will take effect the next time you relaunch Decentr.</translation>
 <translation id="665732753414869868">Decentr needs camera permission to create a 3D map of your surroundings</translation>

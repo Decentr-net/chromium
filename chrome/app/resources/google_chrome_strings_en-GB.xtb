@@ -119,7 +119,7 @@ Some features may be unavailable and changes to preferences won't be saved.</tra
 <translation id="2645435784669275700">ChromeOS</translation>
 <translation id="2649768380733403658">Chrome regularly checks to make sure your browser has the safest settings. We'll let you know if anything needs your review.</translation>
 <translation id="2652691236519827073">Open Link in New Chrome &amp;tab</translation>
-<translation id="2665296953892887393">Help make Decentr better by sending crash reports and <ph name="UMA_LINK" /> to Google</translation>
+<translation id="2665296953892887393">Help make Decentr better by sending crash reports and <ph name="UMA_LINK" /> to Decentr</translation>
 <translation id="2681444469812712297">Open <ph name="URL" /> in a new tab in Decentr.</translation>
 <translation id="2738871930057338499">Unable to connect to the Internet. HTTP 403 Forbidden. Please check your proxy configuration.</translation>
 <translation id="2742320827292110288">Warning: Decentr cannot prevent extensions from recording your browsing history. To disable this extension in Incognito mode, unselect this option.</translation>
@@ -392,7 +392,7 @@ Decentr is unable to recover your settings.</translation>
 <translation id="6718739135284199302">Make Chrome faster</translation>
 <translation id="6735387454586646204">Chrome OS Flex system</translation>
 <translation id="6739177684496155661">Continue in a new Chrome profile?</translation>
-<translation id="6750954913813541382">To fix spelling errors, Chrome sends the text that you type in the browser to Google</translation>
+<translation id="6750954913813541382">To fix spelling errors, Chrome sends the text that you type in the browser to Decentr</translation>
 <translation id="677276454032249905">Exit Chrome anyway?</translation>
 <translation id="6794858689789885890">Always delete site data from your device when you close Chrome</translation>
 <translation id="683440813066116847">Inbound rule for Decentr Canary to allow mDNS traffic.</translation>

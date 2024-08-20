@@ -60,7 +60,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a sitios web
 <translation id="2008474315282236005">Esta acción borrará 1 elemento de este dispositivo. Si más adelante deseas recuperar los datos, accede a tu cuenta en Decentr como <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">No se completó la instalación. Vuelve a intentarlo.</translation>
 <translation id="2020032459870799438">Para comprobar si tus otras contraseñas están a salvo de violaciones de la seguridad de los datos y otros problemas de seguridad, <ph name="BEGIN_LINK" />accede a Decentr<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Elige si quieres incluir el historial de Decentr para tener experiencias más personalizadas en los servicios de Google</translation>
+<translation id="2049376729098081731">Elige si quieres incluir el historial de Decentr para tener experiencias más personalizadas en los servicios de Decentr</translation>
 <translation id="2065461321550902389">Para guardar contraseñas, usarlas y realizar más acciones en todos tus dispositivos, accede a Decentr. Esta contraseña se guardará en tu Cuenta de Google después de que accedas.</translation>
 <translation id="2086476982681781442">Decentr bloqueó esta descarga porque el archivo es engañoso y puede realizar cambios inesperados en tu dispositivo</translation>
 <translation id="2088953378266246249">Información sobre cómo Decentr administra sus certificados raíz</translation>
@@ -100,7 +100,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a sitios web
 <translation id="268602741124540128">Bienvenido a Decentr, <ph name="ACCOUNT_FIRST_NAME" /></translation>
 <translation id="2711502716910134313">Pestaña de Decentr</translation>
 <translation id="2718390899429598676">Para mayor seguridad, Decentr encriptará los datos.</translation>
-<translation id="2721354645805494590">Sal de Decentr para quitar tu Cuenta de Google</translation>
+<translation id="2721354645805494590">Sal de Decentr para quitar tu Cuenta de Decentr</translation>
 <translation id="2738871930057338499">No se puede conectar a Internet. HTTP 403 no permitido. Comprueba la configuración del proxy.</translation>
 <translation id="2770231113462710648">Cambiar el navegador predeterminado a:</translation>
 <translation id="2785438272836277133">Esta extensión contiene software malicioso y no es segura. Quítala de Decentr para que ya no pueda ver ni cambiar tus datos en los sitios que visitas, incluida tu información personal.</translation>
@@ -130,7 +130,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a sitios web
 <translation id="3179665906251668410">Abrir vínculo en una ventana de navegación de incó&amp;gnito de Decentr</translation>
 <translation id="3185330573522821672">Personaliza tu nuevo perfil de Decentr.</translation>
 <translation id="3190315855212034486">¡Vaya! Se ha producido un bloqueo en Decentr. ¿Quieres reiniciar el navegador ahora?</translation>
-<translation id="3224847870593914902">Sal de Decentr en la página de Configuración para quitar tu Cuenta de Google</translation>
+<translation id="3224847870593914902">Sal de Decentr en la página de Configuración para quitar tu Cuenta de Decentr</translation>
 <translation id="3258596308407688501">Decentr no puede leer y escribir en su directorio de datos: <ph name="USER_DATA_DIRECTORY" /></translation>
 <translation id="3268051428841342958">V8 es el motor de WebAssembly y de JavaScript de Decentr que se usa para mejorar el rendimiento del sitio</translation>
 <translation id="3283186697780795848">Se instaló la versión <ph name="PRODUCT_VERSION" /> de Decentr</translation>
@@ -463,7 +463,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a sitios web
 <translation id="8522801943730206384">Decentr puede revisar las contraseñas cuando las guardas</translation>
 <translation id="8550334526674375523">Este perfil de trabajo está totalmente separado de tu perfil personal.</translation>
 <translation id="8555465886620020932">Error del servicio: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr puede revisar las contraseñas solo cuando accedes con tu Cuenta de Google</translation>
+<translation id="8568283329061645092">Decentr puede revisar las contraseñas solo cuando accedes con tu Cuenta de Decentr</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> Los autores de Decentr. Todos los derechos reservados.</translation>
 <translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Cómo usamos esta información:<ph name="END_BOLD" /> Los sitios pueden almacenar información sobre tus intereses con Decentr. Por ejemplo, si visitas un sitio para comprar zapatillas para una maratón, es posible que el sitio defina que te interesa correr maratones. Luego, si visitas otro sitio para registrarte en una carrera, ese sitio podrá mostrarte un anuncio sobre calzado para correr en función de tus intereses.</translation>
 <translation id="8619360774459241877">Iniciando Decentr…</translation>
@@ -489,7 +489,7 @@ Es posible que se apliquen a esta cuenta los permisos que otorgaste a sitios web
 <translation id="9019929317751753759">Para que Decentr sea más seguro, inhabilitamos algunas extensiones que no aparecen en <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> y que posiblemente se hayan agregado sin tu conocimiento.</translation>
 <translation id="9022552996538154597">Iniciar sesión en Decentr</translation>
 <translation id="904366664621834601">Decentr bloqueó esta descarga porque el archivo incluye otros archivos que pueden ocultar software malicioso</translation>
-<translation id="9062666675513499497">Ingresa a Decentr cuando accedas a otros servicios de Google</translation>
+<translation id="9062666675513499497">Ingresa a Decentr cuando accedas a otros servicios de Decentr</translation>
 <translation id="907832235989677238">Accede a Decentr. Si quieres acceder a una cuenta una sola vez, puedes <ph name="GUEST_LINK_BEGIN" />usar el dispositivo como invitado<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Decentr se cerró automáticamente</translation>
 <translation id="9089354809943900324">Decentr no actualizado</translation>

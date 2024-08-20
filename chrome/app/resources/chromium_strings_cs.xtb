@@ -44,7 +44,7 @@ Na tento účet se mohou vztahovat oprávnění, která jste již udělili webů
 <translation id="1749104137266986751">Když není k dispozici protokol HTTPS, použije prohlížeč Decentr nezabezpečené připojení, aniž by vás upozornil</translation>
 <translation id="1774152462503052664">Nechat prohlížeč Decentr spuštěný na pozadí</translation>
 <translation id="1779356040007214683">Aby bylo Decentr bezpečnější, deaktivovali jsme některá rozšíření, která nejsou uvedena na webu <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> a mohla být přidána bez vašeho vědomí.</translation>
-<translation id="1804128559285178512">Když jste přihlášeni, můžete v prohlížeči Decentr používat hesla a další položky ze svého účtu Google</translation>
+<translation id="1804128559285178512">Když jste přihlášeni, můžete v prohlížeči Decentr používat hesla a další položky ze svého účtu Decentr</translation>
 <translation id="1808667845054772817">Přeinstalovat Decentr</translation>
 <translation id="1820835682567584003">Decentr se pokouší <ph name="AUTHENTICATION_PURPOSE" /></translation>
 <translation id="18552579716432081">Pokud chcete údaje o prohlížení vymazat jen z tohoto zařízení, ale v účtu Google je ponechat, <ph name="BEGIN_LINK" />odhlaste se z prohlížeče Decentr<ph name="END_LINK" />.</translation>
@@ -361,7 +361,7 @@ Na tento účet se mohou vztahovat oprávnění, která jste již udělili webů
 <translation id="6717134281241384636">Nelze použít váš profil, protože byl vytvořen v novější verzi prohlížeče Decentr.
 
 Některé funkce mohou být nedostupné. Zadejte prosím jiný adresář profilu, nebo používejte novější verzi prohlížeče Decentr.</translation>
-<translation id="6729124504294600478">Pokud chcete získat personalizaci a další funkce, zahrňte Decentr do Aktivity na webu a v aplikacích a do propojených služeb Google</translation>
+<translation id="6729124504294600478">Pokud chcete získat personalizaci a další funkce, zahrňte Decentr do Aktivity na webu a v aplikacích a do propojených služeb Decentr</translation>
 <translation id="6734291798041940871">Prohlížeč Decentr je na tomto počítači již nainstalován pro všechny uživatele.</translation>
 <translation id="673636774878526923">Chcete-li mít ve všech zařízeních přístup k údajům z prohlížeče Decentr, přihlaste se a zapněte synchronizaci.</translation>
 <translation id="674245979920622322">V poslední době jste nenavštívili. Prohlížeč Decentr odebral tato oprávnění: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> a ještě <ph name="COUNT" /></translation>
@@ -497,7 +497,7 @@ Decentr nemůže vaše nastavení obnovit.</translation>
 <translation id="9019929317751753759">Aby byl prohlížeč Decentr bezpečnější, deaktivovali jsme následující rozšíření, které není uvedeno na webu <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> a pravděpodobně bylo přidáno bez vašeho vědomí.</translation>
 <translation id="9022552996538154597">Přihlásit se do prohlížeče Decentr</translation>
 <translation id="904366664621834601">Prohlížeč Decentr toto stahování zablokoval, protože tento soubor archivu obsahuje další soubory, které mohou skrývat malware</translation>
-<translation id="9062666675513499497">Přihlášení do prohlížeče Decentr při přihlášení do jiných služeb Google</translation>
+<translation id="9062666675513499497">Přihlášení do prohlížeče Decentr při přihlášení do jiných služeb Decentr</translation>
 <translation id="907832235989677238">Přihlaste se do prohlížeče Decentr. Pokud se k nějakému účtu chcete přihlásit pouze jednorázově, můžete <ph name="GUEST_LINK_BEGIN" />zařízení použít jako host<ph name="GUEST_LINK_END" />.</translation>
 <translation id="9078733879136747090">Prohlížeč Decentr byl automaticky ukončen</translation>
 <translation id="9089354809943900324">Prohlížeč Decentr je zastaralý</translation>
