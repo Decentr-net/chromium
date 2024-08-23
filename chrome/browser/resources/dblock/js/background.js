@@ -141,6 +141,8 @@ const µBlock = (( ) => { // jshint ignore:line
             'decentr.xyz',
             'ping.pub',
             'osmosis.zone',
+            'presearch.com',
+            'presearch-preview.com',
         ],
 
         localSettings: {
