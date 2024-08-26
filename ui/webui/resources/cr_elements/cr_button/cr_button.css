@@ -11,54 +11,51 @@
  * #css_wrapper_metadata_end */
 
 :host {
-  --active-shadow-rgb: var(--google-grey-800-rgb);
-  --active-shadow-action-rgb: var(--google-blue-500-rgb);
-  --bg-action: var(--google-blue-600);
-  --border-color: var(--google-grey-300);
-  --disabled-bg-action: var(--google-grey-100);
-  --disabled-bg: white;
-  --disabled-border-color: var(--google-grey-100);
-  --disabled-text-color: var(--google-grey-600);
-  --focus-shadow-color: rgba(var(--google-blue-600-rgb), .4);
-  --hover-bg-action: rgba(var(--google-blue-600-rgb), .9);
-  --hover-bg-color: rgba(var(--google-blue-500-rgb), .04);
-  --hover-border-color: var(--google-blue-100);
-  --hover-shadow-action-rgb: var(--google-blue-500-rgb);
-  --ink-color-action: white;
-  /* Blue-ish color used either as a background or as a text color,
-   * depending on the type of button. */
-  --ink-color: var(--google-blue-600);
-  --ripple-opacity-action: .32;
-  --ripple-opacity: .1;
-  --text-color-action: white;
-  --text-color: white;
+  --cr-button-background-color: transparent;
+  --cr-button-border-color:  var(--color-button-border,
+      var(--cr-fallback-color-tonal-outline));
+  --cr-button-text-color: var(--color-button-foreground,
+      var(--cr-fallback-color-primary));
+  --cr-button-ripple-opacity: 1;
+  --cr-button-ripple-color: var(--cr-active-background-color);
+
+  --cr-button-disabled-background-color: transparent;
+  --cr-button-disabled-border-color: var(--color-button-border-disabled,
+      var(--cr-fallback-color-disabled-background));
+  --cr-button-disabled-text-color: var(--color-button-foreground-disabled,
+      var(--cr-fallback-color-disabled-foreground));
 }
 
-@media (prefers-color-scheme: dark) {
-  :host {
-    /* Only in dark. */
-    --active-bg: black linear-gradient(rgba(255, 255, 255, .06),
-                                       rgba(255, 255, 255, .06));
-    --active-shadow-rgb: 0, 0, 0;
-    --active-shadow-action-rgb: var(--google-blue-500-rgb);
-    --bg-action: #ff0183;
-    --border-color: var(--google-grey-700);
-    --disabled-bg-action: var(--google-grey-800);
-    /* TODO(dbeam): get --disabled-bg from Namrata. */
-    --disabled-bg: transparent;
-    --disabled-border-color: var(--google-grey-800);
-    --disabled-text-color: var(--google-grey-500);
-    --focus-shadow-color: rgba(var(--google-blue-300-rgb), .5);
-    --hover-bg-action: var(--bg-action)
-        linear-gradient(rgba(0, 0, 0, .08), rgba(0, 0, 0, .08));
-    --hover-bg-color: rgba(var(--google-blue-300-rgb), .08);
-    --ink-color-action: black;
-    --ink-color: rgba(156, 18, 130, 0.08);
-    --ripple-opacity-action: .16;
-    --ripple-opacity: .16;
-    --text-color-action: white;
-    --text-color:  white;
-  }
+:host(.action-button) {
+  --cr-button-background-color: var(--color-button-background-prominent,
+      var(--cr-fallback-color-primary));
+  --cr-button-text-color: var(--color-button-foreground-prominent,
+      var(--cr-fallback-color-on-primary));
+  --cr-button-ripple-color: var(--cr-active-on-primary-background-color);
+  --cr-button-border: none;
+
+  --cr-button-disabled-background-color: var(
+      --color-button-background-prominent-disabled,
+      var(--cr-fallback-color-disabled-background));
+  --cr-button-disabled-text-color: var(--color-button-foreground-disabled,
+      var(--cr-fallback-color-disabled-foreground));
+  --cr-button-disabled-border: none;
+}
+
+:host(.tonal-button),
+:host(.floating-button) {
+  --cr-button-background-color: var(--color-button-background-tonal,
+      var(--cr-fallback-color-secondary-container));
+  --cr-button-text-color: var(--color-button-foreground-tonal,
+      var(--cr-fallback-color-on-tonal-container));
+  --cr-button-border: none;
+
+  --cr-button-disabled-background-color: var(
+      --color-button-background-tonal-disabled,
+      var(--cr-fallback-color-disabled-background));
+  --cr-button-disabled-text-color: var(--color-button-foreground-disabled,
+      var(--cr-fallback-color-disabled-foreground));
+  --cr-button-disabled-border: none;
 }
 
 :host {

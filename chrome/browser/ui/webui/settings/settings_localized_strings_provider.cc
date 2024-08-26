@@ -3546,6 +3546,9 @@ void AddSystemStrings(content::WebUIDataSource* html_source) {
 void AddExtensionsStrings(content::WebUIDataSource* html_source) {
   html_source->AddLocalizedString("extensionsPageTitle",
                                   IDS_SETTINGS_EXTENSIONS_CHECKBOX_LABEL);
+  html_source->AddLocalizedString("historyMenuItem",
+                                  IDS_HISTORY_HISTORY_MENU_ITEM);
+
 }
 
 void AddSecurityKeysStrings(content::WebUIDataSource* html_source) {

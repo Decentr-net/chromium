@@ -12,29 +12,6 @@
   --cr-toggle-checked-bar-color: var(--cr-link-color)!important;
   --cr-toggle-checked-button-color: var(--cr-link-color)!important;
   --cr-toggle-checked-ripple-color: var(--cr-link-color)!important;
-  --cr-toggle-ripple-diameter: 40px;
-  --cr-toggle-unchecked-bar-color: var(--google-grey-400);
-  --cr-toggle-unchecked-button-color: white;
-  --cr-toggle-unchecked-ripple-color:
-      rgba(var(--google-grey-600-rgb), .15);
-  -webkit-tap-highlight-color: transparent;
-  cursor: pointer;
-  display: block;
-  min-width: 34px;
-  outline: none;
-  position: relative;
-  width: 34px;
-}
-
-:host-context([chrome-refresh-2023]):host {
-  --cr-toggle-checked-bar-color:
-      var(--color-toggle-button-track-on,
-          var(--cr-fallback-color-primary));
-  --cr-toggle-checked-button-color:
-      var(--color-toggle-button-thumb-on,
-          var(--cr-fallback-color-on-primary));
-  --cr-toggle-checked-ripple-color: var(
-      --cr-active-neutral-on-subtle-background-color);
   --cr-toggle-ripple-diameter: 20px;
   --cr-toggle-unchecked-bar-color:
       var(--color-toggle-button-track-off,
@@ -70,20 +47,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :host {
-    --cr-toggle-checked-bar-color: var(--cr-link-color)!important ;
-    --cr-toggle-checked-button-color:  var(--cr-link-color)!important;
-    --cr-toggle-checked-ripple-color:
-        rgba(var(--google-blue-300-rgb), .4);
-    --cr-toggle-unchecked-bar-color: var(--google-grey-500);
-    --cr-toggle-unchecked-button-color: var(--google-grey-300);
-    --cr-toggle-unchecked-ripple-color:
-        rgba(var(--google-grey-300-rgb), .4);
-  }
-}
-
-:host-context([chrome-refresh-2023]):host(:active) {
+:host(:active) {
   --cr-toggle-knob-diameter: 10px;
 }
 
