@@ -861,6 +861,9 @@ class Browser : public TabStripModelObserver,
   void SetLockedForOnTask(bool locked);
 #endif
 
+  // Helper which implements the LocationBarModelDelegate interface.
+  std::unique_ptr<BrowserLocationBarModelDelegate> location_bar_model_delegate_;
+  
  private:
   friend class BrowserTest;
   friend class ExclusiveAccessTest;

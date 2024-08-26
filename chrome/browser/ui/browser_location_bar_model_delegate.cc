@@ -54,15 +54,11 @@ const {
   GetURL(&url);
 
   if (url.SchemeIs(content::kChromeUIScheme)) {
-    return (OmniboxFieldTrial::IsChromeRefreshIconsEnabled())
-               ? &omnibox::kProductChromeRefreshIcon
-               : &omnibox::kProductIcon;
+    return &omnibox::kProductIcon;
   }
 
   if (url.SchemeIs(extensions::kExtensionScheme)) {
-    return (OmniboxFieldTrial::IsChromeRefreshIconsEnabled())
-               ? &vector_icons::kExtensionChromeRefreshIcon
-               : &omnibox::kExtensionAppIcon;
+    return &omnibox::kExtensionAppIcon;
   }
 
   if(istomiNet_)
