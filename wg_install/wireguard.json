@@ -1,7 +1,7 @@
 {
-  "name": "com.decentr.wireguard",
+  "name": "com.tomi.wireguard",
   "description": "Native messaging WireGuard host",
-  "path": "C:\\DecentrWG_config\\WG_decentr_host.exe",
+  "path": "c:\\TomiVPN\\TomiVpn_host.exe",
   "type": "stdio",
   "allowed_origins": [
     "chrome-extension://nadpaajfejcjagnmbjdilnphpadhaiej/",
