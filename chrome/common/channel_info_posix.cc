@@ -127,8 +127,8 @@ std::string GetDesktopName(base::Environment* env) {
   if (env->GetVar("CHROME_DESKTOP", &name) && !name.empty())
         return "tomi-browser.desktop";
   return "tomi-browser.desktop";
-#endif
 }
+#endif
 
 version_info::Channel GetChannel() {
   return GetChannelImpl().channel;
