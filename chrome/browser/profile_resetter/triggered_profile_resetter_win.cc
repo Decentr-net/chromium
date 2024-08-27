@@ -18,7 +18,7 @@
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #define PRODUCT_NAME L"Google\\Chrome"
 #elif BUILDFLAG(CHROMIUM_BRANDING)
-#define PRODUCT_NAME L"Tomi"
+#define PRODUCT_NAME L"tomi"
 #else
 #error Unknown branding
 #endif

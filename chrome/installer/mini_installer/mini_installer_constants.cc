@@ -60,12 +60,12 @@ const wchar_t kUninstallRegistryValue[] = L"UninstallString";
 // Registry key paths.
 // The path to the key containing each app's Clients registry key. The trailing
 // slash is required.
-const wchar_t kClientsKeyBase[] = L"Software\\Tomi\\Update\\Clients\\";
+const wchar_t kClientsKeyBase[] = L"Software\\tomi\\Update\\Clients\\";
 // The path to the key containing each app's Client State registry key. The
 // trailing slash is required.
 const wchar_t kClientStateKeyBase[] =
-    L"Software\\Tomi\\Update\\ClientState\\";
+    L"Software\\tomi\\Update\\ClientState\\";
 // The path to the key in which kCleanupRegistryValue is found.
-const wchar_t kCleanupRegistryKey[] = L"Software\\Tomi";
+const wchar_t kCleanupRegistryKey[] = L"Software\\tomi";
 
 }  // namespace mini_installer

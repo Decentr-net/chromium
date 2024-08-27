@@ -81,10 +81,10 @@ if (is_win) {
 
     # See comment in chrome_dll.gypi in the hardlink_to_output
     # target for why this cannot be 'initial' like the DLL.
-    inputs = [ "$root_out_dir/initialexe/Tomi.exe" ]
+    inputs = [ "$root_out_dir/initialexe/tomi.exe" ]
     outputs = [
-      "$root_out_dir/Tomi.exe",
-      "$root_out_dir/Tomi.exe.pdb",
+      "$root_out_dir/tomi.exe",
+      "$root_out_dir/tomi.exe.pdb",
     ]
     args = [
       "-i",
@@ -151,7 +151,7 @@ if (!is_android && !is_mac) {
       configs -= [ "//build/config/compiler:thinlto_optimize_default" ]
       configs += [ "//build/config/compiler:thinlto_optimize_max" ]
       if (is_win) {
-        output_name = "initialexe/Tomi"
+        output_name = "initialexe/tomi"
       } else {
         output_name = "tomi"
       }
@@ -1765,7 +1765,7 @@ if (is_linux || is_chromeos) {
       }
     }
     extract_symbols("chrome_symbols") {
-      binary = "$root_out_dir/Tomi"
+      binary = "$root_out_dir/tomi"
 
       if (current_cpu == "x86") {
         # GYP used "ia32" so keep that naming for back-compat.

@@ -327,7 +327,7 @@ base::Value::List GetReadableFeedbackForSnapshot(
     for (auto i = shortcuts.begin(); i != shortcuts.end(); ++i) {
       if (!shortcut_targets.empty())
         shortcut_targets += u"\n";
-      shortcut_targets += u"Tomi.exe ";
+      shortcut_targets += u"tomi.exe ";
       shortcut_targets += base::WideToUTF16(i->second);
     }
     if (!shortcut_targets.empty()) {

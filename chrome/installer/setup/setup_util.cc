@@ -109,7 +109,7 @@ void RemoveBinariesVersionKey(const InstallerState& installer_state) {
       L"{4DC8B4CA-1BDA-483e-B5FA-D3C12E15B62D}"));
 #else
   // Assume that non-Google is Chromium branding.
-  std::wstring path(L"Software\\Tomi Binaries");
+  std::wstring path(L"Software\\tomi Binaries");
 #endif
   installer::DeleteRegistryKey(installer_state.root_key(), path,
                                KEY_WOW64_32KEY);

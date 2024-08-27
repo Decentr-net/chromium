@@ -910,7 +910,7 @@ void RenderThreadImpl::InitializeRenderer(
 
 void RenderThreadImpl::RegisterSchemes() {
       // chrome:
-  WebString tomi_scheme(WebString::FromASCII(kTomiUIScheme));
+  WebString tomi_scheme(WebString::FromASCII(ktomiUIScheme));
   WebSecurityPolicy::RegisterURLSchemeAsDisplayIsolated(tomi_scheme);
   WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(
       tomi_scheme);

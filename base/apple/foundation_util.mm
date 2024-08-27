@@ -305,7 +305,7 @@ const char* BaseBundleID() {
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
   return "com.google.Chrome";
 #else
-  return "com.Tomi.Tomi";
+  return "com.tomi.tomi";
 #endif
 }
 

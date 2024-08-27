@@ -573,7 +573,7 @@ bool PathProvider(int key, base::FilePath* result) {
         return false;
       }
 
-      cur = cur.Append(FILE_PATH_LITERAL("Tomi"))
+      cur = cur.Append(FILE_PATH_LITERAL("tomi"))
                 .Append(FILE_PATH_LITERAL("External Extensions"));
 #else
       if (!base::PathService::Get(base::DIR_MODULE, &cur)) {

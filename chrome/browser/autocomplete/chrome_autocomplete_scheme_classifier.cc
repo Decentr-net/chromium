@@ -54,7 +54,7 @@ ChromeAutocompleteSchemeClassifier::GetInputTypeForScheme(
     return metrics::OmniboxInputType::EMPTY;
   }
   if (base::IsStringASCII(scheme) &&
-      base::EqualsCaseInsensitiveASCII(scheme, content::kTomiUIScheme)) {
+      base::EqualsCaseInsensitiveASCII(scheme, content::ktomiUIScheme)) {
     return metrics::OmniboxInputType::URL;
   }
   if (base::IsStringASCII(scheme) &&

@@ -13,13 +13,13 @@ const wchar_t kGoogleUpdateUpgradeCode[] =
     //L"{a04d6beb-0b7f-4e98-ae2f-b52c5c591675}";
     L"{18217356-b676-4b3b-93ba-641fabf142c7}";
 
-const wchar_t kGoogleUpdateSetupExe[] = L"TomiUpdateSetup.exe";
+const wchar_t kGoogleUpdateSetupExe[] = L"tomiUpdateSetup.exe";
 
-const wchar_t kRegPathClients[] = L"Software\\Tomi\\Update\\Clients";
-const wchar_t kRegPathClientState[] = L"Software\\Tomi\\Update\\ClientState";
+const wchar_t kRegPathClients[] = L"Software\\tomi\\Update\\Clients";
+const wchar_t kRegPathClientState[] = L"Software\\tomi\\Update\\ClientState";
 const wchar_t kRegPathClientStateMedium[] =
-    L"Software\\Tomi\\Update\\ClientStateMedium";
-const wchar_t kRegPathGoogleUpdate[] = L"Software\\Tomi\\Update";
+    L"Software\\tomi\\Update\\ClientStateMedium";
+const wchar_t kRegPathGoogleUpdate[] = L"Software\\tomi\\Update";
 
 const wchar_t kRegCommandsKey[] = L"Commands";
 

@@ -1305,8 +1305,8 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_NEW_TAB" desc="The text label of a menu item for opening a new tab">
             New &amp;tab
           </message>
-          <message name="IDS_CONTENT_CONTEXT_TDNS" desc="Tomi network resolver">
-            TomiNet
+          <message name="IDS_CONTENT_CONTEXT_TDNS" desc="tomi network resolver">
+            tomiNet
           </message>
           <message name="IDS_NEW_INCOGNITO_TAB" desc="The text label of a menu item for opening a new incognito tab">
             New Incognito &amp;tab
@@ -1459,8 +1459,8 @@ are declared in tools/grit/grit_rule.gni.
           <message name="IDS_NEW_INCOGNITO_TAB" desc="In Title Case: The text label of a menu item for opening a new incognito tab">
             New Incognito &amp;Tab
           </message>
-          <message name="IDS_CONTENT_CONTEXT_TDNS" desc="Tomi network resolver">
-            TomiNet
+          <message name="IDS_CONTENT_CONTEXT_TDNS" desc="tomi network resolver">
+            tomiNet
           </message>
           <message name="IDS_SHOW_AS_TAB" desc="In Title Case: The text label for the Show As tab menu item">
             &amp;Show As Tab
@@ -9596,7 +9596,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Open the home page
       </message>
       <message name="IDS_TOOLTIP_TDNS" desc="The tooltip for the tdns button">
-        Go TomiNet
+        Go tomiNet
       </message>
       <message name="IDS_TOOLTIP_RELOAD" desc="The tooltip for reload button">
         Reload this page
@@ -9993,7 +9993,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Home
       </message>
       <message name="IDS_ACCNAME_TDNS" desc="The accessible name for the tdns button">
-        TomiNet
+        tomiNet
       </message>
       <message name="IDS_ACCNAME_RELOAD" desc="The accessible name for the reload/stop button.">
         Reload

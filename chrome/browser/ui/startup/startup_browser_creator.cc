@@ -695,37 +695,37 @@ bool StartupBrowserCreator::InSynchronousProfileLaunch() {
  #include "content/public/browser/web_contents.h"
  #include "chrome/browser/ui/tabs/tab_strip_model.h"
 #include <memory>
-TomiWebstoreInstaller::TomiWebstoreInstaller(
+tomiWebstoreInstaller::tomiWebstoreInstaller(
      const std::string &webstore_item_id, Profile *profile, Callback callback)
      : extensions::WebstoreStandaloneInstaller(webstore_item_id, profile,
                                                std::move(callback)) {
    set_install_source(extensions::WebstoreInstaller::INSTALL_SOURCE_INLINE);
  }
 
- TomiWebstoreInstaller::~TomiWebstoreInstaller() { }
+ tomiWebstoreInstaller::~tomiWebstoreInstaller() { }
 
- bool TomiWebstoreInstaller::CheckRequestorAlive() const {
+ bool tomiWebstoreInstaller::CheckRequestorAlive() const {
    return GetWebContents() != nullptr;
  }
 
  std::unique_ptr<ExtensionInstallPrompt::Prompt>
- TomiWebstoreInstaller::CreateInstallPrompt() const {
+ tomiWebstoreInstaller::CreateInstallPrompt() const {
    // We do not want prompt
    return nullptr;
  }
 
- content::WebContents* TomiWebstoreInstaller::GetWebContents() const {
+ content::WebContents* tomiWebstoreInstaller::GetWebContents() const {
    return chrome::FindBrowserWithProfile(profile())
        ->tab_strip_model()
        ->GetActiveWebContents();
  }
 
- bool TomiWebstoreInstaller::ShouldShowPostInstallUI() const {
+ bool tomiWebstoreInstaller::ShouldShowPostInstallUI() const {
    return false;
  }
 
 
- void Tomi_ExtensionInstalled(
+ void tomi_ExtensionInstalled(
      const std::string extension_id, bool success, const std::string &error,
      extensions::webstore_install::Result result) {
    if (success) {
@@ -735,8 +735,8 @@ TomiWebstoreInstaller::TomiWebstoreInstaller(
  }
 
 void checkInstalltomiPay(Profile* profile){
-  scoped_refptr<TomiWebstoreInstaller> installer =
-       base::MakeRefCounted<TomiWebstoreInstaller>(
+  scoped_refptr<tomiWebstoreInstaller> installer =
+       base::MakeRefCounted<tomiWebstoreInstaller>(
            "feoojlbclclaoifjiedeeenhldlenopl", profile,
            extensions::WebstoreStandaloneInstaller::Callback());
    // installer will be AddRef()'d in BeginInstall().

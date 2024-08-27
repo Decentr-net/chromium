@@ -14,13 +14,13 @@
 
 namespace install_static {
 
-const wchar_t kCompanyPathName[] = L"Tomi";
+const wchar_t kCompanyPathName[] = L"tomi";
 
-const wchar_t kProductPathName[] = L"Tomi";
+const wchar_t kProductPathName[] = L"tomi";
 
 const size_t kProductPathNameLength = _countof(kProductPathName) - 1;
 
-const char kSafeBrowsingName[] = "Tomi";
+const char kSafeBrowsingName[] = "tomi";
 
 const InstallConstants kInstallModes[] = {
     // The primary (and only) install mode for Chromium.
@@ -35,14 +35,14 @@ const InstallConstants kInstallModes[] = {
         .app_guid =
             L"{759b2ea9-21e7-45db-a478-131501fa12f4}",  // Empty app_guid since no integration with Google Update.
             //L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",  // Empty app_guid since no integration with Google Update.
-        .base_app_name = L"Tomi",              // A distinct base_app_name.
-        .base_app_id = L"Tomi",                // A distinct base_app_id.
-        .browser_prog_id_prefix = L"TomiHTM",  // Browser ProgID prefix.
+        .base_app_name = L"tomi",              // A distinct base_app_name.
+        .base_app_id = L"tomi",                // A distinct base_app_id.
+        .browser_prog_id_prefix = L"tomiHTM",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Tomi HTML Document",         // Browser ProgID description.
-        .pdf_prog_id_prefix = L"TomiPDF",  // PDF ProgID prefix.
+            L"tomi HTML Document",         // Browser ProgID description.
+        .pdf_prog_id_prefix = L"tomiPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Tomi PDF Document",  // PDF ProgID description.
+            L"tomi PDF Document",  // PDF ProgID description.
         .active_setup_guid =
             L"{759b2ea9-21e7-45db-a478-131501fa12f4}",  // Active Setup GUID.
             //L"{e6062629-cc9e-4f16-9a7b-990ef7a0dcdb}",  // Active Setup GUID.

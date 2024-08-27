@@ -216,7 +216,7 @@ const char kGoogleUpdateIsMachineEnvVar[] = "GoogleUpdateIsMachine";
 // Active Setup.
 const wchar_t kActiveSetupExe[] = L"chrmstp.exe";
 const wchar_t kChromeDll[] = L"chrome.dll";
-const wchar_t kChromeExe[] = L"Tomi.exe";
+const wchar_t kChromeExe[] = L"tomi.exe";
 const wchar_t kChromeNewExe[] = L"new_tomi.exe";
 const wchar_t kChromeOldExe[] = L"old_tomi.exe";
 const wchar_t kChromeProxyExe[] = L"chrome_proxy.exe";

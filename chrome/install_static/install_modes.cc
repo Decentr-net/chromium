@@ -11,16 +11,16 @@ namespace install_static {
 namespace {
 
 std::wstring GetClientsKeyPathForApp(const wchar_t* app_guid) {
-  return std::wstring(L"Software\\Tomi\\Update\\Clients\\").append(app_guid);
+  return std::wstring(L"Software\\tomi\\Update\\Clients\\").append(app_guid);
 }
 
 std::wstring GetClientStateKeyPathForApp(const wchar_t* app_guid) {
-  return std::wstring(L"Software\\Tomi\\Update\\ClientState\\")
+  return std::wstring(L"Software\\tomi\\Update\\ClientState\\")
       .append(app_guid);
 }
 
 std::wstring GetClientStateMediumKeyPathForApp(const wchar_t* app_guid) {
-  return std::wstring(L"Software\\Tomi\\Update\\ClientStateMedium\\")
+  return std::wstring(L"Software\\tomi\\Update\\ClientStateMedium\\")
       .append(app_guid);
 }
 

@@ -100,17 +100,17 @@ class CustomThemeSupplier
   extensions::ExtensionId extension_id_;
 };
 
-class TomiNetWindowThemeSupplier: public CustomThemeSupplier {
+class tomiNetWindowThemeSupplier: public CustomThemeSupplier {
   public:
-  explicit TomiNetWindowThemeSupplier(bool tomi_net);
+  explicit tomiNetWindowThemeSupplier(bool tomi_net);
 
-  TomiNetWindowThemeSupplier(const TomiNetWindowThemeSupplier&) =
+  tomiNetWindowThemeSupplier(const tomiNetWindowThemeSupplier&) =
       delete;
-  TomiNetWindowThemeSupplier& operator=(
-      const TomiNetWindowThemeSupplier&) = delete;
+  tomiNetWindowThemeSupplier& operator=(
+      const tomiNetWindowThemeSupplier&) = delete;
 
  protected:
-  ~TomiNetWindowThemeSupplier() override;
+  ~tomiNetWindowThemeSupplier() override;
   bool GetColor(int id, SkColor* color) const override;
   void AddColorMixers(ui::ColorProvider* provider,
                       const ui::ColorProviderKey& key) const override;

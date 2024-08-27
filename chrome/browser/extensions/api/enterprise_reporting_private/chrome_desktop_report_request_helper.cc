@@ -40,7 +40,7 @@ namespace {
 
 #if BUILDFLAG(IS_WIN)
 const wchar_t kDefaultRegistryPath[] =
-    L"SOFTWARE\\Tomi\\Endpoint Verification";
+    L"SOFTWARE\\tomi\\Endpoint Verification";
 const wchar_t kValueName[] = L"Safe Storage";
 
 LONG ReadEncryptedSecret(std::string* encrypted_secret) {

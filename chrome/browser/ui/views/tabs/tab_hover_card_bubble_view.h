@@ -63,7 +63,7 @@ class TabHoverCardBubbleView : public views::BubbleDialogDelegateView {
   TabHoverCardBubbleView& operator=(const TabHoverCardBubbleView&) = delete;
   ~TabHoverCardBubbleView() override;
 
-  void TomiUpdateCardContent(const Tab* tab);
+  void tomiUpdateCardContent(const Tab* tab);
   // Updates and formats title, alert state, domain, and preview image.
   void UpdateCardContent(const Tab* tab);
 

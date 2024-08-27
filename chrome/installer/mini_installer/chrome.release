@@ -6,7 +6,7 @@
 #
 # Chrome Application dir entries, sorted alphabetically.
 #
-Tomi.exe: %(ChromeDir)s\
+tomi.exe: %(ChromeDir)s\
 chrome_proxy.exe: %(ChromeDir)s\
 #
 # Chrome version dir assembly manifest.

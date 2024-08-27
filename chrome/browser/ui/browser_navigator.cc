@@ -98,8 +98,8 @@ class BrowserNavigatorWebContentsAdoption {
 };
 
 namespace {
-void UpdateTomiScheme(NavigateParams* params) {
-  if (params->url.SchemeIs(content::kTomiUIScheme)) {
+void UpdatetomiScheme(NavigateParams* params) {
+  if (params->url.SchemeIs(content::ktomiUIScheme)) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);
     params->url = params->url.ReplaceComponents(replacements);
@@ -107,7 +107,7 @@ void UpdateTomiScheme(NavigateParams* params) {
 }
 }  // namespace
 #define TOMI_ADJUST_NAVIGATE_PARAMS_FOR_URL           \
-  UpdateTomiScheme(params);  
+  UpdatetomiScheme(params);  
 
 namespace {
 
@@ -987,8 +987,8 @@ base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
 
 bool IsHostAllowedInIncognito(const GURL& url) {
   std::string scheme = url.scheme();
-  std::string_view host = url.host_piece();
-  if (scheme != content::kChromeUIScheme && scheme != content::kTomiUIScheme) {
+  base::StringPiece host = url.host_piece();
+  if (scheme != content::kChromeUIScheme && scheme != content::ktomiUIScheme) {
     return true;
   }
 

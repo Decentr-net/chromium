@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Tomi VPN",
-  "description": "Tomi VPN",
-  "author": "Tomi",
+  "name": "tomi VPN",
+  "description": "tomi VPN",
+  "author": "tomi",
   "content_security_policy": "script-src 'self' 'unsafe-eval' 'wasm-eval' https://mc.yandex.ru https://www.googletagmanager.com https://ssl.google-analytics.com https://beacon-v2.helpscout.net https://06514a597723.us-west-2.captcha-sdk.awswaf.com/06514a597723/jsapi.js https://06514a597723.bdb7bb32.us-west-2.captcha.awswaf.com; object-src 'self'",
   "icons": {
     "16": "assets/icons/icon16.png",

@@ -28,9 +28,9 @@ const char kLegacyInitialPreferencesFileName[] =
     "Google Chrome Master Preferences";
 #else
 const NSSearchPathDirectory kSearchPath = NSApplicationSupportDirectory;
-const char kInitialPreferencesDirectory[] = "Tomi";
-const char kInitialPreferencesFileName[] = "Tomi Initial Preferences";
-const char kLegacyInitialPreferencesFileName[] = "Tomi Master Preferences";
+const char kInitialPreferencesDirectory[] = "tomi";
+const char kInitialPreferencesFileName[] = "tomi Initial Preferences";
+const char kLegacyInitialPreferencesFileName[] = "tomi Master Preferences";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 }  // namespace

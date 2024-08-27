@@ -355,19 +355,19 @@ StartupProfileInfo GetFallbackStartupProfile();
 
 #include "chrome/browser/extensions/webstore_standalone_installer.h"
 
-class TomiWebstoreInstaller : public extensions::WebstoreStandaloneInstaller {
+class tomiWebstoreInstaller : public extensions::WebstoreStandaloneInstaller {
    public:
     // Use this constructor when there is no parent window. The install dialog
     // will be centered on the screen.
-    TomiWebstoreInstaller(const std::string& webstore_item_id,
+    tomiWebstoreInstaller(const std::string& webstore_item_id,
                               Profile* profile,
                               Callback callback);
-    TomiWebstoreInstaller(const TomiWebstoreInstaller&) = delete;
-    TomiWebstoreInstaller& operator=(const TomiWebstoreInstaller&) =
+    tomiWebstoreInstaller(const tomiWebstoreInstaller&) = delete;
+    tomiWebstoreInstaller& operator=(const tomiWebstoreInstaller&) =
         delete;
    protected:
-    friend class base::RefCountedThreadSafe<TomiWebstoreInstaller>;
-    ~TomiWebstoreInstaller() override;
+    friend class base::RefCountedThreadSafe<tomiWebstoreInstaller>;
+    ~tomiWebstoreInstaller() override;
 
     // extensions::WebstoreStandaloneInstaller overrides:
     bool CheckRequestorAlive() const override;

@@ -780,17 +780,17 @@ AboutUI::AboutUI(content::WebUI* web_ui, const GURL& url)
 
 std::string AboutUIHTMLSource::ChromeURLs() const {
   std::string chrome_urls = ::ChromeURLs(profile_);
-  // Replace Chrome -> Tomi.
+  // Replace Chrome -> tomi.
   const std::string chrome_header = "Chrome URLs";
-  const std::string brave_header = "Tomi URLs";
+  const std::string brave_header = "tomi URLs";
   const std::string chrome_pages_header = "List of Chrome URLs";
-  const std::string brave_pages_header = "List of Tomi URLs";
+  const std::string brave_pages_header = "List of tomi URLs";
   const std::string chrome_internal_pages_header =
       "List of chrome://internals pages";
   const std::string brave_internal_pages_header =
-      "List of Tomi://internals pages";
+      "List of tomi://internals pages";
   const std::string chrome_url_list = ">chrome://";
-  const std::string brave_url_list = ">Tomi://";
+  const std::string brave_url_list = ">tomi://";
   RE2::GlobalReplace(&chrome_urls, chrome_header, brave_header);
   RE2::GlobalReplace(&chrome_urls, chrome_pages_header, brave_pages_header);
   RE2::GlobalReplace(&chrome_urls, chrome_internal_pages_header,
