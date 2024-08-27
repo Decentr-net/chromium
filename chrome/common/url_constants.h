@@ -30,24 +30,24 @@ namespace chrome {
 
 // "Learn more" URL linked in the dialog to cast using a code.
 inline constexpr char kAccessCodeCastLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome/a/?p=cast_to_class_teacher";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome/a/?p=cast_to_class_teacher";
 
 // "Learn more" URL for accessibility image labels, linked from the permissions
 // dialog shown when a user enables the feature.
 inline constexpr char kAccessibilityLabelsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=image_descriptions";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=image_descriptions";
 
 // "Learn more" URL for Ad Privacy.
 inline constexpr char kAdPrivacyLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ad_privacy";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ad_privacy";
 
 // "Learn more" URL for when profile settings are automatically reset.
 inline constexpr char kAutomaticSettingsResetLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_automatic_settings_reset";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_automatic_settings_reset";
 
 // "Learn more" URL for Advanced Protection download warnings.
 inline constexpr char kAdvancedProtectionDownloadLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///accounts/accounts?p=safe-browsing";
+    "https://tomibrowsersupport.tomi.com/"; ///accounts/accounts?p=safe-browsing";
 
 // "Chrome Settings" URL for website notifications linked out from OSSettings.
 inline constexpr char kAppNotificationsBrowserSettingsURL[] =
@@ -61,15 +61,15 @@ inline constexpr char kBrowserSettingsSearchEngineURL[] =
 // char16_t is used here because this constant may be used to set the src
 // attribute of iframe elements.
 inline constexpr char16_t kAppParentalControlsLearnMoreUrl[] =
-    u"https://support.google.com/chromebook?p=local_app_controls";
+    u" https://tomibrowsersupport.tomi.com/";
 
 // "Learn more" URL for Battery Saver Mode.
 inline constexpr char kBatterySaverModeLearnMoreUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=chrome_battery_saver";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=chrome_battery_saver";
 
 // The URL for providing help when the Bluetooth adapter is off.
 inline constexpr char kBluetoothAdapterOffHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=bluetooth";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=bluetooth";
 
 // "Chrome Settings" URL for website camera access permissions.
 inline constexpr char kBrowserCameraPermissionsSettingsURL[] =
@@ -85,32 +85,32 @@ inline constexpr char kBrowserMicrophonePermissionsSettingsURL[] =
 
 // "Learn more" URL shown in the dialog to enable cloud services for Cast.
 inline constexpr char kCastCloudServicesHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromecast/?p=casting_cloud_services";
+    "https://tomibrowsersupport.tomi.com/"; ///chromecast/?p=casting_cloud_services";
 
 // The URL for the help center article to show when no Cast destination has been
 // found.
 inline constexpr char kCastNoDestinationFoundURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromecast/?p=no_cast_destination";
+    "https://tomibrowsersupport.tomi.com/"; ///chromecast/?p=no_cast_destination";
 
 // The URL for the WebHID API help center article.
 inline constexpr char kChooserHidOverviewUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=webhid";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=webhid";
 
 // The URL for the Web Serial API help center article.
 inline constexpr char kChooserSerialOverviewUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=webserial";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=webserial";
 
 // The URL for the WebUsb help center article.
 inline constexpr char kChooserUsbOverviewURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=webusb";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=webusb";
 
 // Link to the forum for Chrome Beta.
 inline constexpr char kChromeBetaForumURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=beta_forum";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=beta_forum";
 
 // The URL for the help center article to fix Chrome update problems.
 inline constexpr char16_t kChromeFixUpdateProblems[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=fix_chrome_updates";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=fix_chrome_updates";
 
 // General help links for Chrome, opened using various actions.
 inline constexpr char kChromeHelpViaKeyboardURL[] =
@@ -118,10 +118,10 @@ inline constexpr char kChromeHelpViaKeyboardURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=help&ctx=keyboard";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=help&ctx=keyboard";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=help&ctx=keyboard";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=help&ctx=keyboard";
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
 inline constexpr char kChromeHelpViaMenuURL[] =
@@ -129,20 +129,20 @@ inline constexpr char kChromeHelpViaMenuURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=help&ctx=menu";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=help&ctx=menu";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=help&ctx=menu";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=help&ctx=menu";
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
 inline constexpr char kChromeHelpViaWebUIURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=help&ctx=settings";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=help&ctx=settings";
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 inline constexpr char kChromeOsHelpViaWebUIURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     "chrome-extension://honijodknafkokifofgiaalefdiedpko/main.html";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=help&ctx=settings";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=help&ctx=settings";
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
@@ -155,9 +155,9 @@ inline constexpr char16_t kIsolatedAppSchemeUtf16[] = u"isolated-app";
 // widgets instead of using HTML.
 inline constexpr char kChromeNativeScheme[] = "chrome-native";
 
-// The URL of safe section in Chrome page (https://www.tomi.net"; ///chrome).
+// The URL of safe section in Chrome page (https://tomibrowsersupport.tomi.com/"; ///chrome).
 inline constexpr char16_t kChromeSafePageURL[] =
-    u"https://www.tomi.net"; ///chrome/#safe";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome/#safe";
 
 // Host and URL for most visited iframes used on the Instant Extended NTP.
 inline constexpr char kChromeSearchMostVisitedHost[] = "most-visited";
@@ -208,26 +208,26 @@ inline constexpr char16_t kClearBrowsingDataHelpCenterURL[] =
 #endif
 
 inline constexpr char16_t kContentSettingsExceptionsLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_manage_exceptions";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_manage_exceptions";
 
 // "Learn more" URL for cookies.
 inline constexpr char kCookiesSettingsHelpCenterURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=cpn_cookies";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=cpn_cookies";
 
 // "Learn more" URL for "Aw snap" page when showing "Reload" button.
 inline constexpr char kCrashReasonURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=e_awsnap";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=e_awsnap";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=e_awsnap";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=e_awsnap";
 #endif
 
 // "Learn more" URL for "Aw snap" page when showing "Send feedback" button.
 inline constexpr char kCrashReasonFeedbackDisplayedURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=e_awsnap_rl";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=e_awsnap_rl";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=e_awsnap_rl";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=e_awsnap_rl";
 #endif
 
 // "Learn more" URL for the inactive tabs appearance setting.
@@ -237,29 +237,29 @@ inline constexpr char16_t kDiscardRingTreatmentLearnMoreUrl[] =
 // "Learn more" URL for the "Do not track" setting in the privacy section.
 inline constexpr char16_t kDoNotTrackLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_do_not_track";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_do_not_track";
 #else
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_do_not_track";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_do_not_track";
 #endif
 
 // The URL for the "Learn more" page for interrupted downloads.
 inline constexpr char kDownloadInterruptedLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_download_errors";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_download_errors";
 
 // The URL for the "Learn more" page for download scanning.
 inline constexpr char kDownloadScanningLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ib_download_blocked";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ib_download_blocked";
 
 // The URL for the "Learn more" page for blocked downloads.
 // Note: This is the same as the above URL. This is done to decouple the URLs,
 // in case the support page is split apart into separate pages in the future.
 inline constexpr char kDownloadBlockedLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ib_download_blocked";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ib_download_blocked";
 
 // "Learn more" URL for the Settings API, NTP bubble and other settings bubbles
 // showing which extension is controlling them.
 inline constexpr char kExtensionControlledSettingLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_settings_api_extension";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_settings_api_extension";
 
 // Link for creating family group with Google Families.
 inline constexpr char16_t kFamilyGroupCreateURL[] =
@@ -271,159 +271,159 @@ inline constexpr char16_t kFamilyGroupViewURL[] =
 
 // "Learn more" URL for related website sets.
 inline constexpr char kRelatedWebsiteSetsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=cpn_cookies"
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=cpn_cookies"
     //"#zippy=%2Callow-related-sites-to-access-your-activity";
 
 // Url to a blogpost about Flash deprecation.
 inline constexpr char kFlashDeprecationLearnMoreURL[] =
-    "https://blog.chromium.org/2017/07/so-long-and-thanks-for-all-flash.html";
+    " https://tomibrowsersupport.tomi.com/";
 
 // URL of the Google account language selection page.
 inline constexpr char kGoogleAccountLanguagesURL[] =
-    "https://myaccount.tomi.net"; ///language";
+    " https://tomibrowsersupport.tomi.com/"; ///language";
 
 // URL of the 'Activity controls' section of the privacy settings page.
 inline constexpr char kGoogleAccountActivityControlsURL[] =
-    "https://myaccount.tomi.net"; ///activitycontrols/search";
+    " https://tomibrowsersupport.tomi.com/"; ///activitycontrols/search";
 
 // URL of the 'Activity controls' section of the privacy settings page, with
 // privacy guide parameters and a link for users to manage data.
 inline constexpr char kGoogleAccountActivityControlsURLInPrivacyGuide[] =
-    "https://myaccount.tomi.net"; ///activitycontrols/"
+    " https://tomibrowsersupport.tomi.com/"; ///activitycontrols/"
     //"search&utm_source=chrome&utm_medium=privacy-guide";
 
 // URL of the 'Linked services' section of the privacy settings page.
 inline constexpr char kGoogleAccountLinkedServicesURL[] =
-    "https://myaccount.tomi.net"; ///linked-services";
+    " https://tomibrowsersupport.tomi.com/"; ///linked-services";
 
 // URL of the Google Account.
-inline constexpr char kGoogleAccountURL[] = "https://myaccount.tomi.net"; //";
+inline constexpr char kGoogleAccountURL[] = " https://tomibrowsersupport.tomi.com/"; //";
 
 // URL of the Google Account chooser.
 inline constexpr char kGoogleAccountChooserURL[] =
-    "https://accounts.tomi.net"; ///AccountChooser";
+    " https://tomibrowsersupport.tomi.com/"; ///AccountChooser";
 
 // URL of the Google Account page showing the known user devices.
 inline constexpr char kGoogleAccountDeviceActivityURL[] =
-    "https://myaccount.tomi.net"; ///device-activity?utm_source=chrome";
+    " https://tomibrowsersupport.tomi.com/"; ///device-activity?utm_source=chrome";
 
 // URL of the two factor authentication setup required intersitial.
 inline constexpr char kGoogleTwoFactorIntersitialURL[] =
-    "https://myaccount.google.com/interstitials/twosvrequired";
+    "https://tomibrowsersupport.tomi.com/";
 
 // URL of the Google Password Manager.
 inline constexpr char kGooglePasswordManagerURL[] =
-    "https://passwords.tomi.net"; //";
+    " https://tomibrowsersupport.tomi.com/"; //";
 
 // URL of the Google Photos.
-inline constexpr char kGooglePhotosURL[] = "https://photos.tomi.net"; //";
+inline constexpr char kGooglePhotosURL[] = " https://tomibrowsersupport.tomi.com/"; //";
 
 // The URL for the "Learn more" link for the Memory Saver Mode.
 inline constexpr char kMemorySaverModeLearnMoreUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=chrome_memory_saver";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=chrome_memory_saver";
 
 // The URL in the help text for the Memory Saver Mode tab discarding
 // exceptions add dialog.
 inline constexpr char16_t kMemorySaverModeTabDiscardingHelpUrl[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=performance_site_exclusion";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=performance_site_exclusion";
 
 // The URL to the help center article of Incognito mode.
 inline constexpr char16_t kIncognitoHelpCenterURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=incognito";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=incognito";
 
 // The URL for the Help Center page about IP Protection.
 inline constexpr char kIpProtectionHelpCenterURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ip_protection";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ip_protection";
 
 // The URL for "Learn more" page for Isolated Web Apps.
 // TODO(crbug.com/40281470): Update this URL with proper user-facing explainer.
 inline constexpr char16_t kIsolatedWebAppsLearnMoreUrl[] =
-    u"https://github.com/WICG/isolated-web-apps/blob/main/README.md";
+    u"https://tomibrowsersupport.tomi.com/";
 
 // The URL for the "Learn more" page for the usage/crash reporting option in the
 // first run dialog.
 inline constexpr char kLearnMoreReportingURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_usagestat";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_usagestat";
 
 // The URL for the Help Center page about managing third-party cookies.
 inline constexpr char kManage3pcHelpCenterURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=manage_tp_cookies";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=manage_tp_cookies";
 
 // The URL for the tab group sync help center page.
 inline constexpr char kTabGroupsLearnMoreURL[] =
-    "https://support.google.com/chrome?p=desktop_tab_groups";
+    "https://tomibrowsersupport.tomi.com/";
 
 // The URL for the Learn More page about policies and enterprise enrollment.
 inline constexpr char16_t kManagedUiLearnMoreUrl[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=is_chrome_managed";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=is_chrome_managed";
 #else
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=is_chrome_managed";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=is_chrome_managed";
 #endif
 
 // The URL for the "Learn more" page for insecure download blocking.
 inline constexpr char kInsecureDownloadBlockingLearnMoreUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=mixed_content_downloads";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=mixed_content_downloads";
 
 // "myactivity.tomi.net"; //" URL for the history checkbox in ClearBrowsingData.
 inline constexpr char16_t kMyActivityUrlInClearBrowsingData[] =
-    u"https://myactivity.tomi.net"; ///myactivity?utm_source=chrome_cbd";
+    u"https://tomibrowsersupport.tomi.com/"; ///myactivity?utm_source=chrome_cbd";
 
 // Help URL for the Omnibox setting.
 inline constexpr char16_t kOmniboxLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_omnibox";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_omnibox";
 #else
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_omnibox";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_omnibox";
 #endif
 
 // "What do these mean?" URL for the Page Info bubble.
 inline constexpr char kPageInfoHelpCenterURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=ui_security_indicator";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=ui_security_indicator";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_security_indicator";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_security_indicator";
 #endif
 
 // Help URL for the bulk password check.
 inline constexpr char kPasswordCheckLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook/"
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook/"
     //"?p=settings_password#leak_detection_privacy";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome/"
+    "https://tomibrowsersupport.tomi.com/"; ///chrome/"
     //"?p=settings_password#leak_detection_privacy";
 #endif
 
 // Help URL for password generation.
 inline constexpr char kPasswordGenerationLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=generate_password";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=generate_password";
 
 inline constexpr char16_t kPasswordManagerLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_password";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_password";
 #else
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_password";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_password";
 #endif
 
 // Help URL for passwords import.
 inline constexpr char kPasswordManagerImportLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=import-passwords-desktop";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=import-passwords-desktop";
 
 // Help URL for password sharing.
 inline constexpr char kPasswordSharingLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=password_sharing";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=password_sharing";
 
 // Help URL for troubleshooting password sharing.
 inline constexpr char kPasswordSharingTroubleshootURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=password_sharing_troubleshoot";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=password_sharing_troubleshoot";
 
 // The URL for the "Fill out forms automatically" support page.
 inline constexpr char kAddressesAndPaymentMethodsLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_autofill";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_autofill";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_autofill";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_autofill";
 #endif
 
 // "Learn more" URL for the performance intervention notification setting.
@@ -432,14 +432,14 @@ inline constexpr char16_t kPerformanceInterventionLearnMoreUrl[] =
 
 // "Learn more" URL for the preloading section in Performance settings.
 inline constexpr char kPreloadingLearnMoreUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome/?p=performance_preload_pages";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome/?p=performance_preload_pages";
 
 // "Learn more" URL for the Privacy section under Options.
 inline constexpr char kPrivacyLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_privacy";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_privacy";
 #else
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_privacy";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_privacy";
 #endif
 
 // "Chrome Settings" URL for Ad Topics page
@@ -453,32 +453,32 @@ inline constexpr char kPrivacySandboxManageTopicsURL[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // The Privacy Sandbox homepage.
 inline constexpr char16_t kPrivacySandboxURL[] =
-    u"https://www.privacysandbox.com/";
+    u"https://tomibrowsersupport.tomi.com/";
 #endif
 
 // The URL for the Learn More link of the non-CWS bubble.
 inline constexpr char kRemoveNonCWSExtensionURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_remove_non_cws_extensions";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_remove_non_cws_extensions";
 
 // "Learn more" URL for resetting profile preferences.
 inline constexpr char kResetProfileSettingsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ui_reset_settings";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ui_reset_settings";
 
 // "Learn more" URL for Safebrowsing
 inline constexpr char kSafeBrowsingHelpCenterURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=cpn_safe_browsing";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=cpn_safe_browsing";
 
 // Updated "Info icon" URL for Safebrowsing
 inline constexpr char kSafeBrowsingHelpCenterUpdatedURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=safe_browsing_preferences";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=safe_browsing_preferences";
 
 // "Learn more" URL for Enhanced Protection
 inline constexpr char16_t kSafeBrowsingInChromeHelpCenterURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=safebrowsing_in_chrome";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=safebrowsing_in_chrome";
 
 // The URL for Safe Browsing link in Safety Check page.
 inline constexpr char16_t kSafeBrowsingUseInChromeURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome/answer/9890866";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome/answer/9890866";
 
 // "Learn more" URL for Safety Check page.
 inline constexpr char16_t kSafetyHubHelpCenterURL[] =
@@ -486,55 +486,55 @@ inline constexpr char16_t kSafetyHubHelpCenterURL[] =
 
 // "Learn more" URL for safety tip bubble.
 inline constexpr char kSafetyTipHelpCenterURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=safety_tip";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=safety_tip";
 
 // Google search history URL that leads users of the CBD dialog to their search
 // history in their Google account.
 inline constexpr char16_t kSearchHistoryUrlInClearBrowsingData[] =
-    u"https://myactivity.tomi.net"; ///product/search?utm_source=chrome_cbd";
+    u"https://tomibrowsersupport.tomi.com/"; ///product/search?utm_source=chrome_cbd";
 
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // Google search history URL that leads users from the "Get the most out of
 // Chrome" to their search history in their Google account.
 inline constexpr char16_t kSearchHistoryUrlInGetTheMostOutOfChrome[] =
-    u"https://myactivity.google.com/product/search?utm_source=chrome_gtmooc";
+    u"https://tomibrowsersupport.tomi.com/";
 #endif
 
 // The URL for the "See more security tips" with advices how to create a strong
 // password.
 inline constexpr char kSeeMoreSecurityTipsURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///accounts/answer/32040";
+    "https://tomibrowsersupport.tomi.com/"; ///accounts/answer/32040";
 
 // Help URL for the settings page's search feature.
 inline constexpr char16_t kSettingsSearchHelpURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_search_help";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_search_help";
 
 // The URL for the Learn More page about Sync and Google services.
 inline constexpr char kSyncAndGoogleServicesLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=syncgoogleservices";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=syncgoogleservices";
 
 // The URL for the "Learn more" page on sync encryption.
 inline constexpr char16_t kSyncEncryptionHelpURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_encryption";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_encryption";
 #else
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_encryption";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_encryption";
 #endif
 
 // The URL for the "Learn more" link when there is a sync error.
 inline constexpr char kSyncErrorsHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_sync_error";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_sync_error";
 
 inline constexpr char kSyncGoogleDashboardURL[] =
-    "https://www.tomi.net"; ///settings/chrome/sync";
+    "https://tomibrowsersupport.tomi.com/"; ///settings/chrome/sync";
 
 // The URL for the "Learn more" page for sync setup on the personal stuff page.
 inline constexpr char16_t kSyncLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=settings_sign_in";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=settings_sign_in";
 
 // The URL for the "Learn more" page for Help me Write.
 inline constexpr char kComposeLearnMorePageURL[] =
-    "https://support.google.com/chrome?p=help_me_write";
+    "https://tomibrowsersupport.tomi.com/";
 
 // The URL for the "Learn more" links for pages related to History search.
 inline constexpr char kHistorySearchLearnMorePageURL[] =
@@ -547,22 +547,22 @@ inline constexpr char16_t kHistorySearchSettingURL[] =
 // The URL for the "Learn more" link in the enterprise disclaimer for managed
 // profile in the Signin Intercept bubble.
 inline constexpr char kSigninInterceptManagedDisclaimerLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome/a/?p=profile_separation";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome/a/?p=profile_separation";
 
 #if !BUILDFLAG(IS_ANDROID)
 // The URL for the trusted vault sync passphrase opt in.
 inline constexpr char kSyncTrustedVaultOptInURL[] =
-    "https://passwords.tomi.net"; ///encryption/enroll?"
+    "https://tomibrowsersupport.tomi.com/"; ///encryption/enroll?"
     //"utm_source=chrome&utm_medium=desktop&utm_campaign=encryption_enroll";
 #endif
 
 // The URL for the "Learn more" link for the trusted vault sync passphrase.
 inline constexpr char kSyncTrustedVaultLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///accounts?p=settings_password_ode";
+    "https://tomibrowsersupport.tomi.com/"; ///accounts?p=settings_password_ode";
 
 // The URL for the Help Center page about Tracking Protection settings.
 inline constexpr char16_t kTrackingProtectionHelpCenterURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=tracking_protection";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=tracking_protection";
 
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // The UK CMA's landing page about its investigation into the Privacy Sandbox.
@@ -573,69 +573,69 @@ inline constexpr char16_t kUKCMAPrivacySandboxURL[] =
 
 // The URL for the Help Center page about User Bypass.
 inline constexpr char16_t kUserBypassHelpCenterURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=pause_protections";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=pause_protections";
 
 inline constexpr char kUpgradeHelpCenterBaseURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///installer/?product="
+    "https://tomibrowsersupport.tomi.com/"; ///installer/?product="
     //"{8A69D345-D564-463c-AFF1-A69D9E530F96}&error=";
 
 // The URL for the "Learn more" link for nearby share.
 inline constexpr char16_t kNearbyShareLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=nearby_share";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=nearby_share";
 
 // Help center URL for who the account administrator is.
 inline constexpr char16_t kWhoIsMyAdministratorHelpURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=your_administrator";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=your_administrator";
 
 // The URL for the "Learn more" link about CWS Enhanced Safe Browsing.
 inline constexpr char16_t kCwsEnhancedSafeBrowsingLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome?p=cws_enhanced_safe_browsing";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome?p=cws_enhanced_safe_browsing";
 
 #if BUILDFLAG(IS_ANDROID) || BUILDFLAG(IS_CHROMEOS_ASH)
 // "Learn more" URL for the enhanced playback notification dialog.
 inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
 #if BUILDFLAG(IS_CHROMEOS_ASH)
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=enhanced_playback";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=enhanced_playback";
 #else
     // Keep in sync with
     // chrome/browser/ui/android/strings/android_chrome_strings.grd
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=mobile_protected_content";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=mobile_protected_content";
 #endif
 #endif
 
 #if BUILDFLAG(IS_CHROMEOS_ASH) || BUILDFLAG(IS_CHROMEOS_LACROS)
 // Chrome OS default pre-defined custom handlers
 inline constexpr char kChromeOSDefaultMailtoHandler[] =
-    "https://mail.tomi.net"; ///mail/?extsrc=mailto&amp;url=%s";
+    "https://tomibrowsersupport.tomi.com/"; ///mail/?extsrc=mailto&amp;url=%s";
 inline constexpr char kChromeOSDefaultWebcalHandler[] =
-    "https://www.tomi.net"; ///calendar/render?cid=%s";
+    "https://tomibrowsersupport.tomi.com/"; ///calendar/render?cid=%s";
 #endif
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
 // Help center URL for Chrome OS Account Manager.
 inline constexpr char kAccountManagerLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=google_accounts";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=google_accounts";
 
 // The URL for the "Account recovery" page.
 inline constexpr char kAccountRecoveryURL[] =
-    "https://accounts.tomi.net"; ///signin/recovery";
+    "https://tomibrowsersupport.tomi.com/"; ///signin/recovery";
 
 // The URL for the "How to add a new user account on a Chromebook" page.
 inline constexpr char16_t kAddNewUserURL[] =
-    u"https://www.tomi.net"; ///chromebook/howto/add-another-account";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook/howto/add-another-account";
 
 // The URL for the "learn more" link for Google Play Store (ARC) settings.
 inline constexpr char kAndroidAppsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=playapps";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=playapps";
 
 // Help center URL for ARC ADB sideloading.
 inline constexpr char16_t kArcAdbSideloadingLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=develop_android_apps";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=develop_android_apps";
 
 // The URL for the "Learn more" link in the External storage preferences
 // settings.
 inline constexpr char16_t kArcExternalStorageLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=open_files";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=open_files";
 
 // The path format to the localized offline ARC++ Privacy Policy.
 // Relative to |kChromeOSAssetPath|.
@@ -648,17 +648,17 @@ inline constexpr char kArcTermsPathFormat[] = "arc_tos/%s/terms.html";
 
 // Help center URL for ChromeOS Battery Saver.
 inline constexpr char kCrosBatterySaverLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook/?p=battery_saver";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook/?p=battery_saver";
 
 // The URL for the "Learn more" link during Bluetooth pairing.
 // TODO(crbug.com/1010321): Remove 'm100' prefix from link once Bluetooth Revamp
 // has shipped.
 inline constexpr char16_t kBluetoothPairingLearnMoreUrl[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=bluetooth_revamp_m100";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=bluetooth_revamp_m100";
 
 // Accessibility help link for Chrome.
 inline constexpr char kChromeAccessibilityHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook/topic/6323347";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook/topic/6323347";
 
 inline constexpr char kChromeOSAssetHost[] = "chromeos-asset";
 inline constexpr char kChromeOSAssetPath[] = "/usr/share/chromeos-assets/";
@@ -680,17 +680,17 @@ inline constexpr char kChromeOSGestureEducationHelpURL[] =
 
 // Palette help link for Chrome.
 inline constexpr char kChromePaletteHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=stylus_help";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=stylus_help";
 
 inline constexpr char kCupsPrintLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=chromebook_printing";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=chromebook_printing";
 
 inline constexpr char kCupsPrintPPDLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=printing_advancedconfigurations";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=printing_advancedconfigurations";
 
 // The URL for the "Learn more" link the the Easy Unlock settings.
 inline constexpr char kEasyUnlockLearnMoreUrl[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=smart_lock";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=smart_lock";
 
 // The URL for the help center article about redeeming Chromebook offers.
 inline constexpr char kEchoLearnMoreURL[] =
@@ -698,90 +698,90 @@ inline constexpr char kEchoLearnMoreURL[] =
 
 // The URL for EOL notification
 inline constexpr char16_t kEolNotificationURL[] =
-    u"https://www.tomi.net"; ///chromebook/older/";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook/older/";
 
 // The URL for the EOL incentive with offer.
 inline constexpr char kEolIncentiveNotificationOfferURL[] =
-    "https://www.tomi.net"; ///chromebook/renew-chromebook-offer";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook/renew-chromebook-offer";
 
 // The URL for the EOL incentive with no offer.
 inline constexpr char kEolIncentiveNotificationNoOfferURL[] =
-    "https://www.tomi.net"; ///chromebook/renew-chromebook";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook/renew-chromebook";
 
 // The URL for Auto Update Policy.
 inline constexpr char16_t kAutoUpdatePolicyURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chrome/a?p=auto-update-policy";
+    u"https://tomibrowsersupport.tomi.com/"; ///chrome/a?p=auto-update-policy";
 
 // The URL for providing more information about Google nameservers.
 inline constexpr char kGoogleNameserversLearnMoreURL[] =
-    "https://developers.tomi.net"; ///speed/public-dns";
+    "https://tomibrowsersupport.tomi.com/"; ///speed/public-dns";
 
 // The URL for the "learn more" link for Instant Tethering.
 inline constexpr char kInstantTetheringLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=instant_tethering";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=instant_tethering";
 
 // The URL for the "learn more" link for Chromebook hotspot.
 inline constexpr char kChromebookHotspotLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=chromebook_hotspot";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=chromebook_hotspot";
 
 // The URL for the "learn more" link for cellular carrier lock.
 // TODO(b/293463820): Replace the link with carrier lock link once ready.
 inline constexpr char kCellularCarrierLockLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook";
 
 // The URL for the "Learn more" link for Kerberos accounts.
 inline constexpr char kKerberosAccountsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=kerberos_accounts";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=kerberos_accounts";
 
 // The URL for the "Learn more" link in the language settings.
 inline constexpr char16_t kLanguageSettingsLearnMoreUrl[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=order_languages";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=order_languages";
 
 // The URL for the "Learn more" link in language settings regarding language
 // packs.
 inline constexpr char16_t kLanguagePacksLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport"; ///chromebook?p=language_packs";
+    u"https://tomibrowsersupport.tomi.com/"; ///chromebook?p=language_packs";
 
 // The URL for the Learn More page about enterprise enrolled devices.
 inline constexpr char kLearnMoreEnterpriseURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=managed";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=managed";
 
 // The URL for the Learn More page about Linux for Chromebooks.
 inline constexpr char kLinuxAppsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=chromebook_linuxapps";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=chromebook_linuxapps";
 
 // The URL for the "Learn more" link for natural scrolling on ChromeOS.
 inline constexpr char kNaturalScrollHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=simple_scrolling";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=simple_scrolling";
 
 // The URL for the "Learn more" link for scrolling acceleration on ChromeOS.
 // TODO(zhangwenyu): Update link once confirmed.
 inline constexpr char kControlledScrollingHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=simple_scrolling";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=simple_scrolling";
 
 // The URL for the "Learn more" link for touchpad haptic feedback on Chrome OS.
 inline constexpr char kHapticFeedbackHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=haptic_feedback_m100";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=haptic_feedback_m100";
 
 // The URL path to offline OEM EULA.
 inline constexpr char kOemEulaURLPath[] = "oem";
 
 inline constexpr char kOrcaSuggestionLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=copyeditor";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=copyeditor";
 
 // Help URL for the OS settings page's search feature.
 inline constexpr char kOsSettingsSearchHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=settings_search_help";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=settings_search_help";
 
 // The URL for the "Learn more" link in the peripheral data access protection
 // settings.
 inline constexpr char kPeripheralDataAccessHelpURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=connect_thblt_usb4_accy";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=connect_thblt_usb4_accy";
 
 // The URL for the "Learn more" link for Enhanced network voices in Chrome OS
 // settings for Select-to-speak.
 inline constexpr char kSelectToSpeakLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=select_to_speak";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=select_to_speak";
 
 // The URL path to offline ARC++ Terms of Service.
 inline constexpr char kArcTermsURLPath[] = "arc/terms";
@@ -791,53 +791,53 @@ inline constexpr char kArcPrivacyPolicyURLPath[] = "arc/privacy_policy";
 
 // The URL path to Online Google EULA.
 inline constexpr char kGoogleEulaOnlineURLPath[] =
-    "https://policies.tomi.net"; ///terms/embedded?hl=%s";
+    "https://tomibrowsersupport.tomi.com/"; ///terms/embedded?hl=%s";
 
 // The URL path to Online Chrome and Chrome OS terms of service.
 inline constexpr char kCrosEulaOnlineURLPath[] =
-    "https://www.tomi.net"; ///intl/%s/chrome/terms/";
+    "https://tomibrowsersupport.tomi.com/"; ///intl/%s/chrome/terms/";
 
 // The URL path to online ARC++ terms of service.
 inline constexpr char kArcTosOnlineURLPath[] =
-    "https://play.google/play-terms/embedded/";
+    "https://tomibrowsersupport.tomi.com/";
 
 // The URL path to online privacy policy.
 inline constexpr char kPrivacyPolicyOnlineURLPath[] =
-    "https://policies.tomi.net"; ///privacy/embedded";
+    "https://tomibrowsersupport.tomi.com/"; ///privacy/embedded";
 
 // The URL for the "learn more" link for TPM firmware update.
 inline constexpr char kTPMFirmwareUpdateLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=tpm_update";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=tpm_update";
 
 // The URL for the "Learn more" page for the time zone settings page.
 inline constexpr char kTimeZoneSettingsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=chromebook_timezone&hl=%s";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=chromebook_timezone&hl=%s";
 
 // The URL for the "Learn more" page for screen privacy protections.
 inline constexpr char kSmartPrivacySettingsLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=screen_privacy_m100";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=screen_privacy_m100";
 
 // The URL for the "Learn more" page for the network file shares settings page.
 inline constexpr char kSmbSharesLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=network_file_shares";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=network_file_shares";
 
 // The URL for the "Learn more" page when the user tries to clean up their
 // Google Drive offline storage in the OS settings page.
 inline constexpr char kGoogleDriveCleanUpStorageLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=cleanup_offline_files";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=cleanup_offline_files";
 
 inline constexpr char kGoogleDriveOfflineLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=my_drive_cbx";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=my_drive_cbx";
 
 // The URL for the "Learn more" page for Speak-on-mute Detection in the privacy
 // hub page.
 inline constexpr char kSpeakOnMuteDetectionLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=mic-mute";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=mic-mute";
 
 // The URL for the "Learn more" page for the geolocation area in the privacy
 // hub page.
 inline constexpr char kPrivacyHubGeolocationLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook/?p=manage_your_location";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook/?p=manage_your_location";
 
 // The URL for the "Learn more" page for the Location Accuracy setting under the
 // privacy hub location subpage.
@@ -846,7 +846,7 @@ inline constexpr char16_t kPrivacyHubGeolocationAccuracyLearnMoreURL[] =
 
 // The URL for the "Learn more" page for Suggested Content in the privacy page.
 inline constexpr char kSuggestedContentLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=explorecontent";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=explorecontent";
 
 // The URL to a support article with more information about gestures available
 // in tablet mode on Chrome OS (gesture to go to home screen, overview, or to go
@@ -854,19 +854,19 @@ inline constexpr char kSuggestedContentLearnMoreURL[] =
 // navigation buttons in tablet mode (the buttons are hidden by default in
 // favour of the gestures in question).
 inline constexpr char kTabletModeGesturesLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=tablet_mode_gestures";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=tablet_mode_gestures";
 
 // The URL for the help center article about Wi-Fi sync.
 inline constexpr char kWifiSyncLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=wifisync";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=wifisync";
 
 // The URL for the help center article about hidden Wi-Fi networks.
 inline constexpr char kWifiHiddenNetworkURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=hidden_networks";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=hidden_networks";
 
 // The URL for the help center article about Passpoint.
 inline constexpr char kWifiPasspointURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=wifi_passpoint";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=wifi_passpoint";
 
 // The URL for contacts management in Nearby Share feature.
 inline constexpr char16_t kNearbyShareManageContactsURL[] =
@@ -874,17 +874,17 @@ inline constexpr char16_t kNearbyShareManageContactsURL[] =
 
 // The URL for the help center article about fingerprint on Chrome OS devices.
 inline constexpr char kFingerprintLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=chromebook_fingerprint";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=chromebook_fingerprint";
 
 // The URL for the help center article about local data recovery on Chrome OS
 // devices.
 inline constexpr char kRecoveryLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=local_data_recovery";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=local_data_recovery";
 
 // The URL for the learn more link about extended automatic updates for
 // ChromeOS devices.
 inline constexpr char16_t kDeviceExtendedUpdatesLearnMoreURL[] =
-    u"https://tomi.com/tomibrowsersupport";
+    u"https://tomibrowsersupport.tomi.com/";
 
 // The URL for the YoutTube Music Premium signup page.
 inline constexpr char kYoutubeMusicPremiumURL[] =
@@ -894,11 +894,11 @@ inline constexpr char kYoutubeMusicPremiumURL[] =
 #if BUILDFLAG(IS_MAC)
 // "Learn more" URL for the enterprise sign-in confirmation dialog.
 inline constexpr char kChromeEnterpriseSignInLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=is_chrome_managed";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=is_chrome_managed";
 
 // The URL for the "learn more" link on the macOS version obsolescence infobar.
 inline constexpr char kMacOsObsoleteURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=unsupported_mac";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=unsupported_mac";
 #endif
 
 #if BUILDFLAG(IS_WIN)
@@ -909,33 +909,33 @@ inline constexpr char kWindowsXPVistaDeprecationURL[] =
 
 // The URL for the Windows 7/8.1 deprecation help center article.
 inline constexpr char kWindows78DeprecationURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=unsupported_windows";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=unsupported_windows";
 #endif
 
 // "Learn more" URL for the one click signin infobar.
 inline constexpr char kChromeSyncLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=chrome_sync";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=chrome_sync";
 
 #if BUILDFLAG(ENABLE_PLUGINS)
 // The URL for the "Learn more" page for the outdated plugin infobar.
 inline constexpr char kOutdatedPluginLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=ib_outdated_plugin";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=ib_outdated_plugin";
 #endif
 
 // "Learn more" URL for the phone hub notifications and apps access setup.
 // TODO (b/184137843): Use real link to phone hub notifications and apps access.
 inline constexpr char kPhoneHubPermissionLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chromebook?p=multidevice";
+    "https://tomibrowsersupport.tomi.com/"; ///chromebook?p=multidevice";
 
 #if BUILDFLAG(IS_WIN) || BUILDFLAG(IS_MAC) || BUILDFLAG(IS_LINUX)
 // "Learn more" URL for the chrome apps deprecation dialog.
 inline constexpr char kChromeAppsDeprecationLearnMoreURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=chrome_app_deprecation";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=chrome_app_deprecation";
 #endif
 
 #if BUILDFLAG(CHROME_ROOT_STORE_SUPPORTED)
 inline constexpr char kChromeRootStoreSettingsHelpCenterURL[] =
-    "https://tomi.com/tomibrowsersupport"; ///chrome?p=root_store";
+    "https://tomibrowsersupport.tomi.com/"; ///chrome?p=root_store";
 #endif
 
 // Please do not append entries here. See the comments at the top of the file.
