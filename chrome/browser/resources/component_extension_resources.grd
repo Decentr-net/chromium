@@ -80,7 +80,6 @@
 
     <include name="IDR_TBLOCK_001" file="tblock/advanced-settings.html" type="BINDATA" />
     <include name="IDR_TBLOCK_002" file="tblock/document-blocked.html" type="BINDATA" />
-    <include name="IDR_TBLOCK_003" file="tblock/.DS_Store" type="BINDATA" />
     <include name="IDR_TBLOCK_004" file="tblock/about.html" type="BINDATA" />
     <include name="IDR_TBLOCK_005" file="tblock/popup-fenix.html" type="BINDATA" />
     <include name="IDR_TBLOCK_006" file="tblock/popup.html" type="BINDATA" />
@@ -394,11 +393,9 @@
     <include name="IDR_TBLOCK_315" file="tblock/assets/thirdparties/pgl.yoyo.org/as/README.md" type="BINDATA" />
     <include name="IDR_TBLOCK_316" file="tblock/assets/thirdparties/pgl.yoyo.org/as/serverlist" type="BINDATA" />
     
-    <include name="IDR_TVPN_001" file="tvpn/.DS_Store" type="BINDATA" />
     <include name="IDR_TVPN_002" file="tvpn/manifest.json" type="BINDATA" />
     <include name="IDR_TVPN_003" file="tvpn/charon/favicon.ico" type="BINDATA" />
     <include name="IDR_TVPN_004" file="tvpn/charon/index.html" type="BINDATA" />
-    <include name="IDR_TVPN_005" file="tvpn/charon/.DS_Store" type="BINDATA" />
     <include name="IDR_TVPN_006" file="tvpn/charon/runtime.js" type="BINDATA" />
     <include name="IDR_TVPN_007" file="tvpn/charon/projects_charon_src_app_portal_modules_index_ts.js" type="BINDATA" />
     <include name="IDR_TVPN_008" file="tvpn/charon/styles.css" type="BINDATA" />
@@ -413,7 +410,6 @@
     <include name="IDR_TVPN_017" file="tvpn/charon/scripts/aws.js" type="BINDATA" />
     <include name="IDR_TVPN_018" file="tvpn/charon/scripts/challenge.js" type="BINDATA" />
     <include name="IDR_TVPN_019" file="tvpn/charon/scripts/help-beacon.js" type="BINDATA" />
-    <include name="IDR_TVPN_020" file="tvpn/charon/assets/.DS_Store" type="BINDATA" />
     <include name="IDR_TVPN_021" file="tvpn/charon/assets/images/congratulations-night.svg" type="BINDATA" />
     <include name="IDR_TVPN_022" file="tvpn/charon/assets/images/logo-icon.svg" type="BINDATA" />
     <include name="IDR_TVPN_023" file="tvpn/charon/assets/images/install-browser-mac.gif" type="BINDATA" />
@@ -464,7 +460,6 @@
     <include name="IDR_TVPN_068" file="tvpn/scripts/background-script.js.LICENSE.txt" type="BINDATA" />
     <include name="IDR_TVPN_069" file="tvpn/scripts/content-script.js" type="BINDATA" />
     <include name="IDR_TVPN_070" file="tvpn/scripts/content-api-script.js" type="BINDATA" />
-    <include name="IDR_TVPN_071" file="tvpn/assets/.DS_Store" type="BINDATA" />
     <include name="IDR_TVPN_072" file="tvpn/assets/icons/icon16.png" type="BINDATA" />
     <include name="IDR_TVPN_073" file="tvpn/assets/icons/64.png" type="BINDATA" />
     <include name="IDR_TVPN_074" file="tvpn/assets/icons/icon48.png" type="BINDATA" />
