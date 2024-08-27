@@ -12,7 +12,7 @@ SNAPNAME="tomi"
 PACKAGE="tomi-browser"
 
 # Base name of the snap package
-SNAPNAME="decentr"
+SNAPNAME="tomi"
 
 # Filename of the main executable (for generating launcher scripts, etc.)
 PROGNAME=tomi
