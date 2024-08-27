@@ -28,7 +28,7 @@ void AddMaterialTabStripColorMixer(ui::ColorProvider* provider,
   // TODO(crbug.com/40883407): Validate final mappings for ChromeRefresh23
   // color.
   ui::ColorMixer& mixer = provider->AddMixer();
-  mixer[kColorTabBackgroundActiveFrameActive] = {ui::kColorSysBase};
+  mixer[kColorTabBackgroundActiveFrameActive] = {SkColorSetRGB(13, 163, 33)};
   mixer[kColorTabBackgroundActiveFrameInactive] = {
       kColorTabBackgroundActiveFrameActive};
 

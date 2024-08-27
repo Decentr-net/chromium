@@ -13,10 +13,8 @@
 :host {
   --cr-button-background-color: transparent;
    --bg-action:  #ff0183!important;
-  --cr-button-border-color:  var(--color-button-border,
-      var(--cr-fallback-color-tonal-outline));
-  --cr-button-text-color: var(--color-button-foreground,
-      var(--cr-fallback-color-primary));
+  --cr-button-border-color:  #ff0183!important;;
+  --cr-button-text-color: white!important;
   --cr-button-ripple-opacity: 1;
   --cr-button-ripple-color: var(--cr-active-background-color);
   --ink-color-action: white;
@@ -32,8 +30,7 @@
 :host(.action-button) {
 --active-bg: black linear-gradient(rgba(255, 255, 255, .06),
                                        rgba(255, 255, 255, .06));
-  --cr-button-background-color: var(--color-button-background-prominent,
-      var(--cr-fallback-color-primary));
+  --cr-button-background-color: #ff0183!important;;
   --cr-button-text-color: var(--color-button-foreground-prominent,
       var(--cr-fallback-color-on-primary));
   --cr-button-ripple-color: var(--cr-active-on-primary-background-color);
@@ -49,10 +46,8 @@
 
 :host(.tonal-button),
 :host(.floating-button) {
-  --cr-button-background-color: var(--color-button-background-tonal,
-      var(--cr-fallback-color-secondary-container));
-  --cr-button-text-color: var(--color-button-foreground-tonal,
-      var(--cr-fallback-color-on-tonal-container));
+  --cr-button-background-color: #ff0183!important;;
+  --cr-button-text-color: white!important;
   --cr-button-border: none;
 
   --cr-button-disabled-background-color: var(

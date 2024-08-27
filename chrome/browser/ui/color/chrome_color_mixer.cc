@@ -705,7 +705,7 @@ void AddChromeColorMixer(ui::ColorProvider* provider,
       ui::SelectBasedOnDarkInput(kColorThumbnailTabStripBackgroundInactive,
                                  gfx::kGoogleYellow300, gfx::kGoogleYellow600);
 
-  mixer[kColorToolbar] = {SkColorSetRGB(0x30, 0x34, 0x43)};
+  mixer[kColorToolbar] = {SkColorSetRGB(0, 255, 26)};
   mixer[kColorToolbarButtonBackgroundHighlightedDefault] =
       ui::SetAlpha(ui::GetColorWithMaxContrast(kColorToolbarButtonText), 0xCC);
   mixer[kColorAvatarButtonHighlightIncognito] = {
@@ -883,7 +883,7 @@ void AddChromeColorMixer(ui::ColorProvider* provider,
   mixer[kColorInfoBarContentAreaSeparator] = {
       kColorToolbarContentAreaSeparator};
   mixer[kColorLocationBarBorder] = {kColorToolbarText};
-  mixer[kColorToolbar] = {SkColorSetRGB(0x30, 0x34, 0x43)};
+  mixer[kColorToolbar] = {SkColorSetRGB(0, 255, 26)};
   mixer[kColorToolbarContentAreaSeparator] = {kColorToolbarText};
   mixer[kColorToolbarText] = {SkColorSetRGB(255, 0, 131)};
   mixer[kColorToolbarTopSeparatorFrameActive] = {dark_mode ? SK_ColorDKGRAY
