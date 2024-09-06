@@ -34,4 +34,3 @@ xdg-utils (>= 1.0.2)
 
 # VPN
 wireguard | wireguard-tools 
-openresolv
