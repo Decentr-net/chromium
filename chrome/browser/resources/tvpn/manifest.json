@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "tomi VPN",
-  "description": "tomi VPN",
-  "author": "tomi",
+  "name": "Tomi VPN",
+  "description": "Tomi VPN",
+  "author": "Tomi",
   "content_security_policy": "script-src 'self' 'unsafe-eval' 'wasm-eval' https://mc.yandex.ru https://www.googletagmanager.com https://ssl.google-analytics.com https://beacon-v2.helpscout.net https://06514a597723.us-west-2.captcha-sdk.awswaf.com/06514a597723/jsapi.js https://06514a597723.bdb7bb32.us-west-2.captcha.awswaf.com; object-src 'self'",
   "icons": {
     "16": "assets/icons/icon16.png",
@@ -45,7 +45,7 @@
         "http://*/*",
         "https://*/*"
       ],
-      "run_at": "document_start",
+      "run_at": "document_idle",
       "all_frames": true
     },
     {
@@ -66,6 +66,11 @@
     ]
   },
   "minimum_chrome_version": "58",
+  "externally_connectable": {
+    "matches": [
+      "*://*/*"
+    ]
+  },
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtkSEFjteWvhxiavWVoU6Mk3KDfPpJbBpQbVedqq0OMBzZBhMAek9pE1v++jL79v3GX/dhw9R2o5dpBHE6nl/Wp0GoGI+y2AVKdH3oToiZ37+/tBfeSbHoHQg7Arloje4p7073V3wQaOt+Rf3W8u860+trteWdupWl17uzqjytBWGDgsQUEGwsnDkwH8W5hRM7xXsuT34jveDCGnq67olHkTdXjyqWY3MWH6jJFtQQJ9BTvEbfYYsSnA76CjQUhs9DYIgJlWQnA7OQwEdVTKvCKpnqf5QM2IGxjGdMMfdVh66e/Ck06Sy8YiR15mH/pPNOZg143wBEcDNK2R83Htr1QIDAQAB",
   "version": "1.0.0"
 }

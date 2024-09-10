@@ -38,7 +38,7 @@ const char kFrozenUserAgentTemplate[] =
 #if BUILDFLAG(IS_ANDROID) || BUILDFLAG(IS_IOS)
     "%s"
 #endif
-    "Decentr Safari/537.36 ";
+    "Safari/537.36";
 
 std::string GetUserAgentPlatform() {
 #if BUILDFLAG(IS_WIN)
@@ -415,7 +415,7 @@ std::string BuildUserAgentFromOSAndProduct(const std::string& os_info,
   std::string user_agent;
   base::StringAppendF(&user_agent,
                       "Mozilla/5.0 (%s) AppleWebKit/537.36 (KHTML, like Gecko) "
-                      "%s Decentr Safari/537.36 ",
+                      "%s Safari/537.36 ",
                       os_info.c_str(), product.c_str());
   return user_agent;
 }
