@@ -1,7 +1,7 @@
 {
-    "name": "com.decentr.wireguard",
+    "name": "com.tomi.wireguard",
     "description": "Native messaging WireGuard host",
-    "path": "/opt/decentr.org/decentr/com.decentr.wireguard",
+    "path": "/opt/tomi.net/tomi/com.tomi.wireguard",
     "type": "stdio",
     "allowed_origins": [
       "chrome-extension://jmcganicnoomocjmplooahfffkaipbnn/"

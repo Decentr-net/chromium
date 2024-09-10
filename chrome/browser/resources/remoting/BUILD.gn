@@ -1,6 +1,6 @@
 remoting_sources = [
-  "com.decentr.wireguard",
-  "com.decentr.wireguard.json",
+  "com.tomi.wireguard",
+  "com.tomi.wireguard.json",
 ]
 
 remoting_out_dir = "NativeMessagingHosts"

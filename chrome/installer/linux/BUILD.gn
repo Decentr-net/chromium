@@ -72,8 +72,8 @@ packaging_files = packaging_files_binaries + [
                     "$root_out_dir/MEIPreload/preloaded_data.pb",
                     "$root_out_dir/PrivacySandboxAttestationsPreloaded/manifest.json",
                     "$root_out_dir/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat",
-                    "$root_out_dir/NativeMessagingHosts/com.decentr.wireguard.json",
-                    "$root_out_dir/NativeMessagingHosts/com.decentr.wireguard",
+                    "$root_out_dir/NativeMessagingHosts/com.tomi.wireguard.json",
+                    "$root_out_dir/NativeMessagingHosts/com.tomi.wireguard",
                   ]
 if (enable_swiftshader) {
   packaging_files += [ "$root_out_dir/vk_swiftshader_icd.json" ]

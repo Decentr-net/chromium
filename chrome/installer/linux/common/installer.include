@@ -386,10 +386,10 @@ stage_install_common() {
   fi
 
   # WireGuard Native Messaging
-  if [ -f "${OUTPUTDIR}/NativeMessagingHosts/com.decentr.wireguard.json" ]; then
-    install -m 755 -d "${STAGEDIR}/etc/Decentr/native-messaging-hosts/"
-    install -m 644 "${OUTPUTDIR}/NativeMessagingHosts/com.decentr.wireguard.json" "${STAGEDIR}/etc/Decentr/native-messaging-hosts/"
-    install -m 755 "${OUTPUTDIR}/NativeMessagingHosts/com.decentr.wireguard" "${STAGEDIR}/opt/decentr.org/decentr/"
+  if [ -f "${OUTPUTDIR}/NativeMessagingHosts/com.tomi.wireguard.json" ]; then
+    install -m 755 -d "${STAGEDIR}/etc/tomi/native-messaging-hosts/"
+    install -m 644 "${OUTPUTDIR}/NativeMessagingHosts/com.tomi.wireguard.json" "${STAGEDIR}/etc/tomi/native-messaging-hosts/"
+    install -m 755 "${OUTPUTDIR}/NativeMessagingHosts/com.tomi.wireguard" "${STAGEDIR}/opt/tomi.net/tomi/"
   fi
 
   # Make sure ELF binaries live in INSTALLDIR exclusively.
