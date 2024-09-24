@@ -129,6 +129,12 @@ def get_parts(config):
                 'wg',
                 options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
                 verify_options=verify_options),
+            'wg_host':
+            CodeSignedProduct(
+                '{.framework_dir}/Helpers/wg_host'.format(config),
+                'wg_host',
+                options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
+                verify_options=verify_options),
         'wireguard-go':
             CodeSignedProduct(
                 '{.framework_dir}/Helpers/wireguard-go'.format(config),
@@ -232,7 +238,7 @@ def sign_chrome(paths, config, sign_framework=False):
         # signing the Current version.
         # https://developer.apple.com/library/content/technotes/tn2206/_index.html#//apple_ref/doc/uid/DTS40007919-CH1-TNTAG13
         for name, part in parts.items():
-            if name in ('app', 'framework', 'privileged-helper', 'wg_host'):
+            if name in ('app', 'framework', 'privileged-helper'):
                 continue
             signing.sign_part(paths, config, part)
 
