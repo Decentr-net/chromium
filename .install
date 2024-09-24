@@ -50,7 +50,7 @@ readonly ME
 # We will populate this variable with the version of the application bundle
 # it'll be packaged with when the build is run. This allows us to not do a
 # defaults read on Info.plist to find the update_version.
-UPDATE_VERSION="126.1.6478.0"
+UPDATE_VERSION="127.0.6533.1"
 readonly UPDATE_VERSION
 
 err() {

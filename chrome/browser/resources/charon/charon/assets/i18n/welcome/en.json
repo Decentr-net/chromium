@@ -21,6 +21,10 @@
       "subtitle": "Import your existing account and wallet with the seed phrase you got during the first sign up.",
       "title": "Log in with seed phrase"
     },
+    "metamask_log_in": {
+      "subtitle": "Import your existing Metamask account.",
+      "title": "Log in with Metamask"
+    },
     "sign_up": {
       "subtitle": "When you create a new user and wallet, you'll receive a seed phrase to verify yourself during next logins.",
       "title": "Create new user"
