@@ -35,6 +35,9 @@
     "omnibox",
     "geolocation"
   ],
+  "web_accessible_resources": [
+    "/charon/index.html"
+  ],
   "content_scripts": [
     {
       "js": [
