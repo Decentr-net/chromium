@@ -83,11 +83,12 @@ bool ShouldDetectOutdatedBuilds() {
     return false;
   }
 
-  return true;
+  return false;
 #else
   // Outdated build detection is not relevant on ChromeOS platforms where
   // updates are handled differently than on other desktop platforms.
   return false;
+#endif
 }
 
 // Check if one of the outdated simulation switches was present on the command

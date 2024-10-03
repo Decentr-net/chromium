@@ -33,7 +33,7 @@ using base::win::RegKey;
 using installer::InstallationState;
 
 const wchar_t GoogleUpdateSettings::kPoliciesKey[] =
-    L"SOFTWARE\\Policies\\Google\\Update";
+    L"SOFTWARE\\Policies\\Decentr\\Update";
 const wchar_t GoogleUpdateSettings::kUpdatePolicyValue[] = L"UpdateDefault";
 const wchar_t GoogleUpdateSettings::kDownloadPreferencePolicyValue[] =
     L"DownloadPreference";
