@@ -260,6 +260,7 @@
 #include "ppapi/buildflags/buildflags.h"
 #include "printing/buildflags/buildflags.h"
 #include "services/network/public/cpp/features.h"
+#include "third_party/blink/public/common/features_generated.h"
 #include "chrome/browser/decentr/decentr_storage_service_factory.h"
 
 #if BUILDFLAG(IS_ANDROID)
@@ -1329,9 +1330,6 @@ void ChromeBrowserMainExtraPartsProfiles::
   WebDataServiceFactory::GetInstance();
   webrtc_event_logging::WebRtcEventLogManagerKeyedServiceFactory::GetInstance();
   decentr::DecentrStorageServiceFactory::GetInstance();
-#if !BUILDFLAG(IS_ANDROID)
-  WebUIContentsPreloadManager::EnsureFactoryBuilt();
-#endif
 }
 
 void ChromeBrowserMainExtraPartsProfiles::PreProfileInit() {

@@ -27,7 +27,10 @@
 }
 
 #logo {
-  forced-color-adjust: none;
+  background-image: url(./icons/decentr-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   height: 92px;
   width: 272px;
 }

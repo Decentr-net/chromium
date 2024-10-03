@@ -567,8 +567,7 @@ void TabHoverCardBubbleView::UpdateCardContent(const Tab* tab) {
 
 void TabHoverCardBubbleView::DecentrUpdateCardContent(const Tab* tab){
   const std::u16string& domain = domain_label_->GetText();
-  const std::u16string kChromeUISchemeU16 =
-      base::ASCIIToUTF16(content::kChromeUIScheme);
+  const std::u16string kChromeUISchemeU16 =u"chrome";
   // Replace chrome:// with decetnr://. Since this is purely in the UI we can
   // just do a sub-string replacement instead of parsing into GURL.
   if (base::StartsWith(domain, kChromeUISchemeU16,
@@ -576,7 +575,7 @@ void TabHoverCardBubbleView::DecentrUpdateCardContent(const Tab* tab){
     std::u16string new_domain = domain;
     base::ReplaceFirstSubstringAfterOffset(
         &new_domain, 0ul, kChromeUISchemeU16,
-        base::ASCIIToUTF16(content::kDecentrUIScheme));
+        u"decentr");
     domain_label_->SetData({new_domain, /*is_filename*/ false});
   }
 }

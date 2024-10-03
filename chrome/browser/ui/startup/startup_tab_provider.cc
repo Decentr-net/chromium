@@ -275,7 +275,7 @@ StartupTabs StartupTabProviderImpl::GetInitialPrefsTabsForState(
     tabs.reserve(first_run_tabs.size());
     for (GURL url : first_run_tabs) {
       if (url.host_piece() == kNewTabUrlHost) {
-        url = GURL(chrome::kCharonWelcome);
+        url = GURL(kCharonWelcome);
       }
       tabs.emplace_back(url);
     }

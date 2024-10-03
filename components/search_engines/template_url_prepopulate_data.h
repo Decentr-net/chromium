@@ -36,11 +36,11 @@ extern const int kMaxPrepopulatedEngineID;
 //
 // Note: If this is increased, please also increase the declared variant count
 // for the `Search.ChoiceScreenShowedEngineAt.Index{Index}` histogram.
-inline constexpr size_t kMaxEeaPrepopulatedEngines = 8;
+inline constexpr size_t kMaxEeaPrepopulatedEngines = 10;
 
 // The maximum number of prepopulated search engines that can be returned in
 // in the rest of the world by `GetPrepopulatedEngines()`.
-inline constexpr size_t kMaxRowPrepopulatedEngines = 5;
+inline constexpr size_t kMaxRowPrepopulatedEngines = 10;
 
 void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry);
 

@@ -12,7 +12,7 @@ using DecentrStorageServiceFactory = ::decentr::DecentrStorageServiceFactory;
 using DecentrStorageService = ::decentr::DecentrStorageService;
 
 ExtensionFunction::ResponseAction DecentrGetFunction::Run() {
-   absl::optional<decentr::Get::Params> params(
+   std::optional<decentr::Get::Params> params(
       decentr::Get::Params::Create(args()));
   EXTENSION_FUNCTION_VALIDATE(params);
 
@@ -34,7 +34,7 @@ void DecentrGetFunction::OnGet(std::pair<std::string, std::string> object) {
 }
 
 ExtensionFunction::ResponseAction DecentrSetFunction::Run() {
-   absl::optional<decentr::Set::Params> params(
+   std::optional<decentr::Set::Params> params(
       decentr::Set::Params::Create(args()));
   EXTENSION_FUNCTION_VALIDATE(params);
 

@@ -799,7 +799,7 @@ std::string AboutUIHTMLSource::ChromeURLs() const {
   // Remove some URLs.
   auto html_lines = base::SplitStringPiece(
       chrome_urls, "\n", base::KEEP_WHITESPACE, base::SPLIT_WANT_ALL);
-  const base::flat_set<base::StringPiece> kURLsToRemove{
+  const base::flat_set<std::string_view> kURLsToRemove{
       "Decentr://memories",
   };
   // URLs in html should be sorted so it's okay to iterate over sorted

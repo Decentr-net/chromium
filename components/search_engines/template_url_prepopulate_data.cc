@@ -234,11 +234,15 @@ std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedEngines(
   if (!t_urls.empty()) {
     return t_urls;
   }
-  if (default_search_provider_index) {
-    const auto itr =
-        base::ranges::find(t_urls, presearch.id, &TemplateURLData::prepopulate_id);
-    *default_search_provider_index =
-        itr == t_urls.end() ? 0 : std::distance(t_urls.begin(), itr);
+  int country_id;
+  if (search_engine_choice_service) {
+    country_id = search_engine_choice_service->GetCountryId();
+  } else {
+    // `search_engine_choice_service` (and `prefs`) can be null in tests.
+    // TODO(crbug.com/40287734): Make sure `prefs` and
+    // `search_engine_choice_service` are always not null.
+    CHECK_IS_TEST();
+    country_id = country_codes::GetCurrentCountryID();
   }
 
   return GetPrepopulatedTemplateURLData(country_id, prefs);
@@ -323,7 +327,7 @@ std::unique_ptr<TemplateURLData> GetPrepopulatedFallbackSearch(
     PrefService* prefs,
     search_engines::SearchEngineChoiceService* search_engine_choice_service) {
   return FindPrepopulatedEngineInternal(prefs, search_engine_choice_service,
-                                        google.id,
+                                        presearch.id,
                                         /*use_first_as_fallback=*/true);
 }
 

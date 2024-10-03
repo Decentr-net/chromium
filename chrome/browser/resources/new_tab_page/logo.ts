@@ -216,14 +216,11 @@ export class LogoElement extends CrLitElement {
   }
 
   private computeShowLogo_(): boolean {
-    return !!this.loaded_ && !this.showDoodle_;
+    return !!this.loaded_;
   }
 
   private computeShowDoodle_(): boolean {
-    return !!this.imageDoodle_ ||
-        /* We hide interactive doodles when offline. Otherwise, the iframe
-           would show an ugly error page. */
-        !!this.doodle_ && !!this.doodle_.interactive && window.navigator.onLine;
+    return false;
   }
 
   private computeDoodleBoxed_(): boolean {
