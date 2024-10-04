@@ -1,3 +1,17 @@
+<style>
+  .decentr__logos {
+    align-items: flex-end;
+    column-gap: 32px;
+    flex-direction: row;
+    display: flex;
+  }
+  .decentr__logo-presearch {
+    display: flex;
+    margin-bottom: 38px;
+    min-height: 92px;
+  }
+</style>
+
 <div id="content">
   ${this.lazyRender_ && this.oneGoogleBarEnabled_ ? html`
     <div id="oneGoogleBarScrim" ?hidden="${!this.showBackgroundImage_}"
@@ -7,14 +21,15 @@
         allow="camera ${this.oneGoogleBarIframeOrigin_}; display-capture ${this.oneGoogleBarIframeOrigin_}"> <!-- presubmit: ignore-long-line -->
     </ntp-iframe>
   ` : ''}
-  <!-- TODO(crbug.com/40743294): Instead of ?hidden="${!this.logoEnabled_}" it would
-       be nicer to use Lit's conditional rendering. However, that breaks
-              StartupBrowserCreatorPickerNoParamsTest.ShowPickerWhenAlreadyLaunched on
-       the msan builder. See crbug.com/1169070. -->
-  <ntp-logo id="logo" ?single-colored="${this.singleColoredLogo_}"
-  .dark="${this.isThemeDark_()}" .backgroundColor="${this.backgroundColor_}"
-  ?hidden="${!this.logoEnabled_}">
-</ntp-logo>
+  <div class="decentr__logos">
+    <ntp-logo id="logo" single-colored$="[[singleColoredLogo_]]"
+       dark="[[theme_.isDark]]" background-color="[[backgroundColor_]]"
+            hidden$="[[!logoEnabled_]]">
+    </ntp-logo>
+    <div class="decentr__logo-presearch">
+      <img src="chrome://new-tab-page/icons/presearch-logo.svg"></img>
+    </div>
+  </div>
 <div id="realboxContainer">
   <cr-searchbox id="realbox" ?is-dark="${this.isThemeDark_()}"
       ?color-source-is-baseline="${this.colorSourceIsBaseline}"
