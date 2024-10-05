@@ -356,7 +356,9 @@ SkPath TabStyleViewsImpl::GetPath(TabStyle::PathType path_type,
   const ShapeModifier shape_modifier = GetShapeModifier(path_type);
   const bool extend_left_to_bottom = shape_modifier & kNoLowerLeftArc;
   const bool extend_right_to_bottom = shape_modifier & kNoLowerRightArc;
-
+  const bool compact_left_to_bottom =
+      !extend_left_to_bottom && (shape_modifier & kCompactLeftArc);
+      
   SkPath path;
 
   float left_extension_corner_radius = extension_corner_radius;

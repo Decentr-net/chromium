@@ -196,7 +196,7 @@ TdnsButton::TdnsButton(PressedCallback callback, PrefService* prefs)
     : ToolbarButton(std::move(callback)),
       prefs_(prefs) {
   SetTriggerableEventFlags(ui::EF_LEFT_MOUSE_BUTTON);
-  SetVectorIcon(kProductIcon);
+  SetVectorIcon(vector_icons::kProductIcon);
   SetTooltipText(l10n_util::GetStringUTF16(IDS_TOOLTIP_TDNS));
   SetAccessibleName(l10n_util::GetStringUTF16(IDS_ACCNAME_HOME));
   SetID(VIEW_ID_TDNS_BUTTON);
