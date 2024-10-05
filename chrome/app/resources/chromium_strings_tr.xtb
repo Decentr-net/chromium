@@ -2,541 +2,541 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="tr">
 <translation id="1026101648481255140">Yüklemeyi Devam Ettir</translation>
-<translation id="1029669172902658969">&amp;DecentrOS'i güncellemek için yeniden başlat</translation>
-<translation id="1040916596585577953">Decentr bu uzantıyı incelemenizi öneriyor.</translation>
-<translation id="1042552502243217427">Bir site kendi sayfasındaki bağlantıları gizli olarak önceden yüklemek istediğinde Decentr, Decentr sunucularını kullanır. Bu şekilde kimliğiniz önceden yüklenmiş siteden gizlenmiş olur, ancak Decentr hangi sitelerin önceden yüklendiğini öğrenir.</translation>
+<translation id="1029669172902658969">&amp;tomiOS'i güncellemek için yeniden başlat</translation>
+<translation id="1040916596585577953">tomi bu uzantıyı incelemenizi öneriyor.</translation>
+<translation id="1042552502243217427">Bir site kendi sayfasındaki bağlantıları gizli olarak önceden yüklemek istediğinde tomi, tomi sunucularını kullanır. Bu şekilde kimliğiniz önceden yüklenmiş siteden gizlenmiş olur, ancak tomi hangi sitelerin önceden yüklendiğini öğrenir.</translation>
 <translation id="1065672644894730302">Tercihleriniz okunamıyor. Bazı özellikler kullanılamayabilir. Tercihlerde yapılan değişiklikler kaydedilmeyecektir.</translation>
-<translation id="1083934481477628225">Ebeveyniniz, Decentr'a yönelik "Siteler, uygulamalar ve uzantılar için izinler"i kapattı.</translation>
-<translation id="1098170124587656448">Decentr veri ihlallerine, kötü uzantılara ve diğer tehditlere karşı güvende kalmanıza yardımcı olabilir</translation>
-<translation id="1104942323762546749">Decentr, şifrelerinizi dışa aktarmak istiyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
-<translation id="113122355610423240">Decentr varsayılan tarayıcınız</translation>
-<translation id="1131805035311359397">Şifrelerinizin veri ihlali ve diğer güvenlik sorunlarına karşı güvende olup olmadığını kontrol etmek için <ph name="BEGIN_LINK" />Decentr'da oturum açın<ph name="END_LINK" />.</translation>
-<translation id="1153368717515616349">Decentr menüsünü tıklayın</translation>
+<translation id="1083934481477628225">Ebeveyniniz, tomi'a yönelik "Siteler, uygulamalar ve uzantılar için izinler"i kapattı.</translation>
+<translation id="1098170124587656448">tomi veri ihlallerine, kötü uzantılara ve diğer tehditlere karşı güvende kalmanıza yardımcı olabilir</translation>
+<translation id="1104942323762546749">tomi, şifrelerinizi dışa aktarmak istiyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
+<translation id="113122355610423240">tomi varsayılan tarayıcınız</translation>
+<translation id="1131805035311359397">Şifrelerinizin veri ihlali ve diğer güvenlik sorunlarına karşı güvende olup olmadığını kontrol etmek için <ph name="BEGIN_LINK" />tomi'da oturum açın<ph name="END_LINK" />.</translation>
+<translation id="1153368717515616349">tomi menüsünü tıklayın</translation>
 <translation id="1184145431117212167">Windows sürümünüz desteklenmediğinden yükleme işlemi başarısız oldu.</translation>
-<translation id="1185134272377778587">Decentr hakkında</translation>
-<translation id="1188705220418984327">Pencerenizi paylaşmak için Sistem Tercihleri'nde Decentr'un ekranı kaydetmesine izin verin.</translation>
+<translation id="1185134272377778587">tomi hakkında</translation>
+<translation id="1188705220418984327">Pencerenizi paylaşmak için Sistem Tercihleri'nde tomi'un ekranı kaydetmesine izin verin.</translation>
 <translation id="1203500561924088507">Yüklediğiniz için teşekkürler. <ph name="BUNDLE_NAME" /> uygulamasını kullanmadan önce tarayıcınızı yeniden başlatmanız gerekir.</translation>
-<translation id="1262876892872089030">Bu sekme etkin değilken Decentr'un hızlı çalışmaya devam etmesi için bellekte yer açıldı. Bu siteyi, etkin olmayan sitelerden her zaman hariç tutabilirsiniz.</translation>
-<translation id="1265577313130862557">Dosya tehlikeli olduğu için Decentr bu indirme işlemini engelledi</translation>
-<translation id="126567311906253476"><ph name="USER_EMAIL" /> ile Gmail veya YouTube gibi Decentr hizmetlerinde oturum açarken aynı hesapla Decentr'da otomatik olarak oturum açabilirsiniz</translation>
+<translation id="1262876892872089030">Bu sekme etkin değilken tomi'un hızlı çalışmaya devam etmesi için bellekte yer açıldı. Bu siteyi, etkin olmayan sitelerden her zaman hariç tutabilirsiniz.</translation>
+<translation id="1265577313130862557">Dosya tehlikeli olduğu için tomi bu indirme işlemini engelledi</translation>
+<translation id="126567311906253476"><ph name="USER_EMAIL" /> ile Gmail veya YouTube gibi tomi hizmetlerinde oturum açarken aynı hesapla tomi'da otomatik olarak oturum açabilirsiniz</translation>
 <translation id="1290883685122687410">Kurulum hatası: <ph name="METAINSTALLER_EXIT_CODE" />. <ph name="WINDOWS_ERROR" /></translation>
-<translation id="1315551408014407711">Yeni Decentr profilinizi oluşturun</translation>
-<translation id="1324107359134968521">Decentr'un Bluetooth cihazları keşfedebilmesi için Bluetooth'a erişmesi gerekiyor. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="1342274909142618978">Decentr'daki verileri de sil (<ph name="URL" />)</translation>
-<translation id="1414495520565016063">Decentr'da oturum açtınız!</translation>
-<translation id="1478370723027452770">Decentr for Testing ile ilgili yardım alın</translation>
+<translation id="1315551408014407711">Yeni tomi profilinizi oluşturun</translation>
+<translation id="1324107359134968521">tomi'un Bluetooth cihazları keşfedebilmesi için Bluetooth'a erişmesi gerekiyor. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
+<translation id="1342274909142618978">tomi'daki verileri de sil (<ph name="URL" />)</translation>
+<translation id="1414495520565016063">tomi'da oturum açtınız!</translation>
+<translation id="1478370723027452770">tomi for Testing ile ilgili yardım alın</translation>
 <translation id="1497802159252041924">Yükleme hatası: <ph name="INSTALL_ERROR" /></translation>
-<translation id="1524282610922162960">Decentr sekmesini paylaşın</translation>
-<translation id="1553461853655228091">Çevrenizin 3D haritasını oluşturmak için Decentr'un kameranıza erişim iznine ihtiyacı var</translation>
-<translation id="1555494096857516577">{NUM_EXTENSIONS,plural, =1{Bu uzantı artık desteklenmiyor. Decentr bunu kaldırmanızı öneriyor.}other{Bu uzantılar artık desteklenmiyor. Decentr bunları kaldırmanızı öneriyor}}</translation>
-<translation id="1574377791422810894">Decentr'un güvenlik araçları</translation>
-<translation id="1591808205441691831">Bazı verilerin Decentr Hesabınıza kaydedilip tüm cihazlarınızda kullanılabilmesi için Decentr'un kimliğinizi doğrulaması gerekir. Oturumunuzu kapattığınızda bu veriler bu cihazda kalır.</translation>
-<translation id="1594928384848033697">Decentr, Şifre Yöneticisi verilerinizi silmek istiyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Yöneticiniz bir güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı gerektiriyor}=1{Yöneticiniz bir güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı gerektiriyor. Gizli pencereniz yeniden açılmayacak.}other{Yöneticiniz bir güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı gerektiriyor. # Gizli pencereniz yeniden açılmayacak.}}</translation>
-<translation id="1625909126243026060">Decentr'daki önemli gizlilik ve güvenlik kontrollerini inceleyin</translation>
-<translation id="1632539827495546968">Bu hesabı yalnızca bir kez kullanmak istiyorsanız Decentr tarayıcıda <ph name="GUEST_LINK_BEGIN" />misafir modunu<ph name="GUEST_LINK_END" /> kullanabilirsiniz. Başka biri için hesap eklemek isterseniz <ph name="DEVICE_TYPE" /> cihazınıza <ph name="LINK_BEGIN" />yeni bir kişi ekleyin<ph name="LINK_END" />.
+<translation id="1524282610922162960">tomi sekmesini paylaşın</translation>
+<translation id="1553461853655228091">Çevrenizin 3D haritasını oluşturmak için tomi'un kameranıza erişim iznine ihtiyacı var</translation>
+<translation id="1555494096857516577">{NUM_EXTENSIONS,plural, =1{Bu uzantı artık desteklenmiyor. tomi bunu kaldırmanızı öneriyor.}other{Bu uzantılar artık desteklenmiyor. tomi bunları kaldırmanızı öneriyor}}</translation>
+<translation id="1574377791422810894">tomi'un güvenlik araçları</translation>
+<translation id="1591808205441691831">Bazı verilerin tomi Hesabınıza kaydedilip tüm cihazlarınızda kullanılabilmesi için tomi'un kimliğinizi doğrulaması gerekir. Oturumunuzu kapattığınızda bu veriler bu cihazda kalır.</translation>
+<translation id="1594928384848033697">tomi, Şifre Yöneticisi verilerinizi silmek istiyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
+<translation id="1607715478322902680">{COUNT,plural, =0{Yöneticiniz bir güncellemeyi uygulamak için tomi'u yeniden başlatmanızı gerektiriyor}=1{Yöneticiniz bir güncellemeyi uygulamak için tomi'u yeniden başlatmanızı gerektiriyor. Gizli pencereniz yeniden açılmayacak.}other{Yöneticiniz bir güncellemeyi uygulamak için tomi'u yeniden başlatmanızı gerektiriyor. # Gizli pencereniz yeniden açılmayacak.}}</translation>
+<translation id="1625909126243026060">tomi'daki önemli gizlilik ve güvenlik kontrollerini inceleyin</translation>
+<translation id="1632539827495546968">Bu hesabı yalnızca bir kez kullanmak istiyorsanız tomi tarayıcıda <ph name="GUEST_LINK_BEGIN" />misafir modunu<ph name="GUEST_LINK_END" /> kullanabilirsiniz. Başka biri için hesap eklemek isterseniz <ph name="DEVICE_TYPE" /> cihazınıza <ph name="LINK_BEGIN" />yeni bir kişi ekleyin<ph name="LINK_END" />.
 
-Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olabilir. Decentr Hesaplarınızı <ph name="SETTINGS_LINK_BEGIN" />Ayarlar<ph name="SETTINGS_LINK_END" /> bölümünden yönetebilirsiniz.</translation>
+Web sitelerine ve uygulamalara verdiğiniz izinler, bu hesap için geçerli olabilir. tomi Hesaplarınızı <ph name="SETTINGS_LINK_BEGIN" />Ayarlar<ph name="SETTINGS_LINK_END" /> bölümünden yönetebilirsiniz.</translation>
 <translation id="1640672724030957280">İndiriliyor...</translation>
-<translation id="1715127912119967311">Decentr, özelliklerle olan etkileşimlerinizi Decentr'a göndererek bu özelliklerin iyileştirilmesini sağlar. İnceleme uzmanları bu verileri okuyabilir, işleyebilir ve bunlara ek açıklama ekleyebilir.</translation>
+<translation id="1715127912119967311">tomi, özelliklerle olan etkileşimlerinizi tomi'a göndererek bu özelliklerin iyileştirilmesini sağlar. İnceleme uzmanları bu verileri okuyabilir, işleyebilir ve bunlara ek açıklama ekleyebilir.</translation>
 <translation id="1722488837206509557">Böylece, kullanılabilir cihazlar arasından seçiminizi yapıp içerikleri bu cihazlarda görüntüleyebilirsiniz.</translation>
-<translation id="17264556997921157">Sitelerin size reklam göstermek için kullandığı ilgi alanlarını görebilir ve kaldırabilirsiniz. Decentr, ilgi alanlarınızı tahmin ederken son tarama geçmişinizi kullanır.</translation>
-<translation id="1733725117201708356">Decentr yakında tarama verilerini silecek</translation>
-<translation id="1736443181683099871">Decentr, gezinmeleri HTTPS'ye yükseltmeye çalışır</translation>
-<translation id="1745121272106313518">Decentr <ph name="REMAINING_TIME" /> sonra yeniden başlatılacak</translation>
-<translation id="1749104137266986751">Decentr, HTTPS kullanılamadığında size uyarı göndermeden güvenli olmayan bir bağlantı kullanır</translation>
-<translation id="1774152462503052664">Decentr'un arka planda çalışmasına izin ver</translation>
-<translation id="1779356040007214683">Decentr'u daha güvenli bir hale getirmek için <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> altında listelenmeyen ve bilginiz dışında eklenmiş olabilecek bazı uzantıları devre dışı bıraktık.</translation>
-<translation id="1808667845054772817">Decentr'u yeniden yükle</translation>
-<translation id="1820835682567584003">Decentr şunu yapmaya çalışıyor: <ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="18552579716432081">Tarama verilerini yalnızca bu cihazdan silip Decentr Hesabınızda tutmak için <ph name="BEGIN_LINK" />Decentr oturumunu kapatın<ph name="END_LINK" />.</translation>
-<translation id="185970820835152459">Oturum açılmış Decentr Hesaplarınızı yönetebilirsiniz. Decentr Hesaplarınız; Decentr tarayıcı, Play Store, Gmail ve daha başka yerlerde kullanılır. Aile üyesi gibi başka bir kullanıcı için hesap eklemek isterseniz bunun yerine <ph name="DEVICE_TYPE" /> cihazınıza yeni bir kişi ekleyin. <ph name="LINK_BEGIN" />Daha fazla bilgi<ph name="LINK_END" /></translation>
-<translation id="1863308913976887472">Siteler, ilgi alanlarınız hakkındaki bilgileri Decentr'da saklayabilir. Örneğin, maraton ayakkabısı satın almak için ziyaret ettiğiniz bir site, maraton koşmayı ilgi alanınız olarak tanımlayabilir. Daha sonra bir yarışa kaydolmak için farklı bir siteyi ziyaret ettiğinizde o site ilgi alanlarınıza dayalı olarak size koşu ayakkabısı reklamı gösterebilir.</translation>
-<translation id="1881322772814446296">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Decentr profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Decentr verileriniz kalıcı olarak <ph name="USER_NAME" /> ile bağlantılandırılacaktır. Decentr Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. İsterseniz mevcut Decentr verilerinizi ayrı tutmak için yeni bir profil oluşturabilirsiniz. <ph name="LEARN_MORE" /></translation>
-<translation id="1906696617298807388">Adres çubuğuna veya arama kutusuna yazdığınızda Decentr, yazdıklarınızı Decentr Drive'a göndererek öğe önerileri görmenizi sağlar. Bu ayar Gizli modda kapalıdır.</translation>
-<translation id="1911763535808217981">Bu özelliği kapatarak Decentr'da oturum açmadan Gmail gibi Decentr sitelerinde oturum açabilirsiniz</translation>
-<translation id="1929939181775079593">Decentr yanıt vermiyor. Şimdi yeniden başlatılsın mı?</translation>
-<translation id="193439633299369377">Güncellemenin uygulanması için DecentrOS yeniden başlatılmalıdır.</translation>
-<translation id="1951406923938785464">Dosya türü çok indirilmediği ve tehlikeli olabileceği için Decentr bu indirme işlemini engelledi</translation>
+<translation id="17264556997921157">Sitelerin size reklam göstermek için kullandığı ilgi alanlarını görebilir ve kaldırabilirsiniz. tomi, ilgi alanlarınızı tahmin ederken son tarama geçmişinizi kullanır.</translation>
+<translation id="1733725117201708356">tomi yakında tarama verilerini silecek</translation>
+<translation id="1736443181683099871">tomi, gezinmeleri HTTPS'ye yükseltmeye çalışır</translation>
+<translation id="1745121272106313518">tomi <ph name="REMAINING_TIME" /> sonra yeniden başlatılacak</translation>
+<translation id="1749104137266986751">tomi, HTTPS kullanılamadığında size uyarı göndermeden güvenli olmayan bir bağlantı kullanır</translation>
+<translation id="1774152462503052664">tomi'un arka planda çalışmasına izin ver</translation>
+<translation id="1779356040007214683">tomi'u daha güvenli bir hale getirmek için <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> altında listelenmeyen ve bilginiz dışında eklenmiş olabilecek bazı uzantıları devre dışı bıraktık.</translation>
+<translation id="1808667845054772817">tomi'u yeniden yükle</translation>
+<translation id="1820835682567584003">tomi şunu yapmaya çalışıyor: <ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="18552579716432081">Tarama verilerini yalnızca bu cihazdan silip tomi Hesabınızda tutmak için <ph name="BEGIN_LINK" />tomi oturumunu kapatın<ph name="END_LINK" />.</translation>
+<translation id="185970820835152459">Oturum açılmış tomi Hesaplarınızı yönetebilirsiniz. tomi Hesaplarınız; tomi tarayıcı, Play Store, Gmail ve daha başka yerlerde kullanılır. Aile üyesi gibi başka bir kullanıcı için hesap eklemek isterseniz bunun yerine <ph name="DEVICE_TYPE" /> cihazınıza yeni bir kişi ekleyin. <ph name="LINK_BEGIN" />Daha fazla bilgi<ph name="LINK_END" /></translation>
+<translation id="1863308913976887472">Siteler, ilgi alanlarınız hakkındaki bilgileri tomi'da saklayabilir. Örneğin, maraton ayakkabısı satın almak için ziyaret ettiğiniz bir site, maraton koşmayı ilgi alanınız olarak tanımlayabilir. Daha sonra bir yarışa kaydolmak için farklı bir siteyi ziyaret ettiğinizde o site ilgi alanlarınıza dayalı olarak size koşu ayakkabısı reklamı gösterebilir.</translation>
+<translation id="1881322772814446296">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine tomi profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi tomi verileriniz kalıcı olarak <ph name="USER_NAME" /> ile bağlantılandırılacaktır. tomi Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. İsterseniz mevcut tomi verilerinizi ayrı tutmak için yeni bir profil oluşturabilirsiniz. <ph name="LEARN_MORE" /></translation>
+<translation id="1906696617298807388">Adres çubuğuna veya arama kutusuna yazdığınızda tomi, yazdıklarınızı tomi Drive'a göndererek öğe önerileri görmenizi sağlar. Bu ayar Gizli modda kapalıdır.</translation>
+<translation id="1911763535808217981">Bu özelliği kapatarak tomi'da oturum açmadan Gmail gibi tomi sitelerinde oturum açabilirsiniz</translation>
+<translation id="1929939181775079593">tomi yanıt vermiyor. Şimdi yeniden başlatılsın mı?</translation>
+<translation id="193439633299369377">Güncellemenin uygulanması için tomiOS yeniden başlatılmalıdır.</translation>
+<translation id="1951406923938785464">Dosya türü çok indirilmediği ve tehlikeli olabileceği için tomi bu indirme işlemini engelledi</translation>
 <translation id="1953553007165777902">İndiriliyor... <ph name="MINUTE" /> dakika kaldı</translation>
-<translation id="1966382378801805537">Decentr, varsayılan tarayıcıyı tespit edemiyor veya ayarlayamıyor</translation>
-<translation id="1990262977744080398">Decentr'un bazı dosyaları neden engellediğini öğrenin, yeni sekmede açılır</translation>
-<translation id="2008474315282236005">Bu işlem 1 öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Decentr'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
+<translation id="1966382378801805537">tomi, varsayılan tarayıcıyı tespit edemiyor veya ayarlayamıyor</translation>
+<translation id="1990262977744080398">tomi'un bazı dosyaları neden engellediğini öğrenin, yeni sekmede açılır</translation>
+<translation id="2008474315282236005">Bu işlem 1 öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için tomi'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
 <translation id="2018879682492276940">Yükleme başarısız oldu. Lütfen tekrar deneyin.</translation>
-<translation id="2020032459870799438">Öteki şifrelerinizin veri ihlali ve diğer güvenlik sorunlarına karşı güvende olup olmadığını kontrol etmek için <ph name="BEGIN_LINK" />Decentr'da oturum açın<ph name="END_LINK" />.</translation>
-<translation id="2049376729098081731">Decentr hizmetlerinde daha fazla kişiselleştirilmiş deneyimden faydalanmak için Decentr geçmişinin eklenip eklenmeyeceğini seçin</translation>
-<translation id="2086476982681781442">Dosya yanıltıcı olduğu ve cihazınızda beklenmeyen değişiklikler yapabileceği için Decentr bu indirme işlemini engelledi</translation>
-<translation id="2088953378266246249">Decentr'un kök sertifikalarını nasıl yönettiği hakkında bilgi</translation>
-<translation id="2120965832000301375">{COUNT,plural, =1{Decentr 1 dakika boyunca kullanılmadığında kuruluşunuz tarama verilerini otomatik olarak siler. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir. Sekmeleriniz açık kalır.}other{Decentr # dakika boyunca kullanılmadığında kuruluşunuz tarama verilerini otomatik olarak siler. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir. Sekmeleriniz açık kalır.}}</translation>
+<translation id="2020032459870799438">Öteki şifrelerinizin veri ihlali ve diğer güvenlik sorunlarına karşı güvende olup olmadığını kontrol etmek için <ph name="BEGIN_LINK" />tomi'da oturum açın<ph name="END_LINK" />.</translation>
+<translation id="2049376729098081731">tomi hizmetlerinde daha fazla kişiselleştirilmiş deneyimden faydalanmak için tomi geçmişinin eklenip eklenmeyeceğini seçin</translation>
+<translation id="2086476982681781442">Dosya yanıltıcı olduğu ve cihazınızda beklenmeyen değişiklikler yapabileceği için tomi bu indirme işlemini engelledi</translation>
+<translation id="2088953378266246249">tomi'un kök sertifikalarını nasıl yönettiği hakkında bilgi</translation>
+<translation id="2120965832000301375">{COUNT,plural, =1{tomi 1 dakika boyunca kullanılmadığında kuruluşunuz tarama verilerini otomatik olarak siler. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir. Sekmeleriniz açık kalır.}other{tomi # dakika boyunca kullanılmadığında kuruluşunuz tarama verilerini otomatik olarak siler. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir. Sekmeleriniz açık kalır.}}</translation>
 <translation id="2126108037660393668">İndirilen dosya doğrulanamadı.</translation>
-<translation id="215352261310130060">Sitede güvenli bağlantı kullanılmadığı ve dosya üzerinde oynanmış olabileceği için Decentr bu indirme işlemini engelledi</translation>
-<translation id="2157600032285353789">Yer işaretlerini, okuma modunu ve daha fazlasını Decentr menüsünden açabilirsiniz</translation>
-<translation id="2174178932569897599">Decentr'u özelleştir</translation>
+<translation id="215352261310130060">Sitede güvenli bağlantı kullanılmadığı ve dosya üzerinde oynanmış olabileceği için tomi bu indirme işlemini engelledi</translation>
+<translation id="2157600032285353789">Yer işaretlerini, okuma modunu ve daha fazlasını tomi menüsünden açabilirsiniz</translation>
+<translation id="2174178932569897599">tomi'u özelleştir</translation>
 <translation id="2174917724755363426">Yükleme işlemi tamamlanmadı. İptal etmek istediğinizden emin misiniz?</translation>
-<translation id="2185166961232948079">Decentr - Ağda Oturum Açın - <ph name="PAGE_TITLE" /></translation>
+<translation id="2185166961232948079">tomi - Ağda Oturum Açın - <ph name="PAGE_TITLE" /></translation>
 <translation id="2190166659037789668">Güncelleme denetimi hatası: <ph name="UPDATE_CHECK_ERROR" />.</translation>
-<translation id="2199210295479376551">Hesabı Decentr'dan kaldır</translation>
-<translation id="2210682093923538346">Tehlikeli site. Decentr, bildirimleri kaldırdı.</translation>
-<translation id="2240214816234246077">Son zamanlarda ziyaret etmediniz. Decentr; <ph name="PERMISSION_1" /> ve <ph name="PERMISSION_2" /> iznini kaldırdı.</translation>
-<translation id="2241627712206172106">Bir bilgisayarı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve Decentr'u tam olarak istedikleri şekilde ayarlayabilir.</translation>
-<translation id="2313870531055795960">URL'leri, Decentr'da kayıtlı güvenli olmayan siteler listesine göre kontrol eder. Decentr, bir sitenin şifrenizi çalmaya çalışması veya zararlı bir dosya indirmeniz halinde de Güvenli Tarama'ya sayfa içeriğinden parçalarla birlikte URL'ler gönderebilir.</translation>
-<translation id="2329088755516916767">Decentr, bu ayar açıkken sayfaları önceden yükleyerek internette gezinme ve arama işlemlerini hızlandırır.</translation>
-<translation id="2343156876103232566">Buradan Android telefonunuza numara göndermek için iki cihazdan da Decentr'da oturum açın.</translation>
+<translation id="2199210295479376551">Hesabı tomi'dan kaldır</translation>
+<translation id="2210682093923538346">Tehlikeli site. tomi, bildirimleri kaldırdı.</translation>
+<translation id="2240214816234246077">Son zamanlarda ziyaret etmediniz. tomi; <ph name="PERMISSION_1" /> ve <ph name="PERMISSION_2" /> iznini kaldırdı.</translation>
+<translation id="2241627712206172106">Bir bilgisayarı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve tomi'u tam olarak istedikleri şekilde ayarlayabilir.</translation>
+<translation id="2313870531055795960">URL'leri, tomi'da kayıtlı güvenli olmayan siteler listesine göre kontrol eder. tomi, bir sitenin şifrenizi çalmaya çalışması veya zararlı bir dosya indirmeniz halinde de Güvenli Tarama'ya sayfa içeriğinden parçalarla birlikte URL'ler gönderebilir.</translation>
+<translation id="2329088755516916767">tomi, bu ayar açıkken sayfaları önceden yükleyerek internette gezinme ve arama işlemlerini hızlandırır.</translation>
+<translation id="2343156876103232566">Buradan Android telefonunuza numara göndermek için iki cihazdan da tomi'da oturum açın.</translation>
 <translation id="2359808026110333948">Devam</translation>
-<translation id="2361918034042471035">"<ph name="EXTENSION_NAME" />" uzantısı, Decentr'da oturum açmanızı istiyor</translation>
-<translation id="2374216753258219393">Bu uzantıyı <ph name="USER_EMAIL_ADDRESS" /> olarak kullanmak için Decentr'da oturum açın.</translation>
-<translation id="2384373936468275798">Hesap oturum açma ayrıntılarınız güncel olmadığından DecentrOS, verilerinizi senkronize edemedi.</translation>
-<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{Bir veya daha fazla Decentr uzantısı, 1 insan arabirim cihazına erişiyordu}=1{Bir veya daha fazla Decentr uzantısı, 1 insan arabirim cihazına erişiyor}other{Bir veya daha fazla Decentr uzantısı, # insan arabirim cihazına erişiyor}}</translation>
-<translation id="2401032172288869980">Bu site için Decentr'un kamera ve mikrofon izinlerine ihtiyacı var</translation>
-<translation id="2440750600860946460"><ph name="BEGIN_LINK" />Decentr araçları<ph name="END_LINK" /> ile güvenli bir şekilde göz atabilir ve kontrolü elinizde tutabilirsiniz</translation>
+<translation id="2361918034042471035">"<ph name="EXTENSION_NAME" />" uzantısı, tomi'da oturum açmanızı istiyor</translation>
+<translation id="2374216753258219393">Bu uzantıyı <ph name="USER_EMAIL_ADDRESS" /> olarak kullanmak için tomi'da oturum açın.</translation>
+<translation id="2384373936468275798">Hesap oturum açma ayrıntılarınız güncel olmadığından tomiOS, verilerinizi senkronize edemedi.</translation>
+<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{Bir veya daha fazla tomi uzantısı, 1 insan arabirim cihazına erişiyordu}=1{Bir veya daha fazla tomi uzantısı, 1 insan arabirim cihazına erişiyor}other{Bir veya daha fazla tomi uzantısı, # insan arabirim cihazına erişiyor}}</translation>
+<translation id="2401032172288869980">Bu site için tomi'un kamera ve mikrofon izinlerine ihtiyacı var</translation>
+<translation id="2440750600860946460"><ph name="BEGIN_LINK" />tomi araçları<ph name="END_LINK" /> ile güvenli bir şekilde göz atabilir ve kontrolü elinizde tutabilirsiniz</translation>
 <translation id="2451727308784734061">Şifre Yöneticisi'ne hızlıca gitmek için kısayolunuzu kullanın. Kısayolunuzu bilgisayarınızın ana ekranına veya uygulama başlatıcıya taşıyabilirsiniz.</translation>
-<translation id="2478295928299953161">Decentr yakında kapanacak</translation>
-<translation id="2483889755041906834">Decentr'da</translation>
+<translation id="2478295928299953161">tomi yakında kapanacak</translation>
+<translation id="2483889755041906834">tomi'da</translation>
 <translation id="2485422356828889247">Kaldır</translation>
 <translation id="2513154137948333830">Yeniden başlatma gerekiyor: <ph name="INSTALL_SUCCESS" /></translation>
-<translation id="2554739539410784893">Decentr mevcut şifreleri değiştirmeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
-<translation id="2560420686485554789">Dosya indirmek için Decentr'un depolama alanına erişmesi gerekiyor</translation>
-<translation id="2572494885440352020">Decentr Yardımcısı</translation>
-<translation id="2576118232315942160">Şifrelerinizi ve diğer öğelerinizi tüm cihazlarınızda kullanmak için Decentr'da oturum açın</translation>
-<translation id="2583187216237139145">Bu profil kullanılırken oluşturulan tüm Decentr verileri (yer işaretleri, geçmiş, şifreler ve diğer ayarlar gibi) iş profili yöneticisi tarafından kaldırılabilir. <ph name="LEARN_MORE" /></translation>
-<translation id="2592940277904433508">Decentr'u kullanmaya devam et</translation>
+<translation id="2554739539410784893">tomi mevcut şifreleri değiştirmeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
+<translation id="2560420686485554789">Dosya indirmek için tomi'un depolama alanına erişmesi gerekiyor</translation>
+<translation id="2572494885440352020">tomi Yardımcısı</translation>
+<translation id="2576118232315942160">Şifrelerinizi ve diğer öğelerinizi tüm cihazlarınızda kullanmak için tomi'da oturum açın</translation>
+<translation id="2583187216237139145">Bu profil kullanılırken oluşturulan tüm tomi verileri (yer işaretleri, geçmiş, şifreler ve diğer ayarlar gibi) iş profili yöneticisi tarafından kaldırılabilir. <ph name="LEARN_MORE" /></translation>
+<translation id="2592940277904433508">tomi'u kullanmaya devam et</translation>
 <translation id="259935314519650377">İndirilen yükleyici önbelleğe alınamadı. Hata: <ph name="UNPACK_CACHING_ERROR_CODE" />.</translation>
-<translation id="264613044588233783">Decentr daha hızlı çalışır ve JavaScript kullanan özellikler tasarlandığı şekilde çalışır (önerilir)</translation>
-<translation id="2648074677641340862">Yükleme sırasında bir işletim sistemi hatası oluştu. Lütfen Decentr'u yeniden indirin.</translation>
-<translation id="2661879430930417727">Bir cihazı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve Decentr'u tam olarak istedikleri şekilde ayarlayabilirler.</translation>
-<translation id="268602741124540128">Decentr'a hoş geldiniz <ph name="ACCOUNT_FIRST_NAME" />.</translation>
-<translation id="2711502716910134313">Decentr Sekmesi</translation>
-<translation id="2718390899429598676">Decentr ek güvenlik için verilerinizi şifreler.</translation>
-<translation id="2721354645805494590">Decentr Hesabınızı Decentr'dan kaldırmak için oturumu kapatın</translation>
+<translation id="264613044588233783">tomi daha hızlı çalışır ve JavaScript kullanan özellikler tasarlandığı şekilde çalışır (önerilir)</translation>
+<translation id="2648074677641340862">Yükleme sırasında bir işletim sistemi hatası oluştu. Lütfen tomi'u yeniden indirin.</translation>
+<translation id="2661879430930417727">Bir cihazı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve tomi'u tam olarak istedikleri şekilde ayarlayabilirler.</translation>
+<translation id="268602741124540128">tomi'a hoş geldiniz <ph name="ACCOUNT_FIRST_NAME" />.</translation>
+<translation id="2711502716910134313">tomi Sekmesi</translation>
+<translation id="2718390899429598676">tomi ek güvenlik için verilerinizi şifreler.</translation>
+<translation id="2721354645805494590">tomi Hesabınızı tomi'dan kaldırmak için oturumu kapatın</translation>
 <translation id="2738871930057338499">İnternet'e bağlanılamadı. HTTP 403 Yasak. Lütfen proxy yapılandırmanızı kontrol edin.</translation>
 <translation id="2770231113462710648">Varsayılan tarayıcıyı şuna dönüştür:</translation>
-<translation id="2785438272836277133">Bu uzantı kötü amaçlı yazılım içerdiği için güvenli değil. Kişisel bilgileriniz de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı Decentr'dan kaldırın.</translation>
+<translation id="2785438272836277133">Bu uzantı kötü amaçlı yazılım içerdiği için güvenli değil. Kişisel bilgileriniz de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı tomi'dan kaldırın.</translation>
 <translation id="2799223571221894425">Yeniden başlat</translation>
-<translation id="2837693172913560447">Bu işlem, <ph name="USER_EMAIL_ADDRESS" /> için yeni bir Decentr profili oluşturacak</translation>
+<translation id="2837693172913560447">Bu işlem, <ph name="USER_EMAIL_ADDRESS" /> için yeni bir tomi profili oluşturacak</translation>
 <translation id="2846251086934905009">Yükleme hatası: Yükleyici tamamlanmadı. Yükleme işlemi iptal edildi.</translation>
-<translation id="2847479871509788944">Decentr'dan kaldır...</translation>
-<translation id="2850691299438350830">Decentr'da güvende kalmanızı sağlar ve oturum açtığınızda diğer Decentr uygulamalarında güvenliğinizi artırmak için kullanılabilir.</translation>
+<translation id="2847479871509788944">tomi'dan kaldır...</translation>
+<translation id="2850691299438350830">tomi'da güvende kalmanızı sağlar ve oturum açtığınızda diğer tomi uygulamalarında güvenliğinizi artırmak için kullanılabilir.</translation>
 <translation id="2885378588091291677">Görev Yöneticisi</translation>
-<translation id="2910007522516064972">&amp;Decentr hakkında</translation>
+<translation id="2910007522516064972">&amp;tomi hakkında</translation>
 <translation id="2915996080311180594">Daha Sonra Yeniden Başlat</translation>
 <translation id="2928420929544864228">Yükleme tamamlandı.</translation>
 <translation id="2945997411976714835">Yükleme hatası: Yükleyici işlemi başlatılamadı.</translation>
-<translation id="2970426615109535079">Decentr'u kuruluşunuz yönetiyor</translation>
-<translation id="2977470724722393594">Decentr güncel durumda</translation>
-<translation id="2977506796191543575">Decentr, bir sitenin şifrenizi çalmaya çalışması veya zararlı bir dosya indirmeniz halinde de Güvenli Tarama'ya sayfa içeriğinden parçalarla birlikte URL'ler gönderebilir.</translation>
-<translation id="2987208172821108655">Decentr, göz atma deneyiminizi iyileştirmek ve kaynaklarda yer açmak için aşağıdaki sekmeleri devre dışı bırakabilir.</translation>
-<translation id="3013473503895162900"><ph name="URL" /> adresini Decentr'da yeni bir sekmede açar.</translation>
-<translation id="3032706164202344641">Decentr, şifrelerinizi kontrol edemiyor. Daha sonra tekrar deneyin.</translation>
-<translation id="3032787606318309379">Decentr'a ekleniyor ...</translation>
+<translation id="2970426615109535079">tomi'u kuruluşunuz yönetiyor</translation>
+<translation id="2977470724722393594">tomi güncel durumda</translation>
+<translation id="2977506796191543575">tomi, bir sitenin şifrenizi çalmaya çalışması veya zararlı bir dosya indirmeniz halinde de Güvenli Tarama'ya sayfa içeriğinden parçalarla birlikte URL'ler gönderebilir.</translation>
+<translation id="2987208172821108655">tomi, göz atma deneyiminizi iyileştirmek ve kaynaklarda yer açmak için aşağıdaki sekmeleri devre dışı bırakabilir.</translation>
+<translation id="3013473503895162900"><ph name="URL" /> adresini tomi'da yeni bir sekmede açar.</translation>
+<translation id="3032706164202344641">tomi, şifrelerinizi kontrol edemiyor. Daha sonra tekrar deneyin.</translation>
+<translation id="3032787606318309379">tomi'a ekleniyor ...</translation>
 <translation id="3038232873781883849">Yüklenmesi bekleniyor...</translation>
-<translation id="3068187312562070417">Diğer Decentr profilleri</translation>
-<translation id="3068515742935458733">Kilitlenme raporlarını ve <ph name="UMA_LINK" /> bilgilerini Decentr'a göndererek, Decentr'u daha iyi hale getirmeye yardımcı olun</translation>
-<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Bir veya daha fazla Decentr uzantısı, 1 USB cihazına erişiyordu}=1{Bir veya daha fazla Decentr uzantısı, 1 USB cihazına erişiyor}other{Bir veya daha fazla Decentr uzantısı, # USB cihazına erişiyor}}</translation>
-<translation id="3101560983689755071">Tarama geçmişiniz gördüğünüz reklamları ve aşağıdaki şekilde tahmin edilen ilgi alanlarınızı etkiler. Decentr, gizliliğinizi korumak için ilgi alanlarınızı her ay sürekli olarak siler. Silme işlemi otomatik olarak gerçekleştirilir. Kaldırmadığınız sürece ilgi alanlarınız yenilenmeye devam edebilir.</translation>
-<translation id="3103660991484857065">Yükleyici sıkıştırılmış arşivi açamadı. Lütfen Decentr'u yeniden indirin.</translation>
-<translation id="3130323860337406239">Decentr mikrofonunuzu kullanıyor.</translation>
-<translation id="3144188012276422546">Bu sekme ekstra kaynak kullanıyor. Performansınızı artırmak için Decentr'un bu sekmeleri devre dışı bırakmasına izin verin.</translation>
-<translation id="3155163173539279776">Decentr'u Yeniden Başlat</translation>
-<translation id="3179665906251668410">Bağlantıyı Decentr &amp;Gizli Penceresinde Aç</translation>
-<translation id="3185330573522821672">Yeni Decentr profilinizi özelleştirin</translation>
-<translation id="3190315855212034486">Hata! Decentr kilitlendi. Yeniden başlatılsın mı?</translation>
-<translation id="3224847870593914902">Decentr Hesabınızı Decentr'dan kaldırmak için Ayarlar sayfasında Decentr oturumunu kapatın</translation>
-<translation id="3258596308407688501">Decentr veri dizini üzerinde okuma ve yazma işlemi yapamıyor: <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="3268051428841342958">Decentr'un JavaScript ve WebAssembly motoru olan V8, site performansını iyileştirmek için kullanılır</translation>
-<translation id="3283186697780795848">Decentr sürümü <ph name="PRODUCT_VERSION" /> yüklendi</translation>
+<translation id="3068187312562070417">Diğer tomi profilleri</translation>
+<translation id="3068515742935458733">Kilitlenme raporlarını ve <ph name="UMA_LINK" /> bilgilerini tomi'a göndererek, tomi'u daha iyi hale getirmeye yardımcı olun</translation>
+<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Bir veya daha fazla tomi uzantısı, 1 USB cihazına erişiyordu}=1{Bir veya daha fazla tomi uzantısı, 1 USB cihazına erişiyor}other{Bir veya daha fazla tomi uzantısı, # USB cihazına erişiyor}}</translation>
+<translation id="3101560983689755071">Tarama geçmişiniz gördüğünüz reklamları ve aşağıdaki şekilde tahmin edilen ilgi alanlarınızı etkiler. tomi, gizliliğinizi korumak için ilgi alanlarınızı her ay sürekli olarak siler. Silme işlemi otomatik olarak gerçekleştirilir. Kaldırmadığınız sürece ilgi alanlarınız yenilenmeye devam edebilir.</translation>
+<translation id="3103660991484857065">Yükleyici sıkıştırılmış arşivi açamadı. Lütfen tomi'u yeniden indirin.</translation>
+<translation id="3130323860337406239">tomi mikrofonunuzu kullanıyor.</translation>
+<translation id="3144188012276422546">Bu sekme ekstra kaynak kullanıyor. Performansınızı artırmak için tomi'un bu sekmeleri devre dışı bırakmasına izin verin.</translation>
+<translation id="3155163173539279776">tomi'u Yeniden Başlat</translation>
+<translation id="3179665906251668410">Bağlantıyı tomi &amp;Gizli Penceresinde Aç</translation>
+<translation id="3185330573522821672">Yeni tomi profilinizi özelleştirin</translation>
+<translation id="3190315855212034486">Hata! tomi kilitlendi. Yeniden başlatılsın mı?</translation>
+<translation id="3224847870593914902">tomi Hesabınızı tomi'dan kaldırmak için Ayarlar sayfasında tomi oturumunu kapatın</translation>
+<translation id="3258596308407688501">tomi veri dizini üzerinde okuma ve yazma işlemi yapamıyor: <ph name="USER_DATA_DIRECTORY" /></translation>
+<translation id="3268051428841342958">tomi'un JavaScript ve WebAssembly motoru olan V8, site performansını iyileştirmek için kullanılır</translation>
+<translation id="3283186697780795848">tomi sürümü <ph name="PRODUCT_VERSION" /> yüklendi</translation>
 <translation id="3286538390144397061">Şimdi yeniden başlat</translation>
-<translation id="328888136576916638">Decentr API anahtarları eksik. Decentr'un bazı işlevleri devre dışı bırakılacak.</translation>
-<translation id="3296368748942286671">Decentr kapandığında arka plan uygulamaları çalıştırmaya devam et</translation>
-<translation id="3300643253493387004">Hesap erişimi ayarlanırken Decentr'u kullanmaya devam edebilirsiniz. Ayarlama işlemi tamamlanana kadar bazı kaynaklara erişemeyebilirsiniz.</translation>
-<translation id="3313189106987092621">Decentr, güvenli olmayan bağlantı kullanan siteleri yüklemeden önce sizi uyarır</translation>
-<translation id="3316771292331273802">Tüm Decentr pencerelerini kapattığınızda çoğu sitedeki oturumunuz kapatılır. Decentr'da oturum açtıysanız Decentr Hesabınız buna dahil değildir. Sitelerin sizi hatırlamasını sağlamak için <ph name="SETTINGS_LINK" />.</translation>
-<translation id="3350761136195634146">Bu hesaba sahip bir Decentr profili zaten var</translation>
-<translation id="3387527074123400161">DecentrOS</translation>
-<translation id="3406848076815591792">Mevcut Decentr profiline geçilsin mi?</translation>
+<translation id="328888136576916638">tomi API anahtarları eksik. tomi'un bazı işlevleri devre dışı bırakılacak.</translation>
+<translation id="3296368748942286671">tomi kapandığında arka plan uygulamaları çalıştırmaya devam et</translation>
+<translation id="3300643253493387004">Hesap erişimi ayarlanırken tomi'u kullanmaya devam edebilirsiniz. Ayarlama işlemi tamamlanana kadar bazı kaynaklara erişemeyebilirsiniz.</translation>
+<translation id="3313189106987092621">tomi, güvenli olmayan bağlantı kullanan siteleri yüklemeden önce sizi uyarır</translation>
+<translation id="3316771292331273802">Tüm tomi pencerelerini kapattığınızda çoğu sitedeki oturumunuz kapatılır. tomi'da oturum açtıysanız tomi Hesabınız buna dahil değildir. Sitelerin sizi hatırlamasını sağlamak için <ph name="SETTINGS_LINK" />.</translation>
+<translation id="3350761136195634146">Bu hesaba sahip bir tomi profili zaten var</translation>
+<translation id="3387527074123400161">tomiOS</translation>
+<translation id="3406848076815591792">Mevcut tomi profiline geçilsin mi?</translation>
 <translation id="3412460710772753638">Bu cihazdaki Şifre Yöneticisi'nde</translation>
-<translation id="3430503420100763906">Decentr profilleri ile tüm Decentr öğelerinizi ayırabilirsiniz. Arkadaşlar ve aile için profil oluşturun veya iş ile eğlenceyi ayırın.</translation>
-<translation id="347328004046849135">Decentr, güvenliği ihlal edilmiş bir şifreyle oturum açtığınızda size haber verir</translation>
-<translation id="3474745554856756813">Bu işlem, <ph name="ITEMS_COUNT" /> öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Decentr'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
-<translation id="3497319089134299931"><ph name="SHORTCUT" />, Decentr profilleri arasında geçiş yapabilir</translation>
-<translation id="3509308970982693815">Lütfen tüm Decentr pencerelerini kapatıp tekrar deneyin.</translation>
-<translation id="3530103706039034513"><ph name="EXISTING_USER" /> zaten oturum açmış durumda.  Göz atma işlemlerinizi ayrı tutmak için Decentr'da kendi profilinizde <ph name="USER_EMAIL_ADDRESS" /> olarak oturum açın.</translation>
-<translation id="3533435340678213462">Gizliliğinizi korumak için 4 haftadan eski ilgi alanlarınızı otomatik olarak sileriz. Siz internette gezindikçe ilgi alanları tekrar listede görünmeye başlayabilir. Dilerseniz Decentr'un dikkate almasını istemediğiniz ilgi alanlarını kaldırabilirsiniz.</translation>
-<translation id="3567254597502212821">Tarama geçmişiniz, bu cihazda Decentr'u kullanarak ziyaret ettiğiniz sitelerin kaydı.</translation>
+<translation id="3430503420100763906">tomi profilleri ile tüm tomi öğelerinizi ayırabilirsiniz. Arkadaşlar ve aile için profil oluşturun veya iş ile eğlenceyi ayırın.</translation>
+<translation id="347328004046849135">tomi, güvenliği ihlal edilmiş bir şifreyle oturum açtığınızda size haber verir</translation>
+<translation id="3474745554856756813">Bu işlem, <ph name="ITEMS_COUNT" /> öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için tomi'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
+<translation id="3497319089134299931"><ph name="SHORTCUT" />, tomi profilleri arasında geçiş yapabilir</translation>
+<translation id="3509308970982693815">Lütfen tüm tomi pencerelerini kapatıp tekrar deneyin.</translation>
+<translation id="3530103706039034513"><ph name="EXISTING_USER" /> zaten oturum açmış durumda.  Göz atma işlemlerinizi ayrı tutmak için tomi'da kendi profilinizde <ph name="USER_EMAIL_ADDRESS" /> olarak oturum açın.</translation>
+<translation id="3533435340678213462">Gizliliğinizi korumak için 4 haftadan eski ilgi alanlarınızı otomatik olarak sileriz. Siz internette gezindikçe ilgi alanları tekrar listede görünmeye başlayabilir. Dilerseniz tomi'un dikkate almasını istemediğiniz ilgi alanlarını kaldırabilirsiniz.</translation>
+<translation id="3567254597502212821">Tarama geçmişiniz, bu cihazda tomi'u kullanarak ziyaret ettiğiniz sitelerin kaydı.</translation>
 <translation id="3597003331831379823">Kurulum, üst düzey ayrıcalıklarla çalıştırılamadı. <ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3639635944603682591">Bu kullanıcının tarama verileri bu cihazdan silinecektir. Verileri kurtarmak için Decentr'da <ph name="USER_EMAIL" /> olarak oturum açın.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Decentr için yeni bir güncelleme var. Yeniden başlattığınızda güncelleme hemen uygulanacaktır.}=1{Decentr için yeni bir güncelleme var. Yeniden başlattığınızda güncelleme hemen uygulanacaktır. Gizli pencereniz yeniden açılmayacak.}other{Decentr için yeni bir güncelleme var. Yeniden başlattığınızda güncelleme hemen uygulanacaktır. # Gizli pencereniz yeniden açılmayacak.}}</translation>
-<translation id="3651803019964686660"><ph name="ORIGIN" /> sitesinden Android telefonunuza numara göndermek için iki cihazdan da Decentr'da oturum açın.</translation>
+<translation id="3639635944603682591">Bu kullanıcının tarama verileri bu cihazdan silinecektir. Verileri kurtarmak için tomi'da <ph name="USER_EMAIL" /> olarak oturum açın.</translation>
+<translation id="364817392622123556">{COUNT,plural, =0{tomi için yeni bir güncelleme var. Yeniden başlattığınızda güncelleme hemen uygulanacaktır.}=1{tomi için yeni bir güncelleme var. Yeniden başlattığınızda güncelleme hemen uygulanacaktır. Gizli pencereniz yeniden açılmayacak.}other{tomi için yeni bir güncelleme var. Yeniden başlattığınızda güncelleme hemen uygulanacaktır. # Gizli pencereniz yeniden açılmayacak.}}</translation>
+<translation id="3651803019964686660"><ph name="ORIGIN" /> sitesinden Android telefonunuza numara göndermek için iki cihazdan da tomi'da oturum açın.</translation>
 <translation id="3667616615096815454">Uygulama, sunucu tarafından bilinmediği için yüklenemedi.</translation>
-<translation id="3669334504579945026">Ekranınızı paylaşmak için Sistem Tercihleri'nde Decentr'un ekranı kaydetmesine izin verin.</translation>
-<translation id="3685209450716071127">Decentr, şifrelerinizi kontrol edemiyor. İnternet bağlantınızı kontrol etmeyi deneyin.</translation>
-<translation id="3702352323269013324">Decentr'da reklam kişiselleştirme hakkında daha fazla bilgi edinin</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Yöneticiniz bu güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı istiyor}=1{Yöneticiniz bu güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı istiyor. Gizli pencereniz yeniden açılmayacak.}other{Yöneticiniz bu güncellemeyi uygulamak için Decentr'u yeniden başlatmanızı istiyor. # Gizli pencereniz yeniden açılmayacak.}}</translation>
-<translation id="3713809861844741608">Bağlantıyı yeni Decentr &amp;sekmesinde aç</translation>
-<translation id="3728124580182886854">Kişiselleştirme ve diğer amaçlar için Decentr ile diğer Decentr hizmetlerini bağlayın</translation>
-<translation id="3788675262216168505">Decentr Profillerini Yönetin</translation>
-<translation id="3790262771324122253">Decentr'un bazı indirme işlemlerini neden engellediğini öğrenin</translation>
-<translation id="379589255253486813">Decentr, incelemeniz gereken bir konu varsa sizi bilgilendirir</translation>
-<translation id="3802055581630249637">Decentr, ziyaret etme olasılığınızın yüksek olduğu sayfaları önceden yükleyerek bu sayfaları ziyaret ettiğinizde daha hızlı yüklenmelerini sağlar.</translation>
-<translation id="3830894615770080216">DecentrOS sistemi</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Decentr</translation>
-<translation id="386822487697155367">DecentrOS ile ilgili yardım alın</translation>
-<translation id="3871664619793219264"><ph name="ACCOUNT_EMAIL" /> hesabından Decentr tarayıcı öğelerinizi alın</translation>
-<translation id="388648406173476553">Decentr'u özelleştirin ve kontrol edin. İlgilenmeniz gereken bir konu var. Ayrıntılar için tıklayın.</translation>
-<translation id="3889543394854987837">Decentr'u açmak ve göz atmaya başlamak için adınızı tıklayın.</translation>
-<translation id="390528597099634151"><ph name="EXISTING_USER" /> kullanıcısının oturumu halihazırda bu Decentr profilinde açık. Göz atma işlemlerinizi ayrı tutmak isterseniz Decentr, sizin için kendi profilinizi oluşturabilir.</translation>
-<translation id="3909353120217047026">Bu uzantı Decentr Web Mağazası politikasını ihlal ettiği için güvenli olmayabilir. Kişisel bilgileriniz de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı Decentr'dan kaldırın.</translation>
-<translation id="391789666908693569">Hesabınız <ph name="MANAGER_NAME" /> tarafından yönetiliyor. Yöneticiniz bu Decentr tarayıcı profilinin yanı sıra yer işaretleri, geçmiş ve şifreler gibi verilerini görüntüleyip düzenleyebilir.</translation>
+<translation id="3669334504579945026">Ekranınızı paylaşmak için Sistem Tercihleri'nde tomi'un ekranı kaydetmesine izin verin.</translation>
+<translation id="3685209450716071127">tomi, şifrelerinizi kontrol edemiyor. İnternet bağlantınızı kontrol etmeyi deneyin.</translation>
+<translation id="3702352323269013324">tomi'da reklam kişiselleştirme hakkında daha fazla bilgi edinin</translation>
+<translation id="370962675267501463">{COUNT,plural, =0{Yöneticiniz bu güncellemeyi uygulamak için tomi'u yeniden başlatmanızı istiyor}=1{Yöneticiniz bu güncellemeyi uygulamak için tomi'u yeniden başlatmanızı istiyor. Gizli pencereniz yeniden açılmayacak.}other{Yöneticiniz bu güncellemeyi uygulamak için tomi'u yeniden başlatmanızı istiyor. # Gizli pencereniz yeniden açılmayacak.}}</translation>
+<translation id="3713809861844741608">Bağlantıyı yeni tomi &amp;sekmesinde aç</translation>
+<translation id="3728124580182886854">Kişiselleştirme ve diğer amaçlar için tomi ile diğer tomi hizmetlerini bağlayın</translation>
+<translation id="3788675262216168505">tomi Profillerini Yönetin</translation>
+<translation id="3790262771324122253">tomi'un bazı indirme işlemlerini neden engellediğini öğrenin</translation>
+<translation id="379589255253486813">tomi, incelemeniz gereken bir konu varsa sizi bilgilendirir</translation>
+<translation id="3802055581630249637">tomi, ziyaret etme olasılığınızın yüksek olduğu sayfaları önceden yükleyerek bu sayfaları ziyaret ettiğinizde daha hızlı yüklenmelerini sağlar.</translation>
+<translation id="3830894615770080216">tomiOS sistemi</translation>
+<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - tomi</translation>
+<translation id="386822487697155367">tomiOS ile ilgili yardım alın</translation>
+<translation id="3871664619793219264"><ph name="ACCOUNT_EMAIL" /> hesabından tomi tarayıcı öğelerinizi alın</translation>
+<translation id="388648406173476553">tomi'u özelleştirin ve kontrol edin. İlgilenmeniz gereken bir konu var. Ayrıntılar için tıklayın.</translation>
+<translation id="3889543394854987837">tomi'u açmak ve göz atmaya başlamak için adınızı tıklayın.</translation>
+<translation id="390528597099634151"><ph name="EXISTING_USER" /> kullanıcısının oturumu halihazırda bu tomi profilinde açık. Göz atma işlemlerinizi ayrı tutmak isterseniz tomi, sizin için kendi profilinizi oluşturabilir.</translation>
+<translation id="3909353120217047026">Bu uzantı tomi Web Mağazası politikasını ihlal ettiği için güvenli olmayabilir. Kişisel bilgileriniz de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı tomi'dan kaldırın.</translation>
+<translation id="391789666908693569">Hesabınız <ph name="MANAGER_NAME" /> tarafından yönetiliyor. Yöneticiniz bu tomi tarayıcı profilinin yanı sıra yer işaretleri, geçmiş ve şifreler gibi verilerini görüntüleyip düzenleyebilir.</translation>
 <translation id="3941890832296813527">Yükleme hatası: Yükleyici dosya adı geçersiz veya desteklenmiyor.</translation>
-<translation id="3945058413678539331">Decentr şifreleri kopyalamaya çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
-<translation id="3962647064319009959">Decentr'un güvenliğinizi nasıl sağladığını öğrenin</translation>
-<translation id="3975724895399328945">&amp;Decentr for Testing hakkında</translation>
-<translation id="3997429360543082038">DecentrOS hakkında</translation>
-<translation id="4019629340646866719">DecentrOS, <ph name="BEGIN_LINK_LINUX_OSS" />Linux geliştirme ortamında<ph name="END_LINK_LINUX_OSS" /> olduğu gibi ek <ph name="BEGIN_LINK_CROS_OSS" />açık kaynak yazılımlardan<ph name="END_LINK_CROS_OSS" /> yararlanılarak geliştirilmiştir.</translation>
-<translation id="4036079820698952681"><ph name="BEGIN_LINK" />Mevcut ayarlarınızı<ph name="END_LINK" /> bildirerek Decentr'u daha iyi hale getirmemize yardımcı olun</translation>
+<translation id="3945058413678539331">tomi şifreleri kopyalamaya çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
+<translation id="3962647064319009959">tomi'un güvenliğinizi nasıl sağladığını öğrenin</translation>
+<translation id="3975724895399328945">&amp;tomi for Testing hakkında</translation>
+<translation id="3997429360543082038">tomiOS hakkında</translation>
+<translation id="4019629340646866719">tomiOS, <ph name="BEGIN_LINK_LINUX_OSS" />Linux geliştirme ortamında<ph name="END_LINK_LINUX_OSS" /> olduğu gibi ek <ph name="BEGIN_LINK_CROS_OSS" />açık kaynak yazılımlardan<ph name="END_LINK_CROS_OSS" /> yararlanılarak geliştirilmiştir.</translation>
+<translation id="4036079820698952681"><ph name="BEGIN_LINK" />Mevcut ayarlarınızı<ph name="END_LINK" /> bildirerek tomi'u daha iyi hale getirmemize yardımcı olun</translation>
 <translation id="4050175100176540509">Son sürümde güvenlikle ilgili önemli iyileştirmeler ve yeni özellikler mevcuttur.</translation>
 <translation id="4055805654398742145">Ş&amp;ifre Yöneticisi</translation>
-<translation id="4095980151185649725">{COUNT,plural, =1{Kuruluşunuz, 1 dakika kullanılmadığında Decentr'u otomatik olarak kapatır. Tarama verileri silinir. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.}other{Kuruluşunuz, # dakika kullanılmadığında Decentr'u otomatik olarak kapatır. Tarama verileri silinir. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.}}</translation>
-<translation id="4118474109249235144">Decentr Gizli Modu</translation>
-<translation id="4122186850977583290">Decentr hakkında sayfasına gidin</translation>
+<translation id="4095980151185649725">{COUNT,plural, =1{Kuruluşunuz, 1 dakika kullanılmadığında tomi'u otomatik olarak kapatır. Tarama verileri silinir. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.}other{Kuruluşunuz, # dakika kullanılmadığında tomi'u otomatik olarak kapatır. Tarama verileri silinir. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.}}</translation>
+<translation id="4118474109249235144">tomi Gizli Modu</translation>
+<translation id="4122186850977583290">tomi hakkında sayfasına gidin</translation>
 <translation id="4148957013307229264">Yükleniyor...</translation>
-<translation id="4149336151887611710">Kuruluşunuz; iş profilinizdeki yer işaretleri, geçmiş ve şifreler gibi tarama verilerini görüp yönetebilir. Kişisel Decentr profillerindeki tarama verilerini göremez.</translation>
-<translation id="419998258129752635"><ph name="PAGE_TITLE" /> - Ağda Oturum Açın - Decentr</translation>
-<translation id="421369550622382712">Decentr'a özgü harika uygulamaları, oyunları, uzantıları ve temaları keşfedin.</translation>
-<translation id="4216212958613226427">Bu dil, Decentr kullanıcı arayüzünü görüntülemek için kullanılır</translation>
+<translation id="4149336151887611710">Kuruluşunuz; iş profilinizdeki yer işaretleri, geçmiş ve şifreler gibi tarama verilerini görüp yönetebilir. Kişisel tomi profillerindeki tarama verilerini göremez.</translation>
+<translation id="419998258129752635"><ph name="PAGE_TITLE" /> - Ağda Oturum Açın - tomi</translation>
+<translation id="421369550622382712">tomi'a özgü harika uygulamaları, oyunları, uzantıları ve temaları keşfedin.</translation>
+<translation id="4216212958613226427">Bu dil, tomi kullanıcı arayüzünü görüntülemek için kullanılır</translation>
 <translation id="4222932583846282852">İptal ediliyor...</translation>
 <translation id="4224210481850767180">Yükleme işlemi iptal edildi.</translation>
-<translation id="4230135487732243613">Decentr verileriniz bu hesaba bağlansın mı?</translation>
-<translation id="4251772536351901305">Standart korumaya ek olarak sitelerden alınmış daha fazla veriyi analiz ederek Decentr'ın daha önce bilmedikleri de dahil olmak üzere tehlikeli siteler hakkında sizi uyarır. Decentr uyarılarını atlamayı seçebilirsiniz.</translation>
-<translation id="4269093074552541569">Decentr oturumunu kapatın</translation>
-<translation id="4271805377592243930">Decentr'la ilgili yardım alın</translation>
+<translation id="4230135487732243613">tomi verileriniz bu hesaba bağlansın mı?</translation>
+<translation id="4251772536351901305">Standart korumaya ek olarak sitelerden alınmış daha fazla veriyi analiz ederek tomi'ın daha önce bilmedikleri de dahil olmak üzere tehlikeli siteler hakkında sizi uyarır. tomi uyarılarını atlamayı seçebilirsiniz.</translation>
+<translation id="4269093074552541569">tomi oturumunu kapatın</translation>
+<translation id="4271805377592243930">tomi'la ilgili yardım alın</translation>
 <translation id="4281844954008187215">Hizmet Şartları</translation>
-<translation id="4285930937574705105">Belirlenemeyen bir hata nedeniyle yükleme başarısız oldu. Decentr şu anda çalışır durumdaysa kapatıp yeniden deneyin.</translation>
+<translation id="4285930937574705105">Belirlenemeyen bir hata nedeniyle yükleme başarısız oldu. tomi şu anda çalışır durumdaysa kapatıp yeniden deneyin.</translation>
 <translation id="4304713468139749426">Şifre Yöneticisi</translation>
 <translation id="4334294535648607276">İndirme işlemi tamamlandı.</translation>
-<translation id="439358628917130594"><ph name="MANAGER" />, bu cihazı kullanmadan önce aşağıdaki Hizmet Şartları'nı okuyup kabul etmenizi zorunlu tutmaktadır. Bu şartlar, DecentrOS Şartları'nın kapsamını genişletmez, değiştirmez veya sınırlamaz.</translation>
-<translation id="4407044323746248786">Yine de Decentr'dan çıkılsın mı?</translation>
-<translation id="4415566066719264597">Decentr'un Arka Planda Çalışmasına İzin Ver</translation>
-<translation id="4419831163359812184">{NUM_EXTENSIONS,plural, =1{Decentr bunu kaldırmanızı öneriyor. <ph name="BEGIN_LINK" />Desteklenen uzantılar hakkında daha fazla bilgi edinin.<ph name="END_LINK" />}other{Decentr bunları kaldırmanızı öneriyor. <ph name="BEGIN_LINK" />Desteklenen uzantılar hakkında daha fazla bilgi edinin.<ph name="END_LINK" />}}</translation>
-<translation id="4423735387467980091">Decentr'u özelleştirin ve kontrol edin</translation>
+<translation id="439358628917130594"><ph name="MANAGER" />, bu cihazı kullanmadan önce aşağıdaki Hizmet Şartları'nı okuyup kabul etmenizi zorunlu tutmaktadır. Bu şartlar, tomiOS Şartları'nın kapsamını genişletmez, değiştirmez veya sınırlamaz.</translation>
+<translation id="4407044323746248786">Yine de tomi'dan çıkılsın mı?</translation>
+<translation id="4415566066719264597">tomi'un Arka Planda Çalışmasına İzin Ver</translation>
+<translation id="4419831163359812184">{NUM_EXTENSIONS,plural, =1{tomi bunu kaldırmanızı öneriyor. <ph name="BEGIN_LINK" />Desteklenen uzantılar hakkında daha fazla bilgi edinin.<ph name="END_LINK" />}other{tomi bunları kaldırmanızı öneriyor. <ph name="BEGIN_LINK" />Desteklenen uzantılar hakkında daha fazla bilgi edinin.<ph name="END_LINK" />}}</translation>
+<translation id="4423735387467980091">tomi'u özelleştirin ve kontrol edin</translation>
 <translation id="4427306783828095590">Gelişmiş koruma, kimlik avını ve kötü amaçlı yazılımları engellemek için daha fazla özellik sunar</translation>
 <translation id="4434353761996769206">Yükleyici hatası: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438870983368648614">Decentr'u <ph name="MANAGER" /> yönetiyor</translation>
-<translation id="4447409407328223819">Decentr for Testing hakkında</translation>
+<translation id="4438870983368648614">tomi'u <ph name="MANAGER" /> yönetiyor</translation>
+<translation id="4447409407328223819">tomi for Testing hakkında</translation>
 <translation id="4501471624619070934">Bu ülkede erişim kısıtlandığı için yükleme başarısız oldu.</translation>
-<translation id="4510853178268397146">Bu uzantı, verileri nasıl topladığı ve kullandığı gibi gizlilik uygulamalarını yayınlamadı. Decentr bunu kaldırmanızı öneriyor.</translation>
-<translation id="452711251841752011">Decentr'a hoş geldiniz; yeni tarayıcı penceresi açıldı</translation>
-<translation id="4531137820806573936">Çevrenizin haritasını çıkarması ve ellerinizi takip etmesi için Decentr'a izin vermeniz gerekir.</translation>
-<translation id="4536805923587466102">Başka bir Decentr profilinde <ph name="USER_EMAIL_ADDRESS" /> olarak zaten oturum açmış durumdasınız.</translation>
-<translation id="4544142686420020088">Decentr güncellenmedi. Bir sorun oluştu. <ph name="BEGIN_LINK" />Decentr güncelleme sorunlarını ve başarısız güncellemeleri düzeltin.<ph name="END_LINK" /></translation>
-<translation id="4545268686623374213">Decentr, web'de gezinme deneyiminizi daha iyi hale getirmek ve her şeyin hızlı çalışmasını sağlamak için bu sekmeyi devre dışı bırakabilir.</translation>
-<translation id="454579500955453258">Yeni bir Decentr profilinde devam edilsin mi?</translation>
+<translation id="4510853178268397146">Bu uzantı, verileri nasıl topladığı ve kullandığı gibi gizlilik uygulamalarını yayınlamadı. tomi bunu kaldırmanızı öneriyor.</translation>
+<translation id="452711251841752011">tomi'a hoş geldiniz; yeni tarayıcı penceresi açıldı</translation>
+<translation id="4531137820806573936">Çevrenizin haritasını çıkarması ve ellerinizi takip etmesi için tomi'a izin vermeniz gerekir.</translation>
+<translation id="4536805923587466102">Başka bir tomi profilinde <ph name="USER_EMAIL_ADDRESS" /> olarak zaten oturum açmış durumdasınız.</translation>
+<translation id="4544142686420020088">tomi güncellenmedi. Bir sorun oluştu. <ph name="BEGIN_LINK" />tomi güncelleme sorunlarını ve başarısız güncellemeleri düzeltin.<ph name="END_LINK" /></translation>
+<translation id="4545268686623374213">tomi, web'de gezinme deneyiminizi daha iyi hale getirmek ve her şeyin hızlı çalışmasını sağlamak için bu sekmeyi devre dışı bırakabilir.</translation>
+<translation id="454579500955453258">Yeni bir tomi profilinde devam edilsin mi?</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> olarak oturum açtınız. Şimdi oturum açtığınız tüm cihazlarda yer işaretlerinize, geçmişinize ve diğer ayarlarınıza erişebilirsiniz.</translation>
-<translation id="4570813286784708942">Güvenli Tarama'yı devre dışı bıraktığınız ve dosya doğrulanamadığı için Decentr bu indirme işlemini engelledi</translation>
+<translation id="4570813286784708942">Güvenli Tarama'yı devre dışı bıraktığınız ve dosya doğrulanamadığı için tomi bu indirme işlemini engelledi</translation>
 <translation id="4594305310729380060">Bu cihazdaki Şifre Yöneticisi'ne</translation>
-<translation id="459535195905078186">Decentr Uygulamaları</translation>
-<translation id="4613863813562375431">DecentrOS sürümü</translation>
-<translation id="4617285639650863674">Ekranınızı paylaşmak için Sistem Tercihleri'nde Decentr'un ekranı kaydetmesine izin verin</translation>
-<translation id="4621240073146040695">Az kaldı! Güncellemeyi tamamlamak için Decentr'u yeniden başlatın.</translation>
-<translation id="4665829708273112819">Uyarı: Decentr, uzantıların tarama geçmişinizi kaydetmesini engelleyemez. Gizli modda bu uzantıyı devre dışı bırakmak için bu seçeneğin onay işaretini kaldırın.</translation>
-<translation id="4673151026126227699">Decentr kullanım raporlarını da paylaşıyorsanız, ziyaret ettiğiniz URL'ler de bu raporlar kapsamında paylaşılır</translation>
-<translation id="4677944499843243528">Profilin başka bir bilgisayarda (<ph name="HOST_NAME" />) başka bir Decentr işlemi (<ph name="PROCESS_ID" />) tarafından kullanıldığı anlaşılıyor. Decentr, profili bozulmaması için kilitledi. Bu profili başka hiçbir işlemin kullanmadığından eminseniz profilin kilidini açabilir ve Decentr'u tekrar başlatabilirsiniz.</translation>
+<translation id="459535195905078186">tomi Uygulamaları</translation>
+<translation id="4613863813562375431">tomiOS sürümü</translation>
+<translation id="4617285639650863674">Ekranınızı paylaşmak için Sistem Tercihleri'nde tomi'un ekranı kaydetmesine izin verin</translation>
+<translation id="4621240073146040695">Az kaldı! Güncellemeyi tamamlamak için tomi'u yeniden başlatın.</translation>
+<translation id="4665829708273112819">Uyarı: tomi, uzantıların tarama geçmişinizi kaydetmesini engelleyemez. Gizli modda bu uzantıyı devre dışı bırakmak için bu seçeneğin onay işaretini kaldırın.</translation>
+<translation id="4673151026126227699">tomi kullanım raporlarını da paylaşıyorsanız, ziyaret ettiğiniz URL'ler de bu raporlar kapsamında paylaşılır</translation>
+<translation id="4677944499843243528">Profilin başka bir bilgisayarda (<ph name="HOST_NAME" />) başka bir tomi işlemi (<ph name="PROCESS_ID" />) tarafından kullanıldığı anlaşılıyor. tomi, profili bozulmaması için kilitledi. Bu profili başka hiçbir işlemin kullanmadığından eminseniz profilin kilidini açabilir ve tomi'u tekrar başlatabilirsiniz.</translation>
 <translation id="4680828127924988555">Yüklemeyi İptal Et</translation>
-<translation id="469259825538636168">Decentr verilerinizden bazıları henüz Decentr Hesabınıza kaydedilmedi. Oturumunuzu kapatmadan önce birkaç dakika bekleyin. Oturumu şimdi kapatırsanız bu veriler silinir.</translation>
-<translation id="4708193446201257833">Oturumunuz açıkken Decentr'da Decentr Hesabınızdaki şifrelerinizi ve diğer öğeleri kullanabilirsiniz. <ph name="SHORTCUT" />, Decentr hizmetlerindeki ayarlarınızı değiştirebilir.</translation>
-<translation id="4708774505295300557">Birisi daha önce bu bilgisayarda <ph name="ACCOUNT_EMAIL_LAST" /> olarak Decentr oturumu açmış. Bilgilerinizi ayrı tutmak için yeni bir Decentr kullanıcısı oluşturun.</translation>
+<translation id="469259825538636168">tomi verilerinizden bazıları henüz tomi Hesabınıza kaydedilmedi. Oturumunuzu kapatmadan önce birkaç dakika bekleyin. Oturumu şimdi kapatırsanız bu veriler silinir.</translation>
+<translation id="4708193446201257833">Oturumunuz açıkken tomi'da tomi Hesabınızdaki şifrelerinizi ve diğer öğeleri kullanabilirsiniz. <ph name="SHORTCUT" />, tomi hizmetlerindeki ayarlarınızı değiştirebilir.</translation>
+<translation id="4708774505295300557">Birisi daha önce bu bilgisayarda <ph name="ACCOUNT_EMAIL_LAST" /> olarak tomi oturumu açmış. Bilgilerinizi ayrı tutmak için yeni bir tomi kullanıcısı oluşturun.</translation>
 <translation id="4724676981607797757">Desteklenmeyen bir protokol hatası nedeniyle yükleme işlemi başarısız oldu.</translation>
-<translation id="4746050847053251315">Yine de Decentr'dan çıkılsın mı?</translation>
-<translation id="4748217263233248895">Decentr için özel bir güvenlik güncellemesi uygulandı. Uygulamayı hemen yeniden başlatın; açık sekmeleriniz geri yüklenir.</translation>
-<translation id="4765210420921718862">Fikrinizi değiştirirseniz istediğiniz zaman Decentr ayarlarından değişiklik yapabilirsiniz. Denemeler mevcut reklam sunma yöntemiyle benzer şekilde yürütüldüğü için farklılıkları ilk etapta görmezsiniz.</translation>
-<translation id="4788777615168560705">Decentr, şifrelerinizi kontrol edemiyor. 24 saat sonra tekrar deneyin veya <ph name="BEGIN_LINK" />şifreleri Decentr Hesabınızda kontrol edin<ph name="END_LINK" />.</translation>
-<translation id="479167709087336770">Bu işlev, Decentr Arama'da kullanılan yazım denetiminin aynısını kullanır. Tarayıcıda yazdığınız metin Decentr'a gönderilir. Bu davranışı istediğiniz zaman ayarlardan değiştirebilirsiniz.</translation>
-<translation id="4814736265800133385">Decentr'u hesap olmadan kullan</translation>
-<translation id="4888717733111232871">Decentr'un mDNS trafiğine izin vermeyi sağlayan gelen trafik kuralı.</translation>
-<translation id="4893347770495441059">&amp;Decentr'u Güncellemek İçin Yeniden Başlat</translation>
-<translation id="4942295735032723435">Gelecekteki Decentr güncellemelerini almak için macOS 11 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar macOS 10.15 kullanıyor.</translation>
-<translation id="4943838377383847465">Decentr arka plan modunda.</translation>
-<translation id="494490797786467921">Decentr'da oturum açma iletişim kutusunu kapatmak için tıklayın</translation>
-<translation id="4987820182225656817">Misafirler Decentr'u geride hiçbir şey bırakmadan kullanabilir.</translation>
-<translation id="4994636714258228724">Kendinizi Decentr'a ekleyin</translation>
-<translation id="5114678101347489141">Decentr, sitelerin daha az veri kullanarak aynı tarama deneyimini sunmasını sağlayan yeni özellikleri keşfediyor</translation>
-<translation id="5187123684706427865">Decentr hesabı için yeniden kimlik doğrulama gerekiyor</translation>
-<translation id="5224391634244552924">Kaydedilen şifre yok. Decentr, kaydetmeniz halinde şifrelerinizi kontrol edebilir.</translation>
-<translation id="5231355151045086930">Decentr oturumunu kapatın</translation>
-<translation id="5252179775517634216"><ph name="EXISTING_USER" /> kullanıcısının oturumu halihazırda bu Decentr profilinde açık. Bu işlem, <ph name="USER_EMAIL_ADDRESS" /> için yeni bir Decentr profili oluşturacak</translation>
-<translation id="5277894862589591112">Yaptığınız değişiklikleri uygulamak için Decentr'u yeniden başlatın</translation>
-<translation id="5294316920224716406">Decentr, Gizli modda gezinirken güvenli olmayan bağlantı kullanan bir siteyi yüklemeden önce sizi uyarır</translation>
-<translation id="5296845517486664001">Denemeler açıksa ve Decentr tarafından etkin bir denemeye rastgele yerleştirildiyseniz tarama geçmişiniz gördüğünüz reklamları ve aşağıdaki şekilde tahmin edilen ilgi alanlarınızı etkiler. Decentr, gizliliğinizi korumak için ilgi alanlarınızı her ay sürekli olarak siler.</translation>
-<translation id="5310474266708705970">Decentr'da <ph name="USER_EMAIL" /> olarak oturum açın</translation>
-<translation id="5352264705793813212">Decentr, incelemeniz gereken bazı güvenlik önerileri tespit etti</translation>
-<translation id="5352361688875342522">Diğer Decentr Profilleri</translation>
-<translation id="5358375970380395591">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Decentr profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Decentr verileriniz kalıcı olarak <ph name="USER_NAME" /> ile bağlantılandırılacaktır. Decentr Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. <ph name="LEARN_MORE" /></translation>
+<translation id="4746050847053251315">Yine de tomi'dan çıkılsın mı?</translation>
+<translation id="4748217263233248895">tomi için özel bir güvenlik güncellemesi uygulandı. Uygulamayı hemen yeniden başlatın; açık sekmeleriniz geri yüklenir.</translation>
+<translation id="4765210420921718862">Fikrinizi değiştirirseniz istediğiniz zaman tomi ayarlarından değişiklik yapabilirsiniz. Denemeler mevcut reklam sunma yöntemiyle benzer şekilde yürütüldüğü için farklılıkları ilk etapta görmezsiniz.</translation>
+<translation id="4788777615168560705">tomi, şifrelerinizi kontrol edemiyor. 24 saat sonra tekrar deneyin veya <ph name="BEGIN_LINK" />şifreleri tomi Hesabınızda kontrol edin<ph name="END_LINK" />.</translation>
+<translation id="479167709087336770">Bu işlev, tomi Arama'da kullanılan yazım denetiminin aynısını kullanır. Tarayıcıda yazdığınız metin tomi'a gönderilir. Bu davranışı istediğiniz zaman ayarlardan değiştirebilirsiniz.</translation>
+<translation id="4814736265800133385">tomi'u hesap olmadan kullan</translation>
+<translation id="4888717733111232871">tomi'un mDNS trafiğine izin vermeyi sağlayan gelen trafik kuralı.</translation>
+<translation id="4893347770495441059">&amp;tomi'u Güncellemek İçin Yeniden Başlat</translation>
+<translation id="4942295735032723435">Gelecekteki tomi güncellemelerini almak için macOS 11 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar macOS 10.15 kullanıyor.</translation>
+<translation id="4943838377383847465">tomi arka plan modunda.</translation>
+<translation id="494490797786467921">tomi'da oturum açma iletişim kutusunu kapatmak için tıklayın</translation>
+<translation id="4987820182225656817">Misafirler tomi'u geride hiçbir şey bırakmadan kullanabilir.</translation>
+<translation id="4994636714258228724">Kendinizi tomi'a ekleyin</translation>
+<translation id="5114678101347489141">tomi, sitelerin daha az veri kullanarak aynı tarama deneyimini sunmasını sağlayan yeni özellikleri keşfediyor</translation>
+<translation id="5187123684706427865">tomi hesabı için yeniden kimlik doğrulama gerekiyor</translation>
+<translation id="5224391634244552924">Kaydedilen şifre yok. tomi, kaydetmeniz halinde şifrelerinizi kontrol edebilir.</translation>
+<translation id="5231355151045086930">tomi oturumunu kapatın</translation>
+<translation id="5252179775517634216"><ph name="EXISTING_USER" /> kullanıcısının oturumu halihazırda bu tomi profilinde açık. Bu işlem, <ph name="USER_EMAIL_ADDRESS" /> için yeni bir tomi profili oluşturacak</translation>
+<translation id="5277894862589591112">Yaptığınız değişiklikleri uygulamak için tomi'u yeniden başlatın</translation>
+<translation id="5294316920224716406">tomi, Gizli modda gezinirken güvenli olmayan bağlantı kullanan bir siteyi yüklemeden önce sizi uyarır</translation>
+<translation id="5296845517486664001">Denemeler açıksa ve tomi tarafından etkin bir denemeye rastgele yerleştirildiyseniz tarama geçmişiniz gördüğünüz reklamları ve aşağıdaki şekilde tahmin edilen ilgi alanlarınızı etkiler. tomi, gizliliğinizi korumak için ilgi alanlarınızı her ay sürekli olarak siler.</translation>
+<translation id="5310474266708705970">tomi'da <ph name="USER_EMAIL" /> olarak oturum açın</translation>
+<translation id="5352264705793813212">tomi, incelemeniz gereken bazı güvenlik önerileri tespit etti</translation>
+<translation id="5352361688875342522">Diğer tomi Profilleri</translation>
+<translation id="5358375970380395591">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine tomi profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi tomi verileriniz kalıcı olarak <ph name="USER_NAME" /> ile bağlantılandırılacaktır. tomi Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. <ph name="LEARN_MORE" /></translation>
 <translation id="5368118228313795342">Ekstra kod: <ph name="EXTRA_CODE" />.</translation>
-<translation id="5377622451696208284">Kişiselleştirme için Decentr'u Web ve Uygulama Etkinliği'ne ekleyin</translation>
-<translation id="5383439451358640070">Decentr'un bazı dosyaları neden engellediğini öğrenin</translation>
-<translation id="5386450000063123300">Decentr güncelleniyor (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="538767207339317086">Decentr'da oturum açmaya izin verin</translation>
-<translation id="5405650547142096840">Decentr'dan kaldır</translation>
-<translation id="5427571867875391349">Decentr'u varsayılan tarayıcım olarak ayarla</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
-<translation id="5473971139929175403">Decentr artık bu Linux dağıtım sisteminde desteklenmediği için doğru şekilde çalışmayabilir</translation>
-<translation id="5475924890392386523">Dosya kişisel ve sosyal ağ hesaplarınıza zarar verebileceği için Decentr bu indirme işlemini engelledi</translation>
-<translation id="5480860683791598150">Konumunuzu bu siteyle paylaşabilmek için Decentr'un konum bilgilerinize erişmesi gerekiyor</translation>
-<translation id="5487574057737591516">Gizliliğinizi korumak için 4 haftadan eski ilgi alanlarınızı otomatik olarak sileriz. Siz internette gezindikçe ilgi alanları tekrar listede görünmeye başlayabilir. Decentr ilgi alanınızı yanlış algılarsa veya belirli reklamları görmek istemezseniz ilgi alanlarını kaldırabilirsiniz.</translation>
-<translation id="549669000822060376">Decentr en son sistem güncellemelerini yüklerken lütfen bekleyin.</translation>
-<translation id="5496810170689441661">Decentr şifreleri düzenlemeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
-<translation id="5527463683072221100">PDF'leri Decentr'da aç</translation>
-<translation id="5623402015214259806">{0,plural, =0{Bir Decentr güncellemesi var}=1{Bir Decentr güncellemesi var}other{# gün önce kullanıma sunulmuş bir Decentr güncellemesi var}}</translation>
-<translation id="5643865575100044307">Decentr'u kapattığımda site verileri her zaman cihazımdan silinsin</translation>
-<translation id="5653831366781983928">Lütfen Decentr'u şimdi yeniden başlatın</translation>
-<translation id="5690427481109656848">Decentr LLC</translation>
-<translation id="5698481217667032250">Decentr'u bu dilde görüntüle</translation>
+<translation id="5377622451696208284">Kişiselleştirme için tomi'u Web ve Uygulama Etkinliği'ne ekleyin</translation>
+<translation id="5383439451358640070">tomi'un bazı dosyaları neden engellediğini öğrenin</translation>
+<translation id="5386450000063123300">tomi güncelleniyor (<ph name="PROGRESS_PERCENT" />)</translation>
+<translation id="538767207339317086">tomi'da oturum açmaya izin verin</translation>
+<translation id="5405650547142096840">tomi'dan kaldır</translation>
+<translation id="5427571867875391349">tomi'u varsayılan tarayıcım olarak ayarla</translation>
+<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - tomi Beta</translation>
+<translation id="5473971139929175403">tomi artık bu Linux dağıtım sisteminde desteklenmediği için doğru şekilde çalışmayabilir</translation>
+<translation id="5475924890392386523">Dosya kişisel ve sosyal ağ hesaplarınıza zarar verebileceği için tomi bu indirme işlemini engelledi</translation>
+<translation id="5480860683791598150">Konumunuzu bu siteyle paylaşabilmek için tomi'un konum bilgilerinize erişmesi gerekiyor</translation>
+<translation id="5487574057737591516">Gizliliğinizi korumak için 4 haftadan eski ilgi alanlarınızı otomatik olarak sileriz. Siz internette gezindikçe ilgi alanları tekrar listede görünmeye başlayabilir. tomi ilgi alanınızı yanlış algılarsa veya belirli reklamları görmek istemezseniz ilgi alanlarını kaldırabilirsiniz.</translation>
+<translation id="549669000822060376">tomi en son sistem güncellemelerini yüklerken lütfen bekleyin.</translation>
+<translation id="5496810170689441661">tomi şifreleri düzenlemeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
+<translation id="5527463683072221100">PDF'leri tomi'da aç</translation>
+<translation id="5623402015214259806">{0,plural, =0{Bir tomi güncellemesi var}=1{Bir tomi güncellemesi var}other{# gün önce kullanıma sunulmuş bir tomi güncellemesi var}}</translation>
+<translation id="5643865575100044307">tomi'u kapattığımda site verileri her zaman cihazımdan silinsin</translation>
+<translation id="5653831366781983928">Lütfen tomi'u şimdi yeniden başlatın</translation>
+<translation id="5690427481109656848">tomi LLC</translation>
+<translation id="5698481217667032250">tomi'u bu dilde görüntüle</translation>
 <translation id="569897634095159764">İnternet'e bağlanılamıyor. Proxy sunucu kimlik doğrulama gerektiriyor.</translation>
-<translation id="5761096224651992291">Son zamanlarda ziyaret etmediniz. Decentr; <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> ve <ph name="PERMISSION_3" /> iznini kaldırdı.</translation>
-<translation id="5800158606660203929">Decentr'u özelleştirin ve kontrol edin. Decentr'u varsayılan tarayıcınız olarak ayarlayın.</translation>
+<translation id="5761096224651992291">Son zamanlarda ziyaret etmediniz. tomi; <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> ve <ph name="PERMISSION_3" /> iznini kaldırdı.</translation>
+<translation id="5800158606660203929">tomi'u özelleştirin ve kontrol edin. tomi'u varsayılan tarayıcınız olarak ayarlayın.</translation>
 <translation id="5809516625706423866">İnternet'e bağlanılamadı. HTTP 401 Yetkisiz. Lütfen proxy yapılandırmanızı kontrol edin.</translation>
-<translation id="5862307444128926510">Decentr'a Hoş Geldiniz</translation>
-<translation id="5883558403894052917">Decentr, aşağıdaki öğelerde kötü amaçlı yazılım tespit etti:</translation>
-<translation id="5889361821821684993">Decentr, tarayıcınızın en güvenli ayarlara sahip olup olmadığını düzenli olarak kontrol eder. İncelemeniz gereken bir konu varsa sizi bilgilendiririz.</translation>
+<translation id="5862307444128926510">tomi'a Hoş Geldiniz</translation>
+<translation id="5883558403894052917">tomi, aşağıdaki öğelerde kötü amaçlı yazılım tespit etti:</translation>
+<translation id="5889361821821684993">tomi, tarayıcınızın en güvenli ayarlara sahip olup olmadığını düzenli olarak kontrol eder. İncelemeniz gereken bir konu varsa sizi bilgilendiririz.</translation>
 <translation id="5895138241574237353">Yeniden başlat</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - Ağda Oturum Açın</translation>
 <translation id="5924017743176219022">İnternete bağlanılıyor...</translation>
-<translation id="5929318705173562984">Decentr, web'de gezinme deneyiminizi daha iyi hale getirmek ve kaynakları boşa çıkarmak için bu sekmeyi devre dışı bırakabilir.</translation>
+<translation id="5929318705173562984">tomi, web'de gezinme deneyiminizi daha iyi hale getirmek ve kaynakları boşa çıkarmak için bu sekmeyi devre dışı bırakabilir.</translation>
 <translation id="5941711191222866238">Küçült</translation>
-<translation id="5972142260211327093">Decentr tarafından etkin bir denemeye rastgele yerleştirildiyseniz tarama geçmişiniz gördüğünüz reklamları ve aşağıdaki şekilde tahmin edilen ilgi alanlarınızı etkiler. Decentr, gizliliğinizi korumak için ilgi alanlarınızı her ay sürekli olarak siler. Kaldırmadığınız sürece ilgi alanlarınız yenilenmeye devam eder.</translation>
-<translation id="5986585015444752010">{COUNT,plural, =1{Kuruluşunuz, 1 dakika kullanılmadığında Decentr'u otomatik olarak kapatır.}other{Kuruluşunuz, # dakika kullanılmadığında Decentr'u otomatik olarak kapatır.}}</translation>
-<translation id="5987687638152509985">Senkronizasyonu başlatmak için Decentr'u güncelleyin</translation>
-<translation id="5988505247484123880">Ziyaret ettiğiniz sitelerin deneyiminizi kişiselleştirmek için ilgi alanlarınızı hatırlaması olağan bir durumdur. Siteler, ilgi alanlarınız hakkındaki bilgileri Decentr'da da saklayabilir.</translation>
+<translation id="5972142260211327093">tomi tarafından etkin bir denemeye rastgele yerleştirildiyseniz tarama geçmişiniz gördüğünüz reklamları ve aşağıdaki şekilde tahmin edilen ilgi alanlarınızı etkiler. tomi, gizliliğinizi korumak için ilgi alanlarınızı her ay sürekli olarak siler. Kaldırmadığınız sürece ilgi alanlarınız yenilenmeye devam eder.</translation>
+<translation id="5986585015444752010">{COUNT,plural, =1{Kuruluşunuz, 1 dakika kullanılmadığında tomi'u otomatik olarak kapatır.}other{Kuruluşunuz, # dakika kullanılmadığında tomi'u otomatik olarak kapatır.}}</translation>
+<translation id="5987687638152509985">Senkronizasyonu başlatmak için tomi'u güncelleyin</translation>
+<translation id="5988505247484123880">Ziyaret ettiğiniz sitelerin deneyiminizi kişiselleştirmek için ilgi alanlarınızı hatırlaması olağan bir durumdur. Siteler, ilgi alanlarınız hakkındaki bilgileri tomi'da da saklayabilir.</translation>
 <translation id="6003112304606738118">İndiriliyor... <ph name="HOURS" /> saat kaldı</translation>
-<translation id="6019451407441383358">Yer işaretlerini, okuma modunu ve daha fazlasını sağ üstteki Decentr menüsünden açabilirsiniz</translation>
+<translation id="6019451407441383358">Yer işaretlerini, okuma modunu ve daha fazlasını sağ üstteki tomi menüsünden açabilirsiniz</translation>
 <translation id="6040143037577758943">Kapat</translation>
-<translation id="6058380562449900225">Verilerinizin korunması için Decentr'un, yakın zamanda ziyaret etmediğiniz sitelerin izinlerini kaldırmasına izin verin. Bu işlem, bildirimleri durdurmaz.</translation>
-<translation id="6063093106622310249">&amp;Decentr'da aç</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> Decentr'a eklendi</translation>
-<translation id="6072463441809498330">Decentr'u Daha Hızlı Hale Getirin</translation>
+<translation id="6058380562449900225">Verilerinizin korunması için tomi'un, yakın zamanda ziyaret etmediğiniz sitelerin izinlerini kaldırmasına izin verin. Bu işlem, bildirimleri durdurmaz.</translation>
+<translation id="6063093106622310249">&amp;tomi'da aç</translation>
+<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> tomi'a eklendi</translation>
+<translation id="6072463441809498330">tomi'u Daha Hızlı Hale Getirin</translation>
 <translation id="608006075545470555">Bu tarayıcıya İş Profili ekle</translation>
-<translation id="6096348254544841612">Decentr'u özelleştirin ve kontrol edin. Güncelleme mevcut.</translation>
-<translation id="6102072151902574948">Bu ayar etkinleştirildiğinde Decentr, arka plan etkinliğini ve görsel efektleri (ör. yumuşak kaydırma, video kare hızı) sınırlandırarak pil gücünden tasarruf eder.</translation>
-<translation id="6107893135096467929">Açık • Decentr, bu uzantının kaynağını doğrulayamıyor</translation>
-<translation id="6119438414301547735">Uzantının, Decentr araç çubuğunda erişim isteklerini göstermesine izin ver</translation>
-<translation id="6120345080069858279">Decentr, şifrenizi Decentr Hesabınızda kaydedecek. Bu şekilde şifreyi hatırlamanız gerekmez.</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> tehlikeli olduğu için Decentr tarafından engellendi.</translation>
-<translation id="6132897690380286411">Decentr yakında kapanacak ve verileri silecek</translation>
-<translation id="6134968993075716475">Güvenli Tarama kapalı. Decentr bunun açılmasını öneriyor.</translation>
-<translation id="6145820983052037069">Decentr profilleri arasında burada geçiş yapabilirsiniz</translation>
-<translation id="615103374448673771">Çerezlere izin verirseniz Decentr bunları önceden yükleme işlemi için kullanabilir.</translation>
-<translation id="6174920971222007286">Bu dosya tehlikeli olabilir<ph name="LINE_BREAK" />Şifreyi sağlarsanız Decentr, indirme işlemini sizin için kontrol edebilir. Dosyayla ilgili bilgiler Decentr Güvenli Tarama'ya gönderilir ancak dosya içeriği ve şifresi cihazınızda kalır.</translation>
+<translation id="6096348254544841612">tomi'u özelleştirin ve kontrol edin. Güncelleme mevcut.</translation>
+<translation id="6102072151902574948">Bu ayar etkinleştirildiğinde tomi, arka plan etkinliğini ve görsel efektleri (ör. yumuşak kaydırma, video kare hızı) sınırlandırarak pil gücünden tasarruf eder.</translation>
+<translation id="6107893135096467929">Açık • tomi, bu uzantının kaynağını doğrulayamıyor</translation>
+<translation id="6119438414301547735">Uzantının, tomi araç çubuğunda erişim isteklerini göstermesine izin ver</translation>
+<translation id="6120345080069858279">tomi, şifrenizi tomi Hesabınızda kaydedecek. Bu şekilde şifreyi hatırlamanız gerekmez.</translation>
+<translation id="6129621093834146363"><ph name="FILE_NAME" /> tehlikeli olduğu için tomi tarafından engellendi.</translation>
+<translation id="6132897690380286411">tomi yakında kapanacak ve verileri silecek</translation>
+<translation id="6134968993075716475">Güvenli Tarama kapalı. tomi bunun açılmasını öneriyor.</translation>
+<translation id="6145820983052037069">tomi profilleri arasında burada geçiş yapabilirsiniz</translation>
+<translation id="615103374448673771">Çerezlere izin verirseniz tomi bunları önceden yükleme işlemi için kullanabilir.</translation>
+<translation id="6174920971222007286">Bu dosya tehlikeli olabilir<ph name="LINE_BREAK" />Şifreyi sağlarsanız tomi, indirme işlemini sizin için kontrol edebilir. Dosyayla ilgili bilgiler tomi Güvenli Tarama'ya gönderilir ancak dosya içeriği ve şifresi cihazınızda kalır.</translation>
 <translation id="6182736845697986886">Güncelleme sunucusundaki dahili hata nedeniyle yükleme işlemi başarısız oldu.</translation>
-<translation id="6183079672144801177"><ph name="TARGET_DEVICE_NAME" /> cihazınızdan Decentr'da oturum açtığınızdan emin olup tekrar göndermeyi deneyin.</translation>
-<translation id="6212496753309875659">Bu bilgisayarda Decentr'un daha yeni bir sürümü de var. Yazılım çalışmıyorsa, Decentr'u kaldırın ve tekrar deneyin.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Decentr şimdi yeniden başlatılacak}=1{Decentr 1 saniye içinde yeniden başlatılacak}other{Decentr # saniye içinde yeniden başlatılacak}}</translation>
-<translation id="6241367896540709610">Dosya indirmek için Decentr'un depolama alanına erişmesi gerekiyor</translation>
-<translation id="6245734527075554892">URL'leri, Decentr'da kayıtlı güvenli olmayan siteler listesine göre kontrol eder.</translation>
-<translation id="6248213926982192922">Decentr varsayılan tarayıcı olsun</translation>
-<translation id="6266342355635466082">Decentr güncellemeleri denetleyemiyor. İnternet bağlantınızı kontrol etmeyi deneyin.</translation>
-<translation id="6268381023930128611">Decentr oturumunu kapatıyor musunuz?</translation>
-<translation id="6270547683008298381">Bu sekmeler ekstra kaynak kullanıyor. Performansınızı artırmak için Decentr'un bu sekmeleri devre dışı bırakmasına izin verin.</translation>
-<translation id="6281746429495226318">Decentr profilinizi özelleştirin</translation>
-<translation id="6290827346642914212">Decentr profilinize bir ad verin</translation>
-<translation id="6294831894865512704">Bir uzantı, Decentr'da oturum açmanızı istiyor</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> tehlikeli olabileceği için Decentr tarafından engellendi.</translation>
-<translation id="6309712487085796862">Decentr kameranızı kullanıyor.</translation>
+<translation id="6183079672144801177"><ph name="TARGET_DEVICE_NAME" /> cihazınızdan tomi'da oturum açtığınızdan emin olup tekrar göndermeyi deneyin.</translation>
+<translation id="6212496753309875659">Bu bilgisayarda tomi'un daha yeni bir sürümü de var. Yazılım çalışmıyorsa, tomi'u kaldırın ve tekrar deneyin.</translation>
+<translation id="6219195342503754812">{0,plural, =0{tomi şimdi yeniden başlatılacak}=1{tomi 1 saniye içinde yeniden başlatılacak}other{tomi # saniye içinde yeniden başlatılacak}}</translation>
+<translation id="6241367896540709610">Dosya indirmek için tomi'un depolama alanına erişmesi gerekiyor</translation>
+<translation id="6245734527075554892">URL'leri, tomi'da kayıtlı güvenli olmayan siteler listesine göre kontrol eder.</translation>
+<translation id="6248213926982192922">tomi varsayılan tarayıcı olsun</translation>
+<translation id="6266342355635466082">tomi güncellemeleri denetleyemiyor. İnternet bağlantınızı kontrol etmeyi deneyin.</translation>
+<translation id="6268381023930128611">tomi oturumunu kapatıyor musunuz?</translation>
+<translation id="6270547683008298381">Bu sekmeler ekstra kaynak kullanıyor. Performansınızı artırmak için tomi'un bu sekmeleri devre dışı bırakmasına izin verin.</translation>
+<translation id="6281746429495226318">tomi profilinizi özelleştirin</translation>
+<translation id="6290827346642914212">tomi profilinize bir ad verin</translation>
+<translation id="6294831894865512704">Bir uzantı, tomi'da oturum açmanızı istiyor</translation>
+<translation id="6295779123002464101"><ph name="FILE_NAME" /> tehlikeli olabileceği için tomi tarafından engellendi.</translation>
+<translation id="6309712487085796862">tomi kameranızı kullanıyor.</translation>
 <translation id="6327105987658262776">Kullanılabilir güncelleme yok.</translation>
-<translation id="6333502561965082103">Decentr'da başka bir işlem devam ediyor. Lütfen daha sonra yeniden deneyin.</translation>
-<translation id="6334986366598267305">Decentr'u Decentr Hesabınızla ve paylaşılan bilgisayarlarda kullanmak artık daha kolay.</translation>
-<translation id="633626832589656416">Decentr, göz atma deneyiminizi iyileştirmek ve her şeyin hızlı çalışmasını sağlamak için aşağıdaki sekmeleri devre dışı bırakabilir.</translation>
-<translation id="6347933965114150440">Decentr Kısayolu</translation>
-<translation id="6366160072964553914">Dosya çok indirilmediği ve tehlikeli olabileceği için Decentr bu indirme işlemini engelledi</translation>
-<translation id="6373523479360886564">Decentr'u kaldırmak istediğinizden emin misiniz?</translation>
+<translation id="6333502561965082103">tomi'da başka bir işlem devam ediyor. Lütfen daha sonra yeniden deneyin.</translation>
+<translation id="6334986366598267305">tomi'u tomi Hesabınızla ve paylaşılan bilgisayarlarda kullanmak artık daha kolay.</translation>
+<translation id="633626832589656416">tomi, göz atma deneyiminizi iyileştirmek ve her şeyin hızlı çalışmasını sağlamak için aşağıdaki sekmeleri devre dışı bırakabilir.</translation>
+<translation id="6347933965114150440">tomi Kısayolu</translation>
+<translation id="6366160072964553914">Dosya çok indirilmediği ve tehlikeli olabileceği için tomi bu indirme işlemini engelledi</translation>
+<translation id="6373523479360886564">tomi'u kaldırmak istediğinizden emin misiniz?</translation>
 <translation id="6375219077595103062">Şifre Yöneticisi'ne kısayol ekleyin</translation>
-<translation id="6384011394608460044"><ph name="BEGIN_BOLD" />Bu verileri kullanma şeklimiz:<ph name="END_BOLD" /> Decentr, ilgi alanlarınızı tahmin edebilir. Daha sonra ziyaret ettiğiniz bir site, gördüğünüz reklamları kişiselleştirmek için Decentr'dan ilgi alanlarınızı göstermesini isteyebilir.</translation>
-<translation id="6400112897226594999">Bilgisayar ekranındaki Decentr logosu.</translation>
-<translation id="6403826409255603130">Decentr, Web sayfalarını ve uygulamaları yıldırım hızıyla çalıştıran bir Web tarayıcısıdır. Hızlı ve kararlı çalışır, kolay kullanılır. Decentr'da dahili olarak bulunan zararlı yazılım ve kimlik avı koruması sayesinde Web'de daha güvenli gezinin.</translation>
-<translation id="6442900851116057561">DecentrOS'i yeniden başlatın</translation>
-<translation id="6443470774889161065">Decentr, ziyaret etme olasılığınızın yüksek olduğu daha fazla sayfayı önceden yükleyerek bu sayfaları ziyaret ettiğinizde daha hızlı yüklenmelerini sağlar.</translation>
-<translation id="645458117210240797">Kapalı • Decentr, bu uzantının kaynağını doğrulayamıyor</translation>
-<translation id="6455857529632101747">Decentr profillerine hoş geldiniz</translation>
-<translation id="6466344609055215035">Hesabı Decentr'dan kaldır</translation>
-<translation id="6475912303565314141">Ayrıca, Decentr'u başlattığınızda gösterilecek sayfayı da denetler.</translation>
+<translation id="6384011394608460044"><ph name="BEGIN_BOLD" />Bu verileri kullanma şeklimiz:<ph name="END_BOLD" /> tomi, ilgi alanlarınızı tahmin edebilir. Daha sonra ziyaret ettiğiniz bir site, gördüğünüz reklamları kişiselleştirmek için tomi'dan ilgi alanlarınızı göstermesini isteyebilir.</translation>
+<translation id="6400112897226594999">Bilgisayar ekranındaki tomi logosu.</translation>
+<translation id="6403826409255603130">tomi, Web sayfalarını ve uygulamaları yıldırım hızıyla çalıştıran bir Web tarayıcısıdır. Hızlı ve kararlı çalışır, kolay kullanılır. tomi'da dahili olarak bulunan zararlı yazılım ve kimlik avı koruması sayesinde Web'de daha güvenli gezinin.</translation>
+<translation id="6442900851116057561">tomiOS'i yeniden başlatın</translation>
+<translation id="6443470774889161065">tomi, ziyaret etme olasılığınızın yüksek olduğu daha fazla sayfayı önceden yükleyerek bu sayfaları ziyaret ettiğinizde daha hızlı yüklenmelerini sağlar.</translation>
+<translation id="645458117210240797">Kapalı • tomi, bu uzantının kaynağını doğrulayamıyor</translation>
+<translation id="6455857529632101747">tomi profillerine hoş geldiniz</translation>
+<translation id="6466344609055215035">Hesabı tomi'dan kaldır</translation>
+<translation id="6475912303565314141">Ayrıca, tomi'u başlattığınızda gösterilecek sayfayı da denetler.</translation>
 <translation id="648319183876919572">Gelişmiş Güvenli Tarama sizi tehlikeli web sitelerinden ve indirmelerden korumak için daha fazlasını yapar</translation>
-<translation id="6510925080656968729">Decentr'u Kaldır</translation>
-<translation id="651535675648445253">Kısayollar Decentr'da açılır</translation>
-<translation id="6524389414524528185">Oturumunuz açıkken Decentr'da Decentr Hesabınızdaki şifrelerinizi ve diğer öğeleri kullanabilirsiniz. Ayarlar bölümünden bunu dilediğiniz zaman değiştirebilirsiniz.</translation>
-<translation id="6539122709674868420"><ph name="TIMEOUT_DURATION" /> boyunca kullanılmadığında Decentr kuruluşunuz tarafından kapatılır. Tarama verileri silindi. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.</translation>
-<translation id="6542839706527980775">Her profil; yer işaretleri, geçmiş, şifreler ve benzeri gibi kendi Decentr bilgilerini içerir</translation>
-<translation id="6563921047760808519"><ph name="BEGIN_LINK" />Decentr'un verilerinizi nasıl gizli tuttuğu<ph name="END_LINK" /> hakkında daha fazla bilgi edinin</translation>
-<translation id="656935081669708576">Başka bir Decentr profilindeki şifreleri görmek için profil değiştirebilirsiniz</translation>
-<translation id="6570579332384693436">Yazım hatalarını düzeltmek için Decentr, metin alanlarına yazdığınız metinleri Decentr'a gönderir</translation>
-<translation id="6598877126913850652">Decentr bildirim ayarlarına git</translation>
-<translation id="6613594504749178791">Değişiklikleriniz, Decentr tekrar başlatıldığında geçerli olacak.</translation>
-<translation id="665732753414869868">Çevrenizin 3D haritasını oluşturmak için Decentr'un kamera iznine ihtiyacı var</translation>
-<translation id="6663852025006259149">Siteler muhtemelen beklediğiniz gibi çalışır ancak tüm Decentr pencereleri kapatıldıktan sonra sizi hatırlamaz</translation>
-<translation id="6669284030132180248">Decentr Hesabınıza yer işaretlerinizi de kaydederseniz Decentr'da ürün fiyatlarını takip edebilir ve fiyat düştüğünde bildirim alabilirsiniz</translation>
+<translation id="6510925080656968729">tomi'u Kaldır</translation>
+<translation id="651535675648445253">Kısayollar tomi'da açılır</translation>
+<translation id="6524389414524528185">Oturumunuz açıkken tomi'da tomi Hesabınızdaki şifrelerinizi ve diğer öğeleri kullanabilirsiniz. Ayarlar bölümünden bunu dilediğiniz zaman değiştirebilirsiniz.</translation>
+<translation id="6539122709674868420"><ph name="TIMEOUT_DURATION" /> boyunca kullanılmadığında tomi kuruluşunuz tarafından kapatılır. Tarama verileri silindi. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.</translation>
+<translation id="6542839706527980775">Her profil; yer işaretleri, geçmiş, şifreler ve benzeri gibi kendi tomi bilgilerini içerir</translation>
+<translation id="6563921047760808519"><ph name="BEGIN_LINK" />tomi'un verilerinizi nasıl gizli tuttuğu<ph name="END_LINK" /> hakkında daha fazla bilgi edinin</translation>
+<translation id="656935081669708576">Başka bir tomi profilindeki şifreleri görmek için profil değiştirebilirsiniz</translation>
+<translation id="6570579332384693436">Yazım hatalarını düzeltmek için tomi, metin alanlarına yazdığınız metinleri tomi'a gönderir</translation>
+<translation id="6598877126913850652">tomi bildirim ayarlarına git</translation>
+<translation id="6613594504749178791">Değişiklikleriniz, tomi tekrar başlatıldığında geçerli olacak.</translation>
+<translation id="665732753414869868">Çevrenizin 3D haritasını oluşturmak için tomi'un kamera iznine ihtiyacı var</translation>
+<translation id="6663852025006259149">Siteler muhtemelen beklediğiniz gibi çalışır ancak tüm tomi pencereleri kapatıldıktan sonra sizi hatırlamaz</translation>
+<translation id="6669284030132180248">tomi Hesabınıza yer işaretlerinizi de kaydederseniz tomi'da ürün fiyatlarını takip edebilir ve fiyat düştüğünde bildirim alabilirsiniz</translation>
 <translation id="6676384891291319759">İnternet'e erişin</translation>
-<translation id="668175097507315160">Oturum açma sırasındaki bir hata nedeniyle DecentrOS, verilerinizi senkronize edemedi.</translation>
-<translation id="6692797197837897398">Decentr, gördüğünüz reklamlarda daha fazla kontrol sahibi olmanızı sağlar ve kişiselleştirilmiş reklamlar gösteren sitelerin hakkınızda edinebileceği bilgileri sınırlandırır</translation>
-<translation id="6709350901466051922">Bu site için Decentr'un mikrofon iznine ihtiyacı var</translation>
+<translation id="668175097507315160">Oturum açma sırasındaki bir hata nedeniyle tomiOS, verilerinizi senkronize edemedi.</translation>
+<translation id="6692797197837897398">tomi, gördüğünüz reklamlarda daha fazla kontrol sahibi olmanızı sağlar ve kişiselleştirilmiş reklamlar gösteren sitelerin hakkınızda edinebileceği bilgileri sınırlandırır</translation>
+<translation id="6709350901466051922">Bu site için tomi'un mikrofon iznine ihtiyacı var</translation>
 <translation id="6712881677154121168">İndirme hatası: <ph name="DOWNLOAD_ERROR" />.</translation>
-<translation id="6717134281241384636">Profiliniz daha yeni bir Decentr sürümünden olduğundan kullanılamıyor.
+<translation id="6717134281241384636">Profiliniz daha yeni bir tomi sürümünden olduğundan kullanılamıyor.
 
-Bazı özellikler kullanılamayabilir. Lütfen farklı bir profil dizini belirtin veya daha yeni bir Decentr sürümünü kullanın.</translation>
-<translation id="6729124504294600478">Kişiselleştirme ve diğer özelliklerden yararlanmak için Decentr'u Web ve Uygulama Etkinliği'nin yanı sıra bağlı Decentr hizmetlerine ekleyin</translation>
-<translation id="6734291798041940871">Decentr zaten bilgisayarınızdaki tüm kullanıcılar için yüklendi.</translation>
-<translation id="673636774878526923">Decentr öğelerinize tüm cihazlarınızda erişmek için oturum açın ve senkronizasyonu etkinleştirin.</translation>
-<translation id="674245979920622322">Son zamanlarda ziyaret etmediniz. Decentr; <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> ve <ph name="COUNT" /> izni daha kaldırdı.</translation>
-<translation id="67706546131546258">Decentr, tehlikeli olabileceği için bu dosyanın taranmasını öneriyor.</translation>
-<translation id="6779406956731413166">Decentr OS, ek <ph name="BEGIN_LINK_CROS_OSS" />açık kaynak yazılımlar<ph name="END_LINK_CROS_OSS" /> ile hazırlanmıştır.</translation>
-<translation id="6847869444787758381">Decentr, şifrelerinizin güvenliğinin ihlal edilip edilmediğini size bildirir</translation>
+Bazı özellikler kullanılamayabilir. Lütfen farklı bir profil dizini belirtin veya daha yeni bir tomi sürümünü kullanın.</translation>
+<translation id="6729124504294600478">Kişiselleştirme ve diğer özelliklerden yararlanmak için tomi'u Web ve Uygulama Etkinliği'nin yanı sıra bağlı tomi hizmetlerine ekleyin</translation>
+<translation id="6734291798041940871">tomi zaten bilgisayarınızdaki tüm kullanıcılar için yüklendi.</translation>
+<translation id="673636774878526923">tomi öğelerinize tüm cihazlarınızda erişmek için oturum açın ve senkronizasyonu etkinleştirin.</translation>
+<translation id="674245979920622322">Son zamanlarda ziyaret etmediniz. tomi; <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> ve <ph name="COUNT" /> izni daha kaldırdı.</translation>
+<translation id="67706546131546258">tomi, tehlikeli olabileceği için bu dosyanın taranmasını öneriyor.</translation>
+<translation id="6779406956731413166">tomi OS, ek <ph name="BEGIN_LINK_CROS_OSS" />açık kaynak yazılımlar<ph name="END_LINK_CROS_OSS" /> ile hazırlanmıştır.</translation>
+<translation id="6847869444787758381">tomi, şifrelerinizin güvenliğinin ihlal edilip edilmediğini size bildirir</translation>
 <translation id="684888714667046800">İnternete bağlanılamıyor. Güvenlik duvarı kullanıyorsanız lütfen <ph name="PRODUCT_EXE_NAME" /> dosyasının izin verilenler listesine eklendiğinden emin olun.</translation>
-<translation id="6857782730669500492">Decentr - <ph name="PAGE_TITLE" /></translation>
-<translation id="6873893289264747459">Decentr, "<ph name="EXTENSION_NAME" />" uzantısında kötü amaçlı yazılım tespit etti</translation>
-<translation id="6929417474050522668">Reklam ölçümü, denemeler açıkken ziyaret ettiğiniz sitelerin Decentr'dan bilgi istemesine olanak tanır. Bu bilgiler de sitenin, reklamlarının performansını ölçmesine yardımcı olur. Reklam ölçümü, siteler arasında mümkün olduğunca az bilgi aktararak siteler arası izlemeyi kısıtlar.</translation>
-<translation id="6940431691900807093">Daha sonra ziyaret ettiğiniz bir site, gördüğünüz reklamları kişiselleştirmek için Decentr'dan ilgi alanlarınızı göstermesini isteyebilir. Decentr en çok 3 ilgi alanı paylaşabilir.</translation>
-<translation id="6964305034639999644">Bağlantıyı Decentr &amp;gizli penceresinde aç</translation>
-<translation id="6978145336957848883">Zayıf şifrelerin tahmin edilmesi kolaydır. Decentr'un <ph name="BEGIN_LINK" />sizin için güçlü şifreler oluşturup bu şifreleri hatırlamasına<ph name="END_LINK" /> izin verin.</translation>
-<translation id="6981396265751285733">Bu ayar açık olduğunda Decentr, etkin olmayan sekmelerdeki belleği boşaltır. Böylece, etkin sekmeler ile diğer uygulamalar daha fazla bilgisayar kaynağına sahip olur ve Decentr hızlı çalışmaya devam eder. Geri döndüğünüz etkin olmayan sekmeler otomatik olarak tekrar etkin hale gelir.</translation>
-<translation id="6985329841647292029">DecentrOS şartları</translation>
-<translation id="6990124437352146030">Decentr'un bu sitede mikrofonunuza erişmesi için izin gerekiyor</translation>
+<translation id="6857782730669500492">tomi - <ph name="PAGE_TITLE" /></translation>
+<translation id="6873893289264747459">tomi, "<ph name="EXTENSION_NAME" />" uzantısında kötü amaçlı yazılım tespit etti</translation>
+<translation id="6929417474050522668">Reklam ölçümü, denemeler açıkken ziyaret ettiğiniz sitelerin tomi'dan bilgi istemesine olanak tanır. Bu bilgiler de sitenin, reklamlarının performansını ölçmesine yardımcı olur. Reklam ölçümü, siteler arasında mümkün olduğunca az bilgi aktararak siteler arası izlemeyi kısıtlar.</translation>
+<translation id="6940431691900807093">Daha sonra ziyaret ettiğiniz bir site, gördüğünüz reklamları kişiselleştirmek için tomi'dan ilgi alanlarınızı göstermesini isteyebilir. tomi en çok 3 ilgi alanı paylaşabilir.</translation>
+<translation id="6964305034639999644">Bağlantıyı tomi &amp;gizli penceresinde aç</translation>
+<translation id="6978145336957848883">Zayıf şifrelerin tahmin edilmesi kolaydır. tomi'un <ph name="BEGIN_LINK" />sizin için güçlü şifreler oluşturup bu şifreleri hatırlamasına<ph name="END_LINK" /> izin verin.</translation>
+<translation id="6981396265751285733">Bu ayar açık olduğunda tomi, etkin olmayan sekmelerdeki belleği boşaltır. Böylece, etkin sekmeler ile diğer uygulamalar daha fazla bilgisayar kaynağına sahip olur ve tomi hızlı çalışmaya devam eder. Geri döndüğünüz etkin olmayan sekmeler otomatik olarak tekrar etkin hale gelir.</translation>
+<translation id="6985329841647292029">tomiOS şartları</translation>
+<translation id="6990124437352146030">tomi'un bu sitede mikrofonunuza erişmesi için izin gerekiyor</translation>
 <translation id="7011190694940573312">İşletim sisteminin bu sürümü desteklenmediğinden yükleme işlemi başarısız oldu.</translation>
 <translation id="7024536598735240744">Paket açma hatası: <ph name="UNPACK_ERROR" />.</translation>
 <translation id="7025789849649390912">Yükleme İşlemi Durduruldu.</translation>
-<translation id="7045244423563602563">Decentr'u Kendinize Uyarlayın</translation>
-<translation id="705851970750939768">Decentr'u güncelle</translation>
-<translation id="7067091210845072982">Bir resmin işe yarar bir açıklaması yoksa, Decentr sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Decentr'a gönderilir.</translation>
-<translation id="7141270731789036260">Decentr for Testing'i özelleştir</translation>
-<translation id="7163519456498498587"><ph name="EXTENSION_NAME" /> uzantısını Decentr'dan kaldır</translation>
-<translation id="7173822816570314652"><ph name="TIMEOUT_DURATION" /> boyunca kullanılmadığında Decentr verileri kuruluşunuz tarafından silinir. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.</translation>
-<translation id="718435575166326686">Bu site için Decentr'un kamera iznine ihtiyacı var</translation>
-<translation id="7196312274710523067">Decentr başlatılamadı. Tekrar deneyin.</translation>
-<translation id="7197677400338048821">Decentr, şifrelerinizi kontrol edemiyor. 24 saat sonra tekrar deneyin.</translation>
-<translation id="7213407614656404070">Mesajlardaki, dokümanlardaki ve diğer uygulamalardaki bağlantıları tıkladığınızda Decentr'u kullanabilirsiniz</translation>
-<translation id="7223968959479464213">Görev Yöneticisi - Decentr</translation>
-<translation id="7246575524853130370">Decentr'un tahmin ettiği ilgi alanlarınız</translation>
-<translation id="7295544978856094497">{NUM_EXTENSIONS,plural, =1{Decentr bunu kaldırmanızı öneriyor}other{Decentr bunları kaldırmanızı öneriyor}}</translation>
-<translation id="7309928523159922338">Reklam ölçümü, ziyaret ettiğiniz sitelerin Decentr'dan bilgi istemesine olanak tanır. Bu bilgiler de sitenin, reklamlarının performansını ölçmesine yardımcı olur. Reklam ölçümü, siteler arasında mümkün olduğunca az bilgi aktararak siteler arası izlemeyi kısıtlar.</translation>
-<translation id="731795002583552498">Decentr güncelleniyor</translation>
+<translation id="7045244423563602563">tomi'u Kendinize Uyarlayın</translation>
+<translation id="705851970750939768">tomi'u güncelle</translation>
+<translation id="7067091210845072982">Bir resmin işe yarar bir açıklaması yoksa, tomi sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler tomi'a gönderilir.</translation>
+<translation id="7141270731789036260">tomi for Testing'i özelleştir</translation>
+<translation id="7163519456498498587"><ph name="EXTENSION_NAME" /> uzantısını tomi'dan kaldır</translation>
+<translation id="7173822816570314652"><ph name="TIMEOUT_DURATION" /> boyunca kullanılmadığında tomi verileri kuruluşunuz tarafından silinir. Bu veriler geçmiş, otomatik doldurma ve indirilenleri içerebilir.</translation>
+<translation id="718435575166326686">Bu site için tomi'un kamera iznine ihtiyacı var</translation>
+<translation id="7196312274710523067">tomi başlatılamadı. Tekrar deneyin.</translation>
+<translation id="7197677400338048821">tomi, şifrelerinizi kontrol edemiyor. 24 saat sonra tekrar deneyin.</translation>
+<translation id="7213407614656404070">Mesajlardaki, dokümanlardaki ve diğer uygulamalardaki bağlantıları tıkladığınızda tomi'u kullanabilirsiniz</translation>
+<translation id="7223968959479464213">Görev Yöneticisi - tomi</translation>
+<translation id="7246575524853130370">tomi'un tahmin ettiği ilgi alanlarınız</translation>
+<translation id="7295544978856094497">{NUM_EXTENSIONS,plural, =1{tomi bunu kaldırmanızı öneriyor}other{tomi bunları kaldırmanızı öneriyor}}</translation>
+<translation id="7309928523159922338">Reklam ölçümü, ziyaret ettiğiniz sitelerin tomi'dan bilgi istemesine olanak tanır. Bu bilgiler de sitenin, reklamlarının performansını ölçmesine yardımcı olur. Reklam ölçümü, siteler arasında mümkün olduğunca az bilgi aktararak siteler arası izlemeyi kısıtlar.</translation>
+<translation id="731795002583552498">tomi güncelleniyor</translation>
 <translation id="7318036098707714271">Tercihler dosyanız bozuk veya geçersiz.
 
-Decentr ayarlarınızı kurtaramıyor.</translation>
+tomi ayarlarınızı kurtaramıyor.</translation>
 <translation id="7339898014177206373">Yeni pencere</translation>
-<translation id="734373864078049451">Web, yer işaretleri ve diğer Decentr bilgileriniz burada bulunur.</translation>
-<translation id="7349591376906416160">Sistem yöneticiniz Decentr'u <ph name="TARGET_URL_HOSTNAME" /> adresine erişmek için <ph name="ALTERNATIVE_BROWSER_NAME" /> tarayıcısını açacak şekilde yapılandırmış.</translation>
-<translation id="7355355292030546812">Dosya, <ph name="USER_EMAIL" /> dahil olmak üzere kişisel ve sosyal ağ hesaplarınıza zarar verebileceği için Decentr bu indirme işlemini engelledi</translation>
-<translation id="7384121030444253939">Bu uzantı artık desteklenmiyor. Decentr bunu kaldırmanızı öneriyor.</translation>
-<translation id="7398989605938454041">Decentr profilleri ile tüm Decentr öğelerinizi ayırabilirsiniz. Bu özellik, iş ile eğlenceyi daha kolay ayırmayı sağlar.</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
-<translation id="7451052299415159299">Decentr'un bu sitede kameranıza erişmesi için izin gerekiyor</translation>
-<translation id="7458892263350425044">Mikrofonunuzu kullanması için <ph name="BEGIN_LINK" />sistem ayarlarında<ph name="END_LINK" /> Decentr'a erişim izni verin</translation>
-<translation id="7461356015007898716">Gelecekteki Decentr güncellemelerini almak için Windows 10 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar Windows 7 kullanıyor.</translation>
-<translation id="7467949745582939695">Decentr yeniden başlatılsın mı?</translation>
-<translation id="7483335560992089831">Şu anda çalışan aynı Decentr sürümünü yükleyemezsiniz. Lütfen Decentr'u kapatın ve yeniden deneyin.</translation>
-<translation id="751935028865900641">Siteler muhtemelen beklendiği gibi çalışır. Tüm Decentr pencerelerini kapattığınızda çoğu sitedeki oturumunuz kapatılır. Decentr'da oturum açtıysanız Decentr Hesabınız buna dahil değildir.</translation>
-<translation id="753534427205733210">{0,plural, =1{Decentr 1 dakika içinde yeniden başlatılacak}other{Decentr # dakika içinde yeniden başlatılacak}}</translation>
-<translation id="7553334751796114046">Pencerenizi paylaşmak için Sistem Tercihleri'nde Decentr'un ekranı kaydetmesine izin verin</translation>
-<translation id="7582945390259497898">Decentr, ilgi alanlarınızı tahmin edebilir. Daha sonra ziyaret ettiğiniz bir site, gördüğünüz reklamları kişiselleştirmek için Decentr'dan ilgi alanlarınızı göstermesini isteyebilir.</translation>
+<translation id="734373864078049451">Web, yer işaretleri ve diğer tomi bilgileriniz burada bulunur.</translation>
+<translation id="7349591376906416160">Sistem yöneticiniz tomi'u <ph name="TARGET_URL_HOSTNAME" /> adresine erişmek için <ph name="ALTERNATIVE_BROWSER_NAME" /> tarayıcısını açacak şekilde yapılandırmış.</translation>
+<translation id="7355355292030546812">Dosya, <ph name="USER_EMAIL" /> dahil olmak üzere kişisel ve sosyal ağ hesaplarınıza zarar verebileceği için tomi bu indirme işlemini engelledi</translation>
+<translation id="7384121030444253939">Bu uzantı artık desteklenmiyor. tomi bunu kaldırmanızı öneriyor.</translation>
+<translation id="7398989605938454041">tomi profilleri ile tüm tomi öğelerinizi ayırabilirsiniz. Bu özellik, iş ile eğlenceyi daha kolay ayırmayı sağlar.</translation>
+<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - tomi Dev</translation>
+<translation id="7451052299415159299">tomi'un bu sitede kameranıza erişmesi için izin gerekiyor</translation>
+<translation id="7458892263350425044">Mikrofonunuzu kullanması için <ph name="BEGIN_LINK" />sistem ayarlarında<ph name="END_LINK" /> tomi'a erişim izni verin</translation>
+<translation id="7461356015007898716">Gelecekteki tomi güncellemelerini almak için Windows 10 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar Windows 7 kullanıyor.</translation>
+<translation id="7467949745582939695">tomi yeniden başlatılsın mı?</translation>
+<translation id="7483335560992089831">Şu anda çalışan aynı tomi sürümünü yükleyemezsiniz. Lütfen tomi'u kapatın ve yeniden deneyin.</translation>
+<translation id="751935028865900641">Siteler muhtemelen beklendiği gibi çalışır. Tüm tomi pencerelerini kapattığınızda çoğu sitedeki oturumunuz kapatılır. tomi'da oturum açtıysanız tomi Hesabınız buna dahil değildir.</translation>
+<translation id="753534427205733210">{0,plural, =1{tomi 1 dakika içinde yeniden başlatılacak}other{tomi # dakika içinde yeniden başlatılacak}}</translation>
+<translation id="7553334751796114046">Pencerenizi paylaşmak için Sistem Tercihleri'nde tomi'un ekranı kaydetmesine izin verin</translation>
+<translation id="7582945390259497898">tomi, ilgi alanlarınızı tahmin edebilir. Daha sonra ziyaret ettiğiniz bir site, gördüğünüz reklamları kişiselleştirmek için tomi'dan ilgi alanlarınızı göstermesini isteyebilir.</translation>
 <translation id="7583399374488819119"><ph name="COMPANY_NAME" /> Yükleyici</translation>
-<translation id="7585391435984513350">Son zamanlarda ziyaret etmediniz. Decentr, <ph name="PERMISSION" /> iznini kaldırdı.</translation>
-<translation id="761356813943268536">Decentr kameranızı ve mikrofonunuzu kullanıyor.</translation>
-<translation id="7617377681829253106">Decentr daha da iyi bir hale geldi</translation>
+<translation id="7585391435984513350">Son zamanlarda ziyaret etmediniz. tomi, <ph name="PERMISSION" /> iznini kaldırdı.</translation>
+<translation id="761356813943268536">tomi kameranızı ve mikrofonunuzu kullanıyor.</translation>
+<translation id="7617377681829253106">tomi daha da iyi bir hale geldi</translation>
 <translation id="7649070708921625228">Yardım</translation>
-<translation id="7682213815243802460">Bu özellikler hakkında daha fazla bilgiyi Decentr ayarlarında bulabilirsiniz.</translation>
-<translation id="7686590090926151193">Decentr varsayılan tarayıcınız değil</translation>
-<translation id="7689606757190482937">Decentr'u cihazlarınız arasında senkronize edin ve kişiselleştirin</translation>
-<translation id="7699779824407626136">Decentr güncellemesi</translation>
-<translation id="7745317241717453663">Bu işlem tarama verilerinizi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Decentr'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
+<translation id="7682213815243802460">Bu özellikler hakkında daha fazla bilgiyi tomi ayarlarında bulabilirsiniz.</translation>
+<translation id="7686590090926151193">tomi varsayılan tarayıcınız değil</translation>
+<translation id="7689606757190482937">tomi'u cihazlarınız arasında senkronize edin ve kişiselleştirin</translation>
+<translation id="7699779824407626136">tomi güncellemesi</translation>
+<translation id="7745317241717453663">Bu işlem tarama verilerinizi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için tomi'da <ph name="USER_EMAIL" /> hesabıyla oturum açın.</translation>
 <translation id="7747138024166251722">Yükleyici geçici bir dizin oluşturamadı. Lütfen, kullanılabilir disk alanını ve yazılım yükleme iznini kontrol edin.</translation>
-<translation id="7786760609782648049">Decentr'u daha hızlı hale getirin</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - Decentr Canary</translation>
-<translation id="7803986347287457849">İnternet trafiğinize erişimi olan kişilerin, ziyaret ettiğiniz siteleri görmesini zorlaştırın. Decentr, DNS'de (Alan Adı Sistemi) bir sitenin IP adresini aramak için güvenli bağlantı kullanır.</translation>
-<translation id="7828947555739565424">Cihazda bu hesaba sahip bir Decentr profili zaten var</translation>
+<translation id="7786760609782648049">tomi'u daha hızlı hale getirin</translation>
+<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - tomi Canary</translation>
+<translation id="7803986347287457849">İnternet trafiğinize erişimi olan kişilerin, ziyaret ettiğiniz siteleri görmesini zorlaştırın. tomi, DNS'de (Alan Adı Sistemi) bir sitenin IP adresini aramak için güvenli bağlantı kullanır.</translation>
+<translation id="7828947555739565424">Cihazda bu hesaba sahip bir tomi profili zaten var</translation>
 <translation id="7845233973568007926">Yüklediğiniz için teşekkür ederiz. <ph name="BUNDLE_NAME" /> uygulamasını kullanmadan önce bilgisayarınızı yeniden başlatmanız gerekir.</translation>
-<translation id="7859018312476869945">Adres çubuğuna veya arama kutusuna yazdığınızda Decentr, yazdıklarınızı varsayılan arama motorunuza göndererek daha iyi öneriler görmenizi sağlar. Bu ayar Gizli modda kapalıdır.</translation>
-<translation id="7867198900892795913">Decentr en son sürüme güncellenemediği için yeni özellikler ve güvenlik düzeltmeleri cihazınızda bulunmuyor.</translation>
+<translation id="7859018312476869945">Adres çubuğuna veya arama kutusuna yazdığınızda tomi, yazdıklarınızı varsayılan arama motorunuza göndererek daha iyi öneriler görmenizi sağlar. Bu ayar Gizli modda kapalıdır.</translation>
+<translation id="7867198900892795913">tomi en son sürüme güncellenemediği için yeni özellikler ve güvenlik düzeltmeleri cihazınızda bulunmuyor.</translation>
 <translation id="7872446069773932638">İndiriliyor... <ph name="SECONDS" /> saniye kaldı</translation>
-<translation id="7877292582355102282"><ph name="BEGIN_BOLD" />Verilerinizi yönetme:<ph name="END_BOLD" /> Gizliliğinizi korumak için 4 haftadan eski ilgi alanlarınızı otomatik olarak sileriz. Siz internette gezindikçe ilgi alanları tekrar listede görünmeye başlayabilir. Dilerseniz Decentr'un dikkate almasını istemediğiniz ilgi alanlarını kaldırabilirsiniz.</translation>
-<translation id="7888981273428720788">Decentr'u varsayılan tarayıcınız olarak ayarlayın</translation>
-<translation id="7934340546140346950">Decentr, güvensiz bağlantıları mümkün olduğunda otomatik olarak HTTPS'ye yükseltir</translation>
-<translation id="7937630085815544518">Decentr'da <ph name="USER_EMAIL_ADDRESS" /> olarak oturum açtınız. Tekrar oturum açmak için lütfen aynı hesabı kullanın.</translation>
-<translation id="7975919845073681630">Bu, Decentr'un ikincil bir yüklemesidir ve varsayılan tarayıcınız yapılamaz.</translation>
-<translation id="7997934263947464652">Bilinmeyen kaynaklardan gelen uzantılar, uygulamalar ve temalar cihazınıza zarar verebilir. Decentr bunların yalnızca <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> kaynağından yüklenmesini önerir.</translation>
-<translation id="8013436988911883588">Decentr erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.</translation>
+<translation id="7877292582355102282"><ph name="BEGIN_BOLD" />Verilerinizi yönetme:<ph name="END_BOLD" /> Gizliliğinizi korumak için 4 haftadan eski ilgi alanlarınızı otomatik olarak sileriz. Siz internette gezindikçe ilgi alanları tekrar listede görünmeye başlayabilir. Dilerseniz tomi'un dikkate almasını istemediğiniz ilgi alanlarını kaldırabilirsiniz.</translation>
+<translation id="7888981273428720788">tomi'u varsayılan tarayıcınız olarak ayarlayın</translation>
+<translation id="7934340546140346950">tomi, güvensiz bağlantıları mümkün olduğunda otomatik olarak HTTPS'ye yükseltir</translation>
+<translation id="7937630085815544518">tomi'da <ph name="USER_EMAIL_ADDRESS" /> olarak oturum açtınız. Tekrar oturum açmak için lütfen aynı hesabı kullanın.</translation>
+<translation id="7975919845073681630">Bu, tomi'un ikincil bir yüklemesidir ve varsayılan tarayıcınız yapılamaz.</translation>
+<translation id="7997934263947464652">Bilinmeyen kaynaklardan gelen uzantılar, uygulamalar ve temalar cihazınıza zarar verebilir. tomi bunların yalnızca <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> kaynağından yüklenmesini önerir.</translation>
+<translation id="8013436988911883588">tomi erişim izni aldıktan sonra, web siteleri de erişim için sizden izin isteyebilecek.</translation>
 <translation id="80471789339884597">Yüklediğiniz için teşekkür ederiz. <ph name="BUNDLE_NAME" /> uygulamasını kullanmadan önce tüm tarayıcılarınızı yeniden başlatmanız gerekir.</translation>
 <translation id="8086881907087796310">Bilgisayarınız minimum donanım gereksinimlerini karşılamadığından yükleme işlemi başarısız oldu.</translation>
-<translation id="8096472344908884505"><ph name="PAGE_TITLE" /> - Decentr for Testing</translation>
-<translation id="8105840573057009683">Bu site için Decentr'un konum iznine ihtiyacı var</translation>
-<translation id="8133124826068723441">Senkronizasyon alan adınızda kullanılamadığından DecentrOS, verilerinizi senkronize edemedi.</translation>
+<translation id="8096472344908884505"><ph name="PAGE_TITLE" /> - tomi for Testing</translation>
+<translation id="8105840573057009683">Bu site için tomi'un konum iznine ihtiyacı var</translation>
+<translation id="8133124826068723441">Senkronizasyon alan adınızda kullanılamadığından tomiOS, verilerinizi senkronize edemedi.</translation>
 <translation id="813913629614996137">İlk kullanıma hazırlanıyor...</translation>
-<translation id="8166782796394721554">Decentr'un JavaScript ve WebAssembly motorunda ek korumayı etkinleştirin</translation>
-<translation id="81770708095080097">Bu dosya tehlikeli olduğu için Decentr tarafından engellendi.</translation>
-<translation id="8223363452568144035">Kameranızı kullanması için <ph name="BEGIN_LINK" />sistem ayarlarında<ph name="END_LINK" /> Decentr'a erişim izni verin</translation>
-<translation id="8232193495299001329">Decentr, bu uzantının kaynağını doğrulayamadığı için uzantı güvenli olmayabilir. Kişisel bilgiler de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı Decentr'dan kaldırın.</translation>
-<translation id="8248265253516264921">Bir resmin işe yarar bir açıklaması yoksa, Decentr sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Decentr'a gönderilir. Bu özelliği istediğiniz zaman ayarlardan kapatabilirsiniz.</translation>
-<translation id="8254601181414348851">Decentr'da yeni bir profilde oturum açılsın mı?</translation>
-<translation id="8266560134891435528">Oturum açmadığınız için Decentr, şifrelerinizi kontrol edemiyor</translation>
-<translation id="8286943863733751221"><ph name="BEGIN_LINK" />Decentr sizi uyararak<ph name="END_LINK" /> güvenli olmayan sitelerden ve indirmelerden haberdar olmanızı sağlar</translation>
-<translation id="8318772038038596122"><ph name="TIMEOUT_DURATION" /> boyunca kullanılmadığında Decentr kuruluşunuz tarafından kapatılır.</translation>
-<translation id="8330519371938183845">Decentr'u cihazlarınız arasında senkronize etmek ve kişiselleştirmek için oturum açın</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> önceden Decentr kullanıyordu</translation>
-<translation id="8357820681460164151">Decentr öğelerinize tüm cihazlarınızda erişmek için oturum açın ve senkronizasyonu etkinleştirin</translation>
-<translation id="8360718212975266891">Gelecekteki Decentr güncellemelerini almak için Windows 10 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar Windows 8 kullanıyor.</translation>
-<translation id="8370517070665726704">Telif hakkı <ph name="YEAR" /> Decentr LLC. Tüm hakları saklıdır.</translation>
-<translation id="8372327902843331129">Şifrelerinizi ve diğer öğelerinizi tüm cihazlarınızda kullanmak için Decentr'da oturum açın. Bu şifre, oturum açtıktan sonra Decentr Hesabınıza kaydedilir.</translation>
-<translation id="837460953767177950">Ardından Decentr'u yeniden başlatmanız gerekir.</translation>
-<translation id="8397248745433792218">Decentr bunu kaldırmanızı öneriyor. <ph name="BEGIN_LINK" />Desteklenen uzantılar hakkında daha fazla bilgi edinin.<ph name="END_LINK" /></translation>
-<translation id="8401454788024434101">Bu uzantı, geliştiricisi tarafından yayından kaldırıldığı için güvenli olmayabilir. Kişisel bilgileriniz de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı Decentr'dan kaldırın.</translation>
-<translation id="8417404458978023919">{0,plural, =1{Decentr'u bir gün içinde yeniden başlatın}other{Decentr'u # gün içinde yeniden başlatın}}</translation>
-<translation id="8453117565092476964">Yükleyici arşivi bozuk veya geçersiz. Lütfen Decentr'u yeniden indirin.</translation>
-<translation id="8458614432758743027">Decentr, Windows 10 veya daha sonraki bir sürümü gerektirir.</translation>
-<translation id="8463672209299734063">İsteğe bağlı: Teşhis ve kullanım verilerini Decentr'a otomatik olarak göndererek DecentrOS özelliklerini ve performansını iyileştirmeye yardımcı olun.</translation>
-<translation id="8493179195440786826">Decentr Sürümü Eski</translation>
-<translation id="8522801943730206384">Decentr, kaydetmeniz halinde şifrelerinizi kontrol edebilir</translation>
+<translation id="8166782796394721554">tomi'un JavaScript ve WebAssembly motorunda ek korumayı etkinleştirin</translation>
+<translation id="81770708095080097">Bu dosya tehlikeli olduğu için tomi tarafından engellendi.</translation>
+<translation id="8223363452568144035">Kameranızı kullanması için <ph name="BEGIN_LINK" />sistem ayarlarında<ph name="END_LINK" /> tomi'a erişim izni verin</translation>
+<translation id="8232193495299001329">tomi, bu uzantının kaynağını doğrulayamadığı için uzantı güvenli olmayabilir. Kişisel bilgiler de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı tomi'dan kaldırın.</translation>
+<translation id="8248265253516264921">Bir resmin işe yarar bir açıklaması yoksa, tomi sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler tomi'a gönderilir. Bu özelliği istediğiniz zaman ayarlardan kapatabilirsiniz.</translation>
+<translation id="8254601181414348851">tomi'da yeni bir profilde oturum açılsın mı?</translation>
+<translation id="8266560134891435528">Oturum açmadığınız için tomi, şifrelerinizi kontrol edemiyor</translation>
+<translation id="8286943863733751221"><ph name="BEGIN_LINK" />tomi sizi uyararak<ph name="END_LINK" /> güvenli olmayan sitelerden ve indirmelerden haberdar olmanızı sağlar</translation>
+<translation id="8318772038038596122"><ph name="TIMEOUT_DURATION" /> boyunca kullanılmadığında tomi kuruluşunuz tarafından kapatılır.</translation>
+<translation id="8330519371938183845">tomi'u cihazlarınız arasında senkronize etmek ve kişiselleştirmek için oturum açın</translation>
+<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> önceden tomi kullanıyordu</translation>
+<translation id="8357820681460164151">tomi öğelerinize tüm cihazlarınızda erişmek için oturum açın ve senkronizasyonu etkinleştirin</translation>
+<translation id="8360718212975266891">Gelecekteki tomi güncellemelerini almak için Windows 10 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar Windows 8 kullanıyor.</translation>
+<translation id="8370517070665726704">Telif hakkı <ph name="YEAR" /> tomi LLC. Tüm hakları saklıdır.</translation>
+<translation id="8372327902843331129">Şifrelerinizi ve diğer öğelerinizi tüm cihazlarınızda kullanmak için tomi'da oturum açın. Bu şifre, oturum açtıktan sonra tomi Hesabınıza kaydedilir.</translation>
+<translation id="837460953767177950">Ardından tomi'u yeniden başlatmanız gerekir.</translation>
+<translation id="8397248745433792218">tomi bunu kaldırmanızı öneriyor. <ph name="BEGIN_LINK" />Desteklenen uzantılar hakkında daha fazla bilgi edinin.<ph name="END_LINK" /></translation>
+<translation id="8401454788024434101">Bu uzantı, geliştiricisi tarafından yayından kaldırıldığı için güvenli olmayabilir. Kişisel bilgileriniz de dahil olmak üzere ziyaret ettiğiniz sitelerdeki verilerinizi artık görememesi ve değiştirememesi için bu uzantıyı tomi'dan kaldırın.</translation>
+<translation id="8417404458978023919">{0,plural, =1{tomi'u bir gün içinde yeniden başlatın}other{tomi'u # gün içinde yeniden başlatın}}</translation>
+<translation id="8453117565092476964">Yükleyici arşivi bozuk veya geçersiz. Lütfen tomi'u yeniden indirin.</translation>
+<translation id="8458614432758743027">tomi, Windows 10 veya daha sonraki bir sürümü gerektirir.</translation>
+<translation id="8463672209299734063">İsteğe bağlı: Teşhis ve kullanım verilerini tomi'a otomatik olarak göndererek tomiOS özelliklerini ve performansını iyileştirmeye yardımcı olun.</translation>
+<translation id="8493179195440786826">tomi Sürümü Eski</translation>
+<translation id="8522801943730206384">tomi, kaydetmeniz halinde şifrelerinizi kontrol edebilir</translation>
 <translation id="8550334526674375523">Bu iş profili, kişisel profilinizden tamamen ayrıdır.</translation>
 <translation id="8555465886620020932">Hizmet hatası: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8568283329061645092">Decentr, Decentr Hesabınızla oturum açtığınızda şifrelerinizi kontrol edebilir</translation>
-<translation id="8576826849825683917">Decentr'u birden fazla kuruluş yönetiyor</translation>
-<translation id="8586442755830160949">Telif Hakkı <ph name="YEAR" /> The Decentr Authors. Tüm hakları saklıdır.</translation>
-<translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Bu verileri kullanma şeklimiz:<ph name="END_BOLD" /> Siteler, ilgi alanlarınız hakkındaki bilgileri Decentr'da saklayabilir. Örneğin, maraton ayakkabısı satın almak için ziyaret ettiğiniz bir site, maraton koşmayı ilgi alanınız olarak tanımlayabilir. Daha sonra bir yarışa kaydolmak için farklı bir siteyi ziyaret ettiğinizde o site ilgi alanlarınıza dayalı olarak size koşu ayakkabısı reklamı gösterebilir.</translation>
-<translation id="8619360774459241877">Decentr başlatılıyor...</translation>
-<translation id="8621669128220841554">Yükleme belirtilmeyen bir hata nedeniyle başarısız oldu. Lütfen Decentr'u tekrar indirin.</translation>
-<translation id="8648201657708811153">Decentr for Testing varsayılan tarayıcınız olarak ayarlanamaz.</translation>
-<translation id="8697124171261953979">Ayrıca Decentr'u başlattığınızda veya Çok Amaçlı Adres Çubuğu'ndan arama yaptığınızda gösterilecek sayfayı da denetler.</translation>
-<translation id="8704119203788522458">Bu sizin Decentr'unuz</translation>
-<translation id="8719993436687031146">Decentr'da oturum açmak istiyor musunuz?</translation>
+<translation id="8568283329061645092">tomi, tomi Hesabınızla oturum açtığınızda şifrelerinizi kontrol edebilir</translation>
+<translation id="8576826849825683917">tomi'u birden fazla kuruluş yönetiyor</translation>
+<translation id="8586442755830160949">Telif Hakkı <ph name="YEAR" /> The tomi Authors. Tüm hakları saklıdır.</translation>
+<translation id="8608079656141766906"><ph name="BEGIN_BOLD" />Bu verileri kullanma şeklimiz:<ph name="END_BOLD" /> Siteler, ilgi alanlarınız hakkındaki bilgileri tomi'da saklayabilir. Örneğin, maraton ayakkabısı satın almak için ziyaret ettiğiniz bir site, maraton koşmayı ilgi alanınız olarak tanımlayabilir. Daha sonra bir yarışa kaydolmak için farklı bir siteyi ziyaret ettiğinizde o site ilgi alanlarınıza dayalı olarak size koşu ayakkabısı reklamı gösterebilir.</translation>
+<translation id="8619360774459241877">tomi başlatılıyor...</translation>
+<translation id="8621669128220841554">Yükleme belirtilmeyen bir hata nedeniyle başarısız oldu. Lütfen tomi'u tekrar indirin.</translation>
+<translation id="8648201657708811153">tomi for Testing varsayılan tarayıcınız olarak ayarlanamaz.</translation>
+<translation id="8697124171261953979">Ayrıca tomi'u başlattığınızda veya Çok Amaçlı Adres Çubuğu'ndan arama yaptığınızda gösterilecek sayfayı da denetler.</translation>
+<translation id="8704119203788522458">Bu sizin tomi'unuz</translation>
+<translation id="8719993436687031146">tomi'da oturum açmak istiyor musunuz?</translation>
 <translation id="878572486461146056">Yükleme hatası: Ağ yöneticiniz, yükleme işlemini engelleyen bir grup politikası uygulamış: <ph name="INSTALL_ERROR" /></translation>
-<translation id="8796602469536043152">Decentr'un bu sitede kameranıza ve mikrofonunuza erişmesi için izin gerekiyor</translation>
-<translation id="8818550178040858407">Decentr'da oturum açılsın mı?</translation>
+<translation id="8796602469536043152">tomi'un bu sitede kameranıza ve mikrofonunuza erişmesi için izin gerekiyor</translation>
+<translation id="8818550178040858407">tomi'da oturum açılsın mı?</translation>
 <translation id="8826492472752484139">"Şifre Yöneticisi"ni tıklayın</translation>
-<translation id="8833697763442816810">DecentrOS Sistemi</translation>
-<translation id="8846118132221683440"><ph name="BEGIN_BOLD" />Kullanılan veriler:<ph name="END_BOLD" /> Tarama geçmişiniz, bu cihazda Decentr'u kullanarak ziyaret ettiğiniz sitelerin kaydı.</translation>
+<translation id="8833697763442816810">tomiOS Sistemi</translation>
+<translation id="8846118132221683440"><ph name="BEGIN_BOLD" />Kullanılan veriler:<ph name="END_BOLD" /> Tarama geçmişiniz, bu cihazda tomi'u kullanarak ziyaret ettiğiniz sitelerin kaydı.</translation>
 <translation id="8862326446509486874">Sistem düzeyinde yükleme için gerekli haklara sahip değilsiniz. Yükleyiciyi Yönetici olarak tekrar çalıştırmayı deneyin.</translation>
-<translation id="8880203542552872219">Değiştirdiyseniz Decentr'da kayıtlı şifrenizi, lütfen yeni şifrenizle aynı olacak şekilde düzenleyin.</translation>
-<translation id="8907580949721785412">Decentr şifreleri göstermeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
-<translation id="8931379085695076764">Decentr son birkaç haftalık tarama geçmişinize göre ilgi alanlarınızı tahmin edebilir. Bu bilgi, cihazınızda kalır.</translation>
-<translation id="8941642502866065432">Decentr güncellenemiyor</translation>
-<translation id="897581876605952338">Decentr Enterprise logosu</translation>
+<translation id="8880203542552872219">Değiştirdiyseniz tomi'da kayıtlı şifrenizi, lütfen yeni şifrenizle aynı olacak şekilde düzenleyin.</translation>
+<translation id="8907580949721785412">tomi şifreleri göstermeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
+<translation id="8931379085695076764">tomi son birkaç haftalık tarama geçmişinize göre ilgi alanlarınızı tahmin edebilir. Bu bilgi, cihazınızda kalır.</translation>
+<translation id="8941642502866065432">tomi güncellenemiyor</translation>
+<translation id="897581876605952338">tomi Enterprise logosu</translation>
 <translation id="8986207147630327271">Bu tarayıcıya bir iş profili ekliyor ve yöneticinize yalnızca iş profilini kontrol etme yetkisi veriyorsunuz.</translation>
-<translation id="8988036198400390003">Decentr profillerini yönetin</translation>
-<translation id="9019929317751753759">Decentr'u daha güvenli bir hale getirmek için <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> altında listelenmeyen ve bilginiz dışında eklenmiş olabilecek aşağıdaki uzantıyı devre dışı bıraktık.</translation>
-<translation id="9022552996538154597">Decentr'da oturum aç</translation>
-<translation id="904366664621834601">Arşiv dosyası, kötü amaçlı yazılımın gizlenmiş olabileceği başka dosyalar içerdiği için Decentr bu indirme işlemini engelledi</translation>
-<translation id="9062666675513499497">Diğer Decentr hizmetlerinde oturum açtığınızda Decentr'da oturum açın</translation>
-<translation id="907832235989677238">Decentr'da oturum açın. Bir hesapta yalnızca bir kez oturum açmak istiyorsanız <ph name="GUEST_LINK_BEGIN" />cihazı misafir olarak kullanabilirsiniz<ph name="GUEST_LINK_END" />.</translation>
-<translation id="9078733879136747090">Decentr otomatik olarak kapatıldı</translation>
-<translation id="9089354809943900324">Decentr sürümü eski</translation>
-<translation id="9093206154853821181">{0,plural, =1{Decentr bir saat içinde yeniden başlatılacak}other{Decentr # saat içinde yeniden başlatılacak}}</translation>
-<translation id="9106612006984859720">Gelecekteki Decentr güncellemelerini almak için Windows 10 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar Windows 8.1 kullanıyor.</translation>
-<translation id="91086099826398415">Bağlantıyı Yeni Decentr &amp;sekmesinde aç</translation>
+<translation id="8988036198400390003">tomi profillerini yönetin</translation>
+<translation id="9019929317751753759">tomi'u daha güvenli bir hale getirmek için <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> altında listelenmeyen ve bilginiz dışında eklenmiş olabilecek aşağıdaki uzantıyı devre dışı bıraktık.</translation>
+<translation id="9022552996538154597">tomi'da oturum aç</translation>
+<translation id="904366664621834601">Arşiv dosyası, kötü amaçlı yazılımın gizlenmiş olabileceği başka dosyalar içerdiği için tomi bu indirme işlemini engelledi</translation>
+<translation id="9062666675513499497">Diğer tomi hizmetlerinde oturum açtığınızda tomi'da oturum açın</translation>
+<translation id="907832235989677238">tomi'da oturum açın. Bir hesapta yalnızca bir kez oturum açmak istiyorsanız <ph name="GUEST_LINK_BEGIN" />cihazı misafir olarak kullanabilirsiniz<ph name="GUEST_LINK_END" />.</translation>
+<translation id="9078733879136747090">tomi otomatik olarak kapatıldı</translation>
+<translation id="9089354809943900324">tomi sürümü eski</translation>
+<translation id="9093206154853821181">{0,plural, =1{tomi bir saat içinde yeniden başlatılacak}other{tomi # saat içinde yeniden başlatılacak}}</translation>
+<translation id="9106612006984859720">Gelecekteki tomi güncellemelerini almak için Windows 10 veya sonraki bir sürümün yüklü olması gerekir. Bu bilgisayar Windows 8.1 kullanıyor.</translation>
+<translation id="91086099826398415">Bağlantıyı Yeni tomi &amp;sekmesinde aç</translation>
 <translation id="911206726377975832">Tarama verileriniz de silinsin mi?</translation>
-<translation id="9144490074902256427">Denemeler sırasında, sitelerin size reklam göstermek için kullandığı ilgi alanlarını görebilir ve kaldırabilirsiniz. Decentr, ilgi alanlarınızı tahmin ederken son tarama geçmişinizi kullanır.</translation>
-<translation id="9158494823179993217">Sistem yöneticiniz, Decentr'u, <ph name="TARGET_URL_HOSTNAME" /> sitesini alternatif bir tarayıcıda açacak şekilde yapılandırmış.</translation>
-<translation id="9185526690718004400">&amp;Decentr'u güncellemek için yeniden başlat</translation>
-<translation id="9190841055450128916">Decentr (mDNS-In)</translation>
-<translation id="924957577793602335">Decentr'u kendinize uyarlayın</translation>
-<translation id="93478295209880648">Decentr artık Windows XP veya Windows Vista üzerinde desteklenmediği için doğru şekilde çalışmayabilir</translation>
-<translation id="942598560705308788">Decentr tarafından yönetilen sertifikalar</translation>
-<translation id="965162752251293939">Decentr'u kim kullanıyor?</translation>
-<translation id="967427899662692980">Decentr'un en güçlü güvenlik özelliğinden faydalanın</translation>
+<translation id="9144490074902256427">Denemeler sırasında, sitelerin size reklam göstermek için kullandığı ilgi alanlarını görebilir ve kaldırabilirsiniz. tomi, ilgi alanlarınızı tahmin ederken son tarama geçmişinizi kullanır.</translation>
+<translation id="9158494823179993217">Sistem yöneticiniz, tomi'u, <ph name="TARGET_URL_HOSTNAME" /> sitesini alternatif bir tarayıcıda açacak şekilde yapılandırmış.</translation>
+<translation id="9185526690718004400">&amp;tomi'u güncellemek için yeniden başlat</translation>
+<translation id="9190841055450128916">tomi (mDNS-In)</translation>
+<translation id="924957577793602335">tomi'u kendinize uyarlayın</translation>
+<translation id="93478295209880648">tomi artık Windows XP veya Windows Vista üzerinde desteklenmediği için doğru şekilde çalışmayabilir</translation>
+<translation id="942598560705308788">tomi tarafından yönetilen sertifikalar</translation>
+<translation id="965162752251293939">tomi'u kim kullanıyor?</translation>
+<translation id="967427899662692980">tomi'un en güçlü güvenlik özelliğinden faydalanın</translation>
 <translation id="983803489796659991">Güncelleme sunucusunda uygulamanın karma verisi bulunmadığından yükleme işlemi başarısız oldu.</translation>
-<translation id="985498048907240953">Decentr'u hesap olmadan kullan</translation>
-<translation id="985602178874221306">The Decentr Authors</translation>
-<translation id="992780518932311116">Konumunuzu kullanması için <ph name="BEGIN_LINK" />sistem ayarlarında<ph name="END_LINK" /> Decentr'a erişim izni verin</translation>
+<translation id="985498048907240953">tomi'u hesap olmadan kullan</translation>
+<translation id="985602178874221306">The tomi Authors</translation>
+<translation id="992780518932311116">Konumunuzu kullanması için <ph name="BEGIN_LINK" />sistem ayarlarında<ph name="END_LINK" /> tomi'a erişim izni verin</translation>
 </translationbundle>

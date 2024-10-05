@@ -2,14 +2,14 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="zu">
 <translation id="130631256467250065">Izinguquko zakho zakho zizosebenza ngesikhathi esilandelayo uma uqalisa kabusha idivayisi yakho.</translation>
-<translation id="275588974610408078">Ukubika kokuphahlazeka akutholakali ku-Decentr.</translation>
-<translation id="3064346599913645280">Ubuka ikhasi le-Decentr eliphephile</translation>
-<translation id="3255926992597692024">I-Decentr izama ukulungisa amasethingi okugcwalisa izindlela zokukhokha.</translation>
-<translation id="358997566136285270">Ilogo ye-Decentr</translation>
-<translation id="4050599136622776556">I-Decentr izama ukuhlela izindlela zokukhokha.</translation>
-<translation id="4365115785552740256">I-Decentr yenziwa ukuthi ibe khona yi-<ph name="BEGIN_LINK_CHROMIUM" />Decentr<ph name="END_LINK_CHROMIUM" /> iphrojekthi yomthombo ovulekile kanye nenye <ph name="BEGIN_LINK_OSS" />isofthiwe yomthombo ovulekile<ph name="END_LINK_OSS" />.</translation>
+<translation id="275588974610408078">Ukubika kokuphahlazeka akutholakali ku-tomi.</translation>
+<translation id="3064346599913645280">Ubuka ikhasi le-tomi eliphephile</translation>
+<translation id="3255926992597692024">I-tomi izama ukulungisa amasethingi okugcwalisa izindlela zokukhokha.</translation>
+<translation id="358997566136285270">Ilogo ye-tomi</translation>
+<translation id="4050599136622776556">I-tomi izama ukuhlela izindlela zokukhokha.</translation>
+<translation id="4365115785552740256">I-tomi yenziwa ukuthi ibe khona yi-<ph name="BEGIN_LINK_CHROMIUM" />tomi<ph name="END_LINK_CHROMIUM" /> iphrojekthi yomthombo ovulekile kanye nenye <ph name="BEGIN_LINK_OSS" />isofthiwe yomthombo ovulekile<ph name="END_LINK_OSS" />.</translation>
 <translation id="4559775032954821361">Hamba kumenyu
-          ye-Decentr &gt;
+          ye-tomi &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
@@ -18,23 +18,23 @@
           &gt;
           Izilungiselelo ze-LAN
           uphinde uyekise ukukhetha ibhokisi lokuhlola le-"Sebenzisa iseva elibambayo nge-LAN yakho".</translation>
-<translation id="4622039161600275920">Leli khasi livinjwe yi-Decentr</translation>
-<translation id="48558539577516920">Vumela i-Decentr ukufinyelela inethiwekhi kuzilungiselelo zakho zohlelo lokuvikela noma isilwi magciwane.</translation>
+<translation id="4622039161600275920">Leli khasi livinjwe yi-tomi</translation>
+<translation id="48558539577516920">Vumela i-tomi ukufinyelela inethiwekhi kuzilungiselelo zakho zohlelo lokuvikela noma isilwi magciwane.</translation>
 <translation id="580822234363523061">Hamba
-          kumenyu ye-Decentr &gt;
+          kumenyu ye-tomi &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
           &gt;
           <ph name="PROXIES_TITLE" />
           uphinde uqiniseke ukuthi ukulungiselelwa kwakho kusethelwe ku-"akukho ummeleli" noma "kuqondile."</translation>
-<translation id="6549378540556750549">I-Decentr iphinda yenziwe enye <ph name="BEGIN_LINK_OSS" />isofthiwe yomthombo ovulekile<ph name="END_LINK_OSS" />.</translation>
-<translation id="6613594504749178791">Izinguquko zakho zizosebenza ngesikhathi esilandelayo uma uqalisa kabusha i-Decentr.</translation>
-<translation id="691026815377248078">I-Decentr idinga ukufinyelela kwe-Bluetooth ukuze iqhubeke 
+<translation id="6549378540556750549">I-tomi iphinda yenziwe enye <ph name="BEGIN_LINK_OSS" />isofthiwe yomthombo ovulekile<ph name="END_LINK_OSS" />.</translation>
+<translation id="6613594504749178791">Izinguquko zakho zizosebenza ngesikhathi esilandelayo uma uqalisa kabusha i-tomi.</translation>
+<translation id="691026815377248078">I-tomi idinga ukufinyelela kwe-Bluetooth ukuze iqhubeke 
  nokumatanisa. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="7681937895330411637">I-Decentr yenziwe yenzeke iphrojekthi yomthombo ovulekile we-<ph name="BEGIN_LINK_CHROMIUM" />Decentr<ph name="END_LINK_CHROMIUM" />.</translation>
+<translation id="7681937895330411637">I-tomi yenziwe yenzeke iphrojekthi yomthombo ovulekile we-<ph name="BEGIN_LINK_CHROMIUM" />tomi<ph name="END_LINK_CHROMIUM" />.</translation>
 <translation id="7861509383340276692">Hamba
-        kumenyu ye-Decentr &gt;
+        kumenyu ye-tomi &gt;
         <ph name="SETTINGS_TITLE" />
         &gt;
         <ph name="ADVANCED_TITLE" />
@@ -43,6 +43,6 @@
 <translation id="8187289872471304532">Hamba ku-
           Izinhlelo zokusebenza &gt; Okuncamelayo kwesistimu &gt; Inethiwekhi &gt; Okuthuthukisiwe &gt; Ommeleli
           uphinde uyekele ukukhetha noma yibaphi abammeleli abakhethiwe.</translation>
-<translation id="8597726643333341451">Ubuka ikhasi elivikelekile le-Decentr Yokuhlola</translation>
-<translation id="8684913864886094367">I-Decentr ayizange ivaleke ngokulungile.</translation>
+<translation id="8597726643333341451">Ubuka ikhasi elivikelekile le-tomi Yokuhlola</translation>
+<translation id="8684913864886094367">I-tomi ayizange ivaleke ngokulungile.</translation>
 </translationbundle>

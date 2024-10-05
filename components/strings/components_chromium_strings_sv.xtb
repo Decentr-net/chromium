@@ -2,14 +2,14 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="sv">
 <translation id="130631256467250065">Dina ändringar börjar gälla nästa gång du startar om enheten.</translation>
-<translation id="275588974610408078">Felrapportering är inte tillgängligt i Decentr.</translation>
-<translation id="3064346599913645280">Du visar en säker Decentr-sida</translation>
-<translation id="3255926992597692024">Decentr försöker ändra inställningarna för att fylla i betalningsmetoder.</translation>
-<translation id="358997566136285270">Decentr-logotyp</translation>
-<translation id="4050599136622776556">Decentr försöker redigera betalningsmetoder.</translation>
-<translation id="4365115785552740256">Decentr finns tack vare projektet <ph name="BEGIN_LINK_CHROMIUM" />Decentr<ph name="END_LINK_CHROMIUM" /> med öppen källkod och <ph name="BEGIN_LINK_OSS" />andra program med öppen källkod<ph name="END_LINK_OSS" />.</translation>
+<translation id="275588974610408078">Felrapportering är inte tillgängligt i tomi.</translation>
+<translation id="3064346599913645280">Du visar en säker tomi-sida</translation>
+<translation id="3255926992597692024">tomi försöker ändra inställningarna för att fylla i betalningsmetoder.</translation>
+<translation id="358997566136285270">tomi-logotyp</translation>
+<translation id="4050599136622776556">tomi försöker redigera betalningsmetoder.</translation>
+<translation id="4365115785552740256">tomi finns tack vare projektet <ph name="BEGIN_LINK_CHROMIUM" />tomi<ph name="END_LINK_CHROMIUM" /> med öppen källkod och <ph name="BEGIN_LINK_OSS" />andra program med öppen källkod<ph name="END_LINK_OSS" />.</translation>
 <translation id="4559775032954821361">Öppna
-          Decentr-menyn &gt;
+          tomi-menyn &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
@@ -18,24 +18,24 @@
           &gt;
           LAN-inställningar
           och avmarkera kryssrutan Använd en proxyserver för nätverket.</translation>
-<translation id="4622039161600275920">Den här sidan har blockerats av Decentr</translation>
-<translation id="48558539577516920">Tillåt att Decentr får åtkomst till nätverket i inställningarna för brandväggen eller
+<translation id="4622039161600275920">Den här sidan har blockerats av tomi</translation>
+<translation id="48558539577516920">Tillåt att tomi får åtkomst till nätverket i inställningarna för brandväggen eller
         antivirusprogrammet.</translation>
 <translation id="580822234363523061">Öppna
-          Decentr-menyn &gt;
+          tomi-menyn &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
           &gt;
           <ph name="PROXIES_TITLE" />
           och kontrollera att "ingen proxy" eller "direkt" har angetts i konfigurationen</translation>
-<translation id="6549378540556750549">Decentr möjliggörs även av andra <ph name="BEGIN_LINK_OSS" />program med öppen källkod<ph name="END_LINK_OSS" />.</translation>
-<translation id="6613594504749178791">Ändringarna tillämpas nästa gång du startar om Decentr.</translation>
-<translation id="691026815377248078">Decentr behöver åtkomst för Bluetooth för att fortsätta 
+<translation id="6549378540556750549">tomi möjliggörs även av andra <ph name="BEGIN_LINK_OSS" />program med öppen källkod<ph name="END_LINK_OSS" />.</translation>
+<translation id="6613594504749178791">Ändringarna tillämpas nästa gång du startar om tomi.</translation>
+<translation id="691026815377248078">tomi behöver åtkomst för Bluetooth för att fortsätta 
  parkoppla. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="7681937895330411637">Decentr finns tack vare det öppna källkodsprojektet <ph name="BEGIN_LINK_CHROMIUM" />Decentr<ph name="END_LINK_CHROMIUM" />.</translation>
+<translation id="7681937895330411637">tomi finns tack vare det öppna källkodsprojektet <ph name="BEGIN_LINK_CHROMIUM" />tomi<ph name="END_LINK_CHROMIUM" />.</translation>
 <translation id="7861509383340276692">Öppna
-        Decentr-menyn &gt;
+        tomi-menyn &gt;
         <ph name="SETTINGS_TITLE" />
         &gt;
         <ph name="ADVANCED_TITLE" />
@@ -45,6 +45,6 @@
 <translation id="8187289872471304532">Öppna
           Program &gt; Systeminställningar &gt; Nätverk &gt; Avancerat &gt; Proxyservrar
           och avmarkera alla proxyservrar.</translation>
-<translation id="8597726643333341451">Du visar en säker Decentr for Testing-sida</translation>
-<translation id="8684913864886094367">Decentr stängdes inte ordentligt.</translation>
+<translation id="8597726643333341451">Du visar en säker tomi for Testing-sida</translation>
+<translation id="8684913864886094367">tomi stängdes inte ordentligt.</translation>
 </translationbundle>

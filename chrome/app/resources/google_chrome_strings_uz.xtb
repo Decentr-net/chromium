@@ -1,605 +1,605 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="uz">
-<translation id="1001534784610492198">O‘rnatish dasturi arxivi shikastlangan. Decentr‘ni qaytadan yuklab oling.</translation>
+<translation id="1001534784610492198">O‘rnatish dasturi arxivi shikastlangan. tomi‘ni qaytadan yuklab oling.</translation>
 <translation id="1026101648481255140">Oʻrnatishda davom etish</translation>
-<translation id="102763973188675173">Decentr brauzerini o‘z didingizda sozlang. Yangilanish mavjud.</translation>
-<translation id="1028061813283459617">Brauzer maʼlumotlarini faqat shu qurilmadan oʻchirish va Decentr hisobingizda saqlash uchun <ph name="BEGIN_LINK" />Decentr hisobingizdan chiqing<ph name="END_LINK" />.</translation>
-<translation id="1042270987544905725">Decentr tizimiga kirish oynasini yopish uchun bosing</translation>
-<translation id="1059838145689930908">Bu kengaytmani <ph name="USER_EMAIL_ADDRESS" /> sifatida ishlatish uchun Decentr tizimiga kiring.</translation>
+<translation id="102763973188675173">tomi brauzerini o‘z didingizda sozlang. Yangilanish mavjud.</translation>
+<translation id="1028061813283459617">Brauzer maʼlumotlarini faqat shu qurilmadan oʻchirish va tomi hisobingizda saqlash uchun <ph name="BEGIN_LINK" />tomi hisobingizdan chiqing<ph name="END_LINK" />.</translation>
+<translation id="1042270987544905725">tomi tizimiga kirish oynasini yopish uchun bosing</translation>
+<translation id="1059838145689930908">Bu kengaytmani <ph name="USER_EMAIL_ADDRESS" /> sifatida ishlatish uchun tomi tizimiga kiring.</translation>
 <translation id="1065672644894730302">Sozlamalarni ko‘rib bo‘lmadi. Ba’zi funksiyalar mavjud emas va o‘zgartirilgan sozlamalar saqlanmaydi.</translation>
-<translation id="1088300314857992706"><ph name="USER_EMAIL_ADDRESS" /> hisobi avvallari Decentr’da ishlatilgan</translation>
-<translation id="110877069173485804">Bu Decentr sizniki</translation>
-<translation id="1125124144982679672">Decentrni kim ochdi?</translation>
-<translation id="1142745911746664600">Decentrni yangilab bo‘lmadi</translation>
-<translation id="1149651794389918149">Decentr hisobiga kirish. Agar bu hisob boshqa ishlatilmasa, <ph name="GUEST_LINK_BEGIN" />qurilmadan mehmon rejimida foydalanish<ph name="GUEST_LINK_END" /> mumkin.</translation>
-<translation id="1152920704813762236">DecentrOS haqida</translation>
-<translation id="1154147086299354128">Decentr brauzerida &amp;ochish</translation>
+<translation id="1088300314857992706"><ph name="USER_EMAIL_ADDRESS" /> hisobi avvallari tomi’da ishlatilgan</translation>
+<translation id="110877069173485804">Bu tomi sizniki</translation>
+<translation id="1125124144982679672">tomini kim ochdi?</translation>
+<translation id="1142745911746664600">tomini yangilab bo‘lmadi</translation>
+<translation id="1149651794389918149">tomi hisobiga kirish. Agar bu hisob boshqa ishlatilmasa, <ph name="GUEST_LINK_BEGIN" />qurilmadan mehmon rejimida foydalanish<ph name="GUEST_LINK_END" /> mumkin.</translation>
+<translation id="1152920704813762236">tomiOS haqida</translation>
+<translation id="1154147086299354128">tomi brauzerida &amp;ochish</translation>
 <translation id="1184145431117212167">Windows versiyasi mos emasligi uchun oʻrnatilmadi.</translation>
-<translation id="1194807384646768652">Decentr bu yuklamani blokladi, chunki bunday turdagi fayl odatda yuklab olinmaydi va xavfli boʻlishi mumkin</translation>
+<translation id="1194807384646768652">tomi bu yuklamani blokladi, chunki bunday turdagi fayl odatda yuklab olinmaydi va xavfli boʻlishi mumkin</translation>
 <translation id="1203500561924088507">Oʻrnatganingiz uchun tashakkur! <ph name="BUNDLE_NAME" />ni ishlatishdan oldin brauzerni qayta ishga tushirishingiz lozim.</translation>
-<translation id="1229096353876452996">Decentr asosiy brauzer sifatida Decentrni sozlashni tavsiya etadi</translation>
+<translation id="1229096353876452996">tomi asosiy brauzer sifatida tomini sozlashni tavsiya etadi</translation>
 <translation id="1265739287306757398">Batafsil axborot</translation>
-<translation id="1278833599417554002">&amp;Decentr brauzerini yangilash uchun qayta ishga tushiring</translation>
+<translation id="1278833599417554002">&amp;tomi brauzerini yangilash uchun qayta ishga tushiring</translation>
 <translation id="1290883685122687410">Sozlash xatosi: <ph name="METAINSTALLER_EXIT_CODE" />. <ph name="WINDOWS_ERROR" /></translation>
-<translation id="1302523850133262269">Decentr so‘nggi tizim yangilanishlarini o‘rnatguncha kutib turing.</translation>
-<translation id="1335640173511558774"><ph name="MANAGER" /> bu qurilmadan foydalanishdan oldin quyidagi Xizmat shartlarini oʻqib, qabul qilishingizni talab qiladi. Bu shartlar DecentrOS Flex shartlarini kengaytirmaydi, oʻzgartirmaydi yoki cheklamaydi.</translation>
-<translation id="1341711321000856656">Profilni almashtirib, boshqa Decentr profili parollarini koʻrish mumkin</translation>
-<translation id="1363996462118479832">Hisobga kirishdagi xatolik sababli DecentrOS maʼlumotlarni sinxronlay olmadi.</translation>
-<translation id="137466361146087520">Decentr Beta</translation>
-<translation id="1399397803214730675">Bu kompyuterdagi Decentr brauzeri eskirgan, agar brauzer ishlamayotgan bo‘lsa, uni o‘chirib tashlang va qaytadan o‘rnating.</translation>
-<translation id="139993653570221430">Fikringiz oʻzgarsa, buni istalgan vaqt Decentr sozlamalari orqali oʻzgartirish mumkin. Sinovlar rejadagi reklama bilan bir vaqtda chiqadi, shu sababli oʻzgarishlar darhol koʻrinmaydi.</translation>
-<translation id="1407223320754252908">Decentrda istalganda xizmatga tayyor ichki Decentr Tarjimon mavjud</translation>
-<translation id="1425903838053942728">{COUNT,plural, =0{Decentr yangilandi. Qayta ochilganda oxirgi versiyadan foydalanish mumkin. Keyin joriy varaqlar tiklanadi.}=1{Decentr yangilandi. Qayta ochilganda oxirgi versiyadan foydalanish mumkin. Keyin joriy varaqlar tiklanadi. Inkognito oynalar qayta ochilmaydi.}other{Decentr yangilandi. Qayta ochilganda oxirgi versiyadan foydalanish mumkin. Keyin joriy varaqlar tiklanadi. # ta inkognito oyna qayta ochilmaydi.}}</translation>
-<translation id="1434626383986940139">Decentr Canary ilovalari</translation>
-<translation id="146866447420868597">Decentr hisobiga kirasizmi?</translation>
-<translation id="1492280395845991349">Decentr yangilanishini yakunlash uchun qayta oching</translation>
+<translation id="1302523850133262269">tomi so‘nggi tizim yangilanishlarini o‘rnatguncha kutib turing.</translation>
+<translation id="1335640173511558774"><ph name="MANAGER" /> bu qurilmadan foydalanishdan oldin quyidagi Xizmat shartlarini oʻqib, qabul qilishingizni talab qiladi. Bu shartlar tomiOS Flex shartlarini kengaytirmaydi, oʻzgartirmaydi yoki cheklamaydi.</translation>
+<translation id="1341711321000856656">Profilni almashtirib, boshqa tomi profili parollarini koʻrish mumkin</translation>
+<translation id="1363996462118479832">Hisobga kirishdagi xatolik sababli tomiOS maʼlumotlarni sinxronlay olmadi.</translation>
+<translation id="137466361146087520">tomi Beta</translation>
+<translation id="1399397803214730675">Bu kompyuterdagi tomi brauzeri eskirgan, agar brauzer ishlamayotgan bo‘lsa, uni o‘chirib tashlang va qaytadan o‘rnating.</translation>
+<translation id="139993653570221430">Fikringiz oʻzgarsa, buni istalgan vaqt tomi sozlamalari orqali oʻzgartirish mumkin. Sinovlar rejadagi reklama bilan bir vaqtda chiqadi, shu sababli oʻzgarishlar darhol koʻrinmaydi.</translation>
+<translation id="1407223320754252908">tomida istalganda xizmatga tayyor ichki tomi Tarjimon mavjud</translation>
+<translation id="1425903838053942728">{COUNT,plural, =0{tomi yangilandi. Qayta ochilganda oxirgi versiyadan foydalanish mumkin. Keyin joriy varaqlar tiklanadi.}=1{tomi yangilandi. Qayta ochilganda oxirgi versiyadan foydalanish mumkin. Keyin joriy varaqlar tiklanadi. Inkognito oynalar qayta ochilmaydi.}other{tomi yangilandi. Qayta ochilganda oxirgi versiyadan foydalanish mumkin. Keyin joriy varaqlar tiklanadi. # ta inkognito oyna qayta ochilmaydi.}}</translation>
+<translation id="1434626383986940139">tomi Canary ilovalari</translation>
+<translation id="146866447420868597">tomi hisobiga kirasizmi?</translation>
+<translation id="1492280395845991349">tomi yangilanishini yakunlash uchun qayta oching</translation>
 <translation id="1497802159252041924">O'rnatishdagi xatolik: <ph name="INSTALL_ERROR" /></translation>
-<translation id="1507198376417198979">Yangi Decentr profilini moslash</translation>
-<translation id="1547295885616600893">DecentrOS tizimini ishlab chiqishda <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
-<translation id="1553358976309200471">Decentr‘ni yangilash</translation>
-<translation id="1583073672411044740"><ph name="EXISTING_USER" /> allaqachon ushbu Decentr profiliga kirgan. Bunda <ph name="USER_EMAIL_ADDRESS" /> uchun yangi Decentr profili yaratiladi</translation>
-<translation id="1587223624401073077">Decentr kameradan foydalanmoqda.</translation>
-<translation id="1587325591171447154"><ph name="FILE_NAME" /> zararli edi, shuning uchun u Decentr tomonidan bloklandi.</translation>
-<translation id="1597911401261118146">Parollarni axborotlar sizib chiqishi va xavfsizlikka oid boshqa muammolardan himoyalash uchun <ph name="BEGIN_LINK" />Decentr hisobingizga kiring<ph name="END_LINK" />.</translation>
-<translation id="1619887657840448962">Decentr brauzerini xavfsiz holda saqlash uchun <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ro‘yxatida keltirilmagan va sizga bildirmasdan qo‘shilgan bo‘lishi mumkin bo‘lgan quyidagi kengaytma o‘chirib qo‘yiladi.</translation>
-<translation id="1627304841979541023"><ph name="BEGIN_BOLD" />Maʼlumotlaringizni qanday boshqarish mumkin:<ph name="END_BOLD" /> Maxfliylikni himoya qilish maqsadida biz 4 haftadan uzoq saqlangan qiziqishlarni avtomatik oʻchiramiz. Sahifalar takroriy ochilganida qiziqish roʻyxatda yana chiqishi mumkin. Yoki Decentr foydalanmasligini istasangiz, qiziqishlarni olib tashlashingiz mumkin.</translation>
-<translation id="1628000112320670027">Decentr yordam markazi</translation>
+<translation id="1507198376417198979">Yangi tomi profilini moslash</translation>
+<translation id="1547295885616600893">tomiOS tizimini ishlab chiqishda <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
+<translation id="1553358976309200471">tomi‘ni yangilash</translation>
+<translation id="1583073672411044740"><ph name="EXISTING_USER" /> allaqachon ushbu tomi profiliga kirgan. Bunda <ph name="USER_EMAIL_ADDRESS" /> uchun yangi tomi profili yaratiladi</translation>
+<translation id="1587223624401073077">tomi kameradan foydalanmoqda.</translation>
+<translation id="1587325591171447154"><ph name="FILE_NAME" /> zararli edi, shuning uchun u tomi tomonidan bloklandi.</translation>
+<translation id="1597911401261118146">Parollarni axborotlar sizib chiqishi va xavfsizlikka oid boshqa muammolardan himoyalash uchun <ph name="BEGIN_LINK" />tomi hisobingizga kiring<ph name="END_LINK" />.</translation>
+<translation id="1619887657840448962">tomi brauzerini xavfsiz holda saqlash uchun <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ro‘yxatida keltirilmagan va sizga bildirmasdan qo‘shilgan bo‘lishi mumkin bo‘lgan quyidagi kengaytma o‘chirib qo‘yiladi.</translation>
+<translation id="1627304841979541023"><ph name="BEGIN_BOLD" />Maʼlumotlaringizni qanday boshqarish mumkin:<ph name="END_BOLD" /> Maxfliylikni himoya qilish maqsadida biz 4 haftadan uzoq saqlangan qiziqishlarni avtomatik oʻchiramiz. Sahifalar takroriy ochilganida qiziqish roʻyxatda yana chiqishi mumkin. Yoki tomi foydalanmasligini istasangiz, qiziqishlarni olib tashlashingiz mumkin.</translation>
+<translation id="1628000112320670027">tomi yordam markazi</translation>
 <translation id="1640672724030957280">Yuklab olinmoqda...</translation>
-<translation id="1662146548738125461">DecentrOS Flex haqida</translation>
-<translation id="1674870198290878346">Havolani Decentrning &amp;inkognito oynasida ochish</translation>
-<translation id="1682634494516646069">Decentr brauzeri quyidagi jildda ma’lumotlarni o‘qish va yozish amallarini bajara olmadi:
+<translation id="1662146548738125461">tomiOS Flex haqida</translation>
+<translation id="1674870198290878346">Havolani tomining &amp;inkognito oynasida ochish</translation>
+<translation id="1682634494516646069">tomi brauzeri quyidagi jildda ma’lumotlarni o‘qish va yozish amallarini bajara olmadi:
 <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="1689338313606606627">Sahifalarni kezishni yaxshilash va tezlatish uchun Decentr bu varaqni nofaol qilishi mumkin.</translation>
-<translation id="1698376642261615901">Decentr – veb sahifalarni va ilovalarni bir necha soniyada ochadigan brauzer. U tez, barqaror va undan foydalanish oson. Decentr brauzerining firibgarlik va zararli dasturlardan saqlovchi ichki o‘rnatilgan himoya vositasi Internetdagi faoliyatni maksimal havfsizlik bilan ta’minlaydi.</translation>
-<translation id="1713301662689114961">{0,plural, =1{Decentr bir soatdan keyin qayta ishga tushadi}other{Decentr # soatdan keyin qayta ishga tushadi}}</translation>
+<translation id="1689338313606606627">Sahifalarni kezishni yaxshilash va tezlatish uchun tomi bu varaqni nofaol qilishi mumkin.</translation>
+<translation id="1698376642261615901">tomi – veb sahifalarni va ilovalarni bir necha soniyada ochadigan brauzer. U tez, barqaror va undan foydalanish oson. tomi brauzerining firibgarlik va zararli dasturlardan saqlovchi ichki o‘rnatilgan himoya vositasi Internetdagi faoliyatni maksimal havfsizlik bilan ta’minlaydi.</translation>
+<translation id="1713301662689114961">{0,plural, =1{tomi bir soatdan keyin qayta ishga tushadi}other{tomi # soatdan keyin qayta ishga tushadi}}</translation>
 <translation id="1722488837206509557">Bu mavjud qurilmalardan birini tanlash va undagi kontentni chiqarish imkonini beradi.</translation>
-<translation id="1734234790201236882">Decentr bu parolni Decentr hisobingizga saqlaydi. Uni eslab qolishingiz shart emas.</translation>
-<translation id="1786003790898721085"><ph name="TARGET_DEVICE_NAME" /> qurilmangizda Decentr hisobingizga kiring va keyin qaytadan yuborishga urining.</translation>
-<translation id="1786044937610313874">Yorliqlar Decentr ichida ochiladi</translation>
-<translation id="178701303897325119">Bu kengaytma endi dastaklanmaydi. Decentr uni olib tashlashni tavsiya qiladi.</translation>
-<translation id="1812689907177901597">Agar bu faolsizlantirilsa, Gmail kabi Decentr saytlarida hisobingizga kirganingizda Decentr hisobingizga kirilmaydi</translation>
-<translation id="1860536484129686729">Bu sayt kamerangizdan foydalanishi uchun Decentr brauzeriga ruxsat berishingiz lozim</translation>
-<translation id="1873233029667955273">Decentr hozir birlamchi brauzeringiz emas</translation>
-<translation id="1874309113135274312">Decentr Beta (mDNS-In)</translation>
-<translation id="1877026089748256423">Decentr versiyasi eskirdi</translation>
-<translation id="1907925560334657849">Oynani ulashish uchun tizim sozlamalarida Decentr brauzeriga ekranni yozib olish uchun ruxsat bering</translation>
-<translation id="1919130412786645364">Decentr hisobiga kirishga ruxsat berish</translation>
+<translation id="1734234790201236882">tomi bu parolni tomi hisobingizga saqlaydi. Uni eslab qolishingiz shart emas.</translation>
+<translation id="1786003790898721085"><ph name="TARGET_DEVICE_NAME" /> qurilmangizda tomi hisobingizga kiring va keyin qaytadan yuborishga urining.</translation>
+<translation id="1786044937610313874">Yorliqlar tomi ichida ochiladi</translation>
+<translation id="178701303897325119">Bu kengaytma endi dastaklanmaydi. tomi uni olib tashlashni tavsiya qiladi.</translation>
+<translation id="1812689907177901597">Agar bu faolsizlantirilsa, Gmail kabi tomi saytlarida hisobingizga kirganingizda tomi hisobingizga kirilmaydi</translation>
+<translation id="1860536484129686729">Bu sayt kamerangizdan foydalanishi uchun tomi brauzeriga ruxsat berishingiz lozim</translation>
+<translation id="1873233029667955273">tomi hozir birlamchi brauzeringiz emas</translation>
+<translation id="1874309113135274312">tomi Beta (mDNS-In)</translation>
+<translation id="1877026089748256423">tomi versiyasi eskirdi</translation>
+<translation id="1907925560334657849">Oynani ulashish uchun tizim sozlamalarida tomi brauzeriga ekranni yozib olish uchun ruxsat bering</translation>
+<translation id="1919130412786645364">tomi hisobiga kirishga ruxsat berish</translation>
 <translation id="1953553007165777902">Yuklab olinmoqda... <ph name="MINUTE" /> daqiqa qoldi</translation>
-<translation id="1982647487457769627">Decentr turli platformalarda istalgan qurilma orqali sizga tanish va qulay xizmatlarni taqdim qiladi</translation>
-<translation id="2001586581944147178">Internetingizni kuzatuvchi tomonlarga ochadigan saytlaringizni koʻrishni qiyinlashtiring. Decentr DNS (Domen nomlari tizimi) qaydlaridan saytning IP manzilini shifrlangan aloqa yordamida tekshiradi.</translation>
-<translation id="2008942457798486387">{NUM_EXTENSIONS,plural, =1{Bu kengaytma endi dastaklanmaydi. Decentr uni olib tashlashni tavsiya qiladi.}other{Bu kengaytmalar endi dastaklanmaydi. Decentr ularni olib tashlashni tavsiya qiladi.}}</translation>
-<translation id="2018528049276128029">Har bir profilda bukmark, tarix va parol kabi Decentr axboroti saqlanadi</translation>
+<translation id="1982647487457769627">tomi turli platformalarda istalgan qurilma orqali sizga tanish va qulay xizmatlarni taqdim qiladi</translation>
+<translation id="2001586581944147178">Internetingizni kuzatuvchi tomonlarga ochadigan saytlaringizni koʻrishni qiyinlashtiring. tomi DNS (Domen nomlari tizimi) qaydlaridan saytning IP manzilini shifrlangan aloqa yordamida tekshiradi.</translation>
+<translation id="2008942457798486387">{NUM_EXTENSIONS,plural, =1{Bu kengaytma endi dastaklanmaydi. tomi uni olib tashlashni tavsiya qiladi.}other{Bu kengaytmalar endi dastaklanmaydi. tomi ularni olib tashlashni tavsiya qiladi.}}</translation>
+<translation id="2018528049276128029">Har bir profilda bukmark, tarix va parol kabi tomi axboroti saqlanadi</translation>
 <translation id="2018879682492276940">Oʻrnatilmadi. Qayta urining.</translation>
-<translation id="2022471217832964798">Hisobga ruxsatni sozlash vaqtida ham Decentrdan foydalanish mumkin. Sozlash yakunlanmaguncha ayrim resurslarga ruxsat berilmasligi mumkin.</translation>
-<translation id="2034233344106846793">Decentr himoyasiz ulanishlarni imkon qadar HTTPS protokolga avtomatik yangilaydi</translation>
-<translation id="207902854391093810">Sinov muddatlari yoqilganida Reklama statistikasi orqali siz kiradigan saytlar ulardagi reklama unumdorligini hisoblashga yordam beradigan maʼlumotlarni Decentr ilovasidan olishi mumkin. Reklama statistikasi imkon qadar kam axborotni saytlararo ulashish orqali saytlardagi kuzatuv mexanizmlarini taqiqlaydi.</translation>
-<translation id="2091012649849228750">Decentr yangilanishlari Windows 10 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: Windows 8.</translation>
-<translation id="2094648590148273905">DecentrOS Flex shartlari</translation>
-<translation id="2094919256425865063">Decentr baribir yopilsinmi?</translation>
-<translation id="2106831557840787829">DecentrOS Flex tizimini ishlab chiqishda <ph name="BEGIN_LINK_LINUX_OSS" />Linux dasturlash muhiti<ph name="END_LINK_LINUX_OSS" /> kabi <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
-<translation id="2120620239521071941">Ushbu qurilmadagi <ph name="ITEMS_COUNT" /> ta element butunlay o‘chiriladi. Ma’lumotlaringizni keyinroq olish uchun Decentr brauzeriga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
-<translation id="2121284319307530122">&amp;Decentr brauzerini yangilash uchun qayta ishga tushiring</translation>
-<translation id="2123055963409958220">Decentr brauzerining <ph name="BEGIN_LINK" />joriy sozlamalari<ph name="END_LINK" /> asosida hisobot yuboring va brauzerning ishlashini yaxshilashga yordamlashing</translation>
+<translation id="2022471217832964798">Hisobga ruxsatni sozlash vaqtida ham tomidan foydalanish mumkin. Sozlash yakunlanmaguncha ayrim resurslarga ruxsat berilmasligi mumkin.</translation>
+<translation id="2034233344106846793">tomi himoyasiz ulanishlarni imkon qadar HTTPS protokolga avtomatik yangilaydi</translation>
+<translation id="207902854391093810">Sinov muddatlari yoqilganida Reklama statistikasi orqali siz kiradigan saytlar ulardagi reklama unumdorligini hisoblashga yordam beradigan maʼlumotlarni tomi ilovasidan olishi mumkin. Reklama statistikasi imkon qadar kam axborotni saytlararo ulashish orqali saytlardagi kuzatuv mexanizmlarini taqiqlaydi.</translation>
+<translation id="2091012649849228750">tomi yangilanishlari Windows 10 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: Windows 8.</translation>
+<translation id="2094648590148273905">tomiOS Flex shartlari</translation>
+<translation id="2094919256425865063">tomi baribir yopilsinmi?</translation>
+<translation id="2106831557840787829">tomiOS Flex tizimini ishlab chiqishda <ph name="BEGIN_LINK_LINUX_OSS" />Linux dasturlash muhiti<ph name="END_LINK_LINUX_OSS" /> kabi <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
+<translation id="2120620239521071941">Ushbu qurilmadagi <ph name="ITEMS_COUNT" /> ta element butunlay o‘chiriladi. Ma’lumotlaringizni keyinroq olish uchun tomi brauzeriga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
+<translation id="2121284319307530122">&amp;tomi brauzerini yangilash uchun qayta ishga tushiring</translation>
+<translation id="2123055963409958220">tomi brauzerining <ph name="BEGIN_LINK" />joriy sozlamalari<ph name="END_LINK" /> asosida hisobot yuboring va brauzerning ishlashini yaxshilashga yordamlashing</translation>
 <translation id="2126108037660393668">Yuklab olingan fayl tekshirilmadi.</translation>
-<translation id="2128411189117340671">Decentr profillarini boshqaring</translation>
-<translation id="2131230230468101642">Maxfiylikni himoya qilish maqsadida biz 4 haftadan uzoq saqlangan qiziqishlarni avtomatik oʻchiramiz. Sahifalar takroriy ochilganida qiziqish roʻyxatda yana chiqishi mumkin. Yoki Decentr foydalanmasligini istasangiz, qiziqishlarni olib tashlashingiz mumkin.</translation>
-<translation id="2139300032719313227">DecentrOS tizimini qayta ishga tushirish</translation>
-<translation id="2151406531797534936">Decentrni hozir qayta ishga tushiring</translation>
+<translation id="2128411189117340671">tomi profillarini boshqaring</translation>
+<translation id="2131230230468101642">Maxfiylikni himoya qilish maqsadida biz 4 haftadan uzoq saqlangan qiziqishlarni avtomatik oʻchiramiz. Sahifalar takroriy ochilganida qiziqish roʻyxatda yana chiqishi mumkin. Yoki tomi foydalanmasligini istasangiz, qiziqishlarni olib tashlashingiz mumkin.</translation>
+<translation id="2139300032719313227">tomiOS tizimini qayta ishga tushirish</translation>
+<translation id="2151406531797534936">tomini hozir qayta ishga tushiring</translation>
 <translation id="2174917724755363426">Oʻrnatish yakunlanmadi. Haqiqatan ham bekor qilmoqchimisiz?</translation>
 <translation id="2190166659037789668">Yangilanishni tekshirishda xato: <ph name="UPDATE_CHECK_ERROR" />.</translation>
-<translation id="2199691482078155239">Decentr sizga koʻrsatiladigan reklamalar ustidan koʻproq nazorat beradi va saytlar sizga moslangan reklama chiqarganida siz haqingizda nimani bilishini cheklaydi</translation>
-<translation id="2216543877350048334">Decentrdan Decentr hisobini olib tashlash uchun hisobdan chiqing</translation>
-<translation id="223889379102603431">Decentr negiz sertifikatlarini qanday boshqarishi haqida axborot</translation>
-<translation id="2258103955319320201">Decentr brauzeridagi axborotlardan barcha qurilmalaringizda foydalanish uchun hisobingizga kiring va sinxronizatsiyani yoqing</translation>
-<translation id="2290014774651636340">Decentr API kalitlari topilmadi. Decentr’ning ba’zi funksiyalari o‘chirib qo‘yiladi.</translation>
-<translation id="2290095356545025170">Haqiqatan ham Decentr brauzerini o‘chirib tashlamoqchimisiz?</translation>
-<translation id="2309047409763057870">Decentr takroran o‘rnatilgan, shuning uchun u asosiy brauzer bo‘la olmaydi.</translation>
-<translation id="2345992953227471816">Decentr quyidagi kengaytmalar tarkibida zararli dastur aniqladi:</translation>
-<translation id="2348335408836342058">Bu sayt kamera va mikrofoningizdan foydalanishi uchun Decentr brauzeriga ruxsat berishingiz lozim</translation>
-<translation id="234869673307233423">Decentr parollaringizni tekshira olmadi. Keyinroq qayta urining.</translation>
-<translation id="235650106824528204">Bu profil ishlatilganda yaratilgan har qanday Decentr maʼlumotlari (bukmarklar, tarix, parollar va boshqa sozlamalar kabi) ish profili administratori tomonidan tozalanishi mumkin. <ph name="LEARN_MORE" /></translation>
+<translation id="2199691482078155239">tomi sizga koʻrsatiladigan reklamalar ustidan koʻproq nazorat beradi va saytlar sizga moslangan reklama chiqarganida siz haqingizda nimani bilishini cheklaydi</translation>
+<translation id="2216543877350048334">tomidan tomi hisobini olib tashlash uchun hisobdan chiqing</translation>
+<translation id="223889379102603431">tomi negiz sertifikatlarini qanday boshqarishi haqida axborot</translation>
+<translation id="2258103955319320201">tomi brauzeridagi axborotlardan barcha qurilmalaringizda foydalanish uchun hisobingizga kiring va sinxronizatsiyani yoqing</translation>
+<translation id="2290014774651636340">tomi API kalitlari topilmadi. tomi’ning ba’zi funksiyalari o‘chirib qo‘yiladi.</translation>
+<translation id="2290095356545025170">Haqiqatan ham tomi brauzerini o‘chirib tashlamoqchimisiz?</translation>
+<translation id="2309047409763057870">tomi takroran o‘rnatilgan, shuning uchun u asosiy brauzer bo‘la olmaydi.</translation>
+<translation id="2345992953227471816">tomi quyidagi kengaytmalar tarkibida zararli dastur aniqladi:</translation>
+<translation id="2348335408836342058">Bu sayt kamera va mikrofoningizdan foydalanishi uchun tomi brauzeriga ruxsat berishingiz lozim</translation>
+<translation id="234869673307233423">tomi parollaringizni tekshira olmadi. Keyinroq qayta urining.</translation>
+<translation id="235650106824528204">Bu profil ishlatilganda yaratilgan har qanday tomi maʼlumotlari (bukmarklar, tarix, parollar va boshqa sozlamalar kabi) ish profili administratori tomonidan tozalanishi mumkin. <ph name="LEARN_MORE" /></translation>
 <translation id="2359808026110333948">Davom etish</translation>
 <translation id="2390624519615263404">Xavfsizlik funksiyalari</translation>
-<translation id="2401189691232800402">DecentrOS tizimi</translation>
-<translation id="2409816192575564775">{NUM_DEVICES,plural, =0{1 ta HID qurilmasi kamida bitta Decentr kengaytmasi tomonidan ochilmoqda}=1{1 ta HID qurilmasi kamida bitta Decentr kengaytmasi tomonidan ochilmoqda}other{# ta HID qurilmasi kamida bitta Decentr kengaytmasi tomonidan ochilmoqda}}</translation>
-<translation id="2424440923901031101">Bu kengaytma Decentr Web Store qoidalariga mos emas va xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni Decentrdan olib tashlang.</translation>
-<translation id="2467438592969358367">Decentr parollaringizni eksport qilmoqchi. Ruxsat berish uchun Windows platformasidagi parolingizni kiriting.</translation>
-<translation id="2472092250898121027">Bu kengaytma tarkibida zararli kod bor va u xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni Decentrdan olib tashlang.</translation>
+<translation id="2401189691232800402">tomiOS tizimi</translation>
+<translation id="2409816192575564775">{NUM_DEVICES,plural, =0{1 ta HID qurilmasi kamida bitta tomi kengaytmasi tomonidan ochilmoqda}=1{1 ta HID qurilmasi kamida bitta tomi kengaytmasi tomonidan ochilmoqda}other{# ta HID qurilmasi kamida bitta tomi kengaytmasi tomonidan ochilmoqda}}</translation>
+<translation id="2424440923901031101">Bu kengaytma tomi Web Store qoidalariga mos emas va xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni tomidan olib tashlang.</translation>
+<translation id="2467438592969358367">tomi parollaringizni eksport qilmoqchi. Ruxsat berish uchun Windows platformasidagi parolingizni kiriting.</translation>
+<translation id="2472092250898121027">Bu kengaytma tarkibida zararli kod bor va u xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni tomidan olib tashlang.</translation>
 <translation id="2485422356828889247">O‘chirib tashlash</translation>
 <translation id="2513154137948333830">Qayta yoqish shart: <ph name="INSTALL_SUCCESS" /></translation>
-<translation id="2534365042754120737">Maʼlumotlaringizni himoyalash maqsadida Decentr brauzeriga uzoq vaqt kirmagan saytlardan ruxsatlarni olib tashlashi uchun ruxsat bering. Bildirishnomalar kelishi davom etadi.</translation>
-<translation id="2556847002339236023">Tashkilotingiz Decentr <ph name="TIMEOUT_DURATION" /> ishlatilmasa avtomatik yopilishini sozlagan. Brauzer maʼlumotlari oʻchirib tashlandi. Jumladan, tarix, avtomatik kiritish va yuklanmalar.</translation>
-<translation id="2559253115192232574">Keyinchalik sayt sizga chiqadigan reklamani moslashtirish maqsadida Decentrdan qiziqishlaringiz haqida soʻrashi mumkin. Decentr 3 tagacha qiziqishingizni ulasha oladi.</translation>
-<translation id="2563121210305478421">Decentr qayta ishga tushirilsinmi?</translation>
-<translation id="2569974318947988067">Decentr navigatsiyalarni HTTPS protokoliga oʻzgartirishga urinadi.</translation>
-<translation id="2571392474191184472">Decentr tashkilotingiz boshqaruvida</translation>
-<translation id="2574930892358684005"><ph name="EXISTING_USER" /> allaqachon ushbu Decentr profiliga kirgan. Internetni alohida kezish uchun Decentr siz uchun alohida profil yaratadi.</translation>
-<translation id="2580411288591421699">Hozir ishlab turgan versiyadagi Decentr brauzerini o‘rnatib bo‘lmaydi. Decentr brauzeringizni yoping va qaytadan urinib ko‘ring.</translation>
-<translation id="2586406160782125153">Bu qurilmadagi brauzer tarixini tozalaydi. Ma’lumotlaringizni keyinroq olish uchun Decentr brauzeriga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
-<translation id="2597976513418770460">Decentr brauzeri maʼlumotlarini <ph name="ACCOUNT_EMAIL" /> profilidan oling</translation>
+<translation id="2534365042754120737">Maʼlumotlaringizni himoyalash maqsadida tomi brauzeriga uzoq vaqt kirmagan saytlardan ruxsatlarni olib tashlashi uchun ruxsat bering. Bildirishnomalar kelishi davom etadi.</translation>
+<translation id="2556847002339236023">Tashkilotingiz tomi <ph name="TIMEOUT_DURATION" /> ishlatilmasa avtomatik yopilishini sozlagan. Brauzer maʼlumotlari oʻchirib tashlandi. Jumladan, tarix, avtomatik kiritish va yuklanmalar.</translation>
+<translation id="2559253115192232574">Keyinchalik sayt sizga chiqadigan reklamani moslashtirish maqsadida tomidan qiziqishlaringiz haqida soʻrashi mumkin. tomi 3 tagacha qiziqishingizni ulasha oladi.</translation>
+<translation id="2563121210305478421">tomi qayta ishga tushirilsinmi?</translation>
+<translation id="2569974318947988067">tomi navigatsiyalarni HTTPS protokoliga oʻzgartirishga urinadi.</translation>
+<translation id="2571392474191184472">tomi tashkilotingiz boshqaruvida</translation>
+<translation id="2574930892358684005"><ph name="EXISTING_USER" /> allaqachon ushbu tomi profiliga kirgan. Internetni alohida kezish uchun tomi siz uchun alohida profil yaratadi.</translation>
+<translation id="2580411288591421699">Hozir ishlab turgan versiyadagi tomi brauzerini o‘rnatib bo‘lmaydi. tomi brauzeringizni yoping va qaytadan urinib ko‘ring.</translation>
+<translation id="2586406160782125153">Bu qurilmadagi brauzer tarixini tozalaydi. Ma’lumotlaringizni keyinroq olish uchun tomi brauzeriga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
+<translation id="2597976513418770460">tomi brauzeri maʼlumotlarini <ph name="ACCOUNT_EMAIL" /> profilidan oling</translation>
 <translation id="259935314519650377">Yuklab olingan oʻrnatish vositasi keshlanmadi. Xato: <ph name="UNPACK_CACHING_ERROR_CODE" />.</translation>
-<translation id="2622559029861875898">Decentr yangilanishlar chiqqanini tekshira olmadi. Internet aloqasini tekshiring.</translation>
-<translation id="2632707915638608719">Decentr kengaytmalari bilan koʻproq imkoniyatlar</translation>
-<translation id="2645435784669275700">DecentrOS</translation>
-<translation id="2649768380733403658">Decentr brauzer sozlamalari xavfsiz ekanini muntazam tekshiradi. Biror sozlamaga diqqat qilish kerak boʻlganda sizga xabar qilamiz.</translation>
+<translation id="2622559029861875898">tomi yangilanishlar chiqqanini tekshira olmadi. Internet aloqasini tekshiring.</translation>
+<translation id="2632707915638608719">tomi kengaytmalari bilan koʻproq imkoniyatlar</translation>
+<translation id="2645435784669275700">tomiOS</translation>
+<translation id="2649768380733403658">tomi brauzer sozlamalari xavfsiz ekanini muntazam tekshiradi. Biror sozlamaga diqqat qilish kerak boʻlganda sizga xabar qilamiz.</translation>
 <translation id="2652691236519827073">Havolani yangi &amp;varaqda ochish</translation>
-<translation id="2665296953892887393">Decentr‘ga ishdan chiqishlar hisoboti va <ph name="UMA_LINK" />‘ni jo‘natib Decentr yaxshilanishiga yordam berish.</translation>
-<translation id="2681444469812712297">Decentrda yangi varaqda ochish: <ph name="URL" /></translation>
+<translation id="2665296953892887393">tomi‘ga ishdan chiqishlar hisoboti va <ph name="UMA_LINK" />‘ni jo‘natib tomi yaxshilanishiga yordam berish.</translation>
+<translation id="2681444469812712297">tomida yangi varaqda ochish: <ph name="URL" /></translation>
 <translation id="2738871930057338499">Internetga ulanmadi. HTTP 403, taqiqlangan. Proksi konfiguratsiyasini tekshiring.</translation>
-<translation id="2742320827292110288">Diqqat: Decentr kengaytmalar kezish tarixini yozib olishiga to‘sqinlik qilolmaydi. Bu kengaytmani inkognito rejimida o‘chirish uchun ushbu parametrdan belgini olib tashlang.</translation>
-<translation id="2765403129283291972">Bu sayt mikrofoningizdan foydalanishi uchun Decentr brauzeriga ruxsat berishingiz lozim</translation>
+<translation id="2742320827292110288">Diqqat: tomi kengaytmalar kezish tarixini yozib olishiga to‘sqinlik qilolmaydi. Bu kengaytmani inkognito rejimida o‘chirish uchun ushbu parametrdan belgini olib tashlang.</translation>
+<translation id="2765403129283291972">Bu sayt mikrofoningizdan foydalanishi uchun tomi brauzeriga ruxsat berishingiz lozim</translation>
 <translation id="2770231113462710648">Standart brauzer etib tayinlash:</translation>
-<translation id="2775140325783767197">Decentr parollaringizni tekshira olmadi. Internet aloqasini tekshiring.</translation>
-<translation id="2797864378188255696">Gmail yoki YouTube kabi Decentr xizmatlariga <ph name="USER_EMAIL" /> hisobidan avtomatik kirganda Decentrga ham shu hisobdan kirishingiz mumkin</translation>
+<translation id="2775140325783767197">tomi parollaringizni tekshira olmadi. Internet aloqasini tekshiring.</translation>
+<translation id="2797864378188255696">Gmail yoki YouTube kabi tomi xizmatlariga <ph name="USER_EMAIL" /> hisobidan avtomatik kirganda tomiga ham shu hisobdan kirishingiz mumkin</translation>
 <translation id="2799223571221894425">Qaytadan ishga tushirish</translation>
-<translation id="2825024317344269723">Xavfli sayt. Decentr bildirishnomalarni olib tashladi.</translation>
+<translation id="2825024317344269723">Xavfli sayt. tomi bildirishnomalarni olib tashladi.</translation>
 <translation id="2846251086934905009">Oʻrnatishda xato: Oʻrnatish vositasi tugallanmadi. Oʻrnatish bekor qilindi.</translation>
-<translation id="2847461019998147611">Decentr shu tilda ko‘rsatilsin</translation>
-<translation id="2853415089995957805">Decentr siz tashrif buyurishingiz mumkin boʻlgan sahifalarni oldindan yuklaydi, shunda ular tashrif buyurganingizda tezroq yuklanadi</translation>
-<translation id="2857540653560290388">Decentr ishga tushmoqda...</translation>
-<translation id="2857972467023607093">Bu hisob bilan Decentr profili yaratilgan</translation>
-<translation id="286025080868315611">Decentr ayrim yuklanmalarni nega bloklashi haqida</translation>
-<translation id="2861074815332034794">Decentr yangilanmoqda (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="2871893339301912279">Decentr brauzeriga xush kelibsiz!</translation>
-<translation id="2876628302275096482"><ph name="BEGIN_LINK" />Decentr maʼlumotlaringizni qanday xavfsiz saqlashi<ph name="END_LINK" /> haqida batafsil</translation>
+<translation id="2847461019998147611">tomi shu tilda ko‘rsatilsin</translation>
+<translation id="2853415089995957805">tomi siz tashrif buyurishingiz mumkin boʻlgan sahifalarni oldindan yuklaydi, shunda ular tashrif buyurganingizda tezroq yuklanadi</translation>
+<translation id="2857540653560290388">tomi ishga tushmoqda...</translation>
+<translation id="2857972467023607093">Bu hisob bilan tomi profili yaratilgan</translation>
+<translation id="286025080868315611">tomi ayrim yuklanmalarni nega bloklashi haqida</translation>
+<translation id="2861074815332034794">tomi yangilanmoqda (<ph name="PROGRESS_PERCENT" />)</translation>
+<translation id="2871893339301912279">tomi brauzeriga xush kelibsiz!</translation>
+<translation id="2876628302275096482"><ph name="BEGIN_LINK" />tomi maʼlumotlaringizni qanday xavfsiz saqlashi<ph name="END_LINK" /> haqida batafsil</translation>
 <translation id="2885378588091291677">Vazifalar boshqaruvi</translation>
-<translation id="2888126860611144412">Decentr haqida</translation>
+<translation id="2888126860611144412">tomi haqida</translation>
 <translation id="29082080693925013">Koʻp ochiladigan saytlarni mahkamlash va varaqlarni guruhlash orqali ishlarni tartibli saqlang</translation>
 <translation id="2915996080311180594">Keyinroq qayta ishga tushirish</translation>
-<translation id="2926676257163822632">Kuchsiz parollar oson topiladi. Decentr <ph name="BEGIN_LINK" />siz uchun ishonchli parol yaratsin va eslab qolsin<ph name="END_LINK" />.</translation>
-<translation id="2926952073016206995">Decentr bu saytda kameradan foydalanishiga ruxsat kerak</translation>
+<translation id="2926676257163822632">Kuchsiz parollar oson topiladi. tomi <ph name="BEGIN_LINK" />siz uchun ishonchli parol yaratsin va eslab qolsin<ph name="END_LINK" />.</translation>
+<translation id="2926952073016206995">tomi bu saytda kameradan foydalanishiga ruxsat kerak</translation>
 <translation id="2928420929544864228">Oʻrnatildi.</translation>
-<translation id="2929907241665500097">Notanish xatolik tufayli Decentr yangilanmadi. <ph name="BEGIN_LINK" />Decentrdagi yangilanish muammolari va xatoliklarni tuzatish.<ph name="END_LINK" /></translation>
+<translation id="2929907241665500097">Notanish xatolik tufayli tomi yangilanmadi. <ph name="BEGIN_LINK" />tomidagi yangilanish muammolari va xatoliklarni tuzatish.<ph name="END_LINK" /></translation>
 <translation id="2945997411976714835">Oʻrnatishda xato: Oʻrnatish vositasi boshlanmadi.</translation>
-<translation id="2969728957078202736"><ph name="PAGE_TITLE" /> - Tarmoqqa kirish - Decentr</translation>
-<translation id="2970681950995291301">Decentrdan Decentr hisobini olib tashlash uchun Sozlamalar orqali hisobdan chiqing</translation>
-<translation id="3018957014024118866">Decentr maʼlumotlari ham oʻchirilsin (<ph name="URL" />)</translation>
-<translation id="3019382870990049182">&amp;DecentrOS Flex yangilanishi uchun qayta ishga tushirish</translation>
-<translation id="3037838751736561277">Decentr orqa fon rejimida ishlamoqda.</translation>
+<translation id="2969728957078202736"><ph name="PAGE_TITLE" /> - Tarmoqqa kirish - tomi</translation>
+<translation id="2970681950995291301">tomidan tomi hisobini olib tashlash uchun Sozlamalar orqali hisobdan chiqing</translation>
+<translation id="3018957014024118866">tomi maʼlumotlari ham oʻchirilsin (<ph name="URL" />)</translation>
+<translation id="3019382870990049182">&amp;tomiOS Flex yangilanishi uchun qayta ishga tushirish</translation>
+<translation id="3037838751736561277">tomi orqa fon rejimida ishlamoqda.</translation>
 <translation id="3038232873781883849">Oʻrnatish kutilmoqda…</translation>
-<translation id="3059710691562604940">Saytlarni xavfsiz kezish yoniq emas. Decentr uni yoqishingizni tavsiya qiladi.</translation>
-<translation id="306179102415443347">Decentr Parollar menejerini ochish uchun yorliqdan foydalaning Yorliqni kompyuter bosh ekraniga yoki ilovalar launcheriga joylashingiz mumkin</translation>
-<translation id="3065168410429928842">Decentr sahifasi</translation>
-<translation id="3080151273017101988">Decentr yopilishida orqa fon rejimida ishlayotgan ilovalar to‘xtatilmasin</translation>
-<translation id="3100998948628680988">Decentr profilingizga nom bering</translation>
-<translation id="3112458742631356345">Decentr bu yuklamani blokladi, chunki bunday fayl odatda yuklab olinmaydi va xavfli boʻlishi mumkin</translation>
-<translation id="3114643501466072395">Parollarni axborotlar sizib chiqishi va xavfsizlikka oid boshqa muammolardan himoyalash uchun <ph name="BEGIN_LINK" />Decentr hisobingizga kiring<ph name="END_LINK" />.</translation>
-<translation id="3119573284443908657">Decentr bu yuklanmani blokladi, chunki bu arxivda zararli dastur yashirilgan boʻlishi mumkin</translation>
-<translation id="3140883423282498090">O‘zgartirishlar Decentr qaytadan ishga tushirilganda kuchga kiradi.</translation>
-<translation id="3149510190863420837">Decentr ilovalari</translation>
-<translation id="3169523567916669830">Sinov davrida saytlar reklamani chiqarish uchun ishlatadigan sizga qiziq mavzularni koʻrish va olib tashlash mumkin. Decentr siz ochgan saytlar asosida sizga qiziq boʻlishi mumkin mavzularni taxmin qiladi.</translation>
-<translation id="3196187562065225381">Decentr bu yuklamani blokladi, chunki bu fayl xavfli</translation>
-<translation id="3226612997184048185">Bukmarklarni Decentr hisobingizda ham saqlasangiz, Decentrʼda mahsulot narxlarini kuzatishingiz va narx tushganda xabar olasiz.</translation>
+<translation id="3059710691562604940">Saytlarni xavfsiz kezish yoniq emas. tomi uni yoqishingizni tavsiya qiladi.</translation>
+<translation id="306179102415443347">tomi Parollar menejerini ochish uchun yorliqdan foydalaning Yorliqni kompyuter bosh ekraniga yoki ilovalar launcheriga joylashingiz mumkin</translation>
+<translation id="3065168410429928842">tomi sahifasi</translation>
+<translation id="3080151273017101988">tomi yopilishida orqa fon rejimida ishlayotgan ilovalar to‘xtatilmasin</translation>
+<translation id="3100998948628680988">tomi profilingizga nom bering</translation>
+<translation id="3112458742631356345">tomi bu yuklamani blokladi, chunki bunday fayl odatda yuklab olinmaydi va xavfli boʻlishi mumkin</translation>
+<translation id="3114643501466072395">Parollarni axborotlar sizib chiqishi va xavfsizlikka oid boshqa muammolardan himoyalash uchun <ph name="BEGIN_LINK" />tomi hisobingizga kiring<ph name="END_LINK" />.</translation>
+<translation id="3119573284443908657">tomi bu yuklanmani blokladi, chunki bu arxivda zararli dastur yashirilgan boʻlishi mumkin</translation>
+<translation id="3140883423282498090">O‘zgartirishlar tomi qaytadan ishga tushirilganda kuchga kiradi.</translation>
+<translation id="3149510190863420837">tomi ilovalari</translation>
+<translation id="3169523567916669830">Sinov davrida saytlar reklamani chiqarish uchun ishlatadigan sizga qiziq mavzularni koʻrish va olib tashlash mumkin. tomi siz ochgan saytlar asosida sizga qiziq boʻlishi mumkin mavzularni taxmin qiladi.</translation>
+<translation id="3196187562065225381">tomi bu yuklamani blokladi, chunki bu fayl xavfli</translation>
+<translation id="3226612997184048185">Bukmarklarni tomi hisobingizda ham saqlasangiz, tomiʼda mahsulot narxlarini kuzatishingiz va narx tushganda xabar olasiz.</translation>
 <translation id="3234642784688107085">Mavzu yaratish, matn yozish va tartibni saqlashda yordam beruvchi yangi AI funksiyalarini sinang</translation>
-<translation id="3245429137663807393">Shuningdek, Decentr foydalanish statistikasini ham ulashsangiz, bu hisobotlarga siz tashrif qilgan URL manzillar ham kiradi</translation>
+<translation id="3245429137663807393">Shuningdek, tomi foydalanish statistikasini ham ulashsangiz, bu hisobotlarga siz tashrif qilgan URL manzillar ham kiradi</translation>
 <translation id="3261565993776444564">Brauzerni yangi rangda moslang va sinang</translation>
-<translation id="3282568296779691940">Decentr hisobiga kirish</translation>
+<translation id="3282568296779691940">tomi hisobiga kirish</translation>
 <translation id="3286538390144397061">Hozir qaytadan ishga tushirish</translation>
-<translation id="3292333338048274092">Keyin Decentr qayta ishga tushirilishi kerak.</translation>
-<translation id="3360895254066713204">Decentr Helper</translation>
-<translation id="3379938682270551431">{0,plural, =0{Decentr hozir qayta ishga tushadi}=1{Decentr 1 soniyadan keyin qayta ishga tushadi}other{Decentr # soniyadan keyin qayta ishga tushadi}}</translation>
-<translation id="3396977131400919238">O‘rnatish mobaynida operatsion tizim xatoligi yuz berdi. Decentr’ni qaytadan yuklab oling.</translation>
-<translation id="3428747202529429621">Hisobingizga kirganingizda Decentr va boshqa Decentr ilovalaridan xavfsiz foydalanishingizni taʼminlaydi</translation>
-<translation id="3434246496373299699">Decentr hisobingizga kirsangiz, Decentr parollaringizni tekshira oladi</translation>
-<translation id="3438681572027105609">Barcha qurilmalarda parollaringiz va boshqalarni olish uchun Decentrga kiring</translation>
-<translation id="3450887623636316740">Bu fayl xavfli boʻlishi mumkin<ph name="LINE_BREAK" />Parol bilan tasdiqlasangiz, Decentr bu yuklanmani tekshirishi mumkin. Fayl Decentr Saytlarni xavfsiz kezish serveriga yuborilishi, ammo faylning kontenti va parol qurilmada saqlanishi haqidagi axborot.</translation>
+<translation id="3292333338048274092">Keyin tomi qayta ishga tushirilishi kerak.</translation>
+<translation id="3360895254066713204">tomi Helper</translation>
+<translation id="3379938682270551431">{0,plural, =0{tomi hozir qayta ishga tushadi}=1{tomi 1 soniyadan keyin qayta ishga tushadi}other{tomi # soniyadan keyin qayta ishga tushadi}}</translation>
+<translation id="3396977131400919238">O‘rnatish mobaynida operatsion tizim xatoligi yuz berdi. tomi’ni qaytadan yuklab oling.</translation>
+<translation id="3428747202529429621">Hisobingizga kirganingizda tomi va boshqa tomi ilovalaridan xavfsiz foydalanishingizni taʼminlaydi</translation>
+<translation id="3434246496373299699">tomi hisobingizga kirsangiz, tomi parollaringizni tekshira oladi</translation>
+<translation id="3438681572027105609">Barcha qurilmalarda parollaringiz va boshqalarni olish uchun tomiga kiring</translation>
+<translation id="3450887623636316740">Bu fayl xavfli boʻlishi mumkin<ph name="LINE_BREAK" />Parol bilan tasdiqlasangiz, tomi bu yuklanmani tekshirishi mumkin. Fayl tomi Saytlarni xavfsiz kezish serveriga yuborilishi, ammo faylning kontenti va parol qurilmada saqlanishi haqidagi axborot.</translation>
 <translation id="3451115285585441894">O‘rnatilmoqda...</translation>
-<translation id="345171907106878721">Decentr foydalanuvchisini qo‘shish</translation>
-<translation id="3453763134178591239">DecentrOS shartlari</translation>
-<translation id="3503306920980160878">Bu sayt manzilingizdan foydalanishi uchun Decentr brauzeriga ruxsat berishingiz lozim</translation>
-<translation id="3533694711092285624">Hech qanday parol saqlanmagan. Decentr faqat saqlangan parollaringizni tekshira oladi.</translation>
-<translation id="3541482654983822893">Decentr parollaringizni tekshira olmadi. 24 soatdan keyin qayta urining.</translation>
-<translation id="3564543103555793392">Decentrga kirish orqali bukmarklar, parollar va boshqa maʼlumotlarni saqlash va telefonda ishlatish mumkin.</translation>
-<translation id="3576528680708590453">Decentr <ph name="TARGET_URL_HOSTNAME" /> havolasini muqobil brauzerda ochishi tizim administratori tomonidan sozlangan.</translation>
-<translation id="3582972582564653026">Decentr brauzerini barcha qurilmalringizda sinxronlang va o‘zingizga moslab oling</translation>
-<translation id="3583751698304738917">Siz allaqachon boshqa Decentr profilidan (<ph name="USER_EMAIL_ADDRESS" />) kirgansiz</translation>
-<translation id="3595784445906693824">Decentrga yangi profil orqali kirasizmi?</translation>
-<translation id="3596080736082218006">{COUNT,plural, =0{Administrator yangilishlarni oʻrnatish uchun Decentr brauzerini qayta ishga tushirishni talab qilmoqda}=1{Administrator yangilishlarni oʻrnatish uchun Decentr brauzerini qayta ishga tushirishni talab qilmoqda Inkognito oynalar qayta ochilmaydi.}other{Administrator yangilishlarni oʻrnatish uchun Decentr brauzerini qayta ishga tushirishni talab qilmoqda # ta inkognito oyna qayta ochilmaydi.}}</translation>
+<translation id="345171907106878721">tomi foydalanuvchisini qo‘shish</translation>
+<translation id="3453763134178591239">tomiOS shartlari</translation>
+<translation id="3503306920980160878">Bu sayt manzilingizdan foydalanishi uchun tomi brauzeriga ruxsat berishingiz lozim</translation>
+<translation id="3533694711092285624">Hech qanday parol saqlanmagan. tomi faqat saqlangan parollaringizni tekshira oladi.</translation>
+<translation id="3541482654983822893">tomi parollaringizni tekshira olmadi. 24 soatdan keyin qayta urining.</translation>
+<translation id="3564543103555793392">tomiga kirish orqali bukmarklar, parollar va boshqa maʼlumotlarni saqlash va telefonda ishlatish mumkin.</translation>
+<translation id="3576528680708590453">tomi <ph name="TARGET_URL_HOSTNAME" /> havolasini muqobil brauzerda ochishi tizim administratori tomonidan sozlangan.</translation>
+<translation id="3582972582564653026">tomi brauzerini barcha qurilmalringizda sinxronlang va o‘zingizga moslab oling</translation>
+<translation id="3583751698304738917">Siz allaqachon boshqa tomi profilidan (<ph name="USER_EMAIL_ADDRESS" />) kirgansiz</translation>
+<translation id="3595784445906693824">tomiga yangi profil orqali kirasizmi?</translation>
+<translation id="3596080736082218006">{COUNT,plural, =0{Administrator yangilishlarni oʻrnatish uchun tomi brauzerini qayta ishga tushirishni talab qilmoqda}=1{Administrator yangilishlarni oʻrnatish uchun tomi brauzerini qayta ishga tushirishni talab qilmoqda Inkognito oynalar qayta ochilmaydi.}other{Administrator yangilishlarni oʻrnatish uchun tomi brauzerini qayta ishga tushirishni talab qilmoqda # ta inkognito oyna qayta ochilmaydi.}}</translation>
 <translation id="3597003331831379823">Kengaytirilgan ruxsatlar bilan sozlash ishga tushmadi. <ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3609788354808247807">Yaqinda ochmagansiz. Decentr olib tashladi: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" />, <ph name="PERMISSION_3" /></translation>
-<translation id="3622797965165704966">Endi Decentr hisobida Decentr bilan ishlash yanada qulay bo‘ladi, jumladan umumiy kompyuterlarda ham.</translation>
-<translation id="3635073343384702370">Decentr faqat saqlangan parollaringizni tekshira oladi</translation>
+<translation id="3609788354808247807">Yaqinda ochmagansiz. tomi olib tashladi: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" />, <ph name="PERMISSION_3" /></translation>
+<translation id="3622797965165704966">Endi tomi hisobida tomi bilan ishlash yanada qulay bo‘ladi, jumladan umumiy kompyuterlarda ham.</translation>
+<translation id="3635073343384702370">tomi faqat saqlangan parollaringizni tekshira oladi</translation>
 <translation id="3667616615096815454">Oʻrnatilmadi, ilova serverga nomaʼlum.</translation>
-<translation id="3673813398384385993">Decentr “<ph name="EXTENSION_NAME" />” kengaytmasi tarkibida zararli dastur aniqladi</translation>
+<translation id="3673813398384385993">tomi “<ph name="EXTENSION_NAME" />” kengaytmasi tarkibida zararli dastur aniqladi</translation>
 <translation id="3695446226812920698">Batafsil</translation>
-<translation id="3697952514309507634">Boshqa Decentr profillari</translation>
-<translation id="3703994572283698466">DecentrOS tizimini ishlab chiqishda <ph name="BEGIN_LINK_LINUX_OSS" />Linux dasturlash muhiti<ph name="END_LINK_LINUX_OSS" /> <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
-<translation id="3716540481907974026">DecentrOS Flex versiyasi</translation>
-<translation id="3718181793972440140">Bu qurilmadagi 1 elementni tozalaydi. Ma’lumotlaringizni keyinroq olish uchun Decentr brauzeriga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
-<translation id="3723744677043446310">{NUM_EXTENSIONS,plural, =1{Decentr uni olib tashlashni tavsiya qiladi. <ph name="BEGIN_LINK" />Dastaklanadigan kengaytmalar haqida batafsil<ph name="END_LINK" />}other{Decentr ularni olib tashlashni tavsiya qiladi. <ph name="BEGIN_LINK" />Dastaklanadigan kengaytmalar haqida batafsil<ph name="END_LINK" />}}</translation>
-<translation id="3744202345691150878">DecentrOS yordam markazi</translation>
-<translation id="3780814664026482060">Decentr – <ph name="PAGE_TITLE" /></translation>
-<translation id="3785324443014631273">Hisobga kirishdagi xatolik sababli DecentrOS Flex maʼlumotlarni sinxronlay olmadi.</translation>
-<translation id="3795971588916395511">DecentrOS</translation>
-<translation id="3809772425479558446">Decentr Windows 10 yoki undan yuqori versiyalarda ishlaydi.</translation>
-<translation id="3835168907083856002">Bunda <ph name="USER_EMAIL_ADDRESS" /> uchun yangi Decentr profili yaratiladi</translation>
-<translation id="383928141529488001">Qurilmalarni topish uchun Decentr Bluetooth aloqadan foydalanishiga ruxsat bering. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="386202838227397562">Barcha Decentr oynalarini yoping va qaytadan urinib ko‘ring.</translation>
-<translation id="3865754807470779944">Decentr <ph name="PRODUCT_VERSION" /> versiyasi oʻrnatilgan</translation>
+<translation id="3697952514309507634">Boshqa tomi profillari</translation>
+<translation id="3703994572283698466">tomiOS tizimini ishlab chiqishda <ph name="BEGIN_LINK_LINUX_OSS" />Linux dasturlash muhiti<ph name="END_LINK_LINUX_OSS" /> <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
+<translation id="3716540481907974026">tomiOS Flex versiyasi</translation>
+<translation id="3718181793972440140">Bu qurilmadagi 1 elementni tozalaydi. Ma’lumotlaringizni keyinroq olish uchun tomi brauzeriga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
+<translation id="3723744677043446310">{NUM_EXTENSIONS,plural, =1{tomi uni olib tashlashni tavsiya qiladi. <ph name="BEGIN_LINK" />Dastaklanadigan kengaytmalar haqida batafsil<ph name="END_LINK" />}other{tomi ularni olib tashlashni tavsiya qiladi. <ph name="BEGIN_LINK" />Dastaklanadigan kengaytmalar haqida batafsil<ph name="END_LINK" />}}</translation>
+<translation id="3744202345691150878">tomiOS yordam markazi</translation>
+<translation id="3780814664026482060">tomi – <ph name="PAGE_TITLE" /></translation>
+<translation id="3785324443014631273">Hisobga kirishdagi xatolik sababli tomiOS Flex maʼlumotlarni sinxronlay olmadi.</translation>
+<translation id="3795971588916395511">tomiOS</translation>
+<translation id="3809772425479558446">tomi Windows 10 yoki undan yuqori versiyalarda ishlaydi.</translation>
+<translation id="3835168907083856002">Bunda <ph name="USER_EMAIL_ADDRESS" /> uchun yangi tomi profili yaratiladi</translation>
+<translation id="383928141529488001">Qurilmalarni topish uchun tomi Bluetooth aloqadan foydalanishiga ruxsat bering. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
+<translation id="386202838227397562">Barcha tomi oynalarini yoping va qaytadan urinib ko‘ring.</translation>
+<translation id="3865754807470779944">tomi <ph name="PRODUCT_VERSION" /> versiyasi oʻrnatilgan</translation>
 <translation id="3873044882194371212">Havolani &amp;inkognito oynada ochish</translation>
-<translation id="3889417619312448367">Decentr’ni o‘chirib tashlash</translation>
+<translation id="3889417619312448367">tomi’ni o‘chirib tashlash</translation>
 <translation id="3941890832296813527">Oʻrnatishda xato: Oʻrnatish vositasi fayl nomi yaroqsiz yoki ishlamaydi.</translation>
-<translation id="3973161977468201858">Decentr Decentr Parollar menejeri maʼlumotlaringizni oʻchirmoqchi. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
-<translation id="398236277091248993">Decentr unumdorlikni oshirish funksiyalari bilan tez ishlaydi</translation>
-<translation id="3999683152997576765">Saytlar reklamani chiqarish uchun ishlatadigan sizga qiziq mavzularni koʻrishingiz va olib tashlashingiz mumkin. Decentr siz ochgan saytlar asosida sizga qiziq boʻlishi mumkin mavzularni taxmin qiladi.</translation>
-<translation id="4035053306113201399">Yangilanishni oʻrnatish uchun DecentrOS qayta ishga tushirilishi kerak.</translation>
+<translation id="3973161977468201858">tomi tomi Parollar menejeri maʼlumotlaringizni oʻchirmoqchi. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
+<translation id="398236277091248993">tomi unumdorlikni oshirish funksiyalari bilan tez ishlaydi</translation>
+<translation id="3999683152997576765">Saytlar reklamani chiqarish uchun ishlatadigan sizga qiziq mavzularni koʻrishingiz va olib tashlashingiz mumkin. tomi siz ochgan saytlar asosida sizga qiziq boʻlishi mumkin mavzularni taxmin qiladi.</translation>
+<translation id="4035053306113201399">Yangilanishni oʻrnatish uchun tomiOS qayta ishga tushirilishi kerak.</translation>
 <translation id="4050175100176540509">So‘nggi versiyada himoya devori yaxshilandi va yangi funksiyalar qo‘shildi.</translation>
-<translation id="4053720452172726777">Decentr’ni sozlash va boshqarish</translation>
-<translation id="408393047846373801">Barcha qurilmalarda parollaringiz va boshqalarni olish uchun Decentrga kiring. Hisobga kirilgandan keyin bu parol Decentr hisobida saqlanadi.</translation>
-<translation id="4084404300720192944">Oynani ulashish uchun tizim sozlamalarida Decentr brauzeriga ekranni yozib olish uchun ruxsat bering.</translation>
-<translation id="4106587138345390261">Decentr saytlarga kamroq maʼlumotlaringiz bilan bir xil brauzer xizmatlarini taqdim etishiga imkon beruvchi yangi funksiyalarni oʻrganib chiqmoqda</translation>
-<translation id="4110895483821904099">Yangi Decentr profilini sozlang</translation>
-<translation id="4111566860456076004">Decentr bu kengaytma manbasini tekshira olmadi va u xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni Decentrdan olib tashlang.</translation>
-<translation id="4128488089242627000">Decentr tezroq ishlaydi va JavaScript ishlatadigan funksiyalar bexato ishlaydi (tavsiya etiladi)</translation>
-<translation id="4147555960264124640">Siz boshqaruvdagi hisobga kiryapsiz va uning administratoriga Decentr profilingizni boshqarishga ruxsat beryapsiz. Ilovalar, xatcho‘plar, brauzer tarixi, parollar va boshqa sozlamalar kabi barcha Decentr ma’lumotlaringiz <ph name="USER_NAME" /> hisobiga biriktiriladi. Siz bu ma’lumotlarni Decentr hisoblar shaxsiy kabinetidan o‘chirishingiz mumkin, lekin bu ma’lumotlarni boshqa hisob bilan bog‘lay olmaysiz. <ph name="LEARN_MORE" /></translation>
+<translation id="4053720452172726777">tomi’ni sozlash va boshqarish</translation>
+<translation id="408393047846373801">Barcha qurilmalarda parollaringiz va boshqalarni olish uchun tomiga kiring. Hisobga kirilgandan keyin bu parol tomi hisobida saqlanadi.</translation>
+<translation id="4084404300720192944">Oynani ulashish uchun tizim sozlamalarida tomi brauzeriga ekranni yozib olish uchun ruxsat bering.</translation>
+<translation id="4106587138345390261">tomi saytlarga kamroq maʼlumotlaringiz bilan bir xil brauzer xizmatlarini taqdim etishiga imkon beruvchi yangi funksiyalarni oʻrganib chiqmoqda</translation>
+<translation id="4110895483821904099">Yangi tomi profilini sozlang</translation>
+<translation id="4111566860456076004">tomi bu kengaytma manbasini tekshira olmadi va u xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni tomidan olib tashlang.</translation>
+<translation id="4128488089242627000">tomi tezroq ishlaydi va JavaScript ishlatadigan funksiyalar bexato ishlaydi (tavsiya etiladi)</translation>
+<translation id="4147555960264124640">Siz boshqaruvdagi hisobga kiryapsiz va uning administratoriga tomi profilingizni boshqarishga ruxsat beryapsiz. Ilovalar, xatcho‘plar, brauzer tarixi, parollar va boshqa sozlamalar kabi barcha tomi ma’lumotlaringiz <ph name="USER_NAME" /> hisobiga biriktiriladi. Siz bu ma’lumotlarni tomi hisoblar shaxsiy kabinetidan o‘chirishingiz mumkin, lekin bu ma’lumotlarni boshqa hisob bilan bog‘lay olmaysiz. <ph name="LEARN_MORE" /></translation>
 <translation id="4148957013307229264">O‘rnatilmoqda..</translation>
-<translation id="4149882025268051530">Fayllarni arxivdan chiqarib bo‘lmadi. Decentr‘ni qayta yuklab oling.</translation>
-<translation id="4153934450158521343">Decentr tez orada yopiladi va brauzer maʼlumotlari oʻchib ketadi</translation>
-<translation id="4173512894976930765">Saytlar kutilganidek ishlashi mumkin. Barcha Decentr oynalari yopilganda aksariyat saytlardan chiqib ketasiz, ammo Decentr hisobingizga kirganingizda Decentr hisobingizdan chiqmaysiz.</translation>
-<translation id="4175922240926474352">Decentr bu yuklamani blokladi, chunki sayt xavfsiz ulanishdan foydalanmayapti va fayl oʻzgartirilgan boʻlishi mumkin.</translation>
-<translation id="4191857738314598978">{0,plural, =1{Decentr brauzerini 1 kun ichida qayta ishga tushiring}other{Decentr brauzerini # kun ichida qayta ishga tushiring}}</translation>
-<translation id="4205939740494406371">Decentr parollaringizni tekshira olmadi. 24 soatdan keyin qayta urining yoki <ph name="BEGIN_LINK" />Decentr hisobingizdagi parollarni tekshiring<ph name="END_LINK" />.</translation>
+<translation id="4149882025268051530">Fayllarni arxivdan chiqarib bo‘lmadi. tomi‘ni qayta yuklab oling.</translation>
+<translation id="4153934450158521343">tomi tez orada yopiladi va brauzer maʼlumotlari oʻchib ketadi</translation>
+<translation id="4173512894976930765">Saytlar kutilganidek ishlashi mumkin. Barcha tomi oynalari yopilganda aksariyat saytlardan chiqib ketasiz, ammo tomi hisobingizga kirganingizda tomi hisobingizdan chiqmaysiz.</translation>
+<translation id="4175922240926474352">tomi bu yuklamani blokladi, chunki sayt xavfsiz ulanishdan foydalanmayapti va fayl oʻzgartirilgan boʻlishi mumkin.</translation>
+<translation id="4191857738314598978">{0,plural, =1{tomi brauzerini 1 kun ichida qayta ishga tushiring}other{tomi brauzerini # kun ichida qayta ishga tushiring}}</translation>
+<translation id="4205939740494406371">tomi parollaringizni tekshira olmadi. 24 soatdan keyin qayta urining yoki <ph name="BEGIN_LINK" />tomi hisobingizdagi parollarni tekshiring<ph name="END_LINK" />.</translation>
 <translation id="4222932583846282852">Bekor qilinmoqda...</translation>
 <translation id="4224210481850767180">Oʻrnatish bekor qilindi.</translation>
-<translation id="4242034826641750751">Decentr bu saytda kamera va mikrofondan foydalanishiga ruxsat kerak</translation>
-<translation id="424864128008805179">Decentr hisobidan chiqmoqchimisiz?</translation>
-<translation id="4251615635259297716">Decentr ma’lumotlari bu hisobga bog‘lansinmi?</translation>
-<translation id="4262915912852657291"><ph name="BEGIN_BOLD" />Qanday maʼlumotlar ishlatilishi:<ph name="END_BOLD" /> Bu qurilmada Decentr orqali siz kirgan saytlar tarixidagi qaydlar.</translation>
+<translation id="4242034826641750751">tomi bu saytda kamera va mikrofondan foydalanishiga ruxsat kerak</translation>
+<translation id="424864128008805179">tomi hisobidan chiqmoqchimisiz?</translation>
+<translation id="4251615635259297716">tomi ma’lumotlari bu hisobga bog‘lansinmi?</translation>
+<translation id="4262915912852657291"><ph name="BEGIN_BOLD" />Qanday maʼlumotlar ishlatilishi:<ph name="END_BOLD" /> Bu qurilmada tomi orqali siz kirgan saytlar tarixidagi qaydlar.</translation>
 <translation id="4281844954008187215">Xizmat shartlari</translation>
-<translation id="4293420128516039005">Decentr brauzerini barcha qurilmalringizda sinxronlash va o‘zingizga moslab olish uchun hisobingizga kiring</translation>
-<translation id="430327780270213103">Kengaytma Decentr asboblar panelida ruxsat soʻrovlarini chiqarishiga ruxsat bering</translation>
-<translation id="4328355335528187361">Decentr Dev (mDNS-In)</translation>
-<translation id="4329315893554541805">Moslashtirish va boshqa funksiyalarni olish uchun Veb va ilovalardagi faoliyat tarixi va ulangan Decentr xizmatlarida Decentrni kiriting</translation>
+<translation id="4293420128516039005">tomi brauzerini barcha qurilmalringizda sinxronlash va o‘zingizga moslab olish uchun hisobingizga kiring</translation>
+<translation id="430327780270213103">Kengaytma tomi asboblar panelida ruxsat soʻrovlarini chiqarishiga ruxsat bering</translation>
+<translation id="4328355335528187361">tomi Dev (mDNS-In)</translation>
+<translation id="4329315893554541805">Moslashtirish va boshqa funksiyalarni olish uchun Veb va ilovalardagi faoliyat tarixi va ulangan tomi xizmatlarida tomini kiriting</translation>
 <translation id="4334294535648607276">Yuklab olindi.</translation>
-<translation id="4335235004908507846">Decentr maʼlumotlaringizni axborotlar sizib chiqishi va xavfsizlikka oid boshqa muammolardan himoyalaydi</translation>
-<translation id="4343195214584226067"><ph name="EXTENSION_NAME" /> kengaytmasi Decentrga o‘rnatildi</translation>
-<translation id="4348548358339558429">Moslashtirish uchun Veb va ilovalardagi faoliyat tarixiga Decentrni kiriting</translation>
-<translation id="436060642166082913">Decentr bu yuklanmani blokladi, chunki bu fayl shaxsiy va ijtimoiy tarmoqlardagi hisoblarga zarar keltirishi mumkin</translation>
-<translation id="4384570495110188418">Decentr parollaringizni faqat hisobingizga kirganingizdan keyin tekshira oladi</translation>
-<translation id="4389991535395284064">Inkognito rejimida ishlayotganingizda, xavfsiz ulanishli saytga kirganingizda Decentr sizni ogohlantiradi.</translation>
+<translation id="4335235004908507846">tomi maʼlumotlaringizni axborotlar sizib chiqishi va xavfsizlikka oid boshqa muammolardan himoyalaydi</translation>
+<translation id="4343195214584226067"><ph name="EXTENSION_NAME" /> kengaytmasi tomiga o‘rnatildi</translation>
+<translation id="4348548358339558429">Moslashtirish uchun Veb va ilovalardagi faoliyat tarixiga tomini kiriting</translation>
+<translation id="436060642166082913">tomi bu yuklanmani blokladi, chunki bu fayl shaxsiy va ijtimoiy tarmoqlardagi hisoblarga zarar keltirishi mumkin</translation>
+<translation id="4384570495110188418">tomi parollaringizni faqat hisobingizga kirganingizdan keyin tekshira oladi</translation>
+<translation id="4389991535395284064">Inkognito rejimida ishlayotganingizda, xavfsiz ulanishli saytga kirganingizda tomi sizni ogohlantiradi.</translation>
 <translation id="4427306783828095590">Kengaytirilgan himoya fishing va zararli dasturlarni bloklaydi</translation>
 <translation id="4434353761996769206">Oʻrnatish vositasi xatosi: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438657683599538446">Decentrga <ph name="USER_EMAIL" /> nomidan kirish</translation>
-<translation id="4450664632294415862">Decentr - Tarmoqqa kirish - <ph name="PAGE_TITLE" /></translation>
-<translation id="4458462641685292929">Decentr boshqa amalni bajarmoqda. Keyinroq qayta urinib ko‘ring.</translation>
-<translation id="4459234553906210702">Reklama statistikasi siz kiradigan saytlarga ulardagi reklama unumdorligini hisoblashga yordam beradigan maʼlumotlarni Decentr ilovasidan olish imkonini beradi. Reklama statistikasi imkon qadar kam axborotni saytlararo ulashish orqali saytlardagi kuzatuv mexanizmlarini taqiqlaydi.</translation>
+<translation id="4438657683599538446">tomiga <ph name="USER_EMAIL" /> nomidan kirish</translation>
+<translation id="4450664632294415862">tomi - Tarmoqqa kirish - <ph name="PAGE_TITLE" /></translation>
+<translation id="4458462641685292929">tomi boshqa amalni bajarmoqda. Keyinroq qayta urinib ko‘ring.</translation>
+<translation id="4459234553906210702">Reklama statistikasi siz kiradigan saytlarga ulardagi reklama unumdorligini hisoblashga yordam beradigan maʼlumotlarni tomi ilovasidan olish imkonini beradi. Reklama statistikasi imkon qadar kam axborotni saytlararo ulashish orqali saytlardagi kuzatuv mexanizmlarini taqiqlaydi.</translation>
 <translation id="4501471624619070934">Oʻrnatilmadi, chunki bu mamlakatda kirish cheklangan.</translation>
 <translation id="4567424176335768812">Siz <ph name="USER_EMAIL_ADDRESS" /> hisobidan kirtingiz. Barcha xatcho‘plar, brauzer tarixi va boshqa sozlamalaringiz endi bu hisobdan foydalanadigan barcha qurilmalaringizda mavjud.</translation>
-<translation id="4571503333518166079">Decentr bildirishnomalar sozlamalarini ochish</translation>
-<translation id="4575717501879784448">Sahifalarni kezishni yaxshilash va resurslar sarfini yengillatish uchun Decentr bu varaqlarni nofaol qilishi mumkin.</translation>
-<translation id="459622048091363950">Decentr saytlarga ulanganda sizdan ruxsat so‘raydi.</translation>
-<translation id="4600710005438004015">Decentr brauzerining so‘nggi versiyasini o‘rnatib bo‘lmadi. Xavfsizlik sozlamalariga kiritilgan tuzatishlar va yangi funksiyalardan bahramand bo‘la olmaysiz.</translation>
-<translation id="4624065194742029982">Decentr Inkognito</translation>
-<translation id="4627412468266359539">Ixtiyoriy: Decentr serverlariga diagnostika va foydalanish statistikasi maʼlumotlarini yuborish orqali DecentrOS Flex tizimini takomillashtirishga yordam bering.</translation>
-<translation id="4633000520311261472">Decentr brauzerini xavfsiz holda saqlash uchun <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ro‘yxatida keltirilmagan va sizga bildirmasdan qo‘shilgan bo‘lishi mumkin bo‘lgan ayrim kengaytmalar o‘chirib qo‘yildi.</translation>
+<translation id="4571503333518166079">tomi bildirishnomalar sozlamalarini ochish</translation>
+<translation id="4575717501879784448">Sahifalarni kezishni yaxshilash va resurslar sarfini yengillatish uchun tomi bu varaqlarni nofaol qilishi mumkin.</translation>
+<translation id="459622048091363950">tomi saytlarga ulanganda sizdan ruxsat so‘raydi.</translation>
+<translation id="4600710005438004015">tomi brauzerining so‘nggi versiyasini o‘rnatib bo‘lmadi. Xavfsizlik sozlamalariga kiritilgan tuzatishlar va yangi funksiyalardan bahramand bo‘la olmaysiz.</translation>
+<translation id="4624065194742029982">tomi Inkognito</translation>
+<translation id="4627412468266359539">Ixtiyoriy: tomi serverlariga diagnostika va foydalanish statistikasi maʼlumotlarini yuborish orqali tomiOS Flex tizimini takomillashtirishga yordam bering.</translation>
+<translation id="4633000520311261472">tomi brauzerini xavfsiz holda saqlash uchun <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ro‘yxatida keltirilmagan va sizga bildirmasdan qo‘shilgan bo‘lishi mumkin bo‘lgan ayrim kengaytmalar o‘chirib qo‘yildi.</translation>
 <translation id="4680828127924988555">Oʻrnatishni bekor qilish</translation>
-<translation id="469553575393225953">Nomaʼlum manbalar kengaytmalari, ilovalari va mavzulari qurilmangizni zararlashi mumkin. Decentr ularni fqat Decentr Web Store orqali oʻrnatishni tavsiya qiladi</translation>
+<translation id="469553575393225953">Nomaʼlum manbalar kengaytmalari, ilovalari va mavzulari qurilmangizni zararlashi mumkin. tomi ularni fqat tomi Web Store orqali oʻrnatishni tavsiya qiladi</translation>
 <translation id="4710245680469034439">Brauzerni rassomlar, tabiat va boshqa turkumdagi mavzular bilan moslashtiring</translation>
 <translation id="4724676981607797757">Notanish protokol xatosi sababli oʻrnatilmadi.</translation>
-<translation id="4728575227883772061">Noma’lum xatolik tufayli o‘rnatish amalga oshmadi. Agar hozirda Decentr ishlab turgan bo‘lsa, iltimos brauzeringizni yoping va qayta urinib ko‘ring.</translation>
-<translation id="4747730611090640388">Decentr qiziqishlaringizni taxmin qilishi mumkin.  Keyinchalik sayt sizga chiqadigan reklamani moslashtirish maqsadida Decentr ilovasidan qiziqishlaringiz haqida soʻrashi mumkin.</translation>
-<translation id="4754614261631455953">Decentr Canary (mDNS-In)</translation>
-<translation id="479167709087336770">Decentr qidiruvida ishlatiladigan imlo tekshiruvi vositasidan foydalanadi. Brauzerda kiritiladigan matn Decentr serverlariga yuboriladi. Buni istalgan vaqtda sozlamalar orqali oʻzgartirish mumkin.</translation>
-<translation id="4793679854893018356">Decentr qanday qilib sizni himoya qilishi haqida batafsil</translation>
-<translation id="4828579605166583682">Decentr joriy parollarni almashtirishga urinmoqda. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
-<translation id="4842397268809523050">Domeningizda Sinxronlash xizmati mavjud emasligi sababli DecentrOS Flex maʼlumotlaringizni sinxronlay olmadi.</translation>
-<translation id="4851866215237571846"><ph name="EXISTING_USER" /> hisobiga allaqachon kirilgan.  Internetni alohida kezish uchun Decentrga shaxsiy profilingiz (<ph name="USER_EMAIL_ADDRESS" />) orqali kiring.</translation>
-<translation id="4862446263930606916">Tashkilotingiz ish profilingizda saqlangan brauzerning ishlashi haqida axborotlarni (masalan, bukmarklar, tarix va parollar) koʻrish va boshqarish imkoniyatiga ega boʻladi. Shaxsiy Decentr profillaridagi brauzerning ishlashi haqida axborotlarni koʻra olmaydi.</translation>
-<translation id="4873692836499071887">Decentr yangilanishlari macOS 11 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: macOS 10.15.</translation>
-<translation id="4873783916118289636">Decentr ichida asosiy maxfiylik va xavfsizlik boshqaruvini tekshiring</translation>
-<translation id="4891791193823137474">Decentr fonda ishlashiga ruxsat</translation>
+<translation id="4728575227883772061">Noma’lum xatolik tufayli o‘rnatish amalga oshmadi. Agar hozirda tomi ishlab turgan bo‘lsa, iltimos brauzeringizni yoping va qayta urinib ko‘ring.</translation>
+<translation id="4747730611090640388">tomi qiziqishlaringizni taxmin qilishi mumkin.  Keyinchalik sayt sizga chiqadigan reklamani moslashtirish maqsadida tomi ilovasidan qiziqishlaringiz haqida soʻrashi mumkin.</translation>
+<translation id="4754614261631455953">tomi Canary (mDNS-In)</translation>
+<translation id="479167709087336770">tomi qidiruvida ishlatiladigan imlo tekshiruvi vositasidan foydalanadi. Brauzerda kiritiladigan matn tomi serverlariga yuboriladi. Buni istalgan vaqtda sozlamalar orqali oʻzgartirish mumkin.</translation>
+<translation id="4793679854893018356">tomi qanday qilib sizni himoya qilishi haqida batafsil</translation>
+<translation id="4828579605166583682">tomi joriy parollarni almashtirishga urinmoqda. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
+<translation id="4842397268809523050">Domeningizda Sinxronlash xizmati mavjud emasligi sababli tomiOS Flex maʼlumotlaringizni sinxronlay olmadi.</translation>
+<translation id="4851866215237571846"><ph name="EXISTING_USER" /> hisobiga allaqachon kirilgan.  Internetni alohida kezish uchun tomiga shaxsiy profilingiz (<ph name="USER_EMAIL_ADDRESS" />) orqali kiring.</translation>
+<translation id="4862446263930606916">Tashkilotingiz ish profilingizda saqlangan brauzerning ishlashi haqida axborotlarni (masalan, bukmarklar, tarix va parollar) koʻrish va boshqarish imkoniyatiga ega boʻladi. Shaxsiy tomi profillaridagi brauzerning ishlashi haqida axborotlarni koʻra olmaydi.</translation>
+<translation id="4873692836499071887">tomi yangilanishlari macOS 11 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: macOS 10.15.</translation>
+<translation id="4873783916118289636">tomi ichida asosiy maxfiylik va xavfsizlik boshqaruvini tekshiring</translation>
+<translation id="4891791193823137474">tomi fonda ishlashiga ruxsat</translation>
 <translation id="4895437082222824641">&amp;Havolani yangi varaqda ochish</translation>
-<translation id="492720062778050435">Decentr bu kengaytmani tekshirishni tavsiya qiladi</translation>
+<translation id="492720062778050435">tomi bu kengaytmani tekshirishni tavsiya qiladi</translation>
 <translation id="4951177103388687412">Varaqlar guruhi yordamida ishlarni tartibli va diqqatli saqlang</translation>
-<translation id="4953650215774548573">Decentr‘ni standart brauzer etib tayinlash</translation>
-<translation id="495931528404527476">Decentr brauzerida</translation>
-<translation id="4969674060580488087">Hisobga kirish maʼlumotlaringiz eskirgani sababli DecentrOS Flex maʼlumotlaringizni sinxronlay olmadi.</translation>
-<translation id="4970761609246024540">Decentr profillariga xush kelibsiz</translation>
-<translation id="4970880042055371251">DecentrOS versiyasi</translation>
-<translation id="4990567037958725628">Decentr Canary</translation>
-<translation id="4997044641749333913">Sahifalarni kezishni yaxshilash va tezlatish uchun Decentr bu varaqlarni nofaol qilishi mumkin.</translation>
-<translation id="5003967926796347400">“Decentr Parollar menejeri” ustiga bosing</translation>
-<translation id="5120334927898581447">Boshqa Decentr xizmatlariga kirilganda Decentr hisobiga kirilsin</translation>
-<translation id="5126049312684316860">Decentr siz tashrif buyurishingiz mumkin boʻlgan koʻplab sahifalarni oldindan yuklaydi, shunda ular tashrif buyurganingizda tezroq yuklanadi</translation>
-<translation id="5132929315877954718">Decentr uchun zo‘r ilovalar, o‘yinlar, kengaytmalar va mavzular bilan tanishing.</translation>
-<translation id="5139423532931106058">Decentr profilingizni sozlang</translation>
-<translation id="5161361450770099246">Sahifalarni kezishni yaxshilash va resurslar sarfini yengillatish uchun Decentr bu varaqni nofaol qilishi mumkin.</translation>
-<translation id="5163087008893166964">Decentr brauzeriga xush kelibsiz, yangi oyna ochildi</translation>
-<translation id="5170938038195470297">Profilingizdan foydalanib bo‘lmaydi, chunki u yanada yangiroq Decentr versiyasiga ta’luqli.
+<translation id="4953650215774548573">tomi‘ni standart brauzer etib tayinlash</translation>
+<translation id="495931528404527476">tomi brauzerida</translation>
+<translation id="4969674060580488087">Hisobga kirish maʼlumotlaringiz eskirgani sababli tomiOS Flex maʼlumotlaringizni sinxronlay olmadi.</translation>
+<translation id="4970761609246024540">tomi profillariga xush kelibsiz</translation>
+<translation id="4970880042055371251">tomiOS versiyasi</translation>
+<translation id="4990567037958725628">tomi Canary</translation>
+<translation id="4997044641749333913">Sahifalarni kezishni yaxshilash va tezlatish uchun tomi bu varaqlarni nofaol qilishi mumkin.</translation>
+<translation id="5003967926796347400">“tomi Parollar menejeri” ustiga bosing</translation>
+<translation id="5120334927898581447">Boshqa tomi xizmatlariga kirilganda tomi hisobiga kirilsin</translation>
+<translation id="5126049312684316860">tomi siz tashrif buyurishingiz mumkin boʻlgan koʻplab sahifalarni oldindan yuklaydi, shunda ular tashrif buyurganingizda tezroq yuklanadi</translation>
+<translation id="5132929315877954718">tomi uchun zo‘r ilovalar, o‘yinlar, kengaytmalar va mavzular bilan tanishing.</translation>
+<translation id="5139423532931106058">tomi profilingizni sozlang</translation>
+<translation id="5161361450770099246">Sahifalarni kezishni yaxshilash va resurslar sarfini yengillatish uchun tomi bu varaqni nofaol qilishi mumkin.</translation>
+<translation id="5163087008893166964">tomi brauzeriga xush kelibsiz, yangi oyna ochildi</translation>
+<translation id="5170938038195470297">Profilingizdan foydalanib bo‘lmaydi, chunki u yanada yangiroq tomi versiyasiga ta’luqli.
 
-Ba’zi imkoniyatlar ishlamasligi mumkin. Profilni saqlash uchun boshqa jild tanlang yoki yangiroq Decentr versiyasini o‘rnating.</translation>
-<translation id="5201744974236816379">Decentr yangilanishi</translation>
-<translation id="521447420733633466">Agar qurilmadan yaqinlaringiz va doʻstlaringiz ham foydalansa, ular Decentr brauzerini oʻzlari xohlagancha sozlab olishlari mumkin.</translation>
-<translation id="5239627039202700673">Xabarlar, hujjatlar va boshqa ilovalardagi havolalarni bosganda Decentr ochiladi</translation>
-<translation id="5251420635869119124">Agar tashrif buyurgan saytlaringiz haqidagi ma’lumotlar saqlanmasligini xohlasangiz, Decentr mehmon rejimidan foydalaning.</translation>
-<translation id="5320351714793324716">Cookie fayllarga ruxsat bersangiz, Decentr oldindan yuklashda ulardan foydalanishi mumkin</translation>
-<translation id="5334309298019785904">Domeningizda Sinxronlash xizmati mavjud emasligi sababli DecentrOS maʼlumotlaringizni sinxronlay olmadi.</translation>
-<translation id="5334487786912937552">Decentr bu fayllarni yuklab olishi uchun xotiraga saqlash ruxsati kerak</translation>
-<translation id="5337648990166757586">Ixtiyoriy: Decentr serverlariga diagnostika va foydalanish statistikasi maʼlumotlarini yuborish orqali DecentrOS tizimini takomillashtirishga yordam bering.</translation>
-<translation id="5357889879764279201">DecentrOS Flex yordam markazi</translation>
+Ba’zi imkoniyatlar ishlamasligi mumkin. Profilni saqlash uchun boshqa jild tanlang yoki yangiroq tomi versiyasini o‘rnating.</translation>
+<translation id="5201744974236816379">tomi yangilanishi</translation>
+<translation id="521447420733633466">Agar qurilmadan yaqinlaringiz va doʻstlaringiz ham foydalansa, ular tomi brauzerini oʻzlari xohlagancha sozlab olishlari mumkin.</translation>
+<translation id="5239627039202700673">Xabarlar, hujjatlar va boshqa ilovalardagi havolalarni bosganda tomi ochiladi</translation>
+<translation id="5251420635869119124">Agar tashrif buyurgan saytlaringiz haqidagi ma’lumotlar saqlanmasligini xohlasangiz, tomi mehmon rejimidan foydalaning.</translation>
+<translation id="5320351714793324716">Cookie fayllarga ruxsat bersangiz, tomi oldindan yuklashda ulardan foydalanishi mumkin</translation>
+<translation id="5334309298019785904">Domeningizda Sinxronlash xizmati mavjud emasligi sababli tomiOS maʼlumotlaringizni sinxronlay olmadi.</translation>
+<translation id="5334487786912937552">tomi bu fayllarni yuklab olishi uchun xotiraga saqlash ruxsati kerak</translation>
+<translation id="5337648990166757586">Ixtiyoriy: tomi serverlariga diagnostika va foydalanish statistikasi maʼlumotlarini yuborish orqali tomiOS tizimini takomillashtirishga yordam bering.</translation>
+<translation id="5357889879764279201">tomiOS Flex yordam markazi</translation>
 <translation id="5368118228313795342">Qoʻshimcha kod: <ph name="EXTRA_CODE" />.</translation>
-<translation id="5386244825306882791">Bundan tashqari kengaytma Decentr boshlash sahifasini va omniboksdagi so‘rovlar uchun foydalaniladigan birlamchi qidiruv tizimini o‘zgartirdi.</translation>
-<translation id="5394833366792865639">Decentr sahifasini namoyish qilish</translation>
-<translation id="5412485296464121825">Decentr orqali saytlar qiziqishlaringiz haqidagi maʼlumotlarni saqlashi mumkin. Misol uchun marafonda yugurish uchun poyabzal sotib olish saytini ochsangiz, sayt marafonda yugurishni qiziqishingiz deb aniqlashi mumkin. Keyin yugurish uchun boshqa saytga kirganingizda sayt qiziqishingiz asosida yugurish uchun poyabzal reklamasini chiqarishi mumkin.</translation>
+<translation id="5386244825306882791">Bundan tashqari kengaytma tomi boshlash sahifasini va omniboksdagi so‘rovlar uchun foydalaniladigan birlamchi qidiruv tizimini o‘zgartirdi.</translation>
+<translation id="5394833366792865639">tomi sahifasini namoyish qilish</translation>
+<translation id="5412485296464121825">tomi orqali saytlar qiziqishlaringiz haqidagi maʼlumotlarni saqlashi mumkin. Misol uchun marafonda yugurish uchun poyabzal sotib olish saytini ochsangiz, sayt marafonda yugurishni qiziqishingiz deb aniqlashi mumkin. Keyin yugurish uchun boshqa saytga kirganingizda sayt qiziqishingiz asosida yugurish uchun poyabzal reklamasini chiqarishi mumkin.</translation>
 <translation id="5430073640787465221">Sozlamalar fayli shikastlangan yoki yaroqsiz holatda.
 
-Decentr sozlamalaringizni qaytadan tiklay olmadi.</translation>
-<translation id="5468572406162360320">Funksiyalarni yaxshilash maqsadida Decentr ulardan foydalanish axborotingizni Decentrga yuboradi. Bu axborot xodimlar tomonidan oʻqilishi, qayta ishlanishi va izohlanishi mumkin.</translation>
-<translation id="5524761631371622910">Sinov muddatlari yoqilganida Decentr sizni tasodifiy faol sinovga joylaganida, siz ochgan sahifalar tarixi chiqadigan reklama va quyidagi qiziqishlaringizga taʼsir qiladi. Maxfiylikni himoya qilish maqsadida Decentr har oyda qiziqishlaringizni avtomatik oʻchiradi.</translation>
-<translation id="5530733413481476019">Decentrni tezlashtirish</translation>
-<translation id="5566025111015594046">Decentr (mDNS-In)</translation>
-<translation id="5602351063754773347">Decentr uni olib tashlashni tavsiya qiladi. <ph name="BEGIN_LINK" />Dastaklanadigan kengaytmalar haqida batafsil<ph name="END_LINK" /></translation>
-<translation id="5648328599815354043">Decentr internetdagi faoliyatingizni himoyalash bilan cheklanmaydi</translation>
-<translation id="565744775970812598"><ph name="FILE_NAME" /> zararli bo‘lishi mumkin, shuning uchun u Decentr tomonidan bloklandi.</translation>
-<translation id="5678190148303298925">{COUNT,plural, =0{Administrator yangilishlarni oʻrnatish uchun Decentr brauzerini qayta ishga tushirishni soʻramoqda}=1{Administrator yangilishlarni oʻrnatish uchun Decentr brauzerini qayta ishga tushirishni soʻramoqda Inkognito oynalar qayta ochilmaydi.}other{Administrator yangilishlarni oʻrnatish uchun Decentr brauzerini qayta ishga tushirishni soʻramoqda # ta inkognito oyna qayta ochilmaydi.}}</translation>
-<translation id="5686916850681061684">Decentr brauzerini sozlash va boshqarish. Diqqat qaratishingiz zarur. Batafsil axborot olish uchun bu yerga bosing.</translation>
-<translation id="5690427481109656848">Decentr LLC</translation>
+tomi sozlamalaringizni qaytadan tiklay olmadi.</translation>
+<translation id="5468572406162360320">Funksiyalarni yaxshilash maqsadida tomi ulardan foydalanish axborotingizni tomiga yuboradi. Bu axborot xodimlar tomonidan oʻqilishi, qayta ishlanishi va izohlanishi mumkin.</translation>
+<translation id="5524761631371622910">Sinov muddatlari yoqilganida tomi sizni tasodifiy faol sinovga joylaganida, siz ochgan sahifalar tarixi chiqadigan reklama va quyidagi qiziqishlaringizga taʼsir qiladi. Maxfiylikni himoya qilish maqsadida tomi har oyda qiziqishlaringizni avtomatik oʻchiradi.</translation>
+<translation id="5530733413481476019">tomini tezlashtirish</translation>
+<translation id="5566025111015594046">tomi (mDNS-In)</translation>
+<translation id="5602351063754773347">tomi uni olib tashlashni tavsiya qiladi. <ph name="BEGIN_LINK" />Dastaklanadigan kengaytmalar haqida batafsil<ph name="END_LINK" /></translation>
+<translation id="5648328599815354043">tomi internetdagi faoliyatingizni himoyalash bilan cheklanmaydi</translation>
+<translation id="565744775970812598"><ph name="FILE_NAME" /> zararli bo‘lishi mumkin, shuning uchun u tomi tomonidan bloklandi.</translation>
+<translation id="5678190148303298925">{COUNT,plural, =0{Administrator yangilishlarni oʻrnatish uchun tomi brauzerini qayta ishga tushirishni soʻramoqda}=1{Administrator yangilishlarni oʻrnatish uchun tomi brauzerini qayta ishga tushirishni soʻramoqda Inkognito oynalar qayta ochilmaydi.}other{Administrator yangilishlarni oʻrnatish uchun tomi brauzerini qayta ishga tushirishni soʻramoqda # ta inkognito oyna qayta ochilmaydi.}}</translation>
+<translation id="5686916850681061684">tomi brauzerini sozlash va boshqarish. Diqqat qaratishingiz zarur. Batafsil axborot olish uchun bu yerga bosing.</translation>
+<translation id="5690427481109656848">tomi LLC</translation>
 <translation id="569897634095159764">Internetga ulanmadi. Proksi server autentifikatsiyani talab qiladi.</translation>
-<translation id="570005089986962444">Yoniq boʻlsa, Decentr nofaol varaqlar orqali xotirani boʻshatadi. Bunda faol varaqlar va boshqa ilovalar kompyuter resurslarini oshiradi va Decentr ishlashi tezlashadi. Nofaol varaqlar ularga qaytilganda avtomatik faollashadi.</translation>
-<translation id="5709557627224531708">Decentrni standart brauzer etib tayinlang</translation>
-<translation id="5727531838415286053">Decentr sizni tasodifiy faol sinovga joylaganda siz ochgan sahifalar tarixi chiqadigan reklama va quyidagi qiziqishlaringizga taʼsir qiladi. Maxfiylikni himoya qilish maqsadida Decentr har oyda qiziqishlaringizni avtomatik oʻchiradi. Qiziqishlar ularni olib tashlamaguningizga qadar yangilanadi.</translation>
-<translation id="5736850870166430177">Agar sayt parolingizni oʻgirlashga urinsa yoki zararli fayl yuklab olsangiz, Decentr ham URL manzillar kabi sahifa elementlarini Saytlarni xavfsiz kezish tizimiga yuborishi mumkin</translation>
-<translation id="5756509061973259733">Bu hisobli Decentr profili ushbu qurilmada allaqachon mavjud</translation>
-<translation id="5795887333006832406"><ph name="PAGE_TITLE" /> - Decentr Canary</translation>
-<translation id="5804318322022881572">Decentr ishga tushmadi. Qayta urining.</translation>
+<translation id="570005089986962444">Yoniq boʻlsa, tomi nofaol varaqlar orqali xotirani boʻshatadi. Bunda faol varaqlar va boshqa ilovalar kompyuter resurslarini oshiradi va tomi ishlashi tezlashadi. Nofaol varaqlar ularga qaytilganda avtomatik faollashadi.</translation>
+<translation id="5709557627224531708">tomini standart brauzer etib tayinlang</translation>
+<translation id="5727531838415286053">tomi sizni tasodifiy faol sinovga joylaganda siz ochgan sahifalar tarixi chiqadigan reklama va quyidagi qiziqishlaringizga taʼsir qiladi. Maxfiylikni himoya qilish maqsadida tomi har oyda qiziqishlaringizni avtomatik oʻchiradi. Qiziqishlar ularni olib tashlamaguningizga qadar yangilanadi.</translation>
+<translation id="5736850870166430177">Agar sayt parolingizni oʻgirlashga urinsa yoki zararli fayl yuklab olsangiz, tomi ham URL manzillar kabi sahifa elementlarini Saytlarni xavfsiz kezish tizimiga yuborishi mumkin</translation>
+<translation id="5756509061973259733">Bu hisobli tomi profili ushbu qurilmada allaqachon mavjud</translation>
+<translation id="5795887333006832406"><ph name="PAGE_TITLE" /> - tomi Canary</translation>
+<translation id="5804318322022881572">tomi ishga tushmadi. Qayta urining.</translation>
 <translation id="5809516625706423866">Internetga ulanmadi. HTTP 401, ruxsat berilmagan. Proksi konfiguratsiyasini tekshiring.</translation>
-<translation id="5825922397106002626">Decentrdan olib tashlash: <ph name="EXTENSION_NAME" /></translation>
-<translation id="58431560289969279">Decentrda hisobdan chiqmasangiz, Decentr hisobingizdagi parollar va boshqa maʼlumotlardan foydalana olasiz. Buni istalgan vaqt sozlamalar orqali oʻzgartirish mumkin.</translation>
-<translation id="5858486459377137936">Barcha Decentr oynalari yopilganda aksariyat saytlardan chiqib ketasiz, ammo Decentr hisobingizga kirganingizda Decentr hisobingizdan chiqmaysiz. Saytlarga sizni eslab qolishga ruxsat berish uchun <ph name="SETTINGS_LINK" />.</translation>
-<translation id="586971344380992563">Xavfli saytlar va yuklanmalar haqida <ph name="BEGIN_LINK" />Decentr sizni ogohlantiradi<ph name="END_LINK" /></translation>
+<translation id="5825922397106002626">tomidan olib tashlash: <ph name="EXTENSION_NAME" /></translation>
+<translation id="58431560289969279">tomida hisobdan chiqmasangiz, tomi hisobingizdagi parollar va boshqa maʼlumotlardan foydalana olasiz. Buni istalgan vaqt sozlamalar orqali oʻzgartirish mumkin.</translation>
+<translation id="5858486459377137936">Barcha tomi oynalari yopilganda aksariyat saytlardan chiqib ketasiz, ammo tomi hisobingizga kirganingizda tomi hisobingizdan chiqmaysiz. Saytlarga sizni eslab qolishga ruxsat berish uchun <ph name="SETTINGS_LINK" />.</translation>
+<translation id="586971344380992563">Xavfli saytlar va yuklanmalar haqida <ph name="BEGIN_LINK" />tomi sizni ogohlantiradi<ph name="END_LINK" /></translation>
 <translation id="5895138241574237353">Qayta ishga tushirish</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - Tarmoqqa kirish</translation>
 <translation id="5924017743176219022">Internetga ulanmoqda…</translation>
-<translation id="5932997892801542621">Manzillar qatori yoki qidiruv oynasiga matn kiritilganda Decentr mos taklif olish uchun yozilgan matnni Decentr Drive xizmatiga yuboradi. Inkognito rejimda bu funksiya yoqilmasin</translation>
-<translation id="5940385492829620908">Decentr‘dagi barcha veb sahifalar, xatcho‘plar va boshqa ma’lumotlarni bu yerdan topish mumkin.</translation>
+<translation id="5932997892801542621">Manzillar qatori yoki qidiruv oynasiga matn kiritilganda tomi mos taklif olish uchun yozilgan matnni tomi Drive xizmatiga yuboradi. Inkognito rejimda bu funksiya yoqilmasin</translation>
+<translation id="5940385492829620908">tomi‘dagi barcha veb sahifalar, xatcho‘plar va boshqa ma’lumotlarni bu yerdan topish mumkin.</translation>
 <translation id="5941711191222866238">Yig‘ish</translation>
-<translation id="5941830788786076944">Decentr standart brauzer qilib belgilansin</translation>
-<translation id="5947104538377036631">Decentr tezkor tugmasi</translation>
-<translation id="5953954252731207958">Yaqinda ochmagansiz. Decentr olib tashladi: <ph name="PERMISSION" /></translation>
+<translation id="5941830788786076944">tomi standart brauzer qilib belgilansin</translation>
+<translation id="5947104538377036631">tomi tezkor tugmasi</translation>
+<translation id="5953954252731207958">Yaqinda ochmagansiz. tomi olib tashladi: <ph name="PERMISSION" /></translation>
 <translation id="6003112304606738118">Yuklab olinmoqda... <ph name="HOURS" /> soat qoldi</translation>
-<translation id="6014316319780893079"><ph name="BEGIN_LINK" />Decentr vositalari yordamida<ph name="END_LINK" /> xavfsiz kezishingiz va nazoratni ushlab turishingiz mumkin</translation>
-<translation id="6022659036123304283">Shaxsiy Decentr brauzeringiz</translation>
-<translation id="6025087594896450715">Decentr <ph name="REMAINING_TIME" />dan keyin qayta ishga tushadi</translation>
+<translation id="6014316319780893079"><ph name="BEGIN_LINK" />tomi vositalari yordamida<ph name="END_LINK" /> xavfsiz kezishingiz va nazoratni ushlab turishingiz mumkin</translation>
+<translation id="6022659036123304283">Shaxsiy tomi brauzeringiz</translation>
+<translation id="6025087594896450715">tomi <ph name="REMAINING_TIME" />dan keyin qayta ishga tushadi</translation>
 <translation id="6040143037577758943">Yopish</translation>
-<translation id="6070348360322141662">Xavfsizlik himoyasini oshirish maqsadida Decentr ma’lumotlaringizni shifrlaydi</translation>
+<translation id="6070348360322141662">Xavfsizlik himoyasini oshirish maqsadida tomi ma’lumotlaringizni shifrlaydi</translation>
 <translation id="608006075545470555">Bu brauzerga ish profilini kiritish</translation>
 <translation id="6097822892606850415">AI yordamida yanada ishonchli matnlar yarating</translation>
-<translation id="6113794647360055231">Decentr ancha yaxshilanmoqda</translation>
-<translation id="6134085236017727171">Mikrofondan foydalanish uchun <ph name="BEGIN_LINK" />tizim sozlamalari<ph name="END_LINK" /> orqali Decentrga ruxsat bering</translation>
-<translation id="6135456723633883042">Bu varaqlar ortiqcha resurs sarflayapti. Unumdorlikni kuchaytirish uchun Decentr varaqlarni nofaol qilishiga ruxsat bering.</translation>
-<translation id="6145313976051292476">PDF fayllarni Decentr bilan ochish</translation>
-<translation id="6157638032135951407">Tashkilotingiz Decentr <ph name="TIMEOUT_DURATION" /> ishlatilmasa maʼlumotlari oʻchirilishini sozlagan. Jumladan, tarix, avtomatik kiritish va yuklanmalar.</translation>
-<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> - Decentr</translation>
-<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
-<translation id="6180522807229584611">Bu varaq ortiqcha resurs sarflayapti. Unumdorlikni kuchaytirish uchun Decentr varaqni nofaol qilishiga ruxsat bering.</translation>
+<translation id="6113794647360055231">tomi ancha yaxshilanmoqda</translation>
+<translation id="6134085236017727171">Mikrofondan foydalanish uchun <ph name="BEGIN_LINK" />tizim sozlamalari<ph name="END_LINK" /> orqali tomiga ruxsat bering</translation>
+<translation id="6135456723633883042">Bu varaqlar ortiqcha resurs sarflayapti. Unumdorlikni kuchaytirish uchun tomi varaqlarni nofaol qilishiga ruxsat bering.</translation>
+<translation id="6145313976051292476">PDF fayllarni tomi bilan ochish</translation>
+<translation id="6157638032135951407">Tashkilotingiz tomi <ph name="TIMEOUT_DURATION" /> ishlatilmasa maʼlumotlari oʻchirilishini sozlagan. Jumladan, tarix, avtomatik kiritish va yuklanmalar.</translation>
+<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> - tomi</translation>
+<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> - tomi Beta</translation>
+<translation id="6180522807229584611">Bu varaq ortiqcha resurs sarflayapti. Unumdorlikni kuchaytirish uchun tomi varaqni nofaol qilishiga ruxsat bering.</translation>
 <translation id="6182736845697986886">Yangilanish serveridagi ichki xato sababli oʻrnatilmadi.</translation>
-<translation id="6200139057479872438">Yaqinda ochmagansiz. Decentr olib tashladi: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /></translation>
-<translation id="621585339844629864">Ekranni ulashish uchun tizim sozlamalarida Decentr uchun ekranni yozib olishga ruxsat bering.</translation>
-<translation id="6235018212288296708">Decentr mDNS trafigiga ruxsat berishiga oid kiruvchi qoida.</translation>
-<translation id="624230925347970731">Decentr tez orada yopiladi.</translation>
-<translation id="6247557882553405851">Decentr Parollar menejeri</translation>
-<translation id="6251759518630934363">Standart himoyadan koʻra koʻproq saytlardan olingan maʼlumotlarni tahlil qilish orqali sizni xavfli saytlar, hatto Decentr ilgari bilmagan saytlar haqida ogohlantiradi. Decentr ogohlantirishlarini eʼtiborsiz qoldirishni tanlashingiz mumkin.</translation>
-<translation id="6277547788421725101">Decentrdagi “Sayt, ilova va kengaytmalarga ruxsat” ota-onangiz tomonidan faolsizlantirilgan</translation>
-<translation id="627882678981830918">Decentrni oʻzingizga moslab, boshqaring. Decentrni asosiy brauzer etib belgilang.</translation>
-<translation id="6288788894729749483">Internetda xavfsiz ishlash, ijod qilish va kezish uchun Decentrni asosiy brauzer etib tayinlang</translation>
-<translation id="6291089322031436445">Decentr Dev ilovalari</translation>
-<translation id="6291549208091401781">Decentr allaqachon kompyuterdagi barcha foydalanuvchilar uchun o‘rnatilgan.</translation>
-<translation id="6319856120645568262">Decentr atrofingiz xaritasini yaratish va qoʻllaringiz holatini kuzatishga ruxsat olmoqchi</translation>
-<translation id="6321592572353357376">"<ph name="EXTENSION_NAME" />" kengaytmasi Decentr hisobiga kirishni soʻramoqda</translation>
-<translation id="6326175484149238433">Decentr‘dan olib tashlash</translation>
+<translation id="6200139057479872438">Yaqinda ochmagansiz. tomi olib tashladi: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /></translation>
+<translation id="621585339844629864">Ekranni ulashish uchun tizim sozlamalarida tomi uchun ekranni yozib olishga ruxsat bering.</translation>
+<translation id="6235018212288296708">tomi mDNS trafigiga ruxsat berishiga oid kiruvchi qoida.</translation>
+<translation id="624230925347970731">tomi tez orada yopiladi.</translation>
+<translation id="6247557882553405851">tomi Parollar menejeri</translation>
+<translation id="6251759518630934363">Standart himoyadan koʻra koʻproq saytlardan olingan maʼlumotlarni tahlil qilish orqali sizni xavfli saytlar, hatto tomi ilgari bilmagan saytlar haqida ogohlantiradi. tomi ogohlantirishlarini eʼtiborsiz qoldirishni tanlashingiz mumkin.</translation>
+<translation id="6277547788421725101">tomidagi “Sayt, ilova va kengaytmalarga ruxsat” ota-onangiz tomonidan faolsizlantirilgan</translation>
+<translation id="627882678981830918">tomini oʻzingizga moslab, boshqaring. tomini asosiy brauzer etib belgilang.</translation>
+<translation id="6288788894729749483">Internetda xavfsiz ishlash, ijod qilish va kezish uchun tomini asosiy brauzer etib tayinlang</translation>
+<translation id="6291089322031436445">tomi Dev ilovalari</translation>
+<translation id="6291549208091401781">tomi allaqachon kompyuterdagi barcha foydalanuvchilar uchun o‘rnatilgan.</translation>
+<translation id="6319856120645568262">tomi atrofingiz xaritasini yaratish va qoʻllaringiz holatini kuzatishga ruxsat olmoqchi</translation>
+<translation id="6321592572353357376">"<ph name="EXTENSION_NAME" />" kengaytmasi tomi hisobiga kirishni soʻramoqda</translation>
+<translation id="6326175484149238433">tomi‘dan olib tashlash</translation>
 <translation id="6327105987658262776">Hech qanday yangilanish mavjud emas.</translation>
-<translation id="6360449101159168105">Bu varaq nofaol boʻlganida Decentr tezroq ishlashi uchun xotira boʻshatiladi. Bu saytni har doim nofaol boʻlmasligini tanlash mumkin.</translation>
-<translation id="6412673304250309937">URL manzillar Decentr bilgan zararli saytlar roʻyxati orqali tekshiriladi. Agar sayt parolingizni oʻgirlashga urinsa yoki zararli fayl yuklab olsangiz, Decentr ham URL manzillar kabi sahifa elementlarini Saytlarni xavfsiz kezish tizimiga yuborishi mumkin.</translation>
-<translation id="6417690341895039567">{COUNT,plural, =1{Decentr 1 daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi. Brauzerning ishlashi haqida axborot oʻchiriladi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin.}other{Decentr # daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi. Brauzerning ishlashi haqida axborot oʻchiriladi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin.}}</translation>
-<translation id="6418662306461808273">Mavjud Decentr profiliga almashilsinmi?</translation>
-<translation id="6473905796280459355">Decentr haqida sahifasini oching</translation>
-<translation id="6479881432656947268">Decentr Web Store doʻkonini ochish</translation>
-<translation id="6481963882741794338">Decentr va boshqa Decentr xizmatlarini moslashtirish kabi maqsadlarda ulang</translation>
+<translation id="6360449101159168105">Bu varaq nofaol boʻlganida tomi tezroq ishlashi uchun xotira boʻshatiladi. Bu saytni har doim nofaol boʻlmasligini tanlash mumkin.</translation>
+<translation id="6412673304250309937">URL manzillar tomi bilgan zararli saytlar roʻyxati orqali tekshiriladi. Agar sayt parolingizni oʻgirlashga urinsa yoki zararli fayl yuklab olsangiz, tomi ham URL manzillar kabi sahifa elementlarini Saytlarni xavfsiz kezish tizimiga yuborishi mumkin.</translation>
+<translation id="6417690341895039567">{COUNT,plural, =1{tomi 1 daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi. Brauzerning ishlashi haqida axborot oʻchiriladi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin.}other{tomi # daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi. Brauzerning ishlashi haqida axborot oʻchiriladi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin.}}</translation>
+<translation id="6418662306461808273">Mavjud tomi profiliga almashilsinmi?</translation>
+<translation id="6473905796280459355">tomi haqida sahifasini oching</translation>
+<translation id="6479881432656947268">tomi Web Store doʻkonini ochish</translation>
+<translation id="6481963882741794338">tomi va boshqa tomi xizmatlarini moslashtirish kabi maqsadlarda ulang</translation>
 <translation id="648319183876919572">Saytlarni kuchaytirilgan rejimda xavfsiz kezish yordamida zararli saytlar va yuklanmalardan himoyalanish mumkin</translation>
-<translation id="6489302989675808168">Yoniq • Decentr bu kengaytma manbasini tekshira olmadi</translation>
-<translation id="6493527311031785448">Decentr buni bajarmoqchi: <ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="6497147134301593682">Decentr avtomatik yopildi</translation>
-<translation id="6506909944137591434">Decentr atrofingiz 3D xxaritasini yaratishi uchun kameradan foydalanishiga ruxsat kerak</translation>
-<translation id="6515495397637126556"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
-<translation id="6520670145826811516">Joylashuvdan foydalanish uchun <ph name="BEGIN_LINK" />tizim sozlamalari<ph name="END_LINK" /> orqali Decentrga ruxsat bering</translation>
-<translation id="659498884637196217">Bu qurilmadagi Decentr Parollar menejerida</translation>
-<translation id="6632473616050862500">DecentrOS Flex tizimini ishlab chiqishda <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
-<translation id="6660596345553328257">Decentr hisobiga kirasizmi?</translation>
+<translation id="6489302989675808168">Yoniq • tomi bu kengaytma manbasini tekshira olmadi</translation>
+<translation id="6493527311031785448">tomi buni bajarmoqchi: <ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="6497147134301593682">tomi avtomatik yopildi</translation>
+<translation id="6506909944137591434">tomi atrofingiz 3D xxaritasini yaratishi uchun kameradan foydalanishiga ruxsat kerak</translation>
+<translation id="6515495397637126556"><ph name="PAGE_TITLE" /> - tomi Dev</translation>
+<translation id="6520670145826811516">Joylashuvdan foydalanish uchun <ph name="BEGIN_LINK" />tizim sozlamalari<ph name="END_LINK" /> orqali tomiga ruxsat bering</translation>
+<translation id="659498884637196217">Bu qurilmadagi tomi Parollar menejerida</translation>
+<translation id="6632473616050862500">tomiOS Flex tizimini ishlab chiqishda <ph name="BEGIN_LINK_CROS_OSS" />ochiq kodli DT<ph name="END_LINK_CROS_OSS" /> vositalaridan foydalanilgan.</translation>
+<translation id="6660596345553328257">tomi hisobiga kirasizmi?</translation>
 <translation id="6676384891291319759">Internetga ulanish</translation>
-<translation id="6679975945624592337">Decentr fonda ishlashiga ruxsat</translation>
-<translation id="6696915334902295848">Decentr bu saytda mikrofondan foydalanishiga ruxsat kerak</translation>
+<translation id="6679975945624592337">tomi fonda ishlashiga ruxsat</translation>
+<translation id="6696915334902295848">tomi bu saytda mikrofondan foydalanishiga ruxsat kerak</translation>
 <translation id="6712881677154121168">Yuklab olinmadi: <ph name="DOWNLOAD_ERROR" />.</translation>
-<translation id="6718739135284199302">Decentrni tezlashtirish</translation>
-<translation id="6735387454586646204">DecentrOS Flex tizimi</translation>
-<translation id="6739177684496155661">Yangi Decentr profilida davom etasizmi?</translation>
-<translation id="6750954913813541382">Imlo xatolarini tuzatish uchun Decentr brauzerida kiritiladigan matn Decentr serverlariga yuboriladi.</translation>
-<translation id="677276454032249905">Decentr baribir yopilsinmi?</translation>
-<translation id="6794858689789885890">Decentr yopilganda har doim qurilmadan sayt maʼlumotlarini oʻchirib tashlash</translation>
-<translation id="683440813066116847">Decentr Canary‘ga kiruvchi trafikni mDNS protokoli orqali uzatishga ruxsat berish</translation>
-<translation id="6834926483721196812">Quvvat tejash va operativ xotirani tejash kabi funksiyalar yordamida Decentr unumdorlikni oshirish uchun ishlab chiqilgan</translation>
+<translation id="6718739135284199302">tomini tezlashtirish</translation>
+<translation id="6735387454586646204">tomiOS Flex tizimi</translation>
+<translation id="6739177684496155661">Yangi tomi profilida davom etasizmi?</translation>
+<translation id="6750954913813541382">Imlo xatolarini tuzatish uchun tomi brauzerida kiritiladigan matn tomi serverlariga yuboriladi.</translation>
+<translation id="677276454032249905">tomi baribir yopilsinmi?</translation>
+<translation id="6794858689789885890">tomi yopilganda har doim qurilmadan sayt maʼlumotlarini oʻchirib tashlash</translation>
+<translation id="683440813066116847">tomi Canary‘ga kiruvchi trafikni mDNS protokoli orqali uzatishga ruxsat berish</translation>
+<translation id="6834926483721196812">Quvvat tejash va operativ xotirani tejash kabi funksiyalar yordamida tomi unumdorlikni oshirish uchun ishlab chiqilgan</translation>
 <translation id="684888714667046800">Internetga ulanilmadi. Himoya devori ishlatsangiz, <ph name="PRODUCT_EXE_NAME" /> ruxsat etilgan roʻyxatda borligini tekshiring.</translation>
-<translation id="6851981911629679515">Decentrda JavaScript va WebAssembly tizimi uchun qoʻshimcha himoyasini yoqish</translation>
-<translation id="6881299373831449287">Decentr yangilanmoqda</translation>
-<translation id="6885412569789873916">Decentr Beta ilovalari</translation>
-<translation id="6893363893008038481">Hisobni Decentrdan chiqarish</translation>
-<translation id="6933858244219479645">DecentrOS tizimi</translation>
-<translation id="6938166777909186039">Decentr yangilanishlari Windows 10 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: Windows 8.1.</translation>
+<translation id="6851981911629679515">tomida JavaScript va WebAssembly tizimi uchun qoʻshimcha himoyasini yoqish</translation>
+<translation id="6881299373831449287">tomi yangilanmoqda</translation>
+<translation id="6885412569789873916">tomi Beta ilovalari</translation>
+<translation id="6893363893008038481">Hisobni tomidan chiqarish</translation>
+<translation id="6933858244219479645">tomiOS tizimi</translation>
+<translation id="6938166777909186039">tomi yangilanishlari Windows 10 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: Windows 8.1.</translation>
 <translation id="6943584222992551122">Bu foydalanuvchi brauzerining tarixi ushbu qurilmadan butunlay tozalanadi. Axborotlarni tiklash uchun brauzerga <ph name="USER_EMAIL" /> sifatida kiring.</translation>
-<translation id="6967962315388095737">Decentr Beta mDNS trafigiga ruxsat berishiga oid kiruvchi qoida.</translation>
-<translation id="6979589607440534284">Decentr ayrim fayllarni nega bloklashi haqida batafsil. Yangi varaqda ochiladi</translation>
+<translation id="6967962315388095737">tomi Beta mDNS trafigiga ruxsat berishiga oid kiruvchi qoida.</translation>
+<translation id="6979589607440534284">tomi ayrim fayllarni nega bloklashi haqida batafsil. Yangi varaqda ochiladi</translation>
 <translation id="7011190694940573312">Operatsion tizim versiyasi mos emasligi sababli oʻrnatilmadi.</translation>
 <translation id="7024536598735240744">Arxivdan chiqarish xatosi: <ph name="UNPACK_ERROR" />.</translation>
 <translation id="7025789849649390912">Oʻrnatish toʻxtatildi.</translation>
-<translation id="7025800014283535195">Bu yerda Decentr profillarini almashtirish mumkin</translation>
-<translation id="7036251913954633326">Bu hisobdan bir marta foydalanish uchun Decentr brauzerida <ph name="GUEST_LINK_BEGIN" />Mehmon rejimidan<ph name="GUEST_LINK_END" /> foydalanishingiz mumkin. Biror kishi uchun hisob qoʻshmoqchi boʻlsangiz, <ph name="LINK_BEGIN" />yangi shaxsni<ph name="LINK_END" /> <ph name="DEVICE_TYPE" /> qurilmasiga qoʻshing.
+<translation id="7025800014283535195">Bu yerda tomi profillarini almashtirish mumkin</translation>
+<translation id="7036251913954633326">Bu hisobdan bir marta foydalanish uchun tomi brauzerida <ph name="GUEST_LINK_BEGIN" />Mehmon rejimidan<ph name="GUEST_LINK_END" /> foydalanishingiz mumkin. Biror kishi uchun hisob qoʻshmoqchi boʻlsangiz, <ph name="LINK_BEGIN" />yangi shaxsni<ph name="LINK_END" /> <ph name="DEVICE_TYPE" /> qurilmasiga qoʻshing.
 
-Sayt va ilovalarga berilgan ruxsatlar bu hisobga tatbiq etilishi mumkin. Decentr hisoblarini <ph name="SETTINGS_LINK_BEGIN" />Sozlamalar<ph name="SETTINGS_LINK_END" /> orqali boshqarish mumkin.</translation>
+Sayt va ilovalarga berilgan ruxsatlar bu hisobga tatbiq etilishi mumkin. tomi hisoblarini <ph name="SETTINGS_LINK_BEGIN" />Sozlamalar<ph name="SETTINGS_LINK_END" /> orqali boshqarish mumkin.</translation>
 <translation id="7048502283602470098">AI bilan tanishuv</translation>
-<translation id="7059914902409643750">Decentr brauzerini oʻzingizga moslashtiring</translation>
-<translation id="7071827361006050863">Decentr tez orada brauzer maʼlumotlarini oʻchirib tashlaydi</translation>
-<translation id="7085332316435785646">Kerak boʻlsa, Decentr tarixi yanada moslashtirilgan Decentr xizmatlarida ishlatilishini tanlang</translation>
-<translation id="7088681679121566888">Decentr eng oxirgi versiyada</translation>
-<translation id="7098166902387133879">Decentr mikrofoningizdan foydalanmoqda.</translation>
-<translation id="7099479769133613710">&amp;DecentrOS tizimini yangilash uchun qayta ishga tushiring</translation>
-<translation id="7100085796996987445">Ekranni ulashish uchun tizim sozlamalarida Decentr uchun ekranni yozib olishga ruxsat bering</translation>
-<translation id="7106741999175697885">Vazifalar menejeri - Decentr</translation>
-<translation id="7140653346177713799">{COUNT,plural, =0{Decentr uchun yangilanish mavjud va brauzer qayta ishga tushirilganda oʻrnatiladi.}=1{Decentr uchun yangilanish mavjud va brauzer qayta ishga tushirilganda oʻrnatiladi. Inkognito oynalar qayta ochilmaydi.}other{Decentr uchun yangilanish mavjud va brauzer qayta ishga tushirilganda oʻrnatiladi. # ta inkognito oyna qayta ochilmaydi.}}</translation>
-<translation id="7155997830309522122">Agar shunday boʻlsa, Decentr brauzeriga saqlangan parolingizni yangi parolingiz bilan bir xil boʻlishi uchun tahrirlang</translation>
-<translation id="7161904924553537242">Decentr brauzeriga xush kelibsiz!</translation>
-<translation id="7177959540995930968">Bu funksiyalar haqida batafsil axborotni Decentr sozlamalari orqali olish mumkin.</translation>
-<translation id="7193885263065350793">Tashkilotingiz Decentr <ph name="TIMEOUT_DURATION" /> ishlatilmasa avtomatik yopilishini sozlagan.</translation>
-<translation id="7242029209006116544">Boshqariladigan hisobga kirish bilan siz administratorga Decentr profilingiz sozlamalarini boshqarishiga rozilik bildirasiz. Barcha Decentr ma’lumotlaringiz (m-n, ilovalar, xatcho‘plar, brauzer tarixi, parollar va boshqa sozlamalar kabi) <ph name="USER_NAME" /> hisobiga butunlay bog‘lanadi. Bu ma’lumotlarni Decentr shaxsiy kabinetida o‘chirish mumkin, lekin boshqa hisobga bog‘lash imkoniyati yo‘q. Decentr ma’lumotlarini saqlab qolish uchun yangi profil yarating. <ph name="LEARN_MORE" /></translation>
-<translation id="7285616922384953075">Decentr <ph name="MANAGER" /> boshqaruvida</translation>
-<translation id="7295052994004373688">Decentr UI inteyfeysi hozir shu tilda</translation>
+<translation id="7059914902409643750">tomi brauzerini oʻzingizga moslashtiring</translation>
+<translation id="7071827361006050863">tomi tez orada brauzer maʼlumotlarini oʻchirib tashlaydi</translation>
+<translation id="7085332316435785646">Kerak boʻlsa, tomi tarixi yanada moslashtirilgan tomi xizmatlarida ishlatilishini tanlang</translation>
+<translation id="7088681679121566888">tomi eng oxirgi versiyada</translation>
+<translation id="7098166902387133879">tomi mikrofoningizdan foydalanmoqda.</translation>
+<translation id="7099479769133613710">&amp;tomiOS tizimini yangilash uchun qayta ishga tushiring</translation>
+<translation id="7100085796996987445">Ekranni ulashish uchun tizim sozlamalarida tomi uchun ekranni yozib olishga ruxsat bering</translation>
+<translation id="7106741999175697885">Vazifalar menejeri - tomi</translation>
+<translation id="7140653346177713799">{COUNT,plural, =0{tomi uchun yangilanish mavjud va brauzer qayta ishga tushirilganda oʻrnatiladi.}=1{tomi uchun yangilanish mavjud va brauzer qayta ishga tushirilganda oʻrnatiladi. Inkognito oynalar qayta ochilmaydi.}other{tomi uchun yangilanish mavjud va brauzer qayta ishga tushirilganda oʻrnatiladi. # ta inkognito oyna qayta ochilmaydi.}}</translation>
+<translation id="7155997830309522122">Agar shunday boʻlsa, tomi brauzeriga saqlangan parolingizni yangi parolingiz bilan bir xil boʻlishi uchun tahrirlang</translation>
+<translation id="7161904924553537242">tomi brauzeriga xush kelibsiz!</translation>
+<translation id="7177959540995930968">Bu funksiyalar haqida batafsil axborotni tomi sozlamalari orqali olish mumkin.</translation>
+<translation id="7193885263065350793">Tashkilotingiz tomi <ph name="TIMEOUT_DURATION" /> ishlatilmasa avtomatik yopilishini sozlagan.</translation>
+<translation id="7242029209006116544">Boshqariladigan hisobga kirish bilan siz administratorga tomi profilingiz sozlamalarini boshqarishiga rozilik bildirasiz. Barcha tomi ma’lumotlaringiz (m-n, ilovalar, xatcho‘plar, brauzer tarixi, parollar va boshqa sozlamalar kabi) <ph name="USER_NAME" /> hisobiga butunlay bog‘lanadi. Bu ma’lumotlarni tomi shaxsiy kabinetida o‘chirish mumkin, lekin boshqa hisobga bog‘lash imkoniyati yo‘q. tomi ma’lumotlarini saqlab qolish uchun yangi profil yarating. <ph name="LEARN_MORE" /></translation>
+<translation id="7285616922384953075">tomi <ph name="MANAGER" /> boshqaruvida</translation>
+<translation id="7295052994004373688">tomi UI inteyfeysi hozir shu tilda</translation>
 <translation id="7296210096911315575">Foydalanish va xavfsizlik</translation>
-<translation id="7302361266603927550">Ayrim Decentr maʼlumotlari Decentr hisobingizga hali saqlanmagan. Hisobdan chiqishga shoshilmang. Hozir chiqsangiz, bu maʼlumotlar oʻchib ketadi.</translation>
-<translation id="7308322188646931570">Yuklab olish uchun Decentr brauzerida omborga saqlash ruxsati bo‘lishi zarur</translation>
+<translation id="7302361266603927550">Ayrim tomi maʼlumotlari tomi hisobingizga hali saqlanmagan. Hisobdan chiqishga shoshilmang. Hozir chiqsangiz, bu maʼlumotlar oʻchib ketadi.</translation>
+<translation id="7308322188646931570">Yuklab olish uchun tomi brauzerida omborga saqlash ruxsati bo‘lishi zarur</translation>
 <translation id="7339898014177206373">Yangi oyna</translation>
-<translation id="7352881504289275361">Decentrdagi Saytlarni kuchaytirilgan rejimda xavfsiz kezish tizimi internetni kezish uchun eng kuchli himoyani taʼminlaydi</translation>
+<translation id="7352881504289275361">tomidagi Saytlarni kuchaytirilgan rejimda xavfsiz kezish tizimi internetni kezish uchun eng kuchli himoyani taʼminlaydi</translation>
 <translation id="7394745511930161845">Brauzeringizni unikal bezatish uchun AI yordamida mavzu yarating</translation>
-<translation id="7398801000654795464">Siz Decentr brauzeriga <ph name="USER_EMAIL_ADDRESS" /> hisobi orqali kirgandingiz. O‘sha hisobdan foydalanib yana qaytadan kiring.</translation>
-<translation id="7412494426921990001">Decentr menyusiga bosing</translation>
-<translation id="742463671275348370">{NUM_DEVICES,plural, =0{1 ta USB qurilma kamida bitta Decentr kengaytmasi tomonidan ochilmoqda}=1{1 ta USB qurilma kamida bitta Decentr kengaytmasi tomonidan ochilmoqda}other{# ta USB qurilma kamida bitta Decentr kengaytmasi tomonidan ochilmoqda}}</translation>
-<translation id="7426611252293106642">Decentr endi Linux tizimida ishlamay qolishi mumkin, chunki uning yangi versiyalarida bu versiyalar taʼminoti toʻxtatilgan.</translation>
-<translation id="7437998757836447326">Decentr’dan chiqish</translation>
-<translation id="7449333426561673451">{COUNT,plural, =1{Decentr 1 daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi.}other{Decentr # daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi.}}</translation>
-<translation id="7452987490177144319">{COUNT,plural, =1{Decentr 1 daqiqa ishlatilmasa, tashkilot avtomatik ravishda brauzerning ishlashi haqida axborotni tozalaydi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin. Varaqlar ochiq qoladi.}other{Decentr # daqiqa ishlatilmasa, tashkilot avtomatik ravishda brauzerning ishlashi haqida axborotni tozalaydi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin. Varaqlar ochiq qoladi.}}</translation>
-<translation id="7477130805345743099">Xavfsiz ulanishli har qanday saytga kirganingizda Decentr sizni ogohlantiradi</translation>
-<translation id="7481213027396403996">Decentr brauzerining kuchli xavfsizligidan foydalaning</translation>
-<translation id="749228101751499733">Decentrda hisobdan chiqmasangiz, Decentr hisobingizdagi parollar va boshqa maʼlumotlardan foydalana olasiz. <ph name="SHORTCUT" /> Decentr xizmatlari sozlamalarini oʻzgartirishi mumkin.</translation>
-<translation id="7535429826459677826">Decentr Dev</translation>
-<translation id="7572537927358445944">Oʻchiq • Decentr bu kengaytma manbasini tekshira olmadi</translation>
+<translation id="7398801000654795464">Siz tomi brauzeriga <ph name="USER_EMAIL_ADDRESS" /> hisobi orqali kirgandingiz. O‘sha hisobdan foydalanib yana qaytadan kiring.</translation>
+<translation id="7412494426921990001">tomi menyusiga bosing</translation>
+<translation id="742463671275348370">{NUM_DEVICES,plural, =0{1 ta USB qurilma kamida bitta tomi kengaytmasi tomonidan ochilmoqda}=1{1 ta USB qurilma kamida bitta tomi kengaytmasi tomonidan ochilmoqda}other{# ta USB qurilma kamida bitta tomi kengaytmasi tomonidan ochilmoqda}}</translation>
+<translation id="7426611252293106642">tomi endi Linux tizimida ishlamay qolishi mumkin, chunki uning yangi versiyalarida bu versiyalar taʼminoti toʻxtatilgan.</translation>
+<translation id="7437998757836447326">tomi’dan chiqish</translation>
+<translation id="7449333426561673451">{COUNT,plural, =1{tomi 1 daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi.}other{tomi # daqiqa ishlatilmasa, tashkilot avtomatik ravishda yopadi.}}</translation>
+<translation id="7452987490177144319">{COUNT,plural, =1{tomi 1 daqiqa ishlatilmasa, tashkilot avtomatik ravishda brauzerning ishlashi haqida axborotni tozalaydi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin. Varaqlar ochiq qoladi.}other{tomi # daqiqa ishlatilmasa, tashkilot avtomatik ravishda brauzerning ishlashi haqida axborotni tozalaydi. Bunga tarix, avtomatik kiritish va yuklanmalar kirishi mumkin. Varaqlar ochiq qoladi.}}</translation>
+<translation id="7477130805345743099">Xavfsiz ulanishli har qanday saytga kirganingizda tomi sizni ogohlantiradi</translation>
+<translation id="7481213027396403996">tomi brauzerining kuchli xavfsizligidan foydalaning</translation>
+<translation id="749228101751499733">tomida hisobdan chiqmasangiz, tomi hisobingizdagi parollar va boshqa maʼlumotlardan foydalana olasiz. <ph name="SHORTCUT" /> tomi xizmatlari sozlamalarini oʻzgartirishi mumkin.</translation>
+<translation id="7535429826459677826">tomi Dev</translation>
+<translation id="7572537927358445944">Oʻchiq • tomi bu kengaytma manbasini tekshira olmadi</translation>
 <translation id="7583399374488819119"><ph name="COMPANY_NAME" /> oʻrnatish vositasi</translation>
-<translation id="7606334485649076285">DecentrOS Flex</translation>
-<translation id="7626032353295482388">Decentr brauzeriga xush kelibsiz!</translation>
-<translation id="7626072681686626474"><ph name="MANAGER" /> bu qurilmadan foydalanishdan oldin quyidagi Xizmat shartlarini oʻqib, qabul qilishingizni talab qiladi. Bu shartlar DecentrOS shartlarini kengaytirmaydi, oʻzgartirmaydi yoki cheklamaydi.</translation>
-<translation id="7629695634924605473">Parollaringiz oshkor etilsa, Decentr bu haqida xabar qiladi</translation>
-<translation id="7641148173327520642">Tizim administratori tomonidan Decentr brauzeri <ph name="TARGET_URL_HOSTNAME" /> sahifasini <ph name="ALTERNATIVE_BROWSER_NAME" /> orqali ochiladigan qilib sozlangan.</translation>
+<translation id="7606334485649076285">tomiOS Flex</translation>
+<translation id="7626032353295482388">tomi brauzeriga xush kelibsiz!</translation>
+<translation id="7626072681686626474"><ph name="MANAGER" /> bu qurilmadan foydalanishdan oldin quyidagi Xizmat shartlarini oʻqib, qabul qilishingizni talab qiladi. Bu shartlar tomiOS shartlarini kengaytirmaydi, oʻzgartirmaydi yoki cheklamaydi.</translation>
+<translation id="7629695634924605473">Parollaringiz oshkor etilsa, tomi bu haqida xabar qiladi</translation>
+<translation id="7641148173327520642">Tizim administratori tomonidan tomi brauzeri <ph name="TARGET_URL_HOSTNAME" /> sahifasini <ph name="ALTERNATIVE_BROWSER_NAME" /> orqali ochiladigan qilib sozlangan.</translation>
 <translation id="7649070708921625228">Yordam</translation>
-<translation id="7651907282515937834">Decentr Enterprise logotipi</translation>
-<translation id="76531479118467370">Decentr bu yuklamani blokladi, chunki Saytlarni xavfsiz kezish funksiyasini faolsizlantirgansiz, shuning uchun bu fayl tekshirilmaydi</translation>
-<translation id="7655455401911432608">Bu qurilmada Decentr orqali siz kirgan saytlar tarixidagi qaydlar.</translation>
-<translation id="7655472416356262023">Hisobni Decentrdan chiqarish</translation>
-<translation id="7661924425853052955">Yaqinda ochmagansiz. Decentr olib tashladi: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> va yana <ph name="COUNT" /> ta</translation>
+<translation id="7651907282515937834">tomi Enterprise logotipi</translation>
+<translation id="76531479118467370">tomi bu yuklamani blokladi, chunki Saytlarni xavfsiz kezish funksiyasini faolsizlantirgansiz, shuning uchun bu fayl tekshirilmaydi</translation>
+<translation id="7655455401911432608">Bu qurilmada tomi orqali siz kirgan saytlar tarixidagi qaydlar.</translation>
+<translation id="7655472416356262023">Hisobni tomidan chiqarish</translation>
+<translation id="7661924425853052955">Yaqinda ochmagansiz. tomi olib tashladi: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> va yana <ph name="COUNT" /> ta</translation>
 <translation id="7668816516367091728">Tarjima qilish, hisoblash va boshqa amallarni bevosita manzillar qatorida bajaring</translation>
-<translation id="7670287553302121848">Decentr hisobi uchun qayta autentifikatsiya kerak</translation>
-<translation id="769538538642757151">Decentr biror sozlamaga diqqat qilish kerak boʻlganda sizga xabar qiladi.</translation>
+<translation id="7670287553302121848">tomi hisobi uchun qayta autentifikatsiya kerak</translation>
+<translation id="769538538642757151">tomi biror sozlamaga diqqat qilish kerak boʻlganda sizga xabar qiladi.</translation>
 <translation id="7747138024166251722">O‘rnatish dasturi vaqtinchalik katalog yarata olmadi. Sizda ilovalar o‘rnatish uchun yetarli vakolat yoki disk yetarli bo‘sh joy yo‘q bo‘lsa kerak.</translation>
-<translation id="7761834446675418963">Decentr‘ga kirish uchun o‘z ismingiz ustiga bosing va kezishni boshlang.</translation>
+<translation id="7761834446675418963">tomi‘ga kirish uchun o‘z ismingiz ustiga bosing va kezishni boshlang.</translation>
 <translation id="7763983146198734674">Parollarni saqlang va ulardan istalgan qurilmada foydalaning</translation>
-<translation id="7777080907402804672">Agar rasmga foydali tavsif berilmagan boʻlsa, Decentr uni sizga tavsiflaydi. Tavsif yaratish uchun rasmlar Decentrga yuboriladi. Bu sozlamani istalgan vaqtda faolsizlantirish mumkin.</translation>
-<translation id="778331955594035129">Decentr bu saytda joylashuv axborotidan foydalanishiga ruxsat kerak</translation>
-<translation id="7785741298021097183">Decentr — telefondan kompyutergacha — barcha qurilmalarda tez va xavfsiz ishlaydigan qilib yaratilgan.</translation>
-<translation id="7787950393032327779">Profil boshqa kompyuterdagi (<ph name="HOST_NAME" />) boshqa Decentr jarayonida (<ph name="PROCESS_ID" />) foydalanilayotgan ko‘rinadi. Ishdan chiqishlarning oldini olish maqsadida profil qulflandi. Agar aniq o‘zingiz foydalanayotgan bo‘lsangiz, qulfdan yeching va Decentr‘ni qaytadan ishga tushiring.</translation>
-<translation id="7801699035218095297">Decentr parollarni nusxalashga urinmoqda. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
-<translation id="7802622118583152311">Decentr sahifalarni kezishni yaxshilaydigan eng yangi texnologiyalardan iborat</translation>
-<translation id="7808348361785373670">Decentr‘dan olib tashlash...</translation>
-<translation id="7825851276765848807">O‘rnatish vaqtida kutilmagan xatolik yuz berdi. Decentr‘ni qayta yuklab oling.</translation>
+<translation id="7777080907402804672">Agar rasmga foydali tavsif berilmagan boʻlsa, tomi uni sizga tavsiflaydi. Tavsif yaratish uchun rasmlar tomiga yuboriladi. Bu sozlamani istalgan vaqtda faolsizlantirish mumkin.</translation>
+<translation id="778331955594035129">tomi bu saytda joylashuv axborotidan foydalanishiga ruxsat kerak</translation>
+<translation id="7785741298021097183">tomi — telefondan kompyutergacha — barcha qurilmalarda tez va xavfsiz ishlaydigan qilib yaratilgan.</translation>
+<translation id="7787950393032327779">Profil boshqa kompyuterdagi (<ph name="HOST_NAME" />) boshqa tomi jarayonida (<ph name="PROCESS_ID" />) foydalanilayotgan ko‘rinadi. Ishdan chiqishlarning oldini olish maqsadida profil qulflandi. Agar aniq o‘zingiz foydalanayotgan bo‘lsangiz, qulfdan yeching va tomi‘ni qaytadan ishga tushiring.</translation>
+<translation id="7801699035218095297">tomi parollarni nusxalashga urinmoqda. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
+<translation id="7802622118583152311">tomi sahifalarni kezishni yaxshilaydigan eng yangi texnologiyalardan iborat</translation>
+<translation id="7808348361785373670">tomi‘dan olib tashlash...</translation>
+<translation id="7825851276765848807">O‘rnatish vaqtida kutilmagan xatolik yuz berdi. tomi‘ni qayta yuklab oling.</translation>
 <translation id="7836610565365456468">Brauzerni rassomlar, tabiat va boshqa turkumdagi mavzular bilan bezating</translation>
 <translation id="7845233973568007926">Oʻrnatganingiz uchun tashakkur! <ph name="BUNDLE_NAME" />ni ishlatishdan oldin kompyuterni qayta ishga tushirishingiz lozim.</translation>
-<translation id="7852254990718225089">AI yordamida Decentr endi yanada tez, xavfsiz va qulay ishlaydi</translation>
+<translation id="7852254990718225089">AI yordamida tomi endi yanada tez, xavfsiz va qulay ishlaydi</translation>
 <translation id="7872446069773932638">Yuklab olinmoqda... <ph name="SECONDS" /> soniya qoldi.</translation>
-<translation id="7880591377632733558"><ph name="ACCOUNT_FIRST_NAME" />, Decentr brauzeriga xush kelibsiz!</translation>
-<translation id="7890208801193284374">Agar kompyuterdan yaqinlaringiz va do‘stlaringiz ham foydalansa, ular Decentr brauzerini o‘zlari xohlagancha sozlab olishlari mumkin.</translation>
-<translation id="7896673875602241923">Oldinroq Decentr profiliga kimdir bu kompyuterdan <ph name="ACCOUNT_EMAIL_LAST" /> sifatida kirgan. Ma’lumotlaringizni alohida saqlash uchun yangi Decentr profilini yarating.</translation>
-<translation id="7917876797003313048">Kirilgan Decentr hisoblaringizni boshqarishingiz mumkin. Decentr hisoblaringizdan Decentr brauzeri, Play Market va Gmail kabilardan foydalaniladi. Oila aʼzosi kabi biror kishi uchun hisob qoʻshmoqchi boʻlsangiz, yangi shaxsni <ph name="DEVICE_TYPE" /> qurilmasiga qoʻshing. <ph name="LINK_BEGIN" />Batafsil<ph name="LINK_END" /></translation>
-<translation id="7936702483636872823">Decentr bu yuklamani blokladi, chunki fayl aldamchi va qurilmangizga kutilmagan oʻzgarishlar kiritishi mumkin</translation>
+<translation id="7880591377632733558"><ph name="ACCOUNT_FIRST_NAME" />, tomi brauzeriga xush kelibsiz!</translation>
+<translation id="7890208801193284374">Agar kompyuterdan yaqinlaringiz va do‘stlaringiz ham foydalansa, ular tomi brauzerini o‘zlari xohlagancha sozlab olishlari mumkin.</translation>
+<translation id="7896673875602241923">Oldinroq tomi profiliga kimdir bu kompyuterdan <ph name="ACCOUNT_EMAIL_LAST" /> sifatida kirgan. Ma’lumotlaringizni alohida saqlash uchun yangi tomi profilini yarating.</translation>
+<translation id="7917876797003313048">Kirilgan tomi hisoblaringizni boshqarishingiz mumkin. tomi hisoblaringizdan tomi brauzeri, Play Market va Gmail kabilardan foydalaniladi. Oila aʼzosi kabi biror kishi uchun hisob qoʻshmoqchi boʻlsangiz, yangi shaxsni <ph name="DEVICE_TYPE" /> qurilmasiga qoʻshing. <ph name="LINK_BEGIN" />Batafsil<ph name="LINK_END" /></translation>
+<translation id="7936702483636872823">tomi bu yuklamani blokladi, chunki fayl aldamchi va qurilmangizga kutilmagan oʻzgarishlar kiritishi mumkin</translation>
 <translation id="7947083960301164556">Yangi xususiyatlarni ochish</translation>
-<translation id="7951272445806340501">Yangilanishni oʻrnatish uchun DecentrOS Flex qayta ishga tushirilishi kerak.</translation>
-<translation id="7959172989483770734">Decentr profillarini boshqaring</translation>
-<translation id="7962368738413920945">Saytlar siz kutganingizdek ishlaydi, lekin barcha Decentr oynalarini yopganingizdan keyin sizni eslay olmaydi</translation>
-<translation id="7962410387636238736">Endi kompyuteringizda Decentr yangilanmaydi, chunki uning yangi versiyalarida Windows XP va Windows Vista tizimlari ta’minoti to‘xtatilgan</translation>
-<translation id="8005666035647241369">Bu qurilmadagi Decentr Parollar menejerida</translation>
-<translation id="8008534537613507642">Decentr‘ni qaytadan o‘rnatish</translation>
-<translation id="8009904340233602924">Decentr brauzeridan hisobsiz foydalanish</translation>
-<translation id="8013993649590906847">Agar rasmga foydali tavsif berilmagan boʻlsa, Decentr uni sizga tavsiflaydi. Tavsif yaratish uchun rasmlar Decentrga yuboriladi.</translation>
-<translation id="8019103195866286235">Bu kengaytma dasturchisi uning nashrini bekor qildi va u xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni Decentrdan olib tashlang.</translation>
-<translation id="8040768861829554732">Kengaytma Decentr hisobiga kirishingizni soʻramoqda</translation>
+<translation id="7951272445806340501">Yangilanishni oʻrnatish uchun tomiOS Flex qayta ishga tushirilishi kerak.</translation>
+<translation id="7959172989483770734">tomi profillarini boshqaring</translation>
+<translation id="7962368738413920945">Saytlar siz kutganingizdek ishlaydi, lekin barcha tomi oynalarini yopganingizdan keyin sizni eslay olmaydi</translation>
+<translation id="7962410387636238736">Endi kompyuteringizda tomi yangilanmaydi, chunki uning yangi versiyalarida Windows XP va Windows Vista tizimlari ta’minoti to‘xtatilgan</translation>
+<translation id="8005666035647241369">Bu qurilmadagi tomi Parollar menejerida</translation>
+<translation id="8008534537613507642">tomi‘ni qaytadan o‘rnatish</translation>
+<translation id="8009904340233602924">tomi brauzeridan hisobsiz foydalanish</translation>
+<translation id="8013993649590906847">Agar rasmga foydali tavsif berilmagan boʻlsa, tomi uni sizga tavsiflaydi. Tavsif yaratish uchun rasmlar tomiga yuboriladi.</translation>
+<translation id="8019103195866286235">Bu kengaytma dasturchisi uning nashrini bekor qildi va u xavfli boʻlishi mumkin. Ochilgan saytlarda shaxsiy axborot kabi maʼlumotlarni koʻrishi va oʻzgartirishini tugatish uchun uni tomidan olib tashlang.</translation>
+<translation id="8040768861829554732">Kengaytma tomi hisobiga kirishingizni soʻramoqda</translation>
 <translation id="80471789339884597">Oʻrnatganingiz uchun tashakkur! <ph name="BUNDLE_NAME" />ni ishlatishdan oldin barcha brauzerlarni qayta ishga tushirishingiz kerak.</translation>
-<translation id="8064015041956107954">Yuqori oʻng burchakdagi Decentr menyusidan bukmark, oʻqish rejimi va boshqalarni ochishingiz mumkin</translation>
-<translation id="8064015586118426197">DecentrOS Flex</translation>
-<translation id="8077579734294125741">Boshqa Decentr profillari</translation>
+<translation id="8064015041956107954">Yuqori oʻng burchakdagi tomi menyusidan bukmark, oʻqish rejimi va boshqalarni ochishingiz mumkin</translation>
+<translation id="8064015586118426197">tomiOS Flex</translation>
+<translation id="8077579734294125741">Boshqa tomi profillari</translation>
 <translation id="8086881907087796310">Kompyuter minimal talablarga javob bermasligi sababli oʻrnatilmadi.</translation>
-<translation id="8111297389482307122">Ayrim maʼlumotlar Decentr hisobingizda saqlanishi va barcha qurilmalarda ishlatilishidan avval Decentr shaxsingizni tasdiqlashi kerak. Hisobdan chiqsangiz, bu maʼlumotlar qurilmada saqlanib qoladi.</translation>
-<translation id="8129812357326543296">&amp;Decentr haqida</translation>
+<translation id="8111297389482307122">Ayrim maʼlumotlar tomi hisobingizda saqlanishi va barcha qurilmalarda ishlatilishidan avval tomi shaxsingizni tasdiqlashi kerak. Hisobdan chiqsangiz, bu maʼlumotlar qurilmada saqlanib qoladi.</translation>
+<translation id="8129812357326543296">&amp;tomi haqida</translation>
 <translation id="813913629614996137">Ishga tushirilmoqda...</translation>
-<translation id="8162006532256575008">Decentr brauzeridan hisobsiz foydalanish</translation>
-<translation id="8255190535488645436">Decentr kamera va mikrofoningizdan foydalanmoqda.</translation>
-<translation id="8257796129973882597">Decentr menyusidan bukmark, oʻqish rejimi va boshqalarni ochishingiz mumkin</translation>
-<translation id="8267953129876836456">Sizda Decentr bilan ishlashda xavfsizlikka oid bir nechta tavsiya bor</translation>
-<translation id="8270775718612349140">Decentr boshqaradigan sertifikatlar</translation>
-<translation id="8286862437124483331">Decentr parollarni ko‘rsatishga urinmoqda. Ruxsat berish uchun Windows platformasidagi parolingizni kiriting.</translation>
-<translation id="8290100596633877290">Decentr ishdan chiqdi. Qaytadan ishga tushirilsinmi?</translation>
-<translation id="829923460755755423">Decentr Parollar menejeri uchun yorliq kiriting</translation>
-<translation id="8336463659890584292">Birorta sayt havolalarni maxfiy tarzda sahifalarida oldindan yuklashni soʻrasa, Decentr Decentr xizmatlaridan foydalanadi. Bunda, oldindan yuklangan saytda shaxsingiz berkitiladi, lekin Decentr qaysi saytlar oldindan yuklanishini oʻrganadi.</translation>
-<translation id="8342675569599923794">Bu fayl zararli edi va u Decentr tomonidan bloklandi.</translation>
-<translation id="8349795646647783032"><ph name="BEGIN_BOLD" />Bu axborotdan qanday foydalanamiz:<ph name="END_BOLD" /> Decentr orqali saytlar qiziqishlaringiz haqidagi axborotni saqlashi mumkin. Misol uchun marafonda yugurish uchun poyabzal sotib olish saytini ochsangiz, sayt marafonda yugurishni qiziqishingiz deb aniqlashi mumkin. Keyin yugurish uchun boshqa saytga kirganingizda sayt qiziqishingiz asosida yugurish uchun poyabzal reklamasini chiqarishi mumkin.</translation>
-<translation id="8370517070665726704">© Decentr LLC, <ph name="YEAR" /> Barcha huquqlar himoyalangan.</translation>
-<translation id="8383226135083126309"><ph name="BEGIN_BOLD" />Bu axborotdan qanday foydalanamiz:<ph name="END_BOLD" /> Decentr qiziqishlaringizni taxmin qila oladi. Keyinchalik sayt sizga chiqadigan reklamani moslashtirish maqsadida Decentrdan qiziqishlaringiz haqida soʻrashi mumkin.</translation>
-<translation id="8387459386171870978">Decentr yopilmasin</translation>
-<translation id="8394720698884623075">URL manzillar Decentr bilgan zararli saytlar roʻyxati orqali tekshiriladi</translation>
-<translation id="8403038600646341038">Kompyuter ekranida Decentr logotipi aks etgan tasvir</translation>
-<translation id="8416347857511542594">Decentrda reklamani moslashtirish haqida batafsil</translation>
-<translation id="8418845734693287262">Hisobga kirish maʼlumotlaringiz eskirgani sababli DecentrOS maʼlumotlaringizni sinxronlay olmadi.</translation>
-<translation id="842386925677997438">Decentr xavfsizlik vositalari</translation>
+<translation id="8162006532256575008">tomi brauzeridan hisobsiz foydalanish</translation>
+<translation id="8255190535488645436">tomi kamera va mikrofoningizdan foydalanmoqda.</translation>
+<translation id="8257796129973882597">tomi menyusidan bukmark, oʻqish rejimi va boshqalarni ochishingiz mumkin</translation>
+<translation id="8267953129876836456">Sizda tomi bilan ishlashda xavfsizlikka oid bir nechta tavsiya bor</translation>
+<translation id="8270775718612349140">tomi boshqaradigan sertifikatlar</translation>
+<translation id="8286862437124483331">tomi parollarni ko‘rsatishga urinmoqda. Ruxsat berish uchun Windows platformasidagi parolingizni kiriting.</translation>
+<translation id="8290100596633877290">tomi ishdan chiqdi. Qaytadan ishga tushirilsinmi?</translation>
+<translation id="829923460755755423">tomi Parollar menejeri uchun yorliq kiriting</translation>
+<translation id="8336463659890584292">Birorta sayt havolalarni maxfiy tarzda sahifalarida oldindan yuklashni soʻrasa, tomi tomi xizmatlaridan foydalanadi. Bunda, oldindan yuklangan saytda shaxsingiz berkitiladi, lekin tomi qaysi saytlar oldindan yuklanishini oʻrganadi.</translation>
+<translation id="8342675569599923794">Bu fayl zararli edi va u tomi tomonidan bloklandi.</translation>
+<translation id="8349795646647783032"><ph name="BEGIN_BOLD" />Bu axborotdan qanday foydalanamiz:<ph name="END_BOLD" /> tomi orqali saytlar qiziqishlaringiz haqidagi axborotni saqlashi mumkin. Misol uchun marafonda yugurish uchun poyabzal sotib olish saytini ochsangiz, sayt marafonda yugurishni qiziqishingiz deb aniqlashi mumkin. Keyin yugurish uchun boshqa saytga kirganingizda sayt qiziqishingiz asosida yugurish uchun poyabzal reklamasini chiqarishi mumkin.</translation>
+<translation id="8370517070665726704">© tomi LLC, <ph name="YEAR" /> Barcha huquqlar himoyalangan.</translation>
+<translation id="8383226135083126309"><ph name="BEGIN_BOLD" />Bu axborotdan qanday foydalanamiz:<ph name="END_BOLD" /> tomi qiziqishlaringizni taxmin qila oladi. Keyinchalik sayt sizga chiqadigan reklamani moslashtirish maqsadida tomidan qiziqishlaringiz haqida soʻrashi mumkin.</translation>
+<translation id="8387459386171870978">tomi yopilmasin</translation>
+<translation id="8394720698884623075">URL manzillar tomi bilgan zararli saytlar roʻyxati orqali tekshiriladi</translation>
+<translation id="8403038600646341038">Kompyuter ekranida tomi logotipi aks etgan tasvir</translation>
+<translation id="8416347857511542594">tomida reklamani moslashtirish haqida batafsil</translation>
+<translation id="8418845734693287262">Hisobga kirish maʼlumotlaringiz eskirgani sababli tomiOS maʼlumotlaringizni sinxronlay olmadi.</translation>
+<translation id="842386925677997438">tomi xavfsizlik vositalari</translation>
 <translation id="8428213095426709021">Sozlamalar</translation>
-<translation id="8433638294851456451">Bu yerdan Android telefoningizga raqam yuborish uchun ikkala qurilmada Decentr hisobingizga kiring.</translation>
-<translation id="8451192282033883849">Hisobingiz <ph name="MANAGER_NAME" /> domenida boshqariladi. Administrator Decentr brauzeri profili va undagi bukmarklar, tarix va parollar kabi maʼlumotlarni koʻrib, tahrirlay oladi.</translation>
-<translation id="8496177819998570653">Decentr &amp;Parollar menejeri</translation>
-<translation id="8498858610309223613">Decentr xavfsizlik tizimiga maxsus yangilanish oʻrnatildi. Qayta ishga tushiring va ochiq sahifalarni tiklang.</translation>
-<translation id="8516431725144212809">Decentr taxmin qilgan qiziqishlaringiz</translation>
-<translation id="8521348052903287641">Decentr Dev mDNS trafigiga ruxsat berishiga oid kiruvchi qoida.</translation>
+<translation id="8433638294851456451">Bu yerdan Android telefoningizga raqam yuborish uchun ikkala qurilmada tomi hisobingizga kiring.</translation>
+<translation id="8451192282033883849">Hisobingiz <ph name="MANAGER_NAME" /> domenida boshqariladi. Administrator tomi brauzeri profili va undagi bukmarklar, tarix va parollar kabi maʼlumotlarni koʻrib, tahrirlay oladi.</translation>
+<translation id="8496177819998570653">tomi &amp;Parollar menejeri</translation>
+<translation id="8498858610309223613">tomi xavfsizlik tizimiga maxsus yangilanish oʻrnatildi. Qayta ishga tushiring va ochiq sahifalarni tiklang.</translation>
+<translation id="8516431725144212809">tomi taxmin qilgan qiziqishlaringiz</translation>
+<translation id="8521348052903287641">tomi Dev mDNS trafigiga ruxsat berishiga oid kiruvchi qoida.</translation>
 <translation id="8550334526674375523">Bu ish profili shaxsiy profilingizdan butunlay ajratilgan.</translation>
 <translation id="8555465886620020932">Xizmat xatosi: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8571790202382503603">Decentr profillari brauzerdan alohida foydalanish uchun kerak. Bunda ish va hordiqni ajratish osonlashadi.</translation>
-<translation id="8614913330719544658">Decentr javob bermayapti. Qaytadan ishga tushirilsinmi?</translation>
-<translation id="861702415419836452">Decentr atrofingiz 3D xaritasini yaratishi uchun unga kamera ruxsati zarur</translation>
-<translation id="8625237574518804553">{0,plural, =1{Decentr 1 daqiqadan keyin qayta ishga tushadi}other{Decentr # daqiqadan keyin qayta ishga tushadi}}</translation>
-<translation id="8641606876632989680">Decentr hisobingizga kirsangiz, Decentr oshkor qilingan parollar haqida xabar qiladi</translation>
-<translation id="8649026945479135076">Odatda siz kiradigan saytlar oʻz xizmatlarini sizga moslashtirish uchun sizga qiziq narsalarni eslab qoladi. Decentr orqali saytlar ham qiziqishlaringiz haqidagi maʼlumotlarni saqlashi mumkin.</translation>
-<translation id="8669527147644353129">Decentr yordamchisi</translation>
-<translation id="8679801911857917785">Bundan tashqari, kengaytma Decentr bosh sahifasini o‘zgarib qo‘ydi.</translation>
-<translation id="8686817260976772516">Decentr profillari brauzerdan alohida foydalanish uchun kerak. Doʻstlar va oila uchun profillar yarating yoki ish va hordiqni ajrating</translation>
-<translation id="8712767363896337380">Deyarli yangilandi! Yangilash tugashi uchun Decentr brauzerini qayta ishga tushiring.</translation>
-<translation id="8718062187489036808">Decentr hisobidan chiqish</translation>
-<translation id="873133009373065397">Decentr asosiy brauzerni aniqlay olmadi yoki tayinlay olmadi</translation>
-<translation id="8765470054473112089">Manzillar qatori yoki qidiruv oynasiga matn kiritilganda Decentr yaxshiroq takliflar olish uchun yozilgan matnni birlamchi qidiruv tizimiga yuboradi. Inkognito rejimda bu funksiya yoqilmasin</translation>
-<translation id="8781673607513845160">Kameradan foydalanish uchun <ph name="BEGIN_LINK" />tizim sozlamalari<ph name="END_LINK" /> orqali Decentrga ruxsat bering</translation>
+<translation id="8571790202382503603">tomi profillari brauzerdan alohida foydalanish uchun kerak. Bunda ish va hordiqni ajratish osonlashadi.</translation>
+<translation id="8614913330719544658">tomi javob bermayapti. Qaytadan ishga tushirilsinmi?</translation>
+<translation id="861702415419836452">tomi atrofingiz 3D xaritasini yaratishi uchun unga kamera ruxsati zarur</translation>
+<translation id="8625237574518804553">{0,plural, =1{tomi 1 daqiqadan keyin qayta ishga tushadi}other{tomi # daqiqadan keyin qayta ishga tushadi}}</translation>
+<translation id="8641606876632989680">tomi hisobingizga kirsangiz, tomi oshkor qilingan parollar haqida xabar qiladi</translation>
+<translation id="8649026945479135076">Odatda siz kiradigan saytlar oʻz xizmatlarini sizga moslashtirish uchun sizga qiziq narsalarni eslab qoladi. tomi orqali saytlar ham qiziqishlaringiz haqidagi maʼlumotlarni saqlashi mumkin.</translation>
+<translation id="8669527147644353129">tomi yordamchisi</translation>
+<translation id="8679801911857917785">Bundan tashqari, kengaytma tomi bosh sahifasini o‘zgarib qo‘ydi.</translation>
+<translation id="8686817260976772516">tomi profillari brauzerdan alohida foydalanish uchun kerak. Doʻstlar va oila uchun profillar yarating yoki ish va hordiqni ajrating</translation>
+<translation id="8712767363896337380">Deyarli yangilandi! Yangilash tugashi uchun tomi brauzerini qayta ishga tushiring.</translation>
+<translation id="8718062187489036808">tomi hisobidan chiqish</translation>
+<translation id="873133009373065397">tomi asosiy brauzerni aniqlay olmadi yoki tayinlay olmadi</translation>
+<translation id="8765470054473112089">Manzillar qatori yoki qidiruv oynasiga matn kiritilganda tomi yaxshiroq takliflar olish uchun yozilgan matnni birlamchi qidiruv tizimiga yuboradi. Inkognito rejimda bu funksiya yoqilmasin</translation>
+<translation id="8781673607513845160">Kameradan foydalanish uchun <ph name="BEGIN_LINK" />tizim sozlamalari<ph name="END_LINK" /> orqali tomiga ruxsat bering</translation>
 <translation id="878572486461146056">Oʻrnatishda xato: Tarmoq administratori oʻrnatishlarni taqiqlovchi guruh siyosatini tatbiq qilgan: <ph name="INSTALL_ERROR" /></translation>
-<translation id="8796073561259064743">Decentr bu yuklanmani blokladi, chunki bu fayl <ph name="USER_EMAIL" /> kabi shaxsiy va ijtimoiy tarmoqlardagi hisoblarga zarar keltirishi mumkin.</translation>
+<translation id="8796073561259064743">tomi bu yuklanmani blokladi, chunki bu fayl <ph name="USER_EMAIL" /> kabi shaxsiy va ijtimoiy tarmoqlardagi hisoblarga zarar keltirishi mumkin.</translation>
 <translation id="8797423385604279835">Varaqlarni AI yordamida tartiblang</translation>
-<translation id="8801657293260363985">V8 — Decentrda saytlar unumdorligini oshiradigan JavaScript va WebAssembly tizimi hisoblanadi</translation>
-<translation id="8821043148920470810">Decentr yangilanishlari Windows 10 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: Windows 7.</translation>
-<translation id="8823341990149967727">Decentr versiyasi eskirdi</translation>
-<translation id="8825634023950448068">Maxfiylikni himoya qilish maqsadida biz 4 haftadan uzoq saqlangan qiziqishlarni avtomatik oʻchiramiz. Sahifalar takroriy ochilganida qiziqish roʻyxatda yana chiqishi mumkin. Decentr foydalanmasligi va tegishli reklama chiqmasligi uchun qiziqishni olib tashlash mumkin.</translation>
-<translation id="8834965163890861871">Decentr parollarni tahrirlashga urinmoqda. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
-<translation id="8843389967774722327">Decentr yangi yordamchi funksiyalarni muntazam kiritib boradi</translation>
-<translation id="8851180723659088381">{NUM_EXTENSIONS,plural, =1{Decentr uni olib tashlashni tavsiya qiladi}other{Decentr ularni olib tashlashni tavsiya qiladi}}</translation>
+<translation id="8801657293260363985">V8 — tomida saytlar unumdorligini oshiradigan JavaScript va WebAssembly tizimi hisoblanadi</translation>
+<translation id="8821043148920470810">tomi yangilanishlari Windows 10 yoki undan yuqori versiyalarda ishlaydi. Bu kompyuterdagi versiya: Windows 7.</translation>
+<translation id="8823341990149967727">tomi versiyasi eskirdi</translation>
+<translation id="8825634023950448068">Maxfiylikni himoya qilish maqsadida biz 4 haftadan uzoq saqlangan qiziqishlarni avtomatik oʻchiramiz. Sahifalar takroriy ochilganida qiziqish roʻyxatda yana chiqishi mumkin. tomi foydalanmasligi va tegishli reklama chiqmasligi uchun qiziqishni olib tashlash mumkin.</translation>
+<translation id="8834965163890861871">tomi parollarni tahrirlashga urinmoqda. Ruxsat berish uchun Windows parolingizni kiriting.</translation>
+<translation id="8843389967774722327">tomi yangi yordamchi funksiyalarni muntazam kiritib boradi</translation>
+<translation id="8851180723659088381">{NUM_EXTENSIONS,plural, =1{tomi uni olib tashlashni tavsiya qiladi}other{tomi ularni olib tashlashni tavsiya qiladi}}</translation>
 <translation id="8862326446509486874">Sizda tizim darajasida o‘rnatish uchun yetarli ruxsatlar yo‘q. O‘rnatish dasturini administrator nomidan qayta ishga tushiring.</translation>
 <translation id="8908277254462331033">Xavfsizlik funksiyalari</translation>
-<translation id="8914504000324227558">Decentr’ni qayta ishga tushiring</translation>
-<translation id="8922193594870374009"><ph name="ORIGIN" /> orqali Android telefoningizga raqam yuborish uchun ikkala qurilmada Decentr hisobingizga kiring.</translation>
-<translation id="8948460679427074738">Bu kengaytma axborot jamlashi va ishlatishi kabi maxfiylikka oid ochiqlama joylamagan. Decentr uni olib tashlashni tavsiya qiladi.</translation>
+<translation id="8914504000324227558">tomi’ni qayta ishga tushiring</translation>
+<translation id="8922193594870374009"><ph name="ORIGIN" /> orqali Android telefoningizga raqam yuborish uchun ikkala qurilmada tomi hisobingizga kiring.</translation>
+<translation id="8948460679427074738">Bu kengaytma axborot jamlashi va ishlatishi kabi maxfiylikka oid ochiqlama joylamagan. tomi uni olib tashlashni tavsiya qiladi.</translation>
 <translation id="8986207147630327271">Bu brauzerga ish profilini kiritish bilan siz administratorga ish profili orqali barcha boshqaruv ruxsatlarini berasiz.</translation>
-<translation id="8989968390305463310">Ochgan saytlaringiz tarixi chiqadigan reklama va quyidagi qiziqishlaringizga taʼsir qiladi. Maxfiylikni himoya qilish maqsadida Decentr har oyda qiziqishlaringizni avtomatik oʻchiradi. Qiziqishlar ularni olib tashlamaguningizga qadar yangilanishi mumkin.</translation>
-<translation id="8999117580775242387">HTTPS mavjud boʻlmasa, Decentr sizni ogohlantirmasdan himoyalanmagan ulanishdan foydalanadi.</translation>
-<translation id="8999208279178790196">{0,plural, =0{Decentr uchun yangilanish mavjud}=1{Decentr uchun yangilanish mavjud}other{Decentr uchun yangilanish mavjud (# kun)}}</translation>
-<translation id="9014771989710951291">Decentr bir nechta tashkilot boshqaruvida</translation>
-<translation id="9024318700713112071">Decentrni birlamchi brauzer etib belgilang.</translation>
-<translation id="9053892488859122171">DecentrOS Flex tizimi</translation>
-<translation id="9090566250983691233">Decentr ayrim fayllarni nega bloklashi haqida</translation>
+<translation id="8989968390305463310">Ochgan saytlaringiz tarixi chiqadigan reklama va quyidagi qiziqishlaringizga taʼsir qiladi. Maxfiylikni himoya qilish maqsadida tomi har oyda qiziqishlaringizni avtomatik oʻchiradi. Qiziqishlar ularni olib tashlamaguningizga qadar yangilanishi mumkin.</translation>
+<translation id="8999117580775242387">HTTPS mavjud boʻlmasa, tomi sizni ogohlantirmasdan himoyalanmagan ulanishdan foydalanadi.</translation>
+<translation id="8999208279178790196">{0,plural, =0{tomi uchun yangilanish mavjud}=1{tomi uchun yangilanish mavjud}other{tomi uchun yangilanish mavjud (# kun)}}</translation>
+<translation id="9014771989710951291">tomi bir nechta tashkilot boshqaruvida</translation>
+<translation id="9024318700713112071">tomini birlamchi brauzer etib belgilang.</translation>
+<translation id="9053892488859122171">tomiOS Flex tizimi</translation>
+<translation id="9090566250983691233">tomi ayrim fayllarni nega bloklashi haqida</translation>
 <translation id="911206726377975832">Brauzer faoliyati haqidagi ma’lumotlar ham tozalansinmi?</translation>
-<translation id="9138603949443464873">O‘zgarishlarni tatbi qilish uchun Decentr qayta ishga tushirilishi zarur</translation>
-<translation id="9195993889682885387">Decentr oxirgi bir nechta haftada siz ochgan sahifalar tarixi asosida qiziqishlaringiz taxmin qilishi mumkin. Bu maʼlumotlar qurilmangizda qoladi.</translation>
-<translation id="919706545465235479">Sinxronizatsiyani boshlash uchun Decentr brauzerini yangilang</translation>
-<translation id="922152298093051471">Decentrni moslash</translation>
-<translation id="92460355979482493">Yoniqligida, Decentr kezish va qidiruvni tezlashtirish uchun sahifalarni oldindan yuklaydi.</translation>
-<translation id="93760716455950538">DecentrOS Flex tizimini qayta ishga tushirish</translation>
-<translation id="940313311831216333">Decentr brauzeridagi axborotlardan barcha qurilmalaringizda foydalanish uchun hisobingizga kiring va sinxronizatsiyani yoqing.</translation>
-<translation id="943390475793766444">Bu fayl xavfli boʻlishi mumkin, Decentr uni tekshirishni tavsiya qiladi.</translation>
-<translation id="963650557422347554">Yoqilganda Decentr fondagi amallar hamda ravon varaqlash va video freyming kabi vizual effektlarni cheklash orqali batareya quvvatini tejashni boshlaydi.</translation>
+<translation id="9138603949443464873">O‘zgarishlarni tatbi qilish uchun tomi qayta ishga tushirilishi zarur</translation>
+<translation id="9195993889682885387">tomi oxirgi bir nechta haftada siz ochgan sahifalar tarixi asosida qiziqishlaringiz taxmin qilishi mumkin. Bu maʼlumotlar qurilmangizda qoladi.</translation>
+<translation id="919706545465235479">Sinxronizatsiyani boshlash uchun tomi brauzerini yangilang</translation>
+<translation id="922152298093051471">tomini moslash</translation>
+<translation id="92460355979482493">Yoniqligida, tomi kezish va qidiruvni tezlashtirish uchun sahifalarni oldindan yuklaydi.</translation>
+<translation id="93760716455950538">tomiOS Flex tizimini qayta ishga tushirish</translation>
+<translation id="940313311831216333">tomi brauzeridagi axborotlardan barcha qurilmalaringizda foydalanish uchun hisobingizga kiring va sinxronizatsiyani yoqing.</translation>
+<translation id="943390475793766444">Bu fayl xavfli boʻlishi mumkin, tomi uni tekshirishni tavsiya qiladi.</translation>
+<translation id="963650557422347554">Yoqilganda tomi fondagi amallar hamda ravon varaqlash va video freyming kabi vizual effektlarni cheklash orqali batareya quvvatini tejashni boshlaydi.</translation>
 <translation id="983803489796659991">Yangilanish serverida ilova uchun hech qanday hesh axboroti mavjud emasligi sababli oʻrnatilmadi.</translation>
-<translation id="989369509083708165">Qurilmangizdagi asosiy brauzer – Decentr.</translation>
-<translation id="989816563149873169"><ph name="SHORTCUT" /> Decentr profillarini almashtira oladi</translation>
+<translation id="989369509083708165">Qurilmangizdagi asosiy brauzer – tomi.</translation>
+<translation id="989816563149873169"><ph name="SHORTCUT" /> tomi profillarini almashtira oladi</translation>
 </translationbundle>

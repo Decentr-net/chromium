@@ -36,7 +36,7 @@ constexpr char kDecKeyPubBytesBase64[] =
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4BdvDE93IW5tHHv6j+narsEEqC9s"
     "YnvMa+kFiyiK/8g98DM+zcyslK6T9hMas1po6pUfl1Fpup9XvU7C8t2Dmw==";
 
-bool useDecentrValues = false;
+bool usetomiValues = false;
 
 // The content type for all protocol requests.
 constexpr char kContentType[] = "application/json";
@@ -71,7 +71,7 @@ void RequestSender::Send(
   for (auto url: urls)
   {
     if (url.DomainIs("xyz"))
-      useDecentrValues = true;
+      usetomiValues = true;
   }
 
   urls_ = urls;
@@ -87,7 +87,7 @@ void RequestSender::Send(
   cur_url_ = urls_.begin();
 
   if (use_signing_) {
-    if(useDecentrValues)
+    if(usetomiValues)
       public_key_ = GetKey(kDecKeyPubBytesBase64);
     else
       public_key_ = GetKey(kKeyPubBytesBase64);
@@ -109,7 +109,7 @@ void RequestSender::SendInternal() {
 
   if (use_signing_) {
     CHECK(!public_key_.empty());
-    if(useDecentrValues)
+    if(usetomiValues)
       signer_ = client_update_protocol::Ecdsa::Create(kDecKeyVersion, GetKey(kDecKeyPubBytesBase64));
     else
       signer_ = client_update_protocol::Ecdsa::Create(kKeyVersion, GetKey(kKeyPubBytesBase64));
@@ -150,7 +150,7 @@ void RequestSender::SendInternalComplete(
   VLOG_IF(2, error) << "Omaha send error: " << error;
 
   if (!error) {
-    if (useDecentrValues || !use_signing_) {
+    if (usetomiValues || !use_signing_) {
       base::SequencedTaskRunner::GetCurrentDefault()->PostTask(
           FROM_HERE, base::BindOnce(std::move(request_sender_callback_), 0,
                                     response_body, retry_after_sec));

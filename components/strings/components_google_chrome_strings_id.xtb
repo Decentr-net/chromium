@@ -1,20 +1,20 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="id">
-<translation id="1016765312371154165">Decentr tidak dinonaktifkan dengan benar.</translation>
+<translation id="1016765312371154165">tomi tidak dinonaktifkan dengan benar.</translation>
 <translation id="130631256467250065">Perubahan Anda akan diterapkan pada saat Anda nanti menyalakan ulang perangkat.</translation>
-<translation id="1516530951338665275">Decentr memerlukan akses Bluetooth untuk melanjutkan 
+<translation id="1516530951338665275">tomi memerlukan akses Bluetooth untuk melanjutkan 
  penyambungan. <ph name="IDS_BLUETOOTH_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="1635457557763038537">Perubahan akan diterapkan saat berikutnya Anda meluncurkan kembali Decentr.</translation>
-<translation id="2399868464369312507">Decentr mencoba mengedit metode pembayaran.</translation>
-<translation id="2447485272386224171">Decentr terwujud karena adanya project open source <ph name="BEGIN_LINK_CHROMIUM" />Decentr<ph name="END_LINK_CHROMIUM" /> dan <ph name="BEGIN_LINK_OSS" />software open source<ph name="END_LINK_OSS" /> lainnya.</translation>
-<translation id="2588322182880276190">Logo Decentr</translation>
+<translation id="1635457557763038537">Perubahan akan diterapkan saat berikutnya Anda meluncurkan kembali tomi.</translation>
+<translation id="2399868464369312507">tomi mencoba mengedit metode pembayaran.</translation>
+<translation id="2447485272386224171">tomi terwujud karena adanya project open source <ph name="BEGIN_LINK_CHROMIUM" />tomi<ph name="END_LINK_CHROMIUM" /> dan <ph name="BEGIN_LINK_OSS" />software open source<ph name="END_LINK_OSS" /> lainnya.</translation>
+<translation id="2588322182880276190">Logo tomi</translation>
 <translation id="3444832043240812445">Halaman ini hanya menunjukkan informasi tentang kondisi ngadat terkini jika Anda <ph name="BEGIN_LINK" />mengaktifkan pelaporan kondisi ngadat<ph name="END_LINK" />.</translation>
-<translation id="3875312571075912821">Izinkan Decentr untuk mengakses jaringan di setelan firewall atau antivirus
+<translation id="3875312571075912821">Izinkan tomi untuk mengakses jaringan di setelan firewall atau antivirus
           Anda.</translation>
-<translation id="5005121315113832363">Halaman ini telah diblokir oleh Decentr</translation>
+<translation id="5005121315113832363">Halaman ini telah diblokir oleh tomi</translation>
 <translation id="6011049234605203654">Buka
-          menu Decentr &gt;
+          menu tomi &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
@@ -22,7 +22,7 @@
           <ph name="PROXIES_TITLE" />
           pastikan konfigurasi Anda disetel ke "tanpa proxy" atau "langsung".</translation>
 <translation id="6341737370356890233">Buka
-          menu Decentr &gt;
+          menu tomi &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
@@ -30,7 +30,7 @@
           Jika hal ini tidak menyelesaikan masalah, sebaiknya pilih lagi opsi ini
           untuk meningkatkan kinerja.</translation>
 <translation id="6855094794438142393">Buka
-          menu Decentr &gt;
+          menu tomi &gt;
           <ph name="SETTINGS_TITLE" />
           &gt;
           <ph name="ADVANCED_TITLE" />
@@ -39,11 +39,11 @@
           &gt;
           Setelan LAN
           dan batalkan pilihan "Gunakan server proxy untuk LAN".</translation>
-<translation id="7230956101631259640">Anda melihat halaman Decentr yang aman</translation>
+<translation id="7230956101631259640">Anda melihat halaman tomi yang aman</translation>
 <translation id="8187289872471304532">Buka
           Aplikasi &gt; Preferensi Sistem &gt; Jaringan &gt; Lanjutan &gt; Proxy
           dan hapus centang proxy apa pun yang telah dipilih.</translation>
-<translation id="8232971017369963250">Decentr terwujud karena adanya project open source <ph name="BEGIN_LINK_CHROMIUM" />Decentr<ph name="END_LINK_CHROMIUM" />.</translation>
-<translation id="8279509328145658601">Decentr juga terwujud karena adanya <ph name="BEGIN_LINK_OSS" />software open source<ph name="END_LINK_OSS" /> lainnya.</translation>
-<translation id="8544217240017914508">Decentr mencoba mengubah setelan pengisian metode pembayaran.</translation>
+<translation id="8232971017369963250">tomi terwujud karena adanya project open source <ph name="BEGIN_LINK_CHROMIUM" />tomi<ph name="END_LINK_CHROMIUM" />.</translation>
+<translation id="8279509328145658601">tomi juga terwujud karena adanya <ph name="BEGIN_LINK_OSS" />software open source<ph name="END_LINK_OSS" /> lainnya.</translation>
+<translation id="8544217240017914508">tomi mencoba mengubah setelan pengisian metode pembayaran.</translation>
 </translationbundle>

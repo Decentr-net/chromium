@@ -2,543 +2,543 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="ja">
 <translation id="1026101648481255140">インストールを再開</translation>
-<translation id="1029669172902658969">再起動して Decentr OS を更新</translation>
+<translation id="1029669172902658969">再起動して tomi OS を更新</translation>
 <translation id="1040916596585577953">この拡張機能を確認することをおすすめします</translation>
-<translation id="1042552502243217427">ページのリンクを非公開でプリロードするようサイトから求められた場合、Decentr は Decentr サーバーを使用します。これによりプリロードしたサイトにユーザーの情報が知られることはありませんが、Decentr はどのようなサイトがプリロードされたかを学習します。</translation>
+<translation id="1042552502243217427">ページのリンクを非公開でプリロードするようサイトから求められた場合、tomi は tomi サーバーを使用します。これによりプリロードしたサイトにユーザーの情報が知られることはありませんが、tomi はどのようなサイトがプリロードされたかを学習します。</translation>
 <translation id="1065672644894730302">ユーザー設定ファイルを読み込むことができません。一部の機能が利用できない可能性があります。また、設定への変更は保存されません。</translation>
-<translation id="1083934481477628225">保護者が Decentr の「サイト、アプリ、拡張機能の権限」をオフにしました</translation>
-<translation id="1098170124587656448">Decentr でデータ侵害や不正な拡張機能などの脅威から保護されているか確認します</translation>
-<translation id="1104942323762546749">Decentr からパスワードをエクスポートするための許可を求められています。許可するには Windows のパスワードを入力してください。</translation>
-<translation id="113122355610423240">既定のブラウザは Decentr です</translation>
-<translation id="1131805035311359397">パスワードにデータ侵害などセキュリティに関する問題がないかどうかを確認するには、<ph name="BEGIN_LINK" />Decentr にログイン<ph name="END_LINK" />してください。</translation>
-<translation id="1153368717515616349">Decentr メニューをクリックする</translation>
+<translation id="1083934481477628225">保護者が tomi の「サイト、アプリ、拡張機能の権限」をオフにしました</translation>
+<translation id="1098170124587656448">tomi でデータ侵害や不正な拡張機能などの脅威から保護されているか確認します</translation>
+<translation id="1104942323762546749">tomi からパスワードをエクスポートするための許可を求められています。許可するには Windows のパスワードを入力してください。</translation>
+<translation id="113122355610423240">既定のブラウザは tomi です</translation>
+<translation id="1131805035311359397">パスワードにデータ侵害などセキュリティに関する問題がないかどうかを確認するには、<ph name="BEGIN_LINK" />tomi にログイン<ph name="END_LINK" />してください。</translation>
+<translation id="1153368717515616349">tomi メニューをクリックする</translation>
 <translation id="1184145431117212167">Windows のバージョンがサポートされていないためインストールできませんでした。</translation>
-<translation id="1185134272377778587">Decentr について</translation>
-<translation id="1188705220418984327">ウィンドウを共有するには、[システム環境設定] で Decentr に画面の録画を許可してください。</translation>
+<translation id="1185134272377778587">tomi について</translation>
+<translation id="1188705220418984327">ウィンドウを共有するには、[システム環境設定] で tomi に画面の録画を許可してください。</translation>
 <translation id="1203500561924088507">インストールいただきありがとうございます。<ph name="BUNDLE_NAME" /> を使用するにはブラウザを再起動してください。</translation>
-<translation id="1262876892872089030">Decentr を高速に保つため、このタブがアクティブでないときにメモリを解放しました。このサイトを常にアクティブにするよう選択できます。</translation>
-<translation id="1265577313130862557">危険なファイルであるため、このダウンロードは Decentr でブロックされました</translation>
-<translation id="126567311906253476"><ph name="USER_EMAIL" /> で Gmail や YouTube などの Decentr サービスにログインするときに、同じアカウントで Decentr に自動的にログインできます</translation>
+<translation id="1262876892872089030">tomi を高速に保つため、このタブがアクティブでないときにメモリを解放しました。このサイトを常にアクティブにするよう選択できます。</translation>
+<translation id="1265577313130862557">危険なファイルであるため、このダウンロードは tomi でブロックされました</translation>
+<translation id="126567311906253476"><ph name="USER_EMAIL" /> で Gmail や YouTube などの tomi サービスにログインするときに、同じアカウントで tomi に自動的にログインできます</translation>
 <translation id="1290883685122687410">設定エラー: <ph name="METAINSTALLER_EXIT_CODE" />。<ph name="WINDOWS_ERROR" /></translation>
-<translation id="1315551408014407711">新しい Decentr プロファイルの設定</translation>
-<translation id="1324107359134968521">Bluetooth デバイスを検出するには、Decentr に Bluetooth へのアクセスを許可する必要があります。<ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="1342274909142618978">Decentr（<ph name="URL" />）からもデータを削除する</translation>
-<translation id="1414495520565016063">Decentr にログインしました</translation>
-<translation id="1478370723027452770">Decentr for Testing のヘルプを見る</translation>
+<translation id="1315551408014407711">新しい tomi プロファイルの設定</translation>
+<translation id="1324107359134968521">Bluetooth デバイスを検出するには、tomi に Bluetooth へのアクセスを許可する必要があります。<ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
+<translation id="1342274909142618978">tomi（<ph name="URL" />）からもデータを削除する</translation>
+<translation id="1414495520565016063">tomi にログインしました</translation>
+<translation id="1478370723027452770">tomi for Testing のヘルプを見る</translation>
 <translation id="1497802159252041924">インストール エラー: <ph name="INSTALL_ERROR" /></translation>
-<translation id="1524282610922162960">Decentr タブの共有</translation>
-<translation id="1553461853655228091">周囲の 3D マップを作成するには、Decentr にカメラの使用を許可する必要があります</translation>
+<translation id="1524282610922162960">tomi タブの共有</translation>
+<translation id="1553461853655228091">周囲の 3D マップを作成するには、tomi にカメラの使用を許可する必要があります</translation>
 <translation id="1555494096857516577">{NUM_EXTENSIONS,plural, =1{この拡張機能のサポートは終了しました。削除することをおすすめします。}other{これらの拡張機能のサポートは終了しました。削除することをおすすめします}}</translation>
-<translation id="1574377791422810894">Decentr の安全性ツール</translation>
-<translation id="1591808205441691831">Decentr アカウントに一部のデータを保存してすべてのデバイスで使用できるようにするには、Decentr で本人確認を行う必要があります。ログアウトしても、このデータはこのデバイスに残ります。</translation>
-<translation id="1594928384848033697">Decentr がパスワード マネージャーのデータの削除をリクエストしています。続行するには、Windows のパスワードを入力してください。</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{管理者が、アップデートを適用するために Decentr を再起動するよう求めています}=1{管理者が、アップデートを適用するために Decentr を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、アップデートを適用するために Decentr を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="1625909126243026060">Decentr のプライバシーとセキュリティに関する重要な設定を確認します</translation>
-<translation id="1632539827495546968">このアカウントを 1 回だけ使用する場合は、Decentr ブラウザの<ph name="GUEST_LINK_BEGIN" />ゲストモード<ph name="GUEST_LINK_END" />を使用できます。他のユーザーのアカウントを追加する場合は、<ph name="DEVICE_TYPE" /> に<ph name="LINK_BEGIN" />新しいユーザーを追加<ph name="LINK_END" />します。
+<translation id="1574377791422810894">tomi の安全性ツール</translation>
+<translation id="1591808205441691831">tomi アカウントに一部のデータを保存してすべてのデバイスで使用できるようにするには、tomi で本人確認を行う必要があります。ログアウトしても、このデータはこのデバイスに残ります。</translation>
+<translation id="1594928384848033697">tomi がパスワード マネージャーのデータの削除をリクエストしています。続行するには、Windows のパスワードを入力してください。</translation>
+<translation id="1607715478322902680">{COUNT,plural, =0{管理者が、アップデートを適用するために tomi を再起動するよう求めています}=1{管理者が、アップデートを適用するために tomi を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、アップデートを適用するために tomi を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
+<translation id="1625909126243026060">tomi のプライバシーとセキュリティに関する重要な設定を確認します</translation>
+<translation id="1632539827495546968">このアカウントを 1 回だけ使用する場合は、tomi ブラウザの<ph name="GUEST_LINK_BEGIN" />ゲストモード<ph name="GUEST_LINK_END" />を使用できます。他のユーザーのアカウントを追加する場合は、<ph name="DEVICE_TYPE" /> に<ph name="LINK_BEGIN" />新しいユーザーを追加<ph name="LINK_END" />します。
 
-これまでにウェブサイトやアプリに許可した権限がこのアカウントに適用される可能性があります。Decentr アカウントは [<ph name="SETTINGS_LINK_BEGIN" />設定<ph name="SETTINGS_LINK_END" />] で管理できます。</translation>
+これまでにウェブサイトやアプリに許可した権限がこのアカウントに適用される可能性があります。tomi アカウントは [<ph name="SETTINGS_LINK_BEGIN" />設定<ph name="SETTINGS_LINK_END" />] で管理できます。</translation>
 <translation id="1640672724030957280">ダウンロードしています...</translation>
-<translation id="1715127912119967311">Decentr では、これらの機能を改善するため、ユーザーの操作内容を Decentr に送信します。このデータは人間のレビュアーによって読み取られ、処理され、注釈が付けられる可能性があります。</translation>
+<translation id="1715127912119967311">tomi では、これらの機能を改善するため、ユーザーの操作内容を tomi に送信します。このデータは人間のレビュアーによって読み取られ、処理され、注釈が付けられる可能性があります。</translation>
 <translation id="1722488837206509557">これにより、利用可能なデバイスから選択してコンテンツを表示できるようになります。</translation>
-<translation id="17264556997921157">サイトでの広告表示に使用される興味 / 関心のトピックを表示、削除できます。Decentr では最近の閲覧履歴に基づいてユーザーの興味 / 関心を推定します。</translation>
-<translation id="1733725117201708356">Decentr でまもなく閲覧データが削除されます</translation>
-<translation id="1736443181683099871">Decentr で移動先の HTTPS へのアップグレードを試行します</translation>
-<translation id="1745121272106313518">Decentr は <ph name="REMAINING_TIME" /> 後に再起動します</translation>
-<translation id="1749104137266986751">HTTPS を使用できない場合、Decentr で警告を表示せずに安全でない接続を使用します</translation>
-<translation id="1774152462503052664">Decentr をバックグラウンドで実行する</translation>
-<translation id="1779356040007214683">Decentr をより安全にご利用いただくため、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない一部の拡張機能を無効にしました。これらは知らないうちに追加された可能性があります。</translation>
-<translation id="1808667845054772817">Decentr を再インストール</translation>
-<translation id="1820835682567584003">Decentr が <ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="18552579716432081">閲覧履歴データをこのデバイスからのみ削除して、Decentr アカウントに残すには、<ph name="BEGIN_LINK" />Decentr からログアウト<ph name="END_LINK" />します。</translation>
-<translation id="185970820835152459">ログインする Decentr アカウントを管理できます。Decentr アカウントは、Decentr ブラウザ、Play ストア、Gmail などで使用されます。家族など、あなた以外の人のアカウントを追加する場合は、<ph name="DEVICE_TYPE" /> に新しいユーザーを追加してください。<ph name="LINK_BEGIN" />詳細<ph name="LINK_END" /></translation>
-<translation id="1863308913976887472">サイトでは、ユーザーの興味 / 関心についての情報を Decentr に保存する場合があります。たとえば、マラソン用のシューズを購入するためにあるサイトにアクセスすると、そのサイトでは「ランニング」をユーザーの興味 / 関心として定義する可能性があります。その後、別のサイトにアクセスして競技に登録しようとすると、そのサイトでは、ユーザーの興味 / 関心に基づいてランニング用シューズの広告が表示される場合があります。</translation>
-<translation id="1881322772814446296">現在、管理対象アカウントでログインしており、あなたの Decentr プロフィールを管理者が制御できる状態になっています。あなたの Decentr データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは Decentr アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。新しいプロフィールを作成して、既存の Decentr データを別に保管することができます。<ph name="LEARN_MORE" /></translation>
-<translation id="1906696617298807388">Decentr でアドレスバーや検索ボックスに入力を始めると、入力内容が Decentr ドライブに送信され、検索候補が表示されます。シークレット モードの場合、この設定はオフになっています。</translation>
-<translation id="1911763535808217981">この設定を無効にすると、Decentr にログインすることなく Gmail などの Decentr サイトにログインできます</translation>
-<translation id="1929939181775079593">Decentr が応答しません。今すぐ再起動しますか？</translation>
-<translation id="193439633299369377">更新を適用するには、Decentr OS を再起動する必要があります。</translation>
-<translation id="1951406923938785464">このダウンロードは Decentr でブロックされました。ファイル形式が一般的にダウンロードされるものではなく、危害を及ぼす可能性があります</translation>
+<translation id="17264556997921157">サイトでの広告表示に使用される興味 / 関心のトピックを表示、削除できます。tomi では最近の閲覧履歴に基づいてユーザーの興味 / 関心を推定します。</translation>
+<translation id="1733725117201708356">tomi でまもなく閲覧データが削除されます</translation>
+<translation id="1736443181683099871">tomi で移動先の HTTPS へのアップグレードを試行します</translation>
+<translation id="1745121272106313518">tomi は <ph name="REMAINING_TIME" /> 後に再起動します</translation>
+<translation id="1749104137266986751">HTTPS を使用できない場合、tomi で警告を表示せずに安全でない接続を使用します</translation>
+<translation id="1774152462503052664">tomi をバックグラウンドで実行する</translation>
+<translation id="1779356040007214683">tomi をより安全にご利用いただくため、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない一部の拡張機能を無効にしました。これらは知らないうちに追加された可能性があります。</translation>
+<translation id="1808667845054772817">tomi を再インストール</translation>
+<translation id="1820835682567584003">tomi が <ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="18552579716432081">閲覧履歴データをこのデバイスからのみ削除して、tomi アカウントに残すには、<ph name="BEGIN_LINK" />tomi からログアウト<ph name="END_LINK" />します。</translation>
+<translation id="185970820835152459">ログインする tomi アカウントを管理できます。tomi アカウントは、tomi ブラウザ、Play ストア、Gmail などで使用されます。家族など、あなた以外の人のアカウントを追加する場合は、<ph name="DEVICE_TYPE" /> に新しいユーザーを追加してください。<ph name="LINK_BEGIN" />詳細<ph name="LINK_END" /></translation>
+<translation id="1863308913976887472">サイトでは、ユーザーの興味 / 関心についての情報を tomi に保存する場合があります。たとえば、マラソン用のシューズを購入するためにあるサイトにアクセスすると、そのサイトでは「ランニング」をユーザーの興味 / 関心として定義する可能性があります。その後、別のサイトにアクセスして競技に登録しようとすると、そのサイトでは、ユーザーの興味 / 関心に基づいてランニング用シューズの広告が表示される場合があります。</translation>
+<translation id="1881322772814446296">現在、管理対象アカウントでログインしており、あなたの tomi プロフィールを管理者が制御できる状態になっています。あなたの tomi データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは tomi アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。新しいプロフィールを作成して、既存の tomi データを別に保管することができます。<ph name="LEARN_MORE" /></translation>
+<translation id="1906696617298807388">tomi でアドレスバーや検索ボックスに入力を始めると、入力内容が tomi ドライブに送信され、検索候補が表示されます。シークレット モードの場合、この設定はオフになっています。</translation>
+<translation id="1911763535808217981">この設定を無効にすると、tomi にログインすることなく Gmail などの tomi サイトにログインできます</translation>
+<translation id="1929939181775079593">tomi が応答しません。今すぐ再起動しますか？</translation>
+<translation id="193439633299369377">更新を適用するには、tomi OS を再起動する必要があります。</translation>
+<translation id="1951406923938785464">このダウンロードは tomi でブロックされました。ファイル形式が一般的にダウンロードされるものではなく、危害を及ぼす可能性があります</translation>
 <translation id="1953553007165777902">ダウンロードしています... 残り <ph name="MINUTE" /> 分です</translation>
-<translation id="1966382378801805537">Decentr では既定のブラウザを判定または設定できません</translation>
-<translation id="1990262977744080398">新しいタブを開いて、Decentr で一部のファイルがブロックされる理由を確認します</translation>
-<translation id="2008474315282236005">このデバイスから 1 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Decentr にログインしてください。</translation>
+<translation id="1966382378801805537">tomi では既定のブラウザを判定または設定できません</translation>
+<translation id="1990262977744080398">新しいタブを開いて、tomi で一部のファイルがブロックされる理由を確認します</translation>
+<translation id="2008474315282236005">このデバイスから 1 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として tomi にログインしてください。</translation>
 <translation id="2018879682492276940">インストールできませんでした。もう一度お試しください。</translation>
-<translation id="2020032459870799438">他のパスワードにデータ侵害などセキュリティに関する問題がないかどうかを確認するには、<ph name="BEGIN_LINK" />Decentr にログイン<ph name="END_LINK" />してください。</translation>
-<translation id="2049376729098081731">Decentr の履歴を含めて、Decentr サービスのパーソナライズに使用するかどうかを選択してください</translation>
-<translation id="2086476982681781442">このダウンロードは Decentr でブロックされました。ファイルが虚偽のもので、デバイスに予期しない変更を加える可能性があります</translation>
-<translation id="2088953378266246249">Decentr でのルート証明書の管理方法に関する情報</translation>
-<translation id="2120965832000301375">{COUNT,plural, =1{1 分間使用しなかった場合、組織は Decentr の閲覧データを自動的に削除します。これには、履歴、自動入力、ダウンロードが含まれます。タブは開いたままになります。}other{# 分間使用しなかった場合、組織は Decentr の閲覧データを自動的に削除します。これには、履歴、自動入力、ダウンロードが含まれます。タブは開いたままになります。}}</translation>
+<translation id="2020032459870799438">他のパスワードにデータ侵害などセキュリティに関する問題がないかどうかを確認するには、<ph name="BEGIN_LINK" />tomi にログイン<ph name="END_LINK" />してください。</translation>
+<translation id="2049376729098081731">tomi の履歴を含めて、tomi サービスのパーソナライズに使用するかどうかを選択してください</translation>
+<translation id="2086476982681781442">このダウンロードは tomi でブロックされました。ファイルが虚偽のもので、デバイスに予期しない変更を加える可能性があります</translation>
+<translation id="2088953378266246249">tomi でのルート証明書の管理方法に関する情報</translation>
+<translation id="2120965832000301375">{COUNT,plural, =1{1 分間使用しなかった場合、組織は tomi の閲覧データを自動的に削除します。これには、履歴、自動入力、ダウンロードが含まれます。タブは開いたままになります。}other{# 分間使用しなかった場合、組織は tomi の閲覧データを自動的に削除します。これには、履歴、自動入力、ダウンロードが含まれます。タブは開いたままになります。}}</translation>
 <translation id="2126108037660393668">ダウンロードしたファイルの検証で不合格でした。</translation>
-<translation id="215352261310130060">このダウンロードは Decentr でブロックされました。サイトで安全な接続が使用されておらず、ファイルが改ざんされている可能性があります</translation>
-<translation id="2157600032285353789">Decentr メニューからブックマークやリーディング モードなどを開くことができます</translation>
-<translation id="2174178932569897599">Decentr をカスタマイズ</translation>
+<translation id="215352261310130060">このダウンロードは tomi でブロックされました。サイトで安全な接続が使用されておらず、ファイルが改ざんされている可能性があります</translation>
+<translation id="2157600032285353789">tomi メニューからブックマークやリーディング モードなどを開くことができます</translation>
+<translation id="2174178932569897599">tomi をカスタマイズ</translation>
 <translation id="2174917724755363426">インストールは完了していません。キャンセルしてもよろしいですか？</translation>
-<translation id="2185166961232948079">Decentr - ネットワークにログイン - <ph name="PAGE_TITLE" /></translation>
+<translation id="2185166961232948079">tomi - ネットワークにログイン - <ph name="PAGE_TITLE" /></translation>
 <translation id="2190166659037789668">更新確認エラー: <ph name="UPDATE_CHECK_ERROR" />。</translation>
-<translation id="2199210295479376551">Decentr からアカウントを削除</translation>
-<translation id="2210682093923538346">危険なサイトのため、Decentr で通知の権限を削除しました。</translation>
-<translation id="2240214816234246077">最近アクセスしていないため、Decentr で <ph name="PERMISSION_1" /> と<ph name="PERMISSION_2" /> の権限を削除しました</translation>
-<translation id="2241627712206172106">パソコンを共有している場合、友だちや家族はそれぞれ Decentr を自分専用のブラウザとして自分用の設定をして使うことができます。</translation>
-<translation id="2313870531055795960">Decentr に保存されている安全でないサイトのリストと URL を照合します。サイトがパスワードを不正に取得しようとしている場合や、ユーザーが安全でないファイルをダウンロードしようとした場合は、URL とページ コンテンツの一部をセーフ ブラウジングに送信することがあります。</translation>
+<translation id="2199210295479376551">tomi からアカウントを削除</translation>
+<translation id="2210682093923538346">危険なサイトのため、tomi で通知の権限を削除しました。</translation>
+<translation id="2240214816234246077">最近アクセスしていないため、tomi で <ph name="PERMISSION_1" /> と<ph name="PERMISSION_2" /> の権限を削除しました</translation>
+<translation id="2241627712206172106">パソコンを共有している場合、友だちや家族はそれぞれ tomi を自分専用のブラウザとして自分用の設定をして使うことができます。</translation>
+<translation id="2313870531055795960">tomi に保存されている安全でないサイトのリストと URL を照合します。サイトがパスワードを不正に取得しようとしている場合や、ユーザーが安全でないファイルをダウンロードしようとした場合は、URL とページ コンテンツの一部をセーフ ブラウジングに送信することがあります。</translation>
 <translation id="2329088755516916767">オンにするとページがプリロードされ、閲覧と検索をすばやく行えるようになります。</translation>
-<translation id="2343156876103232566">Android スマートフォンに番号を送信するには、両方のデバイスで Decentr にログインしてください。</translation>
+<translation id="2343156876103232566">Android スマートフォンに番号を送信するには、両方のデバイスで tomi にログインしてください。</translation>
 <translation id="2359808026110333948">続行</translation>
-<translation id="2361918034042471035">拡張機能「<ph name="EXTENSION_NAME" />」が Decentr へのログインを求めています</translation>
-<translation id="2374216753258219393">この拡張機能を <ph name="USER_EMAIL_ADDRESS" /> として使用するには、Decentr にログインしてください。</translation>
-<translation id="2384373936468275798">アカウントのログイン情報が最新でないため、Decentr OS はデータを同期できませんでした。</translation>
-<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{1 つ以上の Decentr 拡張機能が 1 台の HID デバイスにアクセスしていました}=1{1 つ以上の Decentr 拡張機能が 1 台の HID デバイスにアクセスしています}other{1 つ以上の Decentr 拡張機能が # 台の HID デバイスにアクセスしています}}</translation>
-<translation id="2401032172288869980">このサイトを利用するには、Decentr でカメラとマイクの使用を許可する必要があります</translation>
-<translation id="2440750600860946460"><ph name="BEGIN_LINK" />Decentr のツール<ph name="END_LINK" />を使って、自分で管理しながら安全にブラウジングできます</translation>
+<translation id="2361918034042471035">拡張機能「<ph name="EXTENSION_NAME" />」が tomi へのログインを求めています</translation>
+<translation id="2374216753258219393">この拡張機能を <ph name="USER_EMAIL_ADDRESS" /> として使用するには、tomi にログインしてください。</translation>
+<translation id="2384373936468275798">アカウントのログイン情報が最新でないため、tomi OS はデータを同期できませんでした。</translation>
+<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{1 つ以上の tomi 拡張機能が 1 台の HID デバイスにアクセスしていました}=1{1 つ以上の tomi 拡張機能が 1 台の HID デバイスにアクセスしています}other{1 つ以上の tomi 拡張機能が # 台の HID デバイスにアクセスしています}}</translation>
+<translation id="2401032172288869980">このサイトを利用するには、tomi でカメラとマイクの使用を許可する必要があります</translation>
+<translation id="2440750600860946460"><ph name="BEGIN_LINK" />tomi のツール<ph name="END_LINK" />を使って、自分で管理しながら安全にブラウジングできます</translation>
 <translation id="2451727308784734061">ショートカットを使用してパスワード マネージャーにすばやくアクセスできます。ショートカットはパソコンのホーム画面やアプリ ランチャーに移動できます。</translation>
-<translation id="2478295928299953161">Decentr はまもなく終了します</translation>
-<translation id="2483889755041906834">Decentr 内</translation>
+<translation id="2478295928299953161">tomi はまもなく終了します</translation>
+<translation id="2483889755041906834">tomi 内</translation>
 <translation id="2485422356828889247">アンインストール</translation>
 <translation id="2513154137948333830">再起動が必要です: <ph name="INSTALL_SUCCESS" /></translation>
-<translation id="2554739539410784893">Decentr が既存のパスワードを置き換えようとしています。続行するには、Windows のパスワードを入力してください。</translation>
-<translation id="2560420686485554789">ファイルをダウンロードするには、Decentr でストレージへのアクセスを許可する必要があります</translation>
-<translation id="2572494885440352020">Decentr Helper</translation>
-<translation id="2576118232315942160">すべてのデバイスでパスワードやその他の設定を使用するには、Decentr にログインしてください</translation>
-<translation id="2583187216237139145">このプロファイルの使用中に生成された Decentr データ（ブックマーク、履歴、パスワード、他の設定など）は、仕事用プロファイルの管理者によって削除される場合があります。<ph name="LEARN_MORE" /></translation>
-<translation id="2592940277904433508">Decentr を引き続き使用</translation>
+<translation id="2554739539410784893">tomi が既存のパスワードを置き換えようとしています。続行するには、Windows のパスワードを入力してください。</translation>
+<translation id="2560420686485554789">ファイルをダウンロードするには、tomi でストレージへのアクセスを許可する必要があります</translation>
+<translation id="2572494885440352020">tomi Helper</translation>
+<translation id="2576118232315942160">すべてのデバイスでパスワードやその他の設定を使用するには、tomi にログインしてください</translation>
+<translation id="2583187216237139145">このプロファイルの使用中に生成された tomi データ（ブックマーク、履歴、パスワード、他の設定など）は、仕事用プロファイルの管理者によって削除される場合があります。<ph name="LEARN_MORE" /></translation>
+<translation id="2592940277904433508">tomi を引き続き使用</translation>
 <translation id="259935314519650377">ダウンロードしたインストーラのキャッシュに失敗しました。エラー: <ph name="UNPACK_CACHING_ERROR_CODE" />。</translation>
-<translation id="264613044588233783">Decentr の動作が速くなり、JavaScript を使用する機能が設計どおりに動作します（推奨）</translation>
-<translation id="2648074677641340862">インストール中にオペレーティング システム エラーが発生しました。Decentr をダウンロードし直してください。</translation>
-<translation id="2661879430930417727">デバイスを共有している場合でも、友だちや家族はそれぞれ Decentr を自分専用のブラウザとして自分用の設定をして使うことができます</translation>
-<translation id="268602741124540128"><ph name="ACCOUNT_FIRST_NAME" /> さん、Decentr へようこそ</translation>
-<translation id="2711502716910134313">Decentr タブ</translation>
-<translation id="2718390899429598676">セキュリティ強化のため、Decentr ではデータが暗号化されます。</translation>
-<translation id="2721354645805494590">Decentr から Decentr アカウントを削除するには、ログアウトしてください</translation>
+<translation id="264613044588233783">tomi の動作が速くなり、JavaScript を使用する機能が設計どおりに動作します（推奨）</translation>
+<translation id="2648074677641340862">インストール中にオペレーティング システム エラーが発生しました。tomi をダウンロードし直してください。</translation>
+<translation id="2661879430930417727">デバイスを共有している場合でも、友だちや家族はそれぞれ tomi を自分専用のブラウザとして自分用の設定をして使うことができます</translation>
+<translation id="268602741124540128"><ph name="ACCOUNT_FIRST_NAME" /> さん、tomi へようこそ</translation>
+<translation id="2711502716910134313">tomi タブ</translation>
+<translation id="2718390899429598676">セキュリティ強化のため、tomi ではデータが暗号化されます。</translation>
+<translation id="2721354645805494590">tomi から tomi アカウントを削除するには、ログアウトしてください</translation>
 <translation id="2738871930057338499">インターネットに接続できません。HTTP 403 アクセス不可エラーが発生しました。プロキシ設定をご確認ください。</translation>
 <translation id="2770231113462710648">既定のブラウザを変更:</translation>
-<translation id="2785438272836277133">この拡張機能にはマルウェアが含まれており、安全ではありません。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、Decentr からこの拡張機能を削除してください。</translation>
+<translation id="2785438272836277133">この拡張機能にはマルウェアが含まれており、安全ではありません。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、tomi からこの拡張機能を削除してください。</translation>
 <translation id="2799223571221894425">再起動</translation>
-<translation id="2837693172913560447"><ph name="USER_EMAIL_ADDRESS" /> 用の新しい Decentr プロファイルが作成されます。</translation>
+<translation id="2837693172913560447"><ph name="USER_EMAIL_ADDRESS" /> 用の新しい tomi プロファイルが作成されます。</translation>
 <translation id="2846251086934905009">インストール エラー: インストーラが完了しませんでした。インストールは中止されました。</translation>
-<translation id="2847479871509788944">Decentr から削除...</translation>
-<translation id="2850691299438350830">ログイン時に、Decentr を安全に利用できるようにするほか、他の Decentr アプリのセキュリティ強化に使用されることがあります。</translation>
+<translation id="2847479871509788944">tomi から削除...</translation>
+<translation id="2850691299438350830">ログイン時に、tomi を安全に利用できるようにするほか、他の tomi アプリのセキュリティ強化に使用されることがあります。</translation>
 <translation id="2885378588091291677">タスク マネージャ</translation>
-<translation id="2910007522516064972">Decentr について(&amp;C)</translation>
+<translation id="2910007522516064972">tomi について(&amp;C)</translation>
 <translation id="2915996080311180594">後で再起動</translation>
 <translation id="2928420929544864228">インストールが完了しました。</translation>
 <translation id="2945997411976714835">インストール エラー: インストーラのプロセスを開始できませんでした。</translation>
-<translation id="2970426615109535079">Decentr は組織によって管理されています</translation>
-<translation id="2977470724722393594">Decentr は最新版です</translation>
+<translation id="2970426615109535079">tomi は組織によって管理されています</translation>
+<translation id="2977470724722393594">tomi は最新版です</translation>
 <translation id="2977506796191543575">サイトがパスワードを不正に取得しようとしている場合や、ユーザーが安全でないファイルをダウンロードしようとした場合は、URL とページ コンテンツの一部をセーフ ブラウジングに送信することがあります</translation>
-<translation id="2987208172821108655">Decentr では、これらのタブを非アクティブにして、ブラウジング環境を改善し、リソースを解放できます。</translation>
-<translation id="3013473503895162900">Decentr の新しいタブで <ph name="URL" /> を開きます。</translation>
-<translation id="3032706164202344641">Decentr でパスワードを確認できません。しばらくしてからもう一度お試しください。</translation>
-<translation id="3032787606318309379">Decentr に追加...</translation>
+<translation id="2987208172821108655">tomi では、これらのタブを非アクティブにして、ブラウジング環境を改善し、リソースを解放できます。</translation>
+<translation id="3013473503895162900">tomi の新しいタブで <ph name="URL" /> を開きます。</translation>
+<translation id="3032706164202344641">tomi でパスワードを確認できません。しばらくしてからもう一度お試しください。</translation>
+<translation id="3032787606318309379">tomi に追加...</translation>
 <translation id="3038232873781883849">インストールの待機中...</translation>
-<translation id="3068187312562070417">その他の Decentr プロフィール</translation>
-<translation id="3068515742935458733">障害レポートと<ph name="UMA_LINK" />を Decentr に自動送信して Decentr の機能向上に役立てる</translation>
-<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{1 つ以上の Decentr 拡張機能が 1 台の USB デバイスにアクセスしていました}=1{1 つ以上の Decentr 拡張機能が 1 台の USB デバイスにアクセスしています}other{1 つ以上の Decentr 拡張機能が # 台の USB デバイスにアクセスしています}}</translation>
-<translation id="3101560983689755071">閲覧履歴は、表示される広告と以下の推定された興味 / 関心に影響します。プライバシーを保護するために、Decentr ではユーザーの興味 / 関心が毎月順番に自動削除されます。ユーザーが削除しない限り、興味 / 関心は更新される可能性があります。</translation>
-<translation id="3103660991484857065">インストーラ アーカイブを解凍できませんでした。Decentr をダウンロードし直してください。</translation>
-<translation id="3130323860337406239">Decentr がマイクを使用しています。</translation>
+<translation id="3068187312562070417">その他の tomi プロフィール</translation>
+<translation id="3068515742935458733">障害レポートと<ph name="UMA_LINK" />を tomi に自動送信して tomi の機能向上に役立てる</translation>
+<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{1 つ以上の tomi 拡張機能が 1 台の USB デバイスにアクセスしていました}=1{1 つ以上の tomi 拡張機能が 1 台の USB デバイスにアクセスしています}other{1 つ以上の tomi 拡張機能が # 台の USB デバイスにアクセスしています}}</translation>
+<translation id="3101560983689755071">閲覧履歴は、表示される広告と以下の推定された興味 / 関心に影響します。プライバシーを保護するために、tomi ではユーザーの興味 / 関心が毎月順番に自動削除されます。ユーザーが削除しない限り、興味 / 関心は更新される可能性があります。</translation>
+<translation id="3103660991484857065">インストーラ アーカイブを解凍できませんでした。tomi をダウンロードし直してください。</translation>
+<translation id="3130323860337406239">tomi がマイクを使用しています。</translation>
 <translation id="3144188012276422546">このタブでは追加のリソースが使用されています。パフォーマンスを改善するには、このタブを非アクティブにしてください。</translation>
-<translation id="3155163173539279776">Decentr を再起動します</translation>
-<translation id="3179665906251668410">Decentr のシークレット ウインドウでリンクを開く(&amp;G)</translation>
-<translation id="3185330573522821672">新しい Decentr プロフィールをカスタマイズ</translation>
-<translation id="3190315855212034486">エラー: Decentr で問題が発生しました。今すぐ再起動しますか？</translation>
-<translation id="3224847870593914902">Decentr から Decentr アカウントを削除するには、[設定] ページで Decentr からログアウトしてください</translation>
-<translation id="3258596308407688501">Decentr はこのデータ ディレクトリへの読み書きを実行できません:
+<translation id="3155163173539279776">tomi を再起動します</translation>
+<translation id="3179665906251668410">tomi のシークレット ウインドウでリンクを開く(&amp;G)</translation>
+<translation id="3185330573522821672">新しい tomi プロフィールをカスタマイズ</translation>
+<translation id="3190315855212034486">エラー: tomi で問題が発生しました。今すぐ再起動しますか？</translation>
+<translation id="3224847870593914902">tomi から tomi アカウントを削除するには、[設定] ページで tomi からログアウトしてください</translation>
+<translation id="3258596308407688501">tomi はこのデータ ディレクトリへの読み書きを実行できません:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="3268051428841342958">V8 は、サイトのパフォーマンスを向上させるために使用される Decentr の JavaScript エンジンおよび WebAssembly エンジンです</translation>
-<translation id="3283186697780795848">Decentr のバージョン <ph name="PRODUCT_VERSION" /> がインストールされています</translation>
+<translation id="3268051428841342958">V8 は、サイトのパフォーマンスを向上させるために使用される tomi の JavaScript エンジンおよび WebAssembly エンジンです</translation>
+<translation id="3283186697780795848">tomi のバージョン <ph name="PRODUCT_VERSION" /> がインストールされています</translation>
 <translation id="3286538390144397061">今すぐ再起動</translation>
-<translation id="328888136576916638">Decentr API キーが欠落しています。Decentr の一部の機能は無効になります。</translation>
-<translation id="3296368748942286671">Decentr を閉じた際にバックグラウンド アプリの処理を続行する</translation>
-<translation id="3300643253493387004">アカウントへのアクセスの設定が行われている間も Decentr を使用できます。一部のリソースには、設定が完了するまでアクセスできない場合があります。</translation>
-<translation id="3313189106987092621">Decentr で安全でない接続を使用してサイトを読み込む前に警告を表示します</translation>
-<translation id="3316771292331273802">Decentr のウィンドウをすべて閉じると、ほとんどのサイトからログアウトします。ただし Decentr にログインしている場合、Decentr アカウントからはログアウトしません。サイトにあなたの情報を記憶させるには、<ph name="SETTINGS_LINK" />します。</translation>
-<translation id="3350761136195634146">このアカウントの Decentr プロフィールはすでに存在します</translation>
-<translation id="3387527074123400161">Decentr OS</translation>
-<translation id="3406848076815591792">既存の Decentr プロフィールに切り替えますか？</translation>
+<translation id="328888136576916638">tomi API キーが欠落しています。tomi の一部の機能は無効になります。</translation>
+<translation id="3296368748942286671">tomi を閉じた際にバックグラウンド アプリの処理を続行する</translation>
+<translation id="3300643253493387004">アカウントへのアクセスの設定が行われている間も tomi を使用できます。一部のリソースには、設定が完了するまでアクセスできない場合があります。</translation>
+<translation id="3313189106987092621">tomi で安全でない接続を使用してサイトを読み込む前に警告を表示します</translation>
+<translation id="3316771292331273802">tomi のウィンドウをすべて閉じると、ほとんどのサイトからログアウトします。ただし tomi にログインしている場合、tomi アカウントからはログアウトしません。サイトにあなたの情報を記憶させるには、<ph name="SETTINGS_LINK" />します。</translation>
+<translation id="3350761136195634146">このアカウントの tomi プロフィールはすでに存在します</translation>
+<translation id="3387527074123400161">tomi OS</translation>
+<translation id="3406848076815591792">既存の tomi プロフィールに切り替えますか？</translation>
 <translation id="3412460710772753638">このデバイスのパスワード マネージャーで更新</translation>
-<translation id="3430503420100763906">Decentr プロフィールを使うと、Decentr のあらゆる項目や設定を個別に管理できます。友達や家族のプロフィールを作成したり、仕事とプライベートでプロフィールを使い分けたりできます。</translation>
-<translation id="347328004046849135">不正使用されたパスワードでログインした場合、Decentr で通知します</translation>
-<translation id="3474745554856756813">このデバイスから <ph name="ITEMS_COUNT" /> 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Decentr にログインしてください。</translation>
-<translation id="3497319089134299931">Decentr プロフィールを切り替えるには、<ph name="SHORTCUT" /> を使用します</translation>
-<translation id="3509308970982693815">すべての Decentr ウィンドウを閉じてからもう一度お試しください。</translation>
-<translation id="3530103706039034513"><ph name="EXISTING_USER" /> がすでにログインしています。ブラウジング環境を分ける場合は、<ph name="USER_EMAIL_ADDRESS" /> として自分用のプロフィールで Decentr にログインしてください。</translation>
-<translation id="3533435340678213462">ユーザーのプライバシーを保護するため、4 週間以上経過したユーザーの興味 / 関心は自動削除されます。閲覧を続けていると、興味 / 関心がリストに再度表示される場合もあります。Decentr に認識してほしくない興味 / 関心は削除できます。</translation>
-<translation id="3567254597502212821">閲覧履歴（このデバイスで Decentr を使用してアクセスしたサイトの記録）。</translation>
+<translation id="3430503420100763906">tomi プロフィールを使うと、tomi のあらゆる項目や設定を個別に管理できます。友達や家族のプロフィールを作成したり、仕事とプライベートでプロフィールを使い分けたりできます。</translation>
+<translation id="347328004046849135">不正使用されたパスワードでログインした場合、tomi で通知します</translation>
+<translation id="3474745554856756813">このデバイスから <ph name="ITEMS_COUNT" /> 件の項目を削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として tomi にログインしてください。</translation>
+<translation id="3497319089134299931">tomi プロフィールを切り替えるには、<ph name="SHORTCUT" /> を使用します</translation>
+<translation id="3509308970982693815">すべての tomi ウィンドウを閉じてからもう一度お試しください。</translation>
+<translation id="3530103706039034513"><ph name="EXISTING_USER" /> がすでにログインしています。ブラウジング環境を分ける場合は、<ph name="USER_EMAIL_ADDRESS" /> として自分用のプロフィールで tomi にログインしてください。</translation>
+<translation id="3533435340678213462">ユーザーのプライバシーを保護するため、4 週間以上経過したユーザーの興味 / 関心は自動削除されます。閲覧を続けていると、興味 / 関心がリストに再度表示される場合もあります。tomi に認識してほしくない興味 / 関心は削除できます。</translation>
+<translation id="3567254597502212821">閲覧履歴（このデバイスで tomi を使用してアクセスしたサイトの記録）。</translation>
 <translation id="3597003331831379823">昇格された権限で設定を実行できませんでした。<ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3639635944603682591">この操作を行うと、このユーザーの閲覧データがこのデバイスから削除されます。データを復元するには、<ph name="USER_EMAIL" /> として Decentr にログインしてください。</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Decentr の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。}=1{Decentr の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。シークレット ウィンドウは、再起動後は自動的には開きません。}other{Decentr の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="3651803019964686660"><ph name="ORIGIN" /> から Android スマートフォンに番号を送信するには、両方のデバイスで Decentr にログインしてください。</translation>
+<translation id="3639635944603682591">この操作を行うと、このユーザーの閲覧データがこのデバイスから削除されます。データを復元するには、<ph name="USER_EMAIL" /> として tomi にログインしてください。</translation>
+<translation id="364817392622123556">{COUNT,plural, =0{tomi の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。}=1{tomi の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。シークレット ウィンドウは、再起動後は自動的には開きません。}other{tomi の新しいアップデートを利用できます。再起動するとすぐにアップデートが適用されます。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
+<translation id="3651803019964686660"><ph name="ORIGIN" /> から Android スマートフォンに番号を送信するには、両方のデバイスで tomi にログインしてください。</translation>
 <translation id="3667616615096815454">インストールできません。このアプリはサーバーに認識されていません。</translation>
-<translation id="3669334504579945026">画面を共有するには、[システム環境設定] で Decentr に画面の録画を許可してください。</translation>
-<translation id="3685209450716071127">Decentr がパスワードを確認できません。インターネット接続を確認してみてください。</translation>
-<translation id="3702352323269013324">Decentr での広告のパーソナライズの詳細</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{管理者が、このアップデートを適用するために Decentr を再起動するよう求めています}=1{管理者が、このアップデートを適用するために Decentr を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、このアップデートを適用するために Decentr を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
-<translation id="3713809861844741608">新しい Decentr タブでリンクを開く(&amp;T)</translation>
-<translation id="3728124580182886854">パーソナライズなどの目的で、Decentr と他の Decentr サービスをリンクします</translation>
-<translation id="3788675262216168505">Decentr プロファイルを管理</translation>
-<translation id="3790262771324122253">Decentr で一部のダウンロードがブロックされる理由</translation>
+<translation id="3669334504579945026">画面を共有するには、[システム環境設定] で tomi に画面の録画を許可してください。</translation>
+<translation id="3685209450716071127">tomi がパスワードを確認できません。インターネット接続を確認してみてください。</translation>
+<translation id="3702352323269013324">tomi での広告のパーソナライズの詳細</translation>
+<translation id="370962675267501463">{COUNT,plural, =0{管理者が、このアップデートを適用するために tomi を再起動するよう求めています}=1{管理者が、このアップデートを適用するために tomi を再起動するよう求めています。シークレット ウィンドウは、再起動後は自動的には開きません。}other{管理者が、このアップデートを適用するために tomi を再起動するよう求めています。現在開いている # 個のシークレット ウィンドウは、再起動後は自動的には開きません。}}</translation>
+<translation id="3713809861844741608">新しい tomi タブでリンクを開く(&amp;T)</translation>
+<translation id="3728124580182886854">パーソナライズなどの目的で、tomi と他の tomi サービスをリンクします</translation>
+<translation id="3788675262216168505">tomi プロファイルを管理</translation>
+<translation id="3790262771324122253">tomi で一部のダウンロードがブロックされる理由</translation>
 <translation id="379589255253486813">確認の必要な項目がありましたらお知らせします</translation>
 <translation id="3802055581630249637">アクセスする可能性の高いページがプリロードされ、該当のページにアクセスしたときにページの読み込み速度が向上します。</translation>
-<translation id="3830894615770080216">Decentr OS システム</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Decentr</translation>
-<translation id="386822487697155367">Decentr OS のヘルプを見る</translation>
-<translation id="3871664619793219264">Decentr ブラウザのアイテムを <ph name="ACCOUNT_EMAIL" /> から取得</translation>
-<translation id="388648406173476553">Decentr をカスタマイズ、制御します。確認の必要な項目があります。クリックして詳細をご覧ください。</translation>
-<translation id="3889543394854987837">Decentr を開いてブラウジングを始めるには、名前をクリックしてください。</translation>
-<translation id="390528597099634151"><ph name="EXISTING_USER" /> さんはこの Decentr プロフィールにすでにログインしています。ブラウジング環境を分ける場合は、Decentr で自分用のプロフィールを作成できます。</translation>
-<translation id="3909353120217047026">この拡張機能は Decentr ウェブストアのポリシーに違反しており、安全でない可能性があります。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、Decentr からこの拡張機能を削除してください。</translation>
-<translation id="391789666908693569">あなたのアカウントは <ph name="MANAGER_NAME" /> によって管理されています。管理者は、この Decentr ブラウザのプロフィールとそのデータ（ブックマーク、履歴、パスワードなど）を表示、編集できます。</translation>
+<translation id="3830894615770080216">tomi OS システム</translation>
+<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - tomi</translation>
+<translation id="386822487697155367">tomi OS のヘルプを見る</translation>
+<translation id="3871664619793219264">tomi ブラウザのアイテムを <ph name="ACCOUNT_EMAIL" /> から取得</translation>
+<translation id="388648406173476553">tomi をカスタマイズ、制御します。確認の必要な項目があります。クリックして詳細をご覧ください。</translation>
+<translation id="3889543394854987837">tomi を開いてブラウジングを始めるには、名前をクリックしてください。</translation>
+<translation id="390528597099634151"><ph name="EXISTING_USER" /> さんはこの tomi プロフィールにすでにログインしています。ブラウジング環境を分ける場合は、tomi で自分用のプロフィールを作成できます。</translation>
+<translation id="3909353120217047026">この拡張機能は tomi ウェブストアのポリシーに違反しており、安全でない可能性があります。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、tomi からこの拡張機能を削除してください。</translation>
+<translation id="391789666908693569">あなたのアカウントは <ph name="MANAGER_NAME" /> によって管理されています。管理者は、この tomi ブラウザのプロフィールとそのデータ（ブックマーク、履歴、パスワードなど）を表示、編集できます。</translation>
 <translation id="3941890832296813527">インストール エラー: インストーラのファイル名が無効またはサポートされていません。</translation>
-<translation id="3945058413678539331">Decentr がパスワードをコピーしようとしています。続行するには、Windows のパスワードを入力してください。</translation>
-<translation id="3962647064319009959">Decentr のユーザー保護の仕組みについて</translation>
-<translation id="3975724895399328945">Decentr for Testing について(&amp;G)</translation>
-<translation id="3997429360543082038">Decentr OS について</translation>
-<translation id="4019629340646866719">Decentr OS は、<ph name="BEGIN_LINK_LINUX_OSS" />Linux 開発環境<ph name="END_LINK_LINUX_OSS" />と同様に、追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
-<translation id="4036079820698952681"><ph name="BEGIN_LINK" />現在の設定<ph name="END_LINK" />を送信して Decentr の品質向上にご協力ください</translation>
+<translation id="3945058413678539331">tomi がパスワードをコピーしようとしています。続行するには、Windows のパスワードを入力してください。</translation>
+<translation id="3962647064319009959">tomi のユーザー保護の仕組みについて</translation>
+<translation id="3975724895399328945">tomi for Testing について(&amp;G)</translation>
+<translation id="3997429360543082038">tomi OS について</translation>
+<translation id="4019629340646866719">tomi OS は、<ph name="BEGIN_LINK_LINUX_OSS" />Linux 開発環境<ph name="END_LINK_LINUX_OSS" />と同様に、追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
+<translation id="4036079820698952681"><ph name="BEGIN_LINK" />現在の設定<ph name="END_LINK" />を送信して tomi の品質向上にご協力ください</translation>
 <translation id="4050175100176540509">最新バージョンに更新すると、重要なセキュリティ更新と新機能が適用されます。</translation>
 <translation id="4055805654398742145">パスワード マネージャー(&amp;A)</translation>
-<translation id="4095980151185649725">{COUNT,plural, =1{1 分間使用しなかった場合、組織は Decentr を自動的に終了します。閲覧データは削除されます。これには、履歴、自動入力、ダウンロードが含まれます。}other{# 分間使用しなかった場合、組織は Decentr を自動的に終了します。閲覧データは削除されます。これには、履歴、自動入力、ダウンロードが含まれます。}}</translation>
-<translation id="4118474109249235144">Decentr のシークレット モード</translation>
-<translation id="4122186850977583290">Decentr についてのページに移動</translation>
+<translation id="4095980151185649725">{COUNT,plural, =1{1 分間使用しなかった場合、組織は tomi を自動的に終了します。閲覧データは削除されます。これには、履歴、自動入力、ダウンロードが含まれます。}other{# 分間使用しなかった場合、組織は tomi を自動的に終了します。閲覧データは削除されます。これには、履歴、自動入力、ダウンロードが含まれます。}}</translation>
+<translation id="4118474109249235144">tomi のシークレット モード</translation>
+<translation id="4122186850977583290">tomi についてのページに移動</translation>
 <translation id="4148957013307229264">インストール中...</translation>
-<translation id="4149336151887611710">あなたの組織は仕事用プロフィールの閲覧データ（ブックマーク、履歴、パスワードなど）を確認、管理できます。個人用の Decentr プロフィールの閲覧データを確認することはできません。</translation>
-<translation id="419998258129752635"><ph name="PAGE_TITLE" /> - ネットワークにログイン - Decentr</translation>
-<translation id="421369550622382712">Decentr の優れたアプリ、ゲーム、拡張機能、テーマをぜひご利用ください。</translation>
-<translation id="4216212958613226427">この言語が Decentr UI の表示に使用されます</translation>
+<translation id="4149336151887611710">あなたの組織は仕事用プロフィールの閲覧データ（ブックマーク、履歴、パスワードなど）を確認、管理できます。個人用の tomi プロフィールの閲覧データを確認することはできません。</translation>
+<translation id="419998258129752635"><ph name="PAGE_TITLE" /> - ネットワークにログイン - tomi</translation>
+<translation id="421369550622382712">tomi の優れたアプリ、ゲーム、拡張機能、テーマをぜひご利用ください。</translation>
+<translation id="4216212958613226427">この言語が tomi UI の表示に使用されます</translation>
 <translation id="4222932583846282852">キャンセルしています...</translation>
 <translation id="4224210481850767180">インストールをキャンセルしました。</translation>
-<translation id="4230135487732243613">Decentr データをこのアカウントにリンクしますか？</translation>
-<translation id="4251772536351901305">標準保護機能より多くのサイトデータを分析して、危険なサイト（Decentr が認識していなかったサイトも含む）について警告します。Decentr の警告をスキップすることもできます。</translation>
-<translation id="4269093074552541569">Decentr からログアウト</translation>
-<translation id="4271805377592243930">Decentr のヘルプを見る</translation>
+<translation id="4230135487732243613">tomi データをこのアカウントにリンクしますか？</translation>
+<translation id="4251772536351901305">標準保護機能より多くのサイトデータを分析して、危険なサイト（tomi が認識していなかったサイトも含む）について警告します。tomi の警告をスキップすることもできます。</translation>
+<translation id="4269093074552541569">tomi からログアウト</translation>
+<translation id="4271805377592243930">tomi のヘルプを見る</translation>
 <translation id="4281844954008187215">利用規約</translation>
-<translation id="4285930937574705105">原因不明のエラーによりインストールが失敗しました。実行中の Decentr を終了してからもう一度お試しください。</translation>
+<translation id="4285930937574705105">原因不明のエラーによりインストールが失敗しました。実行中の tomi を終了してからもう一度お試しください。</translation>
 <translation id="4304713468139749426">パスワード マネージャー</translation>
 <translation id="4334294535648607276">ダウンロードが完了しました。</translation>
-<translation id="439358628917130594"><ph name="MANAGER" /> では、このデバイスを使用する前に下記の利用規約を確認しこれに同意していただく必要があります。これらの規約は Decentr OS 利用規約を拡張、変更、制限するものではありません。</translation>
-<translation id="4407044323746248786">今すぐ Decentr を終了しますか？</translation>
-<translation id="4415566066719264597">Decentr をバックグラウンドで実行する</translation>
+<translation id="439358628917130594"><ph name="MANAGER" /> では、このデバイスを使用する前に下記の利用規約を確認しこれに同意していただく必要があります。これらの規約は tomi OS 利用規約を拡張、変更、制限するものではありません。</translation>
+<translation id="4407044323746248786">今すぐ tomi を終了しますか？</translation>
+<translation id="4415566066719264597">tomi をバックグラウンドで実行する</translation>
 <translation id="4419831163359812184">{NUM_EXTENSIONS,plural, =1{削除することをおすすめします。<ph name="BEGIN_LINK" />サポートされている拡張機能の詳細<ph name="END_LINK" />}other{削除することをおすすめします。<ph name="BEGIN_LINK" />サポートされている拡張機能の詳細<ph name="END_LINK" />}}</translation>
-<translation id="4423735387467980091">Decentr の設定</translation>
+<translation id="4423735387467980091">tomi の設定</translation>
 <translation id="4427306783828095590">保護強化機能により、フィッシングを防ぎ、不正なソフトウェアをより強力にブロックします</translation>
 <translation id="4434353761996769206">インストーラー エラー: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438870983368648614">Decentr は <ph name="MANAGER" /> によって管理されています</translation>
-<translation id="4447409407328223819">Decentr for Testing について</translation>
+<translation id="4438870983368648614">tomi は <ph name="MANAGER" /> によって管理されています</translation>
+<translation id="4447409407328223819">tomi for Testing について</translation>
 <translation id="4501471624619070934">お住まいの国ではアクセスが制限されているため、インストールに失敗しました。</translation>
 <translation id="4510853178268397146">この拡張機能は、データの収集方法や使用方法などのプライバシー保護の取り組みを公開していません。削除することをおすすめします。</translation>
-<translation id="452711251841752011">Decentr へようこそ。新しいブラウザ ウィンドウが開いています</translation>
-<translation id="4531137820806573936">Decentr にシーン認識とハンド トラッキングを許可する必要があります</translation>
-<translation id="4536805923587466102">別の Decentr プロフィールに <ph name="USER_EMAIL_ADDRESS" /> としてすでにログインしています</translation>
-<translation id="4544142686420020088">エラーが発生したため、Decentr が更新されませんでした。<ph name="BEGIN_LINK" />Decentr の更新に関する問題を解決してください。<ph name="END_LINK" /></translation>
+<translation id="452711251841752011">tomi へようこそ。新しいブラウザ ウィンドウが開いています</translation>
+<translation id="4531137820806573936">tomi にシーン認識とハンド トラッキングを許可する必要があります</translation>
+<translation id="4536805923587466102">別の tomi プロフィールに <ph name="USER_EMAIL_ADDRESS" /> としてすでにログインしています</translation>
+<translation id="4544142686420020088">エラーが発生したため、tomi が更新されませんでした。<ph name="BEGIN_LINK" />tomi の更新に関する問題を解決してください。<ph name="END_LINK" /></translation>
 <translation id="4545268686623374213">このタブを非アクティブにして、ブラウジング環境を改善し、処理を高速に保つことができます。</translation>
-<translation id="454579500955453258">新しい Decentr プロフィールで続行しますか？</translation>
+<translation id="454579500955453258">新しい tomi プロフィールで続行しますか？</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS" /> としてログインしています。ログインしているすべてのデバイスで、ブックマーク、履歴、その他の設定にアクセスできます。</translation>
-<translation id="4570813286784708942">このダウンロードは Decentr でブロックされました。セーフ ブラウジングがオフになっており、ファイルを確認できません</translation>
+<translation id="4570813286784708942">このダウンロードは tomi でブロックされました。セーフ ブラウジングがオフになっており、ファイルを確認できません</translation>
 <translation id="4594305310729380060">このデバイスのパスワード マネージャーに保存</translation>
-<translation id="459535195905078186">Decentr アプリ</translation>
-<translation id="4613863813562375431">Decentr OS のバージョン</translation>
-<translation id="4617285639650863674">画面を共有するには、[システム環境設定] で Decentr に画面の録画を許可してください</translation>
-<translation id="4621240073146040695">Decentr を再起動して更新を完了してください。</translation>
-<translation id="4665829708273112819">警告: 拡張機能による閲覧履歴の記録を Decentr で停止することはできません。シークレット モードでこの拡張機能を無効にするには、このオプションの選択を解除してください。</translation>
-<translation id="4673151026126227699">Decentr の使用状況レポートを送信する場合は、アクセスした URL がこのレポートに含められます</translation>
-<translation id="4677944499843243528">プロフィールは、別のコンピュータ（<ph name="HOST_NAME" />）の別の Decentr プロセス（<ph name="PROCESS_ID" />）で使用されているようです。Decentr はプロフィールが破損しないようにプロフィールをロックしています。他のプロセスがこのプロフィールを使用していないことが確実であれば、プロフィールのロックを解除して Decentr を再起動できます。</translation>
+<translation id="459535195905078186">tomi アプリ</translation>
+<translation id="4613863813562375431">tomi OS のバージョン</translation>
+<translation id="4617285639650863674">画面を共有するには、[システム環境設定] で tomi に画面の録画を許可してください</translation>
+<translation id="4621240073146040695">tomi を再起動して更新を完了してください。</translation>
+<translation id="4665829708273112819">警告: 拡張機能による閲覧履歴の記録を tomi で停止することはできません。シークレット モードでこの拡張機能を無効にするには、このオプションの選択を解除してください。</translation>
+<translation id="4673151026126227699">tomi の使用状況レポートを送信する場合は、アクセスした URL がこのレポートに含められます</translation>
+<translation id="4677944499843243528">プロフィールは、別のコンピュータ（<ph name="HOST_NAME" />）の別の tomi プロセス（<ph name="PROCESS_ID" />）で使用されているようです。tomi はプロフィールが破損しないようにプロフィールをロックしています。他のプロセスがこのプロフィールを使用していないことが確実であれば、プロフィールのロックを解除して tomi を再起動できます。</translation>
 <translation id="4680828127924988555">インストールをキャンセル</translation>
-<translation id="469259825538636168">Decentr データの一部が Decentr アカウントにまだ保存されていません。数分待ってからログアウトしてください。今すぐログアウトすると、このデータは削除されます。</translation>
-<translation id="4708193446201257833">Decentr にログイン中は、Decentr アカウントのパスワードやその他の設定を使用できます。<ph name="SHORTCUT" /> キーを押すと Decentr サービスの設定を変更できます。</translation>
-<translation id="4708774505295300557">前回このパソコンで別のユーザー（<ph name="ACCOUNT_EMAIL_LAST" />）が Decentr にログインしました。情報を個別に保持するには、新しい Decentr ユーザーを作成してください。</translation>
+<translation id="469259825538636168">tomi データの一部が tomi アカウントにまだ保存されていません。数分待ってからログアウトしてください。今すぐログアウトすると、このデータは削除されます。</translation>
+<translation id="4708193446201257833">tomi にログイン中は、tomi アカウントのパスワードやその他の設定を使用できます。<ph name="SHORTCUT" /> キーを押すと tomi サービスの設定を変更できます。</translation>
+<translation id="4708774505295300557">前回このパソコンで別のユーザー（<ph name="ACCOUNT_EMAIL_LAST" />）が tomi にログインしました。情報を個別に保持するには、新しい tomi ユーザーを作成してください。</translation>
 <translation id="4724676981607797757">サポートされていないプロトコル エラーが発生したため、インストールできませんでした。</translation>
-<translation id="4746050847053251315">今すぐ Decentr を終了しますか？</translation>
-<translation id="4748217263233248895">Decentr の特別なセキュリティ アップデートが適用されました。今すぐ再起動してください。タブは復元されます。</translation>
-<translation id="4765210420921718862">この設定は Decentr の設定でいつでも変更できます。テストは、現在の方法での広告配信と並行して実施されるため、すぐに変化が現れるわけではありません。</translation>
-<translation id="4788777615168560705">Decentr でパスワードを確認できません。24 時間後にもう一度お試しいただくか、<ph name="BEGIN_LINK" />Decentr アカウントでパスワードをご確認ください<ph name="END_LINK" />。</translation>
-<translation id="479167709087336770">Decentr 検索と同じスペルチェックが使用されます。ブラウザに入力したテキストは Decentr に送信されます。この動作はいつでも設定で変更できます。</translation>
-<translation id="4814736265800133385">アカウントなしで Decentr を使用する</translation>
-<translation id="4888717733111232871">mDNS トラフィックを許可する Decentr のインバウンド ルールです。</translation>
-<translation id="4893347770495441059">再起動して Decentr を更新(&amp;C)</translation>
-<translation id="4942295735032723435">今後、Decentr のアップデートを受信するには、macOS 11 以降が必要となります。このコンピュータでは macOS 10.15 が実行されています。</translation>
-<translation id="4943838377383847465">Decentr はバックグラウンド モードです。</translation>
-<translation id="494490797786467921">クリックすると、Decentr のログイン ダイアログを閉じます</translation>
-<translation id="4987820182225656817">ゲスト ユーザーは、記録を残さずに Decentr を使用できます。</translation>
-<translation id="4994636714258228724">Decentr に自分を追加</translation>
-<translation id="5114678101347489141">Decentr では、使用されるユーザー情報の量を抑えつつ、同じようにサイトをブラウジングできる新機能をテストしています</translation>
-<translation id="5187123684706427865">Decentr アカウントの再認証が必要です</translation>
-<translation id="5224391634244552924">保存されているパスワードがありません。パスワードを保存すると、Decentr で確認できるようになります。</translation>
-<translation id="5231355151045086930">Decentr からのログアウト</translation>
-<translation id="5252179775517634216"><ph name="EXISTING_USER" /> さんはこの Decentr プロファイルにすでにログインしています。<ph name="USER_EMAIL_ADDRESS" /> 用の新しい Decentr プロファイルが作成されます。</translation>
-<translation id="5277894862589591112">変更を適用するには Decentr を再起動してください</translation>
-<translation id="5294316920224716406">シークレット モードでブラウジングする際、Decentr で安全でない接続を使用してサイトを読み込む前に警告を表示します</translation>
-<translation id="5296845517486664001">Decentr の試用版がランダムに割り当てられた場合は、閲覧履歴が、表示される広告と以下の推定された興味 / 関心に影響します。プライバシーを保護するために、Decentr ではユーザーの興味 / 関心が毎月順番に削除されます。</translation>
-<translation id="5310474266708705970"><ph name="USER_EMAIL" /> として Decentr にログイン</translation>
+<translation id="4746050847053251315">今すぐ tomi を終了しますか？</translation>
+<translation id="4748217263233248895">tomi の特別なセキュリティ アップデートが適用されました。今すぐ再起動してください。タブは復元されます。</translation>
+<translation id="4765210420921718862">この設定は tomi の設定でいつでも変更できます。テストは、現在の方法での広告配信と並行して実施されるため、すぐに変化が現れるわけではありません。</translation>
+<translation id="4788777615168560705">tomi でパスワードを確認できません。24 時間後にもう一度お試しいただくか、<ph name="BEGIN_LINK" />tomi アカウントでパスワードをご確認ください<ph name="END_LINK" />。</translation>
+<translation id="479167709087336770">tomi 検索と同じスペルチェックが使用されます。ブラウザに入力したテキストは tomi に送信されます。この動作はいつでも設定で変更できます。</translation>
+<translation id="4814736265800133385">アカウントなしで tomi を使用する</translation>
+<translation id="4888717733111232871">mDNS トラフィックを許可する tomi のインバウンド ルールです。</translation>
+<translation id="4893347770495441059">再起動して tomi を更新(&amp;C)</translation>
+<translation id="4942295735032723435">今後、tomi のアップデートを受信するには、macOS 11 以降が必要となります。このコンピュータでは macOS 10.15 が実行されています。</translation>
+<translation id="4943838377383847465">tomi はバックグラウンド モードです。</translation>
+<translation id="494490797786467921">クリックすると、tomi のログイン ダイアログを閉じます</translation>
+<translation id="4987820182225656817">ゲスト ユーザーは、記録を残さずに tomi を使用できます。</translation>
+<translation id="4994636714258228724">tomi に自分を追加</translation>
+<translation id="5114678101347489141">tomi では、使用されるユーザー情報の量を抑えつつ、同じようにサイトをブラウジングできる新機能をテストしています</translation>
+<translation id="5187123684706427865">tomi アカウントの再認証が必要です</translation>
+<translation id="5224391634244552924">保存されているパスワードがありません。パスワードを保存すると、tomi で確認できるようになります。</translation>
+<translation id="5231355151045086930">tomi からのログアウト</translation>
+<translation id="5252179775517634216"><ph name="EXISTING_USER" /> さんはこの tomi プロファイルにすでにログインしています。<ph name="USER_EMAIL_ADDRESS" /> 用の新しい tomi プロファイルが作成されます。</translation>
+<translation id="5277894862589591112">変更を適用するには tomi を再起動してください</translation>
+<translation id="5294316920224716406">シークレット モードでブラウジングする際、tomi で安全でない接続を使用してサイトを読み込む前に警告を表示します</translation>
+<translation id="5296845517486664001">tomi の試用版がランダムに割り当てられた場合は、閲覧履歴が、表示される広告と以下の推定された興味 / 関心に影響します。プライバシーを保護するために、tomi ではユーザーの興味 / 関心が毎月順番に削除されます。</translation>
+<translation id="5310474266708705970"><ph name="USER_EMAIL" /> として tomi にログイン</translation>
 <translation id="5352264705793813212">安全に関する推奨事項をご確認ください</translation>
-<translation id="5352361688875342522">その他の Decentr プロフィール</translation>
-<translation id="5358375970380395591">現在、管理対象アカウントでログインしており、あなたの Decentr プロフィールを管理者が制御できる状態になっています。あなたの Decentr データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは Decentr アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。<ph name="LEARN_MORE" /></translation>
+<translation id="5352361688875342522">その他の tomi プロフィール</translation>
+<translation id="5358375970380395591">現在、管理対象アカウントでログインしており、あなたの tomi プロフィールを管理者が制御できる状態になっています。あなたの tomi データ（アプリ、ブックマーク、履歴、パスワードなどの設定）は永続的に <ph name="USER_NAME" /> に関連付けられます。このデータは tomi アカウントのダッシュボードを介して削除できますが、このデータを別のアカウントに関連付けることはできなくなります。<ph name="LEARN_MORE" /></translation>
 <translation id="5368118228313795342">他のコード: <ph name="EXTRA_CODE" />。</translation>
-<translation id="5377622451696208284">パーソナライズするには、Decentr をウェブとアプリのアクティビティに追加します</translation>
-<translation id="5383439451358640070">Decentr で一部のファイルがブロックされる理由</translation>
-<translation id="5386450000063123300">Decentr を更新しています（<ph name="PROGRESS_PERCENT" />）</translation>
-<translation id="538767207339317086">Decentr へのログインを許可する</translation>
-<translation id="5405650547142096840">Decentr から削除</translation>
-<translation id="5427571867875391349">Decentr をデフォルト ブラウザに設定する</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
-<translation id="5473971139929175403">この Linux ディストリビューションはサポートされなくなったため、Decentr は正常に機能しない可能性があります</translation>
-<translation id="5475924890392386523">このダウンロードは Decentr でブロックされました。ファイルが個人アカウントやソーシャル ネットワークのアカウントに危害を及ぼす可能性があります</translation>
-<translation id="5480860683791598150">このサイトで現在地を共有するには、Decentr で位置情報の使用を許可する必要があります</translation>
-<translation id="5487574057737591516">ユーザーのプライバシーを保護するため、4 週間以上経過したユーザーの興味 / 関心は自動削除されます。閲覧を続けていると、興味 / 関心がリストに再度表示される場合もあります。Decentr に情報を残したくない場合、または特定の広告を表示させたくない場合は、興味 / 関心を削除できます。</translation>
-<translation id="549669000822060376">Decentr は最新のシステム アップデートをインストールしています。しばらくお待ちください。</translation>
-<translation id="5496810170689441661">Decentr でパスワードを編集しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
-<translation id="5527463683072221100">Decentr で PDF を開く</translation>
-<translation id="5623402015214259806">{0,plural, =0{Decentr のアップデートが利用可能です}=1{Decentr のアップデートが利用可能です}other{Decentr のアップデートが利用可能になってから # 日経過しています}}</translation>
-<translation id="5643865575100044307">Decentr を閉じるとき、常にデバイスからサイトデータを削除する</translation>
-<translation id="5653831366781983928">今すぐ Decentr を再起動してください</translation>
-<translation id="5690427481109656848">Decentr LLC</translation>
-<translation id="5698481217667032250">Decentr をこの言語で表示</translation>
+<translation id="5377622451696208284">パーソナライズするには、tomi をウェブとアプリのアクティビティに追加します</translation>
+<translation id="5383439451358640070">tomi で一部のファイルがブロックされる理由</translation>
+<translation id="5386450000063123300">tomi を更新しています（<ph name="PROGRESS_PERCENT" />）</translation>
+<translation id="538767207339317086">tomi へのログインを許可する</translation>
+<translation id="5405650547142096840">tomi から削除</translation>
+<translation id="5427571867875391349">tomi をデフォルト ブラウザに設定する</translation>
+<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - tomi Beta</translation>
+<translation id="5473971139929175403">この Linux ディストリビューションはサポートされなくなったため、tomi は正常に機能しない可能性があります</translation>
+<translation id="5475924890392386523">このダウンロードは tomi でブロックされました。ファイルが個人アカウントやソーシャル ネットワークのアカウントに危害を及ぼす可能性があります</translation>
+<translation id="5480860683791598150">このサイトで現在地を共有するには、tomi で位置情報の使用を許可する必要があります</translation>
+<translation id="5487574057737591516">ユーザーのプライバシーを保護するため、4 週間以上経過したユーザーの興味 / 関心は自動削除されます。閲覧を続けていると、興味 / 関心がリストに再度表示される場合もあります。tomi に情報を残したくない場合、または特定の広告を表示させたくない場合は、興味 / 関心を削除できます。</translation>
+<translation id="549669000822060376">tomi は最新のシステム アップデートをインストールしています。しばらくお待ちください。</translation>
+<translation id="5496810170689441661">tomi でパスワードを編集しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
+<translation id="5527463683072221100">tomi で PDF を開く</translation>
+<translation id="5623402015214259806">{0,plural, =0{tomi のアップデートが利用可能です}=1{tomi のアップデートが利用可能です}other{tomi のアップデートが利用可能になってから # 日経過しています}}</translation>
+<translation id="5643865575100044307">tomi を閉じるとき、常にデバイスからサイトデータを削除する</translation>
+<translation id="5653831366781983928">今すぐ tomi を再起動してください</translation>
+<translation id="5690427481109656848">tomi LLC</translation>
+<translation id="5698481217667032250">tomi をこの言語で表示</translation>
 <translation id="569897634095159764">インターネットに接続できません。プロキシ サーバーにより認証を求められています。</translation>
-<translation id="5761096224651992291">最近アクセスしていないため、Decentr で <ph name="PERMISSION_1" />、<ph name="PERMISSION_2" />、<ph name="PERMISSION_3" /> の権限を削除しました</translation>
-<translation id="5800158606660203929">Decentr をカスタマイズ、管理します。Decentr をデフォルトに設定します。</translation>
+<translation id="5761096224651992291">最近アクセスしていないため、tomi で <ph name="PERMISSION_1" />、<ph name="PERMISSION_2" />、<ph name="PERMISSION_3" /> の権限を削除しました</translation>
+<translation id="5800158606660203929">tomi をカスタマイズ、管理します。tomi をデフォルトに設定します。</translation>
 <translation id="5809516625706423866">インターネットに接続できません。HTTP 401 認証エラーが発生しました。プロキシ設定をご確認ください。</translation>
-<translation id="5862307444128926510">Decentr へようこそ</translation>
-<translation id="5883558403894052917">Decentr で次のアイテムに不正なソフトウェアが含まれていることが検出されました。</translation>
-<translation id="5889361821821684993">Decentr では、ブラウザが安全な設定になっているかどうかを定期的に確認しています。お客様による確認が必要な項目がありましたらお知らせします。</translation>
+<translation id="5862307444128926510">tomi へようこそ</translation>
+<translation id="5883558403894052917">tomi で次のアイテムに不正なソフトウェアが含まれていることが検出されました。</translation>
+<translation id="5889361821821684993">tomi では、ブラウザが安全な設定になっているかどうかを定期的に確認しています。お客様による確認が必要な項目がありましたらお知らせします。</translation>
 <translation id="5895138241574237353">再起動</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - ネットワークにログイン</translation>
 <translation id="5924017743176219022">インターネットに接続しています…</translation>
 <translation id="5929318705173562984">このタブを非アクティブにして、ブラウジング環境を改善し、リソースを解放できます。</translation>
 <translation id="5941711191222866238">最小化</translation>
-<translation id="5972142260211327093">Decentr の試用版がランダムに割り当てられた場合は、閲覧履歴が、表示される広告と以下の推定された興味 / 関心に影響します。プライバシーを保護するために、Decentr ではユーザーの興味 / 関心が毎月順番に削除されます。ユーザーが削除しない限り、興味 / 関心は更新されます。</translation>
-<translation id="5986585015444752010">{COUNT,plural, =1{1 分間使用しなかった場合、組織は Decentr を自動的に終了します。}other{# 分間使用しなかった場合、組織は Decentr を自動的に終了します。}}</translation>
-<translation id="5987687638152509985">同期を開始するには、Decentr を更新します</translation>
-<translation id="5988505247484123880">多くのウェブサイトでは、アクセスしたユーザーの興味 / 関心を記録して、ユーザー体験をパーソナライズするのが一般的です。そうしたウェブサイトでは、ユーザーの興味 / 関心についての情報を Decentr に保存する場合があります。</translation>
+<translation id="5972142260211327093">tomi の試用版がランダムに割り当てられた場合は、閲覧履歴が、表示される広告と以下の推定された興味 / 関心に影響します。プライバシーを保護するために、tomi ではユーザーの興味 / 関心が毎月順番に削除されます。ユーザーが削除しない限り、興味 / 関心は更新されます。</translation>
+<translation id="5986585015444752010">{COUNT,plural, =1{1 分間使用しなかった場合、組織は tomi を自動的に終了します。}other{# 分間使用しなかった場合、組織は tomi を自動的に終了します。}}</translation>
+<translation id="5987687638152509985">同期を開始するには、tomi を更新します</translation>
+<translation id="5988505247484123880">多くのウェブサイトでは、アクセスしたユーザーの興味 / 関心を記録して、ユーザー体験をパーソナライズするのが一般的です。そうしたウェブサイトでは、ユーザーの興味 / 関心についての情報を tomi に保存する場合があります。</translation>
 <translation id="6003112304606738118">ダウンロードしています... 残り <ph name="HOURS" /> 時間です</translation>
-<translation id="6019451407441383358">右上の Decentr メニューから、ブックマークやリーディング モードなどを開くことができます</translation>
+<translation id="6019451407441383358">右上の tomi メニューから、ブックマークやリーディング モードなどを開くことができます</translation>
 <translation id="6040143037577758943">閉じる</translation>
 <translation id="6058380562449900225">データを保護するため、最近アクセスしていないサイトから権限を自動で削除します。通知は停止されません。</translation>
-<translation id="6063093106622310249">Decentr で開く(&amp;O)</translation>
-<translation id="6072279588547424923">「<ph name="EXTENSION_NAME" />」が Decentr に追加されました</translation>
-<translation id="6072463441809498330">Decentr を高速化する</translation>
+<translation id="6063093106622310249">tomi で開く(&amp;O)</translation>
+<translation id="6072279588547424923">「<ph name="EXTENSION_NAME" />」が tomi に追加されました</translation>
+<translation id="6072463441809498330">tomi を高速化する</translation>
 <translation id="608006075545470555">このブラウザに仕事用プロファイルを追加</translation>
-<translation id="6096348254544841612">Decentr をカスタマイズしてご活用ください。アップデートが利用可能です。</translation>
+<translation id="6096348254544841612">tomi をカスタマイズしてご活用ください。アップデートが利用可能です。</translation>
 <translation id="6102072151902574948">オンにすると、バックグラウンド アクティビティと視覚効果（滑らかなスクロールや動画のフレームレートなど）を制限することで、バッテリーを節約します。</translation>
-<translation id="6107893135096467929">オン • Decentr では、この拡張機能の提供元を確認できません</translation>
-<translation id="6119438414301547735">拡張機能に Decentr ツールバーへのアクセス リクエストの表示を許可する</translation>
-<translation id="6120345080069858279">このパスワードは Decentr アカウントに保存されるため、覚えておく必要はありません。</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> は危険なファイルであるため、Decentr でブロックしました。</translation>
-<translation id="6132897690380286411">Decentr はまもなく終了し、データが削除されます</translation>
-<translation id="6134968993075716475">セーフ ブラウジングがオフになっています。Decentr はオンにすることをおすすめしています。</translation>
-<translation id="6145820983052037069">こちらで Decentr プロフィールを切り替えることができます</translation>
-<translation id="615103374448673771">Cookie を許可した場合、Decentr はプリロードの際に Cookie を使用することがあります。</translation>
-<translation id="6174920971222007286">このファイルは危険な可能性があります<ph name="LINE_BREAK" />パスワードを入力すると、Decentr でダウンロードを確認します。ファイルに関する情報は Decentr セーフ ブラウジングに送信されますが、ファイルのコンテンツとパスワードはデバイスで保持されます。</translation>
+<translation id="6107893135096467929">オン • tomi では、この拡張機能の提供元を確認できません</translation>
+<translation id="6119438414301547735">拡張機能に tomi ツールバーへのアクセス リクエストの表示を許可する</translation>
+<translation id="6120345080069858279">このパスワードは tomi アカウントに保存されるため、覚えておく必要はありません。</translation>
+<translation id="6129621093834146363"><ph name="FILE_NAME" /> は危険なファイルであるため、tomi でブロックしました。</translation>
+<translation id="6132897690380286411">tomi はまもなく終了し、データが削除されます</translation>
+<translation id="6134968993075716475">セーフ ブラウジングがオフになっています。tomi はオンにすることをおすすめしています。</translation>
+<translation id="6145820983052037069">こちらで tomi プロフィールを切り替えることができます</translation>
+<translation id="615103374448673771">Cookie を許可した場合、tomi はプリロードの際に Cookie を使用することがあります。</translation>
+<translation id="6174920971222007286">このファイルは危険な可能性があります<ph name="LINE_BREAK" />パスワードを入力すると、tomi でダウンロードを確認します。ファイルに関する情報は tomi セーフ ブラウジングに送信されますが、ファイルのコンテンツとパスワードはデバイスで保持されます。</translation>
 <translation id="6182736845697986886">更新サーバーの内部エラーが発生したため、インストールできませんでした。</translation>
-<translation id="6183079672144801177"><ph name="TARGET_DEVICE_NAME" /> で Decentr にログインしていることを確認してから、もう一度送信してください。</translation>
-<translation id="6212496753309875659">新しいバージョンの Decentr が既にインストールされています。ソフトウェアが動作しない場合は、Decentr をアンインストールしてからもう一度お試しください。</translation>
-<translation id="6219195342503754812">{0,plural, =0{Decentr は今すぐ再起動されます}=1{Decentr は 1 秒後に再起動されます}other{Decentr は # 秒後に再起動されます}}</translation>
-<translation id="6241367896540709610">ファイルをダウンロードするには、Decentr でストレージへのアクセスを許可する必要があります</translation>
-<translation id="6245734527075554892">Decentr に保存されている安全でないサイトのリストと URL を照合します</translation>
-<translation id="6248213926982192922">Decentr を既定のブラウザにする</translation>
-<translation id="6266342355635466082">Decentr がアップデートを確認できません。インターネット接続を確認してみてください。</translation>
-<translation id="6268381023930128611">Decentr からログアウトしますか？</translation>
-<translation id="6270547683008298381">これらのタブでは追加のリソースが使用されています。パフォーマンスを改善するには、Decentr でこれらのタブを非アクティブにしてください。</translation>
-<translation id="6281746429495226318">Decentr プロフィールをカスタマイズ</translation>
-<translation id="6290827346642914212">Decentr プロフィールの名前を設定</translation>
-<translation id="6294831894865512704">拡張機能が Decentr へのログインを求めています</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> は危険なファイルの可能性があるため、Decentr でブロックしました。</translation>
-<translation id="6309712487085796862">Decentr がカメラを使用しています。</translation>
+<translation id="6183079672144801177"><ph name="TARGET_DEVICE_NAME" /> で tomi にログインしていることを確認してから、もう一度送信してください。</translation>
+<translation id="6212496753309875659">新しいバージョンの tomi が既にインストールされています。ソフトウェアが動作しない場合は、tomi をアンインストールしてからもう一度お試しください。</translation>
+<translation id="6219195342503754812">{0,plural, =0{tomi は今すぐ再起動されます}=1{tomi は 1 秒後に再起動されます}other{tomi は # 秒後に再起動されます}}</translation>
+<translation id="6241367896540709610">ファイルをダウンロードするには、tomi でストレージへのアクセスを許可する必要があります</translation>
+<translation id="6245734527075554892">tomi に保存されている安全でないサイトのリストと URL を照合します</translation>
+<translation id="6248213926982192922">tomi を既定のブラウザにする</translation>
+<translation id="6266342355635466082">tomi がアップデートを確認できません。インターネット接続を確認してみてください。</translation>
+<translation id="6268381023930128611">tomi からログアウトしますか？</translation>
+<translation id="6270547683008298381">これらのタブでは追加のリソースが使用されています。パフォーマンスを改善するには、tomi でこれらのタブを非アクティブにしてください。</translation>
+<translation id="6281746429495226318">tomi プロフィールをカスタマイズ</translation>
+<translation id="6290827346642914212">tomi プロフィールの名前を設定</translation>
+<translation id="6294831894865512704">拡張機能が tomi へのログインを求めています</translation>
+<translation id="6295779123002464101"><ph name="FILE_NAME" /> は危険なファイルの可能性があるため、tomi でブロックしました。</translation>
+<translation id="6309712487085796862">tomi がカメラを使用しています。</translation>
 <translation id="6327105987658262776">利用できるアップデートはありません。</translation>
-<translation id="6333502561965082103">Decentr で別の処理が行われています。しばらくしてからもう一度お試しください。</translation>
-<translation id="6334986366598267305">共有パソコンの Decentr で Decentr アカウントが簡単に使用できるようになりました。</translation>
-<translation id="633626832589656416">Decentr では、これらのタブを非アクティブにして、ブラウジング環境を改善し、処理を高速に保つことができます。</translation>
-<translation id="6347933965114150440">Decentr のショートカット</translation>
-<translation id="6366160072964553914">このダウンロードは Decentr でブロックされました。ファイルが一般的にダウンロードされるものではなく、危害を及ぼす可能性があります</translation>
-<translation id="6373523479360886564">Decentr をアンインストールしてもよろしいですか？</translation>
+<translation id="6333502561965082103">tomi で別の処理が行われています。しばらくしてからもう一度お試しください。</translation>
+<translation id="6334986366598267305">共有パソコンの tomi で tomi アカウントが簡単に使用できるようになりました。</translation>
+<translation id="633626832589656416">tomi では、これらのタブを非アクティブにして、ブラウジング環境を改善し、処理を高速に保つことができます。</translation>
+<translation id="6347933965114150440">tomi のショートカット</translation>
+<translation id="6366160072964553914">このダウンロードは tomi でブロックされました。ファイルが一般的にダウンロードされるものではなく、危害を及ぼす可能性があります</translation>
+<translation id="6373523479360886564">tomi をアンインストールしてもよろしいですか？</translation>
 <translation id="6375219077595103062">パスワード マネージャーのショートカットを追加します</translation>
-<translation id="6384011394608460044"><ph name="BEGIN_BOLD" />このデータの利用方法:<ph name="END_BOLD" /> Decentr はユーザーの興味 / 関心を推定する場合があります。その後、アクセスしたサイトは、表示する広告をパーソナライズするために、Decentr にユーザーの興味 / 関心を提示するよう依頼できます。</translation>
-<translation id="6400112897226594999">パソコンの画面に表示された Decentr のロゴ。</translation>
-<translation id="6403826409255603130">Decentr は、ウェブページやアプリケーションを高速に実行できるスピードと、高い安定性を兼ね備えた非常に使いやすいウェブブラウザです。不正なソフトウェアやフィッシングに対する保護機能が組み込まれており、ウェブを安全にブラウジングできます。</translation>
-<translation id="6442900851116057561">Decentr OS を再起動してください</translation>
+<translation id="6384011394608460044"><ph name="BEGIN_BOLD" />このデータの利用方法:<ph name="END_BOLD" /> tomi はユーザーの興味 / 関心を推定する場合があります。その後、アクセスしたサイトは、表示する広告をパーソナライズするために、tomi にユーザーの興味 / 関心を提示するよう依頼できます。</translation>
+<translation id="6400112897226594999">パソコンの画面に表示された tomi のロゴ。</translation>
+<translation id="6403826409255603130">tomi は、ウェブページやアプリケーションを高速に実行できるスピードと、高い安定性を兼ね備えた非常に使いやすいウェブブラウザです。不正なソフトウェアやフィッシングに対する保護機能が組み込まれており、ウェブを安全にブラウジングできます。</translation>
+<translation id="6442900851116057561">tomi OS を再起動してください</translation>
 <translation id="6443470774889161065">アクセスする可能性の高いページがさらに多くプリロードされ、該当のページにアクセスしたときにページの読み込み速度が向上します。</translation>
-<translation id="645458117210240797">オフ • Decentr では、この拡張機能の提供元を確認できません</translation>
-<translation id="6455857529632101747">Decentr プロフィールへようこそ</translation>
-<translation id="6466344609055215035">Decentr からアカウントを削除</translation>
-<translation id="6475912303565314141">この拡張機能では、Decentr の起動時に表示されるページも制御されます。</translation>
+<translation id="645458117210240797">オフ • tomi では、この拡張機能の提供元を確認できません</translation>
+<translation id="6455857529632101747">tomi プロフィールへようこそ</translation>
+<translation id="6466344609055215035">tomi からアカウントを削除</translation>
+<translation id="6475912303565314141">この拡張機能では、tomi の起動時に表示されるページも制御されます。</translation>
 <translation id="648319183876919572">セーフ ブラウジング保護強化機能では、危険なウェブサイトやダウンロードから高いセキュリティ強度で保護されます</translation>
-<translation id="6510925080656968729">Decentr をアンインストール</translation>
-<translation id="651535675648445253">Decentr でショートカットを開く</translation>
-<translation id="6524389414524528185">Decentr にログイン中は、Decentr アカウントのパスワードやその他の設定を使用できます。これは設定でいつでも変更できます。</translation>
-<translation id="6539122709674868420"><ph name="TIMEOUT_DURATION" /> 使用しなかったため、Decentr は組織によって終了されます。閲覧データは削除されました。これには、履歴、自動入力、ダウンロードが含まれます。</translation>
-<translation id="6542839706527980775">Decentr の情報（ブックマーク、履歴、パスワードなど）はプロフィールごとに分けて保持されます</translation>
-<translation id="6563921047760808519"><ph name="BEGIN_LINK" />Decentr でユーザーデータのプライバシーを保護する方法<ph name="END_LINK" />についての詳細</translation>
-<translation id="656935081669708576">別の Decentr プロフィールに切り替えて、そのプロフィールのパスワードを表示できます</translation>
-<translation id="6570579332384693436">スペルミスを修正するために、テキスト欄に入力したテキストが Decentr から Decentr に送信されます</translation>
-<translation id="6598877126913850652">Decentr の通知設定に移動</translation>
-<translation id="6613594504749178791">変更内容は次に Decentr を再起動したときに有効になります。</translation>
-<translation id="665732753414869868">周囲の 3D マップを作成するには、Decentr にカメラの使用を許可する必要があります</translation>
-<translation id="6663852025006259149">サイトはおおむね想定どおりに機能しますが、Decentr のウィンドウをすべて閉じるとユーザーに関する情報は失われます</translation>
-<translation id="6669284030132180248">ブックマークを Decentr アカウントにも保存している場合は、Decentr で商品価格をトラッキングして、値下げがあったときに通知を受け取ることができます</translation>
+<translation id="6510925080656968729">tomi をアンインストール</translation>
+<translation id="651535675648445253">tomi でショートカットを開く</translation>
+<translation id="6524389414524528185">tomi にログイン中は、tomi アカウントのパスワードやその他の設定を使用できます。これは設定でいつでも変更できます。</translation>
+<translation id="6539122709674868420"><ph name="TIMEOUT_DURATION" /> 使用しなかったため、tomi は組織によって終了されます。閲覧データは削除されました。これには、履歴、自動入力、ダウンロードが含まれます。</translation>
+<translation id="6542839706527980775">tomi の情報（ブックマーク、履歴、パスワードなど）はプロフィールごとに分けて保持されます</translation>
+<translation id="6563921047760808519"><ph name="BEGIN_LINK" />tomi でユーザーデータのプライバシーを保護する方法<ph name="END_LINK" />についての詳細</translation>
+<translation id="656935081669708576">別の tomi プロフィールに切り替えて、そのプロフィールのパスワードを表示できます</translation>
+<translation id="6570579332384693436">スペルミスを修正するために、テキスト欄に入力したテキストが tomi から tomi に送信されます</translation>
+<translation id="6598877126913850652">tomi の通知設定に移動</translation>
+<translation id="6613594504749178791">変更内容は次に tomi を再起動したときに有効になります。</translation>
+<translation id="665732753414869868">周囲の 3D マップを作成するには、tomi にカメラの使用を許可する必要があります</translation>
+<translation id="6663852025006259149">サイトはおおむね想定どおりに機能しますが、tomi のウィンドウをすべて閉じるとユーザーに関する情報は失われます</translation>
+<translation id="6669284030132180248">ブックマークを tomi アカウントにも保存している場合は、tomi で商品価格をトラッキングして、値下げがあったときに通知を受け取ることができます</translation>
 <translation id="6676384891291319759">インターネットにアクセス</translation>
-<translation id="668175097507315160">ログイン時にエラーが発生したため、Decentr OS はデータを同期できませんでした。</translation>
-<translation id="6692797197837897398">Decentr では、表示される広告を細かく管理でき、サイトがパーソナライズド広告を表示する際にユーザーについて把握できる情報も制限されます</translation>
-<translation id="6709350901466051922">このサイトを利用するには、Decentr でマイクの使用を許可する必要があります</translation>
+<translation id="668175097507315160">ログイン時にエラーが発生したため、tomi OS はデータを同期できませんでした。</translation>
+<translation id="6692797197837897398">tomi では、表示される広告を細かく管理でき、サイトがパーソナライズド広告を表示する際にユーザーについて把握できる情報も制限されます</translation>
+<translation id="6709350901466051922">このサイトを利用するには、tomi でマイクの使用を許可する必要があります</translation>
 <translation id="6712881677154121168">ダウンロード エラー: <ph name="DOWNLOAD_ERROR" />。</translation>
-<translation id="6717134281241384636">バージョンが新しい Decentr のプロフィールは使用できません。
+<translation id="6717134281241384636">バージョンが新しい tomi のプロフィールは使用できません。
 
-一部の機能が利用できない可能性があります。別の場所のプロフィールを指定するか、新しいバージョンの Decentr をご使用ください。</translation>
-<translation id="6729124504294600478">パーソナライズなどの機能を利用するには、Decentr をウェブとアプリのアクティビティと、リンクされた Decentr サービスに追加します</translation>
-<translation id="6734291798041940871">Decentr は既にパソコンのすべてのユーザーに対してインストールされています。</translation>
-<translation id="673636774878526923">お使いのすべてのデバイスで Decentr の設定やデータを使用するには、ログインして同期を有効にしてください。</translation>
-<translation id="674245979920622322">最近アクセスしていないため、Decentr で <ph name="PERMISSION_1" />、<ph name="PERMISSION_2" />、他 <ph name="COUNT" /> 件の権限を削除しました</translation>
+一部の機能が利用できない可能性があります。別の場所のプロフィールを指定するか、新しいバージョンの tomi をご使用ください。</translation>
+<translation id="6729124504294600478">パーソナライズなどの機能を利用するには、tomi をウェブとアプリのアクティビティと、リンクされた tomi サービスに追加します</translation>
+<translation id="6734291798041940871">tomi は既にパソコンのすべてのユーザーに対してインストールされています。</translation>
+<translation id="673636774878526923">お使いのすべてのデバイスで tomi の設定やデータを使用するには、ログインして同期を有効にしてください。</translation>
+<translation id="674245979920622322">最近アクセスしていないため、tomi で <ph name="PERMISSION_1" />、<ph name="PERMISSION_2" />、他 <ph name="COUNT" /> 件の権限を削除しました</translation>
 <translation id="67706546131546258">このファイルは危害を及ぼす可能性があるため、スキャンすることをおすすめします。</translation>
-<translation id="6779406956731413166">Decentr OS は、追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
-<translation id="6847869444787758381">Decentr では、特定のパスワードが侵害された事実の有無がわかります</translation>
+<translation id="6779406956731413166">tomi OS は、追加の<ph name="BEGIN_LINK_CROS_OSS" />オープンソース ソフトウェア<ph name="END_LINK_CROS_OSS" />によって実現しました。</translation>
+<translation id="6847869444787758381">tomi では、特定のパスワードが侵害された事実の有無がわかります</translation>
 <translation id="684888714667046800">インターネットに接続できません。ファイアウォールを使用している場合は、<ph name="PRODUCT_EXE_NAME" /> が許可リストに含まれていることを確認してください。</translation>
-<translation id="6857782730669500492">Decentr - <ph name="PAGE_TITLE" /></translation>
-<translation id="6873893289264747459">Decentr で「<ph name="EXTENSION_NAME" />」に不正なソフトウェアが含まれていることが検出されました</translation>
-<translation id="6929417474050522668">試用期間中の広告の測定により、アクセスしたサイトは、サイトが広告のパフォーマンスを測定する際に役立つ Decentr の情報をリクエストできます。広告の測定は、サイト間で転送する情報をできるだけ少なくすることで、クロスサイト トラッキングを制限します。</translation>
-<translation id="6940431691900807093">その後、アクセスしたサイトは、表示する広告をパーソナライズするために、Decentr にユーザーの興味 / 関心を提示するよう依頼できます。Decentr では、興味 / 関心を 3 つまで共有できます。</translation>
-<translation id="6964305034639999644">Decentr のシークレット ウインドウでリンクを開く(&amp;G)</translation>
-<translation id="6978145336957848883">脆弱なパスワードは簡単に推測されてしまいます。Decentr で<ph name="BEGIN_LINK" />安全性の高いパスワードを自動生成して保存する<ph name="END_LINK" />ことができます。</translation>
-<translation id="6981396265751285733">オンにすると、アクティブでないタブのメモリを解放します。これにより、アクティブなタブや他のアプリで利用できるコンピュータ リソースが増え、Decentr の速度低下を抑えられます。アクティブでないタブは、再度アクセスすると自動的にアクティブになります。</translation>
-<translation id="6985329841647292029">Decentr OS 利用規約</translation>
-<translation id="6990124437352146030">このサイトを利用するには、Decentr でマイクの使用を許可する必要があります</translation>
+<translation id="6857782730669500492">tomi - <ph name="PAGE_TITLE" /></translation>
+<translation id="6873893289264747459">tomi で「<ph name="EXTENSION_NAME" />」に不正なソフトウェアが含まれていることが検出されました</translation>
+<translation id="6929417474050522668">試用期間中の広告の測定により、アクセスしたサイトは、サイトが広告のパフォーマンスを測定する際に役立つ tomi の情報をリクエストできます。広告の測定は、サイト間で転送する情報をできるだけ少なくすることで、クロスサイト トラッキングを制限します。</translation>
+<translation id="6940431691900807093">その後、アクセスしたサイトは、表示する広告をパーソナライズするために、tomi にユーザーの興味 / 関心を提示するよう依頼できます。tomi では、興味 / 関心を 3 つまで共有できます。</translation>
+<translation id="6964305034639999644">tomi のシークレット ウインドウでリンクを開く(&amp;G)</translation>
+<translation id="6978145336957848883">脆弱なパスワードは簡単に推測されてしまいます。tomi で<ph name="BEGIN_LINK" />安全性の高いパスワードを自動生成して保存する<ph name="END_LINK" />ことができます。</translation>
+<translation id="6981396265751285733">オンにすると、アクティブでないタブのメモリを解放します。これにより、アクティブなタブや他のアプリで利用できるコンピュータ リソースが増え、tomi の速度低下を抑えられます。アクティブでないタブは、再度アクセスすると自動的にアクティブになります。</translation>
+<translation id="6985329841647292029">tomi OS 利用規約</translation>
+<translation id="6990124437352146030">このサイトを利用するには、tomi でマイクの使用を許可する必要があります</translation>
 <translation id="7011190694940573312">このバージョンのオペレーティング システムはサポートされていないため、インストールできませんでした。</translation>
 <translation id="7024536598735240744">解凍エラー: <ph name="UNPACK_ERROR" />。</translation>
 <translation id="7025789849649390912">インストールが停止しました。</translation>
-<translation id="7045244423563602563">Decentr を独自にカスタマイズ</translation>
-<translation id="705851970750939768">Decentr を更新</translation>
-<translation id="7067091210845072982">画像に有効な説明が設定されていない場合に、Decentr で説明を自動的に生成できるよう Decentr に画像が送信されます。</translation>
-<translation id="7141270731789036260">Decentr for Testing をカスタマイズ</translation>
-<translation id="7163519456498498587">Decentr から <ph name="EXTENSION_NAME" /> を削除</translation>
-<translation id="7173822816570314652"><ph name="TIMEOUT_DURATION" /> 使用しなかったため、Decentr のデータは組織によって削除されます。これには、履歴、自動入力、ダウンロードが含まれます。</translation>
-<translation id="718435575166326686">このサイトを利用するには、Decentr でカメラの使用を許可する必要があります</translation>
-<translation id="7196312274710523067">Decentr を起動できませんでした。もう一度お試しください。</translation>
-<translation id="7197677400338048821">Decentr でパスワードを確認できません。24 時間後にもう一度お試しください。</translation>
-<translation id="7213407614656404070">メッセージ、ドキュメント、他のアプリのリンクをクリックしたときに、常に Decentr で開くよう設定できます</translation>
-<translation id="7223968959479464213">タスク マネージャ - Decentr</translation>
-<translation id="7246575524853130370">Decentr が推定したお客様の興味 / 関心</translation>
+<translation id="7045244423563602563">tomi を独自にカスタマイズ</translation>
+<translation id="705851970750939768">tomi を更新</translation>
+<translation id="7067091210845072982">画像に有効な説明が設定されていない場合に、tomi で説明を自動的に生成できるよう tomi に画像が送信されます。</translation>
+<translation id="7141270731789036260">tomi for Testing をカスタマイズ</translation>
+<translation id="7163519456498498587">tomi から <ph name="EXTENSION_NAME" /> を削除</translation>
+<translation id="7173822816570314652"><ph name="TIMEOUT_DURATION" /> 使用しなかったため、tomi のデータは組織によって削除されます。これには、履歴、自動入力、ダウンロードが含まれます。</translation>
+<translation id="718435575166326686">このサイトを利用するには、tomi でカメラの使用を許可する必要があります</translation>
+<translation id="7196312274710523067">tomi を起動できませんでした。もう一度お試しください。</translation>
+<translation id="7197677400338048821">tomi でパスワードを確認できません。24 時間後にもう一度お試しください。</translation>
+<translation id="7213407614656404070">メッセージ、ドキュメント、他のアプリのリンクをクリックしたときに、常に tomi で開くよう設定できます</translation>
+<translation id="7223968959479464213">タスク マネージャ - tomi</translation>
+<translation id="7246575524853130370">tomi が推定したお客様の興味 / 関心</translation>
 <translation id="7295544978856094497">{NUM_EXTENSIONS,plural, =1{削除することをおすすめします}other{削除することをおすすめします}}</translation>
-<translation id="7309928523159922338">広告の測定により、アクセスしたサイトは、サイトが広告のパフォーマンスを測定する際に役立つ Decentr の情報をリクエストできます。広告の測定は、サイト間で転送する情報をできるだけ少なくすることで、クロスサイト トラッキングを制限します。</translation>
-<translation id="731795002583552498">Decentr を更新しています</translation>
+<translation id="7309928523159922338">広告の測定により、アクセスしたサイトは、サイトが広告のパフォーマンスを測定する際に役立つ tomi の情報をリクエストできます。広告の測定は、サイト間で転送する情報をできるだけ少なくすることで、クロスサイト トラッキングを制限します。</translation>
+<translation id="731795002583552498">tomi を更新しています</translation>
 <translation id="7318036098707714271">ユーザー設定ファイルが壊れているか無効です。
 
 設定を復元できません。</translation>
 <translation id="7339898014177206373">新しいウィンドウ</translation>
-<translation id="734373864078049451">ウェブ、ブックマーク、その他の Decentr データを好みに設定できます。</translation>
-<translation id="7349591376906416160">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに <ph name="ALTERNATIVE_BROWSER_NAME" /> を開くよう Decentr を設定しています。</translation>
-<translation id="7355355292030546812">このダウンロードは Decentr でブロックされました。ファイルが個人アカウントやソーシャル ネットワークのアカウント（<ph name="USER_EMAIL" /> など）に危害を及ぼす可能性があります</translation>
+<translation id="734373864078049451">ウェブ、ブックマーク、その他の tomi データを好みに設定できます。</translation>
+<translation id="7349591376906416160">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに <ph name="ALTERNATIVE_BROWSER_NAME" /> を開くよう tomi を設定しています。</translation>
+<translation id="7355355292030546812">このダウンロードは tomi でブロックされました。ファイルが個人アカウントやソーシャル ネットワークのアカウント（<ph name="USER_EMAIL" /> など）に危害を及ぼす可能性があります</translation>
 <translation id="7384121030444253939">この拡張機能は現在サポートされていません。代わりに削除することをおすすめします。</translation>
-<translation id="7398989605938454041">Decentr プロフィールを使うと、Decentr のあらゆる項目や設定を個別に管理できます。これにより、仕事と遊びの使い分けが簡単になります。</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
-<translation id="7451052299415159299">このサイトを利用するには、Decentr でカメラの使用を許可する必要があります</translation>
-<translation id="7458892263350425044">マイクを使用するには、<ph name="BEGIN_LINK" />システム設定<ph name="END_LINK" />で Decentr にアクセスを許可してください</translation>
-<translation id="7461356015007898716">今後、Decentr のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 7 が実行されています。</translation>
-<translation id="7467949745582939695">Decentr を再起動しますか？</translation>
-<translation id="7483335560992089831">実行中の Decentr と同じバージョンをインストールすることはできません。Decentr を閉じてからもう一度お試しください。</translation>
-<translation id="751935028865900641">ほとんどの場合、サイトは適切に機能します。Decentr のウィンドウをすべて閉じると、ほとんどのサイトからログアウトします。ただし Decentr にログインしている場合、Decentr アカウントからはログアウトしません。</translation>
-<translation id="753534427205733210">{0,plural, =1{Decentr は 1 分後に再起動されます}other{Decentr は # 分後に再起動されます}}</translation>
-<translation id="7553334751796114046">ウィンドウを共有するには、[システム環境設定] で Decentr に画面の録画を許可してください</translation>
-<translation id="7582945390259497898">Decentr はユーザーの興味 / 関心を推定する場合があります。その後、アクセスしたサイトは、表示する広告をパーソナライズするために、Decentr にユーザーの興味 / 関心を提示するよう依頼できます。</translation>
+<translation id="7398989605938454041">tomi プロフィールを使うと、tomi のあらゆる項目や設定を個別に管理できます。これにより、仕事と遊びの使い分けが簡単になります。</translation>
+<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - tomi Dev</translation>
+<translation id="7451052299415159299">このサイトを利用するには、tomi でカメラの使用を許可する必要があります</translation>
+<translation id="7458892263350425044">マイクを使用するには、<ph name="BEGIN_LINK" />システム設定<ph name="END_LINK" />で tomi にアクセスを許可してください</translation>
+<translation id="7461356015007898716">今後、tomi のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 7 が実行されています。</translation>
+<translation id="7467949745582939695">tomi を再起動しますか？</translation>
+<translation id="7483335560992089831">実行中の tomi と同じバージョンをインストールすることはできません。tomi を閉じてからもう一度お試しください。</translation>
+<translation id="751935028865900641">ほとんどの場合、サイトは適切に機能します。tomi のウィンドウをすべて閉じると、ほとんどのサイトからログアウトします。ただし tomi にログインしている場合、tomi アカウントからはログアウトしません。</translation>
+<translation id="753534427205733210">{0,plural, =1{tomi は 1 分後に再起動されます}other{tomi は # 分後に再起動されます}}</translation>
+<translation id="7553334751796114046">ウィンドウを共有するには、[システム環境設定] で tomi に画面の録画を許可してください</translation>
+<translation id="7582945390259497898">tomi はユーザーの興味 / 関心を推定する場合があります。その後、アクセスしたサイトは、表示する広告をパーソナライズするために、tomi にユーザーの興味 / 関心を提示するよう依頼できます。</translation>
 <translation id="7583399374488819119"><ph name="COMPANY_NAME" /> インストーラ</translation>
-<translation id="7585391435984513350">最近アクセスしていないため、Decentr で <ph name="PERMISSION" /> の権限を削除しました</translation>
-<translation id="761356813943268536">Decentr がカメラとマイクを使用しています。</translation>
-<translation id="7617377681829253106">進化する Decentr</translation>
+<translation id="7585391435984513350">最近アクセスしていないため、tomi で <ph name="PERMISSION" /> の権限を削除しました</translation>
+<translation id="761356813943268536">tomi がカメラとマイクを使用しています。</translation>
+<translation id="7617377681829253106">進化する tomi</translation>
 <translation id="7649070708921625228">ヘルプ</translation>
-<translation id="7682213815243802460">これらの機能について詳しくは、Decentr の設定をご覧ください。</translation>
-<translation id="7686590090926151193">Decentr はデフォルトのブラウザとして設定されていません</translation>
-<translation id="7689606757190482937">同期してカスタマイズした Decentr をどのデバイスでも使用できます</translation>
-<translation id="7699779824407626136">Decentr の更新</translation>
-<translation id="7745317241717453663">このデバイスから閲覧データを削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として Decentr にログインしてください。</translation>
+<translation id="7682213815243802460">これらの機能について詳しくは、tomi の設定をご覧ください。</translation>
+<translation id="7686590090926151193">tomi はデフォルトのブラウザとして設定されていません</translation>
+<translation id="7689606757190482937">同期してカスタマイズした tomi をどのデバイスでも使用できます</translation>
+<translation id="7699779824407626136">tomi の更新</translation>
+<translation id="7745317241717453663">このデバイスから閲覧データを削除します。後でデータを取得するには、<ph name="USER_EMAIL" /> として tomi にログインしてください。</translation>
 <translation id="7747138024166251722">インストーラーの一時ディレクトリを作成できませんでした。ディスクの空き領域とソフトウェアのインストール許可があることを確認してください。</translation>
-<translation id="7786760609782648049">Decentr を高速化する</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - Decentr Canary</translation>
-<translation id="7803986347287457849">あなたのインターネット トラフィックにアクセスできるユーザーに、あなたがアクセスしたサイトを知られないようにします。Decentr では、安全な接続を使用して、DNS（ドメイン ネーム システム）でサイトの IP アドレスを検索します。</translation>
-<translation id="7828947555739565424">このアカウントの Decentr プロファイルは、このデバイスにすでに存在します</translation>
+<translation id="7786760609782648049">tomi を高速化する</translation>
+<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - tomi Canary</translation>
+<translation id="7803986347287457849">あなたのインターネット トラフィックにアクセスできるユーザーに、あなたがアクセスしたサイトを知られないようにします。tomi では、安全な接続を使用して、DNS（ドメイン ネーム システム）でサイトの IP アドレスを検索します。</translation>
+<translation id="7828947555739565424">このアカウントの tomi プロファイルは、このデバイスにすでに存在します</translation>
 <translation id="7845233973568007926">インストールいただきありがとうございます。<ph name="BUNDLE_NAME" /> を使用するにはコンピュータを再起動してください。</translation>
-<translation id="7859018312476869945">Decentr でアドレスバーや検索ボックスに入力を始めると、入力内容がデフォルトの検索エンジンに送信され、より関連性の高い検索候補が表示されます。シークレット モードの場合、この設定はオフになっています。</translation>
-<translation id="7867198900892795913">Decentr を最新版に更新できませんでした。新しい機能とセキュリティ修正は適用されていません。</translation>
+<translation id="7859018312476869945">tomi でアドレスバーや検索ボックスに入力を始めると、入力内容がデフォルトの検索エンジンに送信され、より関連性の高い検索候補が表示されます。シークレット モードの場合、この設定はオフになっています。</translation>
+<translation id="7867198900892795913">tomi を最新版に更新できませんでした。新しい機能とセキュリティ修正は適用されていません。</translation>
 <translation id="7872446069773932638">ダウンロードしています... 残り <ph name="SECONDS" /> 秒です</translation>
-<translation id="7877292582355102282"><ph name="BEGIN_BOLD" />データの管理方法:<ph name="END_BOLD" /> ユーザーのプライバシーを保護するため、4 週間以上経過したユーザーの興味 / 関心は自動削除されます。閲覧を続けていると、興味 / 関心がリストに再度表示される場合もあります。Decentr に認識してほしくない興味 / 関心は削除できます。</translation>
-<translation id="7888981273428720788">Decentr を既定として設定</translation>
+<translation id="7877292582355102282"><ph name="BEGIN_BOLD" />データの管理方法:<ph name="END_BOLD" /> ユーザーのプライバシーを保護するため、4 週間以上経過したユーザーの興味 / 関心は自動削除されます。閲覧を続けていると、興味 / 関心がリストに再度表示される場合もあります。tomi に認識してほしくない興味 / 関心は削除できます。</translation>
+<translation id="7888981273428720788">tomi を既定として設定</translation>
 <translation id="7934340546140346950">可能な場合に安全でない接続を HTTPS に自動的にアップグレードします</translation>
-<translation id="7937630085815544518">Decentr に <ph name="USER_EMAIL_ADDRESS" /> としてログインしていました。再度ログインするには同じアカウントを使用してください。</translation>
-<translation id="7975919845073681630">この Decentr はセカンダリ インストールのため、既定のブラウザには設定できません。</translation>
+<translation id="7937630085815544518">tomi に <ph name="USER_EMAIL_ADDRESS" /> としてログインしていました。再度ログインするには同じアカウントを使用してください。</translation>
+<translation id="7975919845073681630">この tomi はセカンダリ インストールのため、既定のブラウザには設定できません。</translation>
 <translation id="7997934263947464652">提供元不明の拡張機能、アプリ、テーマはデバイスに危害を及ぼす可能性があります。<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> で公開されているアイテムのみをインストールすることをおすすめします</translation>
-<translation id="8013436988911883588">Decentr にアクセスを許可すると、ウェブサイトからアクセスをリクエストできるようになります。</translation>
+<translation id="8013436988911883588">tomi にアクセスを許可すると、ウェブサイトからアクセスをリクエストできるようになります。</translation>
 <translation id="80471789339884597">インストールいただきありがとうございます。<ph name="BUNDLE_NAME" /> を使用するにはすべてのブラウザを再起動してください。</translation>
 <translation id="8086881907087796310">パソコンがハードウェアの最小要件を満たしていないため、インストールできませんでした。</translation>
-<translation id="8096472344908884505"><ph name="PAGE_TITLE" /> - Decentr for Testing</translation>
-<translation id="8105840573057009683">このサイトを利用するには、Decentr で位置情報の使用を許可する必要があります</translation>
-<translation id="8133124826068723441">ご使用のドメインでは同期を利用できないため、Decentr OS はデータを同期できませんでした。</translation>
+<translation id="8096472344908884505"><ph name="PAGE_TITLE" /> - tomi for Testing</translation>
+<translation id="8105840573057009683">このサイトを利用するには、tomi で位置情報の使用を許可する必要があります</translation>
+<translation id="8133124826068723441">ご使用のドメインでは同期を利用できないため、tomi OS はデータを同期できませんでした。</translation>
 <translation id="813913629614996137">初期化しています...</translation>
-<translation id="8166782796394721554">Decentr の JavaScript エンジンと WebAssembly エンジンで追加の保護機能を有効にする</translation>
-<translation id="81770708095080097">このファイルは危険なファイルであるため、Decentr でブロックしました。</translation>
-<translation id="8223363452568144035">カメラを使用するには、<ph name="BEGIN_LINK" />システム設定<ph name="END_LINK" />で Decentr にアクセスを許可してください</translation>
-<translation id="8232193495299001329">Decentr では、この拡張機能の提供元を確認できないため、安全でない可能性があります。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、Decentr からこの拡張機能を削除してください。</translation>
-<translation id="8248265253516264921">画像に有効な説明が設定されていない場合に、Decentr で説明を自動的に生成できるよう Decentr に画像が送信されます。この機能は設定でいつでも無効にできます。</translation>
-<translation id="8254601181414348851">新しいプロフィールで Decentr にログインしますか？</translation>
-<translation id="8266560134891435528">ログインしていないため、Decentr でパスワードを確認できません</translation>
-<translation id="8286943863733751221">安全でないサイトやダウンロードが見つかると <ph name="BEGIN_LINK" />Decentr が警告<ph name="END_LINK" />します</translation>
-<translation id="8318772038038596122"><ph name="TIMEOUT_DURATION" /> 使用しなかったため、Decentr は組織によって終了されます。</translation>
-<translation id="8330519371938183845">ログインすると、同期してカスタマイズした Decentr をどのデバイスでも使用できます</translation>
-<translation id="8340674089072921962">Decentr の前回の使用者は <ph name="USER_EMAIL_ADDRESS" /> です</translation>
-<translation id="8357820681460164151">お使いのすべてのデバイスで Decentr ブラウザの設定やデータを使用するには、ログインして同期を有効にしてください</translation>
-<translation id="8360718212975266891">今後、Decentr のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 8 が実行されています。</translation>
-<translation id="8370517070665726704">Copyright <ph name="YEAR" /> Decentr LLC. All rights reserved.</translation>
-<translation id="8372327902843331129">すべてのデバイスでパスワードやその他の設定を使用するには、Decentr にログインしてください。このパスワードは、ログイン後に Decentr アカウントに保存されます。</translation>
-<translation id="837460953767177950">その後、Decentr を再起動する必要があります。</translation>
+<translation id="8166782796394721554">tomi の JavaScript エンジンと WebAssembly エンジンで追加の保護機能を有効にする</translation>
+<translation id="81770708095080097">このファイルは危険なファイルであるため、tomi でブロックしました。</translation>
+<translation id="8223363452568144035">カメラを使用するには、<ph name="BEGIN_LINK" />システム設定<ph name="END_LINK" />で tomi にアクセスを許可してください</translation>
+<translation id="8232193495299001329">tomi では、この拡張機能の提供元を確認できないため、安全でない可能性があります。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、tomi からこの拡張機能を削除してください。</translation>
+<translation id="8248265253516264921">画像に有効な説明が設定されていない場合に、tomi で説明を自動的に生成できるよう tomi に画像が送信されます。この機能は設定でいつでも無効にできます。</translation>
+<translation id="8254601181414348851">新しいプロフィールで tomi にログインしますか？</translation>
+<translation id="8266560134891435528">ログインしていないため、tomi でパスワードを確認できません</translation>
+<translation id="8286943863733751221">安全でないサイトやダウンロードが見つかると <ph name="BEGIN_LINK" />tomi が警告<ph name="END_LINK" />します</translation>
+<translation id="8318772038038596122"><ph name="TIMEOUT_DURATION" /> 使用しなかったため、tomi は組織によって終了されます。</translation>
+<translation id="8330519371938183845">ログインすると、同期してカスタマイズした tomi をどのデバイスでも使用できます</translation>
+<translation id="8340674089072921962">tomi の前回の使用者は <ph name="USER_EMAIL_ADDRESS" /> です</translation>
+<translation id="8357820681460164151">お使いのすべてのデバイスで tomi ブラウザの設定やデータを使用するには、ログインして同期を有効にしてください</translation>
+<translation id="8360718212975266891">今後、tomi のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 8 が実行されています。</translation>
+<translation id="8370517070665726704">Copyright <ph name="YEAR" /> tomi LLC. All rights reserved.</translation>
+<translation id="8372327902843331129">すべてのデバイスでパスワードやその他の設定を使用するには、tomi にログインしてください。このパスワードは、ログイン後に tomi アカウントに保存されます。</translation>
+<translation id="837460953767177950">その後、tomi を再起動する必要があります。</translation>
 <translation id="8397248745433792218">削除することをおすすめします。<ph name="BEGIN_LINK" />サポートされている拡張機能の詳細<ph name="END_LINK" /></translation>
-<translation id="8401454788024434101">この拡張機能はデベロッパーが非公開にしており、安全でない可能性があります。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、Decentr からこの拡張機能を削除してください。</translation>
-<translation id="8417404458978023919">{0,plural, =1{1 日以内に Decentr を再起動してください}other{# 日以内に Decentr を再起動してください}}</translation>
-<translation id="8453117565092476964">インストーラ アーカイブが壊れているか無効です。Decentr をダウンロードし直してください。</translation>
-<translation id="8458614432758743027">Decentr のご利用には Windows 10 以上が必要です。</translation>
-<translation id="8463672209299734063">任意: 診断と使用状況のデータを Decentr に自動送信して、Decentr OS の機能とパフォーマンスの改善に協力する。</translation>
-<translation id="8493179195440786826">Decentr は古いバージョンです</translation>
-<translation id="8522801943730206384">パスワードを保存すると、Decentr による確認が可能になります</translation>
+<translation id="8401454788024434101">この拡張機能はデベロッパーが非公開にしており、安全でない可能性があります。アクセスしたサイトでユーザーデータ（個人情報を含む）が参照、変更されないように、tomi からこの拡張機能を削除してください。</translation>
+<translation id="8417404458978023919">{0,plural, =1{1 日以内に tomi を再起動してください}other{# 日以内に tomi を再起動してください}}</translation>
+<translation id="8453117565092476964">インストーラ アーカイブが壊れているか無効です。tomi をダウンロードし直してください。</translation>
+<translation id="8458614432758743027">tomi のご利用には Windows 10 以上が必要です。</translation>
+<translation id="8463672209299734063">任意: 診断と使用状況のデータを tomi に自動送信して、tomi OS の機能とパフォーマンスの改善に協力する。</translation>
+<translation id="8493179195440786826">tomi は古いバージョンです</translation>
+<translation id="8522801943730206384">パスワードを保存すると、tomi による確認が可能になります</translation>
 <translation id="8550334526674375523">この仕事用プロファイルは個人用プロファイルとは別に管理されます。</translation>
 <translation id="8555465886620020932">サービスエラー: <ph name="SERVICE_ERROR" />。</translation>
-<translation id="8568283329061645092">Decentr アカウントでログインすると、Decentr がパスワードを確認できます。</translation>
-<translation id="8576826849825683917">Decentr は複数の組織によって管理されています</translation>
-<translation id="8586442755830160949">Copyright <ph name="YEAR" /> The Decentr Authors. All rights reserved.</translation>
-<translation id="8608079656141766906"><ph name="BEGIN_BOLD" />このデータの利用方法:<ph name="END_BOLD" /> サイトでは、ユーザーの興味 / 関心に関する情報を Decentr に保存できます。たとえば、マラソン用のシューズを購入するためにあるサイトにアクセスすると、そのサイトでは「ランニング」をユーザーの興味 / 関心として定義する可能性があります。その後、別のサイトにアクセスして競技に登録しようとすると、そのサイトでは、ユーザーの興味 / 関心に基づいてランニング用シューズの広告が表示される場合があります。</translation>
-<translation id="8619360774459241877">Decentr を起動しています...</translation>
-<translation id="8621669128220841554">原因不明のエラーによりインストールに失敗しました。Decentr をもう一度ダウンロードしてください。</translation>
-<translation id="8648201657708811153">Decentr for Testing は、既定のブラウザには設定できません。</translation>
-<translation id="8697124171261953979">この拡張機能では、Decentr の起動時、またはアドレスバーからの検索時に表示されるページも制御されます。</translation>
+<translation id="8568283329061645092">tomi アカウントでログインすると、tomi がパスワードを確認できます。</translation>
+<translation id="8576826849825683917">tomi は複数の組織によって管理されています</translation>
+<translation id="8586442755830160949">Copyright <ph name="YEAR" /> The tomi Authors. All rights reserved.</translation>
+<translation id="8608079656141766906"><ph name="BEGIN_BOLD" />このデータの利用方法:<ph name="END_BOLD" /> サイトでは、ユーザーの興味 / 関心に関する情報を tomi に保存できます。たとえば、マラソン用のシューズを購入するためにあるサイトにアクセスすると、そのサイトでは「ランニング」をユーザーの興味 / 関心として定義する可能性があります。その後、別のサイトにアクセスして競技に登録しようとすると、そのサイトでは、ユーザーの興味 / 関心に基づいてランニング用シューズの広告が表示される場合があります。</translation>
+<translation id="8619360774459241877">tomi を起動しています...</translation>
+<translation id="8621669128220841554">原因不明のエラーによりインストールに失敗しました。tomi をもう一度ダウンロードしてください。</translation>
+<translation id="8648201657708811153">tomi for Testing は、既定のブラウザには設定できません。</translation>
+<translation id="8697124171261953979">この拡張機能では、tomi の起動時、またはアドレスバーからの検索時に表示されるページも制御されます。</translation>
 <translation id="8704119203788522458">自分好みに設定</translation>
-<translation id="8719993436687031146">Decentr にログインしますか？</translation>
+<translation id="8719993436687031146">tomi にログインしますか？</translation>
 <translation id="878572486461146056">インストール エラー: ネットワーク管理者により、インストールを許可しないというグループ ポリシーが適用されています: <ph name="INSTALL_ERROR" /></translation>
-<translation id="8796602469536043152">このサイトを利用するには、Decentr でカメラとマイクの使用を許可する必要があります</translation>
-<translation id="8818550178040858407">Decentr にログインしますか？</translation>
+<translation id="8796602469536043152">このサイトを利用するには、tomi でカメラとマイクの使用を許可する必要があります</translation>
+<translation id="8818550178040858407">tomi にログインしますか？</translation>
 <translation id="8826492472752484139">[パスワード マネージャー] をクリックする</translation>
-<translation id="8833697763442816810">Decentr OS システム</translation>
-<translation id="8846118132221683440"><ph name="BEGIN_BOLD" />使用されるデータ:<ph name="END_BOLD" /> 閲覧履歴（このデバイスで Decentr を使用してアクセスしたサイトの記録）。</translation>
+<translation id="8833697763442816810">tomi OS システム</translation>
+<translation id="8846118132221683440"><ph name="BEGIN_BOLD" />使用されるデータ:<ph name="END_BOLD" /> 閲覧履歴（このデバイスで tomi を使用してアクセスしたサイトの記録）。</translation>
 <translation id="8862326446509486874">権限が不十分なためシステムレベルのインストールができません。管理者権限でインストールしてください。</translation>
-<translation id="8880203542552872219">その場合は、Decentr に保存したパスワードを編集して、新しいパスワードと一致するようにしてください。</translation>
-<translation id="8907580949721785412">Decentr でパスワードを表示しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
-<translation id="8931379085695076764">Decentr は、過去数週間の閲覧履歴に基づいてユーザーの興味 / 関心を推定する場合があります。この情報はユーザーのデバイスに保存されます。</translation>
-<translation id="8941642502866065432">Decentr を更新できません</translation>
-<translation id="897581876605952338">Decentr Enterprise ロゴ</translation>
+<translation id="8880203542552872219">その場合は、tomi に保存したパスワードを編集して、新しいパスワードと一致するようにしてください。</translation>
+<translation id="8907580949721785412">tomi でパスワードを表示しようとしています。続行するには、Windows のパスワードを入力してください。</translation>
+<translation id="8931379085695076764">tomi は、過去数週間の閲覧履歴に基づいてユーザーの興味 / 関心を推定する場合があります。この情報はユーザーのデバイスに保存されます。</translation>
+<translation id="8941642502866065432">tomi を更新できません</translation>
+<translation id="897581876605952338">tomi Enterprise ロゴ</translation>
 <translation id="8986207147630327271">このブラウザに仕事用プロファイルを追加し、管理者がこの仕事用プロファイルのみを管理できるようにします。</translation>
-<translation id="8988036198400390003">Decentr プロファイルを管理</translation>
-<translation id="9019929317751753759">Decentr をより安全にご利用いただくために、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない次の拡張機能を無効にしました。これは知らないうちに追加された可能性があります。</translation>
-<translation id="9022552996538154597">Decentr にログイン</translation>
-<translation id="904366664621834601">このダウンロードは Decentr でブロックされました。アーカイブ ファイルに他のファイルが含まれており、マルウェアが隠されている可能性があります</translation>
-<translation id="9062666675513499497">他の Decentr サービスにログインしたときに Decentr にログインする</translation>
-<translation id="907832235989677238">Decentr にログインします。アカウントに今回だけログインする場合は、<ph name="GUEST_LINK_BEGIN" />デバイスをゲストとして使用<ph name="GUEST_LINK_END" />できます。</translation>
-<translation id="9078733879136747090">Decentr は自動的に終了しました</translation>
-<translation id="9089354809943900324">Decentr は古いバージョンです</translation>
-<translation id="9093206154853821181">{0,plural, =1{Decentr は 1 時間後に再起動されます}other{Decentr は # 時間後に再起動されます}}</translation>
-<translation id="9106612006984859720">今後、Decentr のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 8.1 が実行されています。</translation>
-<translation id="91086099826398415">新しい Decentr タブでリンクを開く(&amp;T)</translation>
+<translation id="8988036198400390003">tomi プロファイルを管理</translation>
+<translation id="9019929317751753759">tomi をより安全にご利用いただくために、<ph name="IDS_EXTENSION_WEB_STORE_TITLE" />で提供していない次の拡張機能を無効にしました。これは知らないうちに追加された可能性があります。</translation>
+<translation id="9022552996538154597">tomi にログイン</translation>
+<translation id="904366664621834601">このダウンロードは tomi でブロックされました。アーカイブ ファイルに他のファイルが含まれており、マルウェアが隠されている可能性があります</translation>
+<translation id="9062666675513499497">他の tomi サービスにログインしたときに tomi にログインする</translation>
+<translation id="907832235989677238">tomi にログインします。アカウントに今回だけログインする場合は、<ph name="GUEST_LINK_BEGIN" />デバイスをゲストとして使用<ph name="GUEST_LINK_END" />できます。</translation>
+<translation id="9078733879136747090">tomi は自動的に終了しました</translation>
+<translation id="9089354809943900324">tomi は古いバージョンです</translation>
+<translation id="9093206154853821181">{0,plural, =1{tomi は 1 時間後に再起動されます}other{tomi は # 時間後に再起動されます}}</translation>
+<translation id="9106612006984859720">今後、tomi のアップデートを受信するには、Windows 10 以降が必要となります。このパソコンでは Windows 8.1 が実行されています。</translation>
+<translation id="91086099826398415">新しい tomi タブでリンクを開く(&amp;T)</translation>
 <translation id="911206726377975832">閲覧データも削除しますか？</translation>
-<translation id="9144490074902256427">テスト期間中、サイトでの広告表示に使用される興味 / 関心のトピックを表示、削除できます。Decentr では最近の閲覧履歴に基づいてユーザーの興味 / 関心を推定します。</translation>
-<translation id="9158494823179993217">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに代替ブラウザを開くよう Decentr を設定しています。</translation>
-<translation id="9185526690718004400">再起動して Decentr を更新(&amp;C)</translation>
-<translation id="9190841055450128916">Decentr（mDNS インバウンド）</translation>
-<translation id="924957577793602335">Decentr を独自にカスタマイズ</translation>
-<translation id="93478295209880648">Windows XP と Windows Vista はサポートされなくなったため、Decentr は正常に機能しない可能性があります</translation>
-<translation id="942598560705308788">Decentr で管理されている証明書</translation>
-<translation id="965162752251293939">Decentr はどなたが使用しますか？</translation>
-<translation id="967427899662692980">Decentr の最高のセキュリティ強度で保護</translation>
+<translation id="9144490074902256427">テスト期間中、サイトでの広告表示に使用される興味 / 関心のトピックを表示、削除できます。tomi では最近の閲覧履歴に基づいてユーザーの興味 / 関心を推定します。</translation>
+<translation id="9158494823179993217">システム管理者が、<ph name="TARGET_URL_HOSTNAME" /> へのアクセスに代替ブラウザを開くよう tomi を設定しています。</translation>
+<translation id="9185526690718004400">再起動して tomi を更新(&amp;C)</translation>
+<translation id="9190841055450128916">tomi（mDNS インバウンド）</translation>
+<translation id="924957577793602335">tomi を独自にカスタマイズ</translation>
+<translation id="93478295209880648">Windows XP と Windows Vista はサポートされなくなったため、tomi は正常に機能しない可能性があります</translation>
+<translation id="942598560705308788">tomi で管理されている証明書</translation>
+<translation id="965162752251293939">tomi はどなたが使用しますか？</translation>
+<translation id="967427899662692980">tomi の最高のセキュリティ強度で保護</translation>
 <translation id="983803489796659991">更新サーバーにアプリケーションのハッシュデータがないため、インストールできませんでした。</translation>
-<translation id="985498048907240953">アカウントなしで Decentr を使用する</translation>
-<translation id="985602178874221306">Decentr 開発者</translation>
-<translation id="992780518932311116">位置情報を使用するには、<ph name="BEGIN_LINK" />システム設定<ph name="END_LINK" />で Decentr にアクセスを許可してください</translation>
+<translation id="985498048907240953">アカウントなしで tomi を使用する</translation>
+<translation id="985602178874221306">tomi 開発者</translation>
+<translation id="992780518932311116">位置情報を使用するには、<ph name="BEGIN_LINK" />システム設定<ph name="END_LINK" />で tomi にアクセスを許可してください</translation>
 </translationbundle>

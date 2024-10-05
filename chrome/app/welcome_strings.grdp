@@ -22,17 +22,17 @@
   <message name="IDS_WELCOME_BOOKMARKS_REMOVED" desc="String read for accessibility to inform the user that several bookmarks were removed.">
     Bookmarks removed
   </message>
-  <message name="IDS_DEFAULT_BROWSER_CHANGED" desc="text notifying users that their default browser is successfully changed to Decentr">
-    Decentr is your default browser
+  <message name="IDS_DEFAULT_BROWSER_CHANGED" desc="text notifying users that their default browser is successfully changed to tomi">
+    tomi is your default browser
   </message>
 
-  <!-- Decentr apps selection module -->
-  <message name="IDS_WELCOME_GOOGLE_APPS_DESCRIPTION" desc="Description of what this section does in the welcome workflow. This section lets a user bookmark popular Decentr apps.">
-    Add bookmarks to your favorite Decentr Apps
+  <!-- tomi apps selection module -->
+  <message name="IDS_WELCOME_GOOGLE_APPS_DESCRIPTION" desc="Description of what this section does in the welcome workflow. This section lets a user bookmark popular tomi apps.">
+    Add bookmarks to your favorite tomi Apps
   </message>
   <if expr="_google_chrome">
     <message name="IDS_WELCOME_GOOGLE_SEARCH" desc="Label for a button that creates a bookmark to google.com, this should be the name of the brand.">
-      Decentr
+      tomi
     </message>
   </if>
   <message name="IDS_WELCOME_GOOGLE_GMAIL" desc="Label for a button that creates a bookmark to gmail.com, this should be the name of the brand.">
@@ -84,28 +84,28 @@
   </message>
 
   <!-- set default module -->
-  <message name="IDS_WELCOME_SET_AS_DEFAULT_HEADER" desc="Header for the page that prompts user to set Decentr as their default browser.">
-    Set Decentr as your default browser
+  <message name="IDS_WELCOME_SET_AS_DEFAULT_HEADER" desc="Header for the page that prompts user to set tomi as their default browser.">
+    Set tomi as your default browser
   </message>
-  <message name="IDS_WELCOME_SET_AS_DEFAULT_SUB_HEADER" desc="Sub-header for the page that prompts user to set Decentr as their default browser.">
-    Get Decentr Search and Decentr smarts everytime you browse
+  <message name="IDS_WELCOME_SET_AS_DEFAULT_SUB_HEADER" desc="Sub-header for the page that prompts user to set tomi as their default browser.">
+    Get tomi Search and tomi smarts everytime you browse
   </message>
-  <message name="IDS_WELCOME_SET_AS_DEFAULT_SET_AS_DEFAULT" desc="The label for a button to confirm setting Decentr as their default browser.">
+  <message name="IDS_WELCOME_SET_AS_DEFAULT_SET_AS_DEFAULT" desc="The label for a button to confirm setting tomi as their default browser.">
     Set as default
   </message>
 
   <!-- Landing view -->
-  <message name="IDS_WELCOME_LANDING_TITLE" desc="Title for the page that prompts user to start setting up their new Decentr.">
-    Make Decentr your own
+  <message name="IDS_WELCOME_LANDING_TITLE" desc="Title for the page that prompts user to start setting up their new tomi.">
+    Make tomi your own
   </message>
-  <message name="IDS_WELCOME_LANDING_DESCRIPTION" desc="Description for the page that prompts user to start setting up their new Decentr.">
+  <message name="IDS_WELCOME_LANDING_DESCRIPTION" desc="Description for the page that prompts user to start setting up their new tomi.">
     Set up your browser in a few simple steps
   </message>
-  <message name="IDS_WELCOME_LANDING_NEW_USER" desc="Label for a button that prompts new users to start setting up their new Decentr.">
+  <message name="IDS_WELCOME_LANDING_NEW_USER" desc="Label for a button that prompts new users to start setting up their new tomi.">
     Get Started
   </message>
   <message name="IDS_WELCOME_LANDING_EXISTING_USER" desc="Label for a button that prompts existing users to sign in.">
-    Already a Decentr user? Sign in
+    Already a tomi user? Sign in
   </message>
   <message name="IDS_WELCOME_LANDING_PAUSE_ANIMATIONS" desc="Label for a button that pauses all animations on the page.">
     Pause animations
@@ -116,7 +116,7 @@
 
   <!-- Sign-in view -->
   <message name="IDS_WELCOME_SIGNIN_VIEW_HEADER" desc="Header for the page that prompts user to sign in to chrome.">
-    Your Decentr, Everywhere
+    Your tomi, Everywhere
   </message>
   <message name="IDS_WELCOME_SIGNIN_VIEW_SUB_HEADER" desc="Sub-header for the page that prompts user to sign in to chrome.">
     Sign in and turn on sync to get your bookmarks, passwords and more on all devices

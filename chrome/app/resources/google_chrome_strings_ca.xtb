@@ -1,601 +1,601 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ca">
-<translation id="1001534784610492198">El fitxer d'instal·lació està malmès o no és vàlid. Torna a baixar Decentr.</translation>
+<translation id="1001534784610492198">El fitxer d'instal·lació està malmès o no és vàlid. Torna a baixar tomi.</translation>
 <translation id="1026101648481255140">Reprèn la instal·lació</translation>
-<translation id="102763973188675173">Personalitza i controla Decentr Decentr. Hi ha una actualització disponible.</translation>
-<translation id="1028061813283459617">Per suprimir les dades de navegació només d'aquest dispositiu i conservar-les al teu Compte de Decentr, <ph name="BEGIN_LINK" />tanca la sessió de Decentr<ph name="END_LINK" />.</translation>
-<translation id="1042270987544905725">Fes clic per tancar el quadre de diàleg d'inici de sessió de Decentr</translation>
-<translation id="1059838145689930908">Per utilitzar aquesta extensió com a <ph name="USER_EMAIL_ADDRESS" />, inicia la sessió a Decentr.</translation>
+<translation id="102763973188675173">Personalitza i controla tomi tomi. Hi ha una actualització disponible.</translation>
+<translation id="1028061813283459617">Per suprimir les dades de navegació només d'aquest dispositiu i conservar-les al teu Compte de tomi, <ph name="BEGIN_LINK" />tanca la sessió de tomi<ph name="END_LINK" />.</translation>
+<translation id="1042270987544905725">Fes clic per tancar el quadre de diàleg d'inici de sessió de tomi</translation>
+<translation id="1059838145689930908">Per utilitzar aquesta extensió com a <ph name="USER_EMAIL_ADDRESS" />, inicia la sessió a tomi.</translation>
 <translation id="1065672644894730302">No es poden llegir les vostres preferències. És possible que algunes funcions no estiguin disponibles i que els canvis a les preferències no es desin.</translation>
-<translation id="1088300314857992706"><ph name="USER_EMAIL_ADDRESS" /> abans utilitzava Decentr</translation>
-<translation id="110877069173485804">Aquest és el vostre Decentr</translation>
-<translation id="1125124144982679672">Qui està utilitzant Decentr?</translation>
-<translation id="1142745911746664600">Decentr no es pot actualitzar</translation>
-<translation id="1149651794389918149">Inicia la sessió a Decentr. Si vols iniciar la sessió en un compte només una vegada, pots <ph name="GUEST_LINK_BEGIN" />utilitzar el dispositiu com a convidat<ph name="GUEST_LINK_END" />.</translation>
-<translation id="1152920704813762236">Sobre DecentrOS</translation>
-<translation id="1154147086299354128">&amp;Obre a Decentr</translation>
+<translation id="1088300314857992706"><ph name="USER_EMAIL_ADDRESS" /> abans utilitzava tomi</translation>
+<translation id="110877069173485804">Aquest és el vostre tomi</translation>
+<translation id="1125124144982679672">Qui està utilitzant tomi?</translation>
+<translation id="1142745911746664600">tomi no es pot actualitzar</translation>
+<translation id="1149651794389918149">Inicia la sessió a tomi. Si vols iniciar la sessió en un compte només una vegada, pots <ph name="GUEST_LINK_BEGIN" />utilitzar el dispositiu com a convidat<ph name="GUEST_LINK_END" />.</translation>
+<translation id="1152920704813762236">Sobre tomiOS</translation>
+<translation id="1154147086299354128">&amp;Obre a tomi</translation>
 <translation id="1184145431117212167">La instal·lació ha fallat perquè la versió de Windows del dispositiu no s'admet.</translation>
-<translation id="1194807384646768652">Decentr ha bloquejat aquesta baixada perquè el tipus de fitxer no se sol baixar i pot ser perillós</translation>
+<translation id="1194807384646768652">tomi ha bloquejat aquesta baixada perquè el tipus de fitxer no se sol baixar i pot ser perillós</translation>
 <translation id="1203500561924088507">T'agraïm la instal·lació. Has de reiniciar el navegador abans d'utilitzar <ph name="BUNDLE_NAME" />.</translation>
-<translation id="1229096353876452996">Decentr recomana que Decentr es configuri com a navegador predeterminat</translation>
+<translation id="1229096353876452996">tomi recomana que tomi es configuri com a navegador predeterminat</translation>
 <translation id="1265739287306757398">Informació</translation>
-<translation id="1278833599417554002">Reinicia per actualitzar &amp;Decentr</translation>
+<translation id="1278833599417554002">Reinicia per actualitzar &amp;tomi</translation>
 <translation id="1290883685122687410">Error de configuració: <ph name="METAINSTALLER_EXIT_CODE" />. <ph name="WINDOWS_ERROR" /></translation>
-<translation id="1302523850133262269">Espereu mentre Decentr instal·la les actualitzacions més recents del sistema.</translation>
-<translation id="1335640173511558774"><ph name="MANAGER" /> requereix que llegeixis i acceptis les condicions del servei següents abans d'utilitzar el dispositiu. Aquestes condicions no amplien, modifiquen ni limiten les condicions de DecentrOS Flex.</translation>
-<translation id="1341711321000856656">Pots canviar de perfil per veure les contrasenyes d'un altre perfil de Decentr</translation>
-<translation id="1363996462118479832">Decentr OS no ha pogut sincronitzar les teves dades a causa d'un error en iniciar la sessió.</translation>
-<translation id="137466361146087520">Decentr Beta</translation>
-<translation id="1399397803214730675">Aquest equip ja disposa d'una versió més recent de Decentr. Si el programari no funciona, desinstal·leu Decentr i torneu-ho a provar.</translation>
-<translation id="139993653570221430">Si canvies d'opinió, pots modificar la configuració de Decentr en qualsevol moment. Com que les proves s'executen en paral·lel a la manera actual de difondre els anuncis, no veuràs els canvis de seguida.</translation>
-<translation id="1407223320754252908">El Traductor de Decentr està integrat a Decentr perquè puguis traduir contingut sempre que vulguis</translation>
-<translation id="1425903838053942728">{COUNT,plural, =0{Decentr s'ha acabat d'actualitzar. Pots utilitzar-ne la versió més recent tan bon punt reiniciïs Decentr. Després, es tornaran a obrir les pestanyes actuals.}=1{Decentr s'ha acabat d'actualitzar. Pots utilitzar-ne la versió més recent tan bon punt reiniciïs Decentr. Després, es tornaran a obrir les pestanyes actuals. La finestra d'incògnit no es tornarà a obrir.}other{Decentr s'ha acabat d'actualitzar. Pots utilitzar-ne la versió més recent tan bon punt reiniciïs Decentr. Després, es tornaran a obrir les pestanyes actuals. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
-<translation id="1434626383986940139">Aplicacions de Decentr Canary</translation>
-<translation id="146866447420868597">Vols iniciar la sessió a Decentr?</translation>
-<translation id="1492280395845991349">Reinicia per finalitzar l'actualització de Decentr</translation>
+<translation id="1302523850133262269">Espereu mentre tomi instal·la les actualitzacions més recents del sistema.</translation>
+<translation id="1335640173511558774"><ph name="MANAGER" /> requereix que llegeixis i acceptis les condicions del servei següents abans d'utilitzar el dispositiu. Aquestes condicions no amplien, modifiquen ni limiten les condicions de tomiOS Flex.</translation>
+<translation id="1341711321000856656">Pots canviar de perfil per veure les contrasenyes d'un altre perfil de tomi</translation>
+<translation id="1363996462118479832">tomi OS no ha pogut sincronitzar les teves dades a causa d'un error en iniciar la sessió.</translation>
+<translation id="137466361146087520">tomi Beta</translation>
+<translation id="1399397803214730675">Aquest equip ja disposa d'una versió més recent de tomi. Si el programari no funciona, desinstal·leu tomi i torneu-ho a provar.</translation>
+<translation id="139993653570221430">Si canvies d'opinió, pots modificar la configuració de tomi en qualsevol moment. Com que les proves s'executen en paral·lel a la manera actual de difondre els anuncis, no veuràs els canvis de seguida.</translation>
+<translation id="1407223320754252908">El Traductor de tomi està integrat a tomi perquè puguis traduir contingut sempre que vulguis</translation>
+<translation id="1425903838053942728">{COUNT,plural, =0{tomi s'ha acabat d'actualitzar. Pots utilitzar-ne la versió més recent tan bon punt reiniciïs tomi. Després, es tornaran a obrir les pestanyes actuals.}=1{tomi s'ha acabat d'actualitzar. Pots utilitzar-ne la versió més recent tan bon punt reiniciïs tomi. Després, es tornaran a obrir les pestanyes actuals. La finestra d'incògnit no es tornarà a obrir.}other{tomi s'ha acabat d'actualitzar. Pots utilitzar-ne la versió més recent tan bon punt reiniciïs tomi. Després, es tornaran a obrir les pestanyes actuals. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
+<translation id="1434626383986940139">Aplicacions de tomi Canary</translation>
+<translation id="146866447420868597">Vols iniciar la sessió a tomi?</translation>
+<translation id="1492280395845991349">Reinicia per finalitzar l'actualització de tomi</translation>
 <translation id="1497802159252041924">Error d'instal·lació: <ph name="INSTALL_ERROR" /></translation>
-<translation id="1507198376417198979">Personalitza el teu perfil de Decentr nou</translation>
-<translation id="1547295885616600893">Decentr OS és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure addicional<ph name="END_LINK_CROS_OSS" />.</translation>
-<translation id="1553358976309200471">Actualitza Decentr</translation>
-<translation id="1583073672411044740"><ph name="EXISTING_USER" /> ja té la sessió iniciada en aquest perfil de Decentr. Es crearà un perfil de Decentr nou per a <ph name="USER_EMAIL_ADDRESS" />.</translation>
-<translation id="1587223624401073077">Decentr està utilitzant la càmera.</translation>
-<translation id="1587325591171447154">Decentr ha bloquejat <ph name="FILE_NAME" /> perquè és perillós.</translation>
-<translation id="1597911401261118146">Per comprovar si les teves contrasenyes estan protegides contra violacions de les dades i contra altres problemes de seguretat, <ph name="BEGIN_LINK" />inicia la sessió a Decentr<ph name="END_LINK" />.</translation>
-<translation id="1619887657840448962">Per tal que Decentr sigui més segur, hem desactivat algunes de les extensions que no figuren a <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i que és possible que s'hagin afegit sense que ho sapigueu.</translation>
-<translation id="1627304841979541023"><ph name="BEGIN_BOLD" />Com pots gestionar les teves dades<ph name="END_BOLD" />: amb la finalitat de protegir la teva privadesa, suprimim automàticament els interessos que tenen més de 4 setmanes. A mesura que continuïs navegant, és possible que torni a aparèixer un interès a la llista. També pots suprimir els interessos que no vulguis que Decentr tingui en compte.</translation>
-<translation id="1628000112320670027">Obtén ajuda per a Decentr</translation>
+<translation id="1507198376417198979">Personalitza el teu perfil de tomi nou</translation>
+<translation id="1547295885616600893">tomi OS és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure addicional<ph name="END_LINK_CROS_OSS" />.</translation>
+<translation id="1553358976309200471">Actualitza tomi</translation>
+<translation id="1583073672411044740"><ph name="EXISTING_USER" /> ja té la sessió iniciada en aquest perfil de tomi. Es crearà un perfil de tomi nou per a <ph name="USER_EMAIL_ADDRESS" />.</translation>
+<translation id="1587223624401073077">tomi està utilitzant la càmera.</translation>
+<translation id="1587325591171447154">tomi ha bloquejat <ph name="FILE_NAME" /> perquè és perillós.</translation>
+<translation id="1597911401261118146">Per comprovar si les teves contrasenyes estan protegides contra violacions de les dades i contra altres problemes de seguretat, <ph name="BEGIN_LINK" />inicia la sessió a tomi<ph name="END_LINK" />.</translation>
+<translation id="1619887657840448962">Per tal que tomi sigui més segur, hem desactivat algunes de les extensions que no figuren a <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i que és possible que s'hagin afegit sense que ho sapigueu.</translation>
+<translation id="1627304841979541023"><ph name="BEGIN_BOLD" />Com pots gestionar les teves dades<ph name="END_BOLD" />: amb la finalitat de protegir la teva privadesa, suprimim automàticament els interessos que tenen més de 4 setmanes. A mesura que continuïs navegant, és possible que torni a aparèixer un interès a la llista. També pots suprimir els interessos que no vulguis que tomi tingui en compte.</translation>
+<translation id="1628000112320670027">Obtén ajuda per a tomi</translation>
 <translation id="1640672724030957280">S'està baixant...</translation>
-<translation id="1662146548738125461">Sobre DecentrOS Flex</translation>
-<translation id="1674870198290878346">Obre l'enllaç en una finestra d'incò&amp;gnit a Decentr</translation>
-<translation id="1682634494516646069">Decentr no pot llegir ni escriure en el directori de dades: <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="1689338313606606627">Decentr pot desactivar aquesta pestanya per millorar i agilitzar la teva experiència de navegació.</translation>
-<translation id="1698376642261615901">Decentr és un navegador web que executa pàgines web i aplicacions a gran velocitat. És ràpid, estable i fàcil d'utilitzar. Navega d'una manera més segura pel web amb la protecció integrada contra programari maliciós i llocs de pesca de credencials a Decentr.</translation>
-<translation id="1713301662689114961">{0,plural, =1{Decentr es reiniciarà d'aquí a 1 hora}other{Decentr es reiniciarà d'aquí a # hores}}</translation>
+<translation id="1662146548738125461">Sobre tomiOS Flex</translation>
+<translation id="1674870198290878346">Obre l'enllaç en una finestra d'incò&amp;gnit a tomi</translation>
+<translation id="1682634494516646069">tomi no pot llegir ni escriure en el directori de dades: <ph name="USER_DATA_DIRECTORY" /></translation>
+<translation id="1689338313606606627">tomi pot desactivar aquesta pestanya per millorar i agilitzar la teva experiència de navegació.</translation>
+<translation id="1698376642261615901">tomi és un navegador web que executa pàgines web i aplicacions a gran velocitat. És ràpid, estable i fàcil d'utilitzar. Navega d'una manera més segura pel web amb la protecció integrada contra programari maliciós i llocs de pesca de credencials a tomi.</translation>
+<translation id="1713301662689114961">{0,plural, =1{tomi es reiniciarà d'aquí a 1 hora}other{tomi es reiniciarà d'aquí a # hores}}</translation>
 <translation id="1722488837206509557">Això et permetrà seleccionar un dels dispositius disponibles i mostrar-hi contingut.</translation>
-<translation id="1734234790201236882">Decentr desarà aquesta contrasenya al Compte de Decentr. No caldrà que la recordis.</translation>
-<translation id="1786003790898721085">Assegura't que tinguis la sessió iniciada a Decentr a <ph name="TARGET_DEVICE_NAME" /> i prova d'enviar-ho de nou.</translation>
-<translation id="1786044937610313874">Les dreceres s'obren a Decentr</translation>
-<translation id="178701303897325119">Aquesta extensió ja no s'admet. Decentr et recomana que la suprimeixis.</translation>
-<translation id="1812689907177901597">En desactivar aquesta opció, pots iniciar la sessió en llocs web de Decentr, com ara Gmail, sense iniciar la sessió a Decentr</translation>
-<translation id="1860536484129686729">Per visitar aquest lloc web, Decentr necessita permís per accedir a la càmera</translation>
-<translation id="1873233029667955273">Decentr Decentr no és el navegador predeterminat</translation>
-<translation id="1874309113135274312">Decentr Beta (mDNS-In)</translation>
-<translation id="1877026089748256423">Decentr no està actualitzat</translation>
-<translation id="1907925560334657849">Per compartir la finestra, permet que Decentr gravi la pantalla a Preferències del sistema</translation>
-<translation id="1919130412786645364">Permet l'inici de sessió a Decentr</translation>
+<translation id="1734234790201236882">tomi desarà aquesta contrasenya al Compte de tomi. No caldrà que la recordis.</translation>
+<translation id="1786003790898721085">Assegura't que tinguis la sessió iniciada a tomi a <ph name="TARGET_DEVICE_NAME" /> i prova d'enviar-ho de nou.</translation>
+<translation id="1786044937610313874">Les dreceres s'obren a tomi</translation>
+<translation id="178701303897325119">Aquesta extensió ja no s'admet. tomi et recomana que la suprimeixis.</translation>
+<translation id="1812689907177901597">En desactivar aquesta opció, pots iniciar la sessió en llocs web de tomi, com ara Gmail, sense iniciar la sessió a tomi</translation>
+<translation id="1860536484129686729">Per visitar aquest lloc web, tomi necessita permís per accedir a la càmera</translation>
+<translation id="1873233029667955273">tomi tomi no és el navegador predeterminat</translation>
+<translation id="1874309113135274312">tomi Beta (mDNS-In)</translation>
+<translation id="1877026089748256423">tomi no està actualitzat</translation>
+<translation id="1907925560334657849">Per compartir la finestra, permet que tomi gravi la pantalla a Preferències del sistema</translation>
+<translation id="1919130412786645364">Permet l'inici de sessió a tomi</translation>
 <translation id="1953553007165777902">S'està baixant... Queden <ph name="MINUTE" /> minuts</translation>
-<translation id="1982647487457769627">Decentr funciona en diverses plataformes per oferir-te l'experiència que ja coneixes independentment del dispositiu que facis servir</translation>
-<translation id="2001586581944147178">Dificulta que les persones amb accés al teu trànsit d'Internet vegin els llocs web que visites. Decentr utilitza una connexió segura per cercar l'adreça IP d'un lloc web al sistema de noms de domini (DNS).</translation>
-<translation id="2008942457798486387">{NUM_EXTENSIONS,plural, =1{Aquesta extensió ja no s'admet. Decentr et recomana que la suprimeixis.}other{Aquestes extensions ja no s'admeten. Decentr et recomana que les suprimeixis.}}</translation>
-<translation id="2018528049276128029">Cada perfil conserva la seva informació de Decentr pròpia, com ara les adreces d'interès, l'historial, les contrasenyes i més</translation>
+<translation id="1982647487457769627">tomi funciona en diverses plataformes per oferir-te l'experiència que ja coneixes independentment del dispositiu que facis servir</translation>
+<translation id="2001586581944147178">Dificulta que les persones amb accés al teu trànsit d'Internet vegin els llocs web que visites. tomi utilitza una connexió segura per cercar l'adreça IP d'un lloc web al sistema de noms de domini (DNS).</translation>
+<translation id="2008942457798486387">{NUM_EXTENSIONS,plural, =1{Aquesta extensió ja no s'admet. tomi et recomana que la suprimeixis.}other{Aquestes extensions ja no s'admeten. tomi et recomana que les suprimeixis.}}</translation>
+<translation id="2018528049276128029">Cada perfil conserva la seva informació de tomi pròpia, com ara les adreces d'interès, l'historial, les contrasenyes i més</translation>
 <translation id="2018879682492276940">La instal·lació ha fallat. Torna-ho a provar.</translation>
-<translation id="2022471217832964798">Mentre configurem l'accés al compte, pots continuar utilitzant Decentr, però és possible que no puguis accedir a alguns recursos fins que la configuració no finalitzi.</translation>
-<translation id="2034233344106846793">Quan és possible, Decentr actualitza automàticament les connexions no segures a HTTPS</translation>
-<translation id="207902854391093810">Quan les proves estan activades, el mesurament d'anuncis permet als llocs web que visites sol·licitar informació de Decentr que els ajudi a mesurar el rendiment dels anuncis. El mesurament d'anuncis restringeix el seguiment entre llocs web transferint la quantitat mínima possible d'informació entre llocs web.</translation>
-<translation id="2091012649849228750">Per obtenir actualitzacions de Decentr en el futur, necessitaràs Windows 10 o una versió posterior. Aquest ordinador utilitza Windows 8.</translation>
-<translation id="2094648590148273905">Condicions de DecentrOS Flex</translation>
-<translation id="2094919256425865063">Vols sortir de Decentr igualment?</translation>
-<translation id="2106831557840787829">DecentrOS Flex és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure<ph name="END_LINK_CROS_OSS" /> addicional, igual que l'<ph name="BEGIN_LINK_LINUX_OSS" />entorn de desenvolupament de Linux<ph name="END_LINK_LINUX_OSS" />.</translation>
-<translation id="2120620239521071941">Amb aquesta acció, se suprimiran <ph name="ITEMS_COUNT" /> elements d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a Decentr com a <ph name="USER_EMAIL" />.</translation>
-<translation id="2121284319307530122">Reinicia per actualitzar &amp;Decentr</translation>
-<translation id="2123055963409958220">Informa de la <ph name="BEGIN_LINK" />configuració actual<ph name="END_LINK" /> per ajudar-nos a millorar Decentr</translation>
+<translation id="2022471217832964798">Mentre configurem l'accés al compte, pots continuar utilitzant tomi, però és possible que no puguis accedir a alguns recursos fins que la configuració no finalitzi.</translation>
+<translation id="2034233344106846793">Quan és possible, tomi actualitza automàticament les connexions no segures a HTTPS</translation>
+<translation id="207902854391093810">Quan les proves estan activades, el mesurament d'anuncis permet als llocs web que visites sol·licitar informació de tomi que els ajudi a mesurar el rendiment dels anuncis. El mesurament d'anuncis restringeix el seguiment entre llocs web transferint la quantitat mínima possible d'informació entre llocs web.</translation>
+<translation id="2091012649849228750">Per obtenir actualitzacions de tomi en el futur, necessitaràs Windows 10 o una versió posterior. Aquest ordinador utilitza Windows 8.</translation>
+<translation id="2094648590148273905">Condicions de tomiOS Flex</translation>
+<translation id="2094919256425865063">Vols sortir de tomi igualment?</translation>
+<translation id="2106831557840787829">tomiOS Flex és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure<ph name="END_LINK_CROS_OSS" /> addicional, igual que l'<ph name="BEGIN_LINK_LINUX_OSS" />entorn de desenvolupament de Linux<ph name="END_LINK_LINUX_OSS" />.</translation>
+<translation id="2120620239521071941">Amb aquesta acció, se suprimiran <ph name="ITEMS_COUNT" /> elements d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a tomi com a <ph name="USER_EMAIL" />.</translation>
+<translation id="2121284319307530122">Reinicia per actualitzar &amp;tomi</translation>
+<translation id="2123055963409958220">Informa de la <ph name="BEGIN_LINK" />configuració actual<ph name="END_LINK" /> per ajudar-nos a millorar tomi</translation>
 <translation id="2126108037660393668">La verificació del fitxer baixat ha fallat.</translation>
-<translation id="2128411189117340671">Gestiona els perfils de Decentr</translation>
-<translation id="2131230230468101642">Amb la finalitat de protegir la teva privadesa, suprimim automàticament els interessos que tenen més de 4 setmanes. A mesura que continuïs navegant, és possible que torni a aparèixer un interès a la llista. També pots suprimir els interessos que no vulguis que Decentr tingui en compte.</translation>
-<translation id="2139300032719313227">Reinicia Decentr OS</translation>
-<translation id="2151406531797534936">Reinicia Decentr ara</translation>
+<translation id="2128411189117340671">Gestiona els perfils de tomi</translation>
+<translation id="2131230230468101642">Amb la finalitat de protegir la teva privadesa, suprimim automàticament els interessos que tenen més de 4 setmanes. A mesura que continuïs navegant, és possible que torni a aparèixer un interès a la llista. També pots suprimir els interessos que no vulguis que tomi tingui en compte.</translation>
+<translation id="2139300032719313227">Reinicia tomi OS</translation>
+<translation id="2151406531797534936">Reinicia tomi ara</translation>
 <translation id="2174917724755363426">La instal·lació no s'ha completat. Confirmes que vols cancel·lar-la?</translation>
 <translation id="2190166659037789668">Error de comprovació d'actualització: <ph name="UPDATE_CHECK_ERROR" />.</translation>
-<translation id="2199691482078155239">Decentr et proporciona més control sobre els anuncis que veus i limita la informació que els llocs web poden obtenir sobre tu quan et mostren anuncis personalitzats</translation>
-<translation id="2216543877350048334">Per suprimir de Decentr el teu Compte de Decentr, tanca la sessió</translation>
-<translation id="223889379102603431">Informació sobre com gestiona Decentr els seus certificats arrel</translation>
-<translation id="2258103955319320201">Per accedir al teu contingut del navegador Decentr des de tots els teus dispositius, inicia la sessió i, després, activa la sincronització</translation>
-<translation id="2290014774651636340">Falten les claus de l'API de Decentr. Es desactivaran algunes de les funcionalitats de Decentr.</translation>
-<translation id="2290095356545025170">Confirmeu que voleu desinstal·lar Decentr?</translation>
-<translation id="2309047409763057870">Aquesta és una instal·lació secundària de Decentr i no pot definir-se com a navegador predeterminat.</translation>
-<translation id="2345992953227471816">Decentr ha detectat que aquestes extensions contenen programari maliciós:</translation>
-<translation id="2348335408836342058">Per visitar aquest lloc web, Decentr necessita permís per accedir a la càmera i al micròfon</translation>
-<translation id="234869673307233423">Decentr no pot comprovar les teves contrasenyes. Torna-ho a provar més tard.</translation>
-<translation id="235650106824528204">L'administrador del perfil de treball pot suprimir qualsevol dada de Decentr que es generi durant l'ús d'aquest perfil, com ara les adreces d'interès, l'historial, les contrasenyes i altres opcions de configuració. <ph name="LEARN_MORE" /></translation>
+<translation id="2199691482078155239">tomi et proporciona més control sobre els anuncis que veus i limita la informació que els llocs web poden obtenir sobre tu quan et mostren anuncis personalitzats</translation>
+<translation id="2216543877350048334">Per suprimir de tomi el teu Compte de tomi, tanca la sessió</translation>
+<translation id="223889379102603431">Informació sobre com gestiona tomi els seus certificats arrel</translation>
+<translation id="2258103955319320201">Per accedir al teu contingut del navegador tomi des de tots els teus dispositius, inicia la sessió i, després, activa la sincronització</translation>
+<translation id="2290014774651636340">Falten les claus de l'API de tomi. Es desactivaran algunes de les funcionalitats de tomi.</translation>
+<translation id="2290095356545025170">Confirmeu que voleu desinstal·lar tomi?</translation>
+<translation id="2309047409763057870">Aquesta és una instal·lació secundària de tomi i no pot definir-se com a navegador predeterminat.</translation>
+<translation id="2345992953227471816">tomi ha detectat que aquestes extensions contenen programari maliciós:</translation>
+<translation id="2348335408836342058">Per visitar aquest lloc web, tomi necessita permís per accedir a la càmera i al micròfon</translation>
+<translation id="234869673307233423">tomi no pot comprovar les teves contrasenyes. Torna-ho a provar més tard.</translation>
+<translation id="235650106824528204">L'administrador del perfil de treball pot suprimir qualsevol dada de tomi que es generi durant l'ús d'aquest perfil, com ara les adreces d'interès, l'historial, les contrasenyes i altres opcions de configuració. <ph name="LEARN_MORE" /></translation>
 <translation id="2359808026110333948">Continua</translation>
 <translation id="2390624519615263404">Mostra les funcions de seguretat</translation>
-<translation id="2401189691232800402">Sistema DecentrOS</translation>
-<translation id="2409816192575564775">{NUM_DEVICES,plural, =0{Una o més extensions de Decentr estaven accedint a 1 dispositiu d'interfície humana}=1{Una o més extensions de Decentr estan accedint a 1 dispositiu d'interfície humana}other{Una o més extensions de Decentr estan accedint a # dispositius d'interfície humana}}</translation>
-<translation id="2424440923901031101">Aquesta extensió infringeix la política de Decentr Web Store i podria no ser segura. Suprimeix-la de Decentr perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la teva informació personal.</translation>
-<translation id="2467438592969358367">Decentr Decentr vol exportar les teves contrasenyes. Escriu la contrasenya de Windows per permetre-ho.</translation>
-<translation id="2472092250898121027">Aquesta extensió conté programari maliciós i no és segura. Suprimeix-la de Decentr perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la teva informació personal.</translation>
+<translation id="2401189691232800402">Sistema tomiOS</translation>
+<translation id="2409816192575564775">{NUM_DEVICES,plural, =0{Una o més extensions de tomi estaven accedint a 1 dispositiu d'interfície humana}=1{Una o més extensions de tomi estan accedint a 1 dispositiu d'interfície humana}other{Una o més extensions de tomi estan accedint a # dispositius d'interfície humana}}</translation>
+<translation id="2424440923901031101">Aquesta extensió infringeix la política de tomi Web Store i podria no ser segura. Suprimeix-la de tomi perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la teva informació personal.</translation>
+<translation id="2467438592969358367">tomi tomi vol exportar les teves contrasenyes. Escriu la contrasenya de Windows per permetre-ho.</translation>
+<translation id="2472092250898121027">Aquesta extensió conté programari maliciós i no és segura. Suprimeix-la de tomi perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la teva informació personal.</translation>
 <translation id="2485422356828889247">Desinstal·la</translation>
 <translation id="2513154137948333830">Reinici necessari: <ph name="INSTALL_SUCCESS" /></translation>
-<translation id="2534365042754120737">Per protegir les teves dades, permet que Decentr suprimeixi els permisos dels llocs web que no has visitat recentment. En continuaràs rebent notificacions.</translation>
-<translation id="2556847002339236023">La teva organització tanca Decentr quan no s'utilitza durant <ph name="TIMEOUT_DURATION" />. Les dades de navegació s'han suprimit. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.</translation>
-<translation id="2559253115192232574">Després, un lloc web que visitis pot demanar els teus interessos a Decentr per personalitzar els anuncis que veus. Decentr pot compartir un màxim de 3 interessos.</translation>
-<translation id="2563121210305478421">Vols tornar a iniciar Decentr?</translation>
-<translation id="2569974318947988067">Decentr provarà de navegar mitjançant HTTPS</translation>
-<translation id="2571392474191184472">La teva organització gestiona Decentr</translation>
-<translation id="2574930892358684005"><ph name="EXISTING_USER" /> ja té la sessió iniciada en aquest perfil de Decentr. Per continuar amb la teva navegació per separat, Decentr et pot crear un perfil propi.</translation>
-<translation id="2580411288591421699">No es pot instal·lar la mateixa versió de Decentr que s'executa actualment. Tanqueu Decentr i torneu-ho a provar.</translation>
-<translation id="2586406160782125153">Amb aquesta acció, se suprimiran les teves dades de navegació d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a Decentr com a <ph name="USER_EMAIL" />.</translation>
-<translation id="2597976513418770460">Obtén el contingut del teu navegador Decentr del compte <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="2534365042754120737">Per protegir les teves dades, permet que tomi suprimeixi els permisos dels llocs web que no has visitat recentment. En continuaràs rebent notificacions.</translation>
+<translation id="2556847002339236023">La teva organització tanca tomi quan no s'utilitza durant <ph name="TIMEOUT_DURATION" />. Les dades de navegació s'han suprimit. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.</translation>
+<translation id="2559253115192232574">Després, un lloc web que visitis pot demanar els teus interessos a tomi per personalitzar els anuncis que veus. tomi pot compartir un màxim de 3 interessos.</translation>
+<translation id="2563121210305478421">Vols tornar a iniciar tomi?</translation>
+<translation id="2569974318947988067">tomi provarà de navegar mitjançant HTTPS</translation>
+<translation id="2571392474191184472">La teva organització gestiona tomi</translation>
+<translation id="2574930892358684005"><ph name="EXISTING_USER" /> ja té la sessió iniciada en aquest perfil de tomi. Per continuar amb la teva navegació per separat, tomi et pot crear un perfil propi.</translation>
+<translation id="2580411288591421699">No es pot instal·lar la mateixa versió de tomi que s'executa actualment. Tanqueu tomi i torneu-ho a provar.</translation>
+<translation id="2586406160782125153">Amb aquesta acció, se suprimiran les teves dades de navegació d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a tomi com a <ph name="USER_EMAIL" />.</translation>
+<translation id="2597976513418770460">Obtén el contingut del teu navegador tomi del compte <ph name="ACCOUNT_EMAIL" /></translation>
 <translation id="259935314519650377">No s'ha pogut desar l'instal·lador baixat a la memòria cau. Error: <ph name="UNPACK_CACHING_ERROR_CODE" />.</translation>
-<translation id="2622559029861875898">Decentr no pot cercar actualitzacions. Comprova la connexió a Internet.</translation>
-<translation id="2632707915638608719">Fes més coses amb les extensions per a Decentr</translation>
-<translation id="2645435784669275700">DecentrOS</translation>
-<translation id="2649768380733403658">Decentr comprova regularment que el navegador tingui la configuració més segura. T'avisarem si hi ha res que hagis de revisar.</translation>
-<translation id="2652691236519827073">Obre l'enllaç en una pes&amp;tanya nova a Decentr</translation>
-<translation id="2665296953892887393">Ajudeu a millorar Decentr; envieu informes d'error i <ph name="UMA_LINK" /> a Decentr.</translation>
-<translation id="2681444469812712297">Obre <ph name="URL" /> en una pestanya nova a Decentr.</translation>
+<translation id="2622559029861875898">tomi no pot cercar actualitzacions. Comprova la connexió a Internet.</translation>
+<translation id="2632707915638608719">Fes més coses amb les extensions per a tomi</translation>
+<translation id="2645435784669275700">tomiOS</translation>
+<translation id="2649768380733403658">tomi comprova regularment que el navegador tingui la configuració més segura. T'avisarem si hi ha res que hagis de revisar.</translation>
+<translation id="2652691236519827073">Obre l'enllaç en una pes&amp;tanya nova a tomi</translation>
+<translation id="2665296953892887393">Ajudeu a millorar tomi; envieu informes d'error i <ph name="UMA_LINK" /> a tomi.</translation>
+<translation id="2681444469812712297">Obre <ph name="URL" /> en una pestanya nova a tomi.</translation>
 <translation id="2738871930057338499">No es pot connectar a Internet. Error d'HTTP "403 Forbidden". Comprova la configuració del servidor intermediari.</translation>
-<translation id="2742320827292110288">Advertiment: Decentr no pot evitar que les extensions registrin l'historial de navegació. Per desactivar aquesta extensió en mode d'incògnit, desselecciona aquesta opció.</translation>
-<translation id="2765403129283291972">Per visitar aquest lloc web, Decentr necessita permís per accedir al micròfon</translation>
+<translation id="2742320827292110288">Advertiment: tomi no pot evitar que les extensions registrin l'historial de navegació. Per desactivar aquesta extensió en mode d'incògnit, desselecciona aquesta opció.</translation>
+<translation id="2765403129283291972">Per visitar aquest lloc web, tomi necessita permís per accedir al micròfon</translation>
 <translation id="2770231113462710648">Canvia el navegador predeterminat a:</translation>
-<translation id="2775140325783767197">Decentr no pot comprovar les teves contrasenyes. Comprova la connexió a Internet.</translation>
-<translation id="2797864378188255696">Si inicies la sessió en serveis de Decentr com ara Gmail o YouTube amb <ph name="USER_EMAIL" />, pots utilitzar el mateix compte per iniciar la sessió automàticament a Decentr</translation>
+<translation id="2775140325783767197">tomi no pot comprovar les teves contrasenyes. Comprova la connexió a Internet.</translation>
+<translation id="2797864378188255696">Si inicies la sessió en serveis de tomi com ara Gmail o YouTube amb <ph name="USER_EMAIL" />, pots utilitzar el mateix compte per iniciar la sessió automàticament a tomi</translation>
 <translation id="2799223571221894425">Reinicia</translation>
-<translation id="2825024317344269723">Lloc web perillós. Decentr ha suprimit les notificacions.</translation>
+<translation id="2825024317344269723">Lloc web perillós. tomi ha suprimit les notificacions.</translation>
 <translation id="2846251086934905009">Error d'instal·lació: l'instal·lador no ha completat el procés. La instal·lació s'ha anul·lat.</translation>
-<translation id="2847461019998147611">Mostra Decentr en aquest idioma</translation>
-<translation id="2853415089995957805">Decentr precarrega les pàgines que és probable que visitis perquè es carreguin més ràpidament quan les visitis</translation>
-<translation id="2857540653560290388">S'està iniciant Decentr...</translation>
-<translation id="2857972467023607093">Ja existeix un perfil de Decentr amb aquest compte</translation>
-<translation id="286025080868315611">Descobreix per què Decentr bloqueja algunes baixades</translation>
-<translation id="2861074815332034794">S'està actualitzant Decentr (<ph name="PROGRESS_PERCENT" />)</translation>
-<translation id="2871893339301912279">Teniu la sessió iniciada a Decentr.</translation>
-<translation id="2876628302275096482">Més informació sobre <ph name="BEGIN_LINK" />com Decentr manté la privadesa de les teves dades<ph name="END_LINK" /></translation>
+<translation id="2847461019998147611">Mostra tomi en aquest idioma</translation>
+<translation id="2853415089995957805">tomi precarrega les pàgines que és probable que visitis perquè es carreguin més ràpidament quan les visitis</translation>
+<translation id="2857540653560290388">S'està iniciant tomi...</translation>
+<translation id="2857972467023607093">Ja existeix un perfil de tomi amb aquest compte</translation>
+<translation id="286025080868315611">Descobreix per què tomi bloqueja algunes baixades</translation>
+<translation id="2861074815332034794">S'està actualitzant tomi (<ph name="PROGRESS_PERCENT" />)</translation>
+<translation id="2871893339301912279">Teniu la sessió iniciada a tomi.</translation>
+<translation id="2876628302275096482">Més informació sobre <ph name="BEGIN_LINK" />com tomi manté la privadesa de les teves dades<ph name="END_LINK" /></translation>
 <translation id="2885378588091291677">Gestor de tasques</translation>
-<translation id="2888126860611144412">Sobre Decentr</translation>
+<translation id="2888126860611144412">Sobre tomi</translation>
 <translation id="29082080693925013">Per organitzar-te, pots fixar els llocs web que visites amb freqüència i organitzar les pestanyes en grups</translation>
 <translation id="2915996080311180594">Reinicia més tard</translation>
-<translation id="2926676257163822632">Les contrasenyes poc segures són fàcils d'endevinar. Deixa que Decentr <ph name="BEGIN_LINK" />creï i recordi contrasenyes segures en nom teu<ph name="END_LINK" />.</translation>
-<translation id="2926952073016206995">Decentr necessita permís d'accés a la càmera per a aquest lloc web</translation>
+<translation id="2926676257163822632">Les contrasenyes poc segures són fàcils d'endevinar. Deixa que tomi <ph name="BEGIN_LINK" />creï i recordi contrasenyes segures en nom teu<ph name="END_LINK" />.</translation>
+<translation id="2926952073016206995">tomi necessita permís d'accés a la càmera per a aquest lloc web</translation>
 <translation id="2928420929544864228">La instal·lació s'ha completat.</translation>
-<translation id="2929907241665500097">No s'ha actualitzat Decentr. S'ha produït un error. <ph name="BEGIN_LINK" />Soluciona els problemes i errors d'actualització de Decentr<ph name="END_LINK" />.</translation>
+<translation id="2929907241665500097">No s'ha actualitzat tomi. S'ha produït un error. <ph name="BEGIN_LINK" />Soluciona els problemes i errors d'actualització de tomi<ph name="END_LINK" />.</translation>
 <translation id="2945997411976714835">Error d'instal·lació: no s'ha pogut iniciar el procés d'instal·lació.</translation>
-<translation id="2969728957078202736"><ph name="PAGE_TITLE" /> - Inici de sessió a la xarxa - Decentr</translation>
-<translation id="2970681950995291301">Per suprimir de Decentr el teu Compte de Decentr, tanca la sessió de Decentr a la pàgina Configuració</translation>
-<translation id="3018957014024118866">Suprimeix també les dades de Decentr (<ph name="URL" />)</translation>
-<translation id="3019382870990049182">Reinicia per actualitzar &amp;DecentrOS Flex</translation>
-<translation id="3037838751736561277">Decentr està en mode de segon pla.</translation>
+<translation id="2969728957078202736"><ph name="PAGE_TITLE" /> - Inici de sessió a la xarxa - tomi</translation>
+<translation id="2970681950995291301">Per suprimir de tomi el teu Compte de tomi, tanca la sessió de tomi a la pàgina Configuració</translation>
+<translation id="3018957014024118866">Suprimeix també les dades de tomi (<ph name="URL" />)</translation>
+<translation id="3019382870990049182">Reinicia per actualitzar &amp;tomiOS Flex</translation>
+<translation id="3037838751736561277">tomi està en mode de segon pla.</translation>
 <translation id="3038232873781883849">S'està esperant per instal·lar...</translation>
-<translation id="3059710691562604940">Navegació segura està desactivada. Decentr recomana activar-la.</translation>
-<translation id="306179102415443347">Utilitza la drecera per accedir ràpidament al gestor de contrasenyes de Decentr. Pots moure la drecera a la pantalla d'inici o al menú d'aplicacions de l'ordinador.</translation>
-<translation id="3065168410429928842">Pestanya de Decentr</translation>
-<translation id="3080151273017101988">Continua executant aplicacions de segon pla en tancar Decentr</translation>
-<translation id="3100998948628680988">Posa nom al teu perfil de Decentr</translation>
-<translation id="3112458742631356345">Decentr ha bloquejat aquesta baixada perquè el fitxer no se sol baixar i pot ser perillós</translation>
-<translation id="3114643501466072395">Per comprovar si les teves altres contrasenyes estan protegides contra violacions de les dades i contra altres problemes de seguretat, <ph name="BEGIN_LINK" />inicia la sessió a Decentr<ph name="END_LINK" />.</translation>
-<translation id="3119573284443908657">Decentr ha bloquejat aquesta baixada perquè el fitxer d'arxiu inclou altres fitxers que poden amagar programari maliciós</translation>
-<translation id="3140883423282498090">Els canvis es faran efectius la propera vegada que reinicieu Decentr.</translation>
-<translation id="3149510190863420837">Aplicacions de Decentr</translation>
-<translation id="3169523567916669830">Durant les proves, pots veure i suprimir els temes d'interès que els llocs web utilitzen per mostrar-te anuncis. Decentr estima els teus interessos basant-se en l'historial de navegació recent.</translation>
-<translation id="3196187562065225381">Decentr ha bloquejat aquesta baixada perquè el fitxer és perillós</translation>
-<translation id="3226612997184048185">Si també deses les teves adreces d'interès al teu Compte de Decentr, pots fer un seguiment dels preus dels productes a Decentr i rebre una notificació quan baixi el preu</translation>
+<translation id="3059710691562604940">Navegació segura està desactivada. tomi recomana activar-la.</translation>
+<translation id="306179102415443347">Utilitza la drecera per accedir ràpidament al gestor de contrasenyes de tomi. Pots moure la drecera a la pantalla d'inici o al menú d'aplicacions de l'ordinador.</translation>
+<translation id="3065168410429928842">Pestanya de tomi</translation>
+<translation id="3080151273017101988">Continua executant aplicacions de segon pla en tancar tomi</translation>
+<translation id="3100998948628680988">Posa nom al teu perfil de tomi</translation>
+<translation id="3112458742631356345">tomi ha bloquejat aquesta baixada perquè el fitxer no se sol baixar i pot ser perillós</translation>
+<translation id="3114643501466072395">Per comprovar si les teves altres contrasenyes estan protegides contra violacions de les dades i contra altres problemes de seguretat, <ph name="BEGIN_LINK" />inicia la sessió a tomi<ph name="END_LINK" />.</translation>
+<translation id="3119573284443908657">tomi ha bloquejat aquesta baixada perquè el fitxer d'arxiu inclou altres fitxers que poden amagar programari maliciós</translation>
+<translation id="3140883423282498090">Els canvis es faran efectius la propera vegada que reinicieu tomi.</translation>
+<translation id="3149510190863420837">Aplicacions de tomi</translation>
+<translation id="3169523567916669830">Durant les proves, pots veure i suprimir els temes d'interès que els llocs web utilitzen per mostrar-te anuncis. tomi estima els teus interessos basant-se en l'historial de navegació recent.</translation>
+<translation id="3196187562065225381">tomi ha bloquejat aquesta baixada perquè el fitxer és perillós</translation>
+<translation id="3226612997184048185">Si també deses les teves adreces d'interès al teu Compte de tomi, pots fer un seguiment dels preus dels productes a tomi i rebre una notificació quan baixi el preu</translation>
 <translation id="3234642784688107085">Prova les noves funcions d'IA per crear temes, obtenir ajuda per escriure i mantenir l'organització</translation>
-<translation id="3245429137663807393">Si també comparteixes els informes d'ús de Decentr, aquests informes inclouen els URL que visites</translation>
+<translation id="3245429137663807393">Si també comparteixes els informes d'ús de tomi, aquests informes inclouen els URL que visites</translation>
 <translation id="3261565993776444564">Prova un color nou per personalitzar el navegador</translation>
-<translation id="3282568296779691940">Inicia la sessió a Decentr</translation>
+<translation id="3282568296779691940">Inicia la sessió a tomi</translation>
 <translation id="3286538390144397061">Reinicia ara</translation>
-<translation id="3292333338048274092">Després hauràs de reiniciar Decentr.</translation>
-<translation id="3360895254066713204">Aplicació d'ajuda de Decentr</translation>
-<translation id="3379938682270551431">{0,plural, =0{Decentr es reiniciarà ara}=1{Decentr es reiniciarà d'aquí a 1 segon}other{Decentr es reiniciarà d'aquí a # segons}}</translation>
-<translation id="3396977131400919238">S'ha produït un error en el sistema operatiu durant la instal·lació. Torna a baixar Decentr.</translation>
-<translation id="3428747202529429621">Et protegeix a Decentr i és possible que s'utilitzi per millorar la teva seguretat en altres aplicacions de Decentr quan tinguis la sessió iniciada</translation>
-<translation id="3434246496373299699">Decentr pot comprovar les teves contrasenyes quan inicies la sessió amb el Compte de Decentr</translation>
-<translation id="3438681572027105609">Per obtenir les teves contrasenyes i altres dades en tots els dispositius, inicia la sessió a Decentr</translation>
-<translation id="3450887623636316740">Aquest fitxer pot ser perillós<ph name="LINE_BREAK" />Decentr pot comprovar aquesta baixada per tu si proporciones la contrasenya. La informació sobre el fitxer s'envia a Navegació segura de Decentr, però el contingut i la contrasenya del fitxer es queden al dispositiu.</translation>
-<translation id="3451115285585441894">S'està afegint a Decentr...</translation>
-<translation id="345171907106878721">Afegeix-me a Decentr</translation>
-<translation id="3453763134178591239">Condicions de Decentr OS</translation>
-<translation id="3503306920980160878">Decentr necessita accedir a la teva ubicació per compartir-la amb aquest lloc web</translation>
-<translation id="3533694711092285624">No hi ha cap contrasenya desada. Decentr pot comprovar les teves contrasenyes quan les deses.</translation>
-<translation id="3541482654983822893">Decentr no pot comprovar les teves contrasenyes. Torna-ho a provar al cap de 24 hores.</translation>
-<translation id="3564543103555793392">Si inicies la sessió a Decentr, pots desar adreces d'interès, contrasenyes i més per utilitzar-les al telèfon</translation>
-<translation id="3576528680708590453">L'administrador del sistema ha configurat Decentr Decentr perquè obri un navegador alternatiu per accedir a <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="3582972582564653026">Sincronitza i personalitza Decentr en tots els teus dispositius</translation>
-<translation id="3583751698304738917">Ja has iniciat la sessió com a <ph name="USER_EMAIL_ADDRESS" /> en un altre perfil de Decentr</translation>
-<translation id="3595784445906693824">Vols iniciar la sessió a Decentr en un altre perfil?</translation>
-<translation id="3596080736082218006">{COUNT,plural, =0{L'administrador necessita que reiniciïs Decentr per aplicar una actualització}=1{L'administrador necessita que reiniciïs Decentr per aplicar una actualització. La finestra d'incògnit no es tornarà a obrir.}other{L'administrador necessita que reiniciïs Decentr per aplicar una actualització. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
+<translation id="3292333338048274092">Després hauràs de reiniciar tomi.</translation>
+<translation id="3360895254066713204">Aplicació d'ajuda de tomi</translation>
+<translation id="3379938682270551431">{0,plural, =0{tomi es reiniciarà ara}=1{tomi es reiniciarà d'aquí a 1 segon}other{tomi es reiniciarà d'aquí a # segons}}</translation>
+<translation id="3396977131400919238">S'ha produït un error en el sistema operatiu durant la instal·lació. Torna a baixar tomi.</translation>
+<translation id="3428747202529429621">Et protegeix a tomi i és possible que s'utilitzi per millorar la teva seguretat en altres aplicacions de tomi quan tinguis la sessió iniciada</translation>
+<translation id="3434246496373299699">tomi pot comprovar les teves contrasenyes quan inicies la sessió amb el Compte de tomi</translation>
+<translation id="3438681572027105609">Per obtenir les teves contrasenyes i altres dades en tots els dispositius, inicia la sessió a tomi</translation>
+<translation id="3450887623636316740">Aquest fitxer pot ser perillós<ph name="LINE_BREAK" />tomi pot comprovar aquesta baixada per tu si proporciones la contrasenya. La informació sobre el fitxer s'envia a Navegació segura de tomi, però el contingut i la contrasenya del fitxer es queden al dispositiu.</translation>
+<translation id="3451115285585441894">S'està afegint a tomi...</translation>
+<translation id="345171907106878721">Afegeix-me a tomi</translation>
+<translation id="3453763134178591239">Condicions de tomi OS</translation>
+<translation id="3503306920980160878">tomi necessita accedir a la teva ubicació per compartir-la amb aquest lloc web</translation>
+<translation id="3533694711092285624">No hi ha cap contrasenya desada. tomi pot comprovar les teves contrasenyes quan les deses.</translation>
+<translation id="3541482654983822893">tomi no pot comprovar les teves contrasenyes. Torna-ho a provar al cap de 24 hores.</translation>
+<translation id="3564543103555793392">Si inicies la sessió a tomi, pots desar adreces d'interès, contrasenyes i més per utilitzar-les al telèfon</translation>
+<translation id="3576528680708590453">L'administrador del sistema ha configurat tomi tomi perquè obri un navegador alternatiu per accedir a <ph name="TARGET_URL_HOSTNAME" />.</translation>
+<translation id="3582972582564653026">Sincronitza i personalitza tomi en tots els teus dispositius</translation>
+<translation id="3583751698304738917">Ja has iniciat la sessió com a <ph name="USER_EMAIL_ADDRESS" /> en un altre perfil de tomi</translation>
+<translation id="3595784445906693824">Vols iniciar la sessió a tomi en un altre perfil?</translation>
+<translation id="3596080736082218006">{COUNT,plural, =0{L'administrador necessita que reiniciïs tomi per aplicar una actualització}=1{L'administrador necessita que reiniciïs tomi per aplicar una actualització. La finestra d'incògnit no es tornarà a obrir.}other{L'administrador necessita que reiniciïs tomi per aplicar una actualització. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
 <translation id="3597003331831379823">No s'ha pogut executar la configuració amb privilegis elevats. <ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3609788354808247807">No l'has visitat recentment. Decentr ha suprimit <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> i <ph name="PERMISSION_3" />.</translation>
-<translation id="3622797965165704966">Ara resulta més fàcil utilitzar Decentr amb el vostre compte de Decentr i en ordinadors compartits.</translation>
-<translation id="3635073343384702370">Decentr pot comprovar les teves contrasenyes quan les deses</translation>
+<translation id="3609788354808247807">No l'has visitat recentment. tomi ha suprimit <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> i <ph name="PERMISSION_3" />.</translation>
+<translation id="3622797965165704966">Ara resulta més fàcil utilitzar tomi amb el vostre compte de tomi i en ordinadors compartits.</translation>
+<translation id="3635073343384702370">tomi pot comprovar les teves contrasenyes quan les deses</translation>
 <translation id="3667616615096815454">No es pot instal·lar; el servidor no coneix l'aplicació.</translation>
-<translation id="3673813398384385993">Decentr ha detectat que l'extensió "<ph name="EXTENSION_NAME" />" conté programari maliciós</translation>
+<translation id="3673813398384385993">tomi ha detectat que l'extensió "<ph name="EXTENSION_NAME" />" conté programari maliciós</translation>
 <translation id="3695446226812920698">Informació</translation>
-<translation id="3697952514309507634">Altres perfils de Decentr</translation>
-<translation id="3703994572283698466">Decentr OS és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure<ph name="END_LINK_CROS_OSS" /> addicional, igual que l‘<ph name="BEGIN_LINK_LINUX_OSS" />entorn de desenvolupament de Linux<ph name="END_LINK_LINUX_OSS" />.</translation>
-<translation id="3716540481907974026">Versió de DecentrOS Flex</translation>
-<translation id="3718181793972440140">Amb aquesta acció, se suprimirà 1 element d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a Decentr com a <ph name="USER_EMAIL" />.</translation>
-<translation id="3723744677043446310">{NUM_EXTENSIONS,plural, =1{Decentr et recomana que la suprimeixis. <ph name="BEGIN_LINK" />Més informació sobre les extensions admeses<ph name="END_LINK" />}other{Decentr et recomana que les suprimeixis. <ph name="BEGIN_LINK" />Més informació sobre les extensions admeses<ph name="END_LINK" />}}</translation>
-<translation id="3744202345691150878">Obtén ajuda per a Decentr OS</translation>
-<translation id="3780814664026482060">Decentr: <ph name="PAGE_TITLE" /></translation>
-<translation id="3785324443014631273">DecentrOS Flex no ha pogut sincronitzar les teves dades a causa d'un error en iniciar la sessió.</translation>
-<translation id="3795971588916395511">Decentr OS</translation>
-<translation id="3809772425479558446">Decentr requereix Windows 10 o una versió posterior.</translation>
-<translation id="3835168907083856002">Es crearà un perfil de Decentr nou per a <ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="383928141529488001">Decentr necessita accés al Bluetooth per cercar 
+<translation id="3697952514309507634">Altres perfils de tomi</translation>
+<translation id="3703994572283698466">tomi OS és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure<ph name="END_LINK_CROS_OSS" /> addicional, igual que l‘<ph name="BEGIN_LINK_LINUX_OSS" />entorn de desenvolupament de Linux<ph name="END_LINK_LINUX_OSS" />.</translation>
+<translation id="3716540481907974026">Versió de tomiOS Flex</translation>
+<translation id="3718181793972440140">Amb aquesta acció, se suprimirà 1 element d'aquest dispositiu. Per recuperar les teves dades més endavant, inicia la sessió a tomi com a <ph name="USER_EMAIL" />.</translation>
+<translation id="3723744677043446310">{NUM_EXTENSIONS,plural, =1{tomi et recomana que la suprimeixis. <ph name="BEGIN_LINK" />Més informació sobre les extensions admeses<ph name="END_LINK" />}other{tomi et recomana que les suprimeixis. <ph name="BEGIN_LINK" />Més informació sobre les extensions admeses<ph name="END_LINK" />}}</translation>
+<translation id="3744202345691150878">Obtén ajuda per a tomi OS</translation>
+<translation id="3780814664026482060">tomi: <ph name="PAGE_TITLE" /></translation>
+<translation id="3785324443014631273">tomiOS Flex no ha pogut sincronitzar les teves dades a causa d'un error en iniciar la sessió.</translation>
+<translation id="3795971588916395511">tomi OS</translation>
+<translation id="3809772425479558446">tomi requereix Windows 10 o una versió posterior.</translation>
+<translation id="3835168907083856002">Es crearà un perfil de tomi nou per a <ph name="USER_EMAIL_ADDRESS" /></translation>
+<translation id="383928141529488001">tomi necessita accés al Bluetooth per cercar 
  dispositius Bluetooth. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" />.</translation>
-<translation id="386202838227397562">Tanqueu totes les finestres de Decentr i torneu-ho a provar.</translation>
-<translation id="3865754807470779944">Està instal·lada la versió <ph name="PRODUCT_VERSION" /> de Decentr</translation>
-<translation id="3873044882194371212">Obre l'enllaç en una finestra d'incò&amp;gnit a Decentr</translation>
-<translation id="3889417619312448367">Desinstal·la Decentr</translation>
+<translation id="386202838227397562">Tanqueu totes les finestres de tomi i torneu-ho a provar.</translation>
+<translation id="3865754807470779944">Està instal·lada la versió <ph name="PRODUCT_VERSION" /> de tomi</translation>
+<translation id="3873044882194371212">Obre l'enllaç en una finestra d'incò&amp;gnit a tomi</translation>
+<translation id="3889417619312448367">Desinstal·la tomi</translation>
 <translation id="3941890832296813527">Error d'instal·lació: el nom de fitxer de l'instal·lador no és vàlid o no s'admet.</translation>
-<translation id="3973161977468201858">Decentr vol suprimir les dades del gestor de contrasenyes de Decentr. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
-<translation id="398236277091248993">Decentr continua sent ràpid amb funcions que n'optimitzen el rendiment</translation>
-<translation id="3999683152997576765">Pots veure i suprimir els temes d'interès que els llocs web utilitzen per mostrar-te anuncis. Decentr estima els teus interessos basant-se en l'historial de navegació recent.</translation>
-<translation id="4035053306113201399">Cal reiniciar Decentr OS per aplicar l'actualització.</translation>
+<translation id="3973161977468201858">tomi vol suprimir les dades del gestor de contrasenyes de tomi. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
+<translation id="398236277091248993">tomi continua sent ràpid amb funcions que n'optimitzen el rendiment</translation>
+<translation id="3999683152997576765">Pots veure i suprimir els temes d'interès que els llocs web utilitzen per mostrar-te anuncis. tomi estima els teus interessos basant-se en l'historial de navegació recent.</translation>
+<translation id="4035053306113201399">Cal reiniciar tomi OS per aplicar l'actualització.</translation>
 <translation id="4050175100176540509">La versió més recent incorpora millores de seguretat i funcions noves importants.</translation>
-<translation id="4053720452172726777">Personalitza i controla Decentr</translation>
-<translation id="408393047846373801">Per obtenir les teves contrasenyes i altres dades en tots els dispositius, inicia la sessió a Decentr. Aquesta contrasenya es desarà al teu Compte de Decentr després d'iniciar-hi la sessió.</translation>
-<translation id="4084404300720192944">Per compartir la finestra, permet que Decentr gravi la pantalla a Preferències del sistema.</translation>
-<translation id="4106587138345390261">Decentr està explorant noves funcions que permetin als llocs web oferir la mateixa experiència de navegació utilitzant menys informació teva</translation>
-<translation id="4110895483821904099">Configura el teu perfil de Decentr nou</translation>
-<translation id="4111566860456076004">Decentr no pot verificar d'on prové aquesta extensió i és possible que no sigui segura. Suprimeix-la de Decentr perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la informació personal.</translation>
-<translation id="4128488089242627000">Decentr s'executa més ràpidament i les funcions que utilitzen JavaScript haurien de funcionar tal com es van dissenyar (opció recomanada)</translation>
-<translation id="4147555960264124640">Esteu a punt d'iniciar la sessió amb un compte gestionat i d'atorgar el control del vostre perfil de Decentr a l'administrador corresponent. Les vostres dades de Decentr, com ara aplicacions, adreces d'interès, historial, contrasenyes i altres opcions, s'enllaçaran permanentment amb <ph name="USER_NAME" />. Podreu suprimir aquestes dades mitjançant el tauler de control de comptes de Decentr, però no les podreu associar amb un altre compte. <ph name="LEARN_MORE" /></translation>
+<translation id="4053720452172726777">Personalitza i controla tomi</translation>
+<translation id="408393047846373801">Per obtenir les teves contrasenyes i altres dades en tots els dispositius, inicia la sessió a tomi. Aquesta contrasenya es desarà al teu Compte de tomi després d'iniciar-hi la sessió.</translation>
+<translation id="4084404300720192944">Per compartir la finestra, permet que tomi gravi la pantalla a Preferències del sistema.</translation>
+<translation id="4106587138345390261">tomi està explorant noves funcions que permetin als llocs web oferir la mateixa experiència de navegació utilitzant menys informació teva</translation>
+<translation id="4110895483821904099">Configura el teu perfil de tomi nou</translation>
+<translation id="4111566860456076004">tomi no pot verificar d'on prové aquesta extensió i és possible que no sigui segura. Suprimeix-la de tomi perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la informació personal.</translation>
+<translation id="4128488089242627000">tomi s'executa més ràpidament i les funcions que utilitzen JavaScript haurien de funcionar tal com es van dissenyar (opció recomanada)</translation>
+<translation id="4147555960264124640">Esteu a punt d'iniciar la sessió amb un compte gestionat i d'atorgar el control del vostre perfil de tomi a l'administrador corresponent. Les vostres dades de tomi, com ara aplicacions, adreces d'interès, historial, contrasenyes i altres opcions, s'enllaçaran permanentment amb <ph name="USER_NAME" />. Podreu suprimir aquestes dades mitjançant el tauler de control de comptes de tomi, però no les podreu associar amb un altre compte. <ph name="LEARN_MORE" /></translation>
 <translation id="4148957013307229264">S'està instal·lant...</translation>
-<translation id="4149882025268051530">L'instal·lador no ha pogut descomprimir el fitxer. Torna a baixar Decentr.</translation>
-<translation id="4153934450158521343">Decentr es tancarà aviat i les dades se suprimiran</translation>
-<translation id="4173512894976930765">És probable que els llocs web funcionin de la manera prevista. Quan tanquis totes les finestres de Decentr, se't tancarà la sessió de la majoria de llocs web, tret del Compte de Decentr si tens la sessió iniciada a Decentr.</translation>
-<translation id="4175922240926474352">Decentr ha bloquejat aquesta baixada perquè el lloc web no utilitza una connexió segura i és possible que el fitxer s'hagi manipulat</translation>
-<translation id="4191857738314598978">{0,plural, =1{Reinicia Decentr en 1 dia}other{Reinicia Decentr en # dies}}</translation>
-<translation id="4205939740494406371">Decentr no pot comprovar les teves contrasenyes. Torna-ho a provar al cap de 24 hores o <ph name="BEGIN_LINK" />comprova les contrasenyes desades al teu Compte de Decentr<ph name="END_LINK" />.</translation>
+<translation id="4149882025268051530">L'instal·lador no ha pogut descomprimir el fitxer. Torna a baixar tomi.</translation>
+<translation id="4153934450158521343">tomi es tancarà aviat i les dades se suprimiran</translation>
+<translation id="4173512894976930765">És probable que els llocs web funcionin de la manera prevista. Quan tanquis totes les finestres de tomi, se't tancarà la sessió de la majoria de llocs web, tret del Compte de tomi si tens la sessió iniciada a tomi.</translation>
+<translation id="4175922240926474352">tomi ha bloquejat aquesta baixada perquè el lloc web no utilitza una connexió segura i és possible que el fitxer s'hagi manipulat</translation>
+<translation id="4191857738314598978">{0,plural, =1{Reinicia tomi en 1 dia}other{Reinicia tomi en # dies}}</translation>
+<translation id="4205939740494406371">tomi no pot comprovar les teves contrasenyes. Torna-ho a provar al cap de 24 hores o <ph name="BEGIN_LINK" />comprova les contrasenyes desades al teu Compte de tomi<ph name="END_LINK" />.</translation>
 <translation id="4222932583846282852">S'està cancel·lant...</translation>
 <translation id="4224210481850767180">S'ha cancel·lat la instal·lació.</translation>
-<translation id="4242034826641750751">Decentr necessita permís d'accés a la càmera i al micròfon per a aquest lloc web</translation>
-<translation id="424864128008805179">Vols tancar la sessió de Decentr?</translation>
-<translation id="4251615635259297716">Voleu enllaçar les vostres dades de Decentr amb aquest compte?</translation>
-<translation id="4262915912852657291"><ph name="BEGIN_BOLD" />Quines dades s'utilitzen<ph name="END_BOLD" />: el teu historial de navegació, que és un registre dels llocs web que has visitat amb Decentr en aquest dispositiu.</translation>
+<translation id="4242034826641750751">tomi necessita permís d'accés a la càmera i al micròfon per a aquest lloc web</translation>
+<translation id="424864128008805179">Vols tancar la sessió de tomi?</translation>
+<translation id="4251615635259297716">Voleu enllaçar les vostres dades de tomi amb aquest compte?</translation>
+<translation id="4262915912852657291"><ph name="BEGIN_BOLD" />Quines dades s'utilitzen<ph name="END_BOLD" />: el teu historial de navegació, que és un registre dels llocs web que has visitat amb tomi en aquest dispositiu.</translation>
 <translation id="4281844954008187215">Condicions del servei</translation>
-<translation id="4293420128516039005">Inicia la sessió per sincronitzar i personalitzar Decentr en tots els teus dispositius</translation>
-<translation id="430327780270213103">Permet que l'extensió mostri sol·licituds d'accés a la barra d'eines de Decentr</translation>
-<translation id="4328355335528187361">Decentr Dev (mDNS-In)</translation>
-<translation id="4329315893554541805">Per obtenir personalització i altres funcions, inclou Decentr a Activitat al web i en aplicacions i als serveis de Decentr enllaçats</translation>
+<translation id="4293420128516039005">Inicia la sessió per sincronitzar i personalitzar tomi en tots els teus dispositius</translation>
+<translation id="430327780270213103">Permet que l'extensió mostri sol·licituds d'accés a la barra d'eines de tomi</translation>
+<translation id="4328355335528187361">tomi Dev (mDNS-In)</translation>
+<translation id="4329315893554541805">Per obtenir personalització i altres funcions, inclou tomi a Activitat al web i en aplicacions i als serveis de tomi enllaçats</translation>
 <translation id="4334294535648607276">S'ha completat la baixada.</translation>
-<translation id="4335235004908507846">Decentr pot ajudar a protegir-te de violacions de les dades, d'extensions malicioses i més</translation>
-<translation id="4343195214584226067"><ph name="EXTENSION_NAME" /> s'ha afegit a Decentr</translation>
-<translation id="4348548358339558429">Per obtenir personalització, inclou Decentr a Activitat al web i en aplicacions</translation>
-<translation id="436060642166082913">Decentr ha bloquejat aquesta baixada perquè el fitxer pot malmetre els teus comptes personals i de xarxes socials</translation>
-<translation id="4384570495110188418">Decentr no pot comprovar les teves contrasenyes perquè no tens la sessió iniciada</translation>
-<translation id="4389991535395284064">Quan naveguis en mode d'incògnit, Decentr t'avisarà abans de carregar un lloc web amb una connexió no segura</translation>
+<translation id="4335235004908507846">tomi pot ajudar a protegir-te de violacions de les dades, d'extensions malicioses i més</translation>
+<translation id="4343195214584226067"><ph name="EXTENSION_NAME" /> s'ha afegit a tomi</translation>
+<translation id="4348548358339558429">Per obtenir personalització, inclou tomi a Activitat al web i en aplicacions</translation>
+<translation id="436060642166082913">tomi ha bloquejat aquesta baixada perquè el fitxer pot malmetre els teus comptes personals i de xarxes socials</translation>
+<translation id="4384570495110188418">tomi no pot comprovar les teves contrasenyes perquè no tens la sessió iniciada</translation>
+<translation id="4389991535395284064">Quan naveguis en mode d'incògnit, tomi t'avisarà abans de carregar un lloc web amb una connexió no segura</translation>
 <translation id="4427306783828095590">La protecció millorada és més efiçaç a l'hora de bloquejar la pesca de credencials i el programari maliciós</translation>
 <translation id="4434353761996769206">Error de l'instal·lador: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438657683599538446">Inicia la sessió a Decentr com a <ph name="USER_EMAIL" /></translation>
-<translation id="4450664632294415862">Decentr - Inici de sessió a la xarxa - <ph name="PAGE_TITLE" /></translation>
-<translation id="4458462641685292929">Hi ha una altra operació en curs a Decentr. Torna-ho a provar més tard.</translation>
-<translation id="4459234553906210702">El mesurament d'anuncis permet als llocs web que visites sol·licitar informació de Decentr que els ajudi a mesurar el rendiment dels anuncis. El mesurament d'anuncis restringeix el seguiment entre llocs web transferint la quantitat mínima possible d'informació entre llocs web.</translation>
+<translation id="4438657683599538446">Inicia la sessió a tomi com a <ph name="USER_EMAIL" /></translation>
+<translation id="4450664632294415862">tomi - Inici de sessió a la xarxa - <ph name="PAGE_TITLE" /></translation>
+<translation id="4458462641685292929">Hi ha una altra operació en curs a tomi. Torna-ho a provar més tard.</translation>
+<translation id="4459234553906210702">El mesurament d'anuncis permet als llocs web que visites sol·licitar informació de tomi que els ajudi a mesurar el rendiment dels anuncis. El mesurament d'anuncis restringeix el seguiment entre llocs web transferint la quantitat mínima possible d'informació entre llocs web.</translation>
 <translation id="4501471624619070934">La instal·lació ha fallat perquè l'accés està restringit en aquest país.</translation>
 <translation id="4567424176335768812">Has iniciat la sessió com a <ph name="USER_EMAIL_ADDRESS" />. Ja pots accedir a les teves adreces d'interès, al teu historial i a altres paràmetres en tots els dispositius en què tens la sessió iniciada.</translation>
-<translation id="4571503333518166079">Ves a la configuració de notificacions de Decentr</translation>
-<translation id="4575717501879784448">Decentr pot desactivar aquestes pestanyes per millorar la teva experiència de navegació i alliberar recursos.</translation>
-<translation id="459622048091363950">Un cop Decentr tingui accés, els llocs web et podran demanar accés.</translation>
-<translation id="4600710005438004015">Decentr no s'ha pogut actualitzar a la darrera versió, així que no pots gaudir de les funcions noves ni de les correccions de seguretat.</translation>
-<translation id="4624065194742029982">Mode d'incògnit a Decentr</translation>
-<translation id="4627412468266359539">Opcional: ajuda a millorar les funcions i el rendiment de DecentrOS Flex enviant automàticament dades de diagnòstic i d'ús a Decentr.</translation>
-<translation id="4633000520311261472">Perquè Decentr sigui més segur, hem desactivat algunes de les extensions que no apareixen a <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i que és possible que s'hagin afegit sense que ho sapigueu.</translation>
+<translation id="4571503333518166079">Ves a la configuració de notificacions de tomi</translation>
+<translation id="4575717501879784448">tomi pot desactivar aquestes pestanyes per millorar la teva experiència de navegació i alliberar recursos.</translation>
+<translation id="459622048091363950">Un cop tomi tingui accés, els llocs web et podran demanar accés.</translation>
+<translation id="4600710005438004015">tomi no s'ha pogut actualitzar a la darrera versió, així que no pots gaudir de les funcions noves ni de les correccions de seguretat.</translation>
+<translation id="4624065194742029982">Mode d'incògnit a tomi</translation>
+<translation id="4627412468266359539">Opcional: ajuda a millorar les funcions i el rendiment de tomiOS Flex enviant automàticament dades de diagnòstic i d'ús a tomi.</translation>
+<translation id="4633000520311261472">Perquè tomi sigui més segur, hem desactivat algunes de les extensions que no apareixen a <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> i que és possible que s'hagin afegit sense que ho sapigueu.</translation>
 <translation id="4680828127924988555">Cancel·la la instal·lació</translation>
-<translation id="469553575393225953">Les extensions, les aplicacions i els temes de fonts desconegudes poden malmetre el dispositiu. Decentr recomana que només n'instal·lis de Decentr Web Store.</translation>
+<translation id="469553575393225953">Les extensions, les aplicacions i els temes de fonts desconegudes poden malmetre el dispositiu. tomi recomana que només n'instal·lis de tomi Web Store.</translation>
 <translation id="4710245680469034439">Personalitza el navegador amb temes inspirats en la natura, col·leccions d'artistes i més</translation>
 <translation id="4724676981607797757">La instal·lació ha fallat a causa d'un error de protocol no admès.</translation>
-<translation id="4728575227883772061">S'ha produït un error no especificat durant la instal·lació. Si Decentr s'està executant en aquests moments, tanca'l i torna-ho a provar.</translation>
-<translation id="4747730611090640388">Decentr pot estimar els teus interessos.  Després, un lloc web que visitis pot demanar els teus interessos a Decentr per personalitzar els anuncis que veus.</translation>
-<translation id="4754614261631455953">Decentr Canary (mDNS-In)</translation>
-<translation id="479167709087336770">Fa servir el mateix corrector ortogràfic que s'utilitza a la Cerca de Decentr. El text que escrius al navegador s'envia a Decentr. Pots canviar aquest comportament sempre que vulguis a la configuració.</translation>
-<translation id="4793679854893018356">Informació sobre com et protegeix Decentr</translation>
-<translation id="4828579605166583682">Decentr està provant de substituir les contrasenyes existents. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
-<translation id="4842397268809523050">DecentrOS Flex no ha pogut sincronitzar les teves dades perquè la sincronització no està disponible per al teu domini.</translation>
-<translation id="4851866215237571846"><ph name="EXISTING_USER" /> ja ha iniciat la sessió.  Per mantenir la navegació per separat, inicia la sessió a Decentr amb el teu perfil (<ph name="USER_EMAIL_ADDRESS" />).</translation>
-<translation id="4862446263930606916">La teva organització pot veure i gestionar les dades de navegació del teu perfil de treball, com ara les adreces d'interès, l'historial i les contrasenyes. No pot veure les dades de navegació dels perfils personals de Decentr.</translation>
-<translation id="4873692836499071887">Per obtenir actualitzacions de Decentr en un futur, necessitaràs macOS 11 o una versió posterior. Aquest ordinador utilitza macOS 10.15.</translation>
-<translation id="4873783916118289636">Revisa els controls principals de privadesa i seguretat a Decentr</translation>
-<translation id="4891791193823137474">Permet que Decentr s'executi en procés de fons</translation>
-<translation id="4895437082222824641">Obre l'enllaç en una pes&amp;tanya nova a Decentr</translation>
-<translation id="492720062778050435">Decentr et recomana que revisis aquesta extensió</translation>
+<translation id="4728575227883772061">S'ha produït un error no especificat durant la instal·lació. Si tomi s'està executant en aquests moments, tanca'l i torna-ho a provar.</translation>
+<translation id="4747730611090640388">tomi pot estimar els teus interessos.  Després, un lloc web que visitis pot demanar els teus interessos a tomi per personalitzar els anuncis que veus.</translation>
+<translation id="4754614261631455953">tomi Canary (mDNS-In)</translation>
+<translation id="479167709087336770">Fa servir el mateix corrector ortogràfic que s'utilitza a la Cerca de tomi. El text que escrius al navegador s'envia a tomi. Pots canviar aquest comportament sempre que vulguis a la configuració.</translation>
+<translation id="4793679854893018356">Informació sobre com et protegeix tomi</translation>
+<translation id="4828579605166583682">tomi està provant de substituir les contrasenyes existents. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
+<translation id="4842397268809523050">tomiOS Flex no ha pogut sincronitzar les teves dades perquè la sincronització no està disponible per al teu domini.</translation>
+<translation id="4851866215237571846"><ph name="EXISTING_USER" /> ja ha iniciat la sessió.  Per mantenir la navegació per separat, inicia la sessió a tomi amb el teu perfil (<ph name="USER_EMAIL_ADDRESS" />).</translation>
+<translation id="4862446263930606916">La teva organització pot veure i gestionar les dades de navegació del teu perfil de treball, com ara les adreces d'interès, l'historial i les contrasenyes. No pot veure les dades de navegació dels perfils personals de tomi.</translation>
+<translation id="4873692836499071887">Per obtenir actualitzacions de tomi en un futur, necessitaràs macOS 11 o una versió posterior. Aquest ordinador utilitza macOS 10.15.</translation>
+<translation id="4873783916118289636">Revisa els controls principals de privadesa i seguretat a tomi</translation>
+<translation id="4891791193823137474">Permet que tomi s'executi en procés de fons</translation>
+<translation id="4895437082222824641">Obre l'enllaç en una pes&amp;tanya nova a tomi</translation>
+<translation id="492720062778050435">tomi et recomana que revisis aquesta extensió</translation>
 <translation id="4951177103388687412">Organitza't i concentra't amb l'ajuda dels grups de pestanyes</translation>
-<translation id="4953650215774548573">Defineix Decentr com a navegador predeterminat</translation>
-<translation id="495931528404527476">A Decentr</translation>
-<translation id="4969674060580488087">DecentrOS Flex no ha pogut sincronitzar les teves dades perquè els detalls d'inici de sessió del compte no estan actualitzats.</translation>
-<translation id="4970761609246024540">Et donem la benvinguda als perfils de Decentr</translation>
-<translation id="4970880042055371251">Versió de Decentr OS</translation>
-<translation id="4990567037958725628">Decentr Canary</translation>
-<translation id="4997044641749333913">Decentr pot desactivar aquestes pestanyes per millorar i agilitzar la teva experiència de navegació.</translation>
-<translation id="5003967926796347400">Fes clic a Gestor de contrasenyes de Decentr</translation>
-<translation id="5120334927898581447">Inicia la sessió a Decentr quan iniciïs la sessió en altres serveis de Decentr</translation>
-<translation id="5126049312684316860">Decentr precarrega encara més pàgines que és probable que visitis perquè es carreguin més ràpidament quan ho facis</translation>
-<translation id="5132929315877954718">Descobriu aplicacions, jocs, extensions i temes genials per a Decentr.</translation>
-<translation id="5139423532931106058">Personalitza el teu perfil de Decentr</translation>
-<translation id="5161361450770099246">Decentr pot desactivar aquesta pestanya per millorar la teva experiència de navegació i alliberar recursos.</translation>
-<translation id="5163087008893166964">Et donem la benvinguda a Decentr; s'ha obert una altra finestra del navegador</translation>
-<translation id="5170938038195470297">El vostre perfil no es pot utilitzar perquè prové d'una versió més nova de Decentr. Pot ser que algunes funcions no estiguin disponibles. Especifiqueu un directori de perfil diferent o utilitzeu una versió més nova de Decentr.</translation>
-<translation id="5201744974236816379">Actualització de Decentr</translation>
-<translation id="521447420733633466">Si comparteixes un dispositiu, els amics i els familiars poden navegar per separat i configurar Decentr com vulguin</translation>
-<translation id="5239627039202700673">Utilitza Decentr cada vegada que facis clic en enllaços en missatges, documents i altres aplicacions</translation>
-<translation id="5251420635869119124">Els convidats poden utilitzar Decentr sense deixar-hi rastre.</translation>
-<translation id="5320351714793324716">Si permets les galetes, Decentr pot utilitzar-les en la precàrrega</translation>
-<translation id="5334309298019785904">Decentr OS no ha pogut sincronitzar les teves dades perquè la sincronització no està disponible per al teu domini.</translation>
-<translation id="5334487786912937552">Decentr necessita permís d'accés a l'emmagatzematge per poder baixar fitxers</translation>
-<translation id="5337648990166757586">Opcional: ajuda a millorar les funcions i el rendiment de Decentr OS enviant automàticament dades de diagnòstic i d'ús a Decentr.</translation>
-<translation id="5357889879764279201">Obtén ajuda amb DecentrOS Flex</translation>
+<translation id="4953650215774548573">Defineix tomi com a navegador predeterminat</translation>
+<translation id="495931528404527476">A tomi</translation>
+<translation id="4969674060580488087">tomiOS Flex no ha pogut sincronitzar les teves dades perquè els detalls d'inici de sessió del compte no estan actualitzats.</translation>
+<translation id="4970761609246024540">Et donem la benvinguda als perfils de tomi</translation>
+<translation id="4970880042055371251">Versió de tomi OS</translation>
+<translation id="4990567037958725628">tomi Canary</translation>
+<translation id="4997044641749333913">tomi pot desactivar aquestes pestanyes per millorar i agilitzar la teva experiència de navegació.</translation>
+<translation id="5003967926796347400">Fes clic a Gestor de contrasenyes de tomi</translation>
+<translation id="5120334927898581447">Inicia la sessió a tomi quan iniciïs la sessió en altres serveis de tomi</translation>
+<translation id="5126049312684316860">tomi precarrega encara més pàgines que és probable que visitis perquè es carreguin més ràpidament quan ho facis</translation>
+<translation id="5132929315877954718">Descobriu aplicacions, jocs, extensions i temes genials per a tomi.</translation>
+<translation id="5139423532931106058">Personalitza el teu perfil de tomi</translation>
+<translation id="5161361450770099246">tomi pot desactivar aquesta pestanya per millorar la teva experiència de navegació i alliberar recursos.</translation>
+<translation id="5163087008893166964">Et donem la benvinguda a tomi; s'ha obert una altra finestra del navegador</translation>
+<translation id="5170938038195470297">El vostre perfil no es pot utilitzar perquè prové d'una versió més nova de tomi. Pot ser que algunes funcions no estiguin disponibles. Especifiqueu un directori de perfil diferent o utilitzeu una versió més nova de tomi.</translation>
+<translation id="5201744974236816379">Actualització de tomi</translation>
+<translation id="521447420733633466">Si comparteixes un dispositiu, els amics i els familiars poden navegar per separat i configurar tomi com vulguin</translation>
+<translation id="5239627039202700673">Utilitza tomi cada vegada que facis clic en enllaços en missatges, documents i altres aplicacions</translation>
+<translation id="5251420635869119124">Els convidats poden utilitzar tomi sense deixar-hi rastre.</translation>
+<translation id="5320351714793324716">Si permets les galetes, tomi pot utilitzar-les en la precàrrega</translation>
+<translation id="5334309298019785904">tomi OS no ha pogut sincronitzar les teves dades perquè la sincronització no està disponible per al teu domini.</translation>
+<translation id="5334487786912937552">tomi necessita permís d'accés a l'emmagatzematge per poder baixar fitxers</translation>
+<translation id="5337648990166757586">Opcional: ajuda a millorar les funcions i el rendiment de tomi OS enviant automàticament dades de diagnòstic i d'ús a tomi.</translation>
+<translation id="5357889879764279201">Obtén ajuda amb tomiOS Flex</translation>
 <translation id="5368118228313795342">Codi addicional: <ph name="EXTRA_CODE" />.</translation>
-<translation id="5386244825306882791">També controla la pàgina que es mostra quan inicieu Decentr o quan feu una cerca des de l'omnibox.</translation>
-<translation id="5394833366792865639">Comparteix una pestanya de Decentr</translation>
-<translation id="5412485296464121825">Els llocs web poden emmagatzemar informació a Decentr sobre els teus interessos. Per exemple, si visites un lloc web per comprar sabatilles per a una marató, és possible que el lloc web defineixi que t'interessa córrer maratons. Més endavant, si visites un altre lloc web per inscriure't a una cursa, aquest altre lloc web et pot mostrar un anunci de sabatilles de curses basant-se en els teus interessos.</translation>
-<translation id="5430073640787465221">El fitxer de preferències està malmès o no és vàlid. Decentr no pot recuperar la configuració.</translation>
-<translation id="5468572406162360320">Per ajudar a millorar aquestes funcions, Decentr envia a Decentr les interaccions que hi mantinguis. És possible que revisors humans llegeixin, tractin i anotin aquestes dades.</translation>
-<translation id="5524761631371622910">Quan les proves estan activades, i si Decentr t'ha inclòs aleatòriament en una prova activa, el teu historial de navegació afecta els anuncis que veus i les estimacions d'interessos que es mostren més avall. Amb la finalitat de protegir la teva privadesa, Decentr suprimeix els interessos de manera contínua cada mes.</translation>
-<translation id="5530733413481476019">Fes que Decentr sigui més ràpid</translation>
-<translation id="5566025111015594046">Decentr (mDNS-In)</translation>
-<translation id="5602351063754773347">Decentr et recomana que la suprimeixis. <ph name="BEGIN_LINK" />Més informació sobre les extensions admeses<ph name="END_LINK" /></translation>
-<translation id="5648328599815354043">Decentr és més eficaç a l'hora de protegir-te en línia</translation>
-<translation id="565744775970812598">Decentr ha bloquejat <ph name="FILE_NAME" /> perquè pot ser perillós.</translation>
-<translation id="5678190148303298925">{COUNT,plural, =0{L'administrador et demana que reiniciïs Decentr per aplicar aquesta actualització}=1{L'administrador et demana que reiniciïs Decentr per aplicar aquesta actualització. La finestra d'incògnit no es tornarà a obrir.}other{L'administrador et demana que reiniciïs Decentr per aplicar aquesta actualització. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
-<translation id="5686916850681061684">Personalitza i controla Decentr Decentr. Cal la teva intervenció. Fes clic per obtenir més informació.</translation>
-<translation id="5690427481109656848">Decentr LLC</translation>
+<translation id="5386244825306882791">També controla la pàgina que es mostra quan inicieu tomi o quan feu una cerca des de l'omnibox.</translation>
+<translation id="5394833366792865639">Comparteix una pestanya de tomi</translation>
+<translation id="5412485296464121825">Els llocs web poden emmagatzemar informació a tomi sobre els teus interessos. Per exemple, si visites un lloc web per comprar sabatilles per a una marató, és possible que el lloc web defineixi que t'interessa córrer maratons. Més endavant, si visites un altre lloc web per inscriure't a una cursa, aquest altre lloc web et pot mostrar un anunci de sabatilles de curses basant-se en els teus interessos.</translation>
+<translation id="5430073640787465221">El fitxer de preferències està malmès o no és vàlid. tomi no pot recuperar la configuració.</translation>
+<translation id="5468572406162360320">Per ajudar a millorar aquestes funcions, tomi envia a tomi les interaccions que hi mantinguis. És possible que revisors humans llegeixin, tractin i anotin aquestes dades.</translation>
+<translation id="5524761631371622910">Quan les proves estan activades, i si tomi t'ha inclòs aleatòriament en una prova activa, el teu historial de navegació afecta els anuncis que veus i les estimacions d'interessos que es mostren més avall. Amb la finalitat de protegir la teva privadesa, tomi suprimeix els interessos de manera contínua cada mes.</translation>
+<translation id="5530733413481476019">Fes que tomi sigui més ràpid</translation>
+<translation id="5566025111015594046">tomi (mDNS-In)</translation>
+<translation id="5602351063754773347">tomi et recomana que la suprimeixis. <ph name="BEGIN_LINK" />Més informació sobre les extensions admeses<ph name="END_LINK" /></translation>
+<translation id="5648328599815354043">tomi és més eficaç a l'hora de protegir-te en línia</translation>
+<translation id="565744775970812598">tomi ha bloquejat <ph name="FILE_NAME" /> perquè pot ser perillós.</translation>
+<translation id="5678190148303298925">{COUNT,plural, =0{L'administrador et demana que reiniciïs tomi per aplicar aquesta actualització}=1{L'administrador et demana que reiniciïs tomi per aplicar aquesta actualització. La finestra d'incògnit no es tornarà a obrir.}other{L'administrador et demana que reiniciïs tomi per aplicar aquesta actualització. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
+<translation id="5686916850681061684">Personalitza i controla tomi tomi. Cal la teva intervenció. Fes clic per obtenir més informació.</translation>
+<translation id="5690427481109656848">tomi LLC</translation>
 <translation id="569897634095159764">No es pot connectar a Internet. El servidor intermediari necessita autenticació.</translation>
-<translation id="570005089986962444">Quan aquesta opció està activada, Decentr allibera memòria de les pestanyes inactives. Així, les pestanyes actives i altres aplicacions disposen de més recursos de l'ordinador i es manté l'agilitat de Decentr. Les pestanyes inactives s'activen de nou automàticament quan hi tornes.</translation>
-<translation id="5709557627224531708">Defineix Decentr com a navegador predeterminat</translation>
-<translation id="5727531838415286053">Si Decentr t'ha inclòs aleatòriament en una prova activa, el teu historial de navegació afecta els anuncis que veus i les estimacions d'interessos que es mostren més avall. Amb la finalitat de protegir la teva privadesa, Decentr suprimeix els interessos de manera contínua cada mes, i s'actualitzen tret que els suprimeixis.</translation>
-<translation id="5736850870166430177">Si un lloc web prova de robar-te la contrasenya o si baixes un fitxer maliciós, és possible que Decentr també n'enviï els URL, inclosos fragments de contingut de les pàgines, a Navegació segura</translation>
-<translation id="5756509061973259733">Ja existeix un perfil de Decentr amb aquest compte en aquest dispositiu</translation>
-<translation id="5795887333006832406"><ph name="PAGE_TITLE" /> - Decentr Canary</translation>
-<translation id="5804318322022881572">No s'ha pogut iniciar Decentr. Torna-ho a provar.</translation>
+<translation id="570005089986962444">Quan aquesta opció està activada, tomi allibera memòria de les pestanyes inactives. Així, les pestanyes actives i altres aplicacions disposen de més recursos de l'ordinador i es manté l'agilitat de tomi. Les pestanyes inactives s'activen de nou automàticament quan hi tornes.</translation>
+<translation id="5709557627224531708">Defineix tomi com a navegador predeterminat</translation>
+<translation id="5727531838415286053">Si tomi t'ha inclòs aleatòriament en una prova activa, el teu historial de navegació afecta els anuncis que veus i les estimacions d'interessos que es mostren més avall. Amb la finalitat de protegir la teva privadesa, tomi suprimeix els interessos de manera contínua cada mes, i s'actualitzen tret que els suprimeixis.</translation>
+<translation id="5736850870166430177">Si un lloc web prova de robar-te la contrasenya o si baixes un fitxer maliciós, és possible que tomi també n'enviï els URL, inclosos fragments de contingut de les pàgines, a Navegació segura</translation>
+<translation id="5756509061973259733">Ja existeix un perfil de tomi amb aquest compte en aquest dispositiu</translation>
+<translation id="5795887333006832406"><ph name="PAGE_TITLE" /> - tomi Canary</translation>
+<translation id="5804318322022881572">No s'ha pogut iniciar tomi. Torna-ho a provar.</translation>
 <translation id="5809516625706423866">No es pot connectar a Internet. Error d'HTTP "401 Unauthorized". Comprova la configuració del servidor intermediari.</translation>
-<translation id="5825922397106002626">Suprimeix <ph name="EXTENSION_NAME" /> de Decentr</translation>
-<translation id="58431560289969279">Mentre tinguis la sessió iniciada, podràs utilitzar les teves contrasenyes i altres elements del teu Compte de Decentr a Decentr. Pots canviar-ho en qualsevol moment a la configuració.</translation>
-<translation id="5858486459377137936">Quan tanquis totes les finestres de Decentr, se't tancarà la sessió de la majoria de llocs web, tret del teu Compte de Decentr si tens la sessió iniciada a Decentr. Perquè els llocs web et recordin, <ph name="SETTINGS_LINK" />.</translation>
-<translation id="586971344380992563"><ph name="BEGIN_LINK" />Decentr t'avisa<ph name="END_LINK" /> sobre baixades i llocs web que no són segurs</translation>
+<translation id="5825922397106002626">Suprimeix <ph name="EXTENSION_NAME" /> de tomi</translation>
+<translation id="58431560289969279">Mentre tinguis la sessió iniciada, podràs utilitzar les teves contrasenyes i altres elements del teu Compte de tomi a tomi. Pots canviar-ho en qualsevol moment a la configuració.</translation>
+<translation id="5858486459377137936">Quan tanquis totes les finestres de tomi, se't tancarà la sessió de la majoria de llocs web, tret del teu Compte de tomi si tens la sessió iniciada a tomi. Perquè els llocs web et recordin, <ph name="SETTINGS_LINK" />.</translation>
+<translation id="586971344380992563"><ph name="BEGIN_LINK" />tomi t'avisa<ph name="END_LINK" /> sobre baixades i llocs web que no són segurs</translation>
 <translation id="5895138241574237353">Reinicia</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - Inici de sessió a la xarxa</translation>
 <translation id="5924017743176219022">S'està connectant a Internet...</translation>
-<translation id="5932997892801542621">Quan escrius a la barra d'adreces o al quadre de cerca, Decentr envia el que escrius a Decentr Drive per obtenir suggeriments d'elements. Aquesta opció està desactivada en mode d'incògnit.</translation>
-<translation id="5940385492829620908">El vostre web, les adreces d'interès i altres coses de Decentr resideixen aquí.</translation>
+<translation id="5932997892801542621">Quan escrius a la barra d'adreces o al quadre de cerca, tomi envia el que escrius a tomi Drive per obtenir suggeriments d'elements. Aquesta opció està desactivada en mode d'incògnit.</translation>
+<translation id="5940385492829620908">El vostre web, les adreces d'interès i altres coses de tomi resideixen aquí.</translation>
 <translation id="5941711191222866238">Minimitza</translation>
-<translation id="5941830788786076944">Estableix Decentr com el navegador predeterminat</translation>
-<translation id="5947104538377036631">Drecera de Decentr</translation>
-<translation id="5953954252731207958">No l'has visitat recentment. Decentr ha suprimit <ph name="PERMISSION" />.</translation>
+<translation id="5941830788786076944">Estableix tomi com el navegador predeterminat</translation>
+<translation id="5947104538377036631">Drecera de tomi</translation>
+<translation id="5953954252731207958">No l'has visitat recentment. tomi ha suprimit <ph name="PERMISSION" />.</translation>
 <translation id="6003112304606738118">S'està baixant… Queden <ph name="HOURS" /> hores</translation>
-<translation id="6014316319780893079">Amb les <ph name="BEGIN_LINK" />eines de Decentr<ph name="END_LINK" />, pots navegar de manera segura i mantenir el control</translation>
-<translation id="6022659036123304283">Personalitza Decentr</translation>
-<translation id="6025087594896450715">Decentr es reiniciarà d'aquí a <ph name="REMAINING_TIME" /></translation>
+<translation id="6014316319780893079">Amb les <ph name="BEGIN_LINK" />eines de tomi<ph name="END_LINK" />, pots navegar de manera segura i mantenir el control</translation>
+<translation id="6022659036123304283">Personalitza tomi</translation>
+<translation id="6025087594896450715">tomi es reiniciarà d'aquí a <ph name="REMAINING_TIME" /></translation>
 <translation id="6040143037577758943">Tanca</translation>
-<translation id="6070348360322141662">Per a més seguretat, Decentr encriptarà les teves dades</translation>
+<translation id="6070348360322141662">Per a més seguretat, tomi encriptarà les teves dades</translation>
 <translation id="608006075545470555">Afegeix un perfil de treball a aquest navegador</translation>
 <translation id="6097822892606850415">Escriu amb més confiança amb l'ajuda de la IA</translation>
-<translation id="6113794647360055231">Decentr és millor que mai</translation>
-<translation id="6134085236017727171">Per poder utilitzar el micròfon, dona accés a Decentr des de la <ph name="BEGIN_LINK" />configuració del sistema<ph name="END_LINK" /></translation>
-<translation id="6135456723633883042">Aquestes pestanyes utilitzen recursos addicionals. Per millorar el rendiment, permet que Decentr les desactivi.</translation>
-<translation id="6145313976051292476">Obre els fitxers PDF a Decentr</translation>
-<translation id="6157638032135951407">La teva organització suprimeix les dades de Decentr quan no s'utilitza durant <ph name="TIMEOUT_DURATION" />. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.</translation>
-<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> - Decentr</translation>
-<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> - Decentr Beta</translation>
-<translation id="6180522807229584611">Aquesta pestanya utilitza recursos addicionals. Per millorar el rendiment, permet que Decentr la desactivi.</translation>
+<translation id="6113794647360055231">tomi és millor que mai</translation>
+<translation id="6134085236017727171">Per poder utilitzar el micròfon, dona accés a tomi des de la <ph name="BEGIN_LINK" />configuració del sistema<ph name="END_LINK" /></translation>
+<translation id="6135456723633883042">Aquestes pestanyes utilitzen recursos addicionals. Per millorar el rendiment, permet que tomi les desactivi.</translation>
+<translation id="6145313976051292476">Obre els fitxers PDF a tomi</translation>
+<translation id="6157638032135951407">La teva organització suprimeix les dades de tomi quan no s'utilitza durant <ph name="TIMEOUT_DURATION" />. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.</translation>
+<translation id="6169866489629082767"><ph name="PAGE_TITLE" /> - tomi</translation>
+<translation id="6173637689840186878"><ph name="PAGE_TITLE" /> - tomi Beta</translation>
+<translation id="6180522807229584611">Aquesta pestanya utilitza recursos addicionals. Per millorar el rendiment, permet que tomi la desactivi.</translation>
 <translation id="6182736845697986886">La instal·lació ha fallat a causa d'un error intern del servidor d'actualitzacions.</translation>
-<translation id="6200139057479872438">No l'has visitat recentment. Decentr ha suprimit <ph name="PERMISSION_1" /> i <ph name="PERMISSION_2" />.</translation>
-<translation id="621585339844629864">Per compartir la pantalla, permet que Decentr gravi la pantalla a Preferències del sistema.</translation>
-<translation id="6235018212288296708">Regla d'entrada de Decentr per permetre el trànsit de mDNS.</translation>
-<translation id="624230925347970731">Decentr es tancarà aviat</translation>
-<translation id="6247557882553405851">Gestor de contrasenyes de Decentr</translation>
-<translation id="6251759518630934363">T'avisa de llocs web perillosos, fins i tot dels que Decentr no coneixia abans, ja que analitza més dades dels llocs web que la protecció estàndard. Pots optar per ometre els advertiments de Decentr.</translation>
-<translation id="6277547788421725101">El teu pare o mare ha desactivat Permisos per a llocs web, aplicacions i extensions en relació amb Decentr</translation>
-<translation id="627882678981830918">Personalitza i controla Decentr. Defineix Decentr com a navegador predeterminat.</translation>
-<translation id="6288788894729749483">Estableix Decentr com a opció predeterminada per fer, crear i explorar contingut en línia de manera segura</translation>
-<translation id="6291089322031436445">Aplicacions de Decentr Dev</translation>
-<translation id="6291549208091401781">Ja tens instal·lat Decentr per a tots els usuaris de l'ordinador.</translation>
-<translation id="6319856120645568262">Decentr necessita permís per mapar el teu entorn i fer un seguiment de les teves mans</translation>
-<translation id="6321592572353357376">L'extensió "<ph name="EXTENSION_NAME" />" vol que iniciïs la sessió a Decentr</translation>
-<translation id="6326175484149238433">Suprimeix de Decentr</translation>
+<translation id="6200139057479872438">No l'has visitat recentment. tomi ha suprimit <ph name="PERMISSION_1" /> i <ph name="PERMISSION_2" />.</translation>
+<translation id="621585339844629864">Per compartir la pantalla, permet que tomi gravi la pantalla a Preferències del sistema.</translation>
+<translation id="6235018212288296708">Regla d'entrada de tomi per permetre el trànsit de mDNS.</translation>
+<translation id="624230925347970731">tomi es tancarà aviat</translation>
+<translation id="6247557882553405851">Gestor de contrasenyes de tomi</translation>
+<translation id="6251759518630934363">T'avisa de llocs web perillosos, fins i tot dels que tomi no coneixia abans, ja que analitza més dades dels llocs web que la protecció estàndard. Pots optar per ometre els advertiments de tomi.</translation>
+<translation id="6277547788421725101">El teu pare o mare ha desactivat Permisos per a llocs web, aplicacions i extensions en relació amb tomi</translation>
+<translation id="627882678981830918">Personalitza i controla tomi. Defineix tomi com a navegador predeterminat.</translation>
+<translation id="6288788894729749483">Estableix tomi com a opció predeterminada per fer, crear i explorar contingut en línia de manera segura</translation>
+<translation id="6291089322031436445">Aplicacions de tomi Dev</translation>
+<translation id="6291549208091401781">Ja tens instal·lat tomi per a tots els usuaris de l'ordinador.</translation>
+<translation id="6319856120645568262">tomi necessita permís per mapar el teu entorn i fer un seguiment de les teves mans</translation>
+<translation id="6321592572353357376">L'extensió "<ph name="EXTENSION_NAME" />" vol que iniciïs la sessió a tomi</translation>
+<translation id="6326175484149238433">Suprimeix de tomi</translation>
 <translation id="6327105987658262776">No hi ha cap actualització disponible.</translation>
-<translation id="6360449101159168105">Mentre aquesta pestanya estava inactiva, s'ha alliberat memòria perquè Decentr funcioni sempre de pressa. Pots optar per excloure sempre aquest lloc web d'estar inactiu.</translation>
-<translation id="6412673304250309937">Compara els URL amb una llista de llocs web no segurs emmagatzemada a Decentr. Si un lloc web prova de robar-te la contrasenya o si baixes un fitxer maliciós, és possible que Decentr també n'enviï els URL, inclosos fragments de contingut de les pàgines, a Navegació segura.</translation>
-<translation id="6417690341895039567">{COUNT,plural, =1{La teva organització tanca Decentr automàticament quan no s'utilitza durant 1 minut. Les dades de navegació se suprimeixen. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.}other{La teva organització tanca Decentr automàticament quan no s'utilitza durant # minuts. Les dades de navegació se suprimeixen. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.}}</translation>
-<translation id="6418662306461808273">Vols canviar al perfil de Decentr existent?</translation>
-<translation id="6473905796280459355">Ves a la pàgina Sobre Decentr</translation>
-<translation id="6479881432656947268">Visita Decentr Web Store</translation>
-<translation id="6481963882741794338">Enllaça Decentr i altres serveis de Decentr per a la personalització i altres finalitats</translation>
+<translation id="6360449101159168105">Mentre aquesta pestanya estava inactiva, s'ha alliberat memòria perquè tomi funcioni sempre de pressa. Pots optar per excloure sempre aquest lloc web d'estar inactiu.</translation>
+<translation id="6412673304250309937">Compara els URL amb una llista de llocs web no segurs emmagatzemada a tomi. Si un lloc web prova de robar-te la contrasenya o si baixes un fitxer maliciós, és possible que tomi també n'enviï els URL, inclosos fragments de contingut de les pàgines, a Navegació segura.</translation>
+<translation id="6417690341895039567">{COUNT,plural, =1{La teva organització tanca tomi automàticament quan no s'utilitza durant 1 minut. Les dades de navegació se suprimeixen. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.}other{La teva organització tanca tomi automàticament quan no s'utilitza durant # minuts. Les dades de navegació se suprimeixen. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades.}}</translation>
+<translation id="6418662306461808273">Vols canviar al perfil de tomi existent?</translation>
+<translation id="6473905796280459355">Ves a la pàgina Sobre tomi</translation>
+<translation id="6479881432656947268">Visita tomi Web Store</translation>
+<translation id="6481963882741794338">Enllaça tomi i altres serveis de tomi per a la personalització i altres finalitats</translation>
 <translation id="648319183876919572">La Navegació segura millorada és més eficaç a l'hora de protegir-te de baixades i llocs web perillosos</translation>
-<translation id="6489302989675808168">Activat • Decentr no pot verificar d'on prové aquesta extensió</translation>
-<translation id="6493527311031785448">Decentr està intentant <ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="6497147134301593682">Decentr s'ha tancat automàticament</translation>
-<translation id="6506909944137591434">Decentr necessita permís d'accés a la càmera per poder crear un mapa en 3D del teu entorn</translation>
-<translation id="6515495397637126556"><ph name="PAGE_TITLE" /> - Decentr Dev</translation>
-<translation id="6520670145826811516">Per poder utilitzar la ubicació, dona accés a Decentr des de la <ph name="BEGIN_LINK" />configuració del sistema<ph name="END_LINK" /></translation>
-<translation id="659498884637196217">Al gestor de contrasenyes de Decentr en aquest dispositiu</translation>
-<translation id="6632473616050862500">DecentrOS Flex és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure<ph name="END_LINK_CROS_OSS" /> addicional.</translation>
-<translation id="6660596345553328257">Vols iniciar la sessió a Decentr?</translation>
+<translation id="6489302989675808168">Activat • tomi no pot verificar d'on prové aquesta extensió</translation>
+<translation id="6493527311031785448">tomi està intentant <ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="6497147134301593682">tomi s'ha tancat automàticament</translation>
+<translation id="6506909944137591434">tomi necessita permís d'accés a la càmera per poder crear un mapa en 3D del teu entorn</translation>
+<translation id="6515495397637126556"><ph name="PAGE_TITLE" /> - tomi Dev</translation>
+<translation id="6520670145826811516">Per poder utilitzar la ubicació, dona accés a tomi des de la <ph name="BEGIN_LINK" />configuració del sistema<ph name="END_LINK" /></translation>
+<translation id="659498884637196217">Al gestor de contrasenyes de tomi en aquest dispositiu</translation>
+<translation id="6632473616050862500">tomiOS Flex és possible gràcies a <ph name="BEGIN_LINK_CROS_OSS" />programari lliure<ph name="END_LINK_CROS_OSS" /> addicional.</translation>
+<translation id="6660596345553328257">Vols iniciar la sessió a tomi?</translation>
 <translation id="6676384891291319759">Accedeix a Internet</translation>
-<translation id="6679975945624592337">Permet que Decentr Decentr s'executi en segon pla</translation>
-<translation id="6696915334902295848">Decentr necessita permís d'accés al micròfon per a aquest lloc web</translation>
+<translation id="6679975945624592337">Permet que tomi tomi s'executi en segon pla</translation>
+<translation id="6696915334902295848">tomi necessita permís d'accés al micròfon per a aquest lloc web</translation>
 <translation id="6712881677154121168">Error de baixada: <ph name="DOWNLOAD_ERROR" />.</translation>
-<translation id="6718739135284199302">Fes que Decentr sigui més ràpid</translation>
-<translation id="6735387454586646204">Sistema DecentrOS Flex</translation>
-<translation id="6739177684496155661">Vols continuar en un perfil de Decentr nou?</translation>
-<translation id="6750954913813541382">Per corregir els errors d'ortografia, Decentr envia a Decentr el text que escrius al navegador</translation>
-<translation id="677276454032249905">Vols sortir de Decentr igualment?</translation>
-<translation id="6794858689789885890">Suprimeix sempre les dades dels llocs web del dispositiu quan tanquis Decentr</translation>
-<translation id="683440813066116847">Regla d'entrada de Decentr Canary per permetre el trànsit de mDNS.</translation>
-<translation id="6834926483721196812">Decentr està dissenyat per oferir un bon rendiment amb funcions com Estalvi d'energia i Estalvi de memòria</translation>
+<translation id="6718739135284199302">Fes que tomi sigui més ràpid</translation>
+<translation id="6735387454586646204">Sistema tomiOS Flex</translation>
+<translation id="6739177684496155661">Vols continuar en un perfil de tomi nou?</translation>
+<translation id="6750954913813541382">Per corregir els errors d'ortografia, tomi envia a tomi el text que escrius al navegador</translation>
+<translation id="677276454032249905">Vols sortir de tomi igualment?</translation>
+<translation id="6794858689789885890">Suprimeix sempre les dades dels llocs web del dispositiu quan tanquis tomi</translation>
+<translation id="683440813066116847">Regla d'entrada de tomi Canary per permetre el trànsit de mDNS.</translation>
+<translation id="6834926483721196812">tomi està dissenyat per oferir un bon rendiment amb funcions com Estalvi d'energia i Estalvi de memòria</translation>
 <translation id="684888714667046800">No es pot connectar a Internet. Si fas servir un tallafoc, assegura't que <ph name="PRODUCT_EXE_NAME" /> sigui a la llista d'accés permès.</translation>
-<translation id="6851981911629679515">Activa la protecció addicional al motor JavaScript i WebAssembly de Decentr</translation>
-<translation id="6881299373831449287">S'està actualitzant Decentr</translation>
-<translation id="6885412569789873916">Aplicacions de Decentr Beta</translation>
-<translation id="6893363893008038481">Suprimeix el compte de Decentr</translation>
-<translation id="6933858244219479645">Sistema DecentrOS</translation>
-<translation id="6938166777909186039">Per obtenir actualitzacions de Decentr en el futur, necessitaràs Windows 10 o una versió posterior. Aquest ordinador utilitza Windows 8.1.</translation>
-<translation id="6943584222992551122">Les dades de navegació d'aquesta persona se suprimiran d'aquest dispositiu. Per recuperar-les, inicia la sessió a Decentr com a <ph name="USER_EMAIL" />.</translation>
-<translation id="6967962315388095737">Regla d'entrada de Decentr Beta per permetre el trànsit d'mDNS.</translation>
-<translation id="6979589607440534284">Descobreix per què Decentr bloqueja alguns fitxers (s'obre en una pestanya nova)</translation>
+<translation id="6851981911629679515">Activa la protecció addicional al motor JavaScript i WebAssembly de tomi</translation>
+<translation id="6881299373831449287">S'està actualitzant tomi</translation>
+<translation id="6885412569789873916">Aplicacions de tomi Beta</translation>
+<translation id="6893363893008038481">Suprimeix el compte de tomi</translation>
+<translation id="6933858244219479645">Sistema tomiOS</translation>
+<translation id="6938166777909186039">Per obtenir actualitzacions de tomi en el futur, necessitaràs Windows 10 o una versió posterior. Aquest ordinador utilitza Windows 8.1.</translation>
+<translation id="6943584222992551122">Les dades de navegació d'aquesta persona se suprimiran d'aquest dispositiu. Per recuperar-les, inicia la sessió a tomi com a <ph name="USER_EMAIL" />.</translation>
+<translation id="6967962315388095737">Regla d'entrada de tomi Beta per permetre el trànsit d'mDNS.</translation>
+<translation id="6979589607440534284">Descobreix per què tomi bloqueja alguns fitxers (s'obre en una pestanya nova)</translation>
 <translation id="7011190694940573312">La instal·lació ha fallat perquè aquesta versió del sistema operatiu no és compatible.</translation>
 <translation id="7024536598735240744">Error de descompressió: <ph name="UNPACK_ERROR" /></translation>
 <translation id="7025789849649390912">La instal·lació s'ha aturat.</translation>
-<translation id="7025800014283535195">Pots canviar entre perfils de Decentr aquí</translation>
-<translation id="7036251913954633326">Si vols utilitzar aquest compte només una vegada, pots utilitzar el <ph name="GUEST_LINK_BEGIN" />mode de convidat<ph name="GUEST_LINK_END" /> al navegador Decentr. Si vols afegir un compte per a algú altre, <ph name="LINK_BEGIN" />afegeix una persona nova<ph name="LINK_END" /> al teu <ph name="DEVICE_TYPE" />.
+<translation id="7025800014283535195">Pots canviar entre perfils de tomi aquí</translation>
+<translation id="7036251913954633326">Si vols utilitzar aquest compte només una vegada, pots utilitzar el <ph name="GUEST_LINK_BEGIN" />mode de convidat<ph name="GUEST_LINK_END" /> al navegador tomi. Si vols afegir un compte per a algú altre, <ph name="LINK_BEGIN" />afegeix una persona nova<ph name="LINK_END" /> al teu <ph name="DEVICE_TYPE" />.
 
-És possible que els permisos que ja hagis donat a llocs web i aplicacions s'apliquin a aquest compte. Pots gestionar els teus Comptes de Decentr a <ph name="SETTINGS_LINK_BEGIN" />Configuració<ph name="SETTINGS_LINK_END" />.</translation>
+És possible que els permisos que ja hagis donat a llocs web i aplicacions s'apliquin a aquest compte. Pots gestionar els teus Comptes de tomi a <ph name="SETTINGS_LINK_BEGIN" />Configuració<ph name="SETTINGS_LINK_END" />.</translation>
 <translation id="7048502283602470098">Explora la IA</translation>
-<translation id="7059914902409643750">Personalitza Decentr</translation>
-<translation id="7071827361006050863">Decentr suprimirà les dades de navegació aviat</translation>
-<translation id="7085332316435785646">Tria si vols incloure l'historial de Decentr per obtenir experiències més personalitzades als serveis de Decentr</translation>
-<translation id="7088681679121566888">Decentr està actualitzat</translation>
-<translation id="7098166902387133879">Decentr està utilitzant el micròfon.</translation>
-<translation id="7099479769133613710">Reinicia per actualitzar &amp;Decentr OS</translation>
-<translation id="7100085796996987445">Per compartir la pantalla, permet que Decentr gravi la pantalla a Preferències del sistema</translation>
-<translation id="7106741999175697885">Gestor de tasques - Decentr</translation>
-<translation id="7140653346177713799">{COUNT,plural, =0{Hi ha una actualització nova de Decentr disponible i s'aplicarà tan aviat com el reiniciïs.}=1{Hi ha una actualització nova de Decentr disponible i s'aplicarà tan aviat com el reiniciïs. La finestra d'incògnit no es tornarà a obrir.}other{Hi ha una actualització nova de Decentr disponible i s'aplicarà tan aviat com el reiniciïs. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
-<translation id="7155997830309522122">Si ja ho has fet, edita la contrasenya desada a Decentr perquè coincideixi amb la contrasenya nova.</translation>
-<translation id="7161904924553537242">Us donem la benvinguda a Decentr.</translation>
-<translation id="7177959540995930968">Pots obtenir més informació sobre aquestes funcions a la configuració de Decentr.</translation>
-<translation id="7193885263065350793">La teva organització tanca Decentr quan no s'utilitza durant <ph name="TIMEOUT_DURATION" />.</translation>
-<translation id="7242029209006116544">Esteu a punt d'iniciar la sessió amb un compte gestionat i d'atorgar el control del vostre perfil de Decentr a l'administrador corresponent. Les vostres dades de Decentr, com ara aplicacions, adreces d'interès, historial, contrasenyes i altres configuracions, s'enllaçaran permanentment amb <ph name="USER_NAME" />. Podreu suprimir aquestes dades mitjançant el Tauler de Comptes de Decentr, però no les podreu associar amb un altre compte. De manera opcional, podeu crear un perfil nou per mantenir les vostres dades de Decentr a part. <ph name="LEARN_MORE" /></translation>
-<translation id="7285616922384953075"><ph name="MANAGER" /> gestiona Decentr</translation>
-<translation id="7295052994004373688">És l'idioma en què es mostra la IU de Decentr Decentr</translation>
+<translation id="7059914902409643750">Personalitza tomi</translation>
+<translation id="7071827361006050863">tomi suprimirà les dades de navegació aviat</translation>
+<translation id="7085332316435785646">Tria si vols incloure l'historial de tomi per obtenir experiències més personalitzades als serveis de tomi</translation>
+<translation id="7088681679121566888">tomi està actualitzat</translation>
+<translation id="7098166902387133879">tomi està utilitzant el micròfon.</translation>
+<translation id="7099479769133613710">Reinicia per actualitzar &amp;tomi OS</translation>
+<translation id="7100085796996987445">Per compartir la pantalla, permet que tomi gravi la pantalla a Preferències del sistema</translation>
+<translation id="7106741999175697885">Gestor de tasques - tomi</translation>
+<translation id="7140653346177713799">{COUNT,plural, =0{Hi ha una actualització nova de tomi disponible i s'aplicarà tan aviat com el reiniciïs.}=1{Hi ha una actualització nova de tomi disponible i s'aplicarà tan aviat com el reiniciïs. La finestra d'incògnit no es tornarà a obrir.}other{Hi ha una actualització nova de tomi disponible i s'aplicarà tan aviat com el reiniciïs. Les # finestres d'incògnit no es tornaran a obrir.}}</translation>
+<translation id="7155997830309522122">Si ja ho has fet, edita la contrasenya desada a tomi perquè coincideixi amb la contrasenya nova.</translation>
+<translation id="7161904924553537242">Us donem la benvinguda a tomi.</translation>
+<translation id="7177959540995930968">Pots obtenir més informació sobre aquestes funcions a la configuració de tomi.</translation>
+<translation id="7193885263065350793">La teva organització tanca tomi quan no s'utilitza durant <ph name="TIMEOUT_DURATION" />.</translation>
+<translation id="7242029209006116544">Esteu a punt d'iniciar la sessió amb un compte gestionat i d'atorgar el control del vostre perfil de tomi a l'administrador corresponent. Les vostres dades de tomi, com ara aplicacions, adreces d'interès, historial, contrasenyes i altres configuracions, s'enllaçaran permanentment amb <ph name="USER_NAME" />. Podreu suprimir aquestes dades mitjançant el Tauler de Comptes de tomi, però no les podreu associar amb un altre compte. De manera opcional, podeu crear un perfil nou per mantenir les vostres dades de tomi a part. <ph name="LEARN_MORE" /></translation>
+<translation id="7285616922384953075"><ph name="MANAGER" /> gestiona tomi</translation>
+<translation id="7295052994004373688">És l'idioma en què es mostra la IU de tomi tomi</translation>
 <translation id="7296210096911315575">Informació important d'ús i de seguretat</translation>
-<translation id="7302361266603927550">Algunes dades de Decentr encara no s'han desat al teu Compte de Decentr. Prova d'esperar uns quants minuts abans de tancar la sessió. Si tanques la sessió ara, aquestes dades se suprimiran.</translation>
-<translation id="7308322188646931570">Decentr necessita accedir a l'emmagatzematge per baixar fitxers</translation>
+<translation id="7302361266603927550">Algunes dades de tomi encara no s'han desat al teu Compte de tomi. Prova d'esperar uns quants minuts abans de tancar la sessió. Si tanques la sessió ara, aquestes dades se suprimiran.</translation>
+<translation id="7308322188646931570">tomi necessita accedir a l'emmagatzematge per baixar fitxers</translation>
 <translation id="7339898014177206373">Finestra nova</translation>
-<translation id="7352881504289275361">Navegació segura millorada ofereix la protecció en línia més eficaç de Decentr per protegir-te mentre navegues</translation>
+<translation id="7352881504289275361">Navegació segura millorada ofereix la protecció en línia més eficaç de tomi per protegir-te mentre navegues</translation>
 <translation id="7394745511930161845">Crea el teu propi tema amb IA per donar un aspecte únic al teu navegador</translation>
-<translation id="7398801000654795464">Teníeu la sessió iniciada a Decentr com a <ph name="USER_EMAIL_ADDRESS" />. Utilitzeu el mateix compte per tornar-hi a iniciar la sessió.</translation>
-<translation id="7412494426921990001">Fes clic al menú de Decentr</translation>
-<translation id="742463671275348370">{NUM_DEVICES,plural, =0{Una o més extensions de Decentr estaven accedint a 1 dispositiu USB}=1{Una o més extensions de Decentr estan accedint a 1 dispositiu USB}other{Una o més extensions de Decentr estan accedint a # dispositius USB}}</translation>
-<translation id="7426611252293106642">Pot ser que Decentr no funcioni correctament perquè ja no és compatible amb aquesta distribució de Linux</translation>
-<translation id="7437998757836447326">Tanca la sessió de Decentr</translation>
-<translation id="7449333426561673451">{COUNT,plural, =1{La teva organització tanca Decentr automàticament quan no s'utilitza durant 1 minut.}other{La teva organització tanca Decentr automàticament quan no s'utilitza durant # minuts.}}</translation>
-<translation id="7452987490177144319">{COUNT,plural, =1{La teva organització suprimeix automàticament les dades de navegació quan Decentr no s'utilitza durant 1 minut. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades. Les pestanyes continuaran obertes.}other{La teva organització suprimeix automàticament les dades de navegació quan Decentr no s'utilitza durant # minuts. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades. Les pestanyes continuaran obertes.}}</translation>
-<translation id="7477130805345743099">Decentr t'avisarà abans de carregar qualsevol lloc web amb una connexió no segura</translation>
-<translation id="7481213027396403996">Obtén la seguretat més efectiva de Decentr</translation>
-<translation id="749228101751499733">Mentre tinguis la sessió iniciada, podràs utilitzar les teves contrasenyes i altres elements del teu Compte de Decentr a Decentr. Fes servir <ph name="SHORTCUT" /> per canviar la configuració dels serveis de Decentr.</translation>
-<translation id="7535429826459677826">Decentr Dev</translation>
-<translation id="7572537927358445944">Desactivat • Decentr no pot verificar d'on prové aquesta extensió</translation>
+<translation id="7398801000654795464">Teníeu la sessió iniciada a tomi com a <ph name="USER_EMAIL_ADDRESS" />. Utilitzeu el mateix compte per tornar-hi a iniciar la sessió.</translation>
+<translation id="7412494426921990001">Fes clic al menú de tomi</translation>
+<translation id="742463671275348370">{NUM_DEVICES,plural, =0{Una o més extensions de tomi estaven accedint a 1 dispositiu USB}=1{Una o més extensions de tomi estan accedint a 1 dispositiu USB}other{Una o més extensions de tomi estan accedint a # dispositius USB}}</translation>
+<translation id="7426611252293106642">Pot ser que tomi no funcioni correctament perquè ja no és compatible amb aquesta distribució de Linux</translation>
+<translation id="7437998757836447326">Tanca la sessió de tomi</translation>
+<translation id="7449333426561673451">{COUNT,plural, =1{La teva organització tanca tomi automàticament quan no s'utilitza durant 1 minut.}other{La teva organització tanca tomi automàticament quan no s'utilitza durant # minuts.}}</translation>
+<translation id="7452987490177144319">{COUNT,plural, =1{La teva organització suprimeix automàticament les dades de navegació quan tomi no s'utilitza durant 1 minut. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades. Les pestanyes continuaran obertes.}other{La teva organització suprimeix automàticament les dades de navegació quan tomi no s'utilitza durant # minuts. Això pot incloure l'historial, les dades d'Emplenament automàtic i les baixades. Les pestanyes continuaran obertes.}}</translation>
+<translation id="7477130805345743099">tomi t'avisarà abans de carregar qualsevol lloc web amb una connexió no segura</translation>
+<translation id="7481213027396403996">Obtén la seguretat més efectiva de tomi</translation>
+<translation id="749228101751499733">Mentre tinguis la sessió iniciada, podràs utilitzar les teves contrasenyes i altres elements del teu Compte de tomi a tomi. Fes servir <ph name="SHORTCUT" /> per canviar la configuració dels serveis de tomi.</translation>
+<translation id="7535429826459677826">tomi Dev</translation>
+<translation id="7572537927358445944">Desactivat • tomi no pot verificar d'on prové aquesta extensió</translation>
 <translation id="7583399374488819119">Instal·lador de <ph name="COMPANY_NAME" /></translation>
-<translation id="7606334485649076285">DecentrOS Flex</translation>
-<translation id="7626032353295482388">Et donem la benvinguda a Decentr</translation>
-<translation id="7626072681686626474"><ph name="MANAGER" /> requereix que llegeixis i acceptis les condicions del servei següents abans d'utilitzar el dispositiu. Aquestes condicions no amplien, modifiquen ni limiten les condicions de Decentr OS.</translation>
-<translation id="7629695634924605473">Decentr et permet saber si les contrasenyes s'han posat en perill</translation>
-<translation id="7641148173327520642">L'administrador del sistema ha configurat Decentr Decentr perquè obri <ph name="ALTERNATIVE_BROWSER_NAME" /> per accedir a <ph name="TARGET_URL_HOSTNAME" />.</translation>
+<translation id="7606334485649076285">tomiOS Flex</translation>
+<translation id="7626032353295482388">Et donem la benvinguda a tomi</translation>
+<translation id="7626072681686626474"><ph name="MANAGER" /> requereix que llegeixis i acceptis les condicions del servei següents abans d'utilitzar el dispositiu. Aquestes condicions no amplien, modifiquen ni limiten les condicions de tomi OS.</translation>
+<translation id="7629695634924605473">tomi et permet saber si les contrasenyes s'han posat en perill</translation>
+<translation id="7641148173327520642">L'administrador del sistema ha configurat tomi tomi perquè obri <ph name="ALTERNATIVE_BROWSER_NAME" /> per accedir a <ph name="TARGET_URL_HOSTNAME" />.</translation>
 <translation id="7649070708921625228">Ajuda</translation>
-<translation id="7651907282515937834">Logotip de Decentr Enterprise</translation>
-<translation id="76531479118467370">Decentr ha bloquejat aquesta baixada perquè has desactivat Navegació segura i el fitxer no es pot verificar</translation>
-<translation id="7655455401911432608">El teu historial de navegació, que és un registre dels llocs web que has visitat amb Decentr en aquest dispositiu.</translation>
-<translation id="7655472416356262023">Suprimeix el compte de Decentr</translation>
-<translation id="7661924425853052955">No l'has visitat recentment. Decentr ha suprimit <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> i <ph name="COUNT" /> elements més.</translation>
+<translation id="7651907282515937834">Logotip de tomi Enterprise</translation>
+<translation id="76531479118467370">tomi ha bloquejat aquesta baixada perquè has desactivat Navegació segura i el fitxer no es pot verificar</translation>
+<translation id="7655455401911432608">El teu historial de navegació, que és un registre dels llocs web que has visitat amb tomi en aquest dispositiu.</translation>
+<translation id="7655472416356262023">Suprimeix el compte de tomi</translation>
+<translation id="7661924425853052955">No l'has visitat recentment. tomi ha suprimit <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> i <ph name="COUNT" /> elements més.</translation>
 <translation id="7668816516367091728">Fes tasques, com ara traduir, calcular i fer altres accions directament des de la barra d'adreces</translation>
-<translation id="7670287553302121848">El compte de Decentr requereix una reautenticació</translation>
-<translation id="769538538642757151">Decentr t'avisarà si hi ha res que hagis de revisar</translation>
+<translation id="7670287553302121848">El compte de tomi requereix una reautenticació</translation>
+<translation id="769538538642757151">tomi t'avisarà si hi ha res que hagis de revisar</translation>
 <translation id="7747138024166251722">L'instal·lador no ha pogut crear un directori temporal. Comprova que hi ha espai lliure al disc i que tens permís per instal·lar el programari.</translation>
-<translation id="7761834446675418963">Feu clic al vostre nom per obrir Decentr i començar a navegar.</translation>
+<translation id="7761834446675418963">Feu clic al vostre nom per obrir tomi i començar a navegar.</translation>
 <translation id="7763983146198734674">Desa les teves contrasenyes i accedeix-hi des de qualsevol lloc</translation>
-<translation id="7777080907402804672">Si una imatge no té una descripció útil, Decentr provarà d'oferir-te'n una. Per crear les descripcions, les imatges s'envien a Decentr. Pots desactivar aquesta funció en qualsevol moment a la configuració.</translation>
-<translation id="778331955594035129">Decentr necessita permís d'accés a la ubicació per a aquest lloc web</translation>
-<translation id="7785741298021097183">Decentr està dissenyat per ser ràpid i segur en tots els teus dispositius, des del telèfon fins a l'ordinador.</translation>
-<translation id="7787950393032327779">Sembla que un altre procés de Decentr (<ph name="PROCESS_ID" />) està fent servir el perfil en un altre ordinador (<ph name="HOST_NAME" />). Decentr ha bloquejat el perfil perquè no es malmeti. Si esteu segur que no hi ha cap altre procés que utilitzi el perfil, podeu desbloquejar-lo i tornar a iniciar Decentr.</translation>
-<translation id="7801699035218095297">Decentr Decentr està provant de copiar les contrasenyes. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
-<translation id="7802622118583152311">Decentr t'ofereix la tecnologia més recent per navegar millor</translation>
-<translation id="7808348361785373670">Suprimeix de Decentr...</translation>
-<translation id="7825851276765848807">La instal·lació ha fallat a causa d'un error no especificat. Torneu a baixar Decentr.</translation>
+<translation id="7777080907402804672">Si una imatge no té una descripció útil, tomi provarà d'oferir-te'n una. Per crear les descripcions, les imatges s'envien a tomi. Pots desactivar aquesta funció en qualsevol moment a la configuració.</translation>
+<translation id="778331955594035129">tomi necessita permís d'accés a la ubicació per a aquest lloc web</translation>
+<translation id="7785741298021097183">tomi està dissenyat per ser ràpid i segur en tots els teus dispositius, des del telèfon fins a l'ordinador.</translation>
+<translation id="7787950393032327779">Sembla que un altre procés de tomi (<ph name="PROCESS_ID" />) està fent servir el perfil en un altre ordinador (<ph name="HOST_NAME" />). tomi ha bloquejat el perfil perquè no es malmeti. Si esteu segur que no hi ha cap altre procés que utilitzi el perfil, podeu desbloquejar-lo i tornar a iniciar tomi.</translation>
+<translation id="7801699035218095297">tomi tomi està provant de copiar les contrasenyes. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
+<translation id="7802622118583152311">tomi t'ofereix la tecnologia més recent per navegar millor</translation>
+<translation id="7808348361785373670">Suprimeix de tomi...</translation>
+<translation id="7825851276765848807">La instal·lació ha fallat a causa d'un error no especificat. Torneu a baixar tomi.</translation>
 <translation id="7836610565365456468">Transforma el teu navegador amb temes animats inspirats en artistes, la natura i més</translation>
 <translation id="7845233973568007926">T'agraïm la instal·lació. Has de reiniciar l'equip abans d'utilitzar <ph name="BUNDLE_NAME" />.</translation>
-<translation id="7852254990718225089">La IA a Decentr ajuda a fer que el web sigui més ràpid, segur i accessible</translation>
+<translation id="7852254990718225089">La IA a tomi ajuda a fer que el web sigui més ràpid, segur i accessible</translation>
 <translation id="7872446069773932638">S'està baixant… Queden <ph name="SECONDS" /> segons</translation>
-<translation id="7880591377632733558">Et donem la benvinguda a Decentr, <ph name="ACCOUNT_FIRST_NAME" /></translation>
-<translation id="7890208801193284374">Si compartiu un ordinador, els amics i els familiars poden navegar de manera independent i configurar Decentr com vulguin.</translation>
-<translation id="7896673875602241923">Algú ha iniciat anteriorment la sessió a Decentr en aquest ordinador com a <ph name="ACCOUNT_EMAIL_LAST" />. Crea un usuari de Decentr per mantenir la informació separada.</translation>
-<translation id="7917876797003313048">Pots gestionar els Comptes de Decentr en què tens la sessió iniciada. Els Comptes de Decentr s'utilitzen per al navegador Decentr, Play Store, Gmail i més. Si vols afegir un compte per a algú altre, com ara un membre de la família, afegeix una persona nova al teu dispositiu <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Més informació<ph name="LINK_END" /></translation>
-<translation id="7936702483636872823">Decentr ha bloquejat aquesta baixada perquè el fitxer és enganyós i és possible que faci canvis inesperats al dispositiu</translation>
+<translation id="7880591377632733558">Et donem la benvinguda a tomi, <ph name="ACCOUNT_FIRST_NAME" /></translation>
+<translation id="7890208801193284374">Si compartiu un ordinador, els amics i els familiars poden navegar de manera independent i configurar tomi com vulguin.</translation>
+<translation id="7896673875602241923">Algú ha iniciat anteriorment la sessió a tomi en aquest ordinador com a <ph name="ACCOUNT_EMAIL_LAST" />. Crea un usuari de tomi per mantenir la informació separada.</translation>
+<translation id="7917876797003313048">Pots gestionar els Comptes de tomi en què tens la sessió iniciada. Els Comptes de tomi s'utilitzen per al navegador tomi, Play Store, Gmail i més. Si vols afegir un compte per a algú altre, com ara un membre de la família, afegeix una persona nova al teu dispositiu <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Més informació<ph name="LINK_END" /></translation>
+<translation id="7936702483636872823">tomi ha bloquejat aquesta baixada perquè el fitxer és enganyós i és possible que faci canvis inesperats al dispositiu</translation>
 <translation id="7947083960301164556">Consulta les novetats</translation>
-<translation id="7951272445806340501">Cal reiniciar DecentrOS Flex per aplicar l'actualització.</translation>
-<translation id="7959172989483770734">Gestiona els perfils de Decentr</translation>
-<translation id="7962368738413920945">És probable que els llocs web funcionin de la manera prevista, però no et recordaran després de tancar totes les finestres de Decentr</translation>
-<translation id="7962410387636238736">Aquest ordinador ja no rebrà més actualitzacions de Decentr Decentr perquè Windows XP i Windows Vista ja no són compatibles</translation>
-<translation id="8005666035647241369">Ves al gestor de contrasenyes de Decentr en aquest dispositiu</translation>
-<translation id="8008534537613507642">Torna a instal·lar Decentr</translation>
-<translation id="8009904340233602924">Fes servir Decentr sense cap compte</translation>
-<translation id="8013993649590906847">Si una imatge no té una descripció útil, Decentr provarà d'oferir-te'n una. Per crear les descripcions, les imatges s'envien a Decentr.</translation>
-<translation id="8019103195866286235">El desenvolupador ha anul·lat la publicació d'aquesta extensió, cosa que podria fer-la poc segura. Suprimeix-la de Decentr perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la teva informació personal.</translation>
-<translation id="8040768861829554732">Una extensió vol que iniciïs la sessió a Decentr</translation>
+<translation id="7951272445806340501">Cal reiniciar tomiOS Flex per aplicar l'actualització.</translation>
+<translation id="7959172989483770734">Gestiona els perfils de tomi</translation>
+<translation id="7962368738413920945">És probable que els llocs web funcionin de la manera prevista, però no et recordaran després de tancar totes les finestres de tomi</translation>
+<translation id="7962410387636238736">Aquest ordinador ja no rebrà més actualitzacions de tomi tomi perquè Windows XP i Windows Vista ja no són compatibles</translation>
+<translation id="8005666035647241369">Ves al gestor de contrasenyes de tomi en aquest dispositiu</translation>
+<translation id="8008534537613507642">Torna a instal·lar tomi</translation>
+<translation id="8009904340233602924">Fes servir tomi sense cap compte</translation>
+<translation id="8013993649590906847">Si una imatge no té una descripció útil, tomi provarà d'oferir-te'n una. Per crear les descripcions, les imatges s'envien a tomi.</translation>
+<translation id="8019103195866286235">El desenvolupador ha anul·lat la publicació d'aquesta extensió, cosa que podria fer-la poc segura. Suprimeix-la de tomi perquè ja no pugui veure ni canviar les teves dades als llocs web que visitis, inclosa la teva informació personal.</translation>
+<translation id="8040768861829554732">Una extensió vol que iniciïs la sessió a tomi</translation>
 <translation id="80471789339884597">T'agraïm la instal·lació. Has de reiniciar tots els navegadors abans d'utilitzar <ph name="BUNDLE_NAME" />.</translation>
-<translation id="8064015041956107954">Pots obrir les adreces d'interès, el mode de lectura i més des del menú de Decentr de la part superior dreta</translation>
-<translation id="8064015586118426197">DecentrOS Flex</translation>
-<translation id="8077579734294125741">Altres perfils de Decentr</translation>
+<translation id="8064015041956107954">Pots obrir les adreces d'interès, el mode de lectura i més des del menú de tomi de la part superior dreta</translation>
+<translation id="8064015586118426197">tomiOS Flex</translation>
+<translation id="8077579734294125741">Altres perfils de tomi</translation>
 <translation id="8086881907087796310">La instal·lació ha fallat perquè l'ordinador no compleix els requisits mínims de maquinari.</translation>
-<translation id="8111297389482307122">Decentr ha de verificar la teva identitat perquè algunes dades es puguin desar al teu Compte de Decentr i utilitzar-se en tots els teus dispositius. Si tanques la sessió, aquestes dades es conservaran en aquest dispositiu.</translation>
-<translation id="8129812357326543296">Quant a &amp;Decentr</translation>
+<translation id="8111297389482307122">tomi ha de verificar la teva identitat perquè algunes dades es puguin desar al teu Compte de tomi i utilitzar-se en tots els teus dispositius. Si tanques la sessió, aquestes dades es conservaran en aquest dispositiu.</translation>
+<translation id="8129812357326543296">Quant a &amp;tomi</translation>
 <translation id="813913629614996137">S'està inicialitzant…</translation>
-<translation id="8162006532256575008">Fes servir Decentr sense cap compte</translation>
-<translation id="8255190535488645436">Decentr està utilitzant la càmera i el micròfon.</translation>
-<translation id="8257796129973882597">Pots obrir les adreces d'interès, el mode de lectura i més des del menú de Decentr</translation>
-<translation id="8267953129876836456">Decentr ha trobat algunes recomanacions de seguretat que hauries de revisar</translation>
-<translation id="8270775718612349140">Certificats gestionats per Decentr</translation>
-<translation id="8286862437124483331">Decentr està provant de mostrar contrasenyes. Escriviu la vostra contrasenya de Windows per permetre-ho.</translation>
-<translation id="8290100596633877290">Decentr s'ha bloquejat. Voleu tornar-lo a iniciar?</translation>
-<translation id="829923460755755423">Afegeix una drecera al gestor de contrasenyes de Decentr</translation>
-<translation id="8336463659890584292">Quan un lloc web demana precarregar de manera privada enllaços de la seva pàgina, Decentr fa servir els servidors de Decentr. Això amaga la teva identitat del lloc web precarregat, però Decentr sap quins llocs web es precarreguen.</translation>
-<translation id="8342675569599923794">Decentr ha bloquejat aquest fitxer perquè és perillós.</translation>
-<translation id="8349795646647783032"><ph name="BEGIN_BOLD" />Com utilitzem aquestes dades<ph name="END_BOLD" />: els llocs web poden emmagatzemar informació a Decentr sobre els teus interessos. Per exemple, si visites un lloc web per comprar sabatilles per a una marató, és possible que el lloc web defineixi que t'interessa córrer maratons. Més endavant, si visites un altre lloc web per inscriure't a una cursa, aquest altre lloc web et pot mostrar un anunci de sabatilles de curses basant-se en els teus interessos.</translation>
-<translation id="8370517070665726704">Copyright <ph name="YEAR" /> Decentr LLC. Tots els drets reservats.</translation>
-<translation id="8383226135083126309"><ph name="BEGIN_BOLD" />Com utilitzem aquestes dades<ph name="END_BOLD" />: Decentr pot estimar els teus interessos. Després, un lloc web que visitis pot demanar els teus interessos a Decentr per personalitzar els anuncis que veus.</translation>
-<translation id="8387459386171870978">Continua utilitzant Decentr</translation>
-<translation id="8394720698884623075">Compara els URL amb una llista de llocs web no segurs emmagatzemada a Decentr</translation>
-<translation id="8403038600646341038">Logotip de Decentr a l'interior d'una pantalla d'ordinador.</translation>
-<translation id="8416347857511542594">Més informació sobre la personalització d'anuncis a Decentr</translation>
-<translation id="8418845734693287262">Decentr OS no ha pogut sincronitzar les teves dades perquè les dades d'inici de sessió del compte no estan actualitzades.</translation>
-<translation id="842386925677997438">Eines de seguretat de Decentr</translation>
+<translation id="8162006532256575008">Fes servir tomi sense cap compte</translation>
+<translation id="8255190535488645436">tomi està utilitzant la càmera i el micròfon.</translation>
+<translation id="8257796129973882597">Pots obrir les adreces d'interès, el mode de lectura i més des del menú de tomi</translation>
+<translation id="8267953129876836456">tomi ha trobat algunes recomanacions de seguretat que hauries de revisar</translation>
+<translation id="8270775718612349140">Certificats gestionats per tomi</translation>
+<translation id="8286862437124483331">tomi està provant de mostrar contrasenyes. Escriviu la vostra contrasenya de Windows per permetre-ho.</translation>
+<translation id="8290100596633877290">tomi s'ha bloquejat. Voleu tornar-lo a iniciar?</translation>
+<translation id="829923460755755423">Afegeix una drecera al gestor de contrasenyes de tomi</translation>
+<translation id="8336463659890584292">Quan un lloc web demana precarregar de manera privada enllaços de la seva pàgina, tomi fa servir els servidors de tomi. Això amaga la teva identitat del lloc web precarregat, però tomi sap quins llocs web es precarreguen.</translation>
+<translation id="8342675569599923794">tomi ha bloquejat aquest fitxer perquè és perillós.</translation>
+<translation id="8349795646647783032"><ph name="BEGIN_BOLD" />Com utilitzem aquestes dades<ph name="END_BOLD" />: els llocs web poden emmagatzemar informació a tomi sobre els teus interessos. Per exemple, si visites un lloc web per comprar sabatilles per a una marató, és possible que el lloc web defineixi que t'interessa córrer maratons. Més endavant, si visites un altre lloc web per inscriure't a una cursa, aquest altre lloc web et pot mostrar un anunci de sabatilles de curses basant-se en els teus interessos.</translation>
+<translation id="8370517070665726704">Copyright <ph name="YEAR" /> tomi LLC. Tots els drets reservats.</translation>
+<translation id="8383226135083126309"><ph name="BEGIN_BOLD" />Com utilitzem aquestes dades<ph name="END_BOLD" />: tomi pot estimar els teus interessos. Després, un lloc web que visitis pot demanar els teus interessos a tomi per personalitzar els anuncis que veus.</translation>
+<translation id="8387459386171870978">Continua utilitzant tomi</translation>
+<translation id="8394720698884623075">Compara els URL amb una llista de llocs web no segurs emmagatzemada a tomi</translation>
+<translation id="8403038600646341038">Logotip de tomi a l'interior d'una pantalla d'ordinador.</translation>
+<translation id="8416347857511542594">Més informació sobre la personalització d'anuncis a tomi</translation>
+<translation id="8418845734693287262">tomi OS no ha pogut sincronitzar les teves dades perquè les dades d'inici de sessió del compte no estan actualitzades.</translation>
+<translation id="842386925677997438">Eines de seguretat de tomi</translation>
 <translation id="8428213095426709021">Configuració</translation>
-<translation id="8433638294851456451">Per enviar un número d'aquí al teu telèfon Android, inicia la sessió a Decentr en tots dos dispositius.</translation>
-<translation id="8451192282033883849"><ph name="MANAGER_NAME" /> gestiona el teu compte. L'administrador pot veure i editar aquest perfil del navegador Decentr i les dades associades, com ara les adreces d'interès, l'historial i les contrasenyes.</translation>
-<translation id="8496177819998570653">G&amp;estor de contrasenyes de Decentr</translation>
-<translation id="8498858610309223613">S'acaba d'aplicar una actualització de seguretat especial per a Decentr Decentr. Reinicia el navegador i restaurarem les pestanyes.</translation>
-<translation id="8516431725144212809">Els teus interessos segons les estimacions de Decentr</translation>
-<translation id="8521348052903287641">Regla d'entrada de Decentr Dev per permetre el trànsit d'mDNS.</translation>
+<translation id="8433638294851456451">Per enviar un número d'aquí al teu telèfon Android, inicia la sessió a tomi en tots dos dispositius.</translation>
+<translation id="8451192282033883849"><ph name="MANAGER_NAME" /> gestiona el teu compte. L'administrador pot veure i editar aquest perfil del navegador tomi i les dades associades, com ara les adreces d'interès, l'historial i les contrasenyes.</translation>
+<translation id="8496177819998570653">G&amp;estor de contrasenyes de tomi</translation>
+<translation id="8498858610309223613">S'acaba d'aplicar una actualització de seguretat especial per a tomi tomi. Reinicia el navegador i restaurarem les pestanyes.</translation>
+<translation id="8516431725144212809">Els teus interessos segons les estimacions de tomi</translation>
+<translation id="8521348052903287641">Regla d'entrada de tomi Dev per permetre el trànsit d'mDNS.</translation>
 <translation id="8550334526674375523">Aquest perfil de treball és completament independent del teu perfil personal.</translation>
 <translation id="8555465886620020932">Error de servei: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8571790202382503603">Els perfils de Decentr et permeten separar tot el teu contingut de Decentr. Així et serà més fàcil separar la feina de la diversió.</translation>
-<translation id="8614913330719544658">Decentr no respon. Voleu tornar-lo a iniciar ara?</translation>
-<translation id="861702415419836452">Decentr necessita permís per accedir a la càmera i poder crear un mapa 3D del teu entorn</translation>
-<translation id="8625237574518804553">{0,plural, =1{Decentr es reiniciarà d'aquí a 1 minut}other{Decentr es reiniciarà d'aquí a # minuts}}</translation>
-<translation id="8641606876632989680">Decentr t'enviarà una notificació quan iniciïs la sessió amb una contrasenya en perill</translation>
-<translation id="8649026945479135076">És habitual que els llocs web que visites recordin coses que t'interessen per personalitzar la teva experiència. Els llocs web també poden emmagatzemar informació a Decentr sobre els teus interessos.</translation>
-<translation id="8669527147644353129">Aplicació d'ajuda de Decentr</translation>
-<translation id="8679801911857917785">També controla la pàgina que es mostra quan inicieu Decentr.</translation>
-<translation id="8686817260976772516">Els perfils de Decentr et permeten separar tot el teu contingut de Decentr. Crea perfils per a amics i familiars, o separa la feina de la diversió.</translation>
-<translation id="8712767363896337380">Gairebé has acabat amb l'actualització. Reinicia Decentr per acabar l'actualització.</translation>
-<translation id="8718062187489036808">Tanca la sessió de Decentr</translation>
-<translation id="873133009373065397">Decentr no pot determinar ni definir el navegador predeterminat</translation>
-<translation id="8765470054473112089">Quan escrius a la barra d'adreces o al quadre de cerca, Decentr envia el que escrius al teu motor de cerca predeterminat per obtenir millors suggeriments. Aquesta opció està desactivada en el mode d'incògnit.</translation>
-<translation id="8781673607513845160">Per poder utilitzar la càmera, dona accés a Decentr des de la <ph name="BEGIN_LINK" />configuració del sistema<ph name="END_LINK" /></translation>
+<translation id="8571790202382503603">Els perfils de tomi et permeten separar tot el teu contingut de tomi. Així et serà més fàcil separar la feina de la diversió.</translation>
+<translation id="8614913330719544658">tomi no respon. Voleu tornar-lo a iniciar ara?</translation>
+<translation id="861702415419836452">tomi necessita permís per accedir a la càmera i poder crear un mapa 3D del teu entorn</translation>
+<translation id="8625237574518804553">{0,plural, =1{tomi es reiniciarà d'aquí a 1 minut}other{tomi es reiniciarà d'aquí a # minuts}}</translation>
+<translation id="8641606876632989680">tomi t'enviarà una notificació quan iniciïs la sessió amb una contrasenya en perill</translation>
+<translation id="8649026945479135076">És habitual que els llocs web que visites recordin coses que t'interessen per personalitzar la teva experiència. Els llocs web també poden emmagatzemar informació a tomi sobre els teus interessos.</translation>
+<translation id="8669527147644353129">Aplicació d'ajuda de tomi</translation>
+<translation id="8679801911857917785">També controla la pàgina que es mostra quan inicieu tomi.</translation>
+<translation id="8686817260976772516">Els perfils de tomi et permeten separar tot el teu contingut de tomi. Crea perfils per a amics i familiars, o separa la feina de la diversió.</translation>
+<translation id="8712767363896337380">Gairebé has acabat amb l'actualització. Reinicia tomi per acabar l'actualització.</translation>
+<translation id="8718062187489036808">Tanca la sessió de tomi</translation>
+<translation id="873133009373065397">tomi no pot determinar ni definir el navegador predeterminat</translation>
+<translation id="8765470054473112089">Quan escrius a la barra d'adreces o al quadre de cerca, tomi envia el que escrius al teu motor de cerca predeterminat per obtenir millors suggeriments. Aquesta opció està desactivada en el mode d'incògnit.</translation>
+<translation id="8781673607513845160">Per poder utilitzar la càmera, dona accés a tomi des de la <ph name="BEGIN_LINK" />configuració del sistema<ph name="END_LINK" /></translation>
 <translation id="878572486461146056">Error d'instal·lació: l'administrador de la xarxa ha aplicat una norma de grup que impedeix la instal·lació (<ph name="INSTALL_ERROR" />)</translation>
-<translation id="8796073561259064743">Decentr ha bloquejat aquesta baixada perquè el fitxer pot malmetre els teus comptes personals i de xarxes socials, inclòs <ph name="USER_EMAIL" /></translation>
+<translation id="8796073561259064743">tomi ha bloquejat aquesta baixada perquè el fitxer pot malmetre els teus comptes personals i de xarxes socials, inclòs <ph name="USER_EMAIL" /></translation>
 <translation id="8797423385604279835">Organitza les pestanyes amb l'ajuda de la IA</translation>
-<translation id="8801657293260363985">V8 és el motor JavaScript i WebAssembly de Decentr que s'utilitza per millorar el rendiment dels llocs web</translation>
-<translation id="8821043148920470810">Per obtenir actualitzacions de Decentr en el futur, necessitaràs Windows 10 o una versió posterior. Aquest ordinador utilitza Windows 7.</translation>
-<translation id="8823341990149967727">Decentr no està actualitzat</translation>
-<translation id="8825634023950448068">Amb la finalitat de protegir la teva privadesa, suprimim automàticament els interessos que tenen més de 4 setmanes. A mesura que continuïs navegant, és possible que torni a aparèixer un interès a la llista. Si Decentr s'equivoca o no vols veure determinats anuncis, pots suprimir un interès.</translation>
-<translation id="8834965163890861871">Decentr Decentr està provant d'editar les contrasenyes. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
-<translation id="8843389967774722327">Decentr afegeix regularment funcions noves que t'ajuden a fer coses</translation>
-<translation id="8851180723659088381">{NUM_EXTENSIONS,plural, =1{Decentr et recomana que la suprimeixis.}other{Decentr et recomana que les suprimeixis.}}</translation>
+<translation id="8801657293260363985">V8 és el motor JavaScript i WebAssembly de tomi que s'utilitza per millorar el rendiment dels llocs web</translation>
+<translation id="8821043148920470810">Per obtenir actualitzacions de tomi en el futur, necessitaràs Windows 10 o una versió posterior. Aquest ordinador utilitza Windows 7.</translation>
+<translation id="8823341990149967727">tomi no està actualitzat</translation>
+<translation id="8825634023950448068">Amb la finalitat de protegir la teva privadesa, suprimim automàticament els interessos que tenen més de 4 setmanes. A mesura que continuïs navegant, és possible que torni a aparèixer un interès a la llista. Si tomi s'equivoca o no vols veure determinats anuncis, pots suprimir un interès.</translation>
+<translation id="8834965163890861871">tomi tomi està provant d'editar les contrasenyes. Escriu la teva contrasenya de Windows per permetre-ho.</translation>
+<translation id="8843389967774722327">tomi afegeix regularment funcions noves que t'ajuden a fer coses</translation>
+<translation id="8851180723659088381">{NUM_EXTENSIONS,plural, =1{tomi et recomana que la suprimeixis.}other{tomi et recomana que les suprimeixis.}}</translation>
 <translation id="8862326446509486874">No disposeu dels drets necessaris per instal·lar aplicacions al sistema. Proveu de tornar a executar l'instal·lador com a administrador.</translation>
 <translation id="8908277254462331033">Mostra les funcions de seguretat</translation>
-<translation id="8914504000324227558">Torna a iniciar Decentr</translation>
-<translation id="8922193594870374009">Per enviar un número del dispositiu <ph name="ORIGIN" /> al teu telèfon Android, inicia la sessió a Decentr en tots dos dispositius.</translation>
-<translation id="8948460679427074738">Aquesta extensió no ha publicat les seves pràctiques de privadesa, per exemple, la manera com recull i utilitza les dades. Decentr et recomana que la suprimeixis.</translation>
+<translation id="8914504000324227558">Torna a iniciar tomi</translation>
+<translation id="8922193594870374009">Per enviar un número del dispositiu <ph name="ORIGIN" /> al teu telèfon Android, inicia la sessió a tomi en tots dos dispositius.</translation>
+<translation id="8948460679427074738">Aquesta extensió no ha publicat les seves pràctiques de privadesa, per exemple, la manera com recull i utilitza les dades. tomi et recomana que la suprimeixis.</translation>
 <translation id="8986207147630327271">Estàs afegint un perfil de treball a aquest navegador i donant control al teu administrador únicament sobre el perfil de treball.</translation>
-<translation id="8989968390305463310">El teu historial de navegació afecta els anuncis que veus i les estimacions d'interessos que es mostren més avall. Amb la finalitat de protegir la teva privadesa, Decentr suprimeix automàticament els interessos de manera contínua cada mes, i es poden actualitzar tret que els suprimeixis.</translation>
-<translation id="8999117580775242387">Quan l'HTTPS no estigui disponible, Decentr utilitzarà una connexió no segura sense avisar-te</translation>
-<translation id="8999208279178790196">{0,plural, =0{Hi ha una actualització de Decentr disponible}=1{Hi ha una actualització de Decentr disponible}other{Fa # dies que hi ha una actualització de Decentr disponible}}</translation>
-<translation id="9014771989710951291">Diverses organitzacions gestionen Decentr</translation>
-<translation id="9024318700713112071">Defineix Decentr com a navegador predeterminat</translation>
-<translation id="9053892488859122171">Sistema DecentrOS Flex</translation>
-<translation id="9090566250983691233">Descobreix per què Decentr bloqueja alguns fitxers</translation>
+<translation id="8989968390305463310">El teu historial de navegació afecta els anuncis que veus i les estimacions d'interessos que es mostren més avall. Amb la finalitat de protegir la teva privadesa, tomi suprimeix automàticament els interessos de manera contínua cada mes, i es poden actualitzar tret que els suprimeixis.</translation>
+<translation id="8999117580775242387">Quan l'HTTPS no estigui disponible, tomi utilitzarà una connexió no segura sense avisar-te</translation>
+<translation id="8999208279178790196">{0,plural, =0{Hi ha una actualització de tomi disponible}=1{Hi ha una actualització de tomi disponible}other{Fa # dies que hi ha una actualització de tomi disponible}}</translation>
+<translation id="9014771989710951291">Diverses organitzacions gestionen tomi</translation>
+<translation id="9024318700713112071">Defineix tomi com a navegador predeterminat</translation>
+<translation id="9053892488859122171">Sistema tomiOS Flex</translation>
+<translation id="9090566250983691233">Descobreix per què tomi bloqueja alguns fitxers</translation>
 <translation id="911206726377975832">També voleu suprimir les dades de navegació?</translation>
-<translation id="9138603949443464873">Torna a iniciar Decentr perquè s'apliquin els canvis</translation>
-<translation id="9195993889682885387">Decentr pot estimar els teus interessos basant-se en l'historial de navegació de les darreres setmanes. Aquesta informació es queda al teu telèfon.</translation>
-<translation id="919706545465235479">Actualitza Decentr per iniciar la sincronització</translation>
-<translation id="922152298093051471">Personalitza Decentr</translation>
-<translation id="92460355979482493">Quan aquesta opció està activada, Decentr precarrega les pàgines perquè la navegació i la cerca siguin més ràpides.</translation>
-<translation id="93760716455950538">Reinicia DecentrOS Flex</translation>
-<translation id="940313311831216333">Per accedir a les teves coses de Decentr des de tots els teus dispositius, inicia la sessió i, després, activa la sincronització.</translation>
-<translation id="943390475793766444">Decentr recomana que s'analitzi aquest fitxer perquè pot ser perillós.</translation>
-<translation id="963650557422347554">Quan aquesta opció està activada, Decentr estalvia bateria limitant l'activitat en segon pla i els efectes visuals, com ara el desplaçament suau i els fotogrames per segon dels vídeos.</translation>
+<translation id="9138603949443464873">Torna a iniciar tomi perquè s'apliquin els canvis</translation>
+<translation id="9195993889682885387">tomi pot estimar els teus interessos basant-se en l'historial de navegació de les darreres setmanes. Aquesta informació es queda al teu telèfon.</translation>
+<translation id="919706545465235479">Actualitza tomi per iniciar la sincronització</translation>
+<translation id="922152298093051471">Personalitza tomi</translation>
+<translation id="92460355979482493">Quan aquesta opció està activada, tomi precarrega les pàgines perquè la navegació i la cerca siguin més ràpides.</translation>
+<translation id="93760716455950538">Reinicia tomiOS Flex</translation>
+<translation id="940313311831216333">Per accedir a les teves coses de tomi des de tots els teus dispositius, inicia la sessió i, després, activa la sincronització.</translation>
+<translation id="943390475793766444">tomi recomana que s'analitzi aquest fitxer perquè pot ser perillós.</translation>
+<translation id="963650557422347554">Quan aquesta opció està activada, tomi estalvia bateria limitant l'activitat en segon pla i els efectes visuals, com ara el desplaçament suau i els fotogrames per segon dels vídeos.</translation>
 <translation id="983803489796659991">La instal·lació ha fallat perquè el servidor d'actualitzacions no disposa de dades de valor resum per a l'aplicació.</translation>
-<translation id="989369509083708165">Decentr és el navegador predeterminat</translation>
-<translation id="989816563149873169"><ph name="SHORTCUT" /> permet canviar entre perfils de Decentr</translation>
+<translation id="989369509083708165">tomi és el navegador predeterminat</translation>
+<translation id="989816563149873169"><ph name="SHORTCUT" /> permet canviar entre perfils de tomi</translation>
 </translationbundle>

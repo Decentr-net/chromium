@@ -31,8 +31,8 @@ namespace {
 const char kDefaultServiceName[] = "Chrome Safe Storage";
 const char kDefaultAccountName[] = "Chrome";
 #else
-const char kDefaultServiceName[] = "Decentr Safe Storage";
-const char kDefaultAccountName[] = "Decentr";
+const char kDefaultServiceName[] = "tomi Safe Storage";
+const char kDefaultAccountName[] = "tomi";
 #endif
 
 // Generates a random password and adds it to the Keychain.  The added password
