@@ -26,7 +26,6 @@ generate_grd("build_grdp") {
     "share_unfilled.svg",
     "sparkle.svg",
     "twitter.svg",
-    "upload.svg",
     "tomi_background.png",
     "tomi_logo.png",
   ]

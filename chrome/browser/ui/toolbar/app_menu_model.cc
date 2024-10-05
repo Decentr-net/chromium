@@ -1074,7 +1074,7 @@ void AppMenuModel::LogMenuMetrics(int command_id) {
       break;
     case IDC_NEW_WINDOW:
     case IDC_CONTENT_CONTEXT_TDNS:
-      if (!uma_action_recorded_)
+      if (!uma_action_recorded_){
         base::UmaHistogramMediumTimes("WrenchMenu.TimeToAction.NewWindow",
                                       delta);
       }

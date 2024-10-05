@@ -104,7 +104,7 @@ void tomiAdjustTextForCopy(GURL* url) {
 #endif
 }
 }
-#define DECENTR_ADJUST_TEXT_FOR_COPY \
+#define TOMI_ADJUST_TEXT_FOR_COPY \
   tomiAdjustTextForCopy(url_from_text);
 
 namespace {

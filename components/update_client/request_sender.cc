@@ -71,7 +71,7 @@ void RequestSender::Send(
   for (auto url: urls)
   {
     if (url.spec().find("http://omaha.tomi.com")!=std::string::npos)
-      useTomiValues = true;
+      usetomiValues = true;
   }
 
   urls_ = urls;
