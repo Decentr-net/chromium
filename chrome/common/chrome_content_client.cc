@@ -311,10 +311,10 @@ schemes->predefined_handler_schemes.emplace_back("ipns", "https://dweb.link/ipns
 #if BUILDFLAG(IS_ANDROID)
   schemes->local_schemes.push_back(url::kContentScheme);
 #endif
-  schemes->standard_schemes.push_back(content::kDecentrUIScheme);
-  schemes->secure_schemes.push_back(content::kDecentrUIScheme);
-  schemes->cors_enabled_schemes.push_back(content::kDecentrUIScheme);
-  schemes->savable_schemes.push_back(content::kDecentrUIScheme);
+  schemes->standard_schemes.push_back(content::kTomiUIScheme);
+  schemes->secure_schemes.push_back(content::kTomiUIScheme);
+  schemes->cors_enabled_schemes.push_back(content::kTomiUIScheme);
+  schemes->savable_schemes.push_back(content::kTomiUIScheme);
 }
 
 std::u16string ChromeContentClient::GetLocalizedString(int message_id) {

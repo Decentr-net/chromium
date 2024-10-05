@@ -910,7 +910,7 @@ void RenderThreadImpl::InitializeRenderer(
 
 void RenderThreadImpl::RegisterSchemes() {
       // chrome:
-  WebString decentr_scheme(WebString::FromASCII(kDecentrUIScheme));
+  WebString decentr_scheme(WebString::FromASCII(kTomiUIScheme));
   WebSecurityPolicy::RegisterURLSchemeAsDisplayIsolated(decentr_scheme);
   WebSecurityPolicy::RegisterURLSchemeAsNotAllowingJavascriptURLs(
       decentr_scheme);

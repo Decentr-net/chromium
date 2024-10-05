@@ -98,7 +98,7 @@ void tomiAdjustTextForCopy(GURL* url) {
 #if !defined(OS_IOS)
   if (url->scheme() == content::kChromeUIScheme) {
     GURL::Replacements replacements;
-    replacements.SetSchemeStr(content::ktomiUIScheme);
+    replacements.SetSchemeStr(content::kTomiUIScheme);
     *url = url->ReplaceComponents(replacements);
   }
 #endif

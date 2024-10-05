@@ -28,7 +28,7 @@ bool HandleChromeAboutAndChromeSyncRewrite(
   // or
   // 2) blocked (by content::RenderProcessHostImpl::FilterURL applied to
   //    renderer-initiated navigations)
-  if (url->SchemeIs(content::kDecentrUIScheme)) {
+  if (url->SchemeIs(content::kTomiUIScheme)) {
     GURL::Replacements replacements;
     replacements.SetSchemeStr(content::kChromeUIScheme);
     *url = url->ReplaceComponents(replacements);
