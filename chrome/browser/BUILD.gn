@@ -8544,9 +8544,7 @@ static_library("browser_generated_files") {
   if (is_win) {
     arflags = [ "/llvmlibempty" ]
     public_deps += [ "//chrome/browser/ui/startup:buildflags" ]
-    if (is_chrome_branded) {
       public_deps += [ "//chrome/browser/win/conflicts:module_list_proto" ]
-    }
   }
   if (is_win || is_mac || is_linux) {
     public_deps += [

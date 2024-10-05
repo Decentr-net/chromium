@@ -69,7 +69,6 @@ bool GetNewerChromeFile(base::FilePath* path) {
   return true;
 }
 
-#if BUILDFLAG(GOOGLE_CHROME_BRANDING)
 // Holds the result of the IPC to CoCreate the process launcher.
 struct CreateProcessLauncherResult
     : public base::RefCountedThreadSafe<CreateProcessLauncherResult> {
@@ -206,7 +205,6 @@ Microsoft::WRL::ComPtr<IUnknown> CreateProcessLauncher() {
     return unknown;
   }
 }
-#endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 bool InvokeGoogleUpdateForRename() {
   // This has been identified as very slow on some startups. Detailed trace
