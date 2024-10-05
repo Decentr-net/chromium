@@ -347,12 +347,15 @@ const ui::ThemeProvider* BrowserFrame::GetThemeProvider() const {
 
 ui::ColorProviderKey::ThemeInitializerSupplier* BrowserFrame::GetCustomTheme()
     const {
+
+  Browser* browser = browser_view_->browser();
+  if(browser->tomiNet)
+    return theme_supplier_.get(); 
   // Do not return any custom theme if this is an incognito browser.
   if (IsIncognitoBrowser()) {
     return nullptr;
   }
 
-  Browser* browser = browser_view_->browser();
   auto* app_controller = browser->app_controller();
   // Ignore the system theme for web apps with window-controls-overlay as the
   // display_override so the web contents can blend with the overlay by using

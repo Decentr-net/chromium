@@ -500,6 +500,7 @@ void ToolbarView::Init() {
                                browser_->profile()->IsGuestSession() ||
                                browser_->profile()->IsRegularProfile();
 #endif
+  show_avatar_toolbar_button = false;
   avatar_->SetVisible(show_avatar_toolbar_button);
 
 #if BUILDFLAG(ENABLE_WEBUI_TAB_STRIP)

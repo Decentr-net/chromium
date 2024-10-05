@@ -27,7 +27,7 @@
 }
 
 #logo {
-  background-image: url(./icons/decentr-logo.svg);
+  background-image: url(./icons/tomi_logo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -36,14 +36,14 @@
 }
 
 :host([single-colored]) #logo {
-  -webkit-mask-image: url(./icons/decentr-logo.svg);
+  -webkit-mask-image: url(./icons/tomi_logo.png);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100%;
   background-color: var(--ntp-logo-color);
 }
 
 :host(:not([single-colored])) #logo {
-  background-image: url(./icons/decentr-logo.svg);
+  background-image: url(./icons/tomi_logo.png);
 }
 
 #imageDoodle {

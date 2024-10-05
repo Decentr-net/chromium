@@ -1,17 +1,3 @@
-<style>
-  .decentr__logos {
-    align-items: flex-end;
-    column-gap: 32px;
-    flex-direction: row;
-    display: flex;
-  }
-  .decentr__logo-presearch {
-    display: flex;
-    margin-bottom: 38px;
-    min-height: 92px;
-  }
-</style>
-
 <div id="content">
   ${this.lazyRender_ && this.oneGoogleBarEnabled_ ? html`
     <div id="oneGoogleBarScrim" ?hidden="${!this.showBackgroundImage_}"
@@ -26,9 +12,6 @@
        dark="[[theme_.isDark]]" background-color="[[backgroundColor_]]"
             hidden$="[[!logoEnabled_]]">
     </ntp-logo>
-    <div class="decentr__logo-presearch">
-      <img src="chrome://new-tab-page/icons/presearch-logo.svg"></img>
-    </div>
   </div>
 <div id="realboxContainer">
   <cr-searchbox id="realbox" ?is-dark="${this.isThemeDark_()}"
