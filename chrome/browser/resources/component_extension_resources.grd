@@ -395,21 +395,21 @@
     
     <include name="IDR_TVPN_002" file="tvpn/manifest.json" type="BINDATA" />
     <include name="IDR_TVPN_003" file="tvpn/charon/polyfills.c87219774bf0239f.js" type="BINDATA" />
-    <include name="IDR_TVPN_004" file="tvpn/charon/favicon.ico" type="BINDATA" />
-    <include name="IDR_TVPN_005" file="tvpn/charon/index.html" type="BINDATA" />
-    <include name="IDR_TVPN_006" file="tvpn/charon/styles.8611a7e3f1538908.css.map" type="BINDATA" />
-    <include name="IDR_TVPN_007" file="tvpn/charon/styles.8611a7e3f1538908.css" type="BINDATA" />
-    <include name="IDR_TVPN_008" file="tvpn/charon/polyfills.c87219774bf0239f.js.map" type="BINDATA" />
-    <include name="IDR_TVPN_009" file="tvpn/charon/vendor.10921122ab741903.js" type="BINDATA" />
-    <include name="IDR_TVPN_010" file="tvpn/charon/projects_charon_src_app_portal_portal_module_ts.3b70d7fbc8a0ab78.js" type="BINDATA" />
-    <include name="IDR_TVPN_011" file="tvpn/charon/runtime.91219ec8ec330c5e.js.map" type="BINDATA" />
-    <include name="IDR_TVPN_012" file="tvpn/charon/main.2eae8486644a8e74.js.map" type="BINDATA" />
-    <include name="IDR_TVPN_013" file="tvpn/charon/projects_charon_src_app_portal_modules_index_ts.a0f29a07d15d253f.js" type="BINDATA" />
-    <include name="IDR_TVPN_014" file="tvpn/charon/vendor.10921122ab741903.js.map" type="BINDATA" />
-    <include name="IDR_TVPN_015" file="tvpn/charon/projects_charon_src_app_portal_portal_module_ts.3b70d7fbc8a0ab78.js.map" type="BINDATA" />
-    <include name="IDR_TVPN_016" file="tvpn/charon/main.2eae8486644a8e74.js" type="BINDATA" />
-    <include name="IDR_TVPN_017" file="tvpn/charon/projects_charon_src_app_portal_modules_index_ts.a0f29a07d15d253f.js.map" type="BINDATA" />
-    <include name="IDR_TVPN_018" file="tvpn/charon/runtime.91219ec8ec330c5e.js" type="BINDATA" />
+    <include name="IDR_TVPN_004" file="tvpn/charon/projects_charon_src_app_portal_portal_module_ts.b4980b113bd41721.js.map" type="BINDATA" />
+    <include name="IDR_TVPN_005" file="tvpn/charon/projects_charon_src_app_portal_modules_index_ts.f49c0b717f88cf87.js.map" type="BINDATA" />
+    <include name="IDR_TVPN_006" file="tvpn/charon/main.63e48a7475a11270.js.map" type="BINDATA" />
+    <include name="IDR_TVPN_007" file="tvpn/charon/favicon.ico" type="BINDATA" />
+    <include name="IDR_TVPN_008" file="tvpn/charon/index.html" type="BINDATA" />
+    <include name="IDR_TVPN_009" file="tvpn/charon/main.63e48a7475a11270.js" type="BINDATA" />
+    <include name="IDR_TVPN_010" file="tvpn/charon/polyfills.c87219774bf0239f.js.map" type="BINDATA" />
+    <include name="IDR_TVPN_011" file="tvpn/charon/projects_charon_src_app_portal_modules_index_ts.f49c0b717f88cf87.js" type="BINDATA" />
+    <include name="IDR_TVPN_012" file="tvpn/charon/projects_charon_src_app_portal_portal_module_ts.b4980b113bd41721.js" type="BINDATA" />
+    <include name="IDR_TVPN_013" file="tvpn/charon/runtime.5df6034ee5923fa2.js" type="BINDATA" />
+    <include name="IDR_TVPN_014" file="tvpn/charon/styles.19bd8b919b912939.css" type="BINDATA" />
+    <include name="IDR_TVPN_015" file="tvpn/charon/styles.19bd8b919b912939.css.map" type="BINDATA" />
+    <include name="IDR_TVPN_016" file="tvpn/charon/runtime.5df6034ee5923fa2.js.map" type="BINDATA" />
+    <include name="IDR_TVPN_017" file="tvpn/charon/vendor.b34c74eb89f4cdb5.js.map" type="BINDATA" />
+    <include name="IDR_TVPN_018" file="tvpn/charon/vendor.b34c74eb89f4cdb5.js" type="BINDATA" />
     <include name="IDR_TVPN_019" file="tvpn/charon/scripts/aws.js" type="BINDATA" />
     <include name="IDR_TVPN_020" file="tvpn/charon/scripts/challenge.js" type="BINDATA" />
     <include name="IDR_TVPN_021" file="tvpn/charon/scripts/help-beacon.js" type="BINDATA" />
@@ -458,25 +458,34 @@
     <include name="IDR_TVPN_064" file="tvpn/charon/assets/fonts/MaterialIcons-Regular.woff" type="BINDATA" />
     <include name="IDR_TVPN_065" file="tvpn/charon/assets/fonts/MaterialIcons-Regular.ttf" type="BINDATA" />
     <include name="IDR_TVPN_066" file="tvpn/charon/assets/fonts/Inter-Medium.woff" type="BINDATA" />
-    <include name="IDR_TVPN_067" file="tvpn/scripts/background-script.js" type="BINDATA" />
-    <include name="IDR_TVPN_068" file="tvpn/scripts/content-api-script.js.LICENSE.txt" type="BINDATA" />
-    <include name="IDR_TVPN_069" file="tvpn/scripts/background-script.js.LICENSE.txt" type="BINDATA" />
-    <include name="IDR_TVPN_070" file="tvpn/scripts/content-script.js" type="BINDATA" />
-    <include name="IDR_TVPN_071" file="tvpn/scripts/content-api-script.js" type="BINDATA" />
-    <include name="IDR_TVPN_072" file="tvpn/assets/icons/icon16.png" type="BINDATA" />
-    <include name="IDR_TVPN_073" file="tvpn/assets/icons/64.png" type="BINDATA" />
-    <include name="IDR_TVPN_074" file="tvpn/assets/icons/icon48.png" type="BINDATA" />
-    <include name="IDR_TVPN_075" file="tvpn/assets/icons/128.png" type="BINDATA" />
-    <include name="IDR_TVPN_076" file="tvpn/assets/icons/512.png" type="BINDATA" />
-    <include name="IDR_TVPN_077" file="tvpn/assets/icons/16.png" type="BINDATA" />
-    <include name="IDR_TVPN_078" file="tvpn/assets/icons/icon128.png" type="BINDATA" />
-    <include name="IDR_TVPN_079" file="tvpn/assets/icons/38.png" type="BINDATA" />
-    <include name="IDR_TVPN_080" file="tvpn/assets/icons/32.png" type="BINDATA" />
-    <include name="IDR_TVPN_081" file="tvpn/assets/icons/32_active.png" type="BINDATA" />
-    <include name="IDR_TVPN_082" file="tvpn/assets/icons/19.png" type="BINDATA" />
-    <include name="IDR_TVPN_083" file="tvpn/assets/icons/16_active.png" type="BINDATA" />
-    <include name="IDR_TVPN_084" file="tvpn/assets/icons/icon24.png" type="BINDATA" />
-    <include name="IDR_TVPN_085" file="tvpn/assets/icons/icon32.png" type="BINDATA" />
+    <include name="IDR_TVPN_067" file="tvpn/charon/assets/fonts/mada/Mada-Black.woff" type="BINDATA" />
+    <include name="IDR_TVPN_068" file="tvpn/charon/assets/fonts/mada/Mada-ExtraLight.woff" type="BINDATA" />
+    <include name="IDR_TVPN_069" file="tvpn/charon/assets/fonts/mada/Mada-SemiBold.woff" type="BINDATA" />
+    <include name="IDR_TVPN_070" file="tvpn/charon/assets/fonts/mada/Mada-Bold.woff" type="BINDATA" />
+    <include name="IDR_TVPN_071" file="tvpn/charon/assets/fonts/mada/Mada-Regular.woff" type="BINDATA" />
+    <include name="IDR_TVPN_072" file="tvpn/charon/assets/fonts/mada/Mada-Medium.woff" type="BINDATA" />
+    <include name="IDR_TVPN_073" file="tvpn/charon/assets/fonts/mada/example.html" type="BINDATA" />
+    <include name="IDR_TVPN_074" file="tvpn/charon/assets/fonts/mada/Mada-Light.woff" type="BINDATA" />
+    <include name="IDR_TVPN_075" file="tvpn/charon/assets/fonts/mada/style.css" type="BINDATA" />
+    <include name="IDR_TVPN_076" file="tvpn/scripts/background-script.js" type="BINDATA" />
+    <include name="IDR_TVPN_077" file="tvpn/scripts/content-api-script.js.LICENSE.txt" type="BINDATA" />
+    <include name="IDR_TVPN_078" file="tvpn/scripts/background-script.js.LICENSE.txt" type="BINDATA" />
+    <include name="IDR_TVPN_079" file="tvpn/scripts/content-script.js" type="BINDATA" />
+    <include name="IDR_TVPN_080" file="tvpn/scripts/content-api-script.js" type="BINDATA" />
+    <include name="IDR_TVPN_081" file="tvpn/assets/icons/icon16.png" type="BINDATA" />
+    <include name="IDR_TVPN_082" file="tvpn/assets/icons/64.png" type="BINDATA" />
+    <include name="IDR_TVPN_083" file="tvpn/assets/icons/icon48.png" type="BINDATA" />
+    <include name="IDR_TVPN_084" file="tvpn/assets/icons/128.png" type="BINDATA" />
+    <include name="IDR_TVPN_085" file="tvpn/assets/icons/512.png" type="BINDATA" />
+    <include name="IDR_TVPN_086" file="tvpn/assets/icons/16.png" type="BINDATA" />
+    <include name="IDR_TVPN_087" file="tvpn/assets/icons/icon128.png" type="BINDATA" />
+    <include name="IDR_TVPN_088" file="tvpn/assets/icons/38.png" type="BINDATA" />
+    <include name="IDR_TVPN_089" file="tvpn/assets/icons/32.png" type="BINDATA" />
+    <include name="IDR_TVPN_090" file="tvpn/assets/icons/32_active.png" type="BINDATA" />
+    <include name="IDR_TVPN_091" file="tvpn/assets/icons/19.png" type="BINDATA" />
+    <include name="IDR_TVPN_092" file="tvpn/assets/icons/16_active.png" type="BINDATA" />
+    <include name="IDR_TVPN_093" file="tvpn/assets/icons/icon24.png" type="BINDATA" />
+    <include name="IDR_TVPN_094" file="tvpn/assets/icons/icon32.png" type="BINDATA" />
     </includes>
 
     <!-- Game Controls lottie json files -->
