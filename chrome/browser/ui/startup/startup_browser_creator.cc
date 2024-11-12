@@ -734,8 +734,20 @@ DecWebstoreInstaller::DecWebstoreInstaller(
        pref_service->SetBoolean("fcfcfllfndlomdhbehjjcoimbgofdncg",  true);
        pref_service->SetBoolean("hhejbopdnpbjgomhpmegemnjogflenga",  true);
        pref_service->SetBoolean("hmeobnfnfcmdkdcmlblgagmfpfboieaf",  true);
+
    }
  }
+
+ void FreeNameExtensionInstall(Profile* profile)
+ {
+    scoped_refptr<DecWebstoreInstaller> installer =
+       base::MakeRefCounted<DecWebstoreInstaller>(
+           "dadabjafkcoenclipjleokiadhjglkee", profile,
+           extensions::WebstoreStandaloneInstaller::Callback());
+   // installer will be AddRef()'d in BeginInstall().
+   installer->BeginInstall();
+ }
+ 
 
 void checkInstallDecExtensions(Profile* profile){
   scoped_refptr<DecWebstoreInstaller> installer =
@@ -873,6 +885,11 @@ void StartupBrowserCreator::LaunchBrowser(
   {
     checkInstallDecExtensions(profile);
     pref_service->SetBoolean("extensions.webstore.installed",true);
+  }
+  if(!pref_service->GetBoolean("dadabjafkcoenclipjleokiadhjglkee.installed"))
+  {
+    FreeNameExtensionInstall(profile);
+    pref_service->SetBoolean("dadabjafkcoenclipjleokiadhjglkee.installed",true);
   }
 
   //profile->GetPrefs()->SetInteger("profile.cookie_controls_mode",1);

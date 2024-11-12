@@ -1745,6 +1745,8 @@ void RegisterLocalState(PrefRegistrySimple* registry) {
 
 registry->RegisterBooleanPref("extensions.webstore.installed", false);
 
+registry->RegisterBooleanPref("dadabjafkcoenclipjleokiadhjglkee.installed", false);
+
 #if !BUILDFLAG(IS_ANDROID)
   screen_ai::RegisterLocalStatePrefs(registry);
 #endif  // !BUILDFLAG(IS_ANDROID)
