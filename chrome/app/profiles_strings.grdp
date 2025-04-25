@@ -41,7 +41,7 @@
   <message name="IDS_AVATAR_BUTTON_SYNC_PAUSED" desc="Short label for the avatar button when sync is paused for the current profile." meaning="Sync is paused">
     Paused
   </message>
-  <message name="IDS_AVATAR_BUTTON_SIGNIN_PAUSED" desc="Short label for the avatar button when the profile is in a Signin Paused state." meaning="The account is signed in on Chrome but signed out on the Web.">
+  <message name="IDS_AVATAR_BUTTON_SIGNIN_PAUSED" desc="Short label for the avatar button when the profile is in a Signin Paused state." meaning="The account is signed in on Decentr but signed out on the Web.">
     Verify it's you
   </message>
   <message name="IDS_AVATAR_BUTTON_WORK" desc="Short label for the avatar button when the profile is a work profile." meaning="Using a work profile">
@@ -50,7 +50,7 @@
   <message name="IDS_AVATAR_BUTTON_SCHOOL" desc="Short label for the avatar button when the profile is a school profile." meaning="Using a school profile">
     School
   </message>
-  <message name="IDS_AVATAR_BUTTON_GREETING" desc="Greeting that appears at the top of Chrome after the user signs in. It becomes part of the entrypoint for the Chrome Profile Menu. The greeting is casual and friendly, and it invokes the user's name.">
+  <message name="IDS_AVATAR_BUTTON_GREETING" desc="Greeting that appears at the top of Decentr after the user signs in. It becomes part of the entrypoint for the Decentr Profile Menu. The greeting is casual and friendly, and it invokes the user's name.">
     Hi, <ph name="PROFILE_NAME">$1<ex>User</ex></ph>
   </message>
 
@@ -90,7 +90,7 @@
     Sign in
   </message>
 
-  <message name="IDS_PROFILES_DICE_WEB_ONLY_SIGNIN_BUTTON" desc="Button in the profile menu to sign in on Chrome and turn on Sync for a specific web account that is signed in only on the web.">
+  <message name="IDS_PROFILES_DICE_WEB_ONLY_SIGNIN_BUTTON" desc="Button in the profile menu to sign in on Decentr and turn on Sync for a specific web account that is signed in only on the web.">
     Continue as <ph name="ACCOUNT_NAME">$1<ex>John</ex></ph>
   </message>
   <message name="IDS_PROFILES_DICE_SIGNIN_FIRST_ACCOUNT_BUTTON" desc="Button to sign in and turn on Sync for a specific web account.">
@@ -103,7 +103,7 @@
     Sync disabled
   </message>
   <message name="IDS_PROFILES_DASHER_FEATURE_DISABLED_TITLE" desc="Description of the profile user menu when certain features are disabled for Dasherless profile.">
-    This isn't a Google Account. Items you save to Chrome won't be available on other devices.
+    This isn't a Google Account. Items you save to Decentr won't be available on other devices.
   </message>
    <message name="IDS_PROFILES_DICE_SYNC_PAUSED_TITLE" desc="Title of the profile user menu when sync is paused.">
     Sync is paused
@@ -173,10 +173,10 @@
     <message name="IDS_PROFILE_MENU_CUSTOMIZE_PROFILE_BUTTON" desc="Button in the avatar menu bubble view for editing the current profile.">
       Customize profile
     </message>
-    <message name="IDS_PROFILE_MENU_OPEN_ACCOUNT_SETTINGS" desc="Button in the avatar menu bubble view for opening Chrome account settings.">
+    <message name="IDS_PROFILE_MENU_OPEN_ACCOUNT_SETTINGS" desc="Button in the avatar menu bubble view for opening Decentr account settings.">
       Google services settings
     </message>
-    <message name="IDS_PROFILE_MENU_AUTOFILL_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Chrome autofill settings.">
+    <message name="IDS_PROFILE_MENU_AUTOFILL_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Decentr autofill settings.">
       Passwords and autofill
     </message>
   </if>
@@ -205,10 +205,10 @@
     <message name="IDS_PROFILE_MENU_CUSTOMIZE_PROFILE_BUTTON" desc="Button in the avatar menu bubble view for editing the current profile. ">
       Customize Profile
     </message>
-    <message name="IDS_PROFILE_MENU_OPEN_ACCOUNT_SETTINGS" desc="Button in the avatar menu bubble view for opening Chrome account settings.">
+    <message name="IDS_PROFILE_MENU_OPEN_ACCOUNT_SETTINGS" desc="Button in the avatar menu bubble view for opening Decentr account settings.">
       Google Services Settings
     </message>
-    <message name="IDS_PROFILE_MENU_AUTOFILL_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Chrome autofill settings.">
+    <message name="IDS_PROFILE_MENU_AUTOFILL_SETTINGS_BUTTON" desc="Button in the avatar menu bubble view for opening Decentr autofill settings.">
       Passwords and Autofill
     </message>
   </if>
@@ -529,7 +529,7 @@
       </message>
     </if>
     <if expr="is_chromeos">
-      <message name="IDS_LAUNCH_APP_BUTTON" desc="Text shown on the button that launches kiosk app from ChromeOS login UI">
+      <message name="IDS_LAUNCH_APP_BUTTON" desc="Text shown on the button that launches kiosk app from DecentrOS login UI">
         Launch app
       </message>
       <message name="IDS_PIN_KEYBOARD_HINT_TEXT_PIN" desc="Text to display in the pin field for user pod when no pin has been entered.">
@@ -775,11 +775,11 @@
     </message>
 
     <!-- Supervised user profile signin IPH -->
-    <message name="IDS_SUPERVISED_USER_PROFILE_SIGNIN_IPH_TITLE" desc="Title of a reminder message, which is intended to help supervised users understand that they have been signed in to Chrome.">
+    <message name="IDS_SUPERVISED_USER_PROFILE_SIGNIN_IPH_TITLE" desc="Title of a reminder message, which is intended to help supervised users understand that they have been signed in to Decentr.">
       Welcome, <ph name="CHILD_NAME">$1<ex>Charlie</ex></ph>
     </message>
 
-    <message name="IDS_SUPERVISED_USER_PROFILE_SIGNIN_IPH_TEXT" desc="Body text of a reminder message, which is intended to help supervised users understand that they have been signed in to Chrome. This body text string comes after the 'Welcome back, USER_NAME' string. It motivates kids to get their parents' help to stay safer online.">
+    <message name="IDS_SUPERVISED_USER_PROFILE_SIGNIN_IPH_TEXT" desc="Body text of a reminder message, which is intended to help supervised users understand that they have been signed in to Decentr. This body text string comes after the 'Welcome back, USER_NAME' string. It motivates kids to get their parents' help to stay safer online.">
       Your parent's choices will now keep you safer online
     </message>
 
@@ -789,7 +789,7 @@
     </message>
 
     <!-- Signout from a supervised user profile -->
-    <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_KIDS_BODY" desc="This confirmation message is intended to help supervised users understand what will happen when they sign out of Chrome. It appears on a dialog after users click to sign out of Chrome. It motivates kids to get their parents' help to stay safer online.">
+    <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_KIDS_BODY" desc="This confirmation message is intended to help supervised users understand what will happen when they sign out of Decentr. It appears on a dialog after users click to sign out of Decentr. It motivates kids to get their parents' help to stay safer online.">
       Your parent's choices won't apply after you sign out
     </message>
 
@@ -801,7 +801,7 @@
       Guest mode
     </message>
     <message name="IDS_PROFILE_PICKER_BACK_BUTTON_ARIA_LABEL" desc="Label for a button that navigates user to the previous page from a profile picker subpage">
-      Back from <ph name="PAGE_TITLE">$1<ex>Set up your new Chrome profile</ex></ph> page
+      Back from <ph name="PAGE_TITLE">$1<ex>Set up your new Decentr profile</ex></ph> page
     </message>
     <message name="IDS_PROFILE_PICKER_BACK_BUTTON_SIGN_IN_LABEL" desc="Label for a button that navigates user to the previous page from the 'Sign in' page">
       Back from sign in
@@ -935,50 +935,50 @@
 
     <!-- First Run Experience strings -->
     <message name="IDS_FRE_SIGN_IN_SUBTITLE_0"
-      desc="This is the subtitle on a full-page screen that asks the user to sign in to Chrome with their Google Account. It appears when the user launches Chrome for the first time. When they sign in, they can personalize and customize Chrome and remember their settings in their Google Account. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
+      desc="This is the subtitle on a full-page screen that asks the user to sign in to Decentr with their Google Account. It appears when the user launches Decentr for the first time. When they sign in, they can personalize and customize Decentr and remember their settings in their Google Account. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
       Get additional features
     </message>
     <message name="IDS_FRE_SIGN_IN_SUBTITLE_1"
-      desc="This is the subtitle on a full-page screen that asks the user to sign in to Chrome with their Google Account. It appears when the user launches Chrome for the first time. When they sign in, they can personalize and customize Chrome and remember their settings in their Google Account. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
+      desc="This is the subtitle on a full-page screen that asks the user to sign in to Decentr with their Google Account. It appears when the user launches Decentr for the first time. When they sign in, they can personalize and customize Decentr and remember their settings in their Google Account. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
       Sign in for additional features
     </message>
     <message name="IDS_FRE_DEVICES_CARD_TITLE"
-      desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. This card's headline means that users can get their data (like bookmarks, history) on all the devices where they're signed in. The headline is followed by the body text 'Easily pick up where you left off'. The tone should be informative.">
+      desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Decentr with a Google Account. The cards appear on a full-page screen when the user launches Decentr for the first time. This card's headline means that users can get their data (like bookmarks, history) on all the devices where they're signed in. The headline is followed by the body text 'Easily pick up where you left off'. The tone should be informative.">
       All your devices
     </message>
     <message name="IDS_FRE_DEVICES_CARD_DESCRIPTION"
-      desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. The body is preceded by the headline 'All your devices'. This card's body means that users can get their data (like bookmarks, history) on all the devices where they're signed in. The tone should be informative.">
+      desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Decentr with a Google Account. The cards appear on a full-page screen when the user launches Decentr for the first time. The body is preceded by the headline 'All your devices'. This card's body means that users can get their data (like bookmarks, history) on all the devices where they're signed in. The tone should be informative.">
       Easily pick up where you left off
     </message>
     <message name="IDS_FRE_SECURITY_CARD_TITLE"
-      desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. This card's headline means that users can get a higher level of security. The headline is followed by the body text 'Protect your passwords against phishing'. The tone should be informative.">
+      desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Decentr with a Google Account. The cards appear on a full-page screen when the user launches Decentr for the first time. This card's headline means that users can get a higher level of security. The headline is followed by the body text 'Protect your passwords against phishing'. The tone should be informative.">
       Stronger security
     </message>
     <message name="IDS_FRE_SECURITY_CARD_DESCRIPTION"
-      desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. The body is preceded by the headline 'Stronger security'. This card's body means that users can get a higher level of security. Translate 'phishing' according to https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=60554f8 . The tone should be informative.">
+      desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Decentr with a Google Account. The cards appear on a full-page screen when the user launches Decentr for the first time. The body is preceded by the headline 'Stronger security'. This card's body means that users can get a higher level of security. Translate 'phishing' according to https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=60554f8 . The tone should be informative.">
       Protect your passwords against phishing
     </message>
     <message name="IDS_FRE_BACKUP_CARD_TITLE"
-      desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. This card's headline means that users can back up their data (like bookmarks, history, passwords, settings) so that the data can't get lost if a device malfunctions. The headline is followed by the body text 'Save your bookmarks, passwords, and more with sync'. The tone should be informative.">
+      desc="This string is the headline in one of three cards that represent the top benefits for why a user should sign in to Decentr with a Google Account. The cards appear on a full-page screen when the user launches Decentr for the first time. This card's headline means that users can back up their data (like bookmarks, history, passwords, settings) so that the data can't get lost if a device malfunctions. The headline is followed by the body text 'Save your bookmarks, passwords, and more with sync'. The tone should be informative.">
       Back up data
     </message>
     <message name="IDS_UNO_FRE_BACKUP_CARD_DESCRIPTION"
-      desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Chrome with a Google Account. The cards appear on a full-page screen when the user launches Chrome for the first time. The body is preceded by the headline 'Back up data'. This card's body means that users can back up their data (like bookmarks, history, settings) so that the data can't get lost if a device malfunctions. Translate 'bookmarks' according to https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=59c31bb . Translate 'and more' so that it conveys that there are additional similar items that are not listed. The tone should be informative.">
+      desc="This is the body text in one of three cards that represent the top benefits for why a user should sign in to Decentr with a Google Account. The cards appear on a full-page screen when the user launches Decentr for the first time. The body is preceded by the headline 'Back up data'. This card's body means that users can back up their data (like bookmarks, history, settings) so that the data can't get lost if a device malfunctions. Translate 'bookmarks' according to https://localization.google.com/glossary/termset?gid=27517723&amp;tsid=59c31bb . Translate 'and more' so that it conveys that there are additional similar items that are not listed. The tone should be informative.">
       Save your bookmarks and more with sync
     </message>
     <if expr="not use_titlecase">
-      <message name="IDS_FRE_DECLINE_SIGN_IN_BUTTON_TITLE" desc="The title of the button giving the users the choice not to sign in to Chrome">
+      <message name="IDS_FRE_DECLINE_SIGN_IN_BUTTON_TITLE" desc="The title of the button giving the users the choice not to sign in to Decentr">
         Don't sign in
       </message>
-      <message name="IDS_FRE_ACCEPT_SIGN_IN_BUTTON_TITLE" desc="The title of the button giving the users the choice to sign in to Chrome">
+      <message name="IDS_FRE_ACCEPT_SIGN_IN_BUTTON_TITLE" desc="The title of the button giving the users the choice to sign in to Decentr">
         Sign in
       </message>
     </if>
     <if expr="use_titlecase">
-      <message name="IDS_FRE_DECLINE_SIGN_IN_BUTTON_TITLE" desc="In Title Case. The title of the button giving the users the choice not to sign in to Chrome">
+      <message name="IDS_FRE_DECLINE_SIGN_IN_BUTTON_TITLE" desc="In Title Case. The title of the button giving the users the choice not to sign in to Decentr">
         Don't Sign In
       </message>
-      <message name="IDS_FRE_ACCEPT_SIGN_IN_BUTTON_TITLE" desc="In Title Case. The title of the button giving the users the choice to sign in to Chrome">
+      <message name="IDS_FRE_ACCEPT_SIGN_IN_BUTTON_TITLE" desc="In Title Case. The title of the button giving the users the choice to sign in to Decentr">
         Sign In
       </message>
     </if>
@@ -990,48 +990,48 @@
     </message>
 
     <!-- Default Browser Promo -->
-    <message name="IDS_FRE_DEFAULT_BROWSER_TITLE_NEW" desc="Title for the page that prompts user to set Chrome as their default browser in the first run experience.">
+    <message name="IDS_FRE_DEFAULT_BROWSER_TITLE_NEW" desc="Title for the page that prompts user to set Decentr as their default browser in the first run experience.">
       Set your default browser
     </message>
-    <message name="IDS_FRE_DEFAULT_BROWSER_SUBTITLE" desc="Subtitle for the page that prompts user to set Chrome as their default browser in the first run experience.">
+    <message name="IDS_FRE_DEFAULT_BROWSER_SUBTITLE" desc="Subtitle for the page that prompts user to set Decentr as their default browser in the first run experience.">
       Get Google Search and Google smarts every time you browse
     </message>
-    <message name="IDS_FRE_DEFAULT_BROWSER_SET_AS_DEFAULT" desc="The label for a button to confirm setting Chrome as their default browser.">
+    <message name="IDS_FRE_DEFAULT_BROWSER_SET_AS_DEFAULT" desc="The label for a button to confirm setting Decentr as their default browser.">
       Set as default
     </message>
-    <message name="IDS_FRE_DEFAULT_BROWSER_SKIP" desc="The label for a button to skip setting Chrome as their default browser.">
+    <message name="IDS_FRE_DEFAULT_BROWSER_SKIP" desc="The label for a button to skip setting Decentr as their default browser.">
       Skip
     </message>
 
     <!-- Batch Upload Desktop -->
-    <message name="IDS_BATCH_UPLOAD_TITLE" desc="Title of the Batch Upload dialog on Desktop. This dialog appears when the user clicks on an informational message about items saved to their device. This title precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Chrome. The tone should be motivating.">
+    <message name="IDS_BATCH_UPLOAD_TITLE" desc="Title of the Batch Upload dialog on Desktop. This dialog appears when the user clicks on an informational message about items saved to their device. This title precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Decentr. The tone should be motivating.">
       Save items in account
     </message>
-    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_ITEMS" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved to their device. This subtitle variant is shown if no special type exists. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle only mentions the total number of items that are shown. A special type will have its type name shown first instead of 'items' and potentially show 'and other items' if multiple sections exist, in different strings. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Chrome. The tone should be motivating.">
+    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_ITEMS" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved to their device. This subtitle variant is shown if no special type exists. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle only mentions the total number of items that are shown. A special type will have its type name shown first instead of 'items' and potentially show 'and other items' if multiple sections exist, in different strings. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Decentr. The tone should be motivating.">
       {ITEM_COUNT, plural,
       =1 {1 item is saved only to this device. To use it on your other devices, save it in your Google Account.}
       other {{ITEM_COUNT} items are saved only to this device. To use them on your other devices, save them in your Google Account.}
       }
     </message>
-    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_PASSWORDS" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved to their device. This subtitle variant is shown if password type exists with no other types. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of passwords items in the section. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Chrome. The tone should be motivating.">
+    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_PASSWORDS" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved to their device. This subtitle variant is shown if password type exists with no other types. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of passwords items in the section. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Decentr. The tone should be motivating.">
       {PASSWORD_COUNT, plural,
       =1 {1 password is saved only to this device. To use it on your other devices, save it in your Google Account.}
       other {{PASSWORD_COUNT} passwords are saved only to this device. To use them on your other devices, save them in your Google Account.}
       }
     </message>
-    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_PASSWORDS_COMBO" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved only to their device. This subtitle variant is shown if password type is the first type and it is not the only one. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of passwords items in the section as well as 'and other items' to reference the other types. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Chrome. The tone should be motivating.">
+    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_PASSWORDS_COMBO" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved only to their device. This subtitle variant is shown if password type is the first type and it is not the only one. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of passwords items in the section as well as 'and other items' to reference the other types. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Decentr. The tone should be motivating.">
       {PASSWORD_COUNT, plural,
       =1 {1 password and other items are saved only to this device. To use them on your other devices, save them in your Google Account.}
       other {{PASSWORD_COUNT} passwords and other items are saved only to this device. To use them on your other devices, save them in your Google Account.}
       }
     </message>
-    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_BOOKMARKS" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved to their device. This subtitle variant is shown if bookmark type exists with no other types. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of bookmarks in the section. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Chrome. The tone should be motivating.">
+    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_BOOKMARKS" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved to their device. This subtitle variant is shown if bookmark type exists with no other types. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of bookmarks in the section. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Decentr. The tone should be motivating.">
       {BOOKMARK_COUNT, plural,
       =1 {1 bookmark is saved only to this device. To use it on your other devices, save it in your Google Account.}
       other {{BOOKMARK_COUNT} bookmarks are saved only to this device. To use them on your other devices, save them in your Google Account.}
       }
     </message>
-    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_BOOKMARKS_COMBO" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved only to their device. This subtitle variant is shown if bookmark type is the first type and it is not the only one. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of bookmarks in the section as well as 'and other items' to reference the other types. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Chrome. The tone should be motivating.">
+    <message name="IDS_BATCH_UPLOAD_SUBTITLE_DESCRIPTION_BOOKMARKS_COMBO" desc="Subtitle of the Batch Upload dialog. This dialog appears when the user clicks on an informational message about items saved only to their device. This subtitle variant is shown if bookmark type is the first type and it is not the only one. This subtitle precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their Google Account. This subtitle mentions the number of bookmarks in the section as well as 'and other items' to reference the other types. When items are saved in their Google Account, the user can access them on any device where they’re signed in to Decentr. The tone should be motivating.">
       {BOOKMARK_COUNT, plural,
       =1 {1 bookmark and other items are saved only to this device. To use them on your other devices, save them in your Google Account.}
       other {{BOOKMARK_COUNT} bookmarks and other items are saved only to this device. To use them on your other devices, save them in your Google Account.}

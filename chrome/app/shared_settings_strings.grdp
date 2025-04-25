@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Settings-specific strings shared by Browser and ChromeOS settings -->
+<!-- Settings-specific strings shared by Browser and DecentrOS settings -->
 <grit-part>
   <!-- All subpages -->
-  <message name="IDS_SETTINGS_SUBPAGE_BACK_BUTTON_ARIA_LABEL" desc="Text read by screen readers when focusing on the back button. If the back button is activated, it will navigate to the previous page. This text will only be announced by ChromeVox and will not be visible in the UI.">
+  <message name="IDS_SETTINGS_SUBPAGE_BACK_BUTTON_ARIA_LABEL" desc="Text read by screen readers when focusing on the back button. If the back button is activated, it will navigate to the previous page. This text will only be announced by DecentrVox and will not be visible in the UI.">
     <ph name="SUBPAGE_TITLE">$1<ex>Bluetooth</ex></ph> subpage back button
   </message>
-  <message name="IDS_SETTINGS_SUBPAGE_BACK_BUTTON_ARIA_ROLE_DESCRIPTION" desc="Description read by screen readers when focusing on the back button. Indicates to the user that activating the back button will cause the settings page to navigate away from the currently displaying subpage to the previous visited page. This text will only be announced by ChromeVox and will not be visible in the UI.">
+  <message name="IDS_SETTINGS_SUBPAGE_BACK_BUTTON_ARIA_ROLE_DESCRIPTION" desc="Description read by screen readers when focusing on the back button. Indicates to the user that activating the back button will cause the settings page to navigate away from the currently displaying subpage to the previous visited page. This text will only be announced by DecentrVox and will not be visible in the UI.">
     Click to navigate away from <ph name="SUBPAGE_TITLE">$1<ex>Bluetooth</ex> subpage</ph>.
   </message>
   <message name="IDS_SETTINGS_SUBPAGE_LEARN_MORE_ARIA_LABEL" desc="Text read by screen readers when focusing the learn more icon button which corresponds to the subpage title. If the icon button is activated, an external page with the corresponding help article is opened. This text will only be announced by screen readers and will not be visible in the UI.">
@@ -101,7 +101,7 @@
     Supported Live Caption languages
   </message>
   <message name="IDS_SETTINGS_CAPTIONS_MANAGE_LANGUAGES_SUBTITLE" desc="Subtitle for the caption settings section for managing language packs.">
-    Chrome can create and translate captions for the languages shown here
+    Decentr can create and translate captions for the languages shown here
   </message>
   <message name="IDS_SETTINGS_CAPTIONS_LIVE_TRANSLATE_TARGET_LANGUAGE" desc="Description of the target language setting for the Live Translate feature.">
     Translate captions to
@@ -151,7 +151,7 @@
     Show notification when devices are sharing nearby
   </message>
   <message name="IDS_SETTINGS_NEARBY_SHARE_DEVICE_NAME_ARIA_DESCRIPTION" desc="Description for screen readers, not displayed in UI, specifying the current device name which is shown to other devices for the Nearby Share feature." is_accessibility_with_no_ui="true">
-    Current device name is <ph name="DEVICE_NAME">$1<ex>Michael's Chromebook</ex></ph>
+    Current device name is <ph name="DEVICE_NAME">$1<ex>Michael's Decentrbook</ex></ph>
   </message>
   <message name="IDS_SETTINGS_NEARBY_SHARE_CONFIRM_DEVICE_NAME" desc="Label for the button that allows a user to confirm their device name which is shown to other devices for the Nearby Share feature.">
     Rename
@@ -184,7 +184,7 @@
     May incur mobile data charges
   </message>
   <message name="IDS_SETTINGS_NEARBY_SHARE_DATA_USAGE_MOBILE_DATA_TOOLTIP" desc="Explanation of when the mobile data usage setting applies. When selected, Mobile data means that Wi-Fi or cell data may be used for transfers for the Nearby Share feature.">
-    This option applies to Chromebooks with a data plan or mobile network dongle, or when tethering to a portable hotspot
+    This option applies to Decentrbooks with a data plan or mobile network dongle, or when tethering to a portable hotspot
   </message>
   <message name="IDS_SETTINGS_NEARBY_SHARE_DATA_USAGE_OFFLINE_LABEL" desc="Label for the data usage setting where transfers will only take place offline for the Nearby Share feature.">
     Without internet
@@ -236,8 +236,8 @@
   <message name="IDS_SETTINGS_SPELLING_PREF" desc="The documentation string of the 'Use Spelling' preference">
     Enhanced spell check
   </message>
-  <message name="IDS_SETTINGS_ENABLE_LOGGING_PREF" desc="The label of the checkbox to enable/disable crash and user metrics logging. This string does not need a Chromium counter-part because it will only be visible if Google-branded.">
-    Help improve Chrome's features and performance
+  <message name="IDS_SETTINGS_ENABLE_LOGGING_PREF" desc="The label of the checkbox to enable/disable crash and user metrics logging. This string does not need a Decentr counter-part because it will only be visible if Google-branded.">
+    Help improve Decentr's features and performance
   </message>
   <if expr="is_fuchsia">
     <then>
@@ -272,7 +272,7 @@
     Sync is paused
   </message>
   <message name="IDS_SETTINGS_PEOPLE_SIGN_IN_PROMPT" desc="The text displayed to prompt users to sign in to chrome.">
-    Get Google smarts in Chrome
+    Get Google smarts in Decentr
   </message>
   <message name="IDS_SETTINGS_PEOPLE_SYNC_TURN_OFF" desc="The label for the button that lets the user turn off profile syncing with their gaia account.">
     Turn off
@@ -310,7 +310,7 @@
    <message name="IDS_SETTINGS_PEOPLE_ACCOUNT_AWARE_SIGNIN_ACCOUNT_ROW_SUBTITLE_WITH_EMAIL" desc="The subtitle of the avatar row shown to users who are signed in only to the web">
       To get your passwords and more on all your devices, sign in as <ph name="EMAIL">$1<ex>johndoe@gmail.com</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_CHANGE_ACCOUNT" desc="The alt-text that corresponds to the down arrow button on the settings page. On clicking the user will a list of accounts they can use to signin with. This button is shown when the user is signed in the content area but not into Chrome.">
+  <message name="IDS_SETTINGS_CHANGE_ACCOUNT" desc="The alt-text that corresponds to the down arrow button on the settings page. On clicking the user will a list of accounts they can use to signin with. This button is shown when the user is signed in the content area but not into Decentr.">
       Choose another account
   </message>
 
@@ -318,7 +318,7 @@
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_CONFIRM" desc="The text to display on the button to confirm the user wishes to stop syncing.">
     Delete and Sign Out
   </message>
-  <message name="IDS_SETTINGS_PEOPLE_SIGN_OUT" desc="The label of the button that lets user sign-out of Chrome.">
+  <message name="IDS_SETTINGS_PEOPLE_SIGN_OUT" desc="The label of the button that lets user sign-out of Decentr.">
     Sign out
   </message>
   <!-- Sync Control Subpage (strings used by the <settings-sync-controls> element) -->
@@ -396,7 +396,7 @@
   <message name="IDS_SETTINGS_INCORRECT_PASSPHRASE_ERROR" desc="Message when the passphrase is incorrect.">
     The passphrase you entered is incorrect
   </message>
-  <message name="IDS_SETTINGS_NEW_MANAGE_SYNCED_DATA_TITLE_UNIFIED_CONSENT" desc="Title for the link to manage Chrome Sync data via Google Dashboard when unified consent is enabled.">
+  <message name="IDS_SETTINGS_NEW_MANAGE_SYNCED_DATA_TITLE_UNIFIED_CONSENT" desc="Title for the link to manage Decentr Sync data via Google Dashboard when unified consent is enabled.">
     Review your synced data
   </message>
   <message name="IDS_SETTINGS_NEW_SYNC_ADVANCED_BROWSER_PAGE_TITLE" desc="Name of the settings page which manages browser data used by sync when lacros is enabled." >
@@ -427,12 +427,12 @@
     You can turn on sync anytime in settings
   </message>
   <message name="IDS_SYNC_UNAVAILABLE_FOR_NON_GOOGLE_ACCOUNT" desc="Text explaining that Sync service is unavailable for Dasherless profile.">
-    This account isn't associated with Google so features such as Chrome sync are unavailable
+    This account isn't associated with Google so features such as Decentr sync are unavailable
   </message>
 
   <if expr="is_chromeos">
     <message name="IDS_BROWSER_SETTINGS_SYNC_FEATURE_LABEL" desc="Label describing the browser sync feature.">
-      Your data will be synced across all Chrome browsers where you have turned on sync for this account. For ChromeOS sync options, go to <ph name="LINK_BEGIN">&lt;a&gt;</ph>ChromeOS settings<ph name="LINK_END">&lt;/a&gt;</ph>.
+      Your data will be synced across all Decentr browsers where you have turned on sync for this account. For DecentrOS sync options, go to <ph name="LINK_BEGIN">&lt;a&gt;</ph>DecentrOS settings<ph name="LINK_END">&lt;/a&gt;</ph>.
     </message>
     <message name="IDS_SETTINGS_COOKIES_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing cookies between multiple browser instances.">
       Cookies
@@ -443,8 +443,8 @@
   <message name="IDS_SETTINGS_ABOUT_UPGRADE_CHECK_STARTED" desc="Status label: About to start checking for updates">
     Checking for updates
   </message>
-  <message name="IDS_SETTINGS_UPDATE_TO_ROLLBACK_VERSION_DISALLOWED" desc="Status label: After a consumer rollback, updating to the previously installed version just rolledback from is disallowed (ChromiumOS/ChromeOS)">
-    You reverted to a previous version of ChromeOS. To get updates, wait until the next version is available.
+  <message name="IDS_SETTINGS_UPDATE_TO_ROLLBACK_VERSION_DISALLOWED" desc="Status label: After a consumer rollback, updating to the previously installed version just rolledback from is disallowed (DecentrOS/DecentrOS)">
+    You reverted to a previous version of DecentrOS. To get updates, wait until the next version is available.
   </message>
 
   <if expr="is_chromeos">

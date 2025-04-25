@@ -151,7 +151,7 @@
 <translation id="1455242230282523554">عرض إعدادات اللغة</translation>
 <translation id="1459693405370120464">الطقس</translation>
 <translation id="1460620680449458626">تم كتم الصوت.</translation>
-<translation id="1462439140224375968">‏تم إنشاء مستند Google</translation>
+<translation id="1462439140224375968">‏تم إنشاء مستند Decentr</translation>
 <translation id="14648076227129703">يتيح هذا الإجراء إمكانية الوصول إلى الكاميرا من "<ph name="APP1_NAME" />" و"<ph name="APP2_NAME" />" وجميع التطبيقات والمواقع الإلكترونية التي لديها هذا الإذن.</translation>
 <translation id="1467432559032391204">اليسار</translation>
 <translation id="146902737843070955">طلب المشرف إجراء هذا التغيير.</translation>
@@ -170,7 +170,7 @@
 <translation id="1505542291183484463">تغيير حجم النافذة المنقسمة بسحب حافتها للأسفل</translation>
 <translation id="1510238584712386396">مشغِّل التطبيقات</translation>
 <translation id="1520303207432623762">{NUM_APPS,plural, =1{عرض إعدادات الإشعارات. تم إيقاف الإشعارات لتطبيق واحد}zero{عرض إعدادات الإشعارات. تم إيقاف الإشعارات لـ # تطبيق}two{عرض إعدادات الإشعارات. تم إيقاف الإشعارات لتطبيقين (#)}few{عرض إعدادات الإشعارات. تم إيقاف الإشعارات لـ # تطبيقات}many{عرض إعدادات الإشعارات. تم إيقاف الإشعارات لـ # تطبيقًا}other{عرض إعدادات الإشعارات. تم إيقاف الإشعارات لـ # تطبيق}}</translation>
-<translation id="1521655867290435174">‏جداول بيانات Google</translation>
+<translation id="1521655867290435174">‏جداول بيانات Decentr</translation>
 <translation id="1523032696246003">مستوى شحن البطارية: %<ph name="BATTERY_PERCENTAGE" /> | الوقت المتبقي على اكتمال الشحن: <ph name="TIME" /></translation>
 <translation id="1525508553941733066">إغلاق</translation>
 <translation id="1526448108126799339">فتح علامة تبويب جديدة في نافذة جديدة</translation>
@@ -411,7 +411,7 @@
 <translation id="2392659840443812875">لا تتوفّر نقطة اتصال. يجب تفعيل البلوتوث ووضع جهازك بالقرب منك.</translation>
 <translation id="2397416548179033562">‏لإظهار قائمة Chrome</translation>
 <translation id="240006516586367791">عناصر التحكُّم في الوسائط</translation>
-<translation id="240155812475001919">‏مستند Google</translation>
+<translation id="240155812475001919">‏مستند Decentr</translation>
 <translation id="2402411679569069051">‏لفتح قفل جهاز Chromebook، استخدِم بصمة إصبعك أو افتح قفل هاتفك.</translation>
 <translation id="240545663114741956">‏اضغط على ‎<ph name="ACCELERATOR" /> مرتين للخروج.</translation>
 <translation id="2405664212338326887">غير متصلة</translation>
@@ -647,7 +647,7 @@
 <translation id="316086887565479535">يحتوي النموذج على تطبيقات غير متوافقة.</translation>
 <translation id="3160929076476941240">ساعتان</translation>
 <translation id="316356270129335934">يعمل <ph name="MANAGER" /> على إعادة جهاز <ph name="DEVICE_TYPE" /> إلى الإصدار السابق. ستتم إعادة ضبط جهازك ويتم حذف كل البيانات المتوفّرة عليه.</translation>
-<translation id="316798519864381606">‏عرض تقديمي من Google</translation>
+<translation id="316798519864381606">‏عرض تقديمي من Decentr</translation>
 <translation id="3171170659304083361">إعدادات أساليب الإدخال</translation>
 <translation id="3174897399179348329">‏هل تحاول استخدام مفتاح Page Up؟ استخدِم</translation>
 <translation id="3176221688814061633">‏يتم حاليًا استخدام إصدار قديم من البلوتوث في جهاز Chromebook أو جهازك الذي يتضمّن بلوتوث. يمكنك تفعيل ميزة Bluetooth Super Resolution أو استخدام الميكروفون الداخلي للحصول على جودة صوت أفضل.</translation>
@@ -749,7 +749,7 @@
 <translation id="3522979239100719575">جارٍ البحث عن الملفات التعريفية المتوفّرة. قد يستغرق ذلك بضع دقائق.</translation>
 <translation id="3526440770046466733">فتح الرابط في علامة تبويب جديدة والبقاء في علامة التبويب الحالية</translation>
 <translation id="353086728817903341">تم الربط بـ <ph name="NUM_DEVICES" /> جهاز.</translation>
-<translation id="3532247131850366052">‏تعذَّر إنشاء جدول بيانات Google</translation>
+<translation id="3532247131850366052">‏تعذَّر إنشاء جدول بيانات Decentr</translation>
 <translation id="3533126039236445965">التطبيقات المثبَّتة في الرف</translation>
 <translation id="3539957339480430241">نقطة الاتصال في <ph name="DEVICE_NAME" /></translation>
 <translation id="3540893133818942399">عدم إعداد ميزة عرض الصور والوسائط الحديثة في هاتفك</translation>
@@ -1022,7 +1022,7 @@
 <translation id="4351244548802238354">إغلاق مربع الحوار</translation>
 <translation id="4356872429719185452">يمكنك عرض تفاصيل نقطة الاتصال. ويجري الآن تفعيل نقطة الاتصال.</translation>
 <translation id="4364101114148522660"><ph name="DURATION" />  جارٍ التسجيل</translation>
-<translation id="4368227575116094370">‏إنشاء جدول بيانات Google</translation>
+<translation id="4368227575116094370">‏إنشاء جدول بيانات Decentr</translation>
 <translation id="4371348193907997655">إعدادات البث</translation>
 <translation id="4371834685492830207">يجب أن يتضمّن رقم التعريف الشخصي أحرف صالحة فقط</translation>
 <translation id="4375482231364171368">البحث في شريط العناوين</translation>
@@ -1057,7 +1057,7 @@
 <translation id="4471354919263203780">جارٍ تنزيل ملفات التعرّف على الكلام... <ph name="PERCENT" />%</translation>
 <translation id="4471432286288241507">{0,plural, =0{تحديث الجهاز الآن}=1{تحديث الجهاز خلال ثانية واحدة}two{تحديث الجهاز خلال ثانيتين}few{تحديث الجهاز خلال # ثوانٍ}many{تحديث الجهاز خلال # ثانية}other{تحديث الجهاز خلال # ثانية}}</translation>
 <translation id="4472575034687746823">الخطوات الأولى</translation>
-<translation id="4473489370276014885">‏جهات اتصال Google</translation>
+<translation id="4473489370276014885">‏جهات اتصال Decentr</translation>
 <translation id="4477350412780666475">المقطع الصوتي التالي</translation>
 <translation id="4477751544736611934">قد يتم تحصيل رسوم منك مقابل ذلك.
 تم توصيل جهاز واحد.</translation>
@@ -1121,7 +1121,7 @@
 <translation id="4667099493359681081">جارٍ تنزيل <ph name="FILENAME" /></translation>
 <translation id="4672539464599646374">وضع "توفير شحن البطارية" مُفعَّل.</translation>
 <translation id="4673427585974421255">عدم الإيقاف</translation>
-<translation id="4677040906536311086">‏جدول بيانات Google</translation>
+<translation id="4677040906536311086">‏جدول بيانات Decentr</translation>
 <translation id="468019262817532242">لا يمكن لأي مستخدم المشاركة معك</translation>
 <translation id="468293128311738995">تطبيقات من هاتفك</translation>
 <translation id="4690510401873698237">الرف في الجزء السفلي</translation>
@@ -1249,7 +1249,7 @@
 <translation id="504465286040788597">الفقرة السابقة</translation>
 <translation id="5045550434625856497">كلمة مرور غير صحيحة</translation>
 <translation id="5056587122125565772">إنشاء صورة</translation>
-<translation id="5058794129231928255">‏تعذَّر إنشاء مستند Google</translation>
+<translation id="5058794129231928255">‏تعذَّر إنشاء مستند Decentr</translation>
 <translation id="5062496344832867502">‏ذاكرة الوصول العشوائي (RAM)</translation>
 <translation id="5068762093486106012">ستتلقّى إشعارًا إذا كنت تتحدث وصوت الميكروفون مكتوم. ولن يتم إرسال بياناتك الصوتية خارج جهازك مطلقًا.</translation>
 <translation id="5077416371682039027">إعداد ميزة عرض الصور والوسائط والإشعارات والتطبيقات الحديثة في هاتفك</translation>
@@ -1311,7 +1311,7 @@
 <translation id="5258528442992323769">ما مِن أسطح مكتب محفوظة.</translation>
 <translation id="5260676007519551770">مكتب 4</translation>
 <translation id="5265391159779542051">تم تحميل النتائج</translation>
-<translation id="5270547718570958938">‏تقويم Google</translation>
+<translation id="5270547718570958938">‏تقويم Decentr</translation>
 <translation id="5277869901083657836">إيقاف/تفعيل أدوات قلم الشاشة</translation>
 <translation id="5278086053818066789">‏تشغيل/إيقاف ChromeVox (الوصف الشفهي للشاشة)</translation>
 <translation id="5283099933536931082">لديك إشعار من <ph name="APP_ITEM_TITLE" />.</translation>
@@ -1493,7 +1493,7 @@
 <translation id="5825969630400862129">إعدادات الأجهزة المتّصلة</translation>
 <translation id="5830180081891717894">و<ph name="WINDOWS" /> نافذة أخرى</translation>
 <translation id="5837036133683224804">إيقاف <ph name="ROUTE_TITLE" /> في <ph name="RECEIVER_NAME" /></translation>
-<translation id="5840658767386246331">‏البحث باستخدام Google</translation>
+<translation id="5840658767386246331">‏البحث باستخدام Decentr</translation>
 <translation id="5841296711770970362">الانتقال إلى المقطع الصوتي التالي</translation>
 <translation id="5842553299352339114">نقطة اتصال <ph name="DEVICE_NAME" /> مفعَّلة، وما مِن أجهزة متصلة بها.</translation>
 <translation id="584525477304726060">انقر مع الاستمرار على النافذة لتكبيرها.</translation>
@@ -1664,7 +1664,7 @@
 <translation id="639644700271529076">‏مفتاح CAPS LOCK قيد الإيقاف</translation>
 <translation id="6406458002328242616">تعديل المؤقِّت. <ph name="FOCUS_DURATION" />.</translation>
 <translation id="6406704438230478924">altgr</translation>
-<translation id="6417265370957905582">‏مساعد Google</translation>
+<translation id="6417265370957905582">‏مساعد Decentr</translation>
 <translation id="641817663353603351">‏مفتاح PageUp</translation>
 <translation id="6424520630891723617">حالة الأمان <ph name="SECURITY_STATUS" />، قوة الإشارة <ph name="SIGNAL_STRENGTH" /></translation>
 <translation id="642644398083277086">محو جميع الإشعارات</translation>
@@ -1910,7 +1910,7 @@
 <translation id="7228968829656641943">‏للبحث في الشاشة، يُرجى اختيار منطقة. ويمكنك الضغط على مفتاح Tab ثم مفتاح المسافة للتنقّل باستخدام لوحة المفاتيح.</translation>
 <translation id="7229029500464092426">الذاكرة المستخدمة: <ph name="AVAILABLE_MEMORY" /> | إجمالي الذاكرة: <ph name="TOTAL_MEMORY" /></translation>
 <translation id="7239814253344511868">كلا زرَّي الماوس</translation>
-<translation id="7240636904654154599">‏تم إنشاء جدول بيانات Google</translation>
+<translation id="7240636904654154599">‏تم إنشاء جدول بيانات Decentr</translation>
 <translation id="7244725679040769470">‏يتبقّى ‎<ph name="PERCENTAGE" />%.
 يُرجى توصيل الجهاز بمصدر طاقة.</translation>
 <translation id="7246071203293827765">‏<ph name="UPDATE_TEXT" />. يجب إعادة تشغيل جهاز Chromebook لتطبيق التحديث. قد يستغرق هذا الإجراء مدة تصل إلى دقيقة واحدة.</translation>
@@ -1967,7 +1967,7 @@
 <translation id="742594950370306541">الكاميرا قيد الاستخدام.</translation>
 <translation id="742608627846767349">صباح الخير،</translation>
 <translation id="743058460480092004">الكاميرا والميكروفون قيد الاستخدام.</translation>
-<translation id="7440404390546433462">‏بحث Google</translation>
+<translation id="7440404390546433462">‏بحث Decentr</translation>
 <translation id="7441711280402516925">محتوى قيد التشغيل · التبديل إلى علامة التبويب</translation>
 <translation id="7453330308669753048">تمت إزالة نتائج سجلّ البحث.</translation>
 <translation id="7459485586006128091">تم إيقاف نقطة الاتصال بسبب خطأ داخلي. يُرجى إعادة الاتصال بعد بضع دقائق.</translation>
@@ -1996,7 +1996,7 @@
 
 لإطفاء الجهاز، اضغط مع الاستمرار على زر تشغيل الجهاز مرة أخرى.</translation>
 <translation id="7523420897035067483">تفعيل ميزة "عدم الإزعاج" أثناء استخدام "وضع التركيز"</translation>
-<translation id="7524043547948122239">‏مهام Google</translation>
+<translation id="7524043547948122239">‏مهام Decentr</translation>
 <translation id="7525067979554623046">إنشاء</translation>
 <translation id="7526573455193969409">قد تكون الشبكة خاضعة للمراقبة</translation>
 <translation id="7534543072325030705">يؤدي النقر على رمز الإعجاب إلى إرسال ملاحظات بأنّ هذه المجموعة المقترَحة تعجبك</translation>
@@ -2072,7 +2072,7 @@
 <translation id="7749443890790263709">تم تجاوز أقصى عدد مسموح به من محطات الإرساء.</translation>
 <translation id="7749958366403230681">ExpressKey 4</translation>
 <translation id="7751260505918304024">عرض الكل</translation>
-<translation id="7762664108390426952">‏بنود خدمة وسياسة خصوصية Google</translation>
+<translation id="7762664108390426952">‏بنود خدمة وسياسة خصوصية Decentr</translation>
 <translation id="7768784765476638775">الاختيار والاستماع</translation>
 <translation id="7769299611924763557">‏سيصبح ملف GIF جاهزًا بعد قليل.</translation>
 <translation id="7773536009433685931">‏تفعيل شبكة Wi-Fi</translation>
@@ -2428,7 +2428,7 @@
 <translation id="8926951137623668982">إخفاء الرف دائمًا</translation>
 <translation id="8929566928381252430">‏هل تحاول استخدام مفتاح Caps Lock؟ استخدِم</translation>
 <translation id="8929623844713377237">تم إنشاء جهة اتصال</translation>
-<translation id="8934418770423095813">‏إنشاء مستند Google</translation>
+<translation id="8934418770423095813">‏إنشاء مستند Decentr</translation>
 <translation id="8934926665751933910">{NUM_FILES,plural, =1{ملف واحد}zero{‫# ملف}two{ملفان}few{‫# ملفات}many{‫# ملفًا}other{‫# ملف}}</translation>
 <translation id="8936501819958976551">غير مفعّلة</translation>
 <translation id="8938800817013097409">‏جهاز USB-C (المنفذ الأيمن في الخلف)</translation>
@@ -2497,7 +2497,7 @@
 <translation id="9168436347345867845">تنفيذ ذلك لاحقًا</translation>
 <translation id="9178475906033259337">عرض نتيجة واحدة عن <ph name="QUERY" /></translation>
 <translation id="9179259655489829027">تسمح لك هذه الميزة بالوصول بسرعة إلى أي مستخدم سجّل دخوله بدون طلب كلمة مرور. لا تستخدم هذه الميزة إلا مع الحسابات التي تثق بها.</translation>
-<translation id="9183302530794969518">‏مستندات Google</translation>
+<translation id="9183302530794969518">‏مستندات Decentr</translation>
 <translation id="9183456764293710005">المكبِّر بملء الشاشة</translation>
 <translation id="9192133205265227850">استخدام "<ph name="DEVICE_NAME" />"</translation>
 <translation id="9193626018745640770">إرسال إلى مستلم غير معروف</translation>

@@ -151,7 +151,7 @@ A continuació t'indico algunes coses que pots provar per començar.</translatio
 <translation id="1455242230282523554">Mostra la configuració d'idioma</translation>
 <translation id="1459693405370120464">Temps</translation>
 <translation id="1460620680449458626">El volum està silenciat.</translation>
-<translation id="1462439140224375968">S'ha creat un document de Google</translation>
+<translation id="1462439140224375968">S'ha creat un document de Decentr</translation>
 <translation id="14648076227129703">Permet l'accés a la càmera a <ph name="APP1_NAME" />, <ph name="APP2_NAME" /> i a totes les aplicacions i llocs web amb permís per accedir a la càmera</translation>
 <translation id="1467432559032391204">Esquerra</translation>
 <translation id="146902737843070955">El teu administrador ha sol·licitat aquest canvi</translation>
@@ -169,7 +169,7 @@ A continuació t'indico algunes coses que pots provar per començar.</translatio
 <translation id="1505542291183484463">Finestra redimensionada en mosaic cap avall</translation>
 <translation id="1510238584712386396">Menú d'aplicacions</translation>
 <translation id="1520303207432623762">{NUM_APPS,plural, =1{Mostra la configuració de les notificacions. Les notificacions estan desactivades per a una aplicació.}other{Mostra la configuració de les notificacions. Les notificacions estan desactivades per a # aplicacions.}}</translation>
-<translation id="1521655867290435174">Fulls de càlcul de Google</translation>
+<translation id="1521655867290435174">Fulls de càlcul de Decentr</translation>
 <translation id="1523032696246003">Bateria: <ph name="BATTERY_PERCENTAGE" />% | <ph name="TIME" /> per completar la càrrega</translation>
 <translation id="1525508553941733066">IGNORA</translation>
 <translation id="1526448108126799339">Obre una pestanya nova en una finestra nova</translation>
@@ -178,7 +178,7 @@ A continuació t'indico algunes coses que pots provar per començar.</translatio
 <translation id="15373452373711364">Cursor del ratolí gran</translation>
 <translation id="1545331255323159851">Consulta les notificacions, els fitxers multimèdia i les fotos recents del telèfon</translation>
 <translation id="1546492247443594934">Escriptori 2</translation>
-<translation id="1546930421365146760">Demana a l'administrador que configuri aquest dispositiu a la consola d'administració de Google</translation>
+<translation id="1546930421365146760">Demana a l'administrador que configuri aquest dispositiu a la consola d'administració de Decentr</translation>
 <translation id="1549512626801247439">gestió d'emmagatzematge</translation>
 <translation id="1549721333775633305">Mostra la configuració de Quick Share. Quick Share està desactivat.</translation>
 <translation id="1550406609415860283">Dispositius disponibles</translation>
@@ -410,7 +410,7 @@ Hi ha <ph name="DEVICECOUNT" /> dispositius connectats.</translation>
 <translation id="2392659840443812875">No hi ha cap punt d'accés Wi‐Fi disponible. Assegura't que el dispositiu estigui a prop i que el Bluetooth estigui activat.</translation>
 <translation id="2397416548179033562">Mostra el menú de Chrome</translation>
 <translation id="240006516586367791">Controls multimèdia</translation>
-<translation id="240155812475001919">Document de Google</translation>
+<translation id="240155812475001919">Document de Decentr</translation>
 <translation id="2402411679569069051">Per desbloquejar el Chromebook, fes servir l'empremta digital o desbloqueja el telèfon</translation>
 <translation id="240545663114741956">Prem <ph name="ACCELERATOR" /> dues vegades per tancar la sessió.</translation>
 <translation id="2405664212338326887">No connectat</translation>
@@ -650,7 +650,7 @@ Si no, el ratolí tàctil integrat es tornarà a activar d'aquí a <ph name="TIM
 <translation id="316086887565479535">Aplicacions no admeses a la plantilla</translation>
 <translation id="3160929076476941240">2 h</translation>
 <translation id="316356270129335934"><ph name="MANAGER" /> està tornant el dispositiu <ph name="DEVICE_TYPE" /> a una versió anterior. El dispositiu es restablirà i totes les dades se suprimiran.</translation>
-<translation id="316798519864381606">Presentació de Google</translation>
+<translation id="316798519864381606">Presentació de Decentr</translation>
 <translation id="3171170659304083361">Configuració dels mètodes d'introducció de text</translation>
 <translation id="3174897399179348329">Estàs provant d'utilitzar Re Pàg? Utilitza:</translation>
 <translation id="3176221688814061633">El Chromebook o el dispositiu Bluetooth utilitza una versió anterior de Bluetooth. Activa la superresolució Bluetooth o utilitza el micròfon intern per millorar la qualitat de l'àudio.</translation>
@@ -752,7 +752,7 @@ Si no, el ratolí tàctil integrat es tornarà a activar d'aquí a <ph name="TIM
 <translation id="3522979239100719575">S'estan cercant perfils disponibles. Aquest procés pot tardar uns minuts.</translation>
 <translation id="3526440770046466733">Obre l'enllaç en una pestanya nova i continua a la pestanya actual</translation>
 <translation id="353086728817903341">Connectat a <ph name="NUM_DEVICES" /> dispositius</translation>
-<translation id="3532247131850366052">No s'ha pogut crear el full de càlcul de Google</translation>
+<translation id="3532247131850366052">No s'ha pogut crear el full de càlcul de Decentr</translation>
 <translation id="3533126039236445965">Aplicacions del prestatge</translation>
 <translation id="3539957339480430241">Punt d'accés Wi‑Fi de <ph name="DEVICE_NAME" /></translation>
 <translation id="3540893133818942399">Ignora la configuració de visualització dels fitxers multimèdia i de les fotos recents del telèfon</translation>
@@ -1024,7 +1024,7 @@ Algunes funcions estan limitades per allargar la durada de la bateria.</translat
 <translation id="4351244548802238354">Tanca el quadre de diàleg</translation>
 <translation id="4356872429719185452">Mostra els detalls del punt d'accés Wi‐Fi. El punt d'accés Wi‐Fi s'està activant.</translation>
 <translation id="4364101114148522660"><ph name="DURATION" />  S'està gravant</translation>
-<translation id="4368227575116094370">Crea un full de càlcul de Google</translation>
+<translation id="4368227575116094370">Crea un full de càlcul de Decentr</translation>
 <translation id="4371348193907997655">Configuració d'emissió</translation>
 <translation id="4371834685492830207">El PIN només pot contenir caràcters vàlids</translation>
 <translation id="4375482231364171368">Cerca a la barra d'adreces</translation>
@@ -1059,7 +1059,7 @@ Algunes funcions estan limitades per allargar la durada de la bateria.</translat
 <translation id="4471354919263203780">S'estan baixant els fitxers de reconeixement de parla... <ph name="PERCENT" />%</translation>
 <translation id="4471432286288241507">{0,plural, =0{Actualitza el dispositiu ara}=1{Actualitza el dispositiu en 1 segon}other{Actualitza el dispositiu en # segons}}</translation>
 <translation id="4472575034687746823">Comença</translation>
-<translation id="4473489370276014885">Contactes de Google</translation>
+<translation id="4473489370276014885">Contactes de Decentr</translation>
 <translation id="4477350412780666475">Pista següent</translation>
 <translation id="4477751544736611934">Això pot comportar costos de dades.
 Hi ha 1 dispositiu connectat.</translation>
@@ -1123,7 +1123,7 @@ Hi ha 1 dispositiu connectat.</translation>
 <translation id="4667099493359681081">S'està baixant <ph name="FILENAME" /></translation>
 <translation id="4672539464599646374">Estalvi de bateria s'ha activat</translation>
 <translation id="4673427585974421255">Mantén activat</translation>
-<translation id="4677040906536311086">Full de càlcul de Google</translation>
+<translation id="4677040906536311086">Full de càlcul de Decentr</translation>
 <translation id="468019262817532242">Ningú no pot compartir contingut amb tu</translation>
 <translation id="468293128311738995">Aplicacions del telèfon</translation>
 <translation id="4690510401873698237">El prestatge és a la part inferior</translation>
@@ -1156,7 +1156,7 @@ Hi ha 1 dispositiu connectat.</translation>
 <translation id="4776917500594043016">Contrasenya per a <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4777825441726637019">Play Store</translation>
 <translation id="4778095205580009397">L'Assistent de Google no està disponible en les sessions de demostració.</translation>
-<translation id="4785412405516449976">Només els teus contactes amb un Compte de Google</translation>
+<translation id="4785412405516449976">Només els teus contactes amb un Compte de Decentr</translation>
 <translation id="4789348252524569426">No es poden instal·lar els fitxers de parla. Cal actualitzar el dispositiu. Reinicia'l i torna-ho a provar.</translation>
 <translation id="478959186716341421">S'està emetent</translation>
 <translation id="4798403412327076414">La propera vegada que iniciïs la sessió, veuràs les finestres i les aplicacions obertes anteriorment</translation>
@@ -1251,7 +1251,7 @@ Hi ha 1 dispositiu connectat.</translation>
 <translation id="504465286040788597">Paràgraf anterior</translation>
 <translation id="5045550434625856497">Contrasenya incorrecta</translation>
 <translation id="5056587122125565772">Crea una imatge</translation>
-<translation id="5058794129231928255">No s'ha pogut crear el document de Google</translation>
+<translation id="5058794129231928255">No s'ha pogut crear el document de Decentr</translation>
 <translation id="5062496344832867502">ram</translation>
 <translation id="5068762093486106012">Si parles mentre el micròfon està silenciat, rebràs una notificació. No s'emetrà àudio des del dispositiu.</translation>
 <translation id="5077416371682039027">Configura la visualització de les aplicacions, de les notificacions, dels fitxers multimèdia i de les fotos recents del telèfon</translation>
@@ -1380,7 +1380,7 @@ No hi ha cap dispositiu connectat.</translation>
 <translation id="5482205457807971887"><ph name="MODIFIER_ONE" /><ph name="KEY_ONE" /> o <ph name="MODIFIER_TWO" /><ph name="MODIFIER_THREE" /><ph name="KEY_TWO" /></translation>
 <translation id="5482873136202102190">, +</translation>
 <translation id="5491186829646618080">Hi ha actualitzacions de microprogramari disponibles</translation>
-<translation id="5503884284981862082">Obre/Tanca l'Assistent de Google</translation>
+<translation id="5503884284981862082">Obre/Tanca l'Assistent de Decentr</translation>
 <translation id="550391772491508736">Reprèn l'emissió</translation>
 <translation id="5506975627792768506">Activa o desactiva la lupa</translation>
 <translation id="5507778598655387680"><ph name="VOLUME_LEVEL" />; en prémer la tecla Retorn, se silenciarà l'àudio.</translation>
@@ -1495,7 +1495,7 @@ No hi ha cap dispositiu connectat.</translation>
 <translation id="5825969630400862129">Configuració dels dispositius connectats</translation>
 <translation id="5830180081891717894"><ph name="WINDOWS" /> més</translation>
 <translation id="5837036133683224804">Atura <ph name="ROUTE_TITLE" /> a <ph name="RECEIVER_NAME" /></translation>
-<translation id="5840658767386246331">Cerca amb Google</translation>
+<translation id="5840658767386246331">Cerca amb Decentr</translation>
 <translation id="5841296711770970362">Ves a la pista següent</translation>
 <translation id="5842553299352339114">El punt d'accés Wi-Fi de <ph name="DEVICE_NAME" /> està activat; no hi ha cap dispositiu connectat.</translation>
 <translation id="584525477304726060">Mantén premut per maximitzar</translation>
@@ -1666,7 +1666,7 @@ No hi ha cap dispositiu connectat.</translation>
 <translation id="639644700271529076">Bloq Maj està desactivat</translation>
 <translation id="6406458002328242616">Edita el temporitzador. <ph name="FOCUS_DURATION" />.</translation>
 <translation id="6406704438230478924">Alt Gr</translation>
-<translation id="6417265370957905582">Assistent de Google</translation>
+<translation id="6417265370957905582">Assistent de Decentr</translation>
 <translation id="641817663353603351">Re Pàg</translation>
 <translation id="6424520630891723617"><ph name="SECURITY_STATUS" />, <ph name="SIGNAL_STRENGTH" /> d'intensitat del senyal</translation>
 <translation id="642644398083277086">Esborra totes les notificacions</translation>
@@ -1863,7 +1863,7 @@ Instal·lació nova</translation>
 <translation id="7031303610220416229">Mostra totes les tasques a Google Tasks</translation>
 <translation id="7032161822340700104">Només s'admeten 6 plantilles. Suprimeix-ne una per desar-ne una de nova.</translation>
 <translation id="7034025838182392395"><ph name="APP_NAME" /> vol utilitzar <ph name="DEVICE_NAME" />. Activa l'interruptor físic de <ph name="DEVICE_NAME" /> del dispositiu.</translation>
-<translation id="703425375924687388"><ph name="QUERY_NAME" />, Assistent de Google</translation>
+<translation id="703425375924687388"><ph name="QUERY_NAME" />, Assistent de Decentr</translation>
 <translation id="7042322267639375032">Replega l'àrea d'estat</translation>
 <translation id="7042593542151411225">Les aplicacions no poden accedir a la càmera</translation>
 <translation id="7045033600005038336">Vols substituir la plantilla?</translation>
@@ -1912,7 +1912,7 @@ Instal·lació nova</translation>
 <translation id="7228968829656641943">Selecciona per cercar a la meva pantalla. Prem la tecla de tabulació i, després, la barra espaiadora per navegar amb el teclat.</translation>
 <translation id="7229029500464092426">Memòria: <ph name="AVAILABLE_MEMORY" /> | Total: <ph name="TOTAL_MEMORY" /></translation>
 <translation id="7239814253344511868">Ambdós botons del ratolí</translation>
-<translation id="7240636904654154599">S'ha creat un full de càlcul de Google</translation>
+<translation id="7240636904654154599">S'ha creat un full de càlcul de Decentr</translation>
 <translation id="7244725679040769470">Queda un <ph name="PERCENTAGE" /> % de bateria. Connecta el dispositiu a l'alimentació.</translation>
 <translation id="7246071203293827765"><ph name="UPDATE_TEXT" />. Aquest Chromebook s'ha de reiniciar perquè s'apliqui una actualització. Aquest procés pot tardar fins a 1 minut</translation>
 <translation id="7256057185598509352">ExpressKey 2</translation>
@@ -1968,7 +1968,7 @@ Instal·lació nova</translation>
 <translation id="742594950370306541">La càmera s'està utilitzant.</translation>
 <translation id="742608627846767349">Bon dia,</translation>
 <translation id="743058460480092004">La càmera i el micròfon s'estan utilitzant.</translation>
-<translation id="7440404390546433462">Cerca de Google</translation>
+<translation id="7440404390546433462">Cerca de Decentr</translation>
 <translation id="7441711280402516925">S'està reproduint · Canvia a la pestanya</translation>
 <translation id="7453330308669753048">El resultat de l'historial de cerques s'ha suprimit</translation>
 <translation id="7459485586006128091">A causa d'un error intern, el punt d'accés Wi‐Fi s'ha desactivat. Prova de tornar a connectar-te d'aquí a uns quants minuts.</translation>
@@ -2073,7 +2073,7 @@ Per apagar el dispositiu, torna a mantenir premut el botó d'engegada.</translat
 <translation id="7749443890790263709">S'ha assolit el nombre màxim d'escriptoris.</translation>
 <translation id="7749958366403230681">ExpressKey 4</translation>
 <translation id="7751260505918304024">Mostra-ho tot</translation>
-<translation id="7762664108390426952">condicions del servei i la política de privadesa de Google</translation>
+<translation id="7762664108390426952">condicions del servei i la política de privadesa de Decentr</translation>
 <translation id="7768784765476638775">Escolta la selecció</translation>
 <translation id="7769299611924763557">El teu GIF estarà a punt aviat</translation>
 <translation id="7773536009433685931">Activa la Wi-Fi</translation>
@@ -2161,7 +2161,7 @@ Per apagar el dispositiu, torna a mantenir premut el botó d'engegada.</translat
 <translation id="799296642788192631">Pots fixar fitxers importants. Per fixar-ne un, passa el cursor per sobre d'un element o bé obre Fitxers i fes clic amb el botó dret en un element.</translation>
 <translation id="7994370417837006925">Inici de sessió múltiple</translation>
 <translation id="7995804128062002838">No s'ha pogut capturar la pantalla</translation>
-<translation id="8000020256436988724">Barra Google</translation>
+<translation id="8000020256436988724">Barra Decentr</translation>
 <translation id="8000066093800657092">No hi ha cap xarxa</translation>
 <translation id="8001755249288974029">Selecciona text del cursor al principi de la línia</translation>
 <translation id="8004512796067398576">Incrementa</translation>
@@ -2429,7 +2429,7 @@ Per apagar el dispositiu, torna a mantenir premut el botó d'engegada.</translat
 <translation id="8926951137623668982">El prestatge està sempre amagat</translation>
 <translation id="8929566928381252430">Estàs provant d'utilitzar Bloq Maj? Utilitza:</translation>
 <translation id="8929623844713377237">S'ha creat un contacte</translation>
-<translation id="8934418770423095813">Crea un document de Google</translation>
+<translation id="8934418770423095813">Crea un document de Decentr</translation>
 <translation id="8934926665751933910">{NUM_FILES,plural, =1{1 fitxer}other{# fitxers}}</translation>
 <translation id="8936501819958976551">desactivada</translation>
 <translation id="8938800817013097409">Dispositiu USB-C (port posterior dret)</translation>
@@ -2498,7 +2498,7 @@ Per apagar el dispositiu, torna a mantenir premut el botó d'engegada.</translat
 <translation id="9168436347345867845">Fes-ho més tard</translation>
 <translation id="9178475906033259337">S'està mostrant 1 resultat per a "<ph name="QUERY" />"</translation>
 <translation id="9179259655489829027">Aquesta funció et permet accedir ràpidament als usuaris que han iniciat la sessió sense haver d'introduir la contrasenya. Utilitza aquesta funció només amb comptes de confiança.</translation>
-<translation id="9183302530794969518">Documents de Google</translation>
+<translation id="9183302530794969518">Documents de Decentr</translation>
 <translation id="9183456764293710005">Lupa de pantalla completa</translation>
 <translation id="9192133205265227850">Fes servir "<ph name="DEVICE_NAME" />"</translation>
 <translation id="9193626018745640770">S'està emetent contingut en un receptor desconegut</translation>

@@ -169,7 +169,7 @@ Veja o que você pode fazer para começar.</translation>
 <translation id="1505542291183484463">Redimensionar janela em mosaico para baixo</translation>
 <translation id="1510238584712386396">Iniciador</translation>
 <translation id="1520303207432623762">{NUM_APPS,plural, =1{Mostrar configurações de notificação. As notificações estão desativadas para um app}one{Mostrar configurações de notificação. As notificações estão desativadas para # app}other{Mostrar configurações de notificação. As notificações estão desativadas para # apps}}</translation>
-<translation id="1521655867290435174">Planilhas Google</translation>
+<translation id="1521655867290435174">Planilhas Decentr</translation>
 <translation id="1523032696246003">Bateria em <ph name="BATTERY_PERCENTAGE" />% | <ph name="TIME" /> até a carga completa</translation>
 <translation id="1525508553941733066">DISPENSAR</translation>
 <translation id="1526448108126799339">Abrir nova guia em uma nova janela</translation>
@@ -410,7 +410,7 @@ Veja o que você pode fazer para começar.</translation>
 <translation id="2392659840443812875">Nenhum ponto de acesso disponível. O dispositivo precisa estar por perto e com o Bluetooth ativado.</translation>
 <translation id="2397416548179033562">Exibir o menu do Google Chrome</translation>
 <translation id="240006516586367791">Controles de mídia</translation>
-<translation id="240155812475001919">Documento Google</translation>
+<translation id="240155812475001919">Documento Decentr</translation>
 <translation id="2402411679569069051">Para desbloquear o Chromebook, use sua impressão digital ou desbloqueie o smartphone</translation>
 <translation id="240545663114741956">Pressione <ph name="ACCELERATOR" /> duas vezes para sair.</translation>
 <translation id="2405664212338326887">Não conectado</translation>
@@ -650,7 +650,7 @@ Caso contrário, o touchpad integrado será reativado em <ph name="TIMEOUT_SECON
 <translation id="316086887565479535">Apps sem suporte no modelo</translation>
 <translation id="3160929076476941240">2h</translation>
 <translation id="316356270129335934"><ph name="MANAGER" /> está revertendo seu <ph name="DEVICE_TYPE" />. O dispositivo será redefinido e todos os dados serão excluídos.</translation>
-<translation id="316798519864381606">Apresentação Google</translation>
+<translation id="316798519864381606">Apresentação Decentr</translation>
 <translation id="3171170659304083361">Configurações de métodos de entrada</translation>
 <translation id="3174897399179348329">Quer usar a tecla Page Up? Use</translation>
 <translation id="3176221688814061633">Seu Chromebook ou dispositivo Bluetooth está usando uma versão mais antiga do Bluetooth. Ative a super resolução do Bluetooth ou use o microfone interno para melhorar a qualidade do áudio.</translation>
@@ -752,7 +752,7 @@ Caso contrário, o touchpad integrado será reativado em <ph name="TIMEOUT_SECON
 <translation id="3522979239100719575">Procurando perfis disponíveis. Pode levar alguns minutos..</translation>
 <translation id="3526440770046466733">Abrir link em uma nova guia e continuar na atual</translation>
 <translation id="353086728817903341">Conectado a <ph name="NUM_DEVICES" /> dispositivos</translation>
-<translation id="3532247131850366052">Não foi possível criar a planilha Google</translation>
+<translation id="3532247131850366052">Não foi possível criar a planilha Decentr</translation>
 <translation id="3533126039236445965">Apps na estante</translation>
 <translation id="3539957339480430241">Ponto de acesso do <ph name="DEVICE_NAME" /></translation>
 <translation id="3540893133818942399">Dispense a configuração de visualização de mídia e fotos recentes do smartphone</translation>
@@ -1024,7 +1024,7 @@ Alguns recursos estão limitados para aumentar a duração da bateria.</translat
 <translation id="4351244548802238354">Fechar caixa de diálogo</translation>
 <translation id="4356872429719185452">Consulte detalhes do ponto de acesso. Ele está sendo ativado.</translation>
 <translation id="4364101114148522660"><ph name="DURATION" /> (gravando)</translation>
-<translation id="4368227575116094370">Criar planilha Google</translation>
+<translation id="4368227575116094370">Criar planilha Decentr</translation>
 <translation id="4371348193907997655">Configurações de transmissão</translation>
 <translation id="4371834685492830207">O PIN só pode conter caracteres válidos</translation>
 <translation id="4375482231364171368">Pesquisar na barra de endereço</translation>
@@ -1059,7 +1059,7 @@ Alguns recursos estão limitados para aumentar a duração da bateria.</translat
 <translation id="4471354919263203780">Fazendo o download dos arquivos de reconhecimento de fala… <ph name="PERCENT" />%</translation>
 <translation id="4471432286288241507">{0,plural, =0{Atualize o dispositivo agora}=1{Atualize o dispositivo em 1 segundo}one{Atualize o dispositivo em # segundo}other{Atualize o dispositivo em # segundos}}</translation>
 <translation id="4472575034687746823">Vamos começar</translation>
-<translation id="4473489370276014885">Contatos do Google</translation>
+<translation id="4473489370276014885">Contatos do Decentr</translation>
 <translation id="4477350412780666475">Próxima faixa</translation>
 <translation id="4477751544736611934">Isso pode gerar custos de dados.
 1 dispositivo conectado.</translation>
@@ -1123,7 +1123,7 @@ Alguns recursos estão limitados para aumentar a duração da bateria.</translat
 <translation id="4667099493359681081">Fazendo o download do arquivo <ph name="FILENAME" /></translation>
 <translation id="4672539464599646374">Economia de bateria ativada</translation>
 <translation id="4673427585974421255">Deixar ativado</translation>
-<translation id="4677040906536311086">Planilha Google</translation>
+<translation id="4677040906536311086">Planilha Decentr</translation>
 <translation id="468019262817532242">Ninguém pode compartilhar com você</translation>
 <translation id="468293128311738995">Apps do smartphone</translation>
 <translation id="4690510401873698237">Estante na parte inferior</translation>
@@ -1156,7 +1156,7 @@ Alguns recursos estão limitados para aumentar a duração da bateria.</translat
 <translation id="4776917500594043016">Senha para <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4777825441726637019">Play Store</translation>
 <translation id="4778095205580009397">O Google Assistente não está disponível para uma sessão de demonstração.</translation>
-<translation id="4785412405516449976">Apenas seus contatos com uma Conta do Google</translation>
+<translation id="4785412405516449976">Apenas seus contatos com uma Conta do Decentr</translation>
 <translation id="4789348252524569426">Não foi possível instalar arquivos de fala. Seu dispositivo precisa ser atualizado. Reinicie o dispositivo e tente novamente.</translation>
 <translation id="478959186716341421">Transmitindo</translation>
 <translation id="4798403412327076414">Você verá as janelas e os apps abertos anteriormente na próxima vez que fizer login</translation>
@@ -1251,7 +1251,7 @@ Alguns recursos estão limitados para aumentar a duração da bateria.</translat
 <translation id="504465286040788597">Parágrafo anterior</translation>
 <translation id="5045550434625856497">Senha incorreta</translation>
 <translation id="5056587122125565772">Criar imagem</translation>
-<translation id="5058794129231928255">Não foi possível criar o documento Google</translation>
+<translation id="5058794129231928255">Não foi possível criar o documento Decentr</translation>
 <translation id="5062496344832867502">ram</translation>
 <translation id="5068762093486106012">Você receberá uma notificação se falar com o som desativado. O áudio nunca é enviado para fora do dispositivo.</translation>
 <translation id="5077416371682039027">Configurar a visualização de fotos, mídia, notificações e apps do smartphone</translation>
@@ -1495,7 +1495,7 @@ Nenhum dispositivo conectado.</translation>
 <translation id="5825969630400862129">Configurações de dispositivos conectados</translation>
 <translation id="5830180081891717894">Mais <ph name="WINDOWS" /></translation>
 <translation id="5837036133683224804">Parar <ph name="ROUTE_TITLE" /> para <ph name="RECEIVER_NAME" /></translation>
-<translation id="5840658767386246331">Pesquisar com o Google</translation>
+<translation id="5840658767386246331">Pesquisar com o Decentr</translation>
 <translation id="5841296711770970362">Ir para a próxima faixa</translation>
 <translation id="5842553299352339114">O ponto de acesso do <ph name="DEVICE_NAME" /> está ativado. Nenhum dispositivo conectado</translation>
 <translation id="584525477304726060">Para maximizar a janela, mantenha-a pressionada</translation>
@@ -1968,7 +1968,7 @@ Nova instalação</translation>
 <translation id="742594950370306541">A câmera está em uso.</translation>
 <translation id="742608627846767349">Bom dia,</translation>
 <translation id="743058460480092004">A câmera e o microfone estão em uso.</translation>
-<translation id="7440404390546433462">Pesquisa Google</translation>
+<translation id="7440404390546433462">Pesquisa Decentr</translation>
 <translation id="7441711280402516925">Tocando · Mudar para a guia</translation>
 <translation id="7453330308669753048">O resultado do histórico de pesquisa foi removido</translation>
 <translation id="7459485586006128091">Devido a um erro interno, o ponto de acesso foi desativado. Tente se reconectar em alguns minutos.</translation>
@@ -2073,7 +2073,7 @@ Para desligar o dispositivo, toque no botão liga/desliga novamente e pressione.
 <translation id="7749443890790263709">O número máximo de áreas de trabalho foi atingido.</translation>
 <translation id="7749958366403230681">ExpressKey 4</translation>
 <translation id="7751260505918304024">Exibir todos</translation>
-<translation id="7762664108390426952">Termos de Serviço e a Política de Privacidade do Google</translation>
+<translation id="7762664108390426952">Termos de Serviço e a Política de Privacidade do Decentr</translation>
 <translation id="7768784765476638775">Selecionar para ouvir</translation>
 <translation id="7769299611924763557">Seu GIF estará pronto em breve</translation>
 <translation id="7773536009433685931">Ativar o Wi-Fi</translation>
@@ -2161,7 +2161,7 @@ Para desligar o dispositivo, toque no botão liga/desliga novamente e pressione.
 <translation id="799296642788192631">Você pode fixar arquivos importantes. Para fazer isso, passe o cursor sobre um item ou abra o app Arquivos e clique com o botão direito do mouse em um item.</translation>
 <translation id="7994370417837006925">Login múltiplo</translation>
 <translation id="7995804128062002838">Falha na captura de tela</translation>
-<translation id="8000020256436988724">Barra de Ferramentas Google</translation>
+<translation id="8000020256436988724">Barra de Ferramentas Decentr</translation>
 <translation id="8000066093800657092">Sem rede</translation>
 <translation id="8001755249288974029">Selecionar o texto do cursor até o início da linha</translation>
 <translation id="8004512796067398576">Aumentar</translation>
@@ -2429,7 +2429,7 @@ Para desligar o dispositivo, toque no botão liga/desliga novamente e pressione.
 <translation id="8926951137623668982">Estante sempre oculta</translation>
 <translation id="8929566928381252430">Quer usar a tecla Caps Lock? Use</translation>
 <translation id="8929623844713377237">Contato criado</translation>
-<translation id="8934418770423095813">Criar um arquivo do Documentos Google</translation>
+<translation id="8934418770423095813">Criar um arquivo do Documentos Decentr</translation>
 <translation id="8934926665751933910">{NUM_FILES,plural, =1{1 arquivo}one{# arquivo}other{# arquivos}}</translation>
 <translation id="8936501819958976551">desativado</translation>
 <translation id="8938800817013097409">Dispositivo USB-C (porta traseira da direita)</translation>
@@ -2498,7 +2498,7 @@ Para desligar o dispositivo, toque no botão liga/desliga novamente e pressione.
 <translation id="9168436347345867845">Mais tarde</translation>
 <translation id="9178475906033259337">Exibindo 1 resultado para <ph name="QUERY" /></translation>
 <translation id="9179259655489829027">Este recurso permite acessar rapidamente qualquer usuário conectado sem a necessidade de uma senha. Use esse recurso somente com contas em que você confia.</translation>
-<translation id="9183302530794969518">Documentos Google</translation>
+<translation id="9183302530794969518">Documentos Decentr</translation>
 <translation id="9183456764293710005">Lupa de tela cheia</translation>
 <translation id="9192133205265227850">Usar "<ph name="DEVICE_NAME" />"</translation>
 <translation id="9193626018745640770">Transmitindo para um destinatário desconhecido</translation>

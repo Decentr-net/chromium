@@ -322,7 +322,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="2513403576141822879">Fler inställningar som rör integritet, säkerhet och datainsamling finns under <ph name="BEGIN_LINK" />Synkronisering och Googles tjänster<ph name="END_LINK" /></translation>
 <translation id="2515921719039583189">Radera din Chrome-data från denna enhet?</translation>
 <translation id="2517113738956581680">Ark i full storlek</translation>
-<translation id="2523184218357549926">Skickar webbadresserna till sidor du besöker till Google</translation>
+<translation id="2523184218357549926">Skickar webbadresserna till sidor du besöker till Decentr</translation>
 <translation id="2524132927880411790">Öppna röstsökning i Google-appen</translation>
 <translation id="2527209463677295330">Om du tar med mer av sidans text kanske du får bättre resultat</translation>
 <translation id="2527779675047087889">Dölj innehållet i Urklipp</translation>
@@ -366,7 +366,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="2677748264148917807">Lämna</translation>
 <translation id="2687009626279857299">Slutade fungera på den här enheten</translation>
 <translation id="2702516483241149200">Nyhet: dela en länk som scrollar fram till den här texten</translation>
-<translation id="2708051474374549906">Proaktivt skydd i realtid mot farliga webbplatser, nedladdningar och tillägg baserat på din webbinformation som skickas till Google</translation>
+<translation id="2708051474374549906">Proaktivt skydd i realtid mot farliga webbplatser, nedladdningar och tillägg baserat på din webbinformation som skickas till Decentr</translation>
 <translation id="2708226184420201102">Öppna i webbläsaren <ph name="PRODUCT_NAME" /></translation>
 <translation id="271033894570825754">Ny</translation>
 <translation id="2718352093833049315">Endast på wifi</translation>
@@ -433,7 +433,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="2979639724566107830">Öppna i nytt fönster</translation>
 <translation id="2981364137500752533">Du kan ha upp till fem fönster.</translation>
 <translation id="2983102365694924129">Baserat på din aktivitet på en webbplats. Inställningen är inaktiverad.</translation>
-<translation id="2984978667043170458">Inkludera omgivande text i sökningar på Google</translation>
+<translation id="2984978667043170458">Inkludera omgivande text i sökningar på Decentr</translation>
 <translation id="2989523299700148168">Nyligen besökta</translation>
 <translation id="2992473221983447149">Bildbeskrivningar</translation>
 <translation id="2996291259634659425">Skapa lösenfras</translation>
@@ -582,7 +582,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="3710560693796335511">Samarbete</translation>
 <translation id="3714981814255182093">Öppna sökfältet</translation>
 <translation id="3718765429352682176">Du kan se historiken från andra appar som öppnar länkar i Chrome.</translation>
-<translation id="3721119614952978349">Du och Google</translation>
+<translation id="3721119614952978349">Du och Decentr</translation>
 <translation id="3737319253362202215">Inställningar för översättning</translation>
 <translation id="3738139272394829648">Tryck för att söka</translation>
 <translation id="3739455665973395693">Inga utsatta lösenord i Google-kontot</translation>
@@ -689,7 +689,7 @@ Din krypterade data kan endast läsas av en person som har din lösenfras. Löse
 <translation id="4248098802131000011">Skydda dina lösenord från dataintrång och andra säkerhetsproblem</translation>
 <translation id="424864128008805179">Vill du logga ut från Chrome?</translation>
 <translation id="4249955472157341256">Sortera efter senaste</translation>
-<translation id="4255841059940367080">AI-baserat skydd i realtid mot farliga webbplatser, nedladdningar och tillägg baserat på webbinformation som skickas till Google</translation>
+<translation id="4255841059940367080">AI-baserat skydd i realtid mot farliga webbplatser, nedladdningar och tillägg baserat på webbinformation som skickas till Decentr</translation>
 <translation id="4256782883801055595">Licenser för öppen källkod</translation>
 <translation id="4257230861809842349">Vill du radera lösenord från Google Lösenordshantering?</translation>
 <translation id="426652736638196239">Detta IBAN-nummer sparas enbart på den här enheten</translation>
@@ -842,7 +842,7 @@ Det kan finnas andra former av webbhistorik i Google-kontot på <ph name="BEGIN_
 <translation id="4885273946141277891">Fler Chrome-förekomster än det finns stöd för.</translation>
 <translation id="4890973535105146893">Inga sparade lösenord i Google-kontot</translation>
 <translation id="4905823827770127520">Ta med en länk till sidan</translation>
-<translation id="4908869848243824489">Förslag från Google</translation>
+<translation id="4908869848243824489">Förslag från Decentr</translation>
 <translation id="4910889077668685004">Betalningsappar</translation>
 <translation id="4912413785358399818">Flytta flik</translation>
 <translation id="4913169188695071480">Sluta uppdatera</translation>
@@ -1059,7 +1059,7 @@ Det kan finnas andra former av webbhistorik i Google-kontot på <ph name="BEGIN_
 <translation id="5916664084637901428">På</translation>
 <translation id="5919204609460789179">Uppdatera <ph name="PRODUCT_NAME" /> för att starta synkronisering</translation>
 <translation id="5938820472109305350">Lägg till <ph name="INTEREST" /></translation>
-<translation id="5942872142862698679">Du söker med Google</translation>
+<translation id="5942872142862698679">Du söker med Decentr</translation>
 <translation id="5945035219773565305">Nuvarande rekommendation: <ph name="RECOMMENDATION" /></translation>
 <translation id="5951119116059277034">Visar aktiv sida</translation>
 <translation id="5956665950594638604">Öppna hjälpcentret för Chrome på en ny flik</translation>
@@ -1073,7 +1073,7 @@ Det kan finnas andra former av webbhistorik i Google-kontot på <ph name="BEGIN_
 <translation id="5979084224081478209">Kontrollera lösenord</translation>
 <translation id="5992182727984874868"><ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> <ph name="SEPARATOR" /> Chrome har tagit bort dessa behörigheter eftersom du inte har besökt dem nyligen</translation>
 <translation id="5995726099713306770">Vill du ladda ned sidan igen?</translation>
-<translation id="6000066717592683814">Behåll Google</translation>
+<translation id="6000066717592683814">Behåll Decentr</translation>
 <translation id="6000203700195075278">Följ på nytt</translation>
 <translation id="6011308810877101166">Förbättra sökförslag</translation>
 <translation id="6013305291643746595">Sorterar efter äldsta</translation>

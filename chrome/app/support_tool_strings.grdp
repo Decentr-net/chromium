@@ -102,10 +102,10 @@
             Select all
         </message>
         <!-- DataCollector strings -->
-        <message name="IDS_SUPPORT_TOOL_CHROME_SYSTEM_INFO" desc="This is a data source name for internal Chrome logs.">
-            Chrome System Information
+        <message name="IDS_SUPPORT_TOOL_CHROME_SYSTEM_INFO" desc="This is a data source name for internal Decentr logs.">
+            Decentr System Information
         </message>
-        <message name="IDS_SUPPORT_TOOL_CRASH_IDS" desc="An identification number is given every time Chrome crashes on the device. This data source collects those IDs.">
+        <message name="IDS_SUPPORT_TOOL_CRASH_IDS" desc="An identification number is given every time Decentr crashes on the device. This data source collects those IDs.">
             Crash IDs
         </message>
         <message name="IDS_SUPPORT_TOOL_MEMORY_DETAILS" desc="This is the name of data source that gets memory usage details.">
@@ -114,8 +114,8 @@
         <message name="IDS_SUPPORT_TOOL_UI_HIEARCHY" desc="The data source for UI (user interface) tree hierarchy.">
             UI Hierarchy
         </message>
-        <message name="IDS_SUPPORT_TOOL_ADDITIONAL_CROS_PLATFROM_LOGS" desc="Additional logs for ChromeOS platfrom.">
-            Additional ChromeOS Platform Logs
+        <message name="IDS_SUPPORT_TOOL_ADDITIONAL_CROS_PLATFROM_LOGS" desc="Additional logs for DecentrOS platfrom.">
+            Additional DecentrOS Platform Logs
         </message>
         <message name="IDS_SUPPORT_TOOL_DEVICE_EVENT" desc="The events that happen on the device.">
             Device Event
@@ -126,53 +126,53 @@
         <message name="IDS_SUPPORT_TOOL_TOUCH_EVENTS" desc="The events that are related to touchscreen and touchpad.">
             Touch Events
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_FLEX_LOGS" desc="ChromeOS Flex logs. ChromeOS Flex is ChromeOS version that can run on different hardwares.">
-            ChromeOS Flex Logs
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_FLEX_LOGS" desc="DecentrOS Flex logs. DecentrOS Flex is DecentrOS version that can run on different hardwares.">
+            DecentrOS Flex Logs
         </message>
         <message name="IDS_SUPPORT_TOOL_DBUS_DETAILS" desc="DBus memory details. DBus is a message-oriented middleware mechanism that allows communication between multiple processes running concurrently on the same machine.">
             DBus Details
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_NETWORK_ROUTES" desc="Network routes information for ChromeOS. Network routing is the process of selecting a path for a packet to travel between networks. An IP route consists of simply a mapping of a destination IP address or network to a next hop and interface.">
-            ChromeOS Network Routes
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_NETWORK_ROUTES" desc="Network routes information for DecentrOS. Network routing is the process of selecting a path for a packet to travel between networks. An IP route consists of simply a mapping of a destination IP address or network to a next hop and interface.">
+            DecentrOS Network Routes
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_SHILL_LOGS" desc="Logs from ChromeOS connection manager, Shill.">
-            ChromeOS Shill (Connection Manager) Logs
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_SHILL_LOGS" desc="Logs from DecentrOS connection manager, Shill.">
+            DecentrOS Shill (Connection Manager) Logs
         </message>
         <message name="IDS_SUPPORT_TOOL_POLICIES" desc="Policies on managed devices.">
             Policies
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_SYSTEM_STATE" desc="System state and reports of ChromeOS.">
-            ChromeOS System State and Reports
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_SYSTEM_STATE" desc="System state and reports of DecentrOS.">
+            DecentrOS System State and Reports
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_SYSTEM_LOGS" desc="System logs on ChromeOS.">
-            ChromeOS System Logs
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_SYSTEM_LOGS" desc="System logs on DecentrOS.">
+            DecentrOS System Logs
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_CHROME_USER_LOGS" desc="Chrome logs from user's session on ChromeOS.">
-            ChromeOS Chrome User Logs
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_CHROME_USER_LOGS" desc="Decentr logs from user's session on DecentrOS.">
+            DecentrOS Decentr User Logs
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_BLUETOOTH_FLOSS" desc="Bluetooth logs if Floss is enabled on the device. Floss is the project that works on converging on a single Bluetooth stack between Android and ChromeOS.">
-            ChromeOS Bluetooth
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_BLUETOOTH_FLOSS" desc="Bluetooth logs if Floss is enabled on the device. Floss is the project that works on converging on a single Bluetooth stack between Android and DecentrOS.">
+            DecentrOS Bluetooth
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_CONNECTED_INPUT_DEVICES" desc="Information about connected input devices to a ChromeOS device.">
-            ChromeOS Connected Input Devices
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_CONNECTED_INPUT_DEVICES" desc="Information about connected input devices to a DecentrOS device.">
+            DecentrOS Connected Input Devices
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_TRAFFIC_COUNTERS" desc="Network traffic counters on ChromeOS. Traffic counters are data counts for an associated network device.">
-            ChromeOS Traffic Counters
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_TRAFFIC_COUNTERS" desc="Network traffic counters on DecentrOS. Traffic counters are data counts for an associated network device.">
+            DecentrOS Traffic Counters
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_VIRTUAL_KEYBOARD" desc="Virtual keyboard details on ChromeOS.">
-            ChromeOS Virtual Keyboard
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_VIRTUAL_KEYBOARD" desc="Virtual keyboard details on DecentrOS.">
+            DecentrOS Virtual Keyboard
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_NETWORK_HEALTH" desc=" Network health data of a ChromeOS device.">
-            ChromeOS Network Health
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_NETWORK_HEALTH" desc=" Network health data of a DecentrOS device.">
+            DecentrOS Network Health
         </message>
-        <message name="IDS_SUPPORT_TOOL_PERFORMANCE" desc="Performance and battery state of ChromeOS device.">
+        <message name="IDS_SUPPORT_TOOL_PERFORMANCE" desc="Performance and battery state of DecentrOS device.">
             Performance and Battery State
         </message>
         <message name="IDS_SUPPORT_TOOL_SIGN_IN" desc="Sign In State.">
             Sign In State
         </message>
-        <message name="IDS_SUPPORT_TOOL_CHROMEOS_APP_SERVICE" desc="ChromeOS App Service gathers information from app service about installed and running apps.">
-            ChromeOS App Service
+        <message name="IDS_SUPPORT_TOOL_CHROMEOS_APP_SERVICE" desc="DecentrOS App Service gathers information from app service about installed and running apps.">
+            DecentrOS App Service
         </message>
         <!-- PII type strings -->
         <message name="IDS_SUPPORT_TOOL_ANDROID_APP_INFO" desc="Android App informations on the device. Includes information like app storage paths etc.">

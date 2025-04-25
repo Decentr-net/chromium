@@ -284,7 +284,7 @@ CHAR_LIMIT guidelines:
 
       <!-- Sign-in, sync and personalization preferences -->
       <message name="IDS_PREFS_SECTION_ACCOUNT_AND_GOOGLE_SERVICES" desc="Title for the group of account-related entries and google services in Settings. [CHAR_LIMIT=32]">
-        You and Google
+        You and Decentr
       </message>
       <message name="IDS_SIGN_IN_TO_CHROME" desc="Title for the button to sign in to Chrome using one's Google account. [CHAR_LIMIT=27]">
         Sign in to Chrome

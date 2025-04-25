@@ -169,7 +169,7 @@
 <translation id="1505542291183484463">تغییر اندازه کاشی پنجره به‌سمت پایین</translation>
 <translation id="1510238584712386396">راه‌انداز</translation>
 <translation id="1520303207432623762">{NUM_APPS,plural, =1{نشان دادن تنظیمات اعلان. اعلان‌های یک برنامه خاموش است}one{نشان دادن تنظیمات اعلان. اعلان‌های # برنامه خاموش است}other{نشان دادن تنظیمات اعلان. اعلان‌های # برنامه خاموش است}}</translation>
-<translation id="1521655867290435174">‏کاربرگ‌نگار Google</translation>
+<translation id="1521655867290435174">‏کاربرگ‌نگار Decentr</translation>
 <translation id="1523032696246003">باتری <ph name="BATTERY_PERCENTAGE" />٪ | <ph name="TIME" /> مانده تا شارژ کامل</translation>
 <translation id="1525508553941733066">رد کردن</translation>
 <translation id="1526448108126799339">باز کردن برگه جدید در پنجره جدید</translation>
@@ -410,7 +410,7 @@
 <translation id="2392659840443812875">نقطه اتصالی دردسترس نیست. دستگاهتان باید همین اطراف باشد و بلوتوث آن روشن باشد.</translation>
 <translation id="2397416548179033562">‏نمایش منوی Chrome</translation>
 <translation id="240006516586367791">کنترل‌های رسانه</translation>
-<translation id="240155812475001919">‏سندنگار Google</translation>
+<translation id="240155812475001919">‏سندنگار Decentr</translation>
 <translation id="2402411679569069051">‏برای باز کردن قفل Chromebook، از اثر انگشت استفاده کنید یا قفل تلفنتان را باز کنید</translation>
 <translation id="240545663114741956">برای خروج از سیستم، دوبار <ph name="ACCELERATOR" /> را فشار دهید.</translation>
 <translation id="2405664212338326887">متصل نیست</translation>
@@ -650,7 +650,7 @@
 <translation id="316086887565479535">برنامه‌های پشتیبانی‌نشده در الگو</translation>
 <translation id="3160929076476941240">‫۲ ساعت</translation>
 <translation id="316356270129335934"><ph name="MANAGER" /> درحال تنزل دادن <ph name="DEVICE_TYPE" /> است. دستگاهتان بازنشانی و همه داده‌ها حذف خواهد شد.</translation>
-<translation id="316798519864381606">‏اسلایدنگار Google</translation>
+<translation id="316798519864381606">‏اسلایدنگار Decentr</translation>
 <translation id="3171170659304083361">تنظیمات روش‌های ورودی</translation>
 <translation id="3174897399179348329">‏می‌خواهید از کلید Page Up استفاده کنید؟ از این استفاده کنید:</translation>
 <translation id="3176221688814061633">‏‫Chromebook یا دستگاه بلوتوث شما از نسخه قدیمی‌تر بلوتوث استفاده می‌کند. برای کیفیت صدای بهتر، «وضوح فوق‌العاده با بلوتوث» را روشن کنید یا از میکروفون داخلی استفاده کنید.</translation>
@@ -1059,7 +1059,7 @@
 <translation id="4471354919263203780">درحال بارگیری فایل‌های تشخیص گفتار... <ph name="PERCENT" />٪</translation>
 <translation id="4471432286288241507">{0,plural, =0{همین حالا دستگاه را به‌روزرسانی کنید}=1{دستگاه را تا یک ثانیه دیگر به‌روزرسانی کنید}one{دستگاه را تا # ثانیه دیگر به‌روزرسانی کنید}other{دستگاه را تا # ثانیه دیگر به‌روزرسانی کنید}}</translation>
 <translation id="4472575034687746823">شروع به کار</translation>
-<translation id="4473489370276014885">‏مخاطبین Google</translation>
+<translation id="4473489370276014885">‏مخاطبین Decentr</translation>
 <translation id="4477350412780666475">آهنگ بعدی</translation>
 <translation id="4477751544736611934">ممکن است هزینه داده دربر داشته باشد.
 ‫۱ دستگاه متصل است.</translation>
@@ -1123,7 +1123,7 @@
 <translation id="4667099493359681081">درحال بارگیری <ph name="FILENAME" /></translation>
 <translation id="4672539464599646374">«بهینه‌سازی باتری» روشن شد</translation>
 <translation id="4673427585974421255">روشن باشد</translation>
-<translation id="4677040906536311086">‏کاربرگ‌نگار Google</translation>
+<translation id="4677040906536311086">‏کاربرگ‌نگار Decentr</translation>
 <translation id="468019262817532242">هیچ فردی نمی‌تواند با شما هم‌رسانی کند</translation>
 <translation id="468293128311738995">برنامه‌های تلفن شما</translation>
 <translation id="4690510401873698237">قفسه در پایین است</translation>
@@ -1495,7 +1495,7 @@
 <translation id="5825969630400862129">تنظیمات دستگاه‌های متصل</translation>
 <translation id="5830180081891717894">‫<ph name="WINDOWS" /> پنجره دیگر</translation>
 <translation id="5837036133683224804">توقف <ph name="ROUTE_TITLE" /> به <ph name="RECEIVER_NAME" /></translation>
-<translation id="5840658767386246331">‏جستجو با Google</translation>
+<translation id="5840658767386246331">‏جستجو با Decentr</translation>
 <translation id="5841296711770970362">رفتن به آهنگ بعدی</translation>
 <translation id="5842553299352339114">نقطه اتصال <ph name="DEVICE_NAME" /> روشن است، هیچ دستگاهی متصل نیست</translation>
 <translation id="584525477304726060">برای بزرگ کردن، نگه دارید</translation>
@@ -1666,7 +1666,7 @@
 <translation id="639644700271529076">‏CAPS LOCK خاموش است</translation>
 <translation id="6406458002328242616">ویرایش زمان‌سنج. <ph name="FOCUS_DURATION" />.</translation>
 <translation id="6406704438230478924">دگرساز راست</translation>
-<translation id="6417265370957905582">‏دستیار Google</translation>
+<translation id="6417265370957905582">‏دستیار Decentr</translation>
 <translation id="641817663353603351">صفحه قبلی</translation>
 <translation id="6424520630891723617"><ph name="SECURITY_STATUS" />، قدرت سیگنال <ph name="SIGNAL_STRENGTH" /></translation>
 <translation id="642644398083277086">پاک کردن همه اعلان‌ها</translation>
@@ -1863,7 +1863,7 @@
 <translation id="7031303610220416229">‏دیدن همه تکالیف در Google Tasks</translation>
 <translation id="7032161822340700104">تنها ۶ الگو مجاز است. برای ذخیره کردن الگوی جدید، یکی از الگوها را حذف کنید.</translation>
 <translation id="7034025838182392395"><ph name="APP_NAME" /> می‌خواهد از <ph name="DEVICE_NAME" /> استفاده کند. کلید فیزیکی <ph name="DEVICE_NAME" /> دستگاه را روشن کنید.</translation>
-<translation id="703425375924687388">‏<ph name="QUERY_NAME" />، دستیار Google</translation>
+<translation id="703425375924687388">‏<ph name="QUERY_NAME" />، دستیار Decentr</translation>
 <translation id="7042322267639375032">کوچک کردن ناحیه نشانگر وضعیت</translation>
 <translation id="7042593542151411225">برنامه‌ها نمی‌توانند به دوربین دسترسی داشته باشند</translation>
 <translation id="7045033600005038336">الگو جایگزین شود؟</translation>
@@ -1968,7 +1968,7 @@
 <translation id="742594950370306541">دوربین در حال استفاده است.</translation>
 <translation id="742608627846767349">صبح‌به‌خیر،</translation>
 <translation id="743058460480092004">دوربین و میکروفن در حال استفاده هستند.</translation>
-<translation id="7440404390546433462">‏جستجوی Google</translation>
+<translation id="7440404390546433462">‏جستجوی Decentr</translation>
 <translation id="7441711280402516925">درحال پخش · رفتن به برگه</translation>
 <translation id="7453330308669753048">نتیجه سابقه «جستجو» برداشته شد</translation>
 <translation id="7459485586006128091">نقطه اتصال به‌دلیل خطای داخلی خاموش شد. چند دقیقه دیگر دوباره متصل شوید.</translation>
@@ -2073,7 +2073,7 @@
 <translation id="7749443890790263709">به حداکثر تعداد میز رسیده‌اید.</translation>
 <translation id="7749958366403230681">ExpressKey 4</translation>
 <translation id="7751260505918304024">نمایش همه</translation>
-<translation id="7762664108390426952">‏شرایط خدمات و خط‌مشی رازداری Google</translation>
+<translation id="7762664108390426952">‏شرایط خدمات و خط‌مشی رازداری Decentr</translation>
 <translation id="7768784765476638775">انتخاب برای شنیدن</translation>
 <translation id="7769299611924763557">‏فایل GIF شما به‌زودی آماده خواهد شد</translation>
 <translation id="7773536009433685931">‏روشن کردن Wi-Fi</translation>
@@ -2497,7 +2497,7 @@
 <translation id="9168436347345867845">بعداً انجام شود</translation>
 <translation id="9178475906033259337">نمایش ۱ نتیجه برای <ph name="QUERY" /></translation>
 <translation id="9179259655489829027">این ویژگی امکان می‌دهد بدون نیاز به گذرواژه، به هر کاربری که به سیستم واردشده به‌سرعت دسترسی داشته باشید. تنها برای حساب‌های مورد اعتمادتان از این ویژگی استفاده کنید.</translation>
-<translation id="9183302530794969518">‏سندنگار Google</translation>
+<translation id="9183302530794969518">‏سندنگار Decentr</translation>
 <translation id="9183456764293710005">ذره‌بین تمام‌صفحه</translation>
 <translation id="9192133205265227850">استفاده از «<ph name="DEVICE_NAME" />»</translation>
 <translation id="9193626018745640770">درحال پخش محتوا به گیرنده ناشناس</translation>

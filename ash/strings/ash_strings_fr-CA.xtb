@@ -178,7 +178,7 @@ Voici quelques exemples de choses que vous pouvez essayer pour commencer.</trans
 <translation id="15373452373711364">Grand curseur</translation>
 <translation id="1545331255323159851">Affichez les notifications, les photos et le contenu multimédia récents de votre téléphone</translation>
 <translation id="1546492247443594934">Bureau 2</translation>
-<translation id="1546930421365146760">Demandez à votre administrateur de configurer cet appareil dans la console d'administrateur Google</translation>
+<translation id="1546930421365146760">Demandez à votre administrateur de configurer cet appareil dans la console d'administrateur Decentr</translation>
 <translation id="1549512626801247439">gestion du stockage</translation>
 <translation id="1549721333775633305">Affichez les paramètres du Partage rapide. Partage rapide désactivé</translation>
 <translation id="1550406609415860283">Appareils disponibles</translation>
@@ -410,7 +410,7 @@ Voici quelques exemples de choses que vous pouvez essayer pour commencer.</trans
 <translation id="2392659840443812875">Aucun point d'accès sans fil accessible. Assurez-vous que votre appareil est à proximité et que le Bluetooth est activé.</translation>
 <translation id="2397416548179033562">Afficher le menu Chrome</translation>
 <translation id="240006516586367791">Commandes multimédias</translation>
-<translation id="240155812475001919">Document Google</translation>
+<translation id="240155812475001919">Document Decentr</translation>
 <translation id="2402411679569069051">Pour déverrouiller votre Chromebook, utilisez votre empreinte digitale ou déverrouillez votre téléphone</translation>
 <translation id="240545663114741956">Appuyez deux fois sur <ph name="ACCELERATOR" /> pour vous déconnecter.</translation>
 <translation id="2405664212338326887">Fonctionnalité non connectée</translation>
@@ -650,7 +650,7 @@ Sinon, le pavé tactile intégré sera réactivé dans <ph name="TIMEOUT_SECONDS
 <translation id="316086887565479535">Applications non prises en charge dans le modèle</translation>
 <translation id="3160929076476941240">2 h</translation>
 <translation id="316356270129335934"><ph name="MANAGER" /> est en train de restaurer votre <ph name="DEVICE_TYPE" />. Votre appareil sera réinitialisé, et toutes les données seront supprimées.</translation>
-<translation id="316798519864381606">Présentation Google</translation>
+<translation id="316798519864381606">Présentation Decentr</translation>
 <translation id="3171170659304083361">Paramètres des méthodes d'entrée</translation>
 <translation id="3174897399179348329">Vous essayez d'utiliser la touche Page suivante? Utiliser</translation>
 <translation id="3176221688814061633">Votre Chromebook ou votre appareil Bluetooth utilise une ancienne version de Bluetooth. Activez la super résolution Bluetooth ou utilisez le microphone interne pour une meilleure qualité audio.</translation>
@@ -752,7 +752,7 @@ Sinon, le pavé tactile intégré sera réactivé dans <ph name="TIMEOUT_SECONDS
 <translation id="3522979239100719575">Recherche des profils accessibles en cours… Cette opération peut prendre quelques minutes.</translation>
 <translation id="3526440770046466733">Ouvrir le lien dans un nouvel onglet et demeurer dans l'onglet actuel</translation>
 <translation id="353086728817903341">Connecté à <ph name="NUM_DEVICES" /> appareils</translation>
-<translation id="3532247131850366052">Impossible de créer une feuille de calcul Google</translation>
+<translation id="3532247131850366052">Impossible de créer une feuille de calcul Decentr</translation>
 <translation id="3533126039236445965">Applications dans l'étagère</translation>
 <translation id="3539957339480430241"><ph name="DEVICE_NAME" /> point d'accès sans fil</translation>
 <translation id="3540893133818942399">Ignorez la configuration de l'affichage des photos et du contenu multimédia récents de votre téléphone</translation>
@@ -1023,7 +1023,7 @@ Branchez votre appareil sur une source d'alimentation.</translation>
 <translation id="4351244548802238354">Fermer la boîte de dialogue</translation>
 <translation id="4356872429719185452">Afficher les détails du point d'accès sans fil. Activation du point d'accès sans fil en cours…</translation>
 <translation id="4364101114148522660">Enregistrement de <ph name="DURATION" /></translation>
-<translation id="4368227575116094370">Créer une feuille de calcul Google</translation>
+<translation id="4368227575116094370">Créer une feuille de calcul Decentr</translation>
 <translation id="4371348193907997655">Paramètres de diffusion</translation>
 <translation id="4371834685492830207">Le NIP doit contenir uniquement des caractères valides</translation>
 <translation id="4375482231364171368">Recherche dans la barre d'adresse</translation>
@@ -1058,7 +1058,7 @@ Branchez votre appareil sur une source d'alimentation.</translation>
 <translation id="4471354919263203780">Téléchargement des fichiers de reconnaissance vocale en cours… <ph name="PERCENT" /> %</translation>
 <translation id="4471432286288241507">{0,plural, =0{Mettez à jour l'appareil maintenant}=1{Mettez à jour l'appareil d'ici 1 seconde}one{Mettez à jour l'appareil d'ici # seconde}other{Mettez à jour l'appareil d'ici # secondes}}</translation>
 <translation id="4472575034687746823">Premiers pas</translation>
-<translation id="4473489370276014885">Contacts Google</translation>
+<translation id="4473489370276014885">Contacts Decentr</translation>
 <translation id="4477350412780666475">Chanson suivante</translation>
 <translation id="4477751544736611934">Cela peut entraîner des coûts de données.
 Un appareil connecté.</translation>
@@ -1122,7 +1122,7 @@ Un appareil connecté.</translation>
 <translation id="4667099493359681081">Téléchargement du fichier <ph name="FILENAME" /> en cours…</translation>
 <translation id="4672539464599646374">L'Économiseur de pile est activé</translation>
 <translation id="4673427585974421255">Garder actif</translation>
-<translation id="4677040906536311086">Feuille de calcul Google</translation>
+<translation id="4677040906536311086">Feuille de calcul Decentr</translation>
 <translation id="468019262817532242">Personne ne peut partager avec vous</translation>
 <translation id="468293128311738995">Applications de votre téléphone</translation>
 <translation id="4690510401873698237">Étagère dans le bas</translation>
@@ -1155,7 +1155,7 @@ Un appareil connecté.</translation>
 <translation id="4776917500594043016">Mot de passe pour <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4777825441726637019">Play Store</translation>
 <translation id="4778095205580009397">L'Assistant Google n'est pas disponible dans une session de démonstration.</translation>
-<translation id="4785412405516449976">Seulement vos contacts qui ont un compte Google</translation>
+<translation id="4785412405516449976">Seulement vos contacts qui ont un compte Decentr</translation>
 <translation id="4789348252524569426">Impossible d'installer les fichiers vocaux. Votre appareil doit être mis à jour. Redémarrez votre appareil et réessayez.</translation>
 <translation id="478959186716341421">Diffusion en cours…</translation>
 <translation id="4798403412327076414">Vous verrez les fenêtres et les applis précédemment ouvertes la prochaine fois que vous vous connecterez</translation>
@@ -1250,7 +1250,7 @@ Un appareil connecté.</translation>
 <translation id="504465286040788597">Paragraphe précédent</translation>
 <translation id="5045550434625856497">Mot de passe incorrect</translation>
 <translation id="5056587122125565772">Créer une image</translation>
-<translation id="5058794129231928255">Impossible de créer un document Google</translation>
+<translation id="5058794129231928255">Impossible de créer un document Decentr</translation>
 <translation id="5062496344832867502">mémoire vive</translation>
 <translation id="5068762093486106012">Vous serez averti si vous parlez en sourdine. Les données audio ne quittent jamais votre appareil.</translation>
 <translation id="5077416371682039027">Configurer l'affichage des photos, des notifications, des applications et du contenu multimédia récents de votre téléphone</translation>
@@ -1379,7 +1379,7 @@ Aucun appareil n'est connecté.</translation>
 <translation id="5482205457807971887"><ph name="MODIFIER_ONE" /><ph name="KEY_ONE" /> ou <ph name="MODIFIER_TWO" /><ph name="MODIFIER_THREE" /><ph name="KEY_TWO" /></translation>
 <translation id="5482873136202102190">, +</translation>
 <translation id="5491186829646618080">Des mises à jour du micrologiciel sont disponibles</translation>
-<translation id="5503884284981862082">Ouvrir/fermer l'Assistant Google</translation>
+<translation id="5503884284981862082">Ouvrir/fermer l'Assistant Decentr</translation>
 <translation id="550391772491508736">Reprendre la diffusion</translation>
 <translation id="5506975627792768506">Activer ou désactiver la loupe</translation>
 <translation id="5507778598655387680"><ph name="VOLUME_LEVEL" />, appuyer sur Entrée désactive l'audio.</translation>
@@ -1494,7 +1494,7 @@ Aucun appareil n'est connecté.</translation>
 <translation id="5825969630400862129">Paramètres des appareils connectés</translation>
 <translation id="5830180081891717894"><ph name="WINDOWS" /> de plus</translation>
 <translation id="5837036133683224804">Arrêter <ph name="ROUTE_TITLE" /> sur <ph name="RECEIVER_NAME" /></translation>
-<translation id="5840658767386246331">Rechercher avec Google</translation>
+<translation id="5840658767386246331">Rechercher avec Decentr</translation>
 <translation id="5841296711770970362">Passer à la chanson suivante</translation>
 <translation id="5842553299352339114">Le point d'accès sans fil <ph name="DEVICE_NAME" /> est activé, aucun appareil connecté</translation>
 <translation id="584525477304726060">Maintenez le doigt sur la fenêtre pour l'agrandir</translation>
@@ -1665,7 +1665,7 @@ Aucun appareil n'est connecté.</translation>
 <translation id="639644700271529076">Touche de verrouillage des majuscules désactivée</translation>
 <translation id="6406458002328242616">Modifier la minuterie. <ph name="FOCUS_DURATION" />.</translation>
 <translation id="6406704438230478924">altgr</translation>
-<translation id="6417265370957905582">Assistant Google</translation>
+<translation id="6417265370957905582">Assistant Decentr</translation>
 <translation id="641817663353603351">page précédente</translation>
 <translation id="6424520630891723617"><ph name="SECURITY_STATUS" />, force du signal : <ph name="SIGNAL_STRENGTH" /></translation>
 <translation id="642644398083277086">Effacer toutes les notifications</translation>
@@ -1862,7 +1862,7 @@ Nouvelle installation</translation>
 <translation id="7031303610220416229">Afficher toutes les tâches dans Google Tâches</translation>
 <translation id="7032161822340700104">Vous pouvez utiliser jusqu'à six modèles. Retirez un modèle pour en enregistrer un nouveau.</translation>
 <translation id="7034025838182392395"><ph name="APP_NAME" /> souhaite utiliser votre <ph name="DEVICE_NAME" />. Mettez votre <ph name="DEVICE_NAME" /> en fonction à l'aide de l'interrupteur.</translation>
-<translation id="703425375924687388"><ph name="QUERY_NAME" />, Assistant Google</translation>
+<translation id="703425375924687388"><ph name="QUERY_NAME" />, Assistant Decentr</translation>
 <translation id="7042322267639375032">Réduire la zone de notifications</translation>
 <translation id="7042593542151411225">Les applis ne peuvent pas accéder à l'appareil photo</translation>
 <translation id="7045033600005038336">Remplacer le modèle?</translation>
@@ -1967,7 +1967,7 @@ Nouvelle installation</translation>
 <translation id="742594950370306541">La caméra est en cours d'utilisation.</translation>
 <translation id="742608627846767349">Bonjour,</translation>
 <translation id="743058460480092004">La caméra et le microphone sont actuellement utilisés.</translation>
-<translation id="7440404390546433462">Recherche Google</translation>
+<translation id="7440404390546433462">Recherche Decentr</translation>
 <translation id="7441711280402516925">En cours de lecture · Passer à l'onglet</translation>
 <translation id="7453330308669753048">Résultat de l'historique de recherche retiré</translation>
 <translation id="7459485586006128091">En raison d'une erreur interne, le point d'accès sans fil a été désactivé. Essayez de vous reconnecter dans quelques minutes.</translation>
@@ -2072,7 +2072,7 @@ Pour éteindre l'appareil, appuyez à nouveau sur le bouton d'alimentation de l'
 <translation id="7749443890790263709">Le nombre maximal de bureaux a été atteint.</translation>
 <translation id="7749958366403230681">ExpressKey 4</translation>
 <translation id="7751260505918304024">Tout afficher</translation>
-<translation id="7762664108390426952">conditions d'utilisation et de la politique de confidentialité de Google</translation>
+<translation id="7762664108390426952">conditions d'utilisation et de la politique de confidentialité de Decentr</translation>
 <translation id="7768784765476638775">Sélectionner pour énoncer</translation>
 <translation id="7769299611924763557">Votre GIF sera bientôt prêt</translation>
 <translation id="7773536009433685931">Activez plutôt le Wi-Fi</translation>
@@ -2085,7 +2085,7 @@ Pour éteindre l'appareil, appuyez à nouveau sur le bouton d'alimentation de l'
 <translation id="7796735576426975947">Nouvelle notification masquée</translation>
 <translation id="7798302898096527229">Appuyez sur Recherche ou Majuscule pour le désactiver.</translation>
 <translation id="780301667611848630">Non merci</translation>
-<translation id="7807067443225230855">Recherche et Assistant Google</translation>
+<translation id="7807067443225230855">Recherche et Assistant Decentr</translation>
 <translation id="7814236020522506259"><ph name="HOUR" /> et <ph name="MINUTE" /></translation>
 <translation id="7825412704590278437">De l'événement d'agenda à venir</translation>
 <translation id="7829386189513694949">Signal fort</translation>
@@ -2304,7 +2304,7 @@ Pour éteindre l'appareil, appuyez à nouveau sur le bouton d'alimentation de l'
 <translation id="851458219935658693">Afficher les fenêtres du bureau actuel, bouton radio sélectionné</translation>
 <translation id="851660987304951246">Utilisez Aide-moi à lire pour résumer rapidement le contenu ou poser des questions</translation>
 <translation id="8517041960877371778">Il est possible que votre <ph name="DEVICE_TYPE" /> ne se charge pas lorsqu’il est allumé.</translation>
-<translation id="8519329096920173967">Rechercher sur mon écran avec Lentille Google</translation>
+<translation id="8519329096920173967">Rechercher sur mon écran avec Lentille Decentr</translation>
 <translation id="8535393432370007982">Annuler l'ordre de tri par couleur</translation>
 <translation id="8536886494750559755">Affichez les paramètres du Partage rapide. Visible par tous pendant <ph name="TIME_REMAINING" /></translation>
 <translation id="8539803091108018926">Le texte a été copié dans le presse-papiers</translation>
@@ -2427,7 +2427,7 @@ Pour éteindre l'appareil, appuyez à nouveau sur le bouton d'alimentation de l'
 <translation id="8926951137623668982">L'étagère est toujours masquée</translation>
 <translation id="8929566928381252430">Vous essayez d'utiliser la touche Verr maj? Utiliser</translation>
 <translation id="8929623844713377237">Contact créé</translation>
-<translation id="8934418770423095813">Créer un document Google</translation>
+<translation id="8934418770423095813">Créer un document Decentr</translation>
 <translation id="8934926665751933910">{NUM_FILES,plural, =1{1 fichier}one{# fichier}other{# fichiers}}</translation>
 <translation id="8936501819958976551">désactivée</translation>
 <translation id="8938800817013097409">Appareil USB-C (port arrière-droit)</translation>
@@ -2522,7 +2522,7 @@ Pour éteindre l'appareil, appuyez à nouveau sur le bouton d'alimentation de l'
 <translation id="938963181863597773">Qu'y a-t-il dans mon agenda?</translation>
 <translation id="94468042118567862">L'appareil n'est pas à jour</translation>
 <translation id="945383118875625837">Faites glisser le lien vers la barre de favoris</translation>
-<translation id="945522503751344254">Envoyer un commentaire à Google</translation>
+<translation id="945522503751344254">Envoyer un commentaire à Decentr</translation>
 <translation id="951991426597076286">Refuser</translation>
 <translation id="953431725143473984">Éteindre l'appareil?</translation>
 <translation id="954052413789300507">Espace de stockage insuffisant pour <ph name="FILENAME" />. Libérez de l'espace de stockage.</translation>

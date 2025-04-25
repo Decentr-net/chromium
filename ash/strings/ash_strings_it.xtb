@@ -169,7 +169,7 @@ Ecco alcune cose che puoi provare per iniziare.</translation>
 <translation id="1505542291183484463">Allinea in basso finestra ridimensionata a riquadro</translation>
 <translation id="1510238584712386396">Avvio app</translation>
 <translation id="1520303207432623762">{NUM_APPS,plural, =1{Mostra impostazioni di notifica. Le notifiche sono disattivate per un'app}other{Mostra impostazioni di notifica. Le notifiche sono disattivate per # app}}</translation>
-<translation id="1521655867290435174">Fogli Google</translation>
+<translation id="1521655867290435174">Fogli Decentr</translation>
 <translation id="1523032696246003">Batteria: <ph name="BATTERY_PERCENTAGE" />% | <ph name="TIME" /> alla ricarica completa</translation>
 <translation id="1525508553941733066">IGNORA</translation>
 <translation id="1526448108126799339">Apri nuova scheda in nuova finestra</translation>
@@ -178,7 +178,7 @@ Ecco alcune cose che puoi provare per iniziare.</translation>
 <translation id="15373452373711364">Puntatore del mouse grande</translation>
 <translation id="1545331255323159851">Visualizza notifiche, contenuti multimediali e foto recenti dello smartphone</translation>
 <translation id="1546492247443594934">Scrivania 2</translation>
-<translation id="1546930421365146760">Chiedi all'amministratore di configurare questo dispositivo nella Console di amministrazione Google</translation>
+<translation id="1546930421365146760">Chiedi all'amministratore di configurare questo dispositivo nella Console di amministrazione Decentr</translation>
 <translation id="1549512626801247439">gestione dello spazio di archiviazione</translation>
 <translation id="1549721333775633305">Mostra impostazioni di Quick Share. Quick Share disattivato</translation>
 <translation id="1550406609415860283">Dispositivi disponibili</translation>
@@ -752,7 +752,7 @@ In caso contrario, il touchpad integrato verrà riattivato dopo <ph name="TIMEOU
 <translation id="3522979239100719575">È in corso la ricerca dei profili disponibili. Questa operazione può richiedere alcuni minuti.</translation>
 <translation id="3526440770046466733">Apri il link in una nuova scheda e rimani nella scheda corrente</translation>
 <translation id="353086728817903341">Connessione stabilita con <ph name="NUM_DEVICES" /> dispositivi</translation>
-<translation id="3532247131850366052">Impossibile creare il foglio Google</translation>
+<translation id="3532247131850366052">Impossibile creare il foglio Decentr</translation>
 <translation id="3533126039236445965">App nella barra delle app</translation>
 <translation id="3539957339480430241">Hotspot <ph name="DEVICE_NAME" /></translation>
 <translation id="3540893133818942399">Chiudi la configurazione della visualizzazione di contenuti multimediali e foto recenti dello smartphone</translation>
@@ -1021,7 +1021,7 @@ Alcune funzionalità sono limitate per aumentare la durata della batteria.</tran
 <translation id="4351244548802238354">Chiudi finestra di dialogo</translation>
 <translation id="4356872429719185452">Mostra i dettagli relativi all'hotspot. È in corso l'attivazione dell'hotspot.</translation>
 <translation id="4364101114148522660"><ph name="DURATION" />: registrazione in corso</translation>
-<translation id="4368227575116094370">Crea foglio Google</translation>
+<translation id="4368227575116094370">Crea foglio Decentr</translation>
 <translation id="4371348193907997655">Impostazioni di trasmissione</translation>
 <translation id="4371834685492830207">Il PIN deve contenere solo caratteri validi</translation>
 <translation id="4375482231364171368">Cerca nella barra degli indirizzi</translation>
@@ -1056,7 +1056,7 @@ Alcune funzionalità sono limitate per aumentare la durata della batteria.</tran
 <translation id="4471354919263203780">Download dei file di riconoscimento vocale… <ph name="PERCENT" />%</translation>
 <translation id="4471432286288241507">{0,plural, =0{Aggiorna ora il dispositivo}=1{Aggiorna il dispositivo entro 1 secondo}other{Aggiorna il dispositivo entro # secondi}}</translation>
 <translation id="4472575034687746823">Come iniziare</translation>
-<translation id="4473489370276014885">Contatti Google</translation>
+<translation id="4473489370276014885">Contatti Decentr</translation>
 <translation id="4477350412780666475">Traccia successiva</translation>
 <translation id="4477751544736611934">Per questa operazione potrebbe essere addebitato il costo dei dati.
 1 dispositivo connesso.</translation>
@@ -1153,7 +1153,7 @@ Alcune funzionalità sono limitate per aumentare la durata della batteria.</tran
 <translation id="4776917500594043016">Password per <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4777825441726637019">Play Store</translation>
 <translation id="4778095205580009397">L'Assistente Google non è disponibile in una sessione demo.</translation>
-<translation id="4785412405516449976">Solo i tuoi contatti con un Account Google</translation>
+<translation id="4785412405516449976">Solo i tuoi contatti con un Account Decentr</translation>
 <translation id="4789348252524569426">Impossibile installare file di contenuti vocali. Il dispositivo deve essere aggiornato. Riavvialo e riprova.</translation>
 <translation id="478959186716341421">Trasmissione</translation>
 <translation id="4798403412327076414">La prossima volta che eseguirai l'accesso, vedrai le finestre e le app aperte in precedenza</translation>
@@ -1248,7 +1248,7 @@ Alcune funzionalità sono limitate per aumentare la durata della batteria.</tran
 <translation id="504465286040788597">Paragrafo precedente</translation>
 <translation id="5045550434625856497">Password non corretta</translation>
 <translation id="5056587122125565772">Crea immagine</translation>
-<translation id="5058794129231928255">Impossibile creare il documento Google</translation>
+<translation id="5058794129231928255">Impossibile creare il documento Decentr</translation>
 <translation id="5062496344832867502">ram</translation>
 <translation id="5068762093486106012">Se parli mentre l'audio è disattivato, riceverai una notifica. I dati audio non vengono mai inoltrati dal tuo dispositivo.</translation>
 <translation id="5077416371682039027">Configura la visualizzazione di app, notifiche, contenuti multimediali e foto recenti dello smartphone</translation>
@@ -1377,7 +1377,7 @@ Nessun dispositivo connesso.</translation>
 <translation id="5482205457807971887"><ph name="MODIFIER_ONE" /><ph name="KEY_ONE" /> oppure <ph name="MODIFIER_TWO" /><ph name="MODIFIER_THREE" /><ph name="KEY_TWO" /></translation>
 <translation id="5482873136202102190">, +</translation>
 <translation id="5491186829646618080">Aggiornamenti firmware disponibili</translation>
-<translation id="5503884284981862082">Apri/chiudi l'Assistente Google</translation>
+<translation id="5503884284981862082">Apri/chiudi l'Assistente Decentr</translation>
 <translation id="550391772491508736">Riprendi la trasmissione</translation>
 <translation id="5506975627792768506">Attiva o disattiva la lente d'ingrandimento</translation>
 <translation id="5507778598655387680"><ph name="VOLUME_LEVEL" />, premendo Invio verrà disattivato l'audio.</translation>
@@ -1492,7 +1492,7 @@ Nessun dispositivo connesso.</translation>
 <translation id="5825969630400862129">Impostazioni dispositivi connessi</translation>
 <translation id="5830180081891717894">Altre <ph name="WINDOWS" /></translation>
 <translation id="5837036133683224804">Interrompi <ph name="ROUTE_TITLE" /> su <ph name="RECEIVER_NAME" /></translation>
-<translation id="5840658767386246331">Cerca con Google</translation>
+<translation id="5840658767386246331">Cerca con Decentr</translation>
 <translation id="5841296711770970362">Vai alla traccia successiva</translation>
 <translation id="5842553299352339114">Hotspot di <ph name="DEVICE_NAME" /> attivo, nessun dispositivo connesso</translation>
 <translation id="584525477304726060">Tieni premuto per ingrandire</translation>
@@ -1663,7 +1663,7 @@ Nessun dispositivo connesso.</translation>
 <translation id="639644700271529076">Funzione BLOC MAIUSC non attiva</translation>
 <translation id="6406458002328242616">Modifica il timer. <ph name="FOCUS_DURATION" />.</translation>
 <translation id="6406704438230478924">altgr</translation>
-<translation id="6417265370957905582">Assistente Google</translation>
+<translation id="6417265370957905582">Assistente Decentr</translation>
 <translation id="641817663353603351">pagina su</translation>
 <translation id="6424520630891723617"><ph name="SECURITY_STATUS" />, intensità del segnale <ph name="SIGNAL_STRENGTH" /></translation>
 <translation id="642644398083277086">Cancella tutte le notifiche</translation>
@@ -1860,7 +1860,7 @@ Nuova installazione</translation>
 <translation id="7031303610220416229">Visualizza tutte le attività in Google Tasks</translation>
 <translation id="7032161822340700104">Solo 6 modelli consentiti. Rimuovi un modello per salvarne uno nuovo.</translation>
 <translation id="7034025838182392395"><ph name="APP_NAME" /> vuole usare <ph name="DEVICE_NAME" />. Attiva l'interruttore fisico (<ph name="DEVICE_NAME" />) del dispositivo.</translation>
-<translation id="703425375924687388"><ph name="QUERY_NAME" />, Assistente Google</translation>
+<translation id="703425375924687388"><ph name="QUERY_NAME" />, Assistente Decentr</translation>
 <translation id="7042322267639375032">Comprimi area di stato</translation>
 <translation id="7042593542151411225">Le app non possono accedere alla fotocamera</translation>
 <translation id="7045033600005038336">Vuoi sostituire il modello?</translation>
@@ -1965,7 +1965,7 @@ Nuova installazione</translation>
 <translation id="742594950370306541">La videocamera è in uso.</translation>
 <translation id="742608627846767349">Buongiorno,</translation>
 <translation id="743058460480092004">Videocamera e microfono sono in uso.</translation>
-<translation id="7440404390546433462">Ricerca Google</translation>
+<translation id="7440404390546433462">Ricerca Decentr</translation>
 <translation id="7441711280402516925">In riproduzione · Passa alla scheda</translation>
 <translation id="7453330308669753048">Risultato della cronologia delle ricerche rimosso</translation>
 <translation id="7459485586006128091">L'hotspot è stato disattivato a causa di un errore interno. Prova a riconnetterti tra qualche minuto.</translation>
@@ -2070,7 +2070,7 @@ Per arrestare il dispositivo, tieni di nuovo premuto il relativo tasto di accens
 <translation id="7749443890790263709">Numero massimo di scrivanie raggiunto.</translation>
 <translation id="7749958366403230681">ExpressKey 4</translation>
 <translation id="7751260505918304024">Mostra tutto</translation>
-<translation id="7762664108390426952">I Termini di servizio e le Norme sulla privacy di Google</translation>
+<translation id="7762664108390426952">I Termini di servizio e le Norme sulla privacy di Decentr</translation>
 <translation id="7768784765476638775">Seleziona per ascoltare</translation>
 <translation id="7769299611924763557">La tua GIF sarà pronta a breve</translation>
 <translation id="7773536009433685931">Attiva invece il Wi-Fi</translation>
@@ -2425,7 +2425,7 @@ Per arrestare il dispositivo, tieni di nuovo premuto il relativo tasto di accens
 <translation id="8926951137623668982">Barra delle app sempre nascosta</translation>
 <translation id="8929566928381252430">Stai cercando di usare Bloc Maiusc? Usa</translation>
 <translation id="8929623844713377237">Contatto creato</translation>
-<translation id="8934418770423095813">Crea documento Google</translation>
+<translation id="8934418770423095813">Crea documento Decentr</translation>
 <translation id="8934926665751933910">{NUM_FILES,plural, =1{1 file}other{# file}}</translation>
 <translation id="8936501819958976551">disattivato</translation>
 <translation id="8938800817013097409">Dispositivo USB-C (porta posteriore destra)</translation>
@@ -2494,7 +2494,7 @@ Per arrestare il dispositivo, tieni di nuovo premuto il relativo tasto di accens
 <translation id="9168436347345867845">Più tardi</translation>
 <translation id="9178475906033259337">Visualizzazione di un risultato per <ph name="QUERY" /></translation>
 <translation id="9179259655489829027">Questa funzione consente di accedere rapidamente a qualsiasi utente che abbia effettuato l'accesso, senza bisogno di una password. Utilizza questa funzione solo con gli account che consideri attendibili.</translation>
-<translation id="9183302530794969518">Documenti Google</translation>
+<translation id="9183302530794969518">Documenti Decentr</translation>
 <translation id="9183456764293710005">Ingrandimento a schermo intero</translation>
 <translation id="9192133205265227850">Usa "<ph name="DEVICE_NAME" />"</translation>
 <translation id="9193626018745640770">Trasmissione a un ricevitore sconosciuto</translation>

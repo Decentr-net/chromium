@@ -106,7 +106,7 @@
 <translation id="1407069428457324124">Темна тема</translation>
 <translation id="1407135791313364759">Отвори ги сите</translation>
 <translation id="1409879593029778104">Преземањето на <ph name="FILE_NAME" /> е спречено затоа што датотеката веќе постои.</translation>
-<translation id="1413446866325418126">Зачувувајте податоци во вашата сметка на Google</translation>
+<translation id="1413446866325418126">Зачувувајте податоци во вашата сметка на Decentr</translation>
 <translation id="1416550906796893042">Верзија на апликација</translation>
 <translation id="1419753403124156396">Да се рестартира Chrome?</translation>
 <translation id="1428770807407000502">Да се исклучи синхронизацијата?</translation>
@@ -165,7 +165,7 @@
 <translation id="1732514748744806741">Ќе ве известиме ако вашите лозинки се компромитирани</translation>
 <translation id="1747593111377567311">{NUM_SITES,plural, =1{1 сајт неодамна испрати многу известувања}one{# сајт неодамна испратија многу известувања}other{# сајта неодамна испратија многу известувања}}</translation>
 <translation id="1749561566933687563">Синхронизирајте ги обележувачите</translation>
-<translation id="1750238553597293878">Продолжете да ги користите лозинките во вашата сметка на Google</translation>
+<translation id="1750238553597293878">Продолжете да ги користите лозинките во вашата сметка на Decentr</translation>
 <translation id="17513872634828108">Отворени јазичиња</translation>
 <translation id="1755203724116202818">Заради мерење на изведбата на одредена реклама, се споделуваат ограничени типови податоци меѓу сајтовите, на пр., дали сте купиле нешто по посетата на одреден сајт.</translation>
 <translation id="1757620656501361327">Известување за Google Password Manager</translation>
@@ -193,7 +193,7 @@
 <translation id="189358972401248634">Други јазици</translation>
 <translation id="1899175549411605574">Долен лист со увиди во цените</translation>
 <translation id="1900260903084164610">Ако продолжите, се согласувате со <ph name="BEGIN_TOS_LINK" />Условите за користење<ph name="END_TOS_LINK" />.</translation>
-<translation id="1904580727789512086">URL-адресите што ги посетувате се зачувуваат во вашата сметка на Google</translation>
+<translation id="1904580727789512086">URL-адресите што ги посетувате се зачувуваат во вашата сметка на Decentr</translation>
 <translation id="1910950723001426294">Списокот со опции за споделување е затворен.</translation>
 <translation id="191726024256261717">Прегледајте ги дозволите</translation>
 <translation id="1917766536967060661">Веднаш ќе го изгубите пристапот до групата картички „<ph name="GROUP_NAME" />“, а <ph name="BLOCKED_MEMBER_FULL_NAME" /> (<ph name="BLOCKED_MEMBER_EMAIL" />) веќе нема да може да има интеракција со вас на услугите на Google.</translation>
@@ -284,7 +284,7 @@
 <translation id="2341410551640223969">Не можеше да се инсталира <ph name="WEBAPK_NAME" />.</translation>
 <translation id="2349710944427398404">Вкупен сообраќај искористен од Chrome, вклучувајќи сметки, обележувачи и зачувани поставки</translation>
 <translation id="2349954856814571872">Икона за копче за лента со обележувачи</translation>
-<translation id="235789365079050412">Политика за приватност на Google</translation>
+<translation id="235789365079050412">Политика за приватност на Decentr</translation>
 <translation id="2359808026110333948">Продолжи</translation>
 <translation id="2362083820973145409">Најавени сте како: <ph name="USER_NAME" />. <ph name="USER_EMAIL" />. Ги отвора поставките.</translation>
 <translation id="2363734411417672757">Вчитани се повеќе страници однапред. Страниците може да се вчитуваат однапред преку серверите на Google кога тоа го бараат други сајтови или апликации.</translation>
@@ -322,8 +322,8 @@
 <translation id="2513403576141822879">За повеќе поставки што се однесуваат на приватноста, безбедноста и собирањето податоци, одете на <ph name="BEGIN_LINK" />Синхронизација и услуги на Google<ph name="END_LINK" /></translation>
 <translation id="2515921719039583189">Да се избришат податоците од Chrome одовде?</translation>
 <translation id="2517113738956581680">Лист со целосна големина</translation>
-<translation id="2523184218357549926">Испраќа URL-адреси од страници што ги посетувате до Google</translation>
-<translation id="2524132927880411790">Одете на „Гласовно пребарување“ во апликацијата Google</translation>
+<translation id="2523184218357549926">Испраќа URL-адреси од страници што ги посетувате до Decentr</translation>
+<translation id="2524132927880411790">Одете на „Гласовно пребарување“ во апликацијата Decentr</translation>
 <translation id="2527209463677295330">Ако вклучите повеќе текст од страницата, можеби ќе гледате подобри резултати</translation>
 <translation id="2527779675047087889">Скриј содржини од привремената меморија</translation>
 <translation id="2532336938189706096">Преглед на веб</translation>
@@ -366,7 +366,7 @@
 <translation id="2677748264148917807">Напушти</translation>
 <translation id="2687009626279857299">Престана да функционира на уредов</translation>
 <translation id="2702516483241149200">Ново: споделете линк што ќе ве одведе до текстов со лизгање</translation>
-<translation id="2708051474374549906">Проактивна заштита во реално време од опасни сајтови, преземања и екстензии согласно со вашите податоци од прелистување што се испраќаат во Google</translation>
+<translation id="2708051474374549906">Проактивна заштита во реално време од опасни сајтови, преземања и екстензии согласно со вашите податоци од прелистување што се испраќаат во Decentr</translation>
 <translation id="2708226184420201102">Отвори во прелистувачот <ph name="PRODUCT_NAME" /></translation>
 <translation id="271033894570825754">Ново</translation>
 <translation id="2718352093833049315">Само преку Wi-Fi</translation>
@@ -390,7 +390,7 @@
 <translation id="2826576843404243001">За сајтовите што не поддржуваат безбедни врски, добијте предупредување пред да го отворите сајтот. Не може да ја промените поставкава бидејќи имате овозможено „Напредна заштита“.</translation>
 <translation id="2827278682606527653">Менито на картичката за активност е отворено на половина екран</translation>
 <translation id="2830783625999891985">Содржините од привремената меморија се скриени</translation>
-<translation id="2834884592945939112">Поставки, грешка на сметката на Google</translation>
+<translation id="2834884592945939112">Поставки, грешка на сметката на Decentr</translation>
 <translation id="2838367486340230368">Објаснувањето за водичот за приватност е отворено на половина екран</translation>
 <translation id="2839327205551510876">Се отследи <ph name="SITE_NAME" /></translation>
 <translation id="2840810876587895427">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE" /> картичка „Инкогнито“ ќе се затвори}one{<ph name="TAB_COUNT_MANY" /> картичка „Инкогнито“ ќе се затворат}other{<ph name="TAB_COUNT_MANY" /> картички „Инкогнито“ ќе се затворат}}</translation>
@@ -415,7 +415,7 @@
 <translation id="2904300462646366554">Преземените PDF-датотеки се отвораат автоматски со еден од прикажувачите на PDF на уредот</translation>
 <translation id="2904414404539560095">Списокот со уреди за споделување картичка е отворен на цел екран.</translation>
 <translation id="2908243544703713905">Непрочитаните стории се спремни</translation>
-<translation id="2909615210195135082">Платформа за известувања на Google</translation>
+<translation id="2909615210195135082">Платформа за известувања на Decentr</translation>
 <translation id="2912345083818861431">Користете заклучување екран за да ги гледате отворените картички „Инкогнито“</translation>
 <translation id="2923908459366352541">Името е неважечко</translation>
 <translation id="2932150158123903946">Достапен простор на Google <ph name="APP_NAME" /></translation>
@@ -433,7 +433,7 @@
 <translation id="2979639724566107830">Отвори во нов прозорец</translation>
 <translation id="2981364137500752533">Може да имате до 5 прозорци.</translation>
 <translation id="2983102365694924129">Според вашата активност на сајт. Оваа поставка е исклучена.</translation>
-<translation id="2984978667043170458">Вклучи го околниот текст во пребарувањата на Google</translation>
+<translation id="2984978667043170458">Вклучи го околниот текст во пребарувањата на Decentr</translation>
 <translation id="2989523299700148168">Неодамна посетени</translation>
 <translation id="2992473221983447149">Описи на слики</translation>
 <translation id="2996291259634659425">Создајте лозинка</translation>
@@ -505,7 +505,7 @@
 <translation id="3351165113450806415">Нов начин на повлекување</translation>
 <translation id="3359667936385849800">Користете го тековниот давател на услуги</translation>
 <translation id="3373701465337594448">Кога е вклучено, список со сајтови кои ги посетувате што ги погодуваат вашите интереси ќе се појави тука</translation>
-<translation id="3374023511497244703">Обележувачите, историјата, лозинките и другите податоци на Chrome веќе нема да се синхронизираат со вашата сметка на Google</translation>
+<translation id="3374023511497244703">Обележувачите, историјата, лозинките и другите податоци на Chrome веќе нема да се синхронизираат со вашата сметка на Decentr</translation>
 <translation id="3384347053049321195">Сподели ја сликата</translation>
 <translation id="3387650086002190359">Преземањето на <ph name="FILE_NAME" /> не успеа поради грешки на системот со датотеки.</translation>
 <translation id="3398320232533725830">Отворете го управникот на обележувачи</translation>
@@ -567,7 +567,7 @@
 <translation id="3636940436873918441">Претпочитани јазици</translation>
 <translation id="3637744895182738742">Ако сте ја заборавиле лозинката или сакате да ја промените поставкава, <ph name="BEGIN_LINK" />избришете ги податоците од Chrome во вашата сметка<ph name="END_LINK" />.</translation>
 <translation id="3653111872753786013"><ph name="WEBSITE_TITLE" />: <ph name="WEBSITE_URL" /></translation>
-<translation id="3674208116086565128">Одете на почетната картичка во апликацијата Google</translation>
+<translation id="3674208116086565128">Одете на почетната картичка во апликацијата Decentr</translation>
 <translation id="368329460027487650">Одјавено. Отвора опции за најавување.</translation>
 <translation id="3684540848053703310">Долниот лист со увиди во цените е затворен</translation>
 <translation id="3687645719033307815">Гледате преглед на страницава</translation>
@@ -582,16 +582,16 @@
 <translation id="3710560693796335511">Соработка</translation>
 <translation id="3714981814255182093">Отворете ја Лентата за пребарување</translation>
 <translation id="3718765429352682176">Можеби ќе ја гледате историјата од други апликации што отвораат линкови во Chrome.</translation>
-<translation id="3721119614952978349">Вие и Google</translation>
+<translation id="3721119614952978349">Вие и Decentr</translation>
 <translation id="3737319253362202215">Поставки за превод</translation>
 <translation id="3738139272394829648">Допри за пребарување</translation>
-<translation id="3739455665973395693">Нема компромитирани лозинки во вашата сметка на Google</translation>
+<translation id="3739455665973395693">Нема компромитирани лозинки во вашата сметка на Decentr</translation>
 <translation id="3739899004075612870">Обележано во <ph name="PRODUCT_NAME" /></translation>
 <translation id="3740525748616366977">Гласовното пребарување не е достапено на уредов</translation>
 <translation id="376561056759077985">Некои податоци сѐ уште не се зачувани</translation>
 <translation id="3771033907050503522">Инкогнито картички</translation>
 <translation id="3771290962915251154">Поставкава е оневозможена бидејќи се вклучени родителските контроли</translation>
-<translation id="3771694256347217732">Услови за користење на Google</translation>
+<translation id="3771694256347217732">Услови за користење на Decentr</translation>
 <translation id="3775705724665058594">Испратете до вашите уреди</translation>
 <translation id="3777796259512476958">Ќе ве одјави од повеќето сајтови</translation>
 <translation id="379035798868314833">Google Password Manager ќе престане да функционира на уредов</translation>
@@ -688,7 +688,7 @@
 <translation id="4248098802131000011">Заштитете ги лозинките од упади во податоци и други безбедносни проблеми</translation>
 <translation id="424864128008805179">Ќе се одјавите од Chrome?</translation>
 <translation id="4249955472157341256">Подредете според последни</translation>
-<translation id="4255841059940367080">Заштита во реално време од опасни сајтови, преземања и екстензии – овозможена од AI и заснована на вашите податоци од прелистувањето што се испраќаат до Google</translation>
+<translation id="4255841059940367080">Заштита во реално време од опасни сајтови, преземања и екстензии – овозможена од AI и заснована на вашите податоци од прелистувањето што се испраќаат до Decentr</translation>
 <translation id="4256782883801055595">Лиценци за отворен код</translation>
 <translation id="4257230861809842349">Да се избришат лозинките од Google Password Manager?</translation>
 <translation id="426652736638196239">Овој IBAN ќе се зачува само на овој уред</translation>
@@ -724,7 +724,7 @@
 <translation id="4405636711880428279">Дали да се отстрани виртуелната картичка?</translation>
 <translation id="4409014848144759297"><ph name="WEBSITE_TITLE" /> и уште <ph name="TAB_COUNT" /> картички</translation>
 <translation id="4414179633735763985">Избришани: <ph name="TAB_GROUPS_AND_TABS_PART" /></translation>
-<translation id="4415276339145661267">Управувајте со сметката на Google</translation>
+<translation id="4415276339145661267">Управувајте со сметката на Decentr</translation>
 <translation id="4425140285732600465">Цената се следи. Добивајте предупредувања ако цената се намали на кој било сајт.</translation>
 <translation id="4425173294238317796">Лист за потврдување на криптографскиот клуч</translation>
 <translation id="442518031075347249">Веќе нема да можете да ја користите вашата виртуелна картичка со Google Pay. <ph name="BEGIN_LINK1" />Дознајте повеќе за виртуелните картички<ph name="END_LINK1" /></translation>
@@ -760,7 +760,7 @@
 <translation id="4583164079174244168">{MINUTES,plural, =1{Пред # минута}one{Пред # минута}other{Пред # минути}}</translation>
 <translation id="4587589328781138893">Сајтови</translation>
 <translation id="4594952190837476234">Офлајн страницава е од <ph name="CREATION_TIME" /> и може да се разликува од онлајн верзијата.</translation>
-<translation id="4595805675102978678">Грешка на сметката на Google</translation>
+<translation id="4595805675102978678">Грешка на сметката на Decentr</translation>
 <translation id="4601095002996233687">Детални скенирања за сомнителни преземања.</translation>
 <translation id="4606559747793337066">Кога некој сајт или апликација ќе ви побара приватно вчитување однапред на линковите на нејзината страница, Chrome ги шифрира и ги вчитува страниците однапред преку серверите на Google без колачиња. Вака се крие вашиот идентитет од однапред вчитаниот сајт.</translation>
 <translation id="4609429330876432068">Вашите списоци на зачувани лозинки за Chrome и <ph name="CHROME_CHANNEL" /> се споени. И понатаму може автоматски да ги пополнувате сите зачувани лозинки во двете апликации.</translation>
@@ -839,9 +839,9 @@
 <translation id="4881695831933465202">Отвори</translation>
 <translation id="488187801263602086">Преименување датотеката</translation>
 <translation id="4885273946141277891">Неподдржан број примероци на Chrome.</translation>
-<translation id="4890973535105146893">Нема зачувани лозинки во вашата сметка на Google</translation>
+<translation id="4890973535105146893">Нема зачувани лозинки во вашата сметка на Decentr</translation>
 <translation id="4905823827770127520">Додајте линк на страницата</translation>
-<translation id="4908869848243824489">Discover од Google</translation>
+<translation id="4908869848243824489">Discover од Decentr</translation>
 <translation id="4910889077668685004">Апликации за плаќање</translation>
 <translation id="4912413785358399818">Премести картичка</translation>
 <translation id="4913169188695071480">Сопри го освежувањето</translation>
@@ -863,7 +863,7 @@
 <translation id="4991110219272367918">Опцијата да се одобри или да не се одобри веб-сајт е затворена</translation>
 <translation id="4996095658297597226">Да се користи предложената лозинка?</translation>
 <translation id="5001388021414335527">Следете го сајтов тука</translation>
-<translation id="5004416275253351869">Контроли на активноста на Google</translation>
+<translation id="5004416275253351869">Контроли на активноста на Decentr</translation>
 <translation id="5005498671520578047">Копирање лозинка</translation>
 <translation id="5010886807652684893">Визуелен приказ</translation>
 <translation id="5011311129201317034"><ph name="SITE" /> сака да се поврзе</translation>
@@ -938,7 +938,7 @@
 <translation id="5375577065097716013">Пребарај слика со Google Lens <ph name="BEGIN_NEW" />Ново<ph name="END_NEW" /></translation>
 <translation id="5390367025924544771"><ph name="WEBSITE_ORIGIN" /> сака да користи лични податоци од вашиот дигитален паричник. Продолжете само ако му верувате на сајтов. Опасните сајтови може да ве измамат да откриете работи како полното име и презиме или бројот на документот за идентификација.</translation>
 <translation id="5394331612381306435">Излези од „Инкогнито“</translation>
-<translation id="5395376160638294582">Уверете се дека секогаш ќе може да ги користите податоците на Chrome во вашата сметка на Google</translation>
+<translation id="5395376160638294582">Уверете се дека секогаш ќе може да ги користите податоците на Chrome во вашата сметка на Decentr</translation>
 <translation id="539881862970320163">Предложена е силна лозинка. Тастатурата е скриена.</translation>
 <translation id="5409881200985013443">Да се испрати <ph name="ONE_TIME_CODE" /> на <ph name="CLIENT_NAME" />?</translation>
 <translation id="5410300144953132176"><ph name="OWNER_FULL_NAME" /> (<ph name="OWNER_EMAIL" />) сака да се придружите во група картички. Секој што го има линкот може да ги изменува сите картички, па придружувајте се внимателно. Линкот истекува по 48 ч.</translation>
@@ -993,7 +993,7 @@
 <translation id="5626134646977739690">Име:</translation>
 <translation id="5628604359369369630">Непрочитани - Достапни офлајн</translation>
 <translation id="5631483240431073854">Управувајте со отворените картички</translation>
-<translation id="5641456720590409793"><ph name="BEGIN_LINK1" />Историјата на пребарување<ph name="END_LINK1" /> и <ph name="BEGIN_LINK2" />други форми на активност<ph name="END_LINK2" /> може да се зачувуваат во вашата сметка на Google</translation>
+<translation id="5641456720590409793"><ph name="BEGIN_LINK1" />Историјата на пребарување<ph name="END_LINK1" /> и <ph name="BEGIN_LINK2" />други форми на активност<ph name="END_LINK2" /> може да се зачувуваат во вашата сметка на Decentr</translation>
 <translation id="5648166631817621825">Изминатите 7 дена</translation>
 <translation id="5655963694829536461">Пребарајте ги преземањата</translation>
 <translation id="5657871969392618475">Вашите податоци се заштитени со заклучување на профилот</translation>
@@ -1009,10 +1009,10 @@
 <translation id="570347048394355941">Префрли се на картичката</translation>
 <translation id="5709213329446699338"><ph name="SITE" /> сака да се поврзе со сериска порта</translation>
 <translation id="5715150588940290235">Да се избришат зачуваните безбедносни кодови?</translation>
-<translation id="571930967925877633">Обележувачите, историјата и другите податоци на Chrome веќе нема да се синхронизираат со вашата сметка на Google</translation>
+<translation id="571930967925877633">Обележувачите, историјата и другите податоци на Chrome веќе нема да се синхронизираат со вашата сметка на Decentr</translation>
 <translation id="572328651809341494">Неодамнешни картички</translation>
 <translation id="5726692708398506830">Зголеми сѐ што се наоѓа на страницата</translation>
-<translation id="5728072125198221967">Поврзани услуги на Google</translation>
+<translation id="5728072125198221967">Поврзани услуги на Decentr</translation>
 <translation id="5744751019568455640">Еве ги гласовите што може да ги изберете за читање на вашите веб-страници. Ако ви се допаѓа гласов и сакате да продолжам да го користам, само допрете го името на гласот.</translation>
 <translation id="574845902699630049">Споделете како <ph name="OWNER_FULL_NAME" /></translation>
 <translation id="5749068826913805084">На Chrome му треба пристап до меморијата за да презема датотеки.</translation>
@@ -1072,7 +1072,7 @@
 <translation id="5979084224081478209">Провери ги лозинките</translation>
 <translation id="5992182727984874868"><ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> <ph name="SEPARATOR" /> Chrome ги отстрани дозволиве бидејќи не сте го отвориле сајтот неодамна</translation>
 <translation id="5995726099713306770">Да се преземе страницата повторно?</translation>
-<translation id="6000066717592683814">Задржи го Google</translation>
+<translation id="6000066717592683814">Задржи го Decentr</translation>
 <translation id="6000203700195075278">Следете пак</translation>
 <translation id="6011308810877101166">Подобрување на предлозите за пребарување</translation>
 <translation id="6013305291643746595">Се подредува според најстари</translation>
@@ -1085,7 +1085,7 @@
 <translation id="604996488070107836">Преземањето на <ph name="FILE_NAME" /> не успеа поради непозната грешка.</translation>
 <translation id="605721222689873409">ГГ</translation>
 <translation id="6059830886158432458">Контролирајте ги сториите и активноста тука</translation>
-<translation id="6071995715087444295">За проверка за компромитирани лозинки, најавете се на вашата сметка на Google</translation>
+<translation id="6071995715087444295">За проверка за компромитирани лозинки, најавете се на вашата сметка на Decentr</translation>
 <translation id="6078323886959318429">Додајте кратенка</translation>
 <translation id="6085886413119427067">Определува како да се поврзуваат веб-сајтовите преку безбедна врска</translation>
 <translation id="6087286598828478206">Да се блокира и напушти групата?</translation>
@@ -1244,7 +1244,7 @@
 <translation id="671481426037969117">Тајмерот за <ph name="FQDN" /> истече. Ќе започне одново утре.</translation>
 <translation id="6715020873764921614">Дали сепак сакате да ја преземете датотеката <ph name="FILE_NAME" /> (<ph name="FILE_SIZE" />)?</translation>
 <translation id="671928215901716392">Заклучување на екранот</translation>
-<translation id="6723740634201835758">Во вашата сметка на Google</translation>
+<translation id="6723740634201835758">Во вашата сметка на Decentr</translation>
 <translation id="6734310707649923383">Може да ги видите страниците што сте ги отвориле или да ги избришете од историјата</translation>
 <translation id="6738867403308150051">Се презема…</translation>
 <translation id="674388916582496364">Нормално е сајтовите што ги посетувате да ги помнат работите што ве интересираат за да го персонализираат вашето доживување. Сајтовите можат и да зачувуваат податоци со Chrome за вашите интереси.</translation>
@@ -1295,10 +1295,10 @@
 <translation id="688738109438487280">Додајте ги постоечките податоци во <ph name="TO_ACCOUNT" />.</translation>
 <translation id="6891726759199484455">Отклучете за да ја копирате лозинката</translation>
 <translation id="6896758677409633944">Копирај</translation>
-<translation id="6898797562238201317">Користете ја сопствената лозинка за да ги шифрирате сите податоци од Chrome во вашата сметка на Google</translation>
+<translation id="6898797562238201317">Користете ја сопствената лозинка за да ги шифрирате сите податоци од Chrome во вашата сметка на Decentr</translation>
 <translation id="6900532703269623216">Подобрена заштита</translation>
 <translation id="6903907808598579934">Вклучи синхронизирање</translation>
-<translation id="6906448540340261898">Уверете се дека секогаш ќе може да ги користите лозинките во вашата сметка на Google</translation>
+<translation id="6906448540340261898">Уверете се дека секогаш ќе може да ги користите лозинките во вашата сметка на Decentr</translation>
 <translation id="6908230663105268638">Известувањата се дозволени за <ph name="SITE_NAME" /></translation>
 <translation id="6908998565271542516">Опцијата да се одобри или да не се одобри веб-сајт е отворена на цела страница</translation>
 <translation id="6909589135458168665">Вчитување на страниците однапред</translation>
@@ -1306,7 +1306,7 @@
 <translation id="6918398787259831832">Ако и натаму се соочувате со проблемов, <ph name="BEGIN_LINK" />добијте повеќе информации<ph name="END_LINK" /> од <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE" />.</translation>
 <translation id="6922812712751566567"><ph name="PERMISSION" /> <ph name="SEPARATOR" /> Chrome ги отстрани дозволиве бидејќи не сте го отвориле сајтот неодамна</translation>
 <translation id="6927821422725196292">{TABS_COUNT,plural, =1{1 картичка}one{<ph name="NUMBER_OF_TABS" /> картичка}other{<ph name="NUMBER_OF_TABS" /> картички}}</translation>
-<translation id="6929224077895306814">Ќе се избришат сите безбедносни кодови што се зачувани на уредот и во сметката на Google</translation>
+<translation id="6929224077895306814">Ќе се избришат сите безбедносни кодови што се зачувани на уредот и во сметката на Decentr</translation>
 <translation id="6937524809504266803">Персонализација и поврзување</translation>
 <translation id="6937876069006524083">Прекар (незадолжително)</translation>
 <translation id="6942665639005891494">Променете ја стандардната локација за преземање во секое време со помош на опцијата „Поставки“ од менито</translation>
@@ -1340,7 +1340,7 @@
 <translation id="707702207692430409">{BOOKMARK_COUNT,plural, =1{Обележувачот е зачуван во папката „<ph name="FOLDER_NAME" />“ во вашата сметка, <ph name="ACCOUNT_EMAIL" />.}one{Обележувачите се зачувани во папката „<ph name="FOLDER_NAME" />“ во вашата сметка, <ph name="ACCOUNT_EMAIL" />.}other{Обележувачите се зачувани во папката „<ph name="FOLDER_NAME" />“ во вашата сметка, <ph name="ACCOUNT_EMAIL" />.}}</translation>
 <translation id="7077143737582773186">SD-картичка</translation>
 <translation id="7078916049958741685">Избришете ги и вашите податоци од Chrome од уредов</translation>
-<translation id="7085332316435785646">Изберете дали да се опфати историјата на Chrome за поперсонализирани доживувања во услугите на Google</translation>
+<translation id="7085332316435785646">Изберете дали да се опфати историјата на Chrome за поперсонализирани доживувања во услугите на Decentr</translation>
 <translation id="7088681679121566888">Chrome е ажуриран</translation>
 <translation id="7106762743910369165">Вашата организација управува со прелистувачот</translation>
 <translation id="7111394291981742152">Chrome ви дава поголема контрола над рекламите што ги гледате и ограничува што може да учат сајтовите за вас кога ви прикажуваат персонализирани реклами.</translation>
@@ -1361,7 +1361,7 @@
 <translation id="7180611975245234373">Освежи</translation>
 <translation id="7182051712900867547">Користете друга сметка</translation>
 <translation id="7183517696921903380">Листот за филтрирање според апликација е отворен.</translation>
-<translation id="7186568385131859684">Контролирајте како се користи историјата на прелистувањето со другите податоци на услугите на Google</translation>
+<translation id="7186568385131859684">Контролирајте како се користи историјата на прелистувањето со другите податоци на услугите на Decentr</translation>
 <translation id="7190921792980745354">Да се блокира <ph name="MEMBER_FULL_NAME" />?</translation>
 <translation id="7191430249889272776">Отворена е картичка во заднина.</translation>
 <translation id="7192397795254933433">{NUM_PASSWORDS,plural, =1{Треба да го промените ова сега}one{Треба да ги промените овие сега}other{Треба да ги промените овие сега}}</translation>
@@ -1408,7 +1408,7 @@
 <translation id="7400003506822844357">{FILE_COUNT,plural, =1{Друго, 1 датотека во список}one{Друго, # датотека во список}other{Друго, # датотеки во список}}</translation>
 <translation id="7400418766976504921">URL</translation>
 <translation id="7403691278183511381">Искуство при првото извршување на Chrome</translation>
-<translation id="7411224099004328643">Корисник на сметка на Google</translation>
+<translation id="7411224099004328643">Корисник на сметка на Decentr</translation>
 <translation id="7419565702166471774">Секогаш користи безбедни врски</translation>
 <translation id="7421293530411019405">Да се напушти групата картички?</translation>
 <translation id="7431991332293347422">Контролирајте како вашата историја на прелистување се користи за персонализирање на „Пребарувањето“ и друго</translation>
@@ -1436,7 +1436,7 @@
 <translation id="7507207699631365376">Погледнете ја <ph name="BEGIN_LINK" />Политиката за приватност<ph name="END_LINK" /> на операторов</translation>
 <translation id="750886945254958667">Задржете ја групава за да додавате картички подоцна или напуштете ја ако веќе не сакате да пристапувате до неа</translation>
 <translation id="7514365320538308">Преземи</translation>
-<translation id="7517292544534877198">Користете го стандардното шифрирање на Google за лозинките во вашата сметка на Google</translation>
+<translation id="7517292544534877198">Користете го стандардното шифрирање на Google за лозинките во вашата сметка на Decentr</translation>
 <translation id="7518079994230200553">Опцијава е недостапна во моментов.</translation>
 <translation id="751961395872307827">Не може да се поврзе со сајтот</translation>
 <translation id="7523960634226602883">Пребарувајте со камерата со Google Lens</translation>
@@ -1511,7 +1511,7 @@
 <translation id="7824665136384946951">Вашата организација го исклучи „Безбедното прелистување“</translation>
 <translation id="7844171778363018843">Не се избрани податоци за синхронизација</translation>
 <translation id="7846161022626028328">Се јави грешка. Обидете се повторно.</translation>
-<translation id="7846296061357476882">Услуги на Google</translation>
+<translation id="7846296061357476882">Услуги на Decentr</translation>
 <translation id="784934925303690534">Временски период</translation>
 <translation id="7851858861565204677">Други уреди</translation>
 <translation id="7853202427316060426">Активност</translation>
@@ -1569,7 +1569,7 @@
 <translation id="8078096376109663956">Споделете само текст</translation>
 <translation id="8078348702936632821">Закачи ја кратенкава</translation>
 <translation id="8084114998886531721">Зачувана лозинка</translation>
-<translation id="8084285576995584326">Контролирајте ги податоците од вашата сметка на Google</translation>
+<translation id="8084285576995584326">Контролирајте ги податоците од вашата сметка на Decentr</translation>
 <translation id="8084864785646838999">Дел од вашата историја можеби нема да се појави тука. За да ја видите сета ваша историја на Chrome, отворете ја целата историја на Chrome. Покрај тоа, вашата сметка на Google може да има други форми на историја на прелистувањето на <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
 <translation id="8088176524274673045">За да споделувате со луѓе во близина, дозволете им да го скенираат QR-кодов</translation>
 <translation id="8090732854597034573">Ако ти треба помош, прашај го родителот</translation>
@@ -1659,7 +1659,7 @@
 <translation id="8449781591250785734">{NUM_SITES,plural, =1{Отстранети се дозволите за 1 сајт што не се користи}one{Отстранети се дозволите за # сајт што не се користат}other{Отстранети се дозволите за # сајта што не се користат}}</translation>
 <translation id="8453310803815879010">Стартувајте ја играта со диносаурус</translation>
 <translation id="8455675988389029454">Добијте ги обележувачите, лозинките и друго на сите ваши уреди</translation>
-<translation id="84594714173170813">Продолжете да ги користите податоците на Chrome во вашата сметка на Google</translation>
+<translation id="84594714173170813">Продолжете да ги користите податоците на Chrome во вашата сметка на Decentr</translation>
 <translation id="8460448946170646641">Прегледајте ги клучните контроли за приватноста и безбедноста</translation>
 <translation id="8473863474539038330">Адреси и друго</translation>
 <translation id="8477178913400731244">Избришете ги податоците</translation>
@@ -1713,7 +1713,7 @@
 <translation id="869891660844655955">Рок на важност</translation>
 <translation id="8699120352855309748">Не нуди превод за овие јазици</translation>
 <translation id="8712637175834984815">Сфатив</translation>
-<translation id="8715286883001906001">Зајакнете ги лозинките во вашата сметка на Google</translation>
+<translation id="8715286883001906001">Зајакнете ги лозинките во вашата сметка на Decentr</translation>
 <translation id="8723453889042591629">Брзо преведи ја страницава. За да ја измените кратенкава, допрете и задржете.</translation>
 <translation id="8725066075913043281">Обидете се повторно</translation>
 <translation id="8731268612289859741">Безбедносен код</translation>
@@ -1795,7 +1795,7 @@
 <translation id="9081543426177426948">Сајтовите што ги посетувате не се зачувуваат во режимот „Инкогнито“</translation>
 <translation id="9086302186042011942">Синхронизирање</translation>
 <translation id="9086455579313502267">Не може да се пристапи на мрежата</translation>
-<translation id="909756639352028172">За да го добиете најперсонализираното доживување, опфатете го Chrome во „Активноста на интернет и апликации“ и поврзаните услуги на Google</translation>
+<translation id="909756639352028172">За да го добиете најперсонализираното доживување, опфатете го Chrome во „Активноста на интернет и апликации“ и поврзаните услуги на Decentr</translation>
 <translation id="9099220545925418560">Според вашата историја на прелистувањето. Оваа поставка е исклучена.</translation>
 <translation id="9100610230175265781">Потребна е лозинка-фраза</translation>
 <translation id="9101137867221042551">Управување</translation>
@@ -1842,7 +1842,7 @@
 <translation id="970715775301869095">Останаа <ph name="MINUTES" /> минути</translation>
 <translation id="981121421437150478">Без мрежа</translation>
 <translation id="983192555821071799">Затвори ги сите картички</translation>
-<translation id="984756705737569814">Не може да се проверат лозинките во вашата сметка на Google</translation>
+<translation id="984756705737569814">Не може да се проверат лозинките во вашата сметка на Decentr</translation>
 <translation id="987264212798334818">Општо</translation>
 <translation id="988091779042748639">Затворете ги сите картички „Инкогнито“ за да се избрише историјата на прелистувањето во режимот „Инкогнито“ од уредот.</translation>
 <translation id="992745192656291733"><ph name="TAB_COUNT" /> картички</translation>

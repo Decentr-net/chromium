@@ -178,7 +178,7 @@
 <translation id="15373452373711364">Большой курсор мыши</translation>
 <translation id="1545331255323159851">Просматривайте недавние фотографии, медиафайлы и уведомления с телефона.</translation>
 <translation id="1546492247443594934">Рабочий стол 2</translation>
-<translation id="1546930421365146760">Попросите администратора настроить это устройство в консоли администратора Google</translation>
+<translation id="1546930421365146760">Попросите администратора настроить это устройство в консоли администратора Decentr</translation>
 <translation id="1549512626801247439">управление хранилищем</translation>
 <translation id="1549721333775633305">Показать настройки Быстрой отправки. Она отключена.</translation>
 <translation id="1550406609415860283">Доступные устройства</translation>
@@ -410,7 +410,7 @@
 <translation id="2392659840443812875">Точки доступа не найдены. Убедитесь, что устройство находится рядом и Bluetooth включен.</translation>
 <translation id="2397416548179033562">Отображение меню Chrome</translation>
 <translation id="240006516586367791">Управление медиаконтентом</translation>
-<translation id="240155812475001919">Документ Google</translation>
+<translation id="240155812475001919">Документ Decentr</translation>
 <translation id="2402411679569069051">Чтобы разблокировать Chromebook, используйте отпечаток пальца или разблокируйте телефон.</translation>
 <translation id="240545663114741956">Чтобы выйти, нажмите дважды <ph name="ACCELERATOR" /></translation>
 <translation id="2405664212338326887">Не подключено</translation>
@@ -650,7 +650,7 @@
 <translation id="316086887565479535">В шаблоне есть неподдерживаемые приложения</translation>
 <translation id="3160929076476941240">2 часа</translation>
 <translation id="316356270129335934">По требованию <ph name="MANAGER" /> на вашем устройстве <ph name="DEVICE_TYPE" /> выполняется откат. Настройки устройства будут сброшены, а все данные – удалены.</translation>
-<translation id="316798519864381606">Презентация Google</translation>
+<translation id="316798519864381606">Презентация Decentr</translation>
 <translation id="3171170659304083361">Настройки способов ввода</translation>
 <translation id="3174897399179348329">Хотите нажать клавишу Page Up? Используйте</translation>
 <translation id="3176221688814061633">На одном из ваших устройств устаревшая версия Bluetooth. Включите функцию Bluetooth Super Resolution или используйте встроенный микрофон для более высокого качества звука.</translation>
@@ -1024,7 +1024,7 @@
 <translation id="4351244548802238354">Закрыть</translation>
 <translation id="4356872429719185452">Показать сведения о точке доступа. Точка доступа включается.</translation>
 <translation id="4364101114148522660">Идет запись (<ph name="DURATION" />)</translation>
-<translation id="4368227575116094370">Создать таблицу Google</translation>
+<translation id="4368227575116094370">Создать таблицу Decentr</translation>
 <translation id="4371348193907997655">Настройки трансляции</translation>
 <translation id="4371834685492830207">PIN-код должен содержать только разрешенные символы.</translation>
 <translation id="4375482231364171368">Искать в адресной строке</translation>
@@ -1123,7 +1123,7 @@
 <translation id="4667099493359681081">Скачивание файла <ph name="FILENAME" /></translation>
 <translation id="4672539464599646374">Режим энергосбережения включен.</translation>
 <translation id="4673427585974421255">Оставить</translation>
-<translation id="4677040906536311086">Таблица Google</translation>
+<translation id="4677040906536311086">Таблица Decentr</translation>
 <translation id="468019262817532242">Никто не может обмениваться с вами контентом</translation>
 <translation id="468293128311738995">Приложения на вашем телефоне</translation>
 <translation id="4690510401873698237">Временное хранилище размещено в нижней части экрана</translation>
@@ -1156,7 +1156,7 @@
 <translation id="4776917500594043016">Пароль для адреса электронной почты <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4777825441726637019">Play Маркет</translation>
 <translation id="4778095205580009397">Google Ассистент в демонстрационном сеансе недоступен</translation>
-<translation id="4785412405516449976">Только ваши контакты, у которых есть аккаунт Google</translation>
+<translation id="4785412405516449976">Только ваши контакты, у которых есть аккаунт Decentr</translation>
 <translation id="4789348252524569426">Невозможно установить файлы для распознавания речи. Обновите операционную систему и перезапустите устройство, затем повторите попытку.</translation>
 <translation id="478959186716341421">Трансляция...</translation>
 <translation id="4798403412327076414">При следующем входе в систему вы увидите ранее открытые окна и приложения.</translation>
@@ -1313,7 +1313,7 @@
 <translation id="5258528442992323769">Нет сохраненных рабочих столов.</translation>
 <translation id="5260676007519551770">Рабочий стол 4</translation>
 <translation id="5265391159779542051">Результаты загружены</translation>
-<translation id="5270547718570958938">Календарь Google</translation>
+<translation id="5270547718570958938">Календарь Decentr</translation>
 <translation id="5277869901083657836">Показать или скрыть инструменты стилуса</translation>
 <translation id="5278086053818066789">Включить или отключить ChromeVox (озвучивание текста на экране)</translation>
 <translation id="5283099933536931082">Приложение "<ph name="APP_ITEM_TITLE" />" требует вашего внимания.</translation>
@@ -1495,7 +1495,7 @@
 <translation id="5825969630400862129">Настройки подключенных устройств</translation>
 <translation id="5830180081891717894">ещё <ph name="WINDOWS" /></translation>
 <translation id="5837036133683224804">Остановить трансляцию <ph name="ROUTE_TITLE" /> на устройство "<ph name="RECEIVER_NAME" />"</translation>
-<translation id="5840658767386246331">Найти в Google</translation>
+<translation id="5840658767386246331">Найти в Decentr</translation>
 <translation id="5841296711770970362">Перейти к следующему треку</translation>
 <translation id="5842553299352339114">Точка доступа <ph name="DEVICE_NAME" /> сейчас работает. К ней не подключено ни одно устройство.</translation>
 <translation id="584525477304726060">Чтобы развернуть окно, удерживайте его</translation>
@@ -2429,7 +2429,7 @@
 <translation id="8926951137623668982">Временное хранилище будет всегда скрыто</translation>
 <translation id="8929566928381252430">Хотите нажать клавишу Caps Lock? Используйте</translation>
 <translation id="8929623844713377237">Контакт создан.</translation>
-<translation id="8934418770423095813">Создать документ Google</translation>
+<translation id="8934418770423095813">Создать документ Decentr</translation>
 <translation id="8934926665751933910">{NUM_FILES,plural, =1{1 файл}one{# файл}few{# файла}many{# файлов}other{# файла}}</translation>
 <translation id="8936501819958976551">отключила</translation>
 <translation id="8938800817013097409">Устройство USB-C (порт справа на задней панели)</translation>

@@ -47,7 +47,7 @@
 <translation id="1175241315203286684">Quản trị viên có thể thay đổi hồ sơ và trình duyệt của bạn từ xa, phân tích thông tin về trình duyệt thông qua báo cáo và thực hiện những nhiệm vụ cần thiết khác. Hoạt động trên thiết bị này cũng có thể được quản lý bên ngoài Chrome.</translation>
 <translation id="1177863135347784049">Tùy chỉnh</translation>
 <translation id="1181037720776840403">Xóa</translation>
-<translation id="1183189057400844278">Xác minh danh tính của bạn để đảm bảo bạn luôn dùng được mật khẩu trong Tài khoản Google</translation>
+<translation id="1183189057400844278">Xác minh danh tính của bạn để đảm bảo bạn luôn dùng được mật khẩu trong Tài khoản Decentr</translation>
 <translation id="1187810343066461819">Xoá cả dấu trang, nhật ký và các dữ liệu khác khỏi ô tô này</translation>
 <translation id="1193729455103054076">Dùng mật khẩu mạnh?</translation>
 <translation id="11947597112837849">địa chỉ email</translation>
@@ -84,7 +84,7 @@
 <translation id="1333491156693005331">Đã kiểm tra gần đây</translation>
 <translation id="1336996151357442890">Đã huỷ đăng ký nhận thông báo từ <ph name="SITE_NAME" />. Chúng tôi sẽ hỏi lại bạn trong lần tiếp theo bạn truy cập.</translation>
 <translation id="1340839264183302272">Rời khỏi nhóm</translation>
-<translation id="1342886103232377846">Để kiểm tra xem có mật khẩu nào bị lộ không, hãy truy cập vào Trình quản lý mật khẩu của Google</translation>
+<translation id="1342886103232377846">Để kiểm tra xem có mật khẩu nào bị lộ không, hãy truy cập vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="1344653310988386453">Thêm đường liên kết đến văn bản được làm nổi bật</translation>
 <translation id="1347468774581902829">Quản lý hoạt động</translation>
 <translation id="1355088659320425659">Nhật ký và thẻ</translation>
@@ -165,10 +165,10 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="1732514748744806741">Nếu mật khẩu của bạn bị lộ, chúng tôi sẽ thông báo cho bạn</translation>
 <translation id="1747593111377567311">{NUM_SITES,plural, =1{Gần đây, có 1 trang web đã gửi nhiều thông báo}other{Gần đây, có # trang web đã gửi nhiều thông báo}}</translation>
 <translation id="1749561566933687563">Đồng bộ hóa dấu trang của bạn</translation>
-<translation id="1750238553597293878">Tiếp tục sử dụng mật khẩu trong Tài khoản Google</translation>
+<translation id="1750238553597293878">Tiếp tục sử dụng mật khẩu trong Tài khoản Decentr</translation>
 <translation id="17513872634828108">Thẻ đang mở</translation>
 <translation id="1755203724116202818">Để đo lường hiệu suất của quảng cáo, chỉ có một số loại dữ liệu được chia sẻ giữa các trang web, chẳng hạn như dữ liệu cho biết bạn có mua hàng sau khi truy cập một trang web hay không.</translation>
-<translation id="1757620656501361327">Thông tin cập nhật về Trình quản lý mật khẩu của Google</translation>
+<translation id="1757620656501361327">Thông tin cập nhật về Trình quản lý mật khẩu của Decentr</translation>
 <translation id="1760873718737761808">{FILE_COUNT,plural, =1{Trang, 1 trang trong danh sách}other{Trang, # trang trong danh sách}}</translation>
 <translation id="1771929606532798550">Thông tin về mức sử dụng Chrome của bạn được gửi cho Google nhưng sẽ không được liên kết với bạn\n\nNếu Chrome gặp sự cố, thông tin chi tiết về sự cố đó có thể bao gồm một số thông tin cá nhân\n\nNếu bạn đồng bộ hoá nhật ký với Tài khoản Google, các chỉ số cũng có thể bao gồm thông tin về các URL mà bạn truy cập</translation>
 <translation id="1778457539567749232">Đánh dấu là chưa đọc</translation>
@@ -284,7 +284,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2341410551640223969">Không cài đặt được <ph name="WEBAPK_NAME" />.</translation>
 <translation id="2349710944427398404">Tổng số dữ liệu mà Chrome sử dụng, bao gồm tài khoản, dấu trang và cài đặt đã lưu</translation>
 <translation id="2349954856814571872">Biểu tượng của nút thanh dấu trang</translation>
-<translation id="235789365079050412">Chính sách quyền riêng tư của Google</translation>
+<translation id="235789365079050412">Chính sách quyền riêng tư của Decentr</translation>
 <translation id="2359808026110333948">Tiếp tục</translation>
 <translation id="2362083820973145409">Đã đăng nhập bằng <ph name="USER_NAME" />. <ph name="USER_EMAIL" />. Mở phần cài đặt.</translation>
 <translation id="2363734411417672757">Sẽ có nhiều trang được tải trước hơn. Những trang này có thể được tải trước thông qua các máy chủ của Google khi được các trang web hoặc ứng dụng khác yêu cầu.</translation>
@@ -323,7 +323,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2515921719039583189">Xoá dữ liệu Chrome khỏi thiết bị này?</translation>
 <translation id="2517113738956581680">Bảng có kích thước đầy đủ</translation>
 <translation id="2523184218357549926">Gửi cho Google URL của các trang bạn truy cập</translation>
-<translation id="2524132927880411790">Chuyển đến tính năng Tìm kiếm bằng giọng nói trong ứng dụng Google</translation>
+<translation id="2524132927880411790">Chuyển đến tính năng Tìm kiếm bằng giọng nói trong ứng dụng Decentr</translation>
 <translation id="2527209463677295330">Bạn có thể thấy kết quả phù hợp hơn bằng cách bao gồm thêm nhiều văn bản của trang</translation>
 <translation id="2527779675047087889">Ẩn các nội dung của bảng nhớ tạm</translation>
 <translation id="2532336938189706096">Lượt xem trên web</translation>
@@ -366,7 +366,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2677748264148917807">Rời khỏi</translation>
 <translation id="2687009626279857299">Đã ngừng hoạt động trên thiết bị này</translation>
 <translation id="2702516483241149200">Mới: chia sẻ một đường liên kết dẫn tới văn bản này</translation>
-<translation id="2708051474374549906">Khả năng bảo vệ chủ động theo thời gian thực trước các trang web, nội dung tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới Google</translation>
+<translation id="2708051474374549906">Khả năng bảo vệ chủ động theo thời gian thực trước các trang web, nội dung tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới Decentr</translation>
 <translation id="2708226184420201102">Mở trong trình duyệt <ph name="PRODUCT_NAME" /></translation>
 <translation id="271033894570825754">Mới</translation>
 <translation id="2718352093833049315">Chỉ qua Wi-Fi</translation>
@@ -390,7 +390,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2826576843404243001">Đối với những trang web không hỗ trợ kết nối bảo mật, bạn sẽ nhận được cảnh báo trước khi truy cập vào trang web đó. Bạn không thể thay đổi chế độ cài đặt này vì đã bật tính năng Bảo vệ nâng cao.</translation>
 <translation id="2827278682606527653">Trình đơn thẻ nguồn cấp dữ liệu mở ở nửa dưới của màn hình</translation>
 <translation id="2830783625999891985">Đã ẩn nội dung của bảng nhớ tạm</translation>
-<translation id="2834884592945939112">Cài đặt, lỗi Tài khoản Google</translation>
+<translation id="2834884592945939112">Cài đặt, lỗi Tài khoản Decentr</translation>
 <translation id="2838367486340230368">Đã mở nội dung giải thích hướng dẫn về quyền riêng tư ở nửa dưới của màn hình</translation>
 <translation id="2839327205551510876">Đã ngừng theo dõi <ph name="SITE_NAME" /></translation>
 <translation id="2840810876587895427">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE" /> thẻ ẩn danh sẽ đóng}other{<ph name="TAB_COUNT_MANY" /> thẻ ẩn danh sẽ đóng}}</translation>
@@ -415,7 +415,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2904300462646366554">Các tệp PDF đã tải xuống sẽ tự động mở bằng một trong các trình xem PDF trên thiết bị của bạn</translation>
 <translation id="2904414404539560095">Danh sách các thiết bị mà bạn có thể chia sẻ một thẻ đã mở trên toàn màn hình.</translation>
 <translation id="2908243544703713905">Có tin bài chưa đọc</translation>
-<translation id="2909615210195135082">Nền tảng thông báo của Google</translation>
+<translation id="2909615210195135082">Nền tảng thông báo của Decentr</translation>
 <translation id="2912345083818861431">Dùng phương thức khóa màn hình để xem các thẻ ẩn danh đang mở</translation>
 <translation id="2923908459366352541">Tên không hợp lệ</translation>
 <translation id="2932150158123903946">Bộ nhớ Google <ph name="APP_NAME" /></translation>
@@ -433,7 +433,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2979639724566107830">Mở trong cửa sổ mới</translation>
 <translation id="2981364137500752533">Bạn có thể mở tối đa 5 cửa sổ.</translation>
 <translation id="2983102365694924129">Dựa vào hoạt động của bạn trên một trang web. Chế độ cài đặt này đang tắt.</translation>
-<translation id="2984978667043170458">Bao gồm văn bản xung quanh trong các lượt tìm kiếm của Google</translation>
+<translation id="2984978667043170458">Bao gồm văn bản xung quanh trong các lượt tìm kiếm của Decentr</translation>
 <translation id="2989523299700148168">Đã truy cập gần đây</translation>
 <translation id="2992473221983447149">Nội dung mô tả hình ảnh</translation>
 <translation id="2996291259634659425">Tạo cụm mật khẩu</translation>
@@ -567,7 +567,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3636940436873918441">Ngôn ngữ ưu tiên</translation>
 <translation id="3637744895182738742">Nếu bạn quên cụm mật khẩu hoặc muốn thay đổi chế độ cài đặt này, hãy <ph name="BEGIN_LINK" />xoá dữ liệu Chrome khỏi tài khoản của bạn<ph name="END_LINK" />.</translation>
 <translation id="3653111872753786013"><ph name="WEBSITE_TITLE" />: <ph name="WEBSITE_URL" /></translation>
-<translation id="3674208116086565128">Chuyển đến thẻ Trang chủ trong ứng dụng Google</translation>
+<translation id="3674208116086565128">Chuyển đến thẻ Trang chủ trong ứng dụng Decentr</translation>
 <translation id="368329460027487650">Đã đăng xuất. Mở các tuỳ chọn đăng nhập.</translation>
 <translation id="3684540848053703310">Đã đóng bảng thông tin chi tiết về giá ở dưới cùng</translation>
 <translation id="3687645719033307815">Bạn đang xem bản xem trước của trang này</translation>
@@ -582,7 +582,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3710560693796335511">Cộng tác</translation>
 <translation id="3714981814255182093">Mở thanh Tìm kiếm</translation>
 <translation id="3718765429352682176">Nhật ký có thể bao gồm các đường liên kết được mở trong Chrome từ các ứng dụng khác.</translation>
-<translation id="3721119614952978349">Bạn và Google</translation>
+<translation id="3721119614952978349">Bạn và Decentr</translation>
 <translation id="3737319253362202215">Cài đặt bản dịch</translation>
 <translation id="3738139272394829648">Chạm để tìm kiếm</translation>
 <translation id="3739455665973395693">Không có mật khẩu bị lộ nào trong Tài khoản Google của bạn</translation>
@@ -591,7 +591,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="376561056759077985">Một số dữ liệu chưa được lưu</translation>
 <translation id="3771033907050503522">Thẻ ẩn danh</translation>
 <translation id="3771290962915251154">Tùy chọn cài đặt này bị tắt do các quyền kiểm soát của cha mẹ đang bật</translation>
-<translation id="3771694256347217732">Điều khoản dịch vụ của Google</translation>
+<translation id="3771694256347217732">Điều khoản dịch vụ của Decentr</translation>
 <translation id="3775705724665058594">Gửi đến thiết bị của bạn</translation>
 <translation id="3777796259512476958">Bạn sẽ bị đăng xuất khỏi hầu hết các trang web</translation>
 <translation id="379035798868314833">Trình quản lý mật khẩu của Google sẽ ngừng hoạt động trên thiết bị này</translation>
@@ -658,7 +658,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="4092709865241032354">Để giúp Trình quản lý mật khẩu của Google lưu thông tin đăng nhập của bạn, hãy thêm tên người dùng cho trang web này</translation>
 <translation id="4095146165863963773">Xóa dữ liệu ứng dụng?</translation>
 <translation id="4096227151372679484">Luồng lưu dấu trang đã mở ở nửa dưới của màn hình</translation>
-<translation id="4105527135143631701">Đã mở yêu cầu cập nhật của Trình quản lý mật khẩu của Google</translation>
+<translation id="4105527135143631701">Đã mở yêu cầu cập nhật của Trình quản lý mật khẩu của Decentr</translation>
 <translation id="4108314971463891922">Theo dõi</translation>
 <translation id="4113030288477039509">Do quản trị viên của bạn quản lý</translation>
 <translation id="4116038641877404294">Tải trang xuống để sử dụng ngoại tuyến</translation>
@@ -688,7 +688,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="4248098802131000011">Bảo vệ mật khẩu của bạn trước việc bị rò rỉ dữ liệu và các vấn đề bảo mật khác</translation>
 <translation id="424864128008805179">Đăng xuất khỏi Chrome?</translation>
 <translation id="4249955472157341256">Sắp xếp theo Mới nhất</translation>
-<translation id="4255841059940367080">Biện pháp bảo vệ dựa trên AI theo thời gian thực trước các trang web, tệp đã tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới Google</translation>
+<translation id="4255841059940367080">Biện pháp bảo vệ dựa trên AI theo thời gian thực trước các trang web, tệp đã tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới Decentr</translation>
 <translation id="4256782883801055595">Giấy phép nguồn mở</translation>
 <translation id="4257230861809842349">Xoá mật khẩu khỏi Trình quản lý mật khẩu của Google?</translation>
 <translation id="426652736638196239">Số IBAN này sẽ chỉ được lưu vào thiết bị này</translation>
@@ -760,7 +760,7 @@ Tài khoản Google của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4583164079174244168">{MINUTES,plural, =1{# phút trước}other{# phút trước}}</translation>
 <translation id="4587589328781138893">Trang web</translation>
 <translation id="4594952190837476234">Trang ngoại tuyến này được tạo từ lúc <ph name="CREATION_TIME" /> và có thể khác với phiên bản trực tuyến.</translation>
-<translation id="4595805675102978678">Lỗi Tài khoản Google</translation>
+<translation id="4595805675102978678">Lỗi Tài khoản Decentr</translation>
 <translation id="4601095002996233687">Quét kỹ càng để tìm nội dung tải xuống đáng ngờ.</translation>
 <translation id="4606559747793337066">Khi một trang web hoặc ứng dụng yêu cầu tải trước các đường liên kết trên trang ở chế độ riêng tư, thì Chrome sẽ mã hoá và tải trước những trang này thông qua các máy chủ của Google mà không có cookie. Điều này giúp ẩn danh tính của bạn khỏi trang web được tải trước.</translation>
 <translation id="4609429330876432068">Danh sách mật khẩu mà bạn lưu cho Chrome và <ph name="CHROME_CHANNEL" /> đã được hợp nhất. Bạn vẫn có thể chọn tự động điền tất cả mật khẩu đã lưu trên cả hai ứng dụng.</translation>
@@ -824,7 +824,7 @@ Tài khoản Google của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4835385943915508971">Chrome không có quyền truy cập vào tài nguyên đã yêu cầu.</translation>
 <translation id="483742037940503070">{TAB_COUNT,plural, =1{Khôi phục nhóm <ph name="TAB_COUNT_ONE" /> thẻ, màu <ph name="COLOR_NAME" />, dưới dạng một nhóm thẻ mới trong nền.}other{Khôi phục nhóm <ph name="TAB_COUNT_MANY" /> thẻ, màu <ph name="COLOR_NAME" />, dưới dạng một nhóm thẻ mới trong nền.}}</translation>
 <translation id="4837753911714442426">Mở tùy chọn để in trang</translation>
-<translation id="4844633725025837809">Để tăng mức độ an toàn, hãy mã hoá mật khẩu trên thiết bị trước khi lưu vào Trình quản lý mật khẩu của Google</translation>
+<translation id="4844633725025837809">Để tăng mức độ an toàn, hãy mã hoá mật khẩu trên thiết bị trước khi lưu vào Trình quản lý mật khẩu của Decentr</translation>
 <translation id="4849731766219625109">Sử dụng tài khoản <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE" /> của bạn</translation>
 <translation id="4850886885716139402">Xem</translation>
 <translation id="4852014461738377247">Đang đăng nhập\u2026</translation>
@@ -841,7 +841,7 @@ Tài khoản Google của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4885273946141277891">Số phiên bản Chrome không được hỗ trợ.</translation>
 <translation id="4890973535105146893">Không có mật khẩu nào được lưu trong Tài khoản Google của bạn</translation>
 <translation id="4905823827770127520">Đưa một đường liên kết vào trang</translation>
-<translation id="4908869848243824489">Tính năng Khám phá của Google</translation>
+<translation id="4908869848243824489">Tính năng Khám phá của Decentr</translation>
 <translation id="4910889077668685004">Ứng dụng thanh toán</translation>
 <translation id="4912413785358399818">Di chuyển thẻ</translation>
 <translation id="4913169188695071480">Ngừng làm mới</translation>
@@ -854,7 +854,7 @@ Tài khoản Google của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4957722034734105353">Tìm hiểu thêm...</translation>
 <translation id="4961107849584082341">Dịch trang này sang ngôn ngữ bất kỳ</translation>
 <translation id="4964614743143953889">Chrome cảnh báo bạn về các trang web và nội dung tải xuống không an toàn</translation>
-<translation id="496607651705915226">Cập nhật Dịch vụ Google Play để lưu và sử dụng mật khẩu mới trong Tài khoản Google</translation>
+<translation id="496607651705915226">Cập nhật Dịch vụ Google Play để lưu và sử dụng mật khẩu mới trong Tài khoản Decentr</translation>
 <translation id="4971753085054504448">Hãy thử tìm nội dung khác hoặc mở toàn bộ nhật ký duyệt web trên Chrome để xem thêm kết quả.</translation>
 <translation id="497421865427891073">Đi về phía trước</translation>
 <translation id="498624032394115435">Bất cứ ai có đường liên kết này đều có thể chỉnh sửa tất cả các thẻ.</translation>
@@ -863,7 +863,7 @@ Tài khoản Google của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4991110219272367918">Lựa chọn phê duyệt hoặc không phê duyệt một trang web đã đóng</translation>
 <translation id="4996095658297597226">Sử dụng mật khẩu đề xuất?</translation>
 <translation id="5001388021414335527">Theo dõi trang web này tại đây</translation>
-<translation id="5004416275253351869">Kiểm soát hoạt động trên Google</translation>
+<translation id="5004416275253351869">Kiểm soát hoạt động trên Decentr</translation>
 <translation id="5005498671520578047">Sao chép mật khẩu</translation>
 <translation id="5010886807652684893">Chế độ xem hình ảnh</translation>
 <translation id="5011311129201317034"><ph name="SITE" /> muốn kết nối</translation>
@@ -1047,7 +1047,7 @@ Tài khoản Google của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5860033963881614850">Đang tắt</translation>
 <translation id="5860491529813859533">Bật</translation>
 <translation id="5864419784173784555">Đang chờ đến lần tải xuống tiếp theo…</translation>
-<translation id="5865733239029070421">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho Google</translation>
+<translation id="5865733239029070421">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho Decentr</translation>
 <translation id="5869522115854928033">Mật khẩu đã lưu</translation>
 <translation id="587735546353481577">Để theo dõi một trang web, hãy truy cập vào trang web đó, mở trình đơn Chrome rồi nhấn vào Theo dõi.</translation>
 <translation id="5883855034004058011">Hệ thống nhận dạng sinh trắc học xác minh không thành công quá nhiều lần. Hãy khoá rồi mở khoá thiết bị của bạn để thử lại.</translation>
@@ -1266,7 +1266,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6813446258015311409">Đã mở trang Đăng nhập vào Chrome.</translation>
 <translation id="6817747507826986771">Chia sẻ nhanh trang này. Để chỉnh sửa lối tắt này, hãy chạm và giữ.</translation>
 <translation id="6820686453637990663">CVC</translation>
-<translation id="6820942662346226299">Đã đóng yêu cầu cập nhật của Trình quản lý mật khẩu của Google</translation>
+<translation id="6820942662346226299">Đã đóng yêu cầu cập nhật của Trình quản lý mật khẩu của Decentr</translation>
 <translation id="6824933543577433709">Bảng hoạt động gần đây ở dưới cùng đã đóng</translation>
 <translation id="6828070228333235514">Dừng theo dõi giá</translation>
 <translation id="6830728435402077660">Không bảo mật</translation>
@@ -1295,10 +1295,10 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="688738109438487280">Thêm dữ liệu hiện có vào <ph name="TO_ACCOUNT" />.</translation>
 <translation id="6891726759199484455">Mở khóa để sao chép mật khẩu của bạn</translation>
 <translation id="6896758677409633944">Sao chép</translation>
-<translation id="6898797562238201317">Sử dụng cụm mật khẩu của riêng bạn để mã hoá tất cả dữ liệu Chrome trong Tài khoản Google</translation>
+<translation id="6898797562238201317">Sử dụng cụm mật khẩu của riêng bạn để mã hoá tất cả dữ liệu Chrome trong Tài khoản Decentr</translation>
 <translation id="6900532703269623216">Bảo vệ nâng cao</translation>
 <translation id="6903907808598579934">Bật đồng bộ hóa</translation>
-<translation id="6906448540340261898">Đảm bảo bạn luôn có thể sử dụng mật khẩu trong Tài khoản Google</translation>
+<translation id="6906448540340261898">Đảm bảo bạn luôn có thể sử dụng mật khẩu trong Tài khoản Decentr</translation>
 <translation id="6908230663105268638">Cho phép <ph name="SITE_NAME" /> gửi thông báo</translation>
 <translation id="6908998565271542516">Lựa chọn phê duyệt hoặc không phê duyệt một trang web đã mở trên toàn màn hình</translation>
 <translation id="6909589135458168665">Tải trước các trang</translation>
@@ -1340,7 +1340,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="707702207692430409">{BOOKMARK_COUNT,plural, =1{Đã lưu dấu trang vào "<ph name="FOLDER_NAME" />" trong tài khoản <ph name="ACCOUNT_EMAIL" /> của bạn.}other{Đã lưu dấu trang vào "<ph name="FOLDER_NAME" />" trong tài khoản <ph name="ACCOUNT_EMAIL" /> của bạn.}}</translation>
 <translation id="7077143737582773186">Thẻ SD</translation>
 <translation id="7078916049958741685">Xoá cả dữ liệu Chrome khỏi thiết bị này</translation>
-<translation id="7085332316435785646">Chọn xem có bao gồm nhật ký duyệt web trên Chrome hay không để mang lại trải nghiệm phù hợp hơn trong các dịch vụ của Google</translation>
+<translation id="7085332316435785646">Chọn xem có bao gồm nhật ký duyệt web trên Chrome hay không để mang lại trải nghiệm phù hợp hơn trong các dịch vụ của Decentr</translation>
 <translation id="7088681679121566888">Chrome đã được cập nhật</translation>
 <translation id="7106762743910369165">Trình duyệt này do tổ chức của bạn quản lý</translation>
 <translation id="7111394291981742152">Chrome giúp bạn có nhiều quyền kiểm soát hơn đối với những quảng cáo mà bạn thấy và hạn chế những thông tin mà các trang web có thể tìm hiểu về bạn khi cho bạn xem quảng cáo được cá nhân hoá.</translation>
@@ -1361,7 +1361,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7180611975245234373">Làm mới</translation>
 <translation id="7182051712900867547">Sử dụng tài khoản khác</translation>
 <translation id="7183517696921903380">Đã mở bảng lọc theo ứng dụng.</translation>
-<translation id="7186568385131859684">Kiểm soát cách Google sử dụng nhật ký duyệt web cùng với các dữ liệu khác của bạn trên các dịch vụ của Google</translation>
+<translation id="7186568385131859684">Kiểm soát cách Google sử dụng nhật ký duyệt web cùng với các dữ liệu khác của bạn trên các dịch vụ của Decentr</translation>
 <translation id="7190921792980745354">Chặn <ph name="MEMBER_FULL_NAME" />?</translation>
 <translation id="7191430249889272776">Thẻ được mở dưới nền.</translation>
 <translation id="7192397795254933433">{NUM_PASSWORDS,plural, =1{Bạn nên thay đổi mật khẩu này ngay bây giờ}other{Bạn nên thay đổi các mật khẩu này ngay bây giờ}}</translation>
@@ -1408,7 +1408,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7400003506822844357">{FILE_COUNT,plural, =1{Khác, 1 tệp trong danh sách}other{Khác, # tệp trong danh sách}}</translation>
 <translation id="7400418766976504921">URL</translation>
 <translation id="7403691278183511381">Trải nghiệm lần chạy đầu tiên của Chrome</translation>
-<translation id="7411224099004328643">Người dùng Tài khoản Google</translation>
+<translation id="7411224099004328643">Người dùng Tài khoản Decentr</translation>
 <translation id="7419565702166471774">Luôn sử dụng kết nối bảo mật</translation>
 <translation id="7421293530411019405">Rời khỏi nhóm thẻ?</translation>
 <translation id="7431991332293347422">Kiểm soát cách Google sử dụng nhật ký duyệt web của bạn để cá nhân hóa dịch vụ Tìm kiếm và các dịch vụ khác</translation>
@@ -1436,7 +1436,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7507207699631365376">Xem <ph name="BEGIN_LINK" />chính sách quyền riêng tư<ph name="END_LINK" /> của nhà cung cấp này</translation>
 <translation id="750886945254958667">Giữ lại nhóm này để thêm thẻ sau hoặc rời khỏi nhóm nếu bạn không còn muốn truy cập vào nhóm</translation>
 <translation id="7514365320538308">Tải xuống</translation>
-<translation id="7517292544534877198">Sử dụng phương pháp mã hoá mặc định của Google cho mật khẩu trong Tài khoản Google</translation>
+<translation id="7517292544534877198">Sử dụng phương pháp mã hoá mặc định của Google cho mật khẩu trong Tài khoản Decentr</translation>
 <translation id="7518079994230200553">Lựa chọn này hiện không sẵn dùng.</translation>
 <translation id="751961395872307827">Không thể kết nối với trang web</translation>
 <translation id="7523960634226602883">Tìm kiếm bằng máy ảnh thông qua Google Ống kính</translation>
@@ -1511,7 +1511,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7824665136384946951">Tổ chức của bạn đã tắt tính năng Duyệt web an toàn</translation>
 <translation id="7844171778363018843">Bạn chưa chọn dữ liệu nào để đồng bộ hóa</translation>
 <translation id="7846161022626028328">Đã xảy ra lỗi. Hãy thử lại.</translation>
-<translation id="7846296061357476882">Các dịch vụ của Google</translation>
+<translation id="7846296061357476882">Các dịch vụ của Decentr</translation>
 <translation id="784934925303690534">Phạm vi thời gian</translation>
 <translation id="7851858861565204677">Thiết bị khác</translation>
 <translation id="7853202427316060426">Hoạt động</translation>
@@ -1659,7 +1659,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8449781591250785734">{NUM_SITES,plural, =1{Đã loại bỏ quyền của 1 trang web}other{Đã loại bỏ quyền của # trang web}}</translation>
 <translation id="8453310803815879010">Bắt đầu Trò chơi Khủng long</translation>
 <translation id="8455675988389029454">Sử dụng dấu trang, mật khẩu và nhiều nội dung khác trên mọi thiết bị của bạn</translation>
-<translation id="84594714173170813">Tiếp tục sử dụng dữ liệu Chrome trong Tài khoản Google</translation>
+<translation id="84594714173170813">Tiếp tục sử dụng dữ liệu Chrome trong Tài khoản Decentr</translation>
 <translation id="8460448946170646641">Xem xét các chế độ kiểm soát quan trọng đối với quyền riêng tư và tính bảo mật</translation>
 <translation id="8473863474539038330">Địa chỉ và các lựa chọn khác</translation>
 <translation id="8477178913400731244">Xoá dữ liệu</translation>
