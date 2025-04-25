@@ -53,9 +53,9 @@ std::optional<bool> g_override_using_default_data_directory_for_testing;
 // /usr/share seems like a good choice, see: http://www.pathname.com/fhs/
 const base::FilePath::CharType kFilepathSinglePrefExtensions[] =
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
-    FILE_PATH_LITERAL("/usr/share/google-chrome/extensions");
+    FILE_PATH_LITERAL("/usr/share/decentr/extensions");
 #else
-    FILE_PATH_LITERAL("/usr/share/chromium/extensions");
+    FILE_PATH_LITERAL("/usr/share/decentr/extensions");
 #endif  // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 #endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_CHROMEOS)
@@ -532,8 +532,7 @@ bool PathProvider(int key, base::FilePath* result) {
         return false;
       }
 
-      cur = cur.Append(FILE_PATH_LITERAL("Google"))
-                .Append(FILE_PATH_LITERAL("Chrome"))
+      cur = cur.Append(FILE_PATH_LITERAL("Decentr"))
                 .Append(FILE_PATH_LITERAL("External Extensions"));
 #else
       if (!base::PathService::Get(base::DIR_MODULE, &cur)) {
@@ -563,18 +562,18 @@ bool PathProvider(int key, base::FilePath* result) {
 #if BUILDFLAG(IS_MAC)
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
       cur = base::FilePath(
-          FILE_PATH_LITERAL("/Library/Google/Chrome/NativeMessagingHosts"));
+          FILE_PATH_LITERAL("/Library/decentr/NativeMessagingHosts"));
 #else
       cur = base::FilePath(FILE_PATH_LITERAL(
-          "/Library/Application Support/Chromium/NativeMessagingHosts"));
+          "/Library/Application Support/decentr/NativeMessagingHosts"));
 #endif
 #else  // BUILDFLAG(IS_MAC)
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
       cur = base::FilePath(
-          FILE_PATH_LITERAL("/etc/opt/chrome/native-messaging-hosts"));
+          FILE_PATH_LITERAL("/etc/opt/decentr/native-messaging-hosts"));
 #else
       cur = base::FilePath(
-          FILE_PATH_LITERAL("/etc/chromium/native-messaging-hosts"));
+          FILE_PATH_LITERAL("/etc/decentr/native-messaging-hosts"));
 #endif
 #endif  // !BUILDFLAG(IS_MAC)
       break;

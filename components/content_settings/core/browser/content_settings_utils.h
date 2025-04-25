@@ -45,6 +45,7 @@ class MapValueIterator {
 // content/public/common/url_constants.h to avoid complicated dependencies.
 const char kChromeDevToolsScheme[] = "devtools";
 const char kChromeUIScheme[] = "chrome";
+const char kDecentrUIScheme[] = "decentr";
 const char kExtensionScheme[] = "chrome-extension";
 const char kChromeUIUntrustedScheme[] = "chrome-untrusted";
 

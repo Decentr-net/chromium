@@ -63,6 +63,7 @@ class TabHoverCardBubbleView : public views::BubbleDialogDelegateView {
   TabHoverCardBubbleView& operator=(const TabHoverCardBubbleView&) = delete;
   ~TabHoverCardBubbleView() override;
 
+  
   // Create the CollaborationMessagingRowData from TabRendererData.
   CollaborationMessagingRowData GetCollaborationMessagingData(
       const TabRendererData& tab_data);

@@ -65,6 +65,7 @@
 #include "ui/views/style/typography.h"
 #include "ui/views/view_class_properties.h"
 #include "ui/views/widget/widget.h"
+#include "content/public/common/url_constants.h"
 
 namespace {
 

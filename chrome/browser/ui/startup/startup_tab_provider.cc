@@ -271,6 +271,8 @@ StartupTabs StartupTabProviderImpl::GetPrivacySandboxTabs(
 
 #endif  // !BUILDFLAG(IS_ANDROID)
 
+const char kCharonWelcome[] = "https://decentr.net/#product";
+
 // static
 StartupTabs StartupTabProviderImpl::GetInitialPrefsTabsForState(
     bool is_first_run,
@@ -284,7 +286,7 @@ StartupTabs StartupTabProviderImpl::GetInitialPrefsTabsForState(
     tabs.reserve(first_run_tabs.size());
     for (GURL url : first_run_tabs) {
       if (url.host_piece() == kNewTabUrlHost) {
-        url = GURL(chrome::kChromeUINewTabURL);
+        url = GURL(kCharonWelcome);
       }
       if (IsWelcomePageUrl(url)) {
         // These URLs are still referenced from some of the installers. As
@@ -344,7 +346,7 @@ StartupTabs StartupTabProviderImpl::GetNewTabPageTabsForState(
     const SessionStartupPref& pref) {
   StartupTabs tabs;
   if (!pref.ShouldRestoreLastSession()) {
-    tabs.emplace_back(GURL(chrome::kChromeUINewTabURL));
+    tabs.emplace_back(GURL(kCharonWelcome));
   }
   return tabs;
 }
@@ -400,7 +402,7 @@ StartupTabs StartupTabProviderImpl::GetPrivacySandboxTabsForState(
       !IsChromeControlledNtpUrl(ntp_url)) {
     tabs.emplace_back(GURL(url::kAboutBlankURL));
   } else {
-    tabs.emplace_back(GURL(chrome::kChromeUINewTabURL));
+    tabs.emplace_back(GURL(kCharonWelcome));
   }
 
   return tabs;

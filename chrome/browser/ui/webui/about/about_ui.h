@@ -105,6 +105,9 @@ class AboutUIHTMLSource : public content::URLDataSource {
   std::string GetAccessControlAllowOriginForOrigin(
       const std::string& origin) override;
 
+
+      void NotUsed() {}                    
+      std::string ChromeURLs() const; 
   // Send the response data.
   void FinishDataRequest(const std::string& html,
                          content::URLDataSource::GotDataCallback callback);

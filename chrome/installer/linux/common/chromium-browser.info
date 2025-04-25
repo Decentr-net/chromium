@@ -6,37 +6,37 @@
 # chromium-browser packages for various platforms.
 
 # Base name of the package.
-PACKAGE="chromium-browser"
+PACKAGE="decentr-browser"
 
 # Filename of the main executable (for generating launcher scripts, etc.)
-PROGNAME=chrome
+PROGNAME=decentr
 
 # Base directory for package installation.
-INSTALLDIR=/opt/chromium.org/chromium
+INSTALLDIR=/opt/decentr.org/decentr
 
 # Directory for device policy enrollments.
-ENROLLMENTDIR=/etc/chromium/policies/enrollment
+ENROLLMENTDIR=/etc/decentr/policies/enrollment
 
 # Display string for desktop menu/icon.
-MENUNAME="Chromium Web Browser"
+MENUNAME="decentr Web Browser"
 
 # Brief package description.
-SHORTDESC="The web browser from the Chromium projects"
+SHORTDESC="The web browser from the decentr projects"
 
 # Detailed package description.
-FULLDESC="Chromium is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
+FULLDESC="decentr is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier."
 
 # Package maintainer information.
-MAINTNAME="Chromium Linux Team"
-MAINTMAIL="chromium-packagers@chromium.org"
-PRODUCTURL="https://www.chromium.org/Home"
+MAINTNAME="decentr Linux Team"
+MAINTMAIL="chromium-packagers@decentr.org"
+PRODUCTURL="https://www.decentr.net"
 
 PROJECT_LICENSE="BSD-3-Clause and LGPL-2.1+ and Apache-2.0 and IJG and MIT and GPL-2.0+ and ISC and OpenSSL and (MPL-1.1 or GPL-2.0 or LGPL-2.0)"
 
-DEVELOPER_NAME="The Chromium Authors"
+DEVELOPER_NAME="The Decentr Authors"
 
 BUGTRACKERURL="https://www.chromium.org/for-testers/bug-reporting-guidelines"
 
 HELPURL="https://chromium.googlesource.com/chromium/src/+/main/docs/linux/debugging.md"
 
-RDN="org.chromium.Chromium"
+RDN="com.decentr.decentr"

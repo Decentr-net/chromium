@@ -150,7 +150,7 @@ bool IsChromeLabsEnabled() {
   }
   if (base::CommandLine::ForCurrentProcess()->HasSwitch(
           variations::switches::kEnableBenchmarking)) {
-    return true;
+    return false;
   }
   // Could be null in unit tests.
   if (!g_browser_process->local_state()) {
@@ -171,7 +171,7 @@ bool IsChromeLabsEnabled() {
       g_browser_process->local_state()->GetInteger(
           chrome_labs_prefs::kChromeLabsActivationThreshold) <=
           kChromeLabsActivationPercentage) {
-    return true;
+    return false;
   }
   return false;
 }

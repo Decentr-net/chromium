@@ -88,12 +88,12 @@ if (is_win) {
     # initialexe/ is used so that the we can reorder imports and write back to
     # the final destination at $root_out_dir/.
     inputs = [
-      "$root_out_dir/initialexe/chrome.exe",
-      "$root_out_dir/initialexe/chrome.exe.pdb",
+      "$root_out_dir/initialexe/decentr.exe",
+      "$root_out_dir/initialexe/decentr.exe.pdb",
     ]
     outputs = [
-      "$root_out_dir/chrome.exe",
-      "$root_out_dir/chrome.exe.pdb",
+      "$root_out_dir/decentr.exe",
+      "$root_out_dir/decentr.exe.pdb",
     ]
     args = [
       "-i",
@@ -151,9 +151,9 @@ if (!is_android && !is_mac) {
   }
 
   if (is_win) {
-    _chrome_output_name = "initialexe/chrome"
+    _chrome_output_name = "initialexe/decentr"
   } else {
-    _chrome_output_name = "chrome"
+    _chrome_output_name = "decentr"
   }
 
   executable("chrome_initial") {
@@ -258,7 +258,7 @@ if (!is_android && !is_mac) {
       if (win_console_app) {
         defines += [ "WIN_CONSOLE_APP" ]
       } else {
-        # Set /SUBSYSTEM:WINDOWS for chrome.exe itself, unless a console build
+        # Set /SUBSYSTEM:WINDOWS for decentr.exe itself, unless a console build
         # has been requested.
         configs -= [ "//build/config/win:console" ]
         configs += [ "//build/config/win:windowed" ]
@@ -1705,7 +1705,7 @@ if (is_linux || is_chromeos) {
       }
     }
     extract_symbols("chrome_symbols") {
-      binary = "$root_out_dir/chrome"
+      binary = "$root_out_dir/decentr"
 
       if (current_cpu == "x86") {
         # GYP used "ia32" so keep that naming for back-compat.
@@ -1816,7 +1816,7 @@ if (is_linux || is_chromeos) {
 
 if (_cros_generate_embed_section_target) {
   embed_sections("section_embedded_chrome_binary") {
-    binary_input = "$root_out_dir/chrome"
+    binary_input = "$root_out_dir/decentr"
     sections_embedded_binary_output = "$root_out_dir/chrome.sections_embedded"
     deps = [ ":chrome" ]
   }
