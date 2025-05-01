@@ -123,6 +123,12 @@ def get_parts(config):
                 options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
                 sign_with_identifier=True,
                 verify_options=verify_options),
+        'deweb-server':
+            CodeSignedProduct(
+                '{.framework_dir}/Helpers/deweb-server'.format(config),
+                'deweb-server',
+                options=CodeSignOptions.FULL_HARDENED_RUNTIME_OPTIONS,
+                verify_options=verify_options),
     }
 
     if config.enable_updater:
@@ -208,7 +214,7 @@ def sign_chrome(paths, config, sign_framework=False):
         # signing the Current version.
         # https://developer.apple.com/library/content/technotes/tn2206/_index.html#//apple_ref/doc/uid/DTS40007919-CH1-TNTAG13
         for name, part in parts.items():
-            if name in ('app', 'framework', 'privileged-helper'):
+            if name in ('app', 'framework', 'privileged-helper','deweb_server_config.yaml'):
                 continue
             signing.sign_part(paths, config, part)
 

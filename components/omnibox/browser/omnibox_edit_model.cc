@@ -476,6 +476,26 @@ void OmniboxEditModel::RestoreState(const State* state) {
   }
 }
 
+// Function to replace ".localhost:8080" with ".massa" in std::u16string
+std::u16string ReplaceLocalhostWithMassa(const std::u16string& url) {
+  // Convert ".localhost:8080" to a u16string for comparison
+  std::u16string target = u"localhost:8080";
+  std::u16string replacement = u"massa";
+
+  // Find the position of the target string
+  size_t pos = url.find(target);
+
+  // If found, replace it with "massa"
+  if (pos != std::u16string::npos) {
+      std::u16string modified_url = url;
+      modified_url.replace(pos, target.length(), replacement);
+      return modified_url;
+  }
+
+  // If not found, return the original URL
+  return url;
+}
+
 AutocompleteMatch OmniboxEditModel::CurrentMatch(
     GURL* alternate_nav_url) const {
   // If we have a valid match use it. Otherwise get one for the current text.
@@ -501,6 +521,8 @@ bool OmniboxEditModel::ResetDisplayTexts() {
   display_text_ = url_for_editing_;
 #else
   display_text_ = controller_->client()->GetURLForDisplay();
+  display_text_ = ReplaceLocalhostWithMassa(display_text_);
+
 #endif
   // When there's new permanent text, and the user isn't interacting with the
   // omnibox, we want to revert the edit to show the new text.  We could simply
@@ -2568,6 +2590,69 @@ void OmniboxEditModel::AcceptInput(WindowOpenDisposition disposition,
               match_selection_timestamp);
   }
 }
+/*
+#include "url/gurl.h"
+#include "url/url_canon.h"
+#include "base/strings/string_util.h"
+#include <cstring>  // for strlen
+
+GURL RewriteMassaToLocalhost(const GURL& original_url) {
+  const std::string& host = original_url.host();
+  if (!base::EndsWith(host, ".massa", base::CompareCase::INSENSITIVE_ASCII)) {
+    return original_url;
+  }
+
+  // Use StringViewReplacements<char> for GURL::ReplaceComponents
+  url::StringViewReplacements<char> replacements;
+
+  // Set the new host
+  replacements.SetHostStr("localhost");
+
+  // Set the new port
+  replacements.SetPortStr("8080");
+
+  // Replace the components in the URL
+  return original_url.ReplaceComponents(replacements);
+}
+
+*/
+#include "url/gurl.h"
+#include "base/strings/string_util.h"
+
+GURL RewriteMassaToLocalhost(const GURL& original_url) {
+    std::string host = original_url.host();
+
+    // Check if the host ends with ".massa" (case insensitive).
+    if (!base::EndsWith(host, ".massa", base::CompareCase::INSENSITIVE_ASCII)) {
+        return original_url;  // Return unchanged if not ".massa".
+    }
+
+    // Find the part of the host before ".massa"
+    size_t massa_pos = host.rfind(".massa");
+    if (massa_pos == std::string::npos) {
+        return original_url;  // This shouldn't happen if we checked earlier.
+    }
+
+    // Extract the part before ".massa" (e.g., "ins" from "ins.massa").
+    std::string prefix = host.substr(0, massa_pos);
+
+    // Create the new host, replacing ".massa" with ".localhost" and appending ":8080"
+    std::string new_host = prefix + ".localhost";
+
+    // Use StringViewReplacements<char> for GURL::ReplaceComponents
+    url::StringViewReplacements<char> replacements;
+
+    // Set the new host and port
+    replacements.SetHostStr(new_host);
+    replacements.SetPortStr("8080");
+
+    // Replace the components in the URL
+    GURL modified_url = original_url.ReplaceComponents(replacements);
+
+    return modified_url;
+}
+
+
 
 void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
                                  AutocompleteMatch match,
@@ -2885,6 +2970,9 @@ void OmniboxEditModel::OpenMatch(OmniboxPopupSelection selection,
     if (destination_url.is_valid()) {
       // This calls RevertAll again.
       base::AutoReset<bool> tmp(&in_revert_, true);
+
+      destination_url = RewriteMassaToLocalhost(destination_url);
+
 
       controller_->client()->OnAutocompleteAccept(
           destination_url, match.post_content.get(), disposition,

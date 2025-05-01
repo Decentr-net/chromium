@@ -898,6 +898,19 @@ if (is_win) {
       "$root_out_dir/web_app_shortcut_copier",
     ]
 
+     if (current_cpu == "arm64") 
+    {
+      sources += [
+        "massa/arm/deweb-server",
+        "massa/deweb_server_config.yaml",
+      ]
+    }else{
+      sources += [
+        "massa/x86/deweb-server",
+        "massa/deweb_server_config.yaml",
+      ]
+    }
+
     outputs = [ "{{bundle_contents_dir}}/Helpers/{{source_file_part}}" ]
 
     public_deps = [

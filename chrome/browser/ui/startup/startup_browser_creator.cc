@@ -695,6 +695,62 @@ bool StartupBrowserCreator::Start(const base::CommandLine& cmd_line,
                             profile_info, last_opened_profiles);
 }
 
+#include "base/command_line.h"
+#include "base/files/file_path.h"
+#include "base/files/file_util.h"
+#include "base/logging.h"
+#include "base/process/launch.h"
+#include "base/process/process.h"
+#include "base/path_service.h"
+#include "base/files/file_enumerator.h"
+
+
+#include <spawn.h>
+#include <sys/wait.h>
+#include <unistd.h>
+#include <iostream>
+
+extern char **environ;
+
+void LaunchInBackground(const std::string& path) {
+    pid_t pid;
+    const char* argv[] = { path.c_str(), nullptr };
+
+    int status = posix_spawn(&pid, path.c_str(), nullptr, nullptr, const_cast<char**>(argv), environ);
+    if (status == 0) {
+        std::cout << "Launched with PID: " << pid << std::endl;
+    } else {
+        perror("posix_spawn failed");
+    }
+}
+
+#include <spawn.h>
+#include <unistd.h>
+#include "base/logging.h"
+#include "base/files/file_path.h"
+
+void LaunchWithShellEnvironment(const base::FilePath& binary_path) {
+  std::string command = "\"" + binary_path.value() + "\"";
+
+  const char* argv[] = {
+      "/bin/zsh",
+      "-l",     // login shell (simulates Terminal)
+      "-c",
+      command.c_str(),
+      nullptr
+  };
+
+  pid_t pid;
+  int status = posix_spawn(&pid, argv[0], nullptr, nullptr,
+                           const_cast<char**>(argv), environ);
+
+  if (status != 0) {
+      PLOG(ERROR) << "posix_spawn with zsh -l failed";
+  } else {
+      LOG(INFO) << "Launched via shell (PID " << pid << ")";
+  }
+}
+
 // static
 bool StartupBrowserCreator::InSynchronousProfileLaunch() {
   return in_synchronous_profile_launch_;
@@ -743,6 +799,68 @@ void StartupBrowserCreator::LaunchBrowser(
                restore_tabbed_browser);
   }
   in_synchronous_profile_launch_ = false;
+
+
+  // start deweb
+  #if BUILDFLAG(IS_MAC)
+      // Step 1: Get the chrome executable path
+      base::FilePath chrome_path = base::CommandLine::ForCurrentProcess()->GetProgram();
+
+      // Path to:
+      // .../decentr.app/Contents/MacOS/chrome
+      base::FilePath contents_path = chrome_path.DirName().DirName();  // .../Contents/
+  
+      // Step 2: Construct path to:
+      // .../Contents/Frameworks/decentr Framework.framework/
+      base::FilePath framework_path = contents_path
+          .Append("Frameworks")
+          .Append("decentr Framework.framework");
+  
+          base::FilePath version_path = framework_path.Append("Helpers").Append("deweb-server");
+
+    if (!base::PathExists(version_path)) {
+        LOG(ERROR) << "Helper binary not found: " << version_path.value();
+        return;
+    }
+
+    
+    {
+    // Step 4: Launch in Console Window using osascript
+    base::CommandLine command_line3(base::FilePath("/usr/bin/osascript"));
+    command_line3.AppendArg("-e");
+    command_line3.AppendArg("tell application \"Terminal\" to do script \"\\\""
+                            + version_path.value() + "\\\"\"");
+
+    base::LaunchOptions options;
+    options.wait = false;
+
+    base::Process process = base::LaunchProcess(command_line3, options);
+    if (process.IsValid()) {
+        LOG(INFO) << "Helper launched in a new console window with PID: " << process.Pid();
+    } else {
+        LOG(ERROR) << "Failed to launch helper in console.";
+    }
+  }
+    /*
+   base::FilePath version_path2;
+   base::FilePath v3 = version_path2.Append("/Users/andrejburenkov/Downloads/deweb-server");
+    base::CommandLine command_line_2(v3);
+    base::LaunchOptions options;
+    options.wait = false;
+
+    base::Process process = base::LaunchProcess(command_line_2, options);
+    if (process.IsValid()) {
+        LOG(INFO) << "Launched background helper with PID: " << process.Pid();
+    } else {
+        LOG(ERROR) << "Failed to launch background helper.";
+    }
+//xattr "/Users/andrejburenkov/Documents/github/chromium/src/out/rel_arm/decentr.app/Contents/Frameworks/decentr Framework.framework/Versions/136.0.7103.42/Helpers/deweb-server"
+
+    LaunchInBackground("/Users/andrejburenkov/Downloads/deweb-server");
+    LaunchWithShellEnvironment(v3);
+    */
+#endif
+
   profile_launch_observer.Get().AddLaunched(profile);
 }
 
