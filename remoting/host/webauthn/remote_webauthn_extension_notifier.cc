@@ -101,7 +101,7 @@ std::vector<base::FilePath> GetRemoteStateChangeDirPaths() {
       base_path.Append("google-chrome-canary").Append(kStateChangeDirName));
   dirs.push_back(
       base_path.Append("google-chrome-unstable").Append(kStateChangeDirName));
-  dirs.push_back(base_path.Append("chromium").Append(kStateChangeDirName));
+  dirs.push_back(base_path.Append("decentr").Append(kStateChangeDirName));
 #elif BUILDFLAG(IS_WIN)
   // See: chrome/common/chrome_paths_win.cc
   constexpr base::FilePath::CharType kUserDataDirName[] =
@@ -138,7 +138,7 @@ std::vector<base::FilePath> GetRemoteStateChangeDirPaths() {
   dirs.push_back(base_path_google.Append(L"Chrome SxS")
                      .Append(kUserDataDirName)
                      .Append(kStateChangeDirName));
-  dirs.push_back(base_path.Append(L"Chromium")
+  dirs.push_back(base_path.Append(L"Decentr")
                      .Append(kUserDataDirName)
                      .Append(kStateChangeDirName));
 #elif BUILDFLAG(IS_MAC)
